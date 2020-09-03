@@ -134,7 +134,7 @@ namespace steam_db
             }
             catch(Exception e)
             {
-                Console.WriteLine(" failed (no achievements ?) " + e.Message);
+                Console.WriteLine(" failed (no achievements or stats ?): {0}", e.Message);
             }
         }
 
@@ -200,9 +200,9 @@ namespace steam_db
                     Console.WriteLine("  + No items");
                 }
             }
-            catch(Exception)
+            catch(Exception e)
             {
-                Console.WriteLine(" failed (no items ?)");
+                Console.WriteLine(" failed (no items ?): {0}", e.Message);
             }
         }
         
@@ -424,6 +424,7 @@ namespace steam_db
                                     Directory.CreateDirectory(Path.Combine("steam", appid));
                                 }
 
+                                // Always sleep for 1s before retrieving any game or dlc or Steam will lock you up for some time.
                                 Thread.Sleep(1000);
                                 if (type == "dlc")
                                 {
@@ -482,7 +483,7 @@ namespace steam_db
         [Option('o', "out", Required = false, HelpText = "Where to output your game definitions.")]
         public string OutDirectory { get; set; } = "steam";
 
-        [Value(0, Required = true, HelpText = "Any number of appid to get their infos. If you don't pass any appid, it will try to retrieve all steam's games infos")]
+        [Value(0, Required = false, HelpText = "Any number of appid to get their infos. If you don't pass any appid, it will try to retrieve all steam's games infos")]
         public IEnumerable<string> AppIds { get; set; }
     }
 }
