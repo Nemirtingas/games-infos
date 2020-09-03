@@ -1,6 +1,6 @@
 (this readme will be a work in progress, duh...)
 
-## Games Infos
+# Games Infos
 
 A simple collection of various information for your Steam/Epic Games:
 
@@ -22,9 +22,11 @@ Get the steam_retriever (currently it can be found on the left in "CI/CD" sectio
 ### steam_retriever usage
 
 ```
-steam_retriever [appids] -k [key] (-i) (-o [folder])
-[appids] - the AppID list of the game info you want to retrieve. Separated by Space. Mandatory-ish, because otherwise (if unspecified or wrongly separated) it will try to retrieve information for ALL the AppIDs available.
--k [key] - Steam WebAPI key. Mandatory. Get it from [here](https://steamcommunity.com/dev/apikey).
--i - option to retrieve achievements images. Optional. Can take a while for some games.
--o [folder] - changes the output folder for the retriever. Optional. By default, it will save everything to the "steam" folder alongside the retriever.
+steam_retriever [-k key|--apikey=key] [-i|--download_images] [-o folder|--out=folder] [-l language|--language=language] appid1 appid2 ...
+-k|--apikey key - Steam WebAPI key. Optional. Get it from [here](https://steamcommunity.com/dev/apikey). If no apikey is given, it will only get game's infos and dlcs.
+-i|--download_images - Option to retrieve achievements images. Optional. Can take a while for some games.
+-o|--out folder - Changes the output folder for the retriever. Optional. By default, it will save everything  to the "steam" folder in your current working directory.
+-l|--language language - Changes the language of the achievements definitions. Optional. Default is to retrieve english. It will be in english if there are no achievements in your language.
+appid1 appid2 ... - Mandatory - A list of appid to get achievements, stats, dlcs and game infos.
+
 ```

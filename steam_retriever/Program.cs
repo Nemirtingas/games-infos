@@ -26,7 +26,7 @@ namespace steam_db
         {
             if(string.IsNullOrEmpty(webapi_key))
             {
-                Console.WriteLine("  + WebApi key missing, will not generate items definitions.");
+                Console.WriteLine("  + WebApi key is missing, the tool will not generate achievements list.");
                 return;
             }
 
@@ -108,16 +108,16 @@ namespace steam_db
                 }//using (HttpWebResponse response = (HttpWebResponse)request.GetResponse())
                 if(done == 0)
                 {
-                    Console.WriteLine("  + No achievements or stats.");
+                    Console.WriteLine("  + No achievements or stats available for this AppID.");
                 }
                 else
                 {
-                    Console.WriteLine("  + Success");
+                    Console.WriteLine("  + Achievements and stats were successfully generated!");
                 }
             }
             catch(Exception e)
             {
-                Console.WriteLine(" failed (no achievements or stats ?): {0}", e.Message);
+                Console.WriteLine(" failed (no achievements or stats?): {0}", e.Message);
             }
         }
 
@@ -125,7 +125,7 @@ namespace steam_db
         {
             if(string.IsNullOrEmpty(webapi_key))
             {
-                Console.WriteLine("  + WebApi key missing, will not generate items definitions.");
+                Console.WriteLine("  + WebApi key is missing, the tool will not generate items definitions.");
                 return;
             }
 
@@ -176,16 +176,16 @@ namespace steam_db
                 }
                 if(done)
                 {
-                    Console.WriteLine("  + Success");
+                    Console.WriteLine("  + Items list successfully generated!");
                 }
                 else
                 {
-                    Console.WriteLine("  + No items");
+                    Console.WriteLine("  + No items exist for this AppID");
                 }
             }
             catch(Exception e)
             {
-                Console.WriteLine(" failed (no items ?): {0}", e.Message);
+                Console.WriteLine(" failed (no items?): {0}", e.Message);
             }
         }
         
@@ -199,7 +199,7 @@ namespace steam_db
             infos.Add("Name", name);
             infos.Add("ImageUrl", header_image);
 
-            Console.WriteLine(string.Format("  \\ Type {0}, DlcId {1}, DlcName {2}, MainAppid {3}", type, appid, name, main_appid));
+            Console.WriteLine(string.Format("  \\ Type {0}, DLCID {1}, DLCName {2}, MainAppID {3}", type, appid, name, main_appid));
 
             return infos;
         }
@@ -275,7 +275,7 @@ namespace steam_db
             infos["Platforms"] = platforms;
             infos["Dlcs"] = dlcs;
 
-            Console.WriteLine(string.Format("  \\ Type {0}, AppId {1}, appName {2}", type, appid, name));
+            Console.WriteLine(string.Format("  \\ Type {0}, AppID {1}, appName {2}", type, appid, name));
 
             return infos;
         }
@@ -357,7 +357,7 @@ namespace steam_db
 
                 if(appids.Count == 0)
                 {
-                    Console.WriteLine("No appids, try to dump all Steam !");
+                    Console.WriteLine("No AppIDs specified, trying to dump all games from Steam! If that's not what you intended, stop the script right now!");
 
                     string url = "https://api.steampowered.com/ISteamApps/GetAppList/v2/";
                     request = (HttpWebRequest)WebRequest.Create(url);
@@ -382,7 +382,7 @@ namespace steam_db
                     }
                 }
                 
-                Console.WriteLine(string.Format("Got {0} AppIds to check", appids.Count));
+                Console.WriteLine(string.Format("Got {0} AppIDs to check", appids.Count));
 
                 while (appids.Count > 0)
                 {
@@ -438,7 +438,7 @@ namespace steam_db
                             }
                             catch (Exception e)
                             {
-                                Console.WriteLine("Error while parsing appid {0}: {1}", appid, e.Message);
+                                Console.WriteLine("Error while parsing AppID {0}: {1}", appid, e.Message);
                             }
                         }
                     }
@@ -454,19 +454,19 @@ namespace steam_db
 
     public class Options
     {
-        [Option('l', "language", Required = false, HelpText = "Sets the output language (if available).")]
+        [Option('l', "language", Required = false, HelpText = "Sets the output language (if available). Default value is english.")]
         public string Language { get; set; } = "english";
 
-        [Option('k', "apikey", Required = false, HelpText = "Sets the webapi key (used to access achievements and items definitions).")]
+        [Option('k', "apikey", Required = false, HelpText = "Sets the WebAPI key. Used to access achievements and items definitions.")]
         public string ApiKey { get; set; }
 
-        [Option('i', "download_images", Required = false, HelpText = "Downloads achievements images or not (can take a lot of time).")]
+        [Option('i', "download_images", Required = false, HelpText = "Sets the flag to download achievements images (can take a lot of time, depending on how many achievements are available for the game). Images will not be downloaded if this flag is not specified.")]
         public bool DownloadImages { get; set; } = false;
 
-        [Option('o', "out", Required = false, HelpText = "Where to output your game definitions.")]
+        [Option('o', "out", Required = false, HelpText = "Where to output your game definitions. By default it will output to 'steam' directory alongside the executable.")]
         public string OutDirectory { get; set; } = "steam";
 
-        [Value(0, Required = false, HelpText = "Any number of appid to get their infos. If you don't pass any appid, it will try to retrieve all steam's games infos")]
+        [Value(0, Required = false, HelpText = "Any number of AppID to get their infos. Separate values by Space. If you don't pass any AppID, it will try to retrieve infos for all available Steam games.")]
         public IEnumerable<string> AppIds { get; set; }
     }
 }
