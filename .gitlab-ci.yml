@@ -1,0 +1,27 @@
+stages:
+  - build
+
+variables:
+  DOCKER_DRIVER: overlay2
+  GIT_SUBMODULE_STRATEGY: recursive
+
+build:retrievers:
+  stage: build
+  image: mcr.microsoft.com/dotnet/core/sdk:3.1
+  
+  script:
+    - cd steam_retriever
+    - dotnet publish -c Release
+    - dotnet publish -c Release -r osx-x64 --self-contained=false
+    - dotnet publish -c Release -r win-x64 --self-contained=false
+    - mkdir ../release/
+    - mv bin/Release/netcoreapp3.1/publish/steam_retriever bin/Release/netcoreapp3.1/publish/steam_retriever.linux
+    - mv bin/Release/netcoreapp3.1/osx-x64/publish/steam_retriever bin/Release/netcoreapp3.1/publish/steam_retriever.macos
+    - mv bin/Release/netcoreapp3.1/win-x64/publish/steam_retriever.exe bin/Release/netcoreapp3.1/publish/steam_retriever.exe
+    - mv bin/Release/netcoreapp3.1/publish/* ../release/
+    - exit 0
+
+  artifacts:
+    paths:
+      - release
+    expire_in: 1 day
