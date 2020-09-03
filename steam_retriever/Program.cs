@@ -32,7 +32,7 @@ namespace steam_db
 
             try
             {
-                bool done = false;
+                int done = 0;
                 string url = string.Format("http://api.steampowered.com/ISteamUserStats/GetSchemaForGame/v2/?l={0}&key={1}&appid={2}", language, webapi_key, appid);
                 Console.WriteLine("  + Trying to retrieve achievements and stats...");
 
@@ -83,7 +83,11 @@ namespace steam_db
     
                                         Console.WriteLine("  + Writing Achievements {0}.db_achievements.json", language);
                                         string achievements_file = Path.Combine(out_dir, appid, string.Format("{0}.db_achievements.json", language));
-                                        done = SaveJson(achievements_file, achievements_json["game"]["availableGameStats"]["achievements"]);
+                                        done |= SaveJson(achievements_file, achievements_json["game"]["availableGameStats"]["achievements"]) ? 1 : 0;
+                                        if( (done & 1) != 1 )
+                                        {
+                                            Console.WriteLine("  + Failed to save achievements.");
+                                        }
                                     }
                                     if(((JObject)achievements_json["game"]["availableGameStats"]).ContainsKey("stats"))
                                     {
@@ -108,18 +112,24 @@ namespace steam_db
 
                                         Console.WriteLine("  + Writing stats stats.json.");
                                         string stats_file = Path.Combine(out_dir, appid, "stats.json");
-                                        done = SaveJson(stats_file, stats);
+                                        done |= SaveJson(stats_file, stats) ? 2 : 0;
+                                        if( (done & 2) != 2 )
+                                        {
+                                            Console.WriteLine("  + Failed to save stats.");
+                                        }
                                     }
-
-                                    Console.WriteLine("  + Success");
                                 }
                             }//using (StreamReader streamReader = new StreamReader(sresult))
                         }//using (Stream sresult = response.GetResponseStream())
                     }
                 }//using (HttpWebResponse response = (HttpWebResponse)request.GetResponse())
-                if(!done)
+                if(done == 0)
                 {
-                    Console.WriteLine(" no achievements or stats.");
+                    Console.WriteLine("  + No achievements or stats.");
+                }
+                else
+                {
+                    Console.WriteLine("  + Success");
                 }
             }
             catch(Exception e)
@@ -142,7 +152,7 @@ namespace steam_db
                 string url = string.Format("https://api.steampowered.com/IInventoryService/GetItemDefMeta/v1?key={0}&appid={1}", webapi_key, appid);
                 JObject items_json;
 
-                Console.Write("  + Trying to retrieve items...");
+                Console.WriteLine("  + Trying to retrieve items...");
                 HttpWebRequest request = (HttpWebRequest)WebRequest.Create(url);
                 request.Headers.Add("Accept-encoding:gzip, deflate, br");
                 request.AutomaticDecompression = DecompressionMethods.Deflate | DecompressionMethods.GZip;
@@ -167,11 +177,12 @@ namespace steam_db
                                 {
                                     if (items_response.StatusCode == HttpStatusCode.OK)
                                     {
+                                        Console.WriteLine("  + Writing Items db_inventory.json.");
                                         Stream items_result = items_response.GetResponseStream();
                                         using (StreamReader items_reader = new StreamReader(items_result))
                                         {
                                             JArray items = JArray.Parse(items_reader.ReadToEnd());
-                                            string items_file = Path.Combine(out_dir, appid, string.Format("{0}.db_inventory.json"));
+                                            string items_file = Path.Combine(out_dir, appid, "db_inventory.json");
                                             done = SaveJson(items_file, items);
                                         }
                                     }
@@ -182,11 +193,11 @@ namespace steam_db
                 }
                 if(done)
                 {
-                    Console.WriteLine("  + Writing Items db_inventory.json.");
+                    Console.WriteLine("  + Success");
                 }
                 else
                 {
-                    Console.WriteLine(" no items");
+                    Console.WriteLine("  + No items");
                 }
             }
             catch(Exception)
