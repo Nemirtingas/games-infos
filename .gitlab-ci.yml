@@ -18,7 +18,7 @@ build:retrievers:
     - mv bin/Release/netcoreapp3.1/publish/steam_retriever bin/Release/netcoreapp3.1/publish/steam_retriever.linux
     - mv bin/Release/netcoreapp3.1/osx-x64/publish/steam_retriever bin/Release/netcoreapp3.1/publish/steam_retriever.macos
     - mv bin/Release/netcoreapp3.1/win-x64/publish/steam_retriever.exe bin/Release/netcoreapp3.1/publish/steam_retriever.exe
-    - mv bin/Release/netcoreapp3.1/publish/* ../release/steam_retriever
+    - mv bin/Release/netcoreapp3.1/publish ../release/steam_retriever
     - exit 0
 
   artifacts:
