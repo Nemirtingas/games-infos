@@ -93,26 +93,9 @@ namespace steam_db
                                     {
                                         Directory.CreateDirectory(Path.Combine(out_dir, appid));
 
-                                        JObject stats = new JObject();
-                                        foreach (var tstat in (JArray)achievements_json["game"]["availableGameStats"]["stats"])
-                                        {
-                                            JObject stat = (JObject)tstat;
-                                            string stat_name = (string)stat["name"];
-                                            stats[stat_name] = new JObject();
-                                            if(!stat.ContainsKey("displayName"))
-                                            {
-                                                stats[stat_name]["description"] = "stat_name";
-                                            }
-                                            else
-                                            {
-                                                stats[stat_name]["description"] = stat["displayName"];
-                                            }
-                                            stats[stat_name]["value"] = stat["defaultvalue"];
-                                        }
-
                                         Console.WriteLine("  + Writing stats stats.json.");
                                         string stats_file = Path.Combine(out_dir, appid, "stats.json");
-                                        done |= SaveJson(stats_file, stats) ? 2 : 0;
+                                        done |= SaveJson(stats_file, achievements_json["game"]["availableGameStats"]["stats"]) ? 2 : 0;
                                         if( (done & 2) != 2 )
                                         {
                                             Console.WriteLine("  + Failed to save stats.");

@@ -1,34 +1,42 @@
-﻿{
-  "Bomber1K_stat": {
-    "description": "Bomber1K",
-    "value": 0
+﻿[
+  {
+    "name": "Bomber1K_stat",
+    "defaultvalue": 0,
+    "displayName": "Bomber1K"
   },
-  "Bomber1M_stat": {
-    "description": "Bomber1M",
-    "value": 0
+  {
+    "name": "Bomber1M_stat",
+    "defaultvalue": 0,
+    "displayName": "Bomber1M"
   },
-  "Breaker1K_stat": {
-    "description": "Breaker1K",
-    "value": 0
+  {
+    "name": "Breaker1K_stat",
+    "defaultvalue": 0,
+    "displayName": "Breaker1K"
   },
-  "Breaker1M_stat": {
-    "description": "Breaker1M",
-    "value": 0
+  {
+    "name": "Breaker1M_stat",
+    "defaultvalue": 0,
+    "displayName": "Breaker1M"
   },
-  "LocalBattle100_stat": {
-    "description": "LocalBattle100",
-    "value": 0
+  {
+    "name": "LocalBattle100_stat",
+    "defaultvalue": 0,
+    "displayName": "LocalBattle100"
   },
-  "LocalBattle1K_stat": {
-    "description": "LocalBattle1K",
-    "value": 0
+  {
+    "name": "LocalBattle1K_stat",
+    "defaultvalue": 0,
+    "displayName": "LocalBattle1K"
   },
-  "RoomMaster_stat": {
-    "description": "RoomMaster",
-    "value": 0
+  {
+    "name": "RoomMaster_stat",
+    "defaultvalue": 0,
+    "displayName": "RoomMaster"
   },
-  "RoomGreater_stat": {
-    "description": "RoomGreater",
-    "value": 0
+  {
+    "name": "RoomGreater_stat",
+    "defaultvalue": 0,
+    "displayName": "RoomGreater"
   }
-}
+]
