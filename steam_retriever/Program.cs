@@ -284,7 +284,7 @@ namespace steam_db
         {
             if (!games_infos.ContainsKey(appid))
             {
-                string infos_file = Path.Combine("steam", appid, appid + ".json");
+                string infos_file = Path.Combine(out_dir, appid, appid + ".json");
                 try
                 {
                     using (StreamReader reader = new StreamReader(new FileStream(infos_file, FileMode.Open), Encoding.UTF8))
@@ -402,9 +402,9 @@ namespace steam_db
                                 JObject app_json = JObject.Parse(streamReader.ReadToEnd());
 
                                 string type = (string)app_json[appid]["data"]["type"];
-                                if(!Directory.Exists(Path.Combine("steam", appid)))
+                                if(!Directory.Exists(Path.Combine(out_dir, appid)))
                                 {
-                                    Directory.CreateDirectory(Path.Combine("steam", appid));
+                                    Directory.CreateDirectory(Path.Combine(out_dir, appid));
                                 }
 
                                 // Always sleep for 1s before retrieving any game or dlc or Steam will lock you up for some time.
