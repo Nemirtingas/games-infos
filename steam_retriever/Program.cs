@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Net;
 using System.Text;
 using System.Linq;
@@ -8,6 +8,7 @@ using System.Threading;
 
 using Newtonsoft.Json.Linq;
 using CommandLine;
+using Newtonsoft.Json;
 
 namespace steam_db
 {
@@ -392,6 +393,8 @@ namespace steam_db
 
                     Console.WriteLine(string.Format(" + Trying to get infos on {0}...", appid));
                     request = (HttpWebRequest)WebRequest.Create(string.Format("https://store.steampowered.com/api/appdetails/?appids={0}&l=english", appid));
+                    request.Headers.Add("Accept-encoding:gzip, deflate, br");
+                    request.AutomaticDecompression = DecompressionMethods.Deflate | DecompressionMethods.GZip;
                     using (HttpWebResponse response = (HttpWebResponse)request.GetResponse())
                     {
                         Stream sresult = response.GetResponseStream();
