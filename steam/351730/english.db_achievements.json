@@ -1,0 +1,271 @@
+﻿[
+  {
+    "name": "fire_starter_ach",
+    "defaultvalue": 0,
+    "displayName": "Warmth!",
+    "hidden": 0,
+    "description": "Start a fire to stay warm during the night",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351730/bc4765970680a90ef0d991497fd711d70478c190.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351730/9b856382e01c5116fe97452c9400479a426dd98d.jpg"
+  },
+  {
+    "name": "craft_item_ach",
+    "defaultvalue": 0,
+    "displayName": "Handyman",
+    "hidden": 0,
+    "description": "Craft an item to aid in survival",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351730/895ba2c26502678e0d50d9e3f2c4260891383192.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351730/bb7acc2d3f8660e57c0950adcf3e7a2300404ba0.jpg"
+  },
+  {
+    "name": "trapper_ach",
+    "defaultvalue": 0,
+    "displayName": "Trapper",
+    "hidden": 0,
+    "description": "Catch 5 animals in snares or traps",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351730/3a251c7ce9d8c7c2547f9aee51fa4df10ded0763.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351730/a0427e074cba1a16bfee42ab060357b730ebf104.jpg"
+  },
+  {
+    "name": "mountain_man_ach",
+    "defaultvalue": 0,
+    "displayName": "Mountain Man",
+    "hidden": 0,
+    "description": "Equip a fox skin hat",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351730/a7d34a1f4c79424f59d6b6b4b3cb599394237e37.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351730/2f5d6225cc8283c4a1eabf6a99dc64b8abbc41b2.jpg"
+  },
+  {
+    "name": "lumber_jack_ach",
+    "defaultvalue": 0,
+    "displayName": "Lumberjack",
+    "hidden": 0,
+    "description": "Chop 200 trees down",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351730/7c43a629d6f3eddcaf01dec2c970a45cacda6826.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351730/9a5b6afa64152d9a6e5ea3c3b209cc36cf04681e.jpg"
+  },
+  {
+    "name": "timber_ach",
+    "defaultvalue": 0,
+    "displayName": "Timber!",
+    "hidden": 0,
+    "description": "Chop down a tree",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351730/83145dff320d6ce9e640d7f37692862c31d0d091.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351730/de249c1175d799fb40e6c8444a93cdc10b59adc7.jpg"
+  },
+  {
+    "name": "forge_ach",
+    "defaultvalue": 0,
+    "displayName": "Forager",
+    "hidden": 0,
+    "description": "Forage food from an edible plant",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351730/9d3e287abe3d538979cf2ae1aaa744948448c807.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351730/b5f5795feead73e8fa49abce5f4a61e640bbbdb5.jpg"
+  },
+  {
+    "name": "bow_hunter_ach",
+    "defaultvalue": 0,
+    "displayName": "Bow Hunter",
+    "hidden": 0,
+    "description": "Kill 5 animals with a bow",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351730/6f04b94bf5408fe81a17af54c19684e356e1fbe5.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351730/80be2c6a4a0d684e2b68f4e312071fa93855608d.jpg"
+  },
+  {
+    "name": "season_greetings_ach",
+    "defaultvalue": 0,
+    "displayName": "Season Greetings",
+    "hidden": 0,
+    "description": "Survive until the winter",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351730/e6b1d8b066e502e6ebcaa65d771e1c9b0104b914.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351730/3e5c70d9420e0774c4578b417275f4a9644bb92d.jpg"
+  },
+  {
+    "name": "fox_slayer_ach",
+    "defaultvalue": 0,
+    "displayName": "Fox Slayer",
+    "hidden": 0,
+    "description": "Kill 5 foxes",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351730/bc7c3f6a16867817e72be9e727979afc49fcdb56.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351730/05ab3b7bd677e5832039562ef354033520d09d9c.jpg"
+  },
+  {
+    "name": "angler_ach",
+    "defaultvalue": 0,
+    "displayName": "Angler",
+    "hidden": 0,
+    "description": "Catch 5 Fish",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351730/1168a2bf754a970f9cba4d9dab5a28625928e07e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351730/a765dff6707142fa0f021f9a1756d0c1c3241409.jpg"
+  },
+  {
+    "name": "adventurer_ach",
+    "defaultvalue": 0,
+    "displayName": "Adventurer",
+    "hidden": 0,
+    "description": "Travel to a different camp",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351730/7e06347694ba56110b2586df66e1c693d84205d0.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351730/bf79391e693c88fe4c154dd72000f57206cc512e.jpg"
+  },
+  {
+    "name": "bear_attack_ach",
+    "defaultvalue": 0,
+    "displayName": "Bear Attack",
+    "hidden": 0,
+    "description": "Survived a bear attack/encounter",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351730/590a2df06893d6853f610073966da4dc2e24cab9.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351730/783d5ccdc51c7907c40f0c2ffd67fcf3eb0f2b49.jpg"
+  },
+  {
+    "name": "explorer_ach",
+    "defaultvalue": 0,
+    "displayName": "Explorer",
+    "hidden": 0,
+    "description": "Travel to 3 biomes",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351730/417938c7627a53609c6cfd1893d25f3a070fadde.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351730/43c3f47dd87dd67efc14e7d7390943578c13f6b1.jpg"
+  },
+  {
+    "name": "pioneer_ach",
+    "defaultvalue": 0,
+    "displayName": "Pioneer",
+    "hidden": 0,
+    "description": "Travel to all 4 biomes",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351730/f0f7ce8953003186a932ed18dfe2ab4361a7fdeb.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351730/9dd418a07aa685eaacd92ddc20371ca16820f644.jpg"
+  },
+  {
+    "name": "be_prepared_ach",
+    "defaultvalue": 0,
+    "displayName": "Always Be Prepared",
+    "hidden": 0,
+    "description": "Equip Jacket, Hat, and Backpack Upgrade",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351730/230aa82cbc22b703052b24d96fabfc63de8a6268.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351730/7eda8a68a82c3e83a6ca03f1ab7ba6acf07604ad.jpg"
+  },
+  {
+    "name": "fire_master_ach",
+    "defaultvalue": 0,
+    "displayName": "Fire Master",
+    "hidden": 0,
+    "description": "Create a fire without matches or coals",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351730/494305382e8050724ea7c0fd0133be099b600c77.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351730/9ff779ff72cecb4a5cef7f8d20522c72d85b75f9.jpg"
+  },
+  {
+    "name": "woodland_master_ach",
+    "defaultvalue": 0,
+    "displayName": "Woodland Master",
+    "hidden": 0,
+    "description": "Complete all journal entries for the Woodland Biome",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351730/a8865dcbd8f2ddbc060e221db0a607d140003891.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351730/561c3d0fe21374f09e5e02b9a2948fb2bc401c6b.jpg"
+  },
+  {
+    "name": "woodland_lake_master_ach",
+    "defaultvalue": 0,
+    "displayName": "Woodland Lake Master",
+    "hidden": 0,
+    "description": "Complete all journal entries for the Woodland Lake Biome",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351730/63c423b01b6672855eabd403a55a53a225aac464.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351730/a86a08bda0219be81da44305a0773240a626c69f.jpg"
+  },
+  {
+    "name": "alpine_master_ach",
+    "defaultvalue": 0,
+    "displayName": "Alpine Tundra Master",
+    "hidden": 0,
+    "description": "Complete all journal entries for the Alpine Tundra Biome",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351730/2466bfeaeb6d8a0f77d7ab6a67609c2e390a77d2.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351730/1b275eb55766a553b96c6ce3f97e48102ad543ad.jpg"
+  },
+  {
+    "name": "mountain_master_ach",
+    "defaultvalue": 0,
+    "displayName": "Mountain Master",
+    "hidden": 0,
+    "description": "Complete all journal entries for the Alpine Tundra Biome",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351730/a1967a2b462d58e2ce72a5e279b62c110c8dc9cc.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351730/35152ddbbfdf9a61a117bb4eb83b9b2005da96aa.jpg"
+  },
+  {
+    "name": "master_survivalist_ach",
+    "defaultvalue": 0,
+    "displayName": "Master Survivalist",
+    "hidden": 0,
+    "description": "Eat every edible food in the game",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351730/81a74ee88d4da1fad0c9421b8259878af5f9021a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351730/cd957bfd75af94e853c550283a7fdcade7e7ea30.jpg"
+  },
+  {
+    "name": "master_craftsman_ach",
+    "defaultvalue": 0,
+    "displayName": "Master Craftsman",
+    "hidden": 0,
+    "description": "Craft every item in the game",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351730/5a50b7ea5bb08c284bf9789aa07db42201adf447.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351730/81efd82f2a0c78e8d4ef4d660bc82cfac2152f97.jpg"
+  },
+  {
+    "name": "legacy_of_the_forebear_ach",
+    "defaultvalue": 0,
+    "displayName": "Legacy of the Forebear",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351730/fa16bcfd3a2530b43fb4b4fc2cb0dbde838bbbbb.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351730/1d8d3b0c9c2c79fde111495bd5793d5641523178.jpg"
+  },
+  {
+    "name": "my_first_year_ach",
+    "defaultvalue": 0,
+    "displayName": "My First Year",
+    "hidden": 0,
+    "description": "Survive through all 4 seasons",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351730/ebc8dbc441de167c951e110bcf14d5dc4ddc2ac8.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351730/995f5af946db34fe8941ce1076de9d5ca5f77c9b.jpg"
+  },
+  {
+    "name": "on_my_own_ach",
+    "defaultvalue": 0,
+    "displayName": "On My Own",
+    "hidden": 0,
+    "description": "Reached the summit of the Mountain Biome, completing the game",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351730/58acabd498e9ae732ce1a95249c7f07eef7469d2.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351730/9d61c06527b187792bfaf07beb83b9a1b1dc71ed.jpg"
+  },
+  {
+    "name": "bear_slayer_ach",
+    "defaultvalue": 0,
+    "displayName": "Bear Slayer",
+    "hidden": 0,
+    "description": "Equip the bear jacket",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351730/dc9379ab81692b7e141d4e696dead6122f57a4b1.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351730/e609564f72ccc04b04b31e02fba553ba14a4eabd.jpg"
+  },
+  {
+    "name": "woodland_mystery_ach",
+    "defaultvalue": 0,
+    "displayName": "Woodland Mystery",
+    "hidden": 0,
+    "description": "Find a secret letter",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351730/9545d2ac61bdd7274c57f786a3ad12c0812f4796.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351730/87fa06d8e144f5934f6d0ef42878a6073c6160ef.jpg"
+  },
+  {
+    "name": "avalanche_ach",
+    "defaultvalue": 0,
+    "displayName": "Avalanche!!",
+    "hidden": 0,
+    "description": "Encounter/survive an avalanche",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351730/12f53c4c1019a8339247efc297113e6052fa9bc0.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351730/a56f1096d81a0b6b2bf409ddd0f5a90b62ffd40a.jpg"
+  },
+  {
+    "name": "cheap_but_effective_ach",
+    "defaultvalue": 0,
+    "displayName": "Cheap but effective",
+    "hidden": 0,
+    "description": "Craft a bundle bow",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351730/ce75076b13d80871eebfd0d97ac8328e4b704b60.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351730/6fe069e14976bdeba43d4a4c73ddd04bf7ec3c1f.jpg"
+  }
+]

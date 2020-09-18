@@ -1,0 +1,209 @@
+﻿[
+  {
+    "name": "ACHIEVEMENT_WIN_EASY",
+    "defaultvalue": 0,
+    "displayName": "Easy",
+    "hidden": 0,
+    "description": "Beat the game on Easy setting",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/251710/a842cf66f4fb740a5b597844227c0d179cfe0c39.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/251710/e9acf3ab76934fc4ef60b5277dd70f139cc98c6e.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_WIN_MEDIUM",
+    "defaultvalue": 0,
+    "displayName": "Medium",
+    "hidden": 0,
+    "description": "Beat the game on Medium setting",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/251710/b8c8f3810c727e5dd7efc99cd0ccc53d679813dc.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/251710/21dd3f027a4f4edabe3253f17bd5c01cf79334aa.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_WIN_HARD",
+    "defaultvalue": 0,
+    "displayName": "Hard",
+    "hidden": 0,
+    "description": "Beat the game on Hard setting",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/251710/1fb981f84345b1a9cfc9338927cac15793a00189.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/251710/aff1d9007c60912a5c1534ddb2a4e16f51773910.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_KILLS_TOTAL",
+    "defaultvalue": 0,
+    "displayName": "Monster Massacre",
+    "hidden": 0,
+    "description": "Kill 1000 monsters in combat",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/251710/e2e2129b4e85459d3935e1915c3df6c4f3fa727b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/251710/bf41f3b27e8503dbd1bb778137d028ac883edc4e.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_KILLS_ZOMBIE",
+    "defaultvalue": 0,
+    "displayName": "Zombie Zapper",
+    "hidden": 0,
+    "description": "Kill 200 Zombies in combat",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/251710/f90ee75d06b07227a8c8459e50eec99b9135c077.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/251710/bf41f3b27e8503dbd1bb778137d028ac883edc4e.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_KILLS_AGENT",
+    "defaultvalue": 0,
+    "displayName": "Chaos Crusher",
+    "hidden": 0,
+    "description": "Kill 100 Agents in combat",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/251710/5d961e39eb1af752338fd18543e38d07e1fa310f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/251710/bf41f3b27e8503dbd1bb778137d028ac883edc4e.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_KILLS_RAT",
+    "defaultvalue": 0,
+    "displayName": "Rat Remover",
+    "hidden": 0,
+    "description": "Kill 50 Rats in combat",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/251710/0179bba6c604353627d9dd22d069efbe1c8ac812.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/251710/bf41f3b27e8503dbd1bb778137d028ac883edc4e.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_KILLS_MUTANT",
+    "defaultvalue": 0,
+    "displayName": "Mutant Masher",
+    "hidden": 0,
+    "description": "Kill 50 Mutants in combat",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/251710/76227110189e0573ac1f4ba832882809b56c3686.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/251710/bf41f3b27e8503dbd1bb778137d028ac883edc4e.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_KILLS_MEATMACHINE",
+    "defaultvalue": 0,
+    "displayName": "Meat Murderer",
+    "hidden": 0,
+    "description": "Kill the Meat Machine 25 times in combat",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/251710/200a50401995c63a48f435e9f4bdbbb0269a641d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/251710/bf41f3b27e8503dbd1bb778137d028ac883edc4e.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_KILLS_SLIME",
+    "defaultvalue": 0,
+    "displayName": "Slime Slapper",
+    "hidden": 0,
+    "description": "Kill 10 Slimes in combat",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/251710/7c237fe2065f90701a8edf6f4f90e7835775618f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/251710/bf41f3b27e8503dbd1bb778137d028ac883edc4e.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_KILLS_DARKNESS",
+    "defaultvalue": 0,
+    "displayName": "Darkness Destroyer",
+    "hidden": 0,
+    "description": "Kill Darkness 25 times on any difficulty",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/251710/67b38d0f567413ba668ba8f939ea64cba6440c82.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/251710/bf41f3b27e8503dbd1bb778137d028ac883edc4e.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_DAMAGE_WOUND",
+    "defaultvalue": 0,
+    "displayName": "Bleedin'",
+    "hidden": 0,
+    "description": "Take 200 points of physical damage",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/251710/7dd90bd1d52e25ec9d8a5847b8572a30ce1a1fb9.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/251710/bf41f3b27e8503dbd1bb778137d028ac883edc4e.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_DAMAGE_RADIATION",
+    "defaultvalue": 0,
+    "displayName": "Glowin'",
+    "hidden": 0,
+    "description": "Take 250 points of radiation damage",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/251710/d887faaf5029730c5ecaf497c54fe4d8932d41e0.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/251710/bf41f3b27e8503dbd1bb778137d028ac883edc4e.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_DAMAGE_VENOM",
+    "defaultvalue": 0,
+    "displayName": "Turnin'",
+    "hidden": 0,
+    "description": "Take 100 points of venom damage",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/251710/17be7191423efefc081c3de7103feebbf9edfe7d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/251710/bf41f3b27e8503dbd1bb778137d028ac883edc4e.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_ALL_ENDINGS",
+    "defaultvalue": 0,
+    "displayName": "Death and Glory",
+    "hidden": 0,
+    "description": "Discover all 9 Outcomes",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/251710/081eef840c5790510b5dcad0db90d55933d81785.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/251710/a3fe466e95e7ec650733aa447e160185ddf1d2e6.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_FISTO",
+    "defaultvalue": 0,
+    "displayName": "Fisto",
+    "hidden": 0,
+    "description": "Punch Darkness... Right in the face",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/251710/050ea2218f551cb25e485f14a5ed5c385d3641c5.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/251710/2ca089221e3be44cbd3285283bbbf985580f2044.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_BYPASS_TRAPS",
+    "defaultvalue": 0,
+    "displayName": "Trap Trickster",
+    "hidden": 0,
+    "description": "Use items to bypass 50 traps",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/251710/161b2030f32d4abe170b2856b277db93aff11326.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/251710/2ca089221e3be44cbd3285283bbbf985580f2044.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_KILLS_TOTAL_2000",
+    "defaultvalue": 0,
+    "displayName": "The New York Chainsaw Massacre",
+    "hidden": 0,
+    "description": "Kill 2000 enemies in combat",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/251710/a0321d745349fb322a69c747b961b79b5ae551d4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/251710/2ca089221e3be44cbd3285283bbbf985580f2044.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_CHAIN_OF_SKULLS",
+    "defaultvalue": 0,
+    "displayName": "Chain of Skulls",
+    "hidden": 0,
+    "description": "Kill one of every enemy type in a single game",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/251710/cdf653c9dd616dd5b7420fa182ca5b3119f8dc85.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/251710/b2a228cc1f607e361dc08942c35a55678da0efd1.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_THRONE_OF_SKULLS",
+    "defaultvalue": 0,
+    "displayName": "Throne of skulls",
+    "hidden": 0,
+    "description": "Kill one of every enemy type in a single game on Classic difficulty",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/251710/5ce2276a98c4a9511ba817521feaff7564aca80e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/251710/b2a228cc1f607e361dc08942c35a55678da0efd1.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_KNIFE_FIGHT",
+    "defaultvalue": 0,
+    "displayName": "Don't bring a Chainsaw to a Knife fight",
+    "hidden": 0,
+    "description": "Have your Chainsaw destroyed while having the Knife still in your inventory",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/251710/dba40e8100a562e26082dff80d917573dc632f50.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/251710/b2a228cc1f607e361dc08942c35a55678da0efd1.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_SEEMS_IRONIC",
+    "defaultvalue": 0,
+    "displayName": "Seems Ironic",
+    "hidden": 0,
+    "description": "Kill the Suicide Cultist with the Implosion Vest",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/251710/b40c53a69df7c392f351fb78a24c322e3bcab065.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/251710/b2a228cc1f607e361dc08942c35a55678da0efd1.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_JUST_IN_SLIME",
+    "defaultvalue": 0,
+    "displayName": "Just in Slime",
+    "hidden": 0,
+    "description": "Find a way to use Time Grenades on the Slime in the second deck to send it back in time",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/251710/eda0a552e9cb9dcb824646a1f4d3c76de4b1fc95.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/251710/b2a228cc1f607e361dc08942c35a55678da0efd1.jpg"
+  }
+]

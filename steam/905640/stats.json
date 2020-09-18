@@ -1,0 +1,142 @@
+﻿[
+  {
+    "name": "PLAYER_KILL",
+    "defaultvalue": 0,
+    "displayName": "킬"
+  },
+  {
+    "name": "PLAY_TIME",
+    "defaultvalue": 0,
+    "displayName": "플레이 시간"
+  },
+  {
+    "name": "DEFAULT_FINISH",
+    "defaultvalue": 0,
+    "displayName": "게임 완료"
+  },
+  {
+    "name": "QRT_ZOMBIE_KILL",
+    "defaultvalue": 0,
+    "displayName": "QRT 좀비 킬"
+  },
+  {
+    "name": "TRANSFORM_SUPERSPY",
+    "defaultvalue": 0,
+    "displayName": "슈퍼 스파이 되기"
+  },
+  {
+    "name": "LMS_ALIVE",
+    "defaultvalue": 0,
+    "displayName": "라스트맨스탠딩 1위"
+  },
+  {
+    "name": "SND_MISSION",
+    "defaultvalue": 0,
+    "displayName": "폭탄 설치+해제"
+  },
+  {
+    "name": "FLAG_TOUCHDOWN",
+    "defaultvalue": 0,
+    "displayName": "깃발 터치 다운"
+  },
+  {
+    "name": "NPC_KILL",
+    "defaultvalue": 0,
+    "displayName": "NPC 킬"
+  },
+  {
+    "name": "HEADSHOT",
+    "defaultvalue": 0,
+    "displayName": "헤드샷"
+  },
+  {
+    "name": "QRT_HUMAN_INFECTION",
+    "defaultvalue": 0,
+    "displayName": "QRT 인간 감염"
+  },
+  {
+    "name": "FLAG_RAISE",
+    "defaultvalue": 0,
+    "displayName": "HQM 깃발 점령"
+  },
+  {
+    "name": "KILL_RATIO",
+    "defaultvalue": 0,
+    "displayName": "KDR 달성 횟수"
+  },
+  {
+    "name": "FINISH",
+    "defaultvalue": 0,
+    "displayName": "완주"
+  },
+  {
+    "name": "CONSECUTIVE_KILL",
+    "defaultvalue": 0,
+    "displayName": "연속 킬"
+  },
+  {
+    "name": "AR_KILL",
+    "defaultvalue": 0,
+    "displayName": "AR 총기타입으로 사살"
+  },
+  {
+    "name": "SR_KILL",
+    "defaultvalue": 0,
+    "displayName": "SR 총기타입으로 사살"
+  },
+  {
+    "name": "SG_KILL",
+    "defaultvalue": 0,
+    "displayName": "SG 총기타입으로 사살"
+  },
+  {
+    "name": "SMG_KILL",
+    "defaultvalue": 0,
+    "displayName": "SMG 총기타입으로 사살"
+  },
+  {
+    "name": "MG_KILL",
+    "defaultvalue": 0,
+    "displayName": "MG 총기타입으로 사살"
+  },
+  {
+    "name": "PISTOL_KILL",
+    "defaultvalue": 0,
+    "displayName": "Pistol 총기타입으로 사살"
+  },
+  {
+    "name": "MELEE_KILL",
+    "defaultvalue": 0,
+    "displayName": "Melee 무기 타입으로 사살"
+  },
+  {
+    "name": "SUPPORT_KILL",
+    "defaultvalue": 0,
+    "displayName": "Support 무기타입으로 사살"
+  },
+  {
+    "name": "DTC_DOGTAG_SAVE",
+    "defaultvalue": 0,
+    "displayName": "아군 독택 획득 횟수"
+  },
+  {
+    "name": "DTC_DOGTAG_PICKUP",
+    "defaultvalue": 0,
+    "displayName": "적 독택 획득 횟수"
+  },
+  {
+    "name": "MYSTERY_BOX",
+    "defaultvalue": 0,
+    "displayName": "미스터리 상자 사용"
+  },
+  {
+    "name": "ACHIEVEMENT_FINISH",
+    "defaultvalue": 0,
+    "displayName": "업적 완료 횟수"
+  },
+  {
+    "name": "LAUNCHER_KILL",
+    "defaultvalue": 0,
+    "displayName": "Launcher 무기타입으로 사살"
+  }
+]
