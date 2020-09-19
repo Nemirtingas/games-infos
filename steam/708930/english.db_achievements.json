@@ -1,0 +1,1918 @@
+﻿[
+  {
+    "name": "ACH_WIN_1_GAME_WITH_COMPUTER",
+    "defaultvalue": 0,
+    "displayName": "Win one game with a computer",
+    "hidden": 0,
+    "description": "Win one game with a computer",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/4d947c77e936aa35efaac31c1a676a6238c276ef.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/e4656fcc175aa00d3bf0f1633f3c1e9e088bdaea.jpg"
+  },
+  {
+    "name": "ACH_LOSE_1_GAME_WITH_COMPUTER",
+    "defaultvalue": 0,
+    "displayName": "Lose one game with a computer",
+    "hidden": 0,
+    "description": "Lose one game with a computer",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/fd7f08899581783088e3d82541d641b00d460cfa.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/aa7d2c0056353a536b049ffdfb4dda0e1bc012bd.jpg"
+  },
+  {
+    "name": "ACH_WIN_1_GAME",
+    "defaultvalue": 0,
+    "displayName": "Win one game with a real person",
+    "hidden": 0,
+    "description": "Win one game with a real person",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/7a627812da05268e4447b6095236a3cc662394e3.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/c319f16945d360c52ef01ec765d04e6797cabc7d.jpg"
+  },
+  {
+    "name": "ACH_WIN_5_GAMES",
+    "defaultvalue": 0,
+    "displayName": "Win 5 games with a real person",
+    "hidden": 0,
+    "description": "Win 5 games with a real person",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/e7251e65fe79ed665ff3cf051eb277a977ccf33b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/513c33fd7dfb60e8bc36a52b01997517947e5f84.jpg"
+  },
+  {
+    "name": "ACH_WIN_10_GAMES",
+    "defaultvalue": 0,
+    "displayName": "Win 10 games with a real person",
+    "hidden": 0,
+    "description": "Win 10 games with a real person",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/bed6270ee9ed7c25fd954aa55fe13f87b3b04927.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/0ea3f6205d0f19048519ae96ccf8cf34cc96fc2f.jpg"
+  },
+  {
+    "name": "ACH_WIN_25_GAMES",
+    "defaultvalue": 0,
+    "displayName": "Win 25 games with a real person",
+    "hidden": 0,
+    "description": "Win 25 games with a real person",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/acb36e4f8e02f173d5babd9b623697e2b7c01aa2.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/497c3620ad3f1577200fcfed78ef1e8f05f36f4e.jpg"
+  },
+  {
+    "name": "ACH_WIN_50_GAMES",
+    "defaultvalue": 0,
+    "displayName": "Win 50 games with a real person",
+    "hidden": 0,
+    "description": "Win 50 games with a real person",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/ca83f251429429e9cb8b9e8f8e0e44b7d87fda1d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/cdb90d3782bd9f09634fe0fa1322e32f724574a7.jpg"
+  },
+  {
+    "name": "ACH_WIN_75_GAMES",
+    "defaultvalue": 0,
+    "displayName": "Win 75 games with a real person",
+    "hidden": 0,
+    "description": "Win 75 games with a real person",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/e7e5058e986266e95020efc15719c2c4573199b1.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/447c488098975782d51f4f8717e11a9ef6fa90b5.jpg"
+  },
+  {
+    "name": "ACH_WIN_100_GAMES",
+    "defaultvalue": 0,
+    "displayName": "Win 100 games with a real person",
+    "hidden": 0,
+    "description": "Win 100 games with a real person",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/f8b0fdf563b682c0dd06fe14cad22d1619eeb27a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/626d82283810b9bf5ad71ea8c298631b0ce43dff.jpg"
+  },
+  {
+    "name": "ACH_LOSE_1_GAME",
+    "defaultvalue": 0,
+    "displayName": "Lose one game with a real person",
+    "hidden": 0,
+    "description": "Lose one game with a real person",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/9a0690029235ad700c22bc653fc277c53bb3b8d9.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/2f2f8581c277791f9caac76bb6d30e9360e59722.jpg"
+  },
+  {
+    "name": "ACH_LOSE_5_GAMES",
+    "defaultvalue": 0,
+    "displayName": "Lose 5 games with a real person",
+    "hidden": 0,
+    "description": "Lose 5 games with a real person",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/9a760bfc80edb124909492ce1f80abe5eb98bef8.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/37475a70cb712f19befc5ac6d513d2afb32807ff.jpg"
+  },
+  {
+    "name": "ACH_LOSE_10_GAMES",
+    "defaultvalue": 0,
+    "displayName": "Lose 10 games with a real person",
+    "hidden": 0,
+    "description": "Lose 10 games with a real person",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/adc97ec64b292449b57bae805b6b93a87540a2dc.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/ea77b679cecc9e1b3ca44e5506f258bc0d61ebd6.jpg"
+  },
+  {
+    "name": "ACH_LOSE_25_GAMES",
+    "defaultvalue": 0,
+    "displayName": "Lose 25 games with a real person",
+    "hidden": 0,
+    "description": "Lose 25 games with a real person",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/8317e1288221ff360b2453b0c2b507cb5b588626.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/da4b50ba47bf9f4c5ed31d8cae8c89debe3d43e9.jpg"
+  },
+  {
+    "name": "ACH_LOSE_50_GAMES",
+    "defaultvalue": 0,
+    "displayName": "Lose 50 games with a real person",
+    "hidden": 0,
+    "description": "Lose 50 games with a real person",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/5ab2987b00851944f7b2ed412fb23b33991d408a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/0fc6b2829ec7778ae09388829fd5501d9cc83ac0.jpg"
+  },
+  {
+    "name": "ACH_LOSE_75_GAMES",
+    "defaultvalue": 0,
+    "displayName": "Lose 75 games with a real person",
+    "hidden": 0,
+    "description": "Lose 75 games with a real person",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/c077b26e023f3adbe650369f9e9800f847a2f689.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/7196cc46cd0b466fda1eb7745f77ef6d85b586d5.jpg"
+  },
+  {
+    "name": "ACH_LOSE_100_GAMES",
+    "defaultvalue": 0,
+    "displayName": "Lose 100 games with a real person",
+    "hidden": 0,
+    "description": "Lose 100 games with a real person",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/b4156b6b31ea2f6218cf4fb2f7d4a7c36eaacb6c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/a03a57bb5ea53a75ab1f3fef543fcae0be6c7ff5.jpg"
+  },
+  {
+    "name": "ACH_WIN_1_GAME_WHEN_OPPONENT_HAS_ZERO",
+    "defaultvalue": 0,
+    "displayName": "Win one game with an opponent has zero",
+    "hidden": 0,
+    "description": "Win one game with an opponent has zero",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/5cd6a34f3ceebe06fb39f31270e91b496a9e9360.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/201323e6a9f6860d0861b19ef6013c871129413e.jpg"
+  },
+  {
+    "name": "ACH_WIN_5_GAMES_WHEN_OPPONENT_HAS_ZERO",
+    "defaultvalue": 0,
+    "displayName": "Win 5 games while an opponent has zero",
+    "hidden": 0,
+    "description": "Win 5 games while an opponent has zero",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/5a8a7a9c37e1eb3b8fce5f8c4cfb8a0fba496af3.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/5d3c65f5185aca1f181e75971c1d6971baa82e5c.jpg"
+  },
+  {
+    "name": "ACH_WIN_10_GAMES_WHEN_OPPONENT_HAS_ZERO",
+    "defaultvalue": 0,
+    "displayName": "Win 10 games while an opponent has zero",
+    "hidden": 0,
+    "description": "Win 10 games while an opponent has zero",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/be0e90063677ec398d1daa8ca359cf78a72aa98d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/4c3f7470be94ff47b384ccaa0a53280faa5f58ce.jpg"
+  },
+  {
+    "name": "ACH_WIN_25_GAMES_WHEN_OPPONENT_HAS_ZERO",
+    "defaultvalue": 0,
+    "displayName": "Win 25 games while an opponent has zero",
+    "hidden": 0,
+    "description": "Win 25 games while an opponent has zero",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/c4546570377c257c5783d171814b2e474d47d144.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/896cfc2a032c45bbf0bd86bc188844f1e6d03122.jpg"
+  },
+  {
+    "name": "ACH_WIN_50_GAMES_WHEN_OPPONENT_HAS_ZERO",
+    "defaultvalue": 0,
+    "displayName": "Win 50 games while an opponent has zero",
+    "hidden": 0,
+    "description": "Win 50 games while an opponent has zero",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/5acf2903df4221232beef6d232dc76ac4f2ccc0d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/555bd27c66dcf513a1754cbd91c2b72a34146062.jpg"
+  },
+  {
+    "name": "ACH_WIN_75_GAMES_WHEN_OPPONENT_HAS_ZERO",
+    "defaultvalue": 0,
+    "displayName": "Win 75 games while an opponent has zero",
+    "hidden": 0,
+    "description": "Win 75 games while an opponent has zero",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/70eb75269931da71833e992b3ec789adbc83c75d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/13909d902a51f04ae3400e39e969d8c0d75d5901.jpg"
+  },
+  {
+    "name": "ACH_WIN_100_GAMES_WHEN_OPPONENT_HAS_ZERO",
+    "defaultvalue": 0,
+    "displayName": "Win 100 games while an opponent has zero",
+    "hidden": 0,
+    "description": "Win 100 games while an opponent has zero",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/9f5d99873c0841f72f680b8d61582b947bb4aae4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/562a00b0c6f1b5a86b5580a81ed580322b616d2e.jpg"
+  },
+  {
+    "name": "ACH_WIN_1_GAME_WITH_FIRST_BARREL",
+    "defaultvalue": 0,
+    "displayName": "Win one game with the first barrel",
+    "hidden": 0,
+    "description": "Win one game with the first barrel",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/bd4a76fc3773e7d890b1ac9000767866b4a5842d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/99329893f7bda2cc6d5c5e382266578b5bfb7cbd.jpg"
+  },
+  {
+    "name": "ACH_WIN_5_GAMES_WITH_FIRST_BARREL",
+    "defaultvalue": 0,
+    "displayName": "Win 5 games with the first barrel",
+    "hidden": 0,
+    "description": "Win 5 games with the first barrel",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/ef66104bcbcbc0fd9a468849296e5e967301a970.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/e52a7ddd74394541a3011ee50393b7c7ca213518.jpg"
+  },
+  {
+    "name": "ACH_WIN_10_GAMES_WITH_FIRST_BARREL",
+    "defaultvalue": 0,
+    "displayName": "Win 10 games with the first barrel",
+    "hidden": 0,
+    "description": "Win 10 games with the first barrel",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/8e1dbb7adb623e94a4204b25d55f1ad003f8cdda.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/95efe4e17ffc8adef6ca1eee23ca6dadf67bd099.jpg"
+  },
+  {
+    "name": "ACH_WIN_25_GAMES_WITH_FIRST_BARREL",
+    "defaultvalue": 0,
+    "displayName": "Win 25 games with the first barrel",
+    "hidden": 0,
+    "description": "Win 25 games with the first barrel",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/7cae12c5610f4ed32d186f0e605a2035462aed35.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/cc8f146a1052692691ce6bc023cd3dcc850834eb.jpg"
+  },
+  {
+    "name": "ACH_WIN_50_GAMES_WITH_FIRST_BARREL",
+    "defaultvalue": 0,
+    "displayName": "Win 50 games with the first barrel",
+    "hidden": 0,
+    "description": "Win 50 games with the first barrel",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/dbac0efc8f47727ac3f9b767d986ce306563a872.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/97faeeed1add3cd9c3f964f2dd6809ffdaf88c76.jpg"
+  },
+  {
+    "name": "ACH_WIN_75_GAMES_WITH_FIRST_BARREL",
+    "defaultvalue": 0,
+    "displayName": "Win 75 games with the first barrell",
+    "hidden": 0,
+    "description": "Win 75 games with the first barrell",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/4a911aa35e2fa7f999e8a05652cb43e1da83c268.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/c24c7b14f49d90be4a3e3871c14f70e8c83081ac.jpg"
+  },
+  {
+    "name": "ACH_WIN_100_GAMES_WITH_FIRST_BARREL",
+    "defaultvalue": 0,
+    "displayName": "Win 100 games with the first barrel",
+    "hidden": 0,
+    "description": "Win 100 games with the first barrel",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/e0af1f069af98936176935c26fc8c0c63582b11a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/3c8e8de2f8365915063c6914573b73fa0f55fe3b.jpg"
+  },
+  {
+    "name": "ACH_WIN_1_GAME_WITH_SECOND_BARREL",
+    "defaultvalue": 0,
+    "displayName": "Win one game with the second barrel",
+    "hidden": 0,
+    "description": "Win one game with the second barrel",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/04ecee09f63217524cdbefb05fb91f6feba62aec.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/738117f892be5761e937a961a81c6f4f706b6ec1.jpg"
+  },
+  {
+    "name": "ACH_WIN_5_GAMES_WITH_SECOND_BARREL",
+    "defaultvalue": 0,
+    "displayName": "Win 5 games with the second barrel",
+    "hidden": 0,
+    "description": "Win 5 games with the second barrel",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/e78c9b64fa89f6e92d67fd9b6b81922fd037a6e7.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/d6a690090015be52bd6f9c95cb02ae52b8de6042.jpg"
+  },
+  {
+    "name": "ACH_WIN_10_GAMES_WITH_SECOND_BARREL",
+    "defaultvalue": 0,
+    "displayName": "Win 10 games with the second barrel",
+    "hidden": 0,
+    "description": "Win 10 games with the second barrel",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/e8eac2c56c597a4dc7b07da99b30ad3e54aec934.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/d13af3f7238106f1d9e7e49d95c55790241b0129.jpg"
+  },
+  {
+    "name": "ACH_WIN_25_GAMES_WITH_SECOND_BARREL",
+    "defaultvalue": 0,
+    "displayName": "Win 25 games with the second barrel",
+    "hidden": 0,
+    "description": "Win 25 games with the second barrel",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/ec98772826208378e66634f175a97a282385f4c1.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/bc98c97dafdf32f55bbd5d48f298e0d813fb9741.jpg"
+  },
+  {
+    "name": "ACH_WIN_50_GAMES_WITH_SECOND_BARREL",
+    "defaultvalue": 0,
+    "displayName": "Win 50 games with the second barrel",
+    "hidden": 0,
+    "description": "Win 50 games with the second barrel",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/9cc4bbea3972d5aac96517b1dcfe9155afceb30b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/7184c13e83396cc8fb1c6bd90913723e0e6d645c.jpg"
+  },
+  {
+    "name": "ACH_WIN_75_GAMES_WITH_SECOND_BARREL",
+    "defaultvalue": 0,
+    "displayName": "Win 75 games with the second barrel",
+    "hidden": 0,
+    "description": "Win 75 games with the second barrel",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/789f133c8a975839800de3a3e6615fbe2a700deb.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/443bafb91790e9c893ce2b1adb5615be54e145f8.jpg"
+  },
+  {
+    "name": "ACH_WIN_100_GAMES_WITH_SECOND_BARREL",
+    "defaultvalue": 0,
+    "displayName": "Win 100 games with the second barrel",
+    "hidden": 0,
+    "description": "Win 100 games with the second barrel",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/92c0cb0d759800010b3391605f0924545280683b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/b0b89f7bae2373ebab4f588d6adbff8770053e32.jpg"
+  },
+  {
+    "name": "ACH_WIN_1_GAME_WITH_THIRD_BARREL",
+    "defaultvalue": 0,
+    "displayName": "Win one game with the third barrel",
+    "hidden": 0,
+    "description": "Win one game with the third barrel",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/e8b2e75161c287403ab76d427582f10b95175c2b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/e09e8d4e81c5875b0dbb8036a8e6ba80a5beb5b2.jpg"
+  },
+  {
+    "name": "ACH_WIN_5_GAMES_WITH_THIRD_BARREL",
+    "defaultvalue": 0,
+    "displayName": "Win 5 games with the third barrel",
+    "hidden": 0,
+    "description": "Win 5 games with the third barrel",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/28bccc76afdf2bd3b3218eff4a013d24ca9a712a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/375670d4e2a5464d6134e41ee60a3405ab859303.jpg"
+  },
+  {
+    "name": "ACH_WIN_10_GAMES_WITH_THIRD_BARREL",
+    "defaultvalue": 0,
+    "displayName": "Win 10 games with the third barrel",
+    "hidden": 0,
+    "description": "Win 10 games with the third barrel",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/278365e57bad5e77562baec54b59fffaeab28d28.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/735a358915b21d7c77e5897e6d5993ec725d7b55.jpg"
+  },
+  {
+    "name": "ACH_WIN_25_GAMES_WITH_THIRD_BARREL",
+    "defaultvalue": 0,
+    "displayName": "Win 25 games with the third barrel",
+    "hidden": 0,
+    "description": "Win 25 games with the third barrel",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/d511c0a186b7821dcbd52d1ee0c51824a8e19f9c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/169d95ba9e6cd976ece3dacac647dd410bd2a7bb.jpg"
+  },
+  {
+    "name": "ACH_WIN_50_GAMES_WITH_THIRD_BARREL",
+    "defaultvalue": 0,
+    "displayName": "Win 50 games with the third barrel",
+    "hidden": 0,
+    "description": "Win 50 games with the third barrel",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/bbc2eccf230034e612e04ca0ca677e598cce2ced.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/4b5276b8ce8a2320eba5851b2b89f92ef3d17773.jpg"
+  },
+  {
+    "name": "ACH_WIN_75_GAMES_WITH_THIRD_BARREL",
+    "defaultvalue": 0,
+    "displayName": "Win 75 games with the third barrel",
+    "hidden": 0,
+    "description": "Win 75 games with the third barrel",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/d65f81171448d845a6345a0f8c31ba02d6fe28b1.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/87525564697a941552ad829e462d5e69069bc612.jpg"
+  },
+  {
+    "name": "ACH_WIN_100_GAMES_WITH_THIRD_BARREL",
+    "defaultvalue": 0,
+    "displayName": "Win 100 games with the third barrel",
+    "hidden": 0,
+    "description": "Win 100 games with the third barrel",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/e6cad398b9a0ce5734a1181850bf599f99a8c8ea.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/b632fdba84187e50e0a728693c7946271c8097a9.jpg"
+  },
+  {
+    "name": "ACH_WIN_1_GAME_WITH_FRIEND",
+    "defaultvalue": 0,
+    "displayName": "Win one game playing with a friend",
+    "hidden": 0,
+    "description": "Win one game playing with a friend",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/677314cd46d312acbd98acc7a4050de213e8b33b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/c8085c083df1ed3d9f6a44db95ae8893de66cab0.jpg"
+  },
+  {
+    "name": "ACH_WIN_5_GAMES_WITH_FRIEND",
+    "defaultvalue": 0,
+    "displayName": "Win 5 games playing with a friend",
+    "hidden": 0,
+    "description": "Win 5 games playing with a friend",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/dbc082d5920a4ad3489fffd785201935fc7b555a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/5219cfe368c2dacfdf6aac92e834fc3d840ee654.jpg"
+  },
+  {
+    "name": "ACH_WIN_10_GAMES_WITH_FRIEND",
+    "defaultvalue": 0,
+    "displayName": "Win 10 games playing with a friend",
+    "hidden": 0,
+    "description": "Win 10 games playing with a friend",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/ef33b3bf6ed6788673c43ffd8c8019322759e18d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/86a4c8df53255069fed2da854d8319a70ed685f4.jpg"
+  },
+  {
+    "name": "ACH_WIN_25_GAMES_WITH_FRIEND",
+    "defaultvalue": 0,
+    "displayName": "Win 25 games playing with a friend",
+    "hidden": 0,
+    "description": "Win 25 games playing with a friend",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/19cba1b7f5c40e4eda9f9a73dbf101ac366289f8.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/3330bdac1b504e8ef11d986644763f6b240fd707.jpg"
+  },
+  {
+    "name": "ACH_WIN_50_GAMES_WITH_FRIEND",
+    "defaultvalue": 0,
+    "displayName": "Win 50 games playing with a friend",
+    "hidden": 0,
+    "description": "Win 50 games playing with a friend",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/2abf8a6692a612fd344cde47b1bb66a6f681aece.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/8d618e779283a67fc186a0fa462efdf0db9141a4.jpg"
+  },
+  {
+    "name": "ACH_WIN_75_GAMES_WITH_FRIEND",
+    "defaultvalue": 0,
+    "displayName": "Win 75 games playing with a friend",
+    "hidden": 0,
+    "description": "Win 75 games playing with a friend",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/bf2582df470d3775ae29480637e40667e6ee6115.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/3db3f8ab7c12626bdf5caffd7111e068f5e4b95a.jpg"
+  },
+  {
+    "name": "ACH_WIN_100_GAMES_WITH_FRIEND",
+    "defaultvalue": 0,
+    "displayName": "Win 100 games playing with a friend",
+    "hidden": 0,
+    "description": "Win 100 games playing with a friend",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/09083eb61d2b27a154fbfa9f54d7e6b58ec26639.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/03f4316de3d2b4cf734f4d80859f581ea131f3d4.jpg"
+  },
+  {
+    "name": "ACH_LOSE_1_GAME_WITH_FRIEND",
+    "defaultvalue": 0,
+    "displayName": "Lose one game playing with a friend",
+    "hidden": 0,
+    "description": "Lose one game playing with a friend",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/d79b59bbe33a6bc0f2c90af9f2a87c3a75f257ff.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/656f94825eb81174f2b391901ccef6c8345cebdc.jpg"
+  },
+  {
+    "name": "ACH_LOSE_5_GAME_WITH_FRIEND",
+    "defaultvalue": 0,
+    "displayName": "Lose 5 games playing with a friend",
+    "hidden": 0,
+    "description": "Lose 5 games playing with a friend",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/e28e05a70a618092f6692ed228eb4242f648c1a7.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/af56b15f50c7906ef53d77df48012756a6b63586.jpg"
+  },
+  {
+    "name": "ACH_LOSE_10_GAME_WITH_FRIEND",
+    "defaultvalue": 0,
+    "displayName": "Lose 10 games playing with a friend",
+    "hidden": 0,
+    "description": "Lose 10 games playing with a friend",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/0a9aa78ec775837c94304da050cfb71fcc535c5f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/67f35dcb4ed228870cef40280bd2dcbef0e93009.jpg"
+  },
+  {
+    "name": "ACH_LOSE_25_GAME_WITH_FRIEND",
+    "defaultvalue": 0,
+    "displayName": "Lose 25 games playing with a friend",
+    "hidden": 0,
+    "description": "Lose 25 games playing with a friend",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/d9eac3b9eaa1dfd418a6c52f31b3670be451d6ab.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/1ed024c95907f20123f148879175571e41ccb3ef.jpg"
+  },
+  {
+    "name": "ACH_LOSE_50_GAME_WITH_FRIEND",
+    "defaultvalue": 0,
+    "displayName": "Lose 50 games playing with a friend",
+    "hidden": 0,
+    "description": "Lose 50 games playing with a friend",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/fc5b790e3ec0711d2d5c170a3c069f80d7f02819.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/533343286d22ab8113496868439b3c885b014888.jpg"
+  },
+  {
+    "name": "ACH_LOSE_75_GAME_WITH_FRIEND",
+    "defaultvalue": 0,
+    "displayName": "Lose 75 games playing with a friend",
+    "hidden": 0,
+    "description": "Lose 75 games playing with a friend",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/582522e61bb99823d0c0678fbe440a7f09ddd519.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/82b9149372bdcbaad5706c18c8374591c315067c.jpg"
+  },
+  {
+    "name": "ACH_LOSE_100_GAME_WITH_FRIEND",
+    "defaultvalue": 0,
+    "displayName": "Lose 100 games playing with a friend",
+    "hidden": 0,
+    "description": "Lose 100 games playing with a friend",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/8d4bd7ef26d8226e2acabc5a63a0b62e40d3a613.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/0ab50e8e815a70896151329cfededa57c9f39b22.jpg"
+  },
+  {
+    "name": "ACH_WIN_1_GAME_REVENGE",
+    "defaultvalue": 0,
+    "displayName": "Get revenge for your defeat in the game",
+    "hidden": 0,
+    "description": "Get revenge for your defeat in the game",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/c8a6d558e4a62d221c022429a754bf5c31790b0b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/7e9886e725d826f093dba4a6393b213f0e432370.jpg"
+  },
+  {
+    "name": "ACH_WIN_5_GAMES_REVENGE",
+    "defaultvalue": 0,
+    "displayName": "Get 5 times of revenge for your defeat in the game",
+    "hidden": 0,
+    "description": "Get 5 times of revenge for your defeat in the game",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/62a6c9f34e212a2c84d843e55a274592441fb3e7.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/677823606a33a36163f7d557a1423be29e4644f0.jpg"
+  },
+  {
+    "name": "ACH_WIN_10_GAMES_REVENGE",
+    "defaultvalue": 0,
+    "displayName": "Get 10 times of revenge for your defeat in the game",
+    "hidden": 0,
+    "description": "Get 10 times of revenge for your defeat in the game",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/d27e39b70befa82f398b9d6a0728fd9338c15d96.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/9fc41a708b667236eb9f8bd8d5c4d7532d842118.jpg"
+  },
+  {
+    "name": "ACH_WIN_25_GAMES_REVENGE",
+    "defaultvalue": 0,
+    "displayName": "Get 25 times of revenge for your defeat in the game",
+    "hidden": 0,
+    "description": "Get 25 times of revenge for your defeat in the game",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/0dd20dbc769fa9d4008230dc43fd8a3b6ef37cb0.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/afea9cc8c827506643a1789f13b0b0a1ca6ad404.jpg"
+  },
+  {
+    "name": "ACH_WIN_50_GAMES_REVENGE",
+    "defaultvalue": 0,
+    "displayName": "Get 50 times of revenge for your defeat in the game",
+    "hidden": 0,
+    "description": "Get 50 times of revenge for your defeat in the game",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/c98297d92afea2155fcb2a6122083e88e9846151.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/3d07208e9cc824fff4d91d9c996930c09d3d0381.jpg"
+  },
+  {
+    "name": "ACH_WIN_75_GAMES_REVENGE",
+    "defaultvalue": 0,
+    "displayName": "Get 75 times of revenge for your defeat in the game",
+    "hidden": 0,
+    "description": "Get 75 times of revenge for your defeat in the game",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/e57b26975b29ca08aef25d82623ca82b5019d0da.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/8b09389790afeba1add33bc0ffd03179a2bca06b.jpg"
+  },
+  {
+    "name": "ACH_WIN_100_GAMES_REVENGE",
+    "defaultvalue": 0,
+    "displayName": "Get 100 times of revenge for your defeat in the game",
+    "hidden": 0,
+    "description": "Get 100 times of revenge for your defeat in the game",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/69ea474250e6f5da0856b9d8a44061f6681cb1f7.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/4c5c8d3fc47550a2eb50d23108d9719d2eeb9712.jpg"
+  },
+  {
+    "name": "ACH_LOSE_1_GAME_REVENGE",
+    "defaultvalue": 0,
+    "displayName": "Get lose for your defeat in the game",
+    "hidden": 0,
+    "description": "Get lose for your defeat in the game",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/cdb9ed1d0888c2cb25b7d924c506fbeca7b5cd8d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/1fe7124c3eb9a8ba6fbf477bfe5c3ef37cf5ba7f.jpg"
+  },
+  {
+    "name": "ACH_LOSE_5_GAMES_REVENGE",
+    "defaultvalue": 0,
+    "displayName": "Get 5 times of lose for your defeat in the game",
+    "hidden": 0,
+    "description": "Get 5 times of lose for your defeat in the game",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/0f5207af2a2d73f9113c422c516fb38dc3fcb2f6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/b3da59ca92a07b413d1bf2dbbdd6b61a97dc4eaa.jpg"
+  },
+  {
+    "name": "ACH_LOSE_10_GAMES_REVENGE",
+    "defaultvalue": 0,
+    "displayName": "Get 10 times of lose for your defeat in the game",
+    "hidden": 0,
+    "description": "Get 10 times of lose for your defeat in the game",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/2ce480d48b1c5aeb895d04fc5eb6eb649fc9a586.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/8b6ad8521233c80a51f3fdeeccc5821ecef4dd42.jpg"
+  },
+  {
+    "name": "ACH_LOSE_25_GAMES_REVENGE",
+    "defaultvalue": 0,
+    "displayName": "Get 25 times of lose for your defeat in the game",
+    "hidden": 0,
+    "description": "Get 25 times of lose for your defeat in the game",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/5ade99318043c8fd90f961836bf9db5dc782293f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/589f7943c2b86868bfd65496fae72f173cd09410.jpg"
+  },
+  {
+    "name": "ACH_LOSE_50_GAMES_REVENGE",
+    "defaultvalue": 0,
+    "displayName": "Get 50 times of lose for your defeat in the game",
+    "hidden": 0,
+    "description": "Get 50 times of lose for your defeat in the game",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/b9fe727cb0c3624fa15399689edee21b25ddff21.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/53ff39beb5e197f6ae0364799db0f38ac4163242.jpg"
+  },
+  {
+    "name": "ACH_LOSE_75_GAMES_REVENGE",
+    "defaultvalue": 0,
+    "displayName": "Get 75 times of lose for your defeat in the game",
+    "hidden": 0,
+    "description": "Get 75 times of lose for your defeat in the game",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/a27bb5a69a50b1927ec0edb04058d354d0944672.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/a0572013b57f502526ff78b842459ac0c5835c84.jpg"
+  },
+  {
+    "name": "ACH_LOSE_100_GAMES_REVENGE",
+    "defaultvalue": 0,
+    "displayName": "Get 100 times of lose for your defeat in the game",
+    "hidden": 0,
+    "description": "Get 100 times of lose for your defeat in the game",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/7e8da3cf77d1d725c6780726b13101ab17de6775.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/5cffba2919f81b82608aee30e71f91abdd48922a.jpg"
+  },
+  {
+    "name": "ACH_GOT_SET_1_1",
+    "defaultvalue": 0,
+    "displayName": "Set 100 the first time",
+    "hidden": 0,
+    "description": "Set 100 the first time",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/89e407497d0ef7b4ba3516552d2373576eb084d7.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/594e4aa81de8ea21b34f044df7f6428bd7c32b21.jpg"
+  },
+  {
+    "name": "ACH_GOT_SET_1_5",
+    "defaultvalue": 0,
+    "displayName": "Set 100 5 times",
+    "hidden": 0,
+    "description": "Set 100 5 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/39824264a2812fb617d9d860c86be998e2a85b52.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/66840fa777ab027dbaf864f7a3c04a9a906aeccc.jpg"
+  },
+  {
+    "name": "ACH_GOT_SET_1_10",
+    "defaultvalue": 0,
+    "displayName": "Set 100 10 times",
+    "hidden": 0,
+    "description": "Set 100 10 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/82102a0716e54cd39ed7a7daaa1612c5514133d6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/cf5922c552b4b345aaa703250967fe2e3d349ef2.jpg"
+  },
+  {
+    "name": "ACH_GOT_SET_1_25",
+    "defaultvalue": 0,
+    "displayName": "Set 100 25 times",
+    "hidden": 0,
+    "description": "Set 100 25 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/6d70a707697f4bee65e8ec8eea0b1437d8146218.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/1dc4eb3bf1b347eefc7569c5ea03c672fee57457.jpg"
+  },
+  {
+    "name": "ACH_GOT_SET_1_50",
+    "defaultvalue": 0,
+    "displayName": "Set 100 50 times",
+    "hidden": 0,
+    "description": "Set 100 50 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/8bd869d3bf4c97e17e6c16dd0f3feaf8781fadcd.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/0a8c64e6e6a9fdffb7936cd733a5372dcc0f108e.jpg"
+  },
+  {
+    "name": "ACH_GOT_SET_1_75",
+    "defaultvalue": 0,
+    "displayName": "Set 100 75 times",
+    "hidden": 0,
+    "description": "Set 100 75 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/6cd7d0bb4ff9f20c747cd72c34631a94a352b2bf.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/44107836c0f02ec56a3817995e41c18676cb052d.jpg"
+  },
+  {
+    "name": "ACH_GOT_SET_1_100",
+    "defaultvalue": 0,
+    "displayName": "Set 100 100 times",
+    "hidden": 0,
+    "description": "Set 100 100 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/2d6f3496cdbe30ba9354a9e06a7a4cfa8c5a5de2.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/df527ce2470aaf2f9782e0782f0f3de0c5fa25de.jpg"
+  },
+  {
+    "name": "ACH_GOT_SET_2_1",
+    "defaultvalue": 0,
+    "displayName": "Set 20 the first time",
+    "hidden": 0,
+    "description": "Set 20 the first time",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/77e567fd6b72728517e05665d381f2a22fc0ccfa.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/a5a18af77bd9e4a8416fb57991a2e12bb0cbf458.jpg"
+  },
+  {
+    "name": "ACH_GOT_SET_2_5",
+    "defaultvalue": 0,
+    "displayName": "Set 20 5 times",
+    "hidden": 0,
+    "description": "Set 20 5 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/8943321400b1f9cefe6ade570f281437b8be4b71.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/4d685e34cf4721ace432acab0a1e68ef25d37408.jpg"
+  },
+  {
+    "name": "ACH_GOT_SET_2_10",
+    "defaultvalue": 0,
+    "displayName": "Set 20 10 times",
+    "hidden": 0,
+    "description": "Set 20 10 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/18d6c3932161fb13720d79e003fd53539fabe4d2.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/ac7402316f7f5c17b32b81f8e5dc2f43e9d91264.jpg"
+  },
+  {
+    "name": "ACH_GOT_SET_2_25",
+    "defaultvalue": 0,
+    "displayName": "Set 20 25 times",
+    "hidden": 0,
+    "description": "Set 20 25 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/1af715aeb89b86c6983649637d89b4443502976f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/73bf71f15e3cb87f0a303659dda04eac82e2aa48.jpg"
+  },
+  {
+    "name": "ACH_GOT_SET_2_50",
+    "defaultvalue": 0,
+    "displayName": "Set 20 50 times",
+    "hidden": 0,
+    "description": "Set 20 50 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/d5e14abc949823bfecc6da7c78bf7e549d6747be.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/c7813bac3c6f45b509dd6cb5ca245d2f37ea7021.jpg"
+  },
+  {
+    "name": "ACH_GOT_SET_2_75",
+    "defaultvalue": 0,
+    "displayName": "Set 20 75 times",
+    "hidden": 0,
+    "description": "Set 20 75 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/35b7948077de3a594c64e8f39e5a8aced06033d0.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/461f98e6e4760cb14c118e70aee8142fa34a64bf.jpg"
+  },
+  {
+    "name": "ACH_GOT_SET_2_100",
+    "defaultvalue": 0,
+    "displayName": "Set 20 100 times",
+    "hidden": 0,
+    "description": "Set 20 100 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/4024ea0a2c7a1cbd32253c85ed0b07036d4598b4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/be8a27c9936fe66658f91d566d0cef0e60a8def1.jpg"
+  },
+  {
+    "name": "ACH_GOT_SET_3_1",
+    "defaultvalue": 0,
+    "displayName": "Set 30 the first time",
+    "hidden": 0,
+    "description": "Set 30 the first time",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/7698a514ae71a8bb85cdd81055cddd11227e16fc.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/9507266376bf37ffbfdc3da0ee271f3f01095f98.jpg"
+  },
+  {
+    "name": "ACH_GOT_SET_3_5",
+    "defaultvalue": 0,
+    "displayName": "Set 30 5 times",
+    "hidden": 0,
+    "description": "Set 30 5 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/890fa443c7faa015f89f0424440b25d48a4e4665.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/75b264545db361fd2cf7ef043b557b328d5ae9e0.jpg"
+  },
+  {
+    "name": "ACH_GOT_SET_3_10",
+    "defaultvalue": 0,
+    "displayName": "Set 30 10 times",
+    "hidden": 0,
+    "description": "Set 30 10 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/087c5cbbe0e160f3892d32061dec46884a80657d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/28bbfb85ea639787a25497735e73d95a30da641f.jpg"
+  },
+  {
+    "name": "ACH_GOT_SET_3_25",
+    "defaultvalue": 0,
+    "displayName": "Set 30 25 times",
+    "hidden": 0,
+    "description": "Set 30 25 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/de79ceba7c40df12be393e4a30931f0a55aad34a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/fd0f81af87926971faa227f7868895157211ad3a.jpg"
+  },
+  {
+    "name": "ACH_GOT_SET_3_50",
+    "defaultvalue": 0,
+    "displayName": "Set 30 50 times",
+    "hidden": 0,
+    "description": "Set 30 50 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/68394d574ffcd819bb043a33212acbb9ee9729d0.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/fd6af96a2bc8802998eb6abc2bfff06bea8eff43.jpg"
+  },
+  {
+    "name": "ACH_GOT_SET_3_75",
+    "defaultvalue": 0,
+    "displayName": "Set 30 75 times",
+    "hidden": 0,
+    "description": "Set 30 75 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/8f0de30ba087c6e4a450531955ef5c579233391e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/16488687cc337443465af9a19d95b6d0823bf56d.jpg"
+  },
+  {
+    "name": "ACH_GOT_SET_3_100",
+    "defaultvalue": 0,
+    "displayName": "Set 30 100 times",
+    "hidden": 0,
+    "description": "Set 30 100 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/d507d39014a50d055ca47f5128f74a9281986090.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/94ec15e9a9aefb207b31921649cfe160838e1fa3.jpg"
+  },
+  {
+    "name": "ACH_GOT_SET_4_1",
+    "defaultvalue": 0,
+    "displayName": "Set 40 the first time",
+    "hidden": 0,
+    "description": "Set 40 the first time",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/ee1f45b642a0ea04bc99b5aeefc9a7473f0882bc.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/d6463f5ed9f48c43363fcb01b6f854d553a6d9e6.jpg"
+  },
+  {
+    "name": "ACH_GOT_SET_4_5",
+    "defaultvalue": 0,
+    "displayName": "Set 40 5 times",
+    "hidden": 0,
+    "description": "Set 40 5 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/56cc038ab76fb476dc524eb632b35fc96e85686f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/1068c5dffc91f15a9c8bf2d61726158823b8549a.jpg"
+  },
+  {
+    "name": "ACH_GOT_SET_4_10",
+    "defaultvalue": 0,
+    "displayName": "Set 40 10 times",
+    "hidden": 0,
+    "description": "Set 40 10 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/7f8f0618340abe651c54c03f18e0fbfb45be5081.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/77ea9a8e522e5dd87a0044bf421586a9a94894b8.jpg"
+  },
+  {
+    "name": "ACH_GOT_SET_4_25",
+    "defaultvalue": 0,
+    "displayName": "Set 40 25 times",
+    "hidden": 0,
+    "description": "Set 40 25 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/be8e01f48111bf8529f31781f894a498e08f41ea.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/d8e153b1db50b88d3c16e8d1ce33ecb93d935752.jpg"
+  },
+  {
+    "name": "ACH_GOT_SET_4_50",
+    "defaultvalue": 0,
+    "displayName": "Set 40 50 times",
+    "hidden": 0,
+    "description": "Set 40 50 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/daf6706984cd8050b250079b503eb610236167b0.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/257646ee2bb3502a7700566658097d888156bc9b.jpg"
+  },
+  {
+    "name": "ACH_GOT_SET_4_75",
+    "defaultvalue": 0,
+    "displayName": "Set 40 75 times",
+    "hidden": 0,
+    "description": "Set 40 75 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/944c2a86157601fde81f4bc681e3df088c3e6147.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/87117c05eb6cc6e9d933da8dd41471a81e91aad7.jpg"
+  },
+  {
+    "name": "ACH_GOT_SET_4_100",
+    "defaultvalue": 0,
+    "displayName": "Set 40 100 times",
+    "hidden": 0,
+    "description": "Set 40 100 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/71a205db11cbdc3097cd8d6e000c619acc13d179.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/341419830f10ad43c28acb97ee93e85773ed1c47.jpg"
+  },
+  {
+    "name": "ACH_GOT_SET_5_1",
+    "defaultvalue": 0,
+    "displayName": "Set 50 the first time",
+    "hidden": 0,
+    "description": "Set 50 the first time",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/1d37d07103f3a42f3e5939ac6c2cb1f23fb22454.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/e8b77b3a8b76c6bb3023717f70cc55c48ec81fac.jpg"
+  },
+  {
+    "name": "ACH_GOT_SET_5_5",
+    "defaultvalue": 0,
+    "displayName": "Set 50 5 times",
+    "hidden": 0,
+    "description": "Set 50 5 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/bca03647cdc2feadfccff07bf6f738b6fdb6b766.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/b85cc9d152141ce314c604ac0599b866b12e33ae.jpg"
+  },
+  {
+    "name": "ACH_GOT_SET_5_10",
+    "defaultvalue": 0,
+    "displayName": "Set 50 10 times",
+    "hidden": 0,
+    "description": "Set 50 10 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/91bf79f06839504c67072cd66dc7061d5ece5c92.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/a89e04b40c40d40b00c211508c4c477b9cb43488.jpg"
+  },
+  {
+    "name": "ACH_GOT_SET_5_25",
+    "defaultvalue": 0,
+    "displayName": "Set 50 25 times",
+    "hidden": 0,
+    "description": "Set 50 25 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/813b9e67c5ceb1a331f8747a9f1f5a511a37c0d0.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/0e986d02074cc9c317949d50be77eee0b2174248.jpg"
+  },
+  {
+    "name": "ACH_GOT_SET_5_50",
+    "defaultvalue": 0,
+    "displayName": "Set 50 50 times",
+    "hidden": 0,
+    "description": "Set 50 50 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/9afc3fe4ab1e4e555ed47b5dd27409fab9a6d6af.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/64d81198df227615c7cf19d3cdb5143cd032bd36.jpg"
+  },
+  {
+    "name": "ACH_GOT_SET_5_75",
+    "defaultvalue": 0,
+    "displayName": "Set 50 75 times",
+    "hidden": 0,
+    "description": "Set 50 75 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/e18abab32f70ebc65d281b1e9cce61487468c49c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/7b35a873390eb031dce10003eac6ff157d55858b.jpg"
+  },
+  {
+    "name": "ACH_GOT_SET_5_100",
+    "defaultvalue": 0,
+    "displayName": "Set 50 100 times",
+    "hidden": 0,
+    "description": "Set 50 100 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/48f5758ce9a2c5306aeb27ce63fc3c826dbd2c2b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/2ba5bb68ff609a524f351696df33f86b1544030e.jpg"
+  },
+  {
+    "name": "ACH_GOT_SET_6_1",
+    "defaultvalue": 0,
+    "displayName": "Set 60 the first time",
+    "hidden": 0,
+    "description": "Set 60 the first time",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/604120172233a79bddc8b7bfa2cec3c689286365.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/79283a8348be617c5a93aa0de143bf01aeb55f08.jpg"
+  },
+  {
+    "name": "ACH_GOT_SET_6_5",
+    "defaultvalue": 0,
+    "displayName": "Set 60 5 times",
+    "hidden": 0,
+    "description": "Set 60 5 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/db862df80b1716fd6809a98442957a0045dc1416.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/d5a253e6f276884a41087b9558a1783ca8f992ab.jpg"
+  },
+  {
+    "name": "ACH_GOT_SET_6_10",
+    "defaultvalue": 0,
+    "displayName": "Set 60 10 times",
+    "hidden": 0,
+    "description": "Set 60 10 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/7ce9400ee3b8707e1871c649c3c94de261eb6482.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/8ddfd1ab85669c97612921eec988021cebec5c4d.jpg"
+  },
+  {
+    "name": "ACH_GOT_SET_6_25",
+    "defaultvalue": 0,
+    "displayName": "Set 60 25 times",
+    "hidden": 0,
+    "description": "Set 60 25 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/e316ebb4b56e2345b1f529f1cc2b0085b5a4f515.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/f0c85fb564cd6911ecb951fa0bc6d4248979f8dc.jpg"
+  },
+  {
+    "name": "ACH_GOT_SET_6_50",
+    "defaultvalue": 0,
+    "displayName": "Set 60 50 times",
+    "hidden": 0,
+    "description": "Set 60 50 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/ad086d6c41e90f230527ba90ba61b9bd83e60d8b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/e6731c2d8f11d7887a7c26b5686b005d4c7fa245.jpg"
+  },
+  {
+    "name": "ACH_GOT_SET_6_75",
+    "defaultvalue": 0,
+    "displayName": "Set 60 75 times",
+    "hidden": 0,
+    "description": "Set 60 75 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/4bda10b6fb2d880d0bed8559317fd6b45da1b4d2.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/10099e007136f99a339437dfc1889c0efba2f94b.jpg"
+  },
+  {
+    "name": "ACH_GOT_SET_6_100",
+    "defaultvalue": 0,
+    "displayName": "Set 60 100 times",
+    "hidden": 0,
+    "description": "Set 60 100 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/69a303debd1130707b13d6dd4dcbb7e37c9b6d8c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/33057f1d65c35a35d1312286b663f92ce66696f3.jpg"
+  },
+  {
+    "name": "ACH_GOT_QUADS_1_1",
+    "defaultvalue": 0,
+    "displayName": "Quad 200 the first time",
+    "hidden": 0,
+    "description": "Quad 200 the first time",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/be608d4baaedd43032f870ba909e23296b78c02b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/0a7ad3987bf958867ffffafa79bb517770303088.jpg"
+  },
+  {
+    "name": "ACH_GOT_QUADS_1_5",
+    "defaultvalue": 0,
+    "displayName": "Quad 200 5 times",
+    "hidden": 0,
+    "description": "Quad 200 5 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/60d2cb49ff36cd84bb779a46b306282d2c9e0f4e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/24f314b71e4c94f17f407ee15f6e85f1dd6d306a.jpg"
+  },
+  {
+    "name": "ACH_GOT_QUADS_1_10",
+    "defaultvalue": 0,
+    "displayName": "Quad 200 10 times",
+    "hidden": 0,
+    "description": "Quad 200 10 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/a10880d806b06e4bdf7e350931dd8bcc1131cd89.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/dace228ef6b0562538750bae240f799a5a8b3f4d.jpg"
+  },
+  {
+    "name": "ACH_GOT_QUADS_1_25",
+    "defaultvalue": 0,
+    "displayName": "Quad 200 25 times",
+    "hidden": 0,
+    "description": "Quad 200 25 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/828f214a3c185054ad84ec71aeda09af9fe26775.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/0b64b400aa480a8353d7a6ef35db190768784ed9.jpg"
+  },
+  {
+    "name": "ACH_GOT_QUADS_1_50",
+    "defaultvalue": 0,
+    "displayName": "Quad 200 50 times",
+    "hidden": 0,
+    "description": "Quad 200 50 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/319969ffc1e51c2f948c1befcbd11d681ef71801.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/69fc7c5877e92f6fabfdd7dcc54546c4d6670c71.jpg"
+  },
+  {
+    "name": "ACH_GOT_QUADS_1_75",
+    "defaultvalue": 0,
+    "displayName": "Quad 200 75 times",
+    "hidden": 0,
+    "description": "Quad 200 75 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/db5d6d83b6fd7ea26a645db001a87aec550177ef.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/4cec3cfecd944a468d00a35ff116bd98b5207748.jpg"
+  },
+  {
+    "name": "ACH_GOT_QUADS_1_100",
+    "defaultvalue": 0,
+    "displayName": "Quad 200 100 times",
+    "hidden": 0,
+    "description": "Quad 200 100 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/ef36cbbb3be871f56711d50cd50bfb11cb3d2fa8.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/8784e9d8a957bca8950e6f64e5b7b62bc7439879.jpg"
+  },
+  {
+    "name": "ACH_GOT_QUADS_2_1",
+    "defaultvalue": 0,
+    "displayName": "Quad 40 the first time",
+    "hidden": 0,
+    "description": "Quad 40 the first time",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/298628e0a9327774939ac8841d9a305648720646.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/0a71fa618f62cdac43bb08579bedae99c27c2047.jpg"
+  },
+  {
+    "name": "ACH_GOT_QUADS_2_5",
+    "defaultvalue": 0,
+    "displayName": "Quad 40 5 times",
+    "hidden": 0,
+    "description": "Quad 40 5 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/b33b6c66f1de98a825542741f595756e9ace46ea.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/a2655fc4946aa1696ffb0e79c84c624ee471bef5.jpg"
+  },
+  {
+    "name": "ACH_GOT_QUADS_2_10",
+    "defaultvalue": 0,
+    "displayName": "Quad 40 10 times",
+    "hidden": 0,
+    "description": "Quad 40 10 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/f9a4e3ed8dca091da07617218c2b150dc28b5658.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/15a0adeed0d8b35736a0c57d277e217b9c29ac33.jpg"
+  },
+  {
+    "name": "ACH_GOT_QUADS_2_25",
+    "defaultvalue": 0,
+    "displayName": "Quad 40 25 times",
+    "hidden": 0,
+    "description": "Quad 40 25 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/5fc50af8c9c85a135b8854ddf989eddddc8a0f33.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/2241b814f624e68f5ba9fedc6b2eb871caaaed42.jpg"
+  },
+  {
+    "name": "ACH_GOT_QUADS_2_50",
+    "defaultvalue": 0,
+    "displayName": "Quad 40 50 times",
+    "hidden": 0,
+    "description": "Quad 40 50 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/c44c6a265b7db82463d11371e1a2e02db553e562.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/72bafa8ef9ceeeb5db3abab210ad430c52478615.jpg"
+  },
+  {
+    "name": "ACH_GOT_QUADS_2_75",
+    "defaultvalue": 0,
+    "displayName": "Quad 40 75 times",
+    "hidden": 0,
+    "description": "Quad 40 75 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/0c8fefd06a0389149f8ba8f342a86926f9c5d1c6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/78bf6ec05ae703ee404dca636a41c990369ce854.jpg"
+  },
+  {
+    "name": "ACH_GOT_QUADS_2_100",
+    "defaultvalue": 0,
+    "displayName": "Quad 40 100 times",
+    "hidden": 0,
+    "description": "Quad 40 100 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/d97b7c482c7c8102ba668b405a171808a78491f8.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/cf7fe27496fbcb7f2534d6198c44c59095f395dd.jpg"
+  },
+  {
+    "name": "ACH_GOT_QUADS_3_1",
+    "defaultvalue": 0,
+    "displayName": "Quad 60 the first time",
+    "hidden": 0,
+    "description": "Quad 60 the first time",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/acf55fea806c1671ab2145448e39948403e8d17d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/280316c0482792bde17d3c0965fe62dd03150302.jpg"
+  },
+  {
+    "name": "ACH_GOT_QUADS_3_5",
+    "defaultvalue": 0,
+    "displayName": "Quad 60 5 times",
+    "hidden": 0,
+    "description": "Quad 60 5 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/b180530e824a9b25d30bd09d4bd68304453bae8d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/59202e459ebd1b10079844013659ea4cc79f62a6.jpg"
+  },
+  {
+    "name": "ACH_GOT_QUADS_3_10",
+    "defaultvalue": 0,
+    "displayName": "Quad 60 10 times",
+    "hidden": 0,
+    "description": "Quad 60 10 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/d758bd479e60278823bacb217699729129690392.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/d888e0ed0321db184a558c6b2fd8f0b45dfce56d.jpg"
+  },
+  {
+    "name": "ACH_GOT_QUADS_3_25",
+    "defaultvalue": 0,
+    "displayName": "Quad 60 25 times",
+    "hidden": 0,
+    "description": "Quad 60 25 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/175d61111d7cd0ef21cee7150476c6500f60ef56.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/6daa96500b4997d6dc817046273b8b0ce379cb00.jpg"
+  },
+  {
+    "name": "ACH_GOT_QUADS_3_50",
+    "defaultvalue": 0,
+    "displayName": "Quad 60 50 times",
+    "hidden": 0,
+    "description": "Quad 60 50 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/43ce752a28ab9cf7bde8481fb49f3897e024292b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/7739f5581e9c9fba664faa4cfd24078b13b7e64d.jpg"
+  },
+  {
+    "name": "ACH_GOT_QUADS_3_75",
+    "defaultvalue": 0,
+    "displayName": "Quad 60 75 times",
+    "hidden": 0,
+    "description": "Quad 60 75 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/c6479ff45f0b7dcb17f09dee1543412cad18de06.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/76905b4987f50ac052420a91af3ca48f2d1f9170.jpg"
+  },
+  {
+    "name": "ACH_GOT_QUADS_3_100",
+    "defaultvalue": 0,
+    "displayName": "Quad 60 100 times",
+    "hidden": 0,
+    "description": "Quad 60 100 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/832b3ec50067374c88e08b3fc386d61804a904e7.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/d76834bee614562d7321a7fb11b1a9f21e92f5e0.jpg"
+  },
+  {
+    "name": "ACH_GOT_QUADS_4_1",
+    "defaultvalue": 0,
+    "displayName": "Quad 80 the first time",
+    "hidden": 0,
+    "description": "Quad 80 the first time",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/30944cb2167dddf5b3cf06d1080ce96b9e0f0672.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/c4fa8d2278190ad2124a7870cf94ba026411df18.jpg"
+  },
+  {
+    "name": "ACH_GOT_QUADS_4_5",
+    "defaultvalue": 0,
+    "displayName": "Quad 80 5 times",
+    "hidden": 0,
+    "description": "Quad 80 5 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/50867b5e05cbac4ce961af66048ef6d4d0cb9537.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/4f92031436e6da090a5d5228971e93fedbd44767.jpg"
+  },
+  {
+    "name": "ACH_GOT_QUADS_4_10",
+    "defaultvalue": 0,
+    "displayName": "Quad 80 10 times",
+    "hidden": 0,
+    "description": "Quad 80 10 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/72e886a91d1381dc74118c302d4db209e6d422d0.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/f4c4615e72a73672d6c29c9c2fadda23a53b0d87.jpg"
+  },
+  {
+    "name": "ACH_GOT_QUADS_4_25",
+    "defaultvalue": 0,
+    "displayName": "Quad 80 25 times",
+    "hidden": 0,
+    "description": "Quad 80 25 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/970853842a832a4696ff317d6bb6f86b426fe2c5.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/879e4d64bdd9941f22e77b82107a4b80e57f88a7.jpg"
+  },
+  {
+    "name": "ACH_GOT_QUADS_4_50",
+    "defaultvalue": 0,
+    "displayName": "Quad 80 50 times",
+    "hidden": 0,
+    "description": "Quad 80 50 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/dfad44d367a04adea8137c00b9d6beb6fbcec55b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/c27e0b7ba934093f3ba78c584596df931640c0b1.jpg"
+  },
+  {
+    "name": "ACH_GOT_QUADS_4_75",
+    "defaultvalue": 0,
+    "displayName": "Quad 80 75 times",
+    "hidden": 0,
+    "description": "Quad 80 75 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/3c184c6abe200f575c55e9b73b8770a81f5ff6d9.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/a490ff5b7195f1cab1454c76a780f6fc1b10c3c9.jpg"
+  },
+  {
+    "name": "ACH_GOT_QUADS_4_100",
+    "defaultvalue": 0,
+    "displayName": "Quad 80 100 times",
+    "hidden": 0,
+    "description": "Quad 80 100 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/a69e3ca0120399527e15e10ffc8e23dfb1bd188c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/a96da0a484f19433eaefcc68f35c567fa04e00b7.jpg"
+  },
+  {
+    "name": "ACH_GOT_QUADS_5_1",
+    "defaultvalue": 0,
+    "displayName": "Quad 100 the first time",
+    "hidden": 0,
+    "description": "Quad 100 the first time",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/cb18e27ba46a370fab89cee69159b2363aecfb8d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/865c937b4f9f89e4a3707d40805f6a5493c07b66.jpg"
+  },
+  {
+    "name": "ACH_GOT_QUADS_5_5",
+    "defaultvalue": 0,
+    "displayName": "Quad 100 5 times",
+    "hidden": 0,
+    "description": "Quad 100 5 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/583c7230edd783f27791336e1895a12c76d8c6fc.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/bbba4b7bf82b78f94f6988e042cb32073c752bb7.jpg"
+  },
+  {
+    "name": "ACH_GOT_QUADS_5_10",
+    "defaultvalue": 0,
+    "displayName": "Quad 100 10 times",
+    "hidden": 0,
+    "description": "Quad 100 10 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/1e16289d4c2e7b706c78a91d71daf0e5cbc605df.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/76df61983e2b613848e0fde4f926ae11d73745f4.jpg"
+  },
+  {
+    "name": "ACH_GOT_QUADS_5_25",
+    "defaultvalue": 0,
+    "displayName": "Quad 100 25 times",
+    "hidden": 0,
+    "description": "Quad 100 25 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/32ed04beeb51f54c798c186080de55a07ec68072.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/540a03378b8ec76d5fc7f438e60aa4fb0cacb0a0.jpg"
+  },
+  {
+    "name": "ACH_GOT_QUADS_5_50",
+    "defaultvalue": 0,
+    "displayName": "Quad 100 50 times",
+    "hidden": 0,
+    "description": "Quad 100 50 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/1bb568c6dc612cc403e6fc148c47da51ba9d6a3d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/bc446c76dfef760e3e69a9a413c299010b9b9dca.jpg"
+  },
+  {
+    "name": "ACH_GOT_QUADS_5_75",
+    "defaultvalue": 0,
+    "displayName": "Quad 100 75 times",
+    "hidden": 0,
+    "description": "Quad 100 75 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/5edc40d505f46ec96e88f3bb1c15057fe0e8c21a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/286863d671275b11fddbe92d9cfc8ca19cdc58be.jpg"
+  },
+  {
+    "name": "ACH_GOT_QUADS_5_100",
+    "defaultvalue": 0,
+    "displayName": "Quad 100 100 times",
+    "hidden": 0,
+    "description": "Quad 100 100 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/677c7c65cd0e2c3a1681b9d302deaf72cbda4583.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/7e692e1d9ec561434125b0d2ca234300e3be9723.jpg"
+  },
+  {
+    "name": "ACH_GOT_QUADS_6_1",
+    "defaultvalue": 0,
+    "displayName": "Quad 120 the first time",
+    "hidden": 0,
+    "description": "Quad 120 the first time",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/06591ac2fceb669ed1a5c30c5f2eff187c488683.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/24982da47f041d17cdd92abc121d29bc3da1b2df.jpg"
+  },
+  {
+    "name": "ACH_GOT_QUADS_6_5",
+    "defaultvalue": 0,
+    "displayName": "Quad 120 5 times",
+    "hidden": 0,
+    "description": "Quad 120 5 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/44cf67e3444e2d446eec15f5a2e4619771e6297c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/4efcc83273d2b9dcf2c22c4e3f6116177008d051.jpg"
+  },
+  {
+    "name": "ACH_GOT_QUADS_6_10",
+    "defaultvalue": 0,
+    "displayName": "Quad 120 10 times",
+    "hidden": 0,
+    "description": "Quad 120 10 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/dc0aadee04a62df42f9f0f76722a1c7fbd17d040.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/5d4c46fdace83441c481b421f010816bda8dcee3.jpg"
+  },
+  {
+    "name": "ACH_GOT_QUADS_6_25",
+    "defaultvalue": 0,
+    "displayName": "Quad 120 25 times",
+    "hidden": 0,
+    "description": "Quad 120 25 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/bb443a06800b8862f04960a9338e190faa53452f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/3c7c70eafb5d21a642c237ef2bf70ba9fd6efbe9.jpg"
+  },
+  {
+    "name": "ACH_GOT_QUADS_6_50",
+    "defaultvalue": 0,
+    "displayName": "Quad 120 50 times",
+    "hidden": 0,
+    "description": "Quad 120 50 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/7c034fbfa229a7290dc8bf960bd9b1ce21725c54.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/0a935272b940ab9fe36b8fc6fb72eb8bbda657f2.jpg"
+  },
+  {
+    "name": "ACH_GOT_QUADS_6_75",
+    "defaultvalue": 0,
+    "displayName": "Quad 120 75 times",
+    "hidden": 0,
+    "description": "Quad 120 75 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/29d603b50066ae7319002e12b51bcf99224119b7.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/e4e86273cc2d929d4c47912d011de4b00b07786f.jpg"
+  },
+  {
+    "name": "ACH_GOT_QUADS_6_100",
+    "defaultvalue": 0,
+    "displayName": "Quad 120 100 times",
+    "hidden": 0,
+    "description": "Quad 120 100 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/2df92d170867dcc63b459bf44b94ed14963a5ed2.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/237823cf750ca97a90eb0c71c0bf090f48497378.jpg"
+  },
+  {
+    "name": "ACH_GOT_FLUSH_1_1",
+    "defaultvalue": 0,
+    "displayName": "Flush (five) 400 the first time",
+    "hidden": 0,
+    "description": "Flush (five) 400 the first time",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/180cf16569fbb1d714d2cc10ef466fd374e308b8.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/e93dd8f1d8576f83d3ed8b4676a4f296736f329c.jpg"
+  },
+  {
+    "name": "ACH_GOT_FLUSH_1_5",
+    "defaultvalue": 0,
+    "displayName": "Flush (five) 400 5 times",
+    "hidden": 0,
+    "description": "Flush (five) 400 5 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/1cdd75f7d93cb5065cf8c8b1722a9405032e877c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/daef7f9abd3b10e53cf997afc9372e07c3f83c1e.jpg"
+  },
+  {
+    "name": "ACH_GOT_FLUSH_1_10",
+    "defaultvalue": 0,
+    "displayName": "Flush (five) 400 10 times",
+    "hidden": 0,
+    "description": "Flush (five) 400 10 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/9504f1a95c0fc31d27b85af506517fe415922636.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/53ff238ff0026cc6e4e0276620a4ae133bcbace2.jpg"
+  },
+  {
+    "name": "ACH_GOT_FLUSH_1_25",
+    "defaultvalue": 0,
+    "displayName": "Flush (five) 400 25 times",
+    "hidden": 0,
+    "description": "Flush (five) 400 25 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/575e8ca57f0b8ed88a1cddb04133dd5c3f89d527.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/37694a4c71563036e2377753621599492cbbeaed.jpg"
+  },
+  {
+    "name": "ACH_GOT_FLUSH_1_50",
+    "defaultvalue": 0,
+    "displayName": "Flush (five) 400 50 times",
+    "hidden": 0,
+    "description": "Flush (five) 400 50 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/30ade58474ff4e704ef7c382cf318d7b6078548e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/32b0c1f369a735344ee087389a4fc03890dc4917.jpg"
+  },
+  {
+    "name": "ACH_GOT_FLUSH_1_75",
+    "defaultvalue": 0,
+    "displayName": "Flush (five) 400 75 times",
+    "hidden": 0,
+    "description": "Flush (five) 400 75 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/44999558e0b4f640efd41d0a06fa9e0ff18a14c0.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/c57d6476deff0fcd376cacbfd758fb00cae7e998.jpg"
+  },
+  {
+    "name": "ACH_GOT_FLUSH_1_100",
+    "defaultvalue": 0,
+    "displayName": "Flush (five) 400 100 times",
+    "hidden": 0,
+    "description": "Flush (five) 400 100 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/3ee07695addda5e557dfe1975e987d96c4e4bef7.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/baa6d4aa288dba9c163d9938039ccd11147bd72e.jpg"
+  },
+  {
+    "name": "ACH_GOT_FLUSH_2_1",
+    "defaultvalue": 0,
+    "displayName": "Flush (five) 80 the first time",
+    "hidden": 0,
+    "description": "Flush (five) 80 the first time",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/aa70184dd95b87297666379827be2eda2a1dc6fa.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/23adfa3039d3ef878826a936e5fb6ddb9f4d2d3e.jpg"
+  },
+  {
+    "name": "ACH_GOT_FLUSH_2_5",
+    "defaultvalue": 0,
+    "displayName": "Flush (five) 80 5 times",
+    "hidden": 0,
+    "description": "Flush (five) 80 5 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/b646dcf2a01b59d8bd395fceb8d504cda1b41201.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/a450099ebf659dcb349fe8f907c15e1385745a1e.jpg"
+  },
+  {
+    "name": "ACH_GOT_FLUSH_2_10",
+    "defaultvalue": 0,
+    "displayName": "Flush (five) 80 10 times",
+    "hidden": 0,
+    "description": "Flush (five) 80 10 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/6d8e03fbec6d0a1b44a436cd9157a9e80a0aa947.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/a4ef58779703dfd42b9f5bc1b664a7aeef57ae48.jpg"
+  },
+  {
+    "name": "ACH_GOT_FLUSH_2_25",
+    "defaultvalue": 0,
+    "displayName": "Flush (five) 80 25 times",
+    "hidden": 0,
+    "description": "Flush (five) 80 25 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/6f822fbe85b807c8dcf4f79c860ca568a48c5a48.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/e8551eb31e85f9f11b5ab503d719360150ccbc62.jpg"
+  },
+  {
+    "name": "ACH_GOT_FLUSH_2_50",
+    "defaultvalue": 0,
+    "displayName": "Flush (five) 80 50 times",
+    "hidden": 0,
+    "description": "Flush (five) 80 50 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/8972ac90aa86097949e412247061a6aca65a570c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/ec4ffd64e24dac8b247808d6679e55c6cb0c69c1.jpg"
+  },
+  {
+    "name": "ACH_GOT_FLUSH_2_75",
+    "defaultvalue": 0,
+    "displayName": "Flush (five) 80 75 times",
+    "hidden": 0,
+    "description": "Flush (five) 80 75 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/6b10de60dcaa459f97b619491b825b248b821763.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/0564535ea8fae0e0c38db5c2926ef56031fa42b6.jpg"
+  },
+  {
+    "name": "ACH_GOT_FLUSH_2_100",
+    "defaultvalue": 0,
+    "displayName": "Flush (five) 80 100 times",
+    "hidden": 0,
+    "description": "Flush (five) 80 100 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/71ea9abe7c6e567a4bb7c255c92d101eb6411e87.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/7e452f005dcf18e9066ddad907dbfba9c4384dfa.jpg"
+  },
+  {
+    "name": "ACH_GOT_FLUSH_3_1",
+    "defaultvalue": 0,
+    "displayName": "Flush (five) 120 the first time",
+    "hidden": 0,
+    "description": "Flush (five) 120 the first time",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/0d8a033d449be32b386f7a116f4f75d29b6bba4a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/433a6d2645557bd8567243e346ba77c76965582f.jpg"
+  },
+  {
+    "name": "ACH_GOT_FLUSH_3_5",
+    "defaultvalue": 0,
+    "displayName": "Flush (five) 120 5 times",
+    "hidden": 0,
+    "description": "Flush (five) 120 5 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/5a54fbcb8d35b8907a50cc372a60b8c2a049d70e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/0fd68ed2addbf6023145480cd172d59e4da710d4.jpg"
+  },
+  {
+    "name": "ACH_GOT_FLUSH_3_10",
+    "defaultvalue": 0,
+    "displayName": "Flush (five) 120 10 times",
+    "hidden": 0,
+    "description": "Flush (five) 120 10 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/eb97cd0b6860f8bc09b724f2cde2f28aeb0b46e4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/0d0ba5cefc13f8678b98191da2f5ba5737661850.jpg"
+  },
+  {
+    "name": "ACH_GOT_FLUSH_3_25",
+    "defaultvalue": 0,
+    "displayName": "Flush (five) 120 25 times",
+    "hidden": 0,
+    "description": "Flush (five) 120 25 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/7e01f29cf7e17b2e147d5dc434b9b641a007bfe5.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/057386490c3eb16e2a47ea6b8a55f119bf376f18.jpg"
+  },
+  {
+    "name": "ACH_GOT_FLUSH_3_50",
+    "defaultvalue": 0,
+    "displayName": "Flush (five) 120 50 times",
+    "hidden": 0,
+    "description": "Flush (five) 120 50 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/b8db9ab598763699aec3965e07373d66e8b326af.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/a44fcbdb31647f4615b33f3fb589ef6bdd681329.jpg"
+  },
+  {
+    "name": "ACH_GOT_FLUSH_3_75",
+    "defaultvalue": 0,
+    "displayName": "Flush (five) 120 75 times",
+    "hidden": 0,
+    "description": "Flush (five) 120 75 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/3744f46603cdc6cfee6d90524983f967a5c8d89a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/ab5841bfa86491183036332619f547ea1d544fda.jpg"
+  },
+  {
+    "name": "ACH_GOT_FLUSH_3_100",
+    "defaultvalue": 0,
+    "displayName": "Flush (five) 120 100 times",
+    "hidden": 0,
+    "description": "Flush (five) 120 100 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/8e932b8cfd2983be6256f6f67b99877054ad3a22.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/2e1a1a8acd148b199bf9acc71419c62e9167e7e8.jpg"
+  },
+  {
+    "name": "ACH_GOT_FLUSH_4_1",
+    "defaultvalue": 0,
+    "displayName": "Flush (five) 160 the first time",
+    "hidden": 0,
+    "description": "Flush (five) 160 the first time",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/2f4f64ab6b21e2589f7690578b057572f787cb4b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/5cce6f1ef4b50a5bb22148d0172acb581910d340.jpg"
+  },
+  {
+    "name": "ACH_GOT_FLUSH_4_5",
+    "defaultvalue": 0,
+    "displayName": "Flush (five) 160 5 times",
+    "hidden": 0,
+    "description": "Flush (five) 160 5 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/0730c642e47b1de817bfa3298065ab6d1d43230f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/13da38972aa9784ba728a89f86a0178c9b115c64.jpg"
+  },
+  {
+    "name": "ACH_GOT_FLUSH_4_10",
+    "defaultvalue": 0,
+    "displayName": "Flush (five) 160 10 times",
+    "hidden": 0,
+    "description": "Flush (five) 160 10 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/d78917aa73e88472e7ac5e571997d208696e78f5.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/2ce3fdabd44d2afdde4dcb0a78fc50eabe81b8c7.jpg"
+  },
+  {
+    "name": "ACH_GOT_FLUSH_4_25",
+    "defaultvalue": 0,
+    "displayName": "Flush (five) 160 25 times",
+    "hidden": 0,
+    "description": "Flush (five) 160 25 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/669cc9078a30ce35b4bbc0fd49fdd84e3ca93363.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/1863ef34b9bef9d7917faeb4cb349f080435e4e5.jpg"
+  },
+  {
+    "name": "ACH_GOT_FLUSH_4_50",
+    "defaultvalue": 0,
+    "displayName": "Flush (five) 160 50 times",
+    "hidden": 0,
+    "description": "Flush (five) 160 50 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/63cc1dc41af6245dbeb463ee4726a707831ea0e9.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/158b8c48bcf23aabae6b519f2768216f0b6f01bc.jpg"
+  },
+  {
+    "name": "ACH_GOT_FLUSH_4_75",
+    "defaultvalue": 0,
+    "displayName": "Flush (five) 160 75 times",
+    "hidden": 0,
+    "description": "Flush (five) 160 75 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/241aa54a25be6f3878cbffaa9ce44139f9980c4e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/cb8253c5c83cc22fb4dc365c992dac40e74f25fb.jpg"
+  },
+  {
+    "name": "ACH_GOT_FLUSH_4_100",
+    "defaultvalue": 0,
+    "displayName": "Flush (five) 160 100 times",
+    "hidden": 0,
+    "description": "Flush (five) 160 100 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/62d6b039d25738ecd5a0f8250ddb5958f4311c05.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/bebf127c964ef41a0ed11eea10fe3724661ad296.jpg"
+  },
+  {
+    "name": "ACH_GOT_FLUSH_5_1",
+    "defaultvalue": 0,
+    "displayName": "Flush (five) 200 the first time",
+    "hidden": 0,
+    "description": "Flush (five) 200 the first time",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/b93af676d2028b6d29cb795c9f51f01fb48e70e4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/3923732c072ce5f108751992fcb570af4c8ec742.jpg"
+  },
+  {
+    "name": "ACH_GOT_FLUSH_5_5",
+    "defaultvalue": 0,
+    "displayName": "Flush (five) 200 5 times",
+    "hidden": 0,
+    "description": "Flush (five) 200 5 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/8b5987211f54375e9959a7c7dd7719e2c7784795.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/bcd2662f70ca1a56f87e1a78b2dc492f224ae0ed.jpg"
+  },
+  {
+    "name": "ACH_GOT_FLUSH_5_10",
+    "defaultvalue": 0,
+    "displayName": "Flush (five) 200 10 times",
+    "hidden": 0,
+    "description": "Flush (five) 200 10 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/a2669d7863f0f9038647e896e039661c3ecbb3b5.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/a51295eec80c522be7a5395b1a09351d417a2103.jpg"
+  },
+  {
+    "name": "ACH_GOT_FLUSH_5_25",
+    "defaultvalue": 0,
+    "displayName": "Flush (five) 200 25 times",
+    "hidden": 0,
+    "description": "Flush (five) 200 25 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/3503fb13f1aee5fb806e1eeba914df4b08b79d25.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/ed4b52429c28bdf5aa732224e454235fd7cae0ff.jpg"
+  },
+  {
+    "name": "ACH_GOT_FLUSH_5_50",
+    "defaultvalue": 0,
+    "displayName": "Flush (five) 200 50 times",
+    "hidden": 0,
+    "description": "Flush (five) 200 50 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/a7babd83352363fc29a37237ee984942d59860a1.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/b5ccc0188c3d0baf6b30f820f08c544b16ba0a83.jpg"
+  },
+  {
+    "name": "ACH_GOT_FLUSH_5_75",
+    "defaultvalue": 0,
+    "displayName": "Flush (five) 200 75 times",
+    "hidden": 0,
+    "description": "Flush (five) 200 75 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/564b7a8c84bc08608bc708c76f61d81e9bec73d0.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/d67ad96e0cd9bc40bb4d208fdd7b16982512fe3c.jpg"
+  },
+  {
+    "name": "ACH_GOT_FLUSH_5_100",
+    "defaultvalue": 0,
+    "displayName": "Flush (five) 200 100 times",
+    "hidden": 0,
+    "description": "Flush (five) 200 100 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/52f486cf76d6537966fe7ddf85de5f9d6ce910d2.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/4387ada0467d802db53d576f6ce49c23066a0029.jpg"
+  },
+  {
+    "name": "ACH_GOT_FLUSH_6_1",
+    "defaultvalue": 0,
+    "displayName": "Flush (five) 240 the first time",
+    "hidden": 0,
+    "description": "Flush (five) 240 the first time",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/fb535b95e831780e75ff079e354b2027c446149d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/22b5f25eb031b6f9a8f3474e5c2072860ca8c012.jpg"
+  },
+  {
+    "name": "ACH_GOT_FLUSH_6_5",
+    "defaultvalue": 0,
+    "displayName": "Flush (five) 240 5 times",
+    "hidden": 0,
+    "description": "Flush (five) 240 5 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/116aed2f3529944a34f437e359f1e073d23b75f7.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/47f61739f4f91544e285c0d06ac2bb1178f45c2a.jpg"
+  },
+  {
+    "name": "ACH_GOT_FLUSH_6_10",
+    "defaultvalue": 0,
+    "displayName": "Flush (five) 240 10 times",
+    "hidden": 0,
+    "description": "Flush (five) 240 10 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/43c63dddc7efdceae5b1decae23f810eedbeb2e8.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/46647f0f3f13331c09c5c5be42ca559d7a71fd52.jpg"
+  },
+  {
+    "name": "ACH_GOT_FLUSH_6_25",
+    "defaultvalue": 0,
+    "displayName": "Flush (five) 240 25 times",
+    "hidden": 0,
+    "description": "Flush (five) 240 25 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/aa8dff2f72e9485961d1ac905fe09646c9beee71.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/dee118b5cbd5293e04e7338708a2ab7c3004b039.jpg"
+  },
+  {
+    "name": "ACH_GOT_FLUSH_6_50",
+    "defaultvalue": 0,
+    "displayName": "Flush (five) 240 50 times",
+    "hidden": 0,
+    "description": "Flush (five) 240 50 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/e8100b7e68643f3075ab1f60fca7bf0bc1489215.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/757e65372efa4e78b0de897a920fa100e20eeb3c.jpg"
+  },
+  {
+    "name": "ACH_GOT_FLUSH_6_75",
+    "defaultvalue": 0,
+    "displayName": "Flush (five) 240 75 times",
+    "hidden": 0,
+    "description": "Flush (five) 240 75 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/851f11bae784c654e90644adbf02dde9b2d075c7.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/adc9e73e739c58849fec91e03d39738a0ad3a5ad.jpg"
+  },
+  {
+    "name": "ACH_GOT_FLUSH_6_100",
+    "defaultvalue": 0,
+    "displayName": "Flush (five) 240 100 times",
+    "hidden": 0,
+    "description": "Flush (five) 240 100 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/a9e72307a83316356dbb1a0209dd9a1056d9d619.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/cfcdf6e03967a74e33a4bbe9aa2529b6c02cc15d.jpg"
+  },
+  {
+    "name": "ACH_GOT_STRAIGHT_1_1",
+    "defaultvalue": 0,
+    "displayName": "Straight 1 100 the first time",
+    "hidden": 0,
+    "description": "Straight 1 100 the first time",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/39d28a43338a2c75a7648d1b5f5f104f4047b682.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/bf42c8f702022487c389b036591a68e241cfc68a.jpg"
+  },
+  {
+    "name": "ACH_GOT_STRAIGHT_1_5",
+    "defaultvalue": 0,
+    "displayName": "Straight 1 100 5 times",
+    "hidden": 0,
+    "description": "Straight 1 100 5 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/2f3fb6fd51e4fb053a208ba2865412dde1e329bb.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/768ceff940e8569d002599845020cadcad541887.jpg"
+  },
+  {
+    "name": "ACH_GOT_STRAIGHT_1_10",
+    "defaultvalue": 0,
+    "displayName": "Straight 1 100 10 times",
+    "hidden": 0,
+    "description": "Straight 1 100 10 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/6c8007e17f31567022d49c83b4e6c9330085235f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/a6a912ab2e1875a7b27763395f98a29e4b045ab8.jpg"
+  },
+  {
+    "name": "ACH_GOT_STRAIGHT_1_25",
+    "defaultvalue": 0,
+    "displayName": "Straight 1 100 25 times",
+    "hidden": 0,
+    "description": "Straight 1 100 25 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/fc8627441595a64c7777acbc46ba190cce3372db.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/50b968a6a8878c4e312132f9877c7b15568b9f70.jpg"
+  },
+  {
+    "name": "ACH_GOT_STRAIGHT_1_50",
+    "defaultvalue": 0,
+    "displayName": "Straight 1 100 50 times",
+    "hidden": 0,
+    "description": "Straight 1 100 50 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/19f8aae1cd705bb6fbbaa2887900dce64c21a657.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/f4f4ecf5651ab5f8addfdc81ca24ad7a24ca268f.jpg"
+  },
+  {
+    "name": "ACH_GOT_STRAIGHT_1_75",
+    "defaultvalue": 0,
+    "displayName": "Straight 1 100 75 times",
+    "hidden": 0,
+    "description": "Straight 1 100 75 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/2fd871ec3c0a9f2906e6336618110c136137ce41.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/6547610c7d26227fbb2e3a107dea19ca17a1b558.jpg"
+  },
+  {
+    "name": "ACH_GOT_STRAIGHT_1_100",
+    "defaultvalue": 0,
+    "displayName": "Straight 1 100 100 times",
+    "hidden": 0,
+    "description": "Straight 1 100 100 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/cda495920a59b8b2171d9e150ac0d8ccacc30a1e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/0f02f0f940b35a0b2e39adc815d2242d0ee88fb3.jpg"
+  },
+  {
+    "name": "ACH_GOT_STRAIGHT_2_1",
+    "defaultvalue": 0,
+    "displayName": "Straight 2 200 the first time",
+    "hidden": 0,
+    "description": "Straight 2 200 the first time",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/597e943d7c23237a8a7edfa5e04879e78c4030b0.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/51925f9995d6c45c5157a6eb14543702f67e2796.jpg"
+  },
+  {
+    "name": "ACH_GOT_STRAIGHT_2_5",
+    "defaultvalue": 0,
+    "displayName": "Straight 2 200 5 times",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/5a06de971adaa07e1d3af1d573ff13bf53b2b63b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/75224631a8281a5728f4a0c046a8881b7bf2e8ea.jpg"
+  },
+  {
+    "name": "ACH_GOT_STRAIGHT_2_10",
+    "defaultvalue": 0,
+    "displayName": "Straight 2 200 10 times",
+    "hidden": 0,
+    "description": "Straight 2 200 10 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/fe35b778751b432c4a125c9ce40cd9b60db5d9f2.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/3383d05c42d3153ed184e03a154b7e02318ad243.jpg"
+  },
+  {
+    "name": "ACH_GOT_STRAIGHT_2_25",
+    "defaultvalue": 0,
+    "displayName": "Straight 2 200 25 times",
+    "hidden": 0,
+    "description": "Straight 2 200 25 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/59d8bc05554e68e15b888eed2c33791da379c691.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/f78a7b97a12695eff4c6e2f7021e9157fab62867.jpg"
+  },
+  {
+    "name": "ACH_GOT_STRAIGHT_2_50",
+    "defaultvalue": 0,
+    "displayName": "Straight 2 200 50 times",
+    "hidden": 0,
+    "description": "Straight 2 200 50 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/df466e449a337c1cace064cc504141b67b6d30a6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/6f52d0e7921872f909079454007b1eb676bc408f.jpg"
+  },
+  {
+    "name": "ACH_GOT_STRAIGHT_2_75",
+    "defaultvalue": 0,
+    "displayName": "Straight 2 200 75 times",
+    "hidden": 0,
+    "description": "Straight 2 200 75 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/55dd28515b73f8767465fa5344990c751d1f74af.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/c56f430ed473700402b15f5f76e77c75487983c3.jpg"
+  },
+  {
+    "name": "ACH_GOT_STRAIGHT_2_100",
+    "defaultvalue": 0,
+    "displayName": "Straight 2 200 100 times",
+    "hidden": 0,
+    "description": "Straight 2 200 100 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/f79be4cf55869467d12c08f62a55693264e3f6a6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/3b871b86b7457597ad9d42803a8635e53a6c491f.jpg"
+  },
+  {
+    "name": "ACH_SAVE_70_FIRST_TIME",
+    "defaultvalue": 0,
+    "displayName": "Get 70 and save it first time",
+    "hidden": 0,
+    "description": "Get 70 and save it first time",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/4a92c6cbf44c1fe485b0e31068b9c9e0fad4e834.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708930/8ac6a416ea53e8f2f79797c2f4261d6b23bdfb4b.jpg"
+  }
+]

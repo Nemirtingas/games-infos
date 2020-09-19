@@ -1,0 +1,416 @@
+﻿[
+  {
+    "name": "220001",
+    "defaultvalue": 0,
+    "displayName": "Foreman",
+    "hidden": 0,
+    "description": "The player has caught 10 fish",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/703950/726cfbfe73623fb196c12d0f2ae457c929f7b0a2.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/703950/54cf9b61dadf0e714728331632eba801bb7f68b4.jpg"
+  },
+  {
+    "name": "220002",
+    "defaultvalue": 0,
+    "displayName": "Centurion",
+    "hidden": 0,
+    "description": "The player has caught 100 fish",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/703950/ef33d721ca6842f6de501ef5dc20c5ee1bf9b4e8.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/703950/494e0f79580ff1c63abd016d39021390aef6fa7b.jpg"
+  },
+  {
+    "name": "220003",
+    "defaultvalue": 0,
+    "displayName": "Millennial",
+    "hidden": 0,
+    "description": " The player has caught 1000 fish",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/703950/d5dc8ed834d8cc453f86120a296573713bc6f7e0.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/703950/9a701d4a7beebf770f592907f1f000e292639a43.jpg"
+  },
+  {
+    "name": "220004",
+    "defaultvalue": 0,
+    "displayName": "Path of an angler: neuphyte",
+    "hidden": 0,
+    "description": "The player has caught 5 species of fish using lures",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/703950/88c783a2b11e2c2e525a2394f48bb62839c2f936.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/703950/32c3ade80edf9675852d7111b3c52b23e5de8d30.jpg"
+  },
+  {
+    "name": "220005",
+    "defaultvalue": 0,
+    "displayName": " Path of an angler: adept",
+    "hidden": 0,
+    "description": " The player has caught 15 species of fish using lures",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/703950/92519d96e9c96c9795cc26ac84eb7b288a423df2.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/703950/ee42c787447ca1d1c924edcb1669bab49492297a.jpg"
+  },
+  {
+    "name": "220006",
+    "defaultvalue": 0,
+    "displayName": "Path of an angler: master!",
+    "hidden": 0,
+    "description": " The player has caught 40 species of fish using lures",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/703950/170b6255fe3d917d28a0f02b7632f5b5da2e30ca.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/703950/c316b52d4af72f995a75242c315d15dfda9b2f80.jpg"
+  },
+  {
+    "name": "220007",
+    "defaultvalue": 0,
+    "displayName": "Path of a float: neophyte",
+    "hidden": 0,
+    "description": "The player caught 10 species of fish using float tackle",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/703950/96f19d8bc75419dcfc96b8c324990450b908d38c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/703950/68b4feb00c77bbdfe20fd24ab3996080748ea07e.jpg"
+  },
+  {
+    "name": "220008",
+    "defaultvalue": 0,
+    "displayName": "Path of the float: adept",
+    "hidden": 0,
+    "description": " The player has caught 20 species of fish using float tackle",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/703950/4415361be7ad5e88dd2887c5284f4ca1a57571fc.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/703950/2e5acc2c7ed53979d7caea29f846d40f9f2a370d.jpg"
+  },
+  {
+    "name": "220009",
+    "defaultvalue": 0,
+    "displayName": "Path of the float: master!",
+    "hidden": 0,
+    "description": " The player has caught 50 species of fish using float tackle",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/703950/675bb9132f7b30e736fb6c49251062d479c26c43.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/703950/67207f9c8d67860b60f60a8df65216653fa3e52b.jpg"
+  },
+  {
+    "name": "220010",
+    "defaultvalue": 0,
+    "displayName": "I would eat it myself.",
+    "hidden": 0,
+    "description": "The player made the baitfish out of every possible type of fish",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/703950/50f44350e2858a14748be3ffdb8d249ecf8ff488.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/703950/9388134b13fcb936e9ea2f54086d9f95be4220da.jpg"
+  },
+  {
+    "name": "220012",
+    "defaultvalue": 0,
+    "displayName": " Novice traveler",
+    "hidden": 0,
+    "description": " Player visited 5 locales",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/703950/b7cdf0f8f1bb0b13c62e1533ada0b807999af681.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/703950/0f2871a6733a4fc133804e6092ec3fb44fd4fd6c.jpg"
+  },
+  {
+    "name": "220016",
+    "defaultvalue": 0,
+    "displayName": " Scrooge",
+    "hidden": 0,
+    "description": " Player has accumulated 100 000 silver coins",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/703950/6584f4ee9d1febbb56cc594d43eff29836826cf3.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/703950/d0beaaf674c2cdc31cdebad09579c9fd11436de3.jpg"
+  },
+  {
+    "name": "220017",
+    "defaultvalue": 0,
+    "displayName": " Die hard",
+    "hidden": 0,
+    "description": "The player has caught more than 100 units of fish using heavy tackle within one game-day (12:00 am - 11:59 pm)",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/703950/fcb4cc9f318859621685f89e3865988fa147b468.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/703950/cfa06a768578df9ad5be8f5c36f77757e5a1699f.jpg"
+  },
+  {
+    "name": "220018",
+    "defaultvalue": 0,
+    "displayName": " Bloodthirsty",
+    "hidden": 0,
+    "description": " The player has caught the most fish using leech",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/703950/d498936a9e1b1e24c1f304a134db24db021406c8.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/703950/42c00a1aa681e6ff42cc53eec46dfa2ddf452bdb.jpg"
+  },
+  {
+    "name": "220019",
+    "defaultvalue": 0,
+    "displayName": "Savior",
+    "hidden": 0,
+    "description": " The player released 1000 fish",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/703950/88c24aa2c44cacaba0bc6c26c6ca1bb11a911be6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/703950/fb14ad379f3e006becf2520b6c714b069f982095.jpg"
+  },
+  {
+    "name": "220025",
+    "defaultvalue": 0,
+    "displayName": " True carp buster",
+    "hidden": 0,
+    "description": "The player caught three species of carp weighing more than 20 kg each",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/703950/f37cc105751d1f2f90cf018256f61cf5829abbc6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/703950/e96f12ccca12ebb9194243cb1e717c965852b6a2.jpg"
+  },
+  {
+    "name": "220027",
+    "defaultvalue": 0,
+    "displayName": " Midnight Master Tench",
+    "hidden": 0,
+    "description": "The player caught Tench during the first game hour after midnight",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/703950/444c3018183e3dc439da7d2cc27311a670937fa9.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/703950/c00b264959921c26eb23d795eafabf73fbf2bf42.jpg"
+  },
+  {
+    "name": "220029",
+    "defaultvalue": 0,
+    "displayName": " Trout specialist",
+    "hidden": 0,
+    "description": " The player has caught 4 species of trout",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/703950/9535fd43fcc146bb8e0f9612fc44176eb33ef316.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/703950/464855c807943edf7eff4ddfc3a4ed78eccd69ae.jpg"
+  },
+  {
+    "name": "220030",
+    "defaultvalue": 0,
+    "displayName": " Giant slayer",
+    "hidden": 0,
+    "description": "The player caught 5 fish species weighing more than 50 kg each",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/703950/42902df3e9481a091863e70335b5373eedc400d3.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/703950/e3117a193039f194335691fe7d2cb002ecd77c4f.jpg"
+  },
+  {
+    "name": "220032",
+    "defaultvalue": 0,
+    "displayName": "Iceman",
+    "hidden": 0,
+    "description": "The player caught all species of fish, having 'Siberian' in their name",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/703950/838f0d60e21cdf45df5feb961be3a9c0d1566369.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/703950/9c921c10030ae43dabf80525d0a48076459d0dae.jpg"
+  },
+  {
+    "name": "220034",
+    "defaultvalue": 0,
+    "displayName": "42",
+    "hidden": 0,
+    "description": " The player accumulated 42000 experience points",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/703950/ebd2536f226d9b35f4a54a6a743c7df1ce05b23d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/703950/932175a1ca69e4c1aa9d7bec492a64e8473f09aa.jpg"
+  },
+  {
+    "name": "220042",
+    "defaultvalue": 0,
+    "displayName": "Ide!",
+    "hidden": 0,
+    "description": "The player caught an Ide weighing more than 7.5 kg",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/703950/0a5a38541aa1b19f6546abd188afacb6287fb2b3.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/703950/13a7c5d7608592e46ad62b5473994f132961b2b7.jpg"
+  },
+  {
+    "name": "220045",
+    "defaultvalue": 0,
+    "displayName": "Worms Armageddon",
+    "hidden": 0,
+    "description": "The player caught 100 fish using a worm",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/703950/41121b31a8cd7b4323242bbbf3f4379e3720e5e3.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/703950/d3dead4588152963aed490defdd149528e9879f9.jpg"
+  },
+  {
+    "name": "220046",
+    "defaultvalue": 0,
+    "displayName": "Rascal! One thousand worms!",
+    "hidden": 0,
+    "description": "The player caught 1000 fish using worms",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/703950/844142c6061a00995d5a2494ecd1447b553e46c1.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/703950/45c8230efbdd21a0b6388ec840f7201e919f4e3e.jpg"
+  },
+  {
+    "name": "220052",
+    "defaultvalue": 0,
+    "displayName": "Spender",
+    "hidden": 0,
+    "description": "The player spent 100 000 silver coins",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/703950/6975b00577af0feeee3c36976894c09c0b7a18cb.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/703950/c3d872cd888547bc840eae2eb70017ddeae1fed2.jpg"
+  },
+  {
+    "name": "220053",
+    "defaultvalue": 0,
+    "displayName": "Not a moment of peace!",
+    "hidden": 0,
+    "description": "The player caught at least 1 fish in each hour during the game day",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/703950/f1fe7225c9ecde1778566703a245bb7540ad07d9.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/703950/0126eb04d3368d720dd7ce0a94e6b868e2edc8a2.jpg"
+  },
+  {
+    "name": "220058",
+    "defaultvalue": 0,
+    "displayName": "Bread at the center!",
+    "hidden": 0,
+    "description": "The player has caught every possible species of fish using Bread as bait",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/703950/2ba84025ffe57e5f2ecd30bfa55dedbc109d7c2b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/703950/d4e4400a0d7d98c6e0405ba39dec1c4ee08d6185.jpg"
+  },
+  {
+    "name": "220059",
+    "defaultvalue": 0,
+    "displayName": "Cheese geometry",
+    "hidden": 0,
+    "description": "Player has caught all possible fish species using Cheese",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/703950/aa66df315666622e925d0d82f85837e8ae404105.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/703950/7d1e318125479275a1751eefac70e9153fd75126.jpg"
+  },
+  {
+    "name": "220060",
+    "defaultvalue": 0,
+    "displayName": "Tasty Oatmeal",
+    "hidden": 0,
+    "description": "Player has caught all possible fish species using Oatmeal.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/703950/c9d72992a187da168ff6ac654be0ce80e7edc7cf.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/703950/d170f01ece9f21687457803f4f07a0fbcf994a5a.jpg"
+  },
+  {
+    "name": "220061",
+    "defaultvalue": 0,
+    "displayName": "The King Of Peas",
+    "hidden": 0,
+    "description": "Player caught all possible fish species using Peas",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/703950/db19f85294ef9842d14f24d93f98727aa24d63b5.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/703950/f08007cb098d8cd0be6f25252f248c15b41184d3.jpg"
+  },
+  {
+    "name": "220062",
+    "defaultvalue": 0,
+    "displayName": "Cor master",
+    "hidden": 0,
+    "description": "Player has caught all possible fish species using Corn",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/703950/ff7753e0aee36578f5d856c684b3b62244ff27bd.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/703950/0458039f3fc654d1bc24a16df3bc09c49dff6bf2.jpg"
+  },
+  {
+    "name": "220064",
+    "defaultvalue": 0,
+    "displayName": "Cannibal",
+    "hidden": 0,
+    "description": "The player has caught crayfish on crayfish meat",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/703950/4f5d7344b66fe8e19fa31533e277fb6c9e545ad4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/703950/3baf1fe35201a3cf1b46c30dbbf99d90a9197c30.jpg"
+  },
+  {
+    "name": "220074",
+    "defaultvalue": 0,
+    "displayName": "Eel hunter",
+    "hidden": 0,
+    "description": " The player caught an eel weighing over 8.2 kg",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/703950/7620641b1571ecd7b99bddcdd491e773111f87fd.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/703950/23f57d57d45eb1b4728446d7300070cc4485ef91.jpg"
+  },
+  {
+    "name": "220075",
+    "defaultvalue": 0,
+    "displayName": "Manchurian Walker",
+    "hidden": 0,
+    "description": "The player caught a Manchurian Trout weighing more than 8 kg",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/703950/ddcb866866f97ea195432ea25cb95453b1eeebcd.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/703950/07fea666066a5168776007d62a3fc20780454a21.jpg"
+  },
+  {
+    "name": "220076",
+    "defaultvalue": 0,
+    "displayName": "Silver Salmon hunter",
+    "hidden": 0,
+    "description": "The player caught Silver Salmon weighing more than 14 kg",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/703950/9d3ab7830715baae83ae7b3bcef84928bac43317.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/703950/9e6821cb4970d121d53d96687a30d4989c0c743c.jpg"
+  },
+  {
+    "name": "220077",
+    "defaultvalue": 0,
+    "displayName": "Hunchback",
+    "hidden": 0,
+    "description": "The player caught Pink salmon weighing more than 5.5 kg",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/703950/3e250cdee4255d631a5d37445057fab0154c772e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/703950/1072304fd927b9116c887985dc1365f277867232.jpg"
+  },
+  {
+    "name": "220097",
+    "defaultvalue": 0,
+    "displayName": "Sniper",
+    "hidden": 0,
+    "description": "The player caught two fish of the same weight in a row",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/703950/41929ebed2898d5e5a17ffc41f543eadb143b6c4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/703950/cd0cf350833331fdb92dd729f4222a61b8eccf27.jpg"
+  },
+  {
+    "name": "220101",
+    "defaultvalue": 0,
+    "displayName": "Clint Eastwood",
+    "hidden": 0,
+    "description": "The player has won 7 duels in a row",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/703950/059e7bf97aa92069b3cd0af3c27c2e15d6b6284c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/703950/e1593292816bdb1e182d4d6fd93b9bc591a2d332.jpg"
+  },
+  {
+    "name": "220102",
+    "defaultvalue": 0,
+    "displayName": "Shai-Hulud",
+    "hidden": 0,
+    "description": "The player caught a fish weighing more than 20 kg using nightcrawlers",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/703950/39d55dd3e9fdf1819399d6cf5a9cf64e2bf7ea62.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/703950/1ecd05c4f7b5422ce98b142a9195bdeb63e38ffc.jpg"
+  },
+  {
+    "name": "220103",
+    "defaultvalue": 0,
+    "displayName": "Snagging specialist",
+    "hidden": 0,
+    "description": "The player snagged 100 clams",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/703950/29e7e9b64cc777f016b127ee0efbd2ecac57e3cc.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/703950/6fd6c45ab489e90b73fb169a818f6cc79bf03a56.jpg"
+  },
+  {
+    "name": "220013",
+    "defaultvalue": 0,
+    "displayName": " Seasoned traveler",
+    "hidden": 0,
+    "description": "The player visited 15 locales",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/703950/6421a83c4ace5ff3aac3c6ca3978a991f720a05d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/703950/6998266ab892f1afd8278dd48716560c02ddc5d9.jpg"
+  },
+  {
+    "name": "220014",
+    "defaultvalue": 0,
+    "displayName": "The great traveler",
+    "hidden": 0,
+    "description": " The player has visited all possible locales at every water body",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/703950/e35796276290487e99e389eec4bbc5e458fb2e6c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/703950/11e91b121b554f822c9abeac2cd39b7bb85a8f30.jpg"
+  },
+  {
+    "name": "220088",
+    "defaultvalue": 0,
+    "displayName": "Gladiator",
+    "hidden": 0,
+    "description": "The player won 100 duels",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/703950/703caa7fa3ace0bd9a69104aa4cfab0939719a7e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/703950/862eff8c9e28bf30783b665b3bc9c260d7dc9803.jpg"
+  },
+  {
+    "name": "220051",
+    "defaultvalue": 0,
+    "displayName": "Mister Twister",
+    "hidden": 0,
+    "description": "The player caught at least 25 fish species using twister",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/703950/4ffc369cb6097d6d2c76228b091449281f77a6b6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/703950/13d6bd74d004a179124daa7c0bcf1a262d4b0285.jpg"
+  },
+  {
+    "name": "220092",
+    "defaultvalue": 0,
+    "displayName": "Antiquarian",
+    "hidden": 0,
+    "description": "The player opened all possible types of chests",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/703950/89570b6cb4d8282245acfeb4fc045dd2ebe50d43.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/703950/053b46878063aad5ad706a4d54df524d16221b37.jpg"
+  },
+  {
+    "name": "220015",
+    "defaultvalue": 0,
+    "displayName": "The tournament winner",
+    "hidden": 0,
+    "description": "The player participated in the tournament and took first place",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/703950/9214e977ba72402f74f17d4c6f64227f5a1e4f74.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/703950/f6d5cd8604d65e973397ccf674ea5e4d7e4a6afc.jpg"
+  }
+]

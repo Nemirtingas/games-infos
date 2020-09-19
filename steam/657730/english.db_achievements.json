@@ -1,0 +1,857 @@
+﻿[
+  {
+    "name": "victory.villager",
+    "defaultvalue": 0,
+    "displayName": "The true heroes",
+    "hidden": 0,
+    "description": "Win your first public game as a Villager.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/ff3920007c04c1d14dffc759d4fbdac8a7387bfb.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/ab339bc6a81bc5bd05375cd1d5d1c010c56d4660.jpg"
+  },
+  {
+    "name": "victory.plaguelord",
+    "defaultvalue": 0,
+    "displayName": "Pox marks the spot",
+    "hidden": 0,
+    "description": "Win your first public game as the Plaguelord.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/601c842945f5c702529543b1ce4f23ef50407816.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/63f328edfa34d90e0d3ca1109584b7a14b514463.jpg"
+  },
+  {
+    "name": "victory.cleric",
+    "defaultvalue": 0,
+    "displayName": "Glory is the best medicine",
+    "hidden": 0,
+    "description": "Win your first public game as a Cleric.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/5f01bc9914bb11508a63d1affc282b4ce09d7124.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/d004d652bcab2989271232abaf133002971aeedd.jpg"
+  },
+  {
+    "name": "victory.werewolf",
+    "defaultvalue": 0,
+    "displayName": "Strength of the pack",
+    "hidden": 0,
+    "description": "Win your first public game as a Werewolf.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/4722225898a30b83c45c6d4deb14e163039f99d5.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/f3ee00d9348e62acb107261f657845ce2e8c71ee.jpg"
+  },
+  {
+    "name": "victory.oracle",
+    "defaultvalue": 0,
+    "displayName": "I spy with my magic eye",
+    "hidden": 0,
+    "description": "Win your first public game as a Oracle.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/cc30a654657aef43efbd90c8e5087e2cf756172b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/4a89475f56e7c6ddae28661fa70a1025ce2690c3.jpg"
+  },
+  {
+    "name": "victory.shieldmaiden",
+    "defaultvalue": 0,
+    "displayName": "By my shield!",
+    "hidden": 0,
+    "description": "Win your first public game as a Shieldmaiden.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/37aa5b771649fd7e32f014c7e00fcb15663f3ad8.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/00ff20755a84814e3e146837398b0186715033bf.jpg"
+  },
+  {
+    "name": "fun.kill.gecko",
+    "defaultvalue": 0,
+    "displayName": "Community feedback",
+    "hidden": 0,
+    "description": "Play a game with the developer... Then kill him.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/dbbbaf95cf951d612da1f1805328d724c5b5d344.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/e4824c875b918352e3bfa755402f60759103b427.jpg"
+  },
+  {
+    "name": "villager.wins.ten",
+    "defaultvalue": 0,
+    "displayName": "The People's Front of Judea",
+    "hidden": 0,
+    "description": "Win ten games as a villager.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/8a3c237c7370d8dac46665396c03286c387066f0.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/201dbea9eb1ff2af2d6bf590c065c04a37ae9984.jpg"
+  },
+  {
+    "name": "victory.seer",
+    "defaultvalue": 0,
+    "displayName": "Through the looking glass",
+    "hidden": 0,
+    "description": "Win your first public game as a Seer.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/221d06c4f41702110094457948af150ad3ced89f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/f32a148caa06f87412498e9ff7e6bdd20feb252c.jpg"
+  },
+  {
+    "name": "victory.traveller",
+    "defaultvalue": 0,
+    "displayName": "How far we have come",
+    "hidden": 0,
+    "description": "Win your first public game as a Traveller",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/4c0b3b894ef289f11188e29cb25b354f24da5aff.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/03ed64ea87064677c752d32d2b4fbd8b0ded95fc.jpg"
+  },
+  {
+    "name": "victory.patron",
+    "defaultvalue": 0,
+    "displayName": "Always pay your debts",
+    "hidden": 0,
+    "description": "Win your first public game as a Patron",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/239478f43a7d9a1b34f8f80cb909458a2f509fa6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/422ebee5d049a9ffb1de56fc5e07915cf0bc39e4.jpg"
+  },
+  {
+    "name": "victory.bodyguard",
+    "defaultvalue": 0,
+    "displayName": "Got your back",
+    "hidden": 0,
+    "description": "Win your first public game as a Bodyguard",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/bb900f092eec9ba76f1bf36656bf88601abb0c0d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/2c191e78e5193945a9a1f06e0fc733174598ed9a.jpg"
+  },
+  {
+    "name": "victory.wendigo",
+    "defaultvalue": 0,
+    "displayName": "By fang and claw",
+    "hidden": 0,
+    "description": "Win your first public game as a Wendigo.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/665b5e6a4e167c1bb09072ed7aae20bb4a54a217.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/e7b86031c20d6c90fe14faf0654367d2ee76b508.jpg"
+  },
+  {
+    "name": "victory.werebat",
+    "defaultvalue": 0,
+    "displayName": "Blind and cruel",
+    "hidden": 0,
+    "description": "Win your first public game as a Werebat.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/265d66c8304a4063ee4888048c13e13054306465.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/39441f9b3950fc564f09fb459c5eec945a798484.jpg"
+  },
+  {
+    "name": "victory.diseased",
+    "defaultvalue": 0,
+    "displayName": "Spoiled rotten",
+    "hidden": 0,
+    "description": "Win your first public game as a Diseased.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/d5579d6e0253b31402b522a40a994f43c6095b9d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/e3c2ef7fbbc839801014e9e062214733c17d0ed9.jpg"
+  },
+  {
+    "name": "victory.prince",
+    "defaultvalue": 0,
+    "displayName": "Oh, there you go, bringing class into it again.",
+    "hidden": 0,
+    "description": "Win your first public game as a Prince.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/c71c676b032d2635e1b6090cf765e842ef3586d9.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/5f265da412d2ef37d5767412738230fa368b9f48.jpg"
+  },
+  {
+    "name": "victory.raven",
+    "defaultvalue": 0,
+    "displayName": "Never more",
+    "hidden": 0,
+    "description": "Win your first public game as a Raven.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/53d9c5b8784715ec2dd06afef5ae96be45a91d69.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/3c772d494fe99f507132427105101560fba8be72.jpg"
+  },
+  {
+    "name": "victory.baroness",
+    "defaultvalue": 0,
+    "displayName": "Blood is thicker...",
+    "hidden": 0,
+    "description": "Win your first public game as a Baroness.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/ea3e9b397ee40f93ed3aa144ff40ac4dc1a08cb9.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/d0492e747837b2f9290ed1b41e24ce4c6f08b9cd.jpg"
+  },
+  {
+    "name": "hunter.shooting.hunter",
+    "defaultvalue": 0,
+    "displayName": "Bow down, bow down",
+    "hidden": 0,
+    "description": "Witness a hunter shooting another hunter.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/98fa13a037a98c4e7a3fc3662cdb063f73eb86dc.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/dfa52cdeb125b8611872c4e3b83c22b9f05592b9.jpg"
+  },
+  {
+    "name": "villager.votes.plusfive",
+    "defaultvalue": 0,
+    "displayName": "Electoral College",
+    "hidden": 0,
+    "description": "Have five or more bonus votes on one player.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/35835936082fbcf7fd41c1eb38f9d63e5061beff.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/1ad723ba7404af8d6a04651b07639afad8930116.jpg"
+  },
+  {
+    "name": "changeling.become.changeling",
+    "defaultvalue": 0,
+    "displayName": "Jiggling Jelly",
+    "hidden": 0,
+    "description": "As a Changeling, turn into... Another changeling.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/71289ee85ed9149042e7650eb94b6d626f77e1e2.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/6c3b662d212f3468decca834b3c793c07d9d6d3a.jpg"
+  },
+  {
+    "name": "imp.gaining.divineprotection",
+    "defaultvalue": 0,
+    "displayName": "Hells Angel",
+    "hidden": 0,
+    "description": "As an Imp, receive divine protection from a Guardian.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/43f0ccae13ca7b941318aaa0d28ae2c101077c85.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/1ee2cf3803b09710d3f19a58e4748a18c7263553.jpg"
+  },
+  {
+    "name": "survive.game.ten",
+    "defaultvalue": 0,
+    "displayName": "Survivalist",
+    "hidden": 0,
+    "description": "Survive a game with at least ten human players.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/97d27ec19413747f126ef35c3125579271df4699.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/4df3a1c58511c2e62c526785c230cd07a68773fc.jpg"
+  },
+  {
+    "name": "victory.fisherman",
+    "defaultvalue": 0,
+    "displayName": "Reel it in!",
+    "hidden": 0,
+    "description": "Win your first public game as a Fisherman.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/210a34c15fec09bc168f5a299e547788edd4991e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/ac64d8cc421f091d82195f5cd3deb071c22b4d2a.jpg"
+  },
+  {
+    "name": "fisherman.fisherprotect.patron",
+    "defaultvalue": 0,
+    "displayName": "Hook, line and sinker",
+    "hidden": 0,
+    "description": "As a fisherman, copy protection from a Patron that is itself protected.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/85faa6f816e64c730d44c8073e8c8076501f0226.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/cde17ebb197711583b3c7b5f12cd8d101fccb635.jpg"
+  },
+  {
+    "name": "fisherman.wins.10",
+    "defaultvalue": 0,
+    "displayName": "Soul tether",
+    "hidden": 0,
+    "description": "Win 10 multiplayer games as the Fisherman.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/86d7804d4737c28405e61804dbb5cfd6e1183ff3.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/8ed49ece23efdba7225e7585cf171569717abf49.jpg"
+  },
+  {
+    "name": "fisherman.fisherprotect.bodyguard",
+    "defaultvalue": 0,
+    "displayName": "Hooked on a feeling",
+    "hidden": 0,
+    "description": "Copy protection directly from a Bodyguard protecting himself.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/237622d3e73c3ba8300c7195337dd4f1c6f88cdc.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/12cca4b6422b0f9659ba64b6367e48fb4f70d630.jpg"
+  },
+  {
+    "name": "seer.wins.ten",
+    "defaultvalue": 0,
+    "displayName": "The all-seeing I",
+    "hidden": 0,
+    "description": "Win 10 multiplayer games as the Seer.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/ec53f360f9396d82920d5e93d847c829459bcb43.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/169192cb4cc973a1e2e7dc7aa8392adc547d9c84.jpg"
+  },
+  {
+    "name": "fisherman.fisherprotect.werewolf",
+    "defaultvalue": 0,
+    "displayName": "Fish slapping dance",
+    "hidden": 0,
+    "description": "Attempt to copy protection from someone attacking you.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/2b4470d52161177c54ee1df968dccfc4407f6be2.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/a1d1295c0612a07104328884aa837a0a43de4e5d.jpg"
+  },
+  {
+    "name": "poppet.soultether.prince",
+    "defaultvalue": 0,
+    "displayName": "Why wont you just die?!",
+    "hidden": 0,
+    "description": "As a Poppet in a public match, tether your soul to the prince.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/b80aa354eec73ec204bb9213b6fe3d6506372f53.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/781c460fce6b6775fb395273b332aa55803c0092.jpg"
+  },
+  {
+    "name": "victory.poppet",
+    "defaultvalue": 0,
+    "displayName": "No strings attached",
+    "hidden": 0,
+    "description": "Win your first public game as a Poppet.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/080e215f7a3e911d0bcfc6fab681b7941931f03f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/595ec5cdaadebd3d55b74d69f845e923c445ed42.jpg"
+  },
+  {
+    "name": "victory.ridinghood",
+    "defaultvalue": 0,
+    "displayName": "My how big cards you have...",
+    "hidden": 0,
+    "description": "Win your first public game as the Riding Hood.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/28c9971628cf9cdac2931ccc62630557465b0eed.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/6e86f5d1d4f41c42f53837661e145548d02c9f61.jpg"
+  },
+  {
+    "name": "ridinghood.wins.ten",
+    "defaultvalue": 0,
+    "displayName": "Tale as old as time",
+    "hidden": 0,
+    "description": "Win 10 multiplayer games as the Riding Hood.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/faa747639646b2d6b0efdc5ea3efae409a57a5f6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/b19bcc3e716110720c34cfff0689e17882bd5781.jpg"
+  },
+  {
+    "name": "bodyguard.bodyguarding.ridinghood",
+    "defaultvalue": 0,
+    "displayName": "You ruined my death!",
+    "hidden": 0,
+    "description": "As a Riding Hood, be protected during a night where you would have been eaten and won.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/f0189ddb4abaf163501b4464451e0d6d3645f541.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/1d8c9f3c2ffdd9908ea75a2cdb0ebba0ca11ef36.jpg"
+  },
+  {
+    "name": "victory.apprentice",
+    "defaultvalue": 0,
+    "displayName": "I will finish what you started",
+    "hidden": 0,
+    "description": "Win your first public game as an Apprentice.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/7638b2f388a7a6816220f5c86be682fef83ce93b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/355fe62e6cd670e36e7aa0e88b24a04aec7c4ef1.jpg"
+  },
+  {
+    "name": "victory.assassin",
+    "defaultvalue": 0,
+    "displayName": "A knife in the night",
+    "hidden": 0,
+    "description": "Win your first public game as an Assassin.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/f616131acbabc0cc5cf393256dbe4c2976c4dd7f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/63ab756f005bc1ef373c08f51d83bd088057774b.jpg"
+  },
+  {
+    "name": "victory.berserker",
+    "defaultvalue": 0,
+    "displayName": "Break the skulls!",
+    "hidden": 0,
+    "description": "Win your first public game as a Berserker.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/cdc130c37b75106d8c4c3a6dcf6363d3c54167f6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/3fdcb52b865daf322b252934b6fecfb8933888b6.jpg"
+  },
+  {
+    "name": "victory.exile",
+    "defaultvalue": 0,
+    "displayName": "Lost but not forgotten",
+    "hidden": 0,
+    "description": "Win your first game as an Exile.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/832b291e2351e78170189d604ba857add2ff97d7.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/446176a46eaca0835d942d53f28ff42bd33b19ff.jpg"
+  },
+  {
+    "name": "apprentice.wins.ten",
+    "defaultvalue": 0,
+    "displayName": "Growing and learning",
+    "hidden": 0,
+    "description": "Win 10 multiplayer games as the Apprentice.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/bc7dcfa88abeae9a9528144d52441cbf949d9b0c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/bfc9d19fea8a77fc9897e1cb728313f2d25d7a3c.jpg"
+  },
+  {
+    "name": "changeling.become.apprentice",
+    "defaultvalue": 0,
+    "displayName": "Forever changing",
+    "hidden": 0,
+    "description": "As a Changeling, turn into an Apprentice.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/c1d263e6bd42c51c23225fcd5d4806e82fe86492.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/28ed87827a6001d17dd08890fbff2e8fd3f8ff9b.jpg"
+  },
+  {
+    "name": "seer.truesight.apprentice",
+    "defaultvalue": 0,
+    "displayName": "Student inspection",
+    "hidden": 0,
+    "description": "As an Apprentice, be targeted by the Seer the same night as you become the Seer.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/7491af49928fd336feacb62383a13b8daae884e5.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/6c9ed7412459c9e10dee6b49accf2b8b9ae611c1.jpg"
+  },
+  {
+    "name": "victory.sage",
+    "defaultvalue": 0,
+    "displayName": "Older and wiser",
+    "hidden": 0,
+    "description": "Win your first public game as the Sage.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/917b418a115a330aaa8dbd985f0a52706d0eeb19.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/7c30321f2bbdce37e37a53a3f1f2d6787086b070.jpg"
+  },
+  {
+    "name": "victory.hunter",
+    "defaultvalue": 0,
+    "displayName": "Never miss the mark",
+    "hidden": 0,
+    "description": "Win your first public game as a Hunter.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/d97a914509c05d01491981e65a04682628e2c96a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/494cef54336e5f99932ac07d4d2bd86780d80f67.jpg"
+  },
+  {
+    "name": "victory.admiral",
+    "defaultvalue": 0,
+    "displayName": "Master and Commander",
+    "hidden": 0,
+    "description": "Win your first public game as a Admiral.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/1d9f3187471bec64739c9e0e43c8bb8236854bf4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/c2b713e93c415a5f1cc05bae4d65e2a0be5a68d1.jpg"
+  },
+  {
+    "name": "admiral.wins.ten",
+    "defaultvalue": 0,
+    "displayName": "Fleet Mastery",
+    "hidden": 0,
+    "description": "Win 10 multiplayer games as the Admiral.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/f83cc430e941fbf8bbea8afe8093f1770858912e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/e72f3d3227240330ca5afd0131b575e4a7836cb0.jpg"
+  },
+  {
+    "name": "victory.ashling",
+    "defaultvalue": 0,
+    "displayName": "Abusing sympathy",
+    "hidden": 0,
+    "description": "Win your first public game as an Ashling.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/5706cb864d85791f2f02034eb632ca9cb00e3f53.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/edba4619c888fab8698db7d56ae8e0a608b67374.jpg"
+  },
+  {
+    "name": "ashling.wins.ten",
+    "defaultvalue": 0,
+    "displayName": "Waves of Ash",
+    "hidden": 0,
+    "description": "Win 10 multiplayer games as the Ashling.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/ed213826f63f8ca1057433e67c52a9eaf125063e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/ce3569d8aa173eb2187cfed42aa3d3b67ebf9e30.jpg"
+  },
+  {
+    "name": "victory.bloodoak",
+    "defaultvalue": 0,
+    "displayName": "Branches of blood",
+    "hidden": 0,
+    "description": "Win your first public game as a Blood Oak.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/72179bc12a06d7fe6f613be92dedecbc8bdf5078.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/9403b0dc7862c40dbb5623f7996e0035c31f62b4.jpg"
+  },
+  {
+    "name": "bloodoak.hungerroots.bard",
+    "defaultvalue": 0,
+    "displayName": "Poe-tree in motion",
+    "hidden": 0,
+    "description": "As a Blood Oak, successfully kill the bard.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/6acd27357586a2adc96d3836b7ff5901d73d86be.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/620ddedbf3a7533580dc889563a852c4cfde5a64.jpg"
+  },
+  {
+    "name": "hunter.takeaim.bloodoak",
+    "defaultvalue": 0,
+    "displayName": "Grow your brains out",
+    "hidden": 0,
+    "description": "As a hunter, successfully shoot the Blood Oak.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/7224b7da1e6b0066f7d5105e468ac41852b40c73.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/64fbd00e76b0b8f4eb296d18ef37391f28c6c03c.jpg"
+  },
+  {
+    "name": "berserker.berserkerstrike.bloodoak",
+    "defaultvalue": 0,
+    "displayName": "Can I AXE you a question?",
+    "hidden": 0,
+    "description": "As the Berserker, kill a Blood Oak with a throwing axe.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/009f37098fde2767ed4be08bcf1d32c8d293a019.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/dd4d53c9ea5a4e56375375784f668eec721ecf3d.jpg"
+  },
+  {
+    "name": "victory.reaper",
+    "defaultvalue": 0,
+    "displayName": "You reap what you see",
+    "hidden": 0,
+    "description": "Win your first public game as the Reaper.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/a1d3e52488cd7420b9b5b9eae7b6204baa82c49a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/8e5026e663c2b547b073c76aabfd928f0ed408d1.jpg"
+  },
+  {
+    "name": "victory.bard",
+    "defaultvalue": 0,
+    "displayName": "Lend me your ear!",
+    "hidden": 0,
+    "description": "Win your first public game as the Bard.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/525cb440a44d5db677d1d9963e77d6c11a0b4380.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/12cfdfb5e4a35d39ea551acf4d685e20d422c84c.jpg"
+  },
+  {
+    "name": "bard.wins.ten",
+    "defaultvalue": 0,
+    "displayName": "Ballads of trouble",
+    "hidden": 0,
+    "description": "Win 10 multiplayer games as the Bard.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/f35076fe6aab796a5d166566cd9e47ec64b6489a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/d7f6c22166c208d8cad9bc81575b20490b7e7a96.jpg"
+  },
+  {
+    "name": "victory.imp",
+    "defaultvalue": 0,
+    "displayName": "Smells like sulfuric spirit",
+    "hidden": 0,
+    "description": "Win your first public game as the Imp.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/a7b04cb0f49e490c106cfb36aefb9b6f68d0f598.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/af657576bb1901fa65987d82c9b7b5ff2bd66545.jpg"
+  },
+  {
+    "name": "imp.wins.ten",
+    "defaultvalue": 0,
+    "displayName": "The dominion of hell",
+    "hidden": 0,
+    "description": "Win 10 multiplayer games as the Imp.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/b8cbb951bf41496ce06625721a98925640c731f4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/293b2e082b5dc9f8c8a387035e8b0d8c00574bd5.jpg"
+  },
+  {
+    "name": "victory.jester",
+    "defaultvalue": 0,
+    "displayName": "Only fools fear death",
+    "hidden": 0,
+    "description": "Win your first public game as the Jester.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/480afbcfefac434b2ca1632469f491d4269ca62f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/2d33ad519ca043bbe1bb05100efc7f5baf4533a9.jpg"
+  },
+  {
+    "name": "jester.wins.ten",
+    "defaultvalue": 0,
+    "displayName": "Maniacal Cackling",
+    "hidden": 0,
+    "description": "Win 10 multiplayer games as the Jester.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/9bbe8b35dd416143dd3dac8898aaea1b13e6f9f2.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/1944bd39dd42fdae16e173915c60029cd5787d05.jpg"
+  },
+  {
+    "name": "victory.kitsune",
+    "defaultvalue": 0,
+    "displayName": "The fox in the night",
+    "hidden": 0,
+    "description": "Win your first public game as the Kitsune.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/2bca9b4ddf587de9787b2069761564d947b890f2.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/e1dba0871e90fb92bb5946d7c48ddbc70aa339bb.jpg"
+  },
+  {
+    "name": "kitsune.wins.ten",
+    "defaultvalue": 0,
+    "displayName": "Dominion of the Fox",
+    "hidden": 0,
+    "description": "Win 10 multiplayer games as the Kitsune.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/434dde69fb0fe3f0aff6389e4ff826d776434fb4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/4617fceef9feae17ab28ea5b323a657a6ed8711c.jpg"
+  },
+  {
+    "name": "victory.minotaur",
+    "defaultvalue": 0,
+    "displayName": "Take the world by the horns",
+    "hidden": 0,
+    "description": "Win your first public game as the Minotaur.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/ff34d748251174279f8c90ff3539d822e34cc23a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/7cd3be0f0769acb5dfcbc292438da6ef58787289.jpg"
+  },
+  {
+    "name": "minotaur.wins.ten",
+    "defaultvalue": 0,
+    "displayName": "This is some bull's shield...",
+    "hidden": 0,
+    "description": "Win 10 multiplayer games as the Minotaur.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/1a4a9487e722ca952f6bbb85d5669a9a4cacb2db.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/8abb5f7847282051ceb8af06b724ac4d43f3ea65.jpg"
+  },
+  {
+    "name": "victory.usurper",
+    "defaultvalue": 0,
+    "displayName": "Break the wheel",
+    "hidden": 0,
+    "description": "Win your first public game as the Usurper.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/79d56c5f2875c175e4d3830b7d47e9cebb0f04ab.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/6ec90d6c7e5e3f333c45157c4975a4915890893e.jpg"
+  },
+  {
+    "name": "usurper.wins.ten",
+    "defaultvalue": 0,
+    "displayName": "Reign supreme",
+    "hidden": 0,
+    "description": "Win 10 multiplayer games as the Usurper.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/799a80133a4301f76e782ec4072282e6b5e61183.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/4fb0dd2353b9dd692fe4a305e7f92950285bc31a.jpg"
+  },
+  {
+    "name": "victory.witchofenvy",
+    "defaultvalue": 0,
+    "displayName": "For the reflection deceive me",
+    "hidden": 0,
+    "description": "Win your first public game as the Witch of Envy.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/cbcafddd0666c357c8c9af8dd6fc7a506cb364a0.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/695d6a38eb961b82878d3fa24d75d2f5118e37ca.jpg"
+  },
+  {
+    "name": "witchofenvy.wins.ten",
+    "defaultvalue": 0,
+    "displayName": "They had everything, they took everything...",
+    "hidden": 0,
+    "description": "Win 10 multiplayer games as the Witch of Envy.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/5ceebbb45c31c54d487e9f41d10d3a0c8a69584f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/4a8684deb8478cb52c82b5a387d6121a6876d322.jpg"
+  },
+  {
+    "name": "victory.captain",
+    "defaultvalue": 0,
+    "displayName": "Strong and stoic",
+    "hidden": 0,
+    "description": "Win your first public game as the Captain.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/b385d132d985b293b28473be5e487cff99953b29.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/5f8317db7048b057ae0e138e992e617c60cbe95a.jpg"
+  },
+  {
+    "name": "jester.lastlaugh.jester",
+    "defaultvalue": 0,
+    "displayName": "The man who laughed",
+    "hidden": 0,
+    "description": "As the Jester, eliminate another Jester using your Last Laugh.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/221b36a54bfcf132da7118bee2297a7981ffa1a1.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/6496988bf1310c4213348e5310e5ef16f13649a2.jpg"
+  },
+  {
+    "name": "poppet.forcelynch.jester",
+    "defaultvalue": 0,
+    "displayName": "Mask of madness",
+    "hidden": 0,
+    "description": "As the Jester, have your Last Laugh triggered by a Poppet",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/886b87534ff3cd277f4829959d0a06d6343d7669.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/fbf7f7f175ce23786f14f76f63bb08ef25a2b566.jpg"
+  },
+  {
+    "name": "bonusvotes.3.prince",
+    "defaultvalue": 0,
+    "displayName": "Some sort of peasant joke that I'm too rich to understand",
+    "hidden": 0,
+    "description": "As the prince, be nominated with 3 or more bonus votes.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/f89cd57aef5824a8f90737e0b198438507868d16.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/459527482293eecf025663221e6135fdd523ea61.jpg"
+  },
+  {
+    "name": "poppet.forcelynch.prince",
+    "defaultvalue": 0,
+    "displayName": "The prince and the pea",
+    "hidden": 0,
+    "description": "As the Prince, have a Poppet attempt to lynch you.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/6eb74d2838fee48b91c0491d594ba95d1d85130d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/a11850c25c4176a4e5facb6cb0021dc079b10fc1.jpg"
+  },
+  {
+    "name": "victory.mentalist",
+    "defaultvalue": 0,
+    "displayName": "Wisdom in purity",
+    "hidden": 0,
+    "description": "Win your first public game as the Mentalist.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/e515202c721ee4b420c9b3de6f92c7051be62871.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/47bf2ccf02878f4ce717ccc9a007e857793cd517.jpg"
+  },
+  {
+    "name": "mentalist.wins.ten",
+    "defaultvalue": 0,
+    "displayName": "Arcanum Infinitus",
+    "hidden": 0,
+    "description": "Win 10 multiplayer games as the Mentalist.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/29a4c85faf382447d959dc5cf0219fb9c7c18fe7.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/6a571e97a919501fecc9d2dba2ce7dd34c01e056.jpg"
+  },
+  {
+    "name": "victory.geisha",
+    "defaultvalue": 0,
+    "displayName": "A grace worth fighting for",
+    "hidden": 0,
+    "description": "Win your first public game as the Geisha.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/14071444a313e2b45809e8c256af07fcb266466c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/2298a0859b0b31aac2fd7138dc331267b3f25f68.jpg"
+  },
+  {
+    "name": "geisha.wins.ten",
+    "defaultvalue": 0,
+    "displayName": "Silk and Sakuras",
+    "hidden": 0,
+    "description": "Win 10 multiplayer games as the Geisha.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/7979b3a89dc266f1513d805a5a96cc27bf64810c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/1baa3f4dfac2aa015f5296c55791351306195d24.jpg"
+  },
+  {
+    "name": "victory.ghast",
+    "defaultvalue": 0,
+    "displayName": "A bitter bite",
+    "hidden": 0,
+    "description": "Win your first public game as the Ghast.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/0929d2178d7df5e8142fbe9ccd297bffc3e346f6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/1b7dc403decdc54b23ec663138e780866bbfbf17.jpg"
+  },
+  {
+    "name": "ghast.wins.ten",
+    "defaultvalue": 0,
+    "displayName": "A ghastly gang",
+    "hidden": 0,
+    "description": "Win 10 multiplayer games as the Ghast.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/ae784a2897da01eeb57ee11e876c9ea333585bc0.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/8c83febdef6a49127f05c1e5162a9d5aad3b6a0a.jpg"
+  },
+  {
+    "name": "victory.gremlin",
+    "defaultvalue": 0,
+    "displayName": "Breaker of good intentions",
+    "hidden": 0,
+    "description": "Win your first multiplayer game as the Gremlin.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/4e0d13c84d3540cb0a6b23bdd4efb93bc6587498.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/356d103858a5f864f59f58b6d6a6907c745eb5f4.jpg"
+  },
+  {
+    "name": "gremlin.wins.ten",
+    "defaultvalue": 0,
+    "displayName": "All that glisters",
+    "hidden": 0,
+    "description": "Win 10 multiplayer games as the Gremlin.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/75e52b4bd0b63c3942c431aa36ebaaf3bb041832.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/a344091746085e258c55115d9623c202b0493b25.jpg"
+  },
+  {
+    "name": "victory.karura",
+    "defaultvalue": 0,
+    "displayName": "Crow's feat",
+    "hidden": 0,
+    "description": "Win your first multiplayer game as the Karura.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/f84e88a2401da3ae624a846ba6fbdfec005167b7.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/afd2310dd3d5255468740e4164a5f3038da27c75.jpg"
+  },
+  {
+    "name": "karura.wins.ten",
+    "defaultvalue": 0,
+    "displayName": "Soaring heights",
+    "hidden": 0,
+    "description": "Win 10 multiplayer games as the Karura.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/5d00c07bcd39caf76c7c46ed47e6c7929aee3e03.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/b1323443440d898753ff1dfe134938b45c9cfdd6.jpg"
+  },
+  {
+    "name": "victory.landlord",
+    "defaultvalue": 0,
+    "displayName": "What is yours, will be mine",
+    "hidden": 0,
+    "description": "Win your first multiplayer game as the Landlord.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/c59015d2863f002281c4f84487c8025bb31a86ab.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/36e694f2910f8bc27c41293d8beca48f111477c1.jpg"
+  },
+  {
+    "name": "victory.carpenter",
+    "defaultvalue": 0,
+    "displayName": "Built to last",
+    "hidden": 0,
+    "description": "Win your first multiplayer game as the Carpenter.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/be8ed86f025e860bb357c44ae10b994527f4a7ae.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/008389982fc294719cbe951faa2a8226bd2a2f24.jpg"
+  },
+  {
+    "name": "apprentice.become.admiral",
+    "defaultvalue": 0,
+    "displayName": "Join the navy they said...",
+    "hidden": 0,
+    "description": "As an apprentice, convert into a Admiral.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/1c185b82d4c7cd332a68bb0d19dda705a7af7648.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/f145fc5be69c1a0579b54b7bdebc54449e1d5ee0.jpg"
+  },
+  {
+    "name": "usurper.become.jester",
+    "defaultvalue": 0,
+    "displayName": "From kings to fools",
+    "hidden": 0,
+    "description": "In a public match, transition from Usurper to Jester.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/0b6a8b7ddec7628631bddf50d79e67287c27f166.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/d984ca155698c7beff9f9aba439d0c1204e17575.jpg"
+  },
+  {
+    "name": "poppet.wins.ten",
+    "defaultvalue": 0,
+    "displayName": "The school of dark arts",
+    "hidden": 0,
+    "description": "Win 10 multiplayer games as the Poppet.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/a5cdef904653085ea6519480e1ca3fde3b232010.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/1957a0df1934dbc7f81b430dd5b570d0ebb29b6e.jpg"
+  },
+  {
+    "name": "geisha.level.five",
+    "defaultvalue": 0,
+    "displayName": "The tale of the silver orchid",
+    "hidden": 0,
+    "description": "Reach level 5 with the Geisha.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/ca95be4dc4e2e92d9326005372c5e655f18554f9.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/c4e9775845e54324ed23fb2abdd67a3bcd024269.jpg"
+  },
+  {
+    "name": "ridinghood.level.five",
+    "defaultvalue": 0,
+    "displayName": "A sealed fate most foul",
+    "hidden": 0,
+    "description": "Reach level 5 with the Riding Hood.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/85d304e4b3324db5d7ca4c0c7fdcfec5f4b053b8.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/a0258e17a5b33261001120c68156a41a2cc9eb66.jpg"
+  },
+  {
+    "name": "victory.necromancer",
+    "defaultvalue": 0,
+    "displayName": "Raising suspicions",
+    "hidden": 0,
+    "description": "Win your first multiplayer game as the Necromancer.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/ce7204fc23c1bf6528f03e523c3eeaa020c7bc02.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/af95ba15c6b8b2d2010cc452cd4c7e1dfc4682fd.jpg"
+  },
+  {
+    "name": "victory.countess",
+    "defaultvalue": 0,
+    "displayName": "No remorse",
+    "hidden": 0,
+    "description": "Win your first multiplayer game as the Countess.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/8db2e457cc5d3340aaa16f6ff4403a2b94e835f6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/d4776e0d5fd38bd99cfaee02edca5de077a886e0.jpg"
+  },
+  {
+    "name": "countess.wins.ten",
+    "defaultvalue": 0,
+    "displayName": "A true blood bath",
+    "hidden": 0,
+    "description": "Win 10 multiplayer games as the Countess.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/348957bcbcb2e94949bd84fccb2e6e8686893e9b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/61fa6f679765a9a83bf5b3759079116f86f9e0c4.jpg"
+  },
+  {
+    "name": "victory.skinflayer",
+    "defaultvalue": 0,
+    "displayName": "Fits like a glove",
+    "hidden": 0,
+    "description": "Win your first multiplayer game as the Skinflayer.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/c0f2f0ff1eb5643a543d142224bab918d38d87cf.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/4d2228a2d5b6cdda8cd45c3ccf2e59ef4a42d911.jpg"
+  },
+  {
+    "name": "victory.ghoul",
+    "defaultvalue": 0,
+    "displayName": "Carrion the living",
+    "hidden": 0,
+    "description": "Win your first multiplayer game as the Ghoul.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/63f335dd3ec9d45d880f2da131f9f8172fd5e54e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/6d595900b57bf99607e410e7735b0bbf9022c1ae.jpg"
+  },
+  {
+    "name": "victory.king",
+    "defaultvalue": 0,
+    "displayName": "I fight for empires, you for applause",
+    "hidden": 0,
+    "description": "Win your first multiplayer game as the King.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/295e5fc9918a1da5fb950a8990173a943e10743e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/99bedd1532052e43de3f7df84bba0076564b9899.jpg"
+  },
+  {
+    "name": "king.king_bestow.prince",
+    "defaultvalue": 0,
+    "displayName": "Royal lineage",
+    "hidden": 0,
+    "description": "As the king, bestow the Royal Decree to a Prince.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/5b32f473f3828dc4b24f47bc1beb2056bed2e7af.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/657730/8f92f459d8b3130573bca0e71bd73c5da7b8f4ef.jpg"
+  }
+]

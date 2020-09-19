@@ -1,0 +1,191 @@
+﻿[
+  {
+    "name": "EJAGA_DiscoverHerName",
+    "defaultvalue": 0,
+    "displayName": "Who Am I?",
+    "hidden": 0,
+    "description": "Discover the name of the Maiden in Red",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/243120/d9b0f8baa852ce1fcef9fd8d332a385c2adbe9dd.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/243120/604c1bff3125b235abc6a782ee738b843d5b118c.jpg"
+  },
+  {
+    "name": "EJAGA_AcquireAllMasterWeapons",
+    "defaultvalue": 0,
+    "displayName": "Weapon Collector",
+    "hidden": 0,
+    "description": "Acquire all unique weapons",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/243120/e5a443a132410530a974d240de5941a056ff4d7b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/243120/395e1342ed3702d23655bfcec1c1072a72506b91.jpg"
+  },
+  {
+    "name": "EJAGA_FreeAllPunished",
+    "defaultvalue": 0,
+    "displayName": "Exorcist",
+    "hidden": 0,
+    "description": "Free all of the lost souls",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/243120/a99d354d86b9ab53ad2e4a92cc5f1bfbdffe7c7c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/243120/9c5476dfab93e9b4e5613af361d2e970d4ab8f36.jpg"
+  },
+  {
+    "name": "EJAGA_FindAllChests",
+    "defaultvalue": 0,
+    "displayName": "Collector",
+    "hidden": 0,
+    "description": "Find all treasure chests",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/243120/ce116359d6038cf65233b753a7f6f6a746236f24.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/243120/30046c4d740aee45176522e33ec9fcb8ac76bd73.jpg"
+  },
+  {
+    "name": "EJAGA_FindAllGraves",
+    "defaultvalue": 0,
+    "displayName": "Chronicler",
+    "hidden": 0,
+    "description": "Find all graves",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/243120/1981c474c93b36287eddb8683bdef6d5ea1fb8f5.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/243120/d9cc720138ba2c6ae30a2bb3eecf72b8325c9c67.jpg"
+  },
+  {
+    "name": "EJAGA_FindAllClues",
+    "defaultvalue": 0,
+    "displayName": "Investigator",
+    "hidden": 0,
+    "description": "Find all clues",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/243120/3f08b349d8e9c1e6e7b94febee238f3548dbae66.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/243120/a8939420634927adcc3863e2328bbb3149432d0a.jpg"
+  },
+  {
+    "name": "EJAGA_FindAllNotes",
+    "defaultvalue": 0,
+    "displayName": "Documenter",
+    "hidden": 0,
+    "description": "Find all page scraps",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/243120/bd2ee1ca6bcf643f664a04184b0af73ea6664f42.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/243120/de7a802ae25429780f34486b44e5c025ad03921e.jpg"
+  },
+  {
+    "name": "EJAGA_KillXThieves",
+    "defaultvalue": 0,
+    "displayName": "Hunter",
+    "hidden": 0,
+    "description": "Kill 3 Thieves",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/243120/1438d1c63161a223ebf40b556648aa3cca2cae43.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/243120/4fdbbe69aa67e00825141836d25210c7cd94e936.jpg"
+  },
+  {
+    "name": "EJAGA_KillXEnemies",
+    "defaultvalue": 0,
+    "displayName": "Antagonist",
+    "hidden": 0,
+    "description": "Kill 1000 enemies",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/243120/835048b3318e17ba6de3d225ffe712f61fa90233.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/243120/205e176f90cd09e54ccbc9e62943a3d1e5f97696.jpg"
+  },
+  {
+    "name": "EJAGA_StealthKillXEnemies",
+    "defaultvalue": 0,
+    "displayName": "Assassin",
+    "hidden": 0,
+    "description": "Stealth-kill 200 enemies",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/243120/a4b7928f0539b1e9ff35c851500bcaeefdfc7f4f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/243120/43a746a648fd87657018e51a601e108469f01497.jpg"
+  },
+  {
+    "name": "EJAGA_TomahawkKillXEnemies",
+    "defaultvalue": 0,
+    "displayName": "Artisan",
+    "hidden": 0,
+    "description": "Kill 100 enemies with tomahawks",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/243120/832b914fce35264c03d913d0b9ac7a16af85a472.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/243120/606c8153cc7cb4272002b68673aa8cac59e05b1f.jpg"
+  },
+  {
+    "name": "EJAGA_FindAllPunished",
+    "defaultvalue": 0,
+    "displayName": "Seeker",
+    "hidden": 0,
+    "description": "Find all of the lost souls",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/243120/78b652e3784dc58d5f6053b46a6e10c9302a41dd.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/243120/b21547ad0bb50475f540503bd354440f39573792.jpg"
+  },
+  {
+    "name": "EJAGA_UnlockAllLocations",
+    "defaultvalue": 0,
+    "displayName": "Pathfinder",
+    "hidden": 0,
+    "description": "Unlock all destinations",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/243120/6bac1283479f0888bbe1ad863938f61669a91a22.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/243120/d8ea1791460e3843f1b1f457f05d3f39b6e1e3a2.jpg"
+  },
+  {
+    "name": "EJAGA_MeleeStealthKillXEnemies",
+    "defaultvalue": 0,
+    "displayName": "Backstabber",
+    "hidden": 0,
+    "description": "Stealth-kill 20 enemies with melee attacks",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/243120/95f788a3ff6655c127819927773542d2bf82119e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/243120/779158d737353447f54a683cbc4f0f95d169819f.jpg"
+  },
+  {
+    "name": "EJAGA_FreeXPunished",
+    "defaultvalue": 0,
+    "displayName": "Severed Bindings",
+    "hidden": 0,
+    "description": "Free six lost souls",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/243120/6c083ea507095408d1d41d5e6ab8aae7e69f3ab0.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/243120/ca3c34efdc56061c599b409c594ec4cffd6adedf.jpg"
+  },
+  {
+    "name": "EJAGA_FindXChests",
+    "defaultvalue": 0,
+    "displayName": "Hidden Treasures",
+    "hidden": 0,
+    "description": "Find 40 treasures chests",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/243120/52bbca7af4bb8ad9d44ee4defa2feec07cff0a1a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/243120/71458f6759b22ce63a89715d8cd465d05006e4e6.jpg"
+  },
+  {
+    "name": "EJAGA_FindXGraves",
+    "defaultvalue": 0,
+    "displayName": "Resting Places",
+    "hidden": 0,
+    "description": "Find 15 graves",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/243120/6689cb675f9e5c42f111fc7189eb0e5fb0b41dd6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/243120/bd2be42855784b1325e3907906c58b48f2b086ea.jpg"
+  },
+  {
+    "name": "EJAGA_FindXClues",
+    "defaultvalue": 0,
+    "displayName": "Material Evidence",
+    "hidden": 0,
+    "description": "Find 25 clues",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/243120/f6ac43167d747dd596cdc97afb92170b85186eb4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/243120/c85feeec352e77dbb7c7c54847917570f03a0d79.jpg"
+  },
+  {
+    "name": "EJAGA_FindXNotes",
+    "defaultvalue": 0,
+    "displayName": "Scattered Pages",
+    "hidden": 0,
+    "description": "Find 20 page scraps",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/243120/d3eba912fdbd8862d425b93ba2db5dfed6e8a3aa.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/243120/2e949feaabfec4c8b96da9c96bbebead0189a943.jpg"
+  },
+  {
+    "name": "EJAGA_FindXPunished",
+    "defaultvalue": 0,
+    "displayName": "Lost Souls",
+    "hidden": 0,
+    "description": "Find 6 lost souls",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/243120/64ba3fa95f86def6313444e1cad5301eac43274b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/243120/530966cbe5246406765b1726e8c21694729c7716.jpg"
+  },
+  {
+    "name": "EJAGA_UnlockXLocations",
+    "defaultvalue": 0,
+    "displayName": "Places of Interest",
+    "hidden": 0,
+    "description": "Unlock 10 destinations",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/243120/567e2e12d9d5efd8ae4908d82d981e2be6c5bc53.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/243120/ea511f0678f63d91e5c95fb480225bf21dba1415.jpg"
+  }
+]
