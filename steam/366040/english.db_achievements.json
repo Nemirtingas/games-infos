@@ -1,0 +1,398 @@
+﻿[
+  {
+    "name": "NEW_ACHIEVEMENT_1_0",
+    "defaultvalue": 0,
+    "displayName": "Finders Keepers",
+    "hidden": 0,
+    "description": "Collect 1 large egg",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/366040/73803e522f870b9b99e9af317addb1eaf41d7ec7.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/366040/cf80f5346e0a7e324e7f330d439f17e9fb63fb8c.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_1_1",
+    "defaultvalue": 0,
+    "displayName": "Full Set",
+    "hidden": 0,
+    "description": "Collect 5 large eggs",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/366040/f0a3e116cf8633ab4602627749c9616297ab6e1c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/366040/1e06aed36a8ecec184ef9652ba2373bebe50a5aa.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_1_2",
+    "defaultvalue": 0,
+    "displayName": "Egg Hunter",
+    "hidden": 0,
+    "description": "Collect 10 large eggs",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/366040/50c457d60b2631234062e8d1f573522e36442533.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/366040/535680a17e6553d43c8251593dc702b2e19c813f.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_1_3",
+    "defaultvalue": 0,
+    "displayName": "Collector",
+    "hidden": 0,
+    "description": "Collect 25 large eggs",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/366040/c77b809a63d649024e29d3a267d99a9c706c9217.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/366040/0cf3d1813ebe0c9256269bd13e8c5be390049dd6.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_1_4",
+    "defaultvalue": 0,
+    "displayName": "Hoarder",
+    "hidden": 0,
+    "description": "Collect 50 large eggs",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/366040/500a2012d740098d2c1ed53c6ff6863da8fe5940.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/366040/f03dc9978ddc8415c8553d0ad363398564b0b262.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_1_5",
+    "defaultvalue": 0,
+    "displayName": "Gotta Break a Few...",
+    "hidden": 0,
+    "description": "Collect 99 large eggs",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/366040/16af51c50ea24c5a1f410b881946344a2ba2f1fb.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/366040/f07e839a2d200b4f8545041c59ad3727fbde5be3.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_1_6",
+    "defaultvalue": 0,
+    "displayName": "...To Make an Omelet",
+    "hidden": 0,
+    "description": "Collect all large eggs",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/366040/05e358cc0baadbd96c40eda3fe530ae59c39161f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/366040/d1158098b843bd595412159e46450803087c771c.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_1_7",
+    "defaultvalue": 0,
+    "displayName": "Woman Inherits the Earth...",
+    "hidden": 0,
+    "description": "Kill 1 caveman",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/366040/62b8c590af0faed84d21834adb4a71f1ef5d570f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/366040/b790283b8cf5bda1d33390e9a244c12f33d5f94d.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_1_8",
+    "defaultvalue": 0,
+    "displayName": "Circle of Life",
+    "hidden": 0,
+    "description": "Kill 10 cavemen",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/366040/cb82fb16b41517911499504f25fed7fe898633c0.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/366040/7ac25b487faa13838a003fd3e9d1303e0485d269.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_1_9",
+    "defaultvalue": 0,
+    "displayName": "Primal Hunter",
+    "hidden": 0,
+    "description": "Kill 100 cavemen",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/366040/e6dff7255576fffa838b0f68e32552bf9425c0ce.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/366040/d77b59f96a5bec92a9ef539c5261131cfa8955ca.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_1_10",
+    "defaultvalue": 0,
+    "displayName": "Apex Predator",
+    "hidden": 0,
+    "description": "Kill 1000 cavemen",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/366040/faafdcb3175ce80cf4c3f13678a57273bcee5293.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/366040/6c4816e79ce637ff6f2f0c3a49558423f0346174.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_1_11",
+    "defaultvalue": 0,
+    "displayName": "Soft-Boiled",
+    "hidden": 0,
+    "description": "Collect 100 small eggs",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/366040/c444199cb13d5cf886d079ba539210f4f513dcd6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/366040/9121239175736de44ddbb5312d1c5a0029045998.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_1_12",
+    "defaultvalue": 0,
+    "displayName": "Scrambled",
+    "hidden": 0,
+    "description": "Collect 1000 small eggs",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/366040/a228696d046d77ef241fb892bc5af08f4a60eb4d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/366040/6b7ca13e4f4943b5c73ccc5446052b800c1056db.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_1_13",
+    "defaultvalue": 0,
+    "displayName": "Poached",
+    "hidden": 0,
+    "description": "Collect 5000 small eggs",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/366040/210d48accc16cf06e01b4cc097da3cf55cf32fde.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/366040/b077160f9af996cddab99ca2d8aaa3f914e33439.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_1_14",
+    "defaultvalue": 0,
+    "displayName": "Sunny Side Up",
+    "hidden": 0,
+    "description": "Collect 10000 small eggs",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/366040/be7a7e6eac9a2ceb8a60762d7276eca39558e0b4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/366040/bb2cebff9369f89fa86f1c23add077af08233724.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_1_15",
+    "defaultvalue": 0,
+    "displayName": "Hard-Boiled",
+    "hidden": 0,
+    "description": "Collect 25000 small eggs",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/366040/7469163ae5db6ec4a92def247f8ac0a61cd59788.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/366040/c353df79f94d33913db53ddb7c2d34f1c77f5bf9.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_1_16",
+    "defaultvalue": 0,
+    "displayName": "Fishy Situation",
+    "hidden": 0,
+    "description": "Get eaten by a Whale",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/366040/848d160a7a92f9051a183f3045911463852486b4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/366040/06931b3817f766792a6d918eb50a5a64c2ad730c.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_1_17",
+    "defaultvalue": 0,
+    "displayName": "Where's the Goat?",
+    "hidden": 0,
+    "description": "Get eaten by a T-Rex",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/366040/842d5bf2f34c49954effc621c1f9ac13e89b6e02.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/366040/cdc8bb38bfd8c308e587c358836f0f8aae59af5b.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_1_18",
+    "defaultvalue": 0,
+    "displayName": "A Lovely Weekend...",
+    "hidden": 0,
+    "description": "Escape the T-Rex",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/366040/a0b4e1e0d184c4092bfef1e9e9a3b5a085c4244d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/366040/9493d9df356a536349db23d9d75a51066b444a72.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_1_19",
+    "defaultvalue": 0,
+    "displayName": "Oops...",
+    "hidden": 0,
+    "description": "Die 1 time",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/366040/cfa140f63f2ef9ad784efe2cfb985fe0a852bcff.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/366040/fbea6498c8f7d7d89c0a4d7a478933d5594942b2.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_1_20",
+    "defaultvalue": 0,
+    "displayName": "Accident Prone",
+    "hidden": 0,
+    "description": "Die 10 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/366040/e739254e03735eeed4a09168c64fe19df1e82560.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/366040/c0d7ae6fbef0e458a35008a7c8a263ceeea2a991.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_1_21",
+    "defaultvalue": 0,
+    "displayName": "Extinction Theorist",
+    "hidden": 0,
+    "description": "Die 100 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/366040/0254bc59d784a13c56e7778a32a3c7d8c066922f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/366040/b44ff9e44280a37018225b17d851f9b634520580.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_1_22",
+    "defaultvalue": 0,
+    "displayName": "Life Will Find a Way",
+    "hidden": 0,
+    "description": "Retry a level from the Gave Over screen",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/366040/bbf37546a52caddb7beb091ff6effb89faed1f0c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/366040/91c1f76c7a91a6c4e9956ef3d832618d6e3a1889.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_1_23",
+    "defaultvalue": 0,
+    "displayName": "Must Go Faster...",
+    "hidden": 0,
+    "description": "Get Bronze or better on any Time Attack",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/366040/b00cc9c4a344b5d42ccf17c80d22ed7fe9e0e773.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/366040/9fec41d2e4646077f3ae52fe085f30dbcd5ee347.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_1_24",
+    "defaultvalue": 0,
+    "displayName": "Gotta Go Fast",
+    "hidden": 0,
+    "description": "Get Silver or better on any Time Attack",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/366040/2d07fc4fc135d39d18b226e9f9adfff7f0a20f9d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/366040/30b9eea246b70ce7677abac12bb8db29f0f1c102.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_1_25",
+    "defaultvalue": 0,
+    "displayName": "Fast Track",
+    "hidden": 0,
+    "description": "Get Gold on any Time Attack",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/366040/fecf76378c3f7fec199990d085a342e62d0fc7b9.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/366040/738a75cff4667a35c7837340b710ade8106837e0.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_1_26",
+    "defaultvalue": 0,
+    "displayName": "Marathon",
+    "hidden": 0,
+    "description": "Get Bronze or better on every Time Attack",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/366040/2217b64c4c92c4e77cfcae5746fc81f1141d2d8a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/366040/2bb333b4a526279e127ded3b20340ee5aeb1116e.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_1_27",
+    "defaultvalue": 0,
+    "displayName": "Speed Demon",
+    "hidden": 0,
+    "description": "Get Silver or better on every Time Attack",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/366040/e9aa8cc0db34adbf7ddbf7dcc0ff4abb385819c1.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/366040/79b7a2b31e89ce9e3eafef56a8eac5d290a8e4ee.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_1_28",
+    "defaultvalue": 0,
+    "displayName": "Fastest Thing on Two Feet",
+    "hidden": 0,
+    "description": "Get Gold on every Time Attack",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/366040/15b49f5e0df62ea07341f2e71e77ff032adc5f58.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/366040/d9146008835bc38e528e0e2ba46c9d9eb389056d.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_1_29",
+    "defaultvalue": 0,
+    "displayName": "Bully!",
+    "hidden": 0,
+    "description": "Defeat the Bull Pachycephalosaurus",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/366040/fd7b71e4d71b9e3ec9fe16aad08e613d9d5cd53e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/366040/568a29f01fbac298646d7177b84c2f68175cb0b4.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_1_30",
+    "defaultvalue": 0,
+    "displayName": "Drums in the Deep",
+    "hidden": 0,
+    "description": "Defeat the Cave Harvestman",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/366040/947371532edfca04dcea37b92d29413435d73649.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/366040/abe1d1a4164f144127e03d5aa0332f9151dcc3f8.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_1_31",
+    "defaultvalue": 0,
+    "displayName": "Scorpion King",
+    "hidden": 0,
+    "description": "Defeat the Giant Scorpion",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/366040/993b81f1e2da466420c875346dc2372479cbcf80.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/366040/cf040fb75ffca29a2d38038cb157a16d4eacafe7.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_2_0",
+    "defaultvalue": 0,
+    "displayName": "Top of the Food Chain",
+    "hidden": 0,
+    "description": "Defeat the T-Rex",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/366040/841751b39329b3756130ad4e496e664d0d93210d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/366040/7dce0289d79e9d6a371fb27cb941e013e177c68e.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_2_1",
+    "defaultvalue": 0,
+    "displayName": "Like it Never Happened...",
+    "hidden": 0,
+    "description": "Defeat the Spinosaurus",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/366040/afe561f63beee9d5cad2ccc2bce0a914f1cd89b7.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/366040/ff8f0862b143b65268b620b004c5ee15d4a9e776.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_2_2",
+    "defaultvalue": 0,
+    "displayName": "Clever Boy...",
+    "hidden": 0,
+    "description": "Defeat the Caveman Shaman",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/366040/6ef1f378e7c6ad387bfe21723ff7bb82687fd5b6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/366040/bcb727ee97cc0628588b8df0b201bbd836fa31db.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_2_4",
+    "defaultvalue": 0,
+    "displayName": "Butting Heads",
+    "hidden": 0,
+    "description": "Unlock Patrick",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/366040/c46ab3619fb52f6644c2981311739697d169892e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/366040/04625d597d3a612eb14ac3c4ae3acf018b4872d3.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_2_5",
+    "defaultvalue": 0,
+    "displayName": "Best Phriends",
+    "hidden": 0,
+    "description": "Unlock Phredrick",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/366040/27bf6b3845f887e6bc4102ab26a884ae128c1e66.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/366040/b362ea460250a7ab998d8a2251a3304edd6029c5.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_2_6",
+    "defaultvalue": 0,
+    "displayName": "Best Defense, its ability to flee...",
+    "hidden": 0,
+    "description": "Unlock Perry",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/366040/18e5a32eb57862cd2fdf0a6ca1b4404a980e9c7f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/366040/9120efad3f5537b59785cc17e59c32f609ab5573.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_2_7",
+    "defaultvalue": 0,
+    "displayName": "That's Terrific!",
+    "hidden": 0,
+    "description": "Unlock Terry",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/366040/f2596f0775857183432d6997ef6ad31a597b5978.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/366040/9016f5d6b927a8037cd8311b622eabd3fff311ca.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_2_8",
+    "defaultvalue": 0,
+    "displayName": "Making Friends",
+    "hidden": 0,
+    "description": "Unlock all playable characters",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/366040/e6863d4de236963a2532993ba49a2bb267005d6b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/366040/e730ee858f05802acdc8432be3503d106d0525c5.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_2_9",
+    "defaultvalue": 0,
+    "displayName": "Smashing!",
+    "hidden": 0,
+    "description": "Unlock the Dapper Iggy costume",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/366040/5c081a51b5b90c41694aeb2e69ccdb91625e8f6d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/366040/446f8ca155221bc344e681d0ccbc923033429826.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_2_11",
+    "defaultvalue": 0,
+    "displayName": "Cosplay Convention",
+    "hidden": 0,
+    "description": "Unlock all costumes for all characters",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/366040/16fc244637394b7697bfdbb0a4af9d2689ca8dd1.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/366040/e9e4fdadfa83e03d7dc156655e0f6570507a8115.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_2_12",
+    "defaultvalue": 0,
+    "displayName": "Seriously, Thanks!",
+    "hidden": 0,
+    "description": "Watch the credits for Iggy's Egg Adventure",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/366040/7a3f9bfae9153447055435fa9cb6af14b6576182.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/366040/10e1f6b27cf840d13962561a15dbba49e6c7be71.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_2_13",
+    "defaultvalue": 0,
+    "displayName": "Prehistoric Professional",
+    "hidden": 0,
+    "description": "Complete Iggy's Egg Adventure with 0 deaths on a single profile",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/366040/4339a0a3257e7ef93fcb92d469d44015725e794f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/366040/730470028bab590ca2cd73e816aee6c9d4b45e19.jpg"
+  }
+]

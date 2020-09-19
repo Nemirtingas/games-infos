@@ -1,0 +1,119 @@
+﻿[
+  {
+    "name": "achievement_ready_to_fight",
+    "defaultvalue": 0,
+    "displayName": "Ready to fight!",
+    "hidden": 0,
+    "description": "Loot your first gun",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/884660/17d14a4ebb6454b71a1a96cc92243d478e3f4558.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/884660/9038586424614e2f1b75ab54b8183df6dd742a60.jpg"
+  },
+  {
+    "name": "achievement_first_blood",
+    "defaultvalue": 0,
+    "displayName": "First blood",
+    "hidden": 0,
+    "description": "Get your first kill",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/884660/114bf6c2035261b346aeebfe60fe9e913d30efa6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/884660/4d375cae7643ff790e775671b374867391d5bafa.jpg"
+  },
+  {
+    "name": "achievement_the_dinner_is_served",
+    "defaultvalue": 0,
+    "displayName": "The dinner is served",
+    "hidden": 0,
+    "description": "Win your first battle",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/884660/906e097e50b55a807f3962be6cc2d8ad58f06b6e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/884660/bc0f5ebf538211c83375760e46fc3bd36c9c2f3e.jpg"
+  },
+  {
+    "name": "achievement_veteran",
+    "defaultvalue": 0,
+    "displayName": "Veteran",
+    "hidden": 0,
+    "description": "Play 100 hours in battles",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/884660/ee8d8969e88948ce4bfd13ebacafc5083d916a03.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/884660/a7b59c775d7efe1cf3ca6658a48f6b1e25241730.jpg"
+  },
+  {
+    "name": "achievement_head_hunter",
+    "defaultvalue": 0,
+    "displayName": "Head hunter",
+    "hidden": 0,
+    "description": "Do 4 headshot kills in one game",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/884660/18af1a54f68a68730296410a815da6477542e7b2.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/884660/15f23edae00b5b5bf5cb6d2f912a9170ae520489.jpg"
+  },
+  {
+    "name": "achievement_gunslinger",
+    "defaultvalue": 0,
+    "displayName": "Gunslinger",
+    "hidden": 0,
+    "description": "Kill 3 enemies at the same time. All kills should be within 10 seconds time from first to last one",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/884660/6df53f7de5bec1ade4c331ba1b07ab3159a3f5df.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/884660/4a068a463216c2ad1bae448bedd118caa7f29b4a.jpg"
+  },
+  {
+    "name": "achievement_bomberman",
+    "defaultvalue": 0,
+    "displayName": "Bomberman",
+    "hidden": 0,
+    "description": "Kill 3 players with grenades in one battle",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/884660/54e3aabb91e405a933db103765cfeb76d588f4ff.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/884660/426db06d4a3db9a703649404d5c78333ba5b98b6.jpg"
+  },
+  {
+    "name": "achievement_war_machine",
+    "defaultvalue": 0,
+    "displayName": "War machine",
+    "hidden": 0,
+    "description": "Get at least one hit with each of listed weapon type in one battle: rifle, assault rifle, submachine, semiauto, shotgun",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/884660/ac989f8588bf50545b7849995b06df214e8db2db.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/884660/6d9c2f431aa4064acc4af140808017ce01722be7.jpg"
+  },
+  {
+    "name": "achievement_unstoppable",
+    "defaultvalue": 0,
+    "displayName": "Unstoppable",
+    "hidden": 0,
+    "description": "Kill 7 players in one battle",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/884660/c58d58b8d41f3237c7dcbd915f520892e16bd6bc.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/884660/d6512d007052a9f3fa55ec5e49ca66a8eeffa240.jpg"
+  },
+  {
+    "name": "achievement_equilibrium",
+    "defaultvalue": 0,
+    "displayName": "Equilibrium",
+    "hidden": 0,
+    "description": "Kill 4 enemies at the same time. All kills should be within 10 seconds time from first to last one",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/884660/4d094295f4af98d92803a9d66194f0dc272a95a5.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/884660/240c7f4c9b0db276d23d59dc511cd7db107b5eb7.jpg"
+  },
+  {
+    "name": "achievement_hoarder",
+    "defaultvalue": 0,
+    "displayName": "Hoarder",
+    "hidden": 0,
+    "description": "Loot at least one of each Regular, Premium, Tactical and Royale fridges in one battle. You have to take out all the items from the fridge for it to count",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/884660/0435598372d694e5c72228d3af412435a4d4fe86.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/884660/b2d26747511a44b78127b25e692e4321ab7aa463.jpg"
+  },
+  {
+    "name": "achievement_the_invisible_man",
+    "defaultvalue": 0,
+    "displayName": "The invisible man",
+    "hidden": 0,
+    "description": "Win a battle without killing anyone",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/884660/3086a4715a59ff3b96582c0ab5da9c5516b067c3.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/884660/90ed7d1540dabe1e111907c5d495fba59f0c6662.jpg"
+  },
+  {
+    "name": "achievement_the_king",
+    "defaultvalue": 0,
+    "displayName": "The king",
+    "hidden": 0,
+    "description": "Win 3 games in a row",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/884660/713d1dd98a5d918509a6c6070264552e8a50f60a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/884660/1088a02bd83f1663046348eb900d6896c2cb88fe.jpg"
+  }
+]
