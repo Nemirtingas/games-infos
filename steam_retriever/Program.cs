@@ -18,6 +18,7 @@ namespace steam_db
 	static string webapi_key;
         static string language;
         static bool download_images;
+        static bool force;
 
         static JObject games_infos = new JObject();
         static HashSet<string> appids = new HashSet<string>();
@@ -288,7 +289,7 @@ namespace steam_db
                 string infos_file = Path.Combine(out_dir, appid, appid + ".json");
                 try
                 {
-                    using (StreamReader reader = new StreamReader(new FileStream(infos_file, FileMode.Open), Encoding.UTF8))
+                    using (StreamReader reader = new StreamReader(new FileStream(infos_file, FileMode.Open), new UTF8Encoding(false)))
                     {
                         games_infos.Add(appid, JObject.Parse(reader.ReadToEnd()));
                     }
@@ -316,7 +317,7 @@ namespace steam_db
                 {
                     Directory.CreateDirectory(save_dir);
                 }
-                using (StreamWriter streamWriter = new StreamWriter(new FileStream(file_path, FileMode.Create), Encoding.UTF8))
+                using (StreamWriter streamWriter = new StreamWriter(new FileStream(file_path, FileMode.Create), new UTF8Encoding(false)))
                 {
                     string buffer = Newtonsoft.Json.JsonConvert.SerializeObject(json, Newtonsoft.Json.Formatting.Indented);
                     streamWriter.Write(buffer);
@@ -339,6 +340,7 @@ namespace steam_db
                 webapi_key = options.ApiKey;
                 language = options.Language;
                 download_images = options.DownloadImages;
+                force = options.Force;
 
                 ulong test;
                 foreach ( var appid in options.AppIds )
@@ -391,6 +393,12 @@ namespace steam_db
                     appids.Remove(appid);
                     done_appids.Add(appid);
 
+                    if (File.Exists(Path.Combine(out_dir, appid, appid + ".json")) && !force)
+                    {
+                        Console.WriteLine(string.Format(" + {0} already present, skip (no -f).", appid));
+                        continue;
+                    }
+
                     Console.WriteLine(string.Format(" + Trying to get infos on {0}...", appid));
                     request = (HttpWebRequest)WebRequest.Create(string.Format("https://store.steampowered.com/api/appdetails/?appids={0}&l=english", appid));
                     request.Headers.Add("Accept-encoding:gzip, deflate, br");
@@ -411,7 +419,7 @@ namespace steam_db
                                 }
 
                                 // Always sleep for 1s before retrieving any game or dlc or Steam will lock you up for some time.
-                                Thread.Sleep(1000);
+                                Thread.Sleep(1500);
                                 if (type == "dlc")
                                 {
                                     string main_appid;
@@ -465,6 +473,9 @@ namespace steam_db
 
         [Option('i', "download_images", Required = false, HelpText = "Sets the flag to download achievements images (can take a lot of time, depending on how many achievements are available for the game). Images will not be downloaded if this flag is not specified.")]
         public bool DownloadImages { get; set; } = false;
+
+        [Option('f', "force", Required = false, HelpText = "Force to download game's infos (usefull if you want to refresh a game).")]
+        public bool Force { get; set; } = false;
 
         [Option('o', "out", Required = false, HelpText = "Where to output your game definitions. By default it will output to 'steam' directory alongside the executable.")]
         public string OutDirectory { get; set; } = "steam";
