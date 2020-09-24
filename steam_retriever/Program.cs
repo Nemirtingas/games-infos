@@ -119,7 +119,7 @@ namespace steam_db
             }
             catch(Exception e)
             {
-                Console.WriteLine(" failed (no achievements or stats?): {0}", e.Message);
+                Console.WriteLine("  + Failed (no achievements or stats?): {0}", e.Message);
             }
         }
 
@@ -372,15 +372,10 @@ namespace steam_db
                         using (StreamReader streamReader = new StreamReader(sresult))
                         {
                             json = JObject.Parse(streamReader.ReadToEnd());
-                        }
-                    }
-
-                    foreach (var app in (JArray)json["applist"]["apps"])
-                    {
-                        string appid = (string)app["appid"];
-                        if(!Directory.Exists(Path.Combine(out_dir, appid)))
-                        {
-                            appids.Add(appid);
+                            foreach( JObject app in (JArray)json["applist"]["apps"] )
+                            {
+                                appids.Add(((long)app["appid"]).ToString());
+                            }
                         }
                     }
                 }
@@ -399,6 +394,9 @@ namespace steam_db
                         continue;
                     }
 
+                    // Always sleep for 1s before retrieving any game or dlc or Steam will lock you up for some time.
+                    Thread.Sleep(1500);
+
                     Console.WriteLine(string.Format(" + Trying to get infos on {0}...", appid));
                     request = (HttpWebRequest)WebRequest.Create(string.Format("https://store.steampowered.com/api/appdetails/?appids={0}&l=english", appid));
                     request.Headers.Add("Accept-encoding:gzip, deflate, br");
@@ -411,15 +409,18 @@ namespace steam_db
                             try
                             {
                                 JObject app_json = JObject.Parse(streamReader.ReadToEnd());
+                                if (!(bool)app_json[appid]["success"])
+                                {
+                                    Console.WriteLine(" + Failed (success == false)");
+                                    continue;
+                                }
 
                                 string type = (string)app_json[appid]["data"]["type"];
-                                if(!Directory.Exists(Path.Combine(out_dir, appid)))
+                                if (!Directory.Exists(Path.Combine(out_dir, appid)))
                                 {
                                     Directory.CreateDirectory(Path.Combine(out_dir, appid));
                                 }
 
-                                // Always sleep for 1s before retrieving any game or dlc or Steam will lock you up for some time.
-                                Thread.Sleep(1500);
                                 if (type == "dlc")
                                 {
                                     string main_appid;
