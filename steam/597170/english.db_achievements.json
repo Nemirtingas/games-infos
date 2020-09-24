@@ -1,0 +1,491 @@
+﻿[
+  {
+    "name": "CHALLENGE_BOW_ONLY",
+    "defaultvalue": 0,
+    "displayName": "Bow Only Challenge",
+    "hidden": 0,
+    "description": "Beat the Bow Only Challenge.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/597170/8ce1a446a61a26d664d07994742588b5093847ab.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/597170/e390491212f129bf5ce7158c6a802f557e52c7e9.jpg"
+  },
+  {
+    "name": "CHALLENGE_HAMMER",
+    "defaultvalue": 0,
+    "displayName": "Hammer Only Challenge",
+    "hidden": 0,
+    "description": "Beat the Hammer Only Challenge.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/597170/b2a073ccbb5b4ac62c013d7355b02d0d4cbcea13.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/597170/3d4a8d328eebc0e79919a19850f8478c69ef4db4.jpg"
+  },
+  {
+    "name": "CHALLENGE_INFERNO",
+    "defaultvalue": 0,
+    "displayName": "Inferno Challenge",
+    "hidden": 0,
+    "description": "Beat the Inferno Challenge.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/597170/32cac556de1c2975bc6beebc443143637947aa43.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/597170/1aba44c61bfa15da47989ac05324f6f267d303de.jpg"
+  },
+  {
+    "name": "CHALLENGE_RANDOM_UPGRADE",
+    "defaultvalue": 0,
+    "displayName": "Random Upgrade Challenge",
+    "hidden": 0,
+    "description": "Beat the Random Upgrade Challenge.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/597170/d7f67f6d040f466e2a31e4e2af0c9bc65ccefec3.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/597170/2c68a98209fab23af17c94152feab2db94dcdaab.jpg"
+  },
+  {
+    "name": "CHALLENGE_KICK_ONLY",
+    "defaultvalue": 0,
+    "displayName": "Kick Only Challenge",
+    "hidden": 0,
+    "description": "Beat the Kick Only Challenge.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/597170/233d08e5f512a75cae016c15816d2d9f3cfab713.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/597170/ed74ccf632cdaa719f8c8a2e05b773c035bc154a.jpg"
+  },
+  {
+    "name": "CHALLENGE_RAPTOR",
+    "defaultvalue": 0,
+    "displayName": "Raptor Challenge",
+    "hidden": 0,
+    "description": "Beat the Raptor Challenge.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/597170/09b7510b2c16c885631439a36af6d54bf3248f96.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/597170/e6489d664e5e611c5bd6d3233151adb1586f3c2f.jpg"
+  },
+  {
+    "name": "CHALLENGE_RAPTOR_INSANITY",
+    "defaultvalue": 0,
+    "displayName": "Raptor Insanity Challenge",
+    "hidden": 0,
+    "description": "Beat the Raptor Insanity Challenge.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/597170/ab515529947ad1a34a184e45fe23210bce84b590.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/597170/9460d9cc6a24c3d7b8324ff445d4d7b87bf343f3.jpg"
+  },
+  {
+    "name": "CHALLENGE_ARMOR",
+    "defaultvalue": 0,
+    "displayName": "Endless Armor Challenge",
+    "hidden": 0,
+    "description": "Beat the Endless Armor Challenge",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/597170/a729e744f4cb38fa6f8bed7f356bd3ee1bc1877c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/597170/f497f39746eb02577d6ba352b30a0f6ed7edc2f5.jpg"
+  },
+  {
+    "name": "CHALLENGE_GREATSWORD",
+    "defaultvalue": 0,
+    "displayName": "Endless Greatsword Challenge",
+    "hidden": 0,
+    "description": "Beat the Endless Greatsword Challenge",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/597170/cf8d0e32432a4670caed230672b9d06a7f3a1bb8.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/597170/c512c926a7e05673afa8a2e0b519917828ada51f.jpg"
+  },
+  {
+    "name": "CHALLENGE_LASER",
+    "defaultvalue": 0,
+    "displayName": "Laser Challenge",
+    "hidden": 0,
+    "description": "Beat the Laser Challenge.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/597170/bfce37c1a3fc29300fb6012645027cecf8179839.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/597170/2a06b7af010fd3c8fcd163a8cb4fe2cab57125a7.jpg"
+  },
+  {
+    "name": "CHALLENGE_SPEARONLY",
+    "defaultvalue": 0,
+    "displayName": "Endless Spear Challenge",
+    "hidden": 0,
+    "description": "Beat the Endless Spear Challenge",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/597170/ce34f6695f09b2f615a4f8ae1161a6d7bf4a9971.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/597170/9f79e0c3afc2eb667a0d3b1df7dddda0cb7d83e7.jpg"
+  },
+  {
+    "name": "CHALLENGE_MINDTRANSFER",
+    "defaultvalue": 0,
+    "displayName": "Mind Transfer Challenge",
+    "hidden": 0,
+    "description": "Beat the Mind Transfer Challenge.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/597170/cfe37927b387e780923c859aea25ec7f02a5cb4f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/597170/63915c651b9649e5fc392e14f7a93f6450334036.jpg"
+  },
+  {
+    "name": "BeatChapter1OnInsane",
+    "defaultvalue": 0,
+    "displayName": "Story Insanity 1",
+    "hidden": 0,
+    "description": "Beat Chaper 1 on Insane Difficulty!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/597170/47e7a75b6b7eac35c249f2bf4186e44335b81715.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/597170/a484db6bb99f09daccaeb9ee37aefb49d5be3dfe.jpg"
+  },
+  {
+    "name": "BeatChapter2OnInsane",
+    "defaultvalue": 0,
+    "displayName": "Story Insanity 2",
+    "hidden": 0,
+    "description": "Beat Chaper 2 on Insane Difficulty!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/597170/94fd7465224b5e3ecfa815eb3a8a9a1cd3338631.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/597170/f9f91804f6b199a841dd9d7a6a4eb931cf94887d.jpg"
+  },
+  {
+    "name": "BeatChapter3OnInsane",
+    "defaultvalue": 0,
+    "displayName": "Story Insanity 3",
+    "hidden": 0,
+    "description": "Beat Chaper 3 on Insane Difficulty!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/597170/03e72cdd1e0df7d87a3d350f02b7413df0599034.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/597170/065e699ff22c0c5acdee4db960e38f6734e20a89.jpg"
+  },
+  {
+    "name": "BeatChapter4OnInsane",
+    "defaultvalue": 0,
+    "displayName": "Story Insanity 4",
+    "hidden": 0,
+    "description": "Beat Chaper 4 on Insane Difficulty!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/597170/31ea874fe13cad7fe5a29cd77da26fbdaa84d5c3.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/597170/a50eededb410a733b932d846ce7b420fc5833e83.jpg"
+  },
+  {
+    "name": "BeatLevelWithoutKillingAnyone",
+    "defaultvalue": 0,
+    "displayName": "Pacifist",
+    "hidden": 0,
+    "description": "Beat a level without killing anyone!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/597170/5062fab59c4718fe34cd269ada814145b3b30eb3.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/597170/7706125b321c19eaaeb7a85d2b3883c9805a7929.jpg"
+  },
+  {
+    "name": "ClickBzz",
+    "defaultvalue": 0,
+    "displayName": "Click Bzz!",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/597170/aecf6663374c2c2accadceb7e81e08b1efd74a7a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/597170/cd142f8c495c6ce6d9f228a6c5bab34584df715c.jpg"
+  },
+  {
+    "name": "CoopChallenge_BowOnly",
+    "defaultvalue": 0,
+    "displayName": "Co-op Bow Only Challenge",
+    "hidden": 0,
+    "description": "Defeat the Co-op Bow only Challenge!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/597170/c9dabdaba20c4029f84a614c8259488ee99aa87e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/597170/d2a59d4681ee86c2bc0f0ec194441f622c65719a.jpg"
+  },
+  {
+    "name": "CoopChallenge_HammerOnly",
+    "defaultvalue": 0,
+    "displayName": "Co-op Hammer Only Challenge",
+    "hidden": 0,
+    "description": "Defeat the Co-op Hammer Only Challenge!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/597170/14fa69794c9adc4bb76b152113ce270d3f12a357.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/597170/ee3c000889e0c864b89a838ddf249f4a3744a1f2.jpg"
+  },
+  {
+    "name": "CoopChallenge_Inferno",
+    "defaultvalue": 0,
+    "displayName": "Co-op Inferno Challenge",
+    "hidden": 0,
+    "description": "Defeat the Co-op Inferno Challenge!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/597170/46fd868fd91e9eea252135ecb212b6af50b0793d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/597170/02f992ca3523e919b3444225a42c1b520112303b.jpg"
+  },
+  {
+    "name": "CoopChallenge_KickOnly",
+    "defaultvalue": 0,
+    "displayName": "Co-op Kick Only Challenge",
+    "hidden": 0,
+    "description": "Defeat the Co-op Kick Only Challenge!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/597170/fcf6603b88260c479424e749fe254258b734692c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/597170/c48c99c733d995cd6059e7bc383a7ad766c8d180.jpg"
+  },
+  {
+    "name": "CoopChallenge_Laser",
+    "defaultvalue": 0,
+    "displayName": "Co-op Laser Challenge",
+    "hidden": 0,
+    "description": "Defeat the Co-op Laser Challenge!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/597170/3c612f2bbcdfe550675a2ffac6913697f3ff6338.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/597170/9d4dfa380e8faa87284cbb5fd9583e4f623771ce.jpg"
+  },
+  {
+    "name": "CoopChallenge_OneWeapon",
+    "defaultvalue": 0,
+    "displayName": "Co-op One Weapon Challenge",
+    "hidden": 0,
+    "description": "Defeat the Co-op One Weapon Challenge!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/597170/0dfdb64ef003b661dab733da18bc1ee2614a6acb.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/597170/b538c790679d2402cb5bce34434ff74929dce1e2.jpg"
+  },
+  {
+    "name": "CoopChallenge_RandomUpgrade",
+    "defaultvalue": 0,
+    "displayName": "Co-op Random Upgrade Challenge",
+    "hidden": 0,
+    "description": "Defeat the Co-op Random Upgrade Challenge!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/597170/bdd229810015cda5df13c70dfd63e24f58d63077.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/597170/dd7e1f92e813859f215c5248a774dd2504d5437d.jpg"
+  },
+  {
+    "name": "CoopChallenge_RaptorInsanity",
+    "defaultvalue": 0,
+    "displayName": "Co-op Raptor Insanity Challenge",
+    "hidden": 0,
+    "description": "Defeat the Co-op Raptor Insanity Challenge!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/597170/b49fbf18fe2b9e7406422cc08f0267461aa9c841.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/597170/277b286bacbae942bffa049c881d9fc6a733456f.jpg"
+  },
+  {
+    "name": "CoopChallenge_SpearOnly",
+    "defaultvalue": 0,
+    "displayName": "Co-op Spear Only Challenge",
+    "hidden": 0,
+    "description": "Defeat the Co-op Spear Only Challenge!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/597170/026ee6345d6e9ae298a453ec3374734b83d442d1.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/597170/efef6099304c3d496584ea6ff551cc6a15648cd8.jpg"
+  },
+  {
+    "name": "DieOnLevel1",
+    "defaultvalue": 0,
+    "displayName": "Let's try another human!",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/597170/b92211bd99c84d3216f872533b4980bfb95d0456.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/597170/c9200b4fbea9562b2d9703bbe790d040bf4e7667.jpg"
+  },
+  {
+    "name": "FindWarCubes",
+    "defaultvalue": 0,
+    "displayName": "Easter Already?",
+    "hidden": 0,
+    "description": "Rescue the War Cubes!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/597170/c49932032a72cd1f35329abcc4bc0fa00d1d25a5.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/597170/05b336ba2225e6b42b1cbafbd0b5714c7762bd5b.jpg"
+  },
+  {
+    "name": "Forcefield_Clone",
+    "defaultvalue": 0,
+    "displayName": "This is not co-op!",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/597170/352b123a3cf6b09325f3cde793dad7f144e886cb.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/597170/595d74957ad41481ebbc561ac952bcfdddd93ae4.jpg"
+  },
+  {
+    "name": "Forcefield_Emperor",
+    "defaultvalue": 0,
+    "displayName": "Fool!",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/597170/98bfac535fdf75274bb5ecf2198840a244371ed7.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/597170/758d6b2364bef7d8361f5630b3fba842414cd0fd.jpg"
+  },
+  {
+    "name": "Get3TeamRevives",
+    "defaultvalue": 0,
+    "displayName": "Team Player",
+    "hidden": 0,
+    "description": "Get 3 Team Revives in a public co-op game!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/597170/dde50734feb45542d020db719c63920ccc292372.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/597170/d08e51a16c833f35c48c385aebee2a366a01d3c6.jpg"
+  },
+  {
+    "name": "GetEveryUpgrade",
+    "defaultvalue": 0,
+    "displayName": "POWER OVERWHELMING",
+    "hidden": 0,
+    "description": "Get every upgrade in the upgrade tree!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/597170/62639e4fa34647ff9d6854171a7ea63eeb34900a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/597170/06c472a30850e0e8af88d88ad3c618c50c17022c.jpg"
+  },
+  {
+    "name": "HelloFellowHuman",
+    "defaultvalue": 0,
+    "displayName": "Hello fellow human!",
+    "hidden": 0,
+    "description": "Exchange Hellos with a human.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/597170/c983aa055e5bdac6bcdcb0259ed9a004b3e2ca14.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/597170/54be3075ce3d4555558f580d65ab65f67a6f7d8e.jpg"
+  },
+  {
+    "name": "HitGarbageAchievement",
+    "defaultvalue": 0,
+    "displayName": "I think it's dead now",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/597170/eefa3e059b1135fb283f43d590eb469d23f6ed83.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/597170/d3502d4d57c24c46a66dc1a36809787243a09e15.jpg"
+  },
+  {
+    "name": "KickAKickBot",
+    "defaultvalue": 0,
+    "displayName": "How do you like it??",
+    "hidden": 0,
+    "description": "Kick a kick bot to death!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/597170/f89012af2153989d4530dc51cdce12d2ee83ef87.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/597170/cd0937efc121a106817d43de033a59580357454e.jpg"
+  },
+  {
+    "name": "KillAllGarbageBots",
+    "defaultvalue": 0,
+    "displayName": "The garbage is MINE!",
+    "hidden": 0,
+    "description": "Kill all the garbage bots.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/597170/b5f521a5faaa3e6a9ebccdb393f9ba6f3c931609.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/597170/9020739da528504e400d3056d31f2025a08b22f8.jpg"
+  },
+  {
+    "name": "KillEnemies_Bow",
+    "defaultvalue": 0,
+    "displayName": "Bow Master",
+    "hidden": 0,
+    "description": "Kill 500 enemies with a Bow!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/597170/e7acb2940101ee8e89fbc7be81e5661072d09595.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/597170/2feeb5d9cca6bf6a9984b14f01b64b1cb964c639.jpg"
+  },
+  {
+    "name": "KillEnemies_FlameBreath",
+    "defaultvalue": 0,
+    "displayName": "I am on FIRE!",
+    "hidden": 0,
+    "description": "Kill 300 enemies with Flame Breath!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/597170/3c1cab5c7388ba6fe778e8c1f6b7b657a90459c1.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/597170/adfd36911f6a7935f471334d427b9353f4e9db34.jpg"
+  },
+  {
+    "name": "KillEnemies_Hammer",
+    "defaultvalue": 0,
+    "displayName": "Hammer Master",
+    "hidden": 0,
+    "description": "Kill 500 enemies with a Hammer!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/597170/795c14c43cfb035a6eaf1980bd81eee84d080955.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/597170/0e41fff81c9347597bba4b665efc88c011b88a8b.jpg"
+  },
+  {
+    "name": "KillEnemies_Jetpack",
+    "defaultvalue": 0,
+    "displayName": "Jetpack Master",
+    "hidden": 0,
+    "description": "Kill 300 enemies while jetpacking!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/597170/8862e4c2f1a6927e5368e789a7f25895587e4453.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/597170/ff1ed1cf587c5e517a993627713f0b36d30ef668.jpg"
+  },
+  {
+    "name": "KillEnemies_Kick",
+    "defaultvalue": 0,
+    "displayName": "Kick Master",
+    "hidden": 0,
+    "description": "Kill 200 enemies by kicking them!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/597170/e971fd2a03ba4bdbb51a4d9772fd40cd16677d37.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/597170/c19e31f9a64c25cca5caed006ca3934cc417f1a7.jpg"
+  },
+  {
+    "name": "KillEnemies_Spear",
+    "defaultvalue": 0,
+    "displayName": "Spear Master",
+    "hidden": 0,
+    "description": "Kill 500 enemies with a Spear!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/597170/9b9c262b1324ac3e4354dfa33ad50c0e7abc5f47.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/597170/754e678fc53d2a9db3c458c56f778b04c2139020.jpg"
+  },
+  {
+    "name": "KillEnemies_Sword",
+    "defaultvalue": 0,
+    "displayName": "Sword Master",
+    "hidden": 0,
+    "description": "Kill 500 enemies with a Sword!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/597170/1be82fb002c248b02ba3fcc518879b8225ff4525.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/597170/954089f659fa773ecbdad6198be401af334feb23.jpg"
+  },
+  {
+    "name": "KillEnemyInMidAir",
+    "defaultvalue": 0,
+    "displayName": "I'm like a bird!",
+    "hidden": 0,
+    "description": "Melee an enemy while high above the ground!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/597170/e803852203c13aaa16a7aa31eb4ce6842c90ac52.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/597170/03ce060bdb3a8132bbac91cc162c2b77cd9c71b9.jpg"
+  },
+  {
+    "name": "KillYourClone",
+    "defaultvalue": 0,
+    "displayName": "There can be only one!",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/597170/9771f062c9cc6a490b07cae4915f028529e8a7df.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/597170/14525fcf2aa549517e85400e1c7f55bb8b359047.jpg"
+  },
+  {
+    "name": "MindTransferIntoRaptor",
+    "defaultvalue": 0,
+    "displayName": "Fire on my mind",
+    "hidden": 0,
+    "description": "Mind transfer into a Flame raptor!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/597170/d7f8faedb58ee5a1ca888f45bf0444c7e6fbe5e1.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/597170/2f3869411eb6c09bc10ba04333f4b64bf39a844c.jpg"
+  },
+  {
+    "name": "Multikill",
+    "defaultvalue": 0,
+    "displayName": "M-m-m-m-multikill!",
+    "hidden": 0,
+    "description": "Kill 3 enemies with one attack!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/597170/9324f546cab5bda3d05e751099ef2422b577af13.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/597170/f5e97885f5bb006b772ebea05c0afcfa62051456.jpg"
+  },
+  {
+    "name": "ReachEndlessModeInsanium",
+    "defaultvalue": 0,
+    "displayName": "They don't call it Sanium.",
+    "hidden": 0,
+    "description": "Reach Insanium in Endless Mode!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/597170/47fbb9463f6c054e3d70f971dfdd43d434308790.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/597170/de5702b2a285212fcd9bcaa825c5f9af79382dc9.jpg"
+  },
+  {
+    "name": "ReachEndlessModeInsaniumCoop",
+    "defaultvalue": 0,
+    "displayName": "Meet people, go insane!",
+    "hidden": 0,
+    "description": "Reach Insanium in a public co-op match!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/597170/a4563df7a59a8f4ec75c0da46ac29842578d22c1.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/597170/608771eb3cbc5db30e697fabbc3e60d89ac29d1a.jpg"
+  },
+  {
+    "name": "ReachEndlessModeTitanium",
+    "defaultvalue": 0,
+    "displayName": "I am Titanium!",
+    "hidden": 0,
+    "description": "Reach Titanium in Endless Mode!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/597170/5d7bb4016ca49bc36ff9838b3f5cdaebbb3d3455.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/597170/742a4a60f832da9c1509df8db0587098eecf05ab.jpg"
+  },
+  {
+    "name": "SayHelloToDoborog",
+    "defaultvalue": 0,
+    "displayName": "Hello Doborog!",
+    "hidden": 0,
+    "description": "Say Hello to Doborog!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/597170/e64e3ff874cf5f7191ecc50b925f6f95868e6ba3.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/597170/0f2bccdb56ea57840b63d18717639af9ded46161.jpg"
+  },
+  {
+    "name": "SecondPlaceLBS",
+    "defaultvalue": 0,
+    "displayName": "So close!",
+    "hidden": 0,
+    "description": "Be the second to Last Bot Standing.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/597170/e9a6f6951b05b756c5ee59f57e188b3b8f6ec8d8.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/597170/f03e89c25e958f72601b9c11d12be12ae45d089a.jpg"
+  },
+  {
+    "name": "WinLastBotStanding",
+    "defaultvalue": 0,
+    "displayName": "The best human!",
+    "hidden": 0,
+    "description": "Win a game of Last Bot Standing!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/597170/dd2cc4f453f7cfbfcdb67ad565292cf1b9c7308b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/597170/7d9859de64d7da1eb889e07908369c00ef8b05ad.jpg"
+  },
+  {
+    "name": "WinLevelsWithOneLeg",
+    "defaultvalue": 0,
+    "displayName": "Tis but a scratch!",
+    "hidden": 0,
+    "description": "Win 3 levels in a row with only one leg!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/597170/00ed6e1d08aa640c46c6b43ed4116cb0188dee0e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/597170/2f2c8b45457b0aba155c3358faf5ff2849a29455.jpg"
+  }
+]

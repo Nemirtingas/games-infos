@@ -1,0 +1,2758 @@
+﻿{
+  "Stats.Lobby.NumUses": {
+    "description": "Number of Uses",
+    "value": 0
+  },
+  "stat_money": {
+    "description": "Deprecated",
+    "value": 0
+  },
+  "stat_payout": {
+    "description": "Pending Payout",
+    "value": 0
+  },
+  "stat_units": {
+    "description": "Units",
+    "value": 0
+  },
+  "stat_lastcommand": {
+    "description": "Last Command",
+    "value": 0
+  },
+  "Stats.Lobby.NumSteps": {
+    "description": "Total Steps",
+    "value": 0
+  },
+  "Stats.Golf.PuttTime": {
+    "description": "Average time until putting",
+    "value": 0
+  },
+  "Stats.Golf.NumOOB": {
+    "description": "Number of Out of Bounds",
+    "value": 0
+  },
+  "Stats.Misc.NumMenuCatPresses": {
+    "description": "Number of pets on the construction cat",
+    "value": 0
+  },
+  "Stats.Stores.Cat.NumVisits": {
+    "description": "Number of visits to The Stray",
+    "value": 0
+  },
+  "Stats.Stores.Food.NumVisits": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Stores.Toy.NumVisits": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Stores.Furniture.NumVisits": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Stores.Electronics.NumVisits": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Stores.Thrift.NumVisits": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Stores.Music.NumVisits": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Stores.Fishing.NumVisits": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Stores.Seasonal.NumVisits": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Stores.Bowling.NumVisits": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Stores.BowlingCustom.NumVisits": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Stores.Vending.NumVisits": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Stores.Condo.NumVisits": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Stores.Bar.NumVisits": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Stores.Upgrades.NumVisits": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Stores.Nature.NumVisits": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Stores.Beach.NumVisits": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Stores.Theater.NumVisits": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Stores.CondoRealtor.NumVisits": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.Ballrace.PlayedLevels": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.BallRace.Melons": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.BallRace.Speed": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.BallRace.NimbusCompleted": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.BallRace.ParadiseCompleted": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.BallRace.MidoriCompleted": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.BallRace.MemoriesCompleted": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.BallRace.GLXYCompleted": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.BallRace.SummitCompleted": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.BallRace.KhromidroCompleted": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.BallRace.PrismCompleted": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.BallRace.NimbusMelons": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.BallRace.ParadiseMelons": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.BallRace.MidoriMelons": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.BallRace.MemoriesMelons": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.BallRace.GLXYMelons": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.BallRace.SummitMelons": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.BallRace.KhromidroMelons": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.BallRace.PrismMelons": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Playtime": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Steps": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Jumps": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Store.DrunkTalks": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Store.Talks": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.UnitsOnBeer": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.UnitsSpent": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Markers": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.PhotoShoots": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.AnimalsFound": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Rollercoaster.Rides": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Trivia.Wins": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Trivia.QuestionsCorrect": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Trivia.FullGame": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Trivia.ComboFire": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Casino.TotalBetsPlayed": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Casino.Poker.TotalUnitsPlayed": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Casino.Poker.Wins": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Casino.Poker.FlushWins": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Casino.Poker.StraightWins": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Casino.Poker.RoyalWins": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Casino.Jackpots": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Casino.WOMSpins": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Casino.WOMNothings": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Casino.UnitsSpent": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Casino.VideoBlackjacks": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Bowling.Strikes": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Bowling.Spares": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Bowling.Wins": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Bowling.Score": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.LaserTag.Eliminations": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.LaserTag.Tags": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.LaserTag.Wins": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.LaserTag.LongestShotDistance": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.TypingDerby.WPM": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.TypingDerby.Words": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.TypingDerby.MaxCombo": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.TypingDerby.TimeCompleted": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Condo.TVTime": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Condo.PartyTime": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Condo.DrunkTime": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Condo.CatsacksOpened": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Condo.SilverCatsacksOpened": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Condo.GoldenCatsacksOpened": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Condo.CosmicCatsacksOpened": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Condo.CondoTime": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Condo.VisitedCondo": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Condo.PlacedItems": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.Virus.Survivor.RoundsSurvived": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.Virus.Survivor.AdrenalineUsed": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.Virus.Infected.SurvivorsInfected": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.Virus.Survivor.InfectedExploded": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.Virus.Survivor.LastSurvivorTimes": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.Virus.FirstPlaceCount": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.Virus.FirstInfectedCount": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.Virus.RoundsPlayed": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.Virus.HospitalSurvive": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.Virus.DesertionSurvive": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.Virus.OvertimeSurvive": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.Virus.SubwaySurvive": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.Virus.HospitalInfect": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.Virus.DesertionInfect": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.Virus.OvertimeInfect": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.Virus.SubwayInfect": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.LittleCrusaders.Knight.ButtonKills": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.LittleCrusaders.Knight.FancyGhost": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.LittleCrusaders.Knight.AirKills": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.LittleCrusaders.Knight.NearTaunts": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.LittleCrusaders.Knight.TeamWins": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.LittleCrusaders.Knight.Deaths": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.LittleCrusaders.Dragon.Kills": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.LittleCrusaders.Knight.Wins": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.LittleCrusaders.Dragon.Pancakes": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.LittleCrusaders.Knight.BirbKills": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.ZombieMassacre.TeslaZapKills": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.ZombieMassacre.RadioTowerKills": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.ZombieMassacre.HealingKitHeals": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.ZombieMassacre.MercFocusKills": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.ZombieMassacre.BladeTrapKills": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.ZombieMassacre.ZombieDogsKilled": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.ZombieMassacre.DaysSurvived": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.ZombieMassacre.WeaponPickups": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.ZombieMassacre.TeamMembersSaved": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.ZombieMassacre.InfectedKilled": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.ZombieMassacre.MutantsKilled": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.ZombieMassacre.Combos": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.ZombieMassacre.RetroGuitarKills": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.ZombieMassacre.MeleeWeaponKills": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.ZombieMassacre.CameraFlashKills": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.Minigolf.HoleInOne": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.Minigolf.Distance": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.Minigolf.Airtime": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.Minigolf.LongestPutt": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.Minigolf.Eagles": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.Minigolf.Albatross": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.Minigolf.Birdie": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.Minigolf.GardenComplete": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.Minigolf.WaterholeComplete": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.Minigolf.AltitudeComplete": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.Minigolf.AlpineComplete": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.Minigolf.EmissionComplete": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.Minigolf.TreasureCoveComplete": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.Minigolf.SweetToothComplete": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.Minigolf.ForestComplete": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.Minigolf.KingdomComplete": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.Minigolf.GardenCoursePar": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.Minigolf.WaterholeCoursePar": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.Minigolf.AltitudeCoursePar": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.Minigolf.AlpineCoursePar": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.Minigolf.EmissionCoursePar": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.Minigolf.TreasureCoveCoursePar": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.Minigolf.SweetToothCoursePar": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.Minigolf.ForestCoursePar": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.Minigolf.KingdomCoursePar": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.Virus.SolarSurvive": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.Virus.SolarInfect": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.BallRace.NimbusCompletedNoDeath": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.BallRace.ParadiseCompletedNoDeath": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.BallRace.MidoriCompletedNoDeath": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.BallRace.MemoriesCompletedNoDeath": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.BallRace.GLXYCompletedNoDeath": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.BallRace.SummitCompletedNoDeath": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.BallRace.KhromidroCompletedNoDeath": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.BallRace.PrismCompletedNoDeath": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.LittleCrusaders.Knight.MaxRank": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.EXP.br": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.EXP.plaza": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.EXP.ltag": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.EXP.trivia": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.EXP.arcade": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.EXP.casino": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.EXP.tderby": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.EXP.bowling": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.EXP.theater": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.EXP.minigames": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.EXP.fishing": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.EXP.shooting": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.EXP.bumper": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.EXP.nightclub": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.EXP.condo": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.EXP.cooking": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.EXP.virus": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.EXP.ppanic": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.EXP.mgolf": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.EXP.lc": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.EXP.zm": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.EXP.horror": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.EXP.accel": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.EXP.sdnl": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.CheckedAchievements": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Cheater": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.FishCaught": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.RareFishCaught": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Workshop.WorkshopRates": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.BallRace.OasisCompleted": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.BallRace.OasisMelons": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.BallRace.OasisCompletedNoDeath": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.ZombieMassacre.CompoundPlays": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.ZombieMassacre.TrainyardPlays": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.ZombieMassacre.GasolinePlays": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.ZombieMassacre.ExplosiveFlaskKills": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.ZombieMassacre.BlackHoleKills": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.ZombieMassacre.ALPSKills": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.ZombieMassacre.RammingShieldKills": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.ZombieMassacre.TransplantKills": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.ZombieMassacre.TurretKills": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.Virus.Weapons.Shots": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.Virus.Weapons.Hits": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.Virus.Weapons.Misses": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.Virus.Weapons.9MM.Kills": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.Virus.Weapons.Crossbow.Kills": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.Virus.Weapons.DoubleBarrel.Kills": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.Virus.Weapons.FlakHandcannon.Kills": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.Virus.Weapons.PlasmaAutorifle.Kills": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.Virus.Weapons.ScifiHandgun.Kills": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.Virus.Weapons.Silencer.Kills": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.Virus.Weapons.SonicShotgun.Kills": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.Virus.Weapons.TNT.Kills": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.Virus.Weapons.TommyGun.Kills": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.Virus.SurvivorKills": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.Virus.InfectedKills": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.Virus.Deaths": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.ZombieMassacre.Deaths": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.ZombieMassacre.Kills": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.ZombieMassacre.Weapons.Shots": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.ZombieMassacre.Weapons.Hits": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.ZombieMassacre.Weapons.Misses": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.ZombieMassacre.Weapons.AutoShotgun.Kills": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.ZombieMassacre.Weapons.BoltActionRifle.Kills": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.ZombieMassacre.Weapons.Crossbow.Kills": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.ZombieMassacre.Weapons.Dissector.Kills": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.ZombieMassacre.Weapons.DoubleBarrel.Kills": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.ZombieMassacre.Weapons.DualHandgun.Kills": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.ZombieMassacre.Weapons.DualUZI.Kills": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.ZombieMassacre.Weapons.Egon.Kills": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.ZombieMassacre.Weapons.Flamethrower.Kills": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.ZombieMassacre.Weapons.GrenadeLauncher.Kills": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.ZombieMassacre.Weapons.Handgun.Kills": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.ZombieMassacre.Weapons.Kimber.Kills": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.ZombieMassacre.Weapons.LaserRifle.Kills": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.ZombieMassacre.Weapons.M4A1.Kills": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.ZombieMassacre.Weapons.Magnum.Kills": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.ZombieMassacre.Weapons.Minigun.Kills": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.ZombieMassacre.Weapons.RPG.Kills": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.ZombieMassacre.Weapons.SawedOff.Kills": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.ZombieMassacre.Weapons.Spas12.Kills": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.ZombieMassacre.Weapons.TommyGun.Kills": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.ZombieMassacre.Weapons.UZI.Kills": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.ZombieMassacre.Weapons.Axe.Kills": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.ZombieMassacre.Weapons.BaseballBat.Kills": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.ZombieMassacre.Weapons.Chainsaw.Kills": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.ZombieMassacre.Weapons.Guitar.Kills": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.ZombieMassacre.Weapons.Katana.Kills": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.ZombieMassacre.Weapons.MedievalSword.Kills": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.ZombieMassacre.Weapons.SledgeHammer.Kills": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.ZombieMassacre.Powers.Blackhole.Kills": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.ZombieMassacre.Powers.ExplosiveFlasks.Kills": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.ZombieMassacre.Powers.OrbitalLaser.Kills": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.ZombieMassacre.Powers.Turret.Kills": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.ZombieMassacre.Powers.RammingShield.Kills": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.ZombieMassacre.Powers.Transplant.Kills": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.ZombieMassacre.Monsters.Spider.Kills": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.ZombieMassacre.Monsters.Crimson.Kills": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.ZombieMassacre.Monsters.Werewolf.Kills": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.ZombieMassacre.Characters.Doctor.Selects": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.ZombieMassacre.Characters.Electrician.Selects": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.ZombieMassacre.Characters.Journalist.Selects": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.ZombieMassacre.Characters.Mercenary.Selects": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.ZombieMassacre.Characters.Scientist.Selects": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.ZombieMassacre.Characters.Survivor.Selects": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Trivia.Correct.General": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Trivia.Correct.Books": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Trivia.Correct.Film": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Trivia.Correct.Music": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Trivia.Correct.MusicalsTheater": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Trivia.Correct.Television": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Trivia.Correct.VideoGames": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Trivia.Correct.BoardGames": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Trivia.Correct.ScienceNature": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Trivia.Correct.Computers": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Trivia.Correct.Maths": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Trivia.Correct.Mythology": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Trivia.Correct.Sports": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Trivia.Correct.Geography": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Trivia.Correct.History": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Trivia.Correct.Politics": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Trivia.Correct.Art": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Trivia.Correct.Celebrities": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Trivia.Correct.Animals": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Trivia.Correct.Vehicles": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Trivia.Correct.Comics": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Trivia.Correct.Gadgets": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Trivia.Correct.Anime": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Trivia.Correct.Cartoon": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Trivia.AverageAnswerTime": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Trivia.AverageScore": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Condo.Hearts": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Condo.Gears": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Condo.Brushes": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Condo.Coins": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.LaserTag.AverageScore": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Bowling.AverageScore": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.Accelerate.Playtime": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.BallRace.Playtime": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.HorrorHill.Playtime": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.LittleCrusaders.Playtime": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.Minigolf.Playtime": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.PlanetPanic.Playtime": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.SDNL.Playtime": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.Virus.Playtime": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.ZombieMassacre.Playtime": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.LaserTag.Playtime": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Trivia.Playtime": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Arcade.Playtime": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Casino.Playtime": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.TypingDerby.Playtime": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Bowling.Playtime": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Theater.Playtime": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Minigames.Playtime": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Condo.Playtime": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.Playtime": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Shooting.Playtime": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Bumper.Playtime": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Theater.TheaterTime": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Minigames.FruitEaten": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Minigames.TargetsShot": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Minigames.BalloonsPopped": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Minigames.PlanesDowned": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Minigames.PumpkinsSmashed": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Minigames.SnowballKills": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Minigames.GhostsShot": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Minigames.RCRaceWins": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Minigames.RCBoatKills": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.LaserTag.BestScore": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.LaserTag.TotalScore": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Trivia.BestScore": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Trivia.TotalScore": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.TypingDerby.BestScore": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.TypingDerby.TotalScore": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Bowling.PerfectGames": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Bowling.TotalScore": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Bowling.BestScore": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Minigames.Target.TotalScore": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Minigames.Fruit.TotalScore": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Minigames.Balloon.TotalScore": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Minigames.Pumpkin.TotalScore": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Minigames.Food.TotalScore": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Minigames.Snowball.TotalScore": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Minigames.Ghost.TotalScore": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Minigames.Target.BestScore": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Minigames.Fruit.BestScore": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Minigames.Balloon.BestScore": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Minigames.Pumpkin.BestScore": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Minigames.Food.BestScore": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Minigames.Snowball.BestScore": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Minigames.Ghost.BestScore": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Casino.UnitsEarned": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Casino.UnitsEarned.WOM": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Casino.UnitsEarned.TripleDiamonds": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Casino.UnitsEarned.GrandQuest": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Casino.UnitsEarned.VideoBlackjack": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Casino.UnitsEarned.DoubleOrNothing": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Casino.UnitsEarned.VideoPoker": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Casino.UnitsEarned.SpinToWin": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Casino.DoubleOrNothingMultiplier": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.ZombieMassacre.TotalScore": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.ZombieMassacre.BestScore": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Stores.DIY.NumVisits": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.ReefButterflyfish": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.RedtailNotho": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.ClownTriggerfish": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.ClownLoach": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.RoyalAngelfish": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.BlackSeaBass": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.DesjardinSailfinTang": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.BlueTang": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.RedZebraCichlid": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.YellowAngelfish": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.YellowTang": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.DemasoniCichlid": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.BlueArowana": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.OrangeSurgeon": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.YellowLakeMalawiCichlid": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.Arapaima": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.AtlanticCod": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.Barracuda": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.BlackRedeye": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.BlackSpottedGrunt": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.ButterflyFish": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.Carp": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.Clownfish": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.TigerTurquoiseDiscus": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.BlueCheckerboardDiscus": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.RedLeopardDiscus": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.ElectricCatfish": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.EmperorAngelfish": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.FoureyeButterflyFish": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.Frontosa": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.GoldRedeye": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.GreatWhiteShark": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.Koi": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.Mackerel": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.MahiMahi": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.YellowMandarin": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.MoorishIdol": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.MurexShellfish": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.Mussel": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.Nombochromis": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.Octopus": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.OrangespineUnicornfish": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.Oreochromis": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.Oyster": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.PeacockBass": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.PerchFish": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.Pike": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.Piranha": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.PowderblueTang": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.RainbowCichlid": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.RedEye": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.Salmon": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.Siganus": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.SiganusGuttatus": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.SiganusJavus": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.RedKnobStarfish": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.CommonStarfish": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.TrewavasCichlid": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.Trout": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.TigerBarb": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.CoralCod": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.RedSnapper": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.ElectricBlueJackDempsey": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.Cuttlefish": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.Dolphin": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.MantaRay": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.Orca": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.Stingray": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.BlueWhale": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.HumpbackWhale": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.Sunfish": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.BoxTurtle": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.GiantTortoise": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.SeaTurtle": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.SnappingTurtle": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.Tortoise": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.LargeArapaima": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.LargeAtlanticCod": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.LargeBarracuda": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.LargeBlackRedeye": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.LargeBlackSpottedGrunt": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.LargeButterflyFish": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.LargeCarp": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.LargeClownfish": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.LargeTigerTurquoiseDiscus": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.LargeBlueCheckerboardDiscus": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.LargeRedLeopardDiscus": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.LargeElectricCatfish": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.LargeEmperorAngelfish": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.LargeFoureyeButterflyFish": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.LargeFrontosa": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.LargeGoldRedeye": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.LargeGreatWhiteShark": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.LargeKoi": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.LargeMackerel": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.LargeMahiMahi": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.LargeBlueMandarin": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.LargeYellowMandarin": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.LargeMoorishIdol": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.LargeMurexShellfish": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.LargeMussel": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.LargeNombochromis": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.LargeOctopus": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.LargeOrangespineUnicornfish": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.LargeOreochromis": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.LargeOyster": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.LargePeacockBass": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.LargePerchFish": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.LargePike": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.LargePiranha": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.LargePowderblueTang": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.LargeRainbowCichlid": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.LargeRedEye": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.LargeSalmon": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.LargeSiganus": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.LargeSiganusGuttatus": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.LargeSiganusJavus": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.LargeRedKnobStarfish": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.LargeCommonStarfish": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.LargeTrewavasCichlid": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.LargeTrout": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.LargeTigerBarb": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.LargeCoralCod": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.LargeRedSnapper": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.LargeElectricBlueJackDempsey": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.LargeReefButterflyfish": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.LargeRedtailNotho": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.LargeClownTriggerfish": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.LargeClownLoach": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.LargeRoyalAngelfish": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.LargeBlackSeaBass": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.LargeDesjardinSailfinTang": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.LargeBlueTang": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.LargeRedZebraCichlid": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.LargeYellowAngelfish": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.LargeYellowTang": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.LargeDemasoniCichlid": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.LargeBlueArowana": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.LargeOrangeSurgeon": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.LargeYellowLakeMalawiCichlid": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.LargeCuttlefish": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.LargeMantaRay": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.LargeStringray": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.LargeSunfish": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.AncientDolphin": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.AncientOrca": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.Pufferfish": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.LeopardCoralGrouper": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.ShortfinCorvina": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.CuberaSnapper": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.Fangtooth": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.SeaBass": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.Seal": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.LionFish": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.Amberjack": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.Archerfish": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.BlobFish": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.BlueMarlin": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.Amur": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.BrownTrout": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.Cobia": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.LargePufferfish": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.LargeLeopardCoralGrouper": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.LargeShortfinCorvina": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.LargeCuberaSnapper": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.LargeFangtooth": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.LargeSeaBass": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.LargeSeal": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.LargeLionFish": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.LargeAmberjack": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.LargeArcherfish": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.LargeBlobFish": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.LargeBlueMarlin": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.LargeAmur": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.LargeBrownTrout": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.LargeCobia": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.SpeedyCrab": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.Crab": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.PartyCrab": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.CoolCrab": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.EternallyFrozenCrab": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.EternallyBurningCrab": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.NightmareCrab": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.BallRace.EventHorizonCompleted": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.BallRace.EventHorizonMelons": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.BallRace.EventHorizonCompletedNoDeath": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Minigames.EasterEgg.BestScore": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Minigames.EasterEgg.TotalScore": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.AllKnowingPufferfish": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.BassFish": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.BlueMandarin": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.CosmicFish": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.GoldFish": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.LetterFish": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.TheCatFish": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.TheFisherman": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.TimeFish": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.WizardFish": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.BrokenTelevision": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.Tire": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.BrokenBottle": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.BrokenSodaCan": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.UsedCoffeeCup": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.Cigs": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.RuinedPaperTicket": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.CandyWrapper": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.OldNewspaper": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.TrashBag": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.PlasticStraw": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.BarrelofTrash": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.WoodenPalette": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.TrashCanLid": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.PlasticToyblock": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.BrokenPottedPlant": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.ShoppingCart": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.UsedSprayCan": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.HomeCookingMagazine": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.CrosswordMagazine": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.Cooler": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.Broom": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Fishing.SoggyCardboardBox": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Minigames.Chainsaw.BestScore": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Minigames.Chainsaw.TotalScore": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Minigames.BoozeBash.TotalScore": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Minigames.BoozeBash.BestScore": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Minigames.BoozeBashDrinks": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Minigames.ChainsawDeathmatchKills": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.BallRace.WoodlandsCompleted": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.BallRace.WoodlandsMelons": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.BallRace.WoodlandsCompletedNoDeath": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.ZombieMassacre.VillagePlays": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Player.HolidayQuest1": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Arcade.Dizzy.Jackpots": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Arcade.WheelyRig.BestScore": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Arcade.WhackAmole.BestScore": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Arcade.StackEm.BestScore": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Arcade.SuperHoopers.BestScore": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Arcade.SalmonSays.BestScore": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Arcade.Skeeball.BestScore": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Arcade.WhirlAfish.BestScore": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Arcade.RingGod.BestScore": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Arcade.LBFeeders.BestScore": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Arcade.Offering.BestScore": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Arcade.BugBytes.BestScore": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Arcade.NewtonApples.BestScore": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Arcade.PlanetPiano.BestScore": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Arcade.MetMania.BestScore": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Arcade.Avalanche.BestScore": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Arcade.Tornado.BestScore": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Arcade.IceCave.BestScore": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Arcade.MasFuerte.BestScore": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Arcade.Dizzy.TotalScore": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Arcade.WheelyRig.TotalScore": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Arcade.WhackAmole.TotalScore": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Arcade.StackEm.TotalScore": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Arcade.SuperHoopers.TotalScore": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Arcade.SalmonSays.TotalScore": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Arcade.Skeeball.TotalScore": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Arcade.WheelOfFire.TotalScore": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Arcade.WhirlAfish.TotalScore": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Arcade.RingGod.TotalScore": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Arcade.LBFeeders.TotalScore": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Arcade.Offering.TotalScore": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Arcade.BugBytes.TotalScore": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Arcade.PluckAPal.PalsCollected": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Arcade.NewtonApples.TotalScore": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Arcade.PlanetPiano.TotalScore": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Arcade.MetMania.TotalScore": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Arcade.Avalanche.TotalScore": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Arcade.Tornado.TotalScore": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Arcade.IceCave.TotalScore": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Arcade.MasFuerte.TotalScore": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Arcade.LonelyGun.BestTime": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Arcade.DizzyJackpots": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Arcade.WheelyRigged.Coins": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Arcade.WhackAMole.MolesHit": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Arcade.StackEm.LevelReached": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Arcade.SuperHoopers.Hoops": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Arcade.SalmonSays.LevelReached": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Arcade.WhirlAFish.Balls": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Arcade.RingGod.Rings": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Arcade.LBFeeders.Basket": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Arcade.Offering.CenterCup": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Arcade.BugBytes.BugsDestroyed": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Arcade.PluckAPal.Grabs": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Arcade.NewtonsApples.ApplesDropped": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Arcade.PlanetaryPiano.NotesPlayed": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Arcade.MetMania.Wheels": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Arcade.Avalanche.BlueCatsacks": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Arcade.IceCave.TilesLit": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.Plaza.Arcade.LonelyGun.TargetsHit": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.Minigolf.IslandComplete": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.Minigolf.IslandCoursePar": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.Accelerate.PineValleyComplete": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.Accelerate.BedzoomComplete": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.Accelerate.SunriseIslesComplete": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.Accelerate.NightcityComplete": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.Accelerate.TakeoffComplete": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.Accelerate.WishyWashyComplete": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.Accelerate.ArchenemypelagoComplete": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.Accelerate.DamagedByItems": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.Accelerate.HitPlayers": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.Accelerate.FirstPlace": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.Accelerate.MelonBoosts": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.Accelerate.BirbShieldGrabs": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.Accelerate.DrinksDrunk": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.Accelerate.BumperHits": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.Accelerate.GolfHoleSinks": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.Accelerate.HomingBowlingBalls": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.Accelerate.PinShieldBlocks": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.Accelerate.MoonPowerUses": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.Accelerate.SunHits": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.Accelerate.DriftTime": {
+    "description": "",
+    "value": 0
+  },
+  "Stats.GameW.Accelerate.ItemsGiven": {
+    "description": "",
+    "value": 0
+  }
+}

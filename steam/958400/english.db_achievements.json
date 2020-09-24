@@ -1,0 +1,335 @@
+﻿[
+  {
+    "name": "ACH_0",
+    "defaultvalue": 0,
+    "displayName": "Slightly Mad Racer",
+    "hidden": 0,
+    "description": "Earned all other achievements",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/958400/e2ec33e116d78ca888dd1cedb2a48f30ef37db6d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/958400/7ed25fd1931e4061ddcf94684a5102290b22ac3c.jpg"
+  },
+  {
+    "name": "ACH_1",
+    "defaultvalue": 0,
+    "displayName": "Here's The Keys",
+    "hidden": 0,
+    "description": "Purchase your first car.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/958400/057d856efd4efe42ef6994c5ae354cc016b5760c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/958400/254942227ebb985379efc0caf872c6aab007de79.jpg"
+  },
+  {
+    "name": "ACH_2",
+    "defaultvalue": 0,
+    "displayName": "The Journey Begins",
+    "hidden": 0,
+    "description": "Complete the first Career race.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/958400/dfbb9a29085dbb1cd32804cf89199a98bd02ebd0.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/958400/99a3e1a86dfb3a45ed41e9a4545b422503558959.jpg"
+  },
+  {
+    "name": "ACH_3",
+    "defaultvalue": 0,
+    "displayName": "Mastering the trade",
+    "hidden": 0,
+    "description": "Master your first track.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/958400/bfbd45e7e0969baecc4ef1b8672d44ad013a8c76.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/958400/8ffb69866cd8aafb3465a82d5a4bc4344999a08b.jpg"
+  },
+  {
+    "name": "ACH_4",
+    "defaultvalue": 0,
+    "displayName": "The Treble",
+    "hidden": 0,
+    "description": "Complete all 3 Career Objectives in a single Career Event.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/958400/24c08b2902febf05926d3030c5c010ff550b75a3.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/958400/2ea782cb67f4bb2b1a9b4bed93ead96c9d2a82a8.jpg"
+  },
+  {
+    "name": "ACH_5",
+    "defaultvalue": 0,
+    "displayName": "New Challenger Approaching",
+    "hidden": 0,
+    "description": "Post a time or score for when a Rivals Event completes.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/958400/f341cd9eb4794d5ff5dcce67a2e4a7734b112791.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/958400/3d50e2b1af3d9c22cea31cd49c3d44bf90797657.jpg"
+  },
+  {
+    "name": "ACH_6",
+    "defaultvalue": 0,
+    "displayName": "Deserved Recognition",
+    "hidden": 0,
+    "description": "Earn your first Career Accolade.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/958400/0d024dda699a1cfd92749e34de5d025116b345c2.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/958400/5a022c0c3a7d4e1e2fbc85e5b14ce60ff9cbd450.jpg"
+  },
+  {
+    "name": "ACH_7",
+    "defaultvalue": 0,
+    "displayName": "Right On Time",
+    "hidden": 0,
+    "description": "Compete in a scheduled online race.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/958400/0354e3e1e5f3d33a076fd9000a928280cca17b40.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/958400/0b4309a11ed2c63fc8d9171c6a5650e32f41c9a8.jpg"
+  },
+  {
+    "name": "ACH_9",
+    "defaultvalue": 0,
+    "displayName": "Splish Splash",
+    "hidden": 0,
+    "description": "Win in a 3+ Lap race in Thunderstorm conditions.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/958400/e6c873319fe8746bd914bc726ed20b5884ecbf99.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/958400/9a8842939e02ad42c21a8a52197a47f333723865.jpg"
+  },
+  {
+    "name": "ACH_10",
+    "defaultvalue": 0,
+    "displayName": "Stickered",
+    "hidden": 0,
+    "description": "Apply multiple decals to one of your cars.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/958400/2cc624af7c917a5bd807cb8afa899d1ffa2d0e33.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/958400/74f81bec7de18768278ca39caeb29039921d393a.jpg"
+  },
+  {
+    "name": "ACH_11",
+    "defaultvalue": 0,
+    "displayName": "Pace Setter",
+    "hidden": 0,
+    "description": "Compete in 3 different Pace Setter events.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/958400/46a768c56c30980bd2d3a363ce92b3b03df16b98.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/958400/287dc4a366f7b5a5dfe0d4176611b4b279a89c5d.jpg"
+  },
+  {
+    "name": "ACH_12",
+    "defaultvalue": 0,
+    "displayName": "Bargain Hunter",
+    "hidden": 0,
+    "description": "Purchase a car from the Showroom that's discounted in the 'Daily Deal'.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/958400/502461d1e164eead256e0efdbc69542c55207493.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/958400/f614ea7e79ef204441052ccdb9e0ee5adf3af43a.jpg"
+  },
+  {
+    "name": "ACH_13",
+    "defaultvalue": 0,
+    "displayName": "A Smashing Time",
+    "hidden": 0,
+    "description": "Smash 100 targets in Breakout.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/958400/4d0c4ab338f90f2740f226ace6cadff388ae21b1.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/958400/59609ca69e24f1bc88fbb2adacce8f2677b90d79.jpg"
+  },
+  {
+    "name": "ACH_14",
+    "defaultvalue": 0,
+    "displayName": "Grease Monkey",
+    "hidden": 0,
+    "description": "Apply upgrades to a road car to take it into the next road car class.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/958400/77e6c9a916771fc01c550012477bfeb6696bc27d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/958400/5cb29cee43a43304881cce805a85c616168302d1.jpg"
+  },
+  {
+    "name": "ACH_15",
+    "defaultvalue": 0,
+    "displayName": "Achieving Those Goals",
+    "hidden": 0,
+    "description": "Complete a total of 25 Career Objectives.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/958400/a342e6298d7553c270ff26f496965972a0593efb.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/958400/f6f7f7cfde88e8b51218539b3a6ff7ec6729b854.jpg"
+  },
+  {
+    "name": "ACH_16",
+    "defaultvalue": 0,
+    "displayName": "Track Master In Training",
+    "hidden": 0,
+    "description": "Master 3 different tracks.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/958400/9fb36d450f9e757f1a500635f83823edc1a893d5.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/958400/55ba15ed89867980e4894e4ce8ae511e53a6e157.jpg"
+  },
+  {
+    "name": "ACH_17",
+    "defaultvalue": 0,
+    "displayName": "Perfectionist",
+    "hidden": 0,
+    "description": "Perfect over 100 corners.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/958400/762a57c864d6bea505c85127bbe3ebbab8cdb2df.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/958400/15776a3d833e3d7fb3265fe83dd37995528fb110.jpg"
+  },
+  {
+    "name": "ACH_18",
+    "defaultvalue": 0,
+    "displayName": "Custom Plates",
+    "hidden": 0,
+    "description": "Alter the license plate on 3 or more of your vehicles.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/958400/11cd0354aa79ed10651de57632cd2b048e0190ba.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/958400/4587753c560f1060d80253c16e302722c8d2df11.jpg"
+  },
+  {
+    "name": "ACH_19",
+    "defaultvalue": 0,
+    "displayName": "Making Contacts",
+    "hidden": 0,
+    "description": "Unlock 5 Career Invitational Events.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/958400/a33e28598dab5abb00bfbb16f603f6e0957184bc.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/958400/39119f11d444547419cb37b5628d371f522bb346.jpg"
+  },
+  {
+    "name": "ACH_20",
+    "defaultvalue": 0,
+    "displayName": "Rapid Fire Racer",
+    "hidden": 0,
+    "description": "Compete in 10 Multiplayer Quick Races.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/958400/c74c30eb64c8989e8554928904a3e57c4bd9c7ef.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/958400/0b6219cddb932758307e5f07088fcc3dafee7ca2.jpg"
+  },
+  {
+    "name": "ACH_21",
+    "defaultvalue": 0,
+    "displayName": "Smashed It",
+    "hidden": 0,
+    "description": "Compete in 5 different Breakout events.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/958400/8e90d1b39e5ad10e621b90cab78d3edd4f649302.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/958400/2d12327e90afa184780299c3d54a13f12649971a.jpg"
+  },
+  {
+    "name": "ACH_22",
+    "defaultvalue": 0,
+    "displayName": "Under The Hood",
+    "hidden": 0,
+    "description": "Complete a race using either the 'High Speed' or 'High Grip' Tuning Presets in a race car.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/958400/47daf5a50a84c82de1f19fbe045c49c1668c0310.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/958400/ef20dfc6a544dcea66370dad722ea6057e6a1909.jpg"
+  },
+  {
+    "name": "ACH_24",
+    "defaultvalue": 0,
+    "displayName": "Silverware",
+    "hidden": 0,
+    "description": "Win your first Career Championship.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/958400/b82620e02ccdf3d83868a7efa1c8797ba129189b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/958400/09b3eb923bf4db91889eb626141c47662837b38e.jpg"
+  },
+  {
+    "name": "ACH_25",
+    "defaultvalue": 0,
+    "displayName": "Taskmaster",
+    "hidden": 0,
+    "description": "Earn 20 Accolades.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/958400/d6ae4035eb5517c3eb6b656d3d2fefe25b7d9f7f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/958400/147e1fb53e5b06d9ee17ae85f5de2fa726bfac50.jpg"
+  },
+  {
+    "name": "ACH_26",
+    "defaultvalue": 0,
+    "displayName": "Seasoned Racer",
+    "hidden": 0,
+    "description": "Reach Player Level 2",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/958400/c381035e1df33957f60b8470a87017bcdfcb9960.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/958400/eb6756ee24c2e1b918d03cfd865cabef65472e1d.jpg"
+  },
+  {
+    "name": "ACH_27",
+    "defaultvalue": 0,
+    "displayName": "Challenge Accepted",
+    "hidden": 0,
+    "description": "Complete 20 Career Objectives in Challenge Events",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/958400/bc39cd60a5ec6290c41ee8e3a995837141e372f2.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/958400/40e02a1e3649e38c95bb0a99d0b785dee8a375fb.jpg"
+  },
+  {
+    "name": "ACH_28",
+    "defaultvalue": 0,
+    "displayName": "Goal Orientated",
+    "hidden": 0,
+    "description": "Complete 50 Career Objectives.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/958400/32614e50cd7bc3211f7cf60ce03699894cf5e019.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/958400/180ce59e0a50fd50b336b7ba4008879a24f0c770.jpg"
+  },
+  {
+    "name": "ACH_29",
+    "defaultvalue": 0,
+    "displayName": "Stripped To The Bone",
+    "hidden": 0,
+    "description": "Upgrade a Road spec car to Race Spec with a 'Race Conversion'.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/958400/31a8f1b1a489c5b1377e900fc3465900b9dc9beb.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/958400/2c86cf7aff388a2f2e5e01b891bb8392777eaaab.jpg"
+  },
+  {
+    "name": "ACH_30",
+    "defaultvalue": 0,
+    "displayName": "Making Adversaries",
+    "hidden": 0,
+    "description": "Post a time or score in 10 unique Rivals Events.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/958400/1575b12a4a8d5e047e8ab5d2cf82d2a291c6cad7.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/958400/1bee3de7ba6b816cf91e7c25c20f419613b7cdbb.jpg"
+  },
+  {
+    "name": "ACH_31",
+    "defaultvalue": 0,
+    "displayName": "Maximising Potential",
+    "hidden": 0,
+    "description": "Upgrade a race car to its highest possible Performance Index Rating (PIR).",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/958400/05b5586e04d096d2c103df0cae7062f0984ea8f6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/958400/594e2cae0d92eaf1807b4955dba4aa45771af473.jpg"
+  },
+  {
+    "name": "ACH_32",
+    "defaultvalue": 0,
+    "displayName": "They Call Me The Track Master",
+    "hidden": 0,
+    "description": "Master 15 different tracks.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/958400/bfca788709e66344a290d0537c42691ef7209960.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/958400/d8f6c51e0d8f8cce60af7b70d86e6ae227c69d9b.jpg"
+  },
+  {
+    "name": "ACH_33",
+    "defaultvalue": 0,
+    "displayName": "Objectively Brilliant",
+    "hidden": 0,
+    "description": "Complete 100 Career Objectives.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/958400/ffec851d9a5c4e46337dc7b12bd8f24a3b96629b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/958400/16fd958fcb43c8de47d974133d049edb04989a58.jpg"
+  },
+  {
+    "name": "ACH_34",
+    "defaultvalue": 0,
+    "displayName": "Car Collector",
+    "hidden": 0,
+    "description": "Purchase 25 unique cars.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/958400/8159c8d422648839afcff3dc041166d45b892645.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/958400/691b2278a886647fbf278667505c448df619d642.jpg"
+  },
+  {
+    "name": "ACH_35",
+    "defaultvalue": 0,
+    "displayName": "Silverware Collection",
+    "hidden": 0,
+    "description": "Win 5 different Championships in Career.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/958400/592740c38644aed85cdfad57264ca7fbd819b0a4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/958400/ae620db4459926218f0e4498d685326313276927.jpg"
+  },
+  {
+    "name": "ACH_36",
+    "defaultvalue": 0,
+    "displayName": "Overcome Your Rivals",
+    "hidden": 0,
+    "description": "Earn 300 Rival Points in a single season",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/958400/9c05aca4f356e381bd6c150217d945c507e2eb29.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/958400/abf7b5b35b24b8abb45f8481e2ff394c10bff44e.jpg"
+  },
+  {
+    "name": "ACH_37",
+    "defaultvalue": 0,
+    "displayName": "Objectively Mad",
+    "hidden": 0,
+    "description": "Complete 200 Career Objectives.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/958400/27aceeb43f796f8d1a56dfc122aec21896f16ce3.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/958400/7f431dd735232968e1714c705be0cc9d5bcaf797.jpg"
+  },
+  {
+    "name": "ACH_38",
+    "defaultvalue": 0,
+    "displayName": "Veteran Racer",
+    "hidden": 0,
+    "description": "Reach Player Level 3",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/958400/c45ad730a0bac88f3c37f0eaa6f2e7a8c1e67f02.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/958400/9e931983218ea492f387c8a8ea10891e3a790ade.jpg"
+  }
+]

@@ -1,0 +1,434 @@
+﻿{
+  "SaveGameError_SaveSucceeded": {
+    "description": "Save Succeeded",
+    "value": 0
+  },
+  "SaveGameError_LoadSucceeded": {
+    "description": "Load Succeeded",
+    "value": 0
+  },
+  "SaveGameError_LoadClearLevelCache": {
+    "description": "SaveGameError_LoadClearLevelCache",
+    "value": 0
+  },
+  "SaveGameError_LoadGlobalsFile": {
+    "description": "SaveGameError_LoadGlobalsFile",
+    "value": 0
+  },
+  "SaveGameError_LoadOsirisVariableHelper": {
+    "description": "SaveGameError_LoadOsirisVariableHelper",
+    "value": 0
+  },
+  "SaveGameError_LoadAlignmentManager": {
+    "description": "SaveGameError_LoadAlignmentManager",
+    "value": 0
+  },
+  "SaveGameError_LoadPropertyDisputeManager": {
+    "description": "SaveGameError_LoadPropertyDisputeManager",
+    "value": 0
+  },
+  "SaveGameError_LoadCacheTemplateManager": {
+    "description": "SaveGameError_LoadCacheTemplateManager",
+    "value": 0
+  },
+  "SaveGameError_LoadCDivinityStats": {
+    "description": "SaveGameError_LoadCDivinityStats",
+    "value": 0
+  },
+  "SaveGameError_LoadEoCTriggerFactory": {
+    "description": "SaveGameError_LoadEoCTriggerFactory",
+    "value": 0
+  },
+  "SaveGameError_LoadInventoryFactory": {
+    "description": "SaveGameError_LoadInventoryFactory",
+    "value": 0
+  },
+  "SaveGameError_LoadCharacterFactory": {
+    "description": "SaveGameError_LoadCharacterFactory",
+    "value": 0
+  },
+  "SaveGameError_LoadItemFactory": {
+    "description": "SaveGameError_LoadItemFactory",
+    "value": 0
+  },
+  "SaveGameError_LoadWaypointManager": {
+    "description": "SaveGameError_LoadWaypointManager",
+    "value": 0
+  },
+  "SaveGameError_LoadCustomBookManager": {
+    "description": "SaveGameError_LoadCustomBookManager",
+    "value": 0
+  },
+  "SaveGameError_LoadJournalManager": {
+    "description": "SaveGameError_LoadJournalManager",
+    "value": 0
+  },
+  "SaveGameError_LoadTutorialManager": {
+    "description": "SaveGameError_LoadTutorialManager",
+    "value": 0
+  },
+  "SaveGameError_LoadFlagManager": {
+    "description": "SaveGameError_LoadFlagManager",
+    "value": 0
+  },
+  "SaveGameError_LoadStoryImplementation": {
+    "description": "SaveGameError_LoadStoryImplementation",
+    "value": 0
+  },
+  "SaveGameError_LoadStoryPatchImplementation": {
+    "description": "SaveGameError_LoadStoryPatchImplementation",
+    "value": 0
+  },
+  "SaveGameError_LoadGameControl": {
+    "description": "SaveGameError_LoadGameControl",
+    "value": 0
+  },
+  "SaveGameError_LoadCopyFilesFromDir": {
+    "description": "SaveGameError_LoadCopyFilesFromDir",
+    "value": 0
+  },
+  "SaveGameError_LoadLevelCacheEmpty": {
+    "description": "SaveGameError_LoadLevelCacheEmpty",
+    "value": 0
+  },
+  "SaveGameError_LoadLevel_CacheFile": {
+    "description": "SaveGameError_LoadLevel_CacheFile",
+    "value": 0
+  },
+  "SaveGameError_LoadLevel_InventoryFactory": {
+    "description": "SaveGameError_LoadLevel_InventoryFactory",
+    "value": 0
+  },
+  "SaveGameError_LoadLevel_CharacterManager": {
+    "description": "SaveGameError_LoadLevel_CharacterManager",
+    "value": 0
+  },
+  "SaveGameError_LoadLevel_ItemManager": {
+    "description": "SaveGameError_LoadLevel_ItemManager",
+    "value": 0
+  },
+  "SaveGameError_LoadLevel_ProjectileManager": {
+    "description": "SaveGameError_LoadLevel_ProjectileManager",
+    "value": 0
+  },
+  "SaveGameError_LoadLevel_TurnManager": {
+    "description": "SaveGameError_LoadLevel_TurnManager",
+    "value": 0
+  },
+  "SaveGameError_LoadLevel_SurfaceManager": {
+    "description": "SaveGameError_LoadLevel_SurfaceManager",
+    "value": 0
+  },
+  "SaveGameError_LoadLevel_GameActionManager": {
+    "description": "SaveGameError_LoadLevel_GameActionManager",
+    "value": 0
+  },
+  "SaveGameError_LoadLevel_AtmosphereOverrider": {
+    "description": "SaveGameError_LoadLevel_AtmosphereOverrider",
+    "value": 0
+  },
+  "SaveGameError_LoadLevel_EnvironmentalStatusManager": {
+    "description": "SaveGameError_LoadLevel_EnvironmentalStatusManager",
+    "value": 0
+  },
+  "SaveGameError_LoadLevel_KeywordControl": {
+    "description": "SaveGameError_LoadLevel_KeywordControl",
+    "value": 0
+  },
+  "SaveGameError_LoadLevel_OverheadTextManager": {
+    "description": "SaveGameError_LoadLevel_OverheadTextManager",
+    "value": 0
+  },
+  "SaveGameError_LoadCharacters_TemplateNotFound": {
+    "description": "SaveGameError_LoadCharacters_TemplateNotFound",
+    "value": 0
+  },
+  "SaveGameError_LoadCharacters_CountMismatch": {
+    "description": "SaveGameError_LoadCharacters_CountMismatch",
+    "value": 0
+  },
+  "SaveGameError_LoadItems_TemplateNotFound": {
+    "description": "SaveGameError_LoadItems_TemplateNotFound",
+    "value": 0
+  },
+  "SaveGameError_LoadItems_CountMismatch": {
+    "description": "SaveGameError_LoadItems_CountMismatch",
+    "value": 0
+  },
+  "SaveGameError_LoadLoadStoryFailed": {
+    "description": "SaveGameError_LoadLoadStoryFailed",
+    "value": 0
+  },
+  "SaveGameError_LoadCharacters_LocalTemplateNotFound": {
+    "description": "SaveGameError_LoadCharacters_LocalTemplateNotFound",
+    "value": 0
+  },
+  "SaveGameError_LoadItems_LocalTemplateNotFound": {
+    "description": "SaveGameError_LoadItems_LocalTemplateNotFound",
+    "value": 0
+  },
+  "SaveGameError_SaveClearTemporaryDir": {
+    "description": "SaveGameError_SaveClearTemporaryDir",
+    "value": 0
+  },
+  "SaveGameError_SaveClearSavegameLevelCache": {
+    "description": "SaveGameError_SaveClearSavegameLevelCache",
+    "value": 0
+  },
+  "SaveGameError_SaveCopyLevelCaches": {
+    "description": "SaveGameError_SaveCopyLevelCaches",
+    "value": 0
+  },
+  "SaveGameError_SaveClearRealSaveDir": {
+    "description": "SaveGameError_SaveClearRealSaveDir",
+    "value": 0
+  },
+  "SaveGameError_SaveDumpMiniLog": {
+    "description": "SaveGameError_SaveDumpMiniLog",
+    "value": 0
+  },
+  "SaveGameError_SaveAlignmentManager": {
+    "description": "SaveGameError_SaveAlignmentManager",
+    "value": 0
+  },
+  "SaveGameError_SavePropertyDisputeManager": {
+    "description": "SaveGameError_SavePropertyDisputeManager",
+    "value": 0
+  },
+  "SaveGameError_SaveEoCTriggerFactory": {
+    "description": "SaveGameError_SaveEoCTriggerFactory",
+    "value": 0
+  },
+  "SaveGameError_SaveInventoryFactory": {
+    "description": "SaveGameError_SaveInventoryFactory",
+    "value": 0
+  },
+  "SaveGameError_SaveCharacterFactory": {
+    "description": "SaveGameError_SaveCharacterFactory",
+    "value": 0
+  },
+  "SaveGameError_SaveItemFactory": {
+    "description": "SaveGameError_SaveItemFactory",
+    "value": 0
+  },
+  "SaveGameError_SaveWaypointManager": {
+    "description": "SaveGameError_SaveWaypointManager",
+    "value": 0
+  },
+  "SaveGameError_SaveJournalManager": {
+    "description": "SaveGameError_SaveJournalManager",
+    "value": 0
+  },
+  "SaveGameError_SaveTutorialManager": {
+    "description": "SaveGameError_SaveTutorialManager",
+    "value": 0
+  },
+  "SaveGameError_SaveGameControl": {
+    "description": "SaveGameError_SaveGameControl",
+    "value": 0
+  },
+  "SaveGameError_SaveFlagManager": {
+    "description": "SaveGameError_SaveFlagManager",
+    "value": 0
+  },
+  "SaveGameError_SaveCDivinityStats": {
+    "description": "SaveGameError_SaveCDivinityStats",
+    "value": 0
+  },
+  "SaveGameError_SaveStoryImplementation": {
+    "description": "SaveGameError_SaveStoryImplementation",
+    "value": 0
+  },
+  "SaveGameError_SaveMetaDataFile": {
+    "description": "SaveGameError_SaveMetaDataFile",
+    "value": 0
+  },
+  "SaveGameError_SaveGlobalsFile": {
+    "description": "SaveGameError_SaveGlobalsFile",
+    "value": 0
+  },
+  "SaveGameError_SaveLevelCache": {
+    "description": "SaveGameError_SaveLevelCache",
+    "value": 0
+  },
+  "SaveGameError_SavePackingAddFile": {
+    "description": "SaveGameError_SavePackingAddFile",
+    "value": 0
+  },
+  "SaveGameError_SavePackingAddSanity": {
+    "description": "SaveGameError_SavePackingAddSanity",
+    "value": 0
+  },
+  "SaveGameError_SaveSanityFile": {
+    "description": "SaveGameError_SaveSanityFile",
+    "value": 0
+  },
+  "SaveGameError_SaveRemoveOriginals": {
+    "description": "SaveGameError_SaveRemoveOriginals",
+    "value": 0
+  },
+  "SaveGameError_SaveLevel_InventoryFactory": {
+    "description": "SaveGameError_SaveLevel_InventoryFactory",
+    "value": 0
+  },
+  "SaveGameError_SaveLevel_CharacterManager": {
+    "description": "SaveGameError_SaveLevel_CharacterManager",
+    "value": 0
+  },
+  "SaveGameError_SaveLevel_ItemManager": {
+    "description": "SaveGameError_SaveLevel_ItemManager",
+    "value": 0
+  },
+  "SaveGameError_SaveLevel_ProjectileManager": {
+    "description": "SaveGameError_SaveLevel_ProjectileManager",
+    "value": 0
+  },
+  "SaveGameError_SaveLevel_TurnManager": {
+    "description": "SaveGameError_SaveLevel_TurnManager",
+    "value": 0
+  },
+  "SaveGameError_SaveLevel_SurfaceManager": {
+    "description": "SaveGameError_SaveLevel_SurfaceManager",
+    "value": 0
+  },
+  "SaveGameError_SaveLevel_GameActionManager": {
+    "description": "SaveGameError_SaveLevel_GameActionManager",
+    "value": 0
+  },
+  "SaveGameError_SaveLevel_ShroudManager": {
+    "description": "SaveGameError_SaveLevel_ShroudManager",
+    "value": 0
+  },
+  "SaveGameError_SaveLevel_AtmosphereOverrider": {
+    "description": "SaveGameError_SaveLevel_AtmosphereOverrider",
+    "value": 0
+  },
+  "SaveGameError_SaveLevel_EnvironmentalStatusManager": {
+    "description": "SaveGameError_SaveLevel_EnvironmentalStatusManager",
+    "value": 0
+  },
+  "SaveGameError_SaveLevel_KeywordControl": {
+    "description": "SaveGameError_SaveLevel_KeywordControl",
+    "value": 0
+  },
+  "SaveGameError_SaveLevel_OverheadTextManager": {
+    "description": "SaveGameError_SaveLevel_OverheadTextManager",
+    "value": 0
+  },
+  "SaveGameError_SaveLevel_SaveFile": {
+    "description": "SaveGameError_SaveLevel_SaveFile",
+    "value": 0
+  },
+  "SaveGameError_SaveCharacters_CountMismatch": {
+    "description": "SaveGameError_SaveCharacters_CountMismatch",
+    "value": 0
+  },
+  "SaveGameError_SaveItems_CountMismatch": {
+    "description": "SaveGameError_SaveItems_CountMismatch",
+    "value": 0
+  },
+  "SaveGameError_LoadLevel_ShroudManager": {
+    "description": "SaveGameError_LoadLevel_ShroudManager",
+    "value": 0
+  },
+  "SaveGameError_SavePacking": {
+    "description": "SaveGameError_SavePacking",
+    "value": 0
+  },
+  "SaveGameError_LoadScriptParam_OsiTypeMismatch": {
+    "description": "SaveGameError_LoadScriptParam_OsiTypeMismatch",
+    "value": 0
+  },
+  "SaveGameError_SaveWarnings": {
+    "description": "SaveGameError_SaveWarnings",
+    "value": 0
+  },
+  "SaveGameError_LoadWarnings": {
+    "description": "SaveGameError_LoadWarnings",
+    "value": 0
+  },
+  "SaveGameError_SaveFailed": {
+    "description": "SaveGameError_SaveFailed",
+    "value": 0
+  },
+  "SaveGameError_LoadFailed": {
+    "description": "SaveGameError_LoadFailed",
+    "value": 0
+  },
+  "SaveGameError_LoadEnvironmentalStatusFactory": {
+    "description": "SaveGameError_LoadEnvironmentalStatusFactory",
+    "value": 0
+  },
+  "SaveGameError_SaveEnvironmentalStatusFactory": {
+    "description": "SaveGameError_SaveEnvironmentalStatusFactory",
+    "value": 0
+  },
+  "SaveGameError_LoadMarkerManager": {
+    "description": "SaveGameError_LoadMarkerManager",
+    "value": 0
+  },
+  "SaveGameError_SaveCopyFinalSaveGame": {
+    "description": "SaveGameError_SaveCopyFinalSaveGame",
+    "value": 0
+  },
+  "SaveGameError_SaveMetaData": {
+    "description": "SaveGameError_SaveMetaData",
+    "value": 0
+  },
+  "SaveGameError_SaveOsirisVariableHelper": {
+    "description": "SaveGameError_SaveOsirisVariableHelper",
+    "value": 0
+  },
+  "SaveGameError_SaveCacheTemplateManager": {
+    "description": "SaveGameError_SaveCacheTemplateManager",
+    "value": 0
+  },
+  "SaveGameError_SaveCustomBookManager": {
+    "description": "SaveGameError_SaveCustomBookManager",
+    "value": 0
+  },
+  "SaveGameError_SaveMarkerManager": {
+    "description": "SaveGameError_SaveMarkerManager",
+    "value": 0
+  },
+  "SaveGameError_LoadCustomStatsSystem": {
+    "description": "SaveGameError_LoadCustomStatsSystem",
+    "value": 0
+  },
+  "SaveGameError_SaveCustomStatsSystem": {
+    "description": "SaveGameError_SaveCustomStatsSystem",
+    "value": 0
+  },
+  "DOS2_Quest40_STAT": {
+    "description": "DOS2_Quest40",
+    "value": 0
+  },
+  "DOS2_Quest48_STAT": {
+    "description": "DOS2_Quest48",
+    "value": 0
+  },
+  "DOS2_Quest81_STAT": {
+    "description": "DOS2_Quest81",
+    "value": 0
+  },
+  "SaveGameError_VariableManager_FixedRemaps": {
+    "description": "SaveGameError_VariableManager_FixedRemaps",
+    "value": 0
+  },
+  "SaveGameError_VariableManager_FixedLeakingHandles": {
+    "description": "SaveGameError_VariableManager_FixedLeakingHandles",
+    "value": 0
+  },
+  "SaveGameError_VariableManager_Corrupted": {
+    "description": "SaveGameError_VariableManager_Corrupted",
+    "value": 0
+  },
+  "SaveGameError_VariableManager_Overflow": {
+    "description": "SaveGameError_VariableManager_Overflow",
+    "value": 0
+  },
+  "DOS2_Spring2019_STAT": {
+    "description": "Faces Ripped",
+    "value": 0
+  }
+}

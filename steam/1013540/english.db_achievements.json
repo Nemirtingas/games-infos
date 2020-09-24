@@ -1,0 +1,173 @@
+﻿[
+  {
+    "name": "CopperAge",
+    "defaultvalue": 0,
+    "displayName": "Copper Age",
+    "hidden": 0,
+    "description": "Make your first Copper Ingot",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1013540/62adccc75d26005786a691042eb81b3466f3ffdf.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1013540/cf54ba1ba389b8ce9e29b943db61f5011ae3bfef.jpg"
+  },
+  {
+    "name": "SteelAge",
+    "defaultvalue": 0,
+    "displayName": "Steel Age",
+    "hidden": 0,
+    "description": "Make your first Steel Ingot",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1013540/f196ec2460b8a400d9d8f1d82dacfacf7f02b1e4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1013540/cf54ba1ba389b8ce9e29b943db61f5011ae3bfef.jpg"
+  },
+  {
+    "name": "TitaniumAge",
+    "defaultvalue": 0,
+    "displayName": "Titanium Age",
+    "hidden": 0,
+    "description": "Make your first Titanium Ingot",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1013540/d4b82b54fc8496c9d8c7c1cd4f0eac5c4c40f60d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1013540/cf54ba1ba389b8ce9e29b943db61f5011ae3bfef.jpg"
+  },
+  {
+    "name": "StainlessSteelAge",
+    "defaultvalue": 0,
+    "displayName": "Stainless Steel Age",
+    "hidden": 0,
+    "description": "Make your first Stainless Steel Ingot",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1013540/f834fb5c9fe437dc07a6b4b7264a3d74e381b373.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1013540/cf54ba1ba389b8ce9e29b943db61f5011ae3bfef.jpg"
+  },
+  {
+    "name": "AluminiumAge",
+    "defaultvalue": 0,
+    "displayName": "Aluminium Age",
+    "hidden": 0,
+    "description": "Make your first Aluminium Ingot",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1013540/e7e4fe4ecd710509c246247223345b2b2f65bccf.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1013540/cf54ba1ba389b8ce9e29b943db61f5011ae3bfef.jpg"
+  },
+  {
+    "name": "CopperOre",
+    "defaultvalue": 0,
+    "displayName": "Copper Ore",
+    "hidden": 0,
+    "description": "Find an Copper Ore",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1013540/bbb744bb91c871831e1bab3ce72328f0db2b5672.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1013540/689e803c024bda0d0c643cd7edb3b06845d177ae.jpg"
+  },
+  {
+    "name": "IronOre",
+    "defaultvalue": 0,
+    "displayName": "Iron Ore",
+    "hidden": 0,
+    "description": "Find an Iron Ore",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1013540/7c3e40b6cd9c8bf3a054d846d1f0149347a206c7.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1013540/689e803c024bda0d0c643cd7edb3b06845d177ae.jpg"
+  },
+  {
+    "name": "AluminiumOre",
+    "defaultvalue": 0,
+    "displayName": "Aluminium Ore",
+    "hidden": 0,
+    "description": "Find an Aluminium Ore",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1013540/729908821cc367ce36ffcc750f876b9ebbf4f99e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1013540/689e803c024bda0d0c643cd7edb3b06845d177ae.jpg"
+  },
+  {
+    "name": "GoldOre",
+    "defaultvalue": 0,
+    "displayName": "Gold Ore",
+    "hidden": 0,
+    "description": "Find a Gold Ore",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1013540/3c964d97cab6e56a540266444e7ef2b8a7e20f60.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1013540/689e803c024bda0d0c643cd7edb3b06845d177ae.jpg"
+  },
+  {
+    "name": "UraniumOre",
+    "defaultvalue": 0,
+    "displayName": "Uranium Ore",
+    "hidden": 0,
+    "description": "Find an Uranium Ore",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1013540/a6ac1541c89ea942e41eaae3b9845d2a6fc81f30.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1013540/689e803c024bda0d0c643cd7edb3b06845d177ae.jpg"
+  },
+  {
+    "name": "TitaniumOre",
+    "defaultvalue": 0,
+    "displayName": "Titanium Ore",
+    "hidden": 0,
+    "description": "Find a Titanium Ore",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1013540/576d7d1454f931deb8eb38201c6be8fa286272e2.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1013540/689e803c024bda0d0c643cd7edb3b06845d177ae.jpg"
+  },
+  {
+    "name": "CoalOre",
+    "defaultvalue": 0,
+    "displayName": "Coal Ore",
+    "hidden": 0,
+    "description": "Find a Coal Ore",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1013540/79e4ea9c7fef224437d69d691ee079e312472fae.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1013540/688ed558ad19cee5bd1cca8e0458e2b92fc1835a.jpg"
+  },
+  {
+    "name": "Woodwork",
+    "defaultvalue": 0,
+    "displayName": "Woodwork",
+    "hidden": 0,
+    "description": "Make a Woodwork chapter in a Questbook",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1013540/177491f95548a2ba684e3defdc8a28a1287289bd.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1013540/565fa7b139e5c09c0b89d0fd2d4542ff76639a66.jpg"
+  },
+  {
+    "name": "Blocks500",
+    "defaultvalue": 0,
+    "displayName": "Thousand of Blocks",
+    "hidden": 0,
+    "description": "Build 500 blocks",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1013540/6af2dbbec831bf3ea896c317ea532d4fceb392b2.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1013540/1a6289bf24ca24b314a1a48180d70af857ffecff.jpg"
+  },
+  {
+    "name": "Blocks1000",
+    "defaultvalue": 0,
+    "displayName": "Thousands of Blocks",
+    "hidden": 0,
+    "description": "Build 1000 blocks",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1013540/b883bab60c2f951bd1b9d7cce1e8bb70e239b084.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1013540/1a6289bf24ca24b314a1a48180d70af857ffecff.jpg"
+  },
+  {
+    "name": "Blocks2500",
+    "defaultvalue": 0,
+    "displayName": "All of Blocks",
+    "hidden": 0,
+    "description": "Build 2500 blocks",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1013540/b89844e30aed3685ec5e49836f2ba9ed2a6ea42f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1013540/d5b9b04d976c9f2a3d3c4af8fa6356f4816b93db.jpg"
+  },
+  {
+    "name": "HandCraft250",
+    "defaultvalue": 0,
+    "displayName": "Copper Crafter",
+    "hidden": 0,
+    "description": "Craft 250 items by hands",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1013540/79d8b462a7818dfda4fbe9e9a3eaad1465718bf5.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1013540/61f602e2a56a1cc1d5618d1df9626737b3beaf53.jpg"
+  },
+  {
+    "name": "HandCraft500",
+    "defaultvalue": 0,
+    "displayName": "Silver Crafter",
+    "hidden": 0,
+    "description": "Craft 500 items by hands",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1013540/398b77d372f26634407a0f6da9d0c50820358506.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1013540/9a155388f01bd7f8f13a5eab49d47fc2f4a1df54.jpg"
+  },
+  {
+    "name": "HandCraft1000",
+    "defaultvalue": 0,
+    "displayName": "Gold Crafter",
+    "hidden": 0,
+    "description": "Craft 1000 items by hands",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1013540/a49ad40c1391c7f935bff3a14f6b31551329c15d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1013540/9a155388f01bd7f8f13a5eab49d47fc2f4a1df54.jpg"
+  }
+]

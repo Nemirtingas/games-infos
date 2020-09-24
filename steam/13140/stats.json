@@ -1,0 +1,710 @@
+﻿{
+  "ShotsFiredM4A1": {
+    "description": "Soldier 1 M4A1 Shots Fired",
+    "value": 0
+  },
+  "ShotsHitM4A1": {
+    "description": "Soldier 1 M4A1 Shots Hit",
+    "value": 0
+  },
+  "BetaTrainingTestTime": {
+    "description": "Beta Tester Training Test Time",
+    "value": 0
+  },
+  "BetaMultiplayerTestTime": {
+    "description": "Beta Tester Multiplayer Test Time",
+    "value": 0
+  },
+  "BetaTotalTestTime": {
+    "description": "Beta Tester Total Test Time",
+    "value": 0
+  },
+  "BetaTrainingCompletedTestTime": {
+    "description": "Beta Tester training completed test time",
+    "value": 0
+  },
+  "HeadShotsHitM4A1": {
+    "description": "Number of head shots by player with M4A1",
+    "value": 0
+  },
+  "EnemyKilledM4A1": {
+    "description": "Enemy killed with M4A1",
+    "value": 0
+  },
+  "KilledByM4A1": {
+    "description": "Times killed by M4A1",
+    "value": 0
+  },
+  "ShotsFiredM249": {
+    "description": "Shots fired M249",
+    "value": 0
+  },
+  "ShotsHitM249": {
+    "description": "Shots hit M249",
+    "value": 0
+  },
+  "HeadShotsHitM249": {
+    "description": "Head shots with M249",
+    "value": 0
+  },
+  "EnemyKilledM249": {
+    "description": "Enemy Killed with M249",
+    "value": 0
+  },
+  "TotalShots": {
+    "description": "Total shots fired all wepaons",
+    "value": 0
+  },
+  "TotalHits": {
+    "description": "Total hits all weapons",
+    "value": 0
+  },
+  "KilledByM249": {
+    "description": "Times killed by captured M249",
+    "value": 0
+  },
+  "KilledByM16A4": {
+    "description": "Times killed by captured M16A4",
+    "value": 0
+  },
+  "EnemyKilledM16A4": {
+    "description": "Enemy killed with M16A4",
+    "value": 0
+  },
+  "HeadShotsHitM16A4": {
+    "description": "Head shots with M16A4",
+    "value": 0
+  },
+  "ShotsHitM16A4": {
+    "description": "Shots hit with M16A4",
+    "value": 0
+  },
+  "ShotsFiredM16A4": {
+    "description": "Shots Fired with M16A4",
+    "value": 0
+  },
+  "ShotsHitM16DMR": {
+    "description": "Shots hit with M16DMR",
+    "value": 0
+  },
+  "HeadShotsHitM16DMR": {
+    "description": "head shots with M16DMR",
+    "value": 0
+  },
+  "EnemyKilledM16DMR": {
+    "description": "Enemy killed with M16DMR",
+    "value": 0
+  },
+  "KilledByM16DMR": {
+    "description": "Times killed by captured M16DMR",
+    "value": 0
+  },
+  "ShotsFiredM16DMR": {
+    "description": "Shots fired with M16DMR",
+    "value": 0
+  },
+  "M67GrenadeHit": {
+    "description": "Enemy hit by M67 Frags",
+    "value": 0
+  },
+  "M67GrenadesThrown": {
+    "description": "Number of M67 Frags thrown",
+    "value": 0
+  },
+  "EnemyKilledM67": {
+    "description": "Enemy killed by M67 Frags",
+    "value": 0
+  },
+  "MeleeAttacks": {
+    "description": "Total melee attacks",
+    "value": 0
+  },
+  "MeleeHits": {
+    "description": "Number of melee hits",
+    "value": 0
+  },
+  "MeleeKills": {
+    "description": "Number of melee kills or incaps",
+    "value": 0
+  },
+  "MeleeKilledBy": {
+    "description": "Number of times player killed or incapacitated by melee",
+    "value": 0
+  },
+  "TeammatesRevived": {
+    "description": "Number of teammates player revived",
+    "value": 0
+  },
+  "TeammateWoundsTreated": {
+    "description": "Number of teammate wounds treated by player",
+    "value": 0
+  },
+  "Revived": {
+    "description": "Number of times player revived",
+    "value": 0
+  },
+  "WoundsTreated": {
+    "description": "Number of wounds player has had that were treated by teammates",
+    "value": 0
+  },
+  "TotalObjectives": {
+    "description": "Total number of objectives completed by player",
+    "value": 0
+  },
+  "ExtractAsVIP": {
+    "description": "Number of times player extrated as VIP",
+    "value": 0
+  },
+  "ExtractWithObjective": {
+    "description": "Number of carried objective extractions completed",
+    "value": 0
+  },
+  "ActivatedObjective": {
+    "description": "Number of activated objectives completed",
+    "value": 0
+  },
+  "CapturedTAH": {
+    "description": "Number of Take and Hold objectives completed",
+    "value": 0
+  },
+  "AssistedWithObjective": {
+    "description": "Number of times layer assisted completing an objective",
+    "value": 0
+  },
+  "ExtractionClassic": {
+    "description": "Number of classic bridge-style extractions",
+    "value": 0
+  },
+  "VIPsTerminated": {
+    "description": "Number of times player killed the VIP",
+    "value": 0
+  },
+  "ROEDamage": {
+    "description": "Total ROE damage player has given teammates",
+    "value": 0
+  },
+  "ROEForgaveInstances": {
+    "description": "Number of times player forgave ROE",
+    "value": 0
+  },
+  "ROEInstances": {
+    "description": "Number of times player committed",
+    "value": 0
+  },
+  "ROEForgivenByInstances": {
+    "description": "Number of times teammates forgave ROE",
+    "value": 0
+  },
+  "ROEReceivedInstances": {
+    "description": "Number of times player hit by teammate",
+    "value": 0
+  },
+  "EnemyConfirmed": {
+    "description": "Number of enemy confirmed",
+    "value": 0
+  },
+  "EnemyNeutralized": {
+    "description": "Number of enemy neutralized",
+    "value": 0
+  },
+  "M84GrenadesHit": {
+    "description": "Flash grenades hit enemy player",
+    "value": 0
+  },
+  "M83GrenadesThrown": {
+    "description": "Smoke grenades thrown",
+    "value": 0
+  },
+  "M14GrenadesThrown": {
+    "description": "Incendiary thrown",
+    "value": 0
+  },
+  "M14GrenadesHit": {
+    "description": "Incendiary hit enemy player or objective",
+    "value": 0
+  },
+  "ShotsFiredM320": {
+    "description": "Rounds fire by XM320",
+    "value": 0
+  },
+  "ShotsHitM320": {
+    "description": "XM320 Rounds that hit enemy",
+    "value": 0
+  },
+  "HeadShotsHitM320": {
+    "description": "Head shots with 40mm round fired by XM320",
+    "value": 0
+  },
+  "EnemyKilledM320": {
+    "description": "Enemy killed by 40mm XM320 round",
+    "value": 0
+  },
+  "KilledByM320": {
+    "description": "Times killed by enemy captured XM320",
+    "value": 0
+  },
+  "ShotsFiredObranKNP": {
+    "description": "Shots fired with Obran KNP",
+    "value": 0
+  },
+  "ShotsHitObranKNP": {
+    "description": "Hits with Obran KNP",
+    "value": 0
+  },
+  "HeadShotsHitObranKNP": {
+    "description": "head shots with Obran KNP",
+    "value": 0
+  },
+  "EnemyKilledObranKNP": {
+    "description": "Enemy killed by Obran KNP",
+    "value": 0
+  },
+  "KilledByObranKNP": {
+    "description": "Killed bo Obran KNP",
+    "value": 0
+  },
+  "ShotsFiredObranLMK": {
+    "description": "Shots fired with Obran LMK",
+    "value": 0
+  },
+  "ShotsHitObranLMK": {
+    "description": "Hits with LMK",
+    "value": 0
+  },
+  "HeadShotsHitObranLMK": {
+    "description": "Head shots with LMK",
+    "value": 0
+  },
+  "EnemyKilledObranLMK": {
+    "description": "Enemy killed with LMK",
+    "value": 0
+  },
+  "KilledByObranLMK": {
+    "description": "Killed by Obran LMK",
+    "value": 0
+  },
+  "ShotsFiredObranSP": {
+    "description": "Shots fired with SP",
+    "value": 0
+  },
+  "ShotsHitObranSP": {
+    "description": "Shots hit with SP",
+    "value": 0
+  },
+  "HeadShotsHitObranSP": {
+    "description": "Head shots with Obran SP",
+    "value": 0
+  },
+  "EnemyKilledObranSP": {
+    "description": "Enemy killed with Obran SP",
+    "value": 0
+  },
+  "KilledByObranSP": {
+    "description": "Times killed by enemy Obran SP",
+    "value": 0
+  },
+  "ShotsFiredObranNP": {
+    "description": "Shots fired with Obran NP",
+    "value": 0
+  },
+  "ShotsHitObranNP": {
+    "description": "Shots hit with Obran NP",
+    "value": 0
+  },
+  "HeadShotsHitObranNP": {
+    "description": "Head shots with Obran NP",
+    "value": 0
+  },
+  "EnemyKilledObranNP": {
+    "description": "Enemy killed with Obran NP",
+    "value": 0
+  },
+  "KilledByObranNP": {
+    "description": "Times killed by Obran NP",
+    "value": 0
+  },
+  "RoundsWon": {
+    "description": "Number of missions (rounds) won",
+    "value": 0
+  },
+  "RoundsLost": {
+    "description": "Number of missions (rounds) Lost",
+    "value": 0
+  },
+  "RoundsStarted": {
+    "description": "Number of missions (rounds) started",
+    "value": 0
+  },
+  "MatchesWon": {
+    "description": "Number of Matches Won",
+    "value": 0
+  },
+  "MatchesCompleted": {
+    "description": "Number of matches completed (win or lose)",
+    "value": 0
+  },
+  "MatchesStarted": {
+    "description": "Number of matches started",
+    "value": 0
+  },
+  "EnemyHitHead": {
+    "description": "",
+    "value": 0
+  },
+  "EnemyHitNeck": {
+    "description": "",
+    "value": 0
+  },
+  "EnemyHitUpperTorso": {
+    "description": "",
+    "value": 0
+  },
+  "EnemyHitLowerTorso": {
+    "description": "",
+    "value": 0
+  },
+  "EnemyHitPelvis": {
+    "description": "",
+    "value": 0
+  },
+  "EnemyHitRightUpperArm": {
+    "description": "",
+    "value": 0
+  },
+  "EnemyHitRightLowerArm": {
+    "description": "",
+    "value": 0
+  },
+  "EnemyHitRightHand": {
+    "description": "",
+    "value": 0
+  },
+  "EnemyHitLeftUpperArm": {
+    "description": "",
+    "value": 0
+  },
+  "EnemyHitLeftLowerArm": {
+    "description": "",
+    "value": 0
+  },
+  "EnemyHitLeftHand": {
+    "description": "",
+    "value": 0
+  },
+  "EnemyHitRightUpperLeg": {
+    "description": "",
+    "value": 0
+  },
+  "EnemyHitRightLowerLeg": {
+    "description": "",
+    "value": 0
+  },
+  "EnemyHitRightFoot": {
+    "description": "",
+    "value": 0
+  },
+  "EnemyHitLeftUpperLeg": {
+    "description": "",
+    "value": 0
+  },
+  "EnemyHitLeftLowerLeg": {
+    "description": "",
+    "value": 0
+  },
+  "EnemyHitLeftFoot": {
+    "description": "",
+    "value": 0
+  },
+  "ES2ObjectsUsed": {
+    "description": "Number of ES2 objects used",
+    "value": 0
+  },
+  "ES2ObjectsReported": {
+    "description": "Number of ES2 objects reported",
+    "value": 0
+  },
+  "ES2ObjectsPossible": {
+    "description": "Total number of ES2 objects available during game play",
+    "value": 0
+  },
+  "TimeAliveSeconds": {
+    "description": "Total time alive during missions",
+    "value": 0
+  },
+  "SessionTimeSeconds": {
+    "description": "Total time on servers",
+    "value": 0
+  },
+  "TimeDeadSeconds": {
+    "description": "Total time dead while on servers",
+    "value": 0
+  },
+  "AdvRiflemanTime": {
+    "description": "Time played (alive) as Advanced Rifleman",
+    "value": 0
+  },
+  "AutoRiflemanTime": {
+    "description": "Time played (alive) as Automatic Rifleman",
+    "value": 0
+  },
+  "SDMTime": {
+    "description": "Time played (alive) as SDM",
+    "value": 0
+  },
+  "RecruitTime": {
+    "description": "Time played (alive) as Recruit",
+    "value": 0
+  },
+  "GrenadierTime": {
+    "description": "Time played (alive) as Grenadier",
+    "value": 0
+  },
+  "FTLTime": {
+    "description": "Time played (alive) as FTL",
+    "value": 0
+  },
+  "SLTime": {
+    "description": "Time played (alive) as SL",
+    "value": 0
+  },
+  "VIPTime": {
+    "description": "Time played (alive) as VIP",
+    "value": 0
+  },
+  "HighestMatchTeamworkScore": {
+    "description": "Highest teamwork score earned in a match",
+    "value": 0
+  },
+  "HighestMatchTotalScore": {
+    "description": "Highest total score earned in a match",
+    "value": 0
+  },
+  "HighestMatchObjectiveScore": {
+    "description": "Highest objective score earned in a match",
+    "value": 0
+  },
+  "HighestMatchMedicScore": {
+    "description": "Highest medic or CLS score earned in a match",
+    "value": 0
+  },
+  "HighestMatchNeutralizationScore": {
+    "description": "Highest neutralization score earned in a match",
+    "value": 0
+  },
+  "HighestMatchROEScore": {
+    "description": "Highest ROE score earned in a match",
+    "value": 0
+  },
+  "SecuredByEnemy": {
+    "description": "Count of times player secured by enemy",
+    "value": 0
+  },
+  "SecuredEnemy": {
+    "description": "Number of times player secured enemy",
+    "value": 0
+  },
+  "ConfirmedByEnemy": {
+    "description": "Number of times neutralized player was confirmed by enemy",
+    "value": 0
+  },
+  "MinutesAlley": {
+    "description": "",
+    "value": 0
+  },
+  "MinutesBridge": {
+    "description": "",
+    "value": 0
+  },
+  "MinutesImpact": {
+    "description": "",
+    "value": 0
+  },
+  "MinutesPipeline": {
+    "description": "",
+    "value": 0
+  },
+  "MinutesRanch": {
+    "description": "",
+    "value": 0
+  },
+  "MinutesShantyTown": {
+    "description": "",
+    "value": 0
+  },
+  "MinutesStronghold": {
+    "description": "",
+    "value": 0
+  },
+  "MatchesTied": {
+    "description": "Number of tied matchesplayer participated in.",
+    "value": 0
+  },
+  "MatchesLost": {
+    "description": "Number of lost matchesplayer participated in.",
+    "value": 0
+  },
+  "TimesNeutralized": {
+    "description": "Total number of itmes player was neutralized",
+    "value": 0
+  },
+  "KilledByM67": {
+    "description": "Number of times player was killed by grenades",
+    "value": 0
+  },
+  "M84GrenadesThrown": {
+    "description": "Number of M84 Grenades thrown",
+    "value": 0
+  },
+  "ObstacleCourseTries": {
+    "description": "",
+    "value": 0
+  },
+  "BRMTries": {
+    "description": "",
+    "value": 0
+  },
+  "BRMBestScore": {
+    "description": "",
+    "value": 0
+  },
+  "ObstacleCourseBestTime": {
+    "description": "Time (seconds)",
+    "value": 0
+  },
+  "CLSTries": {
+    "description": "",
+    "value": 0
+  },
+  "CLSScore": {
+    "description": "",
+    "value": 0
+  },
+  "MOUTScore": {
+    "description": "",
+    "value": 0
+  },
+  "MOUTTime": {
+    "description": "",
+    "value": 0
+  },
+  "MOUTTries": {
+    "description": "",
+    "value": 0
+  },
+  "AITAdvRifleman1Score": {
+    "description": "",
+    "value": 0
+  },
+  "AITAdvRifleman1Tries": {
+    "description": "",
+    "value": 0
+  },
+  "WFM320Tries": {
+    "description": "",
+    "value": 0
+  },
+  "WFM320Score": {
+    "description": "",
+    "value": 0
+  },
+  "WFM249Tries": {
+    "description": "",
+    "value": 0
+  },
+  "WFM249Score": {
+    "description": "",
+    "value": 0
+  },
+  "WFGrenadeTries": {
+    "description": "",
+    "value": 0
+  },
+  "WFGrenadeScore": {
+    "description": "",
+    "value": 0
+  },
+  "AITSDM1Score": {
+    "description": "",
+    "value": 0
+  },
+  "AITSDM1Tries": {
+    "description": "",
+    "value": 0
+  },
+  "AITAutoRifleman1Score": {
+    "description": "",
+    "value": 0
+  },
+  "AITAutoRifleman1Tries": {
+    "description": "",
+    "value": 0
+  },
+  "AITGrenadier1Score": {
+    "description": "",
+    "value": 0
+  },
+  "AITGrenadier1Tries": {
+    "description": "",
+    "value": 0
+  },
+  "M106GrenadesThrown": {
+    "description": "Number of M106 Smoke Grenades Thrown",
+    "value": 0
+  },
+  "TeammatesRevivedUnderM106": {
+    "description": "Number of teammates revived under M106 Smoke Cloud.",
+    "value": 0
+  },
+  "ShotsFiredM714": {
+    "description": "Number of M714 (smoke) 40mm rounds fired.",
+    "value": 0
+  },
+  "Loyalty": {
+    "description": "Core Attribute Loyalty",
+    "value": 0
+  },
+  "Duty": {
+    "description": "Core Attribute Duty",
+    "value": 0
+  },
+  "Respect": {
+    "description": "Core Attribute Respect",
+    "value": 0
+  },
+  "SelflessService": {
+    "description": "Core Attribute Selfless Service",
+    "value": 0
+  },
+  "Integrity": {
+    "description": "Core Attribute Integrity",
+    "value": 0
+  },
+  "PersonalCourage": {
+    "description": "Core Attribute Personal Courage",
+    "value": 0
+  },
+  "Rank": {
+    "description": "Current Rank",
+    "value": 0
+  },
+  "LongestDMRACOG4xHeadshot": {
+    "description": "DMR ACOG 4x Longest Headshot",
+    "value": 0
+  },
+  "LongestM4M16ACOG2xHeadshot": {
+    "description": "Longest ACOG 2x Headshot",
+    "value": 0
+  },
+  "LongestM249ACOG3xHeadshot": {
+    "description": "Longest M249 3x ACOG Headshot",
+    "value": 0
+  },
+  "LongestM4M16AimpointHeadshot": {
+    "description": "Longest M4 Aimpoint Headshot",
+    "value": 0
+  },
+  "LongestM249AimpointHeadshot": {
+    "description": "Longest M249 Aimpoint Headshot",
+    "value": 0
+  }
+}

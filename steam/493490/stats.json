@@ -1,0 +1,198 @@
+﻿{
+  "RECORDS_COUNT_STATISTICS": {
+    "description": "Количество сеансов вождения, для которых включена запись",
+    "value": 0
+  },
+  "COMPLETE_ROUTES_STATISTICS": {
+    "description": "Количество завершенных маршрутов.",
+    "value": 0
+  },
+  "LOW_TRAFFIC_NO_VIOLATION_STATISTICS": {
+    "description": "Статистика, которая показывает, сколько километров пройдено без нарушений. Статистика должна иметь возможность обновления не только в верх, но и вниз",
+    "value": 0
+  },
+  "LAST_SESSION_TIME_STATISTICS": {
+    "description": "Статистика, которая считает время последней сессии. Эта статистика должна иметь возможность произвольного обновления",
+    "value": 0
+  },
+  "DANGEROUS_MANEUVER_EVASION_STATISTICS": {
+    "description": "Необходимо реализовать статистику, которая подсчитывает количество уклонений от \"Опасного выезда на встречку\" (IT_OvertakingTraffic)",
+    "value": 0
+  },
+  "EMERGENCY_BRAKING_STATISTICS": {
+    "description": "Реализовываем статистику, которая подсчитывает количество уклонений от нештатки \"Экстренная остановка трафика (IT_StopTraffic)",
+    "value": 0
+  },
+  "NO_PEDESTRIAN_KICKDOWN_STATISTICS": {
+    "description": "Статистика, которая подсчитывает количество успешных завершений нештатки \"Переход пешехода в неположенном месте\" (IT_RunPedestrian)",
+    "value": 0
+  },
+  "RUSSIA_MILEAGE_STATISTICS": {
+    "description": "Статистика показывает количество километров, которые пользователь проехал по дорогам в профиле \"Россия\"",
+    "value": 0
+  },
+  "USA_MILEAGE_STATISTICS": {
+    "description": "То же самое, но для профиля \"США\", но не в километрах, а в милях",
+    "value": 0
+  },
+  "AUSTRALIA_MILEAGE_STATISTICS": {
+    "description": "Километраж, в профиле \"Австралия\"",
+    "value": 0
+  },
+  "EU_MILEAGE_STATISTICS": {
+    "description": "Километраж в профиле \"Евросоюз\"",
+    "value": 0
+  },
+  "GERMANY_MILEAGE_STATISTICS": {
+    "description": "Километраж в профиле \"Германия\"",
+    "value": 0
+  },
+  "playTimes": {
+    "description": "Количество запусков",
+    "value": 0
+  },
+  "play2Times": {
+    "description": "Тест для проверки инкремента",
+    "value": 0
+  },
+  "CommonGameTime": {
+    "description": "Общее время в игре",
+    "value": 0
+  },
+  "SessionsPerGameAvg": {
+    "description": "Количество запущенных сеансов вождения за период от запуска игры до выхода из нее",
+    "value": 0
+  },
+  "VRModeGameTime": {
+    "description": "Время в игре в VR",
+    "value": 0
+  },
+  "StockCarsDrivingTime": {
+    "description": "Общее время вождения на стоковых автомобилях",
+    "value": 0
+  },
+  "ModCarsDrivingTime": {
+    "description": "Общее время вождения на модовых автомобилях",
+    "value": 0
+  },
+  "RussiaMileage": {
+    "description": "Наезженный километраж в РФ",
+    "value": 0
+  },
+  "USAMileage": {
+    "description": "Наезженный километраж в США",
+    "value": 0
+  },
+  "NewCityMileage": {
+    "description": "Километраж в Новом городе",
+    "value": 0
+  },
+  "Traffic_0_50_Time": {
+    "description": "Время вождения при плотности трафика 0-50%",
+    "value": 0
+  },
+  "Traffic_50_100_Time": {
+    "description": "Время вождения при плотности трафика 50-100%",
+    "value": 0
+  },
+  "Pedestrians_0_50_Time": {
+    "description": "Время вождения при плотности пешеходного трафика 0-50%",
+    "value": 0
+  },
+  "Pedestrians_50_100_Time": {
+    "description": "Время вождения при плотности пешеходного трафика 50-100%",
+    "value": 0
+  },
+  "KeyboardDriving_Time": {
+    "description": "Время вождения на клавиатуре",
+    "value": 0
+  },
+  "WheelDriving_Time": {
+    "description": "Время вождения на «Руле»",
+    "value": 0
+  },
+  "Complete_Normal_Counter": {
+    "description": "Общее количество завершенных упражнений в режиме «Обычный»",
+    "value": 0
+  },
+  "Failed_Normal_Counter": {
+    "description": "Общее количество проваленных упражнений в режиме «Обычный»",
+    "value": 0
+  },
+  "Complete_Advanced_Counter": {
+    "description": "Общее количество завершенных упражнений в режиме «Продвинутый»",
+    "value": 0
+  },
+  "Failed_Advanced_Counter": {
+    "description": "Общее количество проваленных упражнений в режиме «Продвинутый»",
+    "value": 0
+  },
+  "MegaTesterStat1": {
+    "description": "Количество запусков тестовой версии",
+    "value": 0
+  },
+  "Test_Statistics_2": {
+    "description": "Статистика для проверки сброса при переименовании.",
+    "value": 0
+  },
+  "OldCityMileage": {
+    "description": "Километраж в Старом городе",
+    "value": 0
+  },
+  "AustraliaMileage": {
+    "description": "Километраж в Австралии",
+    "value": 0
+  },
+  "EuropeMileage": {
+    "description": "Наезженный километраж в Евросоюзе",
+    "value": 0
+  },
+  "GermanMileage": {
+    "description": "Километраж в Германии",
+    "value": 0
+  },
+  "RussiaMileageInt": {
+    "description": "Наезженный километраж в РФ",
+    "value": 0
+  },
+  "USAMileageInt": {
+    "description": "Наезженный километраж в США",
+    "value": 0
+  },
+  "EuropeMileageInt": {
+    "description": "Наезженный километраж в Евросоюзе",
+    "value": 0
+  },
+  "GermanMileageInt": {
+    "description": "Километраж в Германии",
+    "value": 0
+  },
+  "AustraliaMileageInt": {
+    "description": "Километраж в Австралии",
+    "value": 0
+  },
+  "OldCityMileageInt": {
+    "description": "Километраж в Старом городе",
+    "value": 0
+  },
+  "NewCityMileageInt": {
+    "description": "Километраж в Новом городе",
+    "value": 0
+  },
+  "EXPERIENCED_DRIVER_STATISTICS": {
+    "description": "Количество успешно завершённых пассажирских перевозок",
+    "value": 0
+  },
+  "RELIABLE_CARGO_DRIVER_STATISTICS": {
+    "description": "Количество успешно завершённых малогабаритных грузоперевозок",
+    "value": 0
+  },
+  "CANADA_MILEAGE_STATISTICS": {
+    "description": "Километраж, в профиле \"Канада\"",
+    "value": 0
+  },
+  "CanadaMileageInt": {
+    "description": "Километраж в Канаде",
+    "value": 0
+  }
+}

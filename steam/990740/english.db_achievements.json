@@ -1,0 +1,204 @@
+[
+  {
+    "name": "ach_win_first_level",
+    "defaultvalue": 0,
+    "displayName": "The First Step To Greatness",
+    "hidden": 0,
+    "description": "You completed level one. You're officially on your way to the top!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/990740/4e5cdd5772f5f9213e6c6a816907a80bdb005be9.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/990740/893bb36d35b858240874d2740b6540027aa6f915.jpg"
+  },
+  {
+    "name": "ach_buy_one_upgrade",
+    "defaultvalue": 0,
+    "displayName": "Gotta Spend Money To Make Money",
+    "hidden": 0,
+    "description": "You purchased one upgrade for the club. Hooray! A working bathroom!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/990740/216612980bb76bf88b38153dff1e0597e3c2f7dd.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/990740/893bb36d35b858240874d2740b6540027aa6f915.jpg"
+  },
+  {
+    "name": "ach_buy_one_bio",
+    "defaultvalue": 0,
+    "displayName": "What's Your Name?",
+    "hidden": 0,
+    "description": "You purchased one character biography. You should always know who you're working with.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/990740/216612980bb76bf88b38153dff1e0597e3c2f7dd.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/990740/893bb36d35b858240874d2740b6540027aa6f915.jpg"
+  },
+  {
+    "name": "ach_pawn_10",
+    "defaultvalue": 0,
+    "displayName": "One Man's Trash",
+    "hidden": 0,
+    "description": "You sold ten pieces of loot to the Pawn Shop. The sound of a cash register is music to my ears.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/990740/216612980bb76bf88b38153dff1e0597e3c2f7dd.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/990740/893bb36d35b858240874d2740b6540027aa6f915.jpg"
+  },
+  {
+    "name": "ach_have_bank_1000",
+    "defaultvalue": 0,
+    "displayName": "One Fat Stack",
+    "hidden": 0,
+    "description": "You have one thousand cash in the Bank. You've got a nice rainy day fund going on there!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/990740/216612980bb76bf88b38153dff1e0597e3c2f7dd.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/990740/893bb36d35b858240874d2740b6540027aa6f915.jpg"
+  },
+  {
+    "name": "ach_misc_contract",
+    "defaultvalue": 0,
+    "displayName": "Your Journey Begins Here",
+    "hidden": 0,
+    "description": "You signed on with The Second Chance Strip Club. Now that all the paperwork is outta the way, time to get up on stage and shake it!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/990740/216612980bb76bf88b38153dff1e0597e3c2f7dd.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/990740/893bb36d35b858240874d2740b6540027aa6f915.jpg"
+  },
+  {
+    "name": "ach_misc_volume",
+    "defaultvalue": 0,
+    "displayName": "What?",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/990740/216612980bb76bf88b38153dff1e0597e3c2f7dd.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/990740/893bb36d35b858240874d2740b6540027aa6f915.jpg"
+  },
+  {
+    "name": "ach_win_star_powers",
+    "defaultvalue": 0,
+    "displayName": "Rock Chick Chic",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/990740/216612980bb76bf88b38153dff1e0597e3c2f7dd.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/990740/893bb36d35b858240874d2740b6540027aa6f915.jpg"
+  },
+  {
+    "name": "ach_win_luna_powers",
+    "defaultvalue": 0,
+    "displayName": "Business Is Pleasure",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/990740/216612980bb76bf88b38153dff1e0597e3c2f7dd.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/990740/893bb36d35b858240874d2740b6540027aa6f915.jpg"
+  },
+  {
+    "name": "ach_win_gabriel_godfree",
+    "defaultvalue": 0,
+    "displayName": "The Boys Are Back!",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/990740/216612980bb76bf88b38153dff1e0597e3c2f7dd.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/990740/893bb36d35b858240874d2740b6540027aa6f915.jpg"
+  },
+  {
+    "name": "ach_win_game_easy_normal",
+    "defaultvalue": 0,
+    "displayName": "Stardom Achieved!",
+    "hidden": 0,
+    "description": "You completed the game on any difficulty. Time to retire in style... or... maybe it's time to tackle the game on an even tougher difficulty?",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/990740/216612980bb76bf88b38153dff1e0597e3c2f7dd.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/990740/893bb36d35b858240874d2740b6540027aa6f915.jpg"
+  },
+  {
+    "name": "ach_get_srank",
+    "defaultvalue": 0,
+    "displayName": "Irresistible",
+    "hidden": 0,
+    "description": "You earned an S rank for the first time. With moves like that, it's no wonder the crowd loves you!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/990740/216612980bb76bf88b38153dff1e0597e3c2f7dd.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/990740/893bb36d35b858240874d2740b6540027aa6f915.jpg"
+  },
+  {
+    "name": "ach_buy_half_upgrade",
+    "defaultvalue": 0,
+    "displayName": "Shaping Up Nicely",
+    "hidden": 0,
+    "description": "You purchased three upgrades for the club. I'm glad you finally got a fire exit installed!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/990740/216612980bb76bf88b38153dff1e0597e3c2f7dd.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/990740/893bb36d35b858240874d2740b6540027aa6f915.jpg"
+  },
+  {
+    "name": "ach_buy_half_bio",
+    "defaultvalue": 0,
+    "displayName": "Tell Me More",
+    "hidden": 0,
+    "description": "You purchased twenty-one character biographies. You'd be amazed at what people have to say if you just give them the time of day.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/990740/216612980bb76bf88b38153dff1e0597e3c2f7dd.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/990740/893bb36d35b858240874d2740b6540027aa6f915.jpg"
+  },
+  {
+    "name": "ach_pawn_100",
+    "defaultvalue": 0,
+    "displayName": "Another Man's Treasure",
+    "hidden": 0,
+    "description": "You sold one hundred pieces of loot to the Pawn Shop. I'm not sure where you're keeping all this loot but I'm glad you're not hoarding it... You're not hoarding it, right?",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/990740/216612980bb76bf88b38153dff1e0597e3c2f7dd.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/990740/893bb36d35b858240874d2740b6540027aa6f915.jpg"
+  },
+  {
+    "name": "ach_have_bank_10000",
+    "defaultvalue": 0,
+    "displayName": "Ten Large",
+    "hidden": 0,
+    "description": "You have ten thousand cash in the Bank. Drinks are on you tonight! Maybe dinner too... I'm thinking lobster.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/990740/216612980bb76bf88b38153dff1e0597e3c2f7dd.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/990740/893bb36d35b858240874d2740b6540027aa6f915.jpg"
+  },
+  {
+    "name": "ach_win_game_hard",
+    "defaultvalue": 0,
+    "displayName": "Super Stardom Achieved!",
+    "hidden": 0,
+    "description": "You completed the game on Expert or above. Okay, now that's a feat of excellence! Well done!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/990740/216612980bb76bf88b38153dff1e0597e3c2f7dd.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/990740/893bb36d35b858240874d2740b6540027aa6f915.jpg"
+  },
+  {
+    "name": "ach_buy_all_upgrade",
+    "defaultvalue": 0,
+    "displayName": "State Of The Art",
+    "hidden": 0,
+    "description": "You purchased all of the upgrades for the club. Now I know the automated cleaning robot was a bit pricey, but I just had to have it! You'll thank me later.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/990740/4e5cdd5772f5f9213e6c6a816907a80bdb005be9.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/990740/893bb36d35b858240874d2740b6540027aa6f915.jpg"
+  },
+  {
+    "name": "ach_buy_all_bio",
+    "defaultvalue": 0,
+    "displayName": "I'll Remember You Always",
+    "hidden": 0,
+    "description": "You purchased all of the character biographies. Everyone's got a story, and you've heard them all.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/990740/216612980bb76bf88b38153dff1e0597e3c2f7dd.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/990740/893bb36d35b858240874d2740b6540027aa6f915.jpg"
+  },
+  {
+    "name": "ach_pawn_1000",
+    "defaultvalue": 0,
+    "displayName": "Spring Cleaning",
+    "hidden": 0,
+    "description": "You sold one thousand pieces of loot to the Pawn Shop. The Pawn Shop called, they asked us to stop bringing stuff in...",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/990740/216612980bb76bf88b38153dff1e0597e3c2f7dd.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/990740/893bb36d35b858240874d2740b6540027aa6f915.jpg"
+  },
+  {
+    "name": "ach_have_bank_100000",
+    "defaultvalue": 0,
+    "displayName": "The Six Figures Club",
+    "hidden": 0,
+    "description": "You have one hundred thousand cash in the Bank. So, where are we going on vacation? You can't let that kind of money just sit and do nothing!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/990740/216612980bb76bf88b38153dff1e0597e3c2f7dd.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/990740/893bb36d35b858240874d2740b6540027aa6f915.jpg"
+  },
+  {
+    "name": "ach_win_game_veryhard",
+    "defaultvalue": 0,
+    "displayName": "Welcome To The Strip Hall Of Fame!",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/990740/216612980bb76bf88b38153dff1e0597e3c2f7dd.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/990740/893bb36d35b858240874d2740b6540027aa6f915.jpg"
+  },
+  {
+    "name": "ach_get_srank_all",
+    "defaultvalue": 0,
+    "displayName": "Completely Irresistible",
+    "hidden": 0,
+    "description": "You earned an S rank on every level. You are insane! Nobody moves like you do!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/990740/216612980bb76bf88b38153dff1e0597e3c2f7dd.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/990740/893bb36d35b858240874d2740b6540027aa6f915.jpg"
+  }
+]

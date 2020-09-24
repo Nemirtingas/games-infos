@@ -1,0 +1,101 @@
+﻿[
+  {
+    "name": "DEAD_CHAMP",
+    "defaultvalue": 0,
+    "displayName": "Who's the Champion now!",
+    "hidden": 0,
+    "description": "Kill a Champion.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/978520/51cff92f325c52ffe496540920bda88531365f03.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/978520/549c33c4000e40ffc137ca136d4e66c06488253a.jpg"
+  },
+  {
+    "name": "ARTEFACT_MAX_LEVEL",
+    "defaultvalue": 0,
+    "displayName": "I've got the power!",
+    "hidden": 0,
+    "description": "Upgrade an Artefact to max level.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/978520/f575ab1470aff134c21c163830c430eacb49b6af.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/978520/67699cd3219d683acad8ccca45727e8aca6839f0.jpg"
+  },
+  {
+    "name": "SCARE_OFF_HEROES",
+    "defaultvalue": 0,
+    "displayName": "Run for your life!",
+    "hidden": 0,
+    "description": "Make 3 heroes flee.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/978520/e9656e3877c0e75eb565be40c9a2ab7689319a23.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/978520/e61e8c420b14e9a4b965b0efc07b46632e3afa36.jpg"
+  },
+  {
+    "name": "BLEEDING",
+    "defaultvalue": 0,
+    "displayName": "Raining Blood!",
+    "hidden": 0,
+    "description": "Apply 20 stacks of \"Bleeding\" to a single hero.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/978520/4c403b252c790498d4337c52082083ba583729bf.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/978520/c74d499cdd5657af83b030e99c7737464e9d4d03.jpg"
+  },
+  {
+    "name": "KILL_3_HEROES_WITH_TRAPS_SIMULTANEOUSLY",
+    "defaultvalue": 0,
+    "displayName": "It's a trap!",
+    "hidden": 0,
+    "description": "Kill 3 heroes simultaneously with a trap.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/978520/2a38bea58aad20a00c04ccda815ce96e7c5ca2f8.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/978520/6f8efc940da013ac8378978ddd145e5a6f2a8011.jpg"
+  },
+  {
+    "name": "MONSTER_MAX_LEVEL",
+    "defaultvalue": 0,
+    "displayName": "A real monster!",
+    "hidden": 0,
+    "description": "Upgrade a monster to max level.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/978520/72919008f8490283b461afbb6496575896b2940d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/978520/b710521c973442998f899657b43e26a7fb186416.jpg"
+  },
+  {
+    "name": "KILL_3_HEROES_WITH_ATTACK_SIMULTANEOUSLY",
+    "defaultvalue": 0,
+    "displayName": "3 birds 1 stone",
+    "hidden": 0,
+    "description": "Kill 3 heroes with a single attack.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/978520/2f8b42eeb13b30a15247d83b5b5100858feedc89.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/978520/7fba63b95ce7273232e126c05da47b7a35dac59b.jpg"
+  },
+  {
+    "name": "END_RUN_WITHOUT_PSY",
+    "defaultvalue": 0,
+    "displayName": "True denial",
+    "hidden": 0,
+    "description": "Finish a game without seeing the Therapist.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/978520/6456a71cfbb0eff512a9aa37ec4bcd257c011084.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/978520/e9227e55a0d0eb8034671c41384389e203c9883c.jpg"
+  },
+  {
+    "name": "END_RUN_SLAVEHOLDER",
+    "defaultvalue": 0,
+    "displayName": "Whiplash",
+    "hidden": 0,
+    "description": "Finish a game with the Slaveholder.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/978520/6806f8cdbacbf8899e9dc9991aff3202059ed0a0.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/978520/b5a7875afc328df760ab83ad81c6795768bca2ec.jpg"
+  },
+  {
+    "name": "END_RUN_ENCHANTRESS",
+    "defaultvalue": 0,
+    "displayName": "Root of all evil",
+    "hidden": 0,
+    "description": "Finish a game with the Enchantress.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/978520/eda3cffd057594ea375b810f95065a892eea2dd0.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/978520/f3a6662106ca7041e7c6fe73ab9d2d09ee595988.jpg"
+  },
+  {
+    "name": "MONO_FAMILY",
+    "defaultvalue": 0,
+    "displayName": "Family's strength",
+    "hidden": 0,
+    "description": "Use only the same type of monsters during a dungeon.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/978520/e97155a8de2960bced777ecc769d019ae3a1fc23.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/978520/f9eb078f41c66981f287ff8b8aacb54c809ca79c.jpg"
+  }
+]

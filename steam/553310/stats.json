@@ -1,0 +1,342 @@
+﻿{
+  "numMatchesPlayed": {
+    "description": "Ranked Matches Played",
+    "value": 0
+  },
+  "numMatchesWon": {
+    "description": "Ranked Matches Won",
+    "value": 0
+  },
+  "numMatchesLost": {
+    "description": "",
+    "value": 0
+  },
+  "numMatchesPlayed_KID": {
+    "description": "",
+    "value": 0
+  },
+  "numMatchesPlayed_ROBOT": {
+    "description": "",
+    "value": 0
+  },
+  "numMatchesPlayed_CANDY": {
+    "description": "",
+    "value": 0
+  },
+  "numMatchesPlayed_BOOM": {
+    "description": "",
+    "value": 0
+  },
+  "numMatchesPlayed_CROC": {
+    "description": "",
+    "value": 0
+  },
+  "numMatchesPlayed_PONG": {
+    "description": "",
+    "value": 0
+  },
+  "numMatchesPlayed_BOSS": {
+    "description": "",
+    "value": 0
+  },
+  "numMatchesPlayed_COP": {
+    "description": "",
+    "value": 0
+  },
+  "numMatchesPlayed_ELECTRO": {
+    "description": "",
+    "value": 0
+  },
+  "numMatchesPlayed_SKATE": {
+    "description": "",
+    "value": 0
+  },
+  "lastMatchCompleted": {
+    "description": "",
+    "value": 1
+  },
+  "global_NumMatchesPlayed": {
+    "description": "",
+    "value": 0
+  },
+  "global_NumMatchesPlayed_KID": {
+    "description": "",
+    "value": 0
+  },
+  "global_NumMatchesPlayed_ROBOT": {
+    "description": "",
+    "value": 0
+  },
+  "global_NumMatchesPlayed_CANDY": {
+    "description": "",
+    "value": 0
+  },
+  "global_NumMatchesPlayed_BOOM": {
+    "description": "",
+    "value": 0
+  },
+  "global_NumMatchesPlayed_CROC": {
+    "description": "",
+    "value": 0
+  },
+  "global_NumMatchesPlayed_PONG": {
+    "description": "",
+    "value": 0
+  },
+  "global_NumMatchesPlayed_BOSS": {
+    "description": "",
+    "value": 0
+  },
+  "global_NumMatchesPlayed_COP": {
+    "description": "",
+    "value": 0
+  },
+  "global_NumMatchesPlayed_ELECTRO": {
+    "description": "",
+    "value": 0
+  },
+  "global_NumMatchesPlayed_SKATE": {
+    "description": "",
+    "value": 0
+  },
+  "numOfDisconnects": {
+    "description": "",
+    "value": 0
+  },
+  "currentVictoryStreak": {
+    "description": "",
+    "value": 0
+  },
+  "highestVictoryStreak": {
+    "description": "Longest Winning Streak in Ranked",
+    "value": 0
+  },
+  "numMatchesWon_KID": {
+    "description": "",
+    "value": 0
+  },
+  "numMatchesWon_ROBOT": {
+    "description": "",
+    "value": 0
+  },
+  "numMatchesWon_CANDY": {
+    "description": "",
+    "value": 0
+  },
+  "numMatchesWon_BOOM": {
+    "description": "",
+    "value": 0
+  },
+  "numMatchesWon_CROC": {
+    "description": "",
+    "value": 0
+  },
+  "numMatchesWon_PONG": {
+    "description": "",
+    "value": 0
+  },
+  "numMatchesWon_BOSS": {
+    "description": "",
+    "value": 0
+  },
+  "numMatchesWon_COP": {
+    "description": "",
+    "value": 0
+  },
+  "numMatchesWon_ELECTRO": {
+    "description": "",
+    "value": 0
+  },
+  "numMatchesWon_SKATE": {
+    "description": "",
+    "value": 0
+  },
+  "global_NumMatchesWon_KID": {
+    "description": "",
+    "value": 0
+  },
+  "global_NumMatchesWon_ROBOT": {
+    "description": "",
+    "value": 0
+  },
+  "global_NumMatchesWon_CANDY": {
+    "description": "",
+    "value": 0
+  },
+  "global_NumMatchesWon_BOOM": {
+    "description": "",
+    "value": 0
+  },
+  "global_NumMatchesWon_CROC": {
+    "description": "",
+    "value": 0
+  },
+  "global_NumMatchesWon_PONG": {
+    "description": "",
+    "value": 0
+  },
+  "global_NumMatchesWon_BOSS": {
+    "description": "",
+    "value": 0
+  },
+  "global_NumMatchesWon_COP": {
+    "description": "",
+    "value": 0
+  },
+  "global_NumMatchesWon_ELECTRO": {
+    "description": "",
+    "value": 0
+  },
+  "global_NumMatchesWon_SKATE": {
+    "description": "",
+    "value": 0
+  },
+  "numMatchesLost_KID": {
+    "description": "",
+    "value": 0
+  },
+  "numMatchesLost_ROBOT": {
+    "description": "",
+    "value": 0
+  },
+  "numMatchesLost_CANDY": {
+    "description": "",
+    "value": 0
+  },
+  "numMatchesLost_BOOM": {
+    "description": "",
+    "value": 0
+  },
+  "numMatchesLost_CROC": {
+    "description": "",
+    "value": 0
+  },
+  "numMatchesLost_PONG": {
+    "description": "",
+    "value": 0
+  },
+  "numMatchesLost_BOSS": {
+    "description": "",
+    "value": 0
+  },
+  "numMatchesLost_COP": {
+    "description": "",
+    "value": 0
+  },
+  "numMatchesLost_ELECTRO": {
+    "description": "",
+    "value": 0
+  },
+  "numMatchesLost_SKATE": {
+    "description": "",
+    "value": 0
+  },
+  "numMatchesLost_RANDOM": {
+    "description": "",
+    "value": 0
+  },
+  "global_NumMatchesLost_KID": {
+    "description": "",
+    "value": 0
+  },
+  "global_NumMatchesLost_ROBOT": {
+    "description": "",
+    "value": 0
+  },
+  "global_NumMatchesLost_CANDY": {
+    "description": "",
+    "value": 0
+  },
+  "global_NumMatchesLost_BOOM": {
+    "description": "",
+    "value": 0
+  },
+  "global_NumMatchesLost_CROC": {
+    "description": "",
+    "value": 0
+  },
+  "global_NumMatchesLost_PONG": {
+    "description": "",
+    "value": 0
+  },
+  "global_NumMatchesLost_BOSS": {
+    "description": "",
+    "value": 0
+  },
+  "global_NumMatchesLost_COP": {
+    "description": "",
+    "value": 0
+  },
+  "global_NumMatchesLost_ELECTRO": {
+    "description": "",
+    "value": 0
+  },
+  "global_NumMatchesLost_SKATE": {
+    "description": "",
+    "value": 0
+  },
+  "numMatchesWon_RANDOM": {
+    "description": "",
+    "value": 0
+  },
+  "numMatchesPlayed_RANDOM": {
+    "description": "",
+    "value": 0
+  },
+  "global_NumMatchesPlayed_RANDOM": {
+    "description": "",
+    "value": 0
+  },
+  "lossStreak": {
+    "description": "",
+    "value": 0
+  },
+  "global_NumMatchesLost_BAG": {
+    "description": "",
+    "value": 0
+  },
+  "global_NumMatchesWon_BAG": {
+    "description": "",
+    "value": 0
+  },
+  "global_NumMatchesPlayed_BAG": {
+    "description": "",
+    "value": 0
+  },
+  "numMatchesPlayed_BAG": {
+    "description": "",
+    "value": 0
+  },
+  "numMatchesWon_BAG": {
+    "description": "",
+    "value": 0
+  },
+  "numMatchesLost_BAG": {
+    "description": "",
+    "value": 0
+  },
+  "numMatchesPlayed_GRAF": {
+    "description": "",
+    "value": 0
+  },
+  "numMatchesWon_GRAF": {
+    "description": "",
+    "value": 0
+  },
+  "numMatchesLost_GRAF": {
+    "description": "",
+    "value": 0
+  },
+  "global_NumMatchesPlayed_GRAF": {
+    "description": "",
+    "value": 0
+  },
+  "global_NumMatchesWon_GRAF": {
+    "description": "",
+    "value": 0
+  },
+  "global_NumMatchesLost_GRAF": {
+    "description": "",
+    "value": 0
+  }
+}

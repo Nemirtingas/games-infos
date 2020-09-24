@@ -1,0 +1,1506 @@
+﻿{
+  "STAT_GAMES_PLAYED": {
+    "description": "Games Played",
+    "value": 0
+  },
+  "STAT_GAMES_WON": {
+    "description": "Games Won",
+    "value": 0
+  },
+  "STAT_GAMES_LOST": {
+    "description": "Games Lost",
+    "value": 0
+  },
+  "STAT_PLAYER_LEVEL": {
+    "description": "Level",
+    "value": 1
+  },
+  "STAT_PLAYER_EXP": {
+    "description": "Experience",
+    "value": 0
+  },
+  "STAT_ONLINE_GAMES_PLAYED": {
+    "description": "Online Games Played",
+    "value": 0
+  },
+  "STAT_ONLINE_GAMES_WON": {
+    "description": "Online Games Won",
+    "value": 0
+  },
+  "STAT_NPC_DEFEATS": {
+    "description": "NPCs Defeated",
+    "value": 0
+  },
+  "STAT_HAS_10_DISCOUNT": {
+    "description": "10% Discount",
+    "value": 0
+  },
+  "STAT_HAS_CHICKEN": {
+    "description": "Chicken",
+    "value": 0
+  },
+  "STAT_HAS_20_DISCOUNT": {
+    "description": "20% Discount",
+    "value": 0
+  },
+  "STAT_HAS_LILROBOT": {
+    "description": "Lil Robot",
+    "value": 0
+  },
+  "STAT_HAS_30_DISCOUNT": {
+    "description": "30% Discount",
+    "value": 0
+  },
+  "STAT_HAS_SEAGULL": {
+    "description": "Seagull",
+    "value": 0
+  },
+  "STAT_HAS_MANAGER": {
+    "description": "Manager",
+    "value": 0
+  },
+  "STAT_HAS_BROBOT": {
+    "description": "Boss Robot",
+    "value": 0
+  },
+  "STAT_HAS_CASTLE": {
+    "description": "Castle",
+    "value": 0
+  },
+  "STAT_HAS_FIELD_PUDDING": {
+    "description": "Field Pudding",
+    "value": 0
+  },
+  "STAT_HAS_FIELD_CHRISTMAS": {
+    "description": "Field Christmas",
+    "value": 0
+  },
+  "STAT_HAS_FIELD_EARTH": {
+    "description": "Field Earth",
+    "value": 0
+  },
+  "STAT_HAS_FIELD_LAGOON": {
+    "description": "Field Lagoon",
+    "value": 0
+  },
+  "STAT_HAS_FIELD_WARFARE": {
+    "description": "Field Warfare",
+    "value": 0
+  },
+  "STAT_HAS_FIELD_HIGHWAY": {
+    "description": "Field Highway",
+    "value": 0
+  },
+  "STAT_HAS_FIELD_ARCHIVE": {
+    "description": "Field Archive",
+    "value": 0
+  },
+  "STAT_HAS_FIELD_SUNSET": {
+    "description": "Field Sunset",
+    "value": 0
+  },
+  "STAT_HAS_FIELD_TOMOMO": {
+    "description": "Field Tomomo",
+    "value": 0
+  },
+  "STAT_QP_ONLINE_GAMES": {
+    "description": "QP Online Games",
+    "value": 0
+  },
+  "STAT_YUKI_ONLINE_GAMES": {
+    "description": "Yuki Online Games",
+    "value": 0
+  },
+  "STAT_ARU_ONLINE_GAMES": {
+    "description": "Aru Online Games",
+    "value": 0
+  },
+  "STAT_SUGURI_ONLINE_GAMES": {
+    "description": "Suguri Online Games",
+    "value": 0
+  },
+  "STAT_HIME_ONLINE_GAMES": {
+    "description": "Hime Online Games",
+    "value": 0
+  },
+  "STAT_SORA_ONLINE_GAMES": {
+    "description": "Sora Online Games",
+    "value": 0
+  },
+  "STAT_MARC_ONLINE_GAMES": {
+    "description": "Marc Online Games",
+    "value": 0
+  },
+  "STAT_FERNET_ONLINE_GAMES": {
+    "description": "Fernet Online Games",
+    "value": 0
+  },
+  "STAT_PEAT_ONLINE_GAMES": {
+    "description": "Peat Online Games",
+    "value": 0
+  },
+  "STAT_KAI_ONLINE_GAMES": {
+    "description": "Kai Online Games",
+    "value": 0
+  },
+  "STAT_POPPO_ONLINE_GAMES": {
+    "description": "Poppo Online Games",
+    "value": 0
+  },
+  "STAT_TOMOMO_ONLINE_GAMES": {
+    "description": "Tomomo Online Games",
+    "value": 0
+  },
+  "STAT_MANAGER_ONLINE_GAMES": {
+    "description": "Manager Online Games",
+    "value": 0
+  },
+  "STAT_BOSSROBOT_ONLINE_GAMES": {
+    "description": "Boss Robot Online Games",
+    "value": 0
+  },
+  "STAT_CASTLE_ONLINE_GAMES": {
+    "description": "Castle Online Games",
+    "value": 0
+  },
+  "STAT_QP_ONLINE_WINS": {
+    "description": "QP Online Wins",
+    "value": 0
+  },
+  "STAT_YUKI_ONLINE_WINS": {
+    "description": "Yuki Online Wins",
+    "value": 0
+  },
+  "STAT_ARU_ONLINE_WINS": {
+    "description": "Aru Online Wins",
+    "value": 0
+  },
+  "STAT_SUGURI_ONLINE_WINS": {
+    "description": "Suguri Online Wins",
+    "value": 0
+  },
+  "STAT_HIME_ONLINE_WINS": {
+    "description": "Hime Online Wins",
+    "value": 0
+  },
+  "STAT_SORA_ONLINE_WINS": {
+    "description": "Sora Online Wins",
+    "value": 0
+  },
+  "STAT_MARC_ONLINE_WINS": {
+    "description": "Marc Online Wins",
+    "value": 0
+  },
+  "STAT_FERNET_ONLINE_WINS": {
+    "description": "Fernet Online Wins",
+    "value": 0
+  },
+  "STAT_PEAT_ONLINE_WINS": {
+    "description": "Peat Online Wins",
+    "value": 0
+  },
+  "STAT_KAI_ONLINE_WINS": {
+    "description": "Kai Online Wins",
+    "value": 0
+  },
+  "STAT_POPPO_ONLINE_WINS": {
+    "description": "Poppo Online Wins",
+    "value": 0
+  },
+  "STAT_TOMOMO_ONLINE_WINS": {
+    "description": "Tomomo Online Wins",
+    "value": 0
+  },
+  "STAT_MANAGER_ONLINE_WINS": {
+    "description": "Manager Online Wins",
+    "value": 0
+  },
+  "STAT_BOSSROBOT_ONLINE_WINS": {
+    "description": "Boss Robot Online Wins",
+    "value": 0
+  },
+  "STAT_CASTLE_ONLINE_WINS": {
+    "description": "Castle Online Wins",
+    "value": 0
+  },
+  "STAT_CHICKEN_ONLINE_GAMES": {
+    "description": "Chicken Online Games",
+    "value": 0
+  },
+  "STAT_ROBOT_ONLINE_GAMES": {
+    "description": "Robot Online Games",
+    "value": 0
+  },
+  "STAT_SEAGULL_ONLINE_GAMES": {
+    "description": "Seagull Online Games",
+    "value": 0
+  },
+  "STAT_CHICKEN_ONLINE_WINS": {
+    "description": "Chicken Online Wins",
+    "value": 0
+  },
+  "STAT_ROBOT_ONLINE_WINS": {
+    "description": "Robot Online Wins",
+    "value": 0
+  },
+  "STAT_SEAGULL_ONLINE_WINS": {
+    "description": "Seagull Online Wins",
+    "value": 0
+  },
+  "STAT_STARS_WINS": {
+    "description": "Stars Norma Wins",
+    "value": 0
+  },
+  "STAT_WINS_WINS": {
+    "description": "Wins Norma Wins",
+    "value": 0
+  },
+  "STAT_HAS_QP_SKINS1": {
+    "description": "QP Skins 1",
+    "value": 0
+  },
+  "STAT_HAS_YUKI_SKINS1": {
+    "description": "Yuki Skins 1",
+    "value": 0
+  },
+  "STAT_HAS_ARU_SKINS1": {
+    "description": "Aru Skins 1",
+    "value": 0
+  },
+  "STAT_HAS_SUGURI_SKINS1": {
+    "description": "Suguri Skins 1",
+    "value": 0
+  },
+  "STAT_HAS_HIME_SKINS1": {
+    "description": "Hime Skins 1",
+    "value": 0
+  },
+  "STAT_HAS_SORA_SKINS1": {
+    "description": "Sora Skins 1",
+    "value": 0
+  },
+  "STAT_HAS_MARC_SKINS1": {
+    "description": "Marc Skins 1",
+    "value": 0
+  },
+  "STAT_HAS_FERNET_SKINS1": {
+    "description": "Fernet Skins 1",
+    "value": 0
+  },
+  "STAT_HAS_PEAT_SKINS1": {
+    "description": "Peat Skins 1",
+    "value": 0
+  },
+  "STAT_HAS_KAI_SKINS1": {
+    "description": "Kai Skins 1",
+    "value": 0
+  },
+  "STAT_HAS_POPPO_SKINS1": {
+    "description": "Poppo Skins 1",
+    "value": 0
+  },
+  "STAT_HAS_TOMOMO_SKINS1": {
+    "description": "Tomomo Skins 1",
+    "value": 0
+  },
+  "STAT_HAS_CHICKEN_SKINS1": {
+    "description": "Chicken Skins 1",
+    "value": 0
+  },
+  "STAT_HAS_ROBOT_SKINS1": {
+    "description": "Robot Skins 1",
+    "value": 0
+  },
+  "STAT_HAS_SEAGULL_SKINS1": {
+    "description": "Seagull Skins 1",
+    "value": 0
+  },
+  "STAT_HAS_MANAGER_SKINS1": {
+    "description": "Manager Skins 1",
+    "value": 0
+  },
+  "STAT_HAS_BOSSROBOT_SKINS1": {
+    "description": "Bossrobot Skins 1",
+    "value": 0
+  },
+  "STAT_HAS_CASTLE_SKINS1": {
+    "description": "Castle Skins 1",
+    "value": 0
+  },
+  "STAT_CARD_DASH_CHOSEN": {
+    "description": "Dash Chosen",
+    "value": 0
+  },
+  "STAT_CARD_SAKISCOOKIE_CHOSEN": {
+    "description": "Saki's Cookie Chosen",
+    "value": 0
+  },
+  "STAT_CARD_FLIPOUT_CHOSEN": {
+    "description": "Flipout Chosen",
+    "value": 0
+  },
+  "STAT_CARD_LONGDISTANCE_CHOSEN": {
+    "description": "Long Distance Shot Chosen",
+    "value": 0
+  },
+  "STAT_CARD_NICEJINGLE_CHOSEN": {
+    "description": "Nice Jingle Chosen",
+    "value": 0
+  },
+  "STAT_CARD_NICEPRESENT_CHOSEN": {
+    "description": "Nice Present Chosen",
+    "value": 0
+  },
+  "STAT_CARD_STIFFCRYSTAL_CHOSEN": {
+    "description": "Stiff Crystal Chosen",
+    "value": 0
+  },
+  "STAT_CARD_PUDDING_CHOSEN": {
+    "description": "Pudding Chosen",
+    "value": 0
+  },
+  "STAT_CARD_EXTEND_CHOSEN": {
+    "description": "Extend Chosen",
+    "value": 0
+  },
+  "STAT_CARD_PRINCESS_CHOSEN": {
+    "description": "Princess Chosen",
+    "value": 0
+  },
+  "STAT_CARD_ONFIRE_CHOSEN": {
+    "description": "On Fire Chosen",
+    "value": 0
+  },
+  "STAT_CARD_USABIT_CHOSEN": {
+    "description": "Usabit Chosen",
+    "value": 0
+  },
+  "STAT_CARD_RAINBOW_CHOSEN": {
+    "description": "Rainbow Chosen",
+    "value": 0
+  },
+  "STAT_CARD_BIGMAGNUM_CHOSEN": {
+    "description": "Big Magnum Chosen",
+    "value": 0
+  },
+  "STAT_CARD_SHIELD_CHOSEN": {
+    "description": "Shield Chosen",
+    "value": 0
+  },
+  "STAT_CARD_FINALBATTLE_CHOSEN": {
+    "description": "Final Battle Chosen",
+    "value": 0
+  },
+  "STAT_CARD_REVERSE_CHOSEN": {
+    "description": "Reverse Chosen",
+    "value": 0
+  },
+  "STAT_CARD_BADPUDDING_CHOSEN": {
+    "description": "Bad Pudding Chosen",
+    "value": 0
+  },
+  "STAT_CARD_MIMYUUSHAMMER_CHOSEN": {
+    "description": "Mimyuu's Hammer Chosen",
+    "value": 0
+  },
+  "STAT_CARD_DANGEROUSPUDDING_CHOSEN": {
+    "description": "Dangerous Pudding Chosen",
+    "value": 0
+  },
+  "STAT_CARD_PIGGYPANK_CHOSEN": {
+    "description": "Piggy Bank Chosen",
+    "value": 0
+  },
+  "STAT_CARD_INVASION_CHOSEN": {
+    "description": "Invasion Chosen",
+    "value": 0
+  },
+  "STAT_CARD_GOAWAY_CHOSEN": {
+    "description": "Go Away Chosen",
+    "value": 0
+  },
+  "STAT_CARD_HEAT300_CHOSEN": {
+    "description": "Heat 300% Chosen",
+    "value": 0
+  },
+  "STAT_CARD_ASSAULT_CHOSEN": {
+    "description": "Assault Chosen",
+    "value": 0
+  },
+  "STAT_CARD_TRAGEDY_CHOSEN": {
+    "description": "Tradegy Chosen",
+    "value": 0
+  },
+  "STAT_CARD_EXCHANGE_CHOSEN": {
+    "description": "Exchange Chosen",
+    "value": 0
+  },
+  "STAT_CARD_FLAMETHROWER_CHOSEN": {
+    "description": "Flamethrower Chosen",
+    "value": 0
+  },
+  "STAT_CARD_SKYRESTAURANT_CHOSEN": {
+    "description": "Sky Restaurant Chosen",
+    "value": 0
+  },
+  "STAT_CARD_TOYSTORE_CHOSEN": {
+    "description": "Toy Store Chosen",
+    "value": 0
+  },
+  "STAT_CARD_HEREANDTHERE_CHOSEN": {
+    "description": "Here and There Chosen",
+    "value": 0
+  },
+  "STAT_CARD_CLOUDOFSEAGULLS_CHOSEN": {
+    "description": "Cloud of Seagulls Chosen",
+    "value": 0
+  },
+  "STAT_CARD_HOLYNIGHT_CHOSEN": {
+    "description": "Holy Night Chosen",
+    "value": 0
+  },
+  "STAT_CARD_OUTOFAMMO_CHOSEN": {
+    "description": "Out of Ammo Chosen",
+    "value": 0
+  },
+  "STAT_CARD_GIFTEXCHANGE_CHOSEN": {
+    "description": "Gift Exchange Chosen",
+    "value": 0
+  },
+  "STAT_CARD_WEAREWARUDA_CHOSEN": {
+    "description": "We Are Waruda Chosen",
+    "value": 0
+  },
+  "STAT_CARD_DINNER_CHOSEN": {
+    "description": "Dinner Chosen",
+    "value": 0
+  },
+  "STAT_CARD_SUPERALLOUTMODE_CHOSEN": {
+    "description": "Super All-Out Mode",
+    "value": 0
+  },
+  "STAT_CARD_FORCEDREVIVAL_CHOSEN": {
+    "description": "Forced Revival Chosen",
+    "value": 0
+  },
+  "STAT_CARD_LITTLEWAR_CHOSEN": {
+    "description": "Little War Chosen",
+    "value": 0
+  },
+  "STAT_CARD_OHMYFRIEND_CHOSEN": {
+    "description": "Oh My Friend Chosen",
+    "value": 0
+  },
+  "STAT_CARD_SEALEDGUARDIAN_CHOSEN": {
+    "description": "Sealed Guardian Chosen",
+    "value": 0
+  },
+  "STAT_STATUS_INFO": {
+    "description": "Status Info",
+    "value": 0
+  },
+  "STAT_STATUS_INFO2": {
+    "description": "Status Info 2",
+    "value": 0
+  },
+  "STAT_STATUS_INFO3": {
+    "description": "Status Info 3",
+    "value": 0
+  },
+  "STAT_STATUS_INFO4": {
+    "description": "Status Info 4",
+    "value": 0
+  },
+  "STAT_STATUS_INFO5": {
+    "description": "Status Info 5",
+    "value": 0
+  },
+  "STAT_HAS_TEAL_SKINS": {
+    "description": "Teal Skins",
+    "value": 0
+  },
+  "STAT_HAS_PURPLE_SKINS": {
+    "description": "Purple Skins",
+    "value": 0
+  },
+  "STAT_HAS_QP_BLACK_SKIN": {
+    "description": "QP Black",
+    "value": 0
+  },
+  "STAT_HAS_YUKI_BLACK_SKIN": {
+    "description": "Yuki Black",
+    "value": 0
+  },
+  "STAT_HAS_ARU_BLACK_SKIN": {
+    "description": "Aru Black",
+    "value": 0
+  },
+  "STAT_HAS_SUGURI_BLACK_SKIN": {
+    "description": "Suguri Black",
+    "value": 0
+  },
+  "STAT_HAS_HIME_BLACK_SKIN": {
+    "description": "Hime Black",
+    "value": 0
+  },
+  "STAT_HAS_SORA_BLACK_SKIN": {
+    "description": "Sora Black",
+    "value": 0
+  },
+  "STAT_HAS_MARC_BLACK_SKIN": {
+    "description": "Marc Black",
+    "value": 0
+  },
+  "STAT_HAS_FERNET_BLACK_SKIN": {
+    "description": "Fernet Black",
+    "value": 0
+  },
+  "STAT_HAS_PEAT_BLACK_SKIN": {
+    "description": "Peat Black",
+    "value": 0
+  },
+  "STAT_HAS_KAI_BLACK_SKIN": {
+    "description": "Kai Black",
+    "value": 0
+  },
+  "STAT_HAS_POPPO_BLACK_SKIN": {
+    "description": "Poppo Black",
+    "value": 0
+  },
+  "STAT_HAS_TOMOMO_BLACK_SKIN": {
+    "description": "Tomomo Black",
+    "value": 0
+  },
+  "STAT_HAS_CHICKEN_BLACK_SKIN": {
+    "description": "Chicken Black",
+    "value": 0
+  },
+  "STAT_HAS_ROBOT_BLACK_SKIN": {
+    "description": "Robot Black",
+    "value": 0
+  },
+  "STAT_HAS_SEAGULL_BLACK_SKIN": {
+    "description": "Seagull Black",
+    "value": 0
+  },
+  "STAT_HAS_MANAGER_BLACK_SKIN": {
+    "description": "Store Manager Black",
+    "value": 0
+  },
+  "STAT_HAS_BOSSROBOT_BLACK_SKIN": {
+    "description": "Boss Robot Black",
+    "value": 0
+  },
+  "STAT_HAS_CASTLE_BLACK_SKIN": {
+    "description": "Flying Castle Black",
+    "value": 0
+  },
+  "STAT_HAS_QP_PINK_SKIN": {
+    "description": "QP Pink",
+    "value": 0
+  },
+  "STAT_HAS_YUKI_PINK_SKIN": {
+    "description": "Yuki Pink",
+    "value": 0
+  },
+  "STAT_HAS_ARU_PINK_SKIN": {
+    "description": "Aru Pink",
+    "value": 0
+  },
+  "STAT_HAS_SUGURI_PINK_SKIN": {
+    "description": "Suguri Pink",
+    "value": 0
+  },
+  "STAT_HAS_HIME_PINK_SKIN": {
+    "description": "Hime Pink",
+    "value": 0
+  },
+  "STAT_HAS_SORA_PINK_SKIN": {
+    "description": "Sora Pink",
+    "value": 0
+  },
+  "STAT_HAS_MARC_PINK_SKIN": {
+    "description": "Marc Pink",
+    "value": 0
+  },
+  "STAT_HAS_FERNET_PINK_SKIN": {
+    "description": "Fernet Pink",
+    "value": 0
+  },
+  "STAT_HAS_PEAT_PINK_SKIN": {
+    "description": "Peat Pink",
+    "value": 0
+  },
+  "STAT_HAS_KAI_PINK_SKIN": {
+    "description": "Kai Pink",
+    "value": 0
+  },
+  "STAT_HAS_POPPO_PINK_SKIN": {
+    "description": "Poppo Pink",
+    "value": 0
+  },
+  "STAT_HAS_TOMOMO_PINK_SKIN": {
+    "description": "Tomomo Pink",
+    "value": 0
+  },
+  "STAT_HAS_CHICKEN_PINK_SKIN": {
+    "description": "Chicken Pink",
+    "value": 0
+  },
+  "STAT_HAS_ROBOT_PINK_SKIN": {
+    "description": "Robot Pink",
+    "value": 0
+  },
+  "STAT_HAS_SEAGULL_PINK_SKIN": {
+    "description": "Seagull Pink",
+    "value": 0
+  },
+  "STAT_HAS_MANAGER_PINK_SKIN": {
+    "description": "Store Manager Pink",
+    "value": 0
+  },
+  "STAT_HAS_BOSSROBOT_PINK_SKIN": {
+    "description": "Boss Robot Pink",
+    "value": 0
+  },
+  "STAT_HAS_CASTLE_PINK_SKIN": {
+    "description": "Flying Castle Pink",
+    "value": 0
+  },
+  "STAT_HAS_POPPO_SPECIAL_SKIN": {
+    "description": "Poppo Special",
+    "value": 0
+  },
+  "STAT_POPPO_POINTS": {
+    "description": "Poppo Points",
+    "value": 0
+  },
+  "STAT_NANAKO_ONLINE_GAMES": {
+    "description": "Nanako Online Games",
+    "value": 0
+  },
+  "STAT_NANAKO_ONLINE_WINS": {
+    "description": "Nanako Online Wins",
+    "value": 0
+  },
+  "STAT_NANAKO_GAMES": {
+    "description": "Nanako Games",
+    "value": 0
+  },
+  "STAT_SYURA_ONLINE_GAMES": {
+    "description": "Syura Online Games",
+    "value": 0
+  },
+  "STAT_SYURA_ONLINE_WINS": {
+    "description": "Syura Online Wins",
+    "value": 0
+  },
+  "STAT_SYURA_GAMES": {
+    "description": "Syura Games",
+    "value": 0
+  },
+  "STAT_QPD_ONLINE_GAMES": {
+    "description": "QPD Online Games",
+    "value": 0
+  },
+  "STAT_QPD_ONLINE_WINS": {
+    "description": "QPD Online Wins",
+    "value": 0
+  },
+  "STAT_SAKI_ONLINE_GAMES": {
+    "description": "Saki Online Games",
+    "value": 0
+  },
+  "STAT_SAKI_ONLINE_WINS": {
+    "description": "Saki Online Wins",
+    "value": 0
+  },
+  "STAT_SAKI_GAMES": {
+    "description": "Saki Games",
+    "value": 0
+  },
+  "STAT_KYOUSUKE_ONLINE_GAMES": {
+    "description": "Kyousuke Online Games",
+    "value": 0
+  },
+  "STAT_KYOUSUKE_ONLINE_WINS": {
+    "description": "Kyousuke Online Wins",
+    "value": 0
+  },
+  "STAT_KYOUSUKE_GAMES": {
+    "description": "Kyousuke Games",
+    "value": 0
+  },
+  "STAT_KRILA_ONLINE_GAMES": {
+    "description": "Krila Online Games",
+    "value": 0
+  },
+  "STAT_KRILA_ONLINE_WINS": {
+    "description": "Krila Online Wins",
+    "value": 0
+  },
+  "STAT_KRILA_GAMES": {
+    "description": "Krila Games",
+    "value": 0
+  },
+  "STAT_KAE_ONLINE_GAMES": {
+    "description": "Kae Online Games",
+    "value": 0
+  },
+  "STAT_KAE_ONLINE_WINS": {
+    "description": "Kae Online Wins",
+    "value": 0
+  },
+  "STAT_KAE_GAMES": {
+    "description": "Kae Games",
+    "value": 0
+  },
+  "STAT_ALTE_ONLINE_GAMES": {
+    "description": "Alte Online Games",
+    "value": 0
+  },
+  "STAT_ALTE_ONLINE_WINS": {
+    "description": "Alte Online Wins",
+    "value": 0
+  },
+  "STAT_ALTE_GAMES": {
+    "description": "Alte Games",
+    "value": 0
+  },
+  "STAT_KYOKO_ONLINE_GAMES": {
+    "description": "Kyoko Online Games",
+    "value": 0
+  },
+  "STAT_KYOKO_ONLINE_WINS": {
+    "description": "Kyoko Online Wins",
+    "value": 0
+  },
+  "STAT_KYOKO_GAMES": {
+    "description": "Kyoko Games",
+    "value": 0
+  },
+  "STAT_MIXEDPOPPO_ONLINE_GAMES": {
+    "description": "Mixed Poppo Online Games",
+    "value": 0
+  },
+  "STAT_MIXEDPOPPO_ONLINE_WINS": {
+    "description": "Mixed Poppo Online Wins",
+    "value": 0
+  },
+  "STAT_SHAM_ONLINE_GAMES": {
+    "description": "Sham Online Games",
+    "value": 0
+  },
+  "STAT_SHAM_ONLINE_WINS": {
+    "description": "Sham Online Wins",
+    "value": 0
+  },
+  "STAT_SHAM_GAMES": {
+    "description": "Sham Games",
+    "value": 0
+  },
+  "STAT_SHERRY_ONLINE_GAMES": {
+    "description": "Sherry Online Games",
+    "value": 0
+  },
+  "STAT_SHERRY_ONLINE_WINS": {
+    "description": "Sherry Online Wins",
+    "value": 0
+  },
+  "STAT_SHERRY_GAMES": {
+    "description": "Sherry Games",
+    "value": 0
+  },
+  "STAT_SHERRY_WINS": {
+    "description": "Sherry Wins",
+    "value": 0
+  },
+  "STAT_SORAMILITARY_ONLINE_GAMES": {
+    "description": "Sora (Military) Games",
+    "value": 0
+  },
+  "STAT_SORAMILITARY_ONLINE_WINS": {
+    "description": "Sora (Military) Wins",
+    "value": 0
+  },
+  "STAT_TEMP1": {
+    "description": "Temp 1",
+    "value": 0
+  },
+  "STAT_TEMP2": {
+    "description": "Temp 2",
+    "value": 0
+  },
+  "STAT_TEMP3": {
+    "description": "Temp 3",
+    "value": 0
+  },
+  "STAT_TEMP4": {
+    "description": "Temp 4",
+    "value": 0
+  },
+  "STAT_TEMP5": {
+    "description": "Temp 5",
+    "value": 0
+  },
+  "STAT_TEMP6": {
+    "description": "Temp 6",
+    "value": 0
+  },
+  "STAT_TEMP7": {
+    "description": "Temp 7",
+    "value": 0
+  },
+  "STAT_TEMP8": {
+    "description": "Temp 8",
+    "value": 0
+  },
+  "STAT_TEMP9": {
+    "description": "Temp 9",
+    "value": 0
+  },
+  "STAT_TEMP10": {
+    "description": "Temp 10",
+    "value": 0
+  },
+  "STAT_TEMP11": {
+    "description": "Temp 11",
+    "value": 0
+  },
+  "STAT_TEMP12": {
+    "description": "Temp 12",
+    "value": 0
+  },
+  "STAT_TEMP13": {
+    "description": "Temp 13",
+    "value": 0
+  },
+  "STAT_TEMP14": {
+    "description": "Temp 14",
+    "value": 0
+  },
+  "STAT_TEMP15": {
+    "description": "Temp 15",
+    "value": 0
+  },
+  "STAT_TEMP16": {
+    "description": "Temp 16",
+    "value": 0
+  },
+  "STAT_STARBREAKER_ONLINE_GAMES": {
+    "description": "Star Breaker Online Games",
+    "value": 0
+  },
+  "STAT_STARBREAKER_ONLINE_WINS": {
+    "description": "Star Breaker Online Wins",
+    "value": 0
+  },
+  "STAT_STARBREAKER_GAMES": {
+    "description": "Star Breaker Games",
+    "value": 0
+  },
+  "STAT_SWEETBREAKER_ONLINE_GAMES": {
+    "description": "Sweet Breaker Online Games",
+    "value": 0
+  },
+  "STAT_SWEETBREAKER_ONLINE_WINS": {
+    "description": "Sweet Breaker Online Wins",
+    "value": 0
+  },
+  "STAT_SWEETBREAKER_GAMES": {
+    "description": "Sweet Breaker Games",
+    "value": 0
+  },
+  "STAT_EVT_6": {
+    "description": "Status Evt 6",
+    "value": 0
+  },
+  "STAT_ARUS_ONLINE_GAMES": {
+    "description": "Aru (Scrambled) Online Games",
+    "value": 0
+  },
+  "STAT_ARUS_ONLINE_WINS": {
+    "description": "Aru (Scrambled) Online Wins",
+    "value": 0
+  },
+  "STAT_EVT_7": {
+    "description": "Status Evt 7",
+    "value": 0
+  },
+  "STAT_EVT_8": {
+    "description": "Status Evt 8 (2018)",
+    "value": 0
+  },
+  "STAT_DLC11A_ONLINE_GAMES": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_DLC11A_ONLINE_WINS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_DLC11A_GAMES": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_DLC11B_ONLINE_GAMES": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_DLC11B_ONLINE_WINS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_DLC11B_GAMES": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_EVT_9": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_EVT_9G": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_DLC13A_ONLINE_GAMES": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_DLC13A_ONLINE_WINS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_DLC13A_GAMES": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_DLC13B_ONLINE_GAMES": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_DLC13B_ONLINE_WINS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_DLC13B_GAMES": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_DLC15A_ONLINE_GAMES": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_DLC15A_ONLINE_WINS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_DLC15A_GAMES": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_DLC15B_ONLINE_GAMES": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_DLC15B_ONLINE_WINS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_DLC15B_GAMES": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_SUGV2_ONLINE_GAMES": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_SUGV2_ONLINE_WINS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_EVT_10A": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_EVT_10B": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_EVT_10C": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_EVT_10D": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_EVT_10E": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_EVT_10F": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_EVT_10G": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_EVT_10H": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_EVT_10I": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_EVT_SPRING": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_DLC16A_ONLINE_GAMES": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_DLC16A_ONLINE_WINS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_DLC16A_GAMES": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_DLC16B_ONLINE_GAMES": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_DLC16B_ONLINE_WINS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_DLC16B_GAMES": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_EVT_11A": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_EVT_11B": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_EVT_12_A": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_DLC17A_ONLINE_GAMES": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_DLC17A_ONLINE_WINS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_DLC17A_GAMES": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_DLC17B_ONLINE_GAMES": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_DLC17B_ONLINE_WINS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_DLC17B_GAMES": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_DLC19A_ONLINE_GAMES": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_DLC19A_ONLINE_WINS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_DLC19A_GAMES": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_DLC19B_ONLINE_GAMES": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_DLC19B_ONLINE_WINS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_DLC19B_GAMES": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_EVT_PIG": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_DLC20A_GAMES": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_DLC20A_ONLINE_GAMES": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_DLC20A_ONLINE_WINS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_DLC20B_GAMES": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_DLC20B_ONLINE_GAMES": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_DLC20B_ONLINE_WINS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_PLAYER_EXP2A": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_PLAYER_EXP2B": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_PLAYER_EXP2C": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_PLAYER_EXP2D": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_PLAYER_EXP2E": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_PLAYER_EXP2F": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_EVT_13A": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_EVT_13B": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_EVT_13C": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_EVT_13D": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_C_GAMES_PLAYED": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_DLC21_GAMES": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_DLC21_ONLINE_GAMES": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_DLC21_ONLINE_WINS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_EVT_14A": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_EVT_14B": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_QP_GAMES": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_SUGURI_GAMES": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_MARC_GAMES": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_KAI_GAMES": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_YUKI_GAMES": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_HIME_GAMES": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_FERNET_GAMES": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_POPPO_GAMES": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_ARU_GAMES": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_SORA_GAMES": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_PEAT_GAMES": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_TOMOMO_GAMES": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_CHICKEN_GAMES": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_BALL_GAMES": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_SEAGULL_GAMES": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_MASTER_GAMES": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_BOSSROBO_GAMES": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_CASTLE_GAMES": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_QPD_GAMES": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_MIXEDPOPPO_GAMES": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_SORAMILITARY_GAMES": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_ARUS_GAMES": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_SUGV2_GAMES": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_OJ24A_GAMES": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_OJ24A_ONLINE_GAMES": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_OJ24A_ONLINE_WINS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_OJ24B_GAMES": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_OJ24B_ONLINE_GAMES": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_OJ24B_ONLINE_WINS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_EVT_15": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_XMAS2": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_XMAS3": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_XMAS4": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_XMAS5": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_XMAS6": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_XMAS2018_1": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_XMAS2018_2": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_XMAS1": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_EVT_16A": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_EVT_16B": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_OJ27_07A": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_OJ27_07B": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_OJ27_07C": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_OJ27_C01": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_OJ27_C02": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_OJ27_C03": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_OJ27_C11": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_OJ27_C12": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_OJ27_C13": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_EVT_SPRING20": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_OJ29_C01": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_OJ29_C02": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_OJ29_C03": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_OJ29_C11": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_OJ29_C12": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_OJ29_C13": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_MARCPILOT_GAMES": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_MARCPILOT_ONLINE_GAMES": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_MARCPILOT_ONLINE_WINS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_OJ31_C01": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_OJ31_C02": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_OJ31_C03": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_OJ31_C11": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_OJ31_C12": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_OJ31_C13": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_EVT_17A": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_EVT_17B": {
+    "description": "",
+    "value": 0
+  }
+}

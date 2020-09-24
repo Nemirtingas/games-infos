@@ -1,0 +1,187 @@
+[
+  {
+    "name": "ACH_PLAY_GAME",
+    "defaultvalue": 0,
+    "displayName": "Play the game.",
+    "hidden": 0,
+    "description": "Let's play.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1224380/cb69cfbdfa11e9ec34ecac2ee5a70123dcab2c28.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1224380/81fcff61460d9f64481bcbc2d4b847c18072dc13.jpg"
+  },
+  {
+    "name": "ACH_PLAY_CH1",
+    "defaultvalue": 0,
+    "displayName": "Complete Chapter One",
+    "hidden": 0,
+    "description": "Chapter One",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1224380/063ccfd5a9367dedd659b86c739322b19527fb86.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1224380/81fcff61460d9f64481bcbc2d4b847c18072dc13.jpg"
+  },
+  {
+    "name": "ACH_PLAY_CH2",
+    "defaultvalue": 0,
+    "displayName": "Complete Chapter Two",
+    "hidden": 0,
+    "description": "Chapter Two",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1224380/499430ca9188623dac4c095f65bfe4ac8fbc4ddc.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1224380/81fcff61460d9f64481bcbc2d4b847c18072dc13.jpg"
+  },
+  {
+    "name": "ACH_PLAY_AXE",
+    "defaultvalue": 0,
+    "displayName": "Take the axe.",
+    "hidden": 0,
+    "description": "I found you.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1224380/c06297dacf4d93b4bd70f37b980892b0ae81c11b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1224380/81fcff61460d9f64481bcbc2d4b847c18072dc13.jpg"
+  },
+  {
+    "name": "ACH_PLAY_FLASH",
+    "defaultvalue": 0,
+    "displayName": "Take the Flashlight.",
+    "hidden": 0,
+    "description": "Light is light.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1224380/9c296cb4bb3a60891ba54b4bbabb0748fb1db348.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1224380/81fcff61460d9f64481bcbc2d4b847c18072dc13.jpg"
+  },
+  {
+    "name": "ACH_PLAY_PASS",
+    "defaultvalue": 0,
+    "displayName": "Find the password.",
+    "hidden": 0,
+    "description": "Correct.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1224380/24a5253474e85de990472e8162d5004f810a9f9e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1224380/81fcff61460d9f64481bcbc2d4b847c18072dc13.jpg"
+  },
+  {
+    "name": "ACH_PLAY_SELIN",
+    "defaultvalue": 0,
+    "displayName": "Who is Selin?",
+    "hidden": 0,
+    "description": "Selin.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1224380/3851ff2b9332909ccf068173191898559ade6d7c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1224380/470ed732e8f79c8bfed3ba9a1e6d0e725890bbdc.jpg"
+  },
+  {
+    "name": "ACH_PLAY_GURKAN",
+    "defaultvalue": 0,
+    "displayName": "Who is Gürkan?",
+    "hidden": 0,
+    "description": "Gürkan.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1224380/dbc7630999a8feafb646bf7489c8bea71191e516.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1224380/81fcff61460d9f64481bcbc2d4b847c18072dc13.jpg"
+  },
+  {
+    "name": "ACH_PLAY_SECT",
+    "defaultvalue": 0,
+    "displayName": "My eyes are on Wenzil.",
+    "hidden": 0,
+    "description": "Wenzil",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1224380/761dd1cedf827e2a88b7093508a4d0d5ba4ebe4a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1224380/81fcff61460d9f64481bcbc2d4b847c18072dc13.jpg"
+  },
+  {
+    "name": "ACH_PLAY_BATTERY",
+    "defaultvalue": 0,
+    "displayName": "Battery Collector.",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1224380/3ba5abcc8f7413d4cad61bd7c5cc56620bbb107e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1224380/81fcff61460d9f64481bcbc2d4b847c18072dc13.jpg"
+  },
+  {
+    "name": "ACH_PLAY_SCARE",
+    "defaultvalue": 0,
+    "displayName": "Are you scared?",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1224380/ee94447d86f19b0c59d1b4183bf803a1dc783427.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1224380/81fcff61460d9f64481bcbc2d4b847c18072dc13.jpg"
+  },
+  {
+    "name": "ACH_PLAY_RELIC",
+    "defaultvalue": 0,
+    "displayName": "Find the Relic.",
+    "hidden": 0,
+    "description": "Just a stone?",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1224380/bac602a712220a19ae7b6787c1f1b2974d623746.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1224380/81fcff61460d9f64481bcbc2d4b847c18072dc13.jpg"
+  },
+  {
+    "name": "ACH_PLAY_TITAN",
+    "defaultvalue": 0,
+    "displayName": "Defeat the Protector.",
+    "hidden": 0,
+    "description": "Wenzil Protector.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1224380/ead4f275e74e8e2deaecc4bd03d1e675ab032be4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1224380/81fcff61460d9f64481bcbc2d4b847c18072dc13.jpg"
+  },
+  {
+    "name": "ACH_PLAY_WLEADER",
+    "defaultvalue": 0,
+    "displayName": "Who is Berkan?",
+    "hidden": 0,
+    "description": "Wenzil Leader",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1224380/31307a74e602d6684425894662c74fcfacac167e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1224380/81fcff61460d9f64481bcbc2d4b847c18072dc13.jpg"
+  },
+  {
+    "name": "ACH_PLAY_CH3",
+    "defaultvalue": 0,
+    "displayName": "Complete Chapter Three",
+    "hidden": 0,
+    "description": "Chapter Three",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1224380/8ec10f956eca5b00399a5e4725f905b6128d8fe8.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1224380/81fcff61460d9f64481bcbc2d4b847c18072dc13.jpg"
+  },
+  {
+    "name": "ACH_PLAY_CARPET",
+    "defaultvalue": 0,
+    "displayName": "Secret Carpet",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1224380/4815fd4987533bfbdde4bce2fd2700f5e2e8d6f8.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1224380/81fcff61460d9f64481bcbc2d4b847c18072dc13.jpg"
+  },
+  {
+    "name": "ACH_PLAY_SCAREC3",
+    "defaultvalue": 0,
+    "displayName": "Are you scared?",
+    "hidden": 0,
+    "description": "No!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1224380/bb47d20b6dd1874ed8a7b24848e61dc7161bd844.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1224380/81fcff61460d9f64481bcbc2d4b847c18072dc13.jpg"
+  },
+  {
+    "name": "ACH_PLAY_CEKCEK",
+    "defaultvalue": 0,
+    "displayName": "It's not a good day to die.",
+    "hidden": 0,
+    "description": "Or you already dead?",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1224380/fdd07499d715f1993282e38af9eba7c42904a68e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1224380/81fcff61460d9f64481bcbc2d4b847c18072dc13.jpg"
+  },
+  {
+    "name": "ACH_PLAY_FOTO",
+    "defaultvalue": 0,
+    "displayName": "Relic Picture",
+    "hidden": 0,
+    "description": "Old one!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1224380/5a58bdfbc564cbcef57467796c172bb15455a365.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1224380/470ed732e8f79c8bfed3ba9a1e6d0e725890bbdc.jpg"
+  },
+  {
+    "name": "ACH_PLAY_TURN",
+    "defaultvalue": 0,
+    "displayName": "There's no going back...",
+    "hidden": 0,
+    "description": "Back!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1224380/6513d54c09b230f592b1e88bb98445e5aa674ab1.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1224380/470ed732e8f79c8bfed3ba9a1e6d0e725890bbdc.jpg"
+  },
+  {
+    "name": "ACH_PLAY_PAT",
+    "defaultvalue": 0,
+    "displayName": "Break me!",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1224380/5feca741c823629375600254bcec3115dcff4166.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1224380/81fcff61460d9f64481bcbc2d4b847c18072dc13.jpg"
+  }
+]

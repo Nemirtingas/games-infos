@@ -1,0 +1,218 @@
+﻿[
+  {
+    "name": "PlayRank1",
+    "defaultvalue": 0,
+    "displayName": "Born to Lead 1",
+    "hidden": 0,
+    "description": "Play 3 normal games",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1031140/58253d98e2e2ca046d87506ffafe9f1d4625d7e9.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1031140/40e0adfa235139e67a7b098f596d3ad10176d213.jpg"
+  },
+  {
+    "name": "PlayRank2",
+    "defaultvalue": 0,
+    "displayName": "Born to Lead 2",
+    "hidden": 0,
+    "description": "Play 50 normal games",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1031140/19be8674b0dfaf7cbfed4eefa4c368eeada5ca3c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1031140/2d20bb15dc52673a24f26e5e9980f29a890522d5.jpg"
+  },
+  {
+    "name": "PlayRank3",
+    "defaultvalue": 0,
+    "displayName": "Born to Lead 3",
+    "hidden": 0,
+    "description": "Play 500 normal games",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1031140/3af3ef3f8d67a2f2358ab74cfa8ad92a2f1a94ad.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1031140/5d77c3ab1301111ef25b98c846a940ffbabd4680.jpg"
+  },
+  {
+    "name": "Campaign1",
+    "defaultvalue": 0,
+    "displayName": "Explorer 1",
+    "hidden": 0,
+    "description": "Win mission 3 of Isstvan III",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1031140/4773c0b7d229fb1bdd685c990679d3253b189346.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1031140/2b767ef50bcd465aea8f797200a28ff1bd739fb0.jpg"
+  },
+  {
+    "name": "Campaign2",
+    "defaultvalue": 0,
+    "displayName": "Explorer 2",
+    "hidden": 0,
+    "description": "Win mission 6 of Isstvan III",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1031140/5ee530e76f62642d0fbf1db8b669add74f22411e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1031140/c5d7ca107059419e74fdd77e78d86f3ad1d46e32.jpg"
+  },
+  {
+    "name": "Campaign3",
+    "defaultvalue": 0,
+    "displayName": "Explorer 3",
+    "hidden": 0,
+    "description": "Complete Isstvan III Campaign",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1031140/d5c957416b2f6a8314bfc6cb18c69064028aa5d1.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1031140/1425f7733c8ad33af58437c96f279eea4947a252.jpg"
+  },
+  {
+    "name": "CollectCosmetics1",
+    "defaultvalue": 0,
+    "displayName": "Gallerist 1",
+    "hidden": 0,
+    "description": "Collect 20 different cosmetics",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1031140/9a6c399d87e26e2eba0831f80c9b1501c4d07b03.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1031140/362b9049fbebb129a837b4954031653d3f9a75fe.jpg"
+  },
+  {
+    "name": "CollectCosmetics2",
+    "defaultvalue": 0,
+    "displayName": "Gallerist 2",
+    "hidden": 0,
+    "description": "Collect 50 different cosmetics",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1031140/9f0e82bed2957f4dfb681a28f60b7029bfbaf6b4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1031140/7cf451bbe6ebef831bd47caf2d1027de86b8f492.jpg"
+  },
+  {
+    "name": "CollectCosmetics3",
+    "defaultvalue": 0,
+    "displayName": "Gallerist 3",
+    "hidden": 0,
+    "description": "Collect 120 different cosmetics",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1031140/7d00512d5c23c861136dff7901c776c130ba2fa5.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1031140/49ae0d5f9f115261fe708869e736b11ab6057a70.jpg"
+  },
+  {
+    "name": "CollectCards1",
+    "defaultvalue": 0,
+    "displayName": "Collector 1",
+    "hidden": 0,
+    "description": "Collect 100 different cards",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1031140/21c3c65760bfeca081b9506f35a6872e52a48f2f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1031140/3f92e75060b98f1772d66f2a2234ed4e3f8e36c0.jpg"
+  },
+  {
+    "name": "CollectCards2",
+    "defaultvalue": 0,
+    "displayName": "Collector 2",
+    "hidden": 0,
+    "description": "Collect 150 different cards",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1031140/459cf0ae0e455cdf3c3d74f873f875345663be79.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1031140/c5934a75799203686d36804cc8429c74163a673f.jpg"
+  },
+  {
+    "name": "CollectCards3",
+    "defaultvalue": 0,
+    "displayName": "Collector 3",
+    "hidden": 0,
+    "description": "Collect 250 different cards",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1031140/b91e3b64bdcad304e3d9b1ba5d511859fa570136.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1031140/fe566e945c8e2621b082bf24a9d2bec066ec1295.jpg"
+  },
+  {
+    "name": "WinRank1",
+    "defaultvalue": 0,
+    "displayName": "Victorious 1",
+    "hidden": 0,
+    "description": "Win 5 Ranked games",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1031140/ebdfee8796273ef476b3f3781e99b5b75e62d9a2.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1031140/2982ab8d3041b966c90d5867db1308156163da5f.jpg"
+  },
+  {
+    "name": "WinRank2",
+    "defaultvalue": 0,
+    "displayName": "Victorious 2",
+    "hidden": 0,
+    "description": "Win 100 Ranked games",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1031140/1d07b4fc36f7ff97b23a740cf2fdee1e4f45468b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1031140/a1f822c6d5b2c0fdc788003d549d560a2d238024.jpg"
+  },
+  {
+    "name": "WinRank3",
+    "defaultvalue": 0,
+    "displayName": "Victorious 3",
+    "hidden": 0,
+    "description": "Win 1000 Ranked games",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1031140/fb220061138a817a3593dcef8044f226b2d377f6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1031140/871f8e04c03de9d5954a927998cd71185834c926.jpg"
+  },
+  {
+    "name": "LoginBonus1",
+    "defaultvalue": 0,
+    "displayName": "Contender 1",
+    "hidden": 0,
+    "description": "Login 3 days",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1031140/c95ea080b80d407ace13ef0514dbdaa08ac43cda.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1031140/8159a2fe53af444b7688a4c70959042b2fe0ebee.jpg"
+  },
+  {
+    "name": "LoginBonus2",
+    "defaultvalue": 0,
+    "displayName": "Contender 2",
+    "hidden": 0,
+    "description": "Login 10 days",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1031140/c62aa956b57d736cd644e7f4dd72b1980fda5063.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1031140/9ecd1126cb0a96738a75dc5133b6f6ae380ce075.jpg"
+  },
+  {
+    "name": "LoginBonus3",
+    "defaultvalue": 0,
+    "displayName": "Contender 3",
+    "hidden": 0,
+    "description": "Login 30 days",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1031140/322d681238b7a934fff631bb65bdc04767b555d5.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1031140/def3805a0eb4504cc8fce40276928241eb899e69.jpg"
+  },
+  {
+    "name": "Events1",
+    "defaultvalue": 0,
+    "displayName": "Gladiator 1",
+    "hidden": 0,
+    "description": "Reach 3 victories in an Event",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1031140/ebdfee8796273ef476b3f3781e99b5b75e62d9a2.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1031140/2982ab8d3041b966c90d5867db1308156163da5f.jpg"
+  },
+  {
+    "name": "Events2",
+    "defaultvalue": 0,
+    "displayName": "Gladiator 2",
+    "hidden": 0,
+    "description": "Reach 8 victories in an Event",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1031140/1d07b4fc36f7ff97b23a740cf2fdee1e4f45468b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1031140/a1f822c6d5b2c0fdc788003d549d560a2d238024.jpg"
+  },
+  {
+    "name": "Events3",
+    "defaultvalue": 0,
+    "displayName": "Gladiator 3",
+    "hidden": 0,
+    "description": "Reach 12 victories in an Event",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1031140/fb220061138a817a3593dcef8044f226b2d377f6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1031140/b58d68ce95030a97375de2bd91d4e81abc0222e8.jpg"
+  },
+  {
+    "name": "Guild1",
+    "defaultvalue": 0,
+    "displayName": "Member of Society 1",
+    "hidden": 0,
+    "description": "Create or join a Lodge",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1031140/25a6fbd127c53a00f62fdf1c552d24eebdcf6f5c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1031140/4d2c5af1a34b5ec0687ee886e3ce011c358057e3.jpg"
+  },
+  {
+    "name": "Guild2",
+    "defaultvalue": 0,
+    "displayName": "Member of Society 2",
+    "hidden": 0,
+    "description": "Register your username",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1031140/3468c04618be97e89f893bb950d293a073ef0cb5.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1031140/3e3d19eabb96e06d9c576c98e5e6bbb771fd4721.jpg"
+  },
+  {
+    "name": "Guild3",
+    "defaultvalue": 0,
+    "displayName": "Member of Society 3",
+    "hidden": 0,
+    "description": "Subscribe to the newsletter",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1031140/4ee6886a10bd0331b7491a8a2bea99b22d452d18.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1031140/285bb87f7dc434f856eecfd5afe5ee4000e7ef39.jpg"
+  }
+]

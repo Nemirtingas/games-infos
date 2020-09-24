@@ -1,0 +1,947 @@
+﻿[
+  {
+    "name": "B1",
+    "defaultvalue": 0,
+    "displayName": "BLOATWASP",
+    "hidden": 0,
+    "description": "Encounter the Bloatwasp",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/2c95a1aafd6a21e7495baae29a895aa93109be3d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/399094a5d67bc23dc51cd1db82c1413e40558770.jpg"
+  },
+  {
+    "name": "B10",
+    "defaultvalue": 0,
+    "displayName": "BLOATWASP SLAYER",
+    "hidden": 0,
+    "description": "Kill the Bloatwasp 10 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/a460b9107c66f549221bc5503fa5165df403ac03.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/399094a5d67bc23dc51cd1db82c1413e40558770.jpg"
+  },
+  {
+    "name": "B50",
+    "defaultvalue": 0,
+    "displayName": "BLOATWASP SLAUGHTERER",
+    "hidden": 0,
+    "description": "Kill the Bloatwasp 50 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/a34e1450d98783bea481f632ced5f76ecdbfed32.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/399094a5d67bc23dc51cd1db82c1413e40558770.jpg"
+  },
+  {
+    "name": "B100",
+    "defaultvalue": 0,
+    "displayName": " \tBLOATWASP EXECUTIONER",
+    "hidden": 0,
+    "description": "Kill the Bloatwasp 100 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/4cb83e83946eb410c1ee9aa2bb78a98784e4f68c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/399094a5d67bc23dc51cd1db82c1413e40558770.jpg"
+  },
+  {
+    "name": "V1",
+    "defaultvalue": 0,
+    "displayName": "VINEHUSK",
+    "hidden": 0,
+    "description": "Encounter the Vinehusk",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/2c95a1aafd6a21e7495baae29a895aa93109be3d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/399094a5d67bc23dc51cd1db82c1413e40558770.jpg"
+  },
+  {
+    "name": "V10",
+    "defaultvalue": 0,
+    "displayName": "VINEHUSK SLAYER",
+    "hidden": 0,
+    "description": "Kill the Vinehusk 10 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/a460b9107c66f549221bc5503fa5165df403ac03.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/399094a5d67bc23dc51cd1db82c1413e40558770.jpg"
+  },
+  {
+    "name": "V50",
+    "defaultvalue": 0,
+    "displayName": "VINEHUSK SLAUGHTERER",
+    "hidden": 0,
+    "description": "Kill the Vinehusk 50 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/a34e1450d98783bea481f632ced5f76ecdbfed32.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/399094a5d67bc23dc51cd1db82c1413e40558770.jpg"
+  },
+  {
+    "name": "V100",
+    "defaultvalue": 0,
+    "displayName": "VINEHUSK EXECUTIONER",
+    "hidden": 0,
+    "description": "Kill the Vinehusk 100 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/21a67a49f5121426ac4ab415c21746ed40c71c60.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/399094a5d67bc23dc51cd1db82c1413e40558770.jpg"
+  },
+  {
+    "name": "C1",
+    "defaultvalue": 0,
+    "displayName": "CRYPT SLAVE",
+    "hidden": 0,
+    "description": "Encounter the Crypt Slave",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/2c95a1aafd6a21e7495baae29a895aa93109be3d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/399094a5d67bc23dc51cd1db82c1413e40558770.jpg"
+  },
+  {
+    "name": "C10",
+    "defaultvalue": 0,
+    "displayName": "CRYPT SLAVE SLAYER",
+    "hidden": 0,
+    "description": "Kill the Crypt Slave 10 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/a460b9107c66f549221bc5503fa5165df403ac03.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/399094a5d67bc23dc51cd1db82c1413e40558770.jpg"
+  },
+  {
+    "name": "C50",
+    "defaultvalue": 0,
+    "displayName": "CRYPT SLAVE SLAUGHTERER",
+    "hidden": 0,
+    "description": "Kill the Crypt Slave 50 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/a34e1450d98783bea481f632ced5f76ecdbfed32.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/399094a5d67bc23dc51cd1db82c1413e40558770.jpg"
+  },
+  {
+    "name": "C100",
+    "defaultvalue": 0,
+    "displayName": "CRYPT SLAVE EXECUTIONER",
+    "hidden": 0,
+    "description": "Kill the Crypt Slave 100 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/4cb83e83946eb410c1ee9aa2bb78a98784e4f68c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/399094a5d67bc23dc51cd1db82c1413e40558770.jpg"
+  },
+  {
+    "name": "S1",
+    "defaultvalue": 0,
+    "displayName": "STINGVIPER",
+    "hidden": 0,
+    "description": "Encounter the Stingviper",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/2c95a1aafd6a21e7495baae29a895aa93109be3d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/399094a5d67bc23dc51cd1db82c1413e40558770.jpg"
+  },
+  {
+    "name": "S10",
+    "defaultvalue": 0,
+    "displayName": "STINGVIPER SLAYER",
+    "hidden": 0,
+    "description": "Kill the Stingviper 10 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/a460b9107c66f549221bc5503fa5165df403ac03.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/399094a5d67bc23dc51cd1db82c1413e40558770.jpg"
+  },
+  {
+    "name": "S50",
+    "defaultvalue": 0,
+    "displayName": "STINGVIPER SLAUGHTERER",
+    "hidden": 0,
+    "description": "Kill the Stingviper 50 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/a34e1450d98783bea481f632ced5f76ecdbfed32.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/fe5193a553574dca76edb366227fe0a12acf314a.jpg"
+  },
+  {
+    "name": "S100",
+    "defaultvalue": 0,
+    "displayName": "STINGVIPER EXECUTIONER",
+    "hidden": 0,
+    "description": "Kill the Stingviper 100 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/4cb83e83946eb410c1ee9aa2bb78a98784e4f68c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/399094a5d67bc23dc51cd1db82c1413e40558770.jpg"
+  },
+  {
+    "name": "L1",
+    "defaultvalue": 0,
+    "displayName": "LUMBER THORN",
+    "hidden": 0,
+    "description": "Encounter the Lumber Thorn",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/2c95a1aafd6a21e7495baae29a895aa93109be3d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/399094a5d67bc23dc51cd1db82c1413e40558770.jpg"
+  },
+  {
+    "name": "L10",
+    "defaultvalue": 0,
+    "displayName": "LUMBER THORN",
+    "hidden": 0,
+    "description": "Kill the Lumber Thorn 10 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/a460b9107c66f549221bc5503fa5165df403ac03.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/399094a5d67bc23dc51cd1db82c1413e40558770.jpg"
+  },
+  {
+    "name": "L50",
+    "defaultvalue": 0,
+    "displayName": "LUMBER THORN",
+    "hidden": 0,
+    "description": "Kill the Lumber Thorn 50 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/a34e1450d98783bea481f632ced5f76ecdbfed32.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/399094a5d67bc23dc51cd1db82c1413e40558770.jpg"
+  },
+  {
+    "name": "L100",
+    "defaultvalue": 0,
+    "displayName": "LUMBER THORN",
+    "hidden": 0,
+    "description": "Kill the Lumber Thorn 100 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/4cb83e83946eb410c1ee9aa2bb78a98784e4f68c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/399094a5d67bc23dc51cd1db82c1413e40558770.jpg"
+  },
+  {
+    "name": "P1",
+    "defaultvalue": 0,
+    "displayName": "PSYCHO SKULL",
+    "hidden": 0,
+    "description": "Encounter the Psycho Skull",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/2c95a1aafd6a21e7495baae29a895aa93109be3d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/399094a5d67bc23dc51cd1db82c1413e40558770.jpg"
+  },
+  {
+    "name": "P10",
+    "defaultvalue": 0,
+    "displayName": "PSYCHO SKULL SLAYER",
+    "hidden": 0,
+    "description": "Kill the Psycho Skull 10 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/a460b9107c66f549221bc5503fa5165df403ac03.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/399094a5d67bc23dc51cd1db82c1413e40558770.jpg"
+  },
+  {
+    "name": "P50",
+    "defaultvalue": 0,
+    "displayName": "PSYCHO SKULL SLAUGHTERER",
+    "hidden": 0,
+    "description": "Kill the Psycho Skull 50 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/a34e1450d98783bea481f632ced5f76ecdbfed32.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/399094a5d67bc23dc51cd1db82c1413e40558770.jpg"
+  },
+  {
+    "name": "P100",
+    "defaultvalue": 0,
+    "displayName": "PSYCHO SKULL EXECUTIONER",
+    "hidden": 0,
+    "description": "Kill the Psycho Skull 100 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/21a67a49f5121426ac4ab415c21746ed40c71c60.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/399094a5d67bc23dc51cd1db82c1413e40558770.jpg"
+  },
+  {
+    "name": "VS1",
+    "defaultvalue": 0,
+    "displayName": "VENOM SPIDER",
+    "hidden": 0,
+    "description": "Encounter the Venom Spider",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/2c95a1aafd6a21e7495baae29a895aa93109be3d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/399094a5d67bc23dc51cd1db82c1413e40558770.jpg"
+  },
+  {
+    "name": "VS10",
+    "defaultvalue": 0,
+    "displayName": "VENOM SPIDER SLAYER",
+    "hidden": 0,
+    "description": "Kill the Venom Spider 10 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/a460b9107c66f549221bc5503fa5165df403ac03.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/399094a5d67bc23dc51cd1db82c1413e40558770.jpg"
+  },
+  {
+    "name": "VS50",
+    "defaultvalue": 0,
+    "displayName": "VENOM SPIDER SLAUGHTERER",
+    "hidden": 0,
+    "description": "Kill the Venom Spider 50 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/a34e1450d98783bea481f632ced5f76ecdbfed32.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/399094a5d67bc23dc51cd1db82c1413e40558770.jpg"
+  },
+  {
+    "name": "VS100",
+    "defaultvalue": 0,
+    "displayName": "VENOM SPIDER EXECUTIONER",
+    "hidden": 0,
+    "description": "Kill the Venom Spider 100 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/4cb83e83946eb410c1ee9aa2bb78a98784e4f68c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/399094a5d67bc23dc51cd1db82c1413e40558770.jpg"
+  },
+  {
+    "name": "M1",
+    "defaultvalue": 0,
+    "displayName": "MINOTAUR",
+    "hidden": 0,
+    "description": "Encounter the Minotaur",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/2c95a1aafd6a21e7495baae29a895aa93109be3d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/399094a5d67bc23dc51cd1db82c1413e40558770.jpg"
+  },
+  {
+    "name": "M10",
+    "defaultvalue": 0,
+    "displayName": "MINOTAUR SLAYER",
+    "hidden": 0,
+    "description": "Kill the Minotaur 10 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/a460b9107c66f549221bc5503fa5165df403ac03.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/399094a5d67bc23dc51cd1db82c1413e40558770.jpg"
+  },
+  {
+    "name": "M50",
+    "defaultvalue": 0,
+    "displayName": "MINOTAUR SLAUGHTERER",
+    "hidden": 0,
+    "description": "Kill the Minotaur 50 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/a34e1450d98783bea481f632ced5f76ecdbfed32.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/399094a5d67bc23dc51cd1db82c1413e40558770.jpg"
+  },
+  {
+    "name": "M100",
+    "defaultvalue": 0,
+    "displayName": "MINOTAUR EXECUTIONER",
+    "hidden": 0,
+    "description": "Kill the Minotaur 100 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/4cb83e83946eb410c1ee9aa2bb78a98784e4f68c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/399094a5d67bc23dc51cd1db82c1413e40558770.jpg"
+  },
+  {
+    "name": "D1",
+    "defaultvalue": 0,
+    "displayName": "DOOM BAT",
+    "hidden": 0,
+    "description": "Encounter the Doom Bat",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/2c95a1aafd6a21e7495baae29a895aa93109be3d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/399094a5d67bc23dc51cd1db82c1413e40558770.jpg"
+  },
+  {
+    "name": "D10",
+    "defaultvalue": 0,
+    "displayName": "DOOM BAT SLAYER",
+    "hidden": 0,
+    "description": "Kill the Doom Bat 10 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/a460b9107c66f549221bc5503fa5165df403ac03.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/399094a5d67bc23dc51cd1db82c1413e40558770.jpg"
+  },
+  {
+    "name": "D50",
+    "defaultvalue": 0,
+    "displayName": "DOOM BAT SLAUGHTERER",
+    "hidden": 0,
+    "description": "Kill the Doom Bat 50 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/a34e1450d98783bea481f632ced5f76ecdbfed32.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/fe5193a553574dca76edb366227fe0a12acf314a.jpg"
+  },
+  {
+    "name": "D100",
+    "defaultvalue": 0,
+    "displayName": "DOOM BAT EXECUTIONER",
+    "hidden": 0,
+    "description": "Kill the Doom Bat 100 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/4cb83e83946eb410c1ee9aa2bb78a98784e4f68c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/399094a5d67bc23dc51cd1db82c1413e40558770.jpg"
+  },
+  {
+    "name": "H1",
+    "defaultvalue": 0,
+    "displayName": "HELL SKULL",
+    "hidden": 0,
+    "description": "Encounter the Hellskull",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/2c95a1aafd6a21e7495baae29a895aa93109be3d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/399094a5d67bc23dc51cd1db82c1413e40558770.jpg"
+  },
+  {
+    "name": "H10",
+    "defaultvalue": 0,
+    "displayName": "HELL SKULL SLAYER",
+    "hidden": 0,
+    "description": "Kill the Hell Skull 10 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/a460b9107c66f549221bc5503fa5165df403ac03.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/399094a5d67bc23dc51cd1db82c1413e40558770.jpg"
+  },
+  {
+    "name": "H50",
+    "defaultvalue": 0,
+    "displayName": "HELL SKULL SLAUGHTERER",
+    "hidden": 0,
+    "description": "Kill the Hell Skull 50 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/a34e1450d98783bea481f632ced5f76ecdbfed32.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/399094a5d67bc23dc51cd1db82c1413e40558770.jpg"
+  },
+  {
+    "name": "H100",
+    "defaultvalue": 0,
+    "displayName": "HELL SKULL EXECUTIONER",
+    "hidden": 0,
+    "description": "Kill the Hell Skull 100 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/4cb83e83946eb410c1ee9aa2bb78a98784e4f68c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/399094a5d67bc23dc51cd1db82c1413e40558770.jpg"
+  },
+  {
+    "name": "HC1",
+    "defaultvalue": 0,
+    "displayName": "HELL CREEPER",
+    "hidden": 0,
+    "description": "Encounter the Hell Creeper",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/2c95a1aafd6a21e7495baae29a895aa93109be3d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/399094a5d67bc23dc51cd1db82c1413e40558770.jpg"
+  },
+  {
+    "name": "HC10",
+    "defaultvalue": 0,
+    "displayName": "HELL CREEPER SLAYER",
+    "hidden": 0,
+    "description": "Kill the Hell Creeper 10 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/a460b9107c66f549221bc5503fa5165df403ac03.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/399094a5d67bc23dc51cd1db82c1413e40558770.jpg"
+  },
+  {
+    "name": "HC50",
+    "defaultvalue": 0,
+    "displayName": "HELL CREEPER SLAUGHTERER",
+    "hidden": 0,
+    "description": "Kill the Hell Creeper 50 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/a34e1450d98783bea481f632ced5f76ecdbfed32.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/399094a5d67bc23dc51cd1db82c1413e40558770.jpg"
+  },
+  {
+    "name": "HC100",
+    "defaultvalue": 0,
+    "displayName": "HELL CREEPER EXECUTIONER",
+    "hidden": 0,
+    "description": "Kill the Hell Creeper 100 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/4cb83e83946eb410c1ee9aa2bb78a98784e4f68c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/399094a5d67bc23dc51cd1db82c1413e40558770.jpg"
+  },
+  {
+    "name": "DE1",
+    "defaultvalue": 0,
+    "displayName": "DEVIL EYE",
+    "hidden": 0,
+    "description": "Encounter the Devil Eye",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/9938169efcd63dae668fed19138b1b66ffd33f43.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/399094a5d67bc23dc51cd1db82c1413e40558770.jpg"
+  },
+  {
+    "name": "DE10",
+    "defaultvalue": 0,
+    "displayName": "DEVIL EYE SLAYER",
+    "hidden": 0,
+    "description": "Kill the Devil Eye 10 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/a460b9107c66f549221bc5503fa5165df403ac03.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/399094a5d67bc23dc51cd1db82c1413e40558770.jpg"
+  },
+  {
+    "name": "DE50",
+    "defaultvalue": 0,
+    "displayName": "DEVIL EYE SLAUGHTERER",
+    "hidden": 0,
+    "description": "Kill the Devil Eye 50 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/a34e1450d98783bea481f632ced5f76ecdbfed32.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/399094a5d67bc23dc51cd1db82c1413e40558770.jpg"
+  },
+  {
+    "name": "DE100",
+    "defaultvalue": 0,
+    "displayName": "DEVIL EYE EXECUTIONER",
+    "hidden": 0,
+    "description": "Kill the Devil Eye 100 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/4cb83e83946eb410c1ee9aa2bb78a98784e4f68c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/fe5193a553574dca76edb366227fe0a12acf314a.jpg"
+  },
+  {
+    "name": "ET1",
+    "defaultvalue": 0,
+    "displayName": "ELDER THORN SLAYER",
+    "hidden": 0,
+    "description": "Kill the Elder Thorn ",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/d5e98419243663e57f34838733c718338a7ef7de.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/399094a5d67bc23dc51cd1db82c1413e40558770.jpg"
+  },
+  {
+    "name": "ET2",
+    "defaultvalue": 0,
+    "displayName": "ELDER THORN SLAUGHTERER",
+    "hidden": 0,
+    "description": "Kill the Elder Thorn 2 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/b5edb64900c4f87563b687bab10aa73ab907a04c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/399094a5d67bc23dc51cd1db82c1413e40558770.jpg"
+  },
+  {
+    "name": "ET3",
+    "defaultvalue": 0,
+    "displayName": "ELDER THORN EXECUTIONER",
+    "hidden": 0,
+    "description": "Kill the Elder Thorn 3 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/0d75cf5c0a1e4fd25fd1dd94fd490d35fac71dcb.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/399094a5d67bc23dc51cd1db82c1413e40558770.jpg"
+  },
+  {
+    "name": "HY1",
+    "defaultvalue": 0,
+    "displayName": "HYDRA SLAYER",
+    "hidden": 0,
+    "description": "Kill the Hydra",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/d5e98419243663e57f34838733c718338a7ef7de.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/399094a5d67bc23dc51cd1db82c1413e40558770.jpg"
+  },
+  {
+    "name": "HY2",
+    "defaultvalue": 0,
+    "displayName": "HYDRA SLAUGHTERER",
+    "hidden": 0,
+    "description": "Kill the Hydra 2 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/b5edb64900c4f87563b687bab10aa73ab907a04c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/399094a5d67bc23dc51cd1db82c1413e40558770.jpg"
+  },
+  {
+    "name": "HY3",
+    "defaultvalue": 0,
+    "displayName": "HYDRA EXECUTIONER",
+    "hidden": 0,
+    "description": "Kill the Hydra 3 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/0d75cf5c0a1e4fd25fd1dd94fd490d35fac71dcb.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/399094a5d67bc23dc51cd1db82c1413e40558770.jpg"
+  },
+  {
+    "name": "A1",
+    "defaultvalue": 0,
+    "displayName": "ARACHNE SLAYER",
+    "hidden": 0,
+    "description": "Kill the Arachne Qeen",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/d5e98419243663e57f34838733c718338a7ef7de.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/399094a5d67bc23dc51cd1db82c1413e40558770.jpg"
+  },
+  {
+    "name": "A2",
+    "defaultvalue": 0,
+    "displayName": "ARACHNE SLAUGHTERER",
+    "hidden": 0,
+    "description": "Kill the Arachne Qeen 2 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/b5edb64900c4f87563b687bab10aa73ab907a04c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/399094a5d67bc23dc51cd1db82c1413e40558770.jpg"
+  },
+  {
+    "name": "A3",
+    "defaultvalue": 0,
+    "displayName": "ARACHNE EXECUTIONER",
+    "hidden": 0,
+    "description": "Kill the Arachne Qeen 3 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/0d75cf5c0a1e4fd25fd1dd94fd490d35fac71dcb.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/399094a5d67bc23dc51cd1db82c1413e40558770.jpg"
+  },
+  {
+    "name": "I1",
+    "defaultvalue": 0,
+    "displayName": "INFERNO SLAYER",
+    "hidden": 0,
+    "description": "Kill the Inferno Behemoth",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/d5e98419243663e57f34838733c718338a7ef7de.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/399094a5d67bc23dc51cd1db82c1413e40558770.jpg"
+  },
+  {
+    "name": "I2",
+    "defaultvalue": 0,
+    "displayName": "INFERNO SLAUGHTERER",
+    "hidden": 0,
+    "description": "Kill the Inferno Behemoth 2 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/b5edb64900c4f87563b687bab10aa73ab907a04c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/399094a5d67bc23dc51cd1db82c1413e40558770.jpg"
+  },
+  {
+    "name": "I3",
+    "defaultvalue": 0,
+    "displayName": "INFERNO EXECUTIONER",
+    "hidden": 0,
+    "description": "Kill the Inferno Behemoth 3 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/0d75cf5c0a1e4fd25fd1dd94fd490d35fac71dcb.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/399094a5d67bc23dc51cd1db82c1413e40558770.jpg"
+  },
+  {
+    "name": "Level0",
+    "defaultvalue": 0,
+    "displayName": "HELLISH WOODS",
+    "hidden": 0,
+    "description": "Play one hell of a round in WOODS",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/c7f95b4626e3a08452d6718dc89ea69554fc8015.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/399094a5d67bc23dc51cd1db82c1413e40558770.jpg"
+  },
+  {
+    "name": "Level1",
+    "defaultvalue": 0,
+    "displayName": "HELLISH TEMPLE",
+    "hidden": 0,
+    "description": "Play one hell of a round in TEMPLE",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/c7f95b4626e3a08452d6718dc89ea69554fc8015.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/399094a5d67bc23dc51cd1db82c1413e40558770.jpg"
+  },
+  {
+    "name": "Level2",
+    "defaultvalue": 0,
+    "displayName": "HELLISH CRYPT",
+    "hidden": 0,
+    "description": "Play one hell of a round in CRYPT",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/c7f95b4626e3a08452d6718dc89ea69554fc8015.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/399094a5d67bc23dc51cd1db82c1413e40558770.jpg"
+  },
+  {
+    "name": "Level3",
+    "defaultvalue": 0,
+    "displayName": "HELLISH HELL",
+    "hidden": 0,
+    "description": "Play one hell of a round in HELL",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/c7f95b4626e3a08452d6718dc89ea69554fc8015.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/399094a5d67bc23dc51cd1db82c1413e40558770.jpg"
+  },
+  {
+    "name": "Level0_C1",
+    "defaultvalue": 0,
+    "displayName": "You are your own devil, so make this world your hell",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/6b9c1a2a0d94cda24e9c4cddf2ec597e8ef10753.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/399094a5d67bc23dc51cd1db82c1413e40558770.jpg"
+  },
+  {
+    "name": "Level0_C2",
+    "defaultvalue": 0,
+    "displayName": "Clever as the devil, twice as pretty",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/6b9c1a2a0d94cda24e9c4cddf2ec597e8ef10753.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/399094a5d67bc23dc51cd1db82c1413e40558770.jpg"
+  },
+  {
+    "name": "Level0_C3",
+    "defaultvalue": 0,
+    "displayName": "The devil pulls the strings which make us all to dancing demons",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/6b9c1a2a0d94cda24e9c4cddf2ec597e8ef10753.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/399094a5d67bc23dc51cd1db82c1413e40558770.jpg"
+  },
+  {
+    "name": "Level0_C4",
+    "defaultvalue": 0,
+    "displayName": "Waking up to see the devils face and asking… \"what time is it?\"",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/6b9c1a2a0d94cda24e9c4cddf2ec597e8ef10753.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/399094a5d67bc23dc51cd1db82c1413e40558770.jpg"
+  },
+  {
+    "name": "Level0_C5",
+    "defaultvalue": 0,
+    "displayName": "When you are in hell, only the devil can show you the way",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/6b9c1a2a0d94cda24e9c4cddf2ec597e8ef10753.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/399094a5d67bc23dc51cd1db82c1413e40558770.jpg"
+  },
+  {
+    "name": "Level0_C6",
+    "defaultvalue": 0,
+    "displayName": "God may accept you but the demons desire you",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/9b9bb04e5219e15202202d6856101a317ca324ed.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/399094a5d67bc23dc51cd1db82c1413e40558770.jpg"
+  },
+  {
+    "name": "Level0_C7",
+    "defaultvalue": 0,
+    "displayName": "Living like a devil, killing like a demon, dying like a saint",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/6b9c1a2a0d94cda24e9c4cddf2ec597e8ef10753.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/399094a5d67bc23dc51cd1db82c1413e40558770.jpg"
+  },
+  {
+    "name": "Level0_C8",
+    "defaultvalue": 0,
+    "displayName": "The Devil may be out of fashoin, but his guns will never",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/6b9c1a2a0d94cda24e9c4cddf2ec597e8ef10753.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/399094a5d67bc23dc51cd1db82c1413e40558770.jpg"
+  },
+  {
+    "name": "Level0_C9",
+    "defaultvalue": 0,
+    "displayName": "God sends meat and the devil sends the cooks",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/6b9c1a2a0d94cda24e9c4cddf2ec597e8ef10753.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/399094a5d67bc23dc51cd1db82c1413e40558770.jpg"
+  },
+  {
+    "name": "Level1_C1",
+    "defaultvalue": 0,
+    "displayName": " \tYou are your own devil, so make this world your hell",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/6b9c1a2a0d94cda24e9c4cddf2ec597e8ef10753.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/399094a5d67bc23dc51cd1db82c1413e40558770.jpg"
+  },
+  {
+    "name": "Level1_C2",
+    "defaultvalue": 0,
+    "displayName": "Clever as the devil, twice as pretty",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/6b9c1a2a0d94cda24e9c4cddf2ec597e8ef10753.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/399094a5d67bc23dc51cd1db82c1413e40558770.jpg"
+  },
+  {
+    "name": "Level1_C3",
+    "defaultvalue": 0,
+    "displayName": "The devil pulls the strings which make us all to dancing demons",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/6b9c1a2a0d94cda24e9c4cddf2ec597e8ef10753.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/399094a5d67bc23dc51cd1db82c1413e40558770.jpg"
+  },
+  {
+    "name": "Level1_C4",
+    "defaultvalue": 0,
+    "displayName": "Waking up to see the devils face and asking… \"what time is it?\"",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/6b9c1a2a0d94cda24e9c4cddf2ec597e8ef10753.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/399094a5d67bc23dc51cd1db82c1413e40558770.jpg"
+  },
+  {
+    "name": "Level1_C5",
+    "defaultvalue": 0,
+    "displayName": "When you are in hell, only the devil can show you the way",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/6b9c1a2a0d94cda24e9c4cddf2ec597e8ef10753.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/399094a5d67bc23dc51cd1db82c1413e40558770.jpg"
+  },
+  {
+    "name": "Level1_C6",
+    "defaultvalue": 0,
+    "displayName": "God may accept you but the demons desire you",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/6b9c1a2a0d94cda24e9c4cddf2ec597e8ef10753.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/399094a5d67bc23dc51cd1db82c1413e40558770.jpg"
+  },
+  {
+    "name": "Level1_C7",
+    "defaultvalue": 0,
+    "displayName": " \tLiving like a devil, killing like a demon, dying like a saint",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/6b9c1a2a0d94cda24e9c4cddf2ec597e8ef10753.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/399094a5d67bc23dc51cd1db82c1413e40558770.jpg"
+  },
+  {
+    "name": "Level1_C8",
+    "defaultvalue": 0,
+    "displayName": "The Devil may be out of fashoin, but his guns will never",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/6b9c1a2a0d94cda24e9c4cddf2ec597e8ef10753.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/399094a5d67bc23dc51cd1db82c1413e40558770.jpg"
+  },
+  {
+    "name": "Level1_C9",
+    "defaultvalue": 0,
+    "displayName": "God sends meat and the devil sends the cooks",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/6b9c1a2a0d94cda24e9c4cddf2ec597e8ef10753.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/399094a5d67bc23dc51cd1db82c1413e40558770.jpg"
+  },
+  {
+    "name": "Level2_C1",
+    "defaultvalue": 0,
+    "displayName": "You are your own devil, so make this world your hell",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/6b9c1a2a0d94cda24e9c4cddf2ec597e8ef10753.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/399094a5d67bc23dc51cd1db82c1413e40558770.jpg"
+  },
+  {
+    "name": "Level2_C2",
+    "defaultvalue": 0,
+    "displayName": "Clever as the devil, twice as pretty",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/6b9c1a2a0d94cda24e9c4cddf2ec597e8ef10753.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/399094a5d67bc23dc51cd1db82c1413e40558770.jpg"
+  },
+  {
+    "name": "Level2_C3",
+    "defaultvalue": 0,
+    "displayName": "The devil pulls the strings which make us all to dancing demons",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/6b9c1a2a0d94cda24e9c4cddf2ec597e8ef10753.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/399094a5d67bc23dc51cd1db82c1413e40558770.jpg"
+  },
+  {
+    "name": "Level2_C4",
+    "defaultvalue": 0,
+    "displayName": "Waking up to see the devils face and asking… \"what time is it?\"",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/6b9c1a2a0d94cda24e9c4cddf2ec597e8ef10753.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/399094a5d67bc23dc51cd1db82c1413e40558770.jpg"
+  },
+  {
+    "name": "Level2_C5",
+    "defaultvalue": 0,
+    "displayName": "When you are in hell, only the devil can show you the way",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/9b9bb04e5219e15202202d6856101a317ca324ed.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/399094a5d67bc23dc51cd1db82c1413e40558770.jpg"
+  },
+  {
+    "name": "Level2_C6",
+    "defaultvalue": 0,
+    "displayName": "God may accept you but the demons desire you",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/6b9c1a2a0d94cda24e9c4cddf2ec597e8ef10753.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/399094a5d67bc23dc51cd1db82c1413e40558770.jpg"
+  },
+  {
+    "name": "Level2_C7",
+    "defaultvalue": 0,
+    "displayName": "Living like a devil, killing like a demon, dying like a saint",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/9b9bb04e5219e15202202d6856101a317ca324ed.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/399094a5d67bc23dc51cd1db82c1413e40558770.jpg"
+  },
+  {
+    "name": "Level2_C8",
+    "defaultvalue": 0,
+    "displayName": "The Devil may be out of fashoin, but his guns will never",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/6b9c1a2a0d94cda24e9c4cddf2ec597e8ef10753.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/399094a5d67bc23dc51cd1db82c1413e40558770.jpg"
+  },
+  {
+    "name": "Level2_C9",
+    "defaultvalue": 0,
+    "displayName": "God sends meat and the devil sends the cooks",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/6b9c1a2a0d94cda24e9c4cddf2ec597e8ef10753.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/399094a5d67bc23dc51cd1db82c1413e40558770.jpg"
+  },
+  {
+    "name": "Level3_C1",
+    "defaultvalue": 0,
+    "displayName": "You are your own devil, so make this world your hell",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/6b9c1a2a0d94cda24e9c4cddf2ec597e8ef10753.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/399094a5d67bc23dc51cd1db82c1413e40558770.jpg"
+  },
+  {
+    "name": "Level3_C2",
+    "defaultvalue": 0,
+    "displayName": "Clever as the devil, twice as pretty",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/6b9c1a2a0d94cda24e9c4cddf2ec597e8ef10753.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/399094a5d67bc23dc51cd1db82c1413e40558770.jpg"
+  },
+  {
+    "name": "Level3_C3",
+    "defaultvalue": 0,
+    "displayName": "The devil pulls the strings which make us all to dancing demons",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/6b9c1a2a0d94cda24e9c4cddf2ec597e8ef10753.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/399094a5d67bc23dc51cd1db82c1413e40558770.jpg"
+  },
+  {
+    "name": "Level3_C4",
+    "defaultvalue": 0,
+    "displayName": "Waking up to see the devils face and asking… \"what time is it?\"",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/6b9c1a2a0d94cda24e9c4cddf2ec597e8ef10753.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/399094a5d67bc23dc51cd1db82c1413e40558770.jpg"
+  },
+  {
+    "name": "Level3_C5",
+    "defaultvalue": 0,
+    "displayName": "When you are in hell, only the devil can show you the way",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/6b9c1a2a0d94cda24e9c4cddf2ec597e8ef10753.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/399094a5d67bc23dc51cd1db82c1413e40558770.jpg"
+  },
+  {
+    "name": "Level3_C6",
+    "defaultvalue": 0,
+    "displayName": "God may accept you but the demons desire you",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/6b9c1a2a0d94cda24e9c4cddf2ec597e8ef10753.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/fe5193a553574dca76edb366227fe0a12acf314a.jpg"
+  },
+  {
+    "name": "Level3_C7",
+    "defaultvalue": 0,
+    "displayName": " \tLiving like a devil, killing like a demon, dying like a saint",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/6b9c1a2a0d94cda24e9c4cddf2ec597e8ef10753.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/399094a5d67bc23dc51cd1db82c1413e40558770.jpg"
+  },
+  {
+    "name": "Level3_C8",
+    "defaultvalue": 0,
+    "displayName": "The Devil may be out of fashoin, but his guns will never",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/6b9c1a2a0d94cda24e9c4cddf2ec597e8ef10753.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/399094a5d67bc23dc51cd1db82c1413e40558770.jpg"
+  },
+  {
+    "name": "Level3_C9",
+    "defaultvalue": 0,
+    "displayName": "God sends meat and the devil sends the cooks",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/6b9c1a2a0d94cda24e9c4cddf2ec597e8ef10753.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/399094a5d67bc23dc51cd1db82c1413e40558770.jpg"
+  },
+  {
+    "name": "All_C",
+    "defaultvalue": 0,
+    "displayName": "LUCKIEST DEVIL IN HELL",
+    "hidden": 0,
+    "description": "Find all Lucky Devil Coins",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/2a660f5462a0f13c819db633cf910c96ec51ffed.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/f184f9400bee1478ce2bda67d46647805e3232c1.jpg"
+  },
+  {
+    "name": "PH1",
+    "defaultvalue": 0,
+    "displayName": "PHANTOM",
+    "hidden": 0,
+    "description": "Ecounter the Phantom",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/2c95a1aafd6a21e7495baae29a895aa93109be3d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/399094a5d67bc23dc51cd1db82c1413e40558770.jpg"
+  },
+  {
+    "name": "PH10",
+    "defaultvalue": 0,
+    "displayName": "PHANTOM SLAYER",
+    "hidden": 0,
+    "description": "Kill the Phantom 10 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/a460b9107c66f549221bc5503fa5165df403ac03.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/399094a5d67bc23dc51cd1db82c1413e40558770.jpg"
+  },
+  {
+    "name": "PH50",
+    "defaultvalue": 0,
+    "displayName": "PHANTOM SLAUGHTERER",
+    "hidden": 0,
+    "description": "Kill the Phantom 50 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/a34e1450d98783bea481f632ced5f76ecdbfed32.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/399094a5d67bc23dc51cd1db82c1413e40558770.jpg"
+  },
+  {
+    "name": "PH100",
+    "defaultvalue": 0,
+    "displayName": "PHANTOM EXECUTIONER",
+    "hidden": 0,
+    "description": "Kill the Phantom 100 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/4cb83e83946eb410c1ee9aa2bb78a98784e4f68c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/399094a5d67bc23dc51cd1db82c1413e40558770.jpg"
+  },
+  {
+    "name": "SC1",
+    "defaultvalue": 0,
+    "displayName": "SCORCH MAW",
+    "hidden": 0,
+    "description": "Ecounter the Scorch Maw",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/2c95a1aafd6a21e7495baae29a895aa93109be3d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/399094a5d67bc23dc51cd1db82c1413e40558770.jpg"
+  },
+  {
+    "name": "SC10",
+    "defaultvalue": 0,
+    "displayName": "SCORCH MAW SLAYER",
+    "hidden": 0,
+    "description": "Kill the Scorch Maw 10 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/a460b9107c66f549221bc5503fa5165df403ac03.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/fe5193a553574dca76edb366227fe0a12acf314a.jpg"
+  },
+  {
+    "name": "SC50",
+    "defaultvalue": 0,
+    "displayName": "SCORCH MAW SLAUGHTERER",
+    "hidden": 0,
+    "description": "Kill the Scorch Maw 50 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/a34e1450d98783bea481f632ced5f76ecdbfed32.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/399094a5d67bc23dc51cd1db82c1413e40558770.jpg"
+  },
+  {
+    "name": "SC100",
+    "defaultvalue": 0,
+    "displayName": "SCORCH MAW EXECUTIONER",
+    "hidden": 0,
+    "description": "Kill the Scorch Maw 100 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/4cb83e83946eb410c1ee9aa2bb78a98784e4f68c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/700780/399094a5d67bc23dc51cd1db82c1413e40558770.jpg"
+  }
+]

@@ -1,0 +1,806 @@
+﻿{
+  "STAT_PLAY_CNT_TUTOLIAL": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_PLAY_CNT_STAGE1_NORMAL": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_PLAY_CNT_STAGE2_NORMAL": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_PLAY_CNT_STAGE3_NORMAL": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_PLAY_CNT_STAGE4_NORMAL": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_PLAY_CNT_STAGE5_NORMAL": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_PLAY_CNT_STAGE6_NORMAL": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_PLAY_CNT_STAGE7_NORMAL": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_PLAY_CNT_STAGE8_NORMAL": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_STARTUP_CNT": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_STARTUP_TIME": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_PLAY_CNT_PERFECT": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_LOW_ANGLE_WATCH_TIME": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_CLEAR_SCORE_STAGE1_NORMAL": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_CLEAR_SCORE_STAGE2_NORMAL": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_CLEAR_SCORE_STAGE3_NORMAL": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_CLEAR_SCORE_STAGE4_NORMAL": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_CLEAR_SCORE_STAGE5_NORMAL": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_CLEAR_SCORE_STAGE6_NORMAL": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_CLEAR_SCORE_STAGE7_NORMAL": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_CLEAR_SCORE_STAGE8_NORMAL": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_COMBO_CNT_STAGE1_NORMAL": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_COMBO_CNT_STAGE2_NORMAL": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_COMBO_CNT_STAGE3_NORMAL": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_COMBO_CNT_STAGE4_NORMAL": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_COMBO_CNT_STAGE5_NORMAL": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_COMBO_CNT_STAGE6_NORMAL": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_COMBO_CNT_STAGE7_NORMAL": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_COMBO_CNT_STAGE8_NORMAL": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_PLAY_CNT_STAGE1_HARD": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_PLAY_CNT_STAGE2_HARD": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_PLAY_CNT_STAGE3_HARD": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_PLAY_CNT_STAGE4_HARD": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_PLAY_CNT_STAGE5_HARD": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_PLAY_CNT_STAGE6_HARD": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_PLAY_CNT_STAGE7_HARD": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_PLAY_CNT_STAGE8_HARD": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_CLEAR_SCORE_STAGE1_HARD": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_CLEAR_SCORE_STAGE2_HARD": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_CLEAR_SCORE_STAGE3_HARD": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_CLEAR_SCORE_STAGE4_HARD": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_CLEAR_SCORE_STAGE5_HARD": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_CLEAR_SCORE_STAGE6_HARD": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_CLEAR_SCORE_STAGE7_HARD": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_CLEAR_SCORE_STAGE8_HARD": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_COMBO_CNT_STAGE1_HARD": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_COMBO_CNT_STAGE2_HARD": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_COMBO_CNT_STAGE3_HARD": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_COMBO_CNT_STAGE4_HARD": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_COMBO_CNT_STAGE5_HARD": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_COMBO_CNT_STAGE6_HARD": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_COMBO_CNT_STAGE7_HARD": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_COMBO_CNT_STAGE8_HARD": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_TOTAL_PLAY_TIME": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_CLEAR_RANK_TUTOLIAL": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_CLEAR_RANK_STAGE1_NORMAL": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_CLEAR_RANK_STAGE2_NORMAL": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_CLEAR_RANK_STAGE3_NORMAL": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_CLEAR_RANK_STAGE4_NORMAL": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_CLEAR_RANK_STAGE5_NORMAL": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_CLEAR_RANK_STAGE6_NORMAL": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_CLEAR_RANK_STAGE7_NORMAL": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_CLEAR_RANK_STAGE8_NORMAL": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_CLEAR_RANK_STAGE1_HARD": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_CLEAR_RANK_STAGE2_HARD": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_CLEAR_RANK_STAGE3_HARD": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_CLEAR_RANK_STAGE4_HARD": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_CLEAR_RANK_STAGE5_HARD": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_CLEAR_RANK_STAGE6_HARD": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_CLEAR_RANK_STAGE7_HARD": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_CLEAR_RANK_STAGE8_HARD": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_PLAY_CNT_DLC01_STAGE1_NORMAL": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_PLAY_CNT_DLC01_STAGE2_NORMAL": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_PLAY_CNT_DLC01_STAGE3_NORMAL": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_PLAY_CNT_DLC01_STAGE4_NORMAL": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_PLAY_CNT_DLC01_STAGE5_NORMAL": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_CLEAR_SCORE_DLC01_STAGE1_NORMAL": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_CLEAR_SCORE_DLC01_STAGE2_NORMAL": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_CLEAR_SCORE_DLC01_STAGE3_NORMAL": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_CLEAR_SCORE_DLC01_STAGE4_NORMAL": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_CLEAR_SCORE_DLC01_STAGE5_NORMAL": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_CLEAR_RANK_DLC01_STAGE1_NORMAL": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_CLEAR_RANK_DLC01_STAGE2_NORMAL": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_CLEAR_RANK_DLC01_STAGE3_NORMAL": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_CLEAR_RANK_DLC01_STAGE4_NORMAL": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_CLEAR_RANK_DLC01_STAGE5_NORMAL": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_COMBO_CNT_DLC01_STAGE1_NORMAL": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_COMBO_CNT_DLC01_STAGE2_NORMAL": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_COMBO_CNT_DLC01_STAGE3_NORMAL": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_COMBO_CNT_DLC01_STAGE4_NORMAL": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_COMBO_CNT_DLC01_STAGE5_NORMAL": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_PLAY_CNT_DLC01_STAGE1_HARD": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_PLAY_CNT_DLC01_STAGE2_HARD": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_PLAY_CNT_DLC01_STAGE3_HARD": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_PLAY_CNT_DLC01_STAGE4_HARD": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_PLAY_CNT_DLC01_STAGE5_HARD": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_CLEAR_SCORE_DLC01_STAGE1_HARD": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_CLEAR_SCORE_DLC01_STAGE2_HARD": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_CLEAR_SCORE_DLC01_STAGE3_HARD": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_CLEAR_SCORE_DLC01_STAGE4_HARD": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_CLEAR_SCORE_DLC01_STAGE5_HARD": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_CLEAR_RANK_DLC01_STAGE1_HARD": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_CLEAR_RANK_DLC01_STAGE2_HARD": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_CLEAR_RANK_DLC01_STAGE3_HARD": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_CLEAR_RANK_DLC01_STAGE4_HARD": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_CLEAR_RANK_DLC01_STAGE5_HARD": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_COMBO_CNT_DLC01_STAGE1_HARD": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_COMBO_CNT_DLC01_STAGE2_HARD": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_COMBO_CNT_DLC01_STAGE3_HARD": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_COMBO_CNT_DLC01_STAGE4_HARD": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_COMBO_CNT_DLC01_STAGE5_HARD": {
+    "description": "",
+    "value": 0
+  },
+  "STAGE1_START_TOTAL": {
+    "description": "",
+    "value": 0
+  },
+  "STAGE1_END_TOTAL": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_PLAY_CNT_DLC02_STAGE1_NORMAL": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_PLAY_CNT_DLC02_STAGE2_NORMAL": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_PLAY_CNT_DLC02_STAGE3_NORMAL": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_PLAY_CNT_DLC02_STAGE4_NORMAL": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_PLAY_CNT_DLC02_STAGE5_NORMAL": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_CLEAR_SCORE_DLC02_STAGE1_NORMAL": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_CLEAR_SCORE_DLC02_STAGE2_NORMAL": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_CLEAR_SCORE_DLC02_STAGE3_NORMAL": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_CLEAR_SCORE_DLC02_STAGE4_NORMAL": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_CLEAR_SCORE_DLC02_STAGE5_NORMAL": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_CLEAR_RANK_DLC02_STAGE1_NORMAL": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_CLEAR_RANK_DLC02_STAGE2_NORMAL": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_CLEAR_RANK_DLC02_STAGE3_NORMAL": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_CLEAR_RANK_DLC02_STAGE4_NORMAL": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_CLEAR_RANK_DLC02_STAGE5_NORMAL": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_COMBO_CNT_DLC02_STAGE1_NORMAL": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_COMBO_CNT_DLC02_STAGE2_NORMAL": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_COMBO_CNT_DLC02_STAGE3_NORMAL": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_COMBO_CNT_DLC02_STAGE4_NORMAL": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_COMBO_CNT_DLC02_STAGE5_NORMAL": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_PLAY_CNT_DLC02_STAGE1_HARD": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_PLAY_CNT_DLC02_STAGE2_HARD": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_PLAY_CNT_DLC02_STAGE3_HARD": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_PLAY_CNT_DLC02_STAGE4_HARD": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_PLAY_CNT_DLC02_STAGE5_HARD": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_CLEAR_SCORE_DLC02_STAGE1_HARD": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_CLEAR_SCORE_DLC02_STAGE2_HARD": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_CLEAR_SCORE_DLC02_STAGE3_HARD": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_CLEAR_SCORE_DLC02_STAGE4_HARD": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_CLEAR_SCORE_DLC02_STAGE5_HARD": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_CLEAR_RANK_DLC02_STAGE1_HARD": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_CLEAR_RANK_DLC02_STAGE2_HARD": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_CLEAR_RANK_DLC02_STAGE3_HARD": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_CLEAR_RANK_DLC02_STAGE4_HARD": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_CLEAR_RANK_DLC02_STAGE5_HARD": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_COMBO_CNT_DLC02_STAGE1_HARD": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_COMBO_CNT_DLC02_STAGE2_HARD": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_COMBO_CNT_DLC02_STAGE3_HARD": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_COMBO_CNT_DLC02_STAGE4_HARD": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_COMBO_CNT_DLC02_STAGE5_HARD": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_PLAY_CNT_DLC03_STAGE1_NORMAL": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_PLAY_CNT_DLC03_STAGE2_NORMAL": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_PLAY_CNT_DLC03_STAGE3_NORMAL": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_PLAY_CNT_DLC03_STAGE4_NORMAL": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_PLAY_CNT_DLC03_STAGE5_NORMAL": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_CLEAR_SCORE_DLC03_STAGE1_NORMAL": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_CLEAR_SCORE_DLC03_STAGE2_NORMAL": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_CLEAR_SCORE_DLC03_STAGE3_NORMAL": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_CLEAR_SCORE_DLC03_STAGE4_NORMAL": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_CLEAR_SCORE_DLC03_STAGE5_NORMAL": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_CLEAR_RANK_DLC03_STAGE1_NORMAL": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_CLEAR_RANK_DLC03_STAGE2_NORMAL": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_CLEAR_RANK_DLC03_STAGE3_NORMAL": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_CLEAR_RANK_DLC03_STAGE4_NORMAL": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_CLEAR_RANK_DLC03_STAGE5_NORMAL": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_COMBO_CNT_DLC03_STAGE1_NORMAL": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_COMBO_CNT_DLC03_STAGE2_NORMAL": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_COMBO_CNT_DLC03_STAGE3_NORMAL": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_COMBO_CNT_DLC03_STAGE4_NORMAL": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_COMBO_CNT_DLC03_STAGE5_NORMAL": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_PLAY_CNT_DLC03_STAGE1_HARD": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_PLAY_CNT_DLC03_STAGE2_HARD": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_PLAY_CNT_DLC03_STAGE3_HARD": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_PLAY_CNT_DLC03_STAGE4_HARD": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_PLAY_CNT_DLC03_STAGE5_HARD": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_CLEAR_SCORE_DLC03_STAGE1_HARD": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_CLEAR_SCORE_DLC03_STAGE2_HARD": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_CLEAR_SCORE_DLC03_STAGE3_HARD": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_CLEAR_SCORE_DLC03_STAGE4_HARD": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_CLEAR_SCORE_DLC03_STAGE5_HARD": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_CLEAR_RANK_DLC03_STAGE1_HARD": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_CLEAR_RANK_DLC03_STAGE2_HARD": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_CLEAR_RANK_DLC03_STAGE3_HARD": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_CLEAR_RANK_DLC03_STAGE4_HARD": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_CLEAR_RANK_DLC03_STAGE5_HARD": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_COMBO_CNT_DLC03_STAGE1_HARD": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_COMBO_CNT_DLC03_STAGE2_HARD": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_COMBO_CNT_DLC03_STAGE3_HARD": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_COMBO_CNT_DLC03_STAGE4_HARD": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_COMBO_CNT_DLC03_STAGE5_HARD": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_PLAY_CNT_STAGE10_NORMAL": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_CLEAR_SCORE_STAGE10_NORMAL": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_CLEAR_RANK_STAGE10_NORMAL": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_COMBO_CNT_STAGE10_NORMAL": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_PLAY_CNT_STAGE10_HARD": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_CLEAR_SCORE_STAGE10_HARD": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_CLEAR_RANK_STAGE10_HARD": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_COMBO_CNT_STAGE10_HARD": {
+    "description": "",
+    "value": 0
+  }
+}

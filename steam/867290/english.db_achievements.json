@@ -1,0 +1,92 @@
+﻿[
+  {
+    "name": "ACH_ACT_1_COMPLETE",
+    "defaultvalue": 0,
+    "displayName": "Something ends, something begins",
+    "hidden": 0,
+    "description": "Finish prologue",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/867290/9b5b0d813ecbfa227c52804cd3e8f62b6fec2bdd.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/867290/3dea3c11869f4c669c3f298c940d1c4b08d2fbdf.jpg"
+  },
+  {
+    "name": "ACH_ACT_2_COMPLETE",
+    "defaultvalue": 0,
+    "displayName": "That thing about the countess",
+    "hidden": 0,
+    "description": "Finish Act 1",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/867290/c870b55a86ee87389e0ad48c2f0acf4a11fe54b4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/867290/0eba138316dcfc470d502350e1c9c8392f6423ad.jpg"
+  },
+  {
+    "name": "ACH_ACT_3_COMPLETE",
+    "defaultvalue": 0,
+    "displayName": "Revenge",
+    "hidden": 0,
+    "description": "Finish Act 2",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/867290/899bafdcf5fedd7e84194a8c199b708bfb1c0fcd.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/867290/6d2f42e1efd15d899d8b0dedeb4d57559a4a1586.jpg"
+  },
+  {
+    "name": "ACH_ACT_4_COMPLETE",
+    "defaultvalue": 0,
+    "displayName": "The End",
+    "hidden": 0,
+    "description": "Finish Act 3",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/867290/8e38456d9d40d7f11c113cebf2d695d2eb033e12.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/867290/c0243c74a0a65e4e7ffef2caa2e4a8cb40394329.jpg"
+  },
+  {
+    "name": "ACH_ACT_GOOD_ENDING",
+    "defaultvalue": 0,
+    "displayName": "All's well that ends well",
+    "hidden": 0,
+    "description": "Finish the game with a good ending",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/867290/fd6f9eb95f896490c2e37e93863a08be26c0689d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/867290/96493ce04676d5e44712b329365300c2afe55b26.jpg"
+  },
+  {
+    "name": "ACH_ACT_BAD_ENDING",
+    "defaultvalue": 0,
+    "displayName": "Did not live up to the name",
+    "hidden": 0,
+    "description": "Finish the game with a bad ending",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/867290/513f1e4addfddffad0052c386de4e75478ac0287.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/867290/0d972ecbe3253976ee2cae4dc98d3f6fe067f0a3.jpg"
+  },
+  {
+    "name": "ACH_ROCKBURRY_PERSUADE",
+    "defaultvalue": 0,
+    "displayName": "We're all friends here, right?",
+    "hidden": 0,
+    "description": "Convince Rockburry not to send his men on you",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/867290/d0f3b0f35d97da6941df462d34fb19a10ce8700f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/867290/bc4d0b0e4e92f16ac91fe56f60713f395da3729e.jpg"
+  },
+  {
+    "name": "ACH_SEERS",
+    "defaultvalue": 0,
+    "displayName": "I see a bright future for you!",
+    "hidden": 0,
+    "description": "Join forces with the Seers",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/867290/8ea0f9d7d9edb42995a736f97cc2e85d4b52caa8.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/867290/2682a8387882545963f615b381f017e1b95f4410.jpg"
+  },
+  {
+    "name": "ACH_GILDEBONES",
+    "defaultvalue": 0,
+    "displayName": "Golden future",
+    "hidden": 0,
+    "description": "Join forces with the Gildebones",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/867290/8f529ad21b066a73c91088900fb4c3ee852b5ee6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/867290/dc6ee235c6dbfc993d82d24609676ca1a1a5f59f.jpg"
+  },
+  {
+    "name": "ACH_REFUSE_TROVIN",
+    "defaultvalue": 0,
+    "displayName": "Oh, well",
+    "hidden": 0,
+    "description": "Refuse to pay your debt to Trovin",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/867290/d58a0bad74ab2abe221fafaa11cd47dadd56762b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/867290/b3a488060b91cb72dc7e5ce1fc100cd8aa36d213.jpg"
+  }
+]

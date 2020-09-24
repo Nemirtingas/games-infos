@@ -1,0 +1,26 @@
+﻿{
+  "stat_count_origami": {
+    "description": "Origami Count",
+    "value": 0
+  },
+  "stat_count_cookies": {
+    "description": "Cookies Eaten",
+    "value": 0
+  },
+  "stat_began_game": {
+    "description": "Game started (YES/NO)",
+    "value": 0
+  },
+  "stat_completed": {
+    "description": "Game completed at least once (YES/NO)",
+    "value": 0
+  },
+  "stat_beat_time": {
+    "description": "Time to beat game first playthrough (minutes)",
+    "value": 0
+  },
+  "stat_hints": {
+    "description": "Hints first playthrough (count)",
+    "value": 0
+  }
+}

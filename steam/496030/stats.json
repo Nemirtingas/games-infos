@@ -1,0 +1,30 @@
+﻿{
+  "hop_seeker": {
+    "description": "HOP objects collected",
+    "value": 0
+  },
+  "hop_perfection": {
+    "description": "HOPs finished under 60 seconds, without using any hints",
+    "value": 0
+  },
+  "mg_puzzler": {
+    "description": "Solved mini-games without skipping",
+    "value": 0
+  },
+  "collect_parable": {
+    "description": "Parables unlocked",
+    "value": 0
+  },
+  "collect_collectable": {
+    "description": "Hidden signs found",
+    "value": 0
+  },
+  "collect_medal": {
+    "description": "Gold medals achieved in HOPs",
+    "value": 0
+  },
+  "collect_souvenir": {
+    "description": "Souvenirs found",
+    "value": 0
+  }
+}

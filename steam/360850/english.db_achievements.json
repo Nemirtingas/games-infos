@@ -1,0 +1,146 @@
+[
+  {
+    "name": "achievementWinsTotal5",
+    "defaultvalue": 0,
+    "displayName": "5 wins",
+    "hidden": 0,
+    "description": "Collect 5 circuits at any level of difficulty",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/360850/2d31e398ef333503792d2f3de68a1fff8a75dddf.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/360850/0f234bd2eed93d39310259b3fc475c4316b9dd43.jpg"
+  },
+  {
+    "name": "achievementWinsTotal20",
+    "defaultvalue": 0,
+    "displayName": "20 wins",
+    "hidden": 0,
+    "description": "Collect 20 circuits at any level of difficulty",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/360850/c2b18caaf65946d6f8b0f5fad512b309c89b723d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/360850/096576e1b081e45faecff93512b82ded3350406e.jpg"
+  },
+  {
+    "name": "achievementWinsTotal50",
+    "defaultvalue": 0,
+    "displayName": "50 wins",
+    "hidden": 0,
+    "description": "Collect 50 circuits at any level of difficulty",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/360850/6716b7dc409d526701358e246b96d0bfe97d225b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/360850/5f8958f3450bd15f989c70c558cb5b16ebaeb220.jpg"
+  },
+  {
+    "name": "achievementWinsTotal100",
+    "defaultvalue": 0,
+    "displayName": "100 wins",
+    "hidden": 0,
+    "description": "Collect 100 circuits at any level of difficulty",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/360850/3a069f139e830530dcf2e557e1df181457d3a099.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/360850/1be68629f689b3ec9e6ac8cb1d81b792d2bba412.jpg"
+  },
+  {
+    "name": "achievementWinLevel1",
+    "defaultvalue": 0,
+    "displayName": "Beginner",
+    "hidden": 0,
+    "description": "Assemble the circuit on the beginner difficulty level",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/360850/319fa9cdbc0f016a2860ba85eb2d7b0eb2e1b9ae.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/360850/4a5a8ec803349bb38f9efe5b83e289384db11555.jpg"
+  },
+  {
+    "name": "achievementWinLevel2",
+    "defaultvalue": 0,
+    "displayName": "Amateur",
+    "hidden": 0,
+    "description": "Assemble the circuit on the amateur difficulty level",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/360850/d4583399162df43bfaae21d6ee3c6a1e38c4223a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/360850/b42ccb0a828040102f8c015359979e4ebe95e2c4.jpg"
+  },
+  {
+    "name": "achievementWinLevel3",
+    "defaultvalue": 0,
+    "displayName": "Expert",
+    "hidden": 0,
+    "description": "Assemble the circuit on the expert difficulty level",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/360850/57a32895b0ee50b2a171871cf12ee537a1fa3e88.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/360850/180128c8153f934309af4dd81c4586e1ab6e1250.jpg"
+  },
+  {
+    "name": "achievementWinLevel4",
+    "defaultvalue": 0,
+    "displayName": "Master",
+    "hidden": 0,
+    "description": "Assemble the circuit on the master difficulty level",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/360850/6abb61204d13eec599a4edac7f83bcc18bff98f0.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/360850/724cc4fe06ec443f472633ef53c1a401b2b0cbf8.jpg"
+  },
+  {
+    "name": "achievementScoreLevel1",
+    "defaultvalue": 0,
+    "displayName": "Best beginner",
+    "hidden": 0,
+    "description": "Get 30000 points on the beginner difficulty level",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/360850/7c700a5f4f615619c98ad84e322e6b309dd18ff4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/360850/219bd48646ac88c5143348f269866e3668afdc7c.jpg"
+  },
+  {
+    "name": "achievementScoreLevel2",
+    "defaultvalue": 0,
+    "displayName": "Best amateur",
+    "hidden": 0,
+    "description": "Get 60000 points on the amateur difficulty level",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/360850/4f21a8169d4dac177b7d6c696bea98639ae21701.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/360850/a8998fb637e5e7ba84604d7722e2f02728179718.jpg"
+  },
+  {
+    "name": "achievementScoreLevel3",
+    "defaultvalue": 0,
+    "displayName": "Best expert",
+    "hidden": 0,
+    "description": "Get 200000 points on the expert difficulty level",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/360850/d15b946c6383029408c7c242d6115738dbaec407.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/360850/a9f490333faefed81524e43fbbf47143d2902e10.jpg"
+  },
+  {
+    "name": "achievementScoreLevel4",
+    "defaultvalue": 0,
+    "displayName": "Best master",
+    "hidden": 0,
+    "description": "Get 400000 points on the master difficulty level",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/360850/5db434d84c812700b0391aa9109cb56991be6f75.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/360850/25594c4fad4aa16bdf50e0d103d25ac6af39c7f2.jpg"
+  },
+  {
+    "name": "achievementTimeLevel1",
+    "defaultvalue": 0,
+    "displayName": "Quick beginner",
+    "hidden": 0,
+    "description": "Assemble the circuit on the beginner difficulty level for 10 seconds",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/360850/e5eb45ae4fc1a91d98ae2b36051444f492cdd507.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/360850/3c0d8dc6fde3cedff5d96b1f0380d24cb0920525.jpg"
+  },
+  {
+    "name": "achievementTimeLevel2",
+    "defaultvalue": 0,
+    "displayName": "Quick amateur",
+    "hidden": 0,
+    "description": "Assemble the circuit on the amateur difficulty level for 40 seconds",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/360850/19559e47ff8837c6b2d928bf38c095d168c7927c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/360850/431203df1b5890e664c717331de67dd843a2c540.jpg"
+  },
+  {
+    "name": "achievementTimeLevel3",
+    "defaultvalue": 0,
+    "displayName": "Quick expert",
+    "hidden": 0,
+    "description": "Assemble the circuit on the expert difficulty level for 40 seconds",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/360850/805fd1363f0623f49090f0e76ad546c0cf26c86f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/360850/83d7c0fe40ea34a526d77b62a1ef72d9afdb4746.jpg"
+  },
+  {
+    "name": "achievementTimeLevel4",
+    "defaultvalue": 0,
+    "displayName": "Quick master",
+    "hidden": 0,
+    "description": "Assemble the circuit on the master difficulty level for 120 seconds",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/360850/1115a085c616d81674b2983d5bb0d333f42165f1.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/360850/f417e1c960608064939424125ed7325e7f928d05.jpg"
+  }
+]

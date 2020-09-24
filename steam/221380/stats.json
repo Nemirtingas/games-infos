@@ -1,0 +1,2950 @@
+﻿{
+  "STAT_TOTAL_GAMES": {
+    "description": "Total Games",
+    "value": 0
+  },
+  "STAT_NUM_WINS": {
+    "description": "Number of Wins",
+    "value": 0
+  },
+  "STAT_VICTORY_AZTECS": {
+    "description": "Total Aztec Victories",
+    "value": 0
+  },
+  "STAT_VICTORY_BRITONS": {
+    "description": "STAT_VICTORY_BRITONS",
+    "value": 0
+  },
+  "STAT_VICTORY_BYZANTINES": {
+    "description": "STAT_VICTORY_BYZANTINES",
+    "value": 0
+  },
+  "STAT_VICTORY_CELTS": {
+    "description": "STAT_VICTORY_CELTS",
+    "value": 0
+  },
+  "STAT_VICTORY_CHINESE": {
+    "description": "STAT_VICTORY_CHINESE",
+    "value": 0
+  },
+  "STAT_VICTORY_FRANKS": {
+    "description": "STAT_VICTORY_FRANKS",
+    "value": 0
+  },
+  "STAT_VICTORY_GOTHS": {
+    "description": "STAT_VICTORY_GOTHS",
+    "value": 0
+  },
+  "STAT_VICTORY_HUNS": {
+    "description": "STAT_VICTORY_HUNS",
+    "value": 0
+  },
+  "STAT_VICTORY_JAPANESE": {
+    "description": "STAT_VICTORY_JAPANESE",
+    "value": 0
+  },
+  "STAT_VICTORY_KOREANS": {
+    "description": "STAT_VICTORY_KOREANS",
+    "value": 0
+  },
+  "STAT_VICTORY_MAYANS": {
+    "description": "STAT_VICTORY_MAYANS",
+    "value": 0
+  },
+  "STAT_VICTORY_MONGOLS": {
+    "description": "STAT_VICTORY_MONGOLS",
+    "value": 0
+  },
+  "STAT_VICTORY_PERSIANS": {
+    "description": "STAT_VICTORY_PERSIANS",
+    "value": 0
+  },
+  "STAT_VICTORY_SARACENS": {
+    "description": "STAT_VICTORY_SARACENS",
+    "value": 0
+  },
+  "STAT_VICTORY_SPANISH": {
+    "description": "STAT_VICTORY_SPANISH",
+    "value": 0
+  },
+  "STAT_VICTORY_TEUTONS": {
+    "description": "STAT_VICTORY_TEUTONS",
+    "value": 0
+  },
+  "STAT_VICTORY_TURKS": {
+    "description": "STAT_VICTORY_TURKS",
+    "value": 0
+  },
+  "STAT_VICTORY_VIKINGS": {
+    "description": "STAT_VICTORY_VIKINGS",
+    "value": 0
+  },
+  "STAT_NUM_MVP_AWARDS": {
+    "description": "STAT_NUM_MVP_AWARDS",
+    "value": 0
+  },
+  "STAT_HIGHEST_SCORE_TOTAL": {
+    "description": "STAT_HIGHEST_SCORE_TOTAL",
+    "value": 0
+  },
+  "STAT_HIGHEST_SCORE_MILITARY": {
+    "description": "STAT_HIGHEST_SCORE_MILITARY",
+    "value": 0
+  },
+  "STAT_HIGHEST_SCORE_ECONOMIC": {
+    "description": "STAT_HIGHEST_SCORE_ECONOMIC",
+    "value": 0
+  },
+  "STAT_HIGHEST_SCORE_TECHNOLOGY": {
+    "description": "STAT_HIGHEST_SCORE_TECHNOLOGY",
+    "value": 0
+  },
+  "STAT_HIGHEST_SCORE_SOCIETY": {
+    "description": "STAT_HIGHEST_SCORE_SOCIETY",
+    "value": 0
+  },
+  "STAT_CAREER_UNITS_KILLED": {
+    "description": "STAT_CAREER_UNITS_KILLED",
+    "value": 0
+  },
+  "STAT_CAREER_UNITS_LOST": {
+    "description": "STAT_CAREER_UNITS_LOST",
+    "value": 0
+  },
+  "STAT_CAREER_UNITS_CONVERTED": {
+    "description": "STAT_CAREER_UNITS_CONVERTED",
+    "value": 0
+  },
+  "STAT_CAREER_BUILDINGS_RAZED": {
+    "description": "STAT_CAREER_BUILDINGS_RAZED",
+    "value": 0
+  },
+  "STAT_CAREER_BUILDINGS_LOST": {
+    "description": "STAT_CAREER_BUILDINGS_LOST",
+    "value": 0
+  },
+  "STAT_CAREER_NUM_WONDERS": {
+    "description": "STAT_CAREER_NUM_WONDERS",
+    "value": 0
+  },
+  "STAT_CAREER_NUM_CASTLES": {
+    "description": "STAT_CAREER_NUM_CASTLES",
+    "value": 0
+  },
+  "STAT_VICTORY_RANDOM": {
+    "description": "STAT_VICTORY_RANDOM",
+    "value": 0
+  },
+  "STAT_ELO": {
+    "description": "STAT_ELO",
+    "value": 1400
+  },
+  "STAT_VERSION": {
+    "description": "STAT_VERSION",
+    "value": 2
+  },
+  "STAT_GAMES_PLAYED_OFFLINE": {
+    "description": "STAT_GAMES_PLAYED_OFFLINE",
+    "value": 0
+  },
+  "STAT_GAMES_PLAYED_ONLINE": {
+    "description": "STAT_GAMES_PLAYED_ONLINE",
+    "value": 0
+  },
+  "STAT_GAMES_PLAYED_RANDOM": {
+    "description": "STAT_GAMES_PLAYED_RANDOM",
+    "value": 0
+  },
+  "STAT_GAMES_PLAYED_TURBO": {
+    "description": "STAT_GAMES_PLAYED_TURBO",
+    "value": 0
+  },
+  "STAT_GAMES_PLAYED_DEATHMATCH": {
+    "description": "STAT_GAMES_PLAYED_DEATHMATCH",
+    "value": 0
+  },
+  "STAT_GAMES_PLAYED_SCENARIO": {
+    "description": "STAT_GAMES_PLAYED_SCENARIO",
+    "value": 0
+  },
+  "STAT_GAMES_PLAYED_KINGOFHILL": {
+    "description": "STAT_GAMES_PLAYED_KINGOFHILL",
+    "value": 0
+  },
+  "STAT_GAMES_PLAYED_WONDERRACE": {
+    "description": "STAT_GAMES_PLAYED_WONDERRACE",
+    "value": 0
+  },
+  "STAT_GAMES_PLAYED_DEFENDWONDER": {
+    "description": "STAT_GAMES_PLAYED_DEFENDWONDER",
+    "value": 0
+  },
+  "STAT_CAREER_MAX_CPUS_DEFEATED": {
+    "description": "STAT_CAREER_MAX_CPUS_DEFEATED",
+    "value": 0
+  },
+  "STAT_DEFEATED_BRITONS": {
+    "description": "STAT_DEFEATED_BRITONS",
+    "value": 0
+  },
+  "STAT_DEFEATED_FRANKS": {
+    "description": "STAT_DEFEATED_FRANKS",
+    "value": 0
+  },
+  "STAT_DEFEATED_GOTHS": {
+    "description": "STAT_DEFEATED_GOTHS",
+    "value": 0
+  },
+  "STAT_DEFEATED_TEUTONS": {
+    "description": "STAT_DEFEATED_TEUTONS",
+    "value": 0
+  },
+  "STAT_DEFEATED_JAPANESE": {
+    "description": "STAT_DEFEATED_JAPANESE",
+    "value": 0
+  },
+  "STAT_DEFEATED_CHINESE": {
+    "description": "STAT_DEFEATED_CHINESE",
+    "value": 0
+  },
+  "STAT_DEFEATED_BYZANTINES": {
+    "description": "STAT_DEFEATED_BYZANTINES",
+    "value": 0
+  },
+  "STAT_DEFEATED_PERSIANS": {
+    "description": "STAT_DEFEATED_PERSIANS",
+    "value": 0
+  },
+  "STAT_DEFEATED_SARACENS": {
+    "description": "STAT_DEFEATED_SARACENS",
+    "value": 0
+  },
+  "STAT_DEFEATED_TURKS": {
+    "description": "STAT_DEFEATED_TURKS",
+    "value": 0
+  },
+  "STAT_DEFEATED_VIKINGS": {
+    "description": "STAT_DEFEATED_VIKINGS",
+    "value": 0
+  },
+  "STAT_DEFEATED_MONGOLS": {
+    "description": "STAT_DEFEATED_MONGOLS",
+    "value": 0
+  },
+  "STAT_DEFEATED_CELTS": {
+    "description": "STAT_DEFEATED_CELTS",
+    "value": 0
+  },
+  "STAT_DEFEATED_SPANISH": {
+    "description": "STAT_DEFEATED_SPANISH",
+    "value": 0
+  },
+  "STAT_DEFEATED_AZTECS": {
+    "description": "STAT_DEFEATED_AZTECS",
+    "value": 0
+  },
+  "STAT_DEFEATED_MAYANS": {
+    "description": "STAT_DEFEATED_MAYANS",
+    "value": 0
+  },
+  "STAT_DEFEATED_HUNS": {
+    "description": "STAT_DEFEATED_HUNS",
+    "value": 0
+  },
+  "STAT_DEFEATED_KOREANS": {
+    "description": "STAT_DEFEATED_KOREANS",
+    "value": 0
+  },
+  "STAT_DEFEATED_RANDOM": {
+    "description": "STAT_DEFEATED_RANDOM",
+    "value": 0
+  },
+  "STAT_SINGLEBATTLE_UNITS_KILLED": {
+    "description": "STAT_SINGLEBATTLE_UNITS_KILLED",
+    "value": 0
+  },
+  "STAT_SINGLEBATTLE_UNITS_LOST": {
+    "description": "STAT_SINGLEBATTLE_UNITS_LOST",
+    "value": 0
+  },
+  "STAT_SINGLEBATTLE_BUILDINGS_RAZED": {
+    "description": "STAT_SINGLEBATTLE_BUILDINGS_RAZED",
+    "value": 0
+  },
+  "STAT_SINGLEBATTLE_BUILDINGS_LOST": {
+    "description": "STAT_SINGLEBATTLE_BUILDINGS_LOST",
+    "value": 0
+  },
+  "STAT_SINGLEBATTLE_NUM_WONDERS": {
+    "description": "STAT_SINGLEBATTLE_NUM_WONDERS",
+    "value": 0
+  },
+  "STAT_SINGLEBATTLE_NUM_CASTLES": {
+    "description": "STAT_SINGLEBATTLE_NUM_CASTLES",
+    "value": 0
+  },
+  "STAT_CAMPAIGN_COMPLETE_WALLACE": {
+    "description": "STAT_CAMPAIGN_COMPLETE_WALLACE",
+    "value": 0
+  },
+  "STAT_CAMPAIGN_COMPLETE_JOANARC": {
+    "description": "STAT_CAMPAIGN_COMPLETE_JOANARC",
+    "value": 0
+  },
+  "STAT_CAMPAIGN_COMPLETE_SALADON": {
+    "description": "STAT_CAMPAIGN_COMPLETE_SALADON",
+    "value": 0
+  },
+  "STAT_CAMPAIGN_COMPLETE_KHAN": {
+    "description": "STAT_CAMPAIGN_COMPLETE_KHAN",
+    "value": 0
+  },
+  "STAT_CAMPAIGN_COMPLETE_BARBAROSSA": {
+    "description": "STAT_CAMPAIGN_COMPLETE_BARBAROSSA",
+    "value": 0
+  },
+  "STAT_CAMPAIGN_COMPLETE_ATTILA": {
+    "description": "STAT_CAMPAIGN_COMPLETE_ATTILA",
+    "value": 0
+  },
+  "STAT_CAMPAIGN_COMPLETE_ELCID": {
+    "description": "STAT_CAMPAIGN_COMPLETE_ELCID",
+    "value": 0
+  },
+  "STAT_CAMPAIGN_COMPLETE_MONTEZUMA": {
+    "description": "STAT_CAMPAIGN_COMPLETE_MONTEZUMA",
+    "value": 0
+  },
+  "STAT_CAMPAIGN_COMPLETE_CONQUERERS": {
+    "description": "STAT_CAMPAIGN_COMPLETE_CONQUERERS",
+    "value": 0
+  },
+  "STAT_CAMPAIGN_COMPLETED_ALL": {
+    "description": "STAT_CAMPAIGN_COMPLETED_ALL",
+    "value": 0
+  },
+  "STAT_SINGLEBATTLE_UNITS_CONVERTED": {
+    "description": "STAT_SINGLEBATTLE_UNITS_CONVERTED",
+    "value": 0
+  },
+  "STAT_P": {
+    "description": "STAT_P",
+    "value": 0
+  },
+  "STAT_ELO_DM": {
+    "description": "STAT_ELO_DM",
+    "value": 1600
+  },
+  "STAT_ELO_DM_UTC": {
+    "description": "STAT_ELO_DM_UTC",
+    "value": 0
+  },
+  "STAT_ELO_RM": {
+    "description": "STAT_ELO_RM",
+    "value": 1600
+  },
+  "STAT_ELO_RM_UTC": {
+    "description": "STAT_ELO_RM_UTC",
+    "value": 0
+  },
+  "STAT_ELO_XDM": {
+    "description": "STAT_ELO_XDM",
+    "value": 1600
+  },
+  "STAT_ELO_XDM_UTC": {
+    "description": "STAT_ELO_XDM_UTC",
+    "value": 0
+  },
+  "STAT_ELO_XRM": {
+    "description": "STAT_ELO_XRM",
+    "value": 1600
+  },
+  "STAT_ELO_XRM_UTC": {
+    "description": "STAT_ELO_XRM_UTC",
+    "value": 0
+  },
+  "STAT_ELO_DM_BEGIN": {
+    "description": "STAT_ELO_DM_BEGIN",
+    "value": 0
+  },
+  "STAT_ELO_DM_END": {
+    "description": "STAT_ELO_DM_END",
+    "value": 0
+  },
+  "STAT_ELO_DM_WINS": {
+    "description": "STAT_ELO_DM_WINS",
+    "value": 0
+  },
+  "STAT_ELO_RM_BEGIN": {
+    "description": "STAT_ELO_RM_BEGIN",
+    "value": 0
+  },
+  "STAT_ELO_RM_END": {
+    "description": "STAT_ELO_RM_END",
+    "value": 0
+  },
+  "STAT_ELO_RM_WINS": {
+    "description": "STAT_ELO_RM_WINS",
+    "value": 0
+  },
+  "STAT_ELO_XDM_BEGIN": {
+    "description": "STAT_ELO_XDM_BEGIN",
+    "value": 0
+  },
+  "STAT_ELO_XDM_END": {
+    "description": "STAT_ELO_XDM_END",
+    "value": 0
+  },
+  "STAT_ELO_XDM_WINS": {
+    "description": "STAT_ELO_XDM_WINS",
+    "value": 0
+  },
+  "STAT_ELO_XRM_BEGIN": {
+    "description": "STAT_ELO_XRM_BEGIN",
+    "value": 0
+  },
+  "STAT_ELO_XRM_END": {
+    "description": "STAT_ELO_XRM_END",
+    "value": 0
+  },
+  "STAT_ELO_XRM_WINS": {
+    "description": "STAT_ELO_XRM_WINS",
+    "value": 0
+  },
+  "STAT_VICTORY_INCAS": {
+    "description": "STAT_VICTORY_INCAS",
+    "value": 0
+  },
+  "STAT_VICTORY_INDIANS": {
+    "description": "STAT_VICTORY_INDIANS",
+    "value": 0
+  },
+  "STAT_VICTORY_ITALIANS": {
+    "description": "STAT_VICTORY_ITALIANS",
+    "value": 0
+  },
+  "STAT_VICTORY_MAGYAR": {
+    "description": "STAT_VICTORY_MAGYAR",
+    "value": 0
+  },
+  "STAT_VICTORY_SLAVS": {
+    "description": "STAT_VICTORY_SLAVS",
+    "value": 0
+  },
+  "STAT_DEFEATED_INCAS": {
+    "description": "STAT_DEFEATED_INCAS",
+    "value": 0
+  },
+  "STAT_DEFEATED_SLAVS": {
+    "description": "STAT_DEFEATED_SLAVS",
+    "value": 0
+  },
+  "STAT_DEFEATED_INDIANS": {
+    "description": "STAT_DEFEATED_INDIANS",
+    "value": 0
+  },
+  "STAT_DEFEATED_ITALIANS": {
+    "description": "STAT_DEFEATED_ITALIANS",
+    "value": 0
+  },
+  "STAT_DEFEATED_MAGYAR": {
+    "description": "STAT_DEFEATED_MAGYAR",
+    "value": 0
+  },
+  "STAT_VICTORY_PORTUGUESE": {
+    "description": "STAT_VICTORY_PORTUGUESE",
+    "value": 0
+  },
+  "STAT_VICTORY_ETHIOPIANS": {
+    "description": "STAT_VICTORY_ETHIOPIANS",
+    "value": 0
+  },
+  "STAT_VICTORY_MALIANS": {
+    "description": "STAT_VICTORY_MALIANS",
+    "value": 0
+  },
+  "STAT_VICTORY_BERBERS": {
+    "description": "STAT_VICTORY_BERBERS",
+    "value": 0
+  },
+  "STAT_DEFEATED_PORTUGUESE": {
+    "description": "STAT_DEFEATED_PORTUGUESE",
+    "value": 0
+  },
+  "STAT_DEFEATED_ETHIOPIANS": {
+    "description": "STAT_DEFEATED_ETHIOPIANS",
+    "value": 0
+  },
+  "STAT_DEFEATED_MALIANS": {
+    "description": "STAT_DEFEATED_MALIANS",
+    "value": 0
+  },
+  "STAT_DEFEATED_BERBERS": {
+    "description": "STAT_DEFEATED_BERBERS",
+    "value": 0
+  },
+  "STAT_PATCH_46_RUNS": {
+    "description": "STAT_PATCH_46_RUNS",
+    "value": 0
+  },
+  "STAT_PATCH_46_GAMES_STARTED": {
+    "description": "STAT_PATCH_46_GAMES_STARTED",
+    "value": 0
+  },
+  "STAT_PATCH_46_DESYNCS": {
+    "description": "STAT_PATCH_46_DESYNCS",
+    "value": 0
+  },
+  "STAT_PATCH_46_GAMES_FINISHED": {
+    "description": "STAT_PATCH_46_GAMES_FINISHED",
+    "value": 0
+  },
+  "STAT_PATCH_46H2_RUNS": {
+    "description": "STAT_PATCH_46H2_RUNS",
+    "value": 0
+  },
+  "STAT_PATCH_46H2_GAMES_STARTED": {
+    "description": "STAT_PATCH_46H2_GAMES_STARTED",
+    "value": 0
+  },
+  "STAT_PATCH_46H2_DESYNCS": {
+    "description": "STAT_PATCH_46H2_DESYNCS",
+    "value": 0
+  },
+  "STAT_PATCH_46H2_GAMES_FINISHED": {
+    "description": "STAT_PATCH_46H2_GAMES_FINISHED",
+    "value": 0
+  },
+  "STAT_PATCH_47_RUNS": {
+    "description": "STAT_PATCH_47_RUNS",
+    "value": 0
+  },
+  "STAT_PATCH_47_GAMES_STARTED": {
+    "description": "STAT_PATCH_47_GAMES_STARTED",
+    "value": 0
+  },
+  "STAT_PATCH_47_DESYNCS": {
+    "description": "STAT_PATCH_47_DESYNCS",
+    "value": 0
+  },
+  "STAT_PATCH_47_GAMES_FINISHED": {
+    "description": "STAT_PATCH_47_GAMES_FINISHED",
+    "value": 0
+  },
+  "STAT_PATCH_48_RUNS": {
+    "description": "STAT_PATCH_48_RUNS",
+    "value": 0
+  },
+  "STAT_PATCH_48_GAMES_STARTED": {
+    "description": "STAT_PATCH_48_GAMES_STARTED",
+    "value": 0
+  },
+  "STAT_PATCH_48_DESYNCS": {
+    "description": "STAT_PATCH_48_DESYNCS",
+    "value": 0
+  },
+  "STAT_PATCH_48_GAMES_FINISHED": {
+    "description": "STAT_PATCH_48_GAMES_FINISHED",
+    "value": 0
+  },
+  "STAT_PATCH_49_RUNS": {
+    "description": "STAT_PATCH_49_RUNS",
+    "value": 0
+  },
+  "STAT_PATCH_49_GAMES_STARTED": {
+    "description": "STAT_PATCH_49_GAMES_STARTED",
+    "value": 0
+  },
+  "STAT_PATCH_49_DESYNCS": {
+    "description": "STAT_PATCH_49_DESYNCS",
+    "value": 0
+  },
+  "STAT_PATCH_49_GAMES_FINISHED": {
+    "description": "STAT_PATCH_49_GAMES_FINISHED",
+    "value": 0
+  },
+  "STAT_PATCH_50_RUNS": {
+    "description": "STAT_PATCH_50_RUNS",
+    "value": 0
+  },
+  "STAT_PATCH_50_GAMES_STARTED": {
+    "description": "STAT_PATCH_50_GAMES_STARTED",
+    "value": 0
+  },
+  "STAT_PATCH_50_DESYNCS": {
+    "description": "STAT_PATCH_50_DESYNCS",
+    "value": 0
+  },
+  "STAT_PATCH_50_GAMES_FINISHED": {
+    "description": "STAT_PATCH_50_GAMES_FINISHED",
+    "value": 0
+  },
+  "STAT_PATCH_48a_RUNS": {
+    "description": "STAT_PATCH_48a_RUNS",
+    "value": 0
+  },
+  "STAT_PATCH_48a_GAMES_STARTED": {
+    "description": "STAT_PATCH_48a_GAMES_STARTED",
+    "value": 0
+  },
+  "STAT_PATCH_48a_DESYNCS": {
+    "description": "STAT_PATCH_48a_DESYNCS",
+    "value": 0
+  },
+  "STAT_PATCH_48a_GAMES_FINISHED": {
+    "description": "STAT_PATCH_48a_GAMES_FINISHED",
+    "value": 0
+  },
+  "STAT_PATCH_48b_OVERALL_APPLICATION_STARTS": {
+    "description": "Overall Application Starts",
+    "value": 0
+  },
+  "STAT_PATCH_48b_OVERALL_DESYNCS_TOTAL": {
+    "description": "Desyncs Total",
+    "value": 0
+  },
+  "STAT_PATCH_48b_OVERALL_DESYNCS_SCENARIO": {
+    "description": "Desyncs in Scenario Mode",
+    "value": 0
+  },
+  "STAT_PATCH_48b_OVERALL_DESYNCS_BY_T20": {
+    "description": "Desyncs on or before turn 20",
+    "value": 0
+  },
+  "STAT_PATCH_48b_OVERALL_DESYNCS_BY_T1000": {
+    "description": "Desyncs after turn 20 but on or before turn 1000",
+    "value": 0
+  },
+  "STAT_PATCH_48b_OVERALL_DESYNCS_LATER_T1000": {
+    "description": "Desyncs after turn 1000",
+    "value": 0
+  },
+  "STAT_PATCH_48b_OVERALL_MPSTARTS": {
+    "description": "Overall Starts in MP",
+    "value": 0
+  },
+  "STAT_PATCH_48b_OVERALL_MPFINISHES": {
+    "description": "Overall Finishes in MP",
+    "value": 0
+  },
+  "STAT_PATCH_48b_NOSPEC_NOAI_DESYNCS_TOTAL": {
+    "description": "STAT_PATCH_48b_NOSPEC_NOAI_DESYNCS_TOTAL",
+    "value": 0
+  },
+  "STAT_PATCH_48b_NOSPEC_NOAI_DESYNCS_SCENARIO": {
+    "description": "STAT_PATCH_48b_NOSPEC_NOAI_DESYNCS_SCENARIO",
+    "value": 0
+  },
+  "STAT_PATCH_48b_NOSPEC_NOAI_DESYNCS_BY_T20": {
+    "description": "STAT_PATCH_48b_NOSPEC_NOAI_DESYNCS_BY_T20",
+    "value": 0
+  },
+  "STAT_PATCH_48b_NOSPEC_NOAI_DESYNCS_BY_T1000": {
+    "description": "STAT_PATCH_48b_NOSPEC_NOAI_DESYNCS_BY_T1000",
+    "value": 0
+  },
+  "STAT_PATCH_48b_NOSPEC_NOAI_DESYNCS_LATER_T1000": {
+    "description": "STAT_PATCH_48b_NOSPEC_NOAI_DESYNCS_LATER_T1000",
+    "value": 0
+  },
+  "STAT_PATCH_48b_NOSPEC_NOAI_MPSTARTS": {
+    "description": "STAT_PATCH_48b_NOSPEC_NOAI_MPSTARTS",
+    "value": 0
+  },
+  "STAT_PATCH_48b_NOSPEC_NOAI_MPFINISHES": {
+    "description": "STAT_PATCH_48b_NOSPEC_NOAI_MPFINISHES",
+    "value": 0
+  },
+  "STAT_PATCH_48b_NOSPEC_WITHAI_DESYNCS_TOTAL": {
+    "description": "STAT_PATCH_48b_NOSPEC_WITHAI_DESYNCS_TOTAL",
+    "value": 0
+  },
+  "STAT_PATCH_48b_NOSPEC_WITHAI_DESYNCS_SCENARIO": {
+    "description": "STAT_PATCH_48b_NOSPEC_WITHAI_DESYNCS_SCENARIO",
+    "value": 0
+  },
+  "STAT_PATCH_48b_NOSPEC_WITHAI_DESYNCS_BY_T20": {
+    "description": "STAT_PATCH_48b_NOSPEC_WITHAI_DESYNCS_BY_T20",
+    "value": 0
+  },
+  "STAT_PATCH_48b_NOSPEC_WITHAI_DESYNCS_BY_T1000": {
+    "description": "STAT_PATCH_48b_NOSPEC_WITHAI_DESYNCS_BY_T1000",
+    "value": 0
+  },
+  "STAT_PATCH_48b_NOSPEC_WITHAI_DESYNCS_LATER_T1000": {
+    "description": "STAT_PATCH_48b_NOSPEC_WITHAI_DESYNCS_LATER_T1000",
+    "value": 0
+  },
+  "STAT_PATCH_48b_NOSPEC_WITHAI_MPSTARTS": {
+    "description": "STAT_PATCH_48b_NOSPEC_WITHAI_MPSTARTS",
+    "value": 0
+  },
+  "STAT_PATCH_48b_NOSPEC_WITHAI_MPFINISHES": {
+    "description": "STAT_PATCH_48b_NOSPEC_WITHAI_MPFINISHES",
+    "value": 0
+  },
+  "STAT_PATCH_48b_SPECHOST_NOAI_DESYNCS_TOTAL": {
+    "description": "STAT_PATCH_48b_SPECHOST_NOAI_DESYNCS_TOTAL",
+    "value": 0
+  },
+  "STAT_PATCH_48b_SPECHOST_NOAI_DESYNCS_SCENARIO": {
+    "description": "STAT_PATCH_48b_SPECHOST_NOAI_DESYNCS_SCENARIO",
+    "value": 0
+  },
+  "STAT_PATCH_48b_SPECHOST_NOAI_DESYNCS_BY_T20": {
+    "description": "STAT_PATCH_48b_SPECHOST_NOAI_DESYNCS_BY_T20",
+    "value": 0
+  },
+  "STAT_PATCH_48b_SPECHOST_NOAI_DESYNCS_BY_T1000": {
+    "description": "STAT_PATCH_48b_SPECHOST_NOAI_DESYNCS_BY_T1000",
+    "value": 0
+  },
+  "STAT_PATCH_48b_SPECHOST_NOAI_DESYNCS_LATER_T1000": {
+    "description": "STAT_PATCH_48b_SPECHOST_NOAI_DESYNCS_LATER_T1000",
+    "value": 0
+  },
+  "STAT_PATCH_48b_SPECHOST_NOAI_MPSTARTS": {
+    "description": "STAT_PATCH_48b_SPECHOST_NOAI_MPSTARTS",
+    "value": 0
+  },
+  "STAT_PATCH_48b_SPECHOST_NOAI_MPFINISHES": {
+    "description": "STAT_PATCH_48b_SPECHOST_NOAI_MPFINISHES",
+    "value": 0
+  },
+  "STAT_PATCH_48b_SPECHOST_WITHAI_DESYNCS_TOTAL": {
+    "description": "STAT_PATCH_48b_SPECHOST_WITHAI_DESYNCS_TOTAL",
+    "value": 0
+  },
+  "STAT_PATCH_48b_SPECHOST_WITHAI_DESYNCS_SCENARIO": {
+    "description": "STAT_PATCH_48b_SPECHOST_WITHAI_DESYNCS_SCENARIO",
+    "value": 0
+  },
+  "STAT_PATCH_48b_SPECHOST_WITHAI_DESYNCS_BY_T20": {
+    "description": "STAT_PATCH_48b_SPECHOST_WITHAI_DESYNCS_BY_T20",
+    "value": 0
+  },
+  "STAT_PATCH_48b_SPECHOST_WITHAI_DESYNCS_BY_T1000": {
+    "description": "STAT_PATCH_48b_SPECHOST_WITHAI_DESYNCS_BY_T1000",
+    "value": 0
+  },
+  "STAT_PATCH_48b_SPECHOST_WITHAI_DESYNCS_LATER_T1000": {
+    "description": "STAT_PATCH_48b_SPECHOST_WITHAI_DESYNCS_LATER_T1000",
+    "value": 0
+  },
+  "STAT_PATCH_48b_SPECHOST_WITHAI_MPSTARTS": {
+    "description": "STAT_PATCH_48b_SPECHOST_WITHAI_MPSTARTS",
+    "value": 0
+  },
+  "STAT_PATCH_48b_SPECHOST_WITHAI_MPFINISHES": {
+    "description": "STAT_PATCH_48b_SPECHOST_WITHAI_MPFINISHES",
+    "value": 0
+  },
+  "STAT_PATCH_48b_SPECNOTHOST_NOAI_DESYNCS_TOTAL": {
+    "description": "STAT_PATCH_48b_SPECNOTHOST_NOAI_DESYNCS_TOTAL",
+    "value": 0
+  },
+  "STAT_PATCH_48b_SPECNOTHOST_NOAI_DESYNCS_SCENARIO": {
+    "description": "STAT_PATCH_48b_SPECNOTHOST_NOAI_DESYNCS_SCENARIO",
+    "value": 0
+  },
+  "STAT_PATCH_48b_SPECNOTHOST_NOAI_DESYNCS_BY_T20": {
+    "description": "STAT_PATCH_48b_SPECNOTHOST_NOAI_DESYNCS_BY_T20",
+    "value": 0
+  },
+  "STAT_PATCH_48b_SPECNOTHOST_NOAI_DESYNCS_BY_T1000": {
+    "description": "STAT_PATCH_48b_SPECNOTHOST_NOAI_DESYNCS_BY_T1000",
+    "value": 0
+  },
+  "STAT_PATCH_48b_SPECNOTHOST_NOAI_DESYNCS_LATER_T1000": {
+    "description": "STAT_PATCH_48b_SPECNOTHOST_NOAI_DESYNCS_LATER_T1000",
+    "value": 0
+  },
+  "STAT_PATCH_48b_SPECNOTHOST_NOAI_MPSTARTS": {
+    "description": "STAT_PATCH_48b_SPECNOTHOST_NOAI_MPSTARTS",
+    "value": 0
+  },
+  "STAT_PATCH_48b_SPECNOTHOST_NOAI_MPFINISHES": {
+    "description": "STAT_PATCH_48b_SPECNOTHOST_NOAI_MPFINISHES",
+    "value": 0
+  },
+  "STAT_PATCH_48b_SPECNOTHOST_WITHAI_DESYNCS_TOTAL": {
+    "description": "STAT_PATCH_48b_SPECNOTHOST_WITHAI_DESYNCS_TOTAL",
+    "value": 0
+  },
+  "STAT_PATCH_48b_SPECNOTHOST_WITHAI_DESYNCS_SCENARIO": {
+    "description": "STAT_PATCH_48b_SPECNOTHOST_WITHAI_DESYNCS_SCENARIO",
+    "value": 0
+  },
+  "STAT_PATCH_48b_SPECNOTHOST_WITHAI_DESYNCS_BY_T20": {
+    "description": "STAT_PATCH_48b_SPECNOTHOST_WITHAI_DESYNCS_BY_T20",
+    "value": 0
+  },
+  "STAT_PATCH_48b_SPECNOTHOST_WITHAI_DESYNCS_BY_T1000": {
+    "description": "STAT_PATCH_48b_SPECNOTHOST_WITHAI_DESYNCS_BY_T1000",
+    "value": 0
+  },
+  "STAT_PATCH_48b_SPECNOTHOST_WITHAI_DESYNCS_LATER_T1000": {
+    "description": "STAT_PATCH_48b_SPECNOTHOST_WITHAI_DESYNCS_LATER_T1000",
+    "value": 0
+  },
+  "STAT_PATCH_48b_SPECNOTHOST_WITHAI_MPSTARTS": {
+    "description": "STAT_PATCH_48b_SPECNOTHOST_WITHAI_MPSTARTS",
+    "value": 0
+  },
+  "STAT_PATCH_48b_SPECNOTHOST_WITHAI_MPFINISHES": {
+    "description": "STAT_PATCH_48b_SPECNOTHOST_WITHAI_MPFINISHES",
+    "value": 0
+  },
+  "STAT_PATCH_48b_MPRESTORE_DESYNCS_TOTAL": {
+    "description": "STAT_PATCH_48b_MPRESTORE_DESYNCS_TOTAL",
+    "value": 0
+  },
+  "STAT_PATCH_48b_MPRESTORE_DESYNCS_BY_T20": {
+    "description": "STAT_PATCH_48b_MPRESTORE_DESYNCS_BY_T20",
+    "value": 0
+  },
+  "STAT_PATCH_48b_MPRESTORE_DESYNCS_BY_T1000": {
+    "description": "STAT_PATCH_48b_MPRESTORE_DESYNCS_BY_T1000",
+    "value": 0
+  },
+  "STAT_PATCH_48b_MPRESTORE_DESYNCS_LATER_T1000": {
+    "description": "STAT_PATCH_48b_MPRESTORE_DESYNCS_LATER_T1000",
+    "value": 0
+  },
+  "STAT_PATCH_48b_MPRESTORE_MPSTARTS": {
+    "description": "STAT_PATCH_48b_MPRESTORE_MPSTARTS",
+    "value": 0
+  },
+  "STAT_PATCH_48b_MPRESTORE_MPFINISHES": {
+    "description": "STAT_PATCH_48b_MPRESTORE_MPFINISHES",
+    "value": 0
+  },
+  "STAT_PATCH_50_OVERALL_APPLICATION_STARTS": {
+    "description": "STAT_PATCH_50_OVERALL_APPLICATION_STARTS",
+    "value": 0
+  },
+  "STAT_PATCH_50_OVERALL_DESYNCS_TOTAL": {
+    "description": "STAT_PATCH_50_OVERALL_DESYNCS_TOTAL",
+    "value": 0
+  },
+  "STAT_PATCH_50_OVERALL_DESYNCS_SCENARIO": {
+    "description": "STAT_PATCH_50_OVERALL_DESYNCS_SCENARIO",
+    "value": 0
+  },
+  "STAT_PATCH_50_OVERALL_DESYNCS_BY_T20": {
+    "description": "STAT_PATCH_50_OVERALL_DESYNCS_BY_T20",
+    "value": 0
+  },
+  "STAT_PATCH_50_OVERALL_DESYNCS_BY_T1000": {
+    "description": "STAT_PATCH_50_OVERALL_DESYNCS_BY_T1000",
+    "value": 0
+  },
+  "STAT_PATCH_50_OVERALL_DESYNCS_LATER_T1000": {
+    "description": "STAT_PATCH_50_OVERALL_DESYNCS_LATER_T1000",
+    "value": 0
+  },
+  "STAT_PATCH_50_OVERALL_MPSTARTS": {
+    "description": "STAT_PATCH_50_OVERALL_MPSTARTS",
+    "value": 0
+  },
+  "STAT_PATCH_50_OVERALL_MPFINISHES": {
+    "description": "STAT_PATCH_50_OVERALL_MPFINISHES",
+    "value": 0
+  },
+  "STAT_PATCH_50_NOSPEC_NOAI_DESYNCS_TOTAL": {
+    "description": "STAT_PATCH_50_NOSPEC_NOAI_DESYNCS_TOTAL",
+    "value": 0
+  },
+  "STAT_PATCH_50_NOSPEC_NOAI_DESYNCS_SCENARIO": {
+    "description": "STAT_PATCH_50_NOSPEC_NOAI_DESYNCS_SCENARIO",
+    "value": 0
+  },
+  "STAT_PATCH_50_NOSPEC_NOAI_DESYNCS_BY_T20": {
+    "description": "STAT_PATCH_50_NOSPEC_NOAI_DESYNCS_BY_T20",
+    "value": 0
+  },
+  "STAT_PATCH_50_NOSPEC_NOAI_DESYNCS_BY_T1000": {
+    "description": "STAT_PATCH_50_NOSPEC_NOAI_DESYNCS_BY_T1000",
+    "value": 0
+  },
+  "STAT_PATCH_50_NOSPEC_NOAI_DESYNCS_LATER_T1000": {
+    "description": "STAT_PATCH_50_NOSPEC_NOAI_DESYNCS_LATER_T1000",
+    "value": 0
+  },
+  "STAT_PATCH_50_NOSPEC_NOAI_MPSTARTS": {
+    "description": "STAT_PATCH_50_NOSPEC_NOAI_MPSTARTS",
+    "value": 0
+  },
+  "STAT_PATCH_50_NOSPEC_NOAI_MPFINISHES": {
+    "description": "STAT_PATCH_50_NOSPEC_NOAI_MPFINISHES",
+    "value": 0
+  },
+  "STAT_PATCH_50_NOSPEC_WITHAI_DESYNCS_TOTAL": {
+    "description": "STAT_PATCH_50_NOSPEC_WITHAI_DESYNCS_TOTAL",
+    "value": 0
+  },
+  "STAT_PATCH_50_NOSPEC_WITHAI_DESYNCS_SCENARIO": {
+    "description": "STAT_PATCH_50_NOSPEC_WITHAI_DESYNCS_SCENARIO",
+    "value": 0
+  },
+  "STAT_PATCH_50_NOSPEC_WITHAI_DESYNCS_BY_T20": {
+    "description": "STAT_PATCH_50_NOSPEC_WITHAI_DESYNCS_BY_T20",
+    "value": 0
+  },
+  "STAT_PATCH_50_NOSPEC_WITHAI_DESYNCS_BY_T1000": {
+    "description": "STAT_PATCH_50_NOSPEC_WITHAI_DESYNCS_BY_T1000",
+    "value": 0
+  },
+  "STAT_PATCH_50_NOSPEC_WITHAI_DESYNCS_LATER_T1000": {
+    "description": "STAT_PATCH_50_NOSPEC_WITHAI_DESYNCS_LATER_T1000",
+    "value": 0
+  },
+  "STAT_PATCH_50_NOSPEC_WITHAI_MPSTARTS": {
+    "description": "STAT_PATCH_50_NOSPEC_WITHAI_MPSTARTS",
+    "value": 0
+  },
+  "STAT_PATCH_50_NOSPEC_WITHAI_MPFINISHES": {
+    "description": "STAT_PATCH_50_NOSPEC_WITHAI_MPFINISHES",
+    "value": 0
+  },
+  "STAT_PATCH_50_SPECHOST_NOAI_DESYNCS_TOTAL": {
+    "description": "STAT_PATCH_50_SPECHOST_NOAI_DESYNCS_TOTAL",
+    "value": 0
+  },
+  "STAT_PATCH_50_SPECHOST_NOAI_DESYNCS_SCENARIO": {
+    "description": "STAT_PATCH_50_SPECHOST_NOAI_DESYNCS_SCENARIO",
+    "value": 0
+  },
+  "STAT_PATCH_50_SPECHOST_NOAI_DESYNCS_BY_T20": {
+    "description": "STAT_PATCH_50_SPECHOST_NOAI_DESYNCS_BY_T20",
+    "value": 0
+  },
+  "STAT_PATCH_50_SPECHOST_NOAI_DESYNCS_BY_T1000": {
+    "description": "STAT_PATCH_50_SPECHOST_NOAI_DESYNCS_BY_T1000",
+    "value": 0
+  },
+  "STAT_PATCH_50_SPECHOST_NOAI_DESYNCS_LATER_T1000": {
+    "description": "STAT_PATCH_50_SPECHOST_NOAI_DESYNCS_LATER_T1000",
+    "value": 0
+  },
+  "STAT_PATCH_50_SPECHOST_NOAI_MPSTARTS": {
+    "description": "STAT_PATCH_50_SPECHOST_NOAI_MPSTARTS",
+    "value": 0
+  },
+  "STAT_PATCH_50_SPECHOST_NOAI_MPFINISHES": {
+    "description": "STAT_PATCH_50_SPECHOST_NOAI_MPFINISHES",
+    "value": 0
+  },
+  "STAT_PATCH_50_SPECHOST_WITHAI_DESYNCS_TOTAL": {
+    "description": "STAT_PATCH_50_SPECHOST_WITHAI_DESYNCS_TOTAL",
+    "value": 0
+  },
+  "STAT_PATCH_50_SPECHOST_WITHAI_DESYNCS_SCENARIO": {
+    "description": "STAT_PATCH_50_SPECHOST_WITHAI_DESYNCS_SCENARIO",
+    "value": 0
+  },
+  "STAT_PATCH_50_SPECHOST_WITHAI_DESYNCS_BY_T20": {
+    "description": "STAT_PATCH_50_SPECHOST_WITHAI_DESYNCS_BY_T20",
+    "value": 0
+  },
+  "STAT_PATCH_50_SPECHOST_WITHAI_DESYNCS_BY_T1000": {
+    "description": "STAT_PATCH_50_SPECHOST_WITHAI_DESYNCS_BY_T1000",
+    "value": 0
+  },
+  "STAT_PATCH_50_SPECHOST_WITHAI_DESYNCS_LATER_T1000": {
+    "description": "STAT_PATCH_50_SPECHOST_WITHAI_DESYNCS_LATER_T1000",
+    "value": 0
+  },
+  "STAT_PATCH_50_SPECHOST_WITHAI_MPSTARTS": {
+    "description": "STAT_PATCH_50_SPECHOST_WITHAI_MPSTARTS",
+    "value": 0
+  },
+  "STAT_PATCH_50_SPECHOST_WITHAI_MPFINISHES": {
+    "description": "STAT_PATCH_50_SPECHOST_WITHAI_MPFINISHES",
+    "value": 0
+  },
+  "STAT_PATCH_50_SPECNOTHOST_NOAI_DESYNCS_TOTAL": {
+    "description": "STAT_PATCH_50_SPECNOTHOST_NOAI_DESYNCS_TOTAL",
+    "value": 0
+  },
+  "STAT_PATCH_50_SPECNOTHOST_NOAI_DESYNCS_SCENARIO": {
+    "description": "STAT_PATCH_50_SPECNOTHOST_NOAI_DESYNCS_SCENARIO",
+    "value": 0
+  },
+  "STAT_PATCH_50_SPECNOTHOST_NOAI_DESYNCS_BY_T20": {
+    "description": "STAT_PATCH_50_SPECNOTHOST_NOAI_DESYNCS_BY_T20",
+    "value": 0
+  },
+  "STAT_PATCH_50_SPECNOTHOST_NOAI_DESYNCS_BY_T1000": {
+    "description": "STAT_PATCH_50_SPECNOTHOST_NOAI_DESYNCS_BY_T1000",
+    "value": 0
+  },
+  "STAT_PATCH_50_SPECNOTHOST_NOAI_DESYNCS_LATER_T1000": {
+    "description": "STAT_PATCH_50_SPECNOTHOST_NOAI_DESYNCS_LATER_T1000",
+    "value": 0
+  },
+  "STAT_PATCH_50_SPECNOTHOST_NOAI_MPSTARTS": {
+    "description": "STAT_PATCH_50_SPECNOTHOST_NOAI_MPSTARTS",
+    "value": 0
+  },
+  "STAT_PATCH_50_SPECNOTHOST_NOAI_MPFINISHES": {
+    "description": "STAT_PATCH_50_SPECNOTHOST_NOAI_MPFINISHES",
+    "value": 0
+  },
+  "STAT_PATCH_50_SPECNOTHOST_WITHAI_DESYNCS_TOTAL": {
+    "description": "STAT_PATCH_50_SPECNOTHOST_WITHAI_DESYNCS_TOTAL",
+    "value": 0
+  },
+  "STAT_PATCH_50_SPECNOTHOST_WITHAI_DESYNCS_SCENARIO": {
+    "description": "STAT_PATCH_50_SPECNOTHOST_WITHAI_DESYNCS_SCENARIO",
+    "value": 0
+  },
+  "STAT_PATCH_50_SPECNOTHOST_WITHAI_DESYNCS_BY_T20": {
+    "description": "STAT_PATCH_50_SPECNOTHOST_WITHAI_DESYNCS_BY_T20",
+    "value": 0
+  },
+  "STAT_PATCH_50_SPECNOTHOST_WITHAI_DESYNCS_BY_T1000": {
+    "description": "STAT_PATCH_50_SPECNOTHOST_WITHAI_DESYNCS_BY_T1000",
+    "value": 0
+  },
+  "STAT_PATCH_50_SPECNOTHOST_WITHAI_DESYNCS_LATER_T1000": {
+    "description": "STAT_PATCH_50_SPECNOTHOST_WITHAI_DESYNCS_LATER_T1000",
+    "value": 0
+  },
+  "STAT_PATCH_50_SPECNOTHOST_WITHAI_MPSTARTS": {
+    "description": "STAT_PATCH_50_SPECNOTHOST_WITHAI_MPSTARTS",
+    "value": 0
+  },
+  "STAT_PATCH_50_SPECNOTHOST_WITHAI_MPFINISHES": {
+    "description": "STAT_PATCH_50_SPECNOTHOST_WITHAI_MPFINISHES",
+    "value": 0
+  },
+  "STAT_PATCH_50_MPRESTORE_DESYNCS_TOTAL": {
+    "description": "STAT_PATCH_50_MPRESTORE_DESYNCS_TOTAL",
+    "value": 0
+  },
+  "STAT_PATCH_50_MPRESTORE_DESYNCS_BY_T20": {
+    "description": "STAT_PATCH_50_MPRESTORE_DESYNCS_BY_T20",
+    "value": 0
+  },
+  "STAT_PATCH_50_MPRESTORE_DESYNCS_BY_T1000": {
+    "description": "STAT_PATCH_50_MPRESTORE_DESYNCS_BY_T1000",
+    "value": 0
+  },
+  "STAT_PATCH_50_MPRESTORE_DESYNCS_LATER_T1000": {
+    "description": "STAT_PATCH_50_MPRESTORE_DESYNCS_LATER_T1000",
+    "value": 0
+  },
+  "STAT_PATCH_50_MPRESTORE_MPSTARTS": {
+    "description": "STAT_PATCH_50_MPRESTORE_MPSTARTS",
+    "value": 0
+  },
+  "STAT_PATCH_50_MPRESTORE_MPFINISHES": {
+    "description": "STAT_PATCH_50_MPRESTORE_MPFINISHES",
+    "value": 0
+  },
+  "STAT_PATCH_49_OVERALL_APPLICATION_STARTS": {
+    "description": "STAT_PATCH_49_OVERALL_APPLICATION_STARTS",
+    "value": 0
+  },
+  "STAT_PATCH_49_OVERALL_DESYNCS_TOTAL": {
+    "description": "STAT_PATCH_49_OVERALL_DESYNCS_TOTAL",
+    "value": 0
+  },
+  "STAT_PATCH_49_OVERALL_DESYNCS_SCENARIO": {
+    "description": "STAT_PATCH_49_OVERALL_DESYNCS_SCENARIO",
+    "value": 0
+  },
+  "STAT_PATCH_49_OVERALL_DESYNCS_BY_T20": {
+    "description": "STAT_PATCH_49_OVERALL_DESYNCS_BY_T20",
+    "value": 0
+  },
+  "STAT_PATCH_49_OVERALL_DESYNCS_BY_T1000": {
+    "description": "STAT_PATCH_49_OVERALL_DESYNCS_BY_T1000",
+    "value": 0
+  },
+  "STAT_PATCH_49_OVERALL_DESYNCS_LATER_T1000": {
+    "description": "STAT_PATCH_49_OVERALL_DESYNCS_LATER_T1000",
+    "value": 0
+  },
+  "STAT_PATCH_49_OVERALL_MPSTARTS": {
+    "description": "STAT_PATCH_49_OVERALL_MPSTARTS",
+    "value": 0
+  },
+  "STAT_PATCH_49_OVERALL_MPFINISHES": {
+    "description": "STAT_PATCH_49_OVERALL_MPFINISHES",
+    "value": 0
+  },
+  "STAT_PATCH_49_NOSPEC_NOAI_DESYNCS_TOTAL": {
+    "description": "STAT_PATCH_49_NOSPEC_NOAI_DESYNCS_TOTAL",
+    "value": 0
+  },
+  "STAT_PATCH_49_NOSPEC_NOAI_DESYNCS_SCENARIO": {
+    "description": "STAT_PATCH_49_NOSPEC_NOAI_DESYNCS_SCENARIO",
+    "value": 0
+  },
+  "STAT_PATCH_49_NOSPEC_NOAI_DESYNCS_BY_T20": {
+    "description": "STAT_PATCH_49_NOSPEC_NOAI_DESYNCS_BY_T20",
+    "value": 0
+  },
+  "STAT_PATCH_49_NOSPEC_NOAI_DESYNCS_BY_T1000": {
+    "description": "STAT_PATCH_49_NOSPEC_NOAI_DESYNCS_BY_T1000",
+    "value": 0
+  },
+  "STAT_PATCH_49_NOSPEC_NOAI_DESYNCS_LATER_T1000": {
+    "description": "STAT_PATCH_49_NOSPEC_NOAI_DESYNCS_LATER_T1000",
+    "value": 0
+  },
+  "STAT_PATCH_49_NOSPEC_NOAI_MPSTARTS": {
+    "description": "STAT_PATCH_49_NOSPEC_NOAI_MPSTARTS",
+    "value": 0
+  },
+  "STAT_PATCH_49_NOSPEC_NOAI_MPFINISHES": {
+    "description": "STAT_PATCH_49_NOSPEC_NOAI_MPFINISHES",
+    "value": 0
+  },
+  "STAT_PATCH_49_NOSPEC_WITHAI_DESYNCS_TOTAL": {
+    "description": "STAT_PATCH_49_NOSPEC_WITHAI_DESYNCS_TOTAL",
+    "value": 0
+  },
+  "STAT_PATCH_49_NOSPEC_WITHAI_DESYNCS_SCENARIO": {
+    "description": "STAT_PATCH_49_NOSPEC_WITHAI_DESYNCS_SCENARIO",
+    "value": 0
+  },
+  "STAT_PATCH_49_NOSPEC_WITHAI_DESYNCS_BY_T20": {
+    "description": "STAT_PATCH_49_NOSPEC_WITHAI_DESYNCS_BY_T20",
+    "value": 0
+  },
+  "STAT_PATCH_49_NOSPEC_WITHAI_DESYNCS_BY_T1000": {
+    "description": "STAT_PATCH_49_NOSPEC_WITHAI_DESYNCS_BY_T1000",
+    "value": 0
+  },
+  "STAT_PATCH_49_NOSPEC_WITHAI_DESYNCS_LATER_T1000": {
+    "description": "STAT_PATCH_49_NOSPEC_WITHAI_DESYNCS_LATER_T1000",
+    "value": 0
+  },
+  "STAT_PATCH_49_NOSPEC_WITHAI_MPSTARTS": {
+    "description": "STAT_PATCH_49_NOSPEC_WITHAI_MPSTARTS",
+    "value": 0
+  },
+  "STAT_PATCH_49_NOSPEC_WITHAI_MPFINISHES": {
+    "description": "STAT_PATCH_49_NOSPEC_WITHAI_MPFINISHES",
+    "value": 0
+  },
+  "STAT_PATCH_49_SPECHOST_NOAI_DESYNCS_TOTAL": {
+    "description": "STAT_PATCH_49_SPECHOST_NOAI_DESYNCS_TOTAL",
+    "value": 0
+  },
+  "STAT_PATCH_49_SPECHOST_NOAI_DESYNCS_SCENARIO": {
+    "description": "STAT_PATCH_49_SPECHOST_NOAI_DESYNCS_SCENARIO",
+    "value": 0
+  },
+  "STAT_PATCH_49_SPECHOST_NOAI_DESYNCS_BY_T20": {
+    "description": "STAT_PATCH_49_SPECHOST_NOAI_DESYNCS_BY_T20",
+    "value": 0
+  },
+  "STAT_PATCH_49_SPECHOST_NOAI_DESYNCS_BY_T1000": {
+    "description": "STAT_PATCH_49_SPECHOST_NOAI_DESYNCS_BY_T1000",
+    "value": 0
+  },
+  "STAT_PATCH_49_SPECHOST_NOAI_DESYNCS_LATER_T1000": {
+    "description": "STAT_PATCH_49_SPECHOST_NOAI_DESYNCS_LATER_T1000",
+    "value": 0
+  },
+  "STAT_PATCH_49_SPECHOST_NOAI_MPSTARTS": {
+    "description": "STAT_PATCH_49_SPECHOST_NOAI_MPSTARTS",
+    "value": 0
+  },
+  "STAT_PATCH_49_SPECHOST_NOAI_MPFINISHES": {
+    "description": "STAT_PATCH_49_SPECHOST_NOAI_MPFINISHES",
+    "value": 0
+  },
+  "STAT_PATCH_49_SPECHOST_WITHAI_DESYNCS_TOTAL": {
+    "description": "STAT_PATCH_49_SPECHOST_WITHAI_DESYNCS_TOTAL",
+    "value": 0
+  },
+  "STAT_PATCH_49_SPECHOST_WITHAI_DESYNCS_SCENARIO": {
+    "description": "STAT_PATCH_49_SPECHOST_WITHAI_DESYNCS_SCENARIO",
+    "value": 0
+  },
+  "STAT_PATCH_49_SPECHOST_WITHAI_DESYNCS_BY_T20": {
+    "description": "STAT_PATCH_49_SPECHOST_WITHAI_DESYNCS_BY_T20",
+    "value": 0
+  },
+  "STAT_PATCH_49_SPECHOST_WITHAI_DESYNCS_BY_T1000": {
+    "description": "STAT_PATCH_49_SPECHOST_WITHAI_DESYNCS_BY_T1000",
+    "value": 0
+  },
+  "STAT_PATCH_49_SPECHOST_WITHAI_DESYNCS_LATER_T1000": {
+    "description": "STAT_PATCH_49_SPECHOST_WITHAI_DESYNCS_LATER_T1000",
+    "value": 0
+  },
+  "STAT_PATCH_49_SPECHOST_WITHAI_MPSTARTS": {
+    "description": "STAT_PATCH_49_SPECHOST_WITHAI_MPSTARTS",
+    "value": 0
+  },
+  "STAT_PATCH_49_SPECHOST_WITHAI_MPFINISHES": {
+    "description": "STAT_PATCH_49_SPECHOST_WITHAI_MPFINISHES",
+    "value": 0
+  },
+  "STAT_PATCH_49_SPECNOTHOST_NOAI_DESYNCS_TOTAL": {
+    "description": "STAT_PATCH_49_SPECNOTHOST_NOAI_DESYNCS_TOTAL",
+    "value": 0
+  },
+  "STAT_PATCH_49_SPECNOTHOST_NOAI_DESYNCS_SCENARIO": {
+    "description": "STAT_PATCH_49_SPECNOTHOST_NOAI_DESYNCS_SCENARIO",
+    "value": 0
+  },
+  "STAT_PATCH_49_SPECNOTHOST_NOAI_DESYNCS_BY_T20": {
+    "description": "STAT_PATCH_49_SPECNOTHOST_NOAI_DESYNCS_BY_T20",
+    "value": 0
+  },
+  "STAT_PATCH_49_SPECNOTHOST_NOAI_DESYNCS_BY_T1000": {
+    "description": "STAT_PATCH_49_SPECNOTHOST_NOAI_DESYNCS_BY_T1000",
+    "value": 0
+  },
+  "STAT_PATCH_49_SPECNOTHOST_NOAI_DESYNCS_LATER_T1000": {
+    "description": "STAT_PATCH_49_SPECNOTHOST_NOAI_DESYNCS_LATER_T1000",
+    "value": 0
+  },
+  "STAT_PATCH_49_SPECNOTHOST_NOAI_MPSTARTS": {
+    "description": "STAT_PATCH_49_SPECNOTHOST_NOAI_MPSTARTS",
+    "value": 0
+  },
+  "STAT_PATCH_49_SPECNOTHOST_NOAI_MPFINISHES": {
+    "description": "STAT_PATCH_49_SPECNOTHOST_NOAI_MPFINISHES",
+    "value": 0
+  },
+  "STAT_PATCH_49_SPECNOTHOST_WITHAI_DESYNCS_TOTAL": {
+    "description": "STAT_PATCH_49_SPECNOTHOST_WITHAI_DESYNCS_TOTAL",
+    "value": 0
+  },
+  "STAT_PATCH_49_SPECNOTHOST_WITHAI_DESYNCS_SCENARIO": {
+    "description": "STAT_PATCH_49_SPECNOTHOST_WITHAI_DESYNCS_SCENARIO",
+    "value": 0
+  },
+  "STAT_PATCH_49_SPECNOTHOST_WITHAI_DESYNCS_BY_T20": {
+    "description": "STAT_PATCH_49_SPECNOTHOST_WITHAI_DESYNCS_BY_T20",
+    "value": 0
+  },
+  "STAT_PATCH_49_SPECNOTHOST_WITHAI_DESYNCS_BY_T1000": {
+    "description": "STAT_PATCH_49_SPECNOTHOST_WITHAI_DESYNCS_BY_T1000",
+    "value": 0
+  },
+  "STAT_PATCH_49_SPECNOTHOST_WITHAI_DESYNCS_LATER_T1000": {
+    "description": "STAT_PATCH_49_SPECNOTHOST_WITHAI_DESYNCS_LATER_T1000",
+    "value": 0
+  },
+  "STAT_PATCH_49_SPECNOTHOST_WITHAI_MPSTARTS": {
+    "description": "STAT_PATCH_49_SPECNOTHOST_WITHAI_MPSTARTS",
+    "value": 0
+  },
+  "STAT_PATCH_49_SPECNOTHOST_WITHAI_MPFINISHES": {
+    "description": "STAT_PATCH_49_SPECNOTHOST_WITHAI_MPFINISHES",
+    "value": 0
+  },
+  "STAT_PATCH_49_MPRESTORE_DESYNCS_TOTAL": {
+    "description": "STAT_PATCH_49_MPRESTORE_DESYNCS_TOTAL",
+    "value": 0
+  },
+  "STAT_PATCH_49_MPRESTORE_DESYNCS_BY_T20": {
+    "description": "STAT_PATCH_49_MPRESTORE_DESYNCS_BY_T20",
+    "value": 0
+  },
+  "STAT_PATCH_49_MPRESTORE_DESYNCS_BY_T1000": {
+    "description": "STAT_PATCH_49_MPRESTORE_DESYNCS_BY_T1000",
+    "value": 0
+  },
+  "STAT_PATCH_49_MPRESTORE_DESYNCS_LATER_T1000": {
+    "description": "STAT_PATCH_49_MPRESTORE_DESYNCS_LATER_T1000",
+    "value": 0
+  },
+  "STAT_PATCH_49_MPRESTORE_MPSTARTS": {
+    "description": "STAT_PATCH_49_MPRESTORE_MPSTARTS",
+    "value": 0
+  },
+  "STAT_PATCH_49_MPRESTORE_MPFINISHES": {
+    "description": "STAT_PATCH_49_MPRESTORE_MPFINISHES",
+    "value": 0
+  },
+  "STAT_DEFEATED_KHMER": {
+    "description": "STAT_DEFEATED_KHMER",
+    "value": 0
+  },
+  "STAT_DEFEATED_MALAY": {
+    "description": "STAT_DEFEATED_MALAY",
+    "value": 0
+  },
+  "STAT_DEFEATED_BURMESE": {
+    "description": "STAT_DEFEATED_BURMESE",
+    "value": 0
+  },
+  "STAT_DEFEATED_VIETNAMESE": {
+    "description": "STAT_DEFEATED_VIETNAMESE",
+    "value": 0
+  },
+  "STAT_VICTORY_KHMER": {
+    "description": "STAT_VICTORY_KHMER",
+    "value": 0
+  },
+  "STAT_VICTORY_MALAY": {
+    "description": "STAT_VICTORY_MALAY",
+    "value": 0
+  },
+  "STAT_VICTORY_BURMESE": {
+    "description": "STAT_VICTORY_BURMESE",
+    "value": 0
+  },
+  "STAT_VICTORY_VIETNAMESE": {
+    "description": "STAT_VICTORY_VIETNAMESE",
+    "value": 0
+  },
+  "STAT_POPCAP_50_SP": {
+    "description": "STAT_POPCAP_50_SP",
+    "value": 0
+  },
+  "STAT_POPCAP_75_SP": {
+    "description": "STAT_POPCAP_75_SP",
+    "value": 0
+  },
+  "STAT_POPCAP_100_SP": {
+    "description": "STAT_POPCAP_100_SP",
+    "value": 0
+  },
+  "STAT_POPCAP_125_SP": {
+    "description": "STAT_POPCAP_125_SP",
+    "value": 0
+  },
+  "STAT_POPCAP_150_SP": {
+    "description": "STAT_POPCAP_150_SP",
+    "value": 0
+  },
+  "STAT_POPCAP_175_SP": {
+    "description": "STAT_POPCAP_175_SP",
+    "value": 0
+  },
+  "STAT_POPCAP_200_SP": {
+    "description": "STAT_POPCAP_200_SP",
+    "value": 0
+  },
+  "STAT_POPCAP_250_SP": {
+    "description": "STAT_POPCAP_250_SP",
+    "value": 0
+  },
+  "STAT_POPCAP_300_SP": {
+    "description": "STAT_POPCAP_300_SP",
+    "value": 0
+  },
+  "STAT_POPCAP_400_SP": {
+    "description": "STAT_POPCAP_400_SP",
+    "value": 0
+  },
+  "STAT_POPCAP_500_SP": {
+    "description": "STAT_POPCAP_500_SP",
+    "value": 0
+  },
+  "STAT_POPCAP_25_MP": {
+    "description": "STAT_POPCAP_25_MP",
+    "value": 0
+  },
+  "STAT_POPCAP_50_MP": {
+    "description": "STAT_POPCAP_50_MP",
+    "value": 0
+  },
+  "STAT_POPCAP_75_MP": {
+    "description": "STAT_POPCAP_75_MP",
+    "value": 0
+  },
+  "STAT_POPCAP_100_MP": {
+    "description": "STAT_POPCAP_100_MP",
+    "value": 0
+  },
+  "STAT_POPCAP_125_MP": {
+    "description": "STAT_POPCAP_125_MP",
+    "value": 0
+  },
+  "STAT_POPCAP_150_MP": {
+    "description": "STAT_POPCAP_150_MP",
+    "value": 0
+  },
+  "STAT_POPCAP_175_MP": {
+    "description": "STAT_POPCAP_175_MP",
+    "value": 0
+  },
+  "STAT_POPCAP_200_MP": {
+    "description": "STAT_POPCAP_200_MP",
+    "value": 0
+  },
+  "STAT_POPCAP_250_MP": {
+    "description": "STAT_POPCAP_250_MP",
+    "value": 0
+  },
+  "STAT_POPCAP_300_MP": {
+    "description": "STAT_POPCAP_300_MP",
+    "value": 0
+  },
+  "STAT_POPCAP_400_MP": {
+    "description": "STAT_POPCAP_400_MP",
+    "value": 0
+  },
+  "STAT_POPCAP_500_MP": {
+    "description": "STAT_POPCAP_500_MP",
+    "value": 0
+  },
+  "STAT_PATCH_51_OVERALL_APPLICATION_STARTS": {
+    "description": "STAT_PATCH_51_OVERALL_APPLICATION_STARTS",
+    "value": 0
+  },
+  "STAT_PATCH_51_OVERALL_DESYNCS_TOTAL": {
+    "description": "STAT_PATCH_51_OVERALL_DESYNCS_TOTAL",
+    "value": 0
+  },
+  "STAT_PATCH_51_OVERALL_DESYNCS_SCENARIO": {
+    "description": "STAT_PATCH_51_OVERALL_DESYNCS_SCENARIO",
+    "value": 0
+  },
+  "STAT_PATCH_51_OVERALL_DESYNCS_BY_T20": {
+    "description": "STAT_PATCH_51_OVERALL_DESYNCS_BY_T20",
+    "value": 0
+  },
+  "STAT_PATCH_51_OVERALL_DESYNCS_BY_T1000": {
+    "description": "STAT_PATCH_51_OVERALL_DESYNCS_BY_T1000",
+    "value": 0
+  },
+  "STAT_PATCH_51_OVERALL_DESYNCS_LATER_T1000": {
+    "description": "STAT_PATCH_51_OVERALL_DESYNCS_LATER_T1000",
+    "value": 0
+  },
+  "STAT_PATCH_51_OVERALL_MPSTARTS": {
+    "description": "STAT_PATCH_51_OVERALL_MPSTARTS",
+    "value": 0
+  },
+  "STAT_PATCH_51_OVERALL_MPFINISHES": {
+    "description": "STAT_PATCH_51_OVERALL_MPFINISHES",
+    "value": 0
+  },
+  "STAT_PATCH_51_NOSPEC_NOAI_DESYNCS_TOTAL": {
+    "description": "STAT_PATCH_51_NOSPEC_NOAI_DESYNCS_TOTAL",
+    "value": 0
+  },
+  "STAT_PATCH_51_NOSPEC_NOAI_DESYNCS_SCENARIO": {
+    "description": "STAT_PATCH_51_NOSPEC_NOAI_DESYNCS_SCENARIO",
+    "value": 0
+  },
+  "STAT_PATCH_51_NOSPEC_NOAI_DESYNCS_BY_T20": {
+    "description": "STAT_PATCH_51_NOSPEC_NOAI_DESYNCS_BY_T20",
+    "value": 0
+  },
+  "STAT_PATCH_51_NOSPEC_NOAI_DESYNCS_BY_T1000": {
+    "description": "STAT_PATCH_51_NOSPEC_NOAI_DESYNCS_BY_T1000",
+    "value": 0
+  },
+  "STAT_PATCH_51_NOSPEC_NOAI_DESYNCS_LATER_T1000": {
+    "description": "STAT_PATCH_51_NOSPEC_NOAI_DESYNCS_LATER_T1000",
+    "value": 0
+  },
+  "STAT_PATCH_51_NOSPEC_NOAI_MPSTARTS": {
+    "description": "STAT_PATCH_51_NOSPEC_NOAI_MPSTARTS",
+    "value": 0
+  },
+  "STAT_PATCH_51_NOSPEC_NOAI_MPFINISHES": {
+    "description": "STAT_PATCH_51_NOSPEC_NOAI_MPFINISHES",
+    "value": 0
+  },
+  "STAT_PATCH_51_NOSPEC_WITHAI_DESYNCS_TOTAL": {
+    "description": "STAT_PATCH_51_NOSPEC_WITHAI_DESYNCS_TOTAL",
+    "value": 0
+  },
+  "STAT_PATCH_51_NOSPEC_WITHAI_DESYNCS_SCENARIO": {
+    "description": "STAT_PATCH_51_NOSPEC_WITHAI_DESYNCS_SCENARIO",
+    "value": 0
+  },
+  "STAT_PATCH_51_NOSPEC_WITHAI_DESYNCS_BY_T20": {
+    "description": "STAT_PATCH_51_NOSPEC_WITHAI_DESYNCS_BY_T20",
+    "value": 0
+  },
+  "STAT_PATCH_51_NOSPEC_WITHAI_DESYNCS_BY_T1000": {
+    "description": "STAT_PATCH_51_NOSPEC_WITHAI_DESYNCS_BY_T1000",
+    "value": 0
+  },
+  "STAT_PATCH_51_NOSPEC_WITHAI_DESYNCS_LATER_T1000": {
+    "description": "STAT_PATCH_51_NOSPEC_WITHAI_DESYNCS_LATER_T1000",
+    "value": 0
+  },
+  "STAT_PATCH_51_NOSPEC_WITHAI_MPSTARTS": {
+    "description": "STAT_PATCH_51_NOSPEC_WITHAI_MPSTARTS",
+    "value": 0
+  },
+  "STAT_PATCH_51_NOSPEC_WITHAI_MPFINISHES": {
+    "description": "STAT_PATCH_51_NOSPEC_WITHAI_MPFINISHES",
+    "value": 0
+  },
+  "STAT_PATCH_51_SPECHOST_NOAI_DESYNCS_TOTAL": {
+    "description": "STAT_PATCH_51_SPECHOST_NOAI_DESYNCS_TOTAL",
+    "value": 0
+  },
+  "STAT_PATCH_51_SPECHOST_NOAI_DESYNCS_SCENARIO": {
+    "description": "STAT_PATCH_51_SPECHOST_NOAI_DESYNCS_SCENARIO",
+    "value": 0
+  },
+  "STAT_PATCH_51_SPECHOST_NOAI_DESYNCS_BY_T20": {
+    "description": "STAT_PATCH_51_SPECHOST_NOAI_DESYNCS_BY_T20",
+    "value": 0
+  },
+  "STAT_PATCH_51_SPECHOST_NOAI_DESYNCS_BY_T1000": {
+    "description": "STAT_PATCH_51_SPECHOST_NOAI_DESYNCS_BY_T1000",
+    "value": 0
+  },
+  "STAT_PATCH_51_SPECHOST_NOAI_DESYNCS_LATER_T1000": {
+    "description": "STAT_PATCH_51_SPECHOST_NOAI_DESYNCS_LATER_T1000",
+    "value": 0
+  },
+  "STAT_PATCH_51_SPECHOST_NOAI_MPSTARTS": {
+    "description": "STAT_PATCH_51_SPECHOST_NOAI_MPSTARTS",
+    "value": 0
+  },
+  "STAT_PATCH_51_SPECHOST_NOAI_MPFINISHES": {
+    "description": "STAT_PATCH_51_SPECHOST_NOAI_MPFINISHES",
+    "value": 0
+  },
+  "STAT_PATCH_51_SPECHOST_WITHAI_DESYNCS_TOTAL": {
+    "description": "STAT_PATCH_51_SPECHOST_WITHAI_DESYNCS_TOTAL",
+    "value": 0
+  },
+  "STAT_PATCH_51_SPECHOST_WITHAI_DESYNCS_SCENARIO": {
+    "description": "STAT_PATCH_51_SPECHOST_WITHAI_DESYNCS_SCENARIO",
+    "value": 0
+  },
+  "STAT_PATCH_51_SPECHOST_WITHAI_DESYNCS_BY_T20": {
+    "description": "STAT_PATCH_51_SPECHOST_WITHAI_DESYNCS_BY_T20",
+    "value": 0
+  },
+  "STAT_PATCH_51_SPECHOST_WITHAI_DESYNCS_BY_T1000": {
+    "description": "STAT_PATCH_51_SPECHOST_WITHAI_DESYNCS_BY_T1000",
+    "value": 0
+  },
+  "STAT_PATCH_51_SPECHOST_WITHAI_DESYNCS_LATER_T1000": {
+    "description": "STAT_PATCH_51_SPECHOST_WITHAI_DESYNCS_LATER_T1000",
+    "value": 0
+  },
+  "STAT_PATCH_51_SPECHOST_WITHAI_MPSTARTS": {
+    "description": "STAT_PATCH_51_SPECHOST_WITHAI_MPSTARTS",
+    "value": 0
+  },
+  "STAT_PATCH_51_SPECHOST_WITHAI_MPFINISHES": {
+    "description": "STAT_PATCH_51_SPECHOST_WITHAI_MPFINISHES",
+    "value": 0
+  },
+  "STAT_PATCH_51_SPECNOTHOST_NOAI_DESYNCS_TOTAL": {
+    "description": "STAT_PATCH_51_SPECNOTHOST_NOAI_DESYNCS_TOTAL",
+    "value": 0
+  },
+  "STAT_PATCH_51_SPECNOTHOST_NOAI_DESYNCS_SCENARIO": {
+    "description": "STAT_PATCH_51_SPECNOTHOST_NOAI_DESYNCS_SCENARIO",
+    "value": 0
+  },
+  "STAT_PATCH_51_SPECNOTHOST_NOAI_DESYNCS_BY_T20": {
+    "description": "STAT_PATCH_51_SPECNOTHOST_NOAI_DESYNCS_BY_T20",
+    "value": 0
+  },
+  "STAT_PATCH_51_SPECNOTHOST_NOAI_DESYNCS_BY_T1000": {
+    "description": "STAT_PATCH_51_SPECNOTHOST_NOAI_DESYNCS_BY_T1000",
+    "value": 0
+  },
+  "STAT_PATCH_51_SPECNOTHOST_NOAI_DESYNCS_LATER_T1000": {
+    "description": "STAT_PATCH_51_SPECNOTHOST_NOAI_DESYNCS_LATER_T1000",
+    "value": 0
+  },
+  "STAT_PATCH_51_SPECNOTHOST_NOAI_MPSTARTS": {
+    "description": "STAT_PATCH_51_SPECNOTHOST_NOAI_MPSTARTS",
+    "value": 0
+  },
+  "STAT_PATCH_51_SPECNOTHOST_NOAI_MPFINISHES": {
+    "description": "STAT_PATCH_51_SPECNOTHOST_NOAI_MPFINISHES",
+    "value": 0
+  },
+  "STAT_PATCH_51_SPECNOTHOST_WITHAI_DESYNCS_TOTAL": {
+    "description": "STAT_PATCH_51_SPECNOTHOST_WITHAI_DESYNCS_TOTAL",
+    "value": 0
+  },
+  "STAT_PATCH_51_SPECNOTHOST_WITHAI_DESYNCS_SCENARIO": {
+    "description": "STAT_PATCH_51_SPECNOTHOST_WITHAI_DESYNCS_SCENARIO",
+    "value": 0
+  },
+  "STAT_PATCH_51_SPECNOTHOST_WITHAI_DESYNCS_BY_T20": {
+    "description": "STAT_PATCH_51_SPECNOTHOST_WITHAI_DESYNCS_BY_T20",
+    "value": 0
+  },
+  "STAT_PATCH_51_SPECNOTHOST_WITHAI_DESYNCS_BY_T1000": {
+    "description": "STAT_PATCH_51_SPECNOTHOST_WITHAI_DESYNCS_BY_T1000",
+    "value": 0
+  },
+  "STAT_PATCH_51_SPECNOTHOST_WITHAI_DESYNCS_LATER_T1000": {
+    "description": "STAT_PATCH_51_SPECNOTHOST_WITHAI_DESYNCS_LATER_T1000",
+    "value": 0
+  },
+  "STAT_PATCH_51_SPECNOTHOST_WITHAI_MPSTARTS": {
+    "description": "STAT_PATCH_51_SPECNOTHOST_WITHAI_MPSTARTS",
+    "value": 0
+  },
+  "STAT_PATCH_51_SPECNOTHOST_WITHAI_MPFINISHES": {
+    "description": "STAT_PATCH_51_SPECNOTHOST_WITHAI_MPFINISHES",
+    "value": 0
+  },
+  "STAT_PATCH_51_MPRESTORE_DESYNCS_TOTAL": {
+    "description": "STAT_PATCH_51_MPRESTORE_DESYNCS_TOTAL",
+    "value": 0
+  },
+  "STAT_PATCH_51_MPRESTORE_DESYNCS_BY_T20": {
+    "description": "STAT_PATCH_51_MPRESTORE_DESYNCS_BY_T20",
+    "value": 0
+  },
+  "STAT_PATCH_51_MPRESTORE_DESYNCS_BY_T1000": {
+    "description": "STAT_PATCH_51_MPRESTORE_DESYNCS_BY_T1000",
+    "value": 0
+  },
+  "STAT_PATCH_51_MPRESTORE_DESYNCS_LATER_T1000": {
+    "description": "STAT_PATCH_51_MPRESTORE_DESYNCS_LATER_T1000",
+    "value": 0
+  },
+  "STAT_PATCH_51_MPRESTORE_MPSTARTS": {
+    "description": "STAT_PATCH_51_MPRESTORE_MPSTARTS",
+    "value": 0
+  },
+  "STAT_PATCH_51_MPRESTORE_MPFINISHES": {
+    "description": "STAT_PATCH_51_MPRESTORE_MPFINISHES",
+    "value": 0
+  },
+  "STAT_PATCH_52_OVERALL_APPLICATION_STARTS": {
+    "description": "STAT_PATCH_52_OVERALL_APPLICATION_STARTS",
+    "value": 0
+  },
+  "STAT_PATCH_52_OVERALL_DESYNCS_TOTAL": {
+    "description": "STAT_PATCH_52_OVERALL_DESYNCS_TOTAL",
+    "value": 0
+  },
+  "STAT_PATCH_52_OVERALL_DESYNCS_SCENARIO": {
+    "description": "STAT_PATCH_52_OVERALL_DESYNCS_SCENARIO",
+    "value": 0
+  },
+  "STAT_PATCH_52_OVERALL_DESYNCS_BY_T20": {
+    "description": "STAT_PATCH_52_OVERALL_DESYNCS_BY_T20",
+    "value": 0
+  },
+  "STAT_PATCH_52_OVERALL_DESYNCS_BY_T1000": {
+    "description": "STAT_PATCH_52_OVERALL_DESYNCS_BY_T1000",
+    "value": 0
+  },
+  "STAT_PATCH_52_OVERALL_DESYNCS_LATER_T1000": {
+    "description": "STAT_PATCH_52_OVERALL_DESYNCS_LATER_T1000",
+    "value": 0
+  },
+  "STAT_PATCH_52_OVERALL_MPSTARTS": {
+    "description": "STAT_PATCH_52_OVERALL_MPSTARTS",
+    "value": 0
+  },
+  "STAT_PATCH_52_OVERALL_MPFINISHES": {
+    "description": "STAT_PATCH_52_OVERALL_MPFINISHES",
+    "value": 0
+  },
+  "STAT_PATCH_52_NOSPEC_NOAI_DESYNCS_TOTAL": {
+    "description": "STAT_PATCH_52_NOSPEC_NOAI_DESYNCS_TOTAL",
+    "value": 0
+  },
+  "STAT_PATCH_52_NOSPEC_NOAI_DESYNCS_SCENARIO": {
+    "description": "STAT_PATCH_52_NOSPEC_NOAI_DESYNCS_SCENARIO",
+    "value": 0
+  },
+  "STAT_PATCH_52_NOSPEC_NOAI_DESYNCS_BY_T20": {
+    "description": "STAT_PATCH_52_NOSPEC_NOAI_DESYNCS_BY_T20",
+    "value": 0
+  },
+  "STAT_PATCH_52_NOSPEC_NOAI_DESYNCS_BY_T1000": {
+    "description": "STAT_PATCH_52_NOSPEC_NOAI_DESYNCS_BY_T1000",
+    "value": 0
+  },
+  "STAT_PATCH_52_NOSPEC_NOAI_DESYNCS_LATER_T1000": {
+    "description": "STAT_PATCH_52_NOSPEC_NOAI_DESYNCS_LATER_T1000",
+    "value": 0
+  },
+  "STAT_PATCH_52_NOSPEC_NOAI_MPSTARTS": {
+    "description": "STAT_PATCH_52_NOSPEC_NOAI_MPSTARTS",
+    "value": 0
+  },
+  "STAT_PATCH_52_NOSPEC_NOAI_MPFINISHES": {
+    "description": "STAT_PATCH_52_NOSPEC_NOAI_MPFINISHES",
+    "value": 0
+  },
+  "STAT_PATCH_52_NOSPEC_WITHAI_DESYNCS_TOTAL": {
+    "description": "STAT_PATCH_52_NOSPEC_WITHAI_DESYNCS_TOTAL",
+    "value": 0
+  },
+  "STAT_PATCH_52_NOSPEC_WITHAI_DESYNCS_SCENARIO": {
+    "description": "STAT_PATCH_52_NOSPEC_WITHAI_DESYNCS_SCENARIO",
+    "value": 0
+  },
+  "STAT_PATCH_52_NOSPEC_WITHAI_DESYNCS_BY_T20": {
+    "description": "STAT_PATCH_52_NOSPEC_WITHAI_DESYNCS_BY_T20",
+    "value": 0
+  },
+  "STAT_PATCH_52_NOSPEC_WITHAI_DESYNCS_BY_T1000": {
+    "description": "STAT_PATCH_52_NOSPEC_WITHAI_DESYNCS_BY_T1000",
+    "value": 0
+  },
+  "STAT_PATCH_52_NOSPEC_WITHAI_DESYNCS_LATER_T1000": {
+    "description": "STAT_PATCH_52_NOSPEC_WITHAI_DESYNCS_LATER_T1000",
+    "value": 0
+  },
+  "STAT_PATCH_52_NOSPEC_WITHAI_MPSTARTS": {
+    "description": "STAT_PATCH_52_NOSPEC_WITHAI_MPSTARTS",
+    "value": 0
+  },
+  "STAT_PATCH_52_NOSPEC_WITHAI_MPFINISHES": {
+    "description": "STAT_PATCH_52_NOSPEC_WITHAI_MPFINISHES",
+    "value": 0
+  },
+  "STAT_PATCH_52_SPECHOST_NOAI_DESYNCS_TOTAL": {
+    "description": "STAT_PATCH_52_SPECHOST_NOAI_DESYNCS_TOTAL",
+    "value": 0
+  },
+  "STAT_PATCH_52_SPECHOST_NOAI_DESYNCS_SCENARIO": {
+    "description": "STAT_PATCH_52_SPECHOST_NOAI_DESYNCS_SCENARIO",
+    "value": 0
+  },
+  "STAT_PATCH_52_SPECHOST_NOAI_DESYNCS_BY_T20": {
+    "description": "STAT_PATCH_52_SPECHOST_NOAI_DESYNCS_BY_T20",
+    "value": 0
+  },
+  "STAT_PATCH_52_SPECHOST_NOAI_DESYNCS_BY_T1000": {
+    "description": "STAT_PATCH_52_SPECHOST_NOAI_DESYNCS_BY_T1000",
+    "value": 0
+  },
+  "STAT_PATCH_52_SPECHOST_NOAI_DESYNCS_LATER_T1000": {
+    "description": "STAT_PATCH_52_SPECHOST_NOAI_DESYNCS_LATER_T1000",
+    "value": 0
+  },
+  "STAT_PATCH_52_SPECHOST_NOAI_MPSTARTS": {
+    "description": "STAT_PATCH_52_SPECHOST_NOAI_MPSTARTS",
+    "value": 0
+  },
+  "STAT_PATCH_52_SPECHOST_NOAI_MPFINISHES": {
+    "description": "STAT_PATCH_52_SPECHOST_NOAI_MPFINISHES",
+    "value": 0
+  },
+  "STAT_PATCH_52_SPECHOST_WITHAI_DESYNCS_TOTAL": {
+    "description": "STAT_PATCH_52_SPECHOST_WITHAI_DESYNCS_TOTAL",
+    "value": 0
+  },
+  "STAT_PATCH_52_SPECHOST_WITHAI_DESYNCS_SCENARIO": {
+    "description": "STAT_PATCH_52_SPECHOST_WITHAI_DESYNCS_SCENARIO",
+    "value": 0
+  },
+  "STAT_PATCH_52_SPECHOST_WITHAI_DESYNCS_BY_T20": {
+    "description": "STAT_PATCH_52_SPECHOST_WITHAI_DESYNCS_BY_T20",
+    "value": 0
+  },
+  "STAT_PATCH_52_SPECHOST_WITHAI_DESYNCS_BY_T1000": {
+    "description": "STAT_PATCH_52_SPECHOST_WITHAI_DESYNCS_BY_T1000",
+    "value": 0
+  },
+  "STAT_PATCH_52_SPECHOST_WITHAI_DESYNCS_LATER_T1000": {
+    "description": "STAT_PATCH_52_SPECHOST_WITHAI_DESYNCS_LATER_T1000",
+    "value": 0
+  },
+  "STAT_PATCH_52_SPECHOST_WITHAI_MPSTARTS": {
+    "description": "STAT_PATCH_52_SPECHOST_WITHAI_MPSTARTS",
+    "value": 0
+  },
+  "STAT_PATCH_52_SPECHOST_WITHAI_MPFINISHES": {
+    "description": "STAT_PATCH_52_SPECHOST_WITHAI_MPFINISHES",
+    "value": 0
+  },
+  "STAT_PATCH_52_SPECNOTHOST_NOAI_DESYNCS_TOTAL": {
+    "description": "STAT_PATCH_52_SPECNOTHOST_NOAI_DESYNCS_TOTAL",
+    "value": 0
+  },
+  "STAT_PATCH_52_SPECNOTHOST_NOAI_DESYNCS_SCENARIO": {
+    "description": "STAT_PATCH_52_SPECNOTHOST_NOAI_DESYNCS_SCENARIO",
+    "value": 0
+  },
+  "STAT_PATCH_52_SPECNOTHOST_NOAI_DESYNCS_BY_T20": {
+    "description": "STAT_PATCH_52_SPECNOTHOST_NOAI_DESYNCS_BY_T20",
+    "value": 0
+  },
+  "STAT_PATCH_52_SPECNOTHOST_NOAI_DESYNCS_BY_T1000": {
+    "description": "STAT_PATCH_52_SPECNOTHOST_NOAI_DESYNCS_BY_T1000",
+    "value": 0
+  },
+  "STAT_PATCH_52_SPECNOTHOST_NOAI_DESYNCS_LATER_T1000": {
+    "description": "STAT_PATCH_52_SPECNOTHOST_NOAI_DESYNCS_LATER_T1000",
+    "value": 0
+  },
+  "STAT_PATCH_52_SPECNOTHOST_NOAI_MPSTARTS": {
+    "description": "STAT_PATCH_52_SPECNOTHOST_NOAI_MPSTARTS",
+    "value": 0
+  },
+  "STAT_PATCH_52_SPECNOTHOST_NOAI_MPFINISHES": {
+    "description": "STAT_PATCH_52_SPECNOTHOST_NOAI_MPFINISHES",
+    "value": 0
+  },
+  "STAT_PATCH_52_SPECNOTHOST_WITHAI_DESYNCS_TOTAL": {
+    "description": "STAT_PATCH_52_SPECNOTHOST_WITHAI_DESYNCS_TOTAL",
+    "value": 0
+  },
+  "STAT_PATCH_52_SPECNOTHOST_WITHAI_DESYNCS_SCENARIO": {
+    "description": "STAT_PATCH_52_SPECNOTHOST_WITHAI_DESYNCS_SCENARIO",
+    "value": 0
+  },
+  "STAT_PATCH_52_SPECNOTHOST_WITHAI_DESYNCS_BY_T20": {
+    "description": "STAT_PATCH_52_SPECNOTHOST_WITHAI_DESYNCS_BY_T20",
+    "value": 0
+  },
+  "STAT_PATCH_52_SPECNOTHOST_WITHAI_DESYNCS_BY_T1000": {
+    "description": "STAT_PATCH_52_SPECNOTHOST_WITHAI_DESYNCS_BY_T1000",
+    "value": 0
+  },
+  "STAT_PATCH_52_SPECNOTHOST_WITHAI_DESYNCS_LATER_T1000": {
+    "description": "STAT_PATCH_52_SPECNOTHOST_WITHAI_DESYNCS_LATER_T1000",
+    "value": 0
+  },
+  "STAT_PATCH_52_SPECNOTHOST_WITHAI_MPSTARTS": {
+    "description": "STAT_PATCH_52_SPECNOTHOST_WITHAI_MPSTARTS",
+    "value": 0
+  },
+  "STAT_PATCH_52_SPECNOTHOST_WITHAI_MPFINISHES": {
+    "description": "STAT_PATCH_52_SPECNOTHOST_WITHAI_MPFINISHES",
+    "value": 0
+  },
+  "STAT_PATCH_52_MPRESTORE_DESYNCS_TOTAL": {
+    "description": "STAT_PATCH_52_MPRESTORE_DESYNCS_TOTAL",
+    "value": 0
+  },
+  "STAT_PATCH_52_MPRESTORE_DESYNCS_BY_T20": {
+    "description": "STAT_PATCH_52_MPRESTORE_DESYNCS_BY_T20",
+    "value": 0
+  },
+  "STAT_PATCH_52_MPRESTORE_DESYNCS_BY_T1000": {
+    "description": "STAT_PATCH_52_MPRESTORE_DESYNCS_BY_T1000",
+    "value": 0
+  },
+  "STAT_PATCH_52_MPRESTORE_DESYNCS_LATER_T1000": {
+    "description": "STAT_PATCH_52_MPRESTORE_DESYNCS_LATER_T1000",
+    "value": 0
+  },
+  "STAT_PATCH_52_MPRESTORE_MPSTARTS": {
+    "description": "STAT_PATCH_52_MPRESTORE_MPSTARTS",
+    "value": 0
+  },
+  "STAT_PATCH_52_MPRESTORE_MPFINISHES": {
+    "description": "STAT_PATCH_52_MPRESTORE_MPFINISHES",
+    "value": 0
+  },
+  "STAT_PATCH_53_OVERALL_APPLICATION_STARTS": {
+    "description": "STAT_PATCH_53_OVERALL_APPLICATION_STARTS",
+    "value": 0
+  },
+  "STAT_PATCH_53_OVERALL_MPSTARTS": {
+    "description": "STAT_PATCH_53_OVERALL_MPSTARTS",
+    "value": 0
+  },
+  "STAT_PATCH_53_OVERALL_MPFINISHES": {
+    "description": "STAT_PATCH_53_OVERALL_MPFINISHES",
+    "value": 0
+  },
+  "STAT_PATCH_53_OVERALL_DESYNCS_TOTAL": {
+    "description": "STAT_PATCH_53_OVERALL_DESYNCS_TOTAL",
+    "value": 0
+  },
+  "STAT_PATCH_54_OVERALL_APPLICATION_STARTS": {
+    "description": "STAT_PATCH_54_OVERALL_APPLICATION_STARTS",
+    "value": 0
+  },
+  "STAT_PATCH_54_OVERALL_MPSTARTS": {
+    "description": "STAT_PATCH_54_OVERALL_MPSTARTS",
+    "value": 0
+  },
+  "STAT_PATCH_54_OVERALL_MPFINISHES": {
+    "description": "STAT_PATCH_54_OVERALL_MPFINISHES",
+    "value": 0
+  },
+  "STAT_PATCH_54_OVERALL_DESYNCS_TOTAL": {
+    "description": "STAT_PATCH_54_OVERALL_DESYNCS_TOTAL",
+    "value": 0
+  },
+  "STAT_PATCH_55_OVERALL_APPLICATION_STARTS": {
+    "description": "STAT_PATCH_55_OVERALL_APPLICATION_STARTS",
+    "value": 0
+  },
+  "STAT_PATCH_55_OVERALL_MPSTARTS": {
+    "description": "STAT_PATCH_55_OVERALL_MPSTARTS",
+    "value": 0
+  },
+  "STAT_PATCH_55_OVERALL_MPFINISHES": {
+    "description": "STAT_PATCH_55_OVERALL_MPFINISHES",
+    "value": 0
+  },
+  "STAT_PATCH_55_OVERALL_DESYNCS_TOTAL": {
+    "description": "STAT_PATCH_55_OVERALL_DESYNCS_TOTAL",
+    "value": 0
+  },
+  "STAT_PATCH_55_OVERALL_2P_DESYNCS_TOTAL": {
+    "description": "STAT_PATCH_55_OVERALL_2P_DESYNCS_TOTAL",
+    "value": 0
+  },
+  "STAT_PATCH_55_OVERALL_XP_DESYNCS_TOTAL": {
+    "description": "STAT_PATCH_55_OVERALL_XP_DESYNCS_TOTAL",
+    "value": 0
+  },
+  "STAT_PATCH_55_OVERALL_GAME_STARTS": {
+    "description": "STAT_PATCH_55_OVERALL_GAME_STARTS",
+    "value": 0
+  },
+  "STAT_PATCH_55_OVERALL_STDSTARTS": {
+    "description": "STAT_PATCH_55_OVERALL_STDSTARTS",
+    "value": 0
+  },
+  "STAT_PATCH_55_OVERALL_CAMPSTARTS": {
+    "description": "STAT_PATCH_55_OVERALL_CAMPSTARTS",
+    "value": 0
+  },
+  "STAT_PATCH_55_OVERALL_NOTEAM_DESYNCS_TOTAL": {
+    "description": "STAT_PATCH_55_OVERALL_NOTEAM_DESYNCS_TOTAL",
+    "value": 0
+  },
+  "STAT_PATCH_55_OVERALL_TEAM_DESYNCS_TOTAL": {
+    "description": "STAT_PATCH_55_OVERALL_TEAM_DESYNCS_TOTAL",
+    "value": 0
+  },
+  "STAT_POP_CAP_25_SP": {
+    "description": "STAT_POP_CAP_25_SP",
+    "value": 0
+  },
+  "STAT_POP_CAP_50_SP": {
+    "description": "STAT_POP_CAP_50_SP",
+    "value": 0
+  },
+  "STAT_POP_CAP_75_SP": {
+    "description": "STAT_POP_CAP_75_SP",
+    "value": 0
+  },
+  "STAT_POP_CAP_100_SP": {
+    "description": "STAT_POP_CAP_100_SP",
+    "value": 0
+  },
+  "STAT_POP_CAP_125_SP": {
+    "description": "STAT_POP_CAP_125_SP",
+    "value": 0
+  },
+  "STAT_POP_CAP_150_SP": {
+    "description": "STAT_POP_CAP_150_SP",
+    "value": 0
+  },
+  "STAT_POP_CAP_175_SP": {
+    "description": "STAT_POP_CAP_175_SP",
+    "value": 0
+  },
+  "STAT_POP_CAP_200_SP": {
+    "description": "STAT_POP_CAP_200_SP",
+    "value": 0
+  },
+  "STAT_POP_CAP_250_SP": {
+    "description": "STAT_POP_CAP_250_SP",
+    "value": 0
+  },
+  "STAT_POP_CAP_300_SP": {
+    "description": "STAT_POP_CAP_300_SP",
+    "value": 0
+  },
+  "STAT_POP_CAP_400_SP": {
+    "description": "STAT_POP_CAP_400_SP",
+    "value": 0
+  },
+  "STAT_POP_CAP_500_SP": {
+    "description": "STAT_POP_CAP_500_SP",
+    "value": 0
+  },
+  "STAT_POP_PEAK_25_SP": {
+    "description": "STAT_POP_PEAK_25_SP",
+    "value": 0
+  },
+  "STAT_POP_PEAK_50_SP": {
+    "description": "STAT_POP_PEAK_50_SP",
+    "value": 0
+  },
+  "STAT_POP_PEAK_75_SP": {
+    "description": "STAT_POP_PEAK_75_SP",
+    "value": 0
+  },
+  "STAT_POP_PEAK_100_SP": {
+    "description": "STAT_POP_PEAK_100_SP",
+    "value": 0
+  },
+  "STAT_POP_PEAK_125_SP": {
+    "description": "STAT_POP_PEAK_125_SP",
+    "value": 0
+  },
+  "STAT_POP_PEAK_150_SP": {
+    "description": "STAT_POP_PEAK_150_SP",
+    "value": 0
+  },
+  "STAT_POP_PEAK_175_SP": {
+    "description": "STAT_POP_PEAK_175_SP",
+    "value": 0
+  },
+  "STAT_POP_PEAK_200_SP": {
+    "description": "STAT_POP_PEAK_200_SP",
+    "value": 0
+  },
+  "STAT_POP_PEAK_250_SP": {
+    "description": "STAT_POP_PEAK_250_SP",
+    "value": 0
+  },
+  "STAT_POP_PEAK_300_SP": {
+    "description": "STAT_POP_PEAK_300_SP",
+    "value": 0
+  },
+  "STAT_POP_PEAK_400_SP": {
+    "description": "STAT_POP_PEAK_400_SP",
+    "value": 0
+  },
+  "STAT_POP_PEAK_500_SP": {
+    "description": "STAT_POP_PEAK_500_SP",
+    "value": 0
+  },
+  "STAT_POP_CAP_25_MP": {
+    "description": "STAT_POP_CAP_25_MP",
+    "value": 0
+  },
+  "STAT_POP_CAP_50_MP": {
+    "description": "STAT_POP_CAP_25_MP",
+    "value": 0
+  },
+  "STAT_POP_CAP_75_MP": {
+    "description": "STAT_POP_CAP_75_MP",
+    "value": 0
+  },
+  "STAT_POP_CAP_100_MP": {
+    "description": "STAT_POP_CAP_100_MP",
+    "value": 0
+  },
+  "STAT_POP_CAP_125_MP": {
+    "description": "STAT_POP_CAP_125_MP",
+    "value": 0
+  },
+  "STAT_POP_CAP_150_MP": {
+    "description": "STAT_POP_CAP_150_MP",
+    "value": 0
+  },
+  "STAT_POP_CAP_175_MP": {
+    "description": "STAT_POP_CAP_175_MP",
+    "value": 0
+  },
+  "STAT_POP_CAP_200_MP": {
+    "description": "STAT_POP_CAP_200_MP",
+    "value": 0
+  },
+  "STAT_POP_CAP_250_MP": {
+    "description": "STAT_POP_CAP_250_MP",
+    "value": 0
+  },
+  "STAT_POP_CAP_300_MP": {
+    "description": "STAT_POP_CAP_300_MP",
+    "value": 0
+  },
+  "STAT_POP_CAP_400_MP": {
+    "description": "STAT_POP_CAP_400_MP",
+    "value": 0
+  },
+  "STAT_POP_CAP_500_MP": {
+    "description": "STAT_POP_CAP_500_MP",
+    "value": 0
+  },
+  "STAT_POP_PEAK_25_MP": {
+    "description": "STAT_POP_PEAK_25_MP",
+    "value": 0
+  },
+  "STAT_POP_PEAK_50_MP": {
+    "description": "STAT_POP_PEAK_50_MP",
+    "value": 0
+  },
+  "STAT_POP_PEAK_75_MP": {
+    "description": "STAT_POP_PEAK_75_MP",
+    "value": 0
+  },
+  "STAT_POP_PEAK_100_MP": {
+    "description": "STAT_POP_PEAK_100_MP",
+    "value": 0
+  },
+  "STAT_POP_PEAK_125_MP": {
+    "description": "STAT_POP_PEAK_125_MP",
+    "value": 0
+  },
+  "STAT_POP_PEAK_150_MP": {
+    "description": "STAT_POP_PEAK_150_MP",
+    "value": 0
+  },
+  "STAT_POP_PEAK_175_MP": {
+    "description": "STAT_POP_PEAK_175_MP",
+    "value": 0
+  },
+  "STAT_POP_PEAK_200_MP": {
+    "description": "STAT_POP_PEAK_200_MP",
+    "value": 0
+  },
+  "STAT_POP_PEAK_250_MP": {
+    "description": "STAT_POP_PEAK_250_MP",
+    "value": 0
+  },
+  "STAT_POP_PEAK_300_MP": {
+    "description": "STAT_POP_PEAK_300_MP",
+    "value": 0
+  },
+  "STAT_POP_PEAK_400_MP": {
+    "description": "STAT_POP_PEAK_400_MP",
+    "value": 0
+  },
+  "STAT_POP_PEAK_500_MP": {
+    "description": "STAT_POP_PEAK_500_MP",
+    "value": 0
+  },
+  "STAT_OVERALL_GAME_STARTS": {
+    "description": "STAT_OVERALL_GAME_STARTS",
+    "value": 0
+  },
+  "STAT_OVERALL_STDSTARTS": {
+    "description": "STAT_OVERALL_STDSTARTS",
+    "value": 0
+  },
+  "STAT_OVERALL_CAMPSTARTS": {
+    "description": "STAT_OVERALL_CAMPSTARTS",
+    "value": 0
+  },
+  "STAT_OVERALL_MPSTARTS": {
+    "description": "STAT_OVERALL_MPSTARTS",
+    "value": 0
+  },
+  "STAT_TIME_PLAYED_SP": {
+    "description": "STAT_TIME_PLAYED_SP",
+    "value": 0
+  },
+  "STAT_TIME_PLAYED_CAMP": {
+    "description": "STAT_TIME_PLAYED_CAMP",
+    "value": 0
+  },
+  "STAT_TIME_PLAYED_MP": {
+    "description": "STAT_TIME_PLAYED_MP",
+    "value": 0
+  },
+  "STAT_TIME_PLAYED_AGE_DARK": {
+    "description": "STAT_TIME_PLAYED_AGE_DARK",
+    "value": 0
+  },
+  "STAT_TIME_PLAYED_AGE_FEUDAL": {
+    "description": "STAT_TIME_PLAYED_AGE_FEUDAL",
+    "value": 0
+  },
+  "STAT_TIME_PLAYED_AGE_CASTLE": {
+    "description": "STAT_TIME_PLAYED_AGE_CASTLE",
+    "value": 0
+  },
+  "STAT_TIME_PLAYED_AGE_IMPERIAL": {
+    "description": "STAT_TIME_PLAYED_AGE_IMPERIAL",
+    "value": 0
+  },
+  "STAT_PLAYED_MAPTYPE_ARABIA": {
+    "description": "STAT_PLAYED_MAPTYPE_ARABIA",
+    "value": 0
+  },
+  "STAT_PLAYED_MAPTYPE_ARCHIPELAGO": {
+    "description": "STAT_PLAYED_MAPTYPE_ARCHIPELAGO",
+    "value": 0
+  },
+  "STAT_PLAYED_MAPTYPE_BALTIC": {
+    "description": "STAT_PLAYED_MAPTYPE_BALTIC",
+    "value": 0
+  },
+  "STAT_PLAYED_MAPTYPE_BLACKFOREST": {
+    "description": "STAT_PLAYED_MAPTYPE_BLACKFOREST",
+    "value": 0
+  },
+  "STAT_PLAYED_MAPTYPE_COASTAL": {
+    "description": "STAT_PLAYED_MAPTYPE_COASTAL",
+    "value": 0
+  },
+  "STAT_PLAYED_MAPTYPE_CONTINENTAL": {
+    "description": "STAT_PLAYED_MAPTYPE_CONTINENTAL",
+    "value": 0
+  },
+  "STAT_PLAYED_MAPTYPE_CRATERLAKE": {
+    "description": "STAT_PLAYED_MAPTYPE_CRATERLAKE",
+    "value": 0
+  },
+  "STAT_PLAYED_MAPTYPE_FORTRESS": {
+    "description": "STAT_PLAYED_MAPTYPE_FORTRESS",
+    "value": 0
+  },
+  "STAT_PLAYED_MAPTYPE_GOLDRUSH": {
+    "description": "STAT_PLAYED_MAPTYPE_GOLDRUSH",
+    "value": 0
+  },
+  "STAT_PLAYED_MAPTYPE_HIGHLAND": {
+    "description": "STAT_PLAYED_MAPTYPE_HIGHLAND",
+    "value": 0
+  },
+  "STAT_PLAYED_MAPTYPE_ISLANDS": {
+    "description": "STAT_PLAYED_MAPTYPE_ISLANDS",
+    "value": 0
+  },
+  "STAT_PLAYED_MAPTYPE_MEDITERRANEAN": {
+    "description": "STAT_PLAYED_MAPTYPE_MEDITERRANEAN",
+    "value": 0
+  },
+  "STAT_PLAYED_MAPTYPE_MIGRATION": {
+    "description": "STAT_PLAYED_MAPTYPE_MIGRATION",
+    "value": 0
+  },
+  "STAT_PLAYED_MAPTYPE_RIVERS": {
+    "description": "STAT_PLAYED_MAPTYPE_RIVERS",
+    "value": 0
+  },
+  "STAT_PLAYED_MAPTYPE_TEAMISLANDS": {
+    "description": "STAT_PLAYED_MAPTYPE_TEAMISLANDS",
+    "value": 0
+  },
+  "STAT_PLAYED_MAPTYPE_SCANDINAVIA": {
+    "description": "STAT_PLAYED_MAPTYPE_SCANDINAVIA",
+    "value": 0
+  },
+  "STAT_PLAYED_MAPTYPE_MONGOLIA": {
+    "description": "STAT_PLAYED_MAPTYPE_MONGOLIA",
+    "value": 0
+  },
+  "STAT_PLAYED_MAPTYPE_YUCATAN": {
+    "description": "STAT_PLAYED_MAPTYPE_YUCATAN",
+    "value": 0
+  },
+  "STAT_PLAYED_MAPTYPE_SALTMARSH": {
+    "description": "STAT_PLAYED_MAPTYPE_SALTMARSH",
+    "value": 0
+  },
+  "STAT_PLAYED_MAPTYPE_ARENA": {
+    "description": "STAT_PLAYED_MAPTYPE_ARENA",
+    "value": 0
+  },
+  "STAT_PLAYED_MAPTYPE_OASIS": {
+    "description": "STAT_PLAYED_MAPTYPE_OASIS",
+    "value": 0
+  },
+  "STAT_PLAYED_MAPTYPE_GHOSTLAKE": {
+    "description": "STAT_PLAYED_MAPTYPE_GHOSTLAKE",
+    "value": 0
+  },
+  "STAT_PLAYED_MAPTYPE_NOMAD": {
+    "description": "STAT_PLAYED_MAPTYPE_NOMAD",
+    "value": 0
+  },
+  "STAT_PLAYED_MAPTYPE_REALWORLDSPAIN": {
+    "description": "STAT_PLAYED_MAPTYPE_REALWORLDSPAIN",
+    "value": 0
+  },
+  "STAT_PLAYED_MAPTYPE_REALWORLDENGLAND": {
+    "description": "STAT_PLAYED_MAPTYPE_REALWORLDENGLAND",
+    "value": 0
+  },
+  "STAT_PLAYED_MAPTYPE_REALWORLDMIDEAST": {
+    "description": "STAT_PLAYED_MAPTYPE_REALWORLDMIDEAST",
+    "value": 0
+  },
+  "STAT_PLAYED_MAPTYPE_REALWORLDTEXAS": {
+    "description": "STAT_PLAYED_MAPTYPE_REALWORLDTEXAS",
+    "value": 0
+  },
+  "STAT_PLAYED_MAPTYPE_REALWORLDITALY": {
+    "description": "STAT_PLAYED_MAPTYPE_REALWORLDITALY",
+    "value": 0
+  },
+  "STAT_PLAYED_MAPTYPE_REALWORLDCARIBBEAN": {
+    "description": "STAT_PLAYED_MAPTYPE_REALWORLDCARIBBEAN",
+    "value": 0
+  },
+  "STAT_PLAYED_MAPTYPE_REALWORLDFRANCE": {
+    "description": "STAT_PLAYED_MAPTYPE_REALWORLDFRANCE",
+    "value": 0
+  },
+  "STAT_PLAYED_MAPTYPE_REALWORLDJUTLAND": {
+    "description": "STAT_PLAYED_MAPTYPE_REALWORLDJUTLAND",
+    "value": 0
+  },
+  "STAT_PLAYED_MAPTYPE_REALWORLDNIPPON": {
+    "description": "STAT_PLAYED_MAPTYPE_REALWORLDNIPPON",
+    "value": 0
+  },
+  "STAT_PLAYED_MAPTYPE_REALWORLDBYZANTIUM": {
+    "description": "STAT_PLAYED_MAPTYPE_REALWORLDBYZANTIUM",
+    "value": 0
+  },
+  "STAT_PLAYED_MAPTYPE_CUSTOMENSEMBLECANALS": {
+    "description": "STAT_PLAYED_MAPTYPE_CUSTOMENSEMBLECANALS",
+    "value": 0
+  },
+  "STAT_PLAYED_MAPTYPE_CUSTOMENSEMBLECAPRICIOUS": {
+    "description": "STAT_PLAYED_MAPTYPE_CUSTOMENSEMBLECAPRICIOUS",
+    "value": 0
+  },
+  "STAT_PLAYED_MAPTYPE_CUSTOMENSEMBLEDINGOS": {
+    "description": "STAT_PLAYED_MAPTYPE_CUSTOMENSEMBLEDINGOS",
+    "value": 0
+  },
+  "STAT_PLAYED_MAPTYPE_CUSTOMENSEMBLEGRAVEYARDS": {
+    "description": "STAT_PLAYED_MAPTYPE_CUSTOMENSEMBLEGRAVEYARDS",
+    "value": 0
+  },
+  "STAT_PLAYED_MAPTYPE_CUSTOMENSEMBLEMETROPOLIS": {
+    "description": "STAT_PLAYED_MAPTYPE_CUSTOMENSEMBLEMETROPOLIS",
+    "value": 0
+  },
+  "STAT_PLAYED_MAPTYPE_CUSTOMENSEMBLEMOATS": {
+    "description": "STAT_PLAYED_MAPTYPE_CUSTOMENSEMBLEMOATS",
+    "value": 0
+  },
+  "STAT_PLAYED_MAPTYPE_CUSTOMENSEMBLEPARADISEISLAND": {
+    "description": "STAT_PLAYED_MAPTYPE_CUSTOMENSEMBLEPARADISEISLAND",
+    "value": 0
+  },
+  "STAT_PLAYED_MAPTYPE_CUSTOMENSEMBLEPILGRIMS": {
+    "description": "STAT_PLAYED_MAPTYPE_CUSTOMENSEMBLEPILGRIMS",
+    "value": 0
+  },
+  "STAT_PLAYED_MAPTYPE_CUSTOMENSEMBLEPRAIRIE": {
+    "description": "STAT_PLAYED_MAPTYPE_CUSTOMENSEMBLEPRAIRIE",
+    "value": 0
+  },
+  "STAT_PLAYED_MAPTYPE_CUSTOMENSEMBLESEASONS": {
+    "description": "STAT_PLAYED_MAPTYPE_CUSTOMENSEMBLESEASONS",
+    "value": 0
+  },
+  "STAT_PLAYED_MAPTYPE_CUSTOMENSEMBLESHERWOODFOREST": {
+    "description": "STAT_PLAYED_MAPTYPE_CUSTOMENSEMBLESHERWOODFOREST",
+    "value": 0
+  },
+  "STAT_PLAYED_MAPTYPE_CUSTOMENSEMBLESHERWOODHEROES": {
+    "description": "STAT_PLAYED_MAPTYPE_CUSTOMENSEMBLESHERWOODHEROES",
+    "value": 0
+  },
+  "STAT_PLAYED_MAPTYPE_CUSTOMENSEMBLESHIPWRECK": {
+    "description": "STAT_PLAYED_MAPTYPE_CUSTOMENSEMBLESHIPWRECK",
+    "value": 0
+  },
+  "STAT_PLAYED_MAPTYPE_CUSTOMENSEMBLETEAMGLACIERS": {
+    "description": "STAT_PLAYED_MAPTYPE_CUSTOMENSEMBLETEAMGLACIERS",
+    "value": 0
+  },
+  "STAT_PLAYED_MAPTYPE_CUSTOMENSEMBLETHEUNKNOWN": {
+    "description": "STAT_PLAYED_MAPTYPE_CUSTOMENSEMBLETHEUNKNOWN",
+    "value": 0
+  },
+  "STAT_PLAYED_MAPTYPE_FORGOTTENACROPOLIS": {
+    "description": "STAT_PLAYED_MAPTYPE_FORGOTTENACROPOLIS",
+    "value": 0
+  },
+  "STAT_PLAYED_MAPTYPE_FORGOTTENBUDAPEST": {
+    "description": "STAT_PLAYED_MAPTYPE_FORGOTTENBUDAPEST",
+    "value": 0
+  },
+  "STAT_PLAYED_MAPTYPE_FORGOTTENCENOTES": {
+    "description": "STAT_PLAYED_MAPTYPE_FORGOTTENCENOTES",
+    "value": 0
+  },
+  "STAT_PLAYED_MAPTYPE_FORGOTTENCITYOFLAKES": {
+    "description": "STAT_PLAYED_MAPTYPE_FORGOTTENCITYOFLAKES",
+    "value": 0
+  },
+  "STAT_PLAYED_MAPTYPE_FORGOTTENGOLDENPIT": {
+    "description": "STAT_PLAYED_MAPTYPE_FORGOTTENGOLDENPIT",
+    "value": 0
+  },
+  "STAT_PLAYED_MAPTYPE_FORGOTTENHIDEOUT": {
+    "description": "STAT_PLAYED_MAPTYPE_FORGOTTENHIDEOUT",
+    "value": 0
+  },
+  "STAT_PLAYED_MAPTYPE_FORGOTTENHILLFORT": {
+    "description": "STAT_PLAYED_MAPTYPE_FORGOTTENHILLFORT",
+    "value": 0
+  },
+  "STAT_PLAYED_MAPTYPE_FORGOTTENLOMBARDIA": {
+    "description": "STAT_PLAYED_MAPTYPE_FORGOTTENLOMBARDIA",
+    "value": 0
+  },
+  "STAT_PLAYED_MAPTYPE_FORGOTTENSTEPPE": {
+    "description": "STAT_PLAYED_MAPTYPE_FORGOTTENSTEPPE",
+    "value": 0
+  },
+  "STAT_PLAYED_MAPTYPE_FORGOTTENVALLEY": {
+    "description": "STAT_PLAYED_MAPTYPE_FORGOTTENVALLEY",
+    "value": 0
+  },
+  "STAT_PLAYED_MAPTYPE_FORGOTTENMEGARANDOM": {
+    "description": "STAT_PLAYED_MAPTYPE_FORGOTTENMEGARANDOM",
+    "value": 0
+  },
+  "STAT_PLAYED_MAPTYPE_FORGOTTENHAMBURGER": {
+    "description": "STAT_PLAYED_MAPTYPE_FORGOTTENHAMBURGER",
+    "value": 0
+  },
+  "STAT_PLAYED_MAPTYPE_FORGOTTENCTRRANDOM": {
+    "description": "STAT_PLAYED_MAPTYPE_FORGOTTENCTRRANDOM",
+    "value": 0
+  },
+  "STAT_PLAYED_MAPTYPE_FORGOTTENCTRMONSOON": {
+    "description": "STAT_PLAYED_MAPTYPE_FORGOTTENCTRMONSOON",
+    "value": 0
+  },
+  "STAT_PLAYED_MAPTYPE_FORGOTTENCTRPYRAMIDDESCENT": {
+    "description": "STAT_PLAYED_MAPTYPE_FORGOTTENCTRPYRAMIDDESCENT",
+    "value": 0
+  },
+  "STAT_PLAYED_MAPTYPE_FORGOTTENCTRSPIRAL": {
+    "description": "STAT_PLAYED_MAPTYPE_FORGOTTENCTRSPIRAL",
+    "value": 0
+  },
+  "STAT_PLAYED_MAPTYPE_DLC2KILIMANJARO": {
+    "description": "STAT_PLAYED_MAPTYPE_DLC2KILIMANJARO",
+    "value": 0
+  },
+  "STAT_PLAYED_MAPTYPE_DLC2MOUNTAINPASS": {
+    "description": "STAT_PLAYED_MAPTYPE_DLC2MOUNTAINPASS",
+    "value": 0
+  },
+  "STAT_PLAYED_MAPTYPE_DLC2SERENGETI": {
+    "description": "STAT_PLAYED_MAPTYPE_DLC2SERENGETI",
+    "value": 0
+  },
+  "STAT_PLAYED_MAPTYPE_DLC2SOCOTRA": {
+    "description": "STAT_PLAYED_MAPTYPE_DLC2SOCOTRA",
+    "value": 0
+  },
+  "STAT_PLAYED_MAPTYPE_DLC2NILEDELTA": {
+    "description": "STAT_PLAYED_MAPTYPE_DLC2NILEDELTA",
+    "value": 0
+  },
+  "STAT_PLAYED_MAPTYPE_DLC2REALWORLDAMAZON": {
+    "description": "STAT_PLAYED_MAPTYPE_DLC2REALWORLDAMAZON",
+    "value": 0
+  },
+  "STAT_PLAYED_MAPTYPE_DLC2REALWORLDCHINA": {
+    "description": "STAT_PLAYED_MAPTYPE_DLC2REALWORLDCHINA",
+    "value": 0
+  },
+  "STAT_PLAYED_MAPTYPE_DLC2REALWORLDHORNOFAFRICA": {
+    "description": "STAT_PLAYED_MAPTYPE_DLC2REALWORLDHORNOFAFRICA",
+    "value": 0
+  },
+  "STAT_PLAYED_MAPTYPE_DLC2REALWORLDINDIA": {
+    "description": "STAT_PLAYED_MAPTYPE_DLC2REALWORLDINDIA",
+    "value": 0
+  },
+  "STAT_PLAYED_MAPTYPE_DLC2REALWORLDMADAGASCAR": {
+    "description": "STAT_PLAYED_MAPTYPE_DLC2REALWORLDMADAGASCAR",
+    "value": 0
+  },
+  "STAT_PLAYED_MAPTYPE_DLC2REALWORLDWESTAFRICA": {
+    "description": "STAT_PLAYED_MAPTYPE_DLC2REALWORLDWESTAFRICA",
+    "value": 0
+  },
+  "STAT_PLAYED_MAPTYPE_DLC2REALWORLDBOHEMIA": {
+    "description": "STAT_PLAYED_MAPTYPE_DLC2REALWORLDBOHEMIA",
+    "value": 0
+  },
+  "STAT_PLAYED_MAPTYPE_DLC2REALWORLDEARTH": {
+    "description": "STAT_PLAYED_MAPTYPE_DLC2REALWORLDEARTH",
+    "value": 0
+  },
+  "STAT_PLAYED_MAPTYPE_DLC2SPECIALMAPCANYONS": {
+    "description": "STAT_PLAYED_MAPTYPE_DLC2SPECIALMAPCANYONS",
+    "value": 0
+  },
+  "STAT_PLAYED_MAPTYPE_DLC2SPECIALMAPENEMYARCHIPELAGO": {
+    "description": "STAT_PLAYED_MAPTYPE_DLC2SPECIALMAPENEMYARCHIPELAGO",
+    "value": 0
+  },
+  "STAT_PLAYED_MAPTYPE_DLC2SPECIALMAPENEMYISLANDS": {
+    "description": "STAT_PLAYED_MAPTYPE_DLC2SPECIALMAPENEMYISLANDS",
+    "value": 0
+  },
+  "STAT_PLAYED_MAPTYPE_DLC2SPECIALMAPFAROUT": {
+    "description": "STAT_PLAYED_MAPTYPE_DLC2SPECIALMAPFAROUT",
+    "value": 0
+  },
+  "STAT_PLAYED_MAPTYPE_DLC2SPECIALMAPFRONTLINE": {
+    "description": "STAT_PLAYED_MAPTYPE_DLC2SPECIALMAPFRONTLINE",
+    "value": 0
+  },
+  "STAT_PLAYED_MAPTYPE_DLC2SPECIALMAPINNERCIRCLE": {
+    "description": "STAT_PLAYED_MAPTYPE_DLC2SPECIALMAPINNERCIRCLE",
+    "value": 0
+  },
+  "STAT_PLAYED_MAPTYPE_DLC2SPECIALMAPMOTHERLAND": {
+    "description": "STAT_PLAYED_MAPTYPE_DLC2SPECIALMAPMOTHERLAND",
+    "value": 0
+  },
+  "STAT_PLAYED_MAPTYPE_DLC2SPECIALMAPOPENPLAINS": {
+    "description": "STAT_PLAYED_MAPTYPE_DLC2SPECIALMAPOPENPLAINS",
+    "value": 0
+  },
+  "STAT_PLAYED_MAPTYPE_DLC2SPECIALMAPRINGOFWATER": {
+    "description": "STAT_PLAYED_MAPTYPE_DLC2SPECIALMAPRINGOFWATER",
+    "value": 0
+  },
+  "STAT_PLAYED_MAPTYPE_DLC2SPECIALMAPTHEEYE": {
+    "description": "STAT_PLAYED_MAPTYPE_DLC2SPECIALMAPTHEEYE",
+    "value": 0
+  },
+  "STAT_PLAYED_MAPTYPE_DLC3BOGISLANDS": {
+    "description": "STAT_PLAYED_MAPTYPE_DLC3BOGISLANDS",
+    "value": 0
+  },
+  "STAT_PLAYED_MAPTYPE_DLC3MANGROVEJUNGLE": {
+    "description": "STAT_PLAYED_MAPTYPE_DLC3MANGROVEJUNGLE",
+    "value": 0
+  },
+  "STAT_PLAYED_MAPTYPE_DLC3PACIFICISLANDS": {
+    "description": "STAT_PLAYED_MAPTYPE_DLC3PACIFICISLANDS",
+    "value": 0
+  },
+  "STAT_PLAYED_MAPTYPE_DLC3SANDBANK": {
+    "description": "STAT_PLAYED_MAPTYPE_DLC3SANDBANK",
+    "value": 0
+  },
+  "STAT_PLAYED_MAPTYPE_DLC3WATERNOMAD": {
+    "description": "STAT_PLAYED_MAPTYPE_DLC3WATERNOMAD",
+    "value": 0
+  },
+  "STAT_PLAYED_MAPTYPE_DLC3REALWORLDAUSTRALIA": {
+    "description": "STAT_PLAYED_MAPTYPE_DLC3REALWORLDAUSTRALIA",
+    "value": 0
+  },
+  "STAT_PLAYED_MAPTYPE_DLC3REALWORLDINDOCHINA": {
+    "description": "STAT_PLAYED_MAPTYPE_DLC3REALWORLDINDOCHINA",
+    "value": 0
+  },
+  "STAT_PLAYED_MAPTYPE_DLC3REALWORLDINDONESIA": {
+    "description": "STAT_PLAYED_MAPTYPE_DLC3REALWORLDINDONESIA",
+    "value": 0
+  },
+  "STAT_PLAYED_MAPTYPE_DLC3REALWORLDMALACCA": {
+    "description": "STAT_PLAYED_MAPTYPE_DLC3REALWORLDMALACCA",
+    "value": 0
+  },
+  "STAT_PLAYED_MAPTYPE_DLC3REALWORLDPHILIPPINES": {
+    "description": "STAT_PLAYED_MAPTYPE_DLC3REALWORLDPHILIPPINES",
+    "value": 0
+  },
+  "STAT_PLAYED_MAPTYPE_DLC3SPECIALJUNGLEISLANDS": {
+    "description": "STAT_PLAYED_MAPTYPE_DLC3SPECIALJUNGLEISLANDS",
+    "value": 0
+  },
+  "STAT_PLAYED_MAPTYPE_DLC3SPECIALHOLYLINE": {
+    "description": "STAT_PLAYED_MAPTYPE_DLC3SPECIALHOLYLINE",
+    "value": 0
+  },
+  "STAT_PLAYED_MAPTYPE_DLC3SPECIALBORDERSTONES": {
+    "description": "STAT_PLAYED_MAPTYPE_DLC3SPECIALBORDERSTONES",
+    "value": 0
+  },
+  "STAT_PLAYED_MAPTYPE_DLC3SPECIALYINYANG": {
+    "description": "STAT_PLAYED_MAPTYPE_DLC3SPECIALYINYANG",
+    "value": 0
+  },
+  "STAT_PLAYED_MAPTYPE_DLC3SPECIALJUNGLELANES": {
+    "description": "STAT_PLAYED_MAPTYPE_DLC3SPECIALJUNGLELANES",
+    "value": 0
+  },
+  "STAT_OVERALL_MP_2P_TOTAL": {
+    "description": "STAT_OVERALL_MP_2P_TOTAL",
+    "value": 0
+  },
+  "STAT_OVERALL_MP_XP_TOTAL": {
+    "description": "STAT_OVERALL_MP_XP_TOTAL",
+    "value": 0
+  },
+  "STAT_OVERALL_MP_NOTEAM_TOTAL": {
+    "description": "STAT_OVERALL_MP_NOTEAM_TOTAL",
+    "value": 0
+  },
+  "STAT_OVERALL_MP_TEAM_TOTAL": {
+    "description": "STAT_OVERALL_MP_TEAM_TOTAL",
+    "value": 0
+  },
+  "STAT_PATCH_56_OVERALL_APPLICATION_STARTS": {
+    "description": "STAT_PATCH_56_OVERALL_APPLICATION_STARTS",
+    "value": 0
+  },
+  "STAT_PATCH_56_OVERALL_MPSTARTS": {
+    "description": "STAT_PATCH_56_OVERALL_MPSTARTS",
+    "value": 0
+  },
+  "STAT_PATCH_56_OVERALL_MPFINISHES": {
+    "description": "STAT_PATCH_56_OVERALL_MPFINISHES",
+    "value": 0
+  },
+  "STAT_PATCH_56_OVERALL_DESYNCS_TOTAL": {
+    "description": "STAT_PATCH_56_OVERALL_DESYNCS_TOTAL",
+    "value": 0
+  },
+  "STAT_PATCH_56_OVERALL_2P_DESYNCS_TOTAL": {
+    "description": "STAT_PATCH_56_OVERALL_2P_DESYNCS_TOTAL",
+    "value": 0
+  },
+  "STAT_PATCH_56_OVERALL_XP_DESYNCS_TOTAL": {
+    "description": "STAT_PATCH_56_OVERALL_XP_DESYNCS_TOTAL",
+    "value": 0
+  },
+  "STAT_PATCH_56_OVERALL_GAME_STARTS": {
+    "description": "STAT_PATCH_56_OVERALL_GAME_STARTS",
+    "value": 0
+  },
+  "STAT_PATCH_56_OVERALL_STDSTARTS": {
+    "description": "STAT_PATCH_56_OVERALL_STDSTARTS",
+    "value": 0
+  },
+  "STAT_PATCH_56_OVERALL_CAMPSTARTS": {
+    "description": "STAT_PATCH_56_OVERALL_CAMPSTARTS",
+    "value": 0
+  },
+  "STAT_PATCH_56_OVERALL_NOTEAM_DESYNCS_TOTAL": {
+    "description": "STAT_PATCH_56_OVERALL_NOTEAM_DESYNCS_TOTAL",
+    "value": 0
+  },
+  "STAT_PATCH_56_OVERALL_TEAM_DESYNCS_TOTAL": {
+    "description": "STAT_PATCH_56_OVERALL_TEAM_DESYNCS_TOTAL",
+    "value": 0
+  },
+  "STAT_OVERALL_MP_STARTS_1": {
+    "description": "STAT_OVERALL_MP_STARTS_1",
+    "value": 0
+  },
+  "STAT_OVERALL_MP_WITH_SPECTATOR_TOTAL_1": {
+    "description": "STAT_OVERALL_MP_WITH_SPECTATOR_TOTAL_1",
+    "value": 0
+  },
+  "STAT_OVERALL_MP_RANKED_TOTAL_1": {
+    "description": "STAT_OVERALL_MP_RANKED_TOTAL_1",
+    "value": 0
+  },
+  "STAT_PATCH_57_OVERALL_APPLICATION_STARTS": {
+    "description": "STAT_PATCH_57_OVERALL_APPLICATION_STARTS",
+    "value": 0
+  },
+  "STAT_PATCH_57_OVERALL_MPSTARTS": {
+    "description": "STAT_PATCH_57_OVERALL_MPSTARTS",
+    "value": 0
+  },
+  "STAT_PATCH_57_OVERALL_MPFINISHES": {
+    "description": "STAT_PATCH_57_OVERALL_MPFINISHES",
+    "value": 0
+  },
+  "STAT_PATCH_57_OVERALL_DESYNCS_TOTAL": {
+    "description": "STAT_PATCH_57_OVERALL_DESYNCS_TOTAL",
+    "value": 0
+  },
+  "STAT_PATCH_57_OVERALL_2P_DESYNCS_TOTAL": {
+    "description": "STAT_PATCH_57_OVERALL_2P_DESYNCS_TOTAL",
+    "value": 0
+  },
+  "STAT_PATCH_57_OVERALL_XP_DESYNCS_TOTAL": {
+    "description": "STAT_PATCH_57_OVERALL_XP_DESYNCS_TOTAL",
+    "value": 0
+  },
+  "STAT_PATCH_57_OVERALL_GAME_STARTS": {
+    "description": "STAT_PATCH_57_OVERALL_GAME_STARTS",
+    "value": 0
+  },
+  "STAT_PATCH_57_OVERALL_STDSTARTS": {
+    "description": "STAT_PATCH_57_OVERALL_STDSTARTS",
+    "value": 0
+  },
+  "STAT_PATCH_57_OVERALL_CAMPSTARTS": {
+    "description": "STAT_PATCH_57_OVERALL_CAMPSTARTS",
+    "value": 0
+  },
+  "STAT_PATCH_57_OVERALL_NOTEAM_DESYNCS_TOTAL": {
+    "description": "STAT_PATCH_57_OVERALL_NOTEAM_DESYNCS_TOTAL",
+    "value": 0
+  },
+  "STAT_PATCH_57_OVERALL_TEAM_DESYNCS_TOTAL": {
+    "description": "STAT_PATCH_57_OVERALL_TEAM_DESYNCS_TOTAL",
+    "value": 0
+  },
+  "STAT_NAVALBATTLE_SP": {
+    "description": "STAT_NAVALBATTLE_SP",
+    "value": 0
+  },
+  "STAT_NAVALBATTLE_MP": {
+    "description": "STAT_NAVALBATTLE_MP",
+    "value": 0
+  },
+  "STAT_FISHING_SP": {
+    "description": "STAT_FISHING_SP",
+    "value": 0
+  },
+  "STAT_FISHING_MP": {
+    "description": "STAT_FISHING_MP",
+    "value": 0
+  },
+  "STAT_SINCE_NAVALBATTLE_FISHING_OVERALL_SPFINISHS": {
+    "description": "STAT_SINCE_NAVALBATTLE_FISHING_OVERALL_SPFINISHS",
+    "value": 0
+  },
+  "STAT_SINCE_NAVALBATTLE_FISHING_OVERALL_MPFINISHS": {
+    "description": "STAT_SINCE_NAVALBATTLE_FISHING_OVERALL_MPFINISHS",
+    "value": 0
+  },
+  "STAT_NAVALBATTLE_CIV_BRITISH": {
+    "description": "STAT_NAVALBATTLE_CIV_BRITISH",
+    "value": 0
+  },
+  "STAT_NAVALBATTLE_CIV_FRANK": {
+    "description": "STAT_NAVALBATTLE_CIV_FRANK",
+    "value": 0
+  },
+  "STAT_NAVALBATTLE_CIV_GOTH": {
+    "description": "STAT_NAVALBATTLE_CIV_GOTH",
+    "value": 0
+  },
+  "STAT_NAVALBATTLE_CIV_TEUTON": {
+    "description": "STAT_NAVALBATTLE_CIV_TEUTON",
+    "value": 0
+  },
+  "STAT_NAVALBATTLE_CIV_JAPANESE": {
+    "description": "STAT_NAVALBATTLE_CIV_JAPANESE",
+    "value": 0
+  },
+  "STAT_NAVALBATTLE_CIV_CHINESE": {
+    "description": "STAT_NAVALBATTLE_CIV_CHINESE",
+    "value": 0
+  },
+  "STAT_NAVALBATTLE_CIV_BYZANTINE": {
+    "description": "STAT_NAVALBATTLE_CIV_BYZANTINE",
+    "value": 0
+  },
+  "STAT_NAVALBATTLE_CIV_PERSIAN": {
+    "description": "STAT_NAVALBATTLE_CIV_PERSIAN",
+    "value": 0
+  },
+  "STAT_NAVALBATTLE_CIV_SARACEN": {
+    "description": "STAT_NAVALBATTLE_CIV_SARACEN",
+    "value": 0
+  },
+  "STAT_NAVALBATTLE_CIV_TURKISH": {
+    "description": "STAT_NAVALBATTLE_CIV_TURKISH",
+    "value": 0
+  },
+  "STAT_NAVALBATTLE_CIV_VIKING": {
+    "description": "STAT_NAVALBATTLE_CIV_VIKING",
+    "value": 0
+  },
+  "STAT_NAVALBATTLE_CIV_MONGOL": {
+    "description": "STAT_NAVALBATTLE_CIV_MONGOL",
+    "value": 0
+  },
+  "STAT_NAVALBATTLE_CIV_CELT": {
+    "description": "STAT_NAVALBATTLE_CIV_CELT",
+    "value": 0
+  },
+  "STAT_NAVALBATTLE_CIV_SPANISH": {
+    "description": "STAT_NAVALBATTLE_CIV_SPANISH",
+    "value": 0
+  },
+  "STAT_NAVALBATTLE_CIV_AZTEC": {
+    "description": "STAT_NAVALBATTLE_CIV_AZTEC",
+    "value": 0
+  },
+  "STAT_NAVALBATTLE_CIV_MAYAN": {
+    "description": "STAT_NAVALBATTLE_CIV_MAYAN",
+    "value": 0
+  },
+  "STAT_NAVALBATTLE_CIV_HUNS": {
+    "description": "STAT_NAVALBATTLE_CIV_HUNS",
+    "value": 0
+  },
+  "STAT_NAVALBATTLE_CIV_KOREAN": {
+    "description": "STAT_NAVALBATTLE_CIV_KOREAN",
+    "value": 0
+  },
+  "STAT_NAVALBATTLE_CIV_ITALIAN": {
+    "description": "STAT_NAVALBATTLE_CIV_ITALIAN",
+    "value": 0
+  },
+  "STAT_NAVALBATTLE_CIV_INDIAN": {
+    "description": "STAT_NAVALBATTLE_CIV_INDIAN",
+    "value": 0
+  },
+  "STAT_NAVALBATTLE_CIV_INCAS": {
+    "description": "STAT_NAVALBATTLE_CIV_INCAS",
+    "value": 0
+  },
+  "STAT_NAVALBATTLE_CIV_MAGYARS": {
+    "description": "STAT_NAVALBATTLE_CIV_MAGYARS",
+    "value": 0
+  },
+  "STAT_NAVALBATTLE_CIV_SLAVS": {
+    "description": "STAT_NAVALBATTLE_CIV_SLAVS",
+    "value": 0
+  },
+  "STAT_NAVALBATTLE_CIV_PORTUGUESE": {
+    "description": "STAT_NAVALBATTLE_CIV_PORTUGUESE",
+    "value": 0
+  },
+  "STAT_NAVALBATTLE_CIV_ETHIOPIAN": {
+    "description": "STAT_NAVALBATTLE_CIV_ETHIOPIAN",
+    "value": 0
+  },
+  "STAT_NAVALBATTLE_CIV_MALIAN": {
+    "description": "STAT_NAVALBATTLE_CIV_MALIAN",
+    "value": 0
+  },
+  "STAT_NAVALBATTLE_CIV_BERBER": {
+    "description": "STAT_NAVALBATTLE_CIV_BERBER",
+    "value": 0
+  },
+  "STAT_NAVALBATTLE_CIV_KHMER": {
+    "description": "STAT_NAVALBATTLE_CIV_KHMER",
+    "value": 0
+  },
+  "STAT_NAVALBATTLE_CIV_MALAY": {
+    "description": "STAT_NAVALBATTLE_CIV_MALAY",
+    "value": 0
+  },
+  "STAT_NAVALBATTLE_CIV_BURMESE": {
+    "description": "STAT_NAVALBATTLE_CIV_BURMESE",
+    "value": 0
+  },
+  "STAT_NAVALBATTLE_CIV_VIETNAMESE": {
+    "description": "STAT_NAVALBATTLE_CIV_VIETNAMESE",
+    "value": 0
+  },
+  "STAT_FISHING_CIV_BRITISH": {
+    "description": "STAT_FISHING_CIV_BRITISH",
+    "value": 0
+  },
+  "STAT_FISHING_CIV_FRANK": {
+    "description": "STAT_FISHING_CIV_FRANK",
+    "value": 0
+  },
+  "STAT_FISHING_CIV_GOTH": {
+    "description": "STAT_FISHING_CIV_GOTH",
+    "value": 0
+  },
+  "STAT_FISHING_CIV_TEUTON": {
+    "description": "STAT_FISHING_CIV_TEUTON",
+    "value": 0
+  },
+  "STAT_FISHING_CIV_JAPANESE": {
+    "description": "STAT_FISHING_CIV_JAPANESE",
+    "value": 0
+  },
+  "STAT_FISHING_CIV_CHINESE": {
+    "description": "STAT_FISHING_CIV_CHINESE",
+    "value": 0
+  },
+  "STAT_FISHING_CIV_BYZANTINE": {
+    "description": "STAT_FISHING_CIV_BYZANTINE",
+    "value": 0
+  },
+  "STAT_FISHING_CIV_PERSIAN": {
+    "description": "STAT_FISHING_CIV_PERSIAN",
+    "value": 0
+  },
+  "STAT_FISHING_CIV_SARACEN": {
+    "description": "STAT_FISHING_CIV_SARACEN",
+    "value": 0
+  },
+  "STAT_FISHING_CIV_TURKISH": {
+    "description": "STAT_FISHING_CIV_TURKISH",
+    "value": 0
+  },
+  "STAT_FISHING_CIV_VIKING": {
+    "description": "STAT_FISHING_CIV_VIKING",
+    "value": 0
+  },
+  "STAT_FISHING_CIV_MONGOL": {
+    "description": "STAT_FISHING_CIV_MONGOL",
+    "value": 0
+  },
+  "STAT_FISHING_CIV_CELT": {
+    "description": "STAT_FISHING_CIV_CELT",
+    "value": 0
+  },
+  "STAT_FISHING_CIV_SPANISH": {
+    "description": "STAT_FISHING_CIV_SPANISH",
+    "value": 0
+  },
+  "STAT_FISHING_CIV_AZTEC": {
+    "description": "STAT_FISHING_CIV_AZTEC",
+    "value": 0
+  },
+  "STAT_FISHING_CIV_MAYAN": {
+    "description": "STAT_FISHING_CIV_MAYAN",
+    "value": 0
+  },
+  "STAT_FISHING_CIV_HUNS": {
+    "description": "STAT_FISHING_CIV_HUNS",
+    "value": 0
+  },
+  "STAT_FISHING_CIV_KOREAN": {
+    "description": "STAT_FISHING_CIV_KOREAN",
+    "value": 0
+  },
+  "STAT_FISHING_CIV_ITALIAN": {
+    "description": "STAT_FISHING_CIV_ITALIAN",
+    "value": 0
+  },
+  "STAT_FISHING_CIV_INDIAN": {
+    "description": "STAT_FISHING_CIV_INDIAN",
+    "value": 0
+  },
+  "STAT_FISHING_CIV_INCAS": {
+    "description": "STAT_FISHING_CIV_INCAS",
+    "value": 0
+  },
+  "STAT_FISHING_CIV_MAGYARS": {
+    "description": "STAT_FISHING_CIV_MAGYARS",
+    "value": 0
+  },
+  "STAT_FISHING_CIV_SLAVS": {
+    "description": "STAT_FISHING_CIV_SLAVS",
+    "value": 0
+  },
+  "STAT_FISHING_CIV_PORTUGUESE": {
+    "description": "STAT_FISHING_CIV_PORTUGUESE",
+    "value": 0
+  },
+  "STAT_FISHING_CIV_ETHIOPIAN": {
+    "description": "STAT_FISHING_CIV_ETHIOPIAN",
+    "value": 0
+  },
+  "STAT_FISHING_CIV_MALIAN": {
+    "description": "STAT_FISHING_CIV_MALIAN",
+    "value": 0
+  },
+  "STAT_FISHING_CIV_BERBER": {
+    "description": "STAT_FISHING_CIV_BERBER",
+    "value": 0
+  },
+  "STAT_FISHING_CIV_KHMER": {
+    "description": "STAT_FISHING_CIV_KHMER",
+    "value": 0
+  },
+  "STAT_FISHING_CIV_MALAY": {
+    "description": "STAT_FISHING_CIV_MALAY",
+    "value": 0
+  },
+  "STAT_FISHING_CIV_BURMESE": {
+    "description": "STAT_FISHING_CIV_BURMESE",
+    "value": 0
+  },
+  "STAT_FISHING_CIV_VIETNAMESE": {
+    "description": "STAT_FISHING_CIV_VIETNAMESE",
+    "value": 0
+  }
+}

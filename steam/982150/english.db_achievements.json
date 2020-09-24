@@ -1,0 +1,623 @@
+[
+  {
+    "name": "1",
+    "defaultvalue": 0,
+    "displayName": "Q",
+    "hidden": 0,
+    "description": "Complete level 1",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/982150/a6331c846c8f4b466036e6ba9a1ce6396fb03613.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/982150/5cc289222002507f6ef203f99fec5e95cbc18dd2.jpg"
+  },
+  {
+    "name": "2",
+    "defaultvalue": 0,
+    "displayName": "W",
+    "hidden": 0,
+    "description": "Complete level 1",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/982150/30bacab5701d553710bee26dea5807740b5ee00c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/982150/fa9ddb9257246a03ff4df78f2a94d9351afafea0.jpg"
+  },
+  {
+    "name": "3",
+    "defaultvalue": 0,
+    "displayName": "E",
+    "hidden": 0,
+    "description": "Complete level 1",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/982150/03ce5c00d34d00eda173336dd4984f9b80aca237.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/982150/9a2b19288a4005bc7054d14e84b22de892d736c1.jpg"
+  },
+  {
+    "name": "4",
+    "defaultvalue": 0,
+    "displayName": "R",
+    "hidden": 0,
+    "description": "Complete level 1",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/982150/2167156aac69a55c4a91e0b6c10f1c79fc2d2e26.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/982150/52a85509da3534d913f6e6a56d775c86bae39227.jpg"
+  },
+  {
+    "name": "5",
+    "defaultvalue": 0,
+    "displayName": "T",
+    "hidden": 0,
+    "description": "Complete level 1",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/982150/cd46c2bdc38eb8ed2665ef60f4e472b2229fdbb1.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/982150/18a483d6d4e1644c3fe7916a00010992c16c8a9e.jpg"
+  },
+  {
+    "name": "6",
+    "defaultvalue": 0,
+    "displayName": "Y",
+    "hidden": 0,
+    "description": "Complete level 2",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/982150/0a31f8b02c4173a3d96349594fc6f6d98cc41926.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/982150/8d3ccfd801fe2e3bfd57111bb43acd08cd981f72.jpg"
+  },
+  {
+    "name": "7",
+    "defaultvalue": 0,
+    "displayName": "U",
+    "hidden": 0,
+    "description": "Complete level 2",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/982150/a598b0e8d20f3f8130f93a48ef5d46c11ae16974.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/982150/7caca67383df4978d6e37a99a45caf40ca613f9c.jpg"
+  },
+  {
+    "name": "8",
+    "defaultvalue": 0,
+    "displayName": "I",
+    "hidden": 0,
+    "description": "Complete level 2",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/982150/76ab740b00ca07dd85447ff9137404f702ad8a57.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/982150/a0ddf3725df3395b0924600b6780701728f31f1d.jpg"
+  },
+  {
+    "name": "9",
+    "defaultvalue": 0,
+    "displayName": "O",
+    "hidden": 0,
+    "description": "Complete level 2",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/982150/5daad9a5af91cc75b85bb8b2145373acc7ad5fa6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/982150/e8e1cb7b8edc44a2f17691b1de5fdc7064fe2506.jpg"
+  },
+  {
+    "name": "10",
+    "defaultvalue": 0,
+    "displayName": "P",
+    "hidden": 0,
+    "description": "Complete level 2",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/982150/946a79174ac0b4f7a9dff3eebd15042a96374f24.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/982150/e9ec6b0c7c96c066ddead826b59d578eaf3097c1.jpg"
+  },
+  {
+    "name": "11",
+    "defaultvalue": 0,
+    "displayName": "A",
+    "hidden": 0,
+    "description": "Complete level 3",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/982150/e04e0b125942390a0c6d5f502d71279a1d5076aa.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/982150/7e8dfa23d8ac511ea27554fb24f531bcd3a3a324.jpg"
+  },
+  {
+    "name": "12",
+    "defaultvalue": 0,
+    "displayName": "S",
+    "hidden": 0,
+    "description": "Complete level 3",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/982150/db40ab137f34941b2da913e113c47c3d82804a18.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/982150/8342f4c8a70493ac8d7ea54f52595e66cb777662.jpg"
+  },
+  {
+    "name": "13",
+    "defaultvalue": 0,
+    "displayName": "D",
+    "hidden": 0,
+    "description": "Complete level 3",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/982150/896c84b2f8352b7f8c3b7862dbc12aad7cf775ff.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/982150/93d6d396ed0a6756c95f6cf93e8bb1da7d969aee.jpg"
+  },
+  {
+    "name": "14",
+    "defaultvalue": 0,
+    "displayName": "F",
+    "hidden": 0,
+    "description": "Complete level 3",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/982150/45e59e43450123f523093108bb185881ae73cf58.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/982150/319f7e868405d800230fd275d26b8a9aacdc1e72.jpg"
+  },
+  {
+    "name": "15",
+    "defaultvalue": 0,
+    "displayName": "G",
+    "hidden": 0,
+    "description": "Complete level 3",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/982150/1b63d4800025acbf700cf51299d8a5040592b0ea.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/982150/4df77995fd07bf4d9119cd29058ff041cbfb243e.jpg"
+  },
+  {
+    "name": "16",
+    "defaultvalue": 0,
+    "displayName": "H",
+    "hidden": 0,
+    "description": "Complete level 4",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/982150/4a7125c7a85242149010b69b98e4abce2a68c526.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/982150/dc43e60a4dbff3d3229c9d23421a5c91f899da0f.jpg"
+  },
+  {
+    "name": "17",
+    "defaultvalue": 0,
+    "displayName": "J",
+    "hidden": 0,
+    "description": "Complete level 4",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/982150/0753bf826adfcfc8160551c811a2b8ab39eb3057.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/982150/fd5d7a08e12f034efbbf6dc8f3405e7a1c5757c4.jpg"
+  },
+  {
+    "name": "18",
+    "defaultvalue": 0,
+    "displayName": "K",
+    "hidden": 0,
+    "description": "Complete level 4",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/982150/dfcb807164bf32e7e3ebf63bef6c23740af07a9c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/982150/d3d9d90e9e5485c50988ca0b0baee7d8c8487cb4.jpg"
+  },
+  {
+    "name": "19",
+    "defaultvalue": 0,
+    "displayName": "L",
+    "hidden": 0,
+    "description": "Complete level 4",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/982150/bf9438e282b09245b5cfe29e50098c47771ee344.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/982150/327eb2c326b64447a9634e4f98d726585ab83cf0.jpg"
+  },
+  {
+    "name": "20",
+    "defaultvalue": 0,
+    "displayName": "Z",
+    "hidden": 0,
+    "description": "Complete level 4",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/982150/14724c310571bcf76525570e531fd2118ff10f25.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/982150/063d422b8de253de28ab87b51a991dca398b1403.jpg"
+  },
+  {
+    "name": "21",
+    "defaultvalue": 0,
+    "displayName": "X",
+    "hidden": 0,
+    "description": "Complete level 5",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/982150/5453214d795db06ae7dac45875e5ee4efab04783.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/982150/4a8472b8898ff1d024321867a1c090776dbf05f1.jpg"
+  },
+  {
+    "name": "22",
+    "defaultvalue": 0,
+    "displayName": "C",
+    "hidden": 0,
+    "description": "Complete level 5",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/982150/75841463d35056a6a61ab65ccf59a09ed8dbed0b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/982150/cbfb687426acff389533318253bc4ff55b1ef8f9.jpg"
+  },
+  {
+    "name": "23",
+    "defaultvalue": 0,
+    "displayName": "V",
+    "hidden": 0,
+    "description": "Complete level 5",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/982150/0fb406567e26f6b24424ec9904d14a72f38480a6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/982150/531580b2c1f3ebc0d054bd2b02a82dec4e568fe0.jpg"
+  },
+  {
+    "name": "24",
+    "defaultvalue": 0,
+    "displayName": "B",
+    "hidden": 0,
+    "description": "Complete level 5",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/982150/59fd8775ccf6e85ee894766520a13a13e7ba0fdf.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/982150/3f9e21540adb28e12b8587c439b5e452d0123363.jpg"
+  },
+  {
+    "name": "25",
+    "defaultvalue": 0,
+    "displayName": "N",
+    "hidden": 0,
+    "description": "Complete level 5",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/982150/7326ed5fdb24ec2492df2f7f30c8bf5aab57fdfc.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/982150/09984f8f3868c1e3c9ae6d2a32b5180df9bb58d6.jpg"
+  },
+  {
+    "name": "26",
+    "defaultvalue": 0,
+    "displayName": "M",
+    "hidden": 0,
+    "description": "Complete level 6",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/982150/e2cff76a76c64f147f12974ac900ea81b934e527.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/982150/68d9744033b3094f3b1da7a03f57c7a42620d29a.jpg"
+  },
+  {
+    "name": "27",
+    "defaultvalue": 0,
+    "displayName": "!",
+    "hidden": 0,
+    "description": "Complete level 6",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/982150/55633411b0309749c9b8b69d031e838e393d9422.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/982150/d36f9a99fee4c87bb0b3fca3f0d6611c9ed8bc3b.jpg"
+  },
+  {
+    "name": "28",
+    "defaultvalue": 0,
+    "displayName": "@",
+    "hidden": 0,
+    "description": "Complete level 6",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/982150/580069f0681cfde1637d4fc0125b510f558aa22a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/982150/fb2abbb09cf3429f6673dbaeedc5cf191f12dc58.jpg"
+  },
+  {
+    "name": "29",
+    "defaultvalue": 0,
+    "displayName": "#",
+    "hidden": 0,
+    "description": "Complete level 6",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/982150/22718a72374ee1354d0edbe1b4a37a4d8cd164de.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/982150/12151f59fc7da0ad8f53408352aa8f2da0c7f7d6.jpg"
+  },
+  {
+    "name": "30",
+    "defaultvalue": 0,
+    "displayName": "$",
+    "hidden": 0,
+    "description": "Complete level 6",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/982150/a8793a22ca3b1b4a0642f5119bd9f5ca68aa9c0b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/982150/3cddada0019a850e3a7dd5e21e291d2a33bcf785.jpg"
+  },
+  {
+    "name": "31",
+    "defaultvalue": 0,
+    "displayName": "%",
+    "hidden": 0,
+    "description": "Complete level 7",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/982150/3c5199e355465bac99c63138cb3a1c511e59faab.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/982150/7a45aa38c25a889a37ae94be4935e45c134ac7fc.jpg"
+  },
+  {
+    "name": "32",
+    "defaultvalue": 0,
+    "displayName": "<",
+    "hidden": 0,
+    "description": "Complete level 7",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/982150/8ef97e85d048b9a25b1353afec5d52a709f36c16.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/982150/06dc9a5ea055ac0c2a9eb063d49eb36366326eee.jpg"
+  },
+  {
+    "name": "33",
+    "defaultvalue": 0,
+    "displayName": ">",
+    "hidden": 0,
+    "description": "Complete level 7",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/982150/14a7f4d009c629ef6c386fd06b371490d720d903.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/982150/1c906d6f674c20cf64d9351fcbdf92c069be0494.jpg"
+  },
+  {
+    "name": "34",
+    "defaultvalue": 0,
+    "displayName": "-",
+    "hidden": 0,
+    "description": "Complete level 7",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/982150/a219ad9307b394bb0a4e2eb1ba63a7b17b48453b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/982150/14c9a2bde3f59766f5ca0752a05e6f0537690665.jpg"
+  },
+  {
+    "name": "35",
+    "defaultvalue": 0,
+    "displayName": "=",
+    "hidden": 0,
+    "description": "Complete level 7",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/982150/1d317f842da2b39fc9903a98fceb2ebe91ac058c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/982150/63f29952018c20b910e3193e3d971c58b5f9f12b.jpg"
+  },
+  {
+    "name": "36",
+    "defaultvalue": 0,
+    "displayName": "?",
+    "hidden": 0,
+    "description": "Complete level 8",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/982150/284ba09180ddcd02ed722c65f492dcbf719c490f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/982150/d2c4ff5843e7701e3ba5b28949a7aa86eca148a6.jpg"
+  },
+  {
+    "name": "37",
+    "defaultvalue": 0,
+    "displayName": "{",
+    "hidden": 0,
+    "description": "Complete level 8",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/982150/4d21d0bd255b8de8230a1dcb3a24a1349bff420f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/982150/9567881b4d7c44a7997870597b07c75f0a9a4f73.jpg"
+  },
+  {
+    "name": "38",
+    "defaultvalue": 0,
+    "displayName": "}",
+    "hidden": 0,
+    "description": "Complete level 8",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/982150/22609e6420bb24f370e4bc352ef0f7c2bedae029.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/982150/753fee06b5c254be09b71972f0bbf13d1b735995.jpg"
+  },
+  {
+    "name": "39",
+    "defaultvalue": 0,
+    "displayName": "\"",
+    "hidden": 0,
+    "description": "Complete level 8",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/982150/5b89d32158e3ad9e9cf2f1e342bb69e2cadc3cf3.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/982150/5bd239cafac18177bee4fb04b58bb9b38d1af1ab.jpg"
+  },
+  {
+    "name": "40",
+    "defaultvalue": 0,
+    "displayName": "'",
+    "hidden": 0,
+    "description": "Complete level 8",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/982150/a5e50d0376349e9c312fb66f5ccc80c404abee4e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/982150/17bc9269f8b5d5c040f381625d801f400bcbc902.jpg"
+  },
+  {
+    "name": "41",
+    "defaultvalue": 0,
+    "displayName": "+",
+    "hidden": 0,
+    "description": "Complete level 9",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/982150/25118c2cb92d3d65e41fe5cf65c80e3cf55d31a5.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/982150/cba0ad5ce16b782ab2726ef60fe25deed72e4b5c.jpg"
+  },
+  {
+    "name": "42",
+    "defaultvalue": 0,
+    "displayName": ";",
+    "hidden": 0,
+    "description": "Complete level 9",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/982150/49f70a84f99f05d5ead7c2edb554a89e01e6dde4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/982150/049369c2020148e127e03b28abd4bca7cdb654ef.jpg"
+  },
+  {
+    "name": "43",
+    "defaultvalue": 0,
+    "displayName": ":",
+    "hidden": 0,
+    "description": "Complete level 9",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/982150/0a2d574cd311de2ad5a7cd81c60c301be4fb388f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/982150/db657a8a089d6179a311c33747d108345e2a7b16.jpg"
+  },
+  {
+    "name": "44",
+    "defaultvalue": 0,
+    "displayName": "[",
+    "hidden": 0,
+    "description": "Complete level 9",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/982150/9d7a6da0b7f1e4cb3b10975cb6b4ef37c5925aba.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/982150/963866c77bac1be1bc1b9a41c3872abcf66bc20f.jpg"
+  },
+  {
+    "name": "45",
+    "defaultvalue": 0,
+    "displayName": "]",
+    "hidden": 0,
+    "description": "Complete level 9",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/982150/cfb21eeb6c714dca51e27e2e3c81a8fd34599702.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/982150/a4cfbb5e42db8e3a9cfd5db2185069bfa4e27068.jpg"
+  },
+  {
+    "name": "46",
+    "defaultvalue": 0,
+    "displayName": "(",
+    "hidden": 0,
+    "description": "Complete level 10",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/982150/48e71348d70df9c80a89987db3bc7940c262106b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/982150/2406239ae6bf462b5546f3ed9a07e18ef542e711.jpg"
+  },
+  {
+    "name": "47",
+    "defaultvalue": 0,
+    "displayName": ")",
+    "hidden": 0,
+    "description": "Complete level 10",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/982150/ac5e0b055e74283c3af6b577f8792e3c74297b9d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/982150/0c83f6990aad15a5fa675581dba17127ae88190f.jpg"
+  },
+  {
+    "name": "48",
+    "defaultvalue": 0,
+    "displayName": "&",
+    "hidden": 0,
+    "description": "Complete level 10",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/982150/264f40b67058b231f63f9843e9ccc668000ede58.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/982150/9269847425391e0c42fe4071dd8b30b45338b871.jpg"
+  },
+  {
+    "name": "49",
+    "defaultvalue": 0,
+    "displayName": "^_^",
+    "hidden": 0,
+    "description": "Complete level 10",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/982150/6dcfccc3470624c49f54ad68afce2b6504db3332.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/982150/5bfc1554c966747c19e0114c327e4e054f98f7fc.jpg"
+  },
+  {
+    "name": "50",
+    "defaultvalue": 0,
+    "displayName": "666",
+    "hidden": 0,
+    "description": "Complete level 10",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/982150/223c5b34b3073bc47fd4028b5291182b780296d2.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/982150/e591e749d8690ee1b8339a83e1bdc0226a33089c.jpg"
+  },
+  {
+    "name": "51",
+    "defaultvalue": 0,
+    "displayName": "Hentai",
+    "hidden": 0,
+    "description": "Complete level 11",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/982150/a6d93117293a5603133e54514f4ecf1caf28737e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/982150/3b5c16072f554e38ed9fa300ec180d02911522ab.jpg"
+  },
+  {
+    "name": "52",
+    "defaultvalue": 0,
+    "displayName": "Sex",
+    "hidden": 0,
+    "description": "Complete level 11",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/982150/3229325b5d570e2172b752e009ddbe6723053611.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/982150/6c6697bc9edf380502419c8118b34c60d921163d.jpg"
+  },
+  {
+    "name": "53",
+    "defaultvalue": 0,
+    "displayName": "<3",
+    "hidden": 0,
+    "description": "Complete level 11",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/982150/79676938cbeb6fcc4a017da03a528ab20342189c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/982150/51918eb737f1d4aeff03a35f96cabf8cf4e007fb.jpg"
+  },
+  {
+    "name": "54",
+    "defaultvalue": 0,
+    "displayName": "-_-",
+    "hidden": 0,
+    "description": "Complete level 11",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/982150/9a21b2021c64358c272aa1e345bc240083a96759.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/982150/60523adf2b243906008a10a416cb203d75bd727b.jpg"
+  },
+  {
+    "name": "55",
+    "defaultvalue": 0,
+    "displayName": ":3",
+    "hidden": 0,
+    "description": "Complete level 11",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/982150/ff3302aa5871b97a8137c4735c9b0711a06a4c30.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/982150/3b313dfde92a8486f6ac0b94a4b24d542a5f7567.jpg"
+  },
+  {
+    "name": "56",
+    "defaultvalue": 0,
+    "displayName": "Meow",
+    "hidden": 0,
+    "description": "Complete level 12",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/982150/7b571d4ea2077e74980e079674d849762c659435.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/982150/23e150368fbaa60bf12b5c62888911a2d0fe801b.jpg"
+  },
+  {
+    "name": "57",
+    "defaultvalue": 0,
+    "displayName": "( ͡° ͜ʖ ͡°)",
+    "hidden": 0,
+    "description": "Complete level 12",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/982150/1ab036911d763f023e1c50c038dd2a7835eaa069.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/982150/086638b838bb0a3c89e175e4fccfda12a2c03bf2.jpg"
+  },
+  {
+    "name": "58",
+    "defaultvalue": 0,
+    "displayName": "ಠ_ಠ",
+    "hidden": 0,
+    "description": "Complete level 12",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/982150/7dadb1b14eb3ca1657a0974376ed00c81c9ce61e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/982150/16468eab914d7da68f685f4fc5b69c10de73d4ec.jpg"
+  },
+  {
+    "name": "59",
+    "defaultvalue": 0,
+    "displayName": "¯\\_(ツ)_/¯",
+    "hidden": 0,
+    "description": "Complete level 12",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/982150/059e5cb4238b472be1854af61da29c352676f254.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/982150/1f01907f5aca11af8a4ce150b1905630a83c0786.jpg"
+  },
+  {
+    "name": "60",
+    "defaultvalue": 0,
+    "displayName": "0",
+    "hidden": 0,
+    "description": "Complete level 12",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/982150/9ffc78f0ea61d6aa90b031f0cefe5948c2151c2b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/982150/af7f8835fb706b35f1ebfb16801f2f9a6b7dba0c.jpg"
+  },
+  {
+    "name": "61",
+    "defaultvalue": 0,
+    "displayName": "1",
+    "hidden": 0,
+    "description": "Complete level 13",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/982150/ffff1e8065085a9d8944428c293b992aca04a445.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/982150/cabeb24a25e2b55d12c96412dad5fb43b689c8d6.jpg"
+  },
+  {
+    "name": "62",
+    "defaultvalue": 0,
+    "displayName": "2",
+    "hidden": 0,
+    "description": "Complete level 13",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/982150/44c4d635ebb1c30b78025e18ebdca818a1d49695.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/982150/fb2df93c96ec1d3f1af090c4e14825fcf730e209.jpg"
+  },
+  {
+    "name": "63",
+    "defaultvalue": 0,
+    "displayName": "3",
+    "hidden": 0,
+    "description": "Complete level 13",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/982150/2cd71c74d38c91d841f60b5236265a0e5f4e2933.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/982150/5d763ec7a252f70ea5ba51a7857598e5a1cfa2b3.jpg"
+  },
+  {
+    "name": "65",
+    "defaultvalue": 0,
+    "displayName": "4",
+    "hidden": 0,
+    "description": "Complete level 13",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/982150/c5fcb988c79648dbd26475160dcc4729f26bea3f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/982150/f6d209b11ef423215b40a63f5fe1040a7addd03f.jpg"
+  },
+  {
+    "name": "66",
+    "defaultvalue": 0,
+    "displayName": "5",
+    "hidden": 0,
+    "description": "Complete level 13",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/982150/e3b0945bb31a019dfa41ec83310d5cc689a9b355.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/982150/bff84cebc8d49cf328c75426ab465aed70a6a2e4.jpg"
+  },
+  {
+    "name": "67",
+    "defaultvalue": 0,
+    "displayName": "6",
+    "hidden": 0,
+    "description": "Complete level 14",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/982150/c9650da5ec51efa3aa2915f3fc6adc47991e845a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/982150/5c6d7ae570b3db63084afa2a517c3fd7c71e8fc3.jpg"
+  },
+  {
+    "name": "68",
+    "defaultvalue": 0,
+    "displayName": "7",
+    "hidden": 0,
+    "description": "Complete level 14",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/982150/06873c4b73548f268f4e10ba0d0cbf01170c6cd9.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/982150/98c7ec95494c76fce8e0353103f514a7468c99cd.jpg"
+  },
+  {
+    "name": "69",
+    "defaultvalue": 0,
+    "displayName": "8",
+    "hidden": 0,
+    "description": "Complete level 14",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/982150/38fc5ba889e00cd3252c094b0db2621aafc04ff5.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/982150/5414a4b4aeba993b92388b5f383dcaa20908fc20.jpg"
+  },
+  {
+    "name": "64",
+    "defaultvalue": 0,
+    "displayName": "9",
+    "hidden": 0,
+    "description": "Complete level 14",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/982150/0617b9419fb9bd09beb449bd9f3fc51794f7bbbf.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/982150/dec5c817e44ce3282f8ebeda3bceca1809a64bb8.jpg"
+  }
+]

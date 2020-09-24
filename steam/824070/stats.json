@@ -1,0 +1,534 @@
+﻿{
+  "torps_fired": {
+    "description": "Torpedoes Launched",
+    "value": 0
+  },
+  "probes_fired": {
+    "description": "Probes Launched",
+    "value": 0
+  },
+  "passengers_taken": {
+    "description": "Passengers Taken",
+    "value": 0
+  },
+  "contracts_taken": {
+    "description": "Trading Contracts Taken",
+    "value": 0
+  },
+  "contracts_completed": {
+    "description": "Trading Contracts Completed",
+    "value": 0
+  },
+  "contracts_failed": {
+    "description": "Trading Contracts Failed",
+    "value": 0
+  },
+  "hit_by_torp": {
+    "description": "Times Hit By Torpedoes",
+    "value": 0
+  },
+  "non_contract_trades": {
+    "description": "Good Purchases",
+    "value": 0
+  },
+  "non_contract_sales": {
+    "description": "Good Sales",
+    "value": 0
+  },
+  "bounties_taken": {
+    "description": "Bounties Taken",
+    "value": 0
+  },
+  "bounties_completed": {
+    "description": "Bounties Completed",
+    "value": 0
+  },
+  "modules_purchased": {
+    "description": "Modules Purchased",
+    "value": 0
+  },
+  "components_purchased": {
+    "description": "Components Purchased",
+    "value": 0
+  },
+  "money_made": {
+    "description": "Money Made",
+    "value": 0
+  },
+  "money_spent": {
+    "description": "Money Spent",
+    "value": 0
+  },
+  "licenses_acquired": {
+    "description": "Licenses Acquired",
+    "value": 0
+  },
+  "articles_read": {
+    "description": "Articles Read",
+    "value": 0
+  },
+  "emails_read": {
+    "description": "Messages Read",
+    "value": 0
+  },
+  "emails_sent": {
+    "description": "Messages Sent",
+    "value": 0
+  },
+  "ships_hacked": {
+    "description": "Ships Hacked",
+    "value": 0
+  },
+  "times_scanned": {
+    "description": "Times Scanned",
+    "value": 0
+  },
+  "fines_received": {
+    "description": "Fines Received",
+    "value": 0
+  },
+  "sos_sent": {
+    "description": "SOS Signals Sent",
+    "value": 0
+  },
+  "hazard_damage": {
+    "description": "Hazard Damage",
+    "value": 0
+  },
+  "quests_accepted": {
+    "description": "Quests Accepted",
+    "value": 0
+  },
+  "quests_completed": {
+    "description": "Quests Completed",
+    "value": 0
+  },
+  "quests_failed": {
+    "description": "Quests Failed",
+    "value": 0
+  },
+  "ships_sold": {
+    "description": "Ships Bought",
+    "value": 0
+  },
+  "jumpgates_used": {
+    "description": "Jumpgates Used",
+    "value": 0
+  },
+  "jumpdrive_uses": {
+    "description": "Jumps Made With Jump Drive",
+    "value": 0
+  },
+  "money_borrowed": {
+    "description": "Money Borrowed",
+    "value": 0
+  },
+  "money_repaid": {
+    "description": "Money Repaid",
+    "value": 0
+  },
+  "cargo_jettisons": {
+    "description": "Times Jettisoned Cargo",
+    "value": 0
+  },
+  "beacons_detected": {
+    "description": "Beacons Detected",
+    "value": 0
+  },
+  "cargo_collected": {
+    "description": "Cargo Collected",
+    "value": 0
+  },
+  "derelicts_boarded": {
+    "description": "Derelicts Boarded",
+    "value": 0
+  },
+  "cms_dropped": {
+    "description": "Countermeasures Dropped",
+    "value": 0
+  },
+  "pdl_kills": {
+    "description": "Point Defence Laser Kills",
+    "value": 0
+  },
+  "ships_disabled": {
+    "description": "Ships Disabled",
+    "value": 0
+  },
+  "ships_destroyed": {
+    "description": "Ships Destroyed",
+    "value": 0
+  },
+  "times_docked": {
+    "description": "Times Docked",
+    "value": 0
+  },
+  "games_started": {
+    "description": "Games Started",
+    "value": 0
+  },
+  "visited_sector_0": {
+    "description": "Visited Magella",
+    "value": 0
+  },
+  "visited_sector_1": {
+    "description": "Visited Leo",
+    "value": 0
+  },
+  "visited_sector_2": {
+    "description": "Visited Maru",
+    "value": 0
+  },
+  "visited_sector_3": {
+    "description": "Visited Tega",
+    "value": 0
+  },
+  "visited_sector_4": {
+    "description": "Visited Cansa",
+    "value": 0
+  },
+  "visited_sector_5": {
+    "description": "Visited Diwali",
+    "value": 0
+  },
+  "visited_sector_6": {
+    "description": "Visited Galileo",
+    "value": 0
+  },
+  "visited_sector_7": {
+    "description": "Visited Carruther's Circle",
+    "value": 0
+  },
+  "visited_sector_8": {
+    "description": "Visited Sagan's Lights",
+    "value": 0
+  },
+  "visited_sector_9": {
+    "description": "Visited Parssus",
+    "value": 0
+  },
+  "visited_sector_10": {
+    "description": "Visited De Vass' Star",
+    "value": 0
+  },
+  "visited_sector_11": {
+    "description": "Visited The Two Sisters",
+    "value": 0
+  },
+  "visited_sector_101": {
+    "description": "Visited SCR-891",
+    "value": 0
+  },
+  "visited_sector_102": {
+    "description": "Visited SMB-108",
+    "value": 0
+  },
+  "visited_sector_103": {
+    "description": "Visited ASC-42",
+    "value": 0
+  },
+  "visited_sector_104": {
+    "description": "Visited MSC-900",
+    "value": 0
+  },
+  "visited_sector_105": {
+    "description": "Visited LMB-902b",
+    "value": 0
+  },
+  "visited_sector_106": {
+    "description": "Visited UMS-451",
+    "value": 0
+  },
+  "visited_sector_107": {
+    "description": "Visited JMY-40b",
+    "value": 0
+  },
+  "visited_sector_108": {
+    "description": "Visited PLY-505",
+    "value": 0
+  },
+  "visited_sector_109": {
+    "description": "Visited PUP-230",
+    "value": 0
+  },
+  "visited_sector_110": {
+    "description": "Visited PUP-9010",
+    "value": 0
+  },
+  "visited_sector_111": {
+    "description": "Visited BMN-185",
+    "value": 0
+  },
+  "visited_sector_112": {
+    "description": "Visited PUR-7681",
+    "value": 0
+  },
+  "visited_sector_113": {
+    "description": "Visited KLP-111",
+    "value": 0
+  },
+  "visited_sector_114": {
+    "description": "Visited SKT-1080",
+    "value": 0
+  },
+  "visited_sector_115": {
+    "description": "Visited LTC-751",
+    "value": 0
+  },
+  "visited_sector_116": {
+    "description": "Visited RSC-78j",
+    "value": 0
+  },
+  "visited_sector_117": {
+    "description": "Visited PLA-688",
+    "value": 0
+  },
+  "visited_sector_118": {
+    "description": "Visited USN-636",
+    "value": 0
+  },
+  "visited_sector_119": {
+    "description": "Visited VYT-1021",
+    "value": 0
+  },
+  "visited_sector_120": {
+    "description": "Visited QWR-779",
+    "value": 0
+  },
+  "visited_station_OP-ADRICS": {
+    "description": "Visited Adari Central Station",
+    "value": 0
+  },
+  "visited_station_OP-ORAIS": {
+    "description": "Visited Orai Station",
+    "value": 0
+  },
+  "visited_station_OP-LONIPM": {
+    "description": "Visited Loni Prison Mines",
+    "value": 0
+  },
+  "visited_station_OP-NRELAO": {
+    "description": "Visited Narela Outpost",
+    "value": 0
+  },
+  "visited_station_OP-LOAI": {
+    "description": "Visited Loaiso Space Station",
+    "value": 0
+  },
+  "visited_station_OP-ZRGZ": {
+    "description": "Visited Zaragoza Orbital Shipyard",
+    "value": 0
+  },
+  "visited_station_OP-MOLU": {
+    "description": "Visited Molucca Mining Station",
+    "value": 0
+  },
+  "visited_station_OP-DDRASS": {
+    "description": "Visited Dadra Space Station",
+    "value": 0
+  },
+  "visited_station_OP-SARNIA": {
+    "description": "Visited Sarni Agricultural",
+    "value": 0
+  },
+  "visited_station_OP-DOUROS": {
+    "description": "Visited Douros Station",
+    "value": 0
+  },
+  "visited_station_OP-NARAIL": {
+    "description": "Visited Narail Industries Orbital",
+    "value": 0
+  },
+  "visited_station_OP-BHOLA": {
+    "description": "Visited Bhola Station",
+    "value": 0
+  },
+  "visited_station_OP-COX": {
+    "description": "Visited Cox's Bazaar",
+    "value": 0
+  },
+  "visited_station_OP-FIL": {
+    "description": "Visited FIL Station",
+    "value": 0
+  },
+  "visited_station_OP-ANG-G": {
+    "description": "Visited Angoda Giant Gasworks",
+    "value": 0
+  },
+  "visited_station_OP-PREFECT": {
+    "description": "Visited Prefect Outpost",
+    "value": 0
+  },
+  "visited_station_OP-CRASSUS": {
+    "description": "Visited Crassus Harbour",
+    "value": 0
+  },
+  "visited_station_OP-PENIT": {
+    "description": "Visited Penitent Commercial",
+    "value": 0
+  },
+  "visited_station_OP-COLUMB": {
+    "description": "Visited Columbus Central Trading",
+    "value": 0
+  },
+  "visited_station_OP-LAGO": {
+    "description": "Visited Lago Gas Port",
+    "value": 0
+  },
+  "visited_station_OP-CAYEUX": {
+    "description": "Visited Cayeux Station",
+    "value": 0
+  },
+  "visited_station_OP-STINDO": {
+    "description": "Visited Sterling Industrial Outpost",
+    "value": 0
+  },
+  "visited_station_OP-PCRWFD": {
+    "description": "Visited Port Crawford",
+    "value": 0
+  },
+  "visited_station_OP-MSKLMS": {
+    "description": "Visited Maskelyne Mining Station",
+    "value": 0
+  },
+  "visited_station_OP-DAWSSO": {
+    "description": "Visited Dawes' Solitude Outpost",
+    "value": 0
+  },
+  "visited_station_OP-CALSTO": {
+    "description": "Visited Callisto Station",
+    "value": 0
+  },
+  "visited_station_OP-SOBEL": {
+    "description": "Visited Port Dava Sobel",
+    "value": 0
+  },
+  "visited_station_OP-ASSYER": {
+    "description": "Visited Assayer Spaceport",
+    "value": 0
+  },
+  "visited_station_OP-PISA": {
+    "description": "Visited Port Pisa",
+    "value": 0
+  },
+  "visited_station_OP-CROCE": {
+    "description": "Visited Croce Spaceport",
+    "value": 0
+  },
+  "visited_station_OP-HALEST": {
+    "description": "Visited Hale Station",
+    "value": 0
+  },
+  "visited_station_OP-ROSSIS": {
+    "description": "Visited Rossi Station",
+    "value": 0
+  },
+  "visited_station_OP-JNSKYS": {
+    "description": "Visited Jansky Station",
+    "value": 0
+  },
+  "visited_station_OP-LYOTST": {
+    "description": "Visited Lyot Station",
+    "value": 0
+  },
+  "visited_station_OP-LASSLS": {
+    "description": "Visited Lassel Station",
+    "value": 0
+  },
+  "visited_station_OP-HIRYMS": {
+    "description": "Visited Hirayama Station",
+    "value": 0
+  },
+  "visited_station_OP-SHPLYS": {
+    "description": "Visited Shapley Station",
+    "value": 0
+  },
+  "visited_station_OP-LAGRNG": {
+    "description": "Visited Lagrange Port",
+    "value": 0
+  },
+  "visited_station_OP-CASSNI": {
+    "description": "Visited Cassini Terraforming Station",
+    "value": 0
+  },
+  "visited_station_OP-HALLEY": {
+    "description": "Visited Halley Industrial Outpost",
+    "value": 0
+  },
+  "visited_station_OP-TWP": {
+    "description": "Visited Terrence Washington Produce Agricultural Outpost",
+    "value": 0
+  },
+  "visited_station_OP-SALOST": {
+    "description": "Visited Salo Station",
+    "value": 0
+  },
+  "visited_station_OP-ONGINE": {
+    "description": "Visited Onega Industrial Exchange",
+    "value": 0
+  },
+  "visited_station_OP-RUZAPT": {
+    "description": "Visited Ruza Colony Port",
+    "value": 0
+  },
+  "visited_station_OP-PPYLOS": {
+    "description": "Visited Port Pylos",
+    "value": 0
+  },
+  "visited_station_OP-ENATST": {
+    "description": "Visited Ena-Tarusa Station",
+    "value": 0
+  },
+  "visited_station_OP-LAGANO": {
+    "description": "Visited Lagan Outpost",
+    "value": 0
+  },
+  "visited_station_OP-ATKNCS": {
+    "description": "Visited Atea Kanada Central Station",
+    "value": 0
+  },
+  "visited_station_OP-ETNAMO": {
+    "description": "Visited Etna Mining Outpost",
+    "value": 0
+  },
+  "visited_station_OP-MRNDLS": {
+    "description": "Visited Murrindal Station",
+    "value": 0
+  },
+  "visited_station_OP-AURRAS": {
+    "description": "Visited Aurora Shipyard",
+    "value": 0
+  },
+  "visited_station_OP-ROLCON": {
+    "description": "Visited Rolond Consortium",
+    "value": 0
+  },
+  "visited_station_OP-BCH": {
+    "description": "Visited Unknown Station (Secret)",
+    "value": 0
+  },
+  "visited_station_OP-CPSS": {
+    "description": "Visited The Cupelli's Space Station (Secret)",
+    "value": 0
+  },
+  "visited_station_OP-BHS": {
+    "description": "Visited Resistance Space Station (Secret)",
+    "value": 0
+  },
+  "visited_station_OP-OYA": {
+    "description": "Visited Oya-Aldoumin Central",
+    "value": 0
+  },
+  "visited_station_OP-CPRCIS": {
+    "description": "Visited Capricon Industrial Spaceport",
+    "value": 0
+  },
+  "visited_station_OP-THT": {
+    "description": "Visited Unknown Space Platform",
+    "value": 0
+  },
+  "visited_station_OP-THS": {
+    "description": "Visited Unknown Space Platform 2",
+    "value": 0
+  }
+}

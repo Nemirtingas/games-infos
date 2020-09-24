@@ -1,0 +1,371 @@
+﻿[
+  {
+    "name": "Achv01",
+    "defaultvalue": 0,
+    "displayName": "So you want to be a hero",
+    "hidden": 0,
+    "description": "Finish the tutorial.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1212400/aa3c24ae910404b99f60f79fefa9f76d5df37c5e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1212400/cee7cbde384c4913712ef1fd3d994b914bc9ac5a.jpg"
+  },
+  {
+    "name": "Achv02",
+    "defaultvalue": 0,
+    "displayName": "No honor among thieves",
+    "hidden": 0,
+    "description": "Finish Diana’s quest. ",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1212400/81db435563e97657a007e7f829b9f28d10e4b2ec.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1212400/38947d7f1a0249bb08538310815ae9cd257d8c89.jpg"
+  },
+  {
+    "name": "Achv03",
+    "defaultvalue": 0,
+    "displayName": "Magical girl",
+    "hidden": 0,
+    "description": "Finish Felicia’s quest.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1212400/65daa1fd2ada5a32b6610c14dddce1a72cc786ab.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1212400/3fba5632cade4bd77bb2f51dcf6ca8da011e4ef2.jpg"
+  },
+  {
+    "name": "Achv04",
+    "defaultvalue": 0,
+    "displayName": "Boot camp",
+    "hidden": 0,
+    "description": "Finish Anastasia’s quest.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1212400/6a291157717ad3d2aea77467b1ba2b12c314d124.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1212400/0ed142b2144a31f0e8ebf8cf74a502f4490defa8.jpg"
+  },
+  {
+    "name": "Achv05",
+    "defaultvalue": 0,
+    "displayName": "Follow the Light",
+    "hidden": 0,
+    "description": "Finish Svetlana’s first quest.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1212400/da4d014db67668859950038c51e26fcc51cb7afe.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1212400/0440cee2b7b0e68c97a8a2859a9177e185ac2d6e.jpg"
+  },
+  {
+    "name": "Achv06",
+    "defaultvalue": 0,
+    "displayName": "Come to the Dark side",
+    "hidden": 0,
+    "description": "Finish Svetlana’s second quest.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1212400/befdf99f28850ede463d83d35255dcaa23835fb0.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1212400/cb8336474b86b3f19e6f7a832440ed419b7f6ab5.jpg"
+  },
+  {
+    "name": "Achv07",
+    "defaultvalue": 0,
+    "displayName": "Steal what was stolen",
+    "hidden": 0,
+    "description": "Finish the secret quest.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1212400/e2b113f8cc635aab51532b32aeb2be5c3969d1ce.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1212400/4e644d614857e10a21110dd11d16fa3c3b21d154.jpg"
+  },
+  {
+    "name": "Achv08",
+    "defaultvalue": 0,
+    "displayName": "Papers, please!",
+    "hidden": 0,
+    "description": "Find the way to pass the city gates without paying the toll every time.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1212400/93b26be08ee7f0b15b1b3f4c483146903e40375f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1212400/17e96ce9a25ee6f15bd74eb0fc45dff2712ec242.jpg"
+  },
+  {
+    "name": "Achv09",
+    "defaultvalue": 0,
+    "displayName": "City's little helpers",
+    "hidden": 0,
+    "description": "Repair the city bathhouse and stop the one who sells beer to children.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1212400/d1ec65e3dd5760a8e793469117b54137e91aa351.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1212400/95368ba3c61421ada0abc83169e272851a2bfd9e.jpg"
+  },
+  {
+    "name": "Achv10",
+    "defaultvalue": 0,
+    "displayName": "Reading is radical",
+    "hidden": 0,
+    "description": "Finish the God of libraries quest.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1212400/ed2b4b669a24fc12a73a070e253dae8f4479aa9d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1212400/d9443649ec437535a17c2fa45875b385931f52ac.jpg"
+  },
+  {
+    "name": "Achv11",
+    "defaultvalue": 0,
+    "displayName": "Knowledge is power",
+    "hidden": 0,
+    "description": "Collect all textbooks in Act I.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1212400/2525c0a01f659ad8d1858502cbfa2506de0a255e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1212400/df61a43a2c4dfd3e73d0084ef40ade4061e7a947.jpg"
+  },
+  {
+    "name": "Achv12",
+    "defaultvalue": 0,
+    "displayName": "Hero fisherman",
+    "hidden": 0,
+    "description": "Bring a special watermelon to the fisherman from the Cave of Stars.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1212400/4ebf1126eb5e86fcaeeaf36d686e8040b16065f2.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1212400/79fef3b2f297fafd76e7eaf22c1657f30e0f55e7.jpg"
+  },
+  {
+    "name": "Achv13",
+    "defaultvalue": 0,
+    "displayName": "30/30 vision",
+    "hidden": 0,
+    "description": "Find all Laverna’s gifts in the Act I.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1212400/83b203ec3b05b792d102b39b6b9443b2c761bd5b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1212400/9db251303158b7f6bf36b63d25bef76de55ed2ce.jpg"
+  },
+  {
+    "name": "Achv14",
+    "defaultvalue": 0,
+    "displayName": "Gods will hear thee",
+    "hidden": 0,
+    "description": "Learn the secret prayer.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1212400/d4afbdaf0a189d54bf5e4bb29d24a5eedc3287b6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1212400/3b9366a6c397acefe6b286d4b4b0956bf977479c.jpg"
+  },
+  {
+    "name": "Achv15",
+    "defaultvalue": 0,
+    "displayName": "Impudence wins!",
+    "hidden": 0,
+    "description": "Learn both spells from the city mage. ",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1212400/57029f98b7ec769471258163f8a27bb6f7adab40.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1212400/56bbd7533bf6986b4b14571129eb185889a498fa.jpg"
+  },
+  {
+    "name": "Achv16",
+    "defaultvalue": 0,
+    "displayName": "Every nook and cave",
+    "hidden": 0,
+    "description": "Defeat the troll.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1212400/e1a7a68a1b5e1b1fcde3dc2ad895429079456973.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1212400/c702c5432a4a6de459500375465fa9177ba47392.jpg"
+  },
+  {
+    "name": "Achv17",
+    "defaultvalue": 0,
+    "displayName": "Woeful soul",
+    "hidden": 0,
+    "description": "Defeat the Abaddon’s doll.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1212400/992023ebdfba6129e111c568fc7a0166ae483394.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1212400/7d059ef92ac02cc42112a6c7322efae75a2cb4eb.jpg"
+  },
+  {
+    "name": "Achv18",
+    "defaultvalue": 0,
+    "displayName": "Train hard…",
+    "hidden": 0,
+    "description": "Defeat all opponents in the arena in Act I.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1212400/d678a7538e129c4fcd1533387f641351be675d30.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1212400/52689a640df541a263ba2c00fe194c5c211c5df9.jpg"
+  },
+  {
+    "name": "Achv19",
+    "defaultvalue": 0,
+    "displayName": "Hero’s labours",
+    "hidden": 0,
+    "description": "Defeat the minotaur.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1212400/cbb16d314e053de641cc276a19720563317355eb.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1212400/f828dcdf54413baef7e097208751a855a24e395f.jpg"
+  },
+  {
+    "name": "Achv20",
+    "defaultvalue": 0,
+    "displayName": "There prowls a sprite…",
+    "hidden": 0,
+    "description": "Defeat the leshy.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1212400/52abe4c60f8165f9b5d038225e30bc9c0acd55ee.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1212400/a0da1b3e221596251df373bad489f5737aebbb5c.jpg"
+  },
+  {
+    "name": "Achv21",
+    "defaultvalue": 0,
+    "displayName": "Swamp hag",
+    "hidden": 0,
+    "description": "Defeat the kikimora.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1212400/f4f80fe08a821ea973f1aa9233a13507f8cb8381.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1212400/2f2c7fa2f5b45b1756d8da944ddf291458b27845.jpg"
+  },
+  {
+    "name": "Achv22",
+    "defaultvalue": 0,
+    "displayName": "Annoying bees",
+    "hidden": 0,
+    "description": "Defeat the giant wasp.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1212400/daaebb3eed78dca697f6012e4278256c219cfdb6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1212400/28c834f3cdf541e34f750e464aaf3b33d64e73f6.jpg"
+  },
+  {
+    "name": "Achv23",
+    "defaultvalue": 0,
+    "displayName": "A matter of size",
+    "hidden": 0,
+    "description": "Defeat the giant scorpion.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1212400/8479487cf85ad601d8fef32209633757fbb9aa11.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1212400/e86601fd6291ab508f48c90fcc6eb2064bd59093.jpg"
+  },
+  {
+    "name": "Achv24",
+    "defaultvalue": 0,
+    "displayName": "Glory in battle!",
+    "hidden": 0,
+    "description": "Defeat the Greater earth elemental",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1212400/0d87ba096f58a9e2f2cab3249be16d09a8fa2094.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1212400/6826ddb3f8867bae633f5961ff6b6fcbd0b4d78d.jpg"
+  },
+  {
+    "name": "Achv25",
+    "defaultvalue": 0,
+    "displayName": "We're afraid of no ghost!",
+    "hidden": 0,
+    "description": "Defeat the ghost.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1212400/eee75a4ddc2963af710e3e4c7b6179dfebcdc0a6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1212400/03ad1e5c8bf51b445a6ba3cd014bf5e11dd2e5ae.jpg"
+  },
+  {
+    "name": "Achv26",
+    "defaultvalue": 0,
+    "displayName": "Antiheroines",
+    "hidden": 0,
+    "description": "Defeat the team of goblinesses.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1212400/eb2dea84dec38ddedfcec09d0df5eac6cdeab861.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1212400/ad0b20377878d9dff2cae0a9c3fe0a8090589abf.jpg"
+  },
+  {
+    "name": "Achv27",
+    "defaultvalue": 0,
+    "displayName": "Goody two-shoes",
+    "hidden": 0,
+    "description": "Find the non – forbidden fruit",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1212400/611345ae0efbd2981bd6989abfda3d7870a6472f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1212400/66b9ab969ed448b3506b5da40d3e29675d993ab5.jpg"
+  },
+  {
+    "name": "Achv28",
+    "defaultvalue": 0,
+    "displayName": "Original Prankster",
+    "hidden": 0,
+    "description": "Craft the legendary sword.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1212400/3e99eb87476b84f2dcba19d0914c3db0a4f9a30e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1212400/e50fb9b94112b567ee6575cafb9e9feaef004d29.jpg"
+  },
+  {
+    "name": "Achv29",
+    "defaultvalue": 0,
+    "displayName": "Star guardian",
+    "hidden": 0,
+    "description": "Craft the legendary shield.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1212400/76738e58f4e2398698bac775d0e9427b98db86e5.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1212400/693bb7f5d278dbcc817978861a9bca98c556030d.jpg"
+  },
+  {
+    "name": "Achv30",
+    "defaultvalue": 0,
+    "displayName": "Soldier's spirit",
+    "hidden": 0,
+    "description": "Craft the legendary spear.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1212400/98bba6427b82a4ba94f08232ff10ac2076b0c666.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1212400/69e56fd3396f7660c5f1c8eeab8c611decf5d62e.jpg"
+  },
+  {
+    "name": "Achv31",
+    "defaultvalue": 0,
+    "displayName": "Earth amulet",
+    "hidden": 0,
+    "description": "Craft the Earth amulet.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1212400/5ad8787f770a2410d764085ff697a07c51919454.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1212400/4ca5e9e2253563f80226de756028e8e5c5431b1d.jpg"
+  },
+  {
+    "name": "Achv32",
+    "defaultvalue": 0,
+    "displayName": "Shepherd girls",
+    "hidden": 0,
+    "description": "Find the Shepherd's staff.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1212400/3b00ffb28f8a4286aae1d21148755fccc20bf82a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1212400/3891b74891de29078008ce8bb4c5a97c2d48c6e2.jpg"
+  },
+  {
+    "name": "Achv33",
+    "defaultvalue": 0,
+    "displayName": "Power of word",
+    "hidden": 0,
+    "description": "Trick the goblins.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1212400/4109473165a390a065b1902d24b87c60bfbb0e7d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1212400/5668bfea8a03a84380d6be7f6baa10b248c569a6.jpg"
+  },
+  {
+    "name": "Achv34",
+    "defaultvalue": 0,
+    "displayName": "True heroines!",
+    "hidden": 0,
+    "description": "Save both houses from being pillaged.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1212400/a788b2808ecbb6005dbcb8c0d590a080ccb82fb9.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1212400/15a4f62f12e89ba363c6c6f4897546a8f3faf217.jpg"
+  },
+  {
+    "name": "Achv35",
+    "defaultvalue": 0,
+    "displayName": "Conquering fear",
+    "hidden": 0,
+    "description": "Finish Act I.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1212400/93d5328af7d824f6eddf258197bd311871d72bf2.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1212400/cd0ec2f848c77988ec1c6bb319ba30a47a8cb06c.jpg"
+  },
+  {
+    "name": "Achv36",
+    "defaultvalue": 0,
+    "displayName": "Scrooge",
+    "hidden": 0,
+    "description": "Enter the city through the sewers 25 times.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1212400/399a8d055346d366d6ae2d9b5480f770a82f113f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1212400/0da24c6d214631eccf169f15140f143199ed0792.jpg"
+  },
+  {
+    "name": "Achv37",
+    "defaultvalue": 0,
+    "displayName": "Toss a coin to your watchman",
+    "hidden": 0,
+    "description": "Pay 25 times to enter the city.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1212400/69404a74f5b179541f21b1c0f2e8706863b9726f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1212400/efb25548326c7548fb56e047380d3b5ce3985804.jpg"
+  },
+  {
+    "name": "Achv38",
+    "defaultvalue": 0,
+    "displayName": "Pet zoo",
+    "hidden": 0,
+    "description": "Pet all domestic animals possible.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1212400/cd8f0aa6e0eb95ab6e8a55f057b51db02f1dd051.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1212400/4985b83826ebfe49137b56558e663b00f085b541.jpg"
+  },
+  {
+    "name": "Achv39",
+    "defaultvalue": 0,
+    "displayName": "Cleanliness is godliness",
+    "hidden": 0,
+    "description": "Visit the bathhouse 10 times.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1212400/98fe8b337e872f9301dc58aaaaa1a047fbe6822a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1212400/1cfd9e5bd66a7aa90d57eaee756ac9da57d564d3.jpg"
+  },
+  {
+    "name": "Achv40",
+    "defaultvalue": 0,
+    "displayName": "Learn to count",
+    "hidden": 0,
+    "description": "Jump into the well without all water-breathing potions.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1212400/03094773580360257f0c06bf13230abc9a60861a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1212400/c7b38dec0cf32989fc1034df055a4c91e516db3b.jpg"
+  },
+  {
+    "name": "Achv41",
+    "defaultvalue": 0,
+    "displayName": "Fight another day",
+    "hidden": 0,
+    "description": "Evade bandits encounter 10 times.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1212400/38d9289b36fcb2011d42afd07144c1e75f831d30.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1212400/fddde056311324a7a69c3c545bce0a23e339a71b.jpg"
+  }
+]

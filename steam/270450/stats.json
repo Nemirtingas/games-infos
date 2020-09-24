@@ -1,0 +1,798 @@
+﻿{
+  "stat_kills": {
+    "description": "KO's",
+    "value": 0
+  },
+  "stat_deaths": {
+    "description": "KO'd",
+    "value": 0
+  },
+  "stat_score": {
+    "description": "Score Battle Total",
+    "value": 0
+  },
+  "stat_eliminated": {
+    "description": "Opponents Eliminated",
+    "value": 0
+  },
+  "stat_hoops": {
+    "description": "Hoops Scored",
+    "value": 0
+  },
+  "stat_possession": {
+    "description": "Super Ball Possession",
+    "value": 0
+  },
+  "stat_carrier": {
+    "description": "Super Ball Carrier KOs",
+    "value": 0
+  },
+  "stat_xp": {
+    "description": "XP Gained",
+    "value": 0
+  },
+  "stat_checkpoints": {
+    "description": "Checkpoints Hit",
+    "value": 0
+  },
+  "stat_horde_hits": {
+    "description": "Horde Bot KOs",
+    "value": 0
+  },
+  "stat_horde_max_kills_1p": {
+    "description": "Horde Most Hits (solo)",
+    "value": 0
+  },
+  "stat_horde_max_score_1p": {
+    "description": "Horde Highest Score (solo)",
+    "value": 0
+  },
+  "stat_horde_max_kills_2p": {
+    "description": "Horde Most Hits (2p)",
+    "value": 0
+  },
+  "stat_horde_max_score_2p": {
+    "description": "Horde Highest Score (2P)",
+    "value": 0
+  },
+  "stat_streak": {
+    "description": "Highest KO Streak",
+    "value": 0
+  },
+  "stat_kill_default": {
+    "description": "Regular Hits",
+    "value": 0
+  },
+  "stat_kill_catch": {
+    "description": "Catches",
+    "value": 0
+  },
+  "stat_kill_ricochet": {
+    "description": "Ricochet Hits",
+    "value": 0
+  },
+  "stat_kill_mid_air": {
+    "description": "Mid-Air Hits",
+    "value": 0
+  },
+  "stat_kill_long_distance": {
+    "description": "Long Distance Hits",
+    "value": 0
+  },
+  "stat_kill_quick_draw": {
+    "description": "Quick Draw Hits",
+    "value": 0
+  },
+  "stat_kill_ninja": {
+    "description": "Ninja Hits",
+    "value": 0
+  },
+  "stat_kill_mid_air_catch": {
+    "description": "Mid-Air Catches",
+    "value": 0
+  },
+  "stat_kill_backfire": {
+    "description": "Backfire Hits",
+    "value": 0
+  },
+  "stat_kill_denial": {
+    "description": "Denial Hits",
+    "value": 0
+  },
+  "stat_kill_orbital": {
+    "description": "Orbital Strike Hits",
+    "value": 0
+  },
+  "stat_kill_godlike": {
+    "description": "Godlike Hits",
+    "value": 0
+  },
+  "stat_kill_multi_kill": {
+    "description": "Multi Hits",
+    "value": 0
+  },
+  "stat_kill_air_strike": {
+    "description": "Air Strike Hits",
+    "value": 0
+  },
+  "stat_kill_hot_potato": {
+    "description": "Hot Potato Hits",
+    "value": 0
+  },
+  "stat_kill_duck_hunt": {
+    "description": "Duck Hunt Hits",
+    "value": 0
+  },
+  "stat_kill_top_gun": {
+    "description": "Top Gun Hits",
+    "value": 0
+  },
+  "stat_kill_dunk": {
+    "description": "Dunk Hits",
+    "value": 0
+  },
+  "stat_kill_flying_squirrel": {
+    "description": "Flying Squirrel Hits",
+    "value": 0
+  },
+  "stat_kill_zombie": {
+    "description": "Zombie Hits",
+    "value": 0
+  },
+  "stat_kill_avenge": {
+    "description": "Avenge Catches",
+    "value": 0
+  },
+  "stat_kill_pass": {
+    "description": "Assisted Hits",
+    "value": 0
+  },
+  "stat_kill_alley_oop": {
+    "description": "Alley Oop Hits",
+    "value": 0
+  },
+  "stat_kill_helicopter": {
+    "description": "Helicopter Hits",
+    "value": 0
+  },
+  "stat_horde_max_kills_3p": {
+    "description": "Horde Most Hits (3P)",
+    "value": 0
+  },
+  "stat_horde_max_kills_4p": {
+    "description": "Horde Most Hits (4P)",
+    "value": 0
+  },
+  "stat_horde_max_score_3p": {
+    "description": "Horde Highest Score (3P)",
+    "value": 0
+  },
+  "stat_horde_max_score_4p": {
+    "description": "Horde Highest Score (4P)",
+    "value": 0
+  },
+  "stat_horde_max_kills_5p": {
+    "description": "Horde Most Hits (5P)",
+    "value": 0
+  },
+  "stat_horde_max_kills_6p": {
+    "description": "Horde Most Hits (6P)",
+    "value": 0
+  },
+  "stat_horde_max_score_5p": {
+    "description": "Horde Highest Score (5P)",
+    "value": 0
+  },
+  "stat_horde_max_score_6p": {
+    "description": "Horde Highest Score (6P)",
+    "value": 0
+  },
+  "stat_extinguish": {
+    "description": "On Fire Opponent KOs",
+    "value": 0
+  },
+  "stat_burn": {
+    "description": "KOs While On Fire",
+    "value": 0
+  },
+  "stat_hoop_carrier_kills": {
+    "description": "Hoop Super Ball Carrier KOs",
+    "value": 0
+  },
+  "stat_race_wins": {
+    "description": "Derby Race Wins",
+    "value": 0
+  },
+  "stat_leader_hits": {
+    "description": "Derby Leader KOs",
+    "value": 0
+  },
+  "stat_team_deathmatch_wins": {
+    "description": "Team Deathmatch Wins",
+    "value": 0
+  },
+  "stat_team_score_battle_wins": {
+    "description": "Team Score Battle Wins",
+    "value": 0
+  },
+  "stat_team_hoops_wins": {
+    "description": "Team Hoops Wins",
+    "value": 0
+  },
+  "stat_team_super_ball_wins": {
+    "description": "Team Super Ball Wins",
+    "value": 0
+  },
+  "stat_team_derby_wins": {
+    "description": "Team Demolition Derby Wins",
+    "value": 0
+  },
+  "stat_ffa_deathmatch_wins": {
+    "description": "FFA Deathmatch Wins",
+    "value": 0
+  },
+  "stat_ffa_score_battle_wins": {
+    "description": "FFA Score Battle Wins",
+    "value": 0
+  },
+  "stat_ffa_hoops_wins": {
+    "description": "FFA Hoops Wins",
+    "value": 0
+  },
+  "stat_ffa_super_ball_wins": {
+    "description": "FFA Super Ball Wins",
+    "value": 0
+  },
+  "stat_ffa_derby_wins": {
+    "description": "FFA Demolition Derby Wins",
+    "value": 0
+  },
+  "stat_team_elimination_wins": {
+    "description": "Team Elimination Wins",
+    "value": 0
+  },
+  "stat_ffa_elimination_wins": {
+    "description": "FFA Elimination Wins",
+    "value": 0
+  },
+  "stat_team_deathmatch_matches": {
+    "description": "Team Deathmatch Matches Played",
+    "value": 0
+  },
+  "stat_team_score_battle_matches": {
+    "description": "Team Score Battle Matches Played",
+    "value": 0
+  },
+  "stat_team_elimination_matches": {
+    "description": "Team Elimination Maches Played",
+    "value": 0
+  },
+  "stat_team_hoops_matches": {
+    "description": "Team Hoops Matches Played",
+    "value": 0
+  },
+  "stat_team_super_ball_matches": {
+    "description": "Team Super Ball Matches Played",
+    "value": 0
+  },
+  "stat_team_derby_matches": {
+    "description": "Team Demolition Derby Matches Played",
+    "value": 0
+  },
+  "stat_ffa_deathmatch_matches": {
+    "description": "FFA Deathmatch Matches Played",
+    "value": 0
+  },
+  "stat_ffa_score_battle_matches": {
+    "description": "FFA Score Battle Matches Played",
+    "value": 0
+  },
+  "stat_ffa_elimination_matches": {
+    "description": "FFA Elimination Matches Played",
+    "value": 0
+  },
+  "stat_ffa_hoops_matches": {
+    "description": "FFA Hoops Matches Played",
+    "value": 0
+  },
+  "stat_ffa_super_ball_matches": {
+    "description": "FFA Super Ball Matches Played",
+    "value": 0
+  },
+  "stat_ffa_derby_matches": {
+    "description": "FFA Demolition Derby Matches Played",
+    "value": 0
+  },
+  "stat_horde_solo_matches_played": {
+    "description": "Horde Matches Played (solo)",
+    "value": 0
+  },
+  "stat_horde_coop_matches_played": {
+    "description": "Horde Matches Played (co-op)",
+    "value": 0
+  },
+  "stat_winning_kills": {
+    "description": "Winning Team Deathmatch KOs",
+    "value": 0
+  },
+  "stat_winning_hoop_shots": {
+    "description": "Winning Team Hoops Shot",
+    "value": 0
+  },
+  "stat_winning_score": {
+    "description": "Winning Team Score Battle KO",
+    "value": 0
+  },
+  "stat_winning_elimination_kill": {
+    "description": "Winning Team Elimination KO",
+    "value": 0
+  },
+  "stat_winning_super_ball_carry": {
+    "description": "Winning Team Super Ball Carry",
+    "value": 0
+  },
+  "stat_horde_max_score_arena_1p": {
+    "description": "Highest Horde Score (Arena Solo)",
+    "value": 0
+  },
+  "stat_horde_max_score_ring_1p": {
+    "description": "Highest Horde Score (Ring Solo)",
+    "value": 0
+  },
+  "stat_horde_max_score_airborne_1p": {
+    "description": "Highest Horde Score (Airborne Solo)",
+    "value": 0
+  },
+  "stat_horde_max_score_chasm_1p": {
+    "description": "Highest Horde Score (Chasm Solo)",
+    "value": 0
+  },
+  "stat_horde_max_score_core_1p": {
+    "description": "Highest Horde Score (Core Solo)",
+    "value": 0
+  },
+  "stat_horde_max_score_temple_1p": {
+    "description": "Highest Horde Score (Temple Solo)",
+    "value": 0
+  },
+  "stat_horde_max_score_cage_1p": {
+    "description": "Highest Horde Score (Cage Solo)",
+    "value": 0
+  },
+  "stat_is_pre_launch": {
+    "description": "",
+    "value": 0
+  },
+  "stat_combo": {
+    "description": "",
+    "value": 0
+  },
+  "stat_first_launch_date": {
+    "description": "",
+    "value": 0
+  },
+  "stat_ko_assists": {
+    "description": "KO Assists",
+    "value": 0
+  },
+  "stat_ko_mid_air_assists": {
+    "description": "KO Mid-Air Assists",
+    "value": 0
+  },
+  "stat_hoop_assists": {
+    "description": "Hoop Score Assists",
+    "value": 0
+  },
+  "stat_capture_assists": {
+    "description": "Capture Assists",
+    "value": 0
+  },
+  "stat_cube_captures": {
+    "description": "Cube Captures",
+    "value": 0
+  },
+  "stat_cube_returns": {
+    "description": "Cube Returns",
+    "value": 0
+  },
+  "stat_cube_carrier_kills": {
+    "description": "Cube Carrier KOs",
+    "value": 0
+  },
+  "stat_team_capture_cube_matches": {
+    "description": "Team Cube Captue Matches",
+    "value": 0
+  },
+  "stat_team_capture_cube_wins": {
+    "description": "Team Cube Capture Wins",
+    "value": 0
+  },
+  "stat_stayin_alive": {
+    "description": "Stayin Alive",
+    "value": 0
+  },
+  "stat_bank_shots": {
+    "description": "Hoop Bank Shot Scores",
+    "value": 0
+  },
+  "stat_winning_capture": {
+    "description": "Match Winning Cube Captures",
+    "value": 0
+  },
+  "stat_powerup_kills_jetpack": {
+    "description": "",
+    "value": 0
+  },
+  "stat_powerup_kills_grip": {
+    "description": "",
+    "value": 0
+  },
+  "stat_powerup_kills_boost": {
+    "description": "",
+    "value": 0
+  },
+  "stat_powerup_kills_spring": {
+    "description": "",
+    "value": 0
+  },
+  "stat_powerup_kills_shield": {
+    "description": "",
+    "value": 0
+  },
+  "stat_powerup_kills_laser": {
+    "description": "",
+    "value": 0
+  },
+  "stat_powerup_kills_bigball": {
+    "description": "",
+    "value": 0
+  },
+  "stat_powerup_kills_homing": {
+    "description": "",
+    "value": 0
+  },
+  "stat_juggernaut_matches_played": {
+    "description": "",
+    "value": 0
+  },
+  "stat_air_raid_matches_played": {
+    "description": "",
+    "value": 0
+  },
+  "stat_fugitive_matches_played": {
+    "description": "",
+    "value": 0
+  },
+  "stat_horde_matches_played": {
+    "description": "",
+    "value": 0
+  },
+  "stat_fugitive_points": {
+    "description": "",
+    "value": 0
+  },
+  "stat_juggernaut_kills": {
+    "description": "",
+    "value": 0
+  },
+  "stat_air_raid_kills": {
+    "description": "",
+    "value": 0
+  },
+  "stat_air_raid_alley_oops": {
+    "description": "",
+    "value": 0
+  },
+  "stat_air_raid_godlikes": {
+    "description": "",
+    "value": 0
+  },
+  "stat_juggernaut_multi_kill": {
+    "description": "",
+    "value": 0
+  },
+  "stat_juggernaut_combo": {
+    "description": "",
+    "value": 0
+  },
+  "stat_juggernaut_godlikes": {
+    "description": "",
+    "value": 0
+  },
+  "stat_juggernaut_hot_potato": {
+    "description": "",
+    "value": 0
+  },
+  "stat_powerup_kills_boomerang": {
+    "description": "",
+    "value": 0
+  },
+  "stat_arcade_matches": {
+    "description": "",
+    "value": 0
+  },
+  "stat_arcade_wins": {
+    "description": "",
+    "value": 0
+  },
+  "stat_arcade_kills": {
+    "description": "",
+    "value": 0
+  },
+  "stat_dodgebux_gained": {
+    "description": "",
+    "value": 0
+  },
+  "stat_kill_regulation_godlikes": {
+    "description": "",
+    "value": 0
+  },
+  "stat_powerup_kills_fireball": {
+    "description": "",
+    "value": 0
+  },
+  "stat_team_elimination_matches_full": {
+    "description": "",
+    "value": 0
+  },
+  "stat_ffa_elimination_matches_full": {
+    "description": "",
+    "value": 0
+  },
+  "stat_arcade_rounds_won": {
+    "description": "",
+    "value": 0
+  },
+  "stat_arcade_shock_kills": {
+    "description": "",
+    "value": 0
+  },
+  "stat_kill_bulldozer": {
+    "description": "",
+    "value": 0
+  },
+  "stat_kill_poison": {
+    "description": "",
+    "value": 0
+  },
+  "stat_kill_homing_block": {
+    "description": "",
+    "value": 0
+  },
+  "stat_kill_zombie_convert": {
+    "description": "",
+    "value": 0
+  },
+  "stat_arcade_catch": {
+    "description": "",
+    "value": 0
+  },
+  "stat_arcade_mid_air_catch": {
+    "description": "",
+    "value": 0
+  },
+  "stat_arcade_dunk": {
+    "description": "",
+    "value": 0
+  },
+  "stat_arcade_flying_squirrel": {
+    "description": "",
+    "value": 0
+  },
+  "stat_arcade_godlike": {
+    "description": "",
+    "value": 0
+  },
+  "stat_arcade_helicopter": {
+    "description": "",
+    "value": 0
+  },
+  "stat_arcade_ninja": {
+    "description": "",
+    "value": 0
+  },
+  "stat_arcade_ricochet": {
+    "description": "",
+    "value": 0
+  },
+  "stat_arcade_multikill": {
+    "description": "",
+    "value": 0
+  },
+  "stat_arcade_hot_potato": {
+    "description": "",
+    "value": 0
+  },
+  "stat_arcade_alley_oop": {
+    "description": "",
+    "value": 0
+  },
+  "stat_arcade_combos": {
+    "description": "",
+    "value": 0
+  },
+  "stat_arcade_distance_bonus": {
+    "description": "",
+    "value": 0
+  },
+  "stat_arcade_score": {
+    "description": "",
+    "value": 0
+  },
+  "stat_arcade_blocks": {
+    "description": "",
+    "value": 0
+  },
+  "stat_arcade_deaths": {
+    "description": "",
+    "value": 0
+  },
+  "stat_arcade_long_distance": {
+    "description": "",
+    "value": 0
+  },
+  "stat_arcade_quick_draw": {
+    "description": "",
+    "value": 0
+  },
+  "stat_arcade_mid_air": {
+    "description": "",
+    "value": 0
+  },
+  "stat_arcade_bot_ko_turbo": {
+    "description": "",
+    "value": 0
+  },
+  "stat_arcade_bot_ko_laser": {
+    "description": "",
+    "value": 0
+  },
+  "stat_arcade_bot_ko_hunter": {
+    "description": "",
+    "value": 0
+  },
+  "stat_arcade_bot_ko_final": {
+    "description": "",
+    "value": 0
+  },
+  "stat_arcade_bot_ko_jetpack": {
+    "description": "",
+    "value": 0
+  },
+  "stat_arcade_bot_ko_pogo": {
+    "description": "",
+    "value": 0
+  },
+  "stat_arcade_bot_ko_huge": {
+    "description": "",
+    "value": 0
+  },
+  "stat_arcade_bot_ko_fast": {
+    "description": "",
+    "value": 0
+  },
+  "stat_kudos_sent": {
+    "description": "",
+    "value": 0
+  },
+  "stat_kudos_received": {
+    "description": "",
+    "value": 0
+  },
+  "stat_team_danger_ball_matches": {
+    "description": "",
+    "value": 0
+  },
+  "stat_team_danger_ball_wins": {
+    "description": "",
+    "value": 0
+  },
+  "stat_winning_danger_ball_KO": {
+    "description": "",
+    "value": 0
+  },
+  "stat_ffa_danger_ball_matches": {
+    "description": "",
+    "value": 0
+  },
+  "stat_ffa_danger_ball_wins": {
+    "description": "",
+    "value": 0
+  },
+  "stat_danger_ball_score": {
+    "description": "",
+    "value": 0
+  },
+  "stat_danger_ball_carrier_kills": {
+    "description": "",
+    "value": 0
+  },
+  "stat_team_kingpin_matches": {
+    "description": "",
+    "value": 0
+  },
+  "stat_team_kingpin_wins": {
+    "description": "",
+    "value": 0
+  },
+  "stat_winning_kingpin_KO": {
+    "description": "",
+    "value": 0
+  },
+  "stat_ffa_kingpin_matches": {
+    "description": "",
+    "value": 0
+  },
+  "stat_ffa_kingpin_wins": {
+    "description": "",
+    "value": 0
+  },
+  "stat_kingpin_kills": {
+    "description": "",
+    "value": 0
+  },
+  "stat_kingpin_score": {
+    "description": "",
+    "value": 0
+  },
+  "stat_kingpin_assists": {
+    "description": "",
+    "value": 0
+  },
+  "stat_deflection": {
+    "description": "",
+    "value": 0
+  },
+  "stat_force_drop": {
+    "description": "",
+    "value": 0
+  },
+  "stat_no_look": {
+    "description": "",
+    "value": 0
+  },
+  "stat_jump_double_kill": {
+    "description": "",
+    "value": 0
+  },
+  "stat_fireball_catch": {
+    "description": "",
+    "value": 0
+  },
+  "stat_orbital_strike": {
+    "description": "",
+    "value": 0
+  },
+  "stat_triple_combo": {
+    "description": "",
+    "value": 0
+  },
+  "stat_objective_kills": {
+    "description": "",
+    "value": 0
+  },
+  "stat_streak_5": {
+    "description": "",
+    "value": 0
+  },
+  "stat_streak_8": {
+    "description": "",
+    "value": 0
+  },
+  "stat_streak_10": {
+    "description": "",
+    "value": 0
+  },
+  "stat_rampage_3": {
+    "description": "",
+    "value": 0
+  },
+  "stat_objective_assists": {
+    "description": "",
+    "value": 0
+  },
+  "stat_mission_points": {
+    "description": "",
+    "value": 0
+  }
+}

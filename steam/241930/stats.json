@@ -1,0 +1,670 @@
+﻿{
+  "VERSION": {
+    "description": "Version Id",
+    "value": 1
+  },
+  "bow_headshots": {
+    "description": "",
+    "value": 0
+  },
+  "branded_total": {
+    "description": "",
+    "value": 0
+  },
+  "branded_archers": {
+    "description": "",
+    "value": 0
+  },
+  "branded_berserkers": {
+    "description": "",
+    "value": 0
+  },
+  "branded_captains": {
+    "description": "",
+    "value": 0
+  },
+  "branded_defenders": {
+    "description": "",
+    "value": 0
+  },
+  "branded_spearmen": {
+    "description": "",
+    "value": 0
+  },
+  "branded_warchiefs": {
+    "description": "",
+    "value": 0
+  },
+  "branded_warriors": {
+    "description": "",
+    "value": 0
+  },
+  "collected_artifacts": {
+    "description": "",
+    "value": 0
+  },
+  "collected_glyphs": {
+    "description": "",
+    "value": 0
+  },
+  "collected_plants": {
+    "description": "",
+    "value": 0
+  },
+  "count_bait_dropped": {
+    "description": "",
+    "value": 0
+  },
+  "count_cages_opened": {
+    "description": "",
+    "value": 0
+  },
+  "count_fires_exploded": {
+    "description": "",
+    "value": 0
+  },
+  "count_flies_dropped": {
+    "description": "",
+    "value": 0
+  },
+  "count_walls_destroyed": {
+    "description": "",
+    "value": 0
+  },
+  "deaths_total": {
+    "description": "",
+    "value": 0
+  },
+  "deaths_goblins": {
+    "description": "",
+    "value": 0
+  },
+  "deaths_grunt": {
+    "description": "",
+    "value": 0
+  },
+  "deaths_named_enemy": {
+    "description": "",
+    "value": 0
+  },
+  "deaths_trolls": {
+    "description": "",
+    "value": 0
+  },
+  "deaths_wargs": {
+    "description": "",
+    "value": 0
+  },
+  "dominated_total": {
+    "description": "",
+    "value": 0
+  },
+  "dominated_archers": {
+    "description": "",
+    "value": 0
+  },
+  "dominated_berserkers": {
+    "description": "",
+    "value": 0
+  },
+  "dominated_captains": {
+    "description": "",
+    "value": 0
+  },
+  "dominated_defenders": {
+    "description": "",
+    "value": 0
+  },
+  "dominated_spearmen": {
+    "description": "",
+    "value": 0
+  },
+  "dominated_warchiefs": {
+    "description": "",
+    "value": 0
+  },
+  "dominated_warriors": {
+    "description": "",
+    "value": 0
+  },
+  "intel_total": {
+    "description": "",
+    "value": 0
+  },
+  "intel_from_interrogation": {
+    "description": "",
+    "value": 0
+  },
+  "interrogated_total": {
+    "description": "",
+    "value": 0
+  },
+  "interrogated_archers": {
+    "description": "",
+    "value": 0
+  },
+  "interrogated_berserkers": {
+    "description": "",
+    "value": 0
+  },
+  "interrogated_captains": {
+    "description": "",
+    "value": 0
+  },
+  "interrogated_defenders": {
+    "description": "",
+    "value": 0
+  },
+  "interrogated_spearmen": {
+    "description": "",
+    "value": 0
+  },
+  "interrogated_warchiefs": {
+    "description": "",
+    "value": 0
+  },
+  "interrogated_warriors": {
+    "description": "",
+    "value": 0
+  },
+  "kills_total": {
+    "description": "",
+    "value": 0
+  },
+  "kills_archers": {
+    "description": "",
+    "value": 0
+  },
+  "kills_berserkers": {
+    "description": "",
+    "value": 0
+  },
+  "kills_by_bow": {
+    "description": "",
+    "value": 0
+  },
+  "kills_by_dagger": {
+    "description": "",
+    "value": 0
+  },
+  "kills_by_sword": {
+    "description": "",
+    "value": 0
+  },
+  "kills_captains": {
+    "description": "",
+    "value": 0
+  },
+  "kills_defenders": {
+    "description": "",
+    "value": 0
+  },
+  "kills_spearmen": {
+    "description": "",
+    "value": 0
+  },
+  "kills_type_death_from_above": {
+    "description": "",
+    "value": 0
+  },
+  "kills_type_decapitations": {
+    "description": "",
+    "value": 0
+  },
+  "kills_type_infighting": {
+    "description": "",
+    "value": 0
+  },
+  "kills_type_interrogation": {
+    "description": "",
+    "value": 0
+  },
+  "kills_type_on_troll": {
+    "description": "",
+    "value": 0
+  },
+  "kills_type_on_warg": {
+    "description": "",
+    "value": 0
+  },
+  "kills_type_stealth": {
+    "description": "",
+    "value": 0
+  },
+  "kills_type_throw": {
+    "description": "",
+    "value": 0
+  },
+  "kills_type_wraith": {
+    "description": "",
+    "value": 0
+  },
+  "kills_warchiefs": {
+    "description": "",
+    "value": 0
+  },
+  "kills_warriors": {
+    "description": "",
+    "value": 0
+  },
+  "quests_total": {
+    "description": "",
+    "value": 0
+  },
+  "quests_bow": {
+    "description": "",
+    "value": 0
+  },
+  "quests_dagger": {
+    "description": "",
+    "value": 0
+  },
+  "quests_outcast_rescue": {
+    "description": "",
+    "value": 0
+  },
+  "quests_spirit": {
+    "description": "",
+    "value": 0
+  },
+  "quests_sword": {
+    "description": "",
+    "value": 0
+  },
+  "slaves_escaped": {
+    "description": "",
+    "value": 0
+  },
+  "spirit_towers_unlocked_sea_of_nurn": {
+    "description": "",
+    "value": 0
+  },
+  "spirit_towers_unlocked_udun": {
+    "description": "",
+    "value": 0
+  },
+  "time_played": {
+    "description": "",
+    "value": 0
+  },
+  "vendettas_completed": {
+    "description": "",
+    "value": 0
+  },
+  "vendettas_shared": {
+    "description": "",
+    "value": 0
+  },
+  "kills_spiders": {
+    "description": "",
+    "value": 0
+  },
+  "kills_wargs": {
+    "description": "",
+    "value": 0
+  },
+  "kills_goblins": {
+    "description": "",
+    "value": 0
+  },
+  "kills_trolls": {
+    "description": "",
+    "value": 0
+  },
+  "kills_by_fire": {
+    "description": "",
+    "value": 0
+  },
+  "drawn_out_captains": {
+    "description": "",
+    "value": 0
+  },
+  "drawn_out_warchiefs": {
+    "description": "",
+    "value": 0
+  },
+  "identified_captains": {
+    "description": "",
+    "value": 0
+  },
+  "identified_warchiefs": {
+    "description": "",
+    "value": 0
+  },
+  "challenges_hunting": {
+    "description": "",
+    "value": 0
+  },
+  "challenges_plants": {
+    "description": "",
+    "value": 0
+  },
+  "xp_total": {
+    "description": "",
+    "value": 0
+  },
+  "orcs_trampled_by_trolls": {
+    "description": "",
+    "value": 0
+  },
+  "orcs_mauled_by_wargs": {
+    "description": "",
+    "value": 0
+  },
+  "jumped_height_last": {
+    "description": "",
+    "value": 0
+  },
+  "jumped_height_hightest": {
+    "description": "",
+    "value": 0
+  },
+  "spirit_towers_unlocked_total": {
+    "description": "",
+    "value": 0
+  },
+  "warchiefs_attack": {
+    "description": "",
+    "value": 0
+  },
+  "branded_combat": {
+    "description": "",
+    "value": 0
+  },
+  "branded_combat_warchief": {
+    "description": "",
+    "value": 0
+  },
+  "branded_combat_captain": {
+    "description": "",
+    "value": 0
+  },
+  "kills_helped_warchiefs": {
+    "description": "",
+    "value": 0
+  },
+  "kills_helped_captains": {
+    "description": "",
+    "value": 0
+  },
+  "turncoat_largest_group": {
+    "description": "",
+    "value": 0
+  },
+  "lured_warchiefs": {
+    "description": "",
+    "value": 0
+  },
+  "most_slaves_liberated": {
+    "description": "",
+    "value": 0
+  },
+  "real_time_played": {
+    "description": "",
+    "value": 0
+  },
+  "conquest_completed_easy_score": {
+    "description": "",
+    "value": 0
+  },
+  "conquest_completed_medium_score": {
+    "description": "",
+    "value": 0
+  },
+  "conquest_completed_hard_score": {
+    "description": "",
+    "value": 0
+  },
+  "conquest_completed_random_score": {
+    "description": "",
+    "value": 0
+  },
+  "conquest_completed_easy_time": {
+    "description": "",
+    "value": 0
+  },
+  "conquest_completed_medium_time": {
+    "description": "",
+    "value": 0
+  },
+  "conquest_completed_hard_time": {
+    "description": "",
+    "value": 0
+  },
+  "conquest_completed_random_time": {
+    "description": "",
+    "value": 0
+  },
+  "orc_kills_by_fire": {
+    "description": "",
+    "value": 0
+  },
+  "dagger_slots": {
+    "description": "",
+    "value": 0
+  },
+  "sword_slots": {
+    "description": "",
+    "value": 0
+  },
+  "bow_slots": {
+    "description": "",
+    "value": 0
+  },
+  "current_warchiefs_branded": {
+    "description": "",
+    "value": 0
+  },
+  "current_warchiefs_dead": {
+    "description": "",
+    "value": 0
+  },
+  "marked_for_death_targets_killed": {
+    "description": "",
+    "value": 0
+  },
+  "artifacts_listened_to": {
+    "description": "",
+    "value": 0
+  },
+  "caragors_attracted": {
+    "description": "",
+    "value": 0
+  },
+  "caragors_released": {
+    "description": "",
+    "value": 0
+  },
+  "uruks_covered_with_flies": {
+    "description": "",
+    "value": 0
+  },
+  "rune_num_of_twenty_five_found": {
+    "description": "",
+    "value": 0
+  },
+  "runes_found": {
+    "description": "",
+    "value": 0
+  },
+  "deaths_warchief": {
+    "description": "",
+    "value": 0
+  },
+  "skill_points": {
+    "description": "",
+    "value": 0
+  },
+  "skill_points_earned": {
+    "description": "",
+    "value": 0
+  },
+  "murders_commanded": {
+    "description": "",
+    "value": 0
+  },
+  "riots_commanded": {
+    "description": "",
+    "value": 0
+  },
+  "runes_epic": {
+    "description": "",
+    "value": 0
+  },
+  "shadow_strikes": {
+    "description": "",
+    "value": 0
+  },
+  "weakness_activated_warchief": {
+    "description": "",
+    "value": 0
+  },
+  "weakness_activated_captain": {
+    "description": "",
+    "value": 0
+  },
+  "combat_finisher": {
+    "description": "",
+    "value": 0
+  },
+  "combat_finisher_warchief": {
+    "description": "",
+    "value": 0
+  },
+  "combat_finisher_captain": {
+    "description": "",
+    "value": 0
+  },
+  "combat_finisher_grunt": {
+    "description": "",
+    "value": 0
+  },
+  "percentage_complete": {
+    "description": "",
+    "value": 0
+  },
+  "kills_all_orc_types": {
+    "description": "",
+    "value": 0
+  },
+  "kills_wargs_stealth": {
+    "description": "",
+    "value": 0
+  },
+  "max_branded_ghuls": {
+    "description": "",
+    "value": 0
+  },
+  "kills_by_vomit": {
+    "description": "",
+    "value": 0
+  },
+  "ghul_mounds_baited": {
+    "description": "",
+    "value": 0
+  },
+  "graug_eaten_captains": {
+    "description": "",
+    "value": 0
+  },
+  "graugwretched_eaten_captains": {
+    "description": "",
+    "value": 0
+  },
+  "graug_eaten_warchiefs": {
+    "description": "",
+    "value": 0
+  },
+  "graugwretched_eaten_warchiefs": {
+    "description": "",
+    "value": 0
+  },
+  "graug_eaten_orcs": {
+    "description": "",
+    "value": 0
+  },
+  "graugwretched_eaten_orcs": {
+    "description": "",
+    "value": 0
+  },
+  "mount_attack": {
+    "description": "",
+    "value": 0
+  },
+  "mount_eat": {
+    "description": "",
+    "value": 0
+  },
+  "mount_vomit": {
+    "description": "",
+    "value": 0
+  },
+  "branded_caragaths_inrange": {
+    "description": "",
+    "value": 0
+  },
+  "branded_graugs_wretched_inrange": {
+    "description": "",
+    "value": 0
+  },
+  "branded_ghuls_normal_inrange": {
+    "description": "",
+    "value": 0
+  },
+  "branded_ghuls_spitter_inrange": {
+    "description": "",
+    "value": 0
+  },
+  "branded_ghuls_rare_inrange": {
+    "description": "",
+    "value": 0
+  },
+  "branded_ghuls_all_inrange": {
+    "description": "",
+    "value": 0
+  },
+  "stealth_brands": {
+    "description": "",
+    "value": 0
+  },
+  "stealth_brands_captains": {
+    "description": "",
+    "value": 0
+  },
+  "stealth_brands_warchiefs": {
+    "description": "",
+    "value": 0
+  },
+  "rune_highest_level_found": {
+    "description": "",
+    "value": 0
+  },
+  "highest_aoe_dominations": {
+    "description": "",
+    "value": 0
+  },
+  "aoe_dominations": {
+    "description": "",
+    "value": 0
+  },
+  "shadow_kills": {
+    "description": "",
+    "value": 0
+  },
+  "shadow_brands": {
+    "description": "",
+    "value": 0
+  },
+  "shadow_mount": {
+    "description": "",
+    "value": 0
+  },
+  "rune_num_of_thirty_found": {
+    "description": "",
+    "value": 0
+  },
+  "ring_power_level_unlocked": {
+    "description": "",
+    "value": 0
+  }
+}

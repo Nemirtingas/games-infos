@@ -1,0 +1,441 @@
+﻿[
+  {
+    "name": "WINQUEST_APPRENTICE",
+    "defaultvalue": 0,
+    "displayName": "Demands A Nicer Room",
+    "hidden": 0,
+    "description": "Win a quest with the Apprentice",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/317820/4e046078ef4980586332d601121d41efd0985437.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/317820/1a4dfbad2b65e92fe0960827512bd938881da9a5.jpg"
+  },
+  {
+    "name": "UNLOCKED_GRAVEYARD",
+    "defaultvalue": 0,
+    "displayName": "I Ain't Sayin You're A Gravedigger",
+    "hidden": 0,
+    "description": "Unlock the graveyard. You monster",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/317820/4ae5a6a837dee7bb45b34c6ebec59fcc4733564b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/317820/ad268bc2e684f7a93380900e91f20128ef4f9e4d.jpg"
+  },
+  {
+    "name": "BEAT_MONSTER_1",
+    "defaultvalue": 0,
+    "displayName": "Tough Fight",
+    "hidden": 0,
+    "description": "Beat a monster 1 level above yours",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/317820/3fbffb0f86892899abe4f4a32fcd76130257ce1c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/317820/a3041f04b732b2783f45c4be1b6be3d3a77027a2.jpg"
+  },
+  {
+    "name": "BEAT_MONSTER_2",
+    "defaultvalue": 0,
+    "displayName": "REALLY Tough Fight",
+    "hidden": 0,
+    "description": "Beat a monster 2 levels above yours",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/317820/ebe114ef369e14c6193532c04dbef1e8ba062992.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/317820/8f732730977820dea33f15147df68374bd8a55a2.jpg"
+  },
+  {
+    "name": "BIG_DUNGEON",
+    "defaultvalue": 0,
+    "displayName": "Look At The Size Of This Thing",
+    "hidden": 0,
+    "description": "Make a dungeon of at least 50 connected tiles",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/317820/97e2c0fc10f224a8287f21fc6254b1719f3856c6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/317820/5dae3119648723949312237f26d84459f54f1198.jpg"
+  },
+  {
+    "name": "BOTH_DIE",
+    "defaultvalue": 0,
+    "displayName": "NOOOOOooooo",
+    "hidden": 0,
+    "description": "Die at the same time as killing a monster",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/317820/78ff41526fb473ce0e705cd65a2b31c034ee4a2f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/317820/9e1f574f7c3284442100375984808b570b2e4d39.jpg"
+  },
+  {
+    "name": "DRAW_ENTIRE_DECK",
+    "defaultvalue": 0,
+    "displayName": "Spoilt For Choice",
+    "hidden": 0,
+    "description": "Draw your entire deck into your hand",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/317820/3eba66dd491950f14d870ff280085bed0587f0d2.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/317820/20225aa6e81323730a1df89ecb14fc10467dfb20.jpg"
+  },
+  {
+    "name": "DUNGEONEER_1000",
+    "defaultvalue": 0,
+    "displayName": "Sound Investment",
+    "hidden": 0,
+    "description": "Earn 1000 gold with a single dungeoneer",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/317820/74d70c41587b93907e3548c546cb2ce02822877a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/317820/6c5e917811078eb770274b75d518fb85943cf4e4.jpg"
+  },
+  {
+    "name": "DUNGEONEER_5000",
+    "defaultvalue": 0,
+    "displayName": "REALLY Sound Investment",
+    "hidden": 0,
+    "description": "Earn 5000 gold with a single dungeoneer",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/317820/bb4ec683ba199edf64710ef515a416aeec4099a0.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/317820/7eef2b56f23300d7e37a6155345c8fecbda39522.jpg"
+  },
+  {
+    "name": "EMBRO_DAMP",
+    "defaultvalue": 0,
+    "displayName": "Bath Bomb",
+    "hidden": 0,
+    "description": "Beat Embro before he dries off from his bath",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/317820/a1b996dce6bbb686a99b6fc72c82070c633fe61d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/317820/817f2e24b14344c8edb3c0a6493463daf14e05b3.jpg"
+  },
+  {
+    "name": "EMBRO_DRY",
+    "defaultvalue": 0,
+    "displayName": "Dried Off And Dead",
+    "hidden": 0,
+    "description": "Beat Embro when he's dried off and powered up",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/317820/131575745f13d937a00525cec22e2e4a057c7b2a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/317820/264500c3beadf187aaa41909f4618e36dae08f16.jpg"
+  },
+  {
+    "name": "FULL_GRAVEYARD",
+    "defaultvalue": 0,
+    "displayName": "How Are We Still Hiring?",
+    "hidden": 0,
+    "description": "Fill up your graveyard with at least 20 tombstones",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/317820/306a35d0578955fd4557a61b420d4014b83b4346.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/317820/cc918fe5032a5df77feeb1273e54843f89cfd15a.jpg"
+  },
+  {
+    "name": "IGNITE_ELEMENTAL",
+    "defaultvalue": 0,
+    "displayName": "Fight Fire With Fire",
+    "hidden": 0,
+    "description": "Use the Ignite attack on a Fire Elemental",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/317820/8885870e5a82ae57a43fa370671dea13ac0d4963.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/317820/cc35cde68de8caa03f6c904c789bb10f91f477fd.jpg"
+  },
+  {
+    "name": "LEADER_BUFF",
+    "defaultvalue": 0,
+    "displayName": "What Does Leader Do?",
+    "hidden": 0,
+    "description": "Defeat an opponent with Leader that is buffed by at least 4 health",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/317820/44d586167e0457ee8fa09aa2bdef6fc0a71de0b9.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/317820/4df8b447fcbcc383f14795de0d6d3c2308c2b67b.jpg"
+  },
+  {
+    "name": "LEVEL_IV_ATTACK",
+    "defaultvalue": 0,
+    "displayName": "Power Card",
+    "hidden": 0,
+    "description": "Use a level IV skill card in battle",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/317820/d8f9dcd0ba15cb19c162e51d868fb27f08970f12.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/317820/05e4d5ed0832cf07a56544e9d9ad42ec8ee952d8.jpg"
+  },
+  {
+    "name": "MASSIVE_ATTACK",
+    "defaultvalue": 0,
+    "displayName": "Massive Attack",
+    "hidden": 0,
+    "description": "Deal 10 or more damage in one attack",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/317820/7e6b63ecc557823af43609fe9b024a2d9792be9a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/317820/e7cea682e811c13c810bff07f5c287449b95ca52.jpg"
+  },
+  {
+    "name": "ORIGINAL_CHUMP_10",
+    "defaultvalue": 0,
+    "displayName": "The Hero You Deserve",
+    "hidden": 0,
+    "description": "Win 10 quests with a single Chump",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/317820/ff940bda73f592ee353279a3329a156f15b549c6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/317820/4095224b94e06e0c42331ad583b4f52695946e5d.jpg"
+  },
+  {
+    "name": "PERFECT_BATTLE",
+    "defaultvalue": 0,
+    "displayName": "Flawless Victory",
+    "hidden": 0,
+    "description": "Beat a monster without taking damage",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/317820/a813ff74b35f4a7e6e8b2358a1bd5766bc7fc3f6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/317820/9b564d56085ba384bcda146c513e76a1a2a0c926.jpg"
+  },
+  {
+    "name": "PERFECT_CAMPAIGN",
+    "defaultvalue": 0,
+    "displayName": "There's A Graveyard?",
+    "hidden": 0,
+    "description": "Win the game without losing a dungeoneer",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/317820/b7b62495f8074ac271b5d1f1ac9433fc381567f2.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/317820/e8264defbab97882648b3d26ae917a1025b8b3f0.jpg"
+  },
+  {
+    "name": "QUICK_ATTACK",
+    "defaultvalue": 0,
+    "displayName": "Quicker Than Thee",
+    "hidden": 0,
+    "description": "Kill a monster with a quick attack while on 1 hp",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/317820/e48fef16a739db214886bcd78e8cb571a118d79a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/317820/741169bd6b33d072a8930de128e8c2cd738a2427.jpg"
+  },
+  {
+    "name": "REACHED_JUNGLE",
+    "defaultvalue": 0,
+    "displayName": "Bumble In The Jungle",
+    "hidden": 0,
+    "description": "Reach the Azca Jungle",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/317820/7c7ca2672b0663aa1e58ee2414513ddd3e2915c2.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/317820/6d37d39f2f497cc9379819fe79c400c31069a9fc.jpg"
+  },
+  {
+    "name": "REACHED_MINES",
+    "defaultvalue": 0,
+    "displayName": "Mine. All Mine.",
+    "hidden": 0,
+    "description": "Reach the Dwarven Mining Conglomerate",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/317820/1609614ca2bf0f8c2832cb87c4761c9b56528ee6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/317820/530d23c53f62a8f6c7ffef4c03c78cd22868dd34.jpg"
+  },
+  {
+    "name": "SELF_DAMAGE_WIN",
+    "defaultvalue": 0,
+    "displayName": "Pacifist",
+    "hidden": 0,
+    "description": "Without doing damage that turn, let a monster die to their own self-damage",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/317820/1a5b8df85a6a4a633c85a4edbcf4b2f692a70bb3.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/317820/35ada76353ba8d3ac7e9d3b1a00aeabff1ac9fbc.jpg"
+  },
+  {
+    "name": "SET_CHEF",
+    "defaultvalue": 0,
+    "displayName": "The Chef",
+    "hidden": 0,
+    "description": "Equip all of these at once: Cooking Pot, Fork, Wooden Stool",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/317820/87d1968c201ce55709980089e6ba3be24dcd556e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/317820/e65d4b0a3428a9c29aadfc3c89a5d051c2f5998f.jpg"
+  },
+  {
+    "name": "SET_MAIL",
+    "defaultvalue": 0,
+    "displayName": "You've Got Mail",
+    "hidden": 0,
+    "description": "Equip all of these at once: Mail Coif, Red Mail, Mace",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/317820/cc8c9ffa13d388ef0010fa74a96ddbcfa17c207c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/317820/f3fe43de1b4790a518ab850e483da8d34781a6ad.jpg"
+  },
+  {
+    "name": "SET_SPARKLY",
+    "defaultvalue": 0,
+    "displayName": "Oooh, Sparkly!",
+    "hidden": 0,
+    "description": "Equip all of these at once: Arcane Wand, Shimmering Cloak, Sparkly Headband",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/317820/da19a139c09046ba5df5f1d6c0d39e4d50f3e90b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/317820/71509c0a5cb8da29875576d9a26091718fa8bb73.jpg"
+  },
+  {
+    "name": "STACKED_FOUNTAINS",
+    "defaultvalue": 0,
+    "displayName": "Drinking Problem",
+    "hidden": 0,
+    "description": "Have 5 fountain effects stacked at once",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/317820/d46944b56f99fa0c980770157617ee0095bc0958.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/317820/8d41c047d4e38445b3bcf665c2550b3bf6153761.jpg"
+  },
+  {
+    "name": "STRAIGHT_TO_BOSS",
+    "defaultvalue": 0,
+    "displayName": "Meeting With The Boss",
+    "hidden": 0,
+    "description": "Beat a boss without killing any monsters first",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/317820/9fcc407522288d644d921be8de36e4ac6fd54535.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/317820/962e6255dae7b83209df404bac995724dc44bd13.jpg"
+  },
+  {
+    "name": "STUPIDITY_V",
+    "defaultvalue": 0,
+    "displayName": "Uhh..",
+    "hidden": 0,
+    "description": "Win a battle with four Stupidity cards in your deck",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/317820/189e6fc1e708f6a43dbd8209b706e99f660f743a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/317820/21ec0b3482d56b99dd55f0ad21352116d154c1af.jpg"
+  },
+  {
+    "name": "TEN_IN_A_ROW",
+    "defaultvalue": 0,
+    "displayName": "Win Streak",
+    "hidden": 0,
+    "description": "Win 10 battles in a single quest",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/317820/29aaa05c61a3650b5a073cc34565941676cbf833.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/317820/3cd2d13a9df4046e0a6e5e0136ac2cb5d483f4ad.jpg"
+  },
+  {
+    "name": "TENACIOUS",
+    "defaultvalue": 0,
+    "displayName": "Skin Of Your Teeth",
+    "hidden": 0,
+    "description": "Kill a monster the same turn Tenacious saves your life",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/317820/f9ed7efa3163968e85b8f5284cf526233096b720.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/317820/43ff7767cff823494deff5e0ebe06bdf1250b99e.jpg"
+  },
+  {
+    "name": "UNBLOCKABLE",
+    "defaultvalue": 0,
+    "displayName": "Can't Block This!",
+    "hidden": 0,
+    "description": "Win a battle thanks to an unblockable attack overcoming a block",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/317820/276a5010978fb41fbfa269a6cf8084ea983634c3.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/317820/20dab9a3e0f2bf4162b9ba0db12f9e2a7a6e1948.jpg"
+  },
+  {
+    "name": "UNLOCKED_TROPHYROOM",
+    "defaultvalue": 0,
+    "displayName": "Trophy Life",
+    "hidden": 0,
+    "description": "Unlock the trophy room",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/317820/b976a8830151736a3219e648c7e7badf34fc0122.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/317820/7a46bf5690e2790697905d804ac42529eb8cba47.jpg"
+  },
+  {
+    "name": "WINQUEST_ALCHEMIST",
+    "defaultvalue": 0,
+    "displayName": "I've Got An Ointment For That",
+    "hidden": 0,
+    "description": "Win a quest with the Alchemist",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/317820/8c98bbb876054e048133081eab94c22d389938a7.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/317820/296027d521cf99b74c16b479c28d85fffd680734.jpg"
+  },
+  {
+    "name": "WINQUEST_ARTIFICER",
+    "defaultvalue": 0,
+    "displayName": "We Have The Technology",
+    "hidden": 0,
+    "description": "Win a quest with the Artificer",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/317820/da1e1559d83d782d812db6ad6a1ba38d6da59b43.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/317820/bef1328b9f506a1a2a63bfc21454ce0aa724b2fe.jpg"
+  },
+  {
+    "name": "WINQUEST_BARBARIAN",
+    "defaultvalue": 0,
+    "displayName": "I'm Gettin' Too Old For This S#!T",
+    "hidden": 0,
+    "description": "Win a quest with the Barbarian",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/317820/f46143e0cd772bac3405cda677ff2570118dddcb.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/317820/970d8615c2fbbc514517d170c2e13930f5354a2c.jpg"
+  },
+  {
+    "name": "WINQUEST_BRUISER",
+    "defaultvalue": 0,
+    "displayName": "Oi! You What?!",
+    "hidden": 0,
+    "description": "Win a quest with the Bruiser",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/317820/108bb0cbfc0999ca07606132eea6fb54bacd8cd5.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/317820/f930ab52f14c1d69ab7bf2ead82cf007eeff22f7.jpg"
+  },
+  {
+    "name": "WINQUEST_CARTOMANCER",
+    "defaultvalue": 0,
+    "displayName": "Play Your Cards Right",
+    "hidden": 0,
+    "description": "Win a quest with the Cartomancer",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/317820/30ca75af204fe4eea6851f3f03fac5ffd5eff5c1.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/317820/4266be13e13c06a9720ee9a165fa288999798328.jpg"
+  },
+  {
+    "name": "WINQUEST_CATBURGLAR",
+    "defaultvalue": 0,
+    "displayName": "Cat Puns Are Clawesome",
+    "hidden": 0,
+    "description": "Win a quest with the Cat Burglar",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/317820/780c2281f102580bc525b762c5907e0949e4600b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/317820/4329c1062a46fe36d85bd167c16db92165207c37.jpg"
+  },
+  {
+    "name": "WINQUEST_CHUMP",
+    "defaultvalue": 0,
+    "displayName": "A Chump Will Do",
+    "hidden": 0,
+    "description": "Win a quest with the Chump",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/317820/d95074217e7e377f132efeaa0f6333d8901971fe.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/317820/963d366ee557bb7facb9ca8dd3b8d246f217774e.jpg"
+  },
+  {
+    "name": "WINQUEST_KNIGHT",
+    "defaultvalue": 0,
+    "displayName": "Righteously Right",
+    "hidden": 0,
+    "description": "Win a quest with the Most Holy Grail Knight",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/317820/0eedbad77c68dfafcc88df30c29074dfff48ecd7.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/317820/335652a4ad03c9ad5ac482036c606b49323d9ffb.jpg"
+  },
+  {
+    "name": "WINQUEST_MATHEMAGICIAN",
+    "defaultvalue": 0,
+    "displayName": "A Great Addition",
+    "hidden": 0,
+    "description": "Win a quest with the Mathemagician",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/317820/6361424fb31e5a4cb570b255805e70c2e223ed5b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/317820/3e7507835e64fd4601519fcd30a6c63ddc0a7a10.jpg"
+  },
+  {
+    "name": "WINQUEST_MIME",
+    "defaultvalue": 0,
+    "displayName": "[gleeful victory dance]",
+    "hidden": 0,
+    "description": "Win a quest with the Mime",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/317820/04e2363bacca443b5405a1f66c44380cc770c728.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/317820/17fc4a9162e58f3fdefab12912b52c7daffd60bd.jpg"
+  },
+  {
+    "name": "WINQUEST_RANGER",
+    "defaultvalue": 0,
+    "displayName": "No Dual Wielding?",
+    "hidden": 0,
+    "description": "Win a quest with the Ranger",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/317820/3d25d8f153a7b6e9ad7f0c962b7b0879bf2db17a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/317820/7b9b2987b86f2d9ba7a991e127a7e195f2839748.jpg"
+  },
+  {
+    "name": "WINQUEST_SHAPESHIFTER",
+    "defaultvalue": 0,
+    "displayName": "Shift To Win",
+    "hidden": 0,
+    "description": "Win a quest with the Shapeshifter",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/317820/7b57d85a7bb26766ba558570f96b426d89c63823.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/317820/f8415e922a0a8623cfaae218783ca22500aa6e5e.jpg"
+  },
+  {
+    "name": "WINQUEST_TROUBADOR",
+    "defaultvalue": 0,
+    "displayName": "The Song Of My People",
+    "hidden": 0,
+    "description": "Win a quest with the Troubador",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/317820/0cb20366a637bf180913f633aca77beb9f8dd63f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/317820/29b9f4afde20e1013fc1ddfe2dc348bd42258d44.jpg"
+  },
+  {
+    "name": "WON_GAME",
+    "defaultvalue": 0,
+    "displayName": "Ivory League Of Jerks",
+    "hidden": 0,
+    "description": "Complete the campaign. Take that Ivory League!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/317820/437aece2835c7efa52aa813b8336d3543287cdef.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/317820/aefb42111a9faea30f0f2d60ed73b9321b4a9940.jpg"
+  },
+  {
+    "name": "LOSE_DUCKY",
+    "defaultvalue": 0,
+    "displayName": "Inconceivable",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/317820/9bd57c2aaa621f21cf7ceb49d6719ee3263c5fcb.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/317820/780ec1cdc4d3bf1de000cfb231e7479dc3973adb.jpg"
+  },
+  {
+    "name": "STUPIDITY_KILL",
+    "defaultvalue": 0,
+    "displayName": "Who's Stupid Now?",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/317820/4393830a67e50ab0831ba8e4100853f4c214a19c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/317820/f35bcf4801d11ab3790b534548f1c2aa63c62b01.jpg"
+  }
+]

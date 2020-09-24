@@ -1,0 +1,884 @@
+[
+  {
+    "name": "BuYiDa",
+    "defaultvalue": 0,
+    "displayName": "喂！我话还没说完呢！",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/92897efd87639ce08a336eef498a3811e4ff7a15.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/fd8aadf05e1dab9311a7dbc7639673919950556f.jpg"
+  },
+  {
+    "name": "MindlessEating",
+    "defaultvalue": 0,
+    "displayName": "无意识进食",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/86bf8cc581d4fe645b01b0bb22a1099307479d7c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/72df83f31610b544c5d19679294d3a19e853b44e.jpg"
+  },
+  {
+    "name": "GoHome3Times",
+    "defaultvalue": 0,
+    "displayName": "三过家门而不入",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/8ef22dd447576c5b7d07423e68fec4d704325427.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/45fbb7e1b5026c14e0196356957bf2695ce91d2a.jpg"
+  },
+  {
+    "name": "LuckyGuy",
+    "defaultvalue": 0,
+    "displayName": "幸运儿",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/889da1b449bdb20fcc2171164bd29aee78fb973c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/f55c629afff4331cda0a339f29f35236d2cf419c.jpg"
+  },
+  {
+    "name": "SC_Ami0",
+    "defaultvalue": 0,
+    "displayName": "三叶「幸运切割」",
+    "hidden": 0,
+    "description": "在未受到伤害的情况下击破娅米的符卡，三叶「幸运切割」",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/4748a9855132c25045531109da21c4348d98cacf.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/9e720508ed03c7a7da186455336e0242f857e028.jpg"
+  },
+  {
+    "name": "SC_Ami1",
+    "defaultvalue": 0,
+    "displayName": "四叶「车轴滚滚的道标」",
+    "hidden": 0,
+    "description": "在未受到伤害的情况下击破娅米的符卡，四叶「车轴滚滚的道标」",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/482a2a20ede0d4c20df44ce4d4e39908a43b877c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/87404434e27a14b059c8ce7c68ff08849d445750.jpg"
+  },
+  {
+    "name": "Boss_Ami",
+    "defaultvalue": 0,
+    "displayName": "BOSS【娅米】",
+    "hidden": 0,
+    "description": "成功攻略了BOSS娅米。三叶草代表着幸运，把浑身能长出四叶草的小妖精给整的服服帖帖然后捕获了呢，这样一来你就会是世界上最不缺“运”的人了吧~可以考虑向缺乏“运”的人群高价兜售四叶草哟——不保证有效",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/21511fc2b69cc382b253887b71efbdd5b5662a9e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/4ce9508d91d31de773b317f269615ced071db415.jpg"
+  },
+  {
+    "name": "StartGame",
+    "defaultvalue": 0,
+    "displayName": "恋野迷踪",
+    "hidden": 0,
+    "description": "感谢购买！祝你愉快！",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/1dfa21375534df3bf614a381301afb43906184c1.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/4fc3db5ef788ce75f29c6e7c5780e49b92a3d7c1.jpg"
+  },
+  {
+    "name": "TitleDing",
+    "defaultvalue": 0,
+    "displayName": "标题界面的演奏家",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/4bb0f99f0df55e04c39823d6b2efcb8c77bd1ace.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/290314dd8922ceb7d0cd6e801a7a34bae0385c7c.jpg"
+  },
+  {
+    "name": "MonsterChicken",
+    "defaultvalue": 0,
+    "displayName": "石化鸡",
+    "hidden": 0,
+    "description": "居然会存在这种能将人石化的妖怪，下次没有免疫异常状态的饰品可不要轻易深入哦，探险就是要慎之又慎的！",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/f2c5d3c83598a6a1800d56d1a6dd6df062c54de4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/1b455b064defd9789a8eef74f9a3e0e7d7a4bd25.jpg"
+  },
+  {
+    "name": "EasterPreparation",
+    "defaultvalue": 0,
+    "displayName": "为复活节做准备",
+    "hidden": 0,
+    "description": "为了准备复活节，需要很多很多的鸡蛋……等等，复活节的主菜是什么来着？（凝视着火鸡的蛋）嘛先不管了，去收集蛋吧！",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/a4a7083595760d9c9947f03d2c46c2d89a531a70.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/eec70932ea4ee31d9014be6dfd254b596c1a4b7b.jpg"
+  },
+  {
+    "name": "ClothesBreak0",
+    "defaultvalue": 0,
+    "displayName": "衣衫不整",
+    "hidden": 0,
+    "description": "要是让姐姐看到这幅样子肯定会被骂的……",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/6a589b9998fe7a784cf7ef960db64aac086794bd.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/efe4836b3677b45d6fecd264076f58a46edef2ce.jpg"
+  },
+  {
+    "name": "ClothesBreak1",
+    "defaultvalue": 0,
+    "displayName": "衣衫褴褛",
+    "hidden": 0,
+    "description": "要是让姐姐看到衣服变成这样，她会伤心的……",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/b71caf1e411021cb137c7b349e952682a383085f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/5013104e34e44b42bb17c875bbd38a031bdf1e50.jpg"
+  },
+  {
+    "name": "ClothesBreak2",
+    "defaultvalue": 0,
+    "displayName": "古明地恋的秘密",
+    "hidden": 0,
+    "description": "不要问这款内衣是哪买的！讨厌！！",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/ed3b2360e8fef7b8f7ead7918dbaed96ab4de265.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/caf32bbd68519b780236fb6ee860dfe1fd41c5eb.jpg"
+  },
+  {
+    "name": "FrenchWeapon",
+    "defaultvalue": 0,
+    "displayName": "法式军械",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/734ec635aac8929fcd815707e43101475c564da8.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/a54112a8a7d6501de5a248df9d6c409687003a75.jpg"
+  },
+  {
+    "name": "CounterAttack",
+    "defaultvalue": 0,
+    "displayName": "不要冒进",
+    "hidden": 0,
+    "description": "死于敌人的防守反击。面对城坚炮利的要塞，没有重火力还向前冲就是在送命",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/b43d39b0b4e7f103aafad1342f3cea1b57bd58d5.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/7d573851db38ac11109868c60492b5b4a1abcad1.jpg"
+  },
+  {
+    "name": "Dice_Attack0",
+    "defaultvalue": 0,
+    "displayName": "骰子的正确用法",
+    "hidden": 0,
+    "description": "所谓投掷物，就是用来砸人的嘛~~",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/3b197ab4848b28805bff1f1b319ccc65d1d955ad.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/81fed1e1ecf6d76e6d6a02935f3266cc68d8f65f.jpg"
+  },
+  {
+    "name": "Get_Zao",
+    "defaultvalue": 0,
+    "displayName": "糟气入体",
+    "hidden": 0,
+    "description": "糟气入体9961次，能顶着-9961运的debuff依然过关斩将的你，大概永远都不会糟了吧？",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/dfa70989495e508de2e8f7dc1bbd748ca0938c4b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/282b5bf7ce4480d1820acba6bbd854c83ee53d3d.jpg"
+  },
+  {
+    "name": "THRRB",
+    "defaultvalue": 0,
+    "displayName": "东方红红蓝",
+    "hidden": 0,
+    "description": "第一个红碟、第二个红碟、第三个……蓝碟？嘛、开彩碟也没什么不好的嘛……不要笑！",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/8c1890e632120763d7e9a93a63847f82c8f813f3.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/3f0e83bcd76cdb50c1d6e6675423aed263114c69.jpg"
+  },
+  {
+    "name": "Dice_Launch0",
+    "defaultvalue": 0,
+    "displayName": "我已升空，感觉良好",
+    "hidden": 0,
+    "description": "诶呀呀，骰子飞上天空了，不过它总有掉下来的时候",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/fd8ecee26a0138b082a4d07d2c04f77bcf336e2a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/b01f7daafdb5432171c267f6bd3caf0d89ea48fb.jpg"
+  },
+  {
+    "name": "Dice_Launch1",
+    "defaultvalue": 0,
+    "displayName": "全垒打",
+    "hidden": 0,
+    "description": "好球！——但是飞太远了……等会自己捡回来！",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/8b219ea65f8dfa6a33cdb8d8a9005e62d6af3947.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/bd6b5fcc2c5822641d9cceac67e7c33323ef9fc3.jpg"
+  },
+  {
+    "name": "Dice_Launch2",
+    "defaultvalue": 0,
+    "displayName": "上空传中",
+    "hidden": 0,
+    "description": "从空中传球是超绝的突破战术，但是队友接不接得到就另说了~",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/d835e0047ee07c772dbe63a89880f196ffe6f072.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/19b5972e2e57a09f1032b513bda579edbdd3ffed.jpg"
+  },
+  {
+    "name": "Dice_Launch3",
+    "defaultvalue": 0,
+    "displayName": "中段拦截",
+    "hidden": 0,
+    "description": "世界上还没几款导弹能投入中段反导拦截试验，在这个空域飞行的导弹，几乎不用担心会被拦截",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/aac36d9d37abd16b7c7dced22880a1d3b547e20f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/33a9f6d695a7c2403792c637e55ecdd56cada564.jpg"
+  },
+  {
+    "name": "Dice_Launch4",
+    "defaultvalue": 0,
+    "displayName": "世界天穹",
+    "hidden": 0,
+    "description": "再飞行55米大概就能撞到世界的天花板了吧~啊咧？世界没有天花板？……难道说，那是别人的世界？",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/e072f63bd48e508dbc59ac31f47cc0acdb0b9168.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/4959e356ca02b1827ce91293e8b2e7bb75aca712.jpg"
+  },
+  {
+    "name": "UFO_Hunt0",
+    "defaultvalue": 0,
+    "displayName": "目标已击落",
+    "hidden": 0,
+    "description": "我们的领空不允许任何未授权飞行物肆意侵犯！——等等，自然人有领空吗？",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/db3fae935559b282c10fa6be0b6da4cd8cb207cc.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/2811b36da346b255cadb455c6cc68760b4aded51.jpg"
+  },
+  {
+    "name": "UFO_Hunt1",
+    "defaultvalue": 0,
+    "displayName": "自动火控",
+    "hidden": 0,
+    "description": "锁定目标了，现在就算我不操作目标也会被摧毁，科学的力量真是伟大呢~~",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/885564ee03cf504e87141351055d2acae088e4f8.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/d4204e722148d57475e6b81acfcc82b68077fe67.jpg"
+  },
+  {
+    "name": "UFO_Hunt2",
+    "defaultvalue": 0,
+    "displayName": "外交无小事",
+    "hidden": 0,
+    "description": "击落了他们这么多飞行器，他们会不会派人来交涉呢？……但是到现在连谴责都没有收到，话说回来这些飞行器是谁家的啊？",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/e6895d2892f8c4d669b609161b11c274f3fa3a44.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/72901f24e9c7d3032d9157d4102609e951191d00.jpg"
+  },
+  {
+    "name": "UFO_Hunt3",
+    "defaultvalue": 0,
+    "displayName": "占领51区",
+    "hidden": 0,
+    "description": "我们尚不能得知这些飞行器的来源，但是有关资料显示，这些东西有时会在一个分区名为51区的位置消失，而这个区域由地球上的一个主权国家管辖，难道……",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/ea532d6a2fa6c95e13de10bdcf448b250e1512ba.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/87f236e774fff57fbbba4bf034e4b12f0155fc20.jpg"
+  },
+  {
+    "name": "UFO_Hunt4",
+    "defaultvalue": 0,
+    "displayName": "让我们结束这场哑谜吧",
+    "hidden": 0,
+    "description": "因为我们频繁的侵略性的外交策略，有势力向我们宣战了，但是我们仍未翻译完他们的语言，所以我们并不清楚他们的诉求……",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/0af0401c968acc28bc988dc05aa98c2a2af7d974.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/d8ed07f43c11077de9764e0416e07e05cc8d3a36.jpg"
+  },
+  {
+    "name": "MenuDing",
+    "defaultvalue": 0,
+    "displayName": "星座缔造者",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/db409e8be50f1a285dffde683693bf80926c6bef.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/f1ff2ee5dc4b619f38f069ee95e30b0b4c44b95d.jpg"
+  },
+  {
+    "name": "Clue0",
+    "defaultvalue": 0,
+    "displayName": "无色战争计划",
+    "hidden": 0,
+    "description": "成功收集间歇泉洞窟中的线索，第一套作战计划是无规则的，那么就是无色的",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/866e1665f2491bd6ea31c59340722319157db3b6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/1561628559974d5753f1e4b2db1de150f8b4f3dd.jpg"
+  },
+  {
+    "name": "BreakClover",
+    "defaultvalue": 0,
+    "displayName": "破除迷信",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/54ed46d8c587795686b937622c94c2ae9524cb89.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/b2ae82f0923949e98a4e6d8dcba5d6087f10f68c.jpg"
+  },
+  {
+    "name": "GoodClover",
+    "defaultvalue": 0,
+    "displayName": "真美",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/3e293d2fff3fee22863c2160781ec190d6624814.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/e4b8b5552fc618b194c300068ee1a2fc58f745fe.jpg"
+  },
+  {
+    "name": "ColorfulUFO",
+    "defaultvalue": 0,
+    "displayName": "五彩绚烂的钻石",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/f9beefea8b2f09449feb5ab3c7cbf22b2c5a8b10.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/a9d2c498071f97d788fd5ba2e22b6aad723ed8c0.jpg"
+  },
+  {
+    "name": "OpenUFO0",
+    "defaultvalue": 0,
+    "displayName": "高速飞行的红宝石",
+    "hidden": 0,
+    "description": "飞快的红色飞碟，满满的生命力，感觉都要溢出来了",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/5fa86b0b84f03844353ab0099e3e9cf16cadfa7c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/1c5ad258f18a517176451b04974e13ead09410ba.jpg"
+  },
+  {
+    "name": "OpenUFO1",
+    "defaultvalue": 0,
+    "displayName": "璀璨夺目的蓝宝石",
+    "hidden": 0,
+    "description": "强力！Power！蓝色飞碟充满了魔力！感觉下一击能打出暴击呢",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/5a66b92e759b91e0de1a286d8d32ca7080bc1e8e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/286192022efa73eba4ca6156264f1b99b7e15d91.jpg"
+  },
+  {
+    "name": "OpenUFO2",
+    "defaultvalue": 0,
+    "displayName": "绝对出6的绿宝石",
+    "hidden": 0,
+    "description": "如果掷不出6的话，就多掷几次~",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/470e372de542551ef1a988c215f1ad455d65fb9c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/b8cd66e4111626a084cb2126dbaf70087c580149.jpg"
+  },
+  {
+    "name": "TOOL_Hunt0",
+    "defaultvalue": 0,
+    "displayName": "遗产继承人",
+    "hidden": 0,
+    "description": "继承10个遗产，只要把见到的家伙全部干掉就可以继承他们的遗产了~我真聪明~~",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/6dfb8ac6351b73d82774898918a0a7f2efe5fd18.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/366b460d4674e0daea68aaadea45cc52e136ec47.jpg"
+  },
+  {
+    "name": "TOOL_Hunt1",
+    "defaultvalue": 0,
+    "displayName": "摸金校尉",
+    "hidden": 0,
+    "description": "挖掘20个陪葬品，财产在人死50年后就没有所有权了，是公开哒！先到先得哒！",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/fdce2bc155b5d9f90bf16835d3faccca5b44ab42.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/e3583407865d77f77202d032703599d3355612cb.jpg"
+  },
+  {
+    "name": "TOOL_Hunt2",
+    "defaultvalue": 0,
+    "displayName": "One Piece",
+    "hidden": 0,
+    "description": "发现30个宝藏，在一望无际的蓝海之下，究竟有多少财富静静沉睡着？",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/b38aa2d73e464940d5595746ededca3b6fcdeb19.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/30982bdd49ef78b65b1b5ff840169547806abb6b.jpg"
+  },
+  {
+    "name": "TOOL_Hunt3",
+    "defaultvalue": 0,
+    "displayName": "殖民开拓者",
+    "hidden": 0,
+    "description": "开发50个殖民地资源，要想繁荣昌盛，血腥的资本原始积累是不可避免的",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/efbb0619f037a52f29861b31b88b3f47ada2cb4f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/408c4f70d0224a17c26fd6d5e3745f7bec0e6f04.jpg"
+  },
+  {
+    "name": "TOOL_Hunt4",
+    "defaultvalue": 0,
+    "displayName": "星河野望",
+    "hidden": 0,
+    "description": "收集100个贸易影响力，超空间航道是星外贸易的咽喉，得航道者得市场！",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/20ffb25fa3e001c87392031f6d1c3db219e084b5.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/0ca96957e6e53aefcba9c6bf442c378f1d8fd8fe.jpg"
+  },
+  {
+    "name": "TOOL_Craft0",
+    "defaultvalue": 0,
+    "displayName": "工匠学徒",
+    "hidden": 0,
+    "description": "第一次尝试了加工遗物，再高超的工匠都是从学徒练起的嘛",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/bbf5e4767d8782498b078ee7300f3d833d5a9aa5.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/718129303ddbc4d263b0e38f1346abd25255f734.jpg"
+  },
+  {
+    "name": "TOOL_Craft1",
+    "defaultvalue": 0,
+    "displayName": "职业匠人",
+    "hidden": 0,
+    "description": "加工过10件遗物以后，可以正式出师，成为独当一面的匠人啦",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/c2a1f968f0335375596443025fa4ee4e197330b3.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/c07777df9b41022aadd74f5e45763cceedd4128b.jpg"
+  },
+  {
+    "name": "TOOL_Craft2",
+    "defaultvalue": 0,
+    "displayName": "顶尖匠魂",
+    "hidden": 0,
+    "description": "经手了30件遗物，逐渐积累名气，成为行内知名、手艺精湛的一线工匠",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/a86889df32c31a697e98ae2815754c7803862804.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/6ac0b49fd1888dce13da306b5cf8001a5679e82e.jpg"
+  },
+  {
+    "name": "TOOL_Craft3",
+    "defaultvalue": 0,
+    "displayName": "传世经典",
+    "hidden": 0,
+    "description": "一生创作上百件艺术品，手中诞生的杰作已经不能用手工制品来称呼，每一件都能成为传世经典",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/3bca8c525cd3888f985d2bbb9d6b318e740e384b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/628dbf7b761b107f1b5297957c1981c4937b3088.jpg"
+  },
+  {
+    "name": "TOOL_Craft4",
+    "defaultvalue": 0,
+    "displayName": "异星遗物",
+    "hidden": 0,
+    "description": "在机缘巧合之下，数百件遗物中的其中一件落入了来自外星球的后世考古学家手中，他们日夜钻研也对这件绝伦作品的机巧百思不得其解，为旧日先驱者文明的辉煌啧啧称奇，并在他们的首都为这件遗物举行了盛大的展览，3000日内获得幸福度修正+10%",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/8400e6cee7778de694e88897cfd09e564aad34b9.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/628dbf7b761b107f1b5297957c1981c4937b3088.jpg"
+  },
+  {
+    "name": "SpellCard102",
+    "defaultvalue": 0,
+    "displayName": "复燃「恋之埋火」",
+    "hidden": 0,
+    "description": "领悟 复燃「恋之埋火」——爆发吧！深埋于心中的恋之火焰！爱的直击！恋之埋火——！",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/67dd92c986147eb12f721021d40ef1136c66b463.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/ef4cf326161a54ed84281bba10d0059e6d21122e.jpg"
+  },
+  {
+    "name": "SpellCard102Full",
+    "defaultvalue": 0,
+    "displayName": "交叉火力",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/7b64efaa81837cec2cd705218c62c1e8a730a7ba.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/13fdf96f901e6e263b40915f84b9ea39b014f2b7.jpg"
+  },
+  {
+    "name": "ShadowUFO",
+    "defaultvalue": 0,
+    "displayName": "幻影飞碟",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/ac1578cdca5fa6b17cff59778c0ec852df1b31ef.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/d0d180491ef9c28142c09870b2d89d36ba70bba2.jpg"
+  },
+  {
+    "name": "WinWith1HP",
+    "defaultvalue": 0,
+    "displayName": "铁血战士",
+    "hidden": 0,
+    "description": "以剩余1点生命值赢下战斗，在你面前已经没有任何敌人了，你就是战场上最孤高的硬汉",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/8fd5fb005f3866f965b293edca77d094afba8255.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/1031608cd2a914291389379cb19f7fb8669bb7ca.jpg"
+  },
+  {
+    "name": "ThisIsKoishisLUMO",
+    "defaultvalue": 0,
+    "displayName": "This is Koishi's LUMO",
+    "hidden": 0,
+    "description": "第一次战斗不能，只要不停下挑战，路就会不断延伸下去",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/cbc9aabcffd501025072d9e38296f9a0c11139bb.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/08e72cefc966c87e0d5c16cb6e95bbe54c410be9.jpg"
+  },
+  {
+    "name": "Tool_Tree_Stick",
+    "defaultvalue": 0,
+    "displayName": "那么，答案只有一个",
+    "hidden": 0,
+    "description": "获得遗物 脆枝，找根木棍去宣誓忠诚吧~",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/6cffc7f80fe4a3bfb5d252e9bf7fc139964e5573.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/20533474d0007729d2afed302a5b5e27d1c02e6c.jpg"
+  },
+  {
+    "name": "Tool_Tree_Root",
+    "defaultvalue": 0,
+    "displayName": "123木头人",
+    "hidden": 0,
+    "description": "获得遗物 根性，我一动不动你以为我是王八吗",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/83ffd2dc2814835a58033b0b9af3e44a066e519d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/1e135625e998a50b60641987fad1bd84c6757077.jpg"
+  },
+  {
+    "name": "Boss_TreeDeep",
+    "defaultvalue": 0,
+    "displayName": "BOSS【幽邃大树】",
+    "hidden": 0,
+    "description": "成功攻略了BOSS幽邃大树。所谓幽邃就是光与影的交界，幽邃体现了事物的「深度」，所以幽邃一定会存在于某处，除非你新建一张画布……诶，给我好好画光影啊！",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/8eb57ce7b25a1df83c334fd94550038ba520bf13.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/d897b4b1cbf4ada6630d0782d0b3710813186d68.jpg"
+  },
+  {
+    "name": "SC_TreeDark0",
+    "defaultvalue": 0,
+    "displayName": "木符「Damnation Puncture」",
+    "hidden": 0,
+    "description": "在未受到伤害的情况下击破幽邃大树的符卡，木符「Damnation Puncture」",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/1b8251c5d3df0a000921fd8f361c8ecd493b7d52.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/27d0f14cb550d51d792469506b9cdf0a3bd5621c.jpg"
+  },
+  {
+    "name": "SC_TreeDark1",
+    "defaultvalue": 0,
+    "displayName": "幽邃「无主灵魂的归所」",
+    "hidden": 0,
+    "description": "在未受到伤害的情况下击破幽邃大树的符卡，幽邃「无主灵魂的归所」",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/1718e564f4399c2b1e8f8de93454874bbe3ce70e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/2252be2bdd6976866342680db197a9d93c6555cb.jpg"
+  },
+  {
+    "name": "SC_TreeDark2",
+    "defaultvalue": 0,
+    "displayName": "「黑暗之森的幽邃幻想」",
+    "hidden": 0,
+    "description": "在未受到伤害的情况下击破幽邃大树的符卡，「黑暗之森的幽邃幻想」",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/00c239a11623de8afac612059447bb0faa320cdb.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/47c89b620c16148146d80155047b4c01228f8cc9.jpg"
+  },
+  {
+    "name": "DeepDarkFantasy",
+    "defaultvalue": 0,
+    "displayName": "黑暗幽邃幻想",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/e15b45a22bcab3ec4d8fc144c5f481aa4f850e34.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/d37b2d53d1f5a1bf23bd89c42bc52d5a44fce79f.jpg"
+  },
+  {
+    "name": "Curse",
+    "defaultvalue": 0,
+    "displayName": "我好恨呀",
+    "hidden": 0,
+    "description": "死于诅咒，如果我被诅咒而死，那我一定会成为怨灵去诅咒别人，不过这样一来会诅咒技能的求职者不是会越来越多吗？去冥界和地狱面试的时候会毫无优势呢……感觉还会被末位淘汰呢……",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/fb687b4e04b06653f3020ceadafd432b9c38ba44.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/4db1b8afa30ee14f60ddb3617e20285b748b00ce.jpg"
+  },
+  {
+    "name": "Win0",
+    "defaultvalue": 0,
+    "displayName": "小试牛刀",
+    "hidden": 0,
+    "description": "初尝胜果，还远远不够呢，继续磨练自己吧",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/b51305cfbf9d25436c8d8866376355c4933ef25b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/f83d716ec91c8a80c981be59a020ec86f83971f3.jpg"
+  },
+  {
+    "name": "Win1",
+    "defaultvalue": 0,
+    "displayName": "十夫长",
+    "hidden": 0,
+    "description": "胜利10次，干得不错，你已经摸到了实战的门槛",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/e3cc1d74cd2b93bf165be9a53df8ea2d54113b38.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/4516b285e7db58ac7ba61abdf9da0feebe475680.jpg"
+  },
+  {
+    "name": "Win2",
+    "defaultvalue": 0,
+    "displayName": "百战不殆",
+    "hidden": 0,
+    "description": "胜利100次，虽然说是百战不殆，但是实际上还是输过很多次的吧……什么？你说你没有？……难道你有……回溯时间的能力？",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/1d5892446b6be4c2afbd071bd0c83b4fd0255a66.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/d7fa8e0ee8787dd48e6f15c3b26ed17f617a7612.jpg"
+  },
+  {
+    "name": "Win3",
+    "defaultvalue": 0,
+    "displayName": "常胜将军",
+    "hidden": 0,
+    "description": "胜利500次，你，带着士兵去拔掉那个碉堡……什么？你说你不去？那你的领导力是干什么吃的，没堵过枪眼还好意思说自己是领袖么",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/1589669333dca8970d7bf9a035495a8aa7e559a0.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/783d9624e4f67db61a2530de7c713f47d341d804.jpg"
+  },
+  {
+    "name": "Win4",
+    "defaultvalue": 0,
+    "displayName": "军神",
+    "hidden": 0,
+    "description": "胜利1000次，你觉得有什么能打败你？你连恐惧都战胜了，也许你可以去挑战一下生命法庭",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/29f29c34b47df510b3bd97d4ddb285b1c7683b66.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/a530a900468ccdc1fb0ada2431bc32c33bfbe5df.jpg"
+  },
+  {
+    "name": "Esc0",
+    "defaultvalue": 0,
+    "displayName": "卡其脱离态",
+    "hidden": 0,
+    "description": "逃跑20次，走为上策，在撤退时你可以达到一种叫做卡其脱离态的状态，一般只有核裂变时的中子能达到",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/b1503477c14fe930bf8d0efa0d83ab2a9aa0af8a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/3099fda8b3c8ad998c9b7118f7545ebdfccb27bf.jpg"
+  },
+  {
+    "name": "Skill0",
+    "defaultvalue": 0,
+    "displayName": "地底世界的天才魔法师",
+    "hidden": 0,
+    "description": "使用20次技能，萌新魔法师怎么加点？——全点力量，法术就点个照明",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/718aeb530a2b9f7c3679e9ef88f19fc0cd1685d1.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/7ce92fd2d26e37b280a26e247db82a8a27038ffb.jpg"
+  },
+  {
+    "name": "Item0",
+    "defaultvalue": 0,
+    "displayName": "四次元背包",
+    "hidden": 0,
+    "description": "使用20次道具，这个背包是姐姐亲手为恋恋缝制的，好似无底洞一般怎么也装不满呢",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/b45a2a5122bdb3d971cfb2c20ecfc9de2d7b5d27.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/c6668c53fb741e99a125c935e5fdfd00caf1a064.jpg"
+  },
+  {
+    "name": "EscFromBoss",
+    "defaultvalue": 0,
+    "displayName": "你给路打油",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/7fa0ff33975fb3bc67c5fb4490a831085e2982dd.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/e5261bc8ca778d51571e343f67cccb2e7e473fea.jpg"
+  },
+  {
+    "name": "DeathCannotReachYou",
+    "defaultvalue": 0,
+    "displayName": "训练有素的医生",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/fe00ca65dbd0f30ae11d363c76fcc4e491c1f6ec.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/7c8d79786f84a2e0288fdd8093231040aa0fb37e.jpg"
+  },
+  {
+    "name": "Tool_Aquatic",
+    "defaultvalue": 0,
+    "displayName": "海王",
+    "hidden": 0,
+    "description": "あれは~谁だ~谁だ~谁だ——あれは~Aqua~Aqua Man——Aquaman~~",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/e6cfff9686158e896aa3c90e00c603ddaa95b947.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/a3d8af4e486245f8bf4e4d4c83ae6ced16f1f6e7.jpg"
+  },
+  {
+    "name": "Tool_Fairy",
+    "defaultvalue": 0,
+    "displayName": "妖精杀手",
+    "hidden": 0,
+    "description": "你还记得你为了收集材料，杀死过多少只妖精？你今天就杀死了多少只妖精？",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/50fb866de8b6f4a675071a59d6c38804cb5fe703.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/dae505d4443d902e44736ecb187bd15f497d191d.jpg"
+  },
+  {
+    "name": "Tool_Stone",
+    "defaultvalue": 0,
+    "displayName": "是恋恋哟",
+    "hidden": 0,
+    "description": "现在你真的是恋恋了",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/a5965e4a679981a0c084fb359633952407bf05f9.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/8a3dee3fcde09df10f27080db8df9f7d4909e22f.jpg"
+  },
+  {
+    "name": "Tool_Tree_Forest",
+    "defaultvalue": 0,
+    "displayName": "吸氧吸到饱",
+    "hidden": 0,
+    "description": "吸氧也是会上瘾的哟，不然树林怎么叫氧吧呢~",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/435226ffac740ab09282742c968ea8cf41dd1957.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/eb3c427d880bf5035d2723f02578d50d99029f57.jpg"
+  },
+  {
+    "name": "Tool_Tree_ForestDeep",
+    "defaultvalue": 0,
+    "displayName": "森林之王",
+    "hidden": 0,
+    "description": "Tiger~~芜~~芜~~",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/79205f5d993a5c6c57b8df77cbc48c0415cd9667.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/96d32ec2325ae2a7488a4a4e4a4656461498ae57.jpg"
+  },
+  {
+    "name": "Tool_Tree_Wood",
+    "defaultvalue": 0,
+    "displayName": "抱薪救火",
+    "hidden": 0,
+    "description": "那些说木头灭不了火的一定是没见过这根~",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/936aaab0a9e0c24d3c716b000c7caad9099635f4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/692109054ff46455d1bbf550c718b0f7a85fd5a0.jpg"
+  },
+  {
+    "name": "HumanInvent10",
+    "defaultvalue": 0,
+    "displayName": "人类发明十进制",
+    "hidden": 0,
+    "description": "投掷出两位数点数的骰子，单兵伤害上限扩大到了99，十进制真是伟大的发明呀！",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/00c3270eb45bca7b3bbdac4cc943dda70aa6a767.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/f0c1967d0c938fd5aa91ea48f7d6b973f416888c.jpg"
+  },
+  {
+    "name": "UnknownDice",
+    "defaultvalue": 0,
+    "displayName": "就不告诉你",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/42a2bbef1bf2c8cd774e4afa60e52db20cad679e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/2cd9f0c694f89b496921d0994a51d7593e5ef064.jpg"
+  },
+  {
+    "name": "Mr_Hat",
+    "defaultvalue": 0,
+    "displayName": "帽子先生是我的好朋友",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/34580dc0498c82c8ea366cae69500764329b7bb6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/d434fde640f959cb1f85e05ddbdf67b676c64c29.jpg"
+  },
+  {
+    "name": "Shopper",
+    "defaultvalue": 0,
+    "displayName": "买买买",
+    "hidden": 0,
+    "description": "在商店完成一次购买，谨慎对待消费主义陷阱",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/e70f281371b17850f966ea22f3ef977e718bcafe.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/12788c109da9ccc8d019a4b5e28d536edf617b46.jpg"
+  },
+  {
+    "name": "SpellCard131",
+    "defaultvalue": 0,
+    "displayName": "反应「脑波震撼」",
+    "hidden": 0,
+    "description": "领悟 反应「脑波震撼」——你就是比爱因斯坦更靓的仔~",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/2d5cc978fe09763ef55c2a2c3c717831764cff79.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/ebee0260716e84ccc7d736096129be9db6f8608f.jpg"
+  },
+  {
+    "name": "Blood_Koishi",
+    "defaultvalue": 0,
+    "displayName": "血腥玛丽",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/ffbd3eca9edd51c7763843984a887f9fcb2098c2.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/d3745c5c34fc259d09874474178cb2688aed5b6e.jpg"
+  },
+  {
+    "name": "Shinobi_Koishi",
+    "defaultvalue": 0,
+    "displayName": "古明地信条",
+    "hidden": 0,
+    "description": "成功执行一次恋杀，总有一天，要把古明地家族的名望覆盖全欧洲，令王侯将相为之胆寒！",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/46d52fbe673e3609ed7533a8404a52155a071782.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/3e72f3f4e2fae705ec8541fef76ae5d6cb74d218.jpg"
+  },
+  {
+    "name": "Danger",
+    "defaultvalue": 0,
+    "displayName": "危",
+    "hidden": 0,
+    "description": "盯着这个字看太多次会不认识它的啦~~",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/0364f245e2c31e03da4bfd37067de226fdd09de9.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/347641effda881645539a268188903f796b7e8dc.jpg"
+  },
+  {
+    "name": "Ego1",
+    "defaultvalue": 0,
+    "displayName": "本我",
+    "hidden": 0,
+    "description": "本我是生物本能和欲望的根源",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/c79fc95b10ccad8c98fdba6cf7d8889d44028465.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/df34e05b21df532ea0de80d3de06100d32f18497.jpg"
+  },
+  {
+    "name": "Ego2",
+    "defaultvalue": 0,
+    "displayName": "超我",
+    "hidden": 0,
+    "description": "超我是抑制本能冲动和以他人作为自身制约的枷锁",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/db5c360b7859a9ccc951b067bbcc1d978196c598.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/19d584f41f7bdc8d77811555f73266b8c610fbd2.jpg"
+  },
+  {
+    "name": "Ego3",
+    "defaultvalue": 0,
+    "displayName": "自我",
+    "hidden": 0,
+    "description": "本我和超我互相制衡，形成了平衡中庸的自我",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/eafc1d448001c8eada2faef94fe08a5eeeaa359b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/e44178741d578f9d645e4ba23c3729813f9e9098.jpg"
+  },
+  {
+    "name": "Weapon_Bushi",
+    "defaultvalue": 0,
+    "displayName": "武士",
+    "hidden": 0,
+    "description": "你已经是个威武不屈的武士了，来切一个给大家瞧瞧",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/7e57a5cd4308994c76f639c8338fdb51b186901f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/ead40652bc4f16ef744783a7aafa89b66e8d3857.jpg"
+  },
+  {
+    "name": "Weapon_Toushi",
+    "defaultvalue": 0,
+    "displayName": "斗士",
+    "hidden": 0,
+    "description": "愤怒是斗士克敌制胜的武器，我曾在极度愤怒的情况下无能狂怒",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/868d88cf6ba45dfb117fbbbffbba2aa1baca7826.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/42a87fa04136d26929a3005ae6e7e1b9727a98b6.jpg"
+  },
+  {
+    "name": "KomeijiSoup",
+    "defaultvalue": 0,
+    "displayName": "古明地汤",
+    "hidden": 0,
+    "description": "温泉~温泉~~",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/967d8ebcd5e8dbb8e761fe80963d3154337886bc.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/492ee72eccd58dff535969ab9e937b2d7c1a1206.jpg"
+  },
+  {
+    "name": "Knife_Counter0",
+    "defaultvalue": 0,
+    "displayName": "抖刀舞",
+    "hidden": 0,
+    "description": "弹反成功10次，抓不准时机的话不如抖起刀来跳舞",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/d49dbb0eeb93f77f0391c1cc9055f5d911e95ead.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/fb7a69ba476cc3e7d735eef0f019c0491f6322d2.jpg"
+  },
+  {
+    "name": "Knife_Counter1",
+    "defaultvalue": 0,
+    "displayName": "正面潜入",
+    "hidden": 0,
+    "description": "弹反成功100次，所谓潜入，就是从正面进去把所有发现你的人都杀了",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/ffc76206e76d31c0290ca557bd8722e01e616d50.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/19753e7b3c26f0ddbf7fa1684543bb63dccf4871.jpg"
+  },
+  {
+    "name": "Knife_Counter2",
+    "defaultvalue": 0,
+    "displayName": "只恋",
+    "hidden": 0,
+    "description": "弹反成功1000次，你已经掌握了见招拆招的奥义，现在你是合格的忍者了",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/acdd4a94c21fe87bb9be64411a480b883dbc443b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/8e2b2d5d9f40eb5a65b777cee2ba0294e0fdde1d.jpg"
+  },
+  {
+    "name": "Knife_Counter3",
+    "defaultvalue": 0,
+    "displayName": "三千世界",
+    "hidden": 0,
+    "description": "弹反成功3000次，在刀光剑影之下，你的刀法可能划开空间，劈碎时间，穿行于3000个不同的平行宇宙之间，今天的你还是昨天的你吗？",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/58d927c3af1639335f571c05dbd53e07982c86d8.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/e4823de96895471eeca878738c48687cfc1a79a5.jpg"
+  },
+  {
+    "name": "Knife_Counter4",
+    "defaultvalue": 0,
+    "displayName": "大人，时代没有变",
+    "hidden": 0,
+    "description": "弹反成功10000次，这玩意可比弹幕好使多了~你们的弹幕在我的刀法面前如同风中残烛一样软弱无力，好时代，来临罢！",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/ae4e10ce83f544e8fd739c8de25b848112ac9059.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/874542f907fd5ee2db92ed2fb9fe863b3a10a788.jpg"
+  },
+  {
+    "name": "Score0",
+    "defaultvalue": 0,
+    "displayName": "衬衫的价格",
+    "hidden": 0,
+    "description": "是9磅15便士哟~",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/40abdc807845accdcfe890597394f125fb4724fd.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/6f673aa9d820f3beddc9a456959b09375ff5d34c.jpg"
+  },
+  {
+    "name": "Score1",
+    "defaultvalue": 0,
+    "displayName": "百元大钞",
+    "hidden": 0,
+    "description": "一百元货币在大多数国家的流通量都是最大的，因为面额太小会跟不上通胀，面额太大又容易给造假者太大的利润空间",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/f0f291a4c95f5431f7320e892de39b3016354af0.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/d56adc2fa470a1329a88390330df65f3f8546ce6.jpg"
+  },
+  {
+    "name": "Score2",
+    "defaultvalue": 0,
+    "displayName": "夏目漱石",
+    "hidden": 0,
+    "description": "钞票上印的人物体现了这个国家的文化氛围，那么印文学家的国家为什么不让工程师去开自杀飞机？",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/f7194a8f2e0e04bf25e788b23c0fa2ef74fe3ec9.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/3822714901bc528c1bc33f5a0604e7b0b8adad9a.jpg"
+  },
+  {
+    "name": "Score3",
+    "defaultvalue": 0,
+    "displayName": "万元户",
+    "hidden": 0,
+    "description": "现在的一万元可能能买一头牛，明年的一万元可能只值两个鸡蛋，可得：两个鸡蛋=一牛",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/74dc233ae0e238d96df8968031f588e142784195.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/d3bfe66343f3c18e2ffef626bcf7769d53e1accb.jpg"
+  },
+  {
+    "name": "Score4",
+    "defaultvalue": 0,
+    "displayName": "包夜",
+    "hidden": 0,
+    "description": "博丽家的巫女桑~~我又来光顾啦——",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/ebf1be777978e6586386ddd6682d3ecad70bb688.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231290/4b665e77dba24d9a4e240987b7dd2c92a46c948e.jpg"
+  }
+]

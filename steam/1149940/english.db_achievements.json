@@ -1,0 +1,533 @@
+﻿[
+  {
+    "name": "IM_GETTING_BETTER_AT_THIS",
+    "defaultvalue": 0,
+    "displayName": "I'm Getting Better at This",
+    "hidden": 0,
+    "description": "Win 10 Scenarios.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1149940/5ac019fb35afbb61742ea7c6bca835f0975c8483.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1149940/377c31a89f4ea4b3efd2726ad60850d54524ffc3.jpg"
+  },
+  {
+    "name": "I_AM_A_CHAMPION",
+    "defaultvalue": 0,
+    "displayName": "I Am a Champion!",
+    "hidden": 0,
+    "description": "Win 50 Scenarios.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1149940/5ac019fb35afbb61742ea7c6bca835f0975c8483.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1149940/377c31a89f4ea4b3efd2726ad60850d54524ffc3.jpg"
+  },
+  {
+    "name": "I_READ_YOUR_BOOK",
+    "defaultvalue": 0,
+    "displayName": "I Read Your Book",
+    "hidden": 0,
+    "description": "Win 100 Scenarios.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1149940/5ac019fb35afbb61742ea7c6bca835f0975c8483.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1149940/377c31a89f4ea4b3efd2726ad60850d54524ffc3.jpg"
+  },
+  {
+    "name": "CLOSE_ENOUGH",
+    "defaultvalue": 0,
+    "displayName": "Close Enough",
+    "hidden": 0,
+    "description": "Miss the target hex with an artillery spotting round but hit a hex containing enemy units anyway.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1149940/5ac019fb35afbb61742ea7c6bca835f0975c8483.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1149940/377c31a89f4ea4b3efd2726ad60850d54524ffc3.jpg"
+  },
+  {
+    "name": "CRUSH_YOUR_ENEMIES",
+    "defaultvalue": 0,
+    "displayName": "Crush Your Enemies",
+    "hidden": 0,
+    "description": "Overrun and eliminate three squads at once with a vehicle.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1149940/5ac019fb35afbb61742ea7c6bca835f0975c8483.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1149940/377c31a89f4ea4b3efd2726ad60850d54524ffc3.jpg"
+  },
+  {
+    "name": "EVERYDAY_HEROES",
+    "defaultvalue": 0,
+    "displayName": "Everyday Heroes",
+    "hidden": 0,
+    "description": "Have two heroes generated as part of the same attack.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1149940/5ac019fb35afbb61742ea7c6bca835f0975c8483.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1149940/377c31a89f4ea4b3efd2726ad60850d54524ffc3.jpg"
+  },
+  {
+    "name": "HOUSEWARES",
+    "defaultvalue": 0,
+    "displayName": "Housewares",
+    "hidden": 0,
+    "description": "Have just Ash (or Sgt Ash) win a melee versus at least one squad.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1149940/5ac019fb35afbb61742ea7c6bca835f0975c8483.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1149940/377c31a89f4ea4b3efd2726ad60850d54524ffc3.jpg"
+  },
+  {
+    "name": "I_DONT_WANT_TO_KNOW",
+    "defaultvalue": 0,
+    "displayName": "I Don't Want to Know",
+    "hidden": 0,
+    "description": "Leave one of your Occupation Event markers untouched for the entire scenario, and win.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1149940/5ac019fb35afbb61742ea7c6bca835f0975c8483.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1149940/377c31a89f4ea4b3efd2726ad60850d54524ffc3.jpg"
+  },
+  {
+    "name": "INDECISIVE",
+    "defaultvalue": 0,
+    "displayName": "Indecisive",
+    "hidden": 0,
+    "description": "Have a leader with the Decisive skill and win the scenario without ever using it.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1149940/5ac019fb35afbb61742ea7c6bca835f0975c8483.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1149940/377c31a89f4ea4b3efd2726ad60850d54524ffc3.jpg"
+  },
+  {
+    "name": "MY_DICE_ARE_NOT_LOADED",
+    "defaultvalue": 0,
+    "displayName": "My Dice are Not Loaded",
+    "hidden": 0,
+    "description": "Win every single initiative roll in a scenario, and win the scenario.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1149940/5ac019fb35afbb61742ea7c6bca835f0975c8483.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1149940/377c31a89f4ea4b3efd2726ad60850d54524ffc3.jpg"
+  },
+  {
+    "name": "OVERWHELMING_FIREPOWER",
+    "defaultvalue": 0,
+    "displayName": "Overwhelming Firepower",
+    "hidden": 0,
+    "description": "Do a Direct Fire attack with 10 or more Firepower.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1149940/5ac019fb35afbb61742ea7c6bca835f0975c8483.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1149940/377c31a89f4ea4b3efd2726ad60850d54524ffc3.jpg"
+  },
+  {
+    "name": "RUN_AWAY",
+    "defaultvalue": 0,
+    "displayName": "Run Away!",
+    "hidden": 0,
+    "description": "Successfully withdraw from a melee.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1149940/5ac019fb35afbb61742ea7c6bca835f0975c8483.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1149940/377c31a89f4ea4b3efd2726ad60850d54524ffc3.jpg"
+  },
+  {
+    "name": "SHAKE_N_BAKE",
+    "defaultvalue": 0,
+    "displayName": "Shake ‘n Bake",
+    "hidden": 0,
+    "description": "Enter melee against a group of defenseless enemy units.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1149940/a3fd8000ff981daae500ff8ddf21e4eb5d6de0c2.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1149940/377c31a89f4ea4b3efd2726ad60850d54524ffc3.jpg"
+  },
+  {
+    "name": "THAT_WAS_CLOSE",
+    "defaultvalue": 0,
+    "displayName": "That Was Close...",
+    "hidden": 0,
+    "description": "Eliminate a Suicide Sapper with opportunity fire.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1149940/5ac019fb35afbb61742ea7c6bca835f0975c8483.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1149940/377c31a89f4ea4b3efd2726ad60850d54524ffc3.jpg"
+  },
+  {
+    "name": "THROUGH_THE_SCOPE",
+    "defaultvalue": 0,
+    "displayName": "Through the Scope",
+    "hidden": 0,
+    "description": "Eliminate a sniper with another sniper.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1149940/5ac019fb35afbb61742ea7c6bca835f0975c8483.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1149940/377c31a89f4ea4b3efd2726ad60850d54524ffc3.jpg"
+  },
+  {
+    "name": "TIGER_ELIMINATED_SIR",
+    "defaultvalue": 0,
+    "displayName": "Tiger Eliminated, Sir!",
+    "hidden": 0,
+    "description": "Destroy a German armored vehicle that is NOT a Tiger.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1149940/5ac019fb35afbb61742ea7c6bca835f0975c8483.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1149940/377c31a89f4ea4b3efd2726ad60850d54524ffc3.jpg"
+  },
+  {
+    "name": "WE_BROUGHT_FRIENDS",
+    "defaultvalue": 0,
+    "displayName": "We Brought Friends",
+    "hidden": 0,
+    "description": "Reinforce an ongoing melee.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1149940/5ac019fb35afbb61742ea7c6bca835f0975c8483.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1149940/377c31a89f4ea4b3efd2726ad60850d54524ffc3.jpg"
+  },
+  {
+    "name": "WELCOME_TO_NORMANDY",
+    "defaultvalue": 0,
+    "displayName": "Welcome to Normandy",
+    "hidden": 0,
+    "description": "Complete a scenario from Heroes of Normandy.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1149940/5ac019fb35afbb61742ea7c6bca835f0975c8483.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1149940/377c31a89f4ea4b3efd2726ad60850d54524ffc3.jpg"
+  },
+  {
+    "name": "HERO_OF_NORMANDY",
+    "defaultvalue": 0,
+    "displayName": "Hero of Normandy",
+    "hidden": 0,
+    "description": "Win 12 different Heroes of Normandy scenarios.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1149940/5ac019fb35afbb61742ea7c6bca835f0975c8483.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1149940/377c31a89f4ea4b3efd2726ad60850d54524ffc3.jpg"
+  },
+  {
+    "name": "MASTER_OF_NORMANDY",
+    "defaultvalue": 0,
+    "displayName": "Master of Normandy",
+    "hidden": 0,
+    "description": "Win 48 different Heroes of Normandy scenarios.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1149940/5ac019fb35afbb61742ea7c6bca835f0975c8483.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1149940/377c31a89f4ea4b3efd2726ad60850d54524ffc3.jpg"
+  },
+  {
+    "name": "BOSOM_BUDDIES",
+    "defaultvalue": 0,
+    "displayName": "Bosom Buddies",
+    "hidden": 0,
+    "description": "Succesfully rally 5 or more units with Major Tom in one scenario.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1149940/5ac019fb35afbb61742ea7c6bca835f0975c8483.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1149940/377c31a89f4ea4b3efd2726ad60850d54524ffc3.jpg"
+  },
+  {
+    "name": "BREAKAWAY",
+    "defaultvalue": 0,
+    "displayName": "Breakaway",
+    "hidden": 0,
+    "description": "Have Lt. Clarkson successfully withdraw from a melee.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1149940/5ac019fb35afbb61742ea7c6bca835f0975c8483.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1149940/377c31a89f4ea4b3efd2726ad60850d54524ffc3.jpg"
+  },
+  {
+    "name": "DR_WATSON",
+    "defaultvalue": 0,
+    "displayName": "Dr. Watson",
+    "hidden": 0,
+    "description": "Heal a wounded Lord Holmes with a medic.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1149940/5ac019fb35afbb61742ea7c6bca835f0975c8483.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1149940/377c31a89f4ea4b3efd2726ad60850d54524ffc3.jpg"
+  },
+  {
+    "name": "FURY",
+    "defaultvalue": 0,
+    "displayName": "Fury",
+    "hidden": 0,
+    "description": "Destroy a Tiger tank with the main gun of a Sherman tank.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1149940/5ac019fb35afbb61742ea7c6bca835f0975c8483.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1149940/377c31a89f4ea4b3efd2726ad60850d54524ffc3.jpg"
+  },
+  {
+    "name": "I_MEANT_TO_DO_THAT",
+    "defaultvalue": 0,
+    "displayName": "I Meant To Do That",
+    "hidden": 0,
+    "description": "Land a glider on top of enemy units.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1149940/5ac019fb35afbb61742ea7c6bca835f0975c8483.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1149940/377c31a89f4ea4b3efd2726ad60850d54524ffc3.jpg"
+  },
+  {
+    "name": "IT_SCHRECKS_PANZERS",
+    "defaultvalue": 0,
+    "displayName": "It Schrecks Panzers",
+    "hidden": 0,
+    "description": "Destroy an armored vehicle with an RPzB54.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1149940/5ac019fb35afbb61742ea7c6bca835f0975c8483.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1149940/377c31a89f4ea4b3efd2726ad60850d54524ffc3.jpg"
+  },
+  {
+    "name": "IT_WERFS_FLAMMEN",
+    "defaultvalue": 0,
+    "displayName": "It Werfs Flammen",
+    "hidden": 0,
+    "description": "Cause units to retreat from a German flamethrower attack.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1149940/5ac019fb35afbb61742ea7c6bca835f0975c8483.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1149940/377c31a89f4ea4b3efd2726ad60850d54524ffc3.jpg"
+  },
+  {
+    "name": "LIVINGSTON_I_PRESUME",
+    "defaultvalue": 0,
+    "displayName": "Livingston, I Presume?",
+    "hidden": 0,
+    "description": "Successfully Spot Sgt. Livingston.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1149940/5ac019fb35afbb61742ea7c6bca835f0975c8483.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1149940/377c31a89f4ea4b3efd2726ad60850d54524ffc3.jpg"
+  },
+  {
+    "name": "MISSION_IMPOSSIBLE",
+    "defaultvalue": 0,
+    "displayName": "Mission Impossible",
+    "hidden": 0,
+    "description": "As the Germans, win the scenario Attack of the Kochgeschirr on default or harder settings.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1149940/5ac019fb35afbb61742ea7c6bca835f0975c8483.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1149940/377c31a89f4ea4b3efd2726ad60850d54524ffc3.jpg"
+  },
+  {
+    "name": "SOFT_UNDERBELLY",
+    "defaultvalue": 0,
+    "displayName": "Soft Underbelly",
+    "hidden": 0,
+    "description": "Using opportunity fire with an ordnance weapon, destroy a vehicle as it comes through bocage.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1149940/a3fd8000ff981daae500ff8ddf21e4eb5d6de0c2.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1149940/377c31a89f4ea4b3efd2726ad60850d54524ffc3.jpg"
+  },
+  {
+    "name": "WELCOME_TO_THE_NAM",
+    "defaultvalue": 0,
+    "displayName": "Welcome to The Nam",
+    "hidden": 0,
+    "description": "Complete a scenario from Heroes of the Nam.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1149940/873253e784ff795b1025cb28f26d7ce1a43f24a7.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1149940/b28241c921a9d092955aa760a5dcbb8f972976f0.jpg"
+  },
+  {
+    "name": "HERO_OF_THE_NAM",
+    "defaultvalue": 0,
+    "displayName": "Hero of The Nam",
+    "hidden": 0,
+    "description": "Win 12 different Heroes of the Nam scenarios.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1149940/873253e784ff795b1025cb28f26d7ce1a43f24a7.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1149940/5769c66ad08599698a540fdf2bba6a4fbf140afa.jpg"
+  },
+  {
+    "name": "MASTER_OF_THE_NAM",
+    "defaultvalue": 0,
+    "displayName": "Master of The Nam",
+    "hidden": 0,
+    "description": "Win 34 different Heroes of the Nam scenarios.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1149940/31472a93f75d68fbe5261a6329c6193f116551c7.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1149940/5769c66ad08599698a540fdf2bba6a4fbf140afa.jpg"
+  },
+  {
+    "name": "AIR_ASSAULT",
+    "defaultvalue": 0,
+    "displayName": "Air Assault",
+    "hidden": 0,
+    "description": "Unload 4 or more squads from helicopters in a single turn.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1149940/873253e784ff795b1025cb28f26d7ce1a43f24a7.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1149940/5769c66ad08599698a540fdf2bba6a4fbf140afa.jpg"
+  },
+  {
+    "name": "ANZAC_ATTACK",
+    "defaultvalue": 0,
+    "displayName": "ANZAC Attack",
+    "hidden": 0,
+    "description": "As the ANZAC player, eliminate all enemies in a melee where you are outnumbered.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1149940/873253e784ff795b1025cb28f26d7ce1a43f24a7.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1149940/b28241c921a9d092955aa760a5dcbb8f972976f0.jpg"
+  },
+  {
+    "name": "DIDNT_SAVE_HIM",
+    "defaultvalue": 0,
+    "displayName": "Didn't Save Him",
+    "hidden": 0,
+    "description": "Eliminate Lt. Ryan (or Ryan) 10 times (either side, any number of scenarios).",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1149940/873253e784ff795b1025cb28f26d7ce1a43f24a7.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1149940/b28241c921a9d092955aa760a5dcbb8f972976f0.jpg"
+  },
+  {
+    "name": "KABOOM",
+    "defaultvalue": 0,
+    "displayName": "Kaboom!",
+    "hidden": 0,
+    "description": "Set off three or more claymores in a single impulse.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1149940/31472a93f75d68fbe5261a6329c6193f116551c7.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1149940/b28241c921a9d092955aa760a5dcbb8f972976f0.jpg"
+  },
+  {
+    "name": "LONG_SHOT",
+    "defaultvalue": 0,
+    "displayName": "Long Shot",
+    "hidden": 0,
+    "description": "Cause casualties with a Sniper at a range of 9 or more hexes.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1149940/873253e784ff795b1025cb28f26d7ce1a43f24a7.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1149940/b28241c921a9d092955aa760a5dcbb8f972976f0.jpg"
+  },
+  {
+    "name": "PVT_GUMP",
+    "defaultvalue": 0,
+    "displayName": "Pvt. Gump",
+    "hidden": 0,
+    "description": "Move a US Army Hero 6 hexes on foot in 3 consecutive turns.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1149940/873253e784ff795b1025cb28f26d7ce1a43f24a7.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1149940/b28241c921a9d092955aa760a5dcbb8f972976f0.jpg"
+  },
+  {
+    "name": "SLAM_DUNK",
+    "defaultvalue": 0,
+    "displayName": "Slam Dunk",
+    "hidden": 0,
+    "description": "Use three squads to eliminate Sgt. Dunk in melee.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1149940/873253e784ff795b1025cb28f26d7ce1a43f24a7.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1149940/b28241c921a9d092955aa760a5dcbb8f972976f0.jpg"
+  },
+  {
+    "name": "SUCCESSFUL_AMBUSH",
+    "defaultvalue": 0,
+    "displayName": "Successful Ambush",
+    "hidden": 0,
+    "description": "Eliminate all enemies in the first round of an Ambush melee.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1149940/873253e784ff795b1025cb28f26d7ce1a43f24a7.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1149940/b28241c921a9d092955aa760a5dcbb8f972976f0.jpg"
+  },
+  {
+    "name": "TERRIBLE_ADVICE",
+    "defaultvalue": 0,
+    "displayName": "Terrible Advice",
+    "hidden": 0,
+    "description": "Eliminate an Advisor in melee combat.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1149940/873253e784ff795b1025cb28f26d7ce1a43f24a7.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1149940/b28241c921a9d092955aa760a5dcbb8f972976f0.jpg"
+  },
+  {
+    "name": "THIS_IS_MY_BIBLE",
+    "defaultvalue": 0,
+    "displayName": "This is My Bible",
+    "hidden": 0,
+    "description": "Successfully rally with a Chaplain.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1149940/31472a93f75d68fbe5261a6329c6193f116551c7.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1149940/b28241c921a9d092955aa760a5dcbb8f972976f0.jpg"
+  },
+  {
+    "name": "WELCOME_TO_LIBYA",
+    "defaultvalue": 0,
+    "displayName": "Welcome to Libya",
+    "hidden": 0,
+    "description": "Complete a scenario from Days of Villainy.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1149940/873253e784ff795b1025cb28f26d7ce1a43f24a7.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1149940/b28241c921a9d092955aa760a5dcbb8f972976f0.jpg"
+  },
+  {
+    "name": "SPREAD_OUT",
+    "defaultvalue": 0,
+    "displayName": "Spread Out!",
+    "hidden": 0,
+    "description": "At the end of an impulse, have six or more MMC or SMC counters alone in their hexes.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1149940/873253e784ff795b1025cb28f26d7ce1a43f24a7.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1149940/b28241c921a9d092955aa760a5dcbb8f972976f0.jpg"
+  },
+  {
+    "name": "TECHNICALLY_PERFECT",
+    "defaultvalue": 0,
+    "displayName": "Technically Perfect",
+    "hidden": 0,
+    "description": "Win a scenario without losing any of your Technicals.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1149940/873253e784ff795b1025cb28f26d7ce1a43f24a7.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1149940/b28241c921a9d092955aa760a5dcbb8f972976f0.jpg"
+  },
+  {
+    "name": "OVERKILL",
+    "defaultvalue": 0,
+    "displayName": "Overkill",
+    "hidden": 0,
+    "description": "Destroy an unarmored vehicle with an ordnance weapon that has a Penetration value of 4 or more.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1149940/873253e784ff795b1025cb28f26d7ce1a43f24a7.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1149940/b28241c921a9d092955aa760a5dcbb8f972976f0.jpg"
+  },
+  {
+    "name": "BEATING_THE_ODDS",
+    "defaultvalue": 0,
+    "displayName": "Beating the Odds",
+    "hidden": 0,
+    "description": "In the On the Road to Sirte scenario, transport Salem over four or more offroad hexes without killing him.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1149940/873253e784ff795b1025cb28f26d7ce1a43f24a7.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1149940/b28241c921a9d092955aa760a5dcbb8f972976f0.jpg"
+  },
+  {
+    "name": "ALTERNATE_TIMELINE",
+    "defaultvalue": 0,
+    "displayName": "Alternate Timeline",
+    "hidden": 0,
+    "description": "Win the Game Over scenario as the Loyalist side.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1149940/873253e784ff795b1025cb28f26d7ce1a43f24a7.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1149940/b28241c921a9d092955aa760a5dcbb8f972976f0.jpg"
+  },
+  {
+    "name": "WELCOME_TO_WWIII",
+    "defaultvalue": 0,
+    "displayName": "Welcome to WWIII",
+    "hidden": 0,
+    "description": "Complete a scenario from Heroes Against the Red Star",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1149940/5ac019fb35afbb61742ea7c6bca835f0975c8483.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1149940/acb4b7a33f0f9485b5e9f98aafbc50043af7f465.jpg"
+  },
+  {
+    "name": "HERO_OF_WWIII",
+    "defaultvalue": 0,
+    "displayName": "Hero of WWIII",
+    "hidden": 0,
+    "description": "Win 11 different Heroes Against the Red Star scenarios.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1149940/a3fd8000ff981daae500ff8ddf21e4eb5d6de0c2.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1149940/acb4b7a33f0f9485b5e9f98aafbc50043af7f465.jpg"
+  },
+  {
+    "name": "MASTER_OF_WWIII",
+    "defaultvalue": 0,
+    "displayName": "Master of WWIII",
+    "hidden": 0,
+    "description": "Win 33 different Heroes Against the Red Star scenarios.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1149940/a3fd8000ff981daae500ff8ddf21e4eb5d6de0c2.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1149940/acb4b7a33f0f9485b5e9f98aafbc50043af7f465.jpg"
+  },
+  {
+    "name": "TITANIUM_BATHTUB",
+    "defaultvalue": 0,
+    "displayName": "Titanium Bathtub",
+    "hidden": 0,
+    "description": "Have an A-10 Thunderbolt II survive being struck by anti-aircraft fire.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1149940/a3fd8000ff981daae500ff8ddf21e4eb5d6de0c2.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1149940/377c31a89f4ea4b3efd2726ad60850d54524ffc3.jpg"
+  },
+  {
+    "name": "FIGHT_OR_DIE",
+    "defaultvalue": 0,
+    "displayName": "Fight or Die!",
+    "hidden": 0,
+    "description": "Successfully rally a Shaken unit with Fight or Die.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1149940/5ac019fb35afbb61742ea7c6bca835f0975c8483.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1149940/377c31a89f4ea4b3efd2726ad60850d54524ffc3.jpg"
+  },
+  {
+    "name": "STRAFING_RUN",
+    "defaultvalue": 0,
+    "displayName": "Strafing Run",
+    "hidden": 0,
+    "description": "Attack 3 or more hexes with a single airstrike.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1149940/a3fd8000ff981daae500ff8ddf21e4eb5d6de0c2.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1149940/acb4b7a33f0f9485b5e9f98aafbc50043af7f465.jpg"
+  },
+  {
+    "name": "LIVE_WIRE",
+    "defaultvalue": 0,
+    "displayName": "Live Wire",
+    "hidden": 0,
+    "description": "Cause an ATGM shot to be interrupted with opportunity fire.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1149940/a3fd8000ff981daae500ff8ddf21e4eb5d6de0c2.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1149940/acb4b7a33f0f9485b5e9f98aafbc50043af7f465.jpg"
+  },
+  {
+    "name": "STILL_DANGEROUS",
+    "defaultvalue": 0,
+    "displayName": "Still Dangerous",
+    "hidden": 0,
+    "description": "In the Do Not Go Gentle scenario, destroy an enemy vehicle with the Tiger or b1 Bis tank.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1149940/a3fd8000ff981daae500ff8ddf21e4eb5d6de0c2.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1149940/acb4b7a33f0f9485b5e9f98aafbc50043af7f465.jpg"
+  },
+  {
+    "name": "DAY_OF_GLORY",
+    "defaultvalue": 0,
+    "displayName": "Day of Glory",
+    "hidden": 0,
+    "description": "Use the La Marseillaise skill to attempt to rally units that failed their first rally attempt this impulse.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1149940/a3fd8000ff981daae500ff8ddf21e4eb5d6de0c2.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1149940/377c31a89f4ea4b3efd2726ad60850d54524ffc3.jpg"
+  },
+  {
+    "name": "MODERN_ARMOR",
+    "defaultvalue": 0,
+    "displayName": "Modern Armor",
+    "hidden": 0,
+    "description": "Have a vehicle survive a hit by a HEAT weapon only because of its red armor values.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1149940/a3fd8000ff981daae500ff8ddf21e4eb5d6de0c2.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1149940/acb4b7a33f0f9485b5e9f98aafbc50043af7f465.jpg"
+  }
+]

@@ -1,0 +1,414 @@
+﻿{
+  "MAX_0": {
+    "description": "Total Party Levels",
+    "value": 0
+  },
+  "MAX_1": {
+    "description": "Total Mastery Levels",
+    "value": 0
+  },
+  "SUM_2": {
+    "description": "Number of Enemies Defeated",
+    "value": 0
+  },
+  "SUM_3": {
+    "description": "Gold Collected",
+    "value": 0
+  },
+  "REP_4": {
+    "description": "Largest Air Crit Combo",
+    "value": 0
+  },
+  "SUM_5": {
+    "description": "Total Revives",
+    "value": 0
+  },
+  "REP_6": {
+    "description": "Crystals Discovered",
+    "value": 0
+  },
+  "MAX_7": {
+    "description": "Game Progress",
+    "value": 0
+  },
+  "test_int": {
+    "description": "",
+    "value": 0
+  },
+  "test_float": {
+    "description": "",
+    "value": 0
+  },
+  "game_time": {
+    "description": "",
+    "value": 0
+  },
+  "W01_START": {
+    "description": "",
+    "value": 0
+  },
+  "W01_QUIT": {
+    "description": "",
+    "value": 0
+  },
+  "W01_FAIL": {
+    "description": "",
+    "value": 0
+  },
+  "W02_START": {
+    "description": "",
+    "value": 0
+  },
+  "W02_QUIT": {
+    "description": "",
+    "value": 0
+  },
+  "W02_FAIL": {
+    "description": "",
+    "value": 0
+  },
+  "W03_START": {
+    "description": "",
+    "value": 0
+  },
+  "W03_QUIT": {
+    "description": "",
+    "value": 0
+  },
+  "W03_FAIL": {
+    "description": "",
+    "value": 0
+  },
+  "W04_START": {
+    "description": "",
+    "value": 0
+  },
+  "W04_QUIT": {
+    "description": "",
+    "value": 0
+  },
+  "W04_FAIL": {
+    "description": "",
+    "value": 0
+  },
+  "W05_START": {
+    "description": "",
+    "value": 0
+  },
+  "W05_QUIT": {
+    "description": "",
+    "value": 0
+  },
+  "W05_FAIL": {
+    "description": "",
+    "value": 0
+  },
+  "W99_START": {
+    "description": "",
+    "value": 0
+  },
+  "W99_QUIT": {
+    "description": "",
+    "value": 0
+  },
+  "W99_FAIL": {
+    "description": "",
+    "value": 0
+  },
+  "PT_L_EN": {
+    "description": "",
+    "value": 0
+  },
+  "PT_LL_EN": {
+    "description": "",
+    "value": 0
+  },
+  "PT_LO_EN": {
+    "description": "",
+    "value": 0
+  },
+  "PT_LLL_EN": {
+    "description": "",
+    "value": 0
+  },
+  "PT_LLO_EN": {
+    "description": "",
+    "value": 0
+  },
+  "PT_LOO_EN": {
+    "description": "",
+    "value": 0
+  },
+  "PT_LLLL_EN": {
+    "description": "",
+    "value": 0
+  },
+  "PT_LLLO_EN": {
+    "description": "",
+    "value": 0
+  },
+  "PT_LLOO_EN": {
+    "description": "",
+    "value": 0
+  },
+  "PT_LOOO_EN": {
+    "description": "",
+    "value": 0
+  },
+  "PT_L_FR": {
+    "description": "",
+    "value": 0
+  },
+  "PT_LL_FR": {
+    "description": "",
+    "value": 0
+  },
+  "PT_LO_FR": {
+    "description": "",
+    "value": 0
+  },
+  "PT_LLL_FR": {
+    "description": "",
+    "value": 0
+  },
+  "PT_LLO_FR": {
+    "description": "",
+    "value": 0
+  },
+  "PT_LOO_FR": {
+    "description": "",
+    "value": 0
+  },
+  "PT_LLLL_FR": {
+    "description": "",
+    "value": 0
+  },
+  "PT_LLLO_FR": {
+    "description": "",
+    "value": 0
+  },
+  "PT_LLOO_FR": {
+    "description": "",
+    "value": 0
+  },
+  "PT_LOOO_FR": {
+    "description": "",
+    "value": 0
+  },
+  "PT_L_DE": {
+    "description": "",
+    "value": 0
+  },
+  "PT_LL_DE": {
+    "description": "",
+    "value": 0
+  },
+  "PT_LO_DE": {
+    "description": "",
+    "value": 0
+  },
+  "PT_LLL_DE": {
+    "description": "",
+    "value": 0
+  },
+  "PT_LLO_DE": {
+    "description": "",
+    "value": 0
+  },
+  "PT_LOO_DE": {
+    "description": "",
+    "value": 0
+  },
+  "PT_LLLL_DE": {
+    "description": "",
+    "value": 0
+  },
+  "PT_LLLO_DE": {
+    "description": "",
+    "value": 0
+  },
+  "PT_LLOO_DE": {
+    "description": "",
+    "value": 0
+  },
+  "PT_LOOO_DE": {
+    "description": "",
+    "value": 0
+  },
+  "PT_L_ES": {
+    "description": "",
+    "value": 0
+  },
+  "PT_LL_ES": {
+    "description": "",
+    "value": 0
+  },
+  "PT_LO_ES": {
+    "description": "",
+    "value": 0
+  },
+  "PT_LLL_ES": {
+    "description": "",
+    "value": 0
+  },
+  "PT_LLO_ES": {
+    "description": "",
+    "value": 0
+  },
+  "PT_LOO_ES": {
+    "description": "",
+    "value": 0
+  },
+  "PT_LLLL_ES": {
+    "description": "",
+    "value": 0
+  },
+  "PT_LLLO_ES": {
+    "description": "",
+    "value": 0
+  },
+  "PT_LLOO_ES": {
+    "description": "",
+    "value": 0
+  },
+  "PT_LOOO_ES": {
+    "description": "",
+    "value": 0
+  },
+  "PT_L_PT": {
+    "description": "",
+    "value": 0
+  },
+  "PT_LL_PT": {
+    "description": "",
+    "value": 0
+  },
+  "PT_LO_PT": {
+    "description": "",
+    "value": 0
+  },
+  "PT_LLL_PT": {
+    "description": "",
+    "value": 0
+  },
+  "PT_LLO_PT": {
+    "description": "",
+    "value": 0
+  },
+  "PT_LOO_PT": {
+    "description": "",
+    "value": 0
+  },
+  "PT_LLLL_PT": {
+    "description": "",
+    "value": 0
+  },
+  "PT_LLLO_PT": {
+    "description": "",
+    "value": 0
+  },
+  "PT_LLOO_PT": {
+    "description": "",
+    "value": 0
+  },
+  "PT_LOOO_PT": {
+    "description": "",
+    "value": 0
+  },
+  "PT_L_RU": {
+    "description": "",
+    "value": 0
+  },
+  "PT_LL_RU": {
+    "description": "",
+    "value": 0
+  },
+  "PT_LO_RU": {
+    "description": "",
+    "value": 0
+  },
+  "PT_LLL_RU": {
+    "description": "",
+    "value": 0
+  },
+  "PT_LLO_RU": {
+    "description": "",
+    "value": 0
+  },
+  "PT_LOO_RU": {
+    "description": "",
+    "value": 0
+  },
+  "PT_LLLL_RU": {
+    "description": "",
+    "value": 0
+  },
+  "PT_LLLO_RU": {
+    "description": "",
+    "value": 0
+  },
+  "PT_LLOO_RU": {
+    "description": "",
+    "value": 0
+  },
+  "PT_LOOO_RU": {
+    "description": "",
+    "value": 0
+  },
+  "PT_L_ZH": {
+    "description": "",
+    "value": 0
+  },
+  "PT_LL_ZH": {
+    "description": "",
+    "value": 0
+  },
+  "PT_LO_ZH": {
+    "description": "",
+    "value": 0
+  },
+  "PT_LLL_ZH": {
+    "description": "",
+    "value": 0
+  },
+  "PT_LLO_ZH": {
+    "description": "",
+    "value": 0
+  },
+  "PT_LOO_ZH": {
+    "description": "",
+    "value": 0
+  },
+  "PT_LLLL_ZH": {
+    "description": "",
+    "value": 0
+  },
+  "PT_LLLO_ZH": {
+    "description": "",
+    "value": 0
+  },
+  "PT_LLOO_ZH": {
+    "description": "",
+    "value": 0
+  },
+  "PT_LOOO_ZH": {
+    "description": "",
+    "value": 0
+  },
+  "ENG_COUNT": {
+    "description": "",
+    "value": 0
+  },
+  "FTR_COUNT": {
+    "description": "",
+    "value": 0
+  },
+  "SNP_COUNT": {
+    "description": "",
+    "value": 0
+  },
+  "TNK_COUNT": {
+    "description": "",
+    "value": 0
+  }
+}

@@ -1,0 +1,533 @@
+﻿[
+  {
+    "name": "Kill_Bronze",
+    "defaultvalue": 0,
+    "displayName": "10 kills",
+    "hidden": 0,
+    "description": "10 kills with one unit.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1240630/8ce7223cfdeadbff6af48bd03ff20dc5427cb692.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1240630/3f77f47b1786d2825074b20265ee44d787ddafa2.jpg"
+  },
+  {
+    "name": "Kill_Silver",
+    "defaultvalue": 0,
+    "displayName": "100 kills",
+    "hidden": 0,
+    "description": "100 kills with one unit.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1240630/8ce7223cfdeadbff6af48bd03ff20dc5427cb692.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1240630/3f77f47b1786d2825074b20265ee44d787ddafa2.jpg"
+  },
+  {
+    "name": "Kill_Gold",
+    "defaultvalue": 0,
+    "displayName": "500 kills",
+    "hidden": 0,
+    "description": "500 kills with one unit.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1240630/8ce7223cfdeadbff6af48bd03ff20dc5427cb692.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1240630/3f77f47b1786d2825074b20265ee44d787ddafa2.jpg"
+  },
+  {
+    "name": "Globetrotter_Bronze",
+    "defaultvalue": 0,
+    "displayName": "Globetrotter bronze",
+    "hidden": 0,
+    "description": "Move to 100 different tiles with one unit.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1240630/8ce7223cfdeadbff6af48bd03ff20dc5427cb692.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1240630/684c511ec6cc61104b34a1a23c390b83666c0e2e.jpg"
+  },
+  {
+    "name": "Globetrotter_Silver",
+    "defaultvalue": 0,
+    "displayName": "Globetrotter silver",
+    "hidden": 0,
+    "description": "Move to 500 different tiles with one unit.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1240630/8ce7223cfdeadbff6af48bd03ff20dc5427cb692.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1240630/3f77f47b1786d2825074b20265ee44d787ddafa2.jpg"
+  },
+  {
+    "name": "GetHero",
+    "defaultvalue": 0,
+    "displayName": "First hero",
+    "hidden": 0,
+    "description": "Getting your first hero.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1240630/8ce7223cfdeadbff6af48bd03ff20dc5427cb692.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1240630/3f77f47b1786d2825074b20265ee44d787ddafa2.jpg"
+  },
+  {
+    "name": "LoseHero",
+    "defaultvalue": 0,
+    "displayName": "Lost hero",
+    "hidden": 0,
+    "description": "Getting your first killed hero.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1240630/8ce7223cfdeadbff6af48bd03ff20dc5427cb692.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1240630/3f77f47b1786d2825074b20265ee44d787ddafa2.jpg"
+  },
+  {
+    "name": "InvadePoland",
+    "defaultvalue": 0,
+    "displayName": "Invade Poland",
+    "hidden": 0,
+    "description": "Successfully finish the German invasion of Poland.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1240630/8ce7223cfdeadbff6af48bd03ff20dc5427cb692.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1240630/3f77f47b1786d2825074b20265ee44d787ddafa2.jpg"
+  },
+  {
+    "name": "InvadeFrance",
+    "defaultvalue": 0,
+    "displayName": "Invade France",
+    "hidden": 0,
+    "description": "Successfully finish the German invasion of France.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1240630/8ce7223cfdeadbff6af48bd03ff20dc5427cb692.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1240630/3f77f47b1786d2825074b20265ee44d787ddafa2.jpg"
+  },
+  {
+    "name": "MapEditor",
+    "defaultvalue": 0,
+    "displayName": "Creator",
+    "hidden": 0,
+    "description": "Create and save your first map in the editor.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1240630/8ce7223cfdeadbff6af48bd03ff20dc5427cb692.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1240630/3f77f47b1786d2825074b20265ee44d787ddafa2.jpg"
+  },
+  {
+    "name": "Globetrotter_Gold",
+    "defaultvalue": 0,
+    "displayName": "Globetrotter gold",
+    "hidden": 0,
+    "description": "Move to 1000 different tiles with one unit.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1240630/8ce7223cfdeadbff6af48bd03ff20dc5427cb692.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1240630/3f77f47b1786d2825074b20265ee44d787ddafa2.jpg"
+  },
+  {
+    "name": "MoneyIsNice_Bronze",
+    "defaultvalue": 0,
+    "displayName": "Money is nice",
+    "hidden": 0,
+    "description": "Have 1000 money.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1240630/8ce7223cfdeadbff6af48bd03ff20dc5427cb692.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1240630/3f77f47b1786d2825074b20265ee44d787ddafa2.jpg"
+  },
+  {
+    "name": "MoneyIsNice_Silver",
+    "defaultvalue": 0,
+    "displayName": "Money is nice",
+    "hidden": 0,
+    "description": "Have 5000 money.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1240630/8ce7223cfdeadbff6af48bd03ff20dc5427cb692.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1240630/684c511ec6cc61104b34a1a23c390b83666c0e2e.jpg"
+  },
+  {
+    "name": "MoneyIsNice_Gold",
+    "defaultvalue": 0,
+    "displayName": "Money is nice",
+    "hidden": 0,
+    "description": "Have 10000 money.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1240630/8ce7223cfdeadbff6af48bd03ff20dc5427cb692.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1240630/3f77f47b1786d2825074b20265ee44d787ddafa2.jpg"
+  },
+  {
+    "name": "Conqueror_Bronze",
+    "defaultvalue": 0,
+    "displayName": "Conqueror",
+    "hidden": 0,
+    "description": "Conquer 100 Victory Points.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1240630/8ce7223cfdeadbff6af48bd03ff20dc5427cb692.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1240630/3f77f47b1786d2825074b20265ee44d787ddafa2.jpg"
+  },
+  {
+    "name": "Conqueror_Silver",
+    "defaultvalue": 0,
+    "displayName": "Conqueror",
+    "hidden": 0,
+    "description": "Conquer 250 Victory Points.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1240630/8ce7223cfdeadbff6af48bd03ff20dc5427cb692.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1240630/3f77f47b1786d2825074b20265ee44d787ddafa2.jpg"
+  },
+  {
+    "name": "Conqueror_Gold",
+    "defaultvalue": 0,
+    "displayName": "Conqueror",
+    "hidden": 0,
+    "description": "Conquer 500 Victory Points.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1240630/8ce7223cfdeadbff6af48bd03ff20dc5427cb692.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1240630/3f77f47b1786d2825074b20265ee44d787ddafa2.jpg"
+  },
+  {
+    "name": "Airborne",
+    "defaultvalue": 0,
+    "displayName": "Airborne !",
+    "hidden": 0,
+    "description": "Drop your first parachutist.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1240630/8ce7223cfdeadbff6af48bd03ff20dc5427cb692.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1240630/684c511ec6cc61104b34a1a23c390b83666c0e2e.jpg"
+  },
+  {
+    "name": "Wolfpack",
+    "defaultvalue": 0,
+    "displayName": "Wolfpack",
+    "hidden": 0,
+    "description": "Sink your first ship using a submarine.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1240630/8ce7223cfdeadbff6af48bd03ff20dc5427cb692.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1240630/3f77f47b1786d2825074b20265ee44d787ddafa2.jpg"
+  },
+  {
+    "name": "Shore bombardment",
+    "defaultvalue": 0,
+    "displayName": "Shore bombardment",
+    "hidden": 0,
+    "description": "Destroy and enemy ground unit with a battleship.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1240630/8ce7223cfdeadbff6af48bd03ff20dc5427cb692.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1240630/3f77f47b1786d2825074b20265ee44d787ddafa2.jpg"
+  },
+  {
+    "name": "Launch the game",
+    "defaultvalue": 0,
+    "displayName": "Launch the game !",
+    "hidden": 0,
+    "description": "You launched the game for the first time.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1240630/8ce7223cfdeadbff6af48bd03ff20dc5427cb692.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1240630/3f77f47b1786d2825074b20265ee44d787ddafa2.jpg"
+  },
+  {
+    "name": "MotorizeIt",
+    "defaultvalue": 0,
+    "displayName": "Motorize it !",
+    "hidden": 0,
+    "description": "Motorize a unit for the first time.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1240630/8ce7223cfdeadbff6af48bd03ff20dc5427cb692.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1240630/3f77f47b1786d2825074b20265ee44d787ddafa2.jpg"
+  },
+  {
+    "name": "MechanizeIt",
+    "defaultvalue": 0,
+    "displayName": "Mechanize it !",
+    "hidden": 0,
+    "description": "Mechanize a unit for the first time.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1240630/8ce7223cfdeadbff6af48bd03ff20dc5427cb692.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1240630/3f77f47b1786d2825074b20265ee44d787ddafa2.jpg"
+  },
+  {
+    "name": "HorseIt",
+    "defaultvalue": 0,
+    "displayName": "It's better with horses",
+    "hidden": 0,
+    "description": "Tow artillery or Anti-Air weapon with horses for the first time.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1240630/8ce7223cfdeadbff6af48bd03ff20dc5427cb692.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1240630/3f77f47b1786d2825074b20265ee44d787ddafa2.jpg"
+  },
+  {
+    "name": "InvadeLowCountries",
+    "defaultvalue": 0,
+    "displayName": "Invade the low countries",
+    "hidden": 0,
+    "description": "Successfully finish the invasion of the Low Countries.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1240630/cb828a34eab8f5008e36282317ced27566155d1f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1240630/3f77f47b1786d2825074b20265ee44d787ddafa2.jpg"
+  },
+  {
+    "name": "SicilyLanding",
+    "defaultvalue": 0,
+    "displayName": "Land in Sicily",
+    "hidden": 0,
+    "description": "Successfully finish the Sicily landing.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1240630/8ce7223cfdeadbff6af48bd03ff20dc5427cb692.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1240630/3f77f47b1786d2825074b20265ee44d787ddafa2.jpg"
+  },
+  {
+    "name": "NormandyLanding",
+    "defaultvalue": 0,
+    "displayName": "Land in Normandy",
+    "hidden": 0,
+    "description": "Successfully finish the Normandy landing.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1240630/8ce7223cfdeadbff6af48bd03ff20dc5427cb692.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1240630/3f77f47b1786d2825074b20265ee44d787ddafa2.jpg"
+  },
+  {
+    "name": "TakeKiev",
+    "defaultvalue": 0,
+    "displayName": "Take Kiev",
+    "hidden": 0,
+    "description": "Take the city of Kiev in the German campaign.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1240630/8ce7223cfdeadbff6af48bd03ff20dc5427cb692.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1240630/3f77f47b1786d2825074b20265ee44d787ddafa2.jpg"
+  },
+  {
+    "name": "TakeSevastopol",
+    "defaultvalue": 0,
+    "displayName": "Take Sevastopol",
+    "hidden": 0,
+    "description": "Take the city of Sevastopol in the German campaign.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1240630/8ce7223cfdeadbff6af48bd03ff20dc5427cb692.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1240630/3f77f47b1786d2825074b20265ee44d787ddafa2.jpg"
+  },
+  {
+    "name": "DropTank",
+    "defaultvalue": 0,
+    "displayName": "To infinity and beyond !",
+    "hidden": 0,
+    "description": "Equip a plane with a drop tank.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1240630/8ce7223cfdeadbff6af48bd03ff20dc5427cb692.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1240630/3f77f47b1786d2825074b20265ee44d787ddafa2.jpg"
+  },
+  {
+    "name": "Rockets",
+    "defaultvalue": 0,
+    "displayName": "Rocket science",
+    "hidden": 0,
+    "description": "Equip a plane with rockets.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1240630/8ce7223cfdeadbff6af48bd03ff20dc5427cb692.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1240630/3f77f47b1786d2825074b20265ee44d787ddafa2.jpg"
+  },
+  {
+    "name": "Torpedo",
+    "defaultvalue": 0,
+    "displayName": "Ship killer",
+    "hidden": 0,
+    "description": "Equip a plane with a torpedo.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1240630/8ce7223cfdeadbff6af48bd03ff20dc5427cb692.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1240630/3f77f47b1786d2825074b20265ee44d787ddafa2.jpg"
+  },
+  {
+    "name": "Flamethrower",
+    "defaultvalue": 0,
+    "displayName": "Burn them",
+    "hidden": 0,
+    "description": "Buy a unit that has a flamethrower.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1240630/8ce7223cfdeadbff6af48bd03ff20dc5427cb692.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1240630/3f77f47b1786d2825074b20265ee44d787ddafa2.jpg"
+  },
+  {
+    "name": "AttritionWar",
+    "defaultvalue": 0,
+    "displayName": "Attrition war",
+    "hidden": 0,
+    "description": "Bring the fuel stock or the ammo number of the enemy to 0",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1240630/8ce7223cfdeadbff6af48bd03ff20dc5427cb692.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1240630/3f77f47b1786d2825074b20265ee44d787ddafa2.jpg"
+  },
+  {
+    "name": "UnitEditor",
+    "defaultvalue": 0,
+    "displayName": "Frankenstein",
+    "hidden": 0,
+    "description": "Create your first unit from scratch",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1240630/8ce7223cfdeadbff6af48bd03ff20dc5427cb692.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1240630/3f77f47b1786d2825074b20265ee44d787ddafa2.jpg"
+  },
+  {
+    "name": "Cheater",
+    "defaultvalue": 0,
+    "displayName": "Cheater !",
+    "hidden": 0,
+    "description": "Modify the stats of the base unit of the game",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1240630/8ce7223cfdeadbff6af48bd03ff20dc5427cb692.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1240630/3f77f47b1786d2825074b20265ee44d787ddafa2.jpg"
+  },
+  {
+    "name": "Surrender",
+    "defaultvalue": 0,
+    "displayName": "Surrender",
+    "hidden": 0,
+    "description": "Make an enemy unit surrender",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1240630/8ce7223cfdeadbff6af48bd03ff20dc5427cb692.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1240630/3f77f47b1786d2825074b20265ee44d787ddafa2.jpg"
+  },
+  {
+    "name": "Retreat",
+    "defaultvalue": 0,
+    "displayName": "Retreat",
+    "hidden": 0,
+    "description": "Make an enemy unit retreat",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1240630/8ce7223cfdeadbff6af48bd03ff20dc5427cb692.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1240630/3f77f47b1786d2825074b20265ee44d787ddafa2.jpg"
+  },
+  {
+    "name": "Upload mod",
+    "defaultvalue": 0,
+    "displayName": "Upload your first mod !",
+    "hidden": 0,
+    "description": "Upload your first mod to the workshop",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1240630/cb828a34eab8f5008e36282317ced27566155d1f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1240630/684c511ec6cc61104b34a1a23c390b83666c0e2e.jpg"
+  },
+  {
+    "name": "Subscribe mod",
+    "defaultvalue": 0,
+    "displayName": "Follower",
+    "hidden": 0,
+    "description": "Subscribe to at least 1 item in the workshop",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1240630/cb828a34eab8f5008e36282317ced27566155d1f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1240630/684c511ec6cc61104b34a1a23c390b83666c0e2e.jpg"
+  },
+  {
+    "name": "Regicide",
+    "defaultvalue": 0,
+    "displayName": "Regicide",
+    "hidden": 0,
+    "description": "Kill an enemy general",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1240630/cb828a34eab8f5008e36282317ced27566155d1f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1240630/684c511ec6cc61104b34a1a23c390b83666c0e2e.jpg"
+  },
+  {
+    "name": "Desperate war",
+    "defaultvalue": 0,
+    "displayName": "Desperate war",
+    "hidden": 0,
+    "description": "Buy a volkssturm unit",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1240630/cb828a34eab8f5008e36282317ced27566155d1f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1240630/684c511ec6cc61104b34a1a23c390b83666c0e2e.jpg"
+  },
+  {
+    "name": "Operation Barbarossa Allies",
+    "defaultvalue": 0,
+    "displayName": "Power to the soviets",
+    "hidden": 0,
+    "description": "Win the eastern front campaign huge map as the USSR.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1240630/8ce7223cfdeadbff6af48bd03ff20dc5427cb692.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1240630/3f77f47b1786d2825074b20265ee44d787ddafa2.jpg"
+  },
+  {
+    "name": "Operation Barbarossa Axis",
+    "defaultvalue": 0,
+    "displayName": "Almighty third reich",
+    "hidden": 0,
+    "description": "Win the eastern front huge map as Germany.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1240630/cb828a34eab8f5008e36282317ced27566155d1f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1240630/3f77f47b1786d2825074b20265ee44d787ddafa2.jpg"
+  },
+  {
+    "name": "Pacific Allies",
+    "defaultvalue": 0,
+    "displayName": "Democracy in the Pacific",
+    "hidden": 0,
+    "description": "Win the Pacific huge map as the Allies.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1240630/8ce7223cfdeadbff6af48bd03ff20dc5427cb692.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1240630/684c511ec6cc61104b34a1a23c390b83666c0e2e.jpg"
+  },
+  {
+    "name": "Pacific Axis",
+    "defaultvalue": 0,
+    "displayName": "Long live imperial Japan",
+    "hidden": 0,
+    "description": "Win the Pacific huge map as the Axis.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1240630/8ce7223cfdeadbff6af48bd03ff20dc5427cb692.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1240630/3f77f47b1786d2825074b20265ee44d787ddafa2.jpg"
+  },
+  {
+    "name": "Afrikakorps Allies",
+    "defaultvalue": 0,
+    "displayName": "They bite the dust",
+    "hidden": 0,
+    "description": "Defeat the Axis on the huge map of North Africa.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1240630/8ce7223cfdeadbff6af48bd03ff20dc5427cb692.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1240630/3f77f47b1786d2825074b20265ee44d787ddafa2.jpg"
+  },
+  {
+    "name": "Afrikakorps Axis",
+    "defaultvalue": 0,
+    "displayName": "Successful Afrikakorps",
+    "hidden": 0,
+    "description": "Win the Afrikakorps as the Axis on the huge map of North Africa.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1240630/8ce7223cfdeadbff6af48bd03ff20dc5427cb692.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1240630/3f77f47b1786d2825074b20265ee44d787ddafa2.jpg"
+  },
+  {
+    "name": "Europe 1939 Germany",
+    "defaultvalue": 0,
+    "displayName": "Master of Europe 1939 : Germany",
+    "hidden": 0,
+    "description": "Achieve victory with your faction while playing on the official huge map of Europe.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1240630/8ce7223cfdeadbff6af48bd03ff20dc5427cb692.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1240630/3f77f47b1786d2825074b20265ee44d787ddafa2.jpg"
+  },
+  {
+    "name": "Europe 1939 Italy",
+    "defaultvalue": 0,
+    "displayName": "Master of Europe 1939 : Italy",
+    "hidden": 0,
+    "description": "Achieve victory with your faction while playing on the official huge map of Europe.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1240630/8ce7223cfdeadbff6af48bd03ff20dc5427cb692.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1240630/3f77f47b1786d2825074b20265ee44d787ddafa2.jpg"
+  },
+  {
+    "name": "Europe 1939 Great Britain",
+    "defaultvalue": 0,
+    "displayName": "Master of Europe 1939 : Great Britain",
+    "hidden": 0,
+    "description": "Achieve victory with your faction while playing on the official huge map of Europe.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1240630/cb828a34eab8f5008e36282317ced27566155d1f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1240630/3f77f47b1786d2825074b20265ee44d787ddafa2.jpg"
+  },
+  {
+    "name": "Europe 1939 France",
+    "defaultvalue": 0,
+    "displayName": "Master of Europe : France",
+    "hidden": 0,
+    "description": "Achieve victory with your faction while playing on the official huge map of Europe.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1240630/8ce7223cfdeadbff6af48bd03ff20dc5427cb692.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1240630/3f77f47b1786d2825074b20265ee44d787ddafa2.jpg"
+  },
+  {
+    "name": "Europe 1939 Poland",
+    "defaultvalue": 0,
+    "displayName": "Master of Europe 1939 : Poland",
+    "hidden": 0,
+    "description": "Achieve victory with your faction while playing on the official huge map of Europe.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1240630/8ce7223cfdeadbff6af48bd03ff20dc5427cb692.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1240630/3f77f47b1786d2825074b20265ee44d787ddafa2.jpg"
+  },
+  {
+    "name": "Europe 1939 Soviet Union",
+    "defaultvalue": 0,
+    "displayName": "Master of Europe 1939 : Soviet Union",
+    "hidden": 0,
+    "description": "Achieve victory with your faction while playing on the official huge map of Europe.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1240630/8ce7223cfdeadbff6af48bd03ff20dc5427cb692.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1240630/3f77f47b1786d2825074b20265ee44d787ddafa2.jpg"
+  },
+  {
+    "name": "Italy 1943 Axis",
+    "defaultvalue": 0,
+    "displayName": "Italy 1943 : Axis",
+    "hidden": 0,
+    "description": "Achieve victory with your faction while playing on the official huge map of Italy.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1240630/8ce7223cfdeadbff6af48bd03ff20dc5427cb692.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1240630/3f77f47b1786d2825074b20265ee44d787ddafa2.jpg"
+  },
+  {
+    "name": "Italy 1943 Allies",
+    "defaultvalue": 0,
+    "displayName": "Italy 1943 : Allies",
+    "hidden": 0,
+    "description": "Achieve victory with your faction while playing on the official huge map of Italy.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1240630/8ce7223cfdeadbff6af48bd03ff20dc5427cb692.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1240630/3f77f47b1786d2825074b20265ee44d787ddafa2.jpg"
+  },
+  {
+    "name": "NATO",
+    "defaultvalue": 0,
+    "displayName": "Show me those counters",
+    "hidden": 0,
+    "description": "Toggle the NATO counters",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1240630/8ce7223cfdeadbff6af48bd03ff20dc5427cb692.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1240630/684c511ec6cc61104b34a1a23c390b83666c0e2e.jpg"
+  },
+  {
+    "name": "Operation Citadel Axis",
+    "defaultvalue": 0,
+    "displayName": "Successful Operation Citadel",
+    "hidden": 0,
+    "description": "Win the Operation Citadel scenario on the Eastern front as the Axis powers.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1240630/8ce7223cfdeadbff6af48bd03ff20dc5427cb692.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1240630/3f77f47b1786d2825074b20265ee44d787ddafa2.jpg"
+  },
+  {
+    "name": "Operation Citadel Allies",
+    "defaultvalue": 0,
+    "displayName": "Successful defence of Kursk",
+    "hidden": 0,
+    "description": "Win the Operation Citadel scenario on the Eastern front as the Soviets,",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1240630/8ce7223cfdeadbff6af48bd03ff20dc5427cb692.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1240630/3f77f47b1786d2825074b20265ee44d787ddafa2.jpg"
+  }
+]

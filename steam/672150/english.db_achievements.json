@@ -1,0 +1,659 @@
+﻿[
+  {
+    "name": "completeEarth",
+    "defaultvalue": 0,
+    "displayName": "Complete Earth",
+    "hidden": 0,
+    "description": "Complete all towns on Earth",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/672150/ee5163a52a5dff3f1b3a8892f4063963eaf4fb08.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/672150/ee5163a52a5dff3f1b3a8892f4063963eaf4fb08.jpg"
+  },
+  {
+    "name": "_LEmodCompleteMailbox5",
+    "defaultvalue": 0,
+    "displayName": "Complete 5 Businesses",
+    "hidden": 0,
+    "description": "Complete 5 Businesses on Earth",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/672150/2637f6c46a01fc0eafa893585f504b98d2722d2f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/672150/a74bc37de5f287c7aa8a14988b04b5c33b1dd650.jpg"
+  },
+  {
+    "name": "_LEmodCompleteMailbox10",
+    "defaultvalue": 0,
+    "displayName": "Complete 10 Businesses",
+    "hidden": 0,
+    "description": "Complete 10 Businesses on Earth",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/672150/fb76cf464eed321b76b2b6851e72a3f6a61144a6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/672150/d38b15ea5a7be1af25e1ee433d254b73f91c9e2f.jpg"
+  },
+  {
+    "name": "_LEmodCompleteMailbox20",
+    "defaultvalue": 0,
+    "displayName": "Complete 20 Businesses",
+    "hidden": 0,
+    "description": "Complete 20 Businesses on Earth",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/672150/fb76cf464eed321b76b2b6851e72a3f6a61144a6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/672150/a74bc37de5f287c7aa8a14988b04b5c33b1dd650.jpg"
+  },
+  {
+    "name": "_LEmodCompleteMailbox50",
+    "defaultvalue": 0,
+    "displayName": "Complete 50 Businesses",
+    "hidden": 0,
+    "description": "Complete 50 Businesses on Earth",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/672150/2637f6c46a01fc0eafa893585f504b98d2722d2f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/672150/d38b15ea5a7be1af25e1ee433d254b73f91c9e2f.jpg"
+  },
+  {
+    "name": "_LEmodCompleteMailbox100",
+    "defaultvalue": 0,
+    "displayName": "Complete 100 Businesses",
+    "hidden": 0,
+    "description": "Complete 100 Businesses on Earth",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/672150/26c6b9add313576ea6486de95b4a196966f1153a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/672150/a74bc37de5f287c7aa8a14988b04b5c33b1dd650.jpg"
+  },
+  {
+    "name": "_LEmodCompleteMailbox200",
+    "defaultvalue": 0,
+    "displayName": "Complete 200 Businesses",
+    "hidden": 0,
+    "description": "Complete 200 Businesses on Earth",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/672150/26c6b9add313576ea6486de95b4a196966f1153a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/672150/a74bc37de5f287c7aa8a14988b04b5c33b1dd650.jpg"
+  },
+  {
+    "name": "_LEmodCompleteMailbox500",
+    "defaultvalue": 0,
+    "displayName": "Complete 500 Businesses",
+    "hidden": 0,
+    "description": "Complete 500 Businesses on Earth",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/672150/183616240923ba70ef94372da1655e2892b0fe21.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/672150/a74bc37de5f287c7aa8a14988b04b5c33b1dd650.jpg"
+  },
+  {
+    "name": "_LEmodCompleteMailbox1000",
+    "defaultvalue": 0,
+    "displayName": "Complete 1000 Businesses",
+    "hidden": 0,
+    "description": "Complete 1000 Businesses on Earth",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/672150/fc774f27ccf978b57df46c4b5cb1dc3bde616bd1.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/672150/a74bc37de5f287c7aa8a14988b04b5c33b1dd650.jpg"
+  },
+  {
+    "name": "_LEmodCompleteMailbox2000",
+    "defaultvalue": 0,
+    "displayName": "Complete 2000 Businesses",
+    "hidden": 0,
+    "description": "Complete 2000 Businesses on Earth",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/672150/7895ce52a0cc3f12fc59751444345138145279e8.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/672150/d38b15ea5a7be1af25e1ee433d254b73f91c9e2f.jpg"
+  },
+  {
+    "name": "_LEmodCompleteMailbox5000",
+    "defaultvalue": 0,
+    "displayName": "Complete 5,000 Businesses",
+    "hidden": 0,
+    "description": "Complete 5,000 Businesses on Earth",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/672150/f8c97b2d3062d85ae6137b589c38868f56de1b88.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/672150/d38b15ea5a7be1af25e1ee433d254b73f91c9e2f.jpg"
+  },
+  {
+    "name": "_LEmodCompleteMailbox10000",
+    "defaultvalue": 0,
+    "displayName": "Complete 10,000 Businesses",
+    "hidden": 0,
+    "description": "Complete 10,000 Businesses on Earth",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/672150/682720aa420b23172c68e9a385a3b1444dd4b361.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/672150/d38b15ea5a7be1af25e1ee433d254b73f91c9e2f.jpg"
+  },
+  {
+    "name": "_LEmodCompleteMailbox20000",
+    "defaultvalue": 0,
+    "displayName": "Complete 20,000 Businesses",
+    "hidden": 0,
+    "description": "Complete 20,000 Businesses on Earth",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/672150/682720aa420b23172c68e9a385a3b1444dd4b361.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/672150/a74bc37de5f287c7aa8a14988b04b5c33b1dd650.jpg"
+  },
+  {
+    "name": "_LEmodCompleteMailbox50000",
+    "defaultvalue": 0,
+    "displayName": "Complete 50,000 Businesses",
+    "hidden": 0,
+    "description": "Complete 50,000 Businesses on Earth",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/672150/1a08cb5b2e9fa178488c1ff44a40985604978d1c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/672150/d38b15ea5a7be1af25e1ee433d254b73f91c9e2f.jpg"
+  },
+  {
+    "name": "_LEmodCompleteMailbox100000",
+    "defaultvalue": 0,
+    "displayName": "Complete 100,000 Businesses",
+    "hidden": 0,
+    "description": "Complete 100,000 Businesses on Earth",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/672150/2a7f2a569eca8749f397ce5ec2f29975edcae4cd.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/672150/d38b15ea5a7be1af25e1ee433d254b73f91c9e2f.jpg"
+  },
+  {
+    "name": "99706230919",
+    "defaultvalue": 0,
+    "displayName": "Expand to Australia",
+    "hidden": 0,
+    "description": "Complete the town and expand to Australia",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/672150/34c032e1484783aa82a52574b4fd9f4fde05612e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/672150/f5fe86986550fb468669300b55fa8d06fbe1c670.jpg"
+  },
+  {
+    "name": "99702186313",
+    "defaultvalue": 0,
+    "displayName": "Expand to Germany",
+    "hidden": 0,
+    "description": "Complete the town and expand to Germany",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/672150/85f9e11acb2dd0ddcf71e1e5d7780368c2fe7e16.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/672150/f5fe86986550fb468669300b55fa8d06fbe1c670.jpg"
+  },
+  {
+    "name": "99702825297",
+    "defaultvalue": 0,
+    "displayName": "Expand to Croatia",
+    "hidden": 0,
+    "description": "Complete the town and expand to Croatia",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/672150/9a75d458ba6de49a992d90877bf9b865a5082cc9.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/672150/f5fe86986550fb468669300b55fa8d06fbe1c670.jpg"
+  },
+  {
+    "name": "99702192362",
+    "defaultvalue": 0,
+    "displayName": "Expand to South Korea",
+    "hidden": 0,
+    "description": "Complete the town and expand to South Korea",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/672150/4dd1f2a7daca2684f78f59e37abcf4bc3b2eac3c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/672150/3bb7fe315fefc71e199aa03cbd3395880b436462.jpg"
+  },
+  {
+    "name": "99701864031",
+    "defaultvalue": 0,
+    "displayName": "Bricks in Japan",
+    "hidden": 0,
+    "description": "Complete the town with bricks in Japan",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/672150/072d78d7ee6f63eb19d06e944c3f1592d2f53420.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/672150/3bb7fe315fefc71e199aa03cbd3395880b436462.jpg"
+  },
+  {
+    "name": "9970522260",
+    "defaultvalue": 0,
+    "displayName": "Mine your Silver",
+    "hidden": 0,
+    "description": "Complete the town to mine your Silver",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/672150/0a528ddb386f3048c669e873303978a335e78e8f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/672150/f5fe86986550fb468669300b55fa8d06fbe1c670.jpg"
+  },
+  {
+    "name": "9973000034",
+    "defaultvalue": 0,
+    "displayName": "Mine your Opals",
+    "hidden": 0,
+    "description": "Complete the town to mine your Opals",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/672150/58af487f9fd859c5efa803c7338d9a5b6474c5c5.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/672150/3bb7fe315fefc71e199aa03cbd3395880b436462.jpg"
+  },
+  {
+    "name": "99702187454",
+    "defaultvalue": 0,
+    "displayName": "Complete a Town",
+    "hidden": 0,
+    "description": "Complete a Town Contract",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/672150/594ed15e1fb06b9946d896f75f2603741e673f89.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/672150/f5fe86986550fb468669300b55fa8d06fbe1c670.jpg"
+  },
+  {
+    "name": "99706231568",
+    "defaultvalue": 0,
+    "displayName": "Supply an Industry",
+    "hidden": 0,
+    "description": "Supply an Industry Contract",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/672150/69cd61dadb9d4b9b5e26010b098013b887e36d36.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/672150/3bb7fe315fefc71e199aa03cbd3395880b436462.jpg"
+  },
+  {
+    "name": "99706231571",
+    "defaultvalue": 0,
+    "displayName": "Moving Sheep",
+    "hidden": 0,
+    "description": "Moving Sheep Contract",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/672150/85f9e11acb2dd0ddcf71e1e5d7780368c2fe7e16.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/672150/f5fe86986550fb468669300b55fa8d06fbe1c670.jpg"
+  },
+  {
+    "name": "997075490796",
+    "defaultvalue": 0,
+    "displayName": "Air Freight",
+    "hidden": 0,
+    "description": "Air Freight Contract",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/672150/e3d8269c0b6a17186696e22cd89d09e2687bb39f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/672150/3bb7fe315fefc71e199aa03cbd3395880b436462.jpg"
+  },
+  {
+    "name": "99706354985",
+    "defaultvalue": 0,
+    "displayName": "Hungary Truckers",
+    "hidden": 0,
+    "description": "Hungary Truckers Contract",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/672150/4dd1f2a7daca2684f78f59e37abcf4bc3b2eac3c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/672150/f5fe86986550fb468669300b55fa8d06fbe1c670.jpg"
+  },
+  {
+    "name": "9973000019",
+    "defaultvalue": 0,
+    "displayName": "Tirelessly looking for Rubber",
+    "hidden": 0,
+    "description": "Tirelessly looking for Rubber Contract",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/672150/15295fb61290d0bea8174c6fa2f69e7413724c8c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/672150/3bb7fe315fefc71e199aa03cbd3395880b436462.jpg"
+  },
+  {
+    "name": "997010103855",
+    "defaultvalue": 0,
+    "displayName": "Australian Rail: Part 1",
+    "hidden": 0,
+    "description": "Australian Rail: Part 1 Contract",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/672150/f470d8d99f717b9d42f465dd1ee2fcb3eedf76df.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/672150/3bb7fe315fefc71e199aa03cbd3395880b436462.jpg"
+  },
+  {
+    "name": "99708348074",
+    "defaultvalue": 0,
+    "displayName": "Australian Rail: Part 2",
+    "hidden": 0,
+    "description": "Australian Rail: Part 2 Contract",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/672150/58af487f9fd859c5efa803c7338d9a5b6474c5c5.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/672150/3bb7fe315fefc71e199aa03cbd3395880b436462.jpg"
+  },
+  {
+    "name": "99702863696",
+    "defaultvalue": 0,
+    "displayName": "Denmark Road Fix #1",
+    "hidden": 0,
+    "description": "Denmark Road Fix #1 Contract",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/672150/69cd61dadb9d4b9b5e26010b098013b887e36d36.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/672150/f5fe86986550fb468669300b55fa8d06fbe1c670.jpg"
+  },
+  {
+    "name": "99702620279",
+    "defaultvalue": 0,
+    "displayName": "Denmark Road Fix #2",
+    "hidden": 0,
+    "description": "Denmark Road Fix #2 Contract",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/672150/34c032e1484783aa82a52574b4fd9f4fde05612e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/672150/f5fe86986550fb468669300b55fa8d06fbe1c670.jpg"
+  },
+  {
+    "name": "99703134865",
+    "defaultvalue": 0,
+    "displayName": "Norway Road Fix #1",
+    "hidden": 0,
+    "description": "Norway Road Fix #1 Contract",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/672150/7559aa24e3f9347a734d3372530aaa50f8c90827.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/672150/3bb7fe315fefc71e199aa03cbd3395880b436462.jpg"
+  },
+  {
+    "name": "99703158300",
+    "defaultvalue": 0,
+    "displayName": "Sweden Road Fix #1",
+    "hidden": 0,
+    "description": "Sweden Road Fix #1 Contract",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/672150/e3d8269c0b6a17186696e22cd89d09e2687bb39f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/672150/3bb7fe315fefc71e199aa03cbd3395880b436462.jpg"
+  },
+  {
+    "name": "99702706767",
+    "defaultvalue": 0,
+    "displayName": "Denmark Road Fix #3",
+    "hidden": 0,
+    "description": "Denmark Road Fix #3 Contract",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/672150/4dd1f2a7daca2684f78f59e37abcf4bc3b2eac3c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/672150/3bb7fe315fefc71e199aa03cbd3395880b436462.jpg"
+  },
+  {
+    "name": "99701838524",
+    "defaultvalue": 0,
+    "displayName": "Japan Ferry Fix",
+    "hidden": 0,
+    "description": "Japan Ferry Fix Contract",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/672150/072d78d7ee6f63eb19d06e944c3f1592d2f53420.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/672150/f5fe86986550fb468669300b55fa8d06fbe1c670.jpg"
+  },
+  {
+    "name": "99701840179",
+    "defaultvalue": 0,
+    "displayName": "North Korea Road Fix",
+    "hidden": 0,
+    "description": "North Korea Road Fix Contract",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/672150/0a528ddb386f3048c669e873303978a335e78e8f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/672150/3bb7fe315fefc71e199aa03cbd3395880b436462.jpg"
+  },
+  {
+    "name": "9970500667",
+    "defaultvalue": 0,
+    "displayName": "Belarus Rail Fix",
+    "hidden": 0,
+    "description": "Belarus Rail Fix Contract",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/672150/58af487f9fd859c5efa803c7338d9a5b6474c5c5.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/672150/3bb7fe315fefc71e199aa03cbd3395880b436462.jpg"
+  },
+  {
+    "name": "99703191316",
+    "defaultvalue": 0,
+    "displayName": "Slovenia Road Fix",
+    "hidden": 0,
+    "description": "Slovenia Road Fix Contract",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/672150/594ed15e1fb06b9946d896f75f2603741e673f89.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/672150/3bb7fe315fefc71e199aa03cbd3395880b436462.jpg"
+  },
+  {
+    "name": "99703191839",
+    "defaultvalue": 0,
+    "displayName": "Austria Road Fix",
+    "hidden": 0,
+    "description": "Austria Road Fix Contract",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/672150/34c032e1484783aa82a52574b4fd9f4fde05612e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/672150/f5fe86986550fb468669300b55fa8d06fbe1c670.jpg"
+  },
+  {
+    "name": "99703066184",
+    "defaultvalue": 0,
+    "displayName": "Poland Rail Fix",
+    "hidden": 0,
+    "description": "Poland Rail Fix Contract",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/672150/85f9e11acb2dd0ddcf71e1e5d7780368c2fe7e16.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/672150/3bb7fe315fefc71e199aa03cbd3395880b436462.jpg"
+  },
+  {
+    "name": "99702776988",
+    "defaultvalue": 0,
+    "displayName": "Slovakia Road Fix",
+    "hidden": 0,
+    "description": "Slovakia Road Fix Contract",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/672150/9a75d458ba6de49a992d90877bf9b865a5082cc9.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/672150/f5fe86986550fb468669300b55fa8d06fbe1c670.jpg"
+  },
+  {
+    "name": "99703059436",
+    "defaultvalue": 0,
+    "displayName": "Hungary Road Fix #1",
+    "hidden": 0,
+    "description": "Hungary Road Fix #1 Contract",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/672150/0d78548759d2064de19b472bdf04247b7ddbcb9c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/672150/3bb7fe315fefc71e199aa03cbd3395880b436462.jpg"
+  },
+  {
+    "name": "99702771814",
+    "defaultvalue": 0,
+    "displayName": "Germany Rail Fix #1",
+    "hidden": 0,
+    "description": "Germany Rail Fix #1 Contract",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/672150/072d78d7ee6f63eb19d06e944c3f1592d2f53420.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/672150/3bb7fe315fefc71e199aa03cbd3395880b436462.jpg"
+  },
+  {
+    "name": "99702830582",
+    "defaultvalue": 0,
+    "displayName": "Rhine River Road Fix",
+    "hidden": 0,
+    "description": "Rhine River Road Fix Contract",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/672150/f470d8d99f717b9d42f465dd1ee2fcb3eedf76df.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/672150/f5fe86986550fb468669300b55fa8d06fbe1c670.jpg"
+  },
+  {
+    "name": "_LEmodCompleteTowns5",
+    "defaultvalue": 0,
+    "displayName": "Complete 5 Towns",
+    "hidden": 0,
+    "description": "Complete 5 Towns on Earth",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/672150/413e9d4140cd544d76aa8c2bf4163041a626562e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/672150/83f4e81207d2763c7ae094c930b887730f303077.jpg"
+  },
+  {
+    "name": "_LEmodCompleteTowns10",
+    "defaultvalue": 0,
+    "displayName": "Complete 10 Towns",
+    "hidden": 0,
+    "description": "Complete 10 Towns on Earth",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/672150/fe6c6d2b3c8ac31d46c36c537a6bddc9e43f5fb1.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/672150/6e4e4d553242dd5ae851fdbf3b8239f60285abc5.jpg"
+  },
+  {
+    "name": "_LEmodCompleteTowns20",
+    "defaultvalue": 0,
+    "displayName": "Complete 20 Towns",
+    "hidden": 0,
+    "description": "Complete 20 Towns on Earth",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/672150/413e9d4140cd544d76aa8c2bf4163041a626562e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/672150/6e4e4d553242dd5ae851fdbf3b8239f60285abc5.jpg"
+  },
+  {
+    "name": "_LEmodCompleteTowns50",
+    "defaultvalue": 0,
+    "displayName": "Complete 50 Towns",
+    "hidden": 0,
+    "description": "Complete 50 Towns on Earth",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/672150/2a01b7a0c27ab6896f50c65891addc8ca5a67ee0.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/672150/e61a422e721e9186fd77ae29ce303cdb3f8e31f7.jpg"
+  },
+  {
+    "name": "_LEmodCompleteTowns100",
+    "defaultvalue": 0,
+    "displayName": "Complete 100 Towns",
+    "hidden": 0,
+    "description": "Complete 100 Towns on Earth",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/672150/aca10c04f07f663568173f4db52b1585ff652465.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/672150/cbd068fc8ef510ab17fc0d1ee520ff9ec07d0e40.jpg"
+  },
+  {
+    "name": "_LEmodCompleteTowns200",
+    "defaultvalue": 0,
+    "displayName": "Complete 200 Towns",
+    "hidden": 0,
+    "description": "Complete 200 Towns on Earth",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/672150/1b417770dc6d96dde85fb250aebce288de06f177.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/672150/bb631af33d0796da1df5f5e9bb1d503c4a5eaacd.jpg"
+  },
+  {
+    "name": "_LEmodCompleteTowns500",
+    "defaultvalue": 0,
+    "displayName": "Complete 500 Towns",
+    "hidden": 0,
+    "description": "Complete 500 Towns on Earth",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/672150/1b417770dc6d96dde85fb250aebce288de06f177.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/672150/73b8fa285673c82a0b19703a0baa13e3c470da94.jpg"
+  },
+  {
+    "name": "_LEmodCompleteTowns1000",
+    "defaultvalue": 0,
+    "displayName": "Complete 1,000 Towns",
+    "hidden": 0,
+    "description": "Complete 1,000 Towns on Earth",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/672150/8cb563bb97421921342441e7b0e347f9f0578b1b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/672150/92087a63fe2416324e060ffaca75a1fdc7869e37.jpg"
+  },
+  {
+    "name": "_LEmodCompleteTowns2000",
+    "defaultvalue": 0,
+    "displayName": "Complete 2,000 Towns",
+    "hidden": 0,
+    "description": "Complete 2,000 Towns on Earth",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/672150/8cb563bb97421921342441e7b0e347f9f0578b1b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/672150/9ebf4de1ebd4e54245f2308c1c6489f0321527d9.jpg"
+  },
+  {
+    "name": "_LEmodCompleteTowns5000",
+    "defaultvalue": 0,
+    "displayName": "Complete 5,000 Towns",
+    "hidden": 0,
+    "description": "Complete 5,000 Towns on Earth",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/672150/0bd88a57381a40c88f92ba84ff1b20d10ff8a697.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/672150/598ca877aa4d084eb8a0cf8a5b7bff1a04c67ad1.jpg"
+  },
+  {
+    "name": "_LEmodCompleteTowns10000",
+    "defaultvalue": 0,
+    "displayName": "Complete 10,000 Towns",
+    "hidden": 0,
+    "description": "Complete 10,000 Towns on Earth",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/672150/ef3cf0cb63daac9cb72f720a3fc2932f26410798.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/672150/598ca877aa4d084eb8a0cf8a5b7bff1a04c67ad1.jpg"
+  },
+  {
+    "name": "_LEmodCompleteTowns20000",
+    "defaultvalue": 0,
+    "displayName": "Complete 20,000 Towns",
+    "hidden": 0,
+    "description": "Complete 20,000 Towns on Earth",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/672150/97f2f5f1330b83f8f37b5128ad97289a8965bbb8.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/672150/6b8b9860b7d477ce655d5c706835b6dbddb1d32b.jpg"
+  },
+  {
+    "name": "99702870911",
+    "defaultvalue": 0,
+    "displayName": "Lower Saxony Road Fix",
+    "hidden": 0,
+    "description": "Lower Saxony Road Fix Contract",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/672150/58af487f9fd859c5efa803c7338d9a5b6474c5c5.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/672150/3bb7fe315fefc71e199aa03cbd3395880b436462.jpg"
+  },
+  {
+    "name": "99708349187",
+    "defaultvalue": 0,
+    "displayName": "ACT Road Fix",
+    "hidden": 0,
+    "description": "ACT Road Fix Contract",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/672150/594ed15e1fb06b9946d896f75f2603741e673f89.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/672150/3bb7fe315fefc71e199aa03cbd3395880b436462.jpg"
+  },
+  {
+    "name": "99702143285",
+    "defaultvalue": 0,
+    "displayName": "Victoria Road Fix",
+    "hidden": 0,
+    "description": "Victoria Road Fix Contract",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/672150/9d1f4127e2491274b96f501c8c3b5139ae308354.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/672150/3bb7fe315fefc71e199aa03cbd3395880b436462.jpg"
+  },
+  {
+    "name": "99702148507",
+    "defaultvalue": 0,
+    "displayName": "Queensland Road Fix",
+    "hidden": 0,
+    "description": "Queensland Road Fix Contract",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/672150/85f9e11acb2dd0ddcf71e1e5d7780368c2fe7e16.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/672150/3bb7fe315fefc71e199aa03cbd3395880b436462.jpg"
+  },
+  {
+    "name": "99702174615",
+    "defaultvalue": 0,
+    "displayName": "South Australia Road Fix",
+    "hidden": 0,
+    "description": "South Australia Road Fix Contract",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/672150/e3d8269c0b6a17186696e22cd89d09e2687bb39f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/672150/3bb7fe315fefc71e199aa03cbd3395880b436462.jpg"
+  },
+  {
+    "name": "99702063518",
+    "defaultvalue": 0,
+    "displayName": "South Australia Road Fix",
+    "hidden": 0,
+    "description": "South Australia Road Fix Contract",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/672150/4dd1f2a7daca2684f78f59e37abcf4bc3b2eac3c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/672150/3bb7fe315fefc71e199aa03cbd3395880b436462.jpg"
+  },
+  {
+    "name": "99702760854",
+    "defaultvalue": 0,
+    "displayName": "Austria/Germany Road Fix",
+    "hidden": 0,
+    "description": "Austria/Germany Road Fix Contract",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/672150/072d78d7ee6f63eb19d06e944c3f1592d2f53420.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/672150/3bb7fe315fefc71e199aa03cbd3395880b436462.jpg"
+  },
+  {
+    "name": "99703047819",
+    "defaultvalue": 0,
+    "displayName": "Hungary Road Fix #2",
+    "hidden": 0,
+    "description": "Hungary Road Fix #2 Contract",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/672150/0a528ddb386f3048c669e873303978a335e78e8f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/672150/f5fe86986550fb468669300b55fa8d06fbe1c670.jpg"
+  },
+  {
+    "name": "9970730287",
+    "defaultvalue": 0,
+    "displayName": "Romania Road Fix",
+    "hidden": 0,
+    "description": "Romania Road Fix Contract",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/672150/58af487f9fd859c5efa803c7338d9a5b6474c5c5.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/672150/3bb7fe315fefc71e199aa03cbd3395880b436462.jpg"
+  },
+  {
+    "name": "99703083826",
+    "defaultvalue": 0,
+    "displayName": "Poland/Germany Road Fix",
+    "hidden": 0,
+    "description": "Poland/Germany Road Fix Contract",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/672150/594ed15e1fb06b9946d896f75f2603741e673f89.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/672150/3bb7fe315fefc71e199aa03cbd3395880b436462.jpg"
+  },
+  {
+    "name": "9970792656",
+    "defaultvalue": 0,
+    "displayName": "Bulgaria Road Fix",
+    "hidden": 0,
+    "description": "Bulgaria Road Fix Contract",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/672150/9d1f4127e2491274b96f501c8c3b5139ae308354.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/672150/f5fe86986550fb468669300b55fa8d06fbe1c670.jpg"
+  },
+  {
+    "name": "99703075208",
+    "defaultvalue": 0,
+    "displayName": "Czechia/Germany Road Fix",
+    "hidden": 0,
+    "description": "Czechia/Germany Road Fix Contract",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/672150/7559aa24e3f9347a734d3372530aaa50f8c90827.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/672150/3bb7fe315fefc71e199aa03cbd3395880b436462.jpg"
+  },
+  {
+    "name": "99703092517",
+    "defaultvalue": 0,
+    "displayName": "Czechia/Slovakia Road Fix",
+    "hidden": 0,
+    "description": "Czechia/Slovakia Road Fix Contract",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/672150/e3d8269c0b6a17186696e22cd89d09e2687bb39f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/672150/3bb7fe315fefc71e199aa03cbd3395880b436462.jpg"
+  },
+  {
+    "name": "9970623549",
+    "defaultvalue": 0,
+    "displayName": "Ukraine Road Fix #1",
+    "hidden": 0,
+    "description": "Ukraine Road Fix #1 Contract",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/672150/0d78548759d2064de19b472bdf04247b7ddbcb9c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/672150/3bb7fe315fefc71e199aa03cbd3395880b436462.jpg"
+  },
+  {
+    "name": "99702075432",
+    "defaultvalue": 0,
+    "displayName": "Western Australia Road Fix",
+    "hidden": 0,
+    "description": "Western Australia Road Fix Contract",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/672150/072d78d7ee6f63eb19d06e944c3f1592d2f53420.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/672150/3bb7fe315fefc71e199aa03cbd3395880b436462.jpg"
+  },
+  {
+    "name": "99702077895",
+    "defaultvalue": 0,
+    "displayName": "NT, Australia Road Fix",
+    "hidden": 0,
+    "description": "NT, Australia Road Fix Contract",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/672150/0a528ddb386f3048c669e873303978a335e78e8f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/672150/3bb7fe315fefc71e199aa03cbd3395880b436462.jpg"
+  }
+]

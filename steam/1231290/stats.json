@@ -1,0 +1,92 @@
+[
+  {
+    "name": "roll_val",
+    "defaultvalue": 0,
+    "displayName": "掷点前进次数"
+  },
+  {
+    "name": "win_val",
+    "defaultvalue": 0,
+    "displayName": "战斗胜利次数"
+  },
+  {
+    "name": "esc_val",
+    "defaultvalue": 0,
+    "displayName": "逃跑次数"
+  },
+  {
+    "name": "do_dmg",
+    "defaultvalue": 0,
+    "displayName": "造成伤害"
+  },
+  {
+    "name": "suf_dmg",
+    "defaultvalue": 0,
+    "displayName": "受到伤害"
+  },
+  {
+    "name": "use_skill",
+    "defaultvalue": 0,
+    "displayName": "使用技能次数"
+  },
+  {
+    "name": "use_item",
+    "defaultvalue": 0,
+    "displayName": "使用道具次数"
+  },
+  {
+    "name": "get_egg",
+    "defaultvalue": 0,
+    "displayName": "掏蛋次数"
+  },
+  {
+    "name": "throw_item",
+    "defaultvalue": 0,
+    "displayName": "投掷道具次数"
+  },
+  {
+    "name": "dice_attack",
+    "defaultvalue": 0,
+    "displayName": "骰子直击次数"
+  },
+  {
+    "name": "zao",
+    "defaultvalue": 0,
+    "displayName": "糟气入体次数"
+  },
+  {
+    "name": "dice_altitude",
+    "defaultvalue": 0,
+    "displayName": "骰子高出屏幕的高度"
+  },
+  {
+    "name": "ufo_hunt",
+    "defaultvalue": 0,
+    "displayName": "击落UFO数"
+  },
+  {
+    "name": "dapo_times",
+    "defaultvalue": 0,
+    "displayName": "大破次数"
+  },
+  {
+    "name": "tool_hunt",
+    "defaultvalue": 0,
+    "displayName": "得到遗物次数"
+  },
+  {
+    "name": "tool_craft",
+    "defaultvalue": 0,
+    "displayName": "强化遗物次数"
+  },
+  {
+    "name": "knife_counter",
+    "defaultvalue": 0,
+    "displayName": "弹刀次数"
+  },
+  {
+    "name": "score",
+    "defaultvalue": 0,
+    "displayName": "蓝点数"
+  }
+]

@@ -1,0 +1,58 @@
+﻿{
+  "STAT_PushEnemies": {
+    "description": "Number of pushed enemies",
+    "value": 0
+  },
+  "STAT_KillSleeper": {
+    "description": "Number of sleeping enemies killed",
+    "value": 0
+  },
+  "STAT_CraftItems": {
+    "description": "Number of crafted items",
+    "value": 0
+  },
+  "STAT_SurviveAlerts": {
+    "description": "Number of alerts the player survived",
+    "value": 0
+  },
+  "STAT_LongHide": {
+    "description": "Number of secondesstay hidden",
+    "value": 0
+  },
+  "STAT_LongInvisibility": {
+    "description": "Stay invisible for a secondes",
+    "value": 0
+  },
+  "STAT_Teleportation": {
+    "description": "Number of use of the teleportation power",
+    "value": 0
+  },
+  "STAT_CreateClones": {
+    "description": "Number of created clones",
+    "value": 0
+  },
+  "STAT_PickPockets": {
+    "description": "Number of enemies killed using poisoned food",
+    "value": 0
+  },
+  "STAT_AcidTrapKills": {
+    "description": "Number of enemies killed with acid trap",
+    "value": 0
+  },
+  "STAT_DrinkAmberPotions": {
+    "description": "Number of amber potions used",
+    "value": 0
+  },
+  "STAT_GetIngredients": {
+    "description": "Number of found ingredients",
+    "value": 0
+  },
+  "STAT_GuestJoined": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_DisolveEnemies": {
+    "description": "",
+    "value": 0
+  }
+}

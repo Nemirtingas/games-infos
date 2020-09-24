@@ -1,0 +1,858 @@
+﻿{
+  "GH_STAT_DISTANCE_TRAVELED": {
+    "description": "DISTANCE TRAVELED",
+    "value": 0
+  },
+  "GH_STAT_FISH_CAUGHT_PIRANHA": {
+    "description": "PIRANHA CAUGHT",
+    "value": 0
+  },
+  "GH_STAT_FISH_CAUGHT_PRAWN": {
+    "description": "PRAWN CAUGHT",
+    "value": 0
+  },
+  "GH_STAT_FISH_CAUGHT_STINGRAY": {
+    "description": "STINGRAY CAUGHT",
+    "value": 0
+  },
+  "GH_STAT_FISH_CAUGHT_AROWANA": {
+    "description": "AROWANA CAUGHT",
+    "value": 0
+  },
+  "GH_STAT_FISH_CAUGHT_PEACOCKBASS": {
+    "description": "PEACOCKBASS CAUGHT",
+    "value": 0
+  },
+  "GH_STAT_FISH_CAUGHT_CRAB": {
+    "description": "CRAB CAUGHT",
+    "value": 0
+  },
+  "GH_STAT_FISH_CAUGHT_ANGELFISH": {
+    "description": "ANGELFISH CAUGHT",
+    "value": 0
+  },
+  "GH_STAT_FISH_CAUGHT_DISCUSFISH": {
+    "description": "DISCUSFISH CAUGHT",
+    "value": 0
+  },
+  "GH_STAT_FISH_CAUGHT_SNAIL": {
+    "description": "SNAIL CAUGHT",
+    "value": 0
+  },
+  "GH_STAT_KILLED_PUMA": {
+    "description": "PUMA KILLED",
+    "value": 0
+  },
+  "GH_STAT_KILLED_JAGUAR": {
+    "description": "JAGUAR KILLED",
+    "value": 0
+  },
+  "GH_STAT_KILLED_BLACK_CAIMAN": {
+    "description": "BLACK CAIMAN KILLED",
+    "value": 0
+  },
+  "GH_STAT_KILLED_GOLIATH_BIRD_EATER": {
+    "description": "GOLIATH BIRD EATER KILLED",
+    "value": 0
+  },
+  "GH_STAT_KILLED_SCORPION": {
+    "description": "SCORPION KILLED",
+    "value": 0
+  },
+  "GH_STAT_KILLED_RATTLESNAKE": {
+    "description": "RATTLESNAKE KILLED",
+    "value": 0
+  },
+  "GH_STAT_KILLED_BRASILIAN_SPIDER": {
+    "description": "BRASILIAN SPIDER KILLED",
+    "value": 0
+  },
+  "GH_STAT_SNOWMAN_01": {
+    "description": "SNOWMAN 1",
+    "value": 0
+  },
+  "GH_STAT_SNOWMAN_02": {
+    "description": "SNOWMAN 2",
+    "value": 0
+  },
+  "GH_STAT_SNOWMAN_03": {
+    "description": "SNOWMAN 3",
+    "value": 0
+  },
+  "GH_STAT_FIRE_BOW_UNLOCKED": {
+    "description": "FIRE BOW UNLOCKED",
+    "value": 0
+  },
+  "GH_STAT_HAND_DRILL_STICK_UNLOCKED": {
+    "description": "HAND DRILL STICK UNLOCKED",
+    "value": 0
+  },
+  "GH_STAT_HAND_DRILL_BOARD_UNLOCKED": {
+    "description": "HAND DRILL BOARD UNLOCKED",
+    "value": 0
+  },
+  "GH_STAT_RUBBING_WOOD_UNLOCKED": {
+    "description": "RUBBING WOOD UNLOCKED",
+    "value": 0
+  },
+  "GH_STAT_INSOMIA_EXPERIENCED": {
+    "description": "INSOMIA EXPERIENCED",
+    "value": 0
+  },
+  "GH_STAT_DIRT_SICKNESS_EXPERIENCED": {
+    "description": "DIRT SICKNESS EXPERIENCED",
+    "value": 0
+  },
+  "GH_STAT_FEVER_EXPERIENCED": {
+    "description": "FEVER EXPERIENCED",
+    "value": 0
+  },
+  "GH_STAT_FOOD_POISION_EXPERIENCED": {
+    "description": "FOOD POISION EXPERIENCED",
+    "value": 0
+  },
+  "GH_STAT_PARASITE_EXPERIENCED": {
+    "description": "PARASITE EXPERIENCED",
+    "value": 0
+  },
+  "GH_STAT_POISION_EXPERIENCED": {
+    "description": "POISION EXPERIENCED",
+    "value": 0
+  },
+  "GH_STAT_CHALLENGE_FIRECAMP": {
+    "description": "CHALLENGE FIRECAMP",
+    "value": 0
+  },
+  "GH_STAT_CHALLENGE_BOAT": {
+    "description": "CHALLENGE BOAT",
+    "value": 0
+  },
+  "GH_STAT_CHALLENGE_CAMP": {
+    "description": "CHALLENGE CAMP",
+    "value": 0
+  },
+  "GH_STAT_CHALLENGE_HUNTER": {
+    "description": "CHALLENGE HUNTER",
+    "value": 0
+  },
+  "GH_STAT_CHALLENGE_ANGLER": {
+    "description": "CHALLENGE ANGLER",
+    "value": 0
+  },
+  "GH_STAT_CHALLENGE_COMBAT": {
+    "description": "CHALLENGE COMBAT",
+    "value": 0
+  },
+  "GH_STAT_CHALLENGE_MUD": {
+    "description": "CHALLENGE MUD",
+    "value": 0
+  },
+  "GH_STAT_CULTIVATED_COCONA": {
+    "description": "CULTIVATED COCONA",
+    "value": 0
+  },
+  "GH_STAT_CULTIVATED_MOLINERIA": {
+    "description": "CULTIVATED MOLINERIA",
+    "value": 0
+  },
+  "GH_STAT_CULTIVATED_BANANA": {
+    "description": "CULTIVATED BANANA",
+    "value": 0
+  },
+  "GH_STAT_CULTIVATED_CASAVA": {
+    "description": "CULTIVATED CASAVA",
+    "value": 0
+  },
+  "GH_STAT_CULTIVATED_BAMBOO": {
+    "description": "CULTIVATED BAMBOO",
+    "value": 0
+  },
+  "GH_STAT_CULTIVATED_QUASSIA": {
+    "description": "CULTIVATED QUASSIA",
+    "value": 0
+  },
+  "GH_STAT_CULTIVATED_GUANABANA": {
+    "description": "CULTIVATED GUANABANA",
+    "value": 0
+  },
+  "GH_STAT_CULTIVATED_MALANGA": {
+    "description": "CULTIVATED MALANGA",
+    "value": 0
+  },
+  "GH_STAT_CULTIVATED_TOBBACO": {
+    "description": "CULTIVATED TOBBACO",
+    "value": 0
+  },
+  "GH_STAT_CULTIVATED_LILLY": {
+    "description": "CULTIVATED LILLY",
+    "value": 0
+  },
+  "GH_STAT_CULTIVATED_ALBAHACA": {
+    "description": "CULTIVATED ALBAHACA",
+    "value": 0
+  },
+  "GH_STAT_CULTIVATED_PSYCHOTRIA": {
+    "description": "CULTIVATED PSYCHOTRIA",
+    "value": 0
+  },
+  "GH_STAT_CULTIVATED_BRAZIL_NUT": {
+    "description": "CULTIVATED BRAZIL NUT",
+    "value": 0
+  },
+  "GH_STAT_CULTIVATED_MONSTERA": {
+    "description": "CULTIVATED MONSTERA",
+    "value": 0
+  },
+  "GH_STAT_CULTIVATED_RAFFIA": {
+    "description": "CULTIVATED RAFFIA",
+    "value": 0
+  },
+  "GH_STAT_MAP_Tribe_Village": {
+    "description": "MAP Tribe Village",
+    "value": 0
+  },
+  "GH_STAT_MAP_PaintedRock": {
+    "description": "MAP PaintedRock",
+    "value": 0
+  },
+  "GH_STAT_MAP_PaintedRock02": {
+    "description": "MAP PaintedRock02",
+    "value": 0
+  },
+  "GH_STAT_MAP_Cartel": {
+    "description": "MAP Cartel",
+    "value": 0
+  },
+  "GH_STAT_MAP_Elevator": {
+    "description": "MAP Elevator",
+    "value": 0
+  },
+  "GH_STAT_MAP_Goldmine": {
+    "description": "MAP Goldmine",
+    "value": 0
+  },
+  "GH_STAT_MAP_Jeep_Wreck": {
+    "description": "MAP Jeep Wreck",
+    "value": 0
+  },
+  "GH_STAT_MAP_River_Harbor": {
+    "description": "MAP River Harbor",
+    "value": 0
+  },
+  "GH_STAT_MAP_Plane": {
+    "description": "MAP Plane",
+    "value": 0
+  },
+  "GH_STAT_MAP_Camp_in_cave": {
+    "description": "MAP Camp in cave",
+    "value": 0
+  },
+  "GH_STAT_MAP_StoneRing_01": {
+    "description": "MAP StoneRing 01",
+    "value": 0
+  },
+  "GH_STAT_MAP_Broken_Bridge": {
+    "description": "MAP Broken Bridge",
+    "value": 0
+  },
+  "GH_STAT_MAP_Broken_Bridge_B": {
+    "description": "MAP Broken Bridge B",
+    "value": 0
+  },
+  "GH_STAT_MAP_Evil_Village_S01": {
+    "description": "MAP Evil Village S01",
+    "value": 0
+  },
+  "GH_STAT_MAP_Evil_Village_S10": {
+    "description": "MAP Evil Village S10",
+    "value": 0
+  },
+  "GH_STAT_MAP_GHP_A01S07_to_StoneRing": {
+    "description": "MAP GHP A01S07 to StoneRing",
+    "value": 0
+  },
+  "GH_STAT_MAP_GHP_A01S07_to_Cartel": {
+    "description": "MAP GHP A01S07 to Cartel",
+    "value": 0
+  },
+  "GH_STAT_MAP_GHP_A01S07_to_CrashedPlane": {
+    "description": "MAP GHP A01S07 to CrashedPlane",
+    "value": 0
+  },
+  "GH_STAT_MAP_Cave01_A01S01": {
+    "description": "MAP Cave01 A01S01",
+    "value": 0
+  },
+  "GH_STAT_MAP_Cave02_A01S01": {
+    "description": "MAP Cave02 A01S01",
+    "value": 0
+  },
+  "GH_STAT_MAP_Cave03_A01S01": {
+    "description": "MAP Cave03 A01S01",
+    "value": 0
+  },
+  "GH_STAT_MAP_Cave01_A01S02": {
+    "description": "MAP Cave01 A01S02",
+    "value": 0
+  },
+  "GH_STAT_MAP_Cave02_A01S02": {
+    "description": "MAP Cave02 A01S02",
+    "value": 0
+  },
+  "GH_STAT_MAP_Cave01_A01S04": {
+    "description": "MAP Cave01 A01S04",
+    "value": 0
+  },
+  "GH_STAT_MAP_Cave01_A01S06": {
+    "description": "MAP Cave01 A01S06",
+    "value": 0
+  },
+  "GH_STAT_MAP_Cave02_A01S06": {
+    "description": "MAP Cave02 A01S06",
+    "value": 0
+  },
+  "GH_STAT_MAP_Cave01_A01S07": {
+    "description": "MAP Cave01 A01S07",
+    "value": 0
+  },
+  "GH_STAT_MAP_Cave02_A01S07": {
+    "description": "MAP Cave02 A01S07",
+    "value": 0
+  },
+  "GH_STAT_MAP_Cave03_A01S07": {
+    "description": "MAP Cave03 A01S07",
+    "value": 0
+  },
+  "GH_STAT_MAP_Cave04_A01S07": {
+    "description": "MAP Cave04 A01S07",
+    "value": 0
+  },
+  "GH_STAT_MAP_Cave01_A01S08": {
+    "description": "MAP Cave01 A01S08",
+    "value": 0
+  },
+  "GH_STAT_MAP_Cave02_A01S08": {
+    "description": "MAP Cave02 A01S08",
+    "value": 0
+  },
+  "GH_STAT_MAP_Cave01_A01S09": {
+    "description": "MAP Cave01 A01S09",
+    "value": 0
+  },
+  "GH_STAT_MAP_Evil_Village_S11": {
+    "description": "MAP Evil Village S11",
+    "value": 0
+  },
+  "GH_STAT_MAP_Airport": {
+    "description": "MAP Airport",
+    "value": 0
+  },
+  "GH_STAT_MAP_Refuges": {
+    "description": "MAP Refuges",
+    "value": 0
+  },
+  "GH_STAT_MAP_WHA_cave_camp": {
+    "description": "MAP WHA cave camp",
+    "value": 0
+  },
+  "GH_STAT_MAP_GHP_A01S11": {
+    "description": "MAP GHP A01S11",
+    "value": 0
+  },
+  "GH_STAT_MAP_GHP_A01S12_to_Airport": {
+    "description": "MAP GHP A01S12 to Airport",
+    "value": 0
+  },
+  "GH_STAT_MAP_GHP_A01S12_to_Caves": {
+    "description": "MAP GHP A01S12 to Caves",
+    "value": 0
+  },
+  "GH_STAT_MAP_EGHP_A02S02_to_Airport": {
+    "description": "MAP EGHP A02S02 to Airport",
+    "value": 0
+  },
+  "GH_STAT_MAP_RLT_A02S01": {
+    "description": "MAP RLT A02S01",
+    "value": 0
+  },
+  "GH_STAT_MAP_RLT_A02S02": {
+    "description": "MAP RLT A02S02",
+    "value": 0
+  },
+  "GH_STAT_MAP_Cave01_A01S12": {
+    "description": "MAP Cave01 A01S12",
+    "value": 0
+  },
+  "GH_STAT_MAP_Cave02_A01S12": {
+    "description": "MAP Cave02 A01S12",
+    "value": 0
+  },
+  "GH_STAT_MAP_Cave03_A01S12": {
+    "description": "MAP Cave03 A01S12",
+    "value": 0
+  },
+  "GH_STAT_MAP_Cave04_A01S12": {
+    "description": "MAP Cave04 A01S12",
+    "value": 0
+  },
+  "GH_STAT_MAP_Cave05_A01S12": {
+    "description": "MAP Cave05 A01S12",
+    "value": 0
+  },
+  "GH_STAT_MAP_Cave01_A02S02": {
+    "description": "MAP Cave01 A02S02",
+    "value": 0
+  },
+  "GH_STAT_MAP_Cave02_A02S02": {
+    "description": "MAP Cave02 A02S02",
+    "value": 0
+  },
+  "GH_STAT_MAP_B_AlvarezCave": {
+    "description": "MAP B AlvarezCave",
+    "value": 0
+  },
+  "GH_STAT_MAP_B_EGHP_A03S01_to_Tutorial_01": {
+    "description": "MAP B EGHP A03S01 to Tutorial 01",
+    "value": 0
+  },
+  "GH_STAT_MAP_WHA_Camp": {
+    "description": "MAP WHA Camp",
+    "value": 0
+  },
+  "GH_STAT_MAP_AlvarezCave": {
+    "description": "MAP AlvarezCave",
+    "value": 0
+  },
+  "GH_STAT_MAP_StoneRing_02": {
+    "description": "MAP StoneRing 02",
+    "value": 0
+  },
+  "GH_STAT_MAP_FinalVillage": {
+    "description": "MAP FinalVillage",
+    "value": 0
+  },
+  "GH_STAT_MAP_Tent": {
+    "description": "MAP Tent",
+    "value": 0
+  },
+  "GH_STAT_MAP_EGHP_A03S01_to_Tutorial_01": {
+    "description": "MAP EGHP A03S01 to Tutorial 01",
+    "value": 0
+  },
+  "GH_STAT_MAP_EGHP_A03S03_to_Refugees": {
+    "description": "MAP EGHP A03S03 to Refugees",
+    "value": 0
+  },
+  "GH_STAT_MAP_Cave01_A03S01": {
+    "description": "MAP Cave01 A03S01",
+    "value": 0
+  },
+  "GH_STAT_MAP_Cave01_A03S02": {
+    "description": "MAP Cave01 A03S02",
+    "value": 0
+  },
+  "GH_STAT_MAP_Cave01_A03S03": {
+    "description": "MAP Cave01 A03S03",
+    "value": 0
+  },
+  "GH_STAT_MAP_Cave02_A03S03": {
+    "description": "MAP Cave02 A03S03",
+    "value": 0
+  },
+  "GH_STAT_READ_JAGUAR": {
+    "description": "READ JAGUAR",
+    "value": 0
+  },
+  "GH_STAT_READ_TUTORIAL_AYAHUASCA": {
+    "description": "READ TUTORIAL AYAHUASCA",
+    "value": 0
+  },
+  "GH_STAT_READ_DANGER_MAMMALS": {
+    "description": "READ DANGER MAMMALS",
+    "value": 0
+  },
+  "GH_STAT_READ_DANGER_YABAHUACA": {
+    "description": "READ DANGER YABAHUACA",
+    "value": 0
+  },
+  "GH_STAT_READ_DANGER_FLIGHT": {
+    "description": "READ DANGER FLIGHT",
+    "value": 0
+  },
+  "GH_STAT_READ_FOREST_LAYERS": {
+    "description": "READ FOREST LAYERS",
+    "value": 0
+  },
+  "GH_STAT_READ_BAD_TRIBES": {
+    "description": "READ BAD TRIBES",
+    "value": 0
+  },
+  "GH_STAT_READ_CARTEL_LIST_PEOPLE": {
+    "description": "READ CARTEL LIST PEOPLE",
+    "value": 0
+  },
+  "GH_STAT_READ_CARTEL_PRODUCTION": {
+    "description": "READ CARTEL PRODUCTION",
+    "value": 0
+  },
+  "GH_STAT_READ_SCOUT_NOTE": {
+    "description": "READ SCOUT NOTE",
+    "value": 0
+  },
+  "GH_STAT_READ_TRIBE_CAMP_BOOK1": {
+    "description": "READ TRIBE CAMP BOOK1",
+    "value": 0
+  },
+  "GH_STAT_READ_TUTORIAL_NOTE_CORCBOARD": {
+    "description": "READ TUTORIAL NOTE CORCBOARD",
+    "value": 0
+  },
+  "GH_STAT_READ_TUTORIAL_NOTE_START": {
+    "description": "READ TUTORIAL NOTE START",
+    "value": 0
+  },
+  "GH_STAT_READ_TUTORIAL_NOTE_KITCHEN": {
+    "description": "READ TUTORIAL NOTE KITCHEN",
+    "value": 0
+  },
+  "GH_STAT_READ_GOLDMINE_PRODUCTION": {
+    "description": "READ GOLDMINE PRODUCTION",
+    "value": 0
+  },
+  "GH_STAT_READ_CARTEL_LISTTOWIFE": {
+    "description": "READ CARTEL LISTTOWIFE",
+    "value": 0
+  },
+  "GH_STAT_READ_GOLDMINE_LISTOFPEOPLE": {
+    "description": "READ GOLDMINE LISTOFPEOPLE",
+    "value": 0
+  },
+  "GH_STAT_READ_CARTELCAVE_NOTE": {
+    "description": "READ CARTELCAVE NOTE",
+    "value": 0
+  },
+  "GH_STAT_READ_GOLDMINE_SPYNOTE": {
+    "description": "READ GOLDMINE SPYNOTE",
+    "value": 0
+  },
+  "GH_STAT_READ_AIRPORT_PASSAGERLIST": {
+    "description": "READ AIRPORT PASSAGERLIST",
+    "value": 0
+  },
+  "GH_STAT_READ_CARTEL_COOKBOOK": {
+    "description": "READ CARTEL COOKBOOK",
+    "value": 0
+  },
+  "GH_STAT_READ_REFUGES_MAGAZINE": {
+    "description": "READ REFUGES MAGAZINE",
+    "value": 0
+  },
+  "GH_STAT_READ_GOLDMINE_EXPERIMENTLIST": {
+    "description": "READ GOLDMINE EXPERIMENTLIST",
+    "value": 0
+  },
+  "GH_STAT_READ_GOLDMINE_PLANEDROP": {
+    "description": "READ GOLDMINE PLANEDROP",
+    "value": 0
+  },
+  "GH_STAT_READ_MEDICAL_TENT_NOTE1": {
+    "description": "READ MEDICAL TENT NOTE1",
+    "value": 0
+  },
+  "GH_STAT_READ_MEDICAL_TENT_NOTE3": {
+    "description": "READ MEDICAL TENT NOTE3",
+    "value": 0
+  },
+  "GH_STAT_READ_MEDICAL_TENT_LIST": {
+    "description": "READ MEDICAL TENT LIST",
+    "value": 0
+  },
+  "GH_STAT_READ_MEDICAL_TENT_NOTE2": {
+    "description": "READ MEDICAL TENT NOTE2",
+    "value": 0
+  },
+  "GH_STAT_READ_MEDICAL_TENT_NOTE4": {
+    "description": "READ MEDICAL TENT NOTE4",
+    "value": 0
+  },
+  "GH_STAT_READ_REFUGES_NOTEBOOK": {
+    "description": "READ REFUGES NOTEBOOK",
+    "value": 0
+  },
+  "GH_STAT_READ_PASSAGE_LIST": {
+    "description": "READ PASSAGE LIST",
+    "value": 0
+  },
+  "GH_STAT_READ_AIRPORT_LIST": {
+    "description": "READ AIRPORT LIST",
+    "value": 0
+  },
+  "GH_STAT_READ_CARTEL_NOTE1": {
+    "description": "READ CARTEL NOTE1",
+    "value": 0
+  },
+  "GH_STAT_READ_ONZ_TENT_BOOK": {
+    "description": "READ ONZ TENT BOOK",
+    "value": 0
+  },
+  "GH_STAT_READ_CARTEL_NOTE2": {
+    "description": "READ CARTEL NOTE2",
+    "value": 0
+  },
+  "GH_STAT_READ_ONZ_TENT_NOTE": {
+    "description": "READ ONZ TENT NOTE",
+    "value": 0
+  },
+  "GH_STAT_READ_REFUGES_NOTE": {
+    "description": "READ REFUGES NOTE",
+    "value": 0
+  },
+  "GH_STAT_READ_HANGAR_BHP": {
+    "description": "READ HANGAR BHP",
+    "value": 0
+  },
+  "GH_STAT_READ_HANGAR_LIST": {
+    "description": "READ HANGAR LIST",
+    "value": 0
+  },
+  "GH_STAT_READ_MINE_NOTE": {
+    "description": "READ MINE NOTE",
+    "value": 0
+  },
+  "GH_STAT_READ_DANGER_CARDS_DART_FROG": {
+    "description": "READ DANGER CARDS DART FROG",
+    "value": 0
+  },
+  "GH_STAT_READ_TUTORIAL_NOTE_START_TOAPPEAR": {
+    "description": "READ TUTORIAL NOTE START TOAPPEAR",
+    "value": 0
+  },
+  "GH_STAT_READ_REFUGEESCAMP_DIARY05": {
+    "description": "READ REFUGEESCAMP DIARY05",
+    "value": 0
+  },
+  "GH_STAT_READ_REFUGEESCAMP_DIARY00": {
+    "description": "READ REFUGEESCAMP DIARY00",
+    "value": 0
+  },
+  "GH_STAT_READ_REFUGEESCAMP_DIARY01": {
+    "description": "READ REFUGEESCAMP DIARY01",
+    "value": 0
+  },
+  "GH_STAT_READ_GOLDMINE_BLOODTRANFUSION": {
+    "description": "READ GOLDMINE BLOODTRANFUSION",
+    "value": 0
+  },
+  "GH_STAT_READ_REFUGEESCAMP_DIARY03": {
+    "description": "READ REFUGEESCAMP DIARY03",
+    "value": 0
+  },
+  "GH_STAT_READ_REFUGEESCAMP_DIARY04": {
+    "description": "READ REFUGEESCAMP DIARY04",
+    "value": 0
+  },
+  "GH_STAT_READ_REFUGEESCAMP_DIARY02": {
+    "description": "READ REFUGEESCAMP DIARY02",
+    "value": 0
+  },
+  "GH_STAT_READ_ISLAND_DRAWED_MAP": {
+    "description": "READ ISLAND DRAWED MAP",
+    "value": 0
+  },
+  "GH_STAT_READ_DARTFROG_BOOK_01": {
+    "description": "READ DARTFROG BOOK 01",
+    "value": 0
+  },
+  "GH_STAT_READ_OMALU_ORDER_03": {
+    "description": "READ OMALU ORDER 03",
+    "value": 0
+  },
+  "GH_STAT_READ_OMALU_ORDER_02_B": {
+    "description": "READ OMALU ORDER 02 B",
+    "value": 0
+  },
+  "GH_STAT_READ_OMALU_ORDER_04": {
+    "description": "READ OMALU ORDER 04",
+    "value": 0
+  },
+  "GH_STAT_READ_OMALU_ORDER_01": {
+    "description": "READ OMALU ORDER 01",
+    "value": 0
+  },
+  "GH_STAT_READ_OMALU_ORDER_02": {
+    "description": "READ OMALU ORDER 02",
+    "value": 0
+  },
+  "GH_STAT_READ_DREAM02_SCENE2_LETTER": {
+    "description": "READ DREAM02 SCENE2 LETTER",
+    "value": 0
+  },
+  "GH_STAT_READ_DREAM02_SCENE1_INVOICE1": {
+    "description": "READ DREAM02 SCENE1 INVOICE1",
+    "value": 0
+  },
+  "GH_STAT_READ_DREAM02_SCENE2_BOOK_COVER": {
+    "description": "READ DREAM02 SCENE2 BOOK COVER",
+    "value": 0
+  },
+  "GH_STAT_READ_DREAM02_SCENE3_REVIEW": {
+    "description": "READ DREAM02 SCENE3 REVIEW",
+    "value": 0
+  },
+  "GH_STAT_READ_DREAM01_ARRIVAL_ONBOAT": {
+    "description": "READ DREAM01 ARRIVAL ONBOAT",
+    "value": 0
+  },
+  "GH_STAT_READ_DREAM03_SCENE1_OMALULETTER": {
+    "description": "READ DREAM03 SCENE1 OMALULETTER",
+    "value": 0
+  },
+  "GH_STAT_READ_DREAM02_SCENE2_CORPLETTER": {
+    "description": "READ DREAM02 SCENE2 CORPLETTER",
+    "value": 0
+  },
+  "GH_STAT_READ_DREAM01_SCENE3_MIANOTE": {
+    "description": "READ DREAM01 SCENE3 MIANOTE",
+    "value": 0
+  },
+  "GH_STAT_READ_DREAM02_SCENE1_SHOULDIWRITE": {
+    "description": "READ DREAM02 SCENE1 SHOULDIWRITE",
+    "value": 0
+  },
+  "GH_STAT_READ_DREAM02_SCENE1_BOOKPAGE3": {
+    "description": "READ DREAM02 SCENE1 BOOKPAGE3",
+    "value": 0
+  },
+  "GH_STAT_READ_DREAM03_SCENE1_ARTICLE1": {
+    "description": "READ DREAM03 SCENE1 ARTICLE1",
+    "value": 0
+  },
+  "GH_STAT_READ_DREAM03_SCENE1_ARTICLE3": {
+    "description": "READ DREAM03 SCENE1 ARTICLE3",
+    "value": 0
+  },
+  "GH_STAT_READ_DREAM02_SCENE1_BOOKPAGE2": {
+    "description": "READ DREAM02 SCENE1 BOOKPAGE2",
+    "value": 0
+  },
+  "GH_STAT_READ_DREAM01_SCENE2_MIANOTE": {
+    "description": "READ DREAM01 SCENE2 MIANOTE",
+    "value": 0
+  },
+  "GH_STAT_READ_DREAM03_SCENE3_ARTICLE1": {
+    "description": "READ DREAM03 SCENE3 ARTICLE1",
+    "value": 0
+  },
+  "GH_STAT_READ_DREAM02_SCENE1_BOOKPAGE1": {
+    "description": "READ DREAM02 SCENE1 BOOKPAGE1",
+    "value": 0
+  },
+  "GH_STAT_READ_DREAM02_SCENE2_INVOICE2": {
+    "description": "READ DREAM02 SCENE2 INVOICE2",
+    "value": 0
+  },
+  "GH_STAT_READ_DREAM02_SCENE03_MIACARD": {
+    "description": "READ DREAM02 SCENE03 MIACARD",
+    "value": 0
+  },
+  "GH_STAT_READ_DREAM03_SCENE1_ARTICLE2": {
+    "description": "READ DREAM03 SCENE1 ARTICLE2",
+    "value": 0
+  },
+  "GH_STAT_READ_DREAM03_SCENE2_ARTICLE1": {
+    "description": "READ DREAM03 SCENE2 ARTICLE1",
+    "value": 0
+  },
+  "GH_STAT_READ_DREAM03_SCENE00_MIACARD": {
+    "description": "READ DREAM03 SCENE00 MIACARD",
+    "value": 0
+  },
+  "GH_STAT_READ_DREAM02_SCENE2_BOOK_COVER_BACK": {
+    "description": "READ DREAM02 SCENE2 BOOK COVER BACK",
+    "value": 0
+  },
+  "GH_STAT_READ_DREAM02_SCENE2_BOOK_COVER_BR": {
+    "description": "READ DREAM02 SCENE2 BOOK COVER BR",
+    "value": 0
+  },
+  "GH_STAT_READ_DREAM02_SCENE1_BOOKPAGE1_B": {
+    "description": "READ DREAM02 SCENE1 BOOKPAGE1 B",
+    "value": 0
+  },
+  "GH_STAT_READ_DREAM03_SCENE2_ARTICLE4": {
+    "description": "READ DREAM03 SCENE2 ARTICLE4",
+    "value": 0
+  },
+  "GH_STAT_READ_DREAM03_SCENE2_ARTICLE2": {
+    "description": "READ DREAM03 SCENE2 ARTICLE2",
+    "value": 0
+  },
+  "GH_STAT_READ_DREAM03_SCENE2_ARTICLE3": {
+    "description": "READ DREAM03 SCENE2 ARTICLE3",
+    "value": 0
+  },
+  "GH_STAT_LEECHES_REMOVED": {
+    "description": "LEECHES REMOVED",
+    "value": 0
+  },
+  "GH_STAT_SMALL_WOUND_EXPERIENCED": {
+    "description": "SMALL WOUND EXPERIENCED",
+    "value": 0
+  },
+  "GH_STAT_LACERATION_EXPERIENCED": {
+    "description": "LACERATION EXPERIENCED",
+    "value": 0
+  },
+  "GH_STAT_VENOM_OR_SNAKE_BITE_EXPERIENCED": {
+    "description": "VENOM OR SNAKE BITE EXPERIENCED",
+    "value": 0
+  },
+  "GH_STAT_RASH_EXPERIENCED": {
+    "description": "RASH EXPERIENCED",
+    "value": 0
+  },
+  "GH_STAT_LEECH_EXPERIENCED": {
+    "description": "LEECH EXPERIENCED",
+    "value": 0
+  },
+  "GH_STAT_WORM_EXPERIENCED": {
+    "description": "WORM EXPERIENCED",
+    "value": 0
+  },
+  "GH_STAT_WOUND_INFECTION_EXPERIENCED": {
+    "description": "WOUND INFECTION EXPERIENCED",
+    "value": 0
+  },
+  "GH_STAT_UNIQUE_MAP_LOCATIONS_DISCOVERED": {
+    "description": "UNIQUE MAP LOCATIONS DISCOVERED",
+    "value": 0
+  },
+  "GH_STAT_UNIQUE_READABLE_READ": {
+    "description": "UNIQUE READABLE READ",
+    "value": 0
+  },
+  "GH_STAT_UNIQUE_CHALLENGE_COMPLETED": {
+    "description": "UNIQUE CHALLENGE COMPLETED",
+    "value": 0
+  },
+  "GH_STAT_UNIQUE_PLANTS_CULTIVATED": {
+    "description": "UNIQUE PLANTS CULTIVATED",
+    "value": 0
+  },
+  "GH_STAT_FISH_TYPES_CAUGHT": {
+    "description": "FISH TYPES CAUGHT",
+    "value": 0
+  },
+  "GH_STAT_PREDATOR_TYPES_KILLED": {
+    "description": "PREDATOR TYPES KILLED",
+    "value": 0
+  },
+  "GH_STAT_ALL_UNIQUE_DISEASES_EXPERIENCED": {
+    "description": "ALL UNIQUE DISEASES EXPERIENCED",
+    "value": 0
+  },
+  "VERSION": {
+    "description": "VERSION",
+    "value": 0
+  }
+}

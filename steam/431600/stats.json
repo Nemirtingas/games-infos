@@ -1,0 +1,66 @@
+﻿{
+  "TotalDistance": {
+    "description": "Total distance in m",
+    "value": 0
+  },
+  "TotalTime": {
+    "description": "Total time",
+    "value": 0
+  },
+  "Version": {
+    "description": "",
+    "value": 0
+  },
+  "MaxSpeed": {
+    "description": "Max speed reached",
+    "value": 0
+  },
+  "MaxSpeedInFVintage": {
+    "description": "MaxSpeed in F-Vintage",
+    "value": 0
+  },
+  "DefaultChampionshipsWon": {
+    "description": "Number of not repeated default championship the player won",
+    "value": 0
+  },
+  "StockChampionshipsWon": {
+    "description": "Number of stock car and opala championship the player won",
+    "value": 0
+  },
+  "PolesF1Series": {
+    "description": "Number of pole positions won with F1 series",
+    "value": 0
+  },
+  "WonRacesF1Series": {
+    "description": "Number of won races with F1 series",
+    "value": 0
+  },
+  "MultiplayerFinishedRaces": {
+    "description": "Number of multiplayer races the player has finished",
+    "value": 0
+  },
+  "TTRankedTracks": {
+    "description": "Number of official and not repeated tracks for which the player set a time",
+    "value": 0
+  },
+  "DefaultChampionshipsWonMask": {
+    "description": "Each bit identifies a single default championship",
+    "value": 0
+  },
+  "TTRankedTracksMask1": {
+    "description": "Each bit identifies a single layout",
+    "value": 0
+  },
+  "TTRankedTracksMask2": {
+    "description": "Each bit identifies a single layout",
+    "value": 0
+  },
+  "CarsDriven": {
+    "description": "Number of driven cars with no repetition",
+    "value": 0
+  },
+  "CarsDrivenMask1": {
+    "description": "Each bit identifies a single car",
+    "value": 0
+  }
+}

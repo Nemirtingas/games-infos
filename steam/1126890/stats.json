@@ -1,0 +1,32 @@
+[
+  {
+    "name": "games_won",
+    "defaultvalue": 0,
+    "displayName": "Games won"
+  },
+  {
+    "name": "games_lost",
+    "defaultvalue": 0,
+    "displayName": "Games lost"
+  },
+  {
+    "name": "money_earned",
+    "defaultvalue": 0,
+    "displayName": "Money earned"
+  },
+  {
+    "name": "player_level_oper",
+    "defaultvalue": 0,
+    "displayName": "Player level (Oper)"
+  },
+  {
+    "name": "player_level_tech",
+    "defaultvalue": 0,
+    "displayName": "Player level (Akibara)"
+  },
+  {
+    "name": "player_level_gast",
+    "defaultvalue": 0,
+    "displayName": "Player level (Gastown)"
+  }
+]

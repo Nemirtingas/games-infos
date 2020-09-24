@@ -1,0 +1,58 @@
+﻿{
+  "nWinLevels": {
+    "description": "Количество пройденных уровней",
+    "value": 0
+  },
+  "nFoundKey": {
+    "description": "Количество найденных ключей",
+    "value": 0
+  },
+  "isFirstScattered": {
+    "description": "Первый раз рассыпался от падения",
+    "value": 0
+  },
+  "isFirstJumpSwamp": {
+    "description": "Первый раз прыгнул на болото",
+    "value": 0
+  },
+  "isFirstDiedLava": {
+    "description": "Первый раз умер в лаве",
+    "value": 0
+  },
+  "nWinLevels3Stars": {
+    "description": "Количество уровней, пройденных на 3 звезды",
+    "value": 0
+  },
+  "STATS_Level": {
+    "description": "Часто проигрываемый уровень",
+    "value": 0
+  },
+  "STATS_WinCount": {
+    "description": "Количество выигрышей уровня",
+    "value": 0
+  },
+  "STATS_FailCount": {
+    "description": "Количество проигрышей уровня",
+    "value": 0
+  },
+  "STATS_RespawnCount": {
+    "description": "Количество восстановления в уровне",
+    "value": 0
+  },
+  "STATS_QuitCount": {
+    "description": "Количество выходов с уровня в меню",
+    "value": 0
+  },
+  "STATS_TimeLevel": {
+    "description": "Время игры в уровне",
+    "value": 0
+  },
+  "STATS_HintCount": {
+    "description": "Количество примененных подсказок",
+    "value": 0
+  },
+  "STATS_RestartCount": {
+    "description": "Количество перезапусков уровня, но без проигрыша",
+    "value": 0
+  }
+}

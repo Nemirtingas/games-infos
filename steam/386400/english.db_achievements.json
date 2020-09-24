@@ -1,0 +1,109 @@
+[
+  {
+    "name": "ACH_BON_VOYAGE",
+    "defaultvalue": 0,
+    "displayName": "Bon Voyage",
+    "hidden": 0,
+    "description": "Win a World Tour match.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/386400/0ea101121226376a54c0047e19b274d47a419d7d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/386400/aa5839237251fd0392dd42a82a7b90f758b0257a.jpg"
+  },
+  {
+    "name": "ACH_LEST_PLAY",
+    "defaultvalue": 0,
+    "displayName": "Let's play",
+    "hidden": 0,
+    "description": "Win an online match.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/386400/1f054f3acfcb0b39e00296f8c7604eccdca43527.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/386400/d6f5e2fba2fb52ff3393abdb94d639e45bd8027b.jpg"
+  },
+  {
+    "name": "ACH_AROUND_WORLD",
+    "defaultvalue": 0,
+    "displayName": "Around the world in 20 matches",
+    "hidden": 0,
+    "description": "Defeat every standard World Tour opponent.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/386400/0cf2001e4bc71de0e28d6e9ed5141008c21bb040.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/386400/b0d69ab47898575ff0afe83a85f04e649f8e8da6.jpg"
+  },
+  {
+    "name": "NEW_SHUTOUT",
+    "defaultvalue": 0,
+    "displayName": "Shutout",
+    "hidden": 0,
+    "description": "Defeat an \"Advanced\" or higher A.I. without being scored on (10 balls or more).",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/386400/1aa29d9853f0253aff869472928cf0b6b3f8e4fb.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/386400/aa1cf28e11c27966d6bf862dc3628ee906b6e810.jpg"
+  },
+  {
+    "name": "ACH_JACK",
+    "defaultvalue": 0,
+    "displayName": "Jack of all trades",
+    "hidden": 0,
+    "description": "Use all types of trick shots in a single match.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/386400/b76cc013ec42675ae784a2ab7f3422fb288305df.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/386400/410f63930dd5d7b2c5f0d27ad5fb6410b0da06c5.jpg"
+  },
+  {
+    "name": "ACH_BOOBY",
+    "defaultvalue": 0,
+    "displayName": "Booby prize",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/386400/79f8df8a72842c5dac126cff9a525c962f5b5e93.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/386400/ba6049630547d89283101a3fd43502b16486f6e4.jpg"
+  },
+  {
+    "name": "ACH_ONE_MAN",
+    "defaultvalue": 0,
+    "displayName": "One Man Team",
+    "hidden": 0,
+    "description": "Score a goal using your goalkeeper.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/386400/3331fae33943c396f47caed8a874b6a406811af4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/386400/36231151c90082c2bfa42cea24280fa1cd55f9b4.jpg"
+  },
+  {
+    "name": "ACH_FROM_ZERO",
+    "defaultvalue": 0,
+    "displayName": "From zero to hero",
+    "hidden": 0,
+    "description": "Go from score 0:9 to win 10:9 in a 10 goal match against Advanced A.I. or higher.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/386400/23ed674620cdd466a748a991deb9d99b11f74e03.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/386400/f693d004414451119663da87d50da13f36b9a734.jpg"
+  },
+  {
+    "name": "ACH_YOUR_EXCELLENCY",
+    "defaultvalue": 0,
+    "displayName": "Your Excellency",
+    "hidden": 0,
+    "description": "Defeat every standard World Tour opponent with at least \"Excellent\" rating.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/386400/d12c5ff79bec7172f15e419954a27dbbc1808ac2.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/386400/1c1a2d56c63d5715b75db323bf0a53e265989b83.jpg"
+  },
+  {
+    "name": "ACH_MASTER_BLASTER",
+    "defaultvalue": 0,
+    "displayName": "Master Blaster",
+    "hidden": 0,
+    "description": "Defeat all Master opponents in World Tour.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/386400/f64d254e82e5c97062c7cd618e87b9b1e7e2ff48.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/386400/09b0b0ff1f859987e41fcf96c33bdd1e569be76c.jpg"
+  },
+  {
+    "name": "ACH_MR_PERFECT",
+    "defaultvalue": 0,
+    "displayName": "Mr Perfect",
+    "hidden": 0,
+    "description": "Defeat every standard World Tour opponent with \"Perfect\" rating.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/386400/6098692990a8568e9847e9419e8e86728548cc46.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/386400/b47db3578108089a4c9113c4ab4f5492d62131ab.jpg"
+  },
+  {
+    "name": "ACH_OWNED",
+    "defaultvalue": 0,
+    "displayName": "Owned!",
+    "hidden": 0,
+    "description": "Defeat a Master opponent with \"Perfect\" rating in World Tour.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/386400/3bd83b8a8edd8f0a44a9c40139dd65fd3d1b3672.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/386400/5a27c3e78c8d4b53cab2729ddc93e66846330b5a.jpg"
+  }
+]

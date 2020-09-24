@@ -1,0 +1,596 @@
+﻿[
+  {
+    "name": "ACH_LEVEL_SIM_COAST",
+    "defaultvalue": 0,
+    "displayName": "COAST",
+    "hidden": 0,
+    "description": "Finish the Coast level in Hardcode mode",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/263280/b2a9b2d90a1cf3d3849574138f3074eeccbb1fe7.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/263280/32347b628176c3ddd1ceb8687bbeaf81011d7374.jpg"
+  },
+  {
+    "name": "ACH_LEVEL_MP_COAST",
+    "defaultvalue": 0,
+    "displayName": "COAST COOP",
+    "hidden": 0,
+    "description": "Finish the Coast level in Multiplayer with at least 2 players",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/263280/5264d12bd0d1a9f8f20dc832deb9b598f6a47ab1.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/263280/4e4627858cc44f996bf89dcaec33f9a64264cc5f.jpg"
+  },
+  {
+    "name": "ACH_LEVEL_CLOAKING_COAST",
+    "defaultvalue": 0,
+    "displayName": "EXPLORE COAST",
+    "hidden": 0,
+    "description": "Remove all of Cloaking Areas from the Coast level",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/263280/4593b4298fd23eab69765761700e592f4807a40f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/263280/4e4627858cc44f996bf89dcaec33f9a64264cc5f.jpg"
+  },
+  {
+    "name": "ACH_LEVEL_GARAGES_COAST",
+    "defaultvalue": 0,
+    "displayName": "COAST SETTLER",
+    "hidden": 0,
+    "description": "Unlock all of the Garages on the Coast level",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/263280/e9acc6b31befab288576f04b102b318ebc22176f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/263280/4e4627858cc44f996bf89dcaec33f9a64264cc5f.jpg"
+  },
+  {
+    "name": "ACH_LEVEL_SIM_HILL",
+    "defaultvalue": 0,
+    "displayName": "HILL",
+    "hidden": 0,
+    "description": "Finish the Hill level in Hardcore mode",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/263280/4c634fce63129b33ba5f30cad0ae3115468d433a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/263280/4e4627858cc44f996bf89dcaec33f9a64264cc5f.jpg"
+  },
+  {
+    "name": "ACH_LEVEL_MP_HILL",
+    "defaultvalue": 0,
+    "displayName": "HILL COOP",
+    "hidden": 0,
+    "description": "Finish the Hill level in Multiplayer with at least 2 players",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/263280/8fe2993d5274167cc7e9bcb1d0d0e190f1eb9651.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/263280/4e4627858cc44f996bf89dcaec33f9a64264cc5f.jpg"
+  },
+  {
+    "name": "ACH_LEVEL_CLOAKING_HILL",
+    "defaultvalue": 0,
+    "displayName": "EXPLORE HILL",
+    "hidden": 0,
+    "description": "Remove all of the Cloaking Areas from the Hill level",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/263280/3e275c7aeaf1e36367c400e6488d4181136f0103.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/263280/4e4627858cc44f996bf89dcaec33f9a64264cc5f.jpg"
+  },
+  {
+    "name": "ACH_LEVEL_GARAGES_HILL",
+    "defaultvalue": 0,
+    "displayName": "HILL SETTLER",
+    "hidden": 0,
+    "description": "Unlock all of the Garages on the Hill level",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/263280/72bff01432e129ac16578bcb09f9432b7686d501.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/263280/32347b628176c3ddd1ceb8687bbeaf81011d7374.jpg"
+  },
+  {
+    "name": "ACH_LEVEL_SIM_PLAINS",
+    "defaultvalue": 0,
+    "displayName": "PLAINS",
+    "hidden": 0,
+    "description": "Finish the Plains level in Hardcore mode",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/263280/91be55e620310bad4ef73631afcb90257fa2c7c7.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/263280/4e4627858cc44f996bf89dcaec33f9a64264cc5f.jpg"
+  },
+  {
+    "name": "ACH_LEVEL_MP_PLAINS",
+    "defaultvalue": 0,
+    "displayName": "PLAINS COOP",
+    "hidden": 0,
+    "description": "Finish the Plains level in Multiplayer with at least 2 players",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/263280/0266bb2f17cc0fcd75b5cc5c00ec98fb2f303b90.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/263280/4e4627858cc44f996bf89dcaec33f9a64264cc5f.jpg"
+  },
+  {
+    "name": "ACH_LEVEL_CLOAKING_PLAINS",
+    "defaultvalue": 0,
+    "displayName": "EXPLORE PLAINS",
+    "hidden": 0,
+    "description": "Remove all of the Cloaking Areas from the Plains level",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/263280/3c6e69ffef550d2b135c48733f3d19f4bc921fb7.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/263280/4e4627858cc44f996bf89dcaec33f9a64264cc5f.jpg"
+  },
+  {
+    "name": "ACH_LEVEL_GARAGES_PLAINS",
+    "defaultvalue": 0,
+    "displayName": "PLAINS SETTLER",
+    "hidden": 0,
+    "description": "Unlock all of the Garages on the Plains level",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/263280/2e73e8c5bc6a9c0a4c692d92bec745074cc0772c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/263280/4e4627858cc44f996bf89dcaec33f9a64264cc5f.jpg"
+  },
+  {
+    "name": "ACH_LEVEL_SIM_RIVER",
+    "defaultvalue": 0,
+    "displayName": "RIVER",
+    "hidden": 0,
+    "description": "Finish the River level in Hardcore mode",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/263280/f501f8a67168a3fc23afc5936825e52cebeedac8.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/263280/4e4627858cc44f996bf89dcaec33f9a64264cc5f.jpg"
+  },
+  {
+    "name": "ACH_LEVEL_MP_RIVER",
+    "defaultvalue": 0,
+    "displayName": "RIVER COOP",
+    "hidden": 0,
+    "description": "Finish the River level in Multiplayer with at least 2 players",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/263280/bcdf3cec51d94162c3605ad7263b80efa992fbb5.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/263280/4e4627858cc44f996bf89dcaec33f9a64264cc5f.jpg"
+  },
+  {
+    "name": "ACH_LEVEL_CLOAKING_RIVER",
+    "defaultvalue": 0,
+    "displayName": "EXPLORE RIVER",
+    "hidden": 0,
+    "description": "Remove all of the Cloaking Areas from the River level",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/263280/1e871331c5cfbf5007fca1a304d22f3f7f0df164.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/263280/4e4627858cc44f996bf89dcaec33f9a64264cc5f.jpg"
+  },
+  {
+    "name": "ACH_LEVEL_GARAGES_RIVER",
+    "defaultvalue": 0,
+    "displayName": "RIVER SETTLER",
+    "hidden": 0,
+    "description": "Unlock all of the Garages on the River level",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/263280/4a310446dfcd6f50026d436740c36929ecdd9d1a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/263280/4e4627858cc44f996bf89dcaec33f9a64264cc5f.jpg"
+  },
+  {
+    "name": "ACH_LEVEL_SIM_VOLCANO",
+    "defaultvalue": 0,
+    "displayName": "VOLCANO",
+    "hidden": 0,
+    "description": "Finish Volcano level in Hardcore mode",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/263280/1efe4289e7ccce209abb0de5d7f57b8165c23198.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/263280/4e4627858cc44f996bf89dcaec33f9a64264cc5f.jpg"
+  },
+  {
+    "name": "ACH_LEVEL_MP_VOLCANO",
+    "defaultvalue": 0,
+    "displayName": "VOLCANO COOP",
+    "hidden": 0,
+    "description": "Finish Volcano level in Multiplayer with at least 2 players",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/263280/dc977e3ad997dce428f794e4e972dfa3ac60adf7.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/263280/4e4627858cc44f996bf89dcaec33f9a64264cc5f.jpg"
+  },
+  {
+    "name": "ACH_LEVEL_CLOAKING_VOLCANO",
+    "defaultvalue": 0,
+    "displayName": "EXPLORE VOLCANO",
+    "hidden": 0,
+    "description": "Remove all of the Cloaking Areas from the Volcano level",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/263280/76f4860787f5a4edb0bf0ddf6ce3b92d0974b8f9.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/263280/4e4627858cc44f996bf89dcaec33f9a64264cc5f.jpg"
+  },
+  {
+    "name": "ACH_LEVEL_GARAGES_VOLCANO",
+    "defaultvalue": 0,
+    "displayName": "VOLCANO SETTLER",
+    "hidden": 0,
+    "description": "Unlock all of the Garages on the Volcano level",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/263280/8a80eb672ebfbe15f18a278f155eae7e8a76b28e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/263280/4e4627858cc44f996bf89dcaec33f9a64264cc5f.jpg"
+  },
+  {
+    "name": "ACH_LUMBERJACK",
+    "defaultvalue": 0,
+    "displayName": "LUMBERJACK",
+    "hidden": 0,
+    "description": "Knock down 100 small trees",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/263280/393a73816ae75ad5a5af53e4eee8488b7b0174d4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/263280/4e4627858cc44f996bf89dcaec33f9a64264cc5f.jpg"
+  },
+  {
+    "name": "ACH_CHIEF_LUMBERJACK",
+    "defaultvalue": 0,
+    "displayName": "CHIEF LUMBERJACK",
+    "hidden": 0,
+    "description": "Knock down 30 big trees",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/263280/b7f9a850c08f8b61dafb75cb034529d5ea432bca.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/263280/4e4627858cc44f996bf89dcaec33f9a64264cc5f.jpg"
+  },
+  {
+    "name": "ACH_SISYPHUS",
+    "defaultvalue": 0,
+    "displayName": "SISYPHUS",
+    "hidden": 0,
+    "description": "Drive a Type C vehicle with the Parking Brake engaged for 300 meters and Diff Lock disengaged",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/263280/6746d9de590e39c7e26b0bc25d8b0c81bc37961b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/263280/4e4627858cc44f996bf89dcaec33f9a64264cc5f.jpg"
+  },
+  {
+    "name": "ACH_DAVID",
+    "defaultvalue": 0,
+    "displayName": "DAVID",
+    "hidden": 0,
+    "description": "Use a Type B-130 to tow a Type E-7310 for 50 meters in Pull mode",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/263280/f9ffebcf33a2128b04e0d54bdf6f749fd16b4feb.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/263280/4e4627858cc44f996bf89dcaec33f9a64264cc5f.jpg"
+  },
+  {
+    "name": "ACH_CAR_CHASE",
+    "defaultvalue": 0,
+    "displayName": "THE ROLL OVER",
+    "hidden": 0,
+    "description": "Make a quick 360 degree roll over the roof",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/263280/bda4bf2006d99df61a2f73cb1a82481dca545f66.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/263280/4e4627858cc44f996bf89dcaec33f9a64264cc5f.jpg"
+  },
+  {
+    "name": "ACH_STUDENT_DRIVER",
+    "defaultvalue": 0,
+    "displayName": "STUDENT DRIVER",
+    "hidden": 0,
+    "description": "Receive 500 or more damage points from a single impact",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/263280/8a50acc9d83174fa8d6b333f2d2f7475e7733b56.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/263280/4e4627858cc44f996bf89dcaec33f9a64264cc5f.jpg"
+  },
+  {
+    "name": "ACH_RISE_OF_MACHINES",
+    "defaultvalue": 0,
+    "displayName": "RISE OF MACHINES",
+    "hidden": 0,
+    "description": "Completely damage a brand new Type A-469 with a Type E-7310",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/263280/dd772b06b6e8670cdde55d03d6dbb6838d64119e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/263280/4e4627858cc44f996bf89dcaec33f9a64264cc5f.jpg"
+  },
+  {
+    "name": "ACH_FISHERMAN",
+    "defaultvalue": 0,
+    "displayName": "FISHERMAN",
+    "hidden": 0,
+    "description": "Winch a disabled vehicle out of the water with another vehicle",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/263280/214b7f7c9aba87e15e97b8a32f7715fca4589fa7.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/263280/4e4627858cc44f996bf89dcaec33f9a64264cc5f.jpg"
+  },
+  {
+    "name": "ACH_BLIND_NAVIGATION",
+    "defaultvalue": 0,
+    "displayName": "BLIND NAVIGATION",
+    "hidden": 0,
+    "description": "Finish a level without removing any Cloaking Areas",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/263280/d70dbb35edddd60e8f15d8c1eb69d8d94bb0b251.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/263280/4e4627858cc44f996bf89dcaec33f9a64264cc5f.jpg"
+  },
+  {
+    "name": "ACH_NIGHT_OPS",
+    "defaultvalue": 0,
+    "displayName": "NIGHT OPS",
+    "hidden": 0,
+    "description": "Pick and pack logs from your capsized truck during the night",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/263280/c8953d339d4a74bb703037c0269f0350b0205894.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/263280/4e4627858cc44f996bf89dcaec33f9a64264cc5f.jpg"
+  },
+  {
+    "name": "ACH_SIZE_DOES_MATTER",
+    "defaultvalue": 0,
+    "displayName": "SIZE DOES MATTER",
+    "hidden": 0,
+    "description": "Complete a particular objective by delivering 'Long Logs' only",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/263280/a19739e0d304949963471e3363f0000185837e57.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/263280/4e4627858cc44f996bf89dcaec33f9a64264cc5f.jpg"
+  },
+  {
+    "name": "ACH_SIZE_DOESNT_MATTER",
+    "defaultvalue": 0,
+    "displayName": "SIZE DOESNT MATTER",
+    "hidden": 0,
+    "description": "Complete a particular objective by delivering 'Short Logs' only",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/263280/7577e74108c11503d7ad9a87b501e9a3170b2696.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/263280/4e4627858cc44f996bf89dcaec33f9a64264cc5f.jpg"
+  },
+  {
+    "name": "ACH_OLD_STILL_GOOD",
+    "defaultvalue": 0,
+    "displayName": "OLD STILL GOOD",
+    "hidden": 0,
+    "description": "Complete particular objective by using Type B-130 only",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/263280/75fc24662fa108cb5035d0d1d318ed83eb62f632.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/263280/4e4627858cc44f996bf89dcaec33f9a64264cc5f.jpg"
+  },
+  {
+    "name": "ACH_EXPLORER",
+    "defaultvalue": 0,
+    "displayName": "EXPLORER",
+    "hidden": 0,
+    "description": "Remove all of the Cloaking Areas on any level with the Type A-469 vehicle",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/263280/fb37090755e7d3ba5edb471f6bdbdc547a31d31b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/263280/4e4627858cc44f996bf89dcaec33f9a64264cc5f.jpg"
+  },
+  {
+    "name": "ACH_MECHANIC",
+    "defaultvalue": 0,
+    "displayName": "MECHANIC",
+    "hidden": 0,
+    "description": "Repair other player truck for 1000 points",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/263280/9a9723746357255eeff5f97ec74c1e1e904f1357.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/263280/32347b628176c3ddd1ceb8687bbeaf81011d7374.jpg"
+  },
+  {
+    "name": "ACH_SCAVENGER",
+    "defaultvalue": 0,
+    "displayName": "SCAVENGER",
+    "hidden": 0,
+    "description": "Deliver 20 load points with Logs found outside a Lumber location",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/263280/b557132582414556756f68a33c5825c9774b135a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/263280/4e4627858cc44f996bf89dcaec33f9a64264cc5f.jpg"
+  },
+  {
+    "name": "ACH_FORESTER",
+    "defaultvalue": 0,
+    "displayName": "FORESTER",
+    "hidden": 0,
+    "description": "Finish a level without using the 'Minimap' in one Single Player session",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/263280/f781fb0127655379a902ca4618db5c03d02ee044.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/263280/4e4627858cc44f996bf89dcaec33f9a64264cc5f.jpg"
+  },
+  {
+    "name": "ACH_DIVER",
+    "defaultvalue": 0,
+    "displayName": "DIVER",
+    "hidden": 0,
+    "description": "Drive through water so that your vehicle is fully submerged and then escape without the engine stalling",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/263280/1631a4b99a2421b499aa294026614bfe2998ccee.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/263280/32347b628176c3ddd1ceb8687bbeaf81011d7374.jpg"
+  },
+  {
+    "name": "ACH_UNSTOPPABLE",
+    "defaultvalue": 0,
+    "displayName": "UNSTOPPABLE",
+    "hidden": 0,
+    "description": "Load 'Medium Logs' onto the Type C-4320 truck and drive to an Objective location without releasing accelerator",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/263280/9049446078e12048182efdc81ebe3abc78dbbb8d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/263280/4e4627858cc44f996bf89dcaec33f9a64264cc5f.jpg"
+  },
+  {
+    "name": "ACH_BULL",
+    "defaultvalue": 0,
+    "displayName": "BULL",
+    "hidden": 0,
+    "description": "Load 'Long Logs' onto the Type D-535 truck and drive to an Objective location without using the brakes",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/263280/f6e98ba00d0b4b08309c5948da5fb16cb865a37c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/263280/32347b628176c3ddd1ceb8687bbeaf81011d7374.jpg"
+  },
+  {
+    "name": "ACH_ONLY_LOVE",
+    "defaultvalue": 0,
+    "displayName": "MY ONLY LOVE",
+    "hidden": 0,
+    "description": "Finish a level with each but one Vehicle travelling less than 20 meters in Single Player mode",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/263280/a755d7f82e0ff2ddf9657a44de42a762ae80cf13.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/263280/32347b628176c3ddd1ceb8687bbeaf81011d7374.jpg"
+  },
+  {
+    "name": "ACH_CARRIER",
+    "defaultvalue": 0,
+    "displayName": "CARRIER HAS ARRIVED",
+    "hidden": 0,
+    "description": "Drive 200 meters with the Type A-469 vehicle on the back of your truck",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/263280/e41b7359a8b3daf41d80217bd6d84268d53d3b41.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/263280/4e4627858cc44f996bf89dcaec33f9a64264cc5f.jpg"
+  },
+  {
+    "name": "ACH_RESCUE",
+    "defaultvalue": 0,
+    "displayName": "RESCUE MISSION",
+    "hidden": 0,
+    "description": "More than 150 meters from a Garage, tow a fully damaged Type C truck to another Garage with the Type E-7310 truck",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/263280/21614f2eb8f3c4e0804c205ded39c2d41a8ae4d7.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/263280/4e4627858cc44f996bf89dcaec33f9a64264cc5f.jpg"
+  },
+  {
+    "name": "ACH_CLIMBER",
+    "defaultvalue": 0,
+    "displayName": "CLIMBER",
+    "hidden": 0,
+    "description": "Climb a very steep hill for 50 meters",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/263280/0fa6ecff5c1772d7e535f9a7edd316e3aeef40a2.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/263280/4e4627858cc44f996bf89dcaec33f9a64264cc5f.jpg"
+  },
+  {
+    "name": "ACH_DRIVE_CAREFULLY",
+    "defaultvalue": 0,
+    "displayName": "DRIVE CAREFULLY",
+    "hidden": 0,
+    "description": "Deliver Medium or Long logs without receiving any damage",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/263280/4b619316b0d742ea00930b0896ad61a3e6f68f58.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/263280/4e4627858cc44f996bf89dcaec33f9a64264cc5f.jpg"
+  },
+  {
+    "name": "ACH_ALL_I_NEED",
+    "defaultvalue": 0,
+    "displayName": "I HAVE ALL I NEED",
+    "hidden": 0,
+    "description": "Finish a level without changing the Vehicle addons during one Single Player session",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/263280/34619ee16c9ab08247e46918aedc04fb4117ec60.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/263280/4e4627858cc44f996bf89dcaec33f9a64264cc5f.jpg"
+  },
+  {
+    "name": "ACH_PLUMBER",
+    "defaultvalue": 0,
+    "displayName": "PLUMBER",
+    "hidden": 0,
+    "description": "Visit 8 toilets on the Hill level in one game session",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/263280/b59e073ca948e5d87b09747af52885e2a36ba24f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/263280/4e4627858cc44f996bf89dcaec33f9a64264cc5f.jpg"
+  },
+  {
+    "name": "ACH_FUEL_TANKER",
+    "defaultvalue": 0,
+    "displayName": "FUEL TANKER",
+    "hidden": 0,
+    "description": "Fill up other player's Vehicle with 1000 litres of fuel",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/263280/3ee4d8ad60481982c9aef3bddb388a3562262b1b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/263280/4e4627858cc44f996bf89dcaec33f9a64264cc5f.jpg"
+  },
+  {
+    "name": "ACH_RED_STAR",
+    "defaultvalue": 0,
+    "displayName": "RED STAR",
+    "hidden": 0,
+    "description": "Collect 'Finish' achievements for levels Coast, Hill, Plains, River and Volcano",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/263280/3770b3ca5752a5ded3e4904990e8aa801b03f0ce.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/263280/4e4627858cc44f996bf89dcaec33f9a64264cc5f.jpg"
+  },
+  {
+    "name": "ACH_DRIVER",
+    "defaultvalue": 0,
+    "displayName": "THE DRIVER",
+    "hidden": 0,
+    "description": "Travel 100 kilometers",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/263280/112d1ee873523ea6e5b4817724469dae2415d576.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/263280/4e4627858cc44f996bf89dcaec33f9a64264cc5f.jpg"
+  },
+  {
+    "name": "ACH_LEVEL_SIM_FLOOD",
+    "defaultvalue": 0,
+    "displayName": "FLOOD",
+    "hidden": 0,
+    "description": "Finish the Flood level in Hardcode mode",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/263280/35c1af90b5b02cdfb56984ebaf15615bc056c295.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/263280/49679a10f7e8873646dd725926b4ba303ce8cacb.jpg"
+  },
+  {
+    "name": "ACH_LEVEL_MP_FLOOD",
+    "defaultvalue": 0,
+    "displayName": "FLOOD COOP",
+    "hidden": 0,
+    "description": "Finish the Flood level in Multiplayer with at least 2 players",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/263280/d6c36b89800e6df6f5513a2e72d7417a890c378d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/263280/49679a10f7e8873646dd725926b4ba303ce8cacb.jpg"
+  },
+  {
+    "name": "ACH_LEVEL_CLOAKING_FLOOD",
+    "defaultvalue": 0,
+    "displayName": "EXPLORE FLOOD",
+    "hidden": 0,
+    "description": "Remove all of Cloaking Areas from the Flood level",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/263280/d74de7561fa6515b78432be2c01b82ca4a2d0a6a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/263280/49679a10f7e8873646dd725926b4ba303ce8cacb.jpg"
+  },
+  {
+    "name": "ACH_LEVEL_GARAGES_FLOOD",
+    "defaultvalue": 0,
+    "displayName": "FLOOD SETTLER",
+    "hidden": 0,
+    "description": "Unlock all of the Garages on the Flood level",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/263280/2c86282184105e3b608786b3876f5f38a08fcfea.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/263280/49679a10f7e8873646dd725926b4ba303ce8cacb.jpg"
+  },
+  {
+    "name": "ACH_VOLCANO_HONK",
+    "defaultvalue": 0,
+    "displayName": "VOLCANO HONK",
+    "hidden": 0,
+    "description": "Honk three times on top of hill with green water in Volcano level",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/263280/7b71e89308d98233b54f25853e969d8cb09a0398.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/263280/49679a10f7e8873646dd725926b4ba303ce8cacb.jpg"
+  },
+  {
+    "name": "ACH_MUSHROOMER",
+    "defaultvalue": 0,
+    "displayName": "MUSHROOMER",
+    "hidden": 0,
+    "description": "Squelch 50 mushrooms",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/263280/5fcf085d87809eb4bf4ef10fe1bc8607a8a15db8.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/263280/49679a10f7e8873646dd725926b4ba303ce8cacb.jpg"
+  },
+  {
+    "name": "ACH_LEVEL_SIM_CHERNOBYL",
+    "defaultvalue": 0,
+    "displayName": "CHERNOBYL",
+    "hidden": 0,
+    "description": "Finish the Chernobyl level in hardcore mode.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/263280/28e279aead2a90e7588eaa3d55137f86efc4008d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/263280/cf43c4f312c154919c9a9f3f036032a018041361.jpg"
+  },
+  {
+    "name": "ACH_LEVEL_MP_CHERNOBYL",
+    "defaultvalue": 0,
+    "displayName": "CHERNOBYL CO-OP",
+    "hidden": 0,
+    "description": "Finish the Chernobyl level in Multiplayer with at least 2 players.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/263280/1a0eba628895e24e693f8fbfcb17e03fe44e45f2.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/263280/72113c0e98955ec978ac74574bf9450ef80dcb7e.jpg"
+  },
+  {
+    "name": "ACH_LEVEL_CLOAKING_CHERNOBYL",
+    "defaultvalue": 0,
+    "displayName": "CHERNOBYL EXPLORER",
+    "hidden": 0,
+    "description": "Remove all Cloaking areas from Chernobyl.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/263280/145a6ac2dc56c471a4ee9522a04e6655cfca36a4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/263280/cf43c4f312c154919c9a9f3f036032a018041361.jpg"
+  },
+  {
+    "name": "ACH_LEVEL_GARAGES_CHERNOBYL",
+    "defaultvalue": 0,
+    "displayName": "CHERNOBYL SETTLER",
+    "hidden": 0,
+    "description": "Unlock all of the Garages in Chernobyl.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/263280/13a50e2aac020756e5f4290f3c867b13339cc83a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/263280/cf43c4f312c154919c9a9f3f036032a018041361.jpg"
+  },
+  {
+    "name": "ACH_CHERNOBYL_STALKER",
+    "defaultvalue": 0,
+    "displayName": "CHERNOBYL STALKER",
+    "hidden": 0,
+    "description": "Find the infamous highly radiated \"Claw\" of Chernobyl.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/263280/872b8612f4d662a8c46656787a209445070c4948.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/263280/cf43c4f312c154919c9a9f3f036032a018041361.jpg"
+  },
+  {
+    "name": "ACH_CHERNOBYL_EXPERT",
+    "defaultvalue": 0,
+    "displayName": "CHERNOBYL EXPERT",
+    "hidden": 0,
+    "description": "Deliver a load on the Chernobyl level without receiving damage from radiated areas.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/263280/9430b6631425f8b2548e8b8e914a1d831d486b97.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/263280/cf43c4f312c154919c9a9f3f036032a018041361.jpg"
+  },
+  {
+    "name": "ACH_LEVEL_SIM_URAL",
+    "defaultvalue": 0,
+    "displayName": "URAL CHALLENGE",
+    "hidden": 0,
+    "description": "Finish the Ural level in hardcore mode.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/263280/e23902bfeac9fa3ad03ef5b58fd6602ea6c46c99.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/263280/7b5759ae28474fd2cfbbfe8cd3bb70c1a1ce6061.jpg"
+  },
+  {
+    "name": "ACH_LEVEL_MP_URAL",
+    "defaultvalue": 0,
+    "displayName": "URAL CO-OP",
+    "hidden": 0,
+    "description": "Finish the Ural level in Multiplayer with at least 2 players.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/263280/0ea328c4c440b6ad1b6529badacfec28c3335274.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/263280/7b5759ae28474fd2cfbbfe8cd3bb70c1a1ce6061.jpg"
+  },
+  {
+    "name": "ACH_LEVEL_CLOAKING_URAL",
+    "defaultvalue": 0,
+    "displayName": "URAL EXPLORER",
+    "hidden": 0,
+    "description": "Remove all Cloaking areas from the Ural level.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/263280/03a5d93c1d0493fc644abb7f360f0e3340583b87.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/263280/7b5759ae28474fd2cfbbfe8cd3bb70c1a1ce6061.jpg"
+  },
+  {
+    "name": "ACH_LEVEL_GARAGES_URAL",
+    "defaultvalue": 0,
+    "displayName": "URAL SETTLER",
+    "hidden": 0,
+    "description": "Unlock all of the Garages on the Ural level.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/263280/9a7784090ed9057f1eb8f37d65d16f462bc752b4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/263280/7b5759ae28474fd2cfbbfe8cd3bb70c1a1ce6061.jpg"
+  }
+]

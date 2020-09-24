@@ -1,0 +1,353 @@
+[
+  {
+    "name": "SHAD_FIRST_BLOOD_1_0",
+    "defaultvalue": 0,
+    "displayName": "First Blood",
+    "hidden": 0,
+    "description": "Defeat first monster.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/511750/7326a46c50a028755bf2b098cddf31053c209260.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/511750/6997d88389eb6e677bfb769885fad267fab93254.jpg"
+  },
+  {
+    "name": "SHAD_MONSTER_DESTROYER_1_1",
+    "defaultvalue": 0,
+    "displayName": "Monster destroyer",
+    "hidden": 0,
+    "description": "Defeat 25 monsters.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/511750/d8a65d13ecb4e67514c26b938276eec07b8a81e3.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/511750/7bebb36888322e42427bb5016c7826640fc55fe5.jpg"
+  },
+  {
+    "name": "SHAD_FEARLESS_HUNTER_1_2",
+    "defaultvalue": 0,
+    "displayName": "Fearless hunter",
+    "hidden": 0,
+    "description": "Defeat 50 monsters",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/511750/99ea3075917c111742e67e868f012262168ff2b9.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/511750/0bb62fe4c2f2637ce96e1046a28ecbfd54d60a1e.jpg"
+  },
+  {
+    "name": "SHAD_BUGS_HUNTER_1_3",
+    "defaultvalue": 0,
+    "displayName": "Bugs Hunter",
+    "hidden": 0,
+    "description": "Defeat Bug-Bros.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/511750/a4998f688543cbb28eedadc6f9f4c71ea84a84fb.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/511750/cd3cff59ff28fe5ed6e5f917c7d3b1a71733ee75.jpg"
+  },
+  {
+    "name": "SHAD_WITCH_HUNTER_1_4",
+    "defaultvalue": 0,
+    "displayName": "Witch Hunter",
+    "hidden": 0,
+    "description": "Defeat Witch.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/511750/fcaf56c747c39da01a5e61eb8d7d56f6b4b3afea.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/511750/eff3f28b4bb310dad99be7583e2220568121cbf0.jpg"
+  },
+  {
+    "name": "SHAD_PLUNDERER_1_5",
+    "defaultvalue": 0,
+    "displayName": "Plunderer",
+    "hidden": 0,
+    "description": "Open a treasure chest.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/511750/ded30f4bf780e5e541e442d25dff18aafac8d431.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/511750/483cbdf4fab044d57fe7a79de3640e5b350a789d.jpg"
+  },
+  {
+    "name": "SHAD_COLLECTIONER_1_6",
+    "defaultvalue": 0,
+    "displayName": "Collectioner",
+    "hidden": 0,
+    "description": "Collect 3 diamonds.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/511750/de37206aeefa88715153e84bbd3a06db1f505b68.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/511750/b15955e7d9b0a011706bbe18207f5eb731fb92b6.jpg"
+  },
+  {
+    "name": "SHAD_SAVING_UP_1_7",
+    "defaultvalue": 0,
+    "displayName": "Saving up",
+    "hidden": 0,
+    "description": "Have 1000 gold.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/511750/5c5129602692814b65dd71e69ca64a88b403225b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/511750/a09b4dd392cd853d2b6d77e0c92ac7ec8e71a4a1.jpg"
+  },
+  {
+    "name": "SHAD_FILTHY_RICH_1_8",
+    "defaultvalue": 0,
+    "displayName": "Filthy Rich",
+    "hidden": 0,
+    "description": "Have 10000 gold.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/511750/205dfa3f222c9a64ec1a376fa753f27133cebec1.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/511750/8d218003dece598c55ac56e8dbefa91ed6639602.jpg"
+  },
+  {
+    "name": "SHAD_NECROMANCER_1_9",
+    "defaultvalue": 0,
+    "displayName": "Necromancer Hunter",
+    "hidden": 0,
+    "description": "Defeat Necromancer.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/511750/4eba711ad8d0a1de4b4f81e510ab708713321d5f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/511750/37a478eba6cf849e6b338df99dc2c625cf806844.jpg"
+  },
+  {
+    "name": "SHAD_BOSSOFALLBOSSES_1_10",
+    "defaultvalue": 0,
+    "displayName": "Boss of all Bosses",
+    "hidden": 0,
+    "description": "Defeat Boss of all Bosses.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/511750/99b27264a14b227c25f3360dfd22eefa35705720.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/511750/352a99f87390bba03b417989ed8280cb5d20791c.jpg"
+  },
+  {
+    "name": "SHAD_FINAL_1_11",
+    "defaultvalue": 0,
+    "displayName": "Homunculus",
+    "hidden": 0,
+    "description": "Defeat Homunculus.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/511750/e68f85d51a6f5f628cbb849619d0404b3b532f2b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/511750/007edd80045995f12561f1dfa950b58e38bc7c26.jpg"
+  },
+  {
+    "name": "SHAD_GIMPER_2_6_2",
+    "defaultvalue": 0,
+    "displayName": "King Gimper",
+    "hidden": 0,
+    "description": "Meet Gimper.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/511750/dd474e96b12cafc44bed3911ab89c75f63116a57.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/511750/368ab64fe229471c0e7bd1c4ed6d23ed2c219472.jpg"
+  },
+  {
+    "name": "SHAD_MENDZIO_1_13",
+    "defaultvalue": 0,
+    "displayName": "Mendzio",
+    "hidden": 0,
+    "description": "Meet Mendzio.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/511750/0572e9acd2a80c95ceb7f9fa93811b7a0479e544.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/511750/cdff60db8b8de8d5e29db6e5edba54479791cd5e.jpg"
+  },
+  {
+    "name": "SHAD_DEARD_1_14",
+    "defaultvalue": 0,
+    "displayName": "Decard",
+    "hidden": 0,
+    "description": "Meet Decard.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/511750/6cb74678b3f4b8172479e916d63b3c8028ef1f9b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/511750/9ec3854c90d6c8f11c5dbde7d3f3c3b8a093ce57.jpg"
+  },
+  {
+    "name": "SHAD_ISANU_1_15",
+    "defaultvalue": 0,
+    "displayName": "Isanu",
+    "hidden": 0,
+    "description": "Meet Isanu.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/511750/88b4452ed95459c2f518622b474477b8076cb7a7.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/511750/e1d2c5cf032aeedb30852518bef410e2272f2a86.jpg"
+  },
+  {
+    "name": "SHAD_OLDMAN_1_16",
+    "defaultvalue": 0,
+    "displayName": "Oldman",
+    "hidden": 0,
+    "description": "Meet Oldman.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/511750/0cc9be90bd2f22077458c34cbe400f9c1da602e6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/511750/1c7f1baba4e65cc88643371e28d5117940d94b52.jpg"
+  },
+  {
+    "name": "SHAD_ROJSON_1_17",
+    "defaultvalue": 0,
+    "displayName": "Rojson",
+    "hidden": 0,
+    "description": "Meet Rojson.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/511750/ff76112a7f70c8a1515edd99b9c33baf50d58be2.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/511750/6e855e5dfc1ad03cfabb51b8c5fd39075e094ffa.jpg"
+  },
+  {
+    "name": "SHAD_NYMPH_1_18",
+    "defaultvalue": 0,
+    "displayName": "Nymph",
+    "hidden": 0,
+    "description": "Meet Nymph.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/511750/1c32df30711c4e9083702f2170903ca7e5f5145b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/511750/7c622a5bbc566ed1bd0549dd7544200c46bb7f26.jpg"
+  },
+  {
+    "name": "SHAD_SNAIL_HUNTER_1_19",
+    "defaultvalue": 0,
+    "displayName": "Snail Hunter",
+    "hidden": 0,
+    "description": "Defeat Snail.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/511750/6be2452951a3756333af2d66ba0e65027afcea0a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/511750/a504f7138d04465df30f5aefd80634d48e0de7ec.jpg"
+  },
+  {
+    "name": "SHAD_POLEWACY_1_20",
+    "defaultvalue": 0,
+    "displayName": "Polewacy",
+    "hidden": 0,
+    "description": "Meet Polewacy.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/511750/b9fcaec320ee5a98b3874082febec39656116916.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/511750/74833ad7dc07f6fc9a72e2a84cb6e37bbafd0fcb.jpg"
+  },
+  {
+    "name": "SHAD_GOOD_1_21",
+    "defaultvalue": 0,
+    "displayName": "Good ending",
+    "hidden": 0,
+    "description": "Stay on the island.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/511750/512a8b4fc5a30f2bae9d4e9c4f88abac0434382c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/511750/1c3e2b075ab47b766ff82fa36ea3ce3e97eb57af.jpg"
+  },
+  {
+    "name": "SHAD_EVIL_1_22",
+    "defaultvalue": 0,
+    "displayName": "Bad ending",
+    "hidden": 0,
+    "description": "Force Polewacy to give you diamond.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/511750/6e3635b041c42a882e0334d4df03ff7323666271.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/511750/63874c11e9d41f1192c4ca63069228745d76c81c.jpg"
+  },
+  {
+    "name": "LEVEL_2_1_23",
+    "defaultvalue": 0,
+    "displayName": "Signle steps",
+    "hidden": 0,
+    "description": "Got a character to level 2.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/511750/ad816a7f87645886c3b7731169ada651052577fb.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/511750/8229d33f27df98ee7740e3f8c0851b554f288084.jpg"
+  },
+  {
+    "name": "LEVEL_5_1_24",
+    "defaultvalue": 0,
+    "displayName": "Young hero",
+    "hidden": 0,
+    "description": "Got a character to level 5.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/511750/713c0562dc8f62788787e76196dbf8c3093dbf0e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/511750/06f0f90fd854f701733a78f47303d81df220c934.jpg"
+  },
+  {
+    "name": "LEVEL_10_1_25",
+    "defaultvalue": 0,
+    "displayName": "Mature hero",
+    "hidden": 0,
+    "description": "Got a character to level 10.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/511750/9b8d0b22206c7480b653135203f7fc973d3b99e1.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/511750/88cb06b78cc8c0557dec9871823883eb34d42156.jpg"
+  },
+  {
+    "name": "LEVEL_15_1_26",
+    "defaultvalue": 0,
+    "displayName": "Experienced hero",
+    "hidden": 0,
+    "description": "Got a character to level 15.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/511750/a8fb8064e35618d38c0143803b1be926e44122c1.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/511750/1105a8012badd14ecc325858ee3531fd8828e79d.jpg"
+  },
+  {
+    "name": "SHAD_ROJSON_STORY_1_27",
+    "defaultvalue": 0,
+    "displayName": "Rojson story",
+    "hidden": 0,
+    "description": "Listen to the whole Rojson story.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/511750/c33c916e06251271ed256dd4119a81af240588f7.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/511750/89159ce48faeb54ca5f56812bfd5be2cfd214d7a.jpg"
+  },
+  {
+    "name": "SHAD_QUEST_MENDZIO_1_28",
+    "defaultvalue": 0,
+    "displayName": "Bile",
+    "hidden": 0,
+    "description": "Give Mendzio bile.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/511750/b7bb33a0779a2b105665be94f3bacf025ee06296.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/511750/4f5d6346f842aef24b950e01f6d14efbd53f021c.jpg"
+  },
+  {
+    "name": "SHAD_QUEST_DEARD_1_29",
+    "defaultvalue": 0,
+    "displayName": "Unidentified Object",
+    "hidden": 0,
+    "description": "Give Decard unidentified object.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/511750/848bcc76033136c91b1f233371137674e5be669e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/511750/ea213c1a3989d6fed0edeeb50a9bb1d0511f0439.jpg"
+  },
+  {
+    "name": "SHAD_QUEST_ROJSON_1_30",
+    "defaultvalue": 0,
+    "displayName": "Mystic Delta",
+    "hidden": 0,
+    "description": "Give Rojson mystic delta.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/511750/825bd56480d27f781778f595d451655264394872.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/511750/0c48f454a6071f616ff4536d5679386aa5969608.jpg"
+  },
+  {
+    "name": "SHAD_DAMAGE_1_1_31",
+    "defaultvalue": 0,
+    "displayName": "Relentless damages",
+    "hidden": 0,
+    "description": "Got a damage to over 150.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/511750/70bb2e36e56f2bd9eaa68a8f70235386d5046296.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/511750/d7c31e22ff2e2e429285c9fd6cc22f3657a22fb6.jpg"
+  },
+  {
+    "name": "SHAD_DAMAGE_2_2_0",
+    "defaultvalue": 0,
+    "displayName": "Pitiless damages",
+    "hidden": 0,
+    "description": "Got a damage to over 250.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/511750/edd5a0f736464b98d53d20550ab165b78b1dd189.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/511750/b1eb8e726092fe290387b500cee53817e9ff9c6e.jpg"
+  },
+  {
+    "name": "SHAD_DAMAGE_3_2_1",
+    "defaultvalue": 0,
+    "displayName": "Ferocious damages",
+    "hidden": 0,
+    "description": "Got a damage to over 350.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/511750/06fb4ded55c95bc4b86046857460f1252450da31.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/511750/ee85495ca57faaf0b841e5cd1e6a6eaf5ef946cc.jpg"
+  },
+  {
+    "name": "SHAD_DAMAGE_4_2_2",
+    "defaultvalue": 0,
+    "displayName": "Tyrannical damages",
+    "hidden": 0,
+    "description": "Got a damage to over 550.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/511750/c491ce1effa9d663cf368a2e435a593bccecfdf3.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/511750/f9007d29b6f2e90aeccad1fa9fcedf448ce6b4eb.jpg"
+  },
+  {
+    "name": "SHAD_COMBOS_1_2_3",
+    "defaultvalue": 0,
+    "displayName": "Sweet!",
+    "hidden": 0,
+    "description": "Combo over 50x",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/511750/ad269c87f6f764b40764738cb92afd6b8c0afa5b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/511750/9c630aa31731e0280a8ddaa20f926ddfa45d3fc3.jpg"
+  },
+  {
+    "name": "SHAD_COMBOS_2_2_4",
+    "defaultvalue": 0,
+    "displayName": "SShowtime!!",
+    "hidden": 0,
+    "description": "Combo over 100x",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/511750/a60c860d40b0672d51c8fa10e2bb00e8b000783a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/511750/31571b71161e3c981d304379209c7504c95d4655.jpg"
+  },
+  {
+    "name": "SHAD_COMBOS_3_2_5",
+    "defaultvalue": 0,
+    "displayName": "SSShowdown!!!",
+    "hidden": 0,
+    "description": "Combo over 150x",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/511750/58ab1193f120fb300201a8cec8e24ab10e3246ef.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/511750/d4a30d3be89af15abf945e2968aeced0b0a709a6.jpg"
+  },
+  {
+    "name": "SHAD_ANIMAL_KILLER_1_12",
+    "defaultvalue": 0,
+    "displayName": "Animal Killer",
+    "hidden": 0,
+    "description": "Kill 10 wild animals.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/511750/9696da84eafdf2b24d04e7a425c625f2e51fd24f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/511750/1a9e437fa6670bee4a7ea37131165a4229297504.jpg"
+  }
+]

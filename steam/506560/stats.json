@@ -1,0 +1,547 @@
+[
+  {
+    "name": "play_time_level_intro",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "play_time_level_balldrop",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "play_time_level_puzzle",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "play_time_level_beams",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "play_time_level_rotation",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "play_time_level_cross",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "play_time_level_pulse",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "play_time_level_throw",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "play_time_level_roll",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "play_time_level_furnace",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "play_time_level_drop",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "play_time_level_maze",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "fastest_time_level_intro",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "fastest_time_level_balldrop",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "fastest_time_level_puzzle",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "fastest_time_level_beams",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "fastest_time_level_rotation",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "fastest_time_level_cross",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "fastest_time_level_pulse",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "fastest_time_level_throw",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "fastest_time_level_roll",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "fastest_time_level_furnace",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "fastest_time_level_drop",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "fastest_time_level_maze",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "gold_medal_count",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "secret_count",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "SFXVolume",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "BGMVolume",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "death_count_level_intro",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "death_count_level_balldrop",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "death_count_level_puzzle",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "death_count_level_beams",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "death_count_level_rotation",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "death_count_level_cross",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "death_count_level_pulse",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "death_count_level_throw",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "death_count_level_roll",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "death_count_level_furnace",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "death_count_level_drop",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "death_count_level_maze",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "orb_equip_count_level_intro",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "orb_equip_count_level_balldrop",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "orb_equip_count_level_puzzle",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "orb_equip_count_level_beams",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "orb_equip_count_level_rotation",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "orb_equip_count_level_cross",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "orb_equip_count_level_pulse",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "orb_equip_count_level_throw",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "orb_equip_count_level_roll",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "orb_equip_count_level_furnace",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "orb_equip_count_level_drop",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "orb_equip_count_level_maze",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "orb_throw_count_level_intro",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "orb_throw_count_level_balldrop",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "orb_throw_count_level_puzzle",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "orb_throw_count_level_beams",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "orb_throw_count_level_rotation",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "orb_throw_count_level_cross",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "orb_throw_count_level_pulse",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "orb_throw_count_level_throw",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "orb_throw_count_level_roll",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "orb_throw_count_level_furnace",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "orb_throw_count_level_drop",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "orb_throw_count_level_maze",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "play_time_level_subtractive",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "play_time_level_negate",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "play_time_level_subneg",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "play_time_level_slant",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "play_time_level_marbles",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "play_time_level_battleship",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "fastest_time_level_subtractive",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "fastest_time_level_negate",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "fastest_time_level_subneg",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "fastest_time_level_slant",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "fastest_time_level_marbles",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "fastest_time_level_battleship",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "death_count_level_subtractive",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "death_count_level_negate",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "death_count_level_subneg",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "death_count_level_slant",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "death_count_level_marbles",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "death_count_level_battleship",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "orb_equip_count_level_subtractive",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "orb_equip_count_level_negate",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "orb_equip_count_level_subneg",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "orb_equip_count_level_slant",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "orb_equip_count_level_marbles",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "orb_equip_count_level_battleship",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "orb_throw_count_level_subtractive",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "orb_throw_count_level_negate",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "orb_throw_count_level_subneg",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "orb_throw_count_level_slant",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "orb_throw_count_level_marbles",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "orb_throw_count_level_battleship",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "play_time_level_spiral",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "fastest_time_level_spiral",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "death_count_level_spiral",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "orb_equip_count_level_spiral",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "orb_throw_count_level_spiral",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "play_time_level_amalgam",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "fastest_time_level_amalgam",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "death_count_level_amalgam",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "orb_equip_count_level_amalgam",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "orb_throw_count_level_amalgam",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "play_time_level_cube",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "fastest_time_level_cube",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "death_count_level_cube",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "orb_equip_count_level_cube",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "orb_throw_count_level_cube",
+    "defaultvalue": 0,
+    "displayName": ""
+  }
+]

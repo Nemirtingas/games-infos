@@ -1,0 +1,114 @@
+﻿[
+  {
+    "name": "ACH_DM_SIN_TutorialComplete",
+    "defaultvalue": 0,
+    "displayName": "Tutorial Complete",
+    "hidden": 0,
+    "description": "Complete the Tutorial ",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/676840/b1d9d074493a105217beb8a29e9df96d9a66fa9b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/676840/9a7122789c3030bc7ef0735acaadce879ae1eb53.jpg"
+  },
+  {
+    "name": "ACH_DM_SIN_DemoComplete",
+    "defaultvalue": 0,
+    "displayName": "Demo Complete",
+    "hidden": 0,
+    "description": "Complete the Demo",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/676840/5c5e9d7bf564e3c7dffbef719bf336e4545c7bc4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/676840/b6aea40e573a1ef7fb379371d485f41bf88cf7e1.jpg"
+  },
+  {
+    "name": "ACH_DM_SIN_TrashCollector",
+    "defaultvalue": 0,
+    "displayName": "Mr. Clean",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/676840/2f28b86572987a6f63f5dcc5a486b75a338101fb.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/676840/7b3ce18a2ea8e88c279d94c80757ea95109b91f8.jpg"
+  },
+  {
+    "name": "ACH_DM_SIN_NoDamageTaken",
+    "defaultvalue": 0,
+    "displayName": "Untouchable",
+    "hidden": 0,
+    "description": "Take no damage in any one game",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/676840/5175b1e7afdd31d5adfa810c4d1f48874dd4b27b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/676840/b90e74a71a51d5fd4ebc05ea25e2c8843a83d400.jpg"
+  },
+  {
+    "name": "ACH_DM_ACC_DiedALot",
+    "defaultvalue": 0,
+    "displayName": "Suicide By Zombie...a lot",
+    "hidden": 0,
+    "description": "Died 20 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/676840/3f614a0b715d82e21c8bb89a7382297593fb57e1.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/676840/330fd298623c1f474df92892d9f15a32505ab257.jpg"
+  },
+  {
+    "name": "ACH_DM_SIN_CloseToDeath",
+    "defaultvalue": 0,
+    "displayName": "Survivor",
+    "hidden": 0,
+    "description": "Have 1-5 HP and survive",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/676840/4b81f3d7b582cf3348ea1ec569775a71c9b70eed.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/676840/b8eec503646720be7d38cec61f2ea7b5f0419a8d.jpg"
+  },
+  {
+    "name": "ACH_DM_ACC_GrabHats",
+    "defaultvalue": 0,
+    "displayName": "Hat Trick",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/676840/bdcec19f56805bf4ecfaa1f7a0841191c3f808b6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/676840/3735c95af97cfbea1166df537e9d3630b9f14e33.jpg"
+  },
+  {
+    "name": "ACH_DM_SIN_SearchAll",
+    "defaultvalue": 0,
+    "displayName": "Klepto",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/676840/601a41bcfa22cacb2459588c9ad3d85000ded397.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/676840/31b08e58d3b217d2852470134fb618d23e1472ee.jpg"
+  },
+  {
+    "name": "ACH_DM_SIN_BreakAllMelee",
+    "defaultvalue": 0,
+    "displayName": "Smashing Good Time",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/676840/97f5ad49017be69ed3be8a0d9c9eb54ab6b98c3d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/676840/f7f9c7ff8aae31e6069feca455fd8f075eca30eb.jpg"
+  },
+  {
+    "name": "ACH_DM_SIN_NadeFiveZombs",
+    "defaultvalue": 0,
+    "displayName": "Unazombiebomber",
+    "hidden": 0,
+    "description": "Kill 5 zombies with the same grenade",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/676840/d5dbf5d6b0a0c51c01d32cda47c93c24a967b5c9.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/676840/a50b6648c3c50ce2c704ebd6164bf18ffcf99ec6.jpg"
+  },
+  {
+    "name": "ACH_DM_SIN_Speedrunner",
+    "defaultvalue": 0,
+    "displayName": "Speedrunner",
+    "hidden": 0,
+    "description": "Complete the demo in under 8 minutes",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/676840/e1a0079c719d2c412a281292d0f1b3a0169b2ee2.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/676840/2a78f6f13f03c7ce73e9278014ec649132de71f8.jpg"
+  },
+  {
+    "name": "ACH_DM_SIN_NerfAZombie",
+    "defaultvalue": 0,
+    "displayName": "You Nerfed A Zombie",
+    "hidden": 0,
+    "description": "Shoot the same zombie 35 times with the toy gun",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/676840/e7601027abb6ffcae1321286d2b1d55023161f9d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/676840/ebe4f2ffc38dcb798c7dc689dbd9d501bd15aafd.jpg"
+  },
+  {
+    "name": "ACH_DM_ACC_DemoLover",
+    "defaultvalue": 0,
+    "displayName": "Addicted Much?",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/676840/a54a939d8da9c289216bc7c542de63dd761ce352.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/676840/e0a1b88454eb3a70bad33ce627b34a9014dafee3.jpg"
+  }
+]

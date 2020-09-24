@@ -1,0 +1,236 @@
+[
+  {
+    "name": "BETA",
+    "defaultvalue": 0,
+    "displayName": "It Starts",
+    "hidden": 0,
+    "description": "Welcome to Azaconia.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1197520/8e9800e409b0c89ddc578e857b5488bd80927b82.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1197520/20f9365e3022e938bc30cbf90cb6ab72dff080da.jpg"
+  },
+  {
+    "name": "SSS",
+    "defaultvalue": 0,
+    "displayName": "Slithering Sheelah Slayer",
+    "hidden": 0,
+    "description": "Defeat Slitherdice.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1197520/74181d86a6ae52a418bf6b82d669a53f472124a0.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1197520/9e5d0838f94cf5aef51d108cbbe6810ac1420713.jpg"
+  },
+  {
+    "name": "SSSP",
+    "defaultvalue": 0,
+    "displayName": "Super Sheelah Slayer",
+    "hidden": 0,
+    "description": "Defeat Super Slitherdice.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1197520/811605c54840e19984b6e05152ac2618b50f0ef7.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1197520/09981aec5d7020c71be1cb689a7a6c636c827057.jpg"
+  },
+  {
+    "name": "GRAB",
+    "defaultvalue": 0,
+    "displayName": "Grab a Kitty",
+    "hidden": 0,
+    "description": "Recruit the kitty earlier in Game Plus.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1197520/b21e5d585a021d322a437ee1774608cc47014819.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1197520/3e9c361ad5e60d09eaa3c0041de6e23dac3360b4.jpg"
+  },
+  {
+    "name": "SHIFT1",
+    "defaultvalue": 0,
+    "displayName": "Shifty at the Volcano",
+    "hidden": 0,
+    "description": "Speak with Shifty Sam at the volcano.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1197520/03d3ef84cf27d79a9a76fdbe38ce592b14c43032.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1197520/d3e779d09dc1bae34bf2773e4eb7c03f747a92d4.jpg"
+  },
+  {
+    "name": "SHIFT2",
+    "defaultvalue": 0,
+    "displayName": "Shifty at the Beach",
+    "hidden": 0,
+    "description": "Speak with Shifty Sam at the beach.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1197520/2f7873511414e4d3637a5e99e34af753a9dbced8.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1197520/554ca3e5268853dffa03f416225eb283a507d81a.jpg"
+  },
+  {
+    "name": "SHIFT3",
+    "defaultvalue": 0,
+    "displayName": "Shifty at the Dojo",
+    "hidden": 0,
+    "description": "Speak with Shifty Sam at the refuge.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1197520/f803912a9e6271bd5a6fd2da999780f201be7513.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1197520/df16ec30f1bbcd07175a882bc3d960ba90542a7e.jpg"
+  },
+  {
+    "name": "SHIFT4",
+    "defaultvalue": 0,
+    "displayName": "Shifty at the Summit",
+    "hidden": 0,
+    "description": "Speak with Shifty Sam at the summit.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1197520/03d3ef84cf27d79a9a76fdbe38ce592b14c43032.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1197520/d3e779d09dc1bae34bf2773e4eb7c03f747a92d4.jpg"
+  },
+  {
+    "name": "SAGE",
+    "defaultvalue": 0,
+    "displayName": "Withering Sage",
+    "hidden": 0,
+    "description": "Help an old man to safety.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1197520/db0309851e9eec7e5065eaca6e138de5e990c4b7.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1197520/bfce234759ee7e950e3a0d7ec428c873b29a1a37.jpg"
+  },
+  {
+    "name": "NOFIRE",
+    "defaultvalue": 0,
+    "displayName": "Burn No More",
+    "hidden": 0,
+    "description": "Defeat the Fiend of Fire.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1197520/bfd05ec65a9890a14ce473bc10752476759f4ca9.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1197520/c0f05b6fd17f031c0518eb368dd081f8d81b04e1.jpg"
+  },
+  {
+    "name": "SARAH",
+    "defaultvalue": 0,
+    "displayName": "Sarai Slayer",
+    "hidden": 0,
+    "description": "Defeat Sarai.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1197520/a91718cde578d44250c080762af830ab136a5db9.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1197520/e24be7c11858ba8400c446950f7a85a9c82e866b.jpg"
+  },
+  {
+    "name": "MURDA",
+    "defaultvalue": 0,
+    "displayName": "Murda the Lion",
+    "hidden": 0,
+    "description": "Defeat Lyonheart.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1197520/0d7cd7ee81ed732b3ec74897189409d7cacd98e4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1197520/d6da921f2c440302dd6068ffe2bdac0b606e6dd4.jpg"
+  },
+  {
+    "name": "GUY",
+    "defaultvalue": 0,
+    "displayName": "The Power of Youth",
+    "hidden": 0,
+    "description": "Reach Conjurer without Grandma's Help.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1197520/2511159f80b12aa613b98380337c7e17473c8013.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1197520/abc9a29cd2efff49b6cc69405c653b4382fa4fc5.jpg"
+  },
+  {
+    "name": "SHROOM",
+    "defaultvalue": 0,
+    "displayName": "Shroooooooms",
+    "hidden": 0,
+    "description": "Leave Kalbi Caverns with a softheart mushroom.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1197520/eca4f8275d48c54a0c6b76aa7cb94fec315fb390.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1197520/ec8684b1b263b42afa081fc3bfd1a753a33b5d54.jpg"
+  },
+  {
+    "name": "GANDALF",
+    "defaultvalue": 0,
+    "displayName": "None Shall Pass",
+    "hidden": 0,
+    "description": "Defeat every Draconian soldier at the Kalbi Summit.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1197520/6c859835cdeb547e101009a6953de14b42e01636.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1197520/1d6c55217b111cb099074312192418c9310de992.jpg"
+  },
+  {
+    "name": "BALROG",
+    "defaultvalue": 0,
+    "displayName": "Minimum Casualties",
+    "hidden": 0,
+    "description": "Defeat Noway before defeating all of the Draconian soldiers.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1197520/31b2c98985aae35c63ef6a7979e8e227d309eee0.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1197520/9574deefb4afe7ebf3bd88bf8a1c4bcbfd697991.jpg"
+  },
+  {
+    "name": "ACT1",
+    "defaultvalue": 0,
+    "displayName": "Familia, Act 1 Finished",
+    "hidden": 0,
+    "description": "Complete Familia, Act 1.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1197520/d8499067e04861668b6024b2979283e60124f9ac.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1197520/62760a3e82eefe956a1535926e481e690455149b.jpg"
+  },
+  {
+    "name": "ACT1B",
+    "defaultvalue": 0,
+    "displayName": "Familia, Act 1 Finished Twice",
+    "hidden": 0,
+    "description": "Complete Familia, Act 1 on Game Plus mode.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1197520/6e5e3b2c5b8af5eb382f0c86af3cf4b90150a5c5.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1197520/62ab21161c70ea0fe8bf4d8fb27477a52c5f0992.jpg"
+  },
+  {
+    "name": "SHADOW",
+    "defaultvalue": 0,
+    "displayName": "The Greatest Shinobi",
+    "hidden": 0,
+    "description": "Obtain Shadow's Legacy.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1197520/7ac6be6f192159a5add4ebf8c183361da252d383.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1197520/76fef8252a50e8f7c72e91d93a703985f9e71126.jpg"
+  },
+  {
+    "name": "FLOWER",
+    "defaultvalue": 0,
+    "displayName": "Grandma's Favorite",
+    "hidden": 0,
+    "description": "Collect 50 flowers.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1197520/c3298dce660763b54a299b9bcb3bd723a695b495.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1197520/5336d1cb5df7ccf0018ab5e517c971d976e165b2.jpg"
+  },
+  {
+    "name": "SERO",
+    "defaultvalue": 0,
+    "displayName": "Almighty Sage",
+    "hidden": 0,
+    "description": "Defeat the Fiend of Fire with Sero in your party.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1197520/67afb27c2c96563d36704f3dee4a64fb52cb6689.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1197520/083b62a432907ddf593f5faea9085804749d46f7.jpg"
+  },
+  {
+    "name": "ESC",
+    "defaultvalue": 0,
+    "displayName": "Never Escape",
+    "hidden": 0,
+    "description": "Finish Act 1 without escaping in battle.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1197520/16d5f0546bfcb16478816aec4953284d0a9732c3.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1197520/8a7ed741a4dfa136a678fe673b734959f824cda3.jpg"
+  },
+  {
+    "name": "CRED",
+    "defaultvalue": 0,
+    "displayName": "The Final Rush",
+    "hidden": 0,
+    "description": "Reach every exit during endgame credits.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1197520/de6d7f72ddd088b398f521f5c587e208f351bda4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1197520/cbe9199c9affeb3480c5d4415f805a92ef8c57a0.jpg"
+  },
+  {
+    "name": "COLD",
+    "defaultvalue": 0,
+    "displayName": "Cold Blooded Killer",
+    "hidden": 0,
+    "description": "Defeat Coldhart.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1197520/831ee5bc02bc2f4a608a04753c4f0b404651a542.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1197520/f45379597d477c3f50a5c0dffccd0d758e841cf0.jpg"
+  },
+  {
+    "name": "CLAW",
+    "defaultvalue": 0,
+    "displayName": "An Excellent Claw",
+    "hidden": 0,
+    "description": "Obtain the Exclaw Lobber.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1197520/39343a145a6202aa8515c0458eb8c684c8c22e3f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1197520/28c1958d4916c429f45fda2d97cfa036a5a995cc.jpg"
+  },
+  {
+    "name": "MOM",
+    "defaultvalue": 0,
+    "displayName": "Your Mother",
+    "hidden": 0,
+    "description": "Defeat Mother.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1197520/f84ad5223885fdce9a701497a95d53e163525226.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1197520/4a19b503a1395ff8acbb104f98c261782311dfcc.jpg"
+  }
+]

@@ -1,0 +1,1506 @@
+﻿{
+  "STAT_GAMES_WON": {
+    "description": "Games Won",
+    "value": 0
+  },
+  "STAT_RARES_COLLECTED": {
+    "description": "Rare Resources Collected",
+    "value": 0
+  },
+  "STAT_RUINS_RESOURCES": {
+    "description": "Resource Collected from Ruins",
+    "value": 0
+  },
+  "STAT_TOTAL_RESOURCES": {
+    "description": "Total Resources Collected",
+    "value": 0
+  },
+  "STAT_UNITS_KILLED": {
+    "description": "Units Killed",
+    "value": 0
+  },
+  "STAT_BUILDINGS_BUILT": {
+    "description": "Buildings Built",
+    "value": 0
+  },
+  "STAT_BUILDINGS_DESTROYED": {
+    "description": "Buildings Destroyed",
+    "value": 0
+  },
+  "STAT_UNITS_LOST": {
+    "description": "Units Lost",
+    "value": 0
+  },
+  "STAT_INFANTRY_TRAINED": {
+    "description": "Infantry Units Trained",
+    "value": 0
+  },
+  "STAT_CAVALRY_TRAINED": {
+    "description": "Cavalry Units Trained",
+    "value": 0
+  },
+  "STAT_ARTILLERY_TRAINED": {
+    "description": "Artillery Units Trained",
+    "value": 0
+  },
+  "STAT_NAVAL_TRAINED": {
+    "description": "Naval Units Trained",
+    "value": 0
+  },
+  "STAT_AIR_TRAINED": {
+    "description": "Air Units Trained",
+    "value": 0
+  },
+  "STAT_GAMES_PLAYED": {
+    "description": "Games Completed",
+    "value": 0
+  },
+  "STAT_ACHIEVEMENTS_UNLOCKED": {
+    "description": "Achievements Unlocked",
+    "value": 0
+  },
+  "STAT_GAMES_WON_AZTECS": {
+    "description": "Games Won (Aztecs)",
+    "value": 0
+  },
+  "STAT_GAMES_WON_MAYA": {
+    "description": "Games Won (Maya)",
+    "value": 0
+  },
+  "STAT_GAMES_WON_INCA": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_GAMES_WON_BANTU": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_GAMES_WON_NUBIANS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_GAMES_WON_GREEKS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_GAMES_WON_ROMANS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_GAMES_WON_EGYPTIANS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_GAMES_WON_TURKS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_GAMES_WON_SPANISH": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_GAMES_WON_FRENCH": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_GAMES_WON_BRITISH": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_GAMES_WON_GERMANS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_GAMES_WON_RUSSIANS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_GAMES_WON_CHINESE": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_GAMES_WON_JAPANESE": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_GAMES_WON_KOREANS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_GAMES_WON_MONGOLS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_GAMES_WON_IROQUOIS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_GAMES_WON_LAKOTA": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_GAMES_WON_AMERICANS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_GAMES_WON_INDIANS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_GAMES_WON_DUTCH": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_GAMES_WON_PERSIANS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_GAMES_PLAYED_AZTECS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_GAMES_PLAYED_MAYA": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_GAMES_PLAYED_INCA": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_GAMES_PLAYED_BANTU": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_GAMES_PLAYED_NUBIANS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_GAMES_PLAYED_GREEKS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_GAMES_PLAYED_ROMANS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_GAMES_PLAYED_EGYPTIANS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_GAMES_PLAYED_TURKS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_GAMES_PLAYED_SPANISH": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_GAMES_PLAYED_FRENCH": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_GAMES_PLAYED_BRITISH": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_GAMES_PLAYED_GERMANS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_GAMES_PLAYED_RUSSIANS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_GAMES_PLAYED_CHINESE": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_GAMES_PLAYED_JAPANESE": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_GAMES_PLAYED_KOREANS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_GAMES_PLAYED_MONGOLS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_GAMES_PLAYED_IROQUOIS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_GAMES_PLAYED_LAKOTA": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_GAMES_PLAYED_AMERICANS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_GAMES_PLAYED_INDIANS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_GAMES_PLAYED_DUTCH": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_GAMES_PLAYED_PERSIANS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_RARES_COLLECTED_AZTECS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_RARES_COLLECTED_MAYA": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_RARES_COLLECTED_INCA": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_RARES_COLLECTED_BANTU": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_RARES_COLLECTED_NUBIANS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_RARES_COLLECTED_GREEKS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_RARES_COLLECTED_ROMANS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_RARES_COLLECTED_EGYPTIANS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_RARES_COLLECTED_TURKS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_RARES_COLLECTED_SPANISH": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_RARES_COLLECTED_FRENCH": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_RARES_COLLECTED_BRITISH": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_RARES_COLLECTED_GERMANS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_RARES_COLLECTED_RUSSIANS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_RARES_COLLECTED_CHINESE": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_RARES_COLLECTED_JAPANESE": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_RARES_COLLECTED_KOREANS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_RARES_COLLECTED_MONGOLS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_RARES_COLLECTED_IROQUOIS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_RARES_COLLECTED_LAKOTA": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_RARES_COLLECTED_AMERICANS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_RARES_COLLECTED_INDIANS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_RARES_COLLECTED_DUTCH": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_RARES_COLLECTED_PERSIANS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_RUINS_RESOURCES_AZTECS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_RUINS_RESOURCES_MAYA": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_RUINS_RESOURCES_INCA": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_RUINS_RESOURCES_BANTU": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_RUINS_RESOURCES_NUBIANS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_RUINS_RESOURCES_GREEKS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_RUINS_RESOURCES_ROMANS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_RUINS_RESOURCES_EGYPTIANS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_RUINS_RESOURCES_TURKS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_RUINS_RESOURCES_SPANISH": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_RUINS_RESOURCES_FRENCH": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_RUINS_RESOURCES_BRITISH": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_RUINS_RESOURCES_GERMANS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_RUINS_RESOURCES_RUSSIANS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_RUINS_RESOURCES_CHINESE": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_RUINS_RESOURCES_JAPANESE": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_RUINS_RESOURCES_KOREANS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_RUINS_RESOURCES_MONGOLS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_RUINS_RESOURCES_IROQUOIS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_RUINS_RESOURCES_LAKOTA": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_RUINS_RESOURCES_AMERICANS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_RUINS_RESOURCES_INDIANS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_RUINS_RESOURCES_DUTCH": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_RUINS_RESOURCES_PERSIANS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_TOTAL_RESOURCES_AZTECS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_TOTAL_RESOURCES_MAYA": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_TOTAL_RESOURCES_INCA": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_TOTAL_RESOURCES_BANTU": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_TOTAL_RESOURCES_NUBIANS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_TOTAL_RESOURCES_GREEKS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_TOTAL_RESOURCES_ROMANS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_TOTAL_RESOURCES_EGYPTIANS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_TOTAL_RESOURCES_TURKS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_TOTAL_RESOURCES_SPANISH": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_TOTAL_RESOURCES_FRENCH": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_TOTAL_RESOURCES_BRITISH": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_TOTAL_RESOURCES_GERMANS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_TOTAL_RESOURCES_RUSSIANS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_TOTAL_RESOURCES_CHINESE": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_TOTAL_RESOURCES_JAPANESE": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_TOTAL_RESOURCES_KOREANS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_TOTAL_RESOURCES_MONGOLS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_TOTAL_RESOURCES_IROQUOIS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_TOTAL_RESOURCES_LAKOTA": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_TOTAL_RESOURCES_AMERICANS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_TOTAL_RESOURCES_INDIANS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_TOTAL_RESOURCES_DUTCH": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_TOTAL_RESOURCES_PERSIANS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_UNITS_KILLED_AZTECS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_UNITS_KILLED_MAYA": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_UNITS_KILLED_INCA": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_UNITS_KILLED_BANTU": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_UNITS_KILLED_NUBIANS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_UNITS_KILLED_GREEKS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_UNITS_KILLED_ROMANS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_UNITS_KILLED_EGYPTIANS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_UNITS_KILLED_TURKS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_UNITS_KILLED_SPANISH": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_UNITS_KILLED_FRENCH": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_UNITS_KILLED_BRITISH": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_UNITS_KILLED_GERMANS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_UNITS_KILLED_RUSSIANS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_UNITS_KILLED_CHINESE": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_UNITS_KILLED_JAPANESE": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_UNITS_KILLED_KOREANS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_UNITS_KILLED_MONGOLS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_UNITS_KILLED_IROQUOIS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_UNITS_KILLED_LAKOTA": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_UNITS_KILLED_AMERICANS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_UNITS_KILLED_INDIANS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_UNITS_KILLED_DUTCH": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_UNITS_KILLED_PERSIANS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_BUILDINGS_BUILT_AZTECS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_BUILDINGS_BUILT_MAYA": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_BUILDINGS_BUILT_INCA": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_BUILDINGS_BUILT_BANTU": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_BUILDINGS_BUILT_NUBIANS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_BUILDINGS_BUILT_GREEKS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_BUILDINGS_BUILT_ROMANS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_BUILDINGS_BUILT_EGYPTIANS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_BUILDINGS_BUILT_TURKS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_BUILDINGS_BUILT_SPANISH": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_BUILDINGS_BUILT_FRENCH": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_BUILDINGS_BUILT_BRITISH": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_BUILDINGS_BUILT_GERMANS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_BUILDINGS_BUILT_RUSSIANS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_BUILDINGS_BUILT_CHINESE": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_BUILDINGS_BUILT_JAPANESE": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_BUILDINGS_BUILT_KOREANS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_BUILDINGS_BUILT_MONGOLS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_BUILDINGS_BUILT_LAKOTA": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_BUILDINGS_BUILT_AMERICANS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_BUILDINGS_BUILT_INDIANS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_BUILDINGS_BUILT_DUTCH": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_BUILDINGS_BUILT_PERSIANS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_BUILDINGS_DESTROYED_AZTECS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_BUILDINGS_DESTROYED_MAYA": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_BUILDINGS_DESTROYED_INCA": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_BUILDINGS_DESTROYED_BANTU": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_BUILDINGS_DESTROYED_NUBIANS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_BUILDINGS_DESTROYED_GREEKS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_BUILDINGS_DESTROYED_ROMANS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_BUILDINGS_DESTROYED_EGYPTIANS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_BUILDINGS_DESTROYED_TURKS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_BUILDINGS_DESTROYED_SPANISH": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_BUILDINGS_DESTROYED_FRENCH": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_BUILDINGS_DESTROYED_BRITISH": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_BUILDINGS_DESTROYED_GERMANS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_BUILDINGS_DESTROYED_RUSSIANS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_BUILDINGS_DESTROYED_CHINESE": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_BUILDINGS_DESTROYED_JAPANESE": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_BUILDINGS_DESTROYED_KOREANS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_BUILDINGS_DESTROYED_MONGOLS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_BUILDINGS_DESTROYED_IROQUOIS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_BUILDINGS_DESTROYED_LAKOTA": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_BUILDINGS_DESTROYED_AMERICANS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_BUILDINGS_DESTROYED_INDIANS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_BUILDINGS_DESTROYED_DUTCH": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_BUILDINGS_DESTROYED_PERSIANS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_UNITS_LOST_AZTECS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_UNITS_LOST_MAYA": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_UNITS_LOST_INCA": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_UNITS_LOST_BANTU": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_UNITS_LOST_NUBIANS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_UNITS_LOST_GREEKS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_UNITS_LOST_ROMANS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_UNITS_LOST_EGYPTIANS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_UNITS_LOST_TURKS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_UNITS_LOST_SPANISH": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_UNITS_LOST_FRENCH": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_UNITS_LOST_BRITISH": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_UNITS_LOST_GERMANS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_UNITS_LOST_RUSSIANS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_UNITS_LOST_CHINESE": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_UNITS_LOST_JAPANESE": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_UNITS_LOST_KOREANS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_UNITS_LOST_MONGOLS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_UNITS_LOST_IROQUOIS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_UNITS_LOST_LAKOTA": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_UNITS_LOST_AMERICANS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_UNITS_LOST_INDIANS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_UNITS_LOST_DUTCH": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_UNITS_LOST_PERSIANS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_INFANTRY_TRAINED_GREEKS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_INFANTRY_TRAINED_ROMANS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_INFANTRY_TRAINED_EGYPTIANS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_INFANTRY_TRAINED_TURKS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_INFANTRY_TRAINED_SPANISH": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_INFANTRY_TRAINED_FRENCH": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_INFANTRY_TRAINED_BRITISH": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_INFANTRY_TRAINED_GERMANS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_INFANTRY_TRAINED_RUSSIANS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_INFANTRY_TRAINED_CHINESE": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_INFANTRY_TRAINED_JAPANESE": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_INFANTRY_TRAINED_KOREANS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_INFANTRY_TRAINED_MONGOLS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_INFANTRY_TRAINED_IROQUOIS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_INFANTRY_TRAINED_LAKOTA": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_INFANTRY_TRAINED_AMERICANS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_INFANTRY_TRAINED_INDIANS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_INFANTRY_TRAINED_DUTCH": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_INFANTRY_TRAINED_PERSIANS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_INFANTRY_TRAINED_AZTECS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_INFANTRY_TRAINED_MAYA": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_INFANTRY_TRAINED_INCA": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_INFANTRY_TRAINED_BANTU": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_INFANTRY_TRAINED_NUBIANS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_CAVALRY_TRAINED_AZTECS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_CAVALRY_TRAINED_MAYA": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_CAVALRY_TRAINED_INCA": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_CAVALRY_TRAINED_BANTU": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_CAVALRY_TRAINED_NUBIANS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_CAVALRY_TRAINED_GREEKS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_CAVALRY_TRAINED_ROMANS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_CAVALRY_TRAINED_EGYPTIANS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_CAVALRY_TRAINED_TURKS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_CAVALRY_TRAINED_SPANISH": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_CAVALRY_TRAINED_FRENCH": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_CAVALRY_TRAINED_BRITISH": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_CAVALRY_TRAINED_GERMANS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_CAVALRY_TRAINED_RUSSIANS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_CAVALRY_TRAINED_CHINESE": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_CAVALRY_TRAINED_JAPANESE": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_CAVALRY_TRAINED_KOREANS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_CAVALRY_TRAINED_MONGOLS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_CAVALRY_TRAINED_IROQUOIS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_CAVALRY_TRAINED_LAKOTA": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_CAVALRY_TRAINED_AMERICANS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_CAVALRY_TRAINED_INDIANS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_CAVALRY_TRAINED_DUTCH": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_CAVALRY_TRAINED_PERSIANS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_ARTILLERY_TRAINED_AZTECS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_ARTILLERY_TRAINED_MAYA": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_ARTILLERY_TRAINED_INCA": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_ARTILLERY_TRAINED_BANTU": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_ARTILLERY_TRAINED_NUBIANS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_ARTILLERY_TRAINED_GREEKS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_ARTILLERY_TRAINED_ROMANS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_ARTILLERY_TRAINED_EGYPTIANS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_ARTILLERY_TRAINED_TURKS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_ARTILLERY_TRAINED_SPANISH": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_ARTILLERY_TRAINED_FRENCH": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_ARTILLERY_TRAINED_BRITISH": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_ARTILLERY_TRAINED_GERMANS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_ARTILLERY_TRAINED_RUSSIANS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_ARTILLERY_TRAINED_CHINESE": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_ARTILLERY_TRAINED_JAPANESE": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_ARTILLERY_TRAINED_KOREANS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_ARTILLERY_TRAINED_MONGOLS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_ARTILLERY_TRAINED_IROQUOIS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_ARTILLERY_TRAINED_LAKOTA": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_ARTILLERY_TRAINED_AMERICANS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_ARTILLERY_TRAINED_INDIANS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_ARTILLERY_TRAINED_DUTCH": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_ARTILLERY_TRAINED_PERSIANS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_NAVAL_TRAINED_AZTECS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_NAVAL_TRAINED_MAYA": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_NAVAL_TRAINED_INCA": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_NAVAL_TRAINED_BANTU": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_NAVAL_TRAINED_NUBIANS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_NAVAL_TRAINED_GREEKS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_NAVAL_TRAINED_ROMANS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_NAVAL_TRAINED_EGYPTIANS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_NAVAL_TRAINED_TURKS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_NAVAL_TRAINED_SPANISH": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_NAVAL_TRAINED_FRENCH": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_NAVAL_TRAINED_BRITISH": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_NAVAL_TRAINED_GERMANS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_NAVAL_TRAINED_RUSSIANS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_NAVAL_TRAINED_CHINESE": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_NAVAL_TRAINED_JAPANESE": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_NAVAL_TRAINED_KOREANS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_NAVAL_TRAINED_MONGOLS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_NAVAL_TRAINED_IROQUOIS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_NAVAL_TRAINED_LAKOTA": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_NAVAL_TRAINED_AMERICANS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_NAVAL_TRAINED_INDIANS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_NAVAL_TRAINED_DUTCH": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_NAVAL_TRAINED_PERSIANS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_AIR_TRAINED_AZTECS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_AIR_TRAINED_MAYA": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_AIR_TRAINED_INCA": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_AIR_TRAINED_BANTU": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_AIR_TRAINED_NUBIANS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_AIR_TRAINED_GREEKS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_AIR_TRAINED_ROMANS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_AIR_TRAINED_EGYPTIANS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_AIR_TRAINED_TURKS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_AIR_TRAINED_SPANISH": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_AIR_TRAINED_FRENCH": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_AIR_TRAINED_BRITISH": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_AIR_TRAINED_GERMANS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_AIR_TRAINED_RUSSIANS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_AIR_TRAINED_CHINESE": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_AIR_TRAINED_JAPANESE": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_AIR_TRAINED_KOREANS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_AIR_TRAINED_MONGOLS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_AIR_TRAINED_IROQUOIS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_AIR_TRAINED_AMERICANS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_AIR_TRAINED_INDIANS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_AIR_TRAINED_DUTCH": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_AIR_TRAINED_PERSIANS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_SINGLE_GAMES_PLAYED": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_SINGLE_GAMES_WON": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_MULTI_GAMES_PLAYED": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_MULTI_GAMES_WON": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_SINGLE_GAMES_STARTED": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_MULTI_GAMES_STARTED": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_GAMES_STARTED": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_QUICKMATCH_GAMES_STARTED": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_QUICKMATCH_GAMES_PLAYED": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_QUICKMATCH_GAMES_WON": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_QUICKMATCH_GAMES_ATTEMPTED": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_MULTI_HOST_ATTEMPTS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_MULTI_HOST_STARTED": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_CAMPAIGN_GAMES_STARTED": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_SCENARIO_GAMES_STARTED": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_RANDOM_GAMES_STARTED": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_SKILLTEST_GAMES_STARTED": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_SINGLE_TIME_SPENT": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_MULTI_TIME_SPENT": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_CAMPAIGN_TIME_SPENT": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_1V1_GAMES_STARTED": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_2V2_GAMES_STARTED": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_3V3_GAMES_STARTED": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_4V4_GAMES_STARTED": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_OTHER_TEAM_GAMES_STARTED": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_BUILDINGS_BUILT_IROQUOIS": {
+    "description": "",
+    "value": 0
+  },
+  "STAT_AIR_TRAINED_LAKOTA": {
+    "description": "",
+    "value": 0
+  }
+}

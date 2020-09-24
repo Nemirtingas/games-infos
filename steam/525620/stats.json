@@ -1,0 +1,906 @@
+﻿{
+  "stat_kill": {
+    "description": "",
+    "value": 0
+  },
+  "stat_frogkills": {
+    "description": "",
+    "value": 0
+  },
+  "stat_deaths_1_1": {
+    "description": "deaths_1_1",
+    "value": 0
+  },
+  "stat_deaths_1_2": {
+    "description": "deaths_1_2",
+    "value": 0
+  },
+  "stat_deaths_1_3": {
+    "description": "",
+    "value": 0
+  },
+  "stat_deaths_1_4": {
+    "description": "",
+    "value": 0
+  },
+  "stat_deaths_1_5": {
+    "description": "",
+    "value": 0
+  },
+  "stat_deaths_1_6": {
+    "description": "",
+    "value": 0
+  },
+  "stat_deaths_2_1": {
+    "description": "",
+    "value": 0
+  },
+  "stat_deaths_2_2": {
+    "description": "",
+    "value": 0
+  },
+  "stat_deaths_2_3": {
+    "description": "",
+    "value": 0
+  },
+  "stat_deaths_2_4": {
+    "description": "",
+    "value": 0
+  },
+  "stat_deaths_2_5": {
+    "description": "",
+    "value": 0
+  },
+  "stat_deaths_2_6": {
+    "description": "",
+    "value": 0
+  },
+  "stat_deaths_3_1": {
+    "description": "",
+    "value": 0
+  },
+  "stat_deaths_3_2": {
+    "description": "",
+    "value": 0
+  },
+  "stat_deaths_3_3": {
+    "description": "",
+    "value": 0
+  },
+  "stat_deaths_3_4": {
+    "description": "",
+    "value": 0
+  },
+  "stat_deaths_3_5": {
+    "description": "",
+    "value": 0
+  },
+  "stat_deaths_3_6": {
+    "description": "",
+    "value": 0
+  },
+  "stat_deaths_4_1": {
+    "description": "",
+    "value": 0
+  },
+  "stat_deaths_4_2": {
+    "description": "",
+    "value": 0
+  },
+  "stat_deaths_4_3": {
+    "description": "",
+    "value": 0
+  },
+  "stat_deaths_4_4": {
+    "description": "",
+    "value": 0
+  },
+  "stat_deaths_4_5": {
+    "description": "",
+    "value": 0
+  },
+  "stat_deaths_4_6": {
+    "description": "",
+    "value": 0
+  },
+  "stat_deaths_5_1": {
+    "description": "",
+    "value": 0
+  },
+  "stat_deaths_5_2": {
+    "description": "",
+    "value": 0
+  },
+  "stat_deaths_5_3": {
+    "description": "",
+    "value": 0
+  },
+  "stat_deaths_5_4": {
+    "description": "",
+    "value": 0
+  },
+  "stat_deaths_5_5": {
+    "description": "",
+    "value": 0
+  },
+  "stat_deaths_5_6": {
+    "description": "",
+    "value": 0
+  },
+  "stat_finaldeath_1_1": {
+    "description": "",
+    "value": 0
+  },
+  "stat_finaldeath_1_2": {
+    "description": "",
+    "value": 0
+  },
+  "stat_finaldeath_1_3": {
+    "description": "",
+    "value": 0
+  },
+  "stat_finaldeath_1_4": {
+    "description": "",
+    "value": 0
+  },
+  "stat_finaldeath_1_5": {
+    "description": "",
+    "value": 0
+  },
+  "stat_finaldeath_1_6": {
+    "description": "",
+    "value": 0
+  },
+  "stat_finaldeath_2_1": {
+    "description": "",
+    "value": 0
+  },
+  "stat_finaldeath_2_2": {
+    "description": "",
+    "value": 0
+  },
+  "stat_finaldeath_2_3": {
+    "description": "",
+    "value": 0
+  },
+  "stat_finaldeath_2_4": {
+    "description": "",
+    "value": 0
+  },
+  "stat_finaldeath_2_5": {
+    "description": "",
+    "value": 0
+  },
+  "stat_finaldeath_2_6": {
+    "description": "",
+    "value": 0
+  },
+  "stat_finaldeath_3_1": {
+    "description": "",
+    "value": 0
+  },
+  "stat_finaldeath_3_2": {
+    "description": "",
+    "value": 0
+  },
+  "stat_finaldeath_3_3": {
+    "description": "",
+    "value": 0
+  },
+  "stat_finaldeath_3_4": {
+    "description": "",
+    "value": 0
+  },
+  "stat_finaldeath_3_5": {
+    "description": "",
+    "value": 0
+  },
+  "stat_finaldeath_3_6": {
+    "description": "",
+    "value": 0
+  },
+  "stat_finaldeath_4_1": {
+    "description": "",
+    "value": 0
+  },
+  "stat_finaldeath_4_2": {
+    "description": "",
+    "value": 0
+  },
+  "stat_finaldeath_4_3": {
+    "description": "",
+    "value": 0
+  },
+  "stat_finaldeath_4_4": {
+    "description": "",
+    "value": 0
+  },
+  "stat_finaldeath_4_5": {
+    "description": "",
+    "value": 0
+  },
+  "stat_finaldeath_4_6": {
+    "description": "",
+    "value": 0
+  },
+  "stat_finaldeath_5_1": {
+    "description": "",
+    "value": 0
+  },
+  "stat_finaldeath_5_2": {
+    "description": "",
+    "value": 0
+  },
+  "stat_finaldeath_5_3": {
+    "description": "",
+    "value": 0
+  },
+  "stat_finaldeath_5_4": {
+    "description": "",
+    "value": 0
+  },
+  "stat_finaldeath_5_5": {
+    "description": "",
+    "value": 0
+  },
+  "stat_finaldeath_5_6": {
+    "description": "",
+    "value": 0
+  },
+  "stat_damagedby_centipedesub": {
+    "description": "",
+    "value": 0
+  },
+  "stat_damagedby_cloakedsub": {
+    "description": "",
+    "value": 0
+  },
+  "stat_damagedby_cloakedheavysub": {
+    "description": "",
+    "value": 0
+  },
+  "stat_damagedby_drone": {
+    "description": "",
+    "value": 0
+  },
+  "stat_damagedby_forcefieldsub": {
+    "description": "",
+    "value": 0
+  },
+  "stat_damagedby_heavysub": {
+    "description": "",
+    "value": 0
+  },
+  "stat_damagedby_lsub": {
+    "description": "",
+    "value": 0
+  },
+  "stat_damagedby_megasub": {
+    "description": "",
+    "value": 0
+  },
+  "stat_damagedby_gigasub": {
+    "description": "",
+    "value": 0
+  },
+  "stat_damagedby_minijelly": {
+    "description": "",
+    "value": 0
+  },
+  "stat_damagedby_minipillbug": {
+    "description": "",
+    "value": 0
+  },
+  "stat_damagedby_missile": {
+    "description": "",
+    "value": 0
+  },
+  "stat_damagedby_nautilus": {
+    "description": "",
+    "value": 0
+  },
+  "stat_damagedby_nuclearsub": {
+    "description": "",
+    "value": 0
+  },
+  "stat_damagedby_nuclearexplosion": {
+    "description": "",
+    "value": 0
+  },
+  "stat_damagedby_nucleartanker": {
+    "description": "",
+    "value": 0
+  },
+  "stat_damagedby_piranhasub": {
+    "description": "",
+    "value": 0
+  },
+  "stat_damagedby_sharksub": {
+    "description": "",
+    "value": 0
+  },
+  "stat_damagedby_heavysharksub": {
+    "description": "",
+    "value": 0
+  },
+  "stat_damagedby_shieldsub": {
+    "description": "",
+    "value": 0
+  },
+  "stat_damagedby_doubleshieldsub": {
+    "description": "",
+    "value": 0
+  },
+  "stat_damagedby_shootersub": {
+    "description": "",
+    "value": 0
+  },
+  "stat_damagedby_shootersubshot": {
+    "description": "",
+    "value": 0
+  },
+  "stat_damagedby_doubleshootersub": {
+    "description": "",
+    "value": 0
+  },
+  "stat_damagedby_spawnersub": {
+    "description": "",
+    "value": 0
+  },
+  "stat_damagedby_spawnersubspawn": {
+    "description": "",
+    "value": 0
+  },
+  "stat_damagedby_speedysub": {
+    "description": "",
+    "value": 0
+  },
+  "stat_damagedby_sub": {
+    "description": "",
+    "value": 0
+  },
+  "stat_damagedby_swarmpart": {
+    "description": "",
+    "value": 0
+  },
+  "stat_damagedby_tank": {
+    "description": "",
+    "value": 0
+  },
+  "stat_damagedby_tankshot": {
+    "description": "",
+    "value": 0
+  },
+  "stat_damagedby_missiletank": {
+    "description": "",
+    "value": 0
+  },
+  "stat_damagedby_gigatank": {
+    "description": "",
+    "value": 0
+  },
+  "stat_damagedby_turtlesub": {
+    "description": "",
+    "value": 0
+  },
+  "stat_shellshop_cobraleg": {
+    "description": "",
+    "value": 0
+  },
+  "stat_shellshop_kingcobraleg": {
+    "description": "",
+    "value": 0
+  },
+  "stat_shellshop_supersnake": {
+    "description": "",
+    "value": 0
+  },
+  "stat_shellshop_porcupineleg": {
+    "description": "",
+    "value": 0
+  },
+  "stat_shellshop_queenbeeleg": {
+    "description": "",
+    "value": 0
+  },
+  "stat_shellshop_superchickenleg": {
+    "description": "",
+    "value": 0
+  },
+  "stat_shellshop_snail": {
+    "description": "",
+    "value": 0
+  },
+  "stat_shellshop_coral": {
+    "description": "",
+    "value": 0
+  },
+  "stat_shellshop_scallop": {
+    "description": "",
+    "value": 0
+  },
+  "stat_shellshop_conch": {
+    "description": "",
+    "value": 0
+  },
+  "stat_shellshop_horseshoe": {
+    "description": "",
+    "value": 0
+  },
+  "stat_shellshop_sawshark": {
+    "description": "",
+    "value": 0
+  },
+  "stat_shellshop_dragonleg": {
+    "description": "",
+    "value": 0
+  },
+  "stat_shellshop_narwhal": {
+    "description": "",
+    "value": 0
+  },
+  "stat_shellshop_dolphinleg": {
+    "description": "",
+    "value": 0
+  },
+  "stat_shellshop_goldfishleg": {
+    "description": "",
+    "value": 0
+  },
+  "stat_shellshop_fireflyleg": {
+    "description": "",
+    "value": 0
+  },
+  "stat_shellshop_snappingturtleleg": {
+    "description": "",
+    "value": 0
+  },
+  "stat_shellshop_startinglives": {
+    "description": "",
+    "value": 0
+  },
+  "stat_shellshop_labslots": {
+    "description": "",
+    "value": 0
+  },
+  "stat_shellshop_enemypreview": {
+    "description": "",
+    "value": 0
+  },
+  "stat_shellshop_startinglegs": {
+    "description": "",
+    "value": 0
+  },
+  "stat_shellshop_retaliation": {
+    "description": "",
+    "value": 0
+  },
+  "stat_shellshop_startingcash": {
+    "description": "",
+    "value": 0
+  },
+  "stat_shellshop_extralimb": {
+    "description": "",
+    "value": 0
+  },
+  "stat_damagedby_tankboss": {
+    "description": "",
+    "value": 0
+  },
+  "stat_damagedby_spawnerminiboss": {
+    "description": "",
+    "value": 0
+  },
+  "stat_damagedby_shooterminiboss": {
+    "description": "",
+    "value": 0
+  },
+  "stat_damagedby_hopperboss": {
+    "description": "",
+    "value": 0
+  },
+  "stat_damagedby_minihopper": {
+    "description": "",
+    "value": 0
+  },
+  "stat_damagedby_boomerang": {
+    "description": "",
+    "value": 0
+  },
+  "stat_damagedby_crabboss": {
+    "description": "",
+    "value": 0
+  },
+  "stat_damagedby_robooctoboss": {
+    "description": "",
+    "value": 0
+  },
+  "stat_damagedby_mimeboss": {
+    "description": "",
+    "value": 0
+  },
+  "stat_damagedby_pillbugboss": {
+    "description": "",
+    "value": 0
+  },
+  "stat_damagedby_whitehouse": {
+    "description": "",
+    "value": 0
+  },
+  "stat_damagedby_whitehousebouncymine": {
+    "description": "",
+    "value": 0
+  },
+  "stat_damagedby_grenade": {
+    "description": "",
+    "value": 0
+  },
+  "stat_damagedby_whitehousebell": {
+    "description": "",
+    "value": 0
+  },
+  "stat_cur_gametime": {
+    "description": "",
+    "value": 0
+  },
+  "stat_total_gametime": {
+    "description": "",
+    "value": 0
+  },
+  "stat_total_gamesplayed": {
+    "description": "",
+    "value": 0
+  },
+  "stat_gametime_min": {
+    "description": "",
+    "value": 0
+  },
+  "stat_gametime_max": {
+    "description": "",
+    "value": 0
+  },
+  "stat_spawned_centipedesub": {
+    "description": "",
+    "value": 0
+  },
+  "stat_spawned_cloakedsub": {
+    "description": "",
+    "value": 0
+  },
+  "stat_spawned_cloakedheavysub": {
+    "description": "",
+    "value": 0
+  },
+  "stat_spawned_drone": {
+    "description": "",
+    "value": 0
+  },
+  "stat_spawned_forcefieldsub": {
+    "description": "",
+    "value": 0
+  },
+  "stat_spawned_heavysub": {
+    "description": "",
+    "value": 0
+  },
+  "stat_spawned_lsub": {
+    "description": "",
+    "value": 0
+  },
+  "stat_spawned_megasub": {
+    "description": "",
+    "value": 0
+  },
+  "stat_spawned_gigasub": {
+    "description": "",
+    "value": 0
+  },
+  "stat_spawned_minijelly": {
+    "description": "",
+    "value": 0
+  },
+  "stat_spawned_minipillbug": {
+    "description": "",
+    "value": 0
+  },
+  "stat_spawned_missile": {
+    "description": "",
+    "value": 0
+  },
+  "stat_spawned_nautilus": {
+    "description": "",
+    "value": 0
+  },
+  "stat_spawned_nuclearsub": {
+    "description": "",
+    "value": 0
+  },
+  "stat_spawned_piranhasub": {
+    "description": "",
+    "value": 0
+  },
+  "stat_spawned_sharksub": {
+    "description": "",
+    "value": 0
+  },
+  "stat_spawned_heavysharksub": {
+    "description": "",
+    "value": 0
+  },
+  "stat_spawned_shieldsub": {
+    "description": "",
+    "value": 0
+  },
+  "stat_spawned_doubleshieldsub": {
+    "description": "",
+    "value": 0
+  },
+  "stat_spawned_shootersub": {
+    "description": "",
+    "value": 0
+  },
+  "stat_spawned_shootersubshot": {
+    "description": "",
+    "value": 0
+  },
+  "stat_spawned_doubleshootersub": {
+    "description": "",
+    "value": 0
+  },
+  "stat_spawned_spawnersub": {
+    "description": "",
+    "value": 0
+  },
+  "stat_spawned_spawnersubspawn": {
+    "description": "",
+    "value": 0
+  },
+  "stat_spawned_speedysub": {
+    "description": "",
+    "value": 0
+  },
+  "stat_spawned_sub": {
+    "description": "",
+    "value": 0
+  },
+  "stat_spawned_swarmpart": {
+    "description": "",
+    "value": 0
+  },
+  "stat_spawned_tank": {
+    "description": "",
+    "value": 0
+  },
+  "stat_spawned_tankshot": {
+    "description": "",
+    "value": 0
+  },
+  "stat_spawned_missiletank": {
+    "description": "",
+    "value": 0
+  },
+  "stat_spawned_gigatank": {
+    "description": "",
+    "value": 0
+  },
+  "stat_spawned_turtlesub": {
+    "description": "",
+    "value": 0
+  },
+  "stat_spawned_tankboss": {
+    "description": "",
+    "value": 0
+  },
+  "stat_spawned_spawnerminiboss": {
+    "description": "",
+    "value": 0
+  },
+  "stat_spawned_shooterminiboss": {
+    "description": "",
+    "value": 0
+  },
+  "stat_spawned_hopperboss": {
+    "description": "",
+    "value": 0
+  },
+  "stat_spawned_minihopper": {
+    "description": "",
+    "value": 0
+  },
+  "stat_spawned_boomerang": {
+    "description": "",
+    "value": 0
+  },
+  "stat_spawned_crabboss": {
+    "description": "",
+    "value": 0
+  },
+  "stat_spawned_robooctoboss": {
+    "description": "",
+    "value": 0
+  },
+  "stat_spawned_mimeboss": {
+    "description": "",
+    "value": 0
+  },
+  "stat_spawned_pillbugboss": {
+    "description": "",
+    "value": 0
+  },
+  "stat_spawned_whitehouse": {
+    "description": "",
+    "value": 0
+  },
+  "stat_spawned_whitehousebouncymine": {
+    "description": "",
+    "value": 0
+  },
+  "stat_spawned_grenade": {
+    "description": "",
+    "value": 0
+  },
+  "stat_spawned_whitehousebell": {
+    "description": "",
+    "value": 0
+  },
+  "stat_spawned_nucleartanker": {
+    "description": "",
+    "value": 0
+  },
+  "stat_spawned_nuclearexplosion": {
+    "description": "",
+    "value": 0
+  },
+  "stat_store_purchase_snakeleg": {
+    "description": "",
+    "value": 0
+  },
+  "stat_store_purchase_cobraleg": {
+    "description": "",
+    "value": 0
+  },
+  "stat_store_purchase_kingcobraleg": {
+    "description": "",
+    "value": 0
+  },
+  "stat_store_purchase_supersnake": {
+    "description": "",
+    "value": 0
+  },
+  "stat_store_purchase_porcupineleg": {
+    "description": "",
+    "value": 0
+  },
+  "stat_store_purchase_queenbeeleg": {
+    "description": "",
+    "value": 0
+  },
+  "stat_store_purchase_crableg": {
+    "description": "",
+    "value": 0
+  },
+  "stat_store_purchase_lobsterleg": {
+    "description": "",
+    "value": 0
+  },
+  "stat_store_purchase_chickenleg": {
+    "description": "",
+    "value": 0
+  },
+  "stat_store_purchase_superchickenleg": {
+    "description": "",
+    "value": 0
+  },
+  "stat_store_purchase_snail": {
+    "description": "",
+    "value": 0
+  },
+  "stat_store_purchase_coral": {
+    "description": "",
+    "value": 0
+  },
+  "stat_store_purchase_scallop": {
+    "description": "",
+    "value": 0
+  },
+  "stat_store_purchase_conch": {
+    "description": "",
+    "value": 0
+  },
+  "stat_store_purchase_horseshoe": {
+    "description": "",
+    "value": 0
+  },
+  "stat_store_purchase_sawshark": {
+    "description": "",
+    "value": 0
+  },
+  "stat_store_purchase_dragonleg": {
+    "description": "",
+    "value": 0
+  },
+  "stat_store_purchase_dolphinleg": {
+    "description": "",
+    "value": 0
+  },
+  "stat_store_purchase_goldfishleg": {
+    "description": "",
+    "value": 0
+  },
+  "stat_store_purchase_fireflyleg": {
+    "description": "",
+    "value": 0
+  },
+  "stat_store_purchase_snappingturtleleg": {
+    "description": "",
+    "value": 0
+  },
+  "stat_store_purchase_pelican": {
+    "description": "",
+    "value": 0
+  },
+  "stat_store_purchase_trexleg": {
+    "description": "",
+    "value": 0
+  },
+  "stat_store_purchase_penguinleg": {
+    "description": "",
+    "value": 0
+  },
+  "stat_store_purchase_pufferbuddy": {
+    "description": "",
+    "value": 0
+  },
+  "stat_store_purchase_beeleg": {
+    "description": "",
+    "value": 0
+  },
+  "stat_store_purchase_frogleg": {
+    "description": "",
+    "value": 0
+  },
+  "stat_store_purchase_starfishbuddy": {
+    "description": "",
+    "value": 0
+  },
+  "stat_store_purchase_turtleleg": {
+    "description": "",
+    "value": 0
+  },
+  "stat_store_purchase_eelbuddy": {
+    "description": "",
+    "value": 0
+  },
+  "stat_store_purchase_angler": {
+    "description": "",
+    "value": 0
+  },
+  "stat_store_purchase_urchinbuddy": {
+    "description": "",
+    "value": 0
+  },
+  "stat_store_purchase_elephantleg": {
+    "description": "",
+    "value": 0
+  },
+  "stat_final_legcount": {
+    "description": "",
+    "value": 0
+  },
+  "stat_store_purchase_continue": {
+    "description": "",
+    "value": 0
+  },
+  "stat_store_purchase_helmetrepair": {
+    "description": "",
+    "value": 0
+  },
+  "stat_medal_turtleblocks": {
+    "description": "",
+    "value": 0
+  },
+  "stat_medal_reveals": {
+    "description": "",
+    "value": 0
+  }
+}

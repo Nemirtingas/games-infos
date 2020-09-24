@@ -1,0 +1,622 @@
+﻿{
+  "XPSP1": {
+    "description": "XPSP1",
+    "value": 0
+  },
+  "XPSP2": {
+    "description": "XPSP2",
+    "value": 0
+  },
+  "XPSP3": {
+    "description": "XPSP3",
+    "value": 0
+  },
+  "XPSP4": {
+    "description": "XPSP4",
+    "value": 0
+  },
+  "LevelSP1": {
+    "description": "LevelSP1",
+    "value": 0
+  },
+  "LevelSP2": {
+    "description": "LevelSP2",
+    "value": 0
+  },
+  "LevelSP3": {
+    "description": "LevelSP3",
+    "value": 0
+  },
+  "LevelSP4": {
+    "description": "LevelSP4",
+    "value": 0
+  },
+  "Level1Complete": {
+    "description": "Level1Complete",
+    "value": 0
+  },
+  "Level2Complete": {
+    "description": "Level2Complete",
+    "value": 0
+  },
+  "Level3Complete": {
+    "description": "Level3Complete",
+    "value": 0
+  },
+  "Level4Complete": {
+    "description": "Level4Complete",
+    "value": 0
+  },
+  "Level5Complete": {
+    "description": "Level5Complete",
+    "value": 0
+  },
+  "Level6Complete": {
+    "description": "Level6Complete",
+    "value": 0
+  },
+  "Level7Complete": {
+    "description": "Level7Complete",
+    "value": 0
+  },
+  "Level8Complete": {
+    "description": "Level8Complete",
+    "value": 0
+  },
+  "Level9Complete": {
+    "description": "Level9Complete",
+    "value": 0
+  },
+  "Level10Complete": {
+    "description": "Level10Complete",
+    "value": 0
+  },
+  "StufeL1": {
+    "description": "StufeL1",
+    "value": 0
+  },
+  "StufeL2": {
+    "description": "StufeL2",
+    "value": 0
+  },
+  "StufeL3": {
+    "description": "StufeL3",
+    "value": 0
+  },
+  "StufeL4": {
+    "description": "StufeL4",
+    "value": 0
+  },
+  "StufeL5": {
+    "description": "StufeL5",
+    "value": 0
+  },
+  "StufeL6": {
+    "description": "StufeL6",
+    "value": 0
+  },
+  "StufeL7": {
+    "description": "StufeL7",
+    "value": 0
+  },
+  "StufeL8": {
+    "description": "StufeL8",
+    "value": 0
+  },
+  "StufeL9": {
+    "description": "StufeL9",
+    "value": 0
+  },
+  "StufeL10": {
+    "description": "StufeL10",
+    "value": 0
+  },
+  "SLevel1Complete": {
+    "description": "SLevel1Complete",
+    "value": 0
+  },
+  "SLevel2Complete": {
+    "description": "SLevel2Complete",
+    "value": 0
+  },
+  "SLevel3Complete": {
+    "description": "SLevel3Complete",
+    "value": 0
+  },
+  "SLevel4Complete": {
+    "description": "SLevel4Complete",
+    "value": 0
+  },
+  "Artifact1": {
+    "description": "Artifact1",
+    "value": 0
+  },
+  "Artifact2": {
+    "description": "Artifact2",
+    "value": 0
+  },
+  "Artifact3": {
+    "description": "Artifact3",
+    "value": 0
+  },
+  "Artifact4": {
+    "description": "Artifact4",
+    "value": 0
+  },
+  "Artifact5": {
+    "description": "Artifact5",
+    "value": 0
+  },
+  "Artifact6": {
+    "description": "Artifact6",
+    "value": 0
+  },
+  "Artifact7": {
+    "description": "Artifact7",
+    "value": 0
+  },
+  "Artifact8": {
+    "description": "Artifact8",
+    "value": 0
+  },
+  "Artifact9": {
+    "description": "Artifact9",
+    "value": 0
+  },
+  "Artifact10": {
+    "description": "Artifact10",
+    "value": 0
+  },
+  "Artifact11": {
+    "description": "Artifact11",
+    "value": 0
+  },
+  "Artifact12": {
+    "description": "Artifact12",
+    "value": 0
+  },
+  "Artifact13": {
+    "description": "Artifact13",
+    "value": 0
+  },
+  "Artifact14": {
+    "description": "Artifact14",
+    "value": 0
+  },
+  "ProjectileNumberSP1_W1": {
+    "description": "ProjectileNumberSP1_W1",
+    "value": 0
+  },
+  "ProjectileNumberSP1_W2": {
+    "description": "ProjectileNumberSP1_W2",
+    "value": 0
+  },
+  "ProjectileNumberSP1_W3": {
+    "description": "ProjectileNumberSP1_W3",
+    "value": 0
+  },
+  "ProjectileNumberSP2_W1": {
+    "description": "ProjectileNumberSP2_W1",
+    "value": 0
+  },
+  "ProjectileNumberSP2_W2": {
+    "description": "ProjectileNumberSP2_W2",
+    "value": 0
+  },
+  "ProjectileNumberSP2_W3": {
+    "description": "ProjectileNumberSP2_W3",
+    "value": 0
+  },
+  "ProjectileNumberSP3_W1": {
+    "description": "ProjectileNumberSP3_W1",
+    "value": 0
+  },
+  "ProjectileNumberSP3_W2": {
+    "description": "ProjectileNumberSP3_W2",
+    "value": 0
+  },
+  "ProjectileNumberSP3_W3": {
+    "description": "ProjectileNumberSP3_W3",
+    "value": 0
+  },
+  "ProjectileNumberSP4_W1": {
+    "description": "ProjectileNumberSP4_W1",
+    "value": 0
+  },
+  "ProjectileNumberSP4_W2": {
+    "description": "ProjectileNumberSP4_W2",
+    "value": 0
+  },
+  "ProjectileNumberSP4_W3": {
+    "description": "ProjectileNumberSP4_W3",
+    "value": 0
+  },
+  "WeaponSpeed_SP1_W1": {
+    "description": "WeaponSpeed_SP1_W1",
+    "value": 0
+  },
+  "WeaponSpeed_SP1_W2": {
+    "description": "WeaponSpeed_SP1_W2",
+    "value": 0
+  },
+  "WeaponSpeed_SP1_W3": {
+    "description": "WeaponSpeed_SP1_W3",
+    "value": 0
+  },
+  "WeaponSpeed_SP2_W1": {
+    "description": "WeaponSpeed_SP2_W1",
+    "value": 0
+  },
+  "WeaponSpeed_SP2_W2": {
+    "description": "WeaponSpeed_SP2_W2",
+    "value": 0
+  },
+  "WeaponSpeed_SP2_W3": {
+    "description": "WeaponSpeed_SP2_W3",
+    "value": 0
+  },
+  "WeaponSpeed_SP3_W1": {
+    "description": "WeaponSpeed_SP3_W1",
+    "value": 0
+  },
+  "WeaponSpeed_SP3_W2": {
+    "description": "WeaponSpeed_SP3_W2",
+    "value": 0
+  },
+  "WeaponSpeed_SP3_W3": {
+    "description": "WeaponSpeed_SP3_W3",
+    "value": 0
+  },
+  "WeaponSpeed_SP4_W1": {
+    "description": "WeaponSpeed_SP4_W1",
+    "value": 0
+  },
+  "WeaponSpeed_SP4_W2": {
+    "description": "WeaponSpeed_SP4_W2",
+    "value": 0
+  },
+  "WeaponSpeed_SP4_W3": {
+    "description": "WeaponSpeed_SP4_W3",
+    "value": 0
+  },
+  "WeaponAngle_SP1_W1": {
+    "description": "WeaponAngle_SP1_W1",
+    "value": 0
+  },
+  "WeaponAngle_SP1_W2": {
+    "description": "WeaponAngle_SP1_W2",
+    "value": 0
+  },
+  "WeaponAngle_SP1_W3": {
+    "description": "WeaponAngle_SP1_W3",
+    "value": 0
+  },
+  "WeaponAngle_SP2_W1": {
+    "description": "WeaponAngle_SP2_W1",
+    "value": 0
+  },
+  "WeaponAngle_SP2_W2": {
+    "description": "WeaponAngle_SP2_W2",
+    "value": 0
+  },
+  "WeaponAngle_SP2_W3": {
+    "description": "WeaponAngle_SP2_W3",
+    "value": 0
+  },
+  "WeaponAngle_SP3_W1": {
+    "description": "WeaponAngle_SP3_W1",
+    "value": 0
+  },
+  "WeaponAngle_SP3_W2": {
+    "description": "WeaponAngle_SP3_W2",
+    "value": 0
+  },
+  "WeaponAngle_SP3_W3": {
+    "description": "WeaponAngle_SP3_W3",
+    "value": 0
+  },
+  "WeaponAngle_SP4_W1": {
+    "description": "WeaponAngle_SP4_W1",
+    "value": 0
+  },
+  "WeaponAngle_SP4_W2": {
+    "description": "WeaponAngle_SP4_W2",
+    "value": 0
+  },
+  "WeaponAngle_SP4_W3": {
+    "description": "WeaponAngle_SP4_W3",
+    "value": 0
+  },
+  "WeaponBPS_SP1_W1": {
+    "description": "WeaponBPS_SP1_W1",
+    "value": 0
+  },
+  "WeaponBPS_SP1_W2": {
+    "description": "WeaponBPS_SP1_W2",
+    "value": 0
+  },
+  "WeaponBPS_SP1_W3": {
+    "description": "WeaponBPS_SP1_W3",
+    "value": 0
+  },
+  "WeaponBPS_SP2_W1": {
+    "description": "WeaponBPS_SP2_W1",
+    "value": 0
+  },
+  "WeaponBPS_SP2_W2": {
+    "description": "WeaponBPS_SP2_W2",
+    "value": 0
+  },
+  "WeaponBPS_SP2_W3": {
+    "description": "WeaponBPS_SP2_W3",
+    "value": 0
+  },
+  "WeaponBPS_SP3_W1": {
+    "description": "WeaponBPS_SP3_W1",
+    "value": 0
+  },
+  "WeaponBPS_SP3_W2": {
+    "description": "WeaponBPS_SP3_W2",
+    "value": 0
+  },
+  "WeaponBPS_SP3_W3": {
+    "description": "WeaponBPS_SP3_W3",
+    "value": 0
+  },
+  "WeaponBPS_SP4_W1": {
+    "description": "WeaponBPS_SP4_W1",
+    "value": 0
+  },
+  "WeaponBPS_SP4_W2": {
+    "description": "WeaponBPS_SP4_W2",
+    "value": 0
+  },
+  "WeaponBPS_SP4_W3": {
+    "description": "WeaponBPS_SP4_W3",
+    "value": 0
+  },
+  "WeaponBPSI_SP1_W1": {
+    "description": "WeaponBPSI_SP1_W1",
+    "value": 0
+  },
+  "WeaponBPSI_SP1_W2": {
+    "description": "WeaponBPSI_SP1_W2",
+    "value": 0
+  },
+  "WeaponBPSI_SP1_W3": {
+    "description": "WeaponBPSI_SP1_W3",
+    "value": 0
+  },
+  "WeaponBPSI_SP2_W1": {
+    "description": "WeaponBPSI_SP2_W1",
+    "value": 0
+  },
+  "WeaponBPSI_SP2_W2": {
+    "description": "WeaponBPSI_SP2_W2",
+    "value": 0
+  },
+  "WeaponBPSI_SP2_W3": {
+    "description": "WeaponBPSI_SP2_W3",
+    "value": 0
+  },
+  "WeaponBPSI_SP3_W1": {
+    "description": "WeaponBPSI_SP3_W1",
+    "value": 0
+  },
+  "WeaponBPSI_SP3_W2": {
+    "description": "WeaponBPSI_SP3_W2",
+    "value": 0
+  },
+  "WeaponBPSI_SP3_W3": {
+    "description": "WeaponBPSI_SP3_W3",
+    "value": 0
+  },
+  "WeaponBPSI_SP4_W1": {
+    "description": "WeaponBPSI_SP4_W1",
+    "value": 0
+  },
+  "WeaponBPSI_SP4_W2": {
+    "description": "WeaponBPSI_SP4_W2",
+    "value": 0
+  },
+  "WeaponBPSI_SP4_W3": {
+    "description": "WeaponBPSI_SP4_W3",
+    "value": 0
+  },
+  "WeaponAmmo_SP1_W1": {
+    "description": "WeaponAmmo_SP1_W1",
+    "value": 0
+  },
+  "WeaponAmmo_SP1_W2": {
+    "description": "WeaponAmmo_SP1_W2",
+    "value": 0
+  },
+  "WeaponAmmo_SP1_W3": {
+    "description": "WeaponAmmo_SP1_W3",
+    "value": 0
+  },
+  "WeaponAmmo_SP2_W1": {
+    "description": "WeaponAmmo_SP2_W1",
+    "value": 0
+  },
+  "WeaponAmmo_SP2_W2": {
+    "description": "WeaponAmmo_SP2_W2",
+    "value": 0
+  },
+  "WeaponAmmo_SP2_W3": {
+    "description": "WeaponAmmo_SP2_W3",
+    "value": 0
+  },
+  "WeaponAmmo_SP3_W1": {
+    "description": "WeaponAmmo_SP3_W1",
+    "value": 0
+  },
+  "WeaponAmmo_SP3_W2": {
+    "description": "WeaponAmmo_SP3_W2",
+    "value": 0
+  },
+  "WeaponAmmo_SP3_W3": {
+    "description": "WeaponAmmo_SP3_W3",
+    "value": 0
+  },
+  "WeaponAmmo_SP4_W1": {
+    "description": "WeaponAmmo_SP4_W1",
+    "value": 0
+  },
+  "WeaponAmmo_SP4_W2": {
+    "description": "WeaponAmmo_SP4_W2",
+    "value": 0
+  },
+  "WeaponAmmo_SP4_W3": {
+    "description": "WeaponAmmo_SP4_W3",
+    "value": 0
+  },
+  "WeaponDamage_SP1_W1": {
+    "description": "WeaponDamage_SP1_W1",
+    "value": 0
+  },
+  "WeaponDamage_SP1_W2": {
+    "description": "WeaponDamage_SP1_W2",
+    "value": 0
+  },
+  "WeaponDamage_SP1_W3": {
+    "description": "WeaponDamage_SP1_W3",
+    "value": 0
+  },
+  "WeaponDamage_SP2_W1": {
+    "description": "WeaponDamage_SP2_W1",
+    "value": 0
+  },
+  "WeaponDamage_SP2_W2": {
+    "description": "WeaponDamage_SP2_W2",
+    "value": 0
+  },
+  "WeaponDamage_SP2_W3": {
+    "description": "WeaponDamage_SP2_W3",
+    "value": 0
+  },
+  "WeaponDamage_SP3_W1": {
+    "description": "WeaponDamage_SP3_W1",
+    "value": 0
+  },
+  "WeaponDamage_SP3_W2": {
+    "description": "WeaponDamage_SP3_W2",
+    "value": 0
+  },
+  "WeaponDamage_SP3_W3": {
+    "description": "WeaponDamage_SP3_W3",
+    "value": 0
+  },
+  "WeaponDamage_SP4_W1": {
+    "description": "WeaponDamage_SP4_W1",
+    "value": 0
+  },
+  "WeaponDamage_SP4_W2": {
+    "description": "WeaponDamage_SP4_W2",
+    "value": 0
+  },
+  "WeaponDamage_SP4_W3": {
+    "description": "WeaponDamage_SP4_W3",
+    "value": 0
+  },
+  "CampaignLevelNummer": {
+    "description": "CampaignLevelNummer",
+    "value": 0
+  },
+  "SurvivalLevelNummer": {
+    "description": "SurvivalLevelNummer",
+    "value": 0
+  },
+  "Schwierigkeitsgrad": {
+    "description": "Schwierigkeitsgrad",
+    "value": 0
+  },
+  "InventoryCountSP1": {
+    "description": "InventoryCountSP1",
+    "value": 0
+  },
+  "InventoryCountSP2": {
+    "description": "InventoryCountSP2",
+    "value": 0
+  },
+  "InventoryCountSP3": {
+    "description": "InventoryCountSP3",
+    "value": 0
+  },
+  "InventoryCountSP4": {
+    "description": "InventoryCountSP4",
+    "value": 0
+  },
+  "WeaponCooldownSP1_W1": {
+    "description": "WeaponCooldownSP1_W1",
+    "value": 0
+  },
+  "WeaponCooldownSP1_W2": {
+    "description": "WeaponCooldownSP1_W2",
+    "value": 0
+  },
+  "WeaponCooldownSP1_W3": {
+    "description": "WeaponCooldownSP1_W3",
+    "value": 0
+  },
+  "WeaponCooldownSP2_W1": {
+    "description": "WeaponCooldownSP2_W1",
+    "value": 0
+  },
+  "WeaponCooldownSP2_W2": {
+    "description": "WeaponCooldownSP2_W2",
+    "value": 0
+  },
+  "WeaponCooldownSP2_W3": {
+    "description": "WeaponCooldownSP2_W3",
+    "value": 0
+  },
+  "WeaponCooldownSP3_W1": {
+    "description": "WeaponCooldownSP3_W1",
+    "value": 0
+  },
+  "WeaponCooldownSP3_W2": {
+    "description": "WeaponCooldownSP3_W2",
+    "value": 0
+  },
+  "WeaponCooldownSP3_W3": {
+    "description": "WeaponCooldownSP3_W3",
+    "value": 0
+  },
+  "WeaponCooldownSP4_W1": {
+    "description": "WeaponCooldownSP4_W1",
+    "value": 0
+  },
+  "WeaponCooldownSP4_W2": {
+    "description": "WeaponCooldownSP4_W2",
+    "value": 0
+  },
+  "WeaponCooldownSP4_W3": {
+    "description": "WeaponCooldownSP4_W3",
+    "value": 0
+  },
+  "Total_Points": {
+    "description": "Total_Points",
+    "value": 0
+  },
+  "Freischaltungen": {
+    "description": "Freischaltungen",
+    "value": 0
+  },
+  "MyXP": {
+    "description": "MyXP",
+    "value": 0
+  },
+  "MyLevel": {
+    "description": "MyLevel",
+    "value": 0
+  },
+  "ErsterStart": {
+    "description": "ErsterStart",
+    "value": 0
+  },
+  "EarlyAccess": {
+    "description": "EarlyAccess",
+    "value": 0
+  }
+}

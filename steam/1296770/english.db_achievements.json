@@ -1,0 +1,488 @@
+[
+  {
+    "name": "ACH_HELLO",
+    "defaultvalue": 0,
+    "displayName": "First Time Meeting",
+    "hidden": 0,
+    "description": "\"Who is she?\"",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1296770/35f1833dd38db5c7afd1e23bc4bd656edf720a62.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1296770/b70aca366d7cb64f10cfc6e718bd87229a9c40e8.jpg"
+  },
+  {
+    "name": "ACH_COMPLIMENT",
+    "defaultvalue": 0,
+    "displayName": "Thank you...",
+    "hidden": 0,
+    "description": "Compliment her",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1296770/e42fc651eea4beb17f981c04e34e879f27888ecc.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1296770/bfb8ab8ea412dbe7c2ba2534e40803575eca197c.jpg"
+  },
+  {
+    "name": "ACH_PROMENADE",
+    "defaultvalue": 0,
+    "displayName": "A Good Walk",
+    "hidden": 0,
+    "description": "Take a walk in the city",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1296770/08f129cefa163471cff5db36515dc83368bcf03c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1296770/b07a73c802791f005226d5e85e97dd35bc0b365b.jpg"
+  },
+  {
+    "name": "ACH_FIRST",
+    "defaultvalue": 0,
+    "displayName": "First Time...",
+    "hidden": 0,
+    "description": "Do the deed for the first time",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1296770/de6e55116b069666bd6475d8aee8be64c024fd6d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1296770/2383a9cc8908cd16be00a2cc407a69f787cf16a0.jpg"
+  },
+  {
+    "name": "ACH_PLEASURE",
+    "defaultvalue": 0,
+    "displayName": "Sounds Intriguing…",
+    "hidden": 0,
+    "description": "Make her feel good",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1296770/2fec3511bdd6a43f84367790e47bfa31929d3952.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1296770/5426906a1b7ee04bf18931367f66529e9f4c9aea.jpg"
+  },
+  {
+    "name": "ACH_FOOT",
+    "defaultvalue": 0,
+    "displayName": "Leg Day",
+    "hidden": 0,
+    "description": "Don’t let her skip leg day",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1296770/b46021fd2d4de095fe79e0fe63f0cb03bf81a996.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1296770/ab58b3e067b53f9e2e0c35666e7c5fa8c79e5503.jpg"
+  },
+  {
+    "name": "ACH_BLOW",
+    "defaultvalue": 0,
+    "displayName": "Nice Lips",
+    "hidden": 0,
+    "description": "\"I like your lips.\"",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1296770/c59c44c188fc7d6477cd362c912ffc89ba904333.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1296770/f8cb6d316d7ea820c6a30218a198377ecbf137ca.jpg"
+  },
+  {
+    "name": "ACH_WORK",
+    "defaultvalue": 0,
+    "displayName": "Work again?",
+    "hidden": 0,
+    "description": "Go to work",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1296770/753d7e938d8a18b5f35e94aeec0e2a0342fd318a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1296770/23979d162b6e3bd688ba7f0d2b6bbaa177dfda8c.jpg"
+  },
+  {
+    "name": "ACH_KISS",
+    "defaultvalue": 0,
+    "displayName": "I Love You!",
+    "hidden": 0,
+    "description": "\"I love you too!\"",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1296770/92438dfc803f9aeaaeb756ded2d29aa1e522ca4a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1296770/ad460256aa6c3cc929292da85046c595da88c848.jpg"
+  },
+  {
+    "name": "ACH_JACKPOT",
+    "defaultvalue": 0,
+    "displayName": "Lady Luck is smiling upon me!",
+    "hidden": 0,
+    "description": "Win at least 50 Zodiacoins in the lottery",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1296770/d55ab8f56e3214349cb422d8fb19dee5cff4901f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1296770/944dad9cac7c0e894ea123a2bd04e24919e9008b.jpg"
+  },
+  {
+    "name": "ACH_CARDS",
+    "defaultvalue": 0,
+    "displayName": "Lucky Set",
+    "hidden": 0,
+    "description": "Win a card game",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1296770/857ea6861f1dc2a8ed65b75536eed27d778bfdb9.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1296770/42c64680a42017bbf0a96e9eb55e6e9003c6cc85.jpg"
+  },
+  {
+    "name": "ACH_REST",
+    "defaultvalue": 0,
+    "displayName": "Finally Rest",
+    "hidden": 0,
+    "description": "Relax on the sofa",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1296770/81515fa49f87e4c2f204180f4a4e4e702ebae5a2.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1296770/9dc57bdad89d049eaf32a59d1599335034954967.jpg"
+  },
+  {
+    "name": "ACH_MASTERPIECE",
+    "defaultvalue": 0,
+    "displayName": "It was a masterpiece!",
+    "hidden": 0,
+    "description": "Watch a masterpiece movie",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1296770/a8c9ac41deb3be66f91cc3b6a6ab2c02389148d8.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1296770/929eb2db2305f47af54ce25376b82cbed90b31d9.jpg"
+  },
+  {
+    "name": "ACH_CHATTY",
+    "defaultvalue": 0,
+    "displayName": "Chatty ",
+    "hidden": 0,
+    "description": "Talk with her 25 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1296770/33e055b1c021cefe7a19acae4439fe1c87c06a92.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1296770/d5e844d84b71cc77b008118a021a3149ca1bd0c6.jpg"
+  },
+  {
+    "name": "ACH_FLIRTY",
+    "defaultvalue": 0,
+    "displayName": "Flirty",
+    "hidden": 0,
+    "description": "Compliment her 25 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1296770/c19ca74eb399bf79ebb25aa2148e8d339ae79568.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1296770/e8762274323e0e4c9fa96753eb314b5708c6d77e.jpg"
+  },
+  {
+    "name": "ACH_ANNIVERSARY_30",
+    "defaultvalue": 0,
+    "displayName": "One Month Anniversary ",
+    "hidden": 0,
+    "description": "Stay together for an entire month",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1296770/e276ca1a37198173bc1ef6bb98944c1ba2430546.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1296770/be346ae6941345e74994db348e3a1213079cd626.jpg"
+  },
+  {
+    "name": "ACH_ANNIVERSARY_60",
+    "defaultvalue": 0,
+    "displayName": "Two Month Anniversary ",
+    "hidden": 0,
+    "description": "Stay together for two months",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1296770/072e575e688caf887e0eca33c8564dccb7144be1.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1296770/f1c1102c216ec5c0ae366a0e5c119fab01b842f3.jpg"
+  },
+  {
+    "name": "ACH_ANNIVERSARY_90",
+    "defaultvalue": 0,
+    "displayName": "Three Month Anniversary ",
+    "hidden": 0,
+    "description": "Stay together for three months",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1296770/be2fc976d2a5652089f7ae32b61fd5281a0f1987.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1296770/1fe95c0a0351294fdc86c47ab9889628e1a92b67.jpg"
+  },
+  {
+    "name": "ACH_UNGENTLEMANLY",
+    "defaultvalue": 0,
+    "displayName": "How Ungentlemanly ",
+    "hidden": 0,
+    "description": "Finish alone",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1296770/07656ab5ee92e01b9015ac87a73d06cd38bbb9c7.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1296770/11bda28c69edf874345ae766b996cd1c6b81e19a.jpg"
+  },
+  {
+    "name": "ACH_MASTER_DENIAL",
+    "defaultvalue": 0,
+    "displayName": "Master of Denial ",
+    "hidden": 0,
+    "description": "Finish alone 10 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1296770/5336baa72e909c2ed8707e89c7e85b4d3cd2ead8.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1296770/d5ea83ca6c75a98fe452cf75d137754e912bb6fb.jpg"
+  },
+  {
+    "name": "ACH_EXPERIENCED",
+    "defaultvalue": 0,
+    "displayName": "Experienced  ",
+    "hidden": 0,
+    "description": "Do every position once",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1296770/c318f267c41c345992b1f77a0289109da4697060.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1296770/cd3849651c5643a4e23757090790870351cd01a4.jpg"
+  },
+  {
+    "name": "ACH_NATURAL",
+    "defaultvalue": 0,
+    "displayName": "A Natural ",
+    "hidden": 0,
+    "description": "Do every position 5 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1296770/a9b8b6dba44bf437a2273bb146068430698c6f59.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1296770/e0338c2705f8205b3e25e47c783810311437f773.jpg"
+  },
+  {
+    "name": "ACH_HOTNHEAVY",
+    "defaultvalue": 0,
+    "displayName": "Hot and Heavy ",
+    "hidden": 0,
+    "description": "Do any positions 25 times in total",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1296770/96dcece574523cdabe8967ca687d60299b99df44.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1296770/05a2b3f6fd7e744ddf098439c833f15cf092fc94.jpg"
+  },
+  {
+    "name": "ACH_CHEAPY",
+    "defaultvalue": 0,
+    "displayName": "Cheap ",
+    "hidden": 0,
+    "description": "Make it to 14 days without buying any clothing for her",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1296770/57bdcbfc2e5206f246d61d4562c137e41d2b69ed.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1296770/8f0a5ee32c8c8107cf44da8e2981406d78075060.jpg"
+  },
+  {
+    "name": "ACH_MESSENGER",
+    "defaultvalue": 0,
+    "displayName": "What’s up? ",
+    "hidden": 0,
+    "description": "Use the messenger",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1296770/35fefe1385564d3049aa81121e37b3d8bea03456.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1296770/d73b686281daeb94324bf252ee663b825f38c50c.jpg"
+  },
+  {
+    "name": "ACH_LUXURIOUS",
+    "defaultvalue": 0,
+    "displayName": "Looking Luxurious ",
+    "hidden": 0,
+    "description": "Buy 5 clothing items",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1296770/f54623c9423db3a5eff315fdeece774feed4a26a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1296770/8c522410561237cc4d0e60db9673b81649cfec8a.jpg"
+  },
+  {
+    "name": "ACH_PRETTYINPINK",
+    "defaultvalue": 0,
+    "displayName": "Pretty in Pink ",
+    "hidden": 0,
+    "description": "Buy every clothing item",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1296770/3e5793accbb399b546e4768b08bb132a6d7f352b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1296770/70940e3de84d76357b960a3b8c57d73875f811c5.jpg"
+  },
+  {
+    "name": "ACH_FURNITURE_3",
+    "defaultvalue": 0,
+    "displayName": "It’s a Start",
+    "hidden": 0,
+    "description": "Buy 3 home items",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1296770/e823359da57aaf17d3750594b9c9c5a8233bc7eb.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1296770/8a1f543abd4ace5446626eed559406886705682a.jpg"
+  },
+  {
+    "name": "ACH_FURNITURE_ALL",
+    "defaultvalue": 0,
+    "displayName": "Fancy Living ",
+    "hidden": 0,
+    "description": "Buy every home item",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1296770/7717d0d37f846bf47c1505701119920c09c54f9b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1296770/2b2e670b957b5a3b733e72090d3ec2ea2341af2b.jpg"
+  },
+  {
+    "name": "ACH_RICH",
+    "defaultvalue": 0,
+    "displayName": "Rich",
+    "hidden": 0,
+    "description": "Have 5,000 Zodacoins in your wallet",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1296770/7cabf6e4674f3d33aa20fc762dc9cfe5edbc60e7.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1296770/f0e240f5821ca4d41c5969dd9bbfaff67fe00a43.jpg"
+  },
+  {
+    "name": "ACH_FULL_ENERGY",
+    "defaultvalue": 0,
+    "displayName": "Well-Rested",
+    "hidden": 0,
+    "description": "Get yourself to 100 energy",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1296770/f86a827fc97a37765ae344e195dfa592f45e07f4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1296770/422cb8a5adaf8085131ccfa64a9baaed95587c00.jpg"
+  },
+  {
+    "name": "ACH_FULL_MOOD",
+    "defaultvalue": 0,
+    "displayName": "She’s a Happy Girl",
+    "hidden": 0,
+    "description": "Get her to 100 mood",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1296770/2a13e3d673fb4a7c15f249dce7ef0636ab1e7a1e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1296770/360ed2d0d5c38455758c4440783047d2dd94718b.jpg"
+  },
+  {
+    "name": "ACH_HAIRCOLORS",
+    "defaultvalue": 0,
+    "displayName": "All the Colors of the Rainbow ",
+    "hidden": 0,
+    "description": "Buy 7 different hair dyes",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1296770/d6a59016d4b2b79c6a97a6d66e055c1b8bd33892.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1296770/e6ffa3e006c544563b7ba9e13d8de58ae763cb17.jpg"
+  },
+  {
+    "name": "ACH_WORK_RELAX",
+    "defaultvalue": 0,
+    "displayName": "Slacker ",
+    "hidden": 0,
+    "description": "Relax at your job for five days of the week",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1296770/8c9bb242f618bcc2884fda789e6e7c8b6d4fb82c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1296770/6bf5b8ddafd8a1f0cea6a0ebd4a158563c5e0354.jpg"
+  },
+  {
+    "name": "ACH_WORK_EXTRA",
+    "defaultvalue": 0,
+    "displayName": "Long Week",
+    "hidden": 0,
+    "description": "Stay extra hours at your job for five days of the week",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1296770/5fdca0d46784410c469a9c5bada5a4d3d0a4907c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1296770/a6ff1350dbd53bccf07022bb711ab6c6d30f5920.jpg"
+  },
+  {
+    "name": "ACH_WOODS",
+    "defaultvalue": 0,
+    "displayName": "A Breath of Fresh Air",
+    "hidden": 0,
+    "description": "Take a walk in the woods",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1296770/6c5df544c777eb5e654c4c0c4c9362ebfee6efd2.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1296770/13fc9da98d920f76fae42f3e6b13f60c989861ed.jpg"
+  },
+  {
+    "name": "ACH_BADLUCK",
+    "defaultvalue": 0,
+    "displayName": "Bad Luck",
+    "hidden": 0,
+    "description": "Get 0 Zodacoins from the lottery three times in a row",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1296770/f449b2911cd87b4d8698f01659517d7616ee3933.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1296770/26db12026b83a110134a8b45ff080e297e5db6d0.jpg"
+  },
+  {
+    "name": "ACH_BJ_LUCKYSTREAK",
+    "defaultvalue": 0,
+    "displayName": "Lucky Streak",
+    "hidden": 0,
+    "description": "Win 5 Blackjack games in a row",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1296770/da03d9656bae65d00b082e71b52b77b5c4a2f7dc.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1296770/2288ab5ff72b1904ac1861c0508a086a990da53f.jpg"
+  },
+  {
+    "name": "ACH_ALONE",
+    "defaultvalue": 0,
+    "displayName": "All Alone",
+    "hidden": 0,
+    "description": "Have her leave you",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1296770/da5bf5afa2d0b22e2c728eed5bcfaac5f57619a4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1296770/d78a3a09915116cc788def204b1e50b032b16dd2.jpg"
+  },
+  {
+    "name": "ACH_GIRL_INTERN",
+    "defaultvalue": 0,
+    "displayName": "Collaboration",
+    "hidden": 0,
+    "description": "Work together with her",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1296770/9000a52f8bfbb727729397f475d6c63a7468e635.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1296770/2d7292b22f1af68675d48cdf9100c50b51d3e9ea.jpg"
+  },
+  {
+    "name": "ACH_DAYOFF",
+    "defaultvalue": 0,
+    "displayName": "Time Together",
+    "hidden": 0,
+    "description": "Take a day off",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1296770/2f76e824dadcb426193cf190becc68431fdfc0af.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1296770/067ab92ca40cb06c3afbc84fb9b0a04abe8aceea.jpg"
+  },
+  {
+    "name": "ACH_FIRED",
+    "defaultvalue": 0,
+    "displayName": "You're Fired!",
+    "hidden": 0,
+    "description": "Too many days off",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1296770/4ed1e000976f8455038c0b068f37bb96dc5c130f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1296770/7402a98113c14ba54f8fb742919358b686c33797.jpg"
+  },
+  {
+    "name": "ACH_DEED_ON_JOB",
+    "defaultvalue": 0,
+    "displayName": "Nice Job",
+    "hidden": 0,
+    "description": " Do the deed at work",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1296770/9dbe15c3582a12ceea44b00bfe20027ab31799c6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1296770/373474f63bd8930154bc0389fe7bcd817c4578f0.jpg"
+  },
+  {
+    "name": "ACH_CAREERSTEP_1",
+    "defaultvalue": 0,
+    "displayName": "Intern",
+    "hidden": 0,
+    "description": "Get demoted to career level 1",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1296770/3ebd5c1d80b3b08c36eb53826d35b00c772cbb85.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1296770/d1a08597575191c62c603577f07c9ebc853ed93a.jpg"
+  },
+  {
+    "name": "ACH_CAREERSTEP_2",
+    "defaultvalue": 0,
+    "displayName": "Office Assistant",
+    "hidden": 0,
+    "description": "Get demoted to career level 2",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1296770/5efb211e5ad3ccd3ccf819873e25e2d10093f982.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1296770/06276d5ec312d04ce3146f1c85bd505905dd1942.jpg"
+  },
+  {
+    "name": "ACH_CAREERSTEP_3",
+    "defaultvalue": 0,
+    "displayName": "Junior Manager",
+    "hidden": 0,
+    "description": "Reach career level 3",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1296770/f76f2ae04db1f12ba75db590fa42d4be9e52c188.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1296770/e5945a2ad99b5a363a6bb21cebeb3b2b5552ffaa.jpg"
+  },
+  {
+    "name": "ACH_CAREERSTEP_4",
+    "defaultvalue": 0,
+    "displayName": "Manager",
+    "hidden": 0,
+    "description": "Reach career level 4",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1296770/d27018eb45509c1e3bc4b9a0322d075866bc8011.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1296770/056a8b1ff5b69e373e13c54989059bfc7a44c9f6.jpg"
+  },
+  {
+    "name": "ACH_CAREERSTEP_5",
+    "defaultvalue": 0,
+    "displayName": "Regional Manager",
+    "hidden": 0,
+    "description": "Reach career level 5",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1296770/5e1725e3443803c9fb856539d098afe0d2951ddc.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1296770/0c315e404dcfec8607702a86aa2a8b222cf5f6de.jpg"
+  },
+  {
+    "name": "ACH_CAREERSTEP_6",
+    "defaultvalue": 0,
+    "displayName": "Senior Manager",
+    "hidden": 0,
+    "description": "Reach career level 6",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1296770/888a2634fe284d5b33bf6375a6c640aebca84ab3.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1296770/ac827d3eac87ee5820f3d8b1eaee71861a279427.jpg"
+  },
+  {
+    "name": "ACH_CAREERSTEP_7",
+    "defaultvalue": 0,
+    "displayName": "Vice President",
+    "hidden": 0,
+    "description": "Reach career level 7",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1296770/e9cbe4d9eb5260de093663c6c5208e2b778aa1db.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1296770/df306815f2859e269b41de4578cf3161922e05f8.jpg"
+  },
+  {
+    "name": "ACH_CAREERSTEP_8",
+    "defaultvalue": 0,
+    "displayName": "President",
+    "hidden": 0,
+    "description": "Reach career level 8",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1296770/8a3073f6390ba3330fb72b2af1a1a66297917833.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1296770/b07af3450f0549cd1f0bf82a7e7e3e0504760287.jpg"
+  },
+  {
+    "name": "ACH_CAREERSTEP_9",
+    "defaultvalue": 0,
+    "displayName": "CFO",
+    "hidden": 0,
+    "description": "Reach career level 9",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1296770/fea9fcfad1d4cf12214028ae3a280ee041f271ae.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1296770/a1d0fd95fdc02271dc153ec63ebcaa0f951f8cd9.jpg"
+  },
+  {
+    "name": "ACH_CAREERSTEP_10",
+    "defaultvalue": 0,
+    "displayName": "CEO",
+    "hidden": 0,
+    "description": "Reach career level 10",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1296770/ab8f923a549cb12132774b09c43a179bce3db68f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1296770/f61d81253042d175ee988f04a37453c4884166bc.jpg"
+  },
+  {
+    "name": "ACH_BUSINESSWOMAN",
+    "defaultvalue": 0,
+    "displayName": "Businesswoman",
+    "hidden": 0,
+    "description": "Buy office clothes",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1296770/3a2452ebf577142d9ebd2bb8d216055f2a9e367b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1296770/8275980335c56e5d02fad2bd91b3f837a4dea72d.jpg"
+  }
+]

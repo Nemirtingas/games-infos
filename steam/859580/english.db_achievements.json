@@ -1,0 +1,515 @@
+﻿[
+  {
+    "name": "ach_cincinattus",
+    "defaultvalue": 0,
+    "displayName": "Cincinnatus",
+    "hidden": 0,
+    "description": "Appoint a Dictator, and have the same Dictator voluntarily stand down.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/859580/2b47d6b326517b5d97f5bcb2c92760153456bb36.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/859580/2209c7b91f039461c53bbf64092d4cc73fa0729f.jpg"
+  },
+  {
+    "name": "ach_tribal_concord",
+    "defaultvalue": 0,
+    "displayName": "Tribal Concord",
+    "hidden": 0,
+    "description": "Whilst you have a tribal government form, change a Law.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/859580/17a21ed3d5686e1ee0d3699df1602f86c9054a82.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/859580/48eee76bd243f504e838cb1c96bdd07aa10c7698.jpg"
+  },
+  {
+    "name": "ach_render_unto_caesar",
+    "defaultvalue": 0,
+    "displayName": "Render Unto Caesar",
+    "hidden": 0,
+    "description": "Conquer a city.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/859580/3ab08711d36f5d88060b0aed1392524a261d5f93.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/859580/2fc9a649aafb17926064c113444920c4af35ff54.jpg"
+  },
+  {
+    "name": "ach_a_new_home",
+    "defaultvalue": 0,
+    "displayName": "A New Home",
+    "hidden": 0,
+    "description": "Settle a new territory as a Migratory Tribe.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/859580/b10ce7b2efe63e637974bd89221ddb3ac3985a1b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/859580/363ccceb26e23a959e9a6e691f219dc6a5e41644.jpg"
+  },
+  {
+    "name": "ach_alea_iacta_est",
+    "defaultvalue": 0,
+    "displayName": "Alea Iacta Est",
+    "hidden": 0,
+    "description": "Have an appointed Dictator refuse to give up power.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/859580/b6b3a3c821e5dcc71645b4d4f9772bc4dbf72693.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/859580/5f22cda839a532d5fc605f7f5ab00402fbf077fe.jpg"
+  },
+  {
+    "name": "ach_soldier_of_fortune",
+    "defaultvalue": 0,
+    "displayName": "Soldier of Fortune",
+    "hidden": 0,
+    "description": "Send a disloyal pretender away to be a Mercenary.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/859580/1ab4043ec32a63c9d0e8752b9f9b459502ced043.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/859580/ff842c476e86c1b3c16b520bc90bf2bb0d5a00f6.jpg"
+  },
+  {
+    "name": "ach_panem_et_circenses",
+    "defaultvalue": 0,
+    "displayName": "Panem Et Circenses",
+    "hidden": 0,
+    "description": "Compete in the Olympic Games on at least 10 occasions.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/859580/5268e294d5fa821a363d6759b52f5779322a6f1a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/859580/f816e06bde9fa7c22ef3c2a1551c1e30d51027b3.jpg"
+  },
+  {
+    "name": "ach_international_relations",
+    "defaultvalue": 0,
+    "displayName": "International Relations",
+    "hidden": 0,
+    "description": "With your current ruler, acquire two other ruler-level friends.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/859580/28865c4d18a2efa541e1868f164f102ec01d183a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/859580/9df5d044537829e0d7b0de5624daad31581df47d.jpg"
+  },
+  {
+    "name": "ach_strategic_reserve",
+    "defaultvalue": 0,
+    "displayName": "Strategic Reserve",
+    "hidden": 0,
+    "description": "Import at least one of each Strategic resource to your capital province.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/859580/a849853e8105da65b0b1274bda646a39dded858f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/859580/e6300b39efe26d6ea50a8bef5cff858a8bd74005.jpg"
+  },
+  {
+    "name": "ach_triumvir",
+    "defaultvalue": 0,
+    "displayName": "Triumvir",
+    "hidden": 0,
+    "description": "Survive a Civil War.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/859580/0be8960fc80880dbaff6d22e4b148b829874e5f5.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/859580/7df6257258c4b265b92fa973da8e39b657be3c1f.jpg"
+  },
+  {
+    "name": "ach_aristotle",
+    "defaultvalue": 0,
+    "displayName": "Legacy of Aristotle",
+    "hidden": 0,
+    "description": "Have four Researchers with at least 11 finesse each.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/859580/154c3ec066b26158616e9558783684358782bf2c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/859580/985bb7a227fedebc0819ae1326d74b50f7075fb5.jpg"
+  },
+  {
+    "name": "ach_circles",
+    "defaultvalue": 0,
+    "displayName": "Do Not Disturb My Circles",
+    "hidden": 0,
+    "description": "Research 40 inventions.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/859580/77bf5873f88c8d494a74e79a7496065c71c926e1.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/859580/cf8daea65e1dfea0b21925c63a2c3c0fea111fe5.jpg"
+  },
+  {
+    "name": "ach_tribal_assembly",
+    "defaultvalue": 0,
+    "displayName": "Tribal Assembly",
+    "hidden": 0,
+    "description": "As a Tribe, enact the decision to become a Republic.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/859580/4b0862c2942aab3cd3d06728f0273f98465a44b0.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/859580/af95420f9da6caa5b2159cea8259691f9217b0a4.jpg"
+  },
+  {
+    "name": "ach_hispania_universalis",
+    "defaultvalue": 0,
+    "displayName": "Hispania Universalis",
+    "hidden": 0,
+    "description": "Form Greater Iberia",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/859580/90d8e1f2f29cf13c677d4cbb1bb110f8241d8755.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/859580/da8a8044dcb8250684877359e43bb5047a69028f.jpg"
+  },
+  {
+    "name": "ach_romans_done_for_us",
+    "defaultvalue": 0,
+    "displayName": "What have the Romans ever done for us?",
+    "hidden": 0,
+    "description": "As Rome, own at least one City with 70 or more Civilization Value in each Province within the Palestine region.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/859580/83b1a19de4647eb8ac7f971f124fd2e2788c8362.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/859580/4f05c444d3622da292ca8c130cb3cc5fc9767866.jpg"
+  },
+  {
+    "name": "ach_punic_ascendance",
+    "defaultvalue": 0,
+    "displayName": "Punic Ascendance",
+    "hidden": 0,
+    "description": "As Carthage, own or have a subject own all of Hispania.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/859580/95dd9c1f9d52a1eadd808b83542aa12b0300ee5f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/859580/47dba0a86406e158bdafa3e61b1a63456f2fad91.jpg"
+  },
+  {
+    "name": "ach_times_new_roman",
+    "defaultvalue": 0,
+    "displayName": "Times New Roman",
+    "hidden": 0,
+    "description": "As Rome, conquer the cities of Cariala, Italica, and Aquae Helveticae.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/859580/a55747a86ef3d49c5e81fc0a54bb65524f1d2aff.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/859580/0481f0e7e7b5e2ec0d38123d21b2e14ed52d269f.jpg"
+  },
+  {
+    "name": "ach_antipaters_dream",
+    "defaultvalue": 0,
+    "displayName": "Antipater's Dream",
+    "hidden": 0,
+    "description": "As Macedonia, own the region of Greece.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/859580/ec7deca489ca25c05e6fdfc99d3edfc199c6ba00.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/859580/a93178e955b00c05c6a9a34a0ec0b250dfcad18d.jpg"
+  },
+  {
+    "name": "ach_the_besieger",
+    "defaultvalue": 0,
+    "displayName": "The Besieger",
+    "hidden": 0,
+    "description": "As the Antigonids, sack the territories of Babylon, Alexandria, Lysimacheia, and Pella.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/859580/4cd7ddb55fbbffadcb4dfe3a4537c08dbc39381d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/859580/b9e8dd582486b47158a6c191a370566cbc0d8a70.jpg"
+  },
+  {
+    "name": "ach_over_9000",
+    "defaultvalue": 0,
+    "displayName": "Over 9000!",
+    "hidden": 0,
+    "description": "Have at least 9000 pops.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/859580/7b34dd610e96ac84a65d3942d03e298b07a23035.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/859580/9c9f524590993c4645e3472a36ca03c83b8dbdaf.jpg"
+  },
+  {
+    "name": "ach_romans_are_crazy",
+    "defaultvalue": 0,
+    "displayName": "The Romans are Crazy",
+    "hidden": 0,
+    "description": "Form Gaul.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/859580/27320b83a0f8a05f60e23847a37d8acc01aa823d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/859580/fb843450bedbeb1464f5164c42b1d75c62c9bbfb.jpg"
+  },
+  {
+    "name": "ach_carthago_delenda_est",
+    "defaultvalue": 0,
+    "displayName": "Carthago Delenda Est",
+    "hidden": 0,
+    "description": "As Rome, own and sack the city of Carthage.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/859580/d3c7885f0a137b04c9c78159532828d39e1edb97.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/859580/4700bcff7e1cd51ceb712466c936c73870361ce4.jpg"
+  },
+  {
+    "name": "ach_new_kingdom",
+    "defaultvalue": 0,
+    "displayName": "New Kingdom",
+    "hidden": 0,
+    "description": "Form Egypt, enact the Egyptian Succession law, and conquer the regions of Nubia and Syria.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/859580/f08cd1e2f4d54866706c04159f524c18d294dcfc.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/859580/b4898ffab2c9737ad21e554809c51c4a3e7b7fc3.jpg"
+  },
+  {
+    "name": "ach_pyrrhic_victory",
+    "defaultvalue": 0,
+    "displayName": "Pyrrhic Victory",
+    "hidden": 0,
+    "description": "As Epirus, own Rome.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/859580/d671b4d7e32917080431839ec7949c6fc7d875ca.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/859580/8e2d0758811e70f1e756d54a0bcf03326803380a.jpg"
+  },
+  {
+    "name": "ach_perfidious_albion",
+    "defaultvalue": 0,
+    "displayName": "Perfidious Albion",
+    "hidden": 0,
+    "description": "Form Albion before the year AUC 500.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/859580/689ea95d13099bb29c1e86de53fe4e8ccc8aa209.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/859580/87c745e68d2491aecfc34d32e0364cabbd3b286f.jpg"
+  },
+  {
+    "name": "ach_imperial_ambition",
+    "defaultvalue": 0,
+    "displayName": "Imperial Ambition",
+    "hidden": 0,
+    "description": "Adopt the Empire government form.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/859580/4b0e824adf9a4f55620d761af81ef7e1e99e03fa.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/859580/4230721da0b679102919fae92793cc0acb7e97aa.jpg"
+  },
+  {
+    "name": "ach_envy_of_the_world",
+    "defaultvalue": 0,
+    "displayName": "Envy of the World",
+    "hidden": 0,
+    "description": "Have any owned city with 100 or more Civilization Value.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/859580/da892f40c4a6347c30c89a1dd841425100fb1837.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/859580/a1f03e16c95f9988cbb820e5ab253fe781486872.jpg"
+  },
+  {
+    "name": "ach_pan_hellenic_league",
+    "defaultvalue": 0,
+    "displayName": "Pan-Hellenic League",
+    "hidden": 0,
+    "description": "As any Greek Republic, own the entire region of Greece.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/859580/8e564a75c7ce49bfa674f4cd52b8040c5aa33d9a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/859580/99517b380f30193f646ab763ef93ac33980cd92c.jpg"
+  },
+  {
+    "name": "ach_stonehenge",
+    "defaultvalue": 0,
+    "displayName": "Mystery Solved",
+    "hidden": 0,
+    "description": "As a Megalithic country, own at least 20 cities producing Stone, and the city of Cunetio.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/859580/3f959cd90b035b50e73c78fa08b9bb2a0183046e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/859580/a79c0f8bdc1097ddc2655f11f6dfe87384b8ae2d.jpg"
+  },
+  {
+    "name": "ach_soter",
+    "defaultvalue": 0,
+    "displayName": "Soter",
+    "hidden": 0,
+    "description": "As Egypt, own all the wonders of the world, through conquest or construction.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/859580/c5b8db23c40c4b02cd85906a0cc2754f6510703b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/859580/d5b5baf301332c91d04628e31f1b9bde4d2dd500.jpg"
+  },
+  {
+    "name": "ach_end_of_world",
+    "defaultvalue": 0,
+    "displayName": "To the End of the World",
+    "hidden": 0,
+    "description": "As the Seleucid Empire or Bactria, conquer the regions of Gandhara, Mahdyadesa, Pracya, Maru, and Avanti.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/859580/b88a7bba30c4d94a144d6cf72e6487e54778e8ed.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/859580/c7b719df5c6900d4b3d3b736db519aae05a45b7d.jpg"
+  },
+  {
+    "name": "ach_three_great_fires",
+    "defaultvalue": 0,
+    "displayName": "Three Great Fires",
+    "hidden": 0,
+    "description": "Form Persia, and own Ganzak, Nevshapur, and Gur.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/859580/abcf5104ca586abd34f3149b4dcb1682eb99f484.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/859580/1129813adf4329e9180160d4356cbecd1e20389f.jpg"
+  },
+  {
+    "name": "ach_holy_fire",
+    "defaultvalue": 0,
+    "displayName": "Holy Fire",
+    "hidden": 0,
+    "description": "Desecrate Holy Sites for at least 10 different religions.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/859580/a5d9045036ce4536cb8f5a6d33321f0c068b4bc8.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/859580/a17732428b3948d023421bb423947268267903f7.jpg"
+  },
+  {
+    "name": "ach_alexanders_empire",
+    "defaultvalue": 0,
+    "displayName": "No More Worlds Left to Conquer",
+    "hidden": 0,
+    "description": "Reform Alexander's Empire as a successor state.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/859580/f5120a65515fc0654fc13d23ac50d88fa20cbadd.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/859580/1e6d9b2c703a6bdaa7d3bdd673e71dff7c1caa58.jpg"
+  },
+  {
+    "name": "ach_garum_nobile",
+    "defaultvalue": 0,
+    "displayName": "Garum Nobile",
+    "hidden": 0,
+    "description": "In any owned city, produce a surplus of at least 10 fish.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/859580/beb7101ca826d9485d370fa760348be2a09a6916.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/859580/e69aa533931132066172798555aee3067caa882f.jpg"
+  },
+  {
+    "name": "ach_true_vandal",
+    "defaultvalue": 0,
+    "displayName": "True Vandal",
+    "hidden": 0,
+    "description": "As a Vandal nation, own any territory in the regions of Mauretania, Numidia, Africa, or Cyrenaica, and occupy Rome in a war.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/859580/0aa21d141187134f59b74c309c80c8908832241c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/859580/3b07c6d6aad9763deb11da5fec567627008f6bfa.jpg"
+  },
+  {
+    "name": "ach_germania_magna",
+    "defaultvalue": 0,
+    "displayName": "Germania Magna",
+    "hidden": 0,
+    "description": "As a Germanic nation, own every city in the regions of Germania, Germania Superior, Vistulia, and Boiohaemum.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/859580/b16e78012313ce872da3cac5a88ac4ffa991666e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/859580/3c07e06b8aa335d5c82cc10a964b8dc07364f092.jpg"
+  },
+  {
+    "name": "ach_man_who_would_be_king",
+    "defaultvalue": 0,
+    "displayName": "The Man who would be King",
+    "hidden": 0,
+    "description": "As Bactria, become independent, and conquer the regions of Ariana, Bactria, and Gandhara.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/859580/f2c95574b0e947f341a82f447f5034c32246f71f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/859580/9727bdf73e250b7967439aae1566e2d9409bccf9.jpg"
+  },
+  {
+    "name": "ach_ashokas_pillars",
+    "defaultvalue": 0,
+    "displayName": "Ashoka's Pillars",
+    "hidden": 0,
+    "description": "As the Mauryas, conquer all of India, convert to Buddhism, and have at least 80% Religious Unity.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/859580/61ea01afffec1b1b5f466f88aef9be21c2d7dd14.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/859580/486e296d09375e93dc068a7f6340a7036ea05bd4.jpg"
+  },
+  {
+    "name": "ach_mare_nostrum",
+    "defaultvalue": 0,
+    "displayName": "Mare Nostrum",
+    "hidden": 0,
+    "description": "As Rome, own every city adjacent to the Mediterranean Sea.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/859580/fe9f5c3fc278b488088dbc80ee4d684f49f5fd2f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/859580/6f613d73b66b29bd99955f97ad392a9bbf228cff.jpg"
+  },
+  {
+    "name": "ach_megalopolis",
+    "defaultvalue": 0,
+    "displayName": "Megalopolis",
+    "hidden": 0,
+    "description": "As the nation of Megalopolis, have at least 80 pops in the city of Megalopolis.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/859580/0c7aea0f906e6c4d7bace289d1d2796ad1092abe.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/859580/a8a1c26686070ea76333ebbb3b60e79cf0e151a2.jpg"
+  },
+  {
+    "name": "ach_boiiiiiiiiiiii",
+    "defaultvalue": 0,
+    "displayName": "The Bois Are Back in Town",
+    "hidden": 0,
+    "description": "As Boi, conquer or colonize the entire region of Boiohaemum.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/859580/aa24d6604b8effa726fd7b4c30f0c4646088f3d1.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/859580/edf31e7bd7483c3f0725a33f94d24f0484872dec.jpg"
+  },
+  {
+    "name": "ach_molon_labe",
+    "defaultvalue": 0,
+    "displayName": "Molon Labe!",
+    "hidden": 0,
+    "description": "As Sparta, conquer and sack the city of Persepolis.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/859580/024f1f262fc4e5a689f5fd54bc1eb0d11a95301c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/859580/0c9ff3c8317a7b82bc4ccdce62cb290a746bfcb3.jpg"
+  },
+  {
+    "name": "ach_spice_must_flow",
+    "defaultvalue": 0,
+    "displayName": "The Spice Must Flow",
+    "hidden": 0,
+    "description": "As Mosylon, own every Spice producing city in the world.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/859580/7bf1bc0e67f704ac2dba6679a34afd1ba48353f2.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/859580/2181a3fa28ba8047e333d57c702bf4af49026e96.jpg"
+  },
+  {
+    "name": "ach_kingdom_of_david",
+    "defaultvalue": 0,
+    "displayName": "Kingdom of David",
+    "hidden": 0,
+    "description": "Starting as a Jewish nation, own the regions of Palestine and Syria, as well as the areas of Sinai, Eastern Delta, Central Delta, Memphis, Euphrates, Niniveh, Mespotamia Superior, Tigris, Babylonia, Asoristan, and Veh Kavad.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/859580/df787c6b09c9f2d614eba3d8128493e91dda357f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/859580/d3220bc12347d60e54bcd0e0bd474f0f8d62b5a4.jpg"
+  },
+  {
+    "name": "ach_rednaxela",
+    "defaultvalue": 0,
+    "displayName": "rednaxelA",
+    "hidden": 0,
+    "description": "Starting as a Hindu, Buddhist, or Jain nation, which is not the Mauryas, conquer Pataliputra, Babylon, Memphis, and Athens.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/859580/783a92fc7ffe452b2eafe634a86cfc4ddbb38a17.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/859580/165784455759a9a6871774a9ede0afb6ed526d6d.jpg"
+  },
+  {
+    "name": "ach_heraclea_persica",
+    "defaultvalue": 0,
+    "displayName": "Heraclea Persica",
+    "hidden": 0,
+    "description": "Starting as Heraclea Pontica, form Persia whilist your ruler belongs to the Achaemenid dynasty.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/859580/84b50e3447cb9096c4871ca39eb3be699cd42db4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/859580/84993ab68f8e51f644967bc287efd5de89034681.jpg"
+  },
+  {
+    "name": "ach_tyrian_purple",
+    "defaultvalue": 0,
+    "displayName": "Tyrian Purple",
+    "hidden": 0,
+    "description": "Form Phoenicia, own at least 500 ships, and produce a surplus of at least 5 dyes in Tyrus.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/859580/94f87ad928e0a78d101fd67041073adc4d3a2503.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/859580/f99d7ae96805a5d19619aecf56eb42582b1d373b.jpg"
+  },
+  {
+    "name": "ach_pax_aeterna",
+    "defaultvalue": 0,
+    "displayName": "Pax Aeterna",
+    "hidden": 0,
+    "description": "Conquer the world.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/859580/65c100ac7ea10db18bfe31385baa35e97f56676a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/859580/9dbf9f086911b0dbf69ae01e61eb4888b8c53529.jpg"
+  },
+  {
+    "name": "ach_worlds_desire",
+    "defaultvalue": 0,
+    "displayName": "City of the World's Desire",
+    "hidden": 0,
+    "description": "Have 15 Trade Routes in Byzantium.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/859580/01e84f568f1180732ffba7bff6810dd855c847f0.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/859580/1bac6d9b141f25d0a54572001d51e5e46ab8149f.jpg"
+  },
+  {
+    "name": "ach_pentecontaetia",
+    "defaultvalue": 0,
+    "displayName": "Pentecontaetia",
+    "hidden": 0,
+    "description": "As Athens, be independent and own Delos, Naxos, Kassandreia, Thaso, Chalkis, Samos, Sestos, Kition, Salamis, and Oreos before 500 AUC.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/859580/9fe9553d934c2f0c4bf5edcbf3c3c815c8637fa8.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/859580/1171410bce1da032606a9f3133155115afde3b0f.jpg"
+  },
+  {
+    "name": "ach_laconic_if",
+    "defaultvalue": 0,
+    "displayName": "Laconic If",
+    "hidden": 0,
+    "description": "As Sparta, conquer and sack Pella before 480 AUC.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/859580/070292a6dedbc8888e64a53bdab87dc83be70293.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/859580/9cc03398a11360713b9d17a76297c24f79612faf.jpg"
+  },
+  {
+    "name": "ach_tyrant_to_king",
+    "defaultvalue": 0,
+    "displayName": "Potter to King",
+    "hidden": 0,
+    "description": "As Syracuse, conquer all of Sicily by the death of your ruler, Agathocles.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/859580/f292044aa1fef65a821214561ce978e967c007cd.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/859580/14e76976297eb609240cc9792d557e39a42a17ad.jpg"
+  },
+  {
+    "name": "ach_pytheas_legacy",
+    "defaultvalue": 0,
+    "displayName": "Pytheas' Legacy",
+    "hidden": 0,
+    "description": "As Massalia, own at least one territory in Dumnonia and Cantiacia, as well as one territory in the Scandia region, and the territory of Orcades, before 550.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/859580/81652f11582a133deb58eb152dbfbde6239dd3dd.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/859580/d8d634d33c88b58bce2bb9fcc042f378dcb57813.jpg"
+  },
+  {
+    "name": "ach_brennus_revenge",
+    "defaultvalue": 0,
+    "displayName": "Brennus' Revenge",
+    "hidden": 0,
+    "description": "As a Gallic Tribe, desecrate all Hellenic Holy Sites in Greece before 480 AUC.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/859580/108574949ef0b7db6bab595ed207c6a9f7bd2341.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/859580/422e4efb81f67c32acc7addb8dab7107f4f8ac3c.jpg"
+  },
+  {
+    "name": "ach_holy_pilgrim",
+    "defaultvalue": 0,
+    "displayName": "Holy Pilgrim",
+    "hidden": 0,
+    "description": "As a Jewish country, own and control all original Jewish Holy Sites: Ekbatana, Oros Chorib, Apologos, Jerusalem, Ephraim, Sousa, Kadasa and Aqola.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/859580/6853f9ff3727e7b636f56b99f6967045b5961c82.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/859580/735db3174c83b8cc52b757708aca80dc3f421768.jpg"
+  },
+  {
+    "name": "ach_gotta_catch_them_all",
+    "defaultvalue": 0,
+    "displayName": "Catch them All",
+    "hidden": 0,
+    "description": "As a Polytheistic country, have a State Pantheon composed entirely of deified rulers.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/859580/29305b853585d6bbaa1c54b252c287540acb10b5.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/859580/101b44718f31ba49179c3ae950ddfa2a73e1efd2.jpg"
+  }
+]

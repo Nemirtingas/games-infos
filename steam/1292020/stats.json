@@ -1,0 +1,27 @@
+[
+  {
+    "name": "days_survived",
+    "defaultvalue": 0,
+    "displayName": "Combat Days Survived"
+  },
+  {
+    "name": "hits_taken",
+    "defaultvalue": 0,
+    "displayName": "AP Hits Taken"
+  },
+  {
+    "name": "scenarios",
+    "defaultvalue": 0,
+    "displayName": "[no longer used]"
+  },
+  {
+    "name": "zones_captured",
+    "defaultvalue": 0,
+    "displayName": "Zones Captured"
+  },
+  {
+    "name": "scenarios_fought",
+    "defaultvalue": 0,
+    "displayName": "Scenarios Fought"
+  }
+]

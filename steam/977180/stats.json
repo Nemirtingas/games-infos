@@ -1,0 +1,392 @@
+[
+  {
+    "name": "RubberStadiumClear_RubberStadiumClear",
+    "defaultvalue": 0,
+    "displayName": "Rubber Stadium Clear"
+  },
+  {
+    "name": "GottaGoFast_GottaGoFast",
+    "defaultvalue": 0,
+    "displayName": "Gotta Go Fast"
+  },
+  {
+    "name": "LightningSpeedwayClear_LightningSpeedwayClear",
+    "defaultvalue": 0,
+    "displayName": "Lightning Speedway Clear"
+  },
+  {
+    "name": "ToxicCityClear_ToxicCityClear",
+    "defaultvalue": 0,
+    "displayName": "Toxic City Clear"
+  },
+  {
+    "name": "InfernoStadiumClear_InfernoStadiumClear",
+    "defaultvalue": 0,
+    "displayName": "Inferno Stadium Clear"
+  },
+  {
+    "name": "Stage5Clear_Stage5Clear",
+    "defaultvalue": 0,
+    "displayName": "Velocity Valley Clear"
+  },
+  {
+    "name": "Stage6Clear_Stage6Clear",
+    "defaultvalue": 0,
+    "displayName": "Midnight Underground Clear"
+  },
+  {
+    "name": "RubberStadiumAdept_RubberStadiumAdept",
+    "defaultvalue": 0,
+    "displayName": "Rubber Stadium Adept"
+  },
+  {
+    "name": "LightningSpeedwayAdept_LightningSpeedwayAdept",
+    "defaultvalue": 0,
+    "displayName": "Lightning Speedway Adept"
+  },
+  {
+    "name": "ToxicCityAdept_ToxicCityAdept",
+    "defaultvalue": 0,
+    "displayName": "Toxic City Adept"
+  },
+  {
+    "name": "InfernoStadiumAdept_InfernoStadiumAdept",
+    "defaultvalue": 0,
+    "displayName": "Inferno Stadium Adept"
+  },
+  {
+    "name": "Stage5Adept_Stage5Adept",
+    "defaultvalue": 0,
+    "displayName": "Velocity Valley Adept"
+  },
+  {
+    "name": "Stage6Adept_Stage6Adept",
+    "defaultvalue": 0,
+    "displayName": "Midnight Underground Adept"
+  },
+  {
+    "name": "RubberStadiumMaster_RubberStadiumMaster",
+    "defaultvalue": 0,
+    "displayName": "Rubber Stadium Master"
+  },
+  {
+    "name": "LightningSpeedwayMaster_LightningSpeedwayMaster",
+    "defaultvalue": 0,
+    "displayName": "Lightning Speedway Master"
+  },
+  {
+    "name": "Stage5Master_Stage5Master",
+    "defaultvalue": 0,
+    "displayName": "Velocity Valley Master"
+  },
+  {
+    "name": "Stage6Master_Stage6Master",
+    "defaultvalue": 0,
+    "displayName": "Midnight Underground Master"
+  },
+  {
+    "name": "BurntRubberClear_BurntRubberClear",
+    "defaultvalue": 0,
+    "displayName": "Burnt Rubber Clear"
+  },
+  {
+    "name": "BurntRubberAdept_BurntRubberAdept",
+    "defaultvalue": 0,
+    "displayName": "Burnt Rubber Adept"
+  },
+  {
+    "name": "BurntRubberMaster_BurntRubberMaster",
+    "defaultvalue": 0,
+    "displayName": "Burnt Rubber Master"
+  },
+  {
+    "name": "AirSupply_AirSupply",
+    "defaultvalue": 0,
+    "displayName": "Air Supply"
+  },
+  {
+    "name": "YoureNotSupposedToHitThose_YoureNotSupposedToHitThose",
+    "defaultvalue": 0,
+    "displayName": "Youre Not Supposed To Hit Those"
+  },
+  {
+    "name": "UnGrounded_UnGrounded",
+    "defaultvalue": 0,
+    "displayName": "UnGrounded"
+  },
+  {
+    "name": "Electrician_Electrician",
+    "defaultvalue": 0,
+    "displayName": "Electrician"
+  },
+  {
+    "name": "HighOnFumes_HighOnFumes",
+    "defaultvalue": 0,
+    "displayName": "High On Fumes"
+  },
+  {
+    "name": "Scholar_Scholar",
+    "defaultvalue": 0,
+    "displayName": "Scholar"
+  },
+  {
+    "name": "ToxicCityMaster_ToxicCityMaster",
+    "defaultvalue": 0,
+    "displayName": "Toxic City Master"
+  },
+  {
+    "name": "InfernoStadiumMaster_InfernoStadiumMaster",
+    "defaultvalue": 0,
+    "displayName": "Inferno Stadium Master"
+  },
+  {
+    "name": "LM_Monitor_LM_Monitor",
+    "defaultvalue": 0,
+    "displayName": "Monitor"
+  },
+  {
+    "name": "LM_Beginning_LM_Beginning",
+    "defaultvalue": 0,
+    "displayName": "Beginning"
+  },
+  {
+    "name": "LM_Circuit_LM_Circuit",
+    "defaultvalue": 0,
+    "displayName": "Circuit"
+  },
+  {
+    "name": "LM_Spiral_LM_Spiral",
+    "defaultvalue": 0,
+    "displayName": "Spiral"
+  },
+  {
+    "name": "LM_DangerS_LM_DangerS",
+    "defaultvalue": 0,
+    "displayName": "DangerS"
+  },
+  {
+    "name": "LM_Wallrunner_LM_Wallrunner",
+    "defaultvalue": 0,
+    "displayName": "Wallrunner"
+  },
+  {
+    "name": "LM_Shield_LM_Shield",
+    "defaultvalue": 0,
+    "displayName": "Shield"
+  },
+  {
+    "name": "LM_Reflex_LM_Reflex",
+    "defaultvalue": 0,
+    "displayName": "Reflex"
+  },
+  {
+    "name": "LM_Attrition_LM_Attrition",
+    "defaultvalue": 0,
+    "displayName": "Attrition"
+  },
+  {
+    "name": "LM_LeapOfFaith_LM_LeapOfFaith",
+    "defaultvalue": 0,
+    "displayName": "Leap of Faith"
+  },
+  {
+    "name": "LM_Corkscrew_LM_Corkscrew",
+    "defaultvalue": 0,
+    "displayName": "Corkscrew"
+  },
+  {
+    "name": "LM_Elevate_LM_Elevate",
+    "defaultvalue": 0,
+    "displayName": "Elevate"
+  },
+  {
+    "name": "LM_Whirlpool_LM_Whirlpool",
+    "defaultvalue": 0,
+    "displayName": "Whirlpool"
+  },
+  {
+    "name": "LM_Rewind_LM_Rewind",
+    "defaultvalue": 0,
+    "displayName": "Rewind"
+  },
+  {
+    "name": "LM_Focus_LM_Focus",
+    "defaultvalue": 0,
+    "displayName": "Focus"
+  },
+  {
+    "name": "LM_Roadblock_LM_Roadblock",
+    "defaultvalue": 0,
+    "displayName": "Roadblock"
+  },
+  {
+    "name": "LM_Blast_LM_Blast",
+    "defaultvalue": 0,
+    "displayName": "Blast"
+  },
+  {
+    "name": "LM_Prism_LM_Prism",
+    "defaultvalue": 0,
+    "displayName": "Prism"
+  },
+  {
+    "name": "LM_Energy_LM_Energy",
+    "defaultvalue": 0,
+    "displayName": "Energy"
+  },
+  {
+    "name": "LM_Maze_LM_Maze",
+    "defaultvalue": 0,
+    "displayName": "Maze"
+  },
+  {
+    "name": "LM_Underground_LM_Underground",
+    "defaultvalue": 0,
+    "displayName": "Underground"
+  },
+  {
+    "name": "LM_Pressure _LM_Pressure",
+    "defaultvalue": 0,
+    "displayName": "Pressure"
+  },
+  {
+    "name": "LM_Ghost Path_LM_Ghost Path",
+    "defaultvalue": 0,
+    "displayName": "Ghost Path"
+  },
+  {
+    "name": "LM_Cypher_LM_Cypher",
+    "defaultvalue": 0,
+    "displayName": "Cypher"
+  },
+  {
+    "name": "LM_Duo_LM_Duo",
+    "defaultvalue": 0,
+    "displayName": "Duo"
+  },
+  {
+    "name": "LM_Speed_LM_Speed",
+    "defaultvalue": 0,
+    "displayName": "Speed"
+  },
+  {
+    "name": "LM_SkyColliseum_LM_SkyColliseum",
+    "defaultvalue": 0,
+    "displayName": "Sky Colosseum"
+  },
+  {
+    "name": "LM_Lift_LM_Lift",
+    "defaultvalue": 0,
+    "displayName": "Lift"
+  },
+  {
+    "name": "LM_SplitPaths_LM_SplitPaths",
+    "defaultvalue": 0,
+    "displayName": "Split Paths"
+  },
+  {
+    "name": "LM_Tightrope_LM_Tightrope",
+    "defaultvalue": 0,
+    "displayName": "Tightrope"
+  },
+  {
+    "name": "LM_Gravity_LM_Gravity",
+    "defaultvalue": 0,
+    "displayName": "Gravity"
+  },
+  {
+    "name": "LM_Force_LM_Force",
+    "defaultvalue": 0,
+    "displayName": "Force"
+  },
+  {
+    "name": "LM_Power_LM_Power",
+    "defaultvalue": 0,
+    "displayName": "Power"
+  },
+  {
+    "name": "LM_Spike_LM_Spike",
+    "defaultvalue": 0,
+    "displayName": "Spike"
+  },
+  {
+    "name": "LM_Shift _LM_Shift",
+    "defaultvalue": 0,
+    "displayName": "Shift"
+  },
+  {
+    "name": "LM_Cataclysm_LM_Cataclysm",
+    "defaultvalue": 0,
+    "displayName": "Cataclysm"
+  },
+  {
+    "name": "LM_Barricade_LM_Barricade",
+    "defaultvalue": 0,
+    "displayName": "Barricade"
+  },
+  {
+    "name": "LM_Distress_LM_Distress",
+    "defaultvalue": 0,
+    "displayName": "Distress"
+  },
+  {
+    "name": "LM_Ironside_LM_Ironside",
+    "defaultvalue": 0,
+    "displayName": "Ironside"
+  },
+  {
+    "name": "LM_Singularity_LM_Singularity",
+    "defaultvalue": 0,
+    "displayName": "Singularity"
+  },
+  {
+    "name": "LM_Tubular_LM_Tubular",
+    "defaultvalue": 0,
+    "displayName": "Tubular"
+  },
+  {
+    "name": "LM_Gauntlet_LM_Gauntlet",
+    "defaultvalue": 0,
+    "displayName": "Gauntlet"
+  },
+  {
+    "name": "LM_RingsOfPower_LM_RingsOfPower",
+    "defaultvalue": 0,
+    "displayName": "Rings of Power"
+  },
+  {
+    "name": "LM_Vision_LM_Vision",
+    "defaultvalue": 0,
+    "displayName": "Vision"
+  },
+  {
+    "name": "LM_StormsEye_LM_StormsEye",
+    "defaultvalue": 0,
+    "displayName": "Storm's Eye"
+  },
+  {
+    "name": "LM_Weave_LM_Weave",
+    "defaultvalue": 0,
+    "displayName": "Weave"
+  },
+  {
+    "name": "LM_Pipeline_LM_Pipeline",
+    "defaultvalue": 0,
+    "displayName": "Pipeline"
+  },
+  {
+    "name": "LM_Outlook_LM_Outlook",
+    "defaultvalue": 0,
+    "displayName": "Outlook"
+  },
+  {
+    "name": "LM_Crosseye_LM_Crosseye",
+    "defaultvalue": 0,
+    "displayName": "Crosseye"
+  },
+  {
+    "name": "LM_Cosmos_LM_Cosmos",
+    "defaultvalue": 0,
+    "displayName": "Cosmos"
+  }
+]

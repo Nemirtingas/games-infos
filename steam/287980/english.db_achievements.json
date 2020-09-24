@@ -1,0 +1,443 @@
+﻿[
+  {
+    "name": "london1",
+    "defaultvalue": 0,
+    "displayName": "Oyster",
+    "hidden": 0,
+    "description": "Deliver 200 passengers in London.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/287980/700deafdd103476fc26698fc6c3dd029d2bdf573.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/287980/b72245806029706223246466ad6e7a9c3f2a17d3.jpg"
+  },
+  {
+    "name": "paris1",
+    "defaultvalue": 0,
+    "displayName": "Navigo",
+    "hidden": 0,
+    "description": "Deliver 200 passengers in Paris.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/287980/700deafdd103476fc26698fc6c3dd029d2bdf573.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/287980/b72245806029706223246466ad6e7a9c3f2a17d3.jpg"
+  },
+  {
+    "name": "nyc1",
+    "defaultvalue": 0,
+    "displayName": "MetroCard",
+    "hidden": 0,
+    "description": "Deliver 200 passengers in New York City.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/287980/700deafdd103476fc26698fc6c3dd029d2bdf573.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/287980/b72245806029706223246466ad6e7a9c3f2a17d3.jpg"
+  },
+  {
+    "name": "berlin1",
+    "defaultvalue": 0,
+    "displayName": "Monatskarten",
+    "hidden": 0,
+    "description": "Deliver 200 passengers in Berlin.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/287980/700deafdd103476fc26698fc6c3dd029d2bdf573.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/287980/b72245806029706223246466ad6e7a9c3f2a17d3.jpg"
+  },
+  {
+    "name": "hongkong1",
+    "defaultvalue": 0,
+    "displayName": "八達通 / Octopus",
+    "hidden": 0,
+    "description": "Deliver 200 passengers in Hong Kong.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/287980/700deafdd103476fc26698fc6c3dd029d2bdf573.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/287980/b72245806029706223246466ad6e7a9c3f2a17d3.jpg"
+  },
+  {
+    "name": "osaka1",
+    "defaultvalue": 0,
+    "displayName": "イコカ",
+    "hidden": 0,
+    "description": "Deliver 500 passengers in Osaka.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/287980/700deafdd103476fc26698fc6c3dd029d2bdf573.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/287980/b72245806029706223246466ad6e7a9c3f2a17d3.jpg"
+  },
+  {
+    "name": "stpetersburg1",
+    "defaultvalue": 0,
+    "displayName": "Подорожник",
+    "hidden": 0,
+    "description": "Deliver 500 passengers in Saint Petersburg.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/287980/700deafdd103476fc26698fc6c3dd029d2bdf573.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/287980/b72245806029706223246466ad6e7a9c3f2a17d3.jpg"
+  },
+  {
+    "name": "montreal1",
+    "defaultvalue": 0,
+    "displayName": "OPUS",
+    "hidden": 0,
+    "description": "Deliver 500 passengers in Montréal.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/287980/700deafdd103476fc26698fc6c3dd029d2bdf573.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/287980/b72245806029706223246466ad6e7a9c3f2a17d3.jpg"
+  },
+  {
+    "name": "saopaulo1",
+    "defaultvalue": 0,
+    "displayName": "Bilhete Único",
+    "hidden": 0,
+    "description": "Deliver 500 passengers in São Paulo.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/287980/700deafdd103476fc26698fc6c3dd029d2bdf573.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/287980/b72245806029706223246466ad6e7a9c3f2a17d3.jpg"
+  },
+  {
+    "name": "cairo1",
+    "defaultvalue": 0,
+    "displayName": "ركاب",
+    "hidden": 0,
+    "description": "Deliver 500 passengers in Cairo.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/287980/700deafdd103476fc26698fc6c3dd029d2bdf573.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/287980/b72245806029706223246466ad6e7a9c3f2a17d3.jpg"
+  },
+  {
+    "name": "auckland1",
+    "defaultvalue": 0,
+    "displayName": "Hop",
+    "hidden": 0,
+    "description": "Deliver 600 passengers in Auckland.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/287980/700deafdd103476fc26698fc6c3dd029d2bdf573.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/287980/b72245806029706223246466ad6e7a9c3f2a17d3.jpg"
+  },
+  {
+    "name": "london2",
+    "defaultvalue": 0,
+    "displayName": "Thames Tunnel",
+    "hidden": 0,
+    "description": "Deliver 1000 passengers in London using no more than one tunnel.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/287980/521993825ec900b6d3f9ae03f139e920f0155d19.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/287980/fc9a35286a36f4610b4e258e3a9abb3003f2542d.jpg"
+  },
+  {
+    "name": "paris2",
+    "defaultvalue": 0,
+    "displayName": "City of Lines",
+    "hidden": 0,
+    "description": "Deliver 1300 passengers in Paris using no more than three lines.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/287980/d917150399ec0ffd8a8164bf2381286055c8ea78.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/287980/c6bd68fc57057d014cb92fcbd4e94f88f28a9713.jpg"
+  },
+  {
+    "name": "nyc2",
+    "defaultvalue": 0,
+    "displayName": "Square Times",
+    "hidden": 0,
+    "description": "Deliver 1600 passengers in New York City with square stations on no more than two lines.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/287980/64a584509a85b52ea565ba70979bdb313aa28c9f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/287980/1a43f48ae43b07f212de99f448f08322cc8656a8.jpg"
+  },
+  {
+    "name": "berlin2",
+    "defaultvalue": 0,
+    "displayName": "The Grey Lokomotive",
+    "hidden": 0,
+    "description": "Deliver 1000 passengers in Berlin using no more than one locomotive per line.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/287980/4be9979f49880d6cf578d5dc05ce9884f4bf8284.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/287980/21558c61d83301d2fec379b2b197d391ec07846e.jpg"
+  },
+  {
+    "name": "hongkong2",
+    "defaultvalue": 0,
+    "displayName": "Hong Kong Eights",
+    "hidden": 0,
+    "description": "Deliver 1100 passengers in Hong Kong with no more than eight stations per line.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/287980/64a584509a85b52ea565ba70979bdb313aa28c9f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/287980/1a43f48ae43b07f212de99f448f08322cc8656a8.jpg"
+  },
+  {
+    "name": "osaka2",
+    "defaultvalue": 0,
+    "displayName": "Ten weeks in Osaka",
+    "hidden": 0,
+    "description": "Reach week ten in Osaka.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/287980/3b92fe7d1ac1e55aa3dbe67e4af1212846311feb.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/287980/0a654b1875e80addf18a076a4d890046abf996c6.jpg"
+  },
+  {
+    "name": "stpetersburg2",
+    "defaultvalue": 0,
+    "displayName": "Neva the Great",
+    "hidden": 0,
+    "description": "Deliver 1500 passengers in Saint Petersburg with tunnels on no more than one line.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/287980/521993825ec900b6d3f9ae03f139e920f0155d19.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/287980/fc9a35286a36f4610b4e258e3a9abb3003f2542d.jpg"
+  },
+  {
+    "name": "montreal2",
+    "defaultvalue": 0,
+    "displayName": "Green and orange and yellow and blue",
+    "hidden": 0,
+    "description": "Deliver 1600 passengers in Montréal using no more than four lines.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/287980/d917150399ec0ffd8a8164bf2381286055c8ea78.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/287980/c6bd68fc57057d014cb92fcbd4e94f88f28a9713.jpg"
+  },
+  {
+    "name": "saopaulo2",
+    "defaultvalue": 0,
+    "displayName": "São Paulo Grand Prix",
+    "hidden": 0,
+    "description": "Deliver 1200 passengers in São Paulo using only loops.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/287980/d917150399ec0ffd8a8164bf2381286055c8ea78.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/287980/c6bd68fc57057d014cb92fcbd4e94f88f28a9713.jpg"
+  },
+  {
+    "name": "cairo2",
+    "defaultvalue": 0,
+    "displayName": "The City of Six Carriages",
+    "hidden": 0,
+    "description": "Deliver 1400 passengers in Cairo using no more than one carriage per line.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/287980/99737c0ecaad85733b4de3f9c608f23e9fc40557.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/287980/70155eae5a8ffa6e3afddd8afb079a3022c9fba4.jpg"
+  },
+  {
+    "name": "auckland2",
+    "defaultvalue": 0,
+    "displayName": "Second Harbour Crossing",
+    "hidden": 0,
+    "description": "Deliver 1500 passengers in Auckland using no more than two tunnels.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/287980/521993825ec900b6d3f9ae03f139e920f0155d19.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/287980/fc9a35286a36f4610b4e258e3a9abb3003f2542d.jpg"
+  },
+  {
+    "name": "melbourne1",
+    "defaultvalue": 0,
+    "displayName": "myki",
+    "hidden": 0,
+    "description": "Deliver 300 passengers in Melbourne.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/287980/772859e4b72e1caad8411fcbc78114f26e634e1f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/287980/eedad4befc285b003e07482500efea9172eb9bfd.jpg"
+  },
+  {
+    "name": "melbourne2",
+    "defaultvalue": 0,
+    "displayName": "Hook Turn",
+    "hidden": 0,
+    "description": "Deliver 1000 passengers in Melbourne with at least one station connected to all lines.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/287980/cfc82cf52cb76838cd379ce7e303eef722acf8d7.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/287980/438d129bb029e336d5b5af434b551d7df7d03dd4.jpg"
+  },
+  {
+    "name": "dailychallengeoneday",
+    "defaultvalue": 0,
+    "displayName": "Day trip",
+    "hidden": 0,
+    "description": "Post a score in a daily challenge.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/287980/3b92fe7d1ac1e55aa3dbe67e4af1212846311feb.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/287980/0a654b1875e80addf18a076a4d890046abf996c6.jpg"
+  },
+  {
+    "name": "dailychallengeoneweek",
+    "defaultvalue": 0,
+    "displayName": "Commuter",
+    "hidden": 0,
+    "description": "Post a score in the daily challenge every weekday for one week.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/287980/3b92fe7d1ac1e55aa3dbe67e4af1212846311feb.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/287980/0a654b1875e80addf18a076a4d890046abf996c6.jpg"
+  },
+  {
+    "name": "sanfrancisco1",
+    "defaultvalue": 0,
+    "displayName": "Clipper",
+    "hidden": 0,
+    "description": "Deliver 500 passengers in San Francisco.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/287980/700deafdd103476fc26698fc6c3dd029d2bdf573.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/287980/b72245806029706223246466ad6e7a9c3f2a17d3.jpg"
+  },
+  {
+    "name": "sanfrancisco2",
+    "defaultvalue": 0,
+    "displayName": "Don't Have a Cow, Man",
+    "hidden": 0,
+    "description": "Reach week nine in San Francisco.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/287980/fa11f7bdd49d69c94caab3c8a418df3eaec257fb.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/287980/0a654b1875e80addf18a076a4d890046abf996c6.jpg"
+  },
+  {
+    "name": "seoul1",
+    "defaultvalue": 0,
+    "displayName": "T-money",
+    "hidden": 0,
+    "description": "Deliver 500 passengers in Seoul.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/287980/700deafdd103476fc26698fc6c3dd029d2bdf573.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/287980/b72245806029706223246466ad6e7a9c3f2a17d3.jpg"
+  },
+  {
+    "name": "seoul2",
+    "defaultvalue": 0,
+    "displayName": "Seoul Train",
+    "hidden": 0,
+    "description": "Deliver 1400 passengers in Seoul with tunnels on no more than one line.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/287980/e04f976556a1f37843d810b7abdb996238230029.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/287980/9f25a8f1c6f71eab746766f687505bdb91a3f0eb.jpg"
+  },
+  {
+    "name": "shanghai1",
+    "defaultvalue": 0,
+    "displayName": "交通一卡通",
+    "hidden": 0,
+    "description": "Deliver 500 passengers in Shanghai.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/287980/700deafdd103476fc26698fc6c3dd029d2bdf573.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/287980/b72245806029706223246466ad6e7a9c3f2a17d3.jpg"
+  },
+  {
+    "name": "shanghai2",
+    "defaultvalue": 0,
+    "displayName": "Shanglow? Shanghai!",
+    "hidden": 0,
+    "description": "Deliver 1200 passengers in Shanghai with at least one station connected to all lines.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/287980/b93139c5b9ded2650d7fab1c34b9d82d1eaa5586.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/287980/6f2a67b4905e9a903a49fe6c8f6643bc5aae5cbb.jpg"
+  },
+  {
+    "name": "washingtondc1",
+    "defaultvalue": 0,
+    "displayName": "SmarTrip",
+    "hidden": 0,
+    "description": "Deliver 500 passengers in Washington, D.C..",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/287980/700deafdd103476fc26698fc6c3dd029d2bdf573.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/287980/b72245806029706223246466ad6e7a9c3f2a17d3.jpg"
+  },
+  {
+    "name": "washingtondc2",
+    "defaultvalue": 0,
+    "displayName": "Money Train",
+    "hidden": 0,
+    "description": "Deliver 2100 passengers in Washington, D.C.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/287980/700deafdd103476fc26698fc6c3dd029d2bdf573.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/287980/b72245806029706223246466ad6e7a9c3f2a17d3.jpg"
+  },
+  {
+    "name": "istanbul1",
+    "defaultvalue": 0,
+    "displayName": "Istanbulkart",
+    "hidden": 0,
+    "description": "Deliver 500 passengers in Istanbul.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/287980/700deafdd103476fc26698fc6c3dd029d2bdf573.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/287980/b72245806029706223246466ad6e7a9c3f2a17d3.jpg"
+  },
+  {
+    "name": "istanbul2",
+    "defaultvalue": 0,
+    "displayName": "Marmaray",
+    "hidden": 0,
+    "description": "Deliver 1500 passengers in Istanbul using no more than one tunnel.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/287980/e04f976556a1f37843d810b7abdb996238230029.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/287980/9f25a8f1c6f71eab746766f687505bdb91a3f0eb.jpg"
+  },
+  {
+    "name": "mumbai1",
+    "defaultvalue": 0,
+    "displayName": "स्मार्टकार्ड",
+    "hidden": 0,
+    "description": "Deliver 500 passengers in Mumbai.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/287980/700deafdd103476fc26698fc6c3dd029d2bdf573.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/287980/b72245806029706223246466ad6e7a9c3f2a17d3.jpg"
+  },
+  {
+    "name": "mumbai2",
+    "defaultvalue": 0,
+    "displayName": "Elaborate Dance Number ",
+    "hidden": 0,
+    "description": "Reach week nine in Mumbai.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/287980/fa11f7bdd49d69c94caab3c8a418df3eaec257fb.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/287980/0a654b1875e80addf18a076a4d890046abf996c6.jpg"
+  },
+  {
+    "name": "stockholm1",
+    "defaultvalue": 0,
+    "displayName": "SL Access",
+    "hidden": 0,
+    "description": "Deliver 500 passengers in Stockholm.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/287980/700deafdd103476fc26698fc6c3dd029d2bdf573.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/287980/6030e64463481e33287b3f70f858d4b1dcc399c9.jpg"
+  },
+  {
+    "name": "stockholm2",
+    "defaultvalue": 0,
+    "displayName": "Centralen",
+    "hidden": 0,
+    "description": "Reach week eight in Stockholm with at least one station connected to all lines.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/287980/b93139c5b9ded2650d7fab1c34b9d82d1eaa5586.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/287980/1f10818eb95add2caf05e29136d84274ae886e86.jpg"
+  },
+  {
+    "name": "singapore1",
+    "defaultvalue": 0,
+    "displayName": "EZ-Link",
+    "hidden": 0,
+    "description": "Deliver 500 passengers in Singapore.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/287980/ab5363f21798c1c915d0c36ab8882be68a0e5c9b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/287980/31e70bd0add590d3e2ded0f72ce1fe2fe0d80341.jpg"
+  },
+  {
+    "name": "singapore2",
+    "defaultvalue": 0,
+    "displayName": "Circle Line",
+    "hidden": 0,
+    "description": "Deliver 1600 passengers in Singapore using no more than one loop.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/287980/da69faa241e6e18911871baf9be1541d3989a9bc.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/287980/c68c7aea7d7dfbc7f4c1bc6111c7d1542645e581.jpg"
+  },
+  {
+    "name": "london3",
+    "defaultvalue": 0,
+    "displayName": "Earl Grey",
+    "hidden": 0,
+    "description": "Deliver 1000 passengers in London.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/287980/0e941d7ddddc422a854f4b74a59b7ca47b635f87.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/287980/4eec055ef05b1d1f88bb9c3a76a854efe06c6815.jpg"
+  },
+  {
+    "name": "nyc3",
+    "defaultvalue": 0,
+    "displayName": "Mustard and Sauerkraut",
+    "hidden": 0,
+    "description": "Deliver 1000 passengers in New York City.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/287980/955d1cd7261ef7c216960ea2c89752f5d536f952.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/287980/e77f05d12db15adaeb4333b656360e8ed83ef7d8.jpg"
+  },
+  {
+    "name": "paris3",
+    "defaultvalue": 0,
+    "displayName": "Baguette Tradition",
+    "hidden": 0,
+    "description": "Deliver 1000 passengers in Paris.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/287980/d0ece72ebbaa24b005f8f29568d65252b4187c4c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/287980/835dc6abab2fd4e636f7adf0893d49c31bbd0fbf.jpg"
+  },
+  {
+    "name": "guangzhou1",
+    "defaultvalue": 0,
+    "displayName": "羊城通",
+    "hidden": 0,
+    "description": "Deliver 500 passengers in Guangzhou.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/287980/ab5363f21798c1c915d0c36ab8882be68a0e5c9b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/287980/31e70bd0add590d3e2ded0f72ce1fe2fe0d80341.jpg"
+  },
+  {
+    "name": "guangzhou2",
+    "defaultvalue": 0,
+    "displayName": "City of Rams",
+    "hidden": 0,
+    "description": "Deliver 1500 passengers in Guangzhou with tunnels on no more than one line.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/287980/9e3e6c766106906fc9c6167a7453e6915bba8108.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/287980/24ee2c67c4c03c9a905734006d0b751126d257eb.jpg"
+  },
+  {
+    "name": "barcelona1",
+    "defaultvalue": 0,
+    "displayName": "T-Mobilitat",
+    "hidden": 0,
+    "description": "Deliver 500 passengers in Barcelona.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/287980/ab5363f21798c1c915d0c36ab8882be68a0e5c9b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/287980/31e70bd0add590d3e2ded0f72ce1fe2fe0d80341.jpg"
+  },
+  {
+    "name": "barcelona2",
+    "defaultvalue": 0,
+    "displayName": "This perfect dream",
+    "hidden": 0,
+    "description": "Deliver 1200 passengers in Barcelona with tunnels on no more than one line.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/287980/c12c68010be19e107938561c99bcf31d68af7f32.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/287980/4df8fcf09ad15faf18412a6e81c8c9d2864e4bf9.jpg"
+  }
+]

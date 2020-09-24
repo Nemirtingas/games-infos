@@ -1,0 +1,158 @@
+﻿{
+  "stat_level": {
+    "description": "Level",
+    "value": 1
+  },
+  "stat_kingdoms": {
+    "description": "Kingdoms",
+    "value": 1
+  },
+  "stat_troops": {
+    "description": "Troop Types",
+    "value": 1
+  },
+  "stat_trooplevel": {
+    "description": "Highest Level Troop",
+    "value": 1
+  },
+  "stat_challengelevel": {
+    "description": "Best Challenge Rank",
+    "value": 0
+  },
+  "stat_pvplevel": {
+    "description": "Best PvP Rank",
+    "value": 1
+  },
+  "stat_kingdompower": {
+    "description": "Kingdom Power",
+    "value": 1
+  },
+  "stat_heroclasswins": {
+    "description": "Hero Class Wins",
+    "value": 0
+  },
+  "stat_trooprarity": {
+    "description": "Troop Rarity",
+    "value": 1
+  },
+  "stat_vaultcount": {
+    "description": "Vault Count",
+    "value": 0
+  },
+  "stat_invasiontowers": {
+    "description": "Invasion Towers Destroyed",
+    "value": 0
+  },
+  "stat_raidbossdamage": {
+    "description": "Raid Boss Damage",
+    "value": 0
+  },
+  "stat_petrescuewins": {
+    "description": "Pet Rescue Wins",
+    "value": 0
+  },
+  "stat_petlevel": {
+    "description": "Pet Max Level",
+    "value": 0
+  },
+  "stat_championlevel": {
+    "description": "Champion Max Level",
+    "value": 0
+  },
+  "stat_weaponaffixes": {
+    "description": "Most Affixes on a Weapon",
+    "value": 0
+  },
+  "stat_factions": {
+    "description": "Factions",
+    "value": 0
+  },
+  "stat_delvelevel": {
+    "description": "Best Delve Level Complete",
+    "value": 0
+  },
+  "stat_delvelevelnodeaths": {
+    "description": "Best Delve Level Complete with no Deaths",
+    "value": 0
+  },
+  "stat_delvelevelfactionteam": {
+    "description": "Best Delve Level Complete With Faction Team",
+    "value": 0
+  },
+  "stat_hoardlevel": {
+    "description": "Best Treasure Hoard Level",
+    "value": 0
+  },
+  "stat_hoardquality": {
+    "description": "Best Treasure Hoard Quality",
+    "value": 0
+  },
+  "stat_factionrenown": {
+    "description": "Best Renown for a Single Faction",
+    "value": 0
+  },
+  "stat_totalfactionrenown": {
+    "description": "Total Renown for all Factions",
+    "value": 0
+  },
+  "stat_towerofdoomdefeated": {
+    "description": "Highest Dooms Defeated in a single Tower of Doom Event",
+    "value": 0
+  },
+  "stat_honorgiven": {
+    "description": "Total Honor Given to Other Players",
+    "value": 0
+  },
+  "stat_socialitems": {
+    "description": "Number of Social Items the Player Owns (Emojis, Portraits, Titles)",
+    "value": 0
+  },
+  "stat_mvplevel": {
+    "description": "Highest MVP Level the Player has Reached in a Single Battle",
+    "value": 0
+  },
+  "stat_epicbattlefought": {
+    "description": "Number of Epic Battles Fought",
+    "value": 0
+  },
+  "stat_adventureboardscomplete": {
+    "description": "Number of Adventure Boards Completed in a single day",
+    "value": 0
+  },
+  "stat_challengetier": {
+    "description": "Highest Challenge Tier completed in a single Kingdom",
+    "value": 0
+  },
+  "stat_kingdomlevel": {
+    "description": "Highest Kingdom Level that the user owns",
+    "value": 1
+  },
+  "stat_medalsequipped": {
+    "description": "The number of Medals that the player has equipped",
+    "value": 0
+  },
+  "stat_troopelitelevels": {
+    "description": "The total number of Troops which have Elite Levels awarded by medals",
+    "value": 0
+  },
+  "stat_troopselitelevelgold": {
+    "description": "The total number of troops which have reached Gold Elite Level status by being upgraded by Medals",
+    "value": 0
+  },
+  "stat_medalofseasons": {
+    "description": "The max number of Medal of Seasons the player has equipped",
+    "value": 0
+  },
+  "stat_gemsoftype": {
+    "description": "The max number of gems of a single color matched in a single battle",
+    "value": 0
+  },
+  "stat_campaigntasks": {
+    "description": "The max number of Campaign Tasks a user has completed in a single Campaign",
+    "value": 0
+  },
+  "stat_artifactlevel": {
+    "description": "The Max Level a user has gotten an Artifact to in a single Campaign",
+    "value": 0
+  }
+}

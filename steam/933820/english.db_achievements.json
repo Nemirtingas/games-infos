@@ -1,0 +1,362 @@
+[
+  {
+    "name": "endzone_settlers1",
+    "defaultvalue": 0,
+    "displayName": "Glimmer of Hope",
+    "hidden": 0,
+    "description": "Have 50 settlers in one session.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/933820/f37e12288c1901f7e47e3fa4bf33c327a8ff4959.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/933820/438a9f47f222e48fef5f316ee5751c5b122515da.jpg"
+  },
+  {
+    "name": "endzone_settlers2",
+    "defaultvalue": 0,
+    "displayName": "Surviving 101",
+    "hidden": 0,
+    "description": "Have 101 settlers in one session.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/933820/049d643c3265f39f392ce611a459720d22042900.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/933820/f2bf8c70270c74a84b741397ba6c4282c495cd19.jpg"
+  },
+  {
+    "name": "endzone_settlers3",
+    "defaultvalue": 0,
+    "displayName": "Is this Sparta?",
+    "hidden": 0,
+    "description": "Have 300 settlers in one session.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/933820/9df46c57fc8982b397f4694c2d6f4a40f92423b2.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/933820/3c73d099afc77b74638f31eac5c42f0cbcf00757.jpg"
+  },
+  {
+    "name": "endzone_water1",
+    "defaultvalue": 0,
+    "displayName": "Just a Sip!",
+    "hidden": 0,
+    "description": "Store 5.000 water in your settlement during one session.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/933820/8f04e61fc1f601c6e6df89bf45e6014ab98dd138.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/933820/a7b474c37531805fc09028f2cc13537e7d8e55f6.jpg"
+  },
+  {
+    "name": "endzone_water2",
+    "defaultvalue": 0,
+    "displayName": "It's Over 9000!",
+    "hidden": 0,
+    "description": "Store 10.000 water in your settlement during one session.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/933820/49be5384af01bb10319abb07bf8e9e2f53d77ce9.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/933820/05a4972eb818a54ffb4eac3c11d07c5e053d8cbb.jpg"
+  },
+  {
+    "name": "endzone_food1",
+    "defaultvalue": 0,
+    "displayName": "Just a Snack!",
+    "hidden": 0,
+    "description": "Store 5.000 food in your settlement during one session.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/933820/7831a3dcbe21280741dec8c924d1466bf1f2e868.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/933820/08cd8ec4a9c998424ea18e2cd34f0d6dd616f295.jpg"
+  },
+  {
+    "name": "endzone_food2",
+    "defaultvalue": 0,
+    "displayName": "La Grande Bouffe",
+    "hidden": 0,
+    "description": "Store 10.000 food in your settlement during one session.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/933820/2b19c8707a116333350da553dfeac65fb2ee2a10.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/933820/2c79841e7af6dc610867f22b6d1329a18a1fbe96.jpg"
+  },
+  {
+    "name": "endzone_wells",
+    "defaultvalue": 0,
+    "displayName": "Well Prepared!",
+    "hidden": 0,
+    "description": "Construct 10 wells in one session.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/933820/d5b8918f719ea00578cf8c6d448dd8cb10f690fc.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/933820/5cd04b7672072c3409bf5a93f45847d32aaf2d53.jpg"
+  },
+  {
+    "name": "endzone_buildAlot",
+    "defaultvalue": 0,
+    "displayName": "A True Gyver",
+    "hidden": 0,
+    "description": "Have a hunting lodge, a field, a plantation, a fishing hut, a gathering hut, a water tower, a boardwalk, a well and a rain collector.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/933820/2524ac12be5a8ffd94b8bc48b5289d9e3edff36a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/933820/a6f7836ad2f4df075e7e16c5d2fd1cbccd5fb896.jpg"
+  },
+  {
+    "name": "endzone_year1",
+    "defaultvalue": 0,
+    "displayName": "Into the wild",
+    "hidden": 0,
+    "description": "Survive until season 30.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/933820/69fb338dde4b1a403e0263290f98f5a3e744c966.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/933820/7f090a482f50d9f4dc55650bdb541f10e258f447.jpg"
+  },
+  {
+    "name": "endzone_year2",
+    "defaultvalue": 0,
+    "displayName": "A new Beginning",
+    "hidden": 0,
+    "description": "Survive until season 50.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/933820/1b3a87fb5ed394f3bc7a06437f0008883515f710.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/933820/d780c42a5a9d3e21afe60d718e43076f8fa8d6aa.jpg"
+  },
+  {
+    "name": "endzone_year3",
+    "defaultvalue": 0,
+    "displayName": "There goes a Century",
+    "hidden": 0,
+    "description": "Survive until season 100.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/933820/d48e2fc4d8ff8b028654f3abac9a1113caaed497.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/933820/1c001d6539c8fc573cf1dfd77313f32d92644c38.jpg"
+  },
+  {
+    "name": "endzone_year4",
+    "defaultvalue": 0,
+    "displayName": "Against All Odds",
+    "hidden": 0,
+    "description": "Survive until season 150.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/933820/8a63fd2bf3ff460e9bdba33b73df3bbc0eb2301a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/933820/f9d64f2fac3c3fc5b8544789d14de7f3c6a24241.jpg"
+  },
+  {
+    "name": "endzone_year5",
+    "defaultvalue": 0,
+    "displayName": "We will survive!",
+    "hidden": 0,
+    "description": "Survive until season 200.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/933820/de5147c14444018a3af6f05bffeeebf5dbc91732.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/933820/04a649b7c18d7e7f50b8f644fced9a38c6ee9960.jpg"
+  },
+  {
+    "name": "endzone_industrialist",
+    "defaultvalue": 0,
+    "displayName": "Industrialist",
+    "hidden": 0,
+    "description": "Have more than 40 production buildings.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/933820/2f3e09913b74d20057e2b875cdd27c77b9be1712.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/933820/81ef858f96ad77fbf63d87c02e78143e7b7522df.jpg"
+  },
+  {
+    "name": "endzone_finishedTutorial",
+    "defaultvalue": 0,
+    "displayName": "Graduation!",
+    "hidden": 0,
+    "description": "Finish the tutorial and graduate from the survival boot camp.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/933820/37e8cc1436b1f9d6300913485fdb5da5c33e60c8.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/933820/c3ef5904f043a174680327e23dd287b16ede7d1e.jpg"
+  },
+  {
+    "name": "endzone_scenarioCollectSeeds",
+    "defaultvalue": 0,
+    "displayName": "Scenario: The Bet",
+    "hidden": 0,
+    "description": "Complete the \"The Bet\" scenario.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/933820/068f81735c8dc572967655ea8f480c7f3bac9705.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/933820/6d12ea552f193c8edda3e0ea70b75e1f7c1d94a1.jpg"
+  },
+  {
+    "name": "endzone_scenarioExtremeDrought",
+    "defaultvalue": 0,
+    "displayName": "Scenario: The Long Summer",
+    "hidden": 0,
+    "description": "Complete \"The Long Summer\" scenario.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/933820/9e2d341e5967241e3c33e051ab5cad80f42910bb.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/933820/bb6e0e44ddb346a9a135f2598e6d5b9da7583d6d.jpg"
+  },
+  {
+    "name": "endzone_scenarioGetSettlerAmount",
+    "defaultvalue": 0,
+    "displayName": "Scenario: A New Hope",
+    "hidden": 0,
+    "description": "Complete \"A New Hope\" scenario.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/933820/3913d6f92b93095cb59305163387b583edd9be58.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/933820/e3dea402a46efdb154d789b7657641b3660929e0.jpg"
+  },
+  {
+    "name": "endzone_scenarioStoreResources",
+    "defaultvalue": 0,
+    "displayName": "Scenario: Shared Suffering",
+    "hidden": 0,
+    "description": "Complete \"Shared Suffering\" scenario.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/933820/db0bb687907525836d9345a1c49a5259219cd168.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/933820/c9779cd296d54e9ec23613f6a12ba42d69113e60.jpg"
+  },
+  {
+    "name": "endzone_scenarioSurviveSeasons",
+    "defaultvalue": 0,
+    "displayName": "Scenario: Rome wasn't built in a day",
+    "hidden": 0,
+    "description": "Complete \"Rome wasn't built in a day\" scenario.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/933820/eef60b33d99643a41a4ad4d957479119422f46ce.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/933820/23873c4c10635eb3e2debf4096d4b5a5a3c009a1.jpg"
+  },
+  {
+    "name": "endzone_scenarioOasis",
+    "defaultvalue": 0,
+    "displayName": "Scenario: Desert Flower",
+    "hidden": 0,
+    "description": "Complete the \"Desert Flower\" scenario.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/933820/caaa1f0acfb9ba41c67be0cdcaac83792f7302a1.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/933820/9a0e2274a128966db8de1acc2c46db42abcf6538.jpg"
+  },
+  {
+    "name": "endzone_scenarioRadiatedRainDisaster",
+    "defaultvalue": 0,
+    "displayName": "Scenario: Rainy Season",
+    "hidden": 0,
+    "description": "Complete the \"Rainy Season\" scenario.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/933820/27a19bb338da6b6d57bdcf082e0b9dbee9c2a908.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/933820/958b8e2ae103715b49a7f3eac5df73a290746c10.jpg"
+  },
+  {
+    "name": "endzone_firstDrought",
+    "defaultvalue": 0,
+    "displayName": "And yet we Stand",
+    "hidden": 0,
+    "description": "Survive your first drought.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/933820/f96418e9be580adb57b6e0f6f932f8920ba45d92.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/933820/3453a1ed205a7b67b4521300d91c5518cebedc41.jpg"
+  },
+  {
+    "name": "endzone_sandstorms",
+    "defaultvalue": 0,
+    "displayName": "Made of Stone!",
+    "hidden": 0,
+    "description": "Survive 6 sandstorms in one session!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/933820/0c3ec5487dee588ba96a60191b9753850e671378.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/933820/34ca50a0c87902d5cdfa9e85492b2cb8f0bdbb27.jpg"
+  },
+  {
+    "name": "endzone_firstSickness",
+    "defaultvalue": 0,
+    "displayName": "An apple a day keeps the doc away!",
+    "hidden": 0,
+    "description": "Cure 100 settlers in one sessoin!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/933820/04ce2db1fa86144a3136e225e55073237145fe1c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/933820/5da190d014a49111216ad037b934c33ee140a3f8.jpg"
+  },
+  {
+    "name": "endzone_electricity",
+    "defaultvalue": 0,
+    "displayName": "Let there be Light",
+    "hidden": 0,
+    "description": "Enable Electricity in your settlement.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/933820/326e3da1da8864fc0ce02b94e25e307c283d4cec.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/933820/faa97cb932a4ef89a9d1012eb1e0872ec564f1d0.jpg"
+  },
+  {
+    "name": "endzone_expedition",
+    "defaultvalue": 0,
+    "displayName": "Ruins Of Old",
+    "hidden": 0,
+    "description": "Guide an expedition to an old ruin and bring your explorers back home.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/933820/88465fd200e921938e1acff3b417d7b91d54d620.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/933820/125a02e8c2357bca251ef9452cfd09988bbb3e77.jpg"
+  },
+  {
+    "name": "endzone_ale",
+    "defaultvalue": 0,
+    "displayName": "What to do with the drunken survivor?",
+    "hidden": 0,
+    "description": "Brew 1000 ales in one session!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/933820/a6fed41c6c4f6edeef1c62581265df6954ee1724.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/933820/75eccd08a044f1ac63e00f01edb138c8a097453c.jpg"
+  },
+  {
+    "name": "endzone_weed",
+    "defaultvalue": 0,
+    "displayName": "Once upon a crime",
+    "hidden": 0,
+    "description": "Roll 1000 joints in one session!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/933820/1f633379b3a78135eca8aa2ad7d3dd3b60973163.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/933820/576bef93cd9d484032e614c61101983347839d60.jpg"
+  },
+  {
+    "name": "endzone_lumber",
+    "defaultvalue": 0,
+    "displayName": "Lumberjack of all trades",
+    "hidden": 0,
+    "description": "Collect 10.000 wood in one session.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/933820/974d24229f76ae289b5dfd9b5dffa515bf4bcead.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/933820/7fcbcfc2bf1e794b8870419acc176ac5ccbd6832.jpg"
+  },
+  {
+    "name": "endzone_scrap",
+    "defaultvalue": 0,
+    "displayName": "Raiders of the lost scrap.",
+    "hidden": 0,
+    "description": "Collect 10.000 scrap in one session.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/933820/2bf44e4bcbb6ecbb85d5b39c278ceeae92d5619e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/933820/fc00613978f3a1d4678175be28d283463eaee599.jpg"
+  },
+  {
+    "name": "endzone_irrigator",
+    "defaultvalue": 0,
+    "displayName": "A green Thumb",
+    "hidden": 0,
+    "description": "Have 15 working irrigators in one session.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/933820/64e523dcf255c795a4f9ac14ee5bbc4a9a9feac3.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/933820/de77631ded040d1a82b9f995cb0996fa54412bc7.jpg"
+  },
+  {
+    "name": "endzone_nuclearPlant",
+    "defaultvalue": 0,
+    "displayName": "3.6 roentgen. Not bad, not terrible!",
+    "hidden": 0,
+    "description": "Successfully sent an expedition to the nuclear power plant.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/933820/bf96dca1ab59568de6a7b1f0c58573ac39d8698d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/933820/7d2e0a89fea3df9665166a4cd27a9f7687ff7777.jpg"
+  },
+  {
+    "name": "endzone_pills",
+    "defaultvalue": 0,
+    "displayName": "Pills Here!",
+    "hidden": 0,
+    "description": "Produce or find 500 iodine tablets in one session.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/933820/90d243016cda2fd87025c60b3253b54f38624f04.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/933820/bc74c1f2073244a8fc6062a181b843552ceabc0f.jpg"
+  },
+  {
+    "name": "endzone_mistakes",
+    "defaultvalue": 0,
+    "displayName": "Mistakes were made!",
+    "hidden": 0,
+    "description": "Loose 200 settlers of starvation or thrist in one session.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/933820/0733f443b3a108fcb61e9ea459b01340d727662c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/933820/208a96525f741469c286c85841be9e865a0afd30.jpg"
+  },
+  {
+    "name": "endzone_educated",
+    "defaultvalue": 0,
+    "displayName": "Knowledge is Power!",
+    "hidden": 0,
+    "description": "Educate 200 settlers on one session.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/933820/466cf378328efc108bf94c8828a2a676517549d0.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/933820/9caab9f5a0566033df8c3614fc39d1b2bc557fad.jpg"
+  },
+  {
+    "name": "endzone_children",
+    "defaultvalue": 0,
+    "displayName": "Give Tomorrow a reason!",
+    "hidden": 0,
+    "description": "Over 300 children were born in one session.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/933820/ab00ffb531140efd931fee7ca44425ff4b8e66bc.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/933820/7279f96dccc679090131327650b634e4ba78975a.jpg"
+  },
+  {
+    "name": "endzone_peterPan",
+    "defaultvalue": 0,
+    "displayName": "Stuck in Peter Pan!",
+    "hidden": 0,
+    "description": "Have more children than adults.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/933820/29f13df6dbb6afc2f8ce8c22cbe7befc3e80512e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/933820/11ccc910fa1b5ff560b8cd74e07aab78bff72ecb.jpg"
+  },
+  {
+    "name": "endzone_feedback",
+    "defaultvalue": 0,
+    "displayName": "Pillar Of The Community",
+    "hidden": 0,
+    "description": "Leave feedback or report a bug! Either way, you are awesome!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/933820/368e52557af7af5f56833dd3bca2324a8ad5143d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/933820/fecc60471ba17fcb8ec8788d51f1fb99e4971480.jpg"
+  }
+]

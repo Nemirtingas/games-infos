@@ -1,0 +1,551 @@
+[
+  {
+    "name": "acm_mvp_perfectwin",
+    "defaultvalue": 0,
+    "displayName": "Perfect Win!",
+    "hidden": 0,
+    "description": "Gain MVP Perfect Win",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1343130/df8dcef4de7734481f9a1a6e4e213826d9e5050c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1343130/19ad5dac2be9e7bd4f8cc6f48ef59ac3f317980c.jpg"
+  },
+  {
+    "name": "acm_mvp_arsenal",
+    "defaultvalue": 0,
+    "displayName": "The Annihilation",
+    "hidden": 0,
+    "description": "Gain MVP Annihilation",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1343130/0e2b97febf02ff9352622484c877675be78d4853.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1343130/16874f9acff3e05b1548d3630a9239ee89d6bf4f.jpg"
+  },
+  {
+    "name": "acm_mvp_hawkeye",
+    "defaultvalue": 0,
+    "displayName": "The Hawk Eye",
+    "hidden": 0,
+    "description": "Gain MVP Hawk Eye",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1343130/49ed627e1b8e200e47ac2727f0885a8e9556a1dc.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1343130/7d888d6e8c424ab90cbc8508591326232b98235d.jpg"
+  },
+  {
+    "name": "acm_mvp_activist",
+    "defaultvalue": 0,
+    "displayName": "The Activist",
+    "hidden": 0,
+    "description": "Gain MVP Activist",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1343130/a6f4cc4d0695634a2ee671f8fb3d5e54f8920ce5.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1343130/c7f6ba14b73209af8bcf3f35eb5e0f1de0fe17b2.jpg"
+  },
+  {
+    "name": "acm_mvp_hunter",
+    "defaultvalue": 0,
+    "displayName": "The Hunter",
+    "hidden": 0,
+    "description": "Gain MVP Hunter",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1343130/dae359f3c449f73db059150eca47fe85b7cfb8eb.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1343130/33af55cbe9e514ff3382680769522f6355d0191c.jpg"
+  },
+  {
+    "name": "acm_mvp_deep",
+    "defaultvalue": 0,
+    "displayName": "The Deep",
+    "hidden": 0,
+    "description": "Gain MVP Deep",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1343130/2a672d3f635191e69bced91a921841238d0f19db.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1343130/681d727de095786b7bde608b28439387dfbb9979.jpg"
+  },
+  {
+    "name": "acm_mvp_noob",
+    "defaultvalue": 0,
+    "displayName": "The Noob",
+    "hidden": 0,
+    "description": "Gain MVP Noob",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1343130/38090d6698cc7eab57f022fb2640639f304e9867.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1343130/eddd5ca5bb03646476ebece1ce046ab5b983105e.jpg"
+  },
+  {
+    "name": "acm_win_duel",
+    "defaultvalue": 0,
+    "displayName": "The Winner of the Duel",
+    "hidden": 0,
+    "description": "Win a match in Duel Mode",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1343130/5850790860a6725633fa2115ee7987f848485fd3.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1343130/5008a8886ba6462c109339760c897522b41496d9.jpg"
+  },
+  {
+    "name": "acm_win_ffa",
+    "defaultvalue": 0,
+    "displayName": "The Winner of All",
+    "hidden": 0,
+    "description": "Win a match in Free For All Mode",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1343130/c0ab472366a633d1a7e9299e54f599c3aba5a821.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1343130/9b0211202dd16f53dfa50e97fd5faf773bd14d09.jpg"
+  },
+  {
+    "name": "acm_lose",
+    "defaultvalue": 0,
+    "displayName": "Till the End",
+    "hidden": 0,
+    "description": "You lose but still keep fighting",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1343130/67496d715d5749d4f1361591d70a0aa96f152692.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1343130/a22524c6aac16714b05e44eb09d24e961f6af1d5.jpg"
+  },
+  {
+    "name": "acm_flag",
+    "defaultvalue": 0,
+    "displayName": "Flag Collector",
+    "hidden": 0,
+    "description": "Collect the flag",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1343130/f00e309815e8f56522510d6e04d6a8a6d661d59d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1343130/7df57168b2277788f30606343d8a9311a0df40e7.jpg"
+  },
+  {
+    "name": "acm_firstblood",
+    "defaultvalue": 0,
+    "displayName": "First Blood Champion",
+    "hidden": 0,
+    "description": "Deal the first damage to enemy in a match",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1343130/78031c8b228d61d76ab6e0a58f42eb027234d88e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1343130/fff0194ed592bb71de1caca8b1906f7065358efd.jpg"
+  },
+  {
+    "name": "acm_hit_1",
+    "defaultvalue": 0,
+    "displayName": "Hit the Enemy",
+    "hidden": 0,
+    "description": "Hit the Enemy",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1343130/b222efa4722603cc16c0c5a25b9ed6dbe0f114b2.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1343130/0eaf60025ffc9dc8dd70982a9cfc4781584a9d78.jpg"
+  },
+  {
+    "name": "acm_hit_2",
+    "defaultvalue": 0,
+    "displayName": "Double Hits!",
+    "hidden": 0,
+    "description": "Double hits in one turn",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1343130/a409a3825bd5f35795940532e65ff2ae0af1af27.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1343130/c46d07990f4d54b139df62a1221956249dbb39c7.jpg"
+  },
+  {
+    "name": "acm_hit_3",
+    "defaultvalue": 0,
+    "displayName": "Triple Hits!",
+    "hidden": 0,
+    "description": "Triple Hits in one turn",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1343130/c60d163f86a9a42ab7dd1beea8a89917716d3718.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1343130/02fd9f7bc3f3cde3249247238edd786ca3b28a3a.jpg"
+  },
+  {
+    "name": "acm_kill",
+    "defaultvalue": 0,
+    "displayName": "Time To Kill",
+    "hidden": 0,
+    "description": "Kill the Enemy",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1343130/e0aec9c8cbc771b0535c45fdf4e8f1c8106bfb62.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1343130/b12c8d45b9ef843684fde148d38bb00150be4fee.jpg"
+  },
+  {
+    "name": "acm_kill_2",
+    "defaultvalue": 0,
+    "displayName": "Double kills",
+    "hidden": 0,
+    "description": "Kill two enemies in one turn",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1343130/a90590527b7f2d4f15809052b909ffc477bc4236.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1343130/033bc9aecc9ec0adf71c7a1ec2df9527c13353d0.jpg"
+  },
+  {
+    "name": "acm_kill_3",
+    "defaultvalue": 0,
+    "displayName": "Triple Kills",
+    "hidden": 0,
+    "description": "Kill three enemies in one turn",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1343130/9938b66e23dcf88daf71777b304cb9293ae8092e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1343130/0534e80ccfeaf81d6cfc10d0fc4467dbf8bfd1ea.jpg"
+  },
+  {
+    "name": "acm_kill_all",
+    "defaultvalue": 0,
+    "displayName": "Kill Them All",
+    "hidden": 0,
+    "description": "Kill all enemies in a match",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1343130/a5da55211352317314da1419db5a8b6b39631ee2.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1343130/97e001d707fb141d7db1df64e1a1c2c6da390fe3.jpg"
+  },
+  {
+    "name": "acm_recycle",
+    "defaultvalue": 0,
+    "displayName": "Recycling",
+    "hidden": 0,
+    "description": "Recycling an item to get Energy",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1343130/bfb16e0d1ccb2ceb90afe7f8bbb1867046c2c441.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1343130/5f5c4735091308cf2595f98084354205985ee792.jpg"
+  },
+  {
+    "name": "acm_trap",
+    "defaultvalue": 0,
+    "displayName": "Trap Work!",
+    "hidden": 0,
+    "description": "Enemy was trapped",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1343130/54d1329080339698505b6e45a01acaeefd5dbaa4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1343130/47426f7ceab0d3ebcc0887033ed2d7e287d804d8.jpg"
+  },
+  {
+    "name": "acm_env_collect",
+    "defaultvalue": 0,
+    "displayName": "Get all on the way",
+    "hidden": 0,
+    "description": "Get an item from the Airdrop",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1343130/d6b0a469395a391923affd5826e9b5468ed8957a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1343130/4f0970b943a31a88c5eaaa9c1ab00a4231e0eb33.jpg"
+  },
+  {
+    "name": "acm_env_destroy",
+    "defaultvalue": 0,
+    "displayName": "Not An Environmentalist",
+    "hidden": 0,
+    "description": "Destroy the environmental items",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1343130/99255e495d96f7739c3864519c4e90617afae592.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1343130/d8f1cd85c1ccceb96139d94aac85641d390a56e0.jpg"
+  },
+  {
+    "name": "acm_use_dig",
+    "defaultvalue": 0,
+    "displayName": "Digger",
+    "hidden": 0,
+    "description": "Dig a block",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1343130/3493eb5ab82a433095bf1e1469e86d75f648b202.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1343130/b499559ab12aaa140f3182903e04bced3d560541.jpg"
+  },
+  {
+    "name": "acm_use_action",
+    "defaultvalue": 0,
+    "displayName": "Use Item",
+    "hidden": 0,
+    "description": "Use any Item",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1343130/27139ded3ca9bb9e6a0e942b78f1868b0ebe6494.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1343130/34dd64a9286f0a1ee4d2e92faca2541eaa5ea680.jpg"
+  },
+  {
+    "name": "acm_use_ability",
+    "defaultvalue": 0,
+    "displayName": "Use Ability",
+    "hidden": 0,
+    "description": "Use any Ability",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1343130/ad1d3938c8088c1c57a8471e099ad7d99e170c0a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1343130/7966a17ac4a9f8dda534fb8d3900f1b86bc7044b.jpg"
+  },
+  {
+    "name": "acm_use_aoe",
+    "defaultvalue": 0,
+    "displayName": "AOE Attack",
+    "hidden": 0,
+    "description": "Attack the enemy with AOE effects",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1343130/3e62d7aff49b0001d71dd39f4238e647ab561550.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1343130/3ac32a74b63d143a17d92caa1cb27f8290cf9068.jpg"
+  },
+  {
+    "name": "acm_use_supply",
+    "defaultvalue": 0,
+    "displayName": "Energized!",
+    "hidden": 0,
+    "description": "Drink water to get more Energy",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1343130/a129d2bae7544dc6f38e6f94ec9de6774de33b26.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1343130/03d17cf6abcb147cfe4b8d10d4c1a77db7ea69dd.jpg"
+  },
+  {
+    "name": "acm_env_hide",
+    "defaultvalue": 0,
+    "displayName": "Stay Frosty",
+    "hidden": 0,
+    "description": "Hide in a bush",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1343130/aec561f8881e5e42eb0db3a6fbb0df9276585981.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1343130/d4d1155a2df8c14d576a4a0be21771e077df14ba.jpg"
+  },
+  {
+    "name": "acm_perfectsurvivor",
+    "defaultvalue": 0,
+    "displayName": "Can't Touch Me",
+    "hidden": 0,
+    "description": "Didn't get any damage in a match",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1343130/0b5a09ea5cbc5510f8e1622e6fc39e5d26ce42fc.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1343130/6081c0f2460bf82ae4db3b58f02d34861ffd8f29.jpg"
+  },
+  {
+    "name": "acm_gact_damage",
+    "defaultvalue": 0,
+    "displayName": "Bad Luck",
+    "hidden": 0,
+    "description": "Getting damage from game events.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1343130/1380f6569aa88060512e13e049d26186034a28eb.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1343130/7ea2891c2a4b4ed9a4997e998e445ec49b170541.jpg"
+  },
+  {
+    "name": "acm_betrapped",
+    "defaultvalue": 0,
+    "displayName": "Trapped",
+    "hidden": 0,
+    "description": "You're trapped",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1343130/bbb3d7461a0aa826273f9896bacc971aea27c379.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1343130/c8732809499b541c1bb1c8f4381b584bcdbd1a1c.jpg"
+  },
+  {
+    "name": "acm_rank_1",
+    "defaultvalue": 0,
+    "displayName": "Silver Rank",
+    "hidden": 0,
+    "description": "Reach Rank Silver",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1343130/d15f78ec2b12035990d623d71b16fa8afb4518ea.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1343130/32ba87c78ee6e65e07635f6f7aaaab4c26371b12.jpg"
+  },
+  {
+    "name": "acm_rank_2",
+    "defaultvalue": 0,
+    "displayName": "Gold Rank",
+    "hidden": 0,
+    "description": "Reach Rank Gold",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1343130/24d20e413820eebd53f1f2d2dee9f63208e61e50.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1343130/3474cab2ce38eb1bad76cc64794eaf2ab1e0e531.jpg"
+  },
+  {
+    "name": "acm_rank_3",
+    "defaultvalue": 0,
+    "displayName": "Platinum Rank",
+    "hidden": 0,
+    "description": "Reach Rank Platinum",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1343130/ee3a310c84a0d7705f4d7be0c90574fcf5a4bc37.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1343130/81120861beee72247517cd816a29a27a46ca8063.jpg"
+  },
+  {
+    "name": "acm_rank_4",
+    "defaultvalue": 0,
+    "displayName": "Diamond Rank",
+    "hidden": 0,
+    "description": "Reach Rank Diamond",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1343130/f851201fda6073b06e247bef163c6ebb8998da09.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1343130/fd6da95c95f3709e845b83ae3c140963eb670ccf.jpg"
+  },
+  {
+    "name": "acm_rank_5",
+    "defaultvalue": 0,
+    "displayName": "Master Rank",
+    "hidden": 0,
+    "description": "Reach Rank Master",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1343130/fbe93781b7734b281baf64569c850aff61cdd89a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1343130/5aa3af7f71a86249124f5f0719f11d52461b238e.jpg"
+  },
+  {
+    "name": "acm_rampage",
+    "defaultvalue": 0,
+    "displayName": "Best Rampage",
+    "hidden": 0,
+    "description": "Achieve the highest Rampage Points",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1343130/b0d3153d865966d77810be47c6aafc986fb21e5f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1343130/5fbaccb02a91614f844d155475f4852c08a8cc20.jpg"
+  },
+  {
+    "name": "acm_gacha_gift",
+    "defaultvalue": 0,
+    "displayName": "Congratulations!",
+    "hidden": 0,
+    "description": "Open Rampage Chest",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1343130/fc9d7f762363e5d2cd49aa53b27d7fc9dbf0490b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1343130/78f1648ef31423422362ffc59097419391544e5e.jpg"
+  },
+  {
+    "name": "acm_playerlv",
+    "defaultvalue": 0,
+    "displayName": "Skill Matters",
+    "hidden": 0,
+    "description": "Player Level-up!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1343130/bff05a048f89444f703fe8f0bba0573149f4ada6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1343130/fea1d890110bb1ddb0217699c87912337f76719d.jpg"
+  },
+  {
+    "name": "acm_character",
+    "defaultvalue": 0,
+    "displayName": "New Champions",
+    "hidden": 0,
+    "description": "Unlock New Champion",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1343130/13c62a1af8a7239d87de2a934a76dc7ef738904c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1343130/ed37f9dafd330749dd120d1e736f641b5df1cd0a.jpg"
+  },
+  {
+    "name": "acm_ability_full",
+    "defaultvalue": 0,
+    "displayName": "Mastery Is Me!",
+    "hidden": 0,
+    "description": "Unlock Full Abilities",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1343130/f2c9b0b81b0e54a6a4e2353860c663c054eadce1.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1343130/cb5641bba6b938e973e38840b9c9bbe0a90ff846.jpg"
+  },
+  {
+    "name": "acm_character_lv3",
+    "defaultvalue": 0,
+    "displayName": "Champion Reach level 3",
+    "hidden": 0,
+    "description": "Champion Reach level 3",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1343130/5f390d75081a7d4dfeca5505b5a5ef0d9d5dfda3.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1343130/2039e6a56846995aae7731d2a35500de040b86a1.jpg"
+  },
+  {
+    "name": "acm_character_lv5",
+    "defaultvalue": 0,
+    "displayName": "Champion Reach level 5",
+    "hidden": 0,
+    "description": "Champion Reach level 5",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1343130/5f390d75081a7d4dfeca5505b5a5ef0d9d5dfda3.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1343130/2039e6a56846995aae7731d2a35500de040b86a1.jpg"
+  },
+  {
+    "name": "acm_character_lv10",
+    "defaultvalue": 0,
+    "displayName": "Champion Reach Max Level",
+    "hidden": 0,
+    "description": "Champion Reach level 10",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1343130/1091b80e219308b8461d0992dd9758d693402a78.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1343130/0d9b79eb239849ae1ee497c597a43568658d7787.jpg"
+  },
+  {
+    "name": "acm_costume_skin",
+    "defaultvalue": 0,
+    "displayName": "Dress Up!",
+    "hidden": 0,
+    "description": "Unlock new skin",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1343130/cb64e081ceccf5ee54215eaec37c5a770dfea527.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1343130/04b1e197a5cd5eef8021aa39ffcfaa43f203435c.jpg"
+  },
+  {
+    "name": "acm_costume_accessory",
+    "defaultvalue": 0,
+    "displayName": "Accessories Are Necessary",
+    "hidden": 0,
+    "description": "Unlock new accessory",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1343130/17b572aaa5fd6d20e3079537b49543ce3f088852.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1343130/b77114aedb4c6fd34f4339b61867c59f8c0264db.jpg"
+  },
+  {
+    "name": "acm_costumeEquip",
+    "defaultvalue": 0,
+    "displayName": "Cool!",
+    "hidden": 0,
+    "description": "Equip new costume",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1343130/d81b0f7cba2c97f8661419d4be962ae6e13f2440.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1343130/bab53cc6e0628e90b47cf6e53f73fc8ccf5c2de3.jpg"
+  },
+  {
+    "name": "acm_gacha_sachet",
+    "defaultvalue": 0,
+    "displayName": "Fashionista",
+    "hidden": 0,
+    "description": "Open Sachet",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1343130/b47fca13bdce7d5d3d2ae640d01fda1f60243491.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1343130/c1822edfe8c44307f2ac92e4856aa85bf07aaa24.jpg"
+  },
+  {
+    "name": "acm_get_coin",
+    "defaultvalue": 0,
+    "displayName": "Coin Collector",
+    "hidden": 0,
+    "description": "Get Coin",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1343130/af12c862f45ae8a020d46df389e79590254c0124.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1343130/b52d8ea615b3b03506c41b7d4c9f1ccd5c384696.jpg"
+  },
+  {
+    "name": "acm_get_gem",
+    "defaultvalue": 0,
+    "displayName": "Gem Collector",
+    "hidden": 0,
+    "description": "Get Gem",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1343130/3c512274219e0a4db2261d3106bbafceb14a9f11.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1343130/2b90803fc90d9802f9f1ed67be53e6632f7baad5.jpg"
+  },
+  {
+    "name": "acm_get_jigsaw",
+    "defaultvalue": 0,
+    "displayName": "Jigsaw Collector",
+    "hidden": 0,
+    "description": "Get Jigsaw",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1343130/b519a964a19875c7437e7eb1c2d1048e5979556c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1343130/60bf1c25f57506a850ed0edcc12c70ed61f6e68e.jpg"
+  },
+  {
+    "name": "acm_mission",
+    "defaultvalue": 0,
+    "displayName": "Mission Completed",
+    "hidden": 0,
+    "description": "Complete the Mission",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1343130/4e9cf651e75b342a4f867d9f1761ff90e35eb7ea.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1343130/fb9ad326f0cd9e69f99bac6fe773e0b3f565393b.jpg"
+  },
+  {
+    "name": "acm_blessing",
+    "defaultvalue": 0,
+    "displayName": "Be Blessed!",
+    "hidden": 0,
+    "description": "Use Blessing Bonus",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1343130/3da4b0bf52b9e2f7fc79576f0a51c2e89234dd91.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1343130/77ae6781619c90e7c05a62724405d355ad835f9b.jpg"
+  },
+  {
+    "name": "acm_spend_coin",
+    "defaultvalue": 0,
+    "displayName": "Coin Spender",
+    "hidden": 0,
+    "description": "Spend Coin",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1343130/c2b3cb7e5f3753859d06cdb67aed46794227b2c9.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1343130/cff8c79696ec821ea9e85b1f78c2a041ae354d23.jpg"
+  },
+  {
+    "name": "acm_spend_gem",
+    "defaultvalue": 0,
+    "displayName": "Gem Spender",
+    "hidden": 0,
+    "description": "Spend Gem",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1343130/06ed08abbf346766878d555165fa1bd13e57edc3.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1343130/0d5e8dc95e9aca692e946f74fdac3fe28ccd0b64.jpg"
+  },
+  {
+    "name": "acm_spend_jigsaw",
+    "defaultvalue": 0,
+    "displayName": "Jigsaw Spender",
+    "hidden": 0,
+    "description": "Spend Jigsaw",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1343130/98c67ab23dc0268910e91aa25df4de24d0f97ef1.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1343130/9df086cb91fa697765168cc859bcb329e705666c.jpg"
+  },
+  {
+    "name": "acm_exchange",
+    "defaultvalue": 0,
+    "displayName": "Trader",
+    "hidden": 0,
+    "description": "Exchange items",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1343130/11f677223132574969ce221824cce9cbdbd3556b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1343130/3537704b3badad615fb97b24becafe39fb7ee5a9.jpg"
+  },
+  {
+    "name": "acm_buypocket",
+    "defaultvalue": 0,
+    "displayName": "Safety First",
+    "hidden": 0,
+    "description": "Bring Pocket Items to fight",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1343130/2d5e0bfd2716f82e35d7af87be14dfef131e074a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1343130/a17bebd9c8b3042d97b2694598d6eb53dc0d311a.jpg"
+  },
+  {
+    "name": "acm_addfriend",
+    "defaultvalue": 0,
+    "displayName": "Team up!",
+    "hidden": 0,
+    "description": "Add a friend",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1343130/30758c8cde7f8115faa552adffadd363df05e694.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1343130/ee79502c529ea7371e5c3e3979233d6f270c587c.jpg"
+  },
+  {
+    "name": "acm_playprivate",
+    "defaultvalue": 0,
+    "displayName": "This Is A Playground!",
+    "hidden": 0,
+    "description": "Play with friend",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1343130/9e159817f521f2aac55b2509f382414a1391d40a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1343130/846a5320efd8718e351fa4606ff75b23d65d5684.jpg"
+  }
+]

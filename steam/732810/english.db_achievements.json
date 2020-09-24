@@ -1,0 +1,242 @@
+﻿[
+  {
+    "name": "ARCADE_FINISH",
+    "defaultvalue": 0,
+    "displayName": "Day Tripper",
+    "hidden": 0,
+    "description": "Get to the finish line in Arcade Mode.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/732810/4a0dae2467def2e1c5030a619fb5f0b26561c22d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/732810/803af9a3043bbb9d7485b7e242976e71faeb7730.jpg"
+  },
+  {
+    "name": "ARCADE_EXITS",
+    "defaultvalue": 0,
+    "displayName": "Five Nights",
+    "hidden": 0,
+    "description": "Get to all the exits in Arcade Mode.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/732810/4a0dae2467def2e1c5030a619fb5f0b26561c22d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/732810/0c0e56b0853ddd1f64109e27dec110d74834bba1.jpg"
+  },
+  {
+    "name": "ARCADE_TRACKS",
+    "defaultvalue": 0,
+    "displayName": "Grand Touring",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/732810/4a0dae2467def2e1c5030a619fb5f0b26561c22d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/732810/803af9a3043bbb9d7485b7e242976e71faeb7730.jpg"
+  },
+  {
+    "name": "ARCADE_PERFECT",
+    "defaultvalue": 0,
+    "displayName": "Highway Star",
+    "hidden": 0,
+    "description": "Defeat all the rivals in a single Arcade Mode run.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/732810/4a0dae2467def2e1c5030a619fb5f0b26561c22d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/732810/803af9a3043bbb9d7485b7e242976e71faeb7730.jpg"
+  },
+  {
+    "name": "ARCADE_ROUTES",
+    "defaultvalue": 0,
+    "displayName": "No Road Not Taken",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/732810/4a0dae2467def2e1c5030a619fb5f0b26561c22d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/732810/803af9a3043bbb9d7485b7e242976e71faeb7730.jpg"
+  },
+  {
+    "name": "ARCADE_PLATINUM",
+    "defaultvalue": 0,
+    "displayName": "Perfectionist I",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/732810/4a0dae2467def2e1c5030a619fb5f0b26561c22d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/732810/803af9a3043bbb9d7485b7e242976e71faeb7730.jpg"
+  },
+  {
+    "name": "GRANDPRIX_CUP1",
+    "defaultvalue": 0,
+    "displayName": "Ruby Cup",
+    "hidden": 0,
+    "description": "Win the Ruby Cup.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/732810/9eda68b8c39f27d88da20974a7f75dc156372014.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/732810/803af9a3043bbb9d7485b7e242976e71faeb7730.jpg"
+  },
+  {
+    "name": "GRANDPRIX_CUP2",
+    "defaultvalue": 0,
+    "displayName": "Sapphire Cup",
+    "hidden": 0,
+    "description": "Win the Sapphire Cup.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/732810/69aa03bd46246af17d529e3e01cc53899a82bb47.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/732810/803af9a3043bbb9d7485b7e242976e71faeb7730.jpg"
+  },
+  {
+    "name": "GRANDPRIX_CUP3",
+    "defaultvalue": 0,
+    "displayName": "Emerald Cup",
+    "hidden": 0,
+    "description": "Win the Emerald Cup.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/732810/c490fa27db9a9af661e588ff9f0fd5a3a047cadc.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/732810/803af9a3043bbb9d7485b7e242976e71faeb7730.jpg"
+  },
+  {
+    "name": "GRANDPRIX_CUP4",
+    "defaultvalue": 0,
+    "displayName": "Diamond Cup",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/732810/6827bb411296af58d152ae57585e7edf0b7937a5.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/732810/803af9a3043bbb9d7485b7e242976e71faeb7730.jpg"
+  },
+  {
+    "name": "GRANDPRIX_PERFECT",
+    "defaultvalue": 0,
+    "displayName": "Invincible",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/732810/4a0dae2467def2e1c5030a619fb5f0b26561c22d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/732810/803af9a3043bbb9d7485b7e242976e71faeb7730.jpg"
+  },
+  {
+    "name": "GRANDPRIX_PLATINUM",
+    "defaultvalue": 0,
+    "displayName": "Perfectionist II",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/732810/4a0dae2467def2e1c5030a619fb5f0b26561c22d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/732810/803af9a3043bbb9d7485b7e242976e71faeb7730.jpg"
+  },
+  {
+    "name": "MISC_RIVALS",
+    "defaultvalue": 0,
+    "displayName": "Unrivaled",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/732810/4a0dae2467def2e1c5030a619fb5f0b26561c22d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/732810/803af9a3043bbb9d7485b7e242976e71faeb7730.jpg"
+  },
+  {
+    "name": "MISC_ALLCARS",
+    "defaultvalue": 0,
+    "displayName": "Versatile",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/732810/4a0dae2467def2e1c5030a619fb5f0b26561c22d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/732810/0c0e56b0853ddd1f64109e27dec110d74834bba1.jpg"
+  },
+  {
+    "name": "MISC_SLIPSTREAM",
+    "defaultvalue": 0,
+    "displayName": "Supersonic",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/732810/4a0dae2467def2e1c5030a619fb5f0b26561c22d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/732810/803af9a3043bbb9d7485b7e242976e71faeb7730.jpg"
+  },
+  {
+    "name": "MISC_NOUPGRADES",
+    "defaultvalue": 0,
+    "displayName": "Minimalist",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/732810/4a0dae2467def2e1c5030a619fb5f0b26561c22d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/732810/803af9a3043bbb9d7485b7e242976e71faeb7730.jpg"
+  },
+  {
+    "name": "MISC_NOTOUCHING",
+    "defaultvalue": 0,
+    "displayName": "Intangible",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/732810/4a0dae2467def2e1c5030a619fb5f0b26561c22d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/732810/803af9a3043bbb9d7485b7e242976e71faeb7730.jpg"
+  },
+  {
+    "name": "MISC_PLATINUM",
+    "defaultvalue": 0,
+    "displayName": "Perfectionist III",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/732810/4a0dae2467def2e1c5030a619fb5f0b26561c22d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/732810/803af9a3043bbb9d7485b7e242976e71faeb7730.jpg"
+  },
+  {
+    "name": "CHAR_CAMILLA",
+    "defaultvalue": 0,
+    "displayName": "Translucent Black Capes",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/732810/fa5e52928be6a6033f2da57c7a1dc74b147ea616.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/732810/0c0e56b0853ddd1f64109e27dec110d74834bba1.jpg"
+  },
+  {
+    "name": "CHAR_TOFUBOY",
+    "defaultvalue": 0,
+    "displayName": "Deja Vu",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/732810/57353f8a50f38f83bc7f6bc76b91353816abf58f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/732810/803af9a3043bbb9d7485b7e242976e71faeb7730.jpg"
+  },
+  {
+    "name": "CANNONBALL_WIN",
+    "defaultvalue": 0,
+    "displayName": "Trophy Dash",
+    "hidden": 0,
+    "description": "Win a cannonball race of 5 or more tracks.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/732810/4a0dae2467def2e1c5030a619fb5f0b26561c22d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/732810/803af9a3043bbb9d7485b7e242976e71faeb7730.jpg"
+  },
+  {
+    "name": "CANNONBALL_RIVALS",
+    "defaultvalue": 0,
+    "displayName": "Unchallenged",
+    "hidden": 0,
+    "description": "Defeat all the rivals in a cannonball race of 5 or more tracks.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/732810/4a0dae2467def2e1c5030a619fb5f0b26561c22d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/732810/803af9a3043bbb9d7485b7e242976e71faeb7730.jpg"
+  },
+  {
+    "name": "CANNONBALL_ENDURANCE",
+    "defaultvalue": 0,
+    "displayName": "Endurance Rally",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/732810/4a0dae2467def2e1c5030a619fb5f0b26561c22d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/732810/803af9a3043bbb9d7485b7e242976e71faeb7730.jpg"
+  },
+  {
+    "name": "CANNONBALL_NIGHTS",
+    "defaultvalue": 0,
+    "displayName": "All Night Long",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/732810/4a0dae2467def2e1c5030a619fb5f0b26561c22d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/732810/803af9a3043bbb9d7485b7e242976e71faeb7730.jpg"
+  },
+  {
+    "name": "CANNONBALL_SECRET",
+    "defaultvalue": 0,
+    "displayName": "Full of Secrets",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/732810/4a0dae2467def2e1c5030a619fb5f0b26561c22d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/732810/803af9a3043bbb9d7485b7e242976e71faeb7730.jpg"
+  },
+  {
+    "name": "ROYALE_WIN",
+    "defaultvalue": 0,
+    "displayName": "Chicken Dinner",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/732810/4a0dae2467def2e1c5030a619fb5f0b26561c22d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/732810/803af9a3043bbb9d7485b7e242976e71faeb7730.jpg"
+  },
+  {
+    "name": "CHAR_NORMAN",
+    "defaultvalue": 0,
+    "displayName": "The Joy of Racing",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/732810/404fe3f266b75c86a1ee4eb2841e8e1fa0005515.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/732810/803af9a3043bbb9d7485b7e242976e71faeb7730.jpg"
+  },
+  {
+    "name": "CHAR_ALEX",
+    "defaultvalue": 0,
+    "displayName": "Nothing Personal",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/732810/08b6ce031c1b0fec23e11b82add57edbfdafd142.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/732810/803af9a3043bbb9d7485b7e242976e71faeb7730.jpg"
+  },
+  {
+    "name": "CHAR_DAVID",
+    "defaultvalue": 0,
+    "displayName": "Wall Street Racing",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/732810/935771e9fcddeca174221932170becd5bb26dad9.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/732810/803af9a3043bbb9d7485b7e242976e71faeb7730.jpg"
+  }
+]

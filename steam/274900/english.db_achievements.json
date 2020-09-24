@@ -1,0 +1,173 @@
+[
+  {
+    "name": "ACH_WINS",
+    "defaultvalue": 0,
+    "displayName": "Big Winner",
+    "hidden": 0,
+    "description": "Win 10 Games",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/274900/dabc29f174152ecdec7c656e44646992d9454d5f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/274900/6f713ae481203894a45777feca34c5920c8be372.jpg"
+  },
+  {
+    "name": "ach_zombie_kills",
+    "defaultvalue": 0,
+    "displayName": "Kill 50 AI Zombies",
+    "hidden": 0,
+    "description": "Kill 50 AI Zombies",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/274900/5a7792eb830a08e18ef531b1672003af98724f34.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/274900/14d45a4ac4c0c194a90842789380782d21810915.jpg"
+  },
+  {
+    "name": "ach_human_multikill_2",
+    "defaultvalue": 0,
+    "displayName": "Double Murder",
+    "hidden": 0,
+    "description": "Get a +2 against humans in a 6+ player game",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/274900/540f7f78721c0d35a3c2139527cab4d832c90277.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/274900/1827ec5749991bb327b8596a6faaae331532f847.jpg"
+  },
+  {
+    "name": "ach_human_multikill_4",
+    "defaultvalue": 0,
+    "displayName": "Murder Massacre",
+    "hidden": 0,
+    "description": "Get a +4 against humans in a 6+ player game",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/274900/56c8add83eb60ecbbcf10134db4de8ee0e74bbf0.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/274900/070520ff0ee45258405e8ba4ef024964c20490f1.jpg"
+  },
+  {
+    "name": "ach_human_multikill_8",
+    "defaultvalue": 0,
+    "displayName": "You cheated...Excellent",
+    "hidden": 0,
+    "description": "Get a +8 against humans in a 6+ player game",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/274900/add1b3102f616221ddb1df10a818687211b0ce87.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/274900/d7742617572295724c787920ae3fa8db5ee396ae.jpg"
+  },
+  {
+    "name": "ach_zombie_multikill_20",
+    "defaultvalue": 0,
+    "displayName": "Zombicide",
+    "hidden": 0,
+    "description": "Get a +20 in Survival Mode",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/274900/8a28e01f7de66406d31d81db312fcdaf5c83d7d6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/274900/1cac8dfc3802f4a189e46e3a565f36417e3e6870.jpg"
+  },
+  {
+    "name": "ach_flag_cap",
+    "defaultvalue": 0,
+    "displayName": "Murder The Flag",
+    "hidden": 0,
+    "description": "Murder the flag in a 6+ player game",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/274900/eed3c1657994f98d87f9ee3a893da44ec28cacc0.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/274900/c7aef5130badac8834fd0b6ae5d41203edbc00a2.jpg"
+  },
+  {
+    "name": "ach_last_man_standing1",
+    "defaultvalue": 0,
+    "displayName": "Sole Survivor",
+    "hidden": 0,
+    "description": "Be the last human alive in a 6+ infection game",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/274900/e1b716fda3a0925e4f6381d921137f1f9d529f19.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/274900/3b91ecc48ee33d0e8512cde18546838fa7a0213f.jpg"
+  },
+  {
+    "name": "ach_win_infection",
+    "defaultvalue": 0,
+    "displayName": "Infection Champ",
+    "hidden": 0,
+    "description": "Win Infection with 6+ players",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/274900/2df554186bba038ee74f02ec8977b1d87b4e29f0.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/274900/d010debb138fe80a97830ad1732ceb047261aa75.jpg"
+  },
+  {
+    "name": "ach_win_ffa",
+    "defaultvalue": 0,
+    "displayName": "Murder Match Champ",
+    "hidden": 0,
+    "description": "Win Free For All with 6+ players",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/274900/5653900e6839faee85f31da120e22761a87a6e1b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/274900/0ec770d065c6ab762f91603ecce15f0f1456029a.jpg"
+  },
+  {
+    "name": "ach_sniper_double",
+    "defaultvalue": 0,
+    "displayName": "Double Penetration",
+    "hidden": 0,
+    "description": "Get 2 human headshots with a single sniper shot in a 6+ player game",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/274900/6ebc0845c8d421a7cb9f16b7e32c1c90f93b223c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/274900/e063b1e8f462ee6ea9c4b799ef9bca2cc6080b92.jpg"
+  },
+  {
+    "name": "ach_multikill_as_zombie_2",
+    "defaultvalue": 0,
+    "displayName": "Alpha Infector",
+    "hidden": 0,
+    "description": "Get a +2 as a zombie in a 6+ player game",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/274900/835e3c4fae442368fe712592a91ff8d275f8386f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/274900/1bdd3000f8b0087c08daa4539b7421e4844879fd.jpg"
+  },
+  {
+    "name": "ach_zombie_level_10",
+    "defaultvalue": 0,
+    "displayName": "Big Time Zombie",
+    "hidden": 0,
+    "description": "Reach level 10 as a Zombie in a 6+ player game",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/274900/c35fe959923d12d60b59dc5e8a67de0b61846d46.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/274900/03a948dbca9c7a7069490049db3746d8b6b172e4.jpg"
+  },
+  {
+    "name": "ach_blocks_placed_1000",
+    "defaultvalue": 0,
+    "displayName": "Big Time Builder",
+    "hidden": 0,
+    "description": "Placed 1000 Individual Blocks with the Miner Gun",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/274900/cc698cf5fd7280da668060a61dc21ab23fc9bdc8.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/274900/9e9dc84dd2b5cf99a9683083ce9225d34a7c6096.jpg"
+  },
+  {
+    "name": "ach_blocks_destroyed_zombie_100",
+    "defaultvalue": 0,
+    "displayName": "They Can Run But They Can't Hide",
+    "hidden": 0,
+    "description": "Destory 100 blocks as a zombie in a 6+ player game",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/274900/524745e81756990a1d25eed39693a9a7fe511644.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/274900/d9384656f831aa85b36264f3917568edf63dec2d.jpg"
+  },
+  {
+    "name": "ach_zombie_human_grab_5",
+    "defaultvalue": 0,
+    "displayName": "Get Over Here!",
+    "hidden": 0,
+    "description": "Grab 5 Humans as a Zombie in a 6+ player game",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/274900/0f86a9632dfda9bfff7f09635997fc3f723f607a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/274900/f3838931da027c0d9a4d2e9e223fb4e49e59f837.jpg"
+  },
+  {
+    "name": "ach_minergun_kills_50",
+    "defaultvalue": 0,
+    "displayName": "Ain't Called 'Gun' For Nothing",
+    "hidden": 0,
+    "description": "Get 50 total Minergun kills in games with 6+ players",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/274900/0e20695398b34e3be3c636e90dfe0c8de596cd4d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/274900/4dbb6ad0abd919369f1f7e24de2fc3dbcdfdf6c1.jpg"
+  },
+  {
+    "name": "ach_bike_kills_10",
+    "defaultvalue": 0,
+    "displayName": "Murderbike Mogul",
+    "hidden": 0,
+    "description": "Get 10 total kills with the Murderbike",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/274900/26800a46a8805c63d4c805fb648093cabb15a11f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/274900/7225f7f9ab7e625d8eba9013552156861fea8761.jpg"
+  },
+  {
+    "name": "ach_spat_on",
+    "defaultvalue": 0,
+    "displayName": "SPIT ON HIM!",
+    "hidden": 0,
+    "description": "Cast your holy spittle on 10 filthy nonbelievers.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/274900/50e40ce39a6ab3c6f0d344a0d544eb3778d38371.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/274900/af58455930fdefd0903e1d64ae4b7843cf2a0300.jpg"
+  }
+]

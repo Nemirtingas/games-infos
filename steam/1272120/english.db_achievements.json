@@ -1,0 +1,128 @@
+[
+  {
+    "name": "ACHIEVEMENT_BEGINNER",
+    "defaultvalue": 0,
+    "displayName": "Beginner",
+    "hidden": 0,
+    "description": "5000 scores",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1272120/a737a06079cf87a4ea6271b8d675ba399de3744e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1272120/ac57b680be30cd913f4045b2862d6bd1870006d9.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_MASTER",
+    "defaultvalue": 0,
+    "displayName": "Master",
+    "hidden": 0,
+    "description": "10000 scores",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1272120/1faa3cc63fef9b9fc654414f185c099870a07e2f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1272120/174c77b3584de42ae3d01c0f1463ba9358bceaa3.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_FIRSTBOSS",
+    "defaultvalue": 0,
+    "displayName": "Come to daddy",
+    "hidden": 0,
+    "description": "Kill first boss",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1272120/48a65b8243d37028df822bd938a3f0308e25213a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1272120/543c03ff70ff9669c4ae7d1d55402e9cd160a8aa.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_SECONDBOSS",
+    "defaultvalue": 0,
+    "displayName": "Who is next?",
+    "hidden": 0,
+    "description": "Kill second boss",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1272120/b63504c04755f57a9e0e6fb82c64b9ce9ea95cf8.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1272120/0202400ad8903347c442ffca69272065ea1f7096.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_THIRDBOSS",
+    "defaultvalue": 0,
+    "displayName": "It was easy",
+    "hidden": 0,
+    "description": "Kill third boss",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1272120/df84cfd1bb23fab0ee1249bb5da7a508f84cfefe.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1272120/7a71cf861431315d39c9c868e7b844166e240716.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_FOURTBOSS",
+    "defaultvalue": 0,
+    "displayName": "Almost winner",
+    "hidden": 0,
+    "description": "Kill fourth boss",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1272120/142894df0abe0e9548b8b7ea3be02ec881669d35.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1272120/67b2d04c50c16472e3f3ad5d2176f19f44a74d7e.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_STARTTHEEND",
+    "defaultvalue": 0,
+    "displayName": "This is the end",
+    "hidden": 0,
+    "description": "2 min Endless remained",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1272120/eb340528ef38a9b95ecaaf2d024ea8013dd8d35d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1272120/dab2c601d95c58bfdf5ef297b84a385b76751afa.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_INFINITY",
+    "defaultvalue": 0,
+    "displayName": "Infinity and beyond",
+    "hidden": 0,
+    "description": "5 min Endless remained",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1272120/91d1f22dfef2afc5a0dc4e0bcc8d0358def12ca7.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1272120/d36d8cab69d2b9afb5307cd57617ab44afce1ae2.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_HARDCOMPLETE",
+    "defaultvalue": 0,
+    "displayName": "What you are",
+    "hidden": 0,
+    "description": "Complete game in hard mode",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1272120/c5b9f479f2be62163aa418729ee5e40e6cdd4085.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1272120/46325424acf83d4e41e48bece5bf7b3ebdd045ec.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_LUCKY",
+    "defaultvalue": 0,
+    "displayName": "Lucky",
+    "hidden": 0,
+    "description": "Collect 50 bonuses for a one chapter",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1272120/96791fb77dac83b614ec799f8e98275ee0ee08c2.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1272120/26a7033da18df84f352056c889ce6b2a10bb53a2.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_MOREBLOCKS",
+    "defaultvalue": 0,
+    "displayName": "Need more Blocks",
+    "hidden": 0,
+    "description": "Destroy 100 blocks",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1272120/f4fbe7398b60e8c72da24e1c50bf2d08d503d071.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1272120/7cd32bbac568a82bbe3a9f0ce026f6fe6aa313bb.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_DEVASTATOR",
+    "defaultvalue": 0,
+    "displayName": "Devastator ",
+    "hidden": 0,
+    "description": "20000 Scores",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1272120/e1afd69267a7bec56e21e3b8e7b66d1cc640352f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1272120/4346593bcc23bcdc750c3f6fa4180285eab01f2d.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_ENDLESS",
+    "defaultvalue": 0,
+    "displayName": "Endless",
+    "hidden": 0,
+    "description": "10 min Endless remained",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1272120/4c43cdf8f5f3111f05cdcf7f807273a3a5537bcb.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1272120/cc6d955a33b34a7baea4dfa2e9a3fa4aa6f7f427.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_SUICIDE",
+    "defaultvalue": 0,
+    "displayName": "Endless Suicide",
+    "hidden": 0,
+    "description": "20 min Endless remained",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1272120/701e097e46ed8c79b21a91f8fd1decff5110893a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1272120/14cb13fcde2e0f3a7cbe12946a8b28efa4a9ff0e.jpg"
+  }
+]

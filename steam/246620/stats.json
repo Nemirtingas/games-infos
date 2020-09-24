@@ -1,0 +1,2078 @@
+﻿{
+  "SkillValue": {
+    "description": "SkillValue",
+    "value": 300
+  },
+  "GENE_arid_bonus": {
+    "description": "Xerophile",
+    "value": 0
+  },
+  "GENE_humid_bonus": {
+    "description": "Hydrophile",
+    "value": 0
+  },
+  "GENE_rural_bonus": {
+    "description": "Rurophile",
+    "value": 0
+  },
+  "GENE_urban_bonus": {
+    "description": "Urbophile",
+    "value": 0
+  },
+  "GENE_resiliance": {
+    "description": "Extremophile",
+    "value": 0
+  },
+  "GENE_mutation_bonus": {
+    "description": "Darwinist",
+    "value": 0
+  },
+  "GENE_mutation_limit": {
+    "description": "Creationist",
+    "value": 0
+  },
+  "GENE_genetic_mimic": {
+    "description": "Genetic Mimic",
+    "value": 0
+  },
+  "GENE_transmission_mutation": {
+    "description": "Base Oxidisation",
+    "value": 0
+  },
+  "GENE_ability_mutation": {
+    "description": "Base Hydrolysis",
+    "value": 0
+  },
+  "GENE_bonus_dna": {
+    "description": "ATP Boost",
+    "value": 0
+  },
+  "GENE_orange_dna": {
+    "description": "Cytochrome Surge",
+    "value": 0
+  },
+  "GENE_red_dna": {
+    "description": "Metabolic Jump",
+    "value": 0
+  },
+  "GENE_blue_dna": {
+    "description": "Catalytics Switch",
+    "value": 0
+  },
+  "GENE_auto_pop": {
+    "description": "Metabolic Hijack",
+    "value": 0
+  },
+  "GENE_land_bonus": {
+    "description": "Teracyte",
+    "value": 0
+  },
+  "GENE_air_bonus": {
+    "description": "Aerocyte",
+    "value": 0
+  },
+  "GENE_sea_bonus": {
+    "description": "Aquacyte",
+    "value": 0
+  },
+  "GENE_border_breaker": {
+    "description": "Suppression",
+    "value": 0
+  },
+  "GENE_home_advantage": {
+    "description": "Native Biome",
+    "value": 0
+  },
+  "GENE_devolver": {
+    "description": "Ionised Helix",
+    "value": 0
+  },
+  "GENE_static_devolve": {
+    "description": "Translesion +",
+    "value": 0
+  },
+  "GENE_static_symptoms": {
+    "description": "Sympto-Stasis",
+    "value": 0
+  },
+  "GENE_static_abilities": {
+    "description": "Patho-Stasis",
+    "value": 0
+  },
+  "GENE_static_transmission": {
+    "description": "Trans-Stasis",
+    "value": 0
+  },
+  "GENE_zday_dead_increase": {
+    "description": "Cytopathic Boost",
+    "value": 0
+  },
+  "GENE_less_z_decay": {
+    "description": "Autolytic Reduction",
+    "value": 0
+  },
+  "GENE_less_hot_decay": {
+    "description": "ThermoNecro",
+    "value": 0
+  },
+  "GENE_z_conversion": {
+    "description": "Dopamine Inhibitor",
+    "value": 0
+  },
+  "GENE_cheaper_aa": {
+    "description": "Spliced Activation",
+    "value": 0
+  },
+  "COMPLETION_BACTERIA": {
+    "description": "Completed Bacteria",
+    "value": 0
+  },
+  "COMPLETION_VIRUS": {
+    "description": "Completed Virus",
+    "value": 0
+  },
+  "COMPLETION_FUNGUS": {
+    "description": "Completed Fungus",
+    "value": 0
+  },
+  "COMPLETION_PARASITE": {
+    "description": "Completed Parasite",
+    "value": 0
+  },
+  "COMPLETION_PRION": {
+    "description": "Completed Prion",
+    "value": 0
+  },
+  "COMPLETION_NANO_VIRUS": {
+    "description": "Completed Nano-virus",
+    "value": 0
+  },
+  "COMPLETION_BIO_WEAPON": {
+    "description": "Completed Bio-weapon",
+    "value": 0
+  },
+  "COMPLETION_NEURAX": {
+    "description": "Completed Neurax",
+    "value": 0
+  },
+  "COMPLETION_NECROA": {
+    "description": "Completed Necroa",
+    "value": 0
+  },
+  "UNLOCK_VIRUS": {
+    "description": "Unlocked Virus",
+    "value": 0
+  },
+  "UNLOCK_FUNGUS": {
+    "description": "Unlocked Fungus",
+    "value": 0
+  },
+  "UNLOCK_PARASITE": {
+    "description": "Unlocked Parasite",
+    "value": 0
+  },
+  "UNLOCK_PRION": {
+    "description": "Unlocked Prion",
+    "value": 0
+  },
+  "UNLOCK_NANO_VIRUS": {
+    "description": "Unlocked Nano Virus",
+    "value": 0
+  },
+  "UNLOCK_BIO_WEAPON": {
+    "description": "Unlocked Bio Weapon",
+    "value": 0
+  },
+  "UNLOCK_NEURAX": {
+    "description": "Unlocked Neurax",
+    "value": 0
+  },
+  "UNLOCK_NECROA": {
+    "description": "Unlocked Necroa",
+    "value": 0
+  },
+  "UNLOCK_black_death": {
+    "description": "Unlocked Scenario Black Death",
+    "value": 0
+  },
+  "UNLOCK_created_equal": {
+    "description": "Unlocked Scenario Created Equal",
+    "value": 0
+  },
+  "UNLOCK_global_warming": {
+    "description": "Unlocked Scenario Global Warming",
+    "value": 0
+  },
+  "UNLOCK_golden_age": {
+    "description": "Unlocked Scenario Golden Age",
+    "value": 0
+  },
+  "UNLOCK_ice_age": {
+    "description": "Unlocked Scenario Ice Age",
+    "value": 0
+  },
+  "UNLOCK_mirror_earth": {
+    "description": "Unlocked Scenario Mirror Earth",
+    "value": 0
+  },
+  "UNLOCK_pirate_plague": {
+    "description": "Unlocked Scenario Pirate Plague",
+    "value": 0
+  },
+  "UNLOCK_shut_down_everything": {
+    "description": "Unlocked Scenario Shut Down Everything",
+    "value": 0
+  },
+  "UNLOCK_smallpox": {
+    "description": "Unlocked Scenario Smallpox",
+    "value": 0
+  },
+  "UNLOCK_sovereign_default": {
+    "description": "Unlocked Scenario Sovereign Default",
+    "value": 0
+  },
+  "UNLOCK_swine_flu": {
+    "description": "Unlocked Scenario Swine Flu",
+    "value": 0
+  },
+  "UNLOCK_volcanic_ash": {
+    "description": "Unlocked Scenario Volcanic Ash",
+    "value": 0
+  },
+  "UNLOCK_who_cares": {
+    "description": "Unlocked Scenario Who Cares",
+    "value": 0
+  },
+  "UNLOCK_xenophobia": {
+    "description": "Unlocked Scenario Xenophobia",
+    "value": 0
+  },
+  "UNLOCK_artificial_organs": {
+    "description": "Unlocked Scenario Artificial Organs",
+    "value": 0
+  },
+  "UNLOCK_frozen_virus": {
+    "description": "Unlocked Scenario Frozen Virus",
+    "value": 0
+  },
+  "UNLOCK_nipah_virus": {
+    "description": "Unlocked Scenario Nipah Virus",
+    "value": 0
+  },
+  "UNLOCK_unknown_origin": {
+    "description": "Unlocked Scenario Unknown Origin",
+    "value": 0
+  },
+  "A_MegabrutalShuffle_COUNTER": {
+    "description": "Mega-Brutal Shuffle Wins",
+    "value": 0
+  },
+  "A_NormalShuffle_COUNTER": {
+    "description": "Shuffle Wins",
+    "value": 0
+  },
+  "A_LotteryWinner_COUNTER": {
+    "description": "Mega-Brutal Lucky Dip Wins",
+    "value": 0
+  },
+  "A_Bingo_COUNTER": {
+    "description": "Lucky Dip Wins",
+    "value": 0
+  },
+  "GENE_latent_catalyst": {
+    "description": "Latent Catalyst",
+    "value": 0
+  },
+  "GENE_cortisol_sensitivity": {
+    "description": "Cortisol Sensitivity",
+    "value": 0
+  },
+  "GENE_atp_overdose": {
+    "description": "ATP Overdose",
+    "value": 0
+  },
+  "GENE_ion_deficit": {
+    "description": "Ion Deficit",
+    "value": 0
+  },
+  "GENE_ion_surge": {
+    "description": "Ion Surge",
+    "value": 0
+  },
+  "GENE_adrenal_surge": {
+    "description": "Adrenal Surge",
+    "value": 0
+  },
+  "GENE_leadership": {
+    "description": "Leadership",
+    "value": 0
+  },
+  "GENE_viral_affinity": {
+    "description": "Viral Affinity",
+    "value": 0
+  },
+  "GENE_together_strong": {
+    "description": "Together Strong",
+    "value": 0
+  },
+  "GENE_call_of_the_wild": {
+    "description": "Call of the Wild",
+    "value": 0
+  },
+  "COMPLETION_SIMIAN_FLU": {
+    "description": "Completed Simian Flu",
+    "value": 0
+  },
+  "UNLOCK_SIMIAN_FLU": {
+    "description": "Unlocked Simian Flu",
+    "value": 0
+  },
+  "UNLOCK_BRUTAL_CHEATS": {
+    "description": "Unlocked Brutal Cheats",
+    "value": 0
+  },
+  "UNLOCK_MEGA_CHEATS": {
+    "description": "Unlocked Mega Brutal Cheats",
+    "value": 0
+  },
+  "UNLOCK_christmas_spirit": {
+    "description": "Unlocked Scenario Santa's Little Helper",
+    "value": 0
+  },
+  "UNLOCK_teleportation": {
+    "description": "Unlocked Scenario Teleportation",
+    "value": 0
+  },
+  "matchmakingRank": {
+    "description": "Matchmaking Rank",
+    "value": 0
+  },
+  "MP_GameInstance": {
+    "description": "Multiplayer Games Played",
+    "value": 0
+  },
+  "MP_GamesPlayed": {
+    "description": "Individual Multiplayer Games Started",
+    "value": 0
+  },
+  "MP_Disease_BACTERIA": {
+    "description": "Multiplayer Bacteria Players",
+    "value": 0
+  },
+  "MP_GamesWon": {
+    "description": "Individual Multiplayer Game Wins",
+    "value": 0
+  },
+  "MP_GamesDrawn": {
+    "description": "Individual Multiplayer Game Draws",
+    "value": 0
+  },
+  "MP_Rating": {
+    "description": "Individual Multiplayer Rating",
+    "value": 1000
+  },
+  "MP_GamesCompleted": {
+    "description": "Individual Multiplayer Games Completed",
+    "value": 0
+  },
+  "MP_StatsVersion": {
+    "description": "Version number to determine stat reset",
+    "value": 1
+  },
+  "MP_Disease_VIRUS": {
+    "description": "Multiplayer Virus Players",
+    "value": 0
+  },
+  "GENE_hydrophobe": {
+    "description": "Hydrophobe",
+    "value": 0
+  },
+  "GENE_xerophobe": {
+    "description": "Xerophobe",
+    "value": 0
+  },
+  "GENE_urbophobe": {
+    "description": "Urbophobe",
+    "value": 0
+  },
+  "GENE_rurophobe": {
+    "description": "Rurophobe",
+    "value": 0
+  },
+  "GENE_peniaphobe": {
+    "description": "Peniaphobe",
+    "value": 0
+  },
+  "GENE_plutophobe": {
+    "description": "Plutophobe",
+    "value": 0
+  },
+  "GENE_frigophobe": {
+    "description": "Frigophobe",
+    "value": 0
+  },
+  "GENE_calophobe": {
+    "description": "Calophobe",
+    "value": 0
+  },
+  "GENE_benign_infection": {
+    "description": "Benign Infection",
+    "value": 0
+  },
+  "GENE_unstable_inception": {
+    "description": "Unstable Inception",
+    "value": 0
+  },
+  "GENE_safe_house": {
+    "description": "Safe House",
+    "value": 0
+  },
+  "GENE_search_and_destroy": {
+    "description": "Search And Destroy",
+    "value": 0
+  },
+  "UNLOCK_MP_VIRUS": {
+    "description": "Unlock Multiplayer Virus",
+    "value": 0
+  },
+  "MP_UnrankedGamesWon": {
+    "description": "No Longer in use",
+    "value": 0
+  },
+  "MP_HighestRating": {
+    "description": "Highest Individual Multiplayer Rating",
+    "value": 0
+  },
+  "UNLOCK_MP_BIO_WEAPON": {
+    "description": "Unlock Multiplayer Bio Weapon",
+    "value": 0
+  },
+  "MP_Wins_Disease_BACTERIA": {
+    "description": "MP Bacteria Game Wins",
+    "value": 0
+  },
+  "MP_Wins_Disease_VIRUS": {
+    "description": "MP Virus Game Wins",
+    "value": 0
+  },
+  "MP_Wins_Disease_BIO_WEAPON": {
+    "description": "MP Bio Weapon Game Wins",
+    "value": 0
+  },
+  "MP_Disease_BIO_WEAPON": {
+    "description": "Multiplayer Bio Weapon Players",
+    "value": 0
+  },
+  "MP_DiseaseUnlockCounter": {
+    "description": "Multiplayer Disease Unlock Counter",
+    "value": 1000
+  },
+  "MP_Coop_TopScore_Normal": {
+    "description": "Co-op top score on Normal Mode",
+    "value": 0
+  },
+  "SP_Lifetime_Infected": {
+    "description": "Total Infected in Single Player",
+    "value": 0
+  },
+  "MP_VS_Lifetime_Infected": {
+    "description": "Total Infected in Versus",
+    "value": 0
+  },
+  "MP_Coop_Lifetime_Infected": {
+    "description": "Total Infected in Co-op",
+    "value": 0
+  },
+  "SP_Lifetime_Killed": {
+    "description": "Total Killed in Single Player",
+    "value": 0
+  },
+  "MP_VS_Lifetime_Killed": {
+    "description": "Total Killed in Versus",
+    "value": 0
+  },
+  "MP_Coop_Lifetime_Killed": {
+    "description": "Total Killed in Co-op",
+    "value": 0
+  },
+  "SP_Lifetime_Cured": {
+    "description": "Total Cured in Single Player",
+    "value": 0
+  },
+  "MP_VS_Lifetime_Cured": {
+    "description": "Total Cured in Versus",
+    "value": 0
+  },
+  "MP_Coop_Lifetime_Cured": {
+    "description": "Total Cured in Co-op",
+    "value": 0
+  },
+  "SP_Lifetime_Zombies": {
+    "description": "Total Zombies Made in Single Player",
+    "value": 0
+  },
+  "SP_Lifetime_Apes": {
+    "description": "Total Intelligent Apes in Single Player",
+    "value": 0
+  },
+  "SP_Lifetime_DNA_Spent": {
+    "description": "Total DNA Spent in Single Player",
+    "value": 0
+  },
+  "MP_VS_Lifetime_DNA_Spent": {
+    "description": "Total DNA Spent in Versus",
+    "value": 0
+  },
+  "MP_Coop_Lifetime_DNA_Spent": {
+    "description": "Total DNA Spent in Co-op",
+    "value": 0
+  },
+  "SP_Lifetime_Bubbles_Popped": {
+    "description": "Total Bubbles Popped in Single Player",
+    "value": 0
+  },
+  "MP_VS_Lifetime_Bubbles_Popped": {
+    "description": "Total Bubbles Popped in Versus",
+    "value": 0
+  },
+  "MP_Coop_Lifetime_Bubbles_Popped": {
+    "description": "Total Bubbles Popped in Co-op",
+    "value": 0
+  },
+  "SP_Start_Country_usa": {
+    "description": "",
+    "value": 0
+  },
+  "SP_Start_Country_canada": {
+    "description": "",
+    "value": 0
+  },
+  "SP_Start_Country_greenland": {
+    "description": "",
+    "value": 0
+  },
+  "SP_Start_Country_mexico": {
+    "description": "",
+    "value": 0
+  },
+  "SP_Start_Country_brazil": {
+    "description": "",
+    "value": 0
+  },
+  "SP_Start_Country_argentina": {
+    "description": "",
+    "value": 0
+  },
+  "SP_Start_Country_caribbean": {
+    "description": "",
+    "value": 0
+  },
+  "SP_Start_Country_central_america_upper": {
+    "description": "",
+    "value": 0
+  },
+  "SP_Start_Country_south_america_upper": {
+    "description": "",
+    "value": 0
+  },
+  "SP_Start_Country_bolivia": {
+    "description": "",
+    "value": 0
+  },
+  "SP_Start_Country_peru": {
+    "description": "",
+    "value": 0
+  },
+  "SP_Start_Country_iceland": {
+    "description": "",
+    "value": 0
+  },
+  "SP_Start_Country_spain": {
+    "description": "",
+    "value": 0
+  },
+  "SP_Start_Country_united_kingdom": {
+    "description": "",
+    "value": 0
+  },
+  "SP_Start_Country_france": {
+    "description": "",
+    "value": 0
+  },
+  "SP_Start_Country_germany": {
+    "description": "",
+    "value": 0
+  },
+  "SP_Start_Country_italy": {
+    "description": "",
+    "value": 0
+  },
+  "SP_Start_Country_poland": {
+    "description": "",
+    "value": 0
+  },
+  "SP_Start_Country_ukraine": {
+    "description": "",
+    "value": 0
+  },
+  "SP_Start_Country_norway": {
+    "description": "",
+    "value": 0
+  },
+  "SP_Start_Country_sweden": {
+    "description": "",
+    "value": 0
+  },
+  "SP_Start_Country_finland": {
+    "description": "",
+    "value": 0
+  },
+  "SP_Start_Country_russia": {
+    "description": "",
+    "value": 0
+  },
+  "SP_Start_Country_turkey": {
+    "description": "",
+    "value": 0
+  },
+  "SP_Start_Country_balcan_states": {
+    "description": "",
+    "value": 0
+  },
+  "SP_Start_Country_baltic_states": {
+    "description": "",
+    "value": 0
+  },
+  "SP_Start_Country_madagascar": {
+    "description": "",
+    "value": 0
+  },
+  "SP_Start_Country_egypt": {
+    "description": "",
+    "value": 0
+  },
+  "SP_Start_Country_east_africa": {
+    "description": "",
+    "value": 0
+  },
+  "SP_Start_Country_western_africa": {
+    "description": "",
+    "value": 0
+  },
+  "SP_Start_Country_central_africa": {
+    "description": "",
+    "value": 0
+  },
+  "SP_Start_Country_morroco": {
+    "description": "",
+    "value": 0
+  },
+  "SP_Start_Country_libya": {
+    "description": "",
+    "value": 0
+  },
+  "SP_Start_Country_sudan": {
+    "description": "",
+    "value": 0
+  },
+  "SP_Start_Country_south_africa": {
+    "description": "",
+    "value": 0
+  },
+  "SP_Start_Country_indonesia": {
+    "description": "",
+    "value": 0
+  },
+  "SP_Start_Country_new_zealand": {
+    "description": "",
+    "value": 0
+  },
+  "SP_Start_Country_philipines": {
+    "description": "",
+    "value": 0
+  },
+  "SP_Start_Country_south_east_asia": {
+    "description": "",
+    "value": 0
+  },
+  "SP_Start_Country_australia": {
+    "description": "",
+    "value": 0
+  },
+  "SP_Start_Country_china": {
+    "description": "",
+    "value": 0
+  },
+  "SP_Start_Country_india": {
+    "description": "",
+    "value": 0
+  },
+  "SP_Start_Country_japan": {
+    "description": "",
+    "value": 0
+  },
+  "SP_Start_Country_koreas": {
+    "description": "",
+    "value": 0
+  },
+  "SP_Start_Country_central_asia": {
+    "description": "",
+    "value": 0
+  },
+  "SP_Start_Country_middle_east": {
+    "description": "",
+    "value": 0
+  },
+  "SP_Start_Country_pakistan": {
+    "description": "",
+    "value": 0
+  },
+  "MP_VS_Start_Country_usa": {
+    "description": "",
+    "value": 0
+  },
+  "MP_VS_Start_Country_canada": {
+    "description": "",
+    "value": 0
+  },
+  "MP_VS_Start_Country_greenland": {
+    "description": "",
+    "value": 0
+  },
+  "MP_VS_Start_Country_mexico": {
+    "description": "",
+    "value": 0
+  },
+  "MP_VS_Start_Country_brazil": {
+    "description": "",
+    "value": 0
+  },
+  "MP_VS_Start_Country_argentina": {
+    "description": "",
+    "value": 0
+  },
+  "MP_VS_Start_Country_caribbean": {
+    "description": "",
+    "value": 0
+  },
+  "MP_VS_Start_Country_central_america_upper": {
+    "description": "",
+    "value": 0
+  },
+  "MP_VS_Start_Country_south_america_upper": {
+    "description": "",
+    "value": 0
+  },
+  "MP_VS_Start_Country_bolivia": {
+    "description": "",
+    "value": 0
+  },
+  "MP_VS_Start_Country_peru": {
+    "description": "",
+    "value": 0
+  },
+  "MP_VS_Start_Country_iceland": {
+    "description": "",
+    "value": 0
+  },
+  "MP_VS_Start_Country_spain": {
+    "description": "",
+    "value": 0
+  },
+  "MP_VS_Start_Country_united_kingdom": {
+    "description": "",
+    "value": 0
+  },
+  "MP_VS_Start_Country_france": {
+    "description": "",
+    "value": 0
+  },
+  "MP_VS_Start_Country_germany": {
+    "description": "",
+    "value": 0
+  },
+  "MP_VS_Start_Country_italy": {
+    "description": "",
+    "value": 0
+  },
+  "MP_VS_Start_Country_poland": {
+    "description": "",
+    "value": 0
+  },
+  "MP_VS_Start_Country_ukraine": {
+    "description": "",
+    "value": 0
+  },
+  "MP_VS_Start_Country_norway": {
+    "description": "",
+    "value": 0
+  },
+  "MP_VS_Start_Country_sweden": {
+    "description": "",
+    "value": 0
+  },
+  "MP_VS_Start_Country_finland": {
+    "description": "",
+    "value": 0
+  },
+  "MP_VS_Start_Country_russia": {
+    "description": "",
+    "value": 0
+  },
+  "MP_VS_Start_Country_turkey": {
+    "description": "",
+    "value": 0
+  },
+  "MP_VS_Start_Country_balcan_states": {
+    "description": "",
+    "value": 0
+  },
+  "MP_VS_Start_Country_baltic_states": {
+    "description": "",
+    "value": 0
+  },
+  "MP_VS_Start_Country_madagascar": {
+    "description": "",
+    "value": 0
+  },
+  "MP_VS_Start_Country_egypt": {
+    "description": "",
+    "value": 0
+  },
+  "MP_VS_Start_Country_east_africa": {
+    "description": "",
+    "value": 0
+  },
+  "MP_VS_Start_Country_western_africa": {
+    "description": "",
+    "value": 0
+  },
+  "MP_VS_Start_Country_central_africa": {
+    "description": "",
+    "value": 0
+  },
+  "MP_VS_Start_Country_morroco": {
+    "description": "",
+    "value": 0
+  },
+  "MP_VS_Start_Country_libya": {
+    "description": "",
+    "value": 0
+  },
+  "MP_VS_Start_Country_sudan": {
+    "description": "",
+    "value": 0
+  },
+  "MP_VS_Start_Country_south_africa": {
+    "description": "",
+    "value": 0
+  },
+  "MP_VS_Start_Country_indonesia": {
+    "description": "",
+    "value": 0
+  },
+  "MP_VS_Start_Country_new_zealand": {
+    "description": "",
+    "value": 0
+  },
+  "MP_VS_Start_Country_philipines": {
+    "description": "",
+    "value": 0
+  },
+  "MP_VS_Start_Country_south_east_asia": {
+    "description": "",
+    "value": 0
+  },
+  "MP_VS_Start_Country_australia": {
+    "description": "",
+    "value": 0
+  },
+  "MP_VS_Start_Country_china": {
+    "description": "",
+    "value": 0
+  },
+  "MP_VS_Start_Country_india": {
+    "description": "",
+    "value": 0
+  },
+  "MP_VS_Start_Country_japan": {
+    "description": "",
+    "value": 0
+  },
+  "MP_VS_Start_Country_koreas": {
+    "description": "",
+    "value": 0
+  },
+  "MP_VS_Start_Country_central_asia": {
+    "description": "",
+    "value": 0
+  },
+  "MP_VS_Start_Country_middle_east": {
+    "description": "",
+    "value": 0
+  },
+  "MP_VS_Start_Country_pakistan": {
+    "description": "",
+    "value": 0
+  },
+  "MP_Coop_Start_Country_usa": {
+    "description": "",
+    "value": 0
+  },
+  "MP_Coop_Start_Country_canada": {
+    "description": "",
+    "value": 0
+  },
+  "MP_Coop_Start_Country_greenland": {
+    "description": "",
+    "value": 0
+  },
+  "MP_Coop_Start_Country_mexico": {
+    "description": "",
+    "value": 0
+  },
+  "MP_Coop_Start_Country_brazil": {
+    "description": "",
+    "value": 0
+  },
+  "MP_Coop_Start_Country_argentina": {
+    "description": "",
+    "value": 0
+  },
+  "MP_Coop_Start_Country_caribbean": {
+    "description": "",
+    "value": 0
+  },
+  "MP_Coop_Start_Country_central_america_upper": {
+    "description": "",
+    "value": 0
+  },
+  "MP_Coop_Start_Country_south_america_upper": {
+    "description": "",
+    "value": 0
+  },
+  "MP_Coop_Start_Country_bolivia": {
+    "description": "",
+    "value": 0
+  },
+  "MP_Coop_Start_Country_peru": {
+    "description": "",
+    "value": 0
+  },
+  "MP_Coop_Start_Country_iceland": {
+    "description": "",
+    "value": 0
+  },
+  "MP_Coop_Start_Country_spain": {
+    "description": "",
+    "value": 0
+  },
+  "MP_Coop_Start_Country_united_kingdom": {
+    "description": "",
+    "value": 0
+  },
+  "MP_Coop_Start_Country_france": {
+    "description": "",
+    "value": 0
+  },
+  "MP_Coop_Start_Country_germany": {
+    "description": "",
+    "value": 0
+  },
+  "MP_Coop_Start_Country_italy": {
+    "description": "",
+    "value": 0
+  },
+  "MP_Coop_Start_Country_poland": {
+    "description": "",
+    "value": 0
+  },
+  "MP_Coop_Start_Country_ukraine": {
+    "description": "",
+    "value": 0
+  },
+  "MP_Coop_Start_Country_norway": {
+    "description": "",
+    "value": 0
+  },
+  "MP_Coop_Start_Country_sweden": {
+    "description": "",
+    "value": 0
+  },
+  "MP_Coop_Start_Country_finland": {
+    "description": "",
+    "value": 0
+  },
+  "MP_Coop_Start_Country_russia": {
+    "description": "",
+    "value": 0
+  },
+  "MP_Coop_Start_Country_turkey": {
+    "description": "",
+    "value": 0
+  },
+  "MP_Coop_Start_Country_balcan_states": {
+    "description": "",
+    "value": 0
+  },
+  "MP_Coop_Start_Country_baltic_states": {
+    "description": "",
+    "value": 0
+  },
+  "MP_Coop_Start_Country_madagascar": {
+    "description": "",
+    "value": 0
+  },
+  "MP_Coop_Start_Country_egypt": {
+    "description": "",
+    "value": 0
+  },
+  "MP_Coop_Start_Country_east_africa": {
+    "description": "",
+    "value": 0
+  },
+  "MP_Coop_Start_Country_western_africa": {
+    "description": "",
+    "value": 0
+  },
+  "MP_Coop_Start_Country_central_africa": {
+    "description": "",
+    "value": 0
+  },
+  "MP_Coop_Start_Country_morroco": {
+    "description": "",
+    "value": 0
+  },
+  "MP_Coop_Start_Country_libya": {
+    "description": "",
+    "value": 0
+  },
+  "MP_Coop_Start_Country_sudan": {
+    "description": "",
+    "value": 0
+  },
+  "MP_Coop_Start_Country_south_africa": {
+    "description": "",
+    "value": 0
+  },
+  "MP_Coop_Start_Country_indonesia": {
+    "description": "",
+    "value": 0
+  },
+  "MP_Coop_Start_Country_new_zealand": {
+    "description": "",
+    "value": 0
+  },
+  "MP_Coop_Start_Country_philipines": {
+    "description": "",
+    "value": 0
+  },
+  "MP_Coop_Start_Country_south_east_asia": {
+    "description": "",
+    "value": 0
+  },
+  "MP_Coop_Start_Country_australia": {
+    "description": "",
+    "value": 0
+  },
+  "MP_Coop_Start_Country_china": {
+    "description": "",
+    "value": 0
+  },
+  "MP_Coop_Start_Country_india": {
+    "description": "",
+    "value": 0
+  },
+  "MP_Coop_Start_Country_japan": {
+    "description": "",
+    "value": 0
+  },
+  "MP_Coop_Start_Country_koreas": {
+    "description": "",
+    "value": 0
+  },
+  "MP_Coop_Start_Country_central_asia": {
+    "description": "",
+    "value": 0
+  },
+  "MP_Coop_Start_Country_middle_east": {
+    "description": "",
+    "value": 0
+  },
+  "MP_Coop_Start_Country_pakistan": {
+    "description": "",
+    "value": 0
+  },
+  "SP_Start_Country_afghanistan": {
+    "description": "",
+    "value": 0
+  },
+  "SP_Start_Country_iran": {
+    "description": "",
+    "value": 0
+  },
+  "SP_Start_Country_papua": {
+    "description": "",
+    "value": 0
+  },
+  "SP_Start_Country_central_european_states": {
+    "description": "",
+    "value": 0
+  },
+  "SP_Start_Country_soudi_arabia": {
+    "description": "",
+    "value": 0
+  },
+  "SP_Start_Country_kazakhstan": {
+    "description": "",
+    "value": 0
+  },
+  "SP_Start_Country_iraq": {
+    "description": "",
+    "value": 0
+  },
+  "SP_Start_Country_botswana": {
+    "description": "",
+    "value": 0
+  },
+  "SP_Start_Country_zimbabwe": {
+    "description": "",
+    "value": 0
+  },
+  "SP_Start_Country_angola": {
+    "description": "",
+    "value": 0
+  },
+  "SP_Start_Country_algeria": {
+    "description": "",
+    "value": 0
+  },
+  "MP_VS_Start_Country_afghanistan": {
+    "description": "",
+    "value": 0
+  },
+  "MP_VS_Start_Country_iran": {
+    "description": "",
+    "value": 0
+  },
+  "MP_VS_Start_Country_papua": {
+    "description": "",
+    "value": 0
+  },
+  "MP_VS_Start_Country_central_european_states": {
+    "description": "",
+    "value": 0
+  },
+  "MP_VS_Start_Country_soudi_arabia": {
+    "description": "",
+    "value": 0
+  },
+  "MP_VS_Start_Country_kazakhstan": {
+    "description": "",
+    "value": 0
+  },
+  "MP_VS_Start_Country_iraq": {
+    "description": "",
+    "value": 0
+  },
+  "MP_VS_Start_Country_botswana": {
+    "description": "",
+    "value": 0
+  },
+  "MP_VS_Start_Country_zimbabwe": {
+    "description": "",
+    "value": 0
+  },
+  "MP_VS_Start_Country_angola": {
+    "description": "",
+    "value": 0
+  },
+  "MP_VS_Start_Country_algeria": {
+    "description": "",
+    "value": 0
+  },
+  "MP_Coop_Start_Country_afghanistan": {
+    "description": "",
+    "value": 0
+  },
+  "MP_Coop_Start_Country_iran": {
+    "description": "",
+    "value": 0
+  },
+  "MP_Coop_Start_Country_papua": {
+    "description": "",
+    "value": 0
+  },
+  "MP_Coop_Start_Country_central_european_states": {
+    "description": "",
+    "value": 0
+  },
+  "MP_Coop_Start_Country_soudi_arabia": {
+    "description": "",
+    "value": 0
+  },
+  "MP_Coop_Start_Country_kazakhstan": {
+    "description": "",
+    "value": 0
+  },
+  "MP_Coop_Start_Country_iraq": {
+    "description": "",
+    "value": 0
+  },
+  "MP_Coop_Start_Country_botswana": {
+    "description": "",
+    "value": 0
+  },
+  "MP_Coop_Start_Country_zimbabwe": {
+    "description": "",
+    "value": 0
+  },
+  "MP_Coop_Start_Country_angola": {
+    "description": "",
+    "value": 0
+  },
+  "MP_Coop_Start_Country_algeria": {
+    "description": "",
+    "value": 0
+  },
+  "SP_GENE_arid_bonus": {
+    "description": "",
+    "value": 0
+  },
+  "SP_GENE_humid_bonus": {
+    "description": "",
+    "value": 0
+  },
+  "SP_GENE_rural_bonus": {
+    "description": "",
+    "value": 0
+  },
+  "SP_GENE_urban_bonus": {
+    "description": "",
+    "value": 0
+  },
+  "SP_GENE_resiliance": {
+    "description": "",
+    "value": 0
+  },
+  "SP_GENE_mutation_bonus": {
+    "description": "",
+    "value": 0
+  },
+  "SP_GENE_mutation_limit": {
+    "description": "",
+    "value": 0
+  },
+  "SP_GENE_genetic_mimic": {
+    "description": "",
+    "value": 0
+  },
+  "SP_GENE_transmission_mutation": {
+    "description": "",
+    "value": 0
+  },
+  "SP_GENE_ability_mutation": {
+    "description": "",
+    "value": 0
+  },
+  "SP_GENE_bonus_dna": {
+    "description": "",
+    "value": 0
+  },
+  "SP_GENE_orange_dna": {
+    "description": "",
+    "value": 0
+  },
+  "SP_GENE_red_dna": {
+    "description": "",
+    "value": 0
+  },
+  "SP_GENE_blue_dna": {
+    "description": "",
+    "value": 0
+  },
+  "SP_GENE_auto_pop": {
+    "description": "",
+    "value": 0
+  },
+  "SP_GENE_land_bonus": {
+    "description": "",
+    "value": 0
+  },
+  "SP_GENE_air_bonus": {
+    "description": "",
+    "value": 0
+  },
+  "SP_GENE_sea_bonus": {
+    "description": "",
+    "value": 0
+  },
+  "SP_GENE_border_breaker": {
+    "description": "",
+    "value": 0
+  },
+  "SP_GENE_home_advantage": {
+    "description": "",
+    "value": 0
+  },
+  "SP_GENE_devolver": {
+    "description": "",
+    "value": 0
+  },
+  "SP_GENE_static_devolve": {
+    "description": "",
+    "value": 0
+  },
+  "SP_GENE_static_symptoms": {
+    "description": "",
+    "value": 0
+  },
+  "SP_GENE_static_abilities": {
+    "description": "",
+    "value": 0
+  },
+  "SP_GENE_static_transmission": {
+    "description": "",
+    "value": 0
+  },
+  "SP_GENE_zday_dead_increase": {
+    "description": "",
+    "value": 0
+  },
+  "SP_GENE_less_z_decay": {
+    "description": "",
+    "value": 0
+  },
+  "SP_GENE_less_hot_decay": {
+    "description": "",
+    "value": 0
+  },
+  "SP_GENE_z_conversion": {
+    "description": "",
+    "value": 0
+  },
+  "SP_GENE_cheaper_aa": {
+    "description": "",
+    "value": 0
+  },
+  "SP_GENE_latent_catalyst": {
+    "description": "",
+    "value": 0
+  },
+  "SP_GENE_cortisol_sensitivity": {
+    "description": "",
+    "value": 0
+  },
+  "SP_GENE_atp_overdose": {
+    "description": "",
+    "value": 0
+  },
+  "SP_GENE_ion_deficit": {
+    "description": "",
+    "value": 0
+  },
+  "SP_GENE_ion_surge": {
+    "description": "",
+    "value": 0
+  },
+  "SP_GENE_adrenal_surge": {
+    "description": "",
+    "value": 0
+  },
+  "SP_GENE_leadership": {
+    "description": "",
+    "value": 0
+  },
+  "SP_GENE_viral_affinity": {
+    "description": "",
+    "value": 0
+  },
+  "SP_GENE_together_strong": {
+    "description": "",
+    "value": 0
+  },
+  "SP_GENE_call_of_the_wild": {
+    "description": "",
+    "value": 0
+  },
+  "MP_VS_GENE_hydrophobe": {
+    "description": "",
+    "value": 0
+  },
+  "MP_VS_GENE_xerophobe": {
+    "description": "",
+    "value": 0
+  },
+  "MP_VS_GENE_urbophobe": {
+    "description": "",
+    "value": 0
+  },
+  "MP_VS_GENE_rurophobe": {
+    "description": "",
+    "value": 0
+  },
+  "MP_VS_GENE_peniaphobe": {
+    "description": "",
+    "value": 0
+  },
+  "MP_VS_GENE_plutophobe": {
+    "description": "",
+    "value": 0
+  },
+  "MP_VS_GENE_frigophobe": {
+    "description": "",
+    "value": 0
+  },
+  "MP_VS_GENE_calophobe": {
+    "description": "",
+    "value": 0
+  },
+  "MP_VS_GENE_benign_infection": {
+    "description": "",
+    "value": 0
+  },
+  "MP_VS_GENE_safe_house": {
+    "description": "",
+    "value": 0
+  },
+  "MP_VS_GENE_unstable_inception": {
+    "description": "",
+    "value": 0
+  },
+  "MP_Coop_GENE_hydrophobe": {
+    "description": "",
+    "value": 0
+  },
+  "MP_Coop_GENE_xerophobe": {
+    "description": "",
+    "value": 0
+  },
+  "MP_Coop_GENE_urbophobe": {
+    "description": "",
+    "value": 0
+  },
+  "MP_Coop_GENE_rurophobe": {
+    "description": "",
+    "value": 0
+  },
+  "MP_Coop_GENE_peniaphobe": {
+    "description": "",
+    "value": 0
+  },
+  "MP_Coop_GENE_plutophobe": {
+    "description": "",
+    "value": 0
+  },
+  "MP_Coop_GENE_frigophobe": {
+    "description": "",
+    "value": 0
+  },
+  "MP_Coop_GENE_calophobe": {
+    "description": "",
+    "value": 0
+  },
+  "MP_Coop_GENE_benign_infection": {
+    "description": "",
+    "value": 0
+  },
+  "MP_Coop_GENE_safe_house": {
+    "description": "",
+    "value": 0
+  },
+  "MP_Coop_GENE_unstable_inception": {
+    "description": "",
+    "value": 0
+  },
+  "SP_DISEASE_BACTERIA": {
+    "description": "",
+    "value": 0
+  },
+  "SP_DISEASE_VIRUS": {
+    "description": "",
+    "value": 0
+  },
+  "SP_DISEASE_FUNGUS": {
+    "description": "",
+    "value": 0
+  },
+  "SP_DISEASE_PARASITE": {
+    "description": "",
+    "value": 0
+  },
+  "SP_DISEASE_PRION": {
+    "description": "",
+    "value": 0
+  },
+  "SP_DISEASE_NANO_VIRUS": {
+    "description": "",
+    "value": 0
+  },
+  "SP_DISEASE_BIO_WEAPON": {
+    "description": "",
+    "value": 0
+  },
+  "SP_DISEASE_NEURAX": {
+    "description": "",
+    "value": 0
+  },
+  "SP_DISEASE_NECROA": {
+    "description": "",
+    "value": 0
+  },
+  "MP_VS_DISEASE_BACTERIA": {
+    "description": "",
+    "value": 0
+  },
+  "MP_VS_DISEASE_VIRUS": {
+    "description": "",
+    "value": 0
+  },
+  "MP_VS_DISEASE_FUNGUS": {
+    "description": "",
+    "value": 0
+  },
+  "MP_VS_DISEASE_PARASITE": {
+    "description": "",
+    "value": 0
+  },
+  "MP_VS_DISEASE_PRION": {
+    "description": "",
+    "value": 0
+  },
+  "MP_VS_DISEASE_NANO_VIRUS": {
+    "description": "",
+    "value": 0
+  },
+  "MP_VS_DISEASE_BIO_WEAPON": {
+    "description": "",
+    "value": 0
+  },
+  "MP_VS_DISEASE_NEURAX": {
+    "description": "",
+    "value": 0
+  },
+  "MP_VS_DISEASE_NECROA": {
+    "description": "",
+    "value": 0
+  },
+  "MP_Coop_DISEASE_BACTERIA": {
+    "description": "",
+    "value": 0
+  },
+  "MP_Coop_DISEASE_VIRUS": {
+    "description": "",
+    "value": 0
+  },
+  "MP_Coop_DISEASE_FUNGUS": {
+    "description": "",
+    "value": 0
+  },
+  "MP_Coop_DISEASE_PARASITE": {
+    "description": "",
+    "value": 0
+  },
+  "MP_Coop_DISEASE_PRION": {
+    "description": "",
+    "value": 0
+  },
+  "MP_Coop_DISEASE_NANO_VIRUS": {
+    "description": "",
+    "value": 0
+  },
+  "MP_Coop_DISEASE_BIO_WEAPON": {
+    "description": "",
+    "value": 0
+  },
+  "MP_Coop_DISEASE_NEURAX": {
+    "description": "",
+    "value": 0
+  },
+  "MP_Coop_DISEASE_NECROA": {
+    "description": "",
+    "value": 0
+  },
+  "SP_Lifetime_Games_Won": {
+    "description": "",
+    "value": 0
+  },
+  "MP_VS_Lifetime_Games_Won": {
+    "description": "",
+    "value": 0
+  },
+  "MP_Coop_Lifetime_Games_Won": {
+    "description": "",
+    "value": 0
+  },
+  "SP_Quickest_Win": {
+    "description": "",
+    "value": 0
+  },
+  "SP_Quickest_Loss": {
+    "description": "",
+    "value": 0
+  },
+  "MP_VS_Quickest_Win": {
+    "description": "",
+    "value": 0
+  },
+  "MP_VS_Quickest_Loss": {
+    "description": "",
+    "value": 0
+  },
+  "MP_Coop_Quickest_Win": {
+    "description": "",
+    "value": 0
+  },
+  "Mp_Coop_Quickest_Loss": {
+    "description": "",
+    "value": 0
+  },
+  "SP_Scenario_black_death": {
+    "description": "",
+    "value": 0
+  },
+  "SP_Scenario_created_equal": {
+    "description": "",
+    "value": 0
+  },
+  "SP_Scenario_global_warming": {
+    "description": "",
+    "value": 0
+  },
+  "SP_Scenario_golden_age": {
+    "description": "",
+    "value": 0
+  },
+  "SP_Scenario_ice_age": {
+    "description": "",
+    "value": 0
+  },
+  "SP_Scenario_mirror_earth": {
+    "description": "",
+    "value": 0
+  },
+  "SP_Scenario_pirate_plague": {
+    "description": "",
+    "value": 0
+  },
+  "SP_Scenario_shut_down_everything": {
+    "description": "",
+    "value": 0
+  },
+  "SP_Scenario_smallpox": {
+    "description": "",
+    "value": 0
+  },
+  "SP_Scenario_sovereign_default": {
+    "description": "",
+    "value": 0
+  },
+  "SP_Scenario_swine_flu": {
+    "description": "",
+    "value": 0
+  },
+  "SP_Scenario_volcanic_ash": {
+    "description": "",
+    "value": 0
+  },
+  "SP_Scenario_who_cares": {
+    "description": "",
+    "value": 0
+  },
+  "SP_Scenario_xenophobia": {
+    "description": "",
+    "value": 0
+  },
+  "SP_Scenario_artificial_organs": {
+    "description": "",
+    "value": 0
+  },
+  "SP_Scenario_frozen_virus": {
+    "description": "",
+    "value": 0
+  },
+  "SP_Scenario_nipah_virus": {
+    "description": "",
+    "value": 0
+  },
+  "SP_Scenario_unknown_origin": {
+    "description": "",
+    "value": 0
+  },
+  "SP_Scenario_christmas_spirit": {
+    "description": "",
+    "value": 0
+  },
+  "SP_Scenario_teleportation": {
+    "description": "",
+    "value": 0
+  },
+  "UNLOCK_MP_Coop_VIRUS": {
+    "description": "Co-operative Virus unlock flag",
+    "value": 0
+  },
+  "UNLOCK_MP_Coop_BIO_WEAPON": {
+    "description": "Co-operative Bio Weapon unlock flag",
+    "value": 0
+  },
+  "GENE_Coop_hydrophobe": {
+    "description": "unlock flag",
+    "value": 0
+  },
+  "GENE_Coop_xerophobe": {
+    "description": "unlock flag",
+    "value": 0
+  },
+  "GENE_Coop_urbophobe": {
+    "description": "unlock flag",
+    "value": 0
+  },
+  "GENE_Coop_rurophobe": {
+    "description": "unlock flag",
+    "value": 0
+  },
+  "GENE_Coop_peniaphobe": {
+    "description": "unlock flag",
+    "value": 0
+  },
+  "GENE_Coop_plutophobe": {
+    "description": "unlock flag",
+    "value": 0
+  },
+  "GENE_Coop_frigophobe": {
+    "description": "unlock flag",
+    "value": 0
+  },
+  "GENE_Coop_calophobe": {
+    "description": "unlock flag",
+    "value": 0
+  },
+  "GENE_Coop_benign_infection": {
+    "description": "unlock flag",
+    "value": 0
+  },
+  "GENE_Coop_safe_house": {
+    "description": "unlock flag",
+    "value": 0
+  },
+  "GENE_Coop_unstable_inception": {
+    "description": "unlock flag",
+    "value": 0
+  },
+  "MP_Coop_DiseaseUnlockCounter": {
+    "description": "Coop Disease unlock counter",
+    "value": 1000
+  },
+  "SP_DISEASE_SIMIAN_FLU": {
+    "description": "",
+    "value": 0
+  },
+  "MP_VS_DISEASE_SIMIAN_FLU": {
+    "description": "",
+    "value": 0
+  },
+  "MP_Coop_DISEASE_SIMIAN_FLU": {
+    "description": "",
+    "value": 0
+  },
+  "MP_Coop_BestScore_0": {
+    "description": "[Deprecated]",
+    "value": 999999
+  },
+  "MP_Coop_BestScore_1": {
+    "description": "[Deprecated]",
+    "value": 999999
+  },
+  "MP_Coop_BestScore_2": {
+    "description": "[Deprecated]",
+    "value": 999999
+  },
+  "MP_Coop_BestScore_v2_0": {
+    "description": "[Deprecated]",
+    "value": 999999
+  },
+  "MP_Coop_BestScore_v2_1": {
+    "description": "[Deprecated]",
+    "value": 999999
+  },
+  "MP_Coop_BestScore_v2_2": {
+    "description": "[Deprecated]",
+    "value": 999999
+  },
+  "MP_Coop_GamesPlayed": {
+    "description": "Co-op total games",
+    "value": 0
+  },
+  "MP_Coop_GamesWon": {
+    "description": "Co-op games won",
+    "value": 0
+  },
+  "MP_Coop_Disease_BIO_WEAPON": {
+    "description": "Co-op bio weapon games",
+    "value": 0
+  },
+  "MP_Coop_Disease_VIRUS": {
+    "description": "co-op virus games",
+    "value": 0
+  },
+  "MP_Coop_Disease_BACTERIA": {
+    "description": "co-op bacteria games",
+    "value": 0
+  },
+  "MP_Coop_Wins_Disease_BACTERIA": {
+    "description": "co-op bacteria wins",
+    "value": 0
+  },
+  "MP_Coop_Wins_Disease_VIRUS": {
+    "description": "co-op virus wins",
+    "value": 0
+  },
+  "MP_Coop_Wins_Disease_BIO_WEAPON": {
+    "description": "co-op bio weapon wins",
+    "value": 0
+  },
+  "MP_Coop_BestScore_v3_0": {
+    "description": "[Deprecated]",
+    "value": 0
+  },
+  "MP_Coop_BestScore_v3_1": {
+    "description": "[Deprecated]",
+    "value": 0
+  },
+  "MP_Coop_BestScore_v3_2": {
+    "description": "[Deprecated]",
+    "value": 0
+  },
+  "MP_Coop_BestScore_v4_0": {
+    "description": "co-op casual score",
+    "value": 999999
+  },
+  "MP_Coop_BestScore_v4_1": {
+    "description": "co-op normal score",
+    "value": 999999
+  },
+  "MP_Coop_BestScore_v4_2": {
+    "description": "co-op brutal score",
+    "value": 999999
+  },
+  "MP_Disease_FUNGUS": {
+    "description": "Multiplayer Fungus Games",
+    "value": 0
+  },
+  "MP_Disease_PARASITE": {
+    "description": "Multiplayer Parasite Games",
+    "value": 0
+  },
+  "MP_Wins_Disease_FUNGUS": {
+    "description": "MP Fungus Game Wins",
+    "value": 0
+  },
+  "MP_Wins_Disease_PARASITE": {
+    "description": "MP Parasite Game Wins",
+    "value": 0
+  },
+  "MP_Coop_Disease_FUNGUS": {
+    "description": "Coop Fungus Games",
+    "value": 0
+  },
+  "MP_Coop_Disease_PARASITE": {
+    "description": "Coop Parasite Games",
+    "value": 0
+  },
+  "MP_Coop_Wins_Disease_FUNGUS": {
+    "description": "Coop Fungus Game Wins",
+    "value": 0
+  },
+  "MP_Coop_Wins_Disease_PARASITE": {
+    "description": "Coop Parasite Game Wins",
+    "value": 0
+  },
+  "GENE_Coop_base_hydration": {
+    "description": "unlock flag",
+    "value": 0
+  },
+  "GENE_Coop_innocent_infection": {
+    "description": "unlock flag",
+    "value": 0
+  },
+  "GENE_Coop_deadly_disinfectant": {
+    "description": "unlock flag",
+    "value": 0
+  },
+  "GENE_base_hydration": {
+    "description": "unlock flag",
+    "value": 0
+  },
+  "GENE_peekaboo": {
+    "description": "unlock flag",
+    "value": 0
+  },
+  "GENE_innocent_infection": {
+    "description": "unlock flag",
+    "value": 0
+  },
+  "GENE_deadly_disinfectant": {
+    "description": "unlock flag",
+    "value": 0
+  },
+  "UNLOCK_MP_FUNGUS": {
+    "description": "Unlock Multiplayer Fungus",
+    "value": 0
+  },
+  "UNLOCK_MP_PARASITE": {
+    "description": "Unlock Multiplayer Parasite",
+    "value": 0
+  },
+  "UNLOCK_MP_Coop_FUNGUS": {
+    "description": "Cooperative Fungus Unlock Flag",
+    "value": 0
+  },
+  "UNLOCK_MP_Coop_PARASITE": {
+    "description": "Cooperative Parasite Unlock Flag",
+    "value": 0
+  },
+  "COMPLETION_VAMPIRE": {
+    "description": "Completed Shadow Plague",
+    "value": 0
+  },
+  "UNLOCK_VAMPIRE": {
+    "description": "Unlocked Shadow Plague",
+    "value": 0
+  },
+  "SP_GENE_satanic_meditation": {
+    "description": "unlock flag",
+    "value": 0
+  },
+  "SP_GENE_demonic_engineering": {
+    "description": "unlock flag",
+    "value": 0
+  },
+  "SP_GENE_undercover_vamp": {
+    "description": "unlock flag",
+    "value": 0
+  },
+  "SP_GENE_more_with_less": {
+    "description": "unlock flag",
+    "value": 0
+  },
+  "SP_GENE_dna_frenzy": {
+    "description": "unlock flag",
+    "value": 0
+  },
+  "SP_GENE_longer_life": {
+    "description": "unlock flag",
+    "value": 0
+  },
+  "SP_GENE_spoils_of_war": {
+    "description": "unlock flag",
+    "value": 0
+  },
+  "SP_GENE_rage_syndrome": {
+    "description": "unlock flag",
+    "value": 0
+  },
+  "SP_GENE_blood_lust": {
+    "description": "unlock flag",
+    "value": 0
+  },
+  "SP_GENE_feeding_frenzy": {
+    "description": "unlock flag",
+    "value": 0
+  },
+  "SP_GENE_migration": {
+    "description": "unlock flag",
+    "value": 0
+  },
+  "SP_GENE_gliding": {
+    "description": "unlock flag",
+    "value": 0
+  },
+  "SP_GENE_jet_stream": {
+    "description": "unlock flag",
+    "value": 0
+  },
+  "SP_GENE_desperation": {
+    "description": "unlock flag",
+    "value": 0
+  },
+  "SP_GENE_hard_landing": {
+    "description": "unlock flag",
+    "value": 0
+  },
+  "GENE_satanic_meditation": {
+    "description": "Witch Doctor",
+    "value": 0
+  },
+  "GENE_demonic_engineering": {
+    "description": "Unholy Engineer",
+    "value": 0
+  },
+  "GENE_undercover_vamp": {
+    "description": "Shadow Spawn",
+    "value": 0
+  },
+  "GENE_more_with_less": {
+    "description": "Frugal Researcher",
+    "value": 0
+  },
+  "GENE_dna_frenzy": {
+    "description": "Mad Scientist",
+    "value": 0
+  },
+  "GENE_longer_life": {
+    "description": "Healthy Eater",
+    "value": 0
+  },
+  "GENE_spoils_of_war": {
+    "description": "Scavenger",
+    "value": 0
+  },
+  "GENE_rage_syndrome": {
+    "description": "Brawler",
+    "value": 0
+  },
+  "GENE_blood_lust": {
+    "description": "Berserker",
+    "value": 0
+  },
+  "GENE_feeding_frenzy": {
+    "description": "Harvester",
+    "value": 0
+  },
+  "GENE_migration": {
+    "description": "Bat Bolt",
+    "value": 0
+  },
+  "GENE_gliding": {
+    "description": "Budget Bat",
+    "value": 0
+  },
+  "GENE_jet_stream": {
+    "description": "Fair Weather Bat",
+    "value": 0
+  },
+  "GENE_desperation": {
+    "description": "Aerophobic Bat",
+    "value": 0
+  },
+  "GENE_hard_landing": {
+    "description": "Socially Awkward Bat",
+    "value": 0
+  },
+  "SP_DISEASE_VAMPIRE": {
+    "description": "",
+    "value": 0
+  },
+  "UNLOCK_mad_cow_disease": {
+    "description": "Unlocked Scenario Mad Cow Disease",
+    "value": 0
+  },
+  "UNLOCK_flight_club": {
+    "description": "Unlocked Scenario Flight Club",
+    "value": 0
+  },
+  "UNLOCK_where_is_everyone": {
+    "description": "Unlocked Scenario Where is Everyone",
+    "value": 0
+  }
+}

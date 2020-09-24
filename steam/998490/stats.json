@@ -1,0 +1,42 @@
+[
+  {
+    "name": "search_time",
+    "defaultvalue": 0,
+    "displayName": "探索时长"
+  },
+  {
+    "name": "max_hp",
+    "defaultvalue": 0,
+    "displayName": "最大血量"
+  },
+  {
+    "name": "av_damage",
+    "defaultvalue": 0,
+    "displayName": "平均伤害"
+  },
+  {
+    "name": "sleep_time",
+    "defaultvalue": 0,
+    "displayName": "睡眠时长"
+  },
+  {
+    "name": "kill_num",
+    "defaultvalue": 0,
+    "displayName": "击杀敌数"
+  },
+  {
+    "name": "whole_time",
+    "defaultvalue": 0,
+    "displayName": "总存活时长"
+  },
+  {
+    "name": "dead_times",
+    "defaultvalue": 0,
+    "displayName": "死亡次数"
+  },
+  {
+    "name": "cost_hp",
+    "defaultvalue": 0,
+    "displayName": "扣血总数"
+  }
+]

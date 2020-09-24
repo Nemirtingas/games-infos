@@ -1,0 +1,886 @@
+﻿{
+  "Global_Deaths": {
+    "description": "",
+    "value": 0
+  },
+  "Global_Kills": {
+    "description": "",
+    "value": 0
+  },
+  "Global_Money": {
+    "description": "",
+    "value": 0
+  },
+  "Global_Plays": {
+    "description": "",
+    "value": 0
+  },
+  "DungeonBoss_Attacks": {
+    "description": "",
+    "value": 0
+  },
+  "DungeonBoss_Hits": {
+    "description": "",
+    "value": 0
+  },
+  "DungeonBoss_Kills": {
+    "description": "",
+    "value": 0
+  },
+  "DungeonBoss_Deaths": {
+    "description": "",
+    "value": 0
+  },
+  "DungeonGuardHarmless_Attacks": {
+    "description": "",
+    "value": 0
+  },
+  "DungeonGuardHarmless_Hits": {
+    "description": "",
+    "value": 0
+  },
+  "DungeonGuardHarmless_Kills": {
+    "description": "",
+    "value": 0
+  },
+  "DungeonGuardHarmless_Deaths": {
+    "description": "",
+    "value": 0
+  },
+  "DungeonGuardHeavy_Attacks": {
+    "description": "",
+    "value": 0
+  },
+  "DungeonGuardHeavy_Hits": {
+    "description": "",
+    "value": 0
+  },
+  "DungeonGuardHeavy_Kills": {
+    "description": "",
+    "value": 0
+  },
+  "DungeonGuardHeavy_Deaths": {
+    "description": "",
+    "value": 0
+  },
+  "DungeonGuardShield_Attacks": {
+    "description": "",
+    "value": 0
+  },
+  "DungeonGuardShield_Hits": {
+    "description": "",
+    "value": 0
+  },
+  "DungeonGuardShield_Kills": {
+    "description": "",
+    "value": 0
+  },
+  "DungeonGuardShield_Deaths": {
+    "description": "",
+    "value": 0
+  },
+  "DungeonGuardShieldHard_Attacks": {
+    "description": "",
+    "value": 0
+  },
+  "DungeonGuardShieldHard_Hits": {
+    "description": "",
+    "value": 0
+  },
+  "DungeonGuardShieldHard_Kills": {
+    "description": "",
+    "value": 0
+  },
+  "DungeonGuardShieldHard_Deaths": {
+    "description": "",
+    "value": 0
+  },
+  "DungeonGuardSpear_Attacks": {
+    "description": "",
+    "value": 0
+  },
+  "DungeonGuardSpear_Hits": {
+    "description": "",
+    "value": 0
+  },
+  "DungeonGuardSpear_Kills": {
+    "description": "",
+    "value": 0
+  },
+  "DungeonGuardSpear_Deaths": {
+    "description": "",
+    "value": 0
+  },
+  "DungeonGuardSpearHard_Attacks": {
+    "description": "",
+    "value": 0
+  },
+  "DungeonGuardSpearHard_Hits": {
+    "description": "",
+    "value": 0
+  },
+  "DungeonGuardSpearHard_Kills": {
+    "description": "",
+    "value": 0
+  },
+  "DungeonGuardSpearHard_Deaths": {
+    "description": "",
+    "value": 0
+  },
+  "DungeonGuardSword_Attacks": {
+    "description": "",
+    "value": 0
+  },
+  "DungeonGuardSword_Hits": {
+    "description": "",
+    "value": 0
+  },
+  "DungeonGuardSword_Kills": {
+    "description": "",
+    "value": 0
+  },
+  "DungeonGuardSword_Deaths": {
+    "description": "",
+    "value": 0
+  },
+  "DungeonGuardSwordHard_Attacks": {
+    "description": "",
+    "value": 0
+  },
+  "DungeonGuardSwordHard_Hits": {
+    "description": "",
+    "value": 0
+  },
+  "DungeonGuardSwordHard_Kills": {
+    "description": "",
+    "value": 0
+  },
+  "DungeonGuardSwordHard_Deaths": {
+    "description": "",
+    "value": 0
+  },
+  "DungeonGuardTorch_Attacks": {
+    "description": "",
+    "value": 0
+  },
+  "DungeonGuardTorch_Hits": {
+    "description": "",
+    "value": 0
+  },
+  "DungeonGuardTorch_Kills": {
+    "description": "",
+    "value": 0
+  },
+  "DungeonGuardTorch_Deaths": {
+    "description": "",
+    "value": 0
+  },
+  "DesertGuard_Attacks": {
+    "description": "",
+    "value": 0
+  },
+  "DesertGuard_Hits": {
+    "description": "",
+    "value": 0
+  },
+  "DesertGuard_Kills": {
+    "description": "",
+    "value": 0
+  },
+  "DesertGuard_Deaths": {
+    "description": "",
+    "value": 0
+  },
+  "DesertGuardMiniboss_Attacks": {
+    "description": "",
+    "value": 0
+  },
+  "DesertGuardMiniboss_Hits": {
+    "description": "",
+    "value": 0
+  },
+  "DesertGuardMiniboss_Kills": {
+    "description": "",
+    "value": 0
+  },
+  "DesertGuardMiniboss_Deaths": {
+    "description": "",
+    "value": 0
+  },
+  "DesertGuardShield_Attacks": {
+    "description": "",
+    "value": 0
+  },
+  "DesertGuardShield_Hits": {
+    "description": "",
+    "value": 0
+  },
+  "DesertGuardShield_Kills": {
+    "description": "",
+    "value": 0
+  },
+  "DesertGuardShield_Deaths": {
+    "description": "",
+    "value": 0
+  },
+  "DesertGuardSpear_Attacks": {
+    "description": "",
+    "value": 0
+  },
+  "DesertGuardSpear_Hits": {
+    "description": "",
+    "value": 0
+  },
+  "DesertGuardSpear_Kills": {
+    "description": "",
+    "value": 0
+  },
+  "DesertGuardSpear_Deaths": {
+    "description": "",
+    "value": 0
+  },
+  "DesertZombieBig_Attacks": {
+    "description": "",
+    "value": 0
+  },
+  "DesertZombieBig_Hits": {
+    "description": "",
+    "value": 0
+  },
+  "DesertZombieBig_Kills": {
+    "description": "",
+    "value": 0
+  },
+  "DesertZombieBig_Deaths": {
+    "description": "",
+    "value": 0
+  },
+  "DesertZombieMiniboss_Attacks": {
+    "description": "",
+    "value": 0
+  },
+  "DesertZombieMiniboss_Hits": {
+    "description": "",
+    "value": 0
+  },
+  "DesertZombieMiniboss_Kills": {
+    "description": "",
+    "value": 0
+  },
+  "DesertZombieMiniboss_Deaths": {
+    "description": "",
+    "value": 0
+  },
+  "DesertZombieSmall_Attacks": {
+    "description": "",
+    "value": 0
+  },
+  "DesertZombieSmall_Hits": {
+    "description": "",
+    "value": 0
+  },
+  "DesertZombieSmall_Kills": {
+    "description": "",
+    "value": 0
+  },
+  "DesertZombieSmall_Deaths": {
+    "description": "",
+    "value": 0
+  },
+  "OasisBandit_Attacks": {
+    "description": "",
+    "value": 0
+  },
+  "OasisBandit_Hits": {
+    "description": "",
+    "value": 0
+  },
+  "OasisBandit_Kills": {
+    "description": "",
+    "value": 0
+  },
+  "OasisBandit_Deaths": {
+    "description": "",
+    "value": 0
+  },
+  "OasisBanditArcher_Attacks": {
+    "description": "",
+    "value": 0
+  },
+  "OasisBanditArcher_Hits": {
+    "description": "",
+    "value": 0
+  },
+  "OasisBanditArcher_Kills": {
+    "description": "",
+    "value": 0
+  },
+  "OasisBanditArcher_Deaths": {
+    "description": "",
+    "value": 0
+  },
+  "OasisBanditBrute_Attacks": {
+    "description": "",
+    "value": 0
+  },
+  "OasisBanditBrute_Hits": {
+    "description": "",
+    "value": 0
+  },
+  "OasisBanditBrute_Kills": {
+    "description": "",
+    "value": 0
+  },
+  "OasisBanditBrute_Deaths": {
+    "description": "",
+    "value": 0
+  },
+  "OasisBanditDistanceArcher_Attacks": {
+    "description": "",
+    "value": 0
+  },
+  "OasisBanditDistanceArcher_Hits": {
+    "description": "",
+    "value": 0
+  },
+  "OasisBanditDistanceArcher_Kills": {
+    "description": "",
+    "value": 0
+  },
+  "OasisBanditDistanceArcher_Deaths": {
+    "description": "",
+    "value": 0
+  },
+  "OasisBanditHard_Attacks": {
+    "description": "",
+    "value": 0
+  },
+  "OasisBanditHard_Hits": {
+    "description": "",
+    "value": 0
+  },
+  "OasisBanditHard_Kills": {
+    "description": "",
+    "value": 0
+  },
+  "OasisBanditHard_Deaths": {
+    "description": "",
+    "value": 0
+  },
+  "OasisBoss_Attacks": {
+    "description": "",
+    "value": 0
+  },
+  "OasisBoss_Hits": {
+    "description": "",
+    "value": 0
+  },
+  "OasisBoss_Kills": {
+    "description": "",
+    "value": 0
+  },
+  "OasisBoss_Deaths": {
+    "description": "",
+    "value": 0
+  },
+  "OasisMiniboss_Attacks": {
+    "description": "",
+    "value": 0
+  },
+  "OasisMiniboss_Hits": {
+    "description": "",
+    "value": 0
+  },
+  "OasisMiniboss_Kills": {
+    "description": "",
+    "value": 0
+  },
+  "OasisMiniboss_Deaths": {
+    "description": "",
+    "value": 0
+  },
+  "QuarryTownCorruptedPeasant_Attacks": {
+    "description": "",
+    "value": 0
+  },
+  "QuarryTownCorruptedPeasant_Hits": {
+    "description": "",
+    "value": 0
+  },
+  "QuarryTownCorruptedPeasant_Kills": {
+    "description": "",
+    "value": 0
+  },
+  "QuarryTownCorruptedPeasant_Deaths": {
+    "description": "",
+    "value": 0
+  },
+  "QuarryTownCorruptedPeasantFork_Attacks": {
+    "description": "",
+    "value": 0
+  },
+  "QuarryTownCorruptedPeasantFork_Hits": {
+    "description": "",
+    "value": 0
+  },
+  "QuarryTownCorruptedPeasantFork_Kills": {
+    "description": "",
+    "value": 0
+  },
+  "QuarryTownCorruptedPeasantFork_Deaths": {
+    "description": "",
+    "value": 0
+  },
+  "QuarryTownCorruptedScorpion_Attacks": {
+    "description": "",
+    "value": 0
+  },
+  "QuarryTownCorruptedScorpion_Hits": {
+    "description": "",
+    "value": 0
+  },
+  "QuarryTownCorruptedScorpion_Kills": {
+    "description": "",
+    "value": 0
+  },
+  "QuarryTownCorruptedScorpion_Deaths": {
+    "description": "",
+    "value": 0
+  },
+  "QuarryTownMiniboss_Attacks": {
+    "description": "",
+    "value": 0
+  },
+  "QuarryTownMiniboss_Hits": {
+    "description": "",
+    "value": 0
+  },
+  "QuarryTownMiniboss_Kills": {
+    "description": "",
+    "value": 0
+  },
+  "QuarryTownMiniboss_Deaths": {
+    "description": "",
+    "value": 0
+  },
+  "QuarryBoss_Attacks": {
+    "description": "",
+    "value": 0
+  },
+  "QuarryBoss_Hits": {
+    "description": "",
+    "value": 0
+  },
+  "QuarryBoss_Kills": {
+    "description": "",
+    "value": 0
+  },
+  "QuarryBoss_Deaths": {
+    "description": "",
+    "value": 0
+  },
+  "QuarryGolemBig_Attacks": {
+    "description": "",
+    "value": 0
+  },
+  "QuarryGolemBig_Hits": {
+    "description": "",
+    "value": 0
+  },
+  "QuarryGolemBig_Kills": {
+    "description": "",
+    "value": 0
+  },
+  "QuarryGolemBig_Deaths": {
+    "description": "",
+    "value": 0
+  },
+  "QuarryGolemEnormous_Attacks": {
+    "description": "",
+    "value": 0
+  },
+  "QuarryGolemEnormous_Hits": {
+    "description": "",
+    "value": 0
+  },
+  "QuarryGolemEnormous_Kills": {
+    "description": "",
+    "value": 0
+  },
+  "QuarryGolemEnormous_Deaths": {
+    "description": "",
+    "value": 0
+  },
+  "QuarryGolemThrower_Attacks": {
+    "description": "",
+    "value": 0
+  },
+  "QuarryGolemThrower_Hits": {
+    "description": "",
+    "value": 0
+  },
+  "QuarryGolemThrower_Kills": {
+    "description": "",
+    "value": 0
+  },
+  "QuarryGolemThrower_Deaths": {
+    "description": "",
+    "value": 0
+  },
+  "RiverAmphibious_Attacks": {
+    "description": "",
+    "value": 0
+  },
+  "RiverAmphibious_Hits": {
+    "description": "",
+    "value": 0
+  },
+  "RiverAmphibious_Kills": {
+    "description": "",
+    "value": 0
+  },
+  "RiverAmphibious_Deaths": {
+    "description": "",
+    "value": 0
+  },
+  "RiverAmphibiousDistanceArcher_Attacks": {
+    "description": "",
+    "value": 0
+  },
+  "RiverAmphibiousDistanceArcher_Hits": {
+    "description": "",
+    "value": 0
+  },
+  "RiverAmphibiousDistanceArcher_Kills": {
+    "description": "",
+    "value": 0
+  },
+  "RiverAmphibiousDistanceArcher_Deaths": {
+    "description": "",
+    "value": 0
+  },
+  "RiverBoss_Attacks": {
+    "description": "",
+    "value": 0
+  },
+  "RiverBoss_Hits": {
+    "description": "",
+    "value": 0
+  },
+  "RiverBoss_Kills": {
+    "description": "",
+    "value": 0
+  },
+  "RiverBoss_Deaths": {
+    "description": "",
+    "value": 0
+  },
+  "RiverKroxigor_Attacks": {
+    "description": "",
+    "value": 0
+  },
+  "RiverKroxigor_Hits": {
+    "description": "",
+    "value": 0
+  },
+  "RiverKroxigor_Kills": {
+    "description": "",
+    "value": 0
+  },
+  "RiverKroxigor_Deaths": {
+    "description": "",
+    "value": 0
+  },
+  "RiverMiniboss_Attacks": {
+    "description": "",
+    "value": 0
+  },
+  "RiverMiniboss_Hits": {
+    "description": "",
+    "value": 0
+  },
+  "RiverMiniboss_Kills": {
+    "description": "",
+    "value": 0
+  },
+  "RiverMiniboss_Deaths": {
+    "description": "",
+    "value": 0
+  },
+  "RiverSmallAmphibious_Attacks": {
+    "description": "",
+    "value": 0
+  },
+  "RiverSmallAmphibious_Hits": {
+    "description": "",
+    "value": 0
+  },
+  "RiverSmallAmphibious_Kills": {
+    "description": "",
+    "value": 0
+  },
+  "RiverSmallAmphibious_Deaths": {
+    "description": "",
+    "value": 0
+  },
+  "RiverTownGuardAxe_Attacks": {
+    "description": "",
+    "value": 0
+  },
+  "RiverTownGuardAxe_Hits": {
+    "description": "",
+    "value": 0
+  },
+  "RiverTownGuardAxe_Kills": {
+    "description": "",
+    "value": 0
+  },
+  "RiverTownGuardAxe_Deaths": {
+    "description": "",
+    "value": 0
+  },
+  "RiverTownGuardShield_Attacks": {
+    "description": "",
+    "value": 0
+  },
+  "RiverTownGuardShield_Hits": {
+    "description": "",
+    "value": 0
+  },
+  "RiverTownGuardShield_Kills": {
+    "description": "",
+    "value": 0
+  },
+  "RiverTownGuardShield_Deaths": {
+    "description": "",
+    "value": 0
+  },
+  "RiverTownGuardSpear_Attacks": {
+    "description": "",
+    "value": 0
+  },
+  "RiverTownGuardSpear_Hits": {
+    "description": "",
+    "value": 0
+  },
+  "RiverTownGuardSpear_Kills": {
+    "description": "",
+    "value": 0
+  },
+  "RiverTownGuardSpear_Deaths": {
+    "description": "",
+    "value": 0
+  },
+  "Area_Dungeon_Deaths": {
+    "description": "",
+    "value": 0
+  },
+  "Area_Dungeon_Kills": {
+    "description": "",
+    "value": 0
+  },
+  "Area_Dungeon_Money": {
+    "description": "",
+    "value": 0
+  },
+  "Area_Dungeon_Plays": {
+    "description": "",
+    "value": 0
+  },
+  "Area_DungeonBoss_Deaths": {
+    "description": "",
+    "value": 0
+  },
+  "Area_DungeonBoss_Kills": {
+    "description": "",
+    "value": 0
+  },
+  "Area_DungeonBoss_Money": {
+    "description": "",
+    "value": 0
+  },
+  "Area_DungeonBoss_Plays": {
+    "description": "",
+    "value": 0
+  },
+  "Area_DesertTown_Deaths": {
+    "description": "",
+    "value": 0
+  },
+  "Area_DesertTown_Kills": {
+    "description": "",
+    "value": 0
+  },
+  "Area_DesertTown_Money": {
+    "description": "",
+    "value": 0
+  },
+  "Area_DesertTown_Plays": {
+    "description": "",
+    "value": 0
+  },
+  "Area_DesertRuins_Deaths": {
+    "description": "",
+    "value": 0
+  },
+  "Area_DesertRuins_Kills": {
+    "description": "",
+    "value": 0
+  },
+  "Area_DesertRuins_Money": {
+    "description": "",
+    "value": 0
+  },
+  "Area_DesertRuins_Plays": {
+    "description": "",
+    "value": 0
+  },
+  "Area_CityWall_Deaths": {
+    "description": "",
+    "value": 0
+  },
+  "Area_CityWall_Kills": {
+    "description": "",
+    "value": 0
+  },
+  "Area_CityWall_Money": {
+    "description": "",
+    "value": 0
+  },
+  "Area_CityWall_Plays": {
+    "description": "",
+    "value": 0
+  },
+  "Area_Oasis_Deaths": {
+    "description": "",
+    "value": 0
+  },
+  "Area_Oasis_Kills": {
+    "description": "",
+    "value": 0
+  },
+  "Area_Oasis_Money": {
+    "description": "",
+    "value": 0
+  },
+  "Area_Oasis_Plays": {
+    "description": "",
+    "value": 0
+  },
+  "Area_OasisBoss_Deaths": {
+    "description": "",
+    "value": 0
+  },
+  "Area_OasisBoss_Kills": {
+    "description": "",
+    "value": 0
+  },
+  "Area_OasisBoss_Money": {
+    "description": "",
+    "value": 0
+  },
+  "Area_OasisBoss_Plays": {
+    "description": "",
+    "value": 0
+  },
+  "Area_QuarryTown_Deaths": {
+    "description": "",
+    "value": 0
+  },
+  "Area_QuarryTown_Kills": {
+    "description": "",
+    "value": 0
+  },
+  "Area_QuarryTown_Money": {
+    "description": "",
+    "value": 0
+  },
+  "Area_QuarryTown_Plays": {
+    "description": "",
+    "value": 0
+  },
+  "Area_Quarry_Deaths": {
+    "description": "",
+    "value": 0
+  },
+  "Area_Quarry_Kills": {
+    "description": "",
+    "value": 0
+  },
+  "Area_Quarry_Money": {
+    "description": "",
+    "value": 0
+  },
+  "Area_Quarry_Plays": {
+    "description": "",
+    "value": 0
+  },
+  "Area_QuarryBoss_Deaths": {
+    "description": "",
+    "value": 0
+  },
+  "Area_QuarryBoss_Kills": {
+    "description": "",
+    "value": 0
+  },
+  "Area_QuarryBoss_Money": {
+    "description": "",
+    "value": 0
+  },
+  "Area_QuarryBoss_Plays": {
+    "description": "",
+    "value": 0
+  },
+  "Area_River_Deaths": {
+    "description": "",
+    "value": 0
+  },
+  "Area_River_Kills": {
+    "description": "",
+    "value": 0
+  },
+  "Area_River_Money": {
+    "description": "",
+    "value": 0
+  },
+  "Area_River_Plays": {
+    "description": "",
+    "value": 0
+  },
+  "Area_RiverTown_Deaths": {
+    "description": "",
+    "value": 0
+  },
+  "Area_RiverTown_Kills": {
+    "description": "",
+    "value": 0
+  },
+  "Area_RiverTown_Money": {
+    "description": "",
+    "value": 0
+  },
+  "Area_RiverTown_Plays": {
+    "description": "",
+    "value": 0
+  },
+  "Area_RiverBoss_Deaths": {
+    "description": "",
+    "value": 0
+  },
+  "Area_RiverBoss_Kills": {
+    "description": "",
+    "value": 0
+  },
+  "Area_RiverBoss_Money": {
+    "description": "",
+    "value": 0
+  },
+  "Area_RiverBoss_Plays": {
+    "description": "",
+    "value": 0
+  },
+  "Global_Parries": {
+    "description": "",
+    "value": 0
+  }
+}

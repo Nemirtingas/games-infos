@@ -1,0 +1,243 @@
+﻿[
+  {
+    "name": "EXPERIENCED_CREWMEMBER",
+    "defaultvalue": 0,
+    "displayName": "Veteran Crew",
+    "hidden": 0,
+    "description": "Reach Crew Level 25",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/252870/91c7dbc2a0f484aaf715fc4172da96dc8ea0e009.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/252870/3bb9fa87eb93139d8ec2e829aeba6203993fb382.jpg"
+  },
+  {
+    "name": "ANCIENT_SENTRY",
+    "defaultvalue": 0,
+    "displayName": "The Ancient Sentry",
+    "hidden": 0,
+    "description": "Defeat the Ancient Sentry",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/252870/f18a859d17129a4ac9107219f4fe395d293027f3.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/252870/dabceb12299862e2b9964139064f898cba5db2e2.jpg"
+  },
+  {
+    "name": "ARTIFACT_MISSIONS",
+    "defaultvalue": 0,
+    "displayName": "No Questions Asked",
+    "hidden": 0,
+    "description": "Complete Rumibard Warger's artifact collection missions",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/252870/c7ee36f1a762e9250ee6b5ce0deedbff5a3b89ef.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/252870/101075dbcbfad98d5801e83e60303dbc11a4fd22.jpg"
+  },
+  {
+    "name": "BEAT_THE_ARENA",
+    "defaultvalue": 0,
+    "displayName": "Sandscarred",
+    "hidden": 0,
+    "description": "Win the Sandscar Arena",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/252870/b4d6aea24e19caea98e7e5d1e99b8e3dac928e72.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/252870/56709655f5006cde5761724ad2720e1fb7927a70.jpg"
+  },
+  {
+    "name": "BIG_SPENDER",
+    "defaultvalue": 0,
+    "displayName": "Big Spender",
+    "hidden": 0,
+    "description": "Spend 100,000 credits in a single game",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/252870/cda7ec351d4c72271c0c0c7095f7681854a302ea.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/252870/f0a3e91438e9f3ee8ca08809c749bcc9fde7c774.jpg"
+  },
+  {
+    "name": "MASTER_CHEF",
+    "defaultvalue": 0,
+    "displayName": "Master Chef",
+    "hidden": 0,
+    "description": "Perfectly cook 5 biscuits in a row",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/252870/e000cf6596eab0684f99c60b711b6a6d3ca41a30.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/252870/e6e3b50471012c3d0313890d544eb70f66ada352.jpg"
+  },
+  {
+    "name": "BISCUIT_MADNESS",
+    "defaultvalue": 0,
+    "displayName": "Biscuit Madness",
+    "hidden": 0,
+    "description": "",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/252870/0e3c39b020663afdd5bea1c674d2620102931dd0.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/252870/5b63f3595ebaf8e647c6b15228052c6fd02ed152.jpg"
+  },
+  {
+    "name": "BLIND_JUMPER",
+    "defaultvalue": 0,
+    "displayName": "Leap of Faith",
+    "hidden": 0,
+    "description": "Blind jump 5 times in a single game",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/252870/ac9e69eb2a86627d98d2627ec7186887b28970d0.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/252870/de459ef572ab062ecc7a1f77f3f3c67693a3dea9.jpg"
+  },
+  {
+    "name": "CAUSTIC_CORSAIR",
+    "defaultvalue": 0,
+    "displayName": "The Caustic Corsair",
+    "hidden": 0,
+    "description": "Defeat the Caustic Corsair",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/252870/c8e096119df9d69db29bcc5b964bdc0feb544d04.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/252870/79cd8252acf052b71c5846dcfe399f431da52c28.jpg"
+  },
+  {
+    "name": "DEATHSEEKER",
+    "defaultvalue": 0,
+    "displayName": "Seeking Death",
+    "hidden": 0,
+    "description": "Defeat a Deathseeker",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/252870/7f3c7c2eccd328209d34aef8d4a266c58e9ef321.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/252870/de3dfcc04caff0db59640f4d92e12e6f3a4f93aa.jpg"
+  },
+  {
+    "name": "DIPLOMAT",
+    "defaultvalue": 0,
+    "displayName": "Diplomat",
+    "hidden": 0,
+    "description": "As captain, pacify 25 hostile ships",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/252870/fb1932b5aadd2f6cd23d9b6ead0ff4e4220d369e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/252870/00f2380e33003d452082b5f9dc34481ddb6bc7df.jpg"
+  },
+  {
+    "name": "EXPLORER",
+    "defaultvalue": 0,
+    "displayName": "Explorer",
+    "hidden": 0,
+    "description": "Make 150 jumps",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/252870/2cb23f956b14706cc3b0231cdeabd31cd7cacc65.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/252870/8edbc47398d9d6d06d7f1fa22efe336d61c03f94.jpg"
+  },
+  {
+    "name": "EXTORTIONIST",
+    "defaultvalue": 0,
+    "displayName": "Extortionist",
+    "hidden": 0,
+    "description": "As captain, extort 25 ships",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/252870/e8660ed16cebc490d785b238c83685eea7d9e405.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/252870/6d4708a20b262ee797209efebbc7db56d26ae6e3.jpg"
+  },
+  {
+    "name": "FORSAKEN_FLAGSHIP",
+    "defaultvalue": 0,
+    "displayName": "The Forsaken Flagship",
+    "hidden": 0,
+    "description": "Complete the W.D. Corporation faction mission line",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/252870/79eef0facda736ff45e93ffae26b5d849a39482e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/252870/97c02313c987ff25cbdf4a3c1da7fb1c2788691b.jpg"
+  },
+  {
+    "name": "GALAXY_IN_TURMOIL",
+    "defaultvalue": 0,
+    "displayName": "Galaxy In Chaos",
+    "hidden": 0,
+    "description": "Reach Chaos level 6",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/252870/7fd164f52b93432229c13b0360866255243dcd1b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/252870/34e0a9d48a6a9d1c6b7cba0b7ef6a8ebc65f81d2.jpg"
+  },
+  {
+    "name": "GREAT_BISCUIT_RACE",
+    "defaultvalue": 0,
+    "displayName": "The Great Biscuit Race",
+    "hidden": 0,
+    "description": "Win the Fluffy Biscuit Company sales competition",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/252870/4e1e52d7d1c28d1c936f74313de6a7152bbd70d8.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/252870/fc94748be33e124b24f756bf4a1d899713512765.jpg"
+  },
+  {
+    "name": "GRIM_CUTLASS",
+    "defaultvalue": 0,
+    "displayName": "The Grim Cutlass",
+    "hidden": 0,
+    "description": "Defeat the Grim Cutlass",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/252870/7f25c6ff122977c4f63d0eec5663b89b591a2458.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/252870/61d970a28136854779a4f91037a384b3c4e504ae.jpg"
+  },
+  {
+    "name": "HEAL_ALLIES",
+    "defaultvalue": 0,
+    "displayName": "Hold Still",
+    "hidden": 0,
+    "description": "Heal 5,000 hit points on your allies",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/252870/e8213cd737d2d8b9377eccd9ac14870bd723a7d1.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/252870/ef34456e24667b1639b3b8874c0ed61e608a84d4.jpg"
+  },
+  {
+    "name": "LIARS_DICE_WIN",
+    "defaultvalue": 0,
+    "displayName": "Dice Champion",
+    "hidden": 0,
+    "description": "Win a game of Liar’s Dice",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/252870/1fb12eb08307a68fefe77c861a3d4b3c07e728c4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/252870/d4efca6fdd892be8eb16c5b392074d82a14891bb.jpg"
+  },
+  {
+    "name": "MADMANS_MANSION",
+    "defaultvalue": 0,
+    "displayName": "The Madman's Mansion",
+    "hidden": 0,
+    "description": "Complete the Alliance of Gentlemen faction mission line",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/252870/34e42b08a88b7de9fc012020cfe54f0070cf762a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/252870/19767c66daf401eab6096e64b58bb9ca25b8315f.jpg"
+  },
+  {
+    "name": "PACIFIST",
+    "defaultvalue": 0,
+    "displayName": "Pacifist",
+    "hidden": 0,
+    "description": "Reach crew level 10 without dealing any damage",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/252870/a1ce4213b9bd7362670619dbd185934b53404fad.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/252870/c01bcf7f3e519f94abd337bc9913b01ca1fc22e9.jpg"
+  },
+  {
+    "name": "RESEARCH_TALENTS",
+    "defaultvalue": 0,
+    "displayName": "Researcher",
+    "hidden": 0,
+    "description": "Research 10 talents",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/252870/4e1588cdeb736ddb9c9f9ebc08df5d4a69ca8a89.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/252870/e5af4212dd30356d4c813b4e34874e85fe07bd92.jpg"
+  },
+  {
+    "name": "THE_SWARM",
+    "defaultvalue": 0,
+    "displayName": "The Swarm",
+    "hidden": 0,
+    "description": "Defeat the Swarm",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/252870/0122c0e305b3d531631a07a4492740e552573a08.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/252870/f4f53df24d4067a6ec8c58ba3b59683faf0bc5c7.jpg"
+  },
+  {
+    "name": "VUUROG",
+    "defaultvalue": 0,
+    "displayName": "Call Of The Void",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/252870/f81daf500c7c0de891a6a0eaf9bd542a0eed5bd9.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/252870/d2014e9e6fc225c0b728f8821b0796e87262f940.jpg"
+  },
+  {
+    "name": "WASTED_WING",
+    "defaultvalue": 0,
+    "displayName": "The Wasted Wing",
+    "hidden": 0,
+    "description": "Complete the Colonial Union faction mission line",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/252870/c66f9fe63edf0bac887a416d1eabf3f50c7a7eb7.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/252870/4257d9b1c968b64203a15cea2a32ab7bc8f71467.jpg"
+  },
+  {
+    "name": "WIN_THE_RACES",
+    "defaultvalue": 0,
+    "displayName": "First Place",
+    "hidden": 0,
+    "description": "Win the Ion Races",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/252870/cfe134e6c073e679f5a536d0ade9aa454c38c8b1.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/252870/19260100f6db2d443bc5153ca39bd876635f0ae4.jpg"
+  },
+  {
+    "name": "CYPHER_MASTER",
+    "defaultvalue": 0,
+    "displayName": "Cypher Master",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/252870/5d18c0358b93711357e5edf7fc0863087136ad42.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/252870/6b7d65ecf28e0b77dbac64985ba846fb1844dbff.jpg"
+  }
+]

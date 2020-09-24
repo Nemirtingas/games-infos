@@ -1,0 +1,379 @@
+[
+  {
+    "name": "ACH_CAMO_GLADIATOR",
+    "defaultvalue": 0,
+    "displayName": "Spartacus",
+    "hidden": 0,
+    "description": "Collect all four camouflages for Gladiator",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/980770/6a8b16cb4107cd3874b14cb0d68da1dcf092bd4f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/980770/da517a640152c48d29fe99d31fd5816fe584b81b.jpg"
+  },
+  {
+    "name": "ACH_CAMO_FRECCIA",
+    "defaultvalue": 0,
+    "displayName": "Flying Spaghetti",
+    "hidden": 0,
+    "description": "Collect all four camouflages for G.50",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/980770/9b16f248ddf8c1df2442999cf1381e96f0ec1999.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/980770/7466375641612ed6fbe698e0fa862c247566802d.jpg"
+  },
+  {
+    "name": "ACH_CAMO_IL2",
+    "defaultvalue": 0,
+    "displayName": "Hunchback",
+    "hidden": 0,
+    "description": "Collect all four camouflages for Il-2m3",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/980770/32d8f639cf0590b548b40d47bf5a0f3e0a16ebe4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/980770/2b6fae30aa6ea34ce8e47b1fc699f70f3a5d06de.jpg"
+  },
+  {
+    "name": "ACH_CAMO_STUKA",
+    "defaultvalue": 0,
+    "displayName": "A Siren Song",
+    "hidden": 0,
+    "description": "Collect all four camouflages for Stuka",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/980770/1553ef8b13f858e7f5eed7bfb550e0c0f22d5afb.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/980770/acee97f0905032d2bf690cdcc1b071e1909e1a2f.jpg"
+  },
+  {
+    "name": "ACH_CAMO_HELLCAT",
+    "defaultvalue": 0,
+    "displayName": "Feisty Cat",
+    "hidden": 0,
+    "description": "Collect all four camouflages for Hellcat",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/980770/2aa5d60ffdd128b1155ec4fd9e94ca34033d33fe.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/980770/55fe6cf420007085b0ca9d8e888667484471bf70.jpg"
+  },
+  {
+    "name": "ACH_CAMO_ZERO",
+    "defaultvalue": 0,
+    "displayName": "Diamond of the Pacific",
+    "hidden": 0,
+    "description": "Collect all four camouflages for Zero",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/980770/d0ff6aaa77607eda2e841f33738506ae8d08eaec.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/980770/410e4624e61cec9483314c9a9329f1336f6cd9f4.jpg"
+  },
+  {
+    "name": "ACH_CAMO_MUSTANG",
+    "defaultvalue": 0,
+    "displayName": "Stallion",
+    "hidden": 0,
+    "description": "Collect all four camouflages for Mustang",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/980770/c58f1e4c83a06c24d46fc779cde46d66aa08281c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/980770/ac2f51d77d401d06629345c1a95816a37cf8ec16.jpg"
+  },
+  {
+    "name": "ACH_CAMO_BLACKWIDOW",
+    "defaultvalue": 0,
+    "displayName": "Arachnofobia",
+    "hidden": 0,
+    "description": "Collect all four camouflages for Black Widow",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/980770/ecdf3db682f976a4e71114f5c38355a41d03f47b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/980770/2c929211ee17da2f9cb8a0313a8e47ea60ad4b74.jpg"
+  },
+  {
+    "name": "ACH_CAMO_FW190",
+    "defaultvalue": 0,
+    "displayName": "One Ninety",
+    "hidden": 0,
+    "description": "Collect all four camouflages for Fw 190",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/980770/ec63484951a521e0ac1f80b0276b7b65d75272bd.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/980770/63edb212be07d6f8c2c5b30a33b580d226a1d776.jpg"
+  },
+  {
+    "name": "ACH_CAMO_BF110",
+    "defaultvalue": 0,
+    "displayName": "Fatman's Folly",
+    "hidden": 0,
+    "description": "Collect all four camouflages for Bf 110",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/980770/3ecf2f4c7546d2ba112acc019e11d1154f75db06.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/980770/231cb1179e2c20b60826a0fc3f57af29e4358ae4.jpg"
+  },
+  {
+    "name": "ACH_CAMO_MIG3",
+    "defaultvalue": 0,
+    "displayName": "Red Arrow",
+    "hidden": 0,
+    "description": "Collect all four camouflages for Mig-3",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/980770/10305ec49e1e83e9029d7166e97b5f37fd94b313.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/980770/70480b81e542607a84365a5c64d7be60955b816e.jpg"
+  },
+  {
+    "name": "ACH_CAMO_METEOR",
+    "defaultvalue": 0,
+    "displayName": "Falling Star",
+    "hidden": 0,
+    "description": "Collect all four camouflages for Meteor",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/980770/619b1000e3f8d0aeb4f9c3beffcb3437d5e3373a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/980770/bad8569b595f1916b1c003658b422b4c19dfd810.jpg"
+  },
+  {
+    "name": "ACH_CAMO_KOMET",
+    "defaultvalue": 0,
+    "displayName": "Das Kraftei",
+    "hidden": 0,
+    "description": "Collect all four camouflages for Komet",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/980770/e1a74793ecf28b14aca4566745c6d083c179479d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/980770/b80e4a675d27694dc2446f4c0779ef2807dcc0bf.jpg"
+  },
+  {
+    "name": "ACH_CAMO_SCHWALBE",
+    "defaultvalue": 0,
+    "displayName": "Prince of turbojet",
+    "hidden": 0,
+    "description": "Collect all four camouflages for Schwalbe",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/980770/3d6b2225bf8f5353c80751e5dd3d0c7d8e700358.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/980770/5eb7c17d7e66311fefdd9a1af03c2e7908d2db20.jpg"
+  },
+  {
+    "name": "ACH_MIDAS",
+    "defaultvalue": 0,
+    "displayName": "Midas",
+    "hidden": 0,
+    "description": "Collect all golden camouflages",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/980770/312b33bde568407bcfe79b8acc35d94b4d8c244b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/980770/c2ab47e55d20ec34f841ef4c5a92847629fc29d3.jpg"
+  },
+  {
+    "name": "ACH_GLADIATOR",
+    "defaultvalue": 0,
+    "displayName": "Cooper's apprentice",
+    "hidden": 0,
+    "description": "Make 100 barrels with Gladiator",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/980770/3edd7954861ff4ec34bf62d5fba63d1533e9d11c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/980770/4150cb47487689b6f27d08c819ef599a71f61756.jpg"
+  },
+  {
+    "name": "ACH_FRECCIA",
+    "defaultvalue": 0,
+    "displayName": "Hit and sink",
+    "hidden": 0,
+    "description": "Destroy 75 enemy ships with G.50",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/980770/bafc280d963b7955e59c2e073c5a8e60f26b49d0.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/980770/7ffc845a734f0f3a90eb0e4339a40fccddfc18bb.jpg"
+  },
+  {
+    "name": "ACH_HELLCAT",
+    "defaultvalue": 0,
+    "displayName": "Meow!",
+    "hidden": 0,
+    "description": "Destroy 100 cat figures with Hellcat",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/980770/0e68fabb664db998667688ef2de96169be346b64.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/980770/f1b36946afbbf58e270cc15f87fd3943fec51cec.jpg"
+  },
+  {
+    "name": "ACH_ZERO",
+    "defaultvalue": 0,
+    "displayName": "Kamikaze",
+    "hidden": 0,
+    "description": "Destroy 100 enemy vehicles by ramming them with Zero",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/980770/37bdd4a8a86dc9a6e64b85dd24a7328bd58364a6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/980770/dce20be9829dfc98118be9c539924ba6c4b41751.jpg"
+  },
+  {
+    "name": "ACH_IL2",
+    "defaultvalue": 0,
+    "displayName": "Ram-Wham!",
+    "hidden": 0,
+    "description": "Destroy 100 break-ups without using any weapon while flying Il-2m3",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/980770/d7880b63c9588ad82ef86b4537aa791ff505ecc0.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/980770/09e1f38f3b628150ca86ddb9f3ba6fef427c0979.jpg"
+  },
+  {
+    "name": "ACH_STUKA",
+    "defaultvalue": 0,
+    "displayName": "How I hate those tanks",
+    "hidden": 0,
+    "description": "Destroy 100 enemy tanks with Stuka",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/980770/7bb9e2b1e32548af0dcd0f6fe34fcfc513d1bfc2.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/980770/e421b56e8a37fa318c87218a64661c65527554ab.jpg"
+  },
+  {
+    "name": "ACH_MUSTANG",
+    "defaultvalue": 0,
+    "displayName": "Prohibition",
+    "hidden": 0,
+    "description": "Break 100 glass bottles with Mustang",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/980770/4ae3f30b0bfa268475789261c48ff0e657d10d36.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/980770/36a219cd0f75d26a35a3a106a234dd429c1bb7eb.jpg"
+  },
+  {
+    "name": "ACH_FW190",
+    "defaultvalue": 0,
+    "displayName": "Flycatcher",
+    "hidden": 0,
+    "description": "Destroy 250 enemy aircrafts with Fw 190",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/980770/9ded8d02d4f1c67832868906fb23463fe227bf00.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/980770/f78faff111fcb0021e8a7b3f17355aecad8daf79.jpg"
+  },
+  {
+    "name": "ACH_BLACKWIDOW",
+    "defaultvalue": 0,
+    "displayName": "Illumination",
+    "hidden": 0,
+    "description": "Turn the lights on 100 times with Black Widow",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/980770/e9297ffe40253a05a77898570f2632fe4dedbd72.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/980770/f6b7cab47089f617dcd1b3621ec48943eb6ba416.jpg"
+  },
+  {
+    "name": "ACH_BF110",
+    "defaultvalue": 0,
+    "displayName": "Demolition man",
+    "hidden": 0,
+    "description": "Destroy 250 enemy buildings with Bf 110",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/980770/a09a53096d3d0bfd1ef5b59f638a6d5262f4eaa6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/980770/b5bab28ebd98b6e1dc6a68077fb1362740704822.jpg"
+  },
+  {
+    "name": "ACH_MIG3",
+    "defaultvalue": 0,
+    "displayName": "The good, the bad and the ugly",
+    "hidden": 0,
+    "description": "Destroy a plane, a tank and a ship in 15 seconds with MiG-3",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/980770/172de0f39c33719f790c68d5fbc11dff6cd3f339.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/980770/0f6bd0b0e1fbdc377e7f6fe83367ba7f71aa5e27.jpg"
+  },
+  {
+    "name": "ACH_KOMET",
+    "defaultvalue": 0,
+    "displayName": "Shooting stars never stop",
+    "hidden": 0,
+    "description": "Fly 1km with Komet without landing",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/980770/d80c8cfe362af8114ea7d63105d490c412d71fee.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/980770/46f90148a30699b40d9bbdbb96495a37fd5e9019.jpg"
+  },
+  {
+    "name": "ACH_METEOR",
+    "defaultvalue": 0,
+    "displayName": "These are not my balls",
+    "hidden": 0,
+    "description": "Put all pool balls to pockets with Meteor",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/980770/75aaacf2d884264d03d95eb8369670f0ab4038e5.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/980770/a74c435cdab2c62520008c5fd704426336040afc.jpg"
+  },
+  {
+    "name": "ACH_SCHWALBE",
+    "defaultvalue": 0,
+    "displayName": "Terrorist",
+    "hidden": 0,
+    "description": "Destroy 250 unarmed enemy vehicles with Schwalbe",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/980770/f1766ed414a2c8ed076143dcd1c06c98c1a9c871.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/980770/83f081da59dd3224170062d7f549b979cc4d8658.jpg"
+  },
+  {
+    "name": "ACH_MISSIONS1",
+    "defaultvalue": 0,
+    "displayName": "Basecamp",
+    "hidden": 0,
+    "description": "Now you finally know how to fly a plane.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/980770/682d44cb28e4332e6cd9a6752301ac3124961cfa.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/980770/2ebe9b673d73a66b1d54f73d416d5beb01081e5a.jpg"
+  },
+  {
+    "name": "ACH_MISSIONS2",
+    "defaultvalue": 0,
+    "displayName": "Spatial orientation",
+    "hidden": 0,
+    "description": "Now you know your way around the house",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/980770/845ce77893bc7a45b4914d3f469b8086fe0863e5.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/980770/2443dacdc5d5f75790655cb2f5cb9f81d8c78dc5.jpg"
+  },
+  {
+    "name": "ACH_MISSIONS3",
+    "defaultvalue": 0,
+    "displayName": "Deliverer",
+    "hidden": 0,
+    "description": "You are a superior delivery boy",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/980770/503be2afe5b133bab46fa77167f985bb8e9ab22d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/980770/2f042f6ad0c543d7146ac2bd22f06bdce79b4a73.jpg"
+  },
+  {
+    "name": "ACH_MISSIONS4",
+    "defaultvalue": 0,
+    "displayName": "Cooperation",
+    "hidden": 0,
+    "description": "Helping your friends feels good, right?",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/980770/19678f6aaa928baae5ade30211eb90873ca26cd3.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/980770/1cd859fb580e4e897c232f572b429be655245e07.jpg"
+  },
+  {
+    "name": "ACH_MISSIONS5",
+    "defaultvalue": 0,
+    "displayName": "Gardening",
+    "hidden": 0,
+    "description": "You cleaned up the garden",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/980770/f6581a2a1e5ec1c6d45b76c155aa4784330fb13e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/980770/b71e6cb8c146f0819e59cc0074204239761f067f.jpg"
+  },
+  {
+    "name": "ACH_MISSIONS6",
+    "defaultvalue": 0,
+    "displayName": "New technologies",
+    "hidden": 0,
+    "description": "You have successfully tested a new technology",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/980770/0a5dbf28cfa8b312ab9f80212b1a28c8e9cdbbe6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/980770/2ef6399d0042676c07394aca4ae98d6350573852.jpg"
+  },
+  {
+    "name": "ACH_MISSIONS7",
+    "defaultvalue": 0,
+    "displayName": "Give it back!",
+    "hidden": 0,
+    "description": "You retrieved our base from the enemy",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/980770/2dc321db6a2de241f09e166e6555e38bb8f05ce7.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/980770/74ba3efe850379a980a4849db60245807db6e3c5.jpg"
+  },
+  {
+    "name": "ACH_MISSIONS8",
+    "defaultvalue": 0,
+    "displayName": "Veteran",
+    "hidden": 0,
+    "description": "You've seen it all. Are you sure?",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/980770/af46bc569ca5a28be687d2f02552644de168ad86.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/980770/798da35b936b7ad27d5de94b3e1d9abfdf411d2a.jpg"
+  },
+  {
+    "name": "ACH_COLLECTOR",
+    "defaultvalue": 0,
+    "displayName": "Collector",
+    "hidden": 0,
+    "description": "Collect all golden stars",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/980770/c67f9506358c120b3c40988b7f43c7e9485297bb.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/980770/1478bd9dd3e49fefef94f139a0a7ba9f07a6c386.jpg"
+  },
+  {
+    "name": "ACH_FINISHALL",
+    "defaultvalue": 0,
+    "displayName": "Are you nuts?!",
+    "hidden": 0,
+    "description": "Finish the game with all planes",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/980770/516980c90cdd9cfea10eb90b67509fde3357e978.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/980770/51348455dffb297076dc26a0f7a3093a938425c6.jpg"
+  },
+  {
+    "name": "ACH_ICEBREAKER",
+    "defaultvalue": 0,
+    "displayName": "Icebreaker",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/980770/a8dabfca5838b50003b9e611889d18b2054bfab5.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/980770/70826646a347fd7f9774c9c70c1c5726bed6c9c0.jpg"
+  },
+  {
+    "name": "ACH_100",
+    "defaultvalue": 0,
+    "displayName": "100%",
+    "hidden": 0,
+    "description": "Complete all missions to 100%",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/980770/2a00013bd28aff94c43d60879d95d9c0a69c95eb.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/980770/5da0fa58beaf13c3db55d28f26ab668169e8d2e9.jpg"
+  },
+  {
+    "name": "NEW_MILLIONAIRE",
+    "defaultvalue": 0,
+    "displayName": "Millionaire Blues",
+    "hidden": 0,
+    "description": "Get the total score of 1,000,000 points",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/980770/8a0a54825e2141480c1c29fb0d853865e1e2a2e1.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/980770/0177b961894226f3c689781a6dd67b0dd5745e7f.jpg"
+  }
+]

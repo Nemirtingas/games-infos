@@ -1,0 +1,54 @@
+﻿{
+  "NumEvades": {
+    "description": "闪避次数",
+    "value": 0
+  },
+  "NumEvadeStrikes": {
+    "description": "闪避反击次数",
+    "value": 0
+  },
+  "NumBlocks": {
+    "description": "破招次数",
+    "value": 0
+  },
+  "NumBlockBullets": {
+    "description": "破招弹丸次数",
+    "value": 0
+  },
+  "NumDeathes": {
+    "description": "总死亡次数",
+    "value": 0
+  },
+  "NumHealCount": {
+    "description": "总治疗次数",
+    "value": 0
+  },
+  "NumHealAmount": {
+    "description": "总治疗量",
+    "value": 0
+  },
+  "NumExSupplies": {
+    "description": "总超额补给次数",
+    "value": 0
+  },
+  "NumTotalDamage": {
+    "description": "总伤害量",
+    "value": 0
+  },
+  "NumTotalSouls": {
+    "description": "累计获取灵力",
+    "value": 0
+  },
+  "NumTotalDispels": {
+    "description": "累计驱魔数量",
+    "value": 0
+  },
+  "NumSlaughterAttacks": {
+    "description": "累计斩的次数",
+    "value": 0
+  },
+  "NumFatalAttacks": {
+    "description": "累计蓄力攻击次数",
+    "value": 0
+  }
+}

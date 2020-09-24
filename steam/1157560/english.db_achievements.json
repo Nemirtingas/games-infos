@@ -1,0 +1,875 @@
+[
+  {
+    "name": "ACHIEVEMENT_0_1",
+    "defaultvalue": 0,
+    "displayName": "Player Level",
+    "hidden": 0,
+    "description": "Achieve Mage Level 2",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/8b53e3fb3905faa6ad37f6c6f72d7fbc8f2660f4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/ae3d5b531d453aa0b4ec3c845135bf07d6ed47d0.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_0_4",
+    "defaultvalue": 0,
+    "displayName": "Player Level",
+    "hidden": 0,
+    "description": "Achieve Mage Level 5",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/bf747d355b724ab845b82b322fa676617462f707.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/5faaed787d47438bbd94310491b2715031c69ea0.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_0_9",
+    "defaultvalue": 0,
+    "displayName": "Player Level",
+    "hidden": 0,
+    "description": "Achieve Mage Level 10",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/04a78deefb8e9f7249169aaf245e167937d210f1.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/15f55806c33bedcb07df150b9c54a214f480eece.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_0_14",
+    "defaultvalue": 0,
+    "displayName": "Player Level",
+    "hidden": 0,
+    "description": "Achieve Mage Level 15",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/02770251604339fde979d18b834d0f04255fab71.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/896ec348217899281ce662d37427d41956159f2d.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_0_19",
+    "defaultvalue": 0,
+    "displayName": "Player Level",
+    "hidden": 0,
+    "description": "Achieve Mage Level 20",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/d778ded552ee1cd0be52043b42c2adf78e2dd8d8.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/5f60bb00dcc254da7b582f0161173e8ccd144099.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_0_24",
+    "defaultvalue": 0,
+    "displayName": "Player Level",
+    "hidden": 0,
+    "description": "Achieve Mage Level 25",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/361d4af863ecbd835432cd0345fa799cb32d200b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/700fc20df2130a42b7ec630dddabb263b84aaaa9.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_0_29",
+    "defaultvalue": 0,
+    "displayName": "Player Level",
+    "hidden": 0,
+    "description": "Achieve Mage Level 30",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/f1bcbe5bea09853437c49481f7d26d2a5be4a03d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/65907b3271fb5b2cad86fe179585873587954e5c.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_1_1",
+    "defaultvalue": 0,
+    "displayName": "Play Tier I Cards",
+    "hidden": 0,
+    "description": "Play 250 Tier I Cards in Duels",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/014ce938c330b4be5844aed58aad949f4471d2ea.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/5d3de182514320d0991db8b749e8857a187d8a33.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_1_2",
+    "defaultvalue": 0,
+    "displayName": "Play Tier I Cards",
+    "hidden": 0,
+    "description": "Play 2500 Tier I Cards in Duels",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/39d7fa9f200935a2be504bf619a8b839dcd8493a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/01129779d4fa0faf7555282935a53fa1a571b616.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_1_3",
+    "defaultvalue": 0,
+    "displayName": "Play Tier I Cards",
+    "hidden": 0,
+    "description": "Play 25000 Tier I Cards in Duels",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/c5c5c1d39852e0b5d5cd7b7e70eb0aad2ac6344e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/3c822f96d01fbb4190425a272e21570fc9bed75f.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_1_4",
+    "defaultvalue": 0,
+    "displayName": "Play Tier I Cards",
+    "hidden": 0,
+    "description": "Play 250000 Tier I Cards in Duels",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/6a986c655ed25adcdf2d1c391512b4e7fd8ceb9c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/aa862711871d623954e36c4ea3f291a58732e0ac.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_1_5",
+    "defaultvalue": 0,
+    "displayName": "Play Tier I Cards",
+    "hidden": 0,
+    "description": "Play 2500000 Tier I Cards in Duels",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/c51bdb02a6f443b2a902afd20f069efb4ad08c8a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/9f38f437b95db770cf9bea995628b5bce08dc063.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_2_1",
+    "defaultvalue": 0,
+    "displayName": "Play Tier II Cards",
+    "hidden": 0,
+    "description": "Play 100 Tier II Cards in Duels",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/ce36c71db8532d79273f4d5c3286f81302257538.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/a53f6647f708c570e558b77acdc4d35366ade045.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_2_2",
+    "defaultvalue": 0,
+    "displayName": "Play Tier II Cards",
+    "hidden": 0,
+    "description": "Play 1000 Tier II Cards in Duels",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/689f5ad8b2526ce168f04d0412de6aada116aace.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/50b5a0ec629919525d1f2d6669fc7c445b532e02.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_2_3",
+    "defaultvalue": 0,
+    "displayName": "Play Tier II Cards",
+    "hidden": 0,
+    "description": "Play 10000 Tier II Cards in Duels",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/2b5b962a10d00019be95e2a952d1623a0cdfc8e0.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/7f93c6328da3b9ad672db8e523cd8f6ad964bbbf.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_2_4",
+    "defaultvalue": 0,
+    "displayName": "Play Tier II Cards",
+    "hidden": 0,
+    "description": "Play 100000 Tier II Cards in Duels",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/9cc8dd762ada2f5c1569880cd83df43d49c3d83b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/62106212d8c34ae5f6db0ced432a86d70b4e9621.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_2_5",
+    "defaultvalue": 0,
+    "displayName": "Play Tier II Cards",
+    "hidden": 0,
+    "description": "Play 1000000 Tier II Cards in Duels",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/dad9218dd7011c8015caa9eb5379daf56d696307.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/1439399fe17cc5e570f3f6733556739346463539.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_3_1",
+    "defaultvalue": 0,
+    "displayName": "Play Tier III Cards",
+    "hidden": 0,
+    "description": "Play 50 Tier III Cards in Duels",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/8418cb0da928f6b4dbfabd9023967ff687a3a28c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/489b04702dc91533c2808629cc76a2d376d5cfa2.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_3_2",
+    "defaultvalue": 0,
+    "displayName": "Play Tier III Cards",
+    "hidden": 0,
+    "description": "Play 500 Tier III Cards in Duels",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/6eb3a7edb07275875ebb3b9f1d8ae9077d1af4a0.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/c337660191528a8a5034d833e10c14297dbf229b.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_3_3",
+    "defaultvalue": 0,
+    "displayName": "Play Tier III Cards",
+    "hidden": 0,
+    "description": "Play 5000 Tier III Cards in Duels",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/89a4b77c49ee84dc6d36f260d9c5d95fe27860f4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/0aa6043da4555e36ab95502d8e5ecf43543b0a90.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_3_4",
+    "defaultvalue": 0,
+    "displayName": "Play Tier III Cards",
+    "hidden": 0,
+    "description": "Play 50000 Tier III Cards in Duels",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/a91d487388d9c0b16a6e040df11dae20f853875c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/58e23d47004b02c81c96123588f4e238cd60c00f.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_3_5",
+    "defaultvalue": 0,
+    "displayName": "Play Tier III Cards",
+    "hidden": 0,
+    "description": "Play 500000 Tier III Cards in Duels",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/96d6af5ed85a63d9343d2b049b4f0436c78af6cb.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/7428fb554c16bf3043b519a095025a9e13cd623a.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_4_1",
+    "defaultvalue": 0,
+    "displayName": "Play Melee",
+    "hidden": 0,
+    "description": "Summon 10 Melee minions in duels",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/d26c129a7119fe51abbe1b7bca78ccf474787131.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/f3717cbbf597cc9a22a38061dbfcb0a2d9fb610a.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_4_2",
+    "defaultvalue": 0,
+    "displayName": "Play Melee",
+    "hidden": 0,
+    "description": "Summon 100 Melee minions in duels",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/67de188b97e2afe86af977789fece3a78c50c815.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/0b1ebb917049660e60ccfe7779e57f1736a25296.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_4_3",
+    "defaultvalue": 0,
+    "displayName": "Play Melee",
+    "hidden": 0,
+    "description": "Summon 1000 Melee minions in duels",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/b59552ebf2bee9b2f5efcb8af03e31d64d929293.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/7fa886b63d63d4c9d3ea24d4d3fcb874906ead67.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_4_4",
+    "defaultvalue": 0,
+    "displayName": "Play Melee",
+    "hidden": 0,
+    "description": "Summon 10000 Melee minions in duels",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/a6e979c1e0c97c8c6135dbfa6015f1798f5d7b26.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/1f3125dee116eefb295b4899a736dd752abb5583.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_4_5",
+    "defaultvalue": 0,
+    "displayName": "Play Melee",
+    "hidden": 0,
+    "description": "Summon 100000 Melee minions in duels",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/c4d297fa9f2e6a1cdf217fb37ee162a7d5daa50c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/d0a24266caa18dd221c59cbdfb3489cc57ab23a4.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_5_1",
+    "defaultvalue": 0,
+    "displayName": "Play Ranged",
+    "hidden": 0,
+    "description": "Summon 10 Ranged minions in duels",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/fe01ff57202a5325a01eb73a9e39b4a1c4fb87b4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/3b9941cbb83dafefded75e615ca4628d63bc0f99.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_5_2",
+    "defaultvalue": 0,
+    "displayName": "Play Ranged",
+    "hidden": 0,
+    "description": "Summon 100 Ranged minions in duels",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/52d696653374482d56e0ea2e6ab05bf20afaa75e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/3ac2b1b376b6c7e74edbb0b24b000d63cabc60cf.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_5_3",
+    "defaultvalue": 0,
+    "displayName": "Play Ranged",
+    "hidden": 0,
+    "description": "Summon 1000 Ranged minions in duels",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/c1f6c50d7b5843b846e79f76bc8ff611bae46528.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/11c245d3bb6b90fa04db91ce161f78e9cd957e27.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_5_4",
+    "defaultvalue": 0,
+    "displayName": "Play Ranged",
+    "hidden": 0,
+    "description": "Summon 10000 Ranged minions in duels",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/5aedd45dc140d25abfafbb50a3e7e23208d19e3b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/59056f4de1e6d5776a0678cfd1fc028684a2e6a5.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_5_5",
+    "defaultvalue": 0,
+    "displayName": "Play Ranged",
+    "hidden": 0,
+    "description": "Summon 100000 Ranged minions in duels",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/737622ebd87ae20d0e9f195718467ef48309d166.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/92416f03c02bb79239cdb2703a3e58b390769a94.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_6_1",
+    "defaultvalue": 0,
+    "displayName": "Play Flying",
+    "hidden": 0,
+    "description": "Summon 10 Flying minions in duels",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/ff6f1c48d689385acfeb370f7408e2748edcdfe8.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/07f09432f6ea2114cfb67108ba5f236b23a1eee4.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_6_2",
+    "defaultvalue": 0,
+    "displayName": "Play Flying",
+    "hidden": 0,
+    "description": "Summon 100 Flying minions in duels",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/7b54b42a3b5837cffc4cfe91583d8231a8b14697.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/63ac192ead1e306fa22240f6a0f4ec11df02dffd.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_6_3",
+    "defaultvalue": 0,
+    "displayName": "Play Flying",
+    "hidden": 0,
+    "description": "Summon 1000 Flying minions in duels",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/8e263b7e43468023cadd7e9739b181d4817ad01c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/385d7f04923d25fdcf1b6de728530a957f268a8b.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_6_4",
+    "defaultvalue": 0,
+    "displayName": "Play Flying",
+    "hidden": 0,
+    "description": "Summon 10000 Flying minions in duels",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/74a7368eed1f733aa4e1c6cb0f36df68867e90b0.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/b75eb37ca6677b76fcc2e8671fc82ad183af016d.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_6_5",
+    "defaultvalue": 0,
+    "displayName": "Play Flying",
+    "hidden": 0,
+    "description": "Summon 100000 Flying minions in duels",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/d34827278c8bbbcc6c293a61fd6d815d12b06028.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/084aa0dcefa6f7fb7b35fe1107bdeda75d329aec.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_7_1",
+    "defaultvalue": 0,
+    "displayName": "Play Spells",
+    "hidden": 0,
+    "description": "Use Spell Cards 10 times in duels",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/a2287c93a0295cff38d7bd61b661e83d6c00cc7f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/c9ec967c7012fc19b685862ac230d7a79381e93c.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_7_2",
+    "defaultvalue": 0,
+    "displayName": "Play Spells",
+    "hidden": 0,
+    "description": "Use Spell Cards 100 times in duels",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/120f3bcc8a874cd589e8cdf55597053bd0511402.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/3597f363e56edcaeb9354cbea984db3b9e7e6d57.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_7_3",
+    "defaultvalue": 0,
+    "displayName": "Play Spells",
+    "hidden": 0,
+    "description": "Use Spell Cards 1000 times in duels",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/2e441269194317a96161aeb0e75d39b21978e008.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/4dad3706c813928aa09120bc4ccee011b8a2f175.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_7_4",
+    "defaultvalue": 0,
+    "displayName": "Play Spells",
+    "hidden": 0,
+    "description": "Use Spell Cards 10000 times in duels",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/abf802af2add4f0c46adfde53bcc8cdba54a1d2b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/26c52c0902cdf5aa0dbb89698aed9455ddc09ad8.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_7_5",
+    "defaultvalue": 0,
+    "displayName": "Play Spells",
+    "hidden": 0,
+    "description": "Use Spell Cards 100000 times in duels",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/fce7e9daf7d55b4c694add64a7dedb486d750bfb.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/6bcecc56d8d07130354a20df0e7e9fd3a2989ab5.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_8_1",
+    "defaultvalue": 0,
+    "displayName": "Donate Cards",
+    "hidden": 0,
+    "description": "Donate 10 Cards",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/ddecc4b553b10dfa5dc9aa65985e05f33de53ef5.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/f84f227ae9490e513e09a294b9cd865bbf52c6a8.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_8_2",
+    "defaultvalue": 0,
+    "displayName": "Donate Cards",
+    "hidden": 0,
+    "description": "Donate 100 Cards",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/7172f08a9c306b123421211bf673e45a08e750c4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/1a1c114f08d6c33f35a23aaa0a74a7c21eda5ced.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_8_3",
+    "defaultvalue": 0,
+    "displayName": "Donate Cards",
+    "hidden": 0,
+    "description": "Donate 1000 Cards",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/3c318a49c8b78c27fcafc8fa84eeb8c9f80cd81e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/372b9bbabf4ac588f09dc68c8569ce24a215a0d9.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_8_4",
+    "defaultvalue": 0,
+    "displayName": "Donate Cards",
+    "hidden": 0,
+    "description": "Donate 10000 Cards",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/e2a41ad98c3340106919b72603c33bf0de508d56.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/96c9540c763f902a20b805a863444cb2e24c58b1.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_8_5",
+    "defaultvalue": 0,
+    "displayName": "Donate Cards",
+    "hidden": 0,
+    "description": "Donate 100000 Cards",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/380c11cc62960b4b23a42368d6efe84d47c9af1f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/0d13da258008366cbec239e02417c9d7dc411e3d.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_9_1",
+    "defaultvalue": 0,
+    "displayName": "Collect Common Cards",
+    "hidden": 0,
+    "description": "Collect 10 COMMON Cards",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/c779200c3c98f2ef0fa3f407733513c1f57a078a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/ca575244ce20e5e25d59f0305378a059c206f5cd.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_9_2",
+    "defaultvalue": 0,
+    "displayName": "Collect Common Cards",
+    "hidden": 0,
+    "description": "Collect 100 COMMON Cards",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/20483159aa50598654a60335cbad26c865d57654.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/819686e41a01e0561b343949cd21c0222f618dba.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_9_3",
+    "defaultvalue": 0,
+    "displayName": "Collect Common Cards",
+    "hidden": 0,
+    "description": "Collect 1000 COMMON Cards",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/4aca6f8489dee56d86b2fc8b74b0b651e4f405d1.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/1b1ad49404a59c2a3fa099d3aa0746b1f27339b3.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_9_4",
+    "defaultvalue": 0,
+    "displayName": "Collect Common Cards",
+    "hidden": 0,
+    "description": "Collect 10000 COMMON Cards",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/cd292fc9dbf4d2cb8e1fba9601323aee82e25829.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/460c077a2c146fe3a82e3a696ea0c6a9cb179215.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_9_5",
+    "defaultvalue": 0,
+    "displayName": "Collect Common Cards",
+    "hidden": 0,
+    "description": "Collect 100000 COMMON Cards",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/8e6db809f499602c0f11ad9c07cbcf199021fdd5.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/fb524c6d2f0fbfd2ae0d11c727b122f5f696ddca.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_10_1",
+    "defaultvalue": 0,
+    "displayName": "Collect Rare Cards",
+    "hidden": 0,
+    "description": "Collect 10 RARE Cards",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/110a4f7f9c75c085a3095729d4f47f1d586eb9c4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/a701ce883ac6bbbfdeefab5e247d0b7e9c35b406.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_10_2",
+    "defaultvalue": 0,
+    "displayName": "Collect Rare Cards",
+    "hidden": 0,
+    "description": "Collect 100 RARE Cards",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/c2320d50b7bc325908070e8aeb017940b7106dfc.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/d957a54459140d5cd95e12ba9ee068d60d071d82.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_10_3",
+    "defaultvalue": 0,
+    "displayName": "Collect Rare Cards",
+    "hidden": 0,
+    "description": "Collect 1000 RARE Cards",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/d1bdd1764e3b17269de84f7c64c9e9a499d64bd5.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/1f46708f0f2b99cf27f7ae381b04c70b4cb8087c.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_10_4",
+    "defaultvalue": 0,
+    "displayName": "Collect Rare Cards",
+    "hidden": 0,
+    "description": "Collect 10000 RARE Cards",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/7e07a59e00d80fc6a30f3e49505ac0eff2d4b9e0.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/e54a51801bd681da884c87a7b5de052f8e0246a0.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_10_5",
+    "defaultvalue": 0,
+    "displayName": "Collect Rare Cards",
+    "hidden": 0,
+    "description": "Collect 100000 RARE Cards",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/79251b861340e7e730a16e6bb3e4e26b11ca4f00.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/985057f42a8991eee068a25a5cbeaa7890f95421.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_11_1",
+    "defaultvalue": 0,
+    "displayName": "Collect Epic Cards",
+    "hidden": 0,
+    "description": "Collect 5 EPIC Cards",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/5bb0ca53c86ce1e51760b074c1157cbf6c7490f9.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/ec6101c6fa5451b6c6675bffb89db0b0aaffcfe4.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_11_2",
+    "defaultvalue": 0,
+    "displayName": "Collect Epic Cards",
+    "hidden": 0,
+    "description": "Collect 50 EPIC Cards",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/61170a0daf3441cc097f9d3fd2d3bc0b62060801.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/1f0018305bdcadd6a36513dfa041ae284d29626a.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_11_3",
+    "defaultvalue": 0,
+    "displayName": "Collect Epic Cards",
+    "hidden": 0,
+    "description": "Collect 500 EPIC Cards",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/046ab86f71261deb697a0ba4bf6bbe8f2839d047.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/2fd8f4879273221c28dcfb32be1e9bac69135834.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_11_4",
+    "defaultvalue": 0,
+    "displayName": "Collect Epic Cards",
+    "hidden": 0,
+    "description": "Collect 5000 EPIC Cards",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/6cd50cce9e7be5ef3902ff877747997f45aaa4c2.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/5c55d7f62fbe6ba1ffe81d65db488bbe16013e3a.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_11_5",
+    "defaultvalue": 0,
+    "displayName": "Collect Epic Cards",
+    "hidden": 0,
+    "description": "Collect 50000 EPIC Cards",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/7917c681e868527db63380d7a8ff6a2b022a57ad.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/ce17e5761d0d94d46d87b4e2950dcbf9ec8c53c5.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_12_1",
+    "defaultvalue": 0,
+    "displayName": "Collect Legendary Cards",
+    "hidden": 0,
+    "description": "Collect 5 LEGENDARY Cards",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/c0f6a4f1e946edec870aa42d0f3362922bf7c9d4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/f62808df2ee1b09fe7091b7e732b413267259acf.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_12_2",
+    "defaultvalue": 0,
+    "displayName": "Collect Legendary Cards",
+    "hidden": 0,
+    "description": "Collect 25 LEGENDARY Cards",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/d7c1d85d632099775db76a47502baabb6a65556f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/f2aa8d946eab7462e20f64be90d249e4268d2f52.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_12_3",
+    "defaultvalue": 0,
+    "displayName": "Collect Legendary Cards",
+    "hidden": 0,
+    "description": "Collect 50 LEGENDARY Cards",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/f6b0f439fd3144f6d41c1402b0fe86e702898315.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/ec9f200507c278de4afa8626b9666c8faf7a3481.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_12_4",
+    "defaultvalue": 0,
+    "displayName": "Collect Legendary Cards",
+    "hidden": 0,
+    "description": "Collect 100 LEGENDARY Cards",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/20bc1f9c9a43d48e06b575e86de354e3d789625e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/30d70d5a395fd6bfc8e87821905d2419dbe8912f.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_12_5",
+    "defaultvalue": 0,
+    "displayName": "Collect Legendary Cards",
+    "hidden": 0,
+    "description": "Collect 250 LEGENDARY Cards",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/2edbf43b4ca19224d2b42c0a3c993db86683ac11.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/36d47c0a53278be6a4c4290f3aa1af2b51e38343.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_13_1",
+    "defaultvalue": 0,
+    "displayName": "Destroy Mana Veins",
+    "hidden": 0,
+    "description": "Destroy 10 Mana Veins",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/6863efaf01fc3c92fe6eba07bb01a07b754dba18.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/5adc28636a0d1edb38496a594d2a72181ece89f7.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_13_2",
+    "defaultvalue": 0,
+    "displayName": "Destroy Mana Veins",
+    "hidden": 0,
+    "description": "Destroy 100 Mana Veins",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/2d38f0c375f9eed040a1b470c7b019b8a65e5a05.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/7e0e50ca4839c106f4935f05ca82d548f03c562c.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_13_3",
+    "defaultvalue": 0,
+    "displayName": "Destroy Mana Veins",
+    "hidden": 0,
+    "description": "Destroy 1000 Mana Veins",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/fb886cf8a4fd3fe84a5eda3cb03b4406a3e22fdb.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/e844fbcc9fa5673fe5379ce383742f2a09ef14dc.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_13_4",
+    "defaultvalue": 0,
+    "displayName": "Destroy Mana Veins",
+    "hidden": 0,
+    "description": "Destroy 10000 Mana Veins",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/e1d2fdf2250e91e28a83419f5b3dbae4a9f6cb99.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/9eb2fa5129007165ad31769017f3a54c63150d36.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_13_5",
+    "defaultvalue": 0,
+    "displayName": "Destroy Mana Veins",
+    "hidden": 0,
+    "description": "Destroy 100000 Mana Veins",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/8155e2c574a738d8ec695be6161b2af556c40607.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/20a6ddd4b1a106b3704110488a7ffd5ff42ad8c5.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_14_1",
+    "defaultvalue": 0,
+    "displayName": "Destroy Beacons",
+    "hidden": 0,
+    "description": "Destroy 10 Beacons",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/ab4b1a443dc2e28a61f05da06e7edfe14f8e8be2.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/9d1f00b39485570b08f2d49fba3b42c977ebb8cd.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_14_2",
+    "defaultvalue": 0,
+    "displayName": "Destroy Beacons",
+    "hidden": 0,
+    "description": "Destroy 100 Beacons",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/dc37b39f13e23f9c23f374e8b6072640bef94e3b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/948162a89889d04e8ae6ba737deeb211bf897b0e.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_14_3",
+    "defaultvalue": 0,
+    "displayName": "Destroy Beacons",
+    "hidden": 0,
+    "description": "Destroy 1000 Beacons",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/2a4b7ae802e372c95b2d95f8be29aabd5ba727dc.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/729c7d5999e1eb702a5d4bff4cb0ce750c5240bc.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_14_4",
+    "defaultvalue": 0,
+    "displayName": "Destroy Beacons",
+    "hidden": 0,
+    "description": "Destroy 10000 Beacons",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/0cbca37ee8974f4b0b42d2dafc305948903c121f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/38881b1af7852a7be359ac30d07a98310e643e1b.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_14_5",
+    "defaultvalue": 0,
+    "displayName": "Destroy Beacons",
+    "hidden": 0,
+    "description": "Destroy 100000 Beacons",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/2c20f1094006a01bdf561cbe1a20762fd9b92476.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/40d81b1f8aced6ee8ef51e6e3b0cb3e7a7d03d94.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_15_1",
+    "defaultvalue": 0,
+    "displayName": "Destroy Statues",
+    "hidden": 0,
+    "description": "Destroy 10 Statues",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/bbdf3d935a228c91f4b6a60cd1a4fa984bb8955b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/c4e3a7f3adfaac28d46be412e1b044546b2de6e9.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_15_2",
+    "defaultvalue": 0,
+    "displayName": "Destroy Statues",
+    "hidden": 0,
+    "description": "Destroy 100 Statues",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/bfa2b00e215f086e8b0e09f79f87d253ac1e6b9d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/44d62460f4197a7aa79bcef1ecf1772877d946f9.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_15_3",
+    "defaultvalue": 0,
+    "displayName": "Destroy Statues",
+    "hidden": 0,
+    "description": "Destroy 1000 Statues",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/4b3d374d6e2bfbfc2eba22b92ac0c151d8091d48.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/2dc5e2a40fc1d5b2ad62c487d19415bde661915f.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_15_4",
+    "defaultvalue": 0,
+    "displayName": "Destroy Statues",
+    "hidden": 0,
+    "description": "Destroy 10000 Statues",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/7cf0a5b713df523c2edb259880772fa49d519fe5.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/6c93ee50f3b98ffe5e340a10f99230ba6588b57e.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_15_5",
+    "defaultvalue": 0,
+    "displayName": "Destroy Statues",
+    "hidden": 0,
+    "description": "Destroy 100000 Statues",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/7a1f526d9f02974985c5bcbd19ad30f086b12307.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/b29e5fb06cbd64939e6cbd066817cf859d898965.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_16_1",
+    "defaultvalue": 0,
+    "displayName": "Play Duels",
+    "hidden": 0,
+    "description": "Play 10 Duels",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/f1a50d6d3baac941737da33cd5ed39975a7900b3.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/a217bdb372ef157359c88ed58a9dbc5510f27a77.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_16_2",
+    "defaultvalue": 0,
+    "displayName": "Play Duels",
+    "hidden": 0,
+    "description": "Play 100 Duels",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/97c1753360eb6b122a34392e5b61883352ee68a5.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/d854364ad47b9d3573230d80663a455fde85f1ad.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_16_3",
+    "defaultvalue": 0,
+    "displayName": "Play Duels",
+    "hidden": 0,
+    "description": "Play 1000 Duels",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/8570e516c96597fb7055059bfbab027c4cbf7a48.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/e78c1e33a6dc023779f8d885886510364c490479.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_16_4",
+    "defaultvalue": 0,
+    "displayName": "Play Duels",
+    "hidden": 0,
+    "description": "Play 10000 Duels",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/18c8b54cdd1481c18641217d277c4177be995988.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/e2e6b4bb070dea2aa27b25024b5ecd5f90109706.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_16_5",
+    "defaultvalue": 0,
+    "displayName": "Play Duels",
+    "hidden": 0,
+    "description": "Play 100000 Duels",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/88430e5f24d79747d49fdeddfebd63b0e6e6a9f4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/31487859427e8e392d163dc19c08f5c2e0f59ab5.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_17_1",
+    "defaultvalue": 0,
+    "displayName": "Deal Damage in Battle",
+    "hidden": 0,
+    "description": "Deal 100 Damage in Battle",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/2b7ca56b6e827cfde26dba99ed40f681261b6524.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/34b8a2db3921c77608f35d88244954399e083696.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_17_2",
+    "defaultvalue": 0,
+    "displayName": "Deal Damage in Battle",
+    "hidden": 0,
+    "description": "Deal 1000 Damage in Battle",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/33fda410bd38b8ba7dc92620d3d1d9e1f50e6a06.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/827a6c18c05f4db5091958f3fe00b9db25fb9074.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_17_3",
+    "defaultvalue": 0,
+    "displayName": "Deal Damage in Battle",
+    "hidden": 0,
+    "description": "Deal 10000 Damage in Battle",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/5b9ad61f43d442eae71b19f14f3ca6217591bda0.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/1436ddb783ce0b67cefa79c971d6bbc6b24f6476.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_17_4",
+    "defaultvalue": 0,
+    "displayName": "Deal Damage in Battle",
+    "hidden": 0,
+    "description": "Deal 100000 Damage in Battle",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/a4a9774c31ea3cdf363b7dc42887b2943f9cf16d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/bd5664075439e592f52c32da9c5e87b3557a4a78.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_17_5",
+    "defaultvalue": 0,
+    "displayName": "Deal Damage in Battle",
+    "hidden": 0,
+    "description": "Deal 1000000 Damage in Battle",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/a33bcf639773e3909e9c5398e79bcc8ead8acf6b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/212bd1e4ce85976b38c1f8caf5a9d46a826567b9.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_18_1",
+    "defaultvalue": 0,
+    "displayName": "Buy Cards from Shop",
+    "hidden": 0,
+    "description": "Buy 10 Cards from Shop",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/97ec9119f93bbf5563392706900aa35f3332eee4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/63a48d1179a3d98d466b942f14bf806b2190d250.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_18_2",
+    "defaultvalue": 0,
+    "displayName": "Buy Cards from Shop",
+    "hidden": 0,
+    "description": "Buy 100 Cards from Shop",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/315ec00437f42ff7a391f741210f3c60ec3db310.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/6988b15eac0c00c448054dc2cb90c1dcb53cf90e.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_18_3",
+    "defaultvalue": 0,
+    "displayName": "Buy Cards from Shop",
+    "hidden": 0,
+    "description": "Buy 1000 Cards from Shop",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/1f1c62b9d8f5bfc81b36bd7ebf4077bc5bec6d0b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/f432513f54aa58905a7534364bdf517dd47ddf2b.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_18_4",
+    "defaultvalue": 0,
+    "displayName": "Buy Cards from Shop",
+    "hidden": 0,
+    "description": "Buy 10000 Cards from Shop",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/be1dd4687af78211c2c156f940ae46f4de99df93.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/cab5cc4ed58ccc8382c77242d58aa6c11bea9f91.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_18_5",
+    "defaultvalue": 0,
+    "displayName": "Buy Cards from Shop",
+    "hidden": 0,
+    "description": "Buy 100000 Cards from Shop",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/e260f9e8f22a9f922845e08d2b4ed6485ba4aa72.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1157560/c5f14991cca72b85b492cc9593c3901072658e54.jpg"
+  }
+]

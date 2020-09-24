@@ -1,0 +1,81 @@
+[
+  {
+    "name": "speed_level_1",
+    "defaultvalue": 0,
+    "displayName": "Level 1 Dash",
+    "hidden": 0,
+    "description": "Complete Level 1 in 1 minute or less",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/506560/0d581ba5e013343789e5aa438de47579bf73d38c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/506560/85bb53b4179fa1c0be4b748d8ab31f2e14d3e54f.jpg"
+  },
+  {
+    "name": "gold_1_level",
+    "defaultvalue": 0,
+    "displayName": "Gotta Go Fast",
+    "hidden": 0,
+    "description": "Complete a level with a gold time",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/506560/4305fd3d47ab72bc183feb65ab1ec24fb571a865.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/506560/85bb53b4179fa1c0be4b748d8ab31f2e14d3e54f.jpg"
+  },
+  {
+    "name": "gold_25_percent",
+    "defaultvalue": 0,
+    "displayName": "Get Swifty",
+    "hidden": 0,
+    "description": "Complete 25% of levels (5/20) with a gold time",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/506560/2fda500686fa3590899ae359f8c27e908dc87162.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/506560/85bb53b4179fa1c0be4b748d8ab31f2e14d3e54f.jpg"
+  },
+  {
+    "name": "gold_50_percent",
+    "defaultvalue": 0,
+    "displayName": "Speed Racer",
+    "hidden": 0,
+    "description": "Complete 50% of levels (10/20) with a gold time",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/506560/c3de98689e5434b3b755804a82f824f9446ee55c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/506560/85bb53b4179fa1c0be4b748d8ab31f2e14d3e54f.jpg"
+  },
+  {
+    "name": "gold_75_percent",
+    "defaultvalue": 0,
+    "displayName": "The Flash",
+    "hidden": 0,
+    "description": "Complete 75% of levels (15/20) with a gold time",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/506560/36d4c06c3b4db7de674381f45a1f4dd1f59762c0.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/506560/85bb53b4179fa1c0be4b748d8ab31f2e14d3e54f.jpg"
+  },
+  {
+    "name": "gold_100_percent",
+    "defaultvalue": 0,
+    "displayName": "Approaching Lightspeed",
+    "hidden": 0,
+    "description": "Complete 100% of levels (20/20) with a gold time",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/506560/33852f48bf3bcdb3164fab98b02341e4cf2fe450.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/506560/85bb53b4179fa1c0be4b748d8ab31f2e14d3e54f.jpg"
+  },
+  {
+    "name": "secret_hidden_room",
+    "defaultvalue": 0,
+    "displayName": "Hidden Room",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/506560/c63fa6441a3031a9e8c46e350ad29e09a18c5efa.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/506560/85bb53b4179fa1c0be4b748d8ab31f2e14d3e54f.jpg"
+  },
+  {
+    "name": "secret_green_glow",
+    "defaultvalue": 0,
+    "displayName": "Green Glow",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/506560/6d7243bb267fc4fbb57510bbb4fd10cc33aab928.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/506560/85bb53b4179fa1c0be4b748d8ab31f2e14d3e54f.jpg"
+  },
+  {
+    "name": "dont_sprint",
+    "defaultvalue": 0,
+    "displayName": "Dont Sprint",
+    "hidden": 0,
+    "description": "Complete any level without sprinting",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/506560/fbb5d527fd5d258e82466c80d7e98467856fb6bc.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/506560/85bb53b4179fa1c0be4b748d8ab31f2e14d3e54f.jpg"
+  }
+]

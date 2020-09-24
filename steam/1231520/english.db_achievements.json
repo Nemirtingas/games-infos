@@ -1,0 +1,722 @@
+﻿[
+  {
+    "name": "ACH_BUILD_FARMS_HALF",
+    "defaultvalue": 0,
+    "displayName": "Accomplished Farmer",
+    "hidden": 0,
+    "description": "Build 4 Farms",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/f8317a890f0cfc18898823182931455611510501.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/3cc9422abc42bf4a0ec56cea3158c03b1e0c7d8f.jpg"
+  },
+  {
+    "name": "ACH_BUILD_FARMS_ALL",
+    "defaultvalue": 0,
+    "displayName": "King of Farming",
+    "hidden": 0,
+    "description": "Build All Farms",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/8580df6dcc1d0722ee11a8f7712bd582e76bf74e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/e000a5abf90334c8462f342294d04cd203791b9d.jpg"
+  },
+  {
+    "name": "ACH_CHICKEN_LVL_FULL",
+    "defaultvalue": 0,
+    "displayName": "Lord of Poultry-Yard",
+    "hidden": 0,
+    "description": "Reach Level 100 With the Chicken Farm",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/ae37c73f597fad0d8dcfc72896983e152d58c609.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/96af1d15e75c32948fb3c87c2862b157e9b22abb.jpg"
+  },
+  {
+    "name": "ACH_DUCK_LVL_FULL",
+    "defaultvalue": 0,
+    "displayName": "Duck Island",
+    "hidden": 0,
+    "description": "Reach Level 100 With the Duck Farm",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/4e37ee62319d80e0f719153fc488ac21033ece68.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/14cd660257f0222b3425290e420827a9cd5933c4.jpg"
+  },
+  {
+    "name": "ACH_RABBIT_LVL_FULL",
+    "defaultvalue": 0,
+    "displayName": "Rabbit Hotel",
+    "hidden": 0,
+    "description": "Reach Level 100 With the Rabbit Farm",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/84433e1f10e49b855b695bbc7827ecefa9074e80.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/594c8e1e6924aa5b7525c349f240299f567ab466.jpg"
+  },
+  {
+    "name": "ACH_COW_LVL_FULL",
+    "defaultvalue": 0,
+    "displayName": "Cow Town",
+    "hidden": 0,
+    "description": "Reach Level 100 With the Cow Farm",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/a216c5c42797ae88bff9563916d432bbfdd5e3ab.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/dca695757c5dc7933698c73b3c659bcf1db2c784.jpg"
+  },
+  {
+    "name": "ACH_SHEEP_LVL_FULL",
+    "defaultvalue": 0,
+    "displayName": "Fancy Paddock",
+    "hidden": 0,
+    "description": "Reach Level 100 With the Sheep Farm",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/95668e18cfee02a668593560444d5d7114d49e1d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/053952d75f463a548a9f870e29776885611ac415.jpg"
+  },
+  {
+    "name": "ACH_PIG_LVL_FULL",
+    "defaultvalue": 0,
+    "displayName": "Piggy Bank",
+    "hidden": 0,
+    "description": "Reach Level 100 With the Pig Farm",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/1842f99b2804e4b60932e6f1970c5b5967944b73.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/875597ad6a80b964cccaf68ec59512928bc1dabe.jpg"
+  },
+  {
+    "name": "ACH_GOAT_LVL_FULL",
+    "defaultvalue": 0,
+    "displayName": "Goat Village",
+    "hidden": 0,
+    "description": "Reach Level 100 With the Goat Farm",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/3dce19bae24bbdd4af6a12cc4076ee828f72fe3d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/4e3ee1d2df3f9214ba22ee103f0bb1c74f79bb63.jpg"
+  },
+  {
+    "name": "ACH_BEE_LVL_FULL",
+    "defaultvalue": 0,
+    "displayName": "Perone Hives",
+    "hidden": 0,
+    "description": "Reach Level 100 With the Bee Farm",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/0614919e64edc0a3831b67f2d8bbe8471bc1ed86.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/8c8def44f591df7b172e2ee51522fbebccb4d87e.jpg"
+  },
+  {
+    "name": "ACH_WORKSHOP_LVL_FULL",
+    "defaultvalue": 0,
+    "displayName": "Baron of Materials",
+    "hidden": 0,
+    "description": "Reach Level 100 With the Workshop",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/01d2becba6214f884d87aed7d2db52dad87eb4fd.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/6af5a93346715c93eec249d91694db7f7d5b504c.jpg"
+  },
+  {
+    "name": "ACH_ALL_FARMS_LVL_FULL",
+    "defaultvalue": 0,
+    "displayName": "Governor of Farming",
+    "hidden": 0,
+    "description": "Reach Level 100 With All Farms",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/1f2cbf79093dca59e77d8a9ede2a838dbf6b382f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/48a81972d57971fba6d898be27d0904e3760ef31.jpg"
+  },
+  {
+    "name": "ACH_TOTAL_FARM_LVL_HALF",
+    "defaultvalue": 0,
+    "displayName": "Blaze It",
+    "hidden": 0,
+    "description": "Reach a Total Level of 420 Across All Farms",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/73d04296dbcf58c8b05fe686eb8750565f4e0d62.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/865f90dd7b510c6b0475e50d0d82d50987c0e1ae.jpg"
+  },
+  {
+    "name": "ACH_TOTAL_FARM_LVL_FULL",
+    "defaultvalue": 0,
+    "displayName": "Perfect Community",
+    "hidden": 0,
+    "description": "Reach a Total Level of 900 Across All Farms",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/dd4b8fdfc44c83f46589d0fd0563f13e1e09cd4b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/3a58e3e5f898bf1c3009a58e099e8cb5be269111.jpg"
+  },
+  {
+    "name": "ACH_TREE_CHOP",
+    "defaultvalue": 0,
+    "displayName": "Rainbow Axe",
+    "hidden": 0,
+    "description": "Chop 5000 Trees",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/bcf47a19b45bf7d97f58b6827c03f5ba55d4b1ad.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/9e3a96b9e2c323153d45ad2db1cc24c9d896ccc5.jpg"
+  },
+  {
+    "name": "ACH_METAL_PARTS",
+    "defaultvalue": 0,
+    "displayName": "iRobot",
+    "hidden": 0,
+    "description": "Collect 5000 Metal Parts",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/db9c8f0c7dd68e8b366e8a272cd15ac989a6e8dd.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/249424291d6aed38295005c58c956d8734486786.jpg"
+  },
+  {
+    "name": "ACH_MATERIAL_HALF",
+    "defaultvalue": 0,
+    "displayName": "Expert Collector",
+    "hidden": 0,
+    "description": "Collect 500000 Material",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/1ed5815df4dbcacae644715a95aea994dce4cac7.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/154d719444d0cbe5dd1574bf1226a7bfb4b8848a.jpg"
+  },
+  {
+    "name": "ACH_MATERIAL_FULL",
+    "defaultvalue": 0,
+    "displayName": "Plus One",
+    "hidden": 0,
+    "description": "Collect 1000000001 Material",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/3667218339369018fd3fd647c7c45a90b86662b1.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/0f7d51f1cde5e7b9423b19de365160d0417212c0.jpg"
+  },
+  {
+    "name": "ACH_COINS_HALF",
+    "defaultvalue": 0,
+    "displayName": "One Coin Short",
+    "hidden": 0,
+    "description": "Collect 499999 Coins",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/a0b8459309f31298d9abf07b958868249ba476a7.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/2eec7e59f973c4bbde94935f8f0eaa278da4bd60.jpg"
+  },
+  {
+    "name": "ACH_COINS_FULL",
+    "defaultvalue": 0,
+    "displayName": "King of Cash",
+    "hidden": 0,
+    "description": "Collect 999999999 Coins",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/b984f64f05bd48608e3989e97be1d4c4d9e343b4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/1e9a62f98f738098d2210660dc659344b7965444.jpg"
+  },
+  {
+    "name": "ACH_DIAMONDS",
+    "defaultvalue": 0,
+    "displayName": "Perfect Diamond",
+    "hidden": 0,
+    "description": "Collect 100 Diamonds",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/4c6402798115e8ae03245806484fb371e03099ed.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/e4e5ba2c52d393cabffda43320d81cce9cee9717.jpg"
+  },
+  {
+    "name": "ACH_MAILS",
+    "defaultvalue": 0,
+    "displayName": "Fanmail",
+    "hidden": 0,
+    "description": "Open 250 mails",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/d844ca4365d9c242eaba4c56502f2449c83ce95c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/8f7862fab818ab5514f9b3d67137668b28dbc4a1.jpg"
+  },
+  {
+    "name": "ACH_EGGS_HALF",
+    "defaultvalue": 0,
+    "displayName": "Omelette Town",
+    "hidden": 0,
+    "description": "Sell 10000 Eggs",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/cc323787b3f694ce4b7aa6a2252777a72c9ff1c5.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/d2da795dcfdc2f243c21de2e7765d06378b03bfc.jpg"
+  },
+  {
+    "name": "ACH_EGGS_FULL",
+    "defaultvalue": 0,
+    "displayName": "Cracking the Market",
+    "hidden": 0,
+    "description": "Sell 10000000 Eggs",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/b5410517606aa6e244bbfccdaf01eb5e5428270c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/0b3ff4622ecffdf9d0410f0331f20de3f67a3ec3.jpg"
+  },
+  {
+    "name": "ACH_FEATHERS_HALF",
+    "defaultvalue": 0,
+    "displayName": "More Ducks Needed",
+    "hidden": 0,
+    "description": "Sell 10000 Feathers",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/911268f96393d1bc12a0a90020389ca670c92032.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/148c17019e2fbe97ac6620a215b9b7481a3d767c.jpg"
+  },
+  {
+    "name": "ACH_FEATHERS_FULL",
+    "defaultvalue": 0,
+    "displayName": "Feather Empire",
+    "hidden": 0,
+    "description": "Sell 10000000 Feathers",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/22b01428047ba0038c8bc3dea0427ab548eaee20.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/78fb2ed4c7e86cec3678e4af4327872f4155b8ba.jpg"
+  },
+  {
+    "name": "ACH_FUR_BALLS_HALF",
+    "defaultvalue": 0,
+    "displayName": "Soft Treasure",
+    "hidden": 0,
+    "description": "Sell 10000 Fur Balls",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/76f066e7bdf0461802eecb13863bebd3cedbb833.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/0971fea2bdddc6a303d32a5fbf35050422d8a57a.jpg"
+  },
+  {
+    "name": "ACH_FUR_BALLS_FULL",
+    "defaultvalue": 0,
+    "displayName": "Green House Effect",
+    "hidden": 0,
+    "description": "Sell 10000000 Fur Balls",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/40e0ff30cc017067727382e39d0bd82bfb6d53be.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/8295109f61d064e7675d06c40e663104f643ab25.jpg"
+  },
+  {
+    "name": "ACH_MILK_HALF",
+    "defaultvalue": 0,
+    "displayName": "Bathing in Milk",
+    "hidden": 0,
+    "description": "Sell 10000 Milk Containers",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/5e943c8188839aa3d17d7f6a2a41bfb69389b849.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/2a91618521aa218b9aa64fae2aeed8ad5f12c7ac.jpg"
+  },
+  {
+    "name": "ACH_MILK_FULL",
+    "defaultvalue": 0,
+    "displayName": "The Milky Way",
+    "hidden": 0,
+    "description": "Sell 10000000 Milk Containers",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/1854ead84fd4473b2ad5b0f3087bdbdaae3cb018.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/faae766c73280361d3b38f4f80f670c562319d8d.jpg"
+  },
+  {
+    "name": "ACH_YARN_HALF",
+    "defaultvalue": 0,
+    "displayName": "Knot Town",
+    "hidden": 0,
+    "description": "Sell 10000 Yarn",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/8d1de4087f8e24fa9055c5e0e9e592dd5b7bf92f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/e854633c0fdccab3b4fce2a75af693242e866bb7.jpg"
+  },
+  {
+    "name": "ACH_YARN_FULL",
+    "defaultvalue": 0,
+    "displayName": "Yarn Barn",
+    "hidden": 0,
+    "description": "Sell 10000000 Yarn",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/0a16402ba51e2bfb9c5d4aa368275d0b0d2c6b85.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/7f566251bac3b08380cd0b68db8962723fd56171.jpg"
+  },
+  {
+    "name": "ACH_BACON_HALF",
+    "defaultvalue": 0,
+    "displayName": "Bacon Syrup",
+    "hidden": 0,
+    "description": "Sell 10000 Bacon",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/638b3b98f55c9faebf9be6f18688037fc6cb22f1.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/9eead45ff81fc2f0944fbb0d620d6d9411a44037.jpg"
+  },
+  {
+    "name": "ACH_BACON_FULL",
+    "defaultvalue": 0,
+    "displayName": "The Baconator",
+    "hidden": 0,
+    "description": "Sell 10000000 Bacon",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/ff9ac0e1a28dac8c40d16a7c397b189e562d5f78.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/63d86b580ed2f14c4b738088d34d28c49ba705f8.jpg"
+  },
+  {
+    "name": "ACH_CHEESE_HALF",
+    "defaultvalue": 0,
+    "displayName": "Creamiest Cheese",
+    "hidden": 0,
+    "description": "Sell 10000 Cheese",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/73440e4e1537e85db9ceb75c78a7d99ec0dd1b4e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/c72cbe272f9e0563f57dfe6a0cd063a74202f587.jpg"
+  },
+  {
+    "name": "ACH_CHEESE_FULL",
+    "defaultvalue": 0,
+    "displayName": "Nacho Factory",
+    "hidden": 0,
+    "description": "Sell 10000000 Cheese",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/a9b85b44e002709ea2be38a1483b0b937026ddf8.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/41eb840ababa764bcd47e1726ecc81bef9cf991b.jpg"
+  },
+  {
+    "name": "ACH_HONEY_HALF",
+    "defaultvalue": 0,
+    "displayName": "Multi Flowers",
+    "hidden": 0,
+    "description": "Sell 10000 Honey Jars",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/4aa223aa883d44f8633c71fbc00cb21e0b136aa5.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/9b4f1ef708e50b08b02b52907dbb4ad9a4e2b481.jpg"
+  },
+  {
+    "name": "ACH_HONEY_FULL",
+    "defaultvalue": 0,
+    "displayName": "Planet Savior",
+    "hidden": 0,
+    "description": "Sell 10000000 Honey Jars",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/b3b0641f9a8a08b36c3fe75c99973847d06dfb14.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/4c3aababe5ef2d23725ac8479555ee0139de32a9.jpg"
+  },
+  {
+    "name": "ACH_PRODUCTS_EACH_HALF",
+    "defaultvalue": 0,
+    "displayName": "Losing Count",
+    "hidden": 0,
+    "description": "Sell 100000 of Each Product",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/3375585545994c1a9dbafacd1a76ee2d3e205b4c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/91967c01c2c2b4c943c66cbe20161100b6ea7524.jpg"
+  },
+  {
+    "name": "ACH_PRODUCTS_EACH_FULL",
+    "defaultvalue": 0,
+    "displayName": "King of Capitalism",
+    "hidden": 0,
+    "description": "Sell 10000000 of Each Product",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/9ba657e3ae776f70cdad659aac743b0aaf90dfef.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/9f8fa6b72780bb7b3a83b53f3f2839550120631b.jpg"
+  },
+  {
+    "name": "ACH_PRODUCTS_TOTAL_HALF",
+    "defaultvalue": 0,
+    "displayName": "Coproducing",
+    "hidden": 0,
+    "description": "Sell 100100 Products in Total",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/101745c0d5ab39c28b224f0698fe1cb34a218702.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/24895be1d09716b6e3c95ae0d0f0106786651c66.jpg"
+  },
+  {
+    "name": "ACH_PRODUCTS_TOTAL_FULL",
+    "defaultvalue": 0,
+    "displayName": "Cash Overload",
+    "hidden": 0,
+    "description": "Sell 99999999 Products in Total",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/cf86801c51db2e41211de707d6d069d7dc73515a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/56c7737a5c42b2265efc6895b23082a07a630e5d.jpg"
+  },
+  {
+    "name": "ACH_PIRATE_SHIP_FIRST",
+    "defaultvalue": 0,
+    "displayName": "Ahoy",
+    "hidden": 0,
+    "description": "Build the First Part of the Pirate Ship",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/9795d76e07f9798c3776dddcbb01aad9e07963d0.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/4a2da3cb18655c7dd8a1fc10006a7bc3b2d35f49.jpg"
+  },
+  {
+    "name": "ACH_PIRATE_SHIP_FULL",
+    "defaultvalue": 0,
+    "displayName": "Sea You!",
+    "hidden": 0,
+    "description": "Build All Parts of the Pirate Ship",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/31e80deebc32e9cde0d141ef7122a9093d12d7dc.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/f8d8ead9d73b467f4de38c945879ba53647f30ee.jpg"
+  },
+  {
+    "name": "ACH_HIRE_FARMER_FIRST",
+    "defaultvalue": 0,
+    "displayName": "I Am Yours",
+    "hidden": 0,
+    "description": "Hire Your First Farmer",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/e765446749c2341b94b1881ac402284166959850.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/cd6b13e018119eaa8855c1d72b406ec500aac0f3.jpg"
+  },
+  {
+    "name": "ACH_HIRE_FARMER_FULL",
+    "defaultvalue": 0,
+    "displayName": "Full House",
+    "hidden": 0,
+    "description": "Hire All Farmers",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/8160e34958b1c657f58410bd01cd4222bb7f3dba.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/35521706a79b153b1c936a4ce078275096b8e431.jpg"
+  },
+  {
+    "name": "ACH_SPEED_BOOST_HALF",
+    "defaultvalue": 0,
+    "displayName": "Spinning Wheels",
+    "hidden": 0,
+    "description": "Use 10 Interval Speed Boosts",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/ba1c77fc4a022e7e4b3241f9cfc7c74b0574e0f2.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/1e13b5936756430377b237b9cb64e8e43ba37cd8.jpg"
+  },
+  {
+    "name": "ACH_PROFIT_BOOST_HALF",
+    "defaultvalue": 0,
+    "displayName": "Break Even",
+    "hidden": 0,
+    "description": "Use 10 Interval Profit Boosts",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/7c3016d94467132e433f07cda2c61404cc90399a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/a6176af6eeaed532e4ef82644383df983944f249.jpg"
+  },
+  {
+    "name": "ACH_SPEED_BOOST_FULL",
+    "defaultvalue": 0,
+    "displayName": "Smooth Sailing",
+    "hidden": 0,
+    "description": "Use 100 Interval Speed Boosts",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/9a73884a1a5ee19ddb67ece8a92e9304117c4a61.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/b23828e38dbab948579b804f445f59672e1e39c3.jpg"
+  },
+  {
+    "name": "ACH_PROFIT_BOOST_FULL",
+    "defaultvalue": 0,
+    "displayName": "Jackpot",
+    "hidden": 0,
+    "description": "Use 100 Interval Profit Boosts",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/a8bdc7199c476f8347fc5b6118f2599dd4cbb72d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/e5ed0e9f75bbdad189a19cb0eaa0cda8da6177f3.jpg"
+  },
+  {
+    "name": "ACH_TIME_TRAVEL",
+    "defaultvalue": 0,
+    "displayName": "Time Lord",
+    "hidden": 0,
+    "description": "Travel Through Time",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/7586543cb218a4c54eb80fbb81de59b2f405f5e5.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/181dd7063244625dd005484a0ee8e0d5443ab4bf.jpg"
+  },
+  {
+    "name": "ACH_ALL_ACHIEVEMENTS",
+    "defaultvalue": 0,
+    "displayName": "Ship Captain",
+    "hidden": 0,
+    "description": "Complete All Achievements",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/81ee01b42e60e5d96f9270e80148ac085494cc28.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/28a0de9e5f370463659dc163afd2c0b88b5d83ca.jpg"
+  },
+  {
+    "name": "ACH_CHICKEN_GATHERING_FULL",
+    "defaultvalue": 0,
+    "displayName": "Farm Supervisor",
+    "hidden": 0,
+    "description": "Level up Chicken Farmer Gathering Speed to 25",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/a5a2cd0c8a52f53e9dbecdf2635ef7df8f1ebea3.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/0ccb20fad8a3b679b9237fa2839df8744096f8e6.jpg"
+  },
+  {
+    "name": "ACH_CHICKEN_MOVEMENT_FULL",
+    "defaultvalue": 0,
+    "displayName": "Fancy Footwork",
+    "hidden": 0,
+    "description": "Level up Chicken Farmer Movement Speed to 25",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/f702522cdbe91aa55000b32567e1b6051fb5bdf3.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/c08b19685360f95e139fa2526c81ad194fefd35f.jpg"
+  },
+  {
+    "name": "ACH_DUCK_GATHERING_FULL",
+    "defaultvalue": 0,
+    "displayName": "High Welfare",
+    "hidden": 0,
+    "description": "Level up Duck Farmer Gathering Speed to 25",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/0df1eca1fb3daedf5ef10558426b3cc59eaca24f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/87989c0e438437d858023a61bedf032cee6d7f99.jpg"
+  },
+  {
+    "name": "ACH_DUCK_MOVEMENT_FULL",
+    "defaultvalue": 0,
+    "displayName": "Warp Speed",
+    "hidden": 0,
+    "description": "Level up Duck Farmer Movement Speed to 25",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/289cdeaaa579096680b3c315948cf8380f9ce510.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/0ddaca7a51f89d632bf9149e8bf15e948f6015a6.jpg"
+  },
+  {
+    "name": "ACH_GOAT_GATHERING_FULL",
+    "defaultvalue": 0,
+    "displayName": "Cheesemonger",
+    "hidden": 0,
+    "description": "Level up Goat Farmer Gathering Speed to 25",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/25a12fdc86d36cf7bcbae260409a560c5b28cfa8.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/2cceafabdd46dbb16d5666ad8c3c254385435f36.jpg"
+  },
+  {
+    "name": "ACH_GOAT_MOVEMENT_FULL",
+    "defaultvalue": 0,
+    "displayName": "Exponential Velocity",
+    "hidden": 0,
+    "description": "Level up Goat Farmer Movement Speed to 25",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/a8d11cea8e46077039f671cb55a90f7f0aa3f095.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/a5c2d265a4aefc42a7305314c35acbae6766196d.jpg"
+  },
+  {
+    "name": "ACH_PIG_GATHERING_FULL",
+    "defaultvalue": 0,
+    "displayName": "Strong Reputation",
+    "hidden": 0,
+    "description": "Level up Pig Farmer Gathering Speed to 25",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/ae39bf99633324758f9b487b334d49452c453bca.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/e9c2da575d7f9280f88d279ad516954852b7defd.jpg"
+  },
+  {
+    "name": "ACH_PIG_MOVEMENT_FULL",
+    "defaultvalue": 0,
+    "displayName": "The Moving Spirit",
+    "hidden": 0,
+    "description": "Level up Pig Farmer Movement Speed to 25",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/df90222f8bf748f202ec00243e2053346ffd18fd.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/8f8706a49f18c66671c19790925ecd11f657ddd6.jpg"
+  },
+  {
+    "name": "ACH_SHEEP_GATHERING_FULL",
+    "defaultvalue": 0,
+    "displayName": "Wool Distributor",
+    "hidden": 0,
+    "description": "Level up Sheep Farmer Gathering Speed to 25",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/a43cad1dbee5a4baae656e8c2f126c2c93f6e1a6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/371feaa0f62b6c9ed0a9c4a6b2e4fcf21f86e05d.jpg"
+  },
+  {
+    "name": "ACH_SHEEP_MOVEMENT_FULL",
+    "defaultvalue": 0,
+    "displayName": "Supersonic Speed",
+    "hidden": 0,
+    "description": "Level up Sheep Farmer Movement Speed to 25",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/d03a61d5b0b58ada45b08bc40715bc742c88d33c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/cf216290284a97485b377a9a68536aeae4dbc156.jpg"
+  },
+  {
+    "name": "ACH_RABBIT_GATHERING_FULL",
+    "defaultvalue": 0,
+    "displayName": "Monitoring Health",
+    "hidden": 0,
+    "description": "Level up Rabbit Farmer Gathering Speed to 25",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/9e78a7dde326f93289f84a32cbb4ba3a4c596485.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/f11c78e1f83d2d650b340ef2c475a41311d8b5bf.jpg"
+  },
+  {
+    "name": "ACH_RABBIT_MOVEMENT_FULL",
+    "defaultvalue": 0,
+    "displayName": "The Master Race",
+    "hidden": 0,
+    "description": "Level up Rabbit Farmer Movement Speed to 25",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/356b722799ad4e36bd1f85a2e984add91618b76c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/f6ca96fa1a4272734ab0d131b521b42e23e0e47d.jpg"
+  },
+  {
+    "name": "ACH_BEE_GATHERING_FULL",
+    "defaultvalue": 0,
+    "displayName": "Professional Apiarist",
+    "hidden": 0,
+    "description": "Level up Bee Farmer Gathering Speed to 25",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/2a8f7ea21ca523711c8f767e889d3b265c1b4a61.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/8739699245695600653c31632a7668f8e2a81e71.jpg"
+  },
+  {
+    "name": "ACH_BEE_MOVEMENT_FULL",
+    "defaultvalue": 0,
+    "displayName": "Lightning Ball",
+    "hidden": 0,
+    "description": "Level up Bee Farmer Movement Speed to 25",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/b7b68e9d9aacf6492fdd4c0e52fb9755d57c0dc9.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/3aea553720c478e43ad28285eeb3dba53a79d129.jpg"
+  },
+  {
+    "name": "ACH_COW_GATHERING_FULL",
+    "defaultvalue": 0,
+    "displayName": "Angus Veal",
+    "hidden": 0,
+    "description": "Level up Cow Farmer Gathering Speed to 25",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/11a2162f17c47ef07bfa7f7cef9122020859cce3.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/77a938f45bb4f5775e1d87eff04060f1c1cfdae3.jpg"
+  },
+  {
+    "name": "ACH_COW_MOVEMENT_FULL",
+    "defaultvalue": 0,
+    "displayName": "Speed Merchant",
+    "hidden": 0,
+    "description": "Level up Cow Farmer Movement Speed to 25",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/bc29e4a6ab0b902c830ee582ce7da1f433583d4c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/030161e21a886f54afbcc6f0b5b53a77687832dd.jpg"
+  },
+  {
+    "name": "ACH_ALL_GATHERING_FULL",
+    "defaultvalue": 0,
+    "displayName": "Time is Money",
+    "hidden": 0,
+    "description": "Reach Level 25 Gathering Speed on All Farmers",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/0eabf5ff88b2c3e765fb0a66db1507a5b67ea697.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/e4590d1de3a6e05a72f9085088476e2ac814a889.jpg"
+  },
+  {
+    "name": "ACH_ALL_MOVEMENT_FULL",
+    "defaultvalue": 0,
+    "displayName": "At Full Throttle",
+    "hidden": 0,
+    "description": "Reach Level 25 Movement Speed on All Farmers",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/3ea8978a7df4ab2488f5aecfe7cca2d29a39aca1.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/45d2435af4dbfd38e2f964d10e82cdc6ed4f4e96.jpg"
+  },
+  {
+    "name": "ACH_CHICKEN_LVL_HALF",
+    "defaultvalue": 0,
+    "displayName": "Chicken Coop-oration",
+    "hidden": 0,
+    "description": "Reach Level 25 With the Chicken Farm",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/23238c42739fdeba81e0d792ede4999eadbf6921.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/72c494ea49c5e53d1fb7d1b96f0c862473dd66d8.jpg"
+  },
+  {
+    "name": "ACH_DUCK_LVL_HALF",
+    "defaultvalue": 0,
+    "displayName": "Duck Canopy",
+    "hidden": 0,
+    "description": "Reach Level 25 With the Duck Farm",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/7056237c63a5f023ef64dfb29383bef688681953.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/b0556a68c1da0c19b494752d6ef12eeb5b6fa7da.jpg"
+  },
+  {
+    "name": "ACH_RABBIT_LVL_HALF",
+    "defaultvalue": 0,
+    "displayName": "Wild Burrows",
+    "hidden": 0,
+    "description": "Reach Level 25 With the Rabbit Farm",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/2f652f6b8514e49ed8aeedc1eaeac3f7bc0f2161.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/b442f2a2efa359c5c005a9160b6657f2b906f906.jpg"
+  },
+  {
+    "name": "ACH_COW_LVL_HALF",
+    "defaultvalue": 0,
+    "displayName": "Multiple Habitats",
+    "hidden": 0,
+    "description": "Reach Level 25 With the Cow Farm",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/f95ce6dcd0184d877980990b9d21c1050483446f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/ec7846733f64b4be831dfb36df7b53df486e11f4.jpg"
+  },
+  {
+    "name": "ACH_SHEEP_LVL_HALF",
+    "defaultvalue": 0,
+    "displayName": "Sheepfold",
+    "hidden": 0,
+    "description": "Reach Level 25 With the Sheep Farm",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/0379f3e3f6273bababb28da3e38e8f48bb2e1937.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/6f8fe24c50b37be35776c4fccbb5990049c085be.jpg"
+  },
+  {
+    "name": "ACH_PIG_LVL_HALF",
+    "defaultvalue": 0,
+    "displayName": "Pigpen",
+    "hidden": 0,
+    "description": "Reach Level 25 With the Pig Farm",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/21e43ef439a44a335919eade7cf3cfb3b2391aae.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/e2fbb33be4d95390d1591b5aec98272e4cfce0b0.jpg"
+  },
+  {
+    "name": "ACH_GOAT_LVL_HALF",
+    "defaultvalue": 0,
+    "displayName": "Wood Pellets",
+    "hidden": 0,
+    "description": "Reach Level 25 With the Goat Farm",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/1aa3db1444c33b76a44a76995fa671a9ac83e049.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/b53f632271a194900d2660864fbeedc003fa3708.jpg"
+  },
+  {
+    "name": "ACH_BEE_LVL_HALF",
+    "defaultvalue": 0,
+    "displayName": "Super Hives",
+    "hidden": 0,
+    "description": "Reach Level 25 With the Bee Farm",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/6310407f943409fe20d177617d319b84e68d812e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/cdec261b448fa03c23ae085481a2eea20aa70f45.jpg"
+  },
+  {
+    "name": "ACH_WORKSHOP_LVL_HALF",
+    "defaultvalue": 0,
+    "displayName": "Elaborate Your Craft",
+    "hidden": 0,
+    "description": "Reach Level 25 With the Workshop",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/b923167e2b69ac40f7d8db8d72cd5f1e1c04899e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/f79e0513addc78c0b9c24240b6366519cd4a471f.jpg"
+  },
+  {
+    "name": "ACH_ALL_FARMS_LVL_HALF",
+    "defaultvalue": 0,
+    "displayName": "Farming Skills Improved",
+    "hidden": 0,
+    "description": "Reach Level 25 With All Farms",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/d36a0dff6944ffd89998d1950c3b715ca30ed354.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1231520/522a61930b0cf8f0e58cbf8ae6a3e913d421617d.jpg"
+  }
+]

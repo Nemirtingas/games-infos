@@ -1,0 +1,180 @@
+[
+  {
+    "name": "ach_campaign_progress1",
+    "defaultvalue": 0,
+    "displayName": "Welcome Home",
+    "hidden": 0,
+    "description": "Level 2 Completed",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/911430/7cb4abad2a03c026a5330847a63406ab53ed287d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/911430/5e0c82808a35e7500aa2d128bcdf1ccd240554e0.jpg"
+  },
+  {
+    "name": "ach_campaign_progress2",
+    "defaultvalue": 0,
+    "displayName": "A Solid Foundation",
+    "hidden": 0,
+    "description": "Level 4 Completed",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/911430/32862b0c8df5b29c798f09c0c7e9a987c9c935b5.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/911430/7ef7eb9738a4d9a35ac38ab40e4dec9db2b39dd8.jpg"
+  },
+  {
+    "name": "ach_campaign_progress3",
+    "defaultvalue": 0,
+    "displayName": "Ready to take off",
+    "hidden": 0,
+    "description": "Level 6 Completed",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/911430/5f9d8ced83954457e1a7f5fad46ecde025abb0f5.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/911430/905849167eb5136624816ec75e5514bc999c939c.jpg"
+  },
+  {
+    "name": "ach_campaign_progress4",
+    "defaultvalue": 0,
+    "displayName": "The Sky's the Limit",
+    "hidden": 0,
+    "description": "Level 8 Completed",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/911430/3171887f16cb9a84ae07f3fafd25cf3350976280.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/911430/d4d23d54c7fc557bcf68e2e141fd20897de860c8.jpg"
+  },
+  {
+    "name": "ach_many_challenges",
+    "defaultvalue": 0,
+    "displayName": "Contender",
+    "hidden": 0,
+    "description": "4 Challenges Completed",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/911430/95f6a4b148fda0ad8eeb26a46632bfde8a68f561.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/911430/a5718348f1889607c4215209c02b143d4affed3d.jpg"
+  },
+  {
+    "name": "ach_all_ea_challenges",
+    "defaultvalue": 0,
+    "displayName": "Champion",
+    "hidden": 0,
+    "description": "7 Challenges Completed",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/911430/d7ff272fa0651c1eae3ad1cc67a768ed5c971e97.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/911430/a5301761b85c47147bf358b61317da31e1897925.jpg"
+  },
+  {
+    "name": "ach_many_trophies",
+    "defaultvalue": 0,
+    "displayName": "Trophy Collector",
+    "hidden": 0,
+    "description": "30 Trophies Earned",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/911430/7ef6b3188d739e222ec1c90b2ed12395b47809fe.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/911430/1714ab7a60019666e64f870f54414ddd46696c2c.jpg"
+  },
+  {
+    "name": "ach_all_ea_trophies",
+    "defaultvalue": 0,
+    "displayName": "Trophy Hoarder",
+    "hidden": 0,
+    "description": "45 Trophies Earned",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/911430/c83585f4c8cd4164294ef868f84cdef5d78cf221.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/911430/7d1224184f8c12aadd7146f623fea1019e698aac.jpg"
+  },
+  {
+    "name": "ach_frp_high_networth",
+    "defaultvalue": 0,
+    "displayName": "Millionaire",
+    "hidden": 0,
+    "description": "Freeplay: Reach 1.000.000 G net worth",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/911430/13d60937f5c727db1842e6a1895f1e40626d2f25.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/911430/0ddc37e05682eecfeb0e81a9b838a7c0fa1c8cc4.jpg"
+  },
+  {
+    "name": "ach_frp_veryhigh_networth",
+    "defaultvalue": 0,
+    "displayName": "Multi-Millionaire",
+    "hidden": 0,
+    "description": "Freeplay: Reach 30.000.000 G net worth",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/911430/316a6015b9d0c0a38da6b57a5913c7ca3543acb7.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/911430/073ed88544430d416de0e7a7ed84c3bd4b34404d.jpg"
+  },
+  {
+    "name": "ach_frp_many_modules",
+    "defaultvalue": 0,
+    "displayName": "Modular Progress",
+    "hidden": 0,
+    "description": "Freeplay: Produce 500 Modules per day",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/911430/0ef9f8650225e14129bbf8fa9315fd5cb525e69d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/911430/968fc2605eb0d95c3b0376d6122fff87c8dec8a1.jpg"
+  },
+  {
+    "name": "ach_frp_researchdata",
+    "defaultvalue": 0,
+    "displayName": "Data Churn",
+    "hidden": 0,
+    "description": "Freeplay: Generate 150 research data per week",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/911430/8dda26f38f87c6323ce18e00c2e5740a2d609010.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/911430/d60aebce10dbe9e2d54e06c8ad52781a9e0d451a.jpg"
+  },
+  {
+    "name": "ach_frp_many_products",
+    "defaultvalue": 0,
+    "displayName": "Sales Expert",
+    "hidden": 0,
+    "description": "Freeplay: Sell 150 Products per month",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/911430/d2a35b3eec73d565684d9839ba977e13052c1f70.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/911430/306c683d472da38d9cfba6924fd10117ac0d831a.jpg"
+  },
+  {
+    "name": "ach_frp_many_buildings",
+    "defaultvalue": 0,
+    "displayName": "Landlord",
+    "hidden": 0,
+    "description": "Freeplay: Have 10 Buildings unlocked",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/911430/c016f0cd2dbca11d97a7ff2eaba78ff23580040e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/911430/4127a4ccada108578e029956e5caa39df0810bf9.jpg"
+  },
+  {
+    "name": "ach_prof_many_decorations",
+    "defaultvalue": 0,
+    "displayName": "Decorator",
+    "hidden": 0,
+    "description": "Profile: Have 10 Decorations Unlocked",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/911430/a28b2a5dc33445b20f8103a99cc99b91b55900a2.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/911430/685d7ca082dfcc48a8393e4acfc85cb46638d7fc.jpg"
+  },
+  {
+    "name": "ach_prof_verymany_decorations",
+    "defaultvalue": 0,
+    "displayName": "Interiour Designer",
+    "hidden": 0,
+    "description": "Profile: Have 25 Decorations Unlocked",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/911430/281b4c423f44ea734535844954d54111a8bed7dd.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/911430/a0a4ea08bd2d8757dc0272d1b2c71459ae6b0da5.jpg"
+  },
+  {
+    "name": "ach_prof_many_research",
+    "defaultvalue": 0,
+    "displayName": "Know-it-all",
+    "hidden": 0,
+    "description": "Have 500 techs researched (over all game sessions)",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/911430/89edfb547e7a0d6ae6130030324abe6c938bf9a8.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/911430/c34d54080096bf66f72a61fbe4a2bacfe673ccd8.jpg"
+  },
+  {
+    "name": "ach_prof_products_sold",
+    "defaultvalue": 0,
+    "displayName": "Tycoon",
+    "hidden": 0,
+    "description": "Have sold products for 100.000.000 G (over all game sessions)",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/911430/033be078d5e8b6359c9d1e15dd8ba9a7549d3bf6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/911430/fae5695b45c753e34c5500c71edc553c3cc14a95.jpg"
+  },
+  {
+    "name": "ach_drawback_reduction",
+    "defaultvalue": 0,
+    "displayName": "Across the (circuit)board",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/911430/64a79975a3d50f6e94858edda4476a0affe8c097.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/911430/4dc66b2f519c5ca17f18a7ba24589315f494b837.jpg"
+  },
+  {
+    "name": "ach_fivestar_product",
+    "defaultvalue": 0,
+    "displayName": "High Five!",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/911430/a6b619d1d089812a0d9fd030be816edf5fa63f0f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/911430/4ba71eaa6ef207770a9d3923ad554aeb9ced1cac.jpg"
+  }
+]

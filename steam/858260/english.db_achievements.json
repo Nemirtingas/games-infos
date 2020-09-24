@@ -1,0 +1,322 @@
+﻿[
+  {
+    "name": "ACH_TUTORIAL_STARTED",
+    "defaultvalue": 0,
+    "displayName": "Rude Awakening",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/858260/b1d58ff895fa290c219b755e7573557feccae711.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/858260/646472c8af77013708ca8893d70a29328b4148aa.jpg"
+  },
+  {
+    "name": "ACH_TUTORIAL_COMPLETE",
+    "defaultvalue": 0,
+    "displayName": "Welcome to Rokar",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/858260/b1d58ff895fa290c219b755e7573557feccae711.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/858260/646472c8af77013708ca8893d70a29328b4148aa.jpg"
+  },
+  {
+    "name": "ACH_SHATTEREDWOODS_BOSS1",
+    "defaultvalue": 0,
+    "displayName": "Wounded Pride",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/858260/b1d58ff895fa290c219b755e7573557feccae711.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/858260/646472c8af77013708ca8893d70a29328b4148aa.jpg"
+  },
+  {
+    "name": "ACH_SHATTEREDWOODS_BOSS2",
+    "defaultvalue": 0,
+    "displayName": "Fallen Guardians",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/858260/b1d58ff895fa290c219b755e7573557feccae711.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/858260/646472c8af77013708ca8893d70a29328b4148aa.jpg"
+  },
+  {
+    "name": "ACH_SHATTEREDWOODS_BOSS3",
+    "defaultvalue": 0,
+    "displayName": "Horror Vanquished",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/858260/b1d58ff895fa290c219b755e7573557feccae711.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/858260/646472c8af77013708ca8893d70a29328b4148aa.jpg"
+  },
+  {
+    "name": "ACH_SHATTEREDWOODS_DIFFICULTY1",
+    "defaultvalue": 0,
+    "displayName": "Up to the Challenge",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/858260/b1d58ff895fa290c219b755e7573557feccae711.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/858260/646472c8af77013708ca8893d70a29328b4148aa.jpg"
+  },
+  {
+    "name": "ACH_SHATTEREDWOODS_DIFFICULTY2",
+    "defaultvalue": 0,
+    "displayName": "Relentless Reclaimer",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/858260/b1d58ff895fa290c219b755e7573557feccae711.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/858260/646472c8af77013708ca8893d70a29328b4148aa.jpg"
+  },
+  {
+    "name": "ACH_SHATTEREDWOODS_DIFFICULTY3",
+    "defaultvalue": 0,
+    "displayName": "Kneon Knightmare",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/858260/b1d58ff895fa290c219b755e7573557feccae711.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/858260/646472c8af77013708ca8893d70a29328b4148aa.jpg"
+  },
+  {
+    "name": "ACH_AETHER_RUN",
+    "defaultvalue": 0,
+    "displayName": "Burning a Hole in your Armor",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/858260/b1d58ff895fa290c219b755e7573557feccae711.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/858260/646472c8af77013708ca8893d70a29328b4148aa.jpg"
+  },
+  {
+    "name": "ACH_AETHER_TOTAL",
+    "defaultvalue": 0,
+    "displayName": "Fat Stacks of Aether",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/858260/1b59151762d55a57e1c211821b3c391fc87b487f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/858260/646472c8af77013708ca8893d70a29328b4148aa.jpg"
+  },
+  {
+    "name": "ACH_WEAPON_PURCHASED",
+    "defaultvalue": 0,
+    "displayName": "Forged Anew",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/858260/b1d58ff895fa290c219b755e7573557feccae711.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/858260/646472c8af77013708ca8893d70a29328b4148aa.jpg"
+  },
+  {
+    "name": "ACH_WEAPON_UPGRADED",
+    "defaultvalue": 0,
+    "displayName": "Unleashed Potential",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/858260/b1d58ff895fa290c219b755e7573557feccae711.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/858260/646472c8af77013708ca8893d70a29328b4148aa.jpg"
+  },
+  {
+    "name": "ACH_WEAPON_UPGRADED_X",
+    "defaultvalue": 0,
+    "displayName": "Masterwork",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/858260/b1d58ff895fa290c219b755e7573557feccae711.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/858260/646472c8af77013708ca8893d70a29328b4148aa.jpg"
+  },
+  {
+    "name": "ACH_ENEMIES_KILLED",
+    "defaultvalue": 0,
+    "displayName": "Wrecker of Fools",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/858260/b1d58ff895fa290c219b755e7573557feccae711.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/858260/646472c8af77013708ca8893d70a29328b4148aa.jpg"
+  },
+  {
+    "name": "ACH_HUSKS_KILLED",
+    "defaultvalue": 0,
+    "displayName": "Hewer of Husks",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/858260/b1d58ff895fa290c219b755e7573557feccae711.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/858260/646472c8af77013708ca8893d70a29328b4148aa.jpg"
+  },
+  {
+    "name": "ACH_KNIGHTS_KILLED",
+    "defaultvalue": 0,
+    "displayName": "Killer of Knights",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/858260/b1d58ff895fa290c219b755e7573557feccae711.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/858260/646472c8af77013708ca8893d70a29328b4148aa.jpg"
+  },
+  {
+    "name": "ACH_CAPTAINS_KILLED",
+    "defaultvalue": 0,
+    "displayName": "Cleaver of Captains",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/858260/1b59151762d55a57e1c211821b3c391fc87b487f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/858260/646472c8af77013708ca8893d70a29328b4148aa.jpg"
+  },
+  {
+    "name": "ACH_SPELLWEAVERS_KILLED",
+    "defaultvalue": 0,
+    "displayName": "Slayer of Spellweavers",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/858260/b1d58ff895fa290c219b755e7573557feccae711.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/858260/646472c8af77013708ca8893d70a29328b4148aa.jpg"
+  },
+  {
+    "name": "ACH_EMPOWEREDS_KILLED",
+    "defaultvalue": 0,
+    "displayName": "Unempower-er",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/858260/b1d58ff895fa290c219b755e7573557feccae711.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/858260/646472c8af77013708ca8893d70a29328b4148aa.jpg"
+  },
+  {
+    "name": "ACH_LONG_COMBO",
+    "defaultvalue": 0,
+    "displayName": "Quick on the Draw",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/858260/b1d58ff895fa290c219b755e7573557feccae711.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/858260/646472c8af77013708ca8893d70a29328b4148aa.jpg"
+  },
+  {
+    "name": "ACH_COMBOS_COMPLETED",
+    "defaultvalue": 0,
+    "displayName": "Combo Completionist",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/858260/b1d58ff895fa290c219b755e7573557feccae711.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/858260/022bcfec7d951204864ad78efe9f87067ee936b8.jpg"
+  },
+  {
+    "name": "ACH_MELEE_BLOCKS",
+    "defaultvalue": 0,
+    "displayName": "Parry Party",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/858260/b1d58ff895fa290c219b755e7573557feccae711.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/858260/646472c8af77013708ca8893d70a29328b4148aa.jpg"
+  },
+  {
+    "name": "ACH_GUARDBREAKS",
+    "defaultvalue": 0,
+    "displayName": "Guard Breaker",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/858260/b1d58ff895fa290c219b755e7573557feccae711.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/858260/646472c8af77013708ca8893d70a29328b4148aa.jpg"
+  },
+  {
+    "name": "ACH_DODGES",
+    "defaultvalue": 0,
+    "displayName": "Dodge, Duck, Dip, Dive and Dodge",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/858260/b1d58ff895fa290c219b755e7573557feccae711.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/858260/646472c8af77013708ca8893d70a29328b4148aa.jpg"
+  },
+  {
+    "name": "ACH_RANGEDBLOCKS",
+    "defaultvalue": 0,
+    "displayName": "Buntmaster",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/858260/b1d58ff895fa290c219b755e7573557feccae711.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/858260/646472c8af77013708ca8893d70a29328b4148aa.jpg"
+  },
+  {
+    "name": "ACH_WEAPONS_ACQUIRED_12",
+    "defaultvalue": 0,
+    "displayName": "A Fine Collection",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/858260/1b59151762d55a57e1c211821b3c391fc87b487f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/858260/646472c8af77013708ca8893d70a29328b4148aa.jpg"
+  },
+  {
+    "name": "ACH_WEAPONS_UPGRADED_X_12",
+    "defaultvalue": 0,
+    "displayName": "Pinnacle of Perfection",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/858260/b1d58ff895fa290c219b755e7573557feccae711.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/858260/646472c8af77013708ca8893d70a29328b4148aa.jpg"
+  },
+  {
+    "name": "ACH_SHATTEREDWOODS_NO_HEAL",
+    "defaultvalue": 0,
+    "displayName": "Ain't Got Time to Heal",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/858260/b1d58ff895fa290c219b755e7573557feccae711.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/858260/022bcfec7d951204864ad78efe9f87067ee936b8.jpg"
+  },
+  {
+    "name": "ACH_HORRORS_KILLED",
+    "defaultvalue": 0,
+    "displayName": "Extermin-aether",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/858260/b1d58ff895fa290c219b755e7573557feccae711.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/858260/646472c8af77013708ca8893d70a29328b4148aa.jpg"
+  },
+  {
+    "name": "ACH_SHATTEREDWOODS_MONK",
+    "defaultvalue": 0,
+    "displayName": "Monk of Rokar",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/858260/b1d58ff895fa290c219b755e7573557feccae711.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/858260/646472c8af77013708ca8893d70a29328b4148aa.jpg"
+  },
+  {
+    "name": "ACH_SHATTEREDWOODS_KATARS",
+    "defaultvalue": 0,
+    "displayName": "Katarstrophy",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/858260/b1d58ff895fa290c219b755e7573557feccae711.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/858260/646472c8af77013708ca8893d70a29328b4148aa.jpg"
+  },
+  {
+    "name": "ACH_SHATTEREDWOODS_HEAVYWEAPONS",
+    "defaultvalue": 0,
+    "displayName": "Titan's Grip",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/858260/b1d58ff895fa290c219b755e7573557feccae711.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/858260/646472c8af77013708ca8893d70a29328b4148aa.jpg"
+  },
+  {
+    "name": "ACH_SHATTEREDWOODS_SPELLSWORD",
+    "defaultvalue": 0,
+    "displayName": "Spellweaver-in-Training",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/858260/b1d58ff895fa290c219b755e7573557feccae711.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/858260/646472c8af77013708ca8893d70a29328b4148aa.jpg"
+  },
+  {
+    "name": "ACH_SHATTEREDWOODS_STARTER_WEAPONS",
+    "defaultvalue": 0,
+    "displayName": "Fundamentalist",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/858260/b1d58ff895fa290c219b755e7573557feccae711.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/858260/646472c8af77013708ca8893d70a29328b4148aa.jpg"
+  },
+  {
+    "name": "ACH_TRAITS_ON_WEAPON_LOTS",
+    "defaultvalue": 0,
+    "displayName": "Tricked Out",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/858260/b1d58ff895fa290c219b755e7573557feccae711.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/858260/646472c8af77013708ca8893d70a29328b4148aa.jpg"
+  },
+  {
+    "name": "ACH_MANY_TRAITS_EQUIPPED",
+    "defaultvalue": 0,
+    "displayName": "Cognitive Overload",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/858260/b1d58ff895fa290c219b755e7573557feccae711.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/858260/646472c8af77013708ca8893d70a29328b4148aa.jpg"
+  },
+  {
+    "name": "ACH_RAGDOLL_DISTANCE",
+    "defaultvalue": 0,
+    "displayName": "On the Wings of the Knight",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/858260/b1d58ff895fa290c219b755e7573557feccae711.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/858260/646472c8af77013708ca8893d70a29328b4148aa.jpg"
+  },
+  {
+    "name": "ACH_SHATTEREDWOODS_NIGHTMAREST",
+    "defaultvalue": 0,
+    "displayName": "Sword God",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/858260/b1d58ff895fa290c219b755e7573557feccae711.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/858260/646472c8af77013708ca8893d70a29328b4148aa.jpg"
+  },
+  {
+    "name": "ACH_AETHER_BANKED",
+    "defaultvalue": 0,
+    "displayName": "Rokari Retirment Fund",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/858260/b1d58ff895fa290c219b755e7573557feccae711.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/858260/646472c8af77013708ca8893d70a29328b4148aa.jpg"
+  },
+  {
+    "name": "ACH_SUPER_LEVEL_4",
+    "defaultvalue": 0,
+    "displayName": "Super-est",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/858260/b1d58ff895fa290c219b755e7573557feccae711.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/858260/646472c8af77013708ca8893d70a29328b4148aa.jpg"
+  }
+]

@@ -1,0 +1,204 @@
+﻿[
+  {
+    "name": "ClearWithLimitedHeal",
+    "defaultvalue": 0,
+    "displayName": "More than enough",
+    "hidden": 0,
+    "description": "Finish the game on standard difficulty with no more than 60 healings",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1120810/decb431bbda818bbc2b7aa20cd4f88a02fff08b5.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1120810/14e0849668a5defb8a0f89802643fa9c5c837162.jpg"
+  },
+  {
+    "name": "ClearWithoutExSupply",
+    "defaultvalue": 0,
+    "displayName": "Keep moving forward",
+    "hidden": 0,
+    "description": "Finish the game on standard difficulty without excess supplies",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1120810/bb9211df55bd9311f516f9684eaa90648eec9e0b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1120810/b317ec188e63482789594df2ae415766366a3d54.jpg"
+  },
+  {
+    "name": "Clear_LYC",
+    "defaultvalue": 0,
+    "displayName": "The legend of Lu Yunchuan",
+    "hidden": 0,
+    "description": "Complete the journey of Lu Yunchuan",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1120810/445ae05b7890ee2560ff7779caf8dfb01808f2ea.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1120810/dc7e15578fc2a50788c26aef1e27f907bd4bc62f.jpg"
+  },
+  {
+    "name": "TopLevel_LYC",
+    "defaultvalue": 0,
+    "displayName": "Thoroughly tempered",
+    "hidden": 0,
+    "description": "Reach 30 level of Lu Yunchuan",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1120810/4eeb5c92c7b9b67f420d7138011b0816f538e9a9.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1120810/50df14a9d71d25a2778735d9c95af3da6b174375.jpg"
+  },
+  {
+    "name": "EvadeDuringDying",
+    "defaultvalue": 0,
+    "displayName": "Escape from death",
+    "hidden": 0,
+    "description": "Perform perfect dodge 5 times in a battle while on the verge of death",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1120810/83a8e774cfdcff0c63ef0ade573b86fa4e6c4c39.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1120810/bcdae8a550e0baf2c3420e6428e40e6c1dd913d4.jpg"
+  },
+  {
+    "name": "BlockDuringDying",
+    "defaultvalue": 0,
+    "displayName": "Take it easy",
+    "hidden": 0,
+    "description": "Perform counter attack 3 times in a battle while on the verge of death",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1120810/06b778fccf33e3ec9101a8be98366f19189ebcc3.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1120810/053db06b2cc3a194eb97aad4dc3358554dc6dcf5.jpg"
+  },
+  {
+    "name": "BlockBulletMultipleTimes",
+    "defaultvalue": 0,
+    "displayName": "Tit for tat",
+    "hidden": 0,
+    "description": "Perform counter attack and bounce the enemy's projectile back 3 times in a battle",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1120810/c27cb57a87ebbf657d7854e8c07ee0bc80934a25.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1120810/a24eb5910ef9186cdcc8cbf63d3882267a08c878.jpg"
+  },
+  {
+    "name": "Dispel3EnemiesOrMoreAtOnce",
+    "defaultvalue": 0,
+    "displayName": "Demon Disperse",
+    "hidden": 0,
+    "description": "Dispel 3 or more demons at once",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1120810/b1ee1a9d4a604403e5df230fadb5c533963397a7.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1120810/5be9b05a95504647e4bf0de26f9ddd7df93078ca.jpg"
+  },
+  {
+    "name": "LYC_BOSS_XueLingJuYuan",
+    "defaultvalue": 0,
+    "displayName": "Snow Ape",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1120810/407dc8b99007e7f995bfed5641de5bacd55147f9.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1120810/1d3444ac34bc77129e99ca663e7047928fa94701.jpg"
+  },
+  {
+    "name": "LYC_BOSS_RenMianYu",
+    "defaultvalue": 0,
+    "displayName": "Fish Fiend",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1120810/f55cd29146b4937644055c1290f9da1b283de9b6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1120810/4ff1d4dcc9300ffe0e09b548be19db8788bf004b.jpg"
+  },
+  {
+    "name": "LYC_BOSS_QingMianNingGui",
+    "defaultvalue": 0,
+    "displayName": "Green Wraith",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1120810/73c46619f4c23a53e36271ec5597941980870942.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1120810/b83898615127a1feaebcb644cd6302d2a5c5bd59.jpg"
+  },
+  {
+    "name": "LYC_BOSS_EXiuLuo",
+    "defaultvalue": 0,
+    "displayName": "Shura",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1120810/5abb375acc727edebfd0ebc91ef15a92bd5be647.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1120810/6f7549990ef2a345fbd76ddd53c5a2f3978084e4.jpg"
+  },
+  {
+    "name": "LYC_BOSS_ChuShi",
+    "defaultvalue": 0,
+    "displayName": "Chu",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1120810/1737147c8fe248c5482fd0e19fb51eac614cff82.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1120810/60aa9235ea8bcdca08df66a6806c7ebae00bd68f.jpg"
+  },
+  {
+    "name": "LYC_BOSS_SanMianLuoCha",
+    "defaultvalue": 0,
+    "displayName": "Three-faced Rakshasa",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1120810/9ef833f81d11a6263a3e1fcfa27cd9f29d03fda5.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1120810/d81835af1a9e811bf584cb5084a0f0c838152f63.jpg"
+  },
+  {
+    "name": "LYC_BOSS_YuanLingShuYao",
+    "defaultvalue": 0,
+    "displayName": "Evil Treant",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1120810/1b15365256e71a8a642a301e2699e29443468372.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1120810/148e8a214d8b6131860cb88071d34c8e2db6a50e.jpg"
+  },
+  {
+    "name": "LYC_BOSS_QianZhiZhangMo",
+    "defaultvalue": 0,
+    "displayName": "Amorphous Plague Demon",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1120810/3ab17683353ee3b12180906bcd8636914a194b9d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1120810/87e0480c7fa9df23f12e79f545940f8e911a9a69.jpg"
+  },
+  {
+    "name": "LYC_BOSS_LongShen",
+    "defaultvalue": 0,
+    "displayName": "Dragon God",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1120810/ef666bf3f7a840413aa52addc71f930d3aa3e9b0.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1120810/446ef21d2f214d29488ddd000cbcba435ca96c92.jpg"
+  },
+  {
+    "name": "LYC_BOSS_YinXiaoWei",
+    "defaultvalue": 0,
+    "displayName": "Colonel Yin",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1120810/a5c6dad7937c7726debfe1dac29ffb47caa2f0fe.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1120810/3ca826872511aed482f3796816520489ab90b8ac.jpg"
+  },
+  {
+    "name": "LYC_BOSS_XiWuHou",
+    "defaultvalue": 0,
+    "displayName": "Marquis Xi",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1120810/51606727cc951a6cdf4ec451a670cda4d713cc47.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1120810/df8cce1e3303ebc84e09cb9950f1147ec7ffe440.jpg"
+  },
+  {
+    "name": "LYC_BOSS_BaiDuFuRen",
+    "defaultvalue": 0,
+    "displayName": "Lady Poison",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1120810/9b47b171d8301e316aea3e69d417d53a06a72b1d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1120810/ec302b9a63f02f360c27919012363e2fdbc18286.jpg"
+  },
+  {
+    "name": "LYC_BOSS_XiaoWang",
+    "defaultvalue": 0,
+    "displayName": "King Mandrill",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1120810/3388c85e0dbd8429650d9eaa5d7c3e07efe8b0cd.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1120810/c7ff251df867f9d1670d19579ed0bf47da33a235.jpg"
+  },
+  {
+    "name": "LYC_BOSS_ZhangHuaiZhou",
+    "defaultvalue": 0,
+    "displayName": "???",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1120810/26e9f62bf84c2983a866b7ff4a54f69f71ef4434.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1120810/26e9f62bf84c2983a866b7ff4a54f69f71ef4434.jpg"
+  },
+  {
+    "name": "ClearWithoutUpgrade",
+    "defaultvalue": 0,
+    "displayName": "Reach the peak of perfection",
+    "hidden": 0,
+    "description": "Finish the game on standard difficulty at Level 1",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1120810/922874e26e9c46df233d088b150b2997f392a3a5.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1120810/183511559e3e6bb5d56c84a33110305c2ee4fba9.jpg"
+  },
+  {
+    "name": "LYC_All_Hard_Challenges",
+    "defaultvalue": 0,
+    "displayName": "Exorcism Master",
+    "hidden": 0,
+    "description": "Complete all Challenge Stages on hard difficulty",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1120810/56cbf1d1ea0508482acb33f4a9e201224e43b153.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1120810/830107e1b3a02155beb98d163949f5e5854a4200.jpg"
+  }
+]

@@ -1,0 +1,54 @@
+﻿{
+  "downs": {
+    "description": "Downs",
+    "value": 0
+  },
+  "shots_fired": {
+    "description": "Shots Fired",
+    "value": 0
+  },
+  "shots_hit": {
+    "description": "Shots Hit",
+    "value": 0
+  },
+  "escapes": {
+    "description": "Escapes",
+    "value": 0
+  },
+  "executions_terror": {
+    "description": "Terror Executions",
+    "value": 0
+  },
+  "execution_syringe_innocent_on_innocent": {
+    "description": "Death syringes used on innocents (as an innocent)",
+    "value": 0
+  },
+  "execution_syringe_innocent_on_terror": {
+    "description": "Death syringes used on terrors (as an innocent)",
+    "value": 0
+  },
+  "execution_syringe_terror_on_innocent": {
+    "description": "Death syringes used on innocents (as a terror)",
+    "value": 0
+  },
+  "execution_syringe_terror_on_terror": {
+    "description": "Death syringes used on terrors (as a terror)",
+    "value": 0
+  },
+  "executions": {
+    "description": "Executions",
+    "value": 0
+  },
+  "objectives": {
+    "description": "Objectives taken",
+    "value": 0
+  },
+  "time_in_dark": {
+    "description": "Time spent in the dark",
+    "value": 0
+  },
+  "stolen_objectives": {
+    "description": "Stolen Objectives",
+    "value": 0
+  }
+}
