@@ -282,6 +282,21 @@ namespace steam_db
             return infos;
         }
 
+        static JObject ParseOther(string appid, string type, JObject json)
+        {
+            string name = (string)json[appid]["data"]["name"];
+            string header_image = (string)json[appid]["data"]["header_image"];
+
+            JObject infos = new JObject();
+            infos["Name"] = name;
+            infos["ImageUrl"] = header_image;
+            infos["Type"] = type;
+
+            Console.WriteLine(string.Format("  \\ Type {0}, ID {1}, Name {2}", type, appid, name));
+
+            return infos;
+        }
+
         static JObject GetOrCreateApp(string appid, bool is_dlc)
         {
             if (!games_infos.ContainsKey(appid))
@@ -421,31 +436,46 @@ namespace steam_db
                                     Directory.CreateDirectory(Path.Combine(out_dir, appid));
                                 }
 
-                                if (type == "dlc")
+                                switch (type)
                                 {
-                                    string main_appid;
-                                    JObject dlc = ParseDlc(appid, type, app_json, out main_appid);
-                                    JObject app = GetOrCreateApp(main_appid, true);
-
-                                    if(!done_appids.Contains(main_appid))
+                                    case "dlc":
                                     {
-                                         appids.Add(main_appid);
-                                    }
+                                        string main_appid;
+                                        JObject dlc = ParseDlc(appid, type, app_json, out main_appid);
+                                        JObject app = GetOrCreateApp(main_appid, true);
+
+                                        if(!done_appids.Contains(main_appid))
+                                        {
+                                             appids.Add(main_appid);
+                                        }
                                     
-                                    // Add the dlc to the games_infos
-                                    games_infos[appid] = dlc;
-                                    // Add the dlc to its main game
-                                    app["Dlcs"][appid] = dlc;
+                                        // Add the dlc to the games_infos
+                                        games_infos[appid] = dlc;
+                                        // Add the dlc to its main game
+                                        app["Dlcs"][appid] = dlc;
 
-                                    SaveJson(Path.Combine(out_dir, appid, appid + ".json"), dlc);
-                                    SaveJson(Path.Combine(out_dir, main_appid, main_appid + ".json"), app);
-                                }
-                                else if (type == "game")
-                                {
-                                    JObject game = ParseGame(appid, type, app_json);
-                                    games_infos[appid] = game;
+                                        SaveJson(Path.Combine(out_dir, appid, appid + ".json"), dlc);
+                                        SaveJson(Path.Combine(out_dir, main_appid, main_appid + ".json"), app);
+                                    }
+                                    break;
 
-                                    SaveJson(Path.Combine(out_dir, appid, appid + ".json"), game);
+                                    case "game":
+                                    {
+                                        JObject game = ParseGame(appid, type, app_json);
+                                        games_infos[appid] = game;
+
+                                        SaveJson(Path.Combine(out_dir, appid, appid + ".json"), game);
+                                    }
+                                    break;
+
+                                    default:
+                                    {
+                                        JObject app = ParseOther(appid, type, app_json);
+                                        games_infos[appid] = app;
+
+                                        SaveJson(Path.Combine(out_dir, appid, appid + ".json"), app);
+                                    }
+                                    break;
                                 }
                             }
                             catch (Exception e)
