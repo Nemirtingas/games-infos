@@ -1,0 +1,236 @@
+[
+  {
+    "name": "dungeon_crawler",
+    "defaultvalue": 0,
+    "displayName": "Dungeon Crawler",
+    "hidden": 0,
+    "description": "Entered the dungeon for the first time.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/849920/cd43c27a6a1624b03a6a4d0b321fb5d0f0ac02e9.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/849920/3c200de7c7a9ad5c06b8227ce335471833703737.jpg"
+  },
+  {
+    "name": "going_down",
+    "defaultvalue": 0,
+    "displayName": "Going Down",
+    "hidden": 0,
+    "description": "Travelled to the second floor of the Catacombs.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/849920/9b0cb5a2358b7dbfbe2b2432ba22c2d9b753bc16.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/849920/6f3f1be3cd3e111c29d115fae4c226c42b67669f.jpg"
+  },
+  {
+    "name": "hidden_sure",
+    "defaultvalue": 0,
+    "displayName": "Hidden? Sure...",
+    "hidden": 0,
+    "description": "Found the hidden key in Floor 2 of the Catacombs.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/849920/384b38724259caa6d70510a3b8d72d90c2f9f23f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/849920/29948cea113cf1b237d93aed7c3223a397aeff97.jpg"
+  },
+  {
+    "name": "a_door",
+    "defaultvalue": 0,
+    "displayName": "A door needs unlocking eh?",
+    "hidden": 0,
+    "description": "Opened the chest containing a key on Floor 1 of the Catacombs.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/849920/88610229eb3c5188eb6f98d0064cf1ae895d7b75.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/849920/a22f1ddd83b91306d10d46fab5420c2447743565.jpg"
+  },
+  {
+    "name": "open_sesame",
+    "defaultvalue": 0,
+    "displayName": "Open Sesame!",
+    "hidden": 0,
+    "description": "Unlocked your first door.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/849920/361088ef38a8552c428a5faae3cdc2dc1b51fc71.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/849920/160a55861be4701d65eb36dd1c34f83c54480cff.jpg"
+  },
+  {
+    "name": "ally_giselle",
+    "defaultvalue": 0,
+    "displayName": "Kawaii",
+    "hidden": 0,
+    "description": "Recruited a female ally.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/849920/2c1d57e8afa230bc2f2563aa76310e90b1fdf3f8.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/849920/6911da5108e4fa341c5965c900ba27e0f5d6201e.jpg"
+  },
+  {
+    "name": "ally_benjamin",
+    "defaultvalue": 0,
+    "displayName": "Like a sir",
+    "hidden": 0,
+    "description": "Recruited a male ally.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/849920/9841992fb905f28531431fa051ec1e0fb431d12e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/849920/16198b3db7190d3c9240c51c9c1b6baa328a1857.jpg"
+  },
+  {
+    "name": "wise_words",
+    "defaultvalue": 0,
+    "displayName": "Lend an ear",
+    "hidden": 0,
+    "description": "Spoke to the town greeter.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/849920/36a9ea029c265dd459c7963bf96f9c85b482bd4e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/849920/db69e2cfc6d1a1ea874106335308836a94a61875.jpg"
+  },
+  {
+    "name": "visit_magic",
+    "defaultvalue": 0,
+    "displayName": "Scrolls and Stuff",
+    "hidden": 0,
+    "description": "Visited the Magic Shop.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/849920/9c92d1d48a081dc98a901e7ed310306a8da2c38e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/849920/27ca658113be8f688719ea7cce4dc8f1e4700480.jpg"
+  },
+  {
+    "name": "visit_inn_pub",
+    "defaultvalue": 0,
+    "displayName": "Who's thirsty?",
+    "hidden": 0,
+    "description": "Visited the Inn & Pub.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/849920/af0896c5fc72c47efd3d57f0ca56ba266b289ada.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/849920/bd7b959e16a30e73d84f8f3323d5723b57302ac9.jpg"
+  },
+  {
+    "name": "visit_store",
+    "defaultvalue": 0,
+    "displayName": "Shop 'til You Drop",
+    "hidden": 0,
+    "description": "Visited the General Store.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/849920/6a2f66a1c5a901e370c2eb88f7cd40f54f698dfc.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/849920/82e6bd53bcb097fdf7ac079599f81f996a92231d.jpg"
+  },
+  {
+    "name": "visit_equip",
+    "defaultvalue": 0,
+    "displayName": "Ooh, Shiny!",
+    "hidden": 0,
+    "description": "Visited the Equipment Shop.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/849920/5a25d7d7adc93612af8843eaca3096a7eb405c17.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/849920/eddc0924da4f0e9181857bc86cf7df677a16b43d.jpg"
+  },
+  {
+    "name": "caves_entrance",
+    "defaultvalue": 0,
+    "displayName": "Who turned off the lights?",
+    "hidden": 0,
+    "description": "Entered the Caves.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/849920/ce65dd99784faa38ded1f3b7cf04d79adf6e88a5.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/849920/6b390a573c24672430d6d7f09af4fe8ec9c01625.jpg"
+  },
+  {
+    "name": "found_paddle",
+    "defaultvalue": 0,
+    "displayName": "Better Than Swimming",
+    "hidden": 0,
+    "description": "Found the Enchanted Paddle.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/849920/e4a316cbf6dadee6845bd6c80e9fee0d2936b6e0.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/849920/cbfe4a991f472e23f4bb9ad0744121756a547935.jpg"
+  },
+  {
+    "name": "minotaur_defeated",
+    "defaultvalue": 0,
+    "displayName": "Too Easy!",
+    "hidden": 0,
+    "description": "Defeated Minotaur.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/849920/4b1ca13ff47a94d1e29a7242647fc4db36b6108b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/849920/7b9a2b183add70c1f1492e73cfb44a39ede00213.jpg"
+  },
+  {
+    "name": "forest_entrance",
+    "defaultvalue": 0,
+    "displayName": "Into The Woods",
+    "hidden": 0,
+    "description": "Entered the Forest.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/849920/e0e046b98f14e97e7915c1f7ab82a6696fc555e9.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/849920/990e3ef5435e5f5823d45ae74bce0899bafb50bc.jpg"
+  },
+  {
+    "name": "pixie_met",
+    "defaultvalue": 0,
+    "displayName": "Friend or Foe?",
+    "hidden": 0,
+    "description": "Met a Pixie.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/849920/fd5009c6740449ab7fe7ef3128519eacabd33ff0.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/849920/5e7141c289b1929520d31bbb7ecab1e421e4077f.jpg"
+  },
+  {
+    "name": "pixieville_found",
+    "defaultvalue": 0,
+    "displayName": "Did I die and go to Heaven!?",
+    "hidden": 0,
+    "description": "Visited Pixieville.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/849920/e2ba0540202cb0b94a581cf50b07e88605729391.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/849920/97ecea21eda3a893fffc86dac15254deda071a10.jpg"
+  },
+  {
+    "name": "queen_met",
+    "defaultvalue": 0,
+    "displayName": "Your Majesty",
+    "hidden": 0,
+    "description": "Spoke to the Queen of Pixieville.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/849920/53a32de512be7ee25adae40e1ebbb346e52735c6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/849920/0f547a3322db08aae184cd676f99d43e0c32eb01.jpg"
+  },
+  {
+    "name": "found_wheel",
+    "defaultvalue": 0,
+    "displayName": "Ahoy There!",
+    "hidden": 0,
+    "description": "Upgraded your Enchanted Paddle into Enchanted Wheel.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/849920/b9c458acaf4dc373663c39bc44f7eb6f7158f4e0.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/849920/eab2fa42662ee61c93c10f32f7d138b3e15b3143.jpg"
+  },
+  {
+    "name": "frostqueen_defeated",
+    "defaultvalue": 0,
+    "displayName": "Stay Frosty!",
+    "hidden": 0,
+    "description": "Frost Queen defeated.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/849920/7dabfabc17c7826354db41d335197cc1e6b06d1e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/849920/d99d2041fdfbc82de0c76bec56630c9439f9611b.jpg"
+  },
+  {
+    "name": "temple_entrance",
+    "defaultvalue": 0,
+    "displayName": "Temple of Doom",
+    "hidden": 0,
+    "description": "Entered the Ancient Temple.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/849920/94e4ee91bbe26f5983af999e28cf2f498e57af9a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/849920/471a8b6b153c659c119672351920d4f36c1648fd.jpg"
+  },
+  {
+    "name": "game_over",
+    "defaultvalue": 0,
+    "displayName": "Game Over, Man!",
+    "hidden": 0,
+    "description": "Completed the game.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/849920/8a13a085586b67d60d0a92c388c104cda0c1c536.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/849920/8f2589625de42a53bcdd7dae0892fd634c96c3a4.jpg"
+  },
+  {
+    "name": "alistar_champ",
+    "defaultvalue": 0,
+    "displayName": "Alistar the Champion",
+    "hidden": 0,
+    "description": "Completed the game as Alistar the Champion.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/849920/2a51c96618098f7ec33df6b0119b2cc4c549eb5d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/849920/7fd87076302e2293636f67266603c002c484ca9f.jpg"
+  },
+  {
+    "name": "jennifer_mage",
+    "defaultvalue": 0,
+    "displayName": "Jennifer the Mage",
+    "hidden": 0,
+    "description": "Completed the game as Jennifer the Mage.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/849920/dbdb87bff82a7a7b8d5b27c3858ed765b36a95a4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/849920/e9f3a9f7a2c1520272fb3cd69fc9d1957109895e.jpg"
+  },
+  {
+    "name": "lance_assassin",
+    "defaultvalue": 0,
+    "displayName": "Lance the Assassin",
+    "hidden": 0,
+    "description": "Completed the game as Lance the Assassin.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/849920/2b39a6aa4896c23f9f3e6e73b04783f9a230fdd1.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/849920/1f78cf80467fc80c81c1306ca1eab87a23f05128.jpg"
+  }
+]

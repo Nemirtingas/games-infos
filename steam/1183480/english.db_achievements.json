@@ -1,0 +1,145 @@
+[
+  {
+    "name": "FirstBase",
+    "defaultvalue": 0,
+    "displayName": "First base",
+    "hidden": 0,
+    "description": "The first base was built.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1183480/0af1572091b0ec2240f27c42aa833cff81be46ec.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1183480/6bb557e2a10ba0bfdc3cd23fcc79e48a826da1a1.jpg"
+  },
+  {
+    "name": "PlainMap",
+    "defaultvalue": 0,
+    "displayName": "Castle on the plains",
+    "hidden": 0,
+    "description": "Play the plain map.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1183480/c22fdc059a6dbaf5b4b221c36e55e95c8e6392c8.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1183480/578944d8e1f68bb144a453cd4b9da8337fd22044.jpg"
+  },
+  {
+    "name": "MountainMap",
+    "defaultvalue": 0,
+    "displayName": "Castle on the mountain",
+    "hidden": 0,
+    "description": "Play the mountain map.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1183480/28ddd389ba94c7ce1a35a959f662d63da5f1dc1c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1183480/332914c8a5b7b2dc603845cbe768803ed5311fae.jpg"
+  },
+  {
+    "name": "SeaMap",
+    "defaultvalue": 0,
+    "displayName": "Castle on the sea",
+    "hidden": 0,
+    "description": "Play the sea map.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1183480/fe9a7fcc6a3f44f464ca7067669d6b8f166bbad1.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1183480/20487872404021c26638cd328b764f77b4b799ea.jpg"
+  },
+  {
+    "name": "HinawaGun",
+    "defaultvalue": 0,
+    "displayName": "Matchlock",
+    "hidden": 0,
+    "description": "Build matchlock turret. (normal mode only)",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1183480/37e32f01717a1d26e1fc7460e4eebdc0fa26dc9a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1183480/d110e6bd0cbdf60fb390709a74cb0b9aa61e4288.jpg"
+  },
+  {
+    "name": "Fort",
+    "defaultvalue": 0,
+    "displayName": "Fort",
+    "hidden": 0,
+    "description": "Defeat 10 enemies in a single defense. (normal mode only)",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1183480/60846b46562666b2ca06965b700977055f455311.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1183480/2acc1339c1eed53c38bd30742ea2c09643b70497.jpg"
+  },
+  {
+    "name": "Castle",
+    "defaultvalue": 0,
+    "displayName": "Castle",
+    "hidden": 0,
+    "description": "Defeat 100 enemies in a single defense. (normal mode only)",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1183480/bf96d17d5678fafaa139d425be7a4ed71f0aacc1.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1183480/06576d28a9ae1b76a8027608f088d9fc94061833.jpg"
+  },
+  {
+    "name": "HardWorker",
+    "defaultvalue": 0,
+    "displayName": "Hard worker",
+    "hidden": 0,
+    "description": "Gather 250 resources in a single gather. (normal mode only)",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1183480/36f9b93e85c24697dd46577e48e24397293bc4bf.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1183480/7ca4e6826f89748eaf33a9d12a746d130509a2fc.jpg"
+  },
+  {
+    "name": "City",
+    "defaultvalue": 0,
+    "displayName": "City",
+    "hidden": 0,
+    "description": "The number of worker reaches 75. (normal mode only)",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1183480/9f397cd49f98585182b943d7a2cf4e72c266a03d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1183480/3df4e48f9f5246e47d6a957e4359118a19883072.jpg"
+  },
+  {
+    "name": "Lighthouse",
+    "defaultvalue": 0,
+    "displayName": "Lighthouse",
+    "hidden": 0,
+    "description": "Build a watchtower near the water.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1183480/f1c791341c0d157e522dd73a2d646973fb9c770d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1183480/ec7f948f896065d71334c5b6fbf7230482ffbc7b.jpg"
+  },
+  {
+    "name": "CastleTower",
+    "defaultvalue": 0,
+    "displayName": "Castle tower",
+    "hidden": 0,
+    "description": "Build the castle. (normal mode only)",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1183480/3e024fdc21cb9f3ce1f6137f2cc247b415cf4d9c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1183480/84f1990e3f44078b706ca55bfe257c02daf6feac.jpg"
+  },
+  {
+    "name": "Challenger",
+    "defaultvalue": 0,
+    "displayName": "Challenger",
+    "hidden": 0,
+    "description": "Start the game with insane mode.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1183480/91db61f7873758994014ed609b5fef5fa3fa5efe.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1183480/a287cc67da187f9d8966a04ff5e4bda744c21dad.jpg"
+  },
+  {
+    "name": "Defender",
+    "defaultvalue": 0,
+    "displayName": "Defender",
+    "hidden": 0,
+    "description": "Win the game.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1183480/119267dba3f48ac29f31991dcb4ae5045df2984c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1183480/1fa8755afb65f47fab695c653bdd4f3af2ed3e6b.jpg"
+  },
+  {
+    "name": "Hero",
+    "defaultvalue": 0,
+    "displayName": "Hero",
+    "hidden": 0,
+    "description": "Defeat the number of 100 enemies. (normal mode only)",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1183480/c32a954cf9c08ab75de83d398cbb45a644954b34.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1183480/000e89f72dfae9e7f930f8473fc4810ea1db4b42.jpg"
+  },
+  {
+    "name": "General",
+    "defaultvalue": 0,
+    "displayName": "General",
+    "hidden": 0,
+    "description": "Defeat the number of 1000 enemies. (normal mode only)",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1183480/4eb1fc2d8bb1e62e129734bc6b9f029461d3ed41.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1183480/ee655f8e34453811e39b250c3412ab09bdb641ea.jpg"
+  },
+  {
+    "name": "Conqueror",
+    "defaultvalue": 0,
+    "displayName": "Conqueror",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1183480/17a28db8127dccf8580530e07b5bc9ce8ca8a120.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1183480/1a13a7c573a55fe7e82525c153e1813b238ef3ad.jpg"
+  }
+]

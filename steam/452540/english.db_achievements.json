@@ -1,0 +1,297 @@
+[
+  {
+    "name": "NoBiggie",
+    "defaultvalue": 0,
+    "displayName": "No Biggie",
+    "hidden": 0,
+    "description": "Defeat a swarm bot",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/452540/d86a678b79a0ce3931e5fe75e2cfeb62a4e62ceb.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/452540/664341aab1fd104856f31da790c2750e3ba10186.jpg"
+  },
+  {
+    "name": "CantTouch",
+    "defaultvalue": 0,
+    "displayName": "Can't Touch This",
+    "hidden": 0,
+    "description": "Defeat 10 enemies without losing health",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/452540/1e739d293d84841a7d5e7fe07ea3b45e22de86b6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/452540/392ab52eb5ba50414400c340502a0b01976720cb.jpg"
+  },
+  {
+    "name": "Respect",
+    "defaultvalue": 0,
+    "displayName": "Respect The Elderly",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/452540/f225237c6226137c0dccfa5f81972bed88e1b9c3.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/452540/e2ff22a3ed527a58c3f5bd32d53c35e18a88d81a.jpg"
+  },
+  {
+    "name": "Pancakes",
+    "defaultvalue": 0,
+    "displayName": "Makin' Pancakes!",
+    "hidden": 0,
+    "description": "Flatten 10 Lo'a",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/452540/6c6321e119fda3a956d7f996bdae6860bcf81674.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/452540/a6b613c3f962aec231974398ed4181d7193d97fd.jpg"
+  },
+  {
+    "name": "ICanSeeMy",
+    "defaultvalue": 0,
+    "displayName": "I Can See My House From Here!",
+    "hidden": 0,
+    "description": "Get to the top of Clover Mountain",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/452540/f1e91f8803b0872c6ebe626239ed29974f17ca21.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/452540/0959524ef0740b59c781848db7166a772d8ee8b8.jpg"
+  },
+  {
+    "name": "Timeless",
+    "defaultvalue": 0,
+    "displayName": "Grown Outta Proportion!",
+    "hidden": 0,
+    "description": "Get to the top of the Progenitor's Sanctum",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/452540/c1a63f3bb360bac3497235489fe6778a3f0b70ec.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/452540/8e035f719c0a48681c5cce752135580634a03620.jpg"
+  },
+  {
+    "name": "Viva",
+    "defaultvalue": 0,
+    "displayName": "Viva La Revolución!",
+    "hidden": 0,
+    "description": "Get to the broken bridge in CRT's Citadel",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/452540/ac5b6226c51e930cb6b5d0c0b255a017a7a41827.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/452540/524f4b804b2be38be967fcff138e9f168300678c.jpg"
+  },
+  {
+    "name": "Everybody",
+    "defaultvalue": 0,
+    "displayName": "Everybody Wants To Rule The World",
+    "hidden": 0,
+    "description": "Finish Game",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/452540/3fcc3798c1e0f66ad56d28f8fc6ac0ce05c5146c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/452540/ebb90ce120be47bda69b7a5e47ee96f2a4deaba7.jpg"
+  },
+  {
+    "name": "BeamMeUp",
+    "defaultvalue": 0,
+    "displayName": "Beam Me Up, CRT",
+    "hidden": 0,
+    "description": "Go to Space",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/452540/9f1ce173c9e28b63e73d1bb3c0c5ea9348733306.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/452540/29f509bf97da8fb0df9f5aba3c8d514e8ad72c17.jpg"
+  },
+  {
+    "name": "KaChing",
+    "defaultvalue": 0,
+    "displayName": "Ka-ching!",
+    "hidden": 0,
+    "description": "Pick up a total of 1.000 collectibles",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/452540/031f9344e39c75f0768d9e7fee869ed046163a07.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/452540/c482d747e041ac78ddb59792116300b15c74bf63.jpg"
+  },
+  {
+    "name": "MakeItRain",
+    "defaultvalue": 0,
+    "displayName": "Make It Rain!",
+    "hidden": 0,
+    "description": "Pick up a total of 5.000 collectibels",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/452540/1ac4613a484ded6106318d6ec3f4526cf7802861.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/452540/e76a629d2a6f395ff365f28e6b1b265fecfb82d8.jpg"
+  },
+  {
+    "name": "GetRich",
+    "defaultvalue": 0,
+    "displayName": "Got Rich And Died Tryin'",
+    "hidden": 0,
+    "description": "Pick up a total of 10.000 collectibles",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/452540/bea863f46c05ceb3244268b605558f6da9b4b481.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/452540/0439c7ae5d657faded417c8e34c04c2bbcb12816.jpg"
+  },
+  {
+    "name": "Islander",
+    "defaultvalue": 0,
+    "displayName": "Clover Islander",
+    "hidden": 0,
+    "description": "Explore all of Clover Island",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/452540/084d0e925ce483502888fd21affba93e057c65c9.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/452540/5ec60429716be0fc0c796c863607961de2bd10bc.jpg"
+  },
+  {
+    "name": "LoL",
+    "defaultvalue": 0,
+    "displayName": "Liberator of Lo",
+    "hidden": 0,
+    "description": "Free all Lo'a",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/452540/a5ac90c9e3d2290a65a3f9219ab3f28097ef6e3e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/452540/ab6d4e2c06e4955a81db428b34023e014d311b85.jpg"
+  },
+  {
+    "name": "ComingInHot",
+    "defaultvalue": 0,
+    "displayName": "Coming In Hot",
+    "hidden": 0,
+    "description": "Ground Pound dive for 3 seconds",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/452540/86687bcea466bd552d3742804a112909eb1e30e0.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/452540/18aad2b0dabe75052cfd51b75bfe16dcf2c58552.jpg"
+  },
+  {
+    "name": "BigAir",
+    "defaultvalue": 0,
+    "displayName": "Big Air!",
+    "hidden": 0,
+    "description": "Be in the air for 5 seconds",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/452540/9a4d6da45653e7ab167a2a64a46ba9664a8d9995.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/452540/cf032313dc9227691285b99edcae48c4fc5923f4.jpg"
+  },
+  {
+    "name": "RocketQueen",
+    "defaultvalue": 0,
+    "displayName": "Rocket Queen",
+    "hidden": 0,
+    "description": "Pick up Jetpack gadget",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/452540/b3f52426fafd28cd7e625539e8cb1a9186997831.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/452540/9200af2dcdc24393b9d50b002f93228cf0eb6ddb.jpg"
+  },
+  {
+    "name": "IfICould",
+    "defaultvalue": 0,
+    "displayName": "If I Could Turn Back Time",
+    "hidden": 0,
+    "description": "Pick up Time Orb gadget",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/452540/229128f0fc88ee0b0926834675a26d95e30416bb.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/452540/55c88ddaa1b994cd50811ddfb846dca40e606da3.jpg"
+  },
+  {
+    "name": "Physical",
+    "defaultvalue": 0,
+    "displayName": "Physical Attraction",
+    "hidden": 0,
+    "description": "Pick up Magnetic Glove gadget",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/452540/223817d7727d5b123ee86459679a959b69a4e641.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/452540/3b7a2c679b9788f64aad2607b24b5a71cadc021a.jpg"
+  },
+  {
+    "name": "LazyStacy",
+    "defaultvalue": 0,
+    "displayName": "Such A Lazy Stacy",
+    "hidden": 0,
+    "description": "Idle 1 minute",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/452540/4f07b00acb63006d393f7e09280f7e1b3ecf8522.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/452540/bfb8088297b8baae804f1d094cad32e1dae8b7de.jpg"
+  },
+  {
+    "name": "Hammertime",
+    "defaultvalue": 0,
+    "displayName": "Hammertime!",
+    "hidden": 0,
+    "description": "Get hit by a hammer",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/452540/3a3874fcf933740adb73d6f7f3f836305024819a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/452540/ad2e042808e0ef995229a2db90d07705e37a5b45.jpg"
+  },
+  {
+    "name": "Froggers",
+    "defaultvalue": 0,
+    "displayName": "Froggers Gonna Frog",
+    "hidden": 0,
+    "description": "Jump across the lava river in The Satis-Factory",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/452540/c0a70587ed503410f5bcfa8a9ff28aef3cd79143.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/452540/f1f8acf052b9d1d3907661f5dccde876131ebe69.jpg"
+  },
+  {
+    "name": "Bowling",
+    "defaultvalue": 0,
+    "displayName": "Fudge It Dude. Let's Go Bowling.",
+    "hidden": 0,
+    "description": "Defeat 10 enemies with Crushing Ball",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/452540/886b01127dd17a562608621fd7dae34443f0dc7b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/452540/fbabdf8314449aa5bf496010232250e5bdbe1bd1.jpg"
+  },
+  {
+    "name": "Maniac",
+    "defaultvalue": 0,
+    "displayName": "She's A Maniac",
+    "hidden": 0,
+    "description": "Spin Attack 50 enemies",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/452540/8e0f0fc25ac54059d9eb564d82e94b9f85b0999f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/452540/6a81a789cfb056960d31c440944bf86364ded3e3.jpg"
+  },
+  {
+    "name": "EyeOfTheTiger",
+    "defaultvalue": 0,
+    "displayName": "Eye Of The Tiger",
+    "hidden": 0,
+    "description": "Punch 50 enemies",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/452540/6cd1db38712908f9ad9e4472b99121dcc5947d87.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/452540/be799b3dc2387d10ae426b8ddf9339e69c1c7c9e.jpg"
+  },
+  {
+    "name": "GetDown",
+    "defaultvalue": 0,
+    "displayName": "Get Down Tonight",
+    "hidden": 0,
+    "description": "Ground Pound 50 enemies",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/452540/7a90d9bb59863b66e20316bce0ea8e3127ae4ea2.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/452540/1d01bcb03fb1389d600d67d384b54340fca75218.jpg"
+  },
+  {
+    "name": "Master",
+    "defaultvalue": 0,
+    "displayName": "Master of Disaster",
+    "hidden": 0,
+    "description": "Blow up CRT's reactor",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/452540/7c6c5d18ca1da429abb93d62d398afd951959a43.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/452540/f6e24070067fa019764cac07df07ac601462a750.jpg"
+  },
+  {
+    "name": "Pizza",
+    "defaultvalue": 0,
+    "displayName": "Pizza Delivery!",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/452540/e223f7af1e580e47d1b8242a77157db34dc3f591.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/452540/c79f65bad87154e45f9955023d08934cc85e3b56.jpg"
+  },
+  {
+    "name": "HotPotato",
+    "defaultvalue": 0,
+    "displayName": "Missile Hot Potato",
+    "hidden": 0,
+    "description": "Catch a missile and throw it at an enemy",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/452540/fd1a5d12e4f6f08170c857f9fa12d429ceda20e8.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/452540/23a994e7cc4f29a2de94cc9e223a4fa299794a29.jpg"
+  },
+  {
+    "name": "Puppy",
+    "defaultvalue": 0,
+    "displayName": "Puppy Love",
+    "hidden": 0,
+    "description": "Defeat 50 swarmbots",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/452540/f0cb26aebd0fb4a532e8cd80b94b70bcafb9d525.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/452540/64d9ac61b3d0fcdfb9f146d0d4e028231bee6d94.jpg"
+  },
+  {
+    "name": "CatPerson",
+    "defaultvalue": 0,
+    "displayName": "I Guess You're A Cat Person",
+    "hidden": 0,
+    "description": "Defeat 100 swarmbots",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/452540/6dfcfadde4466146093f02a90d7485774a178fc0.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/452540/9861f82beb3ea33a1fccfe03c8366ae08ae93a54.jpg"
+  },
+  {
+    "name": "Dolphin",
+    "defaultvalue": 0,
+    "displayName": "Spirit Animal: Bottlenose Dolphin",
+    "hidden": 0,
+    "description": "Do 100 Long Jumps",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/452540/3f74e1a668d30927fdffaaebd4fae4c0c244c46e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/452540/84535b54ce73d7f6139ead81f5ae266e3bf9c5ac.jpg"
+  },
+  {
+    "name": "Boing",
+    "defaultvalue": 0,
+    "displayName": "BOING!",
+    "hidden": 0,
+    "description": "Trampoline off of 10 consecutive mushrooms",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/452540/7e50798c78e397bc65e2c0e019f39cdab43758e9.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/452540/a7a4081ea939c028c3fb5b4824ae91b980f8f6d0.jpg"
+  }
+]

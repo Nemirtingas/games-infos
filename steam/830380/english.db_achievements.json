@@ -1,0 +1,381 @@
+[
+  {
+    "name": "Zombie_Killer_1",
+    "defaultvalue": 0,
+    "displayName": "Zombie Killer",
+    "hidden": 0,
+    "description": "Kill 5 Zombies",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/830380/6e90be5719f2bc385780fa9b164f1fe7a0cbda7b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/830380/06bdb612bb7f84d3512cd07f4b654d52a204c98f.jpg"
+  },
+  {
+    "name": "Zombie_Killer_2",
+    "defaultvalue": 0,
+    "displayName": "Zombie Slayer",
+    "hidden": 0,
+    "description": "Kill 20 Zombies",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/830380/d0784c21a8096981ba0c5579c719bab922671da9.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/830380/d7e078efa17c4ad77216326cac0f9a1d3020475f.jpg"
+  },
+  {
+    "name": "Zombie_Killer_3",
+    "defaultvalue": 0,
+    "displayName": "Zombie Exterminator",
+    "hidden": 0,
+    "description": "Kill 100 Zombies",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/830380/199aa00674f83c10a8e5cdcf39de929b9b300204.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/830380/30d4ed2ef2261247e0965b813cd0b5d28fc2afa2.jpg"
+  },
+  {
+    "name": "Zombie_Killer_4",
+    "defaultvalue": 0,
+    "displayName": "Zombie Annihilator",
+    "hidden": 0,
+    "description": "Kill 250 Zombies",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/830380/c9dbebb2cbf05afd67a88f7448cf620c2ea77b0d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/830380/9de83a9c128860a60a990d40251d8ffbd9456bc8.jpg"
+  },
+  {
+    "name": "Zombie_Killer_5",
+    "defaultvalue": 0,
+    "displayName": "Zombie Destroyer",
+    "hidden": 0,
+    "description": "Kill 1000 Zombies",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/830380/efef6d3e18f30b2b8b8a5d9a6dbf66f36d482798.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/830380/5beec81c3e69f958bd81586a9c72f137df52feb0.jpg"
+  },
+  {
+    "name": "Found_Mike",
+    "defaultvalue": 0,
+    "displayName": "Mike Joined",
+    "hidden": 0,
+    "description": "Have Mike in your crew.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/830380/f963a21c188bc7cae4bcde51a6c480b4d4789284.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/830380/b47545e227153c163e0c22e2e91fa22b4a3d3f01.jpg"
+  },
+  {
+    "name": "Found_Linda",
+    "defaultvalue": 0,
+    "displayName": "Linda Joined",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/830380/318dc5e7664f1a224dae51474298d0d74f3152bd.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/830380/8710bf68e44ceb3d1b64de243be4739e613dbe0b.jpg"
+  },
+  {
+    "name": "Found_Darius",
+    "defaultvalue": 0,
+    "displayName": "Darius Joined",
+    "hidden": 0,
+    "description": "Have Darius in your crew.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/830380/5c2aad995a8479bab0f9f1eede23f6c5f873e2a9.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/830380/841ea3d53ae3234732902a974f35ce76cad1af99.jpg"
+  },
+  {
+    "name": "Found_Nick",
+    "defaultvalue": 0,
+    "displayName": "Nick Joined",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/830380/0d77921268409c4446b3ff91faa1224e5d939949.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/830380/465fd36f10af8d78ae59c621942aef3e566a9f92.jpg"
+  },
+  {
+    "name": "Found_Andrew",
+    "defaultvalue": 0,
+    "displayName": "Andrew Joined",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/830380/745502585614546af724d7b8f3a4890bf5561a5b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/830380/b0370b01357d558612495f77f73d90408361153b.jpg"
+  },
+  {
+    "name": "Found_Jack",
+    "defaultvalue": 0,
+    "displayName": "Jack Joined",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/830380/0bffbf6ec2468a284304e300579339b29f0bfe54.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/830380/78708c2c1f1134ba5864931befa1121351f73fd3.jpg"
+  },
+  {
+    "name": "Found_Soraya",
+    "defaultvalue": 0,
+    "displayName": "Soraya Joined",
+    "hidden": 0,
+    "description": "Have Soraya in your crew.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/830380/c2bb02597080c6bef5cca84c4843fcd1cce19574.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/830380/d2ac2a5a92c5b933b06f1138f2c514af0742a9a7.jpg"
+  },
+  {
+    "name": "Found_Maggie",
+    "defaultvalue": 0,
+    "displayName": "Maggie Joined",
+    "hidden": 0,
+    "description": "Have Maggie in your crew.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/830380/6e76d5bcf1f13039f9f3eed70210e12ce42043d8.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/830380/35a4c4f512081ec777b78b3ef262167ddc920d8e.jpg"
+  },
+  {
+    "name": "Found_Malik",
+    "defaultvalue": 0,
+    "displayName": "Malik Joined",
+    "hidden": 0,
+    "description": "Have Malik in your crew.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/830380/5ca797141c27b13599c9a302b98909407810813e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/830380/1ad68f9eb8c5a2e76076f915ab1ad0f97fdcb50e.jpg"
+  },
+  {
+    "name": "Found_Lorena",
+    "defaultvalue": 0,
+    "displayName": "Lorena Joined",
+    "hidden": 0,
+    "description": "Have Lorena in your crew.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/830380/b45167ec15dfb9b3db00726fd8bd154c32f42d0f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/830380/dd98c48ddfefabafe4a2c3e4a389a4f3fa936c77.jpg"
+  },
+  {
+    "name": "Linda_Unlock",
+    "defaultvalue": 0,
+    "displayName": "Linda Unlocked",
+    "hidden": 0,
+    "description": "Have Linda Join your crew.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/830380/828e78786cada3eda593425ad722ba9ce910d984.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/830380/54912f961ef6a0fa5a58722daee3cfe83eef0197.jpg"
+  },
+  {
+    "name": "Nick_Unlock",
+    "defaultvalue": 0,
+    "displayName": "Nick Unlocked",
+    "hidden": 0,
+    "description": "Have Nick Join your crew.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/830380/cc8c058ea477988f798d463b7fd0363875859946.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/830380/b89179325d1721af325f72f2a45ae37db97d481d.jpg"
+  },
+  {
+    "name": "Andrew_Unlock",
+    "defaultvalue": 0,
+    "displayName": "Andrew Unlocked",
+    "hidden": 0,
+    "description": "Have Andrew Join your crew.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/830380/bd3424a0c066181dcaa5b16d2bdca71f39fe4d36.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/830380/688e3f69a4a697ca1b0108f059d4d0add049115e.jpg"
+  },
+  {
+    "name": "Jack_Unlock",
+    "defaultvalue": 0,
+    "displayName": "Jack Unlocked",
+    "hidden": 0,
+    "description": "Have Jack Join your crew.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/830380/603c77142e6b5945cfbbdbfe126008227d5b21e7.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/830380/e4c194491bbf79d4977a04c5216a70904d4f6b73.jpg"
+  },
+  {
+    "name": "Killing_Mike",
+    "defaultvalue": 0,
+    "displayName": "Killing Mike",
+    "hidden": 0,
+    "description": "Let Mike die 10 or more times.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/830380/3770ec89284be5b8e99506e8aece439c3c1def83.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/830380/38543156264458a08733ece00342fe6cb2f6d71d.jpg"
+  },
+  {
+    "name": "Killing_Darius",
+    "defaultvalue": 0,
+    "displayName": "Killing Darius",
+    "hidden": 0,
+    "description": "Let Darius die 10 or more times.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/830380/ab3504046325950160a6c1425d90e145a8398c16.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/830380/c2f268ba7bf948b7625836452c930b12b233d195.jpg"
+  },
+  {
+    "name": "Killing_Soraya",
+    "defaultvalue": 0,
+    "displayName": "Killing Soraya",
+    "hidden": 0,
+    "description": "Let Soraya die 10 or more times.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/830380/d48651aa78d4d9907266c08ea6c5a024e777c972.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/830380/30a4b68d74e05f27b6ea9e97ab264996e009ad65.jpg"
+  },
+  {
+    "name": "Killing_Maggie",
+    "defaultvalue": 0,
+    "displayName": "Killing Maggie",
+    "hidden": 0,
+    "description": "Let Maggie die 10 or more times.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/830380/e56c99ddf57fa77f61f1cc8ca06fb0b87c836fb4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/830380/d20e5d42577afbe8ca9731a153b4f0ed7d6143c3.jpg"
+  },
+  {
+    "name": "Killing_Malik",
+    "defaultvalue": 0,
+    "displayName": "Killing Malik",
+    "hidden": 0,
+    "description": "Let Malik die 10 or more times.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/830380/067b78986da56e65abc9bd63698d86b291d7da9f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/830380/0ec2e89b26d1473cff4f8ac052a1ce2e142e6e9f.jpg"
+  },
+  {
+    "name": "Killing_Lorena",
+    "defaultvalue": 0,
+    "displayName": "Killing Lorena",
+    "hidden": 0,
+    "description": "Let Lorena die 10 or more times.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/830380/64fd6390ad48be8ba2dfaa820f0fde6f38e34264.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/830380/5d7e8c913c8926f8cc4311ef1cf4021f6b1d0c24.jpg"
+  },
+  {
+    "name": "Killing_Nick",
+    "defaultvalue": 0,
+    "displayName": "Killing Nick",
+    "hidden": 0,
+    "description": "Let Nick Die 10 or more times.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/830380/cc8307db0af3f4bfb4b893c7a83b7424dd105ca1.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/830380/d80c4e2d59bf909bd8d1c360e692d3175359b9c7.jpg"
+  },
+  {
+    "name": "Killing_Andrew",
+    "defaultvalue": 0,
+    "displayName": "Killing Andrew",
+    "hidden": 0,
+    "description": "Kill or let Andrew die 10 or more times.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/830380/53d77e6fd291b3379c8b071a40efde480456e167.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/830380/d042488e7f849ce4d6ae8fe088b3eec771a41504.jpg"
+  },
+  {
+    "name": "Killing_Jack",
+    "defaultvalue": 0,
+    "displayName": "Killing Jack",
+    "hidden": 0,
+    "description": "Kill or let Jack/a Marine die 10 or more times.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/830380/c9d569542bd6549aa94381ada2b1ae29c20ff3b3.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/830380/c5d97f29d7752a88c56386bde56f16705372f9ba.jpg"
+  },
+  {
+    "name": "Killing_Linda",
+    "defaultvalue": 0,
+    "displayName": "Killing Linda",
+    "hidden": 0,
+    "description": "Kill or let Linda die 10 or more times.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/830380/0aa5802020fee711ec7db9e21d5174d361272476.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/830380/16e2e8b79ccfe8892bd7add1bfaf71cc810d9bd6.jpg"
+  },
+  {
+    "name": "Base_Killer",
+    "defaultvalue": 0,
+    "displayName": "Mini Killer",
+    "hidden": 0,
+    "description": "Kill 500 Normal Zombies",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/830380/741e3a2b6c309209a69fa093e9dcdedd6f31cf2b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/830380/07132edea0ed11bb89c762fc4d90659272a7ebc3.jpg"
+  },
+  {
+    "name": "Range_Killer",
+    "defaultvalue": 0,
+    "displayName": "Spit Killer",
+    "hidden": 0,
+    "description": "Kill 45 Spitting Zombies",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/830380/3f6da9f1244a0d7cc019549868027619ac44842b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/830380/9a0eeaea0c1162b194f77347318c0fd4ff3b4231.jpg"
+  },
+  {
+    "name": "Armored_Killer",
+    "defaultvalue": 0,
+    "displayName": "Heavy Killer",
+    "hidden": 0,
+    "description": "Kill 25 Armored Zombies",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/830380/ff816a7fe369b8e300bac37fc7f539b22d2a9534.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/830380/1bc21f87f6e3e7d07dfe355c0df4e52f8bb031b7.jpg"
+  },
+  {
+    "name": "Giant_Killer",
+    "defaultvalue": 0,
+    "displayName": "Big Killer",
+    "hidden": 0,
+    "description": "Kill 15 Giant Zombies",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/830380/a26ce1b5c535709eccdc90eaa4e89cce45419ddf.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/830380/744a3b7762de533e14a10123090953473ac5c55a.jpg"
+  },
+  {
+    "name": "Saving_Mike",
+    "defaultvalue": 0,
+    "displayName": "Saving Mike",
+    "hidden": 0,
+    "description": "Finish a run with Mike in your crew.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/830380/715cd99e98cfc12381208f77dbfa02d680f0327e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/830380/40fdcc584525a7c690ef72c8866d4b62d9474351.jpg"
+  },
+  {
+    "name": "Saving_Darius",
+    "defaultvalue": 0,
+    "displayName": "Saving Mike",
+    "hidden": 0,
+    "description": "Finish a run with Mike in your crew.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/830380/3db9673af2f12b85d3069b0b50fa04aa390ca265.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/830380/04bfb4f0f88ef8051f728b541a1437e2a63148fd.jpg"
+  },
+  {
+    "name": "Saving_Maggie",
+    "defaultvalue": 0,
+    "displayName": "Saving Maggie",
+    "hidden": 0,
+    "description": "Finish a run with Maggie in your crew.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/830380/f6c93292f56a0f8879f01f24af79cc64d0cad37e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/830380/5d4a09b3f907b807e48e355f2af4ed00ac664475.jpg"
+  },
+  {
+    "name": "Saving_Malik",
+    "defaultvalue": 0,
+    "displayName": "Saving Malik",
+    "hidden": 0,
+    "description": "Finish a run with Malik in your crew.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/830380/95359645d4aec353e0fa72d7f2df3f3749425f35.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/830380/915616d85aeec43a0900def7cc0416e30010b98f.jpg"
+  },
+  {
+    "name": "Saving_Soraya",
+    "defaultvalue": 0,
+    "displayName": "Saving Soraya",
+    "hidden": 0,
+    "description": "Finish a run with Soraya in your crew.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/830380/511f4e07aa0dc957c31dd9a7b114be6a1769e0af.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/830380/662e16a816d3420fc17e33409b56323b085f6246.jpg"
+  },
+  {
+    "name": "Saving_Lorena",
+    "defaultvalue": 0,
+    "displayName": "Saving Lorena",
+    "hidden": 0,
+    "description": "Finish a run with Lorena in your crew.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/830380/f5d6c122149e21182a968208dae0db6996357239.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/830380/da339b7a0eccda4210e48cdb6663fc9390a316d6.jpg"
+  },
+  {
+    "name": "Saving_Linda",
+    "defaultvalue": 0,
+    "displayName": "Saving Linda",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/830380/55384b9c055c241d1af1543434f33b016324888a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/830380/ec481e02023727dcd2a553168c151b0bb1f5a897.jpg"
+  },
+  {
+    "name": "Saving_Nick",
+    "defaultvalue": 0,
+    "displayName": "Saving Nick",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/830380/9d4faceadbb425db7923750ad1164b2a1f699afd.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/830380/72f74f0e9b1025b76e03027125ff8b1efeba8ea7.jpg"
+  },
+  {
+    "name": "Saving_Andrew",
+    "defaultvalue": 0,
+    "displayName": "Saving Andrew",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/830380/24c72aae258e3616bf21f2d85324a74ca8bbe19c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/830380/875da16b42fbdf02d281c8be65b3a6df21650446.jpg"
+  },
+  {
+    "name": "Saving_Jack",
+    "defaultvalue": 0,
+    "displayName": "Saving Jack",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/830380/faa7ddb243aa3e8fbcc06b90696c0d66fce4a434.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/830380/c4ffc2050db490b9d74e2f1d53a936d561e723ca.jpg"
+  }
+]

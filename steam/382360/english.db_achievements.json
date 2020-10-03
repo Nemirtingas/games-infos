@@ -1,0 +1,376 @@
+[
+  {
+    "name": "ACH_TRAININGROOM_01",
+    "defaultvalue": 0,
+    "displayName": "Free Haircuts",
+    "hidden": 0,
+    "description": "10 Headshots in a row",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/382360/dce303e20fbbe4cc7d7516fa9c804773ffd1a9a3.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/382360/a5a788f4e04a1c5cfcd8ee94d7710bb4bbfebb62.jpg"
+  },
+  {
+    "name": "ACH_TRAININGROOM_02",
+    "defaultvalue": 0,
+    "displayName": "Chain Reaction",
+    "hidden": 0,
+    "description": "20 Head or Heart-shots in a row",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/382360/f1f95f624ac6d79efffc27fd05c451959848d24e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/382360/43ae8788234b8f9972558bf7f18ea682d3e9a059.jpg"
+  },
+  {
+    "name": "ACH_TRAININGROOM_03",
+    "defaultvalue": 0,
+    "displayName": "Walk in the Clouds",
+    "hidden": 0,
+    "description": "Complete Training Sim in under 3 minutes",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/382360/50dd77583f0494bcdf001e6bb875f897bc7fd8e5.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/382360/446562dc7604fefce2626d7f31939b858245f55e.jpg"
+  },
+  {
+    "name": "ACH_TRAININGROOM_04",
+    "defaultvalue": 0,
+    "displayName": "Point Break",
+    "hidden": 0,
+    "description": "50 Crotch-Shots",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/382360/5b1b0c45047f3395fe803cfe42691195c7f721c2.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/382360/3251f622290700c03825c367d2d1f85e378e2f13.jpg"
+  },
+  {
+    "name": "ACH_TRAININGROOM_05",
+    "defaultvalue": 0,
+    "displayName": "He'll Live",
+    "hidden": 0,
+    "description": "25 Leg-Shots",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/382360/c6965862803f957789366cd2f12d16cb9778c4eb.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/382360/9239eff05b0f19bda114afd62280b7401f515a5e.jpg"
+  },
+  {
+    "name": "ACH_TRAININGROOM_06",
+    "defaultvalue": 0,
+    "displayName": "Perfect Game",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/382360/a58608d8d9019284a083a1b3d384b9985e3d6843.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/382360/f16ff16dc39a5863b919d2bbf049ecd4443b819f.jpg"
+  },
+  {
+    "name": "ACH_TRAININGROOM_07",
+    "defaultvalue": 0,
+    "displayName": "Mr. Wick",
+    "hidden": 0,
+    "description": "All kills are either Head or Heart Shots",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/382360/3e32bd43edd6f5f2ff4f949dee84235f23da230c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/382360/2c3076c58003a8fc3163494f1fb1b15a84f8e6e9.jpg"
+  },
+  {
+    "name": "ACH_TRAININGROOM_00",
+    "defaultvalue": 0,
+    "displayName": "Jon Bovi",
+    "hidden": 0,
+    "description": "10 Heart-shots in a row",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/382360/b075e975dc37d83cc5b59ac1cc7d3cb6abd07778.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/382360/2d565f2a8896902cea5932c6aadf5ae596fc41f3.jpg"
+  },
+  {
+    "name": "ACH_ENEMIES_00",
+    "defaultvalue": 0,
+    "displayName": "I’d like to make a dinner reservation",
+    "hidden": 0,
+    "description": "Kill 200 enemies",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/382360/74087f3b1e2e17ace3e673ce895ff63232528879.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/382360/f3084323de0d08b88ff25a15d3f9d1eab155fbf6.jpg"
+  },
+  {
+    "name": "ACH_ENEMIES_01",
+    "defaultvalue": 0,
+    "displayName": "Baba Yaga",
+    "hidden": 0,
+    "description": "Kill 500 enemies",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/382360/efc52f07c48433c8fc9aa188fee4d186f2132bd0.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/382360/6ab753e3004c8756baf30dbf4e3e7bfaf1d65283.jpg"
+  },
+  {
+    "name": "ACH_ENEMIES_02",
+    "defaultvalue": 0,
+    "displayName": "Gun Kata",
+    "hidden": 0,
+    "description": "Juggle the gun from one hand to the other",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/382360/0f8315217ae3853de9d32e6db8eff6a14d8da1dc.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/382360/963e7d65e36a18428a5297e8a83856f6c1b11e08.jpg"
+  },
+  {
+    "name": "ACH_ENEMIES_03",
+    "defaultvalue": 0,
+    "displayName": "Yeah, I’m thinking I’m Back",
+    "hidden": 0,
+    "description": "100 headshots",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/382360/05ecfdf7f8476bad809f6a2007d31487e2f8eb64.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/382360/52e96617860d4c9799eead916b4cfeab8d4af755.jpg"
+  },
+  {
+    "name": "ACH_ENEMIES_04",
+    "defaultvalue": 0,
+    "displayName": "Master Hitman",
+    "hidden": 0,
+    "description": "200 headshots",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/382360/4f959ca96e3c85b603250231aac3580909aacf7f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/382360/c02ffbed56f20818c31b3553b8b8df3e5526f541.jpg"
+  },
+  {
+    "name": "ACH_ENEMIES_05",
+    "defaultvalue": 0,
+    "displayName": "Grenadier",
+    "hidden": 0,
+    "description": "50 kills from grenade",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/382360/56193cfd2183c02bd89a970c76c7528f2202758d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/382360/8d350ec25b46954837bd3963239f4890f5286871.jpg"
+  },
+  {
+    "name": "ACH_GAME_ARCADE",
+    "defaultvalue": 0,
+    "displayName": "Party on dudes!",
+    "hidden": 0,
+    "description": "Complete Arcade Mode",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/382360/5e47a3f8f18f343c38ac64ac4ef63c571a66bd5b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/382360/ab15f591c306f61058ac20b4da7e35dd077ffc1b.jpg"
+  },
+  {
+    "name": "ACH_GAME_SIMULATION",
+    "defaultvalue": 0,
+    "displayName": "Free your mind",
+    "hidden": 0,
+    "description": "Complete Simulation Mode",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/382360/bfa4431fdac7b56b00caf1cc923b4e5a682d4916.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/382360/b85c1e1a3f82bca68b7327e74c6be83add588568.jpg"
+  },
+  {
+    "name": "ACH_ROOFTOP_00",
+    "defaultvalue": 0,
+    "displayName": "Enjoy the Fall",
+    "hidden": 0,
+    "description": "Shoot and kill all enemies fast roping from all the helicopters",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/382360/6f3b7b29789696fd087e57986ee48765d9013eee.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/382360/c11a88f4f72e8e83e67e8855f9d909462428f86b.jpg"
+  },
+  {
+    "name": "ACH_ROOFTOP_01",
+    "defaultvalue": 0,
+    "displayName": "360 No-Scope",
+    "hidden": 0,
+    "description": "Kill all enemies without using the sniper rifle",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/382360/afef58e5d8a773991786b82542205836c089d58d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/382360/6a146b4594259a6114f96c1a34db7839fd4c936a.jpg"
+  },
+  {
+    "name": "ACH_ROOFTOP_02",
+    "defaultvalue": 0,
+    "displayName": "Hot Potato",
+    "hidden": 0,
+    "description": "Throw back a grenade and kill an enemy",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/382360/c789135eac64c531ecaf30ed9fcd430b32706a68.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/382360/96bce8bab3519abf2c6b57d221e36906499a68a0.jpg"
+  },
+  {
+    "name": "ACH_ROOFTOP_03",
+    "defaultvalue": 0,
+    "displayName": "In For Some Chop",
+    "hidden": 0,
+    "description": "Shoot and kill the boss helicopter",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/382360/98567e267e327d2cdeca643cec5987d7fa0c1349.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/382360/d230a7e20481ad5dccf09eb84cc4e29b8ade513a.jpg"
+  },
+  {
+    "name": "ACH_ROOFTOP_05",
+    "defaultvalue": 0,
+    "displayName": "Popcorn",
+    "hidden": 0,
+    "description": "10 head shots",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/382360/63ee90a424e540011d240152811916d9e0286b9a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/382360/94c1e286054d85f041a603480077af0e095af211.jpg"
+  },
+  {
+    "name": "ACH_ROOFTOP_06",
+    "defaultvalue": 0,
+    "displayName": "Frugal",
+    "hidden": 0,
+    "description": "Get 4 kills without missing a shot",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/382360/e4ae74aa7ed0b95aa54c84023130593bc78c0dbe.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/382360/c8427ac9abf0b31725d1d0535f10acf6520f40b9.jpg"
+  },
+  {
+    "name": "ACH_ROOFTOP_07",
+    "defaultvalue": 0,
+    "displayName": "Eagle eyes",
+    "hidden": 0,
+    "description": "Kill all enemies using the assault rifle",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/382360/29d27f07f92ea92ae6ef1794f1365fc36b949e9d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/382360/2b6b185a2faf4da13de1b0b9fb8a2b808cfc74a2.jpg"
+  },
+  {
+    "name": "ACH_GARAGE_00",
+    "defaultvalue": 0,
+    "displayName": "Cougar 9000",
+    "hidden": 0,
+    "description": "Destroy an enemy vehicle",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/382360/227222ae93df55e85075f028c8637a10bf3eec32.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/382360/5fd87d8ccf7051b4f7bf2e9b65fa71faabbe3aa2.jpg"
+  },
+  {
+    "name": "ACH_GARAGE_01",
+    "defaultvalue": 0,
+    "displayName": "Reserved Parking Only",
+    "hidden": 0,
+    "description": "Kill  5 enemies without missing",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/382360/5cb2af79b7a3fba65813f1d82ffbf65d1764b06f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/382360/a269a5056587a18fc21dbda79f603c55a53db6f9.jpg"
+  },
+  {
+    "name": "ACH_GARAGE_02",
+    "defaultvalue": 0,
+    "displayName": "Return to Sender",
+    "hidden": 0,
+    "description": "Throw back grenade and kill an enemy",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/382360/8bed967064e6909dc4a035ad05c413ffdbd89a30.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/382360/7db5c6e77b28bc570a354e73b7287f591116f8b7.jpg"
+  },
+  {
+    "name": "ACH_GARAGE_03",
+    "defaultvalue": 0,
+    "displayName": "Fly Swatter",
+    "hidden": 0,
+    "description": "Take out the helicopter rappellers",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/382360/30a8b7cf2fd4db6c0e2a472faa1e07106d0f32c7.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/382360/f5198e34ea09e17bf99f071d91acf70e6604f1cd.jpg"
+  },
+  {
+    "name": "ACH_GARAGE_04",
+    "defaultvalue": 0,
+    "displayName": "3 for 1",
+    "hidden": 0,
+    "description": "Kill 3 enemies with 1 grenade",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/382360/aafdcc7d1fb2c80266a5d7ca0f42a2168775f662.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/382360/c3e9ca0c48dbe060bf81bfaf14f9d56491c76ab7.jpg"
+  },
+  {
+    "name": "ACH_GARAGE_05",
+    "defaultvalue": 0,
+    "displayName": "Vaya con Dios",
+    "hidden": 0,
+    "description": "Kill the Boss, while taking no damage from his Minigun",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/382360/002d7d938b4c69fa947f9db61ea2a592595063e2.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/382360/c1ecf1a4edcff5e5b0df146cc282135159f38156.jpg"
+  },
+  {
+    "name": "ACH_GARAGE_06",
+    "defaultvalue": 0,
+    "displayName": "Head Banger",
+    "hidden": 0,
+    "description": "Kill 5 enemies with headshots",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/382360/c74f718a794360997be4242cb185f4307a37e763.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/382360/7b8814075a794bca1221ba27d998aeb3a6054d59.jpg"
+  },
+  {
+    "name": "ACH_GARAGE_07",
+    "defaultvalue": 0,
+    "displayName": "Hiya, fellas",
+    "hidden": 0,
+    "description": "Kill all enemies with Semi-Auto weapon only",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/382360/0f38c3f48fffafaff4c3a65550ad71d7cb2f46c2.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/382360/5a68ccba880fdab5c7520fdda20bcd5cb60644d7.jpg"
+  },
+  {
+    "name": "ACH_NEG_01",
+    "defaultvalue": 0,
+    "displayName": "Woops",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/382360/1e8996b163dc6290865fbb78c0a83532e76a4951.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/382360/606b180fbf0559f5e49ee9dc9b5398fe3fc12806.jpg"
+  },
+  {
+    "name": "ACH_NEG_02",
+    "defaultvalue": 0,
+    "displayName": "What did you expect?",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/382360/6f68d298033dd0fc87c14d83b5ee2ca3c4119b03.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/382360/eee4614c9636bdf7c7f88e8691a49a6e2f5c13de.jpg"
+  },
+  {
+    "name": "ACH_NEG_03",
+    "defaultvalue": 0,
+    "displayName": "Wrong place, wrong time",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/382360/5ee887e93e09233db6991d596d544489955c3801.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/382360/7449cba0fea8ca4bbfc29ccc13f261ab00086d0c.jpg"
+  },
+  {
+    "name": "ACH_NEG_04",
+    "defaultvalue": 0,
+    "displayName": "Nimble hands",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/382360/bf26fd896ed17e54e626921b96da652c3fe29a88.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/382360/6a6589623f97c770a2a7e4ddc35a4c612bbb8714.jpg"
+  },
+  {
+    "name": "ACH_NEG_05",
+    "defaultvalue": 0,
+    "displayName": "Lost my glasses",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/382360/47560fc76fd163c7f6a4f23d10871bb0c64414ac.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/382360/4118e2ab30050007f929998a5620384484a5190b.jpg"
+  },
+  {
+    "name": "ACH_NEG_06",
+    "defaultvalue": 0,
+    "displayName": "Firepower",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/382360/5eff05dd79196510e9c3a2a81ecfe18560659e5a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/382360/e0c3f947263372c56dc814fe3e9762291062e622.jpg"
+  },
+  {
+    "name": "ACH_NEG_07",
+    "defaultvalue": 0,
+    "displayName": "Suppressing Fire",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/382360/4647e9b01f157d6d01033a6f2d9ca7431b8b5b2f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/382360/2546cb9c3db87bf472ed5e703bb7850781c6fabc.jpg"
+  },
+  {
+    "name": "ACH_NEG_08",
+    "defaultvalue": 0,
+    "displayName": "Juggernaut",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/382360/5b401928b9dafeef4b3f9afe99aed76058218725.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/382360/75c7c401dc2ff94a527a12efd62544dcda1680ca.jpg"
+  },
+  {
+    "name": "ACH_NEG_09",
+    "defaultvalue": 0,
+    "displayName": "Almost started",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/382360/10856c413417f67c85f4f6e66298f9e479cb26e5.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/382360/7318dd8e57df7c3c7d771fca3c79f9106cba6935.jpg"
+  },
+  {
+    "name": "ACH_NEG_10",
+    "defaultvalue": 0,
+    "displayName": "Usurper",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/382360/4c3b1ae90fbab94e14bf65c47680831f0751ced2.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/382360/3341146679cb0819437a1da00bf02e96a5bfeaa5.jpg"
+  },
+  {
+    "name": "ACH_NEG_11",
+    "defaultvalue": 0,
+    "displayName": "Touch the sky",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/382360/774e0f3266025f04e13faf36f7536b25a9a46b9c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/382360/1dab06ace0a5eedd6fd994cc28e71dad70471183.jpg"
+  },
+  {
+    "name": "ACH_NEG_12",
+    "defaultvalue": 0,
+    "displayName": "Vehicule not ready yet",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/382360/4acd9b7d7465c8ac21fc0902e9ed82f9c38aeaad.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/382360/a68eba86f2e21e09b0340fed85be861a839b4c42.jpg"
+  }
+]

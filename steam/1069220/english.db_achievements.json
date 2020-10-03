@@ -1,0 +1,46 @@
+[
+  {
+    "name": "10_GAMES_PLAYED",
+    "defaultvalue": 0,
+    "displayName": "Beginner",
+    "hidden": 0,
+    "description": "Play 10 Matches",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1069220/20f5ac64e3d859f58ec1e7871213840865aac7e1.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1069220/74aefb40b2c84547aa8ba4cbece46da26d133627.jpg"
+  },
+  {
+    "name": "50_GAMES_PLAYED",
+    "defaultvalue": 0,
+    "displayName": "Intermediate",
+    "hidden": 0,
+    "description": "Play 50 Matches",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1069220/204460e15a397745ad9e27fe7c2271e515a0fdf6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1069220/74aefb40b2c84547aa8ba4cbece46da26d133627.jpg"
+  },
+  {
+    "name": "100_GAMES_PLAYED",
+    "defaultvalue": 0,
+    "displayName": "MVP",
+    "hidden": 0,
+    "description": "Play 100 Matches",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1069220/aba1336ee4bd87760a4562f11e90a704106dc68f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1069220/74aefb40b2c84547aa8ba4cbece46da26d133627.jpg"
+  },
+  {
+    "name": "1000_GAMES_PLAYED",
+    "defaultvalue": 0,
+    "displayName": "Master",
+    "hidden": 0,
+    "description": "Play 1000 Matches",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1069220/e783fd8ab1c396a860e03a475b541a1208221ba7.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1069220/74aefb40b2c84547aa8ba4cbece46da26d133627.jpg"
+  },
+  {
+    "name": "1000_GAMES_WON",
+    "defaultvalue": 0,
+    "displayName": "Overlord",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1069220/4ace21abcec92c8c21ceb04d0f2c87c1468b90ac.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1069220/74aefb40b2c84547aa8ba4cbece46da26d133627.jpg"
+  }
+]

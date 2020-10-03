@@ -1,0 +1,199 @@
+[
+  {
+    "name": "BossKill1",
+    "defaultvalue": 0,
+    "displayName": "Hunter",
+    "hidden": 0,
+    "description": "Kill your first Boss",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/652050/dc27d8ea577a4f07fb802f89872aada1b81c7491.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/652050/8f03c4c5b4e5d21036a9b0190518f3351916f2b1.jpg"
+  },
+  {
+    "name": "BossKill10",
+    "defaultvalue": 0,
+    "displayName": "Slayer",
+    "hidden": 0,
+    "description": "Kill 10 Bosses",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/652050/c837564dbb2d6a073474e40bd70fe214969fbe4a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/652050/6e47b38437a31d3839fdcd54c40f038f437b18c6.jpg"
+  },
+  {
+    "name": "BossKill25",
+    "defaultvalue": 0,
+    "displayName": "Destroyer",
+    "hidden": 0,
+    "description": "Kill 25 Bosses",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/652050/d082cd5c98cd4650f2313b1ac24ac6fddaade122.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/652050/26b08040f8cbd5a8e6979e93837328ffc410bd8b.jpg"
+  },
+  {
+    "name": "EnemyKill10",
+    "defaultvalue": 0,
+    "displayName": "Butcher",
+    "hidden": 0,
+    "description": "Kill 10 Enemies",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/652050/48bb0d086b3bf88ed0be29056312552225b5dbd9.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/652050/483ff6abc4f3971920ec9ddf67417699f8b82672.jpg"
+  },
+  {
+    "name": "EnemyKill25",
+    "defaultvalue": 0,
+    "displayName": "Decimate",
+    "hidden": 0,
+    "description": "Kill 25 Enemies",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/652050/c7624028cf3d4b06b25c88d465b8dec54d1abfab.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/652050/2e3e341bf68c5268ee273b2585b38c022f514fcc.jpg"
+  },
+  {
+    "name": "EnemyKill50",
+    "defaultvalue": 0,
+    "displayName": "Obliterate",
+    "hidden": 0,
+    "description": "Kill 50 Enemies",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/652050/353820dd6a93908bfb48b9b9c6ae7dc990727754.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/652050/7a466c9fb0dc9415651f80eba40d3a13773da943.jpg"
+  },
+  {
+    "name": "BossKillAll",
+    "defaultvalue": 0,
+    "displayName": "Boss Roulette",
+    "hidden": 0,
+    "description": "Kill every Boss type",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/652050/1dcc2685fe00a3f55f64ddef089b181709da4b5e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/652050/2f6062d5c5db296890f1b686aa075e90728e7e53.jpg"
+  },
+  {
+    "name": "EnemyKillAll",
+    "defaultvalue": 0,
+    "displayName": "Enemy Roulette",
+    "hidden": 0,
+    "description": "Kill every Enemy type",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/652050/2f5fdcf2df5d8aeb90c618bfb7dc4ab0098d63c0.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/652050/04cbb58973dd11c714d86da12c70737c36413125.jpg"
+  },
+  {
+    "name": "FinalPurge",
+    "defaultvalue": 0,
+    "displayName": "Purge",
+    "hidden": 0,
+    "description": "Defeat your curse",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/652050/e3a1a75b5af13bb49802cc1d9c6588c47cef05d6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/652050/39afa8df0adacfb591100b6781b610f876d9177b.jpg"
+  },
+  {
+    "name": "FinalForsaken",
+    "defaultvalue": 0,
+    "displayName": "Forsaken",
+    "hidden": 0,
+    "description": "Defeat the obstacle",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/652050/4bf60e7636090cca87932755da0a4e4e1fb2bfd6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/652050/17267db7ba37a2ccd081bd2e925254b1c2de0045.jpg"
+  },
+  {
+    "name": "FinalSavior",
+    "defaultvalue": 0,
+    "displayName": "Savior",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/652050/7cd60ef6afe84c296438935c8074d1bc5a2cf1e1.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/652050/0dbe9c1ae92103e197312aa7fae2373b0d8f8925.jpg"
+  },
+  {
+    "name": "RoomsTravelled25",
+    "defaultvalue": 0,
+    "displayName": "Explorer",
+    "hidden": 0,
+    "description": "Travel through 25 rooms",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/652050/7d12afa978b758ef3f41ed2892fd365490edcdfe.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/652050/f606fa79c9e2f0f4337d38bdcf1d3225850c1bcd.jpg"
+  },
+  {
+    "name": "RoomsTravelled60",
+    "defaultvalue": 0,
+    "displayName": "Seeker",
+    "hidden": 0,
+    "description": "Travel through 60 rooms",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/652050/1e0e178dd779dff9209b35003c96c234e5f2dc34.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/652050/6c45c0298a5679f9f9a6e5186bde7039affff4ff.jpg"
+  },
+  {
+    "name": "RoomsTravelled135",
+    "defaultvalue": 0,
+    "displayName": "Adventurer",
+    "hidden": 0,
+    "description": "Travel through 135 rooms",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/652050/f2df15b32bfd0a6f295e8d32881f98b107762756.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/652050/666f4697a4a0305c212d7db65484ed959d8fd03d.jpg"
+  },
+  {
+    "name": "SquadUp",
+    "defaultvalue": 0,
+    "displayName": "Squad Up",
+    "hidden": 0,
+    "description": "Have a party consist of the 4 unique Class types",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/652050/7486a903a446bf880057ece9dc09d9edbf3eb32f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/652050/4d0aa025f15ad2d08f6db419ca9ab8a10d7683b3.jpg"
+  },
+  {
+    "name": "Mystical",
+    "defaultvalue": 0,
+    "displayName": "Mystical",
+    "hidden": 0,
+    "description": "Discover a unique item",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/652050/0d00a6b168db45e9bb77bff53ab1e1db2e0596fa.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/652050/d69e2a2ffacad005b5b363b71c3f9a6daf23d7bc.jpg"
+  },
+  {
+    "name": "DeepPockets",
+    "defaultvalue": 0,
+    "displayName": "Deep Pockets",
+    "hidden": 0,
+    "description": "Have 250,000 Gold at one time",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/652050/d44cdb279f5f74f8cecf49a38f2da050ecdb95bc.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/652050/e6ad3f5d5ec29f499ce3cadbacadf2f514409db5.jpg"
+  },
+  {
+    "name": "LargeBackpack",
+    "defaultvalue": 0,
+    "displayName": "Large Backpack",
+    "hidden": 0,
+    "description": "Completely fill your inventory",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/652050/61b66f1b2307a83dcce867a19cc23cfa323eb7ed.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/652050/193de7c1484699367a21ad3bea562a6e2d469990.jpg"
+  },
+  {
+    "name": "Knowledged",
+    "defaultvalue": 0,
+    "displayName": "Knowledged",
+    "hidden": 0,
+    "description": "Have a party member learn all their spells (upgrades included)",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/652050/20a08a261daebef4ef46ba8f16ddb3c7367d4f82.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/652050/bb797eebc97641ce97ab487f011bd1e1188b86f1.jpg"
+  },
+  {
+    "name": "PointSink",
+    "defaultvalue": 0,
+    "displayName": "Point Sink",
+    "hidden": 0,
+    "description": "Have a party member upgrade an Infinite Spell 25 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/652050/1ca43411df836b8cefe773640627158cced026a4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/652050/a1d17aee9d024509c25ad31a493dc306dda8e7c6.jpg"
+  },
+  {
+    "name": "Skillful",
+    "defaultvalue": 0,
+    "displayName": "Skillful",
+    "hidden": 0,
+    "description": "Have a party member get a stat over 100",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/652050/ec4460da6e330650a7028e246f34a02ee6d92d34.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/652050/1fcd47413f7d9728c561346dd94f55d8124bbf07.jpg"
+  },
+  {
+    "name": "Denied",
+    "defaultvalue": 0,
+    "displayName": "Denied",
+    "hidden": 0,
+    "description": "Be denied an Instant Kill",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/652050/68b2656a33d27d38172bda8c6a121278ec846b7d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/652050/b20c2a7500a088b665a0aa647f667433a0df671c.jpg"
+  }
+]

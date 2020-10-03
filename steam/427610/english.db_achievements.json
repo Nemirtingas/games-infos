@@ -1,0 +1,182 @@
+[
+  {
+    "name": "Infantry-Killer1",
+    "defaultvalue": 0,
+    "displayName": "Infantry Killer",
+    "hidden": 0,
+    "description": "Kill 20 Enemy Infantry Units",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/427610/353c3ef3960714fa111676d3379d001692d0e3da.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/427610/69b2d4f04c614a8a668179b35657326dbb1f91b1.jpg"
+  },
+  {
+    "name": "Infantry-Killer2",
+    "defaultvalue": 0,
+    "displayName": "Infantry Slayer",
+    "hidden": 0,
+    "description": "Kill 200 Enemy Infantry Units",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/427610/753318ee467d2bfee3cc7980046301320aec861b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/427610/a123d790951a32aecd2bf8d24c4889c5c8c8b09c.jpg"
+  },
+  {
+    "name": "Infantry-Killer3",
+    "defaultvalue": 0,
+    "displayName": "Infantry Exterminator",
+    "hidden": 0,
+    "description": "Kill 2000 Enemy Infantry Units",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/427610/611a3833359a0cfc47527b02e573e95b5b38c833.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/427610/b061a4cd9123d421c4931f5c610d3f980d560ff9.jpg"
+  },
+  {
+    "name": "Vehicle-Killer1",
+    "defaultvalue": 0,
+    "displayName": "Vehicle Wrecker",
+    "hidden": 0,
+    "description": "Destroy 10 Enemy Vehicles",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/427610/ef0ebb8fe99699d73d8dac910948e69f55738cd3.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/427610/dba20198d8b9833b2599f68fbc331fde1581f7a5.jpg"
+  },
+  {
+    "name": "Vehicle-Killer2",
+    "defaultvalue": 0,
+    "displayName": "Vehicle Demolisher",
+    "hidden": 0,
+    "description": "Destroy 100 Enemy Vehicles",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/427610/6661611b6435049d7dacdf4577e84fede4757f11.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/427610/91cdf87c8b4d954dc27a6d102945c520f23633fb.jpg"
+  },
+  {
+    "name": "Vehicle-Killer3",
+    "defaultvalue": 0,
+    "displayName": "Vehicle Destroyer",
+    "hidden": 0,
+    "description": "Destroy 500 Enemy Vehicles",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/427610/0d964830c54f7ef79a356648f03efc951e49247d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/427610/8333a0490ddefd6769d3ca9dec199e3b0534b3a8.jpg"
+  },
+  {
+    "name": "Air-Killer1",
+    "defaultvalue": 0,
+    "displayName": "Anti Air Qualified",
+    "hidden": 0,
+    "description": "Destroy 10 Enemy Air Units",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/427610/2e1cff5453996f0c908c418fdc57d335b47da664.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/427610/e41e5afe30ec0d8d4476e0b5db3d191de29b9bd0.jpg"
+  },
+  {
+    "name": "Air-Killer2",
+    "defaultvalue": 0,
+    "displayName": "Anti Air Professional",
+    "hidden": 0,
+    "description": "Destroy 50 Enemy Air Units",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/427610/c42e5e1cc19b51e82489cdd8b1ed12a8b94d853f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/427610/16e0f38a5c195e60a724a9d50b562a01ab7bd846.jpg"
+  },
+  {
+    "name": "Air-Killer3",
+    "defaultvalue": 0,
+    "displayName": "Anti Air Expert",
+    "hidden": 0,
+    "description": "Destroy 200 Enemy Air Units",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/427610/7417e002cd6a0bd8049e8f77ee12ac20951a7fc6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/427610/3fc9cae2e9d6f0309b5dde2353b7d5db772b2fa9.jpg"
+  },
+  {
+    "name": "Boss-Killer",
+    "defaultvalue": 0,
+    "displayName": "Boss Destroyer",
+    "hidden": 0,
+    "description": "Destroy 25 Giant Enemy Vehicles",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/427610/f0b7d51fa65f67c2fc45f0300796aed8dac859ae.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/427610/886ffd36d5a26edbd709e59468f942d0b0be3959.jpg"
+  },
+  {
+    "name": "Constructor",
+    "defaultvalue": 0,
+    "displayName": "Constructor",
+    "hidden": 0,
+    "description": "Build 100 Towers",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/427610/ddce60632fdea638a7a63e1ffefcc4875d1c5a8b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/427610/9749abd7c51c871bd5878c900767e654b73d370e.jpg"
+  },
+  {
+    "name": "Caught-off-Guard",
+    "defaultvalue": 0,
+    "displayName": "Caught Off Guard",
+    "hidden": 0,
+    "description": "Allow 150 Towers to be Disabled",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/427610/8c5cb8776f4c02147be6b85bd281b44a8d71abce.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/427610/b17914194026ee8e14dd68ce0a620e6eaf6d58f6.jpg"
+  },
+  {
+    "name": "Mechanic",
+    "defaultvalue": 0,
+    "displayName": "Mechanic",
+    "hidden": 0,
+    "description": "Repair 50 Towers",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/427610/f6dc44fd7ae056e07269d9c21a8f681bfc4582af.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/427610/cc4781d94d0490c812bd736156e57fb4a52acacd.jpg"
+  },
+  {
+    "name": "Salesman",
+    "defaultvalue": 0,
+    "displayName": "Salesman",
+    "hidden": 0,
+    "description": "Sell 50 Towers",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/427610/f2d931bba848aa2452124e420d76c47546a2ac41.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/427610/7fd9ec7ccc849dbc377700aa20b804eb9c55f74c.jpg"
+  },
+  {
+    "name": "Campainer1",
+    "defaultvalue": 0,
+    "displayName": "Campainer",
+    "hidden": 0,
+    "description": "Begin the first level",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/427610/d2d30f424fb2ee361dd0c383b4573d7744f69dca.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/427610/d477a94bf1dc6534f82c15c2a1bff6d5f79279c4.jpg"
+  },
+  {
+    "name": "Campainer2",
+    "defaultvalue": 0,
+    "displayName": "Explorer",
+    "hidden": 0,
+    "description": "Finish 18 Levels",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/427610/4dbc92cbd7566561e623123648a40e060f048a9d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/427610/0b7417f5f143db035c0b2ac8365e6cc83a080c67.jpg"
+  },
+  {
+    "name": "First-Encounter",
+    "defaultvalue": 0,
+    "displayName": "First Encounter",
+    "hidden": 0,
+    "description": "Encounter The Secret Weapon",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/427610/56fddb23bd569d9cb29e07c7745261eeea4c9543.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/427610/291ac1f5159c325ab9e766240c50b72963f53d92.jpg"
+  },
+  {
+    "name": "Campainer3",
+    "defaultvalue": 0,
+    "displayName": "Finisher",
+    "hidden": 0,
+    "description": "Finish final level on Normal or Above Difficulty",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/427610/bf1dae23eb0053809c602c15916d0085f895b595.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/427610/2b4a721377aebda318037f373215cff333388eae.jpg"
+  },
+  {
+    "name": "Virtual-Commander",
+    "defaultvalue": 0,
+    "displayName": "Virtual Commander",
+    "hidden": 0,
+    "description": "Spend a Minute in the Training Sim",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/427610/9935d243ae8307c2c5f2ccb4e6237dbe6d53ac64.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/427610/3553887c1d3347cbd24fd4b2b014d9e112425670.jpg"
+  },
+  {
+    "name": "Commander",
+    "defaultvalue": 0,
+    "displayName": "Commander",
+    "hidden": 0,
+    "description": "Finish all Levels with Highest Medal",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/427610/47737ac387d20b79aee64d22b66cbb6279e91e0e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/427610/abaa5aa78fbfcb68b3a706175152aa27af8a5478.jpg"
+  }
+]

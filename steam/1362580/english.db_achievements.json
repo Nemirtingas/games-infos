@@ -1,0 +1,155 @@
+[
+  {
+    "name": "NEUTRALIZER",
+    "defaultvalue": 0,
+    "displayName": "NEUTRALIZER",
+    "hidden": 0,
+    "description": "You have removed a total of 1000 ships.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1362580/642de074a92fd77104447cde7dbc322535d741a9.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1362580/2ae709188ed3e8e4eeb2e65fe17154a22b740093.jpg"
+  },
+  {
+    "name": "ANNIHILATOR",
+    "defaultvalue": 0,
+    "displayName": "ANNIHILATOR",
+    "hidden": 0,
+    "description": "You have removed a total of 5000 ships.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1362580/5124741b9ceeb10c7897284be300c447f60d44d8.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1362580/74f43e85f003a227675f508f5f8730c8132ae3c4.jpg"
+  },
+  {
+    "name": "EXTERMINATOR",
+    "defaultvalue": 0,
+    "displayName": "EXTERMINATOR",
+    "hidden": 0,
+    "description": "You have removed a total of 10000 ships.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1362580/a9ccf94fd5c7863f180427d03578925ef35162ea.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1362580/006df33a3403a65346ba21028628fa404a6ccf04.jpg"
+  },
+  {
+    "name": "FIRST_MINUTES",
+    "defaultvalue": 0,
+    "displayName": "FIRST_MINUTES",
+    "hidden": 0,
+    "description": "You have played for 15 minutes.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1362580/3d2207add65b11c90e44fc7da0466654b542d73c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1362580/0ed6779eb247eee9e1562084e6d73660eeb1b2c0.jpg"
+  },
+  {
+    "name": "HOOKED",
+    "defaultvalue": 0,
+    "displayName": "HOOKED",
+    "hidden": 0,
+    "description": "You have played for 30 minutes.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1362580/f66297b32f6ba90b8cd65abeb3707c4a78491429.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1362580/533038d5a87c63dccd4f07db5bd4412fea89b7e0.jpg"
+  },
+  {
+    "name": "ADDICTED",
+    "defaultvalue": 0,
+    "displayName": "ADDICTED",
+    "hidden": 0,
+    "description": "You have played for 1 hour.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1362580/5f48cdcffd4d9dccc719b8f8cb178316d5685885.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1362580/9f7bcd76964f9e775a565eec1f049c47b6cb9b00.jpg"
+  },
+  {
+    "name": "NOOB",
+    "defaultvalue": 0,
+    "displayName": "NOOB",
+    "hidden": 0,
+    "description": "You have died 100 times.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1362580/329c36de87d735284256be31f7cda21dfbc4e31b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1362580/814e127873f7871429edddb49bced5bb39f630e6.jpg"
+  },
+  {
+    "name": "CLUMSY",
+    "defaultvalue": 0,
+    "displayName": "CLUMSY",
+    "hidden": 0,
+    "description": "You have died 200 times.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1362580/1dd3679d4da8d6982832736ba6504bb7c38c8d6d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1362580/2830b6245ddd9c44129ce3dd86f69ab995dacde1.jpg"
+  },
+  {
+    "name": "LOSER",
+    "defaultvalue": 0,
+    "displayName": "LOSER",
+    "hidden": 0,
+    "description": "You have died 300 times.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1362580/b396d9196ab6ca88f7ebb2ab73ef623bdd2a283d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1362580/38630469217d9bada9ce9858ffec614eba462b13.jpg"
+  },
+  {
+    "name": "WORLD_1",
+    "defaultvalue": 0,
+    "displayName": "WORLD 1",
+    "hidden": 0,
+    "description": "You have completed the world 1.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1362580/dd2bbb3b8c62e6876c11dcf32b3d9063dae2ed61.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1362580/7fb038957fb51629c6addd6276dd1c95fbcc7ea3.jpg"
+  },
+  {
+    "name": "WORLD_2",
+    "defaultvalue": 0,
+    "displayName": "WORLD 2",
+    "hidden": 0,
+    "description": "You have completed the world 2.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1362580/fe4a2e4ffd269f033d8e83a183dfd44ce524df94.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1362580/e7a075faf846a7b1f871f68812a1b7a7aa4ad1d6.jpg"
+  },
+  {
+    "name": "WORLD_3",
+    "defaultvalue": 0,
+    "displayName": "WORLD 3",
+    "hidden": 0,
+    "description": "WORLD 3",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1362580/eedf0f5b4c84dd01e6775580c49669f492837391.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1362580/30aa56ebab711cc2f61582290b4ff5af64f2ba28.jpg"
+  },
+  {
+    "name": "WORLD_4",
+    "defaultvalue": 0,
+    "displayName": "WORLD 4",
+    "hidden": 0,
+    "description": "You have completed the world 4.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1362580/d5bc3c0380109716925e4d1fb072e01de8975505.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1362580/39bd48b1a83790ffa5ed84fd1be13296d44d88c1.jpg"
+  },
+  {
+    "name": "WORLD_5",
+    "defaultvalue": 0,
+    "displayName": "WORLD 5",
+    "hidden": 0,
+    "description": "You have completed the world 5.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1362580/88a49e4eb00f06814e0028210fdf8d3c7e9f8ca2.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1362580/991ef35086182690b25fb97c5797015e621004e1.jpg"
+  },
+  {
+    "name": "WORLD_6",
+    "defaultvalue": 0,
+    "displayName": "WORLD 6",
+    "hidden": 0,
+    "description": "WORLD 6",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1362580/943a355f40140a4a6cff5a03422f36f6dba73ae7.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1362580/4e0d9f28c6c56c1ef0f5504400d1b18506d7e0c7.jpg"
+  },
+  {
+    "name": "WORLD_7",
+    "defaultvalue": 0,
+    "displayName": "WORLD 7",
+    "hidden": 0,
+    "description": "You have completed the world 7.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1362580/65ce0fb76db8f5acd4256413333f63077b0078c8.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1362580/d4aa5462f5fbeb4097d70aaf0f973af483cbec7a.jpg"
+  },
+  {
+    "name": "WORLD_8",
+    "defaultvalue": 0,
+    "displayName": "WORLD 8",
+    "hidden": 0,
+    "description": "You have completed the world 8.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1362580/132f36fc6389ec3cad63902476ec1239fcfb82f2.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1362580/f45cccb076302ec844476911bb632afe9a7a0496.jpg"
+  }
+]

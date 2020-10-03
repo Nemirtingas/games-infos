@@ -1,0 +1,461 @@
+[
+  {
+    "name": "Master of Wildlands",
+    "defaultvalue": 0,
+    "displayName": "Master of Wildlands",
+    "hidden": 0,
+    "description": "Unlock all locations",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/785670/41b4701d33ee38bbb1b3023d56ef84ea38c22ed8.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/785670/84b37fb776f7e33ac862d299f044781ddff27d9e.jpg"
+  },
+  {
+    "name": "Weekend in the Foothills",
+    "defaultvalue": 0,
+    "displayName": "Weekend in the Foothills",
+    "hidden": 0,
+    "description": "Walk 1 kilometer",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/785670/706fb6106a248ecaad6694dfec4cd07f483e7eac.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/785670/299bfe4b73ec3420d8134cf638d387d3783d895c.jpg"
+  },
+  {
+    "name": "Into the Woods",
+    "defaultvalue": 0,
+    "displayName": "Into the Woods!",
+    "hidden": 0,
+    "description": "Walk 3 kilometres",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/785670/98a0ee2b69443ad43b0b53b928b2866c2691771c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/785670/5a1bcacbfc450364f3f9d09b3420f91d19ff67cd.jpg"
+  },
+  {
+    "name": "Camp Lifestyle",
+    "defaultvalue": 0,
+    "displayName": "Camp Lifestyle",
+    "hidden": 0,
+    "description": "Walk 7 kilometres",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/785670/9386a59cec07e37937ffcd73e7f3dfeef117a5ac.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/785670/2f915d5af6fb6c01e96e1c4772e275cbdde614ff.jpg"
+  },
+  {
+    "name": "Forest Wanderlust",
+    "defaultvalue": 0,
+    "displayName": "Forest Wanderlust",
+    "hidden": 0,
+    "description": "Walk 15 kilometres",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/785670/803db8ec5f02bd3c182f218636553c292a166b9b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/785670/5fb03ff76ff8df6dab5d550b48ed057579dbb42d.jpg"
+  },
+  {
+    "name": "Trail of the Heroes",
+    "defaultvalue": 0,
+    "displayName": "Trail of the Heroes",
+    "hidden": 0,
+    "description": "Walk 25 kilometres",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/785670/014cc0a782e2d955bcfcaa8c8b1619b2ba2b983d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/785670/6197cc393caaa40fa84085a1f55c8010700f6ce0.jpg"
+  },
+  {
+    "name": "Preliminary Shots",
+    "defaultvalue": 0,
+    "displayName": "Preliminary Shots",
+    "hidden": 0,
+    "description": "Make 10 shots",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/785670/c65d8c37710a4596eef0db2b0fc71c12921a7245.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/785670/76040f87955e3e9973d92a0a602be9ba9e4d2289.jpg"
+  },
+  {
+    "name": "Smell of Powder in the Morning",
+    "defaultvalue": 0,
+    "displayName": "Smell of Powder in the Morning",
+    "hidden": 0,
+    "description": "Make 50 shots",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/785670/594321ee10f0d60377c4bffdcdc59aa6cf00e0fd.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/785670/dd28de00d22fe0a03a576e9575197d5db36d9872.jpg"
+  },
+  {
+    "name": "The Carbine Is My Dear Friend",
+    "defaultvalue": 0,
+    "displayName": "The Carbine Is My Dear Friend",
+    "hidden": 0,
+    "description": "Make 200 shots",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/785670/935a7ba62aa30c82d6dbcc42520e5154a503bb7c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/785670/ce0cdd5e338913f3c5b757c8898972252e425579.jpg"
+  },
+  {
+    "name": "Meat and Metal",
+    "defaultvalue": 0,
+    "displayName": "Meat and Metal",
+    "hidden": 0,
+    "description": "Make 500 shots",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/785670/eb1892cf997b3added70d1a53ee5218561bb8503.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/785670/910cc6c16d343e53be36edb29cdc0ba11fb7c611.jpg"
+  },
+  {
+    "name": "Overlord of Bullets",
+    "defaultvalue": 0,
+    "displayName": "Overlord of Bullets",
+    "hidden": 0,
+    "description": "Make 1000 shots",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/785670/d7df3f8656b6be7aa4e2222bfa0b120fedd1a9b3.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/785670/02adc99c352f91228f838168662459a22fef3b1b.jpg"
+  },
+  {
+    "name": "Up the Wind",
+    "defaultvalue": 0,
+    "displayName": "Up the Wind",
+    "hidden": 0,
+    "description": "Shoot 10 targets stealthy",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/785670/7f47c541032c70825f5952010e5b697e853ab8a9.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/785670/d271133ca8e4ae70ececba2c9c426628161faa4b.jpg"
+  },
+  {
+    "name": "Where Were Your Keen Senses Beast",
+    "defaultvalue": 0,
+    "displayName": "Where Were Your Keen Senses, Beast?",
+    "hidden": 0,
+    "description": "Shoot 50 targets stealthy",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/785670/003fc347924f2ff2431137060ecc3a11a906d5e2.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/785670/42caec8e247d61bf3c12bab26454ba3aad699d4c.jpg"
+  },
+  {
+    "name": "Quick and Painless",
+    "defaultvalue": 0,
+    "displayName": "Quick and Painless",
+    "hidden": 0,
+    "description": "Shoot 100 targets stealthy",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/785670/661b8a5b60ef91c717ccdca5a7c8412565c21bb8.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/785670/cb0f6a3e716f479d51943ac53ab1458db00f05c3.jpg"
+  },
+  {
+    "name": "Stealth Shooter",
+    "defaultvalue": 0,
+    "displayName": "Stealth Shooter",
+    "hidden": 0,
+    "description": "Shoot 250 targets stealthy",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/785670/b552dc6672e5529f36c477745ecd02765a70e0a3.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/785670/9ffd6ca103a35d6f398bb7813baed55f6890d43f.jpg"
+  },
+  {
+    "name": "Silent Doom",
+    "defaultvalue": 0,
+    "displayName": "Silent Doom",
+    "hidden": 0,
+    "description": "Shoot 500 targets stealthy",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/785670/41140f7fe05c36192efe9ecfc72bed35bd3145cb.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/785670/4f4402bee4854ade0c2a271ee0f2fcb7021bbbb4.jpg"
+  },
+  {
+    "name": "Lucky Tracker",
+    "defaultvalue": 0,
+    "displayName": "Lucky Tracker",
+    "hidden": 0,
+    "description": "Make 10 precise shots in a row",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/785670/11fd0cbddb81741cd9718a1517a21e57d190326f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/785670/0e6522f8431b2b1340ee26c581a9326372a393ea.jpg"
+  },
+  {
+    "name": "Theres More than Random",
+    "defaultvalue": 0,
+    "displayName": "There's More than Random",
+    "hidden": 0,
+    "description": "Make 25 precise shots in a row",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/785670/4520cac8b097eae8056f30d1b5d845edc394e48a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/785670/36dee06e070c47a23bde96efb4aa10b1b887037b.jpg"
+  },
+  {
+    "name": "Remarkable Marksman",
+    "defaultvalue": 0,
+    "displayName": "Remarkable Marksman",
+    "hidden": 0,
+    "description": "Make 50 precise shots in a row",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/785670/33b54f586fdd314b07482ea02cab8b648da7ed6b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/785670/6709b6c04bf8a790b1ed0506057328d86e8a26e3.jpg"
+  },
+  {
+    "name": "Legacy of Wilhelm Tell",
+    "defaultvalue": 0,
+    "displayName": "Legacy of Wilhelm Tell",
+    "hidden": 0,
+    "description": "Make 100 precise shots in a row",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/785670/62b22d2a084f5c14235a83a87a92280d5c86183f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/785670/24e654835eb2b68b487885dd2cac745867524a1f.jpg"
+  },
+  {
+    "name": "Corrector of Ecosystem",
+    "defaultvalue": 0,
+    "displayName": "Corrector of Ecosystem",
+    "hidden": 0,
+    "description": "Make 200 precise shots in a row",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/785670/fa7053b29e234413afb2ebf0b57c67622e7c613a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/785670/e7891eebc0e8e91e043d0e141145da427d256368.jpg"
+  },
+  {
+    "name": "Refuse the Bears Hug",
+    "defaultvalue": 0,
+    "displayName": "Refuse the Bear‘s Hug",
+    "hidden": 0,
+    "description": "Hunt down 10 bears",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/785670/1f2bca3751f02fd0982a8e45d9a0ca87f48d9e4a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/785670/7932565e58e5a82f036c85fd053746d979766029.jpg"
+  },
+  {
+    "name": "Bear and the Hunter Fair",
+    "defaultvalue": 0,
+    "displayName": "Bear and the Hunter Fair",
+    "hidden": 0,
+    "description": "Hunt down 25 bears",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/785670/5820ff94f86cb24b1aa8394abb18d37ca740096d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/785670/6e442c222ca846d4daf8d2c517b59e779e3769a0.jpg"
+  },
+  {
+    "name": "Bipolar Bear",
+    "defaultvalue": 0,
+    "displayName": "Bipolar Bear",
+    "hidden": 0,
+    "description": "Hunt down 50 bears",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/785670/e35d775b007179769280b62368197209e941e8f5.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/785670/13a2052ff7df1e16e53cb1eaae85f4e32c29b2c7.jpg"
+  },
+  {
+    "name": "Bjorn Ironside",
+    "defaultvalue": 0,
+    "displayName": "Bjorn Ironside",
+    "hidden": 0,
+    "description": "Hunt down 100 bears",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/785670/68517021ba39a735bd196200e1d5b95ba4c949d5.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/785670/e40257bfdd062d30182deb0a856414b6040bab98.jpg"
+  },
+  {
+    "name": "Beowulf Im your Grendel",
+    "defaultvalue": 0,
+    "displayName": "Beowulf, I'm your Grendel",
+    "hidden": 0,
+    "description": "Hunt down 200 bears",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/785670/83cd966677a41a9ff5548b63292fa24db678a3c9.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/785670/66b1e07f05d5adb92a33c7af045beef7d3e24aa7.jpg"
+  },
+  {
+    "name": "Sorry Rudolph",
+    "defaultvalue": 0,
+    "displayName": "Sorry, Rudolph...",
+    "hidden": 0,
+    "description": "Hunt down 10 deer",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/785670/7411e6fc6de60ffa466e0eca1d00c4dabf067eea.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/785670/2797445bb46a52dc6751a0d6b59a71f00f9e6add.jpg"
+  },
+  {
+    "name": "Hunting without STAGnation",
+    "defaultvalue": 0,
+    "displayName": "Hunting without STAGnation",
+    "hidden": 0,
+    "description": "Hunt down 25 deer",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/785670/a1c2efbaf1e8175a78b47a298e916f00fc7a31fb.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/785670/aed556752a9b1bcd79066fc2a6f8391f6d9f840e.jpg"
+  },
+  {
+    "name": "Ace of Harts",
+    "defaultvalue": 0,
+    "displayName": "Ace of Harts",
+    "hidden": 0,
+    "description": "Hunt down 50 deer",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/785670/cc8497e76afa7d8a682e53a807f7aa1ddd06fe9b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/785670/b1a59b8ba8906e73925d27ed124f59415aca4e2f.jpg"
+  },
+  {
+    "name": "Deer Herds of Celtic Gods",
+    "defaultvalue": 0,
+    "displayName": "Deer Herds of Celtic Gods",
+    "hidden": 0,
+    "description": "Hunt down 100 deer",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/785670/b8cdfc1a506fc6a9e53c3a715d53ad8e5bcd0e7e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/785670/7d4b532f45a34db9a670d49f570ad63145e7ff8e.jpg"
+  },
+  {
+    "name": "A Royal Game",
+    "defaultvalue": 0,
+    "displayName": "A Royal Game",
+    "hidden": 0,
+    "description": "Hunt down 200 deer",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/785670/8688de2e0bb5812a7e952c5fb63dae12751e1988.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/785670/43496663939d7df5df84e38ae4210158e4631ab7.jpg"
+  },
+  {
+    "name": "Bracelet of Fangs",
+    "defaultvalue": 0,
+    "displayName": "Bracelet of Fangs",
+    "hidden": 0,
+    "description": "Hunt down 10 wolves",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/785670/ab3d0cce4a34bd556e59b874354243dfaa9b0468.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/785670/c5af9e21812636b3d614b97ec63406b1974e1ad3.jpg"
+  },
+  {
+    "name": "Big Bad Dead Wolf",
+    "defaultvalue": 0,
+    "displayName": "Big Bad Dead Wolf",
+    "hidden": 0,
+    "description": "Hunt down 25 wolves",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/785670/db8802c53d1d16f5294f07d7a140fbcef038c31e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/785670/06237d740dcb699d79fa6a8d2fca91586dbf3312.jpg"
+  },
+  {
+    "name": "Predator vs Predator",
+    "defaultvalue": 0,
+    "displayName": "Predator vs Predator",
+    "hidden": 0,
+    "description": "Hunt down 50 wolves",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/785670/a8628f0172784e316eed303a31a9f2fc04cad7b4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/785670/721902f18f87e4df74be09a98b112d83da3eb532.jpg"
+  },
+  {
+    "name": "Uninstall the Wolf Pack",
+    "defaultvalue": 0,
+    "displayName": "Uninstall the Wolf Pack",
+    "hidden": 0,
+    "description": "Hunt down 100 wolves",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/785670/5a4ce225eecc059ac0cb3b6c29cdca45be7dbb79.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/785670/1306f11a43b20a967c51d9175ec29f0e1c0b6e0d.jpg"
+  },
+  {
+    "name": "Bane of Wolves",
+    "defaultvalue": 0,
+    "displayName": "Wolfsbane",
+    "hidden": 0,
+    "description": "Hunt down 200 wolves",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/785670/7ab0e9cf1bcb9ca6be07b6cb4cbefcbc2bbd14aa.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/785670/7807cb822bb6f6b10100057378797a6a89766282.jpg"
+  },
+  {
+    "name": "Pork Chop",
+    "defaultvalue": 0,
+    "displayName": "Pork Chop",
+    "hidden": 0,
+    "description": "Hunt down 10 boars",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/785670/1f2bca3751f02fd0982a8e45d9a0ca87f48d9e4a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/785670/1e82a18c70b5a135e1b68845d9a5c347d5c291a8.jpg"
+  },
+  {
+    "name": "Green Ammo and Ham",
+    "defaultvalue": 0,
+    "displayName": "Green Ammo and Ham",
+    "hidden": 0,
+    "description": "Hunt down 25 boars",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/785670/352c858a49e1aad4dfa3268bc297eb0e080b3ae6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/785670/95f850ea4343f3e4b8e6068c9abf12a94c711498.jpg"
+  },
+  {
+    "name": "Your Tusks on My Wall",
+    "defaultvalue": 0,
+    "displayName": "Your Tusks on My Wall",
+    "hidden": 0,
+    "description": "Hunt down 50 boars",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/785670/7c5342d4f31e404503416e6fc36f3b68f1ab2635.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/785670/853000e7a0175e197fd6ce5d1a1109989ae88098.jpg"
+  },
+  {
+    "name": "Take That King of Vermins",
+    "defaultvalue": 0,
+    "displayName": "Take That, King of Vermins!",
+    "hidden": 0,
+    "description": "Hunt down 100 boars",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/785670/43f854b963ca13f6e02c00156be3cad5e99e801b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/785670/e82702034e86576c4760c5d58803fc6cb07b17e1.jpg"
+  },
+  {
+    "name": "Erymanthian Boar",
+    "defaultvalue": 0,
+    "displayName": "Erymanthian Boar",
+    "hidden": 0,
+    "description": "Hunt down 200 boars",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/785670/fbe63220ef4aa0df8f85960d31e9853f88e938cb.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/785670/a9f2b074105464e9a018d7cb56c98dcd4154d5c4.jpg"
+  },
+  {
+    "name": "Not So Cunning Animal",
+    "defaultvalue": 0,
+    "displayName": "Not So Cunning Animal",
+    "hidden": 0,
+    "description": "Hunt down 10 foxes",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/785670/04d0bd9cd718bc446bb2d80a068c7d0229d326cd.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/785670/04dda6e99aace44761aedebd1ce2692458f6069e.jpg"
+  },
+  {
+    "name": "Skinned Mr Fox",
+    "defaultvalue": 0,
+    "displayName": "Skinned Mr. Fox",
+    "hidden": 0,
+    "description": "Hunt down 25 foxes",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/785670/60db5b2ee85badeef23557b43b6bbff3f25b5f14.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/785670/19d3137abb9235de2b0ab318e341a05d61ac83c5.jpg"
+  },
+  {
+    "name": "Cartographer of the Fox Holes",
+    "defaultvalue": 0,
+    "displayName": "Cartographer of the Fox Holes",
+    "hidden": 0,
+    "description": "Hunt down 50 foxes",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/785670/a9394bd21cd636df4ad531a37f19cf8050a8181f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/785670/3411495a7ae16e064fed18c3a5e0fa0ef8037aeb.jpg"
+  },
+  {
+    "name": "Spending Days in the Fox Chase",
+    "defaultvalue": 0,
+    "displayName": "Spending Days in the Fox Chase",
+    "hidden": 0,
+    "description": "Hunt down 100 foxes",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/785670/53986af73a275cbcf0392321506eddab08a8ec79.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/785670/9f498d32ef06332847f9acb83fd448bb6faea891.jpg"
+  },
+  {
+    "name": "Master of Foxhounds",
+    "defaultvalue": 0,
+    "displayName": "Master of Foxhounds",
+    "hidden": 0,
+    "description": "Hunt down 200 foxes",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/785670/92b4a20f3fa37f2a152d40b81f87096470841c63.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/785670/6432c26044f5e0148dd94a978ef4a8249925b226.jpg"
+  },
+  {
+    "name": "You Have 9 Lives I Have 1 Gun",
+    "defaultvalue": 0,
+    "displayName": "You Have 9 Lives, I Have 1 Gun",
+    "hidden": 0,
+    "description": "Hunt down 10 lynxes",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/785670/6b722dd4b6f929a296f878983bf256f3c64960f0.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/785670/c24eb3ee5b80b18f5f3b6ee2cbdfeba50261e84a.jpg"
+  },
+  {
+    "name": "Serious Cat Needs Serious Measures",
+    "defaultvalue": 0,
+    "displayName": "Serious Cat Needs Serious Measures",
+    "hidden": 0,
+    "description": "Hunt down 25 lynxes",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/785670/9b798d80307d923dd02d8a34124a8a0e2962de44.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/785670/c2f919388dac4cefeb7f382553f0a61cc191fc80.jpg"
+  },
+  {
+    "name": "Combat with Bobcat",
+    "defaultvalue": 0,
+    "displayName": "Combat with Bobcat",
+    "hidden": 0,
+    "description": "Hunt down 50 lynxes",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/785670/56c3b37974142bd59013961babf5a1cd7ebea2c0.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/785670/3cf6a0b32dfe7f0b1e6197a89c18b97d7c60cf36.jpg"
+  },
+  {
+    "name": "Lynx with the Nature",
+    "defaultvalue": 0,
+    "displayName": "Lynx with the Nature",
+    "hidden": 0,
+    "description": "Hunt down 100 lynxes",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/785670/d69887b9b5192552690974b8fe6bcc6bfa50819d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/785670/f85f383a40554f8ec0770c4a55f77aaf58a3c3a7.jpg"
+  },
+  {
+    "name": "Be Domesticated or Be Purged",
+    "defaultvalue": 0,
+    "displayName": "Be Domesticated or Be Purged",
+    "hidden": 0,
+    "description": "Hunt down 200 lynxes",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/785670/330f89f55926319f92fe6e33fad5dbd007ab15b7.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/785670/d152cb7b96ddcc6fedfb318fdb56209a088dffd9.jpg"
+  }
+]

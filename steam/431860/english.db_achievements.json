@@ -1,0 +1,194 @@
+[
+  {
+    "name": "ach_red_puzzles",
+    "defaultvalue": 0,
+    "displayName": "Red puzzles",
+    "hidden": 0,
+    "description": "Red puzzles are unlocked",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/431860/337fa29849c3c1495f3747d28b15d15a7bdec75c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/431860/8229e2e0a2fabad44d3bef8a3e057fdb63f3417c.jpg"
+  },
+  {
+    "name": "ach_green_puzzles",
+    "defaultvalue": 0,
+    "displayName": "Green puzzles",
+    "hidden": 0,
+    "description": "Green puzzles are unlocked",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/431860/576d93e7592295402e956cd63568cd52a243eed7.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/431860/513d653c5b6c0b62066ddfcf2ef1c857200c3333.jpg"
+  },
+  {
+    "name": "ach_blue_puzzles",
+    "defaultvalue": 0,
+    "displayName": "Blue puzzles",
+    "hidden": 0,
+    "description": "Blue puzzles are unlocked",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/431860/111562a149b57341cbb119b658fb9c636813fd74.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/431860/05a4e23d49965ce29dca79ae30e704a01ed31772.jpg"
+  },
+  {
+    "name": "ach_magenta_puzzles",
+    "defaultvalue": 0,
+    "displayName": "Magenta puzzles",
+    "hidden": 0,
+    "description": "Magenta puzzles are unlocked",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/431860/343c781711e63e63d33e6ad4f78b56ab6a31ea1a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/431860/a0df57a6e9a53a41f6e5e3861b188e7e112d83d6.jpg"
+  },
+  {
+    "name": "ach_yellow_puzzles",
+    "defaultvalue": 0,
+    "displayName": "Yellow puzzles",
+    "hidden": 0,
+    "description": "Yellow puzzles are unlocked",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/431860/043d892df3457b5d3d53f87fbe920b760f0fb531.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/431860/84cc547e7e57afacee33cab23abf00a1ff540a69.jpg"
+  },
+  {
+    "name": "ach_cyan_puzzles",
+    "defaultvalue": 0,
+    "displayName": "Cyan puzzles",
+    "hidden": 0,
+    "description": "Cyan puzzles are unlocked",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/431860/17ae59a3a278049f0c2233442509e91300da8b1c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/431860/57596f0f5f838b26c3fee7bfdbcfb9aa9cc7bcc4.jpg"
+  },
+  {
+    "name": "ach_red_puzzles_solved",
+    "defaultvalue": 0,
+    "displayName": "Perfectly RED",
+    "hidden": 0,
+    "description": "Solve all red puzzles perfectly",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/431860/a52ef5fdefcba7bdfe6b16318caada5b812785fb.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/431860/4196a3a056a8d0824d87a329c729488f102a3956.jpg"
+  },
+  {
+    "name": "ach_green_puzzles_solved",
+    "defaultvalue": 0,
+    "displayName": "Perfectly GREEN",
+    "hidden": 0,
+    "description": "Solve all green puzzles perfectly",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/431860/56b14e966ea1766114ab392cb84c236a3d6b3ca4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/431860/f55908d28c5568e81d58c3eb662af993e428b3ca.jpg"
+  },
+  {
+    "name": "ach_blue_puzzles_solved",
+    "defaultvalue": 0,
+    "displayName": "Perfectly BLUE",
+    "hidden": 0,
+    "description": "Solve all blue puzzles perfectly",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/431860/932475ca49faacd93e77dd69068dfcb068bc5312.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/431860/fa37d05de0a72b200397bde8d3a2050c28944716.jpg"
+  },
+  {
+    "name": "ach_magenta_puzzles_solved",
+    "defaultvalue": 0,
+    "displayName": "Perfectly MAGENTA",
+    "hidden": 0,
+    "description": "Solve all magenta puzzles perfectly",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/431860/ad0e5cbe45f8a875771e7348a42479eb0b0d55f8.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/431860/dbd437d95b9a6c7f0596a0d90336365acb96ff64.jpg"
+  },
+  {
+    "name": "ach_yellow_puzzles_solved",
+    "defaultvalue": 0,
+    "displayName": "Perfectly YELLOW",
+    "hidden": 0,
+    "description": "Solve all yellow puzzles perfectly",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/431860/7ac209c3477d0369c87483d15fbc5ec44684ed2d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/431860/dc94d178c6007c86f6adb2a3c09c32aead0dd20a.jpg"
+  },
+  {
+    "name": "ach_cyan_puzzles_solved",
+    "defaultvalue": 0,
+    "displayName": "Perfectly CYAN",
+    "hidden": 0,
+    "description": "Solve all cyan puzzles perfectly",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/431860/5c285a7296bc883cc8c689e6074f24585cfa7a6e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/431860/6bf57dea096110906a2b0941aa7d8cf841e13bf2.jpg"
+  },
+  {
+    "name": "ach_timebomb_defuser",
+    "defaultvalue": 0,
+    "displayName": "Timebomb defuser",
+    "hidden": 0,
+    "description": "Solve 50 puzzles with timebomb",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/431860/6ff9c2a04167935028e53bcf5fc40b78bb0f4def.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/431860/adbd216ff6a0b992444946b943648712f6bc38ea.jpg"
+  },
+  {
+    "name": "ach_color_chemistry_master",
+    "defaultvalue": 0,
+    "displayName": "Master of Color Chemistry",
+    "hidden": 0,
+    "description": "Solve all puzzles perfectly",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/431860/0ef0a74338ca82341d173eb8c5372e4c2af063c6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/431860/87ca1ab376d56b564fad0b270a56564684b0314d.jpg"
+  },
+  {
+    "name": "ach_23",
+    "defaultvalue": 0,
+    "displayName": "23",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/431860/b561a7e771eda3a140869805270763c6d3a4e1ca.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/431860/10df994befd521572d1dc4a5b1ec447bbfac9874.jpg"
+  },
+  {
+    "name": "ach_51",
+    "defaultvalue": 0,
+    "displayName": "51",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/431860/b2c964da9089ad4cd4fdb3a14a935869e75dd2c2.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/431860/e7bc2a441eca53e4082a3c9ee42eb0b41e5c5ede.jpg"
+  },
+  {
+    "name": "ach_78",
+    "defaultvalue": 0,
+    "displayName": "78",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/431860/04e4a050cdf08f77de56651caf3c84eebcb9e56c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/431860/a5477ec7f60b46c021095e365b2d9f586f80506e.jpg"
+  },
+  {
+    "name": "ach_96",
+    "defaultvalue": 0,
+    "displayName": "96",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/431860/6a74c3092961a8b1483567b37eaf5d58ef4032fe.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/431860/f4b031ca9b942cc40706c1231de8ffecea0901c6.jpg"
+  },
+  {
+    "name": "ach_123",
+    "defaultvalue": 0,
+    "displayName": "123",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/431860/ec976f2310efa35c0b37a4895c43aac00ab646ee.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/431860/6b6564c88a74e08b82816b1edb86e4c62d7c4838.jpg"
+  },
+  {
+    "name": "ach_198",
+    "defaultvalue": 0,
+    "displayName": "198",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/431860/97437d0b515528212b75bb2c59e8b042b154c431.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/431860/6149a8c0c4e3570dacebcaa84612a0c5cb0835a2.jpg"
+  },
+  {
+    "name": "ach_random_puzzles",
+    "defaultvalue": 0,
+    "displayName": "Random color puzzles",
+    "hidden": 0,
+    "description": "Random color puzzles are unlocked",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/431860/62c431405a63fc72a8311aa8bd2f21972c09d3be.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/431860/5a3b18ae850aedbac132674156ccda7b5654942f.jpg"
+  },
+  {
+    "name": "ach_random_color_puzzles_solved",
+    "defaultvalue": 0,
+    "displayName": "Perfectly RANDOM",
+    "hidden": 0,
+    "description": "Solve all random color puzzles perfectly",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/431860/28445e207cb9d05927ebbde6983aea9490bd1ed9.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/431860/e1023f70fcfdfd61020a767da9bdfc59f30b8da9.jpg"
+  }
+]

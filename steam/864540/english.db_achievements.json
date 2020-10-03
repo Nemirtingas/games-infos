@@ -1,0 +1,65 @@
+[
+  {
+    "name": "FinishTutorial",
+    "defaultvalue": 0,
+    "displayName": "TUTORIAL COMPLETE",
+    "hidden": 0,
+    "description": "Finish the tutorial for the first time. At least you didn't die yet.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/864540/de5e20d788cd9167a944763bd954895bbd252c96.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/864540/460107d8de37e987813761c14d5e34269bf4427a.jpg"
+  },
+  {
+    "name": "DieOnce",
+    "defaultvalue": 0,
+    "displayName": "OOPS",
+    "hidden": 0,
+    "description": "Ah that's it you died... Didn't take you long.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/864540/437554847f14fc5843389ea7ed23b24de36cf2eb.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/864540/8fd8f04b3786ea3e60ddc3394759fd14564e08bd.jpg"
+  },
+  {
+    "name": "BeatFirstBossFirstTime",
+    "defaultvalue": 0,
+    "displayName": "GUARDIAN DOWN",
+    "hidden": 0,
+    "description": "Unlock the Biochemist. Let your ennemies rot!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/864540/fd87fca474ff156156c44f05316bde237396ffe5.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/864540/9b5ce8ee4c1a0cd40c32377bc9a054bfd82a24c6.jpg"
+  },
+  {
+    "name": "BeatSecondBossFirstTime",
+    "defaultvalue": 0,
+    "displayName": "ALPHA EXPERIMENT DOWN",
+    "hidden": 0,
+    "description": "Unlock the Holomaster. Now you see me, now you don't!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/864540/03c0cdc5d3378cea3dc9f544f4e36bc4c5f56363.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/864540/36199ccfd653567eb05694cdef8c1604583f9093.jpg"
+  },
+  {
+    "name": "BeatThirdBossFirstTime",
+    "defaultvalue": 0,
+    "displayName": "SENTINEL DOWN",
+    "hidden": 0,
+    "description": "Unlock the Plumber. What a nice guy.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/864540/e68a6e9ec20b77c40118aaf056e7557e3274a91a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/864540/b0c656d19b656d072e14fc308132be58e544b642.jpg"
+  },
+  {
+    "name": "ReachSurface",
+    "defaultvalue": 0,
+    "displayName": "THE GREAT SURFACE",
+    "hidden": 0,
+    "description": "Finish the game. Congratulation you did it - you saved the world.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/864540/ac1cfba69a2c96b8b298ada8eb376acb1ae55c28.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/864540/d079577989a381539dbd801dee0f830cd0289fb4.jpg"
+  },
+  {
+    "name": "UnlockAllPerks",
+    "defaultvalue": 0,
+    "displayName": "FULL FALLBACK",
+    "hidden": 0,
+    "description": "Unlock all the perks. Fallback has no secret for you.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/864540/0733047ea6d5faf17edc3edc9f00f7f83509b9bb.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/864540/1564e34ec32eb0799ad5b084c62ea12c81cb06c8.jpg"
+  }
+]

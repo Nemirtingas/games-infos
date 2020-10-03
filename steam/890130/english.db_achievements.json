@@ -1,0 +1,56 @@
+[
+  {
+    "name": "BEAT_FIRST_RANDOM_LEVEL_NORMAL_OR_HARD",
+    "defaultvalue": 0,
+    "displayName": "Beat the first random level (Normal or Hard)",
+    "hidden": 0,
+    "description": "Start beating the AI",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/890130/f9b504a1798af5d54db2da494e1f3b7a14408dca.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/890130/595dfb46c18f6f6809a4603db61e250170f8f8ff.jpg"
+  },
+  {
+    "name": "BEAT_10_NORMAL_OR_HARD_LEVELS",
+    "defaultvalue": 0,
+    "displayName": "Beat 10 Normal or Hard levels",
+    "hidden": 0,
+    "description": "Beat 10 levels against Normal or Hard AI",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/890130/28fc1c82232747f911e93e186443b3ca337662b7.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/890130/6a9b9af903ebde7adb876a2f3c896a6ae57efd38.jpg"
+  },
+  {
+    "name": "BEAT_10_HARD_LEVELS",
+    "defaultvalue": 0,
+    "displayName": "Beat 10 Hard levels",
+    "hidden": 0,
+    "description": "Beat 10 levels against Hard AI",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/890130/e52efbb462b4fb3e594794d5a51464c046e2d1c6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/890130/2a0b4b2d40073a6d2a9989fd053bd9bade21edbb.jpg"
+  },
+  {
+    "name": "BEAT_50_NORMAL_OR_HARD_LEVELS",
+    "defaultvalue": 0,
+    "displayName": "Beat 50 Normal or Hard levels",
+    "hidden": 0,
+    "description": "Beat 50 levels against Normal or Hard AI",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/890130/737274dc329018ab061dfd670a4e92681ea71c5a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/890130/9ff2814451296bbdc6c816035086b439d7ffd498.jpg"
+  },
+  {
+    "name": "BEAT_50_HARD_LEVELS",
+    "defaultvalue": 0,
+    "displayName": "Beat 50 Hard levels",
+    "hidden": 0,
+    "description": "Beat 50 levels against Hard AI",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/890130/9803738ef052b309e5128a68f673ce81838e6d72.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/890130/22b63fec515a449343cfaf9e597a4fe660cdb893.jpg"
+  },
+  {
+    "name": "QUEEN_CAPTURE",
+    "defaultvalue": 0,
+    "displayName": "Queen Capture",
+    "hidden": 0,
+    "description": "Capture/infect the enemy AI Queen (without seeing solution) (the first move doesn't count)",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/890130/f0679b83c9ad3e3198e1a50711fa121ed48cd5ca.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/890130/ad960b329f583f1d61ef5a2127ca88551d2183d6.jpg"
+  }
+]

@@ -1,0 +1,365 @@
+[
+  {
+    "name": "easyarena_complete",
+    "defaultvalue": 0,
+    "displayName": "EASY",
+    "hidden": 0,
+    "description": "Finish EASY arena",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1036330/abc4c72da022b19291688c8dd0fe2f428eabfa29.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1036330/bb3fb3988c10c413cd1b7ece58af9ae33db42a8f.jpg"
+  },
+  {
+    "name": "medarena_complete",
+    "defaultvalue": 0,
+    "displayName": "MEDIUM",
+    "hidden": 0,
+    "description": "Finish MEDIUM arena",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1036330/486c0e5bcf90be8a17585a4c3c71201d63ec8273.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1036330/bb3fb3988c10c413cd1b7ece58af9ae33db42a8f.jpg"
+  },
+  {
+    "name": "hardarena_complete",
+    "defaultvalue": 0,
+    "displayName": "HARD",
+    "hidden": 0,
+    "description": "Finish HARD arena",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1036330/2cab4ca732ea51f8986bfd80e2852776371d4fcf.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1036330/bb3fb3988c10c413cd1b7ece58af9ae33db42a8f.jpg"
+  },
+  {
+    "name": "vhard_complete",
+    "defaultvalue": 0,
+    "displayName": "VERY HARD",
+    "hidden": 0,
+    "description": "Finish VERY HARD arena",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1036330/20230a0f3776c99d9dbf226adc7f658ef7f038d3.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1036330/bb3fb3988c10c413cd1b7ece58af9ae33db42a8f.jpg"
+  },
+  {
+    "name": "impo_complete",
+    "defaultvalue": 0,
+    "displayName": "IMPOSSIBLE!",
+    "hidden": 0,
+    "description": "Finish IMPOSSIBLE arena",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1036330/edef1ff1518d80b8245e2393b09ea2e4fa7bc6bc.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1036330/bb3fb3988c10c413cd1b7ece58af9ae33db42a8f.jpg"
+  },
+  {
+    "name": "cannon_three",
+    "defaultvalue": 0,
+    "displayName": "The Penetrator",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1036330/5e1c4f11e26d2ed4492c9434ad1f6eaa25dbf6b1.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1036330/bb3fb3988c10c413cd1b7ece58af9ae33db42a8f.jpg"
+  },
+  {
+    "name": "rifle_three",
+    "defaultvalue": 0,
+    "displayName": "Assault Cube",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1036330/f2e23319deb95335604b5f5616e933465fa22a6d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1036330/bb3fb3988c10c413cd1b7ece58af9ae33db42a8f.jpg"
+  },
+  {
+    "name": "shotgun_three",
+    "defaultvalue": 0,
+    "displayName": "Shotguneer",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1036330/74ae31376bf17e3ce4be0a571ac89ac23e0a4028.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1036330/bb3fb3988c10c413cd1b7ece58af9ae33db42a8f.jpg"
+  },
+  {
+    "name": "mg_three",
+    "defaultvalue": 0,
+    "displayName": "Spray And Pray",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1036330/ef668e6b2e5922b7889675447c36d3c013a5c56f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1036330/bb3fb3988c10c413cd1b7ece58af9ae33db42a8f.jpg"
+  },
+  {
+    "name": "wep_lev30",
+    "defaultvalue": 0,
+    "displayName": "Dealer of Death",
+    "hidden": 0,
+    "description": "Upgrade WEAPON to level 30",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1036330/eb4e710a0864248e5267145ae763c53134cba1b1.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1036330/bb3fb3988c10c413cd1b7ece58af9ae33db42a8f.jpg"
+  },
+  {
+    "name": "arm_lev20",
+    "defaultvalue": 0,
+    "displayName": "Impervious",
+    "hidden": 0,
+    "description": "Upgrade ARMOR to level 20",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1036330/c2fe08ec743a5da1d28ca1889b62b0ac0acc6f07.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1036330/bb3fb3988c10c413cd1b7ece58af9ae33db42a8f.jpg"
+  },
+  {
+    "name": "eng_lev30",
+    "defaultvalue": 0,
+    "displayName": "Warp Speed",
+    "hidden": 0,
+    "description": "Through the galaxy. Upgrade ENGINE to level 30",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1036330/8dcc09332db450c5140ba6dabdf5a9cc363aed15.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1036330/bb3fb3988c10c413cd1b7ece58af9ae33db42a8f.jpg"
+  },
+  {
+    "name": "nano_three",
+    "defaultvalue": 0,
+    "displayName": "Nanite Warfare",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1036330/3e006b8ce98949c5b2ee34d32ad3c9d2f2f2a56c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1036330/bb3fb3988c10c413cd1b7ece58af9ae33db42a8f.jpg"
+  },
+  {
+    "name": "dense_three",
+    "defaultvalue": 0,
+    "displayName": "Thick Skin",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1036330/696d5de0408e3f5ad51805475fdbfd6908793449.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1036330/bb3fb3988c10c413cd1b7ece58af9ae33db42a8f.jpg"
+  },
+  {
+    "name": "reflect_three",
+    "defaultvalue": 0,
+    "displayName": "Mirror, Mirror",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1036330/28041ccb9adcf6acbeb94eb629c43e5a67585c45.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1036330/bb3fb3988c10c413cd1b7ece58af9ae33db42a8f.jpg"
+  },
+  {
+    "name": "light_three",
+    "defaultvalue": 0,
+    "displayName": "Light on Your Feet",
+    "hidden": 0,
+    "description": "Complete all LIGHT ARMOR challenges in The Lab",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1036330/03c1e166ff7e489362438de083576c35b7292cbb.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1036330/bb3fb3988c10c413cd1b7ece58af9ae33db42a8f.jpg"
+  },
+  {
+    "name": "med_three",
+    "defaultvalue": 0,
+    "displayName": "Happy Medium",
+    "hidden": 0,
+    "description": "Complete all MEDIUM ARMOR challenges in The Lab",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1036330/6a4d7cfbbaaaf70bfab05a71c7d23b8e2c07ff66.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1036330/bb3fb3988c10c413cd1b7ece58af9ae33db42a8f.jpg"
+  },
+  {
+    "name": "heavy_three",
+    "defaultvalue": 0,
+    "displayName": "Heavyweight",
+    "hidden": 0,
+    "description": "Complete all HEAVY ARMOR challenges in The Lab",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1036330/8b2484147e8bfea69a11136a228b0595a00c7904.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1036330/bb3fb3988c10c413cd1b7ece58af9ae33db42a8f.jpg"
+  },
+  {
+    "name": "titan_three",
+    "defaultvalue": 0,
+    "displayName": "Among the Gods",
+    "hidden": 0,
+    "description": "Complete all TITAN ARMOR challenges in The Lab",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1036330/4fc4c0eb9070347be8db64e56c93f9c89d0b124e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1036330/bb3fb3988c10c413cd1b7ece58af9ae33db42a8f.jpg"
+  },
+  {
+    "name": "comp_three",
+    "defaultvalue": 0,
+    "displayName": "Best of Both Worlds",
+    "hidden": 0,
+    "description": "Complete all COMPOSITE ARMOR challenges in The Lab",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1036330/cecb204ab2c29c3dac668dc03cfd7189ef354754.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1036330/bb3fb3988c10c413cd1b7ece58af9ae33db42a8f.jpg"
+  },
+  {
+    "name": "lab_complete",
+    "defaultvalue": 0,
+    "displayName": "I Want It All!",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1036330/4a4d1171b2792c4edb37b3786ff24a6ed6e152c2.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1036330/bb3fb3988c10c413cd1b7ece58af9ae33db42a8f.jpg"
+  },
+  {
+    "name": "game_complete",
+    "defaultvalue": 0,
+    "displayName": "The Greatest Teacher",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1036330/99b565c8980d6b16527e92ff59a7cb2866d4065d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1036330/bb3fb3988c10c413cd1b7ece58af9ae33db42a8f.jpg"
+  },
+  {
+    "name": "weapon_unlock_all",
+    "defaultvalue": 0,
+    "displayName": "Armoury",
+    "hidden": 0,
+    "description": "Unlock all WEAPON types.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1036330/b11e2510579e48501e0030e65e15fd28c98f9d5d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1036330/bb3fb3988c10c413cd1b7ece58af9ae33db42a8f.jpg"
+  },
+  {
+    "name": "weapon_unlock_max",
+    "defaultvalue": 0,
+    "displayName": "Armed to the Teeth",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1036330/40e18bcd722863dbc0acef6837db75663509530f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1036330/bb3fb3988c10c413cd1b7ece58af9ae33db42a8f.jpg"
+  },
+  {
+    "name": "armor_unlock_all",
+    "defaultvalue": 0,
+    "displayName": "Keep Your Friends Close...",
+    "hidden": 0,
+    "description": "Unlock all ARMOR types.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1036330/02ffb1dc9f8dc0258366214b1ce48a3e757e3a32.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1036330/bb3fb3988c10c413cd1b7ece58af9ae33db42a8f.jpg"
+  },
+  {
+    "name": "armor_unlock_max",
+    "defaultvalue": 0,
+    "displayName": "...And Your Enemies Closer.",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1036330/2cf3e9e5c33f71bfb0f189a4bcffb43a6889b628.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1036330/bb3fb3988c10c413cd1b7ece58af9ae33db42a8f.jpg"
+  },
+  {
+    "name": "engine_unlock_all",
+    "defaultvalue": 0,
+    "displayName": "Mechanic",
+    "hidden": 0,
+    "description": "Unlock all ENGINE types.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1036330/097f401d12cb1f921632f1368b5edfdeae7bf2b1.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1036330/bb3fb3988c10c413cd1b7ece58af9ae33db42a8f.jpg"
+  },
+  {
+    "name": "engine_unlock_max",
+    "defaultvalue": 0,
+    "displayName": "Engineer",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1036330/17458f3c1c7e0bcf28132dd36c879a96922ac308.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1036330/bb3fb3988c10c413cd1b7ece58af9ae33db42a8f.jpg"
+  },
+  {
+    "name": "weapon_mod_unlock",
+    "defaultvalue": 0,
+    "displayName": "Attachment",
+    "hidden": 0,
+    "description": "Unlock all WEAPON mods.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1036330/cea6d5a2028c9f5cb10c8564fd2c7a8ea4be4e44.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1036330/bb3fb3988c10c413cd1b7ece58af9ae33db42a8f.jpg"
+  },
+  {
+    "name": "weapon_mod_unlock_all",
+    "defaultvalue": 0,
+    "displayName": "Full Set",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1036330/f463a525d247ce00f72c74179b410e320dd23829.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1036330/bb3fb3988c10c413cd1b7ece58af9ae33db42a8f.jpg"
+  },
+  {
+    "name": "armor_mod_unlock",
+    "defaultvalue": 0,
+    "displayName": "Armorsmith",
+    "hidden": 0,
+    "description": "Unlock all ARMOR mods.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1036330/",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1036330/bb3fb3988c10c413cd1b7ece58af9ae33db42a8f.jpg"
+  },
+  {
+    "name": "armor_mod_unlock_all",
+    "defaultvalue": 0,
+    "displayName": "Master Armourer",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1036330/",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1036330/bb3fb3988c10c413cd1b7ece58af9ae33db42a8f.jpg"
+  },
+  {
+    "name": "engine_mod_unlock",
+    "defaultvalue": 0,
+    "displayName": "The Driver",
+    "hidden": 0,
+    "description": "Unlock all ENGINE mods.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1036330/4701123f5f3ac28257ab7441e47bd9532600fa19.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1036330/bb3fb3988c10c413cd1b7ece58af9ae33db42a8f.jpg"
+  },
+  {
+    "name": "engine_mod_unlock_all",
+    "defaultvalue": 0,
+    "displayName": "Veteran Pilot",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1036330/e01cb99fa9be98e2f12c59fc5f84f3d4aef68a90.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1036330/bb3fb3988c10c413cd1b7ece58af9ae33db42a8f.jpg"
+  },
+  {
+    "name": "lifesteal_three",
+    "defaultvalue": 0,
+    "displayName": "Lifestealer",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1036330/3f93ff4d236f84759c47b0a15a55b3fac23c35c1.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1036330/bb3fb3988c10c413cd1b7ece58af9ae33db42a8f.jpg"
+  },
+  {
+    "name": "wep_dash_three",
+    "defaultvalue": 0,
+    "displayName": "Engine Overload",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1036330/4d207e4ad43c5758c48d3d01024ac92f5c56b450.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1036330/bb3fb3988c10c413cd1b7ece58af9ae33db42a8f.jpg"
+  },
+  {
+    "name": "multi_three",
+    "defaultvalue": 0,
+    "displayName": "Total Rampage",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1036330/6593f74f03964a8dc5f975c4c7fd36f296aea844.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1036330/bb3fb3988c10c413cd1b7ece58af9ae33db42a8f.jpg"
+  },
+  {
+    "name": "eng_norm_three",
+    "defaultvalue": 0,
+    "displayName": "Safe Driver",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1036330/127e6d5ce2140ab227901747f6cdc08c5aec42d6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1036330/bb3fb3988c10c413cd1b7ece58af9ae33db42a8f.jpg"
+  },
+  {
+    "name": "eng_rush_three",
+    "defaultvalue": 0,
+    "displayName": "Speeding Over 3000",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1036330/07ec191fa84982c592e57fe746d9ec1a814a52d0.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1036330/bb3fb3988c10c413cd1b7ece58af9ae33db42a8f.jpg"
+  },
+  {
+    "name": "eng_boost_three",
+    "defaultvalue": 0,
+    "displayName": "Higher, Further... Slower...",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1036330/2428515744d405e53b0547bf6aa67098c3e61e5b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1036330/bb3fb3988c10c413cd1b7ece58af9ae33db42a8f.jpg"
+  },
+  {
+    "name": "eng_dash_three",
+    "defaultvalue": 0,
+    "displayName": "I Can Do This All Day",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1036330/c6266677dedca6de51c228c2e550fc9967858bfa.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1036330/bb3fb3988c10c413cd1b7ece58af9ae33db42a8f.jpg"
+  },
+  {
+    "name": "eng_charge_three",
+    "defaultvalue": 0,
+    "displayName": "The Bull",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1036330/b8d7f8345335612f419f4a023963edd877577688.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1036330/bb3fb3988c10c413cd1b7ece58af9ae33db42a8f.jpg"
+  },
+  {
+    "name": "eng_bullet_three",
+    "defaultvalue": 0,
+    "displayName": "S-L-O-W-M-O-T-I-O-N",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1036330/7d682a1ecac4b8ee3af17783ac9ff4e65b224edf.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1036330/bb3fb3988c10c413cd1b7ece58af9ae33db42a8f.jpg"
+  }
+]

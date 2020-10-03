@@ -1,0 +1,686 @@
+[
+  {
+    "name": "JESTKACH",
+    "defaultvalue": 0,
+    "displayName": "BloodFist",
+    "hidden": 0,
+    "description": "Deal 5 critical hits to 1 enemy during one walkthrouth",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/760080/87eaac1e4196ab689893013f94a1efa757aba80c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/760080/90ad1c940b03f991c35f9a4599369fb6f11ba70c.jpg"
+  },
+  {
+    "name": "FANAT_POROHA",
+    "defaultvalue": 0,
+    "displayName": "Powder Fanatic",
+    "hidden": 0,
+    "description": "Shoot with gun with bullets during 10 battles in a row",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/760080/f3f0edb0f60041f2782f3227dceb759b81a0e80a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/760080/7bd10c23a5e1b35233fd4f7c1f57fb9fb7e9171e.jpg"
+  },
+  {
+    "name": "FANAT_SVERHTECH",
+    "defaultvalue": 0,
+    "displayName": "Lazer Fanatic",
+    "hidden": 0,
+    "description": "Shoot with gun without bullets during 10 battles in a row",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/760080/19867519354c2035dabcf97e53ad5c0d72858e3d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/760080/92a8ece30d9426a0612c6d08e54322567dd0eeeb.jpg"
+  },
+  {
+    "name": "NEUDERJIMIY",
+    "defaultvalue": 0,
+    "displayName": "Unstoppable",
+    "hidden": 0,
+    "description": "Deal 100 critical hits",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/760080/7d1070ca479714bc5b2721082a5710a674c1fcf0.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/760080/077f4a880426ee0fb9b54b6b3a7f7990a66ce9ca.jpg"
+  },
+  {
+    "name": "ZEVS",
+    "defaultvalue": 0,
+    "displayName": "Zeus",
+    "hidden": 0,
+    "description": "Achieve energy overload",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/760080/31c9119cfc24b0fbf39eed96935d895732c7dbbe.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/760080/0a8314f1df03575192ce193948e47379789e1f95.jpg"
+  },
+  {
+    "name": "VISHIBALA",
+    "defaultvalue": 0,
+    "displayName": "Bouncer",
+    "hidden": 0,
+    "description": "Kill 10 stunned enemies",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/760080/ea6b6eff550305ccd56e41148cc4189682df7537.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/760080/96515672fdb8ac8da8eb92b4be11299b511bc181.jpg"
+  },
+  {
+    "name": "GROMILA",
+    "defaultvalue": 0,
+    "displayName": "Big Guy",
+    "hidden": 0,
+    "description": "Save up 2000 healthpoints",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/760080/bf130e39df44f25cbbe92e3018780f652921cc85.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/760080/bc90b2c8aa056803aaf2ceece81e9740d1f32b67.jpg"
+  },
+  {
+    "name": "LOVKACH",
+    "defaultvalue": 0,
+    "displayName": "Trickster",
+    "hidden": 0,
+    "description": "Dodge 3 times in a row, during one walkthrough",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/760080/05d9479071ff5e114754051ffe8d09f254d14632.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/760080/309f8c5c5298414924623852f6d70df622a0e414.jpg"
+  },
+  {
+    "name": "SNIPER",
+    "defaultvalue": 0,
+    "displayName": "Sniper",
+    "hidden": 0,
+    "description": "Hit enemy in head 100 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/760080/ab15b50af52fc82799f74664aff17e20cf910986.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/760080/28d58bcb515b1a14763a0339dee0d91eaefde1c0.jpg"
+  },
+  {
+    "name": "ZDOROVYAK",
+    "defaultvalue": 0,
+    "displayName": "Mighty Man",
+    "hidden": 0,
+    "description": "Finish one location with more than 90% of health during walkthrough",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/760080/881c6de225f5a58b99fdf1afeb83f302d978a597.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/760080/06859fa57176059ffadeed321c6bc0346d375287.jpg"
+  },
+  {
+    "name": "BOLNOY",
+    "defaultvalue": 0,
+    "displayName": "Sick Person",
+    "hidden": 0,
+    "description": "Stay under the effect of bleeding more than 10 turns and survive after that, during one walkthrough",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/760080/8b6fdffd11af54a527d68fd7414859b119976525.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/760080/8f7213f59ab809e998925caa9b2f07038ebacaf8.jpg"
+  },
+  {
+    "name": "FANAT_GAZIROVKA",
+    "defaultvalue": 0,
+    "displayName": "Sodaholic",
+    "hidden": 0,
+    "description": "Drink 10 cans of soda during one walkthrough",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/760080/e8e59805a08571c78356129debe9f07c8b017592.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/760080/bb746d504259215f0eacacf7cdd391f593ff346f.jpg"
+  },
+  {
+    "name": "ALKASH",
+    "defaultvalue": 0,
+    "displayName": "Alco addict",
+    "hidden": 0,
+    "description": "Drink 10 bottles of booze during one walkthrough",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/760080/efe009a3b7710c6912e2d7436eb6678aa7a77740.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/760080/a1aef1dad5e8130514cccb76eac1755056080c4e.jpg"
+  },
+  {
+    "name": "PODRIVNIK",
+    "defaultvalue": 0,
+    "displayName": "Demoman",
+    "hidden": 0,
+    "description": "Use 25 grenades",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/760080/bb7095514c30032d7986f4af53f8041e691a6d42.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/760080/9890ba1e58c87237d3b36892dfb96b8d57805ad0.jpg"
+  },
+  {
+    "name": "GEROY",
+    "defaultvalue": 0,
+    "displayName": "Hero",
+    "hidden": 0,
+    "description": "Never escape, during one walkthrough",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/760080/c11ecb11323a5bdace3af1b44993ad478a150e77.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/760080/7715a537b0375f40a03a559fc4c2d29df5f94303.jpg"
+  },
+  {
+    "name": "SCHASTLIVCHIK",
+    "defaultvalue": 0,
+    "displayName": "Lucky",
+    "hidden": 0,
+    "description": "Survive in battle with 25 Healthpoints or less",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/760080/03f6c7021b50e3a540da68906fd640e549a93794.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/760080/fd174e032d838f3d132a05fcc6997ac0abbd7ba3.jpg"
+  },
+  {
+    "name": "GURMAN",
+    "defaultvalue": 0,
+    "displayName": "Gourmet",
+    "hidden": 0,
+    "description": "Eat 100 portions of food",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/760080/72c4bcdfcf44cb2ca6b20b3aa2a653cb34b9f839.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/760080/5685df72706afe3b8fd704836c33fb0040e41b85.jpg"
+  },
+  {
+    "name": "PATRON_MNOGO_NE_BIVAET",
+    "defaultvalue": 0,
+    "displayName": "There is no not enough of ammo...",
+    "hidden": 0,
+    "description": "Spend 250 ammo",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/760080/030b9b6dfc9f2492dc1d0352a4c14ed7d1d059c1.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/760080/7f1a8bdb44a97a72725301f28ee31dd8f7119abb.jpg"
+  },
+  {
+    "name": "VSEGDA_GOTOV",
+    "defaultvalue": 0,
+    "displayName": "Always Ready",
+    "hidden": 0,
+    "description": "Finish one walkthrough",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/760080/eb6d48108619ef969bf8a4b955ed1d1da316c968.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/760080/6c2f4d9d20efd53ce8ddadedab20ecd7f24425e0.jpg"
+  },
+  {
+    "name": "LOOTER",
+    "defaultvalue": 0,
+    "displayName": "Looter",
+    "hidden": 0,
+    "description": "Open 250 container",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/760080/df0cd07901c0310f43625ee378cf638afba82148.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/760080/a03a96d33e3cf40d65ed0e4a5555adcbcec7f27a.jpg"
+  },
+  {
+    "name": "ACCUMULATOR",
+    "defaultvalue": 0,
+    "displayName": "Accumulator",
+    "hidden": 0,
+    "description": "Fully level up Max systems, during one walkthrough",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/760080/0841babe53152677363291a8c60150610c5cff08.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/760080/edfb70ea8b916910b00e26679ab4766c4911a6bc.jpg"
+  },
+  {
+    "name": "SHESTOE_CHUVSTVO",
+    "defaultvalue": 0,
+    "displayName": "Sixth sense",
+    "hidden": 0,
+    "description": "Explore 250 rooms",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/760080/72fc9b10dae5d72ae5e56f063729cec9fd963b07.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/760080/4b539661a807ac60fb65cd7cd0de0d6625696127.jpg"
+  },
+  {
+    "name": "VAMPIRE",
+    "defaultvalue": 0,
+    "displayName": "The Vampire",
+    "hidden": 0,
+    "description": "Heal 10000 healthpoints",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/760080/eb0228e702749efa4d3ef057005a7f5b7ad2f178.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/760080/5f80c711cfe2bf243e2e19b00a8574c91e4f44c6.jpg"
+  },
+  {
+    "name": "YA_AUTOMAT",
+    "defaultvalue": 0,
+    "displayName": "I, Dispencer",
+    "hidden": 0,
+    "description": "Die 3 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/760080/1267e3f037a81f6a467d704b1d7c7d576c30b2fa.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/760080/726850184e83531533107a596cc8f73d01bf83eb.jpg"
+  },
+  {
+    "name": "VSE_BILO_NE_TAK",
+    "defaultvalue": 0,
+    "displayName": "It wasn't like that",
+    "hidden": 0,
+    "description": "Die 5 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/760080/954d8fcff1ec7fb376a660ddba1983639b4807d8.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/760080/5ab6e3a0dbe952277661706dbdbbc57e6185de05.jpg"
+  },
+  {
+    "name": "ANGEL_SMERTI",
+    "defaultvalue": 0,
+    "displayName": "Death Angel",
+    "hidden": 0,
+    "description": "Kill 300 enemies",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/760080/8148c81c392127ce21d47ac87afb430240e689ec.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/760080/83591ff54ea9e629f531c8f37f6858754d55bf36.jpg"
+  },
+  {
+    "name": "POLNIY_DOSTUP",
+    "defaultvalue": 0,
+    "displayName": "Full access",
+    "hidden": 0,
+    "description": "Ride 250 floors on elevator",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/760080/d43b1164a17b00eb01631b3dc1d5d52b81fee714.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/760080/a15d493170b6996dbc73c3edd966d465cf85ce27.jpg"
+  },
+  {
+    "name": "FIRST_STEPS",
+    "defaultvalue": 0,
+    "displayName": "First steps",
+    "hidden": 0,
+    "description": "Spend on moving 200 units of energy",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/760080/a727aaa27adbbf01f793db551b2371c7be877d2a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/760080/501dc0dd67609910efa3e37a660df72e6152b72f.jpg"
+  },
+  {
+    "name": "SELF_IMPROVEMENT",
+    "defaultvalue": 0,
+    "displayName": "Self-Improvenemt",
+    "hidden": 0,
+    "description": "Improve the costume module",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/760080/118c2f0b04224ade8c398aef18a1c5fcb7d0726c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/760080/69719addf3b8fe4f6c73ba559aaff75cffd577b5.jpg"
+  },
+  {
+    "name": "THIS_IS_FOR_YOU",
+    "defaultvalue": 0,
+    "displayName": "This is for you",
+    "hidden": 0,
+    "description": "Critical damage for the first time",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/760080/e06854107bbcd5cda5afac110a2abfeaf765e03b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/760080/5f4826299267b96eebb67d61f11b256e58c0628e.jpg"
+  },
+  {
+    "name": "STUBBORN_RESEARCHER",
+    "defaultvalue": 0,
+    "displayName": "Stubborn researcher",
+    "hidden": 0,
+    "description": "Spend on moving 1000 units of energy",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/760080/a24b5f28c3fe10b7e0ef5a3903216c2bc6ab3f2c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/760080/501a0f20c6087cd8aede795d8e652b93b690161f.jpg"
+  },
+  {
+    "name": "EXPERT_WANDERER",
+    "defaultvalue": 0,
+    "displayName": "Expert wanderer",
+    "hidden": 0,
+    "description": "Spend on moving 2500 units of energy",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/760080/16cf2a923926e53f6f0c7013c625f30f186af864.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/760080/e202c9bdd878dd01d20634d21ad3b713ef0ba052.jpg"
+  },
+  {
+    "name": "BLOOD_LUST",
+    "defaultvalue": 0,
+    "displayName": "Blood lust",
+    "hidden": 0,
+    "description": "Bleeding the enemy",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/760080/e86f1180362b7360315b187a5fac2719827bad81.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/760080/4264c7a131993ef0d5054e1138a73aeea4260a06.jpg"
+  },
+  {
+    "name": "PYROMANIAC",
+    "defaultvalue": 0,
+    "displayName": "Pyromaniac",
+    "hidden": 0,
+    "description": "Set fire to enemy",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/760080/99c31c89567a8a2383bbffe1ffd0e565d1af9a1f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/760080/0e0b1cac19ed7b30b5229a33942bcd0812c04088.jpg"
+  },
+  {
+    "name": "ICY_HORROR",
+    "defaultvalue": 0,
+    "displayName": "Icy horror",
+    "hidden": 0,
+    "description": "Freeze the enemy",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/760080/84440da3f857a0ca6c3fd87ce7af97fd001649d4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/760080/5409b8cfe939cab860a0713240ef5907fca15303.jpg"
+  },
+  {
+    "name": "TOXICOLOGIST",
+    "defaultvalue": 0,
+    "displayName": "Toxicologist",
+    "hidden": 0,
+    "description": "Poison the enemy",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/760080/ac209d7b1850c790aaa31483568019f73ef23715.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/760080/df7f8b3e971d24d15882997ffaf37c2d81d86f35.jpg"
+  },
+  {
+    "name": "THIS_TASE_DOES_NOT_FORGET",
+    "defaultvalue": 0,
+    "displayName": "This taste does not forget",
+    "hidden": 0,
+    "description": "Eat a burger",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/760080/2572c541042b139db23776018bc6dce2b7e841e8.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/760080/e8c172d5b78ec88e424c1a96773ce23e0b36f65d.jpg"
+  },
+  {
+    "name": "FOR_THIS_TASTE_DIE",
+    "defaultvalue": 0,
+    "displayName": "For the sake of this taste you can die",
+    "hidden": 0,
+    "description": "Eat a burger and die on the next move",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/760080/9b019e27927de2a01fe8ae7bbcbfc5800b1c3717.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/760080/71851c4c206c7c9059850d209f04f658ab971524.jpg"
+  },
+  {
+    "name": "TACTICAL_RETREAT",
+    "defaultvalue": 0,
+    "displayName": "Tactical retreat",
+    "hidden": 0,
+    "description": "To escape from the battle",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/760080/7bea0cc8968528432a8ca1fb40eef53e9c39ad80.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/760080/24a03c94d41042d870238fb796e05b8624dc3daf.jpg"
+  },
+  {
+    "name": "BRUTAL_MURDER",
+    "defaultvalue": 0,
+    "displayName": "Brutal murder",
+    "hidden": 0,
+    "description": "To strike an opponent with a critical blow",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/760080/5b6c18b1dfd0aed291cad5cb7910dc0eb131dd16.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/760080/279e7ba43956bfc3d56d9c31c1b2171480da8802.jpg"
+  },
+  {
+    "name": "IN_SEARCH_OF_TRUTH",
+    "defaultvalue": 0,
+    "displayName": "In search of truth",
+    "hidden": 0,
+    "description": "Find the first document",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/760080/4b99702df53c2ddd00b40cec53440b7323a1b99c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/760080/f37751ba31ae8175f45d57dc31d96bfea54d6019.jpg"
+  },
+  {
+    "name": "SOLUTION_IS_CLOSE",
+    "defaultvalue": 0,
+    "displayName": "The solution is close",
+    "hidden": 0,
+    "description": "Find 7 documents",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/760080/4aad3aa3b493f9da831afde053e8be690524a63b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/760080/9e410f9a42811016f1621041bb0520fe4d2092f1.jpg"
+  },
+  {
+    "name": "FULL_PICTURE_EVENTS",
+    "defaultvalue": 0,
+    "displayName": "Full picture of events",
+    "hidden": 0,
+    "description": "Find all documents",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/760080/168a3a5e715173fa0d2e531b12936116bab17c98.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/760080/cd90acffea0ef13c6690cd33fddb7b14b0b77977.jpg"
+  },
+  {
+    "name": "NOPE_AVI",
+    "defaultvalue": 0,
+    "displayName": "Nope.avi",
+    "hidden": 0,
+    "description": "Do not look at the explosion (Escape the mine)",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/760080/0670166b00156f79815f20b3ee67ac70183efd55.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/760080/edf81e37f1362d73d25d2bfda59518d683a422d7.jpg"
+  },
+  {
+    "name": "SAPPER",
+    "defaultvalue": 0,
+    "displayName": "Sapper",
+    "hidden": 0,
+    "description": "Successfully defuse a mine",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/760080/e23781201e59c4b9ea9cefd198386706080da25e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/760080/16b19eb52a482dbe7021e7d43c618a616650c7fd.jpg"
+  },
+  {
+    "name": "SPENDER",
+    "defaultvalue": 0,
+    "displayName": "Spender",
+    "hidden": 0,
+    "description": "Spend 100 ammo",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/760080/6dfea292251a69f76b8a77c5ca5824235a96e845.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/760080/bb42569675bb5a4f8737f8cd4721cd282ffb2945.jpg"
+  },
+  {
+    "name": "ALMOST_LIKE_RAMBO",
+    "defaultvalue": 0,
+    "displayName": "Almost like Rambo",
+    "hidden": 0,
+    "description": "Spend 300 ammo",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/760080/ebdcc4e1316d44186d9cd2fc76ddae0354dfc080.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/760080/5322ca5c59358e3073fe2739152bb2f3f77a239e.jpg"
+  },
+  {
+    "name": "SAVE_ENERGY_THEY_SAID",
+    "defaultvalue": 0,
+    "displayName": "Save energy, they said...",
+    "hidden": 0,
+    "description": "Spend 200 energy on shots(Lazer weapons)",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/760080/c870a20037557799a6a8e9e179a192b8ece3e0fe.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/760080/a88091e7b8f576c21036bbde6ab0fe08edafd00a.jpg"
+  },
+  {
+    "name": "DOCTOR",
+    "defaultvalue": 0,
+    "displayName": "Doctor",
+    "hidden": 0,
+    "description": "Create 10 first aid kits",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/760080/9ecfdc32414d5a83f474653e5bdcff4ea07edd5f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/760080/ce15f455846ee64ce625fbf8d1fc3eae31597e48.jpg"
+  },
+  {
+    "name": "LESSONS_OF_LABOR_WERE_NOT_IN_VAIN",
+    "defaultvalue": 0,
+    "displayName": "The lessons of labor were not in vain",
+    "hidden": 0,
+    "description": "Create Item",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/760080/bb1b2efb19e6b9b793665e9aac2265d2776e441e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/760080/f85d083346a23866f473107eef5022dac180cbd2.jpg"
+  },
+  {
+    "name": "ARMOURER",
+    "defaultvalue": 0,
+    "displayName": "Armourer",
+    "hidden": 0,
+    "description": "Create 10 types of firearms",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/760080/219bfd743e7d2348f4474784d31c4fc9e4cb73c6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/760080/668330fea9a4b76d619648d95b3e725aeae451ea.jpg"
+  },
+  {
+    "name": "BLACKSMITH",
+    "defaultvalue": 0,
+    "displayName": "Blacksmith",
+    "hidden": 0,
+    "description": "Create 10 types of bladed weapons",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/760080/887d5c04ed758c5ba7e3ecee0a3bd6f960eb64f6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/760080/0d44effe8540290d842c2cd7ed544ede27738ded.jpg"
+  },
+  {
+    "name": "GIFT_FOR_DAD",
+    "defaultvalue": 0,
+    "displayName": "Gift for dad",
+    "hidden": 0,
+    "description": "Create 100 ammo",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/760080/b2ed396f063f9fc8fa5094eb63639dd0a873640b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/760080/1ba74cece6276d3e3dc4feb65ce7b41c70425338.jpg"
+  },
+  {
+    "name": "MERCY_ENOUGH",
+    "defaultvalue": 0,
+    "displayName": "Have mercy! That's enough!",
+    "hidden": 0,
+    "description": "Create 1000 ammo",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/760080/eda999b066b124a329565d8c6fcb487783abfbad.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/760080/6bb1e8d5c319a53b12c2e7b4d0929742dffb1546.jpg"
+  },
+  {
+    "name": "MASTER_TORTURE",
+    "defaultvalue": 0,
+    "displayName": "Master of Torture",
+    "hidden": 0,
+    "description": "To set fire, freeze, poison and bleed the enemy without killing him in the process",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/760080/3a3eb1ac49ebd1be241e6ad3e1ff47d0d53296e9.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/760080/094ad56db4ce6682cbd883b3f8a2a7e8c0eed549.jpg"
+  },
+  {
+    "name": "SADIST",
+    "defaultvalue": 0,
+    "displayName": "Sadist",
+    "hidden": 0,
+    "description": "To wound one enemy with a cold weapon, to shoot from a gunshot and kill a grenade",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/760080/f67fbb319a424d8935bd2894fc2902777643aaa2.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/760080/ba3518fe600980bd794547fbb64c1abe576150d9.jpg"
+  },
+  {
+    "name": "AND_SUDDENLY_USEFUL",
+    "defaultvalue": 0,
+    "displayName": "And suddenly come in handy?!",
+    "hidden": 0,
+    "description": "Clog inventory with items",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/760080/196a6b041aea6e0b96086e77acb6fd9e969f7fea.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/760080/4fe0dd0dc515c4f56ebcda6b181abf9225ef9d6f.jpg"
+  },
+  {
+    "name": "DEATH_BEARER",
+    "defaultvalue": 0,
+    "displayName": "The Deathbearer",
+    "hidden": 0,
+    "description": "Clear all enemies from one compartment",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/760080/7e7428c837e84fe162b13da68b710364456c5418.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/760080/e26af957235a46ec073af427a30aba5745c11a09.jpg"
+  },
+  {
+    "name": "KINDER_GARTEN",
+    "defaultvalue": 0,
+    "displayName": "Kindergarten",
+    "hidden": 0,
+    "description": "Ride one elevator up 10 times. It seems to be an adult, but still fun!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/760080/b097c26fa8b1cd4061d19752ed1b97cff51758ba.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/760080/1820172a1070b07e51f94e4fed70c63e66d43d28.jpg"
+  },
+  {
+    "name": "ON_SLEEPERS",
+    "defaultvalue": 0,
+    "displayName": "On sleepers",
+    "hidden": 0,
+    "description": "Ride the train 25 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/760080/363dd6f688070acccdb2ada7d6cbcd8a2b0ced4a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/760080/1f139f9bf1e3f8b4c1c8571bbddc2921636c13fb.jpg"
+  },
+  {
+    "name": "ABSURD_DEATH",
+    "defaultvalue": 0,
+    "displayName": "An absurd death",
+    "hidden": 0,
+    "description": "Die by a slug",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/760080/04e51fdd6d7dd17b15398bd49237ff65dd7159ee.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/760080/72e83ceb21bd078bd2d6cbf4557551c8919e7840.jpg"
+  },
+  {
+    "name": "HIGH_VOLTAGE",
+    "defaultvalue": 0,
+    "displayName": "High voltage",
+    "hidden": 0,
+    "description": "Die from an electric wire",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/760080/20af938c8170eeaa65ed17d31f7b1d98427066b5.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/760080/d0c0c2ff3b8eb1752af0a9e633beca4e53d54e67.jpg"
+  },
+  {
+    "name": "USELESS_SUIT",
+    "defaultvalue": 0,
+    "displayName": "Useless suit",
+    "hidden": 0,
+    "description": "Die during poisoning",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/760080/890f36d886d2d19e89d6408d752d6475132bcdf5.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/760080/90d6b661f93d068e127da4da0a649f5dd94faae2.jpg"
+  },
+  {
+    "name": "CLEANING_IS_FINISH",
+    "defaultvalue": 0,
+    "displayName": "Cleaning completed",
+    "hidden": 0,
+    "description": "Kill the Dismantler",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/760080/54b9c479d8b17ecf47f5f9285aac3ef6e491dd7b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/760080/f90a3a1269528257c75ee651cb2ac1ba04e98a73.jpg"
+  },
+  {
+    "name": "GLUTTON",
+    "defaultvalue": 0,
+    "displayName": "Glutton",
+    "hidden": 0,
+    "description": "Try all kinds of food at the station",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/760080/7c024dade5fea36b4d823c6c1b832da4923b7856.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/760080/1f0d1342eef816c7cdb2562490d6e0679fbcf1d9.jpg"
+  },
+  {
+    "name": "IT_PROBABLY_HURTS",
+    "defaultvalue": 0,
+    "displayName": "It probably hurts...",
+    "hidden": 0,
+    "description": "Get 30,000 points of damage during the game",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/760080/3a251fcfc4535f718422e357f74bd0349d0f6d17.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/760080/95e9351c9e88730a2224b31154185e533ed7e92b.jpg"
+  },
+  {
+    "name": "OMAE_WA_MOU_SHINDEIRU",
+    "defaultvalue": 0,
+    "displayName": "Omae Wa Mou Shindeiru",
+    "hidden": 0,
+    "description": "Kill the enemy with one hit",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/760080/bf656063b2a640f23afddc2a03b620451e2cbf5a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/760080/fbc3c8daab4417511bc6ada469af4851ca739b33.jpg"
+  },
+  {
+    "name": "AMMO_SORRY",
+    "defaultvalue": 0,
+    "displayName": "Ammo sorry",
+    "hidden": 0,
+    "description": "Kill three enemies with one grenade",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/760080/705674caf7bc353ec2fadc5590c5ebe64fc6a2cc.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/760080/07f0f8d97419e04a9962b5ccacb904242434740b.jpg"
+  },
+  {
+    "name": "PATHFINDER",
+    "defaultvalue": 0,
+    "displayName": "Pathfinder",
+    "hidden": 0,
+    "description": "Visit all the rooms in one compartment",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/760080/d442025bc069f3dc393d18a6dce3a22a2716989b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/760080/f024a12ef1573c93e8ecfb83e7b43d1eaca5cfee.jpg"
+  },
+  {
+    "name": "IT_JUST_SCRATCH",
+    "defaultvalue": 0,
+    "displayName": "It's just a scratch",
+    "hidden": 0,
+    "description": "Pass any compartment at a station with a health rating of at least 50%",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/760080/41f6d09f5fb66cacc97f8f3f360b5913081907e6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/760080/e0b6c1313199e93ea7ebb54ca2e34cc3211e6ee8.jpg"
+  },
+  {
+    "name": "UPGRADE_COSTUME",
+    "defaultvalue": 0,
+    "displayName": "Upgrade the costume",
+    "hidden": 0,
+    "description": "Dress up the first outfit",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/760080/8e3a9c9d97074c0e85b8e9de94435ae25716b7ed.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/760080/9a01dcb8613730cf0824ba24b8db666796e37b69.jpg"
+  },
+  {
+    "name": "FULL_STRENGHT",
+    "defaultvalue": 0,
+    "displayName": "Full strenght",
+    "hidden": 0,
+    "description": "Wear a set of equipment",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/760080/76ba89d47ef16427741ac10bfb7a1013138100e5.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/760080/7984f5f790d167f21fb6859a6648f37b8d49dccf.jpg"
+  },
+  {
+    "name": "DUAL_POWER",
+    "defaultvalue": 0,
+    "displayName": "Dual power",
+    "hidden": 0,
+    "description": "Wear two sets of equipment",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/760080/6a5eba8b782c479aad023b392c2edae63d4aa5f0.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/760080/9c62d8069e538ab0c9767f460b90bd0159fd3373.jpg"
+  },
+  {
+    "name": "TRIPLE_PUMPING",
+    "defaultvalue": 0,
+    "displayName": "Triple pumping",
+    "hidden": 0,
+    "description": "Wear three sets of equipment",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/760080/cd31c70077533766005fc306af8c4899ad7e271e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/760080/70bbb45547ff37db8232579c9ce5158433183c8a.jpg"
+  },
+  {
+    "name": "IT_WAS_HELL",
+    "defaultvalue": 0,
+    "displayName": "But actually, it was hell",
+    "hidden": 0,
+    "description": "Complete the game on hard mode",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/760080/408ffc1553614d7264efb072a28e291ec830a36e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/760080/8ec32f8325aa8d0d5cad5e950a69c704af0ea73f.jpg"
+  },
+  {
+    "name": "IT_WAS_EASY",
+    "defaultvalue": 0,
+    "displayName": "It was easy",
+    "hidden": 0,
+    "description": "Comlete the game on standart mode",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/760080/4688b3e857db753273f2215fe2ad0ab4e924c7eb.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/760080/e30e5cb1070c7842881ccb91978aa0e760018af8.jpg"
+  }
+]

@@ -1,0 +1,902 @@
+[
+  {
+    "name": "NEW_ACHIEVEMENT_1_0",
+    "defaultvalue": 0,
+    "displayName": "Julia, 23 - Start",
+    "hidden": 0,
+    "description": "Girlevel I - Start",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/5368d21c2f4576238ab38186ddc0ca274e875888.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/3af254ca090edabcaa23347378e91cc01597a7f7.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_1_1",
+    "defaultvalue": 0,
+    "displayName": "Julia, 23 - Success!",
+    "hidden": 0,
+    "description": "Girlevel I - Success!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/8322f9666f0400ecf66df48f775c0a080d502d14.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/d880ae24c7d31dc952ef280ccf6b5a9791efa704.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_1_2",
+    "defaultvalue": 0,
+    "displayName": "Anka, 25 - Start",
+    "hidden": 0,
+    "description": "Girlevel II - Start",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/5b5815e0da0ab17c5c1fd8d73e097ebce63c06c2.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/3af254ca090edabcaa23347378e91cc01597a7f7.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_1_3",
+    "defaultvalue": 0,
+    "displayName": "Anka, 25 - Success!",
+    "hidden": 0,
+    "description": "Girlevel II - Success!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/48b6f102f503e8b0aafa65c612453323582405e2.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/3af254ca090edabcaa23347378e91cc01597a7f7.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_1_4",
+    "defaultvalue": 0,
+    "displayName": "Yoko, 21 - Start",
+    "hidden": 0,
+    "description": "Girlevel III - Start",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/6e0e1e785a7e2ff3e17bafeea46da60b67398864.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/3af254ca090edabcaa23347378e91cc01597a7f7.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_1_5",
+    "defaultvalue": 0,
+    "displayName": "Yoko, 21 - Success!",
+    "hidden": 0,
+    "description": "Girlevel III - Success!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/07407a70a103d09612b53fe3a1d113a4ac47b496.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/3af254ca090edabcaa23347378e91cc01597a7f7.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_1_6",
+    "defaultvalue": 0,
+    "displayName": "Nasty, 22 - Start",
+    "hidden": 0,
+    "description": "Girlevel IV - Start",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/d00a6a0d2dbe7f40514fdd517dceb7c4916b4eca.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/3af254ca090edabcaa23347378e91cc01597a7f7.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_1_7",
+    "defaultvalue": 0,
+    "displayName": "Nasty, 22 - Success!",
+    "hidden": 0,
+    "description": "Girlevel IV - Success!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/114fa90b9ea15a2e348cd76c2fac12d503175919.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/3af254ca090edabcaa23347378e91cc01597a7f7.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_1_8",
+    "defaultvalue": 0,
+    "displayName": "Shina, 24 - Start",
+    "hidden": 0,
+    "description": "Girlevel V - Start",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/2fbc503392a31125756ab244af2e081157bcd22e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/3af254ca090edabcaa23347378e91cc01597a7f7.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_1_9",
+    "defaultvalue": 0,
+    "displayName": "Shina, 24 - Success!",
+    "hidden": 0,
+    "description": "Girlevel V - Success!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/9162546f7ed8d6f9b9d502661f6c22b143bdb04f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/3af254ca090edabcaa23347378e91cc01597a7f7.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_1_10",
+    "defaultvalue": 0,
+    "displayName": "Tsune, 23 - Start",
+    "hidden": 0,
+    "description": "Girlevel VI - Start",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/5c65bb983927148de854846a0a6572a38e24bcc3.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/3af254ca090edabcaa23347378e91cc01597a7f7.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_1_11",
+    "defaultvalue": 0,
+    "displayName": "Tsune, 23 - Success!",
+    "hidden": 0,
+    "description": "Girlevel VI - Success!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/f7aaceff1da81435f8b42ae9dc075199c8e7ac64.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/3af254ca090edabcaa23347378e91cc01597a7f7.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_1_12",
+    "defaultvalue": 0,
+    "displayName": "Hinata, 24 - Start",
+    "hidden": 0,
+    "description": "Girlevel VII - Start",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/a17b4c2b309c2156e433360b6bede21b22fe59f6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/3af254ca090edabcaa23347378e91cc01597a7f7.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_1_13",
+    "defaultvalue": 0,
+    "displayName": "Hinata, 24 - Success!",
+    "hidden": 0,
+    "description": "Girlevel VII - Success!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/3db144e36f59bdb92f05599606b2fcd1bbb6188d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/3af254ca090edabcaa23347378e91cc01597a7f7.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_1_14",
+    "defaultvalue": 0,
+    "displayName": "Itsu, 21 - Start",
+    "hidden": 0,
+    "description": "Girlevel VIII - Start",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/367e2a29719f2b9c30d7ec5a5ac56955e08e66c4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/3af254ca090edabcaa23347378e91cc01597a7f7.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_1_15",
+    "defaultvalue": 0,
+    "displayName": "Itsu, 21 - Success!",
+    "hidden": 0,
+    "description": "Girlevel VIII - Success!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/3c3d6b57129b7004ec271282c24f42d8d3fefc58.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/3af254ca090edabcaa23347378e91cc01597a7f7.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_1_16",
+    "defaultvalue": 0,
+    "displayName": "Phila, 23 - Start",
+    "hidden": 0,
+    "description": "Girlevel IX - Start",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/45ec330091ffe1269f8178b240ae4166bbe77ed0.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/3af254ca090edabcaa23347378e91cc01597a7f7.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_1_17",
+    "defaultvalue": 0,
+    "displayName": "Phila, 23 - Success!",
+    "hidden": 0,
+    "description": "Girlevel IX - Success!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/9939ddce4e489491fa258338609b23e73a3aa26e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/3af254ca090edabcaa23347378e91cc01597a7f7.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_1_18",
+    "defaultvalue": 0,
+    "displayName": "Kenta, 22 - Start",
+    "hidden": 0,
+    "description": "Girlevel X - Start",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/cefe0a59d9b49d8e144497e9620bda3c2c37b812.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/3af254ca090edabcaa23347378e91cc01597a7f7.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_1_19",
+    "defaultvalue": 0,
+    "displayName": "Kenta, 22 - Success!",
+    "hidden": 0,
+    "description": "Girlevel X - Success!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/a2b0c89e9e49ee398143709b1345723ae8bf3480.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/d880ae24c7d31dc952ef280ccf6b5a9791efa704.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_1_20",
+    "defaultvalue": 0,
+    "displayName": "Julia, 23 - Success!",
+    "hidden": 0,
+    "description": "Girlevel I - Success!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/be6794e5fc745f18dc6a769dea03f1371d3cf439.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/f8c3c1a09dd0b6c12de4d50d1187dc6a84a06176.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_1_21",
+    "defaultvalue": 0,
+    "displayName": "Julia, 23 - Success!",
+    "hidden": 0,
+    "description": "Girlevel I - Success!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/42f655a7744212f2b5471369a75816ff169eb8ba.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/e9ad169cb7c226059ad27776ed8dff17cc6cc2f8.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_1_22",
+    "defaultvalue": 0,
+    "displayName": "Julia, 23 - Success!",
+    "hidden": 0,
+    "description": "Girlevel I - Success!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/173f3e1d773745979c6fb661c8007fad2c4bf7bf.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/a690786a9d2881d83d146d1faf811939a298a136.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_1_23",
+    "defaultvalue": 0,
+    "displayName": "Julia, 23 - Success!",
+    "hidden": 0,
+    "description": "Girlevel I - Success!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/c83ddaa35fa39fedff3a8822a4cab9508b84280e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/194f0d6c07aee041ea87555b088a511dcfbbc764.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_1_24",
+    "defaultvalue": 0,
+    "displayName": "Julia, 23 - Success!",
+    "hidden": 0,
+    "description": "Girlevel I - Success!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/a55f0a4eceb3c9c152fd6b438d4f8ca567b2fd8c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/e00409c653ac338b26c229c3d46caffd8e0350d4.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_1_25",
+    "defaultvalue": 0,
+    "displayName": "Julia, 23 - Success!",
+    "hidden": 0,
+    "description": "Girlevel I - Success!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/309405c8ba64048ccb4e0f42a388792fabf241b7.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/1cf88ab2709fb301b22468508830c4b340914d4a.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_1_26",
+    "defaultvalue": 0,
+    "displayName": "Julia, 23 - Success!",
+    "hidden": 0,
+    "description": "Girlevel I - Success!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/9ff911d34d8f2dd6a9d7a43e84582b58ebe54246.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/582c3e74babaa43ba9d4b11f15e16897b7a89825.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_1_27",
+    "defaultvalue": 0,
+    "displayName": "Julia, 23 - Success!",
+    "hidden": 0,
+    "description": "Girlevel I - Success!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/52604f75816feb7e1bd8727fb48c3fb207e27b87.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/80fd152b26f26d95b2bfe5646dc1de6758007bf0.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_1_28",
+    "defaultvalue": 0,
+    "displayName": "Anka, 25 - Success!",
+    "hidden": 0,
+    "description": "Girlevel II - Success!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/79a85db48e9ebe02cff53a511e26450f2be58002.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/6ee123a514c2bbff9e769b7f4854d79a61b72afa.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_1_29",
+    "defaultvalue": 0,
+    "displayName": "Anka, 25 - Success!",
+    "hidden": 0,
+    "description": "Girlevel II - Success!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/47be88df4bfae74f48b601349147a28a645855f9.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/b25311f940bc42dc0da7503e25dad7d94d516c0e.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_1_30",
+    "defaultvalue": 0,
+    "displayName": "Anka, 25 - Success!",
+    "hidden": 0,
+    "description": "Girlevel II - Success!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/707bfd8b966154418fe68bb740a21fccf6299048.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/09910c92ee41d7a566cd450e608a790024d04bd0.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_1_31",
+    "defaultvalue": 0,
+    "displayName": "Anka, 25 - Success!",
+    "hidden": 0,
+    "description": "Girlevel II - Success!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/d357ef2a79ff95d03a7414e7dfb015e7311b670e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/ac4974f6099d07b305abd58b11c802150cc1e189.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_2_0",
+    "defaultvalue": 0,
+    "displayName": "Anka, 25 - Success!",
+    "hidden": 0,
+    "description": "Girlevel II - Success!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/63a52c74195201bedf4e7284ebeeeb64f927383c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/01b70663a13b25403660122549a7c97f487ba51c.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_2_1",
+    "defaultvalue": 0,
+    "displayName": "Anka, 25 - Success!",
+    "hidden": 0,
+    "description": "Girlevel II - Success!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/938021f2c3304ada30314857e92945dfb9ec4f28.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/b926fa1f4b798814087ee7f2a7528667c065ce30.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_2_2",
+    "defaultvalue": 0,
+    "displayName": "Anka, 25 - Success!",
+    "hidden": 0,
+    "description": "Girlevel II - Success!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/b5270be6263cf2e84aa8cba69db7a62a19988ef5.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/09e704d932b5c32a8f0c48a86d55518612eea198.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_2_3",
+    "defaultvalue": 0,
+    "displayName": "Anka, 25 - Success!",
+    "hidden": 0,
+    "description": "Girlevel II - Success!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/9f8e4bc9e930a5632e5d3bbdb0f97405fb660423.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/830e9170801572e2e399eb8ae6dc5eb0a2151fe4.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_2_4",
+    "defaultvalue": 0,
+    "displayName": "Yoko, 21 - Success!",
+    "hidden": 0,
+    "description": "Girlevel III - Success!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/41b7238f085ab528ee41f516cdfa461cd32469cd.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/3ac4e1269a30430208dc21b4041ce3781759202d.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_2_5",
+    "defaultvalue": 0,
+    "displayName": "Yoko, 21 - Success!",
+    "hidden": 0,
+    "description": "Girlevel III - Success!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/eb79e11e086ee212cf67f6104bdcfeffc17b15d1.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/fb14f3cffcb839ef215aae47b5b252b8eb366028.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_2_6",
+    "defaultvalue": 0,
+    "displayName": "Yoko, 21 - Success!",
+    "hidden": 0,
+    "description": "Girlevel III - Success!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/bb9ac95471a50b9af46cf8e5dfa7a5bd1f41e0f2.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/77152eee58ff92298e5931ae84ab2e77005f33f8.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_2_7",
+    "defaultvalue": 0,
+    "displayName": "Yoko, 21 - Success!",
+    "hidden": 0,
+    "description": "Girlevel III - Success!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/6d014b592a706f8a08024f123df544f21ed60248.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/94f268cb040f5ffecb06dba0d4d3b2abdfbd3e3d.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_2_8",
+    "defaultvalue": 0,
+    "displayName": "Yoko, 21 - Success!",
+    "hidden": 0,
+    "description": "Girlevel III - Success!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/942ffd24fe47ebd880569bd20d51a7c8d560a96e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/3591dfe1d6d5166dfac0f42547c098910daa6a60.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_2_9",
+    "defaultvalue": 0,
+    "displayName": "Yoko, 21 - Success!",
+    "hidden": 0,
+    "description": "Girlevel III - Success!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/d023a3823cc8aeb97b8f3893bd0222359f78ec4d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/e240116b8ac1856a2c1314c375c7a6e5f2427386.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_2_10",
+    "defaultvalue": 0,
+    "displayName": "Yoko, 21 - Success!",
+    "hidden": 0,
+    "description": "Girlevel III - Success!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/5a05671ee01ad8767b4ae0a056c2e57b95f16286.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/7d2b640139b814ecaacb75082fa0bf6a25ac150f.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_2_11",
+    "defaultvalue": 0,
+    "displayName": "Yoko, 21 - Success!",
+    "hidden": 0,
+    "description": "Girlevel III - Success!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/c7dd7da7b0b0dbc02ffd60788312c08a1d4a091b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/ec9fd31f8c5a28d521a0c9ea103e0a692ec917bc.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_2_12",
+    "defaultvalue": 0,
+    "displayName": "Nasty, 22 - Success!",
+    "hidden": 0,
+    "description": "Girlevel IV - Success!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/47e685e91c589450a81fa8e46280cb9e28f83bec.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/ba04c00ddb648f1d3b97818150354dd3c790e446.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_2_13",
+    "defaultvalue": 0,
+    "displayName": "Nasty, 22 - Success!",
+    "hidden": 0,
+    "description": "Girlevel IV - Success!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/40ad23358f5ae98229b275f88d62fe45cf88b646.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/168c1802bd8760f0b170052cd958c0a5218680c9.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_2_14",
+    "defaultvalue": 0,
+    "displayName": "Nasty, 22 - Success!",
+    "hidden": 0,
+    "description": "Girlevel IV - Success!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/e57e2a12594e4ba6619b245e159ac820faa0aa1b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/968a3a4cb311072d15005c39bdbe8db85e6ec3cf.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_2_15",
+    "defaultvalue": 0,
+    "displayName": "Nasty, 22 - Success!",
+    "hidden": 0,
+    "description": "Girlevel IV - Success!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/2041d49a1f3ec8ceb70ece94046abe1fce0654a5.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/b12e68a6b89d6a2eaca0107f41be258fa0aba05f.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_2_16",
+    "defaultvalue": 0,
+    "displayName": "Nasty, 22 - Success!",
+    "hidden": 0,
+    "description": "Girlevel IV - Success!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/0cdf3c93cec2bf35b874cbe74fde64fe12b18ca6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/3882db59f50e0acd91598f979e6fcb7c426c201d.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_2_17",
+    "defaultvalue": 0,
+    "displayName": "Nasty, 22 - Success!",
+    "hidden": 0,
+    "description": "Girlevel IV - Success!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/3c46ba1904ccc9a26cb7047db4e5c4eeaa9728ec.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/f7baca8f1aa961483183a1ea0c588c9f8edeab4d.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_2_18",
+    "defaultvalue": 0,
+    "displayName": "Nasty, 22 - Success!",
+    "hidden": 0,
+    "description": "Girlevel IV - Success!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/463dd3174cf282a02a424ef4f68558637b9564df.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/a85deb6ec337d085017ce3278bf11c4ba3afd064.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_2_19",
+    "defaultvalue": 0,
+    "displayName": "Nasty, 22 - Success!",
+    "hidden": 0,
+    "description": "Girlevel IV - Success!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/7923472293ebaaae4c5c6fd6eed4e8a582b96728.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/6d298fa5c578e5dbf1163178340407a6736c8cd2.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_2_20",
+    "defaultvalue": 0,
+    "displayName": "Shina, 24 - Success!",
+    "hidden": 0,
+    "description": "Girlevel V - Success!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/3b91ae2efc39e5430c6c64dbc3f6e8b52ab9dbfb.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/8fd68ee5122820b7e63016089868cd7b1d8a6d7d.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_2_21",
+    "defaultvalue": 0,
+    "displayName": "Shina, 24 - Success!",
+    "hidden": 0,
+    "description": "Girlevel V - Success!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/7900017c2f051bf906149a47c896e782c2f3982b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/4d3224e210698efedd20fac2938f057b9d7a96be.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_2_22",
+    "defaultvalue": 0,
+    "displayName": "Shina, 24 - Success!",
+    "hidden": 0,
+    "description": "Girlevel V - Success!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/5cbf956c864f8b719f0333b0e72544a65bed5b66.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/e39ced4cc8e80de2ad4f8e4f90f93d88a7fde42e.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_2_23",
+    "defaultvalue": 0,
+    "displayName": "Shina, 24 - Success!",
+    "hidden": 0,
+    "description": "Girlevel V - Success!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/5aa7293f7d374eaef1f43edb61cd1dc7c1d5cd0d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/7c5cee8c59bc8012140c7daa9abb5599cfc03a48.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_2_24",
+    "defaultvalue": 0,
+    "displayName": "Shina, 24 - Success!",
+    "hidden": 0,
+    "description": "Girlevel V - Success!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/da6e86b120eaff17662dd0db219684e25222f7fb.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/3552fcb9ff4b1bfb5590ace5d7776aca41251254.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_2_25",
+    "defaultvalue": 0,
+    "displayName": "Shina, 24 - Success!",
+    "hidden": 0,
+    "description": "Girlevel V - Success!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/9f86994d1c015c756a667e8ba66735d3b8a185b4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/e8f31308b124daf4146e03f9dd90bf95a393ebe8.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_2_26",
+    "defaultvalue": 0,
+    "displayName": "Shina, 24 - Success!",
+    "hidden": 0,
+    "description": "Girlevel V - Success!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/8aa80cbafa49869ee546443f13137a4438174dfe.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/501c59775f84256f585e45409701a0da21644980.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_2_27",
+    "defaultvalue": 0,
+    "displayName": "Shina, 24 - Success!",
+    "hidden": 0,
+    "description": "Girlevel V - Success!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/626910d773142e780f3b65ded3a12d4775a1ad32.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/467000fa9cf720739cf0118bfb0a746bde4713fa.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_2_28",
+    "defaultvalue": 0,
+    "displayName": "Tsune, 23 - Success!",
+    "hidden": 0,
+    "description": "Girlevel VI - Success!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/415e339ec5b65864183ee0fb70b82cb4dd89844e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/5009bfdcbcaad9d6f3b00b12f6434e959e6a4cc3.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_2_29",
+    "defaultvalue": 0,
+    "displayName": "Tsune, 23 - Success!",
+    "hidden": 0,
+    "description": "Girlevel VI - Success!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/bc5e8201763cfb3e4c4a3024c15bde6c01842a6a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/3538b9aa8b5f89139295ad6decc53956a68ea10b.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_2_30",
+    "defaultvalue": 0,
+    "displayName": "Tsune, 23 - Success!",
+    "hidden": 0,
+    "description": "Girlevel VI - Success!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/f41a8a247583f5873b31e097e1421ad8791bdd49.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/5ce6f362a477288d2616d7b828b100715ad37207.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_2_31",
+    "defaultvalue": 0,
+    "displayName": "Tsune, 23 - Success!",
+    "hidden": 0,
+    "description": "Girlevel VI - Success!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/757986e80d3aacd00b768b1520a89d0d5597aa36.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/1ef4f27dc5d835c33e74623dc1c62fce3e9e3dce.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_3_1",
+    "defaultvalue": 0,
+    "displayName": "Tsune, 23 - Success!",
+    "hidden": 0,
+    "description": "Girlevel VI - Success!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/d88cc67d94c4f285106b5833ae1bf143193a31db.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/286f5c55f349bd3cc3f8e698e98c7e4f3355ebb5.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_3_2",
+    "defaultvalue": 0,
+    "displayName": "Tsune, 23 - Success!",
+    "hidden": 0,
+    "description": "Girlevel VI - Success!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/356ff9b70965fa39ad8be098041fd05f08f4beeb.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/3897e265eda4a7db5fa61d2b72748ed13059f30e.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_3_3",
+    "defaultvalue": 0,
+    "displayName": "Tsune, 23 - Success!",
+    "hidden": 0,
+    "description": "Girlevel VI - Success!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/a855da1b1c11346399b383b4c77f431dd59f2c78.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/c19eb955c02275142561fe51ba7ea94d05355a15.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_3_4",
+    "defaultvalue": 0,
+    "displayName": "Tsune, 23 - Success!",
+    "hidden": 0,
+    "description": "Girlevel VI - Success!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/e7e75ec1af78119d600ce9d09a9a475018a5686e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/d5ccd9b3af6e8fa3594c3f977d6f7a1e12f6b317.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_3_5",
+    "defaultvalue": 0,
+    "displayName": "Hinata, 24 - Success!",
+    "hidden": 0,
+    "description": "Girlevel VII - Success!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/50408218dee066459b353719212a522143033d1b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/773c570f005855b647a4508929041e6f67281751.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_3_6",
+    "defaultvalue": 0,
+    "displayName": "Hinata, 24 - Success!",
+    "hidden": 0,
+    "description": "Girlevel VII - Success!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/723c0b2911f3dc2eb0cf955679fbd9a4edcb6c6e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/4d69ace985a802a5591e965588f1dadfce6ed442.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_3_7",
+    "defaultvalue": 0,
+    "displayName": "Hinata, 24 - Success!",
+    "hidden": 0,
+    "description": "Girlevel VII - Success!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/0a829a961808d7b1f6f7ffdc5fd6f295b5c36619.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/f54e7b467d8542908689b2f686bcc1dccf621d6c.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_3_8",
+    "defaultvalue": 0,
+    "displayName": "Hinata, 24 - Success!",
+    "hidden": 0,
+    "description": "Girlevel VII - Success!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/5cc5ca804261ee31825aff6fe381e90edf9bf43b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/da2c994f43aa11f6563a78ba6df5ffcc8bc20aaa.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_3_9",
+    "defaultvalue": 0,
+    "displayName": "Hinata, 24 - Success!",
+    "hidden": 0,
+    "description": "Girlevel VII - Success!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/c6cd3e8bb8ace7867323df2c84c970355d443cc6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/37d031c00d414af4fc8a9e2a1745271264c1f04b.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_3_10",
+    "defaultvalue": 0,
+    "displayName": "Hinata, 24 - Success!",
+    "hidden": 0,
+    "description": "Girlevel VII - Success!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/d040c51a6318b70ad19bb78ee7be5064a0744c0a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/eab57a33860796d460d70cdb67b06a94ce151fce.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_3_11",
+    "defaultvalue": 0,
+    "displayName": "Hinata, 24 - Success!",
+    "hidden": 0,
+    "description": "Girlevel VII - Success!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/eca2c66aa8932ce96b1c8248b8a72b315a076444.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/cbd4e5bac6807378495f2eb6618e0bf5b1d6adbe.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_3_12",
+    "defaultvalue": 0,
+    "displayName": "Hinata, 24 - Success!",
+    "hidden": 0,
+    "description": "Girlevel VII - Success!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/bccdb2f453169a01024b62d8ed8b07cea0c2a664.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/58e23c917053d39d36d4988a989cad8a3fde0fc3.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_3_13",
+    "defaultvalue": 0,
+    "displayName": "Itsu, 21 - Success!",
+    "hidden": 0,
+    "description": "Girlevel VIII - Success!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/1d60d3b23c66da2b61144d6a3c9597182068a3fe.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/3d551564e1b676ce4bf59e91c825eb4e30a7faa0.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_3_14",
+    "defaultvalue": 0,
+    "displayName": "Itsu, 21 - Success!",
+    "hidden": 0,
+    "description": "Girlevel VIII - Success!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/88c089e5b91cbd4687a7959ceee1715e8fd1d812.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/e70e5fcedc6a5c9e915f015509d89181fec43b97.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_3_15",
+    "defaultvalue": 0,
+    "displayName": "Itsu, 21 - Success!",
+    "hidden": 0,
+    "description": "Girlevel VIII - Success!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/b343f947ddb874f0dff6766dd451cd0783538fb8.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/098fe4128df5b5c1d4e1c7b34deaf791912c98a6.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_3_16",
+    "defaultvalue": 0,
+    "displayName": "Itsu, 21 - Success!",
+    "hidden": 0,
+    "description": "Girlevel VIII - Success!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/1efb44bf73fd763cc8b772a010eb988e5673de0c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/67b258a083e6d07f7de40b14433734690f2de4eb.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_3_17",
+    "defaultvalue": 0,
+    "displayName": "Itsu, 21 - Success!",
+    "hidden": 0,
+    "description": "Girlevel VIII - Success!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/deaf04515592ac386553b117a3707b2693b8e941.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/34f7739ec4e042d153f03e1b2728ffe6d3a4d422.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_3_18",
+    "defaultvalue": 0,
+    "displayName": "Itsu, 21 - Success!",
+    "hidden": 0,
+    "description": "Girlevel VIII - Success!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/04fe7acf3b63f1ab8fb98d9520a560513ec5d5d3.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/ead74e90df8eece8917ce9691559e1ea8324dc02.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_3_19",
+    "defaultvalue": 0,
+    "displayName": "Itsu, 21 - Success!",
+    "hidden": 0,
+    "description": "Girlevel VIII - Success!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/933c24d181576e49f5819e5e5e524140661a23d8.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/56f83ae246ab9f222d50d1cb38bd41a6ccbe77e8.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_3_20",
+    "defaultvalue": 0,
+    "displayName": "Itsu, 21 - Success!",
+    "hidden": 0,
+    "description": "Girlevel VIII - Success!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/24f50a926b11b5aebb4264f6dc39e2fa56ad3cf0.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/17c2a96f07bbcc2eb7a96d0476a71b091fd6d852.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_3_21",
+    "defaultvalue": 0,
+    "displayName": "Phila, 23 - Success!",
+    "hidden": 0,
+    "description": "Girlevel IX - Success!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/dfe876e81658e70f6bf70935548cae74a9e1340e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/f0d922efd3802faaeb1fb12f989b0bc82281bc03.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_3_22",
+    "defaultvalue": 0,
+    "displayName": "Phila, 23 - Success!",
+    "hidden": 0,
+    "description": "Girlevel IX - Success!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/7134bb47e600455be82d2b9647a444cb21652b6d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/0c7b72e2cc680e0f4dd450d423bcf9f3b82a9a08.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_3_23",
+    "defaultvalue": 0,
+    "displayName": "Phila, 23 - Success!",
+    "hidden": 0,
+    "description": "Girlevel IX - Success!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/78f85ef8b47ee56b76d20028b9ded5d8501e99ad.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/a1b0652e6e948a712a3226f62843eace8174190c.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_3_24",
+    "defaultvalue": 0,
+    "displayName": "Phila, 23 - Success!",
+    "hidden": 0,
+    "description": "Girlevel IX - Success!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/5791992fcd8fd7a33bfb092f5b0f4084ad6cbf88.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/1f33d2ada2cec3780f819d53dfbb3c1d048f38b3.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_3_25",
+    "defaultvalue": 0,
+    "displayName": "Phila, 23 - Success!",
+    "hidden": 0,
+    "description": "Girlevel IX - Success!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/de5a70b232929264b479dcff1aeb0055c0142111.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/08b61333ff2434a8480ee43aba5994afab3453ac.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_3_26",
+    "defaultvalue": 0,
+    "displayName": "Phila, 23 - Success!",
+    "hidden": 0,
+    "description": "Girlevel IX - Success!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/720af8da6f9ad55a612907ced021dffa3d65d69f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/d0499fb90d2e3e31d2e62dd873cf63f03fa4aae5.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_3_27",
+    "defaultvalue": 0,
+    "displayName": "Phila, 23 - Success!",
+    "hidden": 0,
+    "description": "Girlevel IX - Success!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/8accfd7308feb841dcea0783bb938ca7b1d90d8a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/6caeb063cd1fb9a626eea3743cc6d8a1e094c22f.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_3_28",
+    "defaultvalue": 0,
+    "displayName": "Phila, 23 - Success!",
+    "hidden": 0,
+    "description": "Girlevel IX - Success!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/3685bb34cbc6d4341e35942e5aa5acb114d6f0d8.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/1169f6c528bdb510f22b2d360efe548fbff7d1b9.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_3_29",
+    "defaultvalue": 0,
+    "displayName": "Kenta, 22 - Success!",
+    "hidden": 0,
+    "description": "Girlevel X - Success!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/7005a3a7487b8c139a536ec2943b4f5e3f29ee65.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/76ef2671c4a84c96a063c17bac1b787fdd3ba849.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_3_30",
+    "defaultvalue": 0,
+    "displayName": "Kenta, 22 - Success!",
+    "hidden": 0,
+    "description": "Girlevel X - Success!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/b489b9081fc8702842db1d5aa11b644e0418a545.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/dab49adc80b179f4422f1ac7d8b47bb1e9e83f6e.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_3_31",
+    "defaultvalue": 0,
+    "displayName": "Kenta, 22 - Success!",
+    "hidden": 0,
+    "description": "Girlevel X - Success!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/c522ee5129aee8eaec0891b2368e2de83296017e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/9fe37f0d99ac3fb6a26c0eb2081338d311bcf5eb.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_4_0",
+    "defaultvalue": 0,
+    "displayName": "Kenta, 22 - Success!",
+    "hidden": 0,
+    "description": "Girlevel X - Success!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/a56b293f5b54d6546727e98112d1b8a79436fe1d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/27ccdd80c6cd1a3f814270b276aef72747037179.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_4_1",
+    "defaultvalue": 0,
+    "displayName": "Kenta, 22 - Success!",
+    "hidden": 0,
+    "description": "Girlevel X - Success!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/3e356e9dbe35a8bb338f5c0406b19eadc2724104.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/8bb8a1c92694c70091ae85c0c74b71e232265d86.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_4_2",
+    "defaultvalue": 0,
+    "displayName": "Kenta, 22 - Success!",
+    "hidden": 0,
+    "description": "Girlevel X - Success!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/c2ce6c5ab13b0786dd8d993f373097b3c0a9f701.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/1adf3ed7d384b54fd8b94dca3c2debe931968abf.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_4_3",
+    "defaultvalue": 0,
+    "displayName": "Kenta, 22 - Success!",
+    "hidden": 0,
+    "description": "Girlevel X - Success!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/c34b2b58e2af59875a5b7c8bdb3a7509d48626f5.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/54cc69e7244299c1f4a302e97a9437fc55199ea7.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_4_4",
+    "defaultvalue": 0,
+    "displayName": "Kenta, 22 - Success!",
+    "hidden": 0,
+    "description": "Girlevel X - Success!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/b59a0061d245731bfcdb572f5e6d497408a4786b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/919300/2a20862cfa7075ab2371e428a4486b75e2962651.jpg"
+  }
+]

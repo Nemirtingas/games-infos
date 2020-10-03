@@ -1,0 +1,245 @@
+[
+  {
+    "name": "WelcomeToDroneWars",
+    "defaultvalue": 0,
+    "displayName": "Welcome to Drone Wars",
+    "hidden": 0,
+    "description": "Launch the game",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1155580/fcf491cd5912c9331d825b21786336edbed4c791.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1155580/d912ba909ecdb44e8ec1170b77b017fe9520a28e.jpg"
+  },
+  {
+    "name": "Play a deathmatch round",
+    "defaultvalue": 0,
+    "displayName": "Play a deathmatch round",
+    "hidden": 0,
+    "description": "Join a deathmatch server",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1155580/487c36108087b4bc1853d2cabee664e9ea61c98c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1155580/e6a144528f180c8199f58a3d7946ae70ad5e6647.jpg"
+  },
+  {
+    "name": "Play a team deathmatch round",
+    "defaultvalue": 0,
+    "displayName": "Play a team deathmatch round",
+    "hidden": 0,
+    "description": "Join a team deathmatch server",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1155580/e8b1ecdba9e90c9ecf963e3f92ac26ee385610b2.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1155580/e6a144528f180c8199f58a3d7946ae70ad5e6647.jpg"
+  },
+  {
+    "name": "Play an arena round",
+    "defaultvalue": 0,
+    "displayName": "Play an arena round",
+    "hidden": 0,
+    "description": "Join an arena server",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1155580/e0efbdf8da898b1eca8cc3e594106e9a45ff792a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1155580/e6a144528f180c8199f58a3d7946ae70ad5e6647.jpg"
+  },
+  {
+    "name": "Beginner",
+    "defaultvalue": 0,
+    "displayName": "Beginner",
+    "hidden": 0,
+    "description": "Achieve 1000 WP",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1155580/0e3c92368177d1b54ef695d9c2ce69690426c062.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1155580/e6a144528f180c8199f58a3d7946ae70ad5e6647.jpg"
+  },
+  {
+    "name": "Mission completed",
+    "defaultvalue": 0,
+    "displayName": "Mission completed",
+    "hidden": 0,
+    "description": "Get 10 Terminations as a Drone",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1155580/63bf60be4cc82fc3463859b1352e2ceea0ac0f1e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1155580/e6a144528f180c8199f58a3d7946ae70ad5e6647.jpg"
+  },
+  {
+    "name": "Training mode",
+    "defaultvalue": 0,
+    "displayName": "Training mode",
+    "hidden": 0,
+    "description": "Die 10 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1155580/830b5fbb06c2cd1bf566b8c41fec4fe8af8af19c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1155580/e6a144528f180c8199f58a3d7946ae70ad5e6647.jpg"
+  },
+  {
+    "name": "GG",
+    "defaultvalue": 0,
+    "displayName": "GG",
+    "hidden": 0,
+    "description": "Win your first match, by being the player with the most WP",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1155580/9cc6ab7d35c7d36e37d2c689a78684d854907721.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1155580/e6a144528f180c8199f58a3d7946ae70ad5e6647.jpg"
+  },
+  {
+    "name": "Merry Christmas!",
+    "defaultvalue": 0,
+    "displayName": "Merry Christmas!",
+    "hidden": 0,
+    "description": "Play the Christmas version of the game",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1155580/060639ac7c5d5742f45e1e215eb1266b33a14419.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1155580/e6a144528f180c8199f58a3d7946ae70ad5e6647.jpg"
+  },
+  {
+    "name": "Happy Halloween!",
+    "defaultvalue": 0,
+    "displayName": "Happy Halloween!",
+    "hidden": 0,
+    "description": "Play the Halloween version of the game.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1155580/3289e9d1547c86956673b33105c1d58410151d3c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1155580/e6a144528f180c8199f58a3d7946ae70ad5e6647.jpg"
+  },
+  {
+    "name": "Really?",
+    "defaultvalue": 0,
+    "displayName": "Really?",
+    "hidden": 0,
+    "description": "Play the 1. April version of the game",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1155580/6cc0543f33e47b1608bd6a8c92337648d8ee67d0.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1155580/e6a144528f180c8199f58a3d7946ae70ad5e6647.jpg"
+  },
+  {
+    "name": "Experienced AI",
+    "defaultvalue": 0,
+    "displayName": "Experienced AI",
+    "hidden": 0,
+    "description": "Get 100 Player terminations",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1155580/b7d5b2b7490bc59d6a048affca1031b03b6b1209.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1155580/e6a144528f180c8199f58a3d7946ae70ad5e6647.jpg"
+  },
+  {
+    "name": "Evil AI",
+    "defaultvalue": 0,
+    "displayName": "Evil AI",
+    "hidden": 0,
+    "description": "Get 1000 player terminations as a drone",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1155580/88889b5a2f21c4dd61cae51b6b7223b9730dc40f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1155580/e6a144528f180c8199f58a3d7946ae70ad5e6647.jpg"
+  },
+  {
+    "name": "This is fun",
+    "defaultvalue": 0,
+    "displayName": "This is fun!",
+    "hidden": 0,
+    "description": "Win 10 matches, where you are the player with the most WP.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1155580/fa6cdf5cbb7a5e970eb933db2f4f26edbc8d2831.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1155580/e6a144528f180c8199f58a3d7946ae70ad5e6647.jpg"
+  },
+  {
+    "name": "GG EZ",
+    "defaultvalue": 0,
+    "displayName": "GG EZ",
+    "hidden": 0,
+    "description": "Win 100 matches, where you are the player with the most WP.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1155580/4391d3483ea8388606a8c19e3ee56b0970d33325.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1155580/e6a144528f180c8199f58a3d7946ae70ad5e6647.jpg"
+  },
+  {
+    "name": "Deathmatch player",
+    "defaultvalue": 0,
+    "displayName": "Deathmatch player",
+    "hidden": 0,
+    "description": "Win 10 Deathmatch rounds",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1155580/28df1c6ab0b85898534d9f7735d5b582d5225e16.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1155580/e6a144528f180c8199f58a3d7946ae70ad5e6647.jpg"
+  },
+  {
+    "name": "AI Teamwork",
+    "defaultvalue": 0,
+    "displayName": "AI Teamwork",
+    "hidden": 0,
+    "description": "Win 20 team deathmatch rounds",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1155580/029998b1433406619e01ee84fc7e6b4224853549.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1155580/e6a144528f180c8199f58a3d7946ae70ad5e6647.jpg"
+  },
+  {
+    "name": "Arena Player",
+    "defaultvalue": 0,
+    "displayName": "Arena Player",
+    "hidden": 0,
+    "description": "Win 10 Arena matches.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1155580/32286e3ba61ef0f1659590893c39611718ecdb14.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1155580/e6a144528f180c8199f58a3d7946ae70ad5e6647.jpg"
+  },
+  {
+    "name": "Deathmatch Pro",
+    "defaultvalue": 0,
+    "displayName": "Deathmatch Pro!",
+    "hidden": 0,
+    "description": "Win 100 deathmatch rounds.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1155580/28df1c6ab0b85898534d9f7735d5b582d5225e16.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1155580/e6a144528f180c8199f58a3d7946ae70ad5e6647.jpg"
+  },
+  {
+    "name": "Arena Pro",
+    "defaultvalue": 0,
+    "displayName": "Arena Pro!",
+    "hidden": 0,
+    "description": "Win 100 Arena matches.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1155580/04d37b4a82cf228af7dcdd845596c1e92bac06b2.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1155580/e6a144528f180c8199f58a3d7946ae70ad5e6647.jpg"
+  },
+  {
+    "name": "Team deathmatch Pro",
+    "defaultvalue": 0,
+    "displayName": "Team deathmatch Pro!",
+    "hidden": 0,
+    "description": "Win 100 team deathmatch rounds with your team!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1155580/b47c1bd0811e7e3b4923da1288b04ec2651523b5.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1155580/e6a144528f180c8199f58a3d7946ae70ad5e6647.jpg"
+  },
+  {
+    "name": "Well played!",
+    "defaultvalue": 0,
+    "displayName": "Well played!",
+    "hidden": 0,
+    "description": "Get the most WP, in a team deathmatch game, when your team loses.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1155580/7f45b1c43b4691295edb8979270c2cb7392f45c5.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1155580/e6a144528f180c8199f58a3d7946ae70ad5e6647.jpg"
+  },
+  {
+    "name": "Karma!",
+    "defaultvalue": 0,
+    "displayName": "Karma!",
+    "hidden": 0,
+    "description": "Let the train run you over 10 times.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1155580/37ee62e557b0864069f9ddad3c30ad857e6a1326.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1155580/e6a144528f180c8199f58a3d7946ae70ad5e6647.jpg"
+  },
+  {
+    "name": "You like the sound?",
+    "defaultvalue": 0,
+    "displayName": "You like the sound?",
+    "hidden": 0,
+    "description": "break 10 glass panes.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1155580/6e0caf5ca225f4c68b850dcc6c8dd3b2866fa5f5.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1155580/e6a144528f180c8199f58a3d7946ae70ad5e6647.jpg"
+  },
+  {
+    "name": "OOF",
+    "defaultvalue": 0,
+    "displayName": "OOF",
+    "hidden": 0,
+    "description": "Die 1000 times.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1155580/af91a911af17913699b50ba3be08f6d79b4682d9.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1155580/e6a144528f180c8199f58a3d7946ae70ad5e6647.jpg"
+  },
+  {
+    "name": "Happy Easter!",
+    "defaultvalue": 0,
+    "displayName": "Happy Easter!",
+    "hidden": 0,
+    "description": "Play the Easter version of the game.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1155580/4097f6c04af012e48cb19d2b7a8be0a8821474d9.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1155580/e6a144528f180c8199f58a3d7946ae70ad5e6647.jpg"
+  },
+  {
+    "name": "Event",
+    "defaultvalue": 0,
+    "displayName": "Event!",
+    "hidden": 0,
+    "description": "Play an event game mode!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1155580/2783a3bbb4ba20405fa6980c3a99452048f7fe68.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1155580/e6a144528f180c8199f58a3d7946ae70ad5e6647.jpg"
+  }
+]

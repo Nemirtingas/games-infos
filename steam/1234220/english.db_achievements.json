@@ -1,0 +1,411 @@
+[
+  {
+    "name": "ACH_BOT_GAME_PLAYED",
+    "defaultvalue": 0,
+    "displayName": "Bots on a Boat",
+    "hidden": 0,
+    "description": "Host a game with at least one AI player",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1234220/ea0681983983486fb530ceef0828dd9c6263c13e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1234220/361c12df68be94c1960b62fce0d58586423d03e8.jpg"
+  },
+  {
+    "name": "ACH_TEN_DAYS_AT_SEA",
+    "defaultvalue": 0,
+    "displayName": "X Days at Sea",
+    "hidden": 0,
+    "description": "Spend 10 days at sea in one game",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1234220/8530960e15eea052e8591a5211379c44fd848fd1.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1234220/d26790b9d7c221b0c0db50340bb5cc7bd32d3c1a.jpg"
+  },
+  {
+    "name": "ACH_GHOST_CAPTAIN_WIN",
+    "defaultvalue": 0,
+    "displayName": "Release the Kraken!",
+    "hidden": 0,
+    "description": "Reach shore with a ghost captain",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1234220/9389dd8670e0766d308c856a24c70859c845ddda.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1234220/0a51befed6206d352a9e578253f1db8b46cabe2d.jpg"
+  },
+  {
+    "name": "ACH_GHOST_WIN",
+    "defaultvalue": 0,
+    "displayName": "Ghost Ship",
+    "hidden": 0,
+    "description": "Lose all treasure overboard",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1234220/3be46b4c3c284cc065810e76288fb2c57e7ec090.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1234220/40f1516ef26b5364de2f3612d6b68928ce75735e.jpg"
+  },
+  {
+    "name": "ACH_HUMAN_WIN",
+    "defaultvalue": 0,
+    "displayName": "Land Ahoy!",
+    "hidden": 0,
+    "description": "Reach shore with a human captain",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1234220/15dae57ec41f7314b87d2705139098620e873559.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1234220/eb82166f5b419ce5718d8b47eb7431e1a23d084a.jpg"
+  },
+  {
+    "name": "ACH_JOB_FAILURE",
+    "defaultvalue": 0,
+    "displayName": "Here Be Scallywags",
+    "hidden": 0,
+    "description": "Lose in a round by playing mixed jobs",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1234220/7b5d8975cf6a9fa0787f7177b09eeb2c6dda88c8.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1234220/646b0852c9d011e03070980a0a1d42ea1af48a55.jpg"
+  },
+  {
+    "name": "ACH_JOB_SUCCESS",
+    "defaultvalue": 0,
+    "displayName": "All Hands on Deck",
+    "hidden": 0,
+    "description": "Succeed in a round by playing matching jobs",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1234220/2fafe5a0a1a62cf889dd554db467e8bf1ef3d7b1.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1234220/4eb8670e8ab8e1c77b47970d2529cf78d73d4bf0.jpg"
+  },
+  {
+    "name": "ACH_PLAY_ONE_GAME",
+    "defaultvalue": 0,
+    "displayName": "Setting Sail",
+    "hidden": 0,
+    "description": "Play one game",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1234220/a47c1ea03db90b6b29497b0ea2dd564b76e95b55.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1234220/6f2fb9a58668d30cdae00ffcb2a50d4a7734e129.jpg"
+  },
+  {
+    "name": "ACH_PLAY_FIVE_GAMES",
+    "defaultvalue": 0,
+    "displayName": "Landlubber",
+    "hidden": 0,
+    "description": "Play five games",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1234220/085b57297f68a9db04cbd922dfe5e225a90f275d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1234220/9beb78c6c078a1e7688a6c34b9d77bb204747383.jpg"
+  },
+  {
+    "name": "ACH_PLAY_TEN_GAMES",
+    "defaultvalue": 0,
+    "displayName": "Sea Dog",
+    "hidden": 0,
+    "description": "Play ten games",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1234220/40c9459d754eb84f91177491b1a7f926e69d58f8.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1234220/8612acceafb2efe702da8b1451621b923707dee1.jpg"
+  },
+  {
+    "name": "ACH_PLAY_FULL_PLAYERS",
+    "defaultvalue": 0,
+    "displayName": "Party Pirates!",
+    "hidden": 0,
+    "description": "Host a game with 8 or more players",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1234220/09524bc18a5460228bd8499131d5ea3a5ef689a6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1234220/3e14749a6fc16063adf94849130cf50e24cbcc70.jpg"
+  },
+  {
+    "name": "ACH_BLACKBEARD",
+    "defaultvalue": 0,
+    "displayName": "Queen Anne's Revenge",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1234220/4bf853a5664a299f199a623cf164717ab764ca92.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1234220/465749030305c41924860c6b6b7e155eaa3aade8.jpg"
+  },
+  {
+    "name": "ACH_QUAD_PEG",
+    "defaultvalue": 0,
+    "displayName": "Shiver Me 4-Timbers!",
+    "hidden": 0,
+    "description": "Join a game as a pirate with double peg-legs and double peg-arms",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1234220/7bfe81fdc6dfc058f05cfe72cc20abae9c1283c9.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1234220/fc4b55a39b5fc151c942146194231fc552f01c4e.jpg"
+  },
+  {
+    "name": "ACH_SPY",
+    "defaultvalue": 0,
+    "displayName": "Crow's Nest",
+    "hidden": 0,
+    "description": "Spy on another player",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1234220/e9c382152507f5273c711ddfa7d0cb477ca27a65.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1234220/a80d8ebfdf467f5144a5d6d0fdd1c44f4a2c1986.jpg"
+  },
+  {
+    "name": "ACH_ANY_PLAYER_OVERBOARD",
+    "defaultvalue": 0,
+    "displayName": "Dead in the Water",
+    "hidden": 0,
+    "description": "Vote a player overboard",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1234220/69f09ea25775ebe05b05980c1a06f66035b70fc9.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1234220/17a4a0eaef2a2d9e2d414889774f2beaff87f2a6.jpg"
+  },
+  {
+    "name": "ACH_STOWAWAY_OVERBOARD",
+    "defaultvalue": 0,
+    "displayName": "No Freeloaders",
+    "hidden": 0,
+    "description": "Throw the stowaway overboard",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1234220/09d382b021756777ada7498ca00c74b76003b0e9.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1234220/b18e89fc60a029b8fecc3a8a29e254b176f38445.jpg"
+  },
+  {
+    "name": "ACH_MUTINY",
+    "defaultvalue": 0,
+    "displayName": "Mutiny!",
+    "hidden": 0,
+    "description": "Throw the captain overboard",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1234220/2f3647e9460d688260d78f85448e26237b346f46.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1234220/32a473559ed61adad74e1a243aa3639e3c5c0d76.jpg"
+  },
+  {
+    "name": "ACH_CAPTAIN_VOTE_STOWAWAY",
+    "defaultvalue": 0,
+    "displayName": "Walk the Plank",
+    "hidden": 0,
+    "description": "Move closer to shore by having the captain and second-in-command agree to throw the stowaway overboard",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1234220/c141461befa7e4ddd4d3499857761503d0cbf7dd.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1234220/1af5090ff17a50514ec9e4b2a982bbe2ae2cdf5d.jpg"
+  },
+  {
+    "name": "ACH_CENSUS",
+    "defaultvalue": 0,
+    "displayName": "Clear Sailing",
+    "hidden": 0,
+    "description": "Perform a census to reveal no ghosts on board",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1234220/738d81c10b1c722ead526a9aa696f4848fa7b035.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1234220/1c083ad31589c1b65b1d21ef64dcf7b4a6fd55f1.jpg"
+  },
+  {
+    "name": "ACH_EXORCISE",
+    "defaultvalue": 0,
+    "displayName": "Exorcism at Sea",
+    "hidden": 0,
+    "description": "Exorcise a player",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1234220/426b8c7dce978c5e0707dbbfa0fd27530246238e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1234220/61676a7d707ef877ec8904fe6e148e7c62c7056d.jpg"
+  },
+  {
+    "name": "ACH_BOTTLED_MESSAGE",
+    "defaultvalue": 0,
+    "displayName": "A Message from the Sea",
+    "hidden": 0,
+    "description": "Recieve a message in a bottle",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1234220/e5cd52901f193ba10a844364748d0cd85996c746.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1234220/2ee7a0b05a4138ad8e7557920a2af74fff083783.jpg"
+  },
+  {
+    "name": "ACH_REFUSE_VOTE",
+    "defaultvalue": 0,
+    "displayName": "Deadlock",
+    "hidden": 0,
+    "description": "Complete a round of voting with no votes cast",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1234220/5be011a07c79e935a94c1aafc45b36e2abecfa03.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1234220/86779b595f09ce0076b7e614ae56ab7b97905df1.jpg"
+  },
+  {
+    "name": "ACH_REFUSE_ALL_VOTING",
+    "defaultvalue": 0,
+    "displayName": "Ocean Pacifists",
+    "hidden": 0,
+    "description": "Play a game without voting anyone overboard",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1234220/3dd9b97205fe1f3a6045a34c9bedb7def00dc73c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1234220/e40e0e852d6c8385f1ba0ef84f48648804e67f89.jpg"
+  },
+  {
+    "name": "ACH_HATED_PLAYER",
+    "defaultvalue": 0,
+    "displayName": "Pieces of Hate",
+    "hidden": 0,
+    "description": "Become a fifth generation pirate",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1234220/dcd5c01f95f9123417b02cdc73ba236d2026cf06.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1234220/dc5f05ddba521e437120dc2cc4ca281dbcb90670.jpg"
+  },
+  {
+    "name": "ACH_LOVED_CAPTAIN",
+    "defaultvalue": 0,
+    "displayName": "Sworn Loyalty",
+    "hidden": 0,
+    "description": "Play a game without demoting the captain",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1234220/58c5e320dd26fbf7374d2a1e5e7e6a2700285795.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1234220/6dd6366db2fdd876f910b18107677de36fa2d4e2.jpg"
+  },
+  {
+    "name": "ACH_MOVE_NO_DISTANCE",
+    "defaultvalue": 0,
+    "displayName": "Treading Water",
+    "hidden": 0,
+    "description": "Play a game without moving closer to shore",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1234220/6eb21e26ea4d8f0a5008be0f696c311f84a0824a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1234220/ac12650b8fd2ed7252e9f9c7fa78fb012e93cbd4.jpg"
+  },
+  {
+    "name": "ACH_LOSE_NO_TREASURE",
+    "defaultvalue": 0,
+    "displayName": "Greedy for Gold",
+    "hidden": 0,
+    "description": "Play a game without losing any treasure",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1234220/27977b8f895131e2b9c32607f7b81fe951a3ef68.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1234220/95bacdde5987f8c633172b9a220e6f36abee6ad5.jpg"
+  },
+  {
+    "name": "ACH_LONG_JOHN",
+    "defaultvalue": 0,
+    "displayName": "Treasure Island Cooking",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1234220/22e9934eb5ffe44cb39e91894f61557674a675ca.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1234220/4526c2d46fdb058b4feabe1049fe4686a22325ae.jpg"
+  },
+  {
+    "name": "ACH_REPEAT_ACTION",
+    "defaultvalue": 0,
+    "displayName": "Captain's Orders",
+    "hidden": 0,
+    "description": "Perform the same job three times in a row",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1234220/33fa192977ffc3fc5762946c07450dc9382676d0.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1234220/3f9ef9a092153f8666b4911117fcb5f6d2c09609.jpg"
+  },
+  {
+    "name": "ACH_PLAY_FIFTY_GAMES",
+    "defaultvalue": 0,
+    "displayName": "A Pirate's Life for Me!",
+    "hidden": 0,
+    "description": "Play fifty games",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1234220/ceeab31d67c1b9014ba86a6ed7b554454ac36eef.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1234220/f8e9369aaa0c89e48a420da9b4b68e0876cc52c0.jpg"
+  },
+  {
+    "name": "ACH_NEW_GAME_PLUS",
+    "defaultvalue": 0,
+    "displayName": "You’re on Your Own Boat Now",
+    "hidden": 0,
+    "description": "Play a custom game",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1234220/0ae5cf3de79260b8bb09913c48a485e5e1d42f59.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1234220/f9c6a4d7244f4b5718883c9eb98121b05d0f87a0.jpg"
+  },
+  {
+    "name": "ACH_MATCH_FAILURES",
+    "defaultvalue": 0,
+    "displayName": "Hands of Fate",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1234220/76531076f90d217f53059de2a78990c80c7d27eb.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1234220/859d5efc97b4488a5c593692a1f3ad6352dd6301.jpg"
+  },
+  {
+    "name": "ACH_ORIGINAL_GHOST",
+    "defaultvalue": 0,
+    "displayName": "The O.G.",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1234220/cbd6a67d1eccbc60664f6d639bd7f0df25001ad0.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1234220/bc6cf9df70a845d6ec8f17d4833fc4a6077983b3.jpg"
+  },
+  {
+    "name": "ACH_LOSE_TREASURE_NO_GHOSTS",
+    "defaultvalue": 0,
+    "displayName": "Shipwrecked",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1234220/4a6b65605b17310ead4846ae40822ec968741e16.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1234220/1848e99490a5a132e26314a9dce1648d55c8729b.jpg"
+  },
+  {
+    "name": "ACH_CAPTAIN_SWAP_TEAM",
+    "defaultvalue": 0,
+    "displayName": "The Ol' Switcheroo",
+    "hidden": 0,
+    "description": "Witness the captain's team switch during the prince and the pauper event",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1234220/b59131367742764d15b8237a952c8634cf177456.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1234220/883d040dba3a389eed0b5b6e7621cf1db1639732.jpg"
+  },
+  {
+    "name": "ACH_ELECTION",
+    "defaultvalue": 0,
+    "displayName": "Dictatorship",
+    "hidden": 0,
+    "description": "Re-elect the current captain during an election",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1234220/3c90eb0f556a529e5f477a1ef227f55e761dad2a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1234220/dcb91ce8fd99f65abb1b4b954e23263dacf2c46d.jpg"
+  },
+  {
+    "name": "ACH_EVIL_CHEF",
+    "defaultvalue": 0,
+    "displayName": "Just Desserts",
+    "hidden": 0,
+    "description": "Poison the soup of a player that voted for you in the previous round",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1234220/c23841cc4a5718695a8c4c808debc0c222debd5e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1234220/446117850f88b0c459c938a0fa1c088eb2bc52f9.jpg"
+  },
+  {
+    "name": "ACH_SURGERY",
+    "defaultvalue": 0,
+    "displayName": "Steady Hand",
+    "hidden": 0,
+    "description": "Perform a successful operation on a crewmate",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1234220/083da3ade59dab6f0fa42162a390b3f610a63143.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1234220/bd2cc5edc4876ced8fad86b1f5f7a060b985f017.jpg"
+  },
+  {
+    "name": "ACH_PLAY_SCORED_GAME",
+    "defaultvalue": 0,
+    "displayName": "Getting Competitive",
+    "hidden": 0,
+    "description": "Play a Scored Game",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1234220/e68f2b1c6a1b7650ef02fe9dffa0ef231e9dc5cd.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1234220/32ed14fbdf3672dd3e81dc35249d54e86805120c.jpg"
+  },
+  {
+    "name": "ACH_ZERO_SCORE",
+    "defaultvalue": 0,
+    "displayName": "Bankruptcy",
+    "hidden": 0,
+    "description": "Acheive a score of 0 in a Scored Game",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1234220/76272950249acbc2340ed01da74521dc197c3ab0.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1234220/407762d8e68bf60ebdc1f71819cdc1c83ec5efe4.jpg"
+  },
+  {
+    "name": "ACH_HIGHSCORE",
+    "defaultvalue": 0,
+    "displayName": "Rich as Croesus",
+    "hidden": 0,
+    "description": "Achieve a score of 200 or higher in a Scored Game",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1234220/a7e710a468c1abe127b9e9e18e65a0b8f724fd32.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1234220/d31abe7b8a425a6668647811c0d81470cdaffb6e.jpg"
+  },
+  {
+    "name": "ACH_CHEATING_DEATH",
+    "defaultvalue": 0,
+    "displayName": "Cheating Death",
+    "hidden": 0,
+    "description": "Travel back in time and prevent the death of a crew member",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1234220/f5fae47241d0bf9b8e217dcd69ceb27e19c2f4d4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1234220/be2c33a860c3a17f12e84b94eb83e3f846d31544.jpg"
+  },
+  {
+    "name": "ACH_BUTTERFLY_EFFECT",
+    "defaultvalue": 0,
+    "displayName": "Butterfly Effect",
+    "hidden": 0,
+    "description": "Change the course of history by forcing a different event to happen while time travelling",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1234220/1769e7547d3f283e71f093339d9eef11964ea12d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1234220/338238572a898101571c67cf1903379aa5999cd9.jpg"
+  },
+  {
+    "name": "ACH_STOWAWAY_WIN",
+    "defaultvalue": 0,
+    "displayName": "Stealing from the Rich",
+    "hidden": 0,
+    "description": "Win a Scored Game as the Stowaway",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1234220/b3d9b6f39c665826f68bfdd66f34839f5786cf93.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1234220/3e8b92b7c6f2d4d6bcd7e6a1ad5d57668fd3c876.jpg"
+  },
+  {
+    "name": "ACH_KEEP_POTATO",
+    "defaultvalue": 0,
+    "displayName": "Selfish Eater",
+    "hidden": 0,
+    "description": "Don't share the hot potato during the Hot Potato event",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1234220/563cc58d0bf6ebc67bcba321c46e78640a5256a5.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1234220/a3c36c0c65c9e67d3219e1a75d6a08b6f57a66e2.jpg"
+  },
+  {
+    "name": "ACH_BEES",
+    "defaultvalue": 0,
+    "displayName": "Melissophobia",
+    "hidden": 0,
+    "description": "The entire crew fails to hide from the wasps during the Wasp Nest event",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1234220/f9bf657b9af81a17226c567435df22845bd5d885.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1234220/d19bec81962b1aa3021d10e0dd96a8d3bb2b6169.jpg"
+  }
+]

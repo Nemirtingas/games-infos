@@ -1,0 +1,263 @@
+[
+  {
+    "name": "welcome",
+    "defaultvalue": 0,
+    "displayName": "Welcome",
+    "hidden": 0,
+    "description": "Welcome to imprint-X. You pressed a button!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/434310/704119e12c34270bbc152a5f2e85fc5ea5256bd0.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/434310/95b35538bcb65ec3a6d52a6a0efc34c5a5597867.jpg"
+  },
+  {
+    "name": "world1",
+    "defaultvalue": 0,
+    "displayName": "World 1",
+    "hidden": 0,
+    "description": "Completed world 1",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/434310/d159cb0fcfb61092ca2a54eaa4ddd084e845ed43.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/434310/835a477f7b3cb7b9bc69fa8b450997a2825b6273.jpg"
+  },
+  {
+    "name": "world2",
+    "defaultvalue": 0,
+    "displayName": "World 2",
+    "hidden": 0,
+    "description": "Completed world 2",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/434310/3763a79bada549e562f76ea0f444725d93f5b84a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/434310/bd4dd26ddf1d78f6628bc5e80c8f765ee3a8a5f7.jpg"
+  },
+  {
+    "name": "world3",
+    "defaultvalue": 0,
+    "displayName": "World 3",
+    "hidden": 0,
+    "description": "Completed world 3",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/434310/6b35bc763163fe79b2a39f66ef7da330baecaca9.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/434310/64370d872e3b665daf498aca176006614c47da3b.jpg"
+  },
+  {
+    "name": "world4",
+    "defaultvalue": 0,
+    "displayName": "World 4",
+    "hidden": 0,
+    "description": "Completed world 4",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/434310/fecadbef0fa1a6e85146883b4e9f4b7184c263e6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/434310/1d0351cd08a15e0bb8099c3143be25099af3c3e9.jpg"
+  },
+  {
+    "name": "queen_random",
+    "defaultvalue": 0,
+    "displayName": "Queen of Random",
+    "hidden": 0,
+    "description": "Defeat the randomized super boss",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/434310/0fd7932fc4b514daa6a1c9669adef98e67d18381.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/434310/028390edab3d7f9d44d0e5984674d8e7b34bbae3.jpg"
+  },
+  {
+    "name": "world6",
+    "defaultvalue": 0,
+    "displayName": "World 6",
+    "hidden": 0,
+    "description": "Completed world 6",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/434310/27659aee461401398052203791248699c1c871cc.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/434310/9112fab5b2a8884b927fdb4f96e38f2a9ade41ec.jpg"
+  },
+  {
+    "name": "random_cheater",
+    "defaultvalue": 0,
+    "displayName": "Random Cheater",
+    "hidden": 0,
+    "description": "Skip the last step on the randomized super boss",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/434310/f3378d03ebf1fe3268b1c150fefd4b7bda29e5cc.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/434310/88fdd935b05991bb0636aae5997e1b7bb30d8049.jpg"
+  },
+  {
+    "name": "clone_hero",
+    "defaultvalue": 0,
+    "displayName": "Clone Hero",
+    "hidden": 0,
+    "description": "Beat the first 6 worlds",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/434310/3442097e8b29a394d46eac4862c9b32854d5e6f1.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/434310/5b64487724685605409504263d43978777fae155.jpg"
+  },
+  {
+    "name": "singularity",
+    "defaultvalue": 0,
+    "displayName": "Towards Singularity",
+    "hidden": 0,
+    "description": "Perfect all the first 6 worlds",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/434310/292df2a3d9554390090babfb413f9c5afbbb2970.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/434310/6c7f43e49bfff3a49d272355235d3f13f14f6ce6.jpg"
+  },
+  {
+    "name": "wizard",
+    "defaultvalue": 0,
+    "displayName": "Electrical Wizard",
+    "hidden": 0,
+    "description": "Beat a level with only 1 move left",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/434310/c6a3167ce98b54ab1ad01c1c4c32d5a7fe21079e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/434310/6c7f43e49bfff3a49d272355235d3f13f14f6ce6.jpg"
+  },
+  {
+    "name": "world1_perfect",
+    "defaultvalue": 0,
+    "displayName": "World 1 - Perfect",
+    "hidden": 0,
+    "description": "Perfect world 1",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/434310/0557b9e5a65f88f6c0e6f27f03891a4465967abf.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/434310/7c61a3d7cb912fbbd72423eba12b109d52de2d94.jpg"
+  },
+  {
+    "name": "world2_perfect",
+    "defaultvalue": 0,
+    "displayName": "World 2 - Perfect",
+    "hidden": 0,
+    "description": "Perfect world 2",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/434310/01b4b8a8fde0faa3eec7459ca73a1ac95d037cbc.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/434310/5128df2f226f0997112761d93a8acc5d5dc65ace.jpg"
+  },
+  {
+    "name": "world3_perfect",
+    "defaultvalue": 0,
+    "displayName": "World 3 - Perfect",
+    "hidden": 0,
+    "description": "Perfect world 3",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/434310/a214ba671c09e4cf5dfe4f92b65c2b864a8af01a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/434310/4bce86acc36bcb6d22e4d97d9d544b83fe494151.jpg"
+  },
+  {
+    "name": "world4_perfect",
+    "defaultvalue": 0,
+    "displayName": "World 4 - Perfect",
+    "hidden": 0,
+    "description": "Perfect world 4",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/434310/7abd972c5864aba8a8ce68055631508d342011e0.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/434310/74f01afcd598240a44671355c73a13b438d052d7.jpg"
+  },
+  {
+    "name": "world6_perfect",
+    "defaultvalue": 0,
+    "displayName": "World 6 - Perfect",
+    "hidden": 0,
+    "description": "Perfect world 6",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/434310/574a7b2185a35287f533e747e90c499aaafeda9e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/434310/8777cb0b29f1cf4928f2e0cf8df2ac6a75e0ed86.jpg"
+  },
+  {
+    "name": "function_10",
+    "defaultvalue": 0,
+    "displayName": "10 Function Calls",
+    "hidden": 0,
+    "description": "Pressed 10 buttons",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/434310/83512bb658886d7c28c6d708b1aae6fc0c74c927.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/434310/38960b380de1c5e2972dd0681f1a1ffb128664c0.jpg"
+  },
+  {
+    "name": "function_25",
+    "defaultvalue": 0,
+    "displayName": "25 Function Calls",
+    "hidden": 0,
+    "description": "Pressed 25 buttons",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/434310/d2be8b6ca2b01452ef60c1889360f8b2d7fc84aa.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/434310/4a33c5bd97b65735459988e9b6af8dc26b845111.jpg"
+  },
+  {
+    "name": "function_50",
+    "defaultvalue": 0,
+    "displayName": "50 Function Calls",
+    "hidden": 0,
+    "description": "Pressed 50 buttons",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/434310/57d13ef9bb111c58c1b0011241667b89222b0956.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/434310/5e09f427c5ec21d6915b0e68a3f5f19c8e432906.jpg"
+  },
+  {
+    "name": "function_100",
+    "defaultvalue": 0,
+    "displayName": "100 Function Calls",
+    "hidden": 0,
+    "description": "Pressed 100 buttons",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/434310/9c096ecd120023488b6c9732edc0a455c2fee6b5.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/434310/6bb9c546a77a5836e261f9b523a5ea838422f858.jpg"
+  },
+  {
+    "name": "function_1000",
+    "defaultvalue": 0,
+    "displayName": "1000 Function Calls",
+    "hidden": 0,
+    "description": "Pressed 1000 buttons",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/434310/c7f19f352e715268a44bee69f4872d566650e426.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/434310/6f0cca4239ee2e8658c0675b27f992c4fc0a0d9a.jpg"
+  },
+  {
+    "name": "warden_10",
+    "defaultvalue": 0,
+    "displayName": "10 Wardens",
+    "hidden": 0,
+    "description": "Beat 10 levels",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/434310/fa86fc6b6fdbbec7b2f830c0c657b029b47b0a82.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/434310/56f82d54d8360556dc2b370940f4893086a1ce17.jpg"
+  },
+  {
+    "name": "warden_20",
+    "defaultvalue": 0,
+    "displayName": "20 Wardens",
+    "hidden": 0,
+    "description": "Beat 20 levels",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/434310/d73959ca59134ee94032c387d6b5d4550fbc6296.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/434310/3ad1fc94e9d5a3c354310953cff4e1dd8f2b3e6a.jpg"
+  },
+  {
+    "name": "warden_50",
+    "defaultvalue": 0,
+    "displayName": "50 Wardens",
+    "hidden": 0,
+    "description": "Beat 50 levels",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/434310/d77d64e4e3eb688569c184d170ed33bed0f11142.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/434310/ee8f489bcf5c191e0b9b3bf2571621d8270a6aaf.jpg"
+  },
+  {
+    "name": "warden_100",
+    "defaultvalue": 0,
+    "displayName": "100 Wardens",
+    "hidden": 0,
+    "description": "Beat 100 levels",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/434310/166ccf95d311f468cf68ecde583a7edc360eb14a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/434310/bc441b63c160cd1eb08e9a934c30f1b4f48880cb.jpg"
+  },
+  {
+    "name": "function_250",
+    "defaultvalue": 0,
+    "displayName": "250 Function Calls",
+    "hidden": 0,
+    "description": "Pressed 250 buttons",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/434310/923899d9149a5d5697ab13aa61848f7ce718f32b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/434310/e19acf99c91acfdb8a8f03594c618d5f063f110c.jpg"
+  },
+  {
+    "name": "function_500",
+    "defaultvalue": 0,
+    "displayName": "500 Function Calls",
+    "hidden": 0,
+    "description": "Pressed 500 buttons",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/434310/b9fb00cd164381ad5f1d297475d966c6f6d954cc.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/434310/a3f5b91e0b714fd1fa6feca029545652bb46dbc2.jpg"
+  },
+  {
+    "name": "function_800",
+    "defaultvalue": 0,
+    "displayName": "800 Function Calls",
+    "hidden": 0,
+    "description": "Pressed 800 buttons",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/434310/36b2529decdeb0b3aea867170712552ac6a1e9f5.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/434310/c3b20c0b8bcdb64a2b01460916b208e991d8dc2f.jpg"
+  },
+  {
+    "name": "function_2500",
+    "defaultvalue": 0,
+    "displayName": "2500 Function Calls",
+    "hidden": 0,
+    "description": "Pressed 2500 buttons",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/434310/09de538d85335aa619d5f624029132519cbc1f20.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/434310/7ff678d8b7d399d2491004319464cb4a984c9d68.jpg"
+  }
+]

@@ -1,0 +1,434 @@
+[
+  {
+    "name": "PROLOGUE",
+    "defaultvalue": 0,
+    "displayName": "Prologue",
+    "hidden": 0,
+    "description": "Complete the prologue",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1041660/2a112b4dbe4ec87c2e2c2c15adb5f004bbc00803.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1041660/bf7029157b8f882de91d3dab0b0f2ccb5251ca4d.jpg"
+  },
+  {
+    "name": "CHAPTER1",
+    "defaultvalue": 0,
+    "displayName": "Chapter 1",
+    "hidden": 0,
+    "description": "Complete Chapter 1",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1041660/c5eb27002da17cdc0dd84922ea2d8a483c5c317d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1041660/cc098ccce7a0a9835f0f4887b935dd21d97c57db.jpg"
+  },
+  {
+    "name": "CHAPTER2",
+    "defaultvalue": 0,
+    "displayName": "Chapter 2",
+    "hidden": 0,
+    "description": "Complete Chapter 2",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1041660/a4471812b4846844cdfa0f134c50823300dedf6d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1041660/83cb93bdb6053e911ee42d6a6ca8d8aeac85050c.jpg"
+  },
+  {
+    "name": "CHAPTER3",
+    "defaultvalue": 0,
+    "displayName": "Chapter 3",
+    "hidden": 0,
+    "description": "Complete Chapter 3",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1041660/5091a04cdf6d2d71bb52dd4d5e227d483ac9e8b5.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1041660/d95fb6acccbe386b881d5cc87eb1b288f85481d9.jpg"
+  },
+  {
+    "name": "CHAPTER4",
+    "defaultvalue": 0,
+    "displayName": "Chapter 4",
+    "hidden": 0,
+    "description": "Complete Chapter 4",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1041660/29f94dbe833c76f2c234b0f36813357c3c6f913f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1041660/c3e89b02c67bf91b4b081a0b755da8dc4ddb7a8b.jpg"
+  },
+  {
+    "name": "CHAPTER5",
+    "defaultvalue": 0,
+    "displayName": "Chapter 5",
+    "hidden": 0,
+    "description": "Complete Chapter 5",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1041660/9be72a8f3559daf22a26228fcedd5f79fadbc81a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1041660/9060f3292cc500b85f098fcaa12bcb23cd88a86c.jpg"
+  },
+  {
+    "name": "CHAPTER6",
+    "defaultvalue": 0,
+    "displayName": "Chapter 6",
+    "hidden": 0,
+    "description": "Complete Chapter 6",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1041660/e7d6bb115a2d93f15959432f7f1970d9499607cb.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1041660/0298c809e67f0dbaba10e11d26cb1cc1e1def50c.jpg"
+  },
+  {
+    "name": "CHAPTER7",
+    "defaultvalue": 0,
+    "displayName": "Chapter 7",
+    "hidden": 0,
+    "description": "Complete Chapter 7",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1041660/57c45731543bb010617f9e2b3d7b4f19ef3cbf09.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1041660/86d9d6c7d214a72a35ebc9ab2b74289844872928.jpg"
+  },
+  {
+    "name": "CHAPTER8",
+    "defaultvalue": 0,
+    "displayName": "Chapter 8",
+    "hidden": 0,
+    "description": "Complete Chapter 8",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1041660/f55014f5de2c9077b969fb8cc8f8579f11ffdcbe.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1041660/ee4747b53339ea050658ab126e9475ff4b3101e8.jpg"
+  },
+  {
+    "name": "CHAPTER9",
+    "defaultvalue": 0,
+    "displayName": "Chapter 9",
+    "hidden": 0,
+    "description": "Complete Chapter 9",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1041660/4cdd7682ee04207039d28ef81ff5e9abedb4ba32.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1041660/9bf2f3b35b82d65e93b64e52f6993121959f7aa7.jpg"
+  },
+  {
+    "name": "CHAPTER10",
+    "defaultvalue": 0,
+    "displayName": "Chapter 10",
+    "hidden": 0,
+    "description": "Complete Chapter 10",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1041660/8f78cb125f3e1e7347c1625dbf482dc2916b1934.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1041660/2804c012b37e147cf250ac70029f17e810461a51.jpg"
+  },
+  {
+    "name": "CHAPTER11A",
+    "defaultvalue": 0,
+    "displayName": "Chapter 11 - Part 1",
+    "hidden": 0,
+    "description": "Complete Part 1 of Chapter 11",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1041660/a9f67da9885200999ea7135b0dfd90eff825a3ed.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1041660/af13e3e70011e6e50c6e608105fafe5ef31fa409.jpg"
+  },
+  {
+    "name": "CHAPTER11B",
+    "defaultvalue": 0,
+    "displayName": "Chapter 11 - Part 2",
+    "hidden": 0,
+    "description": "Complete Part 2 of Chapter 11",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1041660/826532d94900a3b09da7a735a77c569b8b08c4f5.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1041660/66102304a355ed43d151e7750919f2b2db8fffc2.jpg"
+  },
+  {
+    "name": "CHAPTER12",
+    "defaultvalue": 0,
+    "displayName": "Chapter 12",
+    "hidden": 0,
+    "description": "Complete Chapter 12",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1041660/a0749d5ed7623004c6f950b8324c757dac402d7d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1041660/4cbe24bab48a102769530d5eddf1c82946065dce.jpg"
+  },
+  {
+    "name": "CHAPTER13",
+    "defaultvalue": 0,
+    "displayName": "Chapter 13",
+    "hidden": 0,
+    "description": "Complete Chapter 13",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1041660/a732d8e00883cc1c49ea9c79fefb7a5707cb1688.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1041660/44567520699d22964a01ebcaf1bfc6116757e03c.jpg"
+  },
+  {
+    "name": "CHAPTER14",
+    "defaultvalue": 0,
+    "displayName": "Chapter 14",
+    "hidden": 0,
+    "description": "Complete Chapter 14",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1041660/4e91be496c688bd38063b7498e88103ff551cd0e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1041660/6298d7009790920b10a395be3f765f2b734904ae.jpg"
+  },
+  {
+    "name": "CHAPTER15",
+    "defaultvalue": 0,
+    "displayName": "Chapter 15",
+    "hidden": 0,
+    "description": "Complete Chapter 15",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1041660/cf08b2fbb0cc6ec348919eadb63dd37a095753a4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1041660/0851ded282e8bde616cb67def1c84ff73c23ca3c.jpg"
+  },
+  {
+    "name": "CHAPTER16",
+    "defaultvalue": 0,
+    "displayName": "Chapter 16",
+    "hidden": 0,
+    "description": "Complete Chapter 16",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1041660/401061d8f6dbb5bba268a32791f9c0fbb63ded32.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1041660/fd21d8ef98a5ce130a749218c16d88b364469f39.jpg"
+  },
+  {
+    "name": "CHAPTER17A",
+    "defaultvalue": 0,
+    "displayName": "Chapter 17 - Part 1",
+    "hidden": 0,
+    "description": "Complete Part 1 of Chapter 17",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1041660/8548b9c555f611675c2e93353f07884e011a3dc8.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1041660/0706bbbf2c73fe70c5cb621e491215740b421e18.jpg"
+  },
+  {
+    "name": "CHAPTER17B",
+    "defaultvalue": 0,
+    "displayName": "Chapter 17 - Part 2",
+    "hidden": 0,
+    "description": "Complete Part 2 of Chapter 17",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1041660/ec8b9a66cdf0a49cf7b2cc701e25336dc47f3a29.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1041660/4e004ad4160fa5bb14c0d86555cebe14c8ed0662.jpg"
+  },
+  {
+    "name": "CHAPTER18",
+    "defaultvalue": 0,
+    "displayName": "Chapter 18",
+    "hidden": 0,
+    "description": "Complete Chapter 18",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1041660/8ff2c414242ba9bcb0c20fbecdcdac2260c52695.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1041660/c9017da363866257fa64f6a398be829842822cd9.jpg"
+  },
+  {
+    "name": "CHAPTER19",
+    "defaultvalue": 0,
+    "displayName": "Chapter 19",
+    "hidden": 0,
+    "description": "Complete Chapter 19",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1041660/99e5c4a6bf0d32356255cc1b098d5b09c3e8df15.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1041660/8b150f17480ddbd6a3a3a6288c1a0c57c4a8abec.jpg"
+  },
+  {
+    "name": "CHAPTER20A",
+    "defaultvalue": 0,
+    "displayName": "Chapter 20 - Part 1",
+    "hidden": 0,
+    "description": "Complete Part 1 of Chapter 20",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1041660/03f11bee8901a1699c07b7580f5595ea894d2730.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1041660/a02ef873add8965f1ce4802dd039c6b8d40b4b37.jpg"
+  },
+  {
+    "name": "CHAPTER20B",
+    "defaultvalue": 0,
+    "displayName": "Chapter 20 - Part 2",
+    "hidden": 0,
+    "description": "Complete Part 2 of Chapter 20",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1041660/84900d8d2c15362ed61489e5c1b234ab2296bdc6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1041660/993b9472f20d2cc17611406f125aa49164a1bac8.jpg"
+  },
+  {
+    "name": "CHAPTER21",
+    "defaultvalue": 0,
+    "displayName": "Chapter 21 ",
+    "hidden": 0,
+    "description": "Complete Chapter 21",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1041660/a2764de84c816620d2b8258126ad0950168a12b7.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1041660/516bd419584bef0f7230c383fd4f9e46924714e2.jpg"
+  },
+  {
+    "name": "TURNLEFT",
+    "defaultvalue": 0,
+    "displayName": "Turn Left",
+    "hidden": 0,
+    "description": "Take a left turn at the junction",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1041660/331525820cf3148f2a83654debd9012ddef4aec0.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1041660/f285da0ffafe4a9feb862b818b6e21f9646cc723.jpg"
+  },
+  {
+    "name": "TURNRIGHT",
+    "defaultvalue": 0,
+    "displayName": "Turn Right",
+    "hidden": 0,
+    "description": "Take a right turn at the junction",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1041660/1b5e15d43493bc8ccdda4c20b08e9f34c383fcbe.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1041660/7044044b5c2cf52e7baeacc523c61bfed0f181c7.jpg"
+  },
+  {
+    "name": "CHAPTER22",
+    "defaultvalue": 0,
+    "displayName": "Chapter 22",
+    "hidden": 0,
+    "description": "Complete Chapter 22",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1041660/01a2f078d9cfdfdea267717dc2fd95a344705911.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1041660/a114e67c74524a1d74df9740b0f3e76af49c7075.jpg"
+  },
+  {
+    "name": "KILLHEBKYA",
+    "defaultvalue": 0,
+    "displayName": "Kill Hebkya",
+    "hidden": 0,
+    "description": "She knew what she was doing",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1041660/beac5918ed000cd2792aa8359b769afa8891c91f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1041660/a5a625a81058bc0737153d5cdf93f7abf6a7647a.jpg"
+  },
+  {
+    "name": "SPAREHEBKYA",
+    "defaultvalue": 0,
+    "displayName": "Spare Hebkya",
+    "hidden": 0,
+    "description": "Only following orders",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1041660/46efa276e425557a836058f0d1e4126947e12300.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1041660/27c57570543e660ffea9b21f33261bcf91e21ceb.jpg"
+  },
+  {
+    "name": "KILLMISERICORDIA",
+    "defaultvalue": 0,
+    "displayName": "Kill Misericordia",
+    "hidden": 0,
+    "description": "Make her pay",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1041660/86f3715907efa542fb680686a6fea367dc20c47a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1041660/1c790909bad3f64bc6567b206b7fb5fc695fd805.jpg"
+  },
+  {
+    "name": "SPAREMISERICORDIA",
+    "defaultvalue": 0,
+    "displayName": "Spare Misericordia",
+    "hidden": 0,
+    "description": "Only trying to survive",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1041660/e15ba245d40b8891916834f579f6fa55b07a372a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1041660/b4c6fb70b72abaa1ba030c57da6a7a1aca0965d1.jpg"
+  },
+  {
+    "name": "LEAVELORINDA",
+    "defaultvalue": 0,
+    "displayName": "Leave Lorinda",
+    "hidden": 0,
+    "description": "No point helping her now",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1041660/9832974f49df6d6380dec86903b7fe3f68d2bcc6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1041660/e38c0bbf827a6ff83d89ab7fddb63ace9f5fe53b.jpg"
+  },
+  {
+    "name": "HELPLORINDA",
+    "defaultvalue": 0,
+    "displayName": "Help Lorinda",
+    "hidden": 0,
+    "description": "Help her get the help she needs",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1041660/6bac40dba846449a383a6f034666db575e412561.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1041660/5da9cebe80cd6760c922d8248e22cbbc5aad3e92.jpg"
+  },
+  {
+    "name": "BACKAGAIN_ALONE",
+    "defaultvalue": 0,
+    "displayName": "Return Alone",
+    "hidden": 0,
+    "description": "Return to England alone this time",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1041660/07513b0f4ee6a381b388f332858bdf0cc685a9b0.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1041660/267f4f5e95dd3f4acd9ef522472e674bc3596da2.jpg"
+  },
+  {
+    "name": "BACKAGAIN_NOTALONE",
+    "defaultvalue": 0,
+    "displayName": "Return Again",
+    "hidden": 0,
+    "description": "Return to England with Grendel",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1041660/8041affa10c0720f507dd6e875e6c05306263b17.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1041660/0744a4b6bbfd1621814541b0bed832a3a8de420a.jpg"
+  },
+  {
+    "name": "IGNORE_SCREAMINGVOCALISTS",
+    "defaultvalue": 0,
+    "displayName": "Ignore Hebkya and Misericordia",
+    "hidden": 0,
+    "description": "Ignore the two girls",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1041660/4d6464b4a0dd45239874f984e0700f617082b588.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1041660/42e8447a865fe7a9115b447474b8d1cfc889cd4e.jpg"
+  },
+  {
+    "name": "RESCUE_SCREAMINGVOCALISTS",
+    "defaultvalue": 0,
+    "displayName": "Rescue Hebkya and Misericordia",
+    "hidden": 0,
+    "description": "Rescue the two girls from their own folly",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1041660/f9257f6c77e004f520ffc56e9ed91217732a8534.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1041660/bd1417f4896dd6974d34a3025c72738c1d7dcd37.jpg"
+  },
+  {
+    "name": "THEEND",
+    "defaultvalue": 0,
+    "displayName": "The End ?",
+    "hidden": 0,
+    "description": "Use Mothscroll to solve all your problems",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1041660/13472eab5c51595d659f64436f07da55a7a7ac79.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1041660/acfaa68863a6a4a752fdb8292343a9e7a1558da5.jpg"
+  },
+  {
+    "name": "NOTNOW",
+    "defaultvalue": 0,
+    "displayName": "Not Now",
+    "hidden": 0,
+    "description": "You don't want to face the past",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1041660/c8ab246720b8c591aa636e5ad5d80660872d615a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1041660/10b7cdccdb86dbf67cc08b130bd3284aa7f7af41.jpg"
+  },
+  {
+    "name": "NEWGAME",
+    "defaultvalue": 0,
+    "displayName": "New Game",
+    "hidden": 0,
+    "description": "Start a new game",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1041660/f120277d47f280de52a768bef5cdfa5eb8a62deb.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1041660/2ad024c936613f4fe56c36976bc454134804f211.jpg"
+  },
+  {
+    "name": "RECAP",
+    "defaultvalue": 0,
+    "displayName": "Recap",
+    "hidden": 0,
+    "description": "Complete the recap",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1041660/58b65132bebf5fd2b042d8bcae651e4b7c73ccd4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1041660/fa2e80185cbf720b494d48e65a9540c5b54cd981.jpg"
+  },
+  {
+    "name": "ENCYCLOPEDIA",
+    "defaultvalue": 0,
+    "displayName": "Encyclopedia",
+    "hidden": 0,
+    "description": "Use the encyclopedia",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1041660/baefc0d17758a9e23ad9fa23ec913d9e31141682.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1041660/beaff31e886ee82833b6c045ef715358081416a5.jpg"
+  },
+  {
+    "name": "CORALINE",
+    "defaultvalue": 0,
+    "displayName": "What happened to Coraline ?",
+    "hidden": 0,
+    "description": "Find out what happened to Coraline",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1041660/79360b1b096e112e28233625b3221231681ee1a2.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1041660/548a0cf0eae2ada8488426ca7de79cf66d4f69f0.jpg"
+  },
+  {
+    "name": "CAUGHT",
+    "defaultvalue": 0,
+    "displayName": "Caught",
+    "hidden": 0,
+    "description": "Get caught breaking and entering",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1041660/95bf33d1591fc366322ce75368c93d9483e9c733.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1041660/402266c28fc5cb7a1a9d6dfd82b7a3e4db3e6a36.jpg"
+  },
+  {
+    "name": "COMPLETE",
+    "defaultvalue": 0,
+    "displayName": "Complete",
+    "hidden": 0,
+    "description": "Complete  WTC Redux (1), WTC 2 and WTC 3",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1041660/bcc0bfc4a2438176bc562367c157ae929b544665.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1041660/5a5d958e9801c50c746b320b912f14c62c13bffa.jpg"
+  },
+  {
+    "name": "TOTALLYCOMPLETE",
+    "defaultvalue": 0,
+    "displayName": "Totally Complete",
+    "hidden": 0,
+    "description": "Complete ALL Welcome To... games",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1041660/8ea87974ceea9de7d1c221789e2e1ea17f3b2f34.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1041660/bca5004f76b633bb4b246a175986a4135e61105f.jpg"
+  },
+  {
+    "name": "TRYAGAIN",
+    "defaultvalue": 0,
+    "displayName": "Try Again",
+    "hidden": 0,
+    "description": "Killed by Misericordia and Hebkya",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1041660/4a90026fb263a8d6a480eb2c8caaee6750cd3e8a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1041660/33d9c8707d6ca4da3ac66bcea6ecc47afa5f8656.jpg"
+  }
+]

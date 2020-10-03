@@ -1,0 +1,416 @@
+[
+  {
+    "name": "QUEST_ALL",
+    "defaultvalue": 0,
+    "displayName": "Survival Guide",
+    "hidden": 0,
+    "description": "Tutorial is completed",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/733460/898fc60309eb52983aa3de1b675e358be9bee848.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/733460/e2508ec817dcd119319afc5724954519201af201.jpg"
+  },
+  {
+    "name": "KILL_FIRST",
+    "defaultvalue": 0,
+    "displayName": "First Blood",
+    "hidden": 0,
+    "description": "The first enemy is killed",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/733460/58a739a26e753c4025d6c16a303598ceb38e8133.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/733460/e2508ec817dcd119319afc5724954519201af201.jpg"
+  },
+  {
+    "name": "SCIENCE_FIRST",
+    "defaultvalue": 0,
+    "displayName": "Scientist",
+    "hidden": 0,
+    "description": "The first science is researched",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/733460/1f3239f1c660e0cccbb6f96d7344fe5a4a0ebfda.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/733460/e2508ec817dcd119319afc5724954519201af201.jpg"
+  },
+  {
+    "name": "SCIENCE_RESOURCE_ALL",
+    "defaultvalue": 0,
+    "displayName": "Architect",
+    "hidden": 0,
+    "description": "All sciences are researched (at least 100% difficulty)",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/733460/3007b4d8c45cd06f8e28fe1efc8572a7b4af6545.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/733460/e2508ec817dcd119319afc5724954519201af201.jpg"
+  },
+  {
+    "name": "FOOD_PUMPKIN_MANY",
+    "defaultvalue": 0,
+    "displayName": "Farmer",
+    "hidden": 0,
+    "description": "10 farms are planted",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/733460/a28033a0309410a68e3415b432179fcf1368db31.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/733460/e2508ec817dcd119319afc5724954519201af201.jpg"
+  },
+  {
+    "name": "ANIMAL_TAME_ALL",
+    "defaultvalue": 0,
+    "displayName": "Cowboy",
+    "hidden": 0,
+    "description": "Sheep, ram, cow and bull are tamed",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/733460/915bacaa26d8862cc4ba73386a6f588c41f0e4fa.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/733460/e2508ec817dcd119319afc5724954519201af201.jpg"
+  },
+  {
+    "name": "BUILD_HOUSE",
+    "defaultvalue": 0,
+    "displayName": "Home Sweet Home",
+    "hidden": 0,
+    "description": "The first house is built",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/733460/06c8e25e2dc085e4980fd5c2f558ca5d4619206e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/733460/e2508ec817dcd119319afc5724954519201af201.jpg"
+  },
+  {
+    "name": "CRAFT_UNCOMMON_ITEM",
+    "defaultvalue": 0,
+    "displayName": "Armorer (apprentice)",
+    "hidden": 0,
+    "description": "Common item is crafted",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/733460/e629f9306ba174bf0a3f5188ff1f2872f7fdedc3.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/733460/e2508ec817dcd119319afc5724954519201af201.jpg"
+  },
+  {
+    "name": "CRAFT_RARE_ITEM",
+    "defaultvalue": 0,
+    "displayName": "Armorer (journeyman)",
+    "hidden": 0,
+    "description": "Good item is crafted",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/733460/d17f8a21882e777d8b164993a492d9aa023dab6c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/733460/e2508ec817dcd119319afc5724954519201af201.jpg"
+  },
+  {
+    "name": "CRAFT_EPIC_ITEM",
+    "defaultvalue": 0,
+    "displayName": "Armorer (master)",
+    "hidden": 0,
+    "description": "Great item is crafted",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/733460/549065957ebdd008f339af10d274ce185985d152.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/733460/e2508ec817dcd119319afc5724954519201af201.jpg"
+  },
+  {
+    "name": "CRAFT_LEGENDARY_ITEM",
+    "defaultvalue": 0,
+    "displayName": "Armorer (grandmaster)",
+    "hidden": 0,
+    "description": "Excellent item is crafted",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/733460/a3047a2a7ae1cecea517593604f14fa779f8f065.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/733460/e2508ec817dcd119319afc5724954519201af201.jpg"
+  },
+  {
+    "name": "CRAFT_STONE_BLOCK",
+    "defaultvalue": 0,
+    "displayName": "Stone Age",
+    "hidden": 0,
+    "description": "Stone block is crafted",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/733460/56ab47da40dc0701d9201504b3d7bd87f4e57df0.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/733460/e2508ec817dcd119319afc5724954519201af201.jpg"
+  },
+  {
+    "name": "CRAFT_COOPER_INGOT",
+    "defaultvalue": 0,
+    "displayName": "Copper Age",
+    "hidden": 0,
+    "description": "Copper ingot is crafted",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/733460/ed4135d9d2200ad888ef75a7041c6e1eb7334d6c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/733460/e2508ec817dcd119319afc5724954519201af201.jpg"
+  },
+  {
+    "name": "CRAFT_BRONZE_INGOT",
+    "defaultvalue": 0,
+    "displayName": "Bronze Age",
+    "hidden": 0,
+    "description": "Bronze ingot is crafted",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/733460/2f91c11ebe32a48de90b446e40a05d43ec0732f2.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/733460/e2508ec817dcd119319afc5724954519201af201.jpg"
+  },
+  {
+    "name": "CRAFT_IRON_INGOT",
+    "defaultvalue": 0,
+    "displayName": "Iron Age",
+    "hidden": 0,
+    "description": "Iron ingot is crafted",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/733460/e30ed25f2eab4476c8637094469d71d6f0cd224d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/733460/e2508ec817dcd119319afc5724954519201af201.jpg"
+  },
+  {
+    "name": "CRAFT_STEEL_INGOT",
+    "defaultvalue": 0,
+    "displayName": "Steel Age",
+    "hidden": 0,
+    "description": "Steel ingot is crafted",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/733460/680a40dc45d0ab067d7a4f0fc17db173c3b58538.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/733460/e2508ec817dcd119319afc5724954519201af201.jpg"
+  },
+  {
+    "name": "CRAFT_PLANK_LEGION",
+    "defaultvalue": 0,
+    "displayName": "Geppetto",
+    "hidden": 0,
+    "description": "5000 planks is crafted",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/733460/1a4c205e9896aaa1a9c5448d6505357b6825bfa4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/733460/e2508ec817dcd119319afc5724954519201af201.jpg"
+  },
+  {
+    "name": "STRATEGY_CITIZENS_GROUP",
+    "defaultvalue": 0,
+    "displayName": "Town Governor",
+    "hidden": 0,
+    "description": "Have 15 peasants (at least 100% difficulty)",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/733460/f6fe391a1c6480b90b4fa91c57f44736b56bd6db.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/733460/e2508ec817dcd119319afc5724954519201af201.jpg"
+  },
+  {
+    "name": "STRATEGY_DIE_FROM_HUNGER",
+    "defaultvalue": 0,
+    "displayName": "The Hunger Games",
+    "hidden": 0,
+    "description": "You died of starvation",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/733460/5d2ca76b856713573ce5c2f7e854977cbc20979b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/733460/e2508ec817dcd119319afc5724954519201af201.jpg"
+  },
+  {
+    "name": "RESOURCE_MILK_LEGION",
+    "defaultvalue": 0,
+    "displayName": "Milky Way",
+    "hidden": 0,
+    "description": "1000 pails of milk is milked",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/733460/6140c9c96efb9d65d00060802eab85d4f3f19898.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/733460/e2508ec817dcd119319afc5724954519201af201.jpg"
+  },
+  {
+    "name": "BUILD_CHEST_HUNDRED",
+    "defaultvalue": 0,
+    "displayName": "Greedy",
+    "hidden": 0,
+    "description": "100 chests is built",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/733460/d410f38da05eed43d714dd08eae763be8846604a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/733460/e2508ec817dcd119319afc5724954519201af201.jpg"
+  },
+  {
+    "name": "STRATEGY_DESTOY_TREE_HUNDRED",
+    "defaultvalue": 0,
+    "displayName": "Tin Woodman",
+    "hidden": 0,
+    "description": "100 trees is felled",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/733460/1f04a9af15e84d6b5686f222188cc9f4f380b29e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/733460/e2508ec817dcd119319afc5724954519201af201.jpg"
+  },
+  {
+    "name": "KILL_WITH_LOW_HP",
+    "defaultvalue": 0,
+    "displayName": "The Last Effort",
+    "hidden": 0,
+    "description": "The enemy is killed when you have less than 10 health points",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/733460/8a26845337ac176373d8dc919339415af4201df0.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/733460/e2508ec817dcd119319afc5724954519201af201.jpg"
+  },
+  {
+    "name": "EQUIP_ARMOR_FULL_TOP",
+    "defaultvalue": 0,
+    "displayName": "Man of Steel",
+    "hidden": 0,
+    "description": "Full steel armor is equipped ",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/733460/eb8309ec74c7ab18cf8dfd880900d8c961b94f2c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/733460/e2508ec817dcd119319afc5724954519201af201.jpg"
+  },
+  {
+    "name": "EQUIP_TOP_SWORD",
+    "defaultvalue": 0,
+    "displayName": "Samurai",
+    "hidden": 0,
+    "description": "Katana is equiped (at least 100% difficulty)",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/733460/3dd70358f44599378e86f938307ca9edbd0ba406.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/733460/e2508ec817dcd119319afc5724954519201af201.jpg"
+  },
+  {
+    "name": "HIT_TARGET_FROM_MAX_DIST",
+    "defaultvalue": 0,
+    "displayName": "The Bull's-eye",
+    "hidden": 0,
+    "description": "Hit the enemy from 23 metres",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/733460/af552e62c254cebed3d0af39b5232d548de7ecb5.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/733460/e2508ec817dcd119319afc5724954519201af201.jpg"
+  },
+  {
+    "name": "BUILD_REMOVE_CART",
+    "defaultvalue": 0,
+    "displayName": "Who Needs This Cart?",
+    "hidden": 0,
+    "description": "A cart is removed",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/733460/4cc397c67d9d8bdf71b965677b7c2331df9d0922.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/733460/e2508ec817dcd119319afc5724954519201af201.jpg"
+  },
+  {
+    "name": "GG_HAPPINESS_MAX",
+    "defaultvalue": 0,
+    "displayName": "Happy as a Clam",
+    "hidden": 0,
+    "description": "Maximum happiness is achieved",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/733460/e873fb2e87718f33ca2c70b112e32917ce1cfcb8.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/733460/e2508ec817dcd119319afc5724954519201af201.jpg"
+  },
+  {
+    "name": "EQUIP_ARMOR_FULL",
+    "defaultvalue": 0,
+    "displayName": "Armored",
+    "hidden": 0,
+    "description": "Fully armored",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/733460/3d298047e50765e635b9cc10e972b5e6e1adc0bf.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/733460/aa99c44f9f2e2b9c9e848e3ac77abe0103d9f70b.jpg"
+  },
+  {
+    "name": "STRATEGY_SURVIVE_HORDE",
+    "defaultvalue": 0,
+    "displayName": "The Revenant",
+    "hidden": 0,
+    "description": "Survive 50 waves (at least 100% difficulty)",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/733460/36e926e004b43ee97055d337efc349d9f48b32f9.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/733460/e2508ec817dcd119319afc5724954519201af201.jpg"
+  },
+  {
+    "name": "STRATEGY_CITIZENS_ALL_DEAD",
+    "defaultvalue": 0,
+    "displayName": "Forever Alone",
+    "hidden": 0,
+    "description": "Left alone in a village",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/733460/ca873d2177623fb4fbbd0357b87b7b5de2f8fd8e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/733460/e2508ec817dcd119319afc5724954519201af201.jpg"
+  },
+  {
+    "name": "COMMON_START_GAME_ON_MAX_DIFF_FEW",
+    "defaultvalue": 0,
+    "displayName": "Let's Try Again",
+    "hidden": 0,
+    "description": "5 games on max difficulty is started",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/733460/4bc2def8243628520648d093123e9b72931d8010.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/733460/e2508ec817dcd119319afc5724954519201af201.jpg"
+  },
+  {
+    "name": "COMMON_SEND_CRASH_REPORT",
+    "defaultvalue": 0,
+    "displayName": "Harpoon Games Thank You",
+    "hidden": 0,
+    "description": "Crash report is sent",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/733460/9349411efe7fb01a67e725ddd8e2c0fb173dd475.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/733460/e2508ec817dcd119319afc5724954519201af201.jpg"
+  },
+  {
+    "name": "FOOD_TRY_ALL_TYPES",
+    "defaultvalue": 0,
+    "displayName": "Gourmet",
+    "hidden": 0,
+    "description": "All types of food are tried",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/733460/6e7ce7f56ed6255f812a6c1ddc8d1bb2a711783a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/733460/e2508ec817dcd119319afc5724954519201af201.jpg"
+  },
+  {
+    "name": "BUILD_FARM_ALL_TYPES",
+    "defaultvalue": 0,
+    "displayName": "Agronomist",
+    "hidden": 0,
+    "description": "All types of farms are planted",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/733460/46b7373e4e0a104e4cb2fab9b0e6ca1468202a9e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/733460/e2508ec817dcd119319afc5724954519201af201.jpg"
+  },
+  {
+    "name": "KILL_IN_STUN",
+    "defaultvalue": 0,
+    "displayName": "Desperation",
+    "hidden": 0,
+    "description": "The stunned enemy is killed",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/733460/fff81dc3315c785ca551d488297e7cff60f59ead.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/733460/aa99c44f9f2e2b9c9e848e3ac77abe0103d9f70b.jpg"
+  },
+  {
+    "name": "BUILD_FLOOR_UNDER_WALL",
+    "defaultvalue": 0,
+    "displayName": "Esthete",
+    "hidden": 0,
+    "description": "Built floor under the wall",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/733460/3047b14f2c3c4b81e5edaa38b0b4ac56b07ff9ab.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/733460/e2508ec817dcd119319afc5724954519201af201.jpg"
+  },
+  {
+    "name": "BUFF_ALL_ALLY_UNDER_WHIP",
+    "defaultvalue": 0,
+    "displayName": "Cruel",
+    "hidden": 0,
+    "description": "Every peasant under whip buff",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/733460/d99df2626d31a1217f553958c33b1c4ee86d50f1.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/733460/e2508ec817dcd119319afc5724954519201af201.jpg"
+  },
+  {
+    "name": "DARK_AND_LIGHT_MOONLESS",
+    "defaultvalue": 0,
+    "displayName": "First moonless night",
+    "hidden": 0,
+    "description": "Survive until first moonless night",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/733460/da4deb8dade8236e3856960c1ef1913bafa6ef92.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/733460/e2508ec817dcd119319afc5724954519201af201.jpg"
+  },
+  {
+    "name": "DARK_AND_LIGHT_MAX_DIFF_WEEK",
+    "defaultvalue": 0,
+    "displayName": "Hell week",
+    "hidden": 0,
+    "description": "Survive seven days on max difficulty",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/733460/439dbb8fb1476f03b7ace6d28e82bc1741ad6f8d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/733460/e2508ec817dcd119319afc5724954519201af201.jpg"
+  },
+  {
+    "name": "SEASONS_SURVIVED_TILL_AUTUMN",
+    "defaultvalue": 0,
+    "displayName": "Golden autumn",
+    "hidden": 0,
+    "description": "Survive till autumn",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/733460/5946ad438e23862c5c28ce8fcda2ce92a41bf24a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/733460/e2508ec817dcd119319afc5724954519201af201.jpg"
+  },
+  {
+    "name": "SEASONS_SURVIVED_TILL_WINTER",
+    "defaultvalue": 0,
+    "displayName": "Winter has come",
+    "hidden": 0,
+    "description": "Survive till winter",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/733460/ccdcd5ea926c5c80424e4004289d12201deb118a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/733460/e2508ec817dcd119319afc5724954519201af201.jpg"
+  },
+  {
+    "name": "SEASONS_SURVIVED_TILL_SPRING",
+    "defaultvalue": 0,
+    "displayName": "Smells like spring spirit",
+    "hidden": 0,
+    "description": "Survive till spring",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/733460/d2c19e4c9ab7f8841884afd179ed9b76e9d2ad0f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/733460/e2508ec817dcd119319afc5724954519201af201.jpg"
+  },
+  {
+    "name": "SEASONS_SURVIVED_TILL_SUMMER",
+    "defaultvalue": 0,
+    "displayName": "Summertime",
+    "hidden": 0,
+    "description": "Survive till summer",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/733460/304154ad750e55231f4ed09668bdb08b38ca67e9.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/733460/e2508ec817dcd119319afc5724954519201af201.jpg"
+  },
+  {
+    "name": "STRATEGY_DIE_FROM_COLD",
+    "defaultvalue": 0,
+    "displayName": "Cold death",
+    "hidden": 0,
+    "description": "You died of cold",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/733460/8f45f12f26cba758771b93f85bc6acf7295b56ce.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/733460/e2508ec817dcd119319afc5724954519201af201.jpg"
+  },
+  {
+    "name": "EVENTS_GREAT_FEAST_BIG",
+    "defaultvalue": 0,
+    "displayName": "Great feast",
+    "hidden": 0,
+    "description": "You arranged a great feast",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/733460/7f2fecf4709ec4a17c0e13788e25a3a963abaef7.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/733460/e2508ec817dcd119319afc5724954519201af201.jpg"
+  }
+]

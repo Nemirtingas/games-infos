@@ -1,0 +1,198 @@
+[
+  {
+    "name": "ACH_SAIL_ALL_SHIPS",
+    "defaultvalue": 0,
+    "displayName": "Admiral of the Fleet",
+    "hidden": 0,
+    "description": "Sail all ship types in a single game.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/401560/2d1252328b95e621a91a03604a9e32993b09ee53.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/401560/1a7c5b17bfb74aec5835ba54a455ca2c0ba8b0ca.jpg"
+  },
+  {
+    "name": "ACH_SINK_SHIP",
+    "defaultvalue": 0,
+    "displayName": "To the Depths",
+    "hidden": 0,
+    "description": "Sink an Enemy Ship.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/401560/206c4be02ccc6b1425b2a3e513975778718eab21.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/401560/219d6ce4d6f7194bb8a0edfa63df5fc3b6439d47.jpg"
+  },
+  {
+    "name": "ACH_TAKE_SHIP",
+    "defaultvalue": 0,
+    "displayName": "Walk the Plank",
+    "hidden": 0,
+    "description": "Capture a Ship during Boarding Action.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/401560/d8c2038c8f6b581232931a51611447aca5790867.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/401560/8a19e3735b7945d0793ea1a499d4e63358d29e48.jpg"
+  },
+  {
+    "name": "ACH_ALL_UPGRADES",
+    "defaultvalue": 0,
+    "displayName": "Refitted",
+    "hidden": 0,
+    "description": "Obtain all Upgrades in a single game.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/401560/a63c855e54c4c8bf519998a8ffc2f9d1875ecc27.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/401560/82be38ccf623bf446130f86499b6d2ebd13816e8.jpg"
+  },
+  {
+    "name": "ACH_SINK_BOSS",
+    "defaultvalue": 0,
+    "displayName": "Become the Hunter",
+    "hidden": 0,
+    "description": "Sink a Pirate Hunter.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/401560/6ea69eefc1e60dcd86736556a199c34793ba1d66.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/401560/08c823c2124022991d3395792bdf0b4595b0efc2.jpg"
+  },
+  {
+    "name": "ACH_SINK_TREASURE",
+    "defaultvalue": 0,
+    "displayName": "Plunderer",
+    "hidden": 0,
+    "description": "Sink a Treasure Ship.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/401560/9c8038256a021c34d98360844f055e688c856194.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/401560/e3730a99e9845088a095bd1450d872fc1405ce18.jpg"
+  },
+  {
+    "name": "ACH_ALL_SHIPS",
+    "defaultvalue": 0,
+    "displayName": "Armada",
+    "hidden": 0,
+    "description": "Unlock all starter Ships on a single profile.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/401560/e476907311c6cff5a6f93c8faf21bd594d0e0088.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/401560/030a20fcc83daa36b847fb49d96312db57d96652.jpg"
+  },
+  {
+    "name": "ACH_ALL_CHARS",
+    "defaultvalue": 0,
+    "displayName": "A Crew of Misfits",
+    "hidden": 0,
+    "description": "Unlock all characters on one profile.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/401560/f71d7c200e0d9e89e02c734784709d0204b404db.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/401560/d4556797a910ba5fd2e67d645cb2eac19e8eb1a5.jpg"
+  },
+  {
+    "name": "ACH_TIME_ALIVE",
+    "defaultvalue": 0,
+    "displayName": "Longevity",
+    "hidden": 0,
+    "description": "Survive for 1 Hour.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/401560/23ee7e396018dfb4823b3dbea4e4383e928bce5a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/401560/5d1415cfba5a9c8d6edd2672520053a3f058ede4.jpg"
+  },
+  {
+    "name": "ACH_INFAMY",
+    "defaultvalue": 0,
+    "displayName": "Infamous",
+    "hidden": 0,
+    "description": "Reach 100 Infamy in a single game.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/401560/1353b2e9d77e4d769d3f8d4bf16b7ceb16addc15.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/401560/77c8c6d5c83907dc1cf81e36cb022193c62ee2d7.jpg"
+  },
+  {
+    "name": "ACH_INFAMY_2",
+    "defaultvalue": 0,
+    "displayName": "Legendary",
+    "hidden": 0,
+    "description": "Reach 500 Infamy in a single game.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/401560/c89bea941d5dd8491304a5223fed34df99991e28.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/401560/8d7ffc192b51de15749dda1cebad62b934ded464.jpg"
+  },
+  {
+    "name": "ACH_INFAMY_3",
+    "defaultvalue": 0,
+    "displayName": "Dread Pirate",
+    "hidden": 0,
+    "description": "Reach 1000 Infamy in a single game.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/401560/26dd6d2c57031613faa83ba8f86b652591e6f8b6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/401560/fdbdf69ce94afaae1efa243dab0f14aa2b1e0aeb.jpg"
+  },
+  {
+    "name": "ACH_INF_LIFE",
+    "defaultvalue": 0,
+    "displayName": "Scourge of the Seas",
+    "hidden": 0,
+    "description": "Reach 10000 Infamy across all games.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/401560/2dc98b93c34b1bf64682139a7328bcb7eacbd530.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/401560/90a2f75a8574e1a9782333767f2dec41d3b66e10.jpg"
+  },
+  {
+    "name": "ACH_SINK_20",
+    "defaultvalue": 0,
+    "displayName": "A Watery Grave",
+    "hidden": 0,
+    "description": "Sink 20 ships across all games.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/401560/9123dd302994ba834f2face66f13e09d7ce95a9e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/401560/7c01d833e1c6ca2d17d79e21b8b710c3de757cdd.jpg"
+  },
+  {
+    "name": "ACH_SINK_100",
+    "defaultvalue": 0,
+    "displayName": "Shipwreck City",
+    "hidden": 0,
+    "description": "Sink 100 ships across all games.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/401560/68936c3b37cf1f45fbb8d30f5b8ce0f3af3edaeb.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/401560/f4fed487bef6d68d63180bce3362728430aca2b8.jpg"
+  },
+  {
+    "name": "ACH_SHIPTIME",
+    "defaultvalue": 0,
+    "displayName": "Unsinkable",
+    "hidden": 0,
+    "description": "Survive 20 minutes in the same ship.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/401560/ac3900daba0fe91d176313244f229abf3c93570e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/401560/a8f7f83c789e6247ecd1522072a2100758d7e3fd.jpg"
+  },
+  {
+    "name": "ACH_RUM_HEALTH",
+    "defaultvalue": 0,
+    "displayName": "The Rum is Gone",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/401560/a1edfc5f35800f67110385e015facc9398339424.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/401560/eb4483b46affeb98c30928dad3fbe07b1e57db33.jpg"
+  },
+  {
+    "name": "ACH_PARRY_10",
+    "defaultvalue": 0,
+    "displayName": "Swashbuckler",
+    "hidden": 0,
+    "description": "Parry 10 attacks.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/401560/4933e374053406c881c78cce83dc4def42ba6a4f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/401560/703c5fc26e39f3148cf9b2d9978105a3dfc40694.jpg"
+  },
+  {
+    "name": "ACH_PARRY_50",
+    "defaultvalue": 0,
+    "displayName": "Duelist",
+    "hidden": 0,
+    "description": "Parry 50 attacks.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/401560/d851726b8d31a5bf4aa58d3a189f81f11ce75744.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/401560/b57c3816bdf2a43bc9ead38514e8257beeb3262b.jpg"
+  },
+  {
+    "name": "ACH_PARRY_100",
+    "defaultvalue": 0,
+    "displayName": "Swordmaster",
+    "hidden": 0,
+    "description": "Parry 100 attacks.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/401560/ea229e9f7d91b48d24dbafaaa69af3cd60d980a5.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/401560/04f5fc0b5bbda680aa79b9f860fc72ffe05fd422.jpg"
+  },
+  {
+    "name": "ACH_SOTL",
+    "defaultvalue": 0,
+    "displayName": "Pride of the Navy",
+    "hidden": 0,
+    "description": "Capture a Ship of the Line.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/401560/5a476fb71bdf5ecd6a6ab79fd71721f62562cc43.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/401560/d79e8b500bdd3f23ebd5ecce1df68455a0769a60.jpg"
+  },
+  {
+    "name": "ACH_HUNTER",
+    "defaultvalue": 0,
+    "displayName": "Apex Predator",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/401560/ea87b9c3dd5e4ed1f7a028ac81af01302dc9be8c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/401560/d79e8b500bdd3f23ebd5ecce1df68455a0769a60.jpg"
+  }
+]

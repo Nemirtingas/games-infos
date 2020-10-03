@@ -1,0 +1,236 @@
+[
+  {
+    "name": "ACH_ONE_DEATH",
+    "defaultvalue": 0,
+    "displayName": "Dead!",
+    "hidden": 0,
+    "description": "You have died!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/664890/b4cf880b4d2fae9b4c16ef728986f3d289362264.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/664890/3c80b9a3396bd1fa7cb1bc3425dc95cc0e3d69e5.jpg"
+  },
+  {
+    "name": "ACH_FALLEN",
+    "defaultvalue": 0,
+    "displayName": "Fallen",
+    "hidden": 0,
+    "description": "You started your first game!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/664890/b4cf880b4d2fae9b4c16ef728986f3d289362264.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/664890/3c80b9a3396bd1fa7cb1bc3425dc95cc0e3d69e5.jpg"
+  },
+  {
+    "name": "ACH_FRIEND_ZONE",
+    "defaultvalue": 0,
+    "displayName": "Friend Zone",
+    "hidden": 0,
+    "description": "Play the game with 10 friends.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/664890/b4cf880b4d2fae9b4c16ef728986f3d289362264.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/664890/3c80b9a3396bd1fa7cb1bc3425dc95cc0e3d69e5.jpg"
+  },
+  {
+    "name": "ACH_LAUNCH",
+    "defaultvalue": 0,
+    "displayName": "Launch!",
+    "hidden": 0,
+    "description": "Launched the game.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/664890/b4cf880b4d2fae9b4c16ef728986f3d289362264.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/664890/3c80b9a3396bd1fa7cb1bc3425dc95cc0e3d69e5.jpg"
+  },
+  {
+    "name": "ACH_CANNONADE",
+    "defaultvalue": 0,
+    "displayName": "Cannonade",
+    "hidden": 0,
+    "description": "Fire a full magazine without interruption.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/664890/b4cf880b4d2fae9b4c16ef728986f3d289362264.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/664890/3c80b9a3396bd1fa7cb1bc3425dc95cc0e3d69e5.jpg"
+  },
+  {
+    "name": "ACH_BOMBARDMENT_1",
+    "defaultvalue": 0,
+    "displayName": "Bombardment 1",
+    "hidden": 0,
+    "description": "Fire 1,000 bullets.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/664890/b4cf880b4d2fae9b4c16ef728986f3d289362264.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/664890/3c80b9a3396bd1fa7cb1bc3425dc95cc0e3d69e5.jpg"
+  },
+  {
+    "name": "ACH_BOMBARDMENT_2",
+    "defaultvalue": 0,
+    "displayName": "Bombardment 2",
+    "hidden": 0,
+    "description": "Fire 10,000 bullets.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/664890/b4cf880b4d2fae9b4c16ef728986f3d289362264.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/664890/0859505e15f6a5bcca2138ab555e1e9262283046.jpg"
+  },
+  {
+    "name": "ACH_BOMBARDMENT_3",
+    "defaultvalue": 0,
+    "displayName": "Bombardment 3",
+    "hidden": 0,
+    "description": "Fire 100,000 bullets.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/664890/b4cf880b4d2fae9b4c16ef728986f3d289362264.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/664890/3c80b9a3396bd1fa7cb1bc3425dc95cc0e3d69e5.jpg"
+  },
+  {
+    "name": "ACH_BARRAGE",
+    "defaultvalue": 0,
+    "displayName": "Barrage",
+    "hidden": 0,
+    "description": "Fire a full magazine into a monster without interruption.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/664890/b4cf880b4d2fae9b4c16ef728986f3d289362264.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/664890/3c80b9a3396bd1fa7cb1bc3425dc95cc0e3d69e5.jpg"
+  },
+  {
+    "name": "ACH_SOCIAL_1",
+    "defaultvalue": 0,
+    "displayName": "Social 1",
+    "hidden": 0,
+    "description": "Join 10 multiplayer games.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/664890/b4cf880b4d2fae9b4c16ef728986f3d289362264.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/664890/3c80b9a3396bd1fa7cb1bc3425dc95cc0e3d69e5.jpg"
+  },
+  {
+    "name": "ACH_SOCIAL_2",
+    "defaultvalue": 0,
+    "displayName": "Social 2",
+    "hidden": 0,
+    "description": "Join 100 multiplayer games.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/664890/b4cf880b4d2fae9b4c16ef728986f3d289362264.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/664890/3c80b9a3396bd1fa7cb1bc3425dc95cc0e3d69e5.jpg"
+  },
+  {
+    "name": "ACH_SOCIAL_3",
+    "defaultvalue": 0,
+    "displayName": "Social 3",
+    "hidden": 0,
+    "description": "Join 1,000 multiplayer games.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/664890/b4cf880b4d2fae9b4c16ef728986f3d289362264.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/664890/3c80b9a3396bd1fa7cb1bc3425dc95cc0e3d69e5.jpg"
+  },
+  {
+    "name": "ACH_PARTY_GIVER_1",
+    "defaultvalue": 0,
+    "displayName": "Party Giver 1",
+    "hidden": 0,
+    "description": "Host 1 multiplayer game when another player joins you.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/664890/b4cf880b4d2fae9b4c16ef728986f3d289362264.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/664890/3c80b9a3396bd1fa7cb1bc3425dc95cc0e3d69e5.jpg"
+  },
+  {
+    "name": "ACH_PARTY_GIVER_2",
+    "defaultvalue": 0,
+    "displayName": "Party Giver 2",
+    "hidden": 0,
+    "description": "Host 10 multiplayer games where another player joins you.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/664890/b4cf880b4d2fae9b4c16ef728986f3d289362264.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/664890/3c80b9a3396bd1fa7cb1bc3425dc95cc0e3d69e5.jpg"
+  },
+  {
+    "name": "ACH_PARTY_GIVER_3",
+    "defaultvalue": 0,
+    "displayName": "Party Giver 3",
+    "hidden": 0,
+    "description": "Host 100 multiplayer games where another player joins you.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/664890/b4cf880b4d2fae9b4c16ef728986f3d289362264.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/664890/3c80b9a3396bd1fa7cb1bc3425dc95cc0e3d69e5.jpg"
+  },
+  {
+    "name": "ACH_ENTERTAINER",
+    "defaultvalue": 0,
+    "displayName": "Entertainer",
+    "hidden": 0,
+    "description": "Host a full multiplayer server!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/664890/b4cf880b4d2fae9b4c16ef728986f3d289362264.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/664890/3c80b9a3396bd1fa7cb1bc3425dc95cc0e3d69e5.jpg"
+  },
+  {
+    "name": "ACH_FRENZY_1",
+    "defaultvalue": 0,
+    "displayName": "Frenzy 1",
+    "hidden": 0,
+    "description": "Kill 10 monsters!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/664890/b4cf880b4d2fae9b4c16ef728986f3d289362264.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/664890/3c80b9a3396bd1fa7cb1bc3425dc95cc0e3d69e5.jpg"
+  },
+  {
+    "name": "ACH_FRENZY_2",
+    "defaultvalue": 0,
+    "displayName": "Frenzy 2",
+    "hidden": 0,
+    "description": "Kill 1,000 monsters!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/664890/b4cf880b4d2fae9b4c16ef728986f3d289362264.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/664890/3c80b9a3396bd1fa7cb1bc3425dc95cc0e3d69e5.jpg"
+  },
+  {
+    "name": "ACH_FRENZY_3",
+    "defaultvalue": 0,
+    "displayName": "Frenzy 3",
+    "hidden": 0,
+    "description": "Kill 10,000 monsters!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/664890/b4cf880b4d2fae9b4c16ef728986f3d289362264.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/664890/3c80b9a3396bd1fa7cb1bc3425dc95cc0e3d69e5.jpg"
+  },
+  {
+    "name": "ACH_DEBILITATED_1",
+    "defaultvalue": 0,
+    "displayName": "Debilitated 1",
+    "hidden": 0,
+    "description": "Lose 100 health!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/664890/b4cf880b4d2fae9b4c16ef728986f3d289362264.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/664890/3c80b9a3396bd1fa7cb1bc3425dc95cc0e3d69e5.jpg"
+  },
+  {
+    "name": "ACH_DEBILITATED_2",
+    "defaultvalue": 0,
+    "displayName": "Debilitated 2",
+    "hidden": 0,
+    "description": "Lose 10,000 health!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/664890/b4cf880b4d2fae9b4c16ef728986f3d289362264.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/664890/3c80b9a3396bd1fa7cb1bc3425dc95cc0e3d69e5.jpg"
+  },
+  {
+    "name": "ACH_DEBILITATED_3",
+    "defaultvalue": 0,
+    "displayName": "Debilitated 3",
+    "hidden": 0,
+    "description": "Lose 1,000,000 health!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/664890/b4cf880b4d2fae9b4c16ef728986f3d289362264.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/664890/3c80b9a3396bd1fa7cb1bc3425dc95cc0e3d69e5.jpg"
+  },
+  {
+    "name": "ACH_SLUMP",
+    "defaultvalue": 0,
+    "displayName": "Slump",
+    "hidden": 0,
+    "description": "Fall 100 times!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/664890/b4cf880b4d2fae9b4c16ef728986f3d289362264.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/664890/3c80b9a3396bd1fa7cb1bc3425dc95cc0e3d69e5.jpg"
+  },
+  {
+    "name": "ACH_TRAVELER",
+    "defaultvalue": 0,
+    "displayName": "Traveler",
+    "hidden": 0,
+    "description": "Accumulate one mile of distance in one game.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/664890/bcdcfc92e70d0e0ef5316ef0e988d6aee4c2d434.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/664890/3c80b9a3396bd1fa7cb1bc3425dc95cc0e3d69e5.jpg"
+  },
+  {
+    "name": "ACH_ENDURANCE",
+    "defaultvalue": 0,
+    "displayName": "Endurance",
+    "hidden": 0,
+    "description": "Play a game for 1 hour straight without dying!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/664890/b4cf880b4d2fae9b4c16ef728986f3d289362264.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/664890/3c80b9a3396bd1fa7cb1bc3425dc95cc0e3d69e5.jpg"
+  },
+  {
+    "name": "ACH_JumpIt",
+    "defaultvalue": 0,
+    "displayName": "Jump it!",
+    "hidden": 0,
+    "description": "Jump 15 Times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/664890/b4cf880b4d2fae9b4c16ef728986f3d289362264.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/664890/3c80b9a3396bd1fa7cb1bc3425dc95cc0e3d69e5.jpg"
+  }
+]

@@ -1,0 +1,101 @@
+[
+  {
+    "name": "ACHIEVEMENT_TRAINING_COMPLETED",
+    "defaultvalue": 0,
+    "displayName": "Patient disciple",
+    "hidden": 0,
+    "description": "Complete the training exercise.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/899220/99554a946e106897f33673c62aa15b9656af1a72.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/899220/d57a81122950af23580d967c690509ba0ffdf9e8.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_FLYING_100000M",
+    "defaultvalue": 0,
+    "displayName": "Beginner",
+    "hidden": 0,
+    "description": "Fly 100.000 meters.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/899220/6a2ab5380f06ef342548bb54680a3b28a2a4725d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/899220/e5e0c1826738d49d335ec29eb56219d77fbbf5b4.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_FLYING_200000M",
+    "defaultvalue": 0,
+    "displayName": "Student",
+    "hidden": 0,
+    "description": "Fly 200.000 meters.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/899220/bf3112ddb7303da907c224def9c06ce7fa437116.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/899220/b54ab62cbc1f44d9b440be5208956202fd5ada5a.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_FLYING_400000M",
+    "defaultvalue": 0,
+    "displayName": "Master",
+    "hidden": 0,
+    "description": "Fly 400.000 meters.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/899220/2b7cd6ad4c14921a827217da74be0fb6076a98be.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/899220/a4ffc02091d4711634cc8f4e28833f1cdba1e8f6.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_FLYING_600000M",
+    "defaultvalue": 0,
+    "displayName": "Super master",
+    "hidden": 0,
+    "description": "Fly 600.000 meters.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/899220/8953c3265d70aa2e7fc63e1bea14e8902064f891.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/899220/9e4fbe5536834842beb82c564265849c946bb302.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_FLYING_800000M",
+    "defaultvalue": 0,
+    "displayName": "Lord",
+    "hidden": 0,
+    "description": "Fly 800.000 meters.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/899220/a10124b05610adee2cf2f70c8367a776235cf221.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/899220/bd461dc33d9a15e083342e78ef7c00676b7e49b6.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_FLYING_1000000M",
+    "defaultvalue": 0,
+    "displayName": "Hardy however",
+    "hidden": 0,
+    "description": "Fly 1.000.000 meters.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/899220/333a75156491a6cbc2ae6f8442cbbde4f1f07617.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/899220/176d34d74094c20e79230ce04edaee8f5c9766cb.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_FLYING_GOOSE_5",
+    "defaultvalue": 0,
+    "displayName": "Oh, those geese",
+    "hidden": 0,
+    "description": "Meet 5 geese.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/899220/d6b2a6f9e9b5536a1d95e11076a79ea8b157bde9.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/899220/38a130443e8c300f112b5cf823b4efec2b155a09.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_FLYING_GOOSE_10",
+    "defaultvalue": 0,
+    "displayName": "A fan of geese",
+    "hidden": 0,
+    "description": "Meet 10 geese.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/899220/0ef2b8a12c06054b33bc97b8b26f57514d64b987.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/899220/5e270a93242b7d4f14c76a7b743cc4974fa54852.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_STRAWBERRY_100",
+    "defaultvalue": 0,
+    "displayName": "Collector",
+    "hidden": 0,
+    "description": "Collect 100 strawberries.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/899220/653625633ce12edc8f3533f23319f7120dffb2c6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/899220/1bb1aa94ce28824d97d00658bbfda47248d3cc45.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_2_10",
+    "defaultvalue": 0,
+    "displayName": "NEW_ACHIEVEMENT_NAME_2_10",
+    "hidden": 0,
+    "description": "NEW_ACHIEVEMENT_DESC_2_10",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/899220/",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/899220/"
+  }
+]

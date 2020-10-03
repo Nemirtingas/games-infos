@@ -1,0 +1,272 @@
+[
+  {
+    "name": "COMPLETE_TUTORIAL",
+    "defaultvalue": 0,
+    "displayName": "...What is it?",
+    "hidden": 0,
+    "description": "Complete the Tutorial",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1092780/d2b418d41b43edc88cecbefa08173673f6d0cafe.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1092780/f5aa9d040b691e3f99643c04c9cb524e08ef7836.jpg"
+  },
+  {
+    "name": "COMPLETE_4",
+    "defaultvalue": 0,
+    "displayName": "It only gets harder",
+    "hidden": 0,
+    "description": "Complete all 4x4 Puzzles",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1092780/06835db39b26345594b16cb0fe7d423f6e0d2a66.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1092780/f5aa9d040b691e3f99643c04c9cb524e08ef7836.jpg"
+  },
+  {
+    "name": "COMPLETE_4_NOASSIST",
+    "defaultvalue": 0,
+    "displayName": "Wasn't that big of a challenge",
+    "hidden": 0,
+    "description": "Complete all 4x4 Puzzles without using \"Show Mistakes\"",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1092780/98d8fc7fdb39f907f7cb411bedfb0967c60737d9.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1092780/f5aa9d040b691e3f99643c04c9cb524e08ef7836.jpg"
+  },
+  {
+    "name": "COMPLETE_8",
+    "defaultvalue": 0,
+    "displayName": "You're showing improvements",
+    "hidden": 0,
+    "description": "Complete all 8x8 Puzzles",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1092780/3a2d7dc442520b333c1606874d13105cfb08830f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1092780/f5aa9d040b691e3f99643c04c9cb524e08ef7836.jpg"
+  },
+  {
+    "name": "COMPLETE_8_NOASSIST",
+    "defaultvalue": 0,
+    "displayName": "Not bad",
+    "hidden": 0,
+    "description": "Complete all 8x8 Puzzles without using \"Show Mistakes\"",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1092780/cfa9333d1c98a89e012a391dcc3adc18b269ac38.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1092780/f5aa9d040b691e3f99643c04c9cb524e08ef7836.jpg"
+  },
+  {
+    "name": "COMPLETE_12",
+    "defaultvalue": 0,
+    "displayName": "Thumbs up for you",
+    "hidden": 0,
+    "description": "Complete all 12x12 Puzzles",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1092780/b2edfb32d394ec8522e6932ec3411d4dc65cd288.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1092780/820eeb15b04e242b412ea5b84b8a64bbb7698e35.jpg"
+  },
+  {
+    "name": "COMPLETE_12_NOASSIST",
+    "defaultvalue": 0,
+    "displayName": "You may actually be decent",
+    "hidden": 0,
+    "description": "Complete all 12x12 Puzzles without using \"Show Mistakes\"",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1092780/d4b63d54a2e862088b1924e6f69e437228d76d4b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1092780/f5aa9d040b691e3f99643c04c9cb524e08ef7836.jpg"
+  },
+  {
+    "name": "COMPLETE_16",
+    "defaultvalue": 0,
+    "displayName": "Time to step it up...",
+    "hidden": 0,
+    "description": "Complete all 16x16 Puzzles",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1092780/5d60eb601d15b4c8c9d1aef78f1f8a90a5366a75.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1092780/f5aa9d040b691e3f99643c04c9cb524e08ef7836.jpg"
+  },
+  {
+    "name": "COMPLETE_16_NOASSIST",
+    "defaultvalue": 0,
+    "displayName": "You know what you're doing",
+    "hidden": 0,
+    "description": "Complete all 16x16 Puzzles without using \"Show Mistakes\"",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1092780/e6a7215a50158f09757d46a275ad57972d81d333.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1092780/f5aa9d040b691e3f99643c04c9cb524e08ef7836.jpg"
+  },
+  {
+    "name": "COMPLETE_20",
+    "defaultvalue": 0,
+    "displayName": "Ready for the big leagues",
+    "hidden": 0,
+    "description": "Complete all 20x20 Puzzles",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1092780/ed0f2470d4ef759850dc994f2a52de1fff4cc20f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1092780/f5aa9d040b691e3f99643c04c9cb524e08ef7836.jpg"
+  },
+  {
+    "name": "COMPLETE_20_NOASSIST",
+    "defaultvalue": 0,
+    "displayName": "A force to be reckoned with",
+    "hidden": 0,
+    "description": "Complete all 20x20 Puzzles without using \"Show Mistakes\"",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1092780/e882c8cf447fb7eb4d91c2b5b439c76dedada4bd.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1092780/f5aa9d040b691e3f99643c04c9cb524e08ef7836.jpg"
+  },
+  {
+    "name": "COMPLETE_24",
+    "defaultvalue": 0,
+    "displayName": "Gosh dern, yer good",
+    "hidden": 0,
+    "description": "Complete all 24x24 Puzzles",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1092780/9ed80861c09703b7f357f0185c6848fc9e8cbbe5.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1092780/f5aa9d040b691e3f99643c04c9cb524e08ef7836.jpg"
+  },
+  {
+    "name": "COMPLETE_24_NOASSIST",
+    "defaultvalue": 0,
+    "displayName": "Be honest, you cheated",
+    "hidden": 0,
+    "description": "Complete all 24x24 Puzzles without using \"Show Mistakes\"",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1092780/37506cac07c6f5be4e47b57d2cfdd8b2b55373ed.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1092780/f5aa9d040b691e3f99643c04c9cb524e08ef7836.jpg"
+  },
+  {
+    "name": "COMPLETE_ALL",
+    "defaultvalue": 0,
+    "displayName": "You're our favorite player!",
+    "hidden": 0,
+    "description": "Complete All Puzzles",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1092780/af1a85b93153dbeb4bb3311c13ab102de482501f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1092780/f5aa9d040b691e3f99643c04c9cb524e08ef7836.jpg"
+  },
+  {
+    "name": "COMPLETE_ALL_NOASSIST",
+    "defaultvalue": 0,
+    "displayName": "Absolute Unit",
+    "hidden": 0,
+    "description": "Complete All Puzzles without using \"Show Mistakes\"",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1092780/2762cbdd2d51413af65d56c658bce6bec9e3f721.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1092780/f5aa9d040b691e3f99643c04c9cb524e08ef7836.jpg"
+  },
+  {
+    "name": "CHEESE_IT",
+    "defaultvalue": 0,
+    "displayName": "Cheese'n it",
+    "hidden": 0,
+    "description": "Use \"Show Mistakes\" 3 times on one layer",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1092780/75b10f271c698a59887642fb84aab68d9034dae8.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1092780/f5aa9d040b691e3f99643c04c9cb524e08ef7836.jpg"
+  },
+  {
+    "name": "PATHETIC",
+    "defaultvalue": 0,
+    "displayName": "Pathetic.",
+    "hidden": 0,
+    "description": "Use \"Show Mistakes\" on all 3 layers",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1092780/a6e2618f5ae0ac06c12e18f6a3927c812c053475.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1092780/f5aa9d040b691e3f99643c04c9cb524e08ef7836.jpg"
+  },
+  {
+    "name": "CREDITS",
+    "defaultvalue": 0,
+    "displayName": "REMEMBER ME",
+    "hidden": 0,
+    "description": "Visit the \"Credits\" screen",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1092780/b80c7f0ca9043c7861831f82a87f8dd303d87261.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1092780/f5aa9d040b691e3f99643c04c9cb524e08ef7836.jpg"
+  },
+  {
+    "name": "BIG_SPINNER",
+    "defaultvalue": 0,
+    "displayName": "I'm going to hurl...",
+    "hidden": 0,
+    "description": "In the puzzle select menu, scroll through all puzzles without stopping",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1092780/27004ecf30ff0823ffd9e909d5bef18979ae1b6f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1092780/f5aa9d040b691e3f99643c04c9cb524e08ef7836.jpg"
+  },
+  {
+    "name": "FAST_FINISH",
+    "defaultvalue": 0,
+    "displayName": "Stop and smell the roses...",
+    "hidden": 0,
+    "description": "Finish any puzzle in 20 seconds or less",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1092780/f1fc8df396e3aa374e175f361bc2657293ad09f8.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1092780/f5aa9d040b691e3f99643c04c9cb524e08ef7836.jpg"
+  },
+  {
+    "name": "SLOW_FINISH",
+    "defaultvalue": 0,
+    "displayName": "One more encore!",
+    "hidden": 0,
+    "description": "Finish any puzzle in 2 hours or more",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1092780/949f3f0e7ef12222e97c9e622acb0ab963befc6c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1092780/f5aa9d040b691e3f99643c04c9cb524e08ef7836.jpg"
+  },
+  {
+    "name": "LEGEND",
+    "defaultvalue": 0,
+    "displayName": "Absolute Legend!",
+    "hidden": 0,
+    "description": "Finish the \"FPS\" puzzle (#77) in 40 minutes or less",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1092780/7096cd0dc1e9f3b5510f889066214ac484d44935.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1092780/f5aa9d040b691e3f99643c04c9cb524e08ef7836.jpg"
+  },
+  {
+    "name": "SPIKE_VEGETA",
+    "defaultvalue": 0,
+    "displayName": "Faster than a speedrunner!",
+    "hidden": 0,
+    "description": "Finish the \"Cat\" puzzle (#60) in 35 minutes or less",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1092780/3a7537cf2614964c5120964ba41753c02342d6e6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1092780/f5aa9d040b691e3f99643c04c9cb524e08ef7836.jpg"
+  },
+  {
+    "name": "PRODIGY",
+    "defaultvalue": 0,
+    "displayName": "Picross Prodigy",
+    "hidden": 0,
+    "description": "View the Advanced Tutorial",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1092780/2746e3141c188c4e68467be93d2e72633d98901b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1092780/78f24fd5fe7356d067f69a746e41caf41ce45f81.jpg"
+  },
+  {
+    "name": "NO_X",
+    "defaultvalue": 0,
+    "displayName": "I see you like to live dangerously…",
+    "hidden": 0,
+    "description": "Complete a 12x12 (or higher) Puzzle without using X",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1092780/f66a56fefd2ee90ec0b574f10762dc72a5499184.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1092780/78f24fd5fe7356d067f69a746e41caf41ce45f81.jpg"
+  },
+  {
+    "name": "LEGACY",
+    "defaultvalue": 0,
+    "displayName": "Alt. Rock",
+    "hidden": 0,
+    "description": "Complete a 24x24 Puzzle with the \"Alt. Mouse Controls\" Option enabled",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1092780/6bc00891d9fb397754913908b319e5f7a1b359b4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1092780/78f24fd5fe7356d067f69a746e41caf41ce45f81.jpg"
+  },
+  {
+    "name": "NO_UNDO",
+    "defaultvalue": 0,
+    "displayName": "Laser Precision",
+    "hidden": 0,
+    "description": "Complete a 20x20 (or higher) Puzzle without using Undo",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1092780/8ce3b4f377063f477be495f70dc88ba1720d1a7e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1092780/78f24fd5fe7356d067f69a746e41caf41ce45f81.jpg"
+  },
+  {
+    "name": "REPLAY",
+    "defaultvalue": 0,
+    "displayName": "Instant Replay",
+    "hidden": 0,
+    "description": "Watch a full replay 3 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1092780/c523e7737c7472a77de23ee7e9a2c4992f6d4825.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1092780/78f24fd5fe7356d067f69a746e41caf41ce45f81.jpg"
+  },
+  {
+    "name": "QUITTER",
+    "defaultvalue": 0,
+    "displayName": "Quitting while you’re ahead?",
+    "hidden": 0,
+    "description": "Quit a puzzle before completing it",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1092780/ff225d8092675c800ea2f924583f56d99e5f923a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1092780/78f24fd5fe7356d067f69a746e41caf41ce45f81.jpg"
+  },
+  {
+    "name": "PLATINUM",
+    "defaultvalue": 0,
+    "displayName": "A+ Achiever",
+    "hidden": 0,
+    "description": "Collect every Achievement",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1092780/623d8f7595c2c50573b0ec39291aee2a328b075b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1092780/78f24fd5fe7356d067f69a746e41caf41ce45f81.jpg"
+  }
+]

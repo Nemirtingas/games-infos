@@ -1,0 +1,47 @@
+[
+  {
+    "name": "MazeTime",
+    "defaultvalue": 0,
+    "displayName": "Time in Mazes"
+  },
+  {
+    "name": "MazeStared",
+    "defaultvalue": 0,
+    "displayName": "Total Mazes Started"
+  },
+  {
+    "name": "MazeFinished",
+    "defaultvalue": 0,
+    "displayName": "Total Mazes Finished"
+  },
+  {
+    "name": "HelperUses",
+    "defaultvalue": 0,
+    "displayName": "Helper Modules Used"
+  },
+  {
+    "name": "PlayerEXP",
+    "defaultvalue": 0,
+    "displayName": "Player Experience"
+  },
+  {
+    "name": "PlayerLVL",
+    "defaultvalue": 0,
+    "displayName": "Player Level"
+  },
+  {
+    "name": "ResetsOfStats",
+    "defaultvalue": 0,
+    "displayName": "Count of Reseted Stats"
+  },
+  {
+    "name": "MazeStaredMP",
+    "defaultvalue": 0,
+    "displayName": "Total Mazes Started in Multiplayer"
+  },
+  {
+    "name": "MazeFinishedMP",
+    "defaultvalue": 0,
+    "displayName": "Total Mazes Finished in Multiplayer"
+  }
+]

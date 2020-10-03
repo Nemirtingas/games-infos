@@ -1,0 +1,123 @@
+[
+  {
+    "name": "ACH_JUGGLING",
+    "defaultvalue": 0,
+    "displayName": "Juggler",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/560010/04704a6f41e3ca12abd457d5a4f467c809b559d0.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/560010/d6ed2988bcd415f32d6cc546b325101fe4e2106c.jpg"
+  },
+  {
+    "name": "ACH_KILL_X_MOSTERS_IN_A_MISSION",
+    "defaultvalue": 0,
+    "displayName": "Killing Spree",
+    "hidden": 0,
+    "description": "Kill 100 monsters in a single mission.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/560010/0ccb25d91b3b74e019a55122d8ab188fcfe65cf4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/560010/e14e440a39317de7a0d9716ed82ad51b1830602b.jpg"
+  },
+  {
+    "name": "ACH_KILL_X_WITHOUT_MOVING",
+    "defaultvalue": 0,
+    "displayName": "Camper",
+    "hidden": 0,
+    "description": "Kill 10 monsters without changing your position.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/560010/a23b2b4449a9e94fc5dc41a6cbb4287abef13f22.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/560010/239d7f242406c68884d9e3b49d2112ca0658d737.jpg"
+  },
+  {
+    "name": "ACH_KILL_X_WITH_EACH_WEAPON",
+    "defaultvalue": 0,
+    "displayName": "Weapon Master",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/560010/48b8231bba7690b20becb1e6207eb9b330e619fa.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/560010/5021a03533887015a6f059cf6d30c5590446bbc6.jpg"
+  },
+  {
+    "name": "ACH_KILL_X_MONSTERS_IN_Y",
+    "defaultvalue": 0,
+    "displayName": "Fast and Furious",
+    "hidden": 0,
+    "description": "Kill 10 monsters in 5 seconds",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/560010/3b47b43dd20f543b8d956000cf2aa54f596804fb.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/560010/ad2b1bd0e4fe147b6a2e3e9a847daa01b2588ecd.jpg"
+  },
+  {
+    "name": "ACH_RECEIVE_X_DMG_IN_A_MISSION",
+    "defaultvalue": 0,
+    "displayName": "Indestructible",
+    "hidden": 0,
+    "description": "Receive 1000 dmg in a single mission and stay alive.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/560010/39bbdffa51ec26c2bf89065e2e001b324d3f6e4e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/560010/a43b0f67bb649d4792050b697e5320ee69d932a5.jpg"
+  },
+  {
+    "name": "ACH_COLLECT_X_CRYSTALS_IN_A_MISSION",
+    "defaultvalue": 0,
+    "displayName": "Fortune",
+    "hidden": 0,
+    "description": "Collect 100 crystals in a single mission.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/560010/7f38d51d46ce3730d257421239240b9d5cebc5de.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/560010/3059665862d50c32a14e74b8bb9992cd41ad40f5.jpg"
+  },
+  {
+    "name": "ACH_OWN_X_CRYSTALS",
+    "defaultvalue": 0,
+    "displayName": "Rich Man",
+    "hidden": 0,
+    "description": "Own 20 crystals.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/560010/bb518e77ba6b9c1e4f29f9125214f286f19ee9ff.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/560010/59e88bc3771d543e6a7064de28a99edae50774b1.jpg"
+  },
+  {
+    "name": "ACH_SPEND_X_CRYSTALS_IN_A_MISSION",
+    "defaultvalue": 0,
+    "displayName": "Shopaholic",
+    "hidden": 0,
+    "description": "Spend at least 200 crystals in a single mission.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/560010/0a99814854148ce53dc07f7ee7e885ec6faad7a6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/560010/e25c7a3651d2894c294403c5c22d01af0423c253.jpg"
+  },
+  {
+    "name": "ACH_WIN_WITH_1_CRYSTAL",
+    "defaultvalue": 0,
+    "displayName": "Survivor",
+    "hidden": 0,
+    "description": "Complete a mission with only 1 crystal.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/560010/23d5264ab8261f962bdb36d63b7359d654d7daf4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/560010/d2895338341e8a1eb6c90e415be0f1b96cfc9434.jpg"
+  },
+  {
+    "name": "ACH_TURN_LAMPS_IN_LESS_THAN_X",
+    "defaultvalue": 0,
+    "displayName": "Flash",
+    "hidden": 0,
+    "description": "Power all rooms in less than 300 seconds.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/560010/a24d0221d9f177673c5a8e360a75b9ffd581420b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/560010/588763ebc488583bfe5fbd429f586dead78795f1.jpg"
+  },
+  {
+    "name": "ACH_WIN_X_MISSIONS_IN_A_ROW",
+    "defaultvalue": 0,
+    "displayName": "Winning Spree",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/560010/0c5001f13af6a3f687eb9a6a2e4a32b04cabd242.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/560010/a4867e4066f34a0b0c88d42bdbe3c6985dae2815.jpg"
+  },
+  {
+    "name": "ACH_WIN_X_WITH_LESS_THAN_Y_CRYSTALS",
+    "defaultvalue": 0,
+    "displayName": "Hard Time",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/560010/055e2a70a8280dec21ed6e0f27ac38f9c38e324f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/560010/5c884497e4e8fccc622118467286cd8667bd27aa.jpg"
+  },
+  {
+    "name": "ACH_WIN_X_WITH_MORE_THAN_Y_CRYSTALS",
+    "defaultvalue": 0,
+    "displayName": "Easy Peasy Lemon Squeezy",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/560010/737e26013502af197100efc1dbc54e5ad46c88be.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/560010/85d60f05dcbecf9907c52dd3ff5cd9ce6f360332.jpg"
+  }
+]

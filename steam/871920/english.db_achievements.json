@@ -1,0 +1,396 @@
+[
+  {
+    "name": "MRP_FIRST_TABLE_01",
+    "defaultvalue": 0,
+    "displayName": "Did it!",
+    "hidden": 0,
+    "description": "Serve your first table.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/871920/db8dcc16f262a7d870b16f80f773fa664ebfd222.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/871920/85a768f35c7dc952f407692fb6cb55c7648a6d99.jpg"
+  },
+  {
+    "name": "MRP_COMPLETE_LEVEL01",
+    "defaultvalue": 0,
+    "displayName": "Diner",
+    "hidden": 0,
+    "description": "Complete the diner level.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/871920/222650bcc7261f8fadb2860fe6d903529afae5b2.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/871920/3e2681612cb5a0c2a05ae974669f2fe92121cc84.jpg"
+  },
+  {
+    "name": "MRP_COMPLETE_LEVEL02",
+    "defaultvalue": 0,
+    "displayName": "La Ristorante",
+    "hidden": 0,
+    "description": "Complete the Italian restaurant.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/871920/09f36623ea98abe2c66da3150a2972747604c989.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/871920/c595aacca75427ec55909507c780c9209393d6b5.jpg"
+  },
+  {
+    "name": "MRP_COMPLETE_LEVEL03",
+    "defaultvalue": 0,
+    "displayName": "Day at the Promenade",
+    "hidden": 0,
+    "description": "Complete the promenade.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/871920/9e19abcac1ceff20b92808b26e440045b0b81981.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/871920/80e4356f1f94b527714b625cf08e6276411d7859.jpg"
+  },
+  {
+    "name": "MRP_COMPLETE_LEVEL04",
+    "defaultvalue": 0,
+    "displayName": "The Boathouse",
+    "hidden": 0,
+    "description": "Complete the boathouse.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/871920/0b8907bf9dfbdd95d03471406b6b585cbb403c93.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/871920/2100ffcbef73fff736e662dd7e27271c050141d5.jpg"
+  },
+  {
+    "name": "MRP_COMPLETE_LEVEL05",
+    "defaultvalue": 0,
+    "displayName": "Sushi Garden",
+    "hidden": 0,
+    "description": "Complete sushi garden.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/871920/60c362a383050cab782214ec2de79cb7523925d5.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/871920/adc5e75a2122096555ad71523542cb4345dc258b.jpg"
+  },
+  {
+    "name": "MRP_COMPLETE_LEVEL06",
+    "defaultvalue": 0,
+    "displayName": "The Big 50 s",
+    "hidden": 0,
+    "description": "Complete the 50 s restaurant.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/871920/bfb960a716f2fba873c4e3a916ff9a82b57ed63b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/871920/6e971d051d460c97e9ad517e5821bdb989f3982a.jpg"
+  },
+  {
+    "name": "MRP_COMPLETE_LEVEL07",
+    "defaultvalue": 0,
+    "displayName": "Rooftop",
+    "hidden": 0,
+    "description": "Complete the rooftop restaurant.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/871920/494da741cd5a305396728667a6d50c7ab05f9795.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/871920/04c59ec3036fbea796cd70b9be66acaf2d4100c0.jpg"
+  },
+  {
+    "name": "MRP_COMPLETE_LEVEL08",
+    "defaultvalue": 0,
+    "displayName": "The Beer Hall",
+    "hidden": 0,
+    "description": "Complete the beer hall.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/871920/e8c6bdd403aa5097da9ef1df97c77e6e6a703e38.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/871920/4e72a1d13a858ddf73e93658d646598960d6197d.jpg"
+  },
+  {
+    "name": "MRP_COMPLETE_LEVEL09",
+    "defaultvalue": 0,
+    "displayName": "Television Tower",
+    "hidden": 0,
+    "description": "Complete the television tower.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/871920/0b5c5c10fae4a66a15aa3892e5fd3d3d81af4807.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/871920/ae9a6817ea32624f8268b58105a68238c04118aa.jpg"
+  },
+  {
+    "name": "MRP_COMBO_01",
+    "defaultvalue": 0,
+    "displayName": "First Combo",
+    "hidden": 0,
+    "description": "Do your first combo.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/871920/9b61817f7a85efb9d7030e61535113fc6b703e91.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/871920/f8ec51ded9598890ed4d66299b47d27fd7c3a671.jpg"
+  },
+  {
+    "name": "MRP_COMBO_02",
+    "defaultvalue": 0,
+    "displayName": "That's a Row",
+    "hidden": 0,
+    "description": "A combo of seven.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/871920/7ea4cab2034f9e34e5f7e7a35a449207dfd9fcbe.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/871920/65e0482c8e60c660e89767bc043696a7e28426a6.jpg"
+  },
+  {
+    "name": "MRP_COMBO_03",
+    "defaultvalue": 0,
+    "displayName": "X13",
+    "hidden": 0,
+    "description": "Serve 13 tables in a row.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/871920/9a4f3ac16b6a29a76bd820cb8657383ebd74a191.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/871920/c0aa8f1c0a1ce688f371b810168a9b97cd614b39.jpg"
+  },
+  {
+    "name": "MRP_MONEY01",
+    "defaultvalue": 0,
+    "displayName": "Cash",
+    "hidden": 0,
+    "description": "Make 500 in a single level.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/871920/b0cf44e3a505dfd00f1487d05a8b05b6244dd5a1.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/871920/c138de69b98d8409724d03f9ebaa80411fed6536.jpg"
+  },
+  {
+    "name": "MRP_MONEY02",
+    "defaultvalue": 0,
+    "displayName": "1000",
+    "hidden": 0,
+    "description": "Make 1000 in a single level.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/871920/0c19302a876143a2083b27f826353887840b21ef.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/871920/7a76624a451560bdbc67866cb73f89cd3672600a.jpg"
+  },
+  {
+    "name": "MRP_MONEY03",
+    "defaultvalue": 0,
+    "displayName": "2500",
+    "hidden": 0,
+    "description": "Make 2500 in a single level.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/871920/ccbbe8d818fbfeaed7e3b7e49e1b446b0206ecf2.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/871920/eee3a831e8041643a6fa0a03984abda95848158c.jpg"
+  },
+  {
+    "name": "MRP_MONEY04",
+    "defaultvalue": 0,
+    "displayName": "5000",
+    "hidden": 0,
+    "description": "Make 5000 in a single level.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/871920/3158c7ddc458871b1bd6ecd25b84226e79004478.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/871920/f88b259f6361e27e1fa04d1742c9642f39492d72.jpg"
+  },
+  {
+    "name": "MRP_WALK01",
+    "defaultvalue": 0,
+    "displayName": "Easy Going",
+    "hidden": 0,
+    "description": "Walk 2000 meters.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/871920/f6225b6ff85daf3493e97739d5db5871b4ee4ccb.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/871920/06a6af8b5478e42cfcaf4dd21ef0b53dfc522c0a.jpg"
+  },
+  {
+    "name": "MRP_WALK02",
+    "defaultvalue": 0,
+    "displayName": "Walkative",
+    "hidden": 0,
+    "description": "Walk a distance of 5 kilometers.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/871920/ebfec001012f9b951500c7856d3b65dde7cb092d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/871920/8f990ab5671bfff23fa403ad9af05a6e1b4086dd.jpg"
+  },
+  {
+    "name": "MRP_WALK03",
+    "defaultvalue": 0,
+    "displayName": "Heavy Walker",
+    "hidden": 0,
+    "description": "Walk a distance of 10 kilometers.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/871920/110b4b57b6d14b17cad0bdeda7e416d5d58727a4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/871920/bcd04e5e5324840a3c695917c8bddd50ce0b1265.jpg"
+  },
+  {
+    "name": "MRP_WALK04",
+    "defaultvalue": 0,
+    "displayName": "Walk it off",
+    "hidden": 0,
+    "description": "Walk a distance of 25 kilometers.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/871920/6751d82298e4a7dbfef04ffd4f34736983b41aa7.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/871920/94d70b82a4a5e235f91c87e187c6673dcfdebed7.jpg"
+  },
+  {
+    "name": "MRP_ENERGY_DRINK_01",
+    "defaultvalue": 0,
+    "displayName": "Energized",
+    "hidden": 0,
+    "description": "Drink this energy drink.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/871920/27f0044fbde08c73625ec641c8fa9c07a89c64d7.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/871920/ba28ae5bbf527089e885ae02da1c105927a2fbc3.jpg"
+  },
+  {
+    "name": "MRP_COMPLETE_LEVEL01_HARD",
+    "defaultvalue": 0,
+    "displayName": "Hell's Kitchen",
+    "hidden": 0,
+    "description": "Complete the diner level on hell mode.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/871920/84e8d1bb2c494810cd387ba9e833919f78d95003.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/871920/606fba99991fac1b65eda950fe69eb8a5d29e7c4.jpg"
+  },
+  {
+    "name": "MRP_COMPLETE_LEVEL02_HARD",
+    "defaultvalue": 0,
+    "displayName": "La Hell",
+    "hidden": 0,
+    "description": "Complete the the Italian restaurant on hell.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/871920/237638420d943ec5c8d3d65573ae5b62fbdf1d6c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/871920/d1cacc0042f2bce70353753e0e78684795651b0a.jpg"
+  },
+  {
+    "name": "MRP_COMPLETE_LEVEL03_HARD",
+    "defaultvalue": 0,
+    "displayName": "Prome-hard",
+    "hidden": 0,
+    "description": "Complete the promenade level on hell difficulty.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/871920/8f4cdd904337db3a881b777af05150e9f6a208b1.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/871920/d13b8ef2933c47efa01dd900f6ef3a7b4693ded9.jpg"
+  },
+  {
+    "name": "MRP_COMPLETE_LEVEL04_HARD",
+    "defaultvalue": 0,
+    "displayName": "Boathouse on Fire",
+    "hidden": 0,
+    "description": "Complete the boathouse on hell.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/871920/4ae6b3448c0da17bb3eeea7a18f53ebe4774f2b6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/871920/afc51b4f8569121e4209cba62e9056816e4eb248.jpg"
+  },
+  {
+    "name": "MRP_COMPLETE_LEVEL05_HARD",
+    "defaultvalue": 0,
+    "displayName": "Sushi Harden",
+    "hidden": 0,
+    "description": "Complete sushi garden level on hell mode.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/871920/9b7b0e5ec57fd6f7a40c40eb0b9ea3d1401a7056.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/871920/88b6c117dd3961144cc3ab0f201c7aa19d192aaa.jpg"
+  },
+  {
+    "name": "MRP_COMPLETE_LEVEL06_HARD",
+    "defaultvalue": 0,
+    "displayName": "The Hellish Big 50s",
+    "hidden": 0,
+    "description": "Complete the 50 s restaurant while playing hell mode.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/871920/59c8a61d216b736083e58853da79e9b2bb250caf.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/871920/db56928eb6ffc9238137c34526da99a13eb13c1a.jpg"
+  },
+  {
+    "name": "MRP_COMPLETE_LEVEL07_HARD",
+    "defaultvalue": 0,
+    "displayName": "Rooftop of Hell",
+    "hidden": 0,
+    "description": "Complete the rooftop with hell difficulity.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/871920/c124f45657eb6b80a42dc02629f4e1d04ef76672.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/871920/7010894f0414e856c4b0ee3c64bfdbed3ec26a24.jpg"
+  },
+  {
+    "name": "MRP_COMPLETE_LEVEL08_HARD",
+    "defaultvalue": 0,
+    "displayName": "The Beer Hell",
+    "hidden": 0,
+    "description": "Complete the beer hall hell.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/871920/ecb43a0a35f2f806d4be63fa4b42c118f0cae3b9.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/871920/27b1ddf040d28d45abf54fe57ef6aa2b64f57e2e.jpg"
+  },
+  {
+    "name": "MRP_COMPLETE_LEVEL09_HARD",
+    "defaultvalue": 0,
+    "displayName": "Hell at the Television Tower",
+    "hidden": 0,
+    "description": "Complete the television tower on hell mode.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/871920/d0ade8ba84e4deed0fcb83427d3dcc157d0524e4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/871920/7fafff991c4c882aa16c686774a2616475952852.jpg"
+  },
+  {
+    "name": "MRP_ROBOT_01",
+    "defaultvalue": 0,
+    "displayName": "That One Robot",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/871920/9b09b2d0527e50922f1d09535be223919107dda2.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/871920/8fbf446b92e954bcc33b81fdd5b6718435c816b1.jpg"
+  },
+  {
+    "name": "MRP_FAN_01",
+    "defaultvalue": 0,
+    "displayName": "True Fan!",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/871920/91974abe643a51521c64fb5303f8ae1f04d7ae69.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/871920/899cf5813123b64c250b37bba4d21360935228a2.jpg"
+  },
+  {
+    "name": "MRP_ENERGY_DRINK_02",
+    "defaultvalue": 0,
+    "displayName": "Zip Zap",
+    "hidden": 0,
+    "description": "Drink a different energy drink while the first is still active.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/871920/6e5f6b398d1d91889a86a472ff58c71deae28587.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/871920/a4a27a7df5feeb65859142f4fb631e8953a045f8.jpg"
+  },
+  {
+    "name": "MRP_DRUNK_01",
+    "defaultvalue": 0,
+    "displayName": "Drunk, Buddy?",
+    "hidden": 0,
+    "description": "Crash into all drunk at the beer hall.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/871920/cb383e16e685e13fd70d496d3904b12bdfae95c3.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/871920/cc66fb91a2297ac88835eebff52b41ef8d8bb9f2.jpg"
+  },
+  {
+    "name": "MRP_ANGRY_CUSTOMERS_01",
+    "defaultvalue": 0,
+    "displayName": "Mad Restaurant People",
+    "hidden": 0,
+    "description": "250 mad customers left the restaurant.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/871920/ce635a00f554e4cb09a6d5a0ce2eb603991fbd6e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/871920/993e87d48bdc4ee6b121e23c426e1c593ddaba6d.jpg"
+  },
+  {
+    "name": "MRP_HAPPY_CUSTOMERS_01",
+    "defaultvalue": 0,
+    "displayName": "It's 50 Happy Faces",
+    "hidden": 0,
+    "description": "Make 50 customers happy.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/871920/0591108220542e054e703d79212658b521726617.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/871920/fdc8487bb10d8689919b689df9157f9f514182f4.jpg"
+  },
+  {
+    "name": "MRP_HAPPY_CUSTOMERS_02",
+    "defaultvalue": 0,
+    "displayName": "Passed 500 Happy Faces",
+    "hidden": 0,
+    "description": "Over 500 happy customers left the restaurant.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/871920/c78a870f1767702281c7565cb764d1ed9d31dc4b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/871920/3a3615bbbf10ee6baa298965d38a9867507932a8.jpg"
+  },
+  {
+    "name": "MRP_HAPPY_CUSTOMERS_03",
+    "defaultvalue": 0,
+    "displayName": "Five Thousand Happy Faces",
+    "hidden": 0,
+    "description": "Over 5000 happy customers left the restaurant.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/871920/fc49c1060cf2573853cd79622d8695c4e0362151.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/871920/ba460b1f97b7f15573f891fdee0f6c781a065bce.jpg"
+  },
+  {
+    "name": "MRP_DOOR_01",
+    "defaultvalue": 0,
+    "displayName": "Heavy Usage",
+    "hidden": 0,
+    "description": "Open and close the kitchen doors 450 times.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/871920/3b836a1047eb16bc2bea1152f41d148994bd7e2f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/871920/3d131a0cd5c6ad87822893088c6199a026e14689.jpg"
+  },
+  {
+    "name": "MRP_AWARD_01",
+    "defaultvalue": 0,
+    "displayName": "Waiter of the Month",
+    "hidden": 0,
+    "description": "Complete all levels on normal mode.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/871920/538fae3506cfdd3e67fb3c153f233275f5be39d5.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/871920/32a4fe5dbaa8b4ee076a8c44468a38585fc282f9.jpg"
+  },
+  {
+    "name": "MRP_AWARD_02",
+    "defaultvalue": 0,
+    "displayName": "King of Mad Restaurant",
+    "hidden": 0,
+    "description": "Complete all levels on hell mode.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/871920/93f890d5ec23b1ab4b5c02bd55608e956bb27737.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/871920/a5d5596d5f5d28bae28f00c2e91e04bb01a632e1.jpg"
+  },
+  {
+    "name": "MRP_ROBOT_02",
+    "defaultvalue": 0,
+    "displayName": "Customer Retention",
+    "hidden": 0,
+    "description": "You served the robots well.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/871920/8ea8b77a8d6a65d8f43d28014d8c5e8d1b932f57.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/871920/f03d4717849e932b81ee30d645d6e75f5a32c5fb.jpg"
+  },
+  {
+    "name": "MRP_AMUSEMENT_PARK_01",
+    "defaultvalue": 0,
+    "displayName": "Survivor of Happiness",
+    "hidden": 0,
+    "description": "Complete the amusement park level.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/871920/f2511802191d7693e67ae5908bc07d29137fd4bd.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/871920/e8c75fa054731e211c7929a27af29fc303af3bc3.jpg"
+  }
+]

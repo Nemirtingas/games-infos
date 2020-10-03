@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Correct1",
+    "defaultvalue": 0,
+    "displayName": "The first question",
+    "hidden": 0,
+    "description": "Answer 1 question correct.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/920660/4c1b536b83f1c8d3cf3b506e4973709051ba6d17.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/920660/50aad3d497d6f2854064acaec4773b5e151b6497.jpg"
+  },
+  {
+    "name": "Correct3",
+    "defaultvalue": 0,
+    "displayName": "Winning Streak",
+    "hidden": 0,
+    "description": "Answer 3 questions in a row.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/920660/4ee2823889ac32074c667a428cb2d25728dccef9.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/920660/50aad3d497d6f2854064acaec4773b5e151b6497.jpg"
+  },
+  {
+    "name": "Correct6",
+    "defaultvalue": 0,
+    "displayName": "Half Time",
+    "hidden": 0,
+    "description": "Answer 6 questions in a row.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/920660/4a11a5f7715cd8c6966187913941614935cb40a4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/920660/50aad3d497d6f2854064acaec4773b5e151b6497.jpg"
+  },
+  {
+    "name": "Win",
+    "defaultvalue": 0,
+    "displayName": "YOU WIN!",
+    "hidden": 0,
+    "description": "Beat the game!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/920660/63f4cd84b6e363d3293488a2f07cd20e00632e5e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/920660/50aad3d497d6f2854064acaec4773b5e151b6497.jpg"
+  }
+]
