@@ -1,90 +1,112 @@
-﻿{
-  "stat_build_foundationCount": {
-    "description": "Built foundations",
-    "value": 0
+[
+  {
+    "name": "stat_build_foundationCount",
+    "defaultvalue": 0,
+    "displayName": "Built foundations"
   },
-  "stat_player_sharkKills": {
-    "description": "",
-    "value": 0
+  {
+    "name": "stat_player_sharkKills",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "stat_player_hookCount": {
-    "description": "",
-    "value": 0
+  {
+    "name": "stat_player_hookCount",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "stat_player_birdKills": {
-    "description": "",
-    "value": 0
+  {
+    "name": "stat_player_birdKills",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "stat_build_paintCount": {
-    "description": "",
-    "value": 0
+  {
+    "name": "stat_build_paintCount",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "stat_build_removeCount": {
-    "description": "",
-    "value": 0
+  {
+    "name": "stat_build_removeCount",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "stat_shark_bitePlayer": {
-    "description": "",
-    "value": 0
+  {
+    "name": "stat_shark_bitePlayer",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "stat_player_deaths": {
-    "description": "",
-    "value": 0
+  {
+    "name": "stat_player_deaths",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "stat_player_pufferKills": {
-    "description": "",
-    "value": 0
+  {
+    "name": "stat_player_pufferKills",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "stat_player_stoneBirdKills": {
-    "description": "",
-    "value": 0
+  {
+    "name": "stat_player_stoneBirdKills",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "stat_player_capturedAnimals": {
-    "description": "",
-    "value": 0
+  {
+    "name": "stat_player_capturedAnimals",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "stat_player_boarKills": {
-    "description": "",
-    "value": 0
+  {
+    "name": "stat_player_boarKills",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "stat_player_ratKills": {
-    "description": "",
-    "value": 0
+  {
+    "name": "stat_player_ratKills",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "stat_player_bearKills": {
-    "description": "",
-    "value": 0
+  {
+    "name": "stat_player_bearKills",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "stat_player_Hidden_I": {
-    "description": "",
-    "value": 0
+  {
+    "name": "stat_player_captures_bee",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "stat_player_Hidden_II": {
-    "description": "",
-    "value": 0
+  {
+    "name": "stat_player_excevations_treasure",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "stat_player_Hidden_III": {
-    "description": "",
-    "value": 0
+  {
+    "name": "stat_player_botKills",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "stat_player_Hidden_IV": {
-    "description": "",
-    "value": 0
+  {
+    "name": "stat_player_zipline_distance",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "stat_player_Hidden_V": {
-    "description": "",
-    "value": 0
+  {
+    "name": "stat_player_zipline_distanceOneGo",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "stat_player_Hidden_VI": {
-    "description": "",
-    "value": 0
+  {
+    "name": "stat_player_token_spend_tangaroa",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "stat_player_Hidden_VII": {
-    "description": "",
-    "value": 0
+  {
+    "name": "stat_player_instrumentNotes_played",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "stat_player_Hidden_VIII": {
-    "description": "",
-    "value": 0
+  {
+    "name": "stat_player_fireworks_launched",
+    "defaultvalue": 0,
+    "displayName": ""
   }
-}
+]

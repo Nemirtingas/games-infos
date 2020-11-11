@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "name": "ach_build_foundation_10",
     "defaultvalue": 0,
@@ -94,7 +94,7 @@
     "defaultvalue": 0,
     "displayName": "Beginner Shark Hunter!",
     "hidden": 0,
-    "description": "Kill a shark.",
+    "description": "Kill 1 shark.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/648800/1febd4acad109ee809489828b11cfbca80e2473f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/648800/d928fab8b1380f86889b8a8a784fa28daf11d38d.jpg"
   },
@@ -148,7 +148,7 @@
     "defaultvalue": 0,
     "displayName": "Beginner Bird Hunter!",
     "hidden": 0,
-    "description": "Kill a bird.",
+    "description": "Kill 1 bird.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/648800/980b66f66fe869498a6998ad1666212eeff3429b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/648800/48011e0aa1d46229d07c4b26bf2fee1aa561108d.jpg"
   },
@@ -270,7 +270,7 @@
     "defaultvalue": 0,
     "displayName": "Beginner Poison-Puffer Hunter!",
     "hidden": 0,
-    "description": "Kill a Poison-puffer.",
+    "description": "Kill 1 Poison-puffer.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/648800/6fcf886e0c0244ccc542ce6687f1368e20fc70df.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/648800/d48dfc894ac264f65e8a7f7e0b0cfec840233aad.jpg"
   },
@@ -297,7 +297,7 @@
     "defaultvalue": 0,
     "displayName": "Beginner Screecher Hunter!",
     "hidden": 0,
-    "description": "Kill a Screecher.",
+    "description": "Kill 1 Screecher.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/648800/8ec5a415bf845cc25a51cea86cfcc25a624108af.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/648800/36323d469ead63a63b03c48a6e61bcd3f8d3cbf1.jpg"
   },
@@ -350,7 +350,7 @@
     "defaultvalue": 0,
     "displayName": "Beginner Wrangler!",
     "hidden": 0,
-    "description": "Capture an animal.",
+    "description": "Capture 1 animal.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/648800/ece40fd344c5a9ab6d98620317d3bb81d248f1c2.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/648800/25794504dbcfdfbaf33801d23ad0b1edf8927202.jpg"
   },
@@ -386,7 +386,7 @@
     "defaultvalue": 0,
     "displayName": "Beginner Warthog Hunter!",
     "hidden": 0,
-    "description": "Kill a Warthog.",
+    "description": "Kill 1 Warthog.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/648800/f3f188117147249b4b5897593f8b31071cc28b95.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/648800/53747b7f1acab29e91704d07622331b0a8568639.jpg"
   },
@@ -548,219 +548,240 @@
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/648800/45098ab1f183ff3a1dcf4d1fe9a9fe13cb6a95f1.jpg"
   },
   {
-    "name": "ach_Hidden_I",
+    "name": "ach_allRBPaintings",
     "defaultvalue": 0,
-    "displayName": "Hidden I",
+    "displayName": "Artistic Collection!",
     "hidden": 1,
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/648800/",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/648800/"
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/648800/6621b489d9b796ecdbc48db1192d6b55d4721947.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/648800/199ace7d76e8e622d71630a96908f9eeecd83d48.jpg"
   },
   {
-    "name": "ach_Hidden_II",
+    "name": "ach_allNotes_Caravan",
     "defaultvalue": 0,
-    "displayName": "Hidden II",
-    "hidden": 1,
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/648800/",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/648800/"
+    "displayName": "Caravan Town Historian!",
+    "hidden": 0,
+    "description": "Find all notes on Caravan Town!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/648800/8d22eaf6b4076a1744c55ea2f7731213eaf2a0d3.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/648800/d12c283bbd5431044197170ddae6733af98274d1.jpg"
   },
   {
-    "name": "ach_Hidden_III",
+    "name": "ach_allNotes_Tangaroa",
     "defaultvalue": 0,
-    "displayName": "Hidden III",
-    "hidden": 1,
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/648800/",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/648800/"
+    "displayName": "Tangaroa Historian! ",
+    "hidden": 0,
+    "description": "Find all notes in Tangaroa!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/648800/8d22eaf6b4076a1744c55ea2f7731213eaf2a0d3.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/648800/bc2f60e066b781629e6289684c032bc2a59b968c.jpg"
   },
   {
-    "name": "ach_Hidden_IV",
+    "name": "ach_zip_OneGo",
     "defaultvalue": 0,
-    "displayName": "Hidden IV",
-    "hidden": 1,
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/648800/",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/648800/"
+    "displayName": "Zip Zap!",
+    "hidden": 0,
+    "description": "Travel 50 meters on a zipline without disjointing.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/648800/71153eb8536bcac2b5281e44ff7af3bb8fea6099.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/648800/552226a489393001a7b800e98f66e3f4e9acfa5b.jpg"
   },
   {
-    "name": "ach_Hidden_V",
+    "name": "ach_zip_100m",
     "defaultvalue": 0,
-    "displayName": "Hidden V",
-    "hidden": 1,
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/648800/",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/648800/"
+    "displayName": "Beginner Ziponaut!",
+    "hidden": 0,
+    "description": "Travel 100 meters with the zipline tool.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/648800/ed8c5bd702545b94b3d12d4d1488e9cde8f988b3.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/648800/44d0bba53be32726f5c4488cee0512609cb57ece.jpg"
   },
   {
-    "name": "ach_Hidden VI",
+    "name": "ach_zip_500m",
     "defaultvalue": 0,
-    "displayName": "Hidden VI",
-    "hidden": 1,
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/648800/",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/648800/"
+    "displayName": "Intermediate Ziponaut!",
+    "hidden": 0,
+    "description": "Travel 500 meters with the zipline tool.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/648800/7f03b952ca0f42e8c35ab2812f942ab1e6fb8f5b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/648800/3fbb74c0d2f46c17c28b0a71dbeaa639a4da0687.jpg"
   },
   {
-    "name": "ach_Hidden_VII",
+    "name": "ach_zip_1500m",
     "defaultvalue": 0,
-    "displayName": "Hidden VII",
-    "hidden": 1,
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/648800/",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/648800/"
+    "displayName": "Expert Ziponaut!",
+    "hidden": 0,
+    "description": "Travel 1500 meters with the zipline tool.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/648800/99fce8182c31ceb3dabf948fa3809d8a9e24ed12.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/648800/346e560184993685b28a1a9c55788f362dc57c65.jpg"
   },
   {
-    "name": "ach_Hidden_VIII",
+    "name": "ach_excevator_1",
     "defaultvalue": 0,
-    "displayName": "Hidden VIII",
-    "hidden": 1,
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/648800/",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/648800/"
+    "displayName": "Beginner Excavator!",
+    "hidden": 0,
+    "description": "Dig up a treasure.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/648800/9ab16cc0e0fcc3114d1f88ca5c9e5a96481b97b0.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/648800/0d33085f14f2cf2ebfc0aa1fde8006f847340cae.jpg"
   },
   {
-    "name": "ach_Hidden_IX",
+    "name": "ach_excevator_20",
     "defaultvalue": 0,
-    "displayName": "Hidden IX",
-    "hidden": 1,
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/648800/",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/648800/"
+    "displayName": "Intermediate Excavator!",
+    "hidden": 0,
+    "description": "Dig up 20 treasures.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/648800/7b3c8361f19cca1395dda23bf7f3c86887739850.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/648800/8494a07a7ba2da0eccaeb2c1f21ea106d0d99ecd.jpg"
   },
   {
-    "name": "ach_Hidden_X",
+    "name": "ach_excevator_50",
     "defaultvalue": 0,
-    "displayName": "Hidden X",
-    "hidden": 1,
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/648800/",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/648800/"
+    "displayName": "Expert Excavator!",
+    "hidden": 0,
+    "description": "Dig up 50 treasures.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/648800/7738966b0a8e6fd625d8f6adfc7f8b458591f667.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/648800/b86ebfc2e11f994fcc6459836b3ded564a42c6fe.jpg"
   },
   {
-    "name": "ach_Hidden_XI",
+    "name": "ach_tiki_completed",
     "defaultvalue": 0,
-    "displayName": "Hidden XI",
+    "displayName": "Former Glory!",
     "hidden": 1,
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/648800/",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/648800/"
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/648800/25ea3813ccc458ef62f7060802505c99b96b826e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/648800/c49c4e7d61d247c28890b613ed4398e41308acd0.jpg"
   },
   {
-    "name": "ach_Hidden_XII",
+    "name": "ach_pipes_30",
     "defaultvalue": 0,
-    "displayName": "Hidden XII",
-    "hidden": 1,
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/648800/",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/648800/"
+    "displayName": "Plumber Power!",
+    "hidden": 0,
+    "description": "Have 30 pipes placed at once.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/648800/24ff274a7747aba261162cced42a7881b624ca11.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/648800/5d3302e038d9f30babe88837fcdb7f4ec92e785f.jpg"
   },
   {
-    "name": "ach_Hidden_XIII",
+    "name": "ach_beekeeper_10",
     "defaultvalue": 0,
-    "displayName": "Hidden XIII",
-    "hidden": 1,
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/648800/",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/648800/"
+    "displayName": "Bee Keeper!",
+    "hidden": 0,
+    "description": "Have 10 beehives placed at once.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/648800/41ef4f0469ba961afc0679d0b00e0e58d8c0972a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/648800/c8c11ee1b504ee05250e782d7c62e89a43b22177.jpg"
   },
   {
-    "name": "ach_Hidden_XIV",
+    "name": "ach_beeCaptures_1",
     "defaultvalue": 0,
-    "displayName": "Hidden XIV",
-    "hidden": 1,
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/648800/",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/648800/"
+    "displayName": "Beginner Bee-nevolent!",
+    "hidden": 0,
+    "description": "Capture 1 bee.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/648800/08c27fc9a6dedec30f5565a705c8113a8337b737.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/648800/50fcb20221e6477b55baed97694e371b8fcfcf98.jpg"
   },
   {
-    "name": "ach_Hidden_XV",
+    "name": "ach_beeCaptures_10",
     "defaultvalue": 0,
-    "displayName": "Hidden XV",
-    "hidden": 1,
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/648800/",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/648800/"
+    "displayName": "Intermediate Bee-nevolent!",
+    "hidden": 0,
+    "description": "Capture 10 bees.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/648800/082d687c18362e445bdd4d509a8e9d1262d5d9cd.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/648800/cf41d3b89cd34ec6dfe8214f14bbe94e57f2318b.jpg"
   },
   {
-    "name": "ach_Hidden_XVI",
+    "name": "ach_beeCaptures_25",
     "defaultvalue": 0,
-    "displayName": "Hidden XVI",
-    "hidden": 1,
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/648800/",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/648800/"
+    "displayName": "Expert Bee-nevolent!",
+    "hidden": 0,
+    "description": "Capture 25 bees.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/648800/6d77541be738f96d5a2678b2bf63ebb84105c9df.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/648800/e376b1a3d7ccf3d66d0bc21f433736488741b7e7.jpg"
   },
   {
-    "name": "ach_Hidden_XVII",
+    "name": "ach_secret_tangaroa_claw",
     "defaultvalue": 0,
-    "displayName": "Hidden XVII",
+    "displayName": "Boxed In!",
     "hidden": 1,
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/648800/",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/648800/"
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/648800/63c6dec0c7b38fc38cc217fe06802f87db1a6058.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/648800/eb13c2125b3595b21eefe9659aa958da4a668f41.jpg"
   },
   {
-    "name": "ach_Hidden_XVIII",
+    "name": "ach_instrument_notes_1",
     "defaultvalue": 0,
-    "displayName": "Hidden XVIII",
+    "displayName": "Instrumentalist!",
     "hidden": 1,
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/648800/",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/648800/"
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/648800/335dbfbd9e69400f149e05fc1f284bd178c85789.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/648800/33f7576351cba0131b8441ef23b08d100aa64364.jpg"
   },
   {
-    "name": "ach_Hidden_XIX",
+    "name": "ach_token_tangaroa_10",
     "defaultvalue": 0,
-    "displayName": "Hidden XIX",
-    "hidden": 1,
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/648800/",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/648800/"
+    "displayName": "Small Spender! ",
+    "hidden": 0,
+    "description": "Spend 10 tokens.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/648800/c56ccb66cd6e789071cc9f66cb32d947db142c0f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/648800/323f32fd1f377310a940298ff14f0ad0c51787e5.jpg"
   },
   {
-    "name": "ach_Hidden_XX",
+    "name": "ach_token_tangaroa_20",
     "defaultvalue": 0,
-    "displayName": "Hidden XX",
-    "hidden": 1,
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/648800/",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/648800/"
+    "displayName": "Medium Spender!",
+    "hidden": 0,
+    "description": "Spend 20 tokens.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/648800/328a58f69ddd25017e6185fe0c29e139d791449e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/648800/54599989abbefeab648c4b1c88fb87a59a61f73b.jpg"
   },
   {
-    "name": "ach_Hidden_XXI",
+    "name": "ach_token_tangaroa_30",
     "defaultvalue": 0,
-    "displayName": "Hidden XXI",
-    "hidden": 1,
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/648800/",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/648800/"
+    "displayName": "Big Spender!",
+    "hidden": 0,
+    "description": "Spend 30 tokens.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/648800/5e1162e666a0917433c7c474e2719c8c2f3b3e7d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/648800/c44275b85fddf179dc017b5b6f4616776fde52c2.jpg"
   },
   {
-    "name": "ach_Hidden_XXII",
+    "name": "ach_botKiller_1",
     "defaultvalue": 0,
-    "displayName": "Hidden XXII",
-    "hidden": 1,
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/648800/",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/648800/"
+    "displayName": "Beginner Disruptor!",
+    "hidden": 0,
+    "description": "Disrupt 1 Butler-Bot.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/648800/e20d919bf56bd403e22c1aa4410c50bda7dd6a41.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/648800/f96fb9c7829cd94a5b986636cd1fa2bfa0fc1a70.jpg"
   },
   {
-    "name": "ach_Hidden_XXIII",
+    "name": "ach_botKiller_10",
     "defaultvalue": 0,
-    "displayName": "Hidden XXIII",
-    "hidden": 1,
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/648800/",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/648800/"
+    "displayName": "Intermediate Disruptor!",
+    "hidden": 0,
+    "description": "Disrupt 10 Butler-Bots.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/648800/be0d65a53400fa35c9171b01dc2e433ee9285817.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/648800/98468e57477dc49f5ebe7a79fb60cb579d173214.jpg"
   },
   {
-    "name": "ach_Hidden_XXIV",
+    "name": "ach_botKiller_20",
     "defaultvalue": 0,
-    "displayName": "Hidden XXIV",
-    "hidden": 1,
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/648800/",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/648800/"
+    "displayName": "Expert Disruptor!",
+    "hidden": 0,
+    "description": "Disrupt 20 Butler-Bots.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/648800/ec2793ecd76f15d1056ba7ace323413fccb4090c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/648800/bd82d2251404282e708213993cf233a2094d07e8.jpg"
   },
   {
-    "name": "ach_Hidden_XXV",
+    "name": "ach_tangaroa_cockpitLaunch",
     "defaultvalue": 0,
-    "displayName": "Hidden XXV",
+    "displayName": "Launch Initiated!",
     "hidden": 1,
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/648800/",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/648800/"
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/648800/15931555c59ea4d6e48ff1b9d2013db07dde1266.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/648800/5e6eca5fc2262a8ca86a8157f436613efc5a8269.jpg"
   },
   {
-    "name": "ach_Hidden_XXVI",
+    "name": "ach_fireworks_50",
     "defaultvalue": 0,
-    "displayName": "Hidden XXVI",
-    "hidden": 1,
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/648800/",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/648800/"
+    "displayName": "Real Fireworks!",
+    "hidden": 0,
+    "description": "Witness 50 firework explosions.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/648800/59ac292988a48d6cada423bd8a527c3886d6e47e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/648800/aa2631369d41c5e8b9e383a701eca87e33a8c686.jpg"
   },
   {
-    "name": "ach_Hidden_XXVII",
+    "name": "ach_hidden_tangaroa_room",
     "defaultvalue": 0,
-    "displayName": "Hidden_XXVII",
+    "displayName": "You Should Not Be Here!",
     "hidden": 1,
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/648800/",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/648800/"
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/648800/d895eccc9894f4b661e640814d1ab0d20acb908b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/648800/29e90c565465cc95d34bec6735385d5c00e6f618.jpg"
   }
 ]
