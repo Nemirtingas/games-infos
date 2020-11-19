@@ -1,0 +1,283 @@
+{
+   "actions_sets" : {
+      "InGameControls" : {
+         "title" : "#TITLE_ACTION",
+         "digital" : {
+            "RIGHT" : "#MOVE_RIGHT",
+            "START" : "#PAUSE",
+            "RB" : "#CAMERA_CHANGE_R",
+            "UP" : "#MOVE_UP",
+            "y" : "#BOMB_KICK_STOP_Y",
+            "B" : "#BOMB_PUT_THROW_B",
+            "Down" : "#MOVE_DOWN",
+            "A" : "#CHARA_SKILL_A",
+            "LB" : "#CAMERA_CHANGE_L",
+            "LEFT" : "#MOVE_LEFT",
+            "x" : "#BOMB_PUNCH_X"
+         },
+         "analog" : {
+            "Move" : "#TITLE_MOVE"
+         },
+         "legacy_set" : "0"
+      }
+   },
+   "actions" : {
+      "analog" : {
+         "Move" : {
+            "mode" : "joystick_move",
+            "description" : "Action_Move",
+            "button" : "joystick"
+         }
+      },
+      "digital" : {
+         "x" : {
+            "description" : "X button",
+            "mode" : "four_buttons",
+            "activator" : "Full_Press",
+            "button" : "button_x"
+         },
+         "LB" : {
+            "button" : "left_bumper",
+            "activator" : "Full_Press",
+            "description" : "LB button",
+            "mode" : "switches"
+         },
+         "LEFT" : {
+            "button" : "dpad_west",
+            "activator" : "Full_Press",
+            "description" : "#Action_LEFT",
+            "mode" : "dpad"
+         },
+         "y" : {
+            "activator" : "Full_Press",
+            "button" : "button_y",
+            "mode" : "four_buttons",
+            "description" : "Y button"
+         },
+         "B" : {
+            "mode" : "four_buttons",
+            "description" : "B button",
+            "activator" : "Full_Press",
+            "button" : "button_b"
+         },
+         "A" : {
+            "description" : "A button",
+            "mode" : "four_buttons",
+            "button" : "button_a",
+            "activator" : "Full_Press"
+         },
+         "Down" : {
+            "activator" : "Full_Press",
+            "button" : "dpad_south",
+            "description" : "#Action_DOWN",
+            "mode" : "dpad"
+         },
+         "START" : {
+            "mode" : "switches",
+            "description" : "START button",
+            "activator" : "Full_Press",
+            "button" : "button_escape"
+         },
+         "UP" : {
+            "description" : "#Action_UP",
+            "mode" : "dpad",
+            "button" : "dpad_north",
+            "activator" : "Full_Press"
+         },
+         "RB" : {
+            "activator" : "Full_Press",
+            "button" : "right_bumper",
+            "description" : "RB button",
+            "mode" : "switches"
+         },
+         "RIGHT" : {
+            "description" : "#Action_RIGHT",
+            "mode" : "dpad",
+            "button" : "dpad_east",
+            "activator" : "Full_Press"
+         }
+      }
+   },
+   "localizations" : {
+      "portuguese" : {
+         "PAUSE" : "Pause",
+         "BOMB_PUT_THROW_B" : "Plantar / Arremessar bomba",
+         "TITLE_MOVE" : "Mover personagem",
+         "CAMERA_CHANGE_L" : "Mudança da câmera (Esquerda)",
+         "CAMERA_CHANGE_R" : "Mudança da câmera (Direita)",
+         "CHARA_SKILL_A" : "Habilidade Especial",
+         "MOVE_RIGHT" : "Movimento do personagem (Direita)",
+         "BOMB_PUNCH_X" : "Socar bomba",
+         "MOVE_UP" : "Movimento do personagem (Para cima)",
+         "MOVE_DOWN" : "Movimento do personagem (Para baixo)",
+         "TITLE_ACTION" : "Operação no jogo",
+         "MOVE_LEFT" : "Movimento do personagem (Esquerda)",
+         "BOMB_KICK_STOP_Y" : "Parar bomba chutada"
+      },
+      "tchinese" : {
+         "MOVE_DOWN" : "角色移动（下）",
+         "BOMB_KICK_STOP_Y" : "停止轰炸",
+         "MOVE_LEFT" : "角色移动（左）",
+         "TITLE_ACTION" : "游戏内操作",
+         "BOMB_PUNCH_X" : "炸弹冲击",
+         "MOVE_UP" : "角色移动（上）",
+         "MOVE_RIGHT" : "角色移动（右）",
+         "CHARA_SKILL_A" : "特殊能力",
+         "BOMB_PUT_THROW_B" : "埋炸弹 / 扔炸弹",
+         "PAUSE" : "暂停",
+         "CAMERA_CHANGE_L" : "视角切换（左）",
+         "CAMERA_CHANGE_R" : "视角切换（右）",
+         "TITLE_MOVE" : "移动角色"
+      },
+      "english" : {
+         "MOVE_RIGHT" : "Move Right",
+         "CHARA_SKILL_A" : "Special Ability",
+         "CAMERA_CHANGE_R" : "Pan Camera (Right)",
+         "CAMERA_CHANGE_L" : "Pan Camera (Left)",
+         "TITLE_MOVE" : "Move Character",
+         "BOMB_PUT_THROW_B" : "Plant / Throw Bomb",
+         "PAUSE" : "Pause",
+         "BOMB_KICK_STOP_Y" : "Stop Bomb Kick",
+         "MOVE_LEFT" : "Move Left",
+         "TITLE_ACTION" : "In-game Action",
+         "MOVE_DOWN" : "Move Down",
+         "MOVE_UP" : "Move Up",
+         "BOMB_PUNCH_X" : "Bomb Punch"
+      },
+      "french" : {
+         "MOVE_RIGHT" : "Déplacer le personnage (Droite)",
+         "CHARA_SKILL_A" : "Capacité spéciale",
+         "PAUSE" : "Pause",
+         "BOMB_PUT_THROW_B" : "Poser / Jeter une bombe",
+         "TITLE_MOVE" : "Déplacer le personnage",
+         "CAMERA_CHANGE_L" : "Déplacer la caméra (Gauche)",
+         "CAMERA_CHANGE_R" : "Déplacer la caméra (Droite)",
+         "MOVE_DOWN" : "Déplacer le personnage (Bas)",
+         "TITLE_ACTION" : "Contrôles du jeu",
+         "MOVE_LEFT" : "Déplacer le personnage (Gauche)",
+         "BOMB_KICK_STOP_Y" : "Coup de pied stoppeur",
+         "BOMB_PUNCH_X" : "Frapper une bombe",
+         "MOVE_UP" : "Déplacer le personnage (Haut)"
+      },
+      "japanese" : {
+         "BOMB_KICK_STOP_Y" : "ボムキック停止",
+         "MOVE_LEFT" : "キャラ移動(左)",
+         "TITLE_ACTION" : "ゲーム内操作",
+         "MOVE_DOWN" : "キャラ移動(下)",
+         "MOVE_UP" : "キャラ移動(上)",
+         "BOMB_PUNCH_X" : "ボムパンチ",
+         "CHARA_SKILL_A" : "特殊能力",
+         "MOVE_RIGHT" : "キャラ移動(右)",
+         "CAMERA_CHANGE_R" : "カメラ変更(右)",
+         "CAMERA_CHANGE_L" : "カメラ変更(左)",
+         "TITLE_MOVE" : "キャラ移動",
+         "BOMB_PUT_THROW_B" : "ボム設置＋投げ",
+         "PAUSE" : "ポーズ"
+      },
+      "spanish" : {
+         "PAUSE" : "Pausa",
+         "BOMB_PUT_THROW_B" : "Poner / lanzar bomba",
+         "TITLE_MOVE" : "Mover personaje",
+         "CAMERA_CHANGE_R" : "Cambio de cámara (derecha)",
+         "CAMERA_CHANGE_L" : "Cambio de cámara (izquierda)",
+         "CHARA_SKILL_A" : "Habilidad especial",
+         "MOVE_RIGHT" : "Movimiento del personaje (derecha)",
+         "BOMB_PUNCH_X" : "Puñetazo bomba",
+         "MOVE_UP" : "Movimiento del personaje (abajo)",
+         "MOVE_DOWN" : "Movimiento del personaje (arriba)",
+         "MOVE_LEFT" : "Movimiento del personaje (izquierda)",
+         "TITLE_ACTION" : "Controles del juego",
+         "BOMB_KICK_STOP_Y" : "Parar patada bomba"
+      },
+      "german" : {
+         "CHARA_SKILL_A" : "Spezialfähigkeiten",
+         "MOVE_RIGHT" : "Spielfigur bewegen (nach rechts)",
+         "CAMERA_CHANGE_R" : "Kamera wechseln (nach rechts)",
+         "CAMERA_CHANGE_L" : "Kamera wechseln (nach links)",
+         "TITLE_MOVE" : "Spielfigur bewegen",
+         "BOMB_PUT_THROW_B" : "Platziere / Wirf Bombe",
+         "PAUSE" : "Pause",
+         "BOMB_KICK_STOP_Y" : "Bombenkick stoppen",
+         "TITLE_ACTION" : "Steuerung im Spiel",
+         "MOVE_LEFT" : "Spielfigur bewegen (nach links)",
+         "MOVE_DOWN" : "Spielfigur bewegen (nach unten)",
+         "MOVE_UP" : "Spielfigur bewegen (nach oben)",
+         "BOMB_PUNCH_X" : "Bombenschlag"
+      },
+      "italian" : {
+         "MOVE_DOWN" : "Muovi personaggio (giù)",
+         "BOMB_KICK_STOP_Y" : "Ferma calcio a bomba",
+         "MOVE_LEFT" : "Muovi personaggio (sinistra)",
+         "TITLE_ACTION" : "Controlli di gioco",
+         "BOMB_PUNCH_X" : "Pugno a bomba",
+         "MOVE_UP" : "Muovi personaggio (su)",
+         "MOVE_RIGHT" : "Muovi personaggio (destra)",
+         "CHARA_SKILL_A" : "Abilità speciali",
+         "BOMB_PUT_THROW_B" : "Piazza / Lancia bomba",
+         "PAUSE" : "Pausa",
+         "CAMERA_CHANGE_L" : "Cambia visuale (sinistra)",
+         "CAMERA_CHANGE_R" : "Cambia visuale (destra)",
+         "TITLE_MOVE" : "Muovi personaggio"
+      },
+      "russian" : {
+         "MOVE_DOWN" : "Движение персонажа (Вниз)",
+         "BOMB_KICK_STOP_Y" : "Бомбостоп",
+         "TITLE_ACTION" : "Управление игрой",
+         "MOVE_LEFT" : "Движение персонажа (Влево)",
+         "BOMB_PUNCH_X" : "Бомбовый Удар",
+         "MOVE_UP" : "Движение персонажа (Вверх)",
+         "MOVE_RIGHT" : "Движение персонажа (Вправо)",
+         "CHARA_SKILL_A" : "Особая Способность",
+         "BOMB_PUT_THROW_B" : "Установить",
+         "PAUSE" : "Пауза",
+         "CAMERA_CHANGE_L" : "Изменить персонажа (Влево)",
+         "CAMERA_CHANGE_R" : "Извенить персонажа (Вправо)",
+         "TITLE_MOVE" : "Движение персонажа"
+      },
+      "dutch" : {
+         "MOVE_UP" : "Beweeg Personage (Boven)",
+         "BOMB_PUNCH_X" : "Bom Stoot",
+         "BOMB_KICK_STOP_Y" : "Stop Bom Trap",
+         "MOVE_LEFT" : "Beweeg Personage (Links)",
+         "TITLE_ACTION" : "In-game besturing",
+         "MOVE_DOWN" : "Beweeg Personage (Onder)",
+         "CAMERA_CHANGE_R" : "Camerastandpunt (Rechts)",
+         "CAMERA_CHANGE_L" : "Camerastandpunt (Links)",
+         "TITLE_MOVE" : "Beweeg Personage",
+         "BOMB_PUT_THROW_B" : "Plaats / Gooi Bom",
+         "PAUSE" : "Pauze",
+         "MOVE_RIGHT" : "Beweeg Personage (Rechts)",
+         "CHARA_SKILL_A" : "Speciale Vaardigheid"
+      },
+      "brazilian" : {
+         "CHARA_SKILL_A" : "Habilidade Especial",
+         "MOVE_RIGHT" : "Movimento do personagem (Direita)",
+         "PAUSE" : "Pause",
+         "BOMB_PUT_THROW_B" : "Plantar / Arremessar bomba",
+         "TITLE_MOVE" : "Mover personagem",
+         "CAMERA_CHANGE_R" : "Mudança da câmera (Direita)",
+         "CAMERA_CHANGE_L" : "Mudança da câmera (Esquerda)",
+         "MOVE_DOWN" : "Movimento do personagem (Para baixo)",
+         "TITLE_ACTION" : "Operação no jogo",
+         "MOVE_LEFT" : "Movimento do personagem (Esquerda)",
+         "BOMB_KICK_STOP_Y" : "Parar bomba chutada",
+         "BOMB_PUNCH_X" : "Socar bomba",
+         "MOVE_UP" : "Movimento do personagem (Para cima)"
+      },
+      "schinese" : {
+         "CAMERA_CHANGE_R" : "視角切換（右）",
+         "CAMERA_CHANGE_L" : "視角切換（左）",
+         "TITLE_MOVE" : "移動角色",
+         "BOMB_PUT_THROW_B" : "放下與投擲炸彈",
+         "PAUSE" : "暫停",
+         "MOVE_RIGHT" : "角色移動（右）",
+         "CHARA_SKILL_A" : "特殊能力",
+         "MOVE_UP" : "角色移動（上）",
+         "BOMB_PUNCH_X" : "推炸彈",
+         "BOMB_KICK_STOP_Y" : "停止踢炸彈",
+         "TITLE_ACTION" : "遊戲內操作",
+         "MOVE_LEFT" : "角色移動（左）",
+         "MOVE_DOWN" : "角色移動（下）"
+      }
+   }
+}
