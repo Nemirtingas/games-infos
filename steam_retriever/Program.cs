@@ -440,7 +440,7 @@ namespace steam_db
 
                                 switch (type)
                                 {
-                                    case "music:"
+                                    case "music":
                                     case "dlc":
                                     {
                                         string main_appid;
