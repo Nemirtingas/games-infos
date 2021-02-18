@@ -15,7 +15,7 @@ namespace steam_db
     class Program
     {
         static string out_dir;
-	static string webapi_key;
+    static string webapi_key;
         static string language;
         static bool download_images;
         static bool force;
@@ -198,8 +198,9 @@ namespace steam_db
             string header_image = (string)json[appid]["data"]["header_image"];
 
             JObject infos = new JObject();
-            infos.Add("Name", name);
-            infos.Add("ImageUrl", header_image);
+            infos["Name"] = name;
+            infos["ImageUrl"] = header_image;
+            infos["Type"] = type;
 
             Console.WriteLine(string.Format("  \\ Type {0}, DLCID {1}, DLCName {2}, MainAppID {3}", type, appid, name, main_appid));
 
@@ -282,8 +283,9 @@ namespace steam_db
             return infos;
         }
 
-        static JObject ParseOther(string appid, string type, JObject json)
+        static JObject ParseOther(string appid, string type, JObject json, out string main_appid)
         {
+            main_appid = (string)json[appid]["data"]["fullgame"]["appid"];
             string name = (string)json[appid]["data"]["name"];
             string header_image = (string)json[appid]["data"]["header_image"];
 
@@ -438,6 +440,7 @@ namespace steam_db
 
                                 switch (type)
                                 {
+                                    case "music:"
                                     case "dlc":
                                     {
                                         string main_appid;
@@ -470,10 +473,15 @@ namespace steam_db
 
                                     default:
                                     {
-                                        JObject app = ParseOther(appid, type, app_json);
-                                        games_infos[appid] = app;
+                                        string main_appid;
+                                        JObject other = ParseOther(appid, type, app_json, out main_appid);
+                                        games_infos[appid] = other;
 
-                                        SaveJson(Path.Combine(out_dir, appid, appid + ".json"), app);
+                                        JObject app = GetOrCreateApp(main_appid, false);
+                                        ((JObject)app["Dlcs"]).Remove(appid);
+
+                                        SaveJson(Path.Combine(out_dir, appid, appid + ".json"), other);
+                                        SaveJson(Path.Combine(out_dir, main_appid, main_appid + ".json"), app);
                                     }
                                     break;
                                 }
