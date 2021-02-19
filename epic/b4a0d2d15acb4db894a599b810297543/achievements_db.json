@@ -1,0 +1,940 @@
+{
+  "Acquire_10_Armor_Sets": {
+    "achievement_id": "Acquire_10_Armor_Sets",
+    "unlocked_display_name": "Equipment Enthusiast",
+    "unlocked_description": "Acquire 10 armor sets",
+    "locked_display_name": "Equipment Enthusiast",
+    "locked_description": "Acquire 10 armor sets",
+    "hidden_description": "",
+    "flavor_text": "",
+    "completion_description": "",
+    "unlocked_icon_url": "achievements_images/Acquire_10_Armor_Sets.jpg",
+    "locked_icon_url": "achievements_images/Acquire_10_Armor_Sets_locked.jpg",
+    "is_hidden": false,
+    "stats_thresholds": {
+      "Acquire_10_Armor_Sets": {
+        "name": "Acquire_10_Armor_Sets",
+        "threshold": 0
+      }
+    }
+  },
+  "Acquire_10_Traits": {
+    "achievement_id": "Acquire_10_Traits",
+    "unlocked_display_name": "Good Start",
+    "unlocked_description": "Acquire 10 traits",
+    "locked_display_name": "Good Start",
+    "locked_description": "Acquire 10 traits",
+    "hidden_description": "",
+    "flavor_text": "",
+    "completion_description": "",
+    "unlocked_icon_url": "achievements_images/Acquire_10_Traits.jpg",
+    "locked_icon_url": "achievements_images/Acquire_10_Traits_locked.jpg",
+    "is_hidden": false,
+    "stats_thresholds": {
+      "Acquire_10_Traits": {
+        "name": "Acquire_10_Traits",
+        "threshold": 0
+      }
+    }
+  },
+  "Acquire_15_Armor_Skins": {
+    "achievement_id": "Acquire_15_Armor_Skins",
+    "unlocked_display_name": "Fashion!",
+    "unlocked_description": "Purchase 15 Armor Skins",
+    "locked_display_name": "Fashion!",
+    "locked_description": "Purchase 15 Armor Skins",
+    "hidden_description": "",
+    "flavor_text": "",
+    "completion_description": "",
+    "unlocked_icon_url": "achievements_images/Acquire_15_Armor_Skins.jpg",
+    "locked_icon_url": "achievements_images/Acquire_15_Armor_Skins_locked.jpg",
+    "is_hidden": false,
+    "stats_thresholds": {
+      "Acquire_15_Armor_Skins": {
+        "name": "Acquire_15_Armor_Skins",
+        "threshold": 0
+      }
+    }
+  },
+  "Acquire_15_Weapon_Mods": {
+    "achievement_id": "Acquire_15_Weapon_Mods",
+    "unlocked_display_name": "Mod Enthusiast",
+    "unlocked_description": "Acquire 15 weapon mods",
+    "locked_display_name": "Mod Enthusiast",
+    "locked_description": "Acquire 15 weapon mods",
+    "hidden_description": "",
+    "flavor_text": "",
+    "completion_description": "",
+    "unlocked_icon_url": "achievements_images/Acquire_15_Weapon_Mods.jpg",
+    "locked_icon_url": "achievements_images/Acquire_15_Weapon_Mods_locked.jpg",
+    "is_hidden": false,
+    "stats_thresholds": {
+      "Acquire_15_Weapon_Mods": {
+        "name": "Acquire_15_Weapon_Mods",
+        "threshold": 0
+      }
+    }
+  },
+  "Acquire_1_Trait": {
+    "achievement_id": "Acquire_1_Trait",
+    "unlocked_display_name": "First…But Not The Last!",
+    "unlocked_description": "Acquire first trait",
+    "locked_display_name": "First…But Not The Last!",
+    "locked_description": "Acquire first trait",
+    "hidden_description": "",
+    "flavor_text": "",
+    "completion_description": "",
+    "unlocked_icon_url": "achievements_images/Acquire_1_Trait.jpg",
+    "locked_icon_url": "achievements_images/Acquire_1_Trait_locked.jpg",
+    "is_hidden": false,
+    "stats_thresholds": {
+      "Acquire_1_Trait": {
+        "name": "Acquire_1_Trait",
+        "threshold": 0
+      }
+    }
+  },
+  "Acquire_20_Traits": {
+    "achievement_id": "Acquire_20_Traits",
+    "unlocked_display_name": "That's a Lot of Traits!",
+    "unlocked_description": "Acquire 20 traits",
+    "locked_display_name": "That's a Lot of Traits!",
+    "locked_description": "Acquire 20 traits",
+    "hidden_description": "",
+    "flavor_text": "",
+    "completion_description": "",
+    "unlocked_icon_url": "achievements_images/Acquire_20_Traits.jpg",
+    "locked_icon_url": "achievements_images/Acquire_20_Traits_locked.jpg",
+    "is_hidden": false,
+    "stats_thresholds": {
+      "Acquire_20_Traits": {
+        "name": "Acquire_20_Traits",
+        "threshold": 0
+      }
+    }
+  },
+  "Acquire_30_Traits": {
+    "achievement_id": "Acquire_30_Traits",
+    "unlocked_display_name": "Unleash Your Potential",
+    "unlocked_description": "Acquire 30 traits",
+    "locked_display_name": "Unleash Your Potential",
+    "locked_description": "Acquire 30 traits",
+    "hidden_description": "",
+    "flavor_text": "",
+    "completion_description": "",
+    "unlocked_icon_url": "achievements_images/Acquire_30_Traits.jpg",
+    "locked_icon_url": "achievements_images/Acquire_30_Traits_locked.jpg",
+    "is_hidden": false,
+    "stats_thresholds": {
+      "Acquire_30_Traits": {
+        "name": "Acquire_30_Traits",
+        "threshold": 0
+      }
+    }
+  },
+  "Acquire_40_Armor_Skins": {
+    "achievement_id": "Acquire_40_Armor_Skins",
+    "unlocked_display_name": "Fashion is Danger",
+    "unlocked_description": "Purchase 40 Armor Skins",
+    "locked_display_name": "Fashion is Danger",
+    "locked_description": "Purchase 40 Armor Skins",
+    "hidden_description": "",
+    "flavor_text": "",
+    "completion_description": "",
+    "unlocked_icon_url": "achievements_images/Acquire_40_Armor_Skins.jpg",
+    "locked_icon_url": "achievements_images/Acquire_40_Armor_Skins_locked.jpg",
+    "is_hidden": false,
+    "stats_thresholds": {
+      "Acquire_40_Armor_Skins": {
+        "name": "Acquire_40_Armor_Skins",
+        "threshold": 0
+      }
+    }
+  },
+  "Acquire_5_Armor_Sets": {
+    "achievement_id": "Acquire_5_Armor_Sets",
+    "unlocked_display_name": "Equipment Collector",
+    "unlocked_description": "Acquire 5 armor sets",
+    "locked_display_name": "Equipment Collector",
+    "locked_description": "Acquire 5 armor sets",
+    "hidden_description": "",
+    "flavor_text": "",
+    "completion_description": "",
+    "unlocked_icon_url": "achievements_images/Acquire_5_Armor_Sets.jpg",
+    "locked_icon_url": "achievements_images/Acquire_5_Armor_Sets_locked.jpg",
+    "is_hidden": false,
+    "stats_thresholds": {
+      "Acquire_5_Armor_Sets": {
+        "name": "Acquire_5_Armor_Sets",
+        "threshold": 0
+      }
+    }
+  },
+  "Acquire_5_Weapon_Mods": {
+    "achievement_id": "Acquire_5_Weapon_Mods",
+    "unlocked_display_name": "Mod Collector",
+    "unlocked_description": "Acquire 5 weapon mods",
+    "locked_display_name": "Mod Collector",
+    "locked_description": "Acquire 5 weapon mods",
+    "hidden_description": "",
+    "flavor_text": "",
+    "completion_description": "",
+    "unlocked_icon_url": "achievements_images/Acquire_5_Weapon_Mods.jpg",
+    "locked_icon_url": "achievements_images/Acquire_5_Weapon_Mods_locked.jpg",
+    "is_hidden": false,
+    "stats_thresholds": {
+      "Acquire_5_Weapon_Mods": {
+        "name": "Acquire_5_Weapon_Mods",
+        "threshold": 0
+      }
+    }
+  },
+  "Complete_Tutorial": {
+    "achievement_id": "Complete_Tutorial",
+    "unlocked_display_name": "Fade to White",
+    "unlocked_description": "Activate the Ward 13 World Stone",
+    "locked_display_name": "Fade to White",
+    "locked_description": "Activate the Ward 13 World Stone",
+    "hidden_description": "",
+    "flavor_text": "",
+    "completion_description": "",
+    "unlocked_icon_url": "achievements_images/Complete_Tutorial.jpg",
+    "locked_icon_url": "achievements_images/Complete_Tutorial_locked.jpg",
+    "is_hidden": false,
+    "stats_thresholds": {
+      "Complete_Tutorial": {
+        "name": "Complete_Tutorial",
+        "threshold": 0
+      }
+    }
+  },
+  "Craft_Boss_Weapon": {
+    "achievement_id": "Craft_Boss_Weapon",
+    "unlocked_display_name": "Ready For Action",
+    "unlocked_description": "Craft a weapon using material from a defeated world boss",
+    "locked_display_name": "Ready For Action",
+    "locked_description": "Craft a weapon using material from a defeated world boss",
+    "hidden_description": "",
+    "flavor_text": "",
+    "completion_description": "",
+    "unlocked_icon_url": "achievements_images/Craft_Boss_Weapon.jpg",
+    "locked_icon_url": "achievements_images/Craft_Boss_Weapon_locked.jpg",
+    "is_hidden": false,
+    "stats_thresholds": {
+      "Craft_Boss_Weapon": {
+        "name": "Craft_Boss_Weapon",
+        "threshold": 0
+      }
+    }
+  },
+  "Craft_Boss_Weapon_5": {
+    "achievement_id": "Craft_Boss_Weapon_5",
+    "unlocked_display_name": "Like a Boss",
+    "unlocked_description": "Upgrade a boss weapon to +5",
+    "locked_display_name": "Like a Boss",
+    "locked_description": "Upgrade a boss weapon to +5",
+    "hidden_description": "",
+    "flavor_text": "",
+    "completion_description": "",
+    "unlocked_icon_url": "achievements_images/Craft_Boss_Weapon_5.jpg",
+    "locked_icon_url": "achievements_images/Craft_Boss_Weapon_5_locked.jpg",
+    "is_hidden": false,
+    "stats_thresholds": {
+      "Craft_Boss_Weapon_5": {
+        "name": "Craft_Boss_Weapon_5",
+        "threshold": 0
+      }
+    }
+  },
+  "Kill_100_Special_Enemies": {
+    "achievement_id": "Kill_100_Special_Enemies",
+    "unlocked_display_name": "Not So Special",
+    "unlocked_description": "Defeat 100 special enemies",
+    "locked_display_name": "Not So Special",
+    "locked_description": "Defeat 100 special enemies",
+    "hidden_description": "",
+    "flavor_text": "",
+    "completion_description": "",
+    "unlocked_icon_url": "achievements_images/Kill_100_Special_Enemies.jpg",
+    "locked_icon_url": "achievements_images/Kill_100_Special_Enemies_locked.jpg",
+    "is_hidden": false
+  },
+  "Kill_Boss_No_Damage": {
+    "achievement_id": "Kill_Boss_No_Damage",
+    "unlocked_display_name": "Untouchable",
+    "unlocked_description": "Defeat a world boss in offline mode without taking damage",
+    "locked_display_name": "",
+    "locked_description": "",
+    "hidden_description": "",
+    "flavor_text": "",
+    "completion_description": "",
+    "unlocked_icon_url": "achievements_images/Kill_Boss_No_Damage.jpg",
+    "locked_icon_url": "achievements_images/Kill_Boss_No_Damage_locked.jpg",
+    "is_hidden": true,
+    "stats_thresholds": {
+      "Kill_Boss_No_Damage": {
+        "name": "Kill_Boss_No_Damage",
+        "threshold": 0
+      }
+    }
+  },
+  "Kill_Claviger": {
+    "achievement_id": "Kill_Claviger",
+    "unlocked_display_name": "The Keymaster",
+    "unlocked_description": "Defeat the Claviger",
+    "locked_display_name": "",
+    "locked_description": "",
+    "hidden_description": "",
+    "flavor_text": "",
+    "completion_description": "",
+    "unlocked_icon_url": "achievements_images/Kill_Claviger.jpg",
+    "locked_icon_url": "achievements_images/Kill_Claviger_locked.jpg",
+    "is_hidden": true,
+    "stats_thresholds": {
+      "Kill_Claviger": {
+        "name": "Kill_Claviger",
+        "threshold": 0
+      }
+    }
+  },
+  "Kill_Dreamer": {
+    "achievement_id": "Kill_Dreamer",
+    "unlocked_display_name": "Dark Awakening",
+    "unlocked_description": "Defeat the Dreamer",
+    "locked_display_name": "",
+    "locked_description": "",
+    "hidden_description": "",
+    "flavor_text": "",
+    "completion_description": "",
+    "unlocked_icon_url": "achievements_images/Kill_Dreamer.jpg",
+    "locked_icon_url": "achievements_images/Kill_Dreamer_locked.jpg",
+    "is_hidden": true,
+    "stats_thresholds": {
+      "Kill_Dreamer": {
+        "name": "Kill_Dreamer",
+        "threshold": 0
+      }
+    }
+  },
+  "Kill_Harsgaard": {
+    "achievement_id": "Kill_Harsgaard",
+    "unlocked_display_name": "Nemesis",
+    "unlocked_description": "Defeat the Final Boss",
+    "locked_display_name": "Nemesis",
+    "locked_description": "Defeat the Final Boss",
+    "hidden_description": "",
+    "flavor_text": "",
+    "completion_description": "",
+    "unlocked_icon_url": "achievements_images/Kill_Harsgaard.jpg",
+    "locked_icon_url": "achievements_images/Kill_Harsgaard_locked.jpg",
+    "is_hidden": false,
+    "stats_thresholds": {
+      "Kill_Harsgaard": {
+        "name": "Kill_Harsgaard",
+        "threshold": 0
+      }
+    }
+  },
+  "Kill_Iskal_Queen": {
+    "achievement_id": "Kill_Iskal_Queen",
+    "unlocked_display_name": "Fall of the Iskal",
+    "unlocked_description": "Defeat the Iskal Queen",
+    "locked_display_name": "",
+    "locked_description": "",
+    "hidden_description": "",
+    "flavor_text": "",
+    "completion_description": "",
+    "unlocked_icon_url": "achievements_images/Kill_Iskal_Queen.jpg",
+    "locked_icon_url": "achievements_images/Kill_Iskal_Queen_locked.jpg",
+    "is_hidden": true,
+    "stats_thresholds": {
+      "Kill_Iskal_Queen": {
+        "name": "Kill_Iskal_Queen",
+        "threshold": 0
+      }
+    }
+  },
+  "Kill_Pan_Wolf": {
+    "achievement_id": "Kill_Pan_Wolf",
+    "unlocked_display_name": "Wolf of the Woods",
+    "unlocked_description": "Defeat the Pan Wolf",
+    "locked_display_name": "",
+    "locked_description": "",
+    "hidden_description": "",
+    "flavor_text": "",
+    "completion_description": "",
+    "unlocked_icon_url": "achievements_images/Kill_Pan_Wolf.jpg",
+    "locked_icon_url": "achievements_images/Kill_Pan_Wolf_locked.jpg",
+    "is_hidden": true
+  },
+  "Kill_Root_Dragon": {
+    "achievement_id": "Kill_Root_Dragon",
+    "unlocked_display_name": "Fire in the Sky",
+    "unlocked_description": "Defeat Singe",
+    "locked_display_name": "",
+    "locked_description": "",
+    "hidden_description": "",
+    "flavor_text": "",
+    "completion_description": "",
+    "unlocked_icon_url": "achievements_images/Kill_Root_Dragon.jpg",
+    "locked_icon_url": "achievements_images/Kill_Root_Dragon_locked.jpg",
+    "is_hidden": true,
+    "stats_thresholds": {
+      "Kill_Root_Dragon": {
+        "name": "Kill_Root_Dragon",
+        "threshold": 0
+      }
+    }
+  },
+  "Kill_Root_Ent": {
+    "achievement_id": "Kill_Root_Ent",
+    "unlocked_display_name": "The Bigger They Are…",
+    "unlocked_description": "Defeat the Ent",
+    "locked_display_name": "",
+    "locked_description": "",
+    "hidden_description": "",
+    "flavor_text": "",
+    "completion_description": "",
+    "unlocked_icon_url": "achievements_images/Kill_Root_Ent.jpg",
+    "locked_icon_url": "achievements_images/Kill_Root_Ent_locked.jpg",
+    "is_hidden": true,
+    "stats_thresholds": {
+      "Kill_Root_Ent": {
+        "name": "Kill_Root_Ent",
+        "threshold": 0
+      }
+    }
+  },
+  "Kill_Swamp_Guardian": {
+    "achievement_id": "Kill_Swamp_Guardian",
+    "unlocked_display_name": "Butterfly Effect",
+    "unlocked_description": "Defeat Ixillis XV",
+    "locked_display_name": "",
+    "locked_description": "",
+    "hidden_description": "",
+    "flavor_text": "",
+    "completion_description": "",
+    "unlocked_icon_url": "achievements_images/Kill_Swamp_Guardian.jpg",
+    "locked_icon_url": "achievements_images/Kill_Swamp_Guardian_locked.jpg",
+    "is_hidden": true,
+    "stats_thresholds": {
+      "Kill_Swamp_Guardian": {
+        "name": "Kill_Swamp_Guardian",
+        "threshold": 0
+      }
+    }
+  },
+  "Kill_Totem_Father": {
+    "achievement_id": "Kill_Totem_Father",
+    "unlocked_display_name": "Watch the Totems!",
+    "unlocked_description": "Defeat the Totem Father",
+    "locked_display_name": "",
+    "locked_description": "",
+    "hidden_description": "",
+    "flavor_text": "",
+    "completion_description": "",
+    "unlocked_icon_url": "achievements_images/Kill_Totem_Father.jpg",
+    "locked_icon_url": "achievements_images/Kill_Totem_Father_locked.jpg",
+    "is_hidden": true,
+    "stats_thresholds": {
+      "Kill_Totem_Father": {
+        "name": "Kill_Totem_Father",
+        "threshold": 0
+      }
+    }
+  },
+  "Kill_Undying_King": {
+    "achievement_id": "Kill_Undying_King",
+    "unlocked_display_name": "Undying, Eh?",
+    "unlocked_description": "Defeat the Undying King",
+    "locked_display_name": "",
+    "locked_description": "",
+    "hidden_description": "",
+    "flavor_text": "",
+    "completion_description": "",
+    "unlocked_icon_url": "achievements_images/Kill_Undying_King.jpg",
+    "locked_icon_url": "achievements_images/Kill_Undying_King_locked.jpg",
+    "is_hidden": true,
+    "stats_thresholds": {
+      "Kill_Undying_King": {
+        "name": "Kill_Undying_King",
+        "threshold": 0
+      }
+    }
+  },
+  "Level_Survival_10": {
+    "achievement_id": "Level_Survival_10",
+    "unlocked_display_name": "Dominator",
+    "unlocked_description": "Defeat 10 Bosses in a row in Survival Mode",
+    "locked_display_name": "Dominator",
+    "locked_description": "Defeat 10 Bosses in a row in Survival Mode",
+    "hidden_description": "",
+    "flavor_text": "",
+    "completion_description": "",
+    "unlocked_icon_url": "achievements_images/Level_Survival_10.jpg",
+    "locked_icon_url": "achievements_images/Level_Survival_10_locked.jpg",
+    "is_hidden": false,
+    "stats_thresholds": {
+      "Level_Survival_10": {
+        "name": "Level_Survival_10",
+        "threshold": 0
+      }
+    }
+  },
+  "Level_Survival_5": {
+    "achievement_id": "Level_Survival_5",
+    "unlocked_display_name": "Survivor",
+    "unlocked_description": "Defeat 5 Bosses in a row in Survival Mode",
+    "locked_display_name": "Survivor",
+    "locked_description": "Defeat 5 Bosses in a row in Survival Mode",
+    "hidden_description": "",
+    "flavor_text": "",
+    "completion_description": "",
+    "unlocked_icon_url": "achievements_images/Level_Survival_5.jpg",
+    "locked_icon_url": "achievements_images/Level_Survival_5_locked.jpg",
+    "is_hidden": false,
+    "stats_thresholds": {
+      "Level_Survival_5": {
+        "name": "Level_Survival_5",
+        "threshold": 0
+      }
+    }
+  },
+  "Level_Trait_10": {
+    "achievement_id": "Level_Trait_10",
+    "unlocked_display_name": "Trait Dabbler",
+    "unlocked_description": "Upgrade any trait to 10",
+    "locked_display_name": "Trait Dabbler",
+    "locked_description": "Upgrade any trait to 10",
+    "hidden_description": "",
+    "flavor_text": "",
+    "completion_description": "",
+    "unlocked_icon_url": "achievements_images/Level_Trait_10.jpg",
+    "locked_icon_url": "achievements_images/Level_Trait_10_locked.jpg",
+    "is_hidden": false,
+    "stats_thresholds": {
+      "Level_Trait_10": {
+        "name": "Level_Trait_10",
+        "threshold": 0
+      }
+    }
+  },
+  "Level_Trait_20": {
+    "achievement_id": "Level_Trait_20",
+    "unlocked_display_name": "Trait Focus",
+    "unlocked_description": "Upgrade any trait to 20",
+    "locked_display_name": "Trait Focus",
+    "locked_description": "Upgrade any trait to 20",
+    "hidden_description": "",
+    "flavor_text": "",
+    "completion_description": "",
+    "unlocked_icon_url": "achievements_images/Level_Trait_20.jpg",
+    "locked_icon_url": "achievements_images/Level_Trait_20_locked.jpg",
+    "is_hidden": false,
+    "stats_thresholds": {
+      "Level_Trait_20": {
+        "name": "Level_Trait_20",
+        "threshold": 0
+      }
+    }
+  },
+  "Listen_Harsgaard": {
+    "achievement_id": "Listen_Harsgaard",
+    "unlocked_display_name": "Other Voices",
+    "unlocked_description": "Listen to all the Recordings in Ward Prime",
+    "locked_display_name": "Other Voices",
+    "locked_description": "Listen to all the Recordings in Ward Prime",
+    "hidden_description": "",
+    "flavor_text": "",
+    "completion_description": "",
+    "unlocked_icon_url": "achievements_images/Listen_Harsgaard.jpg",
+    "locked_icon_url": "achievements_images/Listen_Harsgaard_locked.jpg",
+    "is_hidden": false,
+    "stats_thresholds": {
+      "Listen_Harsgaard": {
+        "name": "Listen_Harsgaard",
+        "threshold": 0
+      }
+    }
+  },
+  "Loot_1000000_Scrap": {
+    "achievement_id": "Loot_1000000_Scrap",
+    "unlocked_display_name": "Scrap Harvester",
+    "unlocked_description": "Acquire 100,000 scrap",
+    "locked_display_name": "Scrap Harvester",
+    "locked_description": "Acquire 100,000 scrap",
+    "hidden_description": "",
+    "flavor_text": "",
+    "completion_description": "",
+    "unlocked_icon_url": "achievements_images/Loot_1000000_Scrap.jpg",
+    "locked_icon_url": "achievements_images/Loot_1000000_Scrap_locked.jpg",
+    "is_hidden": false,
+    "stats_thresholds": {
+      "Loot_1000000_Scrap": {
+        "name": "Loot_1000000_Scrap",
+        "threshold": 0
+      }
+    }
+  },
+  "Loot_2000000_Scrap": {
+    "achievement_id": "Loot_2000000_Scrap",
+    "unlocked_display_name": "Scrap Collector",
+    "unlocked_description": "Acquire 200,000 scrap",
+    "locked_display_name": "Scrap Collector",
+    "locked_description": "Acquire 200,000 scrap",
+    "hidden_description": "",
+    "flavor_text": "",
+    "completion_description": "",
+    "unlocked_icon_url": "achievements_images/Loot_2000000_Scrap.jpg",
+    "locked_icon_url": "achievements_images/Loot_2000000_Scrap_locked.jpg",
+    "is_hidden": false,
+    "stats_thresholds": {
+      "Loot_2000000_Scrap": {
+        "name": "Loot_2000000_Scrap",
+        "threshold": 0
+      }
+    }
+  },
+  "Loot_50000_Scrap": {
+    "achievement_id": "Loot_50000_Scrap",
+    "unlocked_display_name": "One Person's Scrap…",
+    "unlocked_description": "Acquire 50,000 scrap",
+    "locked_display_name": "One Person's Scrap…",
+    "locked_description": "Acquire 50,000 scrap",
+    "hidden_description": "",
+    "flavor_text": "",
+    "completion_description": "",
+    "unlocked_icon_url": "achievements_images/Loot_50000_Scrap.jpg",
+    "locked_icon_url": "achievements_images/Loot_50000_Scrap_locked.jpg",
+    "is_hidden": false,
+    "stats_thresholds": {
+      "Loot_50000_Scrap": {
+        "name": "Loot_50000_Scrap",
+        "threshold": 0
+      }
+    }
+  },
+  "Meet_Andrew_Ford": {
+    "achievement_id": "Meet_Andrew_Ford",
+    "unlocked_display_name": "The Founder",
+    "unlocked_description": "Meet Andrew Ford",
+    "locked_display_name": "",
+    "locked_description": "",
+    "hidden_description": "",
+    "flavor_text": "",
+    "completion_description": "",
+    "unlocked_icon_url": "achievements_images/Meet_Andrew_Ford.jpg",
+    "locked_icon_url": "achievements_images/Meet_Andrew_Ford_locked.jpg",
+    "is_hidden": true,
+    "stats_thresholds": {
+      "Meet_Andrew_Ford": {
+        "name": "Meet_Andrew_Ford",
+        "threshold": 0
+      }
+    }
+  },
+  "Meet_Labyrinth_Keeper": {
+    "achievement_id": "Meet_Labyrinth_Keeper",
+    "unlocked_display_name": "What is the Labyrinth?",
+    "unlocked_description": "Meet the Labyrinth Keeper",
+    "locked_display_name": "",
+    "locked_description": "",
+    "hidden_description": "",
+    "flavor_text": "",
+    "completion_description": "",
+    "unlocked_icon_url": "achievements_images/Meet_Labyrinth_Keeper.jpg",
+    "locked_icon_url": "achievements_images/Meet_Labyrinth_Keeper_locked.jpg",
+    "is_hidden": true,
+    "stats_thresholds": {
+      "Meet_Labyrinth_Keeper": {
+        "name": "Meet_Labyrinth_Keeper",
+        "threshold": 0
+      }
+    }
+  },
+  "Meet_Pan_Rebel_Leader": {
+    "achievement_id": "Meet_Pan_Rebel_Leader",
+    "unlocked_display_name": "Changing of the Guard",
+    "unlocked_description": "Meet the Pan Rebel Leader",
+    "locked_display_name": "",
+    "locked_description": "",
+    "hidden_description": "",
+    "flavor_text": "",
+    "completion_description": "",
+    "unlocked_icon_url": "achievements_images/Meet_Pan_Rebel_Leader.jpg",
+    "locked_icon_url": "achievements_images/Meet_Pan_Rebel_Leader_locked.jpg",
+    "is_hidden": true,
+    "stats_thresholds": {
+      "Meet_Pan_Rebel_Leader": {
+        "name": "Meet_Pan_Rebel_Leader",
+        "threshold": 0
+      }
+    }
+  },
+  "Meet_Root_Mother": {
+    "achievement_id": "Meet_Root_Mother",
+    "unlocked_display_name": "Are You Ok?",
+    "unlocked_description": "Meet the Root Mother",
+    "locked_display_name": "",
+    "locked_description": "",
+    "hidden_description": "",
+    "flavor_text": "",
+    "completion_description": "",
+    "unlocked_icon_url": "achievements_images/Meet_Root_Mother.jpg",
+    "locked_icon_url": "achievements_images/Meet_Root_Mother_locked.jpg",
+    "is_hidden": true,
+    "stats_thresholds": {
+      "Meet_Root_Mother": {
+        "name": "Meet_Root_Mother",
+        "threshold": 0
+      }
+    }
+  },
+  "Meet_Swamp_Queen": {
+    "achievement_id": "Meet_Swamp_Queen",
+    "unlocked_display_name": "Like a Moth to a Flame",
+    "unlocked_description": "Meet the Swamp Queen",
+    "locked_display_name": "",
+    "locked_description": "",
+    "hidden_description": "",
+    "flavor_text": "",
+    "completion_description": "",
+    "unlocked_icon_url": "achievements_images/Meet_Swamp_Queen.jpg",
+    "locked_icon_url": "achievements_images/Meet_Swamp_Queen_locked.jpg",
+    "is_hidden": true,
+    "stats_thresholds": {
+      "Meet_Swamp_Queen": {
+        "name": "Meet_Swamp_Queen",
+        "threshold": 0
+      }
+    }
+  },
+  "Meet_Undying_King": {
+    "achievement_id": "Meet_Undying_King",
+    "unlocked_display_name": "Death Warmed Over",
+    "unlocked_description": "Meet the Undying King",
+    "locked_display_name": "",
+    "locked_description": "",
+    "hidden_description": "",
+    "flavor_text": "",
+    "completion_description": "",
+    "unlocked_icon_url": "achievements_images/Meet_Undying_King.jpg",
+    "locked_icon_url": "achievements_images/Meet_Undying_King_locked.jpg",
+    "is_hidden": true,
+    "stats_thresholds": {
+      "Meet_Undying_King": {
+        "name": "Meet_Undying_King",
+        "threshold": 0
+      }
+    }
+  },
+  "Receive_Mudtooth_Watch": {
+    "achievement_id": "Receive_Mudtooth_Watch",
+    "unlocked_display_name": "This Watch…",
+    "unlocked_description": "Acquire Mudtooth's pocket watch",
+    "locked_display_name": "This Watch…",
+    "locked_description": "Acquire Mudtooth's pocket watch",
+    "hidden_description": "",
+    "flavor_text": "",
+    "completion_description": "",
+    "unlocked_icon_url": "achievements_images/Receive_Mudtooth_Watch.jpg",
+    "locked_icon_url": "achievements_images/Receive_Mudtooth_Watch_locked.jpg",
+    "is_hidden": false,
+    "stats_thresholds": {
+      "Receive_Mudtooth_Watch": {
+        "name": "Receive_Mudtooth_Watch",
+        "threshold": 0
+      }
+    }
+  },
+  "Return_Ace_Coin": {
+    "achievement_id": "Return_Ace_Coin",
+    "unlocked_display_name": "Not So Lucky",
+    "unlocked_description": "Return coin to Ace",
+    "locked_display_name": "",
+    "locked_description": "",
+    "hidden_description": "",
+    "flavor_text": "",
+    "completion_description": "",
+    "unlocked_icon_url": "achievements_images/Return_Ace_Coin.jpg",
+    "locked_icon_url": "achievements_images/Return_Ace_Coin_locked.jpg",
+    "is_hidden": true,
+    "stats_thresholds": {
+      "Return_Ace_Coin": {
+        "name": "Return_Ace_Coin",
+        "threshold": 0
+      }
+    }
+  },
+  "Return_Reggie_Ring": {
+    "achievement_id": "Return_Reggie_Ring",
+    "unlocked_display_name": "Precious",
+    "unlocked_description": "Return ring to Reggie",
+    "locked_display_name": "",
+    "locked_description": "",
+    "hidden_description": "",
+    "flavor_text": "",
+    "completion_description": "",
+    "unlocked_icon_url": "achievements_images/Return_Reggie_Ring.jpg",
+    "locked_icon_url": "achievements_images/Return_Reggie_Ring_locked.jpg",
+    "is_hidden": true,
+    "stats_thresholds": {
+      "Return_Reggie_Ring": {
+        "name": "Return_Reggie_Ring",
+        "threshold": 0
+      }
+    }
+  },
+  "Return_Swamp_Heart": {
+    "achievement_id": "Return_Swamp_Heart",
+    "unlocked_display_name": "Shot Through the Heart",
+    "unlocked_description": "Return the Swamp Guardian's heart to the Undying King",
+    "locked_display_name": "",
+    "locked_description": "",
+    "hidden_description": "",
+    "flavor_text": "",
+    "completion_description": "",
+    "unlocked_icon_url": "achievements_images/Return_Swamp_Heart.jpg",
+    "locked_icon_url": "achievements_images/Return_Swamp_Heart_locked.jpg",
+    "is_hidden": true,
+    "stats_thresholds": {
+      "Return_Swamp_Heart": {
+        "name": "Return_Swamp_Heart",
+        "threshold": 0
+      }
+    }
+  },
+  "Sebum_Deal": {
+    "achievement_id": "Sebum_Deal",
+    "unlocked_display_name": "Hard Bargain",
+    "unlocked_description": "Make a Deal with Sebum",
+    "locked_display_name": "",
+    "locked_description": "",
+    "hidden_description": "",
+    "flavor_text": "",
+    "completion_description": "",
+    "unlocked_icon_url": "achievements_images/Sebum_Deal.jpg",
+    "locked_icon_url": "achievements_images/Sebum_Deal_locked.jpg",
+    "is_hidden": true,
+    "stats_thresholds": {
+      "Sebum_Deal": {
+        "name": "Sebum_Deal",
+        "threshold": 0
+      }
+    }
+  },
+  "Travel_Reisum": {
+    "achievement_id": "Travel_Reisum",
+    "unlocked_display_name": "Girl in the Snow",
+    "unlocked_description": "Travel to Reisum",
+    "locked_display_name": "",
+    "locked_description": "",
+    "hidden_description": "",
+    "flavor_text": "",
+    "completion_description": "",
+    "unlocked_icon_url": "achievements_images/Travel_Reisum.jpg",
+    "locked_icon_url": "achievements_images/Travel_Reisum_locked.jpg",
+    "is_hidden": true,
+    "stats_thresholds": {
+      "Travel_Reisum": {
+        "name": "Travel_Reisum",
+        "threshold": 0
+      }
+    }
+  },
+  "Upgrade_Dragon_Heart": {
+    "achievement_id": "Upgrade_Dragon_Heart",
+    "unlocked_display_name": "Heart of a Dragon",
+    "unlocked_description": "Upgrade Dragon Heart",
+    "locked_display_name": "Heart of a Dragon",
+    "locked_description": "Upgrade Dragon Heart",
+    "hidden_description": "",
+    "flavor_text": "",
+    "completion_description": "",
+    "unlocked_icon_url": "achievements_images/Upgrade_Dragon_Heart.jpg",
+    "locked_icon_url": "achievements_images/Upgrade_Dragon_Heart_locked.jpg",
+    "is_hidden": false,
+    "stats_thresholds": {
+      "Upgrade_Dragon_Heart": {
+        "name": "Upgrade_Dragon_Heart",
+        "threshold": 0
+      }
+    }
+  },
+  "Upgrade_Weapon": {
+    "achievement_id": "Upgrade_Weapon",
+    "unlocked_display_name": "Hard Choices",
+    "unlocked_description": "Upgrade first weapon",
+    "locked_display_name": "Hard Choices",
+    "locked_description": "Upgrade first weapon",
+    "hidden_description": "",
+    "flavor_text": "",
+    "completion_description": "",
+    "unlocked_icon_url": "achievements_images/Upgrade_Weapon.jpg",
+    "locked_icon_url": "achievements_images/Upgrade_Weapon_locked.jpg",
+    "is_hidden": false,
+    "stats_thresholds": {
+      "Upgrade_Weapon": {
+        "name": "Upgrade_Weapon",
+        "threshold": 0
+      }
+    }
+  },
+  "Upgrade_Weapon_10": {
+    "achievement_id": "Upgrade_Weapon_10",
+    "unlocked_display_name": "Halfway There",
+    "unlocked_description": "Upgrade any weapon to +10",
+    "locked_display_name": "Halfway There",
+    "locked_description": "Upgrade any weapon to +10",
+    "hidden_description": "",
+    "flavor_text": "",
+    "completion_description": "",
+    "unlocked_icon_url": "achievements_images/Upgrade_Weapon_10.jpg",
+    "locked_icon_url": "achievements_images/Upgrade_Weapon_10_locked.jpg",
+    "is_hidden": false,
+    "stats_thresholds": {
+      "Upgrade_Weapon_10": {
+        "name": "Upgrade_Weapon_10",
+        "threshold": 0
+      }
+    }
+  },
+  "Upgrade_Weapon_20": {
+    "achievement_id": "Upgrade_Weapon_20",
+    "unlocked_display_name": "Push It to the Limit",
+    "unlocked_description": "Upgrade any weapon to +20",
+    "locked_display_name": "Push It to the Limit",
+    "locked_description": "Upgrade any weapon to +20",
+    "hidden_description": "",
+    "flavor_text": "",
+    "completion_description": "",
+    "unlocked_icon_url": "achievements_images/Upgrade_Weapon_20.jpg",
+    "locked_icon_url": "achievements_images/Upgrade_Weapon_20_locked.jpg",
+    "is_hidden": false,
+    "stats_thresholds": {
+      "Upgrade_Weapon_20": {
+        "name": "Upgrade_Weapon_20",
+        "threshold": 0
+      }
+    }
+  },
+  "Visit_Homestead": {
+    "achievement_id": "Visit_Homestead",
+    "unlocked_display_name": "Lockdown",
+    "unlocked_description": "Visit the Homestead Basement",
+    "locked_display_name": "",
+    "locked_description": "",
+    "hidden_description": "",
+    "flavor_text": "",
+    "completion_description": "",
+    "unlocked_icon_url": "achievements_images/Visit_Homestead.jpg",
+    "locked_icon_url": "achievements_images/Visit_Homestead_locked.jpg",
+    "is_hidden": true,
+    "stats_thresholds": {
+      "Visit_Homestead": {
+        "name": "Visit_Homestead",
+        "threshold": 0
+      }
+    }
+  }
+}
