@@ -1,142 +1,192 @@
-﻿{
-  "MissionsCompleted_MissionsCompleted": {
-    "description": "Amount of missions completed",
-    "value": 0
+[
+  {
+    "name": "MissionsCompleted_MissionsCompleted",
+    "defaultvalue": 0,
+    "displayName": "Amount of missions completed"
   },
-  "HostedMissionsCompleted_HostedMissionsCompleted": {
-    "description": "Amount of Hosted missions completed",
-    "value": 0
+  {
+    "name": "HostedMissionsCompleted_HostedMissionsCompleted",
+    "defaultvalue": 0,
+    "displayName": "Amount of Hosted missions completed"
   },
-  "SoloMissionsCompleted_SoloMissionsCompleted": {
-    "description": "Amount of Solo missions completed",
-    "value": 0
+  {
+    "name": "SoloMissionsCompleted_SoloMissionsCompleted",
+    "defaultvalue": 0,
+    "displayName": "Amount of Solo missions completed"
   },
-  "MilestonesCompleted_MilestonesCompleted": {
-    "description": "Amount of milestones completed",
-    "value": 0
+  {
+    "name": "MilestonesCompleted_MilestonesCompleted",
+    "defaultvalue": 0,
+    "displayName": "Amount of milestones completed"
   },
-  "MoustachesBought_MoustachesBought": {
-    "description": "Amount of moustaches bought",
-    "value": 0
+  {
+    "name": "MoustachesBought_MoustachesBought",
+    "defaultvalue": 0,
+    "displayName": "Amount of moustaches bought"
   },
-  "BittergemsCollected_BittergemsCollected": {
-    "description": "Amount of Bittergems collected",
-    "value": 0
+  {
+    "name": "BittergemsCollected_BittergemsCollected",
+    "defaultvalue": 0,
+    "displayName": "Amount of Bittergems collected"
   },
-  "ErrorCubesCollected_ErrorCubesCollected": {
-    "description": "Amount of Error cubes collected",
-    "value": 0
+  {
+    "name": "ErrorCubesCollected_ErrorCubesCollected",
+    "defaultvalue": 0,
+    "displayName": "Amount of Error cubes collected"
   },
-  "CompressedGoldCollected_CompressedGoldCollected": {
-    "description": "Amount of Compressed Gold collected",
-    "value": 0
+  {
+    "name": "CompressedGoldCollected_CompressedGoldCollected",
+    "defaultvalue": 0,
+    "displayName": "Amount of Compressed Gold collected"
   },
-  "BarRoundsOrdered_BarRoundsOrdered": {
-    "description": "Amount of bar rounds ordered",
-    "value": 0
+  {
+    "name": "BarRoundsOrdered_BarRoundsOrdered",
+    "defaultvalue": 0,
+    "displayName": "Amount of bar rounds ordered"
   },
-  "LowerRankMissionsCompleted_LowerRankMissionsCompleted": {
-    "description": "Amount of rounds completed with 10 rank lower players",
-    "value": 0
+  {
+    "name": "LowerRankMissionsCompleted_LowerRankMissionsCompleted",
+    "defaultvalue": 0,
+    "displayName": "Amount of rounds completed with 10 rank lower players"
   },
-  "AmountOfWeakspotsHit_AmountOfWeakspotsHit": {
-    "description": "Amount of weakspots hit",
-    "value": 0
+  {
+    "name": "AmountOfWeakspotsHit_AmountOfWeakspotsHit",
+    "defaultvalue": 0,
+    "displayName": "Amount of weakspots hit"
   },
-  "LongestMissionTime_LongestMissionTime": {
-    "description": "Longest time spent in a mission",
-    "value": 0
+  {
+    "name": "LongestMissionTime_LongestMissionTime",
+    "defaultvalue": 0,
+    "displayName": "Longest time spent in a mission"
   },
-  "TotalDancingTime_TotalDancingTime": {
-    "description": "Total time spent dancing ingame",
-    "value": 0
+  {
+    "name": "TotalDancingTime_TotalDancingTime",
+    "defaultvalue": 0,
+    "displayName": "Total time spent dancing ingame"
   },
-  "PerksUnlocked_PerksUnlocked": {
-    "description": "Amount of perks unlocked",
-    "value": 0
+  {
+    "name": "PerksUnlocked_PerksUnlocked",
+    "defaultvalue": 0,
+    "displayName": "Amount of perks unlocked"
   },
-  "MutatorsPlayed_MutatorsPlayed": {
-    "description": "Amount of DIFFERENT mutators played",
-    "value": 0
+  {
+    "name": "MutatorsPlayed_MutatorsPlayed",
+    "defaultvalue": 0,
+    "displayName": "Amount of DIFFERENT mutators played"
   },
-  "MiniMulesRepaired_MiniMulesRepaired": {
-    "description": "Amount of MiniMules repaired",
-    "value": 0
+  {
+    "name": "MiniMulesRepaired_MiniMulesRepaired",
+    "defaultvalue": 0,
+    "displayName": "Amount of MiniMules repaired"
   },
-  "KilledDreadnaughts_KilledDreadnaughts": {
-    "description": "Amount of Dreadnaughts killed",
-    "value": 0
+  {
+    "name": "KilledDreadnaughts_KilledDreadnaughts",
+    "defaultvalue": 0,
+    "displayName": "Amount of Dreadnaughts killed"
   },
-  "BulkDetonatorsKilled_BulkDetonatorsKilled": {
-    "description": "Amount of BulkDetonators killed",
-    "value": 0
+  {
+    "name": "BulkDetonatorsKilled_BulkDetonatorsKilled",
+    "defaultvalue": 0,
+    "displayName": "Amount of BulkDetonators killed"
   },
-  "HighestBarrelScorePer100Barrels_HighestBarrelScorePer100Barrels": {
-    "description": "Highest Score in HoopGame per 100 Barrels",
-    "value": 0
+  {
+    "name": "HighestBarrelScorePer100Barrels_HighestBarrelScorePer100Barrels",
+    "defaultvalue": 0,
+    "displayName": "Highest Score in HoopGame per 100 Barrels"
   },
-  "HighestHoopGameStreak_HighestHoopGameStreak": {
-    "description": "Highest Hoop Game Streak",
-    "value": 0
+  {
+    "name": "HighestHoopGameStreak_HighestHoopGameStreak",
+    "defaultvalue": 0,
+    "displayName": "Highest Hoop Game Streak"
   },
-  "LongestMollyRideTime_LongestMollyRideTime": {
-    "description": "Longest time spent riding molly",
-    "value": 0
+  {
+    "name": "LongestMollyRideTime_LongestMollyRideTime",
+    "defaultvalue": 0,
+    "displayName": "Longest time spent riding molly"
   },
-  "LongestSilicateRideTime_LongestSilicateRideTime": {
-    "description": "Longest time spent riding a Silicate Harvester",
-    "value": 0
+  {
+    "name": "LongestSilicateRideTime_LongestSilicateRideTime",
+    "defaultvalue": 0,
+    "displayName": "Longest time spent riding a Silicate Harvester"
   },
-  "MissionsPlayedWithoutKicking_MissionsPlayedWithoutKicking": {
-    "description": "Amount of missions played without touching a single barrel",
-    "value": 0
+  {
+    "name": "MissionsPlayedWithoutKicking_MissionsPlayedWithoutKicking",
+    "defaultvalue": 0,
+    "displayName": "Amount of missions played without touching a single barrel"
   },
-  "Haz3NoFailStreak_Haz3NoFailStreak": {
-    "description": "Highest Amount of hazard3 missions completed without failing/abandoning",
-    "value": 0
+  {
+    "name": "Haz3NoFailStreak_Haz3NoFailStreak",
+    "defaultvalue": 0,
+    "displayName": "Highest Amount of hazard3 missions completed without failing/abandoning"
   },
-  "Haz4NoFailStreak_Haz4NoFailStreak": {
-    "description": "Highest Amount of hazard4 missions completed without failing/abandoning",
-    "value": 0
+  {
+    "name": "Haz4NoFailStreak_Haz4NoFailStreak",
+    "defaultvalue": 0,
+    "displayName": "Highest Amount of hazard4 missions completed without failing/abandoning"
   },
-  "Haz5NoFailStreak_Haz5NoFailStreak": {
-    "description": "Highest Amount of hazard5 missions completed without failing/abandoning",
-    "value": 0
+  {
+    "name": "Haz5NoFailStreak_Haz5NoFailStreak",
+    "defaultvalue": 0,
+    "displayName": "Highest Amount of hazard5 missions completed without failing/abandoning"
   },
-  "SongsPlayed_SongsPlayed": {
-    "description": "Amount of songs played",
-    "value": 0
+  {
+    "name": "SongsPlayed_SongsPlayed",
+    "defaultvalue": 0,
+    "displayName": "Amount of songs played"
   },
-  "NumberOfPromotedClasses_NumberOfPromotedClasses": {
-    "description": "Number of classes promoted atleast once",
-    "value": 0
+  {
+    "name": "NumberOfPromotedClasses_NumberOfPromotedClasses",
+    "defaultvalue": 0,
+    "displayName": "Number of classes promoted atleast once"
   },
-  "NumberOfPromotedClassesSilver_NumberOfPromotedClassesSilver": {
-    "description": "Number of classes promoted to atleast silver",
-    "value": 0
+  {
+    "name": "NumberOfPromotedClassesSilver_NumberOfPromotedClassesSilver",
+    "defaultvalue": 0,
+    "displayName": "Number of classes promoted to atleast silver"
   },
-  "NumberOfPromotedClassesGold_NumberOfPromotedClassesGold": {
-    "description": "Number of classes promoted to atleast Gold",
-    "value": 0
+  {
+    "name": "NumberOfPromotedClassesGold_NumberOfPromotedClassesGold",
+    "defaultvalue": 0,
+    "displayName": "Number of classes promoted to atleast Gold"
   },
-  "BetCRepaired_BetCRepaired": {
-    "description": "BetC's Repaired",
-    "value": 0
+  {
+    "name": "BetCRepaired_BetCRepaired",
+    "defaultvalue": 0,
+    "displayName": "BetC's Repaired"
   },
-  "LootBugsKilled_LootBugsKilled": {
-    "description": "Amount of lootbugs killed",
-    "value": 0
+  {
+    "name": "LootBugsKilled_LootBugsKilled",
+    "defaultvalue": 0,
+    "displayName": "Amount of lootbugs killed"
   },
-  "SupplyDropsCalled_SupplyDropsCalled": {
-    "description": "SupplyDrops called",
-    "value": 0
+  {
+    "name": "SupplyDropsCalled_SupplyDropsCalled",
+    "defaultvalue": 0,
+    "displayName": "SupplyDrops called"
   },
-  "PraetoriansKilled_PraetoriansKilled": {
-    "description": "Amount of Praetorians killed",
-    "value": 0
+  {
+    "name": "PraetoriansKilled_PraetoriansKilled",
+    "defaultvalue": 0,
+    "displayName": "Amount of Praetorians killed"
   },
-  "DeepDivesCompleted_DeepDivesCompleted": {
-    "description": "",
-    "value": 0
+  {
+    "name": "DeepDivesCompleted_DeepDivesCompleted",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "CarPoolStat_CarPoolStat",
+    "defaultvalue": 0,
+    "displayName": "Top kills on harvester with 4 other players"
+  },
+  {
+    "name": "DrillByShootingStat_DrillByShootingStat",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "LongPipeStat_LongPipeStat",
+    "defaultvalue": 0,
+    "displayName": ""
   }
-}
+]

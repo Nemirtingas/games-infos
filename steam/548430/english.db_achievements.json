@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "name": "APPROVED_GREENBEARD",
     "defaultvalue": 0,
@@ -225,7 +225,7 @@
     "defaultvalue": 0,
     "displayName": "Car Pool",
     "hidden": 0,
-    "description": "Ride the Silicate Harvester with three other dwarves and kill five enemies without leaving.",
+    "description": "Ride the Silicate Harvester with three other dwarves and kill five enemies each without leaving.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/548430/c2fed282333cc939f7c1bc4900c77a2a125caf9d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/548430/faf096df4e64bb1b785f97dbdd0987b95ed24c41.jpg"
   },
@@ -579,5 +579,23 @@
     "description": "Complete Any 5 Deep Dives",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/548430/577e29039fecb792fd62d98a2999589472931da0.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/548430/117bbd8e799335b81fbbe078684ac6179f35b8a9.jpg"
+  },
+  {
+    "name": "DRILLBYSHOOTING",
+    "defaultvalue": 0,
+    "displayName": "Drill-by Shooting",
+    "hidden": 0,
+    "description": "Ride the Drilldozer with three other dwarves and kill 15 enemies each without leaving.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/548430/f6ee96f1be4d0f1f9f7bb96e81f43c1b190bafce.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/548430/ee6370e20f9b0f67732ae139f34a281fcd0f12dc.jpg"
+  },
+  {
+    "name": "LONGPIPE",
+    "defaultvalue": 0,
+    "displayName": "Roller Coaster",
+    "hidden": 0,
+    "description": "Grind on a pipe for 120 seconds without stopping.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/548430/7acd192f86bf31ad7ada631b64aefd53a7829bfe.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/548430/ee6370e20f9b0f67732ae139f34a281fcd0f12dc.jpg"
   }
 ]
