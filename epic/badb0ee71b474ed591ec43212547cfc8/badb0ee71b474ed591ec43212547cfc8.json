@@ -6,7 +6,7 @@
   "AppId": "Antbird",
   "Namespace": "badb0ee71b474ed591ec43212547cfc8",
   "ItemId": "85a98d012e1245c8a6572f03fcf920b6",
-  "ImageUrl": "https://cdn1.epicgames.com/salesEvent/salesEvent/Paladins-EGS-Patch21p4Vatu-LandscapeIMG-2560x1440_2560x1440-e1ea775748e8349026a97d471cb40b55",
+  "ImageUrl": "https://cdn1.epicgames.com/salesEvent/salesEvent/Paladins-EGS-gLBoxart-LandscapeIMG-2560x1440_2560x1440-0657037414e2503470fe0be1ce23d772",
   "Dlcs": {
     "Dragon Rider Pack Marker": {
       "Name": "Dragon Rider Pack Marker",
@@ -28,9 +28,13 @@
       "Name": "SS Audience",
       "ItemId": "85df840a815143bfaf8ec3dad79e8a5a"
     },
-    "GLCB Audience": {
-      "Name": "GLCB Audience",
+    "gen:LOCK Complete Audience": {
+      "Name": "gen:LOCK Complete Audience",
       "ItemId": "da433fdd4fe94e559b8899e75171ab97"
+    },
+    "SWM Audience": {
+      "Name": "SWM Audience",
+      "ItemId": "0097ad11c7c440feb58580ba9c14db52"
     }
   }
 }
