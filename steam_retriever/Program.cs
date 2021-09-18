@@ -234,21 +234,28 @@ namespace steam_db
             catch(Exception)
             { }
 
-            int end_index = languages.IndexOf("<br>");
-            if (end_index != -1)
+            if (!string.IsNullOrWhiteSpace(languages))
             {
-                languages = languages.Remove(end_index);
-            }
+                int end_index = languages.IndexOf("<br>");
+                if (end_index != -1)
+                {
+                    languages = languages.Remove(end_index);
+                }
 
-            languages = languages.Replace("<strong>*</strong>", "");
-            languages = languages.Replace(", ", ",");
-            languages = languages.Replace("Portuguese - Brazil", "Portuguese");
-            languages = languages.Replace("Spanish - Spain", "Spanish");
-            languages = languages.Replace("Spanish - Latin America", "Latam");
-            languages = languages.Replace("Traditional Chinese", "tchinese");
-            languages = languages.Replace("Simplified Chinese", "schinese");
-            languages = languages.ToLower();
-            languages = languages.Trim();
+                languages = languages.Replace("<strong>*</strong>", "");
+                languages = languages.Replace(", ", ",");
+                languages = languages.Replace("Portuguese - Brazil", "Portuguese");
+                languages = languages.Replace("Spanish - Spain", "Spanish");
+                languages = languages.Replace("Spanish - Latin America", "Latam");
+                languages = languages.Replace("Traditional Chinese", "tchinese");
+                languages = languages.Replace("Simplified Chinese", "schinese");
+                languages = languages.ToLower();
+                languages = languages.Trim();
+            }
+            else
+            {
+                languages = "english";
+            }
 
             JObject platforms = (JObject)json[appid]["data"]["platforms"];
 
@@ -285,7 +292,14 @@ namespace steam_db
 
         static JObject ParseOther(string appid, string type, JObject json, out string main_appid)
         {
-            main_appid = (string)json[appid]["data"]["fullgame"]["appid"];
+            main_appid = string.Empty;
+            if(((JObject)json[appid]["data"]).ContainsKey("fullgame"))
+            {
+                if(((JObject)json[appid]["data"]["fullgame"]).ContainsKey("appid"))
+                {
+                    main_appid = (string)json[appid]["data"]["fullgame"]["appid"];
+                }
+            }
             string name = (string)json[appid]["data"]["name"];
             string header_image = (string)json[appid]["data"]["header_image"];
 
@@ -445,7 +459,7 @@ namespace steam_db
                                     {
                                         string main_appid;
                                         JObject dlc = ParseDlc(appid, type, app_json, out main_appid);
-                                        JObject app = GetOrCreateApp(main_appid, true);
+                                        JObject app = GetOrCreateApp(main_appid, false);
 
                                         if(!done_appids.Contains(main_appid))
                                         {
@@ -473,15 +487,18 @@ namespace steam_db
 
                                     default:
                                     {
-                                        string main_appid;
+					string main_appid;
                                         JObject other = ParseOther(appid, type, app_json, out main_appid);
                                         games_infos[appid] = other;
 
-                                        JObject app = GetOrCreateApp(main_appid, false);
-                                        ((JObject)app["Dlcs"]).Remove(appid);
+                                        if (!string.IsNullOrWhiteSpace(main_appid))
+                                        {
+                                            JObject app = GetOrCreateApp(main_appid, false);
+                                            ((JObject)app["Dlcs"]).Remove(appid);
+                                            SaveJson(Path.Combine(out_dir, main_appid, main_appid + ".json"), app);
+                                        }
 
                                         SaveJson(Path.Combine(out_dir, appid, appid + ".json"), other);
-                                        SaveJson(Path.Combine(out_dir, main_appid, main_appid + ".json"), app);
                                     }
                                     break;
                                 }
