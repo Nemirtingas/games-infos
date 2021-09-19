@@ -1,5 +1,10 @@
 {
   "Dlcs": {
+    "1670570": {
+      "Name": "Fling to the Finish - Supporter Pack",
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1670570/header.jpg?t=1629737561",
+      "Type": "dlc"
+    },
     "1711734": {
       "Name": "Fling to the Finish - Gold Skins",
       "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1711734/header.jpg?t=1629970325",
@@ -28,20 +33,30 @@
   },
   "Name": "Fling to the Finish",
   "AppId": "1054430",
-  "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/1054430/header.jpg?t=1593975800",
+  "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1054430/header.jpg?t=1631551082",
   "Languages": [
     "english",
     "french",
     "german",
     "spanish",
     "portuguese",
-    "portuguese",
     "russian",
+    "italian",
+    "czech",
+    "greek",
+    "hungarian",
+    "korean",
+    "latam",
+    "tchinese",
+    "turkish",
+    "polish",
+    "swedish",
+    "japanese",
     "schinese"
   ],
   "Platforms": {
     "windows": true,
-    "mac": true,
+    "mac": false,
     "linux": false
   }
 }

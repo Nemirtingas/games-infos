@@ -1,27 +1,9 @@
-﻿{
+{
   "Dlcs": {
     "16465": {
       "Name": "F.E.A.R. 2: Reborn (DLC)",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/16465/header.jpg?t=1447352462"
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/16465/header.jpg?t=1447352462",
+      "Type": "dlc"
     }
-  },
-  "Name": "F.E.A.R. 2: Project Origin",
-  "AppId": "16450",
-  "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/16450/header.jpg?t=1585439873",
-  "Languages": [
-    "english",
-    "french",
-    "italian",
-    "german",
-    "spanish",
-    "polish",
-    "russian",
-    "czech",
-    "hungarian"
-  ],
-  "Platforms": {
-    "windows": true,
-    "mac": false,
-    "linux": false
   }
 }

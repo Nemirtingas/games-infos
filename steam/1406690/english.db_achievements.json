@@ -13,7 +13,7 @@
     "defaultvalue": 0,
     "displayName": "telo loje li wawa",
     "hidden": 0,
-    "description": "Exceed the theoretical light maximum during a blood moon",
+    "description": "Exceed 300% light during a blood moon",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1406690/c7c671ca7f8e7366894c70da526995cd629ed07e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1406690/1c9391e65c40bf4468e0e1455bd7a524a0d8451d.jpg"
   },
@@ -38,20 +38,11 @@
   {
     "name": "kili_suwi_mute",
     "defaultvalue": 0,
-    "displayName": "kili_suwi_mute",
+    "displayName": "kili suwi mute",
     "hidden": 0,
     "description": "Have 20 fruits at one time",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1406690/bf8151e14c7632f10d778800e2a3795b286f7ab5.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1406690/34c669eb485b9292bddfb9d8b5c29554268e66ba.jpg"
-  },
-  {
-    "name": "kama_wawa",
-    "defaultvalue": 0,
-    "displayName": "kama wawa",
-    "hidden": 0,
-    "description": "Attain full energy and start growing",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1406690/c6cef0dac9f3902d33e3cf47f34921d0c88fab40.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1406690/6d16d775e1c4755524f6757ff274aecfd242d2c2.jpg"
   },
   {
     "name": "lon_sewi",
@@ -85,7 +76,7 @@
     "defaultvalue": 0,
     "displayName": "mun pakala",
     "hidden": 0,
-    "description": "Burst 200 stars",
+    "description": "Burst 200 stars with one plant",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1406690/b46c00c467c027757bc3c3ee0c19f717e89f0948.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1406690/7afbc13eaa57272aa443f445b6d2e6c1f49e37fb.jpg"
   },
@@ -124,5 +115,41 @@
     "description": "Have 50 branches",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1406690/7189f5fbe19189ee070d8c0b03911f9f8fa5c6ef.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1406690/8ff4b1ddc6ef1545528c3c69d8e0a014353f3f9a.jpg"
+  },
+  {
+    "name": "pipi_suli",
+    "defaultvalue": 0,
+    "displayName": "pipi suli",
+    "hidden": 0,
+    "description": "Feed the spider until it is fully grown",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1406690/0a03d4f476e6d04388673ff415a126d8381f13e2.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1406690/80cf249f74148cd102a7b69709e3acab341a223c.jpg"
+  },
+  {
+    "name": "kasi_tu",
+    "defaultvalue": 0,
+    "displayName": "kasi tu",
+    "hidden": 0,
+    "description": "Have a plant split into two plants",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1406690/88e47eafe6c2cb9c5b6897d21ed223d5bfb6ea43.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1406690/db013f865d5346d29f39371e6b6549745ebcb1ca.jpg"
+  },
+  {
+    "name": "tenpo_mute",
+    "defaultvalue": 0,
+    "displayName": "tenpo mute",
+    "hidden": 0,
+    "description": "Grow for one year",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1406690/edd972a61742a41c5a4b9ceec7c856fb7d79fa1e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1406690/8537bc291a554b96103f021d1e44c8de276ea1fa.jpg"
+  },
+  {
+    "name": "tenpo_ala",
+    "defaultvalue": 0,
+    "displayName": "tenpo ala",
+    "hidden": 0,
+    "description": "Keep time stopped for 5 days in a row",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1406690/76a65e2db6fbb77481eb49159da75d4c5e4de20c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1406690/108afa39633d08e8be9fc17c135991143d38c11e.jpg"
   }
 ]

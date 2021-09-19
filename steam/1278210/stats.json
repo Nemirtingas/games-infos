@@ -1,218 +1,307 @@
-﻿{
-  "Steve_Kills": {
-    "description": "Steve Kills",
-    "value": 0
+[
+  {
+    "name": "Steve_Kills",
+    "defaultvalue": 0,
+    "displayName": "Steve Kills"
   },
-  "Murphy_Kills": {
-    "description": "Murphy Kills",
-    "value": 0
+  {
+    "name": "Murphy_Kills",
+    "defaultvalue": 0,
+    "displayName": "Murphy Kills"
   },
-  "Chad_Kills": {
-    "description": "Chad Kills",
-    "value": 0
+  {
+    "name": "Chad_Kills",
+    "defaultvalue": 0,
+    "displayName": "Chad Kills"
   },
-  "Simon_Kills": {
-    "description": "Simon Kills",
-    "value": 0
+  {
+    "name": "Simon_Kills",
+    "defaultvalue": 0,
+    "displayName": "Simon Kills"
   },
-  "Knockdowns": {
-    "description": "Character Knockdowns",
-    "value": 0
+  {
+    "name": "Knockdowns",
+    "defaultvalue": 0,
+    "displayName": "Character Knockdowns"
   },
-  "Deaths": {
-    "description": "Character Deaths",
-    "value": 0
+  {
+    "name": "Deaths",
+    "defaultvalue": 0,
+    "displayName": "Character Deaths"
   },
-  "Most_Waves_Per_Map": {
-    "description": "Most Waves Completed In One Map",
-    "value": 0
+  {
+    "name": "Most_Waves_Per_Map",
+    "defaultvalue": 0,
+    "displayName": "Most Waves Completed In One Map"
   },
-  "Most_Maps_Per_Game": {
-    "description": "Most Maps Completed in One Game",
-    "value": 0
+  {
+    "name": "Most_Maps_Per_Game",
+    "defaultvalue": 0,
+    "displayName": "Most Maps Completed in One Game"
   },
-  "Searches": {
-    "description": "Search Points Looted",
-    "value": 0
+  {
+    "name": "Searches",
+    "defaultvalue": 0,
+    "displayName": "Search Points Looted"
   },
-  "Buildables": {
-    "description": "Defenses Built",
-    "value": 0
+  {
+    "name": "Buildables",
+    "defaultvalue": 0,
+    "displayName": "Defenses Built"
   },
-  "Melee_Kills": {
-    "description": "Total Melee Kills",
-    "value": 0
+  {
+    "name": "Melee_Kills",
+    "defaultvalue": 0,
+    "displayName": "Total Melee Kills"
   },
-  "Explosion_Kills": {
-    "description": "Total Explosion Kills",
-    "value": 0
+  {
+    "name": "Explosion_Kills",
+    "defaultvalue": 0,
+    "displayName": "Total Explosion Kills"
   },
-  "HighScore": {
-    "description": "High Score",
-    "value": 0
+  {
+    "name": "HighScore",
+    "defaultvalue": 0,
+    "displayName": "High Score"
   },
-  "Loadout_1_Waves": {
-    "description": "Waves Completed with Loadout #1",
-    "value": 0
+  {
+    "name": "Loadout_1_Waves",
+    "defaultvalue": 0,
+    "displayName": "Waves Completed with Loadout #1"
   },
-  "Loadout_2_Waves": {
-    "description": "Waves Completed with Loadout #2",
-    "value": 0
+  {
+    "name": "Loadout_2_Waves",
+    "defaultvalue": 0,
+    "displayName": "Waves Completed with Loadout #2"
   },
-  "Loadout_3_Waves": {
-    "description": "Waves Completed with Loadout #3",
-    "value": 0
+  {
+    "name": "Loadout_3_Waves",
+    "defaultvalue": 0,
+    "displayName": "Waves Completed with Loadout #3"
   },
-  "Loadout_4_Waves": {
-    "description": "Waves Completed With Loadout #4",
-    "value": 0
+  {
+    "name": "Loadout_4_Waves",
+    "defaultvalue": 0,
+    "displayName": "Waves Completed With Loadout #4"
   },
-  "Loadout_5_Waves": {
-    "description": "Waves Completed With Loadout #5",
-    "value": 0
+  {
+    "name": "Loadout_5_Waves",
+    "defaultvalue": 0,
+    "displayName": "Waves Completed With Loadout #5"
   },
-  "Loadout_1_Chosen": {
-    "description": "Times Loadout #1 Chosen",
-    "value": 0
+  {
+    "name": "Loadout_1_Chosen",
+    "defaultvalue": 0,
+    "displayName": "Times Loadout #1 Chosen"
   },
-  "Loadout_2_Chosen": {
-    "description": "Times Loadout #2 Chosen",
-    "value": 0
+  {
+    "name": "Loadout_2_Chosen",
+    "defaultvalue": 0,
+    "displayName": "Times Loadout #2 Chosen"
   },
-  "Loadout_3_Chosen": {
-    "description": "Times Loadout #3 Chosen",
-    "value": 0
+  {
+    "name": "Loadout_3_Chosen",
+    "defaultvalue": 0,
+    "displayName": "Times Loadout #3 Chosen"
   },
-  "Loadout_4_Chosen": {
-    "description": "Times Loadout #4 Chosen",
-    "value": 0
+  {
+    "name": "Loadout_4_Chosen",
+    "defaultvalue": 0,
+    "displayName": "Times Loadout #4 Chosen"
   },
-  "Loadout_5_Chosen": {
-    "description": "Times Loadout #5 Chosen",
-    "value": 0
+  {
+    "name": "Loadout_5_Chosen",
+    "defaultvalue": 0,
+    "displayName": "Times Loadout #5 Chosen"
   },
-  "Lolita_Endless_Chosen": {
-    "description": "Lolita Endless Plays",
-    "value": 0
+  {
+    "name": "Lolita_Endless_Chosen",
+    "defaultvalue": 0,
+    "displayName": "Lolita Endless Plays"
   },
-  "Lolita_Endless_Waves": {
-    "description": "Waves Completed with Lolita Endless",
-    "value": 0
+  {
+    "name": "Lolita_Endless_Waves",
+    "defaultvalue": 0,
+    "displayName": "Waves Completed with Lolita Endless"
   },
-  "BloodBros_Endless_Chosen": {
-    "description": "Blood Brothers Endless Plays",
-    "value": 0
+  {
+    "name": "BloodBros_Endless_Chosen",
+    "defaultvalue": 0,
+    "displayName": "Blood Brothers Endless Plays"
   },
-  "BloodBros_Endless_Waves": {
-    "description": "Waves Completed with Blood Brothers Endless",
-    "value": 0
+  {
+    "name": "BloodBros_Endless_Waves",
+    "defaultvalue": 0,
+    "displayName": "Waves Completed with Blood Brothers Endless"
   },
-  "FullAuto_Endless_Chosen": {
-    "description": "Full Auto Endless Plays",
-    "value": 0
+  {
+    "name": "FullAuto_Endless_Chosen",
+    "defaultvalue": 0,
+    "displayName": "Full Auto Endless Plays"
   },
-  "FullAuto_Endless_Waves": {
-    "description": "Waves Completed with Full Auto Endless",
-    "value": 0
+  {
+    "name": "FullAuto_Endless_Waves",
+    "defaultvalue": 0,
+    "displayName": "Waves Completed with Full Auto Endless"
   },
-  "Hobots_Endless_Chosen": {
-    "description": "Anything To Survive Endless Plays",
-    "value": 0
+  {
+    "name": "Hobots_Endless_Chosen",
+    "defaultvalue": 0,
+    "displayName": "Anything To Survive Endless Plays"
   },
-  "Hobots_Endless_Waves": {
-    "description": "Waves Completed with Anything To Survive Endless",
-    "value": 0
+  {
+    "name": "Hobots_Endless_Waves",
+    "defaultvalue": 0,
+    "displayName": "Waves Completed with Anything To Survive Endless"
   },
-  "Prisoners_Endless_Chosen": {
-    "description": "Sinful 6 Endless Plays",
-    "value": 0
+  {
+    "name": "Prisoners_Endless_Chosen",
+    "defaultvalue": 0,
+    "displayName": "Sinful 6 Endless Plays"
   },
-  "Prisoners_Endless_Waves": {
-    "description": "Waves Completed with Sinful 6 Endless",
-    "value": 0
+  {
+    "name": "Prisoners_Endless_Waves",
+    "defaultvalue": 0,
+    "displayName": "Waves Completed with Sinful 6 Endless"
   },
-  "Lolita_Survival_Chosen": {
-    "description": "Lolita Survival Plays",
-    "value": 0
+  {
+    "name": "Lolita_Survival_Chosen",
+    "defaultvalue": 0,
+    "displayName": "Lolita Survival Plays"
   },
-  "Lolita_Survival_Waves": {
-    "description": "Waves Completed with Lolita Survival",
-    "value": 0
+  {
+    "name": "Lolita_Survival_Waves",
+    "defaultvalue": 0,
+    "displayName": "Waves Completed with Lolita Survival"
   },
-  "BloodBros_Survival_Chosen": {
-    "description": "Blood Brothers Survival Plays",
-    "value": 0
+  {
+    "name": "BloodBros_Survival_Chosen",
+    "defaultvalue": 0,
+    "displayName": "Blood Brothers Survival Plays"
   },
-  "BloodBros_Survival_Waves": {
-    "description": "Waves Completed with Blood Brothers Survival",
-    "value": 0
+  {
+    "name": "BloodBros_Survival_Waves",
+    "defaultvalue": 0,
+    "displayName": "Waves Completed with Blood Brothers Survival"
   },
-  "FullAuto_Survival_Chosen": {
-    "description": "Full Auto Survival Plays",
-    "value": 0
+  {
+    "name": "FullAuto_Survival_Chosen",
+    "defaultvalue": 0,
+    "displayName": "Full Auto Survival Plays"
   },
-  "FullAuto_Survival_Waves": {
-    "description": "Waves Completed with Full Auto Survival",
-    "value": 0
+  {
+    "name": "FullAuto_Survival_Waves",
+    "defaultvalue": 0,
+    "displayName": "Waves Completed with Full Auto Survival"
   },
-  "Hobots_Survival_Chosen": {
-    "description": "Anything To Survive Survival Plays",
-    "value": 0
+  {
+    "name": "Hobots_Survival_Chosen",
+    "defaultvalue": 0,
+    "displayName": "Anything To Survive Survival Plays"
   },
-  "Hobots_Survival_Waves": {
-    "description": "Waves Completed with Anything to Survive Survival",
-    "value": 0
+  {
+    "name": "Hobots_Survival_Waves",
+    "defaultvalue": 0,
+    "displayName": "Waves Completed with Anything to Survive Survival"
   },
-  "Prisoners_Survival_Chosen": {
-    "description": "Sinful 6 Survival Plays",
-    "value": 0
+  {
+    "name": "Prisoners_Survival_Chosen",
+    "defaultvalue": 0,
+    "displayName": "Sinful 6 Survival Plays"
   },
-  "Prisoners_Survival_Waves": {
-    "description": "Waves Completed with Sinful 6 Survival",
-    "value": 0
+  {
+    "name": "Prisoners_Survival_Waves",
+    "defaultvalue": 0,
+    "displayName": "Waves Completed with Sinful 6 Survival"
   },
-  "Sacrifice_Chapters": {
-    "description": "Sacrifice Chapters Completed",
-    "value": 0
+  {
+    "name": "Sacrifice_Chapters",
+    "defaultvalue": 0,
+    "displayName": "Sacrifice Chapters Completed"
   },
-  "Lolita_Endless_Score": {
-    "description": "High Score for Lolita (Endless)",
-    "value": 0
+  {
+    "name": "Lolita_Endless_Score",
+    "defaultvalue": 0,
+    "displayName": "High Score for Lolita (Endless)"
   },
-  "Lolita_Survival_Score": {
-    "description": "High Score for Lolita (Survival)",
-    "value": 0
+  {
+    "name": "Lolita_Survival_Score",
+    "defaultvalue": 0,
+    "displayName": "High Score for Lolita (Survival)"
   },
-  "BloodBros_Endless_Score": {
-    "description": "High Score for Blood Brothers (Endless)",
-    "value": 0
+  {
+    "name": "BloodBros_Endless_Score",
+    "defaultvalue": 0,
+    "displayName": "High Score for Blood Brothers (Endless)"
   },
-  "BloodBros_Survival_Score": {
-    "description": "High Score for Blood Brothers (Survival)",
-    "value": 0
+  {
+    "name": "BloodBros_Survival_Score",
+    "defaultvalue": 0,
+    "displayName": "High Score for Blood Brothers (Survival)"
   },
-  "FullAuto_Endless_Score": {
-    "description": "High Score for Full Auto (Endless)",
-    "value": 0
+  {
+    "name": "FullAuto_Endless_Score",
+    "defaultvalue": 0,
+    "displayName": "High Score for Full Auto (Endless)"
   },
-  "FullAuto_Survival_Score": {
-    "description": "High Score for Full  Auto (Survival)",
-    "value": 0
+  {
+    "name": "FullAuto_Survival_Score",
+    "defaultvalue": 0,
+    "displayName": "High Score for Full  Auto (Survival)"
   },
-  "Hobots_Endless_Score": {
-    "description": "High Score for Anything to Survive (Endless)",
-    "value": 0
+  {
+    "name": "Hobots_Endless_Score",
+    "defaultvalue": 0,
+    "displayName": "High Score for Anything to Survive (Endless)"
   },
-  "Hobots_Survival_Score": {
-    "description": "High Score for Anything to Survive (Survival)",
-    "value": 0
+  {
+    "name": "Hobots_Survival_Score",
+    "defaultvalue": 0,
+    "displayName": "High Score for Anything to Survive (Survival)"
   },
-  "Prisoners_Endless_Score": {
-    "description": "High Score for Sinful 6 (Endless)",
-    "value": 0
+  {
+    "name": "Prisoners_Endless_Score",
+    "defaultvalue": 0,
+    "displayName": "High Score for Sinful 6 (Endless)"
   },
-  "Prisoners_Survival_Score": {
-    "description": "High Score for Sinful 6 (Survival)",
-    "value": 0
+  {
+    "name": "Prisoners_Survival_Score",
+    "defaultvalue": 0,
+    "displayName": "High Score for Sinful 6 (Survival)"
+  },
+  {
+    "name": "Hatred_Survival_Chosen",
+    "defaultvalue": 0,
+    "displayName": "Hatred Survival Plays"
+  },
+  {
+    "name": "Hatred_Endless_Chosen",
+    "defaultvalue": 0,
+    "displayName": "Hatred Endless Plays"
+  },
+  {
+    "name": "Hatred_Survival_Waves",
+    "defaultvalue": 0,
+    "displayName": "Waves Completed With Hatred Survival"
+  },
+  {
+    "name": "Hatred_Endless_Waves",
+    "defaultvalue": 0,
+    "displayName": "Waves Completed With Hatred Endless"
+  },
+  {
+    "name": "Hatred_Survival_Score",
+    "defaultvalue": 0,
+    "displayName": "High Score for Hatred (Survival)"
+  },
+  {
+    "name": "Hatred_Endless_Score",
+    "defaultvalue": 0,
+    "displayName": "High Score for Hatred (Endless)"
+  },
+  {
+    "name": "Human_Kills",
+    "defaultvalue": 0,
+    "displayName": "Human Kills"
   }
-}
+]

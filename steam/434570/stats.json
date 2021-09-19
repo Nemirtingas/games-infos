@@ -1,94 +1,117 @@
-﻿{
-  "stat_kaboom": {
-    "description": "booms",
-    "value": 0
+[
+  {
+    "name": "stat_kaboom",
+    "defaultvalue": 0,
+    "displayName": "booms"
   },
-  "stat_whileyourdown": {
-    "description": "down",
-    "value": 0
+  {
+    "name": "stat_whileyourdown",
+    "defaultvalue": 0,
+    "displayName": "down"
   },
-  "stat_youmurderer": {
-    "description": "murder",
-    "value": 0
+  {
+    "name": "stat_youmurderer",
+    "defaultvalue": 0,
+    "displayName": "murder"
   },
-  "stat_hulk": {
-    "description": "hulks",
-    "value": 0
+  {
+    "name": "stat_hulk",
+    "defaultvalue": 0,
+    "displayName": "hulks"
   },
-  "stat_skidmarked": {
-    "description": "skids",
-    "value": 0
+  {
+    "name": "stat_skidmarked",
+    "defaultvalue": 0,
+    "displayName": "skids"
   },
-  "stat_knockout": {
-    "description": "ko",
-    "value": 0
+  {
+    "name": "stat_knockout",
+    "defaultvalue": 0,
+    "displayName": "ko"
   },
-  "stat_bitethehand": {
-    "description": "biter",
-    "value": 0
+  {
+    "name": "stat_bitethehand",
+    "defaultvalue": 0,
+    "displayName": "biter"
   },
-  "stat_gasguzzler": {
-    "description": "gas",
-    "value": 0
+  {
+    "name": "stat_gasguzzler",
+    "defaultvalue": 0,
+    "displayName": "gas"
   },
-  "stat_needygreedy": {
-    "description": "greedy",
-    "value": 0
+  {
+    "name": "stat_needygreedy",
+    "defaultvalue": 0,
+    "displayName": "greedy"
   },
-  "stat_royaltykiller": {
-    "description": "royal",
-    "value": 0
+  {
+    "name": "stat_royaltykiller",
+    "defaultvalue": 0,
+    "displayName": "royal"
   },
-  "stat_pyromaniac": {
-    "description": "pyro",
-    "value": 0
+  {
+    "name": "stat_pyromaniac",
+    "defaultvalue": 0,
+    "displayName": "pyro"
   },
-  "stat_fryertuck": {
-    "description": "fryer",
-    "value": 0
+  {
+    "name": "stat_fryertuck",
+    "defaultvalue": 0,
+    "displayName": "fryer"
   },
-  "stat_chunkkicker": {
-    "description": "kicker",
-    "value": 0
+  {
+    "name": "stat_chunkkicker",
+    "defaultvalue": 0,
+    "displayName": "kicker"
   },
-  "stat_acidwashed": {
-    "description": "puke",
-    "value": 0
+  {
+    "name": "stat_acidwashed",
+    "defaultvalue": 0,
+    "displayName": "puke"
   },
-  "stat_pigskilled": {
-    "description": "pg",
-    "value": 1
+  {
+    "name": "stat_pigskilled",
+    "defaultvalue": 1,
+    "displayName": "pg"
   },
-  "stat_mostko": {
-    "description": "mko",
-    "value": 1
+  {
+    "name": "stat_mostko",
+    "defaultvalue": 1,
+    "displayName": "mko"
   },
-  "stat_mostpigsgrinded": {
-    "description": "mpg",
-    "value": 1
+  {
+    "name": "stat_mostpigsgrinded",
+    "defaultvalue": 1,
+    "displayName": "mpg"
   },
-  "stat_milksdrank": {
-    "description": "mmd",
-    "value": 1
+  {
+    "name": "stat_milksdrank",
+    "defaultvalue": 1,
+    "displayName": "mmd"
   },
-  "stat_bounce": {
-    "description": "unt",
-    "value": 0
+  {
+    "name": "stat_bounce",
+    "defaultvalue": 0,
+    "displayName": "unt"
   },
-  "stat_frankenstein": {
-    "description": "frk",
-    "value": 0
+  {
+    "name": "stat_frankenstein",
+    "defaultvalue": 0,
+    "displayName": "frk"
   },
-  "stat_swallow": {
-    "description": "swo",
-    "value": 0
+  {
+    "name": "stat_swallow",
+    "defaultvalue": 0,
+    "displayName": "swo"
   },
-  "stat_drwho": {
-    "description": "dr",
-    "value": 0
+  {
+    "name": "stat_drwho",
+    "defaultvalue": 0,
+    "displayName": "dr"
   },
-  "stat_unfriended": {
-    "description": "unfr",
-    "value": 0
+  {
+    "name": "stat_unfriended",
+    "defaultvalue": 0,
+    "displayName": "unfr"
   }
-}
+]

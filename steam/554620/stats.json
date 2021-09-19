@@ -1,10 +1,12 @@
-﻿{
-  "CUSTOMIZATION_ITEMS_UNLOCKED": {
-    "description": "Outfits Unlocked",
-    "value": 0
+[
+  {
+    "name": "CUSTOMIZATION_ITEMS_UNLOCKED",
+    "defaultvalue": 0,
+    "displayName": "Outfits Unlocked"
   },
-  "AchievementsCompleted": {
-    "description": "Episode Complete",
-    "value": 0
+  {
+    "name": "AchievementsCompleted",
+    "defaultvalue": 0,
+    "displayName": "Episode Complete"
   }
-}
+]

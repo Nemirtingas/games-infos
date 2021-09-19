@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "name": "sta_end_gaby",
     "defaultvalue": 0,
@@ -191,7 +191,7 @@
   {
     "name": "sta_dificult_0",
     "defaultvalue": 0,
-    "displayName": "Without grief or glory",
+    "displayName": "With no shame  or glory",
     "hidden": 0,
     "description": "Clear the Campaing on Easy mode",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1175050/00ff25fc39eea6c89e13f0eff0bf2500b66289ad.jpg",
@@ -250,5 +250,40 @@
     "description": "shoot 50 enemy grenades in one game",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1175050/17a0973b3b0b55eea4906d1d1b99eeb592cedeaa.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1175050/d36f9610e084ce7392208971b9f03553341d5db4.jpg"
+  },
+  {
+    "name": "sta_full_gallery",
+    "defaultvalue": 0,
+    "displayName": "Collector",
+    "hidden": 0,
+    "description": "Get all pics from Gallery",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1175050/741234f6c99296133a48585e9f8c5821ca32a2fc.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1175050/4a5e69560277f2e222c77fb310d309a0b9b79de9.jpg"
+  },
+  {
+    "name": "sta_nodead",
+    "defaultvalue": 0,
+    "displayName": "No Scratchs",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1175050/69c9029fbc87e9386f2a68c3d6ecae602cb99b2e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1175050/40de86b38726c3c449ef84f7df0e27f54350eefe.jpg"
+  },
+  {
+    "name": "Sta_knv_kills",
+    "defaultvalue": 0,
+    "displayName": "Knife in, guts out",
+    "hidden": 0,
+    "description": "Kill 500 enemies with melee attacks",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1175050/e9946e084f0336e69fbebf38cfb234dd34920680.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1175050/1576cd3255f30e0df3d5509f23f2b8eb70c07e12.jpg"
+  },
+  {
+    "name": "sta_mle_nade",
+    "defaultvalue": 0,
+    "displayName": "Challenging the danger",
+    "hidden": 0,
+    "description": "Destroy 10 grenades with melee attacks",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1175050/6301d0dbe6a1e361c52b1583dbf4d37c90d5d5b5.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1175050/c5178e6b8eed58fcaa5fe981f09c08ba9e4462c1.jpg"
   }
 ]

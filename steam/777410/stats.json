@@ -1,14 +1,17 @@
-﻿{
-  "GlobalDragonKills": {
-    "description": "Global Dragons Killed",
-    "value": 0
+[
+  {
+    "name": "GlobalDragonKills",
+    "defaultvalue": 0,
+    "displayName": "Global Dragons Killed"
   },
-  "STATS_VERSION": {
-    "description": "Stats Version",
-    "value": 0
+  {
+    "name": "STATS_VERSION",
+    "defaultvalue": 0,
+    "displayName": "Stats Version"
   },
-  "TotalDragonKills": {
-    "description": "Total Dragons Kills",
-    "value": 0
+  {
+    "name": "TotalDragonKills",
+    "defaultvalue": 0,
+    "displayName": "Total Dragons Kills"
   }
-}
+]

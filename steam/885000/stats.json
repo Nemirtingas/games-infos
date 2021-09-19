@@ -1,14 +1,17 @@
-﻿{
-  "SONGS_COMPLETED": {
-    "description": "Songs Completed",
-    "value": 0
+[
+  {
+    "name": "SONGS_COMPLETED",
+    "defaultvalue": 0,
+    "displayName": "Songs Completed"
   },
-  "PERFECT_SONGS": {
-    "description": "Total Songs Perfect",
-    "value": 0
+  {
+    "name": "PERFECT_SONGS",
+    "defaultvalue": 0,
+    "displayName": "Total Songs Perfect"
   },
-  "MAX_COMBO": {
-    "description": "Max Combo Achieved",
-    "value": 0
+  {
+    "name": "MAX_COMBO",
+    "defaultvalue": 0,
+    "displayName": "Max Combo Achieved"
   }
-}
+]

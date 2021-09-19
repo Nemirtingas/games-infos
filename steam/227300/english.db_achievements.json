@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "name": "map_discover_60",
     "defaultvalue": 0,
@@ -283,7 +283,7 @@
     "defaultvalue": 0,
     "displayName": "Whatever Floats Your Boat",
     "hidden": 0,
-    "description": "Deliver cargo to all container ports (requires Scandinavia DLC)",
+    "description": "Deliver cargo to all container ports in Scandinavia (requires Scandinavia DLC)",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/227300/ffb54dedd2dc1fcbb46f10697be6a5fe334b20bf.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/227300/024f24b04b1905067b5bb644a87e8020937cba2b.jpg"
   },
@@ -673,5 +673,59 @@
     "description": "Complete deliveries between following cities, in this order and direction: Paris-Strasbourg, Strasbourg-Munich, Munich-Vienna, Vienna-Budapest, Budapest-Bucharest, Bucharest-Istanbul (requires Road to the Black Sea and Going East DLCs)",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/227300/775df321da7e22164847cf7ad4912013ddfa81c9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/227300/c2e3603f027613f1a589dced8158fdde1b228b8b.jpg"
+  },
+  {
+    "name": "ib_visit_cities",
+    "defaultvalue": 0,
+    "displayName": "Conquistador",
+    "hidden": 0,
+    "description": "Discover every city in Iberia (requires Iberia DLC)",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/227300/19506d1397741948a28c19b0a7ba69efbe1f5305.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/227300/8ff11be32ee3e1b19a48276eff60aee1cc893efa.jpg"
+  },
+  {
+    "name": "ib_container_ports",
+    "defaultvalue": 0,
+    "displayName": "Let's Get Shipping",
+    "hidden": 0,
+    "description": "Deliver cargo to all container ports in Iberia (requires Iberia DLC)",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/227300/aeec9fd07a6729e57c03b15878cd3c84023f4801.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/227300/a8a1b1796a55ad3ce806e2ba344b1218b41ca0a5.jpg"
+  },
+  {
+    "name": "ib_solar_power_plants",
+    "defaultvalue": 0,
+    "displayName": "Taste the Sun",
+    "hidden": 0,
+    "description": "Deliver ADR cargo to all solar power plants in Iberia (requires Iberia DLC)",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/227300/3528133527c36eed2910579cfd19429c1d88900b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/227300/00d1187029476e68e85452d93c8dd7bd67cbfc39.jpg"
+  },
+  {
+    "name": "ib_shipyards",
+    "defaultvalue": 0,
+    "displayName": "Fleet Builder",
+    "hidden": 0,
+    "description": "Deliver cargo to all shipyards in Iberia (requires Iberia DLC)",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/227300/6f214c8a7f971a27b3bffbd1252e6a2fb473489a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/227300/7474c749d52ef220705ff44a57a10a8b0d351ac1.jpg"
+  },
+  {
+    "name": "ib_a_coruna",
+    "defaultvalue": 0,
+    "displayName": "Iberian Pilgrimage",
+    "hidden": 0,
+    "description": "Complete a delivery from Lisbon, Seville, and Pamplona to A Coruña (requires Iberia DLC)",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/227300/22cdb56d1802991c2fa63ba8384d0599b942388c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/227300/5e313274a894fcac22394c6fcd6e8ca691ea867e.jpg"
+  },
+  {
+    "name": "ib_cutscenes",
+    "defaultvalue": 0,
+    "displayName": "Grand Tour Guide",
+    "hidden": 0,
+    "description": "View cutscenes from all viewpoints in Iberia (requires Iberia DLC)",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/227300/77f8db99556c0fd60ecd7e07659947cbb62a2252.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/227300/a8b2ea9ce6cdaccc1d61bd5d5b87e78fab495f44.jpg"
   }
 ]

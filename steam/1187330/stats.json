@@ -1,58 +1,72 @@
-﻿{
-  "MATCHES": {
-    "description": "Matches Played",
-    "value": 0
+[
+  {
+    "name": "MATCHES",
+    "defaultvalue": 0,
+    "displayName": "Matches Played"
   },
-  "LOGIN": {
-    "description": "Logins",
-    "value": 0
+  {
+    "name": "LOGIN",
+    "defaultvalue": 0,
+    "displayName": "Logins"
   },
-  "WIN": {
-    "description": "Wins",
-    "value": 0
+  {
+    "name": "WIN",
+    "defaultvalue": 0,
+    "displayName": "Wins"
   },
-  "WINSTREAK": {
-    "description": "Winning Streak",
-    "value": 0
+  {
+    "name": "WINSTREAK",
+    "defaultvalue": 0,
+    "displayName": "Winning Streak"
   },
-  "SNIPE": {
-    "description": "Snipershots",
-    "value": 0
+  {
+    "name": "SNIPE",
+    "defaultvalue": 0,
+    "displayName": "Snipershots"
   },
-  "LOWHEAL": {
-    "description": "Low Players Healed",
-    "value": 0
+  {
+    "name": "LOWHEAL",
+    "defaultvalue": 0,
+    "displayName": "Low Players Healed"
   },
-  "PARA": {
-    "description": "Health Healed",
-    "value": 0
+  {
+    "name": "PARA",
+    "defaultvalue": 0,
+    "displayName": "Health Healed"
   },
-  "TOWER": {
-    "description": "Claims",
-    "value": 0
+  {
+    "name": "TOWER",
+    "defaultvalue": 0,
+    "displayName": "Claims"
   },
-  "TELE": {
-    "description": "Teleports",
-    "value": 0
+  {
+    "name": "TELE",
+    "defaultvalue": 0,
+    "displayName": "Teleports"
   },
-  "FIRE": {
-    "description": "Hottest Fire",
-    "value": 0
+  {
+    "name": "FIRE",
+    "defaultvalue": 0,
+    "displayName": "Hottest Fire"
   },
-  "ICE": {
-    "description": "Coldest Ice",
-    "value": 0
+  {
+    "name": "ICE",
+    "defaultvalue": 0,
+    "displayName": "Coldest Ice"
   },
-  "HEAD_R": {
-    "description": "Headshots Taken",
-    "value": 0
+  {
+    "name": "HEAD_R",
+    "defaultvalue": 0,
+    "displayName": "Headshots Taken"
   },
-  "MVP": {
-    "description": "MVP",
-    "value": 0
+  {
+    "name": "MVP",
+    "defaultvalue": 0,
+    "displayName": "MVP"
   },
-  "LVL": {
-    "description": "Level",
-    "value": 0
+  {
+    "name": "LVL",
+    "defaultvalue": 0,
+    "displayName": "Level"
   }
-}
+]

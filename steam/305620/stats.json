@@ -1,42 +1,52 @@
-﻿{
-  "NumGames": {
-    "description": "",
-    "value": 0
+[
+  {
+    "name": "NumGames",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "NumPilgrim": {
-    "description": "",
-    "value": 0
+  {
+    "name": "NumPilgrim",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "NumVoyageur": {
-    "description": "",
-    "value": 0
+  {
+    "name": "NumVoyageur",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "NumStalker": {
-    "description": "",
-    "value": 0
+  {
+    "name": "NumStalker",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "NumDaySurvived_Sandbox": {
-    "description": "",
-    "value": 0
+  {
+    "name": "NumDaySurvived_Sandbox",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "ConsecutiveNightsSurvived_Sandbox": {
-    "description": "",
-    "value": 0
+  {
+    "name": "ConsecutiveNightsSurvived_Sandbox",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "FullyHarvestedDeer_Sandbox": {
-    "description": "",
-    "value": 0
+  {
+    "name": "FullyHarvestedDeer_Sandbox",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "NumDaysSurvivedOffLand_Sandbox": {
-    "description": "",
-    "value": 0
+  {
+    "name": "NumDaysSurvivedOffLand_Sandbox",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "NumDaysSurvivedWithoutGunFired_Sandbox": {
-    "description": "",
-    "value": 0
+  {
+    "name": "NumDaysSurvivedWithoutGunFired_Sandbox",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "NumDaysSurvivedWithoutKill_Sandbox": {
-    "description": "",
-    "value": 0
+  {
+    "name": "NumDaysSurvivedWithoutKill_Sandbox",
+    "defaultvalue": 0,
+    "displayName": ""
   }
-}
+]

@@ -1,14 +1,17 @@
-﻿{
-  "EradicateDiseases": {
-    "description": "",
-    "value": 0
+[
+  {
+    "name": "EradicateDiseases",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "NumWins": {
-    "description": "",
-    "value": 0
+  {
+    "name": "NumWins",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "NumWinsChallengeVS": {
-    "description": "",
-    "value": 0
+  {
+    "name": "NumWinsChallengeVS",
+    "defaultvalue": 0,
+    "displayName": ""
   }
-}
+]

@@ -857,10 +857,262 @@
   {
     "name": "CamelotBallista",
     "defaultvalue": 0,
-    "displayName": "Camelot Ballista",
+    "displayName": "Camelot Rapid Fire",
     "hidden": 0,
     "description": "Score 5000 points",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/572620/fdcb54123758593ec053be418f9e76b796285b7a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/572620/0829b65aa5f6952de3168ea27f8878a6ea17de30.jpg"
+  },
+  {
+    "name": "DailyChallenge1st",
+    "defaultvalue": 0,
+    "displayName": "Daily Challenge Winner",
+    "hidden": 0,
+    "description": "Get 1st place in the Daily Challenge",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/572620/39d451434a072614f0f44bfed543eea595bd5257.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/572620/5eac0b53c8843a9a9d59e6666bb22d0ae5e3c988.jpg"
+  },
+  {
+    "name": "Parrot_Red_Chivo",
+    "defaultvalue": 0,
+    "displayName": "Red Parrot",
+    "hidden": 0,
+    "description": "Win the red parrot from the claw machine",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/572620/1282a6b1e56b2ff35b4c1a3f6006c7b48aebc653.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/572620/f684af2a2386d0d1e666c77e9dcacd72ff594269.jpg"
+  },
+  {
+    "name": "Parrot_Blue_Chivo",
+    "defaultvalue": 0,
+    "displayName": "Blue Parrot",
+    "hidden": 0,
+    "description": "Win the blue parrot from the claw machine",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/572620/bb78b903970f4d5d82cf3fb84062c430067505da.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/572620/bf150873618eb3d7159c371914c4e4a8851a5743.jpg"
+  },
+  {
+    "name": "Tiger_Chivo",
+    "defaultvalue": 0,
+    "displayName": "Tiger",
+    "hidden": 0,
+    "description": "Win the tiger from the claw machine",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/572620/3d023bd720e22f310d9434d0977f4df78b929d8f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/572620/627931832bb861065f3fa5fac7b86958631a90fd.jpg"
+  },
+  {
+    "name": "Monkey_Chivo",
+    "defaultvalue": 0,
+    "displayName": "Monkey",
+    "hidden": 0,
+    "description": "Win the monkey from the claw machine",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/572620/755a4a8aa49c678d32dd6688e05b40101ad61d68.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/572620/3d18b3738487d7828a41466d1686e09b57dfba7a.jpg"
+  },
+  {
+    "name": "Jungle_Ball_Chivo",
+    "defaultvalue": 0,
+    "displayName": "Jungle Ball",
+    "hidden": 0,
+    "description": "Win the jungle ball from the claw machine",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/572620/e14d8d06e9a43d5b3c9479d542c1b19025cc8495.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/572620/05cefc39e926f8c57052fab9d0f6e3112996af59.jpg"
+  },
+  {
+    "name": "ClawMachineJungleChivo",
+    "defaultvalue": 0,
+    "displayName": "All Jungle Toys",
+    "hidden": 0,
+    "description": "Win all the toys from the jungle claw machine",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/572620/cda9143379b9b31c78cba2448257f368b53eef52.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/572620/3266d6d9afffe94175775ccb530c5f3253af43ef.jpg"
+  },
+  {
+    "name": "ToyGrab_Bear_Blue_Chivo",
+    "defaultvalue": 0,
+    "displayName": "Blue Bear",
+    "hidden": 0,
+    "description": "Win the blue bear from the claw machine",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/572620/7cb655929aaf7ea4d56211154f0ed789a6d659e2.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/572620/872582a0b8db1cab99ed4b1dacc0bec698902610.jpg"
+  },
+  {
+    "name": "ToyGrab_Bear_Green_Chivo",
+    "defaultvalue": 0,
+    "displayName": "Green Bear",
+    "hidden": 0,
+    "description": "Win the green bear from the claw machine",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/572620/c0860957f63af10db3cc6f98359e64462597c371.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/572620/44b6fc0d4b95f84c3a31341524d21ae567b27b43.jpg"
+  },
+  {
+    "name": "ToyGrab_Bear_Orange_Chivo",
+    "defaultvalue": 0,
+    "displayName": "Orange Bear",
+    "hidden": 0,
+    "description": "Win the orange bear from the claw machine",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/572620/898a00c9a2f76a710fb86357c8b67490773bc92d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/572620/568a0f6f00f5465d02ad83ac4a256fa4f7224a1c.jpg"
+  },
+  {
+    "name": "ToyGrab_Bear_Pink_Chivo",
+    "defaultvalue": 0,
+    "displayName": "Pink Bear",
+    "hidden": 0,
+    "description": "Win the blue bear from the claw machine",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/572620/71d024781f7a2dfd41bf882549a0a70fd656b66f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/572620/108cfd97cc690e29f8502b266356bce4bae4a4b7.jpg"
+  },
+  {
+    "name": "Toy_Grab_Ball_Chivo",
+    "defaultvalue": 0,
+    "displayName": "Toy Grab Ball",
+    "hidden": 0,
+    "description": "Win the toy grab ball from the claw machine",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/572620/4af988702e6197263c2c03112eae70689e2c8a2d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/572620/f2336aeff57fe986c3e2f478bac26a42e18a16f6.jpg"
+  },
+  {
+    "name": "ClawMachineToyGrabChivo",
+    "defaultvalue": 0,
+    "displayName": "Toy Grab All",
+    "hidden": 0,
+    "description": "Win every toy from the toy grab claw machine",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/572620/7c5391ddaa98fdd250a8fcb75061dbf1f174f6dd.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/572620/5d0187033320b72c14a661f0fdd8f9fbe19f5d8e.jpg"
+  },
+  {
+    "name": "Cog1",
+    "defaultvalue": 0,
+    "displayName": "Space Warper Bronze",
+    "hidden": 0,
+    "description": "Score 10 points",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/572620/91d498d63ce084c1e6f4e31c2d47abfd1fa97deb.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/572620/b2d05dffaf1dfb4dcc9757d7ccbbe3a0c2d91281.jpg"
+  },
+  {
+    "name": "Cog2",
+    "defaultvalue": 0,
+    "displayName": "Space Warper Silver",
+    "hidden": 0,
+    "description": "Score 50 points",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/572620/c2b5c3877d531b883b53a9bbec6f95b973a60cc9.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/572620/f675468685969d8258e3bcad00948a736e65b42f.jpg"
+  },
+  {
+    "name": "Cog3",
+    "defaultvalue": 0,
+    "displayName": "Space Warper Gold",
+    "hidden": 0,
+    "description": "Score 100 points",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/572620/ad67a9833bd62d24782b8dcea4040da26b045673.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/572620/06af559fb55aec75cd1f93874d61ec688fb50a15.jpg"
+  },
+  {
+    "name": "ZombieSnatchZombie1",
+    "defaultvalue": 0,
+    "displayName": "Zombie Snatch Zombie 1",
+    "hidden": 0,
+    "description": "Win a zombie 1",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/572620/a3dcade1b7128e243f02a5680e104ee33773dfd5.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/572620/aeecd5f02505a7515d27a40059a5987d607c54d0.jpg"
+  },
+  {
+    "name": "ZombieSnatchZombie2",
+    "defaultvalue": 0,
+    "displayName": "Zombie Snatch Zombie 2",
+    "hidden": 0,
+    "description": "Win a zombie 2",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/572620/3a3dc49c2de00ada99f24567c36ee55d2fd69647.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/572620/9010ed2defa3a233d10405ce7b58c127c048d65c.jpg"
+  },
+  {
+    "name": "ZombieSnatchZombie3",
+    "defaultvalue": 0,
+    "displayName": "Zombie Snatch Zombie 3",
+    "hidden": 0,
+    "description": "Win a zombie 3",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/572620/b18a688d4325fd1c8f99daa795b8eb67da4c17ea.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/572620/b7fa8e4504ba398242fe8162fda9c56a308aa6ee.jpg"
+  },
+  {
+    "name": "ZombieSnatchZombie4",
+    "defaultvalue": 0,
+    "displayName": "Zombie Snatch Zombie 4",
+    "hidden": 0,
+    "description": "Win a zombie 4",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/572620/dafe1e2ed9c2a3710f534d7bb30ee2f9942b122f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/572620/ca1501fb2f610b62e80ea26e99c04374257bf780.jpg"
+  },
+  {
+    "name": "ToyZombieSnatchBall",
+    "defaultvalue": 0,
+    "displayName": "Zombie Snatch Ball",
+    "hidden": 0,
+    "description": "Win a zombie ball",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/572620/092d6a423ceb2190b722c0ff1c410c932c208d7f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/572620/dcdd57b0075272bb9d8cbda8bb8868245980281d.jpg"
+  },
+  {
+    "name": "ClawMachineZombies",
+    "defaultvalue": 0,
+    "displayName": "All zombies",
+    "hidden": 0,
+    "description": "Win all zombie toys",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/572620/ff8f72a9585a83ea3ddd91b2403fc48c1c505b42.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/572620/a97b547c83de97e019ce25dd3f1d8d48e07ac395.jpg"
+  },
+  {
+    "name": "GalaxyGrabsLongHead",
+    "defaultvalue": 0,
+    "displayName": "Galaxy Grabs Long Head",
+    "hidden": 0,
+    "description": "Win a Long Head",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/572620/f57e1ab8c9982e983d01b2b038582abe6436a327.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/572620/971181adc9e99b6cd21a02419010e8c9c44cbf83.jpg"
+  },
+  {
+    "name": "GalaxyGrabs3Eye",
+    "defaultvalue": 0,
+    "displayName": "Galaxy Grabs 3Eye",
+    "hidden": 0,
+    "description": "Win a 3Eye",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/572620/485aa586acd3e94ac0c4e75ce8b5a184da62b903.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/572620/5de3906633a89eca3b8906be2c948e54341d9a15.jpg"
+  },
+  {
+    "name": "GalaxayGrabsMoon",
+    "defaultvalue": 0,
+    "displayName": "Galaxay Grabs Moon",
+    "hidden": 0,
+    "description": "Win a moon",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/572620/449a61b8dfc47b920bec467ec98f9c19c18ab942.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/572620/2a35f8ba61fb47799c8cfe1337e2a7cc5fcc9cb8.jpg"
+  },
+  {
+    "name": "GalaxayGrabsStar",
+    "defaultvalue": 0,
+    "displayName": "Galaxay Grabs Star",
+    "hidden": 0,
+    "description": "Win a star",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/572620/599b241aef8a714cee001948377281b6548afd1f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/572620/c0b7ae4bfdb7012c1826f5c9d2af568e94d7bc91.jpg"
+  },
+  {
+    "name": "ToyGalacticGrabsBall",
+    "defaultvalue": 0,
+    "displayName": "Galactic Grabs Ball",
+    "hidden": 0,
+    "description": "Win a ball",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/572620/cdb81b71b80ffaaf42a84ce210cfd346fcf8694c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/572620/423bf03f36b7d7967e0d688f979a8cdc3b0fc73a.jpg"
+  },
+  {
+    "name": "ClawMachineAliens",
+    "defaultvalue": 0,
+    "displayName": "All aliens",
+    "hidden": 0,
+    "description": "Win all alien toys",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/572620/53bc97098581ad938e4765a1eb86c39a11cec2c0.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/572620/3dc91db1a8763af0900c9e783117e4b01e667bfb.jpg"
   }
 ]

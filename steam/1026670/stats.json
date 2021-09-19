@@ -1,162 +1,202 @@
-﻿{
-  "NumGames": {
-    "description": "Total Game Played",
-    "value": 0
+[
+  {
+    "name": "NumGames",
+    "defaultvalue": 0,
+    "displayName": "Total Game Played"
   },
-  "NumCleared": {
-    "description": "Total Game Cleard",
-    "value": 0
+  {
+    "name": "NumCleared",
+    "defaultvalue": 0,
+    "displayName": "Total Game Cleard"
   },
-  "NumCorrects": {
-    "description": "Total Correct Counts",
-    "value": 0
+  {
+    "name": "NumCorrects",
+    "defaultvalue": 0,
+    "displayName": "Total Correct Counts"
   },
-  "NumWrongs": {
-    "description": "Total Wrong Counts",
-    "value": 0
+  {
+    "name": "NumWrongs",
+    "defaultvalue": 0,
+    "displayName": "Total Wrong Counts"
   },
-  "NumFlipped": {
-    "description": "Total Flip Counts",
-    "value": 0
+  {
+    "name": "NumFlipped",
+    "defaultvalue": 0,
+    "displayName": "Total Flip Counts"
   },
-  "MaxChain": {
-    "description": "Max Chain Count",
-    "value": 0
+  {
+    "name": "MaxChain",
+    "defaultvalue": 0,
+    "displayName": "Max Chain Count"
   },
-  "GlobalBestScore": {
-    "description": "Global Best Score",
-    "value": 0
+  {
+    "name": "GlobalBestScore",
+    "defaultvalue": 0,
+    "displayName": "Global Best Score"
   },
-  "FavNo0": {
-    "description": "FavNo0",
-    "value": 0
+  {
+    "name": "FavNo0",
+    "defaultvalue": 0,
+    "displayName": "FavNo0"
   },
-  "FavNo1": {
-    "description": "FavNo1",
-    "value": 0
+  {
+    "name": "FavNo1",
+    "defaultvalue": 0,
+    "displayName": "FavNo1"
   },
-  "FavNo2": {
-    "description": "FavNo2",
-    "value": 0
+  {
+    "name": "FavNo2",
+    "defaultvalue": 0,
+    "displayName": "FavNo2"
   },
-  "FavNo3": {
-    "description": "FavNo3",
-    "value": 0
+  {
+    "name": "FavNo3",
+    "defaultvalue": 0,
+    "displayName": "FavNo3"
   },
-  "FavNo4": {
-    "description": "FavNo4",
-    "value": 0
+  {
+    "name": "FavNo4",
+    "defaultvalue": 0,
+    "displayName": "FavNo4"
   },
-  "FavNo5": {
-    "description": "FavNo5",
-    "value": 0
+  {
+    "name": "FavNo5",
+    "defaultvalue": 0,
+    "displayName": "FavNo5"
   },
-  "FavNo6": {
-    "description": "FavNo6",
-    "value": 0
+  {
+    "name": "FavNo6",
+    "defaultvalue": 0,
+    "displayName": "FavNo6"
   },
-  "FavNo7": {
-    "description": "FavNo7",
-    "value": 0
+  {
+    "name": "FavNo7",
+    "defaultvalue": 0,
+    "displayName": "FavNo7"
   },
-  "FavNo8": {
-    "description": "FavNo8",
-    "value": 0
+  {
+    "name": "FavNo8",
+    "defaultvalue": 0,
+    "displayName": "FavNo8"
   },
-  "FavNo9": {
-    "description": "FavNo9",
-    "value": 0
+  {
+    "name": "FavNo9",
+    "defaultvalue": 0,
+    "displayName": "FavNo9"
   },
-  "FavNo10": {
-    "description": "FavNo10",
-    "value": 0
+  {
+    "name": "FavNo10",
+    "defaultvalue": 0,
+    "displayName": "FavNo10"
   },
-  "FavNo11": {
-    "description": "FavNo11",
-    "value": 0
+  {
+    "name": "FavNo11",
+    "defaultvalue": 0,
+    "displayName": "FavNo11"
   },
-  "FavNo12": {
-    "description": "FavNo12",
-    "value": 0
+  {
+    "name": "FavNo12",
+    "defaultvalue": 0,
+    "displayName": "FavNo12"
   },
-  "FavNo13": {
-    "description": "FavNo13",
-    "value": 0
+  {
+    "name": "FavNo13",
+    "defaultvalue": 0,
+    "displayName": "FavNo13"
   },
-  "FavNo14": {
-    "description": "FavNo14",
-    "value": 0
+  {
+    "name": "FavNo14",
+    "defaultvalue": 0,
+    "displayName": "FavNo14"
   },
-  "FavNo15": {
-    "description": "FavNo15",
-    "value": 0
+  {
+    "name": "FavNo15",
+    "defaultvalue": 0,
+    "displayName": "FavNo15"
   },
-  "FavNo16": {
-    "description": "FavNo16",
-    "value": 0
+  {
+    "name": "FavNo16",
+    "defaultvalue": 0,
+    "displayName": "FavNo16"
   },
-  "FavNo17": {
-    "description": "FavNo17",
-    "value": 0
+  {
+    "name": "FavNo17",
+    "defaultvalue": 0,
+    "displayName": "FavNo17"
   },
-  "FavNo18": {
-    "description": "FavNo18",
-    "value": 0
+  {
+    "name": "FavNo18",
+    "defaultvalue": 0,
+    "displayName": "FavNo18"
   },
-  "FavNo19": {
-    "description": "FavNo19",
-    "value": 0
+  {
+    "name": "FavNo19",
+    "defaultvalue": 0,
+    "displayName": "FavNo19"
   },
-  "FavNo20": {
-    "description": "FavNo20",
-    "value": 0
+  {
+    "name": "FavNo20",
+    "defaultvalue": 0,
+    "displayName": "FavNo20"
   },
-  "FavNo21": {
-    "description": "FavNo21",
-    "value": 0
+  {
+    "name": "FavNo21",
+    "defaultvalue": 0,
+    "displayName": "FavNo21"
   },
-  "FavNo22": {
-    "description": "FavNo22",
-    "value": 0
+  {
+    "name": "FavNo22",
+    "defaultvalue": 0,
+    "displayName": "FavNo22"
   },
-  "FavNo23": {
-    "description": "FavNo23",
-    "value": 0
+  {
+    "name": "FavNo23",
+    "defaultvalue": 0,
+    "displayName": "FavNo23"
   },
-  "FavNo24": {
-    "description": "FavNo24",
-    "value": 0
+  {
+    "name": "FavNo24",
+    "defaultvalue": 0,
+    "displayName": "FavNo24"
   },
-  "FavNo25": {
-    "description": "FavNo25",
-    "value": 0
+  {
+    "name": "FavNo25",
+    "defaultvalue": 0,
+    "displayName": "FavNo25"
   },
-  "FavNo26": {
-    "description": "FavNo26",
-    "value": 0
+  {
+    "name": "FavNo26",
+    "defaultvalue": 0,
+    "displayName": "FavNo26"
   },
-  "FavNo27": {
-    "description": "FavNo27",
-    "value": 0
+  {
+    "name": "FavNo27",
+    "defaultvalue": 0,
+    "displayName": "FavNo27"
   },
-  "FavNo28": {
-    "description": "FavNo28",
-    "value": 0
+  {
+    "name": "FavNo28",
+    "defaultvalue": 0,
+    "displayName": "FavNo28"
   },
-  "FavNo29": {
-    "description": "FavNo29",
-    "value": 0
+  {
+    "name": "FavNo29",
+    "defaultvalue": 0,
+    "displayName": "FavNo29"
   },
-  "FavNo30": {
-    "description": "FavNo30",
-    "value": 0
+  {
+    "name": "FavNo30",
+    "defaultvalue": 0,
+    "displayName": "FavNo30"
   },
-  "FavNo31": {
-    "description": "FavNo31",
-    "value": 0
+  {
+    "name": "FavNo31",
+    "defaultvalue": 0,
+    "displayName": "FavNo31"
   },
-  "FavNo32": {
-    "description": "FavNo32",
-    "value": 0
+  {
+    "name": "FavNo32",
+    "defaultvalue": 0,
+    "displayName": "FavNo32"
   }
-}
+]

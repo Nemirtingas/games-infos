@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "name": "AttackSpeed",
     "defaultvalue": 0,
@@ -14,7 +14,7 @@
     "displayName": "Automation Activation",
     "hidden": 0,
     "description": "Activate 6 turrets in a single run.",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/632360/5da3d59037fde5d96114d43198dc7d3b0d2e764c.jpg",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/632360/7e250fbdd7d5faa7c85a057f29af05e33c81ee24.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/632360/320b4df5abb9d267e1b824197ad59a00610038ab.jpg"
   },
   {
@@ -203,7 +203,7 @@
     "displayName": "Warrior",
     "hidden": 0,
     "description": "Reach and complete the 3rd Teleporter event without dying.",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/632360/7f2fb69ce531bbbd8f15e88ecf618c381b6f842c.jpg",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/632360/f69d337d9a4a6ccbefbe3423cf4a041c4c50591a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/632360/320b4df5abb9d267e1b824197ad59a00610038ab.jpg"
   },
   {
@@ -455,7 +455,7 @@
     "displayName": "Keyed Up",
     "hidden": 0,
     "description": "Defeat the Teleporter boss under 15 seconds.",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/632360/0123b399348957259f1efa7f9aa776eb69fb9d7a.jpg",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/632360/62a2e522d5314fe3e401bc382c42d398fb726258.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/632360/320b4df5abb9d267e1b824197ad59a00610038ab.jpg"
   },
   {
@@ -924,6 +924,87 @@
     "hidden": 0,
     "description": "Discover and enter three unique portals.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/632360/3cc127e3fa2063f2ea6ee2be289228916cb0e041.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/632360/320b4df5abb9d267e1b824197ad59a00610038ab.jpg"
+  },
+  {
+    "name": "Bandit2ClearGameMonsoon",
+    "defaultvalue": 0,
+    "displayName": "Bandit: Mastery",
+    "hidden": 0,
+    "description": "As Bandit, beat the game or obliterate on Monsoon.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/632360/5cd9c5940fa89d37f15cb1b8db41936f5fb9aaee.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/632360/320b4df5abb9d267e1b824197ad59a00610038ab.jpg"
+  },
+  {
+    "name": "Bandit2ConsecutiveReset",
+    "defaultvalue": 0,
+    "displayName": "Bandit: Classic Man",
+    "hidden": 0,
+    "description": "As Bandit, successfully use 'Lights Out' to reset your cooldowns 15 times in a row.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/632360/50b7fe1eefa077b5ac5976a3a54eec87134896a0.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/632360/320b4df5abb9d267e1b824197ad59a00610038ab.jpg"
+  },
+  {
+    "name": "Bandit2RevolverFinale",
+    "defaultvalue": 0,
+    "displayName": "Bandit: B&E",
+    "hidden": 0,
+    "description": "As Bandit, kill the final boss with 'Lights Out'.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/632360/4abd32efd794af0a9e170f499df703f7387670bc.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/632360/320b4df5abb9d267e1b824197ad59a00610038ab.jpg"
+  },
+  {
+    "name": "Bandit2StackSuperBleed",
+    "defaultvalue": 0,
+    "displayName": "Bandit: Sadist",
+    "hidden": 0,
+    "description": "As Bandit, kill a monster with 20 stacks of Hemorrhage.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/632360/090bce27c4972916f29067b942a43a3c8633ac55.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/632360/320b4df5abb9d267e1b824197ad59a00610038ab.jpg"
+  },
+  {
+    "name": "CaptainSupplyDropFinale",
+    "defaultvalue": 0,
+    "displayName": "Captain: Smushed",
+    "hidden": 0,
+    "description": "As Captain, kill the final boss using a Supply Beacon",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/632360/500a3386b58986d8352d1580bffc2c9370e2b515.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/632360/320b4df5abb9d267e1b824197ad59a00610038ab.jpg"
+  },
+  {
+    "name": "LoaderKillLoaders",
+    "defaultvalue": 0,
+    "displayName": "Loader: The Thunderdome",
+    "hidden": 0,
+    "description": "As Loader, kill three other Loaders in the Bulwark's Ambry.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/632360/2428e7a16e72c66a6472d09c35b06af4632c0670.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/632360/320b4df5abb9d267e1b824197ad59a00610038ab.jpg"
+  },
+  {
+    "name": "MercXSkillsInYSeconds",
+    "defaultvalue": 0,
+    "displayName": "Mercenary: Flash of Blades",
+    "hidden": 0,
+    "description": "As Mercenary, use 20 abilities in 10 seconds.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/632360/b893da8c761f491cf14dec250ac5b0505dac8779.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/632360/320b4df5abb9d267e1b824197ad59a00610038ab.jpg"
+  },
+  {
+    "name": "ToolbotBeatArenaLater",
+    "defaultvalue": 0,
+    "displayName": "MUL-T: Seventh Day",
+    "hidden": 0,
+    "description": "As MUL-T, clear the Void Fields on Stage 7 or later.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/632360/e30215f787585c030edf69ae0e7d8b50d170c070.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/632360/320b4df5abb9d267e1b824197ad59a00610038ab.jpg"
+  },
+  {
+    "name": "TreebotBigHeal",
+    "defaultvalue": 0,
+    "displayName": "REX: Full of Life",
+    "hidden": 0,
+    "description": "As REX, heal for 1000 health at once.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/632360/f64efb0bcab2da1885442e3167b1747b4041591b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/632360/320b4df5abb9d267e1b824197ad59a00610038ab.jpg"
   }
 ]

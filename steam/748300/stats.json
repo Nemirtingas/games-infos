@@ -1,10 +1,12 @@
-﻿{
-  "UncommonItemsCollected": {
-    "description": "Uncommon collected items",
-    "value": 0
+[
+  {
+    "name": "UncommonItemsCollected",
+    "defaultvalue": 0,
+    "displayName": "Uncommon collected items"
   },
-  "GlobeTrotterStat": {
-    "description": "GlobeTrotter",
-    "value": 0
+  {
+    "name": "GlobeTrotterStat",
+    "defaultvalue": 0,
+    "displayName": "GlobeTrotter"
   }
-}
+]

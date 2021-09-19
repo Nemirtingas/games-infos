@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "name": "Achievements_00",
     "defaultvalue": 0,
@@ -457,5 +457,41 @@
     "description": "Clear the Bloody Palace with V.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/601150/61139fcd2c5aadf98deb2b82afdd7ebf37ab5391.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/601150/bd7449a5f01ad4e4c4fa7a8cef052fe2b7269e4a.jpg"
+  },
+  {
+    "name": "Achievements_51",
+    "defaultvalue": 0,
+    "displayName": "Sibling Rivalry",
+    "hidden": 0,
+    "description": "Clear all missions as Vergil.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/601150/9278d1bd14f00f4335bbbcf7e47bb18f8f1864f9.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/601150/3a71675e7a73af76ae2c58d6b821c3fadb9b9aa7.jpg"
+  },
+  {
+    "name": "Achievements_52",
+    "defaultvalue": 0,
+    "displayName": "Concentrated Strength",
+    "hidden": 0,
+    "description": "Acquire all of Vergil's skills.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/601150/08fd95698ae41b17986551627533a6698b1f48c8.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/601150/f7cb2922ac7d3075396da373fab4620241f3edf4.jpg"
+  },
+  {
+    "name": "Achievements_53",
+    "defaultvalue": 0,
+    "displayName": "Heart of a Swordsman",
+    "hidden": 0,
+    "description": "Clear Mission 19 as Vergil without using any weapons other than Yamato. (Heaven or Hell excluded)",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/601150/31882f1f1e9139285d5cee4807eca94121647fb6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/601150/b39e2252bf090d5539d5e0704c900fc2c7ab68f7.jpg"
+  },
+  {
+    "name": "Achievements_54",
+    "defaultvalue": 0,
+    "displayName": "This is Power",
+    "hidden": 0,
+    "description": "Clear the Bloody Palace as Vergil.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/601150/9ef3aaa437a4dfd612fdc834d697fd4d55ac772a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/601150/f5ddad92ccb9cb3b523dc99eb95041010eb68a38.jpg"
   }
 ]

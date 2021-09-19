@@ -1,138 +1,172 @@
-﻿{
-  "fidelityLevelAverage": {
-    "description": "",
-    "value": 0
+[
+  {
+    "name": "fidelityLevelAverage",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "fpsAverage": {
-    "description": "",
-    "value": 0
+  {
+    "name": "fpsAverage",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "droppedFramesAverage": {
-    "description": "",
-    "value": 0
+  {
+    "name": "droppedFramesAverage",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "droppedFramesCPUAverage": {
-    "description": "",
-    "value": 0
+  {
+    "name": "droppedFramesCPUAverage",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "cpuModel": {
-    "description": "",
-    "value": 0
+  {
+    "name": "cpuModel",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "cpuVendor": {
-    "description": "",
-    "value": 0
+  {
+    "name": "cpuVendor",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "cpuFrequency": {
-    "description": "",
-    "value": 0
+  {
+    "name": "cpuFrequency",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "cpuNumLogicalProcessors": {
-    "description": "",
-    "value": 0
+  {
+    "name": "cpuNumLogicalProcessors",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "cpuNumPhysicalProcessors": {
-    "description": "",
-    "value": 0
+  {
+    "name": "cpuNumPhysicalProcessors",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "cpuRamMB": {
-    "description": "",
-    "value": 0
+  {
+    "name": "cpuRamMB",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "gpuVendor": {
-    "description": "",
-    "value": 0
+  {
+    "name": "gpuVendor",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "gpuVendorID": {
-    "description": "",
-    "value": 0
+  {
+    "name": "gpuVendorID",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "gpuDeviceID": {
-    "description": "",
-    "value": 0
+  {
+    "name": "gpuDeviceID",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "gpuSubSysID": {
-    "description": "",
-    "value": 0
+  {
+    "name": "gpuSubSysID",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "gpuRevision": {
-    "description": "",
-    "value": 0
+  {
+    "name": "gpuRevision",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "gpuDXSupportLevel": {
-    "description": "",
-    "value": 0
+  {
+    "name": "gpuDXSupportLevel",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "gpuMinDXSupportLevel": {
-    "description": "",
-    "value": 0
+  {
+    "name": "gpuMinDXSupportLevel",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "gpuMaxDXSupportLevel": {
-    "description": "",
-    "value": 0
+  {
+    "name": "gpuMaxDXSupportLevel",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "gpuDriverVersionHigh": {
-    "description": "",
-    "value": 0
+  {
+    "name": "gpuDriverVersionHigh",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "gpuDriverVersionLow": {
-    "description": "",
-    "value": 0
+  {
+    "name": "gpuDriverVersionLow",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "gpuRamMB": {
-    "description": "",
-    "value": 0
+  {
+    "name": "gpuRamMB",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "osVersion": {
-    "description": "",
-    "value": 0
+  {
+    "name": "osVersion",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "osMajorVersion": {
-    "description": "",
-    "value": 0
+  {
+    "name": "osMajorVersion",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "osMinorVersion": {
-    "description": "",
-    "value": 0
+  {
+    "name": "osMinorVersion",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "osBuildNumber": {
-    "description": "",
-    "value": 0
+  {
+    "name": "osBuildNumber",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "osPlatformId": {
-    "description": "",
-    "value": 0
+  {
+    "name": "osPlatformId",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "fidelityNumFrames": {
-    "description": "",
-    "value": 0
+  {
+    "name": "fidelityNumFrames",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "fidelityLevelAverageInt": {
-    "description": "",
-    "value": 0
+  {
+    "name": "fidelityLevelAverageInt",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "fpsAverageInt": {
-    "description": "",
-    "value": 0
+  {
+    "name": "fpsAverageInt",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "droppedFramesAverageInt": {
-    "description": "",
-    "value": 0
+  {
+    "name": "droppedFramesAverageInt",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "droppedFramesCPUAverageInt": {
-    "description": "",
-    "value": 0
+  {
+    "name": "droppedFramesCPUAverageInt",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "version": {
-    "description": "",
-    "value": 1
+  {
+    "name": "version",
+    "defaultvalue": 1,
+    "displayName": ""
   },
-  "gpuNumGpusFound": {
-    "description": "",
-    "value": 0
+  {
+    "name": "gpuNumGpusFound",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "gpuNumGpusUsed": {
-    "description": "",
-    "value": 0
+  {
+    "name": "gpuNumGpusUsed",
+    "defaultvalue": 0,
+    "displayName": ""
   }
-}
+]

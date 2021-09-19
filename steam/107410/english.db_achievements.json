@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "name": "AchEPAFinished",
     "defaultvalue": 0,
@@ -965,5 +965,101 @@
     "hidden": 1,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/107410/47836fc496e69d3f2c2e775ae2a284b56ddfcc4f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/107410/aeac2d16b6be98029cd3bf52ad58c267c9d167fe.jpg"
+  },
+  {
+    "name": "AchHardcore",
+    "defaultvalue": 0,
+    "displayName": "Loyalist",
+    "hidden": 0,
+    "description": "Played Arma 3 for 200 hours.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/107410/25cc43f080fde45b741150722a1f30cc32fcad44.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/107410/60879f6204ed12ef6986c139fedfbe77830fe625.jpg"
+  },
+  {
+    "name": "AchGamePlayedTwo",
+    "defaultvalue": 0,
+    "displayName": "This is War 2.00",
+    "hidden": 0,
+    "description": "Played Arma 3 after its 2.00 platform update.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/107410/133b4bb6a46b56c275179a563429cfa3986ba486.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/107410/60879f6204ed12ef6986c139fedfbe77830fe625.jpg"
+  },
+  {
+    "name": "AchFD14Gold",
+    "defaultvalue": 0,
+    "displayName": "Fortress of Fun",
+    "hidden": 0,
+    "description": "Cleared the CoF: Gray Firing Drill in under 2:00.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/107410/8589e44e03f582bb20173dbc755970e15c19df14.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/107410/60879f6204ed12ef6986c139fedfbe77830fe625.jpg"
+  },
+  {
+    "name": "AchAoWLostandFound",
+    "defaultvalue": 0,
+    "displayName": "Lost and Found",
+    "hidden": 0,
+    "description": "Found and marked the 5 famous lost works of art by Dutch masters in Showcase Cultural Property.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/107410/9f033b17f196a3f600c4db89e1ba8e7ef56db227.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/107410/6dc255c4756147260d150295d9f5a471a9e1ba83.jpg"
+  },
+  {
+    "name": "AchAoWPicturePerfect",
+    "defaultvalue": 0,
+    "displayName": "Picture Perfect",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/107410/f6abd5f146d35ad27b991e7f63bdca8bf5d52b31.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/107410/6dc255c4756147260d150295d9f5a471a9e1ba83.jpg"
+  },
+  {
+    "name": "AchAoWDressedToImpress",
+    "defaultvalue": 0,
+    "displayName": "Dressed to Impress",
+    "hidden": 0,
+    "description": "Tried on the new Parade Uniform or Formal Suit.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/107410/d9c46040ffc56de7bf36ff9816a7e726b5c2097f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/107410/6dc255c4756147260d150295d9f5a471a9e1ba83.jpg"
+  },
+  {
+    "name": "AchAoWArtandSoul",
+    "defaultvalue": 0,
+    "displayName": "Art and Soul",
+    "hidden": 0,
+    "description": "Visited the Lars Blanken Gallery in Amsterdam.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/107410/5e939394f10605b6562633e9f5d20728d0a25bf9.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/107410/6dc255c4756147260d150295d9f5a471a9e1ba83.jpg"
+  },
+  {
+    "name": "AchAoWConnoisseur",
+    "defaultvalue": 0,
+    "displayName": "Connoisseur",
+    "hidden": 0,
+    "description": "Inspected 20 labels in the Lars Blanken Gallery in Showcase Art of War.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/107410/c2b73dde26bcef06f0d8b248ff89fa29fe3ff8f7.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/107410/6dc255c4756147260d150295d9f5a471a9e1ba83.jpg"
+  },
+  {
+    "name": "AchAoWDeadLetter",
+    "defaultvalue": 0,
+    "displayName": "Dead Letter",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/107410/cf49f074750c16d55ac4102b72a5cc0d361d8794.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/107410/6dc255c4756147260d150295d9f5a471a9e1ba83.jpg"
+  },
+  {
+    "name": "AchAoWStillLife",
+    "defaultvalue": 0,
+    "displayName": "Still Life",
+    "hidden": 0,
+    "description": "Published a composition to Steam Workshop.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/107410/dd42a8a1518a36e785bb6c0ee4aae62b40d222f1.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/107410/6dc255c4756147260d150295d9f5a471a9e1ba83.jpg"
+  },
+  {
+    "name": "AchAoWRenaissanceMan",
+    "defaultvalue": 0,
+    "displayName": "Renaissance Man",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/107410/0f34fbfb045a15ed0345b7e7dffc959067623e81.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/107410/6dc255c4756147260d150295d9f5a471a9e1ba83.jpg"
   }
 ]

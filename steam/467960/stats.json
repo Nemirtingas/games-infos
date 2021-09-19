@@ -1,506 +1,632 @@
-﻿{
-  "ach_TotalDistance": {
-    "description": "",
-    "value": 0
-  },
-  "ach_TotalGameDay": {
-    "description": "",
-    "value": 0
-  },
-  "ach_TotalEaten": {
-    "description": "",
-    "value": 0
-  },
-  "ach_TotalKill": {
-    "description": "",
-    "value": 0
-  },
-  "ach_GiveDamage": {
-    "description": "",
-    "value": 0
-  },
-  "ach_TakeDamage": {
-    "description": "",
-    "value": 0
-  },
-  "ach_DeathTime": {
-    "description": "",
-    "value": 0
-  },
-  "ach_CraftTime": {
-    "description": "",
-    "value": 0
-  },
-  "ach_MaxToolLevel0": {
-    "description": "",
-    "value": 0
-  },
-  "ach_MaxToolLevel1": {
-    "description": "",
-    "value": 0
-  },
-  "ach_MaxToolLevel2": {
-    "description": "",
-    "value": 0
-  },
-  "ach_MaxToolLevel3": {
-    "description": "",
-    "value": 0
-  },
-  "ach_MaxLevelWeapon": {
-    "description": "",
-    "value": 0
-  },
-  "ach_MaxLevelArmor": {
-    "description": "",
-    "value": 0
-  },
-  "ach_MaxLevelHead": {
-    "description": "",
-    "value": 0
-  },
-  "ach_MaxLevelFoot": {
-    "description": "",
-    "value": 0
-  },
-  "ach_TradeTime": {
-    "description": "",
-    "value": 0
-  },
-  "ach_StealTime": {
-    "description": "",
-    "value": 0
-  },
-  "ach_LoadWaterTime": {
-    "description": "",
-    "value": 0
-  },
-  "ach_RobberTime": {
-    "description": "",
-    "value": 0
-  },
-  "ach_LendSleepTime": {
-    "description": "",
-    "value": 0
-  },
-  "ach_LockpickSafer": {
-    "description": "",
-    "value": 0
-  },
-  "ach_FinishGameDayIn90": {
-    "description": "",
-    "value": 0
-  },
-  "ach_KillBoss0": {
-    "description": "",
-    "value": 0
-  },
-  "ach_KillBoss1": {
-    "description": "",
-    "value": 0
-  },
-  "ach_KillBoss2": {
-    "description": "",
-    "value": 0
-  },
-  "ach_KillBoss3": {
-    "description": "",
-    "value": 0
-  },
-  "ach_FinishDif0": {
-    "description": "",
-    "value": 0
-  },
-  "ach_FinishDif1": {
-    "description": "",
-    "value": 0
-  },
-  "ach_FinishDif2": {
-    "description": "",
-    "value": 0
-  },
-  "ach_ReachLv30": {
-    "description": "",
-    "value": 0
-  },
-  "ach_UnlockAllJobs": {
-    "description": "",
-    "value": 0
-  },
-  "ach_GetAllPostCard": {
-    "description": "",
-    "value": 0
-  },
-  "Job5": {
-    "description": "",
-    "value": 0
-  },
-  "Job6": {
-    "description": "",
-    "value": 0
-  },
-  "Job7": {
-    "description": "",
-    "value": 0
-  },
-  "Job8": {
-    "description": "",
-    "value": 0
-  },
-  "Job9": {
-    "description": "",
-    "value": 0
-  },
-  "Job10": {
-    "description": "",
-    "value": 0
-  },
-  "Job11": {
-    "description": "",
-    "value": 0
-  },
-  "Job12": {
-    "description": "",
-    "value": 0
-  },
-  "Job13": {
-    "description": "",
-    "value": 0
-  },
-  "Job14": {
-    "description": "",
-    "value": 0
-  },
-  "Papertext0": {
-    "description": "",
-    "value": 0
-  },
-  "Papertext1": {
-    "description": "",
-    "value": 0
-  },
-  "Papertext2": {
-    "description": "",
-    "value": 0
-  },
-  "Papertext3": {
-    "description": "",
-    "value": 0
-  },
-  "Papertext4": {
-    "description": "",
-    "value": 0
-  },
-  "Papertext5": {
-    "description": "",
-    "value": 0
-  },
-  "Papertext6": {
-    "description": "",
-    "value": 0
-  },
-  "Papertext7": {
-    "description": "",
-    "value": 0
-  },
-  "Papertext8": {
-    "description": "",
-    "value": 0
-  },
-  "Papertext9": {
-    "description": "",
-    "value": 0
-  },
-  "Papertext10": {
-    "description": "",
-    "value": 0
-  },
-  "Papertext11": {
-    "description": "",
-    "value": 0
-  },
-  "Papertext12": {
-    "description": "",
-    "value": 0
-  },
-  "Papertext13": {
-    "description": "",
-    "value": 0
-  },
-  "Papertext14": {
-    "description": "",
-    "value": 0
-  },
-  "Papertext15": {
-    "description": "",
-    "value": 0
-  },
-  "Papertext16": {
-    "description": "",
-    "value": 0
-  },
-  "Papertext17": {
-    "description": "",
-    "value": 0
-  },
-  "Papertext18": {
-    "description": "",
-    "value": 0
-  },
-  "Papertext19": {
-    "description": "",
-    "value": 0
-  },
-  "Papertext20": {
-    "description": "",
-    "value": 0
-  },
-  "Papertext21": {
-    "description": "",
-    "value": 0
-  },
-  "Papertext22": {
-    "description": "",
-    "value": 0
-  },
-  "Papertext23": {
-    "description": "",
-    "value": 0
-  },
-  "Papertext24": {
-    "description": "",
-    "value": 0
-  },
-  "Papertext25": {
-    "description": "",
-    "value": 0
-  },
-  "Papertext26": {
-    "description": "",
-    "value": 0
-  },
-  "Papertext27": {
-    "description": "",
-    "value": 0
-  },
-  "Papertext28": {
-    "description": "",
-    "value": 0
-  },
-  "Papertext29": {
-    "description": "",
-    "value": 0
-  },
-  "Postcard0": {
-    "description": "",
-    "value": 0
-  },
-  "Postcard1": {
-    "description": "",
-    "value": 0
-  },
-  "Postcard2": {
-    "description": "",
-    "value": 0
-  },
-  "Postcard3": {
-    "description": "",
-    "value": 0
-  },
-  "Postcard4": {
-    "description": "",
-    "value": 0
-  },
-  "Postcard5": {
-    "description": "",
-    "value": 0
-  },
-  "Postcard6": {
-    "description": "",
-    "value": 0
-  },
-  "Postcard7": {
-    "description": "",
-    "value": 0
-  },
-  "Postcard8": {
-    "description": "",
-    "value": 0
-  },
-  "JobClearTime0": {
-    "description": "",
-    "value": 0
-  },
-  "JobClearTime1": {
-    "description": "",
-    "value": 0
-  },
-  "JobClearTime2": {
-    "description": "",
-    "value": 0
-  },
-  "JobClearTime3": {
-    "description": "",
-    "value": 0
-  },
-  "JobClearTime4": {
-    "description": "",
-    "value": 0
-  },
-  "JobClearTime5": {
-    "description": "",
-    "value": 0
-  },
-  "JobClearTime6": {
-    "description": "",
-    "value": 0
-  },
-  "JobClearTime7": {
-    "description": "",
-    "value": 0
-  },
-  "JobClearTime8": {
-    "description": "",
-    "value": 0
-  },
-  "JobClearTime9": {
-    "description": "",
-    "value": 0
-  },
-  "JobClearTime10": {
-    "description": "",
-    "value": 0
-  },
-  "JobClearTime11": {
-    "description": "",
-    "value": 0
-  },
-  "JobClearTime12": {
-    "description": "",
-    "value": 0
-  },
-  "JobClearTime13": {
-    "description": "",
-    "value": 0
-  },
-  "JobClearTime14": {
-    "description": "",
-    "value": 0
-  },
-  "CardLevel0": {
-    "description": "",
-    "value": 0
-  },
-  "CardLevel1": {
-    "description": "",
-    "value": 0
-  },
-  "CardLevel2": {
-    "description": "",
-    "value": 0
-  },
-  "CardLevel3": {
-    "description": "",
-    "value": 0
-  },
-  "CardLevel4": {
-    "description": "",
-    "value": 0
-  },
-  "CardLevel5": {
-    "description": "",
-    "value": 0
-  },
-  "CardLevel6": {
-    "description": "",
-    "value": 0
-  },
-  "CardLevel7": {
-    "description": "",
-    "value": 0
-  },
-  "CardLevel8": {
-    "description": "",
-    "value": 0
-  },
-  "CardLevel9": {
-    "description": "",
-    "value": 0
-  },
-  "CardLevel10": {
-    "description": "",
-    "value": 0
-  },
-  "CardLevel11": {
-    "description": "",
-    "value": 0
-  },
-  "CardExp0": {
-    "description": "",
-    "value": 0
-  },
-  "CardExp1": {
-    "description": "",
-    "value": 0
-  },
-  "CardExp2": {
-    "description": "",
-    "value": 0
-  },
-  "CardExp3": {
-    "description": "",
-    "value": 0
-  },
-  "CardExp4": {
-    "description": "",
-    "value": 0
-  },
-  "CardExp5": {
-    "description": "",
-    "value": 0
-  },
-  "CardExp6": {
-    "description": "",
-    "value": 0
-  },
-  "CardExp7": {
-    "description": "",
-    "value": 0
-  },
-  "CardExp8": {
-    "description": "",
-    "value": 0
-  },
-  "CardExp9": {
-    "description": "",
-    "value": 0
-  },
-  "CardExp10": {
-    "description": "",
-    "value": 0
-  },
-  "CardExp11": {
-    "description": "",
-    "value": 0
-  },
-  "Job15": {
-    "description": "",
-    "value": 0
-  },
-  "Job16": {
-    "description": "",
-    "value": 0
-  },
-  "Job17": {
-    "description": "",
-    "value": 0
-  },
-  "Job18": {
-    "description": "",
-    "value": 0
-  },
-  "Job19": {
-    "description": "",
-    "value": 0
+[
+  {
+    "name": "ach_TotalDistance",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "ach_TotalGameDay",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "ach_TotalEaten",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "ach_TotalKill",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "ach_GiveDamage",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "ach_TakeDamage",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "ach_DeathTime",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "ach_CraftTime",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "ach_MaxToolLevel0",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "ach_MaxToolLevel1",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "ach_MaxToolLevel2",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "ach_MaxToolLevel3",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "ach_MaxLevelWeapon",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "ach_MaxLevelArmor",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "ach_MaxLevelHead",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "ach_MaxLevelFoot",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "ach_TradeTime",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "ach_StealTime",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "ach_LoadWaterTime",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "ach_RobberTime",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "ach_LendSleepTime",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "ach_LockpickSafer",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "ach_FinishGameDayIn90",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "ach_KillBoss0",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "ach_KillBoss1",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "ach_KillBoss2",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "ach_KillBoss3",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "ach_FinishDif0",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "ach_FinishDif1",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "ach_FinishDif2",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "ach_ReachLv30",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "ach_UnlockAllJobs",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "ach_GetAllPostCard",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Job5",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Job6",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Job7",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Job8",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Job9",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Job10",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Job11",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Job12",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Job13",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Job14",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Papertext0",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Papertext1",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Papertext2",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Papertext3",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Papertext4",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Papertext5",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Papertext6",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Papertext7",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Papertext8",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Papertext9",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Papertext10",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Papertext11",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Papertext12",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Papertext13",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Papertext14",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Papertext15",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Papertext16",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Papertext17",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Papertext18",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Papertext19",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Papertext20",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Papertext21",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Papertext22",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Papertext23",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Papertext24",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Papertext25",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Papertext26",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Papertext27",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Papertext28",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Papertext29",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Postcard0",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Postcard1",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Postcard2",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Postcard3",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Postcard4",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Postcard5",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Postcard6",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Postcard7",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Postcard8",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "JobClearTime0",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "JobClearTime1",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "JobClearTime2",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "JobClearTime3",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "JobClearTime4",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "JobClearTime5",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "JobClearTime6",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "JobClearTime7",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "JobClearTime8",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "JobClearTime9",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "JobClearTime10",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "JobClearTime11",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "JobClearTime12",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "JobClearTime13",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "JobClearTime14",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "CardLevel0",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "CardLevel1",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "CardLevel2",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "CardLevel3",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "CardLevel4",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "CardLevel5",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "CardLevel6",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "CardLevel7",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "CardLevel8",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "CardLevel9",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "CardLevel10",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "CardLevel11",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "CardExp0",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "CardExp1",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "CardExp2",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "CardExp3",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "CardExp4",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "CardExp5",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "CardExp6",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "CardExp7",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "CardExp8",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "CardExp9",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "CardExp10",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "CardExp11",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Job15",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Job16",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Job17",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Job18",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Job19",
+    "defaultvalue": 0,
+    "displayName": ""
   }
-}
+]

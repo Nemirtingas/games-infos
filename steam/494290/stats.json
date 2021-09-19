@@ -1,26 +1,32 @@
-﻿{
-  "lvl": {
-    "description": "Level",
-    "value": 0
+[
+  {
+    "name": "lvl",
+    "defaultvalue": 0,
+    "displayName": "Level"
   },
-  "xp": {
-    "description": "Xp",
-    "value": 0
+  {
+    "name": "xp",
+    "defaultvalue": 0,
+    "displayName": "Xp"
   },
-  "kills": {
-    "description": "Kills",
-    "value": 0
+  {
+    "name": "kills",
+    "defaultvalue": 0,
+    "displayName": "Kills"
   },
-  "wins": {
-    "description": "Wins",
-    "value": 0
+  {
+    "name": "wins",
+    "defaultvalue": 0,
+    "displayName": "Wins"
   },
-  "losses": {
-    "description": "Defeats",
-    "value": 0
+  {
+    "name": "losses",
+    "defaultvalue": 0,
+    "displayName": "Defeats"
   },
-  "gprogress": {
-    "description": "Game Progress",
-    "value": 0
+  {
+    "name": "gprogress",
+    "defaultvalue": 0,
+    "displayName": "Game Progress"
   }
-}
+]

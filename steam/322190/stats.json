@@ -1,14 +1,17 @@
-﻿{
-  "cntr_flanker_kill": {
-    "description": "",
-    "value": 0
+[
+  {
+    "name": "cntr_flanker_kill",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "cntr_ricochet_kills": {
-    "description": "",
-    "value": 0
+  {
+    "name": "cntr_ricochet_kills",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "cntr_cause_stun": {
-    "description": "",
-    "value": 0
+  {
+    "name": "cntr_cause_stun",
+    "defaultvalue": 0,
+    "displayName": ""
   }
-}
+]

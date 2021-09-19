@@ -1,18 +1,22 @@
-﻿{
-  "RacingKills": {
-    "description": "Total Racing Kills",
-    "value": 0
+[
+  {
+    "name": "RacingKills",
+    "defaultvalue": 0,
+    "displayName": "Total Racing Kills"
   },
-  "RacingWins": {
-    "description": "Total Wins",
-    "value": 0
+  {
+    "name": "RacingWins",
+    "defaultvalue": 0,
+    "displayName": "Total Wins"
   },
-  "CommunityKills": {
-    "description": "Community Total Kills",
-    "value": 0
+  {
+    "name": "CommunityKills",
+    "defaultvalue": 0,
+    "displayName": "Community Total Kills"
   },
-  "TotalGames": {
-    "description": "Total Races",
-    "value": 0
+  {
+    "name": "TotalGames",
+    "defaultvalue": 0,
+    "displayName": "Total Races"
   }
-}
+]

@@ -1,18 +1,22 @@
-﻿{
-  "TotalGameminutes": {
-    "description": "",
-    "value": 0
+[
+  {
+    "name": "TotalGameminutes",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "TotalKiller": {
-    "description": "",
-    "value": 0
+  {
+    "name": "TotalKiller",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "TotalSucceed": {
-    "description": "",
-    "value": 0
+  {
+    "name": "TotalSucceed",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "TotalFailed": {
-    "description": "",
-    "value": 0
+  {
+    "name": "TotalFailed",
+    "defaultvalue": 0,
+    "displayName": ""
   }
-}
+]

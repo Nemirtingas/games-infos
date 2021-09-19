@@ -1,8 +1,19 @@
-﻿{
-  "Dlcs": {},
+{
+  "Dlcs": {
+    "1702920": {
+      "Name": "The Ascent Soundtrack",
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1702920/header.jpg?t=1627579980",
+      "Type": "music"
+    },
+    "1698300": {
+      "Name": "The Ascent - Bitsplit",
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1698300/header.jpg?t=1628174374",
+      "Type": "dlc"
+    }
+  },
   "Name": "The Ascent",
   "AppId": "979690",
-  "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/979690/header.jpg?t=1599225046",
+  "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/979690/header.jpg?t=1630665854",
   "Languages": [
     "english",
     "french",
@@ -12,7 +23,8 @@
     "polish",
     "portuguese",
     "russian",
-    "schinese"
+    "schinese",
+    "korean"
   ],
   "Platforms": {
     "windows": true,

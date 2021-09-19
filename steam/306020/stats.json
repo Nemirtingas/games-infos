@@ -1,58 +1,72 @@
-﻿{
-  "BTD5_MOABAssassin_stat": {
-    "description": "MOABs Popped",
-    "value": 0
+[
+  {
+    "name": "BTD5_MOABAssassin_stat",
+    "defaultvalue": 0,
+    "displayName": "MOABs Popped"
   },
-  "BTD5_BFBBrawler_stat": {
-    "description": "BFBs Popped",
-    "value": 0
+  {
+    "name": "BTD5_BFBBrawler_stat",
+    "defaultvalue": 0,
+    "displayName": "BFBs Popped"
   },
-  "BTD5_ZOMGinator_stat": {
-    "description": "ZOMGs Popped",
-    "value": 0
+  {
+    "name": "BTD5_ZOMGinator_stat",
+    "defaultvalue": 0,
+    "displayName": "ZOMGs Popped"
   },
-  "BTD5_Steeley_stat": {
-    "description": "Lead Bloons Popped",
-    "value": 0
+  {
+    "name": "BTD5_Steeley_stat",
+    "defaultvalue": 0,
+    "displayName": "Lead Bloons Popped"
   },
-  "BTD5_HardBaked_stat": {
-    "description": "Ceramic Bloons Popped",
-    "value": 0
+  {
+    "name": "BTD5_HardBaked_stat",
+    "defaultvalue": 0,
+    "displayName": "Ceramic Bloons Popped"
   },
-  "BTD5_Infrared_stat": {
-    "description": "Camo Bloons Popped",
-    "value": 0
+  {
+    "name": "BTD5_Infrared_stat",
+    "defaultvalue": 0,
+    "displayName": "Camo Bloons Popped"
   },
-  "BTD5_Impoppable_stat": {
-    "description": "Total Bloons Popped",
-    "value": 0
+  {
+    "name": "BTD5_Impoppable_stat",
+    "defaultvalue": 0,
+    "displayName": "Total Bloons Popped"
   },
-  "BTD5_TokenAffection_stat": {
-    "description": "Tokens Collected",
-    "value": 0
+  {
+    "name": "BTD5_TokenAffection_stat",
+    "defaultvalue": 0,
+    "displayName": "Tokens Collected"
   },
-  "BTD5_SomewhatRandom_stat": {
-    "description": "Random Missions Completed",
-    "value": 0
+  {
+    "name": "BTD5_SomewhatRandom_stat",
+    "defaultvalue": 0,
+    "displayName": "Random Missions Completed"
   },
-  "BTD5_TrackStar_stat": {
-    "description": "Tracks Completed",
-    "value": 0
+  {
+    "name": "BTD5_TrackStar_stat",
+    "defaultvalue": 0,
+    "displayName": "Tracks Completed"
   },
-  "BTD5_NighImpoppable_stat": {
-    "description": "Impoppable Tracks Completed",
-    "value": 0
+  {
+    "name": "BTD5_NighImpoppable_stat",
+    "defaultvalue": 0,
+    "displayName": "Impoppable Tracks Completed"
   },
-  "BTD5_4OfAKind_stat": {
-    "description": "Challenges Completed in One Day",
-    "value": 0
+  {
+    "name": "BTD5_4OfAKind_stat",
+    "defaultvalue": 0,
+    "displayName": "Challenges Completed in One Day"
   },
-  "BTD5_PerfectWeek_stat": {
-    "description": "Challenges Completed in One Week",
-    "value": 0
+  {
+    "name": "BTD5_PerfectWeek_stat",
+    "defaultvalue": 0,
+    "displayName": "Challenges Completed in One Week"
   },
-  "BTD5_Centurion_stat": {
-    "description": "Daily Challenges Completed",
-    "value": 0
+  {
+    "name": "BTD5_Centurion_stat",
+    "defaultvalue": 0,
+    "displayName": "Daily Challenges Completed"
   }
-}
+]

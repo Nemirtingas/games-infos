@@ -1098,7 +1098,7 @@
     "defaultvalue": 0,
     "displayName": "Demolitionist II",
     "hidden": 0,
-    "description": "Explode 400 cells in a quest on Normal or above.",
+    "description": "Explode 300 cells in a quest on Normal or above.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1141220/12b700b40e1a186c9c2113d514a2a70aa3126666.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1141220/b3450079352f5efabac591bb1288b7e8b17e5a8c.jpg"
   },
@@ -1107,7 +1107,7 @@
     "defaultvalue": 0,
     "displayName": "Demolitionist III",
     "hidden": 0,
-    "description": "Explode 1000 cells in a quest on Normal or above.",
+    "description": "Explode 800 cells in a quest on Normal or above.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1141220/f1dfb36d45d4fe56077ca118098b5451d5d47c33.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1141220/0622425cf110bec8cc68235267f9cfd9a568d408.jpg"
   },
@@ -1326,5 +1326,221 @@
     "description": "Unlock all Classic Skins.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1141220/32b8e3886012530965cdeed69dedaf4f52bbfb68.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1141220/4c557075495271cda0a483604a15719fbf6ff870.jpg"
+  },
+  {
+    "name": "DETECTIVE 1",
+    "defaultvalue": 0,
+    "displayName": "Detective",
+    "hidden": 0,
+    "description": "Complete a stage on Normal or above with at least 10 visible monsters.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1141220/42545cbf0c3a3dd1f0ef87997e94a0da0eebda93.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1141220/dcfa82f3948ac1577d14a2f610153d40ac2456e4.jpg"
+  },
+  {
+    "name": "DETECTIVE 2",
+    "defaultvalue": 0,
+    "displayName": "Detective II",
+    "hidden": 0,
+    "description": "Complete a stage on Normal or above with at least 50 visible monsters.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1141220/544c6f7f691801406e1e0a6f47717e735c0a7988.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1141220/a8d1e8d0d5aba3a0c372a0a5e50bbbd6532dfc3b.jpg"
+  },
+  {
+    "name": "DETECTIVE 3",
+    "defaultvalue": 0,
+    "displayName": "Detective III",
+    "hidden": 0,
+    "description": "Complete a stage on Normal or above with at least 100 visible monsters.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1141220/5ee7c7528a0408ab36e0382250f487f2fb93fd40.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1141220/c251b8289d6b847c39e884bdd91371dd379e86f7.jpg"
+  },
+  {
+    "name": "MUTANT 1",
+    "defaultvalue": 0,
+    "displayName": "Mutant",
+    "hidden": 0,
+    "description": "Complete a quest on Normal or above with 10 or more Cankers.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1141220/c8559a33d2efb2fc55613bb28d809201562a3053.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1141220/c5b20a256157c24039ff5450b925e3b84706d7ef.jpg"
+  },
+  {
+    "name": "MUTANT 2",
+    "defaultvalue": 0,
+    "displayName": "Mutant II",
+    "hidden": 0,
+    "description": "Complete a quest on Normal or above with 20 or more Cankers.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1141220/1567dae3cc7fa9bb2eceab1785d1dc56647749eb.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1141220/b077843c1de13028ed8bc85b2fe4809fd5d35cae.jpg"
+  },
+  {
+    "name": "MUTANT 3",
+    "defaultvalue": 0,
+    "displayName": "Mutant III",
+    "hidden": 0,
+    "description": "Complete a quest on Normal or above with 30 or more Cankers.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1141220/0b8e182d5e9829b3bb0358d6ce1b35c94d2e68a3.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1141220/82730ac792feedd9db8153e098c250f01c4cede0.jpg"
+  },
+  {
+    "name": "SCOUT 1",
+    "defaultvalue": 0,
+    "displayName": "Scout",
+    "hidden": 0,
+    "description": "Complete a quest on Normal or above with 20% or more pathfinding.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1141220/bcf8e9505d9b9c403cf8665e0fbbdcf5c1a50380.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1141220/0352ad4fefa621dc6ea09ab1c5856fbb1b58fda2.jpg"
+  },
+  {
+    "name": "SCOUT 2",
+    "defaultvalue": 0,
+    "displayName": "Scout II",
+    "hidden": 0,
+    "description": "Complete a quest on Normal or above with 40% or more pathfinding.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1141220/879ad9e9b7ed8f7bc5626db39abe723c4e5f7efd.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1141220/499fd0592c934d7fff78a0f7166668354c92f096.jpg"
+  },
+  {
+    "name": "SCOUT 3",
+    "defaultvalue": 0,
+    "displayName": "Scout III",
+    "hidden": 0,
+    "description": "Complete a quest on Normal or above with 60% or more pathfinding.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1141220/a143cf8cb4d25aebbfc16b3132d42c0cba5b133a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1141220/f1a7f077ec16c73c768879dde81d9070d33386c5.jpg"
+  },
+  {
+    "name": "HUMAN 1",
+    "defaultvalue": 0,
+    "displayName": "Human I",
+    "hidden": 0,
+    "description": "Complete a quest on Normal or above with 20 or more absolute morality.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1141220/c45dcc4a4902f20411cb93d31cddd261ea7b6960.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1141220/28dee2e353e9de372b9ff2fcc1583e3d2ffd7257.jpg"
+  },
+  {
+    "name": "HUMAN 2",
+    "defaultvalue": 0,
+    "displayName": "Human II",
+    "hidden": 0,
+    "description": "Complete a quest on Normal or above with 50 or more absolute morality.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1141220/2a3c4aa5d3dc12674e18a59466837d234559f0a6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1141220/48ee3bd8bb1e6a7d82a831a1f20bf645b1bbf8ac.jpg"
+  },
+  {
+    "name": "HUMAN 3",
+    "defaultvalue": 0,
+    "displayName": "Human III",
+    "hidden": 0,
+    "description": "Complete a quest on Normal or above with 100 or more absolute morality.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1141220/e35f12d056fc3f6bacdc39063fae7cda3801fe52.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1141220/5bfcd9b8c6328329df17ca03441bc6462e306d6b.jpg"
+  },
+  {
+    "name": "WARLOCK 1",
+    "defaultvalue": 0,
+    "displayName": "Warlock I",
+    "hidden": 0,
+    "description": "Unlock by destroying 10 objects using Cursed cells in a quest on Normal or above.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1141220/93c6ead7f5858ead51c48bdeca27ce40ba8e1404.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1141220/4d72e86b04044e80ae9faf3247698ab65ed8c756.jpg"
+  },
+  {
+    "name": "WARLOCK 2",
+    "defaultvalue": 0,
+    "displayName": "Warlock II",
+    "hidden": 0,
+    "description": "Unlock by destroying 30 objects using Cursed cells in a quest on Normal or above.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1141220/017c193d2c0821ff23f02aeb9474c8d092692867.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1141220/088fcd18f806c865de2930dde310a9f0ed30b86e.jpg"
+  },
+  {
+    "name": "WARLOCK 3",
+    "defaultvalue": 0,
+    "displayName": "Warlock III",
+    "hidden": 0,
+    "description": "Unlock by destroying 100 objects using Cursed cells in a quest on Normal or above.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1141220/1a3ddcc62cf50bf92efab9d0661cb2ac182d3293.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1141220/cce26429f737d63e59862d11f4261ef9a863dac8.jpg"
+  },
+  {
+    "name": "HYPNOTIST 1",
+    "defaultvalue": 0,
+    "displayName": "Hypnotist I",
+    "hidden": 0,
+    "description": "Unlock by completing a quest on Normal or above with a status effect counter of 100 or greater.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1141220/bae31e1fa0ef3721a0444433480fe9084bb735e7.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1141220/bb83aefb63f9ebe14aa7cf6f0b89b34279201068.jpg"
+  },
+  {
+    "name": "HYPNOTIST 2",
+    "defaultvalue": 0,
+    "displayName": "Hypnotist II",
+    "hidden": 0,
+    "description": "Unlock by completing a quest on Normal or above with a status effect counter of 500 or greater.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1141220/644e8df3eeb3064183c7746798d8ab9d137c71a2.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1141220/28abab6aa75ab38b58a8b48797479e61be48865e.jpg"
+  },
+  {
+    "name": "HYPNOTIST 3",
+    "defaultvalue": 0,
+    "displayName": "Hypnotist III",
+    "hidden": 0,
+    "description": "Unlock by completing a quest on Normal or above with a status effect counter of 1000 or greater.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1141220/b98460e6ba1182a806e0fa16bb9a28384fe4ffd3.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1141220/43a76346c37ab8b2beda52870de6ddef30f503cd.jpg"
+  },
+  {
+    "name": "GHOST 1",
+    "defaultvalue": 0,
+    "displayName": "Ghost I",
+    "hidden": 0,
+    "description": "Unlock by completing a quest on Normal or above with 1 or fewer lives.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1141220/caaaf7e0b0001f9684f5ac1daf38ee522faeeffa.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1141220/187a093aa46cefb2734bcaf08dce78f6ea928933.jpg"
+  },
+  {
+    "name": "GHOST 2",
+    "defaultvalue": 0,
+    "displayName": "Ghost II",
+    "hidden": 0,
+    "description": "Unlock by completing a quest on Normal or above with an Ectoplasm counter of 400 or greater.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1141220/572c55b543da7cbe7677272d85e8415184d2a34d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1141220/e25a5be49bd91471a158334e87c7fdbf6e028d0e.jpg"
+  },
+  {
+    "name": "GHOST 3",
+    "defaultvalue": 0,
+    "displayName": "Ghost III",
+    "hidden": 0,
+    "description": "Unlock by completing a quest on Normal or above with an Ectoplasm counter of 800 or greater.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1141220/e549c220eb3d141b0852c0f995c218c8f0ffebfb.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1141220/88c6ea28731a42c774b39c0e8cbac6881c8eed72.jpg"
+  },
+  {
+    "name": "POISONER 1",
+    "defaultvalue": 0,
+    "displayName": "Poisoner I",
+    "hidden": 0,
+    "description": "Unlock by completing a quest on Normal or above with 5 or more Poisons.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1141220/85e908e94bfaae085229d4dfdd62e232eb3d1f65.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1141220/05424d5c802ecec73bbbb5e9fa3c03c99714cf67.jpg"
+  },
+  {
+    "name": "POISONER 2",
+    "defaultvalue": 0,
+    "displayName": "Poisoner II",
+    "hidden": 0,
+    "description": "Unlock by completing a quest on Normal or above with 10 or more Poisons.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1141220/2a6937e390f7c4969756c5d7596c3b7772abc619.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1141220/6d387c05bcb3391d0efed6138a1f6abd208cdad0.jpg"
+  },
+  {
+    "name": "POISONER 3",
+    "defaultvalue": 0,
+    "displayName": "Poisoner III",
+    "hidden": 0,
+    "description": "Unlock by completing a quest on Normal or above with a full inventory of Poison.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1141220/1500460a28cbfa5ec60544a3ac56c413e8e4ad70.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1141220/681e65736f249be968ab0b4e989092718b41a8f2.jpg"
   }
 ]

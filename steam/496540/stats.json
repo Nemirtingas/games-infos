@@ -1,54 +1,67 @@
-﻿{
-  "bombsUsed": {
-    "description": "",
-    "value": 0
+[
+  {
+    "name": "bombsUsed",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "brakesUsed": {
-    "description": "",
-    "value": 0
+  {
+    "name": "brakesUsed",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "slasherUsed": {
-    "description": "",
-    "value": 0
+  {
+    "name": "slasherUsed",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "busterUsed": {
-    "description": "",
-    "value": 0
+  {
+    "name": "busterUsed",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "recoverUsed": {
-    "description": "",
-    "value": 0
+  {
+    "name": "recoverUsed",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "comboOver5": {
-    "description": "",
-    "value": 0
+  {
+    "name": "comboOver5",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "comboOver10": {
-    "description": "",
-    "value": 0
+  {
+    "name": "comboOver10",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "comboOver15": {
-    "description": "",
-    "value": 0
+  {
+    "name": "comboOver15",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "comboOver20": {
-    "description": "",
-    "value": 0
+  {
+    "name": "comboOver20",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "comboOver25": {
-    "description": "",
-    "value": 0
+  {
+    "name": "comboOver25",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "comboOver30": {
-    "description": "",
-    "value": 0
+  {
+    "name": "comboOver30",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "reloadUsed": {
-    "description": "",
-    "value": 0
+  {
+    "name": "reloadUsed",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "reloadUsedTest": {
-    "description": "",
-    "value": 0
+  {
+    "name": "reloadUsedTest",
+    "defaultvalue": 0,
+    "displayName": ""
   }
-}
+]

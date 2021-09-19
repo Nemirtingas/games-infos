@@ -1,38 +1,47 @@
-﻿{
-  "m_nTotalGamesPlayed": {
-    "description": "Games Played",
-    "value": 1
+[
+  {
+    "name": "m_nTotalGamesPlayed",
+    "defaultvalue": 1,
+    "displayName": "Games Played"
   },
-  "m_nTotalNumLosses": {
-    "description": "Losses",
-    "value": 0
+  {
+    "name": "m_nTotalNumLosses",
+    "defaultvalue": 0,
+    "displayName": "Losses"
   },
-  "m_LevelsCompleted": {
-    "description": "Levels Won",
-    "value": 0
+  {
+    "name": "m_LevelsCompleted",
+    "defaultvalue": 0,
+    "displayName": "Levels Won"
   },
-  "m_TilesClicked": {
-    "description": "Tiles Clicked",
-    "value": 0
+  {
+    "name": "m_TilesClicked",
+    "defaultvalue": 0,
+    "displayName": "Tiles Clicked"
   },
-  "m_HighestTip": {
-    "description": "Highest Tip",
-    "value": 0
+  {
+    "name": "m_HighestTip",
+    "defaultvalue": 0,
+    "displayName": "Highest Tip"
   },
-  "m_Money": {
-    "description": "Money",
-    "value": 0
+  {
+    "name": "m_Money",
+    "defaultvalue": 0,
+    "displayName": "Money"
   },
-  "m_TotalMilesTraveled": {
-    "description": "Miles Traveled",
-    "value": 0
+  {
+    "name": "m_TotalMilesTraveled",
+    "defaultvalue": 0,
+    "displayName": "Miles Traveled"
   },
-  "m_ContinuesUsed": {
-    "description": "Continues Used",
-    "value": 0
+  {
+    "name": "m_ContinuesUsed",
+    "defaultvalue": 0,
+    "displayName": "Continues Used"
   },
-  "m_HighestBonus": {
-    "description": "Highest Bonus",
-    "value": 0
+  {
+    "name": "m_HighestBonus",
+    "defaultvalue": 0,
+    "displayName": "Highest Bonus"
   }
-}
+]

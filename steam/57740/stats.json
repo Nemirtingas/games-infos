@@ -1,130 +1,162 @@
-﻿{
-  "ENEMIESKILLED": {
-    "description": "Killed enemies",
-    "value": 0
+[
+  {
+    "name": "ENEMIESKILLED",
+    "defaultvalue": 0,
+    "displayName": "Killed enemies"
   },
-  "MELEEATTACKS": {
-    "description": "Melee attacks",
-    "value": 0
+  {
+    "name": "MELEEATTACKS",
+    "defaultvalue": 0,
+    "displayName": "Melee attacks"
   },
-  "GRENADESTHROWN": {
-    "description": "Grenades thrown",
-    "value": 0
+  {
+    "name": "GRENADESTHROWN",
+    "defaultvalue": 0,
+    "displayName": "Grenades thrown"
   },
-  "MELEEKILLS": {
-    "description": "Melee kills",
-    "value": 0
+  {
+    "name": "MELEEKILLS",
+    "defaultvalue": 0,
+    "displayName": "Melee kills"
   },
-  "GRENADEKILLS": {
-    "description": "Grenade kills",
-    "value": 0
+  {
+    "name": "GRENADEKILLS",
+    "defaultvalue": 0,
+    "displayName": "Grenade kills"
   },
-  "BULLETSFIRED": {
-    "description": "Bullets fired",
-    "value": 0
+  {
+    "name": "BULLETSFIRED",
+    "defaultvalue": 0,
+    "displayName": "Bullets fired"
   },
-  "WALLSBLASTED": {
-    "description": "Walls blasted",
-    "value": 0
+  {
+    "name": "WALLSBLASTED",
+    "defaultvalue": 0,
+    "displayName": "Walls blasted"
   },
-  "MINESPLANTED": {
-    "description": "Mines planted",
-    "value": 0
+  {
+    "name": "MINESPLANTED",
+    "defaultvalue": 0,
+    "displayName": "Mines planted"
   },
-  "MINESDEFUSED": {
-    "description": "Mines defused",
-    "value": 0
+  {
+    "name": "MINESDEFUSED",
+    "defaultvalue": 0,
+    "displayName": "Mines defused"
   },
-  "MINEKILLS": {
-    "description": "Kills with mines",
-    "value": 0
+  {
+    "name": "MINEKILLS",
+    "defaultvalue": 0,
+    "displayName": "Kills with mines"
   },
-  "HEALTHRESTORED": {
-    "description": "Health restored",
-    "value": 0
+  {
+    "name": "HEALTHRESTORED",
+    "defaultvalue": 0,
+    "displayName": "Health restored"
   },
-  "REVIVES": {
-    "description": "Revived people",
-    "value": 0
+  {
+    "name": "REVIVES",
+    "defaultvalue": 0,
+    "displayName": "Revived people"
   },
-  "DURABILITYRESTORED": {
-    "description": "Durability restored",
-    "value": 0
+  {
+    "name": "DURABILITYRESTORED",
+    "defaultvalue": 0,
+    "displayName": "Durability restored"
   },
-  "MERCSHIRED_0": {
-    "description": "Mercs hired 0",
-    "value": 0
+  {
+    "name": "MERCSHIRED_0",
+    "defaultvalue": 0,
+    "displayName": "Mercs hired 0"
   },
-  "MERCSHIRED_1": {
-    "description": "Mercs hired 1",
-    "value": 0
+  {
+    "name": "MERCSHIRED_1",
+    "defaultvalue": 0,
+    "displayName": "Mercs hired 1"
   },
-  "MERCSHIRED_2": {
-    "description": "Mercs hired 2",
-    "value": 0
+  {
+    "name": "MERCSHIRED_2",
+    "defaultvalue": 0,
+    "displayName": "Mercs hired 2"
   },
-  "MERCSHIRED_3": {
-    "description": "Mercs hired 3",
-    "value": 0
+  {
+    "name": "MERCSHIRED_3",
+    "defaultvalue": 0,
+    "displayName": "Mercs hired 3"
   },
-  "MONEYLOOTED": {
-    "description": "Money looted",
-    "value": 0
+  {
+    "name": "MONEYLOOTED",
+    "defaultvalue": 0,
+    "displayName": "Money looted"
   },
-  "LOCKPICKS": {
-    "description": "Lockpicks",
-    "value": 0
+  {
+    "name": "LOCKPICKS",
+    "defaultvalue": 0,
+    "displayName": "Lockpicks"
   },
-  "CROWBAROPENS": {
-    "description": "Doors opened by crowbar",
-    "value": 0
+  {
+    "name": "CROWBAROPENS",
+    "defaultvalue": 0,
+    "displayName": "Doors opened by crowbar"
   },
-  "MILITIARECRUITED": {
-    "description": "Militia recruited",
-    "value": 0
+  {
+    "name": "MILITIARECRUITED",
+    "defaultvalue": 0,
+    "displayName": "Militia recruited"
   },
-  "EXPLOSIVESPLANTED": {
-    "description": "Explosives planted",
-    "value": 0
+  {
+    "name": "EXPLOSIVESPLANTED",
+    "defaultvalue": 0,
+    "displayName": "Explosives planted"
   },
-  "MONEYSPENTSHOP": {
-    "description": "Total money spent at online shop",
-    "value": 0
+  {
+    "name": "MONEYSPENTSHOP",
+    "defaultvalue": 0,
+    "displayName": "Total money spent at online shop"
   },
-  "SMOKEGRENADESTHROWN": {
-    "description": "Smoke grenades thrown",
-    "value": 0
+  {
+    "name": "SMOKEGRENADESTHROWN",
+    "defaultvalue": 0,
+    "displayName": "Smoke grenades thrown"
   },
-  "STUNGRENADESTHROWN": {
-    "description": "Stun grenades thrown",
-    "value": 0
+  {
+    "name": "STUNGRENADESTHROWN",
+    "defaultvalue": 0,
+    "displayName": "Stun grenades thrown"
   },
-  "FRAGGRENADESTHROWN": {
-    "description": "Frag grenades thrown",
-    "value": 0
+  {
+    "name": "FRAGGRENADESTHROWN",
+    "defaultvalue": 0,
+    "displayName": "Frag grenades thrown"
   },
-  "TEARGASGRENADESTHROWN": {
-    "description": "Tear gas grenades thrown",
-    "value": 0
+  {
+    "name": "TEARGASGRENADESTHROWN",
+    "defaultvalue": 0,
+    "displayName": "Tear gas grenades thrown"
   },
-  "MELEEKILLS_DLC05": {
-    "description": "Melee kills in Shades of Red",
-    "value": 0
+  {
+    "name": "MELEEKILLS_DLC05",
+    "defaultvalue": 0,
+    "displayName": "Melee kills in Shades of Red"
   },
-  "LEVELUPS": {
-    "description": "Level ups gained",
-    "value": 0
+  {
+    "name": "LEVELUPS",
+    "defaultvalue": 0,
+    "displayName": "Level ups gained"
   },
-  "DAMAGETAKEN": {
-    "description": "Damage taken",
-    "value": 0
+  {
+    "name": "DAMAGETAKEN",
+    "defaultvalue": 0,
+    "displayName": "Damage taken"
   },
-  "DAILYINCOME": {
-    "description": "Total sum of daily income",
-    "value": 0
+  {
+    "name": "DAILYINCOME",
+    "defaultvalue": 0,
+    "displayName": "Total sum of daily income"
   },
-  "DAYSOFSERVICE": {
-    "description": "Days in service of all mercs",
-    "value": 0
+  {
+    "name": "DAYSOFSERVICE",
+    "defaultvalue": 0,
+    "displayName": "Days in service of all mercs"
   }
-}
+]

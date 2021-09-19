@@ -1,17 +1,19 @@
-﻿{
+{
   "Dlcs": {
     "307550": {
       "Name": "Cloudbuilt - Through the Fog",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/307550/header.jpg?t=1590969073"
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/307550/header.jpg?t=1590969073",
+      "Type": "dlc"
     },
     "330730": {
       "Name": "Cloudbuilt - Defiance",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/330730/header.jpg?t=1593191592"
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/330730/header.jpg?t=1593191592",
+      "Type": "dlc"
     }
   },
   "Name": "Cloudbuilt",
   "AppId": "262390",
-  "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/262390/header.jpg?t=1593167184",
+  "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/262390/header.jpg?t=1606091085",
   "Languages": [
     "english"
   ],

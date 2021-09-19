@@ -4,7 +4,7 @@
     "defaultvalue": 0,
     "displayName": "Hero",
     "hidden": 0,
-    "description": "Finish a level with one life.",
+    "description": "Finish a planetary level without losing a life. You have 1 try on each planet.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/373480/d90abb9cacba8be7d172c9a69eadb959281f6127.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/373480/6ee654a23035509ea2f4edc572745aa92ce1485a.jpg"
   },
@@ -16,15 +16,6 @@
     "description": "Defeat Nestor in less than 3 minutes.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/373480/8dabaae75359739fbec0257bd8ed352ecee7c7d2.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/373480/1db4c97b6118b460f879fb842950c3c2da349a7a.jpg"
-  },
-  {
-    "name": "ACH_EXPLORER",
-    "defaultvalue": 0,
-    "displayName": "Explorer",
-    "hidden": 0,
-    "description": "Find the hidden levels.",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/373480/cc125deb42b9e5be191546806f6f0e627a3f38aa.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/373480/dae2809b30f268d8aedc5b154405f7409675267b.jpg"
   },
   {
     "name": "ACH_DODGER",

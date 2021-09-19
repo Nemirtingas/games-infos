@@ -173,45 +173,45 @@
   {
     "name": "UNLOCK_ECHOING_ENTRANCE_PORTAL",
     "defaultvalue": 0,
-    "displayName": "Fast Travel",
+    "displayName": "Spring Is Upon Us",
     "hidden": 0,
-    "description": "Unlock the Echoing Entrance portal.",
+    "description": "Unlock the Spring seasonal area.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/922170/a726593e12a9564b59405e978fdf9fb4a7711900.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/922170/1efa98c5497d042f94dc8d897cb6b2639061a4bd.jpg"
   },
   {
     "name": "UNLOCK_CRYSTAL_CAVES_PORTAL",
     "defaultvalue": 0,
-    "displayName": "Shortcut",
+    "displayName": "Winter Wonderland",
     "hidden": 0,
-    "description": "Unlock the Crystal Caves portal.",
+    "description": "Unlock the Winter seasonal area.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/922170/c74850068ed2f3e652c87451d0355ddd4ee4eed9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/922170/89d199ae3bac4fe98cd11873f2030481aaa15652.jpg"
   },
   {
     "name": "UNLOCK_MUSHROOM_MANTLE_PORTAL",
     "defaultvalue": 0,
-    "displayName": "Warp",
+    "displayName": "Festive Fall",
     "hidden": 0,
-    "description": "Unlock the Mushroom Mantle portal.",
+    "description": "Unlock the Fall seasonal area.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/922170/b4de45b67950e9e6c38978a72efbef730b0fdc1a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/922170/99e6f47d7871796cb7781c33bcadc154613c2b2a.jpg"
   },
   {
     "name": "UNLOCK_METAL_MINES_PORTAL",
     "defaultvalue": 0,
-    "displayName": "Teleport",
+    "displayName": "Summer Escape",
     "hidden": 0,
-    "description": "Unlock the Metal Mines portal.",
+    "description": "Unlock the Summer seasonal area.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/922170/a698c77ce6493480c599d958c6150fc6a4858981.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/922170/c0ecb90230151db3a03cfa4a01cbd146e85d9575.jpg"
   },
   {
     "name": "UNLOCK_SECRET_SHADOWSPHERE_PORTAL",
     "defaultvalue": 0,
-    "displayName": "Wormhole",
+    "displayName": "Stellar Vision",
     "hidden": 0,
-    "description": "Unlock the Secret Shadowsphere portal.",
+    "description": "Unlock the Stellar seasonal area.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/922170/a0fbe478864e5f6dc4a983413c189e6f37d2a0a4.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/922170/3ad52ded9ccc2e24b0cb7e32f6ffb3bb8559fc3d.jpg"
   },
@@ -529,5 +529,77 @@
     "description": "Beat the game.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/922170/aee1400f2a76bf602c8c2bef8930c123eafa1e78.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/922170/9c272c5eeb4ddda5151a3ca8ad06865534d13413.jpg"
+  },
+  {
+    "name": "COLLECT_ALL_AMULETS",
+    "defaultvalue": 0,
+    "displayName": "Bling Bling",
+    "hidden": 0,
+    "description": "Collect all amulets.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/922170/0ef58e484ecc79050db8dc1a4ecb5913917bebe0.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/922170/1b30376cc43fe299f530f7079604c93924424bf4.jpg"
+  },
+  {
+    "name": "BEAT_THE_GAME_WITH_NO_AMULETS",
+    "defaultvalue": 0,
+    "displayName": "Untouchable",
+    "hidden": 0,
+    "description": "Beat the game without amulets.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/922170/ac68cef18de422be06ff5fe6f9b1c555bc5f0ddf.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/922170/e61ece1630acd50d9c0a51d5ef2f8e075ad80ee9.jpg"
+  },
+  {
+    "name": "BEAT_ALL_ECHOING_ENTRANCE_LEVELS_WITH_NO_EXTRA_LIVES",
+    "defaultvalue": 0,
+    "displayName": "Hardly Hearty",
+    "hidden": 0,
+    "description": "Beat all Echoing Entrance levels without using extra lives.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/922170/146ffc4ac4cc63b363480135e67b0b84b3cd651e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/922170/8aa326c5bc86f17c99c0a17202bea3cca4c030d2.jpg"
+  },
+  {
+    "name": "BEAT_ALL_CRYSTAL_CAVES_LEVELS_WITH_NO_EXTRA_LIVES",
+    "defaultvalue": 0,
+    "displayName": "No Help Needed",
+    "hidden": 0,
+    "description": "Beat all Crystal Caves levels without using extra lives.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/922170/5ac611cb83003babb848650fdfb8a6e8401006ee.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/922170/7d4bdbee2dc0a0200e4d983467cbd0614278bcf6.jpg"
+  },
+  {
+    "name": "BEAT_ALL_MUSHROOM_MANTLE_LEVELS_WITH_NO_EXTRA_LIVES",
+    "defaultvalue": 0,
+    "displayName": "All I Need Is One Shot",
+    "hidden": 0,
+    "description": "Beat all Mushroom Mantle levels without using extra lives.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/922170/ba05708fad10fd595b9fa0e26e56add2bec74e84.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/922170/3b7ad95dc873cd78b8b8e26de740d8b2e93feb53.jpg"
+  },
+  {
+    "name": "BEAT_ALL_METAL_MINES_LEVELS_WITH_NO_EXTRA_LIVES",
+    "defaultvalue": 0,
+    "displayName": "Masochist",
+    "hidden": 0,
+    "description": "Beat all normal Metal Mines levels without using extra lives.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/922170/3aeecf2ca7e957d2ff161d0af31f75d74ce770be.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/922170/6068d5ed394a332a08e68afafa25988f850a2913.jpg"
+  },
+  {
+    "name": "BEAT_ALL_SECRET_SHADOWSPHERE_LEVELS_WITH_NO_EXTRA_LIVES",
+    "defaultvalue": 0,
+    "displayName": "Hardcore Platformer",
+    "hidden": 0,
+    "description": "Beat all normal Secret Shadowsphere levels without using extra lives.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/922170/9f9b56947dd7b753361cad27c7c46b533e070caa.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/922170/473a3d584d3ea18cdd35aa84d08cfe2d5a4610dd.jpg"
+  },
+  {
+    "name": "BEAT_ALL_LEVELS_WITH_NO_EXTRA_LIVES",
+    "defaultvalue": 0,
+    "displayName": "Heartless",
+    "hidden": 0,
+    "description": "Beat all normal levels without using extra lives.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/922170/53d5bfb80a59d27cbd1dae03f8ee8859b3bb77c1.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/922170/eed84913bbbe25bcdb2aa70d07150563b2854f05.jpg"
   }
 ]

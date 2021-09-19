@@ -1,82 +1,102 @@
-﻿{
-  "Crystars_Collected": {
-    "description": "Crystars Collected",
-    "value": 0
+[
+  {
+    "name": "Crystars_Collected",
+    "defaultvalue": 0,
+    "displayName": "Crystars Collected"
   },
-  "Perfect_Collected": {
-    "description": "Perfect Medals",
-    "value": 0
+  {
+    "name": "Perfect_Collected",
+    "defaultvalue": 0,
+    "displayName": "Perfect Medals"
   },
-  "Crystars_Approach_Collected": {
-    "description": "Crystars Collected in the Crystar's Approach",
-    "value": 0
+  {
+    "name": "Crystars_Approach_Collected",
+    "defaultvalue": 0,
+    "displayName": "Crystars Collected in the Crystar's Approach"
   },
-  "Mushroom_Fortress_Collected": {
-    "description": "Crystars Collected in the Mushroom Fortress",
-    "value": 0
+  {
+    "name": "Mushroom_Fortress_Collected",
+    "defaultvalue": 0,
+    "displayName": "Crystars Collected in the Mushroom Fortress"
   },
-  "Saphire_Lagoon_Collected": {
-    "description": "Crystars Collected in the Saphire Lagoon",
-    "value": 0
+  {
+    "name": "Saphire_Lagoon_Collected",
+    "defaultvalue": 0,
+    "displayName": "Crystars Collected in the Saphire Lagoon"
   },
-  "Moon_Shrine_Collected": {
-    "description": "Crystars Collected in the Moon Shrine",
-    "value": 0
+  {
+    "name": "Moon_Shrine_Collected",
+    "defaultvalue": 0,
+    "displayName": "Crystars Collected in the Moon Shrine"
   },
-  "Steely_SeaBed_Collected": {
-    "description": "Crystars Collected in the Steely SeaBed",
-    "value": 0
+  {
+    "name": "Steely_SeaBed_Collected",
+    "defaultvalue": 0,
+    "displayName": "Crystars Collected in the Steely SeaBed"
   },
-  "Raging_Boiler_Collected": {
-    "description": "Crystars Collected in the Raging Boiler",
-    "value": 0
+  {
+    "name": "Raging_Boiler_Collected",
+    "defaultvalue": 0,
+    "displayName": "Crystars Collected in the Raging Boiler"
   },
-  "Pink_Crystars_Collected": {
-    "description": "Pink Crystars Collected",
-    "value": 0
+  {
+    "name": "Pink_Crystars_Collected",
+    "defaultvalue": 0,
+    "displayName": "Pink Crystars Collected"
   },
-  "Red_Crystars_Collected": {
-    "description": "Red Crystars Collected",
-    "value": 0
+  {
+    "name": "Red_Crystars_Collected",
+    "defaultvalue": 0,
+    "displayName": "Red Crystars Collected"
   },
-  "LYellow_Crystars_Collected": {
-    "description": "Light Yellow Crystars Collected",
-    "value": 0
+  {
+    "name": "LYellow_Crystars_Collected",
+    "defaultvalue": 0,
+    "displayName": "Light Yellow Crystars Collected"
   },
-  "Crystar_Palace_Map": {
-    "description": "Areas Discovered in the Crystar Palace",
-    "value": 0
+  {
+    "name": "Crystar_Palace_Map",
+    "defaultvalue": 0,
+    "displayName": "Areas Discovered in the Crystar Palace"
   },
-  "Crystars_Approach_Map": {
-    "description": "Areas Discovered in the Crystars Approach",
-    "value": 0
+  {
+    "name": "Crystars_Approach_Map",
+    "defaultvalue": 0,
+    "displayName": "Areas Discovered in the Crystars Approach"
   },
-  "Mushroom_Fortress_Map": {
-    "description": "Areas Discovered in the Mushroom Fortress",
-    "value": 0
+  {
+    "name": "Mushroom_Fortress_Map",
+    "defaultvalue": 0,
+    "displayName": "Areas Discovered in the Mushroom Fortress"
   },
-  "Saphire_Lagoon_Map": {
-    "description": "Areas Discovered in the Saphire Lagoon",
-    "value": 0
+  {
+    "name": "Saphire_Lagoon_Map",
+    "defaultvalue": 0,
+    "displayName": "Areas Discovered in the Saphire Lagoon"
   },
-  "Steely_SeaBed_Map": {
-    "description": "Areas Discovered in the Steely SeaBed",
-    "value": 0
+  {
+    "name": "Steely_SeaBed_Map",
+    "defaultvalue": 0,
+    "displayName": "Areas Discovered in the Steely SeaBed"
   },
-  "Raging_Boiler_Map": {
-    "description": "Areas Discovered in the Raging Boiler",
-    "value": 0
+  {
+    "name": "Raging_Boiler_Map",
+    "defaultvalue": 0,
+    "displayName": "Areas Discovered in the Raging Boiler"
   },
-  "Pigra_Solja_Defeated": {
-    "description": "Pigra Soljas Defeated",
-    "value": 0
+  {
+    "name": "Pigra_Solja_Defeated",
+    "defaultvalue": 0,
+    "displayName": "Pigra Soljas Defeated"
   },
-  "Pigra_Hunter_Defeated": {
-    "description": "Pigra Hunter Defeated",
-    "value": 0
+  {
+    "name": "Pigra_Hunter_Defeated",
+    "defaultvalue": 0,
+    "displayName": "Pigra Hunter Defeated"
   },
-  "Moon_Shrine_Map": {
-    "description": "Areas Discovered in the MoonShrine",
-    "value": 0
+  {
+    "name": "Moon_Shrine_Map",
+    "defaultvalue": 0,
+    "displayName": "Areas Discovered in the MoonShrine"
   }
-}
+]

@@ -319,7 +319,7 @@
     "defaultvalue": 0,
     "displayName": "Comin' in Hot",
     "hidden": 0,
-    "description": "Perform a successful reentry",
+    "description": "Successful atmospheric reentry after a stable orbit was achieved",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/795990/60a166ece847d6060d1e5c6e64131942d37a8144.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/795990/ae2dd4895f96e0407c0ff022579a0642c3c3e6da.jpg"
   },
@@ -556,5 +556,32 @@
     "description": "Awarded a bonus for minimum participation in a community objective.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/795990/bdc96fba6f6a40e5782861a577d3260f936f6b66.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/795990/b04affbba1ee9932cf1f5e854c5bd7d7fc7a4f1f.jpg"
+  },
+  {
+    "name": "TakeSomeoneForARide",
+    "defaultvalue": 0,
+    "displayName": "Take Someone for a Ride",
+    "hidden": 0,
+    "description": "Carry another online player's ground vehicle in your cargo hold.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/795990/61409b67a44a2f8bdf9ca1b129e8f3360620506d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/795990/62305dd71418ce382ea501e3573881925e611d9f.jpg"
+  },
+  {
+    "name": "StableOrbit24Hours",
+    "defaultvalue": 0,
+    "displayName": "On Orbit",
+    "hidden": 0,
+    "description": "Remain in a stable orbit for 24 hours.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/795990/dd53ed2ee2005c7c432d71c2a6a2b059eab4dd4f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/795990/824ed5d3d1efdde186c1e24eec6a8e2b1d49c1d5.jpg"
+  },
+  {
+    "name": "StableOrbitOnceAround",
+    "defaultvalue": 0,
+    "displayName": "Once Around The Park",
+    "hidden": 0,
+    "description": "Complete one orbit.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/795990/d4725cd3dad5d93810d5f4d1664c9638cc43fdf3.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/795990/176d6dcdb6a5ff2d9f165414c53cf468e359f1bb.jpg"
   }
 ]

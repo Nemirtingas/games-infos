@@ -1,114 +1,142 @@
-﻿{
-  "Stat_Kill_Chaingun": {
-    "description": "Kill with Chaingun",
-    "value": 0
+[
+  {
+    "name": "Stat_Kill_Chaingun",
+    "defaultvalue": 0,
+    "displayName": "Kill with Chaingun"
   },
-  "Stat_Kill_Seeker": {
-    "description": "Kill with Seeker",
-    "value": 0
+  {
+    "name": "Stat_Kill_Seeker",
+    "defaultvalue": 0,
+    "displayName": "Kill with Seeker"
   },
-  "Stat_Kill_TeslaRam": {
-    "description": "Kill with Tesla",
-    "value": 0
+  {
+    "name": "Stat_Kill_TeslaRam",
+    "defaultvalue": 0,
+    "displayName": "Kill with Tesla"
   },
-  "Stat_Kill_LaserCannon": {
-    "description": "Kill with Lasers",
-    "value": 0
+  {
+    "name": "Stat_Kill_LaserCannon",
+    "defaultvalue": 0,
+    "displayName": "Kill with Lasers"
   },
-  "Stat_Kill_RailGun": {
-    "description": "Kill with Rails",
-    "value": 0
+  {
+    "name": "Stat_Kill_RailGun",
+    "defaultvalue": 0,
+    "displayName": "Kill with Rails"
   },
-  "Stat_Kill_RocketLauncher": {
-    "description": "Kill with RocketLauncher",
-    "value": 0
+  {
+    "name": "Stat_Kill_RocketLauncher",
+    "defaultvalue": 0,
+    "displayName": "Kill with RocketLauncher"
   },
-  "Stat_Kill_PlasmaCannon": {
-    "description": "Kill with Plasma",
-    "value": 0
+  {
+    "name": "Stat_Kill_PlasmaCannon",
+    "defaultvalue": 0,
+    "displayName": "Kill with Plasma"
   },
-  "Stat_Kill_Ion": {
-    "description": "Kill with Ion",
-    "value": 0
+  {
+    "name": "Stat_Kill_Ion",
+    "defaultvalue": 0,
+    "displayName": "Kill with Ion"
   },
-  "Stat_Kill_Aeroflak": {
-    "description": "Kill with Aeroflak",
-    "value": 0
+  {
+    "name": "Stat_Kill_Aeroflak",
+    "defaultvalue": 0,
+    "displayName": "Kill with Aeroflak"
   },
-  "Stat_CapturePoint": {
-    "description": "Capture a capture point",
-    "value": 0
+  {
+    "name": "Stat_CapturePoint",
+    "defaultvalue": 0,
+    "displayName": "Capture a capture point"
   },
-  "Stat_Win_FullParty": {
-    "description": "Win battle with full party",
-    "value": 0
+  {
+    "name": "Stat_Win_FullParty",
+    "defaultvalue": 0,
+    "displayName": "Win battle with full party"
   },
-  "Stat_Heal_20_To_100": {
-    "description": "Heal an ally from 20% to 100% health",
-    "value": 0
+  {
+    "name": "Stat_Heal_20_To_100",
+    "defaultvalue": 0,
+    "displayName": "Heal an ally from 20% to 100% health"
   },
-  "Stat_Play_RotorBlade": {
-    "description": "Play battle with Rotors",
-    "value": 0
+  {
+    "name": "Stat_Play_RotorBlade",
+    "defaultvalue": 0,
+    "displayName": "Play battle with Rotors"
   },
-  "Stat_Play_MechLeg": {
-    "description": "Play battle with Mech Legs",
-    "value": 0
+  {
+    "name": "Stat_Play_MechLeg",
+    "defaultvalue": 0,
+    "displayName": "Play battle with Mech Legs"
   },
-  "Stat_Play_InsectLeg": {
-    "description": "Play battle with Insect Legs",
-    "value": 0
+  {
+    "name": "Stat_Play_InsectLeg",
+    "defaultvalue": 0,
+    "displayName": "Play battle with Insect Legs"
   },
-  "Stat_Play_Wing": {
-    "description": "Play battle with Wings",
-    "value": 0
+  {
+    "name": "Stat_Play_Wing",
+    "defaultvalue": 0,
+    "displayName": "Play battle with Wings"
   },
-  "Stat_Play_Wheel": {
-    "description": "Play battle with Wheels",
-    "value": 0
+  {
+    "name": "Stat_Play_Wheel",
+    "defaultvalue": 0,
+    "displayName": "Play battle with Wheels"
   },
-  "Stat_Play_TankTrack": {
-    "description": "Play battle with Tank Tracks",
-    "value": 0
+  {
+    "name": "Stat_Play_TankTrack",
+    "defaultvalue": 0,
+    "displayName": "Play battle with Tank Tracks"
   },
-  "Stat_Play_HoverBlade": {
-    "description": "Play battle with HoverBlades",
-    "value": 0
+  {
+    "name": "Stat_Play_HoverBlade",
+    "defaultvalue": 0,
+    "displayName": "Play battle with HoverBlades"
   },
-  "Stat_Kill_RotorBlade": {
-    "description": "Kill with Rotors",
-    "value": 0
+  {
+    "name": "Stat_Kill_RotorBlade",
+    "defaultvalue": 0,
+    "displayName": "Kill with Rotors"
   },
-  "Stat_Kill_MechLeg": {
-    "description": "Kill with Mech Legs",
-    "value": 0
+  {
+    "name": "Stat_Kill_MechLeg",
+    "defaultvalue": 0,
+    "displayName": "Kill with Mech Legs"
   },
-  "Stat_Kill_InsectLeg": {
-    "description": "Kill with Insect Legs",
-    "value": 0
+  {
+    "name": "Stat_Kill_InsectLeg",
+    "defaultvalue": 0,
+    "displayName": "Kill with Insect Legs"
   },
-  "Stat_Kill_Wing": {
-    "description": "Kill with Wings",
-    "value": 0
+  {
+    "name": "Stat_Kill_Wing",
+    "defaultvalue": 0,
+    "displayName": "Kill with Wings"
   },
-  "Stat_Kill_Wheel": {
-    "description": "Kill with Wheels",
-    "value": 0
+  {
+    "name": "Stat_Kill_Wheel",
+    "defaultvalue": 0,
+    "displayName": "Kill with Wheels"
   },
-  "Stat_Kill_TankTrack": {
-    "description": "Kill with Tank Tracks",
-    "value": 0
+  {
+    "name": "Stat_Kill_TankTrack",
+    "defaultvalue": 0,
+    "displayName": "Kill with Tank Tracks"
   },
-  "Stat_Kill_HoverBlade": {
-    "description": "Kill with Hover Blades",
-    "value": 0
+  {
+    "name": "Stat_Kill_HoverBlade",
+    "defaultvalue": 0,
+    "displayName": "Kill with Hover Blades"
   },
-  "Stat_Earn_Robits_CRF": {
-    "description": "Earn robits via CRF",
-    "value": 0
+  {
+    "name": "Stat_Earn_Robits_CRF",
+    "defaultvalue": 0,
+    "displayName": "Earn robits via CRF"
   },
-  "Stat_Kill_Mortar": {
-    "description": "Kill with Mortar",
-    "value": 0
+  {
+    "name": "Stat_Kill_Mortar",
+    "defaultvalue": 0,
+    "displayName": "Kill with Mortar"
   }
-}
+]

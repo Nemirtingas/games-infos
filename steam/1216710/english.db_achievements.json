@@ -90,15 +90,6 @@
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1216710/dd171a09a99fd1436b6303d9461d213a0c1dd9f0.jpg"
   },
   {
-    "name": "clearvirus",
-    "defaultvalue": 0,
-    "displayName": "Clear Virus",
-    "hidden": 0,
-    "description": "Isolate all infected files within 5 minutes",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1216710/500bbbdf6c7026cd6c728b53ebc497f5b59ae1f8.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1216710/a8e498473ff61817c8ec50b9bc5ecc6f1a8f93bc.jpg"
-  },
-  {
     "name": "whoami",
     "defaultvalue": 0,
     "displayName": "Who Am I",
@@ -118,7 +109,7 @@
   {
     "name": "event04",
     "defaultvalue": 0,
-    "displayName": "Chapter 4",
+    "displayName": "The Price of Humiliation",
     "hidden": 0,
     "description": "Complete Chapter 4 and find all clues",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1216710/d469ed58cef0da7844e15cb55f71a9d5f22f242d.jpg",
@@ -132,5 +123,217 @@
     "description": " ",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1216710/b0195d6c1d3026122e66ba62641c31db16d405eb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1216710/64fc5a1422910e43a1a060c07a909ddd62ea05bf.jpg"
+  },
+  {
+    "name": "disappearredline4",
+    "defaultvalue": 0,
+    "displayName": "The disappearing red bar",
+    "hidden": 0,
+    "description": "Complete Chapter 4 without displaying the information prompt",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1216710/f41c7aa1365b993b513829ae8ee2591f19d2eabc.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1216710/cb1ef8a5b811ae11cc603aedf640e06c13db3802.jpg"
+  },
+  {
+    "name": "event4helen",
+    "defaultvalue": 0,
+    "displayName": "Barbie Saya's love",
+    "hidden": 0,
+    "description": " ",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1216710/c3ec6e644c5c7cf1ad7e7c9cc36c6d02b4c04bd8.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1216710/d6b6fdfbd123457fd12fa42085964eb5019a3df0.jpg"
+  },
+  {
+    "name": "event05",
+    "defaultvalue": 0,
+    "displayName": "Immortal Codes",
+    "hidden": 0,
+    "description": "Find all the clues and complete Chapter 5",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1216710/bbbb5011d04bb28e6de921e272931c3827393b76.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1216710/2f9586a9f282e006f373ffe709813fb92050f05f.jpg"
+  },
+  {
+    "name": "livebroading",
+    "defaultvalue": 0,
+    "displayName": "Himerus",
+    "hidden": 0,
+    "description": "Complete the live broadcast within 10 minutes",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1216710/ee4977c1d888a12a5bdec69ce7cce5f2dc074bc1.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1216710/a4330ac2e00f1762822bcdfd19ce7ec8ad6233ee.jpg"
+  },
+  {
+    "name": "loveuphold",
+    "defaultvalue": 0,
+    "displayName": "Insistence of Love",
+    "hidden": 0,
+    "description": "Find Cody's Toothbook",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1216710/1a698d7109ac33fc808186a4b927b9192dc5d7fb.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1216710/40764cf4c31787cdbae9123d346da74fd64060a7.jpg"
+  },
+  {
+    "name": "ciosecrect",
+    "defaultvalue": 0,
+    "displayName": "CIO's Secret",
+    "hidden": 0,
+    "description": "Read all contents in Ashley's Hitalk",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1216710/79fa0b25d5607f16bffe247254a5de38eeba49fc.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1216710/6f4348053f35535e57e23487372dcd4fc5e5424b.jpg"
+  },
+  {
+    "name": "aahdefuse",
+    "defaultvalue": 0,
+    "displayName": "Bomb Disposal Expert",
+    "hidden": 0,
+    "description": "Remove all bombs within 12 minutes",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1216710/35d8a1f77f72b5a6b46bb9e79ad31e7c95cb6a3a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1216710/1f8c78ec6d18f1400162c06b99d5d795546300e4.jpg"
+  },
+  {
+    "name": "artificial",
+    "defaultvalue": 0,
+    "displayName": "Artificial Retard",
+    "hidden": 0,
+    "description": "Get the Bad End ending",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1216710/29da646544c559e08f627091a3400380266e00d8.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1216710/91049a2be16a88367e9272bbc534b01d990b3927.jpg"
+  },
+  {
+    "name": "badinternet",
+    "defaultvalue": 0,
+    "displayName": "Chaotic Network",
+    "hidden": 0,
+    "description": "Get the general ending",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1216710/1e43391d253a078a44b79d6582499a191d3f2880.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1216710/6ea24031675b639661d41179e70825917bec8ea1.jpg"
+  },
+  {
+    "name": "vanplus",
+    "defaultvalue": 0,
+    "displayName": "VAN+",
+    "hidden": 0,
+    "description": "Get the perfect ending",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1216710/f2cd3a71eb1c1402f3e8c7a3b81fe06be6645434.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1216710/50321236fa90ff2cc871d47cde0c3cc7e1b6baa1.jpg"
+  },
+  {
+    "name": "allknow",
+    "defaultvalue": 0,
+    "displayName": "Omniscient",
+    "hidden": 0,
+    "description": "Answer all questions in the live broadcast room ",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1216710/d230931c5f386dfca7be6934fe350686bc286f0f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1216710/a82e9ecd1cc7e136c6dee15ca22ec4ab8629ca27.jpg"
+  },
+  {
+    "name": "brotherhood",
+    "defaultvalue": 0,
+    "displayName": "Brotherhood",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1216710/199efd449f21dc69fc95f98caf41e95a06586221.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1216710/6eebacd79848519745492a4a71d9d831a54b4fcb.jpg"
+  },
+  {
+    "name": "negativeratings",
+    "defaultvalue": 0,
+    "displayName": "Negative Ratings",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1216710/74162795f486db97c5284b17be7a65ca7ff9fe79.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1216710/ea225499ec1e0c4848d49f989270a0a3e3a57129.jpg"
+  },
+  {
+    "name": "goldenwheat",
+    "defaultvalue": 0,
+    "displayName": "Golden Wheat Field",
+    "hidden": 0,
+    "description": " ",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1216710/1d56ef63032bf11d1513c4eb2691e81fbcb2638e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1216710/450c51d1308c0abe782e4d5bf2b1741bec1f8577.jpg"
+  },
+  {
+    "name": "pinkroom",
+    "defaultvalue": 0,
+    "displayName": "Pink Room",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1216710/35f04a6bc072fbb861d5d8747bb4013857fe5ccf.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1216710/ec99466b222f7120cb70e87d1da5cd08ab9fa540.jpg"
+  },
+  {
+    "name": "benefit",
+    "defaultvalue": 0,
+    "displayName": "Do you want benefit?",
+    "hidden": 0,
+    "description": " ",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1216710/f17466be7625bec13a3dc019d050a154ff92d697.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1216710/bd51e76f7e446798a4ae93b09fddb3ef5643c3fc.jpg"
+  },
+  {
+    "name": "homesweethome",
+    "defaultvalue": 0,
+    "displayName": "Home Sweet Home",
+    "hidden": 0,
+    "description": "Complete DLC and find all clues",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1216710/c168a0ed8d589ef215fa4a4e682581bfe6e69465.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1216710/d0110b03a2de0c1e30bbecdc010eb1191eccf999.jpg"
+  },
+  {
+    "name": "eater",
+    "defaultvalue": 0,
+    "displayName": "Whose Kid",
+    "hidden": 0,
+    "description": " ",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1216710/4713c2bad9d9ab49be6005894e58a7fab9aec4ca.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1216710/ffd28d8d9604c0a55c7091cd62707faf2dd96ea6.jpg"
+  },
+  {
+    "name": "catchharris",
+    "defaultvalue": 0,
+    "displayName": "Catch Harris",
+    "hidden": 0,
+    "description": "Catch Harris in three minutes",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1216710/126f1d4f70c9fbdf47825557f0ffbb6f52856152.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1216710/d94789e4893b910e09631bdcdeb415d645435777.jpg"
+  },
+  {
+    "name": "detialman",
+    "defaultvalue": 0,
+    "displayName": "Detail Master",
+    "hidden": 0,
+    "description": " ",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1216710/04f60859e7385e5424376c45b5c0fa21aa47de91.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1216710/8e1148d3c76d022ebc9bfb94aa94ecf2fb87a91b.jpg"
+  },
+  {
+    "name": "dejavu",
+    "defaultvalue": 0,
+    "displayName": "Deja vu",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1216710/9624b2367c28c70387e0e262a71d2b020e94058a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1216710/30d5d1824e6359fee314c0661b4af9213d47358f.jpg"
+  },
+  {
+    "name": "youlove",
+    "defaultvalue": 0,
+    "displayName": "The Face You Love",
+    "hidden": 0,
+    "description": " ",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1216710/8d6a149eb07ad8e649343d19645ad1035f9f1df1.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1216710/c52a080c5459e684082120ee04466cc5f2ffd27a.jpg"
+  },
+  {
+    "name": "policeman",
+    "defaultvalue": 0,
+    "displayName": "I am a policeman",
+    "hidden": 0,
+    "description": "Enter the correct number and name at one time",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1216710/8ab1226a05f1591d054e32115dff383a153cce3e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1216710/2686366d892174f873e75ca28b68daa0a7ef0efc.jpg"
+  },
+  {
+    "name": "eagleeyed",
+    "defaultvalue": 0,
+    "displayName": "Eagle Eyed",
+    "hidden": 0,
+    "description": "Light Up All BTS in 20 seconds",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1216710/2834cd4a5511c4b6a9c44d45c36b8fb8f12e59fc.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1216710/e01a1d41a31462c1791c802d41bfaa07423b4459.jpg"
   }
 ]

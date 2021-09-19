@@ -1,6 +1,7 @@
-﻿{
-  "UseGold": {
-    "description": "골드사용량",
-    "value": 0
+[
+  {
+    "name": "UseGold",
+    "defaultvalue": 0,
+    "displayName": "골드사용량"
   }
-}
+]

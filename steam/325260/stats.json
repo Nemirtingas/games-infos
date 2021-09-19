@@ -1,6 +1,7 @@
-﻿{
-  "test_stat": {
-    "description": "Test Stat",
-    "value": 0
+[
+  {
+    "name": "test_stat",
+    "defaultvalue": 0,
+    "displayName": "Test Stat"
   }
-}
+]

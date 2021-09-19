@@ -1,322 +1,402 @@
-﻿{
-  "level_1_percent": {
-    "description": "",
-    "value": 0
-  },
-  "level_2_unlocked": {
-    "description": "",
-    "value": 0
-  },
-  "maximum_retries": {
-    "description": "",
-    "value": 0
-  },
-  "level_3_unlocked": {
-    "description": "",
-    "value": 0
-  },
-  "level_4_unlocked": {
-    "description": "",
-    "value": 0
-  },
-  "level_5_unlocked": {
-    "description": "",
-    "value": 0
-  },
-  "level_6_unlocked": {
-    "description": "",
-    "value": 0
-  },
-  "level_7_unlocked": {
-    "description": "",
-    "value": 0
-  },
-  "level_8_unlocked": {
-    "description": "",
-    "value": 0
-  },
-  "level_1_percentHard": {
-    "description": "",
-    "value": 0
-  },
-  "level_1_percentInsane": {
-    "description": "",
-    "value": 0
-  },
-  "level_1_percentTotal": {
-    "description": "",
-    "value": 0
-  },
-  "level_2_percent": {
-    "description": "",
-    "value": 0
-  },
-  "level_2_percentHard": {
-    "description": "",
-    "value": 0
-  },
-  "level_2_percentInsane": {
-    "description": "",
-    "value": 0
-  },
-  "level_2_percentTotal": {
-    "description": "",
-    "value": 0
-  },
-  "level_2_attempts": {
-    "description": "",
-    "value": 0
-  },
-  "level_3_percent": {
-    "description": "",
-    "value": 0
-  },
-  "level_3_percentHard": {
-    "description": "",
-    "value": 0
-  },
-  "level_3_percentInsane": {
-    "description": "",
-    "value": 0
-  },
-  "level_3_percentTotal": {
-    "description": "",
-    "value": 0
-  },
-  "level_3_attempts": {
-    "description": "",
-    "value": 0
-  },
-  "level_4_percent": {
-    "description": "",
-    "value": 0
-  },
-  "level_4_percentHard": {
-    "description": "",
-    "value": 0
-  },
-  "level_4_percentInsane": {
-    "description": "",
-    "value": 0
-  },
-  "level_4_percentTotal": {
-    "description": "",
-    "value": 0
-  },
-  "level_4_attempts": {
-    "description": "",
-    "value": 0
-  },
-  "level_5_percent": {
-    "description": "",
-    "value": 0
-  },
-  "level_5_percentHard": {
-    "description": "",
-    "value": 0
-  },
-  "level_5_percentInsane": {
-    "description": "",
-    "value": 0
-  },
-  "level_5_percentTotal": {
-    "description": "",
-    "value": 0
-  },
-  "level_5_attempts": {
-    "description": "",
-    "value": 0
-  },
-  "level_6_percent": {
-    "description": "",
-    "value": 0
-  },
-  "level_6_percentHard": {
-    "description": "",
-    "value": 0
-  },
-  "level_6_percentInsane": {
-    "description": "",
-    "value": 0
-  },
-  "level_6_percentTotal": {
-    "description": "",
-    "value": 0
-  },
-  "level_6_attempts": {
-    "description": "",
-    "value": 0
-  },
-  "level_7_percent": {
-    "description": "",
-    "value": 0
-  },
-  "level_7_percentHard": {
-    "description": "",
-    "value": 0
-  },
-  "level_7_percentInsane": {
-    "description": "",
-    "value": 0
-  },
-  "level_7_percentTotal": {
-    "description": "",
-    "value": 0
-  },
-  "level_1_attempts": {
-    "description": "",
-    "value": 0
-  },
-  "maximum_attempts": {
-    "description": "",
-    "value": 0
-  },
-  "levels_complete": {
-    "description": "",
-    "value": 0
-  },
-  "levels_completeHard": {
-    "description": "",
-    "value": 0
-  },
-  "levels_completeInsane": {
-    "description": "",
-    "value": 0
-  },
-  "levels_cleared": {
-    "description": "",
-    "value": 0
-  },
-  "levels_completeNoChk": {
-    "description": "",
-    "value": 0
-  },
-  "levels_completeHardNoChk": {
-    "description": "",
-    "value": 0
-  },
-  "levels_completeInsaneNoChk": {
-    "description": "",
-    "value": 0
-  },
-  "levels_clearedNoChk": {
-    "description": "",
-    "value": 0
-  },
-  "endurance_survivedSec": {
-    "description": "",
-    "value": 0
-  },
-  "level_1_percentNoChk": {
-    "description": "",
-    "value": 0
-  },
-  "level_2_percentNoChk": {
-    "description": "",
-    "value": 0
-  },
-  "level_3_percentNoChk": {
-    "description": "",
-    "value": 0
-  },
-  "level_4_percentNoChk": {
-    "description": "",
-    "value": 0
-  },
-  "level_5_percentNoChk": {
-    "description": "",
-    "value": 0
-  },
-  "level_6_percentNoChk": {
-    "description": "",
-    "value": 0
-  },
-  "level_7_percentNoChk": {
-    "description": "",
-    "value": 0
-  },
-  "level_1_percentTotalNoChk": {
-    "description": "",
-    "value": 0
-  },
-  "level_2_percentTotalNoChk": {
-    "description": "",
-    "value": 0
-  },
-  "level_3_percentTotalNoChk": {
-    "description": "",
-    "value": 0
-  },
-  "level_4_percentTotalNoChk": {
-    "description": "",
-    "value": 0
-  },
-  "level_5_percentTotalNoChk": {
-    "description": "",
-    "value": 0
-  },
-  "level_6_percentTotalNoChk": {
-    "description": "",
-    "value": 0
-  },
-  "level_7_percentTotalNoChk": {
-    "description": "",
-    "value": 0
-  },
-  "level_1_percentHardNoChk": {
-    "description": "",
-    "value": 0
-  },
-  "level_2_percentHardNoChk": {
-    "description": "",
-    "value": 0
-  },
-  "level_3_percentHardNoChk": {
-    "description": "",
-    "value": 0
-  },
-  "level_4_percentHardNoChk": {
-    "description": "",
-    "value": 0
-  },
-  "level_5_percentHardNoChk": {
-    "description": "",
-    "value": 0
-  },
-  "level_6_percentHardNoChk": {
-    "description": "",
-    "value": 0
-  },
-  "level_7_percentHardNoChk": {
-    "description": "",
-    "value": 0
-  },
-  "level_1_percentInsaneNoChk": {
-    "description": "",
-    "value": 0
-  },
-  "level_2_percentInsaneNoChk": {
-    "description": "",
-    "value": 0
-  },
-  "level_3_percentInsaneNoChk": {
-    "description": "",
-    "value": 0
-  },
-  "level_4_percentInsaneNoChk": {
-    "description": "",
-    "value": 0
-  },
-  "level_5_percentInsaneNoChk": {
-    "description": "",
-    "value": 0
-  },
-  "level_6_percentInsaneNoChk": {
-    "description": "",
-    "value": 0
-  },
-  "level_7_percentInsaneNoChk": {
-    "description": "",
-    "value": 0
+[
+  {
+    "name": "level_1_percent",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "level_2_unlocked",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "maximum_retries",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "level_3_unlocked",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "level_4_unlocked",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "level_5_unlocked",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "level_6_unlocked",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "level_7_unlocked",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "level_8_unlocked",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "level_1_percentHard",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "level_1_percentInsane",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "level_1_percentTotal",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "level_2_percent",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "level_2_percentHard",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "level_2_percentInsane",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "level_2_percentTotal",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "level_2_attempts",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "level_3_percent",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "level_3_percentHard",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "level_3_percentInsane",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "level_3_percentTotal",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "level_3_attempts",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "level_4_percent",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "level_4_percentHard",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "level_4_percentInsane",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "level_4_percentTotal",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "level_4_attempts",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "level_5_percent",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "level_5_percentHard",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "level_5_percentInsane",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "level_5_percentTotal",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "level_5_attempts",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "level_6_percent",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "level_6_percentHard",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "level_6_percentInsane",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "level_6_percentTotal",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "level_6_attempts",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "level_7_percent",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "level_7_percentHard",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "level_7_percentInsane",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "level_7_percentTotal",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "level_1_attempts",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "maximum_attempts",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "levels_complete",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "levels_completeHard",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "levels_completeInsane",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "levels_cleared",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "levels_completeNoChk",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "levels_completeHardNoChk",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "levels_completeInsaneNoChk",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "levels_clearedNoChk",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "endurance_survivedSec",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "level_1_percentNoChk",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "level_2_percentNoChk",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "level_3_percentNoChk",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "level_4_percentNoChk",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "level_5_percentNoChk",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "level_6_percentNoChk",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "level_7_percentNoChk",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "level_1_percentTotalNoChk",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "level_2_percentTotalNoChk",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "level_3_percentTotalNoChk",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "level_4_percentTotalNoChk",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "level_5_percentTotalNoChk",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "level_6_percentTotalNoChk",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "level_7_percentTotalNoChk",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "level_1_percentHardNoChk",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "level_2_percentHardNoChk",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "level_3_percentHardNoChk",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "level_4_percentHardNoChk",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "level_5_percentHardNoChk",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "level_6_percentHardNoChk",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "level_7_percentHardNoChk",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "level_1_percentInsaneNoChk",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "level_2_percentInsaneNoChk",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "level_3_percentInsaneNoChk",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "level_4_percentInsaneNoChk",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "level_5_percentInsaneNoChk",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "level_6_percentInsaneNoChk",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "level_7_percentInsaneNoChk",
+    "defaultvalue": 0,
+    "displayName": ""
   }
-}
+]

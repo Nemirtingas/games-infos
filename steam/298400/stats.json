@@ -1,26 +1,32 @@
-﻿{
-  "kt_steam_quests": {
-    "description": "Quests Completed",
-    "value": 0
+[
+  {
+    "name": "kt_steam_quests",
+    "defaultvalue": 0,
+    "displayName": "Quests Completed"
   },
-  "kt_steam_bestdistance": {
-    "description": "Best Distance (Survival Mode)",
-    "value": 0
+  {
+    "name": "kt_steam_bestdistance",
+    "defaultvalue": 0,
+    "displayName": "Best Distance (Survival Mode)"
   },
-  "kt_steam_total_monstersdead": {
-    "description": "Total Monsters Dead",
-    "value": 0
+  {
+    "name": "kt_steam_total_monstersdead",
+    "defaultvalue": 0,
+    "displayName": "Total Monsters Dead"
   },
-  "kt_steam_bombkill": {
-    "description": "Bombalicious!",
-    "value": 0
+  {
+    "name": "kt_steam_bombkill",
+    "defaultvalue": 0,
+    "displayName": "Bombalicious!"
   },
-  "kt_steam_totalmoney": {
-    "description": "Total Money Gain",
-    "value": 0
+  {
+    "name": "kt_steam_totalmoney",
+    "defaultvalue": 0,
+    "displayName": "Total Money Gain"
   },
-  "kt_steam_bought": {
-    "description": "Total Upgrades Bought",
-    "value": 0
+  {
+    "name": "kt_steam_bought",
+    "defaultvalue": 0,
+    "displayName": "Total Upgrades Bought"
   }
-}
+]

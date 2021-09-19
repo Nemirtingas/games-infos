@@ -236,7 +236,7 @@
   {
     "name": "equip_night_vision_advanced",
     "defaultvalue": 0,
-    "displayName": "Advenced night vision",
+    "displayName": "Advanced night vision",
     "hidden": 0,
     "description": "Equip advanced night vision device.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/829590/f8abfa43aba991d27babade1132056661da14877.jpg",
@@ -265,7 +265,7 @@
     "defaultvalue": 0,
     "displayName": "Resonance mining",
     "hidden": 0,
-    "description": "Craft and use pragmium hatchet.",
+    "description": "Craft and use pragmium hammer.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/829590/bf9ffc9726e216c7a6825ee09ac90def4b24c0b9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/829590/9c6850ee0330d12a09ccdeb5095cd09a31f067e0.jpg"
   },
@@ -286,5 +286,147 @@
     "description": "Craft and use a stimpack.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/829590/6a13cc8b2a985ea6413eda231b6e68e5c100a8e9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/829590/02c4b76f72d26a8edc8d5e4c80d5e967dc9ea5f0.jpg"
+  },
+  {
+    "name": "completionist_all_food",
+    "defaultvalue": 0,
+    "displayName": "Completionist - Food",
+    "hidden": 0,
+    "description": "Try all food!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/829590/4f225bfff58283580112741c722b86471138e338.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/829590/92d2786e52bd79ccf3f1ec10a461de7d2fcb730e.jpg"
+  },
+  {
+    "name": "completionist_all_loot",
+    "defaultvalue": 0,
+    "displayName": "Completionist - Loot",
+    "hidden": 0,
+    "description": "Find all loot!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/829590/6915e857c125e0415cee1910573f0aa1ab521a2e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/829590/e28b91e280e3f8364f3d1074fc19734f908ebfc9.jpg"
+  },
+  {
+    "name": "completionist_all_creatures",
+    "defaultvalue": 0,
+    "displayName": "Completionist - Creatures",
+    "hidden": 0,
+    "description": "Defeat all creatures!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/829590/10d235e285874fcab05b10325f0d72e174de8b0c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/829590/f049070b3be5929b5afd142f9219b07f817bea4a.jpg"
+  },
+  {
+    "name": "completionist_all_fish",
+    "defaultvalue": 0,
+    "displayName": "Completionist - Fish",
+    "hidden": 0,
+    "description": "Catch all fish!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/829590/16b863d815fdb818f02ee18fa90d19b5fb8dbc52.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/829590/37db2701b6f5fa83ea051c31e887ece9c052ea57.jpg"
+  },
+  {
+    "name": "boss_queen",
+    "defaultvalue": 0,
+    "displayName": "Pragmium Queen",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/829590/9886e93de3b4c2b2d0fc12957958317d10a8e2d6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/829590/bdfbd8888411c64dadbf86841c9a30519aa4d736.jpg"
+  },
+  {
+    "name": "boss_tyrant",
+    "defaultvalue": 0,
+    "displayName": "Sand Tyrant",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/829590/498bde1d220b35526a6dbb53f2e94c2466576735.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/829590/c6f997f32665fee39e1d7ae1fe6257e8d74ddd1c.jpg"
+  },
+  {
+    "name": "build_oil_cracking",
+    "defaultvalue": 0,
+    "displayName": "Oil cracking",
+    "hidden": 0,
+    "description": "Build oil cracking plant.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/829590/45362cb42a53aba7ca90542cd51160cab39ae29c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/829590/e136dce9445127328e01f1d98fd8a8d86fcdb239.jpg"
+  },
+  {
+    "name": "teleports_find_all",
+    "defaultvalue": 0,
+    "displayName": "Teleportation",
+    "hidden": 0,
+    "description": "Find all teleport locations.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/829590/37dd786e25020bdcd48e609fd76585da4cac6f2b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/829590/3a8a2492dfe46c231ff10f2e056329c3a2de7f01.jpg"
+  },
+  {
+    "name": "use_drones",
+    "defaultvalue": 0,
+    "displayName": "Drone mining",
+    "hidden": 0,
+    "description": "Use drones for mining.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/829590/11c266272d4c4725ae03cd670c5bc5ed111bf43a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/829590/992672d8406529b95d34fc1ae4ed0bd813bd76c3.jpg"
+  },
+  {
+    "name": "mint_coins",
+    "defaultvalue": 0,
+    "displayName": "Coin minting",
+    "hidden": 0,
+    "description": "Mint some coins.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/829590/03b2ad844e0d03b14c179a1b00e634422a4ad3c0.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/829590/f93f4d185ff4b0f8ff4fecf151a22f7bc9d4ac8e.jpg"
+  },
+  {
+    "name": "event_blue_glider",
+    "defaultvalue": 0,
+    "displayName": "Event - Blue Glider",
+    "hidden": 0,
+    "description": "Participate in the event.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/829590/a3c0263e28a0d3e962ad273885c962e02a5139d0.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/829590/9fd78e7e892ef24f0d2c0545157da0e31f06b5ef.jpg"
+  },
+  {
+    "name": "event_floater",
+    "defaultvalue": 0,
+    "displayName": "Event - Floater migration",
+    "hidden": 0,
+    "description": "Participate in the event.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/829590/c2716102f97d86fc3f9531ca967bd6b4768cba85.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/829590/1c161d618a1a713060690396e3422a2f49ac56a5.jpg"
+  },
+  {
+    "name": "event_meteorite_drop",
+    "defaultvalue": 0,
+    "displayName": "Event - Meteorite drop",
+    "hidden": 0,
+    "description": "Participate in the event.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/829590/f17d2bcae0a21c36858950263354103624541c70.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/829590/eeebda5d2c538ea6b3f5725f718bfa1706b1a296.jpg"
+  },
+  {
+    "name": "event_psi_grove",
+    "defaultvalue": 0,
+    "displayName": "Event - Psi grove",
+    "hidden": 0,
+    "description": "Participate in the event.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/829590/8efa86bf8173cd1f71ec85c5180bfb3818c00c87.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/829590/69ba62a4c53185683eaa173da6f446a9f1067659.jpg"
+  },
+  {
+    "name": "event_space_drop",
+    "defaultvalue": 0,
+    "displayName": "Event - Space debris",
+    "hidden": 0,
+    "description": "Participate in the event.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/829590/c5ed81361d2b55799505311406c22721e2da27b1.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/829590/adb36375f939f4a5bd4ce7a4f04f1be017ef68a1.jpg"
+  },
+  {
+    "name": "event_thumper",
+    "defaultvalue": 0,
+    "displayName": "Event - Thumper migration",
+    "hidden": 0,
+    "description": "Participate in the event.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/829590/7eb35d91b082c801c6e0b4d2427e5b22153d0fc7.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/829590/f97c1b6dc9bcef1655e705cffdfe91aceafaf6ac.jpg"
   }
 ]

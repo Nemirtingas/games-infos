@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "name": "ALL_ROSES",
     "defaultvalue": 0,
@@ -78,5 +78,68 @@
     "hidden": 1,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529920/f273a621382580095fe7753b84d7fb3283504f54.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529920/698da39ef7799f0dfc002b33537c22b0027ca65f.jpg"
+  },
+  {
+    "name": "WIN_EP_TWO",
+    "defaultvalue": 0,
+    "displayName": "Full house",
+    "hidden": 0,
+    "description": "Complete episode 2",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529920/d2b32ca85930249e471e7b9114e535a8f45ec012.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529920/490a6206cfb981c931ae0083380e6357789332db.jpg"
+  },
+  {
+    "name": "DISHONOR_EP_TWO",
+    "defaultvalue": 0,
+    "displayName": "Double down",
+    "hidden": 0,
+    "description": "Kill at least two guards in the casino",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529920/cafd0cce044315f521eebbaa3b30f399de17413b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529920/adac5e372411dee6fdf324fb97bb0e7dce313b4d.jpg"
+  },
+  {
+    "name": "HONOR_EP_TWO",
+    "defaultvalue": 0,
+    "displayName": "Pacifist",
+    "hidden": 0,
+    "description": "Kill only one guard in the casino",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529920/8deb5114b09296b3a033b7d776bd99f1d4ef6b52.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529920/d550bdf3bba3fba0679effb4ff9f644fad769641.jpg"
+  },
+  {
+    "name": "WEAPONS_EP_TWO",
+    "defaultvalue": 0,
+    "displayName": "Weapons free",
+    "hidden": 0,
+    "description": "Find the secret weapons cache",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529920/4e641ba684bc53d0577d28305e6dfff0563628a7.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529920/f5fae66eda680f7fd725d973b3dd2c189873aa02.jpg"
+  },
+  {
+    "name": "ALL_ROSES_EP_TWO",
+    "defaultvalue": 0,
+    "displayName": "Queen of hearts",
+    "hidden": 0,
+    "description": "Find all the roses in epsiode 2",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529920/f3d837a471fe69ebba4c7c88d535580fe37e066f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529920/85e15dd5df29abd3e42a457aa3b32b5cc433f3ab.jpg"
+  },
+  {
+    "name": "ALL_HAMMER_EP_TWO",
+    "defaultvalue": 0,
+    "displayName": "Hammertime",
+    "hidden": 0,
+    "description": "Kill four guards with a hammer",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529920/08ed9cf8dc6a817c4cb9cc90ee18099f1bd3d50c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529920/c1a94c9812616c92f3040874d5db6f764c127a81.jpg"
+  },
+  {
+    "name": "ALL_MONEY_EP_TWO",
+    "defaultvalue": 0,
+    "displayName": "King of Diamonds",
+    "hidden": 0,
+    "description": "Find all the money",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529920/669a4930e37326df7eb81e011cbabcdbc0bb395c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/529920/9780bc0173740e2e99c6eec1f664c07571515013.jpg"
   }
 ]

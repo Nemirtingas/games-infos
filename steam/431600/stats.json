@@ -1,66 +1,82 @@
-﻿{
-  "TotalDistance": {
-    "description": "Total distance in m",
-    "value": 0
+[
+  {
+    "name": "TotalDistance",
+    "defaultvalue": 0,
+    "displayName": "Total distance in m"
   },
-  "TotalTime": {
-    "description": "Total time",
-    "value": 0
+  {
+    "name": "TotalTime",
+    "defaultvalue": 0,
+    "displayName": "Total time"
   },
-  "Version": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Version",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "MaxSpeed": {
-    "description": "Max speed reached",
-    "value": 0
+  {
+    "name": "MaxSpeed",
+    "defaultvalue": 0,
+    "displayName": "Max speed reached"
   },
-  "MaxSpeedInFVintage": {
-    "description": "MaxSpeed in F-Vintage",
-    "value": 0
+  {
+    "name": "MaxSpeedInFVintage",
+    "defaultvalue": 0,
+    "displayName": "MaxSpeed in F-Vintage"
   },
-  "DefaultChampionshipsWon": {
-    "description": "Number of not repeated default championship the player won",
-    "value": 0
+  {
+    "name": "DefaultChampionshipsWon",
+    "defaultvalue": 0,
+    "displayName": "Number of not repeated default championship the player won"
   },
-  "StockChampionshipsWon": {
-    "description": "Number of stock car and opala championship the player won",
-    "value": 0
+  {
+    "name": "StockChampionshipsWon",
+    "defaultvalue": 0,
+    "displayName": "Number of stock car and opala championship the player won"
   },
-  "PolesF1Series": {
-    "description": "Number of pole positions won with F1 series",
-    "value": 0
+  {
+    "name": "PolesF1Series",
+    "defaultvalue": 0,
+    "displayName": "Number of pole positions won with F1 series"
   },
-  "WonRacesF1Series": {
-    "description": "Number of won races with F1 series",
-    "value": 0
+  {
+    "name": "WonRacesF1Series",
+    "defaultvalue": 0,
+    "displayName": "Number of won races with F1 series"
   },
-  "MultiplayerFinishedRaces": {
-    "description": "Number of multiplayer races the player has finished",
-    "value": 0
+  {
+    "name": "MultiplayerFinishedRaces",
+    "defaultvalue": 0,
+    "displayName": "Number of multiplayer races the player has finished"
   },
-  "TTRankedTracks": {
-    "description": "Number of official and not repeated tracks for which the player set a time",
-    "value": 0
+  {
+    "name": "TTRankedTracks",
+    "defaultvalue": 0,
+    "displayName": "Number of official and not repeated tracks for which the player set a time"
   },
-  "DefaultChampionshipsWonMask": {
-    "description": "Each bit identifies a single default championship",
-    "value": 0
+  {
+    "name": "DefaultChampionshipsWonMask",
+    "defaultvalue": 0,
+    "displayName": "Each bit identifies a single default championship"
   },
-  "TTRankedTracksMask1": {
-    "description": "Each bit identifies a single layout",
-    "value": 0
+  {
+    "name": "TTRankedTracksMask1",
+    "defaultvalue": 0,
+    "displayName": "Each bit identifies a single layout"
   },
-  "TTRankedTracksMask2": {
-    "description": "Each bit identifies a single layout",
-    "value": 0
+  {
+    "name": "TTRankedTracksMask2",
+    "defaultvalue": 0,
+    "displayName": "Each bit identifies a single layout"
   },
-  "CarsDriven": {
-    "description": "Number of driven cars with no repetition",
-    "value": 0
+  {
+    "name": "CarsDriven",
+    "defaultvalue": 0,
+    "displayName": "Number of driven cars with no repetition"
   },
-  "CarsDrivenMask1": {
-    "description": "Each bit identifies a single car",
-    "value": 0
+  {
+    "name": "CarsDrivenMask1",
+    "defaultvalue": 0,
+    "displayName": "Each bit identifies a single car"
   }
-}
+]

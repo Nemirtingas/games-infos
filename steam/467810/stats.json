@@ -1,38 +1,47 @@
-﻿{
-  "stat_kills": {
-    "description": "Kills",
-    "value": 0
+[
+  {
+    "name": "stat_kills",
+    "defaultvalue": 0,
+    "displayName": "Kills"
   },
-  "stat_deaths": {
-    "description": "Deaths",
-    "value": 0
+  {
+    "name": "stat_deaths",
+    "defaultvalue": 0,
+    "displayName": "Deaths"
   },
-  "stat_suicides": {
-    "description": "Suicides",
-    "value": 0
+  {
+    "name": "stat_suicides",
+    "defaultvalue": 0,
+    "displayName": "Suicides"
   },
-  "stat_games": {
-    "description": "Rounds",
-    "value": 0
+  {
+    "name": "stat_games",
+    "defaultvalue": 0,
+    "displayName": "Rounds"
   },
-  "stat_wins": {
-    "description": "Wins",
-    "value": 0
+  {
+    "name": "stat_wins",
+    "defaultvalue": 0,
+    "displayName": "Wins"
   },
-  "stat_taunts": {
-    "description": "Taunts",
-    "value": 0
+  {
+    "name": "stat_taunts",
+    "defaultvalue": 0,
+    "displayName": "Taunts"
   },
-  "stat_taunt_deaths": {
-    "description": "Deaths While Taunting",
-    "value": 0
+  {
+    "name": "stat_taunt_deaths",
+    "defaultvalue": 0,
+    "displayName": "Deaths While Taunting"
   },
-  "stat_successful_taunts": {
-    "description": "Successful Taunts",
-    "value": 0
+  {
+    "name": "stat_successful_taunts",
+    "defaultvalue": 0,
+    "displayName": "Successful Taunts"
   },
-  "stat_non_suicide_streak": {
-    "description": "Non-Suicide Streak",
-    "value": 0
+  {
+    "name": "stat_non_suicide_streak",
+    "defaultvalue": 0,
+    "displayName": "Non-Suicide Streak"
   }
-}
+]

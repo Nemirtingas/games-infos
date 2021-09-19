@@ -1,14 +1,9 @@
 {
-  "Dlcs": {},
-  "Name": "超音神樂《七音圖騰篇》- UltraKagura -",
-  "AppId": "925120",
-  "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/925120/header.jpg?t=1556724801",
-  "Languages": [
-    "tchinese"
-  ],
-  "Platforms": {
-    "windows": true,
-    "mac": false,
-    "linux": false
+  "Dlcs": {
+    "1594070": {
+      "Name": "天牢 -Tianlao Sokoban- Soundtrack",
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1594070/header.jpg?t=1617943119",
+      "Type": "music"
+    }
   }
 }

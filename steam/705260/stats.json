@@ -1,14 +1,17 @@
-﻿{
-  "stat_wastecleaner_levels": {
-    "description": "Level Started",
-    "value": 0
+[
+  {
+    "name": "stat_wastecleaner_levels",
+    "defaultvalue": 0,
+    "displayName": "Level Started"
   },
-  "stat_wastecleaner_barrels": {
-    "description": "Barrels Cleaned",
-    "value": 0
+  {
+    "name": "stat_wastecleaner_barrels",
+    "defaultvalue": 0,
+    "displayName": "Barrels Cleaned"
   },
-  "stat_wastecleaner_fluids": {
-    "description": "Fluids Released",
-    "value": 0
+  {
+    "name": "stat_wastecleaner_fluids",
+    "defaultvalue": 0,
+    "displayName": "Fluids Released"
   }
-}
+]

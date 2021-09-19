@@ -1,38 +1,47 @@
-﻿{
-  "NumSecretsFound": {
-    "description": "Secret Stashes Found",
-    "value": 0
+[
+  {
+    "name": "NumSecretsFound",
+    "defaultvalue": 0,
+    "displayName": "Secret Stashes Found"
   },
-  "NumPizzaSlicesEaten": {
-    "description": "Pizza Slices Eaten",
-    "value": 0
+  {
+    "name": "NumPizzaSlicesEaten",
+    "defaultvalue": 0,
+    "displayName": "Pizza Slices Eaten"
   },
-  "NumSodaCansDrunk": {
-    "description": "Soda Cans Drunk",
-    "value": 0
+  {
+    "name": "NumSodaCansDrunk",
+    "defaultvalue": 0,
+    "displayName": "Soda Cans Drunk"
   },
-  "NumDecapitations": {
-    "description": "Enemies Decapitated",
-    "value": 0
+  {
+    "name": "NumDecapitations",
+    "defaultvalue": 0,
+    "displayName": "Enemies Decapitated"
   },
-  "NumCockroachesSquished": {
-    "description": "Cockroaches Stepped On",
-    "value": 0
+  {
+    "name": "NumCockroachesSquished",
+    "defaultvalue": 0,
+    "displayName": "Cockroaches Stepped On"
   },
-  "NumMechsectsMeleed": {
-    "description": "Mechsects Killed with the Electrifryer",
-    "value": 0
+  {
+    "name": "NumMechsectsMeleed",
+    "defaultvalue": 0,
+    "displayName": "Mechsects Killed with the Electrifryer"
   },
-  "NumFlyersExploded": {
-    "description": "Flying Enemies Killed with Explosive Weapons",
-    "value": 0
+  {
+    "name": "NumFlyersExploded",
+    "defaultvalue": 0,
+    "displayName": "Flying Enemies Killed with Explosive Weapons"
   },
-  "NumHeadsKicked": {
-    "description": "Severed Heads Kicked",
-    "value": 0
+  {
+    "name": "NumHeadsKicked",
+    "defaultvalue": 0,
+    "displayName": "Severed Heads Kicked"
   },
-  "NumBowlingBombStrikes": {
-    "description": "Bowling Bombs Strikes Attained",
-    "value": 0
+  {
+    "name": "NumBowlingBombStrikes",
+    "defaultvalue": 0,
+    "displayName": "Bowling Bombs Strikes Attained"
   }
-}
+]

@@ -28,5 +28,25 @@
     "name": "stat_dodgestrikes",
     "defaultvalue": 0,
     "displayName": "dodgestrikes"
+  },
+  {
+    "name": "stat_ripostes",
+    "defaultvalue": 0,
+    "displayName": "ripostes"
+  },
+  {
+    "name": "stat_doublestrikes",
+    "defaultvalue": 0,
+    "displayName": "doublestrikes"
+  },
+  {
+    "name": "stat_goldcollected",
+    "defaultvalue": 0,
+    "displayName": "goldcollected"
+  },
+  {
+    "name": "stat_friendlyfire",
+    "defaultvalue": 0,
+    "displayName": "friendlyfire"
   }
 ]

@@ -1,326 +1,407 @@
-﻿{
-  "STAT_RELICS_RECOVERED": {
-    "description": "Relics Recovered",
-    "value": 0
-  },
-  "STAT_EFFICIENCY": {
-    "description": "Efficiency",
-    "value": 0
-  },
-  "STAT_WINS": {
-    "description": "Wins",
-    "value": 0
-  },
-  "STAT_WIN_RATIO": {
-    "description": "Win Ratio",
-    "value": 0
-  },
-  "STAT_ELO": {
-    "description": "ELO Rating",
-    "value": 1500
-  },
-  "STAT_LOSSES": {
-    "description": "Losses",
-    "value": 0
-  },
-  "STAT_CARRIER_KILLS": {
-    "description": "Carrier Kills",
-    "value": 0
-  },
-  "STAT_MP_WINS": {
-    "description": "MP Wins",
-    "value": 0
-  },
-  "STAT_M04_COMPLETIONS": {
-    "description": "Mission 4 Completions",
-    "value": 0
-  },
-  "STAT_MP_LOSSES": {
-    "description": "MP Losses",
-    "value": 0
-  },
-  "STAT_AI_RETRIEVAL_COALITION": {
-    "description": "AI Retrieval Coalition Wins",
-    "value": 0
-  },
-  "STAT_AI_RETRIEVAL_GAALSI": {
-    "description": "AI Retrieval Gaalsi Wins",
-    "value": 0
-  },
-  "STAT_AI_ANNIHILATION_COALITION": {
-    "description": "AI Annihilation Coalition Wins",
-    "value": 0
-  },
-  "STAT_AI_ANNIHILATION_GAALSI": {
-    "description": "AI Annhilation Gaalsi Wins",
-    "value": 0
-  },
-  "STAT_AI_C_ANNIHILATION_COALITION": {
-    "description": "AI Carrier Annhilation Coalition Wins",
-    "value": 0
-  },
-  "STAT_AI_C_ANNIHILATION_GAALSI": {
-    "description": "AI Carrier Annihilation Gaalsi Wins",
-    "value": 0
-  },
-  "STAT_AI_FFA_COALITION": {
-    "description": "AI FFA Coalition Wins",
-    "value": 0
-  },
-  "STAT_AI_FFA_GAALSI": {
-    "description": "AI FFA Gaalsi Wins",
-    "value": 0
-  },
-  "STAT_AI_RETRIEVAL_COUNT_COALITION": {
-    "description": "AI # of artifacts retrieved Coalition",
-    "value": 0
-  },
-  "STAT_AI_RETRIEVAL_COUNT_GAALSI": {
-    "description": "AI # of artifacts retrieved Gaalsi",
-    "value": 0
-  },
-  "STAT_TUT_COMPLETE": {
-    "description": "Complete Tutorial",
-    "value": 0
-  },
-  "STAT_M01_COMPLETE": {
-    "description": "Complete M01",
-    "value": 0
-  },
-  "STAT_M02_COMPLETE": {
-    "description": "Complete M02",
-    "value": 0
-  },
-  "STAT_M03_COMPLETE": {
-    "description": "Complete M03",
-    "value": 0
-  },
-  "STAT_M04_COMPLETE": {
-    "description": "Complete M04",
-    "value": 0
-  },
-  "STAT_M05_COMPLETE": {
-    "description": "Complete M05",
-    "value": 0
-  },
-  "STAT_M06_COMPLETE": {
-    "description": "Complete M06",
-    "value": 0
-  },
-  "STAT_M07_COMPLETE": {
-    "description": "Complete M07",
-    "value": 0
-  },
-  "STAT_M08_COMPLETE": {
-    "description": "Complete M08",
-    "value": 0
-  },
-  "STAT_M09_COMPLETE": {
-    "description": "Complete M09",
-    "value": 0
-  },
-  "STAT_M10_COMPLETE": {
-    "description": "Complete M10",
-    "value": 0
-  },
-  "STAT_M11_COMPLETE": {
-    "description": "Complete M11",
-    "value": 0
-  },
-  "STAT_M12_COMPLETE": {
-    "description": "Complete M12",
-    "value": 0
-  },
-  "STAT_M13_COMPLETE": {
-    "description": "Complete M13",
-    "value": 0
-  },
-  "STAT_M14_COMPLETE": {
-    "description": "Complete M14",
-    "value": 0
-  },
-  "STAT_MP_RETRIEVAL_COALITION": {
-    "description": "MP Retrieval Coalition Wins",
-    "value": 0
-  },
-  "STAT_MP_RETRIEVAL_GAALSI": {
-    "description": "MP Retrieval Gaalsi Wins",
-    "value": 0
-  },
-  "STAT_MP_ANNIHILATION_COALITION": {
-    "description": "MP Annihilation Coalition Wins",
-    "value": 0
-  },
-  "STAT_MP_ANNIHILATION_GAALSI": {
-    "description": "MP Annhilation Gaalsi Wins",
-    "value": 0
-  },
-  "STAT_MP_C_ANNIHILATION_COALITION": {
-    "description": "MP Carrier Annhilation Coalition Wins",
-    "value": 0
-  },
-  "STAT_MP_C_ANNIHILATION_GAALSI": {
-    "description": "MP Carrier Annihilation Gaalsi Wins",
-    "value": 0
-  },
-  "STAT_MP_FFA_COALITION": {
-    "description": "MP FFA Coalition Wins",
-    "value": 0
-  },
-  "STAT_MP_FFA_GAALSI": {
-    "description": "MP FFA Gaalsi Wins",
-    "value": 0
-  },
-  "STAT_MP_RETRIEVAL_COUNT_COALITION": {
-    "description": "MP # of artifacts retrieved Coalition",
-    "value": 0
-  },
-  "STAT_MP_RETRIEVAL_COUNT_GAALSI": {
-    "description": "MP # of artifacts retrieved Gaalsi",
-    "value": 0
-  },
-  "STAT_SP_SANDSKIMMER_KILLS": {
-    "description": "Kill 500 Sandskimmers in Campaign",
-    "value": 0
-  },
-  "STAT_RANKED_ELO": {
-    "description": "Rank ELO rating",
-    "value": 1500
-  },
-  "STAT_RANKED_1V1_WINS": {
-    "description": "",
-    "value": 0
-  },
-  "STAT_RANKED_2V2_WINS": {
-    "description": "",
-    "value": 0
-  },
-  "STAT_RANKED_3V3_WINS": {
-    "description": "",
-    "value": 0
-  },
-  "STAT_RANKED_1V1_GAMESPLAYED": {
-    "description": "",
-    "value": 0
-  },
-  "STAT_RANKED_2V2_GAMESPLAYED": {
-    "description": "",
-    "value": 0
-  },
-  "STAT_RANKED_3V3_GAMESPLAYED": {
-    "description": "",
-    "value": 0
-  },
-  "STAT_RANKED_1V1_REACTORS": {
-    "description": "",
-    "value": 0
-  },
-  "STAT_RANKED_2V2_REACTORS": {
-    "description": "",
-    "value": 0
-  },
-  "STAT_RANKED_3V3_REACTORS": {
-    "description": "",
-    "value": 0
-  },
-  "STAT_RANKED_1V1_STREAK": {
-    "description": "",
-    "value": 0
-  },
-  "STAT_RANKED_2V2_STREAK": {
-    "description": "",
-    "value": 0
-  },
-  "STAT_RANKED_3V3_STREAK": {
-    "description": "",
-    "value": 0
-  },
-  "STAT_RANKED_1V1_EFFICIENCY": {
-    "description": "",
-    "value": 0
-  },
-  "STAT_RANKED_2V2_EFFICIENCY": {
-    "description": "",
-    "value": 0
-  },
-  "STAT_RANKED_3V3_EFFICIENCY": {
-    "description": "",
-    "value": 0
-  },
-  "STAT_RANKED_1V1_ELO": {
-    "description": "",
-    "value": 1500
-  },
-  "STAT_RANKED_2V2_ELO": {
-    "description": "",
-    "value": 1500
-  },
-  "STAT_RANKED_3V3_ELO": {
-    "description": "",
-    "value": 1500
-  },
-  "STAT_MP_CU_COLLECTED": {
-    "description": "",
-    "value": 0
-  },
-  "STAT_MP_RU_COLLECTED": {
-    "description": "",
-    "value": 0
-  },
-  "STAT_MP_REACTORS_COLLECTED": {
-    "description": "",
-    "value": 0
-  },
-  "STAT_MP_UNITS_BUILT": {
-    "description": "",
-    "value": 0
-  },
-  "STAT_MP_UNITS_LOST": {
-    "description": "",
-    "value": 0
-  },
-  "STAT_MP_ENEMY_UNITS_DESTROYED": {
-    "description": "",
-    "value": 0
-  },
-  "STAT_MP_ENEMY_CRUISERS_DESTROYED": {
-    "description": "",
-    "value": 0
-  },
-  "STAT_MP_CARRIERS_DESTROYED": {
-    "description": "",
-    "value": 0
-  },
-  "STAT_MP_RETRIEVAL_SOBAN": {
-    "description": "",
-    "value": 0
-  },
-  "STAT_MP_ANNIHILATION_SOBAN": {
-    "description": "",
-    "value": 0
-  },
-  "STAT_MP_C_ANNIHILATION_SOBAN": {
-    "description": "",
-    "value": 0
-  },
-  "STAT_MP_RETRIEVAL_COUNT_SOBAN": {
-    "description": "",
-    "value": 0
-  },
-  "STAT_MP_RETRIEVAL_KHAANEPH": {
-    "description": "",
-    "value": 0
-  },
-  "STAT_MP_ANNIHILATION_KHAANEPH": {
-    "description": "",
-    "value": 0
-  },
-  "STAT_MP_C_ANNIHILATION_KHAANEPH": {
-    "description": "",
-    "value": 0
-  },
-  "STAT_MP_RETRIEVAL_COUNT_KHAANEPH": {
-    "description": "",
-    "value": 0
+[
+  {
+    "name": "STAT_RELICS_RECOVERED",
+    "defaultvalue": 0,
+    "displayName": "Relics Recovered"
+  },
+  {
+    "name": "STAT_EFFICIENCY",
+    "defaultvalue": 0,
+    "displayName": "Efficiency"
+  },
+  {
+    "name": "STAT_WINS",
+    "defaultvalue": 0,
+    "displayName": "Wins"
+  },
+  {
+    "name": "STAT_WIN_RATIO",
+    "defaultvalue": 0,
+    "displayName": "Win Ratio"
+  },
+  {
+    "name": "STAT_ELO",
+    "defaultvalue": 1500,
+    "displayName": "ELO Rating"
+  },
+  {
+    "name": "STAT_LOSSES",
+    "defaultvalue": 0,
+    "displayName": "Losses"
+  },
+  {
+    "name": "STAT_CARRIER_KILLS",
+    "defaultvalue": 0,
+    "displayName": "Carrier Kills"
+  },
+  {
+    "name": "STAT_MP_WINS",
+    "defaultvalue": 0,
+    "displayName": "MP Wins"
+  },
+  {
+    "name": "STAT_M04_COMPLETIONS",
+    "defaultvalue": 0,
+    "displayName": "Mission 4 Completions"
+  },
+  {
+    "name": "STAT_MP_LOSSES",
+    "defaultvalue": 0,
+    "displayName": "MP Losses"
+  },
+  {
+    "name": "STAT_AI_RETRIEVAL_COALITION",
+    "defaultvalue": 0,
+    "displayName": "AI Retrieval Coalition Wins"
+  },
+  {
+    "name": "STAT_AI_RETRIEVAL_GAALSI",
+    "defaultvalue": 0,
+    "displayName": "AI Retrieval Gaalsi Wins"
+  },
+  {
+    "name": "STAT_AI_ANNIHILATION_COALITION",
+    "defaultvalue": 0,
+    "displayName": "AI Annihilation Coalition Wins"
+  },
+  {
+    "name": "STAT_AI_ANNIHILATION_GAALSI",
+    "defaultvalue": 0,
+    "displayName": "AI Annhilation Gaalsi Wins"
+  },
+  {
+    "name": "STAT_AI_C_ANNIHILATION_COALITION",
+    "defaultvalue": 0,
+    "displayName": "AI Carrier Annhilation Coalition Wins"
+  },
+  {
+    "name": "STAT_AI_C_ANNIHILATION_GAALSI",
+    "defaultvalue": 0,
+    "displayName": "AI Carrier Annihilation Gaalsi Wins"
+  },
+  {
+    "name": "STAT_AI_FFA_COALITION",
+    "defaultvalue": 0,
+    "displayName": "AI FFA Coalition Wins"
+  },
+  {
+    "name": "STAT_AI_FFA_GAALSI",
+    "defaultvalue": 0,
+    "displayName": "AI FFA Gaalsi Wins"
+  },
+  {
+    "name": "STAT_AI_RETRIEVAL_COUNT_COALITION",
+    "defaultvalue": 0,
+    "displayName": "AI # of artifacts retrieved Coalition"
+  },
+  {
+    "name": "STAT_AI_RETRIEVAL_COUNT_GAALSI",
+    "defaultvalue": 0,
+    "displayName": "AI # of artifacts retrieved Gaalsi"
+  },
+  {
+    "name": "STAT_TUT_COMPLETE",
+    "defaultvalue": 0,
+    "displayName": "Complete Tutorial"
+  },
+  {
+    "name": "STAT_M01_COMPLETE",
+    "defaultvalue": 0,
+    "displayName": "Complete M01"
+  },
+  {
+    "name": "STAT_M02_COMPLETE",
+    "defaultvalue": 0,
+    "displayName": "Complete M02"
+  },
+  {
+    "name": "STAT_M03_COMPLETE",
+    "defaultvalue": 0,
+    "displayName": "Complete M03"
+  },
+  {
+    "name": "STAT_M04_COMPLETE",
+    "defaultvalue": 0,
+    "displayName": "Complete M04"
+  },
+  {
+    "name": "STAT_M05_COMPLETE",
+    "defaultvalue": 0,
+    "displayName": "Complete M05"
+  },
+  {
+    "name": "STAT_M06_COMPLETE",
+    "defaultvalue": 0,
+    "displayName": "Complete M06"
+  },
+  {
+    "name": "STAT_M07_COMPLETE",
+    "defaultvalue": 0,
+    "displayName": "Complete M07"
+  },
+  {
+    "name": "STAT_M08_COMPLETE",
+    "defaultvalue": 0,
+    "displayName": "Complete M08"
+  },
+  {
+    "name": "STAT_M09_COMPLETE",
+    "defaultvalue": 0,
+    "displayName": "Complete M09"
+  },
+  {
+    "name": "STAT_M10_COMPLETE",
+    "defaultvalue": 0,
+    "displayName": "Complete M10"
+  },
+  {
+    "name": "STAT_M11_COMPLETE",
+    "defaultvalue": 0,
+    "displayName": "Complete M11"
+  },
+  {
+    "name": "STAT_M12_COMPLETE",
+    "defaultvalue": 0,
+    "displayName": "Complete M12"
+  },
+  {
+    "name": "STAT_M13_COMPLETE",
+    "defaultvalue": 0,
+    "displayName": "Complete M13"
+  },
+  {
+    "name": "STAT_M14_COMPLETE",
+    "defaultvalue": 0,
+    "displayName": "Complete M14"
+  },
+  {
+    "name": "STAT_MP_RETRIEVAL_COALITION",
+    "defaultvalue": 0,
+    "displayName": "MP Retrieval Coalition Wins"
+  },
+  {
+    "name": "STAT_MP_RETRIEVAL_GAALSI",
+    "defaultvalue": 0,
+    "displayName": "MP Retrieval Gaalsi Wins"
+  },
+  {
+    "name": "STAT_MP_ANNIHILATION_COALITION",
+    "defaultvalue": 0,
+    "displayName": "MP Annihilation Coalition Wins"
+  },
+  {
+    "name": "STAT_MP_ANNIHILATION_GAALSI",
+    "defaultvalue": 0,
+    "displayName": "MP Annhilation Gaalsi Wins"
+  },
+  {
+    "name": "STAT_MP_C_ANNIHILATION_COALITION",
+    "defaultvalue": 0,
+    "displayName": "MP Carrier Annhilation Coalition Wins"
+  },
+  {
+    "name": "STAT_MP_C_ANNIHILATION_GAALSI",
+    "defaultvalue": 0,
+    "displayName": "MP Carrier Annihilation Gaalsi Wins"
+  },
+  {
+    "name": "STAT_MP_FFA_COALITION",
+    "defaultvalue": 0,
+    "displayName": "MP FFA Coalition Wins"
+  },
+  {
+    "name": "STAT_MP_FFA_GAALSI",
+    "defaultvalue": 0,
+    "displayName": "MP FFA Gaalsi Wins"
+  },
+  {
+    "name": "STAT_MP_RETRIEVAL_COUNT_COALITION",
+    "defaultvalue": 0,
+    "displayName": "MP # of artifacts retrieved Coalition"
+  },
+  {
+    "name": "STAT_MP_RETRIEVAL_COUNT_GAALSI",
+    "defaultvalue": 0,
+    "displayName": "MP # of artifacts retrieved Gaalsi"
+  },
+  {
+    "name": "STAT_SP_SANDSKIMMER_KILLS",
+    "defaultvalue": 0,
+    "displayName": "Kill 500 Sandskimmers in Campaign"
+  },
+  {
+    "name": "STAT_RANKED_ELO",
+    "defaultvalue": 1500,
+    "displayName": "Rank ELO rating"
+  },
+  {
+    "name": "STAT_RANKED_1V1_WINS",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "STAT_RANKED_2V2_WINS",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "STAT_RANKED_3V3_WINS",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "STAT_RANKED_1V1_GAMESPLAYED",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "STAT_RANKED_2V2_GAMESPLAYED",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "STAT_RANKED_3V3_GAMESPLAYED",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "STAT_RANKED_1V1_REACTORS",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "STAT_RANKED_2V2_REACTORS",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "STAT_RANKED_3V3_REACTORS",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "STAT_RANKED_1V1_STREAK",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "STAT_RANKED_2V2_STREAK",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "STAT_RANKED_3V3_STREAK",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "STAT_RANKED_1V1_EFFICIENCY",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "STAT_RANKED_2V2_EFFICIENCY",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "STAT_RANKED_3V3_EFFICIENCY",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "STAT_RANKED_1V1_ELO",
+    "defaultvalue": 1500,
+    "displayName": ""
+  },
+  {
+    "name": "STAT_RANKED_2V2_ELO",
+    "defaultvalue": 1500,
+    "displayName": ""
+  },
+  {
+    "name": "STAT_RANKED_3V3_ELO",
+    "defaultvalue": 1500,
+    "displayName": ""
+  },
+  {
+    "name": "STAT_MP_CU_COLLECTED",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "STAT_MP_RU_COLLECTED",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "STAT_MP_REACTORS_COLLECTED",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "STAT_MP_UNITS_BUILT",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "STAT_MP_UNITS_LOST",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "STAT_MP_ENEMY_UNITS_DESTROYED",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "STAT_MP_ENEMY_CRUISERS_DESTROYED",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "STAT_MP_CARRIERS_DESTROYED",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "STAT_MP_RETRIEVAL_SOBAN",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "STAT_MP_ANNIHILATION_SOBAN",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "STAT_MP_C_ANNIHILATION_SOBAN",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "STAT_MP_RETRIEVAL_COUNT_SOBAN",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "STAT_MP_RETRIEVAL_KHAANEPH",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "STAT_MP_ANNIHILATION_KHAANEPH",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "STAT_MP_C_ANNIHILATION_KHAANEPH",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "STAT_MP_RETRIEVAL_COUNT_KHAANEPH",
+    "defaultvalue": 0,
+    "displayName": ""
   }
-}
+]

@@ -1,18 +1,22 @@
-﻿{
-  "175_1": {
-    "description": "ACHIEVEMENT_ACHIEVE_01",
-    "value": 0
+[
+  {
+    "name": "175_1",
+    "defaultvalue": 0,
+    "displayName": "ACHIEVEMENT_ACHIEVE_01"
   },
-  "175_2": {
-    "description": "ACHIEVEMENT_ACHIEVE_02",
-    "value": 0
+  {
+    "name": "175_2",
+    "defaultvalue": 0,
+    "displayName": "ACHIEVEMENT_ACHIEVE_02"
   },
-  "170_0": {
-    "description": "LEADER_BOARD",
-    "value": 0
+  {
+    "name": "170_0",
+    "defaultvalue": 0,
+    "displayName": "LEADER_BOARD"
   },
-  "175_0": {
-    "description": "ACHIEVEMENT_ACHIEVE_00",
-    "value": 0
+  {
+    "name": "175_0",
+    "defaultvalue": 0,
+    "displayName": "ACHIEVEMENT_ACHIEVE_00"
   }
-}
+]

@@ -1,102 +1,127 @@
-﻿{
-  "STATSCORE": {
-    "description": "Career score",
-    "value": 0
+[
+  {
+    "name": "STATSCORE",
+    "defaultvalue": 0,
+    "displayName": "Career score"
   },
-  "STATPLAYTIME": {
-    "description": "Flight hours",
-    "value": 0
+  {
+    "name": "STATPLAYTIME",
+    "defaultvalue": 0,
+    "displayName": "Flight hours"
   },
-  "STATMISSIONSFLOWN": {
-    "description": "Missions flown",
-    "value": 0
+  {
+    "name": "STATMISSIONSFLOWN",
+    "defaultvalue": 0,
+    "displayName": "Missions flown"
   },
-  "STATMISSIONSCOMPLETED": {
-    "description": "Missions completed",
-    "value": 0
+  {
+    "name": "STATMISSIONSCOMPLETED",
+    "defaultvalue": 0,
+    "displayName": "Missions completed"
   },
-  "STATMISSILESFIRED": {
-    "description": "Missiles fired",
-    "value": 0
+  {
+    "name": "STATMISSILESFIRED",
+    "defaultvalue": 0,
+    "displayName": "Missiles fired"
   },
-  "STATLIVESLOST": {
-    "description": "Lives lost",
-    "value": 0
+  {
+    "name": "STATLIVESLOST",
+    "defaultvalue": 0,
+    "displayName": "Lives lost"
   },
-  "STATKEYSCOLLECTED": {
-    "description": "Keys collected",
-    "value": 0
+  {
+    "name": "STATKEYSCOLLECTED",
+    "defaultvalue": 0,
+    "displayName": "Keys collected"
   },
-  "STATPOWERUPSCOLLECTED": {
-    "description": "Powerups collected",
-    "value": 0
+  {
+    "name": "STATPOWERUPSCOLLECTED",
+    "defaultvalue": 0,
+    "displayName": "Powerups collected"
   },
-  "STATFOODCOLLECTED": {
-    "description": "Food collected",
-    "value": 0
+  {
+    "name": "STATFOODCOLLECTED",
+    "defaultvalue": 0,
+    "displayName": "Food collected"
   },
-  "STATCOINSCOLLECTED": {
-    "description": "Coins collected",
-    "value": 0
+  {
+    "name": "STATCOINSCOLLECTED",
+    "defaultvalue": 0,
+    "displayName": "Coins collected"
   },
-  "MEDALWAVE30MULTIKILL": {
-    "description": "Medal of Annihilation",
-    "value": 0
+  {
+    "name": "MEDALWAVE30MULTIKILL",
+    "defaultvalue": 0,
+    "displayName": "Medal of Annihilation"
   },
-  "MEDALWAVE90COINS": {
-    "description": "Distinguished Green Greed Cross",
-    "value": 0
+  {
+    "name": "MEDALWAVE90COINS",
+    "defaultvalue": 0,
+    "displayName": "Distinguished Green Greed Cross"
   },
-  "MEDALWAVE90ACCURACY": {
-    "description": "Meritorious Marksmanship Award",
-    "value": 0
+  {
+    "name": "MEDALWAVE90ACCURACY",
+    "defaultvalue": 0,
+    "displayName": "Meritorious Marksmanship Award"
   },
-  "MEDALWAVE90FOOD": {
-    "description": "Medal of Great Appetite Achievement",
-    "value": 0
+  {
+    "name": "MEDALWAVE90FOOD",
+    "defaultvalue": 0,
+    "displayName": "Medal of Great Appetite Achievement"
   },
-  "MEDALPLANET90KILLRATIO": {
-    "description": "Chicken Hunter Medal of Excellence",
-    "value": 0
+  {
+    "name": "MEDALPLANET90KILLRATIO",
+    "defaultvalue": 0,
+    "displayName": "Chicken Hunter Medal of Excellence"
   },
-  "MEDALPLANETNODEATHS": {
-    "description": "Hard-Boiled Certificate of Merit",
-    "value": 0
+  {
+    "name": "MEDALPLANETNODEATHS",
+    "defaultvalue": 0,
+    "displayName": "Hard-Boiled Certificate of Merit"
   },
-  "MEDALPLANETNOMISSILES": {
-    "description": "Recognition Medal of Self-Restraint",
-    "value": 0
+  {
+    "name": "MEDALPLANETNOMISSILES",
+    "defaultvalue": 0,
+    "displayName": "Recognition Medal of Self-Restraint"
   },
-  "MEDALPLANETNOSATELLITES": {
-    "description": "Conspicuous \"No Help\" Commendation",
-    "value": 0
+  {
+    "name": "MEDALPLANETNOSATELLITES",
+    "defaultvalue": 0,
+    "displayName": "Conspicuous \"No Help\" Commendation"
   },
-  "MEDALPLANETNOPOWERUPS": {
-    "description": "Honourable \"Either Brave or Stupid\" Achievement Award",
-    "value": 0
+  {
+    "name": "MEDALPLANETNOPOWERUPS",
+    "defaultvalue": 0,
+    "displayName": "Honourable \"Either Brave or Stupid\" Achievement Award"
   },
-  "MEDALGAMENOMISSILES": {
-    "description": "Superior Budget Thriftiness Commendation Medal",
-    "value": 0
+  {
+    "name": "MEDALGAMENOMISSILES",
+    "defaultvalue": 0,
+    "displayName": "Superior Budget Thriftiness Commendation Medal"
   },
-  "MEDALGAMENOSATELLITES": {
-    "description": "Outstanding \"One Man Army\" Medal",
-    "value": 0
+  {
+    "name": "MEDALGAMENOSATELLITES",
+    "defaultvalue": 0,
+    "displayName": "Outstanding \"One Man Army\" Medal"
   },
-  "MEDALGAMENODEATHS": {
-    "description": "Greatest Chicken Hunter of All Time Award",
-    "value": 0
+  {
+    "name": "MEDALGAMENODEATHS",
+    "defaultvalue": 0,
+    "displayName": "Greatest Chicken Hunter of All Time Award"
   },
-  "MEDALWINDIFFICULTY0": {
-    "description": "Rookie Hero Campaign Trophy",
-    "value": 0
+  {
+    "name": "MEDALWINDIFFICULTY0",
+    "defaultvalue": 0,
+    "displayName": "Rookie Hero Campaign Trophy"
   },
-  "MEDALWINDIFFICULTY1": {
-    "description": "Veteran Chicken Hunter Campaign Trophy",
-    "value": 0
+  {
+    "name": "MEDALWINDIFFICULTY1",
+    "defaultvalue": 0,
+    "displayName": "Veteran Chicken Hunter Campaign Trophy"
   },
-  "MEDALWINDIFFICULTY2": {
-    "description": "\"I Eat Chickens for Breakfast\" Campaign Trophy",
-    "value": 0
+  {
+    "name": "MEDALWINDIFFICULTY2",
+    "defaultvalue": 0,
+    "displayName": "\"I Eat Chickens for Breakfast\" Campaign Trophy"
   }
-}
+]

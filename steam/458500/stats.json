@@ -1,106 +1,132 @@
-﻿{
-  "BumperHitCount": {
-    "description": "",
-    "value": 0
+[
+  {
+    "name": "BumperHitCount",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "BallLockedCount": {
-    "description": "",
-    "value": 0
+  {
+    "name": "BallLockedCount",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "GameStarted": {
-    "description": "",
-    "value": 0
+  {
+    "name": "GameStarted",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "HighScore": {
-    "description": "Best Score on any table",
-    "value": 0
+  {
+    "name": "HighScore",
+    "defaultvalue": 0,
+    "displayName": "Best Score on any table"
   },
-  "TablesUnlocked": {
-    "description": "Last Table Unlocked",
-    "value": 1
+  {
+    "name": "TablesUnlocked",
+    "defaultvalue": 1,
+    "displayName": "Last Table Unlocked"
   },
-  "TablesCompleted": {
-    "description": "Number of completed table",
-    "value": 0
+  {
+    "name": "TablesCompleted",
+    "defaultvalue": 0,
+    "displayName": "Number of completed table"
   },
-  "GamesStarted_Borsippa": {
-    "description": "",
-    "value": 0
+  {
+    "name": "GamesStarted_Borsippa",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "GamesStarted_Ekallatum": {
-    "description": "",
-    "value": 0
+  {
+    "name": "GamesStarted_Ekallatum",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "GamesStarted_Uruk": {
-    "description": "",
-    "value": 0
+  {
+    "name": "GamesStarted_Uruk",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "GamesStarted_Tuttul": {
-    "description": "",
-    "value": 0
+  {
+    "name": "GamesStarted_Tuttul",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "GamesStarted_Qattara": {
-    "description": "",
-    "value": 0
+  {
+    "name": "GamesStarted_Qattara",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "GamesStarted_Akkad": {
-    "description": "",
-    "value": 0
+  {
+    "name": "GamesStarted_Akkad",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "GamesStarted_Special": {
-    "description": "",
-    "value": 0
+  {
+    "name": "GamesStarted_Special",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "HighScore_Special": {
-    "description": "",
-    "value": 0
+  {
+    "name": "HighScore_Special",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "TablesCompleted_Borsippa": {
-    "description": "",
-    "value": 0
+  {
+    "name": "TablesCompleted_Borsippa",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "TablesCompleted_Ekallatum": {
-    "description": "",
-    "value": 0
+  {
+    "name": "TablesCompleted_Ekallatum",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "TablesCompleted_Uruk": {
-    "description": "",
-    "value": 0
+  {
+    "name": "TablesCompleted_Uruk",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "TablesCompleted_Tuttul": {
-    "description": "",
-    "value": 0
+  {
+    "name": "TablesCompleted_Tuttul",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "TablesCompleted_Qattara": {
-    "description": "",
-    "value": 0
+  {
+    "name": "TablesCompleted_Qattara",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "TablesCompleted_Akkad": {
-    "description": "",
-    "value": 0
+  {
+    "name": "TablesCompleted_Akkad",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "BonusWave": {
-    "description": "",
-    "value": 0
+  {
+    "name": "BonusWave",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "TablesCompletedInARow": {
-    "description": "",
-    "value": 0
+  {
+    "name": "TablesCompletedInARow",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "LockLite": {
-    "description": "",
-    "value": 0
+  {
+    "name": "LockLite",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "BallsLosedInMiniature": {
-    "description": "",
-    "value": 0
+  {
+    "name": "BallsLosedInMiniature",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "HighScore_All": {
-    "description": "",
-    "value": 0
+  {
+    "name": "HighScore_All",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "GamesStarted": {
-    "description": "",
-    "value": 0
+  {
+    "name": "GamesStarted",
+    "defaultvalue": 0,
+    "displayName": ""
   }
-}
+]

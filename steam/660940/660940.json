@@ -1,14 +1,9 @@
 {
-  "Dlcs": {},
-  "Name": "Law Mower",
-  "AppId": "660940",
-  "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/660940/header.jpg?t=1558683900",
-  "Languages": [
-    "english"
-  ],
-  "Platforms": {
-    "windows": true,
-    "mac": false,
-    "linux": false
+  "Dlcs": {
+    "1527760": {
+      "Name": "Law Mower Soundtrack",
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1527760/header.jpg?t=1611557260",
+      "Type": "music"
+    }
   }
 }

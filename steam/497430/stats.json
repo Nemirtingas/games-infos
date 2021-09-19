@@ -1,14 +1,17 @@
-﻿{
-  "missiles_fired": {
-    "description": "Missiles Fired",
-    "value": 0
+[
+  {
+    "name": "missiles_fired",
+    "defaultvalue": 0,
+    "displayName": "Missiles Fired"
   },
-  "khets_logged": {
-    "description": "Odometer",
-    "value": 0
+  {
+    "name": "khets_logged",
+    "defaultvalue": 0,
+    "displayName": "Odometer"
   },
-  "triple_pings": {
-    "description": "Triple Pings",
-    "value": 0
+  {
+    "name": "triple_pings",
+    "defaultvalue": 0,
+    "displayName": "Triple Pings"
   }
-}
+]

@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "name": "CHAIRS_DATE_10",
     "defaultvalue": 0,
@@ -202,7 +202,7 @@
     "defaultvalue": 0,
     "displayName": "No Chair Left Out",
     "hidden": 0,
-    "description": "Completed with every chair type",
+    "description": "Completed with every chair color & type",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1302800/d20761e9d807a215aeec31191727b5f351ee5cdb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1302800/d3b2b7b6491988de520a4cab16f2b47dc104ceb2.jpg"
   },
@@ -250,5 +250,21 @@
     "description": "Successfully impress The Chorus",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1302800/2a44ccc22d6b1620c949a3b153e848b1bde6ee3f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1302800/adb559344df95af52ca3937b14ee3ae13da5896e.jpg"
+  },
+  {
+    "name": "ENCOUNTER_MIMIC",
+    "defaultvalue": 0,
+    "displayName": "Catfished",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1302800/eeb9082d9011d2c7c470a4e8c54db73ce4768cfe.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1302800/f9c2621803af2dedf3b8c807e246cc5b69e9473a.jpg"
+  },
+  {
+    "name": "NUKE_ENDING",
+    "defaultvalue": 0,
+    "displayName": "Stop Worrying And Love The Chair",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1302800/03e9574c618d4de9893e38220c960182b95a48ee.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1302800/f1d6ad99add140a1c3a8668349b65fba94b729ae.jpg"
   }
 ]

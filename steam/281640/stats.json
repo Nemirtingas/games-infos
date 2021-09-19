@@ -1,94 +1,117 @@
-﻿{
-  "prg_items_gained_10": {
-    "description": "Rank 10 Items",
-    "value": 0
+[
+  {
+    "name": "prg_items_gained_10",
+    "defaultvalue": 0,
+    "displayName": "Rank 10 Items"
   },
-  "prg_battles_fought": {
-    "description": "Battles Fought",
-    "value": 0
+  {
+    "name": "prg_battles_fought",
+    "defaultvalue": 0,
+    "displayName": "Battles Fought"
   },
-  "prg_sneaky_kills": {
-    "description": "Stealty Kills",
-    "value": 0
+  {
+    "name": "prg_sneaky_kills",
+    "defaultvalue": 0,
+    "displayName": "Stealty Kills"
   },
-  "prg_training_1": {
-    "description": "Sven's Trainings",
-    "value": 0
+  {
+    "name": "prg_training_1",
+    "defaultvalue": 0,
+    "displayName": "Sven's Trainings"
   },
-  "prg_training_2": {
-    "description": "Holfi's Trainings",
-    "value": 0
+  {
+    "name": "prg_training_2",
+    "defaultvalue": 0,
+    "displayName": "Holfi's Trainings"
   },
-  "prg_demolition": {
-    "description": "Barricades Destroyed",
-    "value": 0
+  {
+    "name": "prg_demolition",
+    "defaultvalue": 0,
+    "displayName": "Barricades Destroyed"
   },
-  "prg_fighters": {
-    "description": "Fighters",
-    "value": 0
+  {
+    "name": "prg_fighters",
+    "defaultvalue": 0,
+    "displayName": "Fighters"
   },
-  "prg_eyeless_possess": {
-    "description": "Repossessions",
-    "value": 0
+  {
+    "name": "prg_eyeless_possess",
+    "defaultvalue": 0,
+    "displayName": "Repossessions"
   },
-  "prg_renown_gain": {
-    "description": "Renown Gained",
-    "value": 0
+  {
+    "name": "prg_renown_gain",
+    "defaultvalue": 0,
+    "displayName": "Renown Gained"
   },
-  "prg_battles_lost": {
-    "description": "Battles Lost",
-    "value": 0
+  {
+    "name": "prg_battles_lost",
+    "defaultvalue": 0,
+    "displayName": "Battles Lost"
   },
-  "prg_battles_won": {
-    "description": "Battles Won",
-    "value": 0
+  {
+    "name": "prg_battles_won",
+    "defaultvalue": 0,
+    "displayName": "Battles Won"
   },
-  "game_progress": {
-    "description": "Game Progress",
-    "value": 0
+  {
+    "name": "game_progress",
+    "defaultvalue": 0,
+    "displayName": "Game Progress"
   },
-  "prg_class_berserk": {
-    "description": "Berserker Kills",
-    "value": 0
+  {
+    "name": "prg_class_berserk",
+    "defaultvalue": 0,
+    "displayName": "Berserker Kills"
   },
-  "prg_class_shieldmaiden": {
-    "description": "Shieldmaiden Kills",
-    "value": 0
+  {
+    "name": "prg_class_shieldmaiden",
+    "defaultvalue": 0,
+    "displayName": "Shieldmaiden Kills"
   },
-  "prg_class_poet": {
-    "description": "Poet Kills",
-    "value": 0
+  {
+    "name": "prg_class_poet",
+    "defaultvalue": 0,
+    "displayName": "Poet Kills"
   },
-  "prg_class_horseborn_female": {
-    "description": "Cantref Kills",
-    "value": 0
+  {
+    "name": "prg_class_horseborn_female",
+    "defaultvalue": 0,
+    "displayName": "Cantref Kills"
   },
-  "prg_class_horseborn_male": {
-    "description": "Teulu Kills",
-    "value": 0
+  {
+    "name": "prg_class_horseborn_male",
+    "defaultvalue": 0,
+    "displayName": "Teulu Kills"
   },
-  "prg_class_axe_thrower": {
-    "description": "Axe Thrower Kills",
-    "value": 0
+  {
+    "name": "prg_class_axe_thrower",
+    "defaultvalue": 0,
+    "displayName": "Axe Thrower Kills"
   },
-  "prg_class_wanderer": {
-    "description": "Wanderer Kills",
-    "value": 0
+  {
+    "name": "prg_class_wanderer",
+    "defaultvalue": 0,
+    "displayName": "Wanderer Kills"
   },
-  "prg_class_zefr": {
-    "description": "Zefr Kills",
-    "value": 0
+  {
+    "name": "prg_class_zefr",
+    "defaultvalue": 0,
+    "displayName": "Zefr Kills"
   },
-  "prg_class_slaughterer": {
-    "description": "Slaughterer Kills",
-    "value": 0
+  {
+    "name": "prg_class_slaughterer",
+    "defaultvalue": 0,
+    "displayName": "Slaughterer Kills"
   },
-  "prg_class_tracker": {
-    "description": "Tracker Kills",
-    "value": 0
+  {
+    "name": "prg_class_tracker",
+    "defaultvalue": 0,
+    "displayName": "Tracker Kills"
   },
-  "prg_class_summoned_bear": {
-    "description": "War Bear Kills",
-    "value": 0
+  {
+    "name": "prg_class_summoned_bear",
+    "defaultvalue": 0,
+    "displayName": "War Bear Kills"
   }
-}
+]

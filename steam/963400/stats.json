@@ -1,34 +1,42 @@
-﻿{
-  "Deaths_Deaths": {
-    "description": "Deaths",
-    "value": 0
+[
+  {
+    "name": "Deaths_Deaths",
+    "defaultvalue": 0,
+    "displayName": "Deaths"
   },
-  "Logs_Logs": {
-    "description": "Logs Found",
-    "value": 0
+  {
+    "name": "Logs_Logs",
+    "defaultvalue": 0,
+    "displayName": "Logs Found"
   },
-  "Pills_Pills": {
-    "description": "Pills Taken",
-    "value": 0
+  {
+    "name": "Pills_Pills",
+    "defaultvalue": 0,
+    "displayName": "Pills Taken"
   },
-  "Batteries_Batteries": {
-    "description": "Batteries",
-    "value": 0
+  {
+    "name": "Batteries_Batteries",
+    "defaultvalue": 0,
+    "displayName": "Batteries"
   },
-  "EasyTime": {
-    "description": "Best Easy Win Time in Seconds",
-    "value": 0
+  {
+    "name": "EasyTime",
+    "defaultvalue": 0,
+    "displayName": "Best Easy Win Time in Seconds"
   },
-  "MedTime_MedTime": {
-    "description": "Best Medium Win Time in Seconds",
-    "value": 0
+  {
+    "name": "MedTime_MedTime",
+    "defaultvalue": 0,
+    "displayName": "Best Medium Win Time in Seconds"
   },
-  "HardTime": {
-    "description": "Best Hard Win Time in Seconds",
-    "value": 0
+  {
+    "name": "HardTime",
+    "defaultvalue": 0,
+    "displayName": "Best Hard Win Time in Seconds"
   },
-  "BlackTime": {
-    "description": "Best Blackout Win Time in Seconds",
-    "value": 0
+  {
+    "name": "BlackTime",
+    "defaultvalue": 0,
+    "displayName": "Best Blackout Win Time in Seconds"
   }
-}
+]

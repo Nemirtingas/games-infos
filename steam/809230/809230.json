@@ -1,17 +1,29 @@
 {
   "Dlcs": {
-    "1309670": {
-      "Name": "",
-      "ImageUrl": ""
-    },
     "1322670": {
       "Name": "Unity of Command II - Blitzkrieg",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/1322670/header.jpg?t=1600758893"
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1322670/header.jpg?t=1614592372",
+      "Type": "dlc"
+    },
+    "1493580": {
+      "Name": "Unity of Command II - Barbarossa",
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1493580/header.jpg?t=1619021359",
+      "Type": "dlc"
+    },
+    "1631480": {
+      "Name": "Unity of Command II - Moscow 41",
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1631480/header.jpg?t=1630426267",
+      "Type": "dlc"
+    },
+    "1309670": {
+      "Name": "Unity of Command II Soundtrack",
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1309670/header.jpg?t=1588839579",
+      "Type": "music"
     }
   },
   "Name": "Unity of Command II",
   "AppId": "809230",
-  "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/809230/header.jpg?t=1588841725",
+  "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/809230/header.jpg?t=1630346012",
   "Languages": [
     "english",
     "german",
@@ -20,7 +32,7 @@
   ],
   "Platforms": {
     "windows": true,
-    "mac": false,
+    "mac": true,
     "linux": false
   }
 }

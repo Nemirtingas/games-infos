@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "name": "Story_Zetterburn",
     "defaultvalue": 0,
@@ -139,7 +139,7 @@
     "defaultvalue": 0,
     "displayName": "The Ardent Rival",
     "hidden": 0,
-    "description": "Reach Level 10 with all 8 Abyss Characters",
+    "description": "Reach Level 10 with all 14 Abyss Characters",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/383980/e81b29eb6f68415389094dbb0757ad79902584ab.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/383980/bb31bf363d71ef063ebf8610217fc3d2884d8cf2.jpg"
   },
@@ -223,5 +223,68 @@
     "description": "Get a KO with Etalus' Up Special.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/383980/2e79ca2fe82db3f0978d2cc34471147a43742ef5.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/383980/76f267a2ee173194b0092a38f0e2a827e8646903.jpg"
+  },
+  {
+    "name": "Gameplay_Ori",
+    "defaultvalue": 0,
+    "displayName": "The Light of Nibel",
+    "hidden": 0,
+    "description": "Get a KO using Ori's Down Special",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/383980/930c7ff51ce93086588b2d214627c776a6facb9e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/383980/620c02963d535220a928b9d8881921d38fa8c0ab.jpg"
+  },
+  {
+    "name": "Gameplay_Ranno",
+    "defaultvalue": 0,
+    "displayName": "The Poisonous Storm",
+    "hidden": 0,
+    "description": "Get a KO with Ranno's Up Special",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/383980/6920544ca062526d7e914d3e24d22379d16fef6b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/383980/e921f98197ec25a1c3e160f68bc51799463b048b.jpg"
+  },
+  {
+    "name": "Gameplay_Clairen",
+    "defaultvalue": 0,
+    "displayName": "The Unlimited Reach",
+    "hidden": 0,
+    "description": "Get a KO with Clairen's Up Special",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/383980/c4755f2a0cf6294585fc95e82aec1735dc3e9c17.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/383980/d16ec7b1ad2630eb07ee39d0ee51dec4c54188e9.jpg"
+  },
+  {
+    "name": "Gameplay_Sylvanos",
+    "defaultvalue": 0,
+    "displayName": "The Relentless Seed",
+    "hidden": 0,
+    "description": "Get a KO with Sylvanos' Neutral Special",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/383980/615dfd6fc266c759842aa244e352c10af5978b82.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/383980/4ea248c27a041648f4414394e9d4bf794a2e50df.jpg"
+  },
+  {
+    "name": "Gameplay_Elliana",
+    "defaultvalue": 0,
+    "displayName": "The Steampunk Sniper",
+    "hidden": 0,
+    "description": "Get a KO with Elliana's Forward Special",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/383980/6af7bf63138928c54ccccaac30540c68f0a53a2d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/383980/714a6646298559317b3958a96a3f43118d00adc8.jpg"
+  },
+  {
+    "name": "Gameplay_Shovel_Knight",
+    "defaultvalue": 0,
+    "displayName": "The Deadly Catch",
+    "hidden": 0,
+    "description": "Get a KO with Shovel Knight's Down Special",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/383980/88201d15fcc4c0d72946d0e3e468acbfc8a53d41.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/383980/18ed748b48f039fd648995a8cae13125dd1042d1.jpg"
+  },
+  {
+    "name": "Workshop",
+    "defaultvalue": 0,
+    "displayName": "Endless Creativity",
+    "hidden": 0,
+    "description": "Download and play as a Workshop Character in any mode.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/383980/98f57144030c3be258ee6287773c6c85b3201a16.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/383980/99fe2c5745a5f7ffd2bb1157347991ed4e19f308.jpg"
   }
 ]

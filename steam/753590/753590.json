@@ -1,10 +1,18 @@
-﻿{
-  "Dlcs": {},
+{
+  "Dlcs": {
+    "1461510": {
+      "Name": "Hellbound - Mayhem Pack",
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1461510/header.jpg?t=1619824800",
+      "Type": "dlc"
+    }
+  },
   "Name": "Hellbound",
   "AppId": "753590",
-  "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/753590/header.jpg?t=1599434413",
+  "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/753590/header.jpg?t=1624475403",
   "Languages": [
-    "english"
+    "english",
+    "spanish",
+    "latam"
   ],
   "Platforms": {
     "windows": true,

@@ -1,12 +1,12 @@
 {
   "Dlcs": {
     "1299090": {
-      "Name": "DEEMO -Reborn- Prime Pack I",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/1299090/header.jpg?t=1599191319"
+      "Name": "",
+      "ImageUrl": ""
     },
     "1307540": {
-      "Name": "DEEMO -Reborn- Prime Pack II",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/1307540/header.jpg?t=1599191349"
+      "Name": "",
+      "ImageUrl": ""
     },
     "1316670": {
       "Name": "",
@@ -14,18 +14,38 @@
     },
     "1333390": {
       "Name": "DEEMO -Reborn- Prime Pack III",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/1333390/header.jpg?t=1599191357"
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1333390/header.jpg?t=1599191357",
+      "Type": "dlc"
+    },
+    "1453810": {
+      "Name": "",
+      "ImageUrl": ""
+    },
+    "1459820": {
+      "Name": "DEEMO -Reborn- Prime Pack IV",
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1459820/header.jpg?t=1612409843",
+      "Type": "dlc"
+    },
+    "1460620": {
+      "Name": "DEEMO -Reborn- Taiko no Tatsujin Collaboration Collection",
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1460620/header.jpg?t=1612429494",
+      "Type": "dlc"
     }
   },
   "Name": "DEEMO -Reborn-",
   "AppId": "1282210",
-  "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/1282210/header.jpg?t=1599796499",
+  "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1282210/header.jpg?t=1621934432",
   "Languages": [
     "english",
     "japanese",
     "tchinese",
     "korean",
-    "schinese"
+    "schinese",
+    "french",
+    "german",
+    "spanish",
+    "russian",
+    "portuguese"
   ],
   "Platforms": {
     "windows": true,

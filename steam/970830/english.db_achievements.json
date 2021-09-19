@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "name": "Chapter1",
     "defaultvalue": 0,
@@ -395,7 +395,7 @@
     "defaultvalue": 0,
     "displayName": "Livin' in a dwarven paradise",
     "hidden": 0,
-    "description": "Have 10.000 gold coins in your possession",
+    "description": "Have 10,000 gold coins in your possession",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/970830/2ff4f3325c4b91f96d6a8df3849f69ea49fd8c4e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/970830/934f27197a0541dbda5c92df6efc369d62aa72f4.jpg"
   },
@@ -478,15 +478,6 @@
     "description": "Get the Dwarf behind cover",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/970830/24e1e5b6925ce54e486eb6cb4bc3ac838b8242d8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/970830/01ab196df1e2af17635cb929d03ece48055b2469.jpg"
-  },
-  {
-    "name": "RangerLeader",
-    "defaultvalue": 0,
-    "displayName": "Born leader",
-    "hidden": 0,
-    "description": "Have the Ranger be the party leader for a whole chapter",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/970830/4a1c730aadd369f58f875b7e1a47533c68add89e.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/970830/de1d50583c250bf2cb59e4504e200aefe44a1ced.jpg"
   },
   {
     "name": "BarbarianKillUsingBow",
@@ -580,8 +571,32 @@
     "defaultvalue": 0,
     "displayName": "Dumb and dumber",
     "hidden": 0,
-    "description": "Choose the dumb answer 4 times",
+    "description": "Choose the dumb answer 3 times",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/970830/b1272dedbd6a72a31fd83133681146214c0272fb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/970830/c0d5319a70bbb804b7a3d54bfe8143b2453b7a8d.jpg"
+  },
+  {
+    "name": "DLC1ChooseNecro",
+    "defaultvalue": 0,
+    "displayName": "Necrophilia",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/970830/b3dff1ddf10085602290ca1e7388d26ae05bfc3c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/970830/3c35b314dea15aa8738a5b00005a34d7ec0e2ee8.jpg"
+  },
+  {
+    "name": "DLC1ChooseVampire",
+    "defaultvalue": 0,
+    "displayName": "The Blood Countess",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/970830/35209f5e6b0f47dcbd800d396ef066fd3603d7e3.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/970830/cbc0d71f933e464cc0e0ca168b3e07fae14a601c.jpg"
+  },
+  {
+    "name": "DLC1SummonTroll",
+    "defaultvalue": 0,
+    "displayName": "He’s alive! Aliiiive!",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/970830/9baef5b23ed7d0f3b98b27b1c16fcc1e609bd0aa.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/970830/bfe71b932cd00f90bcfb58211ff29213a08053e4.jpg"
   }
 ]

@@ -85,7 +85,7 @@
     "defaultvalue": 0,
     "displayName": "I Thirst!",
     "hidden": 0,
-    "description": "Have 20 concurrent water flasks!",
+    "description": "Have 10 concurrent water flasks!",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/976700/63360f2042ef0eb06b6d61ccaa1977cf01c7cbc2.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/976700/5c3751e4660bb4a74bbe114ec5562253bb454065.jpg"
   },
@@ -198,15 +198,6 @@
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/976700/3978e4495c52d2bc993c538694f84fb520597d74.jpg"
   },
   {
-    "name": "CHEM_PROC_TIME_30",
-    "defaultvalue": 0,
-    "displayName": "Chemical Processor Master!",
-    "hidden": 0,
-    "description": "Use Chemical Processor for more than 30 minutes!",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/976700/72fcb0fa483e17e7f1961295b31a164effce1248.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/976700/fccde85baf853c8277018aca627143a02c196c8f.jpg"
-  },
-  {
     "name": "CHEM_REVERTER_TIME_10",
     "defaultvalue": 0,
     "displayName": "Chemical Reverter Expert!",
@@ -214,15 +205,6 @@
     "description": "Use Chemical Reverter for more than 10 minutes!",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/976700/7752d3d8e9aac3699b1402c0a46d14774d8db704.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/976700/5a30eaf705791775d98b01278d68855d71c32954.jpg"
-  },
-  {
-    "name": "CHEM_REVERTER_TIME_30",
-    "defaultvalue": 0,
-    "displayName": "Chemical Reverter Master!",
-    "hidden": 0,
-    "description": "Use Chemical Reverter for more than 30 minutes!",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/976700/78b85f7e0c9cae858d2932023a4ab5c9035b1f80.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/976700/6e7e8477b3138e56b7c03f3c5a4599e16d531ebb.jpg"
   },
   {
     "name": "CODE_COMBINER_TIME_10",
@@ -234,15 +216,6 @@
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/976700/86a234dd25edb8dc81c48465c4c9150f6af20dfd.jpg"
   },
   {
-    "name": "CODE_COMBINER_TIME_30",
-    "defaultvalue": 0,
-    "displayName": "Code Combiner Master!",
-    "hidden": 0,
-    "description": "Use Code Combiner for more than 30 minutes!",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/976700/4244906e3f7e61ccae339f02de9cc1299b7c4229.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/976700/56781390522fa29084ae975a7b13cea5d154985c.jpg"
-  },
-  {
     "name": "MICROWAVE_TIME_10",
     "defaultvalue": 0,
     "displayName": "Microwave Expert!",
@@ -250,15 +223,6 @@
     "description": "Use Microwave for more than 10 minutes!",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/976700/587d15179a52a29b0d362b359d88f319e7d44c99.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/976700/3527e513569ab7e5ac6b8a7dd75cab569902c716.jpg"
-  },
-  {
-    "name": "MICROWAVE_TIME_30",
-    "defaultvalue": 0,
-    "displayName": "Microwave Master!",
-    "hidden": 0,
-    "description": "Use Microwave for more than 30 minutes!",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/976700/8df8d6a19c592e3dcf03ce2a84b38bc644150736.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/976700/a2b47a71f62807b74f0cb4fc029e9b4fe640e2c1.jpg"
   },
   {
     "name": "RESTORER_TIME_10",
@@ -270,12 +234,282 @@
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/976700/146555e5e959c2c20816aa589ef5f6157521ddb1.jpg"
   },
   {
-    "name": "RESTORER_TIME_30",
+    "name": "LABORATORY_1_FOUND_ALL_PICKUPS",
     "defaultvalue": 0,
-    "displayName": "Restorer Master!",
+    "displayName": "Pickups Laboratory 1!",
     "hidden": 0,
-    "description": "Use Restorer for more than 30 minutes!",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/976700/f735a92b4b708fda851c92b227d02116c406b814.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/976700/01fe61978e5326e4064ab90ff970a4dcd803e2b4.jpg"
+    "description": "Find all pickups in Laboratory 1!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/976700/956cbe38368768f1a5a8ab137c4c310ac6d33a6f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/976700/6e7e8477b3138e56b7c03f3c5a4599e16d531ebb.jpg"
+  },
+  {
+    "name": "LABORATORY_2_FOUND_ALL_PICKUPS",
+    "defaultvalue": 0,
+    "displayName": "Pickups Laboratory 2!",
+    "hidden": 0,
+    "description": "Find all pickups in Laboratory 2!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/976700/18a1633b57981c521f581eabaa57948bba4ccb52.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/976700/2b0414a79a60243e164ad43c69a51ec8207bcc47.jpg"
+  },
+  {
+    "name": "LABORATORY_3_FOUND_ALL_PICKUPS",
+    "defaultvalue": 0,
+    "displayName": "Pickups Laboratory 3!",
+    "hidden": 0,
+    "description": "Find all pickups in Laboratory 3!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/976700/72fcb0fa483e17e7f1961295b31a164effce1248.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/976700/fccde85baf853c8277018aca627143a02c196c8f.jpg"
+  },
+  {
+    "name": "LABORATORY_4_FOUND_ALL_PICKUPS",
+    "defaultvalue": 0,
+    "displayName": "Pickups Laboratory 4!",
+    "hidden": 0,
+    "description": "Find all pickups in Laboratory 4!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/976700/7af12c4b29539361c00777c97131ac0eec76086a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/976700/8d631e56a139a871e3beb5e7e4a0a101beef3ceb.jpg"
+  },
+  {
+    "name": "LABORATORIES_FOUND_ALL_PICKUPS",
+    "defaultvalue": 0,
+    "displayName": "Pickups Pro!",
+    "hidden": 0,
+    "description": "Find ALL pickups in ALL laboratories!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/976700/2d9929584feb593049d4af27147c0cd4f9e83662.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/976700/bd122c38673fcd1673c4e43a8842212985796ed7.jpg"
+  },
+  {
+    "name": "BREAK_ALL_MUGS_PLATES_GLASSES_IN_KITCHEN",
+    "defaultvalue": 0,
+    "displayName": "Breaker of Plates and Mugs!",
+    "hidden": 0,
+    "description": "Break all plates and mugs in the Kitchen!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/976700/59fdd1bb30f71df5b06c8135dcd8d12de791028e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/976700/1347bfabd6a209388f27532ad5c21189f3853cd3.jpg"
+  },
+  {
+    "name": "LOVE_ACHIEVEMENT_DO_NOT_RENAME",
+    "defaultvalue": 0,
+    "displayName": "Find Love!",
+    "hidden": 0,
+    "description": "Find love in the kitchen!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/976700/c9e162a7108b5e763ea212fc1fda94833f7fbd76.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/976700/8c3f81a4c80e6abf54bcfe91442313e5a0b0f38d.jpg"
+  },
+  {
+    "name": "FAIL1",
+    "defaultvalue": 0,
+    "displayName": "Whoops...",
+    "hidden": 0,
+    "description": "Shrink until you're too small!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/976700/5329ef06a2184b5290a8ed18b70f8f66895ae4de.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/976700/141e5b2af97583a24b554275eddf5ccb9766b478.jpg"
+  },
+  {
+    "name": "WON_TOTAL_10",
+    "defaultvalue": 0,
+    "displayName": "True Winner",
+    "hidden": 0,
+    "description": "Win 10 or more rounds!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/976700/7d2dfcd3f0dfe1a68c2b3b6290cadcb8288ce984.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/976700/2db49bb571b9052928302295eca4d63cebad5cd3.jpg"
+  },
+  {
+    "name": "LABORATORY_5_FOUND_ALL_PICKUPS",
+    "defaultvalue": 0,
+    "displayName": "Pickups Laboratory 5!",
+    "hidden": 0,
+    "description": "Find all pickups in Laboratory 5!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/976700/ccf47eab4c57b9250627bc5cbbad666bea7e0416.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/976700/255f5ad08c289c4cdd789be5460faabe3951cdae.jpg"
+  },
+  {
+    "name": "LABORATORY_6_FOUND_ALL_PICKUPS",
+    "defaultvalue": 0,
+    "displayName": "Pickups Laboratory 6!",
+    "hidden": 0,
+    "description": "Find all pickups in Laboratory 6!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/976700/6a08e0c0362844ef54cf9b9596a45912d1e723f3.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/976700/1ac6949ddf4b1c62ecaf22593161b64bb2b822ac.jpg"
+  },
+  {
+    "name": "AIRTIME_5SECONDS",
+    "defaultvalue": 0,
+    "displayName": "You airplane now",
+    "hidden": 0,
+    "description": "Spend more than 5 seconds in air without touching ground",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/976700/91bce48f0bf8258b08e2b98cd4f0d86e57d283dd.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/976700/c21f78e4d828883a31b92afc4b6b129f8df901bb.jpg"
+  },
+  {
+    "name": "ENLARGE_OBJECTS_MORE_THAN_3_IN_ROUND",
+    "defaultvalue": 0,
+    "displayName": "Croissant!",
+    "hidden": 0,
+    "description": "Enlarge 3 or more objects in a single round!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/976700/c5060bc09f8436a28281e6a41ee9bebaf2ac177b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/976700/2eff133e2568a4cd653f21cdb33c04d50342fc88.jpg"
+  },
+  {
+    "name": "WIN_ROUND_WITH_NO_PICKING_OBJECTS",
+    "defaultvalue": 0,
+    "displayName": "No Object - No Problem",
+    "hidden": 0,
+    "description": "Win a round without picking up any object other than ingredients",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/976700/746df77a174a56cf9c10dae4ff3fcd4ae2c5d400.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/976700/ba6df0c5ce1cdd984f7f8e560399d4a006b2f0f3.jpg"
+  },
+  {
+    "name": "WIN_ROUND_ON_ALL_LABORATORIES",
+    "defaultvalue": 0,
+    "displayName": "True Expert",
+    "hidden": 0,
+    "description": "Win at least one round on all available laboratories!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/976700/7f007817ea383751cf425970f6e523acce275618.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/976700/ba862ea4c963296b4a57fbbe60cbdd4d5d041607.jpg"
+  },
+  {
+    "name": "DRAWERS_OVER_1000",
+    "defaultvalue": 0,
+    "displayName": "Professional Drawer Opener",
+    "hidden": 0,
+    "description": "Open drawers and cabinets more than 1000 times!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/976700/1c56ca53e8490d8a8e2eaff130c9b88aa8ed2d2e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/976700/46a3addf5c3ab7bafb0268562d7af3b8ed16a564.jpg"
+  },
+  {
+    "name": "SPEND_1_MINUTE_IN_PLAYMENU",
+    "defaultvalue": 0,
+    "displayName": "So many choices!",
+    "hidden": 0,
+    "description": "Spend more than 1 minute in the play menu!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/976700/67ba0f40345fb55fac657566006900816e1be097.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/976700/efbaabdf6a31e0fc98ae5db9d555904938128541.jpg"
+  },
+  {
+    "name": "SPRING_CLEANING",
+    "defaultvalue": 0,
+    "displayName": "Spring Cleaning!",
+    "hidden": 0,
+    "description": "Empty out the fridge!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/976700/08e51dd96cb86c960cc6e5e9ab17b97dd66ddd07.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/976700/a23072a5793c5cf183abdcaf3643737657476403.jpg"
+  },
+  {
+    "name": "FIRST_TIME_RESTORER",
+    "defaultvalue": 0,
+    "displayName": "The Restorer",
+    "hidden": 0,
+    "description": "Successfully use the Restorer!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/976700/35f38cc0ecfb57a0b24125a1d61dd68049369d44.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/976700/d079c631f3a52436f3cb25d71623d12345f81b39.jpg"
+  },
+  {
+    "name": "OPEN_SAME_DRAWER_TEN_TIMES",
+    "defaultvalue": 0,
+    "displayName": "Uhhh... what are you looking for?",
+    "hidden": 0,
+    "description": "Open the same drawer 10 times!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/976700/b2d3e379a5f2638bfc9fdbb712f662625af5b8b3.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/976700/439e3e3748db47d104881a060f3fd316b729afbc.jpg"
+  },
+  {
+    "name": "SEVEN_MINUTES_WIN",
+    "defaultvalue": 0,
+    "displayName": "I AM SPEED",
+    "hidden": 0,
+    "description": "Win a round in under 7 minutes!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/976700/d621e7755b3bb69d110f0e878976ac9a088a009f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/976700/2d45d5d6bd9a3a49d4b7dae7f409f05690056fd5.jpg"
+  },
+  {
+    "name": "DEAD_ALIEN_LABORATORY_6",
+    "defaultvalue": 0,
+    "displayName": "Alien Encounters",
+    "hidden": 0,
+    "description": "Find an alien creature!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/976700/2494e104ee200db158ddffbe5ab5f41095876029.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/976700/fa926931cb8a23af6190f23c04784d3a06a2ea41.jpg"
+  },
+  {
+    "name": "CODE_COMBINER_CORRECT_CODE",
+    "defaultvalue": 0,
+    "displayName": "****",
+    "hidden": 0,
+    "description": "Enter a correct code into the Code Combiner!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/976700/884c1f78411f22bce7f779f8ca571db5f1698bd4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/976700/cfb294fa13e15a8c62fe929a9263a238202cc5a1.jpg"
+  },
+  {
+    "name": "HAVE_THREE_BROKEN_INGREDIENTS",
+    "defaultvalue": 0,
+    "displayName": "Klutz",
+    "hidden": 0,
+    "description": "Maybe try being a bit more careful? :(",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/976700/0dd2ad767ced90cfc73d2793475dc25b120ebca1.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/976700/0a50c1dbf5898b406518acdd56834518478ed684.jpg"
+  },
+  {
+    "name": "OPEN_ALL_DRAWERS_AT_LEAST_ONCE_IN_A_ROUND",
+    "defaultvalue": 0,
+    "displayName": "Snooping around?",
+    "hidden": 0,
+    "description": "Open all drawers in the laboratory at least once!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/976700/cdb825550295d6d7b6c58b466072b9dc0de9ba30.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/976700/448b47ec7cea19f7dfb6661ae5834cdc49b46d03.jpg"
+  },
+  {
+    "name": "NO_JUMPS_WIN",
+    "defaultvalue": 0,
+    "displayName": "Must. Not. Jump.",
+    "hidden": 0,
+    "description": "Finish the level without jumping!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/976700/23076bbd8a47b44fb199922b1b37adfa5911660e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/976700/c3c5b765424253ad8bc37a2c9af5036cd03ded12.jpg"
+  },
+  {
+    "name": "DONT_TOUCH_FLOOR_WITH_INGREDIENTS_OR_FORMULAS",
+    "defaultvalue": 0,
+    "displayName": "Is the floor dirty? ",
+    "hidden": 0,
+    "description": "Finish the level without formulas and ingredients touching the floor!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/976700/03822c80f2485f098abbfe62dff78e445e25cf43.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/976700/78e6819d029f7dce2d2817f5810ec6d75fa9d354.jpg"
+  },
+  {
+    "name": "1_5_METER",
+    "defaultvalue": 0,
+    "displayName": "Do you even shrink? ",
+    "hidden": 0,
+    "description": "Finish the level with 1.5 meters height left or more!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/976700/27f5ae26622ae5fbe28138be46c4414d830c28a5.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/976700/8c9447a7749ce9ce623fe05255b57ecc0a6f0a9f.jpg"
+  },
+  {
+    "name": "JUMP_IN_GREEN_PLASTIC_BIN",
+    "defaultvalue": 0,
+    "displayName": "PLASTIC GREEN BIN",
+    "hidden": 0,
+    "description": "Get inside the green plastic bin!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/976700/52477675ee00984c135a171e958e68d61bb571ab.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/976700/4bf0d13b49d6d547917b3cfe8952b32e85173028.jpg"
+  },
+  {
+    "name": "PLAYER_ENTERED_MICROWAVE",
+    "defaultvalue": 0,
+    "displayName": "Not Good For Your Health",
+    "hidden": 0,
+    "description": "Get hit by ~microwaves~!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/976700/132b150a3fee22e033441e41e0c9e4ee67e3ce0d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/976700/e8c43ecbf89efd268784f9d2e8f87dfd1eb8ef43.jpg"
+  },
+  {
+    "name": "FINISH_LEVEL_WITH_MAX_PROCESSING_TIMES",
+    "defaultvalue": 0,
+    "displayName": "The Lab Equipment Needs An Upgrade!",
+    "hidden": 0,
+    "description": "Finish the level with all \"Processing Time\" sliders to the max!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/976700/32cb76661ab64c81fc1d76f47c439420bb22a9b1.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/976700/82ebb7a87b5c8b4ace296e03d83bd23d184abe20.jpg"
   }
 ]

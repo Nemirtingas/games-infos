@@ -1,39 +1,24 @@
 {
   "Dlcs": {
-    "323650": {
-      "Name": "BLACKHOLE: Complete Edition Upgrade",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/323650/header.jpg?t=1539689455"
-    },
-    "322700": {
-      "Name": "BLACKHOLE: Testing Laboratory",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/322700/header.jpg?t=1539689569"
+    "487520": {
+      "Name": "BLACKHOLE: Challenge Vault",
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/487520/header.jpg?t=1539689413",
+      "Type": "dlc"
     },
     "445920": {
       "Name": "BLACKHOLE: Original Soundtrack",
       "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/445920/header.jpg?t=1602497420",
       "Type": "music"
     },
-    "487520": {
-      "Name": "BLACKHOLE: Challenge Vault",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/487520/header.jpg?t=1539689413"
+    "322700": {
+      "Name": "BLACKHOLE: Testing Laboratory",
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/322700/header.jpg?t=1602155587",
+      "Type": "dlc"
+    },
+    "323650": {
+      "Name": "BLACKHOLE: Complete Edition Upgrade",
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/323650/header.jpg?t=1602156027",
+      "Type": "dlc"
     }
-  },
-  "Name": "BLACKHOLE",
-  "AppId": "322680",
-  "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/322680/header.jpg?t=1598877882",
-  "Languages": [
-    "english",
-    "czech",
-    "spanish",
-    "french",
-    "italian",
-    "german",
-    "polish",
-    "russian"
-  ],
-  "Platforms": {
-    "windows": true,
-    "mac": true,
-    "linux": true
   }
 }

@@ -1,23 +1,14 @@
 {
   "Dlcs": {
     "1266230": {
-      "Name": "",
-      "ImageUrl": ""
+      "Name": "In Other Waters Soundtrack",
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1266230/header.jpg?t=1599773720",
+      "Type": "music"
     },
     "1278300": {
       "Name": "In Other Waters: A Study of Gliese 667Cc",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/1278300/header.jpg?t=1599773707"
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1278300/header.jpg?t=1599773707",
+      "Type": "dlc"
     }
-  },
-  "Name": "In Other Waters",
-  "AppId": "890720",
-  "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/890720/header.jpg?t=1594948403",
-  "Languages": [
-    "english"
-  ],
-  "Platforms": {
-    "windows": true,
-    "mac": true,
-    "linux": false
   }
 }

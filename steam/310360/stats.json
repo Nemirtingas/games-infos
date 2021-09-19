@@ -1,14 +1,17 @@
-﻿{
-  "started_game": {
-    "description": "Started game",
-    "value": 0
+[
+  {
+    "name": "started_game",
+    "defaultvalue": 0,
+    "displayName": "Started game"
   },
-  "play_time": {
-    "description": "Play Time",
-    "value": 0
+  {
+    "name": "play_time",
+    "defaultvalue": 0,
+    "displayName": "Play Time"
   },
-  "finished_game": {
-    "description": "Finished Game",
-    "value": 0
+  {
+    "name": "finished_game",
+    "defaultvalue": 0,
+    "displayName": "Finished Game"
   }
-}
+]

@@ -1,58 +1,72 @@
-﻿{
-  "QUESTS": {
-    "description": "",
-    "value": 0
+[
+  {
+    "name": "QUESTS",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "SHIPJOURNEYS": {
-    "description": "",
-    "value": 0
+  {
+    "name": "SHIPJOURNEYS",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "PARROTSUSED": {
-    "description": "",
-    "value": 0
+  {
+    "name": "PARROTSUSED",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "MONKEYSUSED": {
-    "description": "",
-    "value": 0
+  {
+    "name": "MONKEYSUSED",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "DRINKGAMESWON": {
-    "description": "",
-    "value": 0
+  {
+    "name": "DRINKGAMESWON",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "KNIFEGAMESWON": {
-    "description": "",
-    "value": 0
+  {
+    "name": "KNIFEGAMESWON",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "LOCKSPICKED": {
-    "description": "",
-    "value": 0
+  {
+    "name": "LOCKSPICKED",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "TREASURESDIGGED": {
-    "description": "",
-    "value": 0
+  {
+    "name": "TREASURESDIGGED",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "WRESTLINGSWON": {
-    "description": "",
-    "value": 0
+  {
+    "name": "WRESTLINGSWON",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "KILLEDMONSTER": {
-    "description": "",
-    "value": 0
+  {
+    "name": "KILLEDMONSTER",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "KILLEDSCAVENGERS": {
-    "description": "",
-    "value": 0
+  {
+    "name": "KILLEDSCAVENGERS",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "KILLEDSHADOWS": {
-    "description": "",
-    "value": 0
+  {
+    "name": "KILLEDSHADOWS",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "KILLEDAMBIENT": {
-    "description": "",
-    "value": 0
+  {
+    "name": "KILLEDAMBIENT",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "GOLD": {
-    "description": "",
-    "value": 0
+  {
+    "name": "GOLD",
+    "defaultvalue": 0,
+    "displayName": ""
   }
-}
+]

@@ -30,7 +30,8 @@
     "name": "ACH_AC_CLEAR",
     "defaultvalue": 0,
     "displayName": "Word Which Must Not Be Called",
-    "hidden": 1,
+    "hidden": 0,
+    "description": "Win the \"Assassin's Cruise\" Scenario.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/334310/c5fa1b2ef130be3586343c5af65eb3cfbeac11b5.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/334310/f6bed0f628331ae39a9a5a81cbbb07dc3756eff0.jpg"
   },
@@ -38,7 +39,8 @@
     "name": "ACH_KOH_CLEAR",
     "defaultvalue": 0,
     "displayName": "Nothing, Everything",
-    "hidden": 1,
+    "hidden": 0,
+    "description": "Win the \"Kingdom of Jannah\" Scenario.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/334310/57bb53bd021742ab7fbfd13875ab5cf726c70dfb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/334310/da3c611c2f91e346eb12902c053cc3cc5a8bd8b3.jpg"
   },
@@ -849,5 +851,86 @@
     "description": "Go bankrupt at \"Ship Pal\".",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/334310/24e7be941e9af57033634335e2009ec0aca50937.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/334310/5be5dbafad176f58ca6d257b6146f4e8336385cd.jpg"
+  },
+  {
+    "name": "ACH_RANDOM_CLEAR_HUNTER",
+    "defaultvalue": 0,
+    "displayName": "Conquer The Hunters!",
+    "hidden": 0,
+    "description": "Win the Land of Chaos mode in \"The Hunters\".",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/334310/529fff798790becd468a385feaaf1ab83967d574.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/334310/08fbb0af367aab61404957bd8de1165b51fa2788.jpg"
+  },
+  {
+    "name": "ACH_RANDOM_CLEAR_FRACTAL",
+    "defaultvalue": 0,
+    "displayName": "Conquer Butterfly!",
+    "hidden": 0,
+    "description": "Win the Land of Chaos mode in \"Butterfly\".",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/334310/54162035dcf8aed3f4f50df730ed05518d203274.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/334310/9176a8f385777286aba126e99c85d4ec63315fd2.jpg"
+  },
+  {
+    "name": "ACH_RANDOM_CLEAR_CHINA",
+    "defaultvalue": 0,
+    "displayName": "Conquer Rivalry of Local Barons!",
+    "hidden": 0,
+    "description": "Win the Land of Chaos mode in \"Rivalry of Local Barons\".",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/334310/f14f9c16fe10f1bfa70468480550d6898ea9a292.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/334310/475bad9595c368920cee511df58b154a696255fd.jpg"
+  },
+  {
+    "name": "ACH_RANDOM_CLEAR_RING",
+    "defaultvalue": 0,
+    "displayName": "Conquer Ring World!",
+    "hidden": 0,
+    "description": "Win the Land of Chaos mode in \"Ring World\".",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/334310/29b735498bbd36acc89d41ad54235069ff741e79.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/334310/0e31eb66d66226389487241b6972dd305f25cc54.jpg"
+  },
+  {
+    "name": "ACH_RANDOM_CLEAR_GALAXY",
+    "defaultvalue": 0,
+    "displayName": "Conquer Spiral Galaxy!",
+    "hidden": 0,
+    "description": "Win the Land of Chaos mode in \"Spiral Galaxy\".",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/334310/3b3c4b8af032bf09cc9dc2c61426c09ae65c62cc.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/334310/5afd68d4e884f891d7b64cd637a6c5d5ae32fc58.jpg"
+  },
+  {
+    "name": "ACH_RANDOM_CLEAR_RELIGION",
+    "defaultvalue": 0,
+    "displayName": "Conquer Holy Land!",
+    "hidden": 0,
+    "description": "Win the Land of Chaos mode in \"Holy Land\".",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/334310/2b9480c5ec4325f283cf52af5cf57412181827dd.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/334310/49e650657c3e61194453305c0211dc2e450e2827.jpg"
+  },
+  {
+    "name": "ACH_RANDOM_CLEAR_ILLUMINATI",
+    "defaultvalue": 0,
+    "displayName": "Conquer Total Cyanide!",
+    "hidden": 0,
+    "description": "Win the Land of Chaos mode in \"Total Cyanide\".",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/334310/19e5c099959b20fe6dc9d4c2c27b93307e4cd8f2.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/334310/fd98f2461e15531143217d96ac85e5b697f7c13f.jpg"
+  },
+  {
+    "name": "ACH_CONTENTS_CHEST_CAPITAL",
+    "defaultvalue": 0,
+    "displayName": "Transfer Capital",
+    "hidden": 0,
+    "description": "Use the blessing \"Transfer Capital\".",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/334310/d612cf5270426bb36c670294d4857a472c60c721.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/334310/5104a826d82c4d62e8589cdfc422d0d02356fc71.jpg"
+  },
+  {
+    "name": "ACH_CONTENTS_CHEST_BAD",
+    "defaultvalue": 0,
+    "displayName": "Light and Shadow",
+    "hidden": 0,
+    "description": "Use the blessing and go through a hardship.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/334310/06585700373066a8eb44f2f60711fdb6a1dbac1a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/334310/1a9b90aae7498d4ae0ccddc61a3104e9d4911664.jpg"
   }
 ]

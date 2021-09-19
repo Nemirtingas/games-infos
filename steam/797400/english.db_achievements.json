@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "name": "ACH_RRC_TUTORIAL_DONE",
     "defaultvalue": 0,
@@ -94,7 +94,7 @@
     "defaultvalue": 0,
     "displayName": "Tough lumberjack",
     "hidden": 0,
-    "description": "Complete Wonderful Forest Challenge on the hardest difficulty level",
+    "description": "Complete Wonderful Forest Challenge on hard difficulty level",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/797400/b9146a967b543430ec3c53a17f424e5edadb35ae.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/797400/f28d9146ca74837a19e3d9a6978d878b9035ac7a.jpg"
   },
@@ -103,7 +103,7 @@
     "defaultvalue": 0,
     "displayName": "Timber!!!",
     "hidden": 0,
-    "description": "Complete Wonderful Forest Challenge on the normal difficulty level",
+    "description": "Complete Wonderful Forest Challenge on normal difficulty level",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/797400/e9277bc09f98a756a5aea4fe27c0d7e0b07cb4f2.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/797400/f28d9146ca74837a19e3d9a6978d878b9035ac7a.jpg"
   },
@@ -112,7 +112,7 @@
     "defaultvalue": 0,
     "displayName": "Here is your reward!",
     "hidden": 0,
-    "description": "Complete Wonderful Forest Challenge on the easy difficulty level",
+    "description": "Complete Wonderful Forest Challenge on easy difficulty level",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/797400/6e31f519f2a323e29f28a1ab28f22821d2b250f9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/797400/83f1f5a5e4381a78a198162c73fc9029b1fb1f8f.jpg"
   },
@@ -121,7 +121,7 @@
     "defaultvalue": 0,
     "displayName": "Santa Claus",
     "hidden": 0,
-    "description": "Complete Christmas Rush Challenge on the hard difficulty level",
+    "description": "Complete Christmas Rush Challenge on hard difficulty level",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/797400/d0f2acca27bbd26d6064aea831a40838da3ba6ea.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/797400/f28d9146ca74837a19e3d9a6978d878b9035ac7a.jpg"
   },
@@ -130,7 +130,7 @@
     "defaultvalue": 0,
     "displayName": "Elf",
     "hidden": 0,
-    "description": "Complete Christmas Rush Challenge on the normal difficulty level",
+    "description": "Complete Christmas Rush Challenge on normal difficulty level",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/797400/d26362038f470b8e0f8829901e0b5e9e2fef8e69.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/797400/f28d9146ca74837a19e3d9a6978d878b9035ac7a.jpg"
   },
@@ -139,7 +139,7 @@
     "defaultvalue": 0,
     "displayName": "Snowman",
     "hidden": 0,
-    "description": "Complete Christmas Rush Challenge on the easy difficulty level",
+    "description": "Complete Christmas Rush Challenge on easy difficulty level",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/797400/5ccc05ca55ed67977a6ff7f35cdf00495fa55a9c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/797400/f28d9146ca74837a19e3d9a6978d878b9035ac7a.jpg"
   },
@@ -344,7 +344,7 @@
   {
     "name": "ACH_RRC_COMPLETE_DLC_CW",
     "defaultvalue": 0,
-    "displayName": "Victory",
+    "displayName": "Victory!",
     "hidden": 0,
     "description": "Win the Battle of Shiloh",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/797400/1fdad63db5b90f2885dbadba3b3c7d9548aa5e20.jpg",
@@ -389,10 +389,172 @@
   {
     "name": "ACH_RRC_100_PYRITE",
     "defaultvalue": 0,
-    "displayName": "Le Petite Prince de Pyryt",
+    "displayName": "Le Petit Prince de Pyryt",
     "hidden": 0,
     "description": "Deliver 100 Pyryt in one mission",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/797400/0168383af76b9efe829bd5e98ee3b19c517e9555.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/797400/3b7f2881c4a7e62d32b9f66af664503999a9c544.jpg"
+  },
+  {
+    "name": "ACH_RRC_COMPLETE_DLC_CHPA",
+    "defaultvalue": 0,
+    "displayName": "Eradication",
+    "hidden": 0,
+    "description": "Complete the Yellow Fever challenge",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/797400/5653accf43d1ca670c293eca62b6702d27d779a0.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/797400/f28d9146ca74837a19e3d9a6978d878b9035ac7a.jpg"
+  },
+  {
+    "name": "ACH_RRC_VACCINE_FOUND_DLC_CHPA",
+    "defaultvalue": 0,
+    "displayName": "Innoculation Anticipation",
+    "hidden": 0,
+    "description": "Develop the vaccine",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/797400/a79f7433bfe84252d1f03bffe6f7c3323e493ac2.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/797400/f28d9146ca74837a19e3d9a6978d878b9035ac7a.jpg"
+  },
+  {
+    "name": "ACH_RRC_FIRST_MEDCINE_DLC_CHPA",
+    "defaultvalue": 0,
+    "displayName": "Mercy Dash",
+    "hidden": 0,
+    "description": "The First shipment of medicines has been received",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/797400/b354c5a6088ff47a0f47940fe4c12ffc89eada6c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/797400/83f1f5a5e4381a78a198162c73fc9029b1fb1f8f.jpg"
+  },
+  {
+    "name": "ACH_RRC_VACCINE_USED_DLC_CHPA",
+    "defaultvalue": 0,
+    "displayName": "Protected Province",
+    "hidden": 0,
+    "description": "Protect the first city from Yellow Fever",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/797400/81d02975aedf44aa8c73843891e32125ed3d95f4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/797400/83f1f5a5e4381a78a198162c73fc9029b1fb1f8f.jpg"
+  },
+  {
+    "name": "ACH_RRC_ANY_COMPLETION_COOP_TOWNPROSPERITY",
+    "defaultvalue": 0,
+    "displayName": "The Shining City",
+    "hidden": 0,
+    "description": "Complete the City Prosperity scenario",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/797400/bbeba6a68fe993b20d3a3b0789347a5546a81acb.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/797400/f28d9146ca74837a19e3d9a6978d878b9035ac7a.jpg"
+  },
+  {
+    "name": "ACH_RRC_ANY_COMPLETION_COOP_SHIPBUILDING",
+    "defaultvalue": 0,
+    "displayName": "Weigh Anchor!",
+    "hidden": 0,
+    "description": "Complete the Shipyard scenario",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/797400/79cec281be0d5eb3633ddc8c25f9cc9c2cfde0bd.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/797400/83f1f5a5e4381a78a198162c73fc9029b1fb1f8f.jpg"
+  },
+  {
+    "name": "ACH_RRC_FAST_COMPLETION_COOP_TOWNPROSPERITY",
+    "defaultvalue": 0,
+    "displayName": "Paved with Gold",
+    "hidden": 0,
+    "description": "Complete the City Prosperity scenario in 700 days",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/797400/8976538bbf4a4f855c5687fb0fbf062c2cc268e7.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/797400/f28d9146ca74837a19e3d9a6978d878b9035ac7a.jpg"
+  },
+  {
+    "name": "ACH_RRC_FAST_COMPLETION_COOP_SHIPBUILDING",
+    "defaultvalue": 0,
+    "displayName": "A Fair Wind in the Sails",
+    "hidden": 0,
+    "description": "Complete the Shipyard scenario in 1000 days",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/797400/d038d8f9b2498b5718a7a6ffc7788a23f9e48914.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/797400/83f1f5a5e4381a78a198162c73fc9029b1fb1f8f.jpg"
+  },
+  {
+    "name": "ACH_RRC_1M_CHUM",
+    "defaultvalue": 0,
+    "displayName": "Commercial Success",
+    "hidden": 0,
+    "description": "Complete Volatile Markets challenge on easy difficulty level",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/797400/ef0e695926fefe929f9e1a9d41ab336b6236bb90.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/797400/ce54b23f283d48f9e509fc619d5e92b75ec15859.jpg"
+  },
+  {
+    "name": "ACH_RRC_2M_CHUM",
+    "defaultvalue": 0,
+    "displayName": "Business as usual",
+    "hidden": 0,
+    "description": "Complete Volatile Markets challenge on normal difficulty level",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/797400/8fb39a79da6a5d82e02651025f492e7fe6127dc3.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/797400/3b7f2881c4a7e62d32b9f66af664503999a9c544.jpg"
+  },
+  {
+    "name": "ACH_RRC_3M_CHUM",
+    "defaultvalue": 0,
+    "displayName": "High Achiever",
+    "hidden": 0,
+    "description": "Complete Volatile Markets challenge on hard difficulty level",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/797400/47572e69a3564980abdf038e7cb5c3d8f8ace47d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/797400/3b7f2881c4a7e62d32b9f66af664503999a9c544.jpg"
+  },
+  {
+    "name": "ACH_RRC_1M_CHUM_COOP",
+    "defaultvalue": 0,
+    "displayName": "Joint Venture",
+    "hidden": 0,
+    "description": "Complete Volatile Markets challenge on easy difficulty level in cooperative mode",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/797400/6b960bd203c781fe87b8cba3a76bec0cd7fd33fd.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/797400/3b7f2881c4a7e62d32b9f66af664503999a9c544.jpg"
+  },
+  {
+    "name": "ACH_RRC_2M_CHUM_COOP",
+    "defaultvalue": 0,
+    "displayName": "Business Partners",
+    "hidden": 0,
+    "description": "Complete Volatile Markets challenge on normal difficulty level cooperative mode",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/797400/41351b4bcb52cf955daf23ee8d0ff8c07cb6c4c2.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/797400/ce54b23f283d48f9e509fc619d5e92b75ec15859.jpg"
+  },
+  {
+    "name": "ACH_RRC_3M_CHUM_COOP",
+    "defaultvalue": 0,
+    "displayName": "Life Partners",
+    "hidden": 0,
+    "description": "Complete Volatile Markets challenge on hard difficulty level cooperative mode",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/797400/a12dd79bf3e5748dae64040988bd0b791543e5cd.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/797400/3b7f2881c4a7e62d32b9f66af664503999a9c544.jpg"
+  },
+  {
+    "name": "ACH_RRC_WIN_CHALLENGE_LOCOLIMIT_EASY",
+    "defaultvalue": 0,
+    "displayName": "Pleasing the teller",
+    "hidden": 0,
+    "description": "All or Nothing challenge has been completed on easy difficulty!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/797400/94e92d81ee2634d5c942e561bea7822b5d41cc0b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/797400/83f1f5a5e4381a78a198162c73fc9029b1fb1f8f.jpg"
+  },
+  {
+    "name": "ACH_RRC_WIN_CHALLENGE_LOCOLIMIT_NORMAL",
+    "defaultvalue": 0,
+    "displayName": "Satisfying the usurer",
+    "hidden": 0,
+    "description": "All or Nothing challenge has been completed on normal difficulty!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/797400/6072389873574c8dd4224ab2d1e8c535ffdf34f9.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/797400/83f1f5a5e4381a78a198162c73fc9029b1fb1f8f.jpg"
+  },
+  {
+    "name": "ACH_RRC_WIN_CHALLENGE_LOCOLIMIT_HARD",
+    "defaultvalue": 0,
+    "displayName": "Feeding the loan shark",
+    "hidden": 0,
+    "description": "All or Nothing challenge has been completed on hard difficulty!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/797400/787fedfae8e8470a8f17415e671ccded2fe7529d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/797400/83f1f5a5e4381a78a198162c73fc9029b1fb1f8f.jpg"
+  },
+  {
+    "name": "ACH_RRC_WIN_CHALLENGE_LOCOLIMIT_COOP",
+    "defaultvalue": 0,
+    "displayName": "Managing the money-lender",
+    "hidden": 0,
+    "description": "All or Nothing challenge has been completed in cooperative mode!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/797400/562ebe463dfd9a657fb52a92010a5919f34242bc.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/797400/83f1f5a5e4381a78a198162c73fc9029b1fb1f8f.jpg"
   }
 ]

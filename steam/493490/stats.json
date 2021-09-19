@@ -1,198 +1,247 @@
-﻿{
-  "RECORDS_COUNT_STATISTICS": {
-    "description": "Количество сеансов вождения, для которых включена запись",
-    "value": 0
+[
+  {
+    "name": "RECORDS_COUNT_STATISTICS",
+    "defaultvalue": 0,
+    "displayName": "Количество сеансов вождения, для которых включена запись"
   },
-  "COMPLETE_ROUTES_STATISTICS": {
-    "description": "Количество завершенных маршрутов.",
-    "value": 0
+  {
+    "name": "COMPLETE_ROUTES_STATISTICS",
+    "defaultvalue": 0,
+    "displayName": "Количество завершенных маршрутов."
   },
-  "LOW_TRAFFIC_NO_VIOLATION_STATISTICS": {
-    "description": "Статистика, которая показывает, сколько километров пройдено без нарушений. Статистика должна иметь возможность обновления не только в верх, но и вниз",
-    "value": 0
+  {
+    "name": "LOW_TRAFFIC_NO_VIOLATION_STATISTICS",
+    "defaultvalue": 0,
+    "displayName": "Статистика, которая показывает, сколько километров пройдено без нарушений. Статистика должна иметь возможность обновления не только в верх, но и вниз"
   },
-  "LAST_SESSION_TIME_STATISTICS": {
-    "description": "Статистика, которая считает время последней сессии. Эта статистика должна иметь возможность произвольного обновления",
-    "value": 0
+  {
+    "name": "LAST_SESSION_TIME_STATISTICS",
+    "defaultvalue": 0,
+    "displayName": "Статистика, которая считает время последней сессии. Эта статистика должна иметь возможность произвольного обновления"
   },
-  "DANGEROUS_MANEUVER_EVASION_STATISTICS": {
-    "description": "Необходимо реализовать статистику, которая подсчитывает количество уклонений от \"Опасного выезда на встречку\" (IT_OvertakingTraffic)",
-    "value": 0
+  {
+    "name": "DANGEROUS_MANEUVER_EVASION_STATISTICS",
+    "defaultvalue": 0,
+    "displayName": "Необходимо реализовать статистику, которая подсчитывает количество уклонений от \"Опасного выезда на встречку\" (IT_OvertakingTraffic)"
   },
-  "EMERGENCY_BRAKING_STATISTICS": {
-    "description": "Реализовываем статистику, которая подсчитывает количество уклонений от нештатки \"Экстренная остановка трафика (IT_StopTraffic)",
-    "value": 0
+  {
+    "name": "EMERGENCY_BRAKING_STATISTICS",
+    "defaultvalue": 0,
+    "displayName": "Реализовываем статистику, которая подсчитывает количество уклонений от нештатки \"Экстренная остановка трафика (IT_StopTraffic)"
   },
-  "NO_PEDESTRIAN_KICKDOWN_STATISTICS": {
-    "description": "Статистика, которая подсчитывает количество успешных завершений нештатки \"Переход пешехода в неположенном месте\" (IT_RunPedestrian)",
-    "value": 0
+  {
+    "name": "NO_PEDESTRIAN_KICKDOWN_STATISTICS",
+    "defaultvalue": 0,
+    "displayName": "Статистика, которая подсчитывает количество успешных завершений нештатки \"Переход пешехода в неположенном месте\" (IT_RunPedestrian)"
   },
-  "RUSSIA_MILEAGE_STATISTICS": {
-    "description": "Статистика показывает количество километров, которые пользователь проехал по дорогам в профиле \"Россия\"",
-    "value": 0
+  {
+    "name": "RUSSIA_MILEAGE_STATISTICS",
+    "defaultvalue": 0,
+    "displayName": "Статистика показывает количество километров, которые пользователь проехал по дорогам в профиле \"Россия\""
   },
-  "USA_MILEAGE_STATISTICS": {
-    "description": "То же самое, но для профиля \"США\", но не в километрах, а в милях",
-    "value": 0
+  {
+    "name": "USA_MILEAGE_STATISTICS",
+    "defaultvalue": 0,
+    "displayName": "То же самое, но для профиля \"США\", но не в километрах, а в милях"
   },
-  "AUSTRALIA_MILEAGE_STATISTICS": {
-    "description": "Километраж, в профиле \"Австралия\"",
-    "value": 0
+  {
+    "name": "AUSTRALIA_MILEAGE_STATISTICS",
+    "defaultvalue": 0,
+    "displayName": "Километраж, в профиле \"Австралия\""
   },
-  "EU_MILEAGE_STATISTICS": {
-    "description": "Километраж в профиле \"Евросоюз\"",
-    "value": 0
+  {
+    "name": "EU_MILEAGE_STATISTICS",
+    "defaultvalue": 0,
+    "displayName": "Километраж в профиле \"Евросоюз\""
   },
-  "GERMANY_MILEAGE_STATISTICS": {
-    "description": "Километраж в профиле \"Германия\"",
-    "value": 0
+  {
+    "name": "GERMANY_MILEAGE_STATISTICS",
+    "defaultvalue": 0,
+    "displayName": "Километраж в профиле \"Германия\""
   },
-  "playTimes": {
-    "description": "Количество запусков",
-    "value": 0
+  {
+    "name": "playTimes",
+    "defaultvalue": 0,
+    "displayName": "Количество запусков"
   },
-  "play2Times": {
-    "description": "Тест для проверки инкремента",
-    "value": 0
+  {
+    "name": "play2Times",
+    "defaultvalue": 0,
+    "displayName": "Тест для проверки инкремента"
   },
-  "CommonGameTime": {
-    "description": "Общее время в игре",
-    "value": 0
+  {
+    "name": "CommonGameTime",
+    "defaultvalue": 0,
+    "displayName": "Общее время в игре"
   },
-  "SessionsPerGameAvg": {
-    "description": "Количество запущенных сеансов вождения за период от запуска игры до выхода из нее",
-    "value": 0
+  {
+    "name": "SessionsPerGameAvg",
+    "defaultvalue": 0,
+    "displayName": "Количество запущенных сеансов вождения за период от запуска игры до выхода из нее"
   },
-  "VRModeGameTime": {
-    "description": "Время в игре в VR",
-    "value": 0
+  {
+    "name": "VRModeGameTime",
+    "defaultvalue": 0,
+    "displayName": "Время в игре в VR"
   },
-  "StockCarsDrivingTime": {
-    "description": "Общее время вождения на стоковых автомобилях",
-    "value": 0
+  {
+    "name": "StockCarsDrivingTime",
+    "defaultvalue": 0,
+    "displayName": "Общее время вождения на стоковых автомобилях"
   },
-  "ModCarsDrivingTime": {
-    "description": "Общее время вождения на модовых автомобилях",
-    "value": 0
+  {
+    "name": "ModCarsDrivingTime",
+    "defaultvalue": 0,
+    "displayName": "Общее время вождения на модовых автомобилях"
   },
-  "RussiaMileage": {
-    "description": "Наезженный километраж в РФ",
-    "value": 0
+  {
+    "name": "RussiaMileage",
+    "defaultvalue": 0,
+    "displayName": "Наезженный километраж в РФ"
   },
-  "USAMileage": {
-    "description": "Наезженный километраж в США",
-    "value": 0
+  {
+    "name": "USAMileage",
+    "defaultvalue": 0,
+    "displayName": "Наезженный километраж в США"
   },
-  "NewCityMileage": {
-    "description": "Километраж в Новом городе",
-    "value": 0
+  {
+    "name": "NewCityMileage",
+    "defaultvalue": 0,
+    "displayName": "Километраж в Новом городе"
   },
-  "Traffic_0_50_Time": {
-    "description": "Время вождения при плотности трафика 0-50%",
-    "value": 0
+  {
+    "name": "Traffic_0_50_Time",
+    "defaultvalue": 0,
+    "displayName": "Время вождения при плотности трафика 0-50%"
   },
-  "Traffic_50_100_Time": {
-    "description": "Время вождения при плотности трафика 50-100%",
-    "value": 0
+  {
+    "name": "Traffic_50_100_Time",
+    "defaultvalue": 0,
+    "displayName": "Время вождения при плотности трафика 50-100%"
   },
-  "Pedestrians_0_50_Time": {
-    "description": "Время вождения при плотности пешеходного трафика 0-50%",
-    "value": 0
+  {
+    "name": "Pedestrians_0_50_Time",
+    "defaultvalue": 0,
+    "displayName": "Время вождения при плотности пешеходного трафика 0-50%"
   },
-  "Pedestrians_50_100_Time": {
-    "description": "Время вождения при плотности пешеходного трафика 50-100%",
-    "value": 0
+  {
+    "name": "Pedestrians_50_100_Time",
+    "defaultvalue": 0,
+    "displayName": "Время вождения при плотности пешеходного трафика 50-100%"
   },
-  "KeyboardDriving_Time": {
-    "description": "Время вождения на клавиатуре",
-    "value": 0
+  {
+    "name": "KeyboardDriving_Time",
+    "defaultvalue": 0,
+    "displayName": "Время вождения на клавиатуре"
   },
-  "WheelDriving_Time": {
-    "description": "Время вождения на «Руле»",
-    "value": 0
+  {
+    "name": "WheelDriving_Time",
+    "defaultvalue": 0,
+    "displayName": "Время вождения на «Руле»"
   },
-  "Complete_Normal_Counter": {
-    "description": "Общее количество завершенных упражнений в режиме «Обычный»",
-    "value": 0
+  {
+    "name": "Complete_Normal_Counter",
+    "defaultvalue": 0,
+    "displayName": "Общее количество завершенных упражнений в режиме «Обычный»"
   },
-  "Failed_Normal_Counter": {
-    "description": "Общее количество проваленных упражнений в режиме «Обычный»",
-    "value": 0
+  {
+    "name": "Failed_Normal_Counter",
+    "defaultvalue": 0,
+    "displayName": "Общее количество проваленных упражнений в режиме «Обычный»"
   },
-  "Complete_Advanced_Counter": {
-    "description": "Общее количество завершенных упражнений в режиме «Продвинутый»",
-    "value": 0
+  {
+    "name": "Complete_Advanced_Counter",
+    "defaultvalue": 0,
+    "displayName": "Общее количество завершенных упражнений в режиме «Продвинутый»"
   },
-  "Failed_Advanced_Counter": {
-    "description": "Общее количество проваленных упражнений в режиме «Продвинутый»",
-    "value": 0
+  {
+    "name": "Failed_Advanced_Counter",
+    "defaultvalue": 0,
+    "displayName": "Общее количество проваленных упражнений в режиме «Продвинутый»"
   },
-  "MegaTesterStat1": {
-    "description": "Количество запусков тестовой версии",
-    "value": 0
+  {
+    "name": "MegaTesterStat1",
+    "defaultvalue": 0,
+    "displayName": "Количество запусков тестовой версии"
   },
-  "Test_Statistics_2": {
-    "description": "Статистика для проверки сброса при переименовании.",
-    "value": 0
+  {
+    "name": "Test_Statistics_2",
+    "defaultvalue": 0,
+    "displayName": "Статистика для проверки сброса при переименовании."
   },
-  "OldCityMileage": {
-    "description": "Километраж в Старом городе",
-    "value": 0
+  {
+    "name": "OldCityMileage",
+    "defaultvalue": 0,
+    "displayName": "Километраж в Старом городе"
   },
-  "AustraliaMileage": {
-    "description": "Километраж в Австралии",
-    "value": 0
+  {
+    "name": "AustraliaMileage",
+    "defaultvalue": 0,
+    "displayName": "Километраж в Австралии"
   },
-  "EuropeMileage": {
-    "description": "Наезженный километраж в Евросоюзе",
-    "value": 0
+  {
+    "name": "EuropeMileage",
+    "defaultvalue": 0,
+    "displayName": "Наезженный километраж в Евросоюзе"
   },
-  "GermanMileage": {
-    "description": "Километраж в Германии",
-    "value": 0
+  {
+    "name": "GermanMileage",
+    "defaultvalue": 0,
+    "displayName": "Километраж в Германии"
   },
-  "RussiaMileageInt": {
-    "description": "Наезженный километраж в РФ",
-    "value": 0
+  {
+    "name": "RussiaMileageInt",
+    "defaultvalue": 0,
+    "displayName": "Наезженный километраж в РФ"
   },
-  "USAMileageInt": {
-    "description": "Наезженный километраж в США",
-    "value": 0
+  {
+    "name": "USAMileageInt",
+    "defaultvalue": 0,
+    "displayName": "Наезженный километраж в США"
   },
-  "EuropeMileageInt": {
-    "description": "Наезженный километраж в Евросоюзе",
-    "value": 0
+  {
+    "name": "EuropeMileageInt",
+    "defaultvalue": 0,
+    "displayName": "Наезженный километраж в Евросоюзе"
   },
-  "GermanMileageInt": {
-    "description": "Километраж в Германии",
-    "value": 0
+  {
+    "name": "GermanMileageInt",
+    "defaultvalue": 0,
+    "displayName": "Километраж в Германии"
   },
-  "AustraliaMileageInt": {
-    "description": "Километраж в Австралии",
-    "value": 0
+  {
+    "name": "AustraliaMileageInt",
+    "defaultvalue": 0,
+    "displayName": "Километраж в Австралии"
   },
-  "OldCityMileageInt": {
-    "description": "Километраж в Старом городе",
-    "value": 0
+  {
+    "name": "OldCityMileageInt",
+    "defaultvalue": 0,
+    "displayName": "Километраж в Старом городе"
   },
-  "NewCityMileageInt": {
-    "description": "Километраж в Новом городе",
-    "value": 0
+  {
+    "name": "NewCityMileageInt",
+    "defaultvalue": 0,
+    "displayName": "Километраж в Новом городе"
   },
-  "EXPERIENCED_DRIVER_STATISTICS": {
-    "description": "Количество успешно завершённых пассажирских перевозок",
-    "value": 0
+  {
+    "name": "EXPERIENCED_DRIVER_STATISTICS",
+    "defaultvalue": 0,
+    "displayName": "Количество успешно завершённых пассажирских перевозок"
   },
-  "RELIABLE_CARGO_DRIVER_STATISTICS": {
-    "description": "Количество успешно завершённых малогабаритных грузоперевозок",
-    "value": 0
+  {
+    "name": "RELIABLE_CARGO_DRIVER_STATISTICS",
+    "defaultvalue": 0,
+    "displayName": "Количество успешно завершённых малогабаритных грузоперевозок"
   },
-  "CANADA_MILEAGE_STATISTICS": {
-    "description": "Километраж, в профиле \"Канада\"",
-    "value": 0
+  {
+    "name": "CANADA_MILEAGE_STATISTICS",
+    "defaultvalue": 0,
+    "displayName": "Километраж, в профиле \"Канада\""
   },
-  "CanadaMileageInt": {
-    "description": "Километраж в Канаде",
-    "value": 0
+  {
+    "name": "CanadaMileageInt",
+    "defaultvalue": 0,
+    "displayName": "Километраж в Канаде"
   }
-}
+]

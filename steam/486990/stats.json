@@ -1,22 +1,27 @@
-﻿{
-  "STAT_NUM_PUNCH_STAT_NUM_PUNCH": {
-    "description": "Punches Thrown",
-    "value": 0
+[
+  {
+    "name": "STAT_NUM_PUNCH_STAT_NUM_PUNCH",
+    "defaultvalue": 0,
+    "displayName": "Punches Thrown"
   },
-  "STAT_NUM_JUMP_STAT_NUM_JUMP": {
-    "description": "Times Jumped",
-    "value": 0
+  {
+    "name": "STAT_NUM_JUMP_STAT_NUM_JUMP",
+    "defaultvalue": 0,
+    "displayName": "Times Jumped"
   },
-  "STAT_TEAM_SCORE_STAT_TEAM_SCORE": {
-    "description": "Total Team Score",
-    "value": 0
+  {
+    "name": "STAT_TEAM_SCORE_STAT_TEAM_SCORE",
+    "defaultvalue": 0,
+    "displayName": "Total Team Score"
   },
-  "STAT_PIES_EATTEN_STAT_PIES_EATTEN": {
-    "description": "Pies Eatten",
-    "value": 0
+  {
+    "name": "STAT_PIES_EATTEN_STAT_PIES_EATTEN",
+    "defaultvalue": 0,
+    "displayName": "Pies Eatten"
   },
-  "STAT_BARRIERS_BROKEN_STAT_BARRIERS_BROKEN": {
-    "description": "Barriers Broken",
-    "value": 0
+  {
+    "name": "STAT_BARRIERS_BROKEN_STAT_BARRIERS_BROKEN",
+    "defaultvalue": 0,
+    "displayName": "Barriers Broken"
   }
-}
+]

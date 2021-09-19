@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "name": "BIOME_REACHED_COURTYARD",
     "defaultvalue": 0,
@@ -621,18 +621,18 @@
   {
     "name": "BIOME_REACHED_DISTILLERY",
     "defaultvalue": 0,
-    "displayName": "Cheers! ",
+    "displayName": "Cheers!",
     "hidden": 0,
-    "description": "You have reached the Distillery for the first time!",
+    "description": "Reach the Derelict Distillery for the first time!",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/588650/40ceac56f4d531259009be5d96a1e66a2ffdb25d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/588650/db5372061f43b3ed6b0d53bd9f84f63dfeb7c3d9.jpg"
   },
   {
     "name": "FEAT_FINISHLEVEL_NOLAUNCHER",
     "defaultvalue": 0,
-    "displayName": "Born sapper ",
+    "displayName": "Born sapper",
     "hidden": 0,
-    "description": "You completed the Distillery without using the Barrel Launcher!",
+    "description": "You completed the Derelict Distillery without using the Barrel Launcher!",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/588650/b120b508b61f995bcfad9a024a230d7d12432500.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/588650/14356e25ce310714736289769c18c411629eab8d.jpg"
   },
@@ -644,5 +644,111 @@
     "description": "You killed an Infected Worker with his own barrel!",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/588650/e49489029dfaf7277cfe9804b0aeb4ff4948ae8f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/588650/cb8a00d6647aadf1939c5de60d12f273461a5458.jpg"
+  },
+  {
+    "name": "BIOME_REACHED_GARDENER",
+    "defaultvalue": 0,
+    "displayName": "Blades N' Roses",
+    "hidden": 0,
+    "description": "Reach the Mausoleum for the first time.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/588650/dbe34771762904cc8cf7cfd214552c02d07e2a51.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/588650/a2ec0ae52c0c5288297ce72c78c762003fe65b08.jpg"
+  },
+  {
+    "name": "BIOME_REACHED_CLIFF",
+    "defaultvalue": 0,
+    "displayName": "Beware the step!",
+    "hidden": 0,
+    "description": "Reach the Undying Shores for the first time.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/588650/b082be84c16c32a283240caff2121ab184c9286d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/588650/a5145712427934209dc1dd3b7fdc2c88f1362cf6.jpg"
+  },
+  {
+    "name": "BIOME_REACHED_TUMULUS",
+    "defaultvalue": 0,
+    "displayName": "Sky Fall",
+    "hidden": 0,
+    "description": "Reach the Fractured Shrines for the first time.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/588650/2854dd01996ca29935449c93b2cee578559fd5bb.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/588650/13e4d7047a6f72978d3647f192366eca039cca6c.jpg"
+  },
+  {
+    "name": "FIGHT_BEAT_GARDENER_NOBOUNCE",
+    "defaultvalue": 0,
+    "displayName": "In mushroom, we trust.",
+    "hidden": 0,
+    "description": "Defeat the Scarecrow without bouncing on any mushrooms.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/588650/f14dcf580bafde13b4bb8d1d290189717af71898.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/588650/bd78648d438fbde09a2d95d4a992f6c5d50a1c09.jpg"
+  },
+  {
+    "name": "FIGHT_BEAT_GARDENER",
+    "defaultvalue": 0,
+    "displayName": "Watering Time!",
+    "hidden": 0,
+    "description": "You beat the Scarecrow!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/588650/7263b9ecc54628400e70587a517b9936335db070.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/588650/e7680b1ca3062ed175d6d21937b740cade55312e.jpg"
+  },
+  {
+    "name": "FIGHT_BEAT_GARDENER_NODAMAGE",
+    "defaultvalue": 0,
+    "displayName": "Green thumbs",
+    "hidden": 0,
+    "description": "You beat the Scarecrow without taking a single hit!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/588650/bc32fddab234630d093ce188745ca3f07009a34d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/588650/e7680b1ca3062ed175d6d21937b740cade55312e.jpg"
+  },
+  {
+    "name": "FEAT_NECROMANT_REVIVE_3_MOBS",
+    "defaultvalue": 0,
+    "displayName": "First aid",
+    "hidden": 0,
+    "description": "Let an Apostate revive at least 3 souls.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/588650/71bd41878c7dd665d95d10442717612062278d5a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/588650/b4737ec608258f17f642934fff55f3e00f794e6c.jpg"
+  },
+  {
+    "name": "FEAT_FLYINGSWORD_JEALOUSY",
+    "defaultvalue": 0,
+    "displayName": "Me, jealous?",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/588650/9f9011af101063c67a3c9bf862a97864def5441e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/588650/eb14fa01cf2a67c608d4cf8f6a668e698cb72c9b.jpg"
+  },
+  {
+    "name": "FEAT_LIGHTNING_WATER_KILL",
+    "defaultvalue": 0,
+    "displayName": "Pool Party",
+    "hidden": 0,
+    "description": "Electrify an enemy with the Lightning Rods while they are in water.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/588650/8f02be3697de0ebcac37f00af1898e5118a664b0.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/588650/4e0554548758698a87fee931259f17bbf5cf5e01.jpg"
+  },
+  {
+    "name": "FEAT_COMBO_SICKLES",
+    "defaultvalue": 0,
+    "displayName": "A cut above",
+    "hidden": 0,
+    "description": "Defeat at least 5 enemies in a row with the Scarecrow's Sickles.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/588650/dcacff7a7ee502598b65fc29caa7eb4573916b1d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/588650/18909a070a083289ab726d71106f7e820ceecc8f.jpg"
+  },
+  {
+    "name": "FEAT_PENDULO_TRAP_KILL",
+    "defaultvalue": 0,
+    "displayName": "Trapped Trapper",
+    "hidden": 0,
+    "description": "Trap an enemy using the Fractured Shrines environment!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/588650/1aec079643aa1358a797645b946607ca73bbbea1.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/588650/e47967a73148cbbf85ab7f149baf58f77c356c45.jpg"
+  },
+  {
+    "name": "FEAT_COSTUME_REQUIRED",
+    "defaultvalue": 0,
+    "displayName": "The cowl does not make the monk",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/588650/eb7b6de67826a36b03a01b173d295d363ec2daa4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/588650/74edb75e104b05a099d637883a2e94e4473ebb58.jpg"
   }
 ]

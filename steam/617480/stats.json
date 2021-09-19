@@ -1,54 +1,67 @@
-﻿{
-  "battles_played": {
-    "description": "Battles Played",
-    "value": 0
+[
+  {
+    "name": "battles_played",
+    "defaultvalue": 0,
+    "displayName": "Battles Played"
   },
-  "battles_won": {
-    "description": "Battles Won",
-    "value": 0
+  {
+    "name": "battles_won",
+    "defaultvalue": 0,
+    "displayName": "Battles Won"
   },
-  "battles_withdrawn": {
-    "description": "Battles Withdrawn",
-    "value": 0
+  {
+    "name": "battles_withdrawn",
+    "defaultvalue": 0,
+    "displayName": "Battles Withdrawn"
   },
-  "enemies_killed": {
-    "description": "Enemies Killed",
-    "value": 0
+  {
+    "name": "enemies_killed",
+    "defaultvalue": 0,
+    "displayName": "Enemies Killed"
   },
-  "gold_gained": {
-    "description": "Gold Gained",
-    "value": 0
+  {
+    "name": "gold_gained",
+    "defaultvalue": 0,
+    "displayName": "Gold Gained"
   },
-  "heroes_unlocked": {
-    "description": "Heroes Unlocked",
-    "value": 0
+  {
+    "name": "heroes_unlocked",
+    "defaultvalue": 0,
+    "displayName": "Heroes Unlocked"
   },
-  "steps_traveled": {
-    "description": "Steps Traveled",
-    "value": 0
+  {
+    "name": "steps_traveled",
+    "defaultvalue": 0,
+    "displayName": "Steps Traveled"
   },
-  "skills_used": {
-    "description": "Skills Used",
-    "value": 0
+  {
+    "name": "skills_used",
+    "defaultvalue": 0,
+    "displayName": "Skills Used"
   },
-  "items_crafted": {
-    "description": "Items Crafted",
-    "value": 0
+  {
+    "name": "items_crafted",
+    "defaultvalue": 0,
+    "displayName": "Items Crafted"
   },
-  "items_enchanted": {
-    "description": "Items Enchanted",
-    "value": 0
+  {
+    "name": "items_enchanted",
+    "defaultvalue": 0,
+    "displayName": "Items Enchanted"
   },
-  "upgrades_applied": {
-    "description": "Upgrades Applied",
-    "value": 0
+  {
+    "name": "upgrades_applied",
+    "defaultvalue": 0,
+    "displayName": "Upgrades Applied"
   },
-  "crystals_transmuted": {
-    "description": "Crystals Transmuted",
-    "value": 0
+  {
+    "name": "crystals_transmuted",
+    "defaultvalue": 0,
+    "displayName": "Crystals Transmuted"
   },
-  "unlocked_playthrough_modes": {
-    "description": "Unlocked Playthroughs",
-    "value": 1
+  {
+    "name": "unlocked_playthrough_modes",
+    "defaultvalue": 1,
+    "displayName": "Unlocked Playthroughs"
   }
-}
+]

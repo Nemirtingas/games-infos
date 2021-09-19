@@ -1,154 +1,197 @@
-﻿{
-  "time_played": {
-    "description": "Time played",
-    "value": 0
+[
+  {
+    "name": "time_played",
+    "defaultvalue": 0,
+    "displayName": "Time played"
   },
-  "distance_ran": {
-    "description": "Distance ran",
-    "value": 0
+  {
+    "name": "distance_ran",
+    "defaultvalue": 0,
+    "displayName": "Distance ran"
   },
-  "distance_ridden": {
-    "description": "Distance ridden",
-    "value": 0
+  {
+    "name": "distance_ridden",
+    "defaultvalue": 0,
+    "displayName": "Distance ridden"
   },
-  "deaths": {
-    "description": "Deaths",
-    "value": 0
+  {
+    "name": "deaths",
+    "defaultvalue": 0,
+    "displayName": "Deaths"
   },
-  "damage_dealt": {
-    "description": "Damage dealt",
-    "value": 0
+  {
+    "name": "damage_dealt",
+    "defaultvalue": 0,
+    "displayName": "Damage dealt"
   },
-  "damage_taken": {
-    "description": "Damage taken",
-    "value": 0
+  {
+    "name": "damage_taken",
+    "defaultvalue": 0,
+    "displayName": "Damage taken"
   },
-  "island_travels": {
-    "description": "Island travels",
-    "value": 0
+  {
+    "name": "island_travels",
+    "defaultvalue": 0,
+    "displayName": "Island travels"
   },
-  "islands_discovered": {
-    "description": "Islands discovered",
-    "value": 0
+  {
+    "name": "islands_discovered",
+    "defaultvalue": 0,
+    "displayName": "Islands discovered"
   },
-  "objects_mined": {
-    "description": "Objects mined",
-    "value": 0
+  {
+    "name": "objects_mined",
+    "defaultvalue": 0,
+    "displayName": "Objects mined"
   },
-  "objects_placed": {
-    "description": "Objects placed",
-    "value": 0
+  {
+    "name": "objects_placed",
+    "defaultvalue": 0,
+    "displayName": "Objects placed"
   },
-  "tiles_mined": {
-    "description": "Tiles mined",
-    "value": 0
+  {
+    "name": "tiles_mined",
+    "defaultvalue": 0,
+    "displayName": "Tiles mined"
   },
-  "tiles_placed": {
-    "description": "Tiles placed",
-    "value": 0
+  {
+    "name": "tiles_placed",
+    "defaultvalue": 0,
+    "displayName": "Tiles placed"
   },
-  "potions_consumed": {
-    "description": "Potions consumed",
-    "value": 0
+  {
+    "name": "potions_consumed",
+    "defaultvalue": 0,
+    "displayName": "Potions consumed"
   },
-  "fish_caught": {
-    "description": "Fish caught",
-    "value": 0
+  {
+    "name": "fish_caught",
+    "defaultvalue": 0,
+    "displayName": "Fish caught"
   },
-  "money_earned": {
-    "description": "Money earned",
-    "value": 0
+  {
+    "name": "money_earned",
+    "defaultvalue": 0,
+    "displayName": "Money earned"
   },
-  "items_sold": {
-    "description": "Items sold",
-    "value": 0
+  {
+    "name": "items_sold",
+    "defaultvalue": 0,
+    "displayName": "Items sold"
   },
-  "money_spent": {
-    "description": "Money spent",
-    "value": 0
+  {
+    "name": "money_spent",
+    "defaultvalue": 0,
+    "displayName": "Money spent"
   },
-  "items_bought": {
-    "description": "Items bought",
-    "value": 0
+  {
+    "name": "items_bought",
+    "defaultvalue": 0,
+    "displayName": "Items bought"
   },
-  "telepads_used": {
-    "description": "Telepads used",
-    "value": 0
+  {
+    "name": "telepads_used",
+    "defaultvalue": 0,
+    "displayName": "Telepads used"
   },
-  "ladders_used": {
-    "description": "Ladders used",
-    "value": 0
+  {
+    "name": "ladders_used",
+    "defaultvalue": 0,
+    "displayName": "Ladders used"
   },
-  "doors_used": {
-    "description": "Doors used",
-    "value": 0
+  {
+    "name": "doors_used",
+    "defaultvalue": 0,
+    "displayName": "Doors used"
   },
-  "plates_triggered": {
-    "description": "Plates triggered",
-    "value": 0
+  {
+    "name": "plates_triggered",
+    "defaultvalue": 0,
+    "displayName": "Plates triggered"
   },
-  "levers_flicked": {
-    "description": "Levers flicked",
-    "value": 0
+  {
+    "name": "levers_flicked",
+    "defaultvalue": 0,
+    "displayName": "Levers flicked"
   },
-  "crafted_items": {
-    "description": "Items crafted",
-    "value": 0
+  {
+    "name": "crafted_items",
+    "defaultvalue": 0,
+    "displayName": "Items crafted"
   },
-  "crates_broken": {
-    "description": "Crates broken",
-    "value": 0
+  {
+    "name": "crates_broken",
+    "defaultvalue": 0,
+    "displayName": "Crates broken"
   },
-  "items_obtained": {
-    "description": "Unique items obtained",
-    "value": 0
+  {
+    "name": "items_obtained",
+    "defaultvalue": 0,
+    "displayName": "Unique items obtained"
   },
-  "mob_kills": {
-    "description": "Mob kills",
-    "value": 0
+  {
+    "name": "mob_kills",
+    "defaultvalue": 0,
+    "displayName": "Mob kills"
   },
-  "boss_kills": {
-    "description": "Boss kills",
-    "value": 0
+  {
+    "name": "boss_kills",
+    "defaultvalue": 0,
+    "displayName": "Boss kills"
   },
-  "quests_completed": {
-    "description": "Quests completed",
-    "value": 0
+  {
+    "name": "quests_completed",
+    "defaultvalue": 0,
+    "displayName": "Quests completed"
   },
-  "items_enchanted": {
-    "description": "Items enchanted",
-    "value": 0
+  {
+    "name": "items_enchanted",
+    "defaultvalue": 0,
+    "displayName": "Items enchanted"
   },
-  "homestones_used": {
-    "description": "Homestones used",
-    "value": 0
+  {
+    "name": "homestones_used",
+    "defaultvalue": 0,
+    "displayName": "Homestones used"
   },
-  "waystones_used": {
-    "description": "Waystones used",
-    "value": 0
+  {
+    "name": "waystones_used",
+    "defaultvalue": 0,
+    "displayName": "Waystones used"
   },
-  "normal_damage_dealt": {
-    "description": "Normal damage dealt",
-    "value": 0
+  {
+    "name": "normal_damage_dealt",
+    "defaultvalue": 0,
+    "displayName": "Normal damage dealt"
   },
-  "true_damage_dealt": {
-    "description": "True damage dealt",
-    "value": 0
+  {
+    "name": "true_damage_dealt",
+    "defaultvalue": 0,
+    "displayName": "True damage dealt"
   },
-  "melee_damage_dealt": {
-    "description": "Melee damage dealt",
-    "value": 0
+  {
+    "name": "melee_damage_dealt",
+    "defaultvalue": 0,
+    "displayName": "Melee damage dealt"
   },
-  "ranged_damage_dealt": {
-    "description": "Ranged damage dealt",
-    "value": 0
+  {
+    "name": "ranged_damage_dealt",
+    "defaultvalue": 0,
+    "displayName": "Ranged damage dealt"
   },
-  "magic_damage_dealt": {
-    "description": "Magic damage dealt",
-    "value": 0
+  {
+    "name": "magic_damage_dealt",
+    "defaultvalue": 0,
+    "displayName": "Magic damage dealt"
   },
-  "summon_damage_dealt": {
-    "description": "Summon damage dealt",
-    "value": 0
+  {
+    "name": "summon_damage_dealt",
+    "defaultvalue": 0,
+    "displayName": "Summon damage dealt"
+  },
+  {
+    "name": "food_consumed",
+    "defaultvalue": 0,
+    "displayName": "Food Consumed"
   }
-}
+]

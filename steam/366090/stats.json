@@ -15,11 +15,6 @@
     "displayName": "Food stored"
   },
   {
-    "name": "FoodUse",
-    "defaultvalue": 0,
-    "displayName": "Food use (daily)"
-  },
-  {
     "name": "ColonistsAlive",
     "defaultvalue": 0,
     "displayName": "Colonist count"
@@ -60,11 +55,6 @@
     "displayName": "Max cherry saplings in stockpile"
   },
   {
-    "name": "StockpileScienceLab",
-    "defaultvalue": 0,
-    "displayName": "Max science labs in stockpile"
-  },
-  {
     "name": "StockpileCarpetTotal",
     "defaultvalue": 0,
     "displayName": "Max carpet blocks in stockpile"
@@ -73,16 +63,6 @@
     "name": "StockpileScienceBagTotal",
     "defaultvalue": 0,
     "displayName": "Max science bag total in stockpile"
-  },
-  {
-    "name": "UnlockedHealthSize1",
-    "defaultvalue": 0,
-    "displayName": "Unlocked health size 1 research"
-  },
-  {
-    "name": "UnlockedHealthRegenSize4",
-    "defaultvalue": 0,
-    "displayName": "Unlocked health regen size 4 research"
   },
   {
     "name": "StockpileBronzeArrows",
@@ -108,16 +88,6 @@
     "name": "UnlockedBloomery",
     "defaultvalue": 0,
     "displayName": "Unlocked bloomery research"
-  },
-  {
-    "name": "UnlockedAdvancedScienceBag",
-    "defaultvalue": 0,
-    "displayName": "Unlocked advanced science bag research"
-  },
-  {
-    "name": "UnlockedBannerRange5",
-    "defaultvalue": 0,
-    "displayName": "Unlocked banner range 5 research"
   },
   {
     "name": "UnlockedArchery",
@@ -148,11 +118,6 @@
     "name": "UnlockedDigger",
     "defaultvalue": 0,
     "displayName": "Unlocked digger"
-  },
-  {
-    "name": "UnlockedDiggerSize5",
-    "defaultvalue": 0,
-    "displayName": "Unlocked digger size 5"
   },
   {
     "name": "StockpileOlives",
@@ -218,10 +183,5 @@
     "name": "ColonyNewWorld",
     "defaultvalue": 0,
     "displayName": "Created a colony in the new world"
-  },
-  {
-    "name": "ColonyHappiness",
-    "defaultvalue": 0,
-    "displayName": "Happiness reached"
   }
 ]

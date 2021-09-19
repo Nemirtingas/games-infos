@@ -1,14 +1,17 @@
-﻿{
-  "DISTINCT_MANSION_DEATHS": {
-    "description": "Distinct Mansion Deaths",
-    "value": 0
+[
+  {
+    "name": "DISTINCT_MANSION_DEATHS",
+    "defaultvalue": 0,
+    "displayName": "Distinct Mansion Deaths"
   },
-  "MILES_RUN": {
-    "description": "Miles Run",
-    "value": 0
+  {
+    "name": "MILES_RUN",
+    "defaultvalue": 0,
+    "displayName": "Miles Run"
   },
-  "SPECIMEN_RESEARCHED": {
-    "description": "Specimen Researched",
-    "value": 0
+  {
+    "name": "SPECIMEN_RESEARCHED",
+    "defaultvalue": 0,
+    "displayName": "Specimen Researched"
   }
-}
+]

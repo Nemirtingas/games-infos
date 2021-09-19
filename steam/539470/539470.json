@@ -1,13 +1,14 @@
-﻿{
+{
   "Dlcs": {
     "1158270": {
-      "Name": "",
-      "ImageUrl": ""
+      "Name": "Police Stories – Supporter Pack",
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1158270/header.jpg?t=1604511845",
+      "Type": "dlc"
     }
   },
   "Name": "Police Stories",
   "AppId": "539470",
-  "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/539470/header.jpg?t=1597745161",
+  "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/539470/header.jpg?t=1630946061",
   "Languages": [
     "english",
     "french",
@@ -18,7 +19,8 @@
     "russian",
     "schinese",
     "portuguese",
-    "polish"
+    "polish",
+    "latam"
   ],
   "Platforms": {
     "windows": true,

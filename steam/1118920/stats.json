@@ -1,26 +1,32 @@
-﻿{
-  "stat_headshots": {
-    "description": "Headshots",
-    "value": 0
+[
+  {
+    "name": "stat_headshots",
+    "defaultvalue": 0,
+    "displayName": "Headshots"
   },
-  "Stat_TankKills": {
-    "description": "Tank Kills",
-    "value": 0
+  {
+    "name": "Stat_TankKills",
+    "defaultvalue": 0,
+    "displayName": "Tank Kills"
   },
-  "Stat_VehicleKills": {
-    "description": "Vehicle kills",
-    "value": 0
+  {
+    "name": "Stat_VehicleKills",
+    "defaultvalue": 0,
+    "displayName": "Vehicle kills"
   },
-  "Stat_WarScore": {
-    "description": "Warscore",
-    "value": 0
+  {
+    "name": "Stat_WarScore",
+    "defaultvalue": 0,
+    "displayName": "Warscore"
   },
-  "Stat_RequisitionEarned": {
-    "description": "Total requisition accumulated",
-    "value": 0
+  {
+    "name": "Stat_RequisitionEarned",
+    "defaultvalue": 0,
+    "displayName": "Total requisition accumulated"
   },
-  "Stat_PlayerKills": {
-    "description": "Players killed",
-    "value": 0
+  {
+    "name": "Stat_PlayerKills",
+    "defaultvalue": 0,
+    "displayName": "Players killed"
   }
-}
+]

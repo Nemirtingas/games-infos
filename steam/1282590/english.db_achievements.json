@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "name": "ACH_DRIVE_1_MILE",
     "defaultvalue": 0,
@@ -1110,7 +1110,8 @@
     "name": "ACH_IOW_DISTANCE_PASSENGER",
     "defaultvalue": 0,
     "displayName": "IOW: Ticket to Ride",
-    "hidden": 1,
+    "hidden": 0,
+    "description": "Rode as a passenger for 20 miles on Isle of Wight",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/e99f95045c8f9836ff5af4619e0c9fb8c90e8ec0.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
   },
@@ -1118,7 +1119,8 @@
     "name": "ACH_IOW_1_SERVICE_COMPLETED",
     "defaultvalue": 0,
     "displayName": "IOW: Island Experience",
-    "hidden": 1,
+    "hidden": 0,
+    "description": "Complete 1 service on Isle of Wight",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/2e611759deb55f496b594d90a038bc56645f5cec.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
   },
@@ -1126,7 +1128,8 @@
     "name": "ACH_IOW_20_SERVICES_COMPLETED",
     "defaultvalue": 0,
     "displayName": "IOW: Island Gold",
-    "hidden": 1,
+    "hidden": 0,
+    "description": "Complete 20 services on Isle of Wight",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/b98e93a2111d188440197c0ca8f24e31e86197ce.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
   },
@@ -1134,7 +1137,8 @@
     "name": "IOW_CL483_COMPLETED_TUTORIAL",
     "defaultvalue": 0,
     "displayName": "IOW: 483 Driver",
-    "hidden": 1,
+    "hidden": 0,
+    "description": "Complete the Class 483 Introduction training module",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/030aa3cdfcdd74f40163a386605e8c658b6945dc.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
   },
@@ -1142,7 +1146,8 @@
     "name": "IOW_COLLECT_ALL_COLLECTABLES",
     "defaultvalue": 0,
     "displayName": "IOW: Pack Rat",
-    "hidden": 1,
+    "hidden": 0,
+    "description": "Collect all route tasks on Isle of Wight",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/cd8aabe509134f998637ee881f1ddce026443e62.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
   },
@@ -1150,7 +1155,8 @@
     "name": "IOW_COMPLETE_SCENARIOS",
     "defaultvalue": 0,
     "displayName": "IOW: On the Wight Track",
-    "hidden": 1,
+    "hidden": 0,
+    "description": "Complete all scenarios on Isle of Wight",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/3668c1921a6b127301fa9077ed1ef3e0be22871f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
   },
@@ -1158,7 +1164,8 @@
     "name": "IOW_COMPLETE_SCENARIO",
     "defaultvalue": 0,
     "displayName": "IOW: Cool Appetiser",
-    "hidden": 1,
+    "hidden": 0,
+    "description": "Complete Isle of Wight scenario 'Morning Start Up'",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/19deff157ed57f4ea33afe894c647d11aadf510c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
   },
@@ -1166,7 +1173,8 @@
     "name": "ACH_CL483_RAIL_VEHICLE_LEVEL",
     "defaultvalue": 0,
     "displayName": "CL483: Fab Ten",
-    "hidden": 1,
+    "hidden": 0,
+    "description": "Reach Loco Level 10 in the Class 483",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/b805ff7f05fe9dfdd435e76e0f26457cfdab1efd.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
   },
@@ -1174,7 +1182,8 @@
     "name": "ACH_CL483_DISTANCE_DRIVEN",
     "defaultvalue": 0,
     "displayName": "CL483: Going the Extra Mile",
-    "hidden": 1,
+    "hidden": 0,
+    "description": "Operate the Class 483 for 60 miles",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/094188c0c9abc6c8a915a85a673b2555e8c3c053.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
   },
@@ -1182,8 +1191,2010 @@
     "name": "ACH_CL483_MAX_SPEED",
     "defaultvalue": 0,
     "displayName": "CL483: Gurt Balls of Fire!",
-    "hidden": 1,
+    "hidden": 0,
+    "description": "Reach a speed of 45mph in the Class 483",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/1c28d93bf5435f8d5401183265db597213b57288.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "MSB_COLLECT_ALL_COLLECTABLES",
+    "defaultvalue": 0,
+    "displayName": "MSB: Bavarian Bounty",
+    "hidden": 0,
+    "description": "Collect all collectables on Main Spessart Bahn",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/8342c9fc1e42fe4f2059592be4040bc1796dcc01.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "MSB_COMPLETE_SCENARIOS",
+    "defaultvalue": 0,
+    "displayName": "MSB: All in Order",
+    "hidden": 0,
+    "description": "Complete all scenarios on Main Spessart Bahn",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/fc509b281eeaa6b25883e25ea101bb73b861e75d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "MSB_COMPLETE_TUTORIALS",
+    "defaultvalue": 0,
+    "displayName": "MSB: Trio Triumph",
+    "hidden": 0,
+    "description": "Complete all tutorials on Main Spessart Bahn",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/4cc621bb7c8ac0730ee5dbcb06bfea8d7cba957f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "ACH_MSB_ROUTE_LEVEL",
+    "defaultvalue": 0,
+    "displayName": "MSB: Spessart Wanderer",
+    "hidden": 0,
+    "description": "Reach Route Level 20 on Main Spessart Bahn",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/4c4b48c6121e875f8051b5a6e9bd6798affba50a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "ACH_MSB_1_SERVICE_COMPLETED",
+    "defaultvalue": 0,
+    "displayName": "MSB: Welcome to Main Spessart Bahn",
+    "hidden": 0,
+    "description": "Complete 1 service on Main Spessart Bahn",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/65a9a856d935e5ee212995a09999980f6b5c278c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "ACH_MSB_100_SERVICES_COMPLETED",
+    "defaultvalue": 0,
+    "displayName": "MSB: Clean Sweep",
+    "hidden": 0,
+    "description": "Complete 100 services on Main Spessart Bahn",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/13942e394c3433809427452d8d08618c059c6247.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "ACH_MSB_BR146_PASSENGER_LOADS",
+    "defaultvalue": 0,
+    "displayName": "BR146: Tour Guide",
+    "hidden": 0,
+    "description": "Complete 146 passenger boarding tasks with the BR 146.2",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/95670bcd065a9342174503a08e2c727fbeafa7cd.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "ACH_BR146_DISTANCE_DRIVEN",
+    "defaultvalue": 0,
+    "displayName": "BR146: Making Tracks",
+    "hidden": 0,
+    "description": "Operate the BR 146.2 a distance of 1462km",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/381362122ebdd58e1e93eb4e6f4cc19bd7274932.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "ACH_RT_PASSENGER_LOADS",
+    "defaultvalue": 0,
+    "displayName": "RT: Mass Transit",
+    "hidden": 0,
+    "description": "Complete 442 passenger boarding tasks",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/1a09b3e109ea5b433235de494932ee65fa922cd2.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "ACH_BR1442_MAX_SPEED",
+    "defaultvalue": 0,
+    "displayName": "RT: Rapid Transit",
+    "hidden": 0,
+    "description": "Reach the max speed of the BR442 (160KPH)",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/770b2ab38aff42613ce34c627ef5693a6c520fa1.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "ACH_BR1442_DISTANCE_DRIVEN",
+    "defaultvalue": 0,
+    "displayName": "RT: Top Driver",
+    "hidden": 0,
+    "description": "Operate 44.2KM in the BR442",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/af8c168d39165cc0da6a050e5264ea39d095c4ab.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "ACH_BR1442_SIFA_USE",
+    "defaultvalue": 0,
+    "displayName": "RT: Safety First",
+    "hidden": 0,
+    "description": "Acknowledge 500 SIFA alarms.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/843f36a74ebc4841c2cfcc436d5b4ec420d7be6e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "RT_BR1442_COMPLETED_TUTORIAL",
+    "defaultvalue": 0,
+    "displayName": "RT: Green Light",
+    "hidden": 0,
+    "description": "Complete the BR442 Basic Introduction",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/7d3258d5ca30fc98b175ce569918fa93cb7dfe5e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "RT_ALL_SERVICES_COMPLETED",
+    "defaultvalue": 0,
+    "displayName": "RT: German Legend",
+    "hidden": 0,
+    "description": "Complete all of the available services",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/1c60506300d242a9cd97ceb4545f075dbad0f665.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "ACH_RT_DISTANCE_PASSENGER",
+    "defaultvalue": 0,
+    "displayName": "RT: Regional Rider",
+    "hidden": 0,
+    "description": "Ride as a passenger for 44.2KM",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/7adc2354edcf7e505430d28a71e1833196bcf1bf.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "RT_BR182_COMPLETED_TUTORIAL",
+    "defaultvalue": 0,
+    "displayName": "BR182: Training Day",
+    "hidden": 0,
+    "description": "Complete the BR 182 Introduction tutorial",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/c18e9cb15b853cec793c85a433b7b131757c63d8.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "RT_COMPLETE_SCENARIO",
+    "defaultvalue": 0,
+    "displayName": "BR182: Trend Setter",
+    "hidden": 0,
+    "description": "Complete the BR 182 scenario 'S-Bahn Sprinter'",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/d0f91f64d23edb914bb41a0728fbd029aca8eae0.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "ACH_BR182_RAIL_VEHICLE_LEVEL",
+    "defaultvalue": 0,
+    "displayName": "BR182: A Tamed Taurus",
+    "hidden": 0,
+    "description": "Reach Loco Level 10 in the BR 182",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/4d5b0c562bcd157707e55a528a5af070c4523db2.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "ACH_BR182_MAX_SPEED",
+    "defaultvalue": 0,
+    "displayName": "BR182: Sprint 182",
+    "hidden": 0,
+    "description": "Reach a speed of 100kmh in the BR 182",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/848470bc4c74bfe09cf06f340c4e1a0bec9ddf8b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "ACH_BR182_DISTANCE_DRIVEN",
+    "defaultvalue": 0,
+    "displayName": "BR182: True Taurus",
+    "hidden": 0,
+    "description": "Operate the BR 182 a distance of 1820km",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/c958bb4d462a57faf6a5f679588ec9df8d384a78.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "MAG_COMPLETE_TUTORIALS",
+    "defaultvalue": 0,
+    "displayName": "MAG: Master of München",
+    "hidden": 0,
+    "description": "Complete all training modules on Hauptstrecke München-Augsburg",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/7c474a27aadb9e3c4479e6e3031fce1f15ac12a3.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "MAG_COMPLETE_SCENARIOS",
+    "defaultvalue": 0,
+    "displayName": "MAG: Speeding to Success",
+    "hidden": 0,
+    "description": "Complete all scenarios on Hauptstrecke München-Augsburg",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/061d1062f41e46aad5377b88b812454e694073b3.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "MAG_COLLECT_ALL_COLLECTABLES",
+    "defaultvalue": 0,
+    "displayName": "MAG: Job Well Done",
+    "hidden": 0,
+    "description": "Collect all route tasks on Hauptstrecke München-Augsburg",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/a5999e4c76ddb548e32ccf8360214219c1382dd3.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "MAG_COMPLETE_1_SERVICE",
+    "defaultvalue": 0,
+    "displayName": "MAG: Off to a Great Start",
+    "hidden": 0,
+    "description": "Complete 1 service on Hauptstrecke München-Augsburg",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/2bf746304f4e3ccfdf8701a64e650574e8379a84.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "MAG_COMPLETE_100_SERVICES",
+    "defaultvalue": 0,
+    "displayName": "MAG: Like Clockwork",
+    "hidden": 0,
+    "description": "Complete 100 services on Hauptstrecke München-Augsburg",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/01edb693e030d2fd248631648174523501155c8f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "MAG_COMPLETE_SCENARIO",
+    "defaultvalue": 0,
+    "displayName": "MAG: Off the Grid",
+    "hidden": 0,
+    "description": "Complete Hauptstrecke München-Augsburg scenario 'Power Predicament'",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/215d89236d4bcd3808ede091396eba178f91782d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "MAG_COMPLETE_PASSENGER_LOADS",
+    "defaultvalue": 0,
+    "displayName": "MAG: Hop on",
+    "hidden": 0,
+    "description": "Complete 150 passenger boarding tasks on Hauptstrecke München-Augsburg",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/216a9c70d82482b44b856b98ffc1596ffb9965cc.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "MAG_ROUTE_LEVEL",
+    "defaultvalue": 0,
+    "displayName": "MAG: Seeing the Sights",
+    "hidden": 0,
+    "description": "Reach Route Level 20 on Hauptstrecke München-Augsburg",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/84cae3e732fccd1ece86b774f46bfd12818fc97a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "MAG_BR403_DISTANCE_DRIVEN",
+    "defaultvalue": 0,
+    "displayName": "ICE3: Thawed Out",
+    "hidden": 0,
+    "description": "Operate the ICE3 for 300 kilometres",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/cb3cdbeda7fd366f973ab814b3501f03879753c4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "MAG_BR403_RAIL_VEHICLE_LEVEL",
+    "defaultvalue": 0,
+    "displayName": "ICE3: Bracing the Cold",
+    "hidden": 0,
+    "description": "Reach Rail Vehicle Level 10 in the ICE3",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/426aa29b2037434a7d6647483f5768de6c36f7a9.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "WSR_COMPLETE_PASSENGER_LOADS",
+    "defaultvalue": 0,
+    "displayName": "WSR: Tourist Attraction",
+    "hidden": 0,
+    "description": "Complete 47 passenger boarding tasks",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/cfc11b161cf33f451cca883a9d4e7f74fd0ff0c9.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "WSR_CL09_HORN_USE_COUNT",
+    "defaultvalue": 0,
+    "displayName": "CL09: Sound Advice",
+    "hidden": 0,
+    "description": "Operate the Class 09 horn 90 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/71c34ad6264fad001e743ecd5771fc9afe4f1c08.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "WSR_CL47_DISTANCE_DRIVEN",
+    "defaultvalue": 0,
+    "displayName": "CL47: Star Tours",
+    "hidden": 0,
+    "description": "Operate the Class 47 for 470 miles",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/678c33a8da8c721732b8539bdabf63bf330e989f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "WSR_CL09_DISTANCE_DRIVEN",
+    "defaultvalue": 0,
+    "displayName": "CL09: Gronk on the go",
+    "hidden": 0,
+    "description": "Operate the Class 09 for 90 miles",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/ae1024200d72e19470385ef602928ebc2ddfacef.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/ff98e204d727a59c6c1d0996b2ef187b868bac5c.jpg"
+  },
+  {
+    "name": "WSR_CL47_COMPLETED_TUTORIAL",
+    "defaultvalue": 0,
+    "displayName": "WSR: Star Pupil",
+    "hidden": 0,
+    "description": "Complete Class 47 Introduction tutorial",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/eca32c50d194e2ac05b4e8adc2762815343eb76d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "WSR_CL09_COMPLETED_TUTORIAL",
+    "defaultvalue": 0,
+    "displayName": "WSR: Gronk Graduate",
+    "hidden": 0,
+    "description": "Complete Class 09 Introduction tutorial",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/feee00f87b61b8b98be5a1cd867cf3c299769802.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "WSR_COMPLETED_ALL_SERVICES",
+    "defaultvalue": 0,
+    "displayName": "WSR: West Country Wonderer",
+    "hidden": 0,
+    "description": "Complete all of the available services",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/4f615c39223c74c463d8652e83d6053b2f9da976.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "WSR_COLLECT_ALL_COLLECTABLES",
+    "defaultvalue": 0,
+    "displayName": "WSR: Preserving Heritage",
+    "hidden": 0,
+    "description": "Collect all collectables on West Somerset Railway",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/94fe7a515083409c8aeddd7cd76fb6cd315394b1.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "WSR_COMPLETE_SCENARIOS",
+    "defaultvalue": 0,
+    "displayName": "WSR: Summer Vacation",
+    "hidden": 0,
+    "description": "Complete all scenarios on West Somerset Railway",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/d80e039654af37c8d2a3ba76469b852c65dea3e7.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "CL33_COMPLETE_TUTORIAL",
+    "defaultvalue": 0,
+    "displayName": "Class 33: Straight Outta Crompton",
+    "hidden": 0,
+    "description": "Complete the Class 33 Introduction tutorial",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/7f88f1d81e66d0d17a449af53af76536199b1c08.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "CL33_COMPLETE_SCENARIO",
+    "defaultvalue": 0,
+    "displayName": "Class 33: Bluejacket",
+    "hidden": 0,
+    "description": "Complete the Minehead Mariner scenario",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/df91887802b2529ff15bf9bf384afe0199bded74.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/ff98e204d727a59c6c1d0996b2ef187b868bac5c.jpg"
+  },
+  {
+    "name": "CL33_RAIL_VEHICLE_LEVEL",
+    "defaultvalue": 0,
+    "displayName": "Class 33: Solid Steel Construction",
+    "hidden": 0,
+    "description": "Reach Loco Level 10 in the Class 33",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/56bc59787a8e4332b5e04d915e4d695b0d2af150.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "CL33_COMPLETE_PASSENGER_LOADS",
+    "defaultvalue": 0,
+    "displayName": "Class 33: All the threes",
+    "hidden": 0,
+    "description": "Complete 33 passenger boarding tasks in the Class 33",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/44509a2834d8328efaf0333cc5e6caecb3092c5b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "CL33_DISTANCE_DRIVEN",
+    "defaultvalue": 0,
+    "displayName": "Class 33: Crompton Cruiser",
+    "hidden": 0,
+    "description": "Operate the Class 33 for 330 miles",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/ae4be698431916bb165d6f7f2de182728d494a6f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "CL52_COMPLETE_TUTORIAL",
+    "defaultvalue": 0,
+    "displayName": "CL52: Class of '52",
+    "hidden": 0,
+    "description": "Complete the Class 52 Introduction tutorial",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/02d2bbb1d51dbb2c0320089a6eaab02f5bd9a7fc.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "CL52_COMPLETE_SCENARIO",
+    "defaultvalue": 0,
+    "displayName": "CL52: Top-Notch Western",
+    "hidden": 0,
+    "description": "Complete the Class 52 scenario 'Swap Shop'",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/24fe32dca111d932d21c8011cff7c3ce0caaed68.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "CL52_COMPLETE_15_SERVICES",
+    "defaultvalue": 0,
+    "displayName": "CL52: Hydraulic Heaven",
+    "hidden": 0,
+    "description": "Complete 15 services using the Class 52",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/72a53bca770f6a9c0b334c05d1906e3352e4be90.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/ff98e204d727a59c6c1d0996b2ef187b868bac5c.jpg"
+  },
+  {
+    "name": "CL52_DISTANCE_DRIVEN",
+    "defaultvalue": 0,
+    "displayName": "CL52: Western Region",
+    "hidden": 0,
+    "description": "Operate the Class 52 a distance of 520 miles",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/36fe160cb9b4faac555f74ecce6c01e1cea841e8.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "CL52_COMPLETE_PASSENGER_LOADS",
+    "defaultvalue": 0,
+    "displayName": "CL52: Western Master",
+    "hidden": 0,
+    "description": "Complete 52 Passenger Boarding tasks with the Class 52",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/70b05e03eeea4e648688213f5daf46bc9a583b73.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/ff98e204d727a59c6c1d0996b2ef187b868bac5c.jpg"
+  },
+  {
+    "name": "TOR_COMPLETE_TUTORIALS",
+    "defaultvalue": 0,
+    "displayName": "OSD: Master Class",
+    "hidden": 0,
+    "description": "Complete all training modules on Oakville Subdivision",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/abc4aa4eada466eac400bb45daa064753da0eed9.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "TOR_COMPLETE_SCENARIOS",
+    "defaultvalue": 0,
+    "displayName": "OSD: All in a Day's Work",
+    "hidden": 0,
+    "description": "Complete all scenarios on Oakville Subdivision",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/662c2be286ac7ad741d93a3dd622e4026b02804e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/ff98e204d727a59c6c1d0996b2ef187b868bac5c.jpg"
+  },
+  {
+    "name": "TOR_COLLECT_ALL_COLLECTABLES",
+    "defaultvalue": 0,
+    "displayName": "OSD: Undivided",
+    "hidden": 0,
+    "description": "Complete all jobs on Oakville Subdivision",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/248bc6df567d26b921717d6fc63a25f2e95cfd45.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/ff98e204d727a59c6c1d0996b2ef187b868bac5c.jpg"
+  },
+  {
+    "name": "TOR_COMPLETE_1_SERVICE",
+    "defaultvalue": 0,
+    "displayName": "OSD: Starting Out",
+    "hidden": 0,
+    "description": "Complete 1 service on Oakville Subdivision",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/5da7ec4ac8f1ff638953c3eb9527f2a395bafa3f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/ff98e204d727a59c6c1d0996b2ef187b868bac5c.jpg"
+  },
+  {
+    "name": "TOR_COMPLETE_20_SERVICES",
+    "defaultvalue": 0,
+    "displayName": "OSD: Outstanding Service",
+    "hidden": 0,
+    "description": "Complete 20 services on Oakville Subdivision",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/6eba09dfc71020a3faaa75b0625fb920921b0c6f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "TOR_COMPLETE_SCENARIO_1",
+    "defaultvalue": 0,
+    "displayName": "OSD: Out with the Old",
+    "hidden": 0,
+    "description": "Complete Oakville Subdivision scenario 'In with the New'",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/f6cdd2948f8566a68954e023e1a0b918ba75169d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/ff98e204d727a59c6c1d0996b2ef187b868bac5c.jpg"
+  },
+  {
+    "name": "TOR_COMPLETE_SCENARIO_2",
+    "defaultvalue": 0,
+    "displayName": "OSD: Building Success",
+    "hidden": 0,
+    "description": "Complete Oakville Subdivision scenario 'Break it down'",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/38d9d61b108f8b929e124924fac6261cc207c87f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "TOR_ROUTE_LEVEL",
+    "defaultvalue": 0,
+    "displayName": "OSD: Planting Roots",
+    "hidden": 0,
+    "description": "Reach Route Level 20 on Oakville Subdivision",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/7737252e68d2f08ad73c5cb1e7fab384a228d9d2.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/ff98e204d727a59c6c1d0996b2ef187b868bac5c.jpg"
+  },
+  {
+    "name": "TOR_GP9_DISTANCE_DRIVEN",
+    "defaultvalue": 0,
+    "displayName": "GP9RM: Taking to the Road",
+    "hidden": 0,
+    "description": "Operate the GP9RM for 90 miles",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/f138120115164c567c047aaf133b16dda74ffaae.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "TOR_GP9_COUPLING_COMPLETE",
+    "defaultvalue": 0,
+    "displayName": "GP9RM: Making Connections",
+    "hidden": 0,
+    "description": "Complete 90 coupling tasks in the GP9RM",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/ac267fe3f816db3edd9230bf4dc6469d45ad9469.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "WPH_COMPLETE_TUTORIALS",
+    "defaultvalue": 0,
+    "displayName": "RRO: Top of the Class",
+    "hidden": 0,
+    "description": "Complete all training modules on Rhein-Ruhr Osten",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/80c21206b1c4a6b79c41e0e513432f1d5c4257e9.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "WPH_COMPLETE_SCENARIOS",
+    "defaultvalue": 0,
+    "displayName": "RRO: Wupper Wonderer ",
+    "hidden": 0,
+    "description": "Complete all scenarios on Rhein-Ruhr Osten",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/088867f757cbe7ef13f073445971cf9e4cc44d06.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "WPH_COLLECT_ALL_COLLECTABLES",
+    "defaultvalue": 0,
+    "displayName": "RRO: Above and Beyond",
+    "hidden": 0,
+    "description": "Complete all jobs on Rhein-Ruhr Osten",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/f7ca5f827cc9649d5534ec20ee20c18c345dc93a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "WPH_ROUTE_LEVEL",
+    "defaultvalue": 0,
+    "displayName": "RRO: Rhein-Ruhr Living",
+    "hidden": 0,
+    "description": "Reach Route Level 20 on Rhein-Ruhr Osten",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/7f5bf08a06b07d2ae54332e3be8edbf75633cd8c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/ff98e204d727a59c6c1d0996b2ef187b868bac5c.jpg"
+  },
+  {
+    "name": "WPH_COMPLETE_1_SERVICE",
+    "defaultvalue": 0,
+    "displayName": "RRO: Getting Started",
+    "hidden": 0,
+    "description": "Complete 1 service on Rhein-Ruhr Osten",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/009ddcc20668982ed999cd40016c6dea6c0ca162.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "WPH_COMPLETE_100_SERVICES",
+    "defaultvalue": 0,
+    "displayName": "RRO: Valley Venture",
+    "hidden": 0,
+    "description": "Complete 100 services on Rhein-Ruhr Osten",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/3fb032c8e342ef73e98ab197d966db9021cc1f08.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/ff98e204d727a59c6c1d0996b2ef187b868bac5c.jpg"
+  },
+  {
+    "name": "WPH_COMPLETE_SCENARIO",
+    "defaultvalue": 0,
+    "displayName": "RRO: End of the Line",
+    "hidden": 0,
+    "description": "Complete Rhein-Ruhr Osten scenario 'Commuter Conclusion'",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/b30b418a3d0d66e148acba40241b6454868a7382.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/ff98e204d727a59c6c1d0996b2ef187b868bac5c.jpg"
+  },
+  {
+    "name": "WPH_BR422_DISTANCE_DRIVEN",
+    "defaultvalue": 0,
+    "displayName": "BR 422: Wuppertal Commuter",
+    "hidden": 0,
+    "description": "Operate the DB BR 422 for 422 kilometres",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/fad241c99f1b9159c4b566c836d845db54d2ae53.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "WPH_BR422_MAX_SPEED",
+    "defaultvalue": 0,
+    "displayName": "BR 422: Lightweight Speeds",
+    "hidden": 0,
+    "description": "Reach a speed of 70 km/h in the DB BR 422",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/51d58b68e864e42b36bcc7d84559227c115eeb70.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "BR204_COMPLETE_TUTORIAL",
+    "defaultvalue": 0,
+    "displayName": "BR 204: Push and Pull Starter",
+    "hidden": 0,
+    "description": "Complete the BR 204 Introduction training module",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/6717a86f975f8433ac7d131c129ca1fce188c9c7.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/ff98e204d727a59c6c1d0996b2ef187b868bac5c.jpg"
+  },
+  {
+    "name": "BR204_COMPLETE_SCENARIO",
+    "defaultvalue": 0,
+    "displayName": "BR 204: Shunting Magnificence",
+    "hidden": 0,
+    "description": "Complete the BR 204 scenario Hafenbahnhof Order",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/7912f88df793bab41500c9a800e03b166a5a3258.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/ff98e204d727a59c6c1d0996b2ef187b868bac5c.jpg"
+  },
+  {
+    "name": "BR204_COMPLETE_5_SERVICES",
+    "defaultvalue": 0,
+    "displayName": "BR 204: Bidirectional Director",
+    "hidden": 0,
+    "description": "Complete 5 services using the BR 204",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/9d1cacde3dfd51a87639d651dd948d6418a93a8d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/ff98e204d727a59c6c1d0996b2ef187b868bac5c.jpg"
+  },
+  {
+    "name": "BR204_RAIL_VEHICLE_LEVEL",
+    "defaultvalue": 0,
+    "displayName": "BR 204: V100 Master",
+    "hidden": 0,
+    "description": "Reach Loco Level 10 in the BR 204",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/8ebc36f088b8dbefeebe1aa4efe05094190cfba9.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/ff98e204d727a59c6c1d0996b2ef187b868bac5c.jpg"
+  },
+  {
+    "name": "BR204_DISTANCE_DRIVEN",
+    "defaultvalue": 0,
+    "displayName": "BR 204: Dedicated Shunter",
+    "hidden": 0,
+    "description": "Operate the BR 204 for 204 kilometres",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/82286ca0d96506975d5b293349266cb4d84daaa1.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/ff98e204d727a59c6c1d0996b2ef187b868bac5c.jpg"
+  },
+  {
+    "name": "BR363_COMPLETE_TUTORIAL",
+    "defaultvalue": 0,
+    "displayName": "BR 363: Show Me the Way",
+    "hidden": 0,
+    "description": "Complete the DB BR 363 Introduction training module",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/d781bc01d02d7214bfd7cd8f12404e7c19d1cd83.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "BR363_COMPLETE_SCENARIO",
+    "defaultvalue": 0,
+    "displayName": "BR 363: Building Experience ",
+    "hidden": 0,
+    "description": "Complete the DB BR 363 scenario 'Cement Mixer'",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/d2f2d1342a85964a9e4493d9f4e74549b9383f64.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/ff98e204d727a59c6c1d0996b2ef187b868bac5c.jpg"
+  },
+  {
+    "name": "BR363_COMPLETE_15_SERVICES",
+    "defaultvalue": 0,
+    "displayName": "BR 363: Keep on Shunting",
+    "hidden": 0,
+    "description": "Complete 15 services using the DB BR 363",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/fe1770d72563bf41b6471927e0f5ae740d6e461f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "BR363_RAIL_VEHICLE_LEVEL",
+    "defaultvalue": 0,
+    "displayName": "BR 363: Senior Shunter",
+    "hidden": 0,
+    "description": "Reach Loco Level 10 in the DB BR 363",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/1ad13a1180ecb337eb7fecf0fdda8563dd612be5.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "BR363_DISTANCE_DRIVEN",
+    "defaultvalue": 0,
+    "displayName": "BR 363: Workhorse",
+    "hidden": 0,
+    "description": "Operate the DB BR 363 for 363 kilometres",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/c0d052f0d5aa210fa7041771568981b9932ef494.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/ff98e204d727a59c6c1d0996b2ef187b868bac5c.jpg"
+  },
+  {
+    "name": "GWE_HST_MAX_SPEED",
+    "defaultvalue": 0,
+    "displayName": "GWE: Journey Shrinker",
+    "hidden": 0,
+    "description": "Reach a speed of 125MPH in the HST.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/8bf34a97c043289a5ef17b9a7fec817b103b34c6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/ff98e204d727a59c6c1d0996b2ef187b868bac5c.jpg"
+  },
+  {
+    "name": "GWE_CL166_MAX_SPEED",
+    "defaultvalue": 0,
+    "displayName": "GWE: Turbo Power",
+    "hidden": 0,
+    "description": "Reach a speed of 90MPH in the Class 166",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/13e7d19d495251f474a4411678a80fe67f518ed5.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "GWE_CL66_MAX_SPEED",
+    "defaultvalue": 0,
+    "displayName": "GWE: Pushing the Limits",
+    "hidden": 0,
+    "description": "Reach a speed of 75MPH in the Class 66.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/9b912a967618ea36f8e9f042ea77de7b4ac4d74c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/ff98e204d727a59c6c1d0996b2ef187b868bac5c.jpg"
+  },
+  {
+    "name": "GWE_HST_DISTANCE_DRIVEN",
+    "defaultvalue": 0,
+    "displayName": "GWE: Cross Country",
+    "hidden": 0,
+    "description": "Operated the Class 43 HST for 430 miles.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/fbaa4f76d80ae0d0ff64d55ef3649105ac1f6113.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "GWE_CL166_DISTANCE_DRIVEN",
+    "defaultvalue": 0,
+    "displayName": "GWE: Mile Muncher",
+    "hidden": 0,
+    "description": "Operated the Class 166 for 1660 miles.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/18f536ad6c14313626c2b7dbd24ab89c08145eed.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "GWE_CL66_DISTANCE_DRIVEN",
+    "defaultvalue": 0,
+    "displayName": "GWE: Powerhauler",
+    "hidden": 0,
+    "description": "Operated the DBS 66 for 660 miles.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/ec834f2b8b93e51359358e2d304133e2db734a43.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "GWE_COMPLETE_SCENARIOS",
+    "defaultvalue": 0,
+    "displayName": "GWE: Peak Performance",
+    "hidden": 0,
+    "description": "Successfully completed all scenarios",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/a78c703647af71de733f39229678bcdc3c04ea30.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/ff98e204d727a59c6c1d0996b2ef187b868bac5c.jpg"
+  },
+  {
+    "name": "GWE_COMPLETE_TUTORIALS",
+    "defaultvalue": 0,
+    "displayName": "GWE: Qualified Driver",
+    "hidden": 0,
+    "description": "Successfully completed all tutorials",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/f6123167632eecb1fa53ef3374ec9dd8a069eac6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "NTP_CL47_MAX_SPEED",
+    "defaultvalue": 0,
+    "displayName": "Class 47: Maxed Out",
+    "hidden": 0,
+    "description": "Reach a speed of 75mph in the Class 47",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/8c372b3f30869656bf3fcc69582ec85f078c915b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/ff98e204d727a59c6c1d0996b2ef187b868bac5c.jpg"
+  },
+  {
+    "name": "NTP_CL45_DISTANCE_DRIVEN",
+    "defaultvalue": 0,
+    "displayName": "Class 45: Hit the Peak",
+    "hidden": 0,
+    "description": "Operate the Class 45 for 450 miles",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/74177ec5174bbfe235e667b700e7dc19d6ad5ca9.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "NTP_DLT_COMPLETE_TUTORIAL",
+    "defaultvalue": 0,
+    "displayName": "Class 45: Revv'd up",
+    "hidden": 0,
+    "description": "Complete the Diesel Locomotives Introduction tutorial",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/05581811c10c1966ff5098d68b997678098b7e02.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "NTP_CL101_DISTANCE_DRIVEN",
+    "defaultvalue": 0,
+    "displayName": "Class 101: Drive this way",
+    "hidden": 0,
+    "description": "Operate the Class 101 for 1001 miles",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/9aa555f266083962b72f9ae1557e180d89c4d5c1.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "NTP_CL101_COMPLETE_TUTORIAL",
+    "defaultvalue": 0,
+    "displayName": "Class 101: Mechanical Master",
+    "hidden": 0,
+    "description": "Complete the Class 101 Introduction tutorial",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/129af1ed465c638b42f86f92cc7e9578fda70a3b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/ff98e204d727a59c6c1d0996b2ef187b868bac5c.jpg"
+  },
+  {
+    "name": "NTP_CL101_PASSENGER_LOADS",
+    "defaultvalue": 0,
+    "displayName": "Class 101: With or Without You",
+    "hidden": 0,
+    "description": "Complete 101 passenger boarding tasks",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/edb9e5b33277961721195cc9a21818a452f68322.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "NTP_50_SERVICES_COMPLETED",
+    "defaultvalue": 0,
+    "displayName": "NTP: Every Train You Take",
+    "hidden": 0,
+    "description": "Complete 50 Northern Trans-Pennine services",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/b235e77ba6190bb2a6ef510570d79e91fc785380.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/ff98e204d727a59c6c1d0996b2ef187b868bac5c.jpg"
+  },
+  {
+    "name": "NTP_COMPLETE_SCENARIOS",
+    "defaultvalue": 0,
+    "displayName": "NTP: Trans-Pennine Traveller",
+    "hidden": 0,
+    "description": "Complete all scenarios on Northern Trans-Pennine",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/8342c9fc1e42fe4f2059592be4040bc1796dcc01.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/ff98e204d727a59c6c1d0996b2ef187b868bac5c.jpg"
+  },
+  {
+    "name": "NTP_ROUTE_LEVEL",
+    "defaultvalue": 0,
+    "displayName": "NTP: The Magic Number",
+    "hidden": 0,
+    "description": "Reach Route Level 20 on Northern Trans-Pennine",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/d68c8bb4d7ea32f8b200cb2f2c271c71de47130d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/ff98e204d727a59c6c1d0996b2ef187b868bac5c.jpg"
+  },
+  {
+    "name": "BRHFP_CL40_COMPLETE_TUTORIAL",
+    "defaultvalue": 0,
+    "displayName": "CL40: Whistler Wizard",
+    "hidden": 0,
+    "description": "Complete the Class 40 Introduction tutorial",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/9e7fd8c4676d26da24462e499a006868500a624d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "BRHFP_CL40_DISTANCE_DRIVEN",
+    "defaultvalue": 0,
+    "displayName": "CL40: Whistle While you Work",
+    "hidden": 0,
+    "description": "Operate the Class 40 for 400 miles",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/bb073eddb9a205fbd1c08a5aa3df216457d5da49.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "BRHFP_CL40_15_SERVICES_COMPLETED",
+    "defaultvalue": 0,
+    "displayName": "CL40: Fifteen in the Forty",
+    "hidden": 0,
+    "description": "Complete 15 services using the Class 40",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/6e33f2fce091f182d5662f0c5b1784820603c099.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "BRHFP_CL08_COMPLETE_TUTORIAL",
+    "defaultvalue": 0,
+    "displayName": "CL08: Gronk Genius",
+    "hidden": 0,
+    "description": "Complete the Class 08 Introduction tutorial",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/ac1a2f36fb0957fa599c7db06c7d6f9c815be1c2.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "BRHFP_CL08_DISTANCE_DRIVEN",
+    "defaultvalue": 0,
+    "displayName": "CL08: Shunt Master",
+    "hidden": 0,
+    "description": "Operate the Class 08 for 80 miles",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/581b184dae4b54c9bd7475e15ef8a93ee3c6c95e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "C408W_COMPLETE_TUTORIAL",
+    "defaultvalue": 0,
+    "displayName": "C40-8W: Introduction Complete",
+    "hidden": 0,
+    "description": "Complete the C40-8W Introduction training module",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/a54dfce7248f6d215d647f6a7bd8ecffd858f1ea.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/ff98e204d727a59c6c1d0996b2ef187b868bac5c.jpg"
+  },
+  {
+    "name": "C408W_COMPLETE_SCENARIO",
+    "defaultvalue": 0,
+    "displayName": "C40-8W: Snow Boarding",
+    "hidden": 0,
+    "description": "Complete the C40-8W scenario 'Slippy Descent'",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/8fb2ca388625df941adf250e0d3d2bbb71abb57e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/ff98e204d727a59c6c1d0996b2ef187b868bac5c.jpg"
+  },
+  {
+    "name": "C408W_5_SERVICES_COMPLETED",
+    "defaultvalue": 0,
+    "displayName": "C40-8W: Fully Serviced",
+    "hidden": 0,
+    "description": "Complete 5 services using the C40-8W",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/c31e1ab1451dc667e6f528fc9d8e1ce5579fec36.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/ff98e204d727a59c6c1d0996b2ef187b868bac5c.jpg"
+  },
+  {
+    "name": "C408W_MAX_SPEED_ACHIEVED",
+    "defaultvalue": 0,
+    "displayName": "C40-8W: Race Pace",
+    "hidden": 0,
+    "description": "Reach a speed of 50mph in the C40-8W",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/dba4956c485617241c3529c52f376de8a83005f7.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "C408W_DISTANCE_DRIVEN",
+    "defaultvalue": 0,
+    "displayName": "C40-8W: C40 Miles",
+    "hidden": 0,
+    "description": "Operate the C40-8W for 40 miles",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/4cb093265391f2a94ea1f872147732f1d6168cf2.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "LGV_COMPLETE_TUTORIALS",
+    "defaultvalue": 0,
+    "displayName": "LGV: TGV Trained",
+    "hidden": 0,
+    "description": "Complete all training modules on LGV Méditerranée",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/0f3a3b9f01a51aeb992732885edc318be85a2610.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "LGV_COMPLETE_SCENARIOS",
+    "defaultvalue": 0,
+    "displayName": "LGV: A Great Triumph",
+    "hidden": 0,
+    "description": "Complete all scenarios on LGV Méditerranée",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/4966c122f73f82aa2029ffb50087afc74593c6bd.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/ff98e204d727a59c6c1d0996b2ef187b868bac5c.jpg"
+  },
+  {
+    "name": "LGV_COLLECT_ALL_COLLECTABLES",
+    "defaultvalue": 0,
+    "displayName": "LGV: Master of the Méditerranée",
+    "hidden": 0,
+    "description": "Complete all route tasks on LGV Méditerranée",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/a0cd772c529b45d243d4b6b933d17a691d5e24e3.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/ff98e204d727a59c6c1d0996b2ef187b868bac5c.jpg"
+  },
+  {
+    "name": "LGV_1_SERVICE_COMPLETED",
+    "defaultvalue": 0,
+    "displayName": "LGV: Starting off Strong",
+    "hidden": 0,
+    "description": "Complete 1 service on LGV Méditerranée",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/f436b1f745c98130ca2a646b19052d9ace2fec09.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "LGV_50_SERVICES_COMPLETED",
+    "defaultvalue": 0,
+    "displayName": "LGV: West of the Line",
+    "hidden": 0,
+    "description": "Complete 50 services on LGV Méditerranée",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/a2292bec79ab4537281d2f2811f264322ceb5854.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "LGV_COMPLETE_SCENARIO_DD",
+    "defaultvalue": 0,
+    "displayName": "LGV: Ready for Service",
+    "hidden": 0,
+    "description": "Complete LGV Méditerranée scenario 'Depot Duty'",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/369679015f94e4eecccb8b22fc7996332c52db82.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "LGV_COMPLETE_SCENARIO_BT",
+    "defaultvalue": 0,
+    "displayName": "LGV: Battling the Elements",
+    "hidden": 0,
+    "description": "Complete LGV Méditerranée scenario 'Bad Things'",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/e26b411b312cfa832296db9ea83417a290c62a89.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "LGV_TGV_20_DISTANCE_DRIVEN",
+    "defaultvalue": 0,
+    "displayName": "TGV: Breezing Through",
+    "hidden": 0,
+    "description": "Operate the TGV Duplex for 20 kilometres",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/d14086b9c05e2357ab3a04f26d1f79e601b1c9ff.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "LGV_TGV_200_DISTANCE_DRIVEN",
+    "defaultvalue": 0,
+    "displayName": "TGV: Over in a Flash",
+    "hidden": 0,
+    "description": "Operate the TGV Duplex for 200 kilometres",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/5dd5fe338acabcc1db36ae729561c7ecb2fbed7b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "LGV_TGV_PASSENGER_LOADS",
+    "defaultvalue": 0,
+    "displayName": "TGV: A French Connection",
+    "hidden": 0,
+    "description": "Complete 150 passenger boarding tasks in the TGV Duplex",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/e86e1ab0a74e1ba964055aa89d191e046f208381.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/ff98e204d727a59c6c1d0996b2ef187b868bac5c.jpg"
+  },
+  {
+    "name": "SEH_COMPLETE_TUTORIALS",
+    "defaultvalue": 0,
+    "displayName": "SEH: Trained and Ready",
+    "hidden": 0,
+    "description": "Complete all training modules on Southeastern High Speed",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/bd4b174b050a164c78887fb3dbc74176d7a88d10.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "SEH_COMPLETE_SCENARIOS",
+    "defaultvalue": 0,
+    "displayName": "SEH: All Rounder",
+    "hidden": 0,
+    "description": "Complete all scenarios on Southeastern High Speed",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/a96b6bb277789ab6d4149a77f0837aea2e97d9d0.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "SEH_COLLECT_ALL_COLLECTABLES",
+    "defaultvalue": 0,
+    "displayName": "SEH: High Speed Maintenance",
+    "hidden": 0,
+    "description": "Complete all route tasks on Southeastern High Speed",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/d2775314e2a0b739d9b8640172677e1b56577b12.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "SEH_1_SERVICE_COMPLETE",
+    "defaultvalue": 0,
+    "displayName": "SEH: London is Calling",
+    "hidden": 0,
+    "description": "Complete 1 service on Southeastern High Speed",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/9e53cb7da6368229fcb85ec6bcdbd4e8136dd221.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "SEH_100_SERVICES_COMPLETE",
+    "defaultvalue": 0,
+    "displayName": "SEH: Seeing Purple",
+    "hidden": 0,
+    "description": "Complete 100 services on Southeastern High Speed",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/f2f6b20a73958a16f9da4ee201acc102b62b6715.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "SEH_COMPLETE_SCENARIO_TT",
+    "defaultvalue": 0,
+    "displayName": "SEH: Flood Diversion",
+    "hidden": 0,
+    "description": "Complete Southeastern High Speed scenario 'Tricky Tunnels'",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/ffa7aae8378752e1d8f58ba931384ffeaefa7b79.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "SEH_COMPLETE_SCENARIO_JI",
+    "defaultvalue": 0,
+    "displayName": "SEH: Teamwork",
+    "hidden": 0,
+    "description": "Complete Southeastern High Speed scenario 'Joining In'",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/792e7ecab57dfd246910d987bfd0a5ecda7c4c53.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "SEH_PASSENGER_LOADS",
+    "defaultvalue": 0,
+    "displayName": "SEH: Loaded and Locked",
+    "hidden": 0,
+    "description": "Complete 150 passenger boarding tasks on Southeastern High Speed",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/c9fde4b8b3131e6251985aad41b654a1b24d803e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "CL3759_DISTANCE_DRIVEN",
+    "defaultvalue": 0,
+    "displayName": "CL375: Going the Distance",
+    "hidden": 0,
+    "description": "Operate the Class 375 for 200 miles",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/3bb7677880f9a0bc4d95907e6de0a8c9255a44f8.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "CL395_DISTANCE_DRIVEN",
+    "defaultvalue": 0,
+    "displayName": "CL395: Master of the Fast Line",
+    "hidden": 0,
+    "description": "Operate the Class 395 for 395 miles",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/9c9795e335aa6369e790bd27d26b153e9b5497da.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "CL4659_COMPLETE_TUTORIAL",
+    "defaultvalue": 0,
+    "displayName": "CL465: Training Complete",
+    "hidden": 0,
+    "description": "Complete the Class 465 Introduction training module",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/24699c68d03b3694cbc919c2c856fdfbdf8313da.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "CL4659_COMPLETE_SCENARIO",
+    "defaultvalue": 0,
+    "displayName": "CL465: Network Expansion",
+    "hidden": 0,
+    "description": "Complete the Class 465 scenario 'Temporary Contract'",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/679f6fac6e078b589b639c889544c930a1b5b830.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "SEH_CL4659_10_SERVICES_COMPLETED",
+    "defaultvalue": 0,
+    "displayName": "CL465: Overtime",
+    "hidden": 0,
+    "description": "Complete 10 services using the Class 465",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/ad18bc3d066a6d6254dca24a61133a8fecfb96a5.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "SEH_CL4659_MAX_SPEED_ACHIEVED",
+    "defaultvalue": 0,
+    "displayName": "CL465: No Time to Waste",
+    "hidden": 0,
+    "description": "Reach a speed of 75mph in the Class 465",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/a48aca97fdc9f18bd9b6fc285b06121c45abf2b0.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "SEH_CL4659_DISTANCE_DRIVEN",
+    "defaultvalue": 0,
+    "displayName": "CL465: To the Capital!",
+    "hidden": 0,
+    "description": "Operate the Class 465 for 200 miles",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/4b868e93ea01b5aa0905f99f6372063127ab107d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/ff98e204d727a59c6c1d0996b2ef187b868bac5c.jpg"
+  },
+  {
+    "name": "GWB_COMPLETE_CL52_TUTORIAL",
+    "defaultvalue": 0,
+    "displayName": "GWB: Go Western",
+    "hidden": 0,
+    "description": "Complete the GWB Class 52 Introduction training module",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/ee9c4f1790482b92898c212c273166bbaa8f5586.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/ff98e204d727a59c6c1d0996b2ef187b868bac5c.jpg"
+  },
+  {
+    "name": "GWB_COMPLETE_CL101_TUTORIAL",
+    "defaultvalue": 0,
+    "displayName": "GWB: Moving up a Gear",
+    "hidden": 0,
+    "description": "Complete the GWB Class 101 Introduction training module",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/65af74dec3f1277c6f83609415d75f45b770bcdf.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/ff98e204d727a59c6c1d0996b2ef187b868bac5c.jpg"
+  },
+  {
+    "name": "GWB_COMPLETE_SCENARIO_PL",
+    "defaultvalue": 0,
+    "displayName": "GWB: Collector",
+    "hidden": 0,
+    "description": "Complete Diesel Legends of the Great Western scenario 'Pick Up Line'",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/68bf6fb25ccf728cc5f38af57aefaad91cbffa7a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/ff98e204d727a59c6c1d0996b2ef187b868bac5c.jpg"
+  },
+  {
+    "name": "GWB_COMPLETE_SCENARIO_SS",
+    "defaultvalue": 0,
+    "displayName": "GWB: That 70's Snow",
+    "hidden": 0,
+    "description": "Complete Diesel Legends of the Great Western scenario 'Snow Slough'",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/2ac6ac2fb6c5ad6aff091a894bf5726e3df1de01.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/ff98e204d727a59c6c1d0996b2ef187b868bac5c.jpg"
+  },
+  {
+    "name": "GWB_COMPLETE_SCENARIO_AC",
+    "defaultvalue": 0,
+    "displayName": "GWB: Clocking Out",
+    "hidden": 0,
+    "description": "Complete Diesel Legends of the Great Western scenario 'All Change'",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/778a3f39202a02d60b5add429921441b0158c336.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "ARL_DISTANCE_TRAVELLED_PASSENGER",
+    "defaultvalue": 0,
+    "displayName": "ARL: Born to Ride",
+    "hidden": 0,
+    "description": "Rode as a passenger for 20 km on Arosa Line",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/bdf728e2bd8d7f23fb5e9f8e8102859f05430572.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "ARL_1_SERVICE_COMPLETED",
+    "defaultvalue": 0,
+    "displayName": "ARL: In the Hall of the Mountain King",
+    "hidden": 0,
+    "description": "Complete 1 service on Arosa Line",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/204dca4b1c429543cbd6a2511e02f5172fc2f075.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/ff98e204d727a59c6c1d0996b2ef187b868bac5c.jpg"
+  },
+  {
+    "name": "ARL_20_SERVICES_COMPLETED",
+    "defaultvalue": 0,
+    "displayName": "ARL: Misty Mountain Hop",
+    "hidden": 0,
+    "description": "Complete 20 services on Arosa Line",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/54ce20909f61ebf42f871ffdc8e65adf2ec065ae.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "ARL_GE44II_COMPLETED_TUTORIAL",
+    "defaultvalue": 0,
+    "displayName": "ARL: Heigh-ho, it's off to work we go",
+    "hidden": 0,
+    "description": "Complete the GE 44 II Introduction training module",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/14cfddd2c1a3964cf0fd28f68d8958f0773f1927.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "ARL_COLLECT_ALL_COLLECTABLES",
+    "defaultvalue": 0,
+    "displayName": "ARL: Stockpiler",
+    "hidden": 0,
+    "description": "Collect all route tasks on Arosa Line",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/773559f149414e56dfe5020dfd59ba8136e55e55.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "ARL_COMPLETE_SCENARIOS",
+    "defaultvalue": 0,
+    "displayName": "ARL: Alpine Performance",
+    "hidden": 0,
+    "description": "Complete all scenarios on Arosa Line",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/1fd87ed4ae8b962b639c71820941cbcf77401913.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "ARL_COMPLETE_SCENARIO_AS",
+    "defaultvalue": 0,
+    "displayName": "ARL: Southern Comforts",
+    "hidden": 0,
+    "description": "Complete Arosa Line scenario 'Southbound'",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/da7d3c10f8c52438246ad89f287b885b5386cf32.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "GE44II_RAIL_VEHICLE_LEVEL",
+    "defaultvalue": 0,
+    "displayName": "GE 44 II: Lokmeister",
+    "hidden": 0,
+    "description": "Reach Loco Level 10 in the GE 44 II",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/eb3857a832905aef8a1c38b57a4515c0116047fc.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "GE44II_DISTANCE_DRIVEN",
+    "defaultvalue": 0,
+    "displayName": "GE 44 II: In it for the long haul",
+    "hidden": 0,
+    "description": "Operate the GE 44 II for 100 km",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/2a7721996f7efd7830cfeae2dea468c172f91cc2.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "GE44II_MAX_SPEED_ACHIEVED",
+    "defaultvalue": 0,
+    "displayName": "GE 44 II: Around the Bend",
+    "hidden": 0,
+    "description": "Reach a speed of 35kph in the GE 44 II",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/44de28e207a6768c0753bc79bdfe8ab5f329bb21.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "CRR_COMPLETE_TUTORIALS",
+    "defaultvalue": 0,
+    "displayName": "CRR: Conquering Clinchfield",
+    "hidden": 0,
+    "description": "Complete all training modules on Clinchfield Railroad",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/09729013679296812622211997c4128eaa50a252.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "CRR_COMPLETE_SCENARIOS",
+    "defaultvalue": 0,
+    "displayName": "CRR: Clinchfield Completionist",
+    "hidden": 0,
+    "description": "Complete all scenarios on Clinchfield Railroad",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/93c932d7724e3cae07687ae3816b46e3777645ce.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "CRR_COLLECT_ALL_COLLECTABLES",
+    "defaultvalue": 0,
+    "displayName": "CRR: Finishing the Job",
+    "hidden": 0,
+    "description": "Complete all route tasks on Clinchfield Railroad",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/e8c2c3255f7e032e4dd62568d4f91bfbef8587ad.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "CRR_1_SERVICE_COMPLETE",
+    "defaultvalue": 0,
+    "displayName": "CRR: Long Road Ahead",
+    "hidden": 0,
+    "description": "Complete 1 service on Clinchfield Railroad",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/1e0f35004907ca50d545b45f34e8a1eee956b1f5.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "CRR_20_SERVICES_COMPLETE",
+    "defaultvalue": 0,
+    "displayName": "CRR: Mastering the Mountains",
+    "hidden": 0,
+    "description": "Complete 20 services on Clinchfield Railroad",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/6f0f6a121512ad42393b6b432db55cbbaed94f28.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/ff98e204d727a59c6c1d0996b2ef187b868bac5c.jpg"
+  },
+  {
+    "name": "CRR_COMPLETE_SCENARIO_LP",
+    "defaultvalue": 0,
+    "displayName": "CRR: Doing What You Can",
+    "hidden": 0,
+    "description": "Complete Clinchfield Railroad scenario 'Limited Power'",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/030f92efaed2af2a82f3ec2bbfe9cff1f638c436.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/ff98e204d727a59c6c1d0996b2ef187b868bac5c.jpg"
+  },
+  {
+    "name": "CRR_COMPLETE_SCENARIO_FA",
+    "defaultvalue": 0,
+    "displayName": "CRR: To the Top!",
+    "hidden": 0,
+    "description": "Complete Clinchfield Railroad scenario 'Fremont Ascent'",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/8024d0d9bc525dfed8975fadd677f1223625df0a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/ff98e204d727a59c6c1d0996b2ef187b868bac5c.jpg"
+  },
+  {
+    "name": "CRR_ROUTE_LEVEL_20",
+    "defaultvalue": 0,
+    "displayName": "CRR: Rocky Railroad",
+    "hidden": 0,
+    "description": "Reach Route Level 20 on Clinchfield Rail Road",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/b2f4f05f6ce60ffd8eb86074ae97e6a4e1cfa232.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "CRR_SD40_DISTANCE_DRIVEN",
+    "defaultvalue": 0,
+    "displayName": "SD40: Burning Diesel",
+    "hidden": 0,
+    "description": "Operate the CRR SD40 for 100 miles",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/5d7b2dd8ba8fcded529ab1ab8ac23095629ff946.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "CRR_F7_DISTANCE_DRIVEN",
+    "defaultvalue": 0,
+    "displayName": "F7: Bulldog Tamer",
+    "hidden": 0,
+    "description": "Operate the CRR F7 for 100 miles",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/af40481a9e8eac0f3437e626f632ce75d6935ded.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "HBK_COMPLETE_TUTORIALS",
+    "defaultvalue": 0,
+    "displayName": "HBK: Ready to Ride",
+    "hidden": 0,
+    "description": "Complete all training modules on Hauptstrecke Hamburg - Lübeck",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/f4b25e6786e9c48000a95f1b6a5ff106e66f67e7.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "HBK_COMPLETE_SCENARIOS",
+    "defaultvalue": 0,
+    "displayName": "HBK: Experienced Driver",
+    "hidden": 0,
+    "description": "Complete all scenarios on Hauptstrecke Hamburg - Lübeck",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/51bc16b6cdd6e67249c771d9235d2bdc85f1fa69.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "HBK_COLLECT_ALL_COLLECTABLES",
+    "defaultvalue": 0,
+    "displayName": "HBK: Customer Care",
+    "hidden": 0,
+    "description": "Complete all route tasks on Hauptstrecke Hamburg - Lübeck",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/02913d3972e54437e7052a23b4a06d5f6fd9b54b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "HBK_1_SERVICE_COMPLETED",
+    "defaultvalue": 0,
+    "displayName": "HBK: First of Many",
+    "hidden": 0,
+    "description": "Complete 1 service on Hauptstrecke Hamburg - Lübeck",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/b8d792452ca60d665f71c7a3f5e8e9b02ae5ac39.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "HBK_50_SERVICES_COMPLETED",
+    "defaultvalue": 0,
+    "displayName": "HBK: From City to Coast",
+    "hidden": 0,
+    "description": "Complete 50 services on Hauptstrecke Hamburg - Lübeck",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/eaa7f60a0c109cb2a098704738f7d3fc99e3eaa5.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "HBK_COMPLETE_SCENARIO_BR",
+    "defaultvalue": 0,
+    "displayName": "HBK: Back to Hamburg",
+    "hidden": 0,
+    "description": "Complete Hauptstrecke Hamburg - Lübeck scenario 'Bargteheide Return'",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/e044bdca3b8ee44f6c42d90d4a78421aa19865cd.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "HBK_COMPLETE_SCENARIO_IN",
+    "defaultvalue": 0,
+    "displayName": "HBK: Northernly Freeze",
+    "hidden": 0,
+    "description": "Complete Hauptstrecke Hamburg - Lübeck scenario 'Ice Night'",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/2b1467f577cbf640aaa4e6c0ea1acd485f2faac0.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "HBK_ROUTE_LEVEL_20",
+    "defaultvalue": 0,
+    "displayName": "HBK: Mastering the Line",
+    "hidden": 0,
+    "description": "Reach Route Level 20 on Hauptstrecke Hamburg - Lübeck",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/844ff2a1a74bcd75f7bf3453e08a465f596da991.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "HBK_BR112_DISTANCE_DRIVEN",
+    "defaultvalue": 0,
+    "displayName": "BR 112: Adding Up",
+    "hidden": 0,
+    "description": "Operate the DB BR 112 for 112 kilometres",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/0de024e634f49c20555cdc9a97f969b4e719a180.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "HBK_BR112_MAX_SPEED",
+    "defaultvalue": 0,
+    "displayName": "BR 112: Set and Achieved",
+    "hidden": 0,
+    "description": "Reach a speed of 100km/h in the DB BR 112",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/4a495f795cf696111fdb71defb8be9ea03352e52.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "BR101_COMPLETE_TUTORIAL",
+    "defaultvalue": 0,
+    "displayName": "BR 101: The Perfectionist",
+    "hidden": 0,
+    "description": "Complete the DB BR 101 Introduction training module",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/020f8450ed48ff72b5511ac023a611d19dffd24e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/ff98e204d727a59c6c1d0996b2ef187b868bac5c.jpg"
+  },
+  {
+    "name": "BR101_COMPLETE_SCENARIO",
+    "defaultvalue": 0,
+    "displayName": "BR 101: Battling the Bahn",
+    "hidden": 0,
+    "description": "Complete the DB BR 101 scenario 'All Together'",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/476f542389c912c95d458d6bbf3b2a88d5d9e167.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "BR101_15_SERVICES_COMPLETED",
+    "defaultvalue": 0,
+    "displayName": "BR 101: Into the City",
+    "hidden": 0,
+    "description": "Complete 15 services using the DB BR 101",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/d6b7d3ab237b175884ab14ea12798c45edd7b600.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "BR101_MAX_SPEED",
+    "defaultvalue": 0,
+    "displayName": "BR 101: Express Service",
+    "hidden": 0,
+    "description": "Reach a speed of 101 km/h in the DB BR 101",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/b94e54deb55bea77b63214548a3b824289f90c0a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "BR101_DISTANCE_DRIVEN",
+    "defaultvalue": 0,
+    "displayName": "BR 101: Boss of the Bahn",
+    "hidden": 0,
+    "description": "Operate the DB BR 101 for 101 kilometres",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/4cda518b727ca17578344aff3134f4fa7dce58c5.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "CCL_COMPLETE_TUTORIALS",
+    "defaultvalue": 0,
+    "displayName": "CCL: 314 Master",
+    "hidden": 0,
+    "description": "Complete all training modules on Cathcart Circle Line",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/18d72cdf2733736be98be4df48cb732045f3d53e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "CCL_COMPLETE_SCENARIOS",
+    "defaultvalue": 0,
+    "displayName": "CCL: Getting Dizzy",
+    "hidden": 0,
+    "description": "Complete all scenarios on Cathcart Circle Line",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/945c2eeb523ef7837603e5b50c7a0b3ee824c0ac.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "CCL_COLLECT_ALL_COLLECTABLES",
+    "defaultvalue": 0,
+    "displayName": "CCL: Replanted",
+    "hidden": 0,
+    "description": "Complete all route tasks on Cathcart Circle Line",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/659aae0ccbfbb3c161f9f6b9c7099e4010d290fb.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "CCL_COMPLETE_1_SERVICE",
+    "defaultvalue": 0,
+    "displayName": "CCL: Circle Cycle",
+    "hidden": 0,
+    "description": "Complete 1 service on Cathcart Circle Line",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/27e9b27967fa4727b9a79523c0cbbe7c529630f8.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "CCL_COMPLETE_50_SERVICES",
+    "defaultvalue": 0,
+    "displayName": "CCL: Cruising the Clyde",
+    "hidden": 0,
+    "description": "Complete 50 services on Cathcart Circle Line",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/0d0c0e1119fe588638e9afad7641ffa8d26b9e34.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "CCL_COMPLETE_SCENARIO_AA",
+    "defaultvalue": 0,
+    "displayName": "CCL: Right Round",
+    "hidden": 0,
+    "description": "Complete Cathcart Circle Line scenario 'Around and Around'",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/6456fa8bb7f4d1566dc49dfac272386ee6e8ae08.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "CCL_COMPLETE_SCENARIO_ET",
+    "defaultvalue": 0,
+    "displayName": "CCL: Away Day",
+    "hidden": 0,
+    "description": "Complete Cathcart Circle Line scenario 'Extra Time'",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/ddde1a51e058dccc3e1b57278b5319f3ba07930a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "CCL_ROUTE_LEVEL_20",
+    "defaultvalue": 0,
+    "displayName": "CCL: Honorary Glaswegian",
+    "hidden": 0,
+    "description": "Reach Route Level 20 on Cathcart Circle Line",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/4602fd45f9e0d85d6d1531a37edb6975be50a9eb.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "CCL_CL314_DISTANCE_DRIVEN",
+    "defaultvalue": 0,
+    "displayName": "CL314: 500 More",
+    "hidden": 0,
+    "description": "Operate the Class 314 for 500 miles",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/889ea31ee51e6a3fd2168aed0a42aca6c57c96c2.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "CCL_Cl314_MAX_SPEED",
+    "defaultvalue": 0,
+    "displayName": "CL314: To the Max",
+    "hidden": 0,
+    "description": "Reach a speed of 70mph in the Class 314",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/4b5ac4233c016f580284c61ce26309fb6bf99b72.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "CL313_COMPLETE_TUTORIAL",
+    "defaultvalue": 0,
+    "displayName": "CL313: Feeling Electric",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/9fd4b2d8aa5a83f1356914b042aef7b056e2725d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "CL313_COMPLETE_SCENARIO",
+    "defaultvalue": 0,
+    "displayName": "CL313: Lonely Road",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/235b3a7c2b0fe68971a06949866e508611fdce88.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/ff98e204d727a59c6c1d0996b2ef187b868bac5c.jpg"
+  },
+  {
+    "name": "CL313_SERVICES_COMPLETED",
+    "defaultvalue": 0,
+    "displayName": "CL313: Swinging Around Seaford",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/8757875f02adf3b23890edd523d0c0925aa4f318.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "CL313_MAX_SPEED",
+    "defaultvalue": 0,
+    "displayName": "CL313: In a Flash",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/71f113b068d3f1ff246213368afc1b4a6ed70432.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "CL313_DISTANCE_DRIVEN",
+    "defaultvalue": 0,
+    "displayName": "CL313: Line Rider",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/8a19f6b3e4bf1387dcdafb99e4ca7980d7d24e0a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/ff98e204d727a59c6c1d0996b2ef187b868bac5c.jpg"
+  },
+  {
+    "name": "CCB_COMPLETE_TUTORIALS",
+    "defaultvalue": 0,
+    "displayName": "CC: Welcome to the Rail World",
+    "hidden": 0,
+    "description": "Complete all training modules on Cane Creek",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/aa9ced376875a8b831c0d8926429e4de50039ee6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/ff98e204d727a59c6c1d0996b2ef187b868bac5c.jpg"
+  },
+  {
+    "name": "CCB_COMPLETE_SCENARIOS",
+    "defaultvalue": 0,
+    "displayName": "CC: Serves all the West",
+    "hidden": 0,
+    "description": "Complete all scenarios on Cane Creek",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/68d8d06deb266af4fe372eec4eb0b8d637f87920.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/ff98e204d727a59c6c1d0996b2ef187b868bac5c.jpg"
+  },
+  {
+    "name": "CCB_COLLECT_ALL_COLLECTABLES",
+    "defaultvalue": 0,
+    "displayName": "CC: Pioneer",
+    "hidden": 0,
+    "description": "Complete all route tasks on Cane Creek",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/704468cd882648a6e9d8b4e426e64a10c9d56b85.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/ff98e204d727a59c6c1d0996b2ef187b868bac5c.jpg"
+  },
+  {
+    "name": "CCB_COMPLETE_1_SERVICE",
+    "defaultvalue": 0,
+    "displayName": "CC: One of Many",
+    "hidden": 0,
+    "description": "Complete 1 service on Cane Creek",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/d56a2b9e67652e2d72548347b61789d7b11fde54.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/ff98e204d727a59c6c1d0996b2ef187b868bac5c.jpg"
+  },
+  {
+    "name": "CCB_COMPLETE_20_SERVICES",
+    "defaultvalue": 0,
+    "displayName": "CC: Many Years of Service",
+    "hidden": 0,
+    "description": "Complete 20 services on Cane Creek",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/77b45c2e05a4c1708257e1389e727559a39c351b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/ff98e204d727a59c6c1d0996b2ef187b868bac5c.jpg"
+  },
+  {
+    "name": "CCB_COMPLETE_SCENARIO",
+    "defaultvalue": 0,
+    "displayName": "CC: In it for the Long Haul",
+    "hidden": 0,
+    "description": "Complete Cane Creek scenario 'LDG-51 Part 3: Potash to Thompson'",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/793a4f2a2ff0f19060c1d36328e1dc4141a611c5.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/ff98e204d727a59c6c1d0996b2ef187b868bac5c.jpg"
+  },
+  {
+    "name": "CCB_AC400CW_DISTANCE_DRIVEN_5",
+    "defaultvalue": 0,
+    "displayName": "AC4400: First Steps in the AC",
+    "hidden": 0,
+    "description": "Operate the UP AC4400CW for 5 miles",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/2f0e8f5398782519b0923e5a244255429884275e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/ff98e204d727a59c6c1d0996b2ef187b868bac5c.jpg"
+  },
+  {
+    "name": "CCB_AC400CW_DISTANCE_DRIVEN_500",
+    "defaultvalue": 0,
+    "displayName": "AC4400: AC Expert",
+    "hidden": 0,
+    "description": "Operate the UP AC4400CW for 500 miles",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/bc29f45135ce596e2100ef623e32dc5869c0da4d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/ff98e204d727a59c6c1d0996b2ef187b868bac5c.jpg"
+  },
+  {
+    "name": "CCB_SD402_DISTANCE_DRIVEN_5",
+    "defaultvalue": 0,
+    "displayName": "SD40-2: First Steps in the Dash-2",
+    "hidden": 0,
+    "description": "Operate the UP SD40-2 for 5 miles",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/b86f31a5f5cc2ba2d9643e09aa4dd19f95b611cd.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/ff98e204d727a59c6c1d0996b2ef187b868bac5c.jpg"
+  },
+  {
+    "name": "CCB_SD402_DISTANCE_DRIVEN_500",
+    "defaultvalue": 0,
+    "displayName": "SD40-2:  Dash-2 Veteran",
+    "hidden": 0,
+    "description": "Operate the UP SD40-2 for 500 miles",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/941ad6ed3ac43710ea122dcccf70b11475dd0083.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/ff98e204d727a59c6c1d0996b2ef187b868bac5c.jpg"
+  },
+  {
+    "name": "BPE_COMPLETE_TUTORIALS",
+    "defaultvalue": 0,
+    "displayName": "NEC BP: Full of Beans",
+    "hidden": 0,
+    "description": "Complete all training modules on Boston - Providence",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/e9a3ed409430063679439742716123da59a4cf93.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "BPE_COMPLETE_SCENARIOS",
+    "defaultvalue": 0,
+    "displayName": "NEC BP: Patriot",
+    "hidden": 0,
+    "description": "Complete all scenarios on Boston - Providence",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/cc7f04e95929ee081db06c6294a8033ffa4db268.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "BPE_COLLECT_ALL_COLLECTABLES",
+    "defaultvalue": 0,
+    "displayName": "NEC BP: Job Done",
+    "hidden": 0,
+    "description": "Complete all route tasks on Boston - Providence",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/a6e8b4d4ea42814c6cb78ba7988853d2a78b9e7b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "BPE_COMPLETE_1_SERVICE",
+    "defaultvalue": 0,
+    "displayName": "NEC BP: Teeing off",
+    "hidden": 0,
+    "description": "Complete 1 service on Boston - Providence",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/04e70779c50cf69cb07536f43e10ad5392a2da08.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "BPE_COMPLETE_50_SERVICES",
+    "defaultvalue": 0,
+    "displayName": "NEC BP: What a Hardo!",
+    "hidden": 0,
+    "description": "Complete 50 services on Boston - Providence",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/d046d34b7931b7c80e278ef22c8f6cfbc8a71e01.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "BPE_COMPLETE_SCENARIO_CI",
+    "defaultvalue": 0,
+    "displayName": "NEC BP: Tick Tock",
+    "hidden": 0,
+    "description": "Complete Boston - Providence scenario 'Cold as Ice'",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/58dd869db41439f31ffa7635f282f3be6deda79b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "BPE_COMPLETE_PASSENGER_LOADS",
+    "defaultvalue": 0,
+    "displayName": "NEC BP: Wicked Busy",
+    "hidden": 0,
+    "description": "Complete 400 passenger boarding tasks using the MBTA F40PH-3C",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/911658368695e8cbc5842ab371c969d384cc6eed.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "BPE_ROUTE_LEVEL",
+    "defaultvalue": 0,
+    "displayName": "NEC BP: Plant the Ivy",
+    "hidden": 0,
+    "description": "Reach Route Level 20 on Boston - Providence",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/f215c059b91b16442073f8d772e9b32dded37054.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "BPE_ACS64_DISTANCE_DRIVEN",
+    "defaultvalue": 0,
+    "displayName": "NEC BP: Northeast Sprinter",
+    "hidden": 0,
+    "description": "Operate the Amtrak ACS-64 for 640 miles",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/78174bad9b5e3dc85275216ae7daa0cfbf14a0da.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "BPE_F40PH3C_DISTANCE_DRIVEN",
+    "defaultvalue": 0,
+    "displayName": "NEC BP: Spartan",
+    "hidden": 0,
+    "description": "Operate the MBTA F40PH-3C for 300 miles",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/96ba2c256fefdc85902853d28944085f57ac24af.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "DRA_COMPLETE_TUTORIALS",
+    "defaultvalue": 0,
+    "displayName": "DRA: Alleskönner",
+    "hidden": 0,
+    "description": "Complete all the training modules on Nahverkehr Dresden",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/2d3f5cbbb8a210bf26dfeca101cbc1818566b392.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/ff98e204d727a59c6c1d0996b2ef187b868bac5c.jpg"
+  },
+  {
+    "name": "DRA_COMPLETE_SCENARIOS",
+    "defaultvalue": 0,
+    "displayName": "DRA: Having Fünf",
+    "hidden": 0,
+    "description": "Complete all the scenarios on Nahverkehr Dresden",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/0fa9484028b8ecc0d9ef01a2737cfc85c86050cc.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "DRA_COLLECT_ALL_COLLECTABLES",
+    "defaultvalue": 0,
+    "displayName": "DRA: Gnome Run",
+    "hidden": 0,
+    "description": "Complete all the route tasks on Nahverkehr Dresden",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/a543336fb3cb94b489d41e854d1fbca0a26c1775.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/ff98e204d727a59c6c1d0996b2ef187b868bac5c.jpg"
+  },
+  {
+    "name": "DRA_COMPLETE_1_SERVICE",
+    "defaultvalue": 0,
+    "displayName": "DRA: Customer Service",
+    "hidden": 0,
+    "description": "Complete 1 service on Nahverkehr Dresden",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/8afef5cf1af64bebbffb06cce3f5520533777577.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "DRA_COMPLETE_50_SERVICES",
+    "defaultvalue": 0,
+    "displayName": "DRA: Served",
+    "hidden": 0,
+    "description": "Complete 50 service on Nahverkehr Dresden",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/9525a210cb23e6afeea88917e764f2c185cf2da4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "DRA_COMPLETE_SCENARIO_TL",
+    "defaultvalue": 0,
+    "displayName": "DRA: The Coswig Conga",
+    "hidden": 0,
+    "description": "Complete Nahverkehr Dresden scenario “Towing the Line”",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/886ea5a23c711570bf7f7e583e556d314a5e496c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "DRA_COMPLETE_SCENARIO_TBA",
+    "defaultvalue": 0,
+    "displayName": "DRA: Fellowship",
+    "hidden": 0,
+    "description": "Complete Nahverkehr Dresden scenario “There and Back Again”",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/c3178b0e2b480ff8a4676a4287925e6f1e9b2b88.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "DRA_ROUTE_LEVEL",
+    "defaultvalue": 0,
+    "displayName": "DRA: Inc-Radebeul",
+    "hidden": 0,
+    "description": "Reach Route Level 20 on Nahverkehr Dresden",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/a2fecdc0f29273908e3d7f4cbc1fb3045207811f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "DRA_BR4422_DISTANCE_DRIVEN",
+    "defaultvalue": 0,
+    "displayName": "DRA: Talented",
+    "hidden": 0,
+    "description": "Operate the DB BR442 for 442 kilometres",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/73f2fca2e1e8d2bb381a57f08ba65234241b8953.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/ff98e204d727a59c6c1d0996b2ef187b868bac5c.jpg"
+  },
+  {
+    "name": "LBN_COMPLETE_TUTORIALS",
+    "defaultvalue": 0,
+    "displayName": "LBN: Bright Star",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/541fda9f64e64d51eec53d5b64639b6e9f0b9586.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "LBN_COMPLETE_SCENARIOS",
+    "defaultvalue": 0,
+    "displayName": "LBN: Pier Review",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/e83865e1556a9611e0482c01cf930c0529f9c614.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "LBN_COLLECT_ALL_COLLECTABLES",
+    "defaultvalue": 0,
+    "displayName": "LBN: Gull Up",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/123a62e3ca5f0e8b98507477ca13a5a4b5e9967c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "LBN_COMPLETE_1_SERVICE",
+    "defaultvalue": 0,
+    "displayName": "LBN: Gone Surfin'",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/05e551128800f3ed2408869b8a8736f18a53a997.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/ff98e204d727a59c6c1d0996b2ef187b868bac5c.jpg"
+  },
+  {
+    "name": "LBN_COMPLETE_50_SERVICES",
+    "defaultvalue": 0,
+    "displayName": "LBN: Royal Visitors",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/8cfff1be7421d8d5885ec858bbafb066c1d42e3e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "LBN_COMPLETE_SCENARIO_REROUTED",
+    "defaultvalue": 0,
+    "displayName": "LBN: Battersea-side",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/e56d8b6d0de6701668f93523f07f8b5f1f2dc8ac.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "LBN_COMPLETE_SCENARIO_LONGHAUL",
+    "defaultvalue": 0,
+    "displayName": "LBN: Extension",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/f531293978a93daf501e2b7c567ea33cfbcf95fc.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/ff98e204d727a59c6c1d0996b2ef187b868bac5c.jpg"
+  },
+  {
+    "name": "LBN_ROUTE_LEVEL",
+    "defaultvalue": 0,
+    "displayName": "LBN: Holiday Maker",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/b8b691f95f3201fb7d23ce51c736d2db3746b429.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "LBN_DISTANCE_PASSENGER",
+    "defaultvalue": 0,
+    "displayName": "LBN: Watching the World",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/40a6f96960929565afdbbd107dda6f77ec03c275.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
+  },
+  {
+    "name": "LBN_CL387_DISTANCE_DRIVEN",
+    "defaultvalue": 0,
+    "displayName": "LBN: Gatwick Express",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/fe1f7746cc6b2fa9b6d7621d1273e9cd5758d6ea.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282590/694c742cbc0ec03ad659e8d27c1db316a41504d3.jpg"
   }
 ]

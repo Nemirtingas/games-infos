@@ -1,42 +1,52 @@
-﻿{
-  "night_reached": {
-    "description": "Night reached",
-    "value": 0
+[
+  {
+    "name": "night_reached",
+    "defaultvalue": 0,
+    "displayName": "Night reached"
   },
-  "total_experience": {
-    "description": "Total experience",
-    "value": 0
+  {
+    "name": "total_experience",
+    "defaultvalue": 0,
+    "displayName": "Total experience"
   },
-  "chests_opened": {
-    "description": "Chests opened",
-    "value": 0
+  {
+    "name": "chests_opened",
+    "defaultvalue": 0,
+    "displayName": "Chests opened"
   },
-  "wisps_caught": {
-    "description": "Wisps caught",
-    "value": 0
+  {
+    "name": "wisps_caught",
+    "defaultvalue": 0,
+    "displayName": "Wisps caught"
   },
-  "talents": {
-    "description": "Talents",
-    "value": 0
+  {
+    "name": "talents",
+    "defaultvalue": 0,
+    "displayName": "Talents"
   },
-  "creatures_encountered": {
-    "description": "Creatures encountered",
-    "value": 0
+  {
+    "name": "creatures_encountered",
+    "defaultvalue": 0,
+    "displayName": "Creatures encountered"
   },
-  "min_tool_level": {
-    "description": "Tool level of the lowest tool",
-    "value": 0
+  {
+    "name": "min_tool_level",
+    "defaultvalue": 0,
+    "displayName": "Tool level of the lowest tool"
   },
-  "max_tool_level": {
-    "description": "Tool level of the highest tool",
-    "value": 0
+  {
+    "name": "max_tool_level",
+    "defaultvalue": 0,
+    "displayName": "Tool level of the highest tool"
   },
-  "runestones_activated": {
-    "description": "Runestones activated",
-    "value": 0
+  {
+    "name": "runestones_activated",
+    "defaultvalue": 0,
+    "displayName": "Runestones activated"
   },
-  "total_playtime": {
-    "description": "Total playtime",
-    "value": 0
+  {
+    "name": "total_playtime",
+    "defaultvalue": 0,
+    "displayName": "Total playtime"
   }
-}
+]

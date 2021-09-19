@@ -1,34 +1,42 @@
-﻿{
-  "elements_unlocked": {
-    "description": "Elements",
-    "value": 0
+[
+  {
+    "name": "elements_unlocked",
+    "defaultvalue": 0,
+    "displayName": "Elements"
   },
-  "ships_collected": {
-    "description": "Ships",
-    "value": 0
+  {
+    "name": "ships_collected",
+    "defaultvalue": 0,
+    "displayName": "Ships"
   },
-  "collectibles": {
-    "description": "Collectibles",
-    "value": 0
+  {
+    "name": "collectibles",
+    "defaultvalue": 0,
+    "displayName": "Collectibles"
   },
-  "conversions": {
-    "description": "Conversions",
-    "value": 0
+  {
+    "name": "conversions",
+    "defaultvalue": 0,
+    "displayName": "Conversions"
   },
-  "onslaught_stars": {
-    "description": "Stars",
-    "value": 0
+  {
+    "name": "onslaught_stars",
+    "defaultvalue": 0,
+    "displayName": "Stars"
   },
-  "vs_games": {
-    "description": "VsGames",
-    "value": 0
+  {
+    "name": "vs_games",
+    "defaultvalue": 0,
+    "displayName": "VsGames"
   },
-  "revenge": {
-    "description": "Revenge",
-    "value": 0
+  {
+    "name": "revenge",
+    "defaultvalue": 0,
+    "displayName": "Revenge"
   },
-  "player_kills": {
-    "description": "PlayerKills",
-    "value": 0
+  {
+    "name": "player_kills",
+    "defaultvalue": 0,
+    "displayName": "PlayerKills"
   }
-}
+]

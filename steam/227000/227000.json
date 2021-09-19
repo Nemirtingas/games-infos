@@ -1,8 +1,8 @@
-﻿{
+{
   "Dlcs": {},
   "Name": "Primordia",
   "AppId": "227000",
-  "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/227000/header.jpg?t=1573406095",
+  "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/227000/header.jpg?t=1630246419",
   "Languages": [
     "english",
     "french",
@@ -11,7 +11,7 @@
   ],
   "Platforms": {
     "windows": true,
-    "mac": false,
-    "linux": false
+    "mac": true,
+    "linux": true
   }
 }

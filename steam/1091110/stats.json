@@ -1,26 +1,32 @@
-﻿{
-  "biggest_mk": {
-    "description": "Biggest Multikill",
-    "value": 0
+[
+  {
+    "name": "biggest_mk",
+    "defaultvalue": 0,
+    "displayName": "Biggest Multikill"
   },
-  "total_kills": {
-    "description": "Total Kills",
-    "value": 0
+  {
+    "name": "total_kills",
+    "defaultvalue": 0,
+    "displayName": "Total Kills"
   },
-  "best_quick": {
-    "description": "Best \"Quick Death\" Time",
-    "value": 0
+  {
+    "name": "best_quick",
+    "defaultvalue": 0,
+    "displayName": "Best \"Quick Death\" Time"
   },
-  "best_barn": {
-    "description": "Best \"Barn Massacre\" Time",
-    "value": 0
+  {
+    "name": "best_barn",
+    "defaultvalue": 0,
+    "displayName": "Best \"Barn Massacre\" Time"
   },
-  "best_tower": {
-    "description": "Best \"Silo Tower Defence\" Time",
-    "value": 0
+  {
+    "name": "best_tower",
+    "defaultvalue": 0,
+    "displayName": "Best \"Silo Tower Defence\" Time"
   },
-  "dat": {
-    "description": "Data",
-    "value": 0
+  {
+    "name": "dat",
+    "defaultvalue": 0,
+    "displayName": "Data"
   }
-}
+]

@@ -1,98 +1,122 @@
-﻿{
-  "LevelsGainedTracker": {
-    "description": "Tracker Levels Gained",
-    "value": 0
+[
+  {
+    "name": "LevelsGainedTracker",
+    "defaultvalue": 0,
+    "displayName": "Tracker Levels Gained"
   },
-  "LevelsGainedBruiser": {
-    "description": "Bruiser Levels Gained",
-    "value": 0
+  {
+    "name": "LevelsGainedBruiser",
+    "defaultvalue": 0,
+    "displayName": "Bruiser Levels Gained"
   },
-  "LevelsGainedScrapper": {
-    "description": "Scrapper Levels Gained",
-    "value": 0
+  {
+    "name": "LevelsGainedScrapper",
+    "defaultvalue": 0,
+    "displayName": "Scrapper Levels Gained"
   },
-  "LevelsGainedLeader": {
-    "description": "Leader Levels Gained",
-    "value": 0
+  {
+    "name": "LevelsGainedLeader",
+    "defaultvalue": 0,
+    "displayName": "Leader Levels Gained"
   },
-  "LevelsGainedMedic": {
-    "description": "Medic Levels Gained",
-    "value": 0
+  {
+    "name": "LevelsGainedMedic",
+    "defaultvalue": 0,
+    "displayName": "Medic Levels Gained"
   },
-  "LevelsGainedTechnician": {
-    "description": "Technician Levels Gained",
-    "value": 0
+  {
+    "name": "LevelsGainedTechnician",
+    "defaultvalue": 0,
+    "displayName": "Technician Levels Gained"
   },
-  "NumGamesStarted": {
-    "description": "Campaigns Started",
-    "value": 0
+  {
+    "name": "NumGamesStarted",
+    "defaultvalue": 0,
+    "displayName": "Campaigns Started"
   },
-  "NumArenaGamesStarted": {
-    "description": "Arena Games Started",
-    "value": 0
+  {
+    "name": "NumArenaGamesStarted",
+    "defaultvalue": 0,
+    "displayName": "Arena Games Started"
   },
-  "NumGamesWon": {
-    "description": "Campaigns Won",
-    "value": 0
+  {
+    "name": "NumGamesWon",
+    "defaultvalue": 0,
+    "displayName": "Campaigns Won"
   },
-  "NumArenaGamesWon": {
-    "description": "Arena Games Won",
-    "value": 0
+  {
+    "name": "NumArenaGamesWon",
+    "defaultvalue": 0,
+    "displayName": "Arena Games Won"
   },
-  "NumGamesWonHardcore": {
-    "description": "Hardcore Campaigns Won",
-    "value": 0
+  {
+    "name": "NumGamesWonHardcore",
+    "defaultvalue": 0,
+    "displayName": "Hardcore Campaigns Won"
   },
-  "NumShipsVisited": {
-    "description": "Ships Visited",
-    "value": 0
+  {
+    "name": "NumShipsVisited",
+    "defaultvalue": 0,
+    "displayName": "Ships Visited"
   },
-  "NumEnemiesKilled": {
-    "description": "Enemies Killed",
-    "value": 0
+  {
+    "name": "NumEnemiesKilled",
+    "defaultvalue": 0,
+    "displayName": "Enemies Killed"
   },
-  "TotalMedicalCosts": {
-    "description": "Total Medical Costs",
-    "value": 0
+  {
+    "name": "TotalMedicalCosts",
+    "defaultvalue": 0,
+    "displayName": "Total Medical Costs"
   },
-  "LevelsGainedMiner": {
-    "description": "Miner Levels Gained",
-    "value": 0
+  {
+    "name": "LevelsGainedMiner",
+    "defaultvalue": 0,
+    "displayName": "Miner Levels Gained"
   },
-  "LevelsGainedInventor": {
-    "description": "Inventor Levels Gained",
-    "value": 0
+  {
+    "name": "LevelsGainedInventor",
+    "defaultvalue": 0,
+    "displayName": "Inventor Levels Gained"
   },
-  "BonusUnlockedTracker": {
-    "description": "",
-    "value": 0
+  {
+    "name": "BonusUnlockedTracker",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "BonusUnlockedBruiser": {
-    "description": "",
-    "value": 0
+  {
+    "name": "BonusUnlockedBruiser",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "BonusUnlockedScrapper": {
-    "description": "",
-    "value": 0
+  {
+    "name": "BonusUnlockedScrapper",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "BonusUnlockedLeader": {
-    "description": "",
-    "value": 0
+  {
+    "name": "BonusUnlockedLeader",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "BonusUnlockedMedic": {
-    "description": "",
-    "value": 0
+  {
+    "name": "BonusUnlockedMedic",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "BonusUnlockedTechnician": {
-    "description": "",
-    "value": 0
+  {
+    "name": "BonusUnlockedTechnician",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "BonusUnlockedMiner": {
-    "description": "",
-    "value": 0
+  {
+    "name": "BonusUnlockedMiner",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "BonusUnlockedInventor": {
-    "description": "",
-    "value": 0
+  {
+    "name": "BonusUnlockedInventor",
+    "defaultvalue": 0,
+    "displayName": ""
   }
-}
+]

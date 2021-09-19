@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "name": "Achievement_Act1",
     "defaultvalue": 0,
@@ -184,7 +184,7 @@
     "defaultvalue": 0,
     "displayName": "First Class Hero",
     "hidden": 0,
-    "description": "Reach level 60 with any class.",
+    "description": "Reach level 60 with any of the following classes: Duskmage, Forged, Railmaster, Sharpshooter.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1030210/5bdf330190e566f3a1ec308e8450f4f7afd527e6.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1030210/6172db69b0f643dec167ff31f58e5a8ef6438a73.jpg"
   },
@@ -238,7 +238,7 @@
     "defaultvalue": 0,
     "displayName": "High Class Hero",
     "hidden": 0,
-    "description": "Reach level 60 with 4 different classes.",
+    "description": "Reach level 60 with 4 different classes: Duskmage, Forged, Railmaster, Sharpshooter.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1030210/0aa21e0e12617c4634adcec0032808b34f811317.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1030210/0254a93dbf1afb57111e88bbe88e03372b08302b.jpg"
   },
@@ -274,7 +274,7 @@
     "defaultvalue": 0,
     "displayName": "Geared Up",
     "hidden": 0,
-    "description": "Pick up armor of each type.",
+    "description": "Pick up each type of armor: Boots, Chest, Gloves, Hatch, Helm, Locomotion, Legs, Shoulders.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1030210/279f6f70cd7073b36f3164036777e2d4918a6ab1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1030210/39227ef22ef268c8a60bb3329ad45faee640d572.jpg"
   },
@@ -283,7 +283,7 @@
     "defaultvalue": 0,
     "displayName": "Weapons of Choice",
     "hidden": 0,
-    "description": "Pick up a weapon of each type.",
+    "description": "Pick up each type of weapon: Bow, Chest Cannon, Digitus, Focus, Greatweapon, Hammer, Mace, Pistol, Rifle, Staff, Sword.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1030210/cbdf5f5a94ef70e9bd26a30e3786aba5f29812ce.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1030210/bb10e9ab61a25197d4f537300a1c5300de1824cd.jpg"
   },
@@ -438,16 +438,16 @@
     "hidden": 0,
     "description": "Defeat Ordrak in the Clockwork Core.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1030210/9d425afec94ee7ad99ec348b59ba92cab0910bb7.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1030210/3191f526872f7066f33e1356aa184abab2d5dcfa.jpg"
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1030210/2150bf1d47723adfab3a91ec62075dc96b16d16b.jpg"
   },
   {
     "name": "Achievement_LegendarySet",
     "defaultvalue": 0,
     "displayName": "Legendary Set",
     "hidden": 0,
-    "description": "Equip 7 different legendary sets.",
+    "description": "Equip each legendary set: Arc-Powered, Celestial, Cosmic Mountain King, Musketeer, Skittering, Woodsbeast.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1030210/3996429af06f70e7a12f1fef3006e1cb47c4403e.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1030210/3191f526872f7066f33e1356aa184abab2d5dcfa.jpg"
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1030210/8d5110fa371a836bf4b0772d7c7189a89b41cd11.jpg"
   },
   {
     "name": "Achievement_LegendarySetCelestial",
@@ -456,7 +456,7 @@
     "hidden": 0,
     "description": "Equip the legendary Celestial set.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1030210/964e1d91bb7c2cbff0e749356efef444c5fda229.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1030210/3191f526872f7066f33e1356aa184abab2d5dcfa.jpg"
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1030210/724a3de37b48a6b82886c34c148709b945fde8a6.jpg"
   },
   {
     "name": "Achievement_LegendarySetCosmic",
@@ -465,7 +465,7 @@
     "hidden": 0,
     "description": "Equip the legendary Cosmic set.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1030210/8ca6483f7016056b6c3d2e695d0efc0ddfaf3b02.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1030210/3191f526872f7066f33e1356aa184abab2d5dcfa.jpg"
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1030210/97c1d5ec3a1cbf9281992fe7fa71b65dbe5392b9.jpg"
   },
   {
     "name": "Achievement_LegendarySetWoodsbeast",
@@ -474,7 +474,7 @@
     "hidden": 0,
     "description": "Equip the legendary Woodsbeast set.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1030210/b9bdfe03cb5fe4e257d0f4d760ea53e9557e1a1a.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1030210/3191f526872f7066f33e1356aa184abab2d5dcfa.jpg"
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1030210/6bb4c0227d16d3b3cdf9fa8c4796e8d7c1218034.jpg"
   },
   {
     "name": "Achievement_LegendarySetSkittering",
@@ -483,7 +483,7 @@
     "hidden": 0,
     "description": "Equip the legendary Skittering set.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1030210/656e472f3fd1e88548e2f32ac7c9b48708b2c4c3.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1030210/3191f526872f7066f33e1356aa184abab2d5dcfa.jpg"
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1030210/e725407a9354b1a2939899ea50205165bcbb117e.jpg"
   },
   {
     "name": "Achievement_LegendarySetMusketeer",
@@ -492,7 +492,7 @@
     "hidden": 0,
     "description": "Equip the legendary Musketeer set.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1030210/f3bcd19e7b75e813048864b1fdafa106a83d70cf.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1030210/3191f526872f7066f33e1356aa184abab2d5dcfa.jpg"
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1030210/fa4d72695669527e801cc2e8d8cbe76ff2855864.jpg"
   },
   {
     "name": "Achievement_LegendarySetArcPowered",
@@ -510,6 +510,24 @@
     "hidden": 0,
     "description": "Equip the legendary Mountain King set.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1030210/fb76fd4508a3dc4c6925d8988d6708834bdf41e4.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1030210/3191f526872f7066f33e1356aa184abab2d5dcfa.jpg"
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1030210/82e47f3c9aa2d5d6186c7693b0cbbaded9b83312.jpg"
+  },
+  {
+    "name": "Achievement_ClassCC",
+    "defaultvalue": 0,
+    "displayName": "High Class Cursed Captain",
+    "hidden": 0,
+    "description": "Reach level 60 with the Cursed Captain.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1030210/ee591e94062903878dc01c5e5fabe8e6a79ce97d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1030210/7b2539604b856e28a04061452059291addf431ee.jpg"
+  },
+  {
+    "name": "Achievement_LegendarySetCommodore",
+    "defaultvalue": 0,
+    "displayName": "Commodore's Garb",
+    "hidden": 0,
+    "description": "Equip the legendary Commodore's Garb set.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1030210/ffeb601a8c09e3348b54a6197fb748507fe9477c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1030210/b33abe37492ca3e0943497af257b260797dd1fe8.jpg"
   }
 ]

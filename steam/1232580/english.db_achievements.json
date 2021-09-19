@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "name": "BossDone_Berserker",
     "defaultvalue": 0,
@@ -187,15 +187,6 @@
     "description": "Kill a Troll during his Furiousness.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1232580/937755a88b8a19f858b649ef650a2aa1ac6b3179.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1232580/54bcdc75e5f2f6c2e86a8d190d026b83c71d31ec.jpg"
-  },
-  {
-    "name": "Boss_Special_Berserker",
-    "defaultvalue": 0,
-    "displayName": "Enjoy the last moments",
-    "hidden": 0,
-    "description": "Kill the Berserker Chief after he used Rage.",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1232580/f768913df980e9185da29a8b9346df17ffebe028.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1232580/7691b8fa34367025c3e1027e1ae1e2a6096f686b.jpg"
   },
   {
     "name": "Boss_Special_Brothers",
@@ -423,15 +414,6 @@
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1232580/dbb701b4c662cdf82a028894a341329057735514.jpg"
   },
   {
-    "name": "Elite_Special_ImpsMother",
-    "defaultvalue": 0,
-    "displayName": "Genocide",
-    "hidden": 0,
-    "description": "Finish the Imp Mother when no imps are left on the field.",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1232580/a6c3ba855791eedd2c8549b1daa8461de72aaae5.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1232580/22651c44dd16905e6d517b24e5f5a2d672f76cc9.jpg"
-  },
-  {
     "name": "Elite_Special_FirebrothersHugo",
     "defaultvalue": 0,
     "displayName": "Explosive venture",
@@ -507,8 +489,7 @@
     "name": "Boss_Special_Millenis",
     "defaultvalue": 0,
     "displayName": "Who the hell are you?",
-    "hidden": 0,
-    "description": "Defeat the Millennis.",
+    "hidden": 1,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1232580/d4240fc4afd86132a8d6d14afe7c4521986f4324.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1232580/95f648b5a7eef2b39ee10ad1d99191300e53276b.jpg"
   },
@@ -516,8 +497,7 @@
     "name": "Boss_Special_Mortis",
     "defaultvalue": 0,
     "displayName": "That's all folks",
-    "hidden": 0,
-    "description": "Defeat Mortis.",
+    "hidden": 1,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1232580/ec75127a6c7a8622745e3f22fae2ad0b56b3dddb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1232580/7ef34df205acb9d991a91ce553929d129a6494a5.jpg"
   },

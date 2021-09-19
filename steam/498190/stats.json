@@ -1,42 +1,52 @@
-﻿{
-  "STAT_BABIES_HATCHED": {
-    "description": "Total Baby Dragons hatched by you",
-    "value": 0
+[
+  {
+    "name": "STAT_BABIES_HATCHED",
+    "defaultvalue": 0,
+    "displayName": "Total Baby Dragons hatched by you"
   },
-  "GLOBAL_STAT_BUILDINGS_DESTROYED": {
-    "description": "Total Buildings destroyed by Steam",
-    "value": 0
+  {
+    "name": "GLOBAL_STAT_BUILDINGS_DESTROYED",
+    "defaultvalue": 0,
+    "displayName": "Total Buildings destroyed by Steam"
   },
-  "STAT_GAMES_PLAYED": {
-    "description": "Total villages attacked by you",
-    "value": 0
+  {
+    "name": "STAT_GAMES_PLAYED",
+    "defaultvalue": 0,
+    "displayName": "Total villages attacked by you"
   },
-  "GLOBAL_STAT_DESTRUCTION": {
-    "description": "Total destruction caused by Steam",
-    "value": 0
+  {
+    "name": "GLOBAL_STAT_DESTRUCTION",
+    "defaultvalue": 0,
+    "displayName": "Total destruction caused by Steam"
   },
-  "GLOBAL_STAT_BABIES_HATCHED": {
-    "description": "Total Baby Dragons hatched by Steam",
-    "value": 0
+  {
+    "name": "GLOBAL_STAT_BABIES_HATCHED",
+    "defaultvalue": 0,
+    "displayName": "Total Baby Dragons hatched by Steam"
   },
-  "GLOBAL_STAT_GAMES_PLAYED": {
-    "description": "Total villages attacked by Steam",
-    "value": 0
+  {
+    "name": "GLOBAL_STAT_GAMES_PLAYED",
+    "defaultvalue": 0,
+    "displayName": "Total villages attacked by Steam"
   },
-  "STAT_VILLAGES_DESTROYED": {
-    "description": "Total villages destroyed by you",
-    "value": 0
+  {
+    "name": "STAT_VILLAGES_DESTROYED",
+    "defaultvalue": 0,
+    "displayName": "Total villages destroyed by you"
   },
-  "GLOBAL_STAT_VILLAGES_DESTROYED": {
-    "description": "Total villages destroyed by Steam",
-    "value": 0
+  {
+    "name": "GLOBAL_STAT_VILLAGES_DESTROYED",
+    "defaultvalue": 0,
+    "displayName": "Total villages destroyed by Steam"
   },
-  "STAT_DESTRUCTION": {
-    "description": "Total destruction caused by you",
-    "value": 0
+  {
+    "name": "STAT_DESTRUCTION",
+    "defaultvalue": 0,
+    "displayName": "Total destruction caused by you"
   },
-  "STAT_BUILDINGS_DESTROYED": {
-    "description": "Total Buildings destroyed by you",
-    "value": 0
+  {
+    "name": "STAT_BUILDINGS_DESTROYED",
+    "defaultvalue": 0,
+    "displayName": "Total Buildings destroyed by you"
   }
-}
+]

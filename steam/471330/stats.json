@@ -1,10 +1,12 @@
-﻿{
-  "NumTotalKills": {
-    "description": "Num Total Kills",
-    "value": 0
+[
+  {
+    "name": "NumTotalKills",
+    "defaultvalue": 0,
+    "displayName": "Num Total Kills"
   },
-  "PlayTime": {
-    "description": "Total Playtime",
-    "value": 0
+  {
+    "name": "PlayTime",
+    "defaultvalue": 0,
+    "displayName": "Total Playtime"
   }
-}
+]

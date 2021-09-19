@@ -1,30 +1,48 @@
 {
   "Dlcs": {
-    "1324140": {
-      "Name": "Black Desert Online - Standard Package",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/1324140/header.jpg?t=1591777114"
+    "1555760": {
+      "Name": "Black Desert Online - Master Bundle",
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1555760/header.jpg?t=1614207961",
+      "Type": "dlc"
+    },
+    "1555741": {
+      "Name": "Black Desert Online - Legendary Bundle",
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1555741/header.jpg?t=1614619147",
+      "Type": "dlc"
+    },
+    "1555740": {
+      "Name": "Black Desert Online - Master to Legendary Upgrade",
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1555740/header.jpg?t=1614619173",
+      "Type": "dlc"
+    },
+    "1481850": {
+      "Name": "Black Desert Online - New Class Package: Nova Edition",
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1481850/header.jpg?t=1614631498",
+      "Type": "dlc"
     },
     "1324160": {
       "Name": "Black Desert Online - Deluxe Package",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/1324160/header.jpg?t=1591777020"
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1324160/header.jpg?t=1614630988",
+      "Type": "dlc"
     },
-    "780770": {
-      "Name": "Black Desert Online - Kakao Cash",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/780770/header.jpg?t=1569900434"
-    },
-    "1221780": {
-      "Name": "Black Desert Online - GUARDIAN Pre-order Bundle",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/1221780/header.jpg?t=1579671559"
+    "1324140": {
+      "Name": "Black Desert Online - Standard Package",
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1324140/header.jpg?t=1614630908",
+      "Type": "dlc"
     }
   },
-  "Name": "Black Desert Online",
+  "Name": "Black Desert",
   "AppId": "582660",
-  "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/582660/header.jpg?t=1599178252",
+  "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/582660/header.jpg?t=1629975018",
   "Languages": [
     "english",
     "french",
     "german",
-    "spanish"
+    "spanish",
+    "japanese",
+    "russian",
+    "thai",
+    "turkish"
   ],
   "Platforms": {
     "windows": true,

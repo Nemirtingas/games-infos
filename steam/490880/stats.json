@@ -1,26 +1,32 @@
-﻿{
-  "DEFEATED_ENEMY_COUNT": {
-    "description": "",
-    "value": 0
+[
+  {
+    "name": "DEFEATED_ENEMY_COUNT",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "PERFECT_VICTORY_COUNT": {
-    "description": "",
-    "value": 0
+  {
+    "name": "PERFECT_VICTORY_COUNT",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "MONEY_SPENT": {
-    "description": "",
-    "value": 0
+  {
+    "name": "MONEY_SPENT",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "HARD_DEFEATED_ENEMY_COUNT": {
-    "description": "",
-    "value": 0
+  {
+    "name": "HARD_DEFEATED_ENEMY_COUNT",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "HARD_PERFECT_VICTORY_COUNT": {
-    "description": "",
-    "value": 0
+  {
+    "name": "HARD_PERFECT_VICTORY_COUNT",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "HARD_MONEY_SPENT": {
-    "description": "",
-    "value": 0
+  {
+    "name": "HARD_MONEY_SPENT",
+    "defaultvalue": 0,
+    "displayName": ""
   }
-}
+]

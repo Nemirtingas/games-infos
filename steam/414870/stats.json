@@ -1,10 +1,12 @@
-﻿{
-  "STAT_HITS": {
-    "description": "Hits",
-    "value": 0
+[
+  {
+    "name": "STAT_HITS",
+    "defaultvalue": 0,
+    "displayName": "Hits"
   },
-  "STAT_COMPLETE_GAME_WINS": {
-    "description": "Complete Game Wins",
-    "value": 0
+  {
+    "name": "STAT_COMPLETE_GAME_WINS",
+    "defaultvalue": 0,
+    "displayName": "Complete Game Wins"
   }
-}
+]

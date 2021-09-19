@@ -1,26 +1,32 @@
-﻿{
-  "Stats.SloMoActivated.Total.Highest": {
-    "description": "Bullets Dodged",
-    "value": 0
+[
+  {
+    "name": "Stats.SloMoActivated.Total.Highest",
+    "defaultvalue": 0,
+    "displayName": "Bullets Dodged"
   },
-  "Stats.EnemiesKilled.Total.Highest": {
-    "description": "Enemies Killed",
-    "value": 0
+  {
+    "name": "Stats.EnemiesKilled.Total.Highest",
+    "defaultvalue": 0,
+    "displayName": "Enemies Killed"
   },
-  "Stats.ShiftCount.Total.Highest": {
-    "description": "Shift Count",
-    "value": 0
+  {
+    "name": "Stats.ShiftCount.Total.Highest",
+    "defaultvalue": 0,
+    "displayName": "Shift Count"
   },
-  "LevelManager.TotalPerfects": {
-    "description": "Total Perfects",
-    "value": 0
+  {
+    "name": "LevelManager.TotalPerfects",
+    "defaultvalue": 0,
+    "displayName": "Total Perfects"
   },
-  "Stats.EnemyKilledByBullet.Total.Highest": {
-    "description": "Enemy Friendly Fire",
-    "value": 0
+  {
+    "name": "Stats.EnemyKilledByBullet.Total.Highest",
+    "defaultvalue": 0,
+    "displayName": "Enemy Friendly Fire"
   },
-  "Stats.PlayerUseFists.Total.Highest": {
-    "description": "Total Punches",
-    "value": 0
+  {
+    "name": "Stats.PlayerUseFists.Total.Highest",
+    "defaultvalue": 0,
+    "displayName": "Total Punches"
   }
-}
+]

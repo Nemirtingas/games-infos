@@ -2,14 +2,20 @@
   "Dlcs": {
     "929130": {
       "Name": "Depth of Extinction - Soundtrack",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/929130/header.jpg?t=1538060730"
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/929130/header.jpg?t=1538060730",
+      "Type": "dlc"
     }
   },
   "Name": "Depth of Extinction",
   "AppId": "636320",
-  "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/636320/header.jpg?t=1595537492",
+  "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/636320/header.jpg?t=1620767443",
   "Languages": [
-    "english"
+    "english",
+    "german",
+    "japanese",
+    "spanish",
+    "schinese",
+    "latam"
   ],
   "Platforms": {
     "windows": true,

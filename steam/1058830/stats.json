@@ -1,26 +1,32 @@
-﻿{
-  "last_weekly_epoch": {
-    "description": "",
-    "value": 0
+[
+  {
+    "name": "last_weekly_epoch",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "highest_steamdepot_leaderboard": {
-    "description": "",
-    "value": 0
+  {
+    "name": "highest_steamdepot_leaderboard",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "leaderboard_submission_unix": {
-    "description": "",
-    "value": 0
+  {
+    "name": "leaderboard_submission_unix",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "leaderboard_app_revision": {
-    "description": "",
-    "value": 0
+  {
+    "name": "leaderboard_app_revision",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "leaderboard_app_version": {
-    "description": "",
-    "value": 0
+  {
+    "name": "leaderboard_app_version",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "last_daily_epoch": {
-    "description": "",
-    "value": 0
+  {
+    "name": "last_daily_epoch",
+    "defaultvalue": 0,
+    "displayName": ""
   }
-}
+]

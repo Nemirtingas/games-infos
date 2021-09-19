@@ -1,186 +1,232 @@
-﻿{
-  "arena_wins": {
-    "description": "Total Ranked Wins",
-    "value": 0
+[
+  {
+    "name": "arena_wins",
+    "defaultvalue": 0,
+    "displayName": "Total Ranked Wins"
   },
-  "Season_00": {
-    "description": "Ranked Wins",
-    "value": 0
+  {
+    "name": "Season_00",
+    "defaultvalue": 0,
+    "displayName": "Ranked Wins"
   },
-  "CurrentSeason": {
-    "description": "Current Season",
-    "value": 0
+  {
+    "name": "CurrentSeason",
+    "defaultvalue": 0,
+    "displayName": "Current Season"
   },
-  "CurrentStreak": {
-    "description": "Current Points",
-    "value": 0
+  {
+    "name": "CurrentStreak",
+    "defaultvalue": 0,
+    "displayName": "Current Points"
   },
-  "ranked_games_played": {
-    "description": "Ranked Games Played",
-    "value": 0
+  {
+    "name": "ranked_games_played",
+    "defaultvalue": 0,
+    "displayName": "Ranked Games Played"
   },
-  "ranked_games_won": {
-    "description": "Ranked Games Won",
-    "value": 0
+  {
+    "name": "ranked_games_won",
+    "defaultvalue": 0,
+    "displayName": "Ranked Games Won"
   },
-  "selected_warren_lizard": {
-    "description": "",
-    "value": 0
+  {
+    "name": "selected_warren_lizard",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "selected_warren_mole": {
-    "description": "",
-    "value": 0
+  {
+    "name": "selected_warren_mole",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "selected_warren_pigeon": {
-    "description": "",
-    "value": 0
+  {
+    "name": "selected_warren_pigeon",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "selected_warren_squirrel": {
-    "description": "",
-    "value": 0
+  {
+    "name": "selected_warren_squirrel",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "selected_warren_toad": {
-    "description": "",
-    "value": 0
+  {
+    "name": "selected_warren_toad",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "selected_warren_chameleon": {
-    "description": "",
-    "value": 0
+  {
+    "name": "selected_warren_chameleon",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "selected_warren_falcon": {
-    "description": "",
-    "value": 0
+  {
+    "name": "selected_warren_falcon",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "selected_warren_ferret": {
-    "description": "",
-    "value": 0
+  {
+    "name": "selected_warren_ferret",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "selected_warren_skunk": {
-    "description": "",
-    "value": 0
+  {
+    "name": "selected_warren_skunk",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "selected_warren_snake": {
-    "description": "",
-    "value": 0
+  {
+    "name": "selected_warren_snake",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "selected_warren_badger": {
-    "description": "",
-    "value": 0
+  {
+    "name": "selected_warren_badger",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "selected_warren_boar": {
-    "description": "",
-    "value": 0
+  {
+    "name": "selected_warren_boar",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "selected_warren_fox": {
-    "description": "",
-    "value": 0
+  {
+    "name": "selected_warren_fox",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "selected_warren_owl": {
-    "description": "",
-    "value": 0
+  {
+    "name": "selected_warren_owl",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "selected_warren_wolf": {
-    "description": "",
-    "value": 0
+  {
+    "name": "selected_warren_wolf",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "selected_structure_artillery": {
-    "description": "",
-    "value": 0
+  {
+    "name": "selected_structure_artillery",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "selected_structure_balloon": {
-    "description": "",
-    "value": 0
+  {
+    "name": "selected_structure_balloon",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "selected_structure_barbedwire": {
-    "description": "",
-    "value": 0
+  {
+    "name": "selected_structure_barbedwire",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "selected_structure_landmine": {
-    "description": "",
-    "value": 0
+  {
+    "name": "selected_structure_landmine",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "selected_structure_machinegun": {
-    "description": "",
-    "value": 0
+  {
+    "name": "selected_structure_machinegun",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "wins_warren_lizard": {
-    "description": "",
-    "value": 0
+  {
+    "name": "wins_warren_lizard",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "wins_warren_mole": {
-    "description": "",
-    "value": 0
+  {
+    "name": "wins_warren_mole",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "wins_warren_pigeon": {
-    "description": "",
-    "value": 0
+  {
+    "name": "wins_warren_pigeon",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "wins_warren_squirrel": {
-    "description": "",
-    "value": 0
+  {
+    "name": "wins_warren_squirrel",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "wins_warren_toad": {
-    "description": "",
-    "value": 0
+  {
+    "name": "wins_warren_toad",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "wins_warren_chameleon": {
-    "description": "",
-    "value": 0
+  {
+    "name": "wins_warren_chameleon",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "wins_warren_falcon": {
-    "description": "",
-    "value": 0
+  {
+    "name": "wins_warren_falcon",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "wins_warren_ferret": {
-    "description": "",
-    "value": 0
+  {
+    "name": "wins_warren_ferret",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "wins_warren_skunk": {
-    "description": "",
-    "value": 0
+  {
+    "name": "wins_warren_skunk",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "wins_warren_snake": {
-    "description": "",
-    "value": 0
+  {
+    "name": "wins_warren_snake",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "wins_warren_badger": {
-    "description": "",
-    "value": 0
+  {
+    "name": "wins_warren_badger",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "wins_warren_boar": {
-    "description": "",
-    "value": 0
+  {
+    "name": "wins_warren_boar",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "wins_warren_fox": {
-    "description": "",
-    "value": 0
+  {
+    "name": "wins_warren_fox",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "wins_warren_owl": {
-    "description": "",
-    "value": 0
+  {
+    "name": "wins_warren_owl",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "wins_warren_wolf": {
-    "description": "",
-    "value": 0
+  {
+    "name": "wins_warren_wolf",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "wins_structure_artillery": {
-    "description": "",
-    "value": 0
+  {
+    "name": "wins_structure_artillery",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "wins_structure_balloon": {
-    "description": "",
-    "value": 0
+  {
+    "name": "wins_structure_balloon",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "wins_structure_barbedwire": {
-    "description": "",
-    "value": 0
+  {
+    "name": "wins_structure_barbedwire",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "wins_structure_landmine": {
-    "description": "",
-    "value": 0
+  {
+    "name": "wins_structure_landmine",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "wins_structure_machinegun": {
-    "description": "",
-    "value": 0
+  {
+    "name": "wins_structure_machinegun",
+    "defaultvalue": 0,
+    "displayName": ""
   }
-}
+]

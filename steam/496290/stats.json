@@ -1,14 +1,17 @@
-﻿{
-  "weapons": {
-    "description": "",
-    "value": 0
+[
+  {
+    "name": "weapons",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "eggs": {
-    "description": "",
-    "value": 0
+  {
+    "name": "eggs",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "medals": {
-    "description": "",
-    "value": 0
+  {
+    "name": "medals",
+    "defaultvalue": 0,
+    "displayName": ""
   }
-}
+]

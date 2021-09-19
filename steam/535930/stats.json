@@ -1,54 +1,72 @@
-﻿{
-  "STAT_PATIENTS_CURED": {
-    "description": "Patients Cured",
-    "value": 0
+[
+  {
+    "name": "STAT_PATIENTS_CURED",
+    "defaultvalue": 0,
+    "displayName": "Patients Cured"
   },
-  "STAT_PROJECTS_RESEARCHED": {
-    "description": "",
-    "value": 0
+  {
+    "name": "STAT_PROJECTS_RESEARCHED",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "STAT_MARKETING_CAMPAIGNS": {
-    "description": "",
-    "value": 0
+  {
+    "name": "STAT_MARKETING_CAMPAIGNS",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "STAT_MACHINES_UPGRADED": {
-    "description": "",
-    "value": 0
+  {
+    "name": "STAT_MACHINES_UPGRADED",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "STAT_GHOSTS_CAPTURED": {
-    "description": "",
-    "value": 0
+  {
+    "name": "STAT_GHOSTS_CAPTURED",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "STAT_STARS_EARNED": {
-    "description": "",
-    "value": 0
+  {
+    "name": "STAT_STARS_EARNED",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "STAT_ORGANISATION_VALUE": {
-    "description": "",
-    "value": 0
+  {
+    "name": "STAT_ORGANISATION_VALUE",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "STAT_SILVER_EARNED": {
-    "description": "",
-    "value": 0
+  {
+    "name": "STAT_SILVER_EARNED",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "STAT_HOSPITAL_LEVEL": {
-    "description": "",
-    "value": 0
+  {
+    "name": "STAT_HOSPITAL_LEVEL",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "STAT_MONOBROWS_SHOT_CHAIN": {
-    "description": "",
-    "value": 0
+  {
+    "name": "STAT_MONOBROWS_SHOT_CHAIN",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "STAT_COLLABORATIVE_NODES_COMPLETED": {
-    "description": "",
-    "value": 0
+  {
+    "name": "STAT_COLLABORATIVE_NODES_COMPLETED",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "STAT_ALIENS_EXPOSED": {
-    "description": "",
-    "value": 0
+  {
+    "name": "STAT_ALIENS_EXPOSED",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "STAT_GREEN_ENERGY": {
-    "description": "",
-    "value": 0
+  {
+    "name": "STAT_GREEN_ENERGY",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "STAT_TIME_TUNNEL_PATIENTS_CURED",
+    "defaultvalue": 0,
+    "displayName": ""
   }
-}
+]

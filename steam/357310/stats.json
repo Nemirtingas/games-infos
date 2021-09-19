@@ -1,22 +1,27 @@
-﻿{
-  "GamesStarted": {
-    "description": "Games Started",
-    "value": 0
+[
+  {
+    "name": "GamesStarted",
+    "defaultvalue": 0,
+    "displayName": "Games Started"
   },
-  "BattlesWon": {
-    "description": "Battles Won",
-    "value": 0
+  {
+    "name": "BattlesWon",
+    "defaultvalue": 0,
+    "displayName": "Battles Won"
   },
-  "GamesWon": {
-    "description": "",
-    "value": 0
+  {
+    "name": "GamesWon",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "MasterAchievementProgress": {
-    "description": "",
-    "value": 0
+  {
+    "name": "MasterAchievementProgress",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "UnifierAchievementProgress": {
-    "description": "",
-    "value": 0
+  {
+    "name": "UnifierAchievementProgress",
+    "defaultvalue": 0,
+    "displayName": ""
   }
-}
+]

@@ -1,22 +1,27 @@
-﻿{
-  "shark_kills": {
-    "description": "Shark Kills",
-    "value": 0
+[
+  {
+    "name": "shark_kills",
+    "defaultvalue": 0,
+    "displayName": "Shark Kills"
   },
-  "drowned": {
-    "description": "Drowned",
-    "value": 0
+  {
+    "name": "drowned",
+    "defaultvalue": 0,
+    "displayName": "Drowned"
   },
-  "murdered_by_shark": {
-    "description": "Murdered by Shark",
-    "value": 0
+  {
+    "name": "murdered_by_shark",
+    "defaultvalue": 0,
+    "displayName": "Murdered by Shark"
   },
-  "messaged": {
-    "description": "Messaged",
-    "value": 0
+  {
+    "name": "messaged",
+    "defaultvalue": 0,
+    "displayName": "Messaged"
   },
-  "Rank": {
-    "description": "Rank",
-    "value": 1
+  {
+    "name": "Rank",
+    "defaultvalue": 1,
+    "displayName": "Rank"
   }
-}
+]

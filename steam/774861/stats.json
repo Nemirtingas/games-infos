@@ -1,86 +1,107 @@
-﻿{
-  "STAT_GUNS_CRAFTED": {
-    "description": "Guns crafted",
-    "value": 0
+[
+  {
+    "name": "STAT_GUNS_CRAFTED",
+    "defaultvalue": 0,
+    "displayName": "Guns crafted"
   },
-  "STAT_TREES_CHOPPED": {
-    "description": "Trees chopped down",
-    "value": 0
+  {
+    "name": "STAT_TREES_CHOPPED",
+    "defaultvalue": 0,
+    "displayName": "Trees chopped down"
   },
-  "STAT_ROCKS_MINED": {
-    "description": "Rocks destroyed",
-    "value": 0
+  {
+    "name": "STAT_ROCKS_MINED",
+    "defaultvalue": 0,
+    "displayName": "Rocks destroyed"
   },
-  "STAT_BERRIES_HARVESTED": {
-    "description": "Berries harvested",
-    "value": 0
+  {
+    "name": "STAT_BERRIES_HARVESTED",
+    "defaultvalue": 0,
+    "displayName": "Berries harvested"
   },
-  "STAT_ANIMALS_KILLED": {
-    "description": "Animals killed",
-    "value": 0
+  {
+    "name": "STAT_ANIMALS_KILLED",
+    "defaultvalue": 0,
+    "displayName": "Animals killed"
   },
-  "STAT_ROOTS_EATEN": {
-    "description": "Roots eaten",
-    "value": 0
+  {
+    "name": "STAT_ROOTS_EATEN",
+    "defaultvalue": 0,
+    "displayName": "Roots eaten"
   },
-  "STAT_TRAITOR_CRATES_OPENED": {
-    "description": "Traitor caches opened",
-    "value": 0
+  {
+    "name": "STAT_TRAITOR_CRATES_OPENED",
+    "defaultvalue": 0,
+    "displayName": "Traitor caches opened"
   },
-  "STAT_TRAITOR_ABILITIES_USED": {
-    "description": "Traitor airdrop abilities used",
-    "value": 0
+  {
+    "name": "STAT_TRAITOR_ABILITIES_USED",
+    "defaultvalue": 0,
+    "displayName": "Traitor airdrop abilities used"
   },
-  "STAT_SABOTAGES_PERFORMED": {
-    "description": "Sabotages performed",
-    "value": 0
+  {
+    "name": "STAT_SABOTAGES_PERFORMED",
+    "defaultvalue": 0,
+    "displayName": "Sabotages performed"
   },
-  "STAT_SURVIVORS_KNOCKED": {
-    "description": "Survivors knocked down (as traitor)",
-    "value": 0
+  {
+    "name": "STAT_SURVIVORS_KNOCKED",
+    "defaultvalue": 0,
+    "displayName": "Survivors knocked down (as traitor)"
   },
-  "STAT_BONUS_OBJS_COMPLETED": {
-    "description": "Bonus objectives completed",
-    "value": 0
+  {
+    "name": "STAT_BONUS_OBJS_COMPLETED",
+    "defaultvalue": 0,
+    "displayName": "Bonus objectives completed"
   },
-  "STAT_GAMES_WITHOUT_KILL": {
-    "description": "Games played without killing anyone",
-    "value": 0
+  {
+    "name": "STAT_GAMES_WITHOUT_KILL",
+    "defaultvalue": 0,
+    "displayName": "Games played without killing anyone"
   },
-  "STAT_REPAIRS_AS_TRAITOR": {
-    "description": "Repairs performed as a traitor",
-    "value": 0
+  {
+    "name": "STAT_REPAIRS_AS_TRAITOR",
+    "defaultvalue": 0,
+    "displayName": "Repairs performed as a traitor"
   },
-  "STAT_COOP_ACTIONS": {
-    "description": "Co-op actions performed",
-    "value": 0
+  {
+    "name": "STAT_COOP_ACTIONS",
+    "defaultvalue": 0,
+    "displayName": "Co-op actions performed"
   },
-  "STAT_CLOTHES_SWAPPED": {
-    "description": "Swapped clothes with corpses",
-    "value": 0
+  {
+    "name": "STAT_CLOTHES_SWAPPED",
+    "defaultvalue": 0,
+    "displayName": "Swapped clothes with corpses"
   },
-  "STAT_OBJS_POISONED": {
-    "description": "Interactable objects poisoned",
-    "value": 0
+  {
+    "name": "STAT_OBJS_POISONED",
+    "defaultvalue": 0,
+    "displayName": "Interactable objects poisoned"
   },
-  "STAT_POISONED_PIES_CRAFTED": {
-    "description": "Poisoned pot pies crafted",
-    "value": 0
+  {
+    "name": "STAT_POISONED_PIES_CRAFTED",
+    "defaultvalue": 0,
+    "displayName": "Poisoned pot pies crafted"
   },
-  "STAT_POISON_CURED": {
-    "description": "Times poison cured",
-    "value": 0
+  {
+    "name": "STAT_POISON_CURED",
+    "defaultvalue": 0,
+    "displayName": "Times poison cured"
   },
-  "STAT_TS_BUNKER_OPENED": {
-    "description": "Truth serum bunkers opened",
-    "value": 0
+  {
+    "name": "STAT_TS_BUNKER_OPENED",
+    "defaultvalue": 0,
+    "displayName": "Truth serum bunkers opened"
   },
-  "STAT_TS_USES_TRAITOR": {
-    "description": "Truth serum uses as traitor",
-    "value": 0
+  {
+    "name": "STAT_TS_USES_TRAITOR",
+    "defaultvalue": 0,
+    "displayName": "Truth serum uses as traitor"
   },
-  "STAT_TS_USES_SURVIVOR": {
-    "description": "Truth serum uses as survivor",
-    "value": 0
+  {
+    "name": "STAT_TS_USES_SURVIVOR",
+    "defaultvalue": 0,
+    "displayName": "Truth serum uses as survivor"
   }
-}
+]

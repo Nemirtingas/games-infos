@@ -1,13 +1,14 @@
-﻿{
+{
   "Dlcs": {
     "1310460": {
-      "Name": "",
-      "ImageUrl": ""
+      "Name": "Half-Life: Alyx Soundtrack",
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1310460/header.jpg?t=1628877171",
+      "Type": "music"
     }
   },
   "Name": "Half-Life: Alyx",
   "AppId": "546560",
-  "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/546560/header.jpg?t=1594314571",
+  "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/546560/header.jpg?t=1626370761",
   "Languages": [
     "english",
     "french",
@@ -26,7 +27,17 @@
     "portuguese",
     "portuguese",
     "ukrainian",
-    "vietnamese"
+    "vietnamese",
+    "bulgarian",
+    "greek",
+    "danish",
+    "dutch",
+    "norwegian",
+    "romanian",
+    "thai",
+    "turkish",
+    "finnish",
+    "swedish"
   ],
   "Platforms": {
     "windows": true,

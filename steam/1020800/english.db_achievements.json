@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "name": "ACH_FIRST_CAR",
     "defaultvalue": 0,
@@ -139,6 +139,86 @@
     "displayName": "Found secret item",
     "hidden": 1,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1020800/c1639a67cf126f24446308310e5b23989df496cc.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1020800/b0a4d154deabc851b3c409854af14eb7ab07867b.jpg"
+  },
+  {
+    "name": "ACH_SHOPAHOLIC",
+    "defaultvalue": 0,
+    "displayName": "Shopaholic",
+    "hidden": 0,
+    "description": "Do shopping for a minimum 200,000 Cr",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1020800/b088250670d36a60d989f1dbd724d7e1c65b2f7e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1020800/b0a4d154deabc851b3c409854af14eb7ab07867b.jpg"
+  },
+  {
+    "name": "ACH_SELL_CAR",
+    "defaultvalue": 0,
+    "displayName": "Sell car",
+    "hidden": 0,
+    "description": "Sell your first car",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1020800/aef2a70c74f45a41ef6c511179f6c06c1590a1a4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1020800/b0a4d154deabc851b3c409854af14eb7ab07867b.jpg"
+  },
+  {
+    "name": "ACH_SPEED_CAMERA",
+    "defaultvalue": 0,
+    "displayName": "Speed camera photo",
+    "hidden": 0,
+    "description": "Allow speed camera take photo",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1020800/47cc6a0c8e7372b7eec7694a11a496d652583c52.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1020800/b0a4d154deabc851b3c409854af14eb7ab07867b.jpg"
+  },
+  {
+    "name": "ACH_500HP",
+    "defaultvalue": 0,
+    "displayName": "500HP POWER",
+    "hidden": 0,
+    "description": "Get minimum 500HP on dyno",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1020800/a1ab2d7c945132d722693bee4acf407acda8e739.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1020800/129e74891f74fcdf11c23a66bc4ff37586047f1c.jpg"
+  },
+  {
+    "name": "ACH_1000HP",
+    "defaultvalue": 0,
+    "displayName": "1000HP POWER",
+    "hidden": 0,
+    "description": "Get minimum 1000HP on dyno",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1020800/6e654dc0a76ae6791423f0431105c397e20b2fbd.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1020800/b0a4d154deabc851b3c409854af14eb7ab07867b.jpg"
+  },
+  {
+    "name": "ACH_FINES_PAID",
+    "defaultvalue": 0,
+    "displayName": "Driver pain",
+    "hidden": 0,
+    "description": "Paid 5 fines",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1020800/cfc709f828cf7a162cd95bf3c80f9e2e17765c2f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1020800/b0a4d154deabc851b3c409854af14eb7ab07867b.jpg"
+  },
+  {
+    "name": "ACH_POLICE_CATCH",
+    "defaultvalue": 0,
+    "displayName": "Caught ",
+    "hidden": 0,
+    "description": "Get caught by the police",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1020800/9eccfac783fc12c3fdf1e515bc320f383704ed98.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1020800/b0a4d154deabc851b3c409854af14eb7ab07867b.jpg"
+  },
+  {
+    "name": "ACH_NITRO_EXPLODE",
+    "defaultvalue": 0,
+    "displayName": "Nitroooo!",
+    "hidden": 0,
+    "description": "Explode engine with nitrous",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1020800/4722cc97bc07d29ff0e4d7b578e8a93d009b2b0d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1020800/b0a4d154deabc851b3c409854af14eb7ab07867b.jpg"
+  },
+  {
+    "name": "ACH_FAST_AND_FURIOUS",
+    "defaultvalue": 0,
+    "displayName": "For those 10 seconds or less, I'm free",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1020800/be840b1185da9d8356bb38909115af9ce44c0100.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1020800/b0a4d154deabc851b3c409854af14eb7ab07867b.jpg"
   }
 ]

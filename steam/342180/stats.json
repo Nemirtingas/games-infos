@@ -1,74 +1,92 @@
-﻿{
-  "Achievement_01_IntCount": {
-    "description": "Play Time",
-    "value": 0
+[
+  {
+    "name": "Achievement_01_IntCount",
+    "defaultvalue": 0,
+    "displayName": "Play Time"
   },
-  "Achievement_10_IntCount": {
-    "description": "Loot Count",
-    "value": 0
+  {
+    "name": "Achievement_10_IntCount",
+    "defaultvalue": 0,
+    "displayName": "Loot Count"
   },
-  "Achievement_11_IntCount": {
-    "description": "Loot Count",
-    "value": 0
+  {
+    "name": "Achievement_11_IntCount",
+    "defaultvalue": 0,
+    "displayName": "Loot Count"
   },
-  "Achievement_15_IntCount": {
-    "description": "Play Time",
-    "value": 0
+  {
+    "name": "Achievement_15_IntCount",
+    "defaultvalue": 0,
+    "displayName": "Play Time"
   },
-  "Achievement_24_Bitmask": {
-    "description": "Gun Bitmask",
-    "value": 0
+  {
+    "name": "Achievement_24_Bitmask",
+    "defaultvalue": 0,
+    "displayName": "Gun Bitmask"
   },
-  "Achievement_24_IntCount": {
-    "description": "Gun Count",
-    "value": 0
+  {
+    "name": "Achievement_24_IntCount",
+    "defaultvalue": 0,
+    "displayName": "Gun Count"
   },
-  "Achievement_28_Bitmask": {
-    "description": "Duck Bitmask",
-    "value": 0
+  {
+    "name": "Achievement_28_Bitmask",
+    "defaultvalue": 0,
+    "displayName": "Duck Bitmask"
   },
-  "Achievement_28_IntCount": {
-    "description": "Duck Count",
-    "value": 0
+  {
+    "name": "Achievement_28_IntCount",
+    "defaultvalue": 0,
+    "displayName": "Duck Count"
   },
-  "Achievement_29_IntCount": {
-    "description": "Zombie Grenade Kills",
-    "value": 0
+  {
+    "name": "Achievement_29_IntCount",
+    "defaultvalue": 0,
+    "displayName": "Zombie Grenade Kills"
   },
-  "Achievement_33_IntCount": {
-    "description": "Zombie Headshots",
-    "value": 0
+  {
+    "name": "Achievement_33_IntCount",
+    "defaultvalue": 0,
+    "displayName": "Zombie Headshots"
   },
-  "Achievement_34_IntCount": {
-    "description": "Distance Walked",
-    "value": 0
+  {
+    "name": "Achievement_34_IntCount",
+    "defaultvalue": 0,
+    "displayName": "Distance Walked"
   },
-  "Achievement_35_IntCount": {
-    "description": "Burgers Collected",
-    "value": 0
+  {
+    "name": "Achievement_35_IntCount",
+    "defaultvalue": 0,
+    "displayName": "Burgers Collected"
   },
-  "Achievement_36_IntCount": {
-    "description": "Burgers Eaten",
-    "value": 0
+  {
+    "name": "Achievement_36_IntCount",
+    "defaultvalue": 0,
+    "displayName": "Burgers Eaten"
   },
-  "Achievement_37_IntCount": {
-    "description": "Zombie Headshots",
-    "value": 0
+  {
+    "name": "Achievement_37_IntCount",
+    "defaultvalue": 0,
+    "displayName": "Zombie Headshots"
   },
-  "Achievement_41_Bitmask": {
-    "description": "Dead-Man DLC Mask Bitmask",
-    "value": 0
+  {
+    "name": "Achievement_41_Bitmask",
+    "defaultvalue": 0,
+    "displayName": "Dead-Man DLC Mask Bitmask"
   },
-  "Achievement_41_IntCount": {
-    "description": "Dead-Man DLC Mask Count",
-    "value": 0
+  {
+    "name": "Achievement_41_IntCount",
+    "defaultvalue": 0,
+    "displayName": "Dead-Man DLC Mask Count"
   },
-  "Achievement_42_Bitmask": {
-    "description": "Dead-Man DLC Gun Bitmask",
-    "value": 0
+  {
+    "name": "Achievement_42_Bitmask",
+    "defaultvalue": 0,
+    "displayName": "Dead-Man DLC Gun Bitmask"
   },
-  "Achievement_42_IntCount": {
-    "description": "Dead-Man DLC Gun Count",
-    "value": 0
+  {
+    "name": "Achievement_42_IntCount",
+    "defaultvalue": 0,
+    "displayName": "Dead-Man DLC Gun Count"
   }
-}
+]

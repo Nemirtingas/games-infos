@@ -1,10 +1,12 @@
-﻿{
-  "WORLDS_EXPLORED": {
-    "description": "Worlds Explored",
-    "value": 1
+[
+  {
+    "name": "WORLDS_EXPLORED",
+    "defaultvalue": 1,
+    "displayName": "Worlds Explored"
   },
-  "SONGS_PLAYED": {
-    "description": "Songs Loaded and Played",
-    "value": 0
+  {
+    "name": "SONGS_PLAYED",
+    "defaultvalue": 0,
+    "displayName": "Songs Loaded and Played"
   }
-}
+]

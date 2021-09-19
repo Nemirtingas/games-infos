@@ -1,10 +1,12 @@
-﻿{
-  "box": {
-    "description": "Boxes",
-    "value": 0
+[
+  {
+    "name": "box",
+    "defaultvalue": 0,
+    "displayName": "Boxes"
   },
-  "offline_time": {
-    "description": "",
-    "value": 0
+  {
+    "name": "offline_time",
+    "defaultvalue": 0,
+    "displayName": ""
   }
-}
+]

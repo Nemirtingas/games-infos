@@ -154,7 +154,7 @@
     "defaultvalue": 0,
     "displayName": "Stay Frosty",
     "hidden": 0,
-    "description": "Defeat 100 Frosties",
+    "description": "Defeat 100 Frosties.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1019730/8e3f1d72ea270817d6011e009f739bad39dc2091.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1019730/f995753f628f3e13d76c966dbfdc48d5805f1cb1.jpg"
   },
@@ -165,5 +165,29 @@
     "hidden": 1,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1019730/7adcdab6c5659901c1214a320d3f5a9937ad5ac0.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1019730/f995753f628f3e13d76c966dbfdc48d5805f1cb1.jpg"
+  },
+  {
+    "name": "ON_THE_BOARD",
+    "defaultvalue": 0,
+    "displayName": "On the Board",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1019730/54309dcde205457b8102fc13f95811cf71c9b504.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1019730/2183ba2da8bf7eae0250116cce5e77234dc97b5b.jpg"
+  },
+  {
+    "name": "REVENGEANCE_CLEAR",
+    "defaultvalue": 0,
+    "displayName": "Vengeance, again",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1019730/e22e8d93f9cb905e127acf49cd5ec1d18ab619ac.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1019730/2183ba2da8bf7eae0250116cce5e77234dc97b5b.jpg"
+  },
+  {
+    "name": "COLLECT_EXTRA_LIVES",
+    "defaultvalue": 0,
+    "displayName": "The More the Merrier",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1019730/93273f88ebdd38a3b74e1233678ad07864c3729d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1019730/2183ba2da8bf7eae0250116cce5e77234dc97b5b.jpg"
   }
 ]

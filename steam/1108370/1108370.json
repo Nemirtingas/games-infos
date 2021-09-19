@@ -1,13 +1,14 @@
 {
   "Dlcs": {
     "1272810": {
-      "Name": "",
-      "ImageUrl": ""
+      "Name": "Ratropolis Soundtrack",
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1272810/header.jpg?t=1608620308",
+      "Type": "music"
     }
   },
   "Name": "Ratropolis",
   "AppId": "1108370",
-  "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/1108370/header.jpg?t=1595394351",
+  "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1108370/header.jpg?t=1628062016",
   "Languages": [
     "english",
     "korean",
@@ -19,7 +20,9 @@
     "tchinese",
     "polish",
     "spanish",
-    "portuguese"
+    "portuguese",
+    "turkish",
+    "thai"
   ],
   "Platforms": {
     "windows": true,

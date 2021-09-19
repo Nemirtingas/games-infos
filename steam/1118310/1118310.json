@@ -1,55 +1,60 @@
 {
   "Dlcs": {
     "1227440": {
-      "Name": "Mupen64Plus-Next",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/1227440/header.jpg?t=1599461881"
+      "Name": "RetroArch - Mupen64Plus-Next",
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1227440/header.jpg?t=1631795470",
+      "Type": "dlc"
     },
     "1227441": {
       "Name": "RetroArch - Kronos",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/1227441/header.jpg?t=1592697355"
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1227441/header.jpg?t=1631647701",
+      "Type": "dlc"
     },
     "1227461": {
       "Name": "RetroArch - PCSX ReARMed",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/1227461/header.jpg?t=1592944181"
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1227461/header.jpg?t=1631621249",
+      "Type": "dlc"
     },
     "1227443": {
       "Name": "RetroArch - Stella",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/1227443/header.jpg?t=1597251782"
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1227443/header.jpg?t=1631648574",
+      "Type": "dlc"
     },
     "1205580": {
-      "Name": "RetroArch - SameBoy",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/1205580/header.jpg?t=1592944236"
+      "Name": "",
+      "ImageUrl": ""
     },
     "1227448": {
       "Name": "RetroArch - mGBA",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/1227448/header.jpg?t=1593362160"
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1227448/header.jpg?t=1631645913",
+      "Type": "dlc"
     },
     "1205330": {
-      "Name": "RetroArch - Mesen",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/1205330/header.jpg?t=1592944181"
+      "Name": "",
+      "ImageUrl": ""
     },
     "1222634": {
-      "Name": "RetroArch - Mesen S",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/1222634/header.jpg?t=1592944250"
+      "Name": "",
+      "ImageUrl": ""
     },
     "1227449": {
       "Name": "RetroArch - Genesis Plus GX",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/1227449/header.jpg?t=1592944180"
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1227449/header.jpg?t=1631656515",
+      "Type": "dlc"
     },
     "1222632": {
-      "Name": "RetroArch - Final Burn Neo",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/1222632/header.jpg?t=1592944180"
+      "Name": "",
+      "ImageUrl": ""
     }
   },
   "Name": "RetroArch",
   "AppId": "1118310",
-  "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/1118310/header.jpg?t=1597251633",
+  "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1118310/header.jpg?t=1631620043",
   "Languages": [
     "english",
     "french",
     "italian",
     "german",
-    "spanish",
     "dutch",
     "greek",
     "japanese",
@@ -59,7 +64,6 @@
     "portuguese",
     "portuguese",
     "russian",
-    "latam",
     "swedish",
     "turkish",
     "vietnamese",
@@ -69,6 +73,6 @@
   "Platforms": {
     "windows": true,
     "mac": false,
-    "linux": false
+    "linux": true
   }
 }

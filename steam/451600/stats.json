@@ -1,94 +1,117 @@
-﻿{
-  "DamageDone": {
-    "description": "Damage Done",
-    "value": 0
+[
+  {
+    "name": "DamageDone",
+    "defaultvalue": 0,
+    "displayName": "Damage Done"
   },
-  "Deaths": {
-    "description": "Deaths",
-    "value": 0
+  {
+    "name": "Deaths",
+    "defaultvalue": 0,
+    "displayName": "Deaths"
   },
-  "PowerupsTotalPickupUp": {
-    "description": "Powerups Collected",
-    "value": 0
+  {
+    "name": "PowerupsTotalPickupUp",
+    "defaultvalue": 0,
+    "displayName": "Powerups Collected"
   },
-  "PowerupsTotalUsed": {
-    "description": "Powerups Used",
-    "value": 0
+  {
+    "name": "PowerupsTotalUsed",
+    "defaultvalue": 0,
+    "displayName": "Powerups Used"
   },
-  "SpecialsTotalPickupUp": {
-    "description": "Specials Collected",
-    "value": 0
+  {
+    "name": "SpecialsTotalPickupUp",
+    "defaultvalue": 0,
+    "displayName": "Specials Collected"
   },
-  "SpecialsTotalUsed": {
-    "description": "Specials Used",
-    "value": 0
+  {
+    "name": "SpecialsTotalUsed",
+    "defaultvalue": 0,
+    "displayName": "Specials Used"
   },
-  "TotalKills": {
-    "description": "Kills",
-    "value": 0
+  {
+    "name": "TotalKills",
+    "defaultvalue": 0,
+    "displayName": "Kills"
   },
-  "LevelsPlayed": {
-    "description": "Levels Played",
-    "value": 0
+  {
+    "name": "LevelsPlayed",
+    "defaultvalue": 0,
+    "displayName": "Levels Played"
   },
-  "GamesPlayed": {
-    "description": "Games Played",
-    "value": 0
+  {
+    "name": "GamesPlayed",
+    "defaultvalue": 0,
+    "displayName": "Games Played"
   },
-  "AttachmentsUnlocked": {
-    "description": "Attachments",
-    "value": 0
+  {
+    "name": "AttachmentsUnlocked",
+    "defaultvalue": 0,
+    "displayName": "Attachments"
   },
-  "GamesWon": {
-    "description": "Games Won",
-    "value": 0
+  {
+    "name": "GamesWon",
+    "defaultvalue": 0,
+    "displayName": "Games Won"
   },
-  "Killstreak": {
-    "description": "Killstreak",
-    "value": 0
+  {
+    "name": "Killstreak",
+    "defaultvalue": 0,
+    "displayName": "Killstreak"
   },
-  "EyesKilled": {
-    "description": "Eyes Killed",
-    "value": 0
+  {
+    "name": "EyesKilled",
+    "defaultvalue": 0,
+    "displayName": "Eyes Killed"
   },
-  "HuntersKilled": {
-    "description": "Quantium Hunters Killed",
-    "value": 0
+  {
+    "name": "HuntersKilled",
+    "defaultvalue": 0,
+    "displayName": "Quantium Hunters Killed"
   },
-  "MineBossKilled": {
-    "description": "Mine Level Cleared",
-    "value": 0
+  {
+    "name": "MineBossKilled",
+    "defaultvalue": 0,
+    "displayName": "Mine Level Cleared"
   },
-  "LivesEarned": {
-    "description": "Lives Earned",
-    "value": 0
+  {
+    "name": "LivesEarned",
+    "defaultvalue": 0,
+    "displayName": "Lives Earned"
   },
-  "DestroyersSaved": {
-    "description": "Destroyers Saved",
-    "value": 0
+  {
+    "name": "DestroyersSaved",
+    "defaultvalue": 0,
+    "displayName": "Destroyers Saved"
   },
-  "ProtoCruisersSaved": {
-    "description": "Prototype Cruisers Saved",
-    "value": 0
+  {
+    "name": "ProtoCruisersSaved",
+    "defaultvalue": 0,
+    "displayName": "Prototype Cruisers Saved"
   },
-  "ObocsSaved": {
-    "description": "Oboc Saved",
-    "value": 0
+  {
+    "name": "ObocsSaved",
+    "defaultvalue": 0,
+    "displayName": "Oboc Saved"
   },
-  "Rampages": {
-    "description": "Rampages",
-    "value": 0
+  {
+    "name": "Rampages",
+    "defaultvalue": 0,
+    "displayName": "Rampages"
   },
-  "WavesKilled": {
-    "description": "WavesKilled",
-    "value": 0
+  {
+    "name": "WavesKilled",
+    "defaultvalue": 0,
+    "displayName": "WavesKilled"
   },
-  "DebrisBossKilled": {
-    "description": "Debris Field Cleared",
-    "value": 0
+  {
+    "name": "DebrisBossKilled",
+    "defaultvalue": 0,
+    "displayName": "Debris Field Cleared"
   },
-  "BoxesOpened": {
-    "description": "Boxes Opened",
-    "value": 0
+  {
+    "name": "BoxesOpened",
+    "defaultvalue": 0,
+    "displayName": "Boxes Opened"
   }
-}
+]

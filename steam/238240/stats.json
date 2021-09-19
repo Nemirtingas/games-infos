@@ -1,70 +1,87 @@
-﻿{
-  "creature_kills": {
-    "description": "Creature Kills",
-    "value": 0
+[
+  {
+    "name": "creature_kills",
+    "defaultvalue": 0,
+    "displayName": "Creature Kills"
   },
-  "blocks_mined": {
-    "description": "Blocks Mined",
-    "value": 0
+  {
+    "name": "blocks_mined",
+    "defaultvalue": 0,
+    "displayName": "Blocks Mined"
   },
-  "cryorods_used": {
-    "description": "Cryorods Used",
-    "value": 0
+  {
+    "name": "cryorods_used",
+    "defaultvalue": 0,
+    "displayName": "Cryorods Used"
   },
-  "death_from_fall": {
-    "description": "Deaths from falling",
-    "value": 0
+  {
+    "name": "death_from_fall",
+    "defaultvalue": 0,
+    "displayName": "Deaths from falling"
   },
-  "weapons_crafted": {
-    "description": "Weapons Crafted",
-    "value": 0
+  {
+    "name": "weapons_crafted",
+    "defaultvalue": 0,
+    "displayName": "Weapons Crafted"
   },
-  "science_xp_spent": {
-    "description": "Science XP Spent",
-    "value": 0
+  {
+    "name": "science_xp_spent",
+    "defaultvalue": 0,
+    "displayName": "Science XP Spent"
   },
-  "knowledges_unlocked": {
-    "description": "Knowledges Unlocked",
-    "value": 0
+  {
+    "name": "knowledges_unlocked",
+    "defaultvalue": 0,
+    "displayName": "Knowledges Unlocked"
   },
-  "npcs_collected": {
-    "description": "NPC's Collected",
-    "value": 0
+  {
+    "name": "npcs_collected",
+    "defaultvalue": 0,
+    "displayName": "NPC's Collected"
   },
-  "consumables_ate": {
-    "description": "Consumables Ate",
-    "value": 0
+  {
+    "name": "consumables_ate",
+    "defaultvalue": 0,
+    "displayName": "Consumables Ate"
   },
-  "placeables_placed": {
-    "description": "Placeables Placed",
-    "value": 0
+  {
+    "name": "placeables_placed",
+    "defaultvalue": 0,
+    "displayName": "Placeables Placed"
   },
-  "jumps": {
-    "description": "Jumps",
-    "value": 0
+  {
+    "name": "jumps",
+    "defaultvalue": 0,
+    "displayName": "Jumps"
   },
-  "deaths": {
-    "description": "Deaths",
-    "value": 0
+  {
+    "name": "deaths",
+    "defaultvalue": 0,
+    "displayName": "Deaths"
   },
-  "dominations": {
-    "description": "Dominations",
-    "value": 0
+  {
+    "name": "dominations",
+    "defaultvalue": 0,
+    "displayName": "Dominations"
   },
-  "crafted_items": {
-    "description": "Crafted Items",
-    "value": 0
+  {
+    "name": "crafted_items",
+    "defaultvalue": 0,
+    "displayName": "Crafted Items"
   },
-  "formations_destroyed": {
-    "description": "Formations Destroyed",
-    "value": 0
+  {
+    "name": "formations_destroyed",
+    "defaultvalue": 0,
+    "displayName": "Formations Destroyed"
   },
-  "domination_terraformed_primals": {
-    "description": "Terraformed Primal Zones",
-    "value": 0
+  {
+    "name": "domination_terraformed_primals",
+    "defaultvalue": 0,
+    "displayName": "Terraformed Primal Zones"
   },
-  "upgrades_unlocked": {
-    "description": "Upgrades Unlocked",
-    "value": 0
+  {
+    "name": "upgrades_unlocked",
+    "defaultvalue": 0,
+    "displayName": "Upgrades Unlocked"
   }
-}
+]

@@ -1,26 +1,9 @@
-﻿{
+{
   "Dlcs": {
     "92803": {
       "Name": "SpaceChem: 63 Corvi",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/92803/header.jpg?t=1598472788"
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/92803/header.jpg?t=1598472788",
+      "Type": "dlc"
     }
-  },
-  "Name": "SpaceChem",
-  "AppId": "92800",
-  "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/92800/header.jpg?t=1594921111",
-  "Languages": [
-    "english",
-    "french",
-    "german",
-    "russian",
-    "italian",
-    "japanese",
-    "portuguese",
-    "latam"
-  ],
-  "Platforms": {
-    "windows": true,
-    "mac": true,
-    "linux": true
   }
 }

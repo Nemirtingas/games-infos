@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "name": "ach_00_glove",
     "defaultvalue": 0,
@@ -187,5 +187,99 @@
     "description": "Complete [North Station]",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1352930/26c7b57b0d7bd6bc7739dbbab2ea3f4644b3204a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1352930/151a61630f072f2b4b9924b1d81efc5977610d49.jpg"
+  },
+  {
+    "name": "ach_22_eye4Eye",
+    "defaultvalue": 0,
+    "displayName": "Eye For An Eye",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1352930/e0518b3eea520671aa213d247148b775c5b91637.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1352930/2650ecc30d0fa5700386aeeb26d753e9ddd1001f.jpg"
+  },
+  {
+    "name": "ach_23_seqBreaker",
+    "defaultvalue": 0,
+    "displayName": "Sequence Breaker",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1352930/32d5336c1bfa5f2e3cb0a74014d3ad7783f623ad.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1352930/724caf5a88445d2a1dcc7e8eb04cffb730c8e3ea.jpg"
+  },
+  {
+    "name": "ach_24_hpFrag15",
+    "defaultvalue": 0,
+    "displayName": "HP Tank",
+    "hidden": 0,
+    "description": "Fuse 5+ HP slots, resulting in 7+ HP slots in total",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1352930/493cb8edb46368f456577a34468f0438f56fd0e7.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1352930/a90270edff023a82a0c6829d146fb8156f72df3b.jpg"
+  },
+  {
+    "name": "ach_25_dash2",
+    "defaultvalue": 0,
+    "displayName": "Dash! Dash!",
+    "hidden": 0,
+    "description": "Fuse 1 Energy Slot",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1352930/39e1522de030aefdb622a9dceb5063bf24141d7e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1352930/e08cdf04f01edb0d03e77297bf4ece9a30dd14de.jpg"
+  },
+  {
+    "name": "ach_26_tiLung",
+    "defaultvalue": 0,
+    "displayName": "Titanium Lungs",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1352930/f35489ebe4f1684f6e6a7bf450c5ba22fabfb001.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1352930/3d17e6b5c5049856e69040a5d7d8e8047e9120ec.jpg"
+  },
+  {
+    "name": "ach_28_scarvenger30",
+    "defaultvalue": 0,
+    "displayName": "Supreme Scavenger",
+    "hidden": 0,
+    "description": "Find 30 Mysterious Disks.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1352930/3a88b6e744cd0c113511a54ac4aee3323863115a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1352930/c5188b92aebc76b64ad6281723da99726f35e592.jpg"
+  },
+  {
+    "name": "ach_29_scarvenger50",
+    "defaultvalue": 0,
+    "displayName": "Movie Lover",
+    "hidden": 0,
+    "description": "Find 50 Mysterious Disks.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1352930/4a8e08bdfb2cdf90a376c7f533a35b0c6be57e6b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1352930/da5690703e148f9110437e980231b8e66202cce8.jpg"
+  },
+  {
+    "name": "ach_30_tvChild",
+    "defaultvalue": 0,
+    "displayName": "Couch Potato",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1352930/c75f8d59a7486a39515b5f104919f1424f4537bb.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1352930/73cb262e8370d56681f866d3ccc886d867324e77.jpg"
+  },
+  {
+    "name": "ach_31_skin1",
+    "defaultvalue": 0,
+    "displayName": "Cheapo",
+    "hidden": 0,
+    "description": "Change the color of your cape once.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1352930/7a734984d4817430c8de5f57c114796f0ef5836a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1352930/a4c752f1b2b4bc3afe352ee04dbf3e0bde5b50c3.jpg"
+  },
+  {
+    "name": "ach_32_bringCatHome",
+    "defaultvalue": 0,
+    "displayName": "Yes, Master",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1352930/2fe430f4e9f5e6ca9292a1486c3fcae51bbba63f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1352930/736757dcbfcf3d7e78d1c05c5d941724b1431a28.jpg"
+  },
+  {
+    "name": "ach_33_useTpToilet",
+    "defaultvalue": 0,
+    "displayName": "Smells Interesting",
+    "hidden": 0,
+    "description": "Use a Bathroom Portal once.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1352930/d8e1f1004db6b5787289b03c06811d61dfb3ce7b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1352930/2a770f8b394228d5d7e1b024e2d8ac09e1089d84.jpg"
   }
 ]

@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "name": "ACH_STORY_TROUBLESHOOTER",
     "defaultvalue": 0,
@@ -720,7 +720,7 @@
     "defaultvalue": 0,
     "displayName": "Don't come any closer!",
     "hidden": 0,
-    "description": "Constrict 3 or more enemies with Constricting Root.",
+    "description": "Constrict 3 or more enemies with Anne's Constricting Root.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/470310/8789fe64f25dadbcda8d959bccf1bad328b73216.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/470310/222d2638a06d7a23851db761ed8e7636de9aad61.jpg"
   },
@@ -1591,7 +1591,7 @@
   {
     "name": "ACH_SITUATION_COLLECTION_ALL",
     "defaultvalue": 0,
-    "displayName": "The art collector",
+    "displayName": "The Art Collector",
     "hidden": 1,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/470310/ebf882bce5f4e4567e42fd9675db387b7b0d758d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/470310/e12c9370447858107be92fea77c1f06fc4ef5e8a.jpg"
@@ -1667,5 +1667,201 @@
     "description": "Make 'Bond of Exalted' with anyone",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/470310/a0948dd1bd87c61affb73eed543c0cd9005dc612.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/470310/f5e0b6b3adaada97f5d40f79babefa9413ea2630.jpg"
+  },
+  {
+    "name": "ACH_ROSTER_ALISA",
+    "defaultvalue": 0,
+    "displayName": "The White Lion",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/470310/155cc0c977d44af3e9ad43e0e6f7e67a1ce6bdc4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/470310/d4e2b5bad62e85d8740aaf8c5a032698f79e98c7.jpg"
+  },
+  {
+    "name": "ACH_ROSTER_BIANCA",
+    "defaultvalue": 0,
+    "displayName": "The Black Witch",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/470310/77a417fe11ba2fba34ac78b015d5179a2960392e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/470310/1e52dfcbb9da1b243cc26a8c2a79fabbc25183b5.jpg"
+  },
+  {
+    "name": "ACH_STORY_BLACK_MARKET",
+    "defaultvalue": 0,
+    "displayName": "For tomorrow",
+    "hidden": 0,
+    "description": "Complete the scenario mission [ For tomorrow ]",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/470310/73884a2034fc4c00d99cac50680c719be69b7417.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/470310/db16ff60ee87e3734adcaf7065fdc4dfc62e5fb6.jpg"
+  },
+  {
+    "name": "ACH_SITUATION_ANTI_COUNTER",
+    "defaultvalue": 0,
+    "displayName": "You can nothing",
+    "hidden": 0,
+    "description": "Success [ Neutralize Counters ]",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/470310/e373fe2f89ab36228fa2962d00ac6ea449dc1077.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/470310/c463e8db1bc3bf5b2b9f94c2742d75d00cccb36c.jpg"
+  },
+  {
+    "name": "ACH_SITUATION_ILLUSIONIST",
+    "defaultvalue": 0,
+    "displayName": "The shadow of truth",
+    "hidden": 0,
+    "description": "Success [ illusion ] ability for 5 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/470310/09f1b640204e3c0a7bc78fc1ec9bb9af8379de7f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/470310/70e3ec243689df42d8182007d99ac73677d6c8fb.jpg"
+  },
+  {
+    "name": "ACH_STORY_PORT_NIGHT_MARKET",
+    "defaultvalue": 0,
+    "displayName": "If it must be done...",
+    "hidden": 0,
+    "description": "Complete the scenario mission [ If it must be done... ]",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/470310/e357ed366bed571a8c3ac6fe7cff965909011e74.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/470310/79dce538c8426eb629285fdafe11a682103a640a.jpg"
+  },
+  {
+    "name": "ACH_CHALLENGE_PORT_NIGHT_MARKET_SAVE_ALL",
+    "defaultvalue": 0,
+    "displayName": "No one will be left alone",
+    "hidden": 0,
+    "description": "Rescue all the civilians in the [ If it must be done... ] scenario mission on the hard or higher difficulty.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/470310/b78c5dd4f2132bedc9ab08bb92b67e1d75fe8f13.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/470310/faccb9a8f1b53ede268555528b13c30250157cb2.jpg"
+  },
+  {
+    "name": "ACH_STORY_TRAINING_ROOM_TEST",
+    "defaultvalue": 0,
+    "displayName": "To Not Regret...",
+    "hidden": 0,
+    "description": "Complete the scenario mission [ To Not Regret... ]",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/470310/c150890f222bd090934180a609491b0ffe011dbd.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/470310/b79e39150fe35129dc4dd81fc3afb44b4cc0f924.jpg"
+  },
+  {
+    "name": "ACH_TROUBLEMAKER_DESTRON_RED",
+    "defaultvalue": 0,
+    "displayName": "Scarlet Destroyer",
+    "hidden": 0,
+    "description": "Put the Blut Destron Out of Action",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/470310/762be9ee5b3fc8b6be81b00fc1ea8d00860831ac.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/470310/52a86559541b4bbe8dedf5fbe639ae7ede40e9f0.jpg"
+  },
+  {
+    "name": "ACH_TROUBLEMAKER_DESTRON_WHITE",
+    "defaultvalue": 0,
+    "displayName": "Pure White Destroyer",
+    "hidden": 0,
+    "description": "Put the Vice Destron Out of Action",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/470310/2d1e4dd35859d73711ff82c36434dbe9d8216603.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/470310/3d88edeaaa9ed905accf09dc28aa795f21109bbc.jpg"
+  },
+  {
+    "name": "ACH_TROUBLEMAKER_DESTRON_BLACK",
+    "defaultvalue": 0,
+    "displayName": "Jet Black Destroyer",
+    "hidden": 0,
+    "description": "Put the Schwarz Destron Out of Action",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/470310/c2520b44bad6f0508cd056715da66511e4064ab1.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/470310/730e12f7f92e8e2e050dab08fe71d8d3372c5374.jpg"
+  },
+  {
+    "name": "ACH_CHALLENGE_TRAINING_ROOM_TEST_ROBERTO",
+    "defaultvalue": 0,
+    "displayName": "The Man Who Stepped Back",
+    "hidden": 0,
+    "description": "Put Roberto Out of Action using Irene in the scenario mission [ To Not Regret ]",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/470310/8bd86fab8101fb43d33e6ea119b727108ad5afeb.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/470310/44cf894cd94e6654b064e1717a47ecda67a1819d.jpg"
+  },
+  {
+    "name": "ACH_STORY_SHADOW_STREET",
+    "defaultvalue": 0,
+    "displayName": "The Duty of the Leaved Men",
+    "hidden": 0,
+    "description": "Complete the scenario mission [ The duty of the leaved men ]",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/470310/5892dba5e2730ffc08f5db660db31cd4a93ac34d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/470310/6f90631384dfb19afbab310143a4b1c3eaf4c9ef.jpg"
+  },
+  {
+    "name": "ACH_TROUBLEMAKER_HANSON",
+    "defaultvalue": 0,
+    "displayName": "The Leaved Man",
+    "hidden": 0,
+    "description": "Put Hanson, officer of the Drifter Clowns, Out of Action",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/470310/a9b252cd4709718debb7ef463a855a288783803e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/470310/3869d0cdf1ff7dec19786fa45cdfcb6de89762b1.jpg"
+  },
+  {
+    "name": "ACH_TROUBLEMAKER_CRAMMY_MAGMA",
+    "defaultvalue": 0,
+    "displayName": "Burned out Mountain of Fire",
+    "hidden": 0,
+    "description": "Put Volcano Crabmit Out of Action",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/470310/59f2498b3059344c4a569ee35bdf25f66e6771dc.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/470310/6e6108d7eac644c7be192b3ddd2db5898d44e9d1.jpg"
+  },
+  {
+    "name": "ACH_TROUBLEMAKER_CRAMMY_SNOW",
+    "defaultvalue": 0,
+    "displayName": "Molten Mountain of Ice",
+    "hidden": 0,
+    "description": "Put Snow Mountain Crabmit Out of Action",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/470310/7422bc0bbc23a95b5236af406b49563d68db65d5.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/470310/82ec4903284e0c3af44bc0ac5cc945cefbe57727.jpg"
+  },
+  {
+    "name": "ACH_TROUBLEMAKER_CRAMMY_TREE",
+    "defaultvalue": 0,
+    "displayName": "Trampled Garden of Flowers",
+    "hidden": 0,
+    "description": "Put Flower Garden Crabmit Out of Action",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/470310/42002800a14bb6aea18e271f2670f5b60923945d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/470310/9a2697a2d9f311c6d8bb6619e5b6e888f988731d.jpg"
+  },
+  {
+    "name": "ACH_STORY_RIVER_SIDE_ROAD",
+    "defaultvalue": 0,
+    "displayName": "Confrontation",
+    "hidden": 0,
+    "description": "Complete the scenario mission [ Confrontation ]",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/470310/e570c950fba14726281188fa31bd7b701e8663be.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/470310/98bcd6c640ceeaab0b62f46eae9ac69b85002c7e.jpg"
+  },
+  {
+    "name": "ACH_STORY_ART_PLAZA",
+    "defaultvalue": 0,
+    "displayName": "Where your heart leads to...",
+    "hidden": 0,
+    "description": "Complete the scenario mission [ Where your heart leads to... ]",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/470310/190efaa77e7616ae1cda74b6a938933dbb3eba20.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/470310/8665895b548a13de3f99a94d43680e3ce8fdfed7.jpg"
+  },
+  {
+    "name": "ACH_STORY_GOLD_HAND_STREAM",
+    "defaultvalue": 0,
+    "displayName": "Overlapping coincidence, another phrase for \"destiny\"",
+    "hidden": 0,
+    "description": "Complete the scenario mission [ Overlapping coincidence, another phrase for \"destiny\" ]",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/470310/3002de723dfc1a1f27ce9ddcf138bbd96db213c2.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/470310/85536fc6bc88aafa3461a2294ca15d7f789b8228.jpg"
+  },
+  {
+    "name": "ACH_CHALLENGE_GOLD_HAND_STREAM_SAVE_ALL",
+    "defaultvalue": 0,
+    "displayName": "Citizen Interests First",
+    "hidden": 0,
+    "description": "Rescue all the civilians in the [ Overlapping coincidence, another phrase for \"destiny\" ] scenario mission on the hard or higher difficulty.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/470310/7a3bbf4e1bfa767fd1a8f3d039e40bdbfa32ed79.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/470310/81cacaf6cd02c2761db1dae583dd313970b73ee8.jpg"
+  },
+  {
+    "name": "ACH_TROUBLEMAKER_SANSON",
+    "defaultvalue": 0,
+    "displayName": "A Person Who Doubt",
+    "hidden": 0,
+    "description": "Defeat Sanson, a manager of Drift Clowns",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/470310/8628419d31faaba5e954dab5b08ab6574d4b5811.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/470310/cadd5448e067f2cc12af5becdc695903508549f0.jpg"
   }
 ]

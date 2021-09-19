@@ -2,13 +2,18 @@
   "Dlcs": {},
   "Name": "Ultimate Truco",
   "AppId": "1260430",
-  "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/1260430/header.jpg?t=1594460114",
+  "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1260430/header.jpg?t=1629123272",
   "Languages": [
-    "english"
+    "english",
+    "spanish",
+    "portuguese",
+    "italian",
+    "latam",
+    "portuguese"
   ],
   "Platforms": {
     "windows": true,
-    "mac": false,
+    "mac": true,
     "linux": true
   }
 }

@@ -1,14 +1,17 @@
-﻿{
-  "TrinketMasterStat": {
-    "description": "Trinket Master",
-    "value": 0
+[
+  {
+    "name": "TrinketMasterStat",
+    "defaultvalue": 0,
+    "displayName": "Trinket Master"
   },
-  "TreasureSeekerStat": {
-    "description": "Treasure Seeker",
-    "value": 0
+  {
+    "name": "TreasureSeekerStat",
+    "defaultvalue": 0,
+    "displayName": "Treasure Seeker"
   },
-  "AncientMemoriesStat": {
-    "description": "Ancient Memories",
-    "value": 0
+  {
+    "name": "AncientMemoriesStat",
+    "defaultvalue": 0,
+    "displayName": "Ancient Memories"
   }
-}
+]

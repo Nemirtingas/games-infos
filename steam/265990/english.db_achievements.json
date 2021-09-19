@@ -3876,5 +3876,464 @@
     "description": "This challenge can be completed by killing Calfaxx the Undefeated.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265990/fc1300701bc7bc9944eff1db32f9de243f54d6a6.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265990/1e32b0ff475bd350e246dd14ed91fd1d9e00e68f.jpg"
+  },
+  {
+    "name": "SOULHUNTERS_BAG",
+    "defaultvalue": 0,
+    "displayName": "Soulhunter's Bag",
+    "hidden": 0,
+    "description": "This heritage can be unlocked by purchasing the Soulhunter's Bag from the curio vendor.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265990/4b14c6cdede5eeefabcc6a1eeae176fcbe222cbe.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265990/66dfb0b5d6a92cf5dfbe09b807f7ae6ee48ed21a.jpg"
+  },
+  {
+    "name": "SCRAP_POUCH",
+    "defaultvalue": 0,
+    "displayName": "Scrap Pouch",
+    "hidden": 0,
+    "description": "This heritage can be unlocked by transmuting Recipe for Scrap Pouch in the Soulhunter's Bag.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265990/4b14c6cdede5eeefabcc6a1eeae176fcbe222cbe.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265990/66dfb0b5d6a92cf5dfbe09b807f7ae6ee48ed21a.jpg"
+  },
+  {
+    "name": "BOOMERAX",
+    "defaultvalue": 0,
+    "displayName": "Boomerax",
+    "hidden": 0,
+    "description": "This heritage can be unlocked by transmuting Recipe for Boomerax in the Soulhunter's Bag.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265990/4b14c6cdede5eeefabcc6a1eeae176fcbe222cbe.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265990/66dfb0b5d6a92cf5dfbe09b807f7ae6ee48ed21a.jpg"
+  },
+  {
+    "name": "GHOULBANE",
+    "defaultvalue": 0,
+    "displayName": "Ghoulbane",
+    "hidden": 0,
+    "description": "This heritage can be unlocked by transmuting Recipe for Ghoulbane in the Soulhunter's Bag.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265990/4b14c6cdede5eeefabcc6a1eeae176fcbe222cbe.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265990/66dfb0b5d6a92cf5dfbe09b807f7ae6ee48ed21a.jpg"
+  },
+  {
+    "name": "GAWDHAMMER",
+    "defaultvalue": 0,
+    "displayName": "G'awdmer",
+    "hidden": 0,
+    "description": "This heritage can be unlocked by transmuting Recipe for G'awdmer in the Soulhunter's Bag.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265990/4b14c6cdede5eeefabcc6a1eeae176fcbe222cbe.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265990/66dfb0b5d6a92cf5dfbe09b807f7ae6ee48ed21a.jpg"
+  },
+  {
+    "name": "BLOODLETTER",
+    "defaultvalue": 0,
+    "displayName": "Bloodletter",
+    "hidden": 0,
+    "description": "This heritage can be unlocked by transmuting Recipe for Bloodletter in the Soulhunter's Bag.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265990/4b14c6cdede5eeefabcc6a1eeae176fcbe222cbe.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265990/f83f111129c78e5979030f3caa1241aed16c4f41.jpg"
+  },
+  {
+    "name": "WOLFSBANE",
+    "defaultvalue": 0,
+    "displayName": "Wolfsbane",
+    "hidden": 0,
+    "description": "This heritage can be unlocked by transmuting Recipe for Wolfsbane in the Soulhunter's Bag.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265990/4b14c6cdede5eeefabcc6a1eeae176fcbe222cbe.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265990/f83f111129c78e5979030f3caa1241aed16c4f41.jpg"
+  },
+  {
+    "name": "ELEMENTAL_ARROWS",
+    "defaultvalue": 0,
+    "displayName": "Elemental Arrows",
+    "hidden": 0,
+    "description": "This heritage can be unlocked by crafting all of the arrows listed below in a single game: Flaming Arrow, Freezing Arrow, Shocking Arrow, Knockout Arrow.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265990/a27a0ac70893c3c8d88ce292ba21ebac59c2671a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265990/1e32b0ff475bd350e246dd14ed91fd1d9e00e68f.jpg"
+  },
+  {
+    "name": "ELEMENTAL_BOLTS",
+    "defaultvalue": 0,
+    "displayName": "Elemental Bolts",
+    "hidden": 0,
+    "description": "This heritage can be unlocked by crafting all of the bolts listed below in a single game: Flaming Bolt, Freezing Bolt, Shocking Bolt, Knockout Bolt.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265990/1a725e89fdff09fcf763b90f0831f4ebf765211c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265990/3c318b3768ce55633c1c7515e3d023a5284316fc.jpg"
+  },
+  {
+    "name": "BADAKATHS_END",
+    "defaultvalue": 0,
+    "displayName": "Badakath's End",
+    "hidden": 0,
+    "description": "This heritage can be unlocked by killing Badakath and interrupting the vermen plan to destroy the world.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265990/a27a0ac70893c3c8d88ce292ba21ebac59c2671a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265990/1e32b0ff475bd350e246dd14ed91fd1d9e00e68f.jpg"
+  },
+  {
+    "name": "INFERNAL_BLOODLINE",
+    "defaultvalue": 0,
+    "displayName": "Infernal Bloodline",
+    "hidden": 0,
+    "description": "This heritage can be unlocked by scooping some infernal blood in the blood grail.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265990/204321ef9f73c14b0569a19b3cc787aaeab66bf4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265990/71671a1f6f807fb1c6dbbc92f479216280f5fe85.jpg"
+  },
+  {
+    "name": "PERK_BACKBONE",
+    "defaultvalue": 0,
+    "displayName": "Perk: Backbone",
+    "hidden": 0,
+    "description": "This heritage can be unlocked by consuming infernal blood that is infused with a blood scrip.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265990/204321ef9f73c14b0569a19b3cc787aaeab66bf4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265990/71671a1f6f807fb1c6dbbc92f479216280f5fe85.jpg"
+  },
+  {
+    "name": "PERK_BLOODBORN",
+    "defaultvalue": 0,
+    "displayName": "Perk: Bloodborn",
+    "hidden": 0,
+    "description": "This heritage can be unlocked by consuming infernal blood that is infused with a blood scrip.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265990/204321ef9f73c14b0569a19b3cc787aaeab66bf4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265990/71671a1f6f807fb1c6dbbc92f479216280f5fe85.jpg"
+  },
+  {
+    "name": "PERK_FALLBACK",
+    "defaultvalue": 0,
+    "displayName": "Perk: Fallback",
+    "hidden": 0,
+    "description": "This heritage can be unlocked by consuming infernal blood that is infused with a blood scrip.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265990/204321ef9f73c14b0569a19b3cc787aaeab66bf4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265990/71671a1f6f807fb1c6dbbc92f479216280f5fe85.jpg"
+  },
+  {
+    "name": "PERK_REVENGE",
+    "defaultvalue": 0,
+    "displayName": "Perk: Revenge",
+    "hidden": 0,
+    "description": "This heritage can be unlocked by consuming infernal blood that is infused with a blood scrip.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265990/c62993ba94b549527b32f91ac9f26f7cd7e49019.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265990/71671a1f6f807fb1c6dbbc92f479216280f5fe85.jpg"
+  },
+  {
+    "name": "PERK_SERVITUDE",
+    "defaultvalue": 0,
+    "displayName": "Perk: Servitude",
+    "hidden": 0,
+    "description": "This heritage can be unlocked by consuming infernal blood that is infused with a blood scrip.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265990/204321ef9f73c14b0569a19b3cc787aaeab66bf4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265990/71671a1f6f807fb1c6dbbc92f479216280f5fe85.jpg"
+  },
+  {
+    "name": "PERK_SOULBURN",
+    "defaultvalue": 0,
+    "displayName": "Perk: Soulburn",
+    "hidden": 0,
+    "description": "This heritage can be unlocked by consuming infernal blood that is infused with a blood scrip.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265990/204321ef9f73c14b0569a19b3cc787aaeab66bf4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265990/71671a1f6f807fb1c6dbbc92f479216280f5fe85.jpg"
+  },
+  {
+    "name": "PERK_WHIRLWIND",
+    "defaultvalue": 0,
+    "displayName": "Perk: Whirlwind",
+    "hidden": 0,
+    "description": "This heritage can be unlocked by consuming infernal blood that is infused with a blood scrip.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265990/204321ef9f73c14b0569a19b3cc787aaeab66bf4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265990/71671a1f6f807fb1c6dbbc92f479216280f5fe85.jpg"
+  },
+  {
+    "name": "DEMONRAT_BLOODLINE",
+    "defaultvalue": 0,
+    "displayName": "Demonrat Bloodline",
+    "hidden": 0,
+    "description": "This heritage can be unlocked by scooping some demonrat blood in the blood grail.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265990/204321ef9f73c14b0569a19b3cc787aaeab66bf4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265990/71671a1f6f807fb1c6dbbc92f479216280f5fe85.jpg"
+  },
+  {
+    "name": "PERK_ADRENALIN",
+    "defaultvalue": 0,
+    "displayName": "Perk: Adrenalin",
+    "hidden": 0,
+    "description": "This heritage can be unlocked by consuming infernal blood that is infused with a blood scrip.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265990/204321ef9f73c14b0569a19b3cc787aaeab66bf4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265990/71671a1f6f807fb1c6dbbc92f479216280f5fe85.jpg"
+  },
+  {
+    "name": "PERK_ATHLETICS",
+    "defaultvalue": 0,
+    "displayName": "Perk: Athletics",
+    "hidden": 0,
+    "description": "This heritage can be unlocked by consuming infernal blood that is infused with a blood scrip.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265990/204321ef9f73c14b0569a19b3cc787aaeab66bf4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265990/71671a1f6f807fb1c6dbbc92f479216280f5fe85.jpg"
+  },
+  {
+    "name": "PERK_CHEESED",
+    "defaultvalue": 0,
+    "displayName": "Perk: Cheesed",
+    "hidden": 0,
+    "description": "This heritage can be unlocked by consuming infernal blood that is infused with a blood scrip.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265990/204321ef9f73c14b0569a19b3cc787aaeab66bf4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265990/71671a1f6f807fb1c6dbbc92f479216280f5fe85.jpg"
+  },
+  {
+    "name": "PERK_OPENING",
+    "defaultvalue": 0,
+    "displayName": "Perk: Opening",
+    "hidden": 0,
+    "description": "This heritage can be unlocked by consuming infernal blood that is infused with a blood scrip.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265990/c62993ba94b549527b32f91ac9f26f7cd7e49019.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265990/71671a1f6f807fb1c6dbbc92f479216280f5fe85.jpg"
+  },
+  {
+    "name": "PERK_RAT_FORM",
+    "defaultvalue": 0,
+    "displayName": "Perk: Rat Form",
+    "hidden": 0,
+    "description": "This heritage can be unlocked by consuming infernal blood that is infused with a blood scrip.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265990/204321ef9f73c14b0569a19b3cc787aaeab66bf4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265990/71671a1f6f807fb1c6dbbc92f479216280f5fe85.jpg"
+  },
+  {
+    "name": "PERK_RIPOSTE",
+    "defaultvalue": 0,
+    "displayName": "Perk: Riposte",
+    "hidden": 0,
+    "description": "This heritage can be unlocked by consuming infernal blood that is infused with a blood scrip.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265990/204321ef9f73c14b0569a19b3cc787aaeab66bf4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265990/71671a1f6f807fb1c6dbbc92f479216280f5fe85.jpg"
+  },
+  {
+    "name": "PERK_SHADOWSTEP",
+    "defaultvalue": 0,
+    "displayName": "Perk: Shadowstep",
+    "hidden": 0,
+    "description": "This heritage can be unlocked by consuming infernal blood that is infused with a blood scrip.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265990/204321ef9f73c14b0569a19b3cc787aaeab66bf4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265990/71671a1f6f807fb1c6dbbc92f479216280f5fe85.jpg"
+  },
+  {
+    "name": "SCAVENGER",
+    "defaultvalue": 0,
+    "displayName": "Scavenger",
+    "hidden": 0,
+    "description": "This heritage can be unlocked by learning Shapeshift: Demonrat talent.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265990/204321ef9f73c14b0569a19b3cc787aaeab66bf4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265990/71671a1f6f807fb1c6dbbc92f479216280f5fe85.jpg"
+  },
+  {
+    "name": "VERMIN_LORD",
+    "defaultvalue": 0,
+    "displayName": "Vermin Lord",
+    "hidden": 0,
+    "description": "This heritage can be unlocked by killing 42 or more rats in demonrat form (rat swarms count as 9).",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265990/204321ef9f73c14b0569a19b3cc787aaeab66bf4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265990/71671a1f6f807fb1c6dbbc92f479216280f5fe85.jpg"
+  },
+  {
+    "name": "SUFFERING",
+    "defaultvalue": 0,
+    "displayName": "Suffering",
+    "hidden": 0,
+    "description": "This heritage can be unlocked by having the hateful aura effect when you transform into a demonrat.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265990/204321ef9f73c14b0569a19b3cc787aaeab66bf4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265990/71671a1f6f807fb1c6dbbc92f479216280f5fe85.jpg"
+  },
+  {
+    "name": "SIR_FLETCH_A_LOT",
+    "defaultvalue": 0,
+    "displayName": "Sir Fletch a Lot",
+    "hidden": 0,
+    "description": "This challenge can be completed by crafting a stack of legendary bolts.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265990/930a156758431df49b9934fe1d97be06189fba8a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265990/66dfb0b5d6a92cf5dfbe09b807f7ae6ee48ed21a.jpg"
+  },
+  {
+    "name": "I_DEMAND_SERVICE",
+    "defaultvalue": 0,
+    "displayName": "I Demand Service",
+    "hidden": 0,
+    "description": "This challenge can be completed by identifying a blood scrip at the Diviners' Guild.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265990/65d36b8276b424be7ca90e49029b83d2390e8667.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265990/71671a1f6f807fb1c6dbbc92f479216280f5fe85.jpg"
+  },
+  {
+    "name": "DEMONIC_PRESENCE",
+    "defaultvalue": 0,
+    "displayName": "Demonic Presence",
+    "hidden": 0,
+    "description": "This challenge can be completed by unlocking all infernal and demonrat bloodline perks.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265990/65d36b8276b424be7ca90e49029b83d2390e8667.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265990/71671a1f6f807fb1c6dbbc92f479216280f5fe85.jpg"
+  },
+  {
+    "name": "HERO_OF_THE_DAY",
+    "defaultvalue": 0,
+    "displayName": "Hero of the Day",
+    "hidden": 0,
+    "description": "This challenge can be completed by stopping Peargele's plan to take over the world.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265990/65d36b8276b424be7ca90e49029b83d2390e8667.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265990/71671a1f6f807fb1c6dbbc92f479216280f5fe85.jpg"
+  },
+  {
+    "name": "DRACONIC_BLOODLINE",
+    "defaultvalue": 0,
+    "displayName": "Draconic Bloodline",
+    "hidden": 0,
+    "description": "This heritage can be unlocked by scooping some draconic blood in the blood grail.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265990/204321ef9f73c14b0569a19b3cc787aaeab66bf4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265990/71671a1f6f807fb1c6dbbc92f479216280f5fe85.jpg"
+  },
+  {
+    "name": "PERK_ANATOMY",
+    "defaultvalue": 0,
+    "displayName": "Perk: Anatomy",
+    "hidden": 0,
+    "description": "This heritage can be unlocked by consuming draconic blood that is infused with a blood scrip.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265990/204321ef9f73c14b0569a19b3cc787aaeab66bf4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265990/227dd3a186f40b22433ff2ac612d674f3faa3754.jpg"
+  },
+  {
+    "name": "PERK_BUFFERED",
+    "defaultvalue": 0,
+    "displayName": "Perk: Buffered",
+    "hidden": 0,
+    "description": "This heritage can be unlocked by consuming draconic blood that is infused with a blood scrip.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265990/204321ef9f73c14b0569a19b3cc787aaeab66bf4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265990/71671a1f6f807fb1c6dbbc92f479216280f5fe85.jpg"
+  },
+  {
+    "name": "PERK_CONDUCTOR",
+    "defaultvalue": 0,
+    "displayName": "Perk: Conductor",
+    "hidden": 0,
+    "description": "This heritage can be unlocked by consuming draconic blood that is infused with a blood scrip.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265990/204321ef9f73c14b0569a19b3cc787aaeab66bf4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265990/71671a1f6f807fb1c6dbbc92f479216280f5fe85.jpg"
+  },
+  {
+    "name": "PERK_OLD_TIMER",
+    "defaultvalue": 0,
+    "displayName": "Perk: Old-timer",
+    "hidden": 0,
+    "description": "This heritage can be unlocked by consuming draconic blood that is infused with a blood scrip.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265990/204321ef9f73c14b0569a19b3cc787aaeab66bf4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265990/71671a1f6f807fb1c6dbbc92f479216280f5fe85.jpg"
+  },
+  {
+    "name": "PERK_SOFTBELLY",
+    "defaultvalue": 0,
+    "displayName": "Perk: Softbelly",
+    "hidden": 0,
+    "description": "This heritage can be unlocked by consuming draconic blood that is infused with a blood scrip.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265990/204321ef9f73c14b0569a19b3cc787aaeab66bf4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265990/71671a1f6f807fb1c6dbbc92f479216280f5fe85.jpg"
+  },
+  {
+    "name": "PERK_SPINAL_TAP",
+    "defaultvalue": 0,
+    "displayName": "Perk: Spinal Tap",
+    "hidden": 0,
+    "description": "This heritage can be unlocked by consuming draconic blood that is infused with a blood scrip.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265990/204321ef9f73c14b0569a19b3cc787aaeab66bf4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265990/71671a1f6f807fb1c6dbbc92f479216280f5fe85.jpg"
+  },
+  {
+    "name": "PERK_WILDFIRE",
+    "defaultvalue": 0,
+    "displayName": "Perk: Wildfire",
+    "hidden": 0,
+    "description": "This heritage can be unlocked by consuming draconic blood that is infused with a blood scrip.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265990/204321ef9f73c14b0569a19b3cc787aaeab66bf4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265990/71671a1f6f807fb1c6dbbc92f479216280f5fe85.jpg"
+  },
+  {
+    "name": "TROLLISH_BLOODLINE",
+    "defaultvalue": 0,
+    "displayName": "Trollish Bloodline",
+    "hidden": 0,
+    "description": "This heritage can be unlocked by scooping some troll blood in the blood grail.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265990/204321ef9f73c14b0569a19b3cc787aaeab66bf4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265990/71671a1f6f807fb1c6dbbc92f479216280f5fe85.jpg"
+  },
+  {
+    "name": "PERK_BOULDERSIGHT",
+    "defaultvalue": 0,
+    "displayName": "Perk: Bouldersight",
+    "hidden": 0,
+    "description": "This heritage can be unlocked by consuming troll blood that is infused with a blood scrip.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265990/204321ef9f73c14b0569a19b3cc787aaeab66bf4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265990/71671a1f6f807fb1c6dbbc92f479216280f5fe85.jpg"
+  },
+  {
+    "name": "PERK_CRUUUUUUSH",
+    "defaultvalue": 0,
+    "displayName": "Perk: Cruuuuuush",
+    "hidden": 0,
+    "description": "This heritage can be unlocked by consuming troll blood that is infused with a blood scrip.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265990/204321ef9f73c14b0569a19b3cc787aaeab66bf4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265990/71671a1f6f807fb1c6dbbc92f479216280f5fe85.jpg"
+  },
+  {
+    "name": "PERK_GREENSKIN",
+    "defaultvalue": 0,
+    "displayName": "Perk: Greenskin",
+    "hidden": 0,
+    "description": "This heritage can be unlocked by consuming troll blood that is infused with a blood scrip.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265990/204321ef9f73c14b0569a19b3cc787aaeab66bf4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265990/71671a1f6f807fb1c6dbbc92f479216280f5fe85.jpg"
+  },
+  {
+    "name": "PERK_LIVING_FLESH",
+    "defaultvalue": 0,
+    "displayName": "Perk: Living Flesh",
+    "hidden": 0,
+    "description": "This heritage can be unlocked by consuming troll blood that is infused with a blood scrip.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265990/204321ef9f73c14b0569a19b3cc787aaeab66bf4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265990/71671a1f6f807fb1c6dbbc92f479216280f5fe85.jpg"
+  },
+  {
+    "name": "PERK_REGENERATION",
+    "defaultvalue": 0,
+    "displayName": "Perk: Regeneration",
+    "hidden": 0,
+    "description": "This heritage can be unlocked by consuming troll blood that is infused with a blood scrip.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265990/204321ef9f73c14b0569a19b3cc787aaeab66bf4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265990/71671a1f6f807fb1c6dbbc92f479216280f5fe85.jpg"
+  },
+  {
+    "name": "PERK_ROCK_LOBBER",
+    "defaultvalue": 0,
+    "displayName": "Perk: Rock Lobber",
+    "hidden": 0,
+    "description": "This heritage can be unlocked by consuming troll blood that is infused with a blood scrip.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265990/204321ef9f73c14b0569a19b3cc787aaeab66bf4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265990/71671a1f6f807fb1c6dbbc92f479216280f5fe85.jpg"
+  },
+  {
+    "name": "PERK_THICK_SKULL",
+    "defaultvalue": 0,
+    "displayName": "Perk: Thick Skull",
+    "hidden": 0,
+    "description": "This heritage can be unlocked by consuming troll blood that is infused with a blood scrip.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265990/204321ef9f73c14b0569a19b3cc787aaeab66bf4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265990/71671a1f6f807fb1c6dbbc92f479216280f5fe85.jpg"
+  },
+  {
+    "name": "RUNE_GRINDER",
+    "defaultvalue": 0,
+    "displayName": "Rune Grinder",
+    "hidden": 0,
+    "description": "This heritage can be unlocked after learning a few Orcish words.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265990/204321ef9f73c14b0569a19b3cc787aaeab66bf4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265990/71671a1f6f807fb1c6dbbc92f479216280f5fe85.jpg"
+  },
+  {
+    "name": "RUNE_SCHEMATICS",
+    "defaultvalue": 0,
+    "displayName": "Rune Schematics",
+    "hidden": 0,
+    "description": "This heritage can be unlocked by storing all 30 basic runes in Leo's Workshop.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265990/204321ef9f73c14b0569a19b3cc787aaeab66bf4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/265990/71671a1f6f807fb1c6dbbc92f479216280f5fe85.jpg"
   }
 ]

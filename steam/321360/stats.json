@@ -1,226 +1,322 @@
-﻿{
-  "30_0": {
-    "description": "Achievement_Progress_EPCA_DINO_Gourmet",
-    "value": 0
+[
+  {
+    "name": "30_0",
+    "defaultvalue": 0,
+    "displayName": "Achievement_Progress_EPCA_DINO_Gourmet"
   },
-  "30_2": {
-    "description": "Achievement_Progress_EPCA_HUMAN_Barbeque",
-    "value": 0
+  {
+    "name": "30_2",
+    "defaultvalue": 0,
+    "displayName": "Achievement_Progress_EPCA_HUMAN_Barbeque"
   },
-  "30_3": {
-    "description": "Achievement_Progress_EPCA_ANY_PrimalCornage",
-    "value": 0
+  {
+    "name": "30_3",
+    "defaultvalue": 0,
+    "displayName": "Achievement_Progress_EPCA_ANY_PrimalCornage"
   },
-  "30_5": {
-    "description": "Achievement_Progress_EPCA_ANY_ExtinctionEvent",
-    "value": 0
+  {
+    "name": "30_5",
+    "defaultvalue": 0,
+    "displayName": "Achievement_Progress_EPCA_ANY_ExtinctionEvent"
   },
-  "30_1": {
-    "description": "Achievement_Progress_EPCA_DINO_RexRampage",
-    "value": 0
+  {
+    "name": "30_1",
+    "defaultvalue": 0,
+    "displayName": "Achievement_Progress_EPCA_DINO_RexRampage"
   },
-  "30_4": {
-    "description": "Achievement_Progress_EPCA_DINO_NiceCatch",
-    "value": 0
+  {
+    "name": "30_4",
+    "defaultvalue": 0,
+    "displayName": "Achievement_Progress_EPCA_DINO_NiceCatch"
   },
-  "30_6": {
-    "description": "Achievement_Progress_EPCA_HUMAN_ComeFlyWithMe",
-    "value": 0
+  {
+    "name": "30_6",
+    "defaultvalue": 0,
+    "displayName": "Achievement_Progress_EPCA_HUMAN_ComeFlyWithMe"
   },
-  "30_7": {
-    "description": "Achievement_Progress_EPCA_ANY_LifeFindsAWay",
-    "value": 0
+  {
+    "name": "30_7",
+    "defaultvalue": 0,
+    "displayName": "Achievement_Progress_EPCA_ANY_LifeFindsAWay"
   },
-  "30_8": {
-    "description": "Achievement_Progress_EPCA_HUMAN_CleverGirl",
-    "value": 0
+  {
+    "name": "30_8",
+    "defaultvalue": 0,
+    "displayName": "Achievement_Progress_EPCA_HUMAN_CleverGirl"
   },
-  "30_9": {
-    "description": "Achievement_Progress_EPCA_ANY_CarnageBegins",
-    "value": 0
+  {
+    "name": "30_9",
+    "defaultvalue": 0,
+    "displayName": "Achievement_Progress_EPCA_ANY_CarnageBegins"
   },
-  "30_10": {
-    "description": "Achievement_Progress_EPCA_HUMAN_BlindJustice",
-    "value": 0
+  {
+    "name": "30_10",
+    "defaultvalue": 0,
+    "displayName": "Achievement_Progress_EPCA_HUMAN_BlindJustice"
   },
-  "30_11": {
-    "description": "Achievement_Progress_EPCA_HUMAN_ForScience",
-    "value": 0
+  {
+    "name": "30_11",
+    "defaultvalue": 0,
+    "displayName": "Achievement_Progress_EPCA_HUMAN_ForScience"
   },
-  "30_12": {
-    "description": "Achievement_Progress_EPCA_HUMAN_SmallArms",
-    "value": 0
+  {
+    "name": "30_12",
+    "defaultvalue": 0,
+    "displayName": "Achievement_Progress_EPCA_HUMAN_SmallArms"
   },
-  "30_13": {
-    "description": "Achievement_Progress_EPCA_DINO_MembersOnly",
-    "value": 0
+  {
+    "name": "30_13",
+    "defaultvalue": 0,
+    "displayName": "Achievement_Progress_EPCA_DINO_MembersOnly"
   },
-  "30_14": {
-    "description": "Achievement_Progress_EPCA_DINO_Dinomite",
-    "value": 0
+  {
+    "name": "30_14",
+    "defaultvalue": 0,
+    "displayName": "Achievement_Progress_EPCA_DINO_Dinomite"
   },
-  "30_15": {
-    "description": "Achievement_Progress_EPCA_ANY_TheMagicWord",
-    "value": 0
+  {
+    "name": "30_15",
+    "defaultvalue": 0,
+    "displayName": "Achievement_Progress_EPCA_ANY_TheMagicWord"
   },
-  "30_16": {
-    "description": "Achievement_Progress_EPCA_DINO_PainTrain",
-    "value": 0
+  {
+    "name": "30_16",
+    "defaultvalue": 0,
+    "displayName": "Achievement_Progress_EPCA_DINO_PainTrain"
   },
-  "30_17": {
-    "description": "Achievement_Progress_EPCA_DINO_SilentP",
-    "value": 0
+  {
+    "name": "30_17",
+    "defaultvalue": 0,
+    "displayName": "Achievement_Progress_EPCA_DINO_SilentP"
   },
-  "30_18": {
-    "description": "Achievement_Progress_EPCA_HUMAN_Timber",
-    "value": 0
+  {
+    "name": "30_18",
+    "defaultvalue": 0,
+    "displayName": "Achievement_Progress_EPCA_HUMAN_Timber"
   },
-  "30_19": {
-    "description": "Achievement_Progress_EPCA_HUMAN_SicSemperTyrannosaurus",
-    "value": 0
+  {
+    "name": "30_19",
+    "defaultvalue": 0,
+    "displayName": "Achievement_Progress_EPCA_HUMAN_SicSemperTyrannosaurus"
   },
-  "30_20": {
-    "description": "Achievement_Progress_EPCA_DINO_LeapOfFaith",
-    "value": 0
+  {
+    "name": "30_20",
+    "defaultvalue": 0,
+    "displayName": "Achievement_Progress_EPCA_DINO_LeapOfFaith"
   },
-  "30_21": {
-    "description": "Achievement_Progress_EPCA_HUMAN_AcroHunter",
-    "value": 0
+  {
+    "name": "30_21",
+    "defaultvalue": 0,
+    "displayName": "Achievement_Progress_EPCA_HUMAN_AcroHunter"
   },
-  "30_23": {
-    "description": "Achievement_Progress_EPCA_HUMAN_CommonSense",
-    "value": 0
+  {
+    "name": "30_23",
+    "defaultvalue": 0,
+    "displayName": "Achievement_Progress_EPCA_HUMAN_CommonSense"
   },
-  "30_24": {
-    "description": "Achievement_Progress_EPCA_DINO_FeetofFury",
-    "value": 0
+  {
+    "name": "30_24",
+    "defaultvalue": 0,
+    "displayName": "Achievement_Progress_EPCA_DINO_FeetofFury"
   },
-  "30_25": {
-    "description": "Achievement_Progress_EPCA_HUMAN_Overdose",
-    "value": 0
+  {
+    "name": "30_25",
+    "defaultvalue": 0,
+    "displayName": "Achievement_Progress_EPCA_HUMAN_Overdose"
   },
-  "30_26": {
-    "description": "Achievement_Progress_EPCA_HUMAN_SurvivalNovice",
-    "value": 0
+  {
+    "name": "30_26",
+    "defaultvalue": 0,
+    "displayName": "Achievement_Progress_EPCA_HUMAN_SurvivalNovice"
   },
-  "30_27": {
-    "description": "Achievement_Progress_EPCA_HUMAN_SurvivalAdept",
-    "value": 0
+  {
+    "name": "30_27",
+    "defaultvalue": 0,
+    "displayName": "Achievement_Progress_EPCA_HUMAN_SurvivalAdept"
   },
-  "30_28": {
-    "description": "Achievement_Progress_EPCA_HUMAN_SurvivalExpert",
-    "value": 0
+  {
+    "name": "30_28",
+    "defaultvalue": 0,
+    "displayName": "Achievement_Progress_EPCA_HUMAN_SurvivalExpert"
   },
-  "30_29": {
-    "description": "Achievement_Progress_EPCA_HUMAN_Investor",
-    "value": 0
+  {
+    "name": "30_29",
+    "defaultvalue": 0,
+    "displayName": "Achievement_Progress_EPCA_HUMAN_Investor"
   },
-  "30_30": {
-    "description": "Achievement_Progress_EPCA_HUMAN_SmartShopper",
-    "value": 0
+  {
+    "name": "30_30",
+    "defaultvalue": 0,
+    "displayName": "Achievement_Progress_EPCA_HUMAN_SmartShopper"
   },
-  "30_31": {
-    "description": "Achievement_Progress_EPCA_HUMAN_JurassicBark",
-    "value": 0
+  {
+    "name": "30_31",
+    "defaultvalue": 0,
+    "displayName": "Achievement_Progress_EPCA_HUMAN_JurassicBark"
   },
-  "30_22": {
-    "description": "Achievement_Progress_EPCA_HUMAN_HatchetJob",
-    "value": 0
+  {
+    "name": "30_22",
+    "defaultvalue": 0,
+    "displayName": "Achievement_Progress_EPCA_HUMAN_HatchetJob"
   },
-  "39_0": {
-    "description": "Survival Kills",
-    "value": 0
+  {
+    "name": "39_0",
+    "defaultvalue": 0,
+    "displayName": "Survival Kills"
   },
-  "30_32": {
-    "description": "Achievement_Progress_EPCA_HUMAN_RoastTurkey",
-    "value": 0
+  {
+    "name": "30_32",
+    "defaultvalue": 0,
+    "displayName": "Achievement_Progress_EPCA_HUMAN_RoastTurkey"
   },
-  "30_33": {
-    "description": "Achievement_Progress_EPCA_HUMAN_BoomingBaubles",
-    "value": 0
+  {
+    "name": "30_33",
+    "defaultvalue": 0,
+    "displayName": "Achievement_Progress_EPCA_HUMAN_BoomingBaubles"
   },
-  "30_34": {
-    "description": "Achievement_Progress_EPCA_ANY_HelpingHand",
-    "value": 0
+  {
+    "name": "30_34",
+    "defaultvalue": 0,
+    "displayName": "Achievement_Progress_EPCA_ANY_HelpingHand"
   },
-  "30_35": {
-    "description": "Achievement_Progress_EPCA_DINO_AlphaPredator",
-    "value": 0
+  {
+    "name": "30_35",
+    "defaultvalue": 0,
+    "displayName": "Achievement_Progress_EPCA_DINO_AlphaPredator"
   },
-  "30_36": {
-    "description": "Achievement_Progress_EPCA_HUMAN_BigGameHunter",
-    "value": 0
+  {
+    "name": "30_36",
+    "defaultvalue": 0,
+    "displayName": "Achievement_Progress_EPCA_HUMAN_BigGameHunter"
   },
-  "30_37": {
-    "description": "Achievement_Progress_EPCA_HUMAN_TopGun",
-    "value": 0
+  {
+    "name": "30_37",
+    "defaultvalue": 0,
+    "displayName": "Achievement_Progress_EPCA_HUMAN_TopGun"
   },
-  "30_38": {
-    "description": "Achievement_Progress_EPCA_HUMAN_EmployeeOfTheMonth",
-    "value": 0
+  {
+    "name": "30_38",
+    "defaultvalue": 0,
+    "displayName": "Achievement_Progress_EPCA_HUMAN_EmployeeOfTheMonth"
   },
-  "30_39": {
-    "description": "Achievement_Progress_EPCA_ANY_CommonCrafter",
-    "value": 0
+  {
+    "name": "30_39",
+    "defaultvalue": 0,
+    "displayName": "Achievement_Progress_EPCA_ANY_CommonCrafter"
   },
-  "30_40": {
-    "description": "Achievement_Progress_EPCA_ANY_UncommonCrafter",
-    "value": 0
+  {
+    "name": "30_40",
+    "defaultvalue": 0,
+    "displayName": "Achievement_Progress_EPCA_ANY_UncommonCrafter"
   },
-  "30_41": {
-    "description": "Achievement_Progress_EPCA_ANY_EPCA_ANY_RareCrafter",
-    "value": 0
+  {
+    "name": "30_41",
+    "defaultvalue": 0,
+    "displayName": "Achievement_Progress_EPCA_ANY_EPCA_ANY_RareCrafter"
   },
-  "30_42": {
-    "description": "Achievement_Progress_EPCA_ANY_LegendaryCrafter",
-    "value": 0
+  {
+    "name": "30_42",
+    "defaultvalue": 0,
+    "displayName": "Achievement_Progress_EPCA_ANY_LegendaryCrafter"
   },
-  "20_0": {
-    "description": "PlayerXP",
-    "value": 0
+  {
+    "name": "20_0",
+    "defaultvalue": 0,
+    "displayName": "PlayerXP"
   },
-  "20_1": {
-    "description": "PlayerXPNew",
-    "value": 0
+  {
+    "name": "20_1",
+    "defaultvalue": 0,
+    "displayName": "PlayerXPNew"
   },
-  "30_43": {
-    "description": "Achievement_Progress_EPCA_ANY_CompleteBronzeChallenge",
-    "value": 0
+  {
+    "name": "30_43",
+    "defaultvalue": 0,
+    "displayName": "Achievement_Progress_EPCA_ANY_CompleteBronzeChallenge"
   },
-  "30_44": {
-    "description": "Achievement_Progress_EPCA_ANY_CompleteSilverChallenge",
-    "value": 0
+  {
+    "name": "30_44",
+    "defaultvalue": 0,
+    "displayName": "Achievement_Progress_EPCA_ANY_CompleteSilverChallenge"
   },
-  "30_45": {
-    "description": "Achievement_Progress_EPCA_ANY_CompleteGoldChallenge",
-    "value": 0
+  {
+    "name": "30_45",
+    "defaultvalue": 0,
+    "displayName": "Achievement_Progress_EPCA_ANY_CompleteGoldChallenge"
   },
-  "30_46": {
-    "description": "Achievement_Progress_EPCA_ANY_CompleteThirtyChallenges",
-    "value": 0
+  {
+    "name": "30_46",
+    "defaultvalue": 0,
+    "displayName": "Achievement_Progress_EPCA_ANY_CompleteThirtyChallenges"
   },
-  "30_47": {
-    "description": "Achievement_Progress_EPCA_DINO_FilthyLeech",
-    "value": 0
+  {
+    "name": "30_47",
+    "defaultvalue": 0,
+    "displayName": "Achievement_Progress_EPCA_DINO_FilthyLeech"
   },
-  "30_48": {
-    "description": "Achievement_Progress_EPCA_DINO_LeechMaster",
-    "value": 0
+  {
+    "name": "30_48",
+    "defaultvalue": 0,
+    "displayName": "Achievement_Progress_EPCA_DINO_LeechMaster"
   },
-  "30_49": {
-    "description": "Achievement_Progress_EPCA_DINO_Combo",
-    "value": 0
+  {
+    "name": "30_49",
+    "defaultvalue": 0,
+    "displayName": "Achievement_Progress_EPCA_DINO_Combo"
   },
-  "30_50": {
-    "description": "Achievement_Progress_EPCA_HUMAN_NotSoFast",
-    "value": 0
+  {
+    "name": "30_50",
+    "defaultvalue": 0,
+    "displayName": "Achievement_Progress_EPCA_HUMAN_NotSoFast"
   },
-  "30_51": {
-    "description": "Achievement_Progress_EPCA_DINO_BigBrawler",
-    "value": 0
+  {
+    "name": "30_51",
+    "defaultvalue": 0,
+    "displayName": "Achievement_Progress_EPCA_DINO_BigBrawler"
   },
-  "30_52": {
-    "description": "Achievement_Progress_EPCA_HUMAN_SoftSide",
-    "value": 0
+  {
+    "name": "30_52",
+    "defaultvalue": 0,
+    "displayName": "Achievement_Progress_EPCA_HUMAN_SoftSide"
+  },
+  {
+    "name": "30_53",
+    "defaultvalue": 0,
+    "displayName": "Achievement_Progress_EPCA_OneHandTiedBehindBack"
+  },
+  {
+    "name": "30_54",
+    "defaultvalue": 0,
+    "displayName": "Achievement_Progress_EPCA_HUMAN_BucketOBullets"
+  },
+  {
+    "name": "30_55",
+    "defaultvalue": 0,
+    "displayName": "Achievement_Progress_EPCA_HUMAN_DirtNap"
+  },
+  {
+    "name": "30_56",
+    "defaultvalue": 0,
+    "displayName": "Achievement_Progress_EPCA_HUMAN_HeadHunter"
+  },
+  {
+    "name": "30_57",
+    "defaultvalue": 0,
+    "displayName": "Achievement_Progress_EPCA_HUMAN_Bullseye"
+  },
+  {
+    "name": "30_58",
+    "defaultvalue": 0,
+    "displayName": "Achievement_Progress_EPCA_DINO_UsingYourHead"
+  },
+  {
+    "name": "30_59",
+    "defaultvalue": 0,
+    "displayName": "Achievement_Progress_EPCA_DINO_Pinball"
+  },
+  {
+    "name": "30_60",
+    "defaultvalue": 0,
+    "displayName": "Achievement_Progress_EPCA_HUMAN_SorryToBustYourBubble"
   }
-}
+]

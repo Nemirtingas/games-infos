@@ -1,26 +1,32 @@
-﻿{
-  "WRITETICKET_WRITETICKET": {
-    "description": "Ticket wrote",
-    "value": 0
+[
+  {
+    "name": "WRITETICKET_WRITETICKET",
+    "defaultvalue": 0,
+    "displayName": "Ticket wrote"
   },
-  "CARSTOWED_CARSTOWED": {
-    "description": "Cars towed",
-    "value": 0
+  {
+    "name": "CARSTOWED_CARSTOWED",
+    "defaultvalue": 0,
+    "displayName": "Cars towed"
   },
-  "CITIZENSIDENTIFIED_CITIZENSIDENTIFIED": {
-    "description": "Citizens Identified",
-    "value": 0
+  {
+    "name": "CITIZENSIDENTIFIED_CITIZENSIDENTIFIED",
+    "defaultvalue": 0,
+    "displayName": "Citizens Identified"
   },
-  "CITIZENSFRISKED_CITIZENSFRISKED": {
-    "description": "Citizens Frisked",
-    "value": 0
+  {
+    "name": "CITIZENSFRISKED_CITIZENSFRISKED",
+    "defaultvalue": 0,
+    "displayName": "Citizens Frisked"
   },
-  "TRUNKSSEARCHED_TRUNKSSEARCHED": {
-    "description": "Trunks Searched",
-    "value": 0
+  {
+    "name": "TRUNKSSEARCHED_TRUNKSSEARCHED",
+    "defaultvalue": 0,
+    "displayName": "Trunks Searched"
   },
-  "CRIMINALSTAKEN_CRIMINALSTAKEN": {
-    "description": "Criminals Taken to Prison",
-    "value": 0
+  {
+    "name": "CRIMINALSTAKEN_CRIMINALSTAKEN",
+    "defaultvalue": 0,
+    "displayName": "Criminals Taken to Prison"
   }
-}
+]

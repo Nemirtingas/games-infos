@@ -1,18 +1,22 @@
-﻿{
-  "PIZZAS_COMPLETED_STATS": {
-    "description": "Pizzas completed",
-    "value": 0
+[
+  {
+    "name": "PIZZAS_COMPLETED_STATS",
+    "defaultvalue": 0,
+    "displayName": "Pizzas completed"
   },
-  "MOLES_HIT_STATS": {
-    "description": "Moles hit",
-    "value": 0
+  {
+    "name": "MOLES_HIT_STATS",
+    "defaultvalue": 0,
+    "displayName": "Moles hit"
   },
-  "FISHES_CAUGHT_STATS": {
-    "description": "Fishes caught",
-    "value": 0
+  {
+    "name": "FISHES_CAUGHT_STATS",
+    "defaultvalue": 0,
+    "displayName": "Fishes caught"
   },
-  "KIDS_HIT_STATS": {
-    "description": "Kids hit",
-    "value": 0
+  {
+    "name": "KIDS_HIT_STATS",
+    "defaultvalue": 0,
+    "displayName": "Kids hit"
   }
-}
+]

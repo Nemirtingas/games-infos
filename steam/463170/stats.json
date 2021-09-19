@@ -1,14 +1,17 @@
-﻿{
-  "GuardsKilled": {
-    "description": "Guards killed",
-    "value": 0
+[
+  {
+    "name": "GuardsKilled",
+    "defaultvalue": 0,
+    "displayName": "Guards killed"
   },
-  "BlackMercsKilled": {
-    "description": "Black Mercs killed",
-    "value": 0
+  {
+    "name": "BlackMercsKilled",
+    "defaultvalue": 0,
+    "displayName": "Black Mercs killed"
   },
-  "AISameTeamKill": {
-    "description": "Enemies killed by someone from their own team",
-    "value": 0
+  {
+    "name": "AISameTeamKill",
+    "defaultvalue": 0,
+    "displayName": "Enemies killed by someone from their own team"
   }
-}
+]

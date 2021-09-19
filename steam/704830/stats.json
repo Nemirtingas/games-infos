@@ -1,10 +1,12 @@
-﻿{
-  "Match_Played": {
-    "description": "",
-    "value": 0
+[
+  {
+    "name": "Match_Played",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Match_Played_Win": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Match_Played_Win",
+    "defaultvalue": 0,
+    "displayName": ""
   }
-}
+]

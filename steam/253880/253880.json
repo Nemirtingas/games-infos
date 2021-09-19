@@ -2,16 +2,18 @@
   "Dlcs": {
     "986120": {
       "Name": "Earth 2150 Trilogy - Soundtrack",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/986120/header.jpg?t=1545234120"
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/986120/header.jpg?t=1545234120",
+      "Type": "dlc"
     },
     "986230": {
       "Name": "Earth 2150 - Digital Deluxe Content",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/986230/header.jpg?t=1545234225"
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/986230/header.jpg?t=1545234225",
+      "Type": "dlc"
     }
   },
   "Name": "Earth 2150 Trilogy",
   "AppId": "253880",
-  "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/253880/header.jpg?t=1577092030",
+  "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/253880/header.jpg?t=1622800581",
   "Languages": [
     "english",
     "french",
@@ -22,6 +24,6 @@
   "Platforms": {
     "windows": true,
     "mac": true,
-    "linux": false
+    "linux": true
   }
 }

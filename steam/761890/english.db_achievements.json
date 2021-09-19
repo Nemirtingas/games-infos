@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "name": "SA_COLLECTION_EMOTES",
     "defaultvalue": 0,
@@ -575,7 +575,7 @@
     "defaultvalue": 0,
     "displayName": "Happy Workforce",
     "hidden": 0,
-    "description": "Send a Laborer with at least 100% yield on a mission.",
+    "description": "Send a Laborer with maxed-out Happiness on a mission.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/761890/77455e60f365ec2a23aa13b78e6f79bbefb59a30.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/761890/6d3e4e4407d3eb306e44863aa6a06e7c73e32040.jpg"
   },
@@ -619,7 +619,7 @@
     "defaultvalue": 0,
     "displayName": "Tonight We Dine in Hell!",
     "hidden": 0,
-    "description": "Defeat a Hellgate Boss.",
+    "description": "Defeat a team of enemy players in any type of Hellgate.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/761890/0186a1f7607d00b40659b348b75b56253d7e6adf.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/761890/115df12880609b66ef956b16a8c6e4a07bba9223.jpg"
   },
@@ -673,18 +673,9 @@
     "defaultvalue": 0,
     "displayName": "WE. NEED. YOU.",
     "hidden": 0,
-    "description": "Join any of the five City Factions.",
+    "description": "Join any of the six City Factions.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/761890/a502b2f1500f775cfa21203ad07d6f386d755746.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/761890/1c8a1cbca5f6ff919ad2d0379077433b6a3b33fa.jpg"
-  },
-  {
-    "name": "SA_FACTIONWARFARE_JOIN_ALL",
-    "defaultvalue": 0,
-    "displayName": "Irons in the Fire",
-    "hidden": 0,
-    "description": "Join each of the five City Factions at least once.",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/761890/3c6b1c227451ab1dbbdeeaba93a56f87f1d4fdc0.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/761890/b95b505b49835ac9c9f0eeaddf64c19107ce1fda.jpg"
   },
   {
     "name": "SA_FACTIONWARFARE_CAPTURE_01",
@@ -718,7 +709,7 @@
     "defaultvalue": 0,
     "displayName": "New Sheriff in Town",
     "hidden": 0,
-    "description": "Defeat all five City Faction Warmasters.",
+    "description": "Defeat all opposing City Faction Warmasters at least once.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/761890/e779f0dea6c7436a21caa09910ef094a91d7b62b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/761890/57fe4fd486c2bde456bd1a8d413c748453905c13.jpg"
   },
@@ -727,7 +718,7 @@
     "defaultvalue": 0,
     "displayName": "Partisan",
     "hidden": 0,
-    "description": "Achieve maximum standing with any faction.",
+    "description": "Achieve a standing of 330,000 to be promoted to the first Prestige Rank.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/761890/13432057faf2b3567bf20cdb80890aa9e433c41b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/761890/04da68d5a17d8356aa029df4186402d559d5b118.jpg"
   },
@@ -1063,5 +1054,68 @@
     "description": "Defeat 250 Avalonians in the Roads of Avalon.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/761890/d747b9f38a2c00708efda37f089718ba7e816471.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/761890/1b2256103a087da3acb4f2e4769d67065b0c32be.jpg"
+  },
+  {
+    "name": "SA_COLLECTION_HELLGATE_01",
+    "defaultvalue": 0,
+    "displayName": "Been Through Hell",
+    "hidden": 0,
+    "description": "Gain 100,000 Infamy in any Hellgate type.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/761890/015c8588d6b2c3565c174b76b25c22bf59642768.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/761890/c9725c3eb6d7e798a3cedf2d2b6a4d2d2d27005a.jpg"
+  },
+  {
+    "name": "SA_COLLECTION_HELLGATE_02",
+    "defaultvalue": 0,
+    "displayName": "Hell is My Home",
+    "hidden": 0,
+    "description": "Gain 250,000 Infamy in any Hellgate type.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/761890/6012c98514956d61be6af53cf68ff32d1dfc21c7.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/761890/c3e6ed20928d6a2d318e64ec2581397493526b88.jpg"
+  },
+  {
+    "name": "SA_EXPLORATION_CHAIN_HELLGATE_01",
+    "defaultvalue": 0,
+    "displayName": "I like it...another!",
+    "hidden": 0,
+    "description": "Chain 2 lethal Hellgates without returning to the surface.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/761890/17c0616fe546b0cb5f5ab45094c87b8104ce48ee.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/761890/edd669f8dca564dd876c0da71295086d57b39e33.jpg"
+  },
+  {
+    "name": "SA_EXPLORATION_CHAIN_HELLGATE_02",
+    "defaultvalue": 0,
+    "displayName": "Neither Demon nor Man",
+    "hidden": 0,
+    "description": "Chain 5 lethal Hellgates without returning to the surface.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/761890/257f2bd44bcc7f0449fa8c07eeeecd2dba832ecb.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/761890/07c520877e64eed3b7c9792fe8555a2c0570f094.jpg"
+  },
+  {
+    "name": "SA_EXPLORATION_CHAIN_HELLGATE_03",
+    "defaultvalue": 0,
+    "displayName": "Rip and Tear",
+    "hidden": 0,
+    "description": "Chain 10 lethal Hellgates without returning to the surface.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/761890/a695aa97bdb99873f1bfd251e333128adebba3ed.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/761890/84d7b7d635cd22158ccb7d5f9b8c2e816709e32c.jpg"
+  },
+  {
+    "name": "SA_FACTIONWARFARE_CLUSTER_CAPTURE",
+    "defaultvalue": 0,
+    "displayName": "Conqueror",
+    "hidden": 0,
+    "description": "Assist in completely capturing another city's zone in Faction Warfare.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/761890/baa4f84cdd71f3c1d16953182d8ab8b6ed2ba7f2.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/761890/b134130b120c78f35d9cd9d6c3bf6c612f1a5d8c.jpg"
+  },
+  {
+    "name": "SA_FACTIONWARFARE_BANDIT_ASSAULT",
+    "defaultvalue": 0,
+    "displayName": "Spring Cleaning",
+    "hidden": 0,
+    "description": "Help repel a Bandit Assault.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/761890/19a36b17bab75aea4471f22b5d619a3194be82c5.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/761890/88063ce6c1ad8331b6fec0c2468850d748ccb169.jpg"
   }
 ]

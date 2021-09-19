@@ -1,158 +1,197 @@
-﻿{
-  "STAT_AGENT": {
-    "description": "Government missions completed",
-    "value": 0
+[
+  {
+    "name": "STAT_AGENT",
+    "defaultvalue": 0,
+    "displayName": "Government missions completed"
   },
-  "STAT_ARCHEOLOGY": {
-    "description": "Planet territory surveyed, sq.km",
-    "value": 0
+  {
+    "name": "STAT_ARCHEOLOGY",
+    "defaultvalue": 0,
+    "displayName": "Planet territory surveyed, sq.km"
   },
-  "STAT_BLACKHEAD": {
-    "description": "Non-combat ships destroyed",
-    "value": 0
+  {
+    "name": "STAT_BLACKHEAD",
+    "defaultvalue": 0,
+    "displayName": "Non-combat ships destroyed"
   },
-  "STAT_HOLEMAN": {
-    "description": "Ships eliminated in hyperspace",
-    "value": 0
+  {
+    "name": "STAT_HOLEMAN",
+    "defaultvalue": 0,
+    "displayName": "Ships eliminated in hyperspace"
   },
-  "STAT_MANYFACES": {
-    "description": "Times race changed",
-    "value": 0
+  {
+    "name": "STAT_MANYFACES",
+    "defaultvalue": 0,
+    "displayName": "Times race changed"
   },
-  "STAT_OLDFAG": {
-    "description": "Experience gained",
-    "value": 0
+  {
+    "name": "STAT_OLDFAG",
+    "defaultvalue": 0,
+    "displayName": "Experience gained"
   },
-  "STAT_PRISON": {
-    "description": "Jail sentences served",
-    "value": 0
+  {
+    "name": "STAT_PRISON",
+    "defaultvalue": 0,
+    "displayName": "Jail sentences served"
   },
-  "STAT_SHIELD": {
-    "description": "Pirates killed",
-    "value": 0
+  {
+    "name": "STAT_SHIELD",
+    "defaultvalue": 0,
+    "displayName": "Pirates killed"
   },
-  "STAT_POSTMAN": {
-    "description": "Parcel deliveries failed",
-    "value": 0
+  {
+    "name": "STAT_POSTMAN",
+    "defaultvalue": 0,
+    "displayName": "Parcel deliveries failed"
   },
-  "STAT_PIRATE": {
-    "description": "Solar systems conquered",
-    "value": 0
+  {
+    "name": "STAT_PIRATE",
+    "defaultvalue": 0,
+    "displayName": "Solar systems conquered"
   },
-  "STAT_FRY": {
-    "description": "Ships fried",
-    "value": 0
+  {
+    "name": "STAT_FRY",
+    "defaultvalue": 0,
+    "displayName": "Ships fried"
   },
-  "STAT_DEALER": {
-    "description": "Total deals value",
-    "value": 0
+  {
+    "name": "STAT_DEALER",
+    "defaultvalue": 0,
+    "displayName": "Total deals value"
   },
-  "STAT_JUMPER": {
-    "description": "Hyperjumps made",
-    "value": 0
+  {
+    "name": "STAT_JUMPER",
+    "defaultvalue": 0,
+    "displayName": "Hyperjumps made"
   },
-  "STAT_DEFENDER": {
-    "description": "Solar systems defended",
-    "value": 0
+  {
+    "name": "STAT_DEFENDER",
+    "defaultvalue": 0,
+    "displayName": "Solar systems defended"
   },
-  "STAT_NEGOCIANT": {
-    "description": "Pirates convinced",
-    "value": 0
+  {
+    "name": "STAT_NEGOCIANT",
+    "defaultvalue": 0,
+    "displayName": "Pirates convinced"
   },
-  "STAT_CREDITOR": {
-    "description": "Debts overdue",
-    "value": 0
+  {
+    "name": "STAT_CREDITOR",
+    "defaultvalue": 0,
+    "displayName": "Debts overdue"
   },
-  "STAT_GUARD": {
-    "description": "Defence missions completed",
-    "value": 0
+  {
+    "name": "STAT_GUARD",
+    "defaultvalue": 0,
+    "displayName": "Defence missions completed"
   },
-  "STAT_IRONMAN": {
-    "description": "Planetary battles won",
-    "value": 0
+  {
+    "name": "STAT_IRONMAN",
+    "defaultvalue": 0,
+    "displayName": "Planetary battles won"
   },
-  "STAT_ROCKET": {
-    "description": "Ships destroyed using missiles",
-    "value": 0
+  {
+    "name": "STAT_ROCKET",
+    "defaultvalue": 0,
+    "displayName": "Ships destroyed using missiles"
   },
-  "STAT_CONTRABAND": {
-    "description": "Smuggling deals made",
-    "value": 0
+  {
+    "name": "STAT_CONTRABAND",
+    "defaultvalue": 0,
+    "displayName": "Smuggling deals made"
   },
-  "STAT_ASTEROID": {
-    "description": "Asteroids pulverized",
-    "value": 0
+  {
+    "name": "STAT_ASTEROID",
+    "defaultvalue": 0,
+    "displayName": "Asteroids pulverized"
   },
-  "STAT_QUEST": {
-    "description": "Text adventures completed",
-    "value": 0
+  {
+    "name": "STAT_QUEST",
+    "defaultvalue": 0,
+    "displayName": "Text adventures completed"
   },
-  "STAT_RUINS": {
-    "description": "Coalition bases funded",
-    "value": 0
+  {
+    "name": "STAT_RUINS",
+    "defaultvalue": 0,
+    "displayName": "Coalition bases funded"
   },
-  "STAT_SIDECHANGER": {
-    "description": "Betrayals made",
-    "value": 0
+  {
+    "name": "STAT_SIDECHANGER",
+    "defaultvalue": 0,
+    "displayName": "Betrayals made"
   },
-  "STAT_ENERGY": {
-    "description": "Ships destroyed using energy weapons",
-    "value": 0
+  {
+    "name": "STAT_ENERGY",
+    "defaultvalue": 0,
+    "displayName": "Ships destroyed using energy weapons"
   },
-  "STAT_SPLINTER": {
-    "description": "Ships destroyed using splinter weapons",
-    "value": 0
+  {
+    "name": "STAT_SPLINTER",
+    "defaultvalue": 0,
+    "displayName": "Ships destroyed using splinter weapons"
   },
-  "STAT_EXPLORER": {
-    "description": "Uninhabited planets visited",
-    "value": 0
+  {
+    "name": "STAT_EXPLORER",
+    "defaultvalue": 0,
+    "displayName": "Uninhabited planets visited"
   },
-  "STAT_TERRORIST": {
-    "description": "Coalition stations destroyed",
-    "value": 0
+  {
+    "name": "STAT_TERRORIST",
+    "defaultvalue": 0,
+    "displayName": "Coalition stations destroyed"
   },
-  "STAT_COUNTERTERRORIST": {
-    "description": "Pirate stations destroyed",
-    "value": 0
+  {
+    "name": "STAT_COUNTERTERRORIST",
+    "defaultvalue": 0,
+    "displayName": "Pirate stations destroyed"
   },
-  "STAT_BLUEKILLS": {
-    "description": "Kelleroid dominators destroyed",
-    "value": 0
+  {
+    "name": "STAT_BLUEKILLS",
+    "defaultvalue": 0,
+    "displayName": "Kelleroid dominators destroyed"
   },
-  "STAT_GREENKILLS": {
-    "description": "Terronoid dominators destroyed",
-    "value": 0
+  {
+    "name": "STAT_GREENKILLS",
+    "defaultvalue": 0,
+    "displayName": "Terronoid dominators destroyed"
   },
-  "STAT_REDKILLS": {
-    "description": "Blazeroid dominators destroyed",
-    "value": 0
+  {
+    "name": "STAT_REDKILLS",
+    "defaultvalue": 0,
+    "displayName": "Blazeroid dominators destroyed"
   },
-  "STAT_BERTORSLAYER": {
-    "description": "Bertor-class dominators destroyed",
-    "value": 0
+  {
+    "name": "STAT_BERTORSLAYER",
+    "defaultvalue": 0,
+    "displayName": "Bertor-class dominators destroyed"
   },
-  "STAT_HACKER": {
-    "description": "Anti-dominator programs used",
-    "value": 0
+  {
+    "name": "STAT_HACKER",
+    "defaultvalue": 0,
+    "displayName": "Anti-dominator programs used"
   },
-  "STAT_DELIVERY": {
-    "description": "Delivery missions completed",
-    "value": 0
+  {
+    "name": "STAT_DELIVERY",
+    "defaultvalue": 0,
+    "displayName": "Delivery missions completed"
   },
-  "STAT_PRISONBAIL": {
-    "description": "Pirates bailed from prison",
-    "value": 0
+  {
+    "name": "STAT_PRISONBAIL",
+    "defaultvalue": 0,
+    "displayName": "Pirates bailed from prison"
   },
-  "STAT_ROBBER": {
-    "description": "Ships mugged",
-    "value": 0
+  {
+    "name": "STAT_ROBBER",
+    "defaultvalue": 0,
+    "displayName": "Ships mugged"
   },
-  "STAT_WARRIORKILLS": {
-    "description": "Military ships destroyed",
-    "value": 0
+  {
+    "name": "STAT_WARRIORKILLS",
+    "defaultvalue": 0,
+    "displayName": "Military ships destroyed"
   },
-  "STAT_DRAIN": {
-    "description": "HP drained",
-    "value": 0
+  {
+    "name": "STAT_DRAIN",
+    "defaultvalue": 0,
+    "displayName": "HP drained"
   }
-}
+]

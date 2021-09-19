@@ -1,26 +1,32 @@
-﻿{
-  "stat_deaths": {
-    "description": "Deaths",
-    "value": 0
+[
+  {
+    "name": "stat_deaths",
+    "defaultvalue": 0,
+    "displayName": "Deaths"
   },
-  "stat_highscore": {
-    "description": "Highscore",
-    "value": 0
+  {
+    "name": "stat_highscore",
+    "defaultvalue": 0,
+    "displayName": "Highscore"
   },
-  "stat_highscore_beat": {
-    "description": "",
-    "value": 4294967295
+  {
+    "name": "stat_highscore_beat",
+    "defaultvalue": 4294967295,
+    "displayName": ""
   },
-  "stat_level": {
-    "description": "",
-    "value": 0
+  {
+    "name": "stat_level",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "stat_version": {
-    "description": "",
-    "value": 0
+  {
+    "name": "stat_version",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "stat_dc": {
-    "description": "Consecutive Deaths",
-    "value": 0
+  {
+    "name": "stat_dc",
+    "defaultvalue": 0,
+    "displayName": "Consecutive Deaths"
   }
-}
+]

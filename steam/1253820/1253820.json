@@ -1,24 +1,9 @@
 {
-  "Dlcs": {},
-  "Name": "Oh My Girl ",
-  "AppId": "1253820",
-  "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/1253820/header.jpg?t=1585304687",
-  "Languages": [
-    "english",
-    "schinese",
-    "french",
-    "italian",
-    "german",
-    "spanish",
-    "russian",
-    "japanese",
-    "tchinese",
-    "portuguese",
-    "korean"
-  ],
-  "Platforms": {
-    "windows": true,
-    "mac": false,
-    "linux": false
+  "Dlcs": {
+    "1284640": {
+      "Name": "Oh My Girl / 我的女孩 Soundtrack",
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1284640/header.jpg?t=1588129940",
+      "Type": "music"
+    }
   }
 }

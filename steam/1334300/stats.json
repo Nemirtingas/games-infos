@@ -1,18 +1,22 @@
-﻿{
-  "deaths": {
-    "description": "",
-    "value": 0
+[
+  {
+    "name": "deaths",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "main_levels_finished": {
-    "description": "",
-    "value": 0
+  {
+    "name": "main_levels_finished",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "shots": {
-    "description": "",
-    "value": 0
+  {
+    "name": "shots",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "charges": {
-    "description": "",
-    "value": 0
+  {
+    "name": "charges",
+    "defaultvalue": 0,
+    "displayName": ""
   }
-}
+]

@@ -1,42 +1,52 @@
-﻿{
-  "glory_100": {
-    "description": "",
-    "value": 0
+[
+  {
+    "name": "glory_100",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "legend": {
-    "description": "",
-    "value": 0
+  {
+    "name": "legend",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "jones": {
-    "description": "",
-    "value": 0
+  {
+    "name": "jones",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "potions_drunk": {
-    "description": "",
-    "value": 0
+  {
+    "name": "potions_drunk",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "looted_chest_count": {
-    "description": "",
-    "value": 0
+  {
+    "name": "looted_chest_count",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "good_catch": {
-    "description": "",
-    "value": 0
+  {
+    "name": "good_catch",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "killed_monsters_total": {
-    "description": "",
-    "value": 0
+  {
+    "name": "killed_monsters_total",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "killed_monsters_boss": {
-    "description": "",
-    "value": 0
+  {
+    "name": "killed_monsters_boss",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "killed_monsters_miniboss": {
-    "description": "",
-    "value": 0
+  {
+    "name": "killed_monsters_miniboss",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "scenario_types": {
-    "description": "",
-    "value": 0
+  {
+    "name": "scenario_types",
+    "defaultvalue": 0,
+    "displayName": ""
   }
-}
+]

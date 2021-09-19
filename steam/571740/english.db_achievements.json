@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "name": "ACH_FIRST_SHOT",
     "defaultvalue": 0,
@@ -236,7 +236,7 @@
   {
     "name": "ACH_TOP_SECRET",
     "defaultvalue": 0,
-    "displayName": "Top Secret",
+    "displayName": "Top Secret Grassland",
     "hidden": 1,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/571740/c573f746362474e820622e10cb5287e412576e83.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/571740/7071f606164cddce69aa6aebeee23968fdef6ae6.jpg"
@@ -248,5 +248,116 @@
     "hidden": 1,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/571740/70e4bc2ef880304087fd02a7ce98246d0cd24c8a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/571740/df3ac8b59eb0c6a4c07243852144d74246a85827.jpg"
+  },
+  {
+    "name": "ACH_GRASSLAND",
+    "defaultvalue": 0,
+    "displayName": "Grassland",
+    "hidden": 0,
+    "description": "Finished Grassland under par",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/571740/3089feb9f19108034c198296dc0e7d3c8c457740.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/571740/f10de11bf84224cdb2c8cdf96ee60fdb877004d4.jpg"
+  },
+  {
+    "name": "ACH_WINTERLAND",
+    "defaultvalue": 0,
+    "displayName": "Winterland",
+    "hidden": 0,
+    "description": "Finished Winterland under par",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/571740/50e2ad05153be0d4f2f145a461a578b8c018eac4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/571740/3cce08426f083387313a27c3dd0c0d78f08b27c0.jpg"
+  },
+  {
+    "name": "ACH_MINES",
+    "defaultvalue": 0,
+    "displayName": "Mines",
+    "hidden": 0,
+    "description": "Finished Mines under par",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/571740/adbf9c9b8008a1190df4a3e2d14a2f1f9e026bc6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/571740/d94e5cd248712f60ca70b855894734df7ed6c9b0.jpg"
+  },
+  {
+    "name": "ACH_GRAVEYARD",
+    "defaultvalue": 0,
+    "displayName": "Graveyard",
+    "hidden": 0,
+    "description": "Finished Graveyard under par",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/571740/256aa081eec4c59715ad54533817f20ccc1e4f37.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/571740/c754b7636d1e38ee93283537b6b2a62af3cf271d.jpg"
+  },
+  {
+    "name": "ACH_PIRATES_COVE",
+    "defaultvalue": 0,
+    "displayName": "Pirates Cove",
+    "hidden": 0,
+    "description": "Finished Pirates Cove under par",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/571740/0991dc39189045e56bda565204fe59b942fe6963.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/571740/b29e9935b57f29a238f10d6227ab53ee62b2b478.jpg"
+  },
+  {
+    "name": "ACH_JADE_TEMPLE",
+    "defaultvalue": 0,
+    "displayName": "Jade Temple",
+    "hidden": 0,
+    "description": "Finished Jade Temple under par",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/571740/81179e28834624d0b852616d0f54895708392cd5.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/571740/aadd287efc250a7a55ae44479bca9462e19b4fab.jpg"
+  },
+  {
+    "name": "ACH_VR_CLASSIC",
+    "defaultvalue": 0,
+    "displayName": "VR Classic",
+    "hidden": 0,
+    "description": "Finished VR Classic under par",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/571740/07113dfd82c8943beef14d22f14587c53ffc5143.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/571740/0067b608b570fa72cf1e2f77dc623b83384367d3.jpg"
+  },
+  {
+    "name": "ACH_TOP_SECRET_WINTERLAND",
+    "defaultvalue": 0,
+    "displayName": "Top Secret Winterland",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/571740/450e4a72df2a8bf6a331ec81388ae21f8da8103a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/571740/7c4e8afbf7bb5e009f32ed6847c2d7bb58e0106e.jpg"
+  },
+  {
+    "name": "ACH_TOP_SECRET_GRAVEYARD",
+    "defaultvalue": 0,
+    "displayName": "Top Secret Graveyard",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/571740/450e4a72df2a8bf6a331ec81388ae21f8da8103a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/571740/7c4e8afbf7bb5e009f32ed6847c2d7bb58e0106e.jpg"
+  },
+  {
+    "name": "ACH_TOP_SECRET_PIRATESCOVE",
+    "defaultvalue": 0,
+    "displayName": "Top Secret Pirates Cove",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/571740/450e4a72df2a8bf6a331ec81388ae21f8da8103a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/571740/7c4e8afbf7bb5e009f32ed6847c2d7bb58e0106e.jpg"
+  },
+  {
+    "name": "ACH_TOP_SECRET_JADETEMPLE",
+    "defaultvalue": 0,
+    "displayName": "Top Secret Jade Temple",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/571740/450e4a72df2a8bf6a331ec81388ae21f8da8103a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/571740/7c4e8afbf7bb5e009f32ed6847c2d7bb58e0106e.jpg"
+  },
+  {
+    "name": "ACH_TOP_SECRET_MINES",
+    "defaultvalue": 0,
+    "displayName": "Top Secret Mines",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/571740/450e4a72df2a8bf6a331ec81388ae21f8da8103a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/571740/7c4e8afbf7bb5e009f32ed6847c2d7bb58e0106e.jpg"
+  },
+  {
+    "name": "ACH_TOP_SECRET_VR_CLASSIC",
+    "defaultvalue": 0,
+    "displayName": "Top Secret VR Classic",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/571740/450e4a72df2a8bf6a331ec81388ae21f8da8103a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/571740/7c4e8afbf7bb5e009f32ed6847c2d7bb58e0106e.jpg"
   }
 ]

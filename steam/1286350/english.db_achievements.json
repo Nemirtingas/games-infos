@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "name": "ACH_COMPLETE_GAME_ANY",
     "defaultvalue": 0,
@@ -139,7 +139,7 @@
     "defaultvalue": 0,
     "displayName": "Mastery",
     "hidden": 0,
-    "description": "Completed the game on hard with every Valkyrie.",
+    "description": "Completed the game on hard with Göll, Freyr, Hildr, Njord and Odr.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1286350/f46c548ca85ea1daafc235802eabf447c029fe1b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1286350/212e67e6b0d72e49aba8d24044b5ec63aeafab52.jpg"
   },
@@ -151,5 +151,104 @@
     "description": "Get a score of over 700,000.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1286350/5c255c15b569f9129e4de882d86bdfd865d9a226.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1286350/1cfda758171689e1dd3f303469a46d7b5e11f692.jpg"
+  },
+  {
+    "name": "ACH_COMPLETE_VAMPIRE_EASY",
+    "defaultvalue": 0,
+    "displayName": "Skuld Ascending",
+    "hidden": 0,
+    "description": "Defeated Nidhogg with Skuld on easy.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1286350/8280ff1301f09c09265af6f02328a99a0789629f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1286350/bf135cbb03329c766c382c1247a70ca0631261c8.jpg"
+  },
+  {
+    "name": "ACH_COMPLETE_BANKER_EASY",
+    "defaultvalue": 0,
+    "displayName": "Geri Ascending",
+    "hidden": 0,
+    "description": "Defeated Nidhogg with Geri on easy.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1286350/61f6a19c169d9e908bece2d9f21000f0386560ef.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1286350/202b3e21fae8b15157228ecc9d0f31cc50e8fc31.jpg"
+  },
+  {
+    "name": "ACH_COMPLETE_GOLDEN_EASY",
+    "defaultvalue": 0,
+    "displayName": "Herfjötur Ascending",
+    "hidden": 0,
+    "description": "Defeated Nidhogg with Herfjötur on easy.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1286350/3413329fc78ecb3a9219c49761d321c37d2a43a2.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1286350/94b906af585b26a1cff349b215e0a7245f199a03.jpg"
+  },
+  {
+    "name": "ACH_COMPLETE_RANDOM_EASY",
+    "defaultvalue": 0,
+    "displayName": "Rún Ascending",
+    "hidden": 0,
+    "description": "Defeated Nidhogg with Rún on easy.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1286350/34fecef74b60f22c2ce54b559f68acc511905938.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1286350/595ddf2aa9f2a46d6d4512d4a0355168ec0d1341.jpg"
+  },
+  {
+    "name": "ACH_COMPLETE_ONESHOTWALKING_EASY",
+    "defaultvalue": 0,
+    "displayName": "Sanngriðr Ascending",
+    "hidden": 0,
+    "description": "Defeated Nidhogg with Sanngriðr. Well done!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1286350/c27d0411729e297297fe2e2455023a8a2c7cb86e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1286350/9bc58341fda7fd73e39890a9e25920775dbf7e6d.jpg"
+  },
+  {
+    "name": "ACH_COMPLETE_VAMPIRE_HARD",
+    "defaultvalue": 0,
+    "displayName": "Skuld - The Debtor",
+    "hidden": 0,
+    "description": "Complete the game on hard as Skuld.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1286350/3eefdcb501646e78eaadc31b4d8f340b9f28d9b7.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1286350/7d49d6106a5d1a6f46de29bbd8f75f30df5f6e60.jpg"
+  },
+  {
+    "name": "ACH_COMPLETE_BANKER_HARD",
+    "defaultvalue": 0,
+    "displayName": "Geri - Odin's Hound",
+    "hidden": 0,
+    "description": "Complete the game on hard as Geri.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1286350/7411ffcb83d85eadd757febc8204af7a928233ed.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1286350/699735cd263435464da692d75091bbdc2583c5e9.jpg"
+  },
+  {
+    "name": "ACH_COMPLETE_GOLDEN_HARD",
+    "defaultvalue": 0,
+    "displayName": "Herfjötur - The Fetter",
+    "hidden": 0,
+    "description": "Complete the game on hard as Herfjötur.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1286350/603484d4bfb2b91041085a20172a9c2989b898b1.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1286350/467fa14dbdbdc19808b873eea0422c7a63899713.jpg"
+  },
+  {
+    "name": "ACH_COMPLETE_RANDOM_HARD",
+    "defaultvalue": 0,
+    "displayName": "Rún - The Mystery",
+    "hidden": 0,
+    "description": "Complete the game on hard as Rún.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1286350/3ffc29ebde1ec85916082508887b74f445d46ca5.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1286350/84fccc29474dc5978fb6ba461bd511671d7404ad.jpg"
+  },
+  {
+    "name": "ACH_COMPLETE_ONESHOTWALKING_HARD",
+    "defaultvalue": 0,
+    "displayName": "Sanngriðr - The Cruel",
+    "hidden": 0,
+    "description": "Complete the game on hard as Sanngriðr. Impressive.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1286350/3d87bd47410d4cd72f10e1f0041f8dafc9074130.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1286350/58461d3d00d816e68e77521f2565a47ce7ad2b89.jpg"
+  },
+  {
+    "name": "ACH_COMPLETE_ONESHOTWALKING_HELLISH",
+    "defaultvalue": 0,
+    "displayName": "Graslu - The First",
+    "hidden": 0,
+    "description": "Completed Sanngriðr on Hellish.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1286350/72fd84200ade337269378e836abfcc1da2476b7a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1286350/275447e3e2c08714a33b6b3bd8962c9de058ceab.jpg"
   }
 ]

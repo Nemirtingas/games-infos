@@ -1,50 +1,62 @@
-﻿{
-  "BattleKatinukiMax": {
-    "description": "",
-    "value": 0
+[
+  {
+    "name": "BattleKatinukiMax",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "PuyoTotal": {
-    "description": "",
-    "value": 0
+  {
+    "name": "PuyoTotal",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Puyo3ChainOver": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Puyo3ChainOver",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Puyo4ChainOver": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Puyo4ChainOver",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Puyo5ChainOver": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Puyo5ChainOver",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Puyo6ChainOver": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Puyo6ChainOver",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Puyo7ChainOver": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Puyo7ChainOver",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "PuyoAllClear": {
-    "description": "",
-    "value": 0
+  {
+    "name": "PuyoAllClear",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "TetrisTotal": {
-    "description": "",
-    "value": 0
+  {
+    "name": "TetrisTotal",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Tetris4LineTotal": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Tetris4LineTotal",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "TetrisBtoBTotal": {
-    "description": "",
-    "value": 0
+  {
+    "name": "TetrisBtoBTotal",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "TetrisAllClear": {
-    "description": "",
-    "value": 0
+  {
+    "name": "TetrisAllClear",
+    "defaultvalue": 0,
+    "displayName": ""
   }
-}
+]

@@ -1,14 +1,17 @@
-﻿{
-  "API_name1": {
-    "description": "stest1",
-    "value": 0
+[
+  {
+    "name": "API_name1",
+    "defaultvalue": 0,
+    "displayName": "stest1"
   },
-  "API_name2": {
-    "description": "test2",
-    "value": 0
+  {
+    "name": "API_name2",
+    "defaultvalue": 0,
+    "displayName": "test2"
   },
-  "API_name3": {
-    "description": "tset3",
-    "value": 0
+  {
+    "name": "API_name3",
+    "defaultvalue": 0,
+    "displayName": "tset3"
   }
-}
+]

@@ -1,8 +1,19 @@
-﻿{
-  "Dlcs": {},
+{
+  "Dlcs": {
+    "1471390": {
+      "Name": "KARDS - Starter Pack",
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1471390/header.jpg?t=1612981775",
+      "Type": "dlc"
+    },
+    "1597920": {
+      "Name": "KARDS - Anniversary Edition",
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1597920/header.jpg?t=1618506335",
+      "Type": "dlc"
+    }
+  },
   "Name": "KARDS - The WWII Card Game",
   "AppId": "544810",
-  "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/544810/header.jpg?t=1599823269",
+  "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/544810/header_alt_assets_7.jpg?t=1631636036",
   "Languages": [
     "english",
     "french",
@@ -10,7 +21,12 @@
     "polish",
     "portuguese",
     "russian",
-    "schinese"
+    "schinese",
+    "italian",
+    "spanish",
+    "portuguese",
+    "latam",
+    "tchinese"
   ],
   "Platforms": {
     "windows": true,

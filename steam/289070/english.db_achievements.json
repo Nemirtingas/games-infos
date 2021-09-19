@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "name": "NEW_ACHIEVEMENT_2_0",
     "defaultvalue": 0,
@@ -364,7 +364,7 @@
     "defaultvalue": 0,
     "displayName": "Walk Like an Egyptian",
     "hidden": 0,
-    "description": "As Egypt build a Sphinx adjacent to the Pyramids both on Floodplains",
+    "description": "As Egypt build a Sphinx adjacent to the Pyramids both on Desert Floodplains",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/289070/7abe3993bfa387e3a985d60dc3d9c87034f3eb0d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/289070/c29e93fd82f9033ea2029b866c5bc29f1813d649.jpg"
   },
@@ -2427,6 +2427,339 @@
     "hidden": 0,
     "description": "Earn all Governor promotions for the Sanguine Pact Secret Society.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/289070/5969beeace1ef591acee0f9dadc1ab01e8268945.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/289070/c05dd3fc1d3b8ac1b04314e73dfeebb8aa7ffb26.jpg"
+  },
+  {
+    "name": "STK3_ACHIEVEMENT_01",
+    "defaultvalue": 0,
+    "displayName": "One Eye in One Hundred",
+    "hidden": 0,
+    "description": "Win a regular game as Basil II.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/289070/f908ad84594a3bb57aea3501ada0e81d0a2a143d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/289070/20e5601bf0603c4740efa0d153f7878f02e5d307.jpg"
+  },
+  {
+    "name": "STK3_ACHIEVEMENT_02",
+    "defaultvalue": 0,
+    "displayName": "Et tu, Gallia?",
+    "hidden": 0,
+    "description": "Win a regular game as Ambiorix.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/289070/b60d1793392f356aa801211386c6c90b92143145.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/289070/20e5601bf0603c4740efa0d153f7878f02e5d307.jpg"
+  },
+  {
+    "name": "STK3_ACHIEVEMENT_03",
+    "defaultvalue": 0,
+    "displayName": "Rome is Where the Heart is",
+    "hidden": 0,
+    "description": "As Byzantium, take the original capital of Rome while it is following your founded religion.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/289070/d1a18f3fe0d578050f415498ed1450015329c411.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/289070/20e5601bf0603c4740efa0d153f7878f02e5d307.jpg"
+  },
+  {
+    "name": "STK3_ACHIEVEMENT_04",
+    "defaultvalue": 0,
+    "displayName": "Crom Laughs at Your Tanks",
+    "hidden": 0,
+    "description": "As Gaul, kill a Tank with a Gaesatae.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/289070/fed9c8ad633fa5fe824a45726bfa74ea7bd09741.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/289070/20e5601bf0603c4740efa0d153f7878f02e5d307.jpg"
+  },
+  {
+    "name": "STK3_ACHIEVEMENT_05",
+    "defaultvalue": 0,
+    "displayName": "Things Fall Apart",
+    "hidden": 0,
+    "description": "In Dramatic Ages Mode, lose 4 or more cities by entering a Dark Age.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/289070/c7457b4beccf64b52dc39e8e5c92b5c605c2774b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/289070/20e5601bf0603c4740efa0d153f7878f02e5d307.jpg"
+  },
+  {
+    "name": "STK3_ACHIEVEMENT_06",
+    "defaultvalue": 0,
+    "displayName": "The City Ever-Shining",
+    "hidden": 0,
+    "description": "In Dramatic Ages Mode, enter a Golden Age with an excess 20 Era Score",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/289070/82f1df3dda413ab590b37279dbdac1c75dd7881b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/289070/20e5601bf0603c4740efa0d153f7878f02e5d307.jpg"
+  },
+  {
+    "name": "STK3_ACHIEVEMENT_07",
+    "defaultvalue": 0,
+    "displayName": "No Light Without the Dark",
+    "hidden": 0,
+    "description": "In Dramatic Age Mode, as Georgia, have simultaneously a Golden and a Dark Policy active.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/289070/05af8b343f4477c2721c4d9ef6aa4d681c811cc1.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/289070/20e5601bf0603c4740efa0d153f7878f02e5d307.jpg"
+  },
+  {
+    "name": "ARR_ACHIEVEMENT_01",
+    "defaultvalue": 0,
+    "displayName": "The Abyss is Hungry",
+    "hidden": 0,
+    "description": "Dread Pirate - Sink 10 ships while using Walk the Plank across multiple games.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/289070/5ef2f4daf9b5d46e1ae77f903375c04f9bea7519.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/289070/20e5601bf0603c4740efa0d153f7878f02e5d307.jpg"
+  },
+  {
+    "name": "ARR_ACHIEVEMENT_02",
+    "defaultvalue": 0,
+    "displayName": "Naval Supremacy",
+    "hidden": 0,
+    "description": "Privateer - Ensure that your patron has a naval fleet twice the size of any other colonial power.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/289070/4488a3f8ae4dea2f8e844ccb589072966ce83894.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/289070/20e5601bf0603c4740efa0d153f7878f02e5d307.jpg"
+  },
+  {
+    "name": "ARR_ACHIEVEMENT_03",
+    "defaultvalue": 0,
+    "displayName": "Port in Every Storm",
+    "hidden": 0,
+    "description": "Swashbuckler - Visit the tavern of 10 ports in a single game.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/289070/2d7123484ab4e86c38ea6bd74f102370382b9f5d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/289070/20e5601bf0603c4740efa0d153f7878f02e5d307.jpg"
+  },
+  {
+    "name": "ARR_ACHIEVEMENT_04",
+    "defaultvalue": 0,
+    "displayName": "Love It When a Plan Comes Together",
+    "hidden": 0,
+    "description": "Hoarder - Sink or capture a treasure ship while a treasure escort is locked by a chainshot.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/289070/378002d63b328f2eb56029d99ffe2233638a449b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/289070/20e5601bf0603c4740efa0d153f7878f02e5d307.jpg"
+  },
+  {
+    "name": "ARR_ACHIEVEMENT_05",
+    "defaultvalue": 0,
+    "displayName": "I am a Pirate King!",
+    "hidden": 0,
+    "description": "Win the Pirates scenario.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/289070/a792aaab2b00d357bac198fae479b9adb6934e38.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/289070/20e5601bf0603c4740efa0d153f7878f02e5d307.jpg"
+  },
+  {
+    "name": "ARR_ACHIEVEMENT_06",
+    "defaultvalue": 0,
+    "displayName": "Forced Retirement",
+    "hidden": 0,
+    "description": "Lose the Pirates scenario due to mutiny.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/289070/84262437712563d838a436df63dcea79d186543b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/289070/20e5601bf0603c4740efa0d153f7878f02e5d307.jpg"
+  },
+  {
+    "name": "ARR_ACHIEVEMENT_07",
+    "defaultvalue": 0,
+    "displayName": "Liquid Assets",
+    "hidden": 0,
+    "description": "Sink or capture a treasure ship.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/289070/279d21f2ecbf5ec678e483c83c76f22ac10476d1.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/289070/20e5601bf0603c4740efa0d153f7878f02e5d307.jpg"
+  },
+  {
+    "name": "ARR_ACHIEVEMENT_08",
+    "defaultvalue": 0,
+    "displayName": "Mine! Mine! Mine!",
+    "hidden": 0,
+    "description": "Win the Pirates scenario using mostly Treasure Points.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/289070/15eb8096749aa50555f9e784457b79376f14fe27.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/289070/c05dd3fc1d3b8ac1b04314e73dfeebb8aa7ffb26.jpg"
+  },
+  {
+    "name": "ARR_ACHIEVEMENT_09",
+    "defaultvalue": 0,
+    "displayName": "I am Kind of a Big Deal",
+    "hidden": 0,
+    "description": "Win the Pirates scenario using mostly Infamous Pirate Points.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/289070/1fa2a71556ab8752085d8fa64aac443b4f29a97a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/289070/20e5601bf0603c4740efa0d153f7878f02e5d307.jpg"
+  },
+  {
+    "name": "ARR_ACHIEVEMENT_10",
+    "defaultvalue": 0,
+    "displayName": "I Want You to Hit Me as Hard as You Can",
+    "hidden": 0,
+    "description": "Win the Pirates scenario using mostly Fightin' Points.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/289070/eb0c4203167949d92d1ce3baae984ccd05d52be5.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/289070/20e5601bf0603c4740efa0d153f7878f02e5d307.jpg"
+  },
+  {
+    "name": "STK4_ACHIEVEMENT_01",
+    "defaultvalue": 0,
+    "displayName": "Babylon Rocker",
+    "hidden": 0,
+    "description": "Win a regular game as Hammurabi.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/289070/f02cb3113b302bb764f1866aae0116e312a27cae.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/289070/20e5601bf0603c4740efa0d153f7878f02e5d307.jpg"
+  },
+  {
+    "name": "STK4_ACHIEVEMENT_02",
+    "defaultvalue": 0,
+    "displayName": "Let's Do the Time Warp Again",
+    "hidden": 0,
+    "description": "As Babylon, earn 5 tech boosts for techs that are at least one era later than your current era.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/289070/e4415e482c9a15c9552dc7a691ff1b2da7ca07f9.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/289070/20e5601bf0603c4740efa0d153f7878f02e5d307.jpg"
+  },
+  {
+    "name": "STK4_ACHIEVEMENT_03",
+    "defaultvalue": 0,
+    "displayName": "Sing, O Muse",
+    "hidden": 0,
+    "description": "Claim every Hero across multiple games.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/289070/da82ebfc3c0b16790a3c814840d55500bfea3092.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/289070/20e5601bf0603c4740efa0d153f7878f02e5d307.jpg"
+  },
+  {
+    "name": "STK4_ACHIEVEMENT_04",
+    "defaultvalue": 0,
+    "displayName": "Clash of the Titans",
+    "hidden": 0,
+    "description": "Kill an enemy Hero with your Hero.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/289070/b0363cb48ffd1c9c77b99484bb326b85e0a0c187.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/289070/20e5601bf0603c4740efa0d153f7878f02e5d307.jpg"
+  },
+  {
+    "name": "STK4_ACHIEVEMENT_05",
+    "defaultvalue": 0,
+    "displayName": "The Brave Live Forever",
+    "hidden": 0,
+    "description": "Recall a Hero 5 times in a single game.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/289070/ce49a1b4bf6f19bd667f1e889d4ae2573a60bffe.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/289070/20e5601bf0603c4740efa0d153f7878f02e5d307.jpg"
+  },
+  {
+    "name": "STK4_ACHIEVEMENT_06",
+    "defaultvalue": 0,
+    "displayName": "Steel-Driving Man",
+    "hidden": 0,
+    "description": "Recall a Hero after the Industrial Era.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/289070/bc54a1762b99072bb35e0fec115abf8bbc55d83b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/289070/c05dd3fc1d3b8ac1b04314e73dfeebb8aa7ffb26.jpg"
+  },
+  {
+    "name": "STK4_ACHIEVEMENT_07",
+    "defaultvalue": 0,
+    "displayName": "The Dream Team",
+    "hidden": 0,
+    "description": "Claim 5 Heroes in a single game.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/289070/38ccf0b4ab68df9cc81ce47eeb19d48f1090a44c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/289070/20e5601bf0603c4740efa0d153f7878f02e5d307.jpg"
+  },
+  {
+    "name": "STK5_ACHIEVEMENT_01",
+    "defaultvalue": 0,
+    "displayName": "I will not bend my back",
+    "hidden": 0,
+    "description": "Win a regular game as Bà Triệu.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/289070/12a21fe328ed27abc8ebea1a29e685bd7cfbcc32.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/289070/20e5601bf0603c4740efa0d153f7878f02e5d307.jpg"
+  },
+  {
+    "name": "STK5_ACHIEVEMENT_02",
+    "defaultvalue": 0,
+    "displayName": "For he on honey-dew hath fed",
+    "hidden": 0,
+    "description": "Win a regular game as Kublai Khan.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/289070/cc53af16111949b95872326680e4c593e7b4fcb4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/289070/20e5601bf0603c4740efa0d153f7878f02e5d307.jpg"
+  },
+  {
+    "name": "STK5_ACHIEVEMENT_03",
+    "defaultvalue": 0,
+    "displayName": "Top Hat and Monocle",
+    "hidden": 0,
+    "description": "Control a 100% Monopoly on a given Luxury Resource on a Standard sized map or larger.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/289070/1e89e4e05dbd5f7f49d16be180aeaf6a9dd7c4bd.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/289070/20e5601bf0603c4740efa0d153f7878f02e5d307.jpg"
+  },
+  {
+    "name": "STK5_ACHIEVEMENT_04",
+    "defaultvalue": 0,
+    "displayName": "Jack of all Trades, Master of None",
+    "hidden": 0,
+    "description": "Win a game on a Standard sized map or larger with 5 or more Industries, but no Corporations.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/289070/22c01e8e643f5f3c74305b37f644c5e15cb92bfe.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/289070/20e5601bf0603c4740efa0d153f7878f02e5d307.jpg"
+  },
+  {
+    "name": "STK5_ACHIEVEMENT_05",
+    "defaultvalue": 0,
+    "displayName": "Robber Baron",
+    "hidden": 0,
+    "description": "Control 5 Luxury Resource Monopolies at once on a Standard sized map or larger.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/289070/6471c921671d3d34cb8f4e156cc2d125861eea4a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/289070/20e5601bf0603c4740efa0d153f7878f02e5d307.jpg"
+  },
+  {
+    "name": "STK5_ACHIEVEMENT_06",
+    "defaultvalue": 0,
+    "displayName": "Limited Edition",
+    "hidden": 0,
+    "description": "Hire a unique unit from a Barbarian Clan.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/289070/e349a4fd9a45d953df9ad889c921fdd43a822aa2.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/289070/20e5601bf0603c4740efa0d153f7878f02e5d307.jpg"
+  },
+  {
+    "name": "STK5_ACHIEVEMENT_07",
+    "defaultvalue": 0,
+    "displayName": "Finder's Fee",
+    "hidden": 0,
+    "description": "Ransom 5 units from Barbarian Clans in a single game.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/289070/3243b2a43c54a6ed2d235bc3609eb37105c73551.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/289070/c05dd3fc1d3b8ac1b04314e73dfeebb8aa7ffb26.jpg"
+  },
+  {
+    "name": "STK5_ACHIEVEMENT_08",
+    "defaultvalue": 0,
+    "displayName": "Frenemies",
+    "hidden": 0,
+    "description": "Hire, Bribe, Incite, and Raid the same Barbarian Clan.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/289070/81bde5175a87499d132405ae682d7733e3d11d85.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/289070/c05dd3fc1d3b8ac1b04314e73dfeebb8aa7ffb26.jpg"
+  },
+  {
+    "name": "STK6_ACHIEVEMENT_01",
+    "defaultvalue": 0,
+    "displayName": "The Spice Must Flow",
+    "hidden": 0,
+    "description": "Win a regular game as João III.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/289070/b92c8a2f3b13b1eecc30ae652f7c8b96acf7d9c6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/289070/20e5601bf0603c4740efa0d153f7878f02e5d307.jpg"
+  },
+  {
+    "name": "STK6_ACHIEVEMENT_02",
+    "defaultvalue": 0,
+    "displayName": "Ultramar Português",
+    "hidden": 0,
+    "description": "As Portugal, have a Trading Post in cities belonging to Brazil, India, and Japan.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/289070/ea327f014f7e6ceba8bc9458467211bd96dc0514.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/289070/20e5601bf0603c4740efa0d153f7878f02e5d307.jpg"
+  },
+  {
+    "name": "STK6_ACHIEVEMENT_03",
+    "defaultvalue": 0,
+    "displayName": "Re-Animator",
+    "hidden": 0,
+    "description": "Control at least 20 Zombie units at the start of your turn.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/289070/e9617948bd289ff368641516fd4b4e870d3747d7.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/289070/c05dd3fc1d3b8ac1b04314e73dfeebb8aa7ffb26.jpg"
+  },
+  {
+    "name": "STK6_ACHIEVEMENT_04",
+    "defaultvalue": 0,
+    "displayName": "Well Hello Mr. Fancypants",
+    "hidden": 0,
+    "description": "Destroy a Zombie unit that has +50 or more Mutation Strength.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/289070/875059938477ffc167b328d0b30da3c61b498ea6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/289070/20e5601bf0603c4740efa0d153f7878f02e5d307.jpg"
+  },
+  {
+    "name": "STK6_ACHIEVEMENT_05",
+    "defaultvalue": 0,
+    "displayName": "It's a Trap!!!",
+    "hidden": 0,
+    "description": "Deal 50 or more damage to a single unit from trap damage on a single tile in one turn.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/289070/62744291f3f02efe3a986db6116fd70fd7183dde.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/289070/c05dd3fc1d3b8ac1b04314e73dfeebb8aa7ffb26.jpg"
   }
 ]

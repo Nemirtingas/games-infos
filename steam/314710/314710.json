@@ -2,16 +2,18 @@
   "Dlcs": {
     "364220": {
       "Name": "Mighty No. 9 - Retro Hero",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/364220/header.jpg?t=1480693184"
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/364220/header.jpg?t=1480693184",
+      "Type": "dlc"
     },
     "401320": {
       "Name": "Mighty No. 9 - Ray Expansion",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/401320/header.jpg?t=1477493581"
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/401320/header.jpg?t=1477493581",
+      "Type": "dlc"
     }
   },
   "Name": "Mighty No. 9",
   "AppId": "314710",
-  "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/314710/header.jpg?t=1570018348",
+  "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/314710/header.jpg?t=1608197459",
   "Languages": [
     "english",
     "french",
@@ -22,7 +24,8 @@
     "portuguese",
     "russian",
     "korean",
-    "tchinese"
+    "tchinese",
+    "schinese"
   ],
   "Platforms": {
     "windows": true,

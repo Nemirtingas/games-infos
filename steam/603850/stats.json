@@ -1,14 +1,17 @@
-﻿{
-  "S_VASS": {
-    "description": "",
-    "value": 0
+[
+  {
+    "name": "S_VASS",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "S_UNIO": {
-    "description": "",
-    "value": 0
+  {
+    "name": "S_UNIO",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "S_ALLI": {
-    "description": "",
-    "value": 0
+  {
+    "name": "S_ALLI",
+    "defaultvalue": 0,
+    "displayName": ""
   }
-}
+]

@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "name": "Overcrowded",
     "defaultvalue": 0,
@@ -409,7 +409,7 @@
     "defaultvalue": 0,
     "displayName": "It's quittin time",
     "hidden": 0,
-    "description": "Complete 1 map in a game",
+    "description": "Leave your first map",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1278210/639c2679575565b7515e549259d7322ac1d247bb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1278210/f0d7c70ae48f2f97ecf908e32093b3689ce64248.jpg"
   },
@@ -418,7 +418,7 @@
     "defaultvalue": 0,
     "displayName": "Round Trip",
     "hidden": 0,
-    "description": "Complete 9 maps in a game",
+    "description": "Leave 9 maps in a single game",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1278210/17e78124480e8a372d2e3d8d68422ab4cbd482f7.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1278210/f18cedcb7de0617a1ee8a07b8262cf97a3544dc5.jpg"
   },
@@ -427,7 +427,7 @@
     "defaultvalue": 0,
     "displayName": "Doin Laps",
     "hidden": 0,
-    "description": "Complete 17 maps in a game",
+    "description": "Leave 17 maps in a single game",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1278210/99f84ea030422b4f4d41663aa0e623511d3cbc10.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1278210/0717f8cca905a3d5b8ea4dbacf80a6d20dced0e9.jpg"
   },
@@ -436,7 +436,7 @@
     "defaultvalue": 0,
     "displayName": "This is all so familiar",
     "hidden": 0,
-    "description": "Complete 25 maps in a game",
+    "description": "Leave 25 maps in a single game",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1278210/5f1075d1b2892ea94a40abd7a5a18e0e6f147c62.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1278210/8924c59824f5d8da2ed292fece8c927570c0cc6c.jpg"
   },
@@ -925,5 +925,230 @@
     "description": "He wears the bones of his fallen comrades to channel their rage directly into your raider's face.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1278210/f7d5a6f0e9e63a6ba131e9ea63b3d6848fbb31d7.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1278210/636f919617611a40635cffd952588f946a2c402c.jpg"
+  },
+  {
+    "name": "3_Pointer",
+    "defaultvalue": 0,
+    "displayName": "Three Pointer",
+    "hidden": 0,
+    "description": "Score a basket with a human head.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1278210/c4c67d11270396fa0107633b1bfb9a51ba204391.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1278210/d84bdef7cffbb99ca0f520cf482964cbe27485a5.jpg"
+  },
+  {
+    "name": "Slam_Dunk",
+    "defaultvalue": 0,
+    "displayName": "Slam Dunk",
+    "hidden": 0,
+    "description": "Score a basket with anything. Yep, even the landing gear counts.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1278210/b3b5d30d1aa4af47c54dd07411833ca2953188f2.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1278210/cc608dba5de42bea6572624648f2e3a79d1388a2.jpg"
+  },
+  {
+    "name": "Hatred_Endless",
+    "defaultvalue": 0,
+    "displayName": "Comic: Hatred",
+    "hidden": 0,
+    "description": "One angry man. A legion of wriggling worms. Let the blood flow.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1278210/c462d14b4cf689f828f9f7c07864dfa12b65281c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1278210/8043173f92894576460f66c72d2518c2868aadf8.jpg"
+  },
+  {
+    "name": "Hatred_Survival",
+    "defaultvalue": 0,
+    "displayName": "Hatred: Survival",
+    "hidden": 0,
+    "description": "Don't let the pilot's taunts distract you from your main mission: squishing every mediocre maggot on the planet.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1278210/31cd4f4a9bcc9aef5ed8103e670c31df02695608.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1278210/c6971f2cd6f5e7f036d20ff4eb59ba5f96acea0d.jpg"
+  },
+  {
+    "name": "Suicide_Squad",
+    "defaultvalue": 0,
+    "displayName": "Suicide Squad",
+    "hidden": 0,
+    "description": "Mr. Akbar won't get his 72 virgins if he goes alone. He needs to take at least 10 infidels with him.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1278210/fdfc993b802c5f694d35bad93bda2554da1fce38.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1278210/81d191a21016399c48988dfd348f2a0c0a751989.jpg"
+  },
+  {
+    "name": "Orgy",
+    "defaultvalue": 0,
+    "displayName": "Orgy",
+    "hidden": 0,
+    "description": "If you thought the ideal orgy would have an even mix of men to women, I have news for you. That is not the case, my friend.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1278210/bfec339ff32ccfaa3f2c1decae328a2e68f4298d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1278210/844b406b8bd1bf321233742daeb52908fb5f9605.jpg"
+  },
+  {
+    "name": "Fat_Lady_Sings",
+    "defaultvalue": 0,
+    "displayName": "When the Fat Lady Sings",
+    "hidden": 0,
+    "description": "Every raider should know that you can't get between a McAmerican and their fries. Someone always pays.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1278210/bbdc2873a1a0b5efb0753a0b3fbcba94fff2a975.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1278210/283b3a9bd9960de7f7d2b0aac5101fbc7aa7fdec.jpg"
+  },
+  {
+    "name": "You_Maggot",
+    "defaultvalue": 0,
+    "displayName": "You Maggot",
+    "hidden": 0,
+    "description": "Really? You let him die first? What about all those other lambs that could have been sent to the slaughter?",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1278210/c0ebe118de993196a398009df74230e1a9560556.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1278210/01ae3b173284ad4994b3e970551ba941da0d9606.jpg"
+  },
+  {
+    "name": "Expendable",
+    "defaultvalue": 0,
+    "displayName": "Expendable",
+    "hidden": 0,
+    "description": "You lost a few bitches, but you know what? You kept the not important one. Good job.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1278210/8e37c70d50198b2d08f7bfe0dcfb2e745387eda9.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1278210/0175a7fef682a0cd3c67fec030fa1f110a503b1f.jpg"
+  },
+  {
+    "name": "All_Red",
+    "defaultvalue": 0,
+    "displayName": "All I See is Red",
+    "hidden": 0,
+    "description": "Everything needs to be black, white, and red. Be mindful of you accessorize.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1278210/1ac873d1351f632e3b90da72050b0f2e4e964638.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1278210/4a1c707be5ca3245307c8c28076f9ea1d7a811dd.jpg"
+  },
+  {
+    "name": "Human_Kills_1",
+    "defaultvalue": 0,
+    "displayName": "Human Murderer",
+    "hidden": 0,
+    "description": "Kill 66 humans",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1278210/5d9bd2755e33edef2f9120a3f6cbb2c1e989c9af.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1278210/7108b8e7605887bd5d216a66c893176fb50b7412.jpg"
+  },
+  {
+    "name": "Human_Kills_2",
+    "defaultvalue": 0,
+    "displayName": "Human Exterminator",
+    "hidden": 0,
+    "description": "Kill 666 humans",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1278210/4b5eb8bc5828359abc16f28f906cdb6c6ad4f8d4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1278210/bc0698b2b3d49e0084f36adbd57dec2f919161e2.jpg"
+  },
+  {
+    "name": "Human_Kills_3",
+    "defaultvalue": 0,
+    "displayName": "Poor Humans",
+    "hidden": 0,
+    "description": "Kill 6,666 humans",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1278210/a95585f1731eb6acdaaf59ad5529ba05e3fe3e3c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1278210/2f1da5ab0cc2e4bfe4483e1c7def67c7e882554e.jpg"
+  },
+  {
+    "name": "Human_Kills_4",
+    "defaultvalue": 0,
+    "displayName": "Genocide",
+    "hidden": 0,
+    "description": "Kill 66,666 humans",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1278210/681da040b5f09b6a2a98c331873b7acb4f03c1da.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1278210/761fd02026b7dee5d93ec4325c278faf0ca84059.jpg"
+  },
+  {
+    "name": "Sacrifice_Hard_Ending",
+    "defaultvalue": 0,
+    "displayName": "Bro, WTF",
+    "hidden": 0,
+    "description": "You beat the story \"Sacrifice\" on its hardest difficulty. Still not as hard as making it to wave 50 in Endless, but still pretty neat. Go buy yourself something nice.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1278210/4f99021acec1e0fc1aeab8df0c96834deabc7331.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1278210/65686129c842975659bccb31de2a2faafbb42966.jpg"
+  },
+  {
+    "name": "Edgelord",
+    "defaultvalue": 0,
+    "displayName": "Edgelord",
+    "hidden": 0,
+    "description": "You're so damned edgy you couldn't even stay near the center of the  map. Had to build a new base with blackjack and hookers.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1278210/2a5d9e96574fb9fa7c64d71cac219f586e029079.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1278210/6c1008ce282fff79e9b0411385e56f4e134147de.jpg"
+  },
+  {
+    "name": "Boss_Asher",
+    "defaultvalue": 0,
+    "displayName": "Boss: Asher",
+    "hidden": 0,
+    "description": "He wouldn't last a second in the ring with a real MMA fighter, but don't tell his mom that. She's so proud of him.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1278210/9fa30aced0e31bf87e3efce3245f5bd132bf0648.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1278210/a4d627e34853589d700593e331c953e9adffe793.jpg"
+  },
+  {
+    "name": "Boss_Wanda",
+    "defaultvalue": 0,
+    "displayName": "Boss: Wanda",
+    "hidden": 0,
+    "description": "She was passed over for a promotion yet again, and now she's determined to bring down the patriarchy. With a knife.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1278210/9138607cd3c9a8acff127ce0ac70d496793d38e1.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1278210/c16500a349aaeed083649e9c6d27452b30268296.jpg"
+  },
+  {
+    "name": "Boss_Carl",
+    "defaultvalue": 0,
+    "displayName": "Boss: Officer Carl",
+    "hidden": 0,
+    "description": "Officer Carl brings his riot shotgun everywhere, especially underprivileged communities.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1278210/9a78f240e8b82611e2792d37c0fd33b0dc3aa031.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1278210/71cc2169c69d37a18465efcfd62297905885c641.jpg"
+  },
+  {
+    "name": "Boss_McCallahan",
+    "defaultvalue": 0,
+    "displayName": "Boss: McCallahan",
+    "hidden": 0,
+    "description": "Nobody will be surprised when he shows up at the pub with blood spatters on his sleeve and files a \"Missing Persons\" report for his wife.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1278210/c2eb1414a6729b8fb73d2f3cbe1ca4e21d16b913.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1278210/6cca858653c50a6a47ec88b25c09a2d26d4a52c6.jpg"
+  },
+  {
+    "name": "Boss_Pedro",
+    "defaultvalue": 0,
+    "displayName": "Boss: Private Pedro",
+    "hidden": 0,
+    "description": "This go-getter will stop at nothing to protect his country. Or the one he illegally snuck into.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1278210/a2b59a52c33e125d8c377f45179b6413d2d99dd4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1278210/9e7edf398c28b396505d87afcd36a43c7d642781.jpg"
+  },
+  {
+    "name": "Boss_Wang",
+    "defaultvalue": 0,
+    "displayName": "Boss: Wang Chong Ching Chong",
+    "hidden": 0,
+    "description": "HE IS NOT COMPENSATING FOR ANYTHING. IT IS MERELY AN EFFECTIVE TOOL.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1278210/9dff499b40df2fe4d1956ee76e2b7542d5698bc7.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1278210/c9bde544a75f7e0e3fc8550dca98b0d89aa91146.jpg"
+  },
+  {
+    "name": "Boss_Hank",
+    "defaultvalue": 0,
+    "displayName": "Boss: Sgt Hank",
+    "hidden": 0,
+    "description": "His favorite day at work involves a no-knock raid and people who \"resist arrest\".",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1278210/e9a7c82261a1e5490b203dbb5346301c7b79a479.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1278210/c029ddac78a0b3ca816ca4be2ed5aff777ec0c0f.jpg"
+  },
+  {
+    "name": "Boss_Cletus",
+    "defaultvalue": 0,
+    "displayName": "Boss: Cletus",
+    "hidden": 0,
+    "description": "If he buys just one more camo vest, his mom swears she will kick him out of her basement. This secretly terrifies Cletus.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1278210/3a0e1714fe6ca61203a78d6239912c8735904b61.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1278210/fc1f59edf75504a364ef4671b4d9d20200e7d6e8.jpg"
+  },
+  {
+    "name": "Boss_Karen",
+    "defaultvalue": 0,
+    "displayName": "Boss: Karen",
+    "hidden": 0,
+    "description": "She's not obese - she just has a medical condition. Known as \"eats-too-much-cake-itis\".",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1278210/cccf5549e9bf0fae39465a7059dccd4c540988f9.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1278210/43257c49d56b830e24cd10ad827819515cf3d084.jpg"
   }
 ]

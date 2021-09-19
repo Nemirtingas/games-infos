@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "name": "SHARPE_SHOOTER",
     "defaultvalue": 0,
@@ -448,5 +448,50 @@
     "description": "Punch a soldier to death as a drummer.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/589290/b1afd57421f0abe743f54c9bb99cf6e9b00d2dc4.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/589290/c799d61c1355777d74dca76f1edbe2cbe6f1750e.jpg"
+  },
+  {
+    "name": "CLAN_ENLISTMENT",
+    "defaultvalue": 0,
+    "displayName": "Clan Enlistment",
+    "hidden": 0,
+    "description": "Enlist and join a game clan through the Regiment Registry.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/589290/395fa675faefb3f084e57e00599ef12a83fa4505.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/589290/e1498a56eac20812517a9c52bf1386d0100091d8.jpg"
+  },
+  {
+    "name": "REGIMENT_HONOURS",
+    "defaultvalue": 0,
+    "displayName": "Regiment Honours",
+    "hidden": 0,
+    "description": "Enlist in a game clan and gather 10 match victories.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/589290/9f6b1f9c2e9d82187425600b8ac44a7e56afd1d5.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/589290/ecb92672c3ff57bffddd6803065f05b0593039cf.jpg"
+  },
+  {
+    "name": "REGIMENT_VETERAN",
+    "defaultvalue": 0,
+    "displayName": "Regiment Veteran",
+    "hidden": 0,
+    "description": "Enlist in a game clan and slay 250 enemies.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/589290/e93f21eee6470e5a14fba1dab5f0359dcaf7c26b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/589290/928ad138ba1b0be07c723ca0a5c518bfa7d6a5a6.jpg"
+  },
+  {
+    "name": "VIVA_L_ITALIA",
+    "defaultvalue": 0,
+    "displayName": "Viva l'Italia!",
+    "hidden": 0,
+    "description": "Slay 200 enemies whilst playing as a Italian Line Infantryman.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/589290/558ac8d7dfb5ee6c827f50312001ffc9de6baf72.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/589290/fdc5920fcad272bfceec307b57d0267e57a85017.jpg"
+  },
+  {
+    "name": "FOR_THE_FATHERLAND",
+    "defaultvalue": 0,
+    "displayName": "For the Fatherland!",
+    "hidden": 0,
+    "description": "Slay 200 enemies whilst playing as a Russian Line Infantryman.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/589290/9a6b764e0f7f85305cdda02e92a797802eb694c4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/589290/4a2da1f4bd6a509715d5b816fb6050982613d3b9.jpg"
   }
 ]

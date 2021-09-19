@@ -1,74 +1,92 @@
-﻿{
-  "ZombieKilled": {
-    "description": "",
-    "value": 0
+[
+  {
+    "name": "ZombieKilled",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "PPAwarded": {
-    "description": "",
-    "value": 0
+  {
+    "name": "PPAwarded",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "KillStreak": {
-    "description": "",
-    "value": 0
+  {
+    "name": "KillStreak",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "LevelUp": {
-    "description": "",
-    "value": 0
+  {
+    "name": "LevelUp",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Blueprint": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Blueprint",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "ComboWeapon": {
-    "description": "",
-    "value": 0
+  {
+    "name": "ComboWeapon",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "ComboVehicle": {
-    "description": "",
-    "value": 0
+  {
+    "name": "ComboVehicle",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Attribute": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Attribute",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "PPTrial": {
-    "description": "",
-    "value": 0
+  {
+    "name": "PPTrial",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "BronzeChallenge": {
-    "description": "",
-    "value": 0
+  {
+    "name": "BronzeChallenge",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "SilverChallenge": {
-    "description": "",
-    "value": 0
+  {
+    "name": "SilverChallenge",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "GoldChallenge": {
-    "description": "",
-    "value": 0
+  {
+    "name": "GoldChallenge",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "SideMission": {
-    "description": "",
-    "value": 0
+  {
+    "name": "SideMission",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "StrandedSurvivor": {
-    "description": "",
-    "value": 0
+  {
+    "name": "StrandedSurvivor",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "SurvivorToBoard": {
-    "description": "",
-    "value": 0
+  {
+    "name": "SurvivorToBoard",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "WeaponToLocker": {
-    "description": "",
-    "value": 0
+  {
+    "name": "WeaponToLocker",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "VehicleToLocker": {
-    "description": "",
-    "value": 0
+  {
+    "name": "VehicleToLocker",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "ClothingToLocker": {
-    "description": "",
-    "value": 0
+  {
+    "name": "ClothingToLocker",
+    "defaultvalue": 0,
+    "displayName": ""
   }
-}
+]

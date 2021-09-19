@@ -1,18 +1,25 @@
 {
-  "Dlcs": {},
+  "Dlcs": {
+    "1206890": {
+      "Name": "SkateBIRD Original Soundtrack",
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1206890/header.jpg?t=1631208715",
+      "Type": "music"
+    }
+  },
   "Name": "SkateBIRD",
   "AppId": "971030",
-  "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/971030/header.jpg?t=1597965222",
+  "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/971030/header.jpg?t=1631572011",
   "Languages": [
     "english",
+    "japanese",
+    "korean",
     "french",
     "italian",
     "german",
     "spanish",
-    "japanese",
-    "korean",
     "russian",
-    "schinese"
+    "schinese",
+    "tchinese"
   ],
   "Platforms": {
     "windows": true,

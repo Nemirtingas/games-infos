@@ -1,24 +1,9 @@
-﻿{
+{
   "Dlcs": {
     "364400": {
       "Name": "JumpJet Rex - Soundtrack",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/364400/header.jpg?t=1447372927"
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/364400/header.jpg?t=1447372927",
+      "Type": "dlc"
     }
-  },
-  "Name": "JumpJet Rex",
-  "AppId": "329460",
-  "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/329460/header.jpg?t=1450395777",
-  "Languages": [
-    "english",
-    "french",
-    "italian",
-    "german",
-    "spanish",
-    "russian"
-  ],
-  "Platforms": {
-    "windows": true,
-    "mac": true,
-    "linux": true
   }
 }

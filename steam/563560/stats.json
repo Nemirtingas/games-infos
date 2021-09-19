@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "name": "experience",
     "defaultvalue": 0,
@@ -9227,11 +9227,116 @@
   {
     "name": "RD_ASBI_POINTS_STAT",
     "defaultvalue": 0,
-    "displayName": "Points earned in ASBI challenge"
+    "displayName": "Points earned on official dedicated server"
   },
   {
     "name": "RD_ASBI_ACHIEVEMENT01",
     "defaultvalue": 0,
     "displayName": "Bitfield. First set of ASBI achievements"
+  },
+  {
+    "name": "RD_DS_TOTAL_KILLS",
+    "defaultvalue": 0,
+    "displayName": "Total aliens killed by player on official dedicated server"
+  },
+  {
+    "name": "RD_DS_TOTAL_TEAM_KILLS",
+    "defaultvalue": 0,
+    "displayName": "Total teammates killed by player on official dedicated server"
+  },
+  {
+    "name": "RD_DS_TOTAL_MISSION_SUCCESS",
+    "defaultvalue": 0,
+    "displayName": "Total successful missions on official dedicated server"
+  },
+  {
+    "name": "RD_DS_TOTAL_MISSION_FAIL",
+    "defaultvalue": 0,
+    "displayName": "Total failed missions on official dedicated server"
+  },
+  {
+    "name": "RD_DS_PLAYED_MAP_ID_0",
+    "defaultvalue": 0,
+    "displayName": "ID of map player recently won. Used for preventing farming"
+  },
+  {
+    "name": "RD_DS_PLAYED_MAP_ID_1",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "RD_DS_PLAYED_MAP_ID_2",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "RD_DS_PLAYED_MAP_ID_3",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "RD_DS_PLAYED_MAP_ID_4",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "RD_DS_PLAYED_MAP_ID_5",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "RD_DS_PLAYED_MAP_ITERATOR",
+    "defaultvalue": 0,
+    "displayName": "Used to iterate through the array of played map IDs. Changes from 0 to 5"
+  },
+  {
+    "name": "equips.asw_weapon_gas_grenades.damage",
+    "defaultvalue": 0,
+    "displayName": "Total Damage (Gas Grenades)"
+  },
+  {
+    "name": "equips.asw_weapon_gas_grenades.ff_damage",
+    "defaultvalue": 0,
+    "displayName": "Total Friendly Fire (Gas Grenades)"
+  },
+  {
+    "name": "equips.asw_weapon_gas_grenades.shots_fired",
+    "defaultvalue": 0,
+    "displayName": "Total Shots Fired (Gas Grenades)"
+  },
+  {
+    "name": "equips.asw_weapon_gas_grenades.shots_hit",
+    "defaultvalue": 0,
+    "displayName": "Total Shots Hit (Gas Grenades)"
+  },
+  {
+    "name": "equips.asw_weapon_gas_grenades.kills",
+    "defaultvalue": 0,
+    "displayName": "Total Kills (Gas Grenades)"
+  },
+  {
+    "name": "dm.equips.asw_weapon_gas_grenades.damage",
+    "defaultvalue": 0,
+    "displayName": "Total Damage (Gas Grenades) (Deathmatch)"
+  },
+  {
+    "name": "dm.equips.asw_weapon_gas_grenades.ff_damage",
+    "defaultvalue": 0,
+    "displayName": "Total Friendly Fire (Gas Grenades) (Deathmatch)"
+  },
+  {
+    "name": "dm.equips.asw_weapon_gas_grenades.shots_fired",
+    "defaultvalue": 0,
+    "displayName": "Total Shots Fired (Gas Grenades) (Deathmatch)"
+  },
+  {
+    "name": "dm.equips.asw_weapon_gas_grenades.shots_hit",
+    "defaultvalue": 0,
+    "displayName": "Total Shots Hit (Gas Grenades) (Deathmatch)"
+  },
+  {
+    "name": "dm.equips.asw_weapon_gas_grenades.kills",
+    "defaultvalue": 0,
+    "displayName": "Total Kills (Gas Grenades) (Deathmatch)"
   }
 ]

@@ -1,94 +1,117 @@
-﻿{
-  "FiredArrows": {
-    "description": "Fired Arrows",
-    "value": 0
+[
+  {
+    "name": "FiredArrows",
+    "defaultvalue": 0,
+    "displayName": "Fired Arrows"
   },
-  "KilledOrcs": {
-    "description": "Killed Orcs",
-    "value": 0
+  {
+    "name": "KilledOrcs",
+    "defaultvalue": 0,
+    "displayName": "Killed Orcs"
   },
-  "HeadShots": {
-    "description": "Head Shots",
-    "value": 0
+  {
+    "name": "HeadShots",
+    "defaultvalue": 0,
+    "displayName": "Head Shots"
   },
-  "WindowShots": {
-    "description": "Window Shots",
-    "value": 0
+  {
+    "name": "WindowShots",
+    "defaultvalue": 0,
+    "displayName": "Window Shots"
   },
-  "ExperiencePoints": {
-    "description": "Experience Points",
-    "value": 0
+  {
+    "name": "ExperiencePoints",
+    "defaultvalue": 0,
+    "displayName": "Experience Points"
   },
-  "Gold": {
-    "description": "Gold",
-    "value": 0
+  {
+    "name": "Gold",
+    "defaultvalue": 0,
+    "displayName": "Gold"
   },
-  "Bow_SteelDefender": {
-    "description": "Bow_SteelDefender",
-    "value": 0
+  {
+    "name": "Bow_SteelDefender",
+    "defaultvalue": 0,
+    "displayName": "Bow_SteelDefender"
   },
-  "Bow_NaturesCall": {
-    "description": "Bow_NaturesCall",
-    "value": 0
+  {
+    "name": "Bow_NaturesCall",
+    "defaultvalue": 0,
+    "displayName": "Bow_NaturesCall"
   },
-  "Bow_BowOfAlliance": {
-    "description": "Bow_BowOfAlliance",
-    "value": 0
+  {
+    "name": "Bow_BowOfAlliance",
+    "defaultvalue": 0,
+    "displayName": "Bow_BowOfAlliance"
   },
-  "Helmet_ArchersHelmet": {
-    "description": "Helmet_ArchersHelmet",
-    "value": 0
+  {
+    "name": "Helmet_ArchersHelmet",
+    "defaultvalue": 0,
+    "displayName": "Helmet_ArchersHelmet"
   },
-  "Helmet_GiftOfTheSea": {
-    "description": "Helmet_GiftOfTheSea",
-    "value": 0
+  {
+    "name": "Helmet_GiftOfTheSea",
+    "defaultvalue": 0,
+    "displayName": "Helmet_GiftOfTheSea"
   },
-  "Helmet_HelmetOfAncestors": {
-    "description": "Helmet_HelmetOfAncestors",
-    "value": 0
+  {
+    "name": "Helmet_HelmetOfAncestors",
+    "defaultvalue": 0,
+    "displayName": "Helmet_HelmetOfAncestors"
   },
-  "Helmet_GriffinHelmet": {
-    "description": "Helmet_GriffinHelmet",
-    "value": 0
+  {
+    "name": "Helmet_GriffinHelmet",
+    "defaultvalue": 0,
+    "displayName": "Helmet_GriffinHelmet"
   },
-  "Set_ForestGuardian": {
-    "description": "Set_ForestGuardian",
-    "value": 0
+  {
+    "name": "Set_ForestGuardian",
+    "defaultvalue": 0,
+    "displayName": "Set_ForestGuardian"
   },
-  "Set_OrcHunter": {
-    "description": "Set_OrcHunter",
-    "value": 0
+  {
+    "name": "Set_OrcHunter",
+    "defaultvalue": 0,
+    "displayName": "Set_OrcHunter"
   },
-  "Set_HolySet": {
-    "description": "Set_HolySet",
-    "value": 0
+  {
+    "name": "Set_HolySet",
+    "defaultvalue": 0,
+    "displayName": "Set_HolySet"
   },
-  "Set_FrozenTouch": {
-    "description": "Set_FrozenTouch",
-    "value": 0
+  {
+    "name": "Set_FrozenTouch",
+    "defaultvalue": 0,
+    "displayName": "Set_FrozenTouch"
   },
-  "WasPresentTaken10": {
-    "description": "",
-    "value": 0
+  {
+    "name": "WasPresentTaken10",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "WasInitSuc10": {
-    "description": "",
-    "value": 0
+  {
+    "name": "WasInitSuc10",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "WasChristmasPresentTaken1": {
-    "description": "",
-    "value": 0
+  {
+    "name": "WasChristmasPresentTaken1",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "WasChristmasPresentTaken2": {
-    "description": "",
-    "value": 0
+  {
+    "name": "WasChristmasPresentTaken2",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "WasChristmasPresentTaken3": {
-    "description": "",
-    "value": 0
+  {
+    "name": "WasChristmasPresentTaken3",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "WasResetSpellsUsed1": {
-    "description": "",
-    "value": 0
+  {
+    "name": "WasResetSpellsUsed1",
+    "defaultvalue": 0,
+    "displayName": ""
   }
-}
+]

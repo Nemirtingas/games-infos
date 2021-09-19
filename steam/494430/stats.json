@@ -1,54 +1,67 @@
-﻿{
-  "STAT_TOTEM_COUNT": {
-    "description": "Totem Count",
-    "value": 0
+[
+  {
+    "name": "STAT_TOTEM_COUNT",
+    "defaultvalue": 0,
+    "displayName": "Totem Count"
   },
-  "STAT_TREE_CHOP_COUNT": {
-    "description": "Tree Chop Count",
-    "value": 0
+  {
+    "name": "STAT_TREE_CHOP_COUNT",
+    "defaultvalue": 0,
+    "displayName": "Tree Chop Count"
   },
-  "STAT_COOK_COUNT": {
-    "description": "Cook Count",
-    "value": 0
+  {
+    "name": "STAT_COOK_COUNT",
+    "defaultvalue": 0,
+    "displayName": "Cook Count"
   },
-  "STAT_UNDEAD_KILL_COUNT": {
-    "description": "Undead Kill Count",
-    "value": 0
+  {
+    "name": "STAT_UNDEAD_KILL_COUNT",
+    "defaultvalue": 0,
+    "displayName": "Undead Kill Count"
   },
-  "STAT_ANIMAL_KILL_COUNT": {
-    "description": "Animal Kill Count",
-    "value": 0
+  {
+    "name": "STAT_ANIMAL_KILL_COUNT",
+    "defaultvalue": 0,
+    "displayName": "Animal Kill Count"
   },
-  "STAT_ECHO_BOSS_COUNT": {
-    "description": "Echo Boss Count",
-    "value": 0
+  {
+    "name": "STAT_ECHO_BOSS_COUNT",
+    "defaultvalue": 0,
+    "displayName": "Echo Boss Count"
   },
-  "STAT_CRAFT_COUNT": {
-    "description": "Craft Count",
-    "value": 0
+  {
+    "name": "STAT_CRAFT_COUNT",
+    "defaultvalue": 0,
+    "displayName": "Craft Count"
   },
-  "STAT_HARD_BOSS_COUNT": {
-    "description": "Hard Boss Count",
-    "value": 0
+  {
+    "name": "STAT_HARD_BOSS_COUNT",
+    "defaultvalue": 0,
+    "displayName": "Hard Boss Count"
   },
-  "STAT_LEGENDARY_BOSS_COUNT": {
-    "description": "Legendary Boss Count",
-    "value": 0
+  {
+    "name": "STAT_LEGENDARY_BOSS_COUNT",
+    "defaultvalue": 0,
+    "displayName": "Legendary Boss Count"
   },
-  "STAT_MAP_COUNT": {
-    "description": "Map Count",
-    "value": 0
+  {
+    "name": "STAT_MAP_COUNT",
+    "defaultvalue": 0,
+    "displayName": "Map Count"
   },
-  "STAT_CHAMPION_KILL_COUNT": {
-    "description": "Champion Kill Count",
-    "value": 0
+  {
+    "name": "STAT_CHAMPION_KILL_COUNT",
+    "defaultvalue": 0,
+    "displayName": "Champion Kill Count"
   },
-  "STAT_FIRES_STARTED": {
-    "description": "Fires Started",
-    "value": 0
+  {
+    "name": "STAT_FIRES_STARTED",
+    "defaultvalue": 0,
+    "displayName": "Fires Started"
   },
-  "STAT_LORE_COUNT": {
-    "description": "Lore Count",
-    "value": 0
+  {
+    "name": "STAT_LORE_COUNT",
+    "defaultvalue": 0,
+    "displayName": "Lore Count"
   }
-}
+]

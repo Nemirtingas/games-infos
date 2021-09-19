@@ -1,54 +1,67 @@
-﻿{
-  "craftedItems": {
-    "description": "Items crafted",
-    "value": 0
+[
+  {
+    "name": "craftedItems",
+    "defaultvalue": 0,
+    "displayName": "Items crafted"
   },
-  "killstreaksReached": {
-    "description": "Killstreaks Reached",
-    "value": 0
+  {
+    "name": "killstreaksReached",
+    "defaultvalue": 0,
+    "displayName": "Killstreaks Reached"
   },
-  "aodReached": {
-    "description": "Angel of Death bonus reached",
-    "value": 0
+  {
+    "name": "aodReached",
+    "defaultvalue": 0,
+    "displayName": "Angel of Death bonus reached"
   },
-  "unbreakablesReached": {
-    "description": "Unbreakable bonus reached",
-    "value": 0
+  {
+    "name": "unbreakablesReached",
+    "defaultvalue": 0,
+    "displayName": "Unbreakable bonus reached"
   },
-  "painHarvestScore": {
-    "description": "Pain Harvest Score",
-    "value": 0
+  {
+    "name": "painHarvestScore",
+    "defaultvalue": 0,
+    "displayName": "Pain Harvest Score"
   },
-  "painCataDestroyed": {
-    "description": "Pain Catalysts destroyed in City of Suffering",
-    "value": 0
+  {
+    "name": "painCataDestroyed",
+    "defaultvalue": 0,
+    "displayName": "Pain Catalysts destroyed in City of Suffering"
   },
-  "executions": {
-    "description": "Executions done",
-    "value": 0
+  {
+    "name": "executions",
+    "defaultvalue": 0,
+    "displayName": "Executions done"
   },
-  "resurrections": {
-    "description": "Resurrections done",
-    "value": 0
+  {
+    "name": "resurrections",
+    "defaultvalue": 0,
+    "displayName": "Resurrections done"
   },
-  "multiMissions": {
-    "description": "Multiplayer missions done",
-    "value": 0
+  {
+    "name": "multiMissions",
+    "defaultvalue": 0,
+    "displayName": "Multiplayer missions done"
   },
-  "voidCrusades": {
-    "description": "Void Crusades completed",
-    "value": 0
+  {
+    "name": "voidCrusades",
+    "defaultvalue": 0,
+    "displayName": "Void Crusades completed"
   },
-  "techUpgrades": {
-    "description": "Tech tree upgrades researched",
-    "value": 0
+  {
+    "name": "techUpgrades",
+    "defaultvalue": 0,
+    "displayName": "Tech tree upgrades researched"
   },
-  "killedDarkEldar": {
-    "description": "Killed Dark Eldar enemies",
-    "value": 0
+  {
+    "name": "killedDarkEldar",
+    "defaultvalue": 0,
+    "displayName": "Killed Dark Eldar enemies"
   },
-  "killedKhorne": {
-    "description": "Killed Khorne enemies",
-    "value": 0
+  {
+    "name": "killedKhorne",
+    "defaultvalue": 0,
+    "displayName": "Killed Khorne enemies"
   }
-}
+]

@@ -1,446 +1,557 @@
-﻿{
-  "DroneKills": {
-    "description": "",
-    "value": 0
-  },
-  "SapperKills": {
-    "description": "",
-    "value": 0
-  },
-  "ThresherKills": {
-    "description": "",
-    "value": 0
-  },
-  "PuppeteerKills": {
-    "description": "",
-    "value": 0
-  },
-  "BeastKills": {
-    "description": "",
-    "value": 0
-  },
-  "BlackoutKills": {
-    "description": "",
-    "value": 0
-  },
-  "GamesCompleted": {
-    "description": "",
-    "value": 0
-  },
-  "GamesWon": {
-    "description": "",
-    "value": 0
-  },
-  "FencesBuilt": {
-    "description": "",
-    "value": 0
-  },
-  "Headshots": {
-    "description": "",
-    "value": 0
-  },
-  "ZeroIncapsInRound": {
-    "description": "",
-    "value": 0
-  },
-  "BrainShots": {
-    "description": "",
-    "value": 0
-  },
-  "MeleeKills": {
-    "description": "",
-    "value": 0
-  },
-  "TurretsBuilt": {
-    "description": "",
-    "value": 0
-  },
-  "GrenadeKills": {
-    "description": "",
-    "value": 0
-  },
-  "SavedIncapPlayer": {
-    "description": "",
-    "value": 0
-  },
-  "SavedDeadPlayer": {
-    "description": "",
-    "value": 0
-  },
-  "GameWonWithHighAccuracy": {
-    "description": "",
-    "value": 0
-  },
-  "CompleteServiceStation": {
-    "description": "",
-    "value": 0
-  },
-  "CompleteChurch": {
-    "description": "",
-    "value": 0
-  },
-  "CompleteRailtown": {
-    "description": "",
-    "value": 0
-  },
-  "CompleteDataCenter": {
-    "description": "",
-    "value": 0
-  },
-  "CompleteSuburb": {
-    "description": "",
-    "value": 0
-  },
-  "CompleteServiceStationEasy": {
-    "description": "",
-    "value": 0
-  },
-  "CompleteChurchEasy": {
-    "description": "",
-    "value": 0
-  },
-  "CompleteRailtownEasy": {
-    "description": "",
-    "value": 0
-  },
-  "CompleteDataCenterEasy": {
-    "description": "",
-    "value": 0
-  },
-  "CompleteSuburbEasy": {
-    "description": "",
-    "value": 0
-  },
-  "CompleteServiceStationMedium": {
-    "description": "",
-    "value": 0
-  },
-  "CompleteChurchMedium": {
-    "description": "",
-    "value": 0
-  },
-  "CompleteRailtownMedium": {
-    "description": "",
-    "value": 0
-  },
-  "CompleteDataCenterMedium": {
-    "description": "",
-    "value": 0
-  },
-  "CompleteSuburbMedium": {
-    "description": "",
-    "value": 0
-  },
-  "CompleteServiceStationHard": {
-    "description": "",
-    "value": 0
-  },
-  "CompleteChurchHard": {
-    "description": "",
-    "value": 0
-  },
-  "CompleteRailtownHard": {
-    "description": "",
-    "value": 0
-  },
-  "CompleteDataCenterHard": {
-    "description": "",
-    "value": 0
-  },
-  "CompleteSuburbHard": {
-    "description": "",
-    "value": 0
-  },
-  "CompleteServiceStationOverwhelming": {
-    "description": "",
-    "value": 0
-  },
-  "CompleteChurchOverwhelming": {
-    "description": "",
-    "value": 0
-  },
-  "CompleteRailtownOverwhelming": {
-    "description": "",
-    "value": 0
-  },
-  "CompleteDataCenterOverwhelming": {
-    "description": "",
-    "value": 0
-  },
-  "CompleteSuburbOverwhelming": {
-    "description": "",
-    "value": 0
-  },
-  "QuitEarly": {
-    "description": "",
-    "value": 0
-  },
-  "SessionCreated": {
-    "description": "",
-    "value": 0
-  },
-  "ServiceStationCompletionTime": {
-    "description": "",
-    "value": 0
-  },
-  "WeaponKillsSW22": {
-    "description": "",
-    "value": 0
-  },
-  "WeaponKillsMP5": {
-    "description": "",
-    "value": 0
-  },
-  "WeaponKillsBerg930": {
-    "description": "",
-    "value": 0
-  },
-  "WeaponKillsAK47": {
-    "description": "",
-    "value": 0
-  },
-  "WeaponKillsGlintec": {
-    "description": "",
-    "value": 0
-  },
-  "WeaponKillsAK67": {
-    "description": "",
-    "value": 0
-  },
-  "WeaponKillsVendetta": {
-    "description": "",
-    "value": 0
-  },
-  "WeaponKillsCVA": {
-    "description": "",
-    "value": 0
-  },
-  "WeaponKillsEF18": {
-    "description": "",
-    "value": 0
-  },
-  "WeaponKillsHarbinger": {
-    "description": "",
-    "value": 0
-  },
-  "WeaponKillsReaper": {
-    "description": "",
-    "value": 0
-  },
-  "WeaponKillsTurret": {
-    "description": "",
-    "value": 0
-  },
-  "ShoveSapper": {
-    "description": "",
-    "value": 0
-  },
-  "ShoveThresher": {
-    "description": "",
-    "value": 0
-  },
-  "BurnSapper": {
-    "description": "",
-    "value": 0
-  },
-  "SavePinnedPlayer": {
-    "description": "",
-    "value": 0
-  },
-  "SavePlayerThresher": {
-    "description": "",
-    "value": 0
-  },
-  "SavePlayerWhiplash": {
-    "description": "",
-    "value": 0
-  },
-  "HealPlayer": {
-    "description": "",
-    "value": 0
-  },
-  "HealSelf": {
-    "description": "",
-    "value": 0
-  },
-  "RatKills": {
-    "description": "",
-    "value": 0
-  },
-  "CrowKills": {
-    "description": "",
-    "value": 0
-  },
-  "OneShotFiveDeaths": {
-    "description": "",
-    "value": 0
-  },
-  "FiftyHeadshotSpree": {
-    "description": "",
-    "value": 0
-  },
-  "CampaignFinishedHardest": {
-    "description": "",
-    "value": 0
-  },
-  "PistolsOnlyGame": {
-    "description": "",
-    "value": 0
-  },
-  "PowerUpPrinter": {
-    "description": "",
-    "value": 0
-  },
-  "InitiatePrint": {
-    "description": "",
-    "value": 0
-  },
-  "CampaignOneComplete": {
-    "description": "",
-    "value": 0
-  },
-  "CampaignTwoComplete": {
-    "description": "",
-    "value": 0
-  },
-  "CompleteWarehouse": {
-    "description": "",
-    "value": 0
-  },
-  "CompleteDam": {
-    "description": "",
-    "value": 0
-  },
-  "CompleteResearchCenter": {
-    "description": "",
-    "value": 0
-  },
-  "KillingSpree": {
-    "description": "",
-    "value": 0
-  },
-  "CompleteWarehouseEasy": {
-    "description": "",
-    "value": 0
-  },
-  "CompleteDamEasy": {
-    "description": "",
-    "value": 0
-  },
-  "CompleteResearchCenterEasy": {
-    "description": "",
-    "value": 0
-  },
-  "CompleteDamMedium": {
-    "description": "",
-    "value": 0
-  },
-  "CompleteResearchCenterMedium": {
-    "description": "",
-    "value": 0
-  },
-  "CompleteWarehouseHard": {
-    "description": "",
-    "value": 0
-  },
-  "CompleteResearchCenterHard": {
-    "description": "",
-    "value": 0
-  },
-  "CompleteWarehouseOverwhelming": {
-    "description": "",
-    "value": 0
-  },
-  "CompleteDamOverwhelming": {
-    "description": "",
-    "value": 0
-  },
-  "CompleteResearchOverwhelming": {
-    "description": "",
-    "value": 0
-  },
-  "EnragerKills": {
-    "description": "",
-    "value": 0
-  },
-  "CompleteTrailerParkEasy": {
-    "description": "",
-    "value": 0
-  },
-  "CompleteHatchery1Easy": {
-    "description": "",
-    "value": 0
-  },
-  "CompleteHatchery2Easy": {
-    "description": "",
-    "value": 0
-  },
-  "CompleteTrailerParkMedium": {
-    "description": "",
-    "value": 0
-  },
-  "CompleteHatchery1Medium": {
-    "description": "",
-    "value": 0
-  },
-  "CompleteHatchery2Medium": {
-    "description": "",
-    "value": 0
-  },
-  "CompleteTrailerParkHard": {
-    "description": "",
-    "value": 0
-  },
-  "CompleteHatchery1Hard": {
-    "description": "",
-    "value": 0
-  },
-  "CompleteHatchery2Hard": {
-    "description": "",
-    "value": 0
-  },
-  "CompleteTrailerParkOverwhelming": {
-    "description": "",
-    "value": 0
-  },
-  "CompleteHatchery1Overwhelming": {
-    "description": "",
-    "value": 0
-  },
-  "CompleteHatchery2Overwhelming": {
-    "description": "",
-    "value": 0
-  },
-  "WeaponKillsValkyrie": {
-    "description": "",
-    "value": 0
-  },
-  "CompleteTrailerPark": {
-    "description": "",
-    "value": 0
-  },
-  "CompleteHatchery1": {
-    "description": "",
-    "value": 0
-  },
-  "CompleteHatchery2": {
-    "description": "",
-    "value": 0
-  },
-  "SpitterKills": {
-    "description": "",
-    "value": 0
-  },
-  "HeavyDroneKills": {
-    "description": "",
-    "value": 0
-  },
-  "WeaponKillsP9D": {
-    "description": "",
-    "value": 0
-  },
-  "WeaponKillsGrenadeLauncher": {
-    "description": "",
-    "value": 0
+[
+  {
+    "name": "DroneKills",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "SapperKills",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "ThresherKills",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "PuppeteerKills",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "BeastKills",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "BlackoutKills",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "GamesCompleted",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "GamesWon",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "FencesBuilt",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Headshots",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "ZeroIncapsInRound",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "BrainShots",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "MeleeKills",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "TurretsBuilt",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "GrenadeKills",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "SavedIncapPlayer",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "SavedDeadPlayer",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "GameWonWithHighAccuracy",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "CompleteServiceStation",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "CompleteChurch",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "CompleteRailtown",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "CompleteDataCenter",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "CompleteSuburb",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "CompleteServiceStationEasy",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "CompleteChurchEasy",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "CompleteRailtownEasy",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "CompleteDataCenterEasy",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "CompleteSuburbEasy",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "CompleteServiceStationMedium",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "CompleteChurchMedium",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "CompleteRailtownMedium",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "CompleteDataCenterMedium",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "CompleteSuburbMedium",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "CompleteServiceStationHard",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "CompleteChurchHard",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "CompleteRailtownHard",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "CompleteDataCenterHard",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "CompleteSuburbHard",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "CompleteServiceStationOverwhelming",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "CompleteChurchOverwhelming",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "CompleteRailtownOverwhelming",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "CompleteDataCenterOverwhelming",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "CompleteSuburbOverwhelming",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "QuitEarly",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "SessionCreated",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "ServiceStationCompletionTime",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "WeaponKillsSW22",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "WeaponKillsMP5",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "WeaponKillsBerg930",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "WeaponKillsAK47",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "WeaponKillsGlintec",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "WeaponKillsAK67",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "WeaponKillsVendetta",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "WeaponKillsCVA",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "WeaponKillsEF18",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "WeaponKillsHarbinger",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "WeaponKillsReaper",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "WeaponKillsTurret",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "ShoveSapper",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "ShoveThresher",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "BurnSapper",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "SavePinnedPlayer",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "SavePlayerThresher",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "SavePlayerWhiplash",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "HealPlayer",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "HealSelf",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "RatKills",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "CrowKills",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "OneShotFiveDeaths",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "FiftyHeadshotSpree",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "CampaignFinishedHardest",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "PistolsOnlyGame",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "PowerUpPrinter",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "InitiatePrint",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "CampaignOneComplete",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "CampaignTwoComplete",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "CompleteWarehouse",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "CompleteDam",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "CompleteResearchCenter",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "KillingSpree",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "CompleteWarehouseEasy",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "CompleteDamEasy",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "CompleteResearchCenterEasy",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "CompleteDamMedium",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "CompleteResearchCenterMedium",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "CompleteWarehouseHard",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "CompleteResearchCenterHard",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "CompleteWarehouseOverwhelming",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "CompleteDamOverwhelming",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "CompleteResearchOverwhelming",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "EnragerKills",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "CompleteTrailerParkEasy",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "CompleteHatchery1Easy",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "CompleteHatchery2Easy",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "CompleteTrailerParkMedium",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "CompleteHatchery1Medium",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "CompleteHatchery2Medium",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "CompleteTrailerParkHard",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "CompleteHatchery1Hard",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "CompleteHatchery2Hard",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "CompleteTrailerParkOverwhelming",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "CompleteHatchery1Overwhelming",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "CompleteHatchery2Overwhelming",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "WeaponKillsValkyrie",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "CompleteTrailerPark",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "CompleteHatchery1",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "CompleteHatchery2",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "SpitterKills",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "HeavyDroneKills",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "WeaponKillsP9D",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "WeaponKillsGrenadeLauncher",
+    "defaultvalue": 0,
+    "displayName": ""
   }
-}
+]

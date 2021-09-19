@@ -1,10 +1,12 @@
-﻿{
-  "best_score": {
-    "description": "Best Score",
-    "value": 0
+[
+  {
+    "name": "best_score",
+    "defaultvalue": 0,
+    "displayName": "Best Score"
   },
-  "best_score_best_score": {
-    "description": "Best Score",
-    "value": 0
+  {
+    "name": "best_score_best_score",
+    "defaultvalue": 0,
+    "displayName": "Best Score"
   }
-}
+]

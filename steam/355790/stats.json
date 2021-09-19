@@ -1,58 +1,72 @@
-﻿{
-  "STAT_PushEnemies": {
-    "description": "Number of pushed enemies",
-    "value": 0
+[
+  {
+    "name": "STAT_PushEnemies",
+    "defaultvalue": 0,
+    "displayName": "Number of pushed enemies"
   },
-  "STAT_KillSleeper": {
-    "description": "Number of sleeping enemies killed",
-    "value": 0
+  {
+    "name": "STAT_KillSleeper",
+    "defaultvalue": 0,
+    "displayName": "Number of sleeping enemies killed"
   },
-  "STAT_CraftItems": {
-    "description": "Number of crafted items",
-    "value": 0
+  {
+    "name": "STAT_CraftItems",
+    "defaultvalue": 0,
+    "displayName": "Number of crafted items"
   },
-  "STAT_SurviveAlerts": {
-    "description": "Number of alerts the player survived",
-    "value": 0
+  {
+    "name": "STAT_SurviveAlerts",
+    "defaultvalue": 0,
+    "displayName": "Number of alerts the player survived"
   },
-  "STAT_LongHide": {
-    "description": "Number of secondesstay hidden",
-    "value": 0
+  {
+    "name": "STAT_LongHide",
+    "defaultvalue": 0,
+    "displayName": "Number of secondesstay hidden"
   },
-  "STAT_LongInvisibility": {
-    "description": "Stay invisible for a secondes",
-    "value": 0
+  {
+    "name": "STAT_LongInvisibility",
+    "defaultvalue": 0,
+    "displayName": "Stay invisible for a secondes"
   },
-  "STAT_Teleportation": {
-    "description": "Number of use of the teleportation power",
-    "value": 0
+  {
+    "name": "STAT_Teleportation",
+    "defaultvalue": 0,
+    "displayName": "Number of use of the teleportation power"
   },
-  "STAT_CreateClones": {
-    "description": "Number of created clones",
-    "value": 0
+  {
+    "name": "STAT_CreateClones",
+    "defaultvalue": 0,
+    "displayName": "Number of created clones"
   },
-  "STAT_PickPockets": {
-    "description": "Number of enemies killed using poisoned food",
-    "value": 0
+  {
+    "name": "STAT_PickPockets",
+    "defaultvalue": 0,
+    "displayName": "Number of enemies killed using poisoned food"
   },
-  "STAT_AcidTrapKills": {
-    "description": "Number of enemies killed with acid trap",
-    "value": 0
+  {
+    "name": "STAT_AcidTrapKills",
+    "defaultvalue": 0,
+    "displayName": "Number of enemies killed with acid trap"
   },
-  "STAT_DrinkAmberPotions": {
-    "description": "Number of amber potions used",
-    "value": 0
+  {
+    "name": "STAT_DrinkAmberPotions",
+    "defaultvalue": 0,
+    "displayName": "Number of amber potions used"
   },
-  "STAT_GetIngredients": {
-    "description": "Number of found ingredients",
-    "value": 0
+  {
+    "name": "STAT_GetIngredients",
+    "defaultvalue": 0,
+    "displayName": "Number of found ingredients"
   },
-  "STAT_GuestJoined": {
-    "description": "",
-    "value": 0
+  {
+    "name": "STAT_GuestJoined",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "STAT_DisolveEnemies": {
-    "description": "",
-    "value": 0
+  {
+    "name": "STAT_DisolveEnemies",
+    "defaultvalue": 0,
+    "displayName": ""
   }
-}
+]

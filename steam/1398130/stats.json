@@ -1,106 +1,132 @@
-﻿{
-  "hb_rank": {
-    "description": "Character Rank",
-    "value": 0
+[
+  {
+    "name": "hb_rank",
+    "defaultvalue": 0,
+    "displayName": "Character Rank"
   },
-  "campaign_completions": {
-    "description": "Campaign Completions",
-    "value": 0
+  {
+    "name": "campaign_completions",
+    "defaultvalue": 0,
+    "displayName": "Campaign Completions"
   },
-  "campaign_finishes": {
-    "description": "Campaign Finishes",
-    "value": 0
+  {
+    "name": "campaign_finishes",
+    "defaultvalue": 0,
+    "displayName": "Campaign Finishes"
   },
-  "level_completions": {
-    "description": "Unique Levels Completed",
-    "value": 0
+  {
+    "name": "level_completions",
+    "defaultvalue": 0,
+    "displayName": "Unique Levels Completed"
   },
-  "level_finishes": {
-    "description": "Unique Levels Finished",
-    "value": 0
+  {
+    "name": "level_finishes",
+    "defaultvalue": 0,
+    "displayName": "Unique Levels Finished"
   },
-  "level_attempts": {
-    "description": "Level Attempts",
-    "value": 0
+  {
+    "name": "level_attempts",
+    "defaultvalue": 0,
+    "displayName": "Level Attempts"
   },
-  "bodyparts_gained": {
-    "description": "Body parts Gained",
-    "value": 0
+  {
+    "name": "bodyparts_gained",
+    "defaultvalue": 0,
+    "displayName": "Body parts Gained"
   },
-  "level_publications": {
-    "description": "Level Publications",
-    "value": 0
+  {
+    "name": "level_publications",
+    "defaultvalue": 0,
+    "displayName": "Level Publications"
   },
-  "freerun_normal_distance": {
-    "description": "Freerun normal Distance Traveled",
-    "value": 0
+  {
+    "name": "freerun_normal_distance",
+    "defaultvalue": 0,
+    "displayName": "Freerun normal Distance Traveled"
   },
-  "freerun_hard_distance": {
-    "description": "Freerun hard Distance Traveled",
-    "value": 0
+  {
+    "name": "freerun_hard_distance",
+    "defaultvalue": 0,
+    "displayName": "Freerun hard Distance Traveled"
   },
-  "freerun_normal_stars": {
-    "description": "Freerun normal Stars Collected",
-    "value": 0
+  {
+    "name": "freerun_normal_stars",
+    "defaultvalue": 0,
+    "displayName": "Freerun normal Stars Collected"
   },
-  "freerun_hard_stars": {
-    "description": "Freerun hard Stars Collected",
-    "value": 0
+  {
+    "name": "freerun_hard_stars",
+    "defaultvalue": 0,
+    "displayName": "Freerun hard Stars Collected"
   },
-  "freerun_normal_runs": {
-    "description": "Freerun normal Finished Runs",
-    "value": 0
+  {
+    "name": "freerun_normal_runs",
+    "defaultvalue": 0,
+    "displayName": "Freerun normal Finished Runs"
   },
-  "freerun_hard_runs": {
-    "description": "Freerun hard Finished Runs",
-    "value": 0
+  {
+    "name": "freerun_hard_runs",
+    "defaultvalue": 0,
+    "displayName": "Freerun hard Finished Runs"
   },
-  "head_bumps": {
-    "description": "Head Bumps",
-    "value": 0
+  {
+    "name": "head_bumps",
+    "defaultvalue": 0,
+    "displayName": "Head Bumps"
   },
-  "superjump_uses": {
-    "description": "Superjump Uses",
-    "value": 0
+  {
+    "name": "superjump_uses",
+    "defaultvalue": 0,
+    "displayName": "Superjump Uses"
   },
-  "bodyset_storm": {
-    "description": "Body parts from the Storm Set",
-    "value": 0
+  {
+    "name": "bodyset_storm",
+    "defaultvalue": 0,
+    "displayName": "Body parts from the Storm Set"
   },
-  "bodyset_crocodile": {
-    "description": "Body parts from the Crocodile Set",
-    "value": 0
+  {
+    "name": "bodyset_crocodile",
+    "defaultvalue": 0,
+    "displayName": "Body parts from the Crocodile Set"
   },
-  "bodyset_surgeon": {
-    "description": "Body parts from the Surgeon Set",
-    "value": 0
+  {
+    "name": "bodyset_surgeon",
+    "defaultvalue": 0,
+    "displayName": "Body parts from the Surgeon Set"
   },
-  "bodyset_writer": {
-    "description": "Body parts from the Writer Set",
-    "value": 0
+  {
+    "name": "bodyset_writer",
+    "defaultvalue": 0,
+    "displayName": "Body parts from the Writer Set"
   },
-  "bodyset_music": {
-    "description": "Body parts from the Music Set",
-    "value": 0
+  {
+    "name": "bodyset_music",
+    "defaultvalue": 0,
+    "displayName": "Body parts from the Music Set"
   },
-  "bodyset_robot": {
-    "description": "Body parts from the Robot Set",
-    "value": 0
+  {
+    "name": "bodyset_robot",
+    "defaultvalue": 0,
+    "displayName": "Body parts from the Robot Set"
   },
-  "bodyset_snow": {
-    "description": "Body parts from the Snow Set",
-    "value": 0
+  {
+    "name": "bodyset_snow",
+    "defaultvalue": 0,
+    "displayName": "Body parts from the Snow Set"
   },
-  "bodyset_stickman": {
-    "description": "Body parts from the Stickman Set",
-    "value": 0
+  {
+    "name": "bodyset_stickman",
+    "defaultvalue": 0,
+    "displayName": "Body parts from the Stickman Set"
   },
-  "bodyset_sun": {
-    "description": "Body parts from the Sun Set",
-    "value": 0
+  {
+    "name": "bodyset_sun",
+    "defaultvalue": 0,
+    "displayName": "Body parts from the Sun Set"
   },
-  "daily_challenge_completions": {
-    "description": "Daily Challenges Completed",
-    "value": 0
+  {
+    "name": "daily_challenge_completions",
+    "defaultvalue": 0,
+    "displayName": "Daily Challenges Completed"
   }
-}
+]

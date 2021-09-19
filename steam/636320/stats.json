@@ -1,26 +1,32 @@
-﻿{
-  "enemy_kills": {
-    "description": "Enemy Kills",
-    "value": 0
+[
+  {
+    "name": "enemy_kills",
+    "defaultvalue": 0,
+    "displayName": "Enemy Kills"
   },
-  "hat_tricks": {
-    "description": "Hat Tricks",
-    "value": 0
+  {
+    "name": "hat_tricks",
+    "defaultvalue": 0,
+    "displayName": "Hat Tricks"
   },
-  "casualties": {
-    "description": "Casualties",
-    "value": 0
+  {
+    "name": "casualties",
+    "defaultvalue": 0,
+    "displayName": "Casualties"
   },
-  "mission_wins": {
-    "description": "Mission Wins",
-    "value": 0
+  {
+    "name": "mission_wins",
+    "defaultvalue": 0,
+    "displayName": "Mission Wins"
   },
-  "damage_dealt": {
-    "description": "Damage Dealt",
-    "value": 0
+  {
+    "name": "damage_dealt",
+    "defaultvalue": 0,
+    "displayName": "Damage Dealt"
   },
-  "mission_losses": {
-    "description": "Mission Losses",
-    "value": 0
+  {
+    "name": "mission_losses",
+    "defaultvalue": 0,
+    "displayName": "Mission Losses"
   }
-}
+]

@@ -1,198 +1,247 @@
-﻿{
-  "Stat_01": {
-    "description": "The Golden Ticket",
-    "value": 0
+[
+  {
+    "name": "Stat_01",
+    "defaultvalue": 0,
+    "displayName": "The Golden Ticket"
   },
-  "Stat_02": {
-    "description": "Steamboat Willie",
-    "value": 0
+  {
+    "name": "Stat_02",
+    "defaultvalue": 0,
+    "displayName": "Steamboat Willie"
   },
-  "Stat_03": {
-    "description": "Happy Unbirthday",
-    "value": 0
+  {
+    "name": "Stat_03",
+    "defaultvalue": 0,
+    "displayName": "Happy Unbirthday"
   },
-  "Stat_04": {
-    "description": "To Infinity, and Beyond!",
-    "value": 0
+  {
+    "name": "Stat_04",
+    "defaultvalue": 0,
+    "displayName": "To Infinity, and Beyond!"
   },
-  "Stat_05": {
-    "description": "Mouseketeer",
-    "value": 0
+  {
+    "name": "Stat_05",
+    "defaultvalue": 0,
+    "displayName": "Mouseketeer"
   },
-  "Stat_06": {
-    "description": "Happiest Place on Earth",
-    "value": 0
+  {
+    "name": "Stat_06",
+    "defaultvalue": 0,
+    "displayName": "Happiest Place on Earth"
   },
-  "Stat_07": {
-    "description": "Hip Hip Pooh-Ray!",
-    "value": 0
+  {
+    "name": "Stat_07",
+    "defaultvalue": 0,
+    "displayName": "Hip Hip Pooh-Ray!"
   },
-  "Stat_08": {
-    "description": "Pixar Perfect",
-    "value": 0
+  {
+    "name": "Stat_08",
+    "defaultvalue": 0,
+    "displayName": "Pixar Perfect"
   },
-  "Stat_09": {
-    "description": "Fully Equipped",
-    "value": 0
+  {
+    "name": "Stat_09",
+    "defaultvalue": 0,
+    "displayName": "Fully Equipped"
   },
-  "Stat_10": {
-    "description": "Pirate's Life for Me",
-    "value": 0
+  {
+    "name": "Stat_10",
+    "defaultvalue": 0,
+    "displayName": "Pirate's Life for Me"
   },
-  "Stat_11": {
-    "description": "Disneyland Adventurer",
-    "value": 0
+  {
+    "name": "Stat_11",
+    "defaultvalue": 0,
+    "displayName": "Disneyland Adventurer"
   },
-  "Stat_12": {
-    "description": "Disneyland Mountaineer",
-    "value": 0
+  {
+    "name": "Stat_12",
+    "defaultvalue": 0,
+    "displayName": "Disneyland Mountaineer"
   },
-  "Stat_13": {
-    "description": "I Feel Like Dancing",
-    "value": 0
+  {
+    "name": "Stat_13",
+    "defaultvalue": 0,
+    "displayName": "I Feel Like Dancing"
   },
-  "Stat_14": {
-    "description": "The Bare Necessities",
-    "value": 0
+  {
+    "name": "Stat_14",
+    "defaultvalue": 0,
+    "displayName": "The Bare Necessities"
   },
-  "Stat_15": {
-    "description": "Mine Mine Mine Mine",
-    "value": 0
+  {
+    "name": "Stat_15",
+    "defaultvalue": 0,
+    "displayName": "Mine Mine Mine Mine"
   },
-  "Stat_16": {
-    "description": "There's Gold in Them There Hills",
-    "value": 0
+  {
+    "name": "Stat_16",
+    "defaultvalue": 0,
+    "displayName": "There's Gold in Them There Hills"
   },
-  "Stat_17": {
-    "description": "Portal Master",
-    "value": 0
+  {
+    "name": "Stat_17",
+    "defaultvalue": 0,
+    "displayName": "Portal Master"
   },
-  "Stat_19": {
-    "description": "Fantasyland Explorer",
-    "value": 0
+  {
+    "name": "Stat_19",
+    "defaultvalue": 0,
+    "displayName": "Fantasyland Explorer"
   },
-  "Stat_20": {
-    "description": "Tomorrowland Explorer",
-    "value": 0
+  {
+    "name": "Stat_20",
+    "defaultvalue": 0,
+    "displayName": "Tomorrowland Explorer"
   },
-  "Stat_21": {
-    "description": "Critter Country Explorer",
-    "value": 0
+  {
+    "name": "Stat_21",
+    "defaultvalue": 0,
+    "displayName": "Critter Country Explorer"
   },
-  "Stat_22": {
-    "description": "Adventureland Explorer",
-    "value": 0
+  {
+    "name": "Stat_22",
+    "defaultvalue": 0,
+    "displayName": "Adventureland Explorer"
   },
-  "Stat_23": {
-    "description": "New Orleans Square Explorer",
-    "value": 0
+  {
+    "name": "Stat_23",
+    "defaultvalue": 0,
+    "displayName": "New Orleans Square Explorer"
   },
-  "Stat_24": {
-    "description": "Frontierland Explorer",
-    "value": 0
+  {
+    "name": "Stat_24",
+    "defaultvalue": 0,
+    "displayName": "Frontierland Explorer"
   },
-  "Stat_25": {
-    "description": "Mickey's Toontown Explorer",
-    "value": 0
+  {
+    "name": "Stat_25",
+    "defaultvalue": 0,
+    "displayName": "Mickey's Toontown Explorer"
   },
-  "Stat_27": {
-    "description": "Sign of the Times",
-    "value": 0
+  {
+    "name": "Stat_27",
+    "defaultvalue": 0,
+    "displayName": "Sign of the Times"
   },
-  "Stat_28": {
-    "description": "You Must Be This Tall",
-    "value": 0
+  {
+    "name": "Stat_28",
+    "defaultvalue": 0,
+    "displayName": "You Must Be This Tall"
   },
-  "Stat_29": {
-    "description": "Shutterbug",
-    "value": 0
+  {
+    "name": "Stat_29",
+    "defaultvalue": 0,
+    "displayName": "Shutterbug"
   },
-  "Stat_30": {
-    "description": "Bookworm",
-    "value": 0
+  {
+    "name": "Stat_30",
+    "defaultvalue": 0,
+    "displayName": "Bookworm"
   },
-  "Stat_31": {
-    "description": "M-I-C-K-E-Y",
-    "value": 0
+  {
+    "name": "Stat_31",
+    "defaultvalue": 0,
+    "displayName": "M-I-C-K-E-Y"
   },
-  "Stat_32": {
-    "description": "Hidden Mickey Investigator",
-    "value": 0
+  {
+    "name": "Stat_32",
+    "defaultvalue": 0,
+    "displayName": "Hidden Mickey Investigator"
   },
-  "Stat_33": {
-    "description": "Hidden Mickey Sleuth",
-    "value": 0
+  {
+    "name": "Stat_33",
+    "defaultvalue": 0,
+    "displayName": "Hidden Mickey Sleuth"
   },
-  "Stat_34": {
-    "description": "Sorcerer's Apprentice",
-    "value": 0
+  {
+    "name": "Stat_34",
+    "defaultvalue": 0,
+    "displayName": "Sorcerer's Apprentice"
   },
-  "Stat_35": {
-    "description": "Roaring Success",
-    "value": 0
+  {
+    "name": "Stat_35",
+    "defaultvalue": 0,
+    "displayName": "Roaring Success"
   },
-  "Stat_36": {
-    "description": "Eye Spy",
-    "value": 0
+  {
+    "name": "Stat_36",
+    "defaultvalue": 0,
+    "displayName": "Eye Spy"
   },
-  "Stat_37": {
-    "description": "The Wetter the Better",
-    "value": 0
+  {
+    "name": "Stat_37",
+    "defaultvalue": 0,
+    "displayName": "The Wetter the Better"
   },
-  "Stat_38": {
-    "description": "It Was This Big!",
-    "value": 0
+  {
+    "name": "Stat_38",
+    "defaultvalue": 0,
+    "displayName": "It Was This Big!"
   },
-  "Stat_39": {
-    "description": "Not Today, Zurg!",
-    "value": 0
+  {
+    "name": "Stat_39",
+    "defaultvalue": 0,
+    "displayName": "Not Today, Zurg!"
   },
-  "Stat_40": {
-    "description": "Music Maestro Please",
-    "value": 0
+  {
+    "name": "Stat_40",
+    "defaultvalue": 0,
+    "displayName": "Music Maestro Please"
   },
-  "Stat_41": {
-    "description": "Pleased to Meet You!",
-    "value": 0
+  {
+    "name": "Stat_41",
+    "defaultvalue": 0,
+    "displayName": "Pleased to Meet You!"
   },
-  "Stat_42": {
-    "description": "You Will Go to the Ball",
-    "value": 0
+  {
+    "name": "Stat_42",
+    "defaultvalue": 0,
+    "displayName": "You Will Go to the Ball"
   },
-  "Stat_43": {
-    "description": "Five for Five",
-    "value": 0
+  {
+    "name": "Stat_43",
+    "defaultvalue": 0,
+    "displayName": "Five for Five"
   },
-  "Stat_44": {
-    "description": "Not as Mean as They Look",
-    "value": 0
+  {
+    "name": "Stat_44",
+    "defaultvalue": 0,
+    "displayName": "Not as Mean as They Look"
   },
-  "Stat_45": {
-    "description": "Spectacular!",
-    "value": 0
+  {
+    "name": "Stat_45",
+    "defaultvalue": 0,
+    "displayName": "Spectacular!"
   },
-  "Stat_46": {
-    "description": "Soundsational",
-    "value": 0
+  {
+    "name": "Stat_46",
+    "defaultvalue": 0,
+    "displayName": "Soundsational"
   },
-  "Stat_47": {
-    "description": "What a Swell Pal",
-    "value": 0
+  {
+    "name": "Stat_47",
+    "defaultvalue": 0,
+    "displayName": "What a Swell Pal"
   },
-  "Stat_48": {
-    "description": "Say Cheese!",
-    "value": 0
+  {
+    "name": "Stat_48",
+    "defaultvalue": 0,
+    "displayName": "Say Cheese!"
   },
-  "Stat_49": {
-    "description": "Bargain Hunter",
-    "value": 0
+  {
+    "name": "Stat_49",
+    "defaultvalue": 0,
+    "displayName": "Bargain Hunter"
   },
-  "Stat_50": {
-    "description": "Dressed to Impress",
-    "value": 0
+  {
+    "name": "Stat_50",
+    "defaultvalue": 0,
+    "displayName": "Dressed to Impress"
   },
-  "Stat_18": {
-    "description": "Main Street, U.S.A. Explorer",
-    "value": 0
+  {
+    "name": "Stat_18",
+    "defaultvalue": 0,
+    "displayName": "Main Street, U.S.A. Explorer"
   }
-}
+]

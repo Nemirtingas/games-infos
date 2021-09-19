@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "name": "FINISH_TUTORIAL",
     "defaultvalue": 0,
@@ -490,5 +490,47 @@
     "description": "Do a barrel roll with your fully functional battleship.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/445220/83494b88475c0c008ed91ffe07a25284581577e1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/445220/f6540fdcf605a6682d9c8d83e10cc336454ba799.jpg"
+  },
+  {
+    "name": "CAVALIERS_STORY",
+    "defaultvalue": 0,
+    "displayName": "The Brother in Arms",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/445220/a37c9ff227da7b93fa65812aa2b27f43d0555cd5.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/445220/19563aa4da6b437b442b31490242a56d3f097af5.jpg"
+  },
+  {
+    "name": "FAMILY_STORY",
+    "defaultvalue": 0,
+    "displayName": "The Trusted Godchild",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/445220/388c74db40970d60569af47e531c66e048bae90e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/445220/24603ee1301f13b8561e7a501bf144e6f85f63e9.jpg"
+  },
+  {
+    "name": "COMMUNE_STORY",
+    "defaultvalue": 0,
+    "displayName": "The Hero of the Revolution",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/445220/0c911897ae7fe91dea5cb773a913d88950b86cb9.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/445220/8e8add97c537ed5e32092a53410ff6de1e1fb3f8.jpg"
+  },
+  {
+    "name": "MEET_IZZY",
+    "defaultvalue": 0,
+    "displayName": "Shady Endeavours",
+    "hidden": 0,
+    "description": "Meet Izzy for the first time.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/445220/2d55f5842d899e48d1cc39cf5b4a29de86c2a82a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/445220/971c84abe83af9788e5776da14f7e9aa57dc8912.jpg"
+  },
+  {
+    "name": "CONTAINER_HACKED",
+    "defaultvalue": 0,
+    "displayName": "Hacker",
+    "hidden": 0,
+    "description": "Hack a container.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/445220/74ab0c9fd506265dc81a13e770b5d09f03e9c9b6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/445220/2710eafd429764c2676f0ac5b3922023df037b5c.jpg"
   }
 ]

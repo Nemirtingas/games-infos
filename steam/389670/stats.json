@@ -1,30 +1,37 @@
-﻿{
-  "STAT_FlyDist": {
-    "description": "FlyDistance",
-    "value": 0
+[
+  {
+    "name": "STAT_FlyDist",
+    "defaultvalue": 0,
+    "displayName": "FlyDistance"
   },
-  "STAT_Antlers": {
-    "description": "Antlers",
-    "value": 0
+  {
+    "name": "STAT_Antlers",
+    "defaultvalue": 0,
+    "displayName": "Antlers"
   },
-  "STAT_RocketHits": {
-    "description": "Rockets Hit",
-    "value": 0
+  {
+    "name": "STAT_RocketHits",
+    "defaultvalue": 0,
+    "displayName": "Rockets Hit"
   },
-  "STAT_GaussHit": {
-    "description": "Gauss Hits",
-    "value": 0
+  {
+    "name": "STAT_GaussHit",
+    "defaultvalue": 0,
+    "displayName": "Gauss Hits"
   },
-  "STAT_ShockwavesFired": {
-    "description": "Shockwaves Fired",
-    "value": 0
+  {
+    "name": "STAT_ShockwavesFired",
+    "defaultvalue": 0,
+    "displayName": "Shockwaves Fired"
   },
-  "STAT_TimeCloaked": {
-    "description": "Time Cloaked",
-    "value": 0
+  {
+    "name": "STAT_TimeCloaked",
+    "defaultvalue": 0,
+    "displayName": "Time Cloaked"
   },
-  "STAT_TechCredits": {
-    "description": "Tech Credits",
-    "value": 0
+  {
+    "name": "STAT_TechCredits",
+    "defaultvalue": 0,
+    "displayName": "Tech Credits"
   }
-}
+]

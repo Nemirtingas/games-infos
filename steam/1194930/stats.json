@@ -1,26 +1,32 @@
-﻿{
-  "NumGames": {
-    "description": "GamePlayed",
-    "value": 0
+[
+  {
+    "name": "NumGames",
+    "defaultvalue": 0,
+    "displayName": "GamePlayed"
   },
-  "RobeCaravanCount": {
-    "description": "Robbed Caravans",
-    "value": 0
+  {
+    "name": "RobeCaravanCount",
+    "defaultvalue": 0,
+    "displayName": "Robbed Caravans"
   },
-  "HuntedBeast": {
-    "description": "Hunted Beasts",
-    "value": 0
+  {
+    "name": "HuntedBeast",
+    "defaultvalue": 0,
+    "displayName": "Hunted Beasts"
   },
-  "CapturedSlave": {
-    "description": "Captured Slaves",
-    "value": 0
+  {
+    "name": "CapturedSlave",
+    "defaultvalue": 0,
+    "displayName": "Captured Slaves"
   },
-  "FoundTreasure": {
-    "description": "Found Treasures",
-    "value": 0
+  {
+    "name": "FoundTreasure",
+    "defaultvalue": 0,
+    "displayName": "Found Treasures"
   },
-  "TrapKilledEnemy": {
-    "description": "Enemies killed by trap",
-    "value": 0
+  {
+    "name": "TrapKilledEnemy",
+    "defaultvalue": 0,
+    "displayName": "Enemies killed by trap"
   }
-}
+]

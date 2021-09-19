@@ -2,21 +2,21 @@
   "Dlcs": {
     "1343250": {
       "Name": "Neoverse - Cyber Punk Costume Pack",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/1343250/header.jpg?t=1593185769"
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1343250/header.jpg?t=1593185769",
+      "Type": "dlc"
     },
     "1375250": {
-      "Name": "Neoverse - Hot Break Costume Pack",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/1375250/header.jpg?t=1597391607"
+      "Name": "",
+      "ImageUrl": ""
     },
     "1429010": {
-      "Name": "Neoverse - Schoolgirl Pack",
-      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1429010/header.jpg?t=1603360103",
-      "Type": "dlc"
+      "Name": "",
+      "ImageUrl": ""
     }
   },
   "Name": "NEOVERSE",
   "AppId": "994220",
-  "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/994220/header.jpg?t=1597391716",
+  "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/994220/header.jpg?t=1610682344",
   "Languages": [
     "english",
     "schinese",
@@ -27,7 +27,10 @@
     "portuguese",
     "portuguese",
     "russian",
-    "french"
+    "french",
+    "italian",
+    "spanish",
+    "latam"
   ],
   "Platforms": {
     "windows": true,

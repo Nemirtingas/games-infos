@@ -1,30 +1,37 @@
-﻿{
-  "ARK_ACH": {
-    "description": "Achievements",
-    "value": 0
+[
+  {
+    "name": "ARK_ACH",
+    "defaultvalue": 0,
+    "displayName": "Achievements"
   },
-  "ARK_LASTZONEPLAYED": {
-    "description": "LastZonePlayed",
-    "value": 0
+  {
+    "name": "ARK_LASTZONEPLAYED",
+    "defaultvalue": 0,
+    "displayName": "LastZonePlayed"
   },
-  "ARK_LASTDAYPLAYED": {
-    "description": "LastDayPlayed",
-    "value": 0
+  {
+    "name": "ARK_LASTDAYPLAYED",
+    "defaultvalue": 0,
+    "displayName": "LastDayPlayed"
   },
-  "ARK_LASTMONTHPLAYED": {
-    "description": "LastMonthPlayed",
-    "value": 0
+  {
+    "name": "ARK_LASTMONTHPLAYED",
+    "defaultvalue": 0,
+    "displayName": "LastMonthPlayed"
   },
-  "ARK_LASTYEARPLAYED": {
-    "description": "LastYearPlayed",
-    "value": 0
+  {
+    "name": "ARK_LASTYEARPLAYED",
+    "defaultvalue": 0,
+    "displayName": "LastYearPlayed"
   },
-  "ARK_LASTHOURPLAYED": {
-    "description": "LastHourPlayed",
-    "value": 0
+  {
+    "name": "ARK_LASTHOURPLAYED",
+    "defaultvalue": 0,
+    "displayName": "LastHourPlayed"
   },
-  "ARK_LASTMINPLAYED": {
-    "description": "LastMinPlayed",
-    "value": 0
+  {
+    "name": "ARK_LASTMINPLAYED",
+    "defaultvalue": 0,
+    "displayName": "LastMinPlayed"
   }
-}
+]

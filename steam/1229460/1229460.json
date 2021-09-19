@@ -1,8 +1,14 @@
 {
-  "Dlcs": {},
+  "Dlcs": {
+    "1720630": {
+      "Name": "Dice Legacy Soundtrack",
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1720630/header.jpg?t=1631203023",
+      "Type": "music"
+    }
+  },
   "Name": "Dice Legacy",
   "AppId": "1229460",
-  "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/1229460/header.jpg?t=1593547202",
+  "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1229460/header.jpg?t=1631267202",
   "Languages": [
     "english",
     "french",
@@ -10,7 +16,12 @@
     "german",
     "spanish",
     "russian",
-    "tchinese"
+    "tchinese",
+    "japanese",
+    "korean",
+    "polish",
+    "portuguese",
+    "schinese"
   ],
   "Platforms": {
     "windows": true,

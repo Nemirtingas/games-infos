@@ -1,10 +1,12 @@
-﻿{
-  "PhobekinSaved": {
-    "description": "PhobekinSaved",
-    "value": 0
+[
+  {
+    "name": "PhobekinSaved",
+    "defaultvalue": 0,
+    "displayName": "PhobekinSaved"
   },
-  "BarrelPlantsUsed": {
-    "description": "BarrelPlantsUsed",
-    "value": 0
+  {
+    "name": "BarrelPlantsUsed",
+    "defaultvalue": 0,
+    "displayName": "BarrelPlantsUsed"
   }
-}
+]

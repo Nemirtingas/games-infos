@@ -1,47 +1,24 @@
 {
   "Dlcs": {
-    "900447": {
-      "Name": "Pathfinder: Kingmaker - The Wildcards",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/900447/header.jpg?t=1587456229"
-    },
-    "900448": {
-      "Name": "Pathfinder: Kingmaker - Varnhold's Lot",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/900448/header.jpg?t=1587465940"
-    },
-    "900449": {
-      "Name": "Pathfinder: Kingmaker - Beneath The Stolen Lands",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/900449/header.jpg?t=1587466109"
-    },
-    "937800": {
-      "Name": "Pathfinder: Kingmaker - Season Pass",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/937800/header.jpg?t=1587466257"
-    },
     "965950": {
       "Name": "Pathfinder: Kingmaker - Bloody Mess",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/965950/header.jpg?t=1587466406"
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/965950/header.jpg?t=1626247973",
+      "Type": "dlc"
     },
     "1041820": {
       "Name": "Pathfinder: Kingmaker - Arcane Unleashed",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/1041820/header.jpg?t=1587455952"
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1041820/header.jpg?t=1626247940",
+      "Type": "dlc"
     },
-    "1209370": {
-      "Name": "Pathfinder: Kingmaker - Royal Ascension DLC",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/1209370/header.jpg?t=1587468495"
+    "900449": {
+      "Name": "Pathfinder: Kingmaker - Beneath The Stolen Lands",
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/900449/header.jpg?t=1626247967",
+      "Type": "dlc"
+    },
+    "900447": {
+      "Name": "Pathfinder: Kingmaker - The Wildcards",
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/900447/header.jpg?t=1626248007",
+      "Type": "dlc"
     }
-  },
-  "Name": "Pathfinder: Kingmaker - Enhanced Plus Edition",
-  "AppId": "640820",
-  "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/640820/header.jpg?t=1600353568",
-  "Languages": [
-    "english",
-    "french",
-    "german",
-    "russian",
-    "schinese"
-  ],
-  "Platforms": {
-    "windows": true,
-    "mac": true,
-    "linux": true
   }
 }

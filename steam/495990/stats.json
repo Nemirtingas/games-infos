@@ -1,14 +1,17 @@
-﻿{
-  "END_COUNT": {
-    "description": "Endings",
-    "value": 0
+[
+  {
+    "name": "END_COUNT",
+    "defaultvalue": 0,
+    "displayName": "Endings"
   },
-  "CG_COUNT": {
-    "description": "CG Collection",
-    "value": 0
+  {
+    "name": "CG_COUNT",
+    "defaultvalue": 0,
+    "displayName": "CG Collection"
   },
-  "SEL_COUNT": {
-    "description": "Selects",
-    "value": 0
+  {
+    "name": "SEL_COUNT",
+    "defaultvalue": 0,
+    "displayName": "Selects"
   }
-}
+]

@@ -1,110 +1,137 @@
-﻿{
-  "STAT_GET_EVERYTHING_STAT_GET_EVERYTHING": {
-    "description": "GET_EVERYTHING",
-    "value": 0
+[
+  {
+    "name": "STAT_GET_EVERYTHING_STAT_GET_EVERYTHING",
+    "defaultvalue": 0,
+    "displayName": "GET_EVERYTHING"
   },
-  "STAT_LIGHT_CANDLES_STAT_LIGHT_CANDLES": {
-    "description": "LIGHT_CANDLES",
-    "value": 0
+  {
+    "name": "STAT_LIGHT_CANDLES_STAT_LIGHT_CANDLES",
+    "defaultvalue": 0,
+    "displayName": "LIGHT_CANDLES"
   },
-  "STAT_LIGHT_MATCHES_STAT_LIGHT_MATCHES": {
-    "description": "LIGHT_MATCHES",
-    "value": 0
+  {
+    "name": "STAT_LIGHT_MATCHES_STAT_LIGHT_MATCHES",
+    "defaultvalue": 0,
+    "displayName": "LIGHT_MATCHES"
   },
-  "STAT_GET_OIL_STAT_GET_OIL": {
-    "description": "GET_OIL",
-    "value": 0
+  {
+    "name": "STAT_GET_OIL_STAT_GET_OIL",
+    "defaultvalue": 0,
+    "displayName": "GET_OIL"
   },
-  "STAT_GOOD_NICOLAS_STAT_GOOD_NICOLAS": {
-    "description": "GOOD_NICOLAS",
-    "value": 0
+  {
+    "name": "STAT_GOOD_NICOLAS_STAT_GOOD_NICOLAS",
+    "defaultvalue": 0,
+    "displayName": "GOOD_NICOLAS"
   },
-  "STAT_BAD_NICOLAS_STAT_BAD_NICOLAS": {
-    "description": "BAD_NICOLAS",
-    "value": 0
+  {
+    "name": "STAT_BAD_NICOLAS_STAT_BAD_NICOLAS",
+    "defaultvalue": 0,
+    "displayName": "BAD_NICOLAS"
   },
-  "STAT_ADAM_SICK_STAT_ADAM_SICK": {
-    "description": "ADAM_SICK",
-    "value": 0
+  {
+    "name": "STAT_ADAM_SICK_STAT_ADAM_SICK",
+    "defaultvalue": 0,
+    "displayName": "ADAM_SICK"
   },
-  "STAT_DOCTOR_KILLED_STAT_DOCTOR_KILLED": {
-    "description": "DOCTOR_KILLED",
-    "value": 0
+  {
+    "name": "STAT_DOCTOR_KILLED_STAT_DOCTOR_KILLED",
+    "defaultvalue": 0,
+    "displayName": "DOCTOR_KILLED"
   },
-  "STAT_EMMA_KILLED_STAT_EMMA_KILLED": {
-    "description": "EMMA_KILLED",
-    "value": 0
+  {
+    "name": "STAT_EMMA_KILLED_STAT_EMMA_KILLED",
+    "defaultvalue": 0,
+    "displayName": "EMMA_KILLED"
   },
-  "STAT_SUICIDE_STAT_SUICIDE": {
-    "description": "SUICIDE",
-    "value": 0
+  {
+    "name": "STAT_SUICIDE_STAT_SUICIDE",
+    "defaultvalue": 0,
+    "displayName": "SUICIDE"
   },
-  "STAT_NORTON_DEAD_STAT_NORTON_DEAD": {
-    "description": "NORTON_DEAD",
-    "value": 0
+  {
+    "name": "STAT_NORTON_DEAD_STAT_NORTON_DEAD",
+    "defaultvalue": 0,
+    "displayName": "NORTON_DEAD"
   },
-  "STAT_GILMAN_DEAD_STAT_GILMAN_DEAD": {
-    "description": "GILMAN_DEAD",
-    "value": 0
+  {
+    "name": "STAT_GILMAN_DEAD_STAT_GILMAN_DEAD",
+    "defaultvalue": 0,
+    "displayName": "GILMAN_DEAD"
   },
-  "STAT_SOLVE_ENIGMA_STAT_SOLVE_ENIGMA": {
-    "description": "SOLVE_ENIGMA",
-    "value": 0
+  {
+    "name": "STAT_SOLVE_ENIGMA_STAT_SOLVE_ENIGMA",
+    "defaultvalue": 0,
+    "displayName": "SOLVE_ENIGMA"
   },
-  "STAT_END_C01_STAT_END_C01": {
-    "description": "END_C01",
-    "value": 0
+  {
+    "name": "STAT_END_C01_STAT_END_C01",
+    "defaultvalue": 0,
+    "displayName": "END_C01"
   },
-  "STAT_GET_ANOMALIES_STAT_GET_ANOMALIES": {
-    "description": "GET_ANOMALIES",
-    "value": 0
+  {
+    "name": "STAT_GET_ANOMALIES_STAT_GET_ANOMALIES",
+    "defaultvalue": 0,
+    "displayName": "GET_ANOMALIES"
   },
-  "STAT_ADAM_NOTES_NUMBER_STAT_ADAM_NOTES_NUMBER": {
-    "description": "ADAM_NOTES_NUMBER",
-    "value": 0
+  {
+    "name": "STAT_ADAM_NOTES_NUMBER_STAT_ADAM_NOTES_NUMBER",
+    "defaultvalue": 0,
+    "displayName": "ADAM_NOTES_NUMBER"
   },
-  "STAT_ADAM_NOTES_ALL_STAT_ADAM_NOTES_ALL": {
-    "description": "ADAM_NOTES_ALL",
-    "value": 0
+  {
+    "name": "STAT_ADAM_NOTES_ALL_STAT_ADAM_NOTES_ALL",
+    "defaultvalue": 0,
+    "displayName": "ADAM_NOTES_ALL"
   },
-  "STAT_NICOLAS_NOTES_NUMBER_STAT_NICOLAS_NOTES_NUMBER": {
-    "description": "NICOLAS_NOTES_NUMBER",
-    "value": 0
+  {
+    "name": "STAT_NICOLAS_NOTES_NUMBER_STAT_NICOLAS_NOTES_NUMBER",
+    "defaultvalue": 0,
+    "displayName": "NICOLAS_NOTES_NUMBER"
   },
-  "STAT_NICOLAS_NOTES_ALL_STAT_NICOLAS_NOTES_ALL": {
-    "description": "NICOLAS_NOTES_ALL",
-    "value": 0
+  {
+    "name": "STAT_NICOLAS_NOTES_ALL_STAT_NICOLAS_NOTES_ALL",
+    "defaultvalue": 0,
+    "displayName": "NICOLAS_NOTES_ALL"
   },
-  "STAT_HIDDEN_NUMBER_STAT_HIDDEN_NUMBER": {
-    "description": "HIDDEN_NUMBER",
-    "value": 0
+  {
+    "name": "STAT_HIDDEN_NUMBER_STAT_HIDDEN_NUMBER",
+    "defaultvalue": 0,
+    "displayName": "HIDDEN_NUMBER"
   },
-  "STAT_HIDDEN_ALL_STAT_HIDDEN_ALL": {
-    "description": "HIDDEN_ALL",
-    "value": 0
+  {
+    "name": "STAT_HIDDEN_ALL_STAT_HIDDEN_ALL",
+    "defaultvalue": 0,
+    "displayName": "HIDDEN_ALL"
   },
-  "STAT_GHOSTBUSTER_STAT_GHOSTBUSTER": {
-    "description": "GHOSTBUSTER",
-    "value": 0
+  {
+    "name": "STAT_GHOSTBUSTER_STAT_GHOSTBUSTER",
+    "defaultvalue": 0,
+    "displayName": "GHOSTBUSTER"
   },
-  "STAT_FINISH_THE_GAME_STAT_FINISH_THE_GAME": {
-    "description": "FINISH_THE_GAME",
-    "value": 0
+  {
+    "name": "STAT_FINISH_THE_GAME_STAT_FINISH_THE_GAME",
+    "defaultvalue": 0,
+    "displayName": "FINISH_THE_GAME"
   },
-  "STAT_RADIO_ALL_STAT_RADIO_ALL": {
-    "description": "RADIO_ALL",
-    "value": 0
+  {
+    "name": "STAT_RADIO_ALL_STAT_RADIO_ALL",
+    "defaultvalue": 0,
+    "displayName": "RADIO_ALL"
   },
-  "STAT_NEWSPAPER_ALL_STAT_NEWSPAPER_ALL": {
-    "description": "NEWSPAPER_ALL",
-    "value": 0
+  {
+    "name": "STAT_NEWSPAPER_ALL_STAT_NEWSPAPER_ALL",
+    "defaultvalue": 0,
+    "displayName": "NEWSPAPER_ALL"
   },
-  "STAT_GET_KEY_STAT_GET_KEY": {
-    "description": "GET_KEY",
-    "value": 0
+  {
+    "name": "STAT_GET_KEY_STAT_GET_KEY",
+    "defaultvalue": 0,
+    "displayName": "GET_KEY"
   },
-  "STAT_GET_HAROLD_ALL_STAT_GET_HAROLD_ALL": {
-    "description": "GET_HAROLD",
-    "value": 0
+  {
+    "name": "STAT_GET_HAROLD_ALL_STAT_GET_HAROLD_ALL",
+    "defaultvalue": 0,
+    "displayName": "GET_HAROLD"
   }
-}
+]

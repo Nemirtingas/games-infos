@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "name": "story_curious_neighbour",
     "defaultvalue": 0,
@@ -167,11 +167,38 @@
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/788630/225b92b11f2683b448bd0566c7a7fc0767172c16.jpg"
   },
   {
-    "name": "story_kalypso_noassist",
+    "name": "story_kalypso_crash_killed",
     "defaultvalue": 0,
-    "displayName": "NEW_ACHIEVEMENT_NAME_1_19",
+    "displayName": "Kill on First Sight",
     "hidden": 1,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/788630/957d4bffddaf33d2e5d567b16ffc2d07cbf4c590.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/788630/887645ed62884b9ce44fa2e69a6ee6493f01b6a1.jpg"
+  },
+  {
+    "name": "story_heimwehr_defeated",
+    "defaultvalue": 0,
+    "displayName": "Slayer of the Snake",
+    "hidden": 0,
+    "description": "Defeat Heimwehr at Lashkar Gah",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/788630/ddccb4ab49b7545257659eb89782cb591cb4f4c6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/788630/eccc868f9d5d6aaa480b47ad1813f782741291cc.jpg"
+  },
+  {
+    "name": "story_wallas_trade_route_1",
+    "defaultvalue": 0,
+    "displayName": "Home Economics",
+    "hidden": 0,
+    "description": "Establish your first trade route for Pluto",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/788630/4ba384a2c730fff8d1d3ea9ec5d9858e002abb67.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/788630/9e5df0d7907a1b12f9fed05a1041f7aa96a33098.jpg"
+  },
+  {
+    "name": "story_krieger_letters_delivered",
+    "defaultvalue": 0,
+    "displayName": "Late Delivery",
+    "hidden": 0,
+    "description": "Deliver the Krieger letters to their rightful recipients",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/788630/f3910cde4ed7e22ae2958d2e4f80ee9347c0e06d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/788630/f6de689eba6effa0324fd7fa0f20ea2142a04984.jpg"
   }
 ]

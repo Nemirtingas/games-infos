@@ -121,7 +121,7 @@
     "defaultvalue": 0,
     "displayName": "Kael",
     "hidden": 0,
-    "description": "Play as Kael",
+    "description": "Play as Kael (Leviathan: The Last Day of the Decade)",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/634340/d4bc019c79ca6fd29e7e406324015a9e8e9328c3.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/634340/4ca431b3da6f4efb211d47affa33e014b9235b72.jpg"
   },
@@ -130,7 +130,7 @@
     "defaultvalue": 0,
     "displayName": "Julia",
     "hidden": 0,
-    "description": "Play as Julia",
+    "description": "Play as Julia (Leviathan: The Last Day of the Decade)",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/634340/5d9336808beb2db9e44abe973d158a1c38af8673.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/634340/64ca37623da4e24fdd1c157b4e16b24ba9397088.jpg"
   },
@@ -160,5 +160,113 @@
     "description": "Play as Secret Character",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/634340/76c278a4fc563be71a56fd98e3d3525470fba75a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/634340/452a7dd6db2d1cbc320f5ca38690b387639c286b.jpg"
+  },
+  {
+    "name": "a_explosion",
+    "defaultvalue": 0,
+    "displayName": "Explosion Girl",
+    "hidden": 0,
+    "description": "Play as Explosion Girl",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/634340/d0443db7f3ff100ef7e408743b7b2832e4791d5a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/634340/9afea5a10c36474c960b5cc2ce943df5f7cbc050.jpg"
+  },
+  {
+    "name": "a_nivis",
+    "defaultvalue": 0,
+    "displayName": "Nivis",
+    "hidden": 0,
+    "description": "Play as Nivis-chan",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/634340/cd81b6916251009054af302e40658a956af48b4d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/634340/3ed9c73fd7686fc6dd1ced48e8eb5cf24009a622.jpg"
+  },
+  {
+    "name": "a_archer",
+    "defaultvalue": 0,
+    "displayName": "Archer",
+    "hidden": 0,
+    "description": "Play as Archer (Castle of No Escape 2)",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/634340/0cf9ee71a9edea0e2350752972bc4eac516a80a6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/634340/bb977505f15ef6fcc3a4294b4d8cb8aab3eed8cf.jpg"
+  },
+  {
+    "name": "a_robot",
+    "defaultvalue": 0,
+    "displayName": "Robot",
+    "hidden": 0,
+    "description": "Play as Robot (IN-VERT)",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/634340/43ee6e5ac6ee41107b3ec273cb735841083787b9.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/634340/374fcc8ae3c066d7cffc35e1cd5bcdcef3d4083a.jpg"
+  },
+  {
+    "name": "a_twosided",
+    "defaultvalue": 0,
+    "displayName": "Twosided Girl",
+    "hidden": 0,
+    "description": "Play as Twosided Girl",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/634340/cd41c72813c7eac9e7395f4aff5d6f97feeb3ff7.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/634340/167ac52d3df6f13d6cd9362f34074c5815f11463.jpg"
+  },
+  {
+    "name": "a_prince",
+    "defaultvalue": 0,
+    "displayName": "The Immortal Prince",
+    "hidden": 0,
+    "description": "Play as The Immortal Prince (The StoryTale)",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/634340/4c4e9bba4438961bc3795234c6c2a44624b32d0c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/634340/910b633e9fa8a444cbbf24a98358e9768a588f7a.jpg"
+  },
+  {
+    "name": "a_maxlevel",
+    "defaultvalue": 0,
+    "displayName": "Max level",
+    "hidden": 0,
+    "description": "Upgrade your hero to the maximum level",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/634340/c96c138837a6001e68d683c14f892396d3f4edf2.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/634340/9277c2aafe2c0277cf89cbb24fce156e84be912c.jpg"
+  },
+  {
+    "name": "a_boss2",
+    "defaultvalue": 0,
+    "displayName": "Spooky Boss!",
+    "hidden": 0,
+    "description": "Defeat any boss in Spooky hike",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/634340/72b69b4d8fe2a1b08764e81c34c91f14a51b1ea3.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/634340/9fe5b89ba58c669c21416af2234edce8a10983cf.jpg"
+  },
+  {
+    "name": "a_boss3",
+    "defaultvalue": 0,
+    "displayName": "Dungeon Boss",
+    "hidden": 0,
+    "description": "Defeat any boss in Dungeon",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/634340/649768e7f4dd70f8071f16532dd4554e972a37cf.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/634340/b94fa68ba8819891283229f7494fab404dd26ed6.jpg"
+  },
+  {
+    "name": "a_hat",
+    "defaultvalue": 0,
+    "displayName": "Nicely hat",
+    "hidden": 0,
+    "description": "Put on your hat",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/634340/c8c85764ea2fbeef3269008c1d81c15cf0929dc4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/634340/2372b33fb57f362c2c1107f2ad1104197bb12620.jpg"
+  },
+  {
+    "name": "a_level3",
+    "defaultvalue": 0,
+    "displayName": "Level 3",
+    "hidden": 0,
+    "description": "Upgrade your hero to the level 3",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/634340/83b9a921855e739efa35cd7b51d66b3bf2e8ecb8.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/634340/5c492d66a063efa744a33f3f6f69473adfc40997.jpg"
+  },
+  {
+    "name": "a_level2",
+    "defaultvalue": 0,
+    "displayName": "Level 2",
+    "hidden": 0,
+    "description": "Upgrade your hero to the level 2",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/634340/247992d2aeb497eb59e414b6f4a29c737a2939ac.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/634340/c75906fb9e0fae7667f2d35d648fa495ca85095d.jpg"
   }
 ]

@@ -1,45 +1,34 @@
 {
   "Dlcs": {
-    "863930": {
-      "Name": "SRPG Studio Snow Background",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/863930/header.jpg?t=1534777345"
-    },
-    "889120": {
-      "Name": "SRPG Studio Desert Background",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/889120/header.jpg?t=1534777409"
-    },
-    "982650": {
-      "Name": "SRPG Studio Fantasy Background",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/982650/header.jpg?t=1543305601"
+    "1742220": {
+      "Name": "SRPG Studio Ship Material Collection",
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1742220/header.jpg?t=1631062940",
+      "Type": "dlc"
     },
     "982660": {
       "Name": "SRPG Studio Retro Future Background",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/982660/header.jpg?t=1551234584"
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/982660/header.jpg?t=1630637961",
+      "Type": "dlc"
     },
-    "1109180": {
-      "Name": "SRPG Studio Dark World Background",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/1109180/header.jpg?t=1561614577"
+    "982650": {
+      "Name": "SRPG Studio Fantasy Background",
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/982650/header.jpg?t=1630637765",
+      "Type": "dlc"
     },
     "1109190": {
       "Name": "SRPG Studio Foreign Land Background",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/1109190/header.jpg?t=1579165771"
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1109190/header.jpg?t=1630637854",
+      "Type": "dlc"
+    },
+    "1109180": {
+      "Name": "SRPG Studio Dark World Background",
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1109180/header.jpg?t=1630637407",
+      "Type": "dlc"
+    },
+    "1506270": {
+      "Name": "SRPG Studio Magic Effects Collection",
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1506270/header.jpg?t=1630637916",
+      "Type": "dlc"
     }
-  },
-  "Name": "SRPG Studio",
-  "AppId": "857320",
-  "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/857320/header.jpg?t=1601011139",
-  "Languages": [
-    "english",
-    "japanese",
-    "schinese",
-    "french",
-    "spanish",
-    "german",
-    "tchinese"
-  ],
-  "Platforms": {
-    "windows": true,
-    "mac": false,
-    "linux": false
   }
 }

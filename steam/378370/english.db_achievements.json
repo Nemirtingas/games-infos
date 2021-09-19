@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "name": "zombie_killer",
     "defaultvalue": 0,
@@ -232,5 +232,13 @@
     "description": "Get sick",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/378370/be789845ca960084c8ee5bf9b34e316c4c2cdb97.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/378370/178d01a512c939da831411511df3e34afe8091f9.jpg"
+  },
+  {
+    "name": "nuke",
+    "defaultvalue": 0,
+    "displayName": "Get Nuked",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/378370/3abe4cfd3eeea81ec2d05d685375c5db53b9eae4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/378370/21accbc841b4565193489259139a551428c42f68.jpg"
   }
 ]

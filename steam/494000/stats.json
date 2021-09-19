@@ -1,42 +1,52 @@
-﻿{
-  "num_games": {
-    "description": "Total Games Played",
-    "value": 0
+[
+  {
+    "name": "num_games",
+    "defaultvalue": 0,
+    "displayName": "Total Games Played"
   },
-  "power_bomb": {
-    "description": "Bombs Used",
-    "value": 0
+  {
+    "name": "power_bomb",
+    "defaultvalue": 0,
+    "displayName": "Bombs Used"
   },
-  "power_clone": {
-    "description": "Clones Used",
-    "value": 0
+  {
+    "name": "power_clone",
+    "defaultvalue": 0,
+    "displayName": "Clones Used"
   },
-  "power_shield": {
-    "description": "Shields Used",
-    "value": 0
+  {
+    "name": "power_shield",
+    "defaultvalue": 0,
+    "displayName": "Shields Used"
   },
-  "power_timewarp": {
-    "description": "Time Warps Used",
-    "value": 0
+  {
+    "name": "power_timewarp",
+    "defaultvalue": 0,
+    "displayName": "Time Warps Used"
   },
-  "power_fever": {
-    "description": "Fevers Used",
-    "value": 0
+  {
+    "name": "power_fever",
+    "defaultvalue": 0,
+    "displayName": "Fevers Used"
   },
-  "power_gravitywell": {
-    "description": "Gravity Wells Used",
-    "value": 0
+  {
+    "name": "power_gravitywell",
+    "defaultvalue": 0,
+    "displayName": "Gravity Wells Used"
   },
-  "power_scorebubble": {
-    "description": "Score Bubbles Used",
-    "value": 0
+  {
+    "name": "power_scorebubble",
+    "defaultvalue": 0,
+    "displayName": "Score Bubbles Used"
   },
-  "score_pickups": {
-    "description": "Green Pickups",
-    "value": 0
+  {
+    "name": "score_pickups",
+    "defaultvalue": 0,
+    "displayName": "Green Pickups"
   },
-  "avg_gametime": {
-    "description": "Average Survival Time",
-    "value": 0
+  {
+    "name": "avg_gametime",
+    "defaultvalue": 0,
+    "displayName": "Average Survival Time"
   }
-}
+]

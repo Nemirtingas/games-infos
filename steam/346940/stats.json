@@ -1,58 +1,72 @@
-﻿{
-  "GRENADE_KILLS": {
-    "description": "Grenade Kills",
-    "value": 0
+[
+  {
+    "name": "GRENADE_KILLS",
+    "defaultvalue": 0,
+    "displayName": "Grenade Kills"
   },
-  "MAGIC_KILLS": {
-    "description": "Magic Spell Kills",
-    "value": 0
+  {
+    "name": "MAGIC_KILLS",
+    "defaultvalue": 0,
+    "displayName": "Magic Spell Kills"
   },
-  "SHIAWASE": {
-    "description": "Shiawase Throw Back",
-    "value": 0
+  {
+    "name": "SHIAWASE",
+    "defaultvalue": 0,
+    "displayName": "Shiawase Throw Back"
   },
-  "ENVIRONMENT_SUMMONS": {
-    "description": "Spirits Summoned From Environment",
-    "value": 0
+  {
+    "name": "ENVIRONMENT_SUMMONS",
+    "defaultvalue": 0,
+    "displayName": "Spirits Summoned From Environment"
   },
-  "FULL_AUTO_KILLS": {
-    "description": "Full Auto Kills",
-    "value": 0
+  {
+    "name": "FULL_AUTO_KILLS",
+    "defaultvalue": 0,
+    "displayName": "Full Auto Kills"
   },
-  "AUTOLOADER_ARM": {
-    "description": "Auto-Loader Cyber Arm",
-    "value": 0
+  {
+    "name": "AUTOLOADER_ARM",
+    "defaultvalue": 0,
+    "displayName": "Auto-Loader Cyber Arm"
   },
-  "CYBER_KILLS": {
-    "description": "Cyber Kills",
-    "value": 0
+  {
+    "name": "CYBER_KILLS",
+    "defaultvalue": 0,
+    "displayName": "Cyber Kills"
   },
-  "SHOCK_STUN": {
-    "description": "Shock Stun",
-    "value": 0
+  {
+    "name": "SHOCK_STUN",
+    "defaultvalue": 0,
+    "displayName": "Shock Stun"
   },
-  "SUBDUE": {
-    "description": "Duncan Subdue",
-    "value": 0
+  {
+    "name": "SUBDUE",
+    "defaultvalue": 0,
+    "displayName": "Duncan Subdue"
   },
-  "MARK_TARGET": {
-    "description": "Mark Targets",
-    "value": 0
+  {
+    "name": "MARK_TARGET",
+    "defaultvalue": 0,
+    "displayName": "Mark Targets"
   },
-  "DRONE_KILLS": {
-    "description": "Drone Kills",
-    "value": 0
+  {
+    "name": "DRONE_KILLS",
+    "defaultvalue": 0,
+    "displayName": "Drone Kills"
   },
-  "COUP_STUNNED": {
-    "description": "Coup De Grace Stunned Enemies",
-    "value": 0
+  {
+    "name": "COUP_STUNNED",
+    "defaultvalue": 0,
+    "displayName": "Coup De Grace Stunned Enemies"
   },
-  "DRUGS_USED": {
-    "description": "Drugs Used",
-    "value": 0
+  {
+    "name": "DRUGS_USED",
+    "defaultvalue": 0,
+    "displayName": "Drugs Used"
   },
-  "HIGHEST_HEAL_WOUND": {
-    "description": "Highest Heal Wound",
-    "value": 0
+  {
+    "name": "HIGHEST_HEAL_WOUND",
+    "defaultvalue": 0,
+    "displayName": "Highest Heal Wound"
   }
-}
+]

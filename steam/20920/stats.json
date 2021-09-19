@@ -1,6 +1,7 @@
-﻿{
-  "stat_enemies_killed": {
-    "description": "Enemies killed",
-    "value": 0
+[
+  {
+    "name": "stat_enemies_killed",
+    "defaultvalue": 0,
+    "displayName": "Enemies killed"
   }
-}
+]

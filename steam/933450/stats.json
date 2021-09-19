@@ -1,18 +1,22 @@
-﻿{
-  "Forest_Energy_Num": {
-    "description": "",
-    "value": 0
+[
+  {
+    "name": "Forest_Energy_Num",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Runic_Energy_Num": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Runic_Energy_Num",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Cave_Energy_Num": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Cave_Energy_Num",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Unlock_Story_Num": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Unlock_Story_Num",
+    "defaultvalue": 0,
+    "displayName": ""
   }
-}
+]

@@ -1,122 +1,152 @@
-﻿{
-  "STARTED_GAME_COUNTER": {
-    "description": "Launches",
-    "value": 0
+[
+  {
+    "name": "STARTED_GAME_COUNTER",
+    "defaultvalue": 0,
+    "displayName": "Launches"
   },
-  "GeneralStats_XP": {
-    "description": "XP",
-    "value": 0
+  {
+    "name": "GeneralStats_XP",
+    "defaultvalue": 0,
+    "displayName": "XP"
   },
-  "GeneralStats_Unlocks1": {
-    "description": "",
-    "value": 0
+  {
+    "name": "GeneralStats_Unlocks1",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "GeneralStats_Unlocks2": {
-    "description": "",
-    "value": 0
+  {
+    "name": "GeneralStats_Unlocks2",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "GeneralStats_Unlocks3": {
-    "description": "",
-    "value": 0
+  {
+    "name": "GeneralStats_Unlocks3",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "GeneralStats_Unlocks4": {
-    "description": "",
-    "value": 0
+  {
+    "name": "GeneralStats_Unlocks4",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "GeneralStats_Unlocks5": {
-    "description": "",
-    "value": 0
+  {
+    "name": "GeneralStats_Unlocks5",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "GeneralStats_Unlocks6": {
-    "description": "",
-    "value": 0
+  {
+    "name": "GeneralStats_Unlocks6",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "GeneralStats_Unlocks7": {
-    "description": "",
-    "value": 0
+  {
+    "name": "GeneralStats_Unlocks7",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "GeneralStats_Unlocks8": {
-    "description": "",
-    "value": 0
+  {
+    "name": "GeneralStats_Unlocks8",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "GeneralStats_HighestScore": {
-    "description": "",
-    "value": 0
+  {
+    "name": "GeneralStats_HighestScore",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "GeneralStats_MercilessVictory": {
-    "description": "Merciless Victory",
-    "value": 0
+  {
+    "name": "GeneralStats_MercilessVictory",
+    "defaultvalue": 0,
+    "displayName": "Merciless Victory"
   },
-  "GeneralStats_GetShriekedAt": {
-    "description": "Shrieked at",
-    "value": 0
+  {
+    "name": "GeneralStats_GetShriekedAt",
+    "defaultvalue": 0,
+    "displayName": "Shrieked at"
   },
-  "GeneralStats_PublicGamePlayed": {
-    "description": "Public game played",
-    "value": 0
+  {
+    "name": "GeneralStats_PublicGamePlayed",
+    "defaultvalue": 0,
+    "displayName": "Public game played"
   },
-  "GeneralStats_AllSpellsCast": {
-    "description": "Unique Spell Cast",
-    "value": 0
+  {
+    "name": "GeneralStats_AllSpellsCast",
+    "defaultvalue": 0,
+    "displayName": "Unique Spell Cast"
   },
-  "GeneralStats_FindStory": {
-    "description": "Story Found",
-    "value": 0
+  {
+    "name": "GeneralStats_FindStory",
+    "defaultvalue": 0,
+    "displayName": "Story Found"
   },
-  "HighestScore_HighestScore": {
-    "description": "",
-    "value": 0
+  {
+    "name": "HighestScore_HighestScore",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "GeneralStats_MatchesPlayed": {
-    "description": "",
-    "value": 0
+  {
+    "name": "GeneralStats_MatchesPlayed",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "GeneralStats_MatchesWon": {
-    "description": "",
-    "value": 0
+  {
+    "name": "GeneralStats_MatchesWon",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "GeneralStats_OrbsDelivered": {
-    "description": "",
-    "value": 0
+  {
+    "name": "GeneralStats_OrbsDelivered",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "GeneralStats_SpellsCast": {
-    "description": "",
-    "value": 0
+  {
+    "name": "GeneralStats_SpellsCast",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "GeneralStats_ShrieksSuccessful": {
-    "description": "",
-    "value": 0
+  {
+    "name": "GeneralStats_ShrieksSuccessful",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "GeneralStats_ShrieksMissed": {
-    "description": "",
-    "value": 0
+  {
+    "name": "GeneralStats_ShrieksMissed",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "GeneralStats_ShrieksReceived": {
-    "description": "",
-    "value": 0
+  {
+    "name": "GeneralStats_ShrieksReceived",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "GeneralStats_TimePlayed": {
-    "description": "",
-    "value": 0
+  {
+    "name": "GeneralStats_TimePlayed",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "GeneralStats_TimeRed": {
-    "description": "",
-    "value": 0
+  {
+    "name": "GeneralStats_TimeRed",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "GeneralStats_TimeBlue": {
-    "description": "",
-    "value": 0
+  {
+    "name": "GeneralStats_TimeBlue",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "GeneralStats_TimeBanished": {
-    "description": "",
-    "value": 0
+  {
+    "name": "GeneralStats_TimeBanished",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "GeneralStats_FireballHits": {
-    "description": "",
-    "value": 0
+  {
+    "name": "GeneralStats_FireballHits",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "GeneralStats_OwnTrapsTriggered": {
-    "description": "",
-    "value": 0
+  {
+    "name": "GeneralStats_OwnTrapsTriggered",
+    "defaultvalue": 0,
+    "displayName": ""
   }
-}
+]

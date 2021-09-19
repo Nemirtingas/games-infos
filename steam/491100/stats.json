@@ -1,18 +1,22 @@
-﻿{
-  "_randBtnPressCount": {
-    "description": "Random Button Press",
-    "value": 0
+[
+  {
+    "name": "_randBtnPressCount",
+    "defaultvalue": 0,
+    "displayName": "Random Button Press"
   },
-  "_longshotTotal": {
-    "description": "Total Longshot",
-    "value": 0
+  {
+    "name": "_longshotTotal",
+    "defaultvalue": 0,
+    "displayName": "Total Longshot"
   },
-  "_alienDestroyed": {
-    "description": "Total Alien Destroyed",
-    "value": 0
+  {
+    "name": "_alienDestroyed",
+    "defaultvalue": 0,
+    "displayName": "Total Alien Destroyed"
   },
-  "_totalBallPickedUp": {
-    "description": "Total Picked Up Balls",
-    "value": 0
+  {
+    "name": "_totalBallPickedUp",
+    "defaultvalue": 0,
+    "displayName": "Total Picked Up Balls"
   }
-}
+]

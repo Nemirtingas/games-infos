@@ -1,14 +1,17 @@
-﻿{
-  "NoteCollected": {
-    "description": "Adler Letters Found",
-    "value": 0
+[
+  {
+    "name": "NoteCollected",
+    "defaultvalue": 0,
+    "displayName": "Adler Letters Found"
   },
-  "SecretFound": {
-    "description": "Hidden Frequencies Found",
-    "value": 0
+  {
+    "name": "SecretFound",
+    "defaultvalue": 0,
+    "displayName": "Hidden Frequencies Found"
   },
-  "GameProgress": {
-    "description": "Game Progress",
-    "value": 0
+  {
+    "name": "GameProgress",
+    "defaultvalue": 0,
+    "displayName": "Game Progress"
   }
-}
+]

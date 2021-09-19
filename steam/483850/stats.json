@@ -1,14 +1,17 @@
-﻿{
-  "mp_rank": {
-    "description": "Rank",
-    "value": 1
+[
+  {
+    "name": "mp_rank",
+    "defaultvalue": 1,
+    "displayName": "Rank"
   },
-  "mp_exp": {
-    "description": "Experience",
-    "value": 0
+  {
+    "name": "mp_exp",
+    "defaultvalue": 0,
+    "displayName": "Experience"
   },
-  "VERSION": {
-    "description": "",
-    "value": 0
+  {
+    "name": "VERSION",
+    "defaultvalue": 0,
+    "displayName": ""
   }
-}
+]

@@ -1,42 +1,52 @@
-﻿{
-  "kill_apple": {
-    "description": "",
-    "value": 0
+[
+  {
+    "name": "kill_apple",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "kill_pear": {
-    "description": "",
-    "value": 0
+  {
+    "name": "kill_pear",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "kill_melon": {
-    "description": "",
-    "value": 0
+  {
+    "name": "kill_melon",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "loot_money": {
-    "description": "",
-    "value": 0
+  {
+    "name": "loot_money",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "steal_money": {
-    "description": "",
-    "value": 0
+  {
+    "name": "steal_money",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "open_random_chest": {
-    "description": "",
-    "value": 0
+  {
+    "name": "open_random_chest",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "dead_times": {
-    "description": "",
-    "value": 0
+  {
+    "name": "dead_times",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "rescue_times": {
-    "description": "",
-    "value": 0
+  {
+    "name": "rescue_times",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "unlock_enemy": {
-    "description": "",
-    "value": 0
+  {
+    "name": "unlock_enemy",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "unlock_weapon": {
-    "description": "",
-    "value": 0
+  {
+    "name": "unlock_weapon",
+    "defaultvalue": 0,
+    "displayName": ""
   }
-}
+]

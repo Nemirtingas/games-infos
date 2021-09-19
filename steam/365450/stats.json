@@ -1,6 +1,7 @@
-﻿{
-  "commands_run": {
-    "description": "Commands Run",
-    "value": 0
+[
+  {
+    "name": "commands_run",
+    "defaultvalue": 0,
+    "displayName": "Commands Run"
   }
-}
+]

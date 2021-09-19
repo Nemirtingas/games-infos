@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "name": "deaths",
     "defaultvalue": 0,
@@ -556,6 +556,16 @@
   },
   {
     "name": "InstrumentNotesPlayedBinds",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "grenades_thrown",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "gesture_wave_count",
     "defaultvalue": 0,
     "displayName": ""
   }

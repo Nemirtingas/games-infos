@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "name": "CRAZYSTEVE_MAX",
     "defaultvalue": 0,
@@ -321,5 +321,122 @@
     "hidden": 1,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/574720/25d511784df158239db246e9a22bc2d88f5d41b3.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/574720/79915b4be0ed88ff1be09c8ddd913f105eaf87ae.jpg"
+  },
+  {
+    "name": "EVIL_TIER1",
+    "defaultvalue": 0,
+    "displayName": "Apprentice on lockdown",
+    "hidden": 0,
+    "description": "Move up to the second tier of opponents.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/574720/2d114e9805777a43d06cd276313f5439772cded3.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/574720/79915b4be0ed88ff1be09c8ddd913f105eaf87ae.jpg"
+  },
+  {
+    "name": "EVIL_TIER2",
+    "defaultvalue": 0,
+    "displayName": "Corporate Menace",
+    "hidden": 0,
+    "description": "Move up to the third tier of opponents.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/574720/612cb757e5a3a75b5710d525b1bca2e86a159f32.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/574720/87a66dc7a05b9d09b4385a71411400ad47141d41.jpg"
+  },
+  {
+    "name": "EVIL_TIER3",
+    "defaultvalue": 0,
+    "displayName": "Going for the top!",
+    "hidden": 0,
+    "description": "Finally set up to face Bladh and conquer the corporate ladder.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/574720/a271950458a57274fc0865fbbf8d57863698c495.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/574720/79915b4be0ed88ff1be09c8ddd913f105eaf87ae.jpg"
+  },
+  {
+    "name": "EVIL_COMPLETEGAME",
+    "defaultvalue": 0,
+    "displayName": "The apprentice becomes the master!",
+    "hidden": 0,
+    "description": "Beat Bladh!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/574720/72cb85ca35fcb465f1cf2672ce85ab5e39f67afd.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/574720/87a66dc7a05b9d09b4385a71411400ad47141d41.jpg"
+  },
+  {
+    "name": "EVIL_ALLSPECIALSABOTAGE",
+    "defaultvalue": 0,
+    "displayName": "Private Investigator Associate",
+    "hidden": 0,
+    "description": "Complete every unique special sabotage",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/574720/777137a2ce7152a210c8591900461f0acb25ffec.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/574720/87a66dc7a05b9d09b4385a71411400ad47141d41.jpg"
+  },
+  {
+    "name": "EVIL_ALLTECHS",
+    "defaultvalue": 0,
+    "displayName": "Evil Genius",
+    "hidden": 0,
+    "description": "Research all of the evil techs",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/574720/61984fc6c356be1ec7d05ecdd7cb9b6dff0e35d7.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/574720/79915b4be0ed88ff1be09c8ddd913f105eaf87ae.jpg"
+  },
+  {
+    "name": "EVIL_OVERLORD",
+    "defaultvalue": 0,
+    "displayName": "Workplace Encouragement",
+    "hidden": 0,
+    "description": "Have a single Overlord shout at more than 20 workers",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/574720/26f597c665ad013242e5f01551bc1af208d3cf3d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/574720/87a66dc7a05b9d09b4385a71411400ad47141d41.jpg"
+  },
+  {
+    "name": "EVIL_OWNALLCOMPANIES",
+    "defaultvalue": 0,
+    "displayName": "Master of Puppets",
+    "hidden": 0,
+    "description": "Own all the competitors at the same time",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/574720/fc906b733c628d4b5c0725c4c8f296624aa90e29.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/574720/87a66dc7a05b9d09b4385a71411400ad47141d41.jpg"
+  },
+  {
+    "name": "EVIL_PACIFIST",
+    "defaultvalue": 0,
+    "displayName": "Pacifist",
+    "hidden": 0,
+    "description": "Complete the game without sabotaging anyone",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/574720/5f61ccf13ba53cff391717977bace187dd7bbdf7.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/574720/79915b4be0ed88ff1be09c8ddd913f105eaf87ae.jpg"
+  },
+  {
+    "name": "EVIL_PORTALS",
+    "defaultvalue": 0,
+    "displayName": "Portal 3",
+    "hidden": 0,
+    "description": "Own 3 portals",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/574720/9ddf28d96ee874aa508124209d6aef59ee0b0aef.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/574720/79915b4be0ed88ff1be09c8ddd913f105eaf87ae.jpg"
+  },
+  {
+    "name": "EVIL_REFORMCOMPANY",
+    "defaultvalue": 0,
+    "displayName": "Phoenix Rising",
+    "hidden": 0,
+    "description": "Reform a bankrupt company",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/574720/f5d915a3ea0026ddcc44b0dcf293656657c84c1d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/574720/79915b4be0ed88ff1be09c8ddd913f105eaf87ae.jpg"
+  },
+  {
+    "name": "EVIL_SABOTAGEDAMAGE",
+    "defaultvalue": 0,
+    "displayName": "Super Ninja Sabotage!",
+    "hidden": 0,
+    "description": "Use sneaky sabotage to inflict at least 50 damage",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/574720/d6881063641c3ec8ec9fca739c1f580ae7ad6947.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/574720/87a66dc7a05b9d09b4385a71411400ad47141d41.jpg"
+  },
+  {
+    "name": "EVIL_WORKERAPPERANCE",
+    "defaultvalue": 0,
+    "displayName": "Cosplay",
+    "hidden": 0,
+    "description": "Unlock evil worker appearance",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/574720/5e1fe75632d1ab253cede8def14e99e4dfb2309f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/574720/87a66dc7a05b9d09b4385a71411400ad47141d41.jpg"
   }
 ]

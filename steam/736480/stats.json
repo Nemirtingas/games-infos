@@ -1,22 +1,27 @@
-﻿{
-  "career_wins": {
-    "description": "CareerWins",
-    "value": 0
+[
+  {
+    "name": "career_wins",
+    "defaultvalue": 0,
+    "displayName": "CareerWins"
   },
-  "playing_times": {
-    "description": "PlayingTimes",
-    "value": 0
+  {
+    "name": "playing_times",
+    "defaultvalue": 0,
+    "displayName": "PlayingTimes"
   },
-  "career_league_wins": {
-    "description": "Career league wins",
-    "value": 0
+  {
+    "name": "career_league_wins",
+    "defaultvalue": 0,
+    "displayName": "Career league wins"
   },
-  "career_match": {
-    "description": "Career match",
-    "value": 0
+  {
+    "name": "career_match",
+    "defaultvalue": 0,
+    "displayName": "Career match"
   },
-  "teamID": {
-    "description": "",
-    "value": 0
+  {
+    "name": "teamID",
+    "defaultvalue": 0,
+    "displayName": ""
   }
-}
+]

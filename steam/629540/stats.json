@@ -1,62 +1,77 @@
-﻿{
-  "NumGames": {
-    "description": "Number Of Games",
-    "value": 0
+[
+  {
+    "name": "NumGames",
+    "defaultvalue": 0,
+    "displayName": "Number Of Games"
   },
-  "NumWins": {
-    "description": "Number Of Wins",
-    "value": 0
+  {
+    "name": "NumWins",
+    "defaultvalue": 0,
+    "displayName": "Number Of Wins"
   },
-  "NumGodLikes": {
-    "description": "Number Of Godlikes",
-    "value": 0
+  {
+    "name": "NumGodLikes",
+    "defaultvalue": 0,
+    "displayName": "Number Of Godlikes"
   },
-  "NumHeadShots": {
-    "description": "Number Of Headshots",
-    "value": 0
+  {
+    "name": "NumHeadShots",
+    "defaultvalue": 0,
+    "displayName": "Number Of Headshots"
   },
-  "NumFlagCaptures": {
-    "description": "Number Of Flags Captured",
-    "value": 0
+  {
+    "name": "NumFlagCaptures",
+    "defaultvalue": 0,
+    "displayName": "Number Of Flags Captured"
   },
-  "NumBaseKills": {
-    "description": "Number Of Enemy Base Units Destroyed",
-    "value": 0
+  {
+    "name": "NumBaseKills",
+    "defaultvalue": 0,
+    "displayName": "Number Of Enemy Base Units Destroyed"
   },
-  "NumKills": {
-    "description": "Number Of Kills",
-    "value": 0
+  {
+    "name": "NumKills",
+    "defaultvalue": 0,
+    "displayName": "Number Of Kills"
   },
-  "NumKillStreaks": {
-    "description": "Number Of Kill Streaks",
-    "value": 0
+  {
+    "name": "NumKillStreaks",
+    "defaultvalue": 0,
+    "displayName": "Number Of Kill Streaks"
   },
-  "NumRampages": {
-    "description": "Number Of Rampages",
-    "value": 0
+  {
+    "name": "NumRampages",
+    "defaultvalue": 0,
+    "displayName": "Number Of Rampages"
   },
-  "NumUnstoppables": {
-    "description": "Number Of Unstoppables",
-    "value": 0
+  {
+    "name": "NumUnstoppables",
+    "defaultvalue": 0,
+    "displayName": "Number Of Unstoppables"
   },
-  "NumFlagReturns": {
-    "description": "Number Of Flags Returned",
-    "value": 0
+  {
+    "name": "NumFlagReturns",
+    "defaultvalue": 0,
+    "displayName": "Number Of Flags Returned"
   },
-  "NumMindErases": {
-    "description": "Number Of Minds Erased",
-    "value": 0
+  {
+    "name": "NumMindErases",
+    "defaultvalue": 0,
+    "displayName": "Number Of Minds Erased"
   },
-  "NumDisintegrates": {
-    "description": "Number Of Disintegrations",
-    "value": 0
+  {
+    "name": "NumDisintegrates",
+    "defaultvalue": 0,
+    "displayName": "Number Of Disintegrations"
   },
-  "NumViolations": {
-    "description": "Number Of Violations",
-    "value": 0
+  {
+    "name": "NumViolations",
+    "defaultvalue": 0,
+    "displayName": "Number Of Violations"
   },
-  "NumMidAirShots": {
-    "description": "Number Of Mid-Air Shots",
-    "value": 0
+  {
+    "name": "NumMidAirShots",
+    "defaultvalue": 0,
+    "displayName": "Number Of Mid-Air Shots"
   }
-}
+]

@@ -1,54 +1,67 @@
-﻿{
-  "SAVESTAT_GAMES_CAMPAIGN": {
-    "description": "",
-    "value": 0
+[
+  {
+    "name": "SAVESTAT_GAMES_CAMPAIGN",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "SAVESTAT_GAMES_CAMPAIGN_NORMAL": {
-    "description": "",
-    "value": 0
+  {
+    "name": "SAVESTAT_GAMES_CAMPAIGN_NORMAL",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "SAVESTAT_GAMES_CAMPAIGN_REVERSE": {
-    "description": "",
-    "value": 0
+  {
+    "name": "SAVESTAT_GAMES_CAMPAIGN_REVERSE",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "SAVESTAT_GAMES_CHALLENGE": {
-    "description": "",
-    "value": 0
+  {
+    "name": "SAVESTAT_GAMES_CHALLENGE",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "SAVESTAT_GAMES_MULTIPLAYER": {
-    "description": "",
-    "value": 0
+  {
+    "name": "SAVESTAT_GAMES_MULTIPLAYER",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "SAVESTAT_GAMES_MULTIPLAYER_RANKED": {
-    "description": "",
-    "value": 0
+  {
+    "name": "SAVESTAT_GAMES_MULTIPLAYER_RANKED",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "SAVESTAT_GAMES_MULTIPLAYER_FRIENDLY": {
-    "description": "",
-    "value": 0
+  {
+    "name": "SAVESTAT_GAMES_MULTIPLAYER_FRIENDLY",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "SAVESTAT_WINS_CAMPAIGN": {
-    "description": "",
-    "value": 0
+  {
+    "name": "SAVESTAT_WINS_CAMPAIGN",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "SAVESTAT_WINS_CAMPAIGN_NORMAL": {
-    "description": "",
-    "value": 0
+  {
+    "name": "SAVESTAT_WINS_CAMPAIGN_NORMAL",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "SAVESTAT_WINS_CAMPAIGN_REVERSE": {
-    "description": "",
-    "value": 0
+  {
+    "name": "SAVESTAT_WINS_CAMPAIGN_REVERSE",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "SAVESTAT_WINS_MULTIPLAYER": {
-    "description": "",
-    "value": 0
+  {
+    "name": "SAVESTAT_WINS_MULTIPLAYER",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "SAVESTAT_WINS_MULTIPLAYER_RANKED": {
-    "description": "",
-    "value": 0
+  {
+    "name": "SAVESTAT_WINS_MULTIPLAYER_RANKED",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "SAVESTAT_CARDS_EARNED": {
-    "description": "",
-    "value": 0
+  {
+    "name": "SAVESTAT_CARDS_EARNED",
+    "defaultvalue": 0,
+    "displayName": ""
   }
-}
+]

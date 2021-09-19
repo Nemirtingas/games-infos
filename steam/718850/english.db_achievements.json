@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "name": "ACHIEVEMENT001",
     "defaultvalue": 0,
@@ -628,5 +628,95 @@
     "description": "Over the course of a single game, find at least 15 hidden Shakarn sleeper agents",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/718850/cc1b39ac2ea8fe66e8ceb5e55670b9c0fd509e47.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/718850/c8a3698979fa01ece7a2aadca6f98d456cce8a1d.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT071",
+    "defaultvalue": 0,
+    "displayName": "The Fifth Noble Truth",
+    "hidden": 0,
+    "description": "Complete the Oathbound campaign",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/718850/ea7938ec78125707ec1b0a8f52634fc7abbd5ec1.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/718850/cf5700c5ede68efb25e8549939778f9f0f8fdfa7.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT072",
+    "defaultvalue": 0,
+    "displayName": "Alchemist",
+    "hidden": 0,
+    "description": "Complete Vrascal's elixir in the first Oathbound mission without asking your scientists for help",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/718850/6ea2ec3c8c53f27ce6406bc6b25af08ced66a231.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/718850/80e69b2a84e8cd49bf3512a513b28a4b006aa65a.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT073",
+    "defaultvalue": 0,
+    "displayName": "Critical Failure",
+    "hidden": 0,
+    "description": "Make enemy units fumble 13 attacks in a single battle",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/718850/0e165db775ec81f96c6a3e928814fba5a71e57c6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/718850/e5113cc7d01c742ae5ebd89b81b31cc548e382ed.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT074",
+    "defaultvalue": 0,
+    "displayName": "Mr. Jones",
+    "hidden": 0,
+    "description": "Find and Collect 5 Relics belonging to NPC factions (i.e. any 5 of the 7)",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/718850/e42ade125f6b91d9b24b9ceb186983e46d94dcf4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/718850/b116edbaaef18f84e8b666dac28eb7a4aa24e129.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT075",
+    "defaultvalue": 0,
+    "displayName": "We built this city",
+    "hidden": 0,
+    "description": "Have 7 sectors in a single colony",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/718850/b7a8a2ec923e72e679642dd25ca50a20a01c031b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/718850/c7a6c6e5c822868ac5c8019be092329453016ad0.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT076",
+    "defaultvalue": 0,
+    "displayName": "Is this seat taken?",
+    "hidden": 0,
+    "description": "Assign a Lord or Lady to a Colony while having maxed Colony Lord Skills",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/718850/dc1fbfd19e0f3cfe3d7b56031f7736c7ca875d45.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/718850/19b9465d1f3fcb0ab970b32a44ae09bf7923c346.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT077",
+    "defaultvalue": 0,
+    "displayName": "Stacked Deck",
+    "hidden": 0,
+    "description": "Complete a planet with a 300% exp multiplier or higher",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/718850/0b00777990c21c7e51d6a7ba212aa9aae33aa3db.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/718850/cd3cfc991104c77f0a1aa01d441adc9183bc7f74.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT078",
+    "defaultvalue": 0,
+    "displayName": "Saint George",
+    "hidden": 0,
+    "description": "Use an Aspirant to kill a Savage Tyrannodon",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/718850/cbf7dab55e5db02aac6f3d07b105ae5ef9544ccd.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/718850/b680d805c4f463efd4be14bd7bd9110ee05e84bc.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT079",
+    "defaultvalue": 0,
+    "displayName": "Make your own luck",
+    "hidden": 0,
+    "description": "Score 7 successful critical hits in a single round of combat",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/718850/7a7c446e97666381e2ffd8bc23c178940462b917.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/718850/06513312468dd0634bea547023d47a74f11aba0b.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT080",
+    "defaultvalue": 0,
+    "displayName": "The True Emperor",
+    "hidden": 0,
+    "description": "Reach Empire Level 200",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/718850/cfabf5d9540e4b63cec6c027fbd1c49edc23a8d2.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/718850/770c1a0ce60aa3f82cc9dce27b5177c5e9eb3a8a.jpg"
   }
 ]

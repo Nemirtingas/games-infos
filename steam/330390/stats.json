@@ -1,26 +1,32 @@
-﻿{
-  "STAT_GOLD_COLLECTED": {
-    "description": "Gold Collected",
-    "value": 0
+[
+  {
+    "name": "STAT_GOLD_COLLECTED",
+    "defaultvalue": 0,
+    "displayName": "Gold Collected"
   },
-  "STAT_GOLD_SPENT": {
-    "description": "Gold Spent",
-    "value": 0
+  {
+    "name": "STAT_GOLD_SPENT",
+    "defaultvalue": 0,
+    "displayName": "Gold Spent"
   },
-  "STAT_EXP_GAINED": {
-    "description": "Experience Gained",
-    "value": 0
+  {
+    "name": "STAT_EXP_GAINED",
+    "defaultvalue": 0,
+    "displayName": "Experience Gained"
   },
-  "STAT_BATTLES_WON": {
-    "description": "Battles Won",
-    "value": 0
+  {
+    "name": "STAT_BATTLES_WON",
+    "defaultvalue": 0,
+    "displayName": "Battles Won"
   },
-  "STAT_MONSTERS_KILLED": {
-    "description": "Monsters Killed",
-    "value": 0
+  {
+    "name": "STAT_MONSTERS_KILLED",
+    "defaultvalue": 0,
+    "displayName": "Monsters Killed"
   },
-  "STAT_POTIONS_CONSUMED": {
-    "description": "Potions Consumed",
-    "value": 0
+  {
+    "name": "STAT_POTIONS_CONSUMED",
+    "defaultvalue": 0,
+    "displayName": "Potions Consumed"
   }
-}
+]

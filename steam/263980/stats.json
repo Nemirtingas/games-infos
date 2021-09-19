@@ -1,18 +1,22 @@
-﻿{
-  "ENEMIES_KILLED": {
-    "description": "Enemies Killed",
-    "value": 0
+[
+  {
+    "name": "ENEMIES_KILLED",
+    "defaultvalue": 0,
+    "displayName": "Enemies Killed"
   },
-  "SCREENS_TRAVELED": {
-    "description": "Screens Traveled",
-    "value": 0
+  {
+    "name": "SCREENS_TRAVELED",
+    "defaultvalue": 0,
+    "displayName": "Screens Traveled"
   },
-  "TELEPORT": {
-    "description": "Teleports",
-    "value": 0
+  {
+    "name": "TELEPORT",
+    "defaultvalue": 0,
+    "displayName": "Teleports"
   },
-  "ABANDONED_CORES": {
-    "description": "Abandoned Cores",
-    "value": 0
+  {
+    "name": "ABANDONED_CORES",
+    "defaultvalue": 0,
+    "displayName": "Abandoned Cores"
   }
-}
+]

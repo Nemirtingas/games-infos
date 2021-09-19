@@ -1,10 +1,12 @@
-﻿{
-  "wins": {
-    "description": "Times Ascended",
-    "value": 0
+[
+  {
+    "name": "wins",
+    "defaultvalue": 0,
+    "displayName": "Times Ascended"
   },
-  "best_time": {
-    "description": "Best Time",
-    "value": 0
+  {
+    "name": "best_time",
+    "defaultvalue": 0,
+    "displayName": "Best Time"
   }
-}
+]

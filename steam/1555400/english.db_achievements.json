@@ -20,7 +20,7 @@
   {
     "name": "ACK_WIN_FIRST_ONLINE_GAME",
     "defaultvalue": 0,
-    "displayName": "World Wide Gobang",
+    "displayName": "World Wide Gomoku",
     "hidden": 0,
     "description": "Win an online game",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1555400/467acc03240c7ca17e056c91d3820461c7d72677.jpg",
@@ -56,9 +56,9 @@
   {
     "name": "ACK_BEAT_GRANDMASTER",
     "defaultvalue": 0,
-    "displayName": "Gobang Champion",
+    "displayName": "Gomoku Champion",
     "hidden": 0,
-    "description": "Beat Grandmaster computer AI",
+    "description": "Beat Grandmaster or Top Player AI",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1555400/a9d60ab0c59d628f66de46b74a938f7db374d141.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1555400/2b0ff6073f6d73e4d15f4a1ac1e281e5d99b1d06.jpg"
   },

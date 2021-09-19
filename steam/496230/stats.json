@@ -1,10 +1,12 @@
-﻿{
-  "ST_GAMES_PLAYED": {
-    "description": "Games Played",
-    "value": 0
+[
+  {
+    "name": "ST_GAMES_PLAYED",
+    "defaultvalue": 0,
+    "displayName": "Games Played"
   },
-  "ST_ROCKET_COLLISIONS": {
-    "description": "Rockets Hit",
-    "value": 0
+  {
+    "name": "ST_ROCKET_COLLISIONS",
+    "defaultvalue": 0,
+    "displayName": "Rockets Hit"
   }
-}
+]

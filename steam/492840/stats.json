@@ -1,42 +1,52 @@
-﻿{
-  "game_opened": {
-    "description": "Game Opened",
-    "value": 0
+[
+  {
+    "name": "game_opened",
+    "defaultvalue": 0,
+    "displayName": "Game Opened"
   },
-  "games_won": {
-    "description": "Games Won",
-    "value": 0
+  {
+    "name": "games_won",
+    "defaultvalue": 0,
+    "displayName": "Games Won"
   },
-  "games_lost": {
-    "description": "Games Lost",
-    "value": 0
+  {
+    "name": "games_lost",
+    "defaultvalue": 0,
+    "displayName": "Games Lost"
   },
-  "confirmed_kills": {
-    "description": "Confirmed Kills",
-    "value": 0
+  {
+    "name": "confirmed_kills",
+    "defaultvalue": 0,
+    "displayName": "Confirmed Kills"
   },
-  "total_deaths": {
-    "description": "Total Deaths",
-    "value": 0
+  {
+    "name": "total_deaths",
+    "defaultvalue": 0,
+    "displayName": "Total Deaths"
   },
-  "accumulate_gold_ingame": {
-    "description": "accumulate gold ingame",
-    "value": 0
+  {
+    "name": "accumulate_gold_ingame",
+    "defaultvalue": 0,
+    "displayName": "accumulate gold ingame"
   },
-  "spend_gold_grenades": {
-    "description": "spend gold grenades",
-    "value": 0
+  {
+    "name": "spend_gold_grenades",
+    "defaultvalue": 0,
+    "displayName": "spend gold grenades"
   },
-  "spend_gold_stick_grenades": {
-    "description": "spend gold stick grenades",
-    "value": 0
+  {
+    "name": "spend_gold_stick_grenades",
+    "defaultvalue": 0,
+    "displayName": "spend gold stick grenades"
   },
-  "win_game": {
-    "description": "win games",
-    "value": 0
+  {
+    "name": "win_game",
+    "defaultvalue": 0,
+    "displayName": "win games"
   },
-  "penta_kills": {
-    "description": "penta kills",
-    "value": 0
+  {
+    "name": "penta_kills",
+    "defaultvalue": 0,
+    "displayName": "penta kills"
   }
-}
+]

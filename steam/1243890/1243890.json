@@ -1,8 +1,19 @@
 {
-  "Dlcs": {},
+  "Dlcs": {
+    "1529320": {
+      "Name": "Sword of the Necromancer Soundtrack",
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1529320/header.jpg?t=1618066048",
+      "Type": "music"
+    },
+    "1640870": {
+      "Name": "Extra Modes",
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1640870/header.jpg?t=1624545381",
+      "Type": "dlc"
+    }
+  },
   "Name": "Sword of the Necromancer",
   "AppId": "1243890",
-  "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/1243890/header.jpg?t=1599061286",
+  "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1243890/header.jpg?t=1623261682",
   "Languages": [
     "english",
     "spanish",
@@ -14,6 +25,6 @@
   "Platforms": {
     "windows": true,
     "mac": false,
-    "linux": false
+    "linux": true
   }
 }

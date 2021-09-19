@@ -8,7 +8,7 @@
   },
   "Name": "Superliminal",
   "AppId": "1049410",
-  "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/1049410/header.jpg?t=1601351977",
+  "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1049410/header.jpg?t=1624645687",
   "Languages": [
     "english",
     "french",
@@ -21,14 +21,14 @@
     "tchinese",
     "polish",
     "portuguese",
-    "latam",
     "turkish",
     "ukrainian",
-    "spanish"
+    "spanish",
+    "arabic"
   ],
   "Platforms": {
     "windows": true,
-    "mac": false,
-    "linux": false
+    "mac": true,
+    "linux": true
   }
 }

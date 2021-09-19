@@ -1,30 +1,37 @@
-﻿{
-  "player_record_at_level_normal_0": {
-    "description": "Player record at 1 level",
-    "value": 0
+[
+  {
+    "name": "player_record_at_level_normal_0",
+    "defaultvalue": 0,
+    "displayName": "Player record at 1 level"
   },
-  "player_record_at_level_normal_1": {
-    "description": "Player record at 2 level",
-    "value": 0
+  {
+    "name": "player_record_at_level_normal_1",
+    "defaultvalue": 0,
+    "displayName": "Player record at 2 level"
   },
-  "player_record_at_level_normal_2": {
-    "description": "Player record at 3 level",
-    "value": 0
+  {
+    "name": "player_record_at_level_normal_2",
+    "defaultvalue": 0,
+    "displayName": "Player record at 3 level"
   },
-  "player_record_at_level_normal_3": {
-    "description": "",
-    "value": 0
+  {
+    "name": "player_record_at_level_normal_3",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "player_record_at_level_normal_4": {
-    "description": "",
-    "value": 0
+  {
+    "name": "player_record_at_level_normal_4",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "countRightAnswers": {
-    "description": "",
-    "value": 0
+  {
+    "name": "countRightAnswers",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "stat_9": {
-    "description": "",
-    "value": 0
+  {
+    "name": "stat_9",
+    "defaultvalue": 0,
+    "displayName": ""
   }
-}
+]

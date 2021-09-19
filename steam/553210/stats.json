@@ -1,74 +1,92 @@
-﻿{
-  "pvp.wins.n": {
-    "description": "Defeat opponents in the PvP mode",
-    "value": 0
+[
+  {
+    "name": "pvp.wins.n",
+    "defaultvalue": 0,
+    "displayName": "Defeat opponents in the PvP mode"
   },
-  "pve.kill.barrel.30": {
-    "description": "Destroy barrels",
-    "value": 0
+  {
+    "name": "pve.kill.barrel.30",
+    "defaultvalue": 0,
+    "displayName": "Destroy barrels"
   },
-  "kill.by.plasma.cannon.n": {
-    "description": "Destroy enemies with a Plasma Cannon",
-    "value": 0
+  {
+    "name": "kill.by.plasma.cannon.n",
+    "defaultvalue": 0,
+    "displayName": "Destroy enemies with a Plasma Cannon"
   },
-  "kill.by.thunder.hammer.n": {
-    "description": "Destroy enemies with a Thunder Hammer",
-    "value": 0
+  {
+    "name": "kill.by.thunder.hammer.n",
+    "defaultvalue": 0,
+    "displayName": "Destroy enemies with a Thunder Hammer"
   },
-  "kill.by.sniper.rifle.n": {
-    "description": "Destroy enemies with a Sniper Rifle",
-    "value": 0
+  {
+    "name": "kill.by.sniper.rifle.n",
+    "defaultvalue": 0,
+    "displayName": "Destroy enemies with a Sniper Rifle"
   },
-  "craft.card.legendary.n": {
-    "description": "Forge legendary card",
-    "value": 0
+  {
+    "name": "craft.card.legendary.n",
+    "defaultvalue": 0,
+    "displayName": "Forge legendary card"
   },
-  "pve.kill.cultist.n": {
-    "description": "Destroy Chaos Cultists",
-    "value": 0
+  {
+    "name": "pve.kill.cultist.n",
+    "defaultvalue": 0,
+    "displayName": "Destroy Chaos Cultists"
   },
-  "pve.kill.chaus.marines.n": {
-    "description": "Destroy Chaos Marines",
-    "value": 0
+  {
+    "name": "pve.kill.chaus.marines.n",
+    "defaultvalue": 0,
+    "displayName": "Destroy Chaos Marines"
   },
-  "pve.kill.bloodletters.n": {
-    "description": "Destroy Bloodletters of Khorne",
-    "value": 0
+  {
+    "name": "pve.kill.bloodletters.n",
+    "defaultvalue": 0,
+    "displayName": "Destroy Bloodletters of Khorne"
   },
-  "skull.arena.kill.any.units.n": {
-    "description": "Skulls for the Skull Throne",
-    "value": 0
+  {
+    "name": "skull.arena.kill.any.units.n",
+    "defaultvalue": 0,
+    "displayName": "Skulls for the Skull Throne"
   },
-  "pve.kill.necron.lychguard.n": {
-    "description": "Defeat Necron Lychguards",
-    "value": 0
+  {
+    "name": "pve.kill.necron.lychguard.n",
+    "defaultvalue": 0,
+    "displayName": "Defeat Necron Lychguards"
   },
-  "pve.kill.necron.destroyer.n": {
-    "description": "Defeat Necron Destroyer",
-    "value": 0
+  {
+    "name": "pve.kill.necron.destroyer.n",
+    "defaultvalue": 0,
+    "displayName": "Defeat Necron Destroyer"
   },
-  "kill.by.gravgun.n": {
-    "description": "Destroy enemies with a Grav-gun",
-    "value": 0
+  {
+    "name": "kill.by.gravgun.n",
+    "defaultvalue": 0,
+    "displayName": "Destroy enemies with a Grav-gun"
   },
-  "kill.by.power.maul.n": {
-    "description": "Destroy enemies with a Power Maul",
-    "value": 0
+  {
+    "name": "kill.by.power.maul.n",
+    "defaultvalue": 0,
+    "displayName": "Destroy enemies with a Power Maul"
   },
-  "pve.kill.necron.warrior.n": {
-    "description": "Destroy Necron Warriors",
-    "value": 0
+  {
+    "name": "pve.kill.necron.warrior.n",
+    "defaultvalue": 0,
+    "displayName": "Destroy Necron Warriors"
   },
-  "pve.kill.necron.deathmark.n": {
-    "description": "Destroy Necron Deathmarks",
-    "value": 0
+  {
+    "name": "pve.kill.necron.deathmark.n",
+    "defaultvalue": 0,
+    "displayName": "Destroy Necron Deathmarks"
   },
-  "pve.kill.canoptek.scarab.n": {
-    "description": "Destroy Canoptek Scarabs",
-    "value": 0
+  {
+    "name": "pve.kill.canoptek.scarab.n",
+    "defaultvalue": 0,
+    "displayName": "Destroy Canoptek Scarabs"
   },
-  "wrathdamned.arena.kill.any.units.n": {
-    "description": "Destroy enemies in Wrath of the Dawn",
-    "value": 0
+  {
+    "name": "wrathdamned.arena.kill.any.units.n",
+    "defaultvalue": 0,
+    "displayName": "Destroy enemies in Wrath of the Dawn"
   }
-}
+]

@@ -1,86 +1,107 @@
-﻿{
-  "TotalNumberOfRoomsRushed": {
-    "description": "Total Rooms Rushed",
-    "value": 0
+[
+  {
+    "name": "TotalNumberOfRoomsRushed",
+    "defaultvalue": 0,
+    "displayName": "Total Rooms Rushed"
   },
-  "TotalRoomsBuilt": {
-    "description": "Total Rooms Built",
-    "value": 0
+  {
+    "name": "TotalRoomsBuilt",
+    "defaultvalue": 0,
+    "displayName": "Total Rooms Built"
   },
-  "TotalCapsCollected": {
-    "description": "Total Number of Caps Collected",
-    "value": 0
+  {
+    "name": "TotalCapsCollected",
+    "defaultvalue": 0,
+    "displayName": "Total Number of Caps Collected"
   },
-  "TotalUniqueRoomsBuilt": {
-    "description": "Total Unique Rooms Built",
-    "value": 0
+  {
+    "name": "TotalUniqueRoomsBuilt",
+    "defaultvalue": 0,
+    "displayName": "Total Unique Rooms Built"
   },
-  "TotalLegendaryWeaponsCollected": {
-    "description": "Total Legendary Weapons Collected",
-    "value": 0
+  {
+    "name": "TotalLegendaryWeaponsCollected",
+    "defaultvalue": 0,
+    "displayName": "Total Legendary Weapons Collected"
   },
-  "TotalLegendaryOutfitsCollected": {
-    "description": "Total Legendary Outfits Collected",
-    "value": 0
+  {
+    "name": "TotalLegendaryOutfitsCollected",
+    "defaultvalue": 0,
+    "displayName": "Total Legendary Outfits Collected"
   },
-  "TotalLegendaryDwellersCollected": {
-    "description": "Total Legendary Dwellers Collected",
-    "value": 0
+  {
+    "name": "TotalLegendaryDwellersCollected",
+    "defaultvalue": 0,
+    "displayName": "Total Legendary Dwellers Collected"
   },
-  "TotalRaiderAttacksStopped": {
-    "description": "Total Raider Attacks Stopped",
-    "value": 0
+  {
+    "name": "TotalRaiderAttacksStopped",
+    "defaultvalue": 0,
+    "displayName": "Total Raider Attacks Stopped"
   },
-  "TotalObjectivesCompleted": {
-    "description": "Total Objectives Completed",
-    "value": 0
+  {
+    "name": "TotalObjectivesCompleted",
+    "defaultvalue": 0,
+    "displayName": "Total Objectives Completed"
   },
-  "TotalBabiesBorn": {
-    "description": "Total Babies Born",
-    "value": 0
+  {
+    "name": "TotalBabiesBorn",
+    "defaultvalue": 0,
+    "displayName": "Total Babies Born"
   },
-  "TotalLevel3Rooms": {
-    "description": "Total Level 3 Rooms",
-    "value": 0
+  {
+    "name": "TotalLevel3Rooms",
+    "defaultvalue": 0,
+    "displayName": "Total Level 3 Rooms"
   },
-  "TotalDialogueChoicesMade": {
-    "description": "Total Dialog Choices Made",
-    "value": 0
+  {
+    "name": "TotalDialogueChoicesMade",
+    "defaultvalue": 0,
+    "displayName": "Total Dialog Choices Made"
   },
-  "TotalBossesKilled": {
-    "description": "Total Bosses Killed",
-    "value": 0
+  {
+    "name": "TotalBossesKilled",
+    "defaultvalue": 0,
+    "displayName": "Total Bosses Killed"
   },
-  "TotalQuestsCompleted": {
-    "description": "Total Quests Completed",
-    "value": 0
+  {
+    "name": "TotalQuestsCompleted",
+    "defaultvalue": 0,
+    "displayName": "Total Quests Completed"
   },
-  "TotalThemesCollected": {
-    "description": "Total Themes Collected",
-    "value": 0
+  {
+    "name": "TotalThemesCollected",
+    "defaultvalue": 0,
+    "displayName": "Total Themes Collected"
   },
-  "TotalEnemiesKilledOnQuest": {
-    "description": "Total Enemies Killed On Quests",
-    "value": 0
+  {
+    "name": "TotalEnemiesKilledOnQuest",
+    "defaultvalue": 0,
+    "displayName": "Total Enemies Killed On Quests"
   },
-  "TotalItemsScrapped": {
-    "description": "Total Items Scrapped",
-    "value": 0
+  {
+    "name": "TotalItemsScrapped",
+    "defaultvalue": 0,
+    "displayName": "Total Items Scrapped"
   },
-  "TotalWeaponsCrafted": {
-    "description": "Total Weapons Crafted",
-    "value": 0
+  {
+    "name": "TotalWeaponsCrafted",
+    "defaultvalue": 0,
+    "displayName": "Total Weapons Crafted"
   },
-  "TotalOutfitsCrafted": {
-    "description": "Total Outfits Crafted",
-    "value": 0
+  {
+    "name": "TotalOutfitsCrafted",
+    "defaultvalue": 0,
+    "displayName": "Total Outfits Crafted"
   },
-  "TotalBarbershopCustomizations": {
-    "description": "Total Barbershop Customizations",
-    "value": 0
+  {
+    "name": "TotalBarbershopCustomizations",
+    "defaultvalue": 0,
+    "displayName": "Total Barbershop Customizations"
   },
-  "TotalThemesCrafted": {
-    "description": "Total Themes Crafted",
-    "value": 0
+  {
+    "name": "TotalThemesCrafted",
+    "defaultvalue": 0,
+    "displayName": "Total Themes Crafted"
   }
-}
+]

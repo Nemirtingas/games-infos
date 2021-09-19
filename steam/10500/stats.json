@@ -1,198 +1,247 @@
-﻿{
-  "stat1": {
-    "description": "Battles Finished (MP ranked)",
-    "value": 0
+[
+  {
+    "name": "stat1",
+    "defaultvalue": 0,
+    "displayName": "Battles Finished (MP ranked)"
   },
-  "stat2": {
-    "description": "Battles Won (MP ranked)",
-    "value": 0
+  {
+    "name": "stat2",
+    "defaultvalue": 0,
+    "displayName": "Battles Won (MP ranked)"
   },
-  "stat3": {
-    "description": "Battles Lost (MP ranked)",
-    "value": 0
+  {
+    "name": "stat3",
+    "defaultvalue": 0,
+    "displayName": "Battles Lost (MP ranked)"
   },
-  "stat0": {
-    "description": "Battles Started (MP ranked)",
-    "value": 0
+  {
+    "name": "stat0",
+    "defaultvalue": 0,
+    "displayName": "Battles Started (MP ranked)"
   },
-  "stat4": {
-    "description": "Command Stars",
-    "value": 0
+  {
+    "name": "stat4",
+    "defaultvalue": 0,
+    "displayName": "Command Stars"
   },
-  "stat5": {
-    "description": "Avatar Portrait",
-    "value": 0
+  {
+    "name": "stat5",
+    "defaultvalue": 0,
+    "displayName": "Avatar Portrait"
   },
-  "stat7": {
-    "description": "Skill Private",
-    "value": 32767
+  {
+    "name": "stat7",
+    "defaultvalue": 32767,
+    "displayName": "Skill Private"
   },
-  "stat6": {
-    "description": "Skill",
-    "value": 0
+  {
+    "name": "stat6",
+    "defaultvalue": 0,
+    "displayName": "Skill"
   },
-  "stat8": {
-    "description": "in battle",
-    "value": 0
+  {
+    "name": "stat8",
+    "defaultvalue": 0,
+    "displayName": "in battle"
   },
-  "stat9": {
-    "description": "Men killed (achievement accu)",
-    "value": 0
+  {
+    "name": "stat9",
+    "defaultvalue": 0,
+    "displayName": "Men killed (achievement accu)"
   },
-  "stat10": {
-    "description": "disembarks (achievement accu)",
-    "value": 0
+  {
+    "name": "stat10",
+    "defaultvalue": 0,
+    "displayName": "disembarks (achievement accu)"
   },
-  "stat11": {
-    "description": "MP Battles won (all types)",
-    "value": 0
+  {
+    "name": "stat11",
+    "defaultvalue": 0,
+    "displayName": "MP Battles won (all types)"
   },
-  "stat12": {
-    "description": "MP Battles Won (classic)",
-    "value": 0
+  {
+    "name": "stat12",
+    "defaultvalue": 0,
+    "displayName": "MP Battles Won (classic)"
   },
-  "stat13": {
-    "description": "MP Battles won (naval)",
-    "value": 0
+  {
+    "name": "stat13",
+    "defaultvalue": 0,
+    "displayName": "MP Battles won (naval)"
   },
-  "stat14": {
-    "description": "MP Battles won (siege att)",
-    "value": 0
+  {
+    "name": "stat14",
+    "defaultvalue": 0,
+    "displayName": "MP Battles won (siege att)"
   },
-  "stat15": {
-    "description": "MP Battles won (siege def)",
-    "value": 0
+  {
+    "name": "stat15",
+    "defaultvalue": 0,
+    "displayName": "MP Battles won (siege def)"
   },
-  "stat16": {
-    "description": "regions captured",
-    "value": 0
+  {
+    "name": "stat16",
+    "defaultvalue": 0,
+    "displayName": "regions captured"
   },
-  "stat17": {
-    "description": "ships captured",
-    "value": 0
+  {
+    "name": "stat17",
+    "defaultvalue": 0,
+    "displayName": "ships captured"
   },
-  "stat18": {
-    "description": "num treasons",
-    "value": 0
+  {
+    "name": "stat18",
+    "defaultvalue": 0,
+    "displayName": "num treasons"
   },
-  "stat19": {
-    "description": "num assassinations",
-    "value": 0
+  {
+    "name": "stat19",
+    "defaultvalue": 0,
+    "displayName": "num assassinations"
   },
-  "stat20": {
-    "description": "num tech thefts",
-    "value": 0
+  {
+    "name": "stat20",
+    "defaultvalue": 0,
+    "displayName": "num tech thefts"
   },
-  "stat21": {
-    "description": "num duels won",
-    "value": 0
+  {
+    "name": "stat21",
+    "defaultvalue": 0,
+    "displayName": "num duels won"
   },
-  "stat22": {
-    "description": "num missions success",
-    "value": 0
+  {
+    "name": "stat22",
+    "defaultvalue": 0,
+    "displayName": "num missions success"
   },
-  "stat23": {
-    "description": "MP Battles won (quick-battle)",
-    "value": 0
+  {
+    "name": "stat23",
+    "defaultvalue": 0,
+    "displayName": "MP Battles won (quick-battle)"
   },
-  "stat24": {
-    "description": "num consecutive threats",
-    "value": 0
+  {
+    "name": "stat24",
+    "defaultvalue": 0,
+    "displayName": "num consecutive threats"
   },
-  "stat25": {
-    "description": "num battles played (all types)",
-    "value": 0
+  {
+    "name": "stat25",
+    "defaultvalue": 0,
+    "displayName": "num battles played (all types)"
   },
-  "stat26": {
-    "description": "num battles played (quick)",
-    "value": 0
+  {
+    "name": "stat26",
+    "defaultvalue": 0,
+    "displayName": "num battles played (quick)"
   },
-  "stat27": {
-    "description": "EMPIRE_CARD_STAT_NUM_MP_BATTLES_PLAYED_NAVAL",
-    "value": 0
+  {
+    "name": "stat27",
+    "defaultvalue": 0,
+    "displayName": "EMPIRE_CARD_STAT_NUM_MP_BATTLES_PLAYED_NAVAL"
   },
-  "stat28": {
-    "description": "EMPIRE_CARD_STAT_NUM_MP_BATTLES_PLAYED_LAND",
-    "value": 0
+  {
+    "name": "stat28",
+    "defaultvalue": 0,
+    "displayName": "EMPIRE_CARD_STAT_NUM_MP_BATTLES_PLAYED_LAND"
   },
-  "stat29": {
-    "description": "EMPIRE_CARD_STAT_NUM_MP_BATTLES_WON_LAND",
-    "value": 0
+  {
+    "name": "stat29",
+    "defaultvalue": 0,
+    "displayName": "EMPIRE_CARD_STAT_NUM_MP_BATTLES_WON_LAND"
   },
-  "stat30": {
-    "description": "EMPIRE_CARD_STAT_NUM_RANKED_BATTLES_LAND_WON",
-    "value": 0
+  {
+    "name": "stat30",
+    "defaultvalue": 0,
+    "displayName": "EMPIRE_CARD_STAT_NUM_RANKED_BATTLES_LAND_WON"
   },
-  "stat31": {
-    "description": "EMPIRE_CARD_STAT_NUM_RANKED_BATTLES_LAND_LOST",
-    "value": 0
+  {
+    "name": "stat31",
+    "defaultvalue": 0,
+    "displayName": "EMPIRE_CARD_STAT_NUM_RANKED_BATTLES_LAND_LOST"
   },
-  "stat32": {
-    "description": "EMPIRE_CARD_STAT_NUM_RANKED_BATTLES_NAVAL_WON",
-    "value": 0
+  {
+    "name": "stat32",
+    "defaultvalue": 0,
+    "displayName": "EMPIRE_CARD_STAT_NUM_RANKED_BATTLES_NAVAL_WON"
   },
-  "stat33": {
-    "description": "EMPIRE_CARD_STAT_NUM_RANKED_BATTLES_NAVAL_LOST",
-    "value": 0
+  {
+    "name": "stat33",
+    "defaultvalue": 0,
+    "displayName": "EMPIRE_CARD_STAT_NUM_RANKED_BATTLES_NAVAL_LOST"
   },
-  "stat34": {
-    "description": "EMPIRE_CARD_STAT_NUM_CAMPAIGN_BATTLES_LAND_WON",
-    "value": 0
+  {
+    "name": "stat34",
+    "defaultvalue": 0,
+    "displayName": "EMPIRE_CARD_STAT_NUM_CAMPAIGN_BATTLES_LAND_WON"
   },
-  "stat35": {
-    "description": "EMPIRE_CARD_STAT_NUM_CAMPAIGN_BATTLES_LAND_LOST",
-    "value": 0
+  {
+    "name": "stat35",
+    "defaultvalue": 0,
+    "displayName": "EMPIRE_CARD_STAT_NUM_CAMPAIGN_BATTLES_LAND_LOST"
   },
-  "stat36": {
-    "description": "EMPIRE_CARD_STAT_NUM_CAMPAIGN_BATTLES_NAVAL_WON",
-    "value": 0
+  {
+    "name": "stat36",
+    "defaultvalue": 0,
+    "displayName": "EMPIRE_CARD_STAT_NUM_CAMPAIGN_BATTLES_NAVAL_WON"
   },
-  "stat37": {
-    "description": "EMPIRE_CARD_STAT_NUM_CAMPAIGN_BATTLES_NAVAL_LOST",
-    "value": 0
+  {
+    "name": "stat37",
+    "defaultvalue": 0,
+    "displayName": "EMPIRE_CARD_STAT_NUM_CAMPAIGN_BATTLES_NAVAL_LOST"
   },
-  "stat38": {
-    "description": "EMPIRE_CARD_STAT_NUM_CAMPAIGN_BATTLES_FINISHED",
-    "value": 0
+  {
+    "name": "stat38",
+    "defaultvalue": 0,
+    "displayName": "EMPIRE_CARD_STAT_NUM_CAMPAIGN_BATTLES_FINISHED"
   },
-  "stat39": {
-    "description": "EMPIRE_CARD_STAT_NUM_CAMPAIGN_BATTLES_ALL",
-    "value": 0
+  {
+    "name": "stat39",
+    "defaultvalue": 0,
+    "displayName": "EMPIRE_CARD_STAT_NUM_CAMPAIGN_BATTLES_ALL"
   },
-  "stat40": {
-    "description": "EMPIRE_CARD_STAT_NUM_MEN_LOST",
-    "value": 0
+  {
+    "name": "stat40",
+    "defaultvalue": 0,
+    "displayName": "EMPIRE_CARD_STAT_NUM_MEN_LOST"
   },
-  "stat41": {
-    "description": "EMPIRE_CARD_STAT_NUM_GENERALS_KILLED",
-    "value": 0
+  {
+    "name": "stat41",
+    "defaultvalue": 0,
+    "displayName": "EMPIRE_CARD_STAT_NUM_GENERALS_KILLED"
   },
-  "stat42": {
-    "description": "EMPIRE_CARD_STAT_NUM_GENERALS_LOST",
-    "value": 0
+  {
+    "name": "stat42",
+    "defaultvalue": 0,
+    "displayName": "EMPIRE_CARD_STAT_NUM_GENERALS_LOST"
   },
-  "stat43": {
-    "description": "EMPIRE_CARD_STAT_NUM_SHIPS_SUNK",
-    "value": 0
+  {
+    "name": "stat43",
+    "defaultvalue": 0,
+    "displayName": "EMPIRE_CARD_STAT_NUM_SHIPS_SUNK"
   },
-  "stat44": {
-    "description": "EMPIRE_CARD_STAT_NUM_SHIPS_LOST",
-    "value": 0
+  {
+    "name": "stat44",
+    "defaultvalue": 0,
+    "displayName": "EMPIRE_CARD_STAT_NUM_SHIPS_LOST"
   },
-  "stat45": {
-    "description": "EMPIRE_CARD_STAT_NUM_CAMPAIGNS_WON",
-    "value": 0
+  {
+    "name": "stat45",
+    "defaultvalue": 0,
+    "displayName": "EMPIRE_CARD_STAT_NUM_CAMPAIGNS_WON"
   },
-  "stat46": {
-    "description": "EMPIRE_CARD_STAT_NUM_NATIONS_DESTROYED",
-    "value": 0
+  {
+    "name": "stat46",
+    "defaultvalue": 0,
+    "displayName": "EMPIRE_CARD_STAT_NUM_NATIONS_DESTROYED"
   },
-  "stat47": {
-    "description": "EMPIRE_CARD_STAT_NUM_ALLIANCES_MADE",
-    "value": 0
+  {
+    "name": "stat47",
+    "defaultvalue": 0,
+    "displayName": "EMPIRE_CARD_STAT_NUM_ALLIANCES_MADE"
   },
-  "stat48": {
-    "description": "EMPIRE_CARD_STAT_NUM_UNITS_RECRUITED",
-    "value": 0
+  {
+    "name": "stat48",
+    "defaultvalue": 0,
+    "displayName": "EMPIRE_CARD_STAT_NUM_UNITS_RECRUITED"
   }
-}
+]

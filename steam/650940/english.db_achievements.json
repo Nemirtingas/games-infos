@@ -4,7 +4,7 @@
     "defaultvalue": 0,
     "displayName": "Traveler",
     "hidden": 0,
-    "description": "Reach level 5 with any character.",
+    "description": "Reach level 3 with any character.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/650940/e90a4831687a0529a949adf4efde17e141a218dd.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/650940/0fb7bb0e6d451b59199ad7692cc56b7a875b1464.jpg"
   },
@@ -13,7 +13,7 @@
     "defaultvalue": 0,
     "displayName": "Adventurer",
     "hidden": 0,
-    "description": "Reach level 10 with any character.",
+    "description": "Reach level 5 with any character.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/650940/ea43f23c433ca68a0eec8f185448d9c37a970322.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/650940/f19f1fd4b0747dc343bea46bf7bf5386f1416aa3.jpg"
   },
@@ -22,7 +22,7 @@
     "defaultvalue": 0,
     "displayName": "Veteran",
     "hidden": 0,
-    "description": "Reach level 20 with any character.",
+    "description": "Reach level 10 with any character.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/650940/00693873f592808edfffd1d4f8f69abe487b694d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/650940/63396882481b6872a44b03fc13ee6df11d66b0de.jpg"
   },
@@ -31,7 +31,7 @@
     "defaultvalue": 0,
     "displayName": "Hero",
     "hidden": 0,
-    "description": "Reach level 40 with any character.",
+    "description": "Reach level 15 with any character.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/650940/a2bff409f1e74a74f841a07eeada0709ecd705cd.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/650940/f1f7bf992ab8d253af81a7fd5fc3fc03c9288eaf.jpg"
   },
@@ -40,7 +40,7 @@
     "defaultvalue": 0,
     "displayName": "Demigod",
     "hidden": 0,
-    "description": "Reach level 50 with any character.",
+    "description": "Reach level 20 with any character.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/650940/3bd9aa6250e65ce3cce15f224c4c38065c2422a4.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/650940/fba18cdcaa470ab0f5784eb94531936b816cd73f.jpg"
   },
@@ -245,7 +245,7 @@
     "defaultvalue": 0,
     "displayName": "Bear Lover",
     "hidden": 0,
-    "description": "Reach level 25 without killing any bear",
+    "description": "Reach level 12 without killing any bear",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/650940/d78aa32776d9a945ba42d372264cc5261170f2b4.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/650940/fec1906070571b6c54a485eb4128a3816937e749.jpg"
   },
@@ -292,7 +292,7 @@
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/650940/e005b5014becb22f26fd230fd1d93d1c3d365b75.jpg"
   },
   {
-    "name": "THE_CHALLENGE_DUNGEON_5",
+    "name": "CHALLENGE_DUNGEON_LVL_5",
     "defaultvalue": 0,
     "displayName": "So far so good",
     "hidden": 0,
@@ -301,7 +301,7 @@
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/650940/9919e6c129f5ec646698f7d381475ddb40d32e26.jpg"
   },
   {
-    "name": "THE_CHALLENGE_DUNGEON_10",
+    "name": "CHALLENGE_DUNGEON_LVL_10",
     "defaultvalue": 0,
     "displayName": "Lets do this!",
     "hidden": 0,
@@ -310,7 +310,7 @@
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/650940/0340a0ca9e4860ba54b3e20cdf229c9b5742c407.jpg"
   },
   {
-    "name": "THE_CHALLENGE_DUNGEON_15",
+    "name": "CHALLENGE_DUNGEON_LVL_15",
     "defaultvalue": 0,
     "displayName": "Bring it on!",
     "hidden": 0,
@@ -319,12 +319,63 @@
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/650940/0c57178c3633659bd4d5eaeb4d64659db1efdd11.jpg"
   },
   {
-    "name": "JUST_IN_TIME",
+    "name": "CHALLENGE_DUNGEON_JUST_IN_TIME",
     "defaultvalue": 0,
     "displayName": "Just in time!",
-    "hidden": 0,
-    "description": "While playing on normal or hard difficulty in the challenge dungeon struggle with the shadow before getting into the next level",
+    "hidden": 1,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/650940/20fc24c64d561aac2870b597a2995384b73101f2.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/650940/478ffe5ec14aebecdc02ebec674a1b307f35b777.jpg"
+  },
+  {
+    "name": "AN_ARMY_OF_MY_OWN",
+    "defaultvalue": 0,
+    "displayName": "An army of my own!",
+    "hidden": 0,
+    "description": "Dark Heroes: Have at least 9 raised minions playing as a necromancer",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/650940/ed6b69219682f589afdd4b1210f1ef13cb37352b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/650940/0da1592483e0c459c9540512f5f1c6ffe6a1da77.jpg"
+  },
+  {
+    "name": "PATHS_TO_ETERNITY",
+    "defaultvalue": 0,
+    "displayName": "Paths to Eternity",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/650940/d5f0aeb613b7ad2619df5767b13f2b7b55d9bd40.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/650940/b08cb42afc1cc157f30bd91f1e8fd5c5ddaa5f90.jpg"
+  },
+  {
+    "name": "PIN_TRAP",
+    "defaultvalue": 0,
+    "displayName": "Rapid Soul Removal",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/650940/f945e1de4a0575b59fe0ed2fa54992304e2ae8ed.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/650940/3cc407c657b4090024e6d5cda62c6b0e3b6c359c.jpg"
+  },
+  {
+    "name": "ACUMULATE_POWER",
+    "defaultvalue": 0,
+    "displayName": "Meltdown",
+    "hidden": 0,
+    "description": "Dark Heroes: Accumulate 5 turns on the same enemy with the Cascading Soul Ray",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/650940/64d0e5f11ef365f9a20dfd57e2e591d40bc037db.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/650940/9204d21a59e221188a6e001eb1bd7e09d282d7de.jpg"
+  },
+  {
+    "name": "VERY_COVERED",
+    "defaultvalue": 0,
+    "displayName": "Can't touch me!",
+    "hidden": 0,
+    "description": "Dark Heroes: Reach 100% armor coverage",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/650940/93d1cadd7298e8b751493d4489b5fb3f5d1f9019.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/650940/8d55ee14b0db1ede2f1902822670bfd491b765d6.jpg"
+  },
+  {
+    "name": "LIGHTWEIGHTED_TILL_LVL_10",
+    "defaultvalue": 0,
+    "displayName": "Who needs stuff?",
+    "hidden": 0,
+    "description": "Dark Heroes: Reach level 10 being lightweight at all time",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/650940/0e249c17d4c7c92e031906e13d813a94da00092c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/650940/56f89fb9fa54763da580714d06b8e6b332917274.jpg"
   }
 ]

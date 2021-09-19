@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "name": "COMPLETED_TUTORIAL",
     "defaultvalue": 0,
@@ -1267,5 +1267,68 @@
     "description": "Discover Purgatory map",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/372800/14766c109ec978ccf8808c98ed907151dc844ab9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/372800/1df4520650cc09b8de7dee8faeb3543740c1f65a.jpg"
+  },
+  {
+    "name": "ISLAND",
+    "defaultvalue": 0,
+    "displayName": "Island",
+    "hidden": 0,
+    "description": "Visit your island",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/372800/d837420ba7045756cdfbaba616f8977a031bc8d0.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/372800/b81c017952744ac3083160be542a14b1da1c93fd.jpg"
+  },
+  {
+    "name": "DUNGEON",
+    "defaultvalue": 0,
+    "displayName": "Dungeon",
+    "hidden": 0,
+    "description": "Visit your dungeon",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/372800/365fac7c822f4a6189a2a0bfdd0a92b0ceb3c8f4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/372800/1eae2d974a08f2f25ff642cc7871a94ccf180450.jpg"
+  },
+  {
+    "name": "FUNGICULTURE_30",
+    "defaultvalue": 0,
+    "displayName": "Beginner Fungiculture",
+    "hidden": 0,
+    "description": "Reach 30 fungiculture",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/372800/6f528497d7f55e1f96f23fdc9b1707c18e8f4dca.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/372800/3a9e2bca943f78ebf7f878d5ff1130ec85192ba8.jpg"
+  },
+  {
+    "name": "FUNGICULTURE_60",
+    "defaultvalue": 0,
+    "displayName": "High Fungiculture",
+    "hidden": 0,
+    "description": "Reach 60 fungiculture",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/372800/a1b34634faec53989099c611c11b26c30713fc27.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/372800/3f645edc3facc0091bbead980b9b1b9191c0f4f2.jpg"
+  },
+  {
+    "name": "FUNGICULTURE_90",
+    "defaultvalue": 0,
+    "displayName": "Superior Fungiculture",
+    "hidden": 0,
+    "description": "Reach 90 fungiculture",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/372800/62437086e338b7da0d4a8345f887d6393d4f8174.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/372800/a7f361ae9769dd84c94016a5093519ac191c4483.jpg"
+  },
+  {
+    "name": "FUNGICULTURE_120",
+    "defaultvalue": 0,
+    "displayName": "Legendary Fungiculture",
+    "hidden": 0,
+    "description": "Reach 120 fungiculture",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/372800/206b94f61391dafe07c39befc087854f237f0347.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/372800/138c42e27d4280c0b87838d342e924e254cf8b8b.jpg"
+  },
+  {
+    "name": "TEAM_WORK",
+    "defaultvalue": 0,
+    "displayName": "Team Work",
+    "hidden": 0,
+    "description": "Reach 3% skilling bonus",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/372800/5452a64f20c2e2236c1d9c5da0be1c119b56f36f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/372800/f28ce94deec5a05b36e88d0d4d5389926134548a.jpg"
   }
 ]

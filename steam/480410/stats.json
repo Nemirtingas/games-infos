@@ -1,34 +1,42 @@
-﻿{
-  "blackberries": {
-    "description": "Blackberries",
-    "value": 0
+[
+  {
+    "name": "blackberries",
+    "defaultvalue": 0,
+    "displayName": "Blackberries"
   },
-  "yellowberries": {
-    "description": "Yellowberries",
-    "value": 0
+  {
+    "name": "yellowberries",
+    "defaultvalue": 0,
+    "displayName": "Yellowberries"
   },
-  "matchesFinished": {
-    "description": "Local Multiplayer Matches Played",
-    "value": 0
+  {
+    "name": "matchesFinished",
+    "defaultvalue": 0,
+    "displayName": "Local Multiplayer Matches Played"
   },
-  "levelsCompleted": {
-    "description": "Levels Completed",
-    "value": 0
+  {
+    "name": "levelsCompleted",
+    "defaultvalue": 0,
+    "displayName": "Levels Completed"
   },
-  "enemiesBeaten": {
-    "description": "Enemies Beaten",
-    "value": 0
+  {
+    "name": "enemiesBeaten",
+    "defaultvalue": 0,
+    "displayName": "Enemies Beaten"
   },
-  "redBerries": {
-    "description": "Levels completed without using backup berries",
-    "value": 0
+  {
+    "name": "redBerries",
+    "defaultvalue": 0,
+    "displayName": "Levels completed without using backup berries"
   },
-  "biturusBeaten": {
-    "description": "Biturus Beaten",
-    "value": 0
+  {
+    "name": "biturusBeaten",
+    "defaultvalue": 0,
+    "displayName": "Biturus Beaten"
   },
-  "goldenClocks": {
-    "description": "Golden Clocks (Best time)",
-    "value": 0
+  {
+    "name": "goldenClocks",
+    "defaultvalue": 0,
+    "displayName": "Golden Clocks (Best time)"
   }
-}
+]

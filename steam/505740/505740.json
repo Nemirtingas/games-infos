@@ -1,15 +1,30 @@
 {
   "Dlcs": {
-    "948140": {
-      "Name": "",
-      "ImageUrl": ""
+    "1576310": {
+      "Name": "Eximius Exclusive Callsign Pack - Weapons of War",
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1576310/header.jpg?t=1617266995",
+      "Type": "dlc"
+    },
+    "1576311": {
+      "Name": "Eximius Exclusive Callsign Pack - The Unseen",
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1576311/header.jpg?t=1617266987",
+      "Type": "dlc"
+    },
+    "1576312": {
+      "Name": "Eximius Exclusive Callsign Pack - The Hardened",
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1576312/header.jpg?t=1617266975",
+      "Type": "dlc"
     }
   },
   "Name": "Eximius: Seize the Frontline",
   "AppId": "505740",
-  "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/505740/header.jpg?t=1591942674",
+  "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/505740/header.jpg?t=1627007655",
   "Languages": [
-    "english"
+    "english",
+    "german",
+    "russian",
+    "schinese",
+    "tchinese"
   ],
   "Platforms": {
     "windows": true,

@@ -1,62 +1,77 @@
-﻿{
-  "BOWLING": {
-    "description": "",
-    "value": 0
+[
+  {
+    "name": "BOWLING",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Sw-Time": {
-    "description": "Lady Swamp: Best Time",
-    "value": 0
+  {
+    "name": "Sw-Time",
+    "defaultvalue": 0,
+    "displayName": "Lady Swamp: Best Time"
   },
-  "Si-Time": {
-    "description": "Sieverr's Factory: Best Time",
-    "value": 0
+  {
+    "name": "Si-Time",
+    "defaultvalue": 0,
+    "displayName": "Sieverr's Factory: Best Time"
   },
-  "Vo-Time": {
-    "description": "The Entity: Best Time",
-    "value": 0
+  {
+    "name": "Vo-Time",
+    "defaultvalue": 0,
+    "displayName": "The Entity: Best Time"
   },
-  "De-Time": {
-    "description": "Gul-karam Desert: Best Time",
-    "value": 0
+  {
+    "name": "De-Time",
+    "defaultvalue": 0,
+    "displayName": "Gul-karam Desert: Best Time"
   },
-  "La-Time": {
-    "description": "LAB-yrinth: Best Time",
-    "value": 0
+  {
+    "name": "La-Time",
+    "defaultvalue": 0,
+    "displayName": "LAB-yrinth: Best Time"
   },
-  "BELONG": {
-    "description": "",
-    "value": 0
+  {
+    "name": "BELONG",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "THIEF": {
-    "description": "",
-    "value": 0
+  {
+    "name": "THIEF",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "ARCHEO": {
-    "description": "",
-    "value": 0
+  {
+    "name": "ARCHEO",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "STOLE": {
-    "description": "",
-    "value": 0
+  {
+    "name": "STOLE",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "FIRE": {
-    "description": "",
-    "value": 0
+  {
+    "name": "FIRE",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "KUNG_FU": {
-    "description": "",
-    "value": 0
+  {
+    "name": "KUNG_FU",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "BITE": {
-    "description": "",
-    "value": 0
+  {
+    "name": "BITE",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "DANGER": {
-    "description": "",
-    "value": 0
+  {
+    "name": "DANGER",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "MUTE_BOUNTY": {
-    "description": "",
-    "value": 0
+  {
+    "name": "MUTE_BOUNTY",
+    "defaultvalue": 0,
+    "displayName": ""
   }
-}
+]

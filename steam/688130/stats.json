@@ -1,50 +1,87 @@
-﻿{
-  "finishes": {
-    "description": "",
-    "value": 0
+[
+  {
+    "name": "finishes",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "expTotal": {
-    "description": "",
-    "value": 0
+  {
+    "name": "expTotal",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "expLevel": {
-    "description": "",
-    "value": 0
+  {
+    "name": "expLevel",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "hats": {
-    "description": "",
-    "value": 0
+  {
+    "name": "hats",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "misc": {
-    "description": "",
-    "value": 0
+  {
+    "name": "misc",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "level": {
-    "description": "",
-    "value": 0
+  {
+    "name": "level",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "maxProg": {
-    "description": "",
-    "value": 0
+  {
+    "name": "maxProg",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "bestTime": {
-    "description": "",
-    "value": 0
+  {
+    "name": "bestTime",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "timePlayed": {
-    "description": "",
-    "value": 0
+  {
+    "name": "timePlayed",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "cheater": {
-    "description": "",
-    "value": 0
+  {
+    "name": "cheater",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "tasksCompleted": {
-    "description": "",
-    "value": 0
+  {
+    "name": "tasksCompleted",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "monoFinishes": {
-    "description": "",
-    "value": 0
+  {
+    "name": "monoFinishes",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "tournament",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "map3Finishes",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "cliFinishes",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "tasks2Completed",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "lootMaxLevel",
+    "defaultvalue": 0,
+    "displayName": ""
   }
-}
+]

@@ -1,14 +1,17 @@
-﻿{
-  "impact_elimination": {
-    "description": "",
-    "value": 0
+[
+  {
+    "name": "impact_elimination",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "proximity_elimination": {
-    "description": "",
-    "value": 0
+  {
+    "name": "proximity_elimination",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "plasma_elimination": {
-    "description": "",
-    "value": 0
+  {
+    "name": "plasma_elimination",
+    "defaultvalue": 0,
+    "displayName": ""
   }
-}
+]

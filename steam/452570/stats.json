@@ -1,38 +1,47 @@
-﻿{
-  "ThornQuestCount": {
-    "description": "Thorn Quests Completed",
-    "value": 0
+[
+  {
+    "name": "ThornQuestCount",
+    "defaultvalue": 0,
+    "displayName": "Thorn Quests Completed"
   },
-  "BelchiorQuestCount": {
-    "description": "Belchior Quests Completed",
-    "value": 0
+  {
+    "name": "BelchiorQuestCount",
+    "defaultvalue": 0,
+    "displayName": "Belchior Quests Completed"
   },
-  "PontidaQuestsCount": {
-    "description": "Pontida Quests Completed",
-    "value": 0
+  {
+    "name": "PontidaQuestsCount",
+    "defaultvalue": 0,
+    "displayName": "Pontida Quests Completed"
   },
-  "ItemsBought": {
-    "description": "Items Bought",
-    "value": 0
+  {
+    "name": "ItemsBought",
+    "defaultvalue": 0,
+    "displayName": "Items Bought"
   },
-  "HighestScoringDish": {
-    "description": "Highest Scoring Dish",
-    "value": 0
+  {
+    "name": "HighestScoringDish",
+    "defaultvalue": 0,
+    "displayName": "Highest Scoring Dish"
   },
-  "HighestComboMultiplier": {
-    "description": "Highest Combo Multiplier",
-    "value": 0
+  {
+    "name": "HighestComboMultiplier",
+    "defaultvalue": 0,
+    "displayName": "Highest Combo Multiplier"
   },
-  "ExpertiseTomeBonusesGranted": {
-    "description": "Expertise Tome Bonuses Granted",
-    "value": 0
+  {
+    "name": "ExpertiseTomeBonusesGranted",
+    "defaultvalue": 0,
+    "displayName": "Expertise Tome Bonuses Granted"
   },
-  "HighestTotalScore": {
-    "description": "Highest Total Duel Score",
-    "value": 0
+  {
+    "name": "HighestTotalScore",
+    "defaultvalue": 0,
+    "displayName": "Highest Total Duel Score"
   },
-  "CombatDeflections": {
-    "description": "",
-    "value": 0
+  {
+    "name": "CombatDeflections",
+    "defaultvalue": 0,
+    "displayName": ""
   }
-}
+]

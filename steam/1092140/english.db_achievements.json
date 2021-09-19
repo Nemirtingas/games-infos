@@ -506,7 +506,7 @@
     "defaultvalue": 0,
     "displayName": "SpeedRun",
     "hidden": 0,
-    "description": "Finish game with less then 40 minuts",
+    "description": "Finish game with less then 30 minuts",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1092140/dda52101b681a9c1622895db055db2c784876e8a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1092140/da3aea07c92a55bcd22ce4cc8cfe562edb778343.jpg"
   },
@@ -553,6 +553,59 @@
     "hidden": 0,
     "description": "I think, i can open it",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1092140/96470e35f9d421469d3049c05be06648afbadf92.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1092140/554c380d7284be28a1992a96a114146e904963f2.jpg"
+  },
+  {
+    "name": "ef_ach_paper",
+    "defaultvalue": 0,
+    "displayName": "Few words",
+    "hidden": 0,
+    "description": "Found a letter",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1092140/9a4927fe7a1a866be9ddce3e95ffba67891e34ea.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1092140/da3aea07c92a55bcd22ce4cc8cfe562edb778343.jpg"
+  },
+  {
+    "name": "ef_ach_allpaper",
+    "defaultvalue": 0,
+    "displayName": "Diary",
+    "hidden": 0,
+    "description": "Found all letters",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1092140/80cfc8e6bd24cc4b6b828421ec6931733e4a7c36.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1092140/da3aea07c92a55bcd22ce4cc8cfe562edb778343.jpg"
+  },
+  {
+    "name": "ef_ach_cross",
+    "defaultvalue": 0,
+    "displayName": "Amulet",
+    "hidden": 0,
+    "description": "Found amulet",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1092140/e7b06c880f78960ff6cd5fe716bead49a1ae63e3.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1092140/554c380d7284be28a1992a96a114146e904963f2.jpg"
+  },
+  {
+    "name": "ef_ach_goodend",
+    "defaultvalue": 0,
+    "displayName": "The End",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1092140/c67063e4557ee007ef319081faaa34e0a88ee24d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1092140/554c380d7284be28a1992a96a114146e904963f2.jpg"
+  },
+  {
+    "name": "ef_ach_match50",
+    "defaultvalue": 0,
+    "displayName": "Jackpot",
+    "hidden": 0,
+    "description": "Find a big pile of matches in one box",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1092140/4f4f2babb24f2d76ee2218231ed65a79e6499f12.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1092140/da3aea07c92a55bcd22ce4cc8cfe562edb778343.jpg"
+  },
+  {
+    "name": "ef_ach_maps",
+    "defaultvalue": 0,
+    "displayName": "Route",
+    "hidden": 0,
+    "description": "Find all maps",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1092140/b4f7d3019ec18ee70a69ffa6c7801aaebbfdb6ba.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1092140/554c380d7284be28a1992a96a114146e904963f2.jpg"
   }
 ]

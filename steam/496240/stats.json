@@ -1,54 +1,67 @@
-﻿{
-  "XP": {
-    "description": "Experience",
-    "value": 0
+[
+  {
+    "name": "XP",
+    "defaultvalue": 0,
+    "displayName": "Experience"
   },
-  "NumWins": {
-    "description": "Games Won",
-    "value": 0
+  {
+    "name": "NumWins",
+    "defaultvalue": 0,
+    "displayName": "Games Won"
   },
-  "NumLosses": {
-    "description": "Games Lost",
-    "value": 0
+  {
+    "name": "NumLosses",
+    "defaultvalue": 0,
+    "displayName": "Games Lost"
   },
-  "NumBullets": {
-    "description": "Bullets Fired",
-    "value": 0
+  {
+    "name": "NumBullets",
+    "defaultvalue": 0,
+    "displayName": "Bullets Fired"
   },
-  "NumKills": {
-    "description": "Total Kills",
-    "value": 0
+  {
+    "name": "NumKills",
+    "defaultvalue": 0,
+    "displayName": "Total Kills"
   },
-  "NumDeaths": {
-    "description": "Total Deaths",
-    "value": 0
+  {
+    "name": "NumDeaths",
+    "defaultvalue": 0,
+    "displayName": "Total Deaths"
   },
-  "NumHeals": {
-    "description": "Players Revived",
-    "value": 0
+  {
+    "name": "NumHeals",
+    "defaultvalue": 0,
+    "displayName": "Players Revived"
   },
-  "NumUplinkCaps": {
-    "description": "Uplinks Sent",
-    "value": 0
+  {
+    "name": "NumUplinkCaps",
+    "defaultvalue": 0,
+    "displayName": "Uplinks Sent"
   },
-  "NumEscortCaps": {
-    "description": "Extractions as VIP",
-    "value": 0
+  {
+    "name": "NumEscortCaps",
+    "defaultvalue": 0,
+    "displayName": "Extractions as VIP"
   },
-  "NumHeadshots": {
-    "description": "Total Headshots",
-    "value": 0
+  {
+    "name": "NumHeadshots",
+    "defaultvalue": 0,
+    "displayName": "Total Headshots"
   },
-  "NumHits": {
-    "description": "Bullets Hit",
-    "value": 0
+  {
+    "name": "NumHits",
+    "defaultvalue": 0,
+    "displayName": "Bullets Hit"
   },
-  "DistanceTravelled": {
-    "description": "Distance Travelled",
-    "value": 0
+  {
+    "name": "DistanceTravelled",
+    "defaultvalue": 0,
+    "displayName": "Distance Travelled"
   },
-  "PrestigeLevel": {
-    "description": "Prestige Level",
-    "value": 0
+  {
+    "name": "PrestigeLevel",
+    "defaultvalue": 0,
+    "displayName": "Prestige Level"
   }
-}
+]

@@ -1,66 +1,82 @@
-﻿{
-  "StatVersion": {
-    "description": "",
-    "value": 0
+[
+  {
+    "name": "StatVersion",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "AchievementVersion": {
-    "description": "",
-    "value": 0
+  {
+    "name": "AchievementVersion",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "CreatedSolids": {
-    "description": "Solids created",
-    "value": 0
+  {
+    "name": "CreatedSolids",
+    "defaultvalue": 0,
+    "displayName": "Solids created"
   },
-  "CreatedSolidEntities": {
-    "description": "Solid entities created",
-    "value": 0
+  {
+    "name": "CreatedSolidEntities",
+    "defaultvalue": 0,
+    "displayName": "Solid entities created"
   },
-  "CreatedPointEntities": {
-    "description": "Point entities created",
-    "value": 0
+  {
+    "name": "CreatedPointEntities",
+    "defaultvalue": 0,
+    "displayName": "Point entities created"
   },
-  "CreatedCurves": {
-    "description": "Curves created",
-    "value": 0
+  {
+    "name": "CreatedCurves",
+    "defaultvalue": 0,
+    "displayName": "Curves created"
   },
-  "CreatedDecals": {
-    "description": "Decals placed",
-    "value": 0
+  {
+    "name": "CreatedDecals",
+    "defaultvalue": 0,
+    "displayName": "Decals placed"
   },
-  "CarvedSolids": {
-    "description": "Solids carved",
-    "value": 0
+  {
+    "name": "CarvedSolids",
+    "defaultvalue": 0,
+    "displayName": "Solids carved"
   },
-  "MergedSolids": {
-    "description": "Solids merged",
-    "value": 0
+  {
+    "name": "MergedSolids",
+    "defaultvalue": 0,
+    "displayName": "Solids merged"
   },
-  "HollowSolids": {
-    "description": "Solids made hollow",
-    "value": 0
+  {
+    "name": "HollowSolids",
+    "defaultvalue": 0,
+    "displayName": "Solids made hollow"
   },
-  "ClippedSolids": {
-    "description": "Solids clipped",
-    "value": 0
+  {
+    "name": "ClippedSolids",
+    "defaultvalue": 0,
+    "displayName": "Solids clipped"
   },
-  "SplittedFaces": {
-    "description": "Faces splitted",
-    "value": 0
+  {
+    "name": "SplittedFaces",
+    "defaultvalue": 0,
+    "displayName": "Faces splitted"
   },
-  "TriangulatedStructs": {
-    "description": "Structures triangulated",
-    "value": 0
+  {
+    "name": "TriangulatedStructs",
+    "defaultvalue": 0,
+    "displayName": "Structures triangulated"
   },
-  "ExportedMaps": {
-    "description": "Maps exported",
-    "value": 0
+  {
+    "name": "ExportedMaps",
+    "defaultvalue": 0,
+    "displayName": "Maps exported"
   },
-  "MaxIncrementalSave": {
-    "description": "Maximum incremental saves",
-    "value": 0
+  {
+    "name": "MaxIncrementalSave",
+    "defaultvalue": 0,
+    "displayName": "Maximum incremental saves"
   },
-  "CreatedPaths": {
-    "description": "Paths created",
-    "value": 0
+  {
+    "name": "CreatedPaths",
+    "defaultvalue": 0,
+    "displayName": "Paths created"
   }
-}
+]

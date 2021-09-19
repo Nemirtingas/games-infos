@@ -213,5 +213,117 @@
     "description": "You checked YUA's Cell phone.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1032670/d0e437c2827e4b72295464ad5ade73f83a454e1e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1032670/fa18cafdbc062d445ec5f69e102f8ea2deb4fc66.jpg"
+  },
+  {
+    "name": "ACH_TOY_ONEMOVE",
+    "defaultvalue": 0,
+    "displayName": "So Cool!",
+    "hidden": 0,
+    "description": "Grabbed a stuffed animal while only moving once on each axis.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1032670/55789ee1102ff45734e12881abd7229a30d5eb5b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1032670/6ff9e7e73337957a297163cb00f56a974ba38fef.jpg"
+  },
+  {
+    "name": "ACH_TOY_ONESUCCESS",
+    "defaultvalue": 0,
+    "displayName": "Professional Claw Machine Player",
+    "hidden": 0,
+    "description": "Pulled the stuffed animal that YUA wanted in one try.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1032670/029e5009a17442f586b272a2e377c650e88095bd.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1032670/c44d9eaf745e8beb685e7311e1fc2f85a8fb11c4.jpg"
+  },
+  {
+    "name": "ACH_TOY_FAIL",
+    "defaultvalue": 0,
+    "displayName": "It's Okay!",
+    "hidden": 0,
+    "description": "It's okay. You did your best.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1032670/1248ddf89603d3f2b6af20862606f8651e4ee8da.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1032670/f4079e2b2bbd080d2c12cff5dfae2594a34068ab.jpg"
+  },
+  {
+    "name": "ACH_YUA_LOVE",
+    "defaultvalue": 0,
+    "displayName": "I Love You!",
+    "hidden": 0,
+    "description": "Actually, YUA, I love you!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1032670/b5a498349c8d7994700ee6880d417a1b09895c79.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1032670/13cf31a4593c7075bc6cd2167a012b8b3f907f43.jpg"
+  },
+  {
+    "name": "ACH_YUA_LIKE",
+    "defaultvalue": 0,
+    "displayName": "I Like You!",
+    "hidden": 0,
+    "description": "I like you, YUA!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1032670/948b76582ea73f268ca4c7403d044e75d97102a1.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1032670/7ccc8554ed06229e3cfb47115fc7b44fd4424b4b.jpg"
+  },
+  {
+    "name": "ACH_MASTER_TAMB",
+    "defaultvalue": 0,
+    "displayName": "Having So Much Fun",
+    "hidden": 0,
+    "description": "Made sure YUA had fun. Hooray!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1032670/768ad399c84c99390f881cfe169f698c4e72bfb5.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1032670/8ef4c95ac5b8455716f6e8058ee9f2d05b4f868b.jpg"
+  },
+  {
+    "name": "ACH_DONE_PHOTO",
+    "defaultvalue": 0,
+    "displayName": "The Life of a Boyfriend Is Hard",
+    "hidden": 0,
+    "description": "Completed the Photo Album.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1032670/a74afe118c8fb7d3a1540fad5cb37a53be3143b8.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1032670/6ebb74dbc3141185236e0f5bf8203d2eae7f8b8e.jpg"
+  },
+  {
+    "name": "ACH_GOOD_BRO",
+    "defaultvalue": 0,
+    "displayName": "Good Siblings",
+    "hidden": 0,
+    "description": "They are such close siblings.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1032670/c8b39bde6ce501fd34b0dfb2e47680793d629c04.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1032670/63f2d7edf86165b176af1227f9ac9177a7720fcd.jpg"
+  },
+  {
+    "name": "ACH_HAPPY_XMAS",
+    "defaultvalue": 0,
+    "displayName": "Happy christmas!",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1032670/20621b56452574aa0f05268bed8b57b46b425833.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1032670/535b58b473f1db8e35ad1849a2a6bb04ad755289.jpg"
+  },
+  {
+    "name": "ACH_MAGIC_VALENTINE",
+    "defaultvalue": 0,
+    "displayName": "Valentine Magic!",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1032670/e6d7dcccf6dbeb74d19d03ea1c52b980c6ec1c10.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1032670/c273058ebc25b31beea0a7eed32fe9d8db176ecc.jpg"
+  },
+  {
+    "name": "ACH_SWIM_VACATION",
+    "defaultvalue": 0,
+    "displayName": "Cool Summer!",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1032670/6668aa016014a8b60e52161d93599ba37e6f4094.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1032670/d23e1c67eaf894aa0e1bbe3c2b64fe72fdcc1d49.jpg"
+  },
+  {
+    "name": "ACH_HALLOWEEN_ANGEL",
+    "defaultvalue": 0,
+    "displayName": "White Halloween",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1032670/9da11aae9db2ec156cd290dbd815cf92df08203c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1032670/4eb70b250f89072c9e4eaf27f8975810660fdc4d.jpg"
+  },
+  {
+    "name": "ACH_HALLOWEEN_DEVIL",
+    "defaultvalue": 0,
+    "displayName": "Dark Halloween",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1032670/eda5483400d8031a0917d600f8a041439f2c3e3d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1032670/cb6422b5156abf8d5b7ebf6dac9681554c356e1d.jpg"
   }
 ]

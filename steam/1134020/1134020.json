@@ -1,10 +1,22 @@
 {
-  "Dlcs": {},
+  "Dlcs": {
+    "1604330": {
+      "Name": "Sons of Ra Soundtrack",
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1604330/header.jpg?t=1618506176",
+      "Type": "music"
+    }
+  },
   "Name": "Sons of Ra",
   "AppId": "1134020",
-  "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/1134020/header.jpg?t=1597091701",
+  "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1134020/header.jpg?t=1624556783",
   "Languages": [
-    "english"
+    "english",
+    "japanese",
+    "korean",
+    "russian",
+    "schinese",
+    "latam",
+    "french"
   ],
   "Platforms": {
     "windows": true,

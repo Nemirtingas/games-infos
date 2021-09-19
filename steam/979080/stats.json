@@ -1,34 +1,42 @@
-﻿{
-  "stat_kills": {
-    "description": "",
-    "value": 0
+[
+  {
+    "name": "stat_kills",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "stat_xp": {
-    "description": "",
-    "value": 0
+  {
+    "name": "stat_xp",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "stat_cash": {
-    "description": "",
-    "value": 0
+  {
+    "name": "stat_cash",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "stat_weap": {
-    "description": "",
-    "value": 0
+  {
+    "name": "stat_weap",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "stat_armor": {
-    "description": "",
-    "value": 0
+  {
+    "name": "stat_armor",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "stat_mission_one": {
-    "description": "",
-    "value": 0
+  {
+    "name": "stat_mission_one",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "stat_mission_two": {
-    "description": "",
-    "value": 0
+  {
+    "name": "stat_mission_two",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "stat_mission_three": {
-    "description": "",
-    "value": 0
+  {
+    "name": "stat_mission_three",
+    "defaultvalue": 0,
+    "displayName": ""
   }
-}
+]

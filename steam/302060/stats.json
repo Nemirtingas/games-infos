@@ -1,66 +1,82 @@
-﻿{
-  "get_gold_row": {
-    "description": "",
-    "value": 0
+[
+  {
+    "name": "get_gold_row",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "get_done_row": {
-    "description": "",
-    "value": 0
+  {
+    "name": "get_done_row",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "cont_real_time_play": {
-    "description": "",
-    "value": 0
+  {
+    "name": "cont_real_time_play",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "get_done_count": {
-    "description": "",
-    "value": 0
+  {
+    "name": "get_done_count",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "get_bronze_count": {
-    "description": "",
-    "value": 0
+  {
+    "name": "get_bronze_count",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "get_silver_count": {
-    "description": "",
-    "value": 0
+  {
+    "name": "get_silver_count",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "get_gold_count": {
-    "description": "",
-    "value": 0
+  {
+    "name": "get_gold_count",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "real_time_play": {
-    "description": "",
-    "value": 0
+  {
+    "name": "real_time_play",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "radio_time_play": {
-    "description": "",
-    "value": 0
+  {
+    "name": "radio_time_play",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "distance_driven": {
-    "description": "",
-    "value": 0
+  {
+    "name": "distance_driven",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "attach_count": {
-    "description": "",
-    "value": 0
+  {
+    "name": "attach_count",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "get_easy_finished": {
-    "description": "",
-    "value": 0
+  {
+    "name": "get_easy_finished",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "get_hard_finished": {
-    "description": "",
-    "value": 0
+  {
+    "name": "get_hard_finished",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "get_pro_finished": {
-    "description": "",
-    "value": 0
+  {
+    "name": "get_pro_finished",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "get_pro_gold_finished": {
-    "description": "",
-    "value": 0
+  {
+    "name": "get_pro_gold_finished",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "www_visits": {
-    "description": "",
-    "value": 0
+  {
+    "name": "www_visits",
+    "defaultvalue": 0,
+    "displayName": ""
   }
-}
+]

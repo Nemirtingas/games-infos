@@ -22,7 +22,7 @@
     "defaultvalue": 0,
     "displayName": "Maluch Racer",
     "hidden": 0,
-    "description": "Complete all story races driving a Maluv",
+    "description": "Defeat all bosses driving a Maluv",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/696150/9769eafd5bac38a58c79bdb707919d214547db75.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/696150/022faf71bb567ce3843bbf77478aed7c77ef35ed.jpg"
   },
@@ -40,7 +40,7 @@
     "defaultvalue": 0,
     "displayName": "Good Racer",
     "hidden": 0,
-    "description": "Win 5,10,20,50,100 races ",
+    "description": "Start in 5,10,20,50,100 races ",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/696150/96da7b1b57f28782191beea57fca2aaa4338f6ed.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/696150/c85369ca82e926345a61dce842e5190e7a43371e.jpg"
   },
@@ -54,27 +54,11 @@
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/696150/1ed7e8264c77fa33681eef9ef51da76e606d3997.jpg"
   },
   {
-    "name": "Unlucky Finish",
-    "defaultvalue": 0,
-    "displayName": "Unlucky Finish",
-    "hidden": 1,
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/696150/6bd01556c3a804f565a43bffc17f36b4be050cb4.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/696150/42dbbddcc8a005a4fb034085261070d6bb10f98c.jpg"
-  },
-  {
-    "name": "Lucky Win",
-    "defaultvalue": 0,
-    "displayName": "Lucky Win",
-    "hidden": 1,
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/696150/c546eb73ccb3c337d79965db114fdd06e123d410.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/696150/50dc7fc94989c4a61fbaec9f5c5ea92c26d64d14.jpg"
-  },
-  {
     "name": "Favourite Color",
     "defaultvalue": 0,
     "displayName": "Favourite Color",
     "hidden": 0,
-    "description": "Collect one color stars only in one race",
+    "description": " Do not change the color of the car throughout the race",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/696150/36667c002d7a4c9ca250c426f788af4510e9ed97.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/696150/297e4151361704f3fcfd1b9fc5e50c21d0035c0b.jpg"
   },
@@ -155,7 +139,7 @@
     "defaultvalue": 0,
     "displayName": "Easy Peasy",
     "hidden": 0,
-    "description": "Win your first quick race on easy",
+    "description": "Win quick race on easy",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/696150/3cad4008e278f6febd35e0f5cd9062b415e635c3.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/696150/95a171c0eed3b0379e73ef6b1cd87c39c07c3e9c.jpg"
   },
@@ -164,7 +148,7 @@
     "defaultvalue": 0,
     "displayName": "Hard Rocker",
     "hidden": 0,
-    "description": "Win your first quick race on hard",
+    "description": "Win quick race on hard",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/696150/4de6758800d711810eea9ed35e39a9b2c32decf1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/696150/9f4e1a234b75118f2f90b8c134aa6bc88d5458c8.jpg"
   },
@@ -245,7 +229,7 @@
     "defaultvalue": 0,
     "displayName": "Hot Seats",
     "hidden": 0,
-    "description": "Finish 10 races in splitscreen mode",
+    "description": "Play 10 races in splitscreen mode",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/696150/808900c0d5fe838bb0f7cf8273c0979108f6befa.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/696150/b734e094936970dbbd268c838061261e62548632.jpg"
   },
@@ -254,7 +238,7 @@
     "defaultvalue": 0,
     "displayName": "Two-Face",
     "hidden": 0,
-    "description": "Create the second profile account",
+    "description": " Create two or more profile accounts",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/696150/90997d3bd85ffb818a11fd74f96ea417f6e69e0b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/696150/76d096b26816101e562dd21f3757790a5df8f671.jpg"
   }

@@ -175,7 +175,7 @@
     "defaultvalue": 0,
     "displayName": "Captain",
     "hidden": 0,
-    "description": "Unlocks after having a ship with at least 200 base Command.",
+    "description": "Unlocks after having a ship with 36 Command.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1305310/2fdf737eb87182ff3c260d24248fecdb718c063d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1305310/f480813839010def332c4be1acfb0a68d5a288f7.jpg"
   },
@@ -529,5 +529,41 @@
     "description": "Unlocks after 5 Guild wins (all your ships combined).",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1305310/cb40ba94c1b0ac3bb9fa383d1575638cbe470896.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1305310/3d41bbb37aa04a875492430cb62ed2d3ca79927d.jpg"
+  },
+  {
+    "name": "UnlockAwardCrewRescued",
+    "defaultvalue": 0,
+    "displayName": "Rescuer",
+    "hidden": 0,
+    "description": "Unlocks after you have rescued 250 crew.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1305310/323ea0edd88c89f1faf1483bf280bdb8634c49d5.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1305310/6ec3c8270084a32acc505fc2ff1914ab276f8e80.jpg"
+  },
+  {
+    "name": "UnlockAwardSlavesFreed",
+    "defaultvalue": 0,
+    "displayName": "Freedom",
+    "hidden": 0,
+    "description": "Unlocks after you have freed 100 slaves.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1305310/a7e4e92c63b0ad2377cb68e73485d4c3ccddb522.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1305310/982a0c2f852e2b48afba0a3c11feb0fde8cc250e.jpg"
+  },
+  {
+    "name": "UnlockAwardRamKills",
+    "defaultvalue": 0,
+    "displayName": "Rammer",
+    "hidden": 0,
+    "description": "Unlocks after you have 250 ram kills.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1305310/2bff3db1d68b7146dc52e9f5e1afd86861e318ee.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1305310/621f282cebcf26120db3d7cb6700164a24813a9e.jpg"
+  },
+  {
+    "name": "UnlockAwardPrimitivesRaised",
+    "defaultvalue": 0,
+    "displayName": "Primitive",
+    "hidden": 0,
+    "description": "Unlocks after you have helped raise 25 primitive races to space fairing.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1305310/c2a4d95ddbcf150519cca39b47ae9eae549ce51f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1305310/1e6bebc371ce0e3ab4c0ef72e52d4b8a5f4ccd2d.jpg"
   }
 ]

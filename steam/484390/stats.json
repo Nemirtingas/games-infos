@@ -1,14 +1,17 @@
-﻿{
-  "stat_coins": {
-    "description": "Coins",
-    "value": 0
+[
+  {
+    "name": "stat_coins",
+    "defaultvalue": 0,
+    "displayName": "Coins"
   },
-  "stat_nodamage": {
-    "description": "No damage Medal",
-    "value": 0
+  {
+    "name": "stat_nodamage",
+    "defaultvalue": 0,
+    "displayName": "No damage Medal"
   },
-  "stat_playercoins": {
-    "description": "Player Level Coins",
-    "value": 0
+  {
+    "name": "stat_playercoins",
+    "defaultvalue": 0,
+    "displayName": "Player Level Coins"
   }
-}
+]

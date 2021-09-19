@@ -1,14 +1,17 @@
-﻿{
-  "BabyWins": {
-    "description": "Baby Wins",
-    "value": 0
+[
+  {
+    "name": "BabyWins",
+    "defaultvalue": 0,
+    "displayName": "Baby Wins"
   },
-  "DaddyWins": {
-    "description": "Daddy Wins",
-    "value": 0
+  {
+    "name": "DaddyWins",
+    "defaultvalue": 0,
+    "displayName": "Daddy Wins"
   },
-  "test_stat1": {
-    "description": "test_stat",
-    "value": 0
+  {
+    "name": "test_stat1",
+    "defaultvalue": 0,
+    "displayName": "test_stat"
   }
-}
+]

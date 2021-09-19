@@ -1,46 +1,57 @@
-﻿{
-  "spawnCount": {
-    "description": "Items Spawned",
-    "value": 0
+[
+  {
+    "name": "spawnCount",
+    "defaultvalue": 0,
+    "displayName": "Items Spawned"
   },
-  "rideCount": {
-    "description": "Rideables Ridden",
-    "value": 0
+  {
+    "name": "rideCount",
+    "defaultvalue": 0,
+    "displayName": "Rideables Ridden"
   },
-  "rideCountTrain": {
-    "description": "Trains Ridden",
-    "value": 0
+  {
+    "name": "rideCountTrain",
+    "defaultvalue": 0,
+    "displayName": "Trains Ridden"
   },
-  "rideCountLoco": {
-    "description": "Locomotives Ridden",
-    "value": 0
+  {
+    "name": "rideCountLoco",
+    "defaultvalue": 0,
+    "displayName": "Locomotives Ridden"
   },
-  "metersRiddenCount": {
-    "description": "Meters Ridden",
-    "value": 0
+  {
+    "name": "metersRiddenCount",
+    "defaultvalue": 0,
+    "displayName": "Meters Ridden"
   },
-  "derailCount": {
-    "description": "Derailments Caused",
-    "value": 0
+  {
+    "name": "derailCount",
+    "defaultvalue": 0,
+    "displayName": "Derailments Caused"
   },
-  "fireCount": {
-    "description": "Fires Started",
-    "value": 0
+  {
+    "name": "fireCount",
+    "defaultvalue": 0,
+    "displayName": "Fires Started"
   },
-  "fireExtinguishCount": {
-    "description": "Fires Extinguished",
-    "value": 0
+  {
+    "name": "fireExtinguishCount",
+    "defaultvalue": 0,
+    "displayName": "Fires Extinguished"
   },
-  "explosionCount": {
-    "description": "Explosions Caused",
-    "value": 0
+  {
+    "name": "explosionCount",
+    "defaultvalue": 0,
+    "displayName": "Explosions Caused"
   },
-  "bulletsFiredCount": {
-    "description": "Bullets Fired",
-    "value": 0
+  {
+    "name": "bulletsFiredCount",
+    "defaultvalue": 0,
+    "displayName": "Bullets Fired"
   },
-  "paintCount": {
-    "description": "Models Painted",
-    "value": 0
+  {
+    "name": "paintCount",
+    "defaultvalue": 0,
+    "displayName": "Models Painted"
   }
-}
+]

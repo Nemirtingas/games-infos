@@ -1,34 +1,14 @@
-﻿{
+{
   "Dlcs": {
-    "65700": {
-      "Name": "Arma 2: British Armed Forces",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/65700/header.jpg?t=1521639693"
+    "33934": {
+      "Name": "Arma 2: Army of the Czech Republic",
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/33934/header.jpg?t=1521639609",
+      "Type": "dlc"
     },
     "65720": {
       "Name": "Arma 2: Private Military Company",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/65720/header.jpg?t=1521639722"
-    },
-    "33934": {
-      "Name": "Arma 2: Army of the Czech Republic",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/33934/header.jpg?t=1521639609"
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/65720/header.jpg?t=1521639722",
+      "Type": "dlc"
     }
-  },
-  "Name": "Arma 2: Operation Arrowhead",
-  "AppId": "33930",
-  "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/33930/header.jpg?t=1593518743",
-  "Languages": [
-    "english",
-    "czech",
-    "french",
-    "italian",
-    "spanish",
-    "german",
-    "polish",
-    "russian"
-  ],
-  "Platforms": {
-    "windows": true,
-    "mac": false,
-    "linux": false
   }
 }

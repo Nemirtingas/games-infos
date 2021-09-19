@@ -1,42 +1,52 @@
-﻿{
-  "GoingGreen_SolarPanelsBuilt": {
-    "description": "GoingGreen",
-    "value": 0
+[
+  {
+    "name": "GoingGreen_SolarPanelsBuilt",
+    "defaultvalue": 0,
+    "displayName": "GoingGreen"
   },
-  "DeathWish_MinutesPlayed": {
-    "description": "DeathWish",
-    "value": 0
+  {
+    "name": "DeathWish_MinutesPlayed",
+    "defaultvalue": 0,
+    "displayName": "DeathWish"
   },
-  "Explorer_ExplorePlanetsData": {
-    "description": "Explorer",
-    "value": 0
+  {
+    "name": "Explorer_ExplorePlanetsData",
+    "defaultvalue": 0,
+    "displayName": "Explorer"
   },
-  "GiantLeapForMankind_WalkedMoon": {
-    "description": "GiantLeapForMankind",
-    "value": 0
+  {
+    "name": "GiantLeapForMankind_WalkedMoon",
+    "defaultvalue": 0,
+    "displayName": "GiantLeapForMankind"
   },
-  "MasterEngineer_MinutesPlayed": {
-    "description": "MasterEngineer",
-    "value": 0
+  {
+    "name": "MasterEngineer_MinutesPlayed",
+    "defaultvalue": 0,
+    "displayName": "MasterEngineer"
   },
-  "TheBiggerTheyAre_MassBuilt": {
-    "description": "TheBiggerTheyAre",
-    "value": 0
+  {
+    "name": "TheBiggerTheyAre_MassBuilt",
+    "defaultvalue": 0,
+    "displayName": "TheBiggerTheyAre"
   },
-  "TheHarderTheyFall_MassDestroyed": {
-    "description": "TheHarderTheyFall",
-    "value": 0
+  {
+    "name": "TheHarderTheyFall_MassDestroyed",
+    "defaultvalue": 0,
+    "displayName": "TheHarderTheyFall"
   },
-  "LostInSpace_LostInSpaceStartedS": {
-    "description": "LostInSpace",
-    "value": 0
+  {
+    "name": "LostInSpace_LostInSpaceStartedS",
+    "defaultvalue": 0,
+    "displayName": "LostInSpace"
   },
-  "DropContainerTimer": {
-    "description": "DropContainerTimer",
-    "value": 0
+  {
+    "name": "DropContainerTimer",
+    "defaultvalue": 0,
+    "displayName": "DropContainerTimer"
   },
-  "Explorer_PlanetsCount": {
-    "description": "ExplorerPlanetsCount",
-    "value": 0
+  {
+    "name": "Explorer_PlanetsCount",
+    "defaultvalue": 0,
+    "displayName": "ExplorerPlanetsCount"
   }
-}
+]

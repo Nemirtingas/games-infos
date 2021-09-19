@@ -1,14 +1,19 @@
-﻿{
-  "Dlcs": {},
+{
+  "Dlcs": {
+    "1303880": {
+      "Name": "",
+      "ImageUrl": ""
+    }
+  },
   "Name": "They Breathe",
   "AppId": "294140",
-  "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/294140/header.jpg?t=1568050804",
+  "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/294140/header.jpg?t=1606932366",
   "Languages": [
     "english"
   ],
   "Platforms": {
     "windows": true,
-    "mac": false,
+    "mac": true,
     "linux": false
   }
 }

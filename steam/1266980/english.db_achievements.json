@@ -61,5 +61,32 @@
     "description": "Reach 10000 Runner Rating",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1266980/6edd46a593045e548b590c40d682cffa952ec2d5.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1266980/72eac92cd56d40799fd8aaaa387e9e4c23cc0e5c.jpg"
+  },
+  {
+    "name": "allBronze",
+    "defaultvalue": 0,
+    "displayName": "Bronze Runner",
+    "hidden": 0,
+    "description": "Achieve bronze or better for all levels in time attack mode",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1266980/d287662099144f81709a5241050300b7285fe5c0.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1266980/baeced8f1b6388e8eb4a3030e899c26580b414b7.jpg"
+  },
+  {
+    "name": "allSilver",
+    "defaultvalue": 0,
+    "displayName": "Silver Runner",
+    "hidden": 0,
+    "description": "Achieve silver or better for all levels in time attack mode",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1266980/ebe3380814cd31748e7ebd01268587e0529095dc.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1266980/c30c43c96c04791792ff4632273e8e488ecd6db5.jpg"
+  },
+  {
+    "name": "allGold",
+    "defaultvalue": 0,
+    "displayName": "Gold Runner",
+    "hidden": 0,
+    "description": "Achieve gold for all levels in time attack mode",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1266980/9ef211bdb97e67147a089489513e259ee239eb48.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1266980/baeced8f1b6388e8eb4a3030e899c26580b414b7.jpg"
   }
 ]

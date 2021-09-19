@@ -2,7 +2,7 @@
   {
     "name": "CLEAR_FinalAny",
     "defaultvalue": 0,
-    "displayName": "CLEAR_FinalAny",
+    "displayName": "Game Clear: Any",
     "hidden": 0,
     "description": "Cleared the Game in any difficulty.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1229900/46f3a872babaf340885b22740ab96a308bea802c.jpg",
@@ -11,7 +11,7 @@
   {
     "name": "CLEAR_FinalEasy",
     "defaultvalue": 0,
-    "displayName": "Clear: Story",
+    "displayName": "Game Clear: Easy",
     "hidden": 0,
     "description": "Cleared the Game in Story difficulty.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1229900/cf342cf8aea1667d5612043d9c5ac7c4e317b266.jpg",
@@ -20,7 +20,7 @@
   {
     "name": "CLEAR_FinalNormal",
     "defaultvalue": 0,
-    "displayName": "CLEAR_FinalNormal",
+    "displayName": "Game Clear: Normal",
     "hidden": 0,
     "description": "Cleared the Game in normal difficulty.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1229900/e37ccbd8d8640ff0ab8ad8be2f4fc1758f929bd1.jpg",
@@ -29,7 +29,7 @@
   {
     "name": "CLEAR_FinalHard",
     "defaultvalue": 0,
-    "displayName": "CLEAR_FinalHard",
+    "displayName": "Game Clear: Hard",
     "hidden": 0,
     "description": "Cleared the Game in hard difficulty.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1229900/7f81f2787a839d40a7710fca627e3ed9c2d9b224.jpg",
@@ -47,7 +47,7 @@
   {
     "name": "Quest_Main_SearchTotem",
     "defaultvalue": 0,
-    "displayName": "Villians with masks",
+    "displayName": "Villains with masks",
     "hidden": 1,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1229900/d6527116a98dadf63a086c9e880fb84660a951e4.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1229900/2e038c4aa218cb54c83b44081a7287d2336361e1.jpg"
@@ -55,7 +55,7 @@
   {
     "name": "Quest_Main_FindCultShrine",
     "defaultvalue": 0,
-    "displayName": "Executor",
+    "displayName": "Executioner",
     "hidden": 1,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1229900/ce1786ef4c4bc19865c790c92383af6a602c0be2.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1229900/c1743be845f2d1c1ca0361c334c3978661495608.jpg"
@@ -119,7 +119,7 @@
   {
     "name": "Quest_Main_SearchForShrine_VOLCANO",
     "defaultvalue": 0,
-    "displayName": "An Intense punch",
+    "displayName": "An Intense Punch",
     "hidden": 1,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1229900/924df27ef31eb5a38ec5a6f032da488272d743de.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1229900/10f58dd9e5a131f264bf525d6e011a435ed0c94c.jpg"
@@ -143,7 +143,7 @@
   {
     "name": "Quest_Main_FindAstarte",
     "defaultvalue": 0,
-    "displayName": "Demon Slayer",
+    "displayName": "Dragon Slayer",
     "hidden": 1,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1229900/b4b1ea109d0e4d6bba64dd0a4a1ee57121e228b7.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1229900/7e8054eb44bd461f9c525ea88b7ad67f68b5511d.jpg"
@@ -159,7 +159,7 @@
   {
     "name": "Quest_Main_CultHeadquarters",
     "defaultvalue": 0,
-    "displayName": "The Magic Nerf",
+    "displayName": "Nerf the Mage",
     "hidden": 1,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1229900/1d78ff284afd32ab83c7d65f520a6260ce00d972.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1229900/aa897aa0c953753ff5366ea68a7a8e242837c1fe.jpg"
@@ -199,7 +199,7 @@
   {
     "name": "Quest_Sub_TimeCapsule",
     "defaultvalue": 0,
-    "displayName": "Back To The Future",
+    "displayName": "Back to the Future",
     "hidden": 1,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1229900/655bf953e6e50c8e0ac7287354f4c8e988bed231.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1229900/2be2cdf682baf09e3387c64d3af6336abbb5a267.jpg"
@@ -209,14 +209,14 @@
     "defaultvalue": 0,
     "displayName": "Enemy General, Down!",
     "hidden": 0,
-    "description": "Won a fight with a boss monster.",
+    "description": "Won a battle with a boss monster.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1229900/140792e648e57fccd07a8c68cd6934b17f127fde.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1229900/b75cf3293ec3cfa9a21f1e4e2b4398069e569d1d.jpg"
   },
   {
     "name": "KILL_GenieofTheLamp",
     "defaultvalue": 0,
-    "displayName": "A Friend Like Me",
+    "displayName": "You Ain't Never Had a Friend Like Me",
     "hidden": 1,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1229900/3cc3658d6da9d77730b009bcb3a2891cd6bdfa88.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1229900/62274b7158c4e6ffdaba70b6fa8c46afa0cb2ea6.jpg"
@@ -240,7 +240,7 @@
   {
     "name": "KILL_Purin",
     "defaultvalue": 0,
-    "displayName": "The Cat's Return",
+    "displayName": "The Cat Returns",
     "hidden": 1,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1229900/91b1ce61fa9cd3592f0babe8eb83d25f158f9889.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1229900/8ee818be5ceebe6a0bcd4d3a7e786ebe245263f4.jpg"
@@ -257,7 +257,7 @@
   {
     "name": "SCORE_DealtDamage",
     "defaultvalue": 0,
-    "displayName": "Damage Dealer",
+    "displayName": "Dealt 50,000 damages to enemies.",
     "hidden": 0,
     "description": "Delt 50,000 damage to the enemy.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1229900/eb91f0533159748f027c7eaecf96b4ce06783ef7.jpg",
@@ -275,7 +275,7 @@
   {
     "name": "SCORE_EarnedGold",
     "defaultvalue": 0,
-    "displayName": "Scrouge",
+    "displayName": "Plutocrat",
     "hidden": 0,
     "description": "Acquired 500,000 gold.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1229900/d3a321a6b322ee81d00de529cb586299a7379b6a.jpg",
@@ -284,16 +284,16 @@
   {
     "name": "SCORE_Overkill",
     "defaultvalue": 0,
-    "displayName": "Genocide",
+    "displayName": "Massacre",
     "hidden": 0,
-    "description": "Killed 50 enemies.",
+    "description": "Overkilled 50 enemies.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1229900/5cb89a84fa0f41f2471839e6899043c386cc78eb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1229900/b35ac5724678a81b84cc485ffd4df6e732a83cda.jpg"
   },
   {
     "name": "SCORE_OneShotOneKill",
     "defaultvalue": 0,
-    "displayName": "Divine Blade",
+    "displayName": "One Hit, One Kill",
     "hidden": 0,
     "description": "One-hit killed 50 enemies.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1229900/d7deb8d55f8ce8a7c86f7da6cff5e6bd8e564b0d.jpg",
@@ -345,7 +345,7 @@
     "defaultvalue": 0,
     "displayName": "In Need of a Good Break",
     "hidden": 0,
-    "description": "Rested at a bonfire with all stamina is.",
+    "description": "Rested at a bonfire with all stamina depleted.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1229900/e1cf460eb550ffc0db6c8541c5968d1e73165553.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1229900/90092c5311237c1dd696b45bbf327eb881b84acc.jpg"
   },
@@ -363,7 +363,7 @@
     "defaultvalue": 0,
     "displayName": "Fugitives",
     "hidden": 0,
-    "description": "Failed a quest from a hero running away.",
+    "description": "Failed a quest due to a hero running away.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1229900/6b1e22f29bddc4397847ba2b08fb36f981310eb8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1229900/93d4284201dbb00c94ab3d6a8242a3b5918868cf.jpg"
   },
@@ -399,7 +399,7 @@
     "defaultvalue": 0,
     "displayName": "The Witch's Brew",
     "hidden": 0,
-    "description": "Crafted a mythical item in the witch's kiln.",
+    "description": "Crafted a mythical item in the witch's cauldron.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1229900/15046de0e94b78abc3c0f03216f174436e0d0251.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1229900/2bae1f6609e67e207e043b8ddb21e32290ae3de9.jpg"
   },
@@ -408,7 +408,7 @@
     "defaultvalue": 0,
     "displayName": "Super Heat Furnace",
     "hidden": 0,
-    "description": "Crafted a mythical item in the strange furnace.",
+    "description": "Crafted a mythical item in the mysterious blast furnace.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1229900/87ac0e923dde1834412058d48994a2b1a3acf7e3.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1229900/a4e9a8b82ba9521b47cd2c9df608dd26b221ffba.jpg"
   },
@@ -417,7 +417,7 @@
     "defaultvalue": 0,
     "displayName": "We Made It!",
     "hidden": 0,
-    "description": "Cleared a quest with five heroes mentality level down or in hysteric mode.",
+    "description": "Cleared a quest with five heroes in either a nervous or hysteric mental state.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1229900/7917d68167f38b8fca1dd036699afe61a7a986bc.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1229900/830136c103c6febc7b9b73c0061da05d3e4d8898.jpg"
   },
@@ -451,7 +451,7 @@
   {
     "name": "BATTLE_CounterKill",
     "defaultvalue": 0,
-    "displayName": "Cross Counter",
+    "displayName": "Cross-counter",
     "hidden": 0,
     "description": "Defeated an enemy with a counter attack.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1229900/d4fa40a7f840fb29b16c209b2d9776b250701967.jpg",
@@ -478,9 +478,9 @@
   {
     "name": "BATTLE_Damage300atOnce",
     "defaultvalue": 0,
-    "displayName": "Fatal Blow",
+    "displayName": "Critical Hit",
     "hidden": 0,
-    "description": "Delt 300+ damage in one blow.",
+    "description": "Dealt 300+ damage in one blow.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1229900/0f5f25c9ba68baebe8857ed3aacd5d60ef5d568b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1229900/ba5c8926dd2679c3633d9dedf0c50ab7fdb1673d.jpg"
   },
@@ -496,7 +496,7 @@
   {
     "name": "BATTLE_Kill3atOnce",
     "defaultvalue": 0,
-    "displayName": "Three Birds One Stone",
+    "displayName": "Three Birds, One Stone",
     "hidden": 0,
     "description": "Took down three monsters with one blow.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1229900/ca231f6f900bef7c87dff463da6237b5edb359a3.jpg",
@@ -507,14 +507,14 @@
     "defaultvalue": 0,
     "displayName": "Run!",
     "hidden": 0,
-    "description": "Successfully avoided the \"Dragon's Breath\".",
+    "description": "Successfully avoided a dragon's breath.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1229900/0a45cc9f88c3f94059712d46bf53acfe481fdb93.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1229900/7a67efa3d2caebf009d867e263d49abb8740b9ba.jpg"
   },
   {
     "name": "BATTLE_HeroDead",
     "defaultvalue": 0,
-    "displayName": "Rest In Peace",
+    "displayName": "Rest in Peace",
     "hidden": 0,
     "description": "Lost a hero during battle.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1229900/006fb9a65b25b5655034088e1a7ca4d01131eadd.jpg",
@@ -525,7 +525,7 @@
     "defaultvalue": 0,
     "displayName": "Mass Production",
     "hidden": 0,
-    "description": "Created over 50 items.",
+    "description": "Created 50 items.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1229900/df21460802e330406fa5bb13c319f3cb594273e1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1229900/b83bfb45c6d4271b30333d48da6ea911fab5a9a3.jpg"
   },
@@ -558,7 +558,7 @@
   {
     "name": "TOWN_RevealPastTruth",
     "defaultvalue": 0,
-    "displayName": "The Hero's Secret",
+    "displayName": "Secret of the Heroes",
     "hidden": 1,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1229900/a7e66f20e16c8326e0e64d4706e6151b285b7e08.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1229900/5f3720d5c1b8d00a6444cad57b9104321e842487.jpg"
@@ -574,7 +574,7 @@
   {
     "name": "HERO_GetEveryJob",
     "defaultvalue": 0,
-    "displayName": "Employment Stability",
+    "displayName": "Stabilize Employment",
     "hidden": 0,
     "description": "Employed heroes of every job.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1229900/81384af6ddf126e659a8b16da881e75120fe68e5.jpg",
@@ -585,7 +585,7 @@
     "defaultvalue": 0,
     "displayName": "Making Space",
     "hidden": 0,
-    "description": "Removed all special qaulities from hero's level five and under.",
+    "description": "Removed all special qualities from heroes level five and over.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1229900/e6a2a5ac5432797262d578daf0c67889cec1ccac.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1229900/1dbc27276503ac798827aa4684dbfe1941414a4a.jpg"
   },
@@ -601,9 +601,9 @@
   {
     "name": "HERO_SucceessHero",
     "defaultvalue": 0,
-    "displayName": "Baton Touch",
+    "displayName": "Pass the Baton",
     "hidden": 0,
-    "description": "Asscended a hero for the first time.",
+    "description": "Succeeded a hero for the first time.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1229900/c01a27fd1f9155540460908182af83028a3aa629.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1229900/7c992b99ec5b4aad7da75c8c681fad1d216b9e2c.jpg"
   },
@@ -612,7 +612,7 @@
     "defaultvalue": 0,
     "displayName": "Farming",
     "hidden": 0,
-    "description": "Equipted a hero with five or more Legendary items.",
+    "description": "Equipped a hero with five or more legendary items.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1229900/b99b7f30976176e422ba00699549a81c34a38cb5.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1229900/67280f549257c3f6ee9d0b59da4d5ae54be5c730.jpg"
   },
@@ -628,16 +628,16 @@
   {
     "name": "SCORE_BossKilled",
     "defaultvalue": 0,
-    "displayName": "Looking For Raiders",
+    "displayName": "Looking for Raiders",
     "hidden": 0,
-    "description": "Won over 50 boss monster fights.",
+    "description": "Won 50 battles against boss monsters.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1229900/f61af7cb1e3509c1358049eb7ad9ec0f5382066a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1229900/1393c7a96760fd4b183e9f11bece105b626bf0c9.jpg"
   },
   {
     "name": "SCORE_WeakPoint",
     "defaultvalue": 0,
-    "displayName": "Hit Where It Hurts",
+    "displayName": "Hit where it Hurts",
     "hidden": 0,
     "description": "Successfully attacked 200 weak points.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1229900/82f80e4cd71af96e77444d6fad3e5f2fc76717ba.jpg",
@@ -656,7 +656,7 @@
     "defaultvalue": 0,
     "displayName": "The Conqueror",
     "hidden": 0,
-    "description": "An enemy killed another enemy with their own attack.",
+    "description": "An enemy is killed by another enemy's attack.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1229900/9e5c08cf3ee50f60f57ce67872d4eaaf5e7fc601.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1229900/7e50903c70b180b0ddec82b75404012ba00c7586.jpg"
   },
@@ -672,7 +672,7 @@
   {
     "name": "ARENA_ConquestClear",
     "defaultvalue": 0,
-    "displayName": "Conqueror of The Arena",
+    "displayName": "Conqueror of the Arena",
     "hidden": 0,
     "description": "Obtained all rewards from the Arena in conquest mode.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1229900/fd8b298e93f76d4117fbb8cff2f3ac011cdc4c3d.jpg",
@@ -681,7 +681,7 @@
   {
     "name": "ARENA_ChallengeClear",
     "defaultvalue": 0,
-    "displayName": "Ruler of The Arena",
+    "displayName": "Ruler of the Arena",
     "hidden": 0,
     "description": "Obtained all rewards from the Arena in challenge mode.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1229900/389ab0fe352f6f7f74e9ae080e296ebc2e923bf0.jpg",
@@ -690,16 +690,16 @@
   {
     "name": "SCORE_Victory",
     "defaultvalue": 0,
-    "displayName": "The Tamegherian's Are Made For Battle",
+    "displayName": "The Tamegerian's are made for Battle",
     "hidden": 0,
-    "description": "Won over 200 battles.",
+    "description": "Won 200 battles.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1229900/51159525a9e1adf0e5779e4bea400e16fe6d5eb8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1229900/64897a5826522c7bb9694336c5300756a6147f1b.jpg"
   },
   {
     "name": "DUNGEON_EnterHiddenRoom",
     "defaultvalue": 0,
-    "displayName": "Aria and The Chamber of Secrets",
+    "displayName": "Aria and the Chamber of Secrets",
     "hidden": 0,
     "description": "Found a hidden room in a dungeon for the first time.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1229900/ddb01ee0947d7ef0ae5749892f4e5b055576f76a.jpg",
@@ -719,7 +719,7 @@
     "defaultvalue": 0,
     "displayName": "1+1",
     "hidden": 0,
-    "description": "Completed an addition quest for the first time.",
+    "description": "Completed a subquest for the first time.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1229900/a542f6ccf4e9c72e1254dd9918ed1eaf309e2ce1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1229900/9b361ddde824410b9324dc40c8b9ae657e39913f.jpg"
   },
@@ -728,7 +728,7 @@
     "defaultvalue": 0,
     "displayName": "My Hand Slipped!",
     "hidden": 0,
-    "description": "Failed to create an item in the witch's kiln or the mysterious furnace.",
+    "description": "Failed to create an item with the witch's cauldron or the mysterious blast furnace.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1229900/3930062932ea8860c59fe507be328215c537b5aa.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1229900/f8c3a6f427050e9637f63b8f7a7ef0f890c69d81.jpg"
   },
@@ -737,7 +737,7 @@
     "defaultvalue": 0,
     "displayName": "I Am Legend",
     "hidden": 0,
-    "description": "Cleared the Game in hard or higher difficulty without any heroes dying.",
+    "description": "Cleared the game in Hard difficulty without any heroes dying.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1229900/c1751209aff7e0de994c00ff8437d55761628164.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1229900/c8fdfb4f7e0b64f61075546cc2719d2e12528f10.jpg"
   },
@@ -780,9 +780,9 @@
   {
     "name": "TOWN_CollectAllCodex",
     "defaultvalue": 0,
-    "displayName": "Clergy",
+    "displayName": "Clerk",
     "hidden": 0,
-    "description": "Acquired all codex.",
+    "description": "Acquired all codices.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1229900/12d3101a5b45b1566abf0fe37b22f88358af75d4.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1229900/ba89280e1486db929bf3a7aebf58438bce038ec9.jpg"
   },
@@ -791,7 +791,7 @@
     "defaultvalue": 0,
     "displayName": "I Choose You!",
     "hidden": 0,
-    "description": "Completed you monster deck.",
+    "description": "Completed your Monster Guide.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1229900/86590e7d615bf0ea08da62612b88e7ca4b0a2cd6.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1229900/d18dc4788e27d90e65575efd193ca23954e464dd.jpg"
   },
@@ -800,16 +800,16 @@
     "defaultvalue": 0,
     "displayName": "Check Your Belongings",
     "hidden": 0,
-    "description": "Maxed out all bag expansions.",
+    "description": "Maxed out on Inventory Slots.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1229900/5f29481a6586ffc1c3c023f3f894de737f8c891e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1229900/59b60fbbcb26558a498cedd344e9c994fc7e6191.jpg"
   },
   {
     "name": "HERO_GetInvoker",
     "defaultvalue": 0,
-    "displayName": "Summon a Summoner",
+    "displayName": "Summon an Invoker",
     "hidden": 0,
-    "description": "Employed a Summoner.",
+    "description": "Employed an Invoker.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1229900/2b41e643879eeab850a1ba2cb47c47edc12e4be1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1229900/cce942e01c2c34e54b09c0ea3bb56df4fbbde6ab.jpg"
   },
@@ -818,7 +818,7 @@
     "defaultvalue": 0,
     "displayName": "Collector",
     "hidden": 0,
-    "description": "Completed you Item deck.",
+    "description": "Completed your Item Guide.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1229900/0a72a72ceb9cfd4083eccc0ffe82bfa3576f88e7.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1229900/121cf56a7af62df84367b3bcd82330f1ef742aa7.jpg"
   },
@@ -834,25 +834,27 @@
   {
     "name": "Quest_Sub_Glazzard",
     "defaultvalue": 0,
-    "displayName": "Dragon Slayer",
-    "hidden": 1,
+    "displayName": "Ice Dragon Slayer",
+    "hidden": 0,
+    "description": "Defeated the Ice Dragon Glazzard.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1229900/12fac96501c6679863abb99eb39876f96461c730.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1229900/988a66588cf525e85ee7e292bbf4ac12abd3d317.jpg"
   },
   {
     "name": "BATTLE_ColdHeartImprovedClear",
     "defaultvalue": 0,
-    "displayName": "Cool and Quiet",
-    "hidden": 1,
+    "displayName": "Between Calmness and Passion",
+    "hidden": 0,
+    "description": "Successfully cleared Glazzard's Trial of Cold Heart+.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1229900/3bb6c79ee77685018ebf55d1932045a51399a9f6.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1229900/cd0ce62ce73fb6120c40fee90c5228881f1b305a.jpg"
   },
   {
     "name": "TOWN_CraftAllLegendaryExclusiveItem",
     "defaultvalue": 0,
-    "displayName": "Lust Causes Voluntary Actions",
+    "displayName": "You've Outdone It This Time",
     "hidden": 0,
-    "description": "Gained all the Job-only mythical items at the black market.",
+    "description": "Obtained all the Job-specific mythical items at the black market.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1229900/2181bc7865fc05426d3f510e8755f84d3058a8d3.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1229900/af99b5c68f4d70275e404562d928a45a9c1ff4e8.jpg"
   },
@@ -861,8 +863,80 @@
     "defaultvalue": 0,
     "displayName": "As You Like It",
     "hidden": 0,
-    "description": "Customize the appearence of Hero.",
+    "description": "Customized the appearance of the Hero.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1229900/8f8b015bbc20f852ad250d5bf6f159663da335fd.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1229900/258dbfff08cb8b7aed0117a20f4967eb635a3ebf.jpg"
+  },
+  {
+    "name": "ARENA_AscensionClear",
+    "defaultvalue": 0,
+    "displayName": "The Ascended One",
+    "hidden": 0,
+    "description": "Cleared the Ascension Mode.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1229900/6dba4f21efa75dd25482374d5b1b4a8a53e42415.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1229900/9017613bd768527632bb3b01309507868a2042ee.jpg"
+  },
+  {
+    "name": "ARENA_AscensionGetAllRunes",
+    "defaultvalue": 0,
+    "displayName": "Rune Stone Collector",
+    "hidden": 0,
+    "description": "Obtained all rune stones for a single Champion.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1229900/cfbeb130d1ebba20862565c32b2bde99e07619b8.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1229900/99d41f7fe9470899c4d60385f3620f1ee64e1fce.jpg"
+  },
+  {
+    "name": "ARENA_AscensionAllRunesActivateClear",
+    "defaultvalue": 0,
+    "displayName": "It is Finished",
+    "hidden": 0,
+    "description": "Cleared the Ascension Mode with all rune stones activated.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1229900/7fd5b523bcf44a0e097286a314690ec4637d8158.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1229900/f93495cb1f395a7aae8431d6c9320e6beb4b5af6.jpg"
+  },
+  {
+    "name": "TOWN_CollectAllAscensionMonsterGuide",
+    "defaultvalue": 0,
+    "displayName": "I Choose You! G",
+    "hidden": 0,
+    "description": "Completed the Monster Guide of the Ascension Mode.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1229900/03cd498f9093ca871044a9fa5349e6f438762dc3.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1229900/ef8159fe0b73867bb4e7a68ab0e280b9cb21ea09.jpg"
+  },
+  {
+    "name": "TOWN_CollectAllAscensionItem",
+    "defaultvalue": 0,
+    "displayName": "Greed is a Bottomless Pit...",
+    "hidden": 0,
+    "description": "Completed the Item Guide of the Ascension Mode.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1229900/eb1906b6749fa28f0035ae613c502b7059a13cf1.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1229900/da124702cee302b56b40c433815261aea2f2e65c.jpg"
+  },
+  {
+    "name": "KILL_ZombieWyvern",
+    "defaultvalue": 0,
+    "displayName": "Revenant Killer",
+    "hidden": 0,
+    "description": "Defeated the Zombie Wyvern",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1229900/5fd7db557e1ef18e503b89f4091304c70ef8c87c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1229900/368ebe5b84e1d5e8879f0972a972c803e0993ca6.jpg"
+  },
+  {
+    "name": "KILL_Demogorgon",
+    "defaultvalue": 0,
+    "displayName": "Thunder Strike",
+    "hidden": 0,
+    "description": "Defeated the Demogorgon",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1229900/3d6afd984313a9fd6b0708a95e55baee3882afc8.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1229900/016fa5c0fe04f8af8a7e359778f90b5d40a71327.jpg"
+  },
+  {
+    "name": "BATTLE_FullChargeDestroy",
+    "defaultvalue": 0,
+    "displayName": "Buzz",
+    "hidden": 0,
+    "description": "Succeeded to remove Full Charge from the Demogorgon.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1229900/fef551ea98cf8345b527700e91372764923b4dc3.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1229900/9ce2ac56c705ac54ab651b9ea479edc6756c8c8d.jpg"
   }
 ]

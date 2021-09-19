@@ -1,118 +1,252 @@
-﻿{
-  "gold": {
-    "description": "Gold",
-    "value": 0
+[
+  {
+    "name": "gold",
+    "defaultvalue": 0,
+    "displayName": "Gold"
   },
-  "kills": {
-    "description": "Kills",
-    "value": 0
+  {
+    "name": "kills",
+    "defaultvalue": 0,
+    "displayName": "Kills"
   },
-  "deaths": {
-    "description": "Deaths",
-    "value": 0
+  {
+    "name": "deaths",
+    "defaultvalue": 0,
+    "displayName": "Deaths"
   },
-  "wins": {
-    "description": "Wins",
-    "value": 0
+  {
+    "name": "wins",
+    "defaultvalue": 0,
+    "displayName": "Wins"
   },
-  "score": {
-    "description": "Score",
-    "value": 0
+  {
+    "name": "score",
+    "defaultvalue": 0,
+    "displayName": "Score"
   },
-  "souls_pick": {
-    "description": "souls_pick",
-    "value": 0
+  {
+    "name": "souls_pick",
+    "defaultvalue": 0,
+    "displayName": "souls_pick"
   },
-  "cementery_plays": {
-    "description": "cementery_plays",
-    "value": 0
+  {
+    "name": "cementery_plays",
+    "defaultvalue": 0,
+    "displayName": "cementery_plays"
   },
-  "balia_mastery": {
-    "description": "balia_mastery",
-    "value": 0
+  {
+    "name": "balia_mastery",
+    "defaultvalue": 0,
+    "displayName": "balia_mastery"
   },
-  "ordwick_mastery": {
-    "description": "ordwick_mastery",
-    "value": 0
+  {
+    "name": "ordwick_mastery",
+    "defaultvalue": 0,
+    "displayName": "ordwick_mastery"
   },
-  "marcella_mastery": {
-    "description": "marcella_mastery",
-    "value": 0
+  {
+    "name": "marcella_mastery",
+    "defaultvalue": 0,
+    "displayName": "marcella_mastery"
   },
-  "balia_experience": {
-    "description": "balia_experience",
-    "value": 0
+  {
+    "name": "balia_experience",
+    "defaultvalue": 0,
+    "displayName": "balia_experience"
   },
-  "ordwick_experience": {
-    "description": "ordwick_experience",
-    "value": 0
+  {
+    "name": "ordwick_experience",
+    "defaultvalue": 0,
+    "displayName": "ordwick_experience"
   },
-  "marcella_experience": {
-    "description": "marcella_experience",
-    "value": 0
+  {
+    "name": "marcella_experience",
+    "defaultvalue": 0,
+    "displayName": "marcella_experience"
   },
-  "mine_plays": {
-    "description": "mine_plays",
-    "value": 0
+  {
+    "name": "mine_plays",
+    "defaultvalue": 0,
+    "displayName": "mine_plays"
   },
-  "global_experience": {
-    "description": "global_experience",
-    "value": 0
+  {
+    "name": "global_experience",
+    "defaultvalue": 0,
+    "displayName": "global_experience"
   },
-  "berseker_uses": {
-    "description": "berseker_uses",
-    "value": 0
+  {
+    "name": "berseker_uses",
+    "defaultvalue": 0,
+    "displayName": "berseker_uses"
   },
-  "teleport_uses": {
-    "description": "teleport_uses",
-    "value": 0
+  {
+    "name": "teleport_uses",
+    "defaultvalue": 0,
+    "displayName": "teleport_uses"
   },
-  "backstep_uses": {
-    "description": "backstep_uses",
-    "value": 0
+  {
+    "name": "backstep_uses",
+    "defaultvalue": 0,
+    "displayName": "backstep_uses"
   },
-  "matches": {
-    "description": "matches",
-    "value": 0
+  {
+    "name": "matches",
+    "defaultvalue": 0,
+    "displayName": "matches"
   },
-  "score_ordwick": {
-    "description": "score_ordwick",
-    "value": 0
+  {
+    "name": "score_ordwick",
+    "defaultvalue": 0,
+    "displayName": "score_ordwick"
   },
-  "score_balia": {
-    "description": "score_balia",
-    "value": 0
+  {
+    "name": "score_balia",
+    "defaultvalue": 0,
+    "displayName": "score_balia"
   },
-  "score_marcella": {
-    "description": "score_marcella",
-    "value": 0
+  {
+    "name": "score_marcella",
+    "defaultvalue": 0,
+    "displayName": "score_marcella"
   },
-  "total_gold": {
-    "description": "total_gold",
-    "value": 0
+  {
+    "name": "total_gold",
+    "defaultvalue": 0,
+    "displayName": "total_gold"
   },
-  "ahgia_mastery": {
-    "description": "ahgia_mastery",
-    "value": 0
+  {
+    "name": "ahgia_mastery",
+    "defaultvalue": 0,
+    "displayName": "ahgia_mastery"
   },
-  "abdom_mastery": {
-    "description": "abdom_mastery",
-    "value": 0
+  {
+    "name": "abdom_mastery",
+    "defaultvalue": 0,
+    "displayName": "abdom_mastery"
   },
-  "score_ahgia": {
-    "description": "score_ahgia",
-    "value": 0
+  {
+    "name": "score_ahgia",
+    "defaultvalue": 0,
+    "displayName": "score_ahgia"
   },
-  "score_abdom": {
-    "description": "score_abdom",
-    "value": 0
+  {
+    "name": "score_abdom",
+    "defaultvalue": 0,
+    "displayName": "score_abdom"
   },
-  "abdom_experience": {
-    "description": "abdom_experience",
-    "value": 0
+  {
+    "name": "abdom_experience",
+    "defaultvalue": 0,
+    "displayName": "abdom_experience"
   },
-  "ahgia_experience": {
-    "description": "ahgia_experience",
-    "value": 0
+  {
+    "name": "ahgia_experience",
+    "defaultvalue": 0,
+    "displayName": "ahgia_experience"
+  },
+  {
+    "name": "score_doriant",
+    "defaultvalue": 0,
+    "displayName": "score_doriant"
+  },
+  {
+    "name": "doriant_experience",
+    "defaultvalue": 0,
+    "displayName": "doriant_experience"
+  },
+  {
+    "name": "doriant_mastery",
+    "defaultvalue": 0,
+    "displayName": "doriant_mastery"
+  },
+  {
+    "name": "halloweenCoin",
+    "defaultvalue": 0,
+    "displayName": "halloweenCoin"
+  },
+  {
+    "name": "balia_level",
+    "defaultvalue": 1,
+    "displayName": "Nivel de Balia"
+  },
+  {
+    "name": "ordwic_level",
+    "defaultvalue": 1,
+    "displayName": "Nivel de Ordwic"
+  },
+  {
+    "name": "aghia_level",
+    "defaultvalue": 1,
+    "displayName": "Nivel de Aghia"
+  },
+  {
+    "name": "marcella_level",
+    "defaultvalue": 1,
+    "displayName": "Nivel de Marcella"
+  },
+  {
+    "name": "abdon_level",
+    "defaultvalue": 1,
+    "displayName": "Nivel de Abdon"
+  },
+  {
+    "name": "doriant_level",
+    "defaultvalue": 1,
+    "displayName": "Nidel de Doriant"
+  },
+  {
+    "name": "modos_unlock",
+    "defaultvalue": 0,
+    "displayName": "Modos de juego"
+  },
+  {
+    "name": "heroes_unlock",
+    "defaultvalue": 0,
+    "displayName": "Heroes desbloqueados"
+  },
+  {
+    "name": "rewards_state",
+    "defaultvalue": 0,
+    "displayName": "Estado de las recompensas de trofeos"
+  },
+  {
+    "name": "rewards_state2",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "rewards_state3",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "mystic_level",
+    "defaultvalue": 1,
+    "displayName": "Nivel de Mystic"
+  },
+  {
+    "name": "mystic_experience",
+    "defaultvalue": 0,
+    "displayName": "Mystic xp"
+  },
+  {
+    "name": "mystic_mastery",
+    "defaultvalue": 0,
+    "displayName": "Mystic mastery"
+  },
+  {
+    "name": "level_scroll",
+    "defaultvalue": 0,
+    "displayName": "Scroll de Subir Nivel"
+  },
+  {
+    "name": "faccion",
+    "defaultvalue": 0,
+    "displayName": "Faccion elegida 1 o 2"
+  },
+  {
+    "name": "gema",
+    "defaultvalue": 250,
+    "displayName": "Blue Coins"
   }
-}
+]

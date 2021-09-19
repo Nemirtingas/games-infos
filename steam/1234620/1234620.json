@@ -1,14 +1,9 @@
 {
-  "Dlcs": {},
-  "Name": "Tinker Racers",
-  "AppId": "1234620",
-  "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/1234620/header.jpg?t=1597267281",
-  "Languages": [
-    "english"
-  ],
-  "Platforms": {
-    "windows": true,
-    "mac": false,
-    "linux": false
+  "Dlcs": {
+    "1498390": {
+      "Name": "Tinker Racers Soundtrack",
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1498390/header.jpg?t=1608207850",
+      "Type": "music"
+    }
   }
 }

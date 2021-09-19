@@ -1,46 +1,57 @@
-﻿{
-  "t00besttime_t00besttime": {
-    "description": "Tilt Level 0 Best Time",
-    "value": 0
+[
+  {
+    "name": "t00besttime_t00besttime",
+    "defaultvalue": 0,
+    "displayName": "Tilt Level 0 Best Time"
   },
-  "t00attempts_t00attempts": {
-    "description": "Tilt Level 0 Attempts",
-    "value": 0
+  {
+    "name": "t00attempts_t00attempts",
+    "defaultvalue": 0,
+    "displayName": "Tilt Level 0 Attempts"
   },
-  "t00score_t00score": {
-    "description": "Tilt Level 0 Cheese Collected",
-    "value": 0
+  {
+    "name": "t00score_t00score",
+    "defaultvalue": 0,
+    "displayName": "Tilt Level 0 Cheese Collected"
   },
-  "t00totaltime_t00totaltime": {
-    "description": "Tilt Level 0 Playtime",
-    "value": 0
+  {
+    "name": "t00totaltime_t00totaltime",
+    "defaultvalue": 0,
+    "displayName": "Tilt Level 0 Playtime"
   },
-  "t00fails_t00fails": {
-    "description": "Tilt Level 0 Failed Attempts",
-    "value": 0
+  {
+    "name": "t00fails_t00fails",
+    "defaultvalue": 0,
+    "displayName": "Tilt Level 0 Failed Attempts"
   },
-  "t00deadrats_t00deadrats": {
-    "description": "Tilt Level 0 Rats Killed",
-    "value": 0
+  {
+    "name": "t00deadrats_t00deadrats",
+    "defaultvalue": 0,
+    "displayName": "Tilt Level 0 Rats Killed"
   },
-  "t00failtime_t00failtime": {
-    "description": "Tilt Level 0 Failed Attempts Time",
-    "value": 0
+  {
+    "name": "t00failtime_t00failtime",
+    "defaultvalue": 0,
+    "displayName": "Tilt Level 0 Failed Attempts Time"
   },
-  "t00motioncontrol_t00motioncontrol": {
-    "description": "Tilt Level 0 Motion Control",
-    "value": 0
+  {
+    "name": "t00motioncontrol_t00motioncontrol",
+    "defaultvalue": 0,
+    "displayName": "Tilt Level 0 Motion Control"
   },
-  "score_score": {
-    "description": "Total Cheese Collected",
-    "value": 0
+  {
+    "name": "score_score",
+    "defaultvalue": 0,
+    "displayName": "Total Cheese Collected"
   },
-  "deadrats_deadrats": {
-    "description": "Total Rats Killed",
-    "value": 0
+  {
+    "name": "deadrats_deadrats",
+    "defaultvalue": 0,
+    "displayName": "Total Rats Killed"
   },
-  "hats_hats": {
-    "description": "Total Hats Collected",
-    "value": 0
+  {
+    "name": "hats_hats",
+    "defaultvalue": 0,
+    "displayName": "Total Hats Collected"
   }
-}
+]

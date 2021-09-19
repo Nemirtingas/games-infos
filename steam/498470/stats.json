@@ -1,58 +1,72 @@
-﻿{
-  "STAT_KILLS": {
-    "description": "Aliens Killed",
-    "value": 0
+[
+  {
+    "name": "STAT_KILLS",
+    "defaultvalue": 0,
+    "displayName": "Aliens Killed"
   },
-  "STAT_MISSES": {
-    "description": "Aliens Missed",
-    "value": 0
+  {
+    "name": "STAT_MISSES",
+    "defaultvalue": 0,
+    "displayName": "Aliens Missed"
   },
-  "STAT_SWITCHES": {
-    "description": "Switches",
-    "value": 0
+  {
+    "name": "STAT_SWITCHES",
+    "defaultvalue": 0,
+    "displayName": "Switches"
   },
-  "STAT_BULLETS": {
-    "description": "Bullets Fired",
-    "value": 0
+  {
+    "name": "STAT_BULLETS",
+    "defaultvalue": 0,
+    "displayName": "Bullets Fired"
   },
-  "STAT_BULLETS_MISSED": {
-    "description": "Bullets Missed",
-    "value": 0
+  {
+    "name": "STAT_BULLETS_MISSED",
+    "defaultvalue": 0,
+    "displayName": "Bullets Missed"
   },
-  "STAT_DEATHS": {
-    "description": "Pilots Lost",
-    "value": 0
+  {
+    "name": "STAT_DEATHS",
+    "defaultvalue": 0,
+    "displayName": "Pilots Lost"
   },
-  "STAT_POWERUPS": {
-    "description": "Powerups",
-    "value": 0
+  {
+    "name": "STAT_POWERUPS",
+    "defaultvalue": 0,
+    "displayName": "Powerups"
   },
-  "STAT_POWERUPS_MISSED": {
-    "description": "Powerups Missed",
-    "value": 0
+  {
+    "name": "STAT_POWERUPS_MISSED",
+    "defaultvalue": 0,
+    "displayName": "Powerups Missed"
   },
-  "STAT_SHIELDS": {
-    "description": "Shields",
-    "value": 0
+  {
+    "name": "STAT_SHIELDS",
+    "defaultvalue": 0,
+    "displayName": "Shields"
   },
-  "STAT_SHIELDS_MISSED": {
-    "description": "Shields Missed",
-    "value": 0
+  {
+    "name": "STAT_SHIELDS_MISSED",
+    "defaultvalue": 0,
+    "displayName": "Shields Missed"
   },
-  "STAT_HYPERDRIVES": {
-    "description": "Hyperdrives",
-    "value": 0
+  {
+    "name": "STAT_HYPERDRIVES",
+    "defaultvalue": 0,
+    "displayName": "Hyperdrives"
   },
-  "STAT_BOSSES": {
-    "description": "Incubators Killed",
-    "value": 0
+  {
+    "name": "STAT_BOSSES",
+    "defaultvalue": 0,
+    "displayName": "Incubators Killed"
   },
-  "STAT_ACCURACY": {
-    "description": "Accuracy",
-    "value": 0
+  {
+    "name": "STAT_ACCURACY",
+    "defaultvalue": 0,
+    "displayName": "Accuracy"
   },
-  "STAT_SECTOR": {
-    "description": "Furthest Sector",
-    "value": 0
+  {
+    "name": "STAT_SECTOR",
+    "defaultvalue": 0,
+    "displayName": "Furthest Sector"
   }
-}
+]

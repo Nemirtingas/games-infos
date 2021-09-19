@@ -2,12 +2,13 @@
   "Dlcs": {
     "1027880": {
       "Name": "A Dance of Fire and Ice - Official Soundtrack",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/1027880/header.jpg?t=1596804522"
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1027880/header.jpg?t=1596804522",
+      "Type": "dlc"
     }
   },
   "Name": "A Dance of Fire and Ice",
   "AppId": "977950",
-  "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/977950/header.jpg?t=1593236662",
+  "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/977950/header.jpg?t=1618571569",
   "Languages": [
     "english",
     "spanish",
@@ -18,7 +19,9 @@
     "japanese",
     "latam",
     "polish",
-    "romanian"
+    "romanian",
+    "russian",
+    "vietnamese"
   ],
   "Platforms": {
     "windows": true,

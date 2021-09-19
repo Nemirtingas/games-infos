@@ -58,7 +58,7 @@
     "defaultvalue": 0,
     "displayName": "On A Roll",
     "hidden": 0,
-    "description": "Prevent a mouldy HotCross from entering the Oven.",
+    "description": "Prevent a mouldy Lil' Bun from entering the Oven.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1080410/73e42bdf8fc80e740ca979f5d566ca17f9fd14be.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1080410/57957d1af57f10b1c682620be68bba39870bf20c.jpg"
   },
@@ -85,7 +85,7 @@
     "defaultvalue": 0,
     "displayName": "Veteran Baker",
     "hidden": 0,
-    "description": "Baked a total of 1,000 doughs.",
+    "description": "Bake the correct order 1,000 times!",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1080410/37c116d43c14ab8a83ad5dd4f8e5db53743e183c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1080410/a299fe4d349579edeb69f907de131880d0472e1a.jpg"
   },
@@ -196,5 +196,41 @@
     "description": "Smite 5 mouldies while they are dancing.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1080410/a9ef28d055b4c7b2b27ddf73d0359babbbc9ddbf.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1080410/9f9aa7b1101466664a9289172f1b34afa264e60b.jpg"
+  },
+  {
+    "name": "BNS_CLEANSEMOLDY_100",
+    "defaultvalue": 0,
+    "displayName": "Shh, There's No Health Inspector",
+    "hidden": 0,
+    "description": "Cleanse 100 mouldy doughs.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1080410/4736cdc85af97c2df9e16dc20a6b73ff7773700e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1080410/de6058779838aedffe3efdc9b4d8b92223e8928d.jpg"
+  },
+  {
+    "name": "BNS_CLEANSE_MOULDY",
+    "defaultvalue": 0,
+    "displayName": "Cut Around the Mould",
+    "hidden": 0,
+    "description": "Cleanse 7 mouldy dough at once",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1080410/bfb0c25cdceca21ebe0b9c344e7e2e35dec283d9.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1080410/ed11fdc004f3913a5e664cb9d9bce0e94b36a0be.jpg"
+  },
+  {
+    "name": "BNS_CLEANSE_MOULDY_MAX",
+    "defaultvalue": 0,
+    "displayName": "Mouldy Mouldy Mouldy",
+    "hidden": 0,
+    "description": "Cleanse a mouldy max dough",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1080410/3660208973f7de181d071452045d5777efd75b72.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1080410/bca279dada7ccd6426d6448c6679351aa9c13549.jpg"
+  },
+  {
+    "name": "BNS_GLOOM_AND_DOOM",
+    "defaultvalue": 0,
+    "displayName": "Gloom and Doom",
+    "hidden": 0,
+    "description": "Clear all shroom levels",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1080410/6dee7176370cfaabcec125577a79aa8cef0a882a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1080410/6970a1b17ef504a10e971775d7a3aa77c246e1a9.jpg"
   }
 ]

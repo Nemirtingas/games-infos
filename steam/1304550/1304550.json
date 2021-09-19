@@ -2,7 +2,7 @@
   "Dlcs": {},
   "Name": "Progressbar95",
   "AppId": "1304550",
-  "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/1304550/header.jpg?t=1600201830",
+  "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1304550/header.jpg?t=1607460946",
   "Languages": [
     "english",
     "french",
@@ -15,11 +15,12 @@
     "portuguese",
     "turkish",
     "japanese",
-    "romanian"
+    "romanian",
+    "portuguese"
   ],
   "Platforms": {
     "windows": true,
-    "mac": false,
+    "mac": true,
     "linux": false
   }
 }

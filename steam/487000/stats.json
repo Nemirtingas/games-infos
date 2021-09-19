@@ -1,90 +1,112 @@
-﻿{
-  "treesCut": {
-    "description": "Trees cut",
-    "value": 0
+[
+  {
+    "name": "treesCut",
+    "defaultvalue": 0,
+    "displayName": "Trees cut"
   },
-  "stonesCrushed": {
-    "description": "",
-    "value": 0
+  {
+    "name": "stonesCrushed",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "graveCrushed": {
-    "description": "",
-    "value": 0
+  {
+    "name": "graveCrushed",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "boxesCrushed": {
-    "description": "",
-    "value": 0
+  {
+    "name": "boxesCrushed",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "golemKilled": {
-    "description": "",
-    "value": 0
+  {
+    "name": "golemKilled",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "goldSkeletonKilled": {
-    "description": "",
-    "value": 0
+  {
+    "name": "goldSkeletonKilled",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "goblinMageKilled": {
-    "description": "",
-    "value": 0
+  {
+    "name": "goblinMageKilled",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "heroDead": {
-    "description": "",
-    "value": 0
+  {
+    "name": "heroDead",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "heroPoisoned": {
-    "description": "",
-    "value": 0
+  {
+    "name": "heroPoisoned",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "heroFall": {
-    "description": "",
-    "value": 0
+  {
+    "name": "heroFall",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "itemExploded": {
-    "description": "",
-    "value": 0
+  {
+    "name": "itemExploded",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "dungeonComplete": {
-    "description": "",
-    "value": 0
+  {
+    "name": "dungeonComplete",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "secretFound": {
-    "description": "",
-    "value": 0
+  {
+    "name": "secretFound",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "treasureDug": {
-    "description": "",
-    "value": 0
+  {
+    "name": "treasureDug",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "berryEaten": {
-    "description": "",
-    "value": 0
+  {
+    "name": "berryEaten",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "chestOpen": {
-    "description": "",
-    "value": 0
+  {
+    "name": "chestOpen",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "plantKilled": {
-    "description": "",
-    "value": 0
+  {
+    "name": "plantKilled",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "zombieKilled": {
-    "description": "",
-    "value": 0
+  {
+    "name": "zombieKilled",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "slugKilled": {
-    "description": "",
-    "value": 0
+  {
+    "name": "slugKilled",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "leshyKilled": {
-    "description": "",
-    "value": 0
+  {
+    "name": "leshyKilled",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "elkKilled": {
-    "description": "",
-    "value": 0
+  {
+    "name": "elkKilled",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "heroDrown": {
-    "description": "",
-    "value": 0
+  {
+    "name": "heroDrown",
+    "defaultvalue": 0,
+    "displayName": ""
   }
-}
+]

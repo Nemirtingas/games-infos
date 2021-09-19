@@ -1,18 +1,22 @@
-﻿{
-  "stat_finish_game": {
-    "description": "stat_finish_game",
-    "value": 0
+[
+  {
+    "name": "stat_finish_game",
+    "defaultvalue": 0,
+    "displayName": "stat_finish_game"
   },
-  "stat_twitter_post": {
-    "description": "stat_twitter_post",
-    "value": 0
+  {
+    "name": "stat_twitter_post",
+    "defaultvalue": 0,
+    "displayName": "stat_twitter_post"
   },
-  "stat_question_number": {
-    "description": "stat_question_number",
-    "value": 0
+  {
+    "name": "stat_question_number",
+    "defaultvalue": 0,
+    "displayName": "stat_question_number"
   },
-  "stat_achive_number": {
-    "description": "stat_achive_number",
-    "value": 0
+  {
+    "name": "stat_achive_number",
+    "defaultvalue": 0,
+    "displayName": "stat_achive_number"
   }
-}
+]

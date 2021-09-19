@@ -1,6 +1,7 @@
-﻿{
-  "stat_times_launched": {
-    "description": "Times Played",
-    "value": 0
+[
+  {
+    "name": "stat_times_launched",
+    "defaultvalue": 0,
+    "displayName": "Times Played"
   }
-}
+]

@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "name": "ACHV_ThinningTheHerd_1",
     "defaultvalue": 0,
@@ -207,45 +207,45 @@
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1015140/28d51dfcf056282b24b8029e7dc9f39ee5967081.jpg"
   },
   {
-    "name": "ACHV_LetsGetCrafty_1",
+    "name": "ACHV_Crafty_1",
     "defaultvalue": 0,
-    "displayName": "Let's Get Crafty I",
+    "displayName": "Crafty I",
     "hidden": 0,
     "description": "Craft 5 items",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1015140/d909343990e198a2c02747aad9353140d193be35.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1015140/28d51dfcf056282b24b8029e7dc9f39ee5967081.jpg"
   },
   {
-    "name": "ACHV_LetsGetCrafty_2",
+    "name": "ACHV_Crafty_2",
     "defaultvalue": 0,
-    "displayName": "Let's Get Crafty II",
+    "displayName": "Crafty II",
     "hidden": 0,
     "description": "Craft 25 items",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1015140/d909343990e198a2c02747aad9353140d193be35.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1015140/28d51dfcf056282b24b8029e7dc9f39ee5967081.jpg"
   },
   {
-    "name": "ACHV_LetsGetCrafty_3",
+    "name": "ACHV_Crafty_3",
     "defaultvalue": 0,
-    "displayName": "Let's Get Crafty III",
+    "displayName": "Crafty III",
     "hidden": 0,
     "description": "Craft 50 items",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1015140/d909343990e198a2c02747aad9353140d193be35.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1015140/28d51dfcf056282b24b8029e7dc9f39ee5967081.jpg"
   },
   {
-    "name": "ACHV_LetsGetCrafty_4",
+    "name": "ACHV_Crafty_4",
     "defaultvalue": 0,
-    "displayName": "Let's Get Crafty IV",
+    "displayName": "Crafty IV",
     "hidden": 0,
     "description": "Craft 100 items",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1015140/d909343990e198a2c02747aad9353140d193be35.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1015140/28d51dfcf056282b24b8029e7dc9f39ee5967081.jpg"
   },
   {
-    "name": "ACHV_LetsGetCrafty_5",
+    "name": "ACHV_Crafty_5",
     "defaultvalue": 0,
-    "displayName": "Let's Get Crafty V",
+    "displayName": "Crafty V",
     "hidden": 0,
     "description": "Craft 250 items",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1015140/d909343990e198a2c02747aad9353140d193be35.jpg",
@@ -961,5 +961,50 @@
     "description": "Survive to Outbreak Level 50 in Survival Mode",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1015140/d909343990e198a2c02747aad9353140d193be35.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1015140/28d51dfcf056282b24b8029e7dc9f39ee5967081.jpg"
+  },
+  {
+    "name": "ACHV_WhatsTheStory_Suburbs",
+    "defaultvalue": 0,
+    "displayName": "What's the story? (Suburbs)",
+    "hidden": 0,
+    "description": "Complete the Suburbs Mobile Lab mission",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1015140/9fcd503a0d179cdb3d904b0ffe2d9fa5010d82f3.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1015140/f78470dbfba8dd9e04268444b555553fe096ecc5.jpg"
+  },
+  {
+    "name": "ACHV_WhatsTheStory_Docks",
+    "defaultvalue": 0,
+    "displayName": "What's the story? (Docks)",
+    "hidden": 0,
+    "description": "Complete the Docks Mobile Lab mission",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1015140/9fcd503a0d179cdb3d904b0ffe2d9fa5010d82f3.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1015140/28d51dfcf056282b24b8029e7dc9f39ee5967081.jpg"
+  },
+  {
+    "name": "ACHV_WhatsTheStory_City",
+    "defaultvalue": 0,
+    "displayName": "What's the story? (City)",
+    "hidden": 0,
+    "description": "Complete the City Mobile Lab mission",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1015140/9fcd503a0d179cdb3d904b0ffe2d9fa5010d82f3.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1015140/f78470dbfba8dd9e04268444b555553fe096ecc5.jpg"
+  },
+  {
+    "name": "ACHV_WhatsTheStory_Base",
+    "defaultvalue": 0,
+    "displayName": "What's the story? (Base)",
+    "hidden": 0,
+    "description": "Complete the Base Mobile Lab mission",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1015140/9fcd503a0d179cdb3d904b0ffe2d9fa5010d82f3.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1015140/f78470dbfba8dd9e04268444b555553fe096ecc5.jpg"
+  },
+  {
+    "name": "ACHV_WhatsTheStory_Airfield",
+    "defaultvalue": 0,
+    "displayName": "What's the story? (Airfield)",
+    "hidden": 0,
+    "description": "Complete the Airfield Mobile Lab mission",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1015140/9fcd503a0d179cdb3d904b0ffe2d9fa5010d82f3.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1015140/f78470dbfba8dd9e04268444b555553fe096ecc5.jpg"
   }
 ]

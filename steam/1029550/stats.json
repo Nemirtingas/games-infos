@@ -1,26 +1,32 @@
-﻿{
-  "SponsorObjectives": {
-    "description": "",
-    "value": 0
+[
+  {
+    "name": "SponsorObjectives",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "SponsorTrees": {
-    "description": "",
-    "value": 0
+  {
+    "name": "SponsorTrees",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "BrushLayers": {
-    "description": "",
-    "value": 0
+  {
+    "name": "BrushLayers",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Rank": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Rank",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "OwnedCars": {
-    "description": "",
-    "value": 0
+  {
+    "name": "OwnedCars",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "WinStreak": {
-    "description": "",
-    "value": 0
+  {
+    "name": "WinStreak",
+    "defaultvalue": 0,
+    "displayName": ""
   }
-}
+]

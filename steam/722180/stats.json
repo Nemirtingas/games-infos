@@ -1,90 +1,112 @@
-﻿{
-  "stat1_stat1": {
-    "description": "Killed zombies",
-    "value": 0
+[
+  {
+    "name": "stat1_stat1",
+    "defaultvalue": 0,
+    "displayName": "Killed zombies"
   },
-  "stat2_stat2": {
-    "description": "Killed tank zombies",
-    "value": 0
+  {
+    "name": "stat2_stat2",
+    "defaultvalue": 0,
+    "displayName": "Killed tank zombies"
   },
-  "stat3_stat3": {
-    "description": "Killed radioactive zombies",
-    "value": 0
+  {
+    "name": "stat3_stat3",
+    "defaultvalue": 0,
+    "displayName": "Killed radioactive zombies"
   },
-  "stat4_stat4": {
-    "description": "Picked doors",
-    "value": 0
+  {
+    "name": "stat4_stat4",
+    "defaultvalue": 0,
+    "displayName": "Picked doors"
   },
-  "stat5_stat5": {
-    "description": "Minutes played",
-    "value": 0
+  {
+    "name": "stat5_stat5",
+    "defaultvalue": 0,
+    "displayName": "Minutes played"
   },
-  "stat6_stat6": {
-    "description": "Survivors healed with a first aid spray",
-    "value": 0
+  {
+    "name": "stat6_stat6",
+    "defaultvalue": 0,
+    "displayName": "Survivors healed with a first aid spray"
   },
-  "stat7_stat7": {
-    "description": "Minutes played in coop",
-    "value": 0
+  {
+    "name": "stat7_stat7",
+    "defaultvalue": 0,
+    "displayName": "Minutes played in coop"
   },
-  "stat8_stat8": {
-    "description": "Killed zombies with Lucille",
-    "value": 0
+  {
+    "name": "stat8_stat8",
+    "defaultvalue": 0,
+    "displayName": "Killed zombies with Lucille"
   },
-  "stat9_stat9": {
-    "description": "Killed zombies with a fire axe",
-    "value": 0
+  {
+    "name": "stat9_stat9",
+    "defaultvalue": 0,
+    "displayName": "Killed zombies with a fire axe"
   },
-  "stat10_stat10": {
-    "description": "Killed zombies with a katana",
-    "value": 0
+  {
+    "name": "stat10_stat10",
+    "defaultvalue": 0,
+    "displayName": "Killed zombies with a katana"
   },
-  "stat11_stat11": {
-    "description": "Killed zombies with Lulu",
-    "value": 0
+  {
+    "name": "stat11_stat11",
+    "defaultvalue": 0,
+    "displayName": "Killed zombies with Lulu"
   },
-  "stat12_stat12": {
-    "description": "Killed butcher zombies",
-    "value": 0
+  {
+    "name": "stat12_stat12",
+    "defaultvalue": 0,
+    "displayName": "Killed butcher zombies"
   },
-  "stat13_stat13": {
-    "description": "Pipetraps activated",
-    "value": 0
+  {
+    "name": "stat13_stat13",
+    "defaultvalue": 0,
+    "displayName": "Pipetraps activated"
   },
-  "stat14_stat14": {
-    "description": "Padlocks broken",
-    "value": 0
+  {
+    "name": "stat14_stat14",
+    "defaultvalue": 0,
+    "displayName": "Padlocks broken"
   },
-  "stat15_stat15": {
-    "description": "Killed zombies with Brains Slicer",
-    "value": 0
+  {
+    "name": "stat15_stat15",
+    "defaultvalue": 0,
+    "displayName": "Killed zombies with Brains Slicer"
   },
-  "stat16_stat16": {
-    "description": "Killed zombies with a shovel",
-    "value": 0
+  {
+    "name": "stat16_stat16",
+    "defaultvalue": 0,
+    "displayName": "Killed zombies with a shovel"
   },
-  "stat17_stat17": {
-    "description": "Eaten meals",
-    "value": 0
+  {
+    "name": "stat17_stat17",
+    "defaultvalue": 0,
+    "displayName": "Eaten meals"
   },
-  "stat18_stat18": {
-    "description": "Consumed beverages",
-    "value": 0
+  {
+    "name": "stat18_stat18",
+    "defaultvalue": 0,
+    "displayName": "Consumed beverages"
   },
-  "stat19_stat19": {
-    "description": "Killed players in Survival Mode",
-    "value": 0
+  {
+    "name": "stat19_stat19",
+    "defaultvalue": 0,
+    "displayName": "Killed players in Survival Mode"
   },
-  "stat20_stat20": {
-    "description": "Killed zombies in Survival Mode",
-    "value": 0
+  {
+    "name": "stat20_stat20",
+    "defaultvalue": 0,
+    "displayName": "Killed zombies in Survival Mode"
   },
-  "stat21_stat21": {
-    "description": "Crafted items",
-    "value": 0
+  {
+    "name": "stat21_stat21",
+    "defaultvalue": 0,
+    "displayName": "Crafted items"
   },
-  "stat22_stat22": {
-    "description": "Minutes played in Survival Mode",
-    "value": 0
+  {
+    "name": "stat22_stat22",
+    "defaultvalue": 0,
+    "displayName": "Minutes played in Survival Mode"
   }
-}
+]

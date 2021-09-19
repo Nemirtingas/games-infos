@@ -2,13 +2,23 @@
   "Dlcs": {},
   "Name": "Residual",
   "AppId": "1290780",
-  "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/1290780/header.jpg?t=1597948954",
+  "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1290780/header.jpg?t=1631267720",
   "Languages": [
-    "english"
+    "english",
+    "french",
+    "italian",
+    "german",
+    "spanish",
+    "danish",
+    "japanese",
+    "dutch",
+    "polish",
+    "portuguese",
+    "russian"
   ],
   "Platforms": {
     "windows": true,
-    "mac": true,
+    "mac": false,
     "linux": true
   }
 }

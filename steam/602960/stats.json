@@ -1,18 +1,22 @@
-﻿{
-  "kmstraveled": {
-    "description": "Kilometers traveled",
-    "value": 0
+[
+  {
+    "name": "kmstraveled",
+    "defaultvalue": 0,
+    "displayName": "Kilometers traveled"
   },
-  "monsterskilled": {
-    "description": "Monsters killed",
-    "value": 0
+  {
+    "name": "monsterskilled",
+    "defaultvalue": 0,
+    "displayName": "Monsters killed"
   },
-  "humanskilled": {
-    "description": "Humans killed",
-    "value": 0
+  {
+    "name": "humanskilled",
+    "defaultvalue": 0,
+    "displayName": "Humans killed"
   },
-  "hoursineditor": {
-    "description": "Hours in submarine editor",
-    "value": 0
+  {
+    "name": "hoursineditor",
+    "defaultvalue": 0,
+    "displayName": "Hours in submarine editor"
   }
-}
+]

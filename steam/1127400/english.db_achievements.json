@@ -1,21 +1,12 @@
 [
   {
-    "name": "completeTutorial",
-    "defaultvalue": 0,
-    "displayName": "Verified",
-    "hidden": 0,
-    "description": "Complete the tutorial.",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1127400/6bbdfb36c6cb5508172787e3b58704dc0742fe9b.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1127400/81f83e11e0e7f02aed05852f0249a3828c0f3845.jpg"
-  },
-  {
     "name": "kill1kEnemies",
     "defaultvalue": 0,
     "displayName": "Scrapper",
     "hidden": 0,
     "description": "Destroy 1000 enemy units.",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1127400/a5405ba6526c08a1a1654270cb2cd49a456bab23.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1127400/e635ae5ac96965e6903ae014f43f31be0e7b7ce9.jpg"
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1127400/1932e886459b18844f8335a2c5d48dfb25138a05.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1127400/34a087be4294db1289c3d870f9ea92192e7b5055.jpg"
   },
   {
     "name": "kill100kEnemies",
@@ -23,24 +14,15 @@
     "displayName": "Purge",
     "hidden": 0,
     "description": "Destroy 100,000 enemy units.",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1127400/0ede35bba31ecaafac6874c1031f38a9bb7556bd.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1127400/584a2a465429bb4534582320897344ac81888472.jpg"
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1127400/3c8b5b3a7f2ae977147a7b09cb510ac7a1f96fc7.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1127400/2fbcbd82c6905cee6c008fec215862ef3ffeae56.jpg"
   },
   {
-    "name": "launch10kItems",
-    "defaultvalue": 0,
-    "displayName": "Atmospheric Transportation",
-    "hidden": 0,
-    "description": "Launch 10,000 items total.",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1127400/51a2bd9638869055ec573ba71689577363c3a2bc.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1127400/97523a916f9d6a3637e1ba1ad48c072c3ed4b479.jpg"
-  },
-  {
-    "name": "launch1milItems",
+    "name": "launch100kItems",
     "defaultvalue": 0,
     "displayName": "Endless Shipments",
     "hidden": 0,
-    "description": "Launch 1,000,000 items total.",
+    "description": "Launch 100,000 items total.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1127400/72f1fbf38b69790d09fd880b8e92eaf315100db1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1127400/53db2e2d84725bef81f7caa9c9c2a12925a73af1.jpg"
   },
@@ -76,7 +58,7 @@
     "defaultvalue": 0,
     "displayName": "Core Rain",
     "hidden": 0,
-    "description": "Launch your core into a zone 30 times.",
+    "description": "Launch your core 30 times.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1127400/af52e6c7f8fa29119235d9be5968e83a7efab17d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1127400/bfae453a85274b2b1fa13b7e4eec582164e0c4f4.jpg"
   },
@@ -90,15 +72,6 @@
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1127400/240373bf245020e50ff9d41873838afa559c7932.jpg"
   },
   {
-    "name": "survive500Waves",
-    "defaultvalue": 0,
-    "displayName": "Unvanquished",
-    "hidden": 0,
-    "description": "Survive 500 waves.",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1127400/632f1ea52e526cbc70ce888cd4c3d0d47a543c12.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1127400/d126ab8bb020fb7b51fd7a80b853f8acf5294e42.jpg"
-  },
-  {
     "name": "researchAll",
     "defaultvalue": 0,
     "displayName": "Researcher",
@@ -106,15 +79,6 @@
     "description": "Research everything.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1127400/10a0fc30c0ce7dc04cd238a6d357fd6a16b9d666.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1127400/08cfe7db900e8e70d6dafeba3c8c8727a9ff1ec9.jpg"
-  },
-  {
-    "name": "useAllMechs",
-    "defaultvalue": 0,
-    "displayName": "Shapeshifter",
-    "hidden": 0,
-    "description": "Unlock and transform into every mech in the game.",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1127400/71ef0777f65eb2ec2b5be8f0433806043f354dae.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1127400/e4c306987f362d52bb0eb0f2c0afae4b35cb91df.jpg"
   },
   {
     "name": "shockWetEnemy",
@@ -202,8 +166,8 @@
     "displayName": "Slayer",
     "hidden": 0,
     "description": "Defeat a boss.",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1127400/278477fb8dbda8c7456faca64015aff68c99d584.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1127400/2cc23903609e52b032bc8af8b67e529fd5090204.jpg"
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1127400/61ce85bf3791e8e3ae60ae31ba54be436593d254.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1127400/fbb8a1c5dde67cc8b912ce4e035687a777be8bdd.jpg"
   },
   {
     "name": "unlockAllZones",
@@ -213,15 +177,6 @@
     "description": "Unlock all zones in the campaign.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1127400/d9e3620067e37cc8a33479afdccdd011a97f22a1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1127400/a92fcd44a907a6634085821d5c3b8ab0e4395bbb.jpg"
-  },
-  {
-    "name": "configAllZones",
-    "defaultvalue": 0,
-    "displayName": "Completionist",
-    "hidden": 0,
-    "description": "Reach the configuration requirement wave on all zones.",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1127400/f258aa225e2f304ced69fffc1ecae97984862005.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1127400/7c72275b7c7079b32f61f718ddb0de8f0f9e9759.jpg"
   },
   {
     "name": "obtainThorium",
@@ -245,17 +200,18 @@
     "name": "suicideBomb",
     "defaultvalue": 0,
     "displayName": "Kamikaze",
-    "hidden": 1,
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1127400/91dc1e1930699a881c775c40166c063edc6305e7.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1127400/ea54b3514c75a3e0d58e48b6faf6f7a8cc3d2783.jpg"
+    "hidden": 0,
+    "description": "Fill up any non-core unit with explosive materials and die.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1127400/7df99362584c0aac6d81bd2811519d3837d48ce3.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1127400/838712a87cf2ae9c415235b153205b02001e7ed6.jpg"
   },
   {
-    "name": "buildDaggerFactory",
+    "name": "buildGroundFactory",
     "defaultvalue": 0,
     "displayName": "It Begins",
     "hidden": 0,
-    "description": "Build a Dagger factory.",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1127400/73255ab1c6cdbe0a25494368e008ca9748c0e935.jpg",
+    "description": "Build a ground unit factory.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1127400/9e7b45690159d2aa58f4209e84aaaa00cf1ef9e4.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1127400/96244c58c386178af83bd62f85ba78c832c5910e.jpg"
   },
   {
@@ -277,22 +233,22 @@
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1127400/e29b3fd3a7eeee2347099fc8dcbe790165f6fc12.jpg"
   },
   {
-    "name": "active10Phantoms",
+    "name": "active10Polys",
     "defaultvalue": 0,
     "displayName": "Flock",
     "hidden": 0,
-    "description": "Have 10 Phantom drones active at once.",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1127400/7e1c1cfbb703750adf532ca47eb3b3030996005b.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1127400/651b8887ebb044eee7912e06bc953342baa39c20.jpg"
+    "description": "Have 10 Poly drones active at once.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1127400/672657c2f6ff41e0cafc38729e30db655535d155.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1127400/78f0d3dbac0a46b4cb79969cfaaee312e4190bdb.jpg"
   },
   {
-    "name": "active50Crawlers",
+    "name": "buildAllUnits",
     "defaultvalue": 0,
-    "displayName": "Volatile Army",
+    "displayName": "Roboticist",
     "hidden": 0,
-    "description": "Have 50 Crawler units active at once.",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1127400/82b61e27c7beebd6722baa0186c40468509be732.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1127400/dcacfa3bd18eda45bfc93d00437e0f7ae2a18b34.jpg"
+    "description": "Build every type of unit.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1127400/ec4eece9ea0f887beff0f648611e5d19157dd0cf.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1127400/443a27c5359914647b67ba8ffa1363f4cd396e30.jpg"
   },
   {
     "name": "build1000Units",
@@ -302,24 +258,6 @@
     "description": "Build 1000 units total.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1127400/ac321dedb59d747ae8f2525888a119c4611f0727.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1127400/98653117a432ab60d1ff483936157abfb90abf80.jpg"
-  },
-  {
-    "name": "earnSRank",
-    "defaultvalue": 0,
-    "displayName": "Super",
-    "hidden": 0,
-    "description": "Earn the S rank on any zone.",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1127400/de831c5d67a80b241896725c5bba7026fa8078b6.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1127400/b8f80f5bbb36d58b65aff63328e5be2b1b9aaf4f.jpg"
-  },
-  {
-    "name": "earnSSRank",
-    "defaultvalue": 0,
-    "displayName": "Super Super",
-    "hidden": 0,
-    "description": "Earn the SS rank on any zone.",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1127400/6b5de88eafb85a9ad7f2e26f33ca4f51652531ba.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1127400/e3d1859e519c2c513c8a17ff5920815d25533bc7.jpg"
   },
   {
     "name": "dieExclusion",
@@ -332,7 +270,7 @@
   {
     "name": "drown",
     "defaultvalue": 0,
-    "displayName": "Just Press Shift",
+    "displayName": "There Are Naval Units for That",
     "hidden": 1,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1127400/72480e3dd068d8779105abcc747cd2d863d3bde8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1127400/69f2cdb2e73d5a5784fe11d25409c1d09035f822.jpg"
@@ -360,9 +298,9 @@
     "defaultvalue": 0,
     "displayName": "Invulnerable",
     "hidden": 0,
-    "description": "Build the Meltdown and Spectre.",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1127400/6ce0c389c841f83e60b4ba6e63d911246c97fe71.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1127400/548292abff1f4e30b9edac1db88ec9bdefb75263.jpg"
+    "description": "Build the Meltdown, Spectre and Foreshadow.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1127400/b4cf4292d4c3b40a2f31c82d05d09f8f56613534.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1127400/3c098fde6d8011b0e21375d8a2e6d7861ffe975b.jpg"
   },
   {
     "name": "launchItemPad",
@@ -372,14 +310,6 @@
     "description": "Use the Launch Pad.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1127400/d83ddd5350be34fd9e3c7f74a0e3682c78faa9ad.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1127400/96244c58c386178af83bd62f85ba78c832c5910e.jpg"
-  },
-  {
-    "name": "skipLaunching2Death",
-    "defaultvalue": 0,
-    "displayName": "Complacence",
-    "hidden": 1,
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1127400/b50148a9573762b5d74d525b85f7c0adead086f5.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1127400/6457d0240e3e2cdb66da123c75491a15c86e2c82.jpg"
   },
   {
     "name": "chainRouters",
@@ -451,5 +381,102 @@
     "description": "Power up an Impact Reactor.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1127400/1c370e32159d1fec260c484e930cb865e0bb769e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1127400/96244c58c386178af83bd62f85ba78c832c5910e.jpg"
+  },
+  {
+    "name": "useAccelerator",
+    "defaultvalue": 0,
+    "displayName": "Acceleration",
+    "hidden": 0,
+    "description": "Activate the Interplanetary Accelerator.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1127400/b29c9132264cbdde0e79e6a449702f89b829170e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1127400/7202e994db9934e4316e5d907933157192a03b97.jpg"
+  },
+  {
+    "name": "circleConveyor",
+    "defaultvalue": 0,
+    "displayName": "The Spiral",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1127400/c89b31dd10812e6e972429868e02f26c3b5d5283.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1127400/fb05f3669b048f88093d0faffb479a0b1ba46e54.jpg"
+  },
+  {
+    "name": "buildT5",
+    "defaultvalue": 0,
+    "displayName": "Escalation",
+    "hidden": 0,
+    "description": "Construct a Tier 5 unit.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1127400/41be0c20c75fb45b108b66c7613d46ff211f59df.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1127400/a89530dfa66a5ead8a556b22d70c4aff89c467be.jpg"
+  },
+  {
+    "name": "create20Schematics",
+    "defaultvalue": 0,
+    "displayName": "Architect",
+    "hidden": 0,
+    "description": "Create 20 schematics.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1127400/b3c93532f8583526dbbad6fcbc4d8e1cfc59a75d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1127400/da68aea1e6a068b7c63331deb436d3935dad1250.jpg"
+  },
+  {
+    "name": "captureAllSectors",
+    "defaultvalue": 0,
+    "displayName": "Global Domination",
+    "hidden": 0,
+    "description": "Capture every sector on Serpulo.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1127400/1b751dc2e715df6e6a97a625a67811e019e86820.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1127400/602f4dcfe46722895958120f8ff5c678dba2520a.jpg"
+  },
+  {
+    "name": "pickupT5",
+    "defaultvalue": 0,
+    "displayName": "Airlift",
+    "hidden": 0,
+    "description": "Pick up a T5 unit in an Oct unit carrier.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1127400/800428f6de9d97197ef78b3e445862d068e1a239.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1127400/f4944087ee4f25dd58aef6c0f4f1f114c4c5980c.jpg"
+  },
+  {
+    "name": "becomeRouter",
+    "defaultvalue": 0,
+    "displayName": "The Ultimate Form",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1127400/f63d06613d73adc9733cf49b6d650a17a8101219.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1127400/de64759efeaccf699f0673c23625314b2a5786b2.jpg"
+  },
+  {
+    "name": "produce5kMin",
+    "defaultvalue": 0,
+    "displayName": "Production I",
+    "hidden": 0,
+    "description": "Reach 5,000 items/min total production in the campaign.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1127400/398391e3c41c3d6b84e752cff89df7d23ee64da0.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1127400/481c215b246ac861ff6ec508bfcb20d82b3fff37.jpg"
+  },
+  {
+    "name": "produce50kMin",
+    "defaultvalue": 0,
+    "displayName": "Production II",
+    "hidden": 0,
+    "description": "Reach 50,000 items/min total production in the campaign.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1127400/132d8714e259985cab6907469255715280f6497a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1127400/329ee6fa66d2c7f2fdcaa6d305f394caa92e5ac1.jpg"
+  },
+  {
+    "name": "captureBackground",
+    "defaultvalue": 0,
+    "displayName": "Assured Victory",
+    "hidden": 0,
+    "description": "Capture a sector while playing on a different sector.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1127400/8ec0db0f44f3b4089097a5efd14447504723e139.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1127400/e318101f61a66046e17c6cfbf392be8fadad702c.jpg"
+  },
+  {
+    "name": "control10Sectors",
+    "defaultvalue": 0,
+    "displayName": "Small Empire",
+    "hidden": 0,
+    "description": "Control 10 sectors at once.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1127400/a23dfa68c94eb1f9f5a45b88511eb21e99cf1bf4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1127400/68cb8e70eb2cbc3f7b8d4ea63dfd017cdddff96a.jpg"
   }
 ]

@@ -1,30 +1,37 @@
-﻿{
-  "Master of the Undead": {
-    "description": "Total Unlocked Zombies",
-    "value": 0
+[
+  {
+    "name": "Master of the Undead",
+    "defaultvalue": 0,
+    "displayName": "Total Unlocked Zombies"
   },
-  "Second Win": {
-    "description": "Total Wins",
-    "value": 0
+  {
+    "name": "Second Win",
+    "defaultvalue": 0,
+    "displayName": "Total Wins"
   },
-  "Toge News Subscriber": {
-    "description": "News Watched",
-    "value": 0
+  {
+    "name": "Toge News Subscriber",
+    "defaultvalue": 0,
+    "displayName": "News Watched"
   },
-  "Panic at the Lab!": {
-    "description": "Total Panic",
-    "value": 0
+  {
+    "name": "Panic at the Lab!",
+    "defaultvalue": 0,
+    "displayName": "Total Panic"
   },
-  "The Second Amendment": {
-    "description": "Total Zombies Killed",
-    "value": 0
+  {
+    "name": "The Second Amendment",
+    "defaultvalue": 0,
+    "displayName": "Total Zombies Killed"
   },
-  "Virus Effeciency": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Virus Effeciency",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "New High Score!": {
-    "description": "High Score",
-    "value": 0
+  {
+    "name": "New High Score!",
+    "defaultvalue": 0,
+    "displayName": "High Score"
   }
-}
+]

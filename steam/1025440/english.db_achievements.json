@@ -457,7 +457,8 @@
     "name": "Onslaught_Moira",
     "defaultvalue": 0,
     "displayName": "Transmuter Adept",
-    "hidden": 1,
+    "hidden": 0,
+    "description": "Complete an Onslaught campaign with Moira.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1025440/4375705eab70a52ea76fc1498b0075fc622b7bd5.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1025440/b8db5427d821b7dd1aa6b07132d021656750ead8.jpg"
   },
@@ -465,7 +466,8 @@
     "name": "Onslaught_Marcra",
     "defaultvalue": 0,
     "displayName": "Imperial Princess",
-    "hidden": 1,
+    "hidden": 0,
+    "description": "Complete an Onslaught campaign with Marcra.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1025440/23f3c341ca31aff3e8c2f5657f557a18a06a3ae7.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1025440/b8db5427d821b7dd1aa6b07132d021656750ead8.jpg"
   },
@@ -497,7 +499,8 @@
     "name": "DLC1_Easy",
     "defaultvalue": 0,
     "displayName": "Empire Aflame Warrior",
-    "hidden": 1,
+    "hidden": 0,
+    "description": "Complete \"Empire Aflame\" on Easy or harder.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1025440/473fbf6837790c080969e3632bb2ae23d4a26d75.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1025440/301d41c20323a26fd85c8146187b9b05bcf4d58e.jpg"
   },
@@ -505,7 +508,8 @@
     "name": "DLC1_Medium",
     "defaultvalue": 0,
     "displayName": "Empire Aflame Hero",
-    "hidden": 1,
+    "hidden": 0,
+    "description": "Complete \"Empire Aflame\" on Normal or harder.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1025440/0c093968fbe8dee6654200fcfaf0bf0f55554673.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1025440/301d41c20323a26fd85c8146187b9b05bcf4d58e.jpg"
   },
@@ -513,7 +517,8 @@
     "name": "DLC1_Challenging",
     "defaultvalue": 0,
     "displayName": "Empire Aflame Veteran",
-    "hidden": 1,
+    "hidden": 0,
+    "description": "Complete \"Empire Aflame\" on Challenging or harder.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1025440/d13da6dcc6f0dc3a2fce135e8ea00b78bf2611e1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1025440/301d41c20323a26fd85c8146187b9b05bcf4d58e.jpg"
   },
@@ -521,7 +526,8 @@
     "name": "DLC1_Hard",
     "defaultvalue": 0,
     "displayName": "Empire Aflame General",
-    "hidden": 1,
+    "hidden": 0,
+    "description": "Complete \"Empire Aflame\" on Hard or harder.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1025440/ab002947935e46a01777d97e96b96c9e618a5aa8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1025440/b8db5427d821b7dd1aa6b07132d021656750ead8.jpg"
   },
@@ -529,7 +535,8 @@
     "name": "DLC1_VeryHard",
     "defaultvalue": 0,
     "displayName": "Empire Aflame Legend",
-    "hidden": 1,
+    "hidden": 0,
+    "description": "Complete \"Empire Aflame\" on Legend difficulty.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1025440/1e07f4632551bdc804f87e6740ec6ceb77279869.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1025440/b8db5427d821b7dd1aa6b07132d021656750ead8.jpg"
   },
@@ -537,8 +544,129 @@
     "name": "DLC1_IronMaiden",
     "defaultvalue": 0,
     "displayName": "Iron Maiden Empire Aflame",
-    "hidden": 1,
+    "hidden": 0,
+    "description": "Complete \"Empire Aflame\" in Iron Maiden mode.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1025440/b0a8cd608ea4435631b9bc2b63c30a9aeefbd3f8.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1025440/b8db5427d821b7dd1aa6b07132d021656750ead8.jpg"
+  },
+  {
+    "name": "EVO_Easy",
+    "defaultvalue": 0,
+    "displayName": "Evolution Warrior",
+    "hidden": 0,
+    "description": "Complete \"Evolution\" on Easy or harder.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1025440/1e2109bb5a5ab6242181d2976ffa90383e8419df.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1025440/b8db5427d821b7dd1aa6b07132d021656750ead8.jpg"
+  },
+  {
+    "name": "EVO_Medium",
+    "defaultvalue": 0,
+    "displayName": "Evolution Hero",
+    "hidden": 0,
+    "description": "Complete \"Evolution\" on Normal or harder.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1025440/34016b08e8cb644ffc8064e288f46e14b7134729.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1025440/301d41c20323a26fd85c8146187b9b05bcf4d58e.jpg"
+  },
+  {
+    "name": "EVO_Challenging",
+    "defaultvalue": 0,
+    "displayName": "Evolution Veteran",
+    "hidden": 0,
+    "description": "Complete \"Evolution\" on Challenging or harder.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1025440/1549de1cff6e01654f01b3a201acbd54d23bb2f7.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1025440/b8db5427d821b7dd1aa6b07132d021656750ead8.jpg"
+  },
+  {
+    "name": "EVO_Hard",
+    "defaultvalue": 0,
+    "displayName": "Evolution General",
+    "hidden": 0,
+    "description": "Complete \"Evolution\" on Hard or harder.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1025440/8ef3d679c1774f146bc3f466c0f739cf3a1518b1.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1025440/301d41c20323a26fd85c8146187b9b05bcf4d58e.jpg"
+  },
+  {
+    "name": "EVO_VeryHard",
+    "defaultvalue": 0,
+    "displayName": "Evolution Legend",
+    "hidden": 0,
+    "description": "Complete \"Evolution\" on Legend difficulty.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1025440/87479b64214e6b1b5a20578699d3e65a4bfaa2c2.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1025440/301d41c20323a26fd85c8146187b9b05bcf4d58e.jpg"
+  },
+  {
+    "name": "EVO_IronMaiden",
+    "defaultvalue": 0,
+    "displayName": "Iron Maiden Evolution",
+    "hidden": 0,
+    "description": "Complete \"Evolution\" in Iron Maiden mode.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1025440/c44ddd0e79a04f5168b53641b5088933737a80c1.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1025440/b8db5427d821b7dd1aa6b07132d021656750ead8.jpg"
+  },
+  {
+    "name": "Onslaught_Szzlag",
+    "defaultvalue": 0,
+    "displayName": "Scourge of the Swamps",
+    "hidden": 0,
+    "description": "Complete an Onslaught campaign with Szzlag.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1025440/28263bc06a0b069a06385d139f9918841f652f00.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1025440/b8db5427d821b7dd1aa6b07132d021656750ead8.jpg"
+  },
+  {
+    "name": "EVO_Shprd",
+    "defaultvalue": 0,
+    "displayName": "Filleting the Fishmonger",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1025440/1acae1a227bb10750a54fe411020f3bd70535394.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1025440/b8db5427d821b7dd1aa6b07132d021656750ead8.jpg"
+  },
+  {
+    "name": "EVO_TsuNa",
+    "defaultvalue": 0,
+    "displayName": "Tsunami",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1025440/c93941f1ab186da46505afc38b65c567438ac5bf.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1025440/b8db5427d821b7dd1aa6b07132d021656750ead8.jpg"
+  },
+  {
+    "name": "EVO_Wavan",
+    "defaultvalue": 0,
+    "displayName": "Crushing Wavan",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1025440/5f920fdd452436692f39cc7a76196bdf6a5fe5c9.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1025440/b8db5427d821b7dd1aa6b07132d021656750ead8.jpg"
+  },
+  {
+    "name": "EVO_Yig",
+    "defaultvalue": 0,
+    "displayName": "Cracking Yig",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1025440/7d68721686610368817beb4267b5ae4b3a035ac9.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1025440/b8db5427d821b7dd1aa6b07132d021656750ead8.jpg"
+  },
+  {
+    "name": "EVO_Devourer",
+    "defaultvalue": 0,
+    "displayName": "Top of the Food Chain",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1025440/61b9809a8c909347ea579b445fb32799efd9dab7.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1025440/b8db5427d821b7dd1aa6b07132d021656750ead8.jpg"
+  },
+  {
+    "name": "EVO_Newt",
+    "defaultvalue": 0,
+    "displayName": "I'm tougher than I look!",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1025440/09334817da23ac4ef83875eeb2d92fb00d26e245.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1025440/b8db5427d821b7dd1aa6b07132d021656750ead8.jpg"
+  },
+  {
+    "name": "Onslaught_Hunter",
+    "defaultvalue": 0,
+    "displayName": "Beastmaster",
+    "hidden": 0,
+    "description": "Complete an Onslaught campaign with the Hunter.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1025440/d5751dd725c7690bfcd619509a2c851eb1e12c14.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1025440/b8db5427d821b7dd1aa6b07132d021656750ead8.jpg"
   }
 ]

@@ -1,114 +1,142 @@
-﻿{
-  "EarnedMoney": {
-    "description": "Total earned money",
-    "value": 0
+[
+  {
+    "name": "EarnedMoney",
+    "defaultvalue": 0,
+    "displayName": "Total earned money"
   },
-  "FinishedQuests": {
-    "description": "Total finished quests",
-    "value": 0
+  {
+    "name": "FinishedQuests",
+    "defaultvalue": 0,
+    "displayName": "Total finished quests"
   },
-  "EarnedFame": {
-    "description": "Highest fame reached",
-    "value": 0
+  {
+    "name": "EarnedFame",
+    "defaultvalue": 0,
+    "displayName": "Highest fame reached"
   },
-  "PaintedParts": {
-    "description": "Total painted parts",
-    "value": 0
+  {
+    "name": "PaintedParts",
+    "defaultvalue": 0,
+    "displayName": "Total painted parts"
   },
-  "SandedParts": {
-    "description": "Total sanded parts",
-    "value": 0
+  {
+    "name": "SandedParts",
+    "defaultvalue": 0,
+    "displayName": "Total sanded parts"
   },
-  "GiveawayCars": {
-    "description": "Total giveaway cars",
-    "value": 0
+  {
+    "name": "GiveawayCars",
+    "defaultvalue": 0,
+    "displayName": "Total giveaway cars"
   },
-  "TotalScrews": {
-    "description": "Total screwed or unscrewed bolts",
-    "value": 0
+  {
+    "name": "TotalScrews",
+    "defaultvalue": 0,
+    "displayName": "Total screwed or unscrewed bolts"
   },
-  "FinishedDrags": {
-    "description": "Finished drag races",
-    "value": 0
+  {
+    "name": "FinishedDrags",
+    "defaultvalue": 0,
+    "displayName": "Finished drag races"
   },
-  "FinishedOffroads": {
-    "description": "Finished offroad playgrounds",
-    "value": 0
+  {
+    "name": "FinishedOffroads",
+    "defaultvalue": 0,
+    "displayName": "Finished offroad playgrounds"
   },
-  "FinishedRaces": {
-    "description": "Finished races",
-    "value": 0
+  {
+    "name": "FinishedRaces",
+    "defaultvalue": 0,
+    "displayName": "Finished races"
   },
-  "Drag_RacesFinished": {
-    "description": "stat - different from achievement!",
-    "value": 0
+  {
+    "name": "Drag_RacesFinished",
+    "defaultvalue": 0,
+    "displayName": "stat - different from achievement!"
   },
-  "Offroad_RacesFinished": {
-    "description": "stat - different from achievement!",
-    "value": 0
+  {
+    "name": "Offroad_RacesFinished",
+    "defaultvalue": 0,
+    "displayName": "stat - different from achievement!"
   },
-  "Race_RacesFinished": {
-    "description": "stat - different from achievement!",
-    "value": 0
+  {
+    "name": "Race_RacesFinished",
+    "defaultvalue": 0,
+    "displayName": "stat - different from achievement!"
   },
-  "Drag_RacesWon": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Drag_RacesWon",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Offroad_RacesWon": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Offroad_RacesWon",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Race_RacesWon": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Race_RacesWon",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Drag_BestTime": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Drag_BestTime",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Offroad_BestTime": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Offroad_BestTime",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Race_BestTime": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Race_BestTime",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Free_Drag_RacesFinished": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Free_Drag_RacesFinished",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Free_Offroad_RacesFinished": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Free_Offroad_RacesFinished",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Free_Race_RacesFinished": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Free_Race_RacesFinished",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Free_Drag_RacesWon": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Free_Drag_RacesWon",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Free_Offroad_RacesWon": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Free_Offroad_RacesWon",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Free_Race_RacesWon": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Free_Race_RacesWon",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Free_Drag_BestTime": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Free_Drag_BestTime",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Free_Offroad_BestTime": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Free_Offroad_BestTime",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Free_Race_BestTime": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Free_Race_BestTime",
+    "defaultvalue": 0,
+    "displayName": ""
   }
-}
+]

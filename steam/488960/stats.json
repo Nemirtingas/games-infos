@@ -1,30 +1,37 @@
-﻿{
-  "act1_progression": {
-    "description": "Act1 Progression",
-    "value": 0
+[
+  {
+    "name": "act1_progression",
+    "defaultvalue": 0,
+    "displayName": "Act1 Progression"
   },
-  "act2_progression": {
-    "description": "Act2 Progression",
-    "value": 0
+  {
+    "name": "act2_progression",
+    "defaultvalue": 0,
+    "displayName": "Act2 Progression"
   },
-  "act3_progression": {
-    "description": "Act3 Progression",
-    "value": 0
+  {
+    "name": "act3_progression",
+    "defaultvalue": 0,
+    "displayName": "Act3 Progression"
   },
-  "act4_progression": {
-    "description": "Act4 Progression",
-    "value": 0
+  {
+    "name": "act4_progression",
+    "defaultvalue": 0,
+    "displayName": "Act4 Progression"
   },
-  "mystery_progression": {
-    "description": "Mystery Progression",
-    "value": 0
+  {
+    "name": "mystery_progression",
+    "defaultvalue": 0,
+    "displayName": "Mystery Progression"
   },
-  "all_progression": {
-    "description": "Levels Progression",
-    "value": 0
+  {
+    "name": "all_progression",
+    "defaultvalue": 0,
+    "displayName": "Levels Progression"
   },
-  "challenges_progression": {
-    "description": "Challenges Progression",
-    "value": 0
+  {
+    "name": "challenges_progression",
+    "defaultvalue": 0,
+    "displayName": "Challenges Progression"
   }
-}
+]

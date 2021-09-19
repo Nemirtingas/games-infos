@@ -234,7 +234,7 @@
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1463120/67514297880b881b6b151637c31aaed3beefd372.jpg"
   },
   {
-    "name": "homecomingqueen",
+    "name": "homecoming_queen",
     "defaultvalue": 0,
     "displayName": "Homecoming Queen",
     "hidden": 0,
@@ -295,5 +295,221 @@
     "description": "Pledge to the Wolves",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1463120/69476c4d0bed43cf1b0c79c0da0fd51ebaafebd2.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1463120/7f9327eca93e0851b2ecb74ec77a0e580fa725bb.jpg"
+  },
+  {
+    "name": "back_down",
+    "defaultvalue": 0,
+    "displayName": "Back Down",
+    "hidden": 0,
+    "description": "Punch the guy in the hallway",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1463120/a6a34c318c70f575dcf2057ba6b0839db055c700.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1463120/da5c365927072e450fc8bdb10ed6f6b5a4df0ec7.jpg"
+  },
+  {
+    "name": "bros_before_blows",
+    "defaultvalue": 0,
+    "displayName": "Bro's Before Blows",
+    "hidden": 0,
+    "description": "Don't fight Imre at the brawl",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1463120/ed7143bfe3b4b01bb314333c66ce9ed9339c450f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1463120/dd6ece2d0da303dc94bacfd8abb3402b778d9bd5.jpg"
+  },
+  {
+    "name": "cheat_day",
+    "defaultvalue": 0,
+    "displayName": "Cheat Day",
+    "hidden": 0,
+    "description": "Skip the gym and get with Riley",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1463120/03405379e59447fd422b4cb163d0aedfea47d5f7.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1463120/358846a3ccc32f7c012ef3ff64542f6279bc2e92.jpg"
+  },
+  {
+    "name": "family_secrets",
+    "defaultvalue": 0,
+    "displayName": "Family Secrets",
+    "hidden": 0,
+    "description": "Find out Nora and Ms. Rose's connection",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1463120/95f6079e691a7d5d7a42f466df3ae525735b1a4f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1463120/0b9382665ed06cd1c6b37d876c90f6a4c3aef4b0.jpg"
+  },
+  {
+    "name": "forbidden_romance",
+    "defaultvalue": 0,
+    "displayName": "Forbidden Romance",
+    "hidden": 0,
+    "description": "Kiss Ms. Rose",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1463120/9607618921bfafeaba22c4ba71f9b8ed77754923.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1463120/e4df47d9ba45268e1fb12e9625e18412cd079a22.jpg"
+  },
+  {
+    "name": "fright_club",
+    "defaultvalue": 0,
+    "displayName": "Fright Club",
+    "hidden": 0,
+    "description": "Don't fight Ryan at the brawl",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1463120/fe16c2488f885dacfb0218e497f2ba242716222e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1463120/ee22d1876529f9e388bbcad275807e04d41bb255.jpg"
+  },
+  {
+    "name": "get_a_room",
+    "defaultvalue": 0,
+    "displayName": "Get A Room",
+    "hidden": 0,
+    "description": "Stay with Amber at Josh's",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1463120/1967f47ad84ea57481051d8a33ae443ee5a923ef.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1463120/4665b6f9cd440651ddf1c06f80c60f7a2ceae91b.jpg"
+  },
+  {
+    "name": "getting_clean",
+    "defaultvalue": 0,
+    "displayName": "Getting Clean",
+    "hidden": 0,
+    "description": "Have fun in the bathroom",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1463120/8a3d3e8c1acdb11b8f5d2cdd34f22653f21c7937.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1463120/4b0c9747af0468233332e20413eeadbd367d4efd.jpg"
+  },
+  {
+    "name": "golden_boy",
+    "defaultvalue": 0,
+    "displayName": "Golden Boy",
+    "hidden": 0,
+    "description": "Beat Imre on hard difficulty at the brawl",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1463120/e98632d349c1500dd6cca43d9a125399da8b95c1.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1463120/db044ee02d84cc1f15e9fbc94c50fc41d86b771d.jpg"
+  },
+  {
+    "name": "hard_decisions",
+    "defaultvalue": 0,
+    "displayName": "Hard Decisions",
+    "hidden": 0,
+    "description": "Tell Chloe what Nora said",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1463120/7aaa20fdf53e7de0dd9228006bd396121b36c05f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1463120/e69379801e8af919cdb996037dce625caa603d74.jpg"
+  },
+  {
+    "name": "helping_hand",
+    "defaultvalue": 0,
+    "displayName": "Helping Hand",
+    "hidden": 0,
+    "description": "Help Nora hand out flyers for the trip",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1463120/afcd999547484e740efeeee4a5c99a34495d1988.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1463120/ebdbb8f907e986f61ff4b4d77a8ca46aecf5e414.jpg"
+  },
+  {
+    "name": "ip_man",
+    "defaultvalue": 0,
+    "displayName": "Ip Man",
+    "hidden": 0,
+    "description": "Win the alley fight",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1463120/15afdb476aa44026e381970be87cd04f328fdd5b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1463120/42b1dadd64e1f3ffebdc627602a95b309ae7fef1.jpg"
+  },
+  {
+    "name": "king_of_the_north",
+    "defaultvalue": 0,
+    "displayName": "King Of The North",
+    "hidden": 0,
+    "description": "The king is heading north",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1463120/35352e13b4166beb9e6893bf31944fe9e9d85efb.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1463120/92c383cec96bfea2b4f28961d91f6c7230c6206f.jpg"
+  },
+  {
+    "name": "lights_out",
+    "defaultvalue": 0,
+    "displayName": "Lights Out",
+    "hidden": 0,
+    "description": "Beat Ryan on hard difficulty at the brawl",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1463120/77c54eb801ea973c59bac6c8132a5da6a148180b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1463120/6f059451a38ba8e5209ba31fd58f32a1780be652.jpg"
+  },
+  {
+    "name": "lucky_7",
+    "defaultvalue": 0,
+    "displayName": "Lucky 7",
+    "hidden": 0,
+    "description": "Flashing lights at the arcade",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1463120/793eb3666f8372b93b06294249fb8c395f575f7e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1463120/b838074c745c91081dca424d964227d45fc7e116.jpg"
+  },
+  {
+    "name": "on_the_court",
+    "defaultvalue": 0,
+    "displayName": "On The Court",
+    "hidden": 0,
+    "description": "Have a rematch with Chloe",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1463120/6b08628b2c4bcd370bbcd91494d9cdc0dd0f8c32.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1463120/d524976f622e81e0ea5881addda51e7758946392.jpg"
+  },
+  {
+    "name": "rawr_im_a_lion",
+    "defaultvalue": 0,
+    "displayName": "Rawr I'm A Lion",
+    "hidden": 0,
+    "description": "Tell Lauren you like lions",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1463120/20fab298c53ffe7577916345e713badbad9227af.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1463120/69570580050f2a3f29ee7b4f52d38117764fee95.jpg"
+  },
+  {
+    "name": "relaxing_day",
+    "defaultvalue": 0,
+    "displayName": "Relaxing Day",
+    "hidden": 0,
+    "description": "Have fun with Aubrey at the lake",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1463120/23dd82b93b16fa79a085573b02a21ca4df008e6f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1463120/a3cebaddb0c84c4e9dfdbc65639f3528a9358c1b.jpg"
+  },
+  {
+    "name": "rough_rider",
+    "defaultvalue": 0,
+    "displayName": "Rough Rider",
+    "hidden": 0,
+    "description": "Have fun with the skatepark",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1463120/da1702694c74363c1db2047754049f348a788282.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1463120/772fe7fb0c5ad65032fde601bf40fd5688955792.jpg"
+  },
+  {
+    "name": "second_date",
+    "defaultvalue": 0,
+    "displayName": "Second Date",
+    "hidden": 0,
+    "description": "Get a second date with Evelyn",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1463120/68deb0c1326bb387eb60872bfd263db910804afb.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1463120/a27b7cbcb5654fa6f0ab245d8fdc52ae5e060735.jpg"
+  },
+  {
+    "name": "text_with_an_s",
+    "defaultvalue": 0,
+    "displayName": "Text With An S",
+    "hidden": 0,
+    "description": "Return to sender",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1463120/f11c30de495c4ef01aa0d2873648f9ac0514b010.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1463120/538eac4520d2d1a78786e205202b53a9ce7dec5f.jpg"
+  },
+  {
+    "name": "the_wrong_time",
+    "defaultvalue": 0,
+    "displayName": "The Wrong Time",
+    "hidden": 0,
+    "description": "Don't kiss Lindsey",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1463120/da9d6eff64969e096902d1b3d301e92555b5135c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1463120/651ea061cf8b34f5140d17c50b0a1dc9e567067a.jpg"
+  },
+  {
+    "name": "thick_and_thin",
+    "defaultvalue": 0,
+    "displayName": "Thick And Thin",
+    "hidden": 0,
+    "description": "Help Penelope",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1463120/3fc500e48c1af67302f4e49120fc6585351e427f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1463120/22fa3b0f0d86436050575de7e14a6f9d376f233c.jpg"
+  },
+  {
+    "name": "up_for_more",
+    "defaultvalue": 0,
+    "displayName": "Up For More",
+    "hidden": 0,
+    "description": "Flirt with Chloe",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1463120/82fde985f74e42249e1fdffea4a581452574011e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1463120/08671104e7af2f2a31abfbf38d04e9897b479876.jpg"
   }
 ]

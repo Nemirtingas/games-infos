@@ -2,17 +2,31 @@
   "Dlcs": {
     "1418980": {
       "Name": "Medieval Dynasty - Digital Supporter Pack",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/1418980/header.jpg?t=1600345935"
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1418980/header.jpg?t=1600345935",
+      "Type": "dlc"
     }
   },
   "Name": "Medieval Dynasty",
   "AppId": "1129580",
-  "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/1129580/header.jpg?t=1600533182",
+  "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1129580/header.jpg?t=1631620312",
   "Languages": [
     "english",
     "german",
     "spanish",
-    "polish"
+    "polish",
+    "french",
+    "portuguese",
+    "japanese",
+    "portuguese",
+    "russian",
+    "czech",
+    "turkish",
+    "ukrainian",
+    "italian",
+    "hungarian",
+    "schinese",
+    "dutch",
+    "swedish"
   ],
   "Platforms": {
     "windows": true,

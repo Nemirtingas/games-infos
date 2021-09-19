@@ -1,634 +1,792 @@
-﻿{
-  "player_xp": {
-    "description": "",
-    "value": 0
-  },
-  "player_coin": {
-    "description": "",
-    "value": 0
-  },
-  "head_0": {
-    "description": "",
-    "value": 1
-  },
-  "head_1": {
-    "description": "",
-    "value": 0
-  },
-  "head_2": {
-    "description": "",
-    "value": 0
-  },
-  "head_3": {
-    "description": "",
-    "value": 0
-  },
-  "head_4": {
-    "description": "",
-    "value": 0
-  },
-  "head_5": {
-    "description": "",
-    "value": 0
-  },
-  "player_boxes": {
-    "description": "",
-    "value": 0
-  },
-  "body_0": {
-    "description": "",
-    "value": 1
-  },
-  "body_1": {
-    "description": "",
-    "value": 0
-  },
-  "shoes_0": {
-    "description": "",
-    "value": 1
-  },
-  "shoes_1": {
-    "description": "",
-    "value": 0
-  },
-  "head_6": {
-    "description": "",
-    "value": 0
-  },
-  "head_7": {
-    "description": "",
-    "value": 0
-  },
-  "head_8": {
-    "description": "",
-    "value": 0
-  },
-  "shoes_2": {
-    "description": "",
-    "value": 0
-  },
-  "shoes_3": {
-    "description": "",
-    "value": 0
-  },
-  "player_kills": {
-    "description": "",
-    "value": 0
-  },
-  "player_games": {
-    "description": "",
-    "value": 0
-  },
-  "player_time": {
-    "description": "",
-    "value": 0
-  },
-  "player_game_score": {
-    "description": "",
-    "value": 0
-  },
-  "player_game_won": {
-    "description": "",
-    "value": 0
-  },
-  "player_deaths": {
-    "description": "",
-    "value": 0
-  },
-  "player_sprite_0": {
-    "description": "",
-    "value": 0
-  },
-  "player_sprite_1": {
-    "description": "",
-    "value": 0
-  },
-  "player_sprite_2": {
-    "description": "",
-    "value": 0
-  },
-  "player_sprite_3": {
-    "description": "",
-    "value": 0
-  },
-  "player_sprite_4": {
-    "description": "",
-    "value": 0
-  },
-  "player_sprite_5": {
-    "description": "",
-    "value": 0
-  },
-  "player_sprite_6": {
-    "description": "",
-    "value": 0
-  },
-  "player_sprite_7": {
-    "description": "",
-    "value": 0
-  },
-  "player_sprite_8": {
-    "description": "",
-    "value": 0
-  },
-  "player_sprite_9": {
-    "description": "",
-    "value": 0
-  },
-  "player_sprite_10": {
-    "description": "",
-    "value": 0
-  },
-  "player_sprite_11": {
-    "description": "",
-    "value": 0
-  },
-  "player_sprite_12": {
-    "description": "",
-    "value": 0
-  },
-  "player_sprite_13": {
-    "description": "",
-    "value": 0
-  },
-  "player_sprite_14": {
-    "description": "",
-    "value": 0
-  },
-  "player_sprite_15": {
-    "description": "",
-    "value": 0
-  },
-  "player_sprite_16": {
-    "description": "",
-    "value": 0
-  },
-  "player_sprite_17": {
-    "description": "",
-    "value": 0
-  },
-  "player_sprite_18": {
-    "description": "",
-    "value": 0
-  },
-  "player_sprite_19": {
-    "description": "",
-    "value": 0
-  },
-  "player_sprite_20": {
-    "description": "",
-    "value": 0
-  },
-  "player_sprite_21": {
-    "description": "",
-    "value": 0
-  },
-  "player_sprite_22": {
-    "description": "",
-    "value": 0
-  },
-  "player_sprite_23": {
-    "description": "",
-    "value": 0
-  },
-  "player_sprite_24": {
-    "description": "",
-    "value": 0
-  },
-  "player_sprite_25": {
-    "description": "",
-    "value": 0
-  },
-  "player_sprite_26": {
-    "description": "",
-    "value": 0
-  },
-  "player_sprite_27": {
-    "description": "",
-    "value": 0
-  },
-  "player_sprite_28": {
-    "description": "",
-    "value": 0
-  },
-  "player_sprite_29": {
-    "description": "",
-    "value": 0
-  },
-  "player_sprite_30": {
-    "description": "",
-    "value": 0
-  },
-  "player_sprite_31": {
-    "description": "",
-    "value": 0
-  },
-  "player_sprite_32": {
-    "description": "",
-    "value": 0
-  },
-  "player_sprite_33": {
-    "description": "",
-    "value": 0
-  },
-  "player_sprite_34": {
-    "description": "",
-    "value": 0
-  },
-  "player_sprite_35": {
-    "description": "",
-    "value": 0
-  },
-  "player_sprite_36": {
-    "description": "",
-    "value": 0
-  },
-  "player_sprite_37": {
-    "description": "",
-    "value": 0
-  },
-  "player_sprite_38": {
-    "description": "",
-    "value": 0
-  },
-  "player_sprite_39": {
-    "description": "",
-    "value": 0
-  },
-  "player_sprite_40": {
-    "description": "",
-    "value": 0
-  },
-  "player_sprite_41": {
-    "description": "",
-    "value": 0
-  },
-  "player_sprite_42": {
-    "description": "",
-    "value": 0
-  },
-  "player_sprite_43": {
-    "description": "",
-    "value": 0
-  },
-  "player_sprite_44": {
-    "description": "",
-    "value": 0
-  },
-  "head_9": {
-    "description": "",
-    "value": 0
-  },
-  "head_10": {
-    "description": "",
-    "value": 0
-  },
-  "head_11": {
-    "description": "",
-    "value": 0
-  },
-  "head_12": {
-    "description": "",
-    "value": 0
-  },
-  "head_13": {
-    "description": "",
-    "value": 0
-  },
-  "head_14": {
-    "description": "",
-    "value": 0
-  },
-  "head_15": {
-    "description": "",
-    "value": 0
-  },
-  "head_16": {
-    "description": "",
-    "value": 0
-  },
-  "shoes_4": {
-    "description": "",
-    "value": 0
-  },
-  "body_2": {
-    "description": "",
-    "value": 0
-  },
-  "body_3": {
-    "description": "",
-    "value": 0
-  },
-  "body_4": {
-    "description": "",
-    "value": 0
-  },
-  "player_boxes_golden": {
-    "description": "",
-    "value": 0
-  },
-  "player_first_log": {
-    "description": "",
-    "value": 0
-  },
-  "player_round_wins": {
-    "description": "",
-    "value": 0
-  },
-  "head_17": {
-    "description": "",
-    "value": 0
-  },
-  "head_18": {
-    "description": "",
-    "value": 0
-  },
-  "head_19": {
-    "description": "",
-    "value": 0
-  },
-  "head_20": {
-    "description": "",
-    "value": 0
-  },
-  "head_21": {
-    "description": "",
-    "value": 0
-  },
-  "head_22": {
-    "description": "",
-    "value": 0
-  },
-  "body_5": {
-    "description": "",
-    "value": 0
-  },
-  "shoes_5": {
-    "description": "",
-    "value": 0
-  },
-  "shoes_6": {
-    "description": "",
-    "value": 0
-  },
-  "player_sprite_45": {
-    "description": "",
-    "value": 0
-  },
-  "player_sprite_46": {
-    "description": "",
-    "value": 0
-  },
-  "player_sprite_47": {
-    "description": "",
-    "value": 0
-  },
-  "player_sprite_48": {
-    "description": "",
-    "value": 0
-  },
-  "player_sprite_49": {
-    "description": "",
-    "value": 0
-  },
-  "player_sprite_50": {
-    "description": "",
-    "value": 0
-  },
-  "player_sprite_51": {
-    "description": "",
-    "value": 0
-  },
-  "player_sprite_52": {
-    "description": "",
-    "value": 0
-  },
-  "head_23": {
-    "description": "",
-    "value": 0
-  },
-  "head_24": {
-    "description": "",
-    "value": 0
-  },
-  "body_6": {
-    "description": "",
-    "value": 0
-  },
-  "player_sprite_53": {
-    "description": "",
-    "value": 0
-  },
-  "player_sprite_54": {
-    "description": "",
-    "value": 0
-  },
-  "player_sprite_55": {
-    "description": "",
-    "value": 0
-  },
-  "player_sprite_56": {
-    "description": "",
-    "value": 0
-  },
-  "head_25": {
-    "description": "",
-    "value": 0
-  },
-  "head_26": {
-    "description": "",
-    "value": 0
-  },
-  "player_warning": {
-    "description": "",
-    "value": 4294967295
-  },
-  "title_0": {
-    "description": "",
-    "value": 1
-  },
-  "title_1": {
-    "description": "",
-    "value": 0
-  },
-  "title_2": {
-    "description": "",
-    "value": 0
-  },
-  "title_3": {
-    "description": "",
-    "value": 0
-  },
-  "title_4": {
-    "description": "",
-    "value": 0
-  },
-  "title_5": {
-    "description": "",
-    "value": 0
-  },
-  "title_6": {
-    "description": "",
-    "value": 0
-  },
-  "title_7": {
-    "description": "",
-    "value": 0
-  },
-  "title_8": {
-    "description": "",
-    "value": 0
-  },
-  "title_9": {
-    "description": "",
-    "value": 0
-  },
-  "title_10": {
-    "description": "",
-    "value": 0
-  },
-  "title_11": {
-    "description": "",
-    "value": 0
-  },
-  "title_12": {
-    "description": "",
-    "value": 0
-  },
-  "title_13": {
-    "description": "",
-    "value": 0
-  },
-  "title_14": {
-    "description": "",
-    "value": 0
-  },
-  "title_15": {
-    "description": "",
-    "value": 0
-  },
-  "title_16": {
-    "description": "",
-    "value": 0
-  },
-  "title_17": {
-    "description": "",
-    "value": 0
-  },
-  "title_18": {
-    "description": "",
-    "value": 0
-  },
-  "title_19": {
-    "description": "",
-    "value": 0
-  },
-  "title_20": {
-    "description": "",
-    "value": 0
-  },
-  "head_27": {
-    "description": "",
-    "value": 0
-  },
-  "head_28": {
-    "description": "",
-    "value": 0
-  },
-  "head_29": {
-    "description": "",
-    "value": 0
-  },
-  "head_30": {
-    "description": "",
-    "value": 0
-  },
-  "head_31": {
-    "description": "",
-    "value": 0
-  },
-  "body_7": {
-    "description": "",
-    "value": 0
-  },
-  "body_8": {
-    "description": "",
-    "value": 0
-  },
-  "title_21": {
-    "description": "",
-    "value": 0
-  },
-  "title_22": {
-    "description": "",
-    "value": 0
-  },
-  "title_23": {
-    "description": "",
-    "value": 0
-  },
-  "head_32": {
-    "description": "",
-    "value": 0
-  },
-  "head_33": {
-    "description": "",
-    "value": 0
-  },
-  "head_34": {
-    "description": "",
-    "value": 0
-  },
-  "head_35": {
-    "description": "",
-    "value": 0
-  },
-  "player_sprite_57": {
-    "description": "",
-    "value": 0
-  },
-  "player_sprite_58": {
-    "description": "",
-    "value": 0
-  },
-  "player_sprite_59": {
-    "description": "",
-    "value": 0
-  },
-  "player_sprite_60": {
-    "description": "",
-    "value": 0
-  },
-  "player_sprite_61": {
-    "description": "",
-    "value": 0
-  },
-  "player_sprite_62": {
-    "description": "",
-    "value": 0
-  },
-  "head_36": {
-    "description": "",
-    "value": 0
-  },
-  "title_24": {
-    "description": "",
-    "value": 0
-  },
-  "title_25": {
-    "description": "",
-    "value": 0
-  },
-  "head_37": {
-    "description": "",
-    "value": 0
-  },
-  "title_26": {
-    "description": "",
-    "value": 0
-  },
-  "title_27": {
-    "description": "",
-    "value": 0
+[
+  {
+    "name": "player_xp",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "player_coin",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "head_0",
+    "defaultvalue": 1,
+    "displayName": ""
+  },
+  {
+    "name": "head_1",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "head_2",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "head_3",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "head_4",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "head_5",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "player_boxes",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "body_0",
+    "defaultvalue": 1,
+    "displayName": ""
+  },
+  {
+    "name": "body_1",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "shoes_0",
+    "defaultvalue": 1,
+    "displayName": ""
+  },
+  {
+    "name": "shoes_1",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "head_6",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "head_7",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "head_8",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "shoes_2",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "shoes_3",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "player_kills",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "player_games",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "player_time",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "player_game_score",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "player_game_won",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "player_deaths",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "player_sprite_0",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "player_sprite_1",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "player_sprite_2",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "player_sprite_3",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "player_sprite_4",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "player_sprite_5",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "player_sprite_6",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "player_sprite_7",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "player_sprite_8",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "player_sprite_9",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "player_sprite_10",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "player_sprite_11",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "player_sprite_12",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "player_sprite_13",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "player_sprite_14",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "player_sprite_15",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "player_sprite_16",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "player_sprite_17",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "player_sprite_18",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "player_sprite_19",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "player_sprite_20",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "player_sprite_21",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "player_sprite_22",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "player_sprite_23",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "player_sprite_24",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "player_sprite_25",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "player_sprite_26",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "player_sprite_27",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "player_sprite_28",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "player_sprite_29",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "player_sprite_30",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "player_sprite_31",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "player_sprite_32",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "player_sprite_33",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "player_sprite_34",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "player_sprite_35",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "player_sprite_36",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "player_sprite_37",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "player_sprite_38",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "player_sprite_39",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "player_sprite_40",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "player_sprite_41",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "player_sprite_42",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "player_sprite_43",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "player_sprite_44",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "head_9",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "head_10",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "head_11",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "head_12",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "head_13",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "head_14",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "head_15",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "head_16",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "shoes_4",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "body_2",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "body_3",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "body_4",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "player_boxes_golden",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "player_first_log",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "player_round_wins",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "head_17",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "head_18",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "head_19",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "head_20",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "head_21",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "head_22",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "body_5",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "shoes_5",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "shoes_6",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "player_sprite_45",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "player_sprite_46",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "player_sprite_47",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "player_sprite_48",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "player_sprite_49",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "player_sprite_50",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "player_sprite_51",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "player_sprite_52",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "head_23",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "head_24",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "body_6",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "player_sprite_53",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "player_sprite_54",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "player_sprite_55",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "player_sprite_56",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "head_25",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "head_26",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "player_warning",
+    "defaultvalue": 4294967295,
+    "displayName": ""
+  },
+  {
+    "name": "title_0",
+    "defaultvalue": 1,
+    "displayName": ""
+  },
+  {
+    "name": "title_1",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "title_2",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "title_3",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "title_4",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "title_5",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "title_6",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "title_7",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "title_8",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "title_9",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "title_10",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "title_11",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "title_12",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "title_13",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "title_14",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "title_15",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "title_16",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "title_17",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "title_18",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "title_19",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "title_20",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "head_27",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "head_28",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "head_29",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "head_30",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "head_31",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "body_7",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "body_8",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "title_21",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "title_22",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "title_23",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "head_32",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "head_33",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "head_34",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "head_35",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "player_sprite_57",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "player_sprite_58",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "player_sprite_59",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "player_sprite_60",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "player_sprite_61",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "player_sprite_62",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "head_36",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "title_24",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "title_25",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "head_37",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "title_26",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "title_27",
+    "defaultvalue": 0,
+    "displayName": ""
   }
-}
+]

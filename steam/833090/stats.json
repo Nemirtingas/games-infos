@@ -1,18 +1,22 @@
-﻿{
-  "GREENKILLS": {
-    "description": "Kills with Green Sword",
-    "value": 0
+[
+  {
+    "name": "GREENKILLS",
+    "defaultvalue": 0,
+    "displayName": "Kills with Green Sword"
   },
-  "REDKILLS": {
-    "description": "Kills with Red Sword",
-    "value": 0
+  {
+    "name": "REDKILLS",
+    "defaultvalue": 0,
+    "displayName": "Kills with Red Sword"
   },
-  "BLUEKILLS": {
-    "description": "Kills with Blue Sword",
-    "value": 0
+  {
+    "name": "BLUEKILLS",
+    "defaultvalue": 0,
+    "displayName": "Kills with Blue Sword"
   },
-  "WINCOUNT": {
-    "description": "Wins",
-    "value": 0
+  {
+    "name": "WINCOUNT",
+    "defaultvalue": 0,
+    "displayName": "Wins"
   }
-}
+]

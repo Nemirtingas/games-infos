@@ -1,30 +1,37 @@
-﻿{
-  "NumGames": {
-    "description": "NumGames",
-    "value": 0
+[
+  {
+    "name": "NumGames",
+    "defaultvalue": 0,
+    "displayName": "NumGames"
   },
-  "NumRidesFixed": {
-    "description": "NumRidesFixed",
-    "value": 0
+  {
+    "name": "NumRidesFixed",
+    "defaultvalue": 0,
+    "displayName": "NumRidesFixed"
   },
-  "NumPeopleEntertained": {
-    "description": "",
-    "value": 0
+  {
+    "name": "NumPeopleEntertained",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "NumWorkersShared": {
-    "description": "NumWorkersSchared",
-    "value": 0
+  {
+    "name": "NumWorkersShared",
+    "defaultvalue": 0,
+    "displayName": "NumWorkersSchared"
   },
-  "NumBucksInZone": {
-    "description": "NumBucksInZone",
-    "value": 0
+  {
+    "name": "NumBucksInZone",
+    "defaultvalue": 0,
+    "displayName": "NumBucksInZone"
   },
-  "NumPeepsKilled": {
-    "description": "NumPeepsKilled",
-    "value": 0
+  {
+    "name": "NumPeepsKilled",
+    "defaultvalue": 0,
+    "displayName": "NumPeepsKilled"
   },
-  "MaxZoneRating": {
-    "description": "MaxZoneRating",
-    "value": 0
+  {
+    "name": "MaxZoneRating",
+    "defaultvalue": 0,
+    "displayName": "MaxZoneRating"
   }
-}
+]

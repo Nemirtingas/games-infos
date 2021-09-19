@@ -1,14 +1,17 @@
-﻿{
-  "AllCount": {
-    "description": "count",
-    "value": 0
+[
+  {
+    "name": "AllCount",
+    "defaultvalue": 0,
+    "displayName": "count"
   },
-  "HighScore": {
-    "description": "HighScore",
-    "value": 0
+  {
+    "name": "HighScore",
+    "defaultvalue": 0,
+    "displayName": "HighScore"
   },
-  "NumOfFinish": {
-    "description": "passed sets",
-    "value": 0
+  {
+    "name": "NumOfFinish",
+    "defaultvalue": 0,
+    "displayName": "passed sets"
   }
-}
+]

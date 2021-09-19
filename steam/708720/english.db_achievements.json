@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "name": "ACH_WIN_5_GAMES",
     "defaultvalue": 0,
@@ -241,5 +241,140 @@
     "description": "Sack the same QB 5 times in a single match",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708720/e8aa4ff547eeb1e7c2f668949b0c6528fa7ebdd2.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708720/d7088d6b5ef9e66d64471a77900077c49f3c1838.jpg"
+  },
+  {
+    "name": "ACH_WIN_1V1",
+    "defaultvalue": 0,
+    "displayName": "Jackpot",
+    "hidden": 0,
+    "description": "Win a match of the 1v1 gamemode",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708720/255ca49844efba3e15ecf7a15f6c93d66fb225b8.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708720/3b6a29b86729c909802f7353c8d80b1201357f13.jpg"
+  },
+  {
+    "name": "ACH_WIN_1V1_15_0",
+    "defaultvalue": 0,
+    "displayName": "Pay Dirt",
+    "hidden": 0,
+    "description": "Win the 1v1 gamemode 15-0",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708720/afccf7e67069091432f629410d489d84c1337fc9.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708720/6116828fe1b37b3cb9ca4b9f2b27919069e907a5.jpg"
+  },
+  {
+    "name": "ACH_CATCH_1V1",
+    "defaultvalue": 0,
+    "displayName": "Catching The Bomb",
+    "hidden": 0,
+    "description": "Catch a pass in the 1v1 gamemode.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708720/8771649a5cdce6a9e7002c9a048cf5dafb29d154.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708720/6116828fe1b37b3cb9ca4b9f2b27919069e907a5.jpg"
+  },
+  {
+    "name": "ACH_CATCH_BALL_50_50",
+    "defaultvalue": 0,
+    "displayName": "Moss’d",
+    "hidden": 0,
+    "description": "Catch a 50/50 ball.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708720/03516467022abd6f5697d5fb6d6ec3c52975ebd9.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708720/6116828fe1b37b3cb9ca4b9f2b27919069e907a5.jpg"
+  },
+  {
+    "name": "ACH_WIN_1V1_15_14",
+    "defaultvalue": 0,
+    "displayName": "Sudden Death",
+    "hidden": 0,
+    "description": "Win the 1v1 Gamemode 15-14",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708720/589857e7b7337cef599fee4b76099610cea367f5.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708720/6116828fe1b37b3cb9ca4b9f2b27919069e907a5.jpg"
+  },
+  {
+    "name": "ACH_WIN_1V1_15_14_2",
+    "defaultvalue": 0,
+    "displayName": "Reverse All Victory",
+    "hidden": 0,
+    "description": "Win the 1v1 Gamemode after being down 14-0.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708720/b04074fe97d1f5c82c3316776ff90ec394d5f8d5.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708720/6116828fe1b37b3cb9ca4b9f2b27919069e907a5.jpg"
+  },
+  {
+    "name": "ACH_CATCH_5_1V1",
+    "defaultvalue": 0,
+    "displayName": "Hot Streak",
+    "hidden": 0,
+    "description": "Catch 5 passes in a row in the 1v1 gamemode.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708720/2d135c3a8d0abcf67e548f90aa3d8099d7be08e3.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708720/6116828fe1b37b3cb9ca4b9f2b27919069e907a5.jpg"
+  },
+  {
+    "name": "ACH_CATCH_8_1V1",
+    "defaultvalue": 0,
+    "displayName": "Ultra Streak",
+    "hidden": 0,
+    "description": "Catch 8 passes in a row in the 1v1 gamemode.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708720/229b4ef510bd4aaf7706ce6ef8ef58f4f43b0919.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708720/6116828fe1b37b3cb9ca4b9f2b27919069e907a5.jpg"
+  },
+  {
+    "name": "ACH_CATCH_10_1V1",
+    "defaultvalue": 0,
+    "displayName": "The Machine",
+    "hidden": 0,
+    "description": "Catch 10 passes in a row in the 1v1 gamemode.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708720/d4f429912778bc2a28024e82bbad8c3c8f1805d3.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708720/6116828fe1b37b3cb9ca4b9f2b27919069e907a5.jpg"
+  },
+  {
+    "name": "ACH_CATCH_12_1V1",
+    "defaultvalue": 0,
+    "displayName": "The Monster",
+    "hidden": 0,
+    "description": "Catch 12 passes in a row in the 1v1 gamemode.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708720/c020e55fe248ded76a993d5fc1a812c10c5bb37c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708720/6116828fe1b37b3cb9ca4b9f2b27919069e907a5.jpg"
+  },
+  {
+    "name": "ACH_CATCH_14_1V1",
+    "defaultvalue": 0,
+    "displayName": "The Master",
+    "hidden": 0,
+    "description": "Catch 14 passes in a row in the 1v1 gamemode.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708720/d718f0544d2e565660a60c80804d82046d38c71c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708720/6116828fe1b37b3cb9ca4b9f2b27919069e907a5.jpg"
+  },
+  {
+    "name": "ACH_CATCH_15_1V1",
+    "defaultvalue": 0,
+    "displayName": "The Perfectionist",
+    "hidden": 0,
+    "description": "Catch 15 passes in a row in the 1v1 gamemode.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708720/66394f5ddcfcfec041ec7ef47b836fd696200902.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708720/6116828fe1b37b3cb9ca4b9f2b27919069e907a5.jpg"
+  },
+  {
+    "name": "ACH_WIN_1V1_5",
+    "defaultvalue": 0,
+    "displayName": "Backyard Baller",
+    "hidden": 0,
+    "description": "Win 5 matches of the 1v1 gamemode.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708720/f46142569feac51b02092cdc5382b0efd4cbb8d0.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708720/6116828fe1b37b3cb9ca4b9f2b27919069e907a5.jpg"
+  },
+  {
+    "name": "ACH_WIN_1V1_25",
+    "defaultvalue": 0,
+    "displayName": "Backyard Hustler",
+    "hidden": 0,
+    "description": "Win 25 matches of the 1v1 gamemode.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708720/d733a6845a54fa6562f880ddf95b6b70b9ce5c4f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708720/6116828fe1b37b3cb9ca4b9f2b27919069e907a5.jpg"
+  },
+  {
+    "name": "ACH_WIN_1V1_50",
+    "defaultvalue": 0,
+    "displayName": "Backyard Pro",
+    "hidden": 0,
+    "description": "Win 50 matches of the 1v1 gamemode.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708720/29fca270d7f40c7f45191ad4c716e01842688efa.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/708720/6116828fe1b37b3cb9ca4b9f2b27919069e907a5.jpg"
   }
 ]

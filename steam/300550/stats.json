@@ -1,34 +1,42 @@
-﻿{
-  "GRENADE_KILLS": {
-    "description": "Grenade Kills",
-    "value": 0
+[
+  {
+    "name": "GRENADE_KILLS",
+    "defaultvalue": 0,
+    "displayName": "Grenade Kills"
   },
-  "MAGIC_KILLS": {
-    "description": "Magic Spell Kills",
-    "value": 0
+  {
+    "name": "MAGIC_KILLS",
+    "defaultvalue": 0,
+    "displayName": "Magic Spell Kills"
   },
-  "WIRED_REFLEX_DODGE": {
-    "description": "Wired Reflex Dodges",
-    "value": 0
+  {
+    "name": "WIRED_REFLEX_DODGE",
+    "defaultvalue": 0,
+    "displayName": "Wired Reflex Dodges"
   },
-  "HIGHEST_HEAL_WOUND": {
-    "description": "Highest Heal Wound",
-    "value": 0
+  {
+    "name": "HIGHEST_HEAL_WOUND",
+    "defaultvalue": 0,
+    "displayName": "Highest Heal Wound"
   },
-  "ENVIRONMENT_SUMMONS": {
-    "description": "Spirits Summoned From Environment",
-    "value": 0
+  {
+    "name": "ENVIRONMENT_SUMMONS",
+    "defaultvalue": 0,
+    "displayName": "Spirits Summoned From Environment"
   },
-  "MOST_KILLS_SINGLE_SUMMON": {
-    "description": "Most Kills From A Single Summon",
-    "value": 0
+  {
+    "name": "MOST_KILLS_SINGLE_SUMMON",
+    "defaultvalue": 0,
+    "displayName": "Most Kills From A Single Summon"
   },
-  "FULL_AUTO_KILLS": {
-    "description": "Full Automatic Weapon Kills",
-    "value": 0
+  {
+    "name": "FULL_AUTO_KILLS",
+    "defaultvalue": 0,
+    "displayName": "Full Automatic Weapon Kills"
   },
-  "DRUGS_USED": {
-    "description": "Combat Stims Used",
-    "value": 0
+  {
+    "name": "DRUGS_USED",
+    "defaultvalue": 0,
+    "displayName": "Combat Stims Used"
   }
-}
+]

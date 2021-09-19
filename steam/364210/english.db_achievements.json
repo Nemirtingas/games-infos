@@ -40,7 +40,7 @@
     "defaultvalue": 0,
     "displayName": "Trigger Happy Fools",
     "hidden": 0,
-    "description": "Complete the Rhines ending of episode 1",
+    "description": "Complete the Rhines ending of the introduction.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/364210/e31d7bb0ba625a5037442f90c6fa5a898a8420dd.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/364210/885b1c3202bda9b4aeca1145aa4e2355d14f33ac.jpg"
   },
@@ -49,7 +49,7 @@
     "defaultvalue": 0,
     "displayName": "Red Tide",
     "hidden": 0,
-    "description": "Complete the Mondshire ending of episode 1.",
+    "description": "Complete the Mondshire ending of the introduction.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/364210/e86cd0beb7ce4925841e221038923f3ee21c96f0.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/364210/670516817e9eaabe0f546df881092ded4856b26e.jpg"
   },
@@ -58,7 +58,7 @@
     "defaultvalue": 0,
     "displayName": "Empty Speculation ",
     "hidden": 0,
-    "description": "Complete the Icoros Novo ending of Episode 1. ",
+    "description": "Complete the Icoros Novo ending of the introduction. ",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/364210/92f8e488135e22060f32aafbc3a574f09da3e012.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/364210/e33908e94ed0e37d15ee62f11c3bad9a5d367e75.jpg"
   },
@@ -76,7 +76,7 @@
     "defaultvalue": 0,
     "displayName": "Always a Good Time for Upgrades",
     "hidden": 0,
-    "description": "Preview the augmentations dock. ",
+    "description": "Preview the augmentations dock before they're accessible. ",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/364210/4404f089cca775f5227546543b2dafbe74072d7f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/364210/c11bc8d00a80d579975f6b2a674b76278d685439.jpg"
   },
@@ -163,8 +163,114 @@
     "defaultvalue": 0,
     "displayName": "Collapsing Daybreak",
     "hidden": 0,
-    "description": "Get all achievements in Episode 1.",
+    "description": "Get all achievements in the introduction.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/364210/2407374005817a163d95d6d2301f6d7163ed965c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/364210/cc95d464d561068a15ea71a6b32800b4f3ecd293.jpg"
+  },
+  {
+    "name": "achieve_20",
+    "defaultvalue": 0,
+    "displayName": "Dragon Slayer",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/364210/82ed58766ec553592fdbdff626b71e21477719a6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/364210/8928711f0ea2ee4ed7a4e109f9828e1c924e6082.jpg"
+  },
+  {
+    "name": "achieve_21",
+    "defaultvalue": 0,
+    "displayName": "Dissonance and Resonance",
+    "hidden": 0,
+    "description": "Complete the main story. ",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/364210/fe00856420490e645b56d361793d189cea2be3fc.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/364210/5148166156327de248fbbf84d374eb1e0baff8eb.jpg"
+  },
+  {
+    "name": "achieve_22",
+    "defaultvalue": 0,
+    "displayName": "Optimistic Dream",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/364210/d180d8aabe2bc07e20c252f1391f8a08145ef138.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/364210/83b44e93d1b0fb647927908ed970c9932dc679b6.jpg"
+  },
+  {
+    "name": "achieve_23",
+    "defaultvalue": 0,
+    "displayName": "Expectations Blown",
+    "hidden": 0,
+    "description": "Be the perfect escort and don't lose a single transport. ",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/364210/bfd444cb8ec7af54817c0f4b24164111967bccc6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/364210/678254f532f38c2e40916ad28f15ab89474a9101.jpg"
+  },
+  {
+    "name": "achieve_24",
+    "defaultvalue": 0,
+    "displayName": "Straight S Student",
+    "hidden": 0,
+    "description": "Complete main story with an average rank of S. ",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/364210/e63d4ed3783a632e5856e8123b11206f303a8be4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/364210/eb375f564624855fb9e2bd06d2eaa53b73124198.jpg"
+  },
+  {
+    "name": "achieve_25",
+    "defaultvalue": 0,
+    "displayName": "Beautiful Rotten City",
+    "hidden": 0,
+    "description": "Go on an outting with Jean.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/364210/8dd335d8e7448a625e8d27fdc16d62315bf70a9d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/364210/ae5699b70b02f874abd362ff55ecba260def1558.jpg"
+  },
+  {
+    "name": "achieve_26",
+    "defaultvalue": 0,
+    "displayName": "Rough Times",
+    "hidden": 0,
+    "description": "Go on an outting with Claine.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/364210/ee32f0b8a6f803307ed6f2609496487cb2978d18.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/364210/bcc6358a9e047dbac0a204b06c7d38292f3919e4.jpg"
+  },
+  {
+    "name": "achieve_27",
+    "defaultvalue": 0,
+    "displayName": "Moving Forwards",
+    "hidden": 0,
+    "description": "Go on an outting with Freija. ",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/364210/c9546ab4c182f84897e49d531344507fd6347929.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/364210/f50877af01435c85fffba8289a54b607a6f6da16.jpg"
+  },
+  {
+    "name": "achieve_28",
+    "defaultvalue": 0,
+    "displayName": "I Don't Get You",
+    "hidden": 0,
+    "description": "Go on an outting with Ashton.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/364210/6fcb276cd143afdfb2c56f6b4cb15994f3119e86.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/364210/06e04bbaec888f6284c4f6e4c33dfc85cdaad806.jpg"
+  },
+  {
+    "name": "achieve_29",
+    "defaultvalue": 0,
+    "displayName": "Goddess' Grace",
+    "hidden": 0,
+    "description": "Go on an outting with Allen.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/364210/115685d4af352a0bb876b71dcbbc99199906b179.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/364210/d5156d448e3e1c9576feb9547c4c2fe251e29cb8.jpg"
+  },
+  {
+    "name": "achieve_30",
+    "defaultvalue": 0,
+    "displayName": "Big Brother Fetish",
+    "hidden": 0,
+    "description": "Go on an outting with Rutherford. ",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/364210/2046f1b320bf49f129e657e6eac4105a261ab05b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/364210/1ebb6d7c3d751122e23d3ae96c30b321d4e006e0.jpg"
+  },
+  {
+    "name": "achieve_31",
+    "defaultvalue": 0,
+    "displayName": "Poster Boy",
+    "hidden": 0,
+    "description": "Complete all achievements.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/364210/f2538d9d39e7b5417046851808d5ff642166fe77.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/364210/5c23610a672064dd6c2f0ccadedcd7591135df99.jpg"
   }
 ]

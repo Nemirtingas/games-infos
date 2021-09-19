@@ -637,5 +637,110 @@
     "hidden": 1,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282510/69759f9798faee30b41554ae5dbde3011beb1522.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282510/dae0483cfceaddd51396053080c8ee74ddb68760.jpg"
+  },
+  {
+    "name": "PUZZLE_EASY",
+    "defaultvalue": 0,
+    "displayName": "Bronze Jigsaw",
+    "hidden": 0,
+    "description": "Solve all beginner puzzles.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282510/c57f0e655eb13d462f7963b3467964daebd7f58d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282510/e33fe73794838976317361cc85a8edc808120354.jpg"
+  },
+  {
+    "name": "PUZZLE_MEDIUM",
+    "defaultvalue": 0,
+    "displayName": "Silver Jigsaw",
+    "hidden": 0,
+    "description": "Solve all advanced puzzles.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282510/8920f71d9acdc2a96b771329133e966e55c7afe4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282510/e065004472426057834ffaa8ced6f27b79ecfa85.jpg"
+  },
+  {
+    "name": "PUZZLE_HARD",
+    "defaultvalue": 0,
+    "displayName": "Golden Jigsaw",
+    "hidden": 0,
+    "description": "Solve all expert puzzles.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282510/2b04303bb9352d6adaba9e6d680ab7166d659638.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282510/1df09cfca4cd690794e3e7ef1adfa2fec7766a95.jpg"
+  },
+  {
+    "name": "MIRROR_50",
+    "defaultvalue": 0,
+    "displayName": "Mirror Of Illusions",
+    "hidden": 0,
+    "description": "Defeat 50 opponents in the Mirror Globe.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282510/d7421e77373f3ca04ab6e6464a6f80772f1a05fd.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282510/284908fd0acad8e0b8be3947492b19480e913438.jpg"
+  },
+  {
+    "name": "ALL_MAPS",
+    "defaultvalue": 0,
+    "displayName": "Cartograph",
+    "hidden": 0,
+    "description": "Collect all random encounter maps.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282510/89720caf0ba25534b3b76e1a9b2e37c82a341ed6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282510/2913ca4979ec7ad8bdab2a59d4724e6bb9011bcc.jpg"
+  },
+  {
+    "name": "DRAW_GAME",
+    "defaultvalue": 0,
+    "displayName": "Resounding Meh",
+    "hidden": 0,
+    "description": "Have a game end in a draw.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282510/a3663a4fc229e2a93bba1bc6102af2afc33d15f8.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282510/f6aac21180ac1c4914bafac1b16076b7f4c507c4.jpg"
+  },
+  {
+    "name": "BEAT_BELLIE_WITH_BELLIE",
+    "defaultvalue": 0,
+    "displayName": "Dramatic Irony",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282510/dc945ff727bdbed67b795ca10a58640d94189188.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282510/1f0bc9aa58d7658365e4983f60dc59fd91752689.jpg"
+  },
+  {
+    "name": "BOWLING_HIGHSCORE",
+    "defaultvalue": 0,
+    "displayName": "Incredibowl",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282510/0babcc66db1260e5bef4cfa66db3447a7ef7e321.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282510/ca29dc4263d7822e205cbec7ce21b8c76fff9c8f.jpg"
+  },
+  {
+    "name": "MIRROR_IN_MIRROR",
+    "defaultvalue": 0,
+    "displayName": "Infinite Reflection",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282510/672a415281ce389f9ca030fef8a547becc006ce2.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282510/755573fa28af3c42ec9c470dded6b044034300d6.jpg"
+  },
+  {
+    "name": "BEAT_SCHMOTTIE_SPARE_SQUIRRELS",
+    "defaultvalue": 0,
+    "displayName": "Squirlyphile",
+    "hidden": 0,
+    "description": "Defeat Schmottilie without destroying a squirrel using 50 skillpoints or less.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282510/36f13b7642cf91caec6cfd8247a595ce16ac1036.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282510/6f82a3304a80c168a0e9a61a22d4b552a945142a.jpg"
+  },
+  {
+    "name": "BEAT_ATERIOTH_COMMONS",
+    "defaultvalue": 0,
+    "displayName": "I Promised Him Copper Stars",
+    "hidden": 0,
+    "description": "Beat the final boss using only common cards.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282510/32ccbe29f079f3b4a9adc5b25e2cf0ee14e57bb2.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282510/c95021472396c77bdeb327edbf95c3302bbc171d.jpg"
+  },
+  {
+    "name": "BEAT_HEOSPHOROS_WITH_SVARTELD",
+    "defaultvalue": 0,
+    "displayName": "Aspirant's Triumph",
+    "hidden": 0,
+    "description": "Defeat the dragon Heosphoros with Svarteld.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282510/960d2121f6e6572871cc0fdd22170acf48791f27.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282510/1a20cf439859cf97e75660acc27e7d813b6d2281.jpg"
   }
 ]

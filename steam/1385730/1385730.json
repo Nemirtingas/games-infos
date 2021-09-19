@@ -2,16 +2,22 @@
   "Dlcs": {
     "1389910": {
       "Name": "Mosaique Neko Waifus 3 Free R18",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/1389910/header.jpg?t=1598645940"
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1389910/header.jpg?t=1602539523",
+      "Type": "dlc"
     },
     "1389911": {
       "Name": "Mosaique Neko Waifus 3 Clips",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/1389911/header.jpg?t=1599230684"
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1389911/header.jpg?t=1599230684",
+      "Type": "dlc"
+    },
+    "1448980": {
+      "Name": "",
+      "ImageUrl": ""
     }
   },
   "Name": "Mosaique Neko Waifus 3",
   "AppId": "1385730",
-  "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/1385730/header.jpg?t=1599339072",
+  "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1385730/header.jpg?t=1603904956",
   "Languages": [
     "english",
     "french",
@@ -27,6 +33,6 @@
   "Platforms": {
     "windows": true,
     "mac": false,
-    "linux": false
+    "linux": true
   }
 }

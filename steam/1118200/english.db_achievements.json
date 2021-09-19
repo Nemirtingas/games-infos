@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "name": "SPAWN_ALL_ITEMS",
     "defaultvalue": 0,
@@ -54,15 +54,6 @@
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1118200/c5f49ac95f92ec2e673974833bb4198cf4e1b5fe.jpg"
   },
   {
-    "name": "AIRTIME_60",
-    "defaultvalue": 0,
-    "displayName": "Airborne",
-    "hidden": 0,
-    "description": "Keep a person in the air for one minute without touching it",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1118200/580de74d0d8749126e5c45e2b457fc6112c6cd52.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1118200/bd1c7a55a39d1c14d3f6c0d8efd004f95b488517.jpg"
-  },
-  {
     "name": "KILL_1M_PEOPLE",
     "defaultvalue": 0,
     "displayName": "Extinction",
@@ -86,5 +77,21 @@
     "hidden": 1,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1118200/d0170b2668597b9a3f8488ce130eb60674c0dbde.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1118200/0494d17e14599117f8b7500e37c610e38a347c61.jpg"
+  },
+  {
+    "name": "SGNR",
+    "defaultvalue": 0,
+    "displayName": "Faraday Malfunction",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1118200/bce21fb3bf5f9efa03f04f6bfd5ce119d4dbc579.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1118200/44954de24660e0afe0b882acf66f77e63166820b.jpg"
+  },
+  {
+    "name": "KEYPAD",
+    "defaultvalue": 0,
+    "displayName": "Inverse teleportation",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1118200/7dfbc8c84d8253792dfa173dcb5d04947ca81b63.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1118200/87030eb079b25c099a0594dab97f1a4f8112226d.jpg"
   }
 ]

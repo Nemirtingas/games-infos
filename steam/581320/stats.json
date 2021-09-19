@@ -1,10 +1,12 @@
-﻿{
-  "TotalObserverCalls_TotalObserverCalls": {
-    "description": "Total Observer Calls",
-    "value": 0
+[
+  {
+    "name": "TotalObserverCalls_TotalObserverCalls",
+    "defaultvalue": 0,
+    "displayName": "Total Observer Calls"
   },
-  "TotalObjectiveCaptures_TotalObjectiveCaptures": {
-    "description": "Total Objective Captures",
-    "value": 0
+  {
+    "name": "TotalObjectiveCaptures_TotalObjectiveCaptures",
+    "defaultvalue": 0,
+    "displayName": "Total Objective Captures"
   }
-}
+]

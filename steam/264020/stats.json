@@ -1,38 +1,47 @@
-﻿{
-  "stat_num_benchmarks_macosx": {
-    "description": "macosx benchmarks count",
-    "value": 0
+[
+  {
+    "name": "stat_num_benchmarks_macosx",
+    "defaultvalue": 0,
+    "displayName": "macosx benchmarks count"
   },
-  "stat_num_benchmarks_linux": {
-    "description": "linux benchmarks count",
-    "value": 0
+  {
+    "name": "stat_num_benchmarks_linux",
+    "defaultvalue": 0,
+    "displayName": "linux benchmarks count"
   },
-  "stat_num_benchmarks_windows": {
-    "description": "windows benchmarks count",
-    "value": 0
+  {
+    "name": "stat_num_benchmarks_windows",
+    "defaultvalue": 0,
+    "displayName": "windows benchmarks count"
   },
-  "test_stat_1": {
-    "description": "",
-    "value": 0
+  {
+    "name": "test_stat_1",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "test_int": {
-    "description": "",
-    "value": 0
+  {
+    "name": "test_int",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "test_float": {
-    "description": "",
-    "value": 0
+  {
+    "name": "test_float",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "test_stat_2": {
-    "description": "",
-    "value": 0
+  {
+    "name": "test_stat_2",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "stat_num_benchmarks_32bit": {
-    "description": "32-bit benchmarks count",
-    "value": 0
+  {
+    "name": "stat_num_benchmarks_32bit",
+    "defaultvalue": 0,
+    "displayName": "32-bit benchmarks count"
   },
-  "stat_num_benchmarks_64bit": {
-    "description": "64-bit benchmarks count",
-    "value": 0
+  {
+    "name": "stat_num_benchmarks_64bit",
+    "defaultvalue": 0,
+    "displayName": "64-bit benchmarks count"
   }
-}
+]

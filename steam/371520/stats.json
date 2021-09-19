@@ -1,126 +1,157 @@
-﻿{
-  "CASH_10K": {
-    "description": "Earn $10 000",
-    "value": 0
+[
+  {
+    "name": "CASH_10K",
+    "defaultvalue": 0,
+    "displayName": "Earn $10 000"
   },
-  "CASH_25K": {
-    "description": "Earn $25 000",
-    "value": 0
+  {
+    "name": "CASH_25K",
+    "defaultvalue": 0,
+    "displayName": "Earn $25 000"
   },
-  "CASH_50K": {
-    "description": "Earn $50 000",
-    "value": 0
+  {
+    "name": "CASH_50K",
+    "defaultvalue": 0,
+    "displayName": "Earn $50 000"
   },
-  "BUY_SIERRA": {
-    "description": "Sierra locomotive",
-    "value": 0
+  {
+    "name": "BUY_SIERRA",
+    "defaultvalue": 0,
+    "displayName": "Sierra locomotive"
   },
-  "WIN_AUCTION": {
-    "description": "Win Auction",
-    "value": 0
+  {
+    "name": "WIN_AUCTION",
+    "defaultvalue": 0,
+    "displayName": "Win Auction"
   },
-  "KILL_X_WANTED": {
-    "description": "Wanted",
-    "value": 0
+  {
+    "name": "KILL_X_WANTED",
+    "defaultvalue": 0,
+    "displayName": "Wanted"
   },
-  "COLLECT_ALL_LOCOMOTIVES": {
-    "description": "Locomotives",
-    "value": 0
+  {
+    "name": "COLLECT_ALL_LOCOMOTIVES",
+    "defaultvalue": 0,
+    "displayName": "Locomotives"
   },
-  "FIND_ALL_SIBLINGS": {
-    "description": "Siblings",
-    "value": 0
+  {
+    "name": "FIND_ALL_SIBLINGS",
+    "defaultvalue": 0,
+    "displayName": "Siblings"
   },
-  "OPEN_ALL_ROADS": {
-    "description": "Railroads",
-    "value": 0
+  {
+    "name": "OPEN_ALL_ROADS",
+    "defaultvalue": 0,
+    "displayName": "Railroads"
   },
-  "EARN_X_FROM_DEPOSITS": {
-    "description": "Banker",
-    "value": 0
+  {
+    "name": "EARN_X_FROM_DEPOSITS",
+    "defaultvalue": 0,
+    "displayName": "Banker"
   },
-  "GET_MAX_SPEED": {
-    "description": "MaxSpeed",
-    "value": 0
+  {
+    "name": "GET_MAX_SPEED",
+    "defaultvalue": 0,
+    "displayName": "MaxSpeed"
   },
-  "DELIVER_X_PASSENGERS": {
-    "description": "Deliver 25 passengers",
-    "value": 0
+  {
+    "name": "DELIVER_X_PASSENGERS",
+    "defaultvalue": 0,
+    "displayName": "Deliver 25 passengers"
   },
-  "COMPLETE_X_QUESTS": {
-    "description": "100 quests",
-    "value": 0
+  {
+    "name": "COMPLETE_X_QUESTS",
+    "defaultvalue": 0,
+    "displayName": "100 quests"
   },
-  "WIN_THE_GAME": {
-    "description": "Game Win",
-    "value": 0
+  {
+    "name": "WIN_THE_GAME",
+    "defaultvalue": 0,
+    "displayName": "Game Win"
   },
-  "DELIVER_X_CARGO": {
-    "description": "Cargo delivery",
-    "value": 0
+  {
+    "name": "DELIVER_X_CARGO",
+    "defaultvalue": 0,
+    "displayName": "Cargo delivery"
   },
-  "OWN_X_PROPERTIES": {
-    "description": "",
-    "value": 0
+  {
+    "name": "OWN_X_PROPERTIES",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "KILL_X_ENEMIES": {
-    "description": "",
-    "value": 0
+  {
+    "name": "KILL_X_ENEMIES",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "SMUGGLE_X_TIMES": {
-    "description": "",
-    "value": 0
+  {
+    "name": "SMUGGLE_X_TIMES",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "OWN_3_OIL_WELLS": {
-    "description": "",
-    "value": 0
+  {
+    "name": "OWN_3_OIL_WELLS",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "OWN_PRODUCTION_CHAIN": {
-    "description": "",
-    "value": 0
+  {
+    "name": "OWN_PRODUCTION_CHAIN",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "DELIVER_X_MESSAGES": {
-    "description": "",
-    "value": 0
+  {
+    "name": "DELIVER_X_MESSAGES",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "NO_FAILED_QUESTS": {
-    "description": "",
-    "value": 0
+  {
+    "name": "NO_FAILED_QUESTS",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "DOUBLE_KILL": {
-    "description": "",
-    "value": 0
+  {
+    "name": "DOUBLE_KILL",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "TRIPPLE_KILL": {
-    "description": "",
-    "value": 0
+  {
+    "name": "TRIPPLE_KILL",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "COVER_380K_KM_BY_ONE_LOCO": {
-    "description": "",
-    "value": 0
+  {
+    "name": "COVER_380K_KM_BY_ONE_LOCO",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "COVER_X_MILES": {
-    "description": "",
-    "value": 0
+  {
+    "name": "COVER_X_MILES",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "EARN_X_MONEY": {
-    "description": "",
-    "value": 0
+  {
+    "name": "EARN_X_MONEY",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "UNION_FRIEND": {
-    "description": "",
-    "value": 0
+  {
+    "name": "UNION_FRIEND",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "CONFEDERATE_FRIEND": {
-    "description": "",
-    "value": 0
+  {
+    "name": "CONFEDERATE_FRIEND",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "BECOME_WANTED": {
-    "description": "",
-    "value": 0
+  {
+    "name": "BECOME_WANTED",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "READ_CREDITS_STATS": {
-    "description": "",
-    "value": 0
+  {
+    "name": "READ_CREDITS_STATS",
+    "defaultvalue": 0,
+    "displayName": ""
   }
-}
+]

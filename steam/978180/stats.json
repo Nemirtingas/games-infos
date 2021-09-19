@@ -1,146 +1,182 @@
-﻿{
-  "KillPlayer_InAnyWay": {
-    "description": "用任何方式淘汰对手玩家",
-    "value": 0
+[
+  {
+    "name": "KillPlayer_InAnyWay",
+    "defaultvalue": 0,
+    "displayName": "用任何方式淘汰对手玩家"
   },
-  "Win_In1V1": {
-    "description": "在1V1模式中获得胜利",
-    "value": 0
+  {
+    "name": "Win_In1V1",
+    "defaultvalue": 0,
+    "displayName": "在1V1模式中获得胜利"
   },
-  "Win_In2V2": {
-    "description": "在2V2模式中获得胜利",
-    "value": 0
+  {
+    "name": "Win_In2V2",
+    "defaultvalue": 0,
+    "displayName": "在2V2模式中获得胜利"
   },
-  "Win": {
-    "description": "取得胜利",
-    "value": 0
+  {
+    "name": "Win",
+    "defaultvalue": 0,
+    "displayName": "取得胜利"
   },
-  "ReachLevel_150": {
-    "description": "等级升至150级",
-    "value": 0
+  {
+    "name": "ReachLevel_150",
+    "defaultvalue": 0,
+    "displayName": "等级升至150级"
   },
-  "ReachLevel_300": {
-    "description": "等级升至300级",
-    "value": 0
+  {
+    "name": "ReachLevel_300",
+    "defaultvalue": 0,
+    "displayName": "等级升至300级"
   },
-  "KillPlayer_UseAnyGun": {
-    "description": "使用柯尔特1873、史蒂文斯311R或者其他枪支成功淘汰对手",
-    "value": 0
+  {
+    "name": "KillPlayer_UseAnyGun",
+    "defaultvalue": 0,
+    "displayName": "使用柯尔特1873、史蒂文斯311R或者其他枪支成功淘汰对手"
   },
-  "KillPlayer_UseAnyDamageableGrenade": {
-    "description": "使用手雷成功淘汰对手玩家",
-    "value": 0
+  {
+    "name": "KillPlayer_UseAnyDamageableGrenade",
+    "defaultvalue": 0,
+    "displayName": "使用手雷成功淘汰对手玩家"
   },
-  "KillPlayer_UseLightSaber": {
-    "description": "使用光剑成功淘汰对手玩家",
-    "value": 0
+  {
+    "name": "KillPlayer_UseLightSaber",
+    "defaultvalue": 0,
+    "displayName": "使用光剑成功淘汰对手玩家"
   },
-  "KillPlayer_UseSensorBomb": {
-    "description": "使用感应炸弹成功淘汰对手",
-    "value": 0
+  {
+    "name": "KillPlayer_UseSensorBomb",
+    "defaultvalue": 0,
+    "displayName": "使用感应炸弹成功淘汰对手"
   },
-  "FinishTutorial": {
-    "description": "完成新手教学任务",
-    "value": 0
+  {
+    "name": "FinishTutorial",
+    "defaultvalue": 0,
+    "displayName": "完成新手教学任务"
   },
-  "Win_InBar": {
-    "description": "在酒吧关卡获得胜利",
-    "value": 0
+  {
+    "name": "Win_InBar",
+    "defaultvalue": 0,
+    "displayName": "在酒吧关卡获得胜利"
   },
-  "Win_InChurch": {
-    "description": "在教堂关卡获得胜利",
-    "value": 0
+  {
+    "name": "Win_InChurch",
+    "defaultvalue": 0,
+    "displayName": "在教堂关卡获得胜利"
   },
-  "Win_Grave": {
-    "description": "在墓地关卡获得胜利",
-    "value": 0
+  {
+    "name": "Win_Grave",
+    "defaultvalue": 0,
+    "displayName": "在墓地关卡获得胜利"
   },
-  "Win_ByKillNoOne_In1V1": {
-    "description": "在1V1模式中0击杀获胜",
-    "value": 0
+  {
+    "name": "Win_ByKillNoOne_In1V1",
+    "defaultvalue": 0,
+    "displayName": "在1V1模式中0击杀获胜"
   },
-  "KillTwoPlayers_In2V2": {
-    "description": "在2V2模式中淘汰2名对手玩家",
-    "value": 0
+  {
+    "name": "KillTwoPlayers_In2V2",
+    "defaultvalue": 0,
+    "displayName": "在2V2模式中淘汰2名对手玩家"
   },
-  "Win_ByKillNoOne_In2V2": {
-    "description": "在2V2模式中0击杀获胜",
-    "value": 0
+  {
+    "name": "Win_ByKillNoOne_In2V2",
+    "defaultvalue": 0,
+    "displayName": "在2V2模式中0击杀获胜"
   },
-  "Win_HpBelow10Per": {
-    "description": "在仅剩10%血量的情况下活到最后并赢得胜利",
-    "value": 0
+  {
+    "name": "Win_HpBelow10Per",
+    "defaultvalue": 0,
+    "displayName": "在仅剩10%血量的情况下活到最后并赢得胜利"
   },
-  "Win_HpFull": {
-    "description": "在满血情况下赢得胜利",
-    "value": 0
+  {
+    "name": "Win_HpFull",
+    "defaultvalue": 0,
+    "displayName": "在满血情况下赢得胜利"
   },
-  "KillNpc_Patrol": {
-    "description": "杀死巡逻NPC",
-    "value": 0
+  {
+    "name": "KillNpc_Patrol",
+    "defaultvalue": 0,
+    "displayName": "杀死巡逻NPC"
   },
-  "KillNpc_Battle": {
-    "description": "杀死战斗NPC",
-    "value": 0
+  {
+    "name": "KillNpc_Battle",
+    "defaultvalue": 0,
+    "displayName": "杀死战斗NPC"
   },
-  "KillNpc_Dog": {
-    "description": "杀死猎狗",
-    "value": 0
+  {
+    "name": "KillNpc_Dog",
+    "defaultvalue": 0,
+    "displayName": "杀死猎狗"
   },
-  "KillNpc_Crow": {
-    "description": "杀死乌鸦",
-    "value": 0
+  {
+    "name": "KillNpc_Crow",
+    "defaultvalue": 0,
+    "displayName": "杀死乌鸦"
   },
-  "UseAlienMask": {
-    "description": "成功使用外星面甲",
-    "value": 0
+  {
+    "name": "UseAlienMask",
+    "defaultvalue": 0,
+    "displayName": "成功使用外星面甲"
   },
-  "Broken20BreakableBottleInOneGame": {
-    "description": "在一局游戏内打碎20个玻璃瓶",
-    "value": 0
+  {
+    "name": "Broken20BreakableBottleInOneGame",
+    "defaultvalue": 0,
+    "displayName": "在一局游戏内打碎20个玻璃瓶"
   },
-  "FireBoomBarrel": {
-    "description": "成功引爆炸药桶",
-    "value": 0
+  {
+    "name": "FireBoomBarrel",
+    "defaultvalue": 0,
+    "displayName": "成功引爆炸药桶"
   },
-  "DestroyBeehive": {
-    "description": "破坏蜂巢",
-    "value": 0
+  {
+    "name": "DestroyBeehive",
+    "defaultvalue": 0,
+    "displayName": "破坏蜂巢"
   },
-  "SuccessfullyUseSyringe": {
-    "description": "成功使用注射器",
-    "value": 0
+  {
+    "name": "SuccessfullyUseSyringe",
+    "defaultvalue": 0,
+    "displayName": "成功使用注射器"
   },
-  "ShowOpponentBySprayCan": {
-    "description": "成功使用喷漆罐让对手显形",
-    "value": 0
+  {
+    "name": "ShowOpponentBySprayCan",
+    "defaultvalue": 0,
+    "displayName": "成功使用喷漆罐让对手显形"
   },
-  "GetAllSkillInOneGame": {
-    "description": "在一局游戏内获得3个或以上技能",
-    "value": 0
+  {
+    "name": "GetAllSkillInOneGame",
+    "defaultvalue": 0,
+    "displayName": "在一局游戏内获得3个或以上技能"
   },
-  "WinGame_WithoutPutUpAnyGun": {
-    "description": "在没有获取任何武器的情况下获得胜利",
-    "value": 0
+  {
+    "name": "WinGame_WithoutPutUpAnyGun",
+    "defaultvalue": 0,
+    "displayName": "在没有获取任何武器的情况下获得胜利"
   },
-  "KillAllHumanNpcInOneGame": {
-    "description": "在一局游戏内杀死全部（类）人形NPC",
-    "value": 0
+  {
+    "name": "KillAllHumanNpcInOneGame",
+    "defaultvalue": 0,
+    "displayName": "在一局游戏内杀死全部（类）人形NPC"
   },
-  "WinGameOnlyUseRevolver": {
-    "description": "不使用其他道具、技能或武器造成伤害，只用一把左轮手枪杀死对手并获得胜利",
-    "value": 0
+  {
+    "name": "WinGameOnlyUseRevolver",
+    "defaultvalue": 0,
+    "displayName": "不使用其他道具、技能或武器造成伤害，只用一把左轮手枪杀死对手并获得胜利"
   },
-  "Has35ItemsWhenGameOver": {
-    "description": "在一局游戏结束时装备袋内道具数量超过35",
-    "value": 0
+  {
+    "name": "Has35ItemsWhenGameOver",
+    "defaultvalue": 0,
+    "displayName": "在一局游戏结束时装备袋内道具数量超过35"
   },
-  "HasBeenShowedButStillWin": {
-    "description": "在单局游戏中进入显形阶段但依然获得了最终胜利",
-    "value": 0
+  {
+    "name": "HasBeenShowedButStillWin",
+    "defaultvalue": 0,
+    "displayName": "在单局游戏中进入显形阶段但依然获得了最终胜利"
   },
-  "ShowEnemyByElectricTrap": {
-    "description": "成功使用电子陷阱让对手显形",
-    "value": 0
+  {
+    "name": "ShowEnemyByElectricTrap",
+    "defaultvalue": 0,
+    "displayName": "成功使用电子陷阱让对手显形"
   }
-}
+]

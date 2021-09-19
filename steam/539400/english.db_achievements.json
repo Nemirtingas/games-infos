@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "name": "ARCHER",
     "defaultvalue": 0,
@@ -853,5 +853,248 @@
     "description": "Survive 100 waves in the endless arena",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/539400/4b24fbd7af6b1c9ce0a711e0ed86167ffbf03117.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/539400/861c818587d6113b93303c08b87f044272d03064.jpg"
+  },
+  {
+    "name": "LAVIRINT",
+    "defaultvalue": 0,
+    "displayName": "Necronomicon",
+    "hidden": 0,
+    "description": "Find the book in the minotaur labyrinth",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/539400/f6cce9eddf6c4a94578a4ef9eb96f9f3387191fe.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/539400/7325091a2df96b43773e1ffc9a7d9345a5b6e292.jpg"
+  },
+  {
+    "name": "LICH",
+    "defaultvalue": 0,
+    "displayName": "Lich",
+    "hidden": 0,
+    "description": "Kill the Dragon Master in regular game with the Lich",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/539400/d9f40e55d0ede58da9b65b075ca96e2bcd4519e8.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/539400/19860c2676f0faff6aa994ebabe4b53520413f7a.jpg"
+  },
+  {
+    "name": "PENTAGRAM",
+    "defaultvalue": 0,
+    "displayName": "Dark Ritual",
+    "hidden": 0,
+    "description": "Activate infernal pentagram",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/539400/1f1537f6d549796ff84e6d9b448008d834ae97e0.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/539400/21d625da3deb1bfb58bcdb050fe0054ace7356b4.jpg"
+  },
+  {
+    "name": "IRONCLAD",
+    "defaultvalue": 0,
+    "displayName": "Ironclad",
+    "hidden": 0,
+    "description": "Build up damage reduction to 100 hits",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/539400/ccb88c89a8d2d985406073c689b507590f0814a8.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/539400/4540b3aa1813807c15429c257e4cc4e715db4c20.jpg"
+  },
+  {
+    "name": "PACIFIST",
+    "defaultvalue": 0,
+    "displayName": "Pacifist",
+    "hidden": 0,
+    "description": "Beat the regular game only killing eniemies in boss rooms",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/539400/32190b5c4a759d4d897f6b53497261313237331f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/539400/c946d336158b33e6b5c158a27b3e4514f4743567.jpg"
+  },
+  {
+    "name": "STANDARD",
+    "defaultvalue": 0,
+    "displayName": "Standard issue",
+    "hidden": 0,
+    "description": "Beat the regular game without using runestones",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/539400/9379de81ee5b54b79e3bd4463d60992389d24340.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/539400/8ab1300c04ae177f71cb35ce19b1d115438fd637.jpg"
+  },
+  {
+    "name": "ILLITERATE",
+    "defaultvalue": 0,
+    "displayName": "Illiterate",
+    "hidden": 0,
+    "description": "Beat the regular game without a scroll",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/539400/ccd4de95c8f605da07ef3f003bc64b4ac3dad89c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/539400/a373d70f1d9a2aa897f49fabe726e8bf59bc9ff2.jpg"
+  },
+  {
+    "name": "ROLL",
+    "defaultvalue": 0,
+    "displayName": "On a roll",
+    "hidden": 0,
+    "description": "Win 10 regular games in a row",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/539400/2c0b47c9342a09a1658256daf1bdd209aaa72836.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/539400/f8d71244445e6a82210c45226ef390a399222f54.jpg"
+  },
+  {
+    "name": "STREAK",
+    "defaultvalue": 0,
+    "displayName": "Hot streak",
+    "hidden": 0,
+    "description": "Win 5 games in a row in hard mode",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/539400/8edc54ca7f9dae099cb735deb1a7cf48443ca01e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/539400/44396468688b3392951d01a00f193a3ed8d2f079.jpg"
+  },
+  {
+    "name": "BINGE",
+    "defaultvalue": 0,
+    "displayName": "On a binge",
+    "hidden": 0,
+    "description": "Drink 100 potions",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/539400/95a6c63db59eebb9ccd0224ff98103c154e8cc1e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/539400/b1a98014b4db99eaf8fb50fcd39dc9fbf269d579.jpg"
+  },
+  {
+    "name": "HELL",
+    "defaultvalue": 0,
+    "displayName": "Through hell and back",
+    "hidden": 0,
+    "description": "Beat the regular game after going through hell",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/539400/c60d547d00599cce3ef0bdc0fdfe6287a1cb20a2.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/539400/8c61571888c17dec9f3986c6840aad3799820718.jpg"
+  },
+  {
+    "name": "RIDEHELL",
+    "defaultvalue": 0,
+    "displayName": "Hell of a ride",
+    "hidden": 0,
+    "description": "Beat the game after going through hell in hard mode",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/539400/783e989238b0aca63f7927a3697feb04c6861733.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/539400/e9ecd61eedbb45ca58eaf4793acc3eb2ba8d9c55.jpg"
+  },
+  {
+    "name": "SHEEP",
+    "defaultvalue": 0,
+    "displayName": "The Golden Fleece",
+    "hidden": 0,
+    "description": "Turn 50 enemies into sheep",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/539400/df0c319afe2c9891a4b1818e72abe317fc69e5b3.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/539400/184b80f0427995b7fda0601c1a2f5a91f3295a06.jpg"
+  },
+  {
+    "name": "FISHERMAN",
+    "defaultvalue": 0,
+    "displayName": "Fisherman",
+    "hidden": 0,
+    "description": "Feed the hell hound",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/539400/3764918645689b3f89d4de392668343a74430bdd.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/539400/afbe5619851800833090f308d377140648be9210.jpg"
+  },
+  {
+    "name": "HIDESEEK",
+    "defaultvalue": 0,
+    "displayName": "Hide and Seek",
+    "hidden": 0,
+    "description": "Hit your target with the carrot",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/539400/987825413e6a187baa47849ff8d7dff557392ffe.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/539400/70240fd67c155cb134dfe33e62b995c68c0a03bf.jpg"
+  },
+  {
+    "name": "MINESWEEPER",
+    "defaultvalue": 0,
+    "displayName": "Minesweeper",
+    "hidden": 0,
+    "description": "Beat the regular game without using bombs",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/539400/1b4b9fddb4400dd67b7b25fec3d989ac7c195e6d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/539400/c8234e52fe3b015a0089cf1de6650b6e838322ab.jpg"
+  },
+  {
+    "name": "DSORC",
+    "defaultvalue": 0,
+    "displayName": "Infernal Sorceress",
+    "hidden": 0,
+    "description": "Kill the Demon Lord in regular game with the Sorceress",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/539400/8b534b829dfd8c39e8ca4524d5b57aaf2c104967.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/539400/34f0d30830f914406e06b49ff1464f13393f786b.jpg"
+  },
+  {
+    "name": "DDRUID",
+    "defaultvalue": 0,
+    "displayName": "Infernal Druid",
+    "hidden": 0,
+    "description": "Kill the Demon Lord in regular game with the Druid",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/539400/4bbcd200613752b799f4158a507d97f9f778d92a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/539400/c3fea3602e994386c7856c75251cb351948b3fca.jpg"
+  },
+  {
+    "name": "DARCHERWIN",
+    "defaultvalue": 0,
+    "displayName": "Infernal Archer",
+    "hidden": 0,
+    "description": "Kill the Demon Lord in regular game with the Archer",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/539400/9b94e23816beb2e8c7b5188e54e881af4af84fd1.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/539400/7b9f6cf272eddfb5599094bf4030f7960cb55831.jpg"
+  },
+  {
+    "name": "DSKELETON",
+    "defaultvalue": 0,
+    "displayName": "Infernal Skeleton",
+    "hidden": 0,
+    "description": "Kill the Demon Lord in regular game with the Undead Ranger",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/539400/c909f76e6d64db5b2f2a83d121e4cbe21f71cdf5.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/539400/09e0aed17693a02c76bf16ccf8af7ff61b1e9e8a.jpg"
+  },
+  {
+    "name": "DPYRO",
+    "defaultvalue": 0,
+    "displayName": "Infernal Pyromancer",
+    "hidden": 0,
+    "description": "Kill the Demon Lord in regular game with the Pyromancer",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/539400/14e1c184e742c32b9d73c9a6927470a71db704d2.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/539400/799719405e0b8fc86359b5afabb615e47806a969.jpg"
+  },
+  {
+    "name": "DBARB",
+    "defaultvalue": 0,
+    "displayName": "Infernal Barbarian",
+    "hidden": 0,
+    "description": "Kill the Demon Lord in regular game with the Barbarian",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/539400/d3eb0ffa9ca8b9f1bf95a1b5d1f49cfb0b37c1e7.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/539400/6480d6a99889938050422ae4582b66f6bfef9800.jpg"
+  },
+  {
+    "name": "DROGUEWIN",
+    "defaultvalue": 0,
+    "displayName": "Infernal Rogue",
+    "hidden": 0,
+    "description": "Kill the Demon Lord in regular game with the Rogue",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/539400/8855ad4ed5f2236ec9a90d993ae67400b683f83d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/539400/10d9c6f301f2723d3382d12ccc48f8ed4d5b01e2.jpg"
+  },
+  {
+    "name": "DELF",
+    "defaultvalue": 0,
+    "displayName": "Infernal Alchemist",
+    "hidden": 0,
+    "description": "Kill the Demon Lord in regular game with the Alchemist",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/539400/e773767a3707bf372f2503d4d99712f8273be86a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/539400/a623550c27b9f89609945750b688233f0a7f121f.jpg"
+  },
+  {
+    "name": "DPALADIN",
+    "defaultvalue": 0,
+    "displayName": "Infernal Paladin",
+    "hidden": 0,
+    "description": "Kill the Demon Lord in regular game with the Paladin",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/539400/800ae4dec4468c90fb16ad1eaf458705183467b7.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/539400/6c26762200d96749199b776b8a96cd4eaf935f88.jpg"
+  },
+  {
+    "name": "DLICH",
+    "defaultvalue": 0,
+    "displayName": "Infernal Lich",
+    "hidden": 0,
+    "description": "Kill the Demon Lord in regular game with the Lich",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/539400/de45f310ecd0a09687ee1aac730b1fdeea403c39.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/539400/92b1b16f69e6b7f70fb60a41cc27cec549398125.jpg"
+  },
+  {
+    "name": "DKNIGHT",
+    "defaultvalue": 0,
+    "displayName": "Infernal Knight",
+    "hidden": 0,
+    "description": "Kill the Demon Lord in regular game with the Knight",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/539400/16e663067f487400afcf8f9cfe05beaf27a2399c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/539400/1bf23da4c4a9ccff7bb0973f7612e17528d90663.jpg"
   }
 ]

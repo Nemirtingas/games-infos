@@ -538,5 +538,104 @@
     "description": "Predict a Stampede control game round in the first 10 seconds after starting to run with a minimum of 10 players in the beginning.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1166990/693b4f03d58bd0b3d4b2d98892202f659801f0bf.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1166990/b31eaf6f082879faff2ce3c8bf71be290a69aff2.jpg"
+  },
+  {
+    "name": "achieve_egyptianarcher",
+    "defaultvalue": 0,
+    "displayName": "Egyptian archer",
+    "hidden": 0,
+    "description": "Kill 3 players with a single arrow trap in Pharaoh’s chamber game.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1166990/129d3a713561a37cdd92a4ba70d2e9d0755ad88e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1166990/bd81b6635f4471e4f0622e7bdb02a0848fd9948e.jpg"
+  },
+  {
+    "name": "achieve_anubisacolyte",
+    "defaultvalue": 0,
+    "displayName": "Anubis acolyte",
+    "hidden": 0,
+    "description": "Kill 5 players with a single trap in Pharaoh’s chamber game.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1166990/98014d196edb4beffdee957f3044939bd7326f67.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1166990/0d6786b9953e7423ba64bdc3e7d2dd601664a93e.jpg"
+  },
+  {
+    "name": "achieve_mummy",
+    "defaultvalue": 0,
+    "displayName": "Mummy",
+    "hidden": 0,
+    "description": "Reveal 10 safe slabs without dying in Pharaoh’s chamber game.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1166990/22d5700d17c237502a899e5e5b3b766f3fb02b8c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1166990/5cf7274e892eb7abb6979f26f79515517c0b69d2.jpg"
+  },
+  {
+    "name": "achieve_pharaoh",
+    "defaultvalue": 0,
+    "displayName": "Pharaoh",
+    "hidden": 0,
+    "description": "Kill someone about to reach the goal with a trap triggered by you in Pharaoh’s chamber game.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1166990/55f51b1f6882d032037a25b7d2bfe756c2837507.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1166990/54a78ce6c40e6fdada42bc6fea20556ffc783588.jpg"
+  },
+  {
+    "name": "achieve_archeologist",
+    "defaultvalue": 0,
+    "displayName": "Archeologist",
+    "hidden": 0,
+    "description": "Enter the Pharaoh’s chamber game trap zone in the first 10 seconds and win without dying.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1166990/08538e74105dbc60469db00eb28616f7a5a31ef1.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1166990/d0cca2e12d18ef43969de623c63b59c09a31ecc4.jpg"
+  },
+  {
+    "name": "achieve_shieldhero",
+    "defaultvalue": 0,
+    "displayName": "Shield hero",
+    "hidden": 0,
+    "description": "Defeat the Dungeon raid game boss on your own.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1166990/743480ec54a1fc8b5b21848300359a1ff03f1039.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1166990/0ce0c2a5eed32d23a077bf83eedacf403949b23b.jpg"
+  },
+  {
+    "name": "achieve_bluehero",
+    "defaultvalue": 0,
+    "displayName": "Blue hero",
+    "hidden": 0,
+    "description": "Get the kill of the two bosses in Dungeon raid game.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1166990/5bcd7f7ca403af976805725b4aac2bd775b1a540.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1166990/2d407b0efc28b8abad68313345316bdf3eeef78e.jpg"
+  },
+  {
+    "name": "achieve_cloakhunter",
+    "defaultvalue": 0,
+    "displayName": "Cloak hunter",
+    "hidden": 0,
+    "description": "Get the kill of 3 enemies of the same type in Dungeon raid game.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1166990/30e6897d0f5730f9bb215ad7ff927942a0523b6b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1166990/efd567d89de3343779cde5859519616c0518db5e.jpg"
+  },
+  {
+    "name": "achieve_blueknight",
+    "defaultvalue": 0,
+    "displayName": "Blue knight",
+    "hidden": 0,
+    "description": "Get the kill of 4 different enemy types in Dungeon raid game.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1166990/8be4ff9118dd266e51765cfd70634427e7013ab3.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1166990/8c7429f482e7894d9fee29cea4235265df1845a8.jpg"
+  },
+  {
+    "name": "achieve_pillager",
+    "defaultvalue": 0,
+    "displayName": "Pillager",
+    "hidden": 0,
+    "description": "Get the kill of 5 different enemies in Dungeon raid game.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1166990/603d4764833d6972c272264704964ed61189bf50.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1166990/9e2a643de9f266e556d633d99296d996cbd9be60.jpg"
+  },
+  {
+    "name": "achieve_whitewizard",
+    "defaultvalue": 0,
+    "displayName": "White wizard",
+    "hidden": 0,
+    "description": "Win without fighting in a full Dungeon raid game.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1166990/096c151019e800b9f6bdef00349f3cbf97f9d422.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1166990/24017e19827a77ece3948684ace2b3dc31a3c572.jpg"
   }
 ]

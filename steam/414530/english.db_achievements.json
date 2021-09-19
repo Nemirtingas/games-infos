@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "name": "ACHIEVEMENT_1",
     "defaultvalue": 0,
@@ -430,5 +430,41 @@
     "description": "Complete all upgrades in the Grovewalker Temple.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/414530/f9edf7b40d80c6662cfe65b33ac72524f87184fe.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/414530/ee15de64be11b994c74dad1ffe93a9c6c81c3ee3.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_49",
+    "defaultvalue": 0,
+    "displayName": "Death’s Chosen",
+    "hidden": 0,
+    "description": "Complete all upgrades in the Revenant Temple.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/414530/4d95d82c78c06f69a863477c93ec7ab18c43c29f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/414530/f091e7531cd3622a7031b750cc1d0be4344ca350.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_51",
+    "defaultvalue": 0,
+    "displayName": "Voice of Aelion",
+    "hidden": 0,
+    "description": "Complete all upgrades in the Soundweaver Temple.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/414530/481a36de086ada643e0f27a58d1a81f7edef6870.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/414530/c1c62f5382e905adf15b6a22c1a9394aedc8e8f2.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_50",
+    "defaultvalue": 0,
+    "displayName": "Fireborn",
+    "hidden": 0,
+    "description": "Complete all upgrades in the Firestarter Temple.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/414530/e7f27dd9fcf7ede418f0455eb158a7973cc46749.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/414530/e0ae8402644ca9ab486339af53aa461509d21bf3.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_25_23",
+    "defaultvalue": 0,
+    "displayName": "Soldier of Fortune",
+    "hidden": 0,
+    "description": "Complete all upgrades in the Bounty Hunter Temple.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/414530/b003c2365345427177f7af96f6e4d0404a87f523.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/414530/75b3efc5af9da61fae20a7dcd99f1ec5da4591f5.jpg"
   }
 ]

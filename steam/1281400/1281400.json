@@ -2,23 +2,14 @@
   "Dlcs": {},
   "Name": "Good Knight",
   "AppId": "1281400",
-  "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/1281400/header.jpg?t=1590656044",
+  "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1281400/header.jpg?t=1631252288",
   "Languages": [
     "english",
-    "french",
-    "italian",
-    "german",
-    "spanish",
-    "russian",
-    "japanese",
-    "schinese",
-    "tchinese",
-    "portuguese",
-    "korean"
+    "schinese"
   ],
   "Platforms": {
     "windows": true,
-    "mac": true,
-    "linux": true
+    "mac": false,
+    "linux": false
   }
 }

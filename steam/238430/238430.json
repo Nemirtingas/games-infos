@@ -1,18 +1,23 @@
-﻿{
+{
   "Dlcs": {
     "407920": {
-      "Name": "",
-      "ImageUrl": ""
+      "Name": "Contagion OST",
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/407920/header.jpg?t=1585658643",
+      "Type": "music"
     }
   },
   "Name": "Contagion",
   "AppId": "238430",
-  "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/238430/header.jpg?t=1600299086",
+  "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/238430/header.jpg?t=1624043381",
   "Languages": [
     "english",
     "schinese",
     "tchinese",
-    "portuguese"
+    "portuguese",
+    "korean",
+    "turkish",
+    "italian",
+    "russian"
   ],
   "Platforms": {
     "windows": true,

@@ -1,22 +1,27 @@
-﻿{
-  "STAT_KILLS": {
-    "description": "STAT_KILLS_NAME",
-    "value": 0
+[
+  {
+    "name": "STAT_KILLS",
+    "defaultvalue": 0,
+    "displayName": "STAT_KILLS_NAME"
   },
-  "STAT_RECRUIT": {
-    "description": "STAT_RECRUIT_NAME",
-    "value": 0
+  {
+    "name": "STAT_RECRUIT",
+    "defaultvalue": 0,
+    "displayName": "STAT_RECRUIT_NAME"
   },
-  "STAT_GOLD_COLLECTED": {
-    "description": "STAT_GOLD_COLLECTED_NAME",
-    "value": 0
+  {
+    "name": "STAT_GOLD_COLLECTED",
+    "defaultvalue": 0,
+    "displayName": "STAT_GOLD_COLLECTED_NAME"
   },
-  "STAT_ISLAND_VISITED": {
-    "description": "STAT_ISLAND_VISITED_NAME",
-    "value": 0
+  {
+    "name": "STAT_ISLAND_VISITED",
+    "defaultvalue": 0,
+    "displayName": "STAT_ISLAND_VISITED_NAME"
   },
-  "STAT_ISLAND_DEFENDED": {
-    "description": "STAT_ISLAND_DEFENDED_NAME",
-    "value": 0
+  {
+    "name": "STAT_ISLAND_DEFENDED",
+    "defaultvalue": 0,
+    "displayName": "STAT_ISLAND_DEFENDED_NAME"
   }
-}
+]

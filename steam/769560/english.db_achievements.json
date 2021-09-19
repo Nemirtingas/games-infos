@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "name": "ACH_1",
     "defaultvalue": 0,
@@ -565,5 +565,122 @@
     "description": "Soul Hunter clears stage(Hard VII)",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/769560/3a2fb163952deaaea9bac0a31eff5da297196554.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/769560/0607226cb3e9ce1298cb6d20c8980b200c1d92ec.jpg"
+  },
+  {
+    "name": "ACH_420",
+    "defaultvalue": 0,
+    "displayName": "The more the better",
+    "hidden": 0,
+    "description": "In addition to normal attacks, carry 4 identical cards",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/769560/f1b9ab5b1f6178fa3e416c3b81cdae9aaa37f63c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/769560/168654485fbfea845212e48343e364cab9151649.jpg"
+  },
+  {
+    "name": "ACH_422",
+    "defaultvalue": 0,
+    "displayName": "Gospel",
+    "hidden": 0,
+    "description": "Trigger 10 prayer cards in a single turn",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/769560/8f5040dd6f3b94caa037b5b22f320b8b497ce2be.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/769560/dbf7a6797faa7b24e9fc8747e9e599292f9ed6b4.jpg"
+  },
+  {
+    "name": "ACH_130",
+    "defaultvalue": 0,
+    "displayName": "Body of Steel",
+    "hidden": 0,
+    "description": "Mechanic clears stage(Normal)",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/769560/f2bf1afa3705e1a119d16b4a64ab13dc1d7cf557.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/769560/b255d4546f799fd9c7cb884a9f396384df971796.jpg"
+  },
+  {
+    "name": "ACH_131",
+    "defaultvalue": 0,
+    "displayName": "True Body of Steel",
+    "hidden": 0,
+    "description": "Mechanic clears stage(Hard VII)",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/769560/f2bf1afa3705e1a119d16b4a64ab13dc1d7cf557.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/769560/b84a007eb841770eb09fba42c44a3c30f89f1918.jpg"
+  },
+  {
+    "name": "ACH_132",
+    "defaultvalue": 0,
+    "displayName": "Explore the Black Forest",
+    "hidden": 0,
+    "description": "Clear the fourth chapter (Normal)",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/769560/3b5184987f859f5403c9fda938aba2c0de3aa3b0.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/769560/8df6cd3ce83b42973544d8ca84d63187f488f486.jpg"
+  },
+  {
+    "name": "ACH_133",
+    "defaultvalue": 0,
+    "displayName": "Demystifying the Black Forest",
+    "hidden": 0,
+    "description": "Clear the fourth chapter (Hard VII)",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/769560/9d5d9816803d84c4fbf1ac560d7bf179104c644c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/769560/7c26ccbb00045fe6b43a821d4f4c21e65b673ead.jpg"
+  },
+  {
+    "name": "ACH_419",
+    "defaultvalue": 0,
+    "displayName": "Worse",
+    "hidden": 0,
+    "description": "Monsters have more than 8 points of vulnerability",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/769560/ac0e9f9c2b8cc102d18084e5a2ba0dd332ea7229.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/769560/cdb78d9941c5d2f3c8acd84ed114f6feef315c04.jpg"
+  },
+  {
+    "name": "ACH_421",
+    "defaultvalue": 0,
+    "displayName": "Energy source",
+    "hidden": 0,
+    "description": "Gain 20 mana in a single turn",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/769560/bb9cd5bacfe74f24f0bb8b3117a97d88825ddef4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/769560/0640ee5edc8c97f7191b4239d94b5416b3954b21.jpg"
+  },
+  {
+    "name": "ACH_423",
+    "defaultvalue": 0,
+    "displayName": "Indifferent",
+    "hidden": 0,
+    "description": "Defeat the boss without playing a card",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/769560/706ea30eb8ea6b5cad6b69dfbaf88e6d8e427016.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/769560/77805395a67aa3720846854d3a7fae6ec6074202.jpg"
+  },
+  {
+    "name": "ACH_424",
+    "defaultvalue": 0,
+    "displayName": "Time magic",
+    "hidden": 0,
+    "description": "Play your own turn 3 times in a row",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/769560/f010e5eebad097f2583b8721b93514c63dea4cf2.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/769560/9eec05c45878a7b4eea108c01fdef8c7e9a36305.jpg"
+  },
+  {
+    "name": "ACH_425",
+    "defaultvalue": 0,
+    "displayName": "Save the black forest",
+    "hidden": 0,
+    "description": "Kill Forest Spirit in the first turn",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/769560/fe22690b4205556476c1caafa958388964eff9cd.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/769560/be8399638ca706229b6715827ceeb8fe16db891a.jpg"
+  },
+  {
+    "name": "ACH_428",
+    "defaultvalue": 0,
+    "displayName": "Dark sheet music",
+    "hidden": 0,
+    "description": "Complete the level on Nightmare difficulty with a movement",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/769560/34cc4ceff727223a8a8acd9d726817e866886152.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/769560/ef82607233bd442d081feeb87545a626398a66d1.jpg"
+  },
+  {
+    "name": "ACH_429",
+    "defaultvalue": 0,
+    "displayName": "Death trio",
+    "hidden": 0,
+    "description": "Complete the level on Nightmare difficulty with 3 movements",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/769560/1398d657e789c043c50e9795d23c597a7b68641c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/769560/e73c421d47c7cd074b7e206e56d99380b3c7da10.jpg"
   }
 ]

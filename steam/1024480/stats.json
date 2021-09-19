@@ -1,198 +1,247 @@
-﻿{
-  "KMCardsPlayed": {
-    "description": "Card Played In Kingdom Mode",
-    "value": 0
+[
+  {
+    "name": "KMCardsPlayed",
+    "defaultvalue": 0,
+    "displayName": "Card Played In Kingdom Mode"
   },
-  "BMUnitsKilled": {
-    "description": "Units Killed In Combat",
-    "value": 0
+  {
+    "name": "BMUnitsKilled",
+    "defaultvalue": 0,
+    "displayName": "Units Killed In Combat"
   },
-  "SacrificeCardsPlayed": {
-    "description": "Sacrifice Cards Played",
-    "value": 0
+  {
+    "name": "SacrificeCardsPlayed",
+    "defaultvalue": 0,
+    "displayName": "Sacrifice Cards Played"
   },
-  "KMCardsPurchased": {
-    "description": "Kingdom cards purchased",
-    "value": 0
+  {
+    "name": "KMCardsPurchased",
+    "defaultvalue": 0,
+    "displayName": "Kingdom cards purchased"
   },
-  "PortalsUsed": {
-    "description": "Portals used",
-    "value": 0
+  {
+    "name": "PortalsUsed",
+    "defaultvalue": 0,
+    "displayName": "Portals used"
   },
-  "UnitsRecruited": {
-    "description": "Units recruited",
-    "value": 0
+  {
+    "name": "UnitsRecruited",
+    "defaultvalue": 0,
+    "displayName": "Units recruited"
   },
-  "UnitsRecruitedFromPrison": {
-    "description": "UnitsRecruited from prison building",
-    "value": 0
+  {
+    "name": "UnitsRecruitedFromPrison",
+    "defaultvalue": 0,
+    "displayName": "UnitsRecruited from prison building"
   },
-  "SandboxWins": {
-    "description": "Sandbox game victories",
-    "value": 0
+  {
+    "name": "SandboxWins",
+    "defaultvalue": 0,
+    "displayName": "Sandbox game victories"
   },
-  "DraculSandboxWins": {
-    "description": "Sandbox wins as Dracul",
-    "value": 0
+  {
+    "name": "DraculSandboxWins",
+    "defaultvalue": 0,
+    "displayName": "Sandbox wins as Dracul"
   },
-  "NosferatuSandboxWins": {
-    "description": "Sandbox wins as Dracul",
-    "value": 0
+  {
+    "name": "NosferatuSandboxWins",
+    "defaultvalue": 0,
+    "displayName": "Sandbox wins as Dracul"
   },
-  "HighbornSandboxWins": {
-    "description": "Sandbox wins as Highborn",
-    "value": 0
+  {
+    "name": "HighbornSandboxWins",
+    "defaultvalue": 0,
+    "displayName": "Sandbox wins as Highborn"
   },
-  "DraculAct1Wins": {
-    "description": "Dracul act 1 wins",
-    "value": 0
+  {
+    "name": "DraculAct1Wins",
+    "defaultvalue": 0,
+    "displayName": "Dracul act 1 wins"
   },
-  "DraculAct2Wins": {
-    "description": "Dracul act 2 wins",
-    "value": 0
+  {
+    "name": "DraculAct2Wins",
+    "defaultvalue": 0,
+    "displayName": "Dracul act 2 wins"
   },
-  "DraculAct3Wins": {
-    "description": "Dracul act 3 wins",
-    "value": 0
+  {
+    "name": "DraculAct3Wins",
+    "defaultvalue": 0,
+    "displayName": "Dracul act 3 wins"
   },
-  "DraculAct4Wins": {
-    "description": "Dracul act 4 wins",
-    "value": 0
+  {
+    "name": "DraculAct4Wins",
+    "defaultvalue": 0,
+    "displayName": "Dracul act 4 wins"
   },
-  "NosfernusAct1Wins": {
-    "description": "Nosfernus act 1 wins",
-    "value": 0
+  {
+    "name": "NosfernusAct1Wins",
+    "defaultvalue": 0,
+    "displayName": "Nosfernus act 1 wins"
   },
-  "NosfernusAct2Wins": {
-    "description": "Nosfernus act 2 wins",
-    "value": 0
+  {
+    "name": "NosfernusAct2Wins",
+    "defaultvalue": 0,
+    "displayName": "Nosfernus act 2 wins"
   },
-  "NosfernusAct3Wins": {
-    "description": "Nosfernus act 3 wins",
-    "value": 0
+  {
+    "name": "NosfernusAct3Wins",
+    "defaultvalue": 0,
+    "displayName": "Nosfernus act 3 wins"
   },
-  "NosfernusAct4Wins": {
-    "description": "Nosfernus act 4 wins",
-    "value": 0
+  {
+    "name": "NosfernusAct4Wins",
+    "defaultvalue": 0,
+    "displayName": "Nosfernus act 4 wins"
   },
-  "MoroiaAct1Wins": {
-    "description": "Moroia act 1 wins",
-    "value": 0
+  {
+    "name": "MoroiaAct1Wins",
+    "defaultvalue": 0,
+    "displayName": "Moroia act 1 wins"
   },
-  "MoroiaAct2Wins": {
-    "description": "Moroia act 2 wins",
-    "value": 0
+  {
+    "name": "MoroiaAct2Wins",
+    "defaultvalue": 0,
+    "displayName": "Moroia act 2 wins"
   },
-  "MoroiaAct3Wins": {
-    "description": "Moroia act 3 wins",
-    "value": 0
+  {
+    "name": "MoroiaAct3Wins",
+    "defaultvalue": 0,
+    "displayName": "Moroia act 3 wins"
   },
-  "MoroiaAct4Wins": {
-    "description": "Moroia act 4 wins",
-    "value": 0
+  {
+    "name": "MoroiaAct4Wins",
+    "defaultvalue": 0,
+    "displayName": "Moroia act 4 wins"
   },
-  "ClairvoyanceCardsPlayed": {
-    "description": "Clairvoyance Cards Played",
-    "value": 0
+  {
+    "name": "ClairvoyanceCardsPlayed",
+    "defaultvalue": 0,
+    "displayName": "Clairvoyance Cards Played"
   },
-  "ProvincesClaimed": {
-    "description": "Provinces Claimed",
-    "value": 0
+  {
+    "name": "ProvincesClaimed",
+    "defaultvalue": 0,
+    "displayName": "Provinces Claimed"
   },
-  "BloodGained": {
-    "description": "Blood Gained",
-    "value": 0
+  {
+    "name": "BloodGained",
+    "defaultvalue": 0,
+    "displayName": "Blood Gained"
   },
-  "BloodSpent": {
-    "description": "Blood Spent",
-    "value": 0
+  {
+    "name": "BloodSpent",
+    "defaultvalue": 0,
+    "displayName": "Blood Spent"
   },
-  "ManualBattlesWon": {
-    "description": "Manual Battles Won",
-    "value": 0
+  {
+    "name": "ManualBattlesWon",
+    "defaultvalue": 0,
+    "displayName": "Manual Battles Won"
   },
-  "AutoresolvedBattlesWon": {
-    "description": "Autoresolved Battles Won",
-    "value": 0
+  {
+    "name": "AutoresolvedBattlesWon",
+    "defaultvalue": 0,
+    "displayName": "Autoresolved Battles Won"
   },
-  "ArmyActionsPerformed": {
-    "description": "Army actions Performed",
-    "value": 0
+  {
+    "name": "ArmyActionsPerformed",
+    "defaultvalue": 0,
+    "displayName": "Army actions Performed"
   },
-  "BuildingsUpgraded": {
-    "description": "Buildings Upgraded",
-    "value": 0
+  {
+    "name": "BuildingsUpgraded",
+    "defaultvalue": 0,
+    "displayName": "Buildings Upgraded"
   },
-  "PopulationConsumed": {
-    "description": "Population Consumed",
-    "value": 0
+  {
+    "name": "PopulationConsumed",
+    "defaultvalue": 0,
+    "displayName": "Population Consumed"
   },
-  "WisingStonesUsed": {
-    "description": "Wishing Stones Used",
-    "value": 0
+  {
+    "name": "WisingStonesUsed",
+    "defaultvalue": 0,
+    "displayName": "Wishing Stones Used"
   },
-  "WarmontWins": {
-    "description": "Warmont Wins",
-    "value": 0
+  {
+    "name": "WarmontWins",
+    "defaultvalue": 0,
+    "displayName": "Warmont Wins"
   },
-  "KreyaWins": {
-    "description": "Kreya Wins",
-    "value": 0
+  {
+    "name": "KreyaWins",
+    "defaultvalue": 0,
+    "displayName": "Kreya Wins"
   },
-  "EsainWins": {
-    "description": "Esain Wins",
-    "value": 0
+  {
+    "name": "EsainWins",
+    "defaultvalue": 0,
+    "displayName": "Esain Wins"
   },
-  "MourterraWins": {
-    "description": "Mourterra Wins",
-    "value": 0
+  {
+    "name": "MourterraWins",
+    "defaultvalue": 0,
+    "displayName": "Mourterra Wins"
   },
-  "WarmontWinsAsDracul": {
-    "description": "Warmont Wins As Dracul",
-    "value": 0
+  {
+    "name": "WarmontWinsAsDracul",
+    "defaultvalue": 0,
+    "displayName": "Warmont Wins As Dracul"
   },
-  "WarmontWinsAsNosferatu": {
-    "description": "Warmont Wins As Nosferatu",
-    "value": 0
+  {
+    "name": "WarmontWinsAsNosferatu",
+    "defaultvalue": 0,
+    "displayName": "Warmont Wins As Nosferatu"
   },
-  "WarmontWinsAsHighborn": {
-    "description": "Warmont Wins As Highborn",
-    "value": 0
+  {
+    "name": "WarmontWinsAsHighborn",
+    "defaultvalue": 0,
+    "displayName": "Warmont Wins As Highborn"
   },
-  "KreyaWinsAsDracul": {
-    "description": "Kreya Wins As Dracul",
-    "value": 0
+  {
+    "name": "KreyaWinsAsDracul",
+    "defaultvalue": 0,
+    "displayName": "Kreya Wins As Dracul"
   },
-  "KreyaWinsAsNosferatu": {
-    "description": "Kreya Wins As Nosferatu",
-    "value": 0
+  {
+    "name": "KreyaWinsAsNosferatu",
+    "defaultvalue": 0,
+    "displayName": "Kreya Wins As Nosferatu"
   },
-  "KreyaWinsAsHighborn": {
-    "description": "Kreya Wins As Highborn",
-    "value": 0
+  {
+    "name": "KreyaWinsAsHighborn",
+    "defaultvalue": 0,
+    "displayName": "Kreya Wins As Highborn"
   },
-  "EsainWinsAsDracul": {
-    "description": "Esain Wins As Dracul",
-    "value": 0
+  {
+    "name": "EsainWinsAsDracul",
+    "defaultvalue": 0,
+    "displayName": "Esain Wins As Dracul"
   },
-  "EsainWinsAsNosferatu": {
-    "description": "Esain Wins As Nosferatu",
-    "value": 0
+  {
+    "name": "EsainWinsAsNosferatu",
+    "defaultvalue": 0,
+    "displayName": "Esain Wins As Nosferatu"
   },
-  "EsainWinsAsHighborn": {
-    "description": "Esain Wins As Highborn",
-    "value": 0
+  {
+    "name": "EsainWinsAsHighborn",
+    "defaultvalue": 0,
+    "displayName": "Esain Wins As Highborn"
   },
-  "MourterraWinsAsDracul": {
-    "description": "Mourterra Wins As Dracul",
-    "value": 0
+  {
+    "name": "MourterraWinsAsDracul",
+    "defaultvalue": 0,
+    "displayName": "Mourterra Wins As Dracul"
   },
-  "MourterraWinsAsNosferatu": {
-    "description": "Mourterra Wins As Nosferatu",
-    "value": 0
+  {
+    "name": "MourterraWinsAsNosferatu",
+    "defaultvalue": 0,
+    "displayName": "Mourterra Wins As Nosferatu"
   },
-  "MourterraWinsAsHighborn": {
-    "description": "Mourterra Wins As Highborn",
-    "value": 0
+  {
+    "name": "MourterraWinsAsHighborn",
+    "defaultvalue": 0,
+    "displayName": "Mourterra Wins As Highborn"
   }
-}
+]

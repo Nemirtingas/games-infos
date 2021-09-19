@@ -1,82 +1,102 @@
-﻿{
-  "StoneAxeCrafted": {
-    "description": "Stone Axes Crafted",
-    "value": 0
+[
+  {
+    "name": "StoneAxeCrafted",
+    "defaultvalue": 0,
+    "displayName": "Stone Axes Crafted"
   },
-  "BedrollPlaced": {
-    "description": "Bedroll Placed",
-    "value": 0
+  {
+    "name": "BedrollPlaced",
+    "defaultvalue": 0,
+    "displayName": "Bedroll Placed"
   },
-  "BleedOutStopped": {
-    "description": "Bleedout Stopped",
-    "value": 0
+  {
+    "name": "BleedOutStopped",
+    "defaultvalue": 0,
+    "displayName": "Bleedout Stopped"
   },
-  "WoodFrameCrafted": {
-    "description": "Wood Frame Crafted",
-    "value": 0
+  {
+    "name": "WoodFrameCrafted",
+    "defaultvalue": 0,
+    "displayName": "Wood Frame Crafted"
   },
-  "LandClaimPlaced": {
-    "description": "Land Claim Placed",
-    "value": 0
+  {
+    "name": "LandClaimPlaced",
+    "defaultvalue": 0,
+    "displayName": "Land Claim Placed"
   },
-  "ItemsCrafted": {
-    "description": "Items Crafted",
-    "value": 0
+  {
+    "name": "ItemsCrafted",
+    "defaultvalue": 0,
+    "displayName": "Items Crafted"
   },
-  "ZombiesKilled": {
-    "description": "Zombies Killed",
-    "value": 0
+  {
+    "name": "ZombiesKilled",
+    "defaultvalue": 0,
+    "displayName": "Zombies Killed"
   },
-  "PlayersKilled": {
-    "description": "Players Killed",
-    "value": 0
+  {
+    "name": "PlayersKilled",
+    "defaultvalue": 0,
+    "displayName": "Players Killed"
   },
-  "KMTravelled": {
-    "description": "km Travelled",
-    "value": 0
+  {
+    "name": "KMTravelled",
+    "defaultvalue": 0,
+    "displayName": "km Travelled"
   },
-  "LongestLifeLived": {
-    "description": "Longest Life Lived",
-    "value": 0
+  {
+    "name": "LongestLifeLived",
+    "defaultvalue": 0,
+    "displayName": "Longest Life Lived"
   },
-  "Deaths": {
-    "description": "Deaths",
-    "value": 0
+  {
+    "name": "Deaths",
+    "defaultvalue": 0,
+    "displayName": "Deaths"
   },
-  "HighestWellness": {
-    "description": "Highest Wellnes",
-    "value": 0
+  {
+    "name": "HighestWellness",
+    "defaultvalue": 0,
+    "displayName": "Highest Wellnes"
   },
-  "LastGameScore": {
-    "description": "Last Game Score",
-    "value": 0
+  {
+    "name": "LastGameScore",
+    "defaultvalue": 0,
+    "displayName": "Last Game Score"
   },
-  "HeightAchieved": {
-    "description": "Height Achieved",
-    "value": 0
+  {
+    "name": "HeightAchieved",
+    "defaultvalue": 0,
+    "displayName": "Height Achieved"
   },
-  "DepthAchieved": {
-    "description": "Depth Achieved",
-    "value": 0
+  {
+    "name": "DepthAchieved",
+    "defaultvalue": 0,
+    "displayName": "Depth Achieved"
   },
-  "SubZeroNakedSwim": {
-    "description": "Sub Zero Naked Swim",
-    "value": 0
+  {
+    "name": "SubZeroNakedSwim",
+    "defaultvalue": 0,
+    "displayName": "Sub Zero Naked Swim"
   },
-  "KilledWith44Magnum": {
-    "description": "Killed With 44 Magnum",
-    "value": 0
+  {
+    "name": "KilledWith44Magnum",
+    "defaultvalue": 0,
+    "displayName": "Killed With 44 Magnum"
   },
-  "LegBroken": {
-    "description": "Leg Broken",
-    "value": 0
+  {
+    "name": "LegBroken",
+    "defaultvalue": 0,
+    "displayName": "Leg Broken"
   },
-  "HighestFortitude": {
-    "description": "Highest Fortitude",
-    "value": 0
+  {
+    "name": "HighestFortitude",
+    "defaultvalue": 0,
+    "displayName": "Highest Fortitude"
   },
-  "HighestGamestage": {
-    "description": "Highest Gamestage",
-    "value": 0
+  {
+    "name": "HighestGamestage",
+    "defaultvalue": 0,
+    "displayName": "Highest Gamestage"
   }
-}
+]

@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "name": "BBX_ST_LEVEL",
     "defaultvalue": 1,
@@ -383,5 +383,20 @@
     "name": "BBX_KI_DEAGLE",
     "defaultvalue": 0,
     "displayName": "Desert Eagle"
+  },
+  {
+    "name": "BBX_RZ_PAIN",
+    "defaultvalue": 0,
+    "displayName": "Total Damage"
+  },
+  {
+    "name": "BBX_RZ_HEADSHOT",
+    "defaultvalue": 0,
+    "displayName": "Melee Headshots"
+  },
+  {
+    "name": "BBX_KI_BANDITS",
+    "defaultvalue": 0,
+    "displayName": "Bandit Kills"
   }
 ]

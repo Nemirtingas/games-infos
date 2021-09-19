@@ -1,106 +1,132 @@
-﻿{
-  "blocksbuilt": {
-    "description": "blocks built manually",
-    "value": 0
+[
+  {
+    "name": "blocksbuilt",
+    "defaultvalue": 0,
+    "displayName": "blocks built manually"
   },
-  "detailsbuilt": {
-    "description": "detail blocks created",
-    "value": 0
+  {
+    "name": "detailsbuilt",
+    "defaultvalue": 0,
+    "displayName": "detail blocks created"
   },
-  "blocksbuilt_1k": {
-    "description": "k blocks built",
-    "value": 0
+  {
+    "name": "blocksbuilt_1k",
+    "defaultvalue": 0,
+    "displayName": "k blocks built"
   },
-  "blocksdeleted": {
-    "description": "blocks deleted",
-    "value": 0
+  {
+    "name": "blocksdeleted",
+    "defaultvalue": 0,
+    "displayName": "blocks deleted"
   },
-  "32bit": {
-    "description": "32 bit",
-    "value": 0
+  {
+    "name": "32bit",
+    "defaultvalue": 0,
+    "displayName": "32 bit"
   },
-  "64bit": {
-    "description": "64 bit",
-    "value": 0
+  {
+    "name": "64bit",
+    "defaultvalue": 0,
+    "displayName": "64 bit"
   },
-  "played": {
-    "description": "played",
-    "value": 0
+  {
+    "name": "played",
+    "defaultvalue": 0,
+    "displayName": "played"
   },
-  "Build2Me": {
-    "description": "Build2Me Blocks",
-    "value": 0
+  {
+    "name": "Build2Me",
+    "defaultvalue": 0,
+    "displayName": "Build2Me Blocks"
   },
-  "SuperBuilt": {
-    "description": "SuperBuilt Blocks",
-    "value": 0
+  {
+    "name": "SuperBuilt",
+    "defaultvalue": 0,
+    "displayName": "SuperBuilt Blocks"
   },
-  "CopyPaste": {
-    "description": "CopyPaste Total",
-    "value": 0
+  {
+    "name": "CopyPaste",
+    "defaultvalue": 0,
+    "displayName": "CopyPaste Total"
   },
-  "globalblocksbuilt": {
-    "description": "blocks built",
-    "value": 0
+  {
+    "name": "globalblocksbuilt",
+    "defaultvalue": 0,
+    "displayName": "blocks built"
   },
-  "timesplayed": {
-    "description": "times played",
-    "value": 0
+  {
+    "name": "timesplayed",
+    "defaultvalue": 0,
+    "displayName": "times played"
   },
-  "meteorsexploded": {
-    "description": "meteorite impacts",
-    "value": 0
+  {
+    "name": "meteorsexploded",
+    "defaultvalue": 0,
+    "displayName": "meteorite impacts"
   },
-  "playedauto": {
-    "description": "playedauto",
-    "value": 1
+  {
+    "name": "playedauto",
+    "defaultvalue": 1,
+    "displayName": "playedauto"
   },
-  "enteredsurvival": {
-    "description": "Entered Survival",
-    "value": 0
+  {
+    "name": "enteredsurvival",
+    "defaultvalue": 0,
+    "displayName": "Entered Survival"
   },
-  "powergenerated": {
-    "description": "Power Generated",
-    "value": 0
+  {
+    "name": "powergenerated",
+    "defaultvalue": 0,
+    "displayName": "Power Generated"
   },
-  "oresmelted": {
-    "description": "Ore Smelted",
-    "value": 0
+  {
+    "name": "oresmelted",
+    "defaultvalue": 0,
+    "displayName": "Ore Smelted"
   },
-  "itemscrafted": {
-    "description": "Items Crafted",
-    "value": 0
+  {
+    "name": "itemscrafted",
+    "defaultvalue": 0,
+    "displayName": "Items Crafted"
   },
-  "waspskilled": {
-    "description": "Wasps Killed",
-    "value": 0
+  {
+    "name": "waspskilled",
+    "defaultvalue": 0,
+    "displayName": "Wasps Killed"
   },
-  "itemsautocrafted": {
-    "description": "Items Autocrafted",
-    "value": 0
+  {
+    "name": "itemsautocrafted",
+    "defaultvalue": 0,
+    "displayName": "Items Autocrafted"
   },
-  "RushModeUnlocked": {
-    "description": "Game Completion",
-    "value": 0
+  {
+    "name": "RushModeUnlocked",
+    "defaultvalue": 0,
+    "displayName": "Game Completion"
   },
-  "CryoKilled": {
-    "description": "FlatLand",
-    "value": 0
+  {
+    "name": "CryoKilled",
+    "defaultvalue": 0,
+    "displayName": "FlatLand"
   },
-  "FF_Bought": {
-    "description": "FF_Bought",
-    "value": 0
+  {
+    "name": "FF_Bought",
+    "defaultvalue": 0,
+    "displayName": "FF_Bought"
   },
-  "C5_Built": {
-    "description": "C5_Built",
-    "value": 0
+  {
+    "name": "C5_Built",
+    "defaultvalue": 0,
+    "displayName": "C5_Built"
   },
-  "RailGun_Built": {
-    "description": "RailGun_Built",
-    "value": 0
+  {
+    "name": "RailGun_Built",
+    "defaultvalue": 0,
+    "displayName": "RailGun_Built"
   },
-  "RailGun_Fired": {
-    "description": "RailGun_Fired",
-    "value": 0
+  {
+    "name": "RailGun_Fired",
+    "defaultvalue": 0,
+    "displayName": "RailGun_Fired"
   }
-}
+]

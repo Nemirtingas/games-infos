@@ -1,26 +1,32 @@
-﻿{
-  "SteamStat_HighScore": {
-    "description": "High Score (single player)",
-    "value": 0
+[
+  {
+    "name": "SteamStat_HighScore",
+    "defaultvalue": 0,
+    "displayName": "High Score (single player)"
   },
-  "SteamStat_QuestionsAnswered": {
-    "description": "Questions Answered",
-    "value": 0
+  {
+    "name": "SteamStat_QuestionsAnswered",
+    "defaultvalue": 0,
+    "displayName": "Questions Answered"
   },
-  "SteamStat_CorrectAnswers": {
-    "description": "Correct Answers",
-    "value": 0
+  {
+    "name": "SteamStat_CorrectAnswers",
+    "defaultvalue": 0,
+    "displayName": "Correct Answers"
   },
-  "SteamStat_GamesPlayed": {
-    "description": "Games Played",
-    "value": 0
+  {
+    "name": "SteamStat_GamesPlayed",
+    "defaultvalue": 0,
+    "displayName": "Games Played"
   },
-  "SteamStat_MostPlayersSingleGame": {
-    "description": "Most Players in a Single Game",
-    "value": 0
+  {
+    "name": "SteamStat_MostPlayersSingleGame",
+    "defaultvalue": 0,
+    "displayName": "Most Players in a Single Game"
   },
-  "SteamStat_HoursPlayed": {
-    "description": "Hours Played",
-    "value": 0
+  {
+    "name": "SteamStat_HoursPlayed",
+    "defaultvalue": 0,
+    "displayName": "Hours Played"
   }
-}
+]

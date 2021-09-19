@@ -1,270 +1,137 @@
 [
   {
-    "name": "ACH_PROGRESSION_1",
+    "name": "ACH_PROLOGUE_END",
     "defaultvalue": 0,
-    "displayName": "Betrayal",
+    "displayName": "Day at the lake",
     "hidden": 0,
-    "description": "Who is your friend?",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/690120/43cbc48087b6c7ec7aff4cf37cd0125472ced672.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/690120/24daaffd6c23bda81e14fa78c95d825e2e7100a8.jpg"
+    "description": "Complete the Prologue",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/690120/f540f0346bc159e26476fa77b3dcbfa0bd0f3907.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/690120/692077b34092e73084be70ec4d8be10aade494c9.jpg"
   },
   {
-    "name": "ACH_PROGRESSION_2",
+    "name": "ACH_SSG_1_END",
     "defaultvalue": 0,
-    "displayName": "Only simple things",
+    "displayName": "Sea of Geometry",
     "hidden": 0,
-    "description": "Dwell here",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/690120/4d78072d344b845d5ffdf418e5b1aa1f162aecc8.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/690120/eda8e7fe64fc090b0ad338bd5f2a9c9f1a46be21.jpg"
+    "description": "Complete the Sea of Simple Geometry",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/690120/1ed86f9adaccd2bf4d5abf74ddb6c842c9833cf2.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/690120/bf7fa34758bd4797a8bb0502232da94976166ab9.jpg"
   },
   {
-    "name": "ACH_PROGRESSION_3",
+    "name": "ACH_SSG_2_END",
     "defaultvalue": 0,
-    "displayName": "The plot complexes",
+    "displayName": "Riverland",
     "hidden": 0,
-    "description": "And so does the world",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/690120/fb16825855b09dc45e2b8ace92c9e2c48f8b9edf.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/690120/dae3fab6b229d9ecc80893bc3d051185e60ede7c.jpg"
+    "description": "Complete the Riverland",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/690120/84d58d8111319eaab3a7402c8d62f2a3a1979110.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/690120/764b262b3ef1e631356053e684d9b73af51d0b76.jpg"
   },
   {
-    "name": "ACH_PROGRESSION_4",
+    "name": "ACH_FOREST_END",
     "defaultvalue": 0,
-    "displayName": "Rescue",
+    "displayName": "Above the forest",
     "hidden": 0,
-    "description": "Reach Aiko",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/690120/5b7cd17558a381f9f851a2d0e18ee880f275a8b6.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/690120/2a219534b8eeaece57e42945ce86e4207492dfae.jpg"
+    "description": "Complete the Forest",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/690120/799c5230deaf801a4505c2a8816ed74ceb77ef2f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/690120/e4b9aa0f8e24b4bf62d09a53e7d42489a9f55146.jpg"
   },
   {
-    "name": "ACH_PROGRESSION_5",
+    "name": "ACH_WATER_TOWERS_END",
     "defaultvalue": 0,
-    "displayName": "Getting back up",
-    "hidden": 1,
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/690120/044b1fd8a35e6ea837a162889a8f460931098c8e.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/690120/e161a710aec8201bec726ef23017647d3668c5db.jpg"
-  },
-  {
-    "name": "ACH_PROGRESSION_6",
-    "defaultvalue": 0,
-    "displayName": "Out of the dark",
+    "displayName": "The Bird Nests",
     "hidden": 0,
-    "description": "You made it!",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/690120/ccea6d9ec717f39d4b9c9cb8f158cfba8263b543.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/690120/20e65cd8c86209ebd67a263ac9a3cd4632177739.jpg"
+    "description": "Complete the Water Towers",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/690120/057b91b0cffc9199db5bc777b5072deb820e70e9.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/690120/3b58bbc33eba20e0e791a38e2db344aea19cf216.jpg"
   },
   {
-    "name": "ACH_PROGRESSION_7",
+    "name": "ACH_SWAMP_END",
     "defaultvalue": 0,
-    "displayName": "Croc Hunter",
+    "displayName": "Thick air",
     "hidden": 0,
-    "description": "The hunter becomes the prey",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/690120/84d6f2ef39a12a5570a9a4962676fb3494fc9432.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/690120/bc7e9a428a2b6923472ebd26cf21cb9b067ad1d0.jpg"
+    "description": "Complete the Swamp",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/690120/eb29d27e4a6c3e85c1921d3010c94bfcdc34df4d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/690120/625af892cb49c3aec080e0f8c7621cd1fcf98f6d.jpg"
   },
   {
-    "name": "ACH_PROGRESSION_8",
+    "name": "ACH_DESERT_END",
     "defaultvalue": 0,
-    "displayName": "Jailbird",
+    "displayName": "Searing heat",
     "hidden": 0,
-    "description": "Don’t do the crime if you can’t do the time",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/690120/801d479c2a947a6e536fea3b811778fcffdc4e71.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/690120/6aafac1af9fc68678fc5e6fcd70017aacceebd27.jpg"
+    "description": "Complete the Desert",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/690120/e28b0d7e5750aad5da51634b3bc52f586c6d8105.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/690120/12e3079f9260bd8e5b2f6268a110a38fb61055bc.jpg"
   },
   {
-    "name": "ACH_PROGRESSION_9",
+    "name": "ACH_FROSTLAND_END",
     "defaultvalue": 0,
-    "displayName": "Cowboy",
+    "displayName": "Cold heart",
     "hidden": 0,
-    "description": "The last spirit of the west",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/690120/b70357b223556c697590b0482a429a91973977c4.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/690120/970caefe7498f01b799536c987e4c814b399cd00.jpg"
+    "description": "Complete the Frostland",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/690120/beee944216f205c28f7fa53ccd962655bbc26242.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/690120/d097a565fb754467603b097e18c23a89091eec16.jpg"
   },
   {
-    "name": "ACH_PROGRESSION_10",
+    "name": "ACH_FACTORY_END",
     "defaultvalue": 0,
-    "displayName": "Yeti on the Summit",
+    "displayName": "Deconstruction",
     "hidden": 0,
-    "description": "Reach the mountain summit",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/690120/a5f4f6ec442e8d674ecaa682ede6501d695123f0.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/690120/d489badaf6cc1bcc16fb3bce11d9bc6367934473.jpg"
+    "description": "Completed the Factory",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/690120/8861296c70ea42c686622b87f43b4b07bc22f65e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/690120/def44cc23f44011df4bff811d046153632a8570f.jpg"
   },
   {
-    "name": "ACH_PROGRESSION_11",
+    "name": "ACH_CHAOS_END",
     "defaultvalue": 0,
-    "displayName": "A change of perspective",
-    "hidden": 1,
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/690120/e66f8dc96f3f34cdacd188c4d0d6926cb181bbf1.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/690120/743f1412a7ccd23ab4d54bbc5e18278254586097.jpg"
-  },
-  {
-    "name": "ACH_PROGRESSION_12",
-    "defaultvalue": 0,
-    "displayName": "Power play",
+    "displayName": "Void",
     "hidden": 0,
-    "description": "The one he didn’t want you to have",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/690120/0f9bf9584cc352f3cd648c9a59031ce0bc7fa0fc.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/690120/d537ea73a9fa8309d0e21e40f6bbd4e95c35b6d5.jpg"
+    "description": "Complete the Chaos",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/690120/dbb73494ceb187cf5ad57aba7ca0eb5893ecfb83.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/690120/c1a269c4e2a20c42e7b9afa7f4b83dc786467a94.jpg"
   },
   {
-    "name": "ACH_PROGRESSION_13",
+    "name": "ACH_EPILOGUE_END",
     "defaultvalue": 0,
-    "displayName": "Behind the scenes",
+    "displayName": "Moving on",
     "hidden": 0,
-    "description": "See the truth of your world",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/690120/6f963f482db94ffbc1c3d14b65f3d6023fa60194.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/690120/26146ad2913d055df79bd30988f152dbccb3c3e3.jpg"
+    "description": "Complete the game",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/690120/845dd2c4c7a4b3512c73482b066a3633159028d5.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/690120/59dbb90fd633316bc70790e5798b73a07e53d678.jpg"
   },
   {
-    "name": "ACH_PROGRESSION_14",
+    "name": "ACH_CANVAS_1",
     "defaultvalue": 0,
-    "displayName": "Popping pills",
+    "displayName": "Picked one up",
     "hidden": 0,
-    "description": "Maybe you had too much",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/690120/81f7d70e85a9f1270827ed136019ba82f7ee174f.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/690120/a6963543b3379214f7e47e2879689bc8c06ef921.jpg"
+    "description": "Collect a canvas",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/690120/cc3afad2104ab32e62b57535f42d881a5a7805bb.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/690120/3a3d12f69138a54aaa74914483ae416b26d80050.jpg"
   },
   {
-    "name": "ACH_PROGRESSION_15",
+    "name": "ACH_CANVAS_27",
     "defaultvalue": 0,
-    "displayName": "Predestination",
+    "displayName": "Canvas hunter",
     "hidden": 0,
-    "description": "Was it all for nothing?",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/690120/d835ff447369ad039786e8a052044228979b3c0b.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/690120/b710f44ec07160439625bfde496246c57e16ba2f.jpg"
+    "description": "Collect 27 canvases",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/690120/dc53640c4a91c2ae1558c435d968c0f4d1ce92bb.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/690120/e99e052f80f654a9f283da54f9db18207ad275a7.jpg"
   },
   {
-    "name": "ACH_ENDING_1",
+    "name": "ACH_CANVAS_ALL",
     "defaultvalue": 0,
-    "displayName": "Where all journeys end",
+    "displayName": "Art collector",
     "hidden": 0,
-    "description": "You asked for this",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/690120/0814e9792ba437cfa0c426e3a2bb472412eb928f.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/690120/551b1ddc91251399e411fdd2e874fb8671e81832.jpg"
+    "description": "Collect all canvases",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/690120/9516ce4c6d303b35617c60bd5dc0071646385b0b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/690120/e278636d15f36eb8011dbb40e91e08fb76a7ef84.jpg"
   },
   {
-    "name": "ACH_ENDING_2",
+    "name": "ACH_FINISH_GAME_AGAIN",
     "defaultvalue": 0,
-    "displayName": "Bushido",
+    "displayName": "Second opinion",
     "hidden": 0,
-    "description": "You desired this",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/690120/b1101ab8806e62079681d684c284df2bbd1c883c.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/690120/488ac52397ec755cbe717187d70166250ec95844.jpg"
-  },
-  {
-    "name": "ACH_ENDING_3",
-    "defaultvalue": 0,
-    "displayName": "Everybody deserves happiness",
-    "hidden": 0,
-    "description": "You fought for this",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/690120/16526cfae85bf67cd6a85ab299f082fa0395507c.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/690120/2840f71bcc3ecf7ed30bbc9b20f0c3a7ec2bb5df.jpg"
-  },
-  {
-    "name": "ACH_BIRDS_1",
-    "defaultvalue": 0,
-    "displayName": "Bird Liberator",
-    "hidden": 0,
-    "description": "Release some of your feathery friends",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/690120/54a52d29236546eb9ecb337cad42bd2fd2d46469.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/690120/2239ad367b0be19d5bb7ba996cf4c8299067d5a2.jpg"
-  },
-  {
-    "name": "ACH_BIRDS_2",
-    "defaultvalue": 0,
-    "displayName": "Avid Birdwatcher",
-    "hidden": 0,
-    "description": "Release half of your feathery friends",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/690120/4cc7085fdc0a11dde035b98a65546301ba399c57.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/690120/50ed5dc6e768b0f14b2b26c51fff7325927cc833.jpg"
-  },
-  {
-    "name": "ACH_BIRDS_3",
-    "defaultvalue": 0,
-    "displayName": "Ornithologist",
-    "hidden": 0,
-    "description": "Release all your feathery friends",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/690120/ef77315ae1c948fd5187d626dca5c35501901a22.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/690120/f36c12a2f3009179fd2a7818dab6f7060492c4e1.jpg"
-  },
-  {
-    "name": "ACH_INKEDU",
-    "defaultvalue": 0,
-    "displayName": "InkedU 720p English Sub",
-    "hidden": 0,
-    "description": "For your eyes only",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/690120/5544547628acf8764077544c79e60e1dbce3b962.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/690120/10ac6169f9a5037d2f0e9d3b737b10e907d441d8.jpg"
-  },
-  {
-    "name": "ACH_SKILL_1",
-    "defaultvalue": 0,
-    "displayName": "Surfer dude",
-    "hidden": 0,
-    "description": "Ride the wave",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/690120/cf394a4e74e3b8f29def7a3cd4c454a54a6ec633.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/690120/95ae84bb1020c1c395402899590f8588e4ad95fe.jpg"
-  },
-  {
-    "name": "ACH_SKILL_2",
-    "defaultvalue": 0,
-    "displayName": "Pillar professional",
-    "hidden": 0,
-    "description": "You really love flying...and falling",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/690120/26ffb68ad731a8949ee3bbc2179991c0d40e20b1.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/690120/da135167de0fc0e7544cf74b5721d0ed600ca7c1.jpg"
-  },
-  {
-    "name": "ACH_SKILL_3",
-    "defaultvalue": 0,
-    "displayName": "Waterpark",
-    "hidden": 0,
-    "description": "Splash some water in your face",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/690120/cc587082e1bb50f6900991f907433e62f7c4c1bc.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/690120/20fc5132b8d1c8b9c36a08e0816c756b61bbfcea.jpg"
-  },
-  {
-    "name": "ACH_SKILL_4",
-    "defaultvalue": 0,
-    "displayName": "Adept swimmer",
-    "hidden": 0,
-    "description": "You really are",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/690120/6d1960902865e279d77f2a8b85469f7a097d1316.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/690120/8882b02a909c9c565219f4384e36b1dbc6c027c4.jpg"
-  },
-  {
-    "name": "ACH_SKILL_5",
-    "defaultvalue": 0,
-    "displayName": "Snow day",
-    "hidden": 0,
-    "description": "Make the most of it",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/690120/69218656dd13d4cd98182c325b3716d76d212fb3.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/690120/5e1df94a8cc1e9ab98e84a574b10e88de8ab3d28.jpg"
-  },
-  {
-    "name": "ACH_SKILL_6",
-    "defaultvalue": 0,
-    "displayName": "Inking Veteran",
-    "hidden": 0,
-    "description": "You drew a lot of stuff",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/690120/82bc998add63d12e3ed5758fcf5fff5878750056.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/690120/086d814feab1f1191472c6642469fd3c0ae7e878.jpg"
-  },
-  {
-    "name": "ACH_SKILL_7",
-    "defaultvalue": 0,
-    "displayName": "Astronaut",
-    "hidden": 0,
-    "description": "That's one small step for a man, one giant leap for mankind",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/690120/9072903a3ec3680972afe8273cc2c7b04ae5306d.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/690120/8cf3c38226f90b2cc60806a07ae1978a8f52c461.jpg"
-  },
-  {
-    "name": "ACH_SKILL_8",
-    "defaultvalue": 0,
-    "displayName": "Samurai tactics",
-    "hidden": 0,
-    "description": "You survived the final showdown without a scratch",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/690120/2d02f64ff31b33b626a3af9dcd0c36ab2bdd77f4.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/690120/0f322d60b03e688dd6587ace987b371fcdec613c.jpg"
+    "description": "Complete the game again",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/690120/5b1f2a2975d049cc18304490d0509f193b55e695.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/690120/5a599df0470c783245a577899414336bf8d3468e.jpg"
   }
 ]

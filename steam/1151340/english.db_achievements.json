@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "name": "ACHIEVEMENT_1",
     "defaultvalue": 0,
@@ -166,7 +166,7 @@
     "defaultvalue": 0,
     "displayName": "Monster Mash",
     "hidden": 0,
-    "description": "Win the \"Monster Mash\" Event",
+    "description": "Complete the \"Monster Mash\" Event",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1151340/7016ce97c68e4115a724cf81ef14bbf02fcbeb9f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1151340/a93beeadaed0557d549daf47fe42514bb0237a2a.jpg"
   },
@@ -538,5 +538,32 @@
     "description": "Gain 1500 gold bullion",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1151340/a32b618bdb4d1441b39db9b70d67408ed275ea4e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1151340/1ec0de7cbdf6242a57cf2f40fb7f3672ec911813.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_61",
+    "defaultvalue": 0,
+    "displayName": "Steel Brethren",
+    "hidden": 0,
+    "description": "Complete “The Catalyst”",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1151340/70c935078f3ba1ec15f4654879061e9b0bcfca98.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1151340/06f5cca2e07f72a60f0ed6c6ad5cfd240de216e3.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_62",
+    "defaultvalue": 0,
+    "displayName": "Smooth Operator",
+    "hidden": 0,
+    "description": "Earn Elder Rewards from a Daily Op",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1151340/b09bb93373353abb509ba2be2247f3c4f6de6c08.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1151340/0ec4ec13d6e1230fcc2b514d65caf9f10212a6ef.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_63",
+    "defaultvalue": 0,
+    "displayName": "Gold Star Crafter",
+    "hidden": 0,
+    "description": "Craft a 1 star legendary mod, a 2 star legendary mod, and a 3 star legendary mod",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1151340/b51a0ba214450341fd3c16a4e0aca9aa16b32117.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1151340/19cdd1fadf4fe4268406feef4ecb205c8311c3d0.jpg"
   }
 ]

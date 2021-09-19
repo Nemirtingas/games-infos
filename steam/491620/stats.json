@@ -1,90 +1,112 @@
-﻿{
-  "stat_1": {
-    "description": "Playtime",
-    "value": 0
+[
+  {
+    "name": "stat_1",
+    "defaultvalue": 0,
+    "displayName": "Playtime"
   },
-  "stat_2": {
-    "description": "Blood splattered",
-    "value": 0
+  {
+    "name": "stat_2",
+    "defaultvalue": 0,
+    "displayName": "Blood splattered"
   },
-  "stat_3": {
-    "description": "Deaths",
-    "value": 0
+  {
+    "name": "stat_3",
+    "defaultvalue": 0,
+    "displayName": "Deaths"
   },
-  "stat_4": {
-    "description": "Jumps",
-    "value": 0
+  {
+    "name": "stat_4",
+    "defaultvalue": 0,
+    "displayName": "Jumps"
   },
-  "stat_5": {
-    "description": "Kills",
-    "value": 0
+  {
+    "name": "stat_5",
+    "defaultvalue": 0,
+    "displayName": "Kills"
   },
-  "stat_6": {
-    "description": "Ranged Kills",
-    "value": 0
+  {
+    "name": "stat_6",
+    "defaultvalue": 0,
+    "displayName": "Ranged Kills"
   },
-  "stat_7": {
-    "description": "Melee Kills",
-    "value": 0
+  {
+    "name": "stat_7",
+    "defaultvalue": 0,
+    "displayName": "Melee Kills"
   },
-  "stat_8": {
-    "description": "Walljumps",
-    "value": 0
+  {
+    "name": "stat_8",
+    "defaultvalue": 0,
+    "displayName": "Walljumps"
   },
-  "stat_9": {
-    "description": "Speedruns completed",
-    "value": 0
+  {
+    "name": "stat_9",
+    "defaultvalue": 0,
+    "displayName": "Speedruns completed"
   },
-  "stat_10": {
-    "description": "World records set",
-    "value": 0
+  {
+    "name": "stat_10",
+    "defaultvalue": 0,
+    "displayName": "World records set"
   },
-  "stat_11": {
-    "description": "Level Completions",
-    "value": 0
+  {
+    "name": "stat_11",
+    "defaultvalue": 0,
+    "displayName": "Level Completions"
   },
-  "stat_12": {
-    "description": "Restarts",
-    "value": 0
+  {
+    "name": "stat_12",
+    "defaultvalue": 0,
+    "displayName": "Restarts"
   },
-  "stat_13": {
-    "description": "Ranged Double kills",
-    "value": 0
+  {
+    "name": "stat_13",
+    "defaultvalue": 0,
+    "displayName": "Ranged Double kills"
   },
-  "stat_14": {
-    "description": "Ranged Triple kills",
-    "value": 0
+  {
+    "name": "stat_14",
+    "defaultvalue": 0,
+    "displayName": "Ranged Triple kills"
   },
-  "stat_15": {
-    "description": "Portals used",
-    "value": 0
+  {
+    "name": "stat_15",
+    "defaultvalue": 0,
+    "displayName": "Portals used"
   },
-  "stat_16": {
-    "description": "Time overs",
-    "value": 0
+  {
+    "name": "stat_16",
+    "defaultvalue": 0,
+    "displayName": "Time overs"
   },
-  "stat_17": {
-    "description": "Walls destroyed",
-    "value": 0
+  {
+    "name": "stat_17",
+    "defaultvalue": 0,
+    "displayName": "Walls destroyed"
   },
-  "stat_18": {
-    "description": "Ranged Multi kills",
-    "value": 0
+  {
+    "name": "stat_18",
+    "defaultvalue": 0,
+    "displayName": "Ranged Multi kills"
   },
-  "stat_19": {
-    "description": "Custom Levels created",
-    "value": 0
+  {
+    "name": "stat_19",
+    "defaultvalue": 0,
+    "displayName": "Custom Levels created"
   },
-  "stat_20": {
-    "description": "Custom Levels completed",
-    "value": 0
+  {
+    "name": "stat_20",
+    "defaultvalue": 0,
+    "displayName": "Custom Levels completed"
   },
-  "stat_21": {
-    "description": "Custom Levels published",
-    "value": 0
+  {
+    "name": "stat_21",
+    "defaultvalue": 0,
+    "displayName": "Custom Levels published"
   },
-  "stat_22": {
-    "description": "Achievements unlocked",
-    "value": 0
+  {
+    "name": "stat_22",
+    "defaultvalue": 0,
+    "displayName": "Achievements unlocked"
   }
-}
+]

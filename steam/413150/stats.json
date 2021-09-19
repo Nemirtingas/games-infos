@@ -1,30 +1,37 @@
-﻿{
-  "money": {
-    "description": "Total Money Earned",
-    "value": 0
+[
+  {
+    "name": "money",
+    "defaultvalue": 0,
+    "displayName": "Total Money Earned"
   },
-  "crops": {
-    "description": "Crops Harvested",
-    "value": 0
+  {
+    "name": "crops",
+    "defaultvalue": 0,
+    "displayName": "Crops Harvested"
   },
-  "forage": {
-    "description": "Items Foraged",
-    "value": 0
+  {
+    "name": "forage",
+    "defaultvalue": 0,
+    "displayName": "Items Foraged"
   },
-  "fish": {
-    "description": "Fish Caught",
-    "value": 0
+  {
+    "name": "fish",
+    "defaultvalue": 0,
+    "displayName": "Fish Caught"
   },
-  "monsters": {
-    "description": "Monsters Killed",
-    "value": 0
+  {
+    "name": "monsters",
+    "defaultvalue": 0,
+    "displayName": "Monsters Killed"
   },
-  "board_quests": {
-    "description": "Help Wanted Quests Completed",
-    "value": 0
+  {
+    "name": "board_quests",
+    "defaultvalue": 0,
+    "displayName": "Help Wanted Quests Completed"
   },
-  "loved_gifts": {
-    "description": "Loved Gifts Given",
-    "value": 0
+  {
+    "name": "loved_gifts",
+    "defaultvalue": 0,
+    "displayName": "Loved Gifts Given"
   }
-}
+]

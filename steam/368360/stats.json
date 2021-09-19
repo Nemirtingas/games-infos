@@ -1,214 +1,267 @@
-﻿{
-  "Pankrowa": {
-    "description": "",
-    "value": 0
+[
+  {
+    "name": "Pankrowa",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "EasyModesDone": {
-    "description": "",
-    "value": 0
+  {
+    "name": "EasyModesDone",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "NormalModesDone": {
-    "description": "",
-    "value": 0
+  {
+    "name": "NormalModesDone",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "HardModesDone": {
-    "description": "",
-    "value": 0
+  {
+    "name": "HardModesDone",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Collisions": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Collisions",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "SoupCount": {
-    "description": "",
-    "value": 0
+  {
+    "name": "SoupCount",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "WaterCount": {
-    "description": "",
-    "value": 0
+  {
+    "name": "WaterCount",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "ScavengeCount": {
-    "description": "",
-    "value": 0
+  {
+    "name": "ScavengeCount",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "SurvivalCount": {
-    "description": "",
-    "value": 0
+  {
+    "name": "SurvivalCount",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "NukePerished": {
-    "description": "",
-    "value": 0
+  {
+    "name": "NukePerished",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "InsanityPerished": {
-    "description": "",
-    "value": 0
+  {
+    "name": "InsanityPerished",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "InjuryPerished": {
-    "description": "",
-    "value": 0
+  {
+    "name": "InjuryPerished",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "SicknessPerished": {
-    "description": "",
-    "value": 0
+  {
+    "name": "SicknessPerished",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "ThirstPerished": {
-    "description": "",
-    "value": 0
+  {
+    "name": "ThirstPerished",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "HungerPerished": {
-    "description": "",
-    "value": 0
+  {
+    "name": "HungerPerished",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "ExpeditionsPerished": {
-    "description": "",
-    "value": 0
+  {
+    "name": "ExpeditionsPerished",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "TotalSurvival": {
-    "description": "",
-    "value": 0
+  {
+    "name": "TotalSurvival",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "ExpeditionsUndertaken": {
-    "description": "",
-    "value": 0
+  {
+    "name": "ExpeditionsUndertaken",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "TotalItemsCollected": {
-    "description": "",
-    "value": 0
+  {
+    "name": "TotalItemsCollected",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "MostItemsCollected": {
-    "description": "",
-    "value": 0
+  {
+    "name": "MostItemsCollected",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "PerishedSurvival": {
-    "description": "",
-    "value": 0
+  {
+    "name": "PerishedSurvival",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "SurvivedSurvival": {
-    "description": "",
-    "value": 0
+  {
+    "name": "SurvivedSurvival",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "PerishedScavenge": {
-    "description": "",
-    "value": 0
+  {
+    "name": "PerishedScavenge",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "SurvivedScavenge": {
-    "description": "",
-    "value": 0
+  {
+    "name": "SurvivedScavenge",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "LongestSurvival": {
-    "description": "",
-    "value": 0
+  {
+    "name": "LongestSurvival",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "ItemsCollected": {
-    "description": "",
-    "value": 0
+  {
+    "name": "ItemsCollected",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "checkers": {
-    "description": "",
-    "value": 0
+  {
+    "name": "checkers",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "cards": {
-    "description": "",
-    "value": 0
+  {
+    "name": "cards",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "ammo": {
-    "description": "",
-    "value": 0
+  {
+    "name": "ammo",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "axe": {
-    "description": "",
-    "value": 0
+  {
+    "name": "axe",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "firstaid": {
-    "description": "",
-    "value": 0
+  {
+    "name": "firstaid",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "gasmask": {
-    "description": "",
-    "value": 0
+  {
+    "name": "gasmask",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "rifle": {
-    "description": "",
-    "value": 0
+  {
+    "name": "rifle",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "map": {
-    "description": "",
-    "value": 0
+  {
+    "name": "map",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "handbook": {
-    "description": "",
-    "value": 0
+  {
+    "name": "handbook",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "radio": {
-    "description": "",
-    "value": 0
+  {
+    "name": "radio",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "spray": {
-    "description": "",
-    "value": 0
+  {
+    "name": "spray",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "torch": {
-    "description": "",
-    "value": 0
+  {
+    "name": "torch",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "DadExpeditions": {
-    "description": "",
-    "value": 0
+  {
+    "name": "DadExpeditions",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "MomExpeditions": {
-    "description": "",
-    "value": 0
+  {
+    "name": "MomExpeditions",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "SonExpeditions": {
-    "description": "",
-    "value": 0
+  {
+    "name": "SonExpeditions",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "DaughterExpeditions": {
-    "description": "",
-    "value": 0
+  {
+    "name": "DaughterExpeditions",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "MomRescued": {
-    "description": "",
-    "value": 0
+  {
+    "name": "MomRescued",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "SonRescued": {
-    "description": "",
-    "value": 0
+  {
+    "name": "SonRescued",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "DaughterRescued": {
-    "description": "",
-    "value": 0
+  {
+    "name": "DaughterRescued",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Sacrifice": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Sacrifice",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Playtime": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Playtime",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "TradeCount": {
-    "description": "",
-    "value": 0
+  {
+    "name": "TradeCount",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "DefendThree": {
-    "description": "",
-    "value": 0
+  {
+    "name": "DefendThree",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "padlock": {
-    "description": "",
-    "value": 0
+  {
+    "name": "padlock",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "suitcase": {
-    "description": "",
-    "value": 0
+  {
+    "name": "suitcase",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "SoupConsumed": {
-    "description": "",
-    "value": 0
+  {
+    "name": "SoupConsumed",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "WaterConsumed": {
-    "description": "",
-    "value": 0
+  {
+    "name": "WaterConsumed",
+    "defaultvalue": 0,
+    "displayName": ""
   }
-}
+]

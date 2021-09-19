@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "name": "DriveOrExplodeLowHealthLap",
     "defaultvalue": 0,
@@ -342,7 +342,7 @@
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/609920/ee8114f72358f4fbf70519b58a235d79aa310ad8.jpg"
   },
   {
-    "name": "PerformBoostMulti",
+    "name": "PerformBostMulti",
     "defaultvalue": 0,
     "displayName": "Serial Sprinter",
     "hidden": 0,
@@ -448,5 +448,32 @@
     "description": "Play an Online race.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/609920/229d047c99c145a463933670edb144ca62450d5d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/609920/ad73809d2ec5c0f85381fe238f99c3b8a1d5c0e9.jpg"
+  },
+  {
+    "name": "BarrelBarrageLowHealthFinish",
+    "defaultvalue": 0,
+    "displayName": "Barrel-ly Made It",
+    "hidden": 0,
+    "description": "Finish a Barrel Barrage race on fire",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/609920/e7be196492d74efc0d8131dbb4ec1499e7dded81.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/609920/6abb0f3f2753d625e2303d7cff4f4aaec4f7accb.jpg"
+  },
+  {
+    "name": "BarrelBarrageNoBarrelHit",
+    "defaultvalue": 0,
+    "displayName": "Barreling Along",
+    "hidden": 0,
+    "description": "Finish a Barrel Barrage race without hitting a single barrel",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/609920/7033f9c207e1145db3a6e32c119ca6469172a249.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/609920/932b6d8dca64058f7a843f9cb199a3b3f68cb759.jpg"
+  },
+  {
+    "name": "FirstPlaceGrandPrixDLC",
+    "defaultvalue": 0,
+    "displayName": "Download Diva",
+    "hidden": 0,
+    "description": "Finish first in the Boss Level GP on Expert",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/609920/5c039ba6fa353b72be3817a4655b5ba25439e0e2.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/609920/7724f63a4c7c2775ab76084d8e763c7095cba83a.jpg"
   }
 ]

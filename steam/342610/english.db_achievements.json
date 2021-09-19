@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "name": "SPICE1",
     "defaultvalue": 0,
@@ -2653,5 +2653,86 @@
     "description": "Destroy 1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 leaves of the Mutant Ivy.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/342610/21f177ac5b47ad49b8e5a075b244c7760fac7052.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/342610/52993394061949e2ef36121202e5dd53ac35afd4.jpg"
+  },
+  {
+    "name": "LOVASZ",
+    "defaultvalue": 0,
+    "displayName": "Lovász Conjecture",
+    "hidden": 0,
+    "description": "Visit all the cells of {3,7} Klein quartic in the Land of Motion.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/342610/9f9232961c4d0789c2c15d3a0ac6852dc78955d9.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/342610/71dfd5d25df923b14e921d3c56c86feedbaf82a8.jpg"
+  },
+  {
+    "name": "DICE1",
+    "defaultvalue": 0,
+    "displayName": "Reached the Dice Reserve",
+    "hidden": 0,
+    "description": "Make a Die happy.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/342610/13848709151653f55dbb5c661ceda7dde2d68d6b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/342610/e6161f53a7824d7a5bcd6ee8cb5841e6eae07aca.jpg"
+  },
+  {
+    "name": "DICE2",
+    "defaultvalue": 0,
+    "displayName": "Animated Die",
+    "hidden": 0,
+    "description": "Make 10 Dice happy (or 25 in the Orb Strategy Mode).",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/342610/84ea2a508ee2fada0c5a45696673867df2f88c93.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/342610/aee363af09297d58d13961d34f16dddc5a08e9bc.jpg"
+  },
+  {
+    "name": "DICE3",
+    "defaultvalue": 0,
+    "displayName": "Happy Die",
+    "hidden": 0,
+    "description": "Make 25 Dice happy (or 50 in the Orb Strategy Mode).",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/342610/8c488a0d2187b033b1f45553caabb7fc352771c6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/342610/aee363af09297d58d13961d34f16dddc5a08e9bc.jpg"
+  },
+  {
+    "name": "DICE4",
+    "defaultvalue": 0,
+    "displayName": "Master of Dice",
+    "hidden": 0,
+    "description": "Make 50 Dice happy. (not in the Orb Strategy Mode)",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/342610/67a3d2e228c8ad16d33ced3f72620530ba4daab7.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/342610/aee363af09297d58d13961d34f16dddc5a08e9bc.jpg"
+  },
+  {
+    "name": "CURSED1",
+    "defaultvalue": 0,
+    "displayName": "Reached the Cursed Canyon",
+    "hidden": 0,
+    "description": "Find and collect a Capon Stone.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/342610/d47413f44b2174adc9f0fbe0767e45d309b5fa13.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/342610/6128bc3cee82585149ea89ed52c35eb1c8f1989c.jpg"
+  },
+  {
+    "name": "CURSED2",
+    "defaultvalue": 0,
+    "displayName": "Canyon Hag",
+    "hidden": 0,
+    "description": " Collect 10 Capon Stones (or 25 in the Orb Strategy Mode).",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/342610/1bd68caf79b3e731083568035ea387c83fcaf5d8.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/342610/ec777ae3e46c1aa943899e8cefc0fb063899fe89.jpg"
+  },
+  {
+    "name": "CURSED3",
+    "defaultvalue": 0,
+    "displayName": "Cursed Shadow",
+    "hidden": 0,
+    "description": " Collect 25 Capon Stones (or 50 in the Orb Strategy Mode).",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/342610/0de8b1ef9ef2780ddfbc0da7440fb0ccbe42dee5.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/342610/ec777ae3e46c1aa943899e8cefc0fb063899fe89.jpg"
+  },
+  {
+    "name": "CURSED4",
+    "defaultvalue": 0,
+    "displayName": "Master of Curses",
+    "hidden": 0,
+    "description": " Collect 50 Capon Stones. (not in the Orb Strategy Mode)",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/342610/9821713c118323f14a2f92e7296aaeff5e27c80e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/342610/6128bc3cee82585149ea89ed52c35eb1c8f1989c.jpg"
   }
 ]

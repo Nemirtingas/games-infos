@@ -146,7 +146,7 @@
   {
     "name": "STAR_COMPLETE_3_WORLDS",
     "defaultvalue": 0,
-    "displayName": "Triple-Triple-Checked",
+    "displayName": "Triple Triple-Checked",
     "hidden": 0,
     "description": "Collect all 30 stars from three worlds",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/945490/b1e8133012cf983f4df492f330be995170715e7a.jpg",
@@ -155,7 +155,7 @@
   {
     "name": "LEVEL_GOAL_2_1",
     "defaultvalue": 0,
-    "displayName": "Odd",
+    "displayName": "2-1 in 21",
     "hidden": 0,
     "description": "Complete 2-1 in exactly 21 moves",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/945490/47caf9c49b0d0fe439af933dc234a520625615a4.jpg",
@@ -200,7 +200,7 @@
   {
     "name": "EVERYTHING",
     "defaultvalue": 0,
-    "displayName": "THEREEEEEEEEEEEEE",
+    "displayName": "WAY PAST THERE",
     "hidden": 0,
     "description": "Earn EVERY STAR",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/945490/dca6f074e843fb0311995048cc4023ab97571c1e.jpg",
@@ -214,5 +214,41 @@
     "description": "Complete 7-1 in 10 moves or less",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/945490/15fb01b96f3ec5a784299f45cfbdf7feef3fd9cd.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/945490/326e083be2dcba3ff536751ea53e5097afbc7183.jpg"
+  },
+  {
+    "name": "LEVEL_GOAL_2_7",
+    "defaultvalue": 0,
+    "displayName": "Mastered the Wrong Game",
+    "hidden": 0,
+    "description": "Earn the Par Star in 2-7",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/945490/8edf57b47b006f1cab720d4de66089a51d394642.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/945490/fb014410d034413fb4ff1ff557f2bf128404735d.jpg"
+  },
+  {
+    "name": "MISC_ICE_STUCK",
+    "defaultvalue": 0,
+    "displayName": "Around and Around and etc.",
+    "hidden": 0,
+    "description": "Get an Ice Cube stuck in an infinite loop after hitting a wall",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/945490/092630fd4d72a1a9851df92b94558d34d3cf0b1c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/945490/60111af8890dd661ee70b88040718b02a3532121.jpg"
+  },
+  {
+    "name": "MISC_KILL_CANNON",
+    "defaultvalue": 0,
+    "displayName": "No Sympathy Here!",
+    "hidden": 0,
+    "description": "Destroy a Bullet Cannon",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/945490/66a9d8b00c19898205e93102a2bb5037b66a8558.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/945490/32b6a0348828eb66c2cda50473e874a8242ea8eb.jpg"
+  },
+  {
+    "name": "MISC_BOMBER",
+    "defaultvalue": 0,
+    "displayName": "Precision Bomber",
+    "hidden": 0,
+    "description": "Explode exactly 9 Powder Kegs in one turn",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/945490/2d377d2385e60a7d849ca13ac3e276ef0a006239.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/945490/1aefe39bf1692acae325b8bc4b67ae6955f586f5.jpg"
   }
 ]

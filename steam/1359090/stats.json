@@ -1,34 +1,62 @@
-﻿{
-  "zh_Kills": {
-    "description": "Kills",
-    "value": 0
+[
+  {
+    "name": "zh_Kills",
+    "defaultvalue": 0,
+    "displayName": "Kills"
   },
-  "zh_Deaths": {
-    "description": "Deaths",
-    "value": 0
+  {
+    "name": "zh_Deaths",
+    "defaultvalue": 0,
+    "displayName": "Deaths"
   },
-  "zh_MatchesWon": {
-    "description": "Matches Won",
-    "value": 0
+  {
+    "name": "zh_MatchesWon",
+    "defaultvalue": 0,
+    "displayName": "Matches Won"
   },
-  "zh_MatchesLost": {
-    "description": "Matches Lost",
-    "value": 0
+  {
+    "name": "zh_MatchesLost",
+    "defaultvalue": 0,
+    "displayName": "Matches Lost"
   },
-  "zh_DamagesDone": {
-    "description": "Damages Done",
-    "value": 0
+  {
+    "name": "zh_DamagesDone",
+    "defaultvalue": 0,
+    "displayName": "Damages Done"
   },
-  "zh_BadgeID": {
-    "description": "Badge ID",
-    "value": 0
+  {
+    "name": "zh_BadgeID",
+    "defaultvalue": 0,
+    "displayName": "Badge ID"
   },
-  "Thok": {
-    "description": "Status",
-    "value": 0
+  {
+    "name": "Thok",
+    "defaultvalue": 0,
+    "displayName": "Status"
   },
-  "zh_MP": {
-    "description": "Match Point",
-    "value": 0
+  {
+    "name": "zh_MP",
+    "defaultvalue": 0,
+    "displayName": "Match Point"
+  },
+  {
+    "name": "zh_Bish",
+    "defaultvalue": 0,
+    "displayName": "Status 2"
+  },
+  {
+    "name": "zh_BDT",
+    "defaultvalue": 0,
+    "displayName": "Status 3"
+  },
+  {
+    "name": "zh_MP2",
+    "defaultvalue": 0,
+    "displayName": "Match Point 2"
+  },
+  {
+    "name": "zh_EULA",
+    "defaultvalue": 0,
+    "displayName": "EULA"
   }
-}
+]

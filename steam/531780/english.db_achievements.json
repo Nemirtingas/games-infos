@@ -779,5 +779,284 @@
     "description": " Reach 30.000 gold with a hero",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/531780/ab04cc5b9415e6bd0cdd7f6464d2727a9d0b4901.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/531780/c2188cece3e9e177e468f4d10001390a09133dec.jpg"
+  },
+  {
+    "name": "AWAKEN_UNDEAD",
+    "defaultvalue": 0,
+    "displayName": "Awaken undead",
+    "hidden": 0,
+    "description": "Wake the undead",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/531780/c263e2696615c2289da932bcffd9e8f546e51997.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/531780/1c30c2279f453e9e30d25bc34e5b81759b694a42.jpg"
+  },
+  {
+    "name": "BELOW_ANGEL",
+    "defaultvalue": 0,
+    "displayName": "Angel of light",
+    "hidden": 0,
+    "description": "Meet the angel of light",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/531780/10b7b46b54dca6ece3876e04c2744f47ca2b3068.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/531780/8b141bb60ccbf7cb23eec38d47491e8cda37400e.jpg"
+  },
+  {
+    "name": "BELOW_DRAGONCORPSE",
+    "defaultvalue": 0,
+    "displayName": "Dragon corpse",
+    "hidden": 0,
+    "description": "Find a dragon corpse",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/531780/edfc50a496ec6b4e311dccdd06b842793e5eb17c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/531780/be5a2c20c5c3a82b0d317b16b72df9c5d1f4586d.jpg"
+  },
+  {
+    "name": "BELOW_MAGICGEMS",
+    "defaultvalue": 0,
+    "displayName": "Magic gem",
+    "hidden": 0,
+    "description": "Find the mystic magic gem",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/531780/324e4cf54ab767291c8cbce1f36f1e5abd3f6973.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/531780/352c79f46f2f2d12ad37b17abd1c86fed850941c.jpg"
+  },
+  {
+    "name": "BELOW_STAIRS",
+    "defaultvalue": 0,
+    "displayName": "Upstair",
+    "hidden": 0,
+    "description": "Find an escape door in the dark below",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/531780/d87221c1edc7550e1d48c9b4bd7f442eb8c995b6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/531780/19ee7713af303fc8a492197d646caa0687eb0dc3.jpg"
+  },
+  {
+    "name": "BELOW_WORMSLIME",
+    "defaultvalue": 0,
+    "displayName": "Worm slime",
+    "hidden": 0,
+    "description": "Meet the worm rear",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/531780/8e11d23e2e4f6a002dfcb064d368cc4a86d723e0.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/531780/1c061356102606a442a18ab76e9b5b3f4f9724b4.jpg"
+  },
+  {
+    "name": "CORPSE_GATEKEY",
+    "defaultvalue": 0,
+    "displayName": "Gate key",
+    "hidden": 0,
+    "description": "Find the gate key",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/531780/8c8172156804c8d05f873687b8ff3471c27c7798.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/531780/273613ac519aab21aaa963f998bd3355ecb938f9.jpg"
+  },
+  {
+    "name": "CORPSE_MAGICRING",
+    "defaultvalue": 0,
+    "displayName": "Magic ring",
+    "hidden": 0,
+    "description": "Find the magic ring",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/531780/410aa708f4381c4f793cf4c1a1d5c2f6844654cf.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/531780/5daa2ff1eef5061e98cd60947679277274f4f9a3.jpg"
+  },
+  {
+    "name": "CORPSE_SACK",
+    "defaultvalue": 0,
+    "displayName": "Sack",
+    "hidden": 0,
+    "description": "Find a sack",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/531780/89afd3e83726a682ecfb22b3a1bf2299151998a0.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/531780/c5db2493a8cd1b5272d018edd195ec78de47e9de.jpg"
+  },
+  {
+    "name": "CORPSE_SKELETON_KEY",
+    "defaultvalue": 0,
+    "displayName": "Skeleton key",
+    "hidden": 0,
+    "description": "Find the skeleton key",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/531780/48e143ad1b7269a672dfe3c0e3864b96e42a0add.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/531780/7a9134d1a82e5af315f391d8cc62ce2616fa2f40.jpg"
+  },
+  {
+    "name": "CRYPT_ARMOUR",
+    "defaultvalue": 0,
+    "displayName": "Armour",
+    "hidden": 0,
+    "description": "Find the legendary armour",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/531780/35700333138921b7274aeb5a9c3028c7a4e8836a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/531780/b791919a0b4be88e6ceee58298ceb88f9f1af7a8.jpg"
+  },
+  {
+    "name": "CRYPT_BOOTS",
+    "defaultvalue": 0,
+    "displayName": "Boots",
+    "hidden": 0,
+    "description": "Find and equip boots",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/531780/e925249cc6c9ce76a778675c4a2058f8178e175d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/531780/5b79e4aeb61a3425c2252be6a4395195af343c25.jpg"
+  },
+  {
+    "name": "CRYPT_DEADHELMET",
+    "defaultvalue": 0,
+    "displayName": "Dead helmet",
+    "hidden": 0,
+    "description": "Use the dead helmet",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/531780/0f225c158a92e2f1c21716ac4157271cce03b99d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/531780/87302acc0589163d980cb0573e7857ac2f8838f1.jpg"
+  },
+  {
+    "name": "CRYPT_LUCKYRING",
+    "defaultvalue": 0,
+    "displayName": "Lucky ring",
+    "hidden": 0,
+    "description": "Find the rare lucky ring",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/531780/31a2132e939a40c36863af6c84ec36f88c8d7015.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/531780/a3afcc80134b77ff6e35a0999a07b2c5ae2fb823.jpg"
+  },
+  {
+    "name": "CRYPT_MAGICSWORD",
+    "defaultvalue": 0,
+    "displayName": "Magic sword",
+    "hidden": 0,
+    "description": "Find the mighty magic sword",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/531780/2172ac699904d97f3e6c8215d481e73913856354.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/531780/2a4955106743b2ce68e5f7d302665de45ae76083.jpg"
+  },
+  {
+    "name": "CRYPT_ORBOFHOPE",
+    "defaultvalue": 0,
+    "displayName": "Orb of hope",
+    "hidden": 0,
+    "description": "Be saved by orb of hope",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/531780/0d33fe91c05dbd12f1d11a8c658a527c2bde6c6b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/531780/f452a262b359e7a64521dc7d88cc91915b046f20.jpg"
+  },
+  {
+    "name": "CURSEBITE",
+    "defaultvalue": 0,
+    "displayName": "Curse bite",
+    "hidden": 0,
+    "description": "Get a curse bite",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/531780/ae2163ff0cda6fcf44d54bb028f886c8d2eaf8f3.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/531780/d2520450cf4a43d989fe1ac62e556d6a8efe8dd8.jpg"
+  },
+  {
+    "name": "DOOR_LIVINGDOOR",
+    "defaultvalue": 0,
+    "displayName": "Living door",
+    "hidden": 0,
+    "description": "Get eaten by a door",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/531780/c44d81ae5039028118fb8de12698648277974bba.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/531780/622889c394dce4fd09931c972be90da23ee341f2.jpg"
+  },
+  {
+    "name": "DOOR_PORTAL",
+    "defaultvalue": 0,
+    "displayName": "Portal",
+    "hidden": 0,
+    "description": "Use a portal",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/531780/8a40f1bcf03c4e70f11fb7694f09ad9505b30086.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/531780/c9086035eb457e54578065dbcdc5e8382e7395ef.jpg"
+  },
+  {
+    "name": "ROOM_BANSHEE",
+    "defaultvalue": 0,
+    "displayName": "Banshee",
+    "hidden": 0,
+    "description": "Meet a banshee",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/531780/8f44a61b79ddb96fbef4d0af1b8b5220d2907dd7.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/531780/ceca5efed824aa77a2b09cfcbcf321dd27728b2b.jpg"
+  },
+  {
+    "name": "ROOM_GAMBLER",
+    "defaultvalue": 0,
+    "displayName": "Gambler",
+    "hidden": 0,
+    "description": "Gamble with the gambler",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/531780/d15c5acdd4fdda1689027319865b88a4e0ec57d8.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/531780/0aea0e54cf1fc69e3ad0dd64da262bcafa40912a.jpg"
+  },
+  {
+    "name": "ROOM_LOSTCAVE",
+    "defaultvalue": 0,
+    "displayName": "Gold cave",
+    "hidden": 0,
+    "description": "Defeat the snake and loot from the gold cave",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/531780/a0300183d73f970ae38ee04db8d475a480fced1f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/531780/33231b53faac34a469c7d1b62ba2c7f632c018cc.jpg"
+  },
+  {
+    "name": "ROOM_OOZEEGG",
+    "defaultvalue": 0,
+    "displayName": "Ooze egg",
+    "hidden": 0,
+    "description": "Gaze at an ooze egg",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/531780/1b9ea02e6b1915cdc7186c1b840f8f6e5488de6e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/531780/2c2a9e509a8602a42936046a4a9f533d9b563e97.jpg"
+  },
+  {
+    "name": "ROOM_PANIC",
+    "defaultvalue": 0,
+    "displayName": "Panic",
+    "hidden": 0,
+    "description": "Go in panic",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/531780/3829bca6f77b2130343a0761615da0fa5ce8aa86.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/531780/1ee58661d0bb4c5dd8422ff887135b7aba6d80e9.jpg"
+  },
+  {
+    "name": "ROOM_SHADOWS",
+    "defaultvalue": 0,
+    "displayName": "Shadows",
+    "hidden": 0,
+    "description": "Die by the shadows",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/531780/4790a57d2388392f02767f2994e0073e9a69a1c9.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/531780/557d43c25980696c54b9dc796d5ed7acf9e0b123.jpg"
+  },
+  {
+    "name": "ROOM_TRADER",
+    "defaultvalue": 0,
+    "displayName": "Trader",
+    "hidden": 0,
+    "description": "Buy an item from the trader",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/531780/f5432566a7314cb4a2aed1f4d40587d464404fdf.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/531780/8eab8cfd08ca6c04241a3f8efb1e0d73d758a346.jpg"
+  },
+  {
+    "name": "ROOM_TREASUREMAP",
+    "defaultvalue": 0,
+    "displayName": "Treasure map",
+    "hidden": 0,
+    "description": "Find the lost wizard amulet",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/531780/a10e6446cd719849edd986935ef33f913e16ca69.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/531780/5f325b13b381da0bd49bef785f57d3d32af11e52.jpg"
+  },
+  {
+    "name": "ROOM_WITCH",
+    "defaultvalue": 0,
+    "displayName": "Witch",
+    "hidden": 0,
+    "description": "Become a piggy",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/531780/b591fdcd719ca96ca45bf46712e87a2721e5baf1.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/531780/aeaac9665d30da1b7aa55e26368ba3cd32a7b5cd.jpg"
+  },
+  {
+    "name": "TRAPTOBELOW",
+    "defaultvalue": 0,
+    "displayName": "Trap to below",
+    "hidden": 0,
+    "description": "Fall into the below",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/531780/8227fe608001a3365b29222c213936f292634b6a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/531780/49932bbc1c9d3e4627d68292790d6c390a138056.jpg"
+  },
+  {
+    "name": "VOLATILEOOZE",
+    "defaultvalue": 0,
+    "displayName": "Volatile ooze",
+    "hidden": 0,
+    "description": "Get surprised by a volatile ooze",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/531780/ac8dbbe7fa0159b2e6eafb5734fb393faeced7c3.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/531780/ebd76c60a19c3a19d7233b36c7668bde6ed8e48c.jpg"
+  },
+  {
+    "name": "ESCAPE_VALTIEL",
+    "defaultvalue": 0,
+    "displayName": "Valtiel",
+    "hidden": 0,
+    "description": "Escape from the castle with Valtiel (Gamemode key enabled)",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/531780/b36a193aa8bbf89b118004e64574600732d88c26.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/531780/c61c322da28948f0ed3fdf602ae7c4975ffa6452.jpg"
   }
 ]

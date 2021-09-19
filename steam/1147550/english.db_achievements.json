@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "name": "ach_nfb_agrade",
     "defaultvalue": 0,
@@ -109,24 +109,6 @@
     "description": "Max out the boost in any Rhythm Editing section.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1147550/557800f10a1fdbab898ea458fedf8b0be5999d9e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1147550/d455cd09bcf6030695466edccc54e04aeae4642e.jpg"
-  },
-  {
-    "name": "ach_nfb_toy1",
-    "defaultvalue": 0,
-    "displayName": "Home Sweet Home",
-    "hidden": 0,
-    "description": "Buy your first Cosmetic Item.",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1147550/73e269bea00fe0dfa04d65a342bff6e920e4f816.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1147550/8d53621742ad9d931993864520024ea809e7f5e7.jpg"
-  },
-  {
-    "name": "ach_nfb_upgrade1",
-    "defaultvalue": 0,
-    "displayName": "We Have The Technology",
-    "hidden": 0,
-    "description": "Buy your first Upgrade.",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1147550/6e8a4f4322ee5d2fa8a984fdf218b020567468c1.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1147550/8d61c77ceaab54107cbf6e40636cdfd77a1431d3.jpg"
   },
   {
     "name": "ach_nfb_retry",
@@ -246,5 +228,135 @@
     "description": "View all three versions of Boseman's Lockdown Educational Video.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1147550/638399a9e0b350f48d2df50acd62e1a54a163dbd.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1147550/a38f461044e243c532295a997f7d6d96a8733cdb.jpg"
+  },
+  {
+    "name": "ach_nfb_flardfestival",
+    "defaultvalue": 0,
+    "displayName": "My Festival's Absolute Fyre",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1147550/19983916dd88291f6366076857477c21eb0390cd.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1147550/2ad6cbd0e1d5e181e9deb7a302d4df59ef92adc0.jpg"
+  },
+  {
+    "name": "ach_nfb_advancereward",
+    "defaultvalue": 0,
+    "displayName": "An Advanced Warning",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1147550/90e16f51a419a65a84d29e4e6ca241c2fef9914c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1147550/df92240f3b07fb4dc9fcf4f330360cb603754790.jpg"
+  },
+  {
+    "name": "ach_nfb_disruptreward",
+    "defaultvalue": 0,
+    "displayName": "A Disruptive Payout",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1147550/fc04089f4f4966ce6de34edbeb953c8154eff259.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1147550/222d6c0c132259f45127b151ffddde1043492dc2.jpg"
+  },
+  {
+    "name": "ach_nfb_killduck",
+    "defaultvalue": 0,
+    "displayName": "A Peaceful Night",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1147550/de0da380b6a1756df662a34cb269c510728206de.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1147550/b445ae4d0985924971b260ba199dc52338a4bb46.jpg"
+  },
+  {
+    "name": "ach_nfb_saveduck",
+    "defaultvalue": 0,
+    "displayName": "You Either Die A Hero...",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1147550/ec11178128a91f5624bc58074f7dddcfd9bbe5c1.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1147550/7190642a26c2a3e48b44e0dcaa13876878dab8c2.jpg"
+  },
+  {
+    "name": "ach_nfb_boonoticeboard",
+    "defaultvalue": 0,
+    "displayName": "A Poor Pilot",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1147550/83044c8eacf5cb4cc47082ce07fea585fcbbfd6c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1147550/d857f4ab703b94624486fc936f6a477689800f00.jpg"
+  },
+  {
+    "name": "ach_nfb_yaynoticeboard",
+    "defaultvalue": 0,
+    "displayName": "Strength To Strength",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1147550/b877cdae1f7409c08d7bcad4b392f27789c06426.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1147550/395943154fda7dfd163a08f41283e32264d119c8.jpg"
+  },
+  {
+    "name": "ach_nfb_episode2",
+    "defaultvalue": 0,
+    "displayName": "Let's Make Tomorrow Better",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1147550/c2bd7c97aaa3829871120ade63ce7360f541c093.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1147550/e1c0424630d07fca345310524839dccf6ff4188f.jpg"
+  },
+  {
+    "name": "ach_nfb_censorjzuss",
+    "defaultvalue": 0,
+    "displayName": "Dangerous Language",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1147550/dcec65bebd9ef2275cc656cead38560fd6639649.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1147550/f62ba749b455d8fd513102b5dd7d9fc7cfae6f97.jpg"
+  },
+  {
+    "name": "ach_nfb_lilchack",
+    "defaultvalue": 0,
+    "displayName": "#Not My Clothes",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1147550/571e2de349609a2a511d080cc4ba8f91921ef23d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1147550/78c3ecfa831f47ec1e99bbe0fd1816360423403e.jpg"
+  },
+  {
+    "name": "ach_nfb_playdisrupt",
+    "defaultvalue": 0,
+    "displayName": "The Man Behind The Hood",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1147550/9a46f80e8edf70196c36196c6f2f1737955ef191.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1147550/3a858c332eeb28b051102b3009acde6946952c2d.jpg"
+  },
+  {
+    "name": "ach_nfb_dontplaydisrupt",
+    "defaultvalue": 0,
+    "displayName": "Someone Else's Job",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1147550/cf6fe993cae25acbe62a32f07e8085360ccb6ad8.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1147550/dc2c2c6e53568aa43eee06309aa42da12c053520.jpg"
+  },
+  {
+    "name": "ach_nfb_daughterdead",
+    "defaultvalue": 0,
+    "displayName": "Family Away From Home",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1147550/6dbd7a224083aeb9ec53315bd3529e5074a2dc7d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1147550/dfb4c7d7643da56fd1f1944fc903579ca68e1d4b.jpg"
+  },
+  {
+    "name": "ach_nfb_challenge1x5",
+    "defaultvalue": 0,
+    "displayName": "H Name",
+    "hidden": 0,
+    "description": "H Desc",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1147550/",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1147550/"
+  },
+  {
+    "name": "ach_nfb_challengeshock",
+    "defaultvalue": 0,
+    "displayName": "A Name",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1147550/",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1147550/"
+  },
+  {
+    "name": "ach_nfb_challenge5x5",
+    "defaultvalue": 0,
+    "displayName": "I Name",
+    "hidden": 0,
+    "description": "I Desc",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1147550/",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1147550/"
   }
 ]

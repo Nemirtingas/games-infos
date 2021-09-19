@@ -1,10 +1,12 @@
-﻿{
-  "Text1": {
-    "description": "what",
-    "value": 0
+[
+  {
+    "name": "Text1",
+    "defaultvalue": 0,
+    "displayName": "what"
   },
-  "怪物击杀": {
-    "description": "",
-    "value": 0
+  {
+    "name": "怪物击杀",
+    "defaultvalue": 0,
+    "displayName": ""
   }
-}
+]

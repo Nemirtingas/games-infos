@@ -1,10 +1,12 @@
-﻿{
-  "trophycnt": {
-    "description": "trophys",
-    "value": 0
+[
+  {
+    "name": "trophycnt",
+    "defaultvalue": 0,
+    "displayName": "trophys"
   },
-  "VERSION": {
-    "description": "",
-    "value": 0
+  {
+    "name": "VERSION",
+    "defaultvalue": 0,
+    "displayName": ""
   }
-}
+]

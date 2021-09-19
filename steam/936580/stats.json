@@ -1,34 +1,42 @@
-﻿{
-  "stat_01_games_played": {
-    "description": "Games played",
-    "value": 0
+[
+  {
+    "name": "stat_01_games_played",
+    "defaultvalue": 0,
+    "displayName": "Games played"
   },
-  "stat_02_distance_traveled": {
-    "description": "Distance traveled",
-    "value": 0
+  {
+    "name": "stat_02_distance_traveled",
+    "defaultvalue": 0,
+    "displayName": "Distance traveled"
   },
-  "stat_03_walls_max": {
-    "description": "Walls max distance",
-    "value": 0
+  {
+    "name": "stat_03_walls_max",
+    "defaultvalue": 0,
+    "displayName": "Walls max distance"
   },
-  "stat_04_lines_max": {
-    "description": "Lines max distance",
-    "value": 0
+  {
+    "name": "stat_04_lines_max",
+    "defaultvalue": 0,
+    "displayName": "Lines max distance"
   },
-  "stat_05_rands_max": {
-    "description": "Rands max distance",
-    "value": 0
+  {
+    "name": "stat_05_rands_max",
+    "defaultvalue": 0,
+    "displayName": "Rands max distance"
   },
-  "stat_06_spirs_max": {
-    "description": "Spirs max distance",
-    "value": 0
+  {
+    "name": "stat_06_spirs_max",
+    "defaultvalue": 0,
+    "displayName": "Spirs max distance"
   },
-  "stat_07_circs_max": {
-    "description": "Circs max distance",
-    "value": 0
+  {
+    "name": "stat_07_circs_max",
+    "defaultvalue": 0,
+    "displayName": "Circs max distance"
   },
-  "stat_08_trins_max": {
-    "description": "Trins max distance",
-    "value": 0
+  {
+    "name": "stat_08_trins_max",
+    "defaultvalue": 0,
+    "displayName": "Trins max distance"
   }
-}
+]

@@ -2,7 +2,7 @@
   "Dlcs": {},
   "Name": "CINEVEO - VR Cinema",
   "AppId": "364380",
-  "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/364380/header.jpg?t=1481732845",
+  "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/364380/header.jpg?t=1621338094",
   "Languages": [
     "english",
     "french",
@@ -33,8 +33,8 @@
     "ukrainian"
   ],
   "Platforms": {
-    "windows": true,
+    "windows": false,
     "mac": false,
-    "linux": false
+    "linux": true
   }
 }

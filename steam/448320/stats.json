@@ -1,330 +1,412 @@
-﻿{
-  "kills": {
-    "description": "Kills",
-    "value": 0
-  },
-  "money": {
-    "description": "Money Earned",
-    "value": 0
-  },
-  "boss_kills": {
-    "description": "Boss Kills",
-    "value": 0
-  },
-  "deaths": {
-    "description": "Deaths",
-    "value": 0
-  },
-  "deaths_zone_0": {
-    "description": "Deaths in Zone 0",
-    "value": 0
-  },
-  "deaths_zone_1": {
-    "description": "Deaths in Zone 1",
-    "value": 0
-  },
-  "deaths_zone_2": {
-    "description": "Deaths in Zone 2",
-    "value": 0
-  },
-  "deaths_zone_3": {
-    "description": "Deaths in Zone 3",
-    "value": 0
-  },
-  "deaths_zone_4": {
-    "description": "Deaths in Zone 4",
-    "value": 0
-  },
-  "deaths_zone_5": {
-    "description": "Deaths in Zone 5",
-    "value": 0
-  },
-  "deaths_zone_6": {
-    "description": "Deaths in Zone 6",
-    "value": 0
-  },
-  "deaths_zone_7": {
-    "description": "Deaths in Zone 7",
-    "value": 0
-  },
-  "deaths_zombie": {
-    "description": "Deaths by Zombies",
-    "value": 0
-  },
-  "deaths_chicken": {
-    "description": "Deaths by Chickens",
-    "value": 0
-  },
-  "deaths_maggot": {
-    "description": "Deaths by Maggots",
-    "value": 0
-  },
-  "deaths_hugger": {
-    "description": "Deaths by Hugger",
-    "value": 0
-  },
-  "deaths_crusher": {
-    "description": "Deaths by Crusher",
-    "value": 0
-  },
-  "deaths_spitter": {
-    "description": "Deaths by Spitter",
-    "value": 0
-  },
-  "deaths_bat": {
-    "description": "Deaths by Bat",
-    "value": 0
-  },
-  "deaths_macheteSlinger": {
-    "description": "Deaths by Machete Slinger",
-    "value": 0
-  },
-  "deaths_fisherman": {
-    "description": "Deaths by Fisherman",
-    "value": 0
-  },
-  "deaths_glutton": {
-    "description": "Deaths by Glutton",
-    "value": 0
-  },
-  "deaths_goliath": {
-    "description": "Deaths by Goliath",
-    "value": 0
-  },
-  "minigame_surfing": {
-    "description": "Zombie Surfing Games Played",
-    "value": 0
-  },
-  "minigame_defence": {
-    "description": "Defence Games Played",
-    "value": 0
-  },
-  "minigame_treasure": {
-    "description": "Treasure Games Played",
-    "value": 0
-  },
-  "minigame_mayhem": {
-    "description": "Mayhem Games Played",
-    "value": 0
-  },
-  "link_torruntnet": {
-    "description": "",
-    "value": 0
-  },
-  "link_credits_corey": {
-    "description": "",
-    "value": 0
-  },
-  "link_credits_tyler": {
-    "description": "",
-    "value": 0
-  },
-  "link_credits_greg": {
-    "description": "",
-    "value": 0
-  },
-  "crates": {
-    "description": "Crates Destroyed",
-    "value": 0
-  },
-  "zombie_head": {
-    "description": "Decapitations",
-    "value": 0
-  },
-  "zombie_arm": {
-    "description": "Armputations",
-    "value": 0
-  },
-  "zombie_legs": {
-    "description": "Legputations",
-    "value": 0
-  },
-  "kills_sidearm": {
-    "description": "Sidearm Kills",
-    "value": 0
-  },
-  "kills_shotgun": {
-    "description": "Shotgun Kills",
-    "value": 0
-  },
-  "kills_rifle": {
-    "description": "Rifle Kills",
-    "value": 0
-  },
-  "kills_autorifle": {
-    "description": "Autorifle Kills",
-    "value": 0
-  },
-  "kills_mayhem": {
-    "description": "Mayhem Best Kills",
-    "value": 0
-  },
-  "kills_supa_shotgun": {
-    "description": "Supa Shotgun Kills",
-    "value": 0
-  },
-  "kills_supa_sniper": {
-    "description": "Supa Sniper Kills",
-    "value": 0
-  },
-  "kills_supa_mg": {
-    "description": "Supa MG Kills",
-    "value": 0
-  },
-  "kills_melee": {
-    "description": "Melee Kills",
-    "value": 0
-  },
-  "kills_fire": {
-    "description": "Kills by fire",
-    "value": 0
-  },
-  "boss_revives": {
-    "description": "Boss Revives",
-    "value": 0
-  },
-  "headshots": {
-    "description": "Headshots",
-    "value": 0
-  },
-  "food": {
-    "description": "Food Eaten",
-    "value": 0
-  },
-  "treasure_found": {
-    "description": "Treasure Chests Found",
-    "value": 0
-  },
-  "bought_repel": {
-    "description": "Zombie Repellent Bought",
-    "value": 0
-  },
-  "bought_defence": {
-    "description": "Defence Finder Bought",
-    "value": 0
-  },
-  "bought_surfing": {
-    "description": "Surfing Finder Bought",
-    "value": 0
-  },
-  "bought_treasure": {
-    "description": "Treasure Finder Bought",
-    "value": 0
-  },
-  "bought_mayhem": {
-    "description": "Mayhem Finder Bought",
-    "value": 0
-  },
-  "bought_hay_bale": {
-    "description": "Hay Bales Bought",
-    "value": 0
-  },
-  "bought_chicken_leg": {
-    "description": "Checken Legs Bought",
-    "value": 0
-  },
-  "bought_rotten_fish": {
-    "description": "Rotten Fish Bought",
-    "value": 0
-  },
-  "bought_mystery_meat": {
-    "description": "Mystery Meat Bought",
-    "value": 0
-  },
-  "bought_blood_bag": {
-    "description": "Blood Bags Bought",
-    "value": 0
-  },
-  "bought_shirt": {
-    "description": "Shirts Bought",
-    "value": 0
-  },
-  "bought_hat": {
-    "description": "Hats Bought",
-    "value": 0
-  },
-  "bought_facewear": {
-    "description": "Facewear Bought",
-    "value": 0
-  },
-  "money_spent": {
-    "description": "Money Spent",
-    "value": 0
-  },
-  "money_lost": {
-    "description": "Money Lost",
-    "value": 0
-  },
-  "holes": {
-    "description": "Holes Dug",
-    "value": 0
-  },
-  "kills_explosives": {
-    "description": "Explosive Kills",
-    "value": 0
-  },
-  "bought_dynamite": {
-    "description": "Sticks of Dynamite Bought",
-    "value": 0
-  },
-  "proj_hit": {
-    "description": "Projectiles Hit",
-    "value": 0
-  },
-  "fish_cut": {
-    "description": "Fish Cut",
-    "value": 0
-  },
-  "kills_chainsaw": {
-    "description": "Chainsaw Kills",
-    "value": 0
-  },
-  "chainsaw_limbs": {
-    "description": "Limbs Cut with Chainsaw",
-    "value": 0
-  },
-  "deaths_surgeon": {
-    "description": "Deaths by Surgeon",
-    "value": 0
-  },
-  "deaths_zombieMod": {
-    "description": "Deaths by Modded Zombies",
-    "value": 0
-  },
-  "bought_bunch_of_junk": {
-    "description": "Bunches of Junk Bought",
-    "value": 0
-  },
-  "pumpkins": {
-    "description": "Pumpkins Smashed",
-    "value": 0
-  },
-  "candy": {
-    "description": "Candy Eaten",
-    "value": 0
-  },
-  "eastereggs": {
-    "description": "Easter Eggs Collected",
-    "value": 0
-  },
-  "bought_customiser": {
-    "description": "Character Customisations bought",
-    "value": 0
-  },
-  "materials": {
-    "description": "Materials Earned",
-    "value": 0
-  },
-  "materials_spent": {
-    "description": "Materials Spent",
-    "value": 0
-  },
-  "waves_cleared": {
-    "description": "Waves Cleared",
-    "value": 0
-  },
-  "waves_max": {
-    "description": "Max Wave Reached",
-    "value": 0
+[
+  {
+    "name": "kills",
+    "defaultvalue": 0,
+    "displayName": "Kills"
+  },
+  {
+    "name": "money",
+    "defaultvalue": 0,
+    "displayName": "Money Earned"
+  },
+  {
+    "name": "boss_kills",
+    "defaultvalue": 0,
+    "displayName": "Boss Kills"
+  },
+  {
+    "name": "deaths",
+    "defaultvalue": 0,
+    "displayName": "Deaths"
+  },
+  {
+    "name": "deaths_zone_0",
+    "defaultvalue": 0,
+    "displayName": "Deaths in Zone 0"
+  },
+  {
+    "name": "deaths_zone_1",
+    "defaultvalue": 0,
+    "displayName": "Deaths in Zone 1"
+  },
+  {
+    "name": "deaths_zone_2",
+    "defaultvalue": 0,
+    "displayName": "Deaths in Zone 2"
+  },
+  {
+    "name": "deaths_zone_3",
+    "defaultvalue": 0,
+    "displayName": "Deaths in Zone 3"
+  },
+  {
+    "name": "deaths_zone_4",
+    "defaultvalue": 0,
+    "displayName": "Deaths in Zone 4"
+  },
+  {
+    "name": "deaths_zone_5",
+    "defaultvalue": 0,
+    "displayName": "Deaths in Zone 5"
+  },
+  {
+    "name": "deaths_zone_6",
+    "defaultvalue": 0,
+    "displayName": "Deaths in Zone 6"
+  },
+  {
+    "name": "deaths_zone_7",
+    "defaultvalue": 0,
+    "displayName": "Deaths in Zone 7"
+  },
+  {
+    "name": "deaths_zombie",
+    "defaultvalue": 0,
+    "displayName": "Deaths by Zombies"
+  },
+  {
+    "name": "deaths_chicken",
+    "defaultvalue": 0,
+    "displayName": "Deaths by Chickens"
+  },
+  {
+    "name": "deaths_maggot",
+    "defaultvalue": 0,
+    "displayName": "Deaths by Maggots"
+  },
+  {
+    "name": "deaths_hugger",
+    "defaultvalue": 0,
+    "displayName": "Deaths by Hugger"
+  },
+  {
+    "name": "deaths_crusher",
+    "defaultvalue": 0,
+    "displayName": "Deaths by Crusher"
+  },
+  {
+    "name": "deaths_spitter",
+    "defaultvalue": 0,
+    "displayName": "Deaths by Spitter"
+  },
+  {
+    "name": "deaths_bat",
+    "defaultvalue": 0,
+    "displayName": "Deaths by Bat"
+  },
+  {
+    "name": "deaths_macheteSlinger",
+    "defaultvalue": 0,
+    "displayName": "Deaths by Machete Slinger"
+  },
+  {
+    "name": "deaths_fisherman",
+    "defaultvalue": 0,
+    "displayName": "Deaths by Fisherman"
+  },
+  {
+    "name": "deaths_glutton",
+    "defaultvalue": 0,
+    "displayName": "Deaths by Glutton"
+  },
+  {
+    "name": "deaths_goliath",
+    "defaultvalue": 0,
+    "displayName": "Deaths by Goliath"
+  },
+  {
+    "name": "minigame_surfing",
+    "defaultvalue": 0,
+    "displayName": "Zombie Surfing Games Played"
+  },
+  {
+    "name": "minigame_defence",
+    "defaultvalue": 0,
+    "displayName": "Defence Games Played"
+  },
+  {
+    "name": "minigame_treasure",
+    "defaultvalue": 0,
+    "displayName": "Treasure Games Played"
+  },
+  {
+    "name": "minigame_mayhem",
+    "defaultvalue": 0,
+    "displayName": "Mayhem Games Played"
+  },
+  {
+    "name": "link_torruntnet",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "link_credits_corey",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "link_credits_tyler",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "link_credits_greg",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "crates",
+    "defaultvalue": 0,
+    "displayName": "Crates Destroyed"
+  },
+  {
+    "name": "zombie_head",
+    "defaultvalue": 0,
+    "displayName": "Decapitations"
+  },
+  {
+    "name": "zombie_arm",
+    "defaultvalue": 0,
+    "displayName": "Armputations"
+  },
+  {
+    "name": "zombie_legs",
+    "defaultvalue": 0,
+    "displayName": "Legputations"
+  },
+  {
+    "name": "kills_sidearm",
+    "defaultvalue": 0,
+    "displayName": "Sidearm Kills"
+  },
+  {
+    "name": "kills_shotgun",
+    "defaultvalue": 0,
+    "displayName": "Shotgun Kills"
+  },
+  {
+    "name": "kills_rifle",
+    "defaultvalue": 0,
+    "displayName": "Rifle Kills"
+  },
+  {
+    "name": "kills_autorifle",
+    "defaultvalue": 0,
+    "displayName": "Autorifle Kills"
+  },
+  {
+    "name": "kills_mayhem",
+    "defaultvalue": 0,
+    "displayName": "Mayhem Best Kills"
+  },
+  {
+    "name": "kills_supa_shotgun",
+    "defaultvalue": 0,
+    "displayName": "Supa Shotgun Kills"
+  },
+  {
+    "name": "kills_supa_sniper",
+    "defaultvalue": 0,
+    "displayName": "Supa Sniper Kills"
+  },
+  {
+    "name": "kills_supa_mg",
+    "defaultvalue": 0,
+    "displayName": "Supa MG Kills"
+  },
+  {
+    "name": "kills_melee",
+    "defaultvalue": 0,
+    "displayName": "Melee Kills"
+  },
+  {
+    "name": "kills_fire",
+    "defaultvalue": 0,
+    "displayName": "Kills by fire"
+  },
+  {
+    "name": "boss_revives",
+    "defaultvalue": 0,
+    "displayName": "Boss Revives"
+  },
+  {
+    "name": "headshots",
+    "defaultvalue": 0,
+    "displayName": "Headshots"
+  },
+  {
+    "name": "food",
+    "defaultvalue": 0,
+    "displayName": "Food Eaten"
+  },
+  {
+    "name": "treasure_found",
+    "defaultvalue": 0,
+    "displayName": "Treasure Chests Found"
+  },
+  {
+    "name": "bought_repel",
+    "defaultvalue": 0,
+    "displayName": "Zombie Repellent Bought"
+  },
+  {
+    "name": "bought_defence",
+    "defaultvalue": 0,
+    "displayName": "Defence Finder Bought"
+  },
+  {
+    "name": "bought_surfing",
+    "defaultvalue": 0,
+    "displayName": "Surfing Finder Bought"
+  },
+  {
+    "name": "bought_treasure",
+    "defaultvalue": 0,
+    "displayName": "Treasure Finder Bought"
+  },
+  {
+    "name": "bought_mayhem",
+    "defaultvalue": 0,
+    "displayName": "Mayhem Finder Bought"
+  },
+  {
+    "name": "bought_hay_bale",
+    "defaultvalue": 0,
+    "displayName": "Hay Bales Bought"
+  },
+  {
+    "name": "bought_chicken_leg",
+    "defaultvalue": 0,
+    "displayName": "Checken Legs Bought"
+  },
+  {
+    "name": "bought_rotten_fish",
+    "defaultvalue": 0,
+    "displayName": "Rotten Fish Bought"
+  },
+  {
+    "name": "bought_mystery_meat",
+    "defaultvalue": 0,
+    "displayName": "Mystery Meat Bought"
+  },
+  {
+    "name": "bought_blood_bag",
+    "defaultvalue": 0,
+    "displayName": "Blood Bags Bought"
+  },
+  {
+    "name": "bought_shirt",
+    "defaultvalue": 0,
+    "displayName": "Shirts Bought"
+  },
+  {
+    "name": "bought_hat",
+    "defaultvalue": 0,
+    "displayName": "Hats Bought"
+  },
+  {
+    "name": "bought_facewear",
+    "defaultvalue": 0,
+    "displayName": "Facewear Bought"
+  },
+  {
+    "name": "money_spent",
+    "defaultvalue": 0,
+    "displayName": "Money Spent"
+  },
+  {
+    "name": "money_lost",
+    "defaultvalue": 0,
+    "displayName": "Money Lost"
+  },
+  {
+    "name": "holes",
+    "defaultvalue": 0,
+    "displayName": "Holes Dug"
+  },
+  {
+    "name": "kills_explosives",
+    "defaultvalue": 0,
+    "displayName": "Explosive Kills"
+  },
+  {
+    "name": "bought_dynamite",
+    "defaultvalue": 0,
+    "displayName": "Sticks of Dynamite Bought"
+  },
+  {
+    "name": "proj_hit",
+    "defaultvalue": 0,
+    "displayName": "Projectiles Hit"
+  },
+  {
+    "name": "fish_cut",
+    "defaultvalue": 0,
+    "displayName": "Fish Cut"
+  },
+  {
+    "name": "kills_chainsaw",
+    "defaultvalue": 0,
+    "displayName": "Chainsaw Kills"
+  },
+  {
+    "name": "chainsaw_limbs",
+    "defaultvalue": 0,
+    "displayName": "Limbs Cut with Chainsaw"
+  },
+  {
+    "name": "deaths_surgeon",
+    "defaultvalue": 0,
+    "displayName": "Deaths by Surgeon"
+  },
+  {
+    "name": "deaths_zombieMod",
+    "defaultvalue": 0,
+    "displayName": "Deaths by Modded Zombies"
+  },
+  {
+    "name": "bought_bunch_of_junk",
+    "defaultvalue": 0,
+    "displayName": "Bunches of Junk Bought"
+  },
+  {
+    "name": "pumpkins",
+    "defaultvalue": 0,
+    "displayName": "Pumpkins Smashed"
+  },
+  {
+    "name": "candy",
+    "defaultvalue": 0,
+    "displayName": "Candy Eaten"
+  },
+  {
+    "name": "eastereggs",
+    "defaultvalue": 0,
+    "displayName": "Easter Eggs Collected"
+  },
+  {
+    "name": "bought_customiser",
+    "defaultvalue": 0,
+    "displayName": "Character Customisations bought"
+  },
+  {
+    "name": "materials",
+    "defaultvalue": 0,
+    "displayName": "Materials Earned"
+  },
+  {
+    "name": "materials_spent",
+    "defaultvalue": 0,
+    "displayName": "Materials Spent"
+  },
+  {
+    "name": "waves_cleared",
+    "defaultvalue": 0,
+    "displayName": "Waves Cleared"
+  },
+  {
+    "name": "waves_max",
+    "defaultvalue": 0,
+    "displayName": "Max Wave Reached"
   }
-}
+]

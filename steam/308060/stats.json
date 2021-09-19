@@ -1,18 +1,22 @@
-﻿{
-  "lev01_unlocked": {
-    "description": "Lev01 unlocked",
-    "value": 0
+[
+  {
+    "name": "lev01_unlocked",
+    "defaultvalue": 0,
+    "displayName": "Lev01 unlocked"
   },
-  "lev02_unlocked": {
-    "description": "Lev02 unlocked",
-    "value": 0
+  {
+    "name": "lev02_unlocked",
+    "defaultvalue": 0,
+    "displayName": "Lev02 unlocked"
   },
-  "lev03_unlocked": {
-    "description": "Lev03 unlocked",
-    "value": 0
+  {
+    "name": "lev03_unlocked",
+    "defaultvalue": 0,
+    "displayName": "Lev03 unlocked"
   },
-  "lev04_unlocked": {
-    "description": "Lev04 unlocked",
-    "value": 0
+  {
+    "name": "lev04_unlocked",
+    "defaultvalue": 0,
+    "displayName": "Lev04 unlocked"
   }
-}
+]

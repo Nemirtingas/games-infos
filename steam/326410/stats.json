@@ -1,70 +1,87 @@
-﻿{
-  "quests": {
-    "description": "Quests",
-    "value": 0
+[
+  {
+    "name": "quests",
+    "defaultvalue": 0,
+    "displayName": "Quests"
   },
-  "kills": {
-    "description": "Kills",
-    "value": 0
+  {
+    "name": "kills",
+    "defaultvalue": 0,
+    "displayName": "Kills"
   },
-  "trades": {
-    "description": "Trades",
-    "value": 0
+  {
+    "name": "trades",
+    "defaultvalue": 0,
+    "displayName": "Trades"
   },
-  "deaths": {
-    "description": "Deaths",
-    "value": 0
+  {
+    "name": "deaths",
+    "defaultvalue": 0,
+    "displayName": "Deaths"
   },
-  "caps": {
-    "description": "Captures",
-    "value": 0
+  {
+    "name": "caps",
+    "defaultvalue": 0,
+    "displayName": "Captures"
   },
-  "Adv": {
-    "description": "Adversaries Defeated",
-    "value": 0
+  {
+    "name": "Adv",
+    "defaultvalue": 0,
+    "displayName": "Adversaries Defeated"
   },
-  "anon": {
-    "description": "Anonymous Mode",
-    "value": 0
+  {
+    "name": "anon",
+    "defaultvalue": 0,
+    "displayName": "Anonymous Mode"
   },
-  "DM": {
-    "description": "",
-    "value": 0
+  {
+    "name": "DM",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Player Ships": {
-    "description": "Allow Player Ships",
-    "value": 1
+  {
+    "name": "Player Ships",
+    "defaultvalue": 1,
+    "displayName": "Allow Player Ships"
   },
-  "DmgApp": {
-    "description": "Damage Application",
-    "value": 0
+  {
+    "name": "DmgApp",
+    "defaultvalue": 0,
+    "displayName": "Damage Application"
   },
-  "Challenge": {
-    "description": "Default Challenge",
-    "value": 0
+  {
+    "name": "Challenge",
+    "defaultvalue": 0,
+    "displayName": "Default Challenge"
   },
-  "Damage": {
-    "description": "Default Damage",
-    "value": 0
+  {
+    "name": "Damage",
+    "defaultvalue": 0,
+    "displayName": "Default Damage"
   },
-  "beta": {
-    "description": "Beta opt-in",
-    "value": 0
+  {
+    "name": "beta",
+    "defaultvalue": 0,
+    "displayName": "Beta opt-in"
   },
-  "OB": {
-    "description": "",
-    "value": 0
+  {
+    "name": "OB",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "inf": {
-    "description": "",
-    "value": 0
+  {
+    "name": "inf",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "in2": {
-    "description": "",
-    "value": 0
+  {
+    "name": "in2",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "part": {
-    "description": "Contribution",
-    "value": 0
+  {
+    "name": "part",
+    "defaultvalue": 0,
+    "displayName": "Contribution"
   }
-}
+]

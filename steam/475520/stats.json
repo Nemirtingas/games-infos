@@ -1,66 +1,82 @@
-﻿{
-  "m_nTotalGamesPlayed": {
-    "description": "Total Games Played",
-    "value": 0
+[
+  {
+    "name": "m_nTotalGamesPlayed",
+    "defaultvalue": 0,
+    "displayName": "Total Games Played"
   },
-  "m_nTotalNumDeaths": {
-    "description": "Total Deaths",
-    "value": 0
+  {
+    "name": "m_nTotalNumDeaths",
+    "defaultvalue": 0,
+    "displayName": "Total Deaths"
   },
-  "m_flHitAccuracy": {
-    "description": "Hit Accuracy",
-    "value": 0
+  {
+    "name": "m_flHitAccuracy",
+    "defaultvalue": 0,
+    "displayName": "Hit Accuracy"
   },
-  "m_nTotalNumRobotsKilled": {
-    "description": "Total Robots Destroyed",
-    "value": 0
+  {
+    "name": "m_nTotalNumRobotsKilled",
+    "defaultvalue": 0,
+    "displayName": "Total Robots Destroyed"
   },
-  "m_nTotalNumCubesDestroyed": {
-    "description": "Total Cubes Destroyed",
-    "value": 0
+  {
+    "name": "m_nTotalNumCubesDestroyed",
+    "defaultvalue": 0,
+    "displayName": "Total Cubes Destroyed"
   },
-  "m_nTotalNumPowerupsCollected": {
-    "description": "Total Powerups Collected",
-    "value": 0
+  {
+    "name": "m_nTotalNumPowerupsCollected",
+    "defaultvalue": 0,
+    "displayName": "Total Powerups Collected"
   },
-  "m_nTotalNumTeleports": {
-    "description": "Total Teleports",
-    "value": 0
+  {
+    "name": "m_nTotalNumTeleports",
+    "defaultvalue": 0,
+    "displayName": "Total Teleports"
   },
-  "m_nTotalNumBallsThrown": {
-    "description": "Total Balls Thrown",
-    "value": 0
+  {
+    "name": "m_nTotalNumBallsThrown",
+    "defaultvalue": 0,
+    "displayName": "Total Balls Thrown"
   },
-  "m_nHighestScore": {
-    "description": "Highest Score",
-    "value": 0
+  {
+    "name": "m_nHighestScore",
+    "defaultvalue": 0,
+    "displayName": "Highest Score"
   },
-  "m_nHighestWaveOnEasy": {
-    "description": "Highest Wave On Easy",
-    "value": 0
+  {
+    "name": "m_nHighestWaveOnEasy",
+    "defaultvalue": 0,
+    "displayName": "Highest Wave On Easy"
   },
-  "m_nHighestWaveOnNormal": {
-    "description": "Highest Wave On Normal",
-    "value": 0
+  {
+    "name": "m_nHighestWaveOnNormal",
+    "defaultvalue": 0,
+    "displayName": "Highest Wave On Normal"
   },
-  "m_nHighestWaveOnHard": {
-    "description": "Highest Wave On Hard",
-    "value": 0
+  {
+    "name": "m_nHighestWaveOnHard",
+    "defaultvalue": 0,
+    "displayName": "Highest Wave On Hard"
   },
-  "m_nHighestScoreSimpleMode": {
-    "description": "Highest Score Simple",
-    "value": 0
+  {
+    "name": "m_nHighestScoreSimpleMode",
+    "defaultvalue": 0,
+    "displayName": "Highest Score Simple"
   },
-  "m_nHighestScoreEasyMode": {
-    "description": "Highest Score Easy Mode",
-    "value": 0
+  {
+    "name": "m_nHighestScoreEasyMode",
+    "defaultvalue": 0,
+    "displayName": "Highest Score Easy Mode"
   },
-  "m_nHighestScoreNormalMode": {
-    "description": "Highest Score Normal Mode",
-    "value": 0
+  {
+    "name": "m_nHighestScoreNormalMode",
+    "defaultvalue": 0,
+    "displayName": "Highest Score Normal Mode"
   },
-  "m_nHighestScoreHardMode": {
-    "description": "Highest Score Hard Mode",
-    "value": 0
+  {
+    "name": "m_nHighestScoreHardMode",
+    "defaultvalue": 0,
+    "displayName": "Highest Score Hard Mode"
   }
-}
+]

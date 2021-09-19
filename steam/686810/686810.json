@@ -1,18 +1,24 @@
 {
   "Dlcs": {
-    "1205050": {
-      "Name": "Hell Let Loose - Foy Winter Warfare Helmet Pack",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/1205050/header.jpg?t=1579030677"
-    },
     "1647962": {
       "Name": "Hell Let Loose – Lethal Tide DLC",
       "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1647962/header.jpg?t=1628000754",
+      "Type": "dlc"
+    },
+    "1313020": {
+      "Name": "Hell Let Loose - Summer Warfare Pack",
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1313020/header.jpg?t=1631817044",
+      "Type": "dlc"
+    },
+    "1647960": {
+      "Name": "Hell Let Loose – Silver Vanguard DLC",
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1647960/header.jpg?t=1631811922",
       "Type": "dlc"
     }
   },
   "Name": "Hell Let Loose",
   "AppId": "686810",
-  "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/686810/header.jpg?t=1600328344",
+  "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/686810/header_alt_assets_1.jpg?t=1628670361",
   "Languages": [
     "english",
     "french",
@@ -22,7 +28,9 @@
     "schinese",
     "polish",
     "portuguese",
-    "tchinese"
+    "tchinese",
+    "korean",
+    "japanese"
   ],
   "Platforms": {
     "windows": true,

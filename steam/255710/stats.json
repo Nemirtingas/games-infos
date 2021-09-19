@@ -1,14 +1,17 @@
-﻿{
-  "TestState_INT": {
-    "description": "Test Stat Int",
-    "value": 0
+[
+  {
+    "name": "TestState_INT",
+    "defaultvalue": 0,
+    "displayName": "Test Stat Int"
   },
-  "TestState_FLOAT": {
-    "description": "Test Stat Float",
-    "value": 0
+  {
+    "name": "TestState_FLOAT",
+    "defaultvalue": 0,
+    "displayName": "Test Stat Float"
   },
-  "TestState_AVGRATE": {
-    "description": "Test Stat AvgRate",
-    "value": 0
+  {
+    "name": "TestState_AVGRATE",
+    "defaultvalue": 0,
+    "displayName": "Test Stat AvgRate"
   }
-}
+]

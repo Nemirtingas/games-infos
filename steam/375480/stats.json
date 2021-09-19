@@ -1,170 +1,212 @@
-﻿{
-  "stat_kills": {
-    "description": "Total kills",
-    "value": 0
+[
+  {
+    "name": "stat_kills",
+    "defaultvalue": 0,
+    "displayName": "Total kills"
   },
-  "stat_shrines": {
-    "description": "Shrines taken",
-    "value": 0
+  {
+    "name": "stat_shrines",
+    "defaultvalue": 0,
+    "displayName": "Shrines taken"
   },
-  "stat_chests": {
-    "description": "Chests opened",
-    "value": 0
+  {
+    "name": "stat_chests",
+    "defaultvalue": 0,
+    "displayName": "Chests opened"
   },
-  "stat_crystals": {
-    "description": "Crystals collected",
-    "value": 0
+  {
+    "name": "stat_crystals",
+    "defaultvalue": 0,
+    "displayName": "Crystals collected"
   },
-  "stat_ghostkills": {
-    "description": "Ghosts & Wraiths killed",
-    "value": 0
+  {
+    "name": "stat_ghostkills",
+    "defaultvalue": 0,
+    "displayName": "Ghosts & Wraiths killed"
   },
-  "stat_batkills": {
-    "description": "Bats killed",
-    "value": 0
+  {
+    "name": "stat_batkills",
+    "defaultvalue": 0,
+    "displayName": "Bats killed"
   },
-  "stat_treantkills": {
-    "description": "Treants killed",
-    "value": 0
+  {
+    "name": "stat_treantkills",
+    "defaultvalue": 0,
+    "displayName": "Treants killed"
   },
-  "stat_spiderkills": {
-    "description": "Arachnids & Spiders killed",
-    "value": 0
+  {
+    "name": "stat_spiderkills",
+    "defaultvalue": 0,
+    "displayName": "Arachnids & Spiders killed"
   },
-  "stat_dogkills": {
-    "description": "Cerberus killed",
-    "value": 0
+  {
+    "name": "stat_dogkills",
+    "defaultvalue": 0,
+    "displayName": "Cerberus killed"
   },
-  "stat_breaks": {
-    "description": "Objects broken",
-    "value": 0
+  {
+    "name": "stat_breaks",
+    "defaultvalue": 0,
+    "displayName": "Objects broken"
   },
-  "stat_potbreaks": {
-    "description": "Pots broken",
-    "value": 0
+  {
+    "name": "stat_potbreaks",
+    "defaultvalue": 0,
+    "displayName": "Pots broken"
   },
-  "stat_potions": {
-    "description": "Potions consumed",
-    "value": 0
+  {
+    "name": "stat_potions",
+    "defaultvalue": 0,
+    "displayName": "Potions consumed"
   },
-  "stat_elixirs": {
-    "description": "Elixirs consumed",
-    "value": 0
+  {
+    "name": "stat_elixirs",
+    "defaultvalue": 0,
+    "displayName": "Elixirs consumed"
   },
-  "stat_champ_kills": {
-    "description": "Champions killed",
-    "value": 0
+  {
+    "name": "stat_champ_kills",
+    "defaultvalue": 0,
+    "displayName": "Champions killed"
   },
-  "stat_gamble": {
-    "description": "Times gambled",
-    "value": 0
+  {
+    "name": "stat_gamble",
+    "defaultvalue": 0,
+    "displayName": "Times gambled"
   },
-  "stat_dimension": {
-    "description": "Unstable Dimensions dared entering",
-    "value": 0
+  {
+    "name": "stat_dimension",
+    "defaultvalue": 0,
+    "displayName": "Unstable Dimensions dared entering"
   },
-  "stat_challenge": {
-    "description": "Challenge Areas entered",
-    "value": 0
+  {
+    "name": "stat_challenge",
+    "defaultvalue": 0,
+    "displayName": "Challenge Areas entered"
   },
-  "stat_spideregg": {
-    "description": "Spider Eggs disturbed",
-    "value": 0
+  {
+    "name": "stat_spideregg",
+    "defaultvalue": 0,
+    "displayName": "Spider Eggs disturbed"
   },
-  "stat_elite_kills": {
-    "description": "Elites killed",
-    "value": 0
+  {
+    "name": "stat_elite_kills",
+    "defaultvalue": 0,
+    "displayName": "Elites killed"
   },
-  "stat_drops": {
-    "description": "Total items dropped",
-    "value": 0
+  {
+    "name": "stat_drops",
+    "defaultvalue": 0,
+    "displayName": "Total items dropped"
   },
-  "stat_legendary_drops": {
-    "description": "Total Legendary items dropped",
-    "value": 0
+  {
+    "name": "stat_legendary_drops",
+    "defaultvalue": 0,
+    "displayName": "Total Legendary items dropped"
   },
-  "stat_puzzles": {
-    "description": "Puzzles solved",
-    "value": 0
+  {
+    "name": "stat_puzzles",
+    "defaultvalue": 0,
+    "displayName": "Puzzles solved"
   },
-  "stat_traps": {
-    "description": "Traps triggered",
-    "value": 0
+  {
+    "name": "stat_traps",
+    "defaultvalue": 0,
+    "displayName": "Traps triggered"
   },
-  "stat_deathmoney": {
-    "description": "Death Toll Payed",
-    "value": 0
+  {
+    "name": "stat_deathmoney",
+    "defaultvalue": 0,
+    "displayName": "Death Toll Payed"
   },
-  "stat_deathexp": {
-    "description": "Experience Taken By Death",
-    "value": 0
+  {
+    "name": "stat_deathexp",
+    "defaultvalue": 0,
+    "displayName": "Experience Taken By Death"
   },
-  "stat_socket_reroll": {
-    "description": "Socket Rerolls",
-    "value": 0
+  {
+    "name": "stat_socket_reroll",
+    "defaultvalue": 0,
+    "displayName": "Socket Rerolls"
   },
-  "stat_gem_upgrade_count": {
-    "description": "Gem Upgrades",
-    "value": 0
+  {
+    "name": "stat_gem_upgrade_count",
+    "defaultvalue": 0,
+    "displayName": "Gem Upgrades"
   },
-  "stat_transmutes": {
-    "description": "Transmutations Performed",
-    "value": 0
+  {
+    "name": "stat_transmutes",
+    "defaultvalue": 0,
+    "displayName": "Transmutations Performed"
   },
-  "stat_templar": {
-    "description": "Templars Made",
-    "value": 0
+  {
+    "name": "stat_templar",
+    "defaultvalue": 0,
+    "displayName": "Templars Made"
   },
-  "stat_berserker": {
-    "description": "Berserkers Made",
-    "value": 0
+  {
+    "name": "stat_berserker",
+    "defaultvalue": 0,
+    "displayName": "Berserkers Made"
   },
-  "stat_warden": {
-    "description": "Wardens Made",
-    "value": 0
+  {
+    "name": "stat_warden",
+    "defaultvalue": 0,
+    "displayName": "Wardens Made"
   },
-  "stat_warlock": {
-    "description": "Warlocks Made",
-    "value": 0
+  {
+    "name": "stat_warlock",
+    "defaultvalue": 0,
+    "displayName": "Warlocks Made"
   },
-  "stat_hardcore": {
-    "description": "Hardcore Characters Made",
-    "value": 0
+  {
+    "name": "stat_hardcore",
+    "defaultvalue": 0,
+    "displayName": "Hardcore Characters Made"
   },
-  "stat_undeadkills": {
-    "description": "Undead killed",
-    "value": 0
+  {
+    "name": "stat_undeadkills",
+    "defaultvalue": 0,
+    "displayName": "Undead killed"
   },
-  "stat_spectralkills": {
-    "description": "Spectral killed",
-    "value": 0
+  {
+    "name": "stat_spectralkills",
+    "defaultvalue": 0,
+    "displayName": "Spectral killed"
   },
-  "stat_faekills": {
-    "description": "Fae killed",
-    "value": 0
+  {
+    "name": "stat_faekills",
+    "defaultvalue": 0,
+    "displayName": "Fae killed"
   },
-  "stat_beastkills": {
-    "description": "Beast killed",
-    "value": 0
+  {
+    "name": "stat_beastkills",
+    "defaultvalue": 0,
+    "displayName": "Beast killed"
   },
-  "stat_arachnidkills": {
-    "description": "Arachnid killed",
-    "value": 0
+  {
+    "name": "stat_arachnidkills",
+    "defaultvalue": 0,
+    "displayName": "Arachnid killed"
   },
-  "stat_demonkills": {
-    "description": "Demon killed",
-    "value": 0
+  {
+    "name": "stat_demonkills",
+    "defaultvalue": 0,
+    "displayName": "Demon killed"
   },
-  "stat_humanoidkills": {
-    "description": "Humanoid killed",
-    "value": 0
+  {
+    "name": "stat_humanoidkills",
+    "defaultvalue": 0,
+    "displayName": "Humanoid killed"
   },
-  "stat_elementalkills": {
-    "description": "Elemental killed",
-    "value": 0
+  {
+    "name": "stat_elementalkills",
+    "defaultvalue": 0,
+    "displayName": "Elemental killed"
   },
-  "stat_mechanicalkills": {
-    "description": "Mechanical killed",
-    "value": 0
+  {
+    "name": "stat_mechanicalkills",
+    "defaultvalue": 0,
+    "displayName": "Mechanical killed"
   }
-}
+]

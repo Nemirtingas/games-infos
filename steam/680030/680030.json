@@ -1,16 +1,22 @@
 {
-  "Dlcs": {},
+  "Dlcs": {
+    "1726840": {
+      "Name": "Gone Viral Soundtrack",
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1726840/header.jpg?t=1630427171",
+      "Type": "music"
+    }
+  },
   "Name": "Gone Viral",
   "AppId": "680030",
-  "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/680030/header.jpg?t=1600960647",
+  "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/680030/header.jpg?t=1631056662",
   "Languages": [
     "english",
     "french",
     "german",
-    "spanish",
     "schinese",
     "tchinese",
-    "korean"
+    "korean",
+    "latam"
   ],
   "Platforms": {
     "windows": true,

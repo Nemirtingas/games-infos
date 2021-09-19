@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "name": "PLACE_CAMPFIRE",
     "defaultvalue": 0,
@@ -574,5 +574,68 @@
     "description": "Get a kill with a super soaker pumped at the lowest pressure.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/252490/6af5f079d3f3b3833d603326180c716367a1164e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/252490/de06922ec5e833140f3223c113fe16a1f8a0217e.jpg"
+  },
+  {
+    "name": "VOICEPROPS_PARTYBOAT",
+    "defaultvalue": 0,
+    "displayName": "Party Boat",
+    "hidden": 0,
+    "description": "Dance with 2 other players at the front of the Cargo Ship.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/252490/4fded8febc44edd08846c9c1d8b18e917c1e93ac.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/252490/6a3167d182bd89597cb921d8a186c743972ad7f3.jpg"
+  },
+  {
+    "name": "VOICEPROPS_BADNEIGHBOUR",
+    "defaultvalue": 0,
+    "displayName": "Bad Neighbour",
+    "hidden": 0,
+    "description": "Use a megaphone while in another player's Tool Cupboard radius.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/252490/2d81eb5a2489941c526123f6c4778f57dbfd1d34.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/252490/92200788529a33bda04e81c63dce5c503f7f21f9.jpg"
+  },
+  {
+    "name": "VOICEPROPS_ONRECORD",
+    "defaultvalue": 0,
+    "displayName": "On the Record",
+    "hidden": 0,
+    "description": "Record another player speaking onto a Cassette.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/252490/60decac6c7baeeae0c0e46f2193f808564e535b8.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/252490/7cd6bfc32d455418d19115733ed46185260e8558.jpg"
+  },
+  {
+    "name": "VOICEPROPS_NOBODYSWATCHING",
+    "defaultvalue": 0,
+    "displayName": "Like Nobody's Watching",
+    "hidden": 0,
+    "description": "Dance near a playing Boom Box on an active Disco Floor.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/252490/953d15c43b4b7f6f91b570426526f292c368b7c2.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/252490/b514aeaf17b7df2fa4ff459efa7c6090aaeebf7b.jpg"
+  },
+  {
+    "name": "VOICEPROPS_NOLONGERSEE",
+    "defaultvalue": 0,
+    "displayName": "I can no longer see",
+    "hidden": 0,
+    "description": "Stare into a laser light for 30 seconds.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/252490/455176078c6cc399b2c08f9188a9988fe4dd2243.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/252490/ef194b592092e389cabf6fabd2e6efb7c5175b88.jpg"
+  },
+  {
+    "name": "VOICEPROPS_BUYSOUNDTRACK",
+    "defaultvalue": 0,
+    "displayName": "I should buy this Soundtrack",
+    "hidden": 0,
+    "description": "Listen to the Rust soundtrack from a Boom Box for 30 seconds",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/252490/3c40595a6a203413381b37cf78ca1f77e21d0d98.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/252490/e5f8ec72ecb2856891af913996dc37670b881636.jpg"
+  },
+  {
+    "name": "VOICEPROPS_FULLCOLLECTION",
+    "defaultvalue": 0,
+    "displayName": "Full Collection",
+    "hidden": 0,
+    "description": "Play an instrument while floating in an Inner Tube while listening to a Boom Box play a radio stream",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/252490/4f1b442b17de89d6ce3d86995b9499cf9c58a554.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/252490/d037945e57a93b06f8981c8498bd53ac78c94cb9.jpg"
   }
 ]

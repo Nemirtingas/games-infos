@@ -1,38 +1,47 @@
-﻿{
-  "EnemiesDefeated": {
-    "description": "Enemies Crushed",
-    "value": 0
+[
+  {
+    "name": "EnemiesDefeated",
+    "defaultvalue": 0,
+    "displayName": "Enemies Crushed"
   },
-  "EnemiesDefeatedGlobal": {
-    "description": "Enemies Crushed Worldwide",
-    "value": 0
+  {
+    "name": "EnemiesDefeatedGlobal",
+    "defaultvalue": 0,
+    "displayName": "Enemies Crushed Worldwide"
   },
-  "BossesDefeated": {
-    "description": "Bosses Vanquished",
-    "value": 0
+  {
+    "name": "BossesDefeated",
+    "defaultvalue": 0,
+    "displayName": "Bosses Vanquished"
   },
-  "BossesDefeatedGlobal": {
-    "description": "Bosses Vanquished Worldwide",
-    "value": 0
+  {
+    "name": "BossesDefeatedGlobal",
+    "defaultvalue": 0,
+    "displayName": "Bosses Vanquished Worldwide"
   },
-  "TruckNutsApplied": {
-    "description": "Demon's Danglies Applied",
-    "value": 0
+  {
+    "name": "TruckNutsApplied",
+    "defaultvalue": 0,
+    "displayName": "Demon's Danglies Applied"
   },
-  "TruckNutsAppliedGlobal": {
-    "description": "Demon's Danglies Applied Worldwide",
-    "value": 0
+  {
+    "name": "TruckNutsAppliedGlobal",
+    "defaultvalue": 0,
+    "displayName": "Demon's Danglies Applied Worldwide"
   },
-  "ShotsParried": {
-    "description": "Shots Parried",
-    "value": 0
+  {
+    "name": "ShotsParried",
+    "defaultvalue": 0,
+    "displayName": "Shots Parried"
   },
-  "EnemiesRunOver": {
-    "description": "Enemies Under the Wheels",
-    "value": 0
+  {
+    "name": "EnemiesRunOver",
+    "defaultvalue": 0,
+    "displayName": "Enemies Under the Wheels"
   },
-  "ObstaclesCrushed": {
-    "description": "Obstacles Crushed",
-    "value": 0
+  {
+    "name": "ObstaclesCrushed",
+    "defaultvalue": 0,
+    "displayName": "Obstacles Crushed"
   }
-}
+]

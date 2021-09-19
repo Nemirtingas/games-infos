@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "name": "srAchvTutorial1",
     "defaultvalue": 0,
@@ -230,7 +230,7 @@
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/651670/85acb5c20a05ca072fe0cf8cb96e4a2968b77f37.jpg"
   },
   {
-    "name": "killManufacturers10",
+    "name": "srAchvBeatWar10",
     "defaultvalue": 0,
     "displayName": "Shortseller",
     "hidden": 0,
@@ -291,5 +291,94 @@
     "description": "Destroyed 500 Imperium Soldiers",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/651670/7788a22ca761878d463aeadda2be3ab1fda0683f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/651670/bc3e5416de40d6a1717e2d4e3f0aeac215910823.jpg"
+  },
+  {
+    "name": "saveDragoon",
+    "defaultvalue": 0,
+    "displayName": "The 'Goonies",
+    "hidden": 0,
+    "description": "Saved the Dragoon",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/651670/f5c87e5b89d75c480874c777ad023768e814672b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/651670/0ebd2706df0dbc03771eb3d9ff722c424145db9b.jpg"
+  },
+  {
+    "name": "finishDifficultyExtreme",
+    "defaultvalue": 0,
+    "displayName": "Pandimensional Savior",
+    "hidden": 0,
+    "description": "Defeated the Imperium on Extreme",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/651670/a1ef20e68d939b63725c3a3639bfcc8ca91fe51a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/651670/e497f6a7b1a905c69bfb3caeb3c027938fd101b5.jpg"
+  },
+  {
+    "name": "finishDifficultyBrutal1",
+    "defaultvalue": 0,
+    "displayName": "Don't Get Cocky",
+    "hidden": 0,
+    "description": "Defeated the Imperium on Entropy I",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/651670/35af6c8df25a07a4f0ecadcf43b8aaa6cdf99534.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/651670/5247e345d476e7c10384094cc9e5934f92edd4cd.jpg"
+  },
+  {
+    "name": "finishDifficultyBrutal2",
+    "defaultvalue": 0,
+    "displayName": "Never Tell Me The Odds!",
+    "hidden": 0,
+    "description": "Defeated the Imperium on Entropy II",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/651670/630e7781fa6d3e043abd1fc06b17c545b21650cf.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/651670/7d233a80618c60969cc2d148d65c2ab31d03c891.jpg"
+  },
+  {
+    "name": "finishDifficultyBrutal3",
+    "defaultvalue": 0,
+    "displayName": "No Such Thing As Luck",
+    "hidden": 0,
+    "description": "Defeated the Imperium on Entropy III",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/651670/4d4bb6d813ad89c34722cc143253a9fc9a0c5748.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/651670/2cb45cec2d73bc751c54ac66dea46cccb3ed50a0.jpg"
+  },
+  {
+    "name": "finishDifficultyBrutal4",
+    "defaultvalue": 0,
+    "displayName": "There Is No Try",
+    "hidden": 0,
+    "description": "Defeated the Imperium on Entropy IV",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/651670/aab667dbb47a47a815eb2d1d8c4af6042f4347a0.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/651670/4f527f70583166ce1db919305594d1f87c247bbe.jpg"
+  },
+  {
+    "name": "finishDifficultyBrutal5",
+    "defaultvalue": 0,
+    "displayName": "Sometimes I Amaze Even Myself",
+    "hidden": 0,
+    "description": "Defeated the Imperium on Entropy V",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/651670/cb055686ae11a566d9e862fefdd322537f62ca50.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/651670/245373cfc47afdfe6c0961c1deeaa76f47c028a8.jpg"
+  },
+  {
+    "name": "defeatPryconBeast",
+    "defaultvalue": 0,
+    "displayName": "Totally 'Bom-ed",
+    "hidden": 0,
+    "description": "Defeated the Prycon Abomination",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/651670/2ca2316a59ad8656deeaaa5fc3e1078a83f789c5.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/651670/aee6adee64ebc378418794fb51b709371dd2571e.jpg"
+  },
+  {
+    "name": "defeatSiren",
+    "defaultvalue": 0,
+    "displayName": "The Sound of Silence",
+    "hidden": 0,
+    "description": "Defeat Prycon Behemoth",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/651670/f5ec998559af38bcc0b485f1b1839e503bce4d32.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/651670/ba926bf4388ef0276db98aa418fbe4579ff73229.jpg"
+  },
+  {
+    "name": "finishMoonbase",
+    "defaultvalue": 0,
+    "displayName": "Lunatic",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/651670/001a4174cb1b4f10bde05608dc891ad23ae98ee6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/651670/f78622fec559d55b1d1e0537fe99202053822af2.jpg"
   }
 ]

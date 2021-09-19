@@ -1,200 +1,83 @@
-﻿[
+[
   {
     "name": "ach_prologue",
     "defaultvalue": 0,
-    "displayName": "First Month",
+    "displayName": "Seeking Love",
     "hidden": 0,
-    "description": "Got through the first month of the semester.",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1148400/0de5202877482dee3c9a7c80042275df0b1eb213.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1148400/0de5202877482dee3c9a7c80042275df0b1eb213.jpg"
-  },
-  {
-    "name": "ach_ending",
-    "defaultvalue": 0,
-    "displayName": "Christmastime",
-    "hidden": 0,
-    "description": "Made it to Christmas. Did you get what you wanted this year?",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1148400/7cb01b9363c3fcedc463e2ec1cb085a435a0c0d8.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1148400/7cb01b9363c3fcedc463e2ec1cb085a435a0c0d8.jpg"
+    "description": "Complete the Prologue.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1148400/ae9241a13afb2b0ab65b272610bc2a07dcfd6719.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1148400/8492549c8cbae4c37b46847adade3e3839a3d22e.jpg"
   },
   {
     "name": "ach_normal_end",
     "defaultvalue": 0,
     "displayName": "Dateless",
     "hidden": 0,
-    "description": "You couldn't find a date by Christmas...",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1148400/a3b9849e22656fbf45648269b033939e1363340b.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1148400/6b7c136caff84c00e48ecad9b8f1fc825b542180.jpg"
-  },
-  {
-    "name": "ach_izumi_romance",
-    "defaultvalue": 0,
-    "displayName": "Izumi's Girlfriend",
-    "hidden": 0,
-    "description": "Start dating Izumi.",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1148400/2b3d79d4f41ac1bd6271284f36579961281575fe.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1148400/b31e775d1483ec03d0150372e09b37c07de46a9b.jpg"
+    "description": "Have a Christmas Eve party with friends.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1148400/f637d082d829d5f7498ccf8435988c9a26bad80d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1148400/19d20ed6ae5bad2b21d3e3f81ecaefc6f847edc0.jpg"
   },
   {
     "name": "ach_izumi_end",
     "defaultvalue": 0,
-    "displayName": "Christmas with Izumi",
+    "displayName": "Star Player",
     "hidden": 0,
     "description": "Spend Christmas Eve with Izumi.",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1148400/2b3d79d4f41ac1bd6271284f36579961281575fe.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1148400/b31e775d1483ec03d0150372e09b37c07de46a9b.jpg"
-  },
-  {
-    "name": "ach_kiyomi_romance",
-    "defaultvalue": 0,
-    "displayName": "Kiyomi's Girlfriend",
-    "hidden": 0,
-    "description": "Start dating Kiyomi.",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1148400/00850974402336e671e58f795123dbda245b0922.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1148400/1f66c68f5fe2b47efda29d69f20d2d769cbf0593.jpg"
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1148400/7ec3434bf6c333be8ab434628c0d38d931066146.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1148400/3b1ed4c0007886db02253fe519fc3c1db5a91fb8.jpg"
   },
   {
     "name": "ach_kiyomi_end",
     "defaultvalue": 0,
-    "displayName": "Christmas with Kiyomi",
+    "displayName": "More than Friends",
     "hidden": 0,
     "description": "Spend Christmas Eve with Kiyomi.",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1148400/00850974402336e671e58f795123dbda245b0922.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1148400/1f66c68f5fe2b47efda29d69f20d2d769cbf0593.jpg"
-  },
-  {
-    "name": "ach_nanami_romance",
-    "defaultvalue": 0,
-    "displayName": "Nanami's Girlfriend",
-    "hidden": 0,
-    "description": "Start dating Nanami.",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1148400/287ead77fb0d49ae053e2898562eb4291b31d9ea.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1148400/18ca3dd7cb3ae9eba642c78f09e51508abe5af33.jpg"
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1148400/502c1457c17900ed89f6ec8fc0c757f076dc7a99.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1148400/602ce1ba7ac15bfa4f9f719388431bbc575821c3.jpg"
   },
   {
     "name": "ach_nanami_end",
     "defaultvalue": 0,
-    "displayName": "Christmas with Nanami",
+    "displayName": "Adoring Baker",
     "hidden": 0,
     "description": "Spend Christmas Eve with Nanami.",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1148400/287ead77fb0d49ae053e2898562eb4291b31d9ea.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1148400/18ca3dd7cb3ae9eba642c78f09e51508abe5af33.jpg"
-  },
-  {
-    "name": "ach_atsuko_romance",
-    "defaultvalue": 0,
-    "displayName": "Atsuko's Girlfriend",
-    "hidden": 0,
-    "description": "Start dating Atsuko.",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1148400/a6ab0e67ee4423cbb30a13e2ff8f3f6bb90e9f9f.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1148400/9819bf6deeb334d0e636c34e9b7f5d167a89f37d.jpg"
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1148400/41c1d6969d27ccdca1a1cb738982b20d423a3a53.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1148400/4e4d63269c83ddb9655dc765312691f917994e15.jpg"
   },
   {
     "name": "ach_atsuko_end",
     "defaultvalue": 0,
-    "displayName": "Christmas with Atsuko",
+    "displayName": "Opening Up",
     "hidden": 0,
     "description": "Spend Christmas Eve with Atsuko.",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1148400/a6ab0e67ee4423cbb30a13e2ff8f3f6bb90e9f9f.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1148400/9819bf6deeb334d0e636c34e9b7f5d167a89f37d.jpg"
-  },
-  {
-    "name": "ach_kiku_romance",
-    "defaultvalue": 0,
-    "displayName": "Kiku's Girlfriend",
-    "hidden": 0,
-    "description": "Start dating Kiku.",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1148400/3485bd94a2a2b7f009170384f544ecd867188bf3.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1148400/38e4a52d5c4019bb80dced67abe8a64ff134036a.jpg"
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1148400/9a4c44232537ec9af0d4adc99ea1c0b04cef9f2e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1148400/7496c7aeddf7bea800a50b7d32420296b51a7ad5.jpg"
   },
   {
     "name": "ach_kiku_end",
     "defaultvalue": 0,
-    "displayName": "Christmas with Kiku",
+    "displayName": "Musical Prodigy",
     "hidden": 0,
     "description": "Spend Christmas Eve with Kiku.",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1148400/3485bd94a2a2b7f009170384f544ecd867188bf3.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1148400/38e4a52d5c4019bb80dced67abe8a64ff134036a.jpg"
-  },
-  {
-    "name": "ach_shiori_romance",
-    "defaultvalue": 0,
-    "displayName": "Shiori's Girlfriend",
-    "hidden": 0,
-    "description": "Start dating Shiori.",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1148400/4c7f3d247d7e6fdac15368d4fb824c63980d0397.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1148400/bf47095c4ca722b6bb08a861cec2cd924e1feee2.jpg"
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1148400/eb7ce7e2117f8e02f14494e4e2e37db4a67886de.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1148400/3dd1069c757306b8155eef8a4159ca6955a437a5.jpg"
   },
   {
     "name": "ach_shiori_end",
     "defaultvalue": 0,
-    "displayName": "Christmas with Shiori",
+    "displayName": "Gamer Princess",
     "hidden": 0,
     "description": "Spend Christmas Eve with Shiori.",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1148400/4c7f3d247d7e6fdac15368d4fb824c63980d0397.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1148400/bf47095c4ca722b6bb08a861cec2cd924e1feee2.jpg"
-  },
-  {
-    "name": "ach_izumi_friend",
-    "defaultvalue": 0,
-    "displayName": "Izumi's Friend",
-    "hidden": 0,
-    "description": "Decided to just be friends with Izumi.",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1148400/2b3d79d4f41ac1bd6271284f36579961281575fe.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1148400/b31e775d1483ec03d0150372e09b37c07de46a9b.jpg"
-  },
-  {
-    "name": "ach_kiyomi_friend",
-    "defaultvalue": 0,
-    "displayName": "Kiyomi's Friend",
-    "hidden": 0,
-    "description": "Decided to just be friends with Kiyomi.",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1148400/c8bc14e25babf0bc1d51b59111c6a82962164fc8.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1148400/1f66c68f5fe2b47efda29d69f20d2d769cbf0593.jpg"
-  },
-  {
-    "name": "ach_nanami_friend",
-    "defaultvalue": 0,
-    "displayName": "Nanami's Friend",
-    "hidden": 0,
-    "description": "Decided to just be friends with Nanami.",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1148400/287ead77fb0d49ae053e2898562eb4291b31d9ea.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1148400/18ca3dd7cb3ae9eba642c78f09e51508abe5af33.jpg"
-  },
-  {
-    "name": "ach_atsuko_friend",
-    "defaultvalue": 0,
-    "displayName": "Atsuko's Friend",
-    "hidden": 0,
-    "description": "Decided to just be friends with Atsuko.",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1148400/a6ab0e67ee4423cbb30a13e2ff8f3f6bb90e9f9f.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1148400/9819bf6deeb334d0e636c34e9b7f5d167a89f37d.jpg"
-  },
-  {
-    "name": "ach_kiku_friend",
-    "defaultvalue": 0,
-    "displayName": "Kiku's Friend",
-    "hidden": 0,
-    "description": "Decided to just be friends with Kiku.",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1148400/3485bd94a2a2b7f009170384f544ecd867188bf3.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1148400/d072e58bd42d9129211e4c80402386574ab00cd7.jpg"
-  },
-  {
-    "name": "ach_shiori_friend",
-    "defaultvalue": 0,
-    "displayName": "Shiori's Friend",
-    "hidden": 0,
-    "description": "Decided to just be friends with Shiori.",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1148400/4c7f3d247d7e6fdac15368d4fb824c63980d0397.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1148400/bf47095c4ca722b6bb08a861cec2cd924e1feee2.jpg"
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1148400/18736cf453199b9b3ccaa4ada60212da12bd101a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1148400/9a071123f7e32fa8be608ca195863f0363582c3e.jpg"
   },
   {
     "name": "ach_sidepair",
     "defaultvalue": 0,
     "displayName": "Matchmaker?",
     "hidden": 0,
-    "description": "Witnessed two of your friends become a couple.",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1148400/f1b0c863924b83660706d57ffc7d5a679b6982ad.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1148400/bae3b6cebc66b7f5dfb384259971e890179b83e7.jpg"
+    "description": "Set up two friends with each other.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1148400/82f9009c7693020a2431bc7e7a6872876eb57471.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1148400/5d0b8e376a99bd5cb9430a3ddc94d21612fb7bd3.jpg"
   }
 ]

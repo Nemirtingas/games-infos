@@ -1,54 +1,67 @@
-﻿{
-  "TotalInfectedKilled": {
-    "description": "Total Infected Killed",
-    "value": 0
+[
+  {
+    "name": "TotalInfectedKilled",
+    "defaultvalue": 0,
+    "displayName": "Total Infected Killed"
   },
-  "MaxColonyPopulation": {
-    "description": "Maximum Colony Population",
-    "value": 0
+  {
+    "name": "MaxColonyPopulation",
+    "defaultvalue": 0,
+    "displayName": "Maximum Colony Population"
   },
-  "NWinsSurvival_Easy": {
-    "description": "Easy Survival Games Won",
-    "value": 0
+  {
+    "name": "NWinsSurvival_Easy",
+    "defaultvalue": 0,
+    "displayName": "Easy Survival Games Won"
   },
-  "NWinsSurvival_Accesible": {
-    "description": "Accesible Survival Games Won",
-    "value": 0
+  {
+    "name": "NWinsSurvival_Accesible",
+    "defaultvalue": 0,
+    "displayName": "Accesible Survival Games Won"
   },
-  "NWinsSurvival_Challenging": {
-    "description": "Challenging Survival Games Won",
-    "value": 0
+  {
+    "name": "NWinsSurvival_Challenging",
+    "defaultvalue": 0,
+    "displayName": "Challenging Survival Games Won"
   },
-  "NWinsSurvival_Brutal": {
-    "description": "Brutal Survival Games Won",
-    "value": 0
+  {
+    "name": "NWinsSurvival_Brutal",
+    "defaultvalue": 0,
+    "displayName": "Brutal Survival Games Won"
   },
-  "NLostsSurvival_Easy": {
-    "description": "Easy Survival Games Lost",
-    "value": 0
+  {
+    "name": "NLostsSurvival_Easy",
+    "defaultvalue": 0,
+    "displayName": "Easy Survival Games Lost"
   },
-  "NLostsSurvival_Accesible": {
-    "description": "Accesible Survival Games Lost",
-    "value": 0
+  {
+    "name": "NLostsSurvival_Accesible",
+    "defaultvalue": 0,
+    "displayName": "Accesible Survival Games Lost"
   },
-  "NLostsSurvival_Challenging": {
-    "description": "Challenging Survival Games Lost",
-    "value": 0
+  {
+    "name": "NLostsSurvival_Challenging",
+    "defaultvalue": 0,
+    "displayName": "Challenging Survival Games Lost"
   },
-  "NLostsSurvival_Brutal": {
-    "description": "Brutal Survival Games Lost",
-    "value": 0
+  {
+    "name": "NLostsSurvival_Brutal",
+    "defaultvalue": 0,
+    "displayName": "Brutal Survival Games Lost"
   },
-  "Banned": {
-    "description": "Banned",
-    "value": 0
+  {
+    "name": "Banned",
+    "defaultvalue": 0,
+    "displayName": "Banned"
   },
-  "MaxCampaignScore": {
-    "description": "Max Campaign Score",
-    "value": 0
+  {
+    "name": "MaxCampaignScore",
+    "defaultvalue": 0,
+    "displayName": "Max Campaign Score"
   },
-  "GlobalInfectedKilled": {
-    "description": "Global Infected Killed",
-    "value": 10
+  {
+    "name": "GlobalInfectedKilled",
+    "defaultvalue": 10,
+    "displayName": "Global Infected Killed"
   }
-}
+]

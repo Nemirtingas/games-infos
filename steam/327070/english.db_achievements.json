@@ -1,10 +1,10 @@
-﻿[
+[
   {
     "name": "ACH_BOUNTY_HUNTER_1",
     "defaultvalue": 0,
     "displayName": "Bounty Hunter I",
     "hidden": 0,
-    "description": "Defeat 1 player with a traitor status.",
+    "description": "Defeat 1 player who has a traitor status.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/327070/ef11631931d22cf3be90efdb045905f74480841d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/327070/c603139c8069bd5a8adf724012f52bd7951a217d.jpg"
   },
@@ -13,7 +13,7 @@
     "defaultvalue": 0,
     "displayName": "Bounty Hunter II",
     "hidden": 0,
-    "description": "Defeat 3 players with a traitor status.",
+    "description": "Defeat 3 players who has a traitor status.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/327070/314d8319411626d1bcad7db087eee41f0dc3d5b9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/327070/106fb1a764e218308057f2112bac7ffb4ee8fb52.jpg"
   },
@@ -22,7 +22,7 @@
     "defaultvalue": 0,
     "displayName": "Bounty Hunter III",
     "hidden": 0,
-    "description": "Defeat 10 players with a traitor status.",
+    "description": "Defeat 10 players who has a traitor status.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/327070/e8625efff082ad8efc86f62be5f09b66224252df.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/327070/cd47282ff993baa7d69775d76975569477fcda5b.jpg"
   },
@@ -106,15 +106,6 @@
     "description": "Win 200 \"Valley of Death\" tournaments.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/327070/c0364f531b0697ff2522a75c72a3755eb4feb545.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/327070/14b5c21d7c2e5e25166107df71509fb81e08cbbd.jpg"
-  },
-  {
-    "name": "ACH_HERO",
-    "defaultvalue": 0,
-    "displayName": "Hero",
-    "hidden": 0,
-    "description": "Earn 100 character level.",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/327070/bf38897c3e8663b09f816173a360141b4e578319.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/327070/88896ab7d56478c7d6d3a2d29e0c2ec9303602cc.jpg"
   },
   {
     "name": "ACH_RAIDER_1",
@@ -202,7 +193,7 @@
     "defaultvalue": 0,
     "displayName": "Renovator I",
     "hidden": 0,
-    "description": "Repair 1 object.",
+    "description": "Repair 1 building.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/327070/890be83eeca54ce8ece052a1cef65ebda2d1429b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/327070/1ca3ac1e33244c707269ea043ce700c00d6eb4f8.jpg"
   },
@@ -211,7 +202,7 @@
     "defaultvalue": 0,
     "displayName": "Renovator II",
     "hidden": 0,
-    "description": "Repair 10 objects.",
+    "description": "Repair 10 buildings.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/327070/82091590fa6c86b6bf90c194ffc2841c174a94f9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/327070/c3ad078f565d4fef098d7a75be604543bf462b83.jpg"
   },
@@ -220,7 +211,7 @@
     "defaultvalue": 0,
     "displayName": "Renovator III",
     "hidden": 0,
-    "description": "Repair 100 objects.",
+    "description": "Repair 100 buildings.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/327070/235d9676f05bd05084beb8624acaebd0ba6ee30d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/327070/18c62af99efbefa875237c0a810adcac162cddc5.jpg"
   },
@@ -331,15 +322,6 @@
     "description": "Die in the battle.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/327070/eb4432d8fb2578e9642da3284911dcfcbc79e40a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/327070/9045e46a0b726dbd88d80572389b0687799c0885.jpg"
-  },
-  {
-    "name": "ACH_NEWBIE_ENDED",
-    "defaultvalue": 0,
-    "displayName": "Hardened",
-    "hidden": 0,
-    "description": "Earning level 40 with at least 1 character.",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/327070/21150123b49379138929c5d560b2cdccd836cfdd.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/327070/30478b9e8f83e344ab3b3ba54e0815160ba05344.jpg"
   },
   {
     "name": "ACH_MENTOR_1",

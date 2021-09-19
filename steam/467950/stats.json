@@ -1,42 +1,52 @@
-﻿{
-  "easyLevels": {
-    "description": "",
-    "value": 0
+[
+  {
+    "name": "easyLevels",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "mediumLevels": {
-    "description": "",
-    "value": 0
+  {
+    "name": "mediumLevels",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "hardLevels": {
-    "description": "",
-    "value": 0
+  {
+    "name": "hardLevels",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "enemyWaves": {
-    "description": "",
-    "value": 0
+  {
+    "name": "enemyWaves",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "enemyShips": {
-    "description": "",
-    "value": 0
+  {
+    "name": "enemyShips",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "abilityUpgradePoints": {
-    "description": "",
-    "value": 0
+  {
+    "name": "abilityUpgradePoints",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "playerUpgradePoints": {
-    "description": "",
-    "value": 0
+  {
+    "name": "playerUpgradePoints",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "ability2Usage": {
-    "description": "",
-    "value": 0
+  {
+    "name": "ability2Usage",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "ability3Usage": {
-    "description": "",
-    "value": 0
+  {
+    "name": "ability3Usage",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "ultraHardLevels": {
-    "description": "",
-    "value": 0
+  {
+    "name": "ultraHardLevels",
+    "defaultvalue": 0,
+    "displayName": ""
   }
-}
+]

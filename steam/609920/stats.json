@@ -1,38 +1,47 @@
-﻿{
-  "STAT_VERSION": {
-    "description": "Version",
-    "value": 0
+[
+  {
+    "name": "STAT_VERSION",
+    "defaultvalue": 0,
+    "displayName": "Version"
   },
-  "STAT_NUM_GAMES_LOST": {
-    "description": "Games Lost",
-    "value": 0
+  {
+    "name": "STAT_NUM_GAMES_LOST",
+    "defaultvalue": 0,
+    "displayName": "Games Lost"
   },
-  "STAT_NUM_GAMES_WON": {
-    "description": "Games Won",
-    "value": 0
+  {
+    "name": "STAT_NUM_GAMES_WON",
+    "defaultvalue": 0,
+    "displayName": "Games Won"
   },
-  "STAT_NUM_GAMES_2ND": {
-    "description": "Games 2nd Place",
-    "value": 0
+  {
+    "name": "STAT_NUM_GAMES_2ND",
+    "defaultvalue": 0,
+    "displayName": "Games 2nd Place"
   },
-  "STAT_NUM_GAMES_3RD": {
-    "description": "Games 3rd Place",
-    "value": 0
+  {
+    "name": "STAT_NUM_GAMES_3RD",
+    "defaultvalue": 0,
+    "displayName": "Games 3rd Place"
   },
-  "STAT_NUM_GRANDPRIX_WON": {
-    "description": "GrandPrix Won",
-    "value": 0
+  {
+    "name": "STAT_NUM_GRANDPRIX_WON",
+    "defaultvalue": 0,
+    "displayName": "GrandPrix Won"
   },
-  "STAT_NUM_DRIVERS_WON_GRANDPRIX": {
-    "description": "Drivers Won GrandPrix",
-    "value": 0
+  {
+    "name": "STAT_NUM_DRIVERS_WON_GRANDPRIX",
+    "defaultvalue": 0,
+    "displayName": "Drivers Won GrandPrix"
   },
-  "STAT_NUM_KILOMETERS_RACED": {
-    "description": "Kilometers Raced",
-    "value": 0
+  {
+    "name": "STAT_NUM_KILOMETERS_RACED",
+    "defaultvalue": 0,
+    "displayName": "Kilometers Raced"
   },
-  "STAT_NUM_CARS_USED": {
-    "description": "Cars Used",
-    "value": 0
+  {
+    "name": "STAT_NUM_CARS_USED",
+    "defaultvalue": 0,
+    "displayName": "Cars Used"
   }
-}
+]

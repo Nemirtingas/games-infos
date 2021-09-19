@@ -1,70 +1,87 @@
-﻿{
-  "CLASSIC_MODE_BEST": {
-    "description": "Classic Mode Best Score",
-    "value": 0
+[
+  {
+    "name": "CLASSIC_MODE_BEST",
+    "defaultvalue": 0,
+    "displayName": "Classic Mode Best Score"
   },
-  "ARCADE_MODE_BEST": {
-    "description": "Arcade Mode Best Score",
-    "value": 0
+  {
+    "name": "ARCADE_MODE_BEST",
+    "defaultvalue": 0,
+    "displayName": "Arcade Mode Best Score"
   },
-  "ZEN_MODE_BEST": {
-    "description": "Zen Mode Best Score",
-    "value": 0
+  {
+    "name": "ZEN_MODE_BEST",
+    "defaultvalue": 0,
+    "displayName": "Zen Mode Best Score"
   },
-  "FRUIT_SLICED": {
-    "description": "Total Fruit Sliced",
-    "value": 0
+  {
+    "name": "FRUIT_SLICED",
+    "defaultvalue": 0,
+    "displayName": "Total Fruit Sliced"
   },
-  "FRUIT_SKEWERED": {
-    "description": "Total Fruit Skewered",
-    "value": 0
+  {
+    "name": "FRUIT_SKEWERED",
+    "defaultvalue": 0,
+    "displayName": "Total Fruit Skewered"
   },
-  "BOMBS_SLICED": {
-    "description": "Total Bombs Sliced",
-    "value": 0
+  {
+    "name": "BOMBS_SLICED",
+    "defaultvalue": 0,
+    "displayName": "Total Bombs Sliced"
   },
-  "BEST_COMBO": {
-    "description": "Highest Combo Obtained",
-    "value": 0
+  {
+    "name": "BEST_COMBO",
+    "defaultvalue": 0,
+    "displayName": "Highest Combo Obtained"
   },
-  "FRUIT_DROPPED": {
-    "description": "Total Fruit Missed",
-    "value": 0
+  {
+    "name": "FRUIT_DROPPED",
+    "defaultvalue": 0,
+    "displayName": "Total Fruit Missed"
   },
-  "SURVIVAL_MODE_BEST": {
-    "description": "Survival Mode Best Score",
-    "value": 0
+  {
+    "name": "SURVIVAL_MODE_BEST",
+    "defaultvalue": 0,
+    "displayName": "Survival Mode Best Score"
   },
-  "BASKET_ENEMIES_DESTROYED": {
-    "description": "Basket Enemies Destroyed",
-    "value": 0
+  {
+    "name": "BASKET_ENEMIES_DESTROYED",
+    "defaultvalue": 0,
+    "displayName": "Basket Enemies Destroyed"
   },
-  "PUMPKIN_SOULS_SAVED": {
-    "description": "Pumpkin Souls Saved",
-    "value": 0
+  {
+    "name": "PUMPKIN_SOULS_SAVED",
+    "defaultvalue": 0,
+    "displayName": "Pumpkin Souls Saved"
   },
-  "PINEAPPLES_SLICED": {
-    "description": "Pineapples Sliced",
-    "value": 0
+  {
+    "name": "PINEAPPLES_SLICED",
+    "defaultvalue": 0,
+    "displayName": "Pineapples Sliced"
   },
-  "CHRISTMAS_PLAYED": {
-    "description": "Played during Christmas",
-    "value": 0
+  {
+    "name": "CHRISTMAS_PLAYED",
+    "defaultvalue": 0,
+    "displayName": "Played during Christmas"
   },
-  "HALLOWEEN_PLAYED": {
-    "description": "Played during Halloween",
-    "value": 0
+  {
+    "name": "HALLOWEEN_PLAYED",
+    "defaultvalue": 0,
+    "displayName": "Played during Halloween"
   },
-  "WATERMELONS_SLICED_SONG_SWORD": {
-    "description": "Watermelons sliced with Song sword",
-    "value": 0
+  {
+    "name": "WATERMELONS_SLICED_SONG_SWORD",
+    "defaultvalue": 0,
+    "displayName": "Watermelons sliced with Song sword"
   },
-  "FRUIT_SLICED_FREEZE_MODE": {
-    "description": "Fruits sliced during freeze mode",
-    "value": 0
+  {
+    "name": "FRUIT_SLICED_FREEZE_MODE",
+    "defaultvalue": 0,
+    "displayName": "Fruits sliced during freeze mode"
   },
-  "STRAWBERRIES_SLICED_BUTTERFLY_BLADE": {
-    "description": "Strawberries sliced using butterfly blade",
-    "value": 0
+  {
+    "name": "STRAWBERRIES_SLICED_BUTTERFLY_BLADE",
+    "defaultvalue": 0,
+    "displayName": "Strawberries sliced using butterfly blade"
   }
-}
+]

@@ -1,18 +1,22 @@
-﻿{
-  "STAT_COMPLETE_MISSIONS": {
-    "description": "Missions Completed",
-    "value": 0
+[
+  {
+    "name": "STAT_COMPLETE_MISSIONS",
+    "defaultvalue": 0,
+    "displayName": "Missions Completed"
   },
-  "STAT_DEFEAT_PLAYERS": {
-    "description": "Players Killed",
-    "value": 0
+  {
+    "name": "STAT_DEFEAT_PLAYERS",
+    "defaultvalue": 0,
+    "displayName": "Players Killed"
   },
-  "STAT_DEFEAT_PIRATES": {
-    "description": "Pirates Killed",
-    "value": 0
+  {
+    "name": "STAT_DEFEAT_PIRATES",
+    "defaultvalue": 0,
+    "displayName": "Pirates Killed"
   },
-  "STAT_DEFEAT_SHARKS": {
-    "description": "Sharks Killed",
-    "value": 0
+  {
+    "name": "STAT_DEFEAT_SHARKS",
+    "defaultvalue": 0,
+    "displayName": "Sharks Killed"
   }
-}
+]

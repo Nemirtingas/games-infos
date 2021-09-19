@@ -1,13 +1,14 @@
 {
   "Dlcs": {
     "1282160": {
-      "Name": "",
-      "ImageUrl": ""
+      "Name": "Ato Soundtrack",
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1282160/header.jpg?t=1604559233",
+      "Type": "music"
     }
   },
   "Name": "Ato",
   "AppId": "1096180",
-  "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/1096180/header.jpg?t=1590359257",
+  "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1096180/header.jpg?t=1629115560",
   "Languages": [
     "english",
     "german",
@@ -22,7 +23,8 @@
     "schinese",
     "latam",
     "turkish",
-    "tchinese"
+    "tchinese",
+    "portuguese"
   ],
   "Platforms": {
     "windows": true,

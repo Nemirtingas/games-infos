@@ -1,10 +1,12 @@
-﻿{
-  "gcl": {
-    "description": "Global Control Level",
-    "value": 0
+[
+  {
+    "name": "gcl",
+    "defaultvalue": 0,
+    "displayName": "Global Control Level"
   },
-  "power": {
-    "description": "Power Processed",
-    "value": 0
+  {
+    "name": "power",
+    "defaultvalue": 0,
+    "displayName": "Power Processed"
   }
-}
+]

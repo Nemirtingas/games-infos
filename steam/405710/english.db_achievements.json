@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "name": "CATCHBUGS100_1_0",
     "defaultvalue": 0,
@@ -205,5 +205,50 @@
     "description": "Loot a forest treasure chest",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/405710/a644085a35c0606a80671d7fbcab762ee451e656.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/405710/113c7c99228262938391f65c12b691e5714deaad.jpg"
+  },
+  {
+    "name": "GALAXYBUGS_1_0",
+    "defaultvalue": 0,
+    "displayName": "Galactic Entomology",
+    "hidden": 0,
+    "description": "Catch one of each bug found on the Galaxy Island.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/405710/f57cb1dc4aa1042806230d72611ff62095fb1fc2.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/405710/f2ece8d73d970f572bbcdb897ca8580175016575.jpg"
+  },
+  {
+    "name": "GALAXYFISH_1_0",
+    "defaultvalue": 0,
+    "displayName": "Galactic Ichthyology",
+    "hidden": 0,
+    "description": "Catch one of each fish found on the Galaxy Island",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/405710/afdbc5fa62ca4f57b162cfa6da1a02c65ebcb1f5.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/405710/c48bf32a7db2d0ff1383cdbeb7c850e57a26748f.jpg"
+  },
+  {
+    "name": "GOURMETHIDEAWAY_1_0",
+    "defaultvalue": 0,
+    "displayName": "Gourmet Hideaway",
+    "hidden": 0,
+    "description": "Cook Couscous and Baked Artichoke with Goats Cheese",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/405710/dc7548699729291cac7c78b87404422290431dfd.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/405710/d1b407a22b718b6d92120b75b2f4d12180d5ccc4.jpg"
+  },
+  {
+    "name": "HIDEAWAYHARVEST_1_0",
+    "defaultvalue": 0,
+    "displayName": "Hideaway Harvest",
+    "hidden": 0,
+    "description": "Harvest Grapes, Artichokes, Purple Nettle and Rhubarb",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/405710/c52ef5c0cda99f80031fcee232d0156287d5a036.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/405710/96f9ac0980e9becd63c9a01df33f292a016d632b.jpg"
+  },
+  {
+    "name": "HIDEAWAYRANCHER_1_0",
+    "defaultvalue": 0,
+    "displayName": "Hideaway Rancher",
+    "hidden": 0,
+    "description": "Collect Goats Milk and Brown Pheasant Feathers",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/405710/c367f0e79fbec3a4b0681ddc4a2b43e17efc864f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/405710/04ae22f816365830fb4bb5ecd5f9386f4de10bcc.jpg"
   }
 ]

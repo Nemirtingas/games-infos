@@ -1,60 +1,44 @@
 {
   "Dlcs": {
-    "25814": {
-      "Name": "Europa Universalis III: Revolution SpritePack",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/25814/header.jpg?t=1589876038"
-    },
-    "25813": {
-      "Name": "Europa Universalis III: Medieval SpritePack",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/25813/header.jpg?t=1589876056"
-    },
-    "25811": {
-      "Name": "Europa Universalis III: Enlightenment SpritePack",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/25811/header.jpg?t=1589879483"
-    },
-    "25812": {
-      "Name": "Europa Universalis III: Reformation SpritePack",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/25812/header.jpg?t=1589876076"
-    },
-    "25806": {
-      "Name": "Europa Universalis III: Heir to the Throne",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/25806/header.jpg?t=1589879472"
-    },
-    "25808": {
-      "Name": "",
-      "ImageUrl": ""
-    },
-    "25809": {
-      "Name": "",
-      "ImageUrl": ""
-    },
-    "25810": {
-      "Name": "",
-      "ImageUrl": ""
-    },
-    "25815": {
-      "Name": "Europa Universalis III: Absolutism SpritePack",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/25815/header.jpg?t=1589876030"
-    },
     "25817": {
       "Name": "Europa Universalis III Music of the World",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/25817/header.jpg?t=1589875956"
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/25817/header.jpg?t=1589875956",
+      "Type": "dlc"
     },
     "25816": {
       "Name": "Europa Universalis III: Revolution II Unit Pack",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/25816/header.jpg?t=1589875997"
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/25816/header.jpg?t=1589875997",
+      "Type": "dlc"
+    },
+    "25815": {
+      "Name": "Europa Universalis III: Absolutism SpritePack",
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/25815/header.jpg?t=1589876030",
+      "Type": "dlc"
+    },
+    "25814": {
+      "Name": "Europa Universalis III: Revolution SpritePack",
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/25814/header.jpg?t=1589876038",
+      "Type": "dlc"
+    },
+    "25813": {
+      "Name": "Europa Universalis III: Medieval SpritePack",
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/25813/header.jpg?t=1589876056",
+      "Type": "dlc"
+    },
+    "25812": {
+      "Name": "Europa Universalis III: Reformation SpritePack",
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/25812/header.jpg?t=1589876076",
+      "Type": "dlc"
+    },
+    "25811": {
+      "Name": "Europa Universalis III: Enlightenment SpritePack",
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/25811/header.jpg?t=1589879483",
+      "Type": "dlc"
+    },
+    "25806": {
+      "Name": "Europa Universalis III: Heir to the Throne",
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/25806/header.jpg?t=1589879472",
+      "Type": "dlc"
     }
-  },
-  "Name": "Europa Universalis III Complete",
-  "AppId": "25800",
-  "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/25800/header.jpg?t=1589872874",
-  "Languages": [
-    "english",
-    "german"
-  ],
-  "Platforms": {
-    "windows": true,
-    "mac": true,
-    "linux": false
   }
 }

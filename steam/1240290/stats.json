@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "name": "nz_skins_learned",
     "defaultvalue": 0,
@@ -123,5 +123,10 @@
     "name": "nz_killstreak_end",
     "defaultvalue": 0,
     "displayName": "End other players kill streak."
+  },
+  {
+    "name": "nz_bt_amount",
+    "defaultvalue": 0,
+    "displayName": ""
   }
 ]

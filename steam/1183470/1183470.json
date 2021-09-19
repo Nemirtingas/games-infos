@@ -1,15 +1,27 @@
-﻿{
-  "Dlcs": {},
+{
+  "Dlcs": {
+    "1404250": {
+      "Name": "",
+      "ImageUrl": ""
+    },
+    "1520480": {
+      "Name": "Imperiums: Age of Alexander",
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1520480/header.jpg?t=1631293961",
+      "Type": "dlc"
+    }
+  },
   "Name": "Imperiums: Greek Wars",
   "AppId": "1183470",
-  "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/1183470/header.jpg?t=1599847649",
+  "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1183470/header.jpg?t=1629410308",
   "Languages": [
     "english",
     "french",
     "german",
     "spanish",
     "czech",
-    "russian"
+    "russian",
+    "japanese",
+    "polish"
   ],
   "Platforms": {
     "windows": true,

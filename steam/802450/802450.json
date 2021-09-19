@@ -1,30 +1,14 @@
 {
   "Dlcs": {
-    "991010": {
-      "Name": "NAIRI: Tower of Shirin - OST",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/991010/header.jpg?t=1588843243"
-    },
     "991011": {
       "Name": "NAIRI: Tower of Shirin - Art book",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/991011/header.jpg?t=1588843307"
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/991011/header.jpg?t=1588843307",
+      "Type": "dlc"
+    },
+    "991010": {
+      "Name": "NAIRI: Tower of Shirin - OST",
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/991010/header.jpg?t=1588843243",
+      "Type": "dlc"
     }
-  },
-  "Name": "NAIRI: Tower of Shirin",
-  "AppId": "802450",
-  "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/802450/header.jpg?t=1588773021",
-  "Languages": [
-    "english",
-    "japanese",
-    "schinese",
-    "tchinese",
-    "french",
-    "italian",
-    "german",
-    "latam"
-  ],
-  "Platforms": {
-    "windows": true,
-    "mac": false,
-    "linux": false
   }
 }

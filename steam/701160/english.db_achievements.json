@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "name": "ACHIEVEMENT_1",
     "defaultvalue": 0,
@@ -31,7 +31,7 @@
     "defaultvalue": 0,
     "displayName": "By the Fourth Day",
     "hidden": 0,
-    "description": "You hunted 40 or more bunnies.",
+    "description": "You hunted 40 or more critters.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/701160/a5f47f802823450dfaccee4eb5ef7c45e5efe5c6.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/701160/fde27ee66155ee1aefd02fa9b9f665b3e692ccc6.jpg"
   },
@@ -286,5 +286,41 @@
     "description": "Ride the Gamigin.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/701160/1016ad6fbe8925b2b9fe225224f331ac2a4e066f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/701160/9f63910231fcb6563673d31d4e67c4dacd21a915.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_33",
+    "defaultvalue": 0,
+    "displayName": "Here Kitty Kitty Kitty",
+    "hidden": 0,
+    "description": "Recruit a Cat",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/701160/03065963c60ac6f08a76453f41939e8a9762a859.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/701160/ad38745beea37cd51dfee5e24dd876999b7db143.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_34",
+    "defaultvalue": 0,
+    "displayName": "Arm the Homeless",
+    "hidden": 0,
+    "description": "Convert a Beggar Camp into a Citizen House",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/701160/e3c09e041183957a6574d3db184b47b39d14d339.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/701160/6c5515a946089e1153d4197e598b7a30a3a8e43e.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_35",
+    "defaultvalue": 0,
+    "displayName": "Above and Beyond",
+    "hidden": 0,
+    "description": "Defeat the Greed on all 6 Lands",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/701160/62f3c6d4e541ea1016ad5b78f2a64c429743a275.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/701160/bfd1cc952c40d38ea695576f724b85df1b6b1380.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_36",
+    "defaultvalue": 0,
+    "displayName": "I HAVE THE POWER!",
+    "hidden": 0,
+    "description": "Unlock all Items of Power (Solve All Puzzles)",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/701160/b8616f9f3fe41324f5936b861cb1a31eac92985c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/701160/c14f31a7569abce31792e0be24c2bf8f13df2cf9.jpg"
   }
 ]

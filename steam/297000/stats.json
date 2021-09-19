@@ -1,18 +1,22 @@
-﻿{
-  "win_normal": {
-    "description": "win_normal",
-    "value": 0
+[
+  {
+    "name": "win_normal",
+    "defaultvalue": 0,
+    "displayName": "win_normal"
   },
-  "win_hard": {
-    "description": "win_hard",
-    "value": 0
+  {
+    "name": "win_hard",
+    "defaultvalue": 0,
+    "displayName": "win_hard"
   },
-  "win_expert": {
-    "description": "win_expert",
-    "value": 0
+  {
+    "name": "win_expert",
+    "defaultvalue": 0,
+    "displayName": "win_expert"
   },
-  "win_impossible": {
-    "description": "win_impossible",
-    "value": 0
+  {
+    "name": "win_impossible",
+    "defaultvalue": 0,
+    "displayName": "win_impossible"
   }
-}
+]

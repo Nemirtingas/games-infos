@@ -1,18 +1,22 @@
-﻿{
-  "feed": {
-    "description": "Monster feedet",
-    "value": 0
+[
+  {
+    "name": "feed",
+    "defaultvalue": 0,
+    "displayName": "Monster feedet"
   },
-  "chest": {
-    "description": "Chests filled",
-    "value": 0
+  {
+    "name": "chest",
+    "defaultvalue": 0,
+    "displayName": "Chests filled"
   },
-  "trap": {
-    "description": "Traps resetted",
-    "value": 0
+  {
+    "name": "trap",
+    "defaultvalue": 0,
+    "displayName": "Traps resetted"
   },
-  "garbage": {
-    "description": "Garbage burned",
-    "value": 0
+  {
+    "name": "garbage",
+    "defaultvalue": 0,
+    "displayName": "Garbage burned"
   }
-}
+]

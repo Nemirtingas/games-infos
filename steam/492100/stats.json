@@ -1,34 +1,42 @@
-﻿{
-  "COINS_COLLECTED": {
-    "description": "Coins Collected",
-    "value": 0
+[
+  {
+    "name": "COINS_COLLECTED",
+    "defaultvalue": 0,
+    "displayName": "Coins Collected"
   },
-  "DJINN_KILLED": {
-    "description": "Djinn Slain",
-    "value": 0
+  {
+    "name": "DJINN_KILLED",
+    "defaultvalue": 0,
+    "displayName": "Djinn Slain"
   },
-  "WINS_NDOUL": {
-    "description": "Wins as N'Doul",
-    "value": 0
+  {
+    "name": "WINS_NDOUL",
+    "defaultvalue": 0,
+    "displayName": "Wins as N'Doul"
   },
-  "WINS_KSETH": {
-    "description": "Wins as K'Seth",
-    "value": 0
+  {
+    "name": "WINS_KSETH",
+    "defaultvalue": 0,
+    "displayName": "Wins as K'Seth"
   },
-  "WINS_ZOLWANI": {
-    "description": "Wins as Zolwani",
-    "value": 0
+  {
+    "name": "WINS_ZOLWANI",
+    "defaultvalue": 0,
+    "displayName": "Wins as Zolwani"
   },
-  "WINS_XERNOK": {
-    "description": "Wins as Xernok",
-    "value": 0
+  {
+    "name": "WINS_XERNOK",
+    "defaultvalue": 0,
+    "displayName": "Wins as Xernok"
   },
-  "WINS_UNCHAINED": {
-    "description": "Wins as The Unchained",
-    "value": 0
+  {
+    "name": "WINS_UNCHAINED",
+    "defaultvalue": 0,
+    "displayName": "Wins as The Unchained"
   },
-  "WINS_DOMINATION": {
-    "description": "Wins with 100% control",
-    "value": 0
+  {
+    "name": "WINS_DOMINATION",
+    "defaultvalue": 0,
+    "displayName": "Wins with 100% control"
   }
-}
+]

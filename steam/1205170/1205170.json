@@ -1,8 +1,19 @@
 {
-  "Dlcs": {},
+  "Dlcs": {
+    "1663820": {
+      "Name": "Super Magbot: Original Soundtrack",
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1663820/header.jpg?t=1624373961",
+      "Type": "music"
+    },
+    "1663830": {
+      "Name": "Super Magbot: The Broken Worlds Original Soundtrack",
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1663830/header.jpg?t=1624374005",
+      "Type": "music"
+    }
+  },
   "Name": "Super Magbot",
   "AppId": "1205170",
-  "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/1205170/header.jpg?t=1596098477",
+  "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1205170/header.jpg?t=1628160966",
   "Languages": [
     "english",
     "french",
@@ -10,7 +21,10 @@
     "german",
     "spanish",
     "japanese",
-    "schinese"
+    "schinese",
+    "portuguese",
+    "tchinese",
+    "russian"
   ],
   "Platforms": {
     "windows": true,

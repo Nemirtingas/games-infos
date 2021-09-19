@@ -112,7 +112,7 @@
     "defaultvalue": 0,
     "displayName": "Single Season Champion",
     "hidden": 0,
-    "description": "You have achieved everything in a single game",
+    "description": "You have had a season worthy of a champion",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1156590/6acd2fe2f0ecb9a3a093092776bf4de011e5bb05.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1156590/2e52400319a7aaaa29f7769adbd146129fe1c342.jpg"
   },
@@ -632,7 +632,7 @@
   {
     "name": "ACH_Southwest_Region",
     "defaultvalue": 0,
-    "displayName": "ACH_Southwest_Region",
+    "displayName": "Southwest Region",
     "hidden": 0,
     "description": "Congratulations! You have unlocked the Southwest Region",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1156590/f3cd293b34d1f967614498d95eca7c9322cbc834.jpg",
@@ -880,5 +880,113 @@
     "description": "You have found a Pheasant Back Mushroom",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1156590/8125b87135d016f401e5dcb3716e96d64a793be1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1156590/41554237342989515e71b34fb6abb5092827b09f.jpg"
+  },
+  {
+    "name": "ACH_Barn_Owl",
+    "defaultvalue": 0,
+    "displayName": "Barn Owl",
+    "hidden": 0,
+    "description": "You have photographed a Barn Owl",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1156590/fd24d0d8f9e4e6dd398af5d4611e5c5a65e3e7e3.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1156590/dbc8e0a7f3751ae7123b5623e35f164370613d12.jpg"
+  },
+  {
+    "name": "ACH_Sparrow",
+    "defaultvalue": 0,
+    "displayName": "Sparrow",
+    "hidden": 0,
+    "description": "You have photographed a Sparrow",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1156590/c756cf65029fa10751c36b0436eff70f8bf68ea7.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1156590/ffd6ad4d4aa50d088adf2b89dab06a0e104ea948.jpg"
+  },
+  {
+    "name": "ACH_Longhorn",
+    "defaultvalue": 0,
+    "displayName": "Longhorn",
+    "hidden": 0,
+    "description": "You have photographed a Longhorn",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1156590/46337fc7d6f040fd6272ddccc3b2b39fd7de1331.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1156590/960a6b9100e2799ab83b6d7c6404f0cef83491ff.jpg"
+  },
+  {
+    "name": "ACH_Snapping_Turtle",
+    "defaultvalue": 0,
+    "displayName": "Snapping Turtle",
+    "hidden": 0,
+    "description": "You have photographed a Snapping Turtle",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1156590/abce6dfb11d3f4ca333809d6138671567a96bc42.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1156590/6ac1ee36d8aa2de218ed3f1c1fa29b5813c4c5a4.jpg"
+  },
+  {
+    "name": "ACH_Mystery_Animal_6",
+    "defaultvalue": 0,
+    "displayName": "Mystery Animal 6",
+    "hidden": 0,
+    "description": "You have photographed Mystery Animal 6",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1156590/94a1f198a4dae76ccfb2b292f2f4a1a4d7f08362.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1156590/1860311eaacda2eeb0cdab1c68bee096e2d09534.jpg"
+  },
+  {
+    "name": "ACH_Trout",
+    "defaultvalue": 0,
+    "displayName": "Trout",
+    "hidden": 0,
+    "description": "You have photographed a Trout",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1156590/3313147a5091fe314daef4929098f31a32a6603b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1156590/47b9252423a575ec1b6e86953f15674db171ec0f.jpg"
+  },
+  {
+    "name": "ACH_Red_Eye",
+    "defaultvalue": 0,
+    "displayName": "Red Eye Fish",
+    "hidden": 0,
+    "description": "You have photographed a Red Eye Fish",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1156590/eb0cf76e73b581052f28db51dc4f09986334bd39.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1156590/bcb7abc2573b2f72e315d30359331648bf774ba2.jpg"
+  },
+  {
+    "name": "ACH_Pike",
+    "defaultvalue": 0,
+    "displayName": "Pike",
+    "hidden": 0,
+    "description": "You have photographed a Pike",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1156590/b75ebf31da81dbbf1ed9849c9c215ff5384b9ee9.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1156590/b2b7de86ce40c09d30e54e7a4290b86b51d1a334.jpg"
+  },
+  {
+    "name": "ACH_Perch",
+    "defaultvalue": 0,
+    "displayName": "Perch",
+    "hidden": 0,
+    "description": "You have photographed a Perch",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1156590/dbd10b96511f749d5776697d680c4684e55c6aff.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1156590/a0a581fff144f3b301cb988412dbba95dd507d29.jpg"
+  },
+  {
+    "name": "ACH_Bluegill",
+    "defaultvalue": 0,
+    "displayName": "Bluegill",
+    "hidden": 0,
+    "description": "You have photographed a Bluegill",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1156590/7a900d5518d65eb6d840864666cae6012948731e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1156590/50a01e6fa1c3a0bc17bfa361859bf13896a71e36.jpg"
+  },
+  {
+    "name": "ACH_Dino_Bones",
+    "defaultvalue": 0,
+    "displayName": "Dinosaur Bones",
+    "hidden": 0,
+    "description": "You have collected all Dinosaur Bones",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1156590/33bf080c87783ff23027bbbacea62be18409f12a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1156590/fe27dae8e8246030d0076d423c9a3ea4d7ad3ae0.jpg"
+  },
+  {
+    "name": "ACH_Edible_Blewit_Mushroom",
+    "defaultvalue": 0,
+    "displayName": "Blewit Mushroom",
+    "hidden": 0,
+    "description": "You have found a Blewit Mushrooms",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1156590/ab67072d38e7a1f31781442e69ed5cb05c2e110d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1156590/01455dc0d1084c194d3b04d2ce23ee45540dbe5b.jpg"
   }
 ]

@@ -1,26 +1,32 @@
-﻿{
-  "STAT_SPATULA_COLLECTED": {
-    "description": "Spatulas Collected",
-    "value": 0
+[
+  {
+    "name": "STAT_SPATULA_COLLECTED",
+    "defaultvalue": 0,
+    "displayName": "Spatulas Collected"
   },
-  "STAT_ENEMIES_KILLED_SB": {
-    "description": "Robots Destroyed as SpongeBob",
-    "value": 0
+  {
+    "name": "STAT_ENEMIES_KILLED_SB",
+    "defaultvalue": 0,
+    "displayName": "Robots Destroyed as SpongeBob"
   },
-  "STAT_ENEMIES_KILLED_PAT": {
-    "description": "Robots Destroyed as Patrick",
-    "value": 0
+  {
+    "name": "STAT_ENEMIES_KILLED_PAT",
+    "defaultvalue": 0,
+    "displayName": "Robots Destroyed as Patrick"
   },
-  "STAT_ENEMIES_KILLED_SANDY": {
-    "description": "Robots Destroyed as Sandy",
-    "value": 0
+  {
+    "name": "STAT_ENEMIES_KILLED_SANDY",
+    "defaultvalue": 0,
+    "displayName": "Robots Destroyed as Sandy"
   },
-  "STAT_SOCK_COLLECTED": {
-    "description": "",
-    "value": 0
+  {
+    "name": "STAT_SOCK_COLLECTED",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "STAT_ANNOYED_SQUIDWARD": {
-    "description": "Times Squidward was annoyed by SpongeBob, Patrick or Sandy",
-    "value": 0
+  {
+    "name": "STAT_ANNOYED_SQUIDWARD",
+    "defaultvalue": 0,
+    "displayName": "Times Squidward was annoyed by SpongeBob, Patrick or Sandy"
   }
-}
+]

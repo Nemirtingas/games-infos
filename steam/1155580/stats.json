@@ -120,13 +120,43 @@
     "displayName": "Total arena wins"
   },
   {
-    "name": "MainAccountLevel_Points",
+    "name": "dwii_MainLevel",
     "defaultvalue": 0,
-    "displayName": "MainAccountLevel_Points"
+    "displayName": "Level"
   },
   {
-    "name": "MainAccountLevel",
+    "name": "dwii_MainLevelProgress",
     "defaultvalue": 0,
-    "displayName": "MainAccountLevel"
+    "displayName": "LevelProgress"
+  },
+  {
+    "name": "dwii_achieve_Specialist_stat",
+    "defaultvalue": 0,
+    "displayName": "Specialist"
+  },
+  {
+    "name": "dwii_asDrone_humanKills",
+    "defaultvalue": 0,
+    "displayName": "Drone_HumanKills"
+  },
+  {
+    "name": "dwii_asDrone_droneKills",
+    "defaultvalue": 0,
+    "displayName": "Drone_DroneKills"
+  },
+  {
+    "name": "dwii_asHuman_humanKills",
+    "defaultvalue": 0,
+    "displayName": "Human_HumanKills"
+  },
+  {
+    "name": "dwii_asHuman_droneKills",
+    "defaultvalue": 0,
+    "displayName": "Human_DroneKills"
+  },
+  {
+    "name": "dwii_humanWipeoutSurvivalCount",
+    "defaultvalue": 0,
+    "displayName": "Human Wipeout Wins"
   }
 ]

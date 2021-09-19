@@ -1,26 +1,37 @@
-﻿{
-  "DevicesHacked_DevicesHacked": {
-    "description": "Devices Hacked",
-    "value": 0
+[
+  {
+    "name": "DevicesHacked_DevicesHacked",
+    "defaultvalue": 0,
+    "displayName": "Devices Hacked"
   },
-  "LocksOpened_LocksOpened": {
-    "description": "Locks Opened",
-    "value": 0
+  {
+    "name": "LocksOpened_LocksOpened",
+    "defaultvalue": 0,
+    "displayName": "Locks Opened"
   },
-  "ItemsCrafted_ItemsCrafted": {
-    "description": "Items Crafted",
-    "value": 0
+  {
+    "name": "ItemsCrafted_ItemsCrafted",
+    "defaultvalue": 0,
+    "displayName": "Items Crafted"
   },
-  "SideQuestsCompleted_SideQuestsCompleted": {
-    "description": "Side Quests Completed",
-    "value": 0
+  {
+    "name": "SideQuestsCompleted_SideQuestsCompleted",
+    "defaultvalue": 0,
+    "displayName": "Side Quests Completed"
   },
-  "NotesFound_NotesFound": {
-    "description": "Notes Found",
-    "value": 0
+  {
+    "name": "NotesFound_NotesFound",
+    "defaultvalue": 0,
+    "displayName": "Notes Found"
   },
-  "Score1_Score1": {
-    "description": "Score",
-    "value": 0
+  {
+    "name": "Score1_Score1",
+    "defaultvalue": 0,
+    "displayName": "Score"
+  },
+  {
+    "name": "Infiltrator_Mode_Infiltrator_Mode",
+    "defaultvalue": 0,
+    "displayName": "Score"
   }
-}
+]

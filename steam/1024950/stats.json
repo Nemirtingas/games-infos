@@ -1,6 +1,7 @@
-﻿{
-  "stat_planetfall": {
-    "description": "Planets Crashed Into",
-    "value": 0
+[
+  {
+    "name": "stat_planetfall",
+    "defaultvalue": 0,
+    "displayName": "Planets Crashed Into"
   }
-}
+]

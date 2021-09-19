@@ -1,18 +1,22 @@
-﻿{
-  "BC_STAT_BRAWLER": {
-    "description": "Brawler",
-    "value": 0
+[
+  {
+    "name": "BC_STAT_BRAWLER",
+    "defaultvalue": 0,
+    "displayName": "Brawler"
   },
-  "BC_STAT_PUPPET_MASTER": {
-    "description": "Puppet Master",
-    "value": 0
+  {
+    "name": "BC_STAT_PUPPET_MASTER",
+    "defaultvalue": 0,
+    "displayName": "Puppet Master"
   },
-  "BC_STAT_WEAPON_LORD": {
-    "description": "Weapon Lord",
-    "value": 0
+  {
+    "name": "BC_STAT_WEAPON_LORD",
+    "defaultvalue": 0,
+    "displayName": "Weapon Lord"
   },
-  "BC_STAT_BLAZING_CHROME": {
-    "description": "Blazing Chrome",
-    "value": 0
+  {
+    "name": "BC_STAT_BLAZING_CHROME",
+    "defaultvalue": 0,
+    "displayName": "Blazing Chrome"
   }
-}
+]

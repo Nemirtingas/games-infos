@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "name": "ACH_DUAL_WIELDER",
     "defaultvalue": 0,
@@ -2239,5 +2239,53 @@
     "description": "Have the Clockwork Dog aid you in battle.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/247000/78daabe84f5fac9edf1ddfa047fa3d6ddca2528b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/247000/bc7b4f81ce61b216266b6b4a3179cc28a0f3a9fe.jpg"
+  },
+  {
+    "name": "ACH_PACK_SWORDSMAN",
+    "defaultvalue": 0,
+    "displayName": "Disarming",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/247000/",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/247000/"
+  },
+  {
+    "name": "ACH_PACK_RANGER",
+    "defaultvalue": 0,
+    "displayName": "Power Ranger",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/247000/",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/247000/"
+  },
+  {
+    "name": "ACH_PACK_WITCH_HUNTER",
+    "defaultvalue": 0,
+    "displayName": "Defamation of Character",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/247000/",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/247000/"
+  },
+  {
+    "name": "ACH_PACK_VAMPIRE_CHAR",
+    "defaultvalue": 0,
+    "displayName": "Escape as Bats",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/247000/",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/247000/"
+  },
+  {
+    "name": "ACH_PACK_SATYR",
+    "defaultvalue": 0,
+    "displayName": "Pipes of Peril",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/247000/",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/247000/"
+  },
+  {
+    "name": "ACH_PACK_PILGRIM",
+    "defaultvalue": 0,
+    "displayName": "Unwavering Resolve",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/247000/",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/247000/"
   }
 ]

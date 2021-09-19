@@ -1,14 +1,9 @@
 {
-  "Dlcs": {},
-  "Name": "Inferno - Beyond the 7th Circle",
-  "AppId": "1251850",
-  "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/1251850/header.jpg?t=1599679595",
-  "Languages": [
-    "english"
-  ],
-  "Platforms": {
-    "windows": true,
-    "mac": false,
-    "linux": false
+  "Dlcs": {
+    "1629410": {
+      "Name": "Inferno - Beyond the 7th Circle Soundtrack",
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1629410/header.jpg?t=1620714872",
+      "Type": "music"
+    }
   }
 }

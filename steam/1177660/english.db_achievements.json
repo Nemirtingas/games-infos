@@ -124,7 +124,7 @@
     "defaultvalue": 0,
     "displayName": "Fearless",
     "hidden": 0,
-    "description": "Complete the game without using the flashlight.",
+    "description": "Complete the game without using the flashlight in the fearless game mode.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1177660/11b8df919cbe19ebf58c15ba3b91a466eace174b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1177660/bdeea592d9bf7075f9dbddd82e34fb8cef8a4736.jpg"
   },
@@ -135,15 +135,6 @@
     "hidden": 1,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1177660/bc2c00994cd7c48f01c95acf94e33fe026828ee5.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1177660/bc2c00994cd7c48f01c95acf94e33fe026828ee5.jpg"
-  },
-  {
-    "name": "eco_friendly",
-    "defaultvalue": 0,
-    "displayName": "Eco-friendly",
-    "hidden": 0,
-    "description": "Wait in the first room til the lights go out.",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1177660/08d75c1ea81c6245141974c89c467bf06a6a2aa8.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1177660/08d75c1ea81c6245141974c89c467bf06a6a2aa8.jpg"
   },
   {
     "name": "menu_time",
@@ -224,11 +215,225 @@
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1177660/3274777940309cfa2d2dce019dcd139f66246bdf.jpg"
   },
   {
-    "name": "tutorial",
+    "name": "kharon",
     "defaultvalue": 0,
-    "displayName": "Tutorial completed!",
+    "displayName": "The Ferryman",
     "hidden": 1,
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1177660/b1e6a98a68b967daae143e3af91e0551f78de2a9.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1177660/b1e6a98a68b967daae143e3af91e0551f78de2a9.jpg"
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1177660/c570048f2fc8a58bc3fd266e5b10f20bee794bc3.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1177660/c570048f2fc8a58bc3fd266e5b10f20bee794bc3.jpg"
+  },
+  {
+    "name": "summ_ch_1",
+    "defaultvalue": 0,
+    "displayName": "Chapter I",
+    "hidden": 0,
+    "description": "Chapter I Completed!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1177660/730a4e1225dce059984bee2e5435e7867d111c9f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1177660/730a4e1225dce059984bee2e5435e7867d111c9f.jpg"
+  },
+  {
+    "name": "summ_ch_2",
+    "defaultvalue": 0,
+    "displayName": "Chapter II",
+    "hidden": 0,
+    "description": "Chapter II Completed!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1177660/de219c713033b87295d926c036cc8f1b75aaa631.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1177660/98fcfe3bb873e7be56cc002eecfa086536b34c6d.jpg"
+  },
+  {
+    "name": "summ_ch_3",
+    "defaultvalue": 0,
+    "displayName": "Chapter III",
+    "hidden": 0,
+    "description": "Chapter III Completed!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1177660/43fc7df3da07fff5fc47bd7fa4d6a046725c1711.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1177660/43fc7df3da07fff5fc47bd7fa4d6a046725c1711.jpg"
+  },
+  {
+    "name": "summ_ch_4",
+    "defaultvalue": 0,
+    "displayName": "Chapter IV",
+    "hidden": 0,
+    "description": "Chapter IV Completed!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1177660/cf63705892912bac35d910b9293fb4d75caa2958.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1177660/986e9920426ffbead3ce9ebd5c286f5a1105de01.jpg"
+  },
+  {
+    "name": "summ_end_1",
+    "defaultvalue": 0,
+    "displayName": "Survivor",
+    "hidden": 0,
+    "description": "You've survived!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1177660/d74d414f844fb016a31536df77e8e616fb6d0c6e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1177660/d74d414f844fb016a31536df77e8e616fb6d0c6e.jpg"
+  },
+  {
+    "name": "wokiboss",
+    "defaultvalue": 0,
+    "displayName": "Join to me",
+    "hidden": 0,
+    "description": "Join to my flesh! The monster ate you!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1177660/ee02e4d5750b1ed21baa2bc57c52613f21a6ad64.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1177660/ee02e4d5750b1ed21baa2bc57c52613f21a6ad64.jpg"
+  },
+  {
+    "name": "summ_pic",
+    "defaultvalue": 0,
+    "displayName": "Cheers!",
+    "hidden": 0,
+    "description": "Cheers! Nice shot!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1177660/115c50a2ccdcd98365ea875c2cdb2f53f0c3d843.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1177660/115c50a2ccdcd98365ea875c2cdb2f53f0c3d843.jpg"
+  },
+  {
+    "name": "summ_cultist",
+    "defaultvalue": 0,
+    "displayName": "Sacrifice",
+    "hidden": 0,
+    "description": "You've been killed by a cultist!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1177660/629288c6e55046294816568a1991f53d1fe8144e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1177660/629288c6e55046294816568a1991f53d1fe8144e.jpg"
+  },
+  {
+    "name": "summ_spiderwoki",
+    "defaultvalue": 0,
+    "displayName": "Arachnophobia",
+    "hidden": 0,
+    "description": "A Spiderwoki killed you!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1177660/6fd2228c7a8123bd0c7eebf1dbee54ff40251449.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1177660/6fd2228c7a8123bd0c7eebf1dbee54ff40251449.jpg"
+  },
+  {
+    "name": "summ_park",
+    "defaultvalue": 0,
+    "displayName": "Carnivaland!",
+    "hidden": 0,
+    "description": "Welcome to Carnivaland!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1177660/2b18e69861b34bfb5561ae8694a37864addca30b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1177660/2b18e69861b34bfb5561ae8694a37864addca30b.jpg"
+  },
+  {
+    "name": "summ_mansion",
+    "defaultvalue": 0,
+    "displayName": "Burning mansion",
+    "hidden": 0,
+    "description": "You've seen the mansion in flames!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1177660/720c274b16fa8fafd783c21c0b9bc02502a21660.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1177660/720c274b16fa8fafd783c21c0b9bc02502a21660.jpg"
+  },
+  {
+    "name": "summ_impaled",
+    "defaultvalue": 0,
+    "displayName": "Impaled!",
+    "hidden": 0,
+    "description": "Now the monster is impaled because of you!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1177660/e5ad5a8ffcd89f30eceb8d0eeefdf5c4479affc5.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1177660/e5ad5a8ffcd89f30eceb8d0eeefdf5c4479affc5.jpg"
+  },
+  {
+    "name": "summ_frog",
+    "defaultvalue": 0,
+    "displayName": "Be my friend!",
+    "hidden": 0,
+    "description": "What a friendly looking little frog, ain't it?",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1177660/398fda28b371caba3e18820ed9c88543548559b6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1177660/398fda28b371caba3e18820ed9c88543548559b6.jpg"
+  },
+  {
+    "name": "summ_light",
+    "defaultvalue": 0,
+    "displayName": "Let there be light!",
+    "hidden": 0,
+    "description": "Turn on the lights in the sewers!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1177660/68be6e1c3b8dda3742db4535232cf843c74cb0cd.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1177660/68be6e1c3b8dda3742db4535232cf843c74cb0cd.jpg"
+  },
+  {
+    "name": "summ_wit",
+    "defaultvalue": 0,
+    "displayName": "The Witness",
+    "hidden": 0,
+    "description": "You just saw a cultist!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1177660/1f157c9acacbb51497152f9cd79ccf4c60d003a2.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1177660/1f157c9acacbb51497152f9cd79ccf4c60d003a2.jpg"
+  },
+  {
+    "name": "summ_ghost",
+    "defaultvalue": 0,
+    "displayName": "Forest Ghost",
+    "hidden": 0,
+    "description": "You've stolen the key from the cultist without being caught!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1177660/fc0808c8893c84d6be0d2aed3bafd8ca5df9628c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1177660/fc0808c8893c84d6be0d2aed3bafd8ca5df9628c.jpg"
+  },
+  {
+    "name": "summ_ferris",
+    "defaultvalue": 0,
+    "displayName": "Nice view!",
+    "hidden": 0,
+    "description": "What a nice view of Carnivaland!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1177660/e9be17ccea94d20f23eee38e20b17a5ad990f46d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1177660/e9be17ccea94d20f23eee38e20b17a5ad990f46d.jpg"
+  },
+  {
+    "name": "summ_void_1",
+    "defaultvalue": 0,
+    "displayName": "The Entity",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1177660/73b5963e31226781e61eae74e779162ab72eb5a7.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1177660/73b5963e31226781e61eae74e779162ab72eb5a7.jpg"
+  },
+  {
+    "name": "summ_roller",
+    "defaultvalue": 0,
+    "displayName": "What a ride!",
+    "hidden": 0,
+    "description": "It was a fun ride! right?!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1177660/1a1c6ccab78a8c384bb9b6536b35b65eb1f74f28.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1177660/1a1c6ccab78a8c384bb9b6536b35b65eb1f74f28.jpg"
+  },
+  {
+    "name": "summ_sting",
+    "defaultvalue": 0,
+    "displayName": "Ouch!",
+    "hidden": 0,
+    "description": "Get stinged once by the morphed cultists.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1177660/ea00202e7a7ddd8f1fd5d65ba429106baa8c834c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1177660/ea00202e7a7ddd8f1fd5d65ba429106baa8c834c.jpg"
+  },
+  {
+    "name": "summ_arch",
+    "defaultvalue": 0,
+    "displayName": "Archeologyst!",
+    "hidden": 0,
+    "description": "Get the 3 totems destroyed without being harmed by the morphed cultists.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1177660/7f6f9a29611eb04d40bb112070f6aaf46d705f04.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1177660/7f6f9a29611eb04d40bb112070f6aaf46d705f04.jpg"
+  },
+  {
+    "name": "summ_end_ritual",
+    "defaultvalue": 0,
+    "displayName": "The Summoning",
+    "hidden": 0,
+    "description": "Stay in the tent till the ritual is completed.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1177660/fef3bbe8b88f4319199e7a2d4ff4eb14f29deec4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1177660/fef3bbe8b88f4319199e7a2d4ff4eb14f29deec4.jpg"
+  },
+  {
+    "name": "arachne",
+    "defaultvalue": 0,
+    "displayName": "Arachne",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1177660/ea9ea57f1c76d789024c4c08d1d6cf8623f280e9.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1177660/ea9ea57f1c76d789024c4c08d1d6cf8623f280e9.jpg"
+  },
+  {
+    "name": "hardcore",
+    "defaultvalue": 0,
+    "displayName": "You are hardcore!",
+    "hidden": 0,
+    "description": "Beat the game in hardcore mode! You are a total badass!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1177660/f889f504919c0d6adfbbcb9bc27ad4d85b22bf5e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1177660/f889f504919c0d6adfbbcb9bc27ad4d85b22bf5e.jpg"
   }
 ]

@@ -54,15 +54,6 @@
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/541300/595f40debe5bbfa40ab11d6714b45f1af7bafa7e.jpg"
   },
   {
-    "name": "ACH_TRAIL_FINDER",
-    "defaultvalue": 0,
-    "displayName": "Trailblazer",
-    "hidden": 0,
-    "description": "Find a trail sign",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/541300/5421d763ffed5776f10d3eb32dd5c0677ebc2600.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/541300/e162203b1e60f11894343148d8b8b4d22add2b9d.jpg"
-  },
-  {
     "name": "ACH_FOUND_WATER",
     "defaultvalue": 0,
     "displayName": "Liquid Gold",
@@ -731,10 +722,91 @@
   {
     "name": "ACH_TORCH",
     "defaultvalue": 0,
-    "displayName": "Let There Be FIRE",
+    "displayName": "Let There Be LIGHT",
     "hidden": 0,
     "description": "Light a club on fire",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/541300/24354a522a3e09a3bf60867858dced89b9dfb113.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/541300/b28946cd719e71ddcfa8897da6a47bbb8daa094a.jpg"
+  },
+  {
+    "name": "ACH_BR_BRIDGE",
+    "defaultvalue": 0,
+    "displayName": "Salvation Lies Within…",
+    "hidden": 0,
+    "description": "Lower the black ridge bridge",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/541300/e3063f4c15c0c2167bfbcf784c18a18956d1d6e9.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/541300/d3474ec8cb1991156347cd81ad4a87ac41dd6d89.jpg"
+  },
+  {
+    "name": "ACH_PRISON",
+    "defaultvalue": 0,
+    "displayName": "STP",
+    "hidden": 0,
+    "description": "Survive the prison",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/541300/f022ed05d7a152e8f7093843531a525fbdb57e9c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/541300/43dd8bee39e563140601d1098f71361aee919329.jpg"
+  },
+  {
+    "name": "ACH_EXTENDED",
+    "defaultvalue": 0,
+    "displayName": "Quantity Over Quality",
+    "hidden": 0,
+    "description": "Pickup an extended mag attachment",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/541300/ac16a0257c9d19b9cc259e16728a9360fb279f75.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/541300/65f4773ab9d55eaa814a66637be530e983e27832.jpg"
+  },
+  {
+    "name": "ACH_VISIT_BITTER",
+    "defaultvalue": 0,
+    "displayName": "Welcome to Bitterhold",
+    "hidden": 0,
+    "description": "Visit the Bitterhold sign",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/541300/78e53323b32897661aad7cb1f67c307cd53c4416.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/541300/0f2250ace811db5835e0f7b09ea669552cfafb5e.jpg"
+  },
+  {
+    "name": "ACH_INSPECT",
+    "defaultvalue": 0,
+    "displayName": "Check Yourself",
+    "hidden": 0,
+    "description": "View your stats for the first time.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/541300/1812998c239fc428c2935bf77ae1ed90c9d8298a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/541300/376af021148b4c29e31972e6815b0feda28754ae.jpg"
+  },
+  {
+    "name": "ACH_SET_HOME",
+    "defaultvalue": 0,
+    "displayName": "No Place Like Home",
+    "hidden": 0,
+    "description": "Set your home location for the first time.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/541300/78261b2e1a3a7afb1bf87683ccc1db4205599bc3.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/541300/285ebb8d3f0bd61c7fb306ce5a115ce948dc8419.jpg"
+  },
+  {
+    "name": "ACH_OVERALL_HEALTH",
+    "defaultvalue": 0,
+    "displayName": "Getting Stronger",
+    "hidden": 0,
+    "description": "Overall health increased.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/541300/1f835c1757c500aa1c51d83d6d6bb3cdc7be4d35.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/541300/7ec0e84e31883506b743b8f581a954fb1fb49a15.jpg"
+  },
+  {
+    "name": "ACH_TRAIL_FINDER",
+    "defaultvalue": 0,
+    "displayName": "Trailblazer",
+    "hidden": 0,
+    "description": "Old achievement soon to die.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/541300/e7e197ea4af6423c63733fcd11f0aae1b9345541.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/541300/376af021148b4c29e31972e6815b0feda28754ae.jpg"
+  },
+  {
+    "name": "ACH_FIRE_REGEN",
+    "defaultvalue": 0,
+    "displayName": "Feel the Warmth",
+    "hidden": 0,
+    "description": "Heal by standing near a fire",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/541300/dfbe2581dce0c7ce3dbc25e0b001740301fb955d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/541300/46505e1c72a6fdac5b800d7db109448b8d438d76.jpg"
   }
 ]

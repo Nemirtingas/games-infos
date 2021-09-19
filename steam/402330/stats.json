@@ -1,22 +1,27 @@
-﻿{
-  "WaysDied": {
-    "description": "Ways You've Died",
-    "value": 0
+[
+  {
+    "name": "WaysDied",
+    "defaultvalue": 0,
+    "displayName": "Ways You've Died"
   },
-  "PercentComplete": {
-    "description": "Percent of Game",
-    "value": 0
+  {
+    "name": "PercentComplete",
+    "defaultvalue": 0,
+    "displayName": "Percent of Game"
   },
-  "totalShower": {
-    "description": "",
-    "value": 0
+  {
+    "name": "totalShower",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "totalDeath": {
-    "description": "",
-    "value": 0
+  {
+    "name": "totalDeath",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "nutShots": {
-    "description": "Nut Shots",
-    "value": 0
+  {
+    "name": "nutShots",
+    "defaultvalue": 0,
+    "displayName": "Nut Shots"
   }
-}
+]

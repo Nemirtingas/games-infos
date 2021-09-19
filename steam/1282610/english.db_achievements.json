@@ -358,5 +358,149 @@
     "description": "Do 40 air kills",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282610/142d054c5fc50abf1d45315fcd2816a73e762ad3.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282610/a91aee2b2d1efe3c3f44776961dbde78af534560.jpg"
+  },
+  {
+    "name": "laser1",
+    "defaultvalue": 0,
+    "displayName": "Laser Azubi",
+    "hidden": 0,
+    "description": "Do 3 Kills with the laser gun",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282610/1782a455331823d053cb9f31c8fb21fdc02b49a4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282610/5efc57e49caacae2ac94de4c08edc300f0de7519.jpg"
+  },
+  {
+    "name": "laser2",
+    "defaultvalue": 0,
+    "displayName": "Laser Advanced",
+    "hidden": 0,
+    "description": "Do 10 Kills with the laser gun",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282610/a0da3294487382023cd2045b7b78d1a1a4babb60.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282610/5efc57e49caacae2ac94de4c08edc300f0de7519.jpg"
+  },
+  {
+    "name": "laser3",
+    "defaultvalue": 0,
+    "displayName": "Laser Pro",
+    "hidden": 0,
+    "description": "Do 20 Kills with the laser gun",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282610/2a3f9067faef97c27cbb2458974bfb1216110462.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282610/5efc57e49caacae2ac94de4c08edc300f0de7519.jpg"
+  },
+  {
+    "name": "laser4",
+    "defaultvalue": 0,
+    "displayName": "Laser Veteran",
+    "hidden": 0,
+    "description": "Do 40 Kills with the laser gun",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282610/37d5d0ed46ed2c60ee25b53427c9f5201b1027ba.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282610/5efc57e49caacae2ac94de4c08edc300f0de7519.jpg"
+  },
+  {
+    "name": "lightning1",
+    "defaultvalue": 0,
+    "displayName": "Lightning bolt caster",
+    "hidden": 0,
+    "description": "Do 1 kill with the Lightning bolt Item",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282610/2d9509b827c142764a72ea43ff4f74d010275d12.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282610/b9241b2a5db64b3fdb2f014f4b9b90dfe1b7d158.jpg"
+  },
+  {
+    "name": "lightning2",
+    "defaultvalue": 0,
+    "displayName": "Lightning bolt caster Pro",
+    "hidden": 0,
+    "description": "Do 3 kills with the Lightning bolt Item",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282610/d6938eea5b0b409b6842007ec604155f509ae219.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282610/b9241b2a5db64b3fdb2f014f4b9b90dfe1b7d158.jpg"
+  },
+  {
+    "name": "lightning3",
+    "defaultvalue": 0,
+    "displayName": "Lightning bolt caster Veteran",
+    "hidden": 0,
+    "description": "Do 10 kills with the Lightning bolt Item",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282610/2e1ba732344b814d4807fc4f334411fa37d5e81a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282610/b9241b2a5db64b3fdb2f014f4b9b90dfe1b7d158.jpg"
+  },
+  {
+    "name": "lightning4",
+    "defaultvalue": 0,
+    "displayName": "Lightning bolt God",
+    "hidden": 0,
+    "description": "Do 25 kills with the Lightning bolt Item",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282610/ceaa190d1828006e2bb807badfef4fa050412b94.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282610/b9241b2a5db64b3fdb2f014f4b9b90dfe1b7d158.jpg"
+  },
+  {
+    "name": "freeze1",
+    "defaultvalue": 0,
+    "displayName": "Frezzer",
+    "hidden": 0,
+    "description": "Freeze 1 enemy",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282610/e0593a1074ae644870f627b34b4c154322996dd1.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282610/8cf1c8cc5de0dc45d320434e399f68daa97f645e.jpg"
+  },
+  {
+    "name": "freeze2",
+    "defaultvalue": 0,
+    "displayName": "Frezzer Azubi",
+    "hidden": 0,
+    "description": "Freeze 5 enemies",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282610/163944df422adece68dbef48b8be05e215eed521.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282610/085885ca74d10e21835d50b95af10fba0564d210.jpg"
+  },
+  {
+    "name": "freeze3",
+    "defaultvalue": 0,
+    "displayName": "Frezzer Pro",
+    "hidden": 0,
+    "description": "Freeze 15 enemies",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282610/36238e03072433ccd252979ea50c568ffb84c9c6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282610/085885ca74d10e21835d50b95af10fba0564d210.jpg"
+  },
+  {
+    "name": "freeze4",
+    "defaultvalue": 0,
+    "displayName": "Frezzer Veteran",
+    "hidden": 0,
+    "description": "Freeze 30 enemies",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282610/91ad320e4ae65ba8b17860b38368a723524f9bdb.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282610/8cf1c8cc5de0dc45d320434e399f68daa97f645e.jpg"
+  },
+  {
+    "name": "bow1",
+    "defaultvalue": 0,
+    "displayName": "Crossbow Azubi",
+    "hidden": 0,
+    "description": "Do 3 Kills with the crossbow",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282610/f41565f9b1ec4cfa0b950b2aed10c349557fc6fc.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282610/cf994e6904a15715db2880b9141d1f83f1dd249b.jpg"
+  },
+  {
+    "name": "bow2",
+    "defaultvalue": 0,
+    "displayName": "Crossbow Advanced",
+    "hidden": 0,
+    "description": "Do 10 Kills with the crossbow",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282610/dc77e92836d6bbc2126bb6bdb78fb3a9107af9bb.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282610/cf994e6904a15715db2880b9141d1f83f1dd249b.jpg"
+  },
+  {
+    "name": "bow3",
+    "defaultvalue": 0,
+    "displayName": "Crossbow Pro",
+    "hidden": 0,
+    "description": "Do 20 Kills with the crossbow",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282610/32509f6c476700a2ef712652d9a34ca3c6593a9a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282610/06190f551b3a18f240035438d14074c28d048831.jpg"
+  },
+  {
+    "name": "bow4",
+    "defaultvalue": 0,
+    "displayName": "Crossbow Veteran",
+    "hidden": 0,
+    "description": "Do 40 Kills with the crossbow",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282610/cff852f475bdaa19165f0785aeb93797a07ec6c1.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1282610/cf994e6904a15715db2880b9141d1f83f1dd249b.jpg"
   }
 ]

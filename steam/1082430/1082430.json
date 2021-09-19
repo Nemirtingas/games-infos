@@ -1,14 +1,21 @@
 {
   "Dlcs": {},
-  "Name": "Coda",
+  "Name": "Before Your Eyes",
   "AppId": "1082430",
-  "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/1082430/header.jpg?t=1587768768",
+  "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1082430/header.jpg?t=1622672811",
   "Languages": [
-    "english"
+    "english",
+    "french",
+    "german",
+    "spanish",
+    "japanese",
+    "korean",
+    "schinese",
+    "tchinese"
   ],
   "Platforms": {
     "windows": true,
-    "mac": true,
-    "linux": true
+    "mac": false,
+    "linux": false
   }
 }

@@ -108,5 +108,15 @@
     "name": "CURRENT_NEXP_NEW",
     "defaultvalue": 200,
     "displayName": "cexp_rank_system"
+  },
+  {
+    "name": "sv_vacant_rounds",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "sv_vacant_rounds_coop",
+    "defaultvalue": 0,
+    "displayName": ""
   }
 ]

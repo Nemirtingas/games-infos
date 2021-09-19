@@ -1,134 +1,167 @@
-﻿{
-  "CampaignProgress_Campaign01": {
-    "description": "",
-    "value": 0
+[
+  {
+    "name": "CampaignProgress_Campaign01",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "CampaignProgress_Campaign02": {
-    "description": "",
-    "value": 0
+  {
+    "name": "CampaignProgress_Campaign02",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "CampaignProgress_Campaign03": {
-    "description": "",
-    "value": 0
+  {
+    "name": "CampaignProgress_Campaign03",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "CampaignProgress_Campaign04": {
-    "description": "",
-    "value": 0
+  {
+    "name": "CampaignProgress_Campaign04",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "CampaignProgress_Campaign05": {
-    "description": "",
-    "value": 0
+  {
+    "name": "CampaignProgress_Campaign05",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "CampaignProgress_Campaign06": {
-    "description": "",
-    "value": 0
+  {
+    "name": "CampaignProgress_Campaign06",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "CampaignProgress_Campaign07": {
-    "description": "",
-    "value": 0
+  {
+    "name": "CampaignProgress_Campaign07",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "CampaignProgress_Campaign08": {
-    "description": "",
-    "value": 0
+  {
+    "name": "CampaignProgress_Campaign08",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "CampaignProgress_Campaign09": {
-    "description": "",
-    "value": 0
+  {
+    "name": "CampaignProgress_Campaign09",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "CampaignProgress_Campaign10": {
-    "description": "",
-    "value": 0
+  {
+    "name": "CampaignProgress_Campaign10",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "OnBuiltHouses_Count": {
-    "description": "",
-    "value": 0
+  {
+    "name": "OnBuiltHouses_Count",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "OnBuiltBabylonTowers_Count": {
-    "description": "",
-    "value": 0
+  {
+    "name": "OnBuiltBabylonTowers_Count",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "OnBuiltShangWalls_Count": {
-    "description": "",
-    "value": 0
+  {
+    "name": "OnBuiltShangWalls_Count",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "OnUnitDestroyed_Count": {
-    "description": "",
-    "value": 0
+  {
+    "name": "OnUnitDestroyed_Count",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "OnDestroyedTemples_Count": {
-    "description": "",
-    "value": 0
+  {
+    "name": "OnDestroyedTemples_Count",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "OnDestroyedAnimals_Count": {
-    "description": "",
-    "value": 0
+  {
+    "name": "OnDestroyedAnimals_Count",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "OnBuiltHorseArchers_Count": {
-    "description": "",
-    "value": 0
+  {
+    "name": "OnBuiltHorseArchers_Count",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "OnBuiltCenturians_Count": {
-    "description": "",
-    "value": 0
+  {
+    "name": "OnBuiltCenturians_Count",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "OnBuiltAxemen_Count": {
-    "description": "",
-    "value": 0
+  {
+    "name": "OnBuiltAxemen_Count",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "OnBuiltHeavyCatapults_Count": {
-    "description": "",
-    "value": 0
+  {
+    "name": "OnBuiltHeavyCatapults_Count",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "OnBuiltChosonLegions_Count": {
-    "description": "",
-    "value": 0
+  {
+    "name": "OnBuiltChosonLegions_Count",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "OnBuiltAssyrianChariotArchers_Count": {
-    "description": "",
-    "value": 0
+  {
+    "name": "OnBuiltAssyrianChariotArchers_Count",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "OnBuiltMinoanCompositeBowman_Count": {
-    "description": "",
-    "value": 0
+  {
+    "name": "OnBuiltMinoanCompositeBowman_Count",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "OnBuiltEgyptianScytheChariots_Count": {
-    "description": "",
-    "value": 0
+  {
+    "name": "OnBuiltEgyptianScytheChariots_Count",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "OnBuiltMacedonianHoplites_Count": {
-    "description": "",
-    "value": 0
+  {
+    "name": "OnBuiltMacedonianHoplites_Count",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "OnUnitConverted_Count": {
-    "description": "",
-    "value": 0
+  {
+    "name": "OnUnitConverted_Count",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "OnConvertedWithEgyptianPriests_Count": {
-    "description": "",
-    "value": 0
+  {
+    "name": "OnConvertedWithEgyptianPriests_Count",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "OnDestroyedHero_Count": {
-    "description": "",
-    "value": 0
+  {
+    "name": "OnDestroyedHero_Count",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "OnCollectedGold_Count": {
-    "description": "",
-    "value": 0
+  {
+    "name": "OnCollectedGold_Count",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "OnCollectedStone_Count": {
-    "description": "",
-    "value": 0
+  {
+    "name": "OnCollectedStone_Count",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "OnCollectedWood_Count": {
-    "description": "",
-    "value": 0
+  {
+    "name": "OnCollectedWood_Count",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "OnCollectedFood_Count": {
-    "description": "",
-    "value": 0
+  {
+    "name": "OnCollectedFood_Count",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "OnCollectedWoodAsPhoenicians_Count": {
-    "description": "",
-    "value": 0
+  {
+    "name": "OnCollectedWoodAsPhoenicians_Count",
+    "defaultvalue": 0,
+    "displayName": ""
   }
-}
+]

@@ -2,25 +2,18 @@
   "Dlcs": {
     "1245200": {
       "Name": "Marco & The Galaxy Dragon - Luxury Art Book",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/1245200/header.jpg?t=1584534376"
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1245200/header.jpg?t=1608536693",
+      "Type": "dlc"
     },
-    "1254270": {
-      "Name": "Marco & The Galaxy Dragon - Animation Storyboards",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/1254270/header.jpg?t=1583132941"
+    "1245190": {
+      "Name": "Marco & The Galaxy Dragon - Animation Soundtrack",
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1245190/header.jpg?t=1608650463",
+      "Type": "music"
+    },
+    "1245180": {
+      "Name": "Marco & The Galaxy Dragon - Soundtrack",
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1245180/header.jpg?t=1608650382",
+      "Type": "music"
     }
-  },
-  "Name": "Marco & The Galaxy Dragon",
-  "AppId": "1202540",
-  "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/1202540/header.jpg?t=1592831911",
-  "Languages": [
-    "japanese",
-    "english",
-    "schinese",
-    "tchinese"
-  ],
-  "Platforms": {
-    "windows": true,
-    "mac": false,
-    "linux": false
   }
 }

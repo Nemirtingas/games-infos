@@ -1,94 +1,117 @@
-﻿{
-  "s_tanks": {
-    "description": "",
-    "value": 0
+[
+  {
+    "name": "s_tanks",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "s_robots": {
-    "description": "",
-    "value": 0
+  {
+    "name": "s_robots",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "s_aliens1": {
-    "description": "",
-    "value": 0
+  {
+    "name": "s_aliens1",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "s_aliens2": {
-    "description": "",
-    "value": 0
+  {
+    "name": "s_aliens2",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "s_bombs": {
-    "description": "",
-    "value": 0
+  {
+    "name": "s_bombs",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "s_comps": {
-    "description": "",
-    "value": 0
+  {
+    "name": "s_comps",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "s_tags": {
-    "description": "",
-    "value": 0
+  {
+    "name": "s_tags",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "s_die": {
-    "description": "",
-    "value": 0
+  {
+    "name": "s_die",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "s_pistol": {
-    "description": "",
-    "value": 0
+  {
+    "name": "s_pistol",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "s_machinegun": {
-    "description": "",
-    "value": 0
+  {
+    "name": "s_machinegun",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "s_shotgun": {
-    "description": "",
-    "value": 0
+  {
+    "name": "s_shotgun",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "s_rocket": {
-    "description": "",
-    "value": 0
+  {
+    "name": "s_rocket",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "s_squat": {
-    "description": "",
-    "value": 0
+  {
+    "name": "s_squat",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "s_jsquat": {
-    "description": "",
-    "value": 0
+  {
+    "name": "s_jsquat",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "s_tnight": {
-    "description": "",
-    "value": 0
+  {
+    "name": "s_tnight",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "s_tplay": {
-    "description": "",
-    "value": 0
+  {
+    "name": "s_tplay",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "s_angry": {
-    "description": "",
-    "value": 0
+  {
+    "name": "s_angry",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "s_secret": {
-    "description": "",
-    "value": 0
+  {
+    "name": "s_secret",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "s_secret1": {
-    "description": "",
-    "value": 0
+  {
+    "name": "s_secret1",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "s_secret2": {
-    "description": "",
-    "value": 0
+  {
+    "name": "s_secret2",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "s_secret3": {
-    "description": "",
-    "value": 0
+  {
+    "name": "s_secret3",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "s_tplayHelper": {
-    "description": "",
-    "value": 0
+  {
+    "name": "s_tplayHelper",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "tplayHelper2": {
-    "description": "",
-    "value": 0
+  {
+    "name": "tplayHelper2",
+    "defaultvalue": 0,
+    "displayName": ""
   }
-}
+]

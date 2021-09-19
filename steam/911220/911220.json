@@ -1,30 +1,19 @@
 {
   "Dlcs": {
-    "1036116": {
-      "Name": "Dusk Diver-Welcome Summer! swimsuits PACK",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/1036116/header.jpg?t=1571846330"
-    },
     "1036117": {
       "Name": "Dusk Diver-Stage costumes PACK",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/1036117/header.jpg?t=1571846390"
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1036117/header.jpg?t=1571846390",
+      "Type": "dlc"
+    },
+    "1036116": {
+      "Name": "Dusk Diver-Welcome Summer! swimsuits PACK",
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1036116/header.jpg?t=1571846330",
+      "Type": "dlc"
     },
     "1036114": {
       "Name": "Dusk Diver-GOGORISE PACK",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/1036114/header.jpg?t=1553603108"
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1036114/header.jpg?t=1553603108",
+      "Type": "dlc"
     }
-  },
-  "Name": "Dusk Diver 酉閃町",
-  "AppId": "911220",
-  "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/911220/header.jpg?t=1598427867",
-  "Languages": [
-    "tchinese",
-    "japanese",
-    "english",
-    "schinese"
-  ],
-  "Platforms": {
-    "windows": true,
-    "mac": false,
-    "linux": false
   }
 }

@@ -1,34 +1,42 @@
-﻿{
-  "BATTLES_WON": {
-    "description": "Battles Won",
-    "value": 0
+[
+  {
+    "name": "BATTLES_WON",
+    "defaultvalue": 0,
+    "displayName": "Battles Won"
   },
-  "BOMBS_DEFUSED": {
-    "description": "Boms Defused",
-    "value": 0
+  {
+    "name": "BOMBS_DEFUSED",
+    "defaultvalue": 0,
+    "displayName": "Boms Defused"
   },
-  "TUTORIAL_COMPLETED": {
-    "description": "Tutorial Completed",
-    "value": 0
+  {
+    "name": "TUTORIAL_COMPLETED",
+    "defaultvalue": 0,
+    "displayName": "Tutorial Completed"
   },
-  "UNITS_KILLED_BY_MARSHAL": {
-    "description": "Units killed by marshal",
-    "value": 0
+  {
+    "name": "UNITS_KILLED_BY_MARSHAL",
+    "defaultvalue": 0,
+    "displayName": "Units killed by marshal"
   },
-  "SPY_KILLS_MARSHAL": {
-    "description": "Spy kills marshal",
-    "value": 0
+  {
+    "name": "SPY_KILLS_MARSHAL",
+    "defaultvalue": 0,
+    "displayName": "Spy kills marshal"
   },
-  "MARSHALL_KILLS_SPY": {
-    "description": "Marshal kills spy",
-    "value": 0
+  {
+    "name": "MARSHALL_KILLS_SPY",
+    "defaultvalue": 0,
+    "displayName": "Marshal kills spy"
   },
-  "SPY_KILLS_FLAG": {
-    "description": "Spy kills flag",
-    "value": 0
+  {
+    "name": "SPY_KILLS_FLAG",
+    "defaultvalue": 0,
+    "displayName": "Spy kills flag"
   },
-  "SPY_KILLS_SPY": {
-    "description": "Spy kills spy",
-    "value": 0
+  {
+    "name": "SPY_KILLS_SPY",
+    "defaultvalue": 0,
+    "displayName": "Spy kills spy"
   }
-}
+]

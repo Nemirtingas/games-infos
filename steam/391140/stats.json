@@ -1,42 +1,52 @@
-﻿{
-  "endless_height": {
-    "description": "Endless mode height",
-    "value": 0
+[
+  {
+    "name": "endless_height",
+    "defaultvalue": 0,
+    "displayName": "Endless mode height"
   },
-  "time_played": {
-    "description": "time played",
-    "value": 0
+  {
+    "name": "time_played",
+    "defaultvalue": 0,
+    "displayName": "time played"
   },
-  "profile_level": {
-    "description": "profile level",
-    "value": 0
+  {
+    "name": "profile_level",
+    "defaultvalue": 0,
+    "displayName": "profile level"
   },
-  "achievement_points": {
-    "description": "achievement points",
-    "value": 0
+  {
+    "name": "achievement_points",
+    "defaultvalue": 0,
+    "displayName": "achievement points"
   },
-  "games_played": {
-    "description": "games played",
-    "value": 0
+  {
+    "name": "games_played",
+    "defaultvalue": 0,
+    "displayName": "games played"
   },
-  "enemies_killed": {
-    "description": "enemies killed",
-    "value": 0
+  {
+    "name": "enemies_killed",
+    "defaultvalue": 0,
+    "displayName": "enemies killed"
   },
-  "bosses_killed": {
-    "description": "bosses killed",
-    "value": 0
+  {
+    "name": "bosses_killed",
+    "defaultvalue": 0,
+    "displayName": "bosses killed"
   },
-  "base_level": {
-    "description": "Base level",
-    "value": 0
+  {
+    "name": "base_level",
+    "defaultvalue": 0,
+    "displayName": "Base level"
   },
-  "time_charged": {
-    "description": "Time Charged",
-    "value": 0
+  {
+    "name": "time_charged",
+    "defaultvalue": 0,
+    "displayName": "Time Charged"
   },
-  "max_combo": {
-    "description": "Maximum Combo",
-    "value": 0
+  {
+    "name": "max_combo",
+    "defaultvalue": 0,
+    "displayName": "Maximum Combo"
   }
-}
+]

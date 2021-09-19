@@ -1,74 +1,92 @@
-﻿{
-  "people": {
-    "description": "people",
-    "value": 0
+[
+  {
+    "name": "people",
+    "defaultvalue": 0,
+    "displayName": "people"
   },
-  "buildings": {
-    "description": "buildings",
-    "value": 0
+  {
+    "name": "buildings",
+    "defaultvalue": 0,
+    "displayName": "buildings"
   },
-  "decorations": {
-    "description": "decorations",
-    "value": 0
+  {
+    "name": "decorations",
+    "defaultvalue": 0,
+    "displayName": "decorations"
   },
-  "castleBuildings": {
-    "description": "castleBuildings",
-    "value": 0
+  {
+    "name": "castleBuildings",
+    "defaultvalue": 0,
+    "displayName": "castleBuildings"
   },
-  "castleWalls": {
-    "description": "castleWalls",
-    "value": 0
+  {
+    "name": "castleWalls",
+    "defaultvalue": 0,
+    "displayName": "castleWalls"
   },
-  "cityCapacity": {
-    "description": "cityCapacity",
-    "value": 0
+  {
+    "name": "cityCapacity",
+    "defaultvalue": 0,
+    "displayName": "cityCapacity"
   },
-  "peopleTrained": {
-    "description": "peopleTrained",
-    "value": 0
+  {
+    "name": "peopleTrained",
+    "defaultvalue": 0,
+    "displayName": "peopleTrained"
   },
-  "chickensGrown": {
-    "description": "chickensGrown",
-    "value": 0
+  {
+    "name": "chickensGrown",
+    "defaultvalue": 0,
+    "displayName": "chickensGrown"
   },
-  "cowsGrown": {
-    "description": "cowsGrown",
-    "value": 0
+  {
+    "name": "cowsGrown",
+    "defaultvalue": 0,
+    "displayName": "cowsGrown"
   },
-  "pasturesSquare": {
-    "description": "pasturesSquare",
-    "value": 0
+  {
+    "name": "pasturesSquare",
+    "defaultvalue": 0,
+    "displayName": "pasturesSquare"
   },
-  "fieldsSquare": {
-    "description": "fieldsSquare",
-    "value": 0
+  {
+    "name": "fieldsSquare",
+    "defaultvalue": 0,
+    "displayName": "fieldsSquare"
   },
-  "goodsBought": {
-    "description": "goodsBought",
-    "value": 0
+  {
+    "name": "goodsBought",
+    "defaultvalue": 0,
+    "displayName": "goodsBought"
   },
-  "abilitiesUsed": {
-    "description": "abilitiesUsed",
-    "value": 0
+  {
+    "name": "abilitiesUsed",
+    "defaultvalue": 0,
+    "displayName": "abilitiesUsed"
   },
-  "treesPlanted": {
-    "description": "treesPlanted",
-    "value": 0
+  {
+    "name": "treesPlanted",
+    "defaultvalue": 0,
+    "displayName": "treesPlanted"
   },
-  "animalsKilled": {
-    "description": "animalsKilled",
-    "value": 0
+  {
+    "name": "animalsKilled",
+    "defaultvalue": 0,
+    "displayName": "animalsKilled"
   },
-  "animalsKilledOnFarm": {
-    "description": "animalsKilledOnFarm",
-    "value": 0
+  {
+    "name": "animalsKilledOnFarm",
+    "defaultvalue": 0,
+    "displayName": "animalsKilledOnFarm"
   },
-  "expeditionsSucceeded": {
-    "description": "expeditionsSucceeded",
-    "value": 0
+  {
+    "name": "expeditionsSucceeded",
+    "defaultvalue": 0,
+    "displayName": "expeditionsSucceeded"
   },
-  "nights": {
-    "description": "nights",
-    "value": 0
+  {
+    "name": "nights",
+    "defaultvalue": 0,
+    "displayName": "nights"
   }
-}
+]

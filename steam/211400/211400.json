@@ -1,24 +1,9 @@
-﻿{
+{
   "Dlcs": {
     "211419": {
       "Name": "Deadlight Original Soundtrack",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/211419/header.jpg?t=1447356819"
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/211419/header.jpg?t=1447356819",
+      "Type": "dlc"
     }
-  },
-  "Name": "Deadlight",
-  "AppId": "211400",
-  "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/211400/header.jpg?t=1572884044",
-  "Languages": [
-    "english",
-    "german",
-    "french",
-    "italian",
-    "spanish",
-    "japanese"
-  ],
-  "Platforms": {
-    "windows": true,
-    "mac": false,
-    "linux": false
   }
 }

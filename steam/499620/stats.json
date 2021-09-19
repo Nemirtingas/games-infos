@@ -1,10 +1,12 @@
-﻿{
-  "ridesN": {
-    "description": "Rides finished",
-    "value": 0
+[
+  {
+    "name": "ridesN",
+    "defaultvalue": 0,
+    "displayName": "Rides finished"
   },
-  "adsN": {
-    "description": "Billboards destroyed",
-    "value": 0
+  {
+    "name": "adsN",
+    "defaultvalue": 0,
+    "displayName": "Billboards destroyed"
   }
-}
+]

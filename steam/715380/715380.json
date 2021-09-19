@@ -1,8 +1,14 @@
-﻿{
-  "Dlcs": {},
+{
+  "Dlcs": {
+    "1459970": {
+      "Name": "Those Who Remain - Lights Out Comic",
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1459970/header.jpg?t=1605019506",
+      "Type": "dlc"
+    }
+  },
   "Name": "Those Who Remain",
   "AppId": "715380",
-  "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/715380/header.jpg?t=1592421122",
+  "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/715380/header.jpg?t=1629797546",
   "Languages": [
     "english",
     "french",
@@ -15,7 +21,8 @@
     "japanese",
     "korean",
     "polish",
-    "portuguese"
+    "portuguese",
+    "hungarian"
   ],
   "Platforms": {
     "windows": true,

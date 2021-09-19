@@ -1,18 +1,22 @@
-﻿{
-  "gameplays": {
-    "description": "gameplays",
-    "value": 0
+[
+  {
+    "name": "gameplays",
+    "defaultvalue": 0,
+    "displayName": "gameplays"
   },
-  "alldrives": {
-    "description": "floppies",
-    "value": 0
+  {
+    "name": "alldrives",
+    "defaultvalue": 0,
+    "displayName": "floppies"
   },
-  "allsecrets": {
-    "description": "segredos uwu",
-    "value": 0
+  {
+    "name": "allsecrets",
+    "defaultvalue": 0,
+    "displayName": "segredos uwu"
   },
-  "deaths": {
-    "description": "deaths",
-    "value": 0
+  {
+    "name": "deaths",
+    "defaultvalue": 0,
+    "displayName": "deaths"
   }
-}
+]

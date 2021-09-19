@@ -236,7 +236,7 @@
     "defaultvalue": 0,
     "displayName": "Matrix",
     "hidden": 0,
-    "description": "Play Martix game mode",
+    "description": "Play Matrix game mode",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1304550/db27bf812fd61d1c5682a41f1cd5aa9b6317cbc9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1304550/45daa7899b9272488eeef6d48c2e5838b810a9ae.jpg"
   },
@@ -562,5 +562,234 @@
     "description": "Unlock skin",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1304550/dc4afaa8bb976c67744e80023749540724c2cf58.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1304550/198905739ec1322711e6414d47f176355a2aef71.jpg"
+  },
+  {
+    "name": "p36",
+    "defaultvalue": 0,
+    "displayName": "Progressbar NOT 3.60",
+    "hidden": 0,
+    "description": "Unlock skin",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1304550/3f055a2389385c1fee3bd9953f4fb677a6443700.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1304550/96b2514beb2211515272beb6b5133f6ff5d59788.jpg"
+  },
+  {
+    "name": "customgame",
+    "defaultvalue": 0,
+    "displayName": "My own rules",
+    "hidden": 0,
+    "description": "Play a custom game mode",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1304550/8e67141c3895ddde9be1aa40d3a29fcc86634254.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1304550/f5758fe29cea614b8b724175097e8110dd3c26a6.jpg"
+  },
+  {
+    "name": "cgameimpossible",
+    "defaultvalue": 0,
+    "displayName": "Mission possible",
+    "hidden": 0,
+    "description": "Beat impossible difficulty playing high stages",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1304550/460b418e32e85a507793554221af53e3ebf2a5f0.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1304550/ded2f07808298e6d754cc87a31b014c287390fc1.jpg"
+  },
+  {
+    "name": "ieye",
+    "defaultvalue": 0,
+    "displayName": "Catch eye",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1304550/f9c9e692ecd2eefc11e6a4735903c799eaac7f81.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1304550/d6a17cc53e394de4771f99011168766b40d4260b.jpg"
+  },
+  {
+    "name": "slidepuzzle",
+    "defaultvalue": 0,
+    "displayName": "Sliding puzzle",
+    "hidden": 0,
+    "description": "Solve a puzzle",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1304550/15ed0d4d655f65ae47b5689bdab47e8df4c5471b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1304550/5043e73040f9cff0a5e76d73b6f2d9534062c866.jpg"
+  },
+  {
+    "name": "magenta",
+    "defaultvalue": 0,
+    "displayName": "Magenta is a new blue",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1304550/a76c9fe6abc5ea034e952f94a66f55375ee0bf9c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1304550/413ae8e8b26cdc91242dea1a21a911591ed13073.jpg"
+  },
+  {
+    "name": "outerspace",
+    "defaultvalue": 0,
+    "displayName": "Outer space",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1304550/eca2a678dab92b3734c7fa7fa649e29e0f51d480.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1304550/ddfe40a54ff08282c4c8ba426a1c98355618f0d9.jpg"
+  },
+  {
+    "name": "ba1",
+    "defaultvalue": 0,
+    "displayName": "Different system",
+    "hidden": 0,
+    "description": "Unlock BarOS",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1304550/90af9a0b780e72c05590fecf3c1aeefe3eadf697.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1304550/29cd84c5732d1b3984cfe9cfe1aa1d36a0ed4557.jpg"
+  },
+  {
+    "name": "ba2",
+    "defaultvalue": 0,
+    "displayName": "Bar OS System 2",
+    "hidden": 0,
+    "description": "Unlock skin",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1304550/2d91e1011de6568fa2123c2695a2fc21e71cafd3.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1304550/c41a42af83025454279c0f2690f601f0c4517b24.jpg"
+  },
+  {
+    "name": "ba3",
+    "defaultvalue": 0,
+    "displayName": "Bar OS System 3",
+    "hidden": 0,
+    "description": "Unlock skin",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1304550/c891bb1d0a8b9e97ef7c621fb19d1fe31914fd3d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1304550/9f32968f533c0c7e3ec46064fe6b0e1cfbb09938.jpg"
+  },
+  {
+    "name": "ba4",
+    "defaultvalue": 0,
+    "displayName": " Bar OS System 4",
+    "hidden": 0,
+    "description": "Unlock skin",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1304550/d75b57b365c7ac86fc08aa0754ce38808dce886c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1304550/d2a74773e71773d89acd40298309c33854d7d0b7.jpg"
+  },
+  {
+    "name": "ba5",
+    "defaultvalue": 0,
+    "displayName": " Bar OS System 5",
+    "hidden": 0,
+    "description": "Unlock skin",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1304550/73e1c58ab9043d8cdbf0c797301d8da4fc007ffc.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1304550/cc6b2ee18e462a36f2b27168570a2e11f7dfbc99.jpg"
+  },
+  {
+    "name": "ba6",
+    "defaultvalue": 0,
+    "displayName": "Bar OS System 6",
+    "hidden": 0,
+    "description": "Unlock skin",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1304550/97f51a897a2cdb78206f8bd0b5a9c37a84ea3b2b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1304550/1118f38c2da0aa3aee835d0dde00652c58143233.jpg"
+  },
+  {
+    "name": "ba7",
+    "defaultvalue": 0,
+    "displayName": "Bar OS System 7",
+    "hidden": 0,
+    "description": "Unlock skin",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1304550/b3f89b885006d797372972d953c1a79df9cc411f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1304550/4c675df81a9fc6c21e8c5265bae3fc00778c58bb.jpg"
+  },
+  {
+    "name": "rainbow",
+    "defaultvalue": 0,
+    "displayName": "ROYGBIV",
+    "hidden": 0,
+    "description": "Collect color spectrum",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1304550/38e6d2fd4f14b801895852a5be10d931ea2e0804.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1304550/6f8eceb56bfa03100b04c001355aaeb21ab98542.jpg"
+  },
+  {
+    "name": "ba8",
+    "defaultvalue": 0,
+    "displayName": " Bar OS 8",
+    "hidden": 0,
+    "description": "Unlock skin",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1304550/b64bf4fd91d0e96cb361eddee3bfd1f1e2c54fed.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1304550/26e0178f69a8192c2b1d960161e6051b9926f1db.jpg"
+  },
+  {
+    "name": "ba9",
+    "defaultvalue": 0,
+    "displayName": "Bar OS 9",
+    "hidden": 0,
+    "description": "Unlock skin",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1304550/f1d5fe9163dcd41cca0ca0fd2799983638f3f8cf.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1304550/04104bc57f3525f8a37ad16218dd517aa9141313.jpg"
+  },
+  {
+    "name": "b10",
+    "defaultvalue": 0,
+    "displayName": "Bar OS 10",
+    "hidden": 0,
+    "description": "Unlock skin",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1304550/f89ed919c1733688699c8fa861d8b92fd5f9df0f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1304550/cdfdc887ed04458f180814ab4d3c0aa9deabd33c.jpg"
+  },
+  {
+    "name": "rmrf",
+    "defaultvalue": 0,
+    "displayName": "RMRF",
+    "hidden": 0,
+    "description": "Clean without question",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1304550/c2e446bd6fd1550373b4d46d9429b3350d3a5d4b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1304550/d77b293d737e947f53b8e5f6cdef20095e1e9edc.jpg"
+  },
+  {
+    "name": "dontpanic",
+    "defaultvalue": 0,
+    "displayName": "Don't panic!",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1304550/1dced8c562be33c87a50dd661d1048a7c53a3090.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1304550/771736ced156393c5a270562eb1fe5189eb9ffff.jpg"
+  },
+  {
+    "name": "b11",
+    "defaultvalue": 0,
+    "displayName": "Bar OS 10.II",
+    "hidden": 0,
+    "description": "Unlock skin",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1304550/b4e02f36aaed639604ddddd867b30b1993dc939e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1304550/28a6528e3f9707464ec685c0f42186de53d78451.jpg"
+  },
+  {
+    "name": "b12",
+    "defaultvalue": 0,
+    "displayName": "Bar OS 10.III",
+    "hidden": 0,
+    "description": "Unlock skin",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1304550/e4a960dbe4fedbb4b0cde2c0e03f9f1fc1a5311f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1304550/7ebeee19af58d2940d5ad6b586748ded14944faa.jpg"
+  },
+  {
+    "name": "ctrlaltdel",
+    "defaultvalue": 0,
+    "displayName": "Ctrl+Alt+Del",
+    "hidden": 0,
+    "description": "Three keys",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1304550/67933ea7cfb3e6379955bd5fe4f29c95d3036bb3.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1304550/f5dcb9e0285f03d2f0037241de42e8cf3a780e09.jpg"
+  },
+  {
+    "name": "b13",
+    "defaultvalue": 0,
+    "displayName": "Bar OS 11 Loud Purr",
+    "hidden": 0,
+    "description": "Unlock skin",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1304550/580711eacd0cd1123a2f5b97c7cd2ccab8b1df80.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1304550/b94fd87515aa345a039900349685402665e61afc.jpg"
+  },
+  {
+    "name": "p11",
+    "defaultvalue": 0,
+    "displayName": "Progressbar 11",
+    "hidden": 0,
+    "description": "Unlock skin",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1304550/5206be2e7e246ab0ac3481e597fccf71f04d6f6c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1304550/305cb611030d12bf1320b4ff6a82c5e6ee146425.jpg"
+  },
+  {
+    "name": "null",
+    "defaultvalue": 0,
+    "displayName": "Null",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1304550/47d50e1855f96640b408901adcada9c40cf3cc5b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1304550/1440bf4b8f69869d14f9132c1977ee41fb00186b.jpg"
   }
 ]

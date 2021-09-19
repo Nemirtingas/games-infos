@@ -1,62 +1,77 @@
-﻿{
-  "kill_ground_units_lvl1_sp_STAT": {
-    "description": "Destruction begins",
-    "value": 0
+[
+  {
+    "name": "kill_ground_units_lvl1_sp_STAT",
+    "defaultvalue": 0,
+    "displayName": "Destruction begins"
   },
-  "kill_ground_units_lvl1_cp_STAT": {
-    "description": "Hunting season",
-    "value": 0
+  {
+    "name": "kill_ground_units_lvl1_cp_STAT",
+    "defaultvalue": 0,
+    "displayName": "Hunting season"
   },
-  "kill_ground_units_lvl2_sp_STAT": {
-    "description": "Kill, crush and destroy",
-    "value": 0
+  {
+    "name": "kill_ground_units_lvl2_sp_STAT",
+    "defaultvalue": 0,
+    "displayName": "Kill, crush and destroy"
   },
-  "kill_ground_units_lvl2_cp_STAT": {
-    "description": "This world is too small for us",
-    "value": 0
+  {
+    "name": "kill_ground_units_lvl2_cp_STAT",
+    "defaultvalue": 0,
+    "displayName": "This world is too small for us"
   },
-  "kill_air_units_lvl1_sp_STAT": {
-    "description": "One shot, one kill",
-    "value": 0
+  {
+    "name": "kill_air_units_lvl1_sp_STAT",
+    "defaultvalue": 0,
+    "displayName": "One shot, one kill"
   },
-  "kill_air_units_lvl1_cp_STAT": {
-    "description": "Flies are annoying",
-    "value": 0
+  {
+    "name": "kill_air_units_lvl1_cp_STAT",
+    "defaultvalue": 0,
+    "displayName": "Flies are annoying"
   },
-  "kill_air_units_lvl2_sp_STAT": {
-    "description": "Fireworks",
-    "value": 0
+  {
+    "name": "kill_air_units_lvl2_sp_STAT",
+    "defaultvalue": 0,
+    "displayName": "Fireworks"
   },
-  "kill_air_units_lvl2_cp_STAT": {
-    "description": "This airspace belongs to us now",
-    "value": 0
+  {
+    "name": "kill_air_units_lvl2_cp_STAT",
+    "defaultvalue": 0,
+    "displayName": "This airspace belongs to us now"
   },
-  "destroy_props_lvl1_sp_STAT": {
-    "description": "They won't need it anymore",
-    "value": 0
+  {
+    "name": "destroy_props_lvl1_sp_STAT",
+    "defaultvalue": 0,
+    "displayName": "They won't need it anymore"
   },
-  "destroy_props_lvl2_sp_STAT": {
-    "description": "I'm looking for treasure",
-    "value": 0
+  {
+    "name": "destroy_props_lvl2_sp_STAT",
+    "defaultvalue": 0,
+    "displayName": "I'm looking for treasure"
   },
-  "destroy_props_lvl1_cp_STAT": {
-    "description": "It was ugly anyway...",
-    "value": 0
+  {
+    "name": "destroy_props_lvl1_cp_STAT",
+    "defaultvalue": 0,
+    "displayName": "It was ugly anyway..."
   },
-  "destroy_props_lvl2_cp_STAT": {
-    "description": "BOOM!",
-    "value": 0
+  {
+    "name": "destroy_props_lvl2_cp_STAT",
+    "defaultvalue": 0,
+    "displayName": "BOOM!"
   },
-  "survival_kill_lvl1_STAT": {
-    "description": "Hardcore olympic games.",
-    "value": 0
+  {
+    "name": "survival_kill_lvl1_STAT",
+    "defaultvalue": 0,
+    "displayName": "Hardcore olympic games."
   },
-  "survival_kill_lvl2_STAT": {
-    "description": "They are not good enough for me.",
-    "value": 0
+  {
+    "name": "survival_kill_lvl2_STAT",
+    "defaultvalue": 0,
+    "displayName": "They are not good enough for me."
   },
-  "survival_kill_lvl3_STAT": {
-    "description": "The best defense is a good offense.",
-    "value": 0
+  {
+    "name": "survival_kill_lvl3_STAT",
+    "defaultvalue": 0,
+    "displayName": "The best defense is a good offense."
   }
-}
+]

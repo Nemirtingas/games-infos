@@ -448,5 +448,68 @@
     "description": "Mined and collected coal",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/619500/1b21fc038e061bfe72a3f9b56956b9ea0fb9e9ee.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/619500/1c29a6b5e1c575707ea33acbc2d9311cce60e4a1.jpg"
+  },
+  {
+    "name": "A_S_PlacedFurnace",
+    "defaultvalue": 0,
+    "displayName": "A Huge Furnace!",
+    "hidden": 0,
+    "description": "Placed a furnace",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/619500/d9295ae3c5dd6f7a9a193aca90c104fd5dafc09a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/619500/8c8e164ee95d07578ca5ab28c50f93bff51c511b.jpg"
+  },
+  {
+    "name": "A_S_Smelter",
+    "defaultvalue": 0,
+    "displayName": "Smelter",
+    "hidden": 0,
+    "description": "Smelted Iron Ore to Iron in the Furnace",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/619500/3166e855a141ac53ff3bbe8df17b62d0628c0f60.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/619500/8d17da123078a901ea1efc621f4deeebea279418.jpg"
+  },
+  {
+    "name": "A_S_GeckoGrabber",
+    "defaultvalue": 0,
+    "displayName": "Gecko Grabber",
+    "hidden": 0,
+    "description": "Grabbed a Gecko",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/619500/c1b6fab1cc6d871b972f49fdca7627e7977e4652.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/619500/50ed83c038cce9faf56ec844df9558cc4345845a.jpg"
+  },
+  {
+    "name": "A_S_IronSledgehammer",
+    "defaultvalue": 0,
+    "displayName": "Very Heavy Tool",
+    "hidden": 0,
+    "description": "Crafted an Iron Sledgehammer",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/619500/a0e6c1b8a94a13dfd7521511b34272df378285da.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/619500/13992926557574b81ff1a60a083dee816a9d6acc.jpg"
+  },
+  {
+    "name": "A_S_Transparent",
+    "defaultvalue": 0,
+    "displayName": "Transparent",
+    "hidden": 0,
+    "description": "Placed a Glass Block",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/619500/ebd8708e301df268cb9de8eaec2eff7b036ec0d3.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/619500/76da4395b28db8dd20e945ba3eda849ec229ff85.jpg"
+  },
+  {
+    "name": "A_S_BuildingWithMagic",
+    "defaultvalue": 0,
+    "displayName": "Building With Magic",
+    "hidden": 0,
+    "description": "Placed multiple blocks at once using crystal assisted block placement",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/619500/98ece5d095bf364a04b6dacbf84faeb4777e68ec.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/619500/f42a3238ca43f3aa3f2b77ee46cc8567b8d97f99.jpg"
+  },
+  {
+    "name": "A_S_GravityGlove",
+    "defaultvalue": 0,
+    "displayName": "Gravity Glove",
+    "hidden": 0,
+    "description": "Grabbed something using gravity gloves",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/619500/04f79fe18c8a039f62a49f9adadd7fc3e43334b6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/619500/6a03a33f0bc53461f7a7642227eea05665becd13.jpg"
   }
 ]

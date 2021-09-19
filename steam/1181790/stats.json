@@ -53,5 +53,15 @@
     "name": "EmotesUnlocked",
     "defaultvalue": 0,
     "displayName": "Unlocked emotes"
+  },
+  {
+    "name": "PlayedMatchesTournamentOneVersusOne",
+    "defaultvalue": 0,
+    "displayName": "Played in-game tournament matches"
+  },
+  {
+    "name": "TournamentsCompleted",
+    "defaultvalue": 0,
+    "displayName": "Number of participations to an in-game tournament"
   }
 ]

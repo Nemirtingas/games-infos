@@ -1,14 +1,17 @@
-﻿{
-  "stat_timesunk": {
-    "description": "Time Sunk",
-    "value": 0
+[
+  {
+    "name": "stat_timesunk",
+    "defaultvalue": 0,
+    "displayName": "Time Sunk"
   },
-  "stat_depths": {
-    "description": "Achievements Unlocked",
-    "value": 0
+  {
+    "name": "stat_depths",
+    "defaultvalue": 0,
+    "displayName": "Achievements Unlocked"
   },
-  "stat_kitchen": {
-    "description": "Objects Placed",
-    "value": 0
+  {
+    "name": "stat_kitchen",
+    "defaultvalue": 0,
+    "displayName": "Objects Placed"
   }
-}
+]

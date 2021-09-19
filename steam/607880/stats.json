@@ -1,14 +1,17 @@
-﻿{
-  "HONOR_CHECK_GET_ALL_TROPHY": {
-    "description": "",
-    "value": 0
+[
+  {
+    "name": "HONOR_CHECK_GET_ALL_TROPHY",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "HONOR_CHECK_WEAPON_RANK_MAX": {
-    "description": "",
-    "value": 0
+  {
+    "name": "HONOR_CHECK_WEAPON_RANK_MAX",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "HONOR_CHECK_HONOR_NUM": {
-    "description": "",
-    "value": 0
+  {
+    "name": "HONOR_CHECK_HONOR_NUM",
+    "defaultvalue": 0,
+    "displayName": ""
   }
-}
+]

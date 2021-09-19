@@ -1,14 +1,17 @@
-﻿{
-  "PAVLOV_STAT_XP": {
-    "description": "Exp",
-    "value": 0
+[
+  {
+    "name": "PAVLOV_STAT_XP",
+    "defaultvalue": 0,
+    "displayName": "Exp"
   },
-  "PAVLOV_STAT_KILLS": {
-    "description": "Kills",
-    "value": 0
+  {
+    "name": "PAVLOV_STAT_KILLS",
+    "defaultvalue": 0,
+    "displayName": "Kills"
   },
-  "PAVLOV_STAT_DEATHS": {
-    "description": "Deaths",
-    "value": 0
+  {
+    "name": "PAVLOV_STAT_DEATHS",
+    "defaultvalue": 0,
+    "displayName": "Deaths"
   }
-}
+]

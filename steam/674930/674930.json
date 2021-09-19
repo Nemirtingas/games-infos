@@ -1,18 +1,26 @@
 {
-  "Dlcs": {},
+  "Dlcs": {
+    "1159710": {
+      "Name": "Boyfriend Dungeon Original Soundtrack",
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1159710/header.jpg?t=1628701104",
+      "Type": "music"
+    }
+  },
   "Name": "Boyfriend Dungeon",
   "AppId": "674930",
-  "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/674930/header.jpg?t=1600112138",
+  "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/674930/header.jpg?t=1631115974",
   "Languages": [
     "english",
     "french",
     "japanese",
     "schinese",
-    "tchinese"
+    "german",
+    "russian",
+    "portuguese"
   ],
   "Platforms": {
     "windows": true,
-    "mac": false,
-    "linux": false
+    "mac": true,
+    "linux": true
   }
 }

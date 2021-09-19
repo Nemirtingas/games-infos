@@ -1,22 +1,25 @@
 {
   "Dlcs": {
     "954690": {
-      "Name": "",
-      "ImageUrl": ""
+      "Name": "Not Tonight (Original Soundtrack)",
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/954690/header.jpg?t=1587457206",
+      "Type": "music"
     },
     "1036480": {
       "Name": "Not Tonight: One Love",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/1036480/header.jpg?t=1561483436"
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1036480/header.jpg?t=1561483436",
+      "Type": "dlc"
     }
   },
   "Name": "Not Tonight",
   "AppId": "733790",
-  "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/733790/header.jpg?t=1589284073",
+  "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/733790/header.jpg?t=1628783621",
   "Languages": [
     "english",
     "schinese",
     "spanish",
-    "french"
+    "french",
+    "japanese"
   ],
   "Platforms": {
     "windows": true,

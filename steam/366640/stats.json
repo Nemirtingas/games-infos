@@ -1,174 +1,217 @@
-﻿{
-  "3_0": {
-    "description": "kill_meos",
-    "value": 0
+[
+  {
+    "name": "3_0",
+    "defaultvalue": 0,
+    "displayName": "kill_meos"
   },
-  "3_1": {
-    "description": "kill_mother",
-    "value": 0
+  {
+    "name": "3_1",
+    "defaultvalue": 0,
+    "displayName": "kill_mother"
   },
-  "3_2": {
-    "description": "kill_ayron",
-    "value": 0
+  {
+    "name": "3_2",
+    "defaultvalue": 0,
+    "displayName": "kill_ayron"
   },
-  "3_3": {
-    "description": "group_complete",
-    "value": 0
+  {
+    "name": "3_3",
+    "defaultvalue": 0,
+    "displayName": "group_complete"
   },
-  "3_4": {
-    "description": "kill_irys",
-    "value": 0
+  {
+    "name": "3_4",
+    "defaultvalue": 0,
+    "displayName": "kill_irys"
   },
-  "3_5": {
-    "description": "kill_kaoris",
-    "value": 0
+  {
+    "name": "3_5",
+    "defaultvalue": 0,
+    "displayName": "kill_kaoris"
   },
-  "3_6": {
-    "description": "help_secret_sister",
-    "value": 0
+  {
+    "name": "3_6",
+    "defaultvalue": 0,
+    "displayName": "help_secret_sister"
   },
-  "3_7": {
-    "description": "resolve_9_pillars",
-    "value": 0
+  {
+    "name": "3_7",
+    "defaultvalue": 0,
+    "displayName": "resolve_9_pillars"
   },
-  "3_8": {
-    "description": "contract_complete",
-    "value": 0
+  {
+    "name": "3_8",
+    "defaultvalue": 0,
+    "displayName": "contract_complete"
   },
-  "3_9": {
-    "description": "craft_10",
-    "value": 0
+  {
+    "name": "3_9",
+    "defaultvalue": 0,
+    "displayName": "craft_10"
   },
-  "3_10": {
-    "description": "interest_10",
-    "value": 0
+  {
+    "name": "3_10",
+    "defaultvalue": 0,
+    "displayName": "interest_10"
   },
-  "3_11": {
-    "description": "get_amos",
-    "value": 0
+  {
+    "name": "3_11",
+    "defaultvalue": 0,
+    "displayName": "get_amos"
   },
-  "3_12": {
-    "description": "unlock_plant",
-    "value": 0
+  {
+    "name": "3_12",
+    "defaultvalue": 0,
+    "displayName": "unlock_plant"
   },
-  "3_13": {
-    "description": "unlock_thunder",
-    "value": 0
+  {
+    "name": "3_13",
+    "defaultvalue": 0,
+    "displayName": "unlock_thunder"
   },
-  "3_14": {
-    "description": "combat_perfect",
-    "value": 0
+  {
+    "name": "3_14",
+    "defaultvalue": 0,
+    "displayName": "combat_perfect"
   },
-  "3_15": {
-    "description": "win_nomagic_100",
-    "value": 0
+  {
+    "name": "3_15",
+    "defaultvalue": 0,
+    "displayName": "win_nomagic_100"
   },
-  "3_16": {
-    "description": "win_onlymagic_100",
-    "value": 0
+  {
+    "name": "3_16",
+    "defaultvalue": 0,
+    "displayName": "win_onlymagic_100"
   },
-  "3_17": {
-    "description": "catch_wildlife_50",
-    "value": 0
+  {
+    "name": "3_17",
+    "defaultvalue": 0,
+    "displayName": "catch_wildlife_50"
   },
-  "3_18": {
-    "description": "get_uzu",
-    "value": 0
+  {
+    "name": "3_18",
+    "defaultvalue": 0,
+    "displayName": "get_uzu"
   },
-  "3_19": {
-    "description": "give_uzu",
-    "value": 0
+  {
+    "name": "3_19",
+    "defaultvalue": 0,
+    "displayName": "give_uzu"
   },
-  "3_20": {
-    "description": "inflict_guardbreak_100",
-    "value": 0
+  {
+    "name": "3_20",
+    "defaultvalue": 0,
+    "displayName": "inflict_guardbreak_100"
   },
-  "3_21": {
-    "description": "rank_s_100",
-    "value": 0
+  {
+    "name": "3_21",
+    "defaultvalue": 0,
+    "displayName": "rank_s_100"
   },
-  "3_22": {
-    "description": "group_rank_50",
-    "value": 0
+  {
+    "name": "3_22",
+    "defaultvalue": 0,
+    "displayName": "group_rank_50"
   },
-  "3_23": {
-    "description": "capture_wildlife_all",
-    "value": 0
+  {
+    "name": "3_23",
+    "defaultvalue": 0,
+    "displayName": "capture_wildlife_all"
   },
-  "3_24": {
-    "description": "beat_monsters_all",
-    "value": 0
+  {
+    "name": "3_24",
+    "defaultvalue": 0,
+    "displayName": "beat_monsters_all"
   },
-  "3_25": {
-    "description": "group_affinity4_max",
-    "value": 0
+  {
+    "name": "3_25",
+    "defaultvalue": 0,
+    "displayName": "group_affinity4_max"
   },
-  "3_26": {
-    "description": "finish_quest_contract_all",
-    "value": 0
+  {
+    "name": "3_26",
+    "defaultvalue": 0,
+    "displayName": "finish_quest_contract_all"
   },
-  "3_27": {
-    "description": "unlock_technic_all",
-    "value": 0
+  {
+    "name": "3_27",
+    "defaultvalue": 0,
+    "displayName": "unlock_technic_all"
   },
-  "3_28": {
-    "description": "unlock_shi_all",
-    "value": 0
+  {
+    "name": "3_28",
+    "defaultvalue": 0,
+    "displayName": "unlock_shi_all"
   },
-  "3_29": {
-    "description": "unlock_tactic_all",
-    "value": 0
+  {
+    "name": "3_29",
+    "defaultvalue": 0,
+    "displayName": "unlock_tactic_all"
   },
-  "3_30": {
-    "description": "get_item_invisible",
-    "value": 0
+  {
+    "name": "3_30",
+    "defaultvalue": 0,
+    "displayName": "get_item_invisible"
   },
-  "3_31": {
-    "description": "walk_trap_50",
-    "value": 0
+  {
+    "name": "3_31",
+    "defaultvalue": 0,
+    "displayName": "walk_trap_50"
   },
-  "3_32": {
-    "description": "ko_50",
-    "value": 0
+  {
+    "name": "3_32",
+    "defaultvalue": 0,
+    "displayName": "ko_50"
   },
-  "3_33": {
-    "description": "rank_f_10",
-    "value": 0
+  {
+    "name": "3_33",
+    "defaultvalue": 0,
+    "displayName": "rank_f_10"
   },
-  "3_34": {
-    "description": "survive_healthpoint_1",
-    "value": 0
+  {
+    "name": "3_34",
+    "defaultvalue": 0,
+    "displayName": "survive_healthpoint_1"
   },
-  "3_35": {
-    "description": "discover_rosalya_all",
-    "value": 0
+  {
+    "name": "3_35",
+    "defaultvalue": 0,
+    "displayName": "discover_rosalya_all"
   },
-  "3_36": {
-    "description": "poky_eat_all",
-    "value": 0
+  {
+    "name": "3_36",
+    "defaultvalue": 0,
+    "displayName": "poky_eat_all"
   },
-  "3_37": {
-    "description": "kill_hyper",
-    "value": 0
+  {
+    "name": "3_37",
+    "defaultvalue": 0,
+    "displayName": "kill_hyper"
   },
-  "3_38": {
-    "description": "kill_engage",
-    "value": 0
+  {
+    "name": "3_38",
+    "defaultvalue": 0,
+    "displayName": "kill_engage"
   },
-  "3_39": {
-    "description": "legend_rank_s",
-    "value": 0
+  {
+    "name": "3_39",
+    "defaultvalue": 0,
+    "displayName": "legend_rank_s"
   },
-  "3_40": {
-    "description": "train_noalarm",
-    "value": 0
+  {
+    "name": "3_40",
+    "defaultvalue": 0,
+    "displayName": "train_noalarm"
   },
-  "3_41": {
-    "description": "game_perfect",
-    "value": 0
+  {
+    "name": "3_41",
+    "defaultvalue": 0,
+    "displayName": "game_perfect"
   },
-  "3_42": {
-    "description": "combat_perfect_50",
-    "value": 0
+  {
+    "name": "3_42",
+    "defaultvalue": 0,
+    "displayName": "combat_perfect_50"
   }
-}
+]

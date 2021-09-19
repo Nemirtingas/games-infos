@@ -1,82 +1,102 @@
-﻿{
-  "ss_search_success": {
-    "description": "Most Successful Searches",
-    "value": 0
+[
+  {
+    "name": "ss_search_success",
+    "defaultvalue": 0,
+    "displayName": "Most Successful Searches"
   },
-  "ss_highest_pop": {
-    "description": "Highest Population Settlement",
-    "value": 0
+  {
+    "name": "ss_highest_pop",
+    "defaultvalue": 0,
+    "displayName": "Highest Population Settlement"
   },
-  "ss_gambling_wins": {
-    "description": "Highest Gambling Winnings",
-    "value": 0
+  {
+    "name": "ss_gambling_wins",
+    "defaultvalue": 0,
+    "displayName": "Highest Gambling Winnings"
   },
-  "ss_highest_kills": {
-    "description": "Highest Kill Count",
-    "value": 0
+  {
+    "name": "ss_highest_kills",
+    "defaultvalue": 0,
+    "displayName": "Highest Kill Count"
   },
-  "ss_pirates_defeated": {
-    "description": "Most Pirates Defeated",
-    "value": 0
+  {
+    "name": "ss_pirates_defeated",
+    "defaultvalue": 0,
+    "displayName": "Most Pirates Defeated"
   },
-  "ss_monsters_defeated": {
-    "description": "Most Monsters Defeated",
-    "value": 0
+  {
+    "name": "ss_monsters_defeated",
+    "defaultvalue": 0,
+    "displayName": "Most Monsters Defeated"
   },
-  "ss_meridion_defeated": {
-    "description": "Most Meridion Defeated",
-    "value": 0
+  {
+    "name": "ss_meridion_defeated",
+    "defaultvalue": 0,
+    "displayName": "Most Meridion Defeated"
   },
-  "ss_norsican_defeated": {
-    "description": "Most Norsicans Defeated",
-    "value": 0
+  {
+    "name": "ss_norsican_defeated",
+    "defaultvalue": 0,
+    "displayName": "Most Norsicans Defeated"
   },
-  "ss_ostrian_defeated": {
-    "description": "Most Ostrians Defeated",
-    "value": 0
+  {
+    "name": "ss_ostrian_defeated",
+    "defaultvalue": 0,
+    "displayName": "Most Ostrians Defeated"
   },
-  "ss_wespero_defeated": {
-    "description": "Most Wespero Defeated",
-    "value": 0
+  {
+    "name": "ss_wespero_defeated",
+    "defaultvalue": 0,
+    "displayName": "Most Wespero Defeated"
   },
-  "ss_food_production": {
-    "description": "Best Food Production",
-    "value": 0
+  {
+    "name": "ss_food_production",
+    "defaultvalue": 0,
+    "displayName": "Best Food Production"
   },
-  "ss_gold_production": {
-    "description": "Best Gold Production",
-    "value": 0
+  {
+    "name": "ss_gold_production",
+    "defaultvalue": 0,
+    "displayName": "Best Gold Production"
   },
-  "ss_wood_production": {
-    "description": "Best Wood Production",
-    "value": 0
+  {
+    "name": "ss_wood_production",
+    "defaultvalue": 0,
+    "displayName": "Best Wood Production"
   },
-  "ss_rock_production": {
-    "description": "Best Rock Production",
-    "value": 0
+  {
+    "name": "ss_rock_production",
+    "defaultvalue": 0,
+    "displayName": "Best Rock Production"
   },
-  "ss_iron_production": {
-    "description": "Best Iron Production",
-    "value": 0
+  {
+    "name": "ss_iron_production",
+    "defaultvalue": 0,
+    "displayName": "Best Iron Production"
   },
-  "ss_mana_production": {
-    "description": "Best Mana Production",
-    "value": 0
+  {
+    "name": "ss_mana_production",
+    "defaultvalue": 0,
+    "displayName": "Best Mana Production"
   },
-  "ss_ammo_production": {
-    "description": "Best Ammo Production",
-    "value": 0
+  {
+    "name": "ss_ammo_production",
+    "defaultvalue": 0,
+    "displayName": "Best Ammo Production"
   },
-  "ss_fuel_production": {
-    "description": "Best Fuel Production",
-    "value": 0
+  {
+    "name": "ss_fuel_production",
+    "defaultvalue": 0,
+    "displayName": "Best Fuel Production"
   },
-  "ss_shortest_time": {
-    "description": "Shortest Turns to Victory",
-    "value": 0
+  {
+    "name": "ss_shortest_time",
+    "defaultvalue": 0,
+    "displayName": "Shortest Turns to Victory"
   },
-  "ss_most_players": {
-    "description": "Highest Player Count",
-    "value": 0
+  {
+    "name": "ss_most_players",
+    "defaultvalue": 0,
+    "displayName": "Highest Player Count"
   }
-}
+]

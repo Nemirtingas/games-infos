@@ -1,14 +1,15 @@
 {
   "Dlcs": {},
-  "Name": "圣歌德嘉的晚钟",
+  "Name": "Knell of St. Godhrkar",
   "AppId": "1377450",
-  "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/1377450/header.jpg?t=1601174422",
+  "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1377450/header.jpg?t=1624325272",
   "Languages": [
-    "schinese"
+    "schinese",
+    "english"
   ],
   "Platforms": {
     "windows": true,
-    "mac": false,
+    "mac": true,
     "linux": false
   }
 }

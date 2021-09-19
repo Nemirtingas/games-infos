@@ -1,18 +1,22 @@
-﻿{
-  "Trap_Kills": {
-    "description": "Trap Kills",
-    "value": 0
+[
+  {
+    "name": "Trap_Kills",
+    "defaultvalue": 0,
+    "displayName": "Trap Kills"
   },
-  "Dash_Bullets": {
-    "description": "Bullets Taken While Dashing",
-    "value": 0
+  {
+    "name": "Dash_Bullets",
+    "defaultvalue": 0,
+    "displayName": "Bullets Taken While Dashing"
   },
-  "Deaths": {
-    "description": "Deaths",
-    "value": 0
+  {
+    "name": "Deaths",
+    "defaultvalue": 0,
+    "displayName": "Deaths"
   },
-  "Over_Heat": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Over_Heat",
+    "defaultvalue": 0,
+    "displayName": ""
   }
-}
+]

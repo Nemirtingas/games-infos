@@ -1,86 +1,107 @@
-﻿{
-  "_STA_INSPECTED_": {
-    "description": "Components inspected",
-    "value": 0
+[
+  {
+    "name": "_STA_INSPECTED_",
+    "defaultvalue": 0,
+    "displayName": "Components inspected"
   },
-  "_STA_REPAIR_": {
-    "description": "Repair mission finished",
-    "value": 0
+  {
+    "name": "_STA_REPAIR_",
+    "defaultvalue": 0,
+    "displayName": "Repair mission finished"
   },
-  "_STA_UPGRADE_": {
-    "description": "Upgrade mission finished",
-    "value": 0
+  {
+    "name": "_STA_UPGRADE_",
+    "defaultvalue": 0,
+    "displayName": "Upgrade mission finished"
   },
-  "_STA_BUY_": {
-    "description": "Buy mission finished",
-    "value": 0
+  {
+    "name": "_STA_BUY_",
+    "defaultvalue": 0,
+    "displayName": "Buy mission finished"
   },
-  "_STA_BUILD_": {
-    "description": "Build mission finished",
-    "value": 0
+  {
+    "name": "_STA_BUILD_",
+    "defaultvalue": 0,
+    "displayName": "Build mission finished"
   },
-  "_STA_MONEY_": {
-    "description": "Largest amount of money reached",
-    "value": 0
+  {
+    "name": "_STA_MONEY_",
+    "defaultvalue": 0,
+    "displayName": "Largest amount of money reached"
   },
-  "_STA_REPUTATION_": {
-    "description": "Highest reputation reached",
-    "value": 0
+  {
+    "name": "_STA_REPUTATION_",
+    "defaultvalue": 0,
+    "displayName": "Highest reputation reached"
   },
-  "_STA_FREQUENCY_": {
-    "description": "Highest frequency reached",
-    "value": 0
+  {
+    "name": "_STA_FREQUENCY_",
+    "defaultvalue": 0,
+    "displayName": "Highest frequency reached"
   },
-  "_STA_EXPDELIVERY_": {
-    "description": "Express delivery",
-    "value": 0
+  {
+    "name": "_STA_EXPDELIVERY_",
+    "defaultvalue": 0,
+    "displayName": "Express delivery"
   },
-  "_STA_NRMDELIVERY_": {
-    "description": "Normal delivery",
-    "value": 0
+  {
+    "name": "_STA_NRMDELIVERY_",
+    "defaultvalue": 0,
+    "displayName": "Normal delivery"
   },
-  "_STA_BIN_": {
-    "description": "Thrown components",
-    "value": 0
+  {
+    "name": "_STA_BIN_",
+    "defaultvalue": 0,
+    "displayName": "Thrown components"
   },
-  "_STA_SOFTWAREINST_": {
-    "description": "Installed Software",
-    "value": 0
+  {
+    "name": "_STA_SOFTWAREINST_",
+    "defaultvalue": 0,
+    "displayName": "Installed Software"
   },
-  "_STA_VIRUSRMVD_": {
-    "description": "Virus removed",
-    "value": 0
+  {
+    "name": "_STA_VIRUSRMVD_",
+    "defaultvalue": 0,
+    "displayName": "Virus removed"
   },
-  "_STA_WINDOORINSTLL_": {
-    "description": "WinDOOR installed",
-    "value": 0
+  {
+    "name": "_STA_WINDOORINSTLL_",
+    "defaultvalue": 0,
+    "displayName": "WinDOOR installed"
   },
-  "_STA_GBCOPIED_": {
-    "description": "Gigabyte copied",
-    "value": 0
+  {
+    "name": "_STA_GBCOPIED_",
+    "defaultvalue": 0,
+    "displayName": "Gigabyte copied"
   },
-  "_STA_UNLOCKEDITEMS_": {
-    "description": "Max unlocked items reaches",
-    "value": 0
+  {
+    "name": "_STA_UNLOCKEDITEMS_",
+    "defaultvalue": 0,
+    "displayName": "Max unlocked items reaches"
   },
-  "_STA_MISSIONACC_": {
-    "description": "Mission accepted",
-    "value": 0
+  {
+    "name": "_STA_MISSIONACC_",
+    "defaultvalue": 0,
+    "displayName": "Mission accepted"
   },
-  "_STA_MISSIONDEN_": {
-    "description": "Mission denied",
-    "value": 0
+  {
+    "name": "_STA_MISSIONDEN_",
+    "defaultvalue": 0,
+    "displayName": "Mission denied"
   },
-  "_STA_STOLEN_": {
-    "description": "Stolen items",
-    "value": 0
+  {
+    "name": "_STA_STOLEN_",
+    "defaultvalue": 0,
+    "displayName": "Stolen items"
   },
-  "_STA_MISSIONFIN_": {
-    "description": "Mission finished",
-    "value": 0
+  {
+    "name": "_STA_MISSIONFIN_",
+    "defaultvalue": 0,
+    "displayName": "Mission finished"
   },
-  "_STA_MISSIONCAN_": {
-    "description": "Mission canceled",
-    "value": 0
+  {
+    "name": "_STA_MISSIONCAN_",
+    "defaultvalue": 0,
+    "displayName": "Mission canceled"
   }
-}
+]

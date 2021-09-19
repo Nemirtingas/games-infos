@@ -1,22 +1,27 @@
-﻿{
-  "stat_talkative": {
-    "description": "NPC Talks",
-    "value": 0
+[
+  {
+    "name": "stat_talkative",
+    "defaultvalue": 0,
+    "displayName": "NPC Talks"
   },
-  "stat_spaceyintern": {
-    "description": "Planets Discovered",
-    "value": 0
+  {
+    "name": "stat_spaceyintern",
+    "defaultvalue": 0,
+    "displayName": "Planets Discovered"
   },
-  "stat_planetprober": {
-    "description": "Minerals Gathered",
-    "value": 0
+  {
+    "name": "stat_planetprober",
+    "defaultvalue": 0,
+    "displayName": "Minerals Gathered"
   },
-  "stat_allmylove": {
-    "description": "Side Missions Completed",
-    "value": 0
+  {
+    "name": "stat_allmylove",
+    "defaultvalue": 0,
+    "displayName": "Side Missions Completed"
   },
-  "stat_spaceexplorer": {
-    "description": "Artifacts Found",
-    "value": 0
+  {
+    "name": "stat_spaceexplorer",
+    "defaultvalue": 0,
+    "displayName": "Artifacts Found"
   }
-}
+]

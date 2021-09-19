@@ -1,38 +1,47 @@
-﻿{
-  "STAT_FIRED_ARROWS": {
-    "description": "Fired Arrows",
-    "value": 0
+[
+  {
+    "name": "STAT_FIRED_ARROWS",
+    "defaultvalue": 0,
+    "displayName": "Fired Arrows"
   },
-  "STAT_COLLECTED_MONEY": {
-    "description": "Collected Money",
-    "value": 0
+  {
+    "name": "STAT_COLLECTED_MONEY",
+    "defaultvalue": 0,
+    "displayName": "Collected Money"
   },
-  "STAT_COLLECTED_ORES": {
-    "description": "Collected Ores",
-    "value": 0
+  {
+    "name": "STAT_COLLECTED_ORES",
+    "defaultvalue": 0,
+    "displayName": "Collected Ores"
   },
-  "STAT_ACTIVATED_TELEPORTERS": {
-    "description": "Activated Teleporters",
-    "value": 0
+  {
+    "name": "STAT_ACTIVATED_TELEPORTERS",
+    "defaultvalue": 0,
+    "displayName": "Activated Teleporters"
   },
-  "STAT_SWORD_UPGRADES": {
-    "description": "Twin Swords Upgrades",
-    "value": 0
+  {
+    "name": "STAT_SWORD_UPGRADES",
+    "defaultvalue": 0,
+    "displayName": "Twin Swords Upgrades"
   },
-  "STAT_BOW_UPGRADES": {
-    "description": "Bow Upgrades",
-    "value": 0
+  {
+    "name": "STAT_BOW_UPGRADES",
+    "defaultvalue": 0,
+    "displayName": "Bow Upgrades"
   },
-  "STAT_HEALTH_UPGRADES": {
-    "description": "Health Upgrades",
-    "value": 0
+  {
+    "name": "STAT_HEALTH_UPGRADES",
+    "defaultvalue": 0,
+    "displayName": "Health Upgrades"
   },
-  "STAT_WALLET_UPGRADES": {
-    "description": "Wallet Upgrades",
-    "value": 0
+  {
+    "name": "STAT_WALLET_UPGRADES",
+    "defaultvalue": 0,
+    "displayName": "Wallet Upgrades"
   },
-  "STAT_ENEMIES_KILLED": {
-    "description": "Enemies Killed",
-    "value": 0
+  {
+    "name": "STAT_ENEMIES_KILLED",
+    "defaultvalue": 0,
+    "displayName": "Enemies Killed"
   }
-}
+]

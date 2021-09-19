@@ -1,50 +1,62 @@
-﻿{
-  "TotalScore": {
-    "description": "Total Score",
-    "value": 0
+[
+  {
+    "name": "TotalScore",
+    "defaultvalue": 0,
+    "displayName": "Total Score"
   },
-  "TotalLevelsDone": {
-    "description": "Total Levels Completed",
-    "value": 0
+  {
+    "name": "TotalLevelsDone",
+    "defaultvalue": 0,
+    "displayName": "Total Levels Completed"
   },
-  "Chapter0Score": {
-    "description": "Chapter 1 Score",
-    "value": 0
+  {
+    "name": "Chapter0Score",
+    "defaultvalue": 0,
+    "displayName": "Chapter 1 Score"
   },
-  "Chapter1Score": {
-    "description": "Chapter 2 Score",
-    "value": 0
+  {
+    "name": "Chapter1Score",
+    "defaultvalue": 0,
+    "displayName": "Chapter 2 Score"
   },
-  "Chapter2Score": {
-    "description": "Chapter 3 Score",
-    "value": 0
+  {
+    "name": "Chapter2Score",
+    "defaultvalue": 0,
+    "displayName": "Chapter 3 Score"
   },
-  "Chapter3Score": {
-    "description": "Chapter 4 Score",
-    "value": 0
+  {
+    "name": "Chapter3Score",
+    "defaultvalue": 0,
+    "displayName": "Chapter 4 Score"
   },
-  "Chapter4Score": {
-    "description": "Chapter 5 Score",
-    "value": 0
+  {
+    "name": "Chapter4Score",
+    "defaultvalue": 0,
+    "displayName": "Chapter 5 Score"
   },
-  "Chapter0LevelsDone": {
-    "description": "Chapter 1 Levels Completed",
-    "value": 0
+  {
+    "name": "Chapter0LevelsDone",
+    "defaultvalue": 0,
+    "displayName": "Chapter 1 Levels Completed"
   },
-  "Chapter1LevelsDone": {
-    "description": "Chapter 2 Levels Completed",
-    "value": 0
+  {
+    "name": "Chapter1LevelsDone",
+    "defaultvalue": 0,
+    "displayName": "Chapter 2 Levels Completed"
   },
-  "Chapter2LevelsDone": {
-    "description": "Chapter 3 Levels Completed",
-    "value": 0
+  {
+    "name": "Chapter2LevelsDone",
+    "defaultvalue": 0,
+    "displayName": "Chapter 3 Levels Completed"
   },
-  "Chapter3LevelsDone": {
-    "description": "Chapter 4 Levels Completed",
-    "value": 0
+  {
+    "name": "Chapter3LevelsDone",
+    "defaultvalue": 0,
+    "displayName": "Chapter 4 Levels Completed"
   },
-  "Chapter4LevelsDone": {
-    "description": "Chapter 5 Levels Completed",
-    "value": 0
+  {
+    "name": "Chapter4LevelsDone",
+    "defaultvalue": 0,
+    "displayName": "Chapter 5 Levels Completed"
   }
-}
+]

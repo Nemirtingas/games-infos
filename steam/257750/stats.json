@@ -1,14 +1,17 @@
-﻿{
-  "race_wins": {
-    "description": "Race Wins",
-    "value": 0
+[
+  {
+    "name": "race_wins",
+    "defaultvalue": 0,
+    "displayName": "Race Wins"
   },
-  "deathmatch_wins": {
-    "description": "Deathmatch Wins",
-    "value": 0
+  {
+    "name": "deathmatch_wins",
+    "defaultvalue": 0,
+    "displayName": "Deathmatch Wins"
   },
-  "goldstars": {
-    "description": "Goldstars",
-    "value": 0
+  {
+    "name": "goldstars",
+    "defaultvalue": 0,
+    "displayName": "Goldstars"
   }
-}
+]

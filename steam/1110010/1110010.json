@@ -2,18 +2,19 @@
   "Dlcs": {
     "1133560": {
       "Name": "The Doulos Study Ranked",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/1133560/header.jpg?t=1592445872"
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1133560/header.jpg?t=1592445872",
+      "Type": "dlc"
     }
   },
   "Name": "The Doulos Study",
   "AppId": "1110010",
-  "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/1110010/header.jpg?t=1571072563",
+  "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1110010/header.jpg?t=1611964450",
   "Languages": [
     "english"
   ],
   "Platforms": {
     "windows": true,
-    "mac": true,
-    "linux": true
+    "mac": false,
+    "linux": false
   }
 }

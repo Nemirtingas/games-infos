@@ -1,10 +1,12 @@
-﻿{
-  "zone": {
-    "description": "zone",
-    "value": 0
+[
+  {
+    "name": "zone",
+    "defaultvalue": 0,
+    "displayName": "zone"
   },
-  "level": {
-    "description": "level",
-    "value": 0
+  {
+    "name": "level",
+    "defaultvalue": 0,
+    "displayName": "level"
   }
-}
+]

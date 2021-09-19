@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "name": "ACH_ESCAPE_HELI",
     "defaultvalue": 0,
@@ -660,5 +660,37 @@
     "description": "Sabotage 3 bunkers in a single game",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/774861/d8a0b98ad94218f8b7fe8585344372d9889f8c2c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/774861/418a243d349a0081f902f31bf96def01c8aa952f.jpg"
+  },
+  {
+    "name": "ACH_PRACTICE_ESCAPE",
+    "defaultvalue": 0,
+    "displayName": "Practice Makes Perfect",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/774861/a839fc6e778c92c193ee0a1383548e6da1cdc3b5.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/774861/979a41586a5f45c20cfdb6ab042da1c4060f53e8.jpg"
+  },
+  {
+    "name": "ACH_PRACTICE_SABOTAGE",
+    "defaultvalue": 0,
+    "displayName": "Breaking New Ground",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/774861/285f5c875ed6f4bb3ed6d6c59da1c3a793403e56.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/774861/215dc068a613a4d85b0d211be611fc7fae767de6.jpg"
+  },
+  {
+    "name": "ACH_PRACTICE_OPENED_BUNKERS",
+    "defaultvalue": 0,
+    "displayName": "Unlock and Load",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/774861/9eddc901819b4ae9d4f6ca2c96748597e37f06d6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/774861/7fcb77ee3217576d7f158580f67c64865fed8dec.jpg"
+  },
+  {
+    "name": "ACH_PRACTICE_HIKE",
+    "defaultvalue": 0,
+    "displayName": "Take a Hike",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/774861/0962e654909720648705296f7ea45a035b6e0763.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/774861/23e6299ebfddc25995a3e12cf1af7b02e0d989a4.jpg"
   }
 ]

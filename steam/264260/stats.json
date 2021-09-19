@@ -1,38 +1,47 @@
-﻿{
-  "stat_enemies_killed": {
-    "description": "Enemies Killed",
-    "value": 0
+[
+  {
+    "name": "stat_enemies_killed",
+    "defaultvalue": 0,
+    "displayName": "Enemies Killed"
   },
-  "stat_scientists_saved": {
-    "description": "Scientists Saved",
-    "value": 0
+  {
+    "name": "stat_scientists_saved",
+    "defaultvalue": 0,
+    "displayName": "Scientists Saved"
   },
-  "stat_soldiers_escorted": {
-    "description": "Soldiers Escorted",
-    "value": 0
+  {
+    "name": "stat_soldiers_escorted",
+    "defaultvalue": 0,
+    "displayName": "Soldiers Escorted"
   },
-  "stat_weapons_repaired": {
-    "description": "Weapons Installations Repaired",
-    "value": 0
+  {
+    "name": "stat_weapons_repaired",
+    "defaultvalue": 0,
+    "displayName": "Weapons Installations Repaired"
   },
-  "stat_grenade_kills": {
-    "description": "Grenade Kills",
-    "value": 0
+  {
+    "name": "stat_grenade_kills",
+    "defaultvalue": 0,
+    "displayName": "Grenade Kills"
   },
-  "stat_explosive_kills": {
-    "description": "Explosive Kills",
-    "value": 0
+  {
+    "name": "stat_explosive_kills",
+    "defaultvalue": 0,
+    "displayName": "Explosive Kills"
   },
-  "stat_credits_earned": {
-    "description": "Credits Earned",
-    "value": 0
+  {
+    "name": "stat_credits_earned",
+    "defaultvalue": 0,
+    "displayName": "Credits Earned"
   },
-  "stat_zompods_killed": {
-    "description": "Zompods Killed",
-    "value": 0
+  {
+    "name": "stat_zompods_killed",
+    "defaultvalue": 0,
+    "displayName": "Zompods Killed"
   },
-  "stat_infections_cleaned": {
-    "description": "Infections Cleaned",
-    "value": 0
+  {
+    "name": "stat_infections_cleaned",
+    "defaultvalue": 0,
+    "displayName": "Infections Cleaned"
   }
-}
+]

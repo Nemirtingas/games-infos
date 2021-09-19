@@ -1,66 +1,82 @@
-﻿{
-  "stat_buildings_placed": {
-    "description": "stat_buildings_placed",
-    "value": 0
+[
+  {
+    "name": "stat_buildings_placed",
+    "defaultvalue": 0,
+    "displayName": "stat_buildings_placed"
   },
-  "max_warehouse_clients_placed": {
-    "description": "max_warehouse_clients_placed",
-    "value": 0
+  {
+    "name": "max_warehouse_clients_placed",
+    "defaultvalue": 0,
+    "displayName": "max_warehouse_clients_placed"
   },
-  "stat_contracts_completed": {
-    "description": "stat_contracts_completed",
-    "value": 0
+  {
+    "name": "stat_contracts_completed",
+    "defaultvalue": 0,
+    "displayName": "stat_contracts_completed"
   },
-  "stat_max_money_raised": {
-    "description": "stat_max_money_raised",
-    "value": 0
+  {
+    "name": "stat_max_money_raised",
+    "defaultvalue": 0,
+    "displayName": "stat_max_money_raised"
   },
-  "stat_max_bridge_length": {
-    "description": "stat_max_bridge_length",
-    "value": 0
+  {
+    "name": "stat_max_bridge_length",
+    "defaultvalue": 0,
+    "displayName": "stat_max_bridge_length"
   },
-  "stat_max_tunnel_length": {
-    "description": "stat_max_tunnel_length",
-    "value": 0
+  {
+    "name": "stat_max_tunnel_length",
+    "defaultvalue": 0,
+    "displayName": "stat_max_tunnel_length"
   },
-  "stat_freecam_time_spent": {
-    "description": "stat_freecam_time_spent",
-    "value": 0
+  {
+    "name": "stat_freecam_time_spent",
+    "defaultvalue": 0,
+    "displayName": "stat_freecam_time_spent"
   },
-  "stat_max_loan_taken": {
-    "description": "stat_max_loan_taken",
-    "value": 0
+  {
+    "name": "stat_max_loan_taken",
+    "defaultvalue": 0,
+    "displayName": "stat_max_loan_taken"
   },
-  "stat_trees_demolished": {
-    "description": "stat_trees_demolished",
-    "value": 0
+  {
+    "name": "stat_trees_demolished",
+    "defaultvalue": 0,
+    "displayName": "stat_trees_demolished"
   },
-  "stat_max_profit": {
-    "description": "stat_max_profit",
-    "value": 0
+  {
+    "name": "stat_max_profit",
+    "defaultvalue": 0,
+    "displayName": "stat_max_profit"
   },
-  "stat_produced": {
-    "description": "stat_produced",
-    "value": 0
+  {
+    "name": "stat_produced",
+    "defaultvalue": 0,
+    "displayName": "stat_produced"
   },
-  "stat_products_moved": {
-    "description": "stat_products_moved",
-    "value": 0
+  {
+    "name": "stat_products_moved",
+    "defaultvalue": 0,
+    "displayName": "stat_products_moved"
   },
-  "stat_max_distance_traveled": {
-    "description": "stat_max_distance_traveled",
-    "value": 0
+  {
+    "name": "stat_max_distance_traveled",
+    "defaultvalue": 0,
+    "displayName": "stat_max_distance_traveled"
   },
-  "stat_2130_region_cleaned": {
-    "description": "stat_2130_region_cleaned2",
-    "value": 0
+  {
+    "name": "stat_2130_region_cleaned",
+    "defaultvalue": 0,
+    "displayName": "stat_2130_region_cleaned2"
   },
-  "stat_2130_settlement_death_end": {
-    "description": "stat_2130_settlement_death_end2",
-    "value": 0
+  {
+    "name": "stat_2130_settlement_death_end",
+    "defaultvalue": 0,
+    "displayName": "stat_2130_settlement_death_end2"
   },
-  "stat_2130_steel_production": {
-    "description": "stat_2130_steel_production2",
-    "value": 0
+  {
+    "name": "stat_2130_steel_production",
+    "defaultvalue": 0,
+    "displayName": "stat_2130_steel_production2"
   }
-}
+]

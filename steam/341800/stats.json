@@ -1,46 +1,57 @@
-﻿{
-  "totalbombsdefused": {
-    "description": "Bombs Defused",
-    "value": 0
+[
+  {
+    "name": "totalbombsdefused",
+    "defaultvalue": 0,
+    "displayName": "Bombs Defused"
   },
-  "totalbombsexploded": {
-    "description": "Bombs Exploded",
-    "value": 0
+  {
+    "name": "totalbombsexploded",
+    "defaultvalue": 0,
+    "displayName": "Bombs Exploded"
   },
-  "totalmodulesdisarmed": {
-    "description": "Modules Disarmed",
-    "value": 0
+  {
+    "name": "totalmodulesdisarmed",
+    "defaultvalue": 0,
+    "displayName": "Modules Disarmed"
   },
-  "totalstrikes": {
-    "description": "Strikes",
-    "value": 0
+  {
+    "name": "totalstrikes",
+    "defaultvalue": 0,
+    "displayName": "Strikes"
   },
-  "thebasicsprogress": {
-    "description": "The Basics",
-    "value": 0
+  {
+    "name": "thebasicsprogress",
+    "defaultvalue": 0,
+    "displayName": "The Basics"
   },
-  "moderateprogress": {
-    "description": "Moderate",
-    "value": 0
+  {
+    "name": "moderateprogress",
+    "defaultvalue": 0,
+    "displayName": "Moderate"
   },
-  "needyprogress": {
-    "description": "Needy",
-    "value": 0
+  {
+    "name": "needyprogress",
+    "defaultvalue": 0,
+    "displayName": "Needy"
   },
-  "challengingprogress": {
-    "description": "Challenging",
-    "value": 0
+  {
+    "name": "challengingprogress",
+    "defaultvalue": 0,
+    "displayName": "Challenging"
   },
-  "extremeprogress": {
-    "description": "Extreme",
-    "value": 0
+  {
+    "name": "extremeprogress",
+    "defaultvalue": 0,
+    "displayName": "Extreme"
   },
-  "exoticprogress": {
-    "description": "Exotic",
-    "value": 0
+  {
+    "name": "exoticprogress",
+    "defaultvalue": 0,
+    "displayName": "Exotic"
   },
-  "moduletypeprogress": {
-    "description": "Module Types Disarmed",
-    "value": 0
+  {
+    "name": "moduletypeprogress",
+    "defaultvalue": 0,
+    "displayName": "Module Types Disarmed"
   }
-}
+]

@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "name": "ACHIEVEMENT_CURE_PATIENT",
     "defaultvalue": 0,
@@ -405,5 +405,95 @@
     "description": "Complete R.E.M.I. X versions of Mitton University, Tumble & Flemington",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/535930/b4ea9938d96fcf935dc319cbbbd4f9ad3bc5a22e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/535930/2cdfd7b9b3b15be715c7976796df4ea5e61754cf.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_TRAIN_RODERICK",
+    "defaultvalue": 0,
+    "displayName": "Character Development",
+    "hidden": 0,
+    "description": "Train Roderick Cushion to Level 5 at Plywood Studios",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/535930/6535b045d02430928e02ef7c57d34ca04af1ce9e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/535930/55d65a2f9ac5a17105789ed0770dff6d98793967.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_GOOD_VIBE",
+    "defaultvalue": 0,
+    "displayName": "Good VIBErations",
+    "hidden": 0,
+    "description": "Achieve a high VIBE rating at Fitzpocket Academy",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/535930/ca0bfc90944cf274105d50061b11b066331812f7.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/535930/d6d01784dd8fb09486daaa409a87ca1613aa267b.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_SICK_IN_THE_MUD",
+    "defaultvalue": 0,
+    "displayName": "Sick-in-the-Mud",
+    "hidden": 0,
+    "description": "Complete Wave 18 at Mudbury Festival",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/535930/9b92fa5686adbe1a9e1f92014a88b2dae0032c37.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/535930/650124fcdd6dd9d44e184ec765c94b4225840a2a.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_STARS_8",
+    "defaultvalue": 0,
+    "displayName": "The (Fifth) New Gold Standard",
+    "hidden": 0,
+    "description": "Earn 90 Gold Stars",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/535930/95f243626b928491bf51ab5370948b7be31a5e8a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/535930/a438ee4b35200b01011aaaf4554c3a31bdaab10f.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_COMPLETE_REGION_10",
+    "defaultvalue": 0,
+    "displayName": "Arts & Plaster Casts",
+    "hidden": 0,
+    "description": "Earn 1 Star at each hospital in Culture Shock",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/535930/4cdad537b67daab1a7cb89c65cb0d26e74332c2c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/535930/c4c6d08437626969094797b58a66e2f171117468.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_STARS_9",
+    "defaultvalue": 0,
+    "displayName": "The (Sixth) New Gold Standard",
+    "hidden": 0,
+    "description": "Earn 99 Gold Stars",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/535930/c689fd891cbfb8d637ea9da690aec5cccd0f952e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/535930/e977491ff26f0f8fbed5d4cf108e87099b8f2b41.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_COMPLETE_REGION_11",
+    "defaultvalue": 0,
+    "displayName": "Days of Suture Past",
+    "hidden": 0,
+    "description": "Earn 1 Star at each hospital in A Stitch In Time",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/535930/e7df270575b2302583e1d1ed8b764ecf88c0c241.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/535930/d398d3a16eacc714b5c19fc8cd922451749c3a2c.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_BESTERIZER",
+    "defaultvalue": 0,
+    "displayName": "Besterizer",
+    "hidden": 0,
+    "description": "Send 100 cured patients through the Yesterizer in Clockwise-above-Thyme",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/535930/1ac77808ed891e147166fe069623fd8031123686.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/535930/8cf65f43946fa585114759e1b781dc3f15d21638.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_TIME_CURE_100",
+    "defaultvalue": 0,
+    "displayName": "Swiss Cheese Hospital",
+    "hidden": 0,
+    "description": "Cure 100 patients from time portals in a single year",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/535930/8c8a44781648fdfe97594187e3ea1d35c8d76eaf.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/535930/a9203727741893d719a2822c33e75e690ca0c6c6.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_TIME_CURE_LIGHTHEADED_VARIANTS",
+    "defaultvalue": 0,
+    "displayName": "De-Light Saving Time",
+    "hidden": 0,
+    "description": "Cure a patient with Lightheadedness, Beheadedness, Hotheadedness, and Byteheadedness in Clockwise-above-Thyme",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/535930/7f3d9961adf20d3251efbeb88858529084de2fb9.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/535930/5b30b9d9e247d9097669448e6b67873647b26702.jpg"
   }
 ]

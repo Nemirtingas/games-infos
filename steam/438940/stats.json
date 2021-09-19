@@ -1,14 +1,17 @@
-﻿{
-  "stat_16": {
-    "description": "Riddles Solved",
-    "value": 0
+[
+  {
+    "name": "stat_16",
+    "defaultvalue": 0,
+    "displayName": "Riddles Solved"
   },
-  "stat_18": {
-    "description": "TIPS Received",
-    "value": 0
+  {
+    "name": "stat_18",
+    "defaultvalue": 0,
+    "displayName": "TIPS Received"
   },
-  "stat_31": {
-    "description": "Memory Fragments Gathered",
-    "value": 0
+  {
+    "name": "stat_31",
+    "defaultvalue": 0,
+    "displayName": "Memory Fragments Gathered"
   }
-}
+]

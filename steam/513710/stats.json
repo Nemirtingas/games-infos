@@ -1,38 +1,72 @@
-﻿{
-  "puppet_kills": {
-    "description": "",
-    "value": 0
+[
+  {
+    "name": "puppet_kills",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "prisoner_kills": {
-    "description": "",
-    "value": 0
+  {
+    "name": "prisoner_kills",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "melee_kills": {
-    "description": "",
-    "value": 0
+  {
+    "name": "melee_kills",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "firearm_kills": {
-    "description": "",
-    "value": 0
+  {
+    "name": "firearm_kills",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "event_wins": {
-    "description": "",
-    "value": 0
+  {
+    "name": "event_wins",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "bow_kills": {
-    "description": "",
-    "value": 0
+  {
+    "name": "bow_kills",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "animal_bow_kills": {
-    "description": "",
-    "value": 0
+  {
+    "name": "animal_bow_kills",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "arrows_crafted": {
-    "description": "",
-    "value": 0
+  {
+    "name": "arrows_crafted",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "events_bow_kills": {
-    "description": "",
-    "value": 0
+  {
+    "name": "events_bow_kills",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "fish_caught",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "fish_kept",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "fish_released",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "boat_distance_travelled",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "total_play_time",
+    "defaultvalue": 0,
+    "displayName": ""
   }
-}
+]

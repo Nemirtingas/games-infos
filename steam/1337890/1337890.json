@@ -1,11 +1,21 @@
-﻿{
-  "Dlcs": {},
+{
+  "Dlcs": {
+    "1472210": {
+      "Name": "The Choice of Life: Middle Ages - Soundtrack",
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1472210/header.jpg?t=1605968356",
+      "Type": "music"
+    }
+  },
   "Name": "The Choice of Life: Middle Ages",
   "AppId": "1337890",
-  "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/1337890/header.jpg?t=1600072782",
+  "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1337890/header.jpg?t=1620897387",
   "Languages": [
     "english",
-    "russian"
+    "russian",
+    "german",
+    "schinese",
+    "spanish",
+    "turkish"
   ],
   "Platforms": {
     "windows": true,

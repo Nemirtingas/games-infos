@@ -1,58 +1,72 @@
-﻿{
-  "kills_stat": {
-    "description": "Kills",
-    "value": 0
+[
+  {
+    "name": "kills_stat",
+    "defaultvalue": 0,
+    "displayName": "Kills"
   },
-  "deaths_stat": {
-    "description": "Deaths",
-    "value": 0
+  {
+    "name": "deaths_stat",
+    "defaultvalue": 0,
+    "displayName": "Deaths"
   },
-  "accuracy_stat": {
-    "description": "Accuracy",
-    "value": 0
+  {
+    "name": "accuracy_stat",
+    "defaultvalue": 0,
+    "displayName": "Accuracy"
   },
-  "headshots_stat": {
-    "description": "Headshots",
-    "value": 0
+  {
+    "name": "headshots_stat",
+    "defaultvalue": 0,
+    "displayName": "Headshots"
   },
-  "ammo_stat": {
-    "description": "Ammo Spent",
-    "value": 0
+  {
+    "name": "ammo_stat",
+    "defaultvalue": 0,
+    "displayName": "Ammo Spent"
   },
-  "weapons_stat": {
-    "description": "Weapons Owned",
-    "value": 0
+  {
+    "name": "weapons_stat",
+    "defaultvalue": 0,
+    "displayName": "Weapons Owned"
   },
-  "upgrades_stat": {
-    "description": "Weapon Upgrades",
-    "value": 0
+  {
+    "name": "upgrades_stat",
+    "defaultvalue": 0,
+    "displayName": "Weapon Upgrades"
   },
-  "MGKills_stat": {
-    "description": "MG Kills",
-    "value": 0
+  {
+    "name": "MGKills_stat",
+    "defaultvalue": 0,
+    "displayName": "MG Kills"
   },
-  "rank_stat": {
-    "description": "Rank",
-    "value": 1
+  {
+    "name": "rank_stat",
+    "defaultvalue": 1,
+    "displayName": "Rank"
   },
-  "buck_stat": {
-    "description": "Bucks",
-    "value": 0
+  {
+    "name": "buck_stat",
+    "defaultvalue": 0,
+    "displayName": "Bucks"
   },
-  "flash_stat": {
-    "description": "Flashbangs Thrown",
-    "value": 0
+  {
+    "name": "flash_stat",
+    "defaultvalue": 0,
+    "displayName": "Flashbangs Thrown"
   },
-  "gatlingSupport_stat": {
-    "description": "Gatling Airstrike Used",
-    "value": 0
+  {
+    "name": "gatlingSupport_stat",
+    "defaultvalue": 0,
+    "displayName": "Gatling Airstrike Used"
   },
-  "rocketSupport_stat": {
-    "description": "Rocket Airstrike Used",
-    "value": 0
+  {
+    "name": "rocketSupport_stat",
+    "defaultvalue": 0,
+    "displayName": "Rocket Airstrike Used"
   },
-  "grenade_stat": {
-    "description": "Grenades Thrown",
-    "value": 0
+  {
+    "name": "grenade_stat",
+    "defaultvalue": 0,
+    "displayName": "Grenades Thrown"
   }
-}
+]

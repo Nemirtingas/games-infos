@@ -1,54 +1,67 @@
-﻿{
-  "IBRAHIMOVIC_GOALS": {
-    "description": "Goals scored as Zlatant.",
-    "value": 0
+[
+  {
+    "name": "IBRAHIMOVIC_GOALS",
+    "defaultvalue": 0,
+    "displayName": "Goals scored as Zlatant."
   },
-  "VARDY_GOALS": {
-    "description": "Goals scored as Vardee.",
-    "value": 0
+  {
+    "name": "VARDY_GOALS",
+    "defaultvalue": 0,
+    "displayName": "Goals scored as Vardee."
   },
-  "RONALDO_GOALS": {
-    "description": "Goals scored as C.Rolando.",
-    "value": 0
+  {
+    "name": "RONALDO_GOALS",
+    "defaultvalue": 0,
+    "displayName": "Goals scored as C.Rolando."
   },
-  "ELSHARAAWY_GOALS": {
-    "description": "Goals scored as Bel Saravi.",
-    "value": 0
+  {
+    "name": "ELSHARAAWY_GOALS",
+    "defaultvalue": 0,
+    "displayName": "Goals scored as Bel Saravi."
   },
-  "INIESTA_GOALS": {
-    "description": "Goals scored as Pinjesta.",
-    "value": 0
+  {
+    "name": "INIESTA_GOALS",
+    "defaultvalue": 0,
+    "displayName": "Goals scored as Pinjesta."
   },
-  "GOTZE_GOALS": {
-    "description": "Goals scored as Sotze.",
-    "value": 0
+  {
+    "name": "GOTZE_GOALS",
+    "defaultvalue": 0,
+    "displayName": "Goals scored as Sotze."
   },
-  "HAZARD_GOALS": {
-    "description": "Goals scored as Azzard.",
-    "value": 0
+  {
+    "name": "HAZARD_GOALS",
+    "defaultvalue": 0,
+    "displayName": "Goals scored as Azzard."
   },
-  "POGBA_GOALS": {
-    "description": "Goals scored as Podga.",
-    "value": 0
+  {
+    "name": "POGBA_GOALS",
+    "defaultvalue": 0,
+    "displayName": "Goals scored as Podga."
   },
-  "MATCHES_PLAYED": {
-    "description": "Total matches played.",
-    "value": 0
+  {
+    "name": "MATCHES_PLAYED",
+    "defaultvalue": 0,
+    "displayName": "Total matches played."
   },
-  "MATCHES_PLAYED_WITH_REFEREE": {
-    "description": "Total matches played with a referee.",
-    "value": 0
+  {
+    "name": "MATCHES_PLAYED_WITH_REFEREE",
+    "defaultvalue": 0,
+    "displayName": "Total matches played with a referee."
   },
-  "MIN_SUFFERED_GOALS": {
-    "description": "Minimum goals taken in a match.",
-    "value": 10000
+  {
+    "name": "MIN_SUFFERED_GOALS",
+    "defaultvalue": 10000,
+    "displayName": "Minimum goals taken in a match."
   },
-  "MAX_SCORED_GOALS": {
-    "description": "Maximum goals scored in a match.",
-    "value": 0
+  {
+    "name": "MAX_SCORED_GOALS",
+    "defaultvalue": 0,
+    "displayName": "Maximum goals scored in a match."
   },
-  "BIGGER_TEAM_SIZE": {
-    "description": "Biggest team size that has played.",
-    "value": 0
+  {
+    "name": "BIGGER_TEAM_SIZE",
+    "defaultvalue": 0,
+    "displayName": "Biggest team size that has played."
   }
-}
+]

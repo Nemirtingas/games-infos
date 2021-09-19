@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "name": "BEAT_GAME",
     "defaultvalue": 0,
@@ -106,5 +106,13 @@
     "description": "Beat the Bunker level without a flashlight or NVG's in singleplayer mode",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/527700/fe407205a9efc0c98edfb92f3b1062c3b395ebbf.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/527700/6234b0c55aaae54399f42296902c42b1cd954231.jpg"
+  },
+  {
+    "name": "HARDMODE_COMPLETE",
+    "defaultvalue": 0,
+    "displayName": "Challenger",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/527700/47d5100cc8f7ad2756aad2da6cc31b5d673ea848.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/527700/0276e38af702129f534046b860edead6ed5256ef.jpg"
   }
 ]

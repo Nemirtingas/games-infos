@@ -1,114 +1,142 @@
-﻿{
-  "ShotsFired": {
-    "description": "Shots Fired",
-    "value": 0
+[
+  {
+    "name": "ShotsFired",
+    "defaultvalue": 0,
+    "displayName": "Shots Fired"
   },
-  "GameOver": {
-    "description": "Game Beaten",
-    "value": 0
+  {
+    "name": "GameOver",
+    "defaultvalue": 0,
+    "displayName": "Game Beaten"
   },
-  "TimesBeaten": {
-    "description": "Times Beaten",
-    "value": 0
+  {
+    "name": "TimesBeaten",
+    "defaultvalue": 0,
+    "displayName": "Times Beaten"
   },
-  "GoodEnds": {
-    "description": "Good Ends",
-    "value": 0
+  {
+    "name": "GoodEnds",
+    "defaultvalue": 0,
+    "displayName": "Good Ends"
   },
-  "BadEnds": {
-    "description": "Bad Ends",
-    "value": 0
+  {
+    "name": "BadEnds",
+    "defaultvalue": 0,
+    "displayName": "Bad Ends"
   },
-  "LogsFound": {
-    "description": "Audio Logs Found",
-    "value": 0
+  {
+    "name": "LogsFound",
+    "defaultvalue": 0,
+    "displayName": "Audio Logs Found"
   },
-  "Exiled": {
-    "description": "Exiled",
-    "value": 0
+  {
+    "name": "Exiled",
+    "defaultvalue": 0,
+    "displayName": "Exiled"
   },
-  "TimeRespawns": {
-    "description": "Time In Respawn Mode",
-    "value": 0
+  {
+    "name": "TimeRespawns",
+    "defaultvalue": 0,
+    "displayName": "Time In Respawn Mode"
   },
-  "TimeNoRespawns": {
-    "description": "Time In No Respawn Mode",
-    "value": 0
+  {
+    "name": "TimeNoRespawns",
+    "defaultvalue": 0,
+    "displayName": "Time In No Respawn Mode"
   },
-  "TimeSurvival": {
-    "description": "Time In Survival Mode",
-    "value": 0
+  {
+    "name": "TimeSurvival",
+    "defaultvalue": 0,
+    "displayName": "Time In Survival Mode"
   },
-  "TimeNoSurvival": {
-    "description": "Time Not In Survival Mode",
-    "value": 0
+  {
+    "name": "TimeNoSurvival",
+    "defaultvalue": 0,
+    "displayName": "Time Not In Survival Mode"
   },
-  "TimeAggression": {
-    "description": "Time In Aggression Mode",
-    "value": 0
+  {
+    "name": "TimeAggression",
+    "defaultvalue": 0,
+    "displayName": "Time In Aggression Mode"
   },
-  "TimeNoAggression": {
-    "description": "Time In No Aggression Mode",
-    "value": 0
+  {
+    "name": "TimeNoAggression",
+    "defaultvalue": 0,
+    "displayName": "Time In No Aggression Mode"
   },
-  "OriginWanderer": {
-    "description": "Wanderer Origin Selected",
-    "value": 0
+  {
+    "name": "OriginWanderer",
+    "defaultvalue": 0,
+    "displayName": "Wanderer Origin Selected"
   },
-  "OriginMartyr": {
-    "description": "Martyr Origin Selected",
-    "value": 0
+  {
+    "name": "OriginMartyr",
+    "defaultvalue": 0,
+    "displayName": "Martyr Origin Selected"
   },
-  "OriginHeretic": {
-    "description": "Heretic Origin Selected",
-    "value": 0
+  {
+    "name": "OriginHeretic",
+    "defaultvalue": 0,
+    "displayName": "Heretic Origin Selected"
   },
-  "OriginDentist": {
-    "description": "Dentist Origin Selected",
-    "value": 0
+  {
+    "name": "OriginDentist",
+    "defaultvalue": 0,
+    "displayName": "Dentist Origin Selected"
   },
-  "BodyTypeOne": {
-    "description": "Bodytype 1 Selected",
-    "value": 0
+  {
+    "name": "BodyTypeOne",
+    "defaultvalue": 0,
+    "displayName": "Bodytype 1 Selected"
   },
-  "BodyTypeTwo": {
-    "description": "Bodytype 2 Selected",
-    "value": 0
+  {
+    "name": "BodyTypeTwo",
+    "defaultvalue": 0,
+    "displayName": "Bodytype 2 Selected"
   },
-  "Cinnabar": {
-    "description": "Cinnabar Event",
-    "value": 0
+  {
+    "name": "Cinnabar",
+    "defaultvalue": 0,
+    "displayName": "Cinnabar Event"
   },
-  "Duplicator": {
-    "description": "Duplicator Event",
-    "value": 0
+  {
+    "name": "Duplicator",
+    "defaultvalue": 0,
+    "displayName": "Duplicator Event"
   },
-  "Mother": {
-    "description": "Mother Event",
-    "value": 0
+  {
+    "name": "Mother",
+    "defaultvalue": 0,
+    "displayName": "Mother Event"
   },
-  "Steven": {
-    "description": "Steven Event",
-    "value": 0
+  {
+    "name": "Steven",
+    "defaultvalue": 0,
+    "displayName": "Steven Event"
   },
-  "Onion": {
-    "description": "Onion Event",
-    "value": 0
+  {
+    "name": "Onion",
+    "defaultvalue": 0,
+    "displayName": "Onion Event"
   },
-  "TotalTime": {
-    "description": "Time Played",
-    "value": 0
+  {
+    "name": "TotalTime",
+    "defaultvalue": 0,
+    "displayName": "Time Played"
   },
-  "FPTime": {
-    "description": "Time In First Person",
-    "value": 0
+  {
+    "name": "FPTime",
+    "defaultvalue": 0,
+    "displayName": "Time In First Person"
   },
-  "TPTime": {
-    "description": "Time In Third Person",
-    "value": 0
+  {
+    "name": "TPTime",
+    "defaultvalue": 0,
+    "displayName": "Time In Third Person"
   },
-  "TotalCash": {
-    "description": "Cash Earned In The Gacha Machine",
-    "value": 0
+  {
+    "name": "TotalCash",
+    "defaultvalue": 0,
+    "displayName": "Cash Earned In The Gacha Machine"
   }
-}
+]

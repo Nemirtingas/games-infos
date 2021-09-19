@@ -1,46 +1,57 @@
-﻿{
-  "alien_kills": {
-    "description": "",
-    "value": 0
+[
+  {
+    "name": "alien_kills",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "explode_kills": {
-    "description": "",
-    "value": 0
+  {
+    "name": "explode_kills",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "17_1": {
-    "description": "Test Int",
-    "value": 0
+  {
+    "name": "17_1",
+    "defaultvalue": 0,
+    "displayName": "Test Int"
   },
-  "19_2": {
-    "description": "Ranked Deathmatch Matches Won",
-    "value": 0
+  {
+    "name": "19_2",
+    "defaultvalue": 0,
+    "displayName": "Ranked Deathmatch Matches Won"
   },
-  "19_3": {
-    "description": "Ranked Deathmatch Matches Lost",
-    "value": 0
+  {
+    "name": "19_3",
+    "defaultvalue": 0,
+    "displayName": "Ranked Deathmatch Matches Lost"
   },
-  "19_4": {
-    "description": "Ranked Deathmatch Disconnects",
-    "value": 0
+  {
+    "name": "19_4",
+    "defaultvalue": 0,
+    "displayName": "Ranked Deathmatch Disconnects"
   },
-  "19_1": {
-    "description": "Ranked Deathmatch Game Started Flag",
-    "value": 0
+  {
+    "name": "19_1",
+    "defaultvalue": 0,
+    "displayName": "Ranked Deathmatch Game Started Flag"
   },
-  "20_2": {
-    "description": "EW Ranked DM Won",
-    "value": 0
+  {
+    "name": "20_2",
+    "defaultvalue": 0,
+    "displayName": "EW Ranked DM Won"
   },
-  "20_3": {
-    "description": "EW Ranked DM Lost",
-    "value": 0
+  {
+    "name": "20_3",
+    "defaultvalue": 0,
+    "displayName": "EW Ranked DM Lost"
   },
-  "20_4": {
-    "description": "EW Ranked DM Disconnects",
-    "value": 0
+  {
+    "name": "20_4",
+    "defaultvalue": 0,
+    "displayName": "EW Ranked DM Disconnects"
   },
-  "20_1": {
-    "description": "EW Ranked DM Started Flag",
-    "value": 0
+  {
+    "name": "20_1",
+    "defaultvalue": 0,
+    "displayName": "EW Ranked DM Started Flag"
   }
-}
+]

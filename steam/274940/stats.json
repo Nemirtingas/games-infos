@@ -1,326 +1,407 @@
-﻿{
-  "roundsplayed_d": {
-    "description": "Diver Rounds Played",
-    "value": 0
-  },
-  "roundsplayed_s": {
-    "description": "Shark Rounds Played",
-    "value": 0
-  },
-  "roundsstarted_d": {
-    "description": "Diver Rounds Started",
-    "value": 0
-  },
-  "roundsstarted_s": {
-    "description": "Shark Rounds Started",
-    "value": 0
-  },
-  "roundswon_d": {
-    "description": "Diver Rounds Won",
-    "value": 0
-  },
-  "roundswon_s": {
-    "description": "Shark Rounds Won",
-    "value": 0
-  },
-  "roundslost_d": {
-    "description": "Diver Rounds Lost",
-    "value": 0
-  },
-  "roundslost_s": {
-    "description": "Shark Rounds Lost",
-    "value": 0
-  },
-  "spawns_d": {
-    "description": "Diver Spawns",
-    "value": 0
-  },
-  "spawns_s": {
-    "description": "Shark Spawns",
-    "value": 0
-  },
-  "kills_d": {
-    "description": "Diver Kills",
-    "value": 0
-  },
-  "kills_s": {
-    "description": "Shark Kills",
-    "value": 0
-  },
-  "deaths_d": {
-    "description": "Diver Deaths",
-    "value": 0
-  },
-  "deaths_s": {
-    "description": "Shark Deaths",
-    "value": 0
-  },
-  "saves_d": {
-    "description": "Diver Saves",
-    "value": 0
-  },
-  "saves_s": {
-    "description": "Shark Saves",
-    "value": 0
-  },
-  "treasurepickups": {
-    "description": "Treasure Pickups",
-    "value": 0
-  },
-  "cashearned": {
-    "description": "Cash Earned",
-    "value": 0
-  },
-  "damagedealt_d": {
-    "description": "Diver Damage Dealt",
-    "value": 0
-  },
-  "damagedealt_s": {
-    "description": "Shark Damage Dealt",
-    "value": 0
-  },
-  "damagetaken_d": {
-    "description": "Diver Damage Taken",
-    "value": 0
-  },
-  "damagetaken_s": {
-    "description": "Shark Damage Taken",
-    "value": 0
-  },
-  "mapWins_olmec": {
-    "description": "Olmec Wins",
-    "value": 0
-  },
-  "mapWins_cove": {
-    "description": "Cove Wins",
-    "value": 0
-  },
-  "mapWins_fractured": {
-    "description": "Fractured Wins",
-    "value": 0
-  },
-  "mapWins_crude": {
-    "description": "Crude Wins",
-    "value": 0
-  },
-  "mapWins_antiguo": {
-    "description": "Antiguo Wins",
-    "value": 0
-  },
-  "experience": {
-    "description": "Experience",
-    "value": 0
-  },
-  "mapPlayed_olmec": {
-    "description": "Olmec Plays",
-    "value": 0
-  },
-  "mapPlayed_cove": {
-    "description": "Cove Plays",
-    "value": 0
-  },
-  "mapPlayed_fractured": {
-    "description": "Fractured Plays",
-    "value": 0
-  },
-  "mapPlayed_crude": {
-    "description": "Crude Plays",
-    "value": 0
-  },
-  "mapPlayed_antiguo": {
-    "description": "Antiguo Plays",
-    "value": 0
-  },
-  "ach_weaponsUnlocked": {
-    "description": "Weapons Unlocked (levels - for Achievement)",
-    "value": 0
-  },
-  "cashpickedup": {
-    "description": "Cash Picked Up",
-    "value": 0
-  },
-  "ach_mapsWon": {
-    "description": "Maps Won (for Achievement)",
-    "value": 0
-  },
-  "assists_d": {
-    "description": "Diver Assists",
-    "value": 0
-  },
-  "assists_s": {
-    "description": "Shark Assists",
-    "value": 0
-  },
-  "ach_bestFriendsForever": {
-    "description": "Friends Saved (times - for Achievement)",
-    "value": 0
-  },
-  "ach_goldHoarder": {
-    "description": "Gold Hoarder (times - for Achievement)",
-    "value": 0
-  },
-  "ach_lastGasp": {
-    "description": "Knife fights won with low health (for Achievement)",
-    "value": 0
-  },
-  "ach_technicalDifficulties": {
-    "description": "Sonar Buoy Kills (number - for Achievement)",
-    "value": 0
-  },
-  "ach_frontTowardEnemy": {
-    "description": "Divers killed with their own mines (for Achievment)",
-    "value": 0
-  },
-  "ach_aFriendInNeed": {
-    "description": "Medkit Heals (number - for Achievement)",
-    "value": 0
-  },
-  "ach_daringExplorer": {
-    "description": "Far Treasure Recovered (value - for Achievement)",
-    "value": 0
-  },
-  "ach_hunterHunted": {
-    "description": "Tagged Sharks Killed (number - for Achievement)",
-    "value": 0
-  },
-  "ach_deepRedSea": {
-    "description": "Divers Killed (number - for Achievement)",
-    "value": 0
-  },
-  "ach_canRobotsCry": {
-    "description": "STEVE Disables (times - for Achievement)",
-    "value": 0
-  },
-  "ach_theHarderTheyFall": {
-    "description": "Meglodon Kills (number - for Achievement)",
-    "value": 0
-  },
-  "mega_kills": {
-    "description": "Megalodon Kills",
-    "value": 0
-  },
-  "mapWins_devilshead": {
-    "description": "Devil's Head Wins",
-    "value": 0
-  },
-  "mapPlayed_devilshead": {
-    "description": "Devil's Head Plays",
-    "value": 0
-  },
-  "ach_leaderboardsWrittenTo": {
-    "description": "Leaderboards Written To (number - for Achievement)",
-    "value": 0
-  },
-  "ach_hammerTime": {
-    "description": "Divers killed with impact damage (number - for Achievement)",
-    "value": 0
-  },
-  "ach_canWeFixIt": {
-    "description": "Points of STEVE repaired (number - for Achievement)",
-    "value": 0
-  },
-  "ach_netProfit": {
-    "description": "Shark kills assisted with nets (number - for Achievement)",
-    "value": 0
-  },
-  "mapWins_galleon": {
-    "description": "Galleon Wins",
-    "value": 0
-  },
-  "mapPlayed_galleon": {
-    "description": "Galleon Plays",
-    "value": 0
-  },
-  "mapWins_hillside": {
-    "description": "Hillside Wins",
-    "value": 0
-  },
-  "mapPlayed_hillside": {
-    "description": "Hillside Plays",
-    "value": 0
-  },
-  "mapWinsC_quarry": {
-    "description": "Quarry (Community) Wins",
-    "value": 0
-  },
-  "mapPlayedC_quarry": {
-    "description": "Quarry (Community) Plays",
-    "value": 0
-  },
-  "mapWins_stash": {
-    "description": "Stash Wins",
-    "value": 0
-  },
-  "mapPlayed_stash": {
-    "description": "Stash Plays",
-    "value": 0
-  },
-  "mapWins_station": {
-    "description": "Station Wins",
-    "value": 0
-  },
-  "mapPlayed_station": {
-    "description": "Station Plays",
-    "value": 0
-  },
-  "mapWins_temple": {
-    "description": "Temple Wins",
-    "value": 0
-  },
-  "mapPlayed_temple": {
-    "description": "Temple Plays",
-    "value": 0
-  },
-  "ach_matador": {
-    "description": "Bull Sharks Killed (number - for Achievement)",
-    "value": 0
-  },
-  "ach_elToro": {
-    "description": "Kills as a Bull Shark (number - for Achievement)",
-    "value": 0
-  },
-  "ach_patOnTheBack": {
-    "description": "Kills using PAT (number - for Achievement)",
-    "value": 0
-  },
-  "ach_patDown": {
-    "description": "PAT destroyed (number - for Achievement)",
-    "value": 0
-  },
-  "ach_sharkOfNineTails": {
-    "description": "Diver multi-hits with Tail Lash (number - for Achievement)",
-    "value": 0
-  },
-  "mapWins_crash": {
-    "description": "Breach Wins",
-    "value": 0
-  },
-  "mapPlayed_crash": {
-    "description": "Breach Plays",
-    "value": 0
-  },
-  "coin_show_default": {
-    "description": "Show default coin",
-    "value": 1
-  },
-  "coin_show_item_def_id": {
-    "description": "Show specific coin",
-    "value": 0
-  },
-  "mapWins_facility": {
-    "description": "Ohm Base Wins",
-    "value": 0
-  },
-  "mapPlayed_facility": {
-    "description": "Ohm Base Plays",
-    "value": 0
-  },
-  "mapWins_arctic": {
-    "description": "Snowfall Wins",
-    "value": 0
-  },
-  "mapPlayed_arctic": {
-    "description": "Snowfall Plays",
-    "value": 0
+[
+  {
+    "name": "roundsplayed_d",
+    "defaultvalue": 0,
+    "displayName": "Diver Rounds Played"
+  },
+  {
+    "name": "roundsplayed_s",
+    "defaultvalue": 0,
+    "displayName": "Shark Rounds Played"
+  },
+  {
+    "name": "roundsstarted_d",
+    "defaultvalue": 0,
+    "displayName": "Diver Rounds Started"
+  },
+  {
+    "name": "roundsstarted_s",
+    "defaultvalue": 0,
+    "displayName": "Shark Rounds Started"
+  },
+  {
+    "name": "roundswon_d",
+    "defaultvalue": 0,
+    "displayName": "Diver Rounds Won"
+  },
+  {
+    "name": "roundswon_s",
+    "defaultvalue": 0,
+    "displayName": "Shark Rounds Won"
+  },
+  {
+    "name": "roundslost_d",
+    "defaultvalue": 0,
+    "displayName": "Diver Rounds Lost"
+  },
+  {
+    "name": "roundslost_s",
+    "defaultvalue": 0,
+    "displayName": "Shark Rounds Lost"
+  },
+  {
+    "name": "spawns_d",
+    "defaultvalue": 0,
+    "displayName": "Diver Spawns"
+  },
+  {
+    "name": "spawns_s",
+    "defaultvalue": 0,
+    "displayName": "Shark Spawns"
+  },
+  {
+    "name": "kills_d",
+    "defaultvalue": 0,
+    "displayName": "Diver Kills"
+  },
+  {
+    "name": "kills_s",
+    "defaultvalue": 0,
+    "displayName": "Shark Kills"
+  },
+  {
+    "name": "deaths_d",
+    "defaultvalue": 0,
+    "displayName": "Diver Deaths"
+  },
+  {
+    "name": "deaths_s",
+    "defaultvalue": 0,
+    "displayName": "Shark Deaths"
+  },
+  {
+    "name": "saves_d",
+    "defaultvalue": 0,
+    "displayName": "Diver Saves"
+  },
+  {
+    "name": "saves_s",
+    "defaultvalue": 0,
+    "displayName": "Shark Saves"
+  },
+  {
+    "name": "treasurepickups",
+    "defaultvalue": 0,
+    "displayName": "Treasure Pickups"
+  },
+  {
+    "name": "cashearned",
+    "defaultvalue": 0,
+    "displayName": "Cash Earned"
+  },
+  {
+    "name": "damagedealt_d",
+    "defaultvalue": 0,
+    "displayName": "Diver Damage Dealt"
+  },
+  {
+    "name": "damagedealt_s",
+    "defaultvalue": 0,
+    "displayName": "Shark Damage Dealt"
+  },
+  {
+    "name": "damagetaken_d",
+    "defaultvalue": 0,
+    "displayName": "Diver Damage Taken"
+  },
+  {
+    "name": "damagetaken_s",
+    "defaultvalue": 0,
+    "displayName": "Shark Damage Taken"
+  },
+  {
+    "name": "mapWins_olmec",
+    "defaultvalue": 0,
+    "displayName": "Olmec Wins"
+  },
+  {
+    "name": "mapWins_cove",
+    "defaultvalue": 0,
+    "displayName": "Cove Wins"
+  },
+  {
+    "name": "mapWins_fractured",
+    "defaultvalue": 0,
+    "displayName": "Fractured Wins"
+  },
+  {
+    "name": "mapWins_crude",
+    "defaultvalue": 0,
+    "displayName": "Crude Wins"
+  },
+  {
+    "name": "mapWins_antiguo",
+    "defaultvalue": 0,
+    "displayName": "Antiguo Wins"
+  },
+  {
+    "name": "experience",
+    "defaultvalue": 0,
+    "displayName": "Experience"
+  },
+  {
+    "name": "mapPlayed_olmec",
+    "defaultvalue": 0,
+    "displayName": "Olmec Plays"
+  },
+  {
+    "name": "mapPlayed_cove",
+    "defaultvalue": 0,
+    "displayName": "Cove Plays"
+  },
+  {
+    "name": "mapPlayed_fractured",
+    "defaultvalue": 0,
+    "displayName": "Fractured Plays"
+  },
+  {
+    "name": "mapPlayed_crude",
+    "defaultvalue": 0,
+    "displayName": "Crude Plays"
+  },
+  {
+    "name": "mapPlayed_antiguo",
+    "defaultvalue": 0,
+    "displayName": "Antiguo Plays"
+  },
+  {
+    "name": "ach_weaponsUnlocked",
+    "defaultvalue": 0,
+    "displayName": "Weapons Unlocked (levels - for Achievement)"
+  },
+  {
+    "name": "cashpickedup",
+    "defaultvalue": 0,
+    "displayName": "Cash Picked Up"
+  },
+  {
+    "name": "ach_mapsWon",
+    "defaultvalue": 0,
+    "displayName": "Maps Won (for Achievement)"
+  },
+  {
+    "name": "assists_d",
+    "defaultvalue": 0,
+    "displayName": "Diver Assists"
+  },
+  {
+    "name": "assists_s",
+    "defaultvalue": 0,
+    "displayName": "Shark Assists"
+  },
+  {
+    "name": "ach_bestFriendsForever",
+    "defaultvalue": 0,
+    "displayName": "Friends Saved (times - for Achievement)"
+  },
+  {
+    "name": "ach_goldHoarder",
+    "defaultvalue": 0,
+    "displayName": "Gold Hoarder (times - for Achievement)"
+  },
+  {
+    "name": "ach_lastGasp",
+    "defaultvalue": 0,
+    "displayName": "Knife fights won with low health (for Achievement)"
+  },
+  {
+    "name": "ach_technicalDifficulties",
+    "defaultvalue": 0,
+    "displayName": "Sonar Buoy Kills (number - for Achievement)"
+  },
+  {
+    "name": "ach_frontTowardEnemy",
+    "defaultvalue": 0,
+    "displayName": "Divers killed with their own mines (for Achievment)"
+  },
+  {
+    "name": "ach_aFriendInNeed",
+    "defaultvalue": 0,
+    "displayName": "Medkit Heals (number - for Achievement)"
+  },
+  {
+    "name": "ach_daringExplorer",
+    "defaultvalue": 0,
+    "displayName": "Far Treasure Recovered (value - for Achievement)"
+  },
+  {
+    "name": "ach_hunterHunted",
+    "defaultvalue": 0,
+    "displayName": "Tagged Sharks Killed (number - for Achievement)"
+  },
+  {
+    "name": "ach_deepRedSea",
+    "defaultvalue": 0,
+    "displayName": "Divers Killed (number - for Achievement)"
+  },
+  {
+    "name": "ach_canRobotsCry",
+    "defaultvalue": 0,
+    "displayName": "STEVE Disables (times - for Achievement)"
+  },
+  {
+    "name": "ach_theHarderTheyFall",
+    "defaultvalue": 0,
+    "displayName": "Meglodon Kills (number - for Achievement)"
+  },
+  {
+    "name": "mega_kills",
+    "defaultvalue": 0,
+    "displayName": "Megalodon Kills"
+  },
+  {
+    "name": "mapWins_devilshead",
+    "defaultvalue": 0,
+    "displayName": "Devil's Head Wins"
+  },
+  {
+    "name": "mapPlayed_devilshead",
+    "defaultvalue": 0,
+    "displayName": "Devil's Head Plays"
+  },
+  {
+    "name": "ach_leaderboardsWrittenTo",
+    "defaultvalue": 0,
+    "displayName": "Leaderboards Written To (number - for Achievement)"
+  },
+  {
+    "name": "ach_hammerTime",
+    "defaultvalue": 0,
+    "displayName": "Divers killed with impact damage (number - for Achievement)"
+  },
+  {
+    "name": "ach_canWeFixIt",
+    "defaultvalue": 0,
+    "displayName": "Points of STEVE repaired (number - for Achievement)"
+  },
+  {
+    "name": "ach_netProfit",
+    "defaultvalue": 0,
+    "displayName": "Shark kills assisted with nets (number - for Achievement)"
+  },
+  {
+    "name": "mapWins_galleon",
+    "defaultvalue": 0,
+    "displayName": "Galleon Wins"
+  },
+  {
+    "name": "mapPlayed_galleon",
+    "defaultvalue": 0,
+    "displayName": "Galleon Plays"
+  },
+  {
+    "name": "mapWins_hillside",
+    "defaultvalue": 0,
+    "displayName": "Hillside Wins"
+  },
+  {
+    "name": "mapPlayed_hillside",
+    "defaultvalue": 0,
+    "displayName": "Hillside Plays"
+  },
+  {
+    "name": "mapWinsC_quarry",
+    "defaultvalue": 0,
+    "displayName": "Quarry (Community) Wins"
+  },
+  {
+    "name": "mapPlayedC_quarry",
+    "defaultvalue": 0,
+    "displayName": "Quarry (Community) Plays"
+  },
+  {
+    "name": "mapWins_stash",
+    "defaultvalue": 0,
+    "displayName": "Stash Wins"
+  },
+  {
+    "name": "mapPlayed_stash",
+    "defaultvalue": 0,
+    "displayName": "Stash Plays"
+  },
+  {
+    "name": "mapWins_station",
+    "defaultvalue": 0,
+    "displayName": "Station Wins"
+  },
+  {
+    "name": "mapPlayed_station",
+    "defaultvalue": 0,
+    "displayName": "Station Plays"
+  },
+  {
+    "name": "mapWins_temple",
+    "defaultvalue": 0,
+    "displayName": "Temple Wins"
+  },
+  {
+    "name": "mapPlayed_temple",
+    "defaultvalue": 0,
+    "displayName": "Temple Plays"
+  },
+  {
+    "name": "ach_matador",
+    "defaultvalue": 0,
+    "displayName": "Bull Sharks Killed (number - for Achievement)"
+  },
+  {
+    "name": "ach_elToro",
+    "defaultvalue": 0,
+    "displayName": "Kills as a Bull Shark (number - for Achievement)"
+  },
+  {
+    "name": "ach_patOnTheBack",
+    "defaultvalue": 0,
+    "displayName": "Kills using PAT (number - for Achievement)"
+  },
+  {
+    "name": "ach_patDown",
+    "defaultvalue": 0,
+    "displayName": "PAT destroyed (number - for Achievement)"
+  },
+  {
+    "name": "ach_sharkOfNineTails",
+    "defaultvalue": 0,
+    "displayName": "Diver multi-hits with Tail Lash (number - for Achievement)"
+  },
+  {
+    "name": "mapWins_crash",
+    "defaultvalue": 0,
+    "displayName": "Breach Wins"
+  },
+  {
+    "name": "mapPlayed_crash",
+    "defaultvalue": 0,
+    "displayName": "Breach Plays"
+  },
+  {
+    "name": "coin_show_default",
+    "defaultvalue": 1,
+    "displayName": "Show default coin"
+  },
+  {
+    "name": "coin_show_item_def_id",
+    "defaultvalue": 0,
+    "displayName": "Show specific coin"
+  },
+  {
+    "name": "mapWins_facility",
+    "defaultvalue": 0,
+    "displayName": "Ohm Base Wins"
+  },
+  {
+    "name": "mapPlayed_facility",
+    "defaultvalue": 0,
+    "displayName": "Ohm Base Plays"
+  },
+  {
+    "name": "mapWins_arctic",
+    "defaultvalue": 0,
+    "displayName": "Snowfall Wins"
+  },
+  {
+    "name": "mapPlayed_arctic",
+    "defaultvalue": 0,
+    "displayName": "Snowfall Plays"
   }
-}
+]

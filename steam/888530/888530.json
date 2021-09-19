@@ -1,8 +1,13 @@
 {
-  "Dlcs": {},
+  "Dlcs": {
+    "1451180": {
+      "Name": "",
+      "ImageUrl": ""
+    }
+  },
   "Name": "Yaga",
   "AppId": "888530",
-  "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/888530/header.jpg?t=1600794406",
+  "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/888530/header.jpg?t=1628278550",
   "Languages": [
     "english",
     "french",
@@ -18,11 +23,13 @@
     "portuguese",
     "romanian",
     "tchinese",
-    "turkish"
+    "turkish",
+    "polish",
+    "latam"
   ],
   "Platforms": {
     "windows": true,
-    "mac": true,
+    "mac": false,
     "linux": false
   }
 }

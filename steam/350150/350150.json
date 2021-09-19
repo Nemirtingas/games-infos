@@ -1,14 +1,20 @@
 {
-  "Dlcs": {},
+  "Dlcs": {
+    "1500640": {
+      "Name": "Scraps: Modular Vehicle Combat Soundtrack",
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1500640/header.jpg?t=1608692379",
+      "Type": "music"
+    }
+  },
   "Name": "Scraps: Modular Vehicle Combat",
   "AppId": "350150",
-  "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/350150/header.jpg?t=1579030237",
+  "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/350150/header.jpg?t=1608418868",
   "Languages": [
     "english"
   ],
   "Platforms": {
     "windows": true,
-    "mac": true,
+    "mac": false,
     "linux": true
   }
 }

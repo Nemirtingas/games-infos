@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "name": "Grubslayer",
     "defaultvalue": 0,
@@ -196,7 +196,7 @@
     "defaultvalue": 0,
     "displayName": "We’re in the endgame now",
     "hidden": 0,
-    "description": "Complete a Veteran Mission.",
+    "description": "Complete a Veteran side mission.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1184050/921d2cf8a8f66de467970b4dfc0aac5034285c90.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1184050/939b4a4a952702f8c681434674cc0a564a8e1843.jpg"
   },
@@ -367,7 +367,7 @@
     "defaultvalue": 0,
     "displayName": "Oh I'm sorry did I break your concentration?",
     "hidden": 0,
-    "description": "Interrupt an enemy Overwatch with a Disrupting Shot from the Snub Pistol.",
+    "description": "Interrupt an enemy Overwatch with a Disabling Shot from the Snub Pistol.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1184050/4f63c9a3021ed4ca7105f55700943953880db7f1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1184050/5afcdb3652242e4ffdf59ca8a4420409f5c40b9a.jpg"
   },
@@ -442,5 +442,104 @@
     "description": "In one turn, Breach 3 enemies; kill one of each with Precision Shot, Reckless Shot and Double Shot.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1184050/4ad9646099cf50090582da4cfd3a3c7b46f85d9f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1184050/e3078a33587fd35a2023a733204b440e3e6f417c.jpg"
+  },
+  {
+    "name": "DeviantDelight",
+    "defaultvalue": 0,
+    "displayName": "Zed's dead, baby.",
+    "hidden": 0,
+    "description": "Kill one or more of each Deviant enemy (Jacked game mode only).",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1184050/6271d50ea1b2ff8b7b2c70cf37a42bb50e43486a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1184050/be7c7b9cdea1b41b0ce26c118fdce6af0f257dec.jpg"
+  },
+  {
+    "name": "RoboRescue",
+    "defaultvalue": 0,
+    "displayName": "For he is truly his brother's keeper...",
+    "hidden": 0,
+    "description": "Use Jack to rescue both soldiers from torture pods on a Rescue mission (Jacked game mode only).",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1184050/33496c34beffcf2aa334c87055a436e1c5418b80.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1184050/1ca66c84efd94a3fc536b644cc7f6b90bb455346.jpg"
+  },
+  {
+    "name": "JackInTheBox",
+    "defaultvalue": 0,
+    "displayName": "Number 5 is alive!",
+    "hidden": 0,
+    "description": "Complete a mission with Jack (Jacked game mode only).",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1184050/8789ca7fdae759db63b199f31e879ad5adefcaed.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1184050/7276ec7ca0e2698c4ee15f7283f75f904d0a493f.jpg"
+  },
+  {
+    "name": "GotJacked",
+    "defaultvalue": 0,
+    "displayName": "One For All!",
+    "hidden": 0,
+    "description": "Have four squad members with the Jacked status effect at the same time (Jacked game mode only).",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1184050/3f24d9b6520b5a667422614320abbf781aa10ad9.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1184050/a0d6a91f608573805dfa02db4e198e143eb116da.jpg"
+  },
+  {
+    "name": "JackAndTheBeanstalk",
+    "defaultvalue": 0,
+    "displayName": "Jack and the Beanstalk",
+    "hidden": 0,
+    "description": "Defeat the Brumak in Act 1 Chapter 6 without Jack taking damage (Jacked game mode only).",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1184050/239e8c658b76da28b238272bf1e94b16b1a9e90e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1184050/5accca9af198fac0fd54446ecfa90ee1f16183b7.jpg"
+  },
+  {
+    "name": "AllForOne",
+    "defaultvalue": 0,
+    "displayName": "All For One!",
+    "hidden": 0,
+    "description": "Apply three or more stacks of Wingman on a single ally (Jacked game mode only).",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1184050/65d7352edd48de9607d8339c85d958c6a59b152a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1184050/152fa30db13a247476fc92e010a7e59145c26c57.jpg"
+  },
+  {
+    "name": "YouCantSeeMe",
+    "defaultvalue": 0,
+    "displayName": "You can't see me!",
+    "hidden": 0,
+    "description": "Gain a Supply with a Hidden Jack and no other allies in the Supply Point (Jacked game mode only).",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1184050/16cb93a4d9744f1d21f708fe151c36e46a36a14a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1184050/93481cc943effa7b709fb0385d6cff6707940811.jpg"
+  },
+  {
+    "name": "IveDoneTheWholeMindControlThing",
+    "defaultvalue": 0,
+    "displayName": "I've done the whole mind control thing...",
+    "hidden": 0,
+    "description": "Use Jack to HiJack each non-boss enemy at least once (Jacked game mode only).",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1184050/3df8bda21dad7edea966a54efd3c02f221bbe480.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1184050/deba1666e3cf6b699b4dd7a1b145544ab888a483.jpg"
+  },
+  {
+    "name": "Untouchable",
+    "defaultvalue": 0,
+    "displayName": "Untouchable",
+    "hidden": 0,
+    "description": "Win a Veteran Mission without taking a point of damage (Jacked game mode only).",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1184050/17887eae5c04c5a79104717b0bc722637c7d8194.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1184050/43360d81a4c7bd060b915cc0831a2f00d433ad73.jpg"
+  },
+  {
+    "name": "SuitUp",
+    "defaultvalue": 0,
+    "displayName": "Suit Up!",
+    "hidden": 0,
+    "description": "Equip at least one weapon with all Supreme Weapon Mods (Jacked game mode only).",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1184050/a09354f70637d4f67f9b65951e93d02d6d69ec74.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1184050/c91853f2b0e776870af47a553265489760868d63.jpg"
+  },
+  {
+    "name": "SeriouslyJacked",
+    "defaultvalue": 0,
+    "displayName": "Seriously Jacked",
+    "hidden": 0,
+    "description": "Earn all \"Jacked game mode\" achievements.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1184050/070e82c8995f5fcb3b62ad50eb99470ddb054c47.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1184050/ac92d3b0c0d23b08520e661eb8aefa0f9eeeaa8e.jpg"
   }
 ]

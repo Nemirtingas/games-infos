@@ -1,82 +1,102 @@
-﻿{
-  "TotalGamesPlayed": {
-    "description": "Total Games Played",
-    "value": 0
+[
+  {
+    "name": "TotalGamesPlayed",
+    "defaultvalue": 0,
+    "displayName": "Total Games Played"
   },
-  "TotalNumWins": {
-    "description": "Total Wins",
-    "value": 0
+  {
+    "name": "TotalNumWins",
+    "defaultvalue": 0,
+    "displayName": "Total Wins"
   },
-  "TotalNumLosses": {
-    "description": "Total Losses",
-    "value": 0
+  {
+    "name": "TotalNumLosses",
+    "defaultvalue": 0,
+    "displayName": "Total Losses"
   },
-  "WinsMultiplayer": {
-    "description": "Total Multiplayer Wins",
-    "value": 0
+  {
+    "name": "WinsMultiplayer",
+    "defaultvalue": 0,
+    "displayName": "Total Multiplayer Wins"
   },
-  "MissileHits": {
-    "description": "Missile Hits",
-    "value": 0
+  {
+    "name": "MissileHits",
+    "defaultvalue": 0,
+    "displayName": "Missile Hits"
   },
-  "BulletHits": {
-    "description": "Bullet Hits",
-    "value": 0
+  {
+    "name": "BulletHits",
+    "defaultvalue": 0,
+    "displayName": "Bullet Hits"
   },
-  "Respect": {
-    "description": "Respect",
-    "value": 0
+  {
+    "name": "Respect",
+    "defaultvalue": 0,
+    "displayName": "Respect"
   },
-  "Money": {
-    "description": "Money",
-    "value": 0
+  {
+    "name": "Money",
+    "defaultvalue": 0,
+    "displayName": "Money"
   },
-  "HoursPlayed": {
-    "description": "Hours Played",
-    "value": 0
+  {
+    "name": "HoursPlayed",
+    "defaultvalue": 0,
+    "displayName": "Hours Played"
   },
-  "KmDriven": {
-    "description": "Kilometers Driven",
-    "value": 0
+  {
+    "name": "KmDriven",
+    "defaultvalue": 0,
+    "displayName": "Kilometers Driven"
   },
-  "WrecksDeathRatio": {
-    "description": "Wrecks Death Ratio",
-    "value": 0
+  {
+    "name": "WrecksDeathRatio",
+    "defaultvalue": 0,
+    "displayName": "Wrecks Death Ratio"
   },
-  "NumWrecks": {
-    "description": "Wrecks",
-    "value": 0
+  {
+    "name": "NumWrecks",
+    "defaultvalue": 0,
+    "displayName": "Wrecks"
   },
-  "NumDeaths": {
-    "description": "Deaths",
-    "value": 0
+  {
+    "name": "NumDeaths",
+    "defaultvalue": 0,
+    "displayName": "Deaths"
   },
-  "NumMultiplayerWrecks": {
-    "description": "Multiplayer Wrecks",
-    "value": 0
+  {
+    "name": "NumMultiplayerWrecks",
+    "defaultvalue": 0,
+    "displayName": "Multiplayer Wrecks"
   },
-  "NumMultiplayerDeaths": {
-    "description": "Multiplayer Deaths",
-    "value": 0
+  {
+    "name": "NumMultiplayerDeaths",
+    "defaultvalue": 0,
+    "displayName": "Multiplayer Deaths"
   },
-  "Amateurs5Wins": {
-    "description": "Total Amateurs5 Wins",
-    "value": 0
+  {
+    "name": "Amateurs5Wins",
+    "defaultvalue": 0,
+    "displayName": "Total Amateurs5 Wins"
   },
-  "Finals1Wins": {
-    "description": "Total Finals1 Wins",
-    "value": 0
+  {
+    "name": "Finals1Wins",
+    "defaultvalue": 0,
+    "displayName": "Total Finals1 Wins"
   },
-  "Finals6Wins": {
-    "description": "Total Finals6 Wins",
-    "value": 0
+  {
+    "name": "Finals6Wins",
+    "defaultvalue": 0,
+    "displayName": "Total Finals6 Wins"
   },
-  "BleakRoadWins": {
-    "description": "Total Redline Bleakroad Wins",
-    "value": 0
+  {
+    "name": "BleakRoadWins",
+    "defaultvalue": 0,
+    "displayName": "Total Redline Bleakroad Wins"
   },
-  "UnlockAllAchievement": {
-    "description": "",
-    "value": 1
+  {
+    "name": "UnlockAllAchievement",
+    "defaultvalue": 1,
+    "displayName": ""
   }
-}
+]

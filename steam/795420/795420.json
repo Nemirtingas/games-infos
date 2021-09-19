@@ -1,12 +1,19 @@
 {
-  "Dlcs": {},
-  "Name": "The Darkside Detective: Season 2",
+  "Dlcs": {
+    "1593450": {
+      "Name": "The Darkside Detective: A Fumble in the Dark - Soundtrack",
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1593450/header.jpg?t=1628535739",
+      "Type": "music"
+    }
+  },
+  "Name": "The Darkside Detective: A Fumble in the Dark",
   "AppId": "795420",
-  "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/795420/header.jpg?t=1599691484",
+  "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/795420/header.jpg?t=1631140196",
   "Languages": [
     "english",
     "french",
-    "spanish"
+    "spanish",
+    "german"
   ],
   "Platforms": {
     "windows": true,

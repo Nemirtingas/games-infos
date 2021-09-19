@@ -1,22 +1,27 @@
-﻿{
-  "tore": {
-    "description": "Erzielte Tore",
-    "value": 0
+[
+  {
+    "name": "tore",
+    "defaultvalue": 0,
+    "displayName": "Erzielte Tore"
   },
-  "siege": {
-    "description": "Gewonnene Spiele",
-    "value": 0
+  {
+    "name": "siege",
+    "defaultvalue": 0,
+    "displayName": "Gewonnene Spiele"
   },
-  "spiele": {
-    "description": "Gespielte Spiele",
-    "value": 0
+  {
+    "name": "spiele",
+    "defaultvalue": 0,
+    "displayName": "Gespielte Spiele"
   },
-  "turniersiege": {
-    "description": "Gewonnene Turniere",
-    "value": 0
+  {
+    "name": "turniersiege",
+    "defaultvalue": 0,
+    "displayName": "Gewonnene Turniere"
   },
-  "ligasiege": {
-    "description": "Gewonnene Ligen",
-    "value": 0
+  {
+    "name": "ligasiege",
+    "defaultvalue": 0,
+    "displayName": "Gewonnene Ligen"
   }
-}
+]

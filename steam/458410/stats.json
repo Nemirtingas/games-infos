@@ -1,10 +1,12 @@
-﻿{
-  "won_matches": {
-    "description": "Matches won",
-    "value": 0
+[
+  {
+    "name": "won_matches",
+    "defaultvalue": 0,
+    "displayName": "Matches won"
   },
-  "open_pack": {
-    "description": "Packs opened",
-    "value": 0
+  {
+    "name": "open_pack",
+    "defaultvalue": 0,
+    "displayName": "Packs opened"
   }
-}
+]

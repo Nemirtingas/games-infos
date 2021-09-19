@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "name": "BEAT_THE_GAME",
     "defaultvalue": 0,
@@ -124,5 +124,41 @@
     "description": "Beat the game with a modifier enabled",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1084220/548c591b2e3ef24609d44bdd250501604dd21a46.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1084220/b5b2a4a657f65d369aac397caa565555c425a4b1.jpg"
+  },
+  {
+    "name": "TONGUE_WIN",
+    "defaultvalue": 0,
+    "displayName": "Tongue Win",
+    "hidden": 0,
+    "description": "Beat the game as Tongue Gummy",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1084220/7552bb44ff58eac9f2f71eb1c151c73ee681cc05.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1084220/1de0498056f835097e5058a0560158c91fbbff48.jpg"
+  },
+  {
+    "name": "BABY_WIN",
+    "defaultvalue": 0,
+    "displayName": "Baby Win",
+    "hidden": 0,
+    "description": "Beat the game as Baby Gummy",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1084220/de70b6b783da65a38e5f9216a80344e4f370eed6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1084220/20e24ce91ad4724f8614bc681c9768184fbbfbe7.jpg"
+  },
+  {
+    "name": "INCISOR_WIN",
+    "defaultvalue": 0,
+    "displayName": "Incisor Win",
+    "hidden": 0,
+    "description": "Beat the game as Incisor Gummy",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1084220/8417a6193fb53e21d2e3ca6673803cd4bc55a09d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1084220/b2d5769eafa346108683f5cfc73a5d0592a67143.jpg"
+  },
+  {
+    "name": "FILLING_WIN",
+    "defaultvalue": 0,
+    "displayName": "Filling Win",
+    "hidden": 0,
+    "description": "Beat the game as Filling Gummy",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1084220/a96280b4d2d3d26697c93ff1625fd811eb4e5645.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1084220/da237c68aca57985c35c9c13e72523716c239f18.jpg"
   }
 ]

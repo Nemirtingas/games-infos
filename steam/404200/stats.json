@@ -1,26 +1,32 @@
-﻿{
-  "STAT_COLLECT_GOLD_STAT_COLLECT_GOLD": {
-    "description": "Gold Collected",
-    "value": 0
+[
+  {
+    "name": "STAT_COLLECT_GOLD_STAT_COLLECT_GOLD",
+    "defaultvalue": 0,
+    "displayName": "Gold Collected"
   },
-  "STAT_KILL_ENEMY_STAT_KILL_ENEMY": {
-    "description": "Enemies Killed",
-    "value": 0
+  {
+    "name": "STAT_KILL_ENEMY_STAT_KILL_ENEMY",
+    "defaultvalue": 0,
+    "displayName": "Enemies Killed"
   },
-  "STAT_LOOT_ITEM_STAT_LOOT_ITEM": {
-    "description": "Items Looted",
-    "value": 0
+  {
+    "name": "STAT_LOOT_ITEM_STAT_LOOT_ITEM",
+    "defaultvalue": 0,
+    "displayName": "Items Looted"
   },
-  "STAT_ABILITY_CARD_STAT_ABILITY_CARD": {
-    "description": "Ability Cards Used",
-    "value": 0
+  {
+    "name": "STAT_ABILITY_CARD_STAT_ABILITY_CARD",
+    "defaultvalue": 0,
+    "displayName": "Ability Cards Used"
   },
-  "STAT_BATTLE_CARD_STAT_BATTLE_CARD": {
-    "description": "Battle Cards Used",
-    "value": 0
+  {
+    "name": "STAT_BATTLE_CARD_STAT_BATTLE_CARD",
+    "defaultvalue": 0,
+    "displayName": "Battle Cards Used"
   },
-  "STAT_BURN_ENEMIES_STAT_BURN_ENEMIES": {
-    "description": "Enemies Burned",
-    "value": 0
+  {
+    "name": "STAT_BURN_ENEMIES_STAT_BURN_ENEMIES",
+    "defaultvalue": 0,
+    "displayName": "Enemies Burned"
   }
-}
+]

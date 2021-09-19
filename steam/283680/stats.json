@@ -1,78 +1,97 @@
-﻿{
-  "StatTutorialPlay": {
-    "description": "StatTutorialPlay",
-    "value": 0
+[
+  {
+    "name": "StatTutorialPlay",
+    "defaultvalue": 0,
+    "displayName": "StatTutorialPlay"
   },
-  "StatAllClearDamage_Easy": {
-    "description": "StatAllClearDamage_Easy",
-    "value": 0
+  {
+    "name": "StatAllClearDamage_Easy",
+    "defaultvalue": 0,
+    "displayName": "StatAllClearDamage_Easy"
   },
-  "StatAllClearDamage_Normal": {
-    "description": "StatAllClearDamage_Normal",
-    "value": 0
+  {
+    "name": "StatAllClearDamage_Normal",
+    "defaultvalue": 0,
+    "displayName": "StatAllClearDamage_Normal"
   },
-  "StatAllClearDamage_Hard": {
-    "description": "StatAllClearDamage_Hard",
-    "value": 0
+  {
+    "name": "StatAllClearDamage_Hard",
+    "defaultvalue": 0,
+    "displayName": "StatAllClearDamage_Hard"
   },
-  "StatAllDifficPlayer": {
-    "description": "StatAllDifficPlayer",
-    "value": 0
+  {
+    "name": "StatAllDifficPlayer",
+    "defaultvalue": 0,
+    "displayName": "StatAllDifficPlayer"
   },
-  "StatAllSkip": {
-    "description": "StatAllSkip",
-    "value": 0
+  {
+    "name": "StatAllSkip",
+    "defaultvalue": 0,
+    "displayName": "StatAllSkip"
   },
-  "StatContinue": {
-    "description": "StatContinue",
-    "value": 0
+  {
+    "name": "StatContinue",
+    "defaultvalue": 0,
+    "displayName": "StatContinue"
   },
-  "StatTotalScore": {
-    "description": "StatTotalScore",
-    "value": 0
+  {
+    "name": "StatTotalScore",
+    "defaultvalue": 0,
+    "displayName": "StatTotalScore"
   },
-  "StatShotKill": {
-    "description": "StatShotKill",
-    "value": 0
+  {
+    "name": "StatShotKill",
+    "defaultvalue": 0,
+    "displayName": "StatShotKill"
   },
-  "StatBladeKill": {
-    "description": "StatBladeKill",
-    "value": 0
+  {
+    "name": "StatBladeKill",
+    "defaultvalue": 0,
+    "displayName": "StatBladeKill"
   },
-  "StatMultiLock": {
-    "description": "StatMultiLock",
-    "value": 0
+  {
+    "name": "StatMultiLock",
+    "defaultvalue": 0,
+    "displayName": "StatMultiLock"
   },
-  "StatTotalLockLv": {
-    "description": "StatTotalLockLv",
-    "value": 0
+  {
+    "name": "StatTotalLockLv",
+    "defaultvalue": 0,
+    "displayName": "StatTotalLockLv"
   },
-  "StatDashBlade": {
-    "description": "StatDashBlade",
-    "value": 0
+  {
+    "name": "StatDashBlade",
+    "defaultvalue": 0,
+    "displayName": "StatDashBlade"
   },
-  "StatExScore": {
-    "description": "StatExScore",
-    "value": 0
+  {
+    "name": "StatExScore",
+    "defaultvalue": 0,
+    "displayName": "StatExScore"
   },
-  "StatExRoll": {
-    "description": "StatExRoll",
-    "value": 0
+  {
+    "name": "StatExRoll",
+    "defaultvalue": 0,
+    "displayName": "StatExRoll"
   },
-  "StatExTackle": {
-    "description": "StatExTackle",
-    "value": 0
+  {
+    "name": "StatExTackle",
+    "defaultvalue": 0,
+    "displayName": "StatExTackle"
   },
-  "StatExFull": {
-    "description": "StatExFull",
-    "value": 0
+  {
+    "name": "StatExFull",
+    "defaultvalue": 0,
+    "displayName": "StatExFull"
   },
-  "StatBoss4_Cannon": {
-    "description": "StatBoss4_Cannon",
-    "value": 0
+  {
+    "name": "StatBoss4_Cannon",
+    "defaultvalue": 0,
+    "displayName": "StatBoss4_Cannon"
   },
-  "StatBoss5_PartsAllDead": {
-    "description": "StatBoss5_PartsAllDead",
-    "value": 0
+  {
+    "name": "StatBoss5_PartsAllDead",
+    "defaultvalue": 0,
+    "displayName": "StatBoss5_PartsAllDead"
   }
-}
+]

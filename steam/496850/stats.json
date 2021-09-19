@@ -1,170 +1,212 @@
-﻿{
-  "Bot1v1Wins": {
-    "description": "Bot 1v1 Wins",
-    "value": 0
+[
+  {
+    "name": "Bot1v1Wins",
+    "defaultvalue": 0,
+    "displayName": "Bot 1v1 Wins"
   },
-  "Bot1v1Losses": {
-    "description": "Bot 1v1 Losses",
-    "value": 0
+  {
+    "name": "Bot1v1Losses",
+    "defaultvalue": 0,
+    "displayName": "Bot 1v1 Losses"
   },
-  "Bot2v2Wins": {
-    "description": "Bot 2v2 Wins",
-    "value": 0
+  {
+    "name": "Bot2v2Wins",
+    "defaultvalue": 0,
+    "displayName": "Bot 2v2 Wins"
   },
-  "Bot2v2Losses": {
-    "description": "Bot 2v2 Losses",
-    "value": 0
+  {
+    "name": "Bot2v2Losses",
+    "defaultvalue": 0,
+    "displayName": "Bot 2v2 Losses"
   },
-  "Bot3v3Wins": {
-    "description": "Bot 3v3 Wins",
-    "value": 0
+  {
+    "name": "Bot3v3Wins",
+    "defaultvalue": 0,
+    "displayName": "Bot 3v3 Wins"
   },
-  "Bot3v3Losses": {
-    "description": "Bot 3v3 Losses",
-    "value": 0
+  {
+    "name": "Bot3v3Losses",
+    "defaultvalue": 0,
+    "displayName": "Bot 3v3 Losses"
   },
-  "Bot4v4Wins": {
-    "description": "Bot 4v4 Wins",
-    "value": 0
+  {
+    "name": "Bot4v4Wins",
+    "defaultvalue": 0,
+    "displayName": "Bot 4v4 Wins"
   },
-  "Bot4v4Losses": {
-    "description": "Bot 4v4 Losses",
-    "value": 0
+  {
+    "name": "Bot4v4Losses",
+    "defaultvalue": 0,
+    "displayName": "Bot 4v4 Losses"
   },
-  "BotFFAWins": {
-    "description": "Bot FFA Wins",
-    "value": 0
+  {
+    "name": "BotFFAWins",
+    "defaultvalue": 0,
+    "displayName": "Bot FFA Wins"
   },
-  "BotFFALosses": {
-    "description": "Bot FFA Losses",
-    "value": 0
+  {
+    "name": "BotFFALosses",
+    "defaultvalue": 0,
+    "displayName": "Bot FFA Losses"
   },
-  "PvP1v1Wins": {
-    "description": "PvP 1v1 Wins",
-    "value": 0
+  {
+    "name": "PvP1v1Wins",
+    "defaultvalue": 0,
+    "displayName": "PvP 1v1 Wins"
   },
-  "PvP1v1Losses": {
-    "description": "PvP 1v1 Losses",
-    "value": 0
+  {
+    "name": "PvP1v1Losses",
+    "defaultvalue": 0,
+    "displayName": "PvP 1v1 Losses"
   },
-  "PvP2v2Wins": {
-    "description": "PvP 2v2 Wins",
-    "value": 0
+  {
+    "name": "PvP2v2Wins",
+    "defaultvalue": 0,
+    "displayName": "PvP 2v2 Wins"
   },
-  "PvP2v2Losses": {
-    "description": "PvP 2v2 Losses",
-    "value": 0
+  {
+    "name": "PvP2v2Losses",
+    "defaultvalue": 0,
+    "displayName": "PvP 2v2 Losses"
   },
-  "PvP3v3Wins": {
-    "description": "PvP 3v3 Wins",
-    "value": 0
+  {
+    "name": "PvP3v3Wins",
+    "defaultvalue": 0,
+    "displayName": "PvP 3v3 Wins"
   },
-  "PvP3v3Losses": {
-    "description": "PvP 3v3 Losses",
-    "value": 0
+  {
+    "name": "PvP3v3Losses",
+    "defaultvalue": 0,
+    "displayName": "PvP 3v3 Losses"
   },
-  "PvP4v4Wins": {
-    "description": "PvP 4v4 Wins",
-    "value": 0
+  {
+    "name": "PvP4v4Wins",
+    "defaultvalue": 0,
+    "displayName": "PvP 4v4 Wins"
   },
-  "PvP4v4Losses": {
-    "description": "PvP 4v4 Losses",
-    "value": 0
+  {
+    "name": "PvP4v4Losses",
+    "defaultvalue": 0,
+    "displayName": "PvP 4v4 Losses"
   },
-  "PvPFFAWins": {
-    "description": "PvP FFA Wins",
-    "value": 0
+  {
+    "name": "PvPFFAWins",
+    "defaultvalue": 0,
+    "displayName": "PvP FFA Wins"
   },
-  "PvPFFALosses": {
-    "description": "PvP FFA Losses",
-    "value": 0
+  {
+    "name": "PvPFFALosses",
+    "defaultvalue": 0,
+    "displayName": "PvP FFA Losses"
   },
-  "PracticeGames": {
-    "description": "Practice Games",
-    "value": 0
+  {
+    "name": "PracticeGames",
+    "defaultvalue": 0,
+    "displayName": "Practice Games"
   },
-  "PracticeTotalPoints": {
-    "description": "Practice Total Points",
-    "value": 0
+  {
+    "name": "PracticeTotalPoints",
+    "defaultvalue": 0,
+    "displayName": "Practice Total Points"
   },
-  "GauntletGames": {
-    "description": "Gauntlet Games",
-    "value": 0
+  {
+    "name": "GauntletGames",
+    "defaultvalue": 0,
+    "displayName": "Gauntlet Games"
   },
-  "GauntletTotalBotsDefeated": {
-    "description": "Gauntlet Total Bots Defeated",
-    "value": 0
+  {
+    "name": "GauntletTotalBotsDefeated",
+    "defaultvalue": 0,
+    "displayName": "Gauntlet Total Bots Defeated"
   },
-  "LongestChain": {
-    "description": "Longest Chain",
-    "value": 0
+  {
+    "name": "LongestChain",
+    "defaultvalue": 0,
+    "displayName": "Longest Chain"
   },
-  "TotalChains": {
-    "description": "Total Chains",
-    "value": 0
+  {
+    "name": "TotalChains",
+    "defaultvalue": 0,
+    "displayName": "Total Chains"
   },
-  "PiecesPlaced": {
-    "description": "Pieces Placed",
-    "value": 0
+  {
+    "name": "PiecesPlaced",
+    "defaultvalue": 0,
+    "displayName": "Pieces Placed"
   },
-  "PiecesCleared": {
-    "description": "Pieces Cleared",
-    "value": 0
+  {
+    "name": "PiecesCleared",
+    "defaultvalue": 0,
+    "displayName": "Pieces Cleared"
   },
-  "TotalPoints": {
-    "description": "Total Points",
-    "value": 0
+  {
+    "name": "TotalPoints",
+    "defaultvalue": 0,
+    "displayName": "Total Points"
   },
-  "LargestMatch": {
-    "description": "Largest Match",
-    "value": 0
+  {
+    "name": "LargestMatch",
+    "defaultvalue": 0,
+    "displayName": "Largest Match"
   },
-  "Bot1v1EasyWins": {
-    "description": "Bot 1v1 Easy Wins",
-    "value": 0
+  {
+    "name": "Bot1v1EasyWins",
+    "defaultvalue": 0,
+    "displayName": "Bot 1v1 Easy Wins"
   },
-  "Bot1v1MediumWins": {
-    "description": "Bot 1v1 Medium Wins",
-    "value": 0
+  {
+    "name": "Bot1v1MediumWins",
+    "defaultvalue": 0,
+    "displayName": "Bot 1v1 Medium Wins"
   },
-  "Bot1v1HardWins": {
-    "description": "Bot 1v1 Hard Wins",
-    "value": 0
+  {
+    "name": "Bot1v1HardWins",
+    "defaultvalue": 0,
+    "displayName": "Bot 1v1 Hard Wins"
   },
-  "Bot1v1VeryHardWins": {
-    "description": "Bot 1v1 Very Hard Wins",
-    "value": 0
+  {
+    "name": "Bot1v1VeryHardWins",
+    "defaultvalue": 0,
+    "displayName": "Bot 1v1 Very Hard Wins"
   },
-  "BotTeamEasyWins": {
-    "description": "Bot Team Easy Wins",
-    "value": 0
+  {
+    "name": "BotTeamEasyWins",
+    "defaultvalue": 0,
+    "displayName": "Bot Team Easy Wins"
   },
-  "BotTeamMediumWins": {
-    "description": "Bot Team Medium Wins",
-    "value": 0
+  {
+    "name": "BotTeamMediumWins",
+    "defaultvalue": 0,
+    "displayName": "Bot Team Medium Wins"
   },
-  "BotTeamHardWins": {
-    "description": "Bot Team Hard Wins",
-    "value": 0
+  {
+    "name": "BotTeamHardWins",
+    "defaultvalue": 0,
+    "displayName": "Bot Team Hard Wins"
   },
-  "BotTeamVeryHardWins": {
-    "description": "Bot Team Very Hard Wins",
-    "value": 0
+  {
+    "name": "BotTeamVeryHardWins",
+    "defaultvalue": 0,
+    "displayName": "Bot Team Very Hard Wins"
   },
-  "PracticeHighestLevel": {
-    "description": "Practice Highest Level",
-    "value": 0
+  {
+    "name": "PracticeHighestLevel",
+    "defaultvalue": 0,
+    "displayName": "Practice Highest Level"
   },
-  "PracticeMostPoints": {
-    "description": "Practice Most Points",
-    "value": 0
+  {
+    "name": "PracticeMostPoints",
+    "defaultvalue": 0,
+    "displayName": "Practice Most Points"
   },
-  "GauntletMostBotsDefeated": {
-    "description": "Gauntlet Most Bots Defeated",
-    "value": 0
+  {
+    "name": "GauntletMostBotsDefeated",
+    "defaultvalue": 0,
+    "displayName": "Gauntlet Most Bots Defeated"
   },
-  "MVP4v4Count": {
-    "description": "MVP 4v4 Count",
-    "value": 0
+  {
+    "name": "MVP4v4Count",
+    "defaultvalue": 0,
+    "displayName": "MVP 4v4 Count"
   }
-}
+]

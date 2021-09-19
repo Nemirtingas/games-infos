@@ -1,14 +1,17 @@
-﻿{
-  "BattlesWonCount": {
-    "description": "Fights won",
-    "value": 0
+[
+  {
+    "name": "BattlesWonCount",
+    "defaultvalue": 0,
+    "displayName": "Fights won"
   },
-  "UpgradesCraftedCound": {
-    "description": "Upgrades crafted",
-    "value": 0
+  {
+    "name": "UpgradesCraftedCound",
+    "defaultvalue": 0,
+    "displayName": "Upgrades crafted"
   },
-  "ItemsForgedCount": {
-    "description": "Items forged",
-    "value": 0
+  {
+    "name": "ItemsForgedCount",
+    "defaultvalue": 0,
+    "displayName": "Items forged"
   }
-}
+]

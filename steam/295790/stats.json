@@ -1,134 +1,167 @@
-﻿{
-  "KeyboardUsed": {
-    "description": "Played With Keyboard",
-    "value": 0
+[
+  {
+    "name": "KeyboardUsed",
+    "defaultvalue": 0,
+    "displayName": "Played With Keyboard"
   },
-  "GamepadUsed": {
-    "description": "Played With Gamepad",
-    "value": 0
+  {
+    "name": "GamepadUsed",
+    "defaultvalue": 0,
+    "displayName": "Played With Gamepad"
   },
-  "DeathsAsGirl": {
-    "description": "Deaths As Girl",
-    "value": 0
+  {
+    "name": "DeathsAsGirl",
+    "defaultvalue": 0,
+    "displayName": "Deaths As Girl"
   },
-  "DeathsAsFox": {
-    "description": "Deaths As Fox",
-    "value": 0
+  {
+    "name": "DeathsAsFox",
+    "defaultvalue": 0,
+    "displayName": "Deaths As Fox"
   },
-  "DeathsAsGirlAI": {
-    "description": "Deaths As Girl AI",
-    "value": 0
+  {
+    "name": "DeathsAsGirlAI",
+    "defaultvalue": 0,
+    "displayName": "Deaths As Girl AI"
   },
-  "DeathsAsFoxAI": {
-    "description": "Deaths As Fox AI",
-    "value": 0
+  {
+    "name": "DeathsAsFoxAI",
+    "defaultvalue": 0,
+    "displayName": "Deaths As Fox AI"
   },
-  "Launched": {
-    "description": "Has Launched Game",
-    "value": 0
+  {
+    "name": "Launched",
+    "defaultvalue": 0,
+    "displayName": "Has Launched Game"
   },
-  "Played": {
-    "description": "Has Played",
-    "value": 0
+  {
+    "name": "Played",
+    "defaultvalue": 0,
+    "displayName": "Has Played"
   },
-  "PlayedCoop": {
-    "description": "Has Played Co-op",
-    "value": 0
+  {
+    "name": "PlayedCoop",
+    "defaultvalue": 0,
+    "displayName": "Has Played Co-op"
   },
-  "BolasThrown": {
-    "description": "Bolas Thrown",
-    "value": 0
+  {
+    "name": "BolasThrown",
+    "defaultvalue": 0,
+    "displayName": "Bolas Thrown"
   },
-  "DeathsAsGirlAIFirst": {
-    "description": "Deaths As Girl AI First",
-    "value": 0
+  {
+    "name": "DeathsAsGirlAIFirst",
+    "defaultvalue": 0,
+    "displayName": "Deaths As Girl AI First"
   },
-  "DeathsAsFoxAIFirst": {
-    "description": "Deaths As Fox AI First",
-    "value": 0
+  {
+    "name": "DeathsAsFoxAIFirst",
+    "defaultvalue": 0,
+    "displayName": "Deaths As Fox AI First"
   },
-  "DeathCategoryFall": {
-    "description": "Fall Death",
-    "value": 0
+  {
+    "name": "DeathCategoryFall",
+    "defaultvalue": 0,
+    "displayName": "Fall Death"
   },
-  "DeathCategoryCrush": {
-    "description": "Crush Death",
-    "value": 0
+  {
+    "name": "DeathCategoryCrush",
+    "defaultvalue": 0,
+    "displayName": "Crush Death"
   },
-  "DeathCategoryCreature": {
-    "description": "Death by Creature",
-    "value": 0
+  {
+    "name": "DeathCategoryCreature",
+    "defaultvalue": 0,
+    "displayName": "Death by Creature"
   },
-  "DeathCategorySpirit": {
-    "description": "Death by Spirit",
-    "value": 0
+  {
+    "name": "DeathCategorySpirit",
+    "defaultvalue": 0,
+    "displayName": "Death by Spirit"
   },
-  "DeathCategoryWater": {
-    "description": "Death by Water",
-    "value": 0
+  {
+    "name": "DeathCategoryWater",
+    "defaultvalue": 0,
+    "displayName": "Death by Water"
   },
-  "DeathCategoryUnderwater": {
-    "description": "Death by Underwater",
-    "value": 0
+  {
+    "name": "DeathCategoryUnderwater",
+    "defaultvalue": 0,
+    "displayName": "Death by Underwater"
   },
-  "DeathCategoryBottomlessPit": {
-    "description": "Death by Pit",
-    "value": 0
+  {
+    "name": "DeathCategoryBottomlessPit",
+    "defaultvalue": 0,
+    "displayName": "Death by Pit"
   },
-  "DeathTypeBear": {
-    "description": "Death by Bear",
-    "value": 0
+  {
+    "name": "DeathTypeBear",
+    "defaultvalue": 0,
+    "displayName": "Death by Bear"
   },
-  "DeathTypeManslayer": {
-    "description": "Death by Manslayer",
-    "value": 0
+  {
+    "name": "DeathTypeManslayer",
+    "defaultvalue": 0,
+    "displayName": "Death by Manslayer"
   },
-  "DeathTypeSkyPeople": {
-    "description": "Death by Sky People",
-    "value": 0
+  {
+    "name": "DeathTypeSkyPeople",
+    "defaultvalue": 0,
+    "displayName": "Death by Sky People"
   },
-  "BolaSuccesses": {
-    "description": "Bola hits",
-    "value": 0
+  {
+    "name": "BolaSuccesses",
+    "defaultvalue": 0,
+    "displayName": "Bola hits"
   },
-  "KeyboardUsed_OSX": {
-    "description": "Keyboard Used OSX",
-    "value": 0
+  {
+    "name": "KeyboardUsed_OSX",
+    "defaultvalue": 0,
+    "displayName": "Keyboard Used OSX"
   },
-  "GamepadUsed_OSX": {
-    "description": "Gamepad Used OSX",
-    "value": 0
+  {
+    "name": "GamepadUsed_OSX",
+    "defaultvalue": 0,
+    "displayName": "Gamepad Used OSX"
   },
-  "Launched_OSX": {
-    "description": "Launched OSX",
-    "value": 0
+  {
+    "name": "Launched_OSX",
+    "defaultvalue": 0,
+    "displayName": "Launched OSX"
   },
-  "Played_OSX": {
-    "description": "Played OSX",
-    "value": 0
+  {
+    "name": "Played_OSX",
+    "defaultvalue": 0,
+    "displayName": "Played OSX"
   },
-  "PlayedCoop_OSX": {
-    "description": "Has Played Co-op OSX",
-    "value": 0
+  {
+    "name": "PlayedCoop_OSX",
+    "defaultvalue": 0,
+    "displayName": "Has Played Co-op OSX"
   },
-  "KeyboardUsed_Linux": {
-    "description": "Keyboard Used Linux",
-    "value": 0
+  {
+    "name": "KeyboardUsed_Linux",
+    "defaultvalue": 0,
+    "displayName": "Keyboard Used Linux"
   },
-  "GamepadUsed_Linux": {
-    "description": "Gamepad Used Linux",
-    "value": 0
+  {
+    "name": "GamepadUsed_Linux",
+    "defaultvalue": 0,
+    "displayName": "Gamepad Used Linux"
   },
-  "Launched_Linux": {
-    "description": "Launched Linux",
-    "value": 0
+  {
+    "name": "Launched_Linux",
+    "defaultvalue": 0,
+    "displayName": "Launched Linux"
   },
-  "Played_Linux": {
-    "description": "Played Linux",
-    "value": 0
+  {
+    "name": "Played_Linux",
+    "defaultvalue": 0,
+    "displayName": "Played Linux"
   },
-  "PlayedCoop_Linux": {
-    "description": "Played Coop Linux",
-    "value": 0
+  {
+    "name": "PlayedCoop_Linux",
+    "defaultvalue": 0,
+    "displayName": "Played Coop Linux"
   }
-}
+]

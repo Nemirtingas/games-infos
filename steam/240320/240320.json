@@ -1,25 +1,9 @@
-﻿{
+{
   "Dlcs": {
     "440390": {
       "Name": "Panzar: King Pack",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/440390/header.jpg?t=1530694794"
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/440390/header.jpg?t=1530694794",
+      "Type": "dlc"
     }
-  },
-  "Name": "Panzar",
-  "AppId": "240320",
-  "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/240320/header.jpg?t=1573041026",
-  "Languages": [
-    "english",
-    "french",
-    "german",
-    "spanish",
-    "russian",
-    "polish",
-    "schinese"
-  ],
-  "Platforms": {
-    "windows": true,
-    "mac": false,
-    "linux": false
   }
 }

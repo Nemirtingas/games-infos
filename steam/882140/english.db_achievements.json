@@ -52,5 +52,77 @@
     "description": "Docked with Agena",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/882140/10a35167d1c9670026c3f687898fe2318d6f4f3c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/882140/1d00ac356e76212b57cb55e9ec1aa9d804dc89a9.jpg"
+  },
+  {
+    "name": "campaign1completed",
+    "defaultvalue": 0,
+    "displayName": "Completed Campaign I",
+    "hidden": 0,
+    "description": "Completed all the missions in Campaign I",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/882140/d04ebac9799beadacc17a137f5a3fa60f04525a7.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/882140/d1df7a41ffd180c654f59b8aa81c4df4212f3e16.jpg"
+  },
+  {
+    "name": "campaign2completed",
+    "defaultvalue": 0,
+    "displayName": " Completed Campaign II",
+    "hidden": 0,
+    "description": "Completed all the missions in Campaign II",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/882140/731bbb11de823179a1a9575b8f77784becdff5a9.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/882140/45e673bb481bff6bceb416441218904987837422.jpg"
+  },
+  {
+    "name": "campaign3completed",
+    "defaultvalue": 0,
+    "displayName": " Completed Campaign III",
+    "hidden": 0,
+    "description": "Completed all the missions in Campaign III",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/882140/e6a6ed8667fe9eee4392653e977ec1b4fe75373d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/882140/4b290c2da86109b9619e75ddce09d922a6966cd3.jpg"
+  },
+  {
+    "name": "apollo_lunarlanding",
+    "defaultvalue": 0,
+    "displayName": "Landing on the Moon",
+    "hidden": 0,
+    "description": "Successfully landed the Lunar Module on the Moon from Lunar Orbit",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/882140/48d5157339e3cc36648c10a707f164a499efb1a4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/882140/63dde87c9ccaf4d0c0d13c8699461916e93617c8.jpg"
+  },
+  {
+    "name": "apollo_lunarrendezvousdocking",
+    "defaultvalue": 0,
+    "displayName": "Lunar Ascent, Rendezvous & Docking!",
+    "hidden": 0,
+    "description": "Successfully launched and ascended from the lunar surface in the Lunar Module ascent stage, and rendezvoused & docked with the CSM again.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/882140/d0d08a9469a036a2494c44ce8776966136de3a87.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/882140/a5922f7e82a7268175e90f08e737381db51cc1ac.jpg"
+  },
+  {
+    "name": "apollo_onesmallstep",
+    "defaultvalue": 0,
+    "displayName": "One Small Step",
+    "hidden": 0,
+    "description": "First step on the lunar surface after launching from Cape Canaveral, making the journey to the Moon and landing in one go, no save states used.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/882140/2137f172820efb5d9cc710d0bb43d8c34b1e6daf.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/882140/24ece19b1dc2321d2dc409809a52b1447f9a66bf.jpg"
+  },
+  {
+    "name": "campaign4completed",
+    "defaultvalue": 0,
+    "displayName": "Completed Campaign IV",
+    "hidden": 0,
+    "description": "Completed all the missions in Campaign IV",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/882140/9f2be24e7b0c17dd3cccf9b1d52ee39978dc369a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/882140/4c2b31295c86a002816c6f1877ca9aab9a1eb062.jpg"
+  },
+  {
+    "name": "apollo_scetoaux",
+    "defaultvalue": 0,
+    "displayName": "SCE to AUX",
+    "hidden": 0,
+    "description": "Awarded to the astronaut who solves a problem using SCE to AUX in a MOCR session.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/882140/3e780c5a7a08f1406b2fee36fc8ef0de57aa4323.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/882140/c74e22c107969b5c11b5f444244fe9fd9ec71488.jpg"
   }
 ]

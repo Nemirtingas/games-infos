@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "name": "perfectgame",
     "defaultvalue": 0,
@@ -645,7 +645,106 @@
     "displayName": "Create a game engine",
     "hidden": 0,
     "description": "Create a game engine",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/726840/11f2d31cdbf99fddbdbec879466375cdb4a5c25c.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/726840/f005c68eacc8b31842118a67d4aa51728a472685.jpg"
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/726840/7105a664b5fd11466fd1f85af705d8778b25d2e5.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/726840/3486d52fb0c7eb55b9db641b7ab68b1dbabb5a57.jpg"
+  },
+  {
+    "name": "game_engine_foss",
+    "defaultvalue": 0,
+    "displayName": "Create a FOSS game engine",
+    "hidden": 0,
+    "description": "Create a FOSS game engine",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/726840/a334564231805f7d300608d5e57b32432d922ee9.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/726840/38af087e482304fcaa58d8527c00f42936688bfa.jpg"
+  },
+  {
+    "name": "game_engine_competitor",
+    "defaultvalue": 0,
+    "displayName": "What an engine?!",
+    "hidden": 0,
+    "description": "A competitor publishes a game using you engine",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/726840/9348168b7edb55499d2f07f1dc249320e64be6d7.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/726840/5d124379e64a853738ee079296d6dcd4359bc35c.jpg"
+  },
+  {
+    "name": "customplatform_create",
+    "defaultvalue": 0,
+    "displayName": "Your own console?",
+    "hidden": 0,
+    "description": "Make your own custom platform",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/726840/3f36bcf9a1f52893b2eaf11e3db32e0f449d4619.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/726840/e2f881c831d414ef6a785ff0d305c2006a668156.jpg"
+  },
+  {
+    "name": "customplatform_competitor",
+    "defaultvalue": 0,
+    "displayName": "So popular",
+    "hidden": 0,
+    "description": "A competitor released a game on your custom platform",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/726840/52a3e3a3d71f47ed4f206c04731a048ba5f98961.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/726840/b60d7390a952e1b849046b589ba08229dad206c4.jpg"
+  },
+  {
+    "name": "customplatform_game",
+    "defaultvalue": 0,
+    "displayName": "Let's go!",
+    "hidden": 0,
+    "description": "Publish a game on your own platform",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/726840/bf71f6c74cf081130e40a0a515f469bd8abb5f9b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/726840/8a85c4411b63646f575840403e4d63dc65007fa0.jpg"
+  },
+  {
+    "name": "customplatform_100k",
+    "defaultvalue": 0,
+    "displayName": "100k units sold",
+    "hidden": 0,
+    "description": "100k units sold",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/726840/732f4523007566caf67e999764d4e50be95e5851.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/726840/ace85ec424ad35d82b45d76a4e38c64c8b3a5c67.jpg"
+  },
+  {
+    "name": "customplatform_500k",
+    "defaultvalue": 0,
+    "displayName": "500k units sold",
+    "hidden": 0,
+    "description": "500k units sold",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/726840/cc515702d861220d7a86de327fb6087e1c5d4e4a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/726840/7a847e18917dd56edc79935573a339e4e82d2c57.jpg"
+  },
+  {
+    "name": "customplatform_1m",
+    "defaultvalue": 0,
+    "displayName": "1m units sold",
+    "hidden": 0,
+    "description": "1m units sold",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/726840/df47da312923c8f8e81f1ce6a6f5aa2c35afd26e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/726840/77fe311dc77d3442d871d8f0ab35ceb0bd43c382.jpg"
+  },
+  {
+    "name": "customplatform_10m",
+    "defaultvalue": 0,
+    "displayName": "10m units sold",
+    "hidden": 0,
+    "description": "10m units sold",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/726840/c4b5a34f339d4b46c90ebe0d970f3f02f6745f98.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/726840/35cb848ba66311f50faea13eb1d4aad7727db310.jpg"
+  },
+  {
+    "name": "customplatform_100m",
+    "defaultvalue": 0,
+    "displayName": "100m units sold",
+    "hidden": 0,
+    "description": "100m units sold",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/726840/86ca07f7e186bf2d908f20180532ca6b8a5d7697.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/726840/cce59dad544de6eb44bf6c0b8209c44adaa04213.jpg"
+  },
+  {
+    "name": "mistake_were_made",
+    "defaultvalue": 0,
+    "displayName": "Mistakes were made",
+    "hidden": 0,
+    "description": "Sign an exclusivity deal of 96 months for the Joycast",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/726840/51e773d8b471641759607818daa6e11ad9814870.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/726840/fb546de2069a817dc7896ed336df190362216091.jpg"
   }
 ]

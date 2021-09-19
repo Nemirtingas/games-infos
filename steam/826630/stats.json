@@ -1,70 +1,87 @@
-﻿{
-  "IronAcquired": {
-    "description": "IronAcquired",
-    "value": 0
+[
+  {
+    "name": "IronAcquired",
+    "defaultvalue": 0,
+    "displayName": "IronAcquired"
   },
-  "OilAcquired": {
-    "description": "OilAcquired",
-    "value": 0
+  {
+    "name": "OilAcquired",
+    "defaultvalue": 0,
+    "displayName": "OilAcquired"
   },
-  "FlamethrowerInfantryKills": {
-    "description": "FlamethrowerInfantryKills",
-    "value": 0
+  {
+    "name": "FlamethrowerInfantryKills",
+    "defaultvalue": 0,
+    "displayName": "FlamethrowerInfantryKills"
   },
-  "MechsHarvested": {
-    "description": "MechsHarvested",
-    "value": 0
+  {
+    "name": "MechsHarvested",
+    "defaultvalue": 0,
+    "displayName": "MechsHarvested"
   },
-  "PickedUpEquipment": {
-    "description": "PickedUpEquipment",
-    "value": 0
+  {
+    "name": "PickedUpEquipment",
+    "defaultvalue": 0,
+    "displayName": "PickedUpEquipment"
   },
-  "SoldiersReinforced": {
-    "description": "SoldiersReinforced",
-    "value": 0
+  {
+    "name": "SoldiersReinforced",
+    "defaultvalue": 0,
+    "displayName": "SoldiersReinforced"
   },
-  "UnitsRetreated": {
-    "description": "UnitsRetreated",
-    "value": 0
+  {
+    "name": "UnitsRetreated",
+    "defaultvalue": 0,
+    "displayName": "UnitsRetreated"
   },
-  "ReviveSingleHeroCounter": {
-    "description": "ReviveSingleHeroCounter",
-    "value": 0
+  {
+    "name": "ReviveSingleHeroCounter",
+    "defaultvalue": 0,
+    "displayName": "ReviveSingleHeroCounter"
   },
-  "EnemyBunkersDestroyed": {
-    "description": "EnemyBunkersDestroyed",
-    "value": 0
+  {
+    "name": "EnemyBunkersDestroyed",
+    "defaultvalue": 0,
+    "displayName": "EnemyBunkersDestroyed"
   },
-  "MechsBuilt": {
-    "description": "MechsBuilt",
-    "value": 0
+  {
+    "name": "MechsBuilt",
+    "defaultvalue": 0,
+    "displayName": "MechsBuilt"
   },
-  "PlayedMatchesAndMissions": {
-    "description": "PlayedMatchesAndMissions",
-    "value": 0
+  {
+    "name": "PlayedMatchesAndMissions",
+    "defaultvalue": 0,
+    "displayName": "PlayedMatchesAndMissions"
   },
-  "ConqueredResourcePoints": {
-    "description": "ConqueredResourcePoints",
-    "value": 0
+  {
+    "name": "ConqueredResourcePoints",
+    "defaultvalue": 0,
+    "displayName": "ConqueredResourcePoints"
   },
-  "ConstructedStructures": {
-    "description": "ConstructedStructures",
-    "value": 0
+  {
+    "name": "ConstructedStructures",
+    "defaultvalue": 0,
+    "displayName": "ConstructedStructures"
   },
-  "EnemyMechsKilled": {
-    "description": "EnemyMechsKilled",
-    "value": 0
+  {
+    "name": "EnemyMechsKilled",
+    "defaultvalue": 0,
+    "displayName": "EnemyMechsKilled"
   },
-  "EnemyHeroesKilled": {
-    "description": "EnemyHeroesKilled",
-    "value": 0
+  {
+    "name": "EnemyHeroesKilled",
+    "defaultvalue": 0,
+    "displayName": "EnemyHeroesKilled"
   },
-  "CratesOpened": {
-    "description": "CratesOpened",
-    "value": 0
+  {
+    "name": "CratesOpened",
+    "defaultvalue": 0,
+    "displayName": "CratesOpened"
   },
-  "SkirmishMatchesWon": {
-    "description": "SkirmishMatchesWon",
-    "value": 0
+  {
+    "name": "SkirmishMatchesWon",
+    "defaultvalue": 0,
+    "displayName": "SkirmishMatchesWon"
   }
-}
+]

@@ -201,7 +201,8 @@
     "name": "ACHIEV_23",
     "defaultvalue": 0,
     "displayName": "Practice makes perfect",
-    "hidden": 1,
+    "hidden": 0,
+    "description": "Play 100 times",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1092770/06e65017cde0349818f8a8c0ac75707f0977a5d6.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1092770/31b36f8693dc08247705bab835c70dfbb3bd59dc.jpg"
   },
@@ -226,7 +227,7 @@
     "defaultvalue": 0,
     "displayName": "Accurate moves",
     "hidden": 0,
-    "description": "Collect 5 sequent waves without errors",
+    "description": "Collect 5 waves in a row without errors",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1092770/7dd12971bfd8e71088d5652033e3d6f9e2146093.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1092770/31b36f8693dc08247705bab835c70dfbb3bd59dc.jpg"
   },
@@ -235,7 +236,7 @@
     "defaultvalue": 0,
     "displayName": "Precise reflexes",
     "hidden": 0,
-    "description": "Collect 20 sequent waves without errors",
+    "description": "Collect 20 waves in a row without errors",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1092770/9c85438249320d37639024661ca479b0f3cfec07.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1092770/31b36f8693dc08247705bab835c70dfbb3bd59dc.jpg"
   },
@@ -251,7 +252,8 @@
     "name": "ACHIEV_29",
     "defaultvalue": 0,
     "displayName": "Hearts are spinning",
-    "hidden": 1,
+    "hidden": 0,
+    "description": "Complete 50 perfect circle waves",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1092770/e65452d6c9cf2be2442f89d19fa128b85205ee43.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1092770/31b36f8693dc08247705bab835c70dfbb3bd59dc.jpg"
   },
@@ -259,7 +261,8 @@
     "name": "ACHIEV_30",
     "defaultvalue": 0,
     "displayName": "Ready for the red pill",
-    "hidden": 1,
+    "hidden": 0,
+    "description": "Get all achievements",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1092770/16d2530fe5f286499528f2b3cee1e392845b86d3.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1092770/31b36f8693dc08247705bab835c70dfbb3bd59dc.jpg"
   }

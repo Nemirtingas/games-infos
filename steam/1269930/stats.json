@@ -1,34 +1,42 @@
-﻿{
-  "Exp": {
-    "description": "Exp",
-    "value": 0
+[
+  {
+    "name": "Exp",
+    "defaultvalue": 0,
+    "displayName": "Exp"
   },
-  "Kills": {
-    "description": "Kills",
-    "value": 0
+  {
+    "name": "Kills",
+    "defaultvalue": 0,
+    "displayName": "Kills"
   },
-  "Deaths": {
-    "description": "Deaths",
-    "value": 0
+  {
+    "name": "Deaths",
+    "defaultvalue": 0,
+    "displayName": "Deaths"
   },
-  "ShotsFired": {
-    "description": "ShotsFired",
-    "value": 0
+  {
+    "name": "ShotsFired",
+    "defaultvalue": 0,
+    "displayName": "ShotsFired"
   },
-  "ShotsHit": {
-    "description": "ShotsHit",
-    "value": 0
+  {
+    "name": "ShotsHit",
+    "defaultvalue": 0,
+    "displayName": "ShotsHit"
   },
-  "Wins": {
-    "description": "Wins",
-    "value": 0
+  {
+    "name": "Wins",
+    "defaultvalue": 0,
+    "displayName": "Wins"
   },
-  "Losses": {
-    "description": "Losses",
-    "value": 0
+  {
+    "name": "Losses",
+    "defaultvalue": 0,
+    "displayName": "Losses"
   },
-  "test": {
-    "description": "test",
-    "value": 0
+  {
+    "name": "test",
+    "defaultvalue": 0,
+    "displayName": "test"
   }
-}
+]

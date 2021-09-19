@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "name": "achievements_1",
     "defaultvalue": 0,
@@ -569,5 +569,103 @@
     "description": "Kill 1,000 enemies in the Cathedral",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/807120/fce28f09fbd6e35543bc70654305825901d769b6.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/807120/b074d9f06a5bc6a7e687b9abcfc54667f7894319.jpg"
+  },
+  {
+    "name": "achievements_68",
+    "defaultvalue": 0,
+    "displayName": "Graveyard Call - I",
+    "hidden": 0,
+    "description": "Kill 100 enemies in the Cemetery",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/807120/5fc0a3269c15e41dc1250935b4bf94e5e54ae60d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/807120/4b47cea4d6e6bd907724d7d8b8e3b4038df0e096.jpg"
+  },
+  {
+    "name": "achievements_69",
+    "defaultvalue": 0,
+    "displayName": "Graveyard Call - II",
+    "hidden": 0,
+    "description": "Kill 250 enemies in the Cemetery",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/807120/ab005f4f4a8dd07f4e9bba709283d9c013cc6bdf.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/807120/8eba6ecad0b2a04c0f41fa0055a44d75c5a34dd7.jpg"
+  },
+  {
+    "name": "achievements_70",
+    "defaultvalue": 0,
+    "displayName": "Graveyard Call - III",
+    "hidden": 0,
+    "description": "Kill 1000 enemies in the Cemetery",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/807120/ecd6f93b804569c468e667670299a464a5d6e4b0.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/807120/424944f01f06ce8a7052b9560a9e99bdd9973f53.jpg"
+  },
+  {
+    "name": "achievements_71",
+    "defaultvalue": 0,
+    "displayName": "Sweet Revenge",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/807120/21c585b2c31e96249f78f66fad6683d86f4e09b9.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/807120/2f399c8a81802e706476487ab9b9040a200bfe81.jpg"
+  },
+  {
+    "name": "achievements_73",
+    "defaultvalue": 0,
+    "displayName": "Live Operation",
+    "hidden": 0,
+    "description": "Upgrade any part inside a minion",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/807120/369a75eaf8a0440e5f1fd57bfd21455f73a803f0.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/807120/5e2dd3b48a3e481b74319219fbb1c5cd5e9708ee.jpg"
+  },
+  {
+    "name": "achievements_74",
+    "defaultvalue": 0,
+    "displayName": "Dungeon Queen",
+    "hidden": 0,
+    "description": "Defeat the Mistress",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/807120/5da83ff739cc439850f05f6660aee739b5287942.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/807120/bd88173fe1f7940bc55a731c4c835522f6b1e53e.jpg"
+  },
+  {
+    "name": "achievements_75",
+    "defaultvalue": 0,
+    "displayName": "Mek Brothers",
+    "hidden": 0,
+    "description": "Defeat the Brothers",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/807120/22b7519649eed1d274650711fa4a647f82410bad.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/807120/cbef55f50f96b131bedc1ec237a4b723dfdd4c1f.jpg"
+  },
+  {
+    "name": "achievements_76",
+    "defaultvalue": 0,
+    "displayName": "The Hunter Becomes...",
+    "hidden": 0,
+    "description": "Defeat the Bounty Hunter",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/807120/a93c0f6e1ddc7da590d2d5dfdfc78c908d3df895.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/807120/3c467ca52fb685f08b7db4e2441ce2153d33532e.jpg"
+  },
+  {
+    "name": "achievements_77",
+    "defaultvalue": 0,
+    "displayName": "Experimenter",
+    "hidden": 0,
+    "description": "Defeat the Mad Scientist",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/807120/f59af9372b5e98e2576af7e292685f41bec46077.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/807120/ece893670e6530e905636dde69cf0154094492a8.jpg"
+  },
+  {
+    "name": "achievements_72",
+    "defaultvalue": 0,
+    "displayName": "Doctorate in Potion Brewing",
+    "hidden": 0,
+    "description": "Unlock all Potion recepies",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/807120/caa67944ef9af7e7502d5e4449f27a74f4c140c3.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/807120/cfb4b216208688c13a6a13d0b9927beb1fd0c3fe.jpg"
+  },
+  {
+    "name": "achievements_78",
+    "defaultvalue": 0,
+    "displayName": "Blood Moon",
+    "hidden": 0,
+    "description": "Create the Werewolf",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/807120/bad982ff589fbd69e005b2c3b9b059e2f9dee287.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/807120/747a9ee401afb4be8bc691a3e603661f678134cf.jpg"
   }
 ]

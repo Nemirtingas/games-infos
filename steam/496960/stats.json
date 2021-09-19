@@ -1,38 +1,47 @@
-﻿{
-  "Num_Games": {
-    "description": "Games Played",
-    "value": 0
+[
+  {
+    "name": "Num_Games",
+    "defaultvalue": 0,
+    "displayName": "Games Played"
   },
-  "Num_HeadShot": {
-    "description": "Headshot",
-    "value": 0
+  {
+    "name": "Num_HeadShot",
+    "defaultvalue": 0,
+    "displayName": "Headshot"
   },
-  "Num_Wins": {
-    "description": "Games Won",
-    "value": 0
+  {
+    "name": "Num_Wins",
+    "defaultvalue": 0,
+    "displayName": "Games Won"
   },
-  "Num_Losses": {
-    "description": "Games Lost",
-    "value": 0
+  {
+    "name": "Num_Losses",
+    "defaultvalue": 0,
+    "displayName": "Games Lost"
   },
-  "Num_Kills": {
-    "description": "Kills Zombies",
-    "value": 0
+  {
+    "name": "Num_Kills",
+    "defaultvalue": 0,
+    "displayName": "Kills Zombies"
   },
-  "Num_Shoot": {
-    "description": "Shoot Amount",
-    "value": 0
+  {
+    "name": "Num_Shoot",
+    "defaultvalue": 0,
+    "displayName": "Shoot Amount"
   },
-  "Round_Kill_Record": {
-    "description": "Max Kill Per Round",
-    "value": 0
+  {
+    "name": "Round_Kill_Record",
+    "defaultvalue": 0,
+    "displayName": "Max Kill Per Round"
   },
-  "Num_Points": {
-    "description": "Points",
-    "value": 0
+  {
+    "name": "Num_Points",
+    "defaultvalue": 0,
+    "displayName": "Points"
   },
-  "Num_Credits": {
-    "description": "Credits",
-    "value": 0
+  {
+    "name": "Num_Credits",
+    "defaultvalue": 0,
+    "displayName": "Credits"
   }
-}
+]

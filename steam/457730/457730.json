@@ -2,16 +2,18 @@
   "Dlcs": {
     "1016130": {
       "Name": "Mushroom Wars 2 - Episode 3: Red & Furious",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/1016130/header.jpg?t=1551362717"
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1016130/header.jpg?t=1551362717",
+      "Type": "dlc"
     },
     "731130": {
-      "Name": "",
-      "ImageUrl": ""
+      "Name": "Mushroom Wars 2 - Official Soundtrack",
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/731130/header.jpg?t=1581550598",
+      "Type": "music"
     }
   },
   "Name": "Mushroom Wars 2",
   "AppId": "457730",
-  "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/457730/header.jpg?t=1599065813",
+  "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/457730/header.jpg?t=1599065813",
   "Languages": [
     "english",
     "french",

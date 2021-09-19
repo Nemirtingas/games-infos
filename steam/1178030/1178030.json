@@ -2,14 +2,23 @@
   "Dlcs": {
     "1234570": {
       "Name": "Star Fetchers : Episode 1",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/1234570/header.jpg?t=1580601393"
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1234570/header.jpg?t=1580601393",
+      "Type": "dlc"
     }
   },
   "Name": "Star Fetchers",
   "AppId": "1178030",
-  "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/1178030/header.jpg?t=1593551011",
+  "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1178030/header.jpg?t=1626169731",
   "Languages": [
-    "english"
+    "english",
+    "french",
+    "spanish",
+    "japanese",
+    "korean",
+    "polish",
+    "russian",
+    "latam",
+    "turkish"
   ],
   "Platforms": {
     "windows": true,

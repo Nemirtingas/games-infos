@@ -1,30 +1,37 @@
-﻿{
-  "ceshi1": {
-    "description": "ceshi显示",
-    "value": 99
+[
+  {
+    "name": "ceshi1",
+    "defaultvalue": 99,
+    "displayName": "ceshi显示"
   },
-  "ceshi_float": {
-    "description": "float显示",
-    "value": 0
+  {
+    "name": "ceshi_float",
+    "defaultvalue": 0,
+    "displayName": "float显示"
   },
-  "ceshi_age": {
-    "description": "平均值",
-    "value": 0
+  {
+    "name": "ceshi_age",
+    "defaultvalue": 0,
+    "displayName": "平均值"
   },
-  "ceshi2": {
-    "description": "ces2",
-    "value": 100
+  {
+    "name": "ceshi2",
+    "defaultvalue": 100,
+    "displayName": "ces2"
   },
-  "全球测试": {
-    "description": "全球测试..",
-    "value": 11
+  {
+    "name": "全球测试",
+    "defaultvalue": 11,
+    "displayName": "全球测试.."
   },
-  "ceshi3": {
-    "description": "",
-    "value": 12
+  {
+    "name": "ceshi3",
+    "defaultvalue": 12,
+    "displayName": ""
   },
-  "ceshi4": {
-    "description": "",
-    "value": 14
+  {
+    "name": "ceshi4",
+    "defaultvalue": 14,
+    "displayName": ""
   }
-}
+]

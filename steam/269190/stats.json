@@ -1,34 +1,42 @@
-﻿{
-  "AchievementProgress_CrystalFruits": {
-    "description": "Crystal Fruits Found",
-    "value": 0
+[
+  {
+    "name": "AchievementProgress_CrystalFruits",
+    "defaultvalue": 0,
+    "displayName": "Crystal Fruits Found"
   },
-  "AchievementProgress_LegendaryBeasts": {
-    "description": "Legendary Beasts Hunted",
-    "value": 0
+  {
+    "name": "AchievementProgress_LegendaryBeasts",
+    "defaultvalue": 0,
+    "displayName": "Legendary Beasts Hunted"
   },
-  "AchievementProgress_EventsEnthusiast": {
-    "description": "World Events Completed",
-    "value": 0
+  {
+    "name": "AchievementProgress_EventsEnthusiast",
+    "defaultvalue": 0,
+    "displayName": "World Events Completed"
   },
-  "AchievementProgress_WeaknessExploiter": {
-    "description": "Weaknesses Analyzed",
-    "value": 0
+  {
+    "name": "AchievementProgress_WeaknessExploiter",
+    "defaultvalue": 0,
+    "displayName": "Weaknesses Analyzed"
   },
-  "AchievementProgress_NekarooSpeedrun": {
-    "description": "Nekaroo races won",
-    "value": 0
+  {
+    "name": "AchievementProgress_NekarooSpeedrun",
+    "defaultvalue": 0,
+    "displayName": "Nekaroo races won"
   },
-  "AchievementProgress_PuzzleEnthusiast": {
-    "description": "Puzzles solved",
-    "value": 0
+  {
+    "name": "AchievementProgress_PuzzleEnthusiast",
+    "defaultvalue": 0,
+    "displayName": "Puzzles solved"
   },
-  "AchievementProgress_ChestCollector": {
-    "description": "Chests opened",
-    "value": 0
+  {
+    "name": "AchievementProgress_ChestCollector",
+    "defaultvalue": 0,
+    "displayName": "Chests opened"
   },
-  "AchievementProgress_LegendaryBeasts2": {
-    "description": "Legendary Beasts Hunted",
-    "value": 0
+  {
+    "name": "AchievementProgress_LegendaryBeasts2",
+    "defaultvalue": 0,
+    "displayName": "Legendary Beasts Hunted"
   }
-}
+]

@@ -18,15 +18,6 @@
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1245930/de7d1653bf84c7e1ee63e6efa92227c2864d4054.jpg"
   },
   {
-    "name": "FFN_ZombieKiller",
-    "defaultvalue": 0,
-    "displayName": "Zombie Huntress",
-    "hidden": 0,
-    "description": "Hunted more than thirteen zombies",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1245930/4d5dc9799cdd151d58244f3053b24254daa4c9b9.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1245930/1de55d58bcba5386b09025dd875202f88dddc09e.jpg"
-  },
-  {
     "name": "FFN_KilledMe",
     "defaultvalue": 0,
     "displayName": "Psychological Meltdown",
@@ -45,15 +36,6 @@
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1245930/51ee3fe79a8b2f367e60247efafd54a0123fe910.jpg"
   },
   {
-    "name": "FFN_Zombified",
-    "defaultvalue": 0,
-    "displayName": "Zombified",
-    "hidden": 0,
-    "description": "Be infected zombie virus",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1245930/a8772d1e4a7fe2fdafdf9ca5cddd33a6b0c39368.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1245930/2639636b8e265ddd662e7d8c945a3d22725ffed4.jpg"
-  },
-  {
     "name": "FFN_LegalDefense",
     "defaultvalue": 0,
     "displayName": "Legal Defense",
@@ -70,15 +52,6 @@
     "description": "Cleared Thirteen murderers",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1245930/5d105567a7ce23445d0d6a2813442555f5c7e718.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1245930/ce0705e95f9b816348b0a4e072b21eb9b3dbe6d6.jpg"
-  },
-  {
-    "name": "FFN_Survivor",
-    "defaultvalue": 0,
-    "displayName": "Survivor",
-    "hidden": 0,
-    "description": "Cleared Zombified criminals",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1245930/5e1f56c7ddc91198802516f5e42c934f1af0f85c.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1245930/7dfbd5997c914f60f5b224b55280334dd67fe0ec.jpg"
   },
   {
     "name": "FFN_Kingpin1",
@@ -119,11 +92,11 @@
   {
     "name": "FFN_Reaper",
     "defaultvalue": 0,
-    "displayName": "Reaper",
+    "displayName": "Became Insensitive",
     "hidden": 0,
-    "description": "Reaped 10000 human lives",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1245930/55b379aff782cd57b3bfd6e0f6099dd481891a30.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1245930/8d1464687a775422314019f0fc7abb219098e44f.jpg"
+    "description": "Did kill numerous humans, even if it was legal defense",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1245930/0c2037e05859ec7630cea2f8a8693c2ba330e829.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1245930/ce19e56abcd44eaf4a36f315b92c62b7a7385d53.jpg"
   },
   {
     "name": "FFN_Headshot",
@@ -232,5 +205,95 @@
     "description": "Persuaded 100 humans with a circular saw",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1245930/fa32c8c94e78955d7909e041fbd918d41816897f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1245930/154d6e071f6a069ed7f3125284adf2a4662fce04.jpg"
+  },
+  {
+    "name": "FFN_WelcomeNY",
+    "defaultvalue": 0,
+    "displayName": "Welcome To New York",
+    "hidden": 0,
+    "description": "The peaceful city",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1245930/4d496af08f640a664ebf88ba5020fde2b65103fc.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1245930/610da2022bdb28b5f14b14c459e10993dc7a92c0.jpg"
+  },
+  {
+    "name": "FFN_FFTCitizen",
+    "defaultvalue": 0,
+    "displayName": "Firefighting-trained Citizen",
+    "hidden": 0,
+    "description": "Got a fireaxe",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1245930/35a342f50d583233b65dc36481c5d80dff2a0f74.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1245930/d42f2cff44f761afe56306733ab5a4799c0c43a0.jpg"
+  },
+  {
+    "name": "FFN_HFF",
+    "defaultvalue": 0,
+    "displayName": "Honorary Firefighter",
+    "hidden": 0,
+    "description": "Sent 100 humans to heaven by using a fireaxe",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1245930/8b981ecbc57bbf3d56aeeec7cc662c9a18e1a43c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1245930/9d83105673bea47bff52314f531a4f9f86b30520.jpg"
+  },
+  {
+    "name": "FFN_PicnicStorm",
+    "defaultvalue": 0,
+    "displayName": "Picnic in the Storm",
+    "hidden": 0,
+    "description": "Escaped Central Park",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1245930/5c31974422788281ed7ff4d237a1e3a55a8fb8ac.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1245930/5c18c43334750fdbb60e13db2960392e8f6730ea.jpg"
+  },
+  {
+    "name": "FFN_BloodyRain",
+    "defaultvalue": 0,
+    "displayName": "Bloody Rain",
+    "hidden": 0,
+    "description": "Survived The Ghost of Wet City",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1245930/dc55b591efaffd45ea0e4bab78f97bfd6599a3e8.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1245930/edef3f60f1adceda9a0b38bfbfd831d22f15ee14.jpg"
+  },
+  {
+    "name": "FFN_CHBeginner",
+    "defaultvalue": 0,
+    "displayName": "Crocodile Hunting Beginner",
+    "hidden": 0,
+    "description": "Killed a crocodile",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1245930/381ca3c345ca1f9e243b40aff372d2c20fa92bba.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1245930/3123c926c7fc0f449f1489ee8aa13c604961dc5f.jpg"
+  },
+  {
+    "name": "FFN_CHApprentice",
+    "defaultvalue": 0,
+    "displayName": "Crocodile Hunting Apprentice",
+    "hidden": 0,
+    "description": "Killed 100 crocodiles",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1245930/238e4747bbc8fb9b9d82a7a7f981be3ae3937bb1.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1245930/69cdd5d803465fcf486ec7dc767060e5ae35086f.jpg"
+  },
+  {
+    "name": "FFN_CHExpert",
+    "defaultvalue": 0,
+    "displayName": "Crocodile Hunting Expert",
+    "hidden": 0,
+    "description": "Killed 1000 Crocodiles",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1245930/8294e91df3ec5fa2773b45f0dbd879e19465ca49.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1245930/4eb37e5b6d5c0b571724737561f4db5d308b3453.jpg"
+  },
+  {
+    "name": "FFN_CHPro",
+    "defaultvalue": 0,
+    "displayName": "Crocodile Hunting Professional",
+    "hidden": 0,
+    "description": "Killed 10000 Crocodiles",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1245930/8ae0ca4e876721ca6e84480b2f741e620f2a5a13.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1245930/fa1d3ebb3f8b431bf6435ba3ce17e2fe2a085705.jpg"
+  },
+  {
+    "name": "FFN_GreatProtein",
+    "defaultvalue": 0,
+    "displayName": "Great Source of Protein",
+    "hidden": 0,
+    "description": "Became crocodile's dinner",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1245930/ebdfd3bc15798bee5f26b30a39afa79991d667d9.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1245930/227a85e9b6f2dd0585181f553bbecd35daf5ef46.jpg"
   }
 ]

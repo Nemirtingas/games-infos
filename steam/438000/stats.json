@@ -1,38 +1,47 @@
-﻿{
-  "Girl_Power_Counter": {
-    "description": "Girl Power Counter",
-    "value": 0
+[
+  {
+    "name": "Girl_Power_Counter",
+    "defaultvalue": 0,
+    "displayName": "Girl Power Counter"
   },
-  "Slalom_Apprentice_Total": {
-    "description": "Slalom Apprentice Total",
-    "value": 0
+  {
+    "name": "Slalom_Apprentice_Total",
+    "defaultvalue": 0,
+    "displayName": "Slalom Apprentice Total"
   },
-  "Slalom_Master_Total": {
-    "description": "Slalom Master Total",
-    "value": 0
+  {
+    "name": "Slalom_Master_Total",
+    "defaultvalue": 0,
+    "displayName": "Slalom Master Total"
   },
-  "Ninja_Master_Counter": {
-    "description": "Ninja Master Counter",
-    "value": 0
+  {
+    "name": "Ninja_Master_Counter",
+    "defaultvalue": 0,
+    "displayName": "Ninja Master Counter"
   },
-  "Fried_Hero_Total_Seconds": {
-    "description": "Fried Hero Total Seconds",
-    "value": 0
+  {
+    "name": "Fried_Hero_Total_Seconds",
+    "defaultvalue": 0,
+    "displayName": "Fried Hero Total Seconds"
   },
-  "Our_Hero_Total_Rescued": {
-    "description": "Our Hero Total Rescued",
-    "value": 0
+  {
+    "name": "Our_Hero_Total_Rescued",
+    "defaultvalue": 0,
+    "displayName": "Our Hero Total Rescued"
   },
-  "Bird_Watcher_Total": {
-    "description": "Bird Watcher Total",
-    "value": 0
+  {
+    "name": "Bird_Watcher_Total",
+    "defaultvalue": 0,
+    "displayName": "Bird Watcher Total"
   },
-  "Pay_Back_Counter": {
-    "description": "Pay Back Counter",
-    "value": 0
+  {
+    "name": "Pay_Back_Counter",
+    "defaultvalue": 0,
+    "displayName": "Pay Back Counter"
   },
-  "Pfc_Counter": {
-    "description": "Pfc Counter",
-    "value": 0
+  {
+    "name": "Pfc_Counter",
+    "defaultvalue": 0,
+    "displayName": "Pfc Counter"
   }
-}
+]

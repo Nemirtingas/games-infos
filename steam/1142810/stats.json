@@ -1,38 +1,47 @@
-﻿{
-  "goals_total": {
-    "description": "Goals",
-    "value": 0
+[
+  {
+    "name": "goals_total",
+    "defaultvalue": 0,
+    "displayName": "Goals"
   },
-  "toaster_explosions": {
-    "description": "Toaster Explosions",
-    "value": 0
+  {
+    "name": "toaster_explosions",
+    "defaultvalue": 0,
+    "displayName": "Toaster Explosions"
   },
-  "goals_burners": {
-    "description": "Burners Goals",
-    "value": 0
+  {
+    "name": "goals_burners",
+    "defaultvalue": 0,
+    "displayName": "Burners Goals"
   },
-  "goals_defrosters": {
-    "description": "Defrosters Goals",
-    "value": 0
+  {
+    "name": "goals_defrosters",
+    "defaultvalue": 0,
+    "displayName": "Defrosters Goals"
   },
-  "toasts_burnt": {
-    "description": "Burnt Toasts",
-    "value": 0
+  {
+    "name": "toasts_burnt",
+    "defaultvalue": 0,
+    "displayName": "Burnt Toasts"
   },
-  "toasts_ejected": {
-    "description": "Ejected Toasts",
-    "value": 0
+  {
+    "name": "toasts_ejected",
+    "defaultvalue": 0,
+    "displayName": "Ejected Toasts"
   },
-  "wins_total": {
-    "description": "Matches Played",
-    "value": 0
+  {
+    "name": "wins_total",
+    "defaultvalue": 0,
+    "displayName": "Matches Played"
   },
-  "wins_burners": {
-    "description": "Burners Wins",
-    "value": 0
+  {
+    "name": "wins_burners",
+    "defaultvalue": 0,
+    "displayName": "Burners Wins"
   },
-  "wins_defrosters": {
-    "description": "Defrosters Wins",
-    "value": 0
+  {
+    "name": "wins_defrosters",
+    "defaultvalue": 0,
+    "displayName": "Defrosters Wins"
   }
-}
+]

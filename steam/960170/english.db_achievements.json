@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "name": "ACHIVE_RESPECT_V",
     "defaultvalue": 0,
@@ -1103,5 +1103,204 @@
     "hidden": 1,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/960170/f757c487ed198f5e9ec82019691f80cca33337a3.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/960170/2b21a2db8786b810651aea0f399f9c91b392014b.jpg"
+  },
+  {
+    "name": "ACHIVE_GF_FRONTLINE",
+    "defaultvalue": 0,
+    "displayName": "FRONTLINE",
+    "hidden": 0,
+    "description": "Cleared Frontline with MAX COMBO.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/960170/dd3e8acee03ae45feff28968f4ccb1abf67261f9.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/960170/b00ba27561e8fa28159799094857557dec6f1501.jpg"
+  },
+  {
+    "name": "ACHIVE_GF_ALL_DOLL",
+    "defaultvalue": 0,
+    "displayName": "Return to Base",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/960170/7db166d567ac53738c92c843c97f21d4e1711559.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/960170/394b3d2e822d05c3ea3a7affee71cb4fb2caed06.jpg"
+  },
+  {
+    "name": "ACHIVE_GF_404",
+    "defaultvalue": 0,
+    "displayName": "404 Not Found",
+    "hidden": 0,
+    "description": "Earned all plates of 404 Not Found.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/960170/cb906533f54a9e4e4609d9f81da9122bbdea18c2.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/960170/7382bdbb7d21f2a3c46f285db3bb7fa1a36bfd14.jpg"
+  },
+  {
+    "name": "ACHIVE_GF_GK",
+    "defaultvalue": 0,
+    "displayName": "GRIFON & KRYUGER",
+    "hidden": 0,
+    "description": "Earned Anti Rain Plate.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/960170/2ec33f24b08f6077a9a3cced72e9525c256479c5.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/960170/6df82cf92dd92261472f5775930c031638fa69a3.jpg"
+  },
+  {
+    "name": "ACHIVE_GF_SF",
+    "defaultvalue": 0,
+    "displayName": "SANGVIS FERRI",
+    "hidden": 0,
+    "description": "Saw all tactical dolls of SANGVIS FERRI.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/960170/c1dab4e2158e77d66135c1293b537c79f85d7520.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/960170/4d9228fb0bd902957af6ce71212775c577735c01.jpg"
+  },
+  {
+    "name": "ACHIVE_CHU_MAXCOMBO",
+    "defaultvalue": 0,
+    "displayName": "CHUNITHM QUEST",
+    "hidden": 0,
+    "description": "Cleared all CHUNITHM tracks with MAX COMBO.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/960170/3620d2fa2e634f802848cd3f9f32772195f61b96.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/960170/0abb5a5709a352dc898b7c4ecd68a637397d7089.jpg"
+  },
+  {
+    "name": "ACHIVE_CHU_15",
+    "defaultvalue": 0,
+    "displayName": "WORLD`S END",
+    "hidden": 0,
+    "description": "Played CHUNITHM tracks 15 difficulty pattern.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/960170/1939478aeef638d92eb1ba37794d61b25866d9b3.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/960170/b8d23a0222204ec552f352e744a6b5cf98945942.jpg"
+  },
+  {
+    "name": "ACHIVE_CHU_FEVER",
+    "defaultvalue": 0,
+    "displayName": "Skill Activated",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/960170/37b56a2e3b652287a162ad377817115d6a5d351b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/960170/b7f28202a6bb9479da3dade64684f6a2ad4f66ee.jpg"
+  },
+  {
+    "name": "ACHIVE_CHU_9000",
+    "defaultvalue": 0,
+    "displayName": "Over Power",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/960170/715b14f9347ac0f226cf0f79e98601e782e1c23d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/960170/b1f39161863de5ae58776657a7b61df6b79f3797.jpg"
+  },
+  {
+    "name": "ACHIVE_CHU_PLATE",
+    "defaultvalue": 0,
+    "displayName": "Chuni Penguin",
+    "hidden": 0,
+    "description": "Equipped CHUNITHM Plate.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/960170/a816b4ca601a6c00a1c4d744a8a307f997f83d63.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/960170/e94e433d3dbd3d62d8d7a4d95471675660c2c8a0.jpg"
+  },
+  {
+    "name": "ACHIVE_P3_ALL_S",
+    "defaultvalue": 0,
+    "displayName": "MADE BY MUSICIANS",
+    "hidden": 0,
+    "description": "Cleared all PORTABLE 3 Tracks with S Rank.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/960170/1a60b24c3db050887556723492d10190defda02c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/960170/0c8d6985016988697c910aa0c1e3e87d8a3e943d.jpg"
+  },
+  {
+    "name": "ACHIVE_P3_REMIX",
+    "defaultvalue": 0,
+    "displayName": "REmixVOLUTION",
+    "hidden": 0,
+    "description": "Cleared all REMIX PORTABLE 3 Tracks.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/960170/5a9b52515ba8bdaf4f888aac40ff686e34a057b8.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/960170/cffec39a47e785159bd7b96d8df96eccd12b26da.jpg"
+  },
+  {
+    "name": "ACHIVE_P3_GEAR",
+    "defaultvalue": 0,
+    "displayName": "Now or never",
+    "hidden": 0,
+    "description": "Cleared PORTABLE 3 track with MAX COMBO wearing PORTABLE 3 Gear.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/960170/a7a466c351c169595512bf246865971fe51cf90c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/960170/97c6278fe8c6d1ba94ba94d0f44eed8941b5c729.jpg"
+  },
+  {
+    "name": "ACHIVE_P3_BGA",
+    "defaultvalue": 0,
+    "displayName": "Put Your Hanz Up!",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/960170/e8f1f410276df33a42153aee9d00af58878d583b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/960170/2be42597318dea9f39eba12dffbf740780e7e26c.jpg"
+  },
+  {
+    "name": "ACHIVE_P3_MISSION_MAX_COMBO",
+    "defaultvalue": 0,
+    "displayName": "REMIX SYSTEM",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/960170/5f507c936aad66301eee8452570ec9657b5b4de6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/960170/50f8d40dff5b5c1f066013906a00250b74e1685d.jpg"
+  },
+  {
+    "name": "ACHIVE_P3_WS",
+    "defaultvalue": 0,
+    "displayName": "Make a comeback",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/960170/0d691abee6bf975dbe60d89122e0faa8ed97c765.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/960170/37c96f25cabafb727aa3ea905c882811113d7b70.jpg"
+  },
+  {
+    "name": "ACHIVE_P3_IMAGE_10",
+    "defaultvalue": 0,
+    "displayName": "Rollin' Rollin'",
+    "hidden": 0,
+    "description": "Earned 10 Portable 3 Images.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/960170/47ce6ead8fdbfca4ba43ae64924c908462699139.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/960170/b832fc40706642b04bdb3a185f7a65eaa3bc3c9c.jpg"
+  },
+  {
+    "name": "ACHIVE_P3_COMBO_30000",
+    "defaultvalue": 0,
+    "displayName": "Among Us",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/960170/c30448e2e5573410659fba11717cd66c194c59da.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/960170/33f4fb8afb8568eb9c9fe5a6974d7f21d2ad1421.jpg"
+  },
+  {
+    "name": "ACHIVE_ESTI_OBELISQUE",
+    "defaultvalue": 0,
+    "displayName": "ESTINATION",
+    "hidden": 0,
+    "description": "Cleared OBLIVION, OBLIVION ~Rockin' Night Style~, Obelisque in order.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/960170/6aae8279eff9f6aaf27ce9425ebb57b8371fcc4c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/960170/428f58ef9ffb4bbeaf456fac68bba54d21274b16.jpg"
+  },
+  {
+    "name": "ACHIVE_ESTI_HELIX",
+    "defaultvalue": 0,
+    "displayName": "The Bard",
+    "hidden": 0,
+    "description": "Cleared SIN, SIN ~The Last Scene~, HELIX in order.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/960170/9674f3e2468d0fedb271e0c2b04a4317fead8835.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/960170/14719ef7e705893ebc62907d7a9aaebe542e9b9e.jpg"
+  },
+  {
+    "name": "ACHIVE_ESTI_YUKIKA",
+    "defaultvalue": 0,
+    "displayName": "CITY POP",
+    "hidden": 0,
+    "description": "Cleared all YUKIKA's track with MAX COMBO.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/960170/861d86a155c20a643be8f8eebfc578af467008b9.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/960170/055919bf902c6323f958d5e0d1a9ab4e1cfbbb1b.jpg"
+  },
+  {
+    "name": "ACHIVE_ESTI_GALLERY",
+    "defaultvalue": 0,
+    "displayName": "Florist",
+    "hidden": 0,
+    "description": "Earned all images of ESTiMATE.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/960170/710bede462e960cec02ab1590ffaeb3721dbdf9f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/960170/8cf5049430d305408eb7fa31ec7f058705e2aef1.jpg"
+  },
+  {
+    "name": "ACHIVE_ESTI_HIDDEN",
+    "defaultvalue": 0,
+    "displayName": "Super Galaxy Star",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/960170/5086675d68e4bc68723b5d7c5920e13c98ee14cc.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/960170/b86061dcac7e707fd370cbb422d89308871c2c01.jpg"
   }
 ]

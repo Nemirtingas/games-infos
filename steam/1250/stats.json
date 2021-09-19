@@ -1,198 +1,247 @@
-﻿{
-  "Kills": {
-    "description": "Kills",
-    "value": 0
+[
+  {
+    "name": "Kills",
+    "defaultvalue": 0,
+    "displayName": "Kills"
   },
-  "DamageHealed": {
-    "description": "Damage Healed",
-    "value": 0
+  {
+    "name": "DamageHealed",
+    "defaultvalue": 0,
+    "displayName": "Damage Healed"
   },
-  "WeldingPoints": {
-    "description": "Welding Points",
-    "value": 0
+  {
+    "name": "WeldingPoints",
+    "defaultvalue": 0,
+    "displayName": "Welding Points"
   },
-  "ShotgunDamage": {
-    "description": "Shotgun Damage",
-    "value": 0
+  {
+    "name": "ShotgunDamage",
+    "defaultvalue": 0,
+    "displayName": "Shotgun Damage"
   },
-  "HeadshotKills": {
-    "description": "Sniper Headshot Kills",
-    "value": 0
+  {
+    "name": "HeadshotKills",
+    "defaultvalue": 0,
+    "displayName": "Sniper Headshot Kills"
   },
-  "StalkerKills": {
-    "description": "Stalkers Killed",
-    "value": 0
+  {
+    "name": "StalkerKills",
+    "defaultvalue": 0,
+    "displayName": "Stalkers Killed"
   },
-  "BullpupDamage": {
-    "description": "Bullpup Damage",
-    "value": 0
+  {
+    "name": "BullpupDamage",
+    "defaultvalue": 0,
+    "displayName": "Bullpup Damage"
   },
-  "MeleeDamage": {
-    "description": "Melee Damage",
-    "value": 0
+  {
+    "name": "MeleeDamage",
+    "defaultvalue": 0,
+    "displayName": "Melee Damage"
   },
-  "FlameThrowerDamage": {
-    "description": "Flame Thrower Damage",
-    "value": 0
+  {
+    "name": "FlameThrowerDamage",
+    "defaultvalue": 0,
+    "displayName": "Flame Thrower Damage"
   },
-  "SelfHeals": {
-    "description": "Self Heals",
-    "value": 0
+  {
+    "name": "SelfHeals",
+    "defaultvalue": 0,
+    "displayName": "Self Heals"
   },
-  "SoleSurvivorWaves": {
-    "description": "Sole Survivor Waves",
-    "value": 0
+  {
+    "name": "SoleSurvivorWaves",
+    "defaultvalue": 0,
+    "displayName": "Sole Survivor Waves"
   },
-  "CashDonated": {
-    "description": "Cash Donated",
-    "value": 0
+  {
+    "name": "CashDonated",
+    "defaultvalue": 0,
+    "displayName": "Cash Donated"
   },
-  "FeedingKills": {
-    "description": "Feeding Kills",
-    "value": 0
+  {
+    "name": "FeedingKills",
+    "defaultvalue": 0,
+    "displayName": "Feeding Kills"
   },
-  "BurningCrossbowKills": {
-    "description": "Burning Crossbow Kills",
-    "value": 0
+  {
+    "name": "BurningCrossbowKills",
+    "defaultvalue": 0,
+    "displayName": "Burning Crossbow Kills"
   },
-  "GibbedFleshpounds": {
-    "description": "Gibbed Fleshpounds",
-    "value": 0
+  {
+    "name": "GibbedFleshpounds",
+    "defaultvalue": 0,
+    "displayName": "Gibbed Fleshpounds"
   },
-  "StalkersKilledWithExplosives": {
-    "description": "Stalkers Killed with Explosives",
-    "value": 0
+  {
+    "name": "StalkersKilledWithExplosives",
+    "defaultvalue": 0,
+    "displayName": "Stalkers Killed with Explosives"
   },
-  "GibbedEnemies": {
-    "description": "Gibbed Enemies",
-    "value": 0
+  {
+    "name": "GibbedEnemies",
+    "defaultvalue": 0,
+    "displayName": "Gibbed Enemies"
   },
-  "BloatKills": {
-    "description": "Bloat Kills",
-    "value": 0
+  {
+    "name": "BloatKills",
+    "defaultvalue": 0,
+    "displayName": "Bloat Kills"
   },
-  "TotalZedTime": {
-    "description": "Total Zed Time",
-    "value": 0
+  {
+    "name": "TotalZedTime",
+    "defaultvalue": 0,
+    "displayName": "Total Zed Time"
   },
-  "SirenKills": {
-    "description": "Siren Kills",
-    "value": 0
+  {
+    "name": "SirenKills",
+    "defaultvalue": 0,
+    "displayName": "Siren Kills"
   },
-  "ExplosivesDamage": {
-    "description": "Explosives Damage",
-    "value": 0
+  {
+    "name": "ExplosivesDamage",
+    "defaultvalue": 0,
+    "displayName": "Explosives Damage"
   },
-  "DemolitionsPipebombKills": {
-    "description": "Demolitions Pipebomb Kills",
-    "value": 0
+  {
+    "name": "DemolitionsPipebombKills",
+    "defaultvalue": 0,
+    "displayName": "Demolitions Pipebomb Kills"
   },
-  "EnemiesGibbedWithM79": {
-    "description": "Enemies Gibbed with M79",
-    "value": 0
+  {
+    "name": "EnemiesGibbedWithM79",
+    "defaultvalue": 0,
+    "displayName": "Enemies Gibbed with M79"
   },
-  "EnemiesKilledWithSCAR": {
-    "description": "Enemies Killed With SCAR",
-    "value": 0
+  {
+    "name": "EnemiesKilledWithSCAR",
+    "defaultvalue": 0,
+    "displayName": "Enemies Killed With SCAR"
   },
-  "TeammatesHealedWithMP7": {
-    "description": "Teammates Healed With MP7 Medic Gun",
-    "value": 0
+  {
+    "name": "TeammatesHealedWithMP7",
+    "defaultvalue": 0,
+    "displayName": "Teammates Healed With MP7 Medic Gun"
   },
-  "FleshpoundsKilledWithAA12": {
-    "description": "Fleshpounds Killed With AA12 Shotgun",
-    "value": 0
+  {
+    "name": "FleshpoundsKilledWithAA12",
+    "defaultvalue": 0,
+    "displayName": "Fleshpounds Killed With AA12 Shotgun"
   },
-  "CrawlersKilledInMidair": {
-    "description": "Crawlers Killed in Midair",
-    "value": 0
+  {
+    "name": "CrawlersKilledInMidair",
+    "defaultvalue": 0,
+    "displayName": "Crawlers Killed in Midair"
   },
-  "Mac10BurnDamage": {
-    "description": "Mac10 Burn Damage",
-    "value": 0
+  {
+    "name": "Mac10BurnDamage",
+    "defaultvalue": 0,
+    "displayName": "Mac10 Burn Damage"
   },
-  "DroppedTier3Weapons": {
-    "description": "Dropped Tier3 Weapons",
-    "value": 0
+  {
+    "name": "DroppedTier3Weapons",
+    "defaultvalue": 0,
+    "displayName": "Dropped Tier3 Weapons"
   },
-  "HalloweenKills": {
-    "description": "Stat 30",
-    "value": 0
+  {
+    "name": "HalloweenKills",
+    "defaultvalue": 0,
+    "displayName": "Stat 30"
   },
-  "HalloweenScrakeKills": {
-    "description": "Stat 31",
-    "value": 0
+  {
+    "name": "HalloweenScrakeKills",
+    "defaultvalue": 0,
+    "displayName": "Stat 31"
   },
-  "Testing1": {
-    "description": "Stat XX",
-    "value": 0
+  {
+    "name": "Testing1",
+    "defaultvalue": 0,
+    "displayName": "Stat XX"
   },
-  "XMasHusksKilledWithHuskCannon": {
-    "description": "Stat 32",
-    "value": 0
+  {
+    "name": "XMasHusksKilledWithHuskCannon",
+    "defaultvalue": 0,
+    "displayName": "Stat 32"
   },
-  "XMasPointsHealedWithMP5": {
-    "description": "Stat 33",
-    "value": 0
+  {
+    "name": "XMasPointsHealedWithMP5",
+    "defaultvalue": 0,
+    "displayName": "Stat 33"
   },
-  "MedicPrestige": {
-    "description": "Stat 34",
-    "value": 0
+  {
+    "name": "MedicPrestige",
+    "defaultvalue": 0,
+    "displayName": "Stat 34"
   },
-  "SupportPrestige": {
-    "description": "Stat 35",
-    "value": 0
+  {
+    "name": "SupportPrestige",
+    "defaultvalue": 0,
+    "displayName": "Stat 35"
   },
-  "SharpshooterPrestige": {
-    "description": "Stat 36",
-    "value": 0
+  {
+    "name": "SharpshooterPrestige",
+    "defaultvalue": 0,
+    "displayName": "Stat 36"
   },
-  "CommandoPrestige": {
-    "description": "Stat 37",
-    "value": 0
+  {
+    "name": "CommandoPrestige",
+    "defaultvalue": 0,
+    "displayName": "Stat 37"
   },
-  "BerserkerPrestige": {
-    "description": "Stat 38",
-    "value": 0
+  {
+    "name": "BerserkerPrestige",
+    "defaultvalue": 0,
+    "displayName": "Stat 38"
   },
-  "FirebugPrestige": {
-    "description": "Stat 39",
-    "value": 0
+  {
+    "name": "FirebugPrestige",
+    "defaultvalue": 0,
+    "displayName": "Stat 39"
   },
-  "DemoPrestige": {
-    "description": "Stat 40",
-    "value": 0
+  {
+    "name": "DemoPrestige",
+    "defaultvalue": 0,
+    "displayName": "Stat 40"
   },
-  "EnemiesKilledWithFNFal": {
-    "description": "Stat 41",
-    "value": 0
+  {
+    "name": "EnemiesKilledWithFNFal",
+    "defaultvalue": 0,
+    "displayName": "Stat 41"
   },
-  "EnemiesKilledWithBullpup": {
-    "description": "Stat 42",
-    "value": 0
+  {
+    "name": "EnemiesKilledWithBullpup",
+    "defaultvalue": 0,
+    "displayName": "Stat 42"
   },
-  "ZedKilledDuringHillbilly": {
-    "description": "stat 44",
-    "value": 0
+  {
+    "name": "ZedKilledDuringHillbilly",
+    "defaultvalue": 0,
+    "displayName": "stat 44"
   },
-  "FleshPoundsKilledWithAxe": {
-    "description": "stat 47",
-    "value": 0
+  {
+    "name": "FleshPoundsKilledWithAxe",
+    "defaultvalue": 0,
+    "displayName": "stat 47"
   },
-  "ZedsKilledWhileAirborne": {
-    "description": "stat 48",
-    "value": 0
+  {
+    "name": "ZedsKilledWhileAirborne",
+    "defaultvalue": 0,
+    "displayName": "stat 48"
   },
-  "ZedsKilledWhileZapped": {
-    "description": "stat 49",
-    "value": 0
+  {
+    "name": "ZedsKilledWhileZapped",
+    "defaultvalue": 0,
+    "displayName": "stat 49"
   },
-  "Stat46": {
-    "description": "stat46",
-    "value": 2
+  {
+    "name": "Stat46",
+    "defaultvalue": 2,
+    "displayName": "stat46"
   },
-  "HillbillyAchievementsCompleted": {
-    "description": "stat 45",
-    "value": 0
+  {
+    "name": "HillbillyAchievementsCompleted",
+    "defaultvalue": 0,
+    "displayName": "stat 45"
   }
-}
+]

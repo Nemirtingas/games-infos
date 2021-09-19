@@ -1,70 +1,82 @@
-﻿{
-  "DuaFiles": {
-    "description": "Number of DUA files",
-    "value": 0
+[
+  {
+    "name": "GMA_X_STARTUPS_STAT",
+    "defaultvalue": 0,
+    "displayName": "Startups"
   },
-  "GMA_X_STARTUPS_STAT": {
-    "description": "Startups",
-    "value": 0
+  {
+    "name": "GMA_X_MINUTES_STAT",
+    "defaultvalue": 0,
+    "displayName": "Minutes Played"
   },
-  "GMA_X_MINUTES_STAT": {
-    "description": "Minutes Played",
-    "value": 0
+  {
+    "name": "GMA_X_MAPS_STAT",
+    "defaultvalue": 0,
+    "displayName": "Maps Played"
   },
-  "GMA_X_MAPS_STAT": {
-    "description": "Maps Played",
-    "value": 0
+  {
+    "name": "GMA_BADDIES_STAT",
+    "defaultvalue": 0,
+    "displayName": "Baddies Killed"
   },
-  "GMA_BADDIES_STAT": {
-    "description": "Baddies Killed",
-    "value": 0
+  {
+    "name": "GMA_BYSTANDER_STAT",
+    "defaultvalue": 0,
+    "displayName": "Bystanders Killed"
   },
-  "GMA_BYSTANDER_STAT": {
-    "description": "Bystanders Killed",
-    "value": 0
+  {
+    "name": "GMA_GOODIES_STAT",
+    "defaultvalue": 0,
+    "displayName": "Goodies Killed"
   },
-  "GMA_GOODIES_STAT": {
-    "description": "Goodies Killed",
-    "value": 0
+  {
+    "name": "GMA_BALLEATER_STAT",
+    "defaultvalue": 0,
+    "displayName": "Balls Eaten"
   },
-  "GMA_BALLEATER_STAT": {
-    "description": "Balls Eaten",
-    "value": 0
+  {
+    "name": "GMA_PROPSPAWNER_STAT",
+    "defaultvalue": 0,
+    "displayName": "Props Spawned"
   },
-  "GMA_PROPSPAWNER_STAT": {
-    "description": "Props Spawned",
-    "value": 0
+  {
+    "name": "GMA_BALLOONPOPPER_STAT",
+    "defaultvalue": 0,
+    "displayName": "Balloons Spawned"
   },
-  "GMA_BALLOONPOPPER_STAT": {
-    "description": "Balloons Spawned",
-    "value": 0
+  {
+    "name": "GMA_REMOVER_STAT",
+    "defaultvalue": 0,
+    "displayName": "Entities Removed"
   },
-  "GMA_REMOVER_STAT": {
-    "description": "Entities Removed",
-    "value": 0
+  {
+    "name": "GMA_SPAWNMENUER_STAT",
+    "defaultvalue": 0,
+    "displayName": "Spawnmenus Opened"
   },
-  "GMA_SPAWNMENUER_STAT": {
-    "description": "Spawnmenus Opened",
-    "value": 0
+  {
+    "name": "GMA_BADCODER_STAT",
+    "defaultvalue": 0,
+    "displayName": "Lua Errors Seen"
   },
-  "GMA_BADCODER_STAT": {
-    "description": "Lua Errors Seen",
-    "value": 0
+  {
+    "name": "GMA_NPCSPAWNER_STAT",
+    "defaultvalue": 0,
+    "displayName": "NPCs Spawned"
   },
-  "GMA_NPCSPAWNER_STAT": {
-    "description": "NPCs Spawned",
-    "value": 0
+  {
+    "name": "GMA_RAGDOLLSPAWNER_STAT",
+    "defaultvalue": 0,
+    "displayName": "Ragdolls Spawned"
   },
-  "GMA_RAGDOLLSPAWNER_STAT": {
-    "description": "Ragdolls Spawned",
-    "value": 0
+  {
+    "name": "NUM_WORKSHOP_THUMBS",
+    "defaultvalue": 0,
+    "displayName": "Thumbs Earned"
   },
-  "NUM_WORKSHOP_THUMBS": {
-    "description": "Thumbs Earned",
-    "value": 0
-  },
-  "MOST_WORKSHOP_THUMBS": {
-    "description": "Most Thumbs",
-    "value": 0
+  {
+    "name": "MOST_WORKSHOP_THUMBS",
+    "defaultvalue": 0,
+    "displayName": "Most Thumbs"
   }
-}
+]

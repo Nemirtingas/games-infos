@@ -1,22 +1,27 @@
-﻿{
-  "cntr_destroy_blocks": {
-    "description": "Destroyed blocks",
-    "value": 0
+[
+  {
+    "name": "cntr_destroy_blocks",
+    "defaultvalue": 0,
+    "displayName": "Destroyed blocks"
   },
-  "cntr_suicide_enemy_trilobite_wall": {
-    "description": "Defeated sleeping trilobites",
-    "value": 0
+  {
+    "name": "cntr_suicide_enemy_trilobite_wall",
+    "defaultvalue": 0,
+    "displayName": "Defeated sleeping trilobites"
   },
-  "cntr_suicide_enemy_shiner": {
-    "description": "Defeated sleeping shiners",
-    "value": 0
+  {
+    "name": "cntr_suicide_enemy_shiner",
+    "defaultvalue": 0,
+    "displayName": "Defeated sleeping shiners"
   },
-  "cntr_suicide_enemy_trilobite_mecha_wall": {
-    "description": "Defeated sleeping mecha trilobites",
-    "value": 0
+  {
+    "name": "cntr_suicide_enemy_trilobite_mecha_wall",
+    "defaultvalue": 0,
+    "displayName": "Defeated sleeping mecha trilobites"
   },
-  "cntr_crushed_enemies": {
-    "description": "Enemies crushed",
-    "value": 0
+  {
+    "name": "cntr_crushed_enemies",
+    "defaultvalue": 0,
+    "displayName": "Enemies crushed"
   }
-}
+]

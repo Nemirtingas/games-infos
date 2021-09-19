@@ -1,14 +1,17 @@
-﻿{
-  "GlobalCaptures": {
-    "description": "Global Captures",
-    "value": 0
+[
+  {
+    "name": "GlobalCaptures",
+    "defaultvalue": 0,
+    "displayName": "Global Captures"
   },
-  "Captures": {
-    "description": "Captures",
-    "value": 0
+  {
+    "name": "Captures",
+    "defaultvalue": 0,
+    "displayName": "Captures"
   },
-  "ServerCaptures": {
-    "description": "Server Captures",
-    "value": 0
+  {
+    "name": "ServerCaptures",
+    "defaultvalue": 0,
+    "displayName": "Server Captures"
   }
-}
+]

@@ -1,30 +1,37 @@
-﻿{
-  "PAT_COMBO_MAX": {
-    "description": "Pat Combo Max",
-    "value": 0
+[
+  {
+    "name": "PAT_COMBO_MAX",
+    "defaultvalue": 0,
+    "displayName": "Pat Combo Max"
   },
-  "NUM_PATS": {
-    "description": "Num Pats",
-    "value": 0
+  {
+    "name": "NUM_PATS",
+    "defaultvalue": 0,
+    "displayName": "Num Pats"
   },
-  "ADOPTS_MUTT": {
-    "description": "Mutt Adopted",
-    "value": 0
+  {
+    "name": "ADOPTS_MUTT",
+    "defaultvalue": 0,
+    "displayName": "Mutt Adopted"
   },
-  "ADOPTS_SHIBA": {
-    "description": "Shiba Adopted",
-    "value": 0
+  {
+    "name": "ADOPTS_SHIBA",
+    "defaultvalue": 0,
+    "displayName": "Shiba Adopted"
   },
-  "ADOPTS_MALTESE": {
-    "description": "Maltese Adopted",
-    "value": 0
+  {
+    "name": "ADOPTS_MALTESE",
+    "defaultvalue": 0,
+    "displayName": "Maltese Adopted"
   },
-  "ADOPTS_STAFFIE": {
-    "description": "Staffie Adopted",
-    "value": 0
+  {
+    "name": "ADOPTS_STAFFIE",
+    "defaultvalue": 0,
+    "displayName": "Staffie Adopted"
   },
-  "ENDINGS_MASK": {
-    "description": "Endings Bitmask",
-    "value": 0
+  {
+    "name": "ENDINGS_MASK",
+    "defaultvalue": 0,
+    "displayName": "Endings Bitmask"
   }
-}
+]

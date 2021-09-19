@@ -1,146 +1,212 @@
-﻿{
-  "5_jobs_in_a_row-progress": {
-    "description": "",
-    "value": 0
+[
+  {
+    "name": "5_jobs_in_a_row-progress",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "job_15_companies-progress": {
-    "description": "",
-    "value": 0
+  {
+    "name": "job_15_companies-progress",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "jobs_30_cargo-progress": {
-    "description": "",
-    "value": 0
+  {
+    "name": "jobs_30_cargo-progress",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "999_km_with_each_brand-progress": {
-    "description": "",
-    "value": 0
+  {
+    "name": "999_km_with_each_brand-progress",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "sc_deliver_marinas-progress": {
-    "description": "",
-    "value": 0
+  {
+    "name": "sc_deliver_marinas-progress",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "sc_container_ports-progress": {
-    "description": "",
-    "value": 0
+  {
+    "name": "sc_container_ports-progress",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "sc_quarries_cargo-progress": {
-    "description": "",
-    "value": 0
+  {
+    "name": "sc_quarries_cargo-progress",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "sc_visit_cities-progress": {
-    "description": "",
-    "value": 0
+  {
+    "name": "sc_visit_cities-progress",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "fr_visit_cities-progress": {
-    "description": "",
-    "value": 0
+  {
+    "name": "fr_visit_cities-progress",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "fr_landmarks-progress": {
-    "description": "",
-    "value": 0
+  {
+    "name": "fr_landmarks-progress",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "fr_nucplants-progress": {
-    "description": "",
-    "value": 0
+  {
+    "name": "fr_nucplants-progress",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "fr_airports-progress": {
-    "description": "",
-    "value": 0
+  {
+    "name": "fr_airports-progress",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "fr_truckstop-progress": {
-    "description": "",
-    "value": 0
+  {
+    "name": "fr_truckstop-progress",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "hc_1000xps-progress": {
-    "description": "",
-    "value": 0
+  {
+    "name": "hc_1000xps-progress",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "hc_allcargos-progress": {
-    "description": "",
-    "value": 0
+  {
+    "name": "hc_allcargos-progress",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "it_visit_cities-progress": {
-    "description": "",
-    "value": 0
+  {
+    "name": "it_visit_cities-progress",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "it_shipyards-progress": {
-    "description": "",
-    "value": 0
+  {
+    "name": "it_shipyards-progress",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "it_volcanoes-progress": {
-    "description": "",
-    "value": 0
+  {
+    "name": "it_volcanoes-progress",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "it_roads_to_rome-progress": {
-    "description": "",
-    "value": 0
+  {
+    "name": "it_roads_to_rome-progress",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "st_all_cargos-progress": {
-    "description": "",
-    "value": 0
+  {
+    "name": "st_all_cargos-progress",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "st_no_damage-progress": {
-    "description": "",
-    "value": 0
+  {
+    "name": "st_no_damage-progress",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "job_all_trailer_types-progress": {
-    "description": "",
-    "value": 0
+  {
+    "name": "job_all_trailer_types-progress",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "ba_visit_cities-progress": {
-    "description": "",
-    "value": 0
+  {
+    "name": "ba_visit_cities-progress",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "ba_job_countries-progress": {
-    "description": "",
-    "value": 0
+  {
+    "name": "ba_job_countries-progress",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "ba_to_russia-progress": {
-    "description": "",
-    "value": 0
+  {
+    "name": "ba_to_russia-progress",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "ba_concrete-progress": {
-    "description": "",
-    "value": 0
+  {
+    "name": "ba_concrete-progress",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "ba_industry-progress": {
-    "description": "",
-    "value": 0
+  {
+    "name": "ba_industry-progress",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "ba_farm-progress": {
-    "description": "",
-    "value": 0
+  {
+    "name": "ba_farm-progress",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "it_visit_sardinia-progress": {
-    "description": "",
-    "value": 0
+  {
+    "name": "it_visit_sardinia-progress",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "fr_visit_corsica-progress": {
-    "description": "",
-    "value": 0
+  {
+    "name": "fr_visit_corsica-progress",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "be_visit_cities-progress": {
-    "description": "",
-    "value": 0
+  {
+    "name": "be_visit_cities-progress",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "be_border_crossings-progress": {
-    "description": "",
-    "value": 0
+  {
+    "name": "be_border_crossings-progress",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "be_landmarks-progress": {
-    "description": "",
-    "value": 0
+  {
+    "name": "be_landmarks-progress",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "be_istanbul_jobs-progress": {
-    "description": "",
-    "value": 0
+  {
+    "name": "be_istanbul_jobs-progress",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "be_black_sea-progress": {
-    "description": "",
-    "value": 0
+  {
+    "name": "be_black_sea-progress",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "be_express-progress": {
-    "description": "",
-    "value": 0
+  {
+    "name": "be_express-progress",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "ib_visit_cities-progress",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "ib_container_ports-progress",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "ib_solar_power_plants-progress",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "ib_shipyards-progress",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "ib_a_coruna-progress",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "ib_cutscenes-progress",
+    "defaultvalue": 0,
+    "displayName": ""
   }
-}
+]

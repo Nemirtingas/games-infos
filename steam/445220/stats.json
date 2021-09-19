@@ -1,62 +1,77 @@
-﻿{
-  "STAT_PIRATES_DESTROYED": {
-    "description": "Pirates Destroyed",
-    "value": 0
+[
+  {
+    "name": "STAT_PIRATES_DESTROYED",
+    "defaultvalue": 0,
+    "displayName": "Pirates Destroyed"
   },
-  "STAT_XSOTAN_DESTROYED": {
-    "description": "Xsotan Destroyed",
-    "value": 0
+  {
+    "name": "STAT_XSOTAN_DESTROYED",
+    "defaultvalue": 0,
+    "displayName": "Xsotan Destroyed"
   },
-  "STAT_CIVIL_SHIPS_DESTROYED": {
-    "description": "Civil Ships Destroyed",
-    "value": 0
+  {
+    "name": "STAT_CIVIL_SHIPS_DESTROYED",
+    "defaultvalue": 0,
+    "displayName": "Civil Ships Destroyed"
   },
-  "STAT_SHIPS_DESTROYED": {
-    "description": "Ships Destroyed",
-    "value": 0
+  {
+    "name": "STAT_SHIPS_DESTROYED",
+    "defaultvalue": 0,
+    "displayName": "Ships Destroyed"
   },
-  "STAT_STATIONS_DESTROYED": {
-    "description": "Stations Destroyed",
-    "value": 0
+  {
+    "name": "STAT_STATIONS_DESTROYED",
+    "defaultvalue": 0,
+    "displayName": "Stations Destroyed"
   },
-  "STAT_RESOURCES_MINED": {
-    "description": "Resources Mined",
-    "value": 0
+  {
+    "name": "STAT_RESOURCES_MINED",
+    "defaultvalue": 0,
+    "displayName": "Resources Mined"
   },
-  "STAT_GOODS_TRADED": {
-    "description": "Goods Traded",
-    "value": 0
+  {
+    "name": "STAT_GOODS_TRADED",
+    "defaultvalue": 0,
+    "displayName": "Goods Traded"
   },
-  "STAT_GOODS_SOLD": {
-    "description": "Goods Sold",
-    "value": 0
+  {
+    "name": "STAT_GOODS_SOLD",
+    "defaultvalue": 0,
+    "displayName": "Goods Sold"
   },
-  "STAT_GOODS_BOUGHT": {
-    "description": "Goods Bought",
-    "value": 0
+  {
+    "name": "STAT_GOODS_BOUGHT",
+    "defaultvalue": 0,
+    "displayName": "Goods Bought"
   },
-  "STAT_GATES_USED": {
-    "description": "Gates Used",
-    "value": 0
+  {
+    "name": "STAT_GATES_USED",
+    "defaultvalue": 0,
+    "displayName": "Gates Used"
   },
-  "STAT_WORMHOLES_USED": {
-    "description": "Wormholes Used",
-    "value": 0
+  {
+    "name": "STAT_WORMHOLES_USED",
+    "defaultvalue": 0,
+    "displayName": "Wormholes Used"
   },
-  "STAT_JUMPS_USED": {
-    "description": "Jumps Used",
-    "value": 0
+  {
+    "name": "STAT_JUMPS_USED",
+    "defaultvalue": 0,
+    "displayName": "Jumps Used"
   },
-  "STAT_SECTORS_DISCOVERED": {
-    "description": "Sectors Discovered",
-    "value": 0
+  {
+    "name": "STAT_SECTORS_DISCOVERED",
+    "defaultvalue": 0,
+    "displayName": "Sectors Discovered"
   },
-  "STAT_SECTORS_TRAVELED": {
-    "description": "Sectors Traveled",
-    "value": 0
+  {
+    "name": "STAT_SECTORS_TRAVELED",
+    "defaultvalue": 0,
+    "displayName": "Sectors Traveled"
   },
-  "STAT_METERS_FLOWN": {
-    "description": "Meters Flown",
-    "value": 0
+  {
+    "name": "STAT_METERS_FLOWN",
+    "defaultvalue": 0,
+    "displayName": "Meters Flown"
   }
-}
+]

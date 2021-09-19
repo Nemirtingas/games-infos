@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "name": "ACH_HORTS",
     "defaultvalue": 0,
@@ -124,9 +124,9 @@
   {
     "name": "ACH_SHALD",
     "defaultvalue": 0,
-    "displayName": "Rights",
+    "displayName": "WIsh",
     "hidden": 0,
-    "description": " Make Shald happy",
+    "description": " Make Shald's dream come true",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1304450/0cf9569d5272b7586e728f1c79eea31e63ddf15b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1304450/18e9fa97f1c0b7a3cc1f3abf2a9d0d1b7b69f719.jpg"
   },
@@ -138,5 +138,14 @@
     "description": "Die and live in a nearby body for the first time",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1304450/519af197746d0bbf71bc7a1c802de792edf61066.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1304450/70d065590b8831ebc867342bc7d28abe3034eb52.jpg"
+  },
+  {
+    "name": "ACH_ALL",
+    "defaultvalue": 0,
+    "displayName": "Undying: Master of Die Again",
+    "hidden": 0,
+    "description": "Obtain all other achievements",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1304450/180f5fc9935468d15ec6f4aeb61f5877f8e4c0be.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1304450/ca672ab27eee6db6447597fa200f0c449f78a2b5.jpg"
   }
 ]

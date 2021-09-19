@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "name": "kaboom",
     "defaultvalue": 0,
@@ -58,7 +58,7 @@
     "defaultvalue": 0,
     "displayName": "Bite the Hand that Feeds You",
     "hidden": 0,
-    "description": "Shoot the Farmer 10 Time to Make Him Talk 10 Times",
+    "description": "Shoot the Farmer's Face to Make Him Talk 10 Times",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/434570/b2429e22489685c167a37edf262912ae87fc3c83.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/434570/b95c23c17acc23298bf8e3126b25bd24ef075acd.jpg"
   },
@@ -346,5 +346,32 @@
     "hidden": 1,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/434570/c5b13b3f2997fcf3edc303fcf1f6409481229e4c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/434570/bcd7903a413d859b845f03343452592ed4acccc8.jpg"
+  },
+  {
+    "name": "heirlooms",
+    "defaultvalue": 0,
+    "displayName": "Heirlooms",
+    "hidden": 0,
+    "description": "Examine 5 heirlooms from the tunnels, in great detail",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/434570/b41ec580330167883cfbaa2dfa344e5b787a536a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/434570/17f1cf26c83dd01babd654d3ae3147a668aa2e59.jpg"
+  },
+  {
+    "name": "mrgreen",
+    "defaultvalue": 0,
+    "displayName": "Mr Green",
+    "hidden": 0,
+    "description": "Listen to the story of Mr. Green, and the 3 Skulls",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/434570/88272eaa3f9e20ca7ffac4cc4247af31d2ba1080.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/434570/17f1cf26c83dd01babd654d3ae3147a668aa2e59.jpg"
+  },
+  {
+    "name": "freefall",
+    "defaultvalue": 0,
+    "displayName": "FreeFall ",
+    "hidden": 0,
+    "description": "Fall 2500 feet in the tunnels and live or die",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/434570/80176687f6ecf78fc53ab12a7fb2012c060742fa.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/434570/17f1cf26c83dd01babd654d3ae3147a668aa2e59.jpg"
   }
 ]

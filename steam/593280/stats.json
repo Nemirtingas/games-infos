@@ -1,50 +1,62 @@
-﻿{
-  "player_level": {
-    "description": "Level",
-    "value": 1
+[
+  {
+    "name": "player_level",
+    "defaultvalue": 1,
+    "displayName": "Level"
   },
-  "skills_learned": {
-    "description": "Skills Learned",
-    "value": 0
+  {
+    "name": "skills_learned",
+    "defaultvalue": 0,
+    "displayName": "Skills Learned"
   },
-  "dungeons_cleared": {
-    "description": "Dungeons Cleared",
-    "value": 0
+  {
+    "name": "dungeons_cleared",
+    "defaultvalue": 0,
+    "displayName": "Dungeons Cleared"
   },
-  "equipments_obtained": {
-    "description": "Equipments Obtained",
-    "value": 0
+  {
+    "name": "equipments_obtained",
+    "defaultvalue": 0,
+    "displayName": "Equipments Obtained"
   },
-  "mainquests_completed": {
-    "description": "Main Quests Completed",
-    "value": 0
+  {
+    "name": "mainquests_completed",
+    "defaultvalue": 0,
+    "displayName": "Main Quests Completed"
   },
-  "sidequests_completed": {
-    "description": "Side Quests Completed",
-    "value": 0
+  {
+    "name": "sidequests_completed",
+    "defaultvalue": 0,
+    "displayName": "Side Quests Completed"
   },
-  "player_level_percent": {
-    "description": "Player Level Percentage",
-    "value": 0
+  {
+    "name": "player_level_percent",
+    "defaultvalue": 0,
+    "displayName": "Player Level Percentage"
   },
-  "skills_learned_percent": {
-    "description": "Skills Learned Percentage",
-    "value": 0
+  {
+    "name": "skills_learned_percent",
+    "defaultvalue": 0,
+    "displayName": "Skills Learned Percentage"
   },
-  "dungeons_cleared_percent": {
-    "description": "Dungeons Cleared Percentage",
-    "value": 0
+  {
+    "name": "dungeons_cleared_percent",
+    "defaultvalue": 0,
+    "displayName": "Dungeons Cleared Percentage"
   },
-  "equipments_obtained_percent": {
-    "description": "Equipments Obtained Percentage",
-    "value": 0
+  {
+    "name": "equipments_obtained_percent",
+    "defaultvalue": 0,
+    "displayName": "Equipments Obtained Percentage"
   },
-  "mainquests_completed_percent": {
-    "description": "Main Quests Completed Percentage",
-    "value": 0
+  {
+    "name": "mainquests_completed_percent",
+    "defaultvalue": 0,
+    "displayName": "Main Quests Completed Percentage"
   },
-  "sidequests_completed_percent": {
-    "description": "Side Quests Completed Percentage",
-    "value": 0
+  {
+    "name": "sidequests_completed_percent",
+    "defaultvalue": 0,
+    "displayName": "Side Quests Completed Percentage"
   }
-}
+]

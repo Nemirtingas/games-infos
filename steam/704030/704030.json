@@ -1,8 +1,14 @@
-﻿{
-  "Dlcs": {},
-  "Name": "Cattle and Crops",
+{
+  "Dlcs": {
+    "1449340": {
+      "Name": "Professional Farmer: Cattle and Crops - Digital Supporter Pack",
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1449340/header.jpg?t=1603981798",
+      "Type": "dlc"
+    }
+  },
+  "Name": "Professional Farmer: Cattle and Crops",
   "AppId": "704030",
-  "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/704030/header.jpg?t=1594106265",
+  "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/704030/header.jpg?t=1617113483",
   "Languages": [
     "english",
     "german",
@@ -10,7 +16,8 @@
     "italian",
     "spanish",
     "polish",
-    "russian"
+    "russian",
+    "hungarian"
   ],
   "Platforms": {
     "windows": true,

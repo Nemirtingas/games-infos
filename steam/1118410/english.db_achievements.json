@@ -94,7 +94,7 @@
     "defaultvalue": 0,
     "displayName": "Flying Death",
     "hidden": 0,
-    "description": "Get a kill with your disarmed weapon.",
+    "description": "Have a disarmed weapon kill an enemy",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1118410/f10b9db7a9e5001eb6b6f1e6db662733287e192d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1118410/134b7ac11d8ec3962a697750f50c03a15fa94a51.jpg"
   },
@@ -240,5 +240,59 @@
     "description": "Complete 100 contracts.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1118410/76a1c1db23f23658551ad21eeb23bfc0eb57863f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1118410/8d663e46faac10f3bb358874718b0b2ab0d6befa.jpg"
+  },
+  {
+    "name": "ACH_LEGION1",
+    "defaultvalue": 0,
+    "displayName": "Lucar, The Legion",
+    "hidden": 0,
+    "description": "Defeat Lucar.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1118410/813b0e2b04a8432ddbae8469cf0f478f502d6d0c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1118410/99b459fabd5c01ba4b7d8332a3e433ec0d208ce8.jpg"
+  },
+  {
+    "name": "ACH_LEGION2",
+    "defaultvalue": 0,
+    "displayName": "A Storm Of Swords",
+    "hidden": 0,
+    "description": "Defeat Lucar with a Falx.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1118410/059316b703b1ba5d7e4ff7e22bb5bdc81f34163c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1118410/1e16842b787077dc72dc2521fc5b5f67e8b064ff.jpg"
+  },
+  {
+    "name": "ACH_QUADRAKILL",
+    "defaultvalue": 0,
+    "displayName": "Quadra Kill",
+    "hidden": 0,
+    "description": "Kill four enemies with one attack.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1118410/08ac332f4e70f4026d3f9e18d2ac838781c0e74a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1118410/2cb0138776145422c7c748791da8dfa3b355d911.jpg"
+  },
+  {
+    "name": "ACH_LAST1",
+    "defaultvalue": 0,
+    "displayName": "Titos, The Champion",
+    "hidden": 0,
+    "description": "Defeat Titos.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1118410/aed7ce2a25a62bad930048602ec34c4c170bbe33.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1118410/dcd2f10342c7b7be54b59cb11b088feb7d78f592.jpg"
+  },
+  {
+    "name": "ACH_LAST2",
+    "defaultvalue": 0,
+    "displayName": "Gladium",
+    "hidden": 0,
+    "description": "Defeat Titos using only a Gladius (No Blood Perks, Helmets or Shields). ",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1118410/5b3e6f78d9dfb3ba19a1160a6b9a5038099f295e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1118410/702f1c4a966b01727c887cf7f1796bbfcdb7372f.jpg"
+  },
+  {
+    "name": "ACH_PITCHAMP",
+    "defaultvalue": 0,
+    "displayName": "Pit Champion",
+    "hidden": 0,
+    "description": "Get 25 victories in the Pits.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1118410/1b454aefc31747a77523d721ec5905d32ff46a3b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1118410/b2ba578219d513fa910e8222792b13d38a10ed01.jpg"
   }
 ]

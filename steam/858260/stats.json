@@ -1,86 +1,107 @@
-﻿{
-  "DEBUG_STAT_ENEMIES_KILLED": {
-    "description": "Debug Enemies Killed",
-    "value": 0
+[
+  {
+    "name": "DEBUG_STAT_ENEMIES_KILLED",
+    "defaultvalue": 0,
+    "displayName": "Debug Enemies Killed"
   },
-  "STAT_AETHER_RUN": {
-    "description": "Aether Earned in Run",
-    "value": 0
+  {
+    "name": "STAT_AETHER_RUN",
+    "defaultvalue": 0,
+    "displayName": "Aether Earned in Run"
   },
-  "STAT_AETHER_TOTAL": {
-    "description": "Aether Earned Lifetime",
-    "value": 0
+  {
+    "name": "STAT_AETHER_TOTAL",
+    "defaultvalue": 0,
+    "displayName": "Aether Earned Lifetime"
   },
-  "STAT_ENEMIES_KILLED": {
-    "description": "Enemies Killed Lifetime",
-    "value": 0
+  {
+    "name": "STAT_ENEMIES_KILLED",
+    "defaultvalue": 0,
+    "displayName": "Enemies Killed Lifetime"
   },
-  "STAT_HUSKS_KILLED": {
-    "description": "Husks Killed Lifetime",
-    "value": 0
+  {
+    "name": "STAT_HUSKS_KILLED",
+    "defaultvalue": 0,
+    "displayName": "Husks Killed Lifetime"
   },
-  "STAT_KNIGHTS_KILLED": {
-    "description": "Knights Killed Lifetime",
-    "value": 0
+  {
+    "name": "STAT_KNIGHTS_KILLED",
+    "defaultvalue": 0,
+    "displayName": "Knights Killed Lifetime"
   },
-  "STAT_CAPTAINS_KILLED": {
-    "description": "Captains Killed Lifetime",
-    "value": 0
+  {
+    "name": "STAT_CAPTAINS_KILLED",
+    "defaultvalue": 0,
+    "displayName": "Captains Killed Lifetime"
   },
-  "STAT_SPELLWEAVERS_KILLED": {
-    "description": "Spellweavers Killed Lifetime",
-    "value": 0
+  {
+    "name": "STAT_SPELLWEAVERS_KILLED",
+    "defaultvalue": 0,
+    "displayName": "Spellweavers Killed Lifetime"
   },
-  "STAT_HORRORS_KILLED": {
-    "description": "Aether Horrors Killed Lifetime",
-    "value": 0
+  {
+    "name": "STAT_HORRORS_KILLED",
+    "defaultvalue": 0,
+    "displayName": "Aether Horrors Killed Lifetime"
   },
-  "STAT_EMPOWEREDS_KILLED": {
-    "description": "Empowered Enemies Killed Lifetime",
-    "value": 0
+  {
+    "name": "STAT_EMPOWEREDS_KILLED",
+    "defaultvalue": 0,
+    "displayName": "Empowered Enemies Killed Lifetime"
   },
-  "STAT_COMBOS_COMPLETED": {
-    "description": "Combos Completed Lifetime",
-    "value": 0
+  {
+    "name": "STAT_COMBOS_COMPLETED",
+    "defaultvalue": 0,
+    "displayName": "Combos Completed Lifetime"
   },
-  "STAT_SUPER_KILLS": {
-    "description": "Super Kills Lifetime",
-    "value": 0
+  {
+    "name": "STAT_SUPER_KILLS",
+    "defaultvalue": 0,
+    "displayName": "Super Kills Lifetime"
   },
-  "STAT_MELEE_BLOCKS": {
-    "description": "Melee Blocks Lifetime",
-    "value": 0
+  {
+    "name": "STAT_MELEE_BLOCKS",
+    "defaultvalue": 0,
+    "displayName": "Melee Blocks Lifetime"
   },
-  "STAT_RANGED_BLOCKS": {
-    "description": "Ranged Blocks Lifetime",
-    "value": 0
+  {
+    "name": "STAT_RANGED_BLOCKS",
+    "defaultvalue": 0,
+    "displayName": "Ranged Blocks Lifetime"
   },
-  "STAT_GUARDBREAKS": {
-    "description": "Guardbreaks Lifetime",
-    "value": 0
+  {
+    "name": "STAT_GUARDBREAKS",
+    "defaultvalue": 0,
+    "displayName": "Guardbreaks Lifetime"
   },
-  "STAT_DODGES": {
-    "description": "Dodges Lifetime",
-    "value": 0
+  {
+    "name": "STAT_DODGES",
+    "defaultvalue": 0,
+    "displayName": "Dodges Lifetime"
   },
-  "STAT_GUARDBREAKS_DASH": {
-    "description": "Dash Guardbreaks Lifetime",
-    "value": 0
+  {
+    "name": "STAT_GUARDBREAKS_DASH",
+    "defaultvalue": 0,
+    "displayName": "Dash Guardbreaks Lifetime"
   },
-  "STAT_WEAPONS_OWNED": {
-    "description": "Unique Weapons Owned",
-    "value": 2
+  {
+    "name": "STAT_SUPERS_UNIQUE_USE",
+    "defaultvalue": 0,
+    "displayName": "Unique Supers Used"
   },
-  "STAT_WEAPONS_LEVEL_X": {
-    "description": "Unique Weapons at Level X",
-    "value": 0
+  {
+    "name": "STAT_WEAPON_INSPECTED",
+    "defaultvalue": 0,
+    "displayName": "Unique Weapons Inspected"
   },
-  "STAT_SUPERS_UNIQUE_USE": {
-    "description": "Unique Supers Used",
-    "value": 0
+  {
+    "name": "STAT_WEAPONS_LEVEL_X",
+    "defaultvalue": 0,
+    "displayName": "All max level weapons earned"
   },
-  "STAT_WEAPON_INSPECTED": {
-    "description": "Unique Weapons Inspected",
-    "value": 0
+  {
+    "name": "STAT_WEAPONS_OWNED",
+    "defaultvalue": 0,
+    "displayName": "All weapons purchased"
   }
-}
+]

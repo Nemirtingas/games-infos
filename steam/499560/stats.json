@@ -1,54 +1,67 @@
-﻿{
-  "LevelsWon": {
-    "description": "Levels you won",
-    "value": 0
+[
+  {
+    "name": "LevelsWon",
+    "defaultvalue": 0,
+    "displayName": "Levels you won"
   },
-  "LevelsJugoWon": {
-    "description": "Levels Jugo won",
-    "value": 0
+  {
+    "name": "LevelsJugoWon",
+    "defaultvalue": 0,
+    "displayName": "Levels Jugo won"
   },
-  "VoidsCreated": {
-    "description": "Voids created",
-    "value": 0
+  {
+    "name": "VoidsCreated",
+    "defaultvalue": 0,
+    "displayName": "Voids created"
   },
-  "LevelsStarted": {
-    "description": "Levels started",
-    "value": 0
+  {
+    "name": "LevelsStarted",
+    "defaultvalue": 0,
+    "displayName": "Levels started"
   },
-  "PerfectScores": {
-    "description": "Pefect scores",
-    "value": 0
+  {
+    "name": "PerfectScores",
+    "defaultvalue": 0,
+    "displayName": "Pefect scores"
   },
-  "DesignScores": {
-    "description": "Target scores",
-    "value": 0
+  {
+    "name": "DesignScores",
+    "defaultvalue": 0,
+    "displayName": "Target scores"
   },
-  "Sacrifices": {
-    "description": "Sacrifices to the void",
-    "value": 0
+  {
+    "name": "Sacrifices",
+    "defaultvalue": 0,
+    "displayName": "Sacrifices to the void"
   },
-  "Grabs": {
-    "description": "Grabs by Jugo",
-    "value": 0
+  {
+    "name": "Grabs",
+    "defaultvalue": 0,
+    "displayName": "Grabs by Jugo"
   },
-  "PiesCreated": {
-    "description": "Pies created",
-    "value": 0
+  {
+    "name": "PiesCreated",
+    "defaultvalue": 0,
+    "displayName": "Pies created"
   },
-  "OmegasCreated": {
-    "description": "Noms created",
-    "value": 0
+  {
+    "name": "OmegasCreated",
+    "defaultvalue": 0,
+    "displayName": "Noms created"
   },
-  "NumberOfMoves": {
-    "description": "Number of moves",
-    "value": 0
+  {
+    "name": "NumberOfMoves",
+    "defaultvalue": 0,
+    "displayName": "Number of moves"
   },
-  "PlayerHighScore": {
-    "description": "High score",
-    "value": 0
+  {
+    "name": "PlayerHighScore",
+    "defaultvalue": 0,
+    "displayName": "High score"
   },
-  "JugoHighScore": {
-    "description": "Jugo's high score",
-    "value": 0
+  {
+    "name": "JugoHighScore",
+    "defaultvalue": 0,
+    "displayName": "Jugo's high score"
   }
-}
+]

@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "name": "1",
     "defaultvalue": 0,
@@ -301,7 +301,7 @@
     "defaultvalue": 0,
     "displayName": "Thrifty",
     "hidden": 0,
-    "description": "Win 10 games in Half Starting Cash mode",
+    "description": "Win 10 games in Half Cash mode",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/960090/cdc073ba36e2e69dc49f58487ab9303c1c5322fa.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/960090/6d1346f3aaf84c7eddcf86d4fb9efbd215cb6dc6.jpg"
   },
@@ -883,5 +883,282 @@
     "hidden": 1,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/960090/5772d0fe43bf71d531e82e8fc13be06295ea0fc7.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/960090/d3cffe557ff6afbc10ab0ceb0cb0642a9f83c590.jpg"
+  },
+  {
+    "name": "102",
+    "defaultvalue": 0,
+    "displayName": "Chunky Monkeys",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/960090/79f96b8d07bfd697d666d74c891b30226d115094.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/960090/8807d37c66499b56748d039d19e14b1f22afe18a.jpg"
+  },
+  {
+    "name": "103",
+    "defaultvalue": 0,
+    "displayName": "Oathbreakers",
+    "hidden": 0,
+    "description": "Reanimate 250,000 bloons to fight on your side using the Necromancer Wizard",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/960090/d875221063adfa950144b0df8d50bd5ac4752caa.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/960090/6e9b1364379bc1213bda913669e4bba52785eb89.jpg"
+  },
+  {
+    "name": "104",
+    "defaultvalue": 0,
+    "displayName": "Living on the Edge",
+    "hidden": 0,
+    "description": "Win any non-CHIMPS/Impoppable game with only 1 life remaining",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/960090/f2450915ac4a449865c77050b01858cf0b29195e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/960090/a40e1a24666b59cbe18e6e4864b37e4c64f60b4c.jpg"
+  },
+  {
+    "name": "105",
+    "defaultvalue": 0,
+    "displayName": "Freaky Friday",
+    "hidden": 0,
+    "description": "Use the Alchemist's Transforming Tonic abilities 100 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/960090/76cb1787c28d209bd20aef65ef32f487545da77b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/960090/e3a0705a45e569edb73b43ceb4d751217e4f23c0.jpg"
+  },
+  {
+    "name": "106",
+    "defaultvalue": 0,
+    "displayName": "Monkey Fan Club",
+    "hidden": 0,
+    "description": "Create or Login to your Ninja Kiwi account to cloud save your progress",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/960090/a387c0b4943507c7c9ac73e8a16ac17cc6989956.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/960090/35befca26b10970bf7688c5e02659f2cc3a5adee.jpg"
+  },
+  {
+    "name": "107",
+    "defaultvalue": 0,
+    "displayName": "Ready Player One?",
+    "hidden": 0,
+    "description": "Host and win 10 Co-op games",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/960090/e2aebbabd688205f6f1ec3f73da5042e626348ad.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/960090/f30c91486513bc4b41b03f14478b5b10336ec320.jpg"
+  },
+  {
+    "name": "108",
+    "defaultvalue": 0,
+    "displayName": "Crash of the Titans",
+    "hidden": 0,
+    "description": "Strip the fortifications from Fortified DDTs 3000 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/960090/a6854ba43bbe692815224af15fe9a991dd87d680.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/960090/eb932ed9b86537bf31cceee4a65aea3ffc8d51c6.jpg"
+  },
+  {
+    "name": "109",
+    "defaultvalue": 0,
+    "displayName": "A La Code",
+    "hidden": 0,
+    "description": "Submit a Challenge to the Challenge Browser",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/960090/8117ac2f7f9935cc342e2f49323cd2aeb705cd92.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/960090/c162bb4c64e138fc1a8955e2959643aada476ca8.jpg"
+  },
+  {
+    "name": "110",
+    "defaultvalue": 0,
+    "displayName": "Regifted",
+    "hidden": 0,
+    "description": "Pop 1,000,000 Bloons with Dartling Gunners",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/960090/359a16429a889ecedd18c05b1f347267b7dda2e0.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/960090/4e23824114851889ec1205e7fb6b869834b9d5a5.jpg"
+  },
+  {
+    "name": "111",
+    "defaultvalue": 0,
+    "displayName": "Coupon Crazy",
+    "hidden": 0,
+    "description": "Spend at least 50 Trophies in the Trophy Store",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/960090/37b8e22c6a64dee835d87874cfe5a860523ec650.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/960090/6054bb6e63abb39c81afb7586f4fa7f35eb392a6.jpg"
+  },
+  {
+    "name": "112",
+    "defaultvalue": 0,
+    "displayName": "Instant Gratification",
+    "hidden": 0,
+    "description": "Use a Tier 5 Insta Monkey. NOTE: even after being used, Instas still count toward your collection!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/960090/2f92ca4c53327f9ba4e0cecf30bb74e935661ab4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/960090/59ad83deb831f8d6befbf3fa65ce1be4e657e0b1.jpg"
+  },
+  {
+    "name": "113",
+    "defaultvalue": 0,
+    "displayName": "Insta Century",
+    "hidden": 0,
+    "description": "Use 100 Insta Monkeys",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/960090/6cb4c669e3850254c611147ab39d841c50e01322.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/960090/e224fd452d0fedc18ced9ac5b0eb23de344a6f5b.jpg"
+  },
+  {
+    "name": "114",
+    "defaultvalue": 0,
+    "displayName": "Limited Run",
+    "hidden": 0,
+    "description": "Purchase at least 1 new Limited Time item in the Trophy Store",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/960090/c897a4def360bf85bd8e8392b0c882f373352bb3.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/960090/86499180e62c14eeb6ec2fa6b91541dc71f0b628.jpg"
+  },
+  {
+    "name": "115",
+    "defaultvalue": 0,
+    "displayName": "Tools to Darwin",
+    "hidden": 0,
+    "description": "Upgrade towers 20,000 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/960090/0d192dd3383f1c5dc6d62fd8f2944d14a41fea06.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/960090/87896af993a2bb7923a0403db0f72f75a261be6d.jpg"
+  },
+  {
+    "name": "116",
+    "defaultvalue": 0,
+    "displayName": "Stubborn Strategy",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/960090/8f7ad4c215f6fa1232ab0f4949a2c77ac302a06b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/960090/8807d37c66499b56748d039d19e14b1f22afe18a.jpg"
+  },
+  {
+    "name": "117",
+    "defaultvalue": 0,
+    "displayName": "Achievement of Achievements",
+    "hidden": 0,
+    "description": "Collect 35 achievements",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/960090/24f34714f8d52fcb5366939156e61815bcc7fae9.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/960090/67491fe33d45e84c661184f8ccdce1814fd45d99.jpg"
+  },
+  {
+    "name": "118",
+    "defaultvalue": 0,
+    "displayName": "Hook, Line, and Sinker",
+    "hidden": 0,
+    "description": "Rope in 3,000 MOAB-Class Bloons using the MOAB takedown ability",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/960090/8024790c0c3e214fba5955b5eea5c6f07dca9fb4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/960090/cbbafb12082ac681310d9360461818c6b66f6c4c.jpg"
+  },
+  {
+    "name": "119",
+    "defaultvalue": 0,
+    "displayName": "Moving House",
+    "hidden": 0,
+    "description": "Redeploy 1,000 monkey towers using the Support Chinook",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/960090/7fcb5600984a144e6959731b20e15ddd2420dd32.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/960090/96b944a68cf2ab033731fb9ff532ab096f0a50b3.jpg"
+  },
+  {
+    "name": "120",
+    "defaultvalue": 0,
+    "displayName": "Social Butterfly",
+    "hidden": 0,
+    "description": "Use emotes 100 times in co-op games",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/960090/2a07d11acbfd8c32dd3843d374aa4ce7b39e6997.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/960090/e3a7863d23a083d8b7fa611266bf3a7248bfbb6a.jpg"
+  },
+  {
+    "name": "121",
+    "defaultvalue": 0,
+    "displayName": "So Shiny!",
+    "hidden": 0,
+    "description": "Pop 20 Golden Bloons",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/960090/d038a7dc736e08a9a3d9ebf3272ec0abcf1bd410.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/960090/b63fe01ffc142a0f9f543827a7e040850dabf68b.jpg"
+  },
+  {
+    "name": "122",
+    "defaultvalue": 0,
+    "displayName": "Glittering Gold",
+    "hidden": 0,
+    "description": "Pop 100 Golden Bloons",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/960090/7eb8487d9cac9008cf3c4547b3214158c931ea08.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/960090/b56ff400947c97cf2384d35572bc63fab50b06fa.jpg"
+  },
+  {
+    "name": "123",
+    "defaultvalue": 0,
+    "displayName": "Glorious Gold",
+    "hidden": 0,
+    "description": "Pop 500 Golden Bloons",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/960090/c7f84a12b4bd66c5f09fbc0ed46d4e57a9b4dbcb.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/960090/37059bc51c53d2b09ee13892d68852aec5c088e4.jpg"
+  },
+  {
+    "name": "124",
+    "defaultvalue": 0,
+    "displayName": "Magical Gold",
+    "hidden": 0,
+    "description": "Pop 50 Golden Bloons in Magic Monkeys only mode",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/960090/907f9b70d184add88c8f026d8ce44569257b9910.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/960090/2bcdc5d85ee2c4a14633f1c1fe0759a19dc14984.jpg"
+  },
+  {
+    "name": "125",
+    "defaultvalue": 0,
+    "displayName": "Team Player",
+    "hidden": 0,
+    "description": "Win 25 times with Monkey Teams",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/960090/002e6ed11177afa22eac78418401d737a3fb341a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/960090/e7ec654133128574d2a881e36bb76278bcbb1f61.jpg"
+  },
+  {
+    "name": "126",
+    "defaultvalue": 0,
+    "displayName": "Team Captain",
+    "hidden": 0,
+    "description": "Win 50 times with Monkey Teams",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/960090/e118a479a5f7e8883b61dc2fc7cc2fe5068903e2.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/960090/8a14c2ac800a0ad6c852f0618313c4009916fe9d.jpg"
+  },
+  {
+    "name": "127",
+    "defaultvalue": 0,
+    "displayName": "Ultimate Team-up",
+    "hidden": 0,
+    "description": "Win 100 times with Monkey Teams",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/960090/eb79860a1e327869ebd08ec304415372786cf533.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/960090/f307254d3033da888e8747d3f1df94278fb9da2d.jpg"
+  },
+  {
+    "name": "128",
+    "defaultvalue": 0,
+    "displayName": "What is this new Bloonery?",
+    "hidden": 0,
+    "description": "Defeat a Tier 1 Boss",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/960090/d73d6f0c58d96c2ebb854524a1d9eaaf755318c2.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/960090/cb3a95c5f236c6fd1829d3d569f84a848ee348c2.jpg"
+  },
+  {
+    "name": "129",
+    "defaultvalue": 0,
+    "displayName": "Who's the Boss?",
+    "hidden": 0,
+    "description": "Defeat a Tier 5 Boss",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/960090/f34600007de2d05afc01830cb32fa41d56e43b50.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/960090/d1aad0d6ccdca2285aa7fea1e96b9df453867914.jpg"
+  },
+  {
+    "name": "130",
+    "defaultvalue": 0,
+    "displayName": "I'm the Boss",
+    "hidden": 0,
+    "description": "Defeat a Tier 5 Elite Boss",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/960090/5f44b71bed3731d55d3418eef9615b6234644cee.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/960090/9ea182fcd5dceaf8e92c577a51bbf9680380f2bb.jpg"
+  },
+  {
+    "name": "131",
+    "defaultvalue": 0,
+    "displayName": "Apotheosis",
+    "hidden": 0,
+    "description": "Upgrade to a Monkey Paragon Tower",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/960090/0236543f20f08d7ec68be53fa9fab704bff4ae7d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/960090/528a7597867a09cd8777d7f86798e1e8edfdbf1f.jpg"
+  },
+  {
+    "name": "132",
+    "defaultvalue": 0,
+    "displayName": "Like a Boss",
+    "hidden": 0,
+    "description": "Pop 50 Boss Bloons",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/960090/2717a4721b757c0a6890a9a1853043b8d4fd4aa4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/960090/fb07f1010d99dd1c6506c4777d7ec0621f8f798b.jpg"
   }
 ]

@@ -2,16 +2,18 @@
   "Dlcs": {
     "1359670": {
       "Name": "As Far As The Eye - Supporter Pack",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/1359670/header.jpg?t=1599753631"
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1359670/header.jpg?t=1599753631",
+      "Type": "dlc"
     },
     "1395130": {
-      "Name": "",
-      "ImageUrl": ""
+      "Name": "As Far As The Eye - Soundtrack",
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1395130/header.jpg?t=1599753632",
+      "Type": "music"
     }
   },
   "Name": "As Far As The Eye",
   "AppId": "1119700",
-  "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/1119700/header.jpg?t=1599753597",
+  "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1119700/header.jpg?t=1630058360",
   "Languages": [
     "english",
     "french",
@@ -20,11 +22,12 @@
     "polish",
     "russian",
     "schinese",
-    "tchinese"
+    "tchinese",
+    "japanese"
   ],
   "Platforms": {
     "windows": true,
-    "mac": false,
-    "linux": false
+    "mac": true,
+    "linux": true
   }
 }

@@ -1,18 +1,22 @@
-﻿{
-  "BlockCount": {
-    "description": "Block Count",
-    "value": 0
+[
+  {
+    "name": "BlockCount",
+    "defaultvalue": 0,
+    "displayName": "Block Count"
   },
-  "HandCraft": {
-    "description": "Hand Craft",
-    "value": 0
+  {
+    "name": "HandCraft",
+    "defaultvalue": 0,
+    "displayName": "Hand Craft"
   },
-  "Walked": {
-    "description": "Walked distance",
-    "value": 0
+  {
+    "name": "Walked",
+    "defaultvalue": 0,
+    "displayName": "Walked distance"
   },
-  "Jumped": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Jumped",
+    "defaultvalue": 0,
+    "displayName": ""
   }
-}
+]

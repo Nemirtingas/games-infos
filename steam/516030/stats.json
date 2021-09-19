@@ -1,50 +1,62 @@
-﻿{
-  "Cash": {
-    "description": "Cash",
-    "value": 0
+[
+  {
+    "name": "Cash",
+    "defaultvalue": 0,
+    "displayName": "Cash"
   },
-  "Swaps": {
-    "description": "Swaps",
-    "value": 0
+  {
+    "name": "Swaps",
+    "defaultvalue": 0,
+    "displayName": "Swaps"
   },
-  "Hacks": {
-    "description": "Hacks",
-    "value": 0
+  {
+    "name": "Hacks",
+    "defaultvalue": 0,
+    "displayName": "Hacks"
   },
-  "Glitches": {
-    "description": "Glitches",
-    "value": 0
+  {
+    "name": "Glitches",
+    "defaultvalue": 0,
+    "displayName": "Glitches"
   },
-  "Locks": {
-    "description": "Locks",
-    "value": 0
+  {
+    "name": "Locks",
+    "defaultvalue": 0,
+    "displayName": "Locks"
   },
-  "Combos": {
-    "description": "Combos",
-    "value": 0
+  {
+    "name": "Combos",
+    "defaultvalue": 0,
+    "displayName": "Combos"
   },
-  "MultiplayerBattles": {
-    "description": "Multiplayer Battles",
-    "value": 0
+  {
+    "name": "MultiplayerBattles",
+    "defaultvalue": 0,
+    "displayName": "Multiplayer Battles"
   },
-  "PurchasedAugments": {
-    "description": "Purchased Augments",
-    "value": 0
+  {
+    "name": "PurchasedAugments",
+    "defaultvalue": 0,
+    "displayName": "Purchased Augments"
   },
-  "Rank": {
-    "description": "Rank",
-    "value": 0
+  {
+    "name": "Rank",
+    "defaultvalue": 0,
+    "displayName": "Rank"
   },
-  "TournamentStars": {
-    "description": "Tournament Stars",
-    "value": 0
+  {
+    "name": "TournamentStars",
+    "defaultvalue": 0,
+    "displayName": "Tournament Stars"
   },
-  "Treasures": {
-    "description": "Treasures",
-    "value": 0
+  {
+    "name": "Treasures",
+    "defaultvalue": 0,
+    "displayName": "Treasures"
   },
-  "WonBattles": {
-    "description": "Won Battles",
-    "value": 0
+  {
+    "name": "WonBattles",
+    "defaultvalue": 0,
+    "displayName": "Won Battles"
   }
-}
+]

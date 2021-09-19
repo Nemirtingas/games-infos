@@ -1,26 +1,32 @@
-﻿{
-  "HOURS_PLAYED": {
-    "description": "Hours played.",
-    "value": 0
+[
+  {
+    "name": "HOURS_PLAYED",
+    "defaultvalue": 0,
+    "displayName": "Hours played."
   },
-  "MINS_PLAYED": {
-    "description": "Minutes Played",
-    "value": 0
+  {
+    "name": "MINS_PLAYED",
+    "defaultvalue": 0,
+    "displayName": "Minutes Played"
   },
-  "STAT_VERSION": {
-    "description": "",
-    "value": 0
+  {
+    "name": "STAT_VERSION",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "DIFFICULT_FLAWLESS_VICTORIES": {
-    "description": "",
-    "value": 0
+  {
+    "name": "DIFFICULT_FLAWLESS_VICTORIES",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "NEVER_ASK_FOR_PLAYER_REVIEW": {
-    "description": "",
-    "value": 0
+  {
+    "name": "NEVER_ASK_FOR_PLAYER_REVIEW",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "LAST_REVIEW_REQUEST_HOURS_PLAYED": {
-    "description": "",
-    "value": 0
+  {
+    "name": "LAST_REVIEW_REQUEST_HOURS_PLAYED",
+    "defaultvalue": 0,
+    "displayName": ""
   }
-}
+]

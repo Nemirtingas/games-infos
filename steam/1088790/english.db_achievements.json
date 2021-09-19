@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "name": "pistachio_factory",
     "defaultvalue": 0,
@@ -502,5 +502,167 @@
     "description": "Use the Dangerous Driving tactic to destroy the last insurgent in a zone",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1088790/679f59e7f31da63f0c2259598785991851e25b24.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1088790/5f6c9af4da9e36005b68ec7244aba1edd0b16022.jpg"
+  },
+  {
+    "name": "challenge_normal_win",
+    "defaultvalue": 0,
+    "displayName": "I'm a big deal",
+    "hidden": 0,
+    "description": "Complete a Standard Challenge",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1088790/5f70da2666a500a58e6d3aa2f4e32114e95e3bf0.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1088790/f157f9c5d3551282ccbbf42d2c48cef7d4b8ecfe.jpg"
+  },
+  {
+    "name": "challenge_brutal_win",
+    "defaultvalue": 0,
+    "displayName": "Want an autograph?",
+    "hidden": 0,
+    "description": "Complete a Brutal Challenge",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1088790/cb05aba588f858e5750939034a3baedef8f5efaf.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1088790/3f29943317cce1f0868f06f04633126993e98802.jpg"
+  },
+  {
+    "name": "challenge_ten_wins",
+    "defaultvalue": 0,
+    "displayName": "10 down, infinity to go",
+    "hidden": 0,
+    "description": "Complete 10 Challenges",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1088790/b56fb2e1e55b64dcd0760e8f392fc91cb61d6799.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1088790/b6a72e334545a5429d0ac308349ae6605699ce62.jpg"
+  },
+  {
+    "name": "drug_control",
+    "defaultvalue": 0,
+    "displayName": "Drug Control",
+    "hidden": 0,
+    "description": "Win a game on any difficulty on Opium Trail",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1088790/2ab9bf3d68faae200a877d86b090fb249d0f3de9.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1088790/cee22ff76078aa58b1006fe77f75882a86cf7f49.jpg"
+  },
+  {
+    "name": "drug_enforcement",
+    "defaultvalue": 0,
+    "displayName": "Drug Enforcement",
+    "hidden": 0,
+    "description": "Win a game on brutal difficulty on Opium Trail",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1088790/f9b758066c887dd9d5e8be12d10338fca856d956.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1088790/ddc0019119fcba7833007f34b76450440f019c8f.jpg"
+  },
+  {
+    "name": "roll_initiative",
+    "defaultvalue": 0,
+    "displayName": "Roll Initiative",
+    "hidden": 0,
+    "description": "Use a governor's expertise to improve an outcome",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1088790/48db4ba379f3be4d4a98dc1bfe5f98221c74fe2e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1088790/16cc6781dfc1ace99713cdd3ceb63ab07f133ed3.jpg"
+  },
+  {
+    "name": "burn_the_dragon",
+    "defaultvalue": 0,
+    "displayName": "Burn the Dragon",
+    "hidden": 0,
+    "description": "Destroy 25 Poppy Fields",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1088790/80513079c3c579f3b3bff9cbd83fc36a89d88aa0.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1088790/d48e2f8e791ad78be66cfd92014ff76c50b2aaa0.jpg"
+  },
+  {
+    "name": "its_medicinal",
+    "defaultvalue": 0,
+    "displayName": "It's Medicinal",
+    "hidden": 0,
+    "description": "Seize over 300 kg of Opium",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1088790/570dba6a2d963c976c5ae69e5d9b677218436aeb.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1088790/a225ba423e7e373e2722d12e19388b00339c3ff0.jpg"
+  },
+  {
+    "name": "modern_farming",
+    "defaultvalue": 0,
+    "displayName": "Modern Farming",
+    "hidden": 0,
+    "description": "Use tanks to destroy 5 Poppy Fields",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1088790/ad7184cb601f9c56061e45a12f14162427f03b62.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1088790/f1f23434dceca1776f597a3277b49cbd77dab057.jpg"
+  },
+  {
+    "name": "tragic_accident",
+    "defaultvalue": 0,
+    "displayName": "Tragic Accident",
+    "hidden": 0,
+    "description": "Run over a drug kingpin with a tank",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1088790/a75e552b695de64736b264266ba59a6e918d21d6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1088790/947a7a28e2c676598b3e8618e13871b48dfdacf5.jpg"
+  },
+  {
+    "name": "casual_acquaintance",
+    "defaultvalue": 0,
+    "displayName": "Casual Acquaintance",
+    "hidden": 0,
+    "description": "Win a Quick Match Co-Op multiplayer match",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1088790/01a1bc149b589ef8306349c8bcf778b77ada41e9.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1088790/4bf33a724ae0a8c01100c689eed93693d80b1e43.jpg"
+  },
+  {
+    "name": "best_friends",
+    "defaultvalue": 0,
+    "displayName": "Best Friends",
+    "hidden": 0,
+    "description": "Win a Co-Op multiplayer match on Brutal difficulty",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1088790/0dfd8d2ee6b54ed9ec0f656f4a380993afc78a41.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1088790/10ea1757c40390f45b7bfbc6a50e0942cdd02a3b.jpg"
+  },
+  {
+    "name": "marriage_material",
+    "defaultvalue": 0,
+    "displayName": "Marriage Material",
+    "hidden": 0,
+    "description": "Win a Co-op multiplayer match on Mega-Brutal difficulty",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1088790/9ec2b4cda5061c297a50b7b15651b018d669ecf8.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1088790/110985d008a289652f1080eedaaddfd0efa6a997.jpg"
+  },
+  {
+    "name": "the_long_war",
+    "defaultvalue": 0,
+    "displayName": "The Long War",
+    "hidden": 0,
+    "description": "Complete level 4 in a Co-Op Campaign",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1088790/9b893448e8245aa656452a1521481a24cd74b413.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1088790/1c8014092fe94e6d55c6beeb6384fb45a3166d6b.jpg"
+  },
+  {
+    "name": "the_longest_war",
+    "defaultvalue": 0,
+    "displayName": "The Longest War",
+    "hidden": 0,
+    "description": "Complete level 9 in a Co-Op Campaign",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1088790/d3ddeaaa241020ba155809dd1bdf39cf36f014f4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1088790/5db000ac202066dc1722964477f56923c31510e3.jpg"
+  },
+  {
+    "name": "shared_custody",
+    "defaultvalue": 0,
+    "displayName": "Shared Custody",
+    "hidden": 0,
+    "description": "Transfer at least 6 soldiers in a match",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1088790/57103ee406df9b203091267152bd2375bb6c15c1.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1088790/882ee398cecb4cf6c829d284a6b27064328b8f08.jpg"
+  },
+  {
+    "name": "what_reputation",
+    "defaultvalue": 0,
+    "displayName": "What Reputation?",
+    "hidden": 0,
+    "description": "Buy every Player Tactic initiative in a Co-Op multiplayer match",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1088790/b024250493a96503b1d336bf3d0d90cbc2aad328.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1088790/dfc3c0b8763382ccc0fe298bfed3e08ba7c0142a.jpg"
+  },
+  {
+    "name": "ndemic_infection_coop",
+    "defaultvalue": 0,
+    "displayName": "Ndemic Infection (Co-Op)",
+    "hidden": 0,
+    "description": "Play a Co-Op multiplayer match with someone who already has the Ndemic Infection",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1088790/ad6a28b9ebb4a8aa340983e65c6300b4731330f4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1088790/e60afc88fe5c313004f77650277ca1600054d701.jpg"
   }
 ]

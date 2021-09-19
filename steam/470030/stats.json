@@ -1,58 +1,72 @@
-﻿{
-  "nWinLevels": {
-    "description": "Количество пройденных уровней",
-    "value": 0
+[
+  {
+    "name": "nWinLevels",
+    "defaultvalue": 0,
+    "displayName": "Количество пройденных уровней"
   },
-  "nFoundKey": {
-    "description": "Количество найденных ключей",
-    "value": 0
+  {
+    "name": "nFoundKey",
+    "defaultvalue": 0,
+    "displayName": "Количество найденных ключей"
   },
-  "isFirstScattered": {
-    "description": "Первый раз рассыпался от падения",
-    "value": 0
+  {
+    "name": "isFirstScattered",
+    "defaultvalue": 0,
+    "displayName": "Первый раз рассыпался от падения"
   },
-  "isFirstJumpSwamp": {
-    "description": "Первый раз прыгнул на болото",
-    "value": 0
+  {
+    "name": "isFirstJumpSwamp",
+    "defaultvalue": 0,
+    "displayName": "Первый раз прыгнул на болото"
   },
-  "isFirstDiedLava": {
-    "description": "Первый раз умер в лаве",
-    "value": 0
+  {
+    "name": "isFirstDiedLava",
+    "defaultvalue": 0,
+    "displayName": "Первый раз умер в лаве"
   },
-  "nWinLevels3Stars": {
-    "description": "Количество уровней, пройденных на 3 звезды",
-    "value": 0
+  {
+    "name": "nWinLevels3Stars",
+    "defaultvalue": 0,
+    "displayName": "Количество уровней, пройденных на 3 звезды"
   },
-  "STATS_Level": {
-    "description": "Часто проигрываемый уровень",
-    "value": 0
+  {
+    "name": "STATS_Level",
+    "defaultvalue": 0,
+    "displayName": "Часто проигрываемый уровень"
   },
-  "STATS_WinCount": {
-    "description": "Количество выигрышей уровня",
-    "value": 0
+  {
+    "name": "STATS_WinCount",
+    "defaultvalue": 0,
+    "displayName": "Количество выигрышей уровня"
   },
-  "STATS_FailCount": {
-    "description": "Количество проигрышей уровня",
-    "value": 0
+  {
+    "name": "STATS_FailCount",
+    "defaultvalue": 0,
+    "displayName": "Количество проигрышей уровня"
   },
-  "STATS_RespawnCount": {
-    "description": "Количество восстановления в уровне",
-    "value": 0
+  {
+    "name": "STATS_RespawnCount",
+    "defaultvalue": 0,
+    "displayName": "Количество восстановления в уровне"
   },
-  "STATS_QuitCount": {
-    "description": "Количество выходов с уровня в меню",
-    "value": 0
+  {
+    "name": "STATS_QuitCount",
+    "defaultvalue": 0,
+    "displayName": "Количество выходов с уровня в меню"
   },
-  "STATS_TimeLevel": {
-    "description": "Время игры в уровне",
-    "value": 0
+  {
+    "name": "STATS_TimeLevel",
+    "defaultvalue": 0,
+    "displayName": "Время игры в уровне"
   },
-  "STATS_HintCount": {
-    "description": "Количество примененных подсказок",
-    "value": 0
+  {
+    "name": "STATS_HintCount",
+    "defaultvalue": 0,
+    "displayName": "Количество примененных подсказок"
   },
-  "STATS_RestartCount": {
-    "description": "Количество перезапусков уровня, но без проигрыша",
-    "value": 0
+  {
+    "name": "STATS_RestartCount",
+    "defaultvalue": 0,
+    "displayName": "Количество перезапусков уровня, но без проигрыша"
   }
-}
+]

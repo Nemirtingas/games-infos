@@ -1,23 +1,9 @@
-﻿{
+{
   "Dlcs": {
     "256240": {
       "Name": "Deadly Premonition: The Director's Cut - Original Soundtrack",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/256240/header.jpg?t=1447358870"
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/256240/header.jpg?t=1447358870",
+      "Type": "dlc"
     }
-  },
-  "Name": "Deadly Premonition: The Director's Cut",
-  "AppId": "247660",
-  "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/247660/header.jpg?t=1587116041",
-  "Languages": [
-    "english",
-    "french",
-    "italian",
-    "german",
-    "spanish"
-  ],
-  "Platforms": {
-    "windows": true,
-    "mac": false,
-    "linux": false
   }
 }

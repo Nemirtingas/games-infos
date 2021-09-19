@@ -1,18 +1,22 @@
-﻿{
-  "EnemyKillCount": {
-    "description": "EnemyKill",
-    "value": 0
+[
+  {
+    "name": "EnemyKillCount",
+    "defaultvalue": 0,
+    "displayName": "EnemyKill"
   },
-  "RollTimeCount": {
-    "description": "RollTime",
-    "value": 0
+  {
+    "name": "RollTimeCount",
+    "defaultvalue": 0,
+    "displayName": "RollTime"
   },
-  "RollEmptyCount": {
-    "description": "RollEmpty",
-    "value": 0
+  {
+    "name": "RollEmptyCount",
+    "defaultvalue": 0,
+    "displayName": "RollEmpty"
   },
-  "TotalCoinCount": {
-    "description": "TotalCoin",
-    "value": 0
+  {
+    "name": "TotalCoinCount",
+    "defaultvalue": 0,
+    "displayName": "TotalCoin"
   }
-}
+]

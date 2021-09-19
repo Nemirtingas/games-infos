@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "name": "ACH_100_OJ",
     "defaultvalue": 0,
@@ -1936,5 +1936,349 @@
     "description": " As Teotoratta, defeat a wild unit in combat. (DLC)",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/282800/5341435915fe2be26c7b84286deb8761aa6cea04.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/282800/7af52b37ba2dfb0d5da1e9e9c36531a8f3d80f41.jpg"
+  },
+  {
+    "name": "ACH_OJ33_C01",
+    "defaultvalue": 0,
+    "displayName": "Treasure Hunter",
+    "hidden": 0,
+    "description": "Play 10 games as Arnelle (DLC).",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/282800/9d543afae8e839e989fb45e755eef6cf1072d943.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/282800/2289b336adc861653ee42a94f9b4614396887b20.jpg"
+  },
+  {
+    "name": "ACH_OJ33_C02",
+    "defaultvalue": 0,
+    "displayName": "Weak Point",
+    "hidden": 0,
+    "description": "As Arnelle, use Intelligence Officer to KO an opponent with full HP. (DLC)",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/282800/a8670295e5fcdbd199df3616cbd7d45adbf74afe.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/282800/570125e5ff2baed5333aa438fadb07a9a0bf25c2.jpg"
+  },
+  {
+    "name": "ACH_OJ33_C03",
+    "defaultvalue": 0,
+    "displayName": "Information Control",
+    "hidden": 0,
+    "description": "As Arnelle, use Intelligence Officer to observe 20 card draws in one game. (DLC)",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/282800/2819afbbf976e175b49705cad9776e1736e90738.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/282800/0c9bb7218c583ce580aafaccc0858956d4e8cc1c.jpg"
+  },
+  {
+    "name": "ACH_OJ33_C11",
+    "defaultvalue": 0,
+    "displayName": "Easily Aggravated",
+    "hidden": 0,
+    "description": "Play 10 games as Maynie (DLC)",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/282800/5ef39ad34131dfa9c8e75b9755957637f1cf4fc7.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/282800/f6db7b33866434e731fd91c8eaec83ebd8d83d84.jpg"
+  },
+  {
+    "name": "ACH_OJ33_C12",
+    "defaultvalue": 0,
+    "displayName": "Fuming Mad",
+    "hidden": 0,
+    "description": "As Maynie, hold 8 Rage Counters at once. (DLC)",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/282800/2d92975a5611bed564d426fd1e98a799e5fc0c9c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/282800/9088cfba138aeec88ea9d102652845d5b1441b2f.jpg"
+  },
+  {
+    "name": "ACH_OJ33_C13",
+    "defaultvalue": 0,
+    "displayName": "Closing Argument",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/282800/34c63173b57fae116aa2dd6468700bfe41ec16e1.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/282800/83fbaf9060ea66bda4bab21ceae29a789da30a6b.jpg"
+  },
+  {
+    "name": "ACH_OJ35_C01",
+    "defaultvalue": 0,
+    "displayName": "Welcome, Dear Customer!",
+    "hidden": 0,
+    "description": "Play 10 games as Chris (DLC).",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/282800/9ebed3f2b2ef1b83d25093b8857b81b8b5a582bc.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/282800/52ce5f0ae98052c9f13cf9ec2621d9d4af78ffd1.jpg"
+  },
+  {
+    "name": "ACH_OJ35_C02",
+    "defaultvalue": 0,
+    "displayName": "May I Take Your Order?",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/282800/b59b756dc1f1ca434363f8396b54bbef9707209b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/282800/fb6552e2b04a9d490ffa3a94e7be32a47b520f5c.jpg"
+  },
+  {
+    "name": "ACH_OJ35_C03",
+    "defaultvalue": 0,
+    "displayName": "Manageeeeeer!",
+    "hidden": 0,
+    "description": "As Chris, use Store Manager in battle to defeat all other players in the match (DLC).",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/282800/03a314af7638012fc3b1fe4b731e721846634f86.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/282800/a2c16f7dd6b342611473d04737ee21ecf9d1fea7.jpg"
+  },
+  {
+    "name": "ACH_OJ35_C11",
+    "defaultvalue": 0,
+    "displayName": "Dog Ears",
+    "hidden": 0,
+    "description": "Play 10 games as Kyupita (DLC).",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/282800/ccc45065f258b294fb17a5b14b250e8a9883d314.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/282800/b30f082b1b7324bdb4686f65423df23ec2399e8b.jpg"
+  },
+  {
+    "name": "ACH_OJ35_C12",
+    "defaultvalue": 0,
+    "displayName": "Mirror Image",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/282800/aa7bcb74fa9e20278e2fd757538214e0a3517c94.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/282800/8a3bc2d5dbb3788e34e20f9ec46cc9ac3a9efaaa.jpg"
+  },
+  {
+    "name": "ACH_OJ35_C13",
+    "defaultvalue": 0,
+    "displayName": "The Evil Is Sealed",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/282800/62b207d0d952dddb61d64229e7cb31f63a4dd573.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/282800/30d1ec1a0f2a9ee6ed664ee9eac94b94066a00b5.jpg"
+  },
+  {
+    "name": "ACH_OJ36_01",
+    "defaultvalue": 0,
+    "displayName": "My Bodyguard May Be Clumsy But They Are Secretly the Strongest",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/282800/ed03cceb69a248ccf4d151f6325bb61704f6efb7.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/282800/36f089bae8977cedf6af95904d0c9dafa99dc770.jpg"
+  },
+  {
+    "name": "ACH_OJ36_02",
+    "defaultvalue": 0,
+    "displayName": "The Memoirs of a Living Armor",
+    "hidden": 0,
+    "description": "Purchase all the permanent power-ups in one game of Bounty Hunt.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/282800/b3ef66538e8f8a703de93ac560c8a88149f46777.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/282800/bf4b7d6c860434cc771e495eb37d9c98706df256.jpg"
+  },
+  {
+    "name": "ACH_OJ36_03",
+    "defaultvalue": 0,
+    "displayName": "How to Become a Max Level Bounty Hunter in the Starting Village",
+    "hidden": 0,
+    "description": "Defeat 1 of each Bounty monster in a match of Bounty Hunt.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/282800/7b88410da8f0f3ab9acf78075616ac8a1e1acbda.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/282800/ee3e0fd777ca9fe05cf28d8672da5410c8f83a54.jpg"
+  },
+  {
+    "name": "ACH_OJ36_04",
+    "defaultvalue": 0,
+    "displayName": "That Time I Accidentally KO'd the Demon Lord",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/282800/a52d1182f03b640a71aead9f30df6a26808ba8c9.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/282800/ad52bc4f336f76675d06c0e4389eb4723e6a36fc.jpg"
+  },
+  {
+    "name": "ACH_OJ36_05",
+    "defaultvalue": 0,
+    "displayName": "Other World Deliveryman",
+    "hidden": 0,
+    "description": "Win after completing 10 or more Quests in one game of Bounty Hunt.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/282800/f6058e2ae4b7634801efb4e4b63aeae84f4ea145.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/282800/8ccac9594bef57ce90d6ad00694458799cf5522b.jpg"
+  },
+  {
+    "name": "ACH_OJ36_06",
+    "defaultvalue": 0,
+    "displayName": "A Famous Slime Slayer",
+    "hidden": 0,
+    "description": "Win after gaining at least 20 Fame from Bounties in one game of Bounty Hunt.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/282800/46becca808d539bc5775a67cfdfd6bd640f8152b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/282800/565ca7b057fa961a8b8a529708c0dc399c55881a.jpg"
+  },
+  {
+    "name": "ACH_OJ37_P01",
+    "defaultvalue": 0,
+    "displayName": "Jackpot",
+    "hidden": 0,
+    "description": "Roll a natural 7 three times in a row.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/282800/910a53107bf00e8acecc2c0e1dac11804170afb6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/282800/c1dc2de046681f01e1ce3824cc6d3bd00bf36b29.jpg"
+  },
+  {
+    "name": "ACH_OJ37_P02",
+    "defaultvalue": 0,
+    "displayName": "Decisive Rearming",
+    "hidden": 0,
+    "description": "Disarm a battle Hyper card with Deceptive Disarming.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/282800/0dc3c9906b6c230d3e4bea6bbe4191a350d95b92.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/282800/a4e130185b86f69b2d5718c95f6e8e5be2bae2d7.jpg"
+  },
+  {
+    "name": "ACH_OJ37_P03",
+    "defaultvalue": 0,
+    "displayName": "Paid Overtime",
+    "hidden": 0,
+    "description": "Travel 12 or more panels and complete the final Norma in the same turn using Overtime.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/282800/5988723ccae6b6a8acc0afa2973a42d7278e437e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/282800/2971247203209a5a0849e54ced9fd35914e294e5.jpg"
+  },
+  {
+    "name": "ACH_OJ37_P04",
+    "defaultvalue": 0,
+    "displayName": "Monster Bird?",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/282800/59192dd5d1243cc6015648bad5af72f61969d52a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/282800/93b9949a9ad85772846902f0c0557747c01fec90.jpg"
+  },
+  {
+    "name": "ACH_OJ37_P05",
+    "defaultvalue": 0,
+    "displayName": "Home Crasher",
+    "hidden": 0,
+    "description": "Pick up a card from each home after Home Improvement was used.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/282800/9b26a5d6a4cf23dd4c91d215264fa489a09ee894.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/282800/9455d89812ba9cf23b3b6840170c6423b1c7f25a.jpg"
+  },
+  {
+    "name": "ACH_OJ37_P06",
+    "defaultvalue": 0,
+    "displayName": "Slick Moves",
+    "hidden": 0,
+    "description": "Slip on a BanaNana into another BanaNana.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/282800/67f64c702da75b8d54b6bc99b6bb3f1b264c6062.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/282800/ec18c934a4d26d1289789e04fdf11dc4afb0b245.jpg"
+  },
+  {
+    "name": "ACH_OJ39_C01",
+    "defaultvalue": 0,
+    "displayName": "Living Atlas",
+    "hidden": 0,
+    "description": "Play 10 games as Halena (DLC).",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/282800/c4cbe7b575129dfbceb4d4f4a77b20e4b84cf3d8.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/282800/43c890edde5b28cb5332d44ff5c1dce3333ebbe7.jpg"
+  },
+  {
+    "name": "ACH_OJ39_C02",
+    "defaultvalue": 0,
+    "displayName": "Travel Guide of the Year",
+    "hidden": 0,
+    "description": "As Halena, avoid 10 perils on one journey (DLC).",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/282800/c1fe85c0e560be1434e9e3fc5b0681a0d9321bcc.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/282800/98082dfcdc1cba2e8a9bcf234395787254d46f43.jpg"
+  },
+  {
+    "name": "ACH_OJ39_C03",
+    "defaultvalue": 0,
+    "displayName": "Destination Unknown",
+    "hidden": 0,
+    "description": "As Halena, lose sight of your goal (DLC).",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/282800/0f7e9cba6cc4ee24a92eb1cdf4304118920e2760.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/282800/af2c5e60f5c7bc185be003e4d5481e4905dd9552.jpg"
+  },
+  {
+    "name": "ACH_OJ39_C11",
+    "defaultvalue": 0,
+    "displayName": "Fowl-Weather Friends",
+    "hidden": 0,
+    "description": "Play 10 games as Cook (DLC)",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/282800/41137173c9726a8dfa3d2028b1dc69f518979115.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/282800/d5db911694c87950664507a186c3102a8012e267.jpg"
+  },
+  {
+    "name": "ACH_OJ39_C12",
+    "defaultvalue": 0,
+    "displayName": "Chickening Out",
+    "hidden": 0,
+    "description": "As Cook, dodge a mighty attack and run away (DLC).",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/282800/5a4ffa0ca0c044377ed562c7c10530a1c428efd9.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/282800/249e529341fd8d065b458cdcba2431dc0415aacf.jpg"
+  },
+  {
+    "name": "ACH_OJ39_C13",
+    "defaultvalue": 0,
+    "displayName": "Stuffed",
+    "hidden": 0,
+    "description": "Win a game as Cook without ever going hungry (DLC).",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/282800/f8fa7823867f01e8574208d0e690161f68669311.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/282800/15f725f5965dad4d57b8cfd6e98e92fa611e69bc.jpg"
+  },
+  {
+    "name": "ACH_OJ41_C01",
+    "defaultvalue": 0,
+    "displayName": "Hotrodder",
+    "hidden": 0,
+    "description": "Play 10 games as Lone Rider (DLC).",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/282800/5da031a329b2a2d06954f8303ef6860abcd8507c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/282800/e9cae43aa56615410116744e0fb11351bb783883.jpg"
+  },
+  {
+    "name": "ACH_OJ41_C02",
+    "defaultvalue": 0,
+    "displayName": "Pedal to the Metal",
+    "hidden": 0,
+    "description": "As Lone Rider, put the pedal to the metal (DLC).",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/282800/12f31f354866bb665368771303f4d4f9c800cafe.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/282800/ff042f19c1a266f72f6511f8d8e1187f372f2f4c.jpg"
+  },
+  {
+    "name": "ACH_OJ41_C03",
+    "defaultvalue": 0,
+    "displayName": "Roadkill",
+    "hidden": 0,
+    "description": "Become the lone rider (DLC).",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/282800/df3366b4ad0b345dee05a43760d82591db99798e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/282800/1079616e5c234fd8259b8c36bd8ef49f8277e9b1.jpg"
+  },
+  {
+    "name": "ACH_OJ41_C11",
+    "defaultvalue": 0,
+    "displayName": "Never Lose Heart",
+    "hidden": 0,
+    "description": "Play 10 games as Merchant (DLC).",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/282800/dcec5199891593fd2fc561a55d3c43c3520ffbf3.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/282800/448a44f7a9bc28dc848f39b190836733b863df32.jpg"
+  },
+  {
+    "name": "ACH_OJ41_C12",
+    "defaultvalue": 0,
+    "displayName": "Money Makes the World Go 'Round",
+    "hidden": 0,
+    "description": "As Merchant, win with underhanded tactics (DLC).",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/282800/ce36f8af658b03f831c2c90b2c44888a77961e6f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/282800/ab35514e737ce0d39b009e2537f301acc7c2cc63.jpg"
+  },
+  {
+    "name": "ACH_OJ41_C13",
+    "defaultvalue": 0,
+    "displayName": "No Refunds",
+    "hidden": 0,
+    "description": "As Merchant, laugh at the poor fools trying to catch you (DLC).",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/282800/b1ec4eb74d043b8ab910c2e3281b284a477074eb.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/282800/1b0c3c58304b49e42771ca989a00aab86a525b2f.jpg"
+  },
+  {
+    "name": "ACH_OJ42_01",
+    "defaultvalue": 0,
+    "displayName": "Afloat",
+    "hidden": 0,
+    "description": "Defeat Swimming Coach.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/282800/dfeaf28f3c986979be4a0f1b817a26df9145f262.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/282800/bde80a0321e1f9d40c81c40d5b2a953a9c6be6a4.jpg"
+  },
+  {
+    "name": "ACH_OJ42_02",
+    "defaultvalue": 0,
+    "displayName": "Training Day",
+    "hidden": 0,
+    "description": "Defeat Swimming Coach on Hyper difficulty.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/282800/de15464b4edbb2043f54114cc3f5bfe8d38df84e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/282800/19aeb2fc9383fca7e3f8610327f739536f65bdce.jpg"
+  },
+  {
+    "name": "ACH_OJ42_03",
+    "defaultvalue": 0,
+    "displayName": "Rebellious Student",
+    "hidden": 0,
+    "description": "Defeat Swimming Coach on Hyper difficulty without defeating any Goalpost minions.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/282800/007d084101b4f3cd234ec109721f6356c4c6e8ed.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/282800/5e15db7e1affb0a0894aec74e42d9bfd6ddd649f.jpg"
   }
 ]

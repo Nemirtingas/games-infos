@@ -168,5 +168,140 @@
     "description": "Complete 15 levels with Hard+Cockpit mode",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1222040/912e415daf1dd6cbc3ea667254aca76f826714d3.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1222040/f77873bbf07c3e383713040b14c68103de074368.jpg"
+  },
+  {
+    "name": "ACH_GET_25_ENDLESS",
+    "defaultvalue": 0,
+    "displayName": "Endless Amateur",
+    "hidden": 0,
+    "description": "Get 25 trophies per time in Endless mode",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1222040/51655e352ecfdb2900f2e54182ba793f160a3005.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1222040/aa47fc763c5d4da297fd9f0b163bc40d7f6547eb.jpg"
+  },
+  {
+    "name": "ACH_GET_50_ENDLESS",
+    "defaultvalue": 0,
+    "displayName": "Endless Enthusiast",
+    "hidden": 0,
+    "description": "Get 50 trophies per time in Endless mode",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1222040/e8b313442e7228771c6a54ba2467f57d0a9dd6db.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1222040/50a0bbc2924705a8866528834ec06e20b4c15c1e.jpg"
+  },
+  {
+    "name": "ACH_GET_100_ENDLESS",
+    "defaultvalue": 0,
+    "displayName": "Endless Fanatic",
+    "hidden": 0,
+    "description": "Get 100 trophies per time in Endless mode",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1222040/10ec97fd3aa353a85b307fd42a84405e1bb1d995.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1222040/f1fb3655f6162fb5a0e4a5f0ed8ed3be95881591.jpg"
+  },
+  {
+    "name": "ACH_MUDKING",
+    "defaultvalue": 0,
+    "displayName": "Mud King",
+    "hidden": 0,
+    "description": "Get the car completely dirty",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1222040/bddaf82f1d3174da6fba1550cfe0609065202f3b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1222040/58616cdde7a455e1cd51b507cf8de7c8c37afd8f.jpg"
+  },
+  {
+    "name": "ACH_COMPLETE_5_RACE",
+    "defaultvalue": 0,
+    "displayName": "Race Amateur",
+    "hidden": 0,
+    "description": "Complete any race tracks 5 time",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1222040/81c7a62fc6bc0f561d232354fc5ce405a855ce1c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1222040/7018374eee17e698958538ce18d0b77c11822e42.jpg"
+  },
+  {
+    "name": "ACH_COMPLETE_15_RACE",
+    "defaultvalue": 0,
+    "displayName": "Race Enthusiast",
+    "hidden": 0,
+    "description": "Complete any race tracks 15 time",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1222040/3f3977ddc7012e68493f3cdc074b2bd451c9c52d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1222040/61a53389528791f835e453ebd4eb7562351ca5af.jpg"
+  },
+  {
+    "name": "ACH_COMPLETE_55_RACE",
+    "defaultvalue": 0,
+    "displayName": "Race Fanatic",
+    "hidden": 0,
+    "description": "Complete any race tracks 55 time",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1222040/cb1060fbb1132208f88f20c6834b6e9c44b9a0b0.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1222040/16e618796d9d9b133663a0fb27d5875c761eaa6d.jpg"
+  },
+  {
+    "name": "ACH_GET_25_CLASSIC",
+    "defaultvalue": 0,
+    "displayName": "Classic Amateur",
+    "hidden": 0,
+    "description": "Get 25 trophies in Classic mode",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1222040/23dfbfee010b97215577d365716e17d4142ab27c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1222040/a3aebdf019ee9e2dfa5fbbcc86fa0e535f3a0a1d.jpg"
+  },
+  {
+    "name": "ACH_GET_50_CLASSIC",
+    "defaultvalue": 0,
+    "displayName": "Classic Enthusiast",
+    "hidden": 0,
+    "description": "Get 50 trophies in Classic mode",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1222040/b9549e5ffeb8380eab4baeace19f96ecdf0d425e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1222040/bfae0055789ccd0839d1925d9ab21cfb86287e58.jpg"
+  },
+  {
+    "name": "ACH_GET_100_CLASSIC",
+    "defaultvalue": 0,
+    "displayName": "Classic Fanatic",
+    "hidden": 0,
+    "description": "Get 100 trophies in Classic mode",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1222040/06471193f3ad87d8784b5ccb5d215a4ddec6cf59.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1222040/884cdc8ace78154fbfeff8c4a5ae82c06badbedd.jpg"
+  },
+  {
+    "name": "ACH_GET_25_CLASSIC2",
+    "defaultvalue": 0,
+    "displayName": "Classic 2 Amateur",
+    "hidden": 0,
+    "description": "Get 25 trophies in Classic 2 mode",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1222040/36d81661ff66c2ee72fe18fbc7010fa3ae17c5b4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1222040/d3957fe1952fbf7418d943bfb4baeefe00a18e42.jpg"
+  },
+  {
+    "name": "ACH_GET_50_CLASSIC2",
+    "defaultvalue": 0,
+    "displayName": "Classic 2 Enthusiast",
+    "hidden": 0,
+    "description": "Get 50 trophies in Classic 2 mode",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1222040/9cf11552067982825275a9404aa577370f3f6c0c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1222040/0bda7416067833f39bdf2ff4fb983c2b99f60c9d.jpg"
+  },
+  {
+    "name": "ACH_GET_100_CLASSIC2",
+    "defaultvalue": 0,
+    "displayName": "Classic 2 Fanatic",
+    "hidden": 0,
+    "description": "Get 100 trophies in Classic 2 mode",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1222040/1f8377bd63cda6fc986c5981ad3c83e6e09e1e03.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1222040/be052bb17fc3a0ab1b3525f5d42d79a0af93d7b9.jpg"
+  },
+  {
+    "name": "ACH_CLASSIC2_COMPLETE_ALL",
+    "defaultvalue": 0,
+    "displayName": "Classic 2 You're a Star!",
+    "hidden": 0,
+    "description": "Complete all levels in Classic 2",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1222040/a8c6b241ac309970578b244b912090be79649cfd.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1222040/6772eb0dc2035c8c5703f5a3d0bfdbc2d92dfcfd.jpg"
+  },
+  {
+    "name": "ACH_CLASSIC2_GET_ALL",
+    "defaultvalue": 0,
+    "displayName": "Classic 2 Superstar",
+    "hidden": 0,
+    "description": "Get all trophies in Classic 2",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1222040/099442f0a9f0cac26ed0b9ab098d0604d0c68f12.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1222040/43d6911a459101d9083e6c7de99dfbc4796bf51b.jpg"
   }
 ]

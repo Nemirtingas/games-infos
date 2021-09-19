@@ -4,7 +4,7 @@
     "defaultvalue": 0,
     "displayName": "School's Out",
     "hidden": 0,
-    "description": "Complete the training mission.",
+    "description": "Complete the training mission. ",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/536280/d7436496cf80c9333e3625cd72e4440b9e82afbd.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/536280/a571bf25973df39878922ba6de00d39221b196a2.jpg"
   },
@@ -18,29 +18,29 @@
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/536280/a571bf25973df39878922ba6de00d39221b196a2.jpg"
   },
   {
-    "name": "ACH_COMPLETE_MP_ROUND",
+    "name": "ACH_DEFEAT_GRAVCYCLE",
     "defaultvalue": 0,
     "displayName": "Battle Tested",
     "hidden": 0,
-    "description": "Complete a round of multiplayer.",
+    "description": "Defeat an enemy Gravcycle.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/536280/d7436496cf80c9333e3625cd72e4440b9e82afbd.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/536280/a571bf25973df39878922ba6de00d39221b196a2.jpg"
   },
   {
-    "name": "ACH_CREATE_A_BADGE",
+    "name": "ACH_CAMPAIGN_DAMAGE",
     "defaultvalue": 0,
-    "displayName": "Happy Little Trees",
+    "displayName": "Wrecking Crew",
     "hidden": 0,
-    "description": "Craft a custom badge.",
+    "description": "Deal 20,000 damage in a mission.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/536280/d7436496cf80c9333e3625cd72e4440b9e82afbd.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/536280/a571bf25973df39878922ba6de00d39221b196a2.jpg"
   },
   {
-    "name": "ACH_CUSTOMIZE_CREW",
+    "name": "ACH_CAMPAIGN_HEALING",
     "defaultvalue": 0,
-    "displayName": "Suit Up",
+    "displayName": "Busy Nanites",
     "hidden": 0,
-    "description": "Customize a multiplayer crew.",
+    "description": "Repair 10,000 damage in a mission.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/536280/d7436496cf80c9333e3625cd72e4440b9e82afbd.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/536280/a571bf25973df39878922ba6de00d39221b196a2.jpg"
   },
@@ -49,7 +49,7 @@
     "defaultvalue": 0,
     "displayName": "Side Quest",
     "hidden": 0,
-    "description": "Complete an optional campaign challenge.",
+    "description": "Complete an optional campaign objective.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/536280/d7436496cf80c9333e3625cd72e4440b9e82afbd.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/536280/a571bf25973df39878922ba6de00d39221b196a2.jpg"
   },
@@ -67,16 +67,16 @@
     "defaultvalue": 0,
     "displayName": "Garbage Day",
     "hidden": 0,
-    "description": "Collect at least 1000 salvage in the campaign.",
+    "description": "Collect 1000 or more salvage in the campaign.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/536280/d7436496cf80c9333e3625cd72e4440b9e82afbd.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/536280/a571bf25973df39878922ba6de00d39221b196a2.jpg"
   },
   {
-    "name": "ACH_COMPLETE_MP_CHALLENGE",
+    "name": "ACH_DEFEAT_THUNDERHEAD",
     "defaultvalue": 0,
     "displayName": "Tough Stuff",
     "hidden": 0,
-    "description": "Complete a multiplayer challenge.",
+    "description": "Defeat an enemy Thunderhead.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/536280/d7436496cf80c9333e3625cd72e4440b9e82afbd.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/536280/a571bf25973df39878922ba6de00d39221b196a2.jpg"
   },
@@ -92,7 +92,7 @@
   {
     "name": "ACH_11_DEFEND_THE_DAM",
     "defaultvalue": 0,
-    "displayName": "Defend the Dam",
+    "displayName": "Defend The Dam",
     "hidden": 0,
     "description": "Complete the Mountain chapter of the campaign.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/536280/0699d0e6e8f985c48247928bc10b9221dd7c9aec.jpg",
@@ -119,7 +119,7 @@
   {
     "name": "ACH_14_DEFEAT_IRON_CLOUD",
     "defaultvalue": 0,
-    "displayName": "Defeat the Iron Cloud",
+    "displayName": "Defeat The Iron Cloud",
     "hidden": 0,
     "description": "Complete the Iceland chapter of the campaign.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/536280/0699d0e6e8f985c48247928bc10b9221dd7c9aec.jpg",
@@ -146,7 +146,7 @@
   {
     "name": "ACH_17_MORTAR_STRIKE_KILLS",
     "defaultvalue": 0,
-    "displayName": "Death from Above",
+    "displayName": "Death From Above",
     "hidden": 0,
     "description": "Destroy 20 enemies with the mortar strike ability.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/536280/0699d0e6e8f985c48247928bc10b9221dd7c9aec.jpg",
@@ -209,9 +209,9 @@
   {
     "name": "ACH_24_COMPLETE_ALL_MISSIONS_NORMAL",
     "defaultvalue": 0,
-    "displayName": "Storyteller",
+    "displayName": "Grav-Master",
     "hidden": 0,
-    "description": "Complete all campaign missions on recruit difficulty or higher.",
+    "description": "Complete all campaign missions on Recruit difficulty or higher.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/536280/6009af4bae7c4c48ad13b2651242268ce84c1fd4.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/536280/a571bf25973df39878922ba6de00d39221b196a2.jpg"
   },
@@ -238,7 +238,7 @@
     "defaultvalue": 0,
     "displayName": "Fully Loaded",
     "hidden": 0,
-    "description": "Upgrade every squad unit fully.",
+    "description": "Full upgrade every crew member with chips.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/536280/6009af4bae7c4c48ad13b2651242268ce84c1fd4.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/536280/a571bf25973df39878922ba6de00d39221b196a2.jpg"
   },
@@ -256,7 +256,7 @@
     "defaultvalue": 0,
     "displayName": "Job's Done",
     "hidden": 0,
-    "description": "Complete all other achievements.",
+    "description": "Complete all other Achievement requirements.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/536280/2cebab778593c47bd9d0f3796320ef98108bc147.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/536280/a571bf25973df39878922ba6de00d39221b196a2.jpg"
   }

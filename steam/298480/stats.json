@@ -1,78 +1,97 @@
-﻿{
-  "S_Cargo_Ship_Destroyed": {
-    "description": "Cargo Ships Destroyed",
-    "value": 0
+[
+  {
+    "name": "S_Cargo_Ship_Destroyed",
+    "defaultvalue": 0,
+    "displayName": "Cargo Ships Destroyed"
   },
-  "S_Landing_Craft_Destroyed": {
-    "description": "Landing Craft Destroyed",
-    "value": 0
+  {
+    "name": "S_Landing_Craft_Destroyed",
+    "defaultvalue": 0,
+    "displayName": "Landing Craft Destroyed"
   },
-  "S_Torpedo_Boat_Destroyed": {
-    "description": "Torpedo Boats Destroyed",
-    "value": 0
+  {
+    "name": "S_Torpedo_Boat_Destroyed",
+    "defaultvalue": 0,
+    "displayName": "Torpedo Boats Destroyed"
   },
-  "S_Destroyer_Destroyed": {
-    "description": "Destroyers Destroyed",
-    "value": 0
+  {
+    "name": "S_Destroyer_Destroyed",
+    "defaultvalue": 0,
+    "displayName": "Destroyers Destroyed"
   },
-  "S_Corvette_Destroyed": {
-    "description": "Corvettes Destroyed",
-    "value": 0
+  {
+    "name": "S_Corvette_Destroyed",
+    "defaultvalue": 0,
+    "displayName": "Corvettes Destroyed"
   },
-  "S_Submarine_Destroyed": {
-    "description": "Submarines Destroyed",
-    "value": 0
+  {
+    "name": "S_Submarine_Destroyed",
+    "defaultvalue": 0,
+    "displayName": "Submarines Destroyed"
   },
-  "S_Cruiser_Destroyed": {
-    "description": "Cruisers Destroyed",
-    "value": 0
+  {
+    "name": "S_Cruiser_Destroyed",
+    "defaultvalue": 0,
+    "displayName": "Cruisers Destroyed"
   },
-  "S_Battlecruiser_Destroyed": {
-    "description": "Battlecruisers Destroyed",
-    "value": 0
+  {
+    "name": "S_Battlecruiser_Destroyed",
+    "defaultvalue": 0,
+    "displayName": "Battlecruisers Destroyed"
   },
-  "S_Battleship_Destroyed": {
-    "description": "Battleships Destroyed",
-    "value": 0
+  {
+    "name": "S_Battleship_Destroyed",
+    "defaultvalue": 0,
+    "displayName": "Battleships Destroyed"
   },
-  "S_Carrier_Destroyed": {
-    "description": "Carriers Destroyed",
-    "value": 0
+  {
+    "name": "S_Carrier_Destroyed",
+    "defaultvalue": 0,
+    "displayName": "Carriers Destroyed"
   },
-  "S_Total_Ships_Sunk": {
-    "description": "Total Ships Sunk",
-    "value": 0
+  {
+    "name": "S_Total_Ships_Sunk",
+    "defaultvalue": 0,
+    "displayName": "Total Ships Sunk"
   },
-  "S_Total_Ports_Captured": {
-    "description": "Ports Captured",
-    "value": 0
+  {
+    "name": "S_Total_Ports_Captured",
+    "defaultvalue": 0,
+    "displayName": "Ports Captured"
   },
-  "S_Total_Warbonds": {
-    "description": "Total Warbonds",
-    "value": 0
+  {
+    "name": "S_Total_Warbonds",
+    "defaultvalue": 0,
+    "displayName": "Total Warbonds"
   },
-  "S_BattleOfTheDenmarkStrait_Won": {
-    "description": "Won the Battle of the Denmark Strait",
-    "value": 0
+  {
+    "name": "S_BattleOfTheDenmarkStrait_Won",
+    "defaultvalue": 0,
+    "displayName": "Won the Battle of the Denmark Strait"
   },
-  "S_TheFinalBattle_Won": {
-    "description": "Won the Final Battle",
-    "value": 0
+  {
+    "name": "S_TheFinalBattle_Won",
+    "defaultvalue": 0,
+    "displayName": "Won the Final Battle"
   },
-  "S_ClashOfTheGiants_Won": {
-    "description": "Won the Clash of the Giants",
-    "value": 0
+  {
+    "name": "S_ClashOfTheGiants_Won",
+    "defaultvalue": 0,
+    "displayName": "Won the Clash of the Giants"
   },
-  "S_ArcticSkirmish_Won": {
-    "description": "Won the Arctic Skirmish",
-    "value": 0
+  {
+    "name": "S_ArcticSkirmish_Won",
+    "defaultvalue": 0,
+    "displayName": "Won the Arctic Skirmish"
   },
-  "S_PreludeToMatapanPartOne_Won": {
-    "description": "Won the Prelude to Matapan (Part One)",
-    "value": 0
+  {
+    "name": "S_PreludeToMatapanPartOne_Won",
+    "defaultvalue": 0,
+    "displayName": "Won the Prelude to Matapan (Part One)"
   },
-  "S_PreludeToMatapanPartTwo_Won": {
-    "description": "Won the Prelude to Matapan (Part Two)",
-    "value": 0
+  {
+    "name": "S_PreludeToMatapanPartTwo_Won",
+    "defaultvalue": 0,
+    "displayName": "Won the Prelude to Matapan (Part Two)"
   }
-}
+]

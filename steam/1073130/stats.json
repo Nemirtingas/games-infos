@@ -1,18 +1,22 @@
-﻿{
-  "Games_Played": {
-    "description": "Game_Played",
-    "value": 0
+[
+  {
+    "name": "Games_Played",
+    "defaultvalue": 0,
+    "displayName": "Game_Played"
   },
-  "ScoreBoard_Score": {
-    "description": "ScoreBoard_Score",
-    "value": 0
+  {
+    "name": "ScoreBoard_Score",
+    "defaultvalue": 0,
+    "displayName": "ScoreBoard_Score"
   },
-  "Level": {
-    "description": "Level",
-    "value": 0
+  {
+    "name": "Level",
+    "defaultvalue": 0,
+    "displayName": "Level"
   },
-  "Money": {
-    "description": "Money",
-    "value": 0
+  {
+    "name": "Money",
+    "defaultvalue": 0,
+    "displayName": "Money"
   }
-}
+]

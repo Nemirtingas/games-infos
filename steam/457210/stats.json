@@ -1,22 +1,27 @@
-﻿{
-  "Finishes": {
-    "description": "Level Finishes",
-    "value": 0
+[
+  {
+    "name": "Finishes",
+    "defaultvalue": 0,
+    "displayName": "Level Finishes"
   },
-  "Restarts": {
-    "description": "Level Restarts",
-    "value": 0
+  {
+    "name": "Restarts",
+    "defaultvalue": 0,
+    "displayName": "Level Restarts"
   },
-  "Deaths": {
-    "description": "Deaths",
-    "value": 0
+  {
+    "name": "Deaths",
+    "defaultvalue": 0,
+    "displayName": "Deaths"
   },
-  "Tries": {
-    "description": "Level Tries",
-    "value": 0
+  {
+    "name": "Tries",
+    "defaultvalue": 0,
+    "displayName": "Level Tries"
   },
-  "GlobalTries": {
-    "description": "Global Level Tries",
-    "value": 0
+  {
+    "name": "GlobalTries",
+    "defaultvalue": 0,
+    "displayName": "Global Level Tries"
   }
-}
+]

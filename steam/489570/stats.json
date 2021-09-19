@@ -1,22 +1,27 @@
-﻿{
-  "STAT_0": {
-    "description": "Online Wins",
-    "value": 0
+[
+  {
+    "name": "STAT_0",
+    "defaultvalue": 0,
+    "displayName": "Online Wins"
   },
-  "STAT_1": {
-    "description": "Matches Played",
-    "value": 0
+  {
+    "name": "STAT_1",
+    "defaultvalue": 0,
+    "displayName": "Matches Played"
   },
-  "STAT_2": {
-    "description": "Projectiles Fired",
-    "value": 0
+  {
+    "name": "STAT_2",
+    "defaultvalue": 0,
+    "displayName": "Projectiles Fired"
   },
-  "STAT_3": {
-    "description": "Games Withoug Getting Hit",
-    "value": 0
+  {
+    "name": "STAT_3",
+    "defaultvalue": 0,
+    "displayName": "Games Withoug Getting Hit"
   },
-  "STAT_4": {
-    "description": "Passes Through a Portal",
-    "value": 0
+  {
+    "name": "STAT_4",
+    "defaultvalue": 0,
+    "displayName": "Passes Through a Portal"
   }
-}
+]

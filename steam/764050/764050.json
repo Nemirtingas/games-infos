@@ -1,23 +1,33 @@
-﻿{
+{
   "Dlcs": {
     "1227510": {
       "Name": "Maelstrom - Wraith Bundle",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/1227510/header.jpg?t=1598632261"
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1227510/header.jpg?t=1598632261",
+      "Type": "dlc"
     },
     "1257740": {
-      "Name": "Maelstrom - Undertow Bundle",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/1257740/header.jpg?t=1598632222"
+      "Name": "",
+      "ImageUrl": ""
     },
     "1257741": {
-      "Name": "Maelstrom - Dread Bundle",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/1257741/header.jpg?t=1598632117"
+      "Name": "",
+      "ImageUrl": ""
     }
   },
   "Name": "Maelstrom",
   "AppId": "764050",
-  "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/764050/header.jpg?t=1598631994",
+  "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/764050/header.jpg?t=1606855761",
   "Languages": [
-    "english"
+    "english",
+    "french",
+    "italian",
+    "german",
+    "spanish",
+    "japanese",
+    "korean",
+    "portuguese",
+    "russian",
+    "schinese"
   ],
   "Platforms": {
     "windows": true,

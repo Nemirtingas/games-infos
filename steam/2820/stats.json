@@ -1,18 +1,22 @@
-﻿{
-  "DIDGame": {
-    "description": "",
-    "value": 0
+[
+  {
+    "name": "DIDGame",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "DIDLoaded": {
-    "description": "",
-    "value": 0
+  {
+    "name": "DIDLoaded",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "DIDHash": {
-    "description": "",
-    "value": 0
+  {
+    "name": "DIDHash",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "ach_PlasmaBurstKills": {
-    "description": "",
-    "value": 0
+  {
+    "name": "ach_PlasmaBurstKills",
+    "defaultvalue": 0,
+    "displayName": ""
   }
-}
+]

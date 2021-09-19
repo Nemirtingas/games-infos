@@ -1,50 +1,62 @@
-﻿{
-  "NumGames": {
-    "description": "Missions accepted",
-    "value": 0
+[
+  {
+    "name": "NumGames",
+    "defaultvalue": 0,
+    "displayName": "Missions accepted"
   },
-  "NumWins": {
-    "description": "Missions completed",
-    "value": 0
+  {
+    "name": "NumWins",
+    "defaultvalue": 0,
+    "displayName": "Missions completed"
   },
-  "NumLosses": {
-    "description": "Missions failed",
-    "value": 0
+  {
+    "name": "NumLosses",
+    "defaultvalue": 0,
+    "displayName": "Missions failed"
   },
-  "FeetTraveled": {
-    "description": "Steps taken",
-    "value": 0
+  {
+    "name": "FeetTraveled",
+    "defaultvalue": 0,
+    "displayName": "Steps taken"
   },
-  "NumCreditsLooted": {
-    "description": "Credits earned",
-    "value": 0
+  {
+    "name": "NumCreditsLooted",
+    "defaultvalue": 0,
+    "displayName": "Credits earned"
   },
-  "NumLoreLooted": {
-    "description": "Dossier entries found",
-    "value": 0
+  {
+    "name": "NumLoreLooted",
+    "defaultvalue": 0,
+    "displayName": "Dossier entries found"
   },
-  "NumDossierCompleted": {
-    "description": "Dossiers completed",
-    "value": 0
+  {
+    "name": "NumDossierCompleted",
+    "defaultvalue": 0,
+    "displayName": "Dossiers completed"
   },
-  "NumBossesKilled": {
-    "description": "Bosses defeated on side missions",
-    "value": 0
+  {
+    "name": "NumBossesKilled",
+    "defaultvalue": 0,
+    "displayName": "Bosses defeated on side missions"
   },
-  "NumHighValueItemsStolen": {
-    "description": "High value items stolen",
-    "value": 0
+  {
+    "name": "NumHighValueItemsStolen",
+    "defaultvalue": 0,
+    "displayName": "High value items stolen"
   },
-  "NumAllied": {
-    "description": "Most Allied reps achieved",
-    "value": 0
+  {
+    "name": "NumAllied",
+    "defaultvalue": 0,
+    "displayName": "Most Allied reps achieved"
   },
-  "NumWanted": {
-    "description": "Most Wanted reps achieved",
-    "value": 0
+  {
+    "name": "NumWanted",
+    "defaultvalue": 0,
+    "displayName": "Most Wanted reps achieved"
   },
-  "NumBoozeConsumed": {
-    "description": "Adult beverages enjoyed",
-    "value": 0
+  {
+    "name": "NumBoozeConsumed",
+    "defaultvalue": 0,
+    "displayName": "Adult beverages enjoyed"
   }
-}
+]

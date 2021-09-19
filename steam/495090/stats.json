@@ -1,10 +1,12 @@
-﻿{
-  "stat_create_dinosaur": {
-    "description": "stat_create_dinosaur",
-    "value": 0
+[
+  {
+    "name": "stat_create_dinosaur",
+    "defaultvalue": 0,
+    "displayName": "stat_create_dinosaur"
   },
-  "stat_kill_enemy": {
-    "description": "stat_kill_enemy",
-    "value": 0
+  {
+    "name": "stat_kill_enemy",
+    "defaultvalue": 0,
+    "displayName": "stat_kill_enemy"
   }
-}
+]

@@ -1,18 +1,22 @@
-﻿{
-  "w": {
-    "description": "wins",
-    "value": 0
+[
+  {
+    "name": "w",
+    "defaultvalue": 0,
+    "displayName": "wins"
   },
-  "l": {
-    "description": "losses",
-    "value": 0
+  {
+    "name": "l",
+    "defaultvalue": 0,
+    "displayName": "losses"
   },
-  "s": {
-    "description": "streak",
-    "value": 0
+  {
+    "name": "s",
+    "defaultvalue": 0,
+    "displayName": "streak"
   },
-  "r": {
-    "description": "level reached",
-    "value": 0
+  {
+    "name": "r",
+    "defaultvalue": 0,
+    "displayName": "level reached"
   }
-}
+]

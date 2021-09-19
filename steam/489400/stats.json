@@ -1,10 +1,12 @@
-﻿{
-  "stat_deaths": {
-    "description": "Deaths",
-    "value": 0
+[
+  {
+    "name": "stat_deaths",
+    "defaultvalue": 0,
+    "displayName": "Deaths"
   },
-  "stat_regenerated": {
-    "description": "Energy Drinks Used",
-    "value": 0
+  {
+    "name": "stat_regenerated",
+    "defaultvalue": 0,
+    "displayName": "Energy Drinks Used"
   }
-}
+]

@@ -1,26 +1,32 @@
-﻿{
-  "NumKills": {
-    "description": "Number of Kills",
-    "value": 0
+[
+  {
+    "name": "NumKills",
+    "defaultvalue": 0,
+    "displayName": "Number of Kills"
   },
-  "NumGames": {
-    "description": "Number of Games",
-    "value": 0
+  {
+    "name": "NumGames",
+    "defaultvalue": 0,
+    "displayName": "Number of Games"
   },
-  "NumLosses": {
-    "description": "Number of Deaths",
-    "value": 0
+  {
+    "name": "NumLosses",
+    "defaultvalue": 0,
+    "displayName": "Number of Deaths"
   },
-  "NumMissions": {
-    "description": "Number of Missions",
-    "value": 0
+  {
+    "name": "NumMissions",
+    "defaultvalue": 0,
+    "displayName": "Number of Missions"
   },
-  "NumGames2": {
-    "description": "Number of Games Diff2",
-    "value": 0
+  {
+    "name": "NumGames2",
+    "defaultvalue": 0,
+    "displayName": "Number of Games Diff2"
   },
-  "NumGames3": {
-    "description": "Number of Games Diff3",
-    "value": 0
+  {
+    "name": "NumGames3",
+    "defaultvalue": 0,
+    "displayName": "Number of Games Diff3"
   }
-}
+]

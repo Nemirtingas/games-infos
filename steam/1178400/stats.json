@@ -1,26 +1,32 @@
-﻿{
-  "PCY_LVL": {
-    "description": "Pro Cyclist Level",
-    "value": 0
+[
+  {
+    "name": "PCY_LVL",
+    "defaultvalue": 0,
+    "displayName": "Pro Cyclist Level"
   },
-  "PCY_SKBRANCHPERF": {
-    "description": "Pro Cyclist Skill Branch - Performance",
-    "value": 0
+  {
+    "name": "PCY_SKBRANCHPERF",
+    "defaultvalue": 0,
+    "displayName": "Pro Cyclist Skill Branch - Performance"
   },
-  "PCY_SKBRANCHPERSO": {
-    "description": "Pro Cyclist Skill Branch - Personal",
-    "value": 0
+  {
+    "name": "PCY_SKBRANCHPERSO",
+    "defaultvalue": 0,
+    "displayName": "Pro Cyclist Skill Branch - Personal"
   },
-  "PCY_SKBRANCHEXPLO": {
-    "description": "Pro Cyclist Skill Branch - Exploration",
-    "value": 0
+  {
+    "name": "PCY_SKBRANCHEXPLO",
+    "defaultvalue": 0,
+    "displayName": "Pro Cyclist Skill Branch - Exploration"
   },
-  "PCY_SKBRANCHINRACE": {
-    "description": "Pro Cyclist Skill Branch - In-Race",
-    "value": 0
+  {
+    "name": "PCY_SKBRANCHINRACE",
+    "defaultvalue": 0,
+    "displayName": "Pro Cyclist Skill Branch - In-Race"
   },
-  "PCY_INRACEOBSERVATION": {
-    "description": "Observation",
-    "value": 0
+  {
+    "name": "PCY_INRACEOBSERVATION",
+    "defaultvalue": 0,
+    "displayName": "Observation"
   }
-}
+]

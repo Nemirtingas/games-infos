@@ -1,334 +1,417 @@
-﻿{
-  "KS_DeathCount": {
-    "description": "",
-    "value": 0
-  },
-  "KS_KillCount": {
-    "description": "",
-    "value": 0
-  },
-  "KS_NormalItem": {
-    "description": "",
-    "value": 0
-  },
-  "KS_RareItem": {
-    "description": "",
-    "value": 0
-  },
-  "KS_LegendaryItem": {
-    "description": "",
-    "value": 0
-  },
-  "KS_Win": {
-    "description": "",
-    "value": 0
-  },
-  "KS_DeathLastLevel": {
-    "description": "",
-    "value": 0
-  },
-  "KS_DeathLastBoss": {
-    "description": "",
-    "value": 0
-  },
-  "KS_CoverDeath": {
-    "description": "",
-    "value": 0
-  },
-  "KS_CoverTrap": {
-    "description": "",
-    "value": 0
-  },
-  "KS_PuzzleSolved": {
-    "description": "",
-    "value": 0
-  },
-  "KS_Grave": {
-    "description": "",
-    "value": 0
-  },
-  "KS_Medkits": {
-    "description": "",
-    "value": 0
-  },
-  "KS_DamageMax": {
-    "description": "",
-    "value": 0
-  },
-  "KS_HealthMax": {
-    "description": "",
-    "value": 0
-  },
-  "KS_StaminaMax": {
-    "description": "",
-    "value": 0
-  },
-  "KS_CritMax": {
-    "description": "",
-    "value": 0
-  },
-  "KS_AccuracyMax": {
-    "description": "",
-    "value": 0
-  },
-  "KS_DefenseMax": {
-    "description": "",
-    "value": 0
-  },
-  "KS_MagazineMax": {
-    "description": "",
-    "value": 0
-  },
-  "KS_SpeedMax": {
-    "description": "",
-    "value": 0
-  },
-  "KS_RoomComplete": {
-    "description": "",
-    "value": 0
-  },
-  "KS_SuicideRoom": {
-    "description": "",
-    "value": 0
-  },
-  "KS_BearKill": {
-    "description": "",
-    "value": 0
-  },
-  "KS_KillBoss": {
-    "description": "",
-    "value": 0
-  },
-  "KS_TroubleWin": {
-    "description": "",
-    "value": 0
-  },
-  "KS_DunaKill": {
-    "description": "",
-    "value": 0
-  },
-  "KS_DuckKill": {
-    "description": "",
-    "value": 0
-  },
-  "KS_DuckSave": {
-    "description": "",
-    "value": 0
-  },
-  "KS_Borg": {
-    "description": "",
-    "value": 0
-  },
-  "KS_RealViewersItems": {
-    "description": "",
-    "value": 0
-  },
-  "KS_5SecondsPuzzle": {
-    "description": "",
-    "value": 0
-  },
-  "KS_Perma1": {
-    "description": "",
-    "value": 0
-  },
-  "KS_Perma2": {
-    "description": "",
-    "value": 0
-  },
-  "KS_Perma3": {
-    "description": "",
-    "value": 0
-  },
-  "KS_Perma4": {
-    "description": "",
-    "value": 0
-  },
-  "KS_DeathsLevel1": {
-    "description": "",
-    "value": 0
-  },
-  "KS_DeathsLevel2": {
-    "description": "",
-    "value": 0
-  },
-  "KS_DeathsLevel3": {
-    "description": "",
-    "value": 0
-  },
-  "KS_DeathsLevel4": {
-    "description": "",
-    "value": 0
-  },
-  "KS_DeathsLevel5": {
-    "description": "",
-    "value": 0
-  },
-  "KS_DeathsLevel6": {
-    "description": "",
-    "value": 0
-  },
-  "KS_DeathsLevel7": {
-    "description": "",
-    "value": 0
-  },
-  "KS_DeathsLevel8": {
-    "description": "",
-    "value": 0
-  },
-  "KS_DeathsLevel9": {
-    "description": "",
-    "value": 0
-  },
-  "KS_DeathsLevel10": {
-    "description": "",
-    "value": 0
-  },
-  "KS_DeathsLevel11": {
-    "description": "",
-    "value": 0
-  },
-  "KS_DeathsLevel12": {
-    "description": "",
-    "value": 0
-  },
-  "KS_MeetBoss1": {
-    "description": "",
-    "value": 0
-  },
-  "KS_MeetBoss2": {
-    "description": "",
-    "value": 0
-  },
-  "KS_MeetBoss3": {
-    "description": "",
-    "value": 0
-  },
-  "KS_MeetBoss4": {
-    "description": "",
-    "value": 0
-  },
-  "KS_MeetBoss5": {
-    "description": "",
-    "value": 0
-  },
-  "KS_MeetBoss6": {
-    "description": "",
-    "value": 0
-  },
-  "KS_MeetBoss7": {
-    "description": "",
-    "value": 0
-  },
-  "KS_MeetBoss8": {
-    "description": "",
-    "value": 0
-  },
-  "KS_MeetBoss9": {
-    "description": "",
-    "value": 0
-  },
-  "KS_WinBoss1": {
-    "description": "",
-    "value": 0
-  },
-  "KS_WinBoss2": {
-    "description": "",
-    "value": 0
-  },
-  "KS_WinBoss3": {
-    "description": "",
-    "value": 0
-  },
-  "KS_WinBoss4": {
-    "description": "",
-    "value": 0
-  },
-  "KS_WinBoss5": {
-    "description": "",
-    "value": 0
-  },
-  "KS_WinBoss6": {
-    "description": "",
-    "value": 0
-  },
-  "KS_WinBoss7": {
-    "description": "",
-    "value": 0
-  },
-  "KS_WinBoss8": {
-    "description": "",
-    "value": 0
-  },
-  "KS_WinBoss9": {
-    "description": "",
-    "value": 0
-  },
-  "KS_LossBoss1": {
-    "description": "",
-    "value": 0
-  },
-  "KS_LossBoss2": {
-    "description": "",
-    "value": 0
-  },
-  "KS_LossBoss3": {
-    "description": "",
-    "value": 0
-  },
-  "KS_LossBoss4": {
-    "description": "",
-    "value": 0
-  },
-  "KS_LossBoss5": {
-    "description": "",
-    "value": 0
-  },
-  "KS_LossBoss6": {
-    "description": "",
-    "value": 0
-  },
-  "KS_LossBoss7": {
-    "description": "",
-    "value": 0
-  },
-  "KS_LossBoss8": {
-    "description": "",
-    "value": 0
-  },
-  "KS_LossBoss9": {
-    "description": "",
-    "value": 0
-  },
-  "KS_AudienceItems": {
-    "description": "",
-    "value": 0
-  },
-  "KS_Perma5": {
-    "description": "",
-    "value": 0
-  },
-  "KS_Perma6": {
-    "description": "",
-    "value": 0
-  },
-  "KS_Perma7": {
-    "description": "",
-    "value": 0
-  },
-  "KS_Perma8": {
-    "description": "",
-    "value": 0
-  },
-  "KS_Perma0": {
-    "description": "",
-    "value": 0
-  },
-  "KS_TutorialDone": {
-    "description": "",
-    "value": 0
-  },
-  "KS_HardcoreWin": {
-    "description": "",
-    "value": 0
+[
+  {
+    "name": "KS_DeathCount",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "KS_KillCount",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "KS_NormalItem",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "KS_RareItem",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "KS_LegendaryItem",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "KS_Win",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "KS_DeathLastLevel",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "KS_DeathLastBoss",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "KS_CoverDeath",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "KS_CoverTrap",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "KS_PuzzleSolved",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "KS_Grave",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "KS_Medkits",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "KS_DamageMax",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "KS_HealthMax",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "KS_StaminaMax",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "KS_CritMax",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "KS_AccuracyMax",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "KS_DefenseMax",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "KS_MagazineMax",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "KS_SpeedMax",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "KS_RoomComplete",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "KS_SuicideRoom",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "KS_BearKill",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "KS_KillBoss",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "KS_TroubleWin",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "KS_DunaKill",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "KS_DuckKill",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "KS_DuckSave",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "KS_Borg",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "KS_RealViewersItems",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "KS_5SecondsPuzzle",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "KS_Perma1",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "KS_Perma2",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "KS_Perma3",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "KS_Perma4",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "KS_DeathsLevel1",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "KS_DeathsLevel2",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "KS_DeathsLevel3",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "KS_DeathsLevel4",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "KS_DeathsLevel5",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "KS_DeathsLevel6",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "KS_DeathsLevel7",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "KS_DeathsLevel8",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "KS_DeathsLevel9",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "KS_DeathsLevel10",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "KS_DeathsLevel11",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "KS_DeathsLevel12",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "KS_MeetBoss1",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "KS_MeetBoss2",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "KS_MeetBoss3",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "KS_MeetBoss4",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "KS_MeetBoss5",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "KS_MeetBoss6",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "KS_MeetBoss7",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "KS_MeetBoss8",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "KS_MeetBoss9",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "KS_WinBoss1",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "KS_WinBoss2",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "KS_WinBoss3",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "KS_WinBoss4",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "KS_WinBoss5",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "KS_WinBoss6",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "KS_WinBoss7",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "KS_WinBoss8",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "KS_WinBoss9",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "KS_LossBoss1",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "KS_LossBoss2",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "KS_LossBoss3",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "KS_LossBoss4",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "KS_LossBoss5",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "KS_LossBoss6",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "KS_LossBoss7",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "KS_LossBoss8",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "KS_LossBoss9",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "KS_AudienceItems",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "KS_Perma5",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "KS_Perma6",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "KS_Perma7",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "KS_Perma8",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "KS_Perma0",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "KS_TutorialDone",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "KS_HardcoreWin",
+    "defaultvalue": 0,
+    "displayName": ""
   }
-}
+]

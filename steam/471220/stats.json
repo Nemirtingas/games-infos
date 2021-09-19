@@ -1,14 +1,17 @@
-﻿{
-  "top_coop_time": {
-    "description": "Highest coop time",
-    "value": 0
+[
+  {
+    "name": "top_coop_time",
+    "defaultvalue": 0,
+    "displayName": "Highest coop time"
   },
-  "total_play_time": {
-    "description": "Total play time",
-    "value": 0
+  {
+    "name": "total_play_time",
+    "defaultvalue": 0,
+    "displayName": "Total play time"
   },
-  "slaps": {
-    "description": "Total number of slaps",
-    "value": 0
+  {
+    "name": "slaps",
+    "defaultvalue": 0,
+    "displayName": "Total number of slaps"
   }
-}
+]

@@ -97,5 +97,41 @@
     "description": "Create your first map in the map editor.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1013000/455e83f0ffe7136195d9e62eca0936db3d0b6c64.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1013000/909f6dad9cfb8ea1924799339a7e85d965097773.jpg"
+  },
+  {
+    "name": "FINISH_CHAPTER_2",
+    "defaultvalue": 0,
+    "displayName": "The End! (Of Chapter 2)",
+    "hidden": 0,
+    "description": "Finish the second chapter of the campaign.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1013000/ba98b7a80ff277d540971e00a93e304eda36967d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1013000/aeb845c9a70a46c4ead68735ce673f5895405d00.jpg"
+  },
+  {
+    "name": "DEFEAT_MERCENARIES",
+    "defaultvalue": 0,
+    "displayName": "Some support!",
+    "hidden": 0,
+    "description": "Defeat the mercenaries.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1013000/627affd3603071a547f13bc15d53b7f23418d90d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1013000/a68566c786ebb15a2ea0b4cad553bf5bb543f7fb.jpg"
+  },
+  {
+    "name": "PILLAGE_RESOURCES",
+    "defaultvalue": 0,
+    "displayName": "Pillager!",
+    "hidden": 0,
+    "description": "Pillage some resources.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1013000/545f97085dae061a523e8d93ac83aed78f0e5f4f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1013000/179f274d5b0fbed6339a47d0f1492f50bd9ca447.jpg"
+  },
+  {
+    "name": "TRADE_RESOURCES",
+    "defaultvalue": 0,
+    "displayName": "Trader!",
+    "hidden": 0,
+    "description": "Trade some resources.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1013000/d65dc9078efd96cdf0e67ea5d7894220feee96d7.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1013000/db8e29d7d54042d00af0594f2509956b1b4189d3.jpg"
   }
 ]

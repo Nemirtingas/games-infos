@@ -1,6 +1,7 @@
-﻿{
-  "spot_trans_counter": {
-    "description": "Spot Transformations",
-    "value": 0
+[
+  {
+    "name": "spot_trans_counter",
+    "defaultvalue": 0,
+    "displayName": "Spot Transformations"
   }
-}
+]

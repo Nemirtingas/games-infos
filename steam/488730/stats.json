@@ -1,70 +1,87 @@
-﻿{
-  "EvEnemyKilled": {
-    "description": "EvEnemyKilled",
-    "value": 0
+[
+  {
+    "name": "EvEnemyKilled",
+    "defaultvalue": 0,
+    "displayName": "EvEnemyKilled"
   },
-  "EvWeaponStolenByHook": {
-    "description": "EvWeaponStolenByHook",
-    "value": 0
+  {
+    "name": "EvWeaponStolenByHook",
+    "defaultvalue": 0,
+    "displayName": "EvWeaponStolenByHook"
   },
-  "EvEnemyMindControlled": {
-    "description": "EvEnemyMindControlled",
-    "value": 0
+  {
+    "name": "EvEnemyMindControlled",
+    "defaultvalue": 0,
+    "displayName": "EvEnemyMindControlled"
   },
-  "EvEnemyDrained": {
-    "description": "EvEnemyDrained",
-    "value": 0
+  {
+    "name": "EvEnemyDrained",
+    "defaultvalue": 0,
+    "displayName": "EvEnemyDrained"
   },
-  "EvEnemyConfused": {
-    "description": "EvEnemyConfused",
-    "value": 0
+  {
+    "name": "EvEnemyConfused",
+    "defaultvalue": 0,
+    "displayName": "EvEnemyConfused"
   },
-  "EvEnemyKilledByCorpse": {
-    "description": "EvEnemyKilledByCorpse",
-    "value": 0
+  {
+    "name": "EvEnemyKilledByCorpse",
+    "defaultvalue": 0,
+    "displayName": "EvEnemyKilledByCorpse"
   },
-  "EvShotThroughFireWall": {
-    "description": "EvShotThroughFireWall",
-    "value": 0
+  {
+    "name": "EvShotThroughFireWall",
+    "defaultvalue": 0,
+    "displayName": "EvShotThroughFireWall"
   },
-  "EvBulletDeflected": {
-    "description": "EvBulletDeflected",
-    "value": 0
+  {
+    "name": "EvBulletDeflected",
+    "defaultvalue": 0,
+    "displayName": "EvBulletDeflected"
   },
-  "EvEnemyFrozen": {
-    "description": "EvEnemyFrozen",
-    "value": 0
+  {
+    "name": "EvEnemyFrozen",
+    "defaultvalue": 0,
+    "displayName": "EvEnemyFrozen"
   },
-  "EvEnemyKnockedDown": {
-    "description": "EvEnemyKnockedDown",
-    "value": 0
+  {
+    "name": "EvEnemyKnockedDown",
+    "defaultvalue": 0,
+    "displayName": "EvEnemyKnockedDown"
   },
-  "EvEnemyBubbleTrapped": {
-    "description": "EvEnemyBubbleTrapped",
-    "value": 0
+  {
+    "name": "EvEnemyBubbleTrapped",
+    "defaultvalue": 0,
+    "displayName": "EvEnemyBubbleTrapped"
   },
-  "EvExecution": {
-    "description": "EvExecution",
-    "value": 0
+  {
+    "name": "EvExecution",
+    "defaultvalue": 0,
+    "displayName": "EvExecution"
   },
-  "EvEnemyKilledByTeleport": {
-    "description": "EvEnemyKilledByTeleport",
-    "value": 0
+  {
+    "name": "EvEnemyKilledByTeleport",
+    "defaultvalue": 0,
+    "displayName": "EvEnemyKilledByTeleport"
   },
-  "EvEnemyKilledByDoor": {
-    "description": "EvEnemyKilledByDoor",
-    "value": 0
+  {
+    "name": "EvEnemyKilledByDoor",
+    "defaultvalue": 0,
+    "displayName": "EvEnemyKilledByDoor"
   },
-  "EvSynchroKill": {
-    "description": "EvSynchroKill",
-    "value": 0
+  {
+    "name": "EvSynchroKill",
+    "defaultvalue": 0,
+    "displayName": "EvSynchroKill"
   },
-  "EvSilentExecution": {
-    "description": "EvSilentExecution",
-    "value": 0
+  {
+    "name": "EvSilentExecution",
+    "defaultvalue": 0,
+    "displayName": "EvSilentExecution"
   },
-  "EvEnemyKilledMarked": {
-    "description": "EvEnemyKilledMarked",
-    "value": 0
+  {
+    "name": "EvEnemyKilledMarked",
+    "defaultvalue": 0,
+    "displayName": "EvEnemyKilledMarked"
   }
-}
+]

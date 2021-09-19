@@ -1,103 +1,44 @@
 {
   "Dlcs": {
-    "908220": {
-      "Name": "Pinball Arcade: Gottlieb Pack 1",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/908220/header.jpg?t=1532984165"
-    },
-    "908221": {
-      "Name": "Pinball Arcade: Gottlieb Pack 2",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/908221/header.jpg?t=1532984102"
-    },
-    "908222": {
-      "Name": "Pinball Arcade: Gottlieb Pack 3",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/908222/header.jpg?t=1532984013"
-    },
-    "908223": {
-      "Name": "Pinball Arcade: Gottlieb EM Pack",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/908223/header.jpg?t=1532989653"
-    },
-    "908224": {
-      "Name": "Pinball Arcade: Stern Pack 1",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/908224/header.jpg?t=1561489417"
-    },
-    "908225": {
-      "Name": "Pinball Arcade: Stern Pack 2",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/908225/header.jpg?t=1532983805"
-    },
-    "908226": {
-      "Name": "Pinball Arcade: Alvin G. and Co. Pack",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/908226/header.jpg?t=1532983923"
-    },
-    "908227": {
-      "Name": "Pinball Arcade: Doctor Who Master of Time",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/908227/header.jpg?t=1532983969"
-    },
-    "929880": {
-      "Name": "Pinball Arcade: Stern Pack 3",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/929880/header.jpg?t=1536971011"
-    },
-    "1093040": {
-      "Name": "Pinball Arcade: Stern Pack 1",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/1093040/header.jpg?t=1562002733"
-    },
-    "493300": {
-      "Name": "Pinball Arcade: Season Six Pack",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/493300/header.jpg?t=1530301303"
-    },
-    "326610": {
-      "Name": "Pinball Arcade: Season Four Pro Pack",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/326610/header.jpg?t=1530301294"
-    },
-    "326600": {
-      "Name": "Pinball Arcade: Season Four Pack",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/326600/header.jpg?t=1530301291"
-    },
-    "238273": {
-      "Name": "Pinball Arcade: Season Two Pro Pack",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/238273/header.jpg?t=1530301282"
-    },
-    "238272": {
-      "Name": "Pinball Arcade: Season Two Table Pack",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/238272/header.jpg?t=1530301280"
-    },
-    "268281": {
-      "Name": "Pinball Arcade: Season Three Pro Pack",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/268281/header.jpg?t=1530301288"
-    },
-    "268280": {
-      "Name": "Pinball Arcade: Season Three Pack",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/268280/header.jpg?t=1530301285"
-    },
     "394561": {
       "Name": "Pinball Arcade: Season Five Pro Pack",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/394561/header.jpg?t=1530301297"
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/394561/header.jpg?t=1530301297",
+      "Type": "dlc"
     },
     "394560": {
       "Name": "Pinball Arcade: Season Five Pack",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/394560/header.jpg?t=1530301300"
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/394560/header.jpg?t=1530301300",
+      "Type": "dlc"
     },
-    "639891": {
-      "Name": "Pinball Arcade: Season Seven Pro Pack",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/639891/header.jpg?t=1530301310"
+    "326610": {
+      "Name": "Pinball Arcade: Season Four Pro Pack",
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/326610/header.jpg?t=1530301294",
+      "Type": "dlc"
     },
-    "639890": {
-      "Name": "Pinball Arcade: Season Seven Table Pack",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/639890/header.jpg?t=1530301308"
+    "326600": {
+      "Name": "Pinball Arcade: Season Four Pack",
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/326600/header.jpg?t=1530301291",
+      "Type": "dlc"
+    },
+    "268281": {
+      "Name": "Pinball Arcade: Season Three Pro Pack",
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/268281/header.jpg?t=1530301288",
+      "Type": "dlc"
+    },
+    "268280": {
+      "Name": "Pinball Arcade: Season Three Pack",
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/268280/header.jpg?t=1530301285",
+      "Type": "dlc"
+    },
+    "238273": {
+      "Name": "Pinball Arcade: Season Two Pro Pack",
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/238273/header.jpg?t=1530301282",
+      "Type": "dlc"
+    },
+    "238272": {
+      "Name": "Pinball Arcade: Season Two Table Pack",
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/238272/header.jpg?t=1530301280",
+      "Type": "dlc"
     }
-  },
-  "Name": "Pinball Arcade",
-  "AppId": "238260",
-  "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/238260/header.jpg?t=1572624312",
-  "Languages": [
-    "english",
-    "french",
-    "italian",
-    "german",
-    "spanish"
-  ],
-  "Platforms": {
-    "windows": true,
-    "mac": true,
-    "linux": false
   }
 }

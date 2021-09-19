@@ -1,22 +1,27 @@
-﻿{
-  "MinionsKilled": {
-    "description": "Enemies Flattened",
-    "value": 0
+[
+  {
+    "name": "MinionsKilled",
+    "defaultvalue": 0,
+    "displayName": "Enemies Flattened"
   },
-  "PagiesCollected": {
-    "description": "Pagies Earned",
-    "value": 0
+  {
+    "name": "PagiesCollected",
+    "defaultvalue": 0,
+    "displayName": "Pagies Earned"
   },
-  "QuilliesCollected": {
-    "description": "Quillies Collected",
-    "value": 0
+  {
+    "name": "QuilliesCollected",
+    "defaultvalue": 0,
+    "displayName": "Quillies Collected"
   },
-  "MinionsKilledByGroundPound": {
-    "description": "Minions Killed By Ground Pound",
-    "value": 0
+  {
+    "name": "MinionsKilledByGroundPound",
+    "defaultvalue": 0,
+    "displayName": "Minions Killed By Ground Pound"
   },
-  "MinionsKilledBySpin": {
-    "description": "Minions Killed By Spin",
-    "value": 0
+  {
+    "name": "MinionsKilledBySpin",
+    "defaultvalue": 0,
+    "displayName": "Minions Killed By Spin"
   }
-}
+]

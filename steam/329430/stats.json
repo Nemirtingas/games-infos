@@ -1,22 +1,27 @@
-﻿{
-  "ach_snack": {
-    "description": "",
-    "value": 0
+[
+  {
+    "name": "ach_snack",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "ach_ammo": {
-    "description": "",
-    "value": 0
+  {
+    "name": "ach_ammo",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "ach_follow": {
-    "description": "",
-    "value": 0
+  {
+    "name": "ach_follow",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "ach_burn": {
-    "description": "",
-    "value": 0
+  {
+    "name": "ach_burn",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "ach_cleo": {
-    "description": "",
-    "value": 0
+  {
+    "name": "ach_cleo",
+    "defaultvalue": 0,
+    "displayName": ""
   }
-}
+]

@@ -1,18 +1,22 @@
-﻿{
-  "stat_int": {
-    "description": "test_int",
-    "value": 1
+[
+  {
+    "name": "stat_int",
+    "defaultvalue": 1,
+    "displayName": "test_int"
   },
-  "stat_float": {
-    "description": "test_float",
-    "value": 0
+  {
+    "name": "stat_float",
+    "defaultvalue": 0,
+    "displayName": "test_float"
   },
-  "stat_int2": {
-    "description": "test_int2",
-    "value": 5
+  {
+    "name": "stat_int2",
+    "defaultvalue": 5,
+    "displayName": "test_int2"
   },
-  "version": {
-    "description": "version",
-    "value": 0
+  {
+    "name": "version",
+    "defaultvalue": 0,
+    "displayName": "version"
   }
-}
+]

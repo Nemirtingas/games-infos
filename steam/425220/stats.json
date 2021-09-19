@@ -1,94 +1,117 @@
-﻿{
-  "VERSION": {
-    "description": "",
-    "value": 1
+[
+  {
+    "name": "VERSION",
+    "defaultvalue": 1,
+    "displayName": ""
   },
-  "rnds01": {
-    "description": "Number of Online wins",
-    "value": 0
+  {
+    "name": "rnds01",
+    "defaultvalue": 0,
+    "displayName": "Number of Online wins"
   },
-  "rnds02": {
-    "description": "Number of Pirate Flag Battle wins",
-    "value": 0
+  {
+    "name": "rnds02",
+    "defaultvalue": 0,
+    "displayName": "Number of Pirate Flag Battle wins"
   },
-  "rnds03": {
-    "description": "Number of WANTED Versus wins",
-    "value": 0
+  {
+    "name": "rnds03",
+    "defaultvalue": 0,
+    "displayName": "Number of WANTED Versus wins"
   },
-  "stat06": {
-    "description": "Paramount War clear progress",
-    "value": 0
+  {
+    "name": "stat06",
+    "defaultvalue": 0,
+    "displayName": "Paramount War clear progress"
   },
-  "stat07": {
-    "description": "",
-    "value": 0
+  {
+    "name": "stat07",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "stat27": {
-    "description": "",
-    "value": 0
+  {
+    "name": "stat27",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "stat29": {
-    "description": "",
-    "value": 0
+  {
+    "name": "stat29",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "stat30": {
-    "description": "",
-    "value": 0
+  {
+    "name": "stat30",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "stat33": {
-    "description": "",
-    "value": 0
+  {
+    "name": "stat33",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "stat34": {
-    "description": "",
-    "value": 0
+  {
+    "name": "stat34",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "stat39": {
-    "description": "",
-    "value": 0
+  {
+    "name": "stat39",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "stat40": {
-    "description": "",
-    "value": 0
+  {
+    "name": "stat40",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "stat41": {
-    "description": "",
-    "value": 0
+  {
+    "name": "stat41",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "stat42": {
-    "description": "",
-    "value": 0
+  {
+    "name": "stat42",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "stat43": {
-    "description": "",
-    "value": 0
+  {
+    "name": "stat43",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "stat44": {
-    "description": "",
-    "value": 0
+  {
+    "name": "stat44",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "stat45": {
-    "description": "",
-    "value": 0
+  {
+    "name": "stat45",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "stat46": {
-    "description": "",
-    "value": 0
+  {
+    "name": "stat46",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "stat47": {
-    "description": "Number of enemies defeated",
-    "value": 0
+  {
+    "name": "stat47",
+    "defaultvalue": 0,
+    "displayName": "Number of enemies defeated"
   },
-  "stat48": {
-    "description": "",
-    "value": 0
+  {
+    "name": "stat48",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "stat49": {
-    "description": "Cumulative Beli earned",
-    "value": 0
+  {
+    "name": "stat49",
+    "defaultvalue": 0,
+    "displayName": "Cumulative Beli earned"
   },
-  "prog": {
-    "description": "Game Progress",
-    "value": 0
+  {
+    "name": "prog",
+    "defaultvalue": 0,
+    "displayName": "Game Progress"
   }
-}
+]

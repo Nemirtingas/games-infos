@@ -20,11 +20,6 @@
     "displayName": ""
   },
   {
-    "name": "zoneMechsUsed",
-    "defaultvalue": 0,
-    "displayName": ""
-  },
-  {
     "name": "blocksDestroyed",
     "defaultvalue": 0,
     "displayName": ""
@@ -76,6 +71,26 @@
   },
   {
     "name": "blocksBuilt",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "unitTypesBuilt",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "maxProduction",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "sectorsControlled",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "schematicsCreated",
     "defaultvalue": 0,
     "displayName": ""
   }

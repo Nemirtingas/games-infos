@@ -1,54 +1,67 @@
-﻿{
-  "NumEvades": {
-    "description": "闪避次数",
-    "value": 0
+[
+  {
+    "name": "NumEvades",
+    "defaultvalue": 0,
+    "displayName": "闪避次数"
   },
-  "NumEvadeStrikes": {
-    "description": "闪避反击次数",
-    "value": 0
+  {
+    "name": "NumEvadeStrikes",
+    "defaultvalue": 0,
+    "displayName": "闪避反击次数"
   },
-  "NumBlocks": {
-    "description": "破招次数",
-    "value": 0
+  {
+    "name": "NumBlocks",
+    "defaultvalue": 0,
+    "displayName": "破招次数"
   },
-  "NumBlockBullets": {
-    "description": "破招弹丸次数",
-    "value": 0
+  {
+    "name": "NumBlockBullets",
+    "defaultvalue": 0,
+    "displayName": "破招弹丸次数"
   },
-  "NumDeathes": {
-    "description": "总死亡次数",
-    "value": 0
+  {
+    "name": "NumDeathes",
+    "defaultvalue": 0,
+    "displayName": "总死亡次数"
   },
-  "NumHealCount": {
-    "description": "总治疗次数",
-    "value": 0
+  {
+    "name": "NumHealCount",
+    "defaultvalue": 0,
+    "displayName": "总治疗次数"
   },
-  "NumHealAmount": {
-    "description": "总治疗量",
-    "value": 0
+  {
+    "name": "NumHealAmount",
+    "defaultvalue": 0,
+    "displayName": "总治疗量"
   },
-  "NumExSupplies": {
-    "description": "总超额补给次数",
-    "value": 0
+  {
+    "name": "NumExSupplies",
+    "defaultvalue": 0,
+    "displayName": "总超额补给次数"
   },
-  "NumTotalDamage": {
-    "description": "总伤害量",
-    "value": 0
+  {
+    "name": "NumTotalDamage",
+    "defaultvalue": 0,
+    "displayName": "总伤害量"
   },
-  "NumTotalSouls": {
-    "description": "累计获取灵力",
-    "value": 0
+  {
+    "name": "NumTotalSouls",
+    "defaultvalue": 0,
+    "displayName": "累计获取灵力"
   },
-  "NumTotalDispels": {
-    "description": "累计驱魔数量",
-    "value": 0
+  {
+    "name": "NumTotalDispels",
+    "defaultvalue": 0,
+    "displayName": "累计驱魔数量"
   },
-  "NumSlaughterAttacks": {
-    "description": "累计斩的次数",
-    "value": 0
+  {
+    "name": "NumSlaughterAttacks",
+    "defaultvalue": 0,
+    "displayName": "累计斩的次数"
   },
-  "NumFatalAttacks": {
-    "description": "累计蓄力攻击次数",
-    "value": 0
+  {
+    "name": "NumFatalAttacks",
+    "defaultvalue": 0,
+    "displayName": "累计蓄力攻击次数"
   }
-}
+]

@@ -1,38 +1,47 @@
-﻿{
-  "nVanishers": {
-    "description": "Vanishers",
-    "value": 0
+[
+  {
+    "name": "nVanishers",
+    "defaultvalue": 0,
+    "displayName": "Vanishers"
   },
-  "nMinusman": {
-    "description": "Minusman",
-    "value": 0
+  {
+    "name": "nMinusman",
+    "defaultvalue": 0,
+    "displayName": "Minusman"
   },
-  "nPlusman": {
-    "description": "Plusman",
-    "value": 0
+  {
+    "name": "nPlusman",
+    "defaultvalue": 0,
+    "displayName": "Plusman"
   },
-  "ngtFlags": {
-    "description": "gtFlags",
-    "value": 0
+  {
+    "name": "ngtFlags",
+    "defaultvalue": 0,
+    "displayName": "gtFlags"
   },
-  "nSnakeEyes": {
-    "description": "SnakeEyes",
-    "value": 0
+  {
+    "name": "nSnakeEyes",
+    "defaultvalue": 0,
+    "displayName": "SnakeEyes"
   },
-  "nNInARow": {
-    "description": "NInARow",
-    "value": 0
+  {
+    "name": "nNInARow",
+    "defaultvalue": 0,
+    "displayName": "NInARow"
   },
-  "nKickstart": {
-    "description": "Kickstart",
-    "value": 0
+  {
+    "name": "nKickstart",
+    "defaultvalue": 0,
+    "displayName": "Kickstart"
   },
-  "nJokerDices": {
-    "description": "JokerDices",
-    "value": 0
+  {
+    "name": "nJokerDices",
+    "defaultvalue": 0,
+    "displayName": "JokerDices"
   },
-  "nMinuteman": {
-    "description": "Minuteman",
-    "value": 0
+  {
+    "name": "nMinuteman",
+    "defaultvalue": 0,
+    "displayName": "Minuteman"
   }
-}
+]

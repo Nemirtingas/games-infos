@@ -1,130 +1,162 @@
-﻿{
-  "stat_CommunityTracksCompleted": {
-    "description": "Community Tracks Completed",
-    "value": 0
+[
+  {
+    "name": "stat_CommunityTracksCompleted",
+    "defaultvalue": 0,
+    "displayName": "Community Tracks Completed"
   },
-  "stat_ViewedCredits": {
-    "description": "",
-    "value": 0
+  {
+    "name": "stat_ViewedCredits",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "stat_CommunityTracksRated": {
-    "description": "Community Tracks Rated",
-    "value": 0
+  {
+    "name": "stat_CommunityTracksRated",
+    "defaultvalue": 0,
+    "displayName": "Community Tracks Rated"
   },
-  "stat_PedestriansHarmed": {
-    "description": "Pedestrians Harmed",
-    "value": 0
+  {
+    "name": "stat_PedestriansHarmed",
+    "defaultvalue": 0,
+    "displayName": "Pedestrians Harmed"
   },
-  "stat_PassengersKilledOrMaimed": {
-    "description": "Passengers Killed/Maimed",
-    "value": 0
+  {
+    "name": "stat_PassengersKilledOrMaimed",
+    "defaultvalue": 0,
+    "displayName": "Passengers Killed/Maimed"
   },
-  "stat_ChildrenKilledOrMaimed": {
-    "description": "Children Killed/Maimed",
-    "value": 0
+  {
+    "name": "stat_ChildrenKilledOrMaimed",
+    "defaultvalue": 0,
+    "displayName": "Children Killed/Maimed"
   },
-  "stat_OwnChildKilledOrMaimed": {
-    "description": "Own Child Killed/Maimed",
-    "value": 0
+  {
+    "name": "stat_OwnChildKilledOrMaimed",
+    "defaultvalue": 0,
+    "displayName": "Own Child Killed/Maimed"
   },
-  "stat_TracksCompletedWithZeroInjuries": {
-    "description": "Tracks Completed with Zero Injuries",
-    "value": 0
+  {
+    "name": "stat_TracksCompletedWithZeroInjuries",
+    "defaultvalue": 0,
+    "displayName": "Tracks Completed with Zero Injuries"
   },
-  "stat_HeadshotsTaken": {
-    "description": "Headshots Taken",
-    "value": 0
+  {
+    "name": "stat_HeadshotsTaken",
+    "defaultvalue": 0,
+    "displayName": "Headshots Taken"
   },
-  "stat_OutOfBounds": {
-    "description": "Off the Map",
-    "value": 0
+  {
+    "name": "stat_OutOfBounds",
+    "defaultvalue": 0,
+    "displayName": "Off the Map"
   },
-  "stat_NightLevelsCompleted": {
-    "description": "",
-    "value": 0
+  {
+    "name": "stat_NightLevelsCompleted",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "stat_TrackGroup_1": {
-    "description": "",
-    "value": 0
+  {
+    "name": "stat_TrackGroup_1",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "stat_TrackGroup_2": {
-    "description": "",
-    "value": 0
+  {
+    "name": "stat_TrackGroup_2",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "stat_TrackGroup_3": {
-    "description": "",
-    "value": 0
+  {
+    "name": "stat_TrackGroup_3",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "stat_TrackGroup_4": {
-    "description": "",
-    "value": 0
+  {
+    "name": "stat_TrackGroup_4",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "stat_TrackGroup_5": {
-    "description": "",
-    "value": 0
+  {
+    "name": "stat_TrackGroup_5",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "stat_TrackGroup_6": {
-    "description": "",
-    "value": 0
+  {
+    "name": "stat_TrackGroup_6",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "stat_TrackGroup_7": {
-    "description": "",
-    "value": 0
+  {
+    "name": "stat_TrackGroup_7",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "stat_TrackGroup_8": {
-    "description": "",
-    "value": 0
+  {
+    "name": "stat_TrackGroup_8",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "stat_TrackGroup_9": {
-    "description": "",
-    "value": 0
+  {
+    "name": "stat_TrackGroup_9",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "stat_TrackGroup_10": {
-    "description": "",
-    "value": 0
+  {
+    "name": "stat_TrackGroup_10",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "stat_ClassCTracksCompleted": {
-    "description": "",
-    "value": 0
+  {
+    "name": "stat_ClassCTracksCompleted",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "stat_HiddenHoGCounter": {
-    "description": "",
-    "value": 0
+  {
+    "name": "stat_HiddenHoGCounter",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "stat_ClassFTracksCompleted": {
-    "description": "",
-    "value": 0
+  {
+    "name": "stat_ClassFTracksCompleted",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "stat_RetroTrackCompleted": {
-    "description": "",
-    "value": 0
+  {
+    "name": "stat_RetroTrackCompleted",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "stat_GloryGauntlet_1": {
-    "description": "",
-    "value": 0
+  {
+    "name": "stat_GloryGauntlet_1",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "stat_GloryGauntlet_2": {
-    "description": "",
-    "value": 0
+  {
+    "name": "stat_GloryGauntlet_2",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "stat_GloryGauntlet_3": {
-    "description": "",
-    "value": 0
+  {
+    "name": "stat_GloryGauntlet_3",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "stat_GloryGauntlet_4": {
-    "description": "",
-    "value": 0
+  {
+    "name": "stat_GloryGauntlet_4",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "stat_GloryGauntlet_5": {
-    "description": "",
-    "value": 0
+  {
+    "name": "stat_GloryGauntlet_5",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "stat_GloryGauntlet_6": {
-    "description": "",
-    "value": 0
+  {
+    "name": "stat_GloryGauntlet_6",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "stat_GloryGauntlet_7": {
-    "description": "",
-    "value": 0
+  {
+    "name": "stat_GloryGauntlet_7",
+    "defaultvalue": 0,
+    "displayName": ""
   }
-}
+]

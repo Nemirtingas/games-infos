@@ -1,54 +1,67 @@
-﻿{
-  "MailOpenCount": {
-    "description": "",
-    "value": 0
+[
+  {
+    "name": "MailOpenCount",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "UnlockTrophyCount": {
-    "description": "",
-    "value": 0
+  {
+    "name": "UnlockTrophyCount",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "sMissionClearCount": {
-    "description": "",
-    "value": 0
+  {
+    "name": "sMissionClearCount",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "sMissionLegendCount": {
-    "description": "",
-    "value": 0
+  {
+    "name": "sMissionLegendCount",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "sMissionExLegendCount": {
-    "description": "",
-    "value": 0
+  {
+    "name": "sMissionExLegendCount",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "BuildedCount": {
-    "description": "",
-    "value": 0
+  {
+    "name": "BuildedCount",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "DocumentOpenCount": {
-    "description": "",
-    "value": 0
+  {
+    "name": "DocumentOpenCount",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "HighestPorterGrade": {
-    "description": "",
-    "value": 0
+  {
+    "name": "HighestPorterGrade",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "DeliveredBaggageNum": {
-    "description": "",
-    "value": 0
+  {
+    "name": "DeliveredBaggageNum",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "DeliveredBaggageWeight": {
-    "description": "",
-    "value": 0
+  {
+    "name": "DeliveredBaggageWeight",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "MigrationLength": {
-    "description": "",
-    "value": 0
+  {
+    "name": "MigrationLength",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "MaxBuildedCount": {
-    "description": "",
-    "value": 0
+  {
+    "name": "MaxBuildedCount",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "FabricatedCount": {
-    "description": "",
-    "value": 0
+  {
+    "name": "FabricatedCount",
+    "defaultvalue": 0,
+    "displayName": ""
   }
-}
+]

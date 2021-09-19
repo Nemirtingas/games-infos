@@ -1,22 +1,27 @@
-﻿{
-  "stat_level_played": {
-    "description": "Number of levels played",
-    "value": 0
+[
+  {
+    "name": "stat_level_played",
+    "defaultvalue": 0,
+    "displayName": "Number of levels played"
   },
-  "stat_owls_slayed": {
-    "description": "Number of owls slayed",
-    "value": 0
+  {
+    "name": "stat_owls_slayed",
+    "defaultvalue": 0,
+    "displayName": "Number of owls slayed"
   },
-  "stat_challenges_completed": {
-    "description": "Number of challenges completed",
-    "value": 0
+  {
+    "name": "stat_challenges_completed",
+    "defaultvalue": 0,
+    "displayName": "Number of challenges completed"
   },
-  "stat_stars_collected": {
-    "description": "Number of stars collected",
-    "value": 0
+  {
+    "name": "stat_stars_collected",
+    "defaultvalue": 0,
+    "displayName": "Number of stars collected"
   },
-  "stat_targets_hit": {
-    "description": "Tagets hit",
-    "value": 0
+  {
+    "name": "stat_targets_hit",
+    "defaultvalue": 0,
+    "displayName": "Tagets hit"
   }
-}
+]

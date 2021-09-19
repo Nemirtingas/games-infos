@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "name": "MyAchievment_ColorBlind",
     "defaultvalue": 0,
@@ -259,5 +259,14 @@
     "description": "Befriend 3 factions; earning trust always pays well in the future.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/244850/1f898ef41f2cc3d10246fcf1668f8ae5c83acc1c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/244850/22d7f7f7ff5db266ad2f2216d1bc2425c65ccc0f.jpg"
+  },
+  {
+    "name": "MyAchievement_PlayingItCool",
+    "defaultvalue": 0,
+    "displayName": "Playing it cool",
+    "hidden": 0,
+    "description": "Complete the Frostbite scenario",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/244850/f842f81f6bfc19a0b94270245aa03dd14fb33e56.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/244850/9110627c8d345d8956895f88d7d978b12b9dcc82.jpg"
   }
 ]

@@ -1,202 +1,252 @@
-﻿{
-  "SoldHouses": {
-    "description": "Sold Houses",
-    "value": 0
+[
+  {
+    "name": "SoldHouses",
+    "defaultvalue": 0,
+    "displayName": "Sold Houses"
   },
-  "stat_X": {
-    "description": "X",
-    "value": 0
+  {
+    "name": "stat_X",
+    "defaultvalue": 0,
+    "displayName": "X"
   },
-  "stat_Y": {
-    "description": "Y",
-    "value": 0
+  {
+    "name": "stat_Y",
+    "defaultvalue": 0,
+    "displayName": "Y"
   },
-  "stat_Z": {
-    "description": "Z",
-    "value": 0
+  {
+    "name": "stat_Z",
+    "defaultvalue": 0,
+    "displayName": "Z"
   },
-  "HGTV_01_0_Left": {
-    "description": "HGTV_01_0_Left",
-    "value": 0
+  {
+    "name": "HGTV_01_0_Left",
+    "defaultvalue": 0,
+    "displayName": "HGTV_01_0_Left"
   },
-  "HGTV_01_0_Right": {
-    "description": "HGTV_01_0_Right",
-    "value": 0
+  {
+    "name": "HGTV_01_0_Right",
+    "defaultvalue": 0,
+    "displayName": "HGTV_01_0_Right"
   },
-  "HGTV_01_1_Left": {
-    "description": "HGTV_01_1_Left",
-    "value": 0
+  {
+    "name": "HGTV_01_1_Left",
+    "defaultvalue": 0,
+    "displayName": "HGTV_01_1_Left"
   },
-  "HGTV_01_1_Right": {
-    "description": "HGTV_01_1_Right",
-    "value": 0
+  {
+    "name": "HGTV_01_1_Right",
+    "defaultvalue": 0,
+    "displayName": "HGTV_01_1_Right"
   },
-  "HGTV_01_2_Left": {
-    "description": "HGTV_01_2_Left",
-    "value": 0
+  {
+    "name": "HGTV_01_2_Left",
+    "defaultvalue": 0,
+    "displayName": "HGTV_01_2_Left"
   },
-  "HGTV_01_2_Right": {
-    "description": "HGTV_01_2_Right",
-    "value": 0
+  {
+    "name": "HGTV_01_2_Right",
+    "defaultvalue": 0,
+    "displayName": "HGTV_01_2_Right"
   },
-  "HGTV_03_0_Left": {
-    "description": "HGTV_03_0_Left",
-    "value": 0
+  {
+    "name": "HGTV_03_0_Left",
+    "defaultvalue": 0,
+    "displayName": "HGTV_03_0_Left"
   },
-  "HGTV_03_0_Right": {
-    "description": "HGTV_03_0_Right",
-    "value": 0
+  {
+    "name": "HGTV_03_0_Right",
+    "defaultvalue": 0,
+    "displayName": "HGTV_03_0_Right"
   },
-  "HGTV_03_1_Left": {
-    "description": "HGTV_03_1_Left",
-    "value": 0
+  {
+    "name": "HGTV_03_1_Left",
+    "defaultvalue": 0,
+    "displayName": "HGTV_03_1_Left"
   },
-  "HGTV_03_1_Right": {
-    "description": "HGTV_03_1_Right",
-    "value": 0
+  {
+    "name": "HGTV_03_1_Right",
+    "defaultvalue": 0,
+    "displayName": "HGTV_03_1_Right"
   },
-  "HGTV_03_2_Left": {
-    "description": "HGTV_03_2_Left",
-    "value": 0
+  {
+    "name": "HGTV_03_2_Left",
+    "defaultvalue": 0,
+    "displayName": "HGTV_03_2_Left"
   },
-  "HGTV_03_2_Right": {
-    "description": "HGTV_03_2_Right",
-    "value": 0
+  {
+    "name": "HGTV_03_2_Right",
+    "defaultvalue": 0,
+    "displayName": "HGTV_03_2_Right"
   },
-  "HGTV_04_0_Left": {
-    "description": "HGTV_04_0_Left",
-    "value": 0
+  {
+    "name": "HGTV_04_0_Left",
+    "defaultvalue": 0,
+    "displayName": "HGTV_04_0_Left"
   },
-  "HGTV_04_0_Right": {
-    "description": "HGTV_04_0_Right",
-    "value": 0
+  {
+    "name": "HGTV_04_0_Right",
+    "defaultvalue": 0,
+    "displayName": "HGTV_04_0_Right"
   },
-  "HGTV_04_1_Left": {
-    "description": "HGTV_04_1_Left",
-    "value": 0
+  {
+    "name": "HGTV_04_1_Left",
+    "defaultvalue": 0,
+    "displayName": "HGTV_04_1_Left"
   },
-  "HGTV_04_1_Right": {
-    "description": "HGTV_04_1_Right",
-    "value": 0
+  {
+    "name": "HGTV_04_1_Right",
+    "defaultvalue": 0,
+    "displayName": "HGTV_04_1_Right"
   },
-  "HGTV_05_0_Left": {
-    "description": "HGTV_05_0_Left",
-    "value": 0
+  {
+    "name": "HGTV_05_0_Left",
+    "defaultvalue": 0,
+    "displayName": "HGTV_05_0_Left"
   },
-  "HGTV_05_0_Right": {
-    "description": "HGTV_05_0_Right",
-    "value": 0
+  {
+    "name": "HGTV_05_0_Right",
+    "defaultvalue": 0,
+    "displayName": "HGTV_05_0_Right"
   },
-  "HGTV_05_1_Left": {
-    "description": "HGTV_05_1_Left",
-    "value": 0
+  {
+    "name": "HGTV_05_1_Left",
+    "defaultvalue": 0,
+    "displayName": "HGTV_05_1_Left"
   },
-  "HGTV_05_1_Right": {
-    "description": "HGTV_05_1_Right",
-    "value": 0
+  {
+    "name": "HGTV_05_1_Right",
+    "defaultvalue": 0,
+    "displayName": "HGTV_05_1_Right"
   },
-  "HGTV_05_2_Left": {
-    "description": "HGTV_05_2_Left",
-    "value": 0
+  {
+    "name": "HGTV_05_2_Left",
+    "defaultvalue": 0,
+    "displayName": "HGTV_05_2_Left"
   },
-  "HGTV_05_2_Right": {
-    "description": "HGTV_05_2_Right",
-    "value": 0
+  {
+    "name": "HGTV_05_2_Right",
+    "defaultvalue": 0,
+    "displayName": "HGTV_05_2_Right"
   },
-  "HGTV_06_0_Left": {
-    "description": "HGTV_06_0_Left",
-    "value": 0
+  {
+    "name": "HGTV_06_0_Left",
+    "defaultvalue": 0,
+    "displayName": "HGTV_06_0_Left"
   },
-  "HGTV_06_0_Right": {
-    "description": "HGTV_06_0_Right",
-    "value": 0
+  {
+    "name": "HGTV_06_0_Right",
+    "defaultvalue": 0,
+    "displayName": "HGTV_06_0_Right"
   },
-  "HGTV_06_1_Left": {
-    "description": "HGTV_06_1_Left",
-    "value": 0
+  {
+    "name": "HGTV_06_1_Left",
+    "defaultvalue": 0,
+    "displayName": "HGTV_06_1_Left"
   },
-  "HGTV_06_1_Right": {
-    "description": "HGTV_06_1_Right",
-    "value": 0
+  {
+    "name": "HGTV_06_1_Right",
+    "defaultvalue": 0,
+    "displayName": "HGTV_06_1_Right"
   },
-  "HGTV_07_0_Left": {
-    "description": "HGTV_07_0_Left",
-    "value": 0
+  {
+    "name": "HGTV_07_0_Left",
+    "defaultvalue": 0,
+    "displayName": "HGTV_07_0_Left"
   },
-  "HGTV_07_0_Right": {
-    "description": "HGTV_07_0_Right",
-    "value": 0
+  {
+    "name": "HGTV_07_0_Right",
+    "defaultvalue": 0,
+    "displayName": "HGTV_07_0_Right"
   },
-  "HGTV_07_1_Left": {
-    "description": "HGTV_07_1_Left",
-    "value": 0
+  {
+    "name": "HGTV_07_1_Left",
+    "defaultvalue": 0,
+    "displayName": "HGTV_07_1_Left"
   },
-  "HGTV_07_1_Right": {
-    "description": "HGTV_07_1_Right",
-    "value": 0
+  {
+    "name": "HGTV_07_1_Right",
+    "defaultvalue": 0,
+    "displayName": "HGTV_07_1_Right"
   },
-  "HGTV_08_0_Left": {
-    "description": "HGTV_08_0_Left",
-    "value": 0
+  {
+    "name": "HGTV_08_0_Left",
+    "defaultvalue": 0,
+    "displayName": "HGTV_08_0_Left"
   },
-  "HGTV_08_0_Right": {
-    "description": "HGTV_08_0_Right",
-    "value": 0
+  {
+    "name": "HGTV_08_0_Right",
+    "defaultvalue": 0,
+    "displayName": "HGTV_08_0_Right"
   },
-  "HGTV_08_1_Left": {
-    "description": "HGTV_08_1_Left",
-    "value": 0
+  {
+    "name": "HGTV_08_1_Left",
+    "defaultvalue": 0,
+    "displayName": "HGTV_08_1_Left"
   },
-  "HGTV_08_1_Right": {
-    "description": "HGTV_08_1_Right",
-    "value": 0
+  {
+    "name": "HGTV_08_1_Right",
+    "defaultvalue": 0,
+    "displayName": "HGTV_08_1_Right"
   },
-  "HGTV_09_0_Left": {
-    "description": "HGTV_09_0_Left",
-    "value": 0
+  {
+    "name": "HGTV_09_0_Left",
+    "defaultvalue": 0,
+    "displayName": "HGTV_09_0_Left"
   },
-  "HGTV_09_0_Right": {
-    "description": "HGTV_09_0_Right",
-    "value": 0
+  {
+    "name": "HGTV_09_0_Right",
+    "defaultvalue": 0,
+    "displayName": "HGTV_09_0_Right"
   },
-  "HGTV_09_1_Left": {
-    "description": "HGTV_09_1_Left",
-    "value": 0
+  {
+    "name": "HGTV_09_1_Left",
+    "defaultvalue": 0,
+    "displayName": "HGTV_09_1_Left"
   },
-  "HGTV_09_1_Right": {
-    "description": "HGTV_09_1_Right",
-    "value": 0
+  {
+    "name": "HGTV_09_1_Right",
+    "defaultvalue": 0,
+    "displayName": "HGTV_09_1_Right"
   },
-  "HGTV_10_0_Left": {
-    "description": "HGTV_10_0_Left",
-    "value": 0
+  {
+    "name": "HGTV_10_0_Left",
+    "defaultvalue": 0,
+    "displayName": "HGTV_10_0_Left"
   },
-  "HGTV_10_0_Right": {
-    "description": "HGTV_10_0_Right",
-    "value": 0
+  {
+    "name": "HGTV_10_0_Right",
+    "defaultvalue": 0,
+    "displayName": "HGTV_10_0_Right"
   },
-  "HGTV_10_1_Left": {
-    "description": "HGTV_10_1_Left",
-    "value": 0
+  {
+    "name": "HGTV_10_1_Left",
+    "defaultvalue": 0,
+    "displayName": "HGTV_10_1_Left"
   },
-  "HGTV_10_1_Right": {
-    "description": "HGTV_10_1_Right",
-    "value": 0
+  {
+    "name": "HGTV_10_1_Right",
+    "defaultvalue": 0,
+    "displayName": "HGTV_10_1_Right"
   },
-  "HGTV_2_0_Left": {
-    "description": "HGTV_2_0_Left",
-    "value": 0
+  {
+    "name": "HGTV_2_0_Left",
+    "defaultvalue": 0,
+    "displayName": "HGTV_2_0_Left"
   },
-  "HGTV_2_0_Right": {
-    "description": "HGTV_2_0_Right",
-    "value": 0
+  {
+    "name": "HGTV_2_0_Right",
+    "defaultvalue": 0,
+    "displayName": "HGTV_2_0_Right"
   },
-  "HGTV_2_1_Left": {
-    "description": "HGTV_2_1_Left",
-    "value": 0
+  {
+    "name": "HGTV_2_1_Left",
+    "defaultvalue": 0,
+    "displayName": "HGTV_2_1_Left"
   },
-  "HGTV_2_1_Right": {
-    "description": "HGTV_2_1_Right",
-    "value": 0
+  {
+    "name": "HGTV_2_1_Right",
+    "defaultvalue": 0,
+    "displayName": "HGTV_2_1_Right"
   }
-}
+]

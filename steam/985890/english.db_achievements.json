@@ -1,10 +1,10 @@
-﻿[
+[
   {
     "name": "1",
     "defaultvalue": 0,
     "displayName": "All Clear: Axel",
     "hidden": 0,
-    "description": "Complete the campaign in single-player mode as Axel.",
+    "description": "Clear all stages in single-player mode as Axel.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/985890/aa3ecc47c0f578c0fbb5a895a36affcae17e1ebd.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/985890/244448e545194bff4c312b435f5b330eb3acfae1.jpg"
   },
@@ -13,7 +13,7 @@
     "defaultvalue": 0,
     "displayName": "All Clear: Blaze",
     "hidden": 0,
-    "description": "Complete the campaign in single-player mode as Blaze.",
+    "description": "Clear all stages in single-player mode as Blaze.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/985890/fc24462b5b8d8bbec1483e9c2a9dddfaab47309a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/985890/244448e545194bff4c312b435f5b330eb3acfae1.jpg"
   },
@@ -22,7 +22,7 @@
     "defaultvalue": 0,
     "displayName": "All Clear: Cherry",
     "hidden": 0,
-    "description": "Complete the campaign in single-player mode as Cherry.",
+    "description": "Clear all stages in single-player mode as Cherry.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/985890/c94b3654c2b0515582785893e7cd3fc5b6cdd56f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/985890/244448e545194bff4c312b435f5b330eb3acfae1.jpg"
   },
@@ -31,7 +31,7 @@
     "defaultvalue": 0,
     "displayName": "All Clear: Floyd",
     "hidden": 0,
-    "description": "Complete the campaign in single-player mode as Floyd.",
+    "description": "Clear all stages in single-player mode as Floyd.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/985890/092df21c1dedfda1e29fd0d56b13f564fe3c804a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/985890/244448e545194bff4c312b435f5b330eb3acfae1.jpg"
   },
@@ -40,7 +40,7 @@
     "defaultvalue": 0,
     "displayName": "All Clear: Adam",
     "hidden": 0,
-    "description": "Complete the campaign in single-player mode as Adam.",
+    "description": "Clear all stages in single-player mode as Adam.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/985890/52cec8b842043def015ed3352d3261921f67d50e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/985890/244448e545194bff4c312b435f5b330eb3acfae1.jpg"
   },
@@ -324,5 +324,76 @@
     "description": "Break a spear.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/985890/4d75129153b8370af45233dbd70c8468bb47aaf8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/985890/244448e545194bff4c312b435f5b330eb3acfae1.jpg"
+  },
+  {
+    "name": "38",
+    "defaultvalue": 0,
+    "displayName": "All Clear: Estel",
+    "hidden": 0,
+    "description": "Clear all stages in single-player mode as Estel.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/985890/5c630971620583369db4cd884949baa1515d56f6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/985890/735604df971d02180bfec57edc0b5145799a367b.jpg"
+  },
+  {
+    "name": "39",
+    "defaultvalue": 0,
+    "displayName": "All Clear: Shiva",
+    "hidden": 0,
+    "description": "Clear all stages in single-player mode as Shiva.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/985890/72d5da24149cf055f7ca5bdc11906bdc0e355a92.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/985890/735604df971d02180bfec57edc0b5145799a367b.jpg"
+  },
+  {
+    "name": "40",
+    "defaultvalue": 0,
+    "displayName": "All Clear: Max",
+    "hidden": 0,
+    "description": "Clear all stages in single-player mode as Max.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/985890/19f193f829ee952ff70c677ef4f628bce58ed777.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/985890/735604df971d02180bfec57edc0b5145799a367b.jpg"
+  },
+  {
+    "name": "41",
+    "defaultvalue": 0,
+    "displayName": "Clown Wars",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/985890/11cc0ed14ce354d1679f0ac1b0105ef5b477d2a4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/985890/735604df971d02180bfec57edc0b5145799a367b.jpg"
+  },
+  {
+    "name": "42",
+    "defaultvalue": 0,
+    "displayName": "Ultimate Warrior",
+    "hidden": 0,
+    "description": "Unlock all alternate moves for one character.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/985890/37cab3050ac91d72690a1c637729cbaf0646da94.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/985890/735604df971d02180bfec57edc0b5145799a367b.jpg"
+  },
+  {
+    "name": "43",
+    "defaultvalue": 0,
+    "displayName": "The Possibilities Are Endless",
+    "hidden": 0,
+    "description": "Unlock all alternate moves.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/985890/caa4156c5ce03333bff00cc92729263dac065b88.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/985890/735604df971d02180bfec57edc0b5145799a367b.jpg"
+  },
+  {
+    "name": "44",
+    "defaultvalue": 0,
+    "displayName": "Phantom in the Hull",
+    "hidden": 0,
+    "description": "Reach level 18 in survival mode.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/985890/6c55f0a064f73d9bd2406609f1afe912b74a219b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/985890/735604df971d02180bfec57edc0b5145799a367b.jpg"
+  },
+  {
+    "name": "45",
+    "defaultvalue": 0,
+    "displayName": "I Am the One",
+    "hidden": 0,
+    "description": "Reach level 30 in survival mode.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/985890/eedeccb86ec0b4dead988fbee8adb641460bf435.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/985890/735604df971d02180bfec57edc0b5145799a367b.jpg"
   }
 ]

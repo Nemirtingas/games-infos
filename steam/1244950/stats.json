@@ -1,34 +1,42 @@
-﻿{
-  "STAT_BLOCKS_BROKEN": {
-    "description": "",
-    "value": 0
+[
+  {
+    "name": "STAT_BLOCKS_BROKEN",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "STAT_ENEMIES_DEFEATED": {
-    "description": "",
-    "value": 0
+  {
+    "name": "STAT_ENEMIES_DEFEATED",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "STAT_ABILITIES_USED": {
-    "description": "",
-    "value": 0
+  {
+    "name": "STAT_ABILITIES_USED",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "STATS_ENEMIES_DEFEATED_MORPH": {
-    "description": "",
-    "value": 0
+  {
+    "name": "STATS_ENEMIES_DEFEATED_MORPH",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "STATS_ENEMIES_DEFEATED_SPACE": {
-    "description": "",
-    "value": 0
+  {
+    "name": "STATS_ENEMIES_DEFEATED_SPACE",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "STATS_COLLECTABLES_FOUND": {
-    "description": "",
-    "value": 0
+  {
+    "name": "STATS_COLLECTABLES_FOUND",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "STAT_A_RANK_COUNT": {
-    "description": "",
-    "value": 0
+  {
+    "name": "STAT_A_RANK_COUNT",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "STAT_NEAR_MISSES_BIKE": {
-    "description": "",
-    "value": 0
+  {
+    "name": "STAT_NEAR_MISSES_BIKE",
+    "defaultvalue": 0,
+    "displayName": ""
   }
-}
+]

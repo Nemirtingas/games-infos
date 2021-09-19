@@ -1,10 +1,12 @@
-﻿{
-  "STAT_FOUNDER": {
-    "description": "Founder",
-    "value": 0
+[
+  {
+    "name": "STAT_FOUNDER",
+    "defaultvalue": 0,
+    "displayName": "Founder"
   },
-  "STAT_HALLOWEEN": {
-    "description": "Halloween",
-    "value": 0
+  {
+    "name": "STAT_HALLOWEEN",
+    "defaultvalue": 0,
+    "displayName": "Halloween"
   }
-}
+]

@@ -1,98 +1,132 @@
-﻿{
-  "Score_Score": {
-    "description": "My Scores",
-    "value": 0
+[
+  {
+    "name": "Score_Score",
+    "defaultvalue": 0,
+    "displayName": "My Scores"
   },
-  "Wins_Wins": {
-    "description": "My Wins",
-    "value": 0
+  {
+    "name": "Wins_Wins",
+    "defaultvalue": 0,
+    "displayName": "My Wins"
   },
-  "Loses_Loses": {
-    "description": "My Loses",
-    "value": 0
+  {
+    "name": "Loses_Loses",
+    "defaultvalue": 0,
+    "displayName": "My Loses"
   },
-  "Kills_Kills": {
-    "description": "My Kills",
-    "value": 0
+  {
+    "name": "Kills_Kills",
+    "defaultvalue": 0,
+    "displayName": "My Kills"
   },
-  "TEST Achievement": {
-    "description": "TEST Achievement Progres",
-    "value": 0
+  {
+    "name": "TEST Achievement",
+    "defaultvalue": 0,
+    "displayName": "TEST Achievement Progres"
   },
-  "Acoin": {
-    "description": "My Acoin",
-    "value": 0
+  {
+    "name": "Acoin",
+    "defaultvalue": 0,
+    "displayName": "My Acoin"
   },
-  "VAR_ACH_HOLE": {
-    "description": "",
-    "value": 0
+  {
+    "name": "VAR_ACH_HOLE",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "VAR_ACH_HELLO_KITTY": {
-    "description": "",
-    "value": 0
+  {
+    "name": "VAR_ACH_HELLO_KITTY",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "VAR_ACH_EASY_WAY": {
-    "description": "",
-    "value": 0
+  {
+    "name": "VAR_ACH_EASY_WAY",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "VAR_ACH_PULL_CAT": {
-    "description": "",
-    "value": 0
+  {
+    "name": "VAR_ACH_PULL_CAT",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "VAR_ACH_CROWBAR": {
-    "description": "",
-    "value": 0
+  {
+    "name": "VAR_ACH_CROWBAR",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "VAR_ACH_UHU": {
-    "description": "",
-    "value": 0
+  {
+    "name": "VAR_ACH_UHU",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "VAR_ACH_KEEP_OUT": {
-    "description": "",
-    "value": 0
+  {
+    "name": "VAR_ACH_KEEP_OUT",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "VAR_ACH_ADVANCED_USER": {
-    "description": "",
-    "value": 0
+  {
+    "name": "VAR_ACH_ADVANCED_USER",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "VAR_ACH_FLY": {
-    "description": "",
-    "value": 0
+  {
+    "name": "VAR_ACH_FLY",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "VAR_ACH_NOT_READY": {
-    "description": "",
-    "value": 0
+  {
+    "name": "VAR_ACH_NOT_READY",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "VAR_ACH_WILD_WEST": {
-    "description": "",
-    "value": 0
+  {
+    "name": "VAR_ACH_WILD_WEST",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "VAR_ACH_COINS": {
-    "description": "",
-    "value": 0
+  {
+    "name": "VAR_ACH_COINS",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "VAR_ACH_GAME_OVER": {
-    "description": "",
-    "value": 0
+  {
+    "name": "VAR_ACH_GAME_OVER",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "VAR_ACH_SHORT_CIRCUIT": {
-    "description": "",
-    "value": 0
+  {
+    "name": "VAR_ACH_SHORT_CIRCUIT",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "VAR_ACH_RESCURE": {
-    "description": "",
-    "value": 0
+  {
+    "name": "VAR_ACH_RESCURE",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "VAR_ACH_GET_OUT": {
-    "description": "",
-    "value": 0
+  {
+    "name": "VAR_ACH_GET_OUT",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "VAR_ACH_GOTCHA": {
-    "description": "",
-    "value": 0
+  {
+    "name": "VAR_ACH_GOTCHA",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "VAR_ACH_ACOIN": {
-    "description": "",
-    "value": 0
+  {
+    "name": "VAR_ACH_ACOIN",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "VAR_ACH_MINIGAMEGIFT",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "VAR_ACH_MINIGAMEDEATH",
+    "defaultvalue": 0,
+    "displayName": ""
   }
-}
+]

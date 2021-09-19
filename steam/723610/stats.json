@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "name": "GamesPlayed_GamesPlayed",
     "defaultvalue": 0,
@@ -93,5 +93,25 @@
     "name": "UnderParTowerArcade_UnderParTowerArcade",
     "defaultvalue": 0,
     "displayName": "Tower Course - Total Games Under Par ARCADE MODE"
+  },
+  {
+    "name": "SnowCourseStrokes_SnowCourseStrokes",
+    "defaultvalue": 0,
+    "displayName": "Snow Course - Skill Rank Percentile"
+  },
+  {
+    "name": "UnderParSnow_UnderParSnow",
+    "defaultvalue": 0,
+    "displayName": "Snow Course - Total Games Under Par"
+  },
+  {
+    "name": "UnderParSnowHard_UnderParSnowHard",
+    "defaultvalue": 0,
+    "displayName": "Snow Course - Total Games Under Par HARD MODE"
+  },
+  {
+    "name": "UnderParSnowArcade_UnderParSnowArcade",
+    "defaultvalue": 0,
+    "displayName": "Snow Course - Total Games Under Par ARCADE MODE"
   }
 ]

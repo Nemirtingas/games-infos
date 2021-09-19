@@ -1,102 +1,132 @@
-﻿{
-  "stat_EnemyStunCount": {
-    "description": "",
-    "value": 0
+[
+  {
+    "name": "stat_EnemyStunCount",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "stat_CivilRescueCount": {
-    "description": "",
-    "value": 0
+  {
+    "name": "stat_CivilRescueCount",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "stat_OpenChestCount": {
-    "description": "",
-    "value": 0
+  {
+    "name": "stat_OpenChestCount",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "stat_ItemIdentifyCount": {
-    "description": "",
-    "value": 0
+  {
+    "name": "stat_ItemIdentifyCount",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "stat_NoOutOfActionCount": {
-    "description": "",
-    "value": 0
+  {
+    "name": "stat_NoOutOfActionCount",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "stat_KillEpicCount": {
-    "description": "",
-    "value": 0
+  {
+    "name": "stat_KillEpicCount",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "stat_KillLegendCount": {
-    "description": "",
-    "value": 0
+  {
+    "name": "stat_KillLegendCount",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "stat_ItemDismantleCount": {
-    "description": "",
-    "value": 0
+  {
+    "name": "stat_ItemDismantleCount",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "stat_ItemUpgradeCount": {
-    "description": "",
-    "value": 0
+  {
+    "name": "stat_ItemUpgradeCount",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "stat_TechniqueResearchCount": {
-    "description": "",
-    "value": 0
+  {
+    "name": "stat_TechniqueResearchCount",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "stat_PsionicStoneGetCount": {
-    "description": "",
-    "value": 0
+  {
+    "name": "stat_PsionicStoneGetCount",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "stat_ItemCraftCount": {
-    "description": "",
-    "value": 0
+  {
+    "name": "stat_ItemCraftCount",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "stat_EpicItemCraftCount": {
-    "description": "",
-    "value": 0
+  {
+    "name": "stat_EpicItemCraftCount",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "stat_FlashAuraDodgeCount": {
-    "description": "",
-    "value": 0
+  {
+    "name": "stat_FlashAuraDodgeCount",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "stat_WildLifeBlockDebuffCount": {
-    "description": "",
-    "value": 0
+  {
+    "name": "stat_WildLifeBlockDebuffCount",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "stat_ExchangeOfEquivalentsCount": {
-    "description": "",
-    "value": 0
+  {
+    "name": "stat_ExchangeOfEquivalentsCount",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "stat_LuckCount": {
-    "description": "",
-    "value": 0
+  {
+    "name": "stat_LuckCount",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "stat_ConcealCount": {
-    "description": "",
-    "value": 0
+  {
+    "name": "stat_ConcealCount",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "stat_MissionClearWithBeastCount": {
-    "description": "",
-    "value": 0
+  {
+    "name": "stat_MissionClearWithBeastCount",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "stat_TamingCount": {
-    "description": "",
-    "value": 0
+  {
+    "name": "stat_TamingCount",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "stat_TrapUseCount": {
-    "description": "",
-    "value": 0
+  {
+    "name": "stat_TrapUseCount",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "stat_ProtocolCount": {
-    "description": "",
-    "value": 0
+  {
+    "name": "stat_ProtocolCount",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "stat_PerformanceFinishCount": {
-    "description": "",
-    "value": 0
+  {
+    "name": "stat_PerformanceFinishCount",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "stat_FoodSetEffectCount": {
-    "description": "",
-    "value": 0
+  {
+    "name": "stat_FoodSetEffectCount",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "stat_HackingSuccessCount": {
-    "description": "",
-    "value": 0
+  {
+    "name": "stat_HackingSuccessCount",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "stat_FakeEyeSuccessCount",
+    "defaultvalue": 0,
+    "displayName": ""
   }
-}
+]

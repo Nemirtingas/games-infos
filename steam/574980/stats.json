@@ -1,54 +1,72 @@
-﻿{
-  "STAT_TRUESKILL_MU": {
-    "description": "",
-    "value": 0
+[
+  {
+    "name": "STAT_TRUESKILL_MU",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "STAT_TRUESKILL_SIGMA": {
-    "description": "",
-    "value": 0
+  {
+    "name": "STAT_TRUESKILL_SIGMA",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "STAT_WINS": {
-    "description": "",
-    "value": 0
+  {
+    "name": "STAT_WINS",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "CASUAL_POINTS": {
-    "description": "CasualScore",
-    "value": 1
+  {
+    "name": "CASUAL_POINTS",
+    "defaultvalue": 1,
+    "displayName": "CasualScore"
   },
-  "GLICKO_RATING": {
-    "description": "GLICKO_RATING",
-    "value": 0
+  {
+    "name": "GLICKO_RATING",
+    "defaultvalue": 0,
+    "displayName": "GLICKO_RATING"
   },
-  "GLICKO_DEVIATION": {
-    "description": "GLICKO_DEVIATION",
-    "value": 0
+  {
+    "name": "GLICKO_DEVIATION",
+    "defaultvalue": 0,
+    "displayName": "GLICKO_DEVIATION"
   },
-  "GLICKO_VOLATILITY": {
-    "description": "GLICKO_VOLATILITY",
-    "value": 0
+  {
+    "name": "GLICKO_VOLATILITY",
+    "defaultvalue": 0,
+    "displayName": "GLICKO_VOLATILITY"
   },
-  "DISCONNECTS": {
-    "description": "DISCONNECTS",
-    "value": 0
+  {
+    "name": "DISCONNECTS",
+    "defaultvalue": 0,
+    "displayName": "DISCONNECTS"
   },
-  "CASUAL_POINTS_V2": {
-    "description": "CasualScoreV2",
-    "value": 1
+  {
+    "name": "CASUAL_POINTS_V2",
+    "defaultvalue": 1,
+    "displayName": "CasualScoreV2"
   },
-  "GLICKO_RATING_V2": {
-    "description": "GLICKO_RATING_V2",
-    "value": 0
+  {
+    "name": "GLICKO_RATING_V2",
+    "defaultvalue": 0,
+    "displayName": "GLICKO_RATING_V2"
   },
-  "GLICKO_DEVIATION_V2": {
-    "description": "GLICKO_DEVIATION_V2",
-    "value": 0
+  {
+    "name": "GLICKO_DEVIATION_V2",
+    "defaultvalue": 0,
+    "displayName": "GLICKO_DEVIATION_V2"
   },
-  "GLICKO_VOLATILITY_V2": {
-    "description": "GLICKO_VOLATILITY_V2",
-    "value": 0
+  {
+    "name": "GLICKO_VOLATILITY_V2",
+    "defaultvalue": 0,
+    "displayName": "GLICKO_VOLATILITY_V2"
   },
-  "CASUAL_SALT": {
-    "description": "CASUAL_SALT",
-    "value": 0
+  {
+    "name": "CASUAL_SALT",
+    "defaultvalue": 0,
+    "displayName": "CASUAL_SALT"
+  },
+  {
+    "name": "CASUAL_POINTS_V3",
+    "defaultvalue": 1,
+    "displayName": "CasualScoreV3"
   }
-}
+]

@@ -1,46 +1,57 @@
-﻿{
-  "FAILED_PAUSES": {
-    "description": "Failed Pauses",
-    "value": 0
+[
+  {
+    "name": "FAILED_PAUSES",
+    "defaultvalue": 0,
+    "displayName": "Failed Pauses"
   },
-  "STEPS_TAKEN": {
-    "description": "Steps Taken",
-    "value": 0
+  {
+    "name": "STEPS_TAKEN",
+    "defaultvalue": 0,
+    "displayName": "Steps Taken"
   },
-  "GAMES_PLAYED": {
-    "description": "Games Played",
-    "value": 0
+  {
+    "name": "GAMES_PLAYED",
+    "defaultvalue": 0,
+    "displayName": "Games Played"
   },
-  "TIMES_KILLED": {
-    "description": "Times Killed",
-    "value": 0
+  {
+    "name": "TIMES_KILLED",
+    "defaultvalue": 0,
+    "displayName": "Times Killed"
   },
-  "PAGES_COLLECTED": {
-    "description": "Pages Collected",
-    "value": 0
+  {
+    "name": "PAGES_COLLECTED",
+    "defaultvalue": 0,
+    "displayName": "Pages Collected"
   },
-  "INTRO_TIMES_PLAYED": {
-    "description": "Level 1 - Intro: Times Played",
-    "value": 0
+  {
+    "name": "INTRO_TIMES_PLAYED",
+    "defaultvalue": 0,
+    "displayName": "Level 1 - Intro: Times Played"
   },
-  "FOREST_TIMES_PLAYED": {
-    "description": "Level 2 - The Eight Pages: Times Played",
-    "value": 0
+  {
+    "name": "FOREST_TIMES_PLAYED",
+    "defaultvalue": 0,
+    "displayName": "Level 2 - The Eight Pages: Times Played"
   },
-  "FACILITY_TIMES_PLAYED": {
-    "description": "Level 3 - Into the Abyss: Times Played",
-    "value": 0
+  {
+    "name": "FACILITY_TIMES_PLAYED",
+    "defaultvalue": 0,
+    "displayName": "Level 3 - Into the Abyss: Times Played"
   },
-  "FLASHBACK_TIMES_PLAYED": {
-    "description": "Level 4 - Flashback: Times Played",
-    "value": 0
+  {
+    "name": "FLASHBACK_TIMES_PLAYED",
+    "defaultvalue": 0,
+    "displayName": "Level 4 - Flashback: Times Played"
   },
-  "MOUNTAINS_TIMES_PLAYED": {
-    "description": "Level 5 - The Arrival: Times Played",
-    "value": 0
+  {
+    "name": "MOUNTAINS_TIMES_PLAYED",
+    "defaultvalue": 0,
+    "displayName": "Level 5 - The Arrival: Times Played"
   },
-  "GENESIS_TIMES_PLAYED": {
-    "description": "Genesis: Times Played",
-    "value": 0
+  {
+    "name": "GENESIS_TIMES_PLAYED",
+    "defaultvalue": 0,
+    "displayName": "Genesis: Times Played"
   }
-}
+]

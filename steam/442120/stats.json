@@ -1,150 +1,187 @@
-﻿{
-  "GamePlayed": {
-    "description": "Game Played",
-    "value": 0
+[
+  {
+    "name": "GamePlayed",
+    "defaultvalue": 0,
+    "displayName": "Game Played"
   },
-  "Users": {
-    "description": "Number of users",
-    "value": 0
+  {
+    "name": "Users",
+    "defaultvalue": 0,
+    "displayName": "Number of users"
   },
-  "TablesPlayed": {
-    "description": "Tables Played",
-    "value": 0
+  {
+    "name": "TablesPlayed",
+    "defaultvalue": 0,
+    "displayName": "Tables Played"
   },
-  "TablesTrialPlayed": {
-    "description": "Trial tables played",
-    "value": 0
+  {
+    "name": "TablesTrialPlayed",
+    "defaultvalue": 0,
+    "displayName": "Trial tables played"
   },
-  "TablesHotseatPlayed": {
-    "description": "Hotseat played",
-    "value": 0
+  {
+    "name": "TablesHotseatPlayed",
+    "defaultvalue": 0,
+    "displayName": "Hotseat played"
   },
-  "TrialPlayedHours": {
-    "description": "Trial play time (hours)",
-    "value": 0
+  {
+    "name": "TrialPlayedHours",
+    "defaultvalue": 0,
+    "displayName": "Trial play time (hours)"
   },
-  "SinglePlayedHours": {
-    "description": "Single play time (hours)",
-    "value": 0
+  {
+    "name": "SinglePlayedHours",
+    "defaultvalue": 0,
+    "displayName": "Single play time (hours)"
   },
-  "HotseatPlayedHours": {
-    "description": "Hotseat play time (hours)",
-    "value": 0
+  {
+    "name": "HotseatPlayedHours",
+    "defaultvalue": 0,
+    "displayName": "Hotseat play time (hours)"
   },
-  "Tables_VeryEasy_Played": {
-    "description": "Very easy",
-    "value": 0
+  {
+    "name": "Tables_VeryEasy_Played",
+    "defaultvalue": 0,
+    "displayName": "Very easy"
   },
-  "Tables_Easy_Played": {
-    "description": "Easy",
-    "value": 0
+  {
+    "name": "Tables_Easy_Played",
+    "defaultvalue": 0,
+    "displayName": "Easy"
   },
-  "Tables_Normal_Played": {
-    "description": "Normal",
-    "value": 0
+  {
+    "name": "Tables_Normal_Played",
+    "defaultvalue": 0,
+    "displayName": "Normal"
   },
-  "Tables_Hard_Played": {
-    "description": "Hard",
-    "value": 0
+  {
+    "name": "Tables_Hard_Played",
+    "defaultvalue": 0,
+    "displayName": "Hard"
   },
-  "Tables_VeryHard_Played": {
-    "description": "Very Hard",
-    "value": 0
+  {
+    "name": "Tables_VeryHard_Played",
+    "defaultvalue": 0,
+    "displayName": "Very Hard"
   },
-  "TablesCustomControlPlayed": {
-    "description": "Custom controls",
-    "value": 0
+  {
+    "name": "TablesCustomControlPlayed",
+    "defaultvalue": 0,
+    "displayName": "Custom controls"
   },
-  "TablesCustomAudioPlayed": {
-    "description": "Custom audio",
-    "value": 0
+  {
+    "name": "TablesCustomAudioPlayed",
+    "defaultvalue": 0,
+    "displayName": "Custom audio"
   },
-  "TablesAudioOffPlayed": {
-    "description": "No audio",
-    "value": 0
+  {
+    "name": "TablesAudioOffPlayed",
+    "defaultvalue": 0,
+    "displayName": "No audio"
   },
-  "TablesPortraitPlayed": {
-    "description": "Portrait mode",
-    "value": 0
+  {
+    "name": "TablesPortraitPlayed",
+    "defaultvalue": 0,
+    "displayName": "Portrait mode"
   },
-  "TablesCustomSettingsPlayed": {
-    "description": "Custom table settings",
-    "value": 0
+  {
+    "name": "TablesCustomSettingsPlayed",
+    "defaultvalue": 0,
+    "displayName": "Custom table settings"
   },
-  "TablesSaved": {
-    "description": "Tables saved",
-    "value": 0
+  {
+    "name": "TablesSaved",
+    "defaultvalue": 0,
+    "displayName": "Tables saved"
   },
-  "TablesLoaded": {
-    "description": "Tables loaded",
-    "value": 0
+  {
+    "name": "TablesLoaded",
+    "defaultvalue": 0,
+    "displayName": "Tables loaded"
   },
-  "UpsellShown": {
-    "description": "Upsell screen shown",
-    "value": 0
+  {
+    "name": "UpsellShown",
+    "defaultvalue": 0,
+    "displayName": "Upsell screen shown"
   },
-  "UpsellAccepted": {
-    "description": "Upsell accepted",
-    "value": 0
+  {
+    "name": "UpsellAccepted",
+    "defaultvalue": 0,
+    "displayName": "Upsell accepted"
   },
-  "Languafe_English": {
-    "description": "English",
-    "value": 0
+  {
+    "name": "Languafe_English",
+    "defaultvalue": 0,
+    "displayName": "English"
   },
-  "Language_French": {
-    "description": "French",
-    "value": 0
+  {
+    "name": "Language_French",
+    "defaultvalue": 0,
+    "displayName": "French"
   },
-  "Language_German": {
-    "description": "German",
-    "value": 0
+  {
+    "name": "Language_German",
+    "defaultvalue": 0,
+    "displayName": "German"
   },
-  "Language_italian": {
-    "description": "Italian",
-    "value": 0
+  {
+    "name": "Language_italian",
+    "defaultvalue": 0,
+    "displayName": "Italian"
   },
-  "Language_Spanish": {
-    "description": "Spanish",
-    "value": 0
+  {
+    "name": "Language_Spanish",
+    "defaultvalue": 0,
+    "displayName": "Spanish"
   },
-  "Language_Japanese": {
-    "description": "Japanese",
-    "value": 0
+  {
+    "name": "Language_Japanese",
+    "defaultvalue": 0,
+    "displayName": "Japanese"
   },
-  "HowToPlay_Shown": {
-    "description": "How to Play",
-    "value": 0
+  {
+    "name": "HowToPlay_Shown",
+    "defaultvalue": 0,
+    "displayName": "How to Play"
   },
-  "Controls_Shown": {
-    "description": "Controls",
-    "value": 0
+  {
+    "name": "Controls_Shown",
+    "defaultvalue": 0,
+    "displayName": "Controls"
   },
-  "Settings_Shown": {
-    "description": "Settings",
-    "value": 0
+  {
+    "name": "Settings_Shown",
+    "defaultvalue": 0,
+    "displayName": "Settings"
   },
-  "Credits_Shown": {
-    "description": "Credits",
-    "value": 0
+  {
+    "name": "Credits_Shown",
+    "defaultvalue": 0,
+    "displayName": "Credits"
   },
-  "About_Shown": {
-    "description": "About",
-    "value": 0
+  {
+    "name": "About_Shown",
+    "defaultvalue": 0,
+    "displayName": "About"
   },
-  "TableGuide_Shown": {
-    "description": "Table guide",
-    "value": 0
+  {
+    "name": "TableGuide_Shown",
+    "defaultvalue": 0,
+    "displayName": "Table guide"
   },
-  "Statistics_Shown": {
-    "description": "Statistics",
-    "value": 0
+  {
+    "name": "Statistics_Shown",
+    "defaultvalue": 0,
+    "displayName": "Statistics"
   },
-  "OperatorsMenu_Shown": {
-    "description": "Operators menu",
-    "value": 0
+  {
+    "name": "OperatorsMenu_Shown",
+    "defaultvalue": 0,
+    "displayName": "Operators menu"
   },
-  "CabinetLicense": {
-    "description": "Cabinet license",
-    "value": 0
+  {
+    "name": "CabinetLicense",
+    "defaultvalue": 0,
+    "displayName": "Cabinet license"
   }
-}
+]

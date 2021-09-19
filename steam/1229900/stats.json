@@ -2013,5 +2013,680 @@
     "name": "ZombieMammoth_Battle",
     "defaultvalue": 0,
     "displayName": ""
+  },
+  {
+    "name": "SUM_Ascension_WARRIOR_Played",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "SUM_Ascension_WARRIOR_Floor",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "SUM_Ascension_MAGE_Played",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "SUM_Ascension_MAGE_Floor",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Ascension_Rune_Patient",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Ascension_Rune_Unrest",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Ascension_Rune_Devour",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Ascension_Rune_Succeed",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Ascension_Rune_GiveUp",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Ascension_Rune_Challenge",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Ascension_Rune_Rage",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Ascension_Rune_Unclean",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Ascension_Rune_Tainted",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Ascension_Rune_Forgotten",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Ascension_Item_BattleAxe",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Ascension_Item_VacuumAxe",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Ascension_Item_BoneDagger",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Ascension_Item_DoomBlade",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Ascension_Item_DragonHorn",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Ascension_Item_NobleDagger",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Ascension_Item_ShortDagger",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Ascension_Item_MorningStar",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Ascension_Item_18FeetSnake",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Ascension_Item_StaffofCultist",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Ascension_Item_SteamCondenser",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Ascension_Item_DemonClaw",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Ascension_Item_DemonSword",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Ascension_Item_Gladius",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Ascension_Item_GoldenSabre",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Ascension_Item_LongSword",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Ascension_Item_MithrilSword",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Ascension_Item_SpectralSword",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Ascension_Item_VoidEdge",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Ascension_Item_AncientBattery",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Ascension_Item_BlueOrb",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Ascension_Item_DemonEye",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Ascension_Item_GiantCarrot",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Ascension_Item_IridescentCrystal",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Ascension_Item_AdamantiteShield",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Ascension_Item_DemonShield",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Ascension_Item_GoatShield",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Ascension_Item_GraniteShield",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Ascension_Item_SilverDragonShield",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Ascension_Item_TowerShield",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Ascension_Item_WoodenShield",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Ascension_Item_RobeofArchbishop",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Ascension_Item_RobeofAzure",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Ascension_Item_ShabbyClothes",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Ascension_Item_CombatArmor",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Ascension_Item_HardLeatherArmor",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Ascension_Item_CrusaderArmor",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Ascension_Item_DragonKnightArmor",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Ascension_Item_StrangleThornArmor",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Ascension_Item_BeltofAnion",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Ascension_Item_BeltofColdHeart",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Ascension_Item_ChampionsBelt",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Ascension_Item_ForgottenSoldiersBelt",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Ascension_Item_RainbowBelt",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Ascension_Item_SashofGenie",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Ascension_Item_WaistGuard",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Ascension_Item_ZodiacBelt",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Ascension_Item_AngelWingBoots",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Ascension_Item_CowboyBoots",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Ascension_Item_GravityBoots",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Ascension_Item_RabbitFoot",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Ascension_Item_ZephyrofJordan",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Ascension_Item_ChefHat",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Ascension_Item_FlamboyantHat",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Ascension_Item_GlassesofInsight",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Ascension_Item_HelmofDominator",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Ascension_Item_HelmofOverwhelmingPower",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Ascension_Item_NestQueenCrown",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Ascension_Item_OxygenMask",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Ascension_Item_BerserkerNecklace",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Ascension_Item_DemonHeart",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Ascension_Item_DemonToothNecklace",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Ascension_Item_DogCollar",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Ascension_Item_MarkofValor",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Ascension_Item_NecklaceofHaste",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Ascension_Item_NecklaceofRegeneration",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Ascension_Item_ShellNecklace",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Ascension_Item_TrollToothNecklace",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Ascension_Item_AmberRing",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Ascension_Item_CopperRing",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Ascension_Item_CrimsonRing",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Ascension_Item_DeathPact",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Ascension_Item_GoldenRing",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Ascension_Item_LuckyRing",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Ascension_Item_RingofTrial",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Ascension_Item_WorldTreeRing",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Ascension_IceGolem",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Ascension_Ogre",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Ascension_Wyvern",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Ascension_Bat",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Ascension_Goblin",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Ascension_Orc",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Ascension_Goblin_Shaman",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Ascension_PitFiend",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Ascension_SpectralKnight",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Ascension_Cult_Executioner",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Ascension_Lich",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Ascension_RockBruteGolem",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Ascension_Troll",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Ascension_Yeti",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Ascension_AncientWarmachine",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Ascension_CobaltGolem",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Ascension_GiantWorm",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Ascension_Invoker",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Ascension_Gorgon",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Ascension_LavaGolem",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Ascension_Monk",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Ascension_Warrior",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Ascension_Archdemon",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Ascension_Glazzard",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Ascension_PitLord",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "SUM_Ascension_WARRIOR_Win",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "SUM_Ascension_MAGE_Win",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "NECROKNIGHT_CompletedQuest",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "NECROKNIGHT_Battle",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "NECROKNIGHT_DealtDamage",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "NECROKNIGHT_Healed",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "NECROKNIGHT_GotComa",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "NECROKNIGHT_KilledMonster",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "NECROKNIGHT_BattleLevel",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "SUM_Ascension_NECROKNIGHT_Played",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "SUM_Ascension_NECROKNIGHT_Floor",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "SUM_Ascension_NECROKNIGHT_Win",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "ZombieWyvern_KilledMonster",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "ZombieWyvern_BattleTurn",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "ZombieWyvern_Battle",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Demogorgon_KilledMonster",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Demogorgon_BattleTurn",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Demogorgon_Battle",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Ascension_ZombieWyvern",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Ascension_Demogorgon",
+    "defaultvalue": 0,
+    "displayName": ""
   }
 ]

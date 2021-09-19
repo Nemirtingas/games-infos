@@ -1,50 +1,62 @@
-﻿{
-  "numCompleteST_Explore": {
-    "description": "Completed Explore Targets",
-    "value": 0
+[
+  {
+    "name": "numCompleteST_Explore",
+    "defaultvalue": 0,
+    "displayName": "Completed Explore Targets"
   },
-  "numCompleteST_Photo": {
-    "description": "Completed Photo Targets",
-    "value": 0
+  {
+    "name": "numCompleteST_Photo",
+    "defaultvalue": 0,
+    "displayName": "Completed Photo Targets"
   },
-  "numCompleteST_Analyze": {
-    "description": "Completed Analyze Targets",
-    "value": 0
+  {
+    "name": "numCompleteST_Analyze",
+    "defaultvalue": 0,
+    "displayName": "Completed Analyze Targets"
   },
-  "budgetTotalIncome": {
-    "description": "Total Income",
-    "value": 0
+  {
+    "name": "budgetTotalIncome",
+    "defaultvalue": 0,
+    "displayName": "Total Income"
   },
-  "lowFPSTime": {
-    "description": "Low FPS Time",
-    "value": 0
+  {
+    "name": "lowFPSTime",
+    "defaultvalue": 0,
+    "displayName": "Low FPS Time"
   },
-  "wattsGenerated": {
-    "description": "Total Generated Watts",
-    "value": 0
+  {
+    "name": "wattsGenerated",
+    "defaultvalue": 0,
+    "displayName": "Total Generated Watts"
   },
-  "distDrivenTotal": {
-    "description": "Total Driven Distance",
-    "value": 0
+  {
+    "name": "distDrivenTotal",
+    "defaultvalue": 0,
+    "displayName": "Total Driven Distance"
   },
-  "hourPlayedCurrent": {
-    "description": "Seconds Played in Current Hour",
-    "value": 0
+  {
+    "name": "hourPlayedCurrent",
+    "defaultvalue": 0,
+    "displayName": "Seconds Played in Current Hour"
   },
-  "hoursPlayedTotal": {
-    "description": "Total Hours Played",
-    "value": 0
+  {
+    "name": "hoursPlayedTotal",
+    "defaultvalue": 0,
+    "displayName": "Total Hours Played"
   },
-  "numMPServersStarted": {
-    "description": "Total Multiplayer servers started",
-    "value": 0
+  {
+    "name": "numMPServersStarted",
+    "defaultvalue": 0,
+    "displayName": "Total Multiplayer servers started"
   },
-  "isDev": {
-    "description": "",
-    "value": 0
+  {
+    "name": "isDev",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "tutorialFlags": {
-    "description": "Tutorials Completed Flags",
-    "value": 0
+  {
+    "name": "tutorialFlags",
+    "defaultvalue": 0,
+    "displayName": "Tutorials Completed Flags"
   }
-}
+]

@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "name": "86f7e188-60f3-4236-a4bf-15de9ed87797",
     "defaultvalue": 0,
@@ -847,5 +847,311 @@
     "description": "Give at least 5 units Flying with Isra",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/531640/e414e7301cc08d16ebc86d588496a59bdcdbe7b2.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/531640/e598d3c6bf2fcb9da257fbddddfcae137452277d.jpg"
+  },
+  {
+    "name": "69f0d972-7935-4c53-9ca9-f44f841264df",
+    "defaultvalue": 0,
+    "displayName": "Uxu Sated",
+    "hidden": 0,
+    "description": "Play an Uxu that has gained all of its abilities",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/531640/9cf7f335b5c822942d4d93c4e27d3709b3a71eb4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/531640/8b541412b124f8a96ae275f1afc72c7b6ff86493.jpg"
+  },
+  {
+    "name": "a2c78c20-89c3-4a5b-af68-79e9f30bb2ef",
+    "defaultvalue": 0,
+    "displayName": "Fresh Dirt",
+    "hidden": 0,
+    "description": "Play a 0-cost Fertile Soil",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/531640/f1d4b14e8f90cd5d487de4bfca24fc0032337cb1.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/531640/0772a07d6ba6429cc4a0bb212fc7b3d3536fc6fb.jpg"
+  },
+  {
+    "name": "9e2d6f8e-3423-46ef-8821-25dd8c1ba327",
+    "defaultvalue": 0,
+    "displayName": "Back From the Brink",
+    "hidden": 0,
+    "description": "Play Fall of House Roa while at exactly 1 Health",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/531640/2a23ab9bb1c645824bfd4bed137d1dbad4acdfe1.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/531640/8b541412b124f8a96ae275f1afc72c7b6ff86493.jpg"
+  },
+  {
+    "name": "d17b96c1-869c-4e5b-a33c-fc7d0de60ea5",
+    "defaultvalue": 0,
+    "displayName": "Just Where I Wanted",
+    "hidden": 0,
+    "description": "Draw a unit from your market that you put there with Near Perfect Imitation",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/531640/5c049d6ad36436c5399155d814a2d17026b4bf0f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/531640/0772a07d6ba6429cc4a0bb212fc7b3d3536fc6fb.jpg"
+  },
+  {
+    "name": "a3d81d16-7461-49fd-96d6-3f87261f4a13",
+    "defaultvalue": 0,
+    "displayName": "Fair Play",
+    "hidden": 0,
+    "description": "Stop three of your own units Summon abilities with Grand Suppressor",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/531640/5d5e32b1a3adf6623628d5af45b88079e0a2747f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/531640/0772a07d6ba6429cc4a0bb212fc7b3d3536fc6fb.jpg"
+  },
+  {
+    "name": "d2b99754-d767-4484-b734-2f0cc72b0491",
+    "defaultvalue": 0,
+    "displayName": "Merchant Prince",
+    "hidden": 0,
+    "description": "Have at least 10 cards in your market.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/531640/3bc73f938751b7ae353a2d1148660238c586c86d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/531640/91bdca023a977c838a881e69690d775c3f59ea69.jpg"
+  },
+  {
+    "name": "ed78d9da-e66a-43d1-90fe-33b0ad0fbe7f",
+    "defaultvalue": 0,
+    "displayName": "Risky Living",
+    "hidden": 0,
+    "description": "Pay all but 1 of your health to Diabolic Machinations",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/531640/a5aae94cf8cd850c98b87243f40f8c0489bd1433.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/531640/91bdca023a977c838a881e69690d775c3f59ea69.jpg"
+  },
+  {
+    "name": "2b908068-7487-4eb9-9ecc-2dd6ebcc5916",
+    "defaultvalue": 0,
+    "displayName": "Out of Tricks",
+    "hidden": 0,
+    "description": "Empty your market after beginning it with 5 cards",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/531640/544d882eb960f82d6bfdb5710db06478781ec570.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/531640/91bdca023a977c838a881e69690d775c3f59ea69.jpg"
+  },
+  {
+    "name": "69280381-35e2-4fb7-b717-9be224a646c0",
+    "defaultvalue": 0,
+    "displayName": "Grind It Out",
+    "hidden": 0,
+    "description": "Have a Rotoscavenger with at least 10 Strength",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/531640/5120a0b0e5111c5c59e66c652ade09ab976b52ca.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/531640/91bdca023a977c838a881e69690d775c3f59ea69.jpg"
+  },
+  {
+    "name": "1c00eca1-5ae5-4164-a74a-e48e84c1355b",
+    "defaultvalue": 0,
+    "displayName": "I'll Take Those",
+    "hidden": 0,
+    "description": "Silence an enemy with at least 3 battle skills with Sharp Tactician",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/531640/2b6bde517c2f2ab385796aea51011a1a4c837c5f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/531640/91bdca023a977c838a881e69690d775c3f59ea69.jpg"
+  },
+  {
+    "name": "ac969170-884b-4472-9bb2-c09594b37ff3",
+    "defaultvalue": 0,
+    "displayName": "Big Boom",
+    "hidden": 0,
+    "description": "Deal at least 20 damage with a single Pyrotech Explosion",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/531640/6f010efcf105c0c44936d9e7864bd188801b7f13.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/531640/91bdca023a977c838a881e69690d775c3f59ea69.jpg"
+  },
+  {
+    "name": "bf59332f-d05d-419d-baab-8e40fa242ca7",
+    "defaultvalue": 0,
+    "displayName": "Soldier Summoning",
+    "hidden": 0,
+    "description": "Play 100 Soldiers",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/531640/c2d1e04edc0d8e38d3f09c4180daef8b5a45507c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/531640/91bdca023a977c838a881e69690d775c3f59ea69.jpg"
+  },
+  {
+    "name": "31d8aa12-2cb2-4df6-a43d-aebfa696d9ba",
+    "defaultvalue": 0,
+    "displayName": "Mandrake Maintenance",
+    "hidden": 0,
+    "description": "Play 100 Mandrakes",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/531640/8fd3813ea3b35695a7cc9e06c8f10f05962a6351.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/531640/91bdca023a977c838a881e69690d775c3f59ea69.jpg"
+  },
+  {
+    "name": "b177d295-7773-4c89-98fa-2efce68e8e0e",
+    "defaultvalue": 0,
+    "displayName": "Raging Bull",
+    "hidden": 0,
+    "description": "Replay the same Vulk with Vulk's Heart 3 times.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/531640/d75f7d7b45590cea12116ff5835205e7494fc35e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/531640/70707ccc836e73a343d6d97d6fc170c8444cf36b.jpg"
+  },
+  {
+    "name": "61563831-98cb-4899-a927-61c37a53a0cb",
+    "defaultvalue": 0,
+    "displayName": "Versatile",
+    "hidden": 0,
+    "description": "Use all three of Hifos amplify abilities at once.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/531640/4c383a34e7c072f45ec72060ae36bbd454c908f9.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/531640/70707ccc836e73a343d6d97d6fc170c8444cf36b.jpg"
+  },
+  {
+    "name": "547e598c-c32b-4d57-901c-00b87203b595",
+    "defaultvalue": 0,
+    "displayName": "Conquerer's Claim",
+    "hidden": 0,
+    "description": "Kill 3 units in a single attack with Dichro",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/531640/e336468681fb9be450931d12f778c0792e1402a4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/531640/91bdca023a977c838a881e69690d775c3f59ea69.jpg"
+  },
+  {
+    "name": "a979326f-9c1c-4eb4-8262-a1f08690fc3b",
+    "defaultvalue": 0,
+    "displayName": "Unite the Bastion",
+    "hidden": 0,
+    "description": "Get every bonus from a single Might of the Bastion",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/531640/8fd7f357dd6916adf9f79e203d91cfecd7aadb21.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/531640/70707ccc836e73a343d6d97d6fc170c8444cf36b.jpg"
+  },
+  {
+    "name": "37e8f01f-c7a0-4f99-b773-39b423e61cdc",
+    "defaultvalue": 0,
+    "displayName": "A True Expert",
+    "hidden": 0,
+    "description": "Have a Logistics Expert with at least 8 Strength",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/531640/2d7a1d469cba6fb69ac684eae6aa2d571a306e57.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/531640/91bdca023a977c838a881e69690d775c3f59ea69.jpg"
+  },
+  {
+    "name": "c32b8289-8499-4ec4-9c9c-669d76c583b7",
+    "defaultvalue": 0,
+    "displayName": "Burn Bright",
+    "hidden": 0,
+    "description": "Take 2 extra turns in the same game with Prosperity of the Reach",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/531640/3a0fddff9679886591568c0783aa5ae391d83846.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/531640/91bdca023a977c838a881e69690d775c3f59ea69.jpg"
+  },
+  {
+    "name": "717f79f9-8819-4142-9507-083b433ee2a5",
+    "defaultvalue": 0,
+    "displayName": "Cost of Doing Business",
+    "hidden": 0,
+    "description": "Lose 3 or more cards to your own Gentleman Jun",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/531640/e2f8124a858297c8557177cf90d3f9a86f7d01a8.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/531640/70707ccc836e73a343d6d97d6fc170c8444cf36b.jpg"
+  },
+  {
+    "name": "62739849-b1bf-4a55-a17b-5a9162ff2275",
+    "defaultvalue": 0,
+    "displayName": "That's No Mirage",
+    "hidden": 0,
+    "description": "Attack with a Storm Mirage with at least 5 Strength",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/531640/51805d8a11f3b81f01cb872476a663c027281ea1.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/531640/70707ccc836e73a343d6d97d6fc170c8444cf36b.jpg"
+  },
+  {
+    "name": "033afd45-167c-4a8b-9242-5c50e2b78f6d",
+    "defaultvalue": 0,
+    "displayName": "Never Tell Me the Odds",
+    "hidden": 0,
+    "description": "Take at least 10 damage from your own Endless Step Rebuilder in one game",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/531640/c52dfaf7039af236b4c67a153c78f19d3f062590.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/531640/91bdca023a977c838a881e69690d775c3f59ea69.jpg"
+  },
+  {
+    "name": "a72f3e2c-caf8-4503-92c7-a207e94f10a9",
+    "defaultvalue": 0,
+    "displayName": "Beyond the Veil",
+    "hidden": 0,
+    "description": "Play Somiel when you're at 3 or less health",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/531640/bd5888ccd52a0951f3913284b978478954c5b925.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/531640/70707ccc836e73a343d6d97d6fc170c8444cf36b.jpg"
+  },
+  {
+    "name": "61e32261-fffc-4040-83ad-0db3d16cdacd",
+    "defaultvalue": 0,
+    "displayName": "Risk Taker",
+    "hidden": 0,
+    "description": "Make 30 Killer or Relic Weapon attacks on hidden units.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/531640/2d56434a879f70dcb5a5ef5bf87ab502e9d3d66e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/531640/70707ccc836e73a343d6d97d6fc170c8444cf36b.jpg"
+  },
+  {
+    "name": "e1260e76-6137-4993-be62-4737e703680f",
+    "defaultvalue": 0,
+    "displayName": "Seize the Moment",
+    "hidden": 0,
+    "description": "Draw 10 or more cards with a single Pivotal Moment",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/531640/a9162b3ab5a692dc5029c09a2552a1d748aad3ee.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/531640/91bdca023a977c838a881e69690d775c3f59ea69.jpg"
+  },
+  {
+    "name": "6c3c16fb-4f96-450d-9a2a-439ae7a6044f",
+    "defaultvalue": 0,
+    "displayName": "Powerless",
+    "hidden": 0,
+    "description": "Reduce yourself to negative power with Experimental Forcefield",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/531640/c6708038401bf1d5c962d45eb91635f564d516f4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/531640/91bdca023a977c838a881e69690d775c3f59ea69.jpg"
+  },
+  {
+    "name": "1fd57c75-4fd3-4690-8f70-4d0e3ac0914f",
+    "defaultvalue": 0,
+    "displayName": "Reach the Top",
+    "hidden": 0,
+    "description": "Play all 4 Endures from the Endless Steps on the same unit.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/531640/e0860dc827a18dfffc2457c1a60da6c460280066.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/531640/70707ccc836e73a343d6d97d6fc170c8444cf36b.jpg"
+  },
+  {
+    "name": "ab37b357-4f5d-4ce3-8380-2126e6b800c3",
+    "defaultvalue": 0,
+    "displayName": "I Have the Power",
+    "hidden": 0,
+    "description": "Amplify a single Power card 3 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/531640/2a127657a236c310b46d44572e01d0890a2fa889.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/531640/91bdca023a977c838a881e69690d775c3f59ea69.jpg"
+  },
+  {
+    "name": "ce13b283-39c9-4e4b-b2e0-920bd5177f9d",
+    "defaultvalue": 0,
+    "displayName": "Valorous",
+    "hidden": 0,
+    "description": "Kill two blockers with a unit with Valor.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/531640/9be91644927096c3aeb66b10a861488867b50a0e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/531640/91bdca023a977c838a881e69690d775c3f59ea69.jpg"
+  },
+  {
+    "name": "0b045ee5-ffa9-4ce4-85bc-e75b8713f76e",
+    "defaultvalue": 0,
+    "displayName": "A Daring Gambit",
+    "hidden": 0,
+    "description": "Kill more of your own units than enemy with Final Confrontation",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/531640/2cc760d51fc4df28d0447d89346a6147242497f9.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/531640/70707ccc836e73a343d6d97d6fc170c8444cf36b.jpg"
+  },
+  {
+    "name": "9c4c53d3-274b-4298-a3d4-c083975bf636",
+    "defaultvalue": 0,
+    "displayName": "Hour of Glass",
+    "hidden": 0,
+    "description": "Complete the Hour of Glass Campaign",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/531640/d7d37165cbbffb702349a5cca59d3fea8c6fa41c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/531640/70707ccc836e73a343d6d97d6fc170c8444cf36b.jpg"
+  },
+  {
+    "name": "5a7b6037-b977-4f3a-b248-e6a81d1183e6",
+    "defaultvalue": 0,
+    "displayName": "Deep Corruption",
+    "hidden": 0,
+    "description": "Make the enemy player discard 4 or more cards with Inevitable Corruption",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/531640/6ba889b4fc48a3e4a64d494d2bfe09ef025519ac.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/531640/70707ccc836e73a343d6d97d6fc170c8444cf36b.jpg"
+  },
+  {
+    "name": "007933dc-43c5-4aab-b04c-c85eae74c0be",
+    "defaultvalue": 0,
+    "displayName": "Begin Again",
+    "hidden": 0,
+    "description": "Kill everything in play with Waystone Alignment",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/531640/ee275dc2384d05e2e000d0bdefb0b238b3227ff9.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/531640/70707ccc836e73a343d6d97d6fc170c8444cf36b.jpg"
+  },
+  {
+    "name": "f122fa7e-082d-4b49-83be-1acecc02d868",
+    "defaultvalue": 0,
+    "displayName": "Not So Peaceful",
+    "hidden": 0,
+    "description": "Kill an enemy attacker or blocker with Jada.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/531640/0674236ca9ecc05fcc06005201d5a32a9b3935af.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/531640/70707ccc836e73a343d6d97d6fc170c8444cf36b.jpg"
   }
 ]

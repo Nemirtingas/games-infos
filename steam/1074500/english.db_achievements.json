@@ -99,15 +99,6 @@
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1074500/395d25e376516f58d2bd0255c57faecbbf861230.jpg"
   },
   {
-    "name": "Multi_Play",
-    "defaultvalue": 0,
-    "displayName": "Multi Gaming",
-    "hidden": 0,
-    "description": "Play Multiplayer",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1074500/b150a27a876fcbd2e0f083a981a24c3bcc9bfc42.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1074500/3979156a6e30b727ed1d33221e27ec34b83ce161.jpg"
-  },
-  {
     "name": "Progression_Biome_1",
     "defaultvalue": 0,
     "displayName": "Donut in Town",
@@ -309,5 +300,113 @@
     "hidden": 1,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1074500/c4e9c208d2b6befce21f1aaf10a4ed08a27e9b57.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1074500/06c282cd5612220184cc277886ee64f9565f3717.jpg"
+  },
+  {
+    "name": "Progression_Complete",
+    "defaultvalue": 0,
+    "displayName": "Roll On The Game",
+    "hidden": 0,
+    "description": "Finish the game",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1074500/a806cf849685d4126f3f45fc63b29fbfd495cb65.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1074500/349e305ab6264a3002fa81f31dc2981fa6f18e8d.jpg"
+  },
+  {
+    "name": "Progression_Complete_Challenge",
+    "defaultvalue": 0,
+    "displayName": "Challenge The Game",
+    "hidden": 0,
+    "description": "Finish the game in \"Challenge\" difficulty",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1074500/2f204edfebbfb07e48adb1e8e2228edf3705a1b0.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1074500/864c6b3d6ed51b14faca47f2765324609c01af8b.jpg"
+  },
+  {
+    "name": "Progression_Complete_Lava",
+    "defaultvalue": 0,
+    "displayName": "Have You Ever Seen A Flying Donut?",
+    "hidden": 0,
+    "description": "Finish the game in \"Floor is Lava\" mode",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1074500/912c90a32cbef7c0f22913213e92252c18013087.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1074500/fe9aacc32c8d0d22f2a543e62e52a66e4e53871b.jpg"
+  },
+  {
+    "name": "Progression_Complete_Lava_Challenge",
+    "defaultvalue": 0,
+    "displayName": "It's a Bird... It's a Plane...",
+    "hidden": 0,
+    "description": "Finish the game in \"Floor is Lava\" mode and in \"Challenge\" difficulty",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1074500/c534bc60db06309a40d41d5e736fa9a98a8ddc9a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1074500/cef0f88122a75c0651fa5e6e8f14721b9a7e4c49.jpg"
+  },
+  {
+    "name": "Progression_Bonus",
+    "defaultvalue": 0,
+    "displayName": "Secret Ingredients",
+    "hidden": 0,
+    "description": "Finish all bonus levels",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1074500/6acbb7ee4e512f0c13dbca61bcf6174f5d4723ab.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1074500/9ac2f9a7378850428277f57527e6c54b57355c78.jpg"
+  },
+  {
+    "name": "Progression_Bonus_Challenge",
+    "defaultvalue": 0,
+    "displayName": "Secret Recipe",
+    "hidden": 0,
+    "description": "Finish all bonus levels in \"Challenge\" difficulty",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1074500/0fd3908d4c8df5caa729c54248b8818b008c4203.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1074500/31de628a2388b3dbcadec773b952786120045f12.jpg"
+  },
+  {
+    "name": "Progression_Bonus_Lava",
+    "defaultvalue": 0,
+    "displayName": "Secret Agent",
+    "hidden": 0,
+    "description": "Finish all bonus levels in \"Floor is Lava\" mode",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1074500/fbe9c5165352e8a37c7446d385e185112edf7fcc.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1074500/2a2306796bf89898cf9470d7a216de6a11a2dc8a.jpg"
+  },
+  {
+    "name": "Progression_Bonus_Lava_Challenge",
+    "defaultvalue": 0,
+    "displayName": "Greatest Secret",
+    "hidden": 0,
+    "description": "Finish all bonus levels in \"Floor is Lava\" mode and in \"Challenge\" difficulty",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1074500/37a3c465f180f9b43bd39d32b2f199a84e5cd867.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1074500/11f3a13b8bc260bd156af4432f8c89b839fbe8b8.jpg"
+  },
+  {
+    "name": "Progression_Sugar",
+    "defaultvalue": 0,
+    "displayName": "Candies",
+    "hidden": 0,
+    "description": "Get all the sugar bottles",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1074500/e7b2db694bb5300afe0748af225a810e96ef912b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1074500/1288f018ac26347562b1a6c8635e6c12a47e2a9e.jpg"
+  },
+  {
+    "name": "Skins_Species",
+    "defaultvalue": 0,
+    "displayName": "Zoologist",
+    "hidden": 0,
+    "description": "Unlock all donut species",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1074500/d8c84c9a3f38f82450769968d659efbf0077a834.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1074500/837c145044a82f680075198eaa6d14fdb1b2a592.jpg"
+  },
+  {
+    "name": "Skins_All",
+    "defaultvalue": 0,
+    "displayName": "Animal Lover",
+    "hidden": 0,
+    "description": "Unlock all donut skins",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1074500/12fea6101adf739b4edc6f1cab86e7d67046f7a9.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1074500/1744099c0d04c3fa9d015aef1717fadb1e70d25e.jpg"
+  },
+  {
+    "name": "Chrono_Complete",
+    "defaultvalue": 0,
+    "displayName": "Time Lord",
+    "hidden": 0,
+    "description": "Get a gold medal in each level",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1074500/de963a7d6b3d507db375ee999a3aecb1839708bf.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1074500/767bfa21edc6a5965ae48986d3a7d91fb305e016.jpg"
   }
 ]

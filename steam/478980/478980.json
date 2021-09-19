@@ -1,21 +1,22 @@
-﻿{
+{
   "Dlcs": {
     "558370": {
       "Name": "Mansions of Madness - What Lies Within",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/558370/header.jpg?t=1527888667"
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/558370/header.jpg?t=1604952954",
+      "Type": "dlc"
     },
     "678220": {
-      "Name": "Mansions of Madness - Dark Reflections",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/678220/header.jpg?t=1527888550"
+      "Name": "",
+      "ImageUrl": ""
     },
     "929680": {
-      "Name": "Mansions of Madness - Altered Fates",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/929680/header.jpg?t=1560791700"
+      "Name": "",
+      "ImageUrl": ""
     }
   },
   "Name": "Mansions of Madness",
   "AppId": "478980",
-  "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/478980/header.jpg?t=1573493987",
+  "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/478980/header.jpg?t=1604597917",
   "Languages": [
     "english",
     "german",
@@ -24,7 +25,11 @@
     "italian",
     "japanese",
     "polish",
-    "portuguese"
+    "portuguese",
+    "czech",
+    "korean",
+    "russian",
+    "schinese"
   ],
   "Platforms": {
     "windows": true,

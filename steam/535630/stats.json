@@ -1,110 +1,137 @@
-﻿{
-  "NightsSurvived": {
-    "description": "Nights Survived",
-    "value": 0
+[
+  {
+    "name": "NightsSurvived",
+    "defaultvalue": 0,
+    "displayName": "Nights Survived"
   },
-  "AccumulativeDamageTake": {
-    "description": "Accumulative Damage Take",
-    "value": 0
+  {
+    "name": "AccumulativeDamageTake",
+    "defaultvalue": 0,
+    "displayName": "Accumulative Damage Take"
   },
-  "DontMoveSurviveNights": {
-    "description": "Dont Move And Survive",
-    "value": 0
+  {
+    "name": "DontMoveSurviveNights",
+    "defaultvalue": 0,
+    "displayName": "Dont Move And Survive"
   },
-  "NoBuildingsSurvival": {
-    "description": "Survive Without Buildings",
-    "value": 0
+  {
+    "name": "NoBuildingsSurvival",
+    "defaultvalue": 0,
+    "displayName": "Survive Without Buildings"
   },
-  "SkeletonsKilled": {
-    "description": "Skeletons Killed",
-    "value": 0
+  {
+    "name": "SkeletonsKilled",
+    "defaultvalue": 0,
+    "displayName": "Skeletons Killed"
   },
-  "TotalEnemiesKilled": {
-    "description": "Total Enemies Killed",
-    "value": 0
+  {
+    "name": "TotalEnemiesKilled",
+    "defaultvalue": 0,
+    "displayName": "Total Enemies Killed"
   },
-  "GhoulsKilled": {
-    "description": "Ghouls Killed",
-    "value": 0
+  {
+    "name": "GhoulsKilled",
+    "defaultvalue": 0,
+    "displayName": "Ghouls Killed"
   },
-  "NecromancersKilled": {
-    "description": "Necromancers Killed",
-    "value": 0
+  {
+    "name": "NecromancersKilled",
+    "defaultvalue": 0,
+    "displayName": "Necromancers Killed"
   },
-  "PistolKills": {
-    "description": "Pistol Kills",
-    "value": 0
+  {
+    "name": "PistolKills",
+    "defaultvalue": 0,
+    "displayName": "Pistol Kills"
   },
-  "Ak47Kills": {
-    "description": "AK47 Kills",
-    "value": 0
+  {
+    "name": "Ak47Kills",
+    "defaultvalue": 0,
+    "displayName": "AK47 Kills"
   },
-  "M16Kills": {
-    "description": "M16 Kills",
-    "value": 0
+  {
+    "name": "M16Kills",
+    "defaultvalue": 0,
+    "displayName": "M16 Kills"
   },
-  "Mp5Kills": {
-    "description": "MP5 Kills",
-    "value": 0
+  {
+    "name": "Mp5Kills",
+    "defaultvalue": 0,
+    "displayName": "MP5 Kills"
   },
-  "UziKills": {
-    "description": "Uzi Kills",
-    "value": 0
+  {
+    "name": "UziKills",
+    "defaultvalue": 0,
+    "displayName": "Uzi Kills"
   },
-  "ShotgunKills": {
-    "description": "Shotgun Kills",
-    "value": 0
+  {
+    "name": "ShotgunKills",
+    "defaultvalue": 0,
+    "displayName": "Shotgun Kills"
   },
-  "RocketLauncherKills": {
-    "description": "Rocket Launcher Kills",
-    "value": 0
+  {
+    "name": "RocketLauncherKills",
+    "defaultvalue": 0,
+    "displayName": "Rocket Launcher Kills"
   },
-  "RunningTotal": {
-    "description": "Running Total",
-    "value": 0
+  {
+    "name": "RunningTotal",
+    "defaultvalue": 0,
+    "displayName": "Running Total"
   },
-  "SurvivePistolNights": {
-    "description": "Survive Pistol Only Night",
-    "value": 0
+  {
+    "name": "SurvivePistolNights",
+    "defaultvalue": 0,
+    "displayName": "Survive Pistol Only Night"
   },
-  "SurviveAk47Nights": {
-    "description": "Survive Ak47 Only Night",
-    "value": 0
+  {
+    "name": "SurviveAk47Nights",
+    "defaultvalue": 0,
+    "displayName": "Survive Ak47 Only Night"
   },
-  "SurviveM16Nights": {
-    "description": "Survive M16 Only Night",
-    "value": 0
+  {
+    "name": "SurviveM16Nights",
+    "defaultvalue": 0,
+    "displayName": "Survive M16 Only Night"
   },
-  "SurviveMp5Nights": {
-    "description": "Survive Mp5 Only Night",
-    "value": 0
+  {
+    "name": "SurviveMp5Nights",
+    "defaultvalue": 0,
+    "displayName": "Survive Mp5 Only Night"
   },
-  "SurviveRocketLauncherNights": {
-    "description": "Survive Rocket Launcher Only Nights",
-    "value": 0
+  {
+    "name": "SurviveRocketLauncherNights",
+    "defaultvalue": 0,
+    "displayName": "Survive Rocket Launcher Only Nights"
   },
-  "SurviveShotgunNights": {
-    "description": "Survive Shotgun Only Nights",
-    "value": 0
+  {
+    "name": "SurviveShotgunNights",
+    "defaultvalue": 0,
+    "displayName": "Survive Shotgun Only Nights"
   },
-  "SurviveUziNights": {
-    "description": "Survive Uzi Only Nights",
-    "value": 0
+  {
+    "name": "SurviveUziNights",
+    "defaultvalue": 0,
+    "displayName": "Survive Uzi Only Nights"
   },
-  "SurviveNightsNoGunChange": {
-    "description": "Survive nights without changing weapon",
-    "value": 0
+  {
+    "name": "SurviveNightsNoGunChange",
+    "defaultvalue": 0,
+    "displayName": "Survive nights without changing weapon"
   },
-  "SurviveNightNoDamage": {
-    "description": "Survive Night 0 Damage",
-    "value": 0
+  {
+    "name": "SurviveNightNoDamage",
+    "defaultvalue": 0,
+    "displayName": "Survive Night 0 Damage"
   },
-  "InstantKillCount": {
-    "description": "Kill As Many Enemies With Instant Kill",
-    "value": 0
+  {
+    "name": "InstantKillCount",
+    "defaultvalue": 0,
+    "displayName": "Kill As Many Enemies With Instant Kill"
   },
-  "PowerupEnvy": {
-    "description": "Powerup Collector",
-    "value": 0
+  {
+    "name": "PowerupEnvy",
+    "defaultvalue": 0,
+    "displayName": "Powerup Collector"
   }
-}
+]

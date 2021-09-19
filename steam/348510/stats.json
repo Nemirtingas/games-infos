@@ -1,34 +1,42 @@
-﻿{
-  "stat_honking": {
-    "description": "Honks",
-    "value": 0
+[
+  {
+    "name": "stat_honking",
+    "defaultvalue": 0,
+    "displayName": "Honks"
   },
-  "stat_blames": {
-    "description": "Blames",
-    "value": 0
+  {
+    "name": "stat_blames",
+    "defaultvalue": 0,
+    "displayName": "Blames"
   },
-  "stat_shift_abortion": {
-    "description": "Shift abortions",
-    "value": 0
+  {
+    "name": "stat_shift_abortion",
+    "defaultvalue": 0,
+    "displayName": "Shift abortions"
   },
-  "stat_driven_distance": {
-    "description": "km",
-    "value": 0
+  {
+    "name": "stat_driven_distance",
+    "defaultvalue": 0,
+    "displayName": "km"
   },
-  "stat_shifts_finished": {
-    "description": "Finished shifts",
-    "value": 0
+  {
+    "name": "stat_shifts_finished",
+    "defaultvalue": 0,
+    "displayName": "Finished shifts"
   },
-  "stat_imposed_fines": {
-    "description": "Imposed fines",
-    "value": 0
+  {
+    "name": "stat_imposed_fines",
+    "defaultvalue": 0,
+    "displayName": "Imposed fines"
   },
-  "stat_correct_radio_operations": {
-    "description": "Cprrect radio operations",
-    "value": 0
+  {
+    "name": "stat_correct_radio_operations",
+    "defaultvalue": 0,
+    "displayName": "Cprrect radio operations"
   },
-  "stat_unjustified_arrests": {
-    "description": "Unjustified arrests",
-    "value": 0
+  {
+    "name": "stat_unjustified_arrests",
+    "defaultvalue": 0,
+    "displayName": "Unjustified arrests"
   }
-}
+]

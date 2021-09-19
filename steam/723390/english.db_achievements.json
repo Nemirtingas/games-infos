@@ -14,17 +14,17 @@
     "displayName": "Authorized Personnel Only!",
     "hidden": 0,
     "description": "Fixed so it won't softlock your game anymore.",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/723390/30349d4063b10f9984afaba7ef52e7cfa2ad99e1.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/723390/f1ddc15a8cb4e5efbd8c6bc02beec028d131c189.jpg"
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/723390/4a616f364bfcb15126780544a8b5d4c4eb287c57.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/723390/75553204aa388ac2381180f03724d457c968f16e.jpg"
   },
   {
     "name": "ACHIEVEMENT_EVENT_HDTF_:THINKING:",
     "defaultvalue": 0,
     "displayName": "You can't get this achievement...",
     "hidden": 0,
-    "description": "Unless you use a achievement manager or something, but honestly, who would do that?",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/723390/30349d4063b10f9984afaba7ef52e7cfa2ad99e1.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/723390/ffcd678eea14172284b9ddf0de5c950f56bf4413.jpg"
+    "description": "Unless you use an achievement manager or something, but honestly, who would do that?",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/723390/9a61e6a3564afcce3115ad8377dcd488a2eb7616.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/723390/7c779f4b44a88efca9a712f3c49aab192ecf52fe.jpg"
   },
   {
     "name": "ACHIEVEMENT_EVENT_HDTF_NO_KNIFE",
@@ -45,13 +45,13 @@
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/723390/2aea587e407d97ff7d79936ddef527c608c8a3a5.jpg"
   },
   {
-    "name": "ACHIEVEMENT_EVENT_HDTF_REFUND",
+    "name": "ACHIEVEMENT_EVENT_HDTF_CRASH",
     "defaultvalue": 0,
-    "displayName": "Your purchase has been refunded by Steam.",
+    "displayName": "And it crashed...",
     "hidden": 0,
-    "description": "We've issued the refund to the payment provider. You should see a credit or see the original charge removed from your statement within 14 days.",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/723390/3e99c88308cdcb6bbcb5b0368694edaffccc5ae9.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/723390/fd175436e63a8f2535007035304f383267ced0cc.jpg"
+    "description": "It hurts, it hurts so much to watch playthroughs...",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/723390/f88b08d0771ebed78bd66c4bfc8158e87a24b484.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/723390/963b257648c290a94b9b955ca5772299710c85c6.jpg"
   },
   {
     "name": "ACHIEVEMENT_EVENT_HDTF_CONE",
@@ -142,5 +142,14 @@
     "description": "😂😂😂",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/723390/5433069da77b278d6c58ca30f43f756ef8bc8afc.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/723390/4ba90c8f08db390201422a035c9d4675f54c17fc.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_EVENT_HDTF_GUNSHIP_DOWN",
+    "defaultvalue": 0,
+    "displayName": "M203 Mastery",
+    "hidden": 0,
+    "description": "Shoot down the gunship in Act 1 Canals.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/723390/92268b3c98d304438eaff99a32217283b543d2a3.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/723390/0a7c5e33dd68066db6ab91928a6def27f60a980d.jpg"
   }
 ]

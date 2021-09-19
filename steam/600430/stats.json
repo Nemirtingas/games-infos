@@ -1,10 +1,12 @@
-﻿{
-  "COUNT_STICKERS_UNLOCKED": {
-    "description": "Count stickers unlocked",
-    "value": 0
+[
+  {
+    "name": "COUNT_STICKERS_UNLOCKED",
+    "defaultvalue": 0,
+    "displayName": "Count stickers unlocked"
   },
-  "COUNT_COAST_TO_COAST": {
-    "description": "Count coast to coast",
-    "value": 0
+  {
+    "name": "COUNT_COAST_TO_COAST",
+    "defaultvalue": 0,
+    "displayName": "Count coast to coast"
   }
-}
+]

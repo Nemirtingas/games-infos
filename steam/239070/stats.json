@@ -1,18 +1,22 @@
-﻿{
-  "money": {
-    "description": "Money",
-    "value": 0
+[
+  {
+    "name": "money",
+    "defaultvalue": 0,
+    "displayName": "Money"
   },
-  "kills": {
-    "description": "Kills",
-    "value": 0
+  {
+    "name": "kills",
+    "defaultvalue": 0,
+    "displayName": "Kills"
   },
-  "combo": {
-    "description": "Best Combo",
-    "value": 0
+  {
+    "name": "combo",
+    "defaultvalue": 0,
+    "displayName": "Best Combo"
   },
-  "presents": {
-    "description": "Presents",
-    "value": 0
+  {
+    "name": "presents",
+    "defaultvalue": 0,
+    "displayName": "Presents"
   }
-}
+]

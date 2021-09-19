@@ -1,322 +1,402 @@
-﻿{
-  "RoundsPlayed": {
-    "description": "Rounds Played",
-    "value": 0
-  },
-  "RoundsWon": {
-    "description": "Rounds Won",
-    "value": 0
-  },
-  "Deaths": {
-    "description": "Deaths",
-    "value": 0
-  },
-  "TimePlayed": {
-    "description": "Time Played",
-    "value": 0
-  },
-  "PlayersStomped": {
-    "description": "Players Stomped",
-    "value": 0
-  },
-  "Inflates": {
-    "description": "Inflates",
-    "value": 0
-  },
-  "BlocksColored": {
-    "description": "Blocks Colored",
-    "value": 0
-  },
-  "SecondsLastedFallingBlocks": {
-    "description": "Seconds Lasted Falling Blocks",
-    "value": 0
-  },
-  "BombsPassed": {
-    "description": "Bombs Passed",
-    "value": 0
-  },
-  "StompRoundsPlayed": {
-    "description": "Stomp Rounds Played",
-    "value": 0
-  },
-  "BlowBackRoundsPlayed": {
-    "description": "Blow Back Rounds Played",
-    "value": 0
-  },
-  "ColorCrazeRoundsPlayed": {
-    "description": "Color Craze Rounds Played",
-    "value": 0
-  },
-  "FallingBlocksRoundsPlayed": {
-    "description": "Falling Blocks Rounds Played",
-    "value": 0
-  },
-  "SpeedRunRoundsPlayed": {
-    "description": "Speed Run Rounds Played",
-    "value": 0
-  },
-  "BombTagRoundsPlayed": {
-    "description": "Bomb Tag Rounds Played",
-    "value": 0
-  },
-  "SugarRushRoundsPlayed": {
-    "description": "Sugar Rush Rounds Played",
-    "value": 0
-  },
-  "CandiesEaten": {
-    "description": "Candies Eaten",
-    "value": 0
-  },
-  "HatChaseRoundsPlayed": {
-    "description": "Hat Chase Rounds Played",
-    "value": 0
-  },
-  "JumpShotRoundsPlayed": {
-    "description": "Jump Shot Rounds Played",
-    "value": 0
-  },
-  "GhostScareRoundsPlayed": {
-    "description": "Ghost Scare Rounds Played",
-    "value": 0
-  },
-  "HatSeconds": {
-    "description": "Hat Seconds",
-    "value": 0
-  },
-  "JumpShots": {
-    "description": "Jump Shots",
-    "value": 0
-  },
-  "GhostScares": {
-    "description": "Ghost Scares",
-    "value": 0
-  },
-  "OnlineRoundsPlayed": {
-    "description": "Online Rounds Played",
-    "value": 0
-  },
-  "RocketsDodged": {
-    "description": "Rockets Dodged",
-    "value": 0
-  },
-  "Clashes": {
-    "description": "Chainsaw Clashes",
-    "value": 0
-  },
-  "RocketRunRoundsPlayed": {
-    "description": "Rocket Run Rounds Played",
-    "value": 0
-  },
-  "ChainsawBackstabRoundsPlayed": {
-    "description": "Chainsaw Backstab Rounds Played",
-    "value": 0
-  },
-  "FizzleFloorRoundsPlayed": {
-    "description": "Fizzle Floor Rounds Played",
-    "value": 0
-  },
-  "TilesFizzled": {
-    "description": "Tiles Fizzled",
-    "value": 0
-  },
-  "CleanupCrewRoundsPlayed": {
-    "description": "Cleanup Crew Rounds Played",
-    "value": 0
-  },
-  "VertigoRoundsPlayed": {
-    "description": "Vertigo Rounds Played",
-    "value": 0
-  },
-  "SplattersCleaned": {
-    "description": "Splatters Cleaned",
-    "value": 0
-  },
-  "TilesClimbed": {
-    "description": "Tiles Climbed",
-    "value": 0
-  },
-  "SpeedRunSteps": {
-    "description": "Speed Run Steps",
-    "value": 0
-  },
-  "SpikeBallRoundsPlayed": {
-    "description": "Spike Ball Rounds Played",
-    "value": 0
-  },
-  "ShiftyGroundRoundsPlayed": {
-    "description": "Shifty Ground Rounds Played",
-    "value": 0
-  },
-  "BallBounces": {
-    "description": "Ball Bounces",
-    "value": 0
-  },
-  "GroundShifts": {
-    "description": "Ground Shifts",
-    "value": 0
-  },
-  "ReadyToggles": {
-    "description": "Ready Toggles",
-    "value": 0
-  },
-  "HeavyBulletsRoundsPlayed": {
-    "description": "Heavy Bullets Rounds Played",
-    "value": 0
-  },
-  "BulletsShot": {
-    "description": "Bullets Shot",
-    "value": 0
-  },
-  "BallThrows": {
-    "description": "Ball Throws",
-    "value": 0
-  },
-  "BossesKilled": {
-    "description": "Bosses Killed",
-    "value": 0
-  },
-  "TilesDestroyed": {
-    "description": "Tiles Destroyed",
-    "value": 0
-  },
-  "HoopsRoundsPlayed": {
-    "description": "Hoops Rounds Played",
-    "value": 0
-  },
-  "GodGunRoundsPlayed": {
-    "description": "God Gun Rounds Played",
-    "value": 0
-  },
-  "BossFightRoundsPlayed": {
-    "description": "Boss Fight Rounds Played",
-    "value": 0
-  },
-  "LootGrabRoundsPlayed": {
-    "description": "Loot Grab Rounds Played",
-    "value": 0
-  },
-  "MindControlRoundsPlayed": {
-    "description": "Mind Control Rounds Played",
-    "value": 0
-  },
-  "LootCollected": {
-    "description": "Loot Collected",
-    "value": 0
-  },
-  "MindsSwitched": {
-    "description": "Minds Switched",
-    "value": 0
-  },
-  "OrbsCreated": {
-    "description": "Orbs Created",
-    "value": 0
-  },
-  "BulletsInfluenced": {
-    "description": "Bullets Influenced",
-    "value": 0
-  },
-  "TilesPlaced": {
-    "description": "Tiles Placed",
-    "value": 0
-  },
-  "BombsPlaced": {
-    "description": "Bombs Placed",
-    "value": 0
-  },
-  "DetonationZoneRoundsPlayed": {
-    "description": "Detonation Zone Rounds Played",
-    "value": 0
-  },
-  "StaticBounceRoundsPlayed": {
-    "description": "Static Bounce Rounds Played",
-    "value": 0
-  },
-  "SuperHotRoundsPlayed": {
-    "description": "Super Hot Rounds Played",
-    "value": 0
-  },
-  "BuildingBlocksRoundsPlayed": {
-    "description": "Building Blocks Rounds Played",
-    "value": 0
-  },
-  "SoulsRoundsPlayed": {
-    "description": "Souls Rounds Played",
-    "value": 0
-  },
-  "SoulsCollected": {
-    "description": "Souls Collected",
-    "value": 0
-  },
-  "TetrominosRoundsPlayed": {
-    "description": "Tetrominos Rounds Played",
-    "value": 0
-  },
-  "CrowdStompRoundsPlayed": {
-    "description": "Crowd Stomp Rounds Played",
-    "value": 0
-  },
-  "ExplosiveBarrelsRoundsPlayed": {
-    "description": "Explosive Barrels Rounds Played",
-    "value": 0
-  },
-  "BoomerangsRoundsPlayed": {
-    "description": "Boomerangs Rounds Played",
-    "value": 0
-  },
-  "BlocksSurvived": {
-    "description": "Blocks Survived",
-    "value": 0
-  },
-  "Stomps": {
-    "description": "Stomps",
-    "value": 0
-  },
-  "BarrelsTouched": {
-    "description": "Barrels Touched",
-    "value": 0
-  },
-  "BoomerangKills": {
-    "description": "Boomerang Kills",
-    "value": 0
-  },
-  "VirusBounced": {
-    "description": "Virus Bounced",
-    "value": 0
-  },
-  "OutbreakRoundsPlayed": {
-    "description": "Outbreak Rounds Played",
-    "value": 0
-  },
-  "ShurikenParryRoundsPlayed": {
-    "description": "Shuriken Parry Rounds Played",
-    "value": 0
-  },
-  "SpiderBombRoundsPlayed": {
-    "description": "Spider Bomb Rounds Played",
-    "value": 0
-  },
-  "PaperPlanesRoundsPlayed": {
-    "description": "Papers Planes Rounds Played",
-    "value": 0
-  },
-  "RadiationRoundsPlayed": {
-    "description": "Radiation Rounds Played",
-    "value": 0
-  },
-  "Deflections": {
-    "description": "Deflections",
-    "value": 0
-  },
-  "SpidersCreated": {
-    "description": "Spiders Created",
-    "value": 0
-  },
-  "PlanesSpawned": {
-    "description": "Planes Spawned",
-    "value": 0
-  },
-  "SecondsRadiated": {
-    "description": "Seconds Radiated",
-    "value": 0
+[
+  {
+    "name": "RoundsPlayed",
+    "defaultvalue": 0,
+    "displayName": "Rounds Played"
+  },
+  {
+    "name": "RoundsWon",
+    "defaultvalue": 0,
+    "displayName": "Rounds Won"
+  },
+  {
+    "name": "Deaths",
+    "defaultvalue": 0,
+    "displayName": "Deaths"
+  },
+  {
+    "name": "TimePlayed",
+    "defaultvalue": 0,
+    "displayName": "Time Played"
+  },
+  {
+    "name": "PlayersStomped",
+    "defaultvalue": 0,
+    "displayName": "Players Stomped"
+  },
+  {
+    "name": "Inflates",
+    "defaultvalue": 0,
+    "displayName": "Inflates"
+  },
+  {
+    "name": "BlocksColored",
+    "defaultvalue": 0,
+    "displayName": "Blocks Colored"
+  },
+  {
+    "name": "SecondsLastedFallingBlocks",
+    "defaultvalue": 0,
+    "displayName": "Seconds Lasted Falling Blocks"
+  },
+  {
+    "name": "BombsPassed",
+    "defaultvalue": 0,
+    "displayName": "Bombs Passed"
+  },
+  {
+    "name": "StompRoundsPlayed",
+    "defaultvalue": 0,
+    "displayName": "Stomp Rounds Played"
+  },
+  {
+    "name": "BlowBackRoundsPlayed",
+    "defaultvalue": 0,
+    "displayName": "Blow Back Rounds Played"
+  },
+  {
+    "name": "ColorCrazeRoundsPlayed",
+    "defaultvalue": 0,
+    "displayName": "Color Craze Rounds Played"
+  },
+  {
+    "name": "FallingBlocksRoundsPlayed",
+    "defaultvalue": 0,
+    "displayName": "Falling Blocks Rounds Played"
+  },
+  {
+    "name": "SpeedRunRoundsPlayed",
+    "defaultvalue": 0,
+    "displayName": "Speed Run Rounds Played"
+  },
+  {
+    "name": "BombTagRoundsPlayed",
+    "defaultvalue": 0,
+    "displayName": "Bomb Tag Rounds Played"
+  },
+  {
+    "name": "SugarRushRoundsPlayed",
+    "defaultvalue": 0,
+    "displayName": "Sugar Rush Rounds Played"
+  },
+  {
+    "name": "CandiesEaten",
+    "defaultvalue": 0,
+    "displayName": "Candies Eaten"
+  },
+  {
+    "name": "HatChaseRoundsPlayed",
+    "defaultvalue": 0,
+    "displayName": "Hat Chase Rounds Played"
+  },
+  {
+    "name": "JumpShotRoundsPlayed",
+    "defaultvalue": 0,
+    "displayName": "Jump Shot Rounds Played"
+  },
+  {
+    "name": "GhostScareRoundsPlayed",
+    "defaultvalue": 0,
+    "displayName": "Ghost Scare Rounds Played"
+  },
+  {
+    "name": "HatSeconds",
+    "defaultvalue": 0,
+    "displayName": "Hat Seconds"
+  },
+  {
+    "name": "JumpShots",
+    "defaultvalue": 0,
+    "displayName": "Jump Shots"
+  },
+  {
+    "name": "GhostScares",
+    "defaultvalue": 0,
+    "displayName": "Ghost Scares"
+  },
+  {
+    "name": "OnlineRoundsPlayed",
+    "defaultvalue": 0,
+    "displayName": "Online Rounds Played"
+  },
+  {
+    "name": "RocketsDodged",
+    "defaultvalue": 0,
+    "displayName": "Rockets Dodged"
+  },
+  {
+    "name": "Clashes",
+    "defaultvalue": 0,
+    "displayName": "Chainsaw Clashes"
+  },
+  {
+    "name": "RocketRunRoundsPlayed",
+    "defaultvalue": 0,
+    "displayName": "Rocket Run Rounds Played"
+  },
+  {
+    "name": "ChainsawBackstabRoundsPlayed",
+    "defaultvalue": 0,
+    "displayName": "Chainsaw Backstab Rounds Played"
+  },
+  {
+    "name": "FizzleFloorRoundsPlayed",
+    "defaultvalue": 0,
+    "displayName": "Fizzle Floor Rounds Played"
+  },
+  {
+    "name": "TilesFizzled",
+    "defaultvalue": 0,
+    "displayName": "Tiles Fizzled"
+  },
+  {
+    "name": "CleanupCrewRoundsPlayed",
+    "defaultvalue": 0,
+    "displayName": "Cleanup Crew Rounds Played"
+  },
+  {
+    "name": "VertigoRoundsPlayed",
+    "defaultvalue": 0,
+    "displayName": "Vertigo Rounds Played"
+  },
+  {
+    "name": "SplattersCleaned",
+    "defaultvalue": 0,
+    "displayName": "Splatters Cleaned"
+  },
+  {
+    "name": "TilesClimbed",
+    "defaultvalue": 0,
+    "displayName": "Tiles Climbed"
+  },
+  {
+    "name": "SpeedRunSteps",
+    "defaultvalue": 0,
+    "displayName": "Speed Run Steps"
+  },
+  {
+    "name": "SpikeBallRoundsPlayed",
+    "defaultvalue": 0,
+    "displayName": "Spike Ball Rounds Played"
+  },
+  {
+    "name": "ShiftyGroundRoundsPlayed",
+    "defaultvalue": 0,
+    "displayName": "Shifty Ground Rounds Played"
+  },
+  {
+    "name": "BallBounces",
+    "defaultvalue": 0,
+    "displayName": "Ball Bounces"
+  },
+  {
+    "name": "GroundShifts",
+    "defaultvalue": 0,
+    "displayName": "Ground Shifts"
+  },
+  {
+    "name": "ReadyToggles",
+    "defaultvalue": 0,
+    "displayName": "Ready Toggles"
+  },
+  {
+    "name": "HeavyBulletsRoundsPlayed",
+    "defaultvalue": 0,
+    "displayName": "Heavy Bullets Rounds Played"
+  },
+  {
+    "name": "BulletsShot",
+    "defaultvalue": 0,
+    "displayName": "Bullets Shot"
+  },
+  {
+    "name": "BallThrows",
+    "defaultvalue": 0,
+    "displayName": "Ball Throws"
+  },
+  {
+    "name": "BossesKilled",
+    "defaultvalue": 0,
+    "displayName": "Bosses Killed"
+  },
+  {
+    "name": "TilesDestroyed",
+    "defaultvalue": 0,
+    "displayName": "Tiles Destroyed"
+  },
+  {
+    "name": "HoopsRoundsPlayed",
+    "defaultvalue": 0,
+    "displayName": "Hoops Rounds Played"
+  },
+  {
+    "name": "GodGunRoundsPlayed",
+    "defaultvalue": 0,
+    "displayName": "God Gun Rounds Played"
+  },
+  {
+    "name": "BossFightRoundsPlayed",
+    "defaultvalue": 0,
+    "displayName": "Boss Fight Rounds Played"
+  },
+  {
+    "name": "LootGrabRoundsPlayed",
+    "defaultvalue": 0,
+    "displayName": "Loot Grab Rounds Played"
+  },
+  {
+    "name": "MindControlRoundsPlayed",
+    "defaultvalue": 0,
+    "displayName": "Mind Control Rounds Played"
+  },
+  {
+    "name": "LootCollected",
+    "defaultvalue": 0,
+    "displayName": "Loot Collected"
+  },
+  {
+    "name": "MindsSwitched",
+    "defaultvalue": 0,
+    "displayName": "Minds Switched"
+  },
+  {
+    "name": "OrbsCreated",
+    "defaultvalue": 0,
+    "displayName": "Orbs Created"
+  },
+  {
+    "name": "BulletsInfluenced",
+    "defaultvalue": 0,
+    "displayName": "Bullets Influenced"
+  },
+  {
+    "name": "TilesPlaced",
+    "defaultvalue": 0,
+    "displayName": "Tiles Placed"
+  },
+  {
+    "name": "BombsPlaced",
+    "defaultvalue": 0,
+    "displayName": "Bombs Placed"
+  },
+  {
+    "name": "DetonationZoneRoundsPlayed",
+    "defaultvalue": 0,
+    "displayName": "Detonation Zone Rounds Played"
+  },
+  {
+    "name": "StaticBounceRoundsPlayed",
+    "defaultvalue": 0,
+    "displayName": "Static Bounce Rounds Played"
+  },
+  {
+    "name": "SuperHotRoundsPlayed",
+    "defaultvalue": 0,
+    "displayName": "Super Hot Rounds Played"
+  },
+  {
+    "name": "BuildingBlocksRoundsPlayed",
+    "defaultvalue": 0,
+    "displayName": "Building Blocks Rounds Played"
+  },
+  {
+    "name": "SoulsRoundsPlayed",
+    "defaultvalue": 0,
+    "displayName": "Souls Rounds Played"
+  },
+  {
+    "name": "SoulsCollected",
+    "defaultvalue": 0,
+    "displayName": "Souls Collected"
+  },
+  {
+    "name": "TetrominosRoundsPlayed",
+    "defaultvalue": 0,
+    "displayName": "Tetrominos Rounds Played"
+  },
+  {
+    "name": "CrowdStompRoundsPlayed",
+    "defaultvalue": 0,
+    "displayName": "Crowd Stomp Rounds Played"
+  },
+  {
+    "name": "ExplosiveBarrelsRoundsPlayed",
+    "defaultvalue": 0,
+    "displayName": "Explosive Barrels Rounds Played"
+  },
+  {
+    "name": "BoomerangsRoundsPlayed",
+    "defaultvalue": 0,
+    "displayName": "Boomerangs Rounds Played"
+  },
+  {
+    "name": "BlocksSurvived",
+    "defaultvalue": 0,
+    "displayName": "Blocks Survived"
+  },
+  {
+    "name": "Stomps",
+    "defaultvalue": 0,
+    "displayName": "Stomps"
+  },
+  {
+    "name": "BarrelsTouched",
+    "defaultvalue": 0,
+    "displayName": "Barrels Touched"
+  },
+  {
+    "name": "BoomerangKills",
+    "defaultvalue": 0,
+    "displayName": "Boomerang Kills"
+  },
+  {
+    "name": "VirusBounced",
+    "defaultvalue": 0,
+    "displayName": "Virus Bounced"
+  },
+  {
+    "name": "OutbreakRoundsPlayed",
+    "defaultvalue": 0,
+    "displayName": "Outbreak Rounds Played"
+  },
+  {
+    "name": "ShurikenParryRoundsPlayed",
+    "defaultvalue": 0,
+    "displayName": "Shuriken Parry Rounds Played"
+  },
+  {
+    "name": "SpiderBombRoundsPlayed",
+    "defaultvalue": 0,
+    "displayName": "Spider Bomb Rounds Played"
+  },
+  {
+    "name": "PaperPlanesRoundsPlayed",
+    "defaultvalue": 0,
+    "displayName": "Papers Planes Rounds Played"
+  },
+  {
+    "name": "RadiationRoundsPlayed",
+    "defaultvalue": 0,
+    "displayName": "Radiation Rounds Played"
+  },
+  {
+    "name": "Deflections",
+    "defaultvalue": 0,
+    "displayName": "Deflections"
+  },
+  {
+    "name": "SpidersCreated",
+    "defaultvalue": 0,
+    "displayName": "Spiders Created"
+  },
+  {
+    "name": "PlanesSpawned",
+    "defaultvalue": 0,
+    "displayName": "Planes Spawned"
+  },
+  {
+    "name": "SecondsRadiated",
+    "defaultvalue": 0,
+    "displayName": "Seconds Radiated"
   }
-}
+]

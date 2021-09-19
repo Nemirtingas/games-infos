@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "name": "ACH_CompleteAdventureEasy",
     "defaultvalue": 0,
@@ -130,5 +130,136 @@
     "description": "Defeat a Boss on Hard or higher difficulty.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1038370/bc8ee6535c0cb5cfc31064ea8635cafc67c8e984.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1038370/08352ddfaa7eff2cac07ed725fe3303a5ff8d04c.jpg"
+  },
+  {
+    "name": "ACH_EpicQuest",
+    "defaultvalue": 0,
+    "displayName": "Godlike",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1038370/0122f23a7d39d378da3727e2b13ffbad255b55b9.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1038370/793002c3ab02ea2f8a3b1e93d165dadb4b57143b.jpg"
+  },
+  {
+    "name": "ACH_QuickQuest",
+    "defaultvalue": 0,
+    "displayName": "Shining",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1038370/d85817a2b246e3d4c6e65dd16b470f6fa5c2c6ae.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1038370/5d480312a7639ff61d6617cd399409d0a30e380f.jpg"
+  },
+  {
+    "name": "ACH_BranchingQuest",
+    "defaultvalue": 0,
+    "displayName": "Patron",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1038370/e02595706f7df73246b889ebb1fe05295d00e86a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1038370/974cd5664fdfee5c58ec8dc8efa08f462997cf5c.jpg"
+  },
+  {
+    "name": "ACH_CustomQuest",
+    "defaultvalue": 0,
+    "displayName": "Tried and Tested",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1038370/6dcae6e2d752a5cd0a5160a224b9ac013f5887a6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1038370/d8f6a9a4bd7bb1aca438764a9e8fbe8fa109b16c.jpg"
+  },
+  {
+    "name": "ACH_AlchemistUnlock",
+    "defaultvalue": 0,
+    "displayName": "Chemistry Major",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1038370/e95fe9d1b57cc52326dd97226c3314542b3b1b65.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1038370/0dc0681d200915cb547cd2341d35bfe57fda7db3.jpg"
+  },
+  {
+    "name": "ACH_WitchUnlock",
+    "defaultvalue": 0,
+    "displayName": "Wiccan",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1038370/64c7910f284cb50ff49e7e12b22bd5ab35cba356.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1038370/a64ec2e0fc69092c6d9471ca5588787bbf30cac8.jpg"
+  },
+  {
+    "name": "ACH_AssassinUnlock",
+    "defaultvalue": 0,
+    "displayName": "Killer for Hire",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1038370/f5f11be1c5dd43e23258983e013eb144582e70fd.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1038370/200e43e0ca1815058dfa82eb86816f00ecd12649.jpg"
+  },
+  {
+    "name": "ACH_SpiritSpeakerUnlock",
+    "defaultvalue": 0,
+    "displayName": "Spirits’ Fury",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1038370/f03564b96870e89d7e9095df3bfc50db89fb3b17.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1038370/badbbf2037677aae0deb768649f8a3041f4c150a.jpg"
+  },
+  {
+    "name": "ACH_OccultistUnlock",
+    "defaultvalue": 0,
+    "displayName": "Scion",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1038370/c7d994e8dfbe0c227daad0df9588fcdc8ae3ae69.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1038370/5037a8dda3dcdf329af224289e0717525c57ada4.jpg"
+  },
+  {
+    "name": "ACH_CompleteAdventureCat1",
+    "defaultvalue": 0,
+    "displayName": "Brave",
+    "hidden": 0,
+    "description": "Complete an adventure at any Cataclysm difficulty level.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1038370/6585a35a4558f71c0f9cbd1cba254eca30902568.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1038370/390a3601893074b08adf2d23cfab4dfa91514928.jpg"
+  },
+  {
+    "name": "ACH_CompleteAdventureCat5",
+    "defaultvalue": 0,
+    "displayName": "Foolhardy",
+    "hidden": 0,
+    "description": "Complete an adventure on Cataclysm 5 difficulty or above.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1038370/8dfa1cdfecce41eaabc522766c84dc43411ce537.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1038370/1b09f263906d4d89818bbeabcdd5ba0f4460fda9.jpg"
+  },
+  {
+    "name": "ACH_CompleteAdventureCat10",
+    "defaultvalue": 0,
+    "displayName": "Zealous",
+    "hidden": 0,
+    "description": "Complete an adventure at Cataclysm 10 difficulty level.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1038370/66f045f34ee6b9ed37856272f113639ca314d8f6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1038370/2075973480ad9a4e9f70c306647ec3ecf2269ea6.jpg"
+  },
+  {
+    "name": "ACH_Deal10Damage",
+    "defaultvalue": 0,
+    "displayName": "Strong",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1038370/8d97e60673db550f91cdc5be1196f0b31fde38db.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1038370/276217a0417744e04dcbeb51a224fc7789a1b198.jpg"
+  },
+  {
+    "name": "ACH_Deal20Damage",
+    "defaultvalue": 0,
+    "displayName": "Mighty",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1038370/808f449deb320007443385714cd4d4b845c38fcf.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1038370/684f098da296ba7c18cc4c436a486c5e961276ba.jpg"
+  },
+  {
+    "name": "ACH_Deal30Damage",
+    "defaultvalue": 0,
+    "displayName": "Herculean",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1038370/d300f4d248ce1fb1ae12b10cbefb57d01117e7d8.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1038370/b35e75da1941abcf574118c504a6d3628a61d8a0.jpg"
+  },
+  {
+    "name": "ACH_Deal50Damage",
+    "defaultvalue": 0,
+    "displayName": "Nuclear",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1038370/6864f9f02d64863dc8aa20ea64ed5037a7ca73ac.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1038370/e5b6b6e4d8ad3f4003d6713253d3fc467be03d27.jpg"
   }
 ]

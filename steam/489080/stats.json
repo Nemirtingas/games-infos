@@ -1,118 +1,147 @@
-﻿{
-  "kill_count_Spider": {
-    "description": "Spider Kills",
-    "value": 0
+[
+  {
+    "name": "kill_count_Spider",
+    "defaultvalue": 0,
+    "displayName": "Spider Kills"
   },
-  "kill_count_Ant": {
-    "description": "Ant Kills",
-    "value": 0
+  {
+    "name": "kill_count_Ant",
+    "defaultvalue": 0,
+    "displayName": "Ant Kills"
   },
-  "kill_count_GiantRat": {
-    "description": "Rat Kills",
-    "value": 0
+  {
+    "name": "kill_count_GiantRat",
+    "defaultvalue": 0,
+    "displayName": "Rat Kills"
   },
-  "kill_count_Scorpion": {
-    "description": "Scorpion Kills",
-    "value": 0
+  {
+    "name": "kill_count_Scorpion",
+    "defaultvalue": 0,
+    "displayName": "Scorpion Kills"
   },
-  "kill_count_Mantis": {
-    "description": "Mantis Kills",
-    "value": 0
+  {
+    "name": "kill_count_Mantis",
+    "defaultvalue": 0,
+    "displayName": "Mantis Kills"
   },
-  "kill_count_Wasp": {
-    "description": "Wasp Kills",
-    "value": 0
+  {
+    "name": "kill_count_Wasp",
+    "defaultvalue": 0,
+    "displayName": "Wasp Kills"
   },
-  "kill_count_Fungoid": {
-    "description": "Fungoid Kills",
-    "value": 0
+  {
+    "name": "kill_count_Fungoid",
+    "defaultvalue": 0,
+    "displayName": "Fungoid Kills"
   },
-  "kill_count_Golem": {
-    "description": "Golem Kills",
-    "value": 0
+  {
+    "name": "kill_count_Golem",
+    "defaultvalue": 0,
+    "displayName": "Golem Kills"
   },
-  "kill_count_Crow": {
-    "description": "Crow Kills",
-    "value": 0
+  {
+    "name": "kill_count_Crow",
+    "defaultvalue": 0,
+    "displayName": "Crow Kills"
   },
-  "kill_count_Wolf": {
-    "description": "Wolf Kills",
-    "value": 0
+  {
+    "name": "kill_count_Wolf",
+    "defaultvalue": 0,
+    "displayName": "Wolf Kills"
   },
-  "kill_count_Vampire": {
-    "description": "Imp Kills",
-    "value": 0
+  {
+    "name": "kill_count_Vampire",
+    "defaultvalue": 0,
+    "displayName": "Imp Kills"
   },
-  "kill_count_Barghest": {
-    "description": "Barghest Kills",
-    "value": 0
+  {
+    "name": "kill_count_Barghest",
+    "defaultvalue": 0,
+    "displayName": "Barghest Kills"
   },
-  "kill_count_Crocodile": {
-    "description": "Crocodile Kills",
-    "value": 0
+  {
+    "name": "kill_count_Crocodile",
+    "defaultvalue": 0,
+    "displayName": "Crocodile Kills"
   },
-  "kill_count_Allosaurus": {
-    "description": "Allosaurus Kills",
-    "value": 0
+  {
+    "name": "kill_count_Allosaurus",
+    "defaultvalue": 0,
+    "displayName": "Allosaurus Kills"
   },
-  "kill_count_Deinonychus": {
-    "description": "Deinoychus Kills",
-    "value": 0
+  {
+    "name": "kill_count_Deinonychus",
+    "defaultvalue": 0,
+    "displayName": "Deinoychus Kills"
   },
-  "kill_count_Spinosaurus": {
-    "description": "Spinosaurus Kills",
-    "value": 0
+  {
+    "name": "kill_count_Spinosaurus",
+    "defaultvalue": 0,
+    "displayName": "Spinosaurus Kills"
   },
-  "kill_count_Pteranodon": {
-    "description": "Pteranodon Kills",
-    "value": 0
+  {
+    "name": "kill_count_Pteranodon",
+    "defaultvalue": 0,
+    "displayName": "Pteranodon Kills"
   },
-  "kill_count_AllosaurusBoss": {
-    "description": "King Al Kills",
-    "value": 0
+  {
+    "name": "kill_count_AllosaurusBoss",
+    "defaultvalue": 0,
+    "displayName": "King Al Kills"
   },
-  "kill_count_Bear": {
-    "description": "Bear Kills",
-    "value": 0
+  {
+    "name": "kill_count_Bear",
+    "defaultvalue": 0,
+    "displayName": "Bear Kills"
   },
-  "kill_count_Fox": {
-    "description": "Fox Kills",
-    "value": 0
+  {
+    "name": "kill_count_Fox",
+    "defaultvalue": 0,
+    "displayName": "Fox Kills"
   },
-  "kill_count_HornedOwl": {
-    "description": "Horned Owl Kills",
-    "value": 0
+  {
+    "name": "kill_count_HornedOwl",
+    "defaultvalue": 0,
+    "displayName": "Horned Owl Kills"
   },
-  "kill_count_Stag": {
-    "description": "Stag Kills",
-    "value": 0
+  {
+    "name": "kill_count_Stag",
+    "defaultvalue": 0,
+    "displayName": "Stag Kills"
   },
-  "kill_count_Werewolf": {
-    "description": "Werewolf Kills",
-    "value": 0
+  {
+    "name": "kill_count_Werewolf",
+    "defaultvalue": 0,
+    "displayName": "Werewolf Kills"
   },
-  "kill_count_Lion": {
-    "description": "Lion Kills",
-    "value": 0
+  {
+    "name": "kill_count_Lion",
+    "defaultvalue": 0,
+    "displayName": "Lion Kills"
   },
-  "kill_count_Eagle": {
-    "description": "Eagle Kills",
-    "value": 0
+  {
+    "name": "kill_count_Eagle",
+    "defaultvalue": 0,
+    "displayName": "Eagle Kills"
   },
-  "kill_count_Gargoyle": {
-    "description": "Gargoyle Kills",
-    "value": 0
+  {
+    "name": "kill_count_Gargoyle",
+    "defaultvalue": 0,
+    "displayName": "Gargoyle Kills"
   },
-  "kill_count_VampireBat": {
-    "description": "Giant Bat Kills",
-    "value": 0
+  {
+    "name": "kill_count_VampireBat",
+    "defaultvalue": 0,
+    "displayName": "Giant Bat Kills"
   },
-  "kill_count_Dragon": {
-    "description": "Dragon Kills",
-    "value": 0
+  {
+    "name": "kill_count_Dragon",
+    "defaultvalue": 0,
+    "displayName": "Dragon Kills"
   },
-  "kill_count_Ent": {
-    "description": "Ent Kills",
-    "value": 0
+  {
+    "name": "kill_count_Ent",
+    "defaultvalue": 0,
+    "displayName": "Ent Kills"
   }
-}
+]

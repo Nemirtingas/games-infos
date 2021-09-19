@@ -1,122 +1,152 @@
-﻿{
-  "CRAZY_PETE_READ_NOTES": {
-    "description": "Crazy Pete Notes",
-    "value": 0
+[
+  {
+    "name": "CRAZY_PETE_READ_NOTES",
+    "defaultvalue": 0,
+    "displayName": "Crazy Pete Notes"
   },
-  "GENERAL_CRAFTED_WEAPONS": {
-    "description": "Crafted Weapons",
-    "value": 0
+  {
+    "name": "GENERAL_CRAFTED_WEAPONS",
+    "defaultvalue": 0,
+    "displayName": "Crafted Weapons"
   },
-  "CRAFTED_SHORT_SWORDS": {
-    "description": "Crafted Short Swords",
-    "value": 0
+  {
+    "name": "CRAFTED_SHORT_SWORDS",
+    "defaultvalue": 0,
+    "displayName": "Crafted Short Swords"
   },
-  "CRAFTED_BIG_SWORD": {
-    "description": "Crafted Big Swords",
-    "value": 0
+  {
+    "name": "CRAFTED_BIG_SWORD",
+    "defaultvalue": 0,
+    "displayName": "Crafted Big Swords"
   },
-  "CRAFTED_GLOVES": {
-    "description": "Crafted Gloves",
-    "value": 0
+  {
+    "name": "CRAFTED_GLOVES",
+    "defaultvalue": 0,
+    "displayName": "Crafted Gloves"
   },
-  "CRAFTED_SPEARS": {
-    "description": "Crafted Spears",
-    "value": 0
+  {
+    "name": "CRAFTED_SPEARS",
+    "defaultvalue": 0,
+    "displayName": "Crafted Spears"
   },
-  "CRAFTED_BOWS": {
-    "description": "Crafted Bows",
-    "value": 0
+  {
+    "name": "CRAFTED_BOWS",
+    "defaultvalue": 0,
+    "displayName": "Crafted Bows"
   },
-  "BOSSES_KILLED_BROOM": {
-    "description": "Bosses Killed With Broom",
-    "value": 0
+  {
+    "name": "BOSSES_KILLED_BROOM",
+    "defaultvalue": 0,
+    "displayName": "Bosses Killed With Broom"
   },
-  "ENEMIES_KILLED": {
-    "description": "Enemies Killed",
-    "value": 0
+  {
+    "name": "ENEMIES_KILLED",
+    "defaultvalue": 0,
+    "displayName": "Enemies Killed"
   },
-  "NUM_OF_DEATHS": {
-    "description": "",
-    "value": 0
+  {
+    "name": "NUM_OF_DEATHS",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "NUM_ITEMS_RETAILER_BOUGHT": {
-    "description": "",
-    "value": 0
+  {
+    "name": "NUM_ITEMS_RETAILER_BOUGHT",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "GOLEM_THIRD_FLOOR_NUM": {
-    "description": "Golem Third Floor",
-    "value": 0
+  {
+    "name": "GOLEM_THIRD_FLOOR_NUM",
+    "defaultvalue": 0,
+    "displayName": "Golem Third Floor"
   },
-  "FOREST_THIRD_FLOOR_NUM": {
-    "description": "Forest Third Floor",
-    "value": 0
+  {
+    "name": "FOREST_THIRD_FLOOR_NUM",
+    "defaultvalue": 0,
+    "displayName": "Forest Third Floor"
   },
-  "DESERT_THIRD_FLOOR_NUM": {
-    "description": "Desert Third Floor",
-    "value": 0
+  {
+    "name": "DESERT_THIRD_FLOOR_NUM",
+    "defaultvalue": 0,
+    "displayName": "Desert Third Floor"
   },
-  "TECH_THIRD_FLOOR_NUM": {
-    "description": "Tech Third Floor",
-    "value": 0
+  {
+    "name": "TECH_THIRD_FLOOR_NUM",
+    "defaultvalue": 0,
+    "displayName": "Tech Third Floor"
   },
-  "EARN_MONEY_BANKER_NUM": {
-    "description": "Scams To Banker",
-    "value": 0
+  {
+    "name": "EARN_MONEY_BANKER_NUM",
+    "defaultvalue": 0,
+    "displayName": "Scams To Banker"
   },
-  "SECRET_ROOM_FOUND_NUM": {
-    "description": "Secret Rooms Found",
-    "value": 0
+  {
+    "name": "SECRET_ROOM_FOUND_NUM",
+    "defaultvalue": 0,
+    "displayName": "Secret Rooms Found"
   },
-  "MONEY_TREE_NUM": {
-    "description": "Coins From Trees",
-    "value": 0
+  {
+    "name": "MONEY_TREE_NUM",
+    "defaultvalue": 0,
+    "displayName": "Coins From Trees"
   },
-  "POTIONS_BREAKABLE_NUM": {
-    "description": "Potions From Breakables",
-    "value": 0
+  {
+    "name": "POTIONS_BREAKABLE_NUM",
+    "defaultvalue": 0,
+    "displayName": "Potions From Breakables"
   },
-  "GOLEM_ENEMIES_KILLED_NUM": {
-    "description": "Golem Enemies Defeated",
-    "value": 0
+  {
+    "name": "GOLEM_ENEMIES_KILLED_NUM",
+    "defaultvalue": 0,
+    "displayName": "Golem Enemies Defeated"
   },
-  "FOREST_ENEMIES_KILLED_NUM": {
-    "description": "Forest Enemies Defeated",
-    "value": 0
+  {
+    "name": "FOREST_ENEMIES_KILLED_NUM",
+    "defaultvalue": 0,
+    "displayName": "Forest Enemies Defeated"
   },
-  "DESERT_ENEMIES_KILLED_NUM": {
-    "description": "Desert Enemies Defeated",
-    "value": 0
+  {
+    "name": "DESERT_ENEMIES_KILLED_NUM",
+    "defaultvalue": 0,
+    "displayName": "Desert Enemies Defeated"
   },
-  "TECH_ENEMIES_KILLED_NUM": {
-    "description": "Tech Enemies Defeated",
-    "value": 0
+  {
+    "name": "TECH_ENEMIES_KILLED_NUM",
+    "defaultvalue": 0,
+    "displayName": "Tech Enemies Defeated"
   },
-  "BUG_KILLED_NUM": {
-    "description": "Bugs Killed",
-    "value": 0
+  {
+    "name": "BUG_KILLED_NUM",
+    "defaultvalue": 0,
+    "displayName": "Bugs Killed"
   },
-  "VISITORS_OUT_NUM": {
-    "description": "Visitors That Gave Up",
-    "value": 0
+  {
+    "name": "VISITORS_OUT_NUM",
+    "defaultvalue": 0,
+    "displayName": "Visitors That Gave Up"
   },
-  "ITEMS_OVERPRICED_SELL_NUM": {
-    "description": "Overpriced Sold Items",
-    "value": 0
+  {
+    "name": "ITEMS_OVERPRICED_SELL_NUM",
+    "defaultvalue": 0,
+    "displayName": "Overpriced Sold Items"
   },
-  "ITEMS_PERFECT_SELL_NUM": {
-    "description": "Perfect Sold Items",
-    "value": 0
+  {
+    "name": "ITEMS_PERFECT_SELL_NUM",
+    "defaultvalue": 0,
+    "displayName": "Perfect Sold Items"
   },
-  "ITEMS_CHEAP_SELL_NUM": {
-    "description": "Cheap Sold Items",
-    "value": 0
+  {
+    "name": "ITEMS_CHEAP_SELL_NUM",
+    "defaultvalue": 0,
+    "displayName": "Cheap Sold Items"
   },
-  "ITEMS_HIGH_PRICE_SELL_NUM": {
-    "description": "Expensive Valorations",
-    "value": 0
+  {
+    "name": "ITEMS_HIGH_PRICE_SELL_NUM",
+    "defaultvalue": 0,
+    "displayName": "Expensive Valorations"
   },
-  "WITCH_SLIME_HIT_NUM": {
-    "description": "",
-    "value": 0
+  {
+    "name": "WITCH_SLIME_HIT_NUM",
+    "defaultvalue": 0,
+    "displayName": ""
   }
-}
+]

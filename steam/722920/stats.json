@@ -1,14 +1,17 @@
-﻿{
-  "games_won": {
-    "description": "Squirmishes Won",
-    "value": 0
+[
+  {
+    "name": "games_won",
+    "defaultvalue": 0,
+    "displayName": "Squirmishes Won"
   },
-  "games_lost": {
-    "description": "Squirmishes Lost",
-    "value": 0
+  {
+    "name": "games_lost",
+    "defaultvalue": 0,
+    "displayName": "Squirmishes Lost"
   },
-  "games_played": {
-    "description": "Squirmishes Played",
-    "value": 0
+  {
+    "name": "games_played",
+    "defaultvalue": 0,
+    "displayName": "Squirmishes Played"
   }
-}
+]

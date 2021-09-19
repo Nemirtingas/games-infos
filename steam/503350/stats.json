@@ -1,66 +1,82 @@
-﻿{
-  "Win_Matches_Monster": {
-    "description": "",
-    "value": 0
+[
+  {
+    "name": "Win_Matches_Monster",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Win_Matches_Survivor": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Win_Matches_Survivor",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Find_Clues": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Find_Clues",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Walk_Distance": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Walk_Distance",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Lightsticks_Thrown": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Lightsticks_Thrown",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Pick_Items": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Pick_Items",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Place_Totems": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Place_Totems",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Disable_Totems": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Disable_Totems",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Survivor_Deaths": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Survivor_Deaths",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Play_Games": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Play_Games",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Partners_Saved": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Partners_Saved",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Monster_Olkoth": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Monster_Olkoth",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Monster_Rusalka": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Monster_Rusalka",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Monster_Subject23": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Monster_Subject23",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Monster_Banshee": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Monster_Banshee",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Survivor_Games": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Survivor_Games",
+    "defaultvalue": 0,
+    "displayName": ""
   }
-}
+]

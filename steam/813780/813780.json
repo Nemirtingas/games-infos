@@ -2,16 +2,28 @@
   "Dlcs": {
     "1039811": {
       "Name": "Enhanced Graphics Pack",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/1039811/header.jpg?t=1574106710"
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1039811/header.jpg?t=1628609913",
+      "Type": "dlc"
     },
     "1228810": {
-      "Name": "",
-      "ImageUrl": ""
+      "Name": "Age of Empires II: Definitive Edition Soundtrack",
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1228810/header.jpg?t=1581558225",
+      "Type": "music"
+    },
+    "1389240": {
+      "Name": "Age of Empires II: Definitive Edition - Lords of the West",
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1389240/header.jpg?t=1628609904",
+      "Type": "dlc"
+    },
+    "1557210": {
+      "Name": "Age of Empires II: Definitive Edition - Dawn of the Dukes",
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1557210/header.jpg?t=1628611285",
+      "Type": "dlc"
     }
   },
   "Name": "Age of Empires II: Definitive Edition",
   "AppId": "813780",
-  "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/813780/header.jpg?t=1598909139",
+  "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/813780/header.jpg?t=1631209290",
   "Languages": [
     "english",
     "french",
@@ -26,7 +38,8 @@
     "tchinese",
     "turkish",
     "vietnamese",
-    "spanish"
+    "spanish",
+    "polish"
   ],
   "Platforms": {
     "windows": true,

@@ -30,7 +30,8 @@
     "name": "EAchievementEarnedByTrains",
     "defaultvalue": 0,
     "displayName": "Earned by trains",
-    "hidden": 1,
+    "hidden": 0,
+    "description": "Earned a lot by trains",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/598960/3d06e71aa1316772dd4bdf89a5d07d57160c6044.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/598960/1952651a61e7be72cd42d80423dc6622e7bb34cb.jpg"
   },
@@ -188,12 +189,13 @@
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/598960/52119cf9c1c922c649816ac249b86ed9f40ba785.jpg"
   },
   {
-    "name": "EAchievementDeliverManyGold",
+    "name": "EAchievementDeliverManySand",
     "defaultvalue": 0,
     "displayName": "Sandbox boy",
-    "hidden": 1,
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/598960/0209b4a33040f5f7d2a7530ad2aed934ffe80169.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/598960/c8300c566f7efa15c8461a12da03deb7bee71fcf.jpg"
+    "hidden": 0,
+    "description": "Deliver 500,000 units of sand",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/598960/ae9ff9c361b288ee235ee4861451cd8f6fe69b8c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/598960/ccbd93aba5b6ddd7e690d978ec0efe904e2c4c68.jpg"
   },
   {
     "name": "EAchievementDeliverManyMail",
@@ -223,18 +225,20 @@
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/598960/5e18e702a0d24b34edfbe292b2167e937c007b91.jpg"
   },
   {
-    "name": "EAchievementDeliverManyUranium",
+    "name": "EAchievementDeliverManyFood",
     "defaultvalue": 0,
     "displayName": "Farmer",
-    "hidden": 1,
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/598960/5ebe6de0dac3b5d9ae65c8589cdc299f716f54ef.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/598960/ed51546a7821d42a809392ffeda776756bde02ca.jpg"
+    "hidden": 0,
+    "description": "Deliver 500,000 units of Food",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/598960/1ab689925db368c3391d1009c9a06b3ab07c3dc0.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/598960/19a25d58c2b39c8134c51f2a65696486ffe5b11e.jpg"
   },
   {
     "name": "EAchievementDeliverManyCobelstone",
     "defaultvalue": 0,
     "displayName": "Limestone sculptor",
-    "hidden": 1,
+    "hidden": 0,
+    "description": "Deliver 500,000 units of Limestone",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/598960/a6a2a8112e7971929675795ad97ab9de8c5532e1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/598960/18134c412ccace47ace0f8c4d461eec1abef9623.jpg"
   },
@@ -242,7 +246,8 @@
     "name": "EAchievementDeliverManyCement",
     "defaultvalue": 0,
     "displayName": "Concrete pyramid",
-    "hidden": 1,
+    "hidden": 0,
+    "description": "Deliver 500,000 units of Cement",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/598960/61e5c294d57ce958bf3c4e1bce55c052890a980c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/598960/0bc3698ad255a2e4d5bf860ed03ebdf3505dc342.jpg"
   },
@@ -276,7 +281,7 @@
   {
     "name": "EAchievementWhistle",
     "defaultvalue": 0,
-    "displayName": "Chuu chuu!",
+    "displayName": "Choo choo!",
     "hidden": 0,
     "description": "Use Whistle too many times.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/598960/3fa49d53a5d7e4fa9e1e9ef5ab68028238ea7134.jpg",
@@ -340,7 +345,8 @@
     "name": "EAchievementEra5",
     "defaultvalue": 0,
     "displayName": "Early age of Electric",
-    "hidden": 1,
+    "hidden": 0,
+    "description": "Unlock Early age of Electric by payment",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/598960/97c46de24d862bfc18200fd06e76b91fe8d04954.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/598960/d445111bc5b196c2e54fce5c1f3c38804d0f9854.jpg"
   },
@@ -348,7 +354,8 @@
     "name": "EAchievementEra6",
     "defaultvalue": 0,
     "displayName": "Age of Electric",
-    "hidden": 1,
+    "hidden": 0,
+    "description": "Unlock Age of Electric by payment",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/598960/9c8abb0ebe99a20fdc42858b21a8d8e2feb06539.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/598960/725e1bd62a7b57e26cc519e2cfeaf7fee77e8aa4.jpg"
   },
@@ -426,7 +433,8 @@
     "name": "EAchievementCement",
     "defaultvalue": 0,
     "displayName": "Concrete world",
-    "hidden": 1,
+    "hidden": 0,
+    "description": "Accumulate 10,000 Concrete Tokens in single game",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/598960/7edda2ec6c0ffbf1163fb15db345b650f4187c2d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/598960/6efeede115cc69f9457a0e8327a20b620df9dfd1.jpg"
   },
@@ -434,7 +442,8 @@
     "name": "EAchievementEnergy",
     "defaultvalue": 0,
     "displayName": "Turn all lights on",
-    "hidden": 1,
+    "hidden": 0,
+    "description": "Accumulate 10,000 Electric Tokens in single game",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/598960/8aefa572048bd7adf57a291b99d6f09e9eacb6ba.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/598960/38ec4ca7690c212afc76ccc2ba3c0cc2829afc0c.jpg"
   },
@@ -445,5 +454,22 @@
     "hidden": 1,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/598960/1ff41cb3126c9f0f34cd4be17f6345f8a1ea1775.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/598960/c4578e00a0c16e1fffeb6f412142a7603892aeea.jpg"
+  },
+  {
+    "name": "EAchievementDeliverManyGoods",
+    "defaultvalue": 0,
+    "displayName": "Parcel logistics",
+    "hidden": 0,
+    "description": "Deliver 500,000 units of Goods",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/598960/948055f872335d934391e7afbae8867d0680594a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/598960/8eec80266d3569eda803733e3f860f9ed8449106.jpg"
+  },
+  {
+    "name": "EAchievementDeliverManyUranium",
+    "defaultvalue": 0,
+    "displayName": "Shine in a dark",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/598960/c110eb6a5d6f5006ed38a04e1b3d42adfe49642f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/598960/51e081830d5742fee1a98e2a1de68098dfd7c069.jpg"
   }
 ]

@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "name": "BUMBO_THE_NIMBLE",
     "defaultvalue": 0,
@@ -338,5 +338,95 @@
     "description": "Beat Chapter 2 with Bumbo the Brave.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1148650/448060144a1561aff3194303a339f8cacc64e3fc.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1148650/e397ef537da01d9ab8f763cc9b3ca962731899cc.jpg"
+  },
+  {
+    "name": "BUMBO_THE_LOST",
+    "defaultvalue": 0,
+    "displayName": "Bumbo The Lost",
+    "hidden": 0,
+    "description": "Beat Chapter 1-3 without taking damage.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1148650/4c8111c3fdbdddade2fc76672d713e46455f774e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1148650/d1747677b409698a7d2a4722b3a352af32bb6eff.jpg"
+  },
+  {
+    "name": "THE_NEGATIVE",
+    "defaultvalue": 0,
+    "displayName": "The Negative",
+    "hidden": 0,
+    "description": "Beat the game with The Lost.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1148650/72e0a284bf089de42e3c2789b2c1d1c60395d87f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1148650/adbefadb79e9a6f24347c8f8f7df8babd574a6c7.jpg"
+  },
+  {
+    "name": "BACKSTABBER",
+    "defaultvalue": 0,
+    "displayName": "Backstabber",
+    "hidden": 0,
+    "description": "Beat the game with The Nimble while holding 45+ coins.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1148650/62792bef59f3eda89207a3e85740960db90c96fc.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1148650/9a7a5317f3b7d3d3cd635a80a619c070b074a541.jpg"
+  },
+  {
+    "name": "CAT_HEART",
+    "defaultvalue": 0,
+    "displayName": "Cat Heart",
+    "hidden": 0,
+    "description": "Beat the game with The Stout while holding 45+ coins.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1148650/ce316027f23270c370a24a217bcba74f95bb5e64.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1148650/6339cac8a1ff3ec0f24c8d21c3a96d366009ade5.jpg"
+  },
+  {
+    "name": "DEAD_DOVE",
+    "defaultvalue": 0,
+    "displayName": "Dead Dove",
+    "hidden": 0,
+    "description": "Beat the game with The Lost twice.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1148650/1689e055c0769f1dd4db02452e6e7da753f49db7.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1148650/1e0c35a09d65a57958b07438069252eb1a0b04ee.jpg"
+  },
+  {
+    "name": "TWENTY_LBS_WEIGHT",
+    "defaultvalue": 0,
+    "displayName": "20lbs Weight",
+    "hidden": 0,
+    "description": "Beat the game with The Brave while holding 45+ coins.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1148650/081cbe5034ac717241e82b8d41adbb75bcca2694.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1148650/0a52918e0be828bac8e58df0832d00e12c365878.jpg"
+  },
+  {
+    "name": "BUZZ_UP",
+    "defaultvalue": 0,
+    "displayName": "Buzz Up",
+    "hidden": 0,
+    "description": "Beat the game with The Dead while holding 45+ coins.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1148650/e1f32726759691ecfcef3cb29b010a5671d1de3a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1148650/bfaab913ad41d33293ae5099966ee9fecf7aa9ea.jpg"
+  },
+  {
+    "name": "PAUSE",
+    "defaultvalue": 0,
+    "displayName": "Pause",
+    "hidden": 0,
+    "description": "Beat the game with The Weird while holding 45+ coins.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1148650/0f60e6e16f461b354bb6549624573e0a84307937.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1148650/9fb58010141c1d2fb2c98e775cd30183803a3ec4.jpg"
+  },
+  {
+    "name": "TWENTY_TWENTY",
+    "defaultvalue": 0,
+    "displayName": "20/20",
+    "hidden": 0,
+    "description": "Beat the game with The Empty while holding 45+ coins.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1148650/5a2dcfed9edb4e736e1de3fb4928b09dbce31e78.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1148650/59745c2fed32927128ea38e32531cf6ee69b56a5.jpg"
+  },
+  {
+    "name": "HOLY_MANTLE",
+    "defaultvalue": 0,
+    "displayName": "Holy Mantle",
+    "hidden": 0,
+    "description": "Beat the game with The Lost while holding 45+ coins.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1148650/8c87033f8f74cb220865f58b0ce629445ce5f1bc.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1148650/588705ea88dbb04274bff55287e938b9b60e1f67.jpg"
   }
 ]

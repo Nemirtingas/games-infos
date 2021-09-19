@@ -1,42 +1,52 @@
-﻿{
-  "deaths": {
-    "description": "Deaths",
-    "value": 0
+[
+  {
+    "name": "deaths",
+    "defaultvalue": 0,
+    "displayName": "Deaths"
   },
-  "enemies_killed": {
-    "description": "Enemies Killed",
-    "value": 0
+  {
+    "name": "enemies_killed",
+    "defaultvalue": 0,
+    "displayName": "Enemies Killed"
   },
-  "coins_all": {
-    "description": "Total Coins",
-    "value": 0
+  {
+    "name": "coins_all",
+    "defaultvalue": 0,
+    "displayName": "Total Coins"
   },
-  "jumps": {
-    "description": "Jumps",
-    "value": 0
+  {
+    "name": "jumps",
+    "defaultvalue": 0,
+    "displayName": "Jumps"
   },
-  "bow_kills": {
-    "description": "Bow Kills",
-    "value": 0
+  {
+    "name": "bow_kills",
+    "defaultvalue": 0,
+    "displayName": "Bow Kills"
   },
-  "melee_kills": {
-    "description": "Melee Kills",
-    "value": 0
+  {
+    "name": "melee_kills",
+    "defaultvalue": 0,
+    "displayName": "Melee Kills"
   },
-  "one_hp_finish": {
-    "description": "1 HP level finishes",
-    "value": 0
+  {
+    "name": "one_hp_finish",
+    "defaultvalue": 0,
+    "displayName": "1 HP level finishes"
   },
-  "three_hp_finish": {
-    "description": "3 HP level finishes",
-    "value": 0
+  {
+    "name": "three_hp_finish",
+    "defaultvalue": 0,
+    "displayName": "3 HP level finishes"
   },
-  "spike_kills": {
-    "description": "Spike deaths",
-    "value": 0
+  {
+    "name": "spike_kills",
+    "defaultvalue": 0,
+    "displayName": "Spike deaths"
   },
-  "chest_all": {
-    "description": "All Chests",
-    "value": 0
+  {
+    "name": "chest_all",
+    "defaultvalue": 0,
+    "displayName": "All Chests"
   }
-}
+]

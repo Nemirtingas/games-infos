@@ -1,54 +1,67 @@
-﻿{
-  "WildlifeGenocidist_Stat": {
-    "description": "Wildlife Genocidist",
-    "value": 0
+[
+  {
+    "name": "WildlifeGenocidist_Stat",
+    "defaultvalue": 0,
+    "displayName": "Wildlife Genocidist"
   },
-  "HelpingHand_Stat": {
-    "description": "Helping Hand",
-    "value": 0
+  {
+    "name": "HelpingHand_Stat",
+    "defaultvalue": 0,
+    "displayName": "Helping Hand"
   },
-  "IfItBleeds_Stat": {
-    "description": "If It Bleeds",
-    "value": 0
+  {
+    "name": "IfItBleeds_Stat",
+    "defaultvalue": 0,
+    "displayName": "If It Bleeds"
   },
-  "KnockKnock_Stat": {
-    "description": "Knock-Knock",
-    "value": 0
+  {
+    "name": "KnockKnock_Stat",
+    "defaultvalue": 0,
+    "displayName": "Knock-Knock"
   },
-  "WereNotAssassins_Stat": {
-    "description": "We're Not Assassins",
-    "value": 0
+  {
+    "name": "WereNotAssassins_Stat",
+    "defaultvalue": 0,
+    "displayName": "We're Not Assassins"
   },
-  "PaybackTime_Stat": {
-    "description": "Payback Time",
-    "value": 0
+  {
+    "name": "PaybackTime_Stat",
+    "defaultvalue": 0,
+    "displayName": "Payback Time"
   },
-  "EvolutionMania_Stat": {
-    "description": "Do The Evolution",
-    "value": 0
+  {
+    "name": "EvolutionMania_Stat",
+    "defaultvalue": 0,
+    "displayName": "Do The Evolution"
   },
-  "GamesStarted_Stat": {
-    "description": "Games Played",
-    "value": 0
+  {
+    "name": "GamesStarted_Stat",
+    "defaultvalue": 0,
+    "displayName": "Games Played"
   },
-  "GamesWon_Stat": {
-    "description": "Games Won",
-    "value": 0
+  {
+    "name": "GamesWon_Stat",
+    "defaultvalue": 0,
+    "displayName": "Games Won"
   },
-  "GamesLost_Stat": {
-    "description": "Games Lost",
-    "value": 0
+  {
+    "name": "GamesLost_Stat",
+    "defaultvalue": 0,
+    "displayName": "Games Lost"
   },
-  "GamesQuit_Stat": {
-    "description": "Games Quit",
-    "value": 0
+  {
+    "name": "GamesQuit_Stat",
+    "defaultvalue": 0,
+    "displayName": "Games Quit"
   },
-  "GamesDisconnected_Stat": {
-    "description": "Games Disconnected",
-    "value": 0
+  {
+    "name": "GamesDisconnected_Stat",
+    "defaultvalue": 0,
+    "displayName": "Games Disconnected"
   },
-  "GodsOfTheArena_Stat": {
-    "description": "Masters of the Arena",
-    "value": 0
+  {
+    "name": "GodsOfTheArena_Stat",
+    "defaultvalue": 0,
+    "displayName": "Masters of the Arena"
   }
-}
+]

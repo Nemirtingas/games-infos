@@ -1,62 +1,77 @@
-﻿{
-  "TotalXP_TotalXP": {
-    "description": "",
-    "value": 0
+[
+  {
+    "name": "TotalXP_TotalXP",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Unlocked_Cities": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Unlocked_Cities",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Passengers_Transported": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Passengers_Transported",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Hours_Driven_At_Night": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Hours_Driven_At_Night",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Routes_Completed": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Routes_Completed",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Refueled": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Refueled",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Kilometers_With_Lions_Coach": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Kilometers_With_Lions_Coach",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Kilometers_With_Lions_Coach_C": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Kilometers_With_Lions_Coach_C",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Passengers_Rejected": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Passengers_Rejected",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Break_Times": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Break_Times",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Cities_With_Sights_Visited": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Cities_With_Sights_Visited",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Driven_Backwards": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Driven_Backwards",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Kilometers_With_Neoplan_Skyliner": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Kilometers_With_Neoplan_Skyliner",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Kilometers_With_ComClass": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Kilometers_With_ComClass",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Football_Matchdays": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Football_Matchdays",
+    "defaultvalue": 0,
+    "displayName": ""
   }
-}
+]

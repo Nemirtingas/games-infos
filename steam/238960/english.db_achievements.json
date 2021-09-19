@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "name": "FinishNormal",
     "defaultvalue": 0,
@@ -877,7 +877,7 @@
     "defaultvalue": 0,
     "displayName": "New World Order",
     "hidden": 0,
-    "description": "Upgrade a map with a Shaper's Orb.",
+    "description": "Socket a Watchstone into any Region of your Atlas.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/238960/726f3f1a3a70c6855e3b68f203da56bb3561fa4a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/238960/358ba08e796e7a5b27a59567a033ea685b9867d8.jpg"
   },
@@ -1078,5 +1078,32 @@
     "description": "Use an orb to change the mods of a Strongbox.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/238960/08ab34fc44054d4b1eb719a4c700d281af99e06b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/238960/4c9f1b198d21ec6d6b3a579dc4fb1a509cde21b9.jpg"
+  },
+  {
+    "name": "UpgradeAllCountriesTier5",
+    "defaultvalue": 0,
+    "displayName": "King Cartographer",
+    "hidden": 0,
+    "description": "Have four Watchstones socketed in each Region of your Atlas.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/238960/6ac216fae7ff189406c5f13731826388681666dc.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/238960/2168ecaa636493f25381600c05e2a97f5f781495.jpg"
+  },
+  {
+    "name": "DefeatTheOrion",
+    "defaultvalue": 0,
+    "displayName": "Sirus, Awakener of Worlds",
+    "hidden": 0,
+    "description": "Defeat Sirus, Awakener of Worlds.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/238960/900ad9e18bcffed849b8e22455cce1eadb34dfec.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/238960/caed6b617d5291cf9a64b04226971540365076e6.jpg"
+  },
+  {
+    "name": "DefeatTheMaven",
+    "defaultvalue": 0,
+    "displayName": "Defeat The Maven",
+    "hidden": 0,
+    "description": "Accept The Maven's Invitation and defeat The Maven.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/238960/2b6ff455f07e09c7f06e97563ed2b233db225290.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/238960/98e11a484f42f68ebb771598d61b3ca7809c85e0.jpg"
   }
 ]

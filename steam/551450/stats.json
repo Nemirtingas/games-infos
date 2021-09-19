@@ -1,78 +1,97 @@
-﻿{
-  "statsVersion": {
-    "description": "",
-    "value": 0
+[
+  {
+    "name": "statsVersion",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "jets": {
-    "description": "",
-    "value": 0
+  {
+    "name": "jets",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "negated": {
-    "description": "",
-    "value": 0
+  {
+    "name": "negated",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "dayID": {
-    "description": "",
-    "value": 0
+  {
+    "name": "dayID",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "daysPlayed": {
-    "description": "",
-    "value": 0
+  {
+    "name": "daysPlayed",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "dayKills": {
-    "description": "",
-    "value": 0
+  {
+    "name": "dayKills",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "dayRunTime": {
-    "description": "",
-    "value": 0
+  {
+    "name": "dayRunTime",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "shredded": {
-    "description": "",
-    "value": 0
+  {
+    "name": "shredded",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "rammed": {
-    "description": "",
-    "value": 0
+  {
+    "name": "rammed",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "daySeed": {
-    "description": "",
-    "value": 0
+  {
+    "name": "daySeed",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "dayEndTime": {
-    "description": "",
-    "value": 0
+  {
+    "name": "dayEndTime",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "rank": {
-    "description": "Rank",
-    "value": 0
+  {
+    "name": "rank",
+    "defaultvalue": 0,
+    "displayName": "Rank"
   },
-  "dayGameVersion": {
-    "description": "",
-    "value": 0
+  {
+    "name": "dayGameVersion",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "dayScorpions": {
-    "description": "",
-    "value": 0
+  {
+    "name": "dayScorpions",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "dayStartTime": {
-    "description": "",
-    "value": 0
+  {
+    "name": "dayStartTime",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "dayRuns": {
-    "description": "",
-    "value": 0
+  {
+    "name": "dayRuns",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "sniped": {
-    "description": "",
-    "value": 0
+  {
+    "name": "sniped",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "kills": {
-    "description": "Confirmed Kills",
-    "value": 0
+  {
+    "name": "kills",
+    "defaultvalue": 0,
+    "displayName": "Confirmed Kills"
   },
-  "lastDayID": {
-    "description": "",
-    "value": 0
+  {
+    "name": "lastDayID",
+    "defaultvalue": 0,
+    "displayName": ""
   }
-}
+]

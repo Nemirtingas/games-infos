@@ -1,34 +1,42 @@
-﻿{
-  "stat_kills": {
-    "description": "Kills",
-    "value": 0
+[
+  {
+    "name": "stat_kills",
+    "defaultvalue": 0,
+    "displayName": "Kills"
   },
-  "stat_xp": {
-    "description": "",
-    "value": 0
+  {
+    "name": "stat_xp",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "stat_cash": {
-    "description": "",
-    "value": 0
+  {
+    "name": "stat_cash",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "stat_weap": {
-    "description": "",
-    "value": 0
+  {
+    "name": "stat_weap",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "stat_armor": {
-    "description": "",
-    "value": 0
+  {
+    "name": "stat_armor",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "stat_weap2": {
-    "description": "",
-    "value": 0
+  {
+    "name": "stat_weap2",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "stat_battle_royale": {
-    "description": "Battle Royale Rating",
-    "value": 1500
+  {
+    "name": "stat_battle_royale",
+    "defaultvalue": 1500,
+    "displayName": "Battle Royale Rating"
   },
-  "stat_headshots": {
-    "description": "",
-    "value": 0
+  {
+    "name": "stat_headshots",
+    "defaultvalue": 0,
+    "displayName": ""
   }
-}
+]

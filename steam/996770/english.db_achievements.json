@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "name": "ach_110effort",
     "defaultvalue": 0,
@@ -189,7 +189,7 @@
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/996770/dd56a1c9fa149e9fcedcfe0dbd77a4ed7da2d73d.jpg"
   },
   {
-    "name": "That's Not Landfill!",
+    "name": "ach_notlandfill",
     "defaultvalue": 0,
     "displayName": "That's Not Landfill!",
     "hidden": 0,
@@ -232,5 +232,101 @@
     "description": "Smash the hidden letterbox with the truck",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/996770/ff9617460ded5a993f07fec6d46f5da73f38c1a7.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/996770/45edd07f283a70b1c0d2436e06fd6ba2977b3f71.jpg"
+  },
+  {
+    "name": "ach_recertified",
+    "defaultvalue": 0,
+    "displayName": "Recertified",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/996770/d8f1916331c671c8f2b6af99a7610c7d30989df6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/996770/42237c892c459df1c90d30d4494068b25a66d221.jpg"
+  },
+  {
+    "name": "ach_wholiveshere",
+    "defaultvalue": 0,
+    "displayName": "Who lives here?",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/996770/44b5cd1b8f9a87137def60dc7697214ce38faccd.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/996770/b0503176725e5b6652d59c2f72d449c400a537a3.jpg"
+  },
+  {
+    "name": "ach_wheretonext",
+    "defaultvalue": 0,
+    "displayName": "Where to next?",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/996770/b4f9470bccd40bf9f6e5ca3240bbbfe0dce8643c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/996770/597499f1bd68cc5f5596cfa73eda64302ccb5ec0.jpg"
+  },
+  {
+    "name": "ach_goldenparadise",
+    "defaultvalue": 0,
+    "displayName": "Golden Paradise",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/996770/debff1a47a50b32d1f1b073841265f3ef57351b8.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/996770/0fbd38d8148e5e6241f8afb8c1603f1e8f21c24a.jpg"
+  },
+  {
+    "name": "ach_tropicalobjectivescomplete",
+    "defaultvalue": 0,
+    "displayName": "Objectives Complete II: The Completionist",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/996770/4fff35b8cec529341f2c122c81f9165dad042059.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/996770/0f62d6c98aea55ac9d9194d4edd44ae0e9257649.jpg"
+  },
+  {
+    "name": "ach_drownspecialcar",
+    "defaultvalue": 0,
+    "displayName": "Did I do that?",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/996770/ec039fe8de1cb82919215a0cf708761baca51ea0.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/996770/96bfff478ee6a8953fb8220e7604e452b3ebaedd.jpg"
+  },
+  {
+    "name": "ach_hottubpufferfish",
+    "defaultvalue": 0,
+    "displayName": "Hot Tub Reward Machine",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/996770/6df4b8c4d419b2a4127d20dcae52c658411e8f1c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/996770/8a24b90bd022e1c3687d2310075987929260ee20.jpg"
+  },
+  {
+    "name": "ach_sandcastlesmash",
+    "defaultvalue": 0,
+    "displayName": "SMASH!",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/996770/f3575fca9fdd3bf2f7c54a25f4c0b584a16f4ac0.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/996770/53f7b63a104db7ea38a1651b0fa20d3a0c4a70bb.jpg"
+  },
+  {
+    "name": "ach_ziplines",
+    "defaultvalue": 0,
+    "displayName": "Zip It Good",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/996770/2cd25a042f4f54e723b39ed6656549a1eca38cac.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/996770/91359a7d4a2886e575f05921b59f5744db80dc22.jpg"
+  },
+  {
+    "name": "ach_tropicalsecretobjects",
+    "defaultvalue": 0,
+    "displayName": "Not Landfill 2: Packmore Island's Revenge",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/996770/f92edea1e1af0968258d17b33a725049f04fa834.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/996770/450e436e7f33c1df6204784594c1a4ae159c5223.jpg"
+  },
+  {
+    "name": "ach_worldmapballoons",
+    "defaultvalue": 0,
+    "displayName": "Oh the humanity",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/996770/c566e3a39052d3015a476a435974d5c137e2ef9d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/996770/dd07249ad86a41f941ae92c77fb16473e2794038.jpg"
+  },
+  {
+    "name": "ach_scubaride",
+    "defaultvalue": 0,
+    "displayName": "Weeeeeeeeeeeeee!",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/996770/e72ba48f2d6d38d38a3f353ebf0b2f4bcc724efa.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/996770/8f62e52dcac74193a7bbf3708a7be2101854cdc2.jpg"
   }
 ]

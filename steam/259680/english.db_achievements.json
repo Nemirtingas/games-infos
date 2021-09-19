@@ -15766,5 +15766,248 @@
     "description": "Wield the Annihilator as an Annihilator.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/259680/c8f21600d12b45566b476ec83d19b3f4bac750a4.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/259680/8db6ad8ea09338793da9fd5f5739f329cb36108b.jpg"
+  },
+  {
+    "name": "TOME_AOADS_BURN",
+    "defaultvalue": 0,
+    "displayName": "This is how the world ends: swallowed in fire, but not in darkness.",
+    "hidden": 0,
+    "description": "Won ToME by sacrificing yourself for your patron Distant Sun, opening a portal for it to burn and consume the world.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/259680/1ae67b7dae991b5c2fe1b10478d139487a0d277f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/259680/ff8f02168ace9194ae023032afcb5c5dfe6904dd.jpg"
+  },
+  {
+    "name": "TOME_NORMAL_ROGUELIKE_AOADS_BURN",
+    "defaultvalue": 0,
+    "displayName": "This is how the world ends: swallowed in fire, but not in darkness. (Roguelike)",
+    "hidden": 0,
+    "description": "Won ToME by sacrificing yourself for your patron Distant Sun, opening a portal for it to burn and consume the world.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/259680/571480f40d92b697d974b5cb4caebb5fb45effb2.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/259680/af2cb91619a9f4552ed31eb3cbc2af4bdf9a1e84.jpg"
+  },
+  {
+    "name": "TOME_EXPLORATION_AOADS_BURN",
+    "defaultvalue": 0,
+    "displayName": "This is how the world ends: swallowed in fire, but not in darkness. (Exploration mode)",
+    "hidden": 0,
+    "description": "Won ToME by sacrificing yourself for your patron Distant Sun, opening a portal for it to burn and consume the world.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/259680/bec122b1fcf78068fa8a4971b49045d28998f68d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/259680/e53f7fc25352d680340eb3f45d6a1272ae3dbefa.jpg"
+  },
+  {
+    "name": "TOME_NIGHTMARE_ADVENTURE_AOADS_BURN",
+    "defaultvalue": 0,
+    "displayName": "This is how the world ends: swallowed in fire, but not in darkness. (Nightmare (Adventure) difficulty)",
+    "hidden": 0,
+    "description": "Won ToME by sacrificing yourself for your patron Distant Sun, opening a portal for it to burn and consume the world.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/259680/05130f805daf7b7dcd43024e13465a6c9502a3ea.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/259680/69242718e0f7ac760f0eb1df0d8d1695cb30a790.jpg"
+  },
+  {
+    "name": "TOME_NIGHTMARE_AOADS_BURN",
+    "defaultvalue": 0,
+    "displayName": "This is how the world ends: swallowed in fire, but not in darkness. (Nightmare (Roguelike) difficulty)",
+    "hidden": 0,
+    "description": "Won ToME by sacrificing yourself for your patron Distant Sun, opening a portal for it to burn and consume the world.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/259680/366d86096570acedecd5efdd144f7fb269f96766.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/259680/24119abe73e98cafd64ab895f455ed05ec366e4b.jpg"
+  },
+  {
+    "name": "TOME_INSANE_ADVENTURE_AOADS_BURN",
+    "defaultvalue": 0,
+    "displayName": "This is how the world ends: swallowed in fire, but not in darkness. (Insane (Adventure) difficulty)",
+    "hidden": 0,
+    "description": "Won ToME by sacrificing yourself for your patron Distant Sun, opening a portal for it to burn and consume the world.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/259680/6b31ac10a50c286be77757760a8166fbb7a33227.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/259680/bbb2410c0cc6c4251521a071b2c0452469852f41.jpg"
+  },
+  {
+    "name": "TOME_INSANE_AOADS_BURN",
+    "defaultvalue": 0,
+    "displayName": "This is how the world ends: swallowed in fire, but not in darkness. (Insane (Roguelike) difficulty)",
+    "hidden": 0,
+    "description": "Won ToME by sacrificing yourself for your patron Distant Sun, opening a portal for it to burn and consume the world.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/259680/eb2e23531ab9425b91c3a2805581ddee409e2e70.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/259680/35ac43786da28c2c28fc0927786f7e195a8e4d03.jpg"
+  },
+  {
+    "name": "TOME_MADNESS_ADVENTURE_AOADS_BURN",
+    "defaultvalue": 0,
+    "displayName": "This is how the world ends: swallowed in fire, but not in darkness. (Madness (Adventure) difficulty)",
+    "hidden": 0,
+    "description": "Won ToME by sacrificing yourself for your patron Distant Sun, opening a portal for it to burn and consume the world.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/259680/b93701dda6609a06cbfc9bc73802accb5ed168ab.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/259680/68f68db32f08c3624698cd5095c30365b429f423.jpg"
+  },
+  {
+    "name": "TOME_MADNESS_AOADS_BURN",
+    "defaultvalue": 0,
+    "displayName": "This is how the world ends: swallowed in fire, but not in darkness. (Madness (Roguelike) difficulty)",
+    "hidden": 0,
+    "description": "Won ToME by sacrificing yourself for your patron Distant Sun, opening a portal for it to burn and consume the world.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/259680/3d74f43c9f3caedfeb210386acc0c79ac60f5684.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/259680/a277207a7aea1d83290694fcafcc400428786667.jpg"
+  },
+  {
+    "name": "TOME_AOADS_SELFLESS",
+    "defaultvalue": 0,
+    "displayName": "Last Instant of Sanity",
+    "hidden": 0,
+    "description": "Won ToME by closing the Void portal and letting yourself be killed by Aeryn to prevent the your mad patron sun from burning the world in a searing flash.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/259680/a2e2a99d46b37c3275d0863b6406f4171443cfc0.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/259680/5521badaf6a77d9815708b5e5ab44c668047f27e.jpg"
+  },
+  {
+    "name": "TOME_NORMAL_ROGUELIKE_AOADS_SELFLESS",
+    "defaultvalue": 0,
+    "displayName": "Last Instant of Sanity (Roguelike)",
+    "hidden": 0,
+    "description": "Won ToME by closing the Void portal and letting yourself be killed by Aeryn to prevent the your mad patron sun from burning the world in a searing flash.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/259680/95ed66502a126d05c9631c2992cacb57e78be855.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/259680/ff7e29038e813d11ed218b30c48964dd7a32f2c7.jpg"
+  },
+  {
+    "name": "TOME_EXPLORATION_AOADS_SELFLESS",
+    "defaultvalue": 0,
+    "displayName": "Last Instant of Sanity (Exploration mode)",
+    "hidden": 0,
+    "description": "Won ToME by closing the Void portal and letting yourself be killed by Aeryn to prevent the your mad patron sun from burning the world in a searing flash.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/259680/e573204e757c2dc38594e945413c0dd2a266e243.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/259680/98fc53c43c810045db9977fcaea10bc4c8ed73e2.jpg"
+  },
+  {
+    "name": "TOME_NIGHTMARE_ADVENTURE_AOADS_SELFLESS",
+    "defaultvalue": 0,
+    "displayName": "Last Instant of Sanity (Nightmare (Adventure) difficulty)",
+    "hidden": 0,
+    "description": "Won ToME by closing the Void portal and letting yourself be killed by Aeryn to prevent the your mad patron sun from burning the world in a searing flash.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/259680/a71137ffecf710939fe2f5323a61f837548acb10.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/259680/46b8ae35d1a611ce0ae482e895398ca4e82f4f39.jpg"
+  },
+  {
+    "name": "TOME_NIGHTMARE_AOADS_SELFLESS",
+    "defaultvalue": 0,
+    "displayName": "Last Instant of Sanity (Nightmare (Roguelike) difficulty)",
+    "hidden": 0,
+    "description": "Won ToME by closing the Void portal and letting yourself be killed by Aeryn to prevent the your mad patron sun from burning the world in a searing flash.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/259680/4e58576dc4fe53f2837f83ea611f8a72300a56aa.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/259680/3e80c812a45d68a4d50ff6c8296711b66d7ae00c.jpg"
+  },
+  {
+    "name": "TOME_INSANE_ADVENTURE_AOADS_SELFLESS",
+    "defaultvalue": 0,
+    "displayName": "Last Instant of Sanity (Insane (Adventure) difficulty)",
+    "hidden": 0,
+    "description": "Won ToME by closing the Void portal and letting yourself be killed by Aeryn to prevent the your mad patron sun from burning the world in a searing flash.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/259680/39bd73b0e2ccda0fcb1bf4fcbd38887e9f95dec6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/259680/f72068179bb4ae7e0f749f01771c126d71dc00c3.jpg"
+  },
+  {
+    "name": "TOME_INSANE_AOADS_SELFLESS",
+    "defaultvalue": 0,
+    "displayName": "Last Instant of Sanity (Insane (Roguelike) difficulty)",
+    "hidden": 0,
+    "description": "Won ToME by closing the Void portal and letting yourself be killed by Aeryn to prevent the your mad patron sun from burning the world in a searing flash.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/259680/b8610f5b330d9c6fe3fc504661b763ff01be6041.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/259680/3e3af1ed08d309a59530d02de82aa93c01afee2f.jpg"
+  },
+  {
+    "name": "TOME_MADNESS_ADVENTURE_AOADS_SELFLESS",
+    "defaultvalue": 0,
+    "displayName": "Last Instant of Sanity (Madness (Adventure) difficulty)",
+    "hidden": 0,
+    "description": "Won ToME by closing the Void portal and letting yourself be killed by Aeryn to prevent the your mad patron sun from burning the world in a searing flash.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/259680/a8c054929af3d9c1a0507ef398bcac1bbc35596c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/259680/26a3a3eddafbb3189a4500a08bc92f46f4c1cba8.jpg"
+  },
+  {
+    "name": "TOME_MADNESS_AOADS_SELFLESS",
+    "defaultvalue": 0,
+    "displayName": "Last Instant of Sanity (Madness (Roguelike) difficulty)",
+    "hidden": 0,
+    "description": "Won ToME by closing the Void portal and letting yourself be killed by Aeryn to prevent the your mad patron sun from burning the world in a searing flash.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/259680/cf8135c9b7ae53951d8eae6edc9262d201b5071e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/259680/91e89f4d0c690fa88a6faccd2203f79cd8cd32b6.jpg"
+  },
+  {
+    "name": "TOME_AOADS_SHERTUL",
+    "defaultvalue": 0,
+    "displayName": "They Came Back For Eyal",
+    "hidden": 0,
+    "description": "Won ToME thanks to a Sher'tul stopping you at the last moment from opening a portal to your mad patron sun.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/259680/1e6ccbd98cc719a873059fd6b4648ffab239aa34.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/259680/46a205f82ae7d1bf32aa7cc2ec737af5acb79c4c.jpg"
+  },
+  {
+    "name": "TOME_NORMAL_ROGUELIKE_AOADS_SHERTUL",
+    "defaultvalue": 0,
+    "displayName": "They Came Back For Eyal (Roguelike)",
+    "hidden": 0,
+    "description": "Won ToME thanks to a Sher'tul stopping you at the last moment from opening a portal to your mad patron sun.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/259680/e95973f0f4e2a753c01a35ea79237105a32288de.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/259680/180b8e815e1fe5c6ea5998fd93d7a2878273f208.jpg"
+  },
+  {
+    "name": "TOME_EXPLORATION_AOADS_SHERTUL",
+    "defaultvalue": 0,
+    "displayName": "They Came Back For Eyal (Exploration mode)",
+    "hidden": 0,
+    "description": "Won ToME thanks to a Sher'tul stopping you at the last moment from opening a portal to your mad patron sun.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/259680/682b81217916f97bba12ed1649e2f82f86e73f03.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/259680/cef3c8a9013b74f25a0c462ca472a011a0f15284.jpg"
+  },
+  {
+    "name": "TOME_NIGHTMARE_ADVENTURE_AOADS_SHERTUL",
+    "defaultvalue": 0,
+    "displayName": "They Came Back For Eyal (Nightmare (Adventure) difficulty)",
+    "hidden": 0,
+    "description": "Won ToME thanks to a Sher'tul stopping you at the last moment from opening a portal to your mad patron sun.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/259680/d09d70600fe5ed2c7a8a751331202fa0764107d6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/259680/e878e99b3aed9a32e233f6e2e1cf4db81c913c79.jpg"
+  },
+  {
+    "name": "TOME_NIGHTMARE_AOADS_SHERTUL",
+    "defaultvalue": 0,
+    "displayName": "They Came Back For Eyal (Nightmare (Roguelike) difficulty)",
+    "hidden": 0,
+    "description": "Won ToME thanks to a Sher'tul stopping you at the last moment from opening a portal to your mad patron sun.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/259680/ead5e4fb1f2d8d9455f7f6bd0bbf6c3d0d6db1bc.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/259680/278f999d7bc3d5796451c0641ba5c0b278365ca9.jpg"
+  },
+  {
+    "name": "TOME_INSANE_ADVENTURE_AOADS_SHERTUL",
+    "defaultvalue": 0,
+    "displayName": "They Came Back For Eyal (Insane (Adventure) difficulty)",
+    "hidden": 0,
+    "description": "Won ToME thanks to a Sher'tul stopping you at the last moment from opening a portal to your mad patron sun.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/259680/673e9a5df49163fc4f0a8042e1330425a6125445.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/259680/294732df99d2c989186d35b07b0cde6ff666cab7.jpg"
+  },
+  {
+    "name": "TOME_INSANE_AOADS_SHERTUL",
+    "defaultvalue": 0,
+    "displayName": "They Came Back For Eyal (Insane (Roguelike) difficulty)",
+    "hidden": 0,
+    "description": "Won ToME thanks to a Sher'tul stopping you at the last moment from opening a portal to your mad patron sun.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/259680/f746a264b062fd75692acd1a1a4f27a4e686b1bd.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/259680/f167a14a0f54729f7d7874ede49e344ef2f2ab05.jpg"
+  },
+  {
+    "name": "TOME_MADNESS_ADVENTURE_AOADS_SHERTUL",
+    "defaultvalue": 0,
+    "displayName": "They Came Back For Eyal (Madness (Adventure) difficulty)",
+    "hidden": 0,
+    "description": "Won ToME thanks to a Sher'tul stopping you at the last moment from opening a portal to your mad patron sun.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/259680/57759ef7f6820ac8c001c01bdfd8a46165f04fc5.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/259680/a9077911be0a3aa59864dddf0d7c635e61534a50.jpg"
+  },
+  {
+    "name": "TOME_MADNESS_AOADS_SHERTUL",
+    "defaultvalue": 0,
+    "displayName": "They Came Back For Eyal (Madness (Roguelike) difficulty)",
+    "hidden": 0,
+    "description": "Won ToME thanks to a Sher'tul stopping you at the last moment from opening a portal to your mad patron sun.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/259680/8db032ffd2f7e90e7f787599081180baa49036b3.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/259680/32792de7a261e287d75adfb02530acbc0632645a.jpg"
   }
 ]

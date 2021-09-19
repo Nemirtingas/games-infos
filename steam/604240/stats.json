@@ -1,234 +1,292 @@
-﻿{
-  "exp": {
-    "description": "EXP",
-    "value": 0
+[
+  {
+    "name": "exp",
+    "defaultvalue": 0,
+    "displayName": "EXP"
   },
-  "level": {
-    "description": "LVL",
-    "value": 1
+  {
+    "name": "level",
+    "defaultvalue": 1,
+    "displayName": "LVL"
   },
-  "wins": {
-    "description": "Wins",
-    "value": 0
+  {
+    "name": "wins",
+    "defaultvalue": 0,
+    "displayName": "Wins"
   },
-  "losses": {
-    "description": "Losses",
-    "value": 0
+  {
+    "name": "losses",
+    "defaultvalue": 0,
+    "displayName": "Losses"
   },
-  "kills": {
-    "description": "Kills",
-    "value": 0
+  {
+    "name": "kills",
+    "defaultvalue": 0,
+    "displayName": "Kills"
   },
-  "deaths": {
-    "description": "Deaths",
-    "value": 0
+  {
+    "name": "deaths",
+    "defaultvalue": 0,
+    "displayName": "Deaths"
   },
-  "assists": {
-    "description": "Assists",
-    "value": 0
+  {
+    "name": "assists",
+    "defaultvalue": 0,
+    "displayName": "Assists"
   },
-  "seeds": {
-    "description": "Seeds Planted",
-    "value": 0
+  {
+    "name": "seeds",
+    "defaultvalue": 0,
+    "displayName": "Seeds Planted"
   },
-  "timePlayed": {
-    "description": "Time Played",
-    "value": 0
+  {
+    "name": "timePlayed",
+    "defaultvalue": 0,
+    "displayName": "Time Played"
   },
-  "dailyChallengeID": {
-    "description": "Daily Challenge",
-    "value": 0
+  {
+    "name": "dailyChallengeID",
+    "defaultvalue": 0,
+    "displayName": "Daily Challenge"
   },
-  "dailyChallengeProgress": {
-    "description": "Daily Challenge Progress",
-    "value": 0
+  {
+    "name": "dailyChallengeProgress",
+    "defaultvalue": 0,
+    "displayName": "Daily Challenge Progress"
   },
-  "matchesCompleted": {
-    "description": "",
-    "value": 0
+  {
+    "name": "matchesCompleted",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "shotgunKills": {
-    "description": "",
-    "value": 0
+  {
+    "name": "shotgunKills",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "rocketKills": {
-    "description": "",
-    "value": 0
+  {
+    "name": "rocketKills",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "sniperKills": {
-    "description": "",
-    "value": 0
+  {
+    "name": "sniperKills",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "pistolKills": {
-    "description": "",
-    "value": 0
+  {
+    "name": "pistolKills",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "grenadeLauncherKills": {
-    "description": "",
-    "value": 0
+  {
+    "name": "grenadeLauncherKills",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "shovelKills": {
-    "description": "",
-    "value": 0
+  {
+    "name": "shovelKills",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "santaHatKills": {
-    "description": "",
-    "value": 0
+  {
+    "name": "santaHatKills",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "beanieKills": {
-    "description": "",
-    "value": 0
+  {
+    "name": "beanieKills",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "dailyChallengesCompleted": {
-    "description": "Daily Challenges Completed",
-    "value": 0
+  {
+    "name": "dailyChallengesCompleted",
+    "defaultvalue": 0,
+    "displayName": "Daily Challenges Completed"
   },
-  "dailyChallengeID02": {
-    "description": "",
-    "value": 0
+  {
+    "name": "dailyChallengeID02",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "dailyChallengeID03": {
-    "description": "",
-    "value": 0
+  {
+    "name": "dailyChallengeID03",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "dailyChallengeProgress02": {
-    "description": "",
-    "value": 0
+  {
+    "name": "dailyChallengeProgress02",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "dailyChallengeProgress03": {
-    "description": "",
-    "value": 0
+  {
+    "name": "dailyChallengeProgress03",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "flamethrowerKills": {
-    "description": "",
-    "value": 0
+  {
+    "name": "flamethrowerKills",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "countrysideWins": {
-    "description": "",
-    "value": 0
+  {
+    "name": "countrysideWins",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "riversideWins": {
-    "description": "",
-    "value": 0
+  {
+    "name": "riversideWins",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "westsideWins": {
-    "description": "",
-    "value": 0
+  {
+    "name": "westsideWins",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "roadsideWins": {
-    "description": "",
-    "value": 0
+  {
+    "name": "roadsideWins",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "gravesideWins": {
-    "description": "",
-    "value": 0
+  {
+    "name": "gravesideWins",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "dailyChallengeDate01": {
-    "description": "",
-    "value": 0
+  {
+    "name": "dailyChallengeDate01",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "dailyChallengeDate02": {
-    "description": "",
-    "value": 0
+  {
+    "name": "dailyChallengeDate02",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "dailyChallengeDate03": {
-    "description": "",
-    "value": 0
+  {
+    "name": "dailyChallengeDate03",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "dailyChallengeMonth01": {
-    "description": "",
-    "value": 0
+  {
+    "name": "dailyChallengeMonth01",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "dailyChallengeMonth02": {
-    "description": "",
-    "value": 0
+  {
+    "name": "dailyChallengeMonth02",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "dailyChallengeMonth03": {
-    "description": "",
-    "value": 0
+  {
+    "name": "dailyChallengeMonth03",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "anniversaryMatchesPlayed": {
-    "description": "",
-    "value": 0
+  {
+    "name": "anniversaryMatchesPlayed",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "prestige": {
-    "description": "",
-    "value": 0
+  {
+    "name": "prestige",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "prestigeLevel": {
-    "description": "",
-    "value": 0
+  {
+    "name": "prestigeLevel",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "m16Kills": {
-    "description": "",
-    "value": 0
+  {
+    "name": "m16Kills",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "mk2Kills": {
-    "description": "",
-    "value": 0
+  {
+    "name": "mk2Kills",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "molotovKills": {
-    "description": "",
-    "value": 0
+  {
+    "name": "molotovKills",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "summerMatchesPlayed": {
-    "description": "",
-    "value": 0
+  {
+    "name": "summerMatchesPlayed",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "fallMatchesPlayed": {
-    "description": "",
-    "value": 0
+  {
+    "name": "fallMatchesPlayed",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "halloweenMatchesPlayed": {
-    "description": "",
-    "value": 0
+  {
+    "name": "halloweenMatchesPlayed",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "winterMatchesPlayed": {
-    "description": "",
-    "value": 0
+  {
+    "name": "winterMatchesPlayed",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "prestigeLevel2": {
-    "description": "",
-    "value": 0
+  {
+    "name": "prestigeLevel2",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "gnomesStolen": {
-    "description": "",
-    "value": 0
+  {
+    "name": "gnomesStolen",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "oceansideWins": {
-    "description": "",
-    "value": 0
+  {
+    "name": "oceansideWins",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "launchMatchesPlayed": {
-    "description": "",
-    "value": 0
+  {
+    "name": "launchMatchesPlayed",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "lmgKills": {
-    "description": "",
-    "value": 0
+  {
+    "name": "lmgKills",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "easterMatchesPlayed": {
-    "description": "",
-    "value": 0
+  {
+    "name": "easterMatchesPlayed",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "hordeWavesSurvived": {
-    "description": "",
-    "value": 0
+  {
+    "name": "hordeWavesSurvived",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "valentinesMatchesPlayed": {
-    "description": "",
-    "value": 0
+  {
+    "name": "valentinesMatchesPlayed",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "bowKills": {
-    "description": "",
-    "value": 0
+  {
+    "name": "bowKills",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "doubleBarrelShotgunKills": {
-    "description": "",
-    "value": 0
+  {
+    "name": "doubleBarrelShotgunKills",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "supplyDropsOpened": {
-    "description": "",
-    "value": 0
+  {
+    "name": "supplyDropsOpened",
+    "defaultvalue": 0,
+    "displayName": ""
   }
-}
+]

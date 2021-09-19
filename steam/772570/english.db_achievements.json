@@ -30,7 +30,8 @@
     "name": "COFFEE_ADDICT",
     "defaultvalue": 0,
     "displayName": "Coffee Addict",
-    "hidden": 1,
+    "hidden": 0,
+    "description": "Grab one last coffee from the office on the way to the office.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/772570/13cbf57c7c061b709874c836f1af281b332e5539.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/772570/7088c6f5c37630f3006ebdc482d8ed8d28609da9.jpg"
   },
@@ -74,7 +75,8 @@
     "name": "STARFLARE_0",
     "defaultvalue": 0,
     "displayName": "The Starflare way",
-    "hidden": 1,
+    "hidden": 0,
+    "description": "Overthink the solution to the puzzle in Cargo 0 (we love the way you think starflare_0)",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/772570/13cbf57c7c061b709874c836f1af281b332e5539.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/772570/7088c6f5c37630f3006ebdc482d8ed8d28609da9.jpg"
   },
@@ -90,7 +92,8 @@
     "name": "SECRET_COFFEE_02",
     "defaultvalue": 0,
     "displayName": "Forest Coffee",
-    "hidden": 1,
+    "hidden": 0,
+    "description": "Find the secret coffee machine in the Forest",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/772570/13cbf57c7c061b709874c836f1af281b332e5539.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/772570/7088c6f5c37630f3006ebdc482d8ed8d28609da9.jpg"
   },
@@ -149,7 +152,8 @@
     "name": "SECOND_DOSE",
     "defaultvalue": 0,
     "displayName": "Second Dose",
-    "hidden": 1,
+    "hidden": 0,
+    "description": "Get a second dose from the implant before proceeding during the Descent into Madness after the first effect has worn off.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/772570/13cbf57c7c061b709874c836f1af281b332e5539.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/772570/7088c6f5c37630f3006ebdc482d8ed8d28609da9.jpg"
   },

@@ -1,8 +1,9 @@
-﻿{
+{
   "Dlcs": {
     "1158730": {
       "Name": "RESIDENT EVIL 3 - Classic Costume Pack",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/1158730/header.jpg?t=1588903749"
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1158730/header.jpg?t=1588903749",
+      "Type": "dlc"
     },
     "1295160": {
       "Name": "",
@@ -10,7 +11,8 @@
     },
     "1348140": {
       "Name": "Resident Evil 3 - All In-game Rewards Unlock",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/1348140/header.jpg?t=1596675670"
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1348140/header.jpg?t=1596675670",
+      "Type": "dlc"
     },
     "1108280": {
       "Name": "",
@@ -23,7 +25,7 @@
   },
   "Name": "Resident Evil 3",
   "AppId": "952060",
-  "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/952060/header.jpg?t=1596857291",
+  "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/952060/header.jpg?t=1614737794",
   "Languages": [
     "english",
     "french",

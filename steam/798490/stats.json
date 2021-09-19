@@ -1,18 +1,22 @@
-﻿{
-  "Progress_Kill": {
-    "description": "",
-    "value": 0
+[
+  {
+    "name": "Progress_Kill",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Progress_BloodLoss": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Progress_BloodLoss",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Progress_MemoriasSpend": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Progress_MemoriasSpend",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Progress_Synapses": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Progress_Synapses",
+    "defaultvalue": 0,
+    "displayName": ""
   }
-}
+]

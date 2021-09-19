@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "name": "CompletedMystery1",
     "defaultvalue": 0,
@@ -628,5 +628,95 @@
     "description": "Construct a Capital City",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/464920/2f444c3801a739b025677fac6f235b218f46151d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/464920/fb94020309cdd6097f18fbadc87b5c00e146e396.jpg"
+  },
+  {
+    "name": "AsteroidHopping",
+    "defaultvalue": 0,
+    "displayName": "Asteroid Hopping",
+    "hidden": 0,
+    "description": "Have a single Asteroid Lander visit 10 asteroids before returning to Mars",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/464920/859c433f68b58f6f45e653d05a81c02efc133539.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/464920/7b77479d559320e4071b7d9145147954d6b39866.jpg"
+  },
+  {
+    "name": "IntotheUnknown",
+    "defaultvalue": 0,
+    "displayName": "Into the Unknown",
+    "hidden": 0,
+    "description": "Go game over as your last colonists leaves Mars behind to take a trip into the great unknown",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/464920/a729b4ae4d6a60684971bd725a4308a3ad4d861f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/464920/15933d9c05f7b0b904bd72698f487212e431e6bd.jpg"
+  },
+  {
+    "name": "JobDone",
+    "defaultvalue": 0,
+    "displayName": "Job’s done",
+    "hidden": 0,
+    "description": "Fully develop all buried wonders in the underground, before sol 100",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/464920/da04e37d4211b0ba21aae40884a31225563a5b24.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/464920/f9dbcf352b0c93eacdd5824832e491a9fffe99b7.jpg"
+  },
+  {
+    "name": "MissionSuccess",
+    "defaultvalue": 0,
+    "displayName": "Mission Success",
+    "hidden": 0,
+    "description": "Successfully return from an asteroid",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/464920/46a74b694dbdecc32df85a1bd9e00ed9f70327ac.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/464920/c0626391eb48315d7c006395dd3c3c6730a743b4.jpg"
+  },
+  {
+    "name": "Multitasking",
+    "defaultvalue": 0,
+    "displayName": "Multitasking",
+    "hidden": 0,
+    "description": "Visit 3 asteroids simultaneously",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/464920/496ccf9d17b76bd6871abd9afeb2ed6dcaa65e67.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/464920/156823d418f8fdfea14383be2f555e76e24c56df.jpg"
+  },
+  {
+    "name": "MysteriesofMars",
+    "defaultvalue": 0,
+    "displayName": "Mysteries of Mars",
+    "hidden": 0,
+    "description": "Fully develop a buried wonder to benefit your colony",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/464920/194078b3743bc8a7fca549cf989ccaedbfdb6669.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/464920/d54dd7f10db716904423ebeb1d34ba6c7849d248.jpg"
+  },
+  {
+    "name": "PerfectRun",
+    "defaultvalue": 0,
+    "displayName": "The Perfect Run",
+    "hidden": 0,
+    "description": "Retrieve all resources from an asteroid & leave nothing behind",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/464920/0b423ee8bf1f1aba000c7cebe7851a63de2412cb.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/464920/6bd94aa8ddf77287860f79e62a568d89ed7bb66c.jpg"
+  },
+  {
+    "name": "SpaceDwarves",
+    "defaultvalue": 0,
+    "displayName": "Space Dwarves",
+    "hidden": 0,
+    "description": "All your colonists live underground (at least 200 colonists)",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/464920/17f050e58585fbc2ec4aaf707323ef38571a96f8.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/464920/adb767dc6833830ddd07548d5db468dae00b861f.jpg"
+  },
+  {
+    "name": "SpaceExplorer",
+    "defaultvalue": 0,
+    "displayName": "Space Explorer",
+    "hidden": 0,
+    "description": "Complete all techs in the recon & expansion tech tree",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/464920/1388ef44862d706154f2641d8c328ed56ea32b78.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/464920/202754e2e5126eaff2acebac11349ff7b018016a.jpg"
+  },
+  {
+    "name": "Willtheyhold",
+    "defaultvalue": 0,
+    "displayName": "Will they hold?",
+    "hidden": 0,
+    "description": "Prevent 100 Cave-ins in total from Underground Marsquakes",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/464920/0cbd0a210a4c2933e7b3b2b2deb74cffc844f22b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/464920/a797286c592e8e0af328b18c3330283ac5bd46a1.jpg"
   }
 ]

@@ -1,18 +1,22 @@
-﻿{
-  "stat_winround": {
-    "description": "胜场",
-    "value": 0
+[
+  {
+    "name": "stat_winround",
+    "defaultvalue": 0,
+    "displayName": "胜场"
   },
-  "stat_peaceround": {
-    "description": "和场",
-    "value": 0
+  {
+    "name": "stat_peaceround",
+    "defaultvalue": 0,
+    "displayName": "和场"
   },
-  "stat_loseround": {
-    "description": "败场",
-    "value": 0
+  {
+    "name": "stat_loseround",
+    "defaultvalue": 0,
+    "displayName": "败场"
   },
-  "stat_friendlyscore": {
-    "description": "友谊赛得分",
-    "value": 1000
+  {
+    "name": "stat_friendlyscore",
+    "defaultvalue": 1000,
+    "displayName": "友谊赛得分"
   }
-}
+]

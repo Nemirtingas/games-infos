@@ -1,10 +1,12 @@
-﻿{
-  "footstep_count": {
-    "description": "Footstep Count",
-    "value": 0
+[
+  {
+    "name": "footstep_count",
+    "defaultvalue": 0,
+    "displayName": "Footstep Count"
   },
-  "testStat": {
-    "description": "Test Stat",
-    "value": 0
+  {
+    "name": "testStat",
+    "defaultvalue": 0,
+    "displayName": "Test Stat"
   }
-}
+]

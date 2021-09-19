@@ -1,18 +1,22 @@
-﻿{
-  "PlayTime": {
-    "description": "PlayTime",
-    "value": 0
+[
+  {
+    "name": "PlayTime",
+    "defaultvalue": 0,
+    "displayName": "PlayTime"
   },
-  "PropsSpawned": {
-    "description": "PropsSpawned",
-    "value": 0
+  {
+    "name": "PropsSpawned",
+    "defaultvalue": 0,
+    "displayName": "PropsSpawned"
   },
-  "SeatingSpawned": {
-    "description": "SeatingSpawned",
-    "value": 0
+  {
+    "name": "SeatingSpawned",
+    "defaultvalue": 0,
+    "displayName": "SeatingSpawned"
   },
-  "BrowsersSpawned": {
-    "description": "BrowsersSpawned",
-    "value": 0
+  {
+    "name": "BrowsersSpawned",
+    "defaultvalue": 0,
+    "displayName": "BrowsersSpawned"
   }
-}
+]

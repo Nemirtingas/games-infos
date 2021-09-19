@@ -1,62 +1,77 @@
-﻿{
-  "HANDS_PLAYED": {
-    "description": "",
-    "value": 0
+[
+  {
+    "name": "HANDS_PLAYED",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "HANDS_WIN": {
-    "description": "",
-    "value": 0
+  {
+    "name": "HANDS_WIN",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "SNG_PLAYED": {
-    "description": "",
-    "value": 0
+  {
+    "name": "SNG_PLAYED",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "SNG_WIN": {
-    "description": "",
-    "value": 0
+  {
+    "name": "SNG_WIN",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "SPNGO_PLAYED": {
-    "description": "",
-    "value": 0
+  {
+    "name": "SPNGO_PLAYED",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "SPNGO_WIN": {
-    "description": "",
-    "value": 0
+  {
+    "name": "SPNGO_WIN",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "TOURNAMENT_WIN": {
-    "description": "",
-    "value": 0
+  {
+    "name": "TOURNAMENT_WIN",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "BUST_COUNT": {
-    "description": "",
-    "value": 0
+  {
+    "name": "BUST_COUNT",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "CHIPS_RAISED": {
-    "description": "",
-    "value": 0
+  {
+    "name": "CHIPS_RAISED",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "CHIPS_BET": {
-    "description": "",
-    "value": 0
+  {
+    "name": "CHIPS_BET",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "CHIPS_EARNED": {
-    "description": "",
-    "value": 0
+  {
+    "name": "CHIPS_EARNED",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "WHEEL_SPIN_COUNT": {
-    "description": "",
-    "value": 0
+  {
+    "name": "WHEEL_SPIN_COUNT",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "CONSECUTIVE_WIN": {
-    "description": "",
-    "value": 0
+  {
+    "name": "CONSECUTIVE_WIN",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "ROYAL_FLUSHES": {
-    "description": "",
-    "value": 0
+  {
+    "name": "ROYAL_FLUSHES",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "STRAIGHT_FLUSHES": {
-    "description": "",
-    "value": 0
+  {
+    "name": "STRAIGHT_FLUSHES",
+    "defaultvalue": 0,
+    "displayName": ""
   }
-}
+]

@@ -1,150 +1,187 @@
-﻿{
-  "AmphoraKO_AmphoraKO": {
-    "description": "",
-    "value": 0
+[
+  {
+    "name": "AmphoraKO_AmphoraKO",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "AmphoraWins_AmphoraWins": {
-    "description": "",
-    "value": 0
+  {
+    "name": "AmphoraWins_AmphoraWins",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "ArtifactMasteryLevel_ArtifactMasteryLevel": {
-    "description": "",
-    "value": 0
+  {
+    "name": "ArtifactMasteryLevel_ArtifactMasteryLevel",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "BlastbeardKO_BlastbeardKO": {
-    "description": "",
-    "value": 0
+  {
+    "name": "BlastbeardKO_BlastbeardKO",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "BlastbeardWins_BlastbeardWins": {
-    "description": "",
-    "value": 0
+  {
+    "name": "BlastbeardWins_BlastbeardWins",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "BooneKO_BooneKO": {
-    "description": "",
-    "value": 0
+  {
+    "name": "BooneKO_BooneKO",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "BooneWins_BooneWins": {
-    "description": "",
-    "value": 0
+  {
+    "name": "BooneWins_BooneWins",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "CharactersWithHighestLevel_CharactersWithHighestLevel": {
-    "description": "",
-    "value": 0
+  {
+    "name": "CharactersWithHighestLevel_CharactersWithHighestLevel",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "CoinsCollected_CoinsCollected": {
-    "description": "",
-    "value": 0
+  {
+    "name": "CoinsCollected_CoinsCollected",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "CustomizedTotem_CustomizedTotem": {
-    "description": "",
-    "value": 0
+  {
+    "name": "CustomizedTotem_CustomizedTotem",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "DailyChallenge_DailyChallenge": {
-    "description": "",
-    "value": 0
+  {
+    "name": "DailyChallenge_DailyChallenge",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "EquippedOutfit_EquippedOutfit": {
-    "description": "",
-    "value": 0
+  {
+    "name": "EquippedOutfit_EquippedOutfit",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "EquippedTrail_EquippedTrail": {
-    "description": "",
-    "value": 0
+  {
+    "name": "EquippedTrail_EquippedTrail",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Goals_Goals": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Goals_Goals",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "HighestLevel_HighestLevel": {
-    "description": "",
-    "value": 0
+  {
+    "name": "HighestLevel_HighestLevel",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "IzelKO_IzelKO": {
-    "description": "",
-    "value": 0
+  {
+    "name": "IzelKO_IzelKO",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "IzelWins_IzelWins": {
-    "description": "",
-    "value": 0
+  {
+    "name": "IzelWins_IzelWins",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "JayroKO_JayroKO": {
-    "description": "",
-    "value": 0
+  {
+    "name": "JayroKO_JayroKO",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "JaytoWins_JaytoWins": {
-    "description": "",
-    "value": 0
+  {
+    "name": "JaytoWins_JaytoWins",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "KayiKO_KayiKO": {
-    "description": "",
-    "value": 0
+  {
+    "name": "KayiKO_KayiKO",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "KayiWins_KayiWins": {
-    "description": "",
-    "value": 0
+  {
+    "name": "KayiWins_KayiWins",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Knockout_Knockout": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Knockout_Knockout",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "KnockoutAssist_KnockoutAssist": {
-    "description": "",
-    "value": 0
+  {
+    "name": "KnockoutAssist_KnockoutAssist",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Megablast_Megablast": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Megablast_Megablast",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "MysteenKO_MysteenKO": {
-    "description": "",
-    "value": 0
+  {
+    "name": "MysteenKO_MysteenKO",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "MysteenWins_MysteenWins": {
-    "description": "",
-    "value": 0
+  {
+    "name": "MysteenWins_MysteenWins",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "OnboardingCompleted_OnboardingCompleted": {
-    "description": "",
-    "value": 0
+  {
+    "name": "OnboardingCompleted_OnboardingCompleted",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "PlinkKO_PlinkKO": {
-    "description": "",
-    "value": 0
+  {
+    "name": "PlinkKO_PlinkKO",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "PlinkWins_PlinkWins": {
-    "description": "",
-    "value": 0
+  {
+    "name": "PlinkWins_PlinkWins",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Recovery_Recovery": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Recovery_Recovery",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "RevKO_RevKO": {
-    "description": "",
-    "value": 0
+  {
+    "name": "RevKO_RevKO",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "RevWins_RevWins": {
-    "description": "",
-    "value": 0
+  {
+    "name": "RevWins_RevWins",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "TopnotchKO_TopnotchKO": {
-    "description": "",
-    "value": 0
+  {
+    "name": "TopnotchKO_TopnotchKO",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "TopnotchWins_TopnotchWins": {
-    "description": "",
-    "value": 0
+  {
+    "name": "TopnotchWins_TopnotchWins",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "WeeklyChallenge_WeeklyChallenge": {
-    "description": "",
-    "value": 0
+  {
+    "name": "WeeklyChallenge_WeeklyChallenge",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Wins_Wins": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Wins_Wins",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "ZoneTime_ZoneTime": {
-    "description": "",
-    "value": 0
+  {
+    "name": "ZoneTime_ZoneTime",
+    "defaultvalue": 0,
+    "displayName": ""
   }
-}
+]

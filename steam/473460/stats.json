@@ -1,10 +1,12 @@
-﻿{
-  "AFTER_COUNT": {
-    "description": "After Story",
-    "value": 0
+[
+  {
+    "name": "AFTER_COUNT",
+    "defaultvalue": 0,
+    "displayName": "After Story"
   },
-  "CG_COUNT": {
-    "description": "CG Collection",
-    "value": 0
+  {
+    "name": "CG_COUNT",
+    "defaultvalue": 0,
+    "displayName": "CG Collection"
   }
-}
+]

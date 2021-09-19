@@ -1,102 +1,127 @@
-﻿{
-  "DUNGEON_FINISHED": {
-    "description": "Dungeon Finished",
-    "value": 0
+[
+  {
+    "name": "DUNGEON_FINISHED",
+    "defaultvalue": 0,
+    "displayName": "Dungeon Finished"
   },
-  "SCOUT_SKILL_USED": {
-    "description": "Scout used",
-    "value": 0
+  {
+    "name": "SCOUT_SKILL_USED",
+    "defaultvalue": 0,
+    "displayName": "Scout used"
   },
-  "CRAFT": {
-    "description": "Craft realized",
-    "value": 0
+  {
+    "name": "CRAFT",
+    "defaultvalue": 0,
+    "displayName": "Craft realized"
   },
-  "CRAFT_POTION": {
-    "description": "Craft potion",
-    "value": 0
+  {
+    "name": "CRAFT_POTION",
+    "defaultvalue": 0,
+    "displayName": "Craft potion"
   },
-  "WIN_ARENA_MATCH": {
-    "description": "Win arena match",
-    "value": 0
+  {
+    "name": "WIN_ARENA_MATCH",
+    "defaultvalue": 0,
+    "displayName": "Win arena match"
   },
-  "PLAY_MATCH_WITH_FRIEND": {
-    "description": "Matchs played with friends",
-    "value": 0
+  {
+    "name": "PLAY_MATCH_WITH_FRIEND",
+    "defaultvalue": 0,
+    "displayName": "Matchs played with friends"
   },
-  "3_DEATHS_BY_BANANA": {
-    "description": "3 deaths with 1 banana",
-    "value": 0
+  {
+    "name": "3_DEATHS_BY_BANANA",
+    "defaultvalue": 0,
+    "displayName": "3 deaths with 1 banana"
   },
-  "KILL_2_MOBS_WITH_ONE_SPEAR": {
-    "description": "kill 2 monsters with one spear",
-    "value": 0
+  {
+    "name": "KILL_2_MOBS_WITH_ONE_SPEAR",
+    "defaultvalue": 0,
+    "displayName": "kill 2 monsters with one spear"
   },
-  "HEROES_UNLOCKED": {
-    "description": "Number of heroes unlocked",
-    "value": 0
+  {
+    "name": "HEROES_UNLOCKED",
+    "defaultvalue": 0,
+    "displayName": "Number of heroes unlocked"
   },
-  "SECONDARY_EVENT_INSPECTED": {
-    "description": "Number of secondary event inspected",
-    "value": 0
+  {
+    "name": "SECONDARY_EVENT_INSPECTED",
+    "defaultvalue": 0,
+    "displayName": "Number of secondary event inspected"
   },
-  "BAIT_SKILL_USED": {
-    "description": "Number of time bait was used",
-    "value": 0
+  {
+    "name": "BAIT_SKILL_USED",
+    "defaultvalue": 0,
+    "displayName": "Number of time bait was used"
   },
-  "TRAP_DETECTION": {
-    "description": "Trap detection number",
-    "value": 0
+  {
+    "name": "TRAP_DETECTION",
+    "defaultvalue": 0,
+    "displayName": "Trap detection number"
   },
-  "FINISH_A_FULL_MANOR": {
-    "description": "Finish the 5 level of a manor",
-    "value": 0
+  {
+    "name": "FINISH_A_FULL_MANOR",
+    "defaultvalue": 0,
+    "displayName": "Finish the 5 level of a manor"
   },
-  "BEAT_MELINDA": {
-    "description": "Beat Melinda the vampire",
-    "value": 0
+  {
+    "name": "BEAT_MELINDA",
+    "defaultvalue": 0,
+    "displayName": "Beat Melinda the vampire"
   },
-  "BUILD_VAMPIRIC_DAGGER": {
-    "description": "Build a vampiric dagger",
-    "value": 0
+  {
+    "name": "BUILD_VAMPIRIC_DAGGER",
+    "defaultvalue": 0,
+    "displayName": "Build a vampiric dagger"
   },
-  "SILENCE_6_GUYS": {
-    "description": "Silence 6 monsters in one song",
-    "value": 0
+  {
+    "name": "SILENCE_6_GUYS",
+    "defaultvalue": 0,
+    "displayName": "Silence 6 monsters in one song"
   },
-  "ONE_SPEAR_TWO_KILL": {
-    "description": "Kill 2 monsters with one spear",
-    "value": 0
+  {
+    "name": "ONE_SPEAR_TWO_KILL",
+    "defaultvalue": 0,
+    "displayName": "Kill 2 monsters with one spear"
   },
-  "ONE_BANANA_3_KILLS": {
-    "description": "One banana, 3 kills",
-    "value": 0
+  {
+    "name": "ONE_BANANA_3_KILLS",
+    "defaultvalue": 0,
+    "displayName": "One banana, 3 kills"
   },
-  "HEROES_LEVEL_10": {
-    "description": "Number of characters level 10",
-    "value": 0
+  {
+    "name": "HEROES_LEVEL_10",
+    "defaultvalue": 0,
+    "displayName": "Number of characters level 10"
   },
-  "CURRENT_QUEST": {
-    "description": "Campaign - current quest",
-    "value": 0
+  {
+    "name": "CURRENT_QUEST",
+    "defaultvalue": 0,
+    "displayName": "Campaign - current quest"
   },
-  "SHARE_DUNGEON": {
-    "description": "Share a dungeon on the workshop",
-    "value": 0
+  {
+    "name": "SHARE_DUNGEON",
+    "defaultvalue": 0,
+    "displayName": "Share a dungeon on the workshop"
   },
-  "LEAGUE": {
-    "description": "League",
-    "value": 0
+  {
+    "name": "LEAGUE",
+    "defaultvalue": 0,
+    "displayName": "League"
   },
-  "GAMBLING": {
-    "description": "Number of gambling",
-    "value": 0
+  {
+    "name": "GAMBLING",
+    "defaultvalue": 0,
+    "displayName": "Number of gambling"
   },
-  "GOLD": {
-    "description": "Gold",
-    "value": 0
+  {
+    "name": "GOLD",
+    "defaultvalue": 0,
+    "displayName": "Gold"
   },
-  "HEROIC_QUEST": {
-    "description": "Number of heroic quest done",
-    "value": 0
+  {
+    "name": "HEROIC_QUEST",
+    "defaultvalue": 0,
+    "displayName": "Number of heroic quest done"
   }
-}
+]

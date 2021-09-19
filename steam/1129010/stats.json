@@ -1,18 +1,22 @@
-﻿{
-  "Coin": {
-    "description": "",
-    "value": 0
+[
+  {
+    "name": "Coin",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "My_LV": {
-    "description": "",
-    "value": 0
+  {
+    "name": "My_LV",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Eq": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Eq",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Monster": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Monster",
+    "defaultvalue": 0,
+    "displayName": ""
   }
-}
+]

@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "name": "AZTEC_VICTORY",
     "defaultvalue": 0,
@@ -535,7 +535,7 @@
     "defaultvalue": 0,
     "displayName": "Battle Beast",
     "hidden": 0,
-    "description": "Complete all Historical Battles.",
+    "description": "Complete all Historical Battles in single player.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/813780/2f8233223b3ca943c903a9ecd4ee594ee8f959ab.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/813780/72b9a68cf1098914c957accedaa2d5ce729b1af8.jpg"
   },
@@ -724,7 +724,7 @@
     "defaultvalue": 0,
     "displayName": "Turkish Delight",
     "hidden": 0,
-    "description": "Win the Historical Battle \"Bapheus (1302)\" by defeating all other Turkish factions without forming an alliance with any of them.",
+    "description": "Win \"Bapheus (1302)\" by defeating Turkish factions without allying with them in single player.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/813780/5fb03e3aec1a7bdc46f4f2e12ffc239b90177e6d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/813780/c811713c7c047f603aa78ec40e6ab8edce9e6577.jpg"
   },
@@ -733,7 +733,7 @@
     "defaultvalue": 0,
     "displayName": "Lone Warrior",
     "hidden": 0,
-    "description": "Win the Historical Battle \"Kurikara (1183)\" without forming an alliance with the Hojo clan.",
+    "description": "Win \"Kurikara (1183)\" without forming an alliance with the Hojo clan in single player.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/813780/29c1602aabc2a7c2bc7896afb4eb41476d8667ec.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/813780/c034e832d6a30417f8cd1f0d4c458cff56054bf3.jpg"
   },
@@ -1240,5 +1240,293 @@
     "description": "Win a game with every civilization.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/813780/f94d9c423dd9ce8d967487a98eb3b93a28169e86.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/813780/acf2bf2eebc0c5171025631c7fc38dabea3f2229.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_CAMPAIGN_BRITONS_COMPLETED",
+    "defaultvalue": 0,
+    "displayName": "The English Justinian",
+    "hidden": 0,
+    "description": "Complete the Edward Longshanks campaign.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/813780/9ecf8ec8300fb5522743d2af0e1a3e58a9e34e51.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/813780/86046b4a414d69123e2d87b392aa9142c27a39b7.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_CAMPAIGN_BURGUNDIANS_COMPLETED",
+    "defaultvalue": 0,
+    "displayName": "The Good, the Bold, and the Fearless",
+    "hidden": 0,
+    "description": "Complete the Grand Dukes of the West campaign.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/813780/358ab1b8027c4f4e0ea839250701b8cbf651d4fd.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/813780/15466081c3222449cbb5ae7cd9f48e2f792a845b.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_CAMPAIGN_SICILIANS_COMPLETED",
+    "defaultvalue": 0,
+    "displayName": "Haute Culture",
+    "hidden": 0,
+    "description": "Complete the Hautevilles campaign.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/813780/24a7f2722211671a5c55b1ea3863ec4839dd39df.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/813780/2e886f726640d2024045271d36a890f1c273c3ef.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_UNCHIVALROUS_PRAGMATIST",
+    "defaultvalue": 0,
+    "displayName": "Unchivalrous Pragmatist",
+    "hidden": 0,
+    "description": "Defeat Simon the Younger's army before the baronial forces attack in \"Vain Ambition\".",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/813780/eab14aa3ed97bcfd3c73af3f0acf22b966b5ea5f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/813780/18e01c32b8f20b9976ef3a06a4b9a0c537614f23.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_THRONE_THIEF",
+    "defaultvalue": 0,
+    "displayName": "Throne Thief",
+    "hidden": 0,
+    "description": "Steal the Stone of Scone in the fourth Edward Longshanks mission \"Toom Tabard\".",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/813780/c9ceb4900d4bfd795deed6cabd6376af87002019.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/813780/6fce4d1d3d426b427ebd1e26ffb04934a3a26d85.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_MALLEUS_SCOTORUM",
+    "defaultvalue": 0,
+    "displayName": "Malleus Scotorum",
+    "hidden": 0,
+    "description": "Kill William Wallace before Robert the Bruce betrays you in \"Hammer of the Scots\".",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/813780/f0f096e3bfba9a3f723fb5e89040c3ad1e3ec67b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/813780/a1387ddc70dd5bd9c58e1106b475788e9dc6f62f.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_NO_WHEELS",
+    "defaultvalue": 0,
+    "displayName": "No Wheels",
+    "hidden": 0,
+    "description": "Do not construct a single siege weapon in the mission \"A Kingdom Divided\".",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/813780/0be4149834476305660798093fdf08d67370e505.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/813780/b1b40e0e86aa67e430a9aebe6d5b4ac553283558.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_A_SECOND_HASTINGS",
+    "defaultvalue": 0,
+    "displayName": "A Second Hastings",
+    "hidden": 0,
+    "description": "Wipe out Humphrey's base before defeating Jacqueline in \"The Hook and Cod Wars\".",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/813780/87c9fbc7d5e8ac33f2091627b0b7ac7b17401a68.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/813780/3f942a32dc2ebd30513483037790710b943eef87.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_SHUT_UP_LA_HIRE",
+    "defaultvalue": 0,
+    "displayName": "Shut Up La Hire!",
+    "hidden": 0,
+    "description": "Defeat the French army before capturing Joan of Arc in the mission \"The Maid Falls\".",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/813780/fb9c50ac6f1d66cdf3c49cb1952f2c71197735b8.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/813780/819f68738713985f241261dcd2632762975cc305.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_SELFMADE_MAN",
+    "defaultvalue": 0,
+    "displayName": "Self-Made Man",
+    "hidden": 0,
+    "description": "Win without allying with Argyrus or Guaimar in the mission \"Guiscard Arrives\".",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/813780/41fc8e2d8b6aa276fecf5684e6e741179b637023.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/813780/0818c3bb768661725dbf4c13c0d4ab1e457d2a3a.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_HAUTE_HAUTE_BRIEF_CANDLE",
+    "defaultvalue": 0,
+    "displayName": "Haute, Haute, brief candle!",
+    "hidden": 0,
+    "description": "Inspire a rebellion in the second Hautevilles mission \"Roger in Sicily\".",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/813780/5d10ac9e42ca16a577d7adecafd759056fecc7eb.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/813780/786aa14501b5c419e45dac1d2857a5edede6ee1f.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_ITALY_JONES_AND_THE_FIRST_CRUSADE",
+    "defaultvalue": 0,
+    "displayName": "Italy Jones and the First Crusade",
+    "hidden": 0,
+    "description": "Do not lose a hero in the fourth Hautevilles mission \"Bohemond in the East\".",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/813780/76f252977f47ecd52214a35ae1ad0a0deb378ff6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/813780/be32fd742a268f3ffbc2ec622ef95a5e361c739f.jpg"
+  },
+  {
+    "name": "BURGUNDIANS_VICTORY",
+    "defaultvalue": 0,
+    "displayName": "Burgundian Victory",
+    "hidden": 0,
+    "description": "Win a game playing as the Burgundians.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/813780/8901941130ece3388cd963b21fccd7a2036e49dc.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/813780/536572ffcf67b1ff04aaf09303d3ea7d896a9fa3.jpg"
+  },
+  {
+    "name": "SICILIANS_VICTORY",
+    "defaultvalue": 0,
+    "displayName": "Sicilian Victory",
+    "hidden": 0,
+    "description": "Win a game playing as the Sicilians.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/813780/4e1a5433db55933a63b7954162c9537295a845da.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/813780/df0c5240d504511a5dd6e3766ea705ebbe8d2439.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_FLEMISH_REVOLUTION",
+    "defaultvalue": 0,
+    "displayName": "Golden Spurs",
+    "hidden": 0,
+    "description": "Transform 50 Villagers by researching Flemish Revolution.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/813780/a8d86827a6db88b03a1a6d5480e442e2c8ec138d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/813780/ce86cf35cd968ad1bf64e05dfd706aa13cd7ed60.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_DONJON_SERJEANT",
+    "defaultvalue": 0,
+    "displayName": "Tour d'Italie",
+    "hidden": 0,
+    "description": "Construct a Donjon and use it to train a Serjeant.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/813780/599f072a362b2c0979b92d3dc6e9aff6dc3bc10a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/813780/40df0a2a3f357bbb42d7f42787e39c9a24bd5700.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_CAMPAIGN_LITHUANIANS_COMPLETED",
+    "defaultvalue": 0,
+    "displayName": "Bond of Brothers",
+    "hidden": 0,
+    "description": "Complete the Algirdas and Kestutis campaign.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/813780/d239b5afbb858d50983d0393e21a2f060369e476.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/813780/39356f1b78732524fb5a11d947e546ac729bf446.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_TOLERANT_PIETY",
+    "defaultvalue": 0,
+    "displayName": "Tolerant Piety",
+    "hidden": 0,
+    "description": "Build a Monastery or Shrine in every Lithuanian village in \"Family Affairs\".",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/813780/75ebab153bb52b34afbadec3b694a920ebde05d1.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/813780/0d05c3ba85dbbf26a3abeff7107084c19945bb21.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_SCATTERED_HORDE",
+    "defaultvalue": 0,
+    "displayName": "Scattered Horde",
+    "hidden": 0,
+    "description": "Kill all enemy commanders before defeating their hordes in \"The Tatar Yoke\".",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/813780/20840bbbe9fbaec3985d00daeb2e414f0dba3748.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/813780/47e89b11118d24592089d9d0a488e09fd548f89e.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_MINT_CONDITION",
+    "defaultvalue": 0,
+    "displayName": "Mint Condition",
+    "hidden": 0,
+    "description": "Deliver the Ransom Cart undamaged in \"In the Shadow of the Throne\".",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/813780/54151c034a0ca0099b03c2dc1a80c1a00c2dadb7.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/813780/ce5e7b0dd505a862805d03db4cbc4a5bb995a12e.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_CAMPAIGN_POLES_COMPLETED",
+    "defaultvalue": 0,
+    "displayName": "Star of the Poles",
+    "hidden": 0,
+    "description": "Complete the Jadwiga campaign.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/813780/fb14a02df47d1fa393494d3c65c5a55777233f08.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/813780/84bd387f743925720bd1c28761770e5cad1c33fc.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_PROTECTOR_REALM",
+    "defaultvalue": 0,
+    "displayName": "Protector of the Realm",
+    "hidden": 0,
+    "description": "Win without losing any neutral towns to Halych in \"Star of the Poles\".",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/813780/7fb24e6c1fca45ac8514e04c2714647ca1808b37.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/813780/61fa556328023fae013672e56d60800a2659e2de.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_NO_BAGGAGE",
+    "defaultvalue": 0,
+    "displayName": "No Baggage",
+    "hidden": 0,
+    "description": "Defeat the Crimean Tatars without building a Town Center in \"Vytautas' Crusade\".",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/813780/8fab1b9918c3b950d6ab034e2e4468b46d7ea17f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/813780/5eb9181b5be31d12612ff4a04fd065a45c002a5e.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_NO_QUARTER",
+    "defaultvalue": 0,
+    "displayName": "No Quarter",
+    "hidden": 0,
+    "description": "Kill Ulrich von Jungingen and Nicolas von Renys in \"The Fruits of Her Labor\".",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/813780/aa1b13abf749ac3c711bddbc3de142e4792ace87.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/813780/d56176a11fa85bcaf53325aeb4cbd1373ee4fd31.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_CAMPAIGN_BOHEMIANS_COMPLETED",
+    "defaultvalue": 0,
+    "displayName": "Man of the Chalice",
+    "hidden": 0,
+    "description": "Complete the Jan Zizka campaign.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/813780/6a8f80f5f6b835263fb7e7f327229ba807060f08.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/813780/2950c7be6cbeee255ae13869ef870bce38f1b15a.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_MALEVOLENT_MARAUDER",
+    "defaultvalue": 0,
+    "displayName": "Malevolent Marauder",
+    "hidden": 0,
+    "description": "Destroy all 6 Bohemian villages in \"The One-Eyed Wanderer\".",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/813780/118382f2addaacdd5f503828f7a2f1da85e3665c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/813780/850bc3ecd83201eb9187e035af8d43277a49682f.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_ZIZKOV_HILL",
+    "defaultvalue": 0,
+    "displayName": "Zizkov Hill",
+    "hidden": 0,
+    "description": "Do not lose the Old Tower northeast of your city in \"The Golden City\".",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/813780/64584b202cb5b6d2e2b8cebbd8b84d213305f29d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/813780/bde7d2e5aaaf8574832302b30dd2765940949d87.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_AGAINST_ALL",
+    "defaultvalue": 0,
+    "displayName": "Against All",
+    "hidden": 0,
+    "description": "Defeat the Crusaders in the fifth Jan Zizka mission \"The Emperor's Fury\".",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/813780/d0c6cd4a405a4bbb6cb13b8905b6caab01eae657.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/813780/1de93501cc9383bbe2061dd7921f70243bae0901.jpg"
+  },
+  {
+    "name": "BOHEMIANS_VICTORY",
+    "defaultvalue": 0,
+    "displayName": "Bohemian Victory",
+    "hidden": 0,
+    "description": "Win a game playing as the Bohemians.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/813780/8077c6066d8172f6e197ea528b7b093ac1652d7c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/813780/daff6ca00a85590362b2acaa4eb72ff1fa0d01a2.jpg"
+  },
+  {
+    "name": "POLES_VICTORY",
+    "defaultvalue": 0,
+    "displayName": "Polish Victory",
+    "hidden": 0,
+    "description": "Win a game playing as the Poles.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/813780/7d82326679fa9106ff17f8ec402118c52b0f497b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/813780/689ce29ba367b58d602d77762c9ea48b82d09902.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_OOF_NICE",
+    "defaultvalue": 0,
+    "displayName": "Rhapsody of the Bohemians",
+    "hidden": 0,
+    "description": "Train 10 Houfnices as the Bohemians.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/813780/1a3dfd429646c2848d67e9bcf232e7fa0d965762.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/813780/75ebc466c70a022070c4d2176ab3398e1c48bfd4.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_FAST_FOOD",
+    "defaultvalue": 0,
+    "displayName": "Fast Food",
+    "hidden": 0,
+    "description": "Gather 500 food by constructing farms next to Folwarks as the Poles.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/813780/f2e2c01b235822c54314a7a3527fbb5bd95694b7.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/813780/fc639726d0f12c3174f23e68dae667b78f67392b.jpg"
   }
 ]

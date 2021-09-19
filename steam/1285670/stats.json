@@ -1,18 +1,22 @@
-﻿{
-  "STAT_DEATHS": {
-    "description": "deaths",
-    "value": 0
+[
+  {
+    "name": "STAT_DEATHS",
+    "defaultvalue": 0,
+    "displayName": "deaths"
   },
-  "STAT_KILLS": {
-    "description": "kills",
-    "value": 0
+  {
+    "name": "STAT_KILLS",
+    "defaultvalue": 0,
+    "displayName": "kills"
   },
-  "STAT_WEAPONS": {
-    "description": "weappons_used",
-    "value": 0
+  {
+    "name": "STAT_WEAPONS",
+    "defaultvalue": 0,
+    "displayName": "weappons_used"
   },
-  "HS_VER": {
-    "description": "HSversion",
-    "value": 1
+  {
+    "name": "HS_VER",
+    "defaultvalue": 1,
+    "displayName": "HSversion"
   }
-}
+]

@@ -1,14 +1,17 @@
-﻿{
-  "crafter": {
-    "description": "Crafting",
-    "value": 0
+[
+  {
+    "name": "crafter",
+    "defaultvalue": 0,
+    "displayName": "Crafting"
   },
-  "haste": {
-    "description": "Haste",
-    "value": 0
+  {
+    "name": "haste",
+    "defaultvalue": 0,
+    "displayName": "Haste"
   },
-  "identifier": {
-    "description": "Identifier",
-    "value": 0
+  {
+    "name": "identifier",
+    "defaultvalue": 0,
+    "displayName": "Identifier"
   }
-}
+]

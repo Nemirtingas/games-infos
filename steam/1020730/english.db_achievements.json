@@ -121,7 +121,7 @@
     "defaultvalue": 0,
     "displayName": "Treasure Hunter",
     "hidden": 0,
-    "description": "Complete 10 treasure maps.",
+    "description": "Complete treasure map scenario.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1020730/36a9e31e1348a59c71baa418ad5dd1bd65a9ea90.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1020730/b298dea59da8e9be64c4274df83d9020f83ee6d4.jpg"
   },
@@ -229,7 +229,7 @@
     "defaultvalue": 0,
     "displayName": "Ascension",
     "hidden": 0,
-    "description": "Complete \"Tower of Ascension\" scenario.",
+    "description": "Complete 5th floor of \"Tower of Ascension\" scenario.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1020730/59fdb612b3d50dffbc628d68bbf4f3ea387eec77.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1020730/6c086b8a535ab1e180570882c94c075d378d7c66.jpg"
   },
@@ -241,5 +241,14 @@
     "description": "Complete campaign.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1020730/a34a7a14bc37cc55b33c4e564f8179aaf46af4b1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1020730/23b9b7e03c64c82ff32963e848defc839846ae9e.jpg"
+  },
+  {
+    "name": "VISIONS",
+    "defaultvalue": 0,
+    "displayName": "Dream",
+    "hidden": 0,
+    "description": "Complete \"Dream\" game mode.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1020730/c17cf7a4882418c2b2ac82249d89508e6e95c987.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1020730/dd4b01ad9cad860c882732ba685e711b8075e392.jpg"
   }
 ]

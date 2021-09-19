@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "name": "JackbotBarrier",
     "defaultvalue": 0,
@@ -418,7 +418,7 @@
     "defaultvalue": 0,
     "displayName": "Master Escape Artist",
     "hidden": 0,
-    "description": "Reach Character Level 15 with Mac, Lahni and Keegan ",
+    "description": "Reach Character Level 15 with Tactician, Anchor and Blademaster Class ",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1097840/c2fc9d0f9b46ec64a0039a818762b404de69a25b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1097840/aefe28463d174a64749a85f812b097542544afee.jpg"
   },
@@ -427,7 +427,7 @@
     "defaultvalue": 0,
     "displayName": "Who's Your Escape Main?",
     "hidden": 0,
-    "description": "Reach Character Level 15 with a launch Escape Character",
+    "description": "Reach Character Level 15 with either Tactician, Anchor or Blademaster Class ",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1097840/0be5367d5097c7aea3d812579cb15a8379f6320a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1097840/2b43471c21f7cd733c0aaa4d881e051f41c383c8.jpg"
   },
@@ -481,7 +481,7 @@
     "defaultvalue": 0,
     "displayName": "Compulsive Horder",
     "hidden": 0,
-    "description": "Reach Character Level 15 with Kait, JD, Del, Marcus, Fahz and Jack",
+    "description": "Reach Character Level 15 with Infiltrator, Demolitions, Mechanic, Veteran, Marksman and Jack",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1097840/33a5746d84e10270f14a5581741a444644993b8c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1097840/e8e9d2f5c7476d7d30adb6becd050a41ceff548d.jpg"
   },
@@ -490,7 +490,7 @@
     "defaultvalue": 0,
     "displayName": "Who's Your Horde Main?",
     "hidden": 0,
-    "description": "Reach Character Level 15 with a launch Horde Character",
+    "description": "Reach Character Level 15 with Infiltrator, Demolitions, Mechanic, Veteran, Marksman OR Jack",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1097840/37ca4929bee338f2789c8ff0096a1048df74fe85.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1097840/decbcbc9e258684633c758a8ee74753175e14003.jpg"
   },
@@ -580,7 +580,7 @@
     "defaultvalue": 0,
     "displayName": "Grind Season",
     "hidden": 0,
-    "description": "Won 25 Ranked matches in one Ranked Season",
+    "description": "Won 25 Ranked matches in one Competitive Season",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1097840/105fe76833d5d498c7d480265641919901fdacfc.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1097840/ef0b26748135e276200c26010ae09ba19123eb81.jpg"
   },
@@ -589,7 +589,7 @@
     "defaultvalue": 0,
     "displayName": "My Place in the Machine",
     "hidden": 0,
-    "description": "Completed 5 Matches in a Ranked Playlist",
+    "description": "Completed 5 Matches in a Competitive playlist",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1097840/d2e2a7d28fc4565a2bb39089cea3b04e58be91c1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1097840/89c967ef912e09133937f64b67ddd1a6ff76a936.jpg"
   },
@@ -625,7 +625,7 @@
     "defaultvalue": 0,
     "displayName": "Dynamic Duo",
     "hidden": 0,
-    "description": "Win 10 Ranked Matches of 2vs2 Gnashers",
+    "description": "Won 10 Competitive Matches of 2vs2 Gnashers",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1097840/495a6036c2619cda2ae5337f640fb848686e5ade.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1097840/1ab2ae1e7fd60f8d8b04564b2bc1dd20273dae8e.jpg"
   },
@@ -841,7 +841,7 @@
     "defaultvalue": 0,
     "displayName": "Expanded Expertise",
     "hidden": 0,
-    "description": "Reach Character Level 15 with COG Soldier, Lizzie Carmine, Clayton Carmine, Baird or Cole",
+    "description": "Reach Character Level 15 with Combat Medic, Pilot, Gunner, Robotics Expert or Brawler",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1097840/f70ba7ef72fbcc4a211098e157a8ba36ab85f1a2.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1097840/99522b9dd134d598834c1bd8165deb58bc10c044.jpg"
   },
@@ -898,6 +898,135 @@
     "description": "Use the Scrubber Room to slow down the Venom in Escape",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1097840/4ae140d40579b51332368e2e4112d8813415c0b1.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1097840/1485ca3ce8455e0ee030824ce0c4979f2d93237e.jpg"
+  },
+  {
+    "name": "DLC_Campaign_1",
+    "defaultvalue": 0,
+    "displayName": "Designation: Scorpio",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1097840/7c79d6431adbc43a64215310979bb885fe50cbba.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1097840/19d3e93b1fc0938640b938c721404427cb7dbb9b.jpg"
+  },
+  {
+    "name": "DLC_Campaign_2",
+    "defaultvalue": 0,
+    "displayName": "Out of the Frying Pan",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1097840/e724413865c2da466274beb36667e8995e828be7.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1097840/7d934a53cc1cc5128eae98e89e747789c2656994.jpg"
+  },
+  {
+    "name": "DLC_Campaign_3",
+    "defaultvalue": 0,
+    "displayName": "New Island, New Mission",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1097840/b3d881ce62ffe6d844cfc5ea237322eddd0373e6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1097840/84135f0878ec9fd405f7f805b834c3d8f33a6c11.jpg"
+  },
+  {
+    "name": "DLC_Campaign_4",
+    "defaultvalue": 0,
+    "displayName": "A Breath of Fresh Air",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1097840/47216c277ea71c892d253cc203e99e6bfb1ecf04.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1097840/082a65b1c0310a6bbee4dd16987ac098e45403a1.jpg"
+  },
+  {
+    "name": "DLC_Campaign_5",
+    "defaultvalue": 0,
+    "displayName": "The Spirit Walk",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1097840/a7aa888f1087de888b764e521e8c3cb4cef06376.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1097840/3440b35a818e1eaef0007a0c1f00dbc2de442dfa.jpg"
+  },
+  {
+    "name": "DLC_Campaign_6",
+    "defaultvalue": 0,
+    "displayName": "Face the Creature",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1097840/f0f2ff8c1fd12f81be60e216c71c70b84b72724c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1097840/e2087e199b2fee7910554da5eeda8cdca11c84ce.jpg"
+  },
+  {
+    "name": "HivebusterAbilities1",
+    "defaultvalue": 0,
+    "displayName": "The Awakening",
+    "hidden": 0,
+    "description": "Activated Keegan, Lahni and Mac's Abilities in the Hivebuster Campaign Expansion",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1097840/bb9ba4a45b4e9a603df3bf3985d5dd9e79d69834.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1097840/3e5ead6f0a49d44febb2355489f66ae184b0f253.jpg"
+  },
+  {
+    "name": "LahniAbility",
+    "defaultvalue": 0,
+    "displayName": "Electroblade",
+    "hidden": 0,
+    "description": "Killed 50 enemies using Lahni's Electroblade Ability in the Hivebuster Campaign Expansion as Lahni",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1097840/fd45cee0d803fead6d120c213d372fdb55475da7.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1097840/0895576f06e978e43a921112bb9d390e33579d08.jpg"
+  },
+  {
+    "name": "MacAbility",
+    "defaultvalue": 0,
+    "displayName": "Ready to Frontline",
+    "hidden": 0,
+    "description": "Killed 50 enemies through your Barrier Ability in the Hivebuster Campaign Expansion as Mac",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1097840/7dd5fd5881c9610d4bd81e964cad39b6f65fa7c0.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1097840/d64f312184e79cffdcb1bb3eefbad5255ea2af5a.jpg"
+  },
+  {
+    "name": "KeeganAbility",
+    "defaultvalue": 0,
+    "displayName": "Supplies for the Effort",
+    "hidden": 0,
+    "description": "Activated Resupply ability 25 times in the Hivebuster Campaign Expansion as Keegan",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1097840/c0e0ea312a5a3690649ed8ae120d6c2bbb1b9878.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1097840/38339264b6372539803cc979eca2bccce916880c.jpg"
+  },
+  {
+    "name": "CompleteAllActsDLCAnyDifficulty",
+    "defaultvalue": 0,
+    "displayName": "Enter Hivebusters",
+    "hidden": 0,
+    "description": "Completed all Chapters of the Hivebusters DLC (any difficulty)",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1097840/6b4a8651dfcd048f9d3a2f66014228bfb3e35a9e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1097840/837139d3d6abc3ba02c43a75b076724180f6d860.jpg"
+  },
+  {
+    "name": "CompleteAllActsDLCInsaneDifficulty",
+    "defaultvalue": 0,
+    "displayName": "Rite of Passage",
+    "hidden": 0,
+    "description": "Completed all Chapters of the Hivebusters DLC on Insane",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1097840/e7f75529f47d5077a2e0679043685f97bbffdcb9.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1097840/069106a03ec6af7c0f05ec8c341bcc750843addc.jpg"
+  },
+  {
+    "name": "HivebusterAbilities2",
+    "defaultvalue": 0,
+    "displayName": "Renewed, Not Consumed",
+    "hidden": 0,
+    "description": "Found all Character Ability upgrades in the Hivebusters DLC",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1097840/62d2e9fcfdd3f5ee9b134637ba3f6c1f72b5a7ac.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1097840/525689941bcb948138451cfcb1f4970a56cbd0cd.jpg"
+  },
+  {
+    "name": "DLCAct3PlayerCoop",
+    "defaultvalue": 0,
+    "displayName": "Operation: Ride the Snatcher",
+    "hidden": 0,
+    "description": "Completed the Hivebusters DLC in 3-Player Co-Op (Scorpio squad, dupes not allowed)",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1097840/e724413865c2da466274beb36667e8995e828be7.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1097840/e705cea50e2d432ed672e50bd3321039557ac39d.jpg"
+  },
+  {
+    "name": "DLCCollectibles",
+    "defaultvalue": 0,
+    "displayName": "Searching for Answers",
+    "hidden": 0,
+    "description": "Collect all Campaign Collectibles in the Hivebusters DLC",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1097840/5403caaf555937741fa84667498639cca3db10d2.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1097840/704e3992a442e1aa61e2f41cc097cd13954bfd36.jpg"
   },
   {
     "name": "EscapeHiveDomPaduk",
@@ -1028,7 +1157,7 @@
   {
     "name": "VersusKills2",
     "defaultvalue": 0,
-    "displayName": "Nothin' but bits!",
+    "displayName": "Nothin' But Bits!",
     "hidden": 0,
     "description": "Killed 100,000 enemies in Versus",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1097840/a346fa40a13c12210f2e8f98f1215f1ba0508127.jpg",
@@ -1111,7 +1240,7 @@
     "defaultvalue": 0,
     "displayName": "Cool Off, Baby!",
     "hidden": 0,
-    "description": "Killed 100 enemies using Cole's Flame Ability & Flame Skill Cards in Horde or Escape",
+    "description": "Killed 100 enemies using Brawler Class Flame Ability & Flame Skill Cards in Horde or Escape",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1097840/981deac3ae94e1ddd07e930ab280250b04fa2acf.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1097840/7d914eb487ee681b1c211e44e4d7c5c425565b10.jpg"
   },
@@ -1120,7 +1249,7 @@
     "defaultvalue": 0,
     "displayName": "I'm Rubber, You're Glue!",
     "hidden": 0,
-    "description": "Killed 100 enemies using Clayton Carmine's Reflect ability in Horde or Escape",
+    "description": "Killed 100 enemies using Gunner Class Reflect ability in Horde or Escape",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1097840/d367f2472f8b651fa6e1829245389cb974c4305f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1097840/37d82aef8641c86ac98e95d9687fd3949d604a21.jpg"
   },
@@ -1129,7 +1258,7 @@
     "defaultvalue": 0,
     "displayName": "You Better Run!",
     "hidden": 0,
-    "description": "Killed 100 enemies under the effect of Paduk's Fear ability, as Paduk, in Horde or Escape",
+    "description": "Killed 100 enemies under the effect of Nomad's Fear ability, as Nomad Class, in Horde or Escape",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1097840/f3988382b3b7a5205949b0871b6ac96b018375cf.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1097840/76bc6b258bd573facab6b69e0585f60c9e05857f.jpg"
   },
@@ -1183,8 +1312,314 @@
     "defaultvalue": 0,
     "displayName": "A Challenger Emerges",
     "hidden": 0,
-    "description": "Ranked up to Silver in a Ranked Versus Mode",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1097840/bdc9639d436b4166ea748087e29f4de08e2459f1.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1097840/7e2d18070ea6e29e92b91ba11b6fd36a919a613f.jpg"
+    "description": "Unlocked a reward in any Competitive playlist",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1097840/66b713b00ed16ef8d3a9a5b52c696e7ed9ae03cd.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1097840/7108d2ef84b367572c34eefac36c1e51edd8033d.jpg"
+  },
+  {
+    "name": "IronmanCompleteAllChapters",
+    "defaultvalue": 0,
+    "displayName": "Ironed Out",
+    "hidden": 0,
+    "description": "Completed all chapters in Ironman Mode on Experienced difficulty or above",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1097840/edfa931174013e83cfde39cdee2edd74f7cb403d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1097840/371a28241e16d5fe5aa590f2ad467fc9ec8f647b.jpg"
+  },
+  {
+    "name": "InconceivableCompleteAllChapters",
+    "defaultvalue": 0,
+    "displayName": "That’s Inconceivable!",
+    "hidden": 0,
+    "description": "Completed all chapters on Inconceivable difficulty",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1097840/dd642cf365cdfdb3d11d5b4edd97e0d3c56428e6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1097840/5b897029428eef8662f42594d0a944d3d4fb95e5.jpg"
+  },
+  {
+    "name": "CompleteChapterCustomSkin",
+    "defaultvalue": 0,
+    "displayName": "Showin’ a Little Skin",
+    "hidden": 0,
+    "description": "Completed a chapter of Campaign while using a Custom Skin",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1097840/a8a9647a504361c7b201ae99cf54dfe3669bb14c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1097840/c4b4fcddb0f4d88e4f54ba76f7741e8d899eba7d.jpg"
+  },
+  {
+    "name": "KillEnemiesCustomWeapon",
+    "defaultvalue": 0,
+    "displayName": "Just Showing it Off",
+    "hidden": 0,
+    "description": "Killed 10 enemies using a weapon with a Custom Skin",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1097840/cb533b54dfbfef5246a4a151dd5e340a18bd4549.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1097840/24ff9171468b2b9c3ee5f1ba87eca76d38973e3d.jpg"
+  },
+  {
+    "name": "CompleteActBatistaAsMarcus",
+    "defaultvalue": 0,
+    "displayName": "Batista Bomb",
+    "hidden": 0,
+    "description": "Completed all chapters in one Act while Batista as Marcus is enabled",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1097840/f79f43cb943824ec8c0d2438297e18b050274077.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1097840/b34bc73928dc827229e2805fc155019bbb1ccb75.jpg"
+  },
+  {
+    "name": "OP5_LevelSubclasses",
+    "defaultvalue": 0,
+    "displayName": "Class Act",
+    "hidden": 0,
+    "description": "Reached level five on any one Assault, one Tank and one Support ",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1097840/ae6eaa416ff4edcbc80279d36385edc62b0082f1.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1097840/c2df12186ddbf7d5a25c6ccd9df185bfcd16e7c8.jpg"
+  },
+  {
+    "name": "OP5_MaxLevelSubclasses",
+    "defaultvalue": 0,
+    "displayName": "The Centaur Set",
+    "hidden": 0,
+    "description": "Maxed out each of the Anchor, Gunner, Pilot, Veteran, Brawler classes",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1097840/74f07926a21d18b5094445a8bfee694374d0dea3.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1097840/f5e3148eb5f83ab8dacc5195c88ebf27f38e4d1b.jpg"
+  },
+  {
+    "name": "OP5_EliminationsHollowstorm",
+    "defaultvalue": 0,
+    "displayName": "Exterminating the Hollow",
+    "hidden": 0,
+    "description": "Got 100 eliminations in Nexus",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1097840/a4f0c664cc4ab446441feda7566034b56401d9be.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1097840/161d1fbb9f3cd2dfd042173bf56b60b8e17e8e2c.jpg"
+  },
+  {
+    "name": "OP5_WinRankedOnOp5Maps",
+    "defaultvalue": 0,
+    "displayName": "Places to Go, Monsters to Kill",
+    "hidden": 0,
+    "description": "Won a Ranked match in each of Regency, River, Nexus, Clocktower, and Gridlock",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1097840/aa2bf1f06322920b63076d07b89a1e1873f77b56.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1097840/2602d3d727c886b7af05929c6a837a7def25d6a6.jpg"
+  },
+  {
+    "name": "OP5_CollectHeroicSkins1",
+    "defaultvalue": 0,
+    "displayName": "So There's the Hero",
+    "hidden": 0,
+    "description": "Collected first Heroic skin",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1097840/cdf1c61b8ce3ac8712ad04cdf2aa5ab0a69ecad1.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1097840/479f4506b198730e245e57af28c1bbe81acd68d0.jpg"
+  },
+  {
+    "name": "OP_CollectEpicSkins",
+    "defaultvalue": 0,
+    "displayName": "Didn't Want to Look Too Civilized",
+    "hidden": 0,
+    "description": "Collect 20 Epic character skins",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1097840/d7141d8570328d5d123027044cfa7af5651503c9.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1097840/1f7df28d09a963bdd41904e4a79e3b72db6b28ee.jpg"
+  },
+  {
+    "name": "OP5_ScorcherKills1",
+    "defaultvalue": 0,
+    "displayName": "Ben Would Have Loved This Thing",
+    "hidden": 0,
+    "description": "Got an elimination with the Scorcher",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1097840/335b71aeaf1284718d9349061dc81bcd4f4dfa35.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1097840/c6f7a79d2cfacf02fdbb31a96ebd6a763b38bc7f.jpg"
+  },
+  {
+    "name": "OP5_EscapeBeatFeaturedGoldTime1",
+    "defaultvalue": 0,
+    "displayName": "Solid Gold",
+    "hidden": 0,
+    "description": "Beat the Gold Time in a Featured Escape",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1097840/da57e0e32ad9ab25d8d7c73eeb3b9a059b592645.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1097840/71e293ba3179e8905d91bd6d05334c7aebd923dd.jpg"
+  },
+  {
+    "name": "OP5_EliminationsGP",
+    "defaultvalue": 0,
+    "displayName": "Such Carnage",
+    "hidden": 0,
+    "description": "Got 2000 points in a Competitive match from eliminations",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1097840/1436d19107d0bffe3da54690e622cfdaed54270a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1097840/5f496ced5ea516dc8b9f49fcd60c3634d5b7daf2.jpg"
+  },
+  {
+    "name": "OP5_RingBreakGP",
+    "defaultvalue": 0,
+    "displayName": "Break Them. Brutalize Them.",
+    "hidden": 0,
+    "description": "Got 1000 points in a Competitive match from ring breaks",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1097840/734a31b82fc721adeb702d3808ec55a5fa6db07a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1097840/aab78ff1679451a5873ab3e7d94eccc92184760c.jpg"
+  },
+  {
+    "name": "OP5_CollectCharacterSkins",
+    "defaultvalue": 0,
+    "displayName": "You've Got Character, Kid",
+    "hidden": 0,
+    "description": "Own 50 character skins",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1097840/3fa82a63e3aed5936b8df8884f5c162203cf7320.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1097840/2f58b9e93ae45301c571c88b6a89956045d17088.jpg"
+  },
+  {
+    "name": "OP5_CollectWeaponSkins",
+    "defaultvalue": 0,
+    "displayName": "Gun Collector",
+    "hidden": 0,
+    "description": "Own 360 weapon skins",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1097840/50cdbba623b6ccccd7bb36a317de2ba8d3dce5bc.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1097840/138d315d16315e06e5f3793aa27b1ba386d6ad9a.jpg"
+  },
+  {
+    "name": "OP5_CompleteVersusMatchOnOp5Maps",
+    "defaultvalue": 0,
+    "displayName": "A Gear of Many Talents",
+    "hidden": 0,
+    "description": "Completed a Versus match in each of Regency, River, Nexus, Clocktower, and Gridlock",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1097840/515d297373c5d673fc43307d191f8a164d602f5c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1097840/5a5a68b68f342ac9e7f57237a66cb8df36a10089.jpg"
+  },
+  {
+    "name": "OP8_ReachLegend",
+    "defaultvalue": 0,
+    "displayName": "Legendary Operator",
+    "hidden": 0,
+    "description": "Reached Legend 25 in an Operation",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1097840/576701a73953054cb2b18045f9764334cb372dd9.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1097840/311db6b2f8d3d260a4e09941cdf89c3f2b3449ad.jpg"
+  },
+  {
+    "name": "OP8_Reup1",
+    "defaultvalue": 0,
+    "displayName": "A Real Gear",
+    "hidden": 0,
+    "description": "Reached Re-Up 50",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1097840/39bd2dea051a7debcec71693467497a785b7496f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1097840/811866aa9d6081fdb5b0f87655bfa7bc14d866ba.jpg"
+  },
+  {
+    "name": "OP8_Reup2",
+    "defaultvalue": 0,
+    "displayName": "Re-Up Mastery",
+    "hidden": 0,
+    "description": "Reached Re-Up 60 ",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1097840/055b14b38be3d1b5d841e2b7e39ae1ec7575e2cf.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1097840/a82531461c115e502d8cc7d920a590885740c6d6.jpg"
+  },
+  {
+    "name": "OP8_Seriously",
+    "defaultvalue": 0,
+    "displayName": "Seriously 5.0 - Chapter 2",
+    "hidden": 0,
+    "description": "50 Re-Ups, Inconceivable Campaign, Mastered All hives & Horde Maps , All Classes at Level 20 ",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1097840/a1a45c8ab5338f0a2851c7712e5e1a154403c2a2.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1097840/e31731db2e689a2ef2dfdd3d4d41880fb8ba8dbd.jpg"
+  },
+  {
+    "name": "OP8_WinKOTH",
+    "defaultvalue": 0,
+    "displayName": "In Total Control",
+    "hidden": 0,
+    "description": "Won a Control and/or KOTH match on 10 different maps",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1097840/1993072763cdec9e9bcac169551a659fac30dcce.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1097840/da2e713a7f893b0073d9e37ab298f6d12e2d3ade.jpg"
+  },
+  {
+    "name": "OP8_WinEvents",
+    "defaultvalue": 0,
+    "displayName": "Event Planner",
+    "hidden": 0,
+    "description": "Won 10 matches in Versus Events",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1097840/7967d8ccbd0efc5b31ec9eb7d940a60a82a57421.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1097840/f7616f469857448b0b4e024822a9135d52b6399d.jpg"
+  },
+  {
+    "name": "OP8_WinExecution",
+    "defaultvalue": 0,
+    "displayName": "Back In Style",
+    "hidden": 0,
+    "description": "Won 10 matches of Execution",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1097840/6012e8bdfaea1260d5601bd2c34fe8d8f259d784.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1097840/d9dcdf32fef519b6c88a90b6af65130eff202763.jpg"
+  },
+  {
+    "name": "OP8_WinWithBernie",
+    "defaultvalue": 0,
+    "displayName": "Bernie is Back",
+    "hidden": 0,
+    "description": "Won 5 matches with Bernie COG character",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1097840/b380b509a29528fd10e1a9419d996be79bc3b151.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1097840/eb248402d95af6f5dce7ebee83cebe71b809227c.jpg"
+  },
+  {
+    "name": "OP8_WinWithVrol",
+    "defaultvalue": 0,
+    "displayName": "Trusted Advisor",
+    "hidden": 0,
+    "description": "Won 5 matches with the Vrol character",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1097840/c9dbec9b84ae81a89a402226f019eedcab72854c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1097840/b3925136062d5ad69bd38fe21a7e924fa0f94978.jpg"
+  },
+  {
+    "name": "OP8_WinOnTomb",
+    "defaultvalue": 0,
+    "displayName": "Grave Consequences",
+    "hidden": 0,
+    "description": "Won a Versus match on Tomb",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1097840/423d1eb5dfc50311935a2a326f1d13da3095f809.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1097840/aa36053f8416ca499e45aa7aaac5076ba431e803.jpg"
+  },
+  {
+    "name": "OP8_WinOnEphyra",
+    "defaultvalue": 0,
+    "displayName": "Destroyed Beauty",
+    "hidden": 0,
+    "description": "Won a Versus match on Ephyra",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1097840/0669f30c6108a4d3e155c5e26ecdf48be4f7f1c7.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1097840/8366c4f7bc603499b3f1941fcf1851b5de083378.jpg"
+  },
+  {
+    "name": "OP8_WinOnRitual",
+    "defaultvalue": 0,
+    "displayName": "Last Rites",
+    "hidden": 0,
+    "description": "Won a Versus match on Ritual",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1097840/2355325a12ad59f6e481c2d4727bf11ae49ecb0b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1097840/95d8be8fef1d6c58e1e21ea6f2d5f27626e539a6.jpg"
+  },
+  {
+    "name": "OP8_CompleteFrenzyOnAtrium",
+    "defaultvalue": 0,
+    "displayName": "Chamber of Horrors",
+    "hidden": 0,
+    "description": "Completed a match of Horde Frenzy on Atrium",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1097840/0ba8e73c12085ce44ba304725458d30cf681bad7.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1097840/bd7fe72f6d749e14960c24c29b4271fae07f5cdb.jpg"
+  },
+  {
+    "name": "OP8_CompleteFrenzyOnCommand",
+    "defaultvalue": 0,
+    "displayName": "Take Command",
+    "hidden": 0,
+    "description": "Completed a match of Horde Frenzy on Command",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1097840/16a9396d4637d22ab98492e9ea9da8e192c4c1e6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1097840/6cb0abbd5748a16be0d8bc05a9d4a8755832c3fa.jpg"
+  },
+  {
+    "name": "OP8_CompleteFrenzyOnTurbine",
+    "defaultvalue": 0,
+    "displayName": "Breezing Through",
+    "hidden": 0,
+    "description": "Completed a match of Horde Frenzy on Turbine",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1097840/122753a90cc9b16ff958cb88bc001b7c020892ec.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1097840/d2f54926324aa09abc49d89e297970ffbe1d8331.jpg"
+  },
+  {
+    "name": "OP8_PvEDamage",
+    "defaultvalue": 0,
+    "displayName": "Total Annihilation",
+    "hidden": 0,
+    "description": "Do 400,000,000 damage in Horde or Escape",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1097840/65e22dc6124e87f7ca13c8e59e7107e5f9aacf07.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1097840/c87e8cd3e85e8af6a343dd4a2f828c76ee75773a.jpg"
   }
 ]

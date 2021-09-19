@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "name": "vmilitary",
     "defaultvalue": 0,
@@ -1599,5 +1599,68 @@
     "description": "Finish the Conquest with the clan of the Lynx",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/466560/10204444b6cde3b302da34409710f8d751d3b25b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/466560/cb13257de6072e8e0016fbb0297c470c1d7227e6.jpg"
+  },
+  {
+    "name": "vSquirrel",
+    "defaultvalue": 0,
+    "displayName": "Agressive Negociations",
+    "hidden": 0,
+    "description": "Win with the Clan of the Squirrel [not in Story Mode]",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/466560/01fa1876393d988a44b7b48aa999990cf2a2b30b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/466560/58ef5a64cf22b9046a4c70fb092fdd5159454c18.jpg"
+  },
+  {
+    "name": "goldSquirrel",
+    "defaultvalue": 0,
+    "displayName": "Squirrel Master",
+    "hidden": 0,
+    "description": "Achieve 50 Victories with the Clan of the Squirrel [not in Story Mode]",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/466560/24f0234179d4f980d4a57e244645248419fb204f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/466560/1cf7a11ea4d1a09fc1f311d706cccc61f01d4a81.jpg"
+  },
+  {
+    "name": "rootClan",
+    "defaultvalue": 0,
+    "displayName": "The Root of our Clan",
+    "hidden": 0,
+    "description": "Build the Relic of the Clan of the Squirrel",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/466560/a83b61740535e3da738415aeff91e476ee67b3ae.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/466560/f3d4fbffdf3fb31cd3cf45e20549f09150ce184b.jpg"
+  },
+  {
+    "name": "conquestSquirrel",
+    "defaultvalue": 0,
+    "displayName": "Squirrel Conqueror",
+    "hidden": 0,
+    "description": "Finish a Conquest with the clan of the Squirrel",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/466560/7848966868832b0e4eeb994b077a9e21efb70150.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/466560/579a9a650df46d5122fbe05dec0458b01f7b6ef0.jpg"
+  },
+  {
+    "name": "generousGod",
+    "defaultvalue": 0,
+    "displayName": "I’m a Generous God",
+    "hidden": 0,
+    "description": "Gift 1,000 resources in one game",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/466560/44abeaa47cedc5893a184d861cefb62461589c49.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/466560/58ef5a64cf22b9046a4c70fb092fdd5159454c18.jpg"
+  },
+  {
+    "name": "littleHelp",
+    "defaultvalue": 0,
+    "displayName": "Just a little help for my friends",
+    "hidden": 0,
+    "description": "Win a game having shared all the meals you prepare with all your teammates",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/466560/cd97b5ec2ff15aafe0b233112f4b074afc1ae11b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/466560/5a4254f0f8e02f2af0a17add1498d3393204c160.jpg"
+  },
+  {
+    "name": "unlimitedPower",
+    "defaultvalue": 0,
+    "displayName": "UNLIMITED FLOWER!",
+    "hidden": 0,
+    "description": "Control a territory of at least 10 Eldritch zones.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/466560/174a8b4987bdddf6fd1935fadc2a2c5c1db4ef55.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/466560/67bb4e2f43c3de302d471cb7a559ff12227a6667.jpg"
   }
 ]

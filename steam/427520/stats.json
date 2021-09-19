@@ -1,54 +1,67 @@
-﻿{
-  "constructed-by-robots": {
-    "description": "Constructed by robots",
-    "value": 0
+[
+  {
+    "name": "constructed-by-robots",
+    "defaultvalue": 0,
+    "displayName": "Constructed by robots"
   },
-  "deconstructed-by-robots": {
-    "description": "Deconstructed by robots",
-    "value": 0
+  {
+    "name": "deconstructed-by-robots",
+    "defaultvalue": 0,
+    "displayName": "Deconstructed by robots"
   },
-  "advanced-circuits-per-hour": {
-    "description": "Advanced circuits per hour",
-    "value": 0
+  {
+    "name": "advanced-circuits-per-hour",
+    "defaultvalue": 0,
+    "displayName": "Advanced circuits per hour"
   },
-  "processing-units-per-hour": {
-    "description": "Processing units per hour",
-    "value": 0
+  {
+    "name": "processing-units-per-hour",
+    "defaultvalue": 0,
+    "displayName": "Processing units per hour"
   },
-  "delivered-by-robots": {
-    "description": "Delivered by robots",
-    "value": 0
+  {
+    "name": "delivered-by-robots",
+    "defaultvalue": 0,
+    "displayName": "Delivered by robots"
   },
-  "surived-damage-in-one-hit": {
-    "description": "Biggest damage in one hit that didn't kill you.",
-    "value": 0
+  {
+    "name": "surived-damage-in-one-hit",
+    "defaultvalue": 0,
+    "displayName": "Biggest damage in one hit that didn't kill you."
   },
-  "iron-plates-per-hour": {
-    "description": "Iron plates per hour",
-    "value": 0
+  {
+    "name": "iron-plates-per-hour",
+    "defaultvalue": 0,
+    "displayName": "Iron plates per hour"
   },
-  "electronic-circuits-production-overall": {
-    "description": "Electronic circuit production overall",
-    "value": 0
+  {
+    "name": "electronic-circuits-production-overall",
+    "defaultvalue": 0,
+    "displayName": "Electronic circuit production overall"
   },
-  "combat-robots": {
-    "description": "Combat robots",
-    "value": 0
+  {
+    "name": "combat-robots",
+    "defaultvalue": 0,
+    "displayName": "Combat robots"
   },
-  "trees-destroyed-by-fire": {
-    "description": "Trees destroyed by fire",
-    "value": 0
+  {
+    "name": "trees-destroyed-by-fire",
+    "defaultvalue": 0,
+    "displayName": "Trees destroyed by fire"
   },
-  "trees-destroyed-by-impact": {
-    "description": "Trees destroyed by impact",
-    "value": 0
+  {
+    "name": "trees-destroyed-by-impact",
+    "defaultvalue": 0,
+    "displayName": "Trees destroyed by impact"
   },
-  "spawners-killed-by-impact": {
-    "description": "Spawners killed by impact",
-    "value": 0
+  {
+    "name": "spawners-killed-by-impact",
+    "defaultvalue": 0,
+    "displayName": "Spawners killed by impact"
   },
-  "longest-train-path": {
-    "description": "Longest train path",
-    "value": 0
+  {
+    "name": "longest-train-path",
+    "defaultvalue": 0,
+    "displayName": "Longest train path"
   }
-}
+]

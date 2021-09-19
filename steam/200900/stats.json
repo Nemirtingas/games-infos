@@ -1,14 +1,17 @@
-﻿{
-  "damage": {
-    "description": "Total Damage",
-    "value": 0
+[
+  {
+    "name": "damage",
+    "defaultvalue": 0,
+    "displayName": "Total Damage"
   },
-  "maxhp": {
-    "description": "Max HP",
-    "value": 3
+  {
+    "name": "maxhp",
+    "defaultvalue": 3,
+    "displayName": "Max HP"
   },
-  "maxmissile": {
-    "description": "Missile Capacity",
-    "value": 5
+  {
+    "name": "maxmissile",
+    "defaultvalue": 5,
+    "displayName": "Missile Capacity"
   }
-}
+]

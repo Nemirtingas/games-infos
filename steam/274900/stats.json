@@ -93,5 +93,60 @@
     "name": "nonbelievers_spat_on",
     "defaultvalue": 0,
     "displayName": "Non Believers Spat Upon"
+  },
+  {
+    "name": "christmas_participant",
+    "defaultvalue": 0,
+    "displayName": "Christmas Event Participation"
+  },
+  {
+    "name": "christmas_infection_wins",
+    "defaultvalue": 0,
+    "displayName": "Christmas Event Infection Wins"
+  },
+  {
+    "name": "halloween_participant",
+    "defaultvalue": 0,
+    "displayName": "Halloween Event Participation"
+  },
+  {
+    "name": "official_kills_with_sentry",
+    "defaultvalue": 0,
+    "displayName": "Kills with Sentry Turret"
+  },
+  {
+    "name": "ram_kills",
+    "defaultvalue": 0,
+    "displayName": "Ram Kills"
+  },
+  {
+    "name": "total_time_in_gamenight",
+    "defaultvalue": 0,
+    "displayName": "Total Time in Gamenight"
+  },
+  {
+    "name": "has_been_booted",
+    "defaultvalue": 0,
+    "displayName": "Has Been Booted"
+  },
+  {
+    "name": "valentines_participant",
+    "defaultvalue": 0,
+    "displayName": "Valentines Participant"
+  },
+  {
+    "name": "sentry_kills",
+    "defaultvalue": 0,
+    "displayName": "Sentry Kills"
+  },
+  {
+    "name": "anniversary_participant",
+    "defaultvalue": 0,
+    "displayName": "Anniversary / Alpha Event Participation"
+  },
+  {
+    "name": "assassination_kills",
+    "defaultvalue": 0,
+    "displayName": "Assassination Kills"
   }
 ]

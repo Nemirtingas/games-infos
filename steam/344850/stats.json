@@ -1,42 +1,52 @@
-﻿{
-  "tutorialChallengesCompleted": {
-    "description": "Tutorial challenges completed",
-    "value": 0
+[
+  {
+    "name": "tutorialChallengesCompleted",
+    "defaultvalue": 0,
+    "displayName": "Tutorial challenges completed"
   },
-  "beginnerChallengesCompleted": {
-    "description": "Beginner challenges completed",
-    "value": 0
+  {
+    "name": "beginnerChallengesCompleted",
+    "defaultvalue": 0,
+    "displayName": "Beginner challenges completed"
   },
-  "intermediateChallengesCompleted": {
-    "description": "Intermediate challenges completed",
-    "value": 0
+  {
+    "name": "intermediateChallengesCompleted",
+    "defaultvalue": 0,
+    "displayName": "Intermediate challenges completed"
   },
-  "advancedChallengesCompleted": {
-    "description": "Advanced challenges completed",
-    "value": 0
+  {
+    "name": "advancedChallengesCompleted",
+    "defaultvalue": 0,
+    "displayName": "Advanced challenges completed"
   },
-  "quickStartChallengesCompleted": {
-    "description": "Quick Start challenges completed",
-    "value": 0
+  {
+    "name": "quickStartChallengesCompleted",
+    "defaultvalue": 0,
+    "displayName": "Quick Start challenges completed"
   },
-  "cripplingDebtChallengesCompleted": {
-    "description": "Crippling Debt challenges completed",
-    "value": 0
+  {
+    "name": "cripplingDebtChallengesCompleted",
+    "defaultvalue": 0,
+    "displayName": "Crippling Debt challenges completed"
   },
-  "roomToManeuverChallengesCompleted": {
-    "description": "Room to Maneuver challenges completed",
-    "value": 0
+  {
+    "name": "roomToManeuverChallengesCompleted",
+    "defaultvalue": 0,
+    "displayName": "Room to Maneuver challenges completed"
   },
-  "fullUnlockChallengesCompleted": {
-    "description": "Full Unlock challenges completed",
-    "value": 0
+  {
+    "name": "fullUnlockChallengesCompleted",
+    "defaultvalue": 0,
+    "displayName": "Full Unlock challenges completed"
   },
-  "challengesCompletedOnExpert": {
-    "description": "Challenges completed with Expert rating",
-    "value": 0
+  {
+    "name": "challengesCompletedOnExpert",
+    "defaultvalue": 0,
+    "displayName": "Challenges completed with Expert rating"
   },
-  "challengesCompletedOnMaster": {
-    "description": "Challenges completed with Master rating",
-    "value": 0
+  {
+    "name": "challengesCompletedOnMaster",
+    "defaultvalue": 0,
+    "displayName": "Challenges completed with Master rating"
   }
-}
+]

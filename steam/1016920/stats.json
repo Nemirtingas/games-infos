@@ -1,42 +1,52 @@
-﻿{
-  "MaxDistance": {
-    "description": "Longest distance",
-    "value": 0
+[
+  {
+    "name": "MaxDistance",
+    "defaultvalue": 0,
+    "displayName": "Longest distance"
   },
-  "KilledDucksWithDynamite": {
-    "description": "# ducks removed",
-    "value": 0
+  {
+    "name": "KilledDucksWithDynamite",
+    "defaultvalue": 0,
+    "displayName": "# ducks removed"
   },
-  "TracksCrafted": {
-    "description": "Total tracks crafted",
-    "value": 0
+  {
+    "name": "TracksCrafted",
+    "defaultvalue": 0,
+    "displayName": "Total tracks crafted"
   },
-  "DynamitesUsed": {
-    "description": "# dynamites used",
-    "value": 0
+  {
+    "name": "DynamitesUsed",
+    "defaultvalue": 0,
+    "displayName": "# dynamites used"
   },
-  "StationMissedEndless": {
-    "description": "# missed stations",
-    "value": 0
+  {
+    "name": "StationMissedEndless",
+    "defaultvalue": 0,
+    "displayName": "# missed stations"
   },
-  "WalkedDistance": {
-    "description": "Longest distance ever run",
-    "value": 0
+  {
+    "name": "WalkedDistance",
+    "defaultvalue": 0,
+    "displayName": "Longest distance ever run"
   },
-  "TrackLength": {
-    "description": "Longest track",
-    "value": 0
+  {
+    "name": "TrackLength",
+    "defaultvalue": 0,
+    "displayName": "Longest track"
   },
-  "MaxDistanceEasy": {
-    "description": "Longest distance (easy)",
-    "value": 0
+  {
+    "name": "MaxDistanceEasy",
+    "defaultvalue": 0,
+    "displayName": "Longest distance (easy)"
   },
-  "MaxDistanceMedium": {
-    "description": "Longest distance (medium)",
-    "value": 0
+  {
+    "name": "MaxDistanceMedium",
+    "defaultvalue": 0,
+    "displayName": "Longest distance (medium)"
   },
-  "MaxDistanceHard": {
-    "description": "Longest distance (hard)",
-    "value": 0
+  {
+    "name": "MaxDistanceHard",
+    "defaultvalue": 0,
+    "displayName": "Longest distance (hard)"
   }
-}
+]

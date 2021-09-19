@@ -1,366 +1,457 @@
-﻿{
-  "Achiev_T_MatchesPlayed": {
-    "description": "Matches Played",
-    "value": 0
-  },
-  "Achiev_T_MatchesWon": {
-    "description": "Matches Won",
-    "value": 0
-  },
-  "Achiev_T_RoundsWon": {
-    "description": "Rounds Won",
-    "value": 0
-  },
-  "Achiev_T_Eliminated": {
-    "description": "Eliminated",
-    "value": 0
-  },
-  "Achiev_T_PickUpRandom": {
-    "description": "Pick Up Random",
-    "value": 0
-  },
-  "Achiev_T_AllWeapon_Eliminate": {
-    "description": "All Weapon Eliminations",
-    "value": 0
-  },
-  "Achiev_T_AllWeapon_GotEliminated": {
-    "description": "All Weapon Got Eliminated",
-    "value": 0
-  },
-  "Achiev_T_AllWeapon_Hit": {
-    "description": "All Weapon Hits",
-    "value": 0
-  },
-  "Achiev_T_AllWeapon_GotHit": {
-    "description": "All Weapon Got Hits",
-    "value": 0
-  },
-  "Achiev_T_AllWeapon_Shoot": {
-    "description": "All Weapon Shots",
-    "value": 0
-  },
-  "Achiev_T_AllWeapon_PickUp": {
-    "description": "All Weapon Pick Ups",
-    "value": 0
-  },
-  "Achiev_T_Basic_Eliminate": {
-    "description": "Basic Weapon Eliminations",
-    "value": 0
-  },
-  "Achiev_T_Basic_GotEliminated": {
-    "description": "Basic Weapon Got Eliminated",
-    "value": 0
-  },
-  "Achiev_T_Basic_Hit": {
-    "description": "Basic Weapon Hits",
-    "value": 0
-  },
-  "Achiev_T_Basic_GotHit": {
-    "description": "Basic Weapon Got Hits",
-    "value": 0
-  },
-  "Achiev_T_Basic_Shoot": {
-    "description": "Basic Weapon Shots",
-    "value": 0
-  },
-  "Achiev_T_Basic_PickUp": {
-    "description": "Basic Weapon Pick Ups",
-    "value": 0
-  },
-  "Achiev_T_BasicLaser_Eliminate": {
-    "description": "Basic Laser Eliminations",
-    "value": 0
-  },
-  "Achiev_T_BasicLaser_GotEliminated": {
-    "description": "Basic Laser Got Eliminated",
-    "value": 0
-  },
-  "Achiev_T_BasicLaser_Hit": {
-    "description": "Basic Weapon Hits",
-    "value": 0
-  },
-  "Achiev_T_BasicLaser_GotHit": {
-    "description": "Basic Weapon Got Hits",
-    "value": 0
-  },
-  "Achiev_T_BasicLaser_Shoot": {
-    "description": "Basic Weapon Shots",
-    "value": 0
-  },
-  "Achiev_T_BasicLaser_PickUp": {
-    "description": "Basic Weapon Pick Ups",
-    "value": 0
-  },
-  "Achiev_T_Machinegun_Eliminate": {
-    "description": "Machine Gun Eliminations",
-    "value": 0
-  },
-  "Achiev_T_Machinegun_GotEliminated": {
-    "description": "Machine Gun Got Eliminated",
-    "value": 0
-  },
-  "Achiev_T_Machinegun_Hit": {
-    "description": "Machine Gun Hits",
-    "value": 0
-  },
-  "Achiev_T_Machinegun_GotHit": {
-    "description": "Machine Gun Got Hits",
-    "value": 0
-  },
-  "Achiev_T_Machinegun_Shoot": {
-    "description": "Machine Gun Shots",
-    "value": 0
-  },
-  "Achiev_T_Machinegun_PickUp": {
-    "description": "Machine Gun Pick Ups",
-    "value": 0
-  },
-  "Achiev_T_LaserMachinegun_Eliminate": {
-    "description": "Laser Machine Gun Eliminations",
-    "value": 0
-  },
-  "Achiev_T_LaserMachinegun_GotEliminated": {
-    "description": "Laser Machine Gun Got Eliminated",
-    "value": 0
-  },
-  "Achiev_T_LaserMachinegun_Hit": {
-    "description": "Laser Machine Gun Hits",
-    "value": 0
-  },
-  "Achiev_T_LaserMachinegun_GotHit": {
-    "description": "Laser Machine Gun Got Hits",
-    "value": 0
-  },
-  "Achiev_T_LaserMachinegun_Shoot": {
-    "description": "Laser Machine Gun Shots",
-    "value": 0
-  },
-  "Achiev_T_LaserMachinegun_PickUp": {
-    "description": "Laser Machine Gun Pick Ups",
-    "value": 0
-  },
-  "Achiev_T_Shotgun_Eliminate": {
-    "description": "Shotgun Eliminations",
-    "value": 0
-  },
-  "Achiev_T_Shotgun_GotEliminated": {
-    "description": "Shotgun Got Eliminated",
-    "value": 0
-  },
-  "Achiev_T_Shotgun_Hit": {
-    "description": "Shotgun Hits",
-    "value": 0
-  },
-  "Achiev_T_Shotgun_GotHit": {
-    "description": "Shotgun Got Hits",
-    "value": 0
-  },
-  "Achiev_T_Shotgun_Shoot": {
-    "description": "Shotgun Shots",
-    "value": 0
-  },
-  "Achiev_T_Shotgun_PickUp": {
-    "description": "Shotgun Pick Ups",
-    "value": 0
-  },
-  "Achiev_T_LaserShotgun_Eliminate": {
-    "description": "Laser Shotgun Eliminations",
-    "value": 0
-  },
-  "Achiev_T_LaserShotgun_GotEliminated": {
-    "description": "Laser Shotgun Got Eliminated",
-    "value": 0
-  },
-  "Achiev_T_LaserShotgun_Hit": {
-    "description": "Laser Shotgun Hits",
-    "value": 0
-  },
-  "Achiev_T_LaserShotgun_GotHit": {
-    "description": "Laser Shotgun Got Hits",
-    "value": 0
-  },
-  "Achiev_T_LaserShotgun_Shoot": {
-    "description": "Laser Shotgun Shots",
-    "value": 0
-  },
-  "Achiev_T_LaserShotgun_PickUp": {
-    "description": "Laser Shotgun Pick Ups",
-    "value": 0
-  },
-  "Achiev_T_Sniper_Eliminate": {
-    "description": "Sniper Eliminations",
-    "value": 0
-  },
-  "Achiev_T_Sniper_GotEliminated": {
-    "description": "Sniper Got Eliminated",
-    "value": 0
-  },
-  "Achiev_T_Sniper_Hit": {
-    "description": "Sniper Hits",
-    "value": 0
-  },
-  "Achiev_T_Sniper_GotHit": {
-    "description": "Sniper Got Hits",
-    "value": 0
-  },
-  "Achiev_T_Sniper_Shoot": {
-    "description": "Sniper Shots",
-    "value": 0
-  },
-  "Achiev_T_Sniper_PickUp": {
-    "description": "Sniper Pick Ups",
-    "value": 0
-  },
-  "Achiev_T_LaserSniper_Eliminate": {
-    "description": "Laser Sniper Eliminations",
-    "value": 0
-  },
-  "Achiev_T_LaserSniper_GotEliminated": {
-    "description": "Laser Sniper Got Eliminated",
-    "value": 0
-  },
-  "Achiev_T_LaserSniper_Hit": {
-    "description": "Laser Sniper Hits",
-    "value": 0
-  },
-  "Achiev_T_LaserSniper_GotHit": {
-    "description": "Laser Sniper Got Hits",
-    "value": 0
-  },
-  "Achiev_T_LaserSniper_Shoot": {
-    "description": "Laser Sniper Shots",
-    "value": 0
-  },
-  "Achiev_T_LaserSniper_PickUp": {
-    "description": "Laser Sniper Pick Ups",
-    "value": 0
-  },
-  "Achiev_T_Mirror_Eliminate": {
-    "description": "Mirror Eliminations",
-    "value": 0
-  },
-  "Achiev_T_Mirror_GotEliminated": {
-    "description": "Mirror Got Eliminated",
-    "value": 0
-  },
-  "Achiev_T_Mirror_Hit": {
-    "description": "Mirror Hits",
-    "value": 0
-  },
-  "Achiev_T_Mirror_GotHit": {
-    "description": "Mirror Got Hits",
-    "value": 0
-  },
-  "Achiev_T_Mirror_Shoot": {
-    "description": "Mirror Shots",
-    "value": 0
-  },
-  "Achiev_T_Mirror_PickUp": {
-    "description": "Mirror Pick Ups",
-    "value": 0
-  },
-  "Achiev_T_Accelerator_Eliminate": {
-    "description": "Accelerator Eliminations",
-    "value": 0
-  },
-  "Achiev_T_Accelerator_GotEliminated": {
-    "description": "Accelerator Got Eliminated",
-    "value": 0
-  },
-  "Achiev_T_Accelerator_Hit": {
-    "description": "Accelerator Hits",
-    "value": 0
-  },
-  "Achiev_T_Accelerator_GotHit": {
-    "description": "Accelerator Got Hits",
-    "value": 0
-  },
-  "Achiev_T_Accelerator_Shoot": {
-    "description": "Accelerator Shots",
-    "value": 0
-  },
-  "Achiev_T_Accelerator_PickUp": {
-    "description": "Accelerator Pick Ups",
-    "value": 0
-  },
-  "Achiev_T_Imploder_Eliminate": {
-    "description": "Imploder Eliminations",
-    "value": 0
-  },
-  "Achiev_T_Imploder_GotEliminated": {
-    "description": "Imploder Got Eliminated",
-    "value": 0
-  },
-  "Achiev_T_Imploder_Hit": {
-    "description": "Imploder Hits",
-    "value": 0
-  },
-  "Achiev_T_Imploder_GotHit": {
-    "description": "Imploder Got Hits",
-    "value": 0
-  },
-  "Achiev_T_Imploder_Shoot": {
-    "description": "Imploder Shots",
-    "value": 0
-  },
-  "Achiev_T_Imploder_PickUp": {
-    "description": "Imploder Pick Ups",
-    "value": 0
-  },
-  "Achiev_T_FlakCannon_Eliminate": {
-    "description": "Flak Cannon Eliminations",
-    "value": 0
-  },
-  "Achiev_T_FlakCannon_GotEliminated": {
-    "description": "Flak Cannon Got Eliminated",
-    "value": 0
-  },
-  "Achiev_T_FlakCannon_Hit": {
-    "description": "Flak Cannon Hits",
-    "value": 0
-  },
-  "Achiev_T_FlakCannon_GotHit": {
-    "description": "Flak Cannon Got Hits",
-    "value": 0
-  },
-  "Achiev_T_FlakCannon_Shoot": {
-    "description": "Flak Cannon Shots",
-    "value": 0
-  },
-  "Achiev_T_FlakCannon_PickUp": {
-    "description": "Flak Cannon Pick Ups",
-    "value": 0
-  },
-  "Achiev_T_HotWar_Eliminate": {
-    "description": "Hot War Eliminations",
-    "value": 0
-  },
-  "Achiev_T_HotWar_GotEliminated": {
-    "description": "Hot War Got Eliminated",
-    "value": 0
-  },
-  "Achiev_T_HotWar_Hit": {
-    "description": "Hot War Hits",
-    "value": 0
-  },
-  "Achiev_T_HotWar_GotHit": {
-    "description": "Hot War Got Hits",
-    "value": 0
-  },
-  "Achiev_T_HotWar_Shoot": {
-    "description": "Hot War Shots",
-    "value": 0
-  },
-  "Achiev_T_HotWar_PickUp": {
-    "description": "Hot War Pick Ups",
-    "value": 0
-  },
-  "XPSystem_CurrentXP": {
-    "description": "Current XP",
-    "value": 0
-  },
-  "XPSystem_CurrentLevel": {
-    "description": "Current Level",
-    "value": 0
+[
+  {
+    "name": "Achiev_T_MatchesPlayed",
+    "defaultvalue": 0,
+    "displayName": "Matches Played"
+  },
+  {
+    "name": "Achiev_T_MatchesWon",
+    "defaultvalue": 0,
+    "displayName": "Matches Won"
+  },
+  {
+    "name": "Achiev_T_RoundsWon",
+    "defaultvalue": 0,
+    "displayName": "Rounds Won"
+  },
+  {
+    "name": "Achiev_T_Eliminated",
+    "defaultvalue": 0,
+    "displayName": "Eliminated"
+  },
+  {
+    "name": "Achiev_T_PickUpRandom",
+    "defaultvalue": 0,
+    "displayName": "Pick Up Random"
+  },
+  {
+    "name": "Achiev_T_AllWeapon_Eliminate",
+    "defaultvalue": 0,
+    "displayName": "All Weapon Eliminations"
+  },
+  {
+    "name": "Achiev_T_AllWeapon_GotEliminated",
+    "defaultvalue": 0,
+    "displayName": "All Weapon Got Eliminated"
+  },
+  {
+    "name": "Achiev_T_AllWeapon_Hit",
+    "defaultvalue": 0,
+    "displayName": "All Weapon Hits"
+  },
+  {
+    "name": "Achiev_T_AllWeapon_GotHit",
+    "defaultvalue": 0,
+    "displayName": "All Weapon Got Hits"
+  },
+  {
+    "name": "Achiev_T_AllWeapon_Shoot",
+    "defaultvalue": 0,
+    "displayName": "All Weapon Shots"
+  },
+  {
+    "name": "Achiev_T_AllWeapon_PickUp",
+    "defaultvalue": 0,
+    "displayName": "All Weapon Pick Ups"
+  },
+  {
+    "name": "Achiev_T_Basic_Eliminate",
+    "defaultvalue": 0,
+    "displayName": "Basic Weapon Eliminations"
+  },
+  {
+    "name": "Achiev_T_Basic_GotEliminated",
+    "defaultvalue": 0,
+    "displayName": "Basic Weapon Got Eliminated"
+  },
+  {
+    "name": "Achiev_T_Basic_Hit",
+    "defaultvalue": 0,
+    "displayName": "Basic Weapon Hits"
+  },
+  {
+    "name": "Achiev_T_Basic_GotHit",
+    "defaultvalue": 0,
+    "displayName": "Basic Weapon Got Hits"
+  },
+  {
+    "name": "Achiev_T_Basic_Shoot",
+    "defaultvalue": 0,
+    "displayName": "Basic Weapon Shots"
+  },
+  {
+    "name": "Achiev_T_Basic_PickUp",
+    "defaultvalue": 0,
+    "displayName": "Basic Weapon Pick Ups"
+  },
+  {
+    "name": "Achiev_T_BasicLaser_Eliminate",
+    "defaultvalue": 0,
+    "displayName": "Basic Laser Eliminations"
+  },
+  {
+    "name": "Achiev_T_BasicLaser_GotEliminated",
+    "defaultvalue": 0,
+    "displayName": "Basic Laser Got Eliminated"
+  },
+  {
+    "name": "Achiev_T_BasicLaser_Hit",
+    "defaultvalue": 0,
+    "displayName": "Basic Weapon Hits"
+  },
+  {
+    "name": "Achiev_T_BasicLaser_GotHit",
+    "defaultvalue": 0,
+    "displayName": "Basic Weapon Got Hits"
+  },
+  {
+    "name": "Achiev_T_BasicLaser_Shoot",
+    "defaultvalue": 0,
+    "displayName": "Basic Weapon Shots"
+  },
+  {
+    "name": "Achiev_T_BasicLaser_PickUp",
+    "defaultvalue": 0,
+    "displayName": "Basic Weapon Pick Ups"
+  },
+  {
+    "name": "Achiev_T_Machinegun_Eliminate",
+    "defaultvalue": 0,
+    "displayName": "Machine Gun Eliminations"
+  },
+  {
+    "name": "Achiev_T_Machinegun_GotEliminated",
+    "defaultvalue": 0,
+    "displayName": "Machine Gun Got Eliminated"
+  },
+  {
+    "name": "Achiev_T_Machinegun_Hit",
+    "defaultvalue": 0,
+    "displayName": "Machine Gun Hits"
+  },
+  {
+    "name": "Achiev_T_Machinegun_GotHit",
+    "defaultvalue": 0,
+    "displayName": "Machine Gun Got Hits"
+  },
+  {
+    "name": "Achiev_T_Machinegun_Shoot",
+    "defaultvalue": 0,
+    "displayName": "Machine Gun Shots"
+  },
+  {
+    "name": "Achiev_T_Machinegun_PickUp",
+    "defaultvalue": 0,
+    "displayName": "Machine Gun Pick Ups"
+  },
+  {
+    "name": "Achiev_T_LaserMachinegun_Eliminate",
+    "defaultvalue": 0,
+    "displayName": "Laser Machine Gun Eliminations"
+  },
+  {
+    "name": "Achiev_T_LaserMachinegun_GotEliminated",
+    "defaultvalue": 0,
+    "displayName": "Laser Machine Gun Got Eliminated"
+  },
+  {
+    "name": "Achiev_T_LaserMachinegun_Hit",
+    "defaultvalue": 0,
+    "displayName": "Laser Machine Gun Hits"
+  },
+  {
+    "name": "Achiev_T_LaserMachinegun_GotHit",
+    "defaultvalue": 0,
+    "displayName": "Laser Machine Gun Got Hits"
+  },
+  {
+    "name": "Achiev_T_LaserMachinegun_Shoot",
+    "defaultvalue": 0,
+    "displayName": "Laser Machine Gun Shots"
+  },
+  {
+    "name": "Achiev_T_LaserMachinegun_PickUp",
+    "defaultvalue": 0,
+    "displayName": "Laser Machine Gun Pick Ups"
+  },
+  {
+    "name": "Achiev_T_Shotgun_Eliminate",
+    "defaultvalue": 0,
+    "displayName": "Shotgun Eliminations"
+  },
+  {
+    "name": "Achiev_T_Shotgun_GotEliminated",
+    "defaultvalue": 0,
+    "displayName": "Shotgun Got Eliminated"
+  },
+  {
+    "name": "Achiev_T_Shotgun_Hit",
+    "defaultvalue": 0,
+    "displayName": "Shotgun Hits"
+  },
+  {
+    "name": "Achiev_T_Shotgun_GotHit",
+    "defaultvalue": 0,
+    "displayName": "Shotgun Got Hits"
+  },
+  {
+    "name": "Achiev_T_Shotgun_Shoot",
+    "defaultvalue": 0,
+    "displayName": "Shotgun Shots"
+  },
+  {
+    "name": "Achiev_T_Shotgun_PickUp",
+    "defaultvalue": 0,
+    "displayName": "Shotgun Pick Ups"
+  },
+  {
+    "name": "Achiev_T_LaserShotgun_Eliminate",
+    "defaultvalue": 0,
+    "displayName": "Laser Shotgun Eliminations"
+  },
+  {
+    "name": "Achiev_T_LaserShotgun_GotEliminated",
+    "defaultvalue": 0,
+    "displayName": "Laser Shotgun Got Eliminated"
+  },
+  {
+    "name": "Achiev_T_LaserShotgun_Hit",
+    "defaultvalue": 0,
+    "displayName": "Laser Shotgun Hits"
+  },
+  {
+    "name": "Achiev_T_LaserShotgun_GotHit",
+    "defaultvalue": 0,
+    "displayName": "Laser Shotgun Got Hits"
+  },
+  {
+    "name": "Achiev_T_LaserShotgun_Shoot",
+    "defaultvalue": 0,
+    "displayName": "Laser Shotgun Shots"
+  },
+  {
+    "name": "Achiev_T_LaserShotgun_PickUp",
+    "defaultvalue": 0,
+    "displayName": "Laser Shotgun Pick Ups"
+  },
+  {
+    "name": "Achiev_T_Sniper_Eliminate",
+    "defaultvalue": 0,
+    "displayName": "Sniper Eliminations"
+  },
+  {
+    "name": "Achiev_T_Sniper_GotEliminated",
+    "defaultvalue": 0,
+    "displayName": "Sniper Got Eliminated"
+  },
+  {
+    "name": "Achiev_T_Sniper_Hit",
+    "defaultvalue": 0,
+    "displayName": "Sniper Hits"
+  },
+  {
+    "name": "Achiev_T_Sniper_GotHit",
+    "defaultvalue": 0,
+    "displayName": "Sniper Got Hits"
+  },
+  {
+    "name": "Achiev_T_Sniper_Shoot",
+    "defaultvalue": 0,
+    "displayName": "Sniper Shots"
+  },
+  {
+    "name": "Achiev_T_Sniper_PickUp",
+    "defaultvalue": 0,
+    "displayName": "Sniper Pick Ups"
+  },
+  {
+    "name": "Achiev_T_LaserSniper_Eliminate",
+    "defaultvalue": 0,
+    "displayName": "Laser Sniper Eliminations"
+  },
+  {
+    "name": "Achiev_T_LaserSniper_GotEliminated",
+    "defaultvalue": 0,
+    "displayName": "Laser Sniper Got Eliminated"
+  },
+  {
+    "name": "Achiev_T_LaserSniper_Hit",
+    "defaultvalue": 0,
+    "displayName": "Laser Sniper Hits"
+  },
+  {
+    "name": "Achiev_T_LaserSniper_GotHit",
+    "defaultvalue": 0,
+    "displayName": "Laser Sniper Got Hits"
+  },
+  {
+    "name": "Achiev_T_LaserSniper_Shoot",
+    "defaultvalue": 0,
+    "displayName": "Laser Sniper Shots"
+  },
+  {
+    "name": "Achiev_T_LaserSniper_PickUp",
+    "defaultvalue": 0,
+    "displayName": "Laser Sniper Pick Ups"
+  },
+  {
+    "name": "Achiev_T_Mirror_Eliminate",
+    "defaultvalue": 0,
+    "displayName": "Mirror Eliminations"
+  },
+  {
+    "name": "Achiev_T_Mirror_GotEliminated",
+    "defaultvalue": 0,
+    "displayName": "Mirror Got Eliminated"
+  },
+  {
+    "name": "Achiev_T_Mirror_Hit",
+    "defaultvalue": 0,
+    "displayName": "Mirror Hits"
+  },
+  {
+    "name": "Achiev_T_Mirror_GotHit",
+    "defaultvalue": 0,
+    "displayName": "Mirror Got Hits"
+  },
+  {
+    "name": "Achiev_T_Mirror_Shoot",
+    "defaultvalue": 0,
+    "displayName": "Mirror Shots"
+  },
+  {
+    "name": "Achiev_T_Mirror_PickUp",
+    "defaultvalue": 0,
+    "displayName": "Mirror Pick Ups"
+  },
+  {
+    "name": "Achiev_T_Accelerator_Eliminate",
+    "defaultvalue": 0,
+    "displayName": "Accelerator Eliminations"
+  },
+  {
+    "name": "Achiev_T_Accelerator_GotEliminated",
+    "defaultvalue": 0,
+    "displayName": "Accelerator Got Eliminated"
+  },
+  {
+    "name": "Achiev_T_Accelerator_Hit",
+    "defaultvalue": 0,
+    "displayName": "Accelerator Hits"
+  },
+  {
+    "name": "Achiev_T_Accelerator_GotHit",
+    "defaultvalue": 0,
+    "displayName": "Accelerator Got Hits"
+  },
+  {
+    "name": "Achiev_T_Accelerator_Shoot",
+    "defaultvalue": 0,
+    "displayName": "Accelerator Shots"
+  },
+  {
+    "name": "Achiev_T_Accelerator_PickUp",
+    "defaultvalue": 0,
+    "displayName": "Accelerator Pick Ups"
+  },
+  {
+    "name": "Achiev_T_Imploder_Eliminate",
+    "defaultvalue": 0,
+    "displayName": "Imploder Eliminations"
+  },
+  {
+    "name": "Achiev_T_Imploder_GotEliminated",
+    "defaultvalue": 0,
+    "displayName": "Imploder Got Eliminated"
+  },
+  {
+    "name": "Achiev_T_Imploder_Hit",
+    "defaultvalue": 0,
+    "displayName": "Imploder Hits"
+  },
+  {
+    "name": "Achiev_T_Imploder_GotHit",
+    "defaultvalue": 0,
+    "displayName": "Imploder Got Hits"
+  },
+  {
+    "name": "Achiev_T_Imploder_Shoot",
+    "defaultvalue": 0,
+    "displayName": "Imploder Shots"
+  },
+  {
+    "name": "Achiev_T_Imploder_PickUp",
+    "defaultvalue": 0,
+    "displayName": "Imploder Pick Ups"
+  },
+  {
+    "name": "Achiev_T_FlakCannon_Eliminate",
+    "defaultvalue": 0,
+    "displayName": "Flak Cannon Eliminations"
+  },
+  {
+    "name": "Achiev_T_FlakCannon_GotEliminated",
+    "defaultvalue": 0,
+    "displayName": "Flak Cannon Got Eliminated"
+  },
+  {
+    "name": "Achiev_T_FlakCannon_Hit",
+    "defaultvalue": 0,
+    "displayName": "Flak Cannon Hits"
+  },
+  {
+    "name": "Achiev_T_FlakCannon_GotHit",
+    "defaultvalue": 0,
+    "displayName": "Flak Cannon Got Hits"
+  },
+  {
+    "name": "Achiev_T_FlakCannon_Shoot",
+    "defaultvalue": 0,
+    "displayName": "Flak Cannon Shots"
+  },
+  {
+    "name": "Achiev_T_FlakCannon_PickUp",
+    "defaultvalue": 0,
+    "displayName": "Flak Cannon Pick Ups"
+  },
+  {
+    "name": "Achiev_T_HotWar_Eliminate",
+    "defaultvalue": 0,
+    "displayName": "Hot War Eliminations"
+  },
+  {
+    "name": "Achiev_T_HotWar_GotEliminated",
+    "defaultvalue": 0,
+    "displayName": "Hot War Got Eliminated"
+  },
+  {
+    "name": "Achiev_T_HotWar_Hit",
+    "defaultvalue": 0,
+    "displayName": "Hot War Hits"
+  },
+  {
+    "name": "Achiev_T_HotWar_GotHit",
+    "defaultvalue": 0,
+    "displayName": "Hot War Got Hits"
+  },
+  {
+    "name": "Achiev_T_HotWar_Shoot",
+    "defaultvalue": 0,
+    "displayName": "Hot War Shots"
+  },
+  {
+    "name": "Achiev_T_HotWar_PickUp",
+    "defaultvalue": 0,
+    "displayName": "Hot War Pick Ups"
+  },
+  {
+    "name": "XPSystem_CurrentXP",
+    "defaultvalue": 0,
+    "displayName": "Current XP"
+  },
+  {
+    "name": "XPSystem_CurrentLevel",
+    "defaultvalue": 0,
+    "displayName": "Current Level"
   }
-}
+]

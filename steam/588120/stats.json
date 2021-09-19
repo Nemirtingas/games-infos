@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "name": "STAT_AREAS_VISITED",
     "defaultvalue": 0,
@@ -326,6 +326,36 @@
   },
   {
     "name": "STAT_DISTANCE_TRAVELLED_JUNKER",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "STAT_DISTANCE_TRAVELLED_DORY",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "STAT_DISTANCE_TRAVELLED_PBR",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "STAT_DISTANCE_TRAVELLED_NOVA",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "STAT_DISTANCE_TRAVELLED_ENVOY",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "STAT_DISTANCE_TRAVELLED_BALLOON",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "STAT_EDITOR_APPLY_BALLOON",
     "defaultvalue": 0,
     "displayName": ""
   }

@@ -1,50 +1,62 @@
-﻿{
-  "matchesstarted": {
-    "description": "Matches Started",
-    "value": 0
+[
+  {
+    "name": "matchesstarted",
+    "defaultvalue": 0,
+    "displayName": "Matches Started"
   },
-  "matcheswon": {
-    "description": "Matches Won",
-    "value": 0
+  {
+    "name": "matcheswon",
+    "defaultvalue": 0,
+    "displayName": "Matches Won"
   },
-  "matcheslost": {
-    "description": "Matches Lost",
-    "value": 0
+  {
+    "name": "matcheslost",
+    "defaultvalue": 0,
+    "displayName": "Matches Lost"
   },
-  "matchesdrawn": {
-    "description": "Matches Drawn",
-    "value": 0
+  {
+    "name": "matchesdrawn",
+    "defaultvalue": 0,
+    "displayName": "Matches Drawn"
   },
-  "matchesmanualdiss": {
-    "description": "Matches Disconnected",
-    "value": 0
+  {
+    "name": "matchesmanualdiss",
+    "defaultvalue": 0,
+    "displayName": "Matches Disconnected"
   },
-  "matchesoppodiss": {
-    "description": "Matches Interrupted",
-    "value": 0
+  {
+    "name": "matchesoppodiss",
+    "defaultvalue": 0,
+    "displayName": "Matches Interrupted"
   },
-  "ffaskillvalue": {
-    "description": "Free-for-all EXP",
-    "value": 0
+  {
+    "name": "ffaskillvalue",
+    "defaultvalue": 0,
+    "displayName": "Free-for-all EXP"
   },
-  "lifeskillvalue": {
-    "description": "Battle EXP",
-    "value": 0
+  {
+    "name": "lifeskillvalue",
+    "defaultvalue": 0,
+    "displayName": "Battle EXP"
   },
-  "ballskillvalue": {
-    "description": "Slap Ball EXP",
-    "value": 0
+  {
+    "name": "ballskillvalue",
+    "defaultvalue": 0,
+    "displayName": "Slap Ball EXP"
   },
-  "lifeskillwins": {
-    "description": "Ranked Wins",
-    "value": 0
+  {
+    "name": "lifeskillwins",
+    "defaultvalue": 0,
+    "displayName": "Ranked Wins"
   },
-  "lifeskilllosses": {
-    "description": "Ranked Losses",
-    "value": 0
+  {
+    "name": "lifeskilllosses",
+    "defaultvalue": 0,
+    "displayName": "Ranked Losses"
   },
-  "lifeskillties": {
-    "description": "Ranked Ties",
-    "value": 0
+  {
+    "name": "lifeskillties",
+    "defaultvalue": 0,
+    "displayName": "Ranked Ties"
   }
-}
+]

@@ -1,62 +1,77 @@
-﻿{
-  "PISTOL_WHIPS": {
-    "description": "Pistol Whips",
-    "value": 0
+[
+  {
+    "name": "PISTOL_WHIPS",
+    "defaultvalue": 0,
+    "displayName": "Pistol Whips"
   },
-  "SHOTS_HIT": {
-    "description": "Shots Hit",
-    "value": 0
+  {
+    "name": "SHOTS_HIT",
+    "defaultvalue": 0,
+    "displayName": "Shots Hit"
   },
-  "SHOTS_FIRED": {
-    "description": "Shots Fired",
-    "value": 0
+  {
+    "name": "SHOTS_FIRED",
+    "defaultvalue": 0,
+    "displayName": "Shots Fired"
   },
-  "TIMES_HIT": {
-    "description": "Times Hit",
-    "value": 0
+  {
+    "name": "TIMES_HIT",
+    "defaultvalue": 0,
+    "displayName": "Times Hit"
   },
-  "TIMES_RELOADED": {
-    "description": "Times Reloaded",
-    "value": 0
+  {
+    "name": "TIMES_RELOADED",
+    "defaultvalue": 0,
+    "displayName": "Times Reloaded"
   },
-  "BEAT_SHOTS": {
-    "description": "Beat Shots",
-    "value": 0
+  {
+    "name": "BEAT_SHOTS",
+    "defaultvalue": 0,
+    "displayName": "Beat Shots"
   },
-  "BEAT_RELOADS": {
-    "description": "Beat Reloads",
-    "value": 0
+  {
+    "name": "BEAT_RELOADS",
+    "defaultvalue": 0,
+    "displayName": "Beat Reloads"
   },
-  "TRAVEL_DIST_KM": {
-    "description": "Travel Dist KM",
-    "value": 0
+  {
+    "name": "TRAVEL_DIST_KM",
+    "defaultvalue": 0,
+    "displayName": "Travel Dist KM"
   },
-  "GAMES_COMPLETED": {
-    "description": "Games Completed",
-    "value": 0
+  {
+    "name": "GAMES_COMPLETED",
+    "defaultvalue": 0,
+    "displayName": "Games Completed"
   },
-  "GAMES_STARTED": {
-    "description": "Games Started",
-    "value": 0
+  {
+    "name": "GAMES_STARTED",
+    "defaultvalue": 0,
+    "displayName": "Games Started"
   },
-  "MINUTES_PLAYED": {
-    "description": "Minutes Played",
-    "value": 0
+  {
+    "name": "MINUTES_PLAYED",
+    "defaultvalue": 0,
+    "displayName": "Minutes Played"
   },
-  "MINUTES_ARMORLESS": {
-    "description": "Minutes Armorless",
-    "value": 0
+  {
+    "name": "MINUTES_ARMORLESS",
+    "defaultvalue": 0,
+    "displayName": "Minutes Armorless"
   },
-  "POINTS_EARNED": {
-    "description": "Points Earned",
-    "value": 0
+  {
+    "name": "POINTS_EARNED",
+    "defaultvalue": 0,
+    "displayName": "Points Earned"
   },
-  "ENEMIES_KILLED": {
-    "description": "Enemies Killed",
-    "value": 0
+  {
+    "name": "ENEMIES_KILLED",
+    "defaultvalue": 0,
+    "displayName": "Enemies Killed"
   },
-  "ENEMIES_KILLED_ON_BEAT": {
-    "description": "Enemies Killed On Beat",
-    "value": 0
+  {
+    "name": "ENEMIES_KILLED_ON_BEAT",
+    "defaultvalue": 0,
+    "displayName": "Enemies Killed On Beat"
   }
-}
+]

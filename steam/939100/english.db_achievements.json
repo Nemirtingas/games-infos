@@ -1,184 +1,4 @@
-﻿[
-  {
-    "name": "Runolf_Level10",
-    "defaultvalue": 0,
-    "displayName": "Busboy",
-    "hidden": 0,
-    "description": "Reach level 10 with Runolf",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/8a0190bac7630066dc8785fbb58691102c4656ae.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/cc99db41babb53f4de5b104e33ccecedde73fe7b.jpg"
-  },
-  {
-    "name": "Runolf_Level20",
-    "defaultvalue": 0,
-    "displayName": "Apprentice",
-    "hidden": 0,
-    "description": "Reach level 20 with Runolf",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/2fb4f09626c5ea423ef94de9120040d42823869a.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/cc99db41babb53f4de5b104e33ccecedde73fe7b.jpg"
-  },
-  {
-    "name": "Runolf_Level30",
-    "defaultvalue": 0,
-    "displayName": "Junior Chef",
-    "hidden": 0,
-    "description": "Reach level 30 with Runolf",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/5f5c0194edc032d1b6a0f1e9b1b45635703538b7.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/cc99db41babb53f4de5b104e33ccecedde73fe7b.jpg"
-  },
-  {
-    "name": "Runolf_Level40",
-    "defaultvalue": 0,
-    "displayName": "Sous-Chef",
-    "hidden": 0,
-    "description": "Reach level 40 with Runolf",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/adb50fe50b4eeb5ab0807a96db0f05e96d313d0e.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/cc99db41babb53f4de5b104e33ccecedde73fe7b.jpg"
-  },
-  {
-    "name": "Runolf_Level50",
-    "defaultvalue": 0,
-    "displayName": "Masterchef",
-    "hidden": 0,
-    "description": "Reach level 50 with Runolf",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/e2ff31e9b122c12ce3fbf37f81ece50f2a1f3c81.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/cc99db41babb53f4de5b104e33ccecedde73fe7b.jpg"
-  },
-  {
-    "name": "Abigail_Level10",
-    "defaultvalue": 0,
-    "displayName": "Novice",
-    "hidden": 0,
-    "description": "Reach level 10 with Abigail",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/b9ffcd9a71f303377674b85cfd37de236cc8d768.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/cc99db41babb53f4de5b104e33ccecedde73fe7b.jpg"
-  },
-  {
-    "name": "Abigail_Level20",
-    "defaultvalue": 0,
-    "displayName": "Acolyte",
-    "hidden": 0,
-    "description": "Reach level 20 with Abigail",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/727e7f0fc223b694b19f0bfb5ea4b0d174cd0054.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/cc99db41babb53f4de5b104e33ccecedde73fe7b.jpg"
-  },
-  {
-    "name": "Abigail_Level30",
-    "defaultvalue": 0,
-    "displayName": "Nun",
-    "hidden": 0,
-    "description": "Reach level 30 with Abigail",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/cd475c12d3977482327e473e8a92dc8bd50003a8.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/cc99db41babb53f4de5b104e33ccecedde73fe7b.jpg"
-  },
-  {
-    "name": "Abigail_Level40",
-    "defaultvalue": 0,
-    "displayName": "Mother Superior",
-    "hidden": 0,
-    "description": "Reach level 40 with Abigail",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/0ebaf7a782e69a7ff12d1db99d0926908577df49.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/cc99db41babb53f4de5b104e33ccecedde73fe7b.jpg"
-  },
-  {
-    "name": "Abigail_Level50",
-    "defaultvalue": 0,
-    "displayName": "God-like",
-    "hidden": 0,
-    "description": "Reach level 50 with Abigail",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/31a0c18aef24f47962587e223b35ed97edfa1aec.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/cc99db41babb53f4de5b104e33ccecedde73fe7b.jpg"
-  },
-  {
-    "name": "Rose_Level10",
-    "defaultvalue": 0,
-    "displayName": "Scoundrel",
-    "hidden": 0,
-    "description": "Reach level 10 with Rose",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/fc88182b0fa1f13e3532f922c3db5b0b78535883.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/cc99db41babb53f4de5b104e33ccecedde73fe7b.jpg"
-  },
-  {
-    "name": "Rose_Level20",
-    "defaultvalue": 0,
-    "displayName": "Vagrant",
-    "hidden": 0,
-    "description": "Reach level 20 with Rose",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/00da6cce521938d36f7a0adfa5c39001edc2a3b9.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/cc99db41babb53f4de5b104e33ccecedde73fe7b.jpg"
-  },
-  {
-    "name": "Rose_Level30",
-    "defaultvalue": 0,
-    "displayName": "Bounty Hunter",
-    "hidden": 0,
-    "description": "Reach level 30 with Rose",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/e229af74ceb03353fa0997595b861445500ab84b.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/cc99db41babb53f4de5b104e33ccecedde73fe7b.jpg"
-  },
-  {
-    "name": "Rose_Level40",
-    "defaultvalue": 0,
-    "displayName": "Verified marksman",
-    "hidden": 0,
-    "description": "Reach level 40 with Rose",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/91aae2d31b02d85599322f9014a1e84449d52fbc.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/cc99db41babb53f4de5b104e33ccecedde73fe7b.jpg"
-  },
-  {
-    "name": "Rose_Level50",
-    "defaultvalue": 0,
-    "displayName": "Deadeye",
-    "hidden": 0,
-    "description": "Reach level 50 with Rose",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/25c790f7133ed4ac7606ac4bb57ce26cf4e2fd56.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/cc99db41babb53f4de5b104e33ccecedde73fe7b.jpg"
-  },
-  {
-    "name": "Varag_Level10",
-    "defaultvalue": 0,
-    "displayName": "Puppy",
-    "hidden": 0,
-    "description": "Reach level 10 with Varag",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/8f1d41bd266fb74d3ca5a0a537286d004bc28075.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/cc99db41babb53f4de5b104e33ccecedde73fe7b.jpg"
-  },
-  {
-    "name": "Varag_Level20",
-    "defaultvalue": 0,
-    "displayName": "Watchdog",
-    "hidden": 0,
-    "description": "Reach level 20 with Varag",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/49133230f74d99d92f62621052a25faf93f25cf1.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/cc99db41babb53f4de5b104e33ccecedde73fe7b.jpg"
-  },
-  {
-    "name": "Varag_Level30",
-    "defaultvalue": 0,
-    "displayName": "Blood Hound",
-    "hidden": 0,
-    "description": "Reach level 30 with Varag",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/0c4cf81858254a3fbeb1bc133ec7083093d7331b.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/cc99db41babb53f4de5b104e33ccecedde73fe7b.jpg"
-  },
-  {
-    "name": "Varag_Level40",
-    "defaultvalue": 0,
-    "displayName": "Leader Of The Pack",
-    "hidden": 0,
-    "description": "Reach level 40 with Varag",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/75ef12f09918c6130bb84d6f0cc4ae19ccaafb3e.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/cc99db41babb53f4de5b104e33ccecedde73fe7b.jpg"
-  },
-  {
-    "name": "Varag_Level50",
-    "defaultvalue": 0,
-    "displayName": "Hell Hound",
-    "hidden": 0,
-    "description": "Reach level 50 with Varag",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/c8c269e9b65a3c39b98936704ae89301237d0327.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/cc99db41babb53f4de5b104e33ccecedde73fe7b.jpg"
-  },
+[
   {
     "name": "Kill_Foe_500",
     "defaultvalue": 0,
@@ -193,7 +13,7 @@
     "defaultvalue": 0,
     "displayName": "Didn't Even Break A Sweat",
     "hidden": 0,
-    "description": "Kill 1000 Zombies",
+    "description": "Kill 1,000 Zombies",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/37bd69f3fea080837940ce1181daf0ede640c3a7.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/cc99db41babb53f4de5b104e33ccecedde73fe7b.jpg"
   },
@@ -202,7 +22,7 @@
     "defaultvalue": 0,
     "displayName": "Is That All You've Got?",
     "hidden": 0,
-    "description": "Kill 2500 Zombies",
+    "description": "Kill 2,500 Zombies",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/8c364153d3269b65cb510fb69fbb1a260e3755ff.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/cc99db41babb53f4de5b104e33ccecedde73fe7b.jpg"
   },
@@ -211,7 +31,7 @@
     "defaultvalue": 0,
     "displayName": "I Didn't Choose The Zombie Slaying Life...",
     "hidden": 0,
-    "description": "Kill 5000 Zombies",
+    "description": "Kill 5,000 Zombies",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/f5fd2781c80b95811952c71c8c3c32d6b8550365.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/cc99db41babb53f4de5b104e33ccecedde73fe7b.jpg"
   },
@@ -351,301 +171,13 @@
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/cc99db41babb53f4de5b104e33ccecedde73fe7b.jpg"
   },
   {
-    "name": "Kill_TheBaron",
+    "name": "Run_Baron",
     "defaultvalue": 0,
     "displayName": "Down With The Hierarchy!",
     "hidden": 0,
     "description": "Defeat Baron Manfred Von Darksburg",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/0eef803f45d172cc28837479719180504f037921.jpg",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/f61d2b9795dfcf74a5c82d9d0f8b59ac918cf7c9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/15f7520a65ea762661b9efe3e1d095a5923e44a4.jpg"
-  },
-  {
-    "name": "Harbor_Discovery",
-    "defaultvalue": 0,
-    "displayName": "Fisherman",
-    "hidden": 0,
-    "description": "Complete 'The Harbor' in Training or higher",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/215b365284f21361ea235888e899b499e7c74291.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/cc99db41babb53f4de5b104e33ccecedde73fe7b.jpg"
-  },
-  {
-    "name": "Harbor_Normal",
-    "defaultvalue": 0,
-    "displayName": "Sailor",
-    "hidden": 0,
-    "description": "Complete 'The Harbor' in Normal or higher",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/be5585882793c39e6ab01420425dba038a118958.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/cc99db41babb53f4de5b104e33ccecedde73fe7b.jpg"
-  },
-  {
-    "name": "Harbor_Hard",
-    "defaultvalue": 0,
-    "displayName": "Captain",
-    "hidden": 0,
-    "description": "Complete 'The Harbor' in Hard or higher",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/959f58bc391898a02c5579a7392cdae86db38a6b.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/cc99db41babb53f4de5b104e33ccecedde73fe7b.jpg"
-  },
-  {
-    "name": "Harbor_Nightmare",
-    "defaultvalue": 0,
-    "displayName": "Admiral",
-    "hidden": 0,
-    "description": "Complete 'The Harbor' in Nightmare",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/078ed5c8f4b92525f73106dade6035d573d45142.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/cc99db41babb53f4de5b104e33ccecedde73fe7b.jpg"
-  },
-  {
-    "name": "Marketplace_Discovery",
-    "defaultvalue": 0,
-    "displayName": "Window Shopper",
-    "hidden": 0,
-    "description": "Complete 'The Marketplace' in Training or higher",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/4e824b292830071a4418a0cb26b0a1de7106b31b.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/cc99db41babb53f4de5b104e33ccecedde73fe7b.jpg"
-  },
-  {
-    "name": "Marketplace_Normal",
-    "defaultvalue": 0,
-    "displayName": "Just The Essentials...",
-    "hidden": 0,
-    "description": "Complete 'The Marketplace' in Normal or higher",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/ebcdeca2ba957db4351b78d2b807c9481de19fb6.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/cc99db41babb53f4de5b104e33ccecedde73fe7b.jpg"
-  },
-  {
-    "name": "Marketplace_Hard",
-    "defaultvalue": 0,
-    "displayName": "Shopaholic",
-    "hidden": 0,
-    "description": "Complete 'The Marketplace' in Hard or higher",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/2c0cef869a9c3f15dc3dda1ed9294e28c212b205.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/cc99db41babb53f4de5b104e33ccecedde73fe7b.jpg"
-  },
-  {
-    "name": "Marketplace_Nightmare",
-    "defaultvalue": 0,
-    "displayName": "Black Friday Sales Are No Joke",
-    "hidden": 0,
-    "description": "Complete 'The Marketplace' in Nightmare",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/eaec81ddfb1302cc6709105323fd21148b905944.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/cc99db41babb53f4de5b104e33ccecedde73fe7b.jpg"
-  },
-  {
-    "name": "Faubourg_Discovery",
-    "defaultvalue": 0,
-    "displayName": "A Casual Stroll Through The Countryside",
-    "hidden": 0,
-    "description": "Complete 'The Faubourg' in Training or higher",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/5575df71a6eade418a9cca30927a250eebf74d53.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/cc99db41babb53f4de5b104e33ccecedde73fe7b.jpg"
-  },
-  {
-    "name": "Faubourg_Normal",
-    "defaultvalue": 0,
-    "displayName": "Great Views, Locals A Bit Bitey, 7/10",
-    "hidden": 0,
-    "description": "Complete 'The Faubourg' in Normal or higher",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/26e8d665b2ff79b037299630f20f53c0e944fced.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/cc99db41babb53f4de5b104e33ccecedde73fe7b.jpg"
-  },
-  {
-    "name": "Faubourg_Hard",
-    "defaultvalue": 0,
-    "displayName": "Agricultural Insensitivity",
-    "hidden": 0,
-    "description": "Complete 'The Faubourg' in Hard or higher",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/d822ec93dd64dbc0e5bd2e9d385a06e0763ae9ae.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/cc99db41babb53f4de5b104e33ccecedde73fe7b.jpg"
-  },
-  {
-    "name": "Faubourg_Nightmare",
-    "defaultvalue": 0,
-    "displayName": "Let's Never Do That Again",
-    "hidden": 0,
-    "description": "Complete 'The Faubourg' in Nightmare",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/59b4785a3fc50af268ace462bef19cdc3abb9511.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/cc99db41babb53f4de5b104e33ccecedde73fe7b.jpg"
-  },
-  {
-    "name": "LastStandMarketplace_Discovery",
-    "defaultvalue": 0,
-    "displayName": "An Easy Sale",
-    "hidden": 0,
-    "description": "Complete 'The Belvedere' in Training or higher",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/5b6b6f1c9af2d3c5deea0b938bcb5463bfc752ce.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/cc99db41babb53f4de5b104e33ccecedde73fe7b.jpg"
-  },
-  {
-    "name": "LastStandMarketplace_Normal",
-    "defaultvalue": 0,
-    "displayName": "A Bazaar Experience",
-    "hidden": 0,
-    "description": "Complete 'The Belvedere' in Normal or higher",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/e805a37e719f6eada26f946c5fa23ee1422219f3.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/cc99db41babb53f4de5b104e33ccecedde73fe7b.jpg"
-  },
-  {
-    "name": "LastStandMarketplace_Hard",
-    "defaultvalue": 0,
-    "displayName": "A Hard Sell",
-    "hidden": 0,
-    "description": "Complete 'The Belvedere' in Hard or higher",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/09a7debcece0f802b6207b431969d5822442d240.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/cc99db41babb53f4de5b104e33ccecedde73fe7b.jpg"
-  },
-  {
-    "name": "LastStandMarketplace_Nightmare",
-    "defaultvalue": 0,
-    "displayName": "Well, That Souk-ed",
-    "hidden": 0,
-    "description": "Complete 'The Belvedere' in Nightmare",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/42d06fee006b3a14be053f32892f9cd6779421c9.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/cc99db41babb53f4de5b104e33ccecedde73fe7b.jpg"
-  },
-  {
-    "name": "LastStandFaubourg_Discovery",
-    "defaultvalue": 0,
-    "displayName": "Farm Hand",
-    "hidden": 0,
-    "description": "Complete 'Farmlands' in Training or higher",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/f849fb3e05fcc9053b26c0537f6bdfa723550a60.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/cc99db41babb53f4de5b104e33ccecedde73fe7b.jpg"
-  },
-  {
-    "name": "LastStandFaubourg_Normal",
-    "defaultvalue": 0,
-    "displayName": "Ploughing Through",
-    "hidden": 0,
-    "description": "Complete 'Farmlands' in Normal or higher",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/69b0d2ab971848692a03d9991f9d345e7ff171d2.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/cc99db41babb53f4de5b104e33ccecedde73fe7b.jpg"
-  },
-  {
-    "name": "LastStandFaubourg_Hard",
-    "defaultvalue": 0,
-    "displayName": "Cultivating Mass",
-    "hidden": 0,
-    "description": "Complete 'Farmlands' in Hard or higher",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/be1c84fd4a17c34051eee6e4506ded2f74261207.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/cc99db41babb53f4de5b104e33ccecedde73fe7b.jpg"
-  },
-  {
-    "name": "LastStandFaubourg_Nightmare",
-    "defaultvalue": 0,
-    "displayName": "What Even Are You?!",
-    "hidden": 0,
-    "description": "Complete 'Farmlands' in Nightmare",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/98b75572f47abca8cb320d82e93ca18afb53849f.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/cc99db41babb53f4de5b104e33ccecedde73fe7b.jpg"
-  },
-  {
-    "name": "Harbor_NoHeal",
-    "defaultvalue": 0,
-    "displayName": "No Life Docked",
-    "hidden": 0,
-    "description": "Complete 'Harbour' alive without using a heal object",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/05e6f1f0421c984fdadbbc2992142ed84c866d5c.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/cc99db41babb53f4de5b104e33ccecedde73fe7b.jpg"
-  },
-  {
-    "name": "Marketplace_NoHeal",
-    "defaultvalue": 0,
-    "displayName": "Shopping Is My Medicine",
-    "hidden": 0,
-    "description": "Complete 'Marketplace' alive without using a heal object",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/a97147e5c96aa60f85b9f196dbbca34fd6ee902c.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/cc99db41babb53f4de5b104e33ccecedde73fe7b.jpg"
-  },
-  {
-    "name": "Faubourg_NoHeal",
-    "defaultvalue": 0,
-    "displayName": "No Farm-aceuticals",
-    "hidden": 0,
-    "description": "Complete 'Faubourg' alive without using a heal object",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/845c4bc40002ae616116cd01ba83685ec2d76f00.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/cc99db41babb53f4de5b104e33ccecedde73fe7b.jpg"
-  },
-  {
-    "name": "Harbor_NoDamage",
-    "defaultvalue": 0,
-    "displayName": "Ferry Impressive",
-    "hidden": 0,
-    "description": "Complete 'Harbour' without taking any damage",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/c76740dcb829833132ac514d431d8e2b0d62ddfd.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/cc99db41babb53f4de5b104e33ccecedde73fe7b.jpg"
-  },
-  {
-    "name": "Marketplace_NoDamage",
-    "defaultvalue": 0,
-    "displayName": "Please Do Not Touch The Merchandise",
-    "hidden": 0,
-    "description": "Complete 'Marketplace' without taking any damage",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/9773dcf5e74669a10ed0cc02669b5e837379fadf.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/cc99db41babb53f4de5b104e33ccecedde73fe7b.jpg"
-  },
-  {
-    "name": "Faubourg_NoDamage",
-    "defaultvalue": 0,
-    "displayName": "Walk In The Park.",
-    "hidden": 0,
-    "description": "Complete 'Faubourg' without taking any damage",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/dfe364025a54283e66602892489c26c4d30639ed.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/cc99db41babb53f4de5b104e33ccecedde73fe7b.jpg"
-  },
-  {
-    "name": "NoPerksNightmare",
-    "defaultvalue": 0,
-    "displayName": "I'm Not Even Mad, That's Amazing",
-    "hidden": 0,
-    "description": "Complete a map on Nightmare! difficulty, without equipping perks or using objects",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/c4f95057b7ed875ab138558c31bfb8196e0d5b4c.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/cc99db41babb53f4de5b104e33ccecedde73fe7b.jpg"
-  },
-  {
-    "name": "Harbor_RankS",
-    "defaultvalue": 0,
-    "displayName": "Shooting for the S(tars) - Harbor",
-    "hidden": 0,
-    "description": "Achieve rank S in 'Harbor'",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/a857338ad2ea5f030db1b282cec187c663231e79.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/cc99db41babb53f4de5b104e33ccecedde73fe7b.jpg"
-  },
-  {
-    "name": "Marketplace_RankS",
-    "defaultvalue": 0,
-    "displayName": "Shooting For The S(tars) - Marketplace",
-    "hidden": 0,
-    "description": "Achieve rank S in 'Marketplace'",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/dea4838bb6b52b147cb60348500989da7804a945.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/cc99db41babb53f4de5b104e33ccecedde73fe7b.jpg"
-  },
-  {
-    "name": "Faubourg_RankS",
-    "defaultvalue": 0,
-    "displayName": "Shooting For The S(tars) - Faubourg",
-    "hidden": 0,
-    "description": "Achieve rank S in 'Faubourg'",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/aba8307ddc04771f6cca8043fd5de4f7fb97fa36.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/cc99db41babb53f4de5b104e33ccecedde73fe7b.jpg"
-  },
-  {
-    "name": "LastStandMarketplace_RankS",
-    "defaultvalue": 0,
-    "displayName": "Shooting For The S(tars) - Belvedere",
-    "hidden": 0,
-    "description": "Achieve rank S in 'Belvedere'",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/1fd1b6a7455bc0c26cebdbdd543b2411f0afae83.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/cc99db41babb53f4de5b104e33ccecedde73fe7b.jpg"
-  },
-  {
-    "name": "LastStandFaubourg_RankS",
-    "defaultvalue": 0,
-    "displayName": "Shooting For The S(tars) - Farmlands",
-    "hidden": 0,
-    "description": "Achieve rank S in 'Farmlands'",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/ec7090fab9cb31f9702a5dfe908f677009ba7e2c.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/cc99db41babb53f4de5b104e33ccecedde73fe7b.jpg"
   },
   {
     "name": "ReviveXAllies",
@@ -654,15 +186,6 @@
     "hidden": 0,
     "description": "Revive 100 times your Allies",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/07ad81757aaeef771ccc81712bd3870f64b87505.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/cc99db41babb53f4de5b104e33ccecedde73fe7b.jpg"
-  },
-  {
-    "name": "BaronOutrun",
-    "defaultvalue": 0,
-    "displayName": "He's Behind Me, Isn't He?",
-    "hidden": 0,
-    "description": "Complete every co-op map without killing the Baron (only on Normal difficulty or higher)",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/ff5b9edbd59310713b57f679b8f6fa16cfc03ce6.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/cc99db41babb53f4de5b104e33ccecedde73fe7b.jpg"
   },
   {
@@ -684,15 +207,6 @@
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/cc99db41babb53f4de5b104e33ccecedde73fe7b.jpg"
   },
   {
-    "name": "Braseros2",
-    "defaultvalue": 0,
-    "displayName": "The Beacons Are Lit",
-    "hidden": 0,
-    "description": "Light up both braziers at the same time in a Last Stand map",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/3807c54e55e427391cd62219afd81bdb61cd4680.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/cc99db41babb53f4de5b104e33ccecedde73fe7b.jpg"
-  },
-  {
     "name": "ExplodeBarricade",
     "defaultvalue": 0,
     "displayName": "An Explosive Entrance",
@@ -708,42 +222,6 @@
     "hidden": 0,
     "description": "Cause a Powder Keg to explode and hit two Revenants at once",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/1f83b9311ee2d619cff9ba92ea71307d45497fb4.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/cc99db41babb53f4de5b104e33ccecedde73fe7b.jpg"
-  },
-  {
-    "name": "BaleKillElite",
-    "defaultvalue": 0,
-    "displayName": "Double Harvest",
-    "hidden": 0,
-    "description": "Defeat a Revenant with the haybale on 'Faubourg'",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/c92f76f78461148ea9c5ecc88188cae3e710daf9.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/cc99db41babb53f4de5b104e33ccecedde73fe7b.jpg"
-  },
-  {
-    "name": "BaleKillBaron",
-    "defaultvalue": 0,
-    "displayName": "Triple Harvest",
-    "hidden": 0,
-    "description": "Kill the Baron with the haybale on 'Faubourg'",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/c64a9a2ec65172b7cb306adc61fe3b67629d4306.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/cc99db41babb53f4de5b104e33ccecedde73fe7b.jpg"
-  },
-  {
-    "name": "LastStandKillXFoes",
-    "defaultvalue": 0,
-    "displayName": "Population Control",
-    "hidden": 0,
-    "description": "On Last Stand, kill over 1000 Zombies in one game",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/db72f8bfb755aa5d2987d082d42b09ed56c07091.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/cc99db41babb53f4de5b104e33ccecedde73fe7b.jpg"
-  },
-  {
-    "name": "KillAllElites",
-    "defaultvalue": 0,
-    "displayName": "Gonna Need A Bigger Trophy Room",
-    "hidden": 0,
-    "description": "Kill every kind of Revenants in one game",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/660a8c5c4a79ca6922e47537c27fb8c96003954f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/cc99db41babb53f4de5b104e33ccecedde73fe7b.jpg"
   },
   {
@@ -801,186 +279,6 @@
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/cc99db41babb53f4de5b104e33ccecedde73fe7b.jpg"
   },
   {
-    "name": "LastHitHero",
-    "defaultvalue": 0,
-    "displayName": "Nothing Personal, Kid",
-    "hidden": 0,
-    "description": "Defeat a Survivor by taking away their last HP",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/fdbfe5962f9e8bb97705a820e9e8b3375a8fa761.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/cc99db41babb53f4de5b104e33ccecedde73fe7b.jpg"
-  },
-  {
-    "name": "BleedoutKill",
-    "defaultvalue": 0,
-    "displayName": "If It Bleeds, We Can Kill It",
-    "hidden": 0,
-    "description": "Defeat a Survivor while they're bleeding out",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/bb24227ea3974ea767745134403c29cb7097349f.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/cc99db41babb53f4de5b104e33ccecedde73fe7b.jpg"
-  },
-  {
-    "name": "InflictBleedout",
-    "defaultvalue": 0,
-    "displayName": "Out For Blood",
-    "hidden": 0,
-    "description": "Take down a Survivor",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/a72176b79cfbb7c089ecf4432bc4278ac746b139.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/cc99db41babb53f4de5b104e33ccecedde73fe7b.jpg"
-  },
-  {
-    "name": "BleedoutHit",
-    "defaultvalue": 0,
-    "displayName": "Kick 'Em When They're Down",
-    "hidden": 0,
-    "description": "Hit a Survivor while they're bleeding out",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/2752f7eb334c3528c98c8198806d84ff77d89db8.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/15f7520a65ea762661b9efe3e1d095a5923e44a4.jpg"
-  },
-  {
-    "name": "KillHealing",
-    "defaultvalue": 0,
-    "displayName": "Healthcare Shutdown",
-    "hidden": 0,
-    "description": "Defeat a Survivor who's trying to heal themselves",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/190fad30fab640ec405c1fb4d09d863aacb701c3.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/15f7520a65ea762661b9efe3e1d095a5923e44a4.jpg"
-  },
-  {
-    "name": "KillHeroesX",
-    "defaultvalue": 0,
-    "displayName": "Reve-lentless",
-    "hidden": 0,
-    "description": "Defeat 100 Survivors",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/a42c6a20c519249cd126fd4acb1db498c9b0706f.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/cc99db41babb53f4de5b104e33ccecedde73fe7b.jpg"
-  },
-  {
-    "name": "ExecLongGrab",
-    "defaultvalue": 0,
-    "displayName": "Never Let Go",
-    "hidden": 0,
-    "description": "Drag a Survivor for 10 seconds with the rope",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/fc21382cffbc206f79d34eddd1e5a80757c5a3e1.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/cc99db41babb53f4de5b104e33ccecedde73fe7b.jpg"
-  },
-  {
-    "name": "WitchExplodeHitX",
-    "defaultvalue": 0,
-    "displayName": "Ka-BOOM",
-    "hidden": 0,
-    "description": "Catch 4 Survivors in a single 'Fiery Temper' explosion",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/5d41266a3a4f2a0cfe7f4c457698db0139ca2107.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/cc99db41babb53f4de5b104e33ccecedde73fe7b.jpg"
-  },
-  {
-    "name": "BruteSpinHitX",
-    "defaultvalue": 0,
-    "displayName": "Like A Record Baby",
-    "hidden": 0,
-    "description": "Catch 4 Survivors in a single 'Pillory-go-round' spin",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/42d6b2730f003f7333ae16a2a69e66a9fbc9a4d9.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/cc99db41babb53f4de5b104e33ccecedde73fe7b.jpg"
-  },
-  {
-    "name": "RavenStormHitX",
-    "defaultvalue": 0,
-    "displayName": "Weather Forecast",
-    "hidden": 0,
-    "description": "Catch 4 Survivors in one single 'Featherstorm'",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/2061a262ac23d296d2466e4eb5ff04aa264f7840.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/cc99db41babb53f4de5b104e33ccecedde73fe7b.jpg"
-  },
-  {
-    "name": "HarpoonLongPush",
-    "defaultvalue": 0,
-    "displayName": "yeet.",
-    "hidden": 0,
-    "description": "Push a Survivor over 10 meters using 'Arrr, me hearty!'",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/c67a2685b2e30c74fb6d073a553aaeb717ac254b.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/cc99db41babb53f4de5b104e33ccecedde73fe7b.jpg"
-  },
-  {
-    "name": "ExplosionRopeCombo",
-    "defaultvalue": 0,
-    "displayName": "Drying Jerky",
-    "hidden": 0,
-    "description": "As the Burning Witch, use your 'Fiery Temper' on a Survivor that's grabbed by the Executioner",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/8c6da3a77ad752e7e302b3a127dc50ff6eaf73cc.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/cc99db41babb53f4de5b104e33ccecedde73fe7b.jpg"
-  },
-  {
-    "name": "HarpoonSpinCombo",
-    "defaultvalue": 0,
-    "displayName": "Survivor Kebab",
-    "hidden": 0,
-    "description": "As the Fishmonger, land 'Arrr, me hearty!' on a Survivor being stunned by the Brute's 'Pillory-go-round' spin.",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/7eecbf5529ff9ff31bfc450b5a751ba9bfbb426f.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/cc99db41babb53f4de5b104e33ccecedde73fe7b.jpg"
-  },
-  {
-    "name": "BruteSpinFishnetCombo",
-    "defaultvalue": 0,
-    "displayName": "It's Like Popping Bubble Wrap!",
-    "hidden": 0,
-    "description": "As the Brute, land a 'Pillory-go-round' into a Survivor stuck in the Fishmonger's net",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/8aee41c0a6f5d84cce3829b8589bc36bd610da15.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/cc99db41babb53f4de5b104e33ccecedde73fe7b.jpg"
-  },
-  {
-    "name": "EliteKilledByBaron",
-    "defaultvalue": 0,
-    "displayName": "I Hate My Boss...",
-    "hidden": 0,
-    "description": "As any Revenant, die to Baron Manfred Von Darksburg's attacks",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/1480928fc93b711fec00faf90493fade65436a03.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/cc99db41babb53f4de5b104e33ccecedde73fe7b.jpg"
-  },
-  {
-    "name": "Harbor_Chrono",
-    "defaultvalue": 0,
-    "displayName": "Faster Than Death - Harbor Edition",
-    "hidden": 0,
-    "description": "Complete \"Harbor\" in under 7 minutes. Can't be done on Training difficulty.",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/23db313632e1ea7ae6579b272df05daea5d37a8a.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/cc99db41babb53f4de5b104e33ccecedde73fe7b.jpg"
-  },
-  {
-    "name": "Marketplace_Chrono",
-    "defaultvalue": 0,
-    "displayName": "Faster Than Death - Marketplace Edition",
-    "hidden": 0,
-    "description": "Complete \"Marketplace\" in under 7 minutes . Can't be done on Training difficulty.",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/6bd299c528320586903d3c1c4599ebdfd9c71660.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/cc99db41babb53f4de5b104e33ccecedde73fe7b.jpg"
-  },
-  {
-    "name": "Faubourg_Chrono",
-    "defaultvalue": 0,
-    "displayName": "Faster Than Death - Faubourg Edition",
-    "hidden": 0,
-    "description": "Complete \"Faubourg\" in under 3 minutes 30 seconds. Can't be done on Training difficulty.",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/8f12e00c70867b7386a11cd25a7078b4d532d550.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/cc99db41babb53f4de5b104e33ccecedde73fe7b.jpg"
-  },
-  {
-    "name": "LastStandMarketplace_Chrono",
-    "defaultvalue": 0,
-    "displayName": "Faster Than Death - Belvedere Edition",
-    "hidden": 0,
-    "description": "Complete \"Belvedere\" in under 18 minutes. Can't be done on Training difficulty.",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/32e97b7c06c232c32cdc8cc7d0c072b890b9b19a.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/cc99db41babb53f4de5b104e33ccecedde73fe7b.jpg"
-  },
-  {
-    "name": "LastStandFaubourg_Chrono",
-    "defaultvalue": 0,
-    "displayName": "Faster Than Death - Farmlands Edition",
-    "hidden": 0,
-    "description": "Complete \"Farmlands\" in under 25 minutes. Can't be done on Training difficulty.",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/cc0a72bb4ed7fc0e8314a0e19c7d05bb7b2478fe.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/cc99db41babb53f4de5b104e33ccecedde73fe7b.jpg"
-  },
-  {
     "name": "Play4",
     "defaultvalue": 0,
     "displayName": "I Get By With A Little Help...",
@@ -999,138 +297,327 @@
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/cc99db41babb53f4de5b104e33ccecedde73fe7b.jpg"
   },
   {
-    "name": "Play8",
+    "name": "Run_Welcome",
     "defaultvalue": 0,
-    "displayName": "The More The Merrier",
+    "displayName": "Welcome to Darksburg!",
     "hidden": 0,
-    "description": "Play with 7 other players",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/786bc88153cd89578f6828981d505ac34f42d7a7.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/cc99db41babb53f4de5b104e33ccecedde73fe7b.jpg"
+    "description": "Start your very first run through Darksburg!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/596b222bfe3a2384211a24942a28eaca81300ec9.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/078b010f8ba8f5547050edc6517f7ce3028ae19e.jpg"
   },
   {
-    "name": "Elite_Level10",
+    "name": "Run_Normal",
     "defaultvalue": 0,
-    "displayName": "Every Super-Zombie's Gotta Start Somewhere",
+    "displayName": "We Have Normality",
     "hidden": 0,
-    "description": "Reach level 10 with Revenants",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/8147b852f415fca6b1a58bb10af7ff0f4e1b6488.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/cc99db41babb53f4de5b104e33ccecedde73fe7b.jpg"
+    "description": "Beat the game on Normal difficulty",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/315c8b51654bb7fb84e0691691867e54f6a52c85.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/078b010f8ba8f5547050edc6517f7ce3028ae19e.jpg"
   },
   {
-    "name": "Elite_Level20",
+    "name": "Run_Ascension_1",
     "defaultvalue": 0,
-    "displayName": "More Than Just Good Looks",
+    "displayName": "Things are getting serious now",
     "hidden": 0,
-    "description": "Reach level 20 with Revenants",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/a8fcc1fef135fa11294338a755d4d845548cd4b3.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/cc99db41babb53f4de5b104e33ccecedde73fe7b.jpg"
+    "description": "Clear a run on Ascension 1",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/5179088c7a0d2dbd87c65654ec4253605654cf16.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/078b010f8ba8f5547050edc6517f7ce3028ae19e.jpg"
   },
   {
-    "name": "Elite_Level30",
+    "name": "Run_Ascension_2",
     "defaultvalue": 0,
-    "displayName": "Anti-humanity Campaign",
+    "displayName": "It's only just begun",
     "hidden": 0,
-    "description": "Reach level 30 with Revenants",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/949ae5c351e70c457bcc1ccaa6e3c87962405ac8.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/cc99db41babb53f4de5b104e33ccecedde73fe7b.jpg"
+    "description": "Clear a run on Ascension 2",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/af80ec24b73e9559a879ab3f38c865546c70bd54.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/078b010f8ba8f5547050edc6517f7ce3028ae19e.jpg"
   },
   {
-    "name": "Elite_Level40",
+    "name": "Run_Ascension_3",
     "defaultvalue": 0,
-    "displayName": "You Really Don't Like Survivors, Do You?",
+    "displayName": "More challenges!",
     "hidden": 0,
-    "description": "Reach level 40 with Revenants",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/1a2c809ad8506d5fba4f4eebab1b16be1b49c278.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/cc99db41babb53f4de5b104e33ccecedde73fe7b.jpg"
+    "description": "Clear a run on Ascension 3",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/d7bdb5b3c472433d059a92cc7a923032cc71c5b4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/078b010f8ba8f5547050edc6517f7ce3028ae19e.jpg"
   },
   {
-    "name": "Elite_Level50",
+    "name": "Run_Ascension_4",
     "defaultvalue": 0,
-    "displayName": "What All Zombies Aspire To Be...",
+    "displayName": "Onward and upward!",
     "hidden": 0,
-    "description": "Reach level 50 with Revenants",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/1470fdb70b179bf4755c56e87f2a5b172fc55b0b.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/cc99db41babb53f4de5b104e33ccecedde73fe7b.jpg"
+    "description": "Clear a run on Ascension 4",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/5d035bcc41a8c685b06c1db4347ef77a84977b6b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/078b010f8ba8f5547050edc6517f7ce3028ae19e.jpg"
   },
   {
-    "name": "WinVersus",
+    "name": "Run_Ascension_5",
     "defaultvalue": 0,
-    "displayName": "GG EZ",
+    "displayName": "Halfway there!",
     "hidden": 0,
-    "description": "Win a Survival Versus game",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/9d84f8fb1602675fc0a8923da48227c83ab14059.jpg",
+    "description": "Clear a run on Ascension 5",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/c71a0c652d06378f4e477a4cae2d43d2418f83ae.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/078b010f8ba8f5547050edc6517f7ce3028ae19e.jpg"
+  },
+  {
+    "name": "Run_Ascension_6",
+    "defaultvalue": 0,
+    "displayName": "Into the darkness",
+    "hidden": 0,
+    "description": "Clear a run on Ascension 6",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/b622868dd3a40b235baa46c75084c64a8316c671.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/078b010f8ba8f5547050edc6517f7ce3028ae19e.jpg"
+  },
+  {
+    "name": "Run_Ascension_7",
+    "defaultvalue": 0,
+    "displayName": "Belly of the Whale",
+    "hidden": 0,
+    "description": "Clear a run on Ascension 7",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/e7bacc97690646210269a068f962ac400cd33b80.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/078b010f8ba8f5547050edc6517f7ce3028ae19e.jpg"
+  },
+  {
+    "name": "Run_Ascension_8",
+    "defaultvalue": 0,
+    "displayName": "There's a Light",
+    "hidden": 0,
+    "description": "Clear a run on Ascension 8",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/f515b6f4a76d275653d965b2a80ee0be66d1f412.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/078b010f8ba8f5547050edc6517f7ce3028ae19e.jpg"
+  },
+  {
+    "name": "Run_Ascension_9",
+    "defaultvalue": 0,
+    "displayName": "Almost there!",
+    "hidden": 0,
+    "description": "Clear a run on Ascension 9",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/c5ab5198d6e76e9fd596793f1b49b6a0cb81623d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/078b010f8ba8f5547050edc6517f7ce3028ae19e.jpg"
+  },
+  {
+    "name": "Run_Ascension_10",
+    "defaultvalue": 0,
+    "displayName": "Escape From Darksburg",
+    "hidden": 0,
+    "description": "Clear a run on Ascension 10",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/b37535b8b86171ca50ae6f94ca42974ef1b750bd.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/078b010f8ba8f5547050edc6517f7ce3028ae19e.jpg"
+  },
+  {
+    "name": "Run_Harbor",
+    "defaultvalue": 0,
+    "displayName": "Here for the Ferry First Time",
+    "hidden": 0,
+    "description": "Clear the Harbour for the first time.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/8b2daf9de794ec0213bacb04eea0d0b127e3a0ce.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/078b010f8ba8f5547050edc6517f7ce3028ae19e.jpg"
+  },
+  {
+    "name": "Run_Marketplace",
+    "defaultvalue": 0,
+    "displayName": "Flee Market",
+    "hidden": 0,
+    "description": "Clear the Marketplace for the first time.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/499c2387d7e6053ad54805739f6b8ac50c54dddf.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/078b010f8ba8f5547050edc6517f7ce3028ae19e.jpg"
+  },
+  {
+    "name": "Run_Faubourg",
+    "defaultvalue": 0,
+    "displayName": "Where the Scare Grows",
+    "hidden": 0,
+    "description": "Clear the Faubourg for the first time.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/94f584f5864443dd912e1fa2d3ed7def82e145b7.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/078b010f8ba8f5547050edc6517f7ce3028ae19e.jpg"
+  },
+  {
+    "name": "Run_Graveyard",
+    "defaultvalue": 0,
+    "displayName": "Fresh Out of the Grave(yard)",
+    "hidden": 0,
+    "description": "Clear the Graveyard for the first time.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/ee8a3fe63fc7f3857947a143bd2d32682461225d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/078b010f8ba8f5547050edc6517f7ce3028ae19e.jpg"
+  },
+  {
+    "name": "Run_Defeat",
+    "defaultvalue": 0,
+    "displayName": "The First in a Long Series...",
+    "hidden": 0,
+    "description": "Suffer your first defeat. Now, get up and try again!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/7bf5d83fc8b1ff2802141161436ddccb66f77950.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/078b010f8ba8f5547050edc6517f7ce3028ae19e.jpg"
+  },
+  {
+    "name": "Run_BaronDefeat",
+    "defaultvalue": 0,
+    "displayName": "This tomb will be... err.. YOUR tomb!",
+    "hidden": 0,
+    "description": "So Manfred Von Darksburg defeated you, huh? So close!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/2598755a558a3b2c8e9f773274b453393f7533b5.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/078b010f8ba8f5547050edc6517f7ce3028ae19e.jpg"
+  },
+  {
+    "name": "FirstDreadium",
+    "defaultvalue": 0,
+    "displayName": "A Mysterious Ore",
+    "hidden": 0,
+    "description": "You found your very first Dreadium Ingot!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/17ffb23a009c2cb08dc970fcd087beba44e83ad4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/078b010f8ba8f5547050edc6517f7ce3028ae19e.jpg"
+  },
+  {
+    "name": "FirstGold",
+    "defaultvalue": 0,
+    "displayName": "Striking Gold",
+    "hidden": 0,
+    "description": "You found your very first Dark!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/96356c026d8ef54e68ff1fc859ebfbf19d0d0f2a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/078b010f8ba8f5547050edc6517f7ce3028ae19e.jpg"
+  },
+  {
+    "name": "Run_CatchChicken",
+    "defaultvalue": 0,
+    "displayName": "What the Cluck?!",
+    "hidden": 0,
+    "description": "Catch your very first Chicken!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/3bdc4affe93b0695f2022a1cc5d22b131f5e5f91.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/078b010f8ba8f5547050edc6517f7ce3028ae19e.jpg"
+  },
+  {
+    "name": "Trinket_FullLoadout",
+    "defaultvalue": 0,
+    "displayName": "Lock-and-load!",
+    "hidden": 0,
+    "description": "Unlock all the loadout's slots and fill them with Curios!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/1b79268d2e15899f0db6a57578c4cb798ab95a34.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/078b010f8ba8f5547050edc6517f7ce3028ae19e.jpg"
+  },
+  {
+    "name": "Trinket_Unlock_1",
+    "defaultvalue": 0,
+    "displayName": "Curious",
+    "hidden": 0,
+    "description": "Unlock your very first Curio!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/883f7eb2f766e88d738b90f52790e6dd3555b9e3.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/078b010f8ba8f5547050edc6517f7ce3028ae19e.jpg"
+  },
+  {
+    "name": "Trinket_Unlock_5",
+    "defaultvalue": 0,
+    "displayName": "Hobbyist Collector",
+    "hidden": 0,
+    "description": "Unlock 5 Curios (any rarity)",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/b7892cf310db8ff83ae6916bbef1eb564b0a95af.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/078b010f8ba8f5547050edc6517f7ce3028ae19e.jpg"
+  },
+  {
+    "name": "Trinket_Unlock_10",
+    "defaultvalue": 0,
+    "displayName": "Antique Hunter",
+    "hidden": 0,
+    "description": "Unlock 10 Curios (any rarity)",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/3b157917b8b0ec5368a0b61f3ddfa22c6b813e15.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/078b010f8ba8f5547050edc6517f7ce3028ae19e.jpg"
+  },
+  {
+    "name": "Trinket_Unlock_25",
+    "defaultvalue": 0,
+    "displayName": "Curiosity Trader",
+    "hidden": 0,
+    "description": "Unlock 25 Curios (any rarity)",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/8a6a0cbc948d60f82079b6a574e5c309ed6fb449.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/078b010f8ba8f5547050edc6517f7ce3028ae19e.jpg"
+  },
+  {
+    "name": "Trinket_Unlock_50",
+    "defaultvalue": 0,
+    "displayName": "Custodian of the Cabinet",
+    "hidden": 0,
+    "description": "Unlock 50 Curios (any rarity)",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/31f6fa7bd1d1984e53863a1787b5b5e4f322f816.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/078b010f8ba8f5547050edc6517f7ce3028ae19e.jpg"
+  },
+  {
+    "name": "Trinket_Unlock_All",
+    "defaultvalue": 0,
+    "displayName": "Owner of the Cabinet",
+    "hidden": 0,
+    "description": "Unlock all the Curios in the Cabinet of Curiosity!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/769a67d71b867e7192a7a553b3fefa1c9d173fa8.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/078b010f8ba8f5547050edc6517f7ce3028ae19e.jpg"
+  },
+  {
+    "name": "Kill_Foe_10000",
+    "defaultvalue": 0,
+    "displayName": "Again and again and again and again!",
+    "hidden": 0,
+    "description": "Kill 10,000 Zombies",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/1841a4664428c07420c7893cd9f608856f1cd407.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/15f7520a65ea762661b9efe3e1d095a5923e44a4.jpg"
   },
   {
-    "name": "WinVersusAsSurvivor",
+    "name": "Kill_Foe_20000",
     "defaultvalue": 0,
-    "displayName": "Last Hope For Mankind",
+    "displayName": "Grindy-Grindy-Oh!",
     "hidden": 0,
-    "description": "Win a Survival Versus game as the Survivors",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/dd74d1a0cc292a143ce2ab519a864dce7017368f.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/cc99db41babb53f4de5b104e33ccecedde73fe7b.jpg"
+    "description": "Kill 20,000 Zombies",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/6f8f34af4bebf4cfd0feb73ee100889ed3d22688.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/15f7520a65ea762661b9efe3e1d095a5923e44a4.jpg"
   },
   {
-    "name": "WinVersusAsRevenant",
+    "name": "Collect_Gold_500",
     "defaultvalue": 0,
-    "displayName": "A Threat To Mankind",
+    "displayName": "Have Any Change?",
     "hidden": 0,
-    "description": "Win a Survival Versus game as the Revenants",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/6506b670feff53eb75c8d7315843e1db0120a139.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/cc99db41babb53f4de5b104e33ccecedde73fe7b.jpg"
+    "description": "Gather an accumulated total of 500 Darks.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/0d08c666357df3321d4a912dba34f7bb5c4729d3.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/078b010f8ba8f5547050edc6517f7ce3028ae19e.jpg"
   },
   {
-    "name": "Win10VersusAsSurvivor",
+    "name": "Collect_Gold_1000",
     "defaultvalue": 0,
-    "displayName": "It's Not Just A Name, It's A Lifestyle",
+    "displayName": "Pocket Money!",
     "hidden": 0,
-    "description": "Win 10 Survival Versus games as Survivors",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/128767b5697ca17d53cd970fa34f9c29ff311f41.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/cc99db41babb53f4de5b104e33ccecedde73fe7b.jpg"
+    "description": "Gather an accumulated total of 1,000 Darks.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/dd02c48bfc5cb56177f4678b611231f0bdbda63a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/078b010f8ba8f5547050edc6517f7ce3028ae19e.jpg"
   },
   {
-    "name": "Win10VersusAsRevenant",
+    "name": "Collect_Gold_10000",
     "defaultvalue": 0,
-    "displayName": "What Did They Ever Do To You?",
+    "displayName": "Fair Wages",
     "hidden": 0,
-    "description": "Win 10 Survival Versus games as Revenants",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/b4a5a917c0a56c4551dbc81292e22d2de21f3e2e.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/cc99db41babb53f4de5b104e33ccecedde73fe7b.jpg"
+    "description": "Gather an accumulated total of 10,000 Darks.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/d69e848eefeab658319296cc039dd559bf1b80ea.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/078b010f8ba8f5547050edc6517f7ce3028ae19e.jpg"
   },
   {
-    "name": "WinBeforeFirstObj",
+    "name": "Collect_Gold_50000",
     "defaultvalue": 0,
-    "displayName": "Party Pooper",
+    "displayName": "Hoarder's Delight",
     "hidden": 0,
-    "description": "Kill the Survivors before they reach the first objective",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/87b1b44c5d658accddc9619fa52bda9dfeffd526.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/cc99db41babb53f4de5b104e33ccecedde73fe7b.jpg"
+    "description": "Gather an accumulated total of 50,000 Darks.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/573e567a6e98ab79840148fc66f92aaf23ffcf31.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/078b010f8ba8f5547050edc6517f7ce3028ae19e.jpg"
   },
   {
-    "name": "VictoryZoneKill",
+    "name": "Collect_Gold_100000",
     "defaultvalue": 0,
-    "displayName": "It's The Hope That Kills You",
+    "displayName": "Can't Spend It All In One Place",
     "hidden": 0,
-    "description": "Take a Survivor down while the others (player) Survivors are in the escape zone",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/4d4e212988f0a8aa790fd6cadd077f09bf125b26.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/cc99db41babb53f4de5b104e33ccecedde73fe7b.jpg"
+    "description": "Gather an accumulated total of 100,000 Darks.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/a2020719a4c6ede0ce95ae6fe749b986d626d1ac.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/078b010f8ba8f5547050edc6517f7ce3028ae19e.jpg"
   },
   {
-    "name": "SpawnInRavenstorm",
+    "name": "GetGold",
     "defaultvalue": 0,
-    "displayName": "But... why?",
+    "displayName": "Every Penny Counts",
     "hidden": 0,
-    "description": "As a Revenant in Ghost Form, cast 'From the Shadows' in the Raven Master's 'Featherstorm'",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/f13a2cda39b1f7f81932cfbb9fd87a6416d324dd.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/cc99db41babb53f4de5b104e33ccecedde73fe7b.jpg"
-  },
-  {
-    "name": "BuffZombiesEvent",
-    "defaultvalue": 0,
-    "displayName": "UUUNLIMITED POWAHHHH",
-    "hidden": 0,
-    "description": "As a Revenant in Ghost Form, cast 'Triumph of the Hordes' on zombies during a Zombie Horde Event",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/8f3e85a83b254dcb79004183ef3046446a873c14.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/cc99db41babb53f4de5b104e33ccecedde73fe7b.jpg"
+    "description": "Hit a whopping total of 10,000 Darks in a single run. Refrain from spending anything!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/66af1d2b4f4c001fe50088013abf3ca33827a340.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/939100/078b010f8ba8f5547050edc6517f7ce3028ae19e.jpg"
   }
 ]

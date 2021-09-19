@@ -1,970 +1,1237 @@
-﻿{
-  "STAT_TOTAL_GAMES": {
-    "description": "STAT_TOTAL_GAMES",
-    "value": 0
-  },
-  "STAT_NUM_WINS": {
-    "description": "STAT_NUM_WINS",
-    "value": 0
-  },
-  "STAT_NUM_MVP_AWARDS": {
-    "description": "STAT_NUM_MVP_AWARDS",
-    "value": 0
-  },
-  "STAT_VICTORY_BRITONS": {
-    "description": "STAT_VICTORY_BRITONS",
-    "value": 0
-  },
-  "STAT_VICTORY_FRANKS": {
-    "description": "STAT_VICTORY_FRANKS",
-    "value": 0
-  },
-  "STAT_VICTORY_GOTHS": {
-    "description": "STAT_VICTORY_GOTHS",
-    "value": 0
-  },
-  "STAT_VICTORY_TEUTONS": {
-    "description": "STAT_VICTORY_TEUTONS",
-    "value": 0
-  },
-  "STAT_VICTORY_JAPANESE": {
-    "description": "STAT_VICTORY_JAPANESE",
-    "value": 0
-  },
-  "STAT_VICTORY_CHINESE": {
-    "description": "STAT_VICTORY_CHINESE",
-    "value": 0
-  },
-  "STAT_VICTORY_BYZANTINES": {
-    "description": "STAT_VICTORY_BYZANTINES",
-    "value": 0
-  },
-  "STAT_VICTORY_PERSIANS": {
-    "description": "STAT_VICTORY_PERSIANS",
-    "value": 0
-  },
-  "STAT_VICTORY_SARACENS": {
-    "description": "STAT_VICTORY_SARACENS",
-    "value": 0
-  },
-  "STAT_VICTORY_TURKS": {
-    "description": "STAT_VICTORY_TURKS",
-    "value": 0
-  },
-  "STAT_VICTORY_VIKINGS": {
-    "description": "STAT_VICTORY_VIKINGS",
-    "value": 0
-  },
-  "STAT_VICTORY_MONGOLS": {
-    "description": "STAT_VICTORY_MONGOLS",
-    "value": 0
-  },
-  "STAT_VICTORY_CELTS": {
-    "description": "STAT_VICTORY_CELTS",
-    "value": 0
-  },
-  "STAT_VICTORY_SPANISH": {
-    "description": "STAT_VICTORY_SPANISH",
-    "value": 0
-  },
-  "STAT_VICTORY_AZTECS": {
-    "description": "STAT_VICTORY_AZTECS",
-    "value": 0
-  },
-  "STAT_VICTORY_MAYANS": {
-    "description": "STAT_VICTORY_MAYANS",
-    "value": 0
-  },
-  "STAT_VICTORY_HUNS": {
-    "description": "STAT_VICTORY_HUNS",
-    "value": 0
-  },
-  "STAT_VICTORY_KOREANS": {
-    "description": "STAT_VICTORY_KOREANS",
-    "value": 0
-  },
-  "STAT_VICTORY_ITALIANS": {
-    "description": "STAT_VICTORY_ITALIANS",
-    "value": 0
-  },
-  "STAT_VICTORY_INDIANS": {
-    "description": "STAT_VICTORY_INDIANS",
-    "value": 0
-  },
-  "STAT_VICTORY_INCAS": {
-    "description": "STAT_VICTORY_INCAS",
-    "value": 0
-  },
-  "STAT_VICTORY_MAGYAR": {
-    "description": "STAT_VICTORY_MAGYAR",
-    "value": 0
-  },
-  "STAT_VICTORY_SLAVS": {
-    "description": "STAT_VICTORY_SLAVS",
-    "value": 0
-  },
-  "STAT_VICTORY_PORTUGUESE": {
-    "description": "STAT_VICTORY_PORTUGUESE",
-    "value": 0
-  },
-  "STAT_VICTORY_ETHIOPIANS": {
-    "description": "STAT_VICTORY_ETHIOPIANS",
-    "value": 0
-  },
-  "STAT_VICTORY_MALIANS": {
-    "description": "STAT_VICTORY_MALIANS",
-    "value": 0
-  },
-  "STAT_VICTORY_BERBERS": {
-    "description": "STAT_VICTORY_BERBERS",
-    "value": 0
-  },
-  "STAT_VICTORY_KHMER": {
-    "description": "STAT_VICTORY_KHMER",
-    "value": 0
-  },
-  "STAT_VICTORY_MALAY": {
-    "description": "STAT_VICTORY_MALAY",
-    "value": 0
-  },
-  "STAT_VICTORY_BURMESE": {
-    "description": "STAT_VICTORY_BURMESE",
-    "value": 0
-  },
-  "STAT_VICTORY_VIETNAMESE": {
-    "description": "STAT_VICTORY_VIETNAMESE",
-    "value": 0
-  },
-  "STAT_VICTORY_BULGARIANS": {
-    "description": "STAT_VICTORY_BULGARIANS",
-    "value": 0
-  },
-  "STAT_VICTORY_TATARS": {
-    "description": "STAT_VICTORY_TATARS",
-    "value": 0
-  },
-  "STAT_VICTORY_CUMANS": {
-    "description": "STAT_VICTORY_CUMANS",
-    "value": 0
-  },
-  "STAT_VICTORY_RANDOM": {
-    "description": "STAT_VICTORY_RANDOM",
-    "value": 0
-  },
-  "STAT_HIGHEST_SCORE_TOTAL": {
-    "description": "STAT_HIGHEST_SCORE_TOTAL",
-    "value": 0
-  },
-  "STAT_HIGHEST_SCORE_MILITARY": {
-    "description": "STAT_HIGHEST_SCORE_MILITARY",
-    "value": 0
-  },
-  "STAT_HIGHEST_SCORE_ECONOMIC": {
-    "description": "STAT_HIGHEST_SCORE_ECONOMIC",
-    "value": 0
-  },
-  "STAT_HIGHEST_SCORE_TECHNOLOGY": {
-    "description": "STAT_HIGHEST_SCORE_TECHNOLOGY",
-    "value": 0
-  },
-  "STAT_HIGHEST_SCORE_SOCIETY": {
-    "description": "STAT_HIGHEST_SCORE_SOCIETY",
-    "value": 0
-  },
-  "STAT_CAREER_UNITS_KILLED": {
-    "description": "STAT_CAREER_UNITS_KILLED",
-    "value": 0
-  },
-  "STAT_CAREER_UNITS_LOST": {
-    "description": "STAT_CAREER_UNITS_LOST",
-    "value": 0
-  },
-  "STAT_CAREER_UNITS_CONVERTED": {
-    "description": "STAT_CAREER_UNITS_CONVERTED",
-    "value": 0
-  },
-  "STAT_CAREER_BUILDINGS_RAZED": {
-    "description": "STAT_CAREER_BUILDINGS_RAZED",
-    "value": 0
-  },
-  "STAT_CAREER_BUILDINGS_LOST": {
-    "description": "STAT_CAREER_BUILDINGS_LOST",
-    "value": 0
-  },
-  "STAT_CAREER_NUM_WONDERS": {
-    "description": "STAT_CAREER_NUM_WONDERS",
-    "value": 0
-  },
-  "STAT_CAREER_NUM_CASTLES": {
-    "description": "STAT_CAREER_NUM_CASTLES",
-    "value": 0
-  },
-  "STAT_ELO": {
-    "description": "STAT_ELO",
-    "value": 1400
-  },
-  "STAT_GAMES_PLAYED_OFFLINE": {
-    "description": "STAT_GAMES_PLAYED_OFFLINE",
-    "value": 0
-  },
-  "STAT_GAMES_PLAYED_ONLINE": {
-    "description": "STAT_GAMES_PLAYED_ONLINE",
-    "value": 0
-  },
-  "STAT_GAMES_PLAYED_RANDOM": {
-    "description": "STAT_GAMES_PLAYED_RANDOM",
-    "value": 0
-  },
-  "STAT_GAMES_PLAYED_TURBO": {
-    "description": "STAT_GAMES_PLAYED_TURBO",
-    "value": 0
-  },
-  "STAT_GAMES_PLAYED_DEATHMATCH": {
-    "description": "STAT_GAMES_PLAYED_DEATHMATCH",
-    "value": 0
-  },
-  "STAT_GAMES_PLAYED_SCENARIO": {
-    "description": "STAT_GAMES_PLAYED_SCENARIO",
-    "value": 0
-  },
-  "STAT_GAMES_PLAYED_KINGOFHILL": {
-    "description": "STAT_GAMES_PLAYED_KINGOFHILL",
-    "value": 0
-  },
-  "STAT_GAMES_PLAYED_WONDERRACE": {
-    "description": "STAT_GAMES_PLAYED_WONDERRACE",
-    "value": 0
-  },
-  "STAT_GAMES_PLAYED_DEFENDWONDER": {
-    "description": "STAT_GAMES_PLAYED_DEFENDWONDER",
-    "value": 0
-  },
-  "STAT_CAREER_MAX_CPUS_DEFEATED": {
-    "description": "STAT_CAREER_MAX_CPUS_DEFEATED",
-    "value": 0
-  },
-  "STAT_DEFEATED_BRITONS": {
-    "description": "STAT_DEFEATED_BRITONS",
-    "value": 0
-  },
-  "STAT_DEFEATED_FRANKS": {
-    "description": "STAT_DEFEATED_FRANKS",
-    "value": 0
-  },
-  "STAT_DEFEATED_GOTHS": {
-    "description": "STAT_DEFEATED_GOTHS",
-    "value": 0
-  },
-  "STAT_DEFEATED_TEUTONS": {
-    "description": "STAT_DEFEATED_TEUTONS",
-    "value": 0
-  },
-  "STAT_DEFEATED_JAPANESE": {
-    "description": "STAT_DEFEATED_JAPANESE",
-    "value": 0
-  },
-  "STAT_DEFEATED_CHINESE": {
-    "description": "STAT_DEFEATED_CHINESE",
-    "value": 0
-  },
-  "STAT_DEFEATED_BYZANTINES": {
-    "description": "STAT_DEFEATED_BYZANTINES",
-    "value": 0
-  },
-  "STAT_DEFEATED_PERSIANS": {
-    "description": "STAT_DEFEATED_PERSIANS",
-    "value": 0
-  },
-  "STAT_DEFEATED_SARACENS": {
-    "description": "STAT_DEFEATED_SARACENS",
-    "value": 0
-  },
-  "STAT_DEFEATED_TURKS": {
-    "description": "STAT_DEFEATED_TURKS",
-    "value": 0
-  },
-  "STAT_DEFEATED_VIKINGS": {
-    "description": "STAT_DEFEATED_VIKINGS",
-    "value": 0
-  },
-  "STAT_DEFEATED_MONGOLS": {
-    "description": "STAT_DEFEATED_MONGOLS",
-    "value": 0
-  },
-  "STAT_DEFEATED_CELTS": {
-    "description": "STAT_DEFEATED_CELTS",
-    "value": 0
-  },
-  "STAT_DEFEATED_SPANISH": {
-    "description": "STAT_DEFEATED_SPANISH",
-    "value": 0
-  },
-  "STAT_DEFEATED_AZTECS": {
-    "description": "STAT_DEFEATED_AZTECS",
-    "value": 0
-  },
-  "STAT_DEFEATED_MAYANS": {
-    "description": "STAT_DEFEATED_MAYANS",
-    "value": 0
-  },
-  "STAT_DEFEATED_HUNS": {
-    "description": "STAT_DEFEATED_HUNS",
-    "value": 0
-  },
-  "STAT_DEFEATED_KOREANS": {
-    "description": "STAT_DEFEATED_KOREANS",
-    "value": 0
-  },
-  "STAT_DEFEATED_ITALIANS": {
-    "description": "STAT_DEFEATED_ITALIANS",
-    "value": 0
-  },
-  "STAT_DEFEATED_INDIANS": {
-    "description": "STAT_DEFEATED_INDIANS",
-    "value": 0
-  },
-  "STAT_DEFEATED_INCAS": {
-    "description": "STAT_DEFEATED_INCAS",
-    "value": 0
-  },
-  "STAT_DEFEATED_MAGYAR": {
-    "description": "STAT_DEFEATED_MAGYAR",
-    "value": 0
-  },
-  "STAT_DEFEATED_SLAVS": {
-    "description": "STAT_DEFEATED_SLAVS",
-    "value": 0
-  },
-  "STAT_DEFEATED_PORTUGUESE": {
-    "description": "STAT_DEFEATED_PORTUGUESE",
-    "value": 0
-  },
-  "STAT_DEFEATED_ETHIOPIANS": {
-    "description": "STAT_DEFEATED_ETHIOPIANS",
-    "value": 0
-  },
-  "STAT_DEFEATED_MALIANS": {
-    "description": "STAT_DEFEATED_MALIANS",
-    "value": 0
-  },
-  "STAT_DEFEATED_BERBERS": {
-    "description": "STAT_DEFEATED_BERBERS",
-    "value": 0
-  },
-  "STAT_DEFEATED_KHMER": {
-    "description": "STAT_DEFEATED_KHMER",
-    "value": 0
-  },
-  "STAT_DEFEATED_MALAY": {
-    "description": "STAT_DEFEATED_MALAY",
-    "value": 0
-  },
-  "STAT_DEFEATED_BURMESE": {
-    "description": "STAT_DEFEATED_BURMESE",
-    "value": 0
-  },
-  "STAT_DEFEATED_VIETNAMESE": {
-    "description": "STAT_DEFEATED_VIETNAMESE",
-    "value": 0
-  },
-  "STAT_DEFEATED_BULGARIANS": {
-    "description": "STAT_DEFEATED_BULGARIANS",
-    "value": 0
-  },
-  "STAT_DEFEATED_TATARS": {
-    "description": "STAT_DEFEATED_TATARS",
-    "value": 0
-  },
-  "STAT_DEFEATED_CUMANS": {
-    "description": "STAT_DEFEATED_CUMANS",
-    "value": 0
-  },
-  "STAT_DEFEATED_RANDOM": {
-    "description": "STAT_DEFEATED_CUMANS",
-    "value": 0
-  },
-  "STAT_SINGLEBATTLE_UNITS_KILLED": {
-    "description": "STAT_SINGLEBATTLE_UNITS_KILLED",
-    "value": 0
-  },
-  "STAT_SINGLEBATTLE_UNITS_LOST": {
-    "description": "STAT_SINGLEBATTLE_UNITS_LOST",
-    "value": 0
-  },
-  "STAT_SINGLEBATTLE_UNITS_CONVERTED": {
-    "description": "STAT_SINGLEBATTLE_UNITS_CONVERTED",
-    "value": 0
-  },
-  "STAT_SINGLEBATTLE_BUILDINGS_RAZED": {
-    "description": "STAT_SINGLEBATTLE_BUILDINGS_RAZED",
-    "value": 0
-  },
-  "STAT_SINGLEBATTLE_BUILDINGS_LOST": {
-    "description": "STAT_SINGLEBATTLE_BUILDINGS_LOST",
-    "value": 0
-  },
-  "STAT_SINGLEBATTLE_NUM_WONDERS": {
-    "description": "STAT_SINGLEBATTLE_NUM_WONDERS",
-    "value": 0
-  },
-  "STAT_SINGLEBATTLE_NUM_CASTLES": {
-    "description": "STAT_SINGLEBATTLE_NUM_CASTLES",
-    "value": 0
-  },
-  "STAT_CAMPAIGN_COMPLETE_WALLACE": {
-    "description": "STAT_CAMPAIGN_COMPLETE_WALLACE",
-    "value": 0
-  },
-  "STAT_CAMPAIGN_COMPLETE_JOANARC": {
-    "description": "STAT_CAMPAIGN_COMPLETE_JOANARC",
-    "value": 0
-  },
-  "STAT_CAMPAIGN_COMPLETE_SALADON": {
-    "description": "STAT_CAMPAIGN_COMPLETE_SALADON",
-    "value": 0
-  },
-  "STAT_CAMPAIGN_COMPLETE_KHAN": {
-    "description": "STAT_CAMPAIGN_COMPLETE_KHAN",
-    "value": 0
-  },
-  "STAT_CAMPAIGN_COMPLETE_BARBAROSSA": {
-    "description": "STAT_CAMPAIGN_COMPLETE_BARBAROSSA",
-    "value": 0
-  },
-  "STAT_CAMPAIGN_COMPLETE_ATTILA": {
-    "description": "STAT_CAMPAIGN_COMPLETE_ATTILA",
-    "value": 0
-  },
-  "STAT_CAMPAIGN_COMPLETE_ELCID": {
-    "description": "STAT_CAMPAIGN_COMPLETE_ELCID",
-    "value": 0
-  },
-  "STAT_CAMPAIGN_COMPLETE_MONTEZUMA": {
-    "description": "STAT_CAMPAIGN_COMPLETE_MONTEZUMA",
-    "value": 0
-  },
-  "STAT_CAMPAIGN_COMPLETE_CONQUERERS": {
-    "description": "STAT_CAMPAIGN_COMPLETE_CONQUERERS",
-    "value": 0
-  },
-  "STAT_CAMPAIGN_COMPLETED_ALL": {
-    "description": "STAT_CAMPAIGN_COMPLETED_ALL",
-    "value": 0
-  },
-  "STAT_ELO_DM": {
-    "description": "STAT_ELO_DM",
-    "value": 1600
-  },
-  "STAT_ELO_DM_UTC": {
-    "description": "STAT_ELO_DM_UTC",
-    "value": 0
-  },
-  "STAT_ELO_DM_BEGIN": {
-    "description": "STAT_ELO_DM_BEGIN",
-    "value": 0
-  },
-  "STAT_ELO_DM_END": {
-    "description": "STAT_ELO_DM_END",
-    "value": 0
-  },
-  "STAT_ELO_DM_WINS": {
-    "description": "STAT_ELO_DM_WINS",
-    "value": 0
-  },
-  "STAT_ELO_RM": {
-    "description": "STAT_ELO_RM",
-    "value": 1600
-  },
-  "STAT_ELO_RM_UTC": {
-    "description": "STAT_ELO_RM_UTC",
-    "value": 0
-  },
-  "STAT_ELO_RM_BEGIN": {
-    "description": "STAT_ELO_RM_BEGIN",
-    "value": 0
-  },
-  "STAT_ELO_RM_END": {
-    "description": "STAT_ELO_RM_END",
-    "value": 0
-  },
-  "STAT_ELO_RM_WINS": {
-    "description": "STAT_ELO_RM_WINS",
-    "value": 0
-  },
-  "STAT_ELO_XDM": {
-    "description": "STAT_ELO_XDM",
-    "value": 1600
-  },
-  "STAT_ELO_XDM_UTC": {
-    "description": "STAT_ELO_XDM_UTC",
-    "value": 0
-  },
-  "STAT_ELO_XDM_BEGIN": {
-    "description": "STAT_ELO_XDM_BEGIN",
-    "value": 0
-  },
-  "STAT_ELO_XDM_END": {
-    "description": "STAT_ELO_XDM_END",
-    "value": 0
-  },
-  "STAT_ELO_XDM_WINS": {
-    "description": "STAT_ELO_XDM_WINS",
-    "value": 0
-  },
-  "STAT_ELO_XRM": {
-    "description": "STAT_ELO_XRM",
-    "value": 1600
-  },
-  "STAT_ELO_XRM_UTC": {
-    "description": "STAT_ELO_XRM_UTC",
-    "value": 0
-  },
-  "STAT_ELO_XRM_BEGIN": {
-    "description": "STAT_ELO_XRM_BEGIN",
-    "value": 0
-  },
-  "STAT_ELO_XRM_END": {
-    "description": "STAT_ELO_XRM_END",
-    "value": 0
-  },
-  "STAT_ELO_XRM_WINS": {
-    "description": "STAT_ELO_XRM_WINS",
-    "value": 0
-  },
-  "STAT_OVERALL_GAME_STARTS": {
-    "description": "STAT_OVERALL_GAME_STARTS",
-    "value": 0
-  },
-  "STAT_OVERALL_STDSTARTS": {
-    "description": "STAT_OVERALL_STDSTARTS",
-    "value": 0
-  },
-  "STAT_OVERALL_CAMPSTARTS": {
-    "description": "STAT_OVERALL_CAMPSTARTS",
-    "value": 0
-  },
-  "STAT_OVERALL_MPSTARTS": {
-    "description": "STAT_OVERALL_MPSTARTS",
-    "value": 0
-  },
-  "STAT_OVERALL_MP_2P_TOTAL": {
-    "description": "STAT_OVERALL_MP_2P_TOTAL",
-    "value": 0
-  },
-  "STAT_OVERALL_MP_XP_TOTAL": {
-    "description": "STAT_OVERALL_MP_XP_TOTAL",
-    "value": 0
-  },
-  "STAT_OVERALL_MP_NOTEAM_TOTAL": {
-    "description": "STAT_OVERALL_MP_NOTEAM_TOTAL",
-    "value": 0
-  },
-  "STAT_OVERALL_MP_TEAM_TOTAL": {
-    "description": "STAT_OVERALL_MP_TEAM_TOTAL",
-    "value": 0
-  },
-  "STAT_OVERALL_MP_STARTS_1": {
-    "description": "STAT_OVERALL_MP_STARTS_1",
-    "value": 0
-  },
-  "STAT_OVERALL_MP_WITH_SPECTATOR_TOTAL_1": {
-    "description": "STAT_OVERALL_MP_WITH_SPECTATOR_TOTAL_1",
-    "value": 0
-  },
-  "STAT_OVERALL_MP_RANKED_TOTAL_1": {
-    "description": "STAT_OVERALL_MP_RANKED_TOTAL_1",
-    "value": 0
-  },
-  "STAT_CAREER_CONVERTED_BY_MISSIONARIES": {
-    "description": "STAT_CAREER_CONVERTED_BY_MISSIONARIES",
-    "value": 0
-  },
-  "STAT_CAREER_KILLED_BY_DEMOS": {
-    "description": "STAT_CAREER_KILLED_BY_DEMOS",
-    "value": 0
-  },
-  "STAT_CAREER_KILLED_BY_TREBS": {
-    "description": "STAT_CAREER_KILLED_BY_TREBS",
-    "value": 0
-  },
-  "STAT_CAREER_KILLED_BY_MANGOS": {
-    "description": "STAT_CAREER_KILLED_BY_MANGOS",
-    "value": 0
-  },
-  "STAT_CAREER_DESTROYED_BY_TARKANS": {
-    "description": "STAT_CAREER_DESTROYED_BY_TARKANS",
-    "value": 0
-  },
-  "STAT_CAREER_DESTROYED_BY_RAMS": {
-    "description": "STAT_CAREER_DESTROYED_BY_RAMS",
-    "value": 0
-  },
-  "STAT_CAREER_CASTLES_DESTROYED": {
-    "description": "STAT_CAREER_CASTLES_DESTROYED",
-    "value": 0
-  },
-  "STAT_VICTORY_LITHUANIANS": {
-    "description": "STAT_VICTORY_LITHUANIANS",
-    "value": 0
-  },
-  "STAT_DEFEATED_LITHUANIANS": {
-    "description": "STAT_DEFEATED_LITHUANIANS",
-    "value": 0
-  },
-  "STAT_TREBS_BUILT": {
-    "description": "STAT_TREBS_BUILT",
-    "value": 0
-  },
-  "STAT_CONDOTTIERO_TRAINED": {
-    "description": "STAT_CONDOTTIERO_TRAINED",
-    "value": 0
-  },
-  "STAT_FARMS_BUILT": {
-    "description": "STAT_FARMS_BUILT",
-    "value": 0
-  },
-  "STAT_RELICS_COLLECTED": {
-    "description": "STAT_RELICS_COLLECTED",
-    "value": 0
-  },
-  "STAT_VILLAGERS_KILLED_BY_MILITIA_IN_DARK_AGE": {
-    "description": "STAT_VILLAGERS_KILLED_BY_MILITIA_IN_DARK_AGE",
-    "value": 0
-  },
-  "STAT_CHU_KO_NU_ARROWS_FIRED": {
-    "description": "STAT_CHU_KO_NU_ARROWS_FIRED",
-    "value": 0
-  },
-  "STAT_KESHIK_GOLD": {
-    "description": "STAT_KESHIK_GOLD",
-    "value": 0
-  },
-  "STAT_SINCE_NAVALBATTLE_FISHING_OVERALL_SPFINISHS": {
-    "description": "",
-    "value": 0
-  },
-  "STAT_NAVALBATTLE_SP": {
-    "description": "",
-    "value": 0
-  },
-  "STAT_NAVALBATTLE_CIV_VIKINGS": {
-    "description": "",
-    "value": 0
-  },
-  "STAT_FISHING_SP": {
-    "description": "",
-    "value": 0
-  },
-  "STAT_FISHING_CIV_VIKINGS": {
-    "description": "",
-    "value": 0
-  },
-  "STAT_POP_CAP_200_SP": {
-    "description": "",
-    "value": 0
-  },
-  "STAT_POP_PEAK_200_SP": {
-    "description": "",
-    "value": 0
-  },
-  "STAT_PLAYED_Coastal": {
-    "description": "",
-    "value": 0
-  },
-  "STAT_SINCE_NAVALBATTLE_FISHING_OVERALL_MPFINISHS": {
-    "description": "",
-    "value": 0
-  },
-  "STAT_FISHING_MP": {
-    "description": "",
-    "value": 0
-  },
-  "STAT_FISHING_CIV_BURMESE": {
-    "description": "",
-    "value": 0
-  },
-  "STAT_POP_CAP_200_MP": {
-    "description": "",
-    "value": 0
-  },
-  "STAT_POP_PEAK_200_MP": {
-    "description": "",
-    "value": 0
-  },
-  "STAT_FISHING_CIV_BRITONS": {
-    "description": "",
-    "value": 0
-  },
-  "STAT_FISHING_CIV_FRANKS": {
-    "description": "",
-    "value": 0
-  },
-  "STAT_FISHING_CIV_GOTHS": {
-    "description": "",
-    "value": 0
-  },
-  "STAT_FISHING_CIV_TEUTONS": {
-    "description": "",
-    "value": 0
-  },
-  "STAT_FISHING_CIV_JAPANESE": {
-    "description": "",
-    "value": 0
-  },
-  "STAT_FISHING_CIV_CHINESE": {
-    "description": "",
-    "value": 0
-  },
-  "STAT_FISHING_CIV_BYZANTINES": {
-    "description": "",
-    "value": 0
-  },
-  "STAT_FISHING_CIV_PERSIANS": {
-    "description": "",
-    "value": 0
-  },
-  "STAT_FISHING_CIV_SARACENS": {
-    "description": "",
-    "value": 0
-  },
-  "STAT_FISHING_CIV_TURKS": {
-    "description": "",
-    "value": 0
-  },
-  "STAT_FISHING_CIV_MONGOLS": {
-    "description": "",
-    "value": 0
-  },
-  "STAT_FISHING_CIV_CELTS": {
-    "description": "",
-    "value": 0
-  },
-  "STAT_FISHING_CIV_SPANISH": {
-    "description": "",
-    "value": 0
-  },
-  "STAT_FISHING_CIV_AZTECS": {
-    "description": "",
-    "value": 0
-  },
-  "STAT_FISHING_CIV_MAYANS": {
-    "description": "",
-    "value": 0
-  },
-  "STAT_FISHING_CIV_HUNS": {
-    "description": "",
-    "value": 0
-  },
-  "STAT_FISHING_CIV_KOREANS": {
-    "description": "",
-    "value": 0
-  },
-  "STAT_FISHING_CIV_ITALIANS": {
-    "description": "",
-    "value": 0
-  },
-  "STAT_FISHING_CIV_INDIANS": {
-    "description": "",
-    "value": 0
-  },
-  "STAT_FISHING_CIV_INCAS": {
-    "description": "",
-    "value": 0
-  },
-  "STAT_FISHING_CIV_MAGYAR": {
-    "description": "",
-    "value": 0
-  },
-  "STAT_FISHING_CIV_SLAVS": {
-    "description": "",
-    "value": 0
-  },
-  "STAT_FISHING_CIV_PORTUGUESE": {
-    "description": "",
-    "value": 0
-  },
-  "STAT_FISHING_CIV_ETHIOPIANS": {
-    "description": "",
-    "value": 0
-  },
-  "STAT_FISHING_CIV_MALIANS": {
-    "description": "",
-    "value": 0
-  },
-  "STAT_FISHING_CIV_BERBERS": {
-    "description": "",
-    "value": 0
-  },
-  "STAT_FISHING_CIV_KHMER": {
-    "description": "",
-    "value": 0
-  },
-  "STAT_FISHING_CIV_MALAY": {
-    "description": "",
-    "value": 0
-  },
-  "STAT_FISHING_CIV_VIETNAMESE": {
-    "description": "",
-    "value": 0
-  },
-  "STAT_FISHING_CIV_BULGARIANS": {
-    "description": "",
-    "value": 0
-  },
-  "STAT_FISHING_CIV_TATARS": {
-    "description": "",
-    "value": 0
-  },
-  "STAT_FISHING_CIV_CUMANS": {
-    "description": "",
-    "value": 0
-  },
-  "STAT_FISHING_CIV_LITHUANIANS": {
-    "description": "",
-    "value": 0
-  },
-  "STAT_FISHING_CIV_RANDOM": {
-    "description": "",
-    "value": 0
-  },
-  "STAT_NAVALBATTLE_MP": {
-    "description": "",
-    "value": 0
-  },
-  "STAT_NAVALBATTLE_CIV_BRITONS": {
-    "description": "",
-    "value": 0
-  },
-  "STAT_NAVALBATTLE_CIV_FRANKS": {
-    "description": "",
-    "value": 0
-  },
-  "STAT_NAVALBATTLE_CIV_GOTHS": {
-    "description": "",
-    "value": 0
-  },
-  "STAT_NAVALBATTLE_CIV_TEUTONS": {
-    "description": "",
-    "value": 0
-  },
-  "STAT_NAVALBATTLE_CIV_JAPANESE": {
-    "description": "",
-    "value": 0
-  },
-  "STAT_NAVALBATTLE_CIV_CHINESE": {
-    "description": "",
-    "value": 0
-  },
-  "STAT_NAVALBATTLE_CIV_BYZANTINES": {
-    "description": "",
-    "value": 0
-  },
-  "STAT_NAVALBATTLE_CIV_PERSIANS": {
-    "description": "",
-    "value": 0
-  },
-  "STAT_NAVALBATTLE_CIV_SARACENS": {
-    "description": "",
-    "value": 0
-  },
-  "STAT_NAVALBATTLE_CIV_TURKS": {
-    "description": "",
-    "value": 0
-  },
-  "STAT_NAVALBATTLE_CIV_MONGOLS": {
-    "description": "",
-    "value": 0
-  },
-  "STAT_NAVALBATTLE_CIV_CELTS": {
-    "description": "",
-    "value": 0
-  },
-  "STAT_NAVALBATTLE_CIV_SPANISH": {
-    "description": "",
-    "value": 0
-  },
-  "STAT_NAVALBATTLE_CIV_AZTECS": {
-    "description": "",
-    "value": 0
-  },
-  "STAT_NAVALBATTLE_CIV_MAYANS": {
-    "description": "",
-    "value": 0
-  },
-  "STAT_NAVALBATTLE_CIV_HUNS": {
-    "description": "",
-    "value": 0
-  },
-  "STAT_NAVALBATTLE_CIV_KOREANS": {
-    "description": "",
-    "value": 0
-  },
-  "STAT_NAVALBATTLE_CIV_ITALIANS": {
-    "description": "",
-    "value": 0
-  },
-  "STAT_NAVALBATTLE_CIV_INDIANS": {
-    "description": "",
-    "value": 0
-  },
-  "STAT_NAVALBATTLE_CIV_INCAS": {
-    "description": "",
-    "value": 0
-  },
-  "STAT_NAVALBATTLE_CIV_MAGYAR": {
-    "description": "",
-    "value": 0
-  },
-  "STAT_NAVALBATTLE_CIV_SLAVS": {
-    "description": "",
-    "value": 0
-  },
-  "STAT_NAVALBATTLE_CIV_PORTUGUESE": {
-    "description": "",
-    "value": 0
-  },
-  "STAT_NAVALBATTLE_CIV_ETHIOPIANS": {
-    "description": "",
-    "value": 0
-  },
-  "STAT_NAVALBATTLE_CIV_MALIANS": {
-    "description": "",
-    "value": 0
-  },
-  "STAT_NAVALBATTLE_CIV_BERBERS": {
-    "description": "",
-    "value": 0
-  },
-  "STAT_NAVALBATTLE_CIV_KHMER": {
-    "description": "",
-    "value": 0
-  },
-  "STAT_NAVALBATTLE_CIV_MALAY": {
-    "description": "",
-    "value": 0
-  },
-  "STAT_NAVALBATTLE_CIV_BURMESE": {
-    "description": "",
-    "value": 0
-  },
-  "STAT_NAVALBATTLE_CIV_VIETNAMESE": {
-    "description": "",
-    "value": 0
-  },
-  "STAT_NAVALBATTLE_CIV_BULGARIANS": {
-    "description": "",
-    "value": 0
-  },
-  "STAT_NAVALBATTLE_CIV_TATARS": {
-    "description": "",
-    "value": 0
-  },
-  "STAT_NAVALBATTLE_CIV_LITHUANIANS": {
-    "description": "",
-    "value": 0
-  },
-  "STAT_NAVALBATTLE_CIV_RANDOM": {
-    "description": "",
-    "value": 0
+[
+  {
+    "name": "STAT_TOTAL_GAMES",
+    "defaultvalue": 0,
+    "displayName": "STAT_TOTAL_GAMES"
+  },
+  {
+    "name": "STAT_NUM_WINS",
+    "defaultvalue": 0,
+    "displayName": "STAT_NUM_WINS"
+  },
+  {
+    "name": "STAT_NUM_MVP_AWARDS",
+    "defaultvalue": 0,
+    "displayName": "STAT_NUM_MVP_AWARDS"
+  },
+  {
+    "name": "STAT_VICTORY_BRITONS",
+    "defaultvalue": 0,
+    "displayName": "STAT_VICTORY_BRITONS"
+  },
+  {
+    "name": "STAT_VICTORY_FRANKS",
+    "defaultvalue": 0,
+    "displayName": "STAT_VICTORY_FRANKS"
+  },
+  {
+    "name": "STAT_VICTORY_GOTHS",
+    "defaultvalue": 0,
+    "displayName": "STAT_VICTORY_GOTHS"
+  },
+  {
+    "name": "STAT_VICTORY_TEUTONS",
+    "defaultvalue": 0,
+    "displayName": "STAT_VICTORY_TEUTONS"
+  },
+  {
+    "name": "STAT_VICTORY_JAPANESE",
+    "defaultvalue": 0,
+    "displayName": "STAT_VICTORY_JAPANESE"
+  },
+  {
+    "name": "STAT_VICTORY_CHINESE",
+    "defaultvalue": 0,
+    "displayName": "STAT_VICTORY_CHINESE"
+  },
+  {
+    "name": "STAT_VICTORY_BYZANTINES",
+    "defaultvalue": 0,
+    "displayName": "STAT_VICTORY_BYZANTINES"
+  },
+  {
+    "name": "STAT_VICTORY_PERSIANS",
+    "defaultvalue": 0,
+    "displayName": "STAT_VICTORY_PERSIANS"
+  },
+  {
+    "name": "STAT_VICTORY_SARACENS",
+    "defaultvalue": 0,
+    "displayName": "STAT_VICTORY_SARACENS"
+  },
+  {
+    "name": "STAT_VICTORY_TURKS",
+    "defaultvalue": 0,
+    "displayName": "STAT_VICTORY_TURKS"
+  },
+  {
+    "name": "STAT_VICTORY_VIKINGS",
+    "defaultvalue": 0,
+    "displayName": "STAT_VICTORY_VIKINGS"
+  },
+  {
+    "name": "STAT_VICTORY_MONGOLS",
+    "defaultvalue": 0,
+    "displayName": "STAT_VICTORY_MONGOLS"
+  },
+  {
+    "name": "STAT_VICTORY_CELTS",
+    "defaultvalue": 0,
+    "displayName": "STAT_VICTORY_CELTS"
+  },
+  {
+    "name": "STAT_VICTORY_SPANISH",
+    "defaultvalue": 0,
+    "displayName": "STAT_VICTORY_SPANISH"
+  },
+  {
+    "name": "STAT_VICTORY_AZTECS",
+    "defaultvalue": 0,
+    "displayName": "STAT_VICTORY_AZTECS"
+  },
+  {
+    "name": "STAT_VICTORY_MAYANS",
+    "defaultvalue": 0,
+    "displayName": "STAT_VICTORY_MAYANS"
+  },
+  {
+    "name": "STAT_VICTORY_HUNS",
+    "defaultvalue": 0,
+    "displayName": "STAT_VICTORY_HUNS"
+  },
+  {
+    "name": "STAT_VICTORY_KOREANS",
+    "defaultvalue": 0,
+    "displayName": "STAT_VICTORY_KOREANS"
+  },
+  {
+    "name": "STAT_VICTORY_ITALIANS",
+    "defaultvalue": 0,
+    "displayName": "STAT_VICTORY_ITALIANS"
+  },
+  {
+    "name": "STAT_VICTORY_INDIANS",
+    "defaultvalue": 0,
+    "displayName": "STAT_VICTORY_INDIANS"
+  },
+  {
+    "name": "STAT_VICTORY_INCAS",
+    "defaultvalue": 0,
+    "displayName": "STAT_VICTORY_INCAS"
+  },
+  {
+    "name": "STAT_VICTORY_MAGYAR",
+    "defaultvalue": 0,
+    "displayName": "STAT_VICTORY_MAGYAR"
+  },
+  {
+    "name": "STAT_VICTORY_SLAVS",
+    "defaultvalue": 0,
+    "displayName": "STAT_VICTORY_SLAVS"
+  },
+  {
+    "name": "STAT_VICTORY_PORTUGUESE",
+    "defaultvalue": 0,
+    "displayName": "STAT_VICTORY_PORTUGUESE"
+  },
+  {
+    "name": "STAT_VICTORY_ETHIOPIANS",
+    "defaultvalue": 0,
+    "displayName": "STAT_VICTORY_ETHIOPIANS"
+  },
+  {
+    "name": "STAT_VICTORY_MALIANS",
+    "defaultvalue": 0,
+    "displayName": "STAT_VICTORY_MALIANS"
+  },
+  {
+    "name": "STAT_VICTORY_BERBERS",
+    "defaultvalue": 0,
+    "displayName": "STAT_VICTORY_BERBERS"
+  },
+  {
+    "name": "STAT_VICTORY_KHMER",
+    "defaultvalue": 0,
+    "displayName": "STAT_VICTORY_KHMER"
+  },
+  {
+    "name": "STAT_VICTORY_MALAY",
+    "defaultvalue": 0,
+    "displayName": "STAT_VICTORY_MALAY"
+  },
+  {
+    "name": "STAT_VICTORY_BURMESE",
+    "defaultvalue": 0,
+    "displayName": "STAT_VICTORY_BURMESE"
+  },
+  {
+    "name": "STAT_VICTORY_VIETNAMESE",
+    "defaultvalue": 0,
+    "displayName": "STAT_VICTORY_VIETNAMESE"
+  },
+  {
+    "name": "STAT_VICTORY_BULGARIANS",
+    "defaultvalue": 0,
+    "displayName": "STAT_VICTORY_BULGARIANS"
+  },
+  {
+    "name": "STAT_VICTORY_TATARS",
+    "defaultvalue": 0,
+    "displayName": "STAT_VICTORY_TATARS"
+  },
+  {
+    "name": "STAT_VICTORY_CUMANS",
+    "defaultvalue": 0,
+    "displayName": "STAT_VICTORY_CUMANS"
+  },
+  {
+    "name": "STAT_VICTORY_RANDOM",
+    "defaultvalue": 0,
+    "displayName": "STAT_VICTORY_RANDOM"
+  },
+  {
+    "name": "STAT_HIGHEST_SCORE_TOTAL",
+    "defaultvalue": 0,
+    "displayName": "STAT_HIGHEST_SCORE_TOTAL"
+  },
+  {
+    "name": "STAT_HIGHEST_SCORE_MILITARY",
+    "defaultvalue": 0,
+    "displayName": "STAT_HIGHEST_SCORE_MILITARY"
+  },
+  {
+    "name": "STAT_HIGHEST_SCORE_ECONOMIC",
+    "defaultvalue": 0,
+    "displayName": "STAT_HIGHEST_SCORE_ECONOMIC"
+  },
+  {
+    "name": "STAT_HIGHEST_SCORE_TECHNOLOGY",
+    "defaultvalue": 0,
+    "displayName": "STAT_HIGHEST_SCORE_TECHNOLOGY"
+  },
+  {
+    "name": "STAT_HIGHEST_SCORE_SOCIETY",
+    "defaultvalue": 0,
+    "displayName": "STAT_HIGHEST_SCORE_SOCIETY"
+  },
+  {
+    "name": "STAT_CAREER_UNITS_KILLED",
+    "defaultvalue": 0,
+    "displayName": "STAT_CAREER_UNITS_KILLED"
+  },
+  {
+    "name": "STAT_CAREER_UNITS_LOST",
+    "defaultvalue": 0,
+    "displayName": "STAT_CAREER_UNITS_LOST"
+  },
+  {
+    "name": "STAT_CAREER_UNITS_CONVERTED",
+    "defaultvalue": 0,
+    "displayName": "STAT_CAREER_UNITS_CONVERTED"
+  },
+  {
+    "name": "STAT_CAREER_BUILDINGS_RAZED",
+    "defaultvalue": 0,
+    "displayName": "STAT_CAREER_BUILDINGS_RAZED"
+  },
+  {
+    "name": "STAT_CAREER_BUILDINGS_LOST",
+    "defaultvalue": 0,
+    "displayName": "STAT_CAREER_BUILDINGS_LOST"
+  },
+  {
+    "name": "STAT_CAREER_NUM_WONDERS",
+    "defaultvalue": 0,
+    "displayName": "STAT_CAREER_NUM_WONDERS"
+  },
+  {
+    "name": "STAT_CAREER_NUM_CASTLES",
+    "defaultvalue": 0,
+    "displayName": "STAT_CAREER_NUM_CASTLES"
+  },
+  {
+    "name": "STAT_ELO",
+    "defaultvalue": 1400,
+    "displayName": "STAT_ELO"
+  },
+  {
+    "name": "STAT_GAMES_PLAYED_OFFLINE",
+    "defaultvalue": 0,
+    "displayName": "STAT_GAMES_PLAYED_OFFLINE"
+  },
+  {
+    "name": "STAT_GAMES_PLAYED_ONLINE",
+    "defaultvalue": 0,
+    "displayName": "STAT_GAMES_PLAYED_ONLINE"
+  },
+  {
+    "name": "STAT_GAMES_PLAYED_RANDOM",
+    "defaultvalue": 0,
+    "displayName": "STAT_GAMES_PLAYED_RANDOM"
+  },
+  {
+    "name": "STAT_GAMES_PLAYED_TURBO",
+    "defaultvalue": 0,
+    "displayName": "STAT_GAMES_PLAYED_TURBO"
+  },
+  {
+    "name": "STAT_GAMES_PLAYED_DEATHMATCH",
+    "defaultvalue": 0,
+    "displayName": "STAT_GAMES_PLAYED_DEATHMATCH"
+  },
+  {
+    "name": "STAT_GAMES_PLAYED_SCENARIO",
+    "defaultvalue": 0,
+    "displayName": "STAT_GAMES_PLAYED_SCENARIO"
+  },
+  {
+    "name": "STAT_GAMES_PLAYED_KINGOFHILL",
+    "defaultvalue": 0,
+    "displayName": "STAT_GAMES_PLAYED_KINGOFHILL"
+  },
+  {
+    "name": "STAT_GAMES_PLAYED_WONDERRACE",
+    "defaultvalue": 0,
+    "displayName": "STAT_GAMES_PLAYED_WONDERRACE"
+  },
+  {
+    "name": "STAT_GAMES_PLAYED_DEFENDWONDER",
+    "defaultvalue": 0,
+    "displayName": "STAT_GAMES_PLAYED_DEFENDWONDER"
+  },
+  {
+    "name": "STAT_CAREER_MAX_CPUS_DEFEATED",
+    "defaultvalue": 0,
+    "displayName": "STAT_CAREER_MAX_CPUS_DEFEATED"
+  },
+  {
+    "name": "STAT_DEFEATED_BRITONS",
+    "defaultvalue": 0,
+    "displayName": "STAT_DEFEATED_BRITONS"
+  },
+  {
+    "name": "STAT_DEFEATED_FRANKS",
+    "defaultvalue": 0,
+    "displayName": "STAT_DEFEATED_FRANKS"
+  },
+  {
+    "name": "STAT_DEFEATED_GOTHS",
+    "defaultvalue": 0,
+    "displayName": "STAT_DEFEATED_GOTHS"
+  },
+  {
+    "name": "STAT_DEFEATED_TEUTONS",
+    "defaultvalue": 0,
+    "displayName": "STAT_DEFEATED_TEUTONS"
+  },
+  {
+    "name": "STAT_DEFEATED_JAPANESE",
+    "defaultvalue": 0,
+    "displayName": "STAT_DEFEATED_JAPANESE"
+  },
+  {
+    "name": "STAT_DEFEATED_CHINESE",
+    "defaultvalue": 0,
+    "displayName": "STAT_DEFEATED_CHINESE"
+  },
+  {
+    "name": "STAT_DEFEATED_BYZANTINES",
+    "defaultvalue": 0,
+    "displayName": "STAT_DEFEATED_BYZANTINES"
+  },
+  {
+    "name": "STAT_DEFEATED_PERSIANS",
+    "defaultvalue": 0,
+    "displayName": "STAT_DEFEATED_PERSIANS"
+  },
+  {
+    "name": "STAT_DEFEATED_SARACENS",
+    "defaultvalue": 0,
+    "displayName": "STAT_DEFEATED_SARACENS"
+  },
+  {
+    "name": "STAT_DEFEATED_TURKS",
+    "defaultvalue": 0,
+    "displayName": "STAT_DEFEATED_TURKS"
+  },
+  {
+    "name": "STAT_DEFEATED_VIKINGS",
+    "defaultvalue": 0,
+    "displayName": "STAT_DEFEATED_VIKINGS"
+  },
+  {
+    "name": "STAT_DEFEATED_MONGOLS",
+    "defaultvalue": 0,
+    "displayName": "STAT_DEFEATED_MONGOLS"
+  },
+  {
+    "name": "STAT_DEFEATED_CELTS",
+    "defaultvalue": 0,
+    "displayName": "STAT_DEFEATED_CELTS"
+  },
+  {
+    "name": "STAT_DEFEATED_SPANISH",
+    "defaultvalue": 0,
+    "displayName": "STAT_DEFEATED_SPANISH"
+  },
+  {
+    "name": "STAT_DEFEATED_AZTECS",
+    "defaultvalue": 0,
+    "displayName": "STAT_DEFEATED_AZTECS"
+  },
+  {
+    "name": "STAT_DEFEATED_MAYANS",
+    "defaultvalue": 0,
+    "displayName": "STAT_DEFEATED_MAYANS"
+  },
+  {
+    "name": "STAT_DEFEATED_HUNS",
+    "defaultvalue": 0,
+    "displayName": "STAT_DEFEATED_HUNS"
+  },
+  {
+    "name": "STAT_DEFEATED_KOREANS",
+    "defaultvalue": 0,
+    "displayName": "STAT_DEFEATED_KOREANS"
+  },
+  {
+    "name": "STAT_DEFEATED_ITALIANS",
+    "defaultvalue": 0,
+    "displayName": "STAT_DEFEATED_ITALIANS"
+  },
+  {
+    "name": "STAT_DEFEATED_INDIANS",
+    "defaultvalue": 0,
+    "displayName": "STAT_DEFEATED_INDIANS"
+  },
+  {
+    "name": "STAT_DEFEATED_INCAS",
+    "defaultvalue": 0,
+    "displayName": "STAT_DEFEATED_INCAS"
+  },
+  {
+    "name": "STAT_DEFEATED_MAGYAR",
+    "defaultvalue": 0,
+    "displayName": "STAT_DEFEATED_MAGYAR"
+  },
+  {
+    "name": "STAT_DEFEATED_SLAVS",
+    "defaultvalue": 0,
+    "displayName": "STAT_DEFEATED_SLAVS"
+  },
+  {
+    "name": "STAT_DEFEATED_PORTUGUESE",
+    "defaultvalue": 0,
+    "displayName": "STAT_DEFEATED_PORTUGUESE"
+  },
+  {
+    "name": "STAT_DEFEATED_ETHIOPIANS",
+    "defaultvalue": 0,
+    "displayName": "STAT_DEFEATED_ETHIOPIANS"
+  },
+  {
+    "name": "STAT_DEFEATED_MALIANS",
+    "defaultvalue": 0,
+    "displayName": "STAT_DEFEATED_MALIANS"
+  },
+  {
+    "name": "STAT_DEFEATED_BERBERS",
+    "defaultvalue": 0,
+    "displayName": "STAT_DEFEATED_BERBERS"
+  },
+  {
+    "name": "STAT_DEFEATED_KHMER",
+    "defaultvalue": 0,
+    "displayName": "STAT_DEFEATED_KHMER"
+  },
+  {
+    "name": "STAT_DEFEATED_MALAY",
+    "defaultvalue": 0,
+    "displayName": "STAT_DEFEATED_MALAY"
+  },
+  {
+    "name": "STAT_DEFEATED_BURMESE",
+    "defaultvalue": 0,
+    "displayName": "STAT_DEFEATED_BURMESE"
+  },
+  {
+    "name": "STAT_DEFEATED_VIETNAMESE",
+    "defaultvalue": 0,
+    "displayName": "STAT_DEFEATED_VIETNAMESE"
+  },
+  {
+    "name": "STAT_DEFEATED_BULGARIANS",
+    "defaultvalue": 0,
+    "displayName": "STAT_DEFEATED_BULGARIANS"
+  },
+  {
+    "name": "STAT_DEFEATED_TATARS",
+    "defaultvalue": 0,
+    "displayName": "STAT_DEFEATED_TATARS"
+  },
+  {
+    "name": "STAT_DEFEATED_CUMANS",
+    "defaultvalue": 0,
+    "displayName": "STAT_DEFEATED_CUMANS"
+  },
+  {
+    "name": "STAT_DEFEATED_RANDOM",
+    "defaultvalue": 0,
+    "displayName": "STAT_DEFEATED_CUMANS"
+  },
+  {
+    "name": "STAT_SINGLEBATTLE_UNITS_KILLED",
+    "defaultvalue": 0,
+    "displayName": "STAT_SINGLEBATTLE_UNITS_KILLED"
+  },
+  {
+    "name": "STAT_SINGLEBATTLE_UNITS_LOST",
+    "defaultvalue": 0,
+    "displayName": "STAT_SINGLEBATTLE_UNITS_LOST"
+  },
+  {
+    "name": "STAT_SINGLEBATTLE_UNITS_CONVERTED",
+    "defaultvalue": 0,
+    "displayName": "STAT_SINGLEBATTLE_UNITS_CONVERTED"
+  },
+  {
+    "name": "STAT_SINGLEBATTLE_BUILDINGS_RAZED",
+    "defaultvalue": 0,
+    "displayName": "STAT_SINGLEBATTLE_BUILDINGS_RAZED"
+  },
+  {
+    "name": "STAT_SINGLEBATTLE_BUILDINGS_LOST",
+    "defaultvalue": 0,
+    "displayName": "STAT_SINGLEBATTLE_BUILDINGS_LOST"
+  },
+  {
+    "name": "STAT_SINGLEBATTLE_NUM_WONDERS",
+    "defaultvalue": 0,
+    "displayName": "STAT_SINGLEBATTLE_NUM_WONDERS"
+  },
+  {
+    "name": "STAT_SINGLEBATTLE_NUM_CASTLES",
+    "defaultvalue": 0,
+    "displayName": "STAT_SINGLEBATTLE_NUM_CASTLES"
+  },
+  {
+    "name": "STAT_CAMPAIGN_COMPLETE_WALLACE",
+    "defaultvalue": 0,
+    "displayName": "STAT_CAMPAIGN_COMPLETE_WALLACE"
+  },
+  {
+    "name": "STAT_CAMPAIGN_COMPLETE_JOANARC",
+    "defaultvalue": 0,
+    "displayName": "STAT_CAMPAIGN_COMPLETE_JOANARC"
+  },
+  {
+    "name": "STAT_CAMPAIGN_COMPLETE_SALADON",
+    "defaultvalue": 0,
+    "displayName": "STAT_CAMPAIGN_COMPLETE_SALADON"
+  },
+  {
+    "name": "STAT_CAMPAIGN_COMPLETE_KHAN",
+    "defaultvalue": 0,
+    "displayName": "STAT_CAMPAIGN_COMPLETE_KHAN"
+  },
+  {
+    "name": "STAT_CAMPAIGN_COMPLETE_BARBAROSSA",
+    "defaultvalue": 0,
+    "displayName": "STAT_CAMPAIGN_COMPLETE_BARBAROSSA"
+  },
+  {
+    "name": "STAT_CAMPAIGN_COMPLETE_ATTILA",
+    "defaultvalue": 0,
+    "displayName": "STAT_CAMPAIGN_COMPLETE_ATTILA"
+  },
+  {
+    "name": "STAT_CAMPAIGN_COMPLETE_ELCID",
+    "defaultvalue": 0,
+    "displayName": "STAT_CAMPAIGN_COMPLETE_ELCID"
+  },
+  {
+    "name": "STAT_CAMPAIGN_COMPLETE_MONTEZUMA",
+    "defaultvalue": 0,
+    "displayName": "STAT_CAMPAIGN_COMPLETE_MONTEZUMA"
+  },
+  {
+    "name": "STAT_CAMPAIGN_COMPLETE_CONQUERERS",
+    "defaultvalue": 0,
+    "displayName": "STAT_CAMPAIGN_COMPLETE_CONQUERERS"
+  },
+  {
+    "name": "STAT_CAMPAIGN_COMPLETED_ALL",
+    "defaultvalue": 0,
+    "displayName": "STAT_CAMPAIGN_COMPLETED_ALL"
+  },
+  {
+    "name": "STAT_ELO_DM",
+    "defaultvalue": 1600,
+    "displayName": "STAT_ELO_DM"
+  },
+  {
+    "name": "STAT_ELO_DM_UTC",
+    "defaultvalue": 0,
+    "displayName": "STAT_ELO_DM_UTC"
+  },
+  {
+    "name": "STAT_ELO_DM_BEGIN",
+    "defaultvalue": 0,
+    "displayName": "STAT_ELO_DM_BEGIN"
+  },
+  {
+    "name": "STAT_ELO_DM_END",
+    "defaultvalue": 0,
+    "displayName": "STAT_ELO_DM_END"
+  },
+  {
+    "name": "STAT_ELO_DM_WINS",
+    "defaultvalue": 0,
+    "displayName": "STAT_ELO_DM_WINS"
+  },
+  {
+    "name": "STAT_ELO_RM",
+    "defaultvalue": 1600,
+    "displayName": "STAT_ELO_RM"
+  },
+  {
+    "name": "STAT_ELO_RM_UTC",
+    "defaultvalue": 0,
+    "displayName": "STAT_ELO_RM_UTC"
+  },
+  {
+    "name": "STAT_ELO_RM_BEGIN",
+    "defaultvalue": 0,
+    "displayName": "STAT_ELO_RM_BEGIN"
+  },
+  {
+    "name": "STAT_ELO_RM_END",
+    "defaultvalue": 0,
+    "displayName": "STAT_ELO_RM_END"
+  },
+  {
+    "name": "STAT_ELO_RM_WINS",
+    "defaultvalue": 0,
+    "displayName": "STAT_ELO_RM_WINS"
+  },
+  {
+    "name": "STAT_ELO_XDM",
+    "defaultvalue": 1600,
+    "displayName": "STAT_ELO_XDM"
+  },
+  {
+    "name": "STAT_ELO_XDM_UTC",
+    "defaultvalue": 0,
+    "displayName": "STAT_ELO_XDM_UTC"
+  },
+  {
+    "name": "STAT_ELO_XDM_BEGIN",
+    "defaultvalue": 0,
+    "displayName": "STAT_ELO_XDM_BEGIN"
+  },
+  {
+    "name": "STAT_ELO_XDM_END",
+    "defaultvalue": 0,
+    "displayName": "STAT_ELO_XDM_END"
+  },
+  {
+    "name": "STAT_ELO_XDM_WINS",
+    "defaultvalue": 0,
+    "displayName": "STAT_ELO_XDM_WINS"
+  },
+  {
+    "name": "STAT_ELO_XRM",
+    "defaultvalue": 1600,
+    "displayName": "STAT_ELO_XRM"
+  },
+  {
+    "name": "STAT_ELO_XRM_UTC",
+    "defaultvalue": 0,
+    "displayName": "STAT_ELO_XRM_UTC"
+  },
+  {
+    "name": "STAT_ELO_XRM_BEGIN",
+    "defaultvalue": 0,
+    "displayName": "STAT_ELO_XRM_BEGIN"
+  },
+  {
+    "name": "STAT_ELO_XRM_END",
+    "defaultvalue": 0,
+    "displayName": "STAT_ELO_XRM_END"
+  },
+  {
+    "name": "STAT_ELO_XRM_WINS",
+    "defaultvalue": 0,
+    "displayName": "STAT_ELO_XRM_WINS"
+  },
+  {
+    "name": "STAT_OVERALL_GAME_STARTS",
+    "defaultvalue": 0,
+    "displayName": "STAT_OVERALL_GAME_STARTS"
+  },
+  {
+    "name": "STAT_OVERALL_STDSTARTS",
+    "defaultvalue": 0,
+    "displayName": "STAT_OVERALL_STDSTARTS"
+  },
+  {
+    "name": "STAT_OVERALL_CAMPSTARTS",
+    "defaultvalue": 0,
+    "displayName": "STAT_OVERALL_CAMPSTARTS"
+  },
+  {
+    "name": "STAT_OVERALL_MPSTARTS",
+    "defaultvalue": 0,
+    "displayName": "STAT_OVERALL_MPSTARTS"
+  },
+  {
+    "name": "STAT_OVERALL_MP_2P_TOTAL",
+    "defaultvalue": 0,
+    "displayName": "STAT_OVERALL_MP_2P_TOTAL"
+  },
+  {
+    "name": "STAT_OVERALL_MP_XP_TOTAL",
+    "defaultvalue": 0,
+    "displayName": "STAT_OVERALL_MP_XP_TOTAL"
+  },
+  {
+    "name": "STAT_OVERALL_MP_NOTEAM_TOTAL",
+    "defaultvalue": 0,
+    "displayName": "STAT_OVERALL_MP_NOTEAM_TOTAL"
+  },
+  {
+    "name": "STAT_OVERALL_MP_TEAM_TOTAL",
+    "defaultvalue": 0,
+    "displayName": "STAT_OVERALL_MP_TEAM_TOTAL"
+  },
+  {
+    "name": "STAT_OVERALL_MP_STARTS_1",
+    "defaultvalue": 0,
+    "displayName": "STAT_OVERALL_MP_STARTS_1"
+  },
+  {
+    "name": "STAT_OVERALL_MP_WITH_SPECTATOR_TOTAL_1",
+    "defaultvalue": 0,
+    "displayName": "STAT_OVERALL_MP_WITH_SPECTATOR_TOTAL_1"
+  },
+  {
+    "name": "STAT_OVERALL_MP_RANKED_TOTAL_1",
+    "defaultvalue": 0,
+    "displayName": "STAT_OVERALL_MP_RANKED_TOTAL_1"
+  },
+  {
+    "name": "STAT_CAREER_CONVERTED_BY_MISSIONARIES",
+    "defaultvalue": 0,
+    "displayName": "STAT_CAREER_CONVERTED_BY_MISSIONARIES"
+  },
+  {
+    "name": "STAT_CAREER_KILLED_BY_DEMOS",
+    "defaultvalue": 0,
+    "displayName": "STAT_CAREER_KILLED_BY_DEMOS"
+  },
+  {
+    "name": "STAT_CAREER_KILLED_BY_TREBS",
+    "defaultvalue": 0,
+    "displayName": "STAT_CAREER_KILLED_BY_TREBS"
+  },
+  {
+    "name": "STAT_CAREER_KILLED_BY_MANGOS",
+    "defaultvalue": 0,
+    "displayName": "STAT_CAREER_KILLED_BY_MANGOS"
+  },
+  {
+    "name": "STAT_CAREER_DESTROYED_BY_TARKANS",
+    "defaultvalue": 0,
+    "displayName": "STAT_CAREER_DESTROYED_BY_TARKANS"
+  },
+  {
+    "name": "STAT_CAREER_DESTROYED_BY_RAMS",
+    "defaultvalue": 0,
+    "displayName": "STAT_CAREER_DESTROYED_BY_RAMS"
+  },
+  {
+    "name": "STAT_CAREER_CASTLES_DESTROYED",
+    "defaultvalue": 0,
+    "displayName": "STAT_CAREER_CASTLES_DESTROYED"
+  },
+  {
+    "name": "STAT_VICTORY_LITHUANIANS",
+    "defaultvalue": 0,
+    "displayName": "STAT_VICTORY_LITHUANIANS"
+  },
+  {
+    "name": "STAT_DEFEATED_LITHUANIANS",
+    "defaultvalue": 0,
+    "displayName": "STAT_DEFEATED_LITHUANIANS"
+  },
+  {
+    "name": "STAT_TREBS_BUILT",
+    "defaultvalue": 0,
+    "displayName": "STAT_TREBS_BUILT"
+  },
+  {
+    "name": "STAT_CONDOTTIERO_TRAINED",
+    "defaultvalue": 0,
+    "displayName": "STAT_CONDOTTIERO_TRAINED"
+  },
+  {
+    "name": "STAT_FARMS_BUILT",
+    "defaultvalue": 0,
+    "displayName": "STAT_FARMS_BUILT"
+  },
+  {
+    "name": "STAT_RELICS_COLLECTED",
+    "defaultvalue": 0,
+    "displayName": "STAT_RELICS_COLLECTED"
+  },
+  {
+    "name": "STAT_VILLAGERS_KILLED_BY_MILITIA_IN_DARK_AGE",
+    "defaultvalue": 0,
+    "displayName": "STAT_VILLAGERS_KILLED_BY_MILITIA_IN_DARK_AGE"
+  },
+  {
+    "name": "STAT_CHU_KO_NU_ARROWS_FIRED",
+    "defaultvalue": 0,
+    "displayName": "STAT_CHU_KO_NU_ARROWS_FIRED"
+  },
+  {
+    "name": "STAT_KESHIK_GOLD",
+    "defaultvalue": 0,
+    "displayName": "STAT_KESHIK_GOLD"
+  },
+  {
+    "name": "STAT_SINCE_NAVALBATTLE_FISHING_OVERALL_SPFINISHS",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "STAT_NAVALBATTLE_SP",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "STAT_NAVALBATTLE_CIV_VIKINGS",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "STAT_FISHING_SP",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "STAT_FISHING_CIV_VIKINGS",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "STAT_POP_CAP_200_SP",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "STAT_POP_PEAK_200_SP",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "STAT_PLAYED_Coastal",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "STAT_SINCE_NAVALBATTLE_FISHING_OVERALL_MPFINISHS",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "STAT_FISHING_MP",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "STAT_FISHING_CIV_BURMESE",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "STAT_POP_CAP_200_MP",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "STAT_POP_PEAK_200_MP",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "STAT_FISHING_CIV_BRITONS",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "STAT_FISHING_CIV_FRANKS",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "STAT_FISHING_CIV_GOTHS",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "STAT_FISHING_CIV_TEUTONS",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "STAT_FISHING_CIV_JAPANESE",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "STAT_FISHING_CIV_CHINESE",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "STAT_FISHING_CIV_BYZANTINES",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "STAT_FISHING_CIV_PERSIANS",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "STAT_FISHING_CIV_SARACENS",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "STAT_FISHING_CIV_TURKS",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "STAT_FISHING_CIV_MONGOLS",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "STAT_FISHING_CIV_CELTS",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "STAT_FISHING_CIV_SPANISH",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "STAT_FISHING_CIV_AZTECS",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "STAT_FISHING_CIV_MAYANS",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "STAT_FISHING_CIV_HUNS",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "STAT_FISHING_CIV_KOREANS",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "STAT_FISHING_CIV_ITALIANS",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "STAT_FISHING_CIV_INDIANS",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "STAT_FISHING_CIV_INCAS",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "STAT_FISHING_CIV_MAGYAR",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "STAT_FISHING_CIV_SLAVS",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "STAT_FISHING_CIV_PORTUGUESE",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "STAT_FISHING_CIV_ETHIOPIANS",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "STAT_FISHING_CIV_MALIANS",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "STAT_FISHING_CIV_BERBERS",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "STAT_FISHING_CIV_KHMER",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "STAT_FISHING_CIV_MALAY",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "STAT_FISHING_CIV_VIETNAMESE",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "STAT_FISHING_CIV_BULGARIANS",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "STAT_FISHING_CIV_TATARS",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "STAT_FISHING_CIV_CUMANS",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "STAT_FISHING_CIV_LITHUANIANS",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "STAT_FISHING_CIV_RANDOM",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "STAT_NAVALBATTLE_MP",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "STAT_NAVALBATTLE_CIV_BRITONS",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "STAT_NAVALBATTLE_CIV_FRANKS",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "STAT_NAVALBATTLE_CIV_GOTHS",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "STAT_NAVALBATTLE_CIV_TEUTONS",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "STAT_NAVALBATTLE_CIV_JAPANESE",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "STAT_NAVALBATTLE_CIV_CHINESE",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "STAT_NAVALBATTLE_CIV_BYZANTINES",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "STAT_NAVALBATTLE_CIV_PERSIANS",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "STAT_NAVALBATTLE_CIV_SARACENS",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "STAT_NAVALBATTLE_CIV_TURKS",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "STAT_NAVALBATTLE_CIV_MONGOLS",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "STAT_NAVALBATTLE_CIV_CELTS",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "STAT_NAVALBATTLE_CIV_SPANISH",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "STAT_NAVALBATTLE_CIV_AZTECS",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "STAT_NAVALBATTLE_CIV_MAYANS",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "STAT_NAVALBATTLE_CIV_HUNS",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "STAT_NAVALBATTLE_CIV_KOREANS",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "STAT_NAVALBATTLE_CIV_ITALIANS",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "STAT_NAVALBATTLE_CIV_INDIANS",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "STAT_NAVALBATTLE_CIV_INCAS",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "STAT_NAVALBATTLE_CIV_MAGYAR",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "STAT_NAVALBATTLE_CIV_SLAVS",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "STAT_NAVALBATTLE_CIV_PORTUGUESE",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "STAT_NAVALBATTLE_CIV_ETHIOPIANS",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "STAT_NAVALBATTLE_CIV_MALIANS",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "STAT_NAVALBATTLE_CIV_BERBERS",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "STAT_NAVALBATTLE_CIV_KHMER",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "STAT_NAVALBATTLE_CIV_MALAY",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "STAT_NAVALBATTLE_CIV_BURMESE",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "STAT_NAVALBATTLE_CIV_VIETNAMESE",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "STAT_NAVALBATTLE_CIV_BULGARIANS",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "STAT_NAVALBATTLE_CIV_TATARS",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "STAT_NAVALBATTLE_CIV_LITHUANIANS",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "STAT_NAVALBATTLE_CIV_RANDOM",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "STAT_VICTORY_BURGUNDIANS",
+    "defaultvalue": 0,
+    "displayName": "STAT_VICTORY_BURGUNDIANS"
+  },
+  {
+    "name": "STAT_VICTORY_SICILIANS",
+    "defaultvalue": 0,
+    "displayName": "STAT_VICTORY_SICILIANS"
+  },
+  {
+    "name": "STAT_VICTORY_POLES",
+    "defaultvalue": 0,
+    "displayName": "STAT_VICTORY_POLES"
+  },
+  {
+    "name": "STAT_VICTORY_BOHEMIANS",
+    "defaultvalue": 0,
+    "displayName": "STAT_VICTORY_BOHEMIANS"
+  },
+  {
+    "name": "STAT_FAST_FOOD",
+    "defaultvalue": 0,
+    "displayName": "STAT_FAST_FOOD"
   }
-}
+]

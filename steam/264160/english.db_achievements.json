@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "name": "level10sT0",
     "defaultvalue": 0,
@@ -169,5 +169,23 @@
     "description": "Win the game on Nightmare III above level 7.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/264160/866a92642d3df5c8c6b57effdc1c33ca597b4cda.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/264160/f52b6f2e0c4d0761d854825259460818c197c8c8.jpg"
+  },
+  {
+    "name": "zapKillsB0",
+    "defaultvalue": 0,
+    "displayName": "Dead Shot",
+    "hidden": 0,
+    "description": "Kill 4 mobs with a single ranged wand attack.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/264160/6ea339ca9c5a830cd59d393a70d12d87b89b5068.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/264160/9a833225deac8ab15849690ae932ce7143cfbac4.jpg"
+  },
+  {
+    "name": "zapKillsB1",
+    "defaultvalue": 0,
+    "displayName": "Super Dead Shot",
+    "hidden": 0,
+    "description": "Kill 10 mobs with a single ranged wand attack.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/264160/b4b54943e24ff5346c327e8287648068f32c9cb7.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/264160/66ca57cfc6253ef0bd5002b0936b21c622c26698.jpg"
   }
 ]

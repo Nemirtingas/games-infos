@@ -1,10 +1,12 @@
-﻿{
-  "KILLS_KILLS": {
-    "description": "Enemies Killed",
-    "value": 0
+[
+  {
+    "name": "KILLS_KILLS",
+    "defaultvalue": 0,
+    "displayName": "Enemies Killed"
   },
-  "BOSSESKILLED_BOSSESKILLED": {
-    "description": "Dungeon Bosses Killed",
-    "value": 0
+  {
+    "name": "BOSSESKILLED_BOSSESKILLED",
+    "defaultvalue": 0,
+    "displayName": "Dungeon Bosses Killed"
   }
-}
+]

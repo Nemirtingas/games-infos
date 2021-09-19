@@ -1,14 +1,17 @@
-﻿{
-  "boxesOpened": {
-    "description": "Opened Boxes",
-    "value": 0
+[
+  {
+    "name": "boxesOpened",
+    "defaultvalue": 0,
+    "displayName": "Opened Boxes"
   },
-  "billions": {
-    "description": "",
-    "value": 0
+  {
+    "name": "billions",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "freshStarts": {
-    "description": "Prestiges",
-    "value": 0
+  {
+    "name": "freshStarts",
+    "defaultvalue": 0,
+    "displayName": "Prestiges"
   }
-}
+]

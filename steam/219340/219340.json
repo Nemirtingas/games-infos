@@ -1,31 +1,24 @@
-﻿{
+{
   "Dlcs": {
-    "234021": {
-      "Name": "The Banner Saga: Factions - Starter Pack",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/234021/header.jpg?t=1478028170"
-    },
-    "234022": {
-      "Name": "The Banner Saga: Factions - Pillage! Pack",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/234022/header.jpg?t=1478030354"
+    "234024": {
+      "Name": "The Banner Saga: Factions - Eternal Renown Boost",
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/234024/header.jpg?t=1613669071",
+      "Type": "dlc"
     },
     "234023": {
       "Name": "The Banner Saga: Factions - Variations Pack",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/234023/header.jpg?t=1478029569"
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/234023/header.jpg?t=1613669071",
+      "Type": "dlc"
     },
-    "234024": {
-      "Name": "The Banner Saga: Factions - Eternal Renown Boost",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/234024/header.jpg?t=1478029950"
+    "234022": {
+      "Name": "The Banner Saga: Factions - Pillage! Pack",
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/234022/header.jpg?t=1613669071",
+      "Type": "dlc"
+    },
+    "234021": {
+      "Name": "The Banner Saga: Factions - Starter Pack",
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/234021/header.jpg?t=1613669071",
+      "Type": "dlc"
     }
-  },
-  "Name": "The Banner Saga: Factions",
-  "AppId": "219340",
-  "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/219340/header.jpg?t=1478029085",
-  "Languages": [
-    "english"
-  ],
-  "Platforms": {
-    "windows": true,
-    "mac": true,
-    "linux": false
   }
 }

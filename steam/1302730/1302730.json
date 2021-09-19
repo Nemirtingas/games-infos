@@ -1,14 +1,9 @@
 {
-  "Dlcs": {},
-  "Name": "Nebula Within",
-  "AppId": "1302730",
-  "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/1302730/header.jpg?t=1601146627",
-  "Languages": [
-    "english"
-  ],
-  "Platforms": {
-    "windows": true,
-    "mac": false,
-    "linux": false
+  "Dlcs": {
+    "1507460": {
+      "Name": "Nebula Within Soundtrack",
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1507460/header.jpg?t=1611909333",
+      "Type": "music"
+    }
   }
 }

@@ -1,242 +1,302 @@
-﻿{
-  "Kills": {
-    "description": "Kills",
-    "value": 0
+[
+  {
+    "name": "Kills",
+    "defaultvalue": 0,
+    "displayName": "Kills"
   },
-  "Deaths": {
-    "description": "Deaths",
-    "value": 0
+  {
+    "name": "Deaths",
+    "defaultvalue": 0,
+    "displayName": "Deaths"
   },
-  "Assists": {
-    "description": "Assists",
-    "value": 0
+  {
+    "name": "Assists",
+    "defaultvalue": 0,
+    "displayName": "Assists"
   },
-  "Dashes": {
-    "description": "Dashes",
-    "value": 0
+  {
+    "name": "Dashes",
+    "defaultvalue": 0,
+    "displayName": "Dashes"
   },
-  "Best_Kill_Strike": {
-    "description": "Best Kill Strike",
-    "value": 0
+  {
+    "name": "Best_Kill_Strike",
+    "defaultvalue": 0,
+    "displayName": "Best Kill Strike"
   },
-  "Num_Matches": {
-    "description": "Matches Played",
-    "value": 0
+  {
+    "name": "Num_Matches",
+    "defaultvalue": 0,
+    "displayName": "Matches Played"
   },
-  "Num_Matches_W": {
-    "description": "Games Won",
-    "value": 0
+  {
+    "name": "Num_Matches_W",
+    "defaultvalue": 0,
+    "displayName": "Games Won"
   },
-  "Num_Matches_L": {
-    "description": "Games Lost",
-    "value": 0
+  {
+    "name": "Num_Matches_L",
+    "defaultvalue": 0,
+    "displayName": "Games Lost"
   },
-  "Default_Hero": {
-    "description": "Default_Hero",
-    "value": 0
+  {
+    "name": "Default_Hero",
+    "defaultvalue": 0,
+    "displayName": "Default_Hero"
   },
-  "Default_Ability1": {
-    "description": "Default_Ability1",
-    "value": 0
+  {
+    "name": "Default_Ability1",
+    "defaultvalue": 0,
+    "displayName": "Default_Ability1"
   },
-  "Default_Ability2": {
-    "description": "Default_Ability2",
-    "value": 0
+  {
+    "name": "Default_Ability2",
+    "defaultvalue": 0,
+    "displayName": "Default_Ability2"
   },
-  "Default_Ability3": {
-    "description": "Default_Ability3",
-    "value": 0
+  {
+    "name": "Default_Ability3",
+    "defaultvalue": 0,
+    "displayName": "Default_Ability3"
   },
-  "Experience": {
-    "description": "Score",
-    "value": 0
+  {
+    "name": "Experience",
+    "defaultvalue": 0,
+    "displayName": "Score"
   },
-  "Medal_1": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Medal_1",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Medal_2": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Medal_2",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Medal_3": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Medal_3",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Medal_4": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Medal_4",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Medal_5": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Medal_5",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Medal_6": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Medal_6",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Medal_7": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Medal_7",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Medal_8": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Medal_8",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Medal_9": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Medal_9",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Medal_10": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Medal_10",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Medal_11": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Medal_11",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Medal_12": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Medal_12",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Medal_13": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Medal_13",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Medal_14": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Medal_14",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Medal_15": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Medal_15",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Medal_16": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Medal_16",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Medal_17": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Medal_17",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Medal_18": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Medal_18",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Medal_19": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Medal_19",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Medal_20": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Medal_20",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Medal_21": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Medal_21",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Medal_22": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Medal_22",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Medal_23": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Medal_23",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Medal_24": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Medal_24",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Medal_25": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Medal_25",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Medal_26": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Medal_26",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Medal_27": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Medal_27",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Medal_28": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Medal_28",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Medal_29": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Medal_29",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Medal_30": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Medal_30",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Rolls": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Rolls",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Teleports": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Teleports",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Damage_Received": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Damage_Received",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Hills_Conquered": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Hills_Conquered",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Time_Gameplay": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Time_Gameplay",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Time_Sprinting": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Time_Sprinting",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Time_Flying": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Time_Flying",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Teamwork": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Teamwork",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Global_Kills": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Global_Kills",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Global_Deaths": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Global_Deaths",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Global_Num_Matches": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Global_Num_Matches",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Global_Damage_Received": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Global_Damage_Received",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Global_Time_Gameplay": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Global_Time_Gameplay",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Damage_Done": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Damage_Done",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Jumps": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Jumps",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Game_Version": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Game_Version",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "ELO": {
-    "description": "",
-    "value": 0
+  {
+    "name": "ELO",
+    "defaultvalue": 0,
+    "displayName": ""
   }
-}
+]

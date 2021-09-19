@@ -1,14 +1,17 @@
-﻿{
-  "ENEMY_DEFEATED": {
-    "description": "",
-    "value": 0
+[
+  {
+    "name": "ENEMY_DEFEATED",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "ENEMY_DEFEATED_GUN": {
-    "description": "",
-    "value": 0
+  {
+    "name": "ENEMY_DEFEATED_GUN",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "ENEMY_DEFEATED_BOSS": {
-    "description": "",
-    "value": 0
+  {
+    "name": "ENEMY_DEFEATED_BOSS",
+    "defaultvalue": 0,
+    "displayName": ""
   }
-}
+]

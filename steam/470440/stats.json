@@ -1,78 +1,97 @@
-﻿{
-  "stat_gamesPlayed": {
-    "description": "Games Played",
-    "value": 0
+[
+  {
+    "name": "stat_gamesPlayed",
+    "defaultvalue": 0,
+    "displayName": "Games Played"
   },
-  "stat_puzzLvlComp": {
-    "description": "Puzzle Levels Completed",
-    "value": 0
+  {
+    "name": "stat_puzzLvlComp",
+    "defaultvalue": 0,
+    "displayName": "Puzzle Levels Completed"
   },
-  "stat_combLvlComp": {
-    "description": "Combo Levels Completed",
-    "value": 0
+  {
+    "name": "stat_combLvlComp",
+    "defaultvalue": 0,
+    "displayName": "Combo Levels Completed"
   },
-  "stat_stockLvlComp": {
-    "description": "Stock Levels Completed",
-    "value": 0
+  {
+    "name": "stat_stockLvlComp",
+    "defaultvalue": 0,
+    "displayName": "Stock Levels Completed"
   },
-  "stat_custLvlComp": {
-    "description": "Custom Levels Completed",
-    "value": 0
+  {
+    "name": "stat_custLvlComp",
+    "defaultvalue": 0,
+    "displayName": "Custom Levels Completed"
   },
-  "stat_medals": {
-    "description": "Medals",
-    "value": 0
+  {
+    "name": "stat_medals",
+    "defaultvalue": 0,
+    "displayName": "Medals"
   },
-  "stat_medalsGold": {
-    "description": "Gold Medals",
-    "value": 0
+  {
+    "name": "stat_medalsGold",
+    "defaultvalue": 0,
+    "displayName": "Gold Medals"
   },
-  "stat_levelsPublished": {
-    "description": "Levels Published",
-    "value": 0
+  {
+    "name": "stat_levelsPublished",
+    "defaultvalue": 0,
+    "displayName": "Levels Published"
   },
-  "stat_blocksDestroyed": {
-    "description": "Blocks Destroyed",
-    "value": 0
+  {
+    "name": "stat_blocksDestroyed",
+    "defaultvalue": 0,
+    "displayName": "Blocks Destroyed"
   },
-  "stat_pieces": {
-    "description": "Pieces Placed",
-    "value": 0
+  {
+    "name": "stat_pieces",
+    "defaultvalue": 0,
+    "displayName": "Pieces Placed"
   },
-  "stat_lines10": {
-    "description": "Extra Points Lines",
-    "value": 0
+  {
+    "name": "stat_lines10",
+    "defaultvalue": 0,
+    "displayName": "Extra Points Lines"
   },
-  "stat_lines20": {
-    "description": "20+ Blocks Extra Points Lines",
-    "value": 0
+  {
+    "name": "stat_lines20",
+    "defaultvalue": 0,
+    "displayName": "20+ Blocks Extra Points Lines"
   },
-  "stat_lines30": {
-    "description": "30 Blocks Extra Points Lines",
-    "value": 0
+  {
+    "name": "stat_lines30",
+    "defaultvalue": 0,
+    "displayName": "30 Blocks Extra Points Lines"
   },
-  "stat_bonuses": {
-    "description": "Bonuses Used",
-    "value": 0
+  {
+    "name": "stat_bonuses",
+    "defaultvalue": 0,
+    "displayName": "Bonuses Used"
   },
-  "stat_highTime": {
-    "description": "Highest Time Attack Score",
-    "value": 0
+  {
+    "name": "stat_highTime",
+    "defaultvalue": 0,
+    "displayName": "Highest Time Attack Score"
   },
-  "stat_highFree": {
-    "description": "Highest Free Play Score",
-    "value": 0
+  {
+    "name": "stat_highFree",
+    "defaultvalue": 0,
+    "displayName": "Highest Free Play Score"
   },
-  "stat_longCombo": {
-    "description": "Longest Combo",
-    "value": 0
+  {
+    "name": "stat_longCombo",
+    "defaultvalue": 0,
+    "displayName": "Longest Combo"
   },
-  "stat_highCombo": {
-    "description": "Highest Combo Score",
-    "value": 0
+  {
+    "name": "stat_highCombo",
+    "defaultvalue": 0,
+    "displayName": "Highest Combo Score"
   },
-  "stat_lifelines": {
-    "description": "Lifelines Used",
-    "value": 0
+  {
+    "name": "stat_lifelines",
+    "defaultvalue": 0,
+    "displayName": "Lifelines Used"
   }
-}
+]

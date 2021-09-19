@@ -1,14 +1,17 @@
-﻿{
-  "COMPLETE_VENTRUE": {
-    "description": "",
-    "value": 0
+[
+  {
+    "name": "COMPLETE_VENTRUE",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "COMPLETE_BRUJAH": {
-    "description": "",
-    "value": 0
+  {
+    "name": "COMPLETE_BRUJAH",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "COMPLETE_TOREADOR": {
-    "description": "",
-    "value": 0
+  {
+    "name": "COMPLETE_TOREADOR",
+    "defaultvalue": 0,
+    "displayName": ""
   }
-}
+]

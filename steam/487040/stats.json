@@ -1,62 +1,77 @@
-﻿{
-  "played_games": {
-    "description": "Games Played",
-    "value": 0
+[
+  {
+    "name": "played_games",
+    "defaultvalue": 0,
+    "displayName": "Games Played"
   },
-  "perfect_rounds": {
-    "description": "Perfect Rounds this Game",
-    "value": 0
+  {
+    "name": "perfect_rounds",
+    "defaultvalue": 0,
+    "displayName": "Perfect Rounds this Game"
   },
-  "high_score": {
-    "description": "Highscore",
-    "value": 0
+  {
+    "name": "high_score",
+    "defaultvalue": 0,
+    "displayName": "Highscore"
   },
-  "hero_killed": {
-    "description": "Heroes Killed Total",
-    "value": 0
+  {
+    "name": "hero_killed",
+    "defaultvalue": 0,
+    "displayName": "Heroes Killed Total"
   },
-  "all_hero_total": {
-    "description": "All Heroes Killed Total",
-    "value": 0
+  {
+    "name": "all_hero_total",
+    "defaultvalue": 0,
+    "displayName": "All Heroes Killed Total"
   },
-  "same_hero_total": {
-    "description": "Same Hero Killed Total",
-    "value": 0
+  {
+    "name": "same_hero_total",
+    "defaultvalue": 0,
+    "displayName": "Same Hero Killed Total"
   },
-  "enemy_kill": {
-    "description": "Enemies Killed Total",
-    "value": 0
+  {
+    "name": "enemy_kill",
+    "defaultvalue": 0,
+    "displayName": "Enemies Killed Total"
   },
-  "enemy_game_kill": {
-    "description": "Enemies Killed this Game",
-    "value": 0
+  {
+    "name": "enemy_game_kill",
+    "defaultvalue": 0,
+    "displayName": "Enemies Killed this Game"
   },
-  "most_heroes_remaining": {
-    "description": "Most Heroes Remaining",
-    "value": 0
+  {
+    "name": "most_heroes_remaining",
+    "defaultvalue": 0,
+    "displayName": "Most Heroes Remaining"
   },
-  "quickest_completion_time": {
-    "description": "Quickest Completion Time",
-    "value": 0
+  {
+    "name": "quickest_completion_time",
+    "defaultvalue": 0,
+    "displayName": "Quickest Completion Time"
   },
-  "coins_collected": {
-    "description": "Coins Collected",
-    "value": 0
+  {
+    "name": "coins_collected",
+    "defaultvalue": 0,
+    "displayName": "Coins Collected"
   },
-  "small_coins_collected": {
-    "description": "Small Coins Collected",
-    "value": 0
+  {
+    "name": "small_coins_collected",
+    "defaultvalue": 0,
+    "displayName": "Small Coins Collected"
   },
-  "large_coins_collected": {
-    "description": "Large Coins Collected",
-    "value": 0
+  {
+    "name": "large_coins_collected",
+    "defaultvalue": 0,
+    "displayName": "Large Coins Collected"
   },
-  "blocks_destroyed": {
-    "description": "Blocks Destroyed this Game",
-    "value": 0
+  {
+    "name": "blocks_destroyed",
+    "defaultvalue": 0,
+    "displayName": "Blocks Destroyed this Game"
   },
-  "game_progress": {
-    "description": "Game Progress",
-    "value": 0
+  {
+    "name": "game_progress",
+    "defaultvalue": 0,
+    "displayName": "Game Progress"
   }
-}
+]

@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "name": "FIRST_STEP",
     "defaultvalue": 0,
@@ -178,5 +178,53 @@
     "description": "Win 1000 Battles with Marcella",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1092150/3282dd1e4b0554f668a48c3171fda8a0ba47fa95.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1092150/8d31e655cd1332c672192744f1f8dd4931e7877c.jpg"
+  },
+  {
+    "name": "full_house",
+    "defaultvalue": 0,
+    "displayName": "Full House",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1092150/",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1092150/"
+  },
+  {
+    "name": "deidad",
+    "defaultvalue": 0,
+    "displayName": "A NEW GOD",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1092150/",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1092150/"
+  },
+  {
+    "name": "max_hero",
+    "defaultvalue": 0,
+    "displayName": "FIRST 10 LEVEL",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1092150/",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1092150/"
+  },
+  {
+    "name": "max_all_hero",
+    "defaultvalue": 0,
+    "displayName": "ALL MAX",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1092150/",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1092150/"
+  },
+  {
+    "name": "villano",
+    "defaultvalue": 0,
+    "displayName": "YOU ARE THE VILLAIN",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1092150/",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1092150/"
+  },
+  {
+    "name": "hero",
+    "defaultvalue": 0,
+    "displayName": "TRUE HERO",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1092150/",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1092150/"
   }
 ]

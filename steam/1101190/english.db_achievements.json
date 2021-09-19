@@ -1,11 +1,11 @@
-﻿[
+[
   {
     "name": "Award.Achievement.Test1",
     "defaultvalue": 0,
-    "displayName": "Test achievement",
+    "displayName": "Baby Steps",
     "hidden": 1,
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1101190/",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1101190/"
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1101190/632ed2b7463746e1d1b764146923dd61ed2019c7.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1101190/55d0848bdb698779fdcd5becb62127e4d3a259d1.jpg"
   },
   {
     "name": "Award.Achievement.FromtheDepths",
@@ -663,5 +663,167 @@
     "description": "Completed all Challenges on Massacre Difficulty!",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1101190/3ba029761983f236f50952ab8b60b26b9164afa6.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1101190/fba52e835a0adea9602276bb88928d706f7dbd21.jpg"
+  },
+  {
+    "name": "Award.Achievement.OverTheRiver",
+    "defaultvalue": 0,
+    "displayName": "Over The River",
+    "hidden": 0,
+    "description": "Completed all Act 4 maps on any difficulty setting.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1101190/e9cfff84972dd82923092d060ec79ffe07575fee.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1101190/26fe65344c3149cea66e5cf6e3fe015978f0a856.jpg"
+  },
+  {
+    "name": "Award.Achievement.ThroughTheWoods",
+    "defaultvalue": 0,
+    "displayName": "Through the Woods",
+    "hidden": 0,
+    "description": "Completed all Act 4 maps on Hard.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1101190/9c2af6fb240791701ed651a598072b0c8232373b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1101190/65b2a085381fe4fad0ed90a6470dde4c68adc133.jpg"
+  },
+  {
+    "name": "Award.Achievement.ToTheKeepWeGo",
+    "defaultvalue": 0,
+    "displayName": "To The Keep We Go",
+    "hidden": 0,
+    "description": "Completed all Act 4 maps on Insane.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1101190/7fc4c7ef7ff5f5dc04efed8c02e3a871273c23d5.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1101190/7a021877ac451d3699b397e1a8705fab935fbd09.jpg"
+  },
+  {
+    "name": "Award.Achievement.HungryLikeTheWolf",
+    "defaultvalue": 0,
+    "displayName": "Hungry Like The Wolf",
+    "hidden": 0,
+    "description": "Completed all Act 4 maps on Nightmare.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1101190/fa553f077fc426376333957236bb7065fc508a61.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1101190/a8c47a9539ed2b12e95a2f67251d77e1d4a04f5f.jpg"
+  },
+  {
+    "name": "Award.Achievement.BarkAtTheMoon",
+    "defaultvalue": 0,
+    "displayName": "Bark At The Moon",
+    "hidden": 0,
+    "description": "Completed all Act 4 maps on Massacre.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1101190/78c96091f41b65c0ca5446518467424e8d19194c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1101190/99681648519962a01ecb327a9e9bbcf37e2a8b86.jpg"
+  },
+  {
+    "name": "Award.Achievement.DemonNovice",
+    "defaultvalue": 0,
+    "displayName": "Demon Novice",
+    "hidden": 0,
+    "description": "Completed Test of the Demon I",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1101190/61ff1bc1cc49596437f45ce6ba323d3161d734e8.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1101190/afd0977ff3b0427f24aba516193d9fb7873af6f5.jpg"
+  },
+  {
+    "name": "Award.Achievement.DemonVeteran",
+    "defaultvalue": 0,
+    "displayName": "Demon Veteran",
+    "hidden": 0,
+    "description": "Completed Test of the Demon II",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1101190/11e9008ac1cbee554ef27227549e9a667bcc6097.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1101190/ae23fd8f3f31552fce0990a54338d1a48e8316b0.jpg"
+  },
+  {
+    "name": "Award.Achievement.DemonMaster",
+    "defaultvalue": 0,
+    "displayName": "Demon Master",
+    "hidden": 0,
+    "description": "Completed Test of the Demon III",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1101190/418aee5629336dbd19e5d19b9cf4c83ec6486daa.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1101190/f0125e5e1f475889131fa881f92859c482b0fdcb.jpg"
+  },
+  {
+    "name": "Award.Achievement.MechNovice",
+    "defaultvalue": 0,
+    "displayName": "Mech Novice",
+    "hidden": 0,
+    "description": "Completed Test of the Mech I",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1101190/6d1d92cdaec04c0b0d8ae25acec74ba20702a5e0.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1101190/724ca3aa84b524ddb473745c8ac6f6af00096025.jpg"
+  },
+  {
+    "name": "Award.Achievement.MechVeteran",
+    "defaultvalue": 0,
+    "displayName": "Mech Veteran",
+    "hidden": 0,
+    "description": "Completed Test of the Mech II",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1101190/b4b6b2f5bdc2a7558d614b41f44750ffca08bc0e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1101190/8467d881419abfcb481877d07a4cedfd42a1f0be.jpg"
+  },
+  {
+    "name": "Award.Achievement.MechMaster",
+    "defaultvalue": 0,
+    "displayName": "Mech Master",
+    "hidden": 0,
+    "description": "Completed Test of the Mech III",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1101190/5cd26d088fb251527b8c0d5c37ba4d6a96594e0f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1101190/ab50d2f5725f325b4d897aaaad73296257cdd2ae.jpg"
+  },
+  {
+    "name": "Award.Achievement.AncientNovice",
+    "defaultvalue": 0,
+    "displayName": "Ancient Novice",
+    "hidden": 0,
+    "description": "Completed Test of the Ancient I",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1101190/275d563aa5b1696cef0cc122c1ec9029d113607e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1101190/e02b0061ba7665810838271dd45409e168e673e4.jpg"
+  },
+  {
+    "name": "Award.Achievement.AncientVeteran",
+    "defaultvalue": 0,
+    "displayName": "Ancient Veteran",
+    "hidden": 0,
+    "description": "Completed Test of the Ancient II",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1101190/bfb54da9e3190976573f80a459d0f954a86bf802.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1101190/b3b6b55e3c1d64b288fcbd416ca9e54d3515c42f.jpg"
+  },
+  {
+    "name": "Award.Achievement.AncientMaster",
+    "defaultvalue": 0,
+    "displayName": "Ancient Master",
+    "hidden": 0,
+    "description": "Completed Test of the Ancient III",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1101190/084f8ce8f3d5baec62708e2a14fff9f6d6b2d10a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1101190/dc6e2ce24a7e96247fbc2d9b4686c5df8b6b7374.jpg"
+  },
+  {
+    "name": "Award.Achievement.LycanHunter",
+    "defaultvalue": 0,
+    "displayName": "Lycan Hunter",
+    "hidden": 0,
+    "description": "Achieved Nightmare Survival Victory on every Act 4 mission.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1101190/2d103cea67d015299e7afce6b6b15f2105619fcc.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1101190/a910a55a666d1ec9d691f34767a90dea68d16c28.jpg"
+  },
+  {
+    "name": "Award.Achievement.LycanConqueror",
+    "defaultvalue": 0,
+    "displayName": "Lycan Conqueror",
+    "hidden": 0,
+    "description": "Achieved Massacre Survival Victory on every Act 4 mission.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1101190/71fdb18df00fb98793f49eec6261dc2b474b1f86.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1101190/f53c0844c604b9a6161ca8da60c1b2370e34cc30.jpg"
+  },
+  {
+    "name": "Award.Achievement.Experienced",
+    "defaultvalue": 0,
+    "displayName": "Experienced I",
+    "hidden": 0,
+    "description": "Reached Hero Level 105!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1101190/791ff5cb866636d2bec1833e46818de910972be6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1101190/61f8cc291f274d7d11a0dfee63336def139e5a09.jpg"
+  },
+  {
+    "name": "Award.Achievement.Teamwork",
+    "defaultvalue": 0,
+    "displayName": "Teamwork I",
+    "hidden": 0,
+    "description": "Raised a Hero of each type to Level 105! Including EV, Rogue and Warden!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1101190/becac68fbae6671e0d3d5494538a1020c4f938fd.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1101190/66d87e6044f9396a2f402633e3ce350ce3365be2.jpg"
   }
 ]

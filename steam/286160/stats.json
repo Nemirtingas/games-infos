@@ -1,34 +1,42 @@
-﻿{
-  "STAT_CHANGE_COLOR": {
-    "description": "Wishy Washy",
-    "value": 0
+[
+  {
+    "name": "STAT_CHANGE_COLOR",
+    "defaultvalue": 0,
+    "displayName": "Wishy Washy"
   },
-  "STAT_FLIP_TABLE": {
-    "description": "Flip Table",
-    "value": 0
+  {
+    "name": "STAT_FLIP_TABLE",
+    "defaultvalue": 0,
+    "displayName": "Flip Table"
   },
-  "STAT_SPAWN_CHIPS": {
-    "description": "Money, Money, Money",
-    "value": 0
+  {
+    "name": "STAT_SPAWN_CHIPS",
+    "defaultvalue": 0,
+    "displayName": "Money, Money, Money"
   },
-  "STAT_SAVE_ITEMS_TO_CHEST": {
-    "description": "Treasure Trove",
-    "value": 0
+  {
+    "name": "STAT_SAVE_ITEMS_TO_CHEST",
+    "defaultvalue": 0,
+    "displayName": "Treasure Trove"
   },
-  "STAT_LOCK_ITEMS": {
-    "description": "Don’t Touch!",
-    "value": 0
+  {
+    "name": "STAT_LOCK_ITEMS",
+    "defaultvalue": 0,
+    "displayName": "Don’t Touch!"
   },
-  "STAT_TINT_OBJECTS": {
-    "description": "Color me pretty",
-    "value": 0
+  {
+    "name": "STAT_TINT_OBJECTS",
+    "defaultvalue": 0,
+    "displayName": "Color me pretty"
   },
-  "STAT_UPLOAD_STEAM_WORKSHOP_ITEMS": {
-    "description": "Sharing is Caring",
-    "value": 0
+  {
+    "name": "STAT_UPLOAD_STEAM_WORKSHOP_ITEMS",
+    "defaultvalue": 0,
+    "displayName": "Sharing is Caring"
   },
-  "STAT_HOURS_PLAYED": {
-    "description": "Hours Played",
-    "value": 0
+  {
+    "name": "STAT_HOURS_PLAYED",
+    "defaultvalue": 0,
+    "displayName": "Hours Played"
   }
-}
+]

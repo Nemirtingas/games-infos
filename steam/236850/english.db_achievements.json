@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "name": "achievement_for_the_glory",
     "defaultvalue": 0,
@@ -1759,7 +1759,7 @@
     "defaultvalue": 0,
     "displayName": "Cities of Cibola",
     "hidden": 0,
-    "description": "As Pueblo, own at least seven provinces with 10 development each.",
+    "description": "As a Nation that has Pueblo as primary culture, own at least 7 provinces with 10 development each.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/236850/1567a2b55d811eec980722939290dc48c8ef0012.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/236850/5b2d4f18f97367f993d314007c6eedd4d681cc2f.jpg"
   },
@@ -2788,5 +2788,77 @@
     "description": "As either the Papal States or the Emperor, have the Papal States as an Elector while the HRE is officially Catholic.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/236850/88478221e036c38c43b2f94adef9f10c402c6251.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/236850/71a2aed5eea49742d6d7d12d07c89c1121f64d83.jpg"
+  },
+  {
+    "name": "achievement_wonderful",
+    "defaultvalue": 0,
+    "displayName": "Wonderful",
+    "hidden": 0,
+    "description": "Own 8 different monuments on tier 3.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/236850/f7e5b98141a9124e649323b8afa9aa87a3d4b5f8.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/236850/7cf54abb2ff6994d627fde517bc5762b18f635c0.jpg"
+  },
+  {
+    "name": "achievement_spice_girls",
+    "defaultvalue": 0,
+    "displayName": "Spice Girls",
+    "hidden": 0,
+    "description": "Having a female ruler, have active trading bonuses for Cloves, Spices, Salt and Sugar.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/236850/866b1205b15c7bed45b0cdb47827a83bc4253f13.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/236850/b9e65d8ed522ae1bce557a8f4b70650470cefd4f.jpg"
+  },
+  {
+    "name": "achievement_to_the_bone",
+    "defaultvalue": 0,
+    "displayName": "To the Bone",
+    "hidden": 0,
+    "description": "As Bone, use pillage capital at least 7 times.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/236850/2861e2f0acf4927abd3497ceee85e0121d47ca9f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/236850/7c4ff3410d1eaca7042bc6b65b9e85f9ae3d56c3.jpg"
+  },
+  {
+    "name": "achievement_keep_the_flame_burning",
+    "defaultvalue": 0,
+    "displayName": "Keep the Flame Burning",
+    "hidden": 0,
+    "description": "As a Zoroastrian nation, own all Religious Centers and Monument Baku Ateshgah on tier 3.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/236850/4a196ed95adad50c4fc9e46ad8c9012c6e7fa393.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/236850/ac0dc0b8a904d40d1a81efa9a16be334ce7f7bdc.jpg"
+  },
+  {
+    "name": "achievement_new_new_deli",
+    "defaultvalue": 0,
+    "displayName": "New, New Deli",
+    "hidden": 0,
+    "description": "As Deli, have your capital in the Delhi province.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/236850/ed0d741caa5211a5c08db8340294762579877139.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/236850/c2ff23ceb819add2fb85b3cf9d5fdd68d29d032d.jpg"
+  },
+  {
+    "name": "achievement_the_power_of_three",
+    "defaultvalue": 0,
+    "displayName": "The Power of Three",
+    "hidden": 0,
+    "description": "Own a Crown Colony, a Self-Governing Colony and a Private Enterprise.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/236850/0ff43ee10618e0387da4cef8d77f647db4095861.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/236850/ae0c597412c6ca8896fcfb40f8c139cd4748bb53.jpg"
+  },
+  {
+    "name": "achievement_quizquiz_pro_quo",
+    "defaultvalue": 0,
+    "displayName": "Quizquiz Pro Quo",
+    "hidden": 0,
+    "description": "As Quizquiz, have your capital in the Anjou province.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/236850/1189dd49b716bbdcf7e74227fade59432286ae91.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/236850/128cd0939882db107d7f8794644ce8104b369a63.jpg"
+  },
+  {
+    "name": "achievement_thats_no_mon",
+    "defaultvalue": 0,
+    "displayName": "That's No Mon",
+    "hidden": 0,
+    "description": "As Pegu, own at least 50 provinces that are not of the Mon culture.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/236850/dd50ef3e05af914e505d10f5f55b72775bc12820.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/236850/f7f8eac06ff320c7e407df6dfd7dca26e08d9197.jpg"
   }
 ]

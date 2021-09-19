@@ -1,110 +1,137 @@
-﻿{
-  "Stat_ClearTutorial": {
-    "description": "ClearTutorial",
-    "value": 0
+[
+  {
+    "name": "Stat_ClearTutorial",
+    "defaultvalue": 0,
+    "displayName": "ClearTutorial"
   },
-  "Stat_LevelProgress": {
-    "description": "Level Progress",
-    "value": 0
+  {
+    "name": "Stat_LevelProgress",
+    "defaultvalue": 0,
+    "displayName": "Level Progress"
   },
-  "Stat_DeathCount": {
-    "description": "DeathCount",
-    "value": 0
+  {
+    "name": "Stat_DeathCount",
+    "defaultvalue": 0,
+    "displayName": "DeathCount"
   },
-  "Stat_SuicideCount": {
-    "description": "SuicideCount",
-    "value": 0
+  {
+    "name": "Stat_SuicideCount",
+    "defaultvalue": 0,
+    "displayName": "SuicideCount"
   },
-  "Stat_PaperBallWaterDeath": {
-    "description": "PaperBall Die in Water",
-    "value": 0
+  {
+    "name": "Stat_PaperBallWaterDeath",
+    "defaultvalue": 0,
+    "displayName": "PaperBall Die in Water"
   },
-  "Stat_JumpBoardDeath": {
-    "description": "Die in JumpBoard",
-    "value": 0
+  {
+    "name": "Stat_JumpBoardDeath",
+    "defaultvalue": 0,
+    "displayName": "Die in JumpBoard"
   },
-  "Stat_JumpBoardJump": {
-    "description": "Jump in JumpBoard",
-    "value": 0
+  {
+    "name": "Stat_JumpBoardJump",
+    "defaultvalue": 0,
+    "displayName": "Jump in JumpBoard"
   },
-  "Stat_OnceJumpBoardJump": {
-    "description": "Jump in Jumpboard count in 1 level",
-    "value": 0
+  {
+    "name": "Stat_OnceJumpBoardJump",
+    "defaultvalue": 0,
+    "displayName": "Jump in Jumpboard count in 1 level"
   },
-  "Stat_Durability10Count": {
-    "description": "Clear Level With 10HP",
-    "value": 0
+  {
+    "name": "Stat_Durability10Count",
+    "defaultvalue": 0,
+    "displayName": "Clear Level With 10HP"
   },
-  "Stat_Durability5Count": {
-    "description": "Clear Level With 5HP",
-    "value": 0
+  {
+    "name": "Stat_Durability5Count",
+    "defaultvalue": 0,
+    "displayName": "Clear Level With 5HP"
   },
-  "Stat_Durability1Count": {
-    "description": "Clear Level With 1HP",
-    "value": 0
+  {
+    "name": "Stat_Durability1Count",
+    "defaultvalue": 0,
+    "displayName": "Clear Level With 1HP"
   },
-  "Stat_MaxDurabilityCount": {
-    "description": "Clear Level With 100HP",
-    "value": 0
+  {
+    "name": "Stat_MaxDurabilityCount",
+    "defaultvalue": 0,
+    "displayName": "Clear Level With 100HP"
   },
-  "Stat_Velocity500Count": {
-    "description": "Speed Higher Than 500m/s",
-    "value": 0
+  {
+    "name": "Stat_Velocity500Count",
+    "defaultvalue": 0,
+    "displayName": "Speed Higher Than 500m/s"
   },
-  "Stat_Velocity1000Count": {
-    "description": "Speed Higher Than 1000m/s",
-    "value": 0
+  {
+    "name": "Stat_Velocity1000Count",
+    "defaultvalue": 0,
+    "displayName": "Speed Higher Than 1000m/s"
   },
-  "Stat_Velocity50ClearCount": {
-    "description": "Clear Level Lower Than 50m/s",
-    "value": 0
+  {
+    "name": "Stat_Velocity50ClearCount",
+    "defaultvalue": 0,
+    "displayName": "Clear Level Lower Than 50m/s"
   },
-  "Stat_Velocity30ClearCount": {
-    "description": "Clear Level Lower Than 30m/s",
-    "value": 0
+  {
+    "name": "Stat_Velocity30ClearCount",
+    "defaultvalue": 0,
+    "displayName": "Clear Level Lower Than 30m/s"
   },
-  "Stat_Level": {
-    "description": "Your Lv.",
-    "value": 0
+  {
+    "name": "Stat_Level",
+    "defaultvalue": 0,
+    "displayName": "Your Lv."
   },
-  "Stat_Gem": {
-    "description": "Gem Count",
-    "value": 0
+  {
+    "name": "Stat_Gem",
+    "defaultvalue": 0,
+    "displayName": "Gem Count"
   },
-  "Stat_TNTExplode": {
-    "description": "Detonate TNT",
-    "value": 0
+  {
+    "name": "Stat_TNTExplode",
+    "defaultvalue": 0,
+    "displayName": "Detonate TNT"
   },
-  "Stat_ExtraBallDeath": {
-    "description": "Other Objects Fall Down",
-    "value": 0
+  {
+    "name": "Stat_ExtraBallDeath",
+    "defaultvalue": 0,
+    "displayName": "Other Objects Fall Down"
   },
-  "Stat_IceBallMinScaleCount": {
-    "description": "IceBall Melts to Minimum",
-    "value": 0
+  {
+    "name": "Stat_IceBallMinScaleCount",
+    "defaultvalue": 0,
+    "displayName": "IceBall Melts to Minimum"
   },
-  "Stat_FireWoodBall": {
-    "description": "Fire WoodenBall",
-    "value": 0
+  {
+    "name": "Stat_FireWoodBall",
+    "defaultvalue": 0,
+    "displayName": "Fire WoodenBall"
   },
-  "Stat_PaperBallFireTNT": {
-    "description": "Detonate TNT by PaperBall",
-    "value": 0
+  {
+    "name": "Stat_PaperBallFireTNT",
+    "defaultvalue": 0,
+    "displayName": "Detonate TNT by PaperBall"
   },
-  "Stat_SingleRail": {
-    "description": "Roll in the Single Rail",
-    "value": 0
+  {
+    "name": "Stat_SingleRail",
+    "defaultvalue": 0,
+    "displayName": "Roll in the Single Rail"
   },
-  "Stat_ScoreBallChaseMaxTime": {
-    "description": "Score Ball Chasing Time",
-    "value": 0
+  {
+    "name": "Stat_ScoreBallChaseMaxTime",
+    "defaultvalue": 0,
+    "displayName": "Score Ball Chasing Time"
   },
-  "Stat_NoExtraBallClearCount": {
-    "description": "Don't Touch Any Supply",
-    "value": 0
+  {
+    "name": "Stat_NoExtraBallClearCount",
+    "defaultvalue": 0,
+    "displayName": "Don't Touch Any Supply"
   },
-  "Stat_MaxClearTime": {
-    "description": "Maximum Clear Time",
-    "value": 0
+  {
+    "name": "Stat_MaxClearTime",
+    "defaultvalue": 0,
+    "displayName": "Maximum Clear Time"
   }
-}
+]

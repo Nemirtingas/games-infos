@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "name": "triple-kills",
     "defaultvalue": 0,
@@ -541,6 +541,11 @@
   },
   {
     "name": "kills-from-weapon-p99",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "kills-from-weapon-ak105bullpup",
     "defaultvalue": 0,
     "displayName": ""
   }

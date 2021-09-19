@@ -2,12 +2,18 @@
   "Dlcs": {
     "1150940": {
       "Name": "Unrailed! - Supporter Pack",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/1150940/header.jpg?t=1582213685"
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1150940/header.jpg?t=1611579323",
+      "Type": "dlc"
+    },
+    "1150930": {
+      "Name": "Unrailed! - Soundtrack",
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1150930/header.jpg?t=1605195811",
+      "Type": "music"
     }
   },
   "Name": "Unrailed!",
   "AppId": "1016920",
-  "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/1016920/header.jpg?t=1600436827",
+  "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1016920/header.jpg?t=1621889117",
   "Languages": [
     "english",
     "french",
@@ -22,7 +28,8 @@
     "japanese",
     "polish",
     "turkish",
-    "latam"
+    "latam",
+    "czech"
   ],
   "Platforms": {
     "windows": true,

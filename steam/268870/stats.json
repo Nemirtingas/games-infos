@@ -1,46 +1,57 @@
-﻿{
-  "CIVS_KILLED": {
-    "description": "Civs Killed",
-    "value": 0
+[
+  {
+    "name": "CIVS_KILLED",
+    "defaultvalue": 0,
+    "displayName": "Civs Killed"
   },
-  "CORPS_KILLED": {
-    "description": "",
-    "value": 0
+  {
+    "name": "CORPS_KILLED",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "RUSSIANS_KILLED": {
-    "description": "",
-    "value": 0
+  {
+    "name": "RUSSIANS_KILLED",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "ETERNALS_KILLED": {
-    "description": "",
-    "value": 0
+  {
+    "name": "ETERNALS_KILLED",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "DISCONNECTED_KILLED": {
-    "description": "",
-    "value": 0
+  {
+    "name": "DISCONNECTED_KILLED",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "ENEMIES_KILLED": {
-    "description": "",
-    "value": 0
+  {
+    "name": "ENEMIES_KILLED",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "POLICE_KILLED": {
-    "description": "",
-    "value": 0
+  {
+    "name": "POLICE_KILLED",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "ENEMIES_KILLED_BY_HIJACKED": {
-    "description": "",
-    "value": 0
+  {
+    "name": "ENEMIES_KILLED_BY_HIJACKED",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "CLOAKED_KILLSSTAT": {
-    "description": "",
-    "value": 0
+  {
+    "name": "CLOAKED_KILLSSTAT",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "MELEE_KILLSSTAT": {
-    "description": "",
-    "value": 0
+  {
+    "name": "MELEE_KILLSSTAT",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "ACHIEVEMENTS": {
-    "description": "",
-    "value": 0
+  {
+    "name": "ACHIEVEMENTS",
+    "defaultvalue": 0,
+    "displayName": ""
   }
-}
+]

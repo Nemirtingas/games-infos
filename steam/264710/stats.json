@@ -1,14 +1,17 @@
-﻿{
-  "s1_AllTimeDepth": {
-    "description": "Max all time depth",
-    "value": 0
+[
+  {
+    "name": "s1_AllTimeDepth",
+    "defaultvalue": 0,
+    "displayName": "Max all time depth"
   },
-  "s2_HasTank": {
-    "description": "Player has crafted tank",
-    "value": 0
+  {
+    "name": "s2_HasTank",
+    "defaultvalue": 0,
+    "displayName": "Player has crafted tank"
   },
-  "s3_FeedbackSubmit": {
-    "description": "Player has submitted feedback",
-    "value": 0
+  {
+    "name": "s3_FeedbackSubmit",
+    "defaultvalue": 0,
+    "displayName": "Player has submitted feedback"
   }
-}
+]

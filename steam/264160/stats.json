@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "name": "games_knight",
     "defaultvalue": 0,
@@ -111,6 +111,41 @@
   },
   {
     "name": "depth_3000",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "branch_alpha",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "play_time",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "play_time_default",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "play_time_alpha",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "play_time_alpha_previous",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "play_time_other",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "branch_beta",
     "defaultvalue": 0,
     "displayName": ""
   }

@@ -1,42 +1,52 @@
-﻿{
-  "TrainsDestroyed": {
-    "description": "Trains Destroyed",
-    "value": 0
+[
+  {
+    "name": "TrainsDestroyed",
+    "defaultvalue": 0,
+    "displayName": "Trains Destroyed"
   },
-  "WinsLeaderboard_WinCount": {
-    "description": "WinCount",
-    "value": 0
+  {
+    "name": "WinsLeaderboard_WinCount",
+    "defaultvalue": 0,
+    "displayName": "WinCount"
   },
-  "CriticalHits": {
-    "description": "Critical Hits",
-    "value": 0
+  {
+    "name": "CriticalHits",
+    "defaultvalue": 0,
+    "displayName": "Critical Hits"
   },
-  "GlancingHits": {
-    "description": "Glancing Hits",
-    "value": 0
+  {
+    "name": "GlancingHits",
+    "defaultvalue": 0,
+    "displayName": "Glancing Hits"
   },
-  "MatchesWon": {
-    "description": "Matches Won",
-    "value": 0
+  {
+    "name": "MatchesWon",
+    "defaultvalue": 0,
+    "displayName": "Matches Won"
   },
-  "MatchesLost": {
-    "description": "Matches Lost",
-    "value": 0
+  {
+    "name": "MatchesLost",
+    "defaultvalue": 0,
+    "displayName": "Matches Lost"
   },
-  "TrainsLost": {
-    "description": "Trains Lost",
-    "value": 0
+  {
+    "name": "TrainsLost",
+    "defaultvalue": 0,
+    "displayName": "Trains Lost"
   },
-  "PentumMined": {
-    "description": "Pentum Mined",
-    "value": 0
+  {
+    "name": "PentumMined",
+    "defaultvalue": 0,
+    "displayName": "Pentum Mined"
   },
-  "PlatinumMined": {
-    "description": "Platinum Mined",
-    "value": 0
+  {
+    "name": "PlatinumMined",
+    "defaultvalue": 0,
+    "displayName": "Platinum Mined"
   },
-  "LongestHordeSurvived": {
-    "description": "Longest Horde Survived",
-    "value": 0
+  {
+    "name": "LongestHordeSurvived",
+    "defaultvalue": 0,
+    "displayName": "Longest Horde Survived"
   }
-}
+]

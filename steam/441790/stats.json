@@ -1,58 +1,72 @@
-﻿{
-  "percent": {
-    "description": "Percent",
-    "value": 0
+[
+  {
+    "name": "percent",
+    "defaultvalue": 0,
+    "displayName": "Percent"
   },
-  "KILLSETLANGS_KILLSETLANGS": {
-    "description": "Setlang Kills",
-    "value": 0
+  {
+    "name": "KILLSETLANGS_KILLSETLANGS",
+    "defaultvalue": 0,
+    "displayName": "Setlang Kills"
   },
-  "KILLLURKERS_KILLLURKERS": {
-    "description": "Lurker Kills",
-    "value": 0
+  {
+    "name": "KILLLURKERS_KILLLURKERS",
+    "defaultvalue": 0,
+    "displayName": "Lurker Kills"
   },
-  "KILLCALPRATES_KILLCALPRATES": {
-    "description": "Calprates Kills",
-    "value": 0
+  {
+    "name": "KILLCALPRATES_KILLCALPRATES",
+    "defaultvalue": 0,
+    "displayName": "Calprates Kills"
   },
-  "KILLDROSERA_KILLDROSERA": {
-    "description": "Drosera Kills",
-    "value": 0
+  {
+    "name": "KILLDROSERA_KILLDROSERA",
+    "defaultvalue": 0,
+    "displayName": "Drosera Kills"
   },
-  "KILLHELLTYR_KILLHELLTYR": {
-    "description": "Helltyr Kills",
-    "value": 0
+  {
+    "name": "KILLHELLTYR_KILLHELLTYR",
+    "defaultvalue": 0,
+    "displayName": "Helltyr Kills"
   },
-  "KILLJABBERBULL_KILLJABBERBULL": {
-    "description": "Jabberbull Kills",
-    "value": 0
+  {
+    "name": "KILLJABBERBULL_KILLJABBERBULL",
+    "defaultvalue": 0,
+    "displayName": "Jabberbull Kills"
   },
-  "KILLRHINOC_KILLRHINOC": {
-    "description": "Rhinoc Kills",
-    "value": 0
+  {
+    "name": "KILLRHINOC_KILLRHINOC",
+    "defaultvalue": 0,
+    "displayName": "Rhinoc Kills"
   },
-  "KILLROCHARUS_KILLROCHARUS": {
-    "description": "Rocharus Kills",
-    "value": 0
+  {
+    "name": "KILLROCHARUS_KILLROCHARUS",
+    "defaultvalue": 0,
+    "displayName": "Rocharus Kills"
   },
-  "KILLMUBARK_KILLMUBARK": {
-    "description": "Mubark Kills",
-    "value": 0
+  {
+    "name": "KILLMUBARK_KILLMUBARK",
+    "defaultvalue": 0,
+    "displayName": "Mubark Kills"
   },
-  "KILLPHOSPHORI_KILLPHOSPHORI": {
-    "description": "Phosphori Kills",
-    "value": 0
+  {
+    "name": "KILLPHOSPHORI_KILLPHOSPHORI",
+    "defaultvalue": 0,
+    "displayName": "Phosphori Kills"
   },
-  "KILLPLAYER_KILLPLAYER": {
-    "description": "PvP Kills",
-    "value": 0
+  {
+    "name": "KILLPLAYER_KILLPLAYER",
+    "defaultvalue": 0,
+    "displayName": "PvP Kills"
   },
-  "CRAFTER_CRAFTER": {
-    "description": "Crafts",
-    "value": 0
+  {
+    "name": "CRAFTER_CRAFTER",
+    "defaultvalue": 0,
+    "displayName": "Crafts"
   },
-  "REPAIRS_REPAIRS": {
-    "description": "Repairs",
-    "value": 0
+  {
+    "name": "REPAIRS_REPAIRS",
+    "defaultvalue": 0,
+    "displayName": "Repairs"
   }
-}
+]

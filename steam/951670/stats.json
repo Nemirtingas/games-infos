@@ -1,70 +1,87 @@
-﻿{
-  "NumSPGames": {
-    "description": "",
-    "value": 0
+[
+  {
+    "name": "NumSPGames",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "NumSPWins": {
-    "description": "",
-    "value": 0
+  {
+    "name": "NumSPWins",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "NumSPDefeats": {
-    "description": "",
-    "value": 0
+  {
+    "name": "NumSPDefeats",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "NumSPNukes": {
-    "description": "",
-    "value": 0
+  {
+    "name": "NumSPNukes",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "NumMPGames": {
-    "description": "",
-    "value": 0
+  {
+    "name": "NumMPGames",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "NumMPWins": {
-    "description": "",
-    "value": 0
+  {
+    "name": "NumMPWins",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "NumMPDefeats": {
-    "description": "",
-    "value": 0
+  {
+    "name": "NumMPDefeats",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "NumMPNukes": {
-    "description": "",
-    "value": 0
+  {
+    "name": "NumMPNukes",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "NumUS": {
-    "description": "",
-    "value": 0
+  {
+    "name": "NumUS",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "NumUSSR": {
-    "description": "",
-    "value": 0
+  {
+    "name": "NumUSSR",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "NumRank": {
-    "description": "",
-    "value": 1000
+  {
+    "name": "NumRank",
+    "defaultvalue": 1000,
+    "displayName": ""
   },
-  "BoolMedal1": {
-    "description": "",
-    "value": 0
+  {
+    "name": "BoolMedal1",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "BoolMedal2": {
-    "description": "",
-    "value": 0
+  {
+    "name": "BoolMedal2",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "BoolMedal3": {
-    "description": "",
-    "value": 0
+  {
+    "name": "BoolMedal3",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "BoolMedal4": {
-    "description": "",
-    "value": 0
+  {
+    "name": "BoolMedal4",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "BoolMedal5": {
-    "description": "",
-    "value": 0
+  {
+    "name": "BoolMedal5",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "BoolMedal6": {
-    "description": "",
-    "value": 0
+  {
+    "name": "BoolMedal6",
+    "defaultvalue": 0,
+    "displayName": ""
   }
-}
+]

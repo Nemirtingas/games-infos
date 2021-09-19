@@ -1,18 +1,22 @@
-﻿{
-  "FTW_KILLED_ENEMIES": {
-    "description": "",
-    "value": 0
+[
+  {
+    "name": "FTW_KILLED_ENEMIES",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "FTW_KILLED_WOLVES": {
-    "description": "",
-    "value": 0
+  {
+    "name": "FTW_KILLED_WOLVES",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "FTW_WIN_MATCH": {
-    "description": "",
-    "value": 0
+  {
+    "name": "FTW_WIN_MATCH",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "FTW_KILL_MELEE": {
-    "description": "",
-    "value": 0
+  {
+    "name": "FTW_KILL_MELEE",
+    "defaultvalue": 0,
+    "displayName": ""
   }
-}
+]

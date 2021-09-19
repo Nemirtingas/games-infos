@@ -1,38 +1,47 @@
-﻿{
-  "ExtortionsAttempted": {
-    "description": "",
-    "value": 0
+[
+  {
+    "name": "ExtortionsAttempted",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "DiplomacyAttempts": {
-    "description": "",
-    "value": 0
+  {
+    "name": "DiplomacyAttempts",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "PawnHPHealed": {
-    "description": "",
-    "value": 0
+  {
+    "name": "PawnHPHealed",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "MaxCrewLevelReached": {
-    "description": "",
-    "value": 0
+  {
+    "name": "MaxCrewLevelReached",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "MaxChaosLevelReached": {
-    "description": "",
-    "value": 0
+  {
+    "name": "MaxChaosLevelReached",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "TalentsUnlocked": {
-    "description": "",
-    "value": 0
+  {
+    "name": "TalentsUnlocked",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "JumpsCompleted": {
-    "description": "",
-    "value": 0
+  {
+    "name": "JumpsCompleted",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "CreditsSpentInSingleGame": {
-    "description": "",
-    "value": 0
+  {
+    "name": "CreditsSpentInSingleGame",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "BlindJumpCountInSingleGame": {
-    "description": "",
-    "value": 0
+  {
+    "name": "BlindJumpCountInSingleGame",
+    "defaultvalue": 0,
+    "displayName": ""
   }
-}
+]

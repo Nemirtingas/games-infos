@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "name": "100SHOTS_ACHIEVEMENT",
     "defaultvalue": 0,
@@ -558,5 +558,41 @@
     "description": "Go out of bounds 50 times",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/431240/de24f45882a9039a07b8b8e117de42c598991aae.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/431240/3a045b31455d06df52ad55afd8b4d1ad1cc999c7.jpg"
+  },
+  {
+    "name": "DEEPFULLGAME_ACHIEVEMENT",
+    "defaultvalue": 0,
+    "displayName": "Under the Sea",
+    "hidden": 0,
+    "description": "Play a full game of Deep on Classic",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/431240/78bc8ef7c2fdac342f5206d78191dcef987da38e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/431240/0f8360559bfb4928e09e48ef2be24871fa155759.jpg"
+  },
+  {
+    "name": "DEEPFULLGAMEHOOPS_ACHIEVEMENT",
+    "defaultvalue": 0,
+    "displayName": "Deep Dunker",
+    "hidden": 0,
+    "description": "Play a full game of Deep on Dunk",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/431240/4d193ece55442740af334516ac9e1889247f61e5.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/431240/9395e7b54a93373aeb299579dd93088c174faa2e.jpg"
+  },
+  {
+    "name": "DEEPFULLGAMEHOCKEY_ACHIEVEMENT",
+    "defaultvalue": 0,
+    "displayName": "Back of the Net",
+    "hidden": 0,
+    "description": "Play a full game of Deep on Hockey",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/431240/9a693b5637e16ddea1b4d8e635b061b5d7e3b9d7.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/431240/81e4784cdc5bd0aca99f532b98d10d79dd203e42.jpg"
+  },
+  {
+    "name": "DEEPPAR_ACHIEVEMENT",
+    "defaultvalue": 0,
+    "displayName": "Blacklight Boss",
+    "hidden": 0,
+    "description": "Get par or better on Deep Classic",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/431240/b7a44b22d67f68fda1e9716366832331462a8c09.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/431240/191af9402892580d7ae6ff8cf7a4153e20d74043.jpg"
   }
 ]

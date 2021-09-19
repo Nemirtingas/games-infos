@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "name": "FiveStraitsControlled",
     "defaultvalue": 0,
@@ -22,7 +22,7 @@
     "defaultvalue": 0,
     "displayName": "The Hammer to Fall",
     "hidden": 0,
-    "description": "As the USA, attain CONTROL (3+ INFLUENCE) of the Eastern European Theater.",
+    "description": "Attain at least 50% influence in the Eastern European Theater as the United States.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/745970/8fe3fbe48c1bab4c526dbc762f2725a329b95c9e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/745970/332aa54403f4e98fa3c554b8aed9be656a2f9e93.jpg"
   },
@@ -48,8 +48,7 @@
     "name": "FleshWound",
     "defaultvalue": 0,
     "displayName": "Just a Flesh Wound",
-    "hidden": 0,
-    "description": "Have a LEADER survive a critical failed ASSASSINATION attempt.",
+    "hidden": 1,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/745970/a706efffe7d516f48623642146736832dcf01da0.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/745970/edbb5bf3096c1bb9a71e85a4cf9af8b0649fe6f6.jpg"
   },
@@ -76,7 +75,7 @@
     "defaultvalue": 0,
     "displayName": "I'm Not the Greatest, I'm the Double Greatest",
     "hidden": 0,
-    "description": "Win two games in a row champ!",
+    "description": "Win two ranked games in a row champ!",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/745970/883f8353581f8b650ff0fb2952c0bbab66a7529f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/745970/1c793c3f4166a59c5bc458efbc4965aacadd86c7.jpg"
   },
@@ -84,8 +83,7 @@
     "name": "MyWay",
     "defaultvalue": 0,
     "displayName": "I Did It My Way",
-    "hidden": 0,
-    "description": "Win a scenario outside of the main intended conditions.",
+    "hidden": 1,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/745970/01b9c45b2265280d435e337254944478319c1c28.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/745970/aea0dda31f083a52ffc1c4e7a6d7acdc95479a78.jpg"
   },
@@ -93,8 +91,7 @@
     "name": "BananaRepublic",
     "defaultvalue": 0,
     "displayName": "Banana Republic",
-    "hidden": 0,
-    "description": "Have 0 INTERESTS in all but MILITARY.",
+    "hidden": 1,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/745970/a47eeb2c379fde61dcdd39c26040a39ae5a2e02a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/745970/496059a35437503042f7d4626ceb78e854543ea5.jpg"
   },
@@ -121,7 +118,7 @@
     "defaultvalue": 0,
     "displayName": "The Iron Curtain",
     "hidden": 0,
-    "description": "Have a 3 region long border where both factions have 5 INFLUENCE in each region.",
+    "description": "Have a 3 region long land border along Theater lines where both factions have 5 INFLUENCE regions on each side.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/745970/027f81f9e3dfc8192293a3ec621e5fb1d6a4dee2.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/745970/9872beb9c5a8a334b779b7995fd30e226e9d622f.jpg"
   },
@@ -157,7 +154,7 @@
     "defaultvalue": 0,
     "displayName": "Puppet Government(Sooty)",
     "hidden": 0,
-    "description": "CONTROL (3+ INFLUENCE) the UNITED KINGDOM ZONE as the Soviet Union.",
+    "description": "CONTROL (3+ INFLUENCE) NORTHERN AND SOUTHERN UNITED KINGDOM as the Soviet Union.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/745970/4708ac704bed7e3567220c05dd8482da18df1ce5.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/745970/b620b0a26fedbd50e75f09085bcac2d8bc4e0f1f.jpg"
   },
@@ -166,7 +163,7 @@
     "defaultvalue": 0,
     "displayName": "Mutual Assured Destruction",
     "hidden": 0,
-    "description": "Launch an APOCALYPSE that results in a draw.",
+    "description": "Launch an APOCALYPSE that results in the destruction of all faction CONTROLLED (3+ INFLUENCE) regions.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/745970/466412be565389ddca772e38f6e6fa3b3cd98a13.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/745970/a6ef96a91cd3c4895e7d87a359bf5cf0f63e5486.jpg"
   },
@@ -264,8 +261,7 @@
     "name": "SupremeCommander",
     "defaultvalue": 0,
     "displayName": "Supreme Commander",
-    "hidden": 0,
-    "description": "Honorable owner of Terminal Conflict: Supreme Commander Edition.",
+    "hidden": 1,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/745970/d0280ce213cd20766b6cb6b52be75f82bf09958e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/745970/b53ff75243972a64a4bf8df98befbf3b0c2dd710.jpg"
   },
@@ -273,9 +269,97 @@
     "name": "FlowerPower",
     "defaultvalue": 0,
     "displayName": "Flower Power",
-    "hidden": 0,
-    "description": "Be sure to wear some Flower Power Edition in your hair, we love you!",
+    "hidden": 1,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/745970/b440d46f86e45fffc273f9e9f733ba762f4a6353.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/745970/bac85df4be7833b4cc367f8dc8c4da70cd71be89.jpg"
+  },
+  {
+    "name": "ReconnectDoD",
+    "defaultvalue": 0,
+    "displayName": "Hail to the Chief",
+    "hidden": 0,
+    "description": "Reconnect the Department of Defense in the USA Wargames Mode grand campaign, THE BIG PICTURE.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/745970/40312478ee9b0c3d3cc004735cc0d883617e9a49.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/745970/2b91668ea8270f484882f05b651f76e0b6e2ede3.jpg"
+  },
+  {
+    "name": "USTankWeaponsProgramM48",
+    "defaultvalue": 0,
+    "displayName": "US Tank Weapons Program M48 Patton",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/745970/07a765cb70e99aee5a72f49e7063df24f69ada36.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/745970/942e3476168a3050fe530085b0b10b3ae5a9709f.jpg"
+  },
+  {
+    "name": "USTankWeaponsProgramM60",
+    "defaultvalue": 0,
+    "displayName": "US Tank Weapons Program M60 Patton",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/745970/290a3d8cab51b719131648c8a842ab8042af221f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/745970/fc44c94c28e8b90bdaeeb69d7260ea7b62e4da31.jpg"
+  },
+  {
+    "name": "USTankWeaponsProgramM551",
+    "defaultvalue": 0,
+    "displayName": "US Tank Weapons Program M551 Sheridan",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/745970/5463fe330348c04e6cf5e51bf42c7673cee9992d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/745970/cdeab687922f937d36c043f093c7144a1432b6b2.jpg"
+  },
+  {
+    "name": "USTankWeaponsProgramM1",
+    "defaultvalue": 0,
+    "displayName": "US Tank Weapons Program M1 Abrams",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/745970/7f9d0d52d56a1939a11ce9841abda6b4cdc1823c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/745970/762482c09c0f7eb94bc0f8bbc8b85a89a13dff01.jpg"
+  },
+  {
+    "name": "USTankWeaponsProgramM8",
+    "defaultvalue": 0,
+    "displayName": "US Tank Weapons Program M8 AGS",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/745970/2de38f80812e12ff0fac89255ffce3d47182a9dc.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/745970/5105a52bf8660598471dfd42cb3dfe69d9e75385.jpg"
+  },
+  {
+    "name": "USSRTankWeaponsProgramT54",
+    "defaultvalue": 0,
+    "displayName": "Soviet Tank Weapons Program T-54/T-55",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/745970/12af647b96f8dcce80e8df77180c6ac5719a7426.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/745970/1723d445152b30a09258ee835e03e245eb8ce297.jpg"
+  },
+  {
+    "name": "USSRTankWeaponsProgramT62",
+    "defaultvalue": 0,
+    "displayName": "Soviet Tank Weapons Program T-62",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/745970/39023a38942d22f3cf946711c646bd1d6212c338.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/745970/72dcb24af887b61b7126cc59659728658d5b5865.jpg"
+  },
+  {
+    "name": "USSRTankWeaponsProgramT72",
+    "defaultvalue": 0,
+    "displayName": "Soviet Tank Weapons Program T-72",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/745970/c71c5c84f1ea855bfddc18746167e87662c4a380.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/745970/887fbfc7e1b927eeb0048fc7cc4ffc6a28e92406.jpg"
+  },
+  {
+    "name": "USSRTankWeaponsProgramT80",
+    "defaultvalue": 0,
+    "displayName": "Soviet Tank Weapons Program T-80",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/745970/27e5d2e9bd239e5482746aa893b57ef428a69a88.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/745970/f208100c1299ab49973793284e41d7f58f3735a9.jpg"
+  },
+  {
+    "name": "USSRTankWeaponsProgramT90",
+    "defaultvalue": 0,
+    "displayName": "Soviet Tank Weapons Program T-90",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/745970/3d6451dbed05edb3a56ca464e068a4ff2a47cf88.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/745970/498ca3a1e509701eb9b0e358f5b16ec7b2d50ceb.jpg"
   }
 ]

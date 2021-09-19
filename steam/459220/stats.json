@@ -1,46 +1,57 @@
-﻿{
-  "Version": {
-    "description": "",
-    "value": 1
+[
+  {
+    "name": "Version",
+    "defaultvalue": 1,
+    "displayName": ""
   },
-  "Skulls": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Skulls",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Timeline": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Timeline",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Gametime": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Gametime",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "LifetimeScore": {
-    "description": "",
-    "value": 0
+  {
+    "name": "LifetimeScore",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "ParTimeHeroic": {
-    "description": "",
-    "value": 0
+  {
+    "name": "ParTimeHeroic",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "EveryMissionGold": {
-    "description": "",
-    "value": 0
+  {
+    "name": "EveryMissionGold",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "EveryLeader": {
-    "description": "",
-    "value": 0
+  {
+    "name": "EveryLeader",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "EveryMap": {
-    "description": "",
-    "value": 0
+  {
+    "name": "EveryMap",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "EveryMode": {
-    "description": "",
-    "value": 0
+  {
+    "name": "EveryMode",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "NumMatchesWon": {
-    "description": "",
-    "value": 0
+  {
+    "name": "NumMatchesWon",
+    "defaultvalue": 0,
+    "displayName": ""
   }
-}
+]

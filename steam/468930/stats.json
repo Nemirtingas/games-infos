@@ -1,26 +1,32 @@
-﻿{
-  "battUse": {
-    "description": "",
-    "value": 0
+[
+  {
+    "name": "battUse",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "antidUse": {
-    "description": "",
-    "value": 0
+  {
+    "name": "antidUse",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "phKill": {
-    "description": "",
-    "value": 0
+  {
+    "name": "phKill",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "logHear": {
-    "description": "",
-    "value": 0
+  {
+    "name": "logHear",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "cloneKill": {
-    "description": "",
-    "value": 0
+  {
+    "name": "cloneKill",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "padCheck": {
-    "description": "",
-    "value": 0
+  {
+    "name": "padCheck",
+    "defaultvalue": 0,
+    "displayName": ""
   }
-}
+]

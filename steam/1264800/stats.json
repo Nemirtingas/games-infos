@@ -18,5 +18,20 @@
     "name": "Balls",
     "defaultvalue": 0,
     "displayName": "Balls Lost"
+  },
+  {
+    "name": "SuperTime",
+    "defaultvalue": 0,
+    "displayName": "Time Wasted"
+  },
+  {
+    "name": "SuperWins",
+    "defaultvalue": 0,
+    "displayName": "Games Won"
+  },
+  {
+    "name": "SuperQuit",
+    "defaultvalue": 0,
+    "displayName": "Games Abandoned"
   }
 ]

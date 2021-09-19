@@ -1,154 +1,192 @@
-﻿{
-  "HasPlacedAvatar": {
-    "description": "Welcome to Planet Zoo",
-    "value": 0
+[
+  {
+    "name": "HasPlacedAvatar",
+    "defaultvalue": 0,
+    "displayName": "Welcome to Planet Zoo"
   },
-  "HasBronzeStar": {
-    "description": "Bronze Award",
-    "value": 0
+  {
+    "name": "HasBronzeStar",
+    "defaultvalue": 0,
+    "displayName": "Bronze Award"
   },
-  "HasSilverStar": {
-    "description": "Silver Award",
-    "value": 0
+  {
+    "name": "HasSilverStar",
+    "defaultvalue": 0,
+    "displayName": "Silver Award"
   },
-  "HasGoldStar": {
-    "description": "Gold Award",
-    "value": 0
+  {
+    "name": "HasGoldStar",
+    "defaultvalue": 0,
+    "displayName": "Gold Award"
   },
-  "Campaign_BronzeStarCount": {
-    "description": "Campaign Complete",
-    "value": 0
+  {
+    "name": "Campaign_BronzeStarCount",
+    "defaultvalue": 0,
+    "displayName": "Campaign Complete"
   },
-  "Campaign_SilverStarCount": {
-    "description": "Silver Campaign",
-    "value": 0
+  {
+    "name": "Campaign_SilverStarCount",
+    "defaultvalue": 0,
+    "displayName": "Silver Campaign"
   },
-  "Campaign_GoldStarCount": {
-    "description": "Gold Campaign",
-    "value": 0
+  {
+    "name": "Campaign_GoldStarCount",
+    "defaultvalue": 0,
+    "displayName": "Gold Campaign"
   },
-  "HasFranchiseZoo": {
-    "description": "Franchise Zoo",
-    "value": 0
+  {
+    "name": "HasFranchiseZoo",
+    "defaultvalue": 0,
+    "displayName": "Franchise Zoo"
   },
-  "FranchiseZooCount": {
-    "description": "Global Zoo",
-    "value": 0
+  {
+    "name": "FranchiseZooCount",
+    "defaultvalue": 0,
+    "displayName": "Global Zoo"
   },
-  "TrackLength": {
-    "description": "Tour Guide",
-    "value": 0
+  {
+    "name": "TrackLength",
+    "defaultvalue": 0,
+    "displayName": "Tour Guide"
   },
-  "BarrierLength": {
-    "description": "Barrier Builder",
-    "value": 0
+  {
+    "name": "BarrierLength",
+    "defaultvalue": 0,
+    "displayName": "Barrier Builder"
   },
-  "HasAnimalBirth": {
-    "description": "Life finds a way",
-    "value": 0
+  {
+    "name": "HasAnimalBirth",
+    "defaultvalue": 0,
+    "displayName": "Life finds a way"
   },
-  "AnimalsBorn": {
-    "description": "Baby Boom",
-    "value": 0
+  {
+    "name": "AnimalsBorn",
+    "defaultvalue": 0,
+    "displayName": "Baby Boom"
   },
-  "HasAlbino": {
-    "description": "Ghost",
-    "value": 0
+  {
+    "name": "HasAlbino",
+    "defaultvalue": 0,
+    "displayName": "Ghost"
   },
-  "HasReleasedAnimal": {
-    "description": "Say Goodbye",
-    "value": 0
+  {
+    "name": "HasReleasedAnimal",
+    "defaultvalue": 0,
+    "displayName": "Say Goodbye"
   },
-  "HasAdoptedAnimal": {
-    "description": "Welcome to the Family",
-    "value": 0
+  {
+    "name": "HasAdoptedAnimal",
+    "defaultvalue": 0,
+    "displayName": "Welcome to the Family"
   },
-  "HasFullyTrainedStaff": {
-    "description": "Trainer",
-    "value": 0
+  {
+    "name": "HasFullyTrainedStaff",
+    "defaultvalue": 0,
+    "displayName": "Trainer"
   },
-  "IsZoopediaComplete": {
-    "description": "Zoologist",
-    "value": 0
+  {
+    "name": "IsZoopediaComplete",
+    "defaultvalue": 0,
+    "displayName": "Zoologist"
   },
-  "Franchise_ContinentCount": {
-    "description": "Planet Zoo",
-    "value": 0
+  {
+    "name": "Franchise_ContinentCount",
+    "defaultvalue": 0,
+    "displayName": "Planet Zoo"
   },
-  "Franchise_BiomeCount": {
-    "description": "Diversity",
-    "value": 0
+  {
+    "name": "Franchise_BiomeCount",
+    "defaultvalue": 0,
+    "displayName": "Diversity"
   },
-  "EducationRating": {
-    "description": "Nerd",
-    "value": 0
+  {
+    "name": "EducationRating",
+    "defaultvalue": 0,
+    "displayName": "Nerd"
   },
-  "LoanAmountRepaid": {
-    "description": "Loaner",
-    "value": 0
+  {
+    "name": "LoanAmountRepaid",
+    "defaultvalue": 0,
+    "displayName": "Loaner"
   },
-  "EnteredCommunityChallenge": {
-    "description": "Community",
-    "value": 0
+  {
+    "name": "EnteredCommunityChallenge",
+    "defaultvalue": 0,
+    "displayName": "Community"
   },
-  "EnrichmentItemCount": {
-    "description": "Enriched",
-    "value": 0
+  {
+    "name": "EnrichmentItemCount",
+    "defaultvalue": 0,
+    "displayName": "Enriched"
   },
-  "HasThreeUniqueKeeperRosters": {
-    "description": "This one’s a Keeper",
-    "value": 0
+  {
+    "name": "HasThreeUniqueKeeperRosters",
+    "defaultvalue": 0,
+    "displayName": "This one’s a Keeper"
   },
-  "HasCircleOfLife": {
-    "description": "Circle of Life",
-    "value": 0
+  {
+    "name": "HasCircleOfLife",
+    "defaultvalue": 0,
+    "displayName": "Circle of Life"
   },
-  "HasLionBearTiger": {
-    "description": "Oh My!",
-    "value": 0
+  {
+    "name": "HasLionBearTiger",
+    "defaultvalue": 0,
+    "displayName": "Oh My!"
   },
-  "HasTwoUniqueElephantsBorn": {
-    "description": "The Elephant in the Room",
-    "value": 0
+  {
+    "name": "HasTwoUniqueElephantsBorn",
+    "defaultvalue": 0,
+    "displayName": "The Elephant in the Room"
   },
-  "HasHighGeneticMakeup": {
-    "description": "Natural Selection",
-    "value": 0
+  {
+    "name": "HasHighGeneticMakeup",
+    "defaultvalue": 0,
+    "displayName": "Natural Selection"
   },
-  "HasAllExhibitEnrichmentItems": {
-    "description": "Redecorating",
-    "value": 0
+  {
+    "name": "HasAllExhibitEnrichmentItems",
+    "defaultvalue": 0,
+    "displayName": "Redecorating"
   },
-  "HasResearchedAnimal": {
-    "description": "Animal Research",
-    "value": 0
+  {
+    "name": "HasResearchedAnimal",
+    "defaultvalue": 0,
+    "displayName": "Animal Research"
   },
-  "HasManyHighWelfare": {
-    "description": "Wow that's a lot",
-    "value": 0
+  {
+    "name": "HasManyHighWelfare",
+    "defaultvalue": 0,
+    "displayName": "Wow that's a lot"
   },
-  "CritcalEndangeredCount": {
-    "description": "Rebuilding",
-    "value": 0
+  {
+    "name": "CritcalEndangeredCount",
+    "defaultvalue": 0,
+    "displayName": "Rebuilding"
   },
-  "HasHeroAnimal": {
-    "description": "A hero comes along",
-    "value": 0
+  {
+    "name": "HasHeroAnimal",
+    "defaultvalue": 0,
+    "displayName": "A hero comes along"
   },
-  "HasAdoptedStoryElephant": {
-    "description": "An Elephant Never Forgets",
-    "value": 0
+  {
+    "name": "HasAdoptedStoryElephant",
+    "defaultvalue": 0,
+    "displayName": "An Elephant Never Forgets"
   },
-  "Campaign_BronzeStarCount_Hard": {
-    "description": "Hard - Campaign Complete",
-    "value": 0
+  {
+    "name": "Campaign_BronzeStarCount_Hard",
+    "defaultvalue": 0,
+    "displayName": "Hard - Campaign Complete"
   },
-  "Campaign_SilverStarCount_Hard": {
-    "description": "Hard - Silver Campaign",
-    "value": 0
+  {
+    "name": "Campaign_SilverStarCount_Hard",
+    "defaultvalue": 0,
+    "displayName": "Hard - Silver Campaign"
   },
-  "Campaign_GoldStarCount_Hard": {
-    "description": "Hard - Gold Campaign",
-    "value": 0
+  {
+    "name": "Campaign_GoldStarCount_Hard",
+    "defaultvalue": 0,
+    "displayName": "Hard - Gold Campaign"
   }
-}
+]

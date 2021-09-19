@@ -1,10 +1,12 @@
-﻿{
-  "TotalKillCount": {
-    "description": "Total Shark Kills",
-    "value": 0
+[
+  {
+    "name": "TotalKillCount",
+    "defaultvalue": 0,
+    "displayName": "Total Shark Kills"
   },
-  "TotalDeathCount": {
-    "description": "Murdered by Sharks",
-    "value": 0
+  {
+    "name": "TotalDeathCount",
+    "defaultvalue": 0,
+    "displayName": "Murdered by Sharks"
   }
-}
+]

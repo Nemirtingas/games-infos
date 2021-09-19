@@ -1,50 +1,62 @@
-﻿{
-  "islands": {
-    "description": "",
-    "value": 0
+[
+  {
+    "name": "islands",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "destiny": {
-    "description": "",
-    "value": 0
+  {
+    "name": "destiny",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "merchants": {
-    "description": "",
-    "value": 0
+  {
+    "name": "merchants",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "battle": {
-    "description": "",
-    "value": 0
+  {
+    "name": "battle",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "max_powa": {
-    "description": "",
-    "value": 0
+  {
+    "name": "max_powa",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "blueprint": {
-    "description": "",
-    "value": 0
+  {
+    "name": "blueprint",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "seeds": {
-    "description": "",
-    "value": 0
+  {
+    "name": "seeds",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "block": {
-    "description": "",
-    "value": 0
+  {
+    "name": "block",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "throwable": {
-    "description": "",
-    "value": 0
+  {
+    "name": "throwable",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "potions": {
-    "description": "",
-    "value": 0
+  {
+    "name": "potions",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "crafting_table": {
-    "description": "",
-    "value": 0
+  {
+    "name": "crafting_table",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "disassemble": {
-    "description": "",
-    "value": 0
+  {
+    "name": "disassemble",
+    "defaultvalue": 0,
+    "displayName": ""
   }
-}
+]

@@ -2,25 +2,29 @@
   "Dlcs": {
     "1129040": {
       "Name": "VSXu - Particle Bliss",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/1129040/header.jpg?t=1591345636"
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1129040/header.jpg?t=1591345636",
+      "Type": "dlc"
     },
     "1180950": {
       "Name": "VSXu - Spectrums and Oscilloscopes",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/1180950/header.jpg?t=1591345601"
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1180950/header.jpg?t=1591345601",
+      "Type": "dlc"
     },
     "1332400": {
       "Name": "VSXu - Networks",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/1332400/header.jpg?t=1591345569"
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1332400/header.jpg?t=1591345569",
+      "Type": "dlc"
     }
   },
   "Name": "VSXu Player",
   "AppId": "981590",
-  "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/981590/header.jpg?t=1591345206",
+  "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/981590/header.jpg?t=1625489705",
   "Languages": [
     "english",
     "french",
     "german",
-    "swedish"
+    "swedish",
+    "japanese"
   ],
   "Platforms": {
     "windows": true,

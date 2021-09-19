@@ -1,182 +1,227 @@
-﻿{
-  "CounselorMatchesPlayed": {
-    "description": "CounselorMatchesPlayed",
-    "value": 0
+[
+  {
+    "name": "CounselorMatchesPlayed",
+    "defaultvalue": 0,
+    "displayName": "CounselorMatchesPlayed"
   },
-  "JasonMatchesPlayed": {
-    "description": "JasonMatchesPlayed",
-    "value": 0
+  {
+    "name": "JasonMatchesPlayed",
+    "defaultvalue": 0,
+    "displayName": "JasonMatchesPlayed"
   },
-  "CounselorsKilled": {
-    "description": "CounselorsKilled",
-    "value": 0
+  {
+    "name": "CounselorsKilled",
+    "defaultvalue": 0,
+    "displayName": "CounselorsKilled"
   },
-  "CarPartsRepaired": {
-    "description": "CarPartsRepaired",
-    "value": 0
+  {
+    "name": "CarPartsRepaired",
+    "defaultvalue": 0,
+    "displayName": "CarPartsRepaired"
   },
-  "BoatPartsRepaired": {
-    "description": "BoatPartsRepaired",
-    "value": 0
+  {
+    "name": "BoatPartsRepaired",
+    "defaultvalue": 0,
+    "displayName": "BoatPartsRepaired"
   },
-  "GridPartsRepaired": {
-    "description": "GridPartsRepaired",
-    "value": 0
+  {
+    "name": "GridPartsRepaired",
+    "defaultvalue": 0,
+    "displayName": "GridPartsRepaired"
   },
-  "PoliceCallCount": {
-    "description": "PoliceCallCount",
-    "value": 0
+  {
+    "name": "PoliceCallCount",
+    "defaultvalue": 0,
+    "displayName": "PoliceCallCount"
   },
-  "TommyJarvisCallCount": {
-    "description": "TommyJarvisCallCount",
-    "value": 0
+  {
+    "name": "TommyJarvisCallCount",
+    "defaultvalue": 0,
+    "displayName": "TommyJarvisCallCount"
   },
-  "CarPassengerEscapeCount": {
-    "description": "CarPassengerEscapeCount",
-    "value": 0
+  {
+    "name": "CarPassengerEscapeCount",
+    "defaultvalue": 0,
+    "displayName": "CarPassengerEscapeCount"
   },
-  "BoatPassengerEscapeCount": {
-    "description": "BoatPassengerEscapeCount",
-    "value": 0
+  {
+    "name": "BoatPassengerEscapeCount",
+    "defaultvalue": 0,
+    "displayName": "BoatPassengerEscapeCount"
   },
-  "TrappedJasonCount": {
-    "description": "TrappedJasonCount",
-    "value": 0
+  {
+    "name": "TrappedJasonCount",
+    "defaultvalue": 0,
+    "displayName": "TrappedJasonCount"
   },
-  "TommyJarvisMatchesPlayed": {
-    "description": "TommyJarvisMatchesPlayed",
-    "value": 0
+  {
+    "name": "TommyJarvisMatchesPlayed",
+    "defaultvalue": 0,
+    "displayName": "TommyJarvisMatchesPlayed"
   },
-  "SweaterStunCount": {
-    "description": "SweaterStunCount",
-    "value": 0
+  {
+    "name": "SweaterStunCount",
+    "defaultvalue": 0,
+    "displayName": "SweaterStunCount"
   },
-  "ThrowingKnifeHitCount": {
-    "description": "ThrowingKnifeHitCount",
-    "value": 0
+  {
+    "name": "ThrowingKnifeHitCount",
+    "defaultvalue": 0,
+    "displayName": "ThrowingKnifeHitCount"
   },
-  "TrappedCounselorCount": {
-    "description": "TrappedCounselorCount",
-    "value": 0
+  {
+    "name": "TrappedCounselorCount",
+    "defaultvalue": 0,
+    "displayName": "TrappedCounselorCount"
   },
-  "DeathsByJasonCount": {
-    "description": "DeathsByJasonCount",
-    "value": 0
+  {
+    "name": "DeathsByJasonCount",
+    "defaultvalue": 0,
+    "displayName": "DeathsByJasonCount"
   },
-  "SlamJamCount": {
-    "description": "SlamJamCount",
-    "value": 0
+  {
+    "name": "SlamJamCount",
+    "defaultvalue": 0,
+    "displayName": "SlamJamCount"
   },
-  "PoliceEscapeCount": {
-    "description": "PoliceEscapeCount",
-    "value": 0
+  {
+    "name": "PoliceEscapeCount",
+    "defaultvalue": 0,
+    "displayName": "PoliceEscapeCount"
   },
-  "FlareGunHits": {
-    "description": "FlareGunHits",
-    "value": 0
+  {
+    "name": "FlareGunHits",
+    "defaultvalue": 0,
+    "displayName": "FlareGunHits"
   },
-  "FirecrackerStunCount": {
-    "description": "FirecrackerStunCount",
-    "value": 0
+  {
+    "name": "FirecrackerStunCount",
+    "defaultvalue": 0,
+    "displayName": "FirecrackerStunCount"
   },
-  "PocketKnifeEscapeCount": {
-    "description": "PocketKnifeEscapeCount",
-    "value": 0
+  {
+    "name": "PocketKnifeEscapeCount",
+    "defaultvalue": 0,
+    "displayName": "PocketKnifeEscapeCount"
   },
-  "KnockedMaskOffCount": {
-    "description": "KnockedMaskOffCount",
-    "value": 0
+  {
+    "name": "KnockedMaskOffCount",
+    "defaultvalue": 0,
+    "displayName": "KnockedMaskOffCount"
   },
-  "DoorsBrokenDownCount": {
-    "description": "DoorsBrokenDownCount",
-    "value": 0
+  {
+    "name": "DoorsBrokenDownCount",
+    "defaultvalue": 0,
+    "displayName": "DoorsBrokenDownCount"
   },
-  "ClosedWindowJumpCount": {
-    "description": "ClosedWindowJumpCount",
-    "value": 0
+  {
+    "name": "ClosedWindowJumpCount",
+    "defaultvalue": 0,
+    "displayName": "ClosedWindowJumpCount"
   },
-  "BaseballBatHitsOnJason": {
-    "description": "BaseballBatHitsOnJason",
-    "value": 0
+  {
+    "name": "BaseballBatHitsOnJason",
+    "defaultvalue": 0,
+    "displayName": "BaseballBatHitsOnJason"
   },
-  "FirstAidSprayUses": {
-    "description": "FirstAidSprayUses",
-    "value": 0
+  {
+    "name": "FirstAidSprayUses",
+    "defaultvalue": 0,
+    "displayName": "FirstAidSprayUses"
   },
-  "ShotgunHitsOnJason": {
-    "description": "ShotgunHitsOnJason",
-    "value": 0
+  {
+    "name": "ShotgunHitsOnJason",
+    "defaultvalue": 0,
+    "displayName": "ShotgunHitsOnJason"
   },
-  "RollCredits": {
-    "description": "TimesKilledJason",
-    "value": 0
+  {
+    "name": "RollCredits",
+    "defaultvalue": 0,
+    "displayName": "TimesKilledJason"
   },
-  "NoHappyEndings": {
-    "description": "NoHappyEndings",
-    "value": 0
+  {
+    "name": "NoHappyEndings",
+    "defaultvalue": 0,
+    "displayName": "NoHappyEndings"
   },
-  "OneForGoodMeasure": {
-    "description": "OneForGoodMeasure",
-    "value": 0
+  {
+    "name": "OneForGoodMeasure",
+    "defaultvalue": 0,
+    "displayName": "OneForGoodMeasure"
   },
-  "SuperFan": {
-    "description": "SuperFan",
-    "value": 0
+  {
+    "name": "SuperFan",
+    "defaultvalue": 0,
+    "displayName": "SuperFan"
   },
-  "FridayDriver": {
-    "description": "FridayDriver",
-    "value": 0
+  {
+    "name": "FridayDriver",
+    "defaultvalue": 0,
+    "displayName": "FridayDriver"
   },
-  "AyeAyeCaptain": {
-    "description": "AyeAyeCaptain",
-    "value": 0
+  {
+    "name": "AyeAyeCaptain",
+    "defaultvalue": 0,
+    "displayName": "AyeAyeCaptain"
   },
-  "NewThreads": {
-    "description": "NewThreads",
-    "value": 0
+  {
+    "name": "NewThreads",
+    "defaultvalue": 0,
+    "displayName": "NewThreads"
   },
-  "Goalie": {
-    "description": "Goalie",
-    "value": 0
+  {
+    "name": "Goalie",
+    "defaultvalue": 0,
+    "displayName": "Goalie"
   },
-  "ThisDoorWontClose": {
-    "description": "ThisDoorWontClose",
-    "value": 0
+  {
+    "name": "ThisDoorWontClose",
+    "defaultvalue": 0,
+    "displayName": "ThisDoorWontClose"
   },
-  "AClassic": {
-    "description": "AClassic",
-    "value": 0
+  {
+    "name": "AClassic",
+    "defaultvalue": 0,
+    "displayName": "AClassic"
   },
-  "CookingWithJasonVorhees": {
-    "description": "CookingWithJasonVorhees",
-    "value": 0
+  {
+    "name": "CookingWithJasonVorhees",
+    "defaultvalue": 0,
+    "displayName": "CookingWithJasonVorhees"
   },
-  "LetsSplitUp": {
-    "description": "LetsSplitUp",
-    "value": 0
+  {
+    "name": "LetsSplitUp",
+    "defaultvalue": 0,
+    "displayName": "LetsSplitUp"
   },
-  "ChadIsADick": {
-    "description": "ChadIsADick",
-    "value": 0
+  {
+    "name": "ChadIsADick",
+    "defaultvalue": 0,
+    "displayName": "ChadIsADick"
   },
-  "APhDInMurder": {
-    "description": "APhDInMurder",
-    "value": 0
+  {
+    "name": "APhDInMurder",
+    "defaultvalue": 0,
+    "displayName": "APhDInMurder"
   },
-  "PlayerLevel": {
-    "description": "PlayerLevel",
-    "value": 0
+  {
+    "name": "PlayerLevel",
+    "defaultvalue": 0,
+    "displayName": "PlayerLevel"
   },
-  "IveSeenEveryMovie": {
-    "description": "SeenEveryMovie",
-    "value": 0
+  {
+    "name": "IveSeenEveryMovie",
+    "defaultvalue": 0,
+    "displayName": "SeenEveryMovie"
   },
-  "SoloFlirtSurvives": {
-    "description": "SoloFlirtSurvives",
-    "value": 0
+  {
+    "name": "SoloFlirtSurvives",
+    "defaultvalue": 0,
+    "displayName": "SoloFlirtSurvives"
   },
-  "TeddyBearsSeen": {
-    "description": "TeddyBearsSeen",
-    "value": 0
+  {
+    "name": "TeddyBearsSeen",
+    "defaultvalue": 0,
+    "displayName": "TeddyBearsSeen"
   }
-}
+]

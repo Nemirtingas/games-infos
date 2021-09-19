@@ -1,46 +1,57 @@
-﻿{
-  "NWitches_Defeated": {
-    "description": "Witches Defeated",
-    "value": 0
+[
+  {
+    "name": "NWitches_Defeated",
+    "defaultvalue": 0,
+    "displayName": "Witches Defeated"
   },
-  "NPrinces_Defeated": {
-    "description": "Impious Princes Defeated",
-    "value": 0
+  {
+    "name": "NPrinces_Defeated",
+    "defaultvalue": 0,
+    "displayName": "Impious Princes Defeated"
   },
-  "NTitans_Defeated": {
-    "description": "Titans Defeated",
-    "value": 0
+  {
+    "name": "NTitans_Defeated",
+    "defaultvalue": 0,
+    "displayName": "Titans Defeated"
   },
-  "NGodGifts_Gathered": {
-    "description": "Gifts of the Gods offered",
-    "value": 0
+  {
+    "name": "NGodGifts_Gathered",
+    "defaultvalue": 0,
+    "displayName": "Gifts of the Gods offered"
   },
-  "NMausoleums_Discovered": {
-    "description": "Tombs of the Kings discovered",
-    "value": 0
+  {
+    "name": "NMausoleums_Discovered",
+    "defaultvalue": 0,
+    "displayName": "Tombs of the Kings discovered"
   },
-  "NArenaVictories": {
-    "description": "Victories in the Arena",
-    "value": 0
+  {
+    "name": "NArenaVictories",
+    "defaultvalue": 0,
+    "displayName": "Victories in the Arena"
   },
-  "NYulStatues": {
-    "description": "Statues of Yul discovered",
-    "value": 0
+  {
+    "name": "NYulStatues",
+    "defaultvalue": 0,
+    "displayName": "Statues of Yul discovered"
   },
-  "NHerbsRecollected": {
-    "description": "Herbs Recollected",
-    "value": 0
+  {
+    "name": "NHerbsRecollected",
+    "defaultvalue": 0,
+    "displayName": "Herbs Recollected"
   },
-  "NMonstersKilled": {
-    "description": "Total Monsters Killed",
-    "value": 0
+  {
+    "name": "NMonstersKilled",
+    "defaultvalue": 0,
+    "displayName": "Total Monsters Killed"
   },
-  "NEnemyGroupsKilled": {
-    "description": "Total Enemy Groups Defeated",
-    "value": 0
+  {
+    "name": "NEnemyGroupsKilled",
+    "defaultvalue": 0,
+    "displayName": "Total Enemy Groups Defeated"
   },
-  "NGolotSpheres": {
-    "description": "Total Energy Spheres found.",
-    "value": 0
+  {
+    "name": "NGolotSpheres",
+    "defaultvalue": 0,
+    "displayName": "Total Energy Spheres found."
   }
-}
+]

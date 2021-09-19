@@ -1,90 +1,112 @@
-﻿{
-  "stat_synth": {
-    "description": "Went to Synthesis",
-    "value": 0
+[
+  {
+    "name": "stat_synth",
+    "defaultvalue": 0,
+    "displayName": "Went to Synthesis"
   },
-  "stat_blkMag": {
-    "description": "Use Black Magic",
-    "value": 0
+  {
+    "name": "stat_blkMag",
+    "defaultvalue": 0,
+    "displayName": "Use Black Magic"
   },
-  "stat_whtMag": {
-    "description": "Use White Magic",
-    "value": 0
+  {
+    "name": "stat_whtMag",
+    "defaultvalue": 0,
+    "displayName": "Use White Magic"
   },
-  "stat_bluMag": {
-    "description": "Use Blue Magic",
-    "value": 0
+  {
+    "name": "stat_bluMag",
+    "defaultvalue": 0,
+    "displayName": "Use Blue Magic"
   },
-  "stat_summon": {
-    "description": "Summon Eidolons",
-    "value": 0
+  {
+    "name": "stat_summon",
+    "defaultvalue": 0,
+    "displayName": "Summon Eidolons"
   },
-  "stat_defeat": {
-    "description": "Defeat Enemies",
-    "value": 0
+  {
+    "name": "stat_defeat",
+    "defaultvalue": 0,
+    "displayName": "Defeat Enemies"
   },
-  "stat_item": {
-    "description": "Purchased Items from Stiltzkin",
-    "value": 0
+  {
+    "name": "stat_item",
+    "defaultvalue": 0,
+    "displayName": "Purchased Items from Stiltzkin"
   },
-  "stat_passiveAbility": {
-    "description": "Earned all passive abilities",
-    "value": 0
+  {
+    "name": "stat_passiveAbility",
+    "defaultvalue": 0,
+    "displayName": "Earned all passive abilities"
   },
-  "stat_allAbility": {
-    "description": "Earned all abilities",
-    "value": 0
+  {
+    "name": "stat_allAbility",
+    "defaultvalue": 0,
+    "displayName": "Earned all abilities"
   },
-  "stat_chocoboLV": {
-    "description": "Chocobo's beak LV.",
-    "value": 0
+  {
+    "name": "stat_chocoboLV",
+    "defaultvalue": 0,
+    "displayName": "Chocobo's beak LV."
   },
-  "stat_beach": {
-    "description": "Beach",
-    "value": 0
+  {
+    "name": "stat_beach",
+    "defaultvalue": 0,
+    "displayName": "Beach"
   },
-  "stat_treasure": {
-    "description": "Dig Treasure by using Chocobo",
-    "value": 0
+  {
+    "name": "stat_treasure",
+    "defaultvalue": 0,
+    "displayName": "Dig Treasure by using Chocobo"
   },
-  "stat_frog": {
-    "description": "Catch Frogs",
-    "value": 0
+  {
+    "name": "stat_frog",
+    "defaultvalue": 0,
+    "displayName": "Catch Frogs"
   },
-  "stat_auction": {
-    "description": "Win products from auction",
-    "value": 0
+  {
+    "name": "stat_auction",
+    "defaultvalue": 0,
+    "displayName": "Win products from auction"
   },
-  "stat_queenReward": {
-    "description": "Get reward from Queen Stella",
-    "value": 0
+  {
+    "name": "stat_queenReward",
+    "defaultvalue": 0,
+    "displayName": "Get reward from Queen Stella"
   },
-  "stat_winCardBattle": {
-    "description": "Win card game",
-    "value": 0
+  {
+    "name": "stat_winCardBattle",
+    "defaultvalue": 0,
+    "displayName": "Win card game"
   },
-  "stat_backAttack": {
-    "description": "Back-attack",
-    "value": 0
+  {
+    "name": "stat_backAttack",
+    "defaultvalue": 0,
+    "displayName": "Back-attack"
   },
-  "stat_steal": {
-    "description": "Steal items from enemy",
-    "value": 0
+  {
+    "name": "stat_steal",
+    "defaultvalue": 0,
+    "displayName": "Steal items from enemy"
   },
-  "stat_defense": {
-    "description": "Defence",
-    "value": 0
+  {
+    "name": "stat_defense",
+    "defaultvalue": 0,
+    "displayName": "Defence"
   },
-  "stat_trance": {
-    "description": "Trance",
-    "value": 0
+  {
+    "name": "stat_trance",
+    "defaultvalue": 0,
+    "displayName": "Trance"
   },
-  "stat_ATE": {
-    "description": "Watch ATE",
-    "value": 0
+  {
+    "name": "stat_ATE",
+    "defaultvalue": 0,
+    "displayName": "Watch ATE"
   },
-  "stat_moonStone": {
-    "description": "Get moon stones",
-    "value": 0
+  {
+    "name": "stat_moonStone",
+    "defaultvalue": 0,
+    "displayName": "Get moon stones"
   }
-}
+]

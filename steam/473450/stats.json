@@ -1,54 +1,67 @@
-﻿{
-  "n_Deaths": {
-    "description": "",
-    "value": 0
+[
+  {
+    "name": "n_Deaths",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "giant_unlocked": {
-    "description": "",
-    "value": 0
+  {
+    "name": "giant_unlocked",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "old_lady_unlocked": {
-    "description": "",
-    "value": 0
+  {
+    "name": "old_lady_unlocked",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "money": {
-    "description": "",
-    "value": 0
+  {
+    "name": "money",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "drugs": {
-    "description": "",
-    "value": 0
+  {
+    "name": "drugs",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "the_end": {
-    "description": "",
-    "value": 0
+  {
+    "name": "the_end",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "hillbilly": {
-    "description": "",
-    "value": 0
+  {
+    "name": "hillbilly",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "speed_freak": {
-    "description": "",
-    "value": 0
+  {
+    "name": "speed_freak",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "how": {
-    "description": "",
-    "value": 0
+  {
+    "name": "how",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "SetA": {
-    "description": "",
-    "value": 0
+  {
+    "name": "SetA",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "SetB": {
-    "description": "",
-    "value": 0
+  {
+    "name": "SetB",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "SetC": {
-    "description": "",
-    "value": 0
+  {
+    "name": "SetC",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "SetABCCleared": {
-    "description": "",
-    "value": 0
+  {
+    "name": "SetABCCleared",
+    "defaultvalue": 0,
+    "displayName": ""
   }
-}
+]

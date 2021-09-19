@@ -1,122 +1,152 @@
-﻿{
-  "Delayed": {
-    "description": "",
-    "value": 0
+[
+  {
+    "name": "Delayed",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "CompletedQuest": {
-    "description": "",
-    "value": 0
+  {
+    "name": "CompletedQuest",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "CompletedSideQuest": {
-    "description": "",
-    "value": 0
+  {
+    "name": "CompletedSideQuest",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "CompletedSupportQuest": {
-    "description": "",
-    "value": 0
+  {
+    "name": "CompletedSupportQuest",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "DrawFoulFateCard": {
-    "description": "",
-    "value": 0
+  {
+    "name": "DrawFoulFateCard",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "DrawSetbackCard": {
-    "description": "",
-    "value": 0
+  {
+    "name": "DrawSetbackCard",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "FlippedWound": {
-    "description": "",
-    "value": 0
+  {
+    "name": "FlippedWound",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Gold": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Gold",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "LooseGold": {
-    "description": "",
-    "value": 0
+  {
+    "name": "LooseGold",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "RemovedWound": {
-    "description": "",
-    "value": 0
+  {
+    "name": "RemovedWound",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "RemovedSevereWound": {
-    "description": "",
-    "value": 0
+  {
+    "name": "RemovedSevereWound",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "KillBronzeMonster": {
-    "description": "",
-    "value": 0
+  {
+    "name": "KillBronzeMonster",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "KillGoldMonster": {
-    "description": "",
-    "value": 0
+  {
+    "name": "KillGoldMonster",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "KillSilverMonster": {
-    "description": "",
-    "value": 0
+  {
+    "name": "KillSilverMonster",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "MagicLead": {
-    "description": "",
-    "value": 0
+  {
+    "name": "MagicLead",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "DiplomacyLead": {
-    "description": "",
-    "value": 0
+  {
+    "name": "DiplomacyLead",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "CombatLead": {
-    "description": "",
-    "value": 0
+  {
+    "name": "CombatLead",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "PlacedFoulFate": {
-    "description": "",
-    "value": 0
+  {
+    "name": "PlacedFoulFate",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "ReceivedWound": {
-    "description": "",
-    "value": 0
+  {
+    "name": "ReceivedWound",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "ReceivedSevereWound": {
-    "description": "",
-    "value": 0
+  {
+    "name": "ReceivedSevereWound",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "RemovedFoulFate": {
-    "description": "",
-    "value": 0
+  {
+    "name": "RemovedFoulFate",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "UseGoodFortune": {
-    "description": "",
-    "value": 0
+  {
+    "name": "UseGoodFortune",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "UseXpFriend": {
-    "description": "",
-    "value": 0
+  {
+    "name": "UseXpFriend",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "UseXpItem": {
-    "description": "",
-    "value": 0
+  {
+    "name": "UseXpItem",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "UseXpPotion": {
-    "description": "",
-    "value": 0
+  {
+    "name": "UseXpPotion",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "UseXpSpell": {
-    "description": "",
-    "value": 0
+  {
+    "name": "UseXpSpell",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "VictoryOnline": {
-    "description": "",
-    "value": 0
+  {
+    "name": "VictoryOnline",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "VictoryOffline": {
-    "description": "",
-    "value": 0
+  {
+    "name": "VictoryOffline",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "VP": {
-    "description": "",
-    "value": 0
+  {
+    "name": "VP",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "LooseVP": {
-    "description": "",
-    "value": 0
+  {
+    "name": "LooseVP",
+    "defaultvalue": 0,
+    "displayName": ""
   }
-}
+]

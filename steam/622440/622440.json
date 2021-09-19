@@ -2,16 +2,23 @@
   "Dlcs": {
     "622850": {
       "Name": "Pandemic: On the Brink - Virulent Strain",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/622850/header.jpg?t=1580287878"
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/622850/header.jpg?t=1580287878",
+      "Type": "dlc"
     },
     "622851": {
       "Name": "Pandemic: On the Brink - Roles & Events",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/622851/header.jpg?t=1587051804"
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/622851/header.jpg?t=1587051804",
+      "Type": "dlc"
+    },
+    "1224970": {
+      "Name": "Pandemic - On the Brink: Mutation",
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1224970/header.jpg?t=1627459929",
+      "Type": "dlc"
     }
   },
   "Name": "Pandemic: The Board Game",
   "AppId": "622440",
-  "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/622440/header.jpg?t=1589138051",
+  "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/622440/header.jpg?t=1627460621",
   "Languages": [
     "english",
     "french",
@@ -22,7 +29,6 @@
     "danish",
     "dutch",
     "greek",
-    "hungarian",
     "japanese",
     "korean",
     "polish",

@@ -68,5 +68,15 @@
     "name": "STAT_KILLS_IN_ROW",
     "defaultvalue": 0,
     "displayName": "Largest amount of kills in row"
+  },
+  {
+    "name": "STAT_KILLS_SNIPER",
+    "defaultvalue": 0,
+    "displayName": "Sniper rifle kills"
+  },
+  {
+    "name": "STAT_KILLS_FLAMETHROWER",
+    "defaultvalue": 0,
+    "displayName": "Flamethrower kills"
   }
 ]

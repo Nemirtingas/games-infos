@@ -1,15 +1,9 @@
 {
-  "Dlcs": {},
-  "Name": "N.I.C.E. 2",
-  "AppId": "853330",
-  "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/853330/header.jpg?t=1586627431",
-  "Languages": [
-    "english",
-    "german"
-  ],
-  "Platforms": {
-    "windows": true,
-    "mac": false,
-    "linux": false
+  "Dlcs": {
+    "1286440": {
+      "Name": "N.I.C.E. 2 Soundtrack",
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1286440/header.jpg?t=1586457700",
+      "Type": "music"
+    }
   }
 }

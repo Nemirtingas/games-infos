@@ -1,110 +1,137 @@
-﻿{
-  "stat_score": {
-    "description": "Points Scored",
-    "value": 0
+[
+  {
+    "name": "stat_score",
+    "defaultvalue": 0,
+    "displayName": "Points Scored"
   },
-  "stat_matchesPlayed": {
-    "description": "Matches Played",
-    "value": 0
+  {
+    "name": "stat_matchesPlayed",
+    "defaultvalue": 0,
+    "displayName": "Matches Played"
   },
-  "stat_matchesQuit": {
-    "description": "Matches Quit",
-    "value": 0
+  {
+    "name": "stat_matchesQuit",
+    "defaultvalue": 0,
+    "displayName": "Matches Quit"
   },
-  "stat_shotsThunder": {
-    "description": "Thunder Gun Shots Fired",
-    "value": 0
+  {
+    "name": "stat_shotsThunder",
+    "defaultvalue": 0,
+    "displayName": "Thunder Gun Shots Fired"
   },
-  "stat_shotsShock": {
-    "description": "Lock Shock Shots Fired",
-    "value": 0
+  {
+    "name": "stat_shotsShock",
+    "defaultvalue": 0,
+    "displayName": "Lock Shock Shots Fired"
   },
-  "stat_shotsProd": {
-    "description": "Cattle Prod Shots Fired",
-    "value": 0
+  {
+    "name": "stat_shotsProd",
+    "defaultvalue": 0,
+    "displayName": "Cattle Prod Shots Fired"
   },
-  "stat_shotsPistol": {
-    "description": "Pistol Shots Fired",
-    "value": 0
+  {
+    "name": "stat_shotsPistol",
+    "defaultvalue": 0,
+    "displayName": "Pistol Shots Fired"
   },
-  "stat_shotsSMG": {
-    "description": "SMG Shots Fired",
-    "value": 0
+  {
+    "name": "stat_shotsSMG",
+    "defaultvalue": 0,
+    "displayName": "SMG Shots Fired"
   },
-  "stat_shotsMagnum": {
-    "description": "Magnum Shots Fired",
-    "value": 0
+  {
+    "name": "stat_shotsMagnum",
+    "defaultvalue": 0,
+    "displayName": "Magnum Shots Fired"
   },
-  "stat_damageTaken": {
-    "description": "Damage Taken",
-    "value": 0
+  {
+    "name": "stat_damageTaken",
+    "defaultvalue": 0,
+    "displayName": "Damage Taken"
   },
-  "stat_killsDrone": {
-    "description": "Drones Killed",
-    "value": 0
+  {
+    "name": "stat_killsDrone",
+    "defaultvalue": 0,
+    "displayName": "Drones Killed"
   },
-  "stat_killsMutant": {
-    "description": "Fat Mutants Killed",
-    "value": 0
+  {
+    "name": "stat_killsMutant",
+    "defaultvalue": 0,
+    "displayName": "Fat Mutants Killed"
   },
-  "stat_killsStomach": {
-    "description": "Stomach Mutants Killed",
-    "value": 0
+  {
+    "name": "stat_killsStomach",
+    "defaultvalue": 0,
+    "displayName": "Stomach Mutants Killed"
   },
-  "stat_killsCarcass": {
-    "description": "Carcasses Killed",
-    "value": 0
+  {
+    "name": "stat_killsCarcass",
+    "defaultvalue": 0,
+    "displayName": "Carcasses Killed"
   },
-  "stat_healthGrabbed": {
-    "description": "Health Packs Grabbed",
-    "value": 0
+  {
+    "name": "stat_healthGrabbed",
+    "defaultvalue": 0,
+    "displayName": "Health Packs Grabbed"
   },
-  "stat_healthHealed": {
-    "description": "Hit Points Healed",
-    "value": 0
+  {
+    "name": "stat_healthHealed",
+    "defaultvalue": 0,
+    "displayName": "Hit Points Healed"
   },
-  "stat_timePlayed": {
-    "description": "Time Played",
-    "value": 0
+  {
+    "name": "stat_timePlayed",
+    "defaultvalue": 0,
+    "displayName": "Time Played"
   },
-  "stat_streakSaves": {
-    "description": "Streaks Saved",
-    "value": 0
+  {
+    "name": "stat_streakSaves",
+    "defaultvalue": 0,
+    "displayName": "Streaks Saved"
   },
-  "stat_whippings": {
-    "description": "Whippings Taken",
-    "value": 0
+  {
+    "name": "stat_whippings",
+    "defaultvalue": 0,
+    "displayName": "Whippings Taken"
   },
-  "stat_rainStorms": {
-    "description": "Rain Storms Encountered",
-    "value": 0
+  {
+    "name": "stat_rainStorms",
+    "defaultvalue": 0,
+    "displayName": "Rain Storms Encountered"
   },
-  "stat_overcharges": {
-    "description": "Overcharges Fired",
-    "value": 0
+  {
+    "name": "stat_overcharges",
+    "defaultvalue": 0,
+    "displayName": "Overcharges Fired"
   },
-  "stat_teslas": {
-    "description": "Tesla Coils Activated",
-    "value": 0
+  {
+    "name": "stat_teslas",
+    "defaultvalue": 0,
+    "displayName": "Tesla Coils Activated"
   },
-  "stat_thunderJumps": {
-    "description": "Thunder Jumps Executed",
-    "value": 0
+  {
+    "name": "stat_thunderJumps",
+    "defaultvalue": 0,
+    "displayName": "Thunder Jumps Executed"
   },
-  "stat_highCombo": {
-    "description": "Highest Combo",
-    "value": 0
+  {
+    "name": "stat_highCombo",
+    "defaultvalue": 0,
+    "displayName": "Highest Combo"
   },
-  "stat_highStreak": {
-    "description": "Highest Streak",
-    "value": 0
+  {
+    "name": "stat_highStreak",
+    "defaultvalue": 0,
+    "displayName": "Highest Streak"
   },
-  "stat_xp": {
-    "description": "XP Earned",
-    "value": 0
+  {
+    "name": "stat_xp",
+    "defaultvalue": 0,
+    "displayName": "XP Earned"
   },
-  "stat_orbis": {
-    "description": "Orbis Statues Found",
-    "value": 0
+  {
+    "name": "stat_orbis",
+    "defaultvalue": 0,
+    "displayName": "Orbis Statues Found"
   }
-}
+]

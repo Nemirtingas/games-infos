@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "name": "ACH_GW_BR_UNPOPPABLE",
     "defaultvalue": 0,
@@ -3334,7 +3334,7 @@
     "defaultvalue": 0,
     "displayName": "Three Fifty",
     "hidden": 0,
-    "description": "Toss 350 coins total in Wheely Rigged.",
+    "description": "Toss 350 coins total in Sunlight Roller.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/394690/037145fc1e1231ff8675013decfb9c95ddf81e0d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/394690/7e50c9bd18a92479a87a27ba360a888615cbd6ef.jpg"
   },
@@ -3433,7 +3433,7 @@
     "defaultvalue": 0,
     "displayName": "Midway Mania",
     "hidden": 0,
-    "description": "Score 30,000 points in a single game of Skeeball.",
+    "description": "Score 30,000 points in a single game of Starfield Lanes.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/394690/6411cbccaa8f598beb788f40368653eabf212c42.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/394690/a98feccbd9e59545308cfb7b28b509bd60d4ea63.jpg"
   },
@@ -3442,7 +3442,7 @@
     "defaultvalue": 0,
     "displayName": "Bullseye",
     "hidden": 0,
-    "description": "Pocket a ball in one of the top corners in Skeeball.",
+    "description": "Pocket a ball in one of the top corners in Starfield Lanes.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/394690/436e7c3fb35c93b283b240c0735bfcd2b1c3d0d9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/394690/93a741b8eabec76ba9339ddf2c5852a64d432ef5.jpg"
   },
@@ -4030,5 +4030,455 @@
     "description": "Drift for more than 8 seconds without being interrupted.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/394690/6be65b491453b6557dc633f7c7241fc5bac8443d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/394690/6d85d330f72f1c8b91c7f8e9ffb12b9aef5d96b2.jpg"
+  },
+  {
+    "name": "ACH_PLZ_HALLOWEEN_GHOSTPUP",
+    "defaultvalue": 0,
+    "displayName": "Ghost Pup",
+    "hidden": 0,
+    "description": "Find Lil' Pup",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/394690/527291b47032b57e5c9ea9a8336a3467f1020245.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/394690/e3088fb366ecf2e410f477b44643c30804ff55a1.jpg"
+  },
+  {
+    "name": "ACH_PLZ_HALLOWEEN_GHOULISHSPENDER",
+    "defaultvalue": 0,
+    "displayName": "Ghoulish Spender",
+    "hidden": 0,
+    "description": "Buy every Ghoulcery item",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/394690/527291b47032b57e5c9ea9a8336a3467f1020245.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/394690/e3088fb366ecf2e410f477b44643c30804ff55a1.jpg"
+  },
+  {
+    "name": "ACH_PLZ_HALLOWEEN_HAUNTEDFRIENDSHIPS",
+    "defaultvalue": 0,
+    "displayName": "Haunted Friendships",
+    "hidden": 0,
+    "description": "Befriend the Halloween characters",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/394690/527291b47032b57e5c9ea9a8336a3467f1020245.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/394690/e3088fb366ecf2e410f477b44643c30804ff55a1.jpg"
+  },
+  {
+    "name": "ACH_PLZ_HALLOWEEN_RICHGHOSTLY",
+    "defaultvalue": 0,
+    "displayName": "Rich & Ghostly",
+    "hidden": 0,
+    "description": "Collect 100 Ghoul Coins",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/394690/527291b47032b57e5c9ea9a8336a3467f1020245.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/394690/e3088fb366ecf2e410f477b44643c30804ff55a1.jpg"
+  },
+  {
+    "name": "ACH_PLZ_HALLOWEEN_SOULFINDER",
+    "defaultvalue": 0,
+    "displayName": "Soul Finder",
+    "hidden": 0,
+    "description": "Deliver 50 remains",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/394690/f1026694ec01df552106997d1baa6f93123695b6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/394690/b26ad359678f64cbc9d4851256b93dea2c70ae6e.jpg"
+  },
+  {
+    "name": "ACH_PLZ_HALLOWEEN_SOULCOLLECTOR",
+    "defaultvalue": 0,
+    "displayName": "Soul Collector",
+    "hidden": 0,
+    "description": "Deliver 100 remains",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/394690/10bd42b8a6af654dbb33cdce9db8bb9b3f359766.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/394690/13c1710ddec370d3a0b5c7964d52022d35b156a1.jpg"
+  },
+  {
+    "name": "ACH_PLZ_HALLOWEEN_DETECTIVE",
+    "defaultvalue": 0,
+    "displayName": "Detective",
+    "hidden": 0,
+    "description": "Uncover the 10 hidden bones in the Plaza",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/394690/10bd42b8a6af654dbb33cdce9db8bb9b3f359766.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/394690/13c1710ddec370d3a0b5c7964d52022d35b156a1.jpg"
+  },
+  {
+    "name": "ACH_PLZ_HALLOWEEN_TRICKORTREAT",
+    "defaultvalue": 0,
+    "displayName": "Trick or Treat",
+    "hidden": 0,
+    "description": "Collect 50 candy",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/394690/ed2f236027eaf1aa43cd0fb822234bca2b68fb48.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/394690/78b04382113de4a7c301ce6a76264b2083fb345a.jpg"
+  },
+  {
+    "name": "ACH_PLZ_HALLOWEEN_SPOILSOFTHEDEAD",
+    "defaultvalue": 0,
+    "displayName": "Spoils of the Dead",
+    "hidden": 0,
+    "description": "Find the haunted treasure",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/394690/07b555695dec35bea007276abcd5286f332309c3.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/394690/78b04382113de4a7c301ce6a76264b2083fb345a.jpg"
+  },
+  {
+    "name": "ACH_PLZ_HALLOWEEN_BOO",
+    "defaultvalue": 0,
+    "displayName": "Boo!",
+    "hidden": 0,
+    "description": "Open a Halloween catsack",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/394690/ed2f236027eaf1aa43cd0fb822234bca2b68fb48.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/394690/e427192b94b084dcbd8f9d68a41dce2ad1f3c18c.jpg"
+  },
+  {
+    "name": "ACH_PLZ_HALLOWEEN_STINGYJACK",
+    "defaultvalue": 0,
+    "displayName": "Stingy Jack",
+    "hidden": 0,
+    "description": "Find all 131 Jack o' Lanterns in the Plaza",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/394690/07b555695dec35bea007276abcd5286f332309c3.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/394690/e427192b94b084dcbd8f9d68a41dce2ad1f3c18c.jpg"
+  },
+  {
+    "name": "ACH_GW_LC_COUNTMYSTICGROVE",
+    "defaultvalue": 0,
+    "displayName": "Count of Mystic Grove",
+    "hidden": 0,
+    "description": "Become the Count on Mystic Grove.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/394690/63f90acba8963b20d450775689a49c7ffd155c5e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/394690/6184a991bcbe34eba45440172d36d669f9530b14.jpg"
+  },
+  {
+    "name": "ACH_GW_LC_DRAGONMYSTICGROVE",
+    "defaultvalue": 0,
+    "displayName": "Mystic Grove Destruction",
+    "hidden": 0,
+    "description": "Eat all the Knights in a single round as the Dragon in Mystic Grove.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/394690/8949d9dcd5b4487ff14d7068d1b05092265639ad.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/394690/0ed5478bbaa2c7ef577484d6c4af8454a05759ec.jpg"
+  },
+  {
+    "name": "ACH_PLZ_NIGHTCLUB_8BALLROOKIE",
+    "defaultvalue": 0,
+    "displayName": "8-Ball Rookie",
+    "hidden": 0,
+    "description": "Win a game of 8-ball.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/394690/",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/394690/"
+  },
+  {
+    "name": "ACH_PLZ_NIGHTCLUB_8BALLCHAMPION",
+    "defaultvalue": 0,
+    "displayName": "8-Ball Champion",
+    "hidden": 0,
+    "description": "Win 10 games of 8-ball.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/394690/",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/394690/"
+  },
+  {
+    "name": "ACH_PLZ_NIGHTCLUB_CLEANGAME",
+    "defaultvalue": 0,
+    "displayName": "Clean Game",
+    "hidden": 0,
+    "description": "Clear the table without scratching once.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/394690/",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/394690/"
+  },
+  {
+    "name": "ACH_PLZ_NIGHTCLUB_POOLHUSTLER",
+    "defaultvalue": 0,
+    "displayName": "Pool Hustler",
+    "hidden": 0,
+    "description": "Sink 3 valid balls in a row.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/394690/",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/394690/"
+  },
+  {
+    "name": "ACH_PLZ_NIGHTCLUB_TRICKSHOT",
+    "defaultvalue": 0,
+    "displayName": "Trick Shot",
+    "hidden": 0,
+    "description": "Sink a valid ball from across the table.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/394690/",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/394690/"
+  },
+  {
+    "name": "ACH_GW_ACCEL_WISHYWASHYCOMPLETE",
+    "defaultvalue": 0,
+    "displayName": "Wishy Washy Waterfall Completed",
+    "hidden": 0,
+    "description": "Race through Wishy Washy Waterfall.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/394690/547cb4867fdf2cc8f03a9bb2a97ceaa7aa9e7d6f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/394690/96b309e39c7619f457d8b3462a31897390e69349.jpg"
+  },
+  {
+    "name": "ACH_GW_ACCEL_WISHYWASHYTROPHY",
+    "defaultvalue": 0,
+    "displayName": "Wishy Washy Waterfall Trophy",
+    "hidden": 0,
+    "description": "Race through Wishy Washy Waterfall  and place 1st with more than 4 players.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/394690/21fa4bfe6279dc61b96a5b68ff8414be768499d4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/394690/93a3794b9e55ef9d56a2e10d57f40a4bbf6814e3.jpg"
+  },
+  {
+    "name": "ACH_GW_ACCEL_WISHYWASHYMASTERED",
+    "defaultvalue": 0,
+    "displayName": "Wishy Washy Waterfall Mastered",
+    "hidden": 0,
+    "description": "Race through Wishy Washy Waterfall  20 times.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/394690/170850d6c7517e2f659f545e39a24b4755871a88.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/394690/77db5cda0904413ead2e316718279d9a4cde3d1e.jpg"
+  },
+  {
+    "name": "ACH_GW_MGOLF_DARKHIO1",
+    "defaultvalue": 0,
+    "displayName": "Dark HIO #1",
+    "hidden": 0,
+    "description": "Get hole in one on Dark - Hole 4.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/394690/e9480efce63fbe5e4f3c28a58cc1bc8acc488eca.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/394690/6c026df04705aec6f26b782486d1be34db215396.jpg"
+  },
+  {
+    "name": "ACH_GW_MGOLF_DARKHIO2",
+    "defaultvalue": 0,
+    "displayName": "Dark HIO #2",
+    "hidden": 0,
+    "description": "Get hole in one on Dark - Hole 7.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/394690/47f23f74f93be7b9ccb0bfa3c3eb7c89b5b56238.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/394690/34a16a3d2f5a5f5e0b2193da783574108df17957.jpg"
+  },
+  {
+    "name": "ACH_GW_MGOLF_DARKHIO3",
+    "defaultvalue": 0,
+    "displayName": "Dark HIO #3",
+    "hidden": 0,
+    "description": "Get hole in one on Dark - Hole 8.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/394690/47081badc1a7c7e91ef16cab22fa47477a4a077e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/394690/0773b89b02561208377413157b63731267524cb5.jpg"
+  },
+  {
+    "name": "ACH_GW_MGOLF_DARKHIO4",
+    "defaultvalue": 0,
+    "displayName": "Dark HIO #4",
+    "hidden": 0,
+    "description": "Get hole in one on Dark - Hole 9.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/394690/3349951a91237535efa5eaa7c897b6f74f04b992.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/394690/e907e162fc50aff6f862cad24b6f56de2cca4f61.jpg"
+  },
+  {
+    "name": "ACH_GW_MGOLF_DARKCOMPLETE",
+    "defaultvalue": 0,
+    "displayName": "Dark Completed",
+    "hidden": 0,
+    "description": "Play through each hole of Dark.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/394690/06d6cc6e6faee24435bd4085802cddfa2350f14e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/394690/2947a270caa980229d0ab8d93e9e80a09786bb70.jpg"
+  },
+  {
+    "name": "ACH_GW_MGOLF_DARKREGULAR",
+    "defaultvalue": 0,
+    "displayName": "Dark Regular",
+    "hidden": 0,
+    "description": "Play through each hole of Dark 10 times.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/394690/0b417e31738398f28b42749c8225792884a5b547.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/394690/523d9528440c523b6d3913c09ea34f4bc48d371a.jpg"
+  },
+  {
+    "name": "ACH_GW_MGOLF_DARKMASTERED",
+    "defaultvalue": 0,
+    "displayName": "Dark Mastered",
+    "hidden": 0,
+    "description": "Get par or below for the course on Dark.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/394690/42605fe16242a742ef5e69e317af4f60347f3468.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/394690/2df3a7adfcb1cbdfcd770ec1f94cced65e3d43ef.jpg"
+  },
+  {
+    "name": "ACH_PLZ_ARCADE_PLANETPIANOILLBETAKINGTHAT",
+    "defaultvalue": 0,
+    "displayName": "Thanks For Playing, I'll Be Taking That",
+    "hidden": 0,
+    "description": "Steal your opponent's score in Planetary Piano's multiplayer Sprint 64 mode.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/394690/07db43cef9b3b342efc448498845295e444a2eed.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/394690/9e16b5fe051fa89c7ce53c1f9c7abbe33183b282.jpg"
+  },
+  {
+    "name": "ACH_PLZ_ARCADE_PLANETPIANOHAVINGAKEYSTROKE",
+    "defaultvalue": 0,
+    "displayName": "I'm Having a Key Stroke",
+    "hidden": 0,
+    "description": "Play a perfect game of 4-Key Sprint 64 in Planetary Piano within eight seconds.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/394690/489c44344a3b24ceb309902aa1212eec14adff63.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/394690/9fb2b15d715811d24dbf062b6f80e86533eb3c9c.jpg"
+  },
+  {
+    "name": "ACH_PLZ_ARCADE_PLANETPIANOLOTOFNOTES",
+    "defaultvalue": 0,
+    "displayName": "That's a Lot Of Notes!",
+    "hidden": 0,
+    "description": "Play a perfect game of 8-Key Sprint 64 in Planetary Piano.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/394690/716c418a4850fd594d8d64710dbe3cc13081a693.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/394690/fbab350df37cf0c791a24f322fcf7f559993fdee.jpg"
+  },
+  {
+    "name": "ACH_PLZ_ARCADE_MASFUERTESTRONGMAN",
+    "defaultvalue": 0,
+    "displayName": "Strongman",
+    "hidden": 0,
+    "description": "Hit the hammer with 90% or more power in Mas Fuerte 2K.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/394690/f68dbd90dff2c1c026036f06243e4a0078f5ceee.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/394690/fea54fe57390e4577061a04909bd026c40629c89.jpg"
+  },
+  {
+    "name": "ACH_PLZ_ARCADE_MASFUERTESTRONGER",
+    "defaultvalue": 0,
+    "displayName": "Stronger Harder Better",
+    "hidden": 0,
+    "description": "Hit the hammer with 90% or more power on both rounds in Mas Fuerte 2K.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/394690/7eb5eaff930fdc1c0d5f7c3eaf8676a46600ee46.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/394690/8aa69d74d9e61d35bf066a7745fdeedd8756fe41.jpg"
+  },
+  {
+    "name": "ACH_PLZ_ARCADE_GEARSOFCOINWHEELINTHESKY",
+    "defaultvalue": 0,
+    "displayName": "The Wheel In The Sky Keeps On Spinning ",
+    "hidden": 0,
+    "description": "Land a jackpot in Gears of Coin.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/394690/5ae76af34cbcbd0190545cda14254bee53bf4d3d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/394690/4e73cf777f8a106ab4a7e0958648b6e09a05a1b4.jpg"
+  },
+  {
+    "name": "ACH_PLZ_ARCADE_GEARSOFCOINWAROFGEARS",
+    "defaultvalue": 0,
+    "displayName": "War of Gears",
+    "hidden": 0,
+    "description": "Score 5,000 or more points in total in Gears of Coin.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/394690/8ff271c73a117304d67ee4b45d33936e1a458354.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/394690/cd8cd46437f3437c96b28c80f6f00d7c663f6250.jpg"
+  },
+  {
+    "name": "ACH_PLZ_ARCADE_GEARSOFCOINCON",
+    "defaultvalue": 0,
+    "displayName": "Gears of Con",
+    "hidden": 0,
+    "description": "Land a jackpot while in triple mode in Gears of Coin. Jackpots are not actually tripled.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/394690/39af36fb36663c976e77dfb715b20d6ba917c9a2.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/394690/cba645681716a47534e8ee848c9a39a657c31324.jpg"
+  },
+  {
+    "name": "ACH_PLZ_ARCADE_COINRIVERSPELLED",
+    "defaultvalue": 0,
+    "displayName": "River, That's R-I-V-E-R-!",
+    "hidden": 0,
+    "description": "Spell out RIVER! in Coin River to activate the coin gun.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/394690/da1b6a956bc84d6aab23cc8a302d6a95d8500483.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/394690/f255db74ebacf791bb89651197408814ddab8e92.jpg"
+  },
+  {
+    "name": "ACH_PLZ_ARCADE_COINRIVERPOTGOLD",
+    "defaultvalue": 0,
+    "displayName": "Didn't Need a Rainbow to Find Me a Pot of Gold",
+    "hidden": 0,
+    "description": "Score a bucket of gold in Coin River.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/394690/9ca37b0403fdf3d0c0874e3cdf1f4ab2d3ecddb8.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/394690/5ffb6a471d324fbacc77aa2d1960c8f0bd7fadd8.jpg"
+  },
+  {
+    "name": "ACH_PLZ_ARCADE_COINRIVERGOLDCOINSRAIN",
+    "defaultvalue": 0,
+    "displayName": "It's Raining Gold",
+    "hidden": 0,
+    "description": "Shoot 100 or more gold coins in total in Coin River.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/394690/236657ed0de30aeabf8bc2a1d298dc5e2863e1d7.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/394690/a814fd834f84b1c623fbf0716d44df641ece8778.jpg"
+  },
+  {
+    "name": "ACH_PLZ_ARCADE_DRAGONSTREASUREGEMS",
+    "defaultvalue": 0,
+    "displayName": "All The Gems Are All Lined Up",
+    "hidden": 0,
+    "description": "Light up all the gems in Dragon's Treasure.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/394690/ff6f0c8ccfd70d078710c462699224cdac168a2e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/394690/eff219a93d9db0a991921835d6826947b14ff1fd.jpg"
+  },
+  {
+    "name": "ACH_PLZ_ARCADE_DRAGONSTREASUREDRAGON",
+    "defaultvalue": 0,
+    "displayName": "Here Be Dragons",
+    "hidden": 0,
+    "description": "Summon the dragon in Dragon's Treasure.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/394690/d309ef0bbc3e238210b7ffcff4c3a69ff8dac9f1.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/394690/750421a622dcd091256bf17c170ac4ff93a601c9.jpg"
+  },
+  {
+    "name": "ACH_PLZ_ARCADE_DRAGONSTREASURECHESTS",
+    "defaultvalue": 0,
+    "displayName": "Today is Chest Day",
+    "hidden": 0,
+    "description": "Score 10 or more treasure chests in total Dragon's Treasure.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/394690/1fed70137d9bac60f0a74ada12a68b88e011a65f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/394690/ca70fa8d9fa216043c29152e6c8c5d65b587c8a6.jpg"
+  },
+  {
+    "name": "ACH_PLZ_ARCADE_COWWHEELLACTOSETOLERANT",
+    "defaultvalue": 0,
+    "displayName": "Lactose Tolerant",
+    "hidden": 0,
+    "description": "Spell out MILK in Ultimate Cow Wheel.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/394690/9d5c980aa7eab20a66f02475dbd00518100342e1.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/394690/1e363b4afdb5537c7b8cf5c9b8d2bfd6aee598ad.jpg"
+  },
+  {
+    "name": "ACH_PLZ_ARCADE_COWWHEELMOOVEIT",
+    "defaultvalue": 0,
+    "displayName": "I Like To Moo-ve It",
+    "hidden": 0,
+    "description": "Score 5,000 or more points in total in Ultimate Cow Wheel.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/394690/7792e0169f6ca84cd25f921f3eb59480745358b2.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/394690/e8049e81b6441ba712ceee8ce118fd745670e56e.jpg"
+  },
+  {
+    "name": "ACH_PLZ_ARCADE_WHOSEHUEPINKSEASON",
+    "defaultvalue": 0,
+    "displayName": "It's Pink Season",
+    "hidden": 0,
+    "description": "Place a winning bet on the pink color in Whose Hue.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/394690/0e20b1d55fad3310774a326dc511d153fa11705e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/394690/3c126b4e35577e2ce81be6f5cc1d83cd5f6209b1.jpg"
+  },
+  {
+    "name": "ACH_PLZ_ARCADE_WHOSEHUEMYHUE",
+    "defaultvalue": 0,
+    "displayName": "My Hue!",
+    "hidden": 0,
+    "description": "Place 10 winning bets on any color in Whose Hue.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/394690/971f6f37d0f7dda7d1d594c8f429b42ac640e894.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/394690/e890aa75daa873b454bf2e955851f9800c392e97.jpg"
+  },
+  {
+    "name": "ACH_PLZ_ARCADE_PRISMATICAMAZING",
+    "defaultvalue": 0,
+    "displayName": "A-MAZE-ING",
+    "hidden": 0,
+    "description": "Get a bonus ball drop in Prismatic.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/394690/aec9e8e04859cfbb979ce10b1d1ee09301dba517.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/394690/635866538744c2aed0165b701e12602141c1893d.jpg"
+  },
+  {
+    "name": "ACH_PLZ_ARCADE_PRISMATICLIFEMAZE",
+    "defaultvalue": 0,
+    "displayName": "Life's a Maze",
+    "hidden": 0,
+    "description": "Score 5,000 or more points in total in Prismatic.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/394690/a58175587a0a2c1f6d2af3398228199f13bed626.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/394690/748be24e32a2be0a82edf39156c837f4a10dba14.jpg"
+  },
+  {
+    "name": "ACH_PLZ_ARCADE_CANDYSLAMCARBOHYDRATES",
+    "defaultvalue": 0,
+    "displayName": "Mmmm Look At All Those Carbohydrates",
+    "hidden": 0,
+    "description": "Finish with at least 450 points in Candy Slam.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/394690/c90fbc068735de8fb272ab41bfff1396cfb4f797.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/394690/5c65d772f04e7192c790e702234af94dbb7190aa.jpg"
+  },
+  {
+    "name": "ACH_PLZ_ARCADE_CANDYSLAMROTTENTEETH",
+    "defaultvalue": 0,
+    "displayName": "Rotten Teeth",
+    "hidden": 0,
+    "description": "Score 5,000 or more points in total in Candy Slam.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/394690/9e388e7612da9d0092196812b2bdf5b97e3b8a1c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/394690/59908dba8106cad90bee71dbbbbd7507d42dde02.jpg"
   }
 ]

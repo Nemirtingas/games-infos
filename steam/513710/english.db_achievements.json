@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "name": "spawn_on_island",
     "defaultvalue": 0,
@@ -502,5 +502,138 @@
     "description": "Get all archery ahievements.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/513710/f2fe12e9fa05f39a0a3299463d882fffd2e2269a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/513710/2281e3e66dbf05c7d879923cea93a0ec2c8335fe.jpg"
+  },
+  {
+    "name": "escape_from_shark_bite",
+    "defaultvalue": 0,
+    "displayName": "The Great Fight",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/513710/12ef69337bf555a44f186a7affd4015eac1d42f1.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/513710/9c3b6fa57a3a76d2776358afd6e04078ebb99c6d.jpg"
+  },
+  {
+    "name": "release_50_fish_in_row",
+    "defaultvalue": 0,
+    "displayName": "Purely recreational",
+    "hidden": 0,
+    "description": "Release 50 fish in a row.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/513710/58cdac462f0b2cdaf39cf855a27befa21b9f42cc.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/513710/34fc096e538869d4d8ea1180a480f876cae69369.jpg"
+  },
+  {
+    "name": "keep_50_fish_in_row",
+    "defaultvalue": 0,
+    "displayName": "Finders Keepers",
+    "hidden": 0,
+    "description": "Keep 50 fish in a row.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/513710/45e3233f7d0e86c4902799fafd026d0452413cf2.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/513710/ec385b7b24464f4e7f11e1caaebca6ac18bba94b.jpg"
+  },
+  {
+    "name": "catch_fish_above_5_kg",
+    "defaultvalue": 0,
+    "displayName": "Found Nemo!",
+    "hidden": 0,
+    "description": "Catch a fish above 5kg.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/513710/cc7c3f43f9a8ea6b0253fea9d3b17c49e7b68f25.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/513710/8642da7b177a176a6af9764e002fac7fcbc7e8c5.jpg"
+  },
+  {
+    "name": "catch_fish_above_10_kg",
+    "defaultvalue": 0,
+    "displayName": "There is always a bigger fish",
+    "hidden": 0,
+    "description": "Catch a fish above 10kg.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/513710/8b1a09d775d4b8ef9b91f8238248c6840ab53656.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/513710/99d30c0ff3eace7a96ae1a21ac9b4c3bcde95772.jpg"
+  },
+  {
+    "name": "catch_fish_above_15_kg",
+    "defaultvalue": 0,
+    "displayName": "Size Matters",
+    "hidden": 0,
+    "description": "Catch a fish above 15kg.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/513710/00e802479b89741ed360687d0fdeee5296248f08.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/513710/e3de5d3123eb8aeb81fb8d84379144f71b6373f8.jpg"
+  },
+  {
+    "name": "catch_fish",
+    "defaultvalue": 0,
+    "displayName": "Googin",
+    "hidden": 0,
+    "description": "Catch a fish.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/513710/52b1f70672390154aa426de5ca41c4c68ba6568a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/513710/065abbd2670410f10feed41bd9bc4efdf68732eb.jpg"
+  },
+  {
+    "name": "catch_100_fish",
+    "defaultvalue": 0,
+    "displayName": "Troller",
+    "hidden": 0,
+    "description": "Catch 100 fish.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/513710/42d152fe29c4319c2671d3cc0b838f35a638c78c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/513710/b2e136a656be8e5532108317aed3fec5bed0f8c8.jpg"
+  },
+  {
+    "name": "catch_500_fish",
+    "defaultvalue": 0,
+    "displayName": "Fishing Guru",
+    "hidden": 0,
+    "description": "Catch 500 fish.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/513710/7371829e1a9f4d9c09f948389c61022515361ff7.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/513710/67270220b6af0adeacfda3032716516a6ef0dd45.jpg"
+  },
+  {
+    "name": "catch_1000_fish",
+    "defaultvalue": 0,
+    "displayName": "Atlantis Most Wanted",
+    "hidden": 0,
+    "description": "Catch 1000 fish.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/513710/68d8bab2eba7dd58006a56afa5f414af337f883f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/513710/5f26e7a3d51dfa4bae5a82d03c3d193b1dc878fe.jpg"
+  },
+  {
+    "name": "drive_boat",
+    "defaultvalue": 0,
+    "displayName": "Cabin Boy",
+    "hidden": 0,
+    "description": "Drive a boat.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/513710/04bbdcb493c73df39c649a7b523909ade497b635.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/513710/bf401a4ed5bfcfceab839280ea309f5864dc4420.jpg"
+  },
+  {
+    "name": "travel_10_km_with_boat",
+    "defaultvalue": 0,
+    "displayName": "Navigator",
+    "hidden": 0,
+    "description": "Travel 10km with a boat.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/513710/4434fcaabe30c39a7f76391a9b7774d18bd3c810.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/513710/b4e4c30a96e9ecc5c3cac89c7d1ee0daf3ab5b0f.jpg"
+  },
+  {
+    "name": "travel_50_km_with_boat",
+    "defaultvalue": 0,
+    "displayName": "First Mate",
+    "hidden": 0,
+    "description": "Travel 50km with a boat.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/513710/32ddf8d875549e7b84aff32dbb74c09d9dbe641b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/513710/8e453d2c291b81334ab65207a39affc9355641af.jpg"
+  },
+  {
+    "name": "travel_100_km_with_boat",
+    "defaultvalue": 0,
+    "displayName": "Scourge of the 7 Seas",
+    "hidden": 0,
+    "description": "Travel 100km with a boat.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/513710/9333c71947daeea773ffd359f42138092f892f10.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/513710/7a92aada3f09ed4e28735d8e8034d620ec94a2e0.jpg"
+  },
+  {
+    "name": "sail_during_storm",
+    "defaultvalue": 0,
+    "displayName": "Flying Dutchman",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/513710/30e93776363a435f5e339f7eee0f2392975e6274.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/513710/cdb26c62ac628e6e26cd1e3de97389b41f2ce086.jpg"
   }
 ]

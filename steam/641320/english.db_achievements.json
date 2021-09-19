@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "name": "DISH_FOUR_STARS_ON_TIME",
     "defaultvalue": 0,
@@ -2025,5 +2025,255 @@
     "description": "Build a tower made of at least 5 cakes. ",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/641320/fa5ddab16c908820b6fa1fe5b9c8bb8870267470.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/641320/cfaec928c6135be89db3583d689d417a8f69c9c6.jpg"
+  },
+  {
+    "name": "PIZZA_REROLL_ORDERS",
+    "defaultvalue": 0,
+    "displayName": "An offer you can refuse",
+    "hidden": 0,
+    "description": "Reroll 10 orders.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/641320/0e3f91e3d31d902cc873186a19813bf4b1b88bbb.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/641320/bba0f2fdf472bd11eef78542df0ff5cbc5f1b878.jpg"
+  },
+  {
+    "name": "PIZZA_REROLL_QUESTS",
+    "defaultvalue": 0,
+    "displayName": "Alea Iacta Est",
+    "hidden": 0,
+    "description": "Reroll 10 quests.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/641320/eac17f70429c91c12c1ccb583005abda4592e9ab.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/641320/28b1a7576c2b5820d6a604781305c73135da353f.jpg"
+  },
+  {
+    "name": "PIZZA_QUESTS_CHALLENGE_QUANTITY",
+    "defaultvalue": 0,
+    "displayName": "It's not personal",
+    "hidden": 0,
+    "description": "Complete quantity challenge quest.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/641320/c67f425a96d1bb93a8f64c084e1fa913545584ef.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/641320/2c846b150473791e19223c76efbcd859a48c6dd7.jpg"
+  },
+  {
+    "name": "PIZZA_QUESTS_QUANTITY",
+    "defaultvalue": 0,
+    "displayName": "It's strictly business",
+    "hidden": 0,
+    "description": "Complete all quantity quests.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/641320/51c4b3d574b09757fb90a50c37db5bbaacd97b7e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/641320/740a2b536eaf7679c670985c2fa089a0a9047980.jpg"
+  },
+  {
+    "name": "PIZZA_QUESTS_CHALLENGE_SPEED",
+    "defaultvalue": 0,
+    "displayName": "30 minutes or it's free",
+    "hidden": 0,
+    "description": "Complete speed challange quest.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/641320/da871887b48283eb7baa66707a00da44e37a9eac.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/641320/c6e0e87da7cca95b916f0dad07d778d170b0df50.jpg"
+  },
+  {
+    "name": "PIZZA_QUESTS_SPEED",
+    "defaultvalue": 0,
+    "displayName": "Pizza time",
+    "hidden": 0,
+    "description": "Complete all speed quests.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/641320/095ec1915bbfc8eeadcd180f5b96c18e4e0cf00a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/641320/ea3bde081c5011c8a480bb3f5c75f7b417a245f3.jpg"
+  },
+  {
+    "name": "PIZZA_QUESTS_CHALLENGE_QUALITY",
+    "defaultvalue": 0,
+    "displayName": "When the pizza is just right",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/641320/09e7de9a802a9aa1fd1bd88373eb66f798da728e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/641320/6f5916d641f8fcd8dbc28d0d25f942bdac705051.jpg"
+  },
+  {
+    "name": "PIZZA_QUESTS_QUALITY",
+    "defaultvalue": 0,
+    "displayName": "Every slice a masterpiece",
+    "hidden": 0,
+    "description": "Complete all quality quests.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/641320/66155339379bb5422371c0e71aca131f03ba4a90.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/641320/4867ecf34397c651bd4319d14f16daef1463e292.jpg"
+  },
+  {
+    "name": "PIZZA_CHALLENGE_QUESTS_ALL",
+    "defaultvalue": 0,
+    "displayName": "Mr Pizza sends his regards",
+    "hidden": 0,
+    "description": "Get all thropies.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/641320/44a4ac639824be65d4c66cf1aebf4e84b08056a4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/641320/9fb51bf6f7f85680e3c913ffbd54681b678ce5f3.jpg"
+  },
+  {
+    "name": "PIZZA_SERVE_10",
+    "defaultvalue": 0,
+    "displayName": "Bon Appetit!",
+    "hidden": 0,
+    "description": "Serve 10 pizzas.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/641320/8bf63afe5b63bedb54f43bbb292c7ee18cbebffe.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/641320/4e5a59768c32719bea8d43ee17ed7dac1c3eb745.jpg"
+  },
+  {
+    "name": "PIZZA_SERVE_50",
+    "defaultvalue": 0,
+    "displayName": "Dish best served hot",
+    "hidden": 0,
+    "description": "Serve 50 pizzas.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/641320/b41522a18aa0ac3de77ba32bfbcbfc0a3df4c895.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/641320/0330fa81c3e97a694d8e66638e79845e1ddd4591.jpg"
+  },
+  {
+    "name": "PIZZA_SERVE_100",
+    "defaultvalue": 0,
+    "displayName": "Pizza Ceasar",
+    "hidden": 0,
+    "description": "Serve 100 pizzas.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/641320/0683d72bd3ffd3ddc26dad09959df27add9903b8.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/641320/7a224ed599d9cdf2152f17323702d259d39629ac.jpg"
+  },
+  {
+    "name": "PIZZA_PERFECT_ORDERS_1",
+    "defaultvalue": 0,
+    "displayName": "Great men are not born great...",
+    "hidden": 0,
+    "description": "Serve your first max stars order.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/641320/03509e25f798b008d7e59b252450e78150a65c5e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/641320/36670956ef4428a5592c3d10536ce82d8800ffb7.jpg"
+  },
+  {
+    "name": "PIZZA_PERFECT_ORDERS_25",
+    "defaultvalue": 0,
+    "displayName": "... they grow great.",
+    "hidden": 0,
+    "description": "Serve 25 max stars orders.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/641320/94d52ca681b5f42fedf6cc3624417e78325a7a11.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/641320/e5e0d5153dac7212c373a7c67f644d5d01450433.jpg"
+  },
+  {
+    "name": "PIZZA_WORKED_DAYS_1",
+    "defaultvalue": 0,
+    "displayName": "Buona sera!",
+    "hidden": 0,
+    "description": "Finish first day of work.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/641320/5a94b4e6f9ab911d1b0129163f7410b815a3543c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/641320/5e2169e77cfd333da6c1f3dc9d0350e1ed767476.jpg"
+  },
+  {
+    "name": "PIZZA_WORKED_DAYS_3",
+    "defaultvalue": 0,
+    "displayName": "Italian Job",
+    "hidden": 0,
+    "description": "Finish 3 days of work.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/641320/bac29ecfaf6b6235b54bef8db21d0da0b2900428.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/641320/bbd8c737daf552b707a0e7355c46d33bbdf5d0d2.jpg"
+  },
+  {
+    "name": "PIZZA_WORKED_DAYS_7",
+    "defaultvalue": 0,
+    "displayName": "Ordinary Routine",
+    "hidden": 0,
+    "description": "Finish 7 days of work.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/641320/afa66fe32e9f094e8d084ddeb36eb44e77174996.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/641320/f522298ecd06ea7e7da2af702c3c7731c9960698.jpg"
+  },
+  {
+    "name": "PIZZA_ORDER_CATEGORY_FISH",
+    "defaultvalue": 0,
+    "displayName": "It's a Sicilian message",
+    "hidden": 0,
+    "description": "Serve pizza with a fish and get at least 4 stars.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/641320/8abd31f428f110cfc831dc40976bc266cfef8786.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/641320/0526b036e81b96fe80132fee2c41e9493d61a656.jpg"
+  },
+  {
+    "name": "PIZZA_ORDER_ROMANA",
+    "defaultvalue": 0,
+    "displayName": "All roads lead to Rome",
+    "hidden": 0,
+    "description": "Serve pizza Romana and get at least 4 stars.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/641320/6880746a86389bf125af6ea734085131373348bc.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/641320/f411050c447fe1e0c62f683ea6228b631dfb18bf.jpg"
+  },
+  {
+    "name": "PIZZA_ORDER_HAWAIANA",
+    "defaultvalue": 0,
+    "displayName": "Et tu, Brute?",
+    "hidden": 0,
+    "description": "Serve Hawaiana pizza and get at least 4 stars.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/641320/64f19b4d8756bb6928c0d6b50a9fc0f3ca40b933.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/641320/ecd2f0744ecdd32390a2002478051aae00069547.jpg"
+  },
+  {
+    "name": "PIZZA_PERFECT_ORDER_STREAK",
+    "defaultvalue": 0,
+    "displayName": "Cowabunga!",
+    "hidden": 0,
+    "description": "Get max stars for 4 orders in a row.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/641320/1b6112070c5d35c32cec291a851f9612ce90583a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/641320/5c6f6f788ef9f2526205efab7acd573f43f2530f.jpg"
+  },
+  {
+    "name": "PIZZA_TEN_IN_A_DAY",
+    "defaultvalue": 0,
+    "displayName": "Carpe Diem",
+    "hidden": 0,
+    "description": "Serve at least 10 pizzas in one day.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/641320/9f079d0a4c78adcd4ddf5602141944857f59d802.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/641320/ece865d90026628a870db6d64c90871478520ce9.jpg"
+  },
+  {
+    "name": "PIZZA_FAILED_ORDER",
+    "defaultvalue": 0,
+    "displayName": "Look how they massacred my boy",
+    "hidden": 0,
+    "description": "Get 0 stars for a served order.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/641320/c89472fd7c6a27dc45dbe96883a116f94b03652f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/641320/877d7e0e9a47af10e2802cf1f3793dc3b557900a.jpg"
+  },
+  {
+    "name": "PIZZA_QUESTS_ALL",
+    "defaultvalue": 0,
+    "displayName": "Maestro",
+    "hidden": 0,
+    "description": "Finish all quests in the game.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/641320/d2e7a3077c3df6cffec4a0ec8e24a62418fd215b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/641320/93a5933a5c99575539fc6d7be19e4293fc651c7b.jpg"
+  },
+  {
+    "name": "PIZZA_AMELINIUM",
+    "defaultvalue": 0,
+    "displayName": "Veni Vidi Vici",
+    "hidden": 0,
+    "description": "Get all other achievements from the DLC.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/641320/51b2fc122c304d5e51b8b6f1dfd722758cb713bd.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/641320/41d8f88dca126db431b8ff47ab620e06572c3d76.jpg"
+  },
+  {
+    "name": "PHOTOMODE_FIRST_USE",
+    "defaultvalue": 0,
+    "displayName": "Food Art",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/641320/180c8506f45a0be1c3524a8e5a24a8bd0ae0538b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/641320/137e278bf9207c05b35356bb0c519a4c3da90847.jpg"
+  },
+  {
+    "name": "FIVE_STARS_1140",
+    "defaultvalue": 0,
+    "displayName": "Roasted Christmas Ham",
+    "hidden": 0,
+    "description": "Serve 5-star Roasted Christmas Ham",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/641320/35f6771c50ab5df8f05e836d527f5760774bcafa.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/641320/64787654fa392d43605b0df2752978edb30633ce.jpg"
+  },
+  {
+    "name": "FIVE_STARS_1141",
+    "defaultvalue": 0,
+    "displayName": "Roasted christmas ham with garlic potatoes",
+    "hidden": 0,
+    "description": "Serve 5-star Roasted Christmas Ham with garlic potatoes",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/641320/e2f02712823226ef58efb79dbbe8e11846557db9.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/641320/cb0b5e249cae5f9ce3c8f8e063802517a0a5423c.jpg"
   }
 ]

@@ -1,122 +1,152 @@
-﻿{
-  "stat_Kills": {
-    "description": "Enemies Killed",
-    "value": 0
+[
+  {
+    "name": "stat_Kills",
+    "defaultvalue": 0,
+    "displayName": "Enemies Killed"
   },
-  "stat_Words": {
-    "description": "Words",
-    "value": 0
+  {
+    "name": "stat_Words",
+    "defaultvalue": 0,
+    "displayName": "Words"
   },
-  "stat_Letters": {
-    "description": "Letters",
-    "value": 0
+  {
+    "name": "stat_Letters",
+    "defaultvalue": 0,
+    "displayName": "Letters"
   },
-  "stat_SevenLetter": {
-    "description": "Seven Letter",
-    "value": 0
+  {
+    "name": "stat_SevenLetter",
+    "defaultvalue": 0,
+    "displayName": "Seven Letter"
   },
-  "stat_Typing": {
-    "description": "Typing",
-    "value": 0
+  {
+    "name": "stat_Typing",
+    "defaultvalue": 0,
+    "displayName": "Typing"
   },
-  "stat_SpecialTiles": {
-    "description": "Special Tiles",
-    "value": 0
+  {
+    "name": "stat_SpecialTiles",
+    "defaultvalue": 0,
+    "displayName": "Special Tiles"
   },
-  "stat_ExactDamage": {
-    "description": "Exact Damage",
-    "value": 0
+  {
+    "name": "stat_ExactDamage",
+    "defaultvalue": 0,
+    "displayName": "Exact Damage"
   },
-  "stat_MaxAbility": {
-    "description": "Max Ability",
-    "value": 0
+  {
+    "name": "stat_MaxAbility",
+    "defaultvalue": 0,
+    "displayName": "Max Ability"
   },
-  "stat_Level": {
-    "description": "Max Level",
-    "value": 0
+  {
+    "name": "stat_Level",
+    "defaultvalue": 0,
+    "displayName": "Max Level"
   },
-  "stat_TreasureChest": {
-    "description": "Treasure Chest",
-    "value": 0
+  {
+    "name": "stat_TreasureChest",
+    "defaultvalue": 0,
+    "displayName": "Treasure Chest"
   },
-  "stat_Follower": {
-    "description": "Follower",
-    "value": 0
+  {
+    "name": "stat_Follower",
+    "defaultvalue": 0,
+    "displayName": "Follower"
   },
-  "stat_PerfectFollower": {
-    "description": "Perfect Follower",
-    "value": 0
+  {
+    "name": "stat_PerfectFollower",
+    "defaultvalue": 0,
+    "displayName": "Perfect Follower"
   },
-  "stat_CompleteGame": {
-    "description": "Complete Game",
-    "value": 0
+  {
+    "name": "stat_CompleteGame",
+    "defaultvalue": 0,
+    "displayName": "Complete Game"
   },
-  "stat_Medusa": {
-    "description": "Medusa",
-    "value": 0
+  {
+    "name": "stat_Medusa",
+    "defaultvalue": 0,
+    "displayName": "Medusa"
   },
-  "stat_Hydra": {
-    "description": "Hydra",
-    "value": 0
+  {
+    "name": "stat_Hydra",
+    "defaultvalue": 0,
+    "displayName": "Hydra"
   },
-  "stat_NameanLion": {
-    "description": "Namean Lion",
-    "value": 0
+  {
+    "name": "stat_NameanLion",
+    "defaultvalue": 0,
+    "displayName": "Namean Lion"
   },
-  "stat_Cerberus": {
-    "description": "Cerberus",
-    "value": 0
+  {
+    "name": "stat_Cerberus",
+    "defaultvalue": 0,
+    "displayName": "Cerberus"
   },
-  "stat_Cyclops": {
-    "description": "Cyclops",
-    "value": 0
+  {
+    "name": "stat_Cyclops",
+    "defaultvalue": 0,
+    "displayName": "Cyclops"
   },
-  "stat_Arachne": {
-    "description": "Arachne",
-    "value": 0
+  {
+    "name": "stat_Arachne",
+    "defaultvalue": 0,
+    "displayName": "Arachne"
   },
-  "stat_Manticore": {
-    "description": "Manticore",
-    "value": 0
+  {
+    "name": "stat_Manticore",
+    "defaultvalue": 0,
+    "displayName": "Manticore"
   },
-  "stat_Sphinx": {
-    "description": "Sphinx",
-    "value": 0
+  {
+    "name": "stat_Sphinx",
+    "defaultvalue": 0,
+    "displayName": "Sphinx"
   },
-  "stat_Minotaur": {
-    "description": "Minotaur",
-    "value": 0
+  {
+    "name": "stat_Minotaur",
+    "defaultvalue": 0,
+    "displayName": "Minotaur"
   },
-  "stat_Chimera": {
-    "description": "Chimera",
-    "value": 0
+  {
+    "name": "stat_Chimera",
+    "defaultvalue": 0,
+    "displayName": "Chimera"
   },
-  "stat_Lycaon": {
-    "description": "Lycaon",
-    "value": 0
+  {
+    "name": "stat_Lycaon",
+    "defaultvalue": 0,
+    "displayName": "Lycaon"
   },
-  "stat_Ladon": {
-    "description": "Ladon",
-    "value": 0
+  {
+    "name": "stat_Ladon",
+    "defaultvalue": 0,
+    "displayName": "Ladon"
   },
-  "stat_Lamia": {
-    "description": "Lamia",
-    "value": 0
+  {
+    "name": "stat_Lamia",
+    "defaultvalue": 0,
+    "displayName": "Lamia"
   },
-  "stat_Typhon": {
-    "description": "Typhon",
-    "value": 0
+  {
+    "name": "stat_Typhon",
+    "defaultvalue": 0,
+    "displayName": "Typhon"
   },
-  "stat_Echidna": {
-    "description": "Echidna",
-    "value": 0
+  {
+    "name": "stat_Echidna",
+    "defaultvalue": 0,
+    "displayName": "Echidna"
   },
-  "stat_Boar": {
-    "description": "Boar",
-    "value": 0
+  {
+    "name": "stat_Boar",
+    "defaultvalue": 0,
+    "displayName": "Boar"
   },
-  "stat_Gold": {
-    "description": "Gold",
-    "value": 0
+  {
+    "name": "stat_Gold",
+    "defaultvalue": 0,
+    "displayName": "Gold"
   }
-}
+]

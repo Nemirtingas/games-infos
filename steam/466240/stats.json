@@ -1,54 +1,67 @@
-﻿{
-  "downs": {
-    "description": "Downs",
-    "value": 0
+[
+  {
+    "name": "downs",
+    "defaultvalue": 0,
+    "displayName": "Downs"
   },
-  "shots_fired": {
-    "description": "Shots Fired",
-    "value": 0
+  {
+    "name": "shots_fired",
+    "defaultvalue": 0,
+    "displayName": "Shots Fired"
   },
-  "shots_hit": {
-    "description": "Shots Hit",
-    "value": 0
+  {
+    "name": "shots_hit",
+    "defaultvalue": 0,
+    "displayName": "Shots Hit"
   },
-  "escapes": {
-    "description": "Escapes",
-    "value": 0
+  {
+    "name": "escapes",
+    "defaultvalue": 0,
+    "displayName": "Escapes"
   },
-  "executions_terror": {
-    "description": "Terror Executions",
-    "value": 0
+  {
+    "name": "executions_terror",
+    "defaultvalue": 0,
+    "displayName": "Terror Executions"
   },
-  "execution_syringe_innocent_on_innocent": {
-    "description": "Death syringes used on innocents (as an innocent)",
-    "value": 0
+  {
+    "name": "execution_syringe_innocent_on_innocent",
+    "defaultvalue": 0,
+    "displayName": "Death syringes used on innocents (as an innocent)"
   },
-  "execution_syringe_innocent_on_terror": {
-    "description": "Death syringes used on terrors (as an innocent)",
-    "value": 0
+  {
+    "name": "execution_syringe_innocent_on_terror",
+    "defaultvalue": 0,
+    "displayName": "Death syringes used on terrors (as an innocent)"
   },
-  "execution_syringe_terror_on_innocent": {
-    "description": "Death syringes used on innocents (as a terror)",
-    "value": 0
+  {
+    "name": "execution_syringe_terror_on_innocent",
+    "defaultvalue": 0,
+    "displayName": "Death syringes used on innocents (as a terror)"
   },
-  "execution_syringe_terror_on_terror": {
-    "description": "Death syringes used on terrors (as a terror)",
-    "value": 0
+  {
+    "name": "execution_syringe_terror_on_terror",
+    "defaultvalue": 0,
+    "displayName": "Death syringes used on terrors (as a terror)"
   },
-  "executions": {
-    "description": "Executions",
-    "value": 0
+  {
+    "name": "executions",
+    "defaultvalue": 0,
+    "displayName": "Executions"
   },
-  "objectives": {
-    "description": "Objectives taken",
-    "value": 0
+  {
+    "name": "objectives",
+    "defaultvalue": 0,
+    "displayName": "Objectives taken"
   },
-  "time_in_dark": {
-    "description": "Time spent in the dark",
-    "value": 0
+  {
+    "name": "time_in_dark",
+    "defaultvalue": 0,
+    "displayName": "Time spent in the dark"
   },
-  "stolen_objectives": {
-    "description": "Stolen Objectives",
-    "value": 0
+  {
+    "name": "stolen_objectives",
+    "defaultvalue": 0,
+    "displayName": "Stolen Objectives"
   }
-}
+]

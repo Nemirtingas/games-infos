@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "name": "ACHI_GAMECLEARED_NORMAL",
     "defaultvalue": 0,
@@ -1846,5 +1846,77 @@
     "hidden": 1,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/400910/e204e66986b959ed7666983358c79ab4fab3d6ee.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/400910/4fff2f2a7b8c1701b8048dc84d598682d35d6d84.jpg"
+  },
+  {
+    "name": "ACHI_TASK_SELFD",
+    "defaultvalue": 0,
+    "displayName": "BOOM!",
+    "hidden": 0,
+    "description": "Defeat a boss with Cocoa's self-destruction attack.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/400910/865cb2b3e4363cedc931ff32ba6a84a4eeb80198.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/400910/4fff2f2a7b8c1701b8048dc84d598682d35d6d84.jpg"
+  },
+  {
+    "name": "ACHI_GAMECLEARED_COCOA1",
+    "defaultvalue": 0,
+    "displayName": "The road to become an even more poor cat ",
+    "hidden": 0,
+    "description": "Finish Main Game and Post Game as Cocoa. ",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/400910/630e49f2b25cfb3277045a099a3f9d5065ae05ee.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/400910/4fff2f2a7b8c1701b8048dc84d598682d35d6d84.jpg"
+  },
+  {
+    "name": "ACHI_GAMECLEARED_COCOA2",
+    "defaultvalue": 0,
+    "displayName": "What an exciting part time job...",
+    "hidden": 0,
+    "description": "Finish Chapter 10 as Cocoa. ",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/400910/413b42c593a7ffdd8c54cc69df85c7f70bc411fb.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/400910/d04a5bc2faf3fe41204aec72f38b7de73f0eeff4.jpg"
+  },
+  {
+    "name": "ACHI_BRCLEARED_COCOA",
+    "defaultvalue": 0,
+    "displayName": "Someone stop this cat! ",
+    "hidden": 0,
+    "description": "Finish True Boss Rush as Cocoa. ",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/400910/fe80fa494e6936e5cb28b9350c102652a0c0cbcc.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/400910/4fff2f2a7b8c1701b8048dc84d598682d35d6d84.jpg"
+  },
+  {
+    "name": "ACHI_TASK_ALLSPBOSSCOCOA",
+    "defaultvalue": 0,
+    "displayName": "You must be a bunny lover...? ",
+    "hidden": 0,
+    "description": "Finish all 8 SP Bosses and Halloween Cats Boss as Cocoa. (Cannot finish in E Rank) ",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/400910/1da2f5e14c813bdb971a5a0a776d9ab2220fb4e9.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/400910/d04a5bc2faf3fe41204aec72f38b7de73f0eeff4.jpg"
+  },
+  {
+    "name": "ACHI_GAMECLEARED_COCOA100",
+    "defaultvalue": 0,
+    "displayName": "Or a cat lover?! ",
+    "hidden": 0,
+    "description": "100% items and maps as Cocoa. Then defeat powered up version of Chapter 10 Boss in BEX Mode. ",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/400910/c40813088886b13ff6acfad7d3cded0bf07eb27d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/400910/d04a5bc2faf3fe41204aec72f38b7de73f0eeff4.jpg"
+  },
+  {
+    "name": "ACHI_RANK_MAXALLCOCOA",
+    "defaultvalue": 0,
+    "displayName": "No worries. The next game is still about bunnies! ",
+    "hidden": 0,
+    "description": "Defeated all chapter 1-8 bosses in MAX rank as Cocoa. ",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/400910/499323cf3447ed6f69c96280733d2144f26bd42b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/400910/d04a5bc2faf3fe41204aec72f38b7de73f0eeff4.jpg"
+  },
+  {
+    "name": "ACHI_COMPLETE_ALL",
+    "defaultvalue": 0,
+    "displayName": "Rabi-Ribi! ",
+    "hidden": 0,
+    "description": "Completed all achievements! You must be a bunny lover! ",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/400910/3040f8c8fd2016fd94ddfd415f11248005854d18.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/400910/e1ae7e8cbbd62156ad8635ce6e933eab301048d3.jpg"
   }
 ]

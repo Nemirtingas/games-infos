@@ -1,442 +1,552 @@
-﻿{
-  "Global_GamesPlayed": {
-    "description": "Games Started",
-    "value": 0
-  },
-  "Global_Wins": {
-    "description": "Games Won (unranked)",
-    "value": 0
-  },
-  "Global_WinsRanked": {
-    "description": "Games Won (ranked)",
-    "value": 0
-  },
-  "Global_Tier": {
-    "description": "Tier",
-    "value": 0
-  },
-  "Global_Losses": {
-    "description": "Games Lost (unranked)",
-    "value": 0
-  },
-  "Global_LossesRanked": {
-    "description": "Games Lost (ranked)",
-    "value": 0
-  },
-  "Global_Locale": {
-    "description": "Locale",
-    "value": 0
-  },
-  "Cygnar_GamesPlayed": {
-    "description": "CygnarGamesPlayed",
-    "value": 0
-  },
-  "Cygnar_Wins": {
-    "description": "CygnarWins",
-    "value": 0
-  },
-  "Cygnar_Losses": {
-    "description": "CygnarLosses",
-    "value": 0
-  },
-  "Khador_GamesPlayed": {
-    "description": "KhadorGamesPlayed",
-    "value": 0
-  },
-  "Khador_Wins": {
-    "description": "KhadorWins",
-    "value": 0
-  },
-  "Khador_Losses": {
-    "description": "KhadorLosses",
-    "value": 0
-  },
-  "Protectorate_GamesPlayed": {
-    "description": "ProtectorateGamesPlayed",
-    "value": 0
-  },
-  "Protectorate_Wins": {
-    "description": "ProtectorateWins",
-    "value": 0
-  },
-  "Protectorate_Losses": {
-    "description": "ProtectorateLosses",
-    "value": 0
-  },
-  "Cryx_GamesPlayed": {
-    "description": "CryxGamesPlayed",
-    "value": 0
-  },
-  "Cryx_Wins": {
-    "description": "CryxWins",
-    "value": 0
-  },
-  "Cryx_Losses": {
-    "description": "CryxLosses",
-    "value": 0
-  },
-  "Mercenaries_GamesPlayed": {
-    "description": "MercenariesGamesPlayed",
-    "value": 0
-  },
-  "Mercenaries_Wins": {
-    "description": "MercenariesWins",
-    "value": 0
-  },
-  "Mercenaries_Losses": {
-    "description": "MercenariesLosses",
-    "value": 0
-  },
-  "Retribution_GamesPlayed": {
-    "description": "RetributionGamesPlayed",
-    "value": 0
-  },
-  "Retribution_Wins": {
-    "description": "RetributionWins",
-    "value": 0
-  },
-  "Retribution_Losses": {
-    "description": "RetributionLosses",
-    "value": 0
-  },
-  "Stryker_GamesPlayed": {
-    "description": "StrykerGamesPlayed",
-    "value": 0
-  },
-  "Stryker_Wins": {
-    "description": "StrykerWins",
-    "value": 0
-  },
-  "Stryker_Losses": {
-    "description": "StrykerLosses",
-    "value": 0
-  },
-  "Siege_GamesPlayed": {
-    "description": "SiegeGamesPlayed",
-    "value": 0
-  },
-  "Siege_Wins": {
-    "description": "SiegeWins",
-    "value": 0
-  },
-  "Siege_Losses": {
-    "description": "SiegeLosses",
-    "value": 0
-  },
-  "Sturgis_GamesPlayed": {
-    "description": "SturgisGamesPlayed",
-    "value": 0
-  },
-  "Sturgis_Wins": {
-    "description": "SturgisWins",
-    "value": 0
-  },
-  "Sturgis_Losses": {
-    "description": "SturgisLosses",
-    "value": 0
-  },
-  "Jakes_GamesPlayed": {
-    "description": "JakesGamesPlayed",
-    "value": 0
-  },
-  "Jakes_Wins": {
-    "description": "JakesWins",
-    "value": 0
-  },
-  "Jakes_Losses": {
-    "description": "JakesLosses",
-    "value": 0
-  },
-  "Darius_GamesPlayed": {
-    "description": "DariusGamesPlayed",
-    "value": 0
-  },
-  "Darius_Wins": {
-    "description": "DariusWins",
-    "value": 0
-  },
-  "Darius_Losses": {
-    "description": "DariusLosses",
-    "value": 0
-  },
-  "Haley_GamesPlayed": {
-    "description": "HaleyGamesPlayed",
-    "value": 0
-  },
-  "Haley_Wins": {
-    "description": "HaleyWins",
-    "value": 0
-  },
-  "Haley_Losses": {
-    "description": "HaleyLosses",
-    "value": 0
-  },
-  "Sorscha_GamesPlayed": {
-    "description": "SorschaGamesPlayed",
-    "value": 0
-  },
-  "Sorscha_Wins": {
-    "description": "SorschaWins",
-    "value": 0
-  },
-  "Sorscha_Losses": {
-    "description": "SorschaLosses",
-    "value": 0
-  },
-  "Butcher_GamesPlayed": {
-    "description": "ButcherGamesPlayed",
-    "value": 0
-  },
-  "Butcher_Wins": {
-    "description": "ButcherWins",
-    "value": 0
-  },
-  "Butcher_Losses": {
-    "description": "ButcherLosses",
-    "value": 0
-  },
-  "Strakhov_GamesPlayed": {
-    "description": "StrakhovGamesPlayed",
-    "value": 0
-  },
-  "Strakhov_Wins": {
-    "description": "StrakhovWins",
-    "value": 0
-  },
-  "Strakhov_Losses": {
-    "description": "StrakhovLosses",
-    "value": 0
-  },
-  "Karchev_GamesPlayed": {
-    "description": "KarchevGamesPlayed",
-    "value": 0
-  },
-  "Karchev_Wins": {
-    "description": "KarchevWins",
-    "value": 0
-  },
-  "Karchev_Losses": {
-    "description": "KarchevLosses",
-    "value": 0
-  },
-  "Kreoss_GamesPlayed": {
-    "description": "KreossGamesPlayed",
-    "value": 0
-  },
-  "Kreoss_Wins": {
-    "description": "KreossWins",
-    "value": 0
-  },
-  "Kreoss_Losses": {
-    "description": "KreossLosses",
-    "value": 0
-  },
-  "Feora_GamesPlayed": {
-    "description": "FeoraGamesPlayed",
-    "value": 0
-  },
-  "Feora_Wins": {
-    "description": "FeoraWins",
-    "value": 0
-  },
-  "Feora_Losses": {
-    "description": "FeoraLosses",
-    "value": 0
-  },
-  "Severius_GamesPlayed": {
-    "description": "SeveriusGamesPlayed",
-    "value": 0
-  },
-  "Severius_Wins": {
-    "description": "SeveriusWins",
-    "value": 0
-  },
-  "Severius_Losses": {
-    "description": "SeveriusLosses",
-    "value": 0
-  },
-  "Harbinger_GamesPlayed": {
-    "description": "HarbingerGamesPlayed",
-    "value": 0
-  },
-  "Harbinger_Wins": {
-    "description": "HarbingerWins",
-    "value": 0
-  },
-  "Harbinger_Losses": {
-    "description": "HarbingerLosses",
-    "value": 0
-  },
-  "Deneghra_GamesPlayed": {
-    "description": "DeneghraGamesPlayed",
-    "value": 0
-  },
-  "Deneghra_Wins": {
-    "description": "DeneghraWins",
-    "value": 0
-  },
-  "Deneghra_Losses": {
-    "description": "DeneghraLosses",
-    "value": 0
-  },
-  "Asphyxious_GamesPlayed": {
-    "description": "AsphyxiousGamesPlayed",
-    "value": 0
-  },
-  "Asphyxious_Wins": {
-    "description": "AsphyxiousWins",
-    "value": 0
-  },
-  "Asphyxious_Losses": {
-    "description": "AsphyxiousLosses",
-    "value": 0
-  },
-  "CorruptedSturgis_GamesPlayed": {
-    "description": "CorruptedSturgisGamesPlayed",
-    "value": 0
-  },
-  "CorruptedSturgis_Wins": {
-    "description": "CorruptedSturgisWins",
-    "value": 0
-  },
-  "CorruptedSturgis_Losses": {
-    "description": "CorruptedSturgisLosses",
-    "value": 0
-  },
-  "Terminus_GamesPlayed": {
-    "description": "TerminusGamesPlayed",
-    "value": 0
-  },
-  "Terminus_Wins": {
-    "description": "TerminusWins",
-    "value": 0
-  },
-  "Terminus_Losses": {
-    "description": "TerminusLosses",
-    "value": 0
-  },
-  "Magnus_GamesPlayed": {
-    "description": "MagnusGamesPlayed",
-    "value": 0
-  },
-  "Magnus_Wins": {
-    "description": "MagnusWins",
-    "value": 0
-  },
-  "Magnus_Losses": {
-    "description": "MagnusLosses",
-    "value": 0
-  },
-  "Vyros_GamesPlayed": {
-    "description": "VyrosGamesPlayed",
-    "value": 0
-  },
-  "Vyros_Wins": {
-    "description": "VyrosWins",
-    "value": 0
-  },
-  "Vyros_Losses": {
-    "description": "VyrosLosses",
-    "value": 0
-  },
-  "Global_Skill": {
-    "description": "UnrankedSkill",
-    "value": 2000
-  },
-  "Global_GamesPlayedRanked": {
-    "description": "Games Played (Ranked)",
-    "value": 0
-  },
-  "Global_VERSION": {
-    "description": "Stat version",
-    "value": 0
-  },
-  "Convergence_Wins": {
-    "description": "ConvergenceWins",
-    "value": 0
-  },
-  "Convergence_Losses": {
-    "description": "ConvergenceLosses",
-    "value": 0
-  },
-  "Convergence_GamesPlayed": {
-    "description": "ConvergenceGamesPlayed",
-    "value": 0
-  },
-  "Global_SkillRating": {
-    "description": "",
-    "value": 0
-  },
-  "Global_SkillDeviation": {
-    "description": "",
-    "value": 0
-  },
-  "Global_SkillVolatility": {
-    "description": "",
-    "value": 0
-  },
-  "Skill_SkillRating": {
-    "description": "",
-    "value": 1500000
-  },
-  "Skill_SkillDeviation": {
-    "description": "",
-    "value": 0
-  },
-  "Skill_SkillVolatility": {
-    "description": "",
-    "value": 0
-  },
-  "Skill_VERSION": {
-    "description": "Skill stat version",
-    "value": 0
-  },
-  "Drake_GamesPlayed": {
-    "description": "DrakeGamesPlayed",
-    "value": 0
-  },
-  "Drake_Wins": {
-    "description": "DrakeWins",
-    "value": 0
-  },
-  "Drake_Losses": {
-    "description": "DrakeLosses",
-    "value": 0
-  },
-  "Ashlynn_GamesPlayed": {
-    "description": "AshlynnGamesPlayed",
-    "value": 0
-  },
-  "Ashlynn_Wins": {
-    "description": "AshlynnWins",
-    "value": 0
-  },
-  "Ashlynn_Losses": {
-    "description": "AshlynnLosses",
-    "value": 0
-  },
-  "Ravyn_GamesPlayed": {
-    "description": "RavynGamesPlayed",
-    "value": 0
-  },
-  "Ravyn_Wins": {
-    "description": "RavynWins",
-    "value": 0
-  },
-  "Ravyn_Losses": {
-    "description": "RavynLosses",
-    "value": 0
-  },
-  "Rahn_GamesPlayed": {
-    "description": "RahnGamesPlayed",
-    "value": 0
-  },
-  "Rahn_Wins": {
-    "description": "RahnWins",
-    "value": 0
-  },
-  "Rahn_Losses": {
-    "description": "RahnLosses",
-    "value": 0
+[
+  {
+    "name": "Global_GamesPlayed",
+    "defaultvalue": 0,
+    "displayName": "Games Started"
+  },
+  {
+    "name": "Global_Wins",
+    "defaultvalue": 0,
+    "displayName": "Games Won (unranked)"
+  },
+  {
+    "name": "Global_WinsRanked",
+    "defaultvalue": 0,
+    "displayName": "Games Won (ranked)"
+  },
+  {
+    "name": "Global_Tier",
+    "defaultvalue": 0,
+    "displayName": "Tier"
+  },
+  {
+    "name": "Global_Losses",
+    "defaultvalue": 0,
+    "displayName": "Games Lost (unranked)"
+  },
+  {
+    "name": "Global_LossesRanked",
+    "defaultvalue": 0,
+    "displayName": "Games Lost (ranked)"
+  },
+  {
+    "name": "Global_Locale",
+    "defaultvalue": 0,
+    "displayName": "Locale"
+  },
+  {
+    "name": "Cygnar_GamesPlayed",
+    "defaultvalue": 0,
+    "displayName": "CygnarGamesPlayed"
+  },
+  {
+    "name": "Cygnar_Wins",
+    "defaultvalue": 0,
+    "displayName": "CygnarWins"
+  },
+  {
+    "name": "Cygnar_Losses",
+    "defaultvalue": 0,
+    "displayName": "CygnarLosses"
+  },
+  {
+    "name": "Khador_GamesPlayed",
+    "defaultvalue": 0,
+    "displayName": "KhadorGamesPlayed"
+  },
+  {
+    "name": "Khador_Wins",
+    "defaultvalue": 0,
+    "displayName": "KhadorWins"
+  },
+  {
+    "name": "Khador_Losses",
+    "defaultvalue": 0,
+    "displayName": "KhadorLosses"
+  },
+  {
+    "name": "Protectorate_GamesPlayed",
+    "defaultvalue": 0,
+    "displayName": "ProtectorateGamesPlayed"
+  },
+  {
+    "name": "Protectorate_Wins",
+    "defaultvalue": 0,
+    "displayName": "ProtectorateWins"
+  },
+  {
+    "name": "Protectorate_Losses",
+    "defaultvalue": 0,
+    "displayName": "ProtectorateLosses"
+  },
+  {
+    "name": "Cryx_GamesPlayed",
+    "defaultvalue": 0,
+    "displayName": "CryxGamesPlayed"
+  },
+  {
+    "name": "Cryx_Wins",
+    "defaultvalue": 0,
+    "displayName": "CryxWins"
+  },
+  {
+    "name": "Cryx_Losses",
+    "defaultvalue": 0,
+    "displayName": "CryxLosses"
+  },
+  {
+    "name": "Mercenaries_GamesPlayed",
+    "defaultvalue": 0,
+    "displayName": "MercenariesGamesPlayed"
+  },
+  {
+    "name": "Mercenaries_Wins",
+    "defaultvalue": 0,
+    "displayName": "MercenariesWins"
+  },
+  {
+    "name": "Mercenaries_Losses",
+    "defaultvalue": 0,
+    "displayName": "MercenariesLosses"
+  },
+  {
+    "name": "Retribution_GamesPlayed",
+    "defaultvalue": 0,
+    "displayName": "RetributionGamesPlayed"
+  },
+  {
+    "name": "Retribution_Wins",
+    "defaultvalue": 0,
+    "displayName": "RetributionWins"
+  },
+  {
+    "name": "Retribution_Losses",
+    "defaultvalue": 0,
+    "displayName": "RetributionLosses"
+  },
+  {
+    "name": "Stryker_GamesPlayed",
+    "defaultvalue": 0,
+    "displayName": "StrykerGamesPlayed"
+  },
+  {
+    "name": "Stryker_Wins",
+    "defaultvalue": 0,
+    "displayName": "StrykerWins"
+  },
+  {
+    "name": "Stryker_Losses",
+    "defaultvalue": 0,
+    "displayName": "StrykerLosses"
+  },
+  {
+    "name": "Siege_GamesPlayed",
+    "defaultvalue": 0,
+    "displayName": "SiegeGamesPlayed"
+  },
+  {
+    "name": "Siege_Wins",
+    "defaultvalue": 0,
+    "displayName": "SiegeWins"
+  },
+  {
+    "name": "Siege_Losses",
+    "defaultvalue": 0,
+    "displayName": "SiegeLosses"
+  },
+  {
+    "name": "Sturgis_GamesPlayed",
+    "defaultvalue": 0,
+    "displayName": "SturgisGamesPlayed"
+  },
+  {
+    "name": "Sturgis_Wins",
+    "defaultvalue": 0,
+    "displayName": "SturgisWins"
+  },
+  {
+    "name": "Sturgis_Losses",
+    "defaultvalue": 0,
+    "displayName": "SturgisLosses"
+  },
+  {
+    "name": "Jakes_GamesPlayed",
+    "defaultvalue": 0,
+    "displayName": "JakesGamesPlayed"
+  },
+  {
+    "name": "Jakes_Wins",
+    "defaultvalue": 0,
+    "displayName": "JakesWins"
+  },
+  {
+    "name": "Jakes_Losses",
+    "defaultvalue": 0,
+    "displayName": "JakesLosses"
+  },
+  {
+    "name": "Darius_GamesPlayed",
+    "defaultvalue": 0,
+    "displayName": "DariusGamesPlayed"
+  },
+  {
+    "name": "Darius_Wins",
+    "defaultvalue": 0,
+    "displayName": "DariusWins"
+  },
+  {
+    "name": "Darius_Losses",
+    "defaultvalue": 0,
+    "displayName": "DariusLosses"
+  },
+  {
+    "name": "Haley_GamesPlayed",
+    "defaultvalue": 0,
+    "displayName": "HaleyGamesPlayed"
+  },
+  {
+    "name": "Haley_Wins",
+    "defaultvalue": 0,
+    "displayName": "HaleyWins"
+  },
+  {
+    "name": "Haley_Losses",
+    "defaultvalue": 0,
+    "displayName": "HaleyLosses"
+  },
+  {
+    "name": "Sorscha_GamesPlayed",
+    "defaultvalue": 0,
+    "displayName": "SorschaGamesPlayed"
+  },
+  {
+    "name": "Sorscha_Wins",
+    "defaultvalue": 0,
+    "displayName": "SorschaWins"
+  },
+  {
+    "name": "Sorscha_Losses",
+    "defaultvalue": 0,
+    "displayName": "SorschaLosses"
+  },
+  {
+    "name": "Butcher_GamesPlayed",
+    "defaultvalue": 0,
+    "displayName": "ButcherGamesPlayed"
+  },
+  {
+    "name": "Butcher_Wins",
+    "defaultvalue": 0,
+    "displayName": "ButcherWins"
+  },
+  {
+    "name": "Butcher_Losses",
+    "defaultvalue": 0,
+    "displayName": "ButcherLosses"
+  },
+  {
+    "name": "Strakhov_GamesPlayed",
+    "defaultvalue": 0,
+    "displayName": "StrakhovGamesPlayed"
+  },
+  {
+    "name": "Strakhov_Wins",
+    "defaultvalue": 0,
+    "displayName": "StrakhovWins"
+  },
+  {
+    "name": "Strakhov_Losses",
+    "defaultvalue": 0,
+    "displayName": "StrakhovLosses"
+  },
+  {
+    "name": "Karchev_GamesPlayed",
+    "defaultvalue": 0,
+    "displayName": "KarchevGamesPlayed"
+  },
+  {
+    "name": "Karchev_Wins",
+    "defaultvalue": 0,
+    "displayName": "KarchevWins"
+  },
+  {
+    "name": "Karchev_Losses",
+    "defaultvalue": 0,
+    "displayName": "KarchevLosses"
+  },
+  {
+    "name": "Kreoss_GamesPlayed",
+    "defaultvalue": 0,
+    "displayName": "KreossGamesPlayed"
+  },
+  {
+    "name": "Kreoss_Wins",
+    "defaultvalue": 0,
+    "displayName": "KreossWins"
+  },
+  {
+    "name": "Kreoss_Losses",
+    "defaultvalue": 0,
+    "displayName": "KreossLosses"
+  },
+  {
+    "name": "Feora_GamesPlayed",
+    "defaultvalue": 0,
+    "displayName": "FeoraGamesPlayed"
+  },
+  {
+    "name": "Feora_Wins",
+    "defaultvalue": 0,
+    "displayName": "FeoraWins"
+  },
+  {
+    "name": "Feora_Losses",
+    "defaultvalue": 0,
+    "displayName": "FeoraLosses"
+  },
+  {
+    "name": "Severius_GamesPlayed",
+    "defaultvalue": 0,
+    "displayName": "SeveriusGamesPlayed"
+  },
+  {
+    "name": "Severius_Wins",
+    "defaultvalue": 0,
+    "displayName": "SeveriusWins"
+  },
+  {
+    "name": "Severius_Losses",
+    "defaultvalue": 0,
+    "displayName": "SeveriusLosses"
+  },
+  {
+    "name": "Harbinger_GamesPlayed",
+    "defaultvalue": 0,
+    "displayName": "HarbingerGamesPlayed"
+  },
+  {
+    "name": "Harbinger_Wins",
+    "defaultvalue": 0,
+    "displayName": "HarbingerWins"
+  },
+  {
+    "name": "Harbinger_Losses",
+    "defaultvalue": 0,
+    "displayName": "HarbingerLosses"
+  },
+  {
+    "name": "Deneghra_GamesPlayed",
+    "defaultvalue": 0,
+    "displayName": "DeneghraGamesPlayed"
+  },
+  {
+    "name": "Deneghra_Wins",
+    "defaultvalue": 0,
+    "displayName": "DeneghraWins"
+  },
+  {
+    "name": "Deneghra_Losses",
+    "defaultvalue": 0,
+    "displayName": "DeneghraLosses"
+  },
+  {
+    "name": "Asphyxious_GamesPlayed",
+    "defaultvalue": 0,
+    "displayName": "AsphyxiousGamesPlayed"
+  },
+  {
+    "name": "Asphyxious_Wins",
+    "defaultvalue": 0,
+    "displayName": "AsphyxiousWins"
+  },
+  {
+    "name": "Asphyxious_Losses",
+    "defaultvalue": 0,
+    "displayName": "AsphyxiousLosses"
+  },
+  {
+    "name": "CorruptedSturgis_GamesPlayed",
+    "defaultvalue": 0,
+    "displayName": "CorruptedSturgisGamesPlayed"
+  },
+  {
+    "name": "CorruptedSturgis_Wins",
+    "defaultvalue": 0,
+    "displayName": "CorruptedSturgisWins"
+  },
+  {
+    "name": "CorruptedSturgis_Losses",
+    "defaultvalue": 0,
+    "displayName": "CorruptedSturgisLosses"
+  },
+  {
+    "name": "Terminus_GamesPlayed",
+    "defaultvalue": 0,
+    "displayName": "TerminusGamesPlayed"
+  },
+  {
+    "name": "Terminus_Wins",
+    "defaultvalue": 0,
+    "displayName": "TerminusWins"
+  },
+  {
+    "name": "Terminus_Losses",
+    "defaultvalue": 0,
+    "displayName": "TerminusLosses"
+  },
+  {
+    "name": "Magnus_GamesPlayed",
+    "defaultvalue": 0,
+    "displayName": "MagnusGamesPlayed"
+  },
+  {
+    "name": "Magnus_Wins",
+    "defaultvalue": 0,
+    "displayName": "MagnusWins"
+  },
+  {
+    "name": "Magnus_Losses",
+    "defaultvalue": 0,
+    "displayName": "MagnusLosses"
+  },
+  {
+    "name": "Vyros_GamesPlayed",
+    "defaultvalue": 0,
+    "displayName": "VyrosGamesPlayed"
+  },
+  {
+    "name": "Vyros_Wins",
+    "defaultvalue": 0,
+    "displayName": "VyrosWins"
+  },
+  {
+    "name": "Vyros_Losses",
+    "defaultvalue": 0,
+    "displayName": "VyrosLosses"
+  },
+  {
+    "name": "Global_Skill",
+    "defaultvalue": 2000,
+    "displayName": "UnrankedSkill"
+  },
+  {
+    "name": "Global_GamesPlayedRanked",
+    "defaultvalue": 0,
+    "displayName": "Games Played (Ranked)"
+  },
+  {
+    "name": "Global_VERSION",
+    "defaultvalue": 0,
+    "displayName": "Stat version"
+  },
+  {
+    "name": "Convergence_Wins",
+    "defaultvalue": 0,
+    "displayName": "ConvergenceWins"
+  },
+  {
+    "name": "Convergence_Losses",
+    "defaultvalue": 0,
+    "displayName": "ConvergenceLosses"
+  },
+  {
+    "name": "Convergence_GamesPlayed",
+    "defaultvalue": 0,
+    "displayName": "ConvergenceGamesPlayed"
+  },
+  {
+    "name": "Global_SkillRating",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Global_SkillDeviation",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Global_SkillVolatility",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Skill_SkillRating",
+    "defaultvalue": 1500000,
+    "displayName": ""
+  },
+  {
+    "name": "Skill_SkillDeviation",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Skill_SkillVolatility",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "Skill_VERSION",
+    "defaultvalue": 0,
+    "displayName": "Skill stat version"
+  },
+  {
+    "name": "Drake_GamesPlayed",
+    "defaultvalue": 0,
+    "displayName": "DrakeGamesPlayed"
+  },
+  {
+    "name": "Drake_Wins",
+    "defaultvalue": 0,
+    "displayName": "DrakeWins"
+  },
+  {
+    "name": "Drake_Losses",
+    "defaultvalue": 0,
+    "displayName": "DrakeLosses"
+  },
+  {
+    "name": "Ashlynn_GamesPlayed",
+    "defaultvalue": 0,
+    "displayName": "AshlynnGamesPlayed"
+  },
+  {
+    "name": "Ashlynn_Wins",
+    "defaultvalue": 0,
+    "displayName": "AshlynnWins"
+  },
+  {
+    "name": "Ashlynn_Losses",
+    "defaultvalue": 0,
+    "displayName": "AshlynnLosses"
+  },
+  {
+    "name": "Ravyn_GamesPlayed",
+    "defaultvalue": 0,
+    "displayName": "RavynGamesPlayed"
+  },
+  {
+    "name": "Ravyn_Wins",
+    "defaultvalue": 0,
+    "displayName": "RavynWins"
+  },
+  {
+    "name": "Ravyn_Losses",
+    "defaultvalue": 0,
+    "displayName": "RavynLosses"
+  },
+  {
+    "name": "Rahn_GamesPlayed",
+    "defaultvalue": 0,
+    "displayName": "RahnGamesPlayed"
+  },
+  {
+    "name": "Rahn_Wins",
+    "defaultvalue": 0,
+    "displayName": "RahnWins"
+  },
+  {
+    "name": "Rahn_Losses",
+    "defaultvalue": 0,
+    "displayName": "RahnLosses"
   }
-}
+]

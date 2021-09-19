@@ -15,21 +15,6 @@
     "displayName": "kills"
   },
   {
-    "name": "pvpAmount",
-    "defaultvalue": 0,
-    "displayName": "pvpAmount"
-  },
-  {
-    "name": "teamAmount",
-    "defaultvalue": 0,
-    "displayName": "teamAmount"
-  },
-  {
-    "name": "ffaAmount",
-    "defaultvalue": 0,
-    "displayName": "ffaAmount"
-  },
-  {
     "name": "pistolKills",
     "defaultvalue": 0,
     "displayName": "pistolKills"
@@ -70,8 +55,33 @@
     "displayName": "airKills"
   },
   {
-    "name": "skin",
+    "name": "laserKills",
     "defaultvalue": 0,
-    "displayName": "selectedSkin"
+    "displayName": "laserKills"
+  },
+  {
+    "name": "lightningKills",
+    "defaultvalue": 0,
+    "displayName": "lightningKills"
+  },
+  {
+    "name": "freezes",
+    "defaultvalue": 0,
+    "displayName": "freezes"
+  },
+  {
+    "name": "new_wins",
+    "defaultvalue": 0,
+    "displayName": "GlobalWins"
+  },
+  {
+    "name": "bowKills",
+    "defaultvalue": 0,
+    "displayName": "bowKills"
+  },
+  {
+    "name": "funrun_1",
+    "defaultvalue": 0,
+    "displayName": "funrun_1"
   }
 ]

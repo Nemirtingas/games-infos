@@ -225,15 +225,6 @@
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1169740/d16d1e8c2a30190857c9ac91804c38887c08a082.jpg"
   },
   {
-    "name": "ACH_DAREDEVIL",
-    "defaultvalue": 0,
-    "displayName": "Daredevil",
-    "hidden": 0,
-    "description": "Participate in Daily Challenge",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1169740/49c3cc3b3458b1faac7fff9dd15c2e3eca56f5de.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1169740/3ed2c7d7d1b19a8751510f3e930dbcfac44258f7.jpg"
-  },
-  {
     "name": "ACH_GUN_LOVER",
     "defaultvalue": 0,
     "displayName": "Gun lover",
@@ -288,31 +279,13 @@
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1169740/f9c2b4e4798dec426390931452362845e9254a9b.jpg"
   },
   {
-    "name": "ACH_HUN-73R_UNLOCKED",
-    "defaultvalue": 0,
-    "displayName": "HUN-73R unlocked",
-    "hidden": 0,
-    "description": "Start your first mission",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1169740/ba11c383408403052138a8056e10d1149b7620a3.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1169740/67cb5cbd0701e5085bc26df9d4d530fecf80cfc0.jpg"
-  },
-  {
     "name": "ACH_ENGINEER_UNLOCKED",
     "defaultvalue": 0,
     "displayName": "Keiko unlocked",
     "hidden": 0,
-    "description": "Complete diesel skyscraper",
+    "description": "Unlock Keiko - the engineer",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1169740/6f674836dafe32186d4fff3e0ca780a79058a09c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1169740/399eb90701f2c29ac9cdbae8d22ed23fc789d1c6.jpg"
-  },
-  {
-    "name": "ACH_TANK_UNLOCKED",
-    "defaultvalue": 0,
-    "displayName": "Rhino unlocked",
-    "hidden": 0,
-    "description": "Complete military skyscraper",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1169740/f5f77297b09f79e81a88642cc4e408d9499e010b.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1169740/bb2c122449aca94ccde51b20990b81a3df2d2d33.jpg"
   },
   {
     "name": "ACH_SILVERHAND",
@@ -331,5 +304,68 @@
     "description": "Heal 10 hp in coop mode",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1169740/60799f3ab9a7fe240277260b35fb975a2b4bd1c7.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1169740/0648df8217befea429238ea4ffa7c713d0e6aa1e.jpg"
+  },
+  {
+    "name": "ACH_HACKER_UNLOCKED",
+    "defaultvalue": 0,
+    "displayName": "Echo unlocked",
+    "hidden": 0,
+    "description": "Unlock Echo - the hacker",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1169740/8012a8aac2579f9c471991dc52d87501f58df45b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1169740/d732c0b80b7062517b985ebed80ff1d56ae0d829.jpg"
+  },
+  {
+    "name": "ACH_WIN_CAPTAIN",
+    "defaultvalue": 0,
+    "displayName": "Congrats, Captain!",
+    "hidden": 0,
+    "description": "Beat the game with Captain J.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1169740/7ae9aed0dbdaeadd08273a5ba1817998ee9b0b67.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1169740/27f60e4206ce2a6a5a6071b344e6b9a5723e44f7.jpg"
+  },
+  {
+    "name": "ACH_WIN_HUNTER",
+    "defaultvalue": 0,
+    "displayName": "HUN-73R: mission completed!",
+    "hidden": 0,
+    "description": "Beat the game with HUN-73R",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1169740/5b9e7485b5afb37d6a016d6d549752b7be9d076d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1169740/56b70365fdd0bfb54930676994c14eb7cf411611.jpg"
+  },
+  {
+    "name": "ACH_WIN_KEIKO",
+    "defaultvalue": 0,
+    "displayName": "You did it, Keiko!",
+    "hidden": 0,
+    "description": "Beat the game with Keiko",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1169740/454ec360d47011593c8649894850fe5aedbf30ba.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1169740/7c617374e913d728650a7409682ab696e9f72d2f.jpg"
+  },
+  {
+    "name": "ACH_WIN_RHINO",
+    "defaultvalue": 0,
+    "displayName": "Nice job, Rhino!",
+    "hidden": 0,
+    "description": "Beat the game with Rhino",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1169740/ff5b28256984127735ed5981e7e13c66287ee8ed.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1169740/36e53963d84e86238b3a8330e903c2951f0926e7.jpg"
+  },
+  {
+    "name": "ACH_WIN_ECHO",
+    "defaultvalue": 0,
+    "displayName": "Hacking completed, Echo!",
+    "hidden": 0,
+    "description": "Beat the game with Echo",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1169740/8012a8aac2579f9c471991dc52d87501f58df45b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1169740/d732c0b80b7062517b985ebed80ff1d56ae0d829.jpg"
+  },
+  {
+    "name": "ACH_WIN_PROFESSOR",
+    "defaultvalue": 0,
+    "displayName": "You've outsmarted them, Professor!",
+    "hidden": 0,
+    "description": "Beat the game with Professor",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1169740/7e63b2f4705d4eb9c565f067b785de3cce20f0fe.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1169740/ec3f60b19f34df14eefad43d964ed7f121057786.jpg"
   }
 ]

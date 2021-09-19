@@ -1,26 +1,32 @@
-﻿{
-  "attempts": {
-    "description": "levels attempted",
-    "value": 0
+[
+  {
+    "name": "attempts",
+    "defaultvalue": 0,
+    "displayName": "levels attempted"
   },
-  "gameover": {
-    "description": "levels finished",
-    "value": 0
+  {
+    "name": "gameover",
+    "defaultvalue": 0,
+    "displayName": "levels finished"
   },
-  "longest": {
-    "description": "longest chain",
-    "value": 0
+  {
+    "name": "longest",
+    "defaultvalue": 0,
+    "displayName": "longest chain"
   },
-  "cleared": {
-    "description": "spheres cleared",
-    "value": 0
+  {
+    "name": "cleared",
+    "defaultvalue": 0,
+    "displayName": "spheres cleared"
   },
-  "chains": {
-    "description": "chains cleared",
-    "value": 0
+  {
+    "name": "chains",
+    "defaultvalue": 0,
+    "displayName": "chains cleared"
   },
-  "unlocked": {
-    "description": "levels unlocked",
-    "value": 0
+  {
+    "name": "unlocked",
+    "defaultvalue": 0,
+    "displayName": "levels unlocked"
   }
-}
+]

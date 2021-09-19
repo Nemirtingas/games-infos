@@ -1,38 +1,47 @@
-﻿{
-  "TotalKill": {
-    "description": "",
-    "value": 0
+[
+  {
+    "name": "TotalKill",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "TotalDeath": {
-    "description": "",
-    "value": 0
+  {
+    "name": "TotalDeath",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "NumGames": {
-    "description": "",
-    "value": 0
+  {
+    "name": "NumGames",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "NumLosses": {
-    "description": "",
-    "value": 0
+  {
+    "name": "NumLosses",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "TDMTotalKill": {
-    "description": "",
-    "value": 0
+  {
+    "name": "TDMTotalKill",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "TDMTotalDeath": {
-    "description": "",
-    "value": 0
+  {
+    "name": "TDMTotalDeath",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "TDMNumGames": {
-    "description": "",
-    "value": 0
+  {
+    "name": "TDMNumGames",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "TDMNumWins": {
-    "description": "",
-    "value": 0
+  {
+    "name": "TDMNumWins",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "TDMNumLosses": {
-    "description": "",
-    "value": 0
+  {
+    "name": "TDMNumLosses",
+    "defaultvalue": 0,
+    "displayName": ""
   }
-}
+]

@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "name": "ACH_SACRIFICE_4_SURVIVORS_IAM",
     "defaultvalue": 0,
@@ -322,7 +322,7 @@
     "defaultvalue": 0,
     "displayName": "Survival Treasures",
     "hidden": 0,
-    "description": "In a public match, escape by bringing a new item to the campfire.",
+    "description": "In a public match, escape while bringing a new item to the campfire.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/381210/3c722b141dc38e9315fae8ef373700899e0544ee.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/381210/a66a2de6e6f0899d72c68fa2bc729fe58042dcba.jpg"
   },
@@ -664,7 +664,7 @@
     "defaultvalue": 0,
     "displayName": "Shocking Treatment",
     "hidden": 0,
-    "description": "In public matches, hit survivors 500 times with The Doctor's Electroconvulsive Treatment attack.",
+    "description": "In public matches, hit survivors 500 times with The Doctor's Shock Therapy attack.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/381210/3ba2a18d62e299a0e1d48be410d22205b91614f4.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/381210/f0886e3c1e4f2eabc17acf8c44c0b0dd09ba34a0.jpg"
   },
@@ -781,7 +781,7 @@
     "defaultvalue": 0,
     "displayName": "Escaping the Nightmare",
     "hidden": 0,
-    "description": "In public matches, open the exit gate 35 times.",
+    "description": "In public matches, open the exit gate 35 times as a Survivor.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/381210/099dc13c0d394bf38d83eaa46ff122b808a1a24c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/381210/6fc0ffc1d6507ce6a0febd3a90ffbfb5cc14eb5d.jpg"
   },
@@ -1366,7 +1366,7 @@
     "defaultvalue": 0,
     "displayName": "Classy Act",
     "hidden": 0,
-    "description": "In a public match, repair the generator in the music room or the chem lab and escape.",
+    "description": "In a public match, repair the generator in Midwich School's music room or chem lab and escape.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/381210/459e7a1527955f43c20a2a3f53f9a5229201982b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/381210/721fdec9429673c97b2afec963841c0915250cd6.jpg"
   },
@@ -1441,5 +1441,194 @@
     "description": "Escape with Felix Richter using only his 3 unique perks in a public match.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/381210/0494537addadbb5ce71bef73afa888aa848c5f38.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/381210/d570bc5e149aae61d13f66e5868b608a1560659b.jpg"
+  },
+  {
+    "name": "ACH_CHAPTER18_KILLER_1",
+    "defaultvalue": 0,
+    "displayName": "Tag Team",
+    "hidden": 0,
+    "description": "With The Twins, down 10 Survivors while Victor is clinging to them in a public match.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/381210/1bde31b8ef3069b5255ed087364e6af0dd47dd57.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/381210/90adbafa8ad5a69dc04651f6b09896d2b53418b2.jpg"
+  },
+  {
+    "name": "ACH_CHAPTER18_KILLER_2",
+    "defaultvalue": 0,
+    "displayName": "End of Days",
+    "hidden": 0,
+    "description": "Hook 15 Survivors during the End Game Collapse in public matches.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/381210/8f8b103c8f736d141e8a81871d9e45193a3780ab.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/381210/14afab064838c1904413b569582203650d816da9.jpg"
+  },
+  {
+    "name": "ACH_CHAPTER18_KILLER_3",
+    "defaultvalue": 0,
+    "displayName": "Adept Twins",
+    "hidden": 0,
+    "description": "Achieve a merciless victory with The Twins using only their 3 unique perks in a public match.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/381210/f1082dc6b4b905821f58ca3866c2f124bcb1b65e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/381210/a4d3d3434a64c9767e7a594e2f7196191dcca9ef.jpg"
+  },
+  {
+    "name": "ACH_CHAPTER18_SURVIVOR_1",
+    "defaultvalue": 0,
+    "displayName": "Rescue Mission",
+    "hidden": 0,
+    "description": "Stun the Killer with a pallet while they are carrying a Survivor 5 times.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/381210/43af467af1533a2089d45824af48162f20abf154.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/381210/37801fbf28fa52dd784279765be0049b8b24f504.jpg"
+  },
+  {
+    "name": "ACH_CHAPTER18_SURVIVOR_2",
+    "defaultvalue": 0,
+    "displayName": "Power Moves",
+    "hidden": 0,
+    "description": "Equip 0 perks, repair generators for a total of 1 full repair and escape 8 times in public matches.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/381210/d2f6a69d59a77ec5a02198455c4089af8f7bc454.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/381210/e68fc7ab6d6d540506ef7f96e96e392817286c4b.jpg"
+  },
+  {
+    "name": "ACH_CHAPTER18_SURVIVOR_3",
+    "defaultvalue": 0,
+    "displayName": "Adept Élodie",
+    "hidden": 0,
+    "description": "Escape with Élodie using only her 3 unique perks in a public match.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/381210/1a10e3d045b7a06abcd40f675e537ccba0416a7f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/381210/e70df6748b5a1e99ae41ed950a53ca17f028acb6.jpg"
+  },
+  {
+    "name": "ACH_CHAPTER19_KILLER_1",
+    "defaultvalue": 0,
+    "displayName": "One Thousand Cuts",
+    "hidden": 0,
+    "description": "Deal maximum Laceration on Survivors 50 times in public matches.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/381210/e2c63b2032a20b0399b0c02738c077da6d7bbdea.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/381210/34cf394a1f001f3770e43be70617a4040341a0eb.jpg"
+  },
+  {
+    "name": "ACH_CHAPTER19_KILLER_2",
+    "defaultvalue": 0,
+    "displayName": "Multi-tasker",
+    "hidden": 0,
+    "description": "Down 30 Survivors while carrying another Survivor in public matches.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/381210/bb85283cf74d4bf7a9da96191b5a27eae1e1a539.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/381210/8a5384eac5e57529d861531643f38b1b505f05d0.jpg"
+  },
+  {
+    "name": "ACH_CHAPTER19_KILLER_3",
+    "defaultvalue": 0,
+    "displayName": "Adept Trickster",
+    "hidden": 0,
+    "description": "Achieve a merciless victory with The Trickster using only his 3 unique perks in a public match. ",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/381210/e36fe906eaa181d37c5a0243348a68fc02c55c04.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/381210/2a1013c4b092cf5d565ad1dec30663f508513039.jpg"
+  },
+  {
+    "name": "ACH_CHAPTER19_SURVIVOR_1",
+    "defaultvalue": 0,
+    "displayName": "Insult and Injury",
+    "hidden": 0,
+    "description": "Escape a chase 50 times after stunning the Killer with a pallet in public matches.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/381210/2643be0f6319749864dfe6bdb80647d3eb4dc9e8.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/381210/7d84a237a0c6a28cf7319ca0d10eadc81229903b.jpg"
+  },
+  {
+    "name": "ACH_CHAPTER19_SURVIVOR_2",
+    "defaultvalue": 0,
+    "displayName": "Close Shave",
+    "hidden": 0,
+    "description": "Dodge basic attacks or projectiles 100 times in public matches.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/381210/3d3d55da65f32cf7d765907eca929245c5cd3c78.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/381210/2ea62ac9a433c88ca5ec00e59909ef307e0017c2.jpg"
+  },
+  {
+    "name": "ACH_CHAPTER19_SURVIVOR_3",
+    "defaultvalue": 0,
+    "displayName": "Adept Yun-Jin",
+    "hidden": 0,
+    "description": "Escape with Yun-Jin using only her 3 unique perks in a public match. ",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/381210/4f08cef50ba6beaf793100bd5298e14801fac5c5.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/381210/e39b0445bdef97510be54d5e3ba4d5c358a502d5.jpg"
+  },
+  {
+    "name": "ACH_CHAPTER20_KILLER_1",
+    "defaultvalue": 0,
+    "displayName": "Biological Weaponry",
+    "hidden": 0,
+    "description": "Down Contaminated Survivors with The Nemesis 65 times in public matches using Tentacle Strike.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/381210/bec5acdc1c64f77a21b5a4893bfe2391e1b452b7.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/381210/ffbdfe9539488fa8c414f989b252af41190c6d8a.jpg"
+  },
+  {
+    "name": "ACH_CHAPTER20_KILLER_2",
+    "defaultvalue": 0,
+    "displayName": "Preemptive Strike",
+    "hidden": 0,
+    "description": "Hook a Survivor in a public match before any generators have been fully repaired.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/381210/c3318ca28dd5e59434c990bd186f0870ea810c22.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/381210/baf8161124a0494247e1302f71c2d5e97c1a3007.jpg"
+  },
+  {
+    "name": "ACH_CHAPTER20_KILLER_3",
+    "defaultvalue": 0,
+    "displayName": "Adept Nemesis",
+    "hidden": 0,
+    "description": "Achieve a merciless victory with The Nemesis using only his 3 unique perks in a public match.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/381210/2e37135eb80b71a1f3c3301761a7cf254e8db0c9.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/381210/447635cb80761ff89108350d01c9f3d72d54f50b.jpg"
+  },
+  {
+    "name": "ACH_CHAPTER20_SURVIVOR_1",
+    "defaultvalue": 0,
+    "displayName": "Raccoon City Recruit",
+    "hidden": 0,
+    "description": "In a public match, repair the generator on the 1st floor of the RPD station’s main hall and escape.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/381210/b549f31c124f7dfe309db1001900f624bc58afb6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/381210/815953e257b9a8c24c070c518c9cdd67fd054b30.jpg"
+  },
+  {
+    "name": "ACH_CHAPTER20_SURVIVOR_2",
+    "defaultvalue": 0,
+    "displayName": "Adept Leon",
+    "hidden": 0,
+    "description": "Escape with Leon using only his 3 unique perks in a public match.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/381210/68c22078f8122199cbb9ab4b91ebf8139cb2bc99.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/381210/b20f1d62684ed5750fd670ea1867e55d21a73946.jpg"
+  },
+  {
+    "name": "ACH_CHAPTER20_SURVIVOR_3",
+    "defaultvalue": 0,
+    "displayName": "Adept Jill",
+    "hidden": 0,
+    "description": "Escape with Jill using only her 3 unique perks in a public match.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/381210/64533859763e53da1d29f65581799502079c52ab.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/381210/28148b158bdea4d346816fdac6919ef8e8cbd99c.jpg"
+  },
+  {
+    "name": "ACH_CHAPTER21_KILLER_1",
+    "defaultvalue": 0,
+    "displayName": "Tear Their Soul Apart",
+    "hidden": 0,
+    "description": "Bind Survivors with a possessed chain 50 times in public matches.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/381210/71c297330c26df513d7f7d6fd208ee2f5ba193bf.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/381210/16246a708f7cd5112633101a23e7706f8bc88484.jpg"
+  },
+  {
+    "name": "ACH_CHAPTER21_KILLER_2",
+    "defaultvalue": 0,
+    "displayName": "Punch Drunk",
+    "hidden": 0,
+    "description": "Apply the Oblivious status effect to Survivors 30 times in public matches.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/381210/d9cf74850b6375a0a81f3616c390053d2809ab71.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/381210/639d4f3206997a7cc8e7a5565faca4d56fc1e38b.jpg"
+  },
+  {
+    "name": "ACH_CHAPTER21_KILLER_3",
+    "defaultvalue": 0,
+    "displayName": "Adept Cenobite",
+    "hidden": 0,
+    "description": "Achieve a merciless victory with The Cenobite using only his 3 unique perks in public matches.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/381210/2bd94b1c279d5d9aad351c37696a445c1150d107.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/381210/a977231b554502aad81d744e9b9ee5603efc58ed.jpg"
   }
 ]

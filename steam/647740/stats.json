@@ -1,58 +1,87 @@
-﻿{
-  "EscortPlay": {
-    "description": "Escort Plays",
-    "value": 0
+[
+  {
+    "name": "EscortPlay",
+    "defaultvalue": 0,
+    "displayName": "Escort Plays"
   },
-  "DMPlay": {
-    "description": "DM Plays",
-    "value": 0
+  {
+    "name": "DMPlay",
+    "defaultvalue": 0,
+    "displayName": "DM Plays"
   },
-  "SiegePlay": {
-    "description": "Siege Plays",
-    "value": 0
+  {
+    "name": "SiegePlay",
+    "defaultvalue": 0,
+    "displayName": "Siege Plays"
   },
-  "FFAPlay": {
-    "description": "FFA Plays",
-    "value": 0
+  {
+    "name": "FFAPlay",
+    "defaultvalue": 0,
+    "displayName": "FFA Plays"
   },
-  "ExpPlay": {
-    "description": "Expedition Plays",
-    "value": 0
+  {
+    "name": "ExpPlay",
+    "defaultvalue": 0,
+    "displayName": "Expedition Plays"
   },
-  "OffExpPlay": {
-    "description": "Offline Expedition Plays",
-    "value": 0
+  {
+    "name": "OffExpPlay",
+    "defaultvalue": 0,
+    "displayName": "Offline Expedition Plays"
   },
-  "MultiSandPlay": {
-    "description": "Multisandbox Plays",
-    "value": 0
+  {
+    "name": "MultiSandPlay",
+    "defaultvalue": 0,
+    "displayName": "Multisandbox Plays"
   },
-  "SandPlay": {
-    "description": "Sandbox Plays",
-    "value": 0
+  {
+    "name": "SandPlay",
+    "defaultvalue": 0,
+    "displayName": "Sandbox Plays"
   },
-  "ExpExtract": {
-    "description": "Expedition Extracts",
-    "value": 0
+  {
+    "name": "ExpExtract",
+    "defaultvalue": 0,
+    "displayName": "Expedition Extracts"
   },
-  "ExpLength": {
-    "description": "Expedition Length",
-    "value": 0
+  {
+    "name": "ExpLength",
+    "defaultvalue": 0,
+    "displayName": "Expedition Length"
   },
-  "BfPlay": {
-    "description": "Battlefield Plays",
-    "value": 0
+  {
+    "name": "BfPlay",
+    "defaultvalue": 0,
+    "displayName": "Battlefield Plays"
   },
-  "OffBfPlay": {
-    "description": "Offline Battlefield Plays",
-    "value": 0
+  {
+    "name": "OffBfPlay",
+    "defaultvalue": 0,
+    "displayName": "Offline Battlefield Plays"
   },
-  "tutorialMenusOpenned": {
-    "description": "Times Tutorial Menu Opened",
-    "value": 0
+  {
+    "name": "tutorialMenusOpenned",
+    "defaultvalue": 0,
+    "displayName": "Times Tutorial Menu Opened"
   },
-  "tutorialMenusTimeOpen": {
-    "description": "Time Tutorial Menu Open (s)",
-    "value": 0
+  {
+    "name": "tutorialMenusTimeOpen",
+    "defaultvalue": 0,
+    "displayName": "Time Tutorial Menu Open (s)"
+  },
+  {
+    "name": "easyResearchComplete",
+    "defaultvalue": 0,
+    "displayName": "Easy Research Complete"
+  },
+  {
+    "name": "mediumResearchComplete",
+    "defaultvalue": 0,
+    "displayName": "Medium Research Complete"
+  },
+  {
+    "name": "hardResearchComplete",
+    "defaultvalue": 0,
+    "displayName": "Hard Research Complete"
   }
-}
+]

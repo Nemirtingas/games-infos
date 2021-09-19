@@ -1,14 +1,17 @@
-﻿{
-  "rooms": {
-    "description": "",
-    "value": 0
+[
+  {
+    "name": "rooms",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "oobleck": {
-    "description": "",
-    "value": 0
+  {
+    "name": "oobleck",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "context": {
-    "description": "",
-    "value": 0
+  {
+    "name": "context",
+    "defaultvalue": 0,
+    "displayName": ""
   }
-}
+]

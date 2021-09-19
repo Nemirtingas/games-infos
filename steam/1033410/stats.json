@@ -1,26 +1,32 @@
-﻿{
-  "TotalDeaths": {
-    "description": "Total deaths",
-    "value": 0
+[
+  {
+    "name": "TotalDeaths",
+    "defaultvalue": 0,
+    "displayName": "Total deaths"
   },
-  "TotalPlayersKilled": {
-    "description": "Total players killed",
-    "value": 0
+  {
+    "name": "TotalPlayersKilled",
+    "defaultvalue": 0,
+    "displayName": "Total players killed"
   },
-  "TotalDamageDealtToPlayers": {
-    "description": "Damage dealt to other players",
-    "value": 0
+  {
+    "name": "TotalDamageDealtToPlayers",
+    "defaultvalue": 0,
+    "displayName": "Damage dealt to other players"
   },
-  "TotalDamageDealtToSelf": {
-    "description": "Self-inflicted damage",
-    "value": 0
+  {
+    "name": "TotalDamageDealtToSelf",
+    "defaultvalue": 0,
+    "displayName": "Self-inflicted damage"
   },
-  "TotalDamageTakenFromPlayers": {
-    "description": "Damage taken from other players",
-    "value": 0
+  {
+    "name": "TotalDamageTakenFromPlayers",
+    "defaultvalue": 0,
+    "displayName": "Damage taken from other players"
   },
-  "TotalRoundsPlayed": {
-    "description": "Total rounds played",
-    "value": 0
+  {
+    "name": "TotalRoundsPlayed",
+    "defaultvalue": 0,
+    "displayName": "Total rounds played"
   }
-}
+]

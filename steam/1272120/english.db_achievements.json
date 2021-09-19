@@ -1,128 +1,209 @@
 [
   {
-    "name": "ACHIEVEMENT_BEGINNER",
+    "name": "Explorer",
     "defaultvalue": 0,
-    "displayName": "Beginner",
-    "hidden": 0,
-    "description": "5000 scores",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1272120/a737a06079cf87a4ea6271b8d675ba399de3744e.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1272120/ac57b680be30cd913f4045b2862d6bd1870006d9.jpg"
-  },
-  {
-    "name": "ACHIEVEMENT_MASTER",
-    "defaultvalue": 0,
-    "displayName": "Master",
-    "hidden": 0,
-    "description": "10000 scores",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1272120/1faa3cc63fef9b9fc654414f185c099870a07e2f.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1272120/174c77b3584de42ae3d01c0f1463ba9358bceaa3.jpg"
-  },
-  {
-    "name": "ACHIEVEMENT_FIRSTBOSS",
-    "defaultvalue": 0,
-    "displayName": "Come to daddy",
-    "hidden": 0,
-    "description": "Kill first boss",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1272120/48a65b8243d37028df822bd938a3f0308e25213a.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1272120/543c03ff70ff9669c4ae7d1d55402e9cd160a8aa.jpg"
-  },
-  {
-    "name": "ACHIEVEMENT_SECONDBOSS",
-    "defaultvalue": 0,
-    "displayName": "Who is next?",
-    "hidden": 0,
-    "description": "Kill second boss",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1272120/b63504c04755f57a9e0e6fb82c64b9ce9ea95cf8.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1272120/0202400ad8903347c442ffca69272065ea1f7096.jpg"
-  },
-  {
-    "name": "ACHIEVEMENT_THIRDBOSS",
-    "defaultvalue": 0,
-    "displayName": "It was easy",
-    "hidden": 0,
-    "description": "Kill third boss",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1272120/df84cfd1bb23fab0ee1249bb5da7a508f84cfefe.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1272120/7a71cf861431315d39c9c868e7b844166e240716.jpg"
-  },
-  {
-    "name": "ACHIEVEMENT_FOURTBOSS",
-    "defaultvalue": 0,
-    "displayName": "Almost winner",
-    "hidden": 0,
-    "description": "Kill fourth boss",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1272120/142894df0abe0e9548b8b7ea3be02ec881669d35.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1272120/67b2d04c50c16472e3f3ad5d2176f19f44a74d7e.jpg"
-  },
-  {
-    "name": "ACHIEVEMENT_STARTTHEEND",
-    "defaultvalue": 0,
-    "displayName": "This is the end",
-    "hidden": 0,
-    "description": "2 min Endless remained",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1272120/eb340528ef38a9b95ecaaf2d024ea8013dd8d35d.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1272120/dab2c601d95c58bfdf5ef297b84a385b76751afa.jpg"
-  },
-  {
-    "name": "ACHIEVEMENT_INFINITY",
-    "defaultvalue": 0,
-    "displayName": "Infinity and beyond",
-    "hidden": 0,
-    "description": "5 min Endless remained",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1272120/91d1f22dfef2afc5a0dc4e0bcc8d0358def12ca7.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1272120/d36d8cab69d2b9afb5307cd57617ab44afce1ae2.jpg"
-  },
-  {
-    "name": "ACHIEVEMENT_HARDCOMPLETE",
-    "defaultvalue": 0,
-    "displayName": "What you are",
-    "hidden": 0,
-    "description": "Complete game in hard mode",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1272120/c5b9f479f2be62163aa418729ee5e40e6cdd4085.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1272120/46325424acf83d4e41e48bece5bf7b3ebdd045ec.jpg"
-  },
-  {
-    "name": "ACHIEVEMENT_LUCKY",
-    "defaultvalue": 0,
-    "displayName": "Lucky",
-    "hidden": 0,
-    "description": "Collect 50 bonuses for a one chapter",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1272120/96791fb77dac83b614ec799f8e98275ee0ee08c2.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1272120/26a7033da18df84f352056c889ce6b2a10bb53a2.jpg"
-  },
-  {
-    "name": "ACHIEVEMENT_MOREBLOCKS",
-    "defaultvalue": 0,
-    "displayName": "Need more Blocks",
+    "displayName": "Explorer",
     "hidden": 0,
     "description": "Destroy 100 blocks",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1272120/f4fbe7398b60e8c72da24e1c50bf2d08d503d071.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1272120/7cd32bbac568a82bbe3a9f0ce026f6fe6aa313bb.jpg"
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1272120/0dfd14ac49f6e190666a093a5b4523932cc17278.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1272120/815f2916ad40ecac94080e890ce277a26f38c47b.jpg"
   },
   {
-    "name": "ACHIEVEMENT_DEVASTATOR",
+    "name": "Cleaner",
     "defaultvalue": 0,
-    "displayName": "Devastator ",
+    "displayName": "Cleaner",
     "hidden": 0,
-    "description": "20000 Scores",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1272120/e1afd69267a7bec56e21e3b8e7b66d1cc640352f.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1272120/4346593bcc23bcdc750c3f6fa4180285eab01f2d.jpg"
+    "description": "Destroy 500 blocks",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1272120/11fac6308230ee5c1e8dfff5b274996055d11187.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1272120/659cabb5324f86ce765eb9edf82ba2058ec62e29.jpg"
   },
   {
-    "name": "ACHIEVEMENT_ENDLESS",
+    "name": "Ruiner",
     "defaultvalue": 0,
-    "displayName": "Endless",
+    "displayName": "Ruiner",
+    "hidden": 0,
+    "description": "Destroy 2500 blocks",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1272120/cc82ac46d51849b11fc10e0c3493da9a9b4e45c1.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1272120/2b51999c0f26bb7d21c5fd6e56bd543969d7fd4d.jpg"
+  },
+  {
+    "name": "Devastator",
+    "defaultvalue": 0,
+    "displayName": "Devastator",
+    "hidden": 0,
+    "description": "Destroy 10000 blocks",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1272120/76dbb424807657664fce75ed05f938cf22cf3d32.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1272120/9480f680ff2d3d81ca4d43e05ba4d4de8ad7d701.jpg"
+  },
+  {
+    "name": "StarBoy",
+    "defaultvalue": 0,
+    "displayName": "Star boy",
+    "hidden": 0,
+    "description": "5000 scores",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1272120/9e3a0764cfdd9d1ebf9114d42837577e73a705e3.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1272120/d92ec6469844a6e056bc3665de21db746b5ee0a8.jpg"
+  },
+  {
+    "name": "MasterGalactic",
+    "defaultvalue": 0,
+    "displayName": "Master Galactic",
+    "hidden": 0,
+    "description": "50000  scores",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1272120/314486d739ddd6f1586f2a260b342931ce5e0e82.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1272120/7b16bc94150fdcda7382b819b576c41bc6e41ed4.jpg"
+  },
+  {
+    "name": "YoureNotAlone",
+    "defaultvalue": 0,
+    "displayName": "You're Not Alone",
+    "hidden": 0,
+    "description": "Kill first boss",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1272120/f9ac6ad7a5e16d67975e1aa5b66d5b2d097a06c9.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1272120/7e9877fe5e1bce7ca62934d5117edaf3f2934550.jpg"
+  },
+  {
+    "name": "ItWasEasy",
+    "defaultvalue": 0,
+    "displayName": "It Was Easy",
+    "hidden": 0,
+    "description": "Kill second boss",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1272120/38d007f4a7963bb0269b458bc8831f7a7ee9cc1d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1272120/0bdce094292b3f57b2e60900fbdefb00878b3a35.jpg"
+  },
+  {
+    "name": "ComeToDaddy",
+    "defaultvalue": 0,
+    "displayName": "Come To Daddy",
+    "hidden": 0,
+    "description": "Kill third boss",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1272120/bc986457290f8a75dc3bec1602d33da09b79ef75.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1272120/5d7e1d966e64724cb10180934f5e1efea72951b1.jpg"
+  },
+  {
+    "name": "CosmoHero",
+    "defaultvalue": 0,
+    "displayName": "Cosmo Hero",
+    "hidden": 0,
+    "description": "500000 score",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1272120/0c535c6b6aa18ecebbcbb9eb337a92efb6893392.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1272120/f6ee3032291aebcf9f9867a115ae99eaec5e399e.jpg"
+  },
+  {
+    "name": "WhoIsNext",
+    "defaultvalue": 0,
+    "displayName": "Who Is Next",
+    "hidden": 0,
+    "description": "Kill fourth boss",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1272120/485b13c0da422d23b43dc9df59758ee8102b3ccf.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1272120/6011e885dd8e5706fab16872242c06051400fd13.jpg"
+  },
+  {
+    "name": "Exploder",
+    "defaultvalue": 0,
+    "displayName": "Exploder",
+    "hidden": 0,
+    "description": "Detonate any 100 bombs",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1272120/befdd2ecc125960b27f121a40ac6cf93d742f8a9.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1272120/19b9f7cc1bc036d2f418a1608cd1afe16073f9e2.jpg"
+  },
+  {
+    "name": "Demoman",
+    "defaultvalue": 0,
+    "displayName": "Demoman",
+    "hidden": 0,
+    "description": "Detonate any 500 bombsany 500 bombs",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1272120/25722b5e2b818a1d4f9f2c9fced2ea702d60010d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1272120/34f666fb734f059529d68c8f05a257bbea0977be.jpg"
+  },
+  {
+    "name": "Boffin",
+    "defaultvalue": 0,
+    "displayName": "Boffin",
+    "hidden": 0,
+    "description": "Complete the Black Hole Special Level",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1272120/5612499d14e3520cd8021008242023ee1872e7b1.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1272120/be5a5f264bd972b6c59f43b2fb2218a726e26f36.jpg"
+  },
+  {
+    "name": "MadMiner",
+    "defaultvalue": 0,
+    "displayName": "Mad Miner",
+    "hidden": 0,
+    "description": " Collect 1000 gems",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1272120/32d44c5359b43fe35933de82e5d982fb59fc860b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1272120/526b7f3b803d8136fec12f95d7dcae0854ee1e94.jpg"
+  },
+  {
+    "name": "Collector",
+    "defaultvalue": 0,
+    "displayName": "Collector",
+    "hidden": 0,
+    "description": "Open all skins",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1272120/4ce2dd45e09ffa8a1998339c3205c32047b42ff1.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1272120/add3297aa3069b18cd26242d2561b13179fc738f.jpg"
+  },
+  {
+    "name": "LuckyDevil",
+    "defaultvalue": 0,
+    "displayName": "Lucky Devil",
+    "hidden": 0,
+    "description": "Colllect 50 bonuses in one game",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1272120/d4e28f17a7e6e85e3762fd8c46e4659c21a69ab2.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1272120/9140b89067c3659548fa3c60523c539d727241da.jpg"
+  },
+  {
+    "name": "AlmostWinner",
+    "defaultvalue": 0,
+    "displayName": "Almost Winner",
+    "hidden": 0,
+    "description": "Complete Story in Realism mode",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1272120/a21f50e51e9cce2d9352483d102457a64f2820e3.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1272120/d6e18a781cc045ae563d634a7e3fa8dac35d6a5b.jpg"
+  },
+  {
+    "name": "SkyHunter",
+    "defaultvalue": 0,
+    "displayName": "Sky Hunter",
+    "hidden": 0,
+    "description": "Destroy 200 drones",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1272120/5ea2dd641d95e139fe7d9c9f8e0fbe94a878d44e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1272120/7bff27a087d3f2f282d16d14699cec7203497c0c.jpg"
+  },
+  {
+    "name": "ItsNotOverYet",
+    "defaultvalue": 0,
+    "displayName": "It's Not Over Yet",
+    "hidden": 0,
+    "description": "3 min Survival remained",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1272120/688efa4078638890b3e38e982c007a54614ac9ec.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1272120/4787919641123167d7b564af3e587b1c72e388da.jpg"
+  },
+  {
+    "name": "NoLimitToPerfection",
+    "defaultvalue": 0,
+    "displayName": "No Limit To Perfection",
+    "hidden": 0,
+    "description": "5 min Endless remained",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1272120/4230eac363b62646e73a538766b45083bb176d00.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1272120/a1a620fcfeacabb19acf1420a059a06791d92746.jpg"
+  },
+  {
+    "name": "AlmostInfinity",
+    "defaultvalue": 0,
+    "displayName": "Almost Infinity",
     "hidden": 0,
     "description": "10 min Endless remained",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1272120/4c43cdf8f5f3111f05cdcf7f807273a3a5537bcb.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1272120/cc6d955a33b34a7baea4dfa2e9a3fa4aa6f7f427.jpg"
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1272120/fd8782a3ab8a81ce3d489e85eb97d3dfa2b0391e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1272120/63d57e06f538bbf12b793edca1255845d901788f.jpg"
   },
   {
-    "name": "ACHIEVEMENT_SUICIDE",
+    "name": "PerAsperaAdAstra",
     "defaultvalue": 0,
-    "displayName": "Endless Suicide",
+    "displayName": "Per Aspera Ad Astra",
     "hidden": 0,
     "description": "20 min Endless remained",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1272120/701e097e46ed8c79b21a91f8fd1decff5110893a.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1272120/14cb13fcde2e0f3a7cbe12946a8b28efa4a9ff0e.jpg"
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1272120/7fd207371de2eb436bcf499fb84abc5f1653979c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1272120/77773f185358bafe1e18658d8915335a706f76d1.jpg"
   }
 ]

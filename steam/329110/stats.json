@@ -1,158 +1,252 @@
-﻿{
-  "stat_level": {
-    "description": "Level",
-    "value": 1
+[
+  {
+    "name": "stat_level",
+    "defaultvalue": 1,
+    "displayName": "Level"
   },
-  "stat_kingdoms": {
-    "description": "Kingdoms",
-    "value": 1
+  {
+    "name": "stat_kingdoms",
+    "defaultvalue": 1,
+    "displayName": "Kingdoms"
   },
-  "stat_troops": {
-    "description": "Troop Types",
-    "value": 1
+  {
+    "name": "stat_troops",
+    "defaultvalue": 1,
+    "displayName": "Troop Types"
   },
-  "stat_trooplevel": {
-    "description": "Highest Level Troop",
-    "value": 1
+  {
+    "name": "stat_trooplevel",
+    "defaultvalue": 1,
+    "displayName": "Highest Level Troop"
   },
-  "stat_challengelevel": {
-    "description": "Best Challenge Rank",
-    "value": 0
+  {
+    "name": "stat_challengelevel",
+    "defaultvalue": 0,
+    "displayName": "Best Challenge Rank"
   },
-  "stat_pvplevel": {
-    "description": "Best PvP Rank",
-    "value": 1
+  {
+    "name": "stat_pvplevel",
+    "defaultvalue": 1,
+    "displayName": "Best PvP Rank"
   },
-  "stat_kingdompower": {
-    "description": "Kingdom Power",
-    "value": 1
+  {
+    "name": "stat_kingdompower",
+    "defaultvalue": 1,
+    "displayName": "Kingdom Power"
   },
-  "stat_heroclasswins": {
-    "description": "Hero Class Wins",
-    "value": 0
+  {
+    "name": "stat_heroclasswins",
+    "defaultvalue": 0,
+    "displayName": "Hero Class Wins"
   },
-  "stat_trooprarity": {
-    "description": "Troop Rarity",
-    "value": 1
+  {
+    "name": "stat_trooprarity",
+    "defaultvalue": 1,
+    "displayName": "Troop Rarity"
   },
-  "stat_vaultcount": {
-    "description": "Vault Count",
-    "value": 0
+  {
+    "name": "stat_vaultcount",
+    "defaultvalue": 0,
+    "displayName": "Vault Count"
   },
-  "stat_invasiontowers": {
-    "description": "Invasion Towers Destroyed",
-    "value": 0
+  {
+    "name": "stat_invasiontowers",
+    "defaultvalue": 0,
+    "displayName": "Invasion Towers Destroyed"
   },
-  "stat_raidbossdamage": {
-    "description": "Raid Boss Damage",
-    "value": 0
+  {
+    "name": "stat_raidbossdamage",
+    "defaultvalue": 0,
+    "displayName": "Raid Boss Damage"
   },
-  "stat_petrescuewins": {
-    "description": "Pet Rescue Wins",
-    "value": 0
+  {
+    "name": "stat_petrescuewins",
+    "defaultvalue": 0,
+    "displayName": "Pet Rescue Wins"
   },
-  "stat_petlevel": {
-    "description": "Pet Max Level",
-    "value": 0
+  {
+    "name": "stat_petlevel",
+    "defaultvalue": 0,
+    "displayName": "Pet Max Level"
   },
-  "stat_championlevel": {
-    "description": "Champion Max Level",
-    "value": 0
+  {
+    "name": "stat_championlevel",
+    "defaultvalue": 0,
+    "displayName": "Champion Max Level"
   },
-  "stat_weaponaffixes": {
-    "description": "Most Affixes on a Weapon",
-    "value": 0
+  {
+    "name": "stat_weaponaffixes",
+    "defaultvalue": 0,
+    "displayName": "Most Affixes on a Weapon"
   },
-  "stat_factions": {
-    "description": "Factions",
-    "value": 0
+  {
+    "name": "stat_factions",
+    "defaultvalue": 0,
+    "displayName": "Factions"
   },
-  "stat_delvelevel": {
-    "description": "Best Delve Level Complete",
-    "value": 0
+  {
+    "name": "stat_delvelevel",
+    "defaultvalue": 0,
+    "displayName": "Best Delve Level Complete"
   },
-  "stat_delvelevelnodeaths": {
-    "description": "Best Delve Level Complete with no Deaths",
-    "value": 0
+  {
+    "name": "stat_delvelevelnodeaths",
+    "defaultvalue": 0,
+    "displayName": "Best Delve Level Complete with no Deaths"
   },
-  "stat_delvelevelfactionteam": {
-    "description": "Best Delve Level Complete With Faction Team",
-    "value": 0
+  {
+    "name": "stat_delvelevelfactionteam",
+    "defaultvalue": 0,
+    "displayName": "Best Delve Level Complete With Faction Team"
   },
-  "stat_hoardlevel": {
-    "description": "Best Treasure Hoard Level",
-    "value": 0
+  {
+    "name": "stat_hoardlevel",
+    "defaultvalue": 0,
+    "displayName": "Best Treasure Hoard Level"
   },
-  "stat_hoardquality": {
-    "description": "Best Treasure Hoard Quality",
-    "value": 0
+  {
+    "name": "stat_hoardquality",
+    "defaultvalue": 0,
+    "displayName": "Best Treasure Hoard Quality"
   },
-  "stat_factionrenown": {
-    "description": "Best Renown for a Single Faction",
-    "value": 0
+  {
+    "name": "stat_factionrenown",
+    "defaultvalue": 0,
+    "displayName": "Best Renown for a Single Faction"
   },
-  "stat_totalfactionrenown": {
-    "description": "Total Renown for all Factions",
-    "value": 0
+  {
+    "name": "stat_totalfactionrenown",
+    "defaultvalue": 0,
+    "displayName": "Total Renown for all Factions"
   },
-  "stat_towerofdoomdefeated": {
-    "description": "Highest Dooms Defeated in a single Tower of Doom Event",
-    "value": 0
+  {
+    "name": "stat_towerofdoomdefeated",
+    "defaultvalue": 0,
+    "displayName": "Highest Dooms Defeated in a single Tower of Doom Event"
   },
-  "stat_honorgiven": {
-    "description": "Total Honor Given to Other Players",
-    "value": 0
+  {
+    "name": "stat_honorgiven",
+    "defaultvalue": 0,
+    "displayName": "Total Honor Given to Other Players"
   },
-  "stat_socialitems": {
-    "description": "Number of Social Items the Player Owns (Emojis, Portraits, Titles)",
-    "value": 0
+  {
+    "name": "stat_socialitems",
+    "defaultvalue": 0,
+    "displayName": "Number of Social Items the Player Owns (Emojis, Portraits, Titles)"
   },
-  "stat_mvplevel": {
-    "description": "Highest MVP Level the Player has Reached in a Single Battle",
-    "value": 0
+  {
+    "name": "stat_mvplevel",
+    "defaultvalue": 0,
+    "displayName": "Highest MVP Level the Player has Reached in a Single Battle"
   },
-  "stat_epicbattlefought": {
-    "description": "Number of Epic Battles Fought",
-    "value": 0
+  {
+    "name": "stat_epicbattlefought",
+    "defaultvalue": 0,
+    "displayName": "Number of Epic Battles Fought"
   },
-  "stat_adventureboardscomplete": {
-    "description": "Number of Adventure Boards Completed in a single day",
-    "value": 0
+  {
+    "name": "stat_adventureboardscomplete",
+    "defaultvalue": 0,
+    "displayName": "Number of Adventure Boards Completed in a single day"
   },
-  "stat_challengetier": {
-    "description": "Highest Challenge Tier completed in a single Kingdom",
-    "value": 0
+  {
+    "name": "stat_challengetier",
+    "defaultvalue": 0,
+    "displayName": "Highest Challenge Tier completed in a single Kingdom"
   },
-  "stat_kingdomlevel": {
-    "description": "Highest Kingdom Level that the user owns",
-    "value": 1
+  {
+    "name": "stat_kingdomlevel",
+    "defaultvalue": 1,
+    "displayName": "Highest Kingdom Level that the user owns"
   },
-  "stat_medalsequipped": {
-    "description": "The number of Medals that the player has equipped",
-    "value": 0
+  {
+    "name": "stat_medalsequipped",
+    "defaultvalue": 0,
+    "displayName": "The number of Medals that the player has equipped"
   },
-  "stat_troopelitelevels": {
-    "description": "The total number of Troops which have Elite Levels awarded by medals",
-    "value": 0
+  {
+    "name": "stat_troopelitelevels",
+    "defaultvalue": 0,
+    "displayName": "The total number of Troops which have Elite Levels awarded by medals"
   },
-  "stat_troopselitelevelgold": {
-    "description": "The total number of troops which have reached Gold Elite Level status by being upgraded by Medals",
-    "value": 0
+  {
+    "name": "stat_troopselitelevelgold",
+    "defaultvalue": 0,
+    "displayName": "The total number of troops which have reached Gold Elite Level status by being upgraded by Medals"
   },
-  "stat_medalofseasons": {
-    "description": "The max number of Medal of Seasons the player has equipped",
-    "value": 0
+  {
+    "name": "stat_medalofseasons",
+    "defaultvalue": 0,
+    "displayName": "The max number of Medal of Seasons the player has equipped"
   },
-  "stat_gemsoftype": {
-    "description": "The max number of gems of a single color matched in a single battle",
-    "value": 0
+  {
+    "name": "stat_gemsoftype",
+    "defaultvalue": 0,
+    "displayName": "The max number of gems of a single color matched in a single battle"
   },
-  "stat_campaigntasks": {
-    "description": "The max number of Campaign Tasks a user has completed in a single Campaign",
-    "value": 0
+  {
+    "name": "stat_campaigntasks",
+    "defaultvalue": 0,
+    "displayName": "The max number of Campaign Tasks a user has completed in a single Campaign"
   },
-  "stat_artifactlevel": {
-    "description": "The Max Level a user has gotten an Artifact to in a single Campaign",
-    "value": 0
+  {
+    "name": "stat_artifactlevel",
+    "defaultvalue": 0,
+    "displayName": "The Max Level a user has gotten an Artifact to in a single Campaign"
+  },
+  {
+    "name": "stat_petsowned",
+    "defaultvalue": 0,
+    "displayName": "The total number of pets that the player owns"
+  },
+  {
+    "name": "stat_arenawins",
+    "defaultvalue": 0,
+    "displayName": "The Max wins that a player has completed in Arena without a loss"
+  },
+  {
+    "name": "stat_arenavalor",
+    "defaultvalue": 0,
+    "displayName": "The highest Valor that the player has reached in a single Arena Live Event"
+  },
+  {
+    "name": "stat_warbandsowned",
+    "defaultvalue": 0,
+    "displayName": "The number of Warbands owned"
+  },
+  {
+    "name": "stat_shrinesfilled",
+    "defaultvalue": 0,
+    "displayName": "Only set when a Shrine is filled"
+  },
+  {
+    "name": "stat_kingdompower15",
+    "defaultvalue": 0,
+    "displayName": "Kingdoms at power level 15"
+  },
+  {
+    "name": "stat_uberdoomskulls",
+    "defaultvalue": 0,
+    "displayName": "The number of uberdoomskulls matched"
+  },
+  {
+    "name": "stat_campaigntaskrerolls",
+    "defaultvalue": 0,
+    "displayName": "The number of rerolled campaign tasks"
+  },
+  {
+    "name": "stat_lycanthropygems",
+    "defaultvalue": 0,
+    "displayName": "The number of lycanthropy gems matched"
+  },
+  {
+    "name": "stat_gnomapaloozaevents",
+    "defaultvalue": 0,
+    "displayName": "The number of gnomapalooza events crafted"
+  },
+  {
+    "name": "stat_manasurgeverses",
+    "defaultvalue": 0,
+    "displayName": "The number of verses earned from a Mana Surge band gnome"
   }
-}
+]

@@ -1,10 +1,12 @@
-﻿{
-  "playerXP": {
-    "description": "",
-    "value": 0
+[
+  {
+    "name": "playerXP",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "versionBadges": {
-    "description": "",
-    "value": 0
+  {
+    "name": "versionBadges",
+    "defaultvalue": 0,
+    "displayName": ""
   }
-}
+]

@@ -1,194 +1,242 @@
-﻿{
-  "stat_score_gs": {
-    "description": "",
-    "value": 1
+[
+  {
+    "name": "stat_score_gs",
+    "defaultvalue": 1,
+    "displayName": ""
   },
-  "stat_rating": {
-    "description": "",
-    "value": 1
+  {
+    "name": "stat_rating",
+    "defaultvalue": 1,
+    "displayName": ""
   },
-  "stat_score": {
-    "description": "",
-    "value": 0
+  {
+    "name": "stat_score",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "stat_pres": {
-    "description": "",
-    "value": 0
+  {
+    "name": "stat_pres",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "acc_can": {
-    "description": "",
-    "value": 0
+  {
+    "name": "acc_can",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "acc_grape": {
-    "description": "",
-    "value": 0
+  {
+    "name": "acc_grape",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "acc_arson": {
-    "description": "",
-    "value": 0
+  {
+    "name": "acc_arson",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "acc_ram": {
-    "description": "",
-    "value": 0
+  {
+    "name": "acc_ram",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "acc_mus": {
-    "description": "",
-    "value": 0
+  {
+    "name": "acc_mus",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "acc_blun": {
-    "description": "",
-    "value": 0
+  {
+    "name": "acc_blun",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "acc_nock": {
-    "description": "",
-    "value": 0
+  {
+    "name": "acc_nock",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "acc_ann": {
-    "description": "",
-    "value": 0
+  {
+    "name": "acc_ann",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "acc_rev": {
-    "description": "",
-    "value": 0
+  {
+    "name": "acc_rev",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "acc_pis": {
-    "description": "",
-    "value": 0
+  {
+    "name": "acc_pis",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "acc_duck": {
-    "description": "",
-    "value": 0
+  {
+    "name": "acc_duck",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "acc_mpis": {
-    "description": "",
-    "value": 0
+  {
+    "name": "acc_mpis",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "acc_cut": {
-    "description": "",
-    "value": 0
+  {
+    "name": "acc_cut",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "acc_dag": {
-    "description": "",
-    "value": 0
+  {
+    "name": "acc_dag",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "acc_bot": {
-    "description": "",
-    "value": 0
+  {
+    "name": "acc_bot",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "acc_head": {
-    "description": "",
-    "value": 0
+  {
+    "name": "acc_head",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "acc_swiv": {
-    "description": "",
-    "value": 0
+  {
+    "name": "acc_swiv",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "acc_rep": {
-    "description": "",
-    "value": 0
+  {
+    "name": "acc_rep",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "acc_pump": {
-    "description": "",
-    "value": 0
+  {
+    "name": "acc_pump",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "acc_sail": {
-    "description": "",
-    "value": 0
+  {
+    "name": "acc_sail",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "acc_sup": {
-    "description": "",
-    "value": 0
+  {
+    "name": "acc_sup",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "acc_capHit": {
-    "description": "",
-    "value": 0
+  {
+    "name": "acc_capHit",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "acc_capWins": {
-    "description": "",
-    "value": 0
+  {
+    "name": "acc_capWins",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "acc_capLose": {
-    "description": "",
-    "value": 0
+  {
+    "name": "acc_capLose",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "acc_kills": {
-    "description": "",
-    "value": 0
+  {
+    "name": "acc_kills",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "acc_deaths": {
-    "description": "",
-    "value": 0
+  {
+    "name": "acc_deaths",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "acc_winHoy": {
-    "description": "",
-    "value": 0
+  {
+    "name": "acc_winHoy",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "acc_winJunk": {
-    "description": "",
-    "value": 0
+  {
+    "name": "acc_winJunk",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "acc_winGal": {
-    "description": "",
-    "value": 0
+  {
+    "name": "acc_winGal",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "acc_winSchoon": {
-    "description": "",
-    "value": 0
+  {
+    "name": "acc_winSchoon",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "acc_noseRep": {
-    "description": "",
-    "value": 0
+  {
+    "name": "acc_noseRep",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "acc_capKills": {
-    "description": "",
-    "value": 0
+  {
+    "name": "acc_capKills",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "acc_tomo": {
-    "description": "",
-    "value": 0
+  {
+    "name": "acc_tomo",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "acc_gren": {
-    "description": "",
-    "value": 0
+  {
+    "name": "acc_gren",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "acc_grenLaunch": {
-    "description": "",
-    "value": 0
+  {
+    "name": "acc_grenLaunch",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "acc_rap": {
-    "description": "",
-    "value": 0
+  {
+    "name": "acc_rap",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "acc_brig": {
-    "description": "",
-    "value": 0
+  {
+    "name": "acc_brig",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "acc_xeb": {
-    "description": "",
-    "value": 0
+  {
+    "name": "acc_xeb",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "acc_cru": {
-    "description": "",
-    "value": 0
+  {
+    "name": "acc_cru",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "acc_bombv": {
-    "description": "",
-    "value": 0
+  {
+    "name": "acc_bombv",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "acc_cutt": {
-    "description": "",
-    "value": 0
+  {
+    "name": "acc_cutt",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "acc_bombk": {
-    "description": "",
-    "value": 0
+  {
+    "name": "acc_bombk",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "acc_carr": {
-    "description": "",
-    "value": 0
+  {
+    "name": "acc_carr",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "acc_gunb": {
-    "description": "",
-    "value": 0
+  {
+    "name": "acc_gunb",
+    "defaultvalue": 0,
+    "displayName": ""
   }
-}
+]

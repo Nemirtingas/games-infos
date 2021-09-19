@@ -1,18 +1,22 @@
-﻿{
-  "crashes": {
-    "description": "Crashes",
-    "value": 0
+[
+  {
+    "name": "crashes",
+    "defaultvalue": 0,
+    "displayName": "Crashes"
   },
-  "level": {
-    "description": "Level",
-    "value": 0
+  {
+    "name": "level",
+    "defaultvalue": 0,
+    "displayName": "Level"
   },
-  "landings": {
-    "description": "Landings",
-    "value": 0
+  {
+    "name": "landings",
+    "defaultvalue": 0,
+    "displayName": "Landings"
   },
-  "fuelcans": {
-    "description": "Fuelcans",
-    "value": 0
+  {
+    "name": "fuelcans",
+    "defaultvalue": 0,
+    "displayName": "Fuelcans"
   }
-}
+]

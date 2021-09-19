@@ -1,26 +1,19 @@
 {
-  "Dlcs": {},
-  "Name": "Yuhha: Stolen Treasure",
-  "AppId": "1229450",
-  "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/1229450/header.jpg?t=1599722595",
-  "Languages": [
-    "english",
-    "schinese",
-    "russian",
-    "german",
-    "spanish",
-    "portuguese",
-    "french",
-    "korean",
-    "polish",
-    "thai",
-    "turkish",
-    "japanese",
-    "italian"
-  ],
-  "Platforms": {
-    "windows": true,
-    "mac": false,
-    "linux": false
+  "Dlcs": {
+    "1473470": {
+      "Name": "Yuhha: Stolen Treasure EXTRA SUPPORT",
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1473470/header.jpg?t=1606291589",
+      "Type": "dlc"
+    },
+    "1473440": {
+      "Name": "Yuhha: Stolen Treasure WALLPAPER PACK",
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1473440/header.jpg?t=1619830072",
+      "Type": "dlc"
+    },
+    "1473310": {
+      "Name": "Yuhha: Stolen Treasure SOUNDTRACK",
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1473310/header.jpg?t=1606291632",
+      "Type": "music"
+    }
   }
 }

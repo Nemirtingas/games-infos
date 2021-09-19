@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "name": "HUMAN_MASTERY",
     "defaultvalue": 0,
@@ -338,7 +338,7 @@
   {
     "name": "CLEAR_STAGE_9",
     "defaultvalue": 0,
-    "displayName": "Demigod",
+    "displayName": "Demigod I",
     "hidden": 0,
     "description": "Cleared Stage 9",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1055990/ee02da361eafb2517c5dedf141fe939f4d46fe2f.jpg",
@@ -460,5 +460,58 @@
     "description": "Reached Monk Mastery of 120+",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1055990/5aceb723252c604ab4cb0ce5033eaf6cc309ca05.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1055990/91432585cb6199ae052bad6c512d256fb1c6093d.jpg"
+  },
+  {
+    "name": "CRIME LORD_MASTERY",
+    "defaultvalue": 0,
+    "displayName": "Crime Lord Mastery",
+    "hidden": 0,
+    "description": "Reached Crime Lord Mastery of 120+",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1055990/5fda0558ba4da766ae3bdf864da90befbb0511bc.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1055990/28433a312f94382f9813b446b993247f6392993b.jpg"
+  },
+  {
+    "name": "NOMAD_MASTERY",
+    "defaultvalue": 0,
+    "displayName": "Nomad Mastery",
+    "hidden": 0,
+    "description": "Reached Nomad Mastery of 120+",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1055990/cfc0d935896c594ea0c55de27d8aa9435aa99ed3.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1055990/46a9cabe5c3eb33beafa5b913f841169b022cb34.jpg"
+  },
+  {
+    "name": "CLEAR_STAGE_10",
+    "defaultvalue": 0,
+    "displayName": "Demigod II",
+    "hidden": 0,
+    "description": "Cleared Stage 10",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1055990/9c254b7ce9fc5f9717d5ad3c679a5f264e4ece9b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1055990/40b79eea86afca7dcc5fc1eb257a5cecac5dd1ce.jpg"
+  },
+  {
+    "name": "CLEAR_STAGE_11",
+    "defaultvalue": 0,
+    "displayName": "Demigod III",
+    "hidden": 0,
+    "description": "Cleared Stage 11",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1055990/eff414f073275de4ef49e8d4ed638d655c7f1715.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1055990/f551a99fbf0ccfe03a4dcac5f8e0fca3152b5d54.jpg"
+  },
+  {
+    "name": "CLEAR_STAGE_12",
+    "defaultvalue": 0,
+    "displayName": "Divine Champion",
+    "hidden": 0,
+    "description": "Cleared Stage 12",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1055990/3844049bd326638bf88d3b0e626d102379a2c972.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1055990/bf7a2b2603058f7d660d83c69d8ee9c8e3052990.jpg"
+  },
+  {
+    "name": "HEROIC_SAGA",
+    "defaultvalue": 0,
+    "displayName": "Heroic Saga",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1055990/a3e32dd7b8372772262df26e04b6a275d56cfdfd.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1055990/49db09db8697b5c068d432eefbe117e78ed5fb44.jpg"
   }
 ]

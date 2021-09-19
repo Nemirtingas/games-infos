@@ -1,46 +1,57 @@
-﻿{
-  "ST_COLLECTED_SPEC_GEMS": {
-    "description": "No of special gems Collecte",
-    "value": 0
+[
+  {
+    "name": "ST_COLLECTED_SPEC_GEMS",
+    "defaultvalue": 0,
+    "displayName": "No of special gems Collecte"
   },
-  "ST_TOTAL_PLAY_TIME": {
-    "description": "Total Play Time",
-    "value": 0
+  {
+    "name": "ST_TOTAL_PLAY_TIME",
+    "defaultvalue": 0,
+    "displayName": "Total Play Time"
   },
-  "ST_TOTAL_JUMPS": {
-    "description": "Total Jumps",
-    "value": 0
+  {
+    "name": "ST_TOTAL_JUMPS",
+    "defaultvalue": 0,
+    "displayName": "Total Jumps"
   },
-  "ST_TOTAL_DEATHS": {
-    "description": "Total Deaths",
-    "value": 0
+  {
+    "name": "ST_TOTAL_DEATHS",
+    "defaultvalue": 0,
+    "displayName": "Total Deaths"
   },
-  "ST_COLLECTED_GUNS": {
-    "description": "Total Collected Guns",
-    "value": 0
+  {
+    "name": "ST_COLLECTED_GUNS",
+    "defaultvalue": 0,
+    "displayName": "Total Collected Guns"
   },
-  "ST_COLLECTED_PICKUPS": {
-    "description": "Total Collected Pickups",
-    "value": 0
+  {
+    "name": "ST_COLLECTED_PICKUPS",
+    "defaultvalue": 0,
+    "displayName": "Total Collected Pickups"
   },
-  "ST_TOTAL_COMPLETED_LEVELS": {
-    "description": "Total Completed Levels",
-    "value": 0
+  {
+    "name": "ST_TOTAL_COMPLETED_LEVELS",
+    "defaultvalue": 0,
+    "displayName": "Total Completed Levels"
   },
-  "ST_TOTAL_COMPLETED_LEVELS_GAMEPLUS": {
-    "description": "Total Completed Levels  in game+",
-    "value": 0
+  {
+    "name": "ST_TOTAL_COMPLETED_LEVELS_GAMEPLUS",
+    "defaultvalue": 0,
+    "displayName": "Total Completed Levels  in game+"
   },
-  "ST_TOTAL_SHOT_ENEMIES": {
-    "description": "Total Shot Levels",
-    "value": 0
+  {
+    "name": "ST_TOTAL_SHOT_ENEMIES",
+    "defaultvalue": 0,
+    "displayName": "Total Shot Levels"
   },
-  "ST_RETRIES": {
-    "description": "Max Attempts to complete a Level in a row",
-    "value": 0
+  {
+    "name": "ST_RETRIES",
+    "defaultvalue": 0,
+    "displayName": "Max Attempts to complete a Level in a row"
   },
-  "ST_HARDCORE": {
-    "description": "Total Levels Completed Hard Core (completed level and collected both fruit and special in the same try)",
-    "value": 0
+  {
+    "name": "ST_HARDCORE",
+    "defaultvalue": 0,
+    "displayName": "Total Levels Completed Hard Core (completed level and collected both fruit and special in the same try)"
   }
-}
+]

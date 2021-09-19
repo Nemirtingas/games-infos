@@ -1,26 +1,32 @@
-﻿{
-  "CRAFTED_ITEMS": {
-    "description": "Crafted Items",
-    "value": 0
+[
+  {
+    "name": "CRAFTED_ITEMS",
+    "defaultvalue": 0,
+    "displayName": "Crafted Items"
   },
-  "SURVIVOR_KILLS": {
-    "description": "Survivors Killed",
-    "value": 0
+  {
+    "name": "SURVIVOR_KILLS",
+    "defaultvalue": 0,
+    "displayName": "Survivors Killed"
   },
-  "COMPOUND_LIB": {
-    "description": "Compounds Liberations",
-    "value": 0
+  {
+    "name": "COMPOUND_LIB",
+    "defaultvalue": 0,
+    "displayName": "Compounds Liberations"
   },
-  "HELI_RIDES": {
-    "description": "Helicopter Rides",
-    "value": 0
+  {
+    "name": "HELI_RIDES",
+    "defaultvalue": 0,
+    "displayName": "Helicopter Rides"
   },
-  "ROBO_KILLS": {
-    "description": "Humanoid Kills",
-    "value": 0
+  {
+    "name": "ROBO_KILLS",
+    "defaultvalue": 0,
+    "displayName": "Humanoid Kills"
   },
-  "SUPPLYDROPS_OPENED": {
-    "description": "Supply Drops Opened",
-    "value": 0
+  {
+    "name": "SUPPLYDROPS_OPENED",
+    "defaultvalue": 0,
+    "displayName": "Supply Drops Opened"
   }
-}
+]

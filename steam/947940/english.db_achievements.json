@@ -1,10 +1,10 @@
-﻿[
+[
   {
     "name": "chiropractor",
     "defaultvalue": 0,
     "displayName": "Chiropractor",
     "hidden": 0,
-    "description": "Get killed by SCP-173.",
+    "description": "Get Killed by SCP-173.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/947940/b0c5e4796e2e3189634af00876c2967712fddf9e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/947940/70526497c6324b3f2dd9f2ab592ff2d7e3d8ecca.jpg"
   },
@@ -40,7 +40,7 @@
     "defaultvalue": 0,
     "displayName": "Freedom!",
     "hidden": 0,
-    "description": "Escape the facility.",
+    "description": "Complete the game.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/947940/c3da6a26af6889b9acfa13a8fca6cd49d5c54f5a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/947940/0aee749dd8d8fe76f6f38e26e18d3e82868e6739.jpg"
   },
@@ -49,7 +49,7 @@
     "defaultvalue": 0,
     "displayName": "Containment Expert",
     "hidden": 0,
-    "description": "Kill 10 SCPs.",
+    "description": "Kill 50 SCPs.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/947940/d25eabd897af55a78a1eb0dd1c6e3bbd6550f46a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/947940/dc9641eb23613ad2a58718d4a2dd8dc197bfc944.jpg"
   },
@@ -65,9 +65,9 @@
   {
     "name": "939kill",
     "defaultvalue": 0,
-    "displayName": "How Did That Even Happen?",
+    "displayName": "Not So Tough.",
     "hidden": 0,
-    "description": "Die from SCP-939.",
+    "description": "Get Killed by SCP-939.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/947940/3d9b3812c906b9e77d92a29f6577d85713e10b70.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/947940/0b6cfa340fab674528414e4188913d7efca0a0d9.jpg"
   },
@@ -85,7 +85,7 @@
     "defaultvalue": 0,
     "displayName": "Cry Baby",
     "hidden": 0,
-    "description": "Get killed by SCP-096.",
+    "description": "Get Killed by SCP-096.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/947940/df6ffbeff8d2996edbcb581e909df4a34d5e905f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/947940/99a2e80d688d9bff46f8c982e029c69f4e117654.jpg"
   },
@@ -103,18 +103,9 @@
     "defaultvalue": 0,
     "displayName": "Doctor's Appointment",
     "hidden": 0,
-    "description": "Get killed by SCP-049.",
+    "description": "Get Killed by SCP-049.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/947940/2a67d1d407cdf31f12099a7e6b351fc24438557e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/947940/36ac138443162beb23b66fb047a251ca1e094bea.jpg"
-  },
-  {
-    "name": "close",
-    "defaultvalue": 0,
-    "displayName": "Close Call",
-    "hidden": 0,
-    "description": "Exit the facility in less than 10 seconds of the nuke detonation.",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/947940/17792bb8a994ec8f5ab0a70c2f637450ec9e1f49.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/947940/3c8c338f3a7750066a568f43ae6c62dbdca1a401.jpg"
   },
   {
     "name": "stealth",
@@ -135,24 +126,6 @@
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/947940/72d28ad548b586caa31bfe0a9081d976a18a3b3d.jpg"
   },
   {
-    "name": "glock",
-    "defaultvalue": 0,
-    "displayName": "Glock o' Clock",
-    "hidden": 0,
-    "description": "Acquire a gun.",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/947940/c0a5418f0a3b9d1c82af84251a0782338b2ae015.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/947940/25384bccabef3d7992ab43a876aee52891361c83.jpg"
-  },
-  {
-    "name": "indep",
-    "defaultvalue": 0,
-    "displayName": "Independent",
-    "hidden": 0,
-    "description": "Exit the facility without the use of SCP-914.",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/947940/ce8790059277f21cc79dba5031aaa10a5e58d105.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/947940/026e347cc26872549d5ef7e528c47203f48fc027.jpg"
-  },
-  {
     "name": "lightsout",
     "defaultvalue": 0,
     "displayName": "Lights out",
@@ -166,7 +139,7 @@
     "defaultvalue": 0,
     "displayName": "Nobody calls me a nerd. ",
     "hidden": 0,
-    "description": "Get killed by a scientist.",
+    "description": "Get Killed by a Scientist.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/947940/36639ba4d7d76c1df8559b066b63ad82ce1670d0.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/947940/2c7eb80ab563c656a8da0cb498f2c5f2fbbfbe95.jpg"
   },

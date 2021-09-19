@@ -242,5 +242,100 @@
     "hidden": 1,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/716650/a7e10f294a72a2ccc33dbb01f67994930354d9ac.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/716650/e95d12fd8901382c684c66d81a53df82f6f40103.jpg"
+  },
+  {
+    "name": "VS_ENROLLED",
+    "defaultvalue": 0,
+    "displayName": "20p well spent",
+    "hidden": 0,
+    "description": "You enrolled in Verb School",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/716650/ca54acb5e8bfdb70ff3e01b5d0c4fe8abda29e9b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/716650/91e8cc1a2a8018bd22255874c73c9d3271b33212.jpg"
+  },
+  {
+    "name": "VS_CUSTARD",
+    "defaultvalue": 0,
+    "displayName": "The Classics",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/716650/557d3ff1756292fe667ffabe17d13c918f91f300.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/716650/f84a7940ed191e4b12b24b06359ae9ba1ea08da5.jpg"
+  },
+  {
+    "name": "VS_CHATTY",
+    "defaultvalue": 0,
+    "displayName": "Shut it, you",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/716650/8088114f0892d467b842c2a3a035d7a698a30fbf.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/716650/8b9c053d567798955e613a9154b47bef8114a10d.jpg"
+  },
+  {
+    "name": "VS_VERBSCHOOL",
+    "defaultvalue": 0,
+    "displayName": "I want my money back",
+    "hidden": 0,
+    "description": "You graduated from Verb School",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/716650/69874316b0d34c9715e776658c389a5eb5b865ff.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/716650/39a2b35b04dc381968731286d0d411520b1363b6.jpg"
+  },
+  {
+    "name": "AFL_SINGINGDAY",
+    "defaultvalue": 0,
+    "displayName": "Mandatory Singing Day",
+    "hidden": 0,
+    "description": "Began playing Aye Fair Lady",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/716650/51a5be3a5f13a5f2ba9590ff543e09109fb0c948.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/716650/1fc28150c54f064e947c1f16941290abdb18e090.jpg"
+  },
+  {
+    "name": "AFL_AYEFAIRLADY",
+    "defaultvalue": 0,
+    "displayName": "Aye Fair Lady",
+    "hidden": 0,
+    "description": "You completed Aye Fair Lady",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/716650/1132344d9922aeb99d311940a564e186bdc9a0af.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/716650/2ac201c3f7fd402e73ae5dec17dfec01adf9826d.jpg"
+  },
+  {
+    "name": "AFL_SNEAKYSNEAKY",
+    "defaultvalue": 0,
+    "displayName": "Sneaky Sneaky",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/716650/368a63e1e81cd7423085006de90980106b89c820.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/716650/209038d9cb1f2e5f78b4c33736452ced992ff661.jpg"
+  },
+  {
+    "name": "AFL_PROPERINTOPUPPETRY",
+    "defaultvalue": 0,
+    "displayName": "Proper Into Puppetry",
+    "hidden": 0,
+    "description": "You were captivated by Regina's song",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/716650/8da6b7fc6bd6dba16fe343a666773898f9f7716d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/716650/4d5463f2141a5069ff7bbc3cf5a77d24f30433fb.jpg"
+  },
+  {
+    "name": "AFL_RUNFORIT",
+    "defaultvalue": 0,
+    "displayName": "Resistance Is Futile",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/716650/8cff92abd3b06693d2e7a411c8ce481d7a506666.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/716650/e59f202528a9b5dd41a7f7177f7e5e6052c4c907.jpg"
+  },
+  {
+    "name": "AFL_LOVETOGIVE",
+    "defaultvalue": 0,
+    "displayName": "Love To Give",
+    "hidden": 0,
+    "description": "You sang a duet with a lovely robot",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/716650/e697e56db2af201fb69305d0fe7caafce06a970b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/716650/db4e5aad565fe651dc9ba8cf179a4c7b8dd6bd01.jpg"
+  },
+  {
+    "name": "AFL_SOLVESNOTHING",
+    "defaultvalue": 0,
+    "displayName": "It Solves Nothing",
+    "hidden": 0,
+    "description": "You used violence to solve a problem. Tut tut.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/716650/2e731b9f72b11bca78dcd9166a6b19d852d2de1a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/716650/5d5e3415c5f02bcbd1d4b18f2c89367b0536d42c.jpg"
   }
 ]

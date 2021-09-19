@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "name": "ACH_VISIT_KIOKIOWEST",
     "defaultvalue": 0,
@@ -6005,16 +6005,16 @@
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/588120/79aec3524bd163a92ff334242915a1c95e06d6be.jpg"
   },
   {
-    "name": "ACH_CYBERCITYSLUMS",
+    "name": "ACH_CYBERCITYINDUSTRY",
     "defaultvalue": 0,
-    "displayName": "Cybercity Slums",
+    "displayName": "Cybercity Industry",
     "hidden": 0,
-    "description": "Visit Cybercity Slums",
+    "description": "Visit Cybercity Industry",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/588120/d649cb33f188cae411faf25bf47fb0676f2e8a3e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/588120/86426c5c015d4f5208498e2fae3e79dc1ecb5e0a.jpg"
   },
   {
-    "name": "ACH_CYBERCITYCLUB",
+    "name": "ACH_CYBERCITYCLUB1",
     "defaultvalue": 0,
     "displayName": "Starlight Club",
     "hidden": 0,
@@ -6207,5 +6207,77 @@
     "description": "Locate hidden items",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/588120/1202b250edd6ba4a422d31e5cc9c03dab3a79fe8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/588120/c8645e51a89b68575be2cb73cd4abc4a33d2d1c0.jpg"
+  },
+  {
+    "name": "ACH_CYBERCITYSLUMS",
+    "defaultvalue": 0,
+    "displayName": "Cybercity Slums",
+    "hidden": 0,
+    "description": "Visit Cybercity Downtown",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/588120/368762b2ecd4eb68b29106b6b6a9ac3346f384ae.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/588120/e7bca2c73a614873138013abc968efdf1e34ab11.jpg"
+  },
+  {
+    "name": "ACH_CYBERCITYCLUB2",
+    "defaultvalue": 0,
+    "displayName": "Club Escape",
+    "hidden": 0,
+    "description": "Visit Cybercity Downtown",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/588120/b0ac95ebfa8c9496359dd698070eb4fd2619ea11.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/588120/958b7af0838c647cec154bc08a8e559d67cbc6b1.jpg"
+  },
+  {
+    "name": "ACH_BALLOONEDITOROPEN",
+    "defaultvalue": 0,
+    "displayName": "Balloonist",
+    "hidden": 0,
+    "description": "Open Balloon Editor",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/588120/621cac235333a259ec3d65ca6052f08219115987.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/588120/ada102c670e93eea31c2c57d65a85dbf2b9895e2.jpg"
+  },
+  {
+    "name": "ACH_ONCLOUDNINE",
+    "defaultvalue": 0,
+    "displayName": "On Cloud Nine",
+    "hidden": 0,
+    "description": "Apply changes in the Balloon vehicle editor 100 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/588120/621cac235333a259ec3d65ca6052f08219115987.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/588120/b032cced56f4a7f647775ffc2f4d43bea5488d2b.jpg"
+  },
+  {
+    "name": "ACH_AERONAUT",
+    "defaultvalue": 0,
+    "displayName": "Aeronaut",
+    "hidden": 0,
+    "description": "Travel 10,000m in a balloon vehicle",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/588120/14bd00f92bc1915327dc9a15f9d99c919ccf5940.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/588120/ada102c670e93eea31c2c57d65a85dbf2b9895e2.jpg"
+  },
+  {
+    "name": "ACH_ENDURANCEAERONAUT",
+    "defaultvalue": 0,
+    "displayName": "Endurance Aeronaut",
+    "hidden": 0,
+    "description": "Travel 500,000m in a balloon vehicle",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/588120/14bd00f92bc1915327dc9a15f9d99c919ccf5940.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/588120/ada102c670e93eea31c2c57d65a85dbf2b9895e2.jpg"
+  },
+  {
+    "name": "ACH_SKYDIVE",
+    "defaultvalue": 0,
+    "displayName": "Skydive",
+    "hidden": 0,
+    "description": "Deploy your parachute",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/588120/00e7aefbb70e697aa63a6973d50b200f45157bfd.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/588120/f6bb595f1445a35a803ef50357f7752e3bd0ee16.jpg"
+  },
+  {
+    "name": "ACH_BALLOONARTIST",
+    "defaultvalue": 0,
+    "displayName": "Balloon Artist",
+    "hidden": 0,
+    "description": "Apply changes in the Balloon vehicle editor 25 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/588120/621cac235333a259ec3d65ca6052f08219115987.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/588120/b032cced56f4a7f647775ffc2f4d43bea5488d2b.jpg"
   }
 ]

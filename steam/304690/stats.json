@@ -1,18 +1,22 @@
-﻿{
-  "win_points": {
-    "description": "Win Points",
-    "value": 0
+[
+  {
+    "name": "win_points",
+    "defaultvalue": 0,
+    "displayName": "Win Points"
   },
-  "billions_credits": {
-    "description": "Credits Owned (in billions)",
-    "value": 0
+  {
+    "name": "billions_credits",
+    "defaultvalue": 0,
+    "displayName": "Credits Owned (in billions)"
   },
-  "kills": {
-    "description": "NPC Kills",
-    "value": 0
+  {
+    "name": "kills",
+    "defaultvalue": 0,
+    "displayName": "NPC Kills"
   },
-  "hours_played": {
-    "description": "Hours Played",
-    "value": 0
+  {
+    "name": "hours_played",
+    "defaultvalue": 0,
+    "displayName": "Hours Played"
   }
-}
+]

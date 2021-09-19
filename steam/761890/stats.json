@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "name": "SA_ST_EXPLORATION_CITIES",
     "defaultvalue": 0,
@@ -155,11 +155,6 @@
     "displayName": ""
   },
   {
-    "name": "SA_ST_FACTIONWARFARE_JOIN_ALL",
-    "defaultvalue": 0,
-    "displayName": ""
-  },
-  {
     "name": "SA_ST_FACTIONWARFARE_CAPTURE_02",
     "defaultvalue": 0,
     "displayName": ""
@@ -251,6 +246,31 @@
   },
   {
     "name": "SA_ST_PVE_ROADS_AVALON",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "SA_ST_COLLECTION_HELLGATE_01",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "SA_ST_COLLECTION_HELLGATE_02",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "SA_ST_EXPLORATION_CHAIN_HELLGATE_01",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "SA_ST_EXPLORATION_CHAIN_HELLGATE_02",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "SA_ST_EXPLORATION_CHAIN_HELLGATE_03",
     "defaultvalue": 0,
     "displayName": ""
   }

@@ -1,38 +1,47 @@
-﻿{
-  "dead_acid": {
-    "description": "dead_acid",
-    "value": 0
+[
+  {
+    "name": "dead_acid",
+    "defaultvalue": 0,
+    "displayName": "dead_acid"
   },
-  "disk_colle": {
-    "description": "disk_colle",
-    "value": 0
+  {
+    "name": "disk_colle",
+    "defaultvalue": 0,
+    "displayName": "disk_colle"
   },
-  "supply_big": {
-    "description": "supply_big",
-    "value": 0
+  {
+    "name": "supply_big",
+    "defaultvalue": 0,
+    "displayName": "supply_big"
   },
-  "dead_squeeze": {
-    "description": "dead_squeeze",
-    "value": 0
+  {
+    "name": "dead_squeeze",
+    "defaultvalue": 0,
+    "displayName": "dead_squeeze"
   },
-  "tile_break": {
-    "description": "tile_break",
-    "value": 0
+  {
+    "name": "tile_break",
+    "defaultvalue": 0,
+    "displayName": "tile_break"
   },
-  "dead_dog": {
-    "description": "dead_dog",
-    "value": 0
+  {
+    "name": "dead_dog",
+    "defaultvalue": 0,
+    "displayName": "dead_dog"
   },
-  "hit_elec": {
-    "description": "hit_elec",
-    "value": 0
+  {
+    "name": "hit_elec",
+    "defaultvalue": 0,
+    "displayName": "hit_elec"
   },
-  "dead_any": {
-    "description": "dead_any",
-    "value": 0
+  {
+    "name": "dead_any",
+    "defaultvalue": 0,
+    "displayName": "dead_any"
   },
-  "point_total": {
-    "description": "point_total",
-    "value": 0
+  {
+    "name": "point_total",
+    "defaultvalue": 0,
+    "displayName": "point_total"
   }
-}
+]

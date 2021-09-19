@@ -1,18 +1,22 @@
-﻿{
-  "Stat.DealtDamage": {
-    "description": "Dealt Damage",
-    "value": 0
+[
+  {
+    "name": "Stat.DealtDamage",
+    "defaultvalue": 0,
+    "displayName": "Dealt Damage"
   },
-  "Stat.PerformedMultiKills": {
-    "description": "Performed Multi Kills",
-    "value": 0
+  {
+    "name": "Stat.PerformedMultiKills",
+    "defaultvalue": 0,
+    "displayName": "Performed Multi Kills"
   },
-  "Stat.Inker": {
-    "description": "Collected Ink",
-    "value": 0
+  {
+    "name": "Stat.Inker",
+    "defaultvalue": 0,
+    "displayName": "Collected Ink"
   },
-  "Stat.FlawlessVictories": {
-    "description": "Flawless Victories",
-    "value": 0
+  {
+    "name": "Stat.FlawlessVictories",
+    "defaultvalue": 0,
+    "displayName": "Flawless Victories"
   }
-}
+]

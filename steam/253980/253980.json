@@ -1,23 +1,26 @@
-﻿{
+{
   "Dlcs": {
     "985460": {
       "Name": "Enclave - Digital Deluxe Content",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/985460/header.jpg?t=1542825161"
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/985460/header.jpg?t=1542825161",
+      "Type": "dlc"
     },
     "985470": {
       "Name": "Enclave - Soundtrack",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/985470/header.jpg?t=1542825227"
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/985470/header.jpg?t=1542825227",
+      "Type": "dlc"
     }
   },
   "Name": "Enclave",
   "AppId": "253980",
-  "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/253980/header.jpg?t=1597837979",
+  "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/253980/header.jpg?t=1625585338",
   "Languages": [
     "english",
     "french",
     "italian",
     "german",
-    "spanish"
+    "spanish",
+    "russian"
   ],
   "Platforms": {
     "windows": true,

@@ -1,42 +1,52 @@
-﻿{
-  "stBHarvests": {
-    "description": "Bushes Harvested",
-    "value": 0
+[
+  {
+    "name": "stBHarvests",
+    "defaultvalue": 0,
+    "displayName": "Bushes Harvested"
   },
-  "stDkills": {
-    "description": "Dinosaurs Killed",
-    "value": 0
+  {
+    "name": "stDkills",
+    "defaultvalue": 0,
+    "displayName": "Dinosaurs Killed"
   },
-  "stTaught": {
-    "description": "Caveman Taught",
-    "value": 0
+  {
+    "name": "stTaught",
+    "defaultvalue": 0,
+    "displayName": "Caveman Taught"
   },
-  "stPetDino": {
-    "description": "Biggest Pet Dino Family Size",
-    "value": 0
+  {
+    "name": "stPetDino",
+    "defaultvalue": 0,
+    "displayName": "Biggest Pet Dino Family Size"
   },
-  "scoreMeteor": {
-    "description": "Highest stage reached in Meteor Dodge",
-    "value": 0
+  {
+    "name": "scoreMeteor",
+    "defaultvalue": 0,
+    "displayName": "Highest stage reached in Meteor Dodge"
   },
-  "scoreRock": {
-    "description": "Highest score reached in Rock Stompage",
-    "value": 0
+  {
+    "name": "scoreRock",
+    "defaultvalue": 0,
+    "displayName": "Highest score reached in Rock Stompage"
   },
-  "stRedOrb": {
-    "description": "Red feathers collected",
-    "value": 0
+  {
+    "name": "stRedOrb",
+    "defaultvalue": 0,
+    "displayName": "Red feathers collected"
   },
-  "stBlueOrb": {
-    "description": "Blue feathers collected",
-    "value": 0
+  {
+    "name": "stBlueOrb",
+    "defaultvalue": 0,
+    "displayName": "Blue feathers collected"
   },
-  "stGreenOrb": {
-    "description": "Green feathers collected",
-    "value": 0
+  {
+    "name": "stGreenOrb",
+    "defaultvalue": 0,
+    "displayName": "Green feathers collected"
   },
-  "stYellowOrb": {
-    "description": "Yellow feathers collected",
-    "value": 0
+  {
+    "name": "stYellowOrb",
+    "defaultvalue": 0,
+    "displayName": "Yellow feathers collected"
   }
-}
+]

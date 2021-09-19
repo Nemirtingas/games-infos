@@ -1,14 +1,9 @@
 {
-  "Dlcs": {},
-  "Name": "Astronarch",
-  "AppId": "1234940",
-  "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/1234940/header.jpg?t=1600846098",
-  "Languages": [
-    "english"
-  ],
-  "Platforms": {
-    "windows": true,
-    "mac": false,
-    "linux": false
+  "Dlcs": {
+    "1595240": {
+      "Name": "Astronarch Soundtrack",
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1595240/header.jpg?t=1624567760",
+      "Type": "music"
+    }
   }
 }

@@ -1,30 +1,37 @@
-﻿{
-  "TSP_LASTENDING": {
-    "description": "internal last ending",
-    "value": 4294967295
+[
+  {
+    "name": "TSP_LASTENDING",
+    "defaultvalue": 4294967295,
+    "displayName": "internal last ending"
   },
-  "TSP_HEYHEYSTOPLOOKINGATTHECDR": {
-    "description": "",
-    "value": 0
+  {
+    "name": "TSP_HEYHEYSTOPLOOKINGATTHECDR",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "TSP_PLAYTHROUGHS": {
-    "description": "internal num playthroughs",
-    "value": 0
+  {
+    "name": "TSP_PLAYTHROUGHS",
+    "defaultvalue": 0,
+    "displayName": "internal num playthroughs"
   },
-  "TSP_STARTUPS": {
-    "description": "internal startup count",
-    "value": 0
+  {
+    "name": "TSP_STARTUPS",
+    "defaultvalue": 0,
+    "displayName": "internal startup count"
   },
-  "TSP_LASTSTARTUP": {
-    "description": "internal last startup",
-    "value": 0
+  {
+    "name": "TSP_LASTSTARTUP",
+    "defaultvalue": 0,
+    "displayName": "internal last startup"
   },
-  "TSP_JUMPS": {
-    "description": "internal jump count",
-    "value": 0
+  {
+    "name": "TSP_JUMPS",
+    "defaultvalue": 0,
+    "displayName": "internal jump count"
   },
-  "TSP_LOL_888888": {
-    "description": "",
-    "value": 0
+  {
+    "name": "TSP_LOL_888888",
+    "defaultvalue": 0,
+    "displayName": ""
   }
-}
+]

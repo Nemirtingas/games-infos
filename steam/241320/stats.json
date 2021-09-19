@@ -1,70 +1,87 @@
-﻿{
-  "FastestAllItems": {
-    "description": "FastestAllItems",
-    "value": 0
+[
+  {
+    "name": "FastestAllItems",
+    "defaultvalue": 0,
+    "displayName": "FastestAllItems"
   },
-  "FastestFirePortal": {
-    "description": "FastestFirePortal",
-    "value": 0
+  {
+    "name": "FastestFirePortal",
+    "defaultvalue": 0,
+    "displayName": "FastestFirePortal"
   },
-  "FastestFireIce": {
-    "description": "FastestFireIce",
-    "value": 0
+  {
+    "name": "FastestFireIce",
+    "defaultvalue": 0,
+    "displayName": "FastestFireIce"
   },
-  "FastestPortalIce": {
-    "description": "FastestPortalIce",
-    "value": 0
+  {
+    "name": "FastestPortalIce",
+    "defaultvalue": 0,
+    "displayName": "FastestPortalIce"
   },
-  "WesternGateOpen": {
-    "description": "WesternGateOpen",
-    "value": 0
+  {
+    "name": "WesternGateOpen",
+    "defaultvalue": 0,
+    "displayName": "WesternGateOpen"
   },
-  "EasternGateOpen": {
-    "description": "EasternGateOpen",
-    "value": 0
+  {
+    "name": "EasternGateOpen",
+    "defaultvalue": 0,
+    "displayName": "EasternGateOpen"
   },
-  "SwampGateOpen": {
-    "description": "SwampGateOpen",
-    "value": 0
+  {
+    "name": "SwampGateOpen",
+    "defaultvalue": 0,
+    "displayName": "SwampGateOpen"
   },
-  "FireSwordBought": {
-    "description": "FireSwordBought",
-    "value": 0
+  {
+    "name": "FireSwordBought",
+    "defaultvalue": 0,
+    "displayName": "FireSwordBought"
   },
-  "IceWandBought": {
-    "description": "IceWandBought",
-    "value": 0
+  {
+    "name": "IceWandBought",
+    "defaultvalue": 0,
+    "displayName": "IceWandBought"
   },
-  "PortalWandBought": {
-    "description": "PortalWandBought",
-    "value": 0
+  {
+    "name": "PortalWandBought",
+    "defaultvalue": 0,
+    "displayName": "PortalWandBought"
   },
-  "CompletedMaster": {
-    "description": "CompletedMaster",
-    "value": 0
+  {
+    "name": "CompletedMaster",
+    "defaultvalue": 0,
+    "displayName": "CompletedMaster"
   },
-  "GotArtifact": {
-    "description": "GotArtifact",
-    "value": 0
+  {
+    "name": "GotArtifact",
+    "defaultvalue": 0,
+    "displayName": "GotArtifact"
   },
-  "VisitedItan": {
-    "description": "VisitedItan",
-    "value": 0
+  {
+    "name": "VisitedItan",
+    "defaultvalue": 0,
+    "displayName": "VisitedItan"
   },
-  "CompletedTutorial": {
-    "description": "CompletedTutorial",
-    "value": 0
+  {
+    "name": "CompletedTutorial",
+    "defaultvalue": 0,
+    "displayName": "CompletedTutorial"
   },
-  "EnteredCastle": {
-    "description": "EnteredCastle",
-    "value": 0
+  {
+    "name": "EnteredCastle",
+    "defaultvalue": 0,
+    "displayName": "EnteredCastle"
   },
-  "FirstSetup": {
-    "description": "FirstSetup",
-    "value": 0
+  {
+    "name": "FirstSetup",
+    "defaultvalue": 0,
+    "displayName": "FirstSetup"
   },
-  "JennysKilled": {
-    "description": "JennysKilled",
-    "value": 0
+  {
+    "name": "JennysKilled",
+    "defaultvalue": 0,
+    "displayName": "JennysKilled"
   }
-}
+]

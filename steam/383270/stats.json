@@ -1,10 +1,12 @@
-﻿{
-  "CRATE_EXPLODE": {
-    "description": "Crates Exploded",
-    "value": 0
+[
+  {
+    "name": "CRATE_EXPLODE",
+    "defaultvalue": 0,
+    "displayName": "Crates Exploded"
   },
-  "VANISH_OBSTACLE": {
-    "description": "Obstacles Hidden",
-    "value": 0
+  {
+    "name": "VANISH_OBSTACLE",
+    "defaultvalue": 0,
+    "displayName": "Obstacles Hidden"
   }
-}
+]

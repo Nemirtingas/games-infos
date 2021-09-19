@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "name": "FULLY_ARRAYED",
     "defaultvalue": 0,
@@ -805,7 +805,7 @@
     "defaultvalue": 0,
     "displayName": "FOR SCIENCE!",
     "hidden": 0,
-    "description": "Hack an Advanced Research Station or Technology Vault to convert it into science.",
+    "description": "Retrieve spent science so that you can re-spec part of your fleet in response to a changing situation.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/573410/ab4b9205115cfa219cca7f55540fdb22840586f4.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/573410/71dff2f4db1aa02d99bd361cd7b44c3aeb36c391.jpg"
   },
@@ -1384,5 +1384,401 @@
     "description": "Beat the Adaptive Full AI on difficulty >= 9.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/573410/a57dd573b155e73c44ed009614ade604327c2e28.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/573410/e35ff46b62d33f26f429d36dee29fa3df35f587f.jpg"
+  },
+  {
+    "name": "FEET_ROAMING",
+    "defaultvalue": 0,
+    "displayName": "These Feet Are Made For Roaming",
+    "hidden": 0,
+    "description": "Win with Nomad Galaxy' enabled.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/573410/b2f81f0a5f1d0cd661d57dc14f59227f1d3ef263.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/573410/b7f6872392316b499866f07fca123498a2414762.jpg"
+  },
+  {
+    "name": "UNEASY_ALLIES",
+    "defaultvalue": 0,
+    "displayName": "Uneasy Allies",
+    "hidden": 0,
+    "description": "Make a temporary truce with a Zenith Architrave by hacking their home portal.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/573410/f9ea650b413e148c2355bcbe05deeb58827416b5.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/573410/fc4e2332eda6810fa977e5b3b497f4dfa53bbd0f.jpg"
+  },
+  {
+    "name": "UN_MOORED",
+    "defaultvalue": 0,
+    "displayName": "Unmoored",
+    "hidden": 0,
+    "description": "Use a Zenith Miner to make a planet nomadic.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/573410/4b335e2629df1e9616e9f2aaa39c94740cffadcc.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/573410/71dff2f4db1aa02d99bd361cd7b44c3aeb36c391.jpg"
+  },
+  {
+    "name": "CRUISE_CONTROL",
+    "defaultvalue": 0,
+    "displayName": "Cruise Control",
+    "hidden": 0,
+    "description": "Claim a Cruiser through hacking a Cruiser Construction Facility or stealing from the Zenith.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/573410/a891fa4c13f27482a3a40e14141ddc08c88c5943.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/573410/fc4e2332eda6810fa977e5b3b497f4dfa53bbd0f.jpg"
+  },
+  {
+    "name": "NOT_STEALING",
+    "defaultvalue": 0,
+    "displayName": "It's Borrowing, Not Stealing",
+    "hidden": 0,
+    "description": "Steal Dark Zenith ship designs by hacking the Dark Zenith Library.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/573410/a891fa4c13f27482a3a40e14141ddc08c88c5943.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/573410/c16c5023584f8d97fd2e998b44102c9449809adf.jpg"
+  },
+  {
+    "name": "PHASERS_TO_STUN",
+    "defaultvalue": 0,
+    "displayName": "Set Phasers To Stun",
+    "hidden": 0,
+    "description": "Steal Zenith Architrave ship designs by hacking the Castra.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/573410/a891fa4c13f27482a3a40e14141ddc08c88c5943.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/573410/c16c5023584f8d97fd2e998b44102c9449809adf.jpg"
+  },
+  {
+    "name": "HAVE_TO_BE_SNAKE",
+    "defaultvalue": 0,
+    "displayName": "Why Did It Have to Be Snakes?",
+    "hidden": 0,
+    "description": "Destroy the Jormugandr.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/573410/b2f81f0a5f1d0cd661d57dc14f59227f1d3ef263.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/573410/b7f6872392316b499866f07fca123498a2414762.jpg"
+  },
+  {
+    "name": "WE_MINE_YOU",
+    "defaultvalue": 0,
+    "displayName": "We Mine You!",
+    "hidden": 0,
+    "description": "Destroy a Zenith Miner.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/573410/a891fa4c13f27482a3a40e14141ddc08c88c5943.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/573410/c16c5023584f8d97fd2e998b44102c9449809adf.jpg"
+  },
+  {
+    "name": "PHASED_CONFUSED",
+    "defaultvalue": 0,
+    "displayName": "Phased And Confused",
+    "hidden": 0,
+    "description": "Beat the game with Hostile to All Zenith Architrave with intensity >= 4 enabled.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/573410/ab4b9205115cfa219cca7f55540fdb22840586f4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/573410/71dff2f4db1aa02d99bd361cd7b44c3aeb36c391.jpg"
+  },
+  {
+    "name": "STAY_OFF_LAWN",
+    "defaultvalue": 0,
+    "displayName": "Stay Off My Lawn",
+    "hidden": 0,
+    "description": "Beat the game with Hostile to All Zenith Architrave with intensity >= 7 enabled.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/573410/a891fa4c13f27482a3a40e14141ddc08c88c5943.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/573410/fc4e2332eda6810fa977e5b3b497f4dfa53bbd0f.jpg"
+  },
+  {
+    "name": "TRESPASSERS_SHOT",
+    "defaultvalue": 0,
+    "displayName": "Trespassers Will Be Shot",
+    "hidden": 0,
+    "description": "Beat the game with Hostile to All Zenith Architrave with intensity = 10 enabled.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/573410/b2f81f0a5f1d0cd661d57dc14f59227f1d3ef263.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/573410/63dd35da915af144f65b2c66deac061b8f390762.jpg"
+  },
+  {
+    "name": "DONT_APPEAR_FR",
+    "defaultvalue": 0,
+    "displayName": "They Don't Appear To Be Friendly",
+    "hidden": 0,
+    "description": "Beat the game with Dark Zenith with intensity >= 4 enabled.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/573410/a891fa4c13f27482a3a40e14141ddc08c88c5943.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/573410/c16c5023584f8d97fd2e998b44102c9449809adf.jpg"
+  },
+  {
+    "name": "NEW_FOE_APPEAR",
+    "defaultvalue": 0,
+    "displayName": "A New Foe Has Appeared",
+    "hidden": 0,
+    "description": "Beat the game with Dark Zenith with intensity >= 7 enabled.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/573410/b2f81f0a5f1d0cd661d57dc14f59227f1d3ef263.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/573410/63dd35da915af144f65b2c66deac061b8f390762.jpg"
+  },
+  {
+    "name": "DARKEST_BEFORE",
+    "defaultvalue": 0,
+    "displayName": "It's Always Darkest Before the Dawn",
+    "hidden": 0,
+    "description": "Beat the game with Dark Zenith with intensity = 10 enabled.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/573410/a57dd573b155e73c44ed009614ade604327c2e28.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/573410/e35ff46b62d33f26f429d36dee29fa3df35f587f.jpg"
+  },
+  {
+    "name": "LAB_RAT",
+    "defaultvalue": 0,
+    "displayName": "Lab Rat",
+    "hidden": 0,
+    "description": "Beat the Geneticist AI on any difficulty.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/573410/f9ea650b413e148c2355bcbe05deeb58827416b5.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/573410/fc4e2332eda6810fa977e5b3b497f4dfa53bbd0f.jpg"
+  },
+  {
+    "name": "GENE_SLICER",
+    "defaultvalue": 0,
+    "displayName": "Gene Slicer",
+    "hidden": 0,
+    "description": "Beat the Geneticist AI on difficulty >= 7.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/573410/f487ef42e57304f5236a711715fce3fe7ce9aa38.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/573410/b7f6872392316b499866f07fca123498a2414762.jpg"
+  },
+  {
+    "name": "NATURAL_SELECTION",
+    "defaultvalue": 0,
+    "displayName": "Natural Selection",
+    "hidden": 0,
+    "description": "Beat the Geneticist AI on difficulty >= 9.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/573410/a57dd573b155e73c44ed009614ade604327c2e28.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/573410/e35ff46b62d33f26f429d36dee29fa3df35f587f.jpg"
+  },
+  {
+    "name": "HAMMMER_TIME",
+    "defaultvalue": 0,
+    "displayName": "Hammer Time",
+    "hidden": 0,
+    "description": "Beat the Spire Hammer AI on any difficulty.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/573410/ab4b9205115cfa219cca7f55540fdb22840586f4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/573410/71dff2f4db1aa02d99bd361cd7b44c3aeb36c391.jpg"
+  },
+  {
+    "name": "GUN_HAMMER",
+    "defaultvalue": 0,
+    "displayName": "Brought A Gun To A Hammer Fight",
+    "hidden": 0,
+    "description": "Beat the Spire Hammer AI on difficulty >= 7.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/573410/a891fa4c13f27482a3a40e14141ddc08c88c5943.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/573410/fc4e2332eda6810fa977e5b3b497f4dfa53bbd0f.jpg"
+  },
+  {
+    "name": "SPIRE_PUSHOVER",
+    "defaultvalue": 0,
+    "displayName": "The Spire Must Be Pushovers",
+    "hidden": 0,
+    "description": "Beat the Spire Hammer AI on difficulty >= 9.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/573410/b2f81f0a5f1d0cd661d57dc14f59227f1d3ef263.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/573410/63dd35da915af144f65b2c66deac061b8f390762.jpg"
+  },
+  {
+    "name": "CALM_DOWN",
+    "defaultvalue": 0,
+    "displayName": "Calm Down",
+    "hidden": 0,
+    "description": "Beat the Vengeful AI on any difficulty.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/573410/4b335e2629df1e9616e9f2aaa39c94740cffadcc.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/573410/71dff2f4db1aa02d99bd361cd7b44c3aeb36c391.jpg"
+  },
+  {
+    "name": "DONT_BE_PETTY",
+    "defaultvalue": 0,
+    "displayName": "Don't Be So Petty",
+    "hidden": 0,
+    "description": "Beat the Vengeful AI on difficulty >= 7.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/573410/f9ea650b413e148c2355bcbe05deeb58827416b5.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/573410/fc4e2332eda6810fa977e5b3b497f4dfa53bbd0f.jpg"
+  },
+  {
+    "name": "WHY_SO_SERIOUS",
+    "defaultvalue": 0,
+    "displayName": "Why So Serious?",
+    "hidden": 0,
+    "description": "Beat the Vengeful AI on difficulty >= 9.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/573410/b2f81f0a5f1d0cd661d57dc14f59227f1d3ef263.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/573410/63dd35da915af144f65b2c66deac061b8f390762.jpg"
+  },
+  {
+    "name": "AD_ASTRA",
+    "defaultvalue": 0,
+    "displayName": "Ad Astra per Aspera",
+    "hidden": 0,
+    "description": "Beat the Aedile AI on any difficulty.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/573410/ab4b9205115cfa219cca7f55540fdb22840586f4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/573410/7406f81ff7cc682128c948d141ae55e9955c9e49.jpg"
+  },
+  {
+    "name": "NON_DUCOR_DUCO",
+    "defaultvalue": 0,
+    "displayName": "Non Ducor, Duco",
+    "hidden": 0,
+    "description": "Beat the Aedile AI on difficulty >= 7.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/573410/f9ea650b413e148c2355bcbe05deeb58827416b5.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/573410/fc4e2332eda6810fa977e5b3b497f4dfa53bbd0f.jpg"
+  },
+  {
+    "name": "QUI_SE_VINCIT",
+    "defaultvalue": 0,
+    "displayName": "Vincit Qui Se Vincit",
+    "hidden": 0,
+    "description": "Beat the Aedile AI on difficulty >= 9.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/573410/b2f81f0a5f1d0cd661d57dc14f59227f1d3ef263.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/573410/b7f6872392316b499866f07fca123498a2414762.jpg"
+  },
+  {
+    "name": "SIC_SEMPER_TYR",
+    "defaultvalue": 0,
+    "displayName": "Sic Semper Tyrannis",
+    "hidden": 0,
+    "description": "Beat the Praetor AI on any difficulty.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/573410/4b335e2629df1e9616e9f2aaa39c94740cffadcc.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/573410/71dff2f4db1aa02d99bd361cd7b44c3aeb36c391.jpg"
+  },
+  {
+    "name": "ET_TU_BRUTE",
+    "defaultvalue": 0,
+    "displayName": "Et Tu, Brute?",
+    "hidden": 0,
+    "description": "Beat the Praetor AI on difficulty >= 7.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/573410/a891fa4c13f27482a3a40e14141ddc08c88c5943.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/573410/fc4e2332eda6810fa977e5b3b497f4dfa53bbd0f.jpg"
+  },
+  {
+    "name": "VENI_VIDI_VICI",
+    "defaultvalue": 0,
+    "displayName": "Veni Vidi Vici",
+    "hidden": 0,
+    "description": "Beat the Praetor AI on difficulty >= 9.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/573410/b2f81f0a5f1d0cd661d57dc14f59227f1d3ef263.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/573410/63dd35da915af144f65b2c66deac061b8f390762.jpg"
+  },
+  {
+    "name": "CANT_TOUCH",
+    "defaultvalue": 0,
+    "displayName": "Can't Touch This",
+    "hidden": 0,
+    "description": "Beat the Reservist AI on any difficulty.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/573410/ab4b9205115cfa219cca7f55540fdb22840586f4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/573410/7406f81ff7cc682128c948d141ae55e9955c9e49.jpg"
+  },
+  {
+    "name": "DEEP_END",
+    "defaultvalue": 0,
+    "displayName": "Off The Deep End",
+    "hidden": 0,
+    "description": "Beat the Reservist AI on difficulty >= 7.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/573410/a891fa4c13f27482a3a40e14141ddc08c88c5943.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/573410/fc4e2332eda6810fa977e5b3b497f4dfa53bbd0f.jpg"
+  },
+  {
+    "name": "KITCHEN_SINK",
+    "defaultvalue": 0,
+    "displayName": "Should Have Brought the Kitchen Sink",
+    "hidden": 0,
+    "description": "Beat the Reservist AI on difficulty >= 9.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/573410/f487ef42e57304f5236a711715fce3fe7ce9aa38.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/573410/b7f6872392316b499866f07fca123498a2414762.jpg"
+  },
+  {
+    "name": "LAST_ONE",
+    "defaultvalue": 0,
+    "displayName": "Last One Standing",
+    "hidden": 0,
+    "description": "Beat the Gladiator AI on any difficulty.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/573410/4b335e2629df1e9616e9f2aaa39c94740cffadcc.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/573410/7406f81ff7cc682128c948d141ae55e9955c9e49.jpg"
+  },
+  {
+    "name": "ARENA_CHAMP",
+    "defaultvalue": 0,
+    "displayName": "Arena Champion",
+    "hidden": 0,
+    "description": "Beat the Gladiator AI on difficulty >= 7.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/573410/a891fa4c13f27482a3a40e14141ddc08c88c5943.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/573410/fc4e2332eda6810fa977e5b3b497f4dfa53bbd0f.jpg"
+  },
+  {
+    "name": "COUP_DE_GRACE",
+    "defaultvalue": 0,
+    "displayName": "Coup de Grace",
+    "hidden": 0,
+    "description": "Beat the Gladiator AI on difficulty >= 9.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/573410/f487ef42e57304f5236a711715fce3fe7ce9aa38.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/573410/63dd35da915af144f65b2c66deac061b8f390762.jpg"
+  },
+  {
+    "name": "CHICKEN_LITTLE",
+    "defaultvalue": 0,
+    "displayName": "Chicken Little",
+    "hidden": 0,
+    "description": "Beat the Ragnarok AI on any difficulty.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/573410/ab4b9205115cfa219cca7f55540fdb22840586f4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/573410/71dff2f4db1aa02d99bd361cd7b44c3aeb36c391.jpg"
+  },
+  {
+    "name": "APOC_NEVER",
+    "defaultvalue": 0,
+    "displayName": "Apocalypse Never",
+    "hidden": 0,
+    "description": "Beat the Ragnarok AI on difficulty >= 7.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/573410/a891fa4c13f27482a3a40e14141ddc08c88c5943.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/573410/fc4e2332eda6810fa977e5b3b497f4dfa53bbd0f.jpg"
+  },
+  {
+    "name": "CHOSEN_ONE",
+    "defaultvalue": 0,
+    "displayName": "The Chosen One",
+    "hidden": 0,
+    "description": "Beat the Ragnarok AI on difficulty >= 9.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/573410/b2f81f0a5f1d0cd661d57dc14f59227f1d3ef263.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/573410/63dd35da915af144f65b2c66deac061b8f390762.jpg"
+  },
+  {
+    "name": "WE_WILL_DISS",
+    "defaultvalue": 0,
+    "displayName": "We Will Dissimilate You",
+    "hidden": 0,
+    "description": "Beat the Beast AI on any difficulty.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/573410/f9ea650b413e148c2355bcbe05deeb58827416b5.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/573410/fc4e2332eda6810fa977e5b3b497f4dfa53bbd0f.jpg"
+  },
+  {
+    "name": "BEATUY_BRAWN",
+    "defaultvalue": 0,
+    "displayName": "Beauty Beats Brawn",
+    "hidden": 0,
+    "description": "Beat the Beast AI on difficulty >= 7.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/573410/b2f81f0a5f1d0cd661d57dc14f59227f1d3ef263.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/573410/63dd35da915af144f65b2c66deac061b8f390762.jpg"
+  },
+  {
+    "name": "BEAST_MASTER",
+    "defaultvalue": 0,
+    "displayName": "Beast Master",
+    "hidden": 0,
+    "description": "Beat the Beast AI on difficulty >= 9.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/573410/a57dd573b155e73c44ed009614ade604327c2e28.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/573410/e35ff46b62d33f26f429d36dee29fa3df35f587f.jpg"
+  },
+  {
+    "name": "VORPAL_BLADE",
+    "defaultvalue": 0,
+    "displayName": "The Vorpal Blade Went Snicker-Snack",
+    "hidden": 0,
+    "description": "Beat the Jabberwock AI on any difficulty.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/573410/a891fa4c13f27482a3a40e14141ddc08c88c5943.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/573410/c16c5023584f8d97fd2e998b44102c9449809adf.jpg"
+  },
+  {
+    "name": "SLAIN_JABBER",
+    "defaultvalue": 0,
+    "displayName": "Thou Hast Slain the Jabberwock",
+    "hidden": 0,
+    "description": "Beat the Jabberwock AI on difficulty >= 7.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/573410/b2f81f0a5f1d0cd661d57dc14f59227f1d3ef263.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/573410/b7f6872392316b499866f07fca123498a2414762.jpg"
+  },
+  {
+    "name": "FRABJOUS_DAY",
+    "defaultvalue": 0,
+    "displayName": "O Frabjous Day!",
+    "hidden": 0,
+    "description": "Beat the Jabberwock AI on difficulty >= 9.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/573410/a57dd573b155e73c44ed009614ade604327c2e28.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/573410/2fcc4ce6bc33c86e312adb63d2cb621a833acb37.jpg"
   }
 ]

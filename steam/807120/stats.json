@@ -1,30 +1,42 @@
-﻿{
-  "killEnemiesLevel1": {
-    "description": "",
-    "value": 0
+[
+  {
+    "name": "killEnemiesLevel1",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "killEnemiesLevel2": {
-    "description": "",
-    "value": 0
+  {
+    "name": "killEnemiesLevel2",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "killEnemiesLevel3": {
-    "description": "",
-    "value": 0
+  {
+    "name": "killEnemiesLevel3",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "loseMinions": {
-    "description": "",
-    "value": 0
+  {
+    "name": "loseMinions",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "helloweenSkinNum": {
-    "description": "",
-    "value": 0
+  {
+    "name": "helloweenSkinNum",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "killEnemiesLevel4": {
-    "description": "",
-    "value": 0
+  {
+    "name": "killEnemiesLevel4",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "killEnemiesLevel5": {
-    "description": "",
-    "value": 0
+  {
+    "name": "killEnemiesLevel5",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "killEnemiesLevel6",
+    "defaultvalue": 0,
+    "displayName": ""
   }
-}
+]

@@ -1,21 +1,21 @@
 {
   "Dlcs": {
     "889920": {
-      "Name": "Metro Exodus - The Two Colonels",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/889920/header.jpg?t=1582549981"
+      "Name": "",
+      "ImageUrl": ""
     },
     "889921": {
-      "Name": "Metro Exodus - Sam's Story",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/889921/header.jpg?t=1582550072"
+      "Name": "",
+      "ImageUrl": ""
     },
     "924220": {
-      "Name": "Metro Exodus Expansion Pass",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/924220/header.jpg?t=1558013430"
+      "Name": "",
+      "ImageUrl": ""
     }
   },
   "Name": "Metro Exodus",
   "AppId": "412020",
-  "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/412020/header.jpg?t=1600359844",
+  "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/412020/header.jpg?t=1625576954",
   "Languages": [
     "english",
     "french",
@@ -24,14 +24,17 @@
     "spanish",
     "czech",
     "polish",
+    "portuguese",
     "russian",
+    "korean",
     "schinese",
     "tchinese",
-    "ukrainian"
+    "ukrainian",
+    "japanese"
   ],
   "Platforms": {
     "windows": true,
-    "mac": false,
-    "linux": false
+    "mac": true,
+    "linux": true
   }
 }

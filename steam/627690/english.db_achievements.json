@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "name": "objective_id_1",
     "defaultvalue": 0,
@@ -1481,7 +1481,7 @@
     "displayName": "Cold & Wet",
     "hidden": 0,
     "description": "Head to Candlekeep, but watch your step and take an umbrella!",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/6666e1cf06653987fc36d0f6a5da250ceaad0410.jpg",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/6272b948b7dd8049d4eef616b26831826adcf65f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/87a511b9f7795ecda293248a8c29477a654a1845.jpg"
   },
   {
@@ -1986,6 +1986,825 @@
     "hidden": 0,
     "description": "You awake in the underdark and take on the army of the Queen of spiders!",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/c3f1bd133bb5dda982133de87eb8c1286adfdbae.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/87a511b9f7795ecda293248a8c29477a654a1845.jpg"
+  },
+  {
+    "name": "objective_id_660",
+    "defaultvalue": 0,
+    "displayName": "The Wandering Emporium",
+    "hidden": 0,
+    "description": "Call in a favor from Mahadi while trying to help Red Ruth. ",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/c1dbca9ec0b0d5b0d282b58143b5c19c7870886e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/253aa4d76ead3e7ff81c22cc90b109f25d1f9925.jpg"
+  },
+  {
+    "name": "objective_id_661",
+    "defaultvalue": 0,
+    "displayName": "Madcap Adventures Redux",
+    "hidden": 0,
+    "description": "Call in a favor from Mahadi while Madcaps relentlessly attack!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/ceabde735ffc87ffbad19f502669afcb465ab602.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/253aa4d76ead3e7ff81c22cc90b109f25d1f9925.jpg"
+  },
+  {
+    "name": "objective_id_665",
+    "defaultvalue": 0,
+    "displayName": "Tiamat's Army",
+    "hidden": 0,
+    "description": "Deal with an abyssal mutiny while you travel to the monument to Tiamat.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/30aec8f15241ab5bb756c773a012953de851af78.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/253aa4d76ead3e7ff81c22cc90b109f25d1f9925.jpg"
+  },
+  {
+    "name": "objective_id_666",
+    "defaultvalue": 0,
+    "displayName": "Show of Strength",
+    "hidden": 0,
+    "description": "Deal with an abyssal mutiny with the strongest Champions you have. ",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/98a7ee9c6b7124e8097ffa6ab2d533bfadd9eacf.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/253aa4d76ead3e7ff81c22cc90b109f25d1f9925.jpg"
+  },
+  {
+    "name": "objective_id_670",
+    "defaultvalue": 0,
+    "displayName": "Questlines",
+    "hidden": 0,
+    "description": "Clear off your quest to do list while you travel across Avernus. ",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/61461c8c4c3cada205ba32abb785f1dcd684f54e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/87a511b9f7795ecda293248a8c29477a654a1845.jpg"
+  },
+  {
+    "name": "objective_id_671",
+    "defaultvalue": 0,
+    "displayName": "Raggadragga's Crew",
+    "hidden": 0,
+    "description": "Clear off your quest to do list while being hunted by Raggadragga's crew.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/c5b7963bd929e28eb3506b0f89d1128793705eca.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/87a511b9f7795ecda293248a8c29477a654a1845.jpg"
+  },
+  {
+    "name": "objective_id_675",
+    "defaultvalue": 0,
+    "displayName": "Bel's Forge",
+    "hidden": 0,
+    "description": "Begin to unravel Bel's intentions as you enter an active volcano!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/af390cd84975657671468ed25e14ab6c77feed0a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/87a511b9f7795ecda293248a8c29477a654a1845.jpg"
+  },
+  {
+    "name": "objective_id_676",
+    "defaultvalue": 0,
+    "displayName": "Extreme Heat",
+    "hidden": 0,
+    "description": "Begin to unravel Bel's intentions as the heat turns up! ",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/be67db84e95e8a8da322ae04c7fd2ce8d4a993a2.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/87a511b9f7795ecda293248a8c29477a654a1845.jpg"
+  },
+  {
+    "name": "objective_id_690",
+    "defaultvalue": 0,
+    "displayName": "The Giant's Bane Tavern",
+    "hidden": 0,
+    "description": "Enter Icewind Dale and get lost in the storm. ",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/77101f974486e13998268b99fc59f22ebea4e99c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/87a511b9f7795ecda293248a8c29477a654a1845.jpg"
+  },
+  {
+    "name": "objective_id_691",
+    "defaultvalue": 0,
+    "displayName": "Rime Bandits",
+    "hidden": 0,
+    "description": "Enter Icewind Dale with some well-dressed bandits on your tail!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/dfa23f9c356762c4916da69b5f2cce39669ba30f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/253aa4d76ead3e7ff81c22cc90b109f25d1f9925.jpg"
+  },
+  {
+    "name": "objective_id_695",
+    "defaultvalue": 0,
+    "displayName": "The Everlasting Rime",
+    "hidden": 0,
+    "description": "Continue to Ten-Towns while trying not to get lost.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/eb1a1128c83c71b4d1d85e15cd2ed5c6850d2df0.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/87a511b9f7795ecda293248a8c29477a654a1845.jpg"
+  },
+  {
+    "name": "objective_id_696",
+    "defaultvalue": 0,
+    "displayName": "Enemy Summit",
+    "hidden": 0,
+    "description": "Continue to Ten-Towns while some enemies from your past join the fun!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/ef68d2643e43854cc8648779d5109aa1430d085e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/87a511b9f7795ecda293248a8c29477a654a1845.jpg"
+  },
+  {
+    "name": "objective_id_802",
+    "defaultvalue": 0,
+    "displayName": "Moose Tracks",
+    "hidden": 0,
+    "description": "Enter Ten-Towns and help chase down some local wildlife. ",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/dfb6cfcd531a94461cdf2f308ff8f870e2000af5.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/87a511b9f7795ecda293248a8c29477a654a1845.jpg"
+  },
+  {
+    "name": "objective_id_803",
+    "defaultvalue": 0,
+    "displayName": "An Awakened Axe",
+    "hidden": 0,
+    "description": "Enter Ten-Towns and help chase down some local wildlife while being chased by an Awakened Axe Beak!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/0bb2e0926bee23f29af5eab472c1d87d28edb83b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/253aa4d76ead3e7ff81c22cc90b109f25d1f9925.jpg"
+  },
+  {
+    "name": "objective_id_807",
+    "defaultvalue": 0,
+    "displayName": "Civilization",
+    "hidden": 0,
+    "description": "Head to Termalaine and help with an overrun gem mine!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/b99b1b7b18db18f5c8654c9b91830c361b4bcefb.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/87a511b9f7795ecda293248a8c29477a654a1845.jpg"
+  },
+  {
+    "name": "objective_id_808",
+    "defaultvalue": 0,
+    "displayName": "Trench Coat Run",
+    "hidden": 0,
+    "description": "Head to - wait - is that... three kobolds in a Trench Coat? ",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/979180a027cec02a6e7d1361cab89ef982b23273.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/87a511b9f7795ecda293248a8c29477a654a1845.jpg"
+  },
+  {
+    "name": "objective_id_812",
+    "defaultvalue": 0,
+    "displayName": "The Sibriex",
+    "hidden": 0,
+    "description": "Follow Bel's instructions and find the Sibriex before it's too late for Elturel. ",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/e2947475e99b63a7d03b17807ff4a5dcddca22fa.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/87a511b9f7795ecda293248a8c29477a654a1845.jpg"
+  },
+  {
+    "name": "objective_id_813",
+    "defaultvalue": 0,
+    "displayName": "The Archduke's Blessing",
+    "hidden": 0,
+    "description": "Follow Bel's instructions while a cultist of Zariel preaches to your enemies.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/1d7addfafb74183b48f14901a0117f3ea02b61b1.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/87a511b9f7795ecda293248a8c29477a654a1845.jpg"
+  },
+  {
+    "name": "objective_id_817",
+    "defaultvalue": 0,
+    "displayName": "Wrecked Flying Fortress",
+    "hidden": 0,
+    "description": "Explore the flying fortress to find the adamantine rods for Bel. ",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/5bac4a65a5e1bab0c3fcd8fa3960186d20da72fa.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/87a511b9f7795ecda293248a8c29477a654a1845.jpg"
+  },
+  {
+    "name": "objective_id_818",
+    "defaultvalue": 0,
+    "displayName": "Relentless Peril",
+    "hidden": 0,
+    "description": "Explore the flying fortress while ghouls from Elturel haunt your thoughts. ",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/03e167303e7a596dac32d00bd79e2f68cce89902.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/87a511b9f7795ecda293248a8c29477a654a1845.jpg"
+  },
+  {
+    "name": "objective_id_827",
+    "defaultvalue": 0,
+    "displayName": "Dwarven Rumors",
+    "hidden": 0,
+    "description": "Explore a rumor about invisible dwarves in Caer-Konig.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/0727d9d02cc5207f5f44a855a5f1b1f72147e9cd.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/87a511b9f7795ecda293248a8c29477a654a1845.jpg"
+  },
+  {
+    "name": "objective_id_832",
+    "defaultvalue": 0,
+    "displayName": "Sunblight",
+    "hidden": 0,
+    "description": "Learn what you can about the duergar fortress.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/c749797e757bf76e4f9546689b1cfc18335cdd5a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/87a511b9f7795ecda293248a8c29477a654a1845.jpg"
+  },
+  {
+    "name": "objective_id_828",
+    "defaultvalue": 0,
+    "displayName": "Mimic Perception",
+    "hidden": 0,
+    "description": "Explore a rumor about invisible dwarves in Caer-Konig while a mimic accompanies the party!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/9a7702e82ca940b50c062926cbe1bcd7f612718f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/87a511b9f7795ecda293248a8c29477a654a1845.jpg"
+  },
+  {
+    "name": "objective_id_833",
+    "defaultvalue": 0,
+    "displayName": "Fortress Assault",
+    "hidden": 0,
+    "description": "Learn what you can about the duergar fortress with the strongest among you. ",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/06f43d9d352c58dfaa9daa7fd5bac210f3738fb5.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/87a511b9f7795ecda293248a8c29477a654a1845.jpg"
+  },
+  {
+    "name": "objective_id_562",
+    "defaultvalue": 0,
+    "displayName": "Social Grace",
+    "hidden": 0,
+    "description": "Split the party and follow the trail of goblins with your most charming members!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/15bdadf90eede00f14ced4139eee4555f5a723f2.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/253aa4d76ead3e7ff81c22cc90b109f25d1f9925.jpg"
+  },
+  {
+    "name": "objective_id_567",
+    "defaultvalue": 0,
+    "displayName": "The Tallest of Kobolds",
+    "hidden": 0,
+    "description": "Split the party with a tall 'human' coming along for the ride. ",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/f4754ecaf7add0386c9e8b046df4db3dd4e3b6b5.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/253aa4d76ead3e7ff81c22cc90b109f25d1f9925.jpg"
+  },
+  {
+    "name": "objective_id_182",
+    "defaultvalue": 0,
+    "displayName": "Snakes on our Plane",
+    "hidden": 0,
+    "description": "Find the remaining puzzle cubes while trying not to hiss too much.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/49a91bf888ffe900d1ecb93f3be2cc1cd0d73ab6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/253aa4d76ead3e7ff81c22cc90b109f25d1f9925.jpg"
+  },
+  {
+    "name": "objective_id_187",
+    "defaultvalue": 0,
+    "displayName": "Acererak's Puzzle",
+    "hidden": 0,
+    "description": "Destroy the Soulmonger and save the world using a select few Champions!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/57280924da2d44fbcd2882283b99d66dff619cee.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/253aa4d76ead3e7ff81c22cc90b109f25d1f9925.jpg"
+  },
+  {
+    "name": "objective_id_612",
+    "defaultvalue": 0,
+    "displayName": "Thrice More Into The Breach",
+    "hidden": 0,
+    "description": "Head into Undermountain while grappling with even more bosses!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/4889071c910836870f917de0158c758cf602014d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/253aa4d76ead3e7ff81c22cc90b109f25d1f9925.jpg"
+  },
+  {
+    "name": "objective_id_617",
+    "defaultvalue": 0,
+    "displayName": "Ettercap Swarm",
+    "hidden": 0,
+    "description": "Convince the lady of Wyllowwood to guide you while a swarm of ettercaps attack!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/02189e2d0a0c872e542517124a006a3302bb82e5.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/253aa4d76ead3e7ff81c22cc90b109f25d1f9925.jpg"
+  },
+  {
+    "name": "objective_id_602",
+    "defaultvalue": 0,
+    "displayName": "Earthquake!",
+    "hidden": 0,
+    "description": "Discover the secrets of Elturel, before you are killed by the earthquakes tearing the city apart! ",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/6c6242a444584ac91afdcc76b5d9f1dba6693935.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/253aa4d76ead3e7ff81c22cc90b109f25d1f9925.jpg"
+  },
+  {
+    "name": "objective_id_607",
+    "defaultvalue": 0,
+    "displayName": "Shadow Stalkers",
+    "hidden": 0,
+    "description": "Search for Ulder Ravengard while lemures attack the party!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/0e617bb8bd36eb76aeb2c44394896905438ba51f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/253aa4d76ead3e7ff81c22cc90b109f25d1f9925.jpg"
+  },
+  {
+    "name": "objective_id_692",
+    "defaultvalue": 0,
+    "displayName": "Giant-Size Adventure",
+    "hidden": 0,
+    "description": "Enter Icewind Dale with Volo on your side!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/a1732ed5a4e5c2e7999f9208fd2924675bf845a0.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/253aa4d76ead3e7ff81c22cc90b109f25d1f9925.jpg"
+  },
+  {
+    "name": "objective_id_697",
+    "defaultvalue": 0,
+    "displayName": "Mirage Arcane",
+    "hidden": 0,
+    "description": "Continue to Ten-Towns while Chadwick offers to help with the environmental control. ",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/efd07c968871d2d0eff2f49608c268971a2a09c1.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/253aa4d76ead3e7ff81c22cc90b109f25d1f9925.jpg"
+  },
+  {
+    "name": "objective_id_837",
+    "defaultvalue": 0,
+    "displayName": "The Bleeding Citadel",
+    "hidden": 0,
+    "description": "Climb the stinking scab and enter the Bleeding Citadel.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/2ab046cc88e99e80db14935f5f8fdaa66fc876fc.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/87a511b9f7795ecda293248a8c29477a654a1845.jpg"
+  },
+  {
+    "name": "objective_id_838",
+    "defaultvalue": 0,
+    "displayName": "Don't Pick at the Scab",
+    "hidden": 0,
+    "description": "Climb the stinking scab while trying not to disturb the architecture. ",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/3f69fb07b928f39117721d8935c919a525abbb64.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/87a511b9f7795ecda293248a8c29477a654a1845.jpg"
+  },
+  {
+    "name": "objective_id_842",
+    "defaultvalue": 0,
+    "displayName": "Idyllglen",
+    "hidden": 0,
+    "description": "Relive history as the demon lord Yeenoghu assaults a town that Zariel swore to protect. ",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/668af96b646305a507df734afc0e9fd552b7eff8.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/87a511b9f7795ecda293248a8c29477a654a1845.jpg"
+  },
+  {
+    "name": "objective_id_843",
+    "defaultvalue": 0,
+    "displayName": "The Madness of Yeenoghu",
+    "hidden": 0,
+    "description": "Relive history as you experience the madness caused by a demon lord! ",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/b98725efd37612b1efeb9d431a7bfef3f983b085.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/87a511b9f7795ecda293248a8c29477a654a1845.jpg"
+  },
+  {
+    "name": "objective_id_847",
+    "defaultvalue": 0,
+    "displayName": "The Radiant Nightmare",
+    "hidden": 0,
+    "description": "Chase down Xardorok's Chardalyn Dragon before it destroys Caer-Konig!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/8e3133b198e795c8001003f96be7c22f888a978e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/253aa4d76ead3e7ff81c22cc90b109f25d1f9925.jpg"
+  },
+  {
+    "name": "objective_id_848",
+    "defaultvalue": 0,
+    "displayName": "Quick Thinking",
+    "hidden": 0,
+    "description": "Chase down Xardorok's Chardalyn Dragon with your cleverest Champions!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/d9109320ec3cc61f9e94c35c320cdd257f040fb0.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/253aa4d76ead3e7ff81c22cc90b109f25d1f9925.jpg"
+  },
+  {
+    "name": "objective_id_852",
+    "defaultvalue": 0,
+    "displayName": "Waiting on Sunrise",
+    "hidden": 0,
+    "description": "Race to save Termalaine before it suffers the same fate as Caer-Konig!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/79f644d3de2e105343888228d36b9d5a0013cb9a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/253aa4d76ead3e7ff81c22cc90b109f25d1f9925.jpg"
+  },
+  {
+    "name": "objective_id_853",
+    "defaultvalue": 0,
+    "displayName": "Frontline Fighters",
+    "hidden": 0,
+    "description": "Race to save Termalaine with your heartiest Champions!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/814cc7cd5a590038caa11e0c59166a2b06b60143.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/253aa4d76ead3e7ff81c22cc90b109f25d1f9925.jpg"
+  },
+  {
+    "name": "objective_id_857",
+    "defaultvalue": 0,
+    "displayName": "Deekin's Mission",
+    "hidden": 0,
+    "description": "Escort the survivors to Bryn Shander, as you debate how best to move forward.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/7bc39b175c03df9774cbed8edb937e5855448052.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/253aa4d76ead3e7ff81c22cc90b109f25d1f9925.jpg"
+  },
+  {
+    "name": "objective_id_858",
+    "defaultvalue": 0,
+    "displayName": "Dive Bomb",
+    "hidden": 0,
+    "description": "Escort the survivors to Bryn Shander, while being harassed by a Peryton.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/ce9fc883647adf1f0dfe812107bca9091a78db3c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/87a511b9f7795ecda293248a8c29477a654a1845.jpg"
+  },
+  {
+    "name": "objective_id_862",
+    "defaultvalue": 0,
+    "displayName": "Frozen Vengeance",
+    "hidden": 0,
+    "description": "Return to Sunblight fortress, to make sure Xardorok pays for his crimes. ",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/12d115c8893c9b60a2b7c5517a25675ac126722c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/87a511b9f7795ecda293248a8c29477a654a1845.jpg"
+  },
+  {
+    "name": "objective_id_863",
+    "defaultvalue": 0,
+    "displayName": "Mimic Vengeance",
+    "hidden": 0,
+    "description": "Return to Sunblight fortress, with some mimics looking for revenge.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/360ce035445320115f02e94aea95fe25a01f8f40.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/87a511b9f7795ecda293248a8c29477a654a1845.jpg"
+  },
+  {
+    "name": "objective_id_844",
+    "defaultvalue": 0,
+    "displayName": "Reya Reborn",
+    "hidden": 0,
+    "description": "Relive history and watch as Reya takes the Sword of Zariel and becomes a Champion.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/9717e4eb83d56b6b428e64b1c1cf0602b80d15ab.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/87a511b9f7795ecda293248a8c29477a654a1845.jpg"
+  },
+  {
+    "name": "objective_id_867",
+    "defaultvalue": 0,
+    "displayName": "The Battle of High Hall Tower",
+    "hidden": 0,
+    "description": "Return to Elturel for the final battle, facing the worst Avernus has to offer. ",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/3b69b375fc8040264635454d018c24cc66e5a0a0.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/87a511b9f7795ecda293248a8c29477a654a1845.jpg"
+  },
+  {
+    "name": "objective_id_868",
+    "defaultvalue": 0,
+    "displayName": "Might Makes Right",
+    "hidden": 0,
+    "description": "Return to Elturel for the final battle with your strongest Champions.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/ab6adbb08e079038d18782b7565cd4dfddbeec88.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/87a511b9f7795ecda293248a8c29477a654a1845.jpg"
+  },
+  {
+    "name": "objective_id_872",
+    "defaultvalue": 0,
+    "displayName": "Elturel's Last Stand",
+    "hidden": 0,
+    "description": "Face off against Archduke Zariel of Avernus, and deal with the consequences of your actions. ",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/a324ff90e7cb65d7db4983f4608e0508c3705483.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/87a511b9f7795ecda293248a8c29477a654a1845.jpg"
+  },
+  {
+    "name": "objective_id_873",
+    "defaultvalue": 0,
+    "displayName": "Gargauth's Betrayal",
+    "hidden": 0,
+    "description": "Face down Archduke Zariel of Avernus, along with a backstabbing pit fiend! ",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/42bcf7e651cf3180ae33f025a9f1b105c830272b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/253aa4d76ead3e7ff81c22cc90b109f25d1f9925.jpg"
+  },
+  {
+    "name": "objective_id_877",
+    "defaultvalue": 0,
+    "displayName": "Lost in the Underdark",
+    "hidden": 0,
+    "description": "Find your way to Sloobludop while drow from Velkynvelve continue to hunt you!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/e4033fba3f14324e2b93cec5f02ad67aad73a19d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/253aa4d76ead3e7ff81c22cc90b109f25d1f9925.jpg"
+  },
+  {
+    "name": "objective_id_878",
+    "defaultvalue": 0,
+    "displayName": "Demons Here, Demons There",
+    "hidden": 0,
+    "description": "Find your way to Sloobludop with a collection of demons standing in your way!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/7d41035b3e6d61ac6acc5902de9ab5ffe6393455.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/87a511b9f7795ecda293248a8c29477a654a1845.jpg"
+  },
+  {
+    "name": "objective_id_882",
+    "defaultvalue": 0,
+    "displayName": "Leemooggoogoon Rises",
+    "hidden": 0,
+    "description": "Help the Kuo-toa while you try to barter for a boat. ",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/1dd800bf2c6358f52c048ccccafbafe1f753e481.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/253aa4d76ead3e7ff81c22cc90b109f25d1f9925.jpg"
+  },
+  {
+    "name": "objective_id_883",
+    "defaultvalue": 0,
+    "displayName": "Stragglers",
+    "hidden": 0,
+    "description": " Help the Kuo-toa while you help a few straggler prisoners to safety. ",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/f619f8dd8a0e49d841e58adfa193ca1f7f52b9e3.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/253aa4d76ead3e7ff81c22cc90b109f25d1f9925.jpg"
+  },
+  {
+    "name": "objective_id_249",
+    "defaultvalue": 0,
+    "displayName": "Drop of Time",
+    "hidden": 0,
+    "description": "You've saved the world, but Strahd is patient. Eternity is just a drop of time after all.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/bca8e9827af511ac45d697a91323bfbccd51ea0b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/253aa4d76ead3e7ff81c22cc90b109f25d1f9925.jpg"
+  },
+  {
+    "name": "objective_id_254",
+    "defaultvalue": 0,
+    "displayName": "Mongrelfolk Incursion",
+    "hidden": 0,
+    "description": "Help a dwarf reclaim a mine while dealing with Mongrelfolk!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/de54546da38efe9fbb24aed8680ff4498a7160eb.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/87a511b9f7795ecda293248a8c29477a654a1845.jpg"
+  },
+  {
+    "name": "objective_id_597",
+    "defaultvalue": 0,
+    "displayName": "The Misty Grove",
+    "hidden": 0,
+    "description": "Enter the Twilight Grove surrounded by the mists of Ravenloft.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/4fa1f965fdf08be684d30478cecfef867c11f7a8.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/87a511b9f7795ecda293248a8c29477a654a1845.jpg"
+  },
+  {
+    "name": "objective_id_622",
+    "defaultvalue": 0,
+    "displayName": "Misty Undermountain",
+    "hidden": 0,
+    "description": "Head deeper into Undermountain, as the mists of Ravenolft encroach!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/eb624f80352e80c50f8dc4cfd10d73360ed0f624.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/87a511b9f7795ecda293248a8c29477a654a1845.jpg"
+  },
+  {
+    "name": "objective_id_627",
+    "defaultvalue": 0,
+    "displayName": "Ireena von Zarovich",
+    "hidden": 0,
+    "description": "Defeat the nightmare version of Ireena that Strahd has staged within Alterdeep!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/ddc03e5f939388c1a876485f9982637006263047.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/87a511b9f7795ecda293248a8c29477a654a1845.jpg"
+  },
+  {
+    "name": "objective_id_632",
+    "defaultvalue": 0,
+    "displayName": "The Devil Arrives",
+    "hidden": 0,
+    "description": "Head into the wastelands and face Strahd head-on.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/735bc709ac44d572a6ad68610dd4c4d0b118a744.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/87a511b9f7795ecda293248a8c29477a654a1845.jpg"
+  },
+  {
+    "name": "objective_id_637",
+    "defaultvalue": 0,
+    "displayName": "Zombie Dreams",
+    "hidden": 0,
+    "description": "Head into Lulu's memories to confront the waves of Strahd's Zombies!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/95ead2f309351fb94e7638d458eb8246842b8a7b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/87a511b9f7795ecda293248a8c29477a654a1845.jpg"
+  },
+  {
+    "name": "objective_id_682",
+    "defaultvalue": 0,
+    "displayName": "A Nightmare Occasion",
+    "hidden": 0,
+    "description": "Help a pair of farmers deal with a deluge of uninvited Barovian guests.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/6c7e80416cc497735a95e0d8f050ba03f4c24559.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/87a511b9f7795ecda293248a8c29477a654a1845.jpg"
+  },
+  {
+    "name": "objective_id_804",
+    "defaultvalue": 0,
+    "displayName": "CONtagious Cold",
+    "hidden": 0,
+    "description": "Enter Ten-Towns and defeat a squad of twig blights from Ravenloft!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/b255f27dbc1bac6812643913143a1cb2dd3ac3e4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/87a511b9f7795ecda293248a8c29477a654a1845.jpg"
+  },
+  {
+    "name": "objective_id_809",
+    "defaultvalue": 0,
+    "displayName": "The Taunting Lord",
+    "hidden": 0,
+    "description": "Head to Termalaine and try not to think of the danger to come.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/98445d2aee9c4a0be790eedfdfc24dae46188821.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/87a511b9f7795ecda293248a8c29477a654a1845.jpg"
+  },
+  {
+    "name": "objective_id_887",
+    "defaultvalue": 0,
+    "displayName": "Ending the Rime - Part 1",
+    "hidden": 0,
+    "description": "Head off in the nautiloid to try and stop the Rime.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/0393a2b1447d7297a813d4a9067e3f1791a9244c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/253aa4d76ead3e7ff81c22cc90b109f25d1f9925.jpg"
+  },
+  {
+    "name": "objective_id_888",
+    "defaultvalue": 0,
+    "displayName": "Ambitious Speakers - Part 1",
+    "hidden": 0,
+    "description": "Head off in the nautiloid with a speaker in tow.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/2e9d8ba1bd4f349d289bdc86d5f5a7e8a9c9280b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/253aa4d76ead3e7ff81c22cc90b109f25d1f9925.jpg"
+  },
+  {
+    "name": "objective_id_892",
+    "defaultvalue": 0,
+    "displayName": "Ending the Rime - Part 2",
+    "hidden": 0,
+    "description": "Continue to hunt for The Codicil of White, while Auril prepares to end your advances.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/5a9f8c09119f8a8e02db27510a5fafcf391afe70.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/253aa4d76ead3e7ff81c22cc90b109f25d1f9925.jpg"
+  },
+  {
+    "name": "objective_id_893",
+    "defaultvalue": 0,
+    "displayName": "Ambitious Speakers - Part 2",
+    "hidden": 0,
+    "description": "Continue to hunt for The Codicil of White with Auril ready for you this time.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/d77ba5ba452f030a7aadd53cbeed1ed5d7acf9f3.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/253aa4d76ead3e7ff81c22cc90b109f25d1f9925.jpg"
+  },
+  {
+    "name": "objective_id_897",
+    "defaultvalue": 0,
+    "displayName": "Reghed Glacier Mysteries",
+    "hidden": 0,
+    "description": "Take the Codicil of White to the Reghed Glacier, and try to unlock the mysteries held within.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/f42a83a19c4b5e5062c2fe38709e394eca283266.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/253aa4d76ead3e7ff81c22cc90b109f25d1f9925.jpg"
+  },
+  {
+    "name": "objective_id_898",
+    "defaultvalue": 0,
+    "displayName": "Mysteries Unlocked",
+    "hidden": 0,
+    "description": "Take the Codicil of White to the Reghed Glacier with your most perceptive Champions.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/014a14e8809b15cc79fcd26af337f27bbbff10e2.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/253aa4d76ead3e7ff81c22cc90b109f25d1f9925.jpg"
+  },
+  {
+    "name": "objective_id_902",
+    "defaultvalue": 0,
+    "displayName": "Tekeli-li's Hunt",
+    "hidden": 0,
+    "description": "Continue to explore the Caves of Hunger, with a mad vampire gnoll on your tail.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/2d7cba08a0f0f9f42bcd34967afd6f3103405dda.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/253aa4d76ead3e7ff81c22cc90b109f25d1f9925.jpg"
+  },
+  {
+    "name": "objective_id_903",
+    "defaultvalue": 0,
+    "displayName": "Cackling Horror",
+    "hidden": 0,
+    "description": "Continue to explore the Caves of Hunger, with a mad vampire gnoll freaking you out.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/4ce5eff0c3b1e09e90bbb20035086f13dde1c38d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/253aa4d76ead3e7ff81c22cc90b109f25d1f9925.jpg"
+  },
+  {
+    "name": "objective_id_687",
+    "defaultvalue": 0,
+    "displayName": "Prisoners of Unknown Choices",
+    "hidden": 0,
+    "description": "You awake in the underdark, cursed by choices made by an unseen foe!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/62bfbc78415d8e37ea3f04c16df13bca851a15a5.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/87a511b9f7795ecda293248a8c29477a654a1845.jpg"
+  },
+  {
+    "name": "objective_id_879",
+    "defaultvalue": 0,
+    "displayName": "Visions of Hornfirth",
+    "hidden": 0,
+    "description": "Find your way to Sloobludop with Bubbles by your side!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/eccc1eae5505437777e50036cfa51dc89ad7376c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/87a511b9f7795ecda293248a8c29477a654a1845.jpg"
+  },
+  {
+    "name": "objective_id_381",
+    "defaultvalue": 0,
+    "displayName": "Red Wizard 'Escort'",
+    "hidden": 0,
+    "description": "Help Artus find clues with a friend from the future.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/726a6e62925b5dc3376379a278d908d18638a8f7.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/87a511b9f7795ecda293248a8c29477a654a1845.jpg"
+  },
+  {
+    "name": "objective_id_386",
+    "defaultvalue": 0,
+    "displayName": "Spirit of the Trickster Gods",
+    "hidden": 0,
+    "description": "Race Valindra to Mezro with the 9 Trickster Gods by your side!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/67a6204b3f4553ccd1c4a10d8bc9f1113766f60c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/87a511b9f7795ecda293248a8c29477a654a1845.jpg"
+  },
+  {
+    "name": "objective_id_172",
+    "defaultvalue": 0,
+    "displayName": "The Newcomers of Notoriety",
+    "hidden": 0,
+    "description": "Escort a mysterious noble while Baeloth summons some fancy friends to entertain us!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/050ee6f314d930ff25ab062f5bb6a8b6f5bd3a79.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/87a511b9f7795ecda293248a8c29477a654a1845.jpg"
+  },
+  {
+    "name": "objective_id_233",
+    "defaultvalue": 0,
+    "displayName": "Thine Bounty is Mine!",
+    "hidden": 0,
+    "description": "Protect the hidden lords of waterdeep while protecting your panda from a pirate!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/de30872e8747f8e3f89982996aebff00204d4a51.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/87a511b9f7795ecda293248a8c29477a654a1845.jpg"
+  },
+  {
+    "name": "objective_id_642",
+    "defaultvalue": 0,
+    "displayName": "The Path of Trials",
+    "hidden": 0,
+    "description": "Follow Lulu's dreams while Tiamat's chromatic dragons slow your progress!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/d3c868227f231ef3ba7348cae188b7ce6a2faa73.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/87a511b9f7795ecda293248a8c29477a654a1845.jpg"
+  },
+  {
+    "name": "objective_id_647",
+    "defaultvalue": 0,
+    "displayName": "Best Friend Search Squad!",
+    "hidden": 0,
+    "description": "Follow Lulu's cries across Avernus with a distracting Bubbles and Cinnamon at your side!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/527750db9783599392f32dc0fd6a2df16634beda.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/87a511b9f7795ecda293248a8c29477a654a1845.jpg"
+  },
+  {
+    "name": "objective_id_829",
+    "defaultvalue": 0,
+    "displayName": "Frozen in Fear",
+    "hidden": 0,
+    "description": "Explore a rumor about invisible dwarves, while dealing with vampire gnolls!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/087f9d27e81638a1836376514892cb45d76ccee9.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/87a511b9f7795ecda293248a8c29477a654a1845.jpg"
+  },
+  {
+    "name": "objective_id_834",
+    "defaultvalue": 0,
+    "displayName": "Hats off to you!",
+    "hidden": 0,
+    "description": "Learn what you can while fancy red pandas attempt to 'entertain' you.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/15e82a3dbcf726796dadbe3821d52e44e0f0d231.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/87a511b9f7795ecda293248a8c29477a654a1845.jpg"
+  },
+  {
+    "name": "objective_id_928",
+    "defaultvalue": 0,
+    "displayName": "The Rite of the Arcane Octad",
+    "hidden": 0,
+    "description": "Explore the ancient city of Ythryn while the remainder of its defenders try to keep its secrets hidden!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/0e43fb8d0db5274fb60694dedba9ce73e793d1cc.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/87a511b9f7795ecda293248a8c29477a654a1845.jpg"
+  },
+  {
+    "name": "objective_id_929",
+    "defaultvalue": 0,
+    "displayName": "Alien Allies",
+    "hidden": 0,
+    "description": "Explore the ancient city of Ythryn while a group of Nothics attempt to assist you.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/12cf90bb87720fa7fef411352ca4bae6eec2bdfa.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/87a511b9f7795ecda293248a8c29477a654a1845.jpg"
+  },
+  {
+    "name": "objective_id_933",
+    "defaultvalue": 0,
+    "displayName": "The Netherese Necropolis",
+    "hidden": 0,
+    "description": "Search the city for more Arcane Octad clues while learning more about the destruction of Ythryn.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/45386d55845a7efbaf1ec6c2a407a0a2939f0868.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/87a511b9f7795ecda293248a8c29477a654a1845.jpg"
+  },
+  {
+    "name": "objective_id_934",
+    "defaultvalue": 0,
+    "displayName": "Ineffectual Intellectuals",
+    "hidden": 0,
+    "description": "Search the city while taking time to try and understand the magical mysteries hidden within.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/595cfbb473aa89b6dbec3048bde5141eda4ee51c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/87a511b9f7795ecda293248a8c29477a654a1845.jpg"
+  },
+  {
+    "name": "objective_id_918",
+    "defaultvalue": 0,
+    "displayName": "Neutral No More",
+    "hidden": 0,
+    "description": "Head to Mantol-Derith, to learn more about the demonic incursion into the Underdark.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/c3dc2757125cf3101813e1e150fc49ae8eff966e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/87a511b9f7795ecda293248a8c29477a654a1845.jpg"
+  },
+  {
+    "name": "objective_id_919",
+    "defaultvalue": 0,
+    "displayName": "Fungal Excitation",
+    "hidden": 0,
+    "description": "Head to Mantol-Derith, while dealing with a flood of Spore Servants!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/fce30eb811ed786767aedc442710269a159aaaf5.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/87a511b9f7795ecda293248a8c29477a654a1845.jpg"
+  },
+  {
+    "name": "objective_id_923",
+    "defaultvalue": 0,
+    "displayName": "Encroaching Madness",
+    "hidden": 0,
+    "description": "Explore Mantol-Derith while you discover the reason behind the inter-faction war.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/a3a1ac4254ed0c9766a291424df4e2a47b5cd5ab.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/87a511b9f7795ecda293248a8c29477a654a1845.jpg"
+  },
+  {
+    "name": "objective_id_924",
+    "defaultvalue": 0,
+    "displayName": "Watchful Eyes",
+    "hidden": 0,
+    "description": "Explore Mantol-Derith with the Zhentarim watching your every move.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/768a957eefa24bc820858161c877ff881ae1bfbb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/627690/87a511b9f7795ecda293248a8c29477a654a1845.jpg"
   }
 ]

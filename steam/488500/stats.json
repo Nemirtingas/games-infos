@@ -1,18 +1,22 @@
-﻿{
-  "STAMAXC": {
-    "description": "Max Combo",
-    "value": 0
+[
+  {
+    "name": "STAMAXC",
+    "defaultvalue": 0,
+    "displayName": "Max Combo"
   },
-  "STAMAXCD": {
-    "description": "Max Combo Damage",
-    "value": 0
+  {
+    "name": "STAMAXCD",
+    "defaultvalue": 0,
+    "displayName": "Max Combo Damage"
   },
-  "STAENMD": {
-    "description": "Total Enemies Defeated",
-    "value": 0
+  {
+    "name": "STAENMD",
+    "defaultvalue": 0,
+    "displayName": "Total Enemies Defeated"
   },
-  "STASCLC": {
-    "description": "Total Soul Collected",
-    "value": 0
+  {
+    "name": "STASCLC",
+    "defaultvalue": 0,
+    "displayName": "Total Soul Collected"
   }
-}
+]

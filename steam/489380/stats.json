@@ -1,10 +1,12 @@
-﻿{
-  "monster_kills": {
-    "description": "Enemies Killed",
-    "value": 0
+[
+  {
+    "name": "monster_kills",
+    "defaultvalue": 0,
+    "displayName": "Enemies Killed"
   },
-  "arrows_shot": {
-    "description": "Arrows Fired",
-    "value": 0
+  {
+    "name": "arrows_shot",
+    "defaultvalue": 0,
+    "displayName": "Arrows Fired"
   }
-}
+]

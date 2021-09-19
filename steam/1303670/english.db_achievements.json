@@ -58,7 +58,7 @@
     "defaultvalue": 0,
     "displayName": "Adept",
     "hidden": 0,
-    "description": "Complete  9 Puzzles 300 pcs",
+    "description": "Complete  9 Puzzles 108 pcs",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1303670/0559f9a387b8a9a257d54238ed81089b1d60c0f5.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1303670/b61ed2b40c359528ed4baad0bfaf2dfe6dde2246.jpg"
   },
@@ -67,7 +67,7 @@
     "defaultvalue": 0,
     "displayName": "Expert",
     "hidden": 0,
-    "description": "Complete  30 Puzzles 300 pcs",
+    "description": "Complete  30 Puzzles 108 pcs",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1303670/c66f67b46ec023f62d4d44a14646220d0739e974.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1303670/1093dd491d866585a7062ff9ae869cdac765b869.jpg"
   },
@@ -157,7 +157,7 @@
     "defaultvalue": 0,
     "displayName": "Genius",
     "hidden": 0,
-    "description": "Complete 100 Puzzles 300pcs with Rotation",
+    "description": "Complete 100 Puzzles 108 pcs with Rotation",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1303670/94305ea1678275a425f1772fda27ff8c21cbd964.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1303670/b2c43ead72b08c65a103ff333a790e16d537de9b.jpg"
   },
@@ -394,5 +394,329 @@
     "description": "Complete 333 Paintings",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1303670/e74b064ace10ae7576f6443c27bd21a9b815b23e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1303670/d6cfbe059c99898e9ecfe7020cfdeb35a01d8e71.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_2_16",
+    "defaultvalue": 0,
+    "displayName": "Autumn 2020",
+    "hidden": 0,
+    "description": "Complete ONE of Autumn 2020 Update Puzzles",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1303670/740d6abbf59e93d68b9f819dd5aa40dc275eea27.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1303670/61b4706fc651eecd83188ab1e1f17fd6ca4543fe.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_2_17",
+    "defaultvalue": 0,
+    "displayName": "400",
+    "hidden": 0,
+    "description": "Complete 400 Puzzles",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1303670/12aed051aad902fd5fde67aac1dce284c1fd650b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1303670/49e774c5f1256f66cd0c01dcb587c023b19f8533.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_2_18",
+    "defaultvalue": 0,
+    "displayName": "Loyalty VI",
+    "hidden": 0,
+    "description": "Play the game every day for 3 days",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1303670/4d52f242477e876fc63f3806749f9e5faf505d9b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1303670/8d0a65c7dd504f94cebdb0165f830dcce970921f.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_2_19",
+    "defaultvalue": 0,
+    "displayName": "Loyalty V",
+    "hidden": 0,
+    "description": "Play the game every day for 6 days",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1303670/3575eb15efa0a85884ee22a09d1a44e983d387d3.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1303670/b925f2b67fe4e375cb59808e60cefa6c6c7b3607.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_2_20",
+    "defaultvalue": 0,
+    "displayName": "Loyalty IV",
+    "hidden": 0,
+    "description": "Play the game every day for 10 days",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1303670/6113a2f9d579243769e91314e50566cc7b021e05.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1303670/0d55deb41172bcc54341d7a4840394cfd6c745ae.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_2_21",
+    "defaultvalue": 0,
+    "displayName": "Loyalty III",
+    "hidden": 0,
+    "description": "Play the game every day for 20 days",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1303670/1751de69b2661e903cab23b2feeea57b4510469b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1303670/576b264510bd0f0a7d956edd47d022301ab1f38f.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_2_22",
+    "defaultvalue": 0,
+    "displayName": "Loyalty II",
+    "hidden": 0,
+    "description": "Play the game every day for 30 days",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1303670/862ac319321a0f440d8f046c7fdee5d4992a6c30.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1303670/5b431e4311705853e0a4d31cc5657bcf0f724d18.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_2_23",
+    "defaultvalue": 0,
+    "displayName": "Loyalty One",
+    "hidden": 0,
+    "description": "Play the game for 365 days",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1303670/621b0c44d191853ce3988ce330f238dbab061467.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1303670/59ed5498a4025420688f269b44391c8cf4e5a50a.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_2_24",
+    "defaultvalue": 0,
+    "displayName": "450",
+    "hidden": 0,
+    "description": "Complete 450 Puzzles",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1303670/b0fc0028376422935354db482af2fdf27b0a4947.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1303670/59cb08644f3b8908dbec717363ea3593cf2f5698.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_2_25",
+    "defaultvalue": 0,
+    "displayName": "Winter Update 2021",
+    "hidden": 0,
+    "description": "Complete 1 winter update painting",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1303670/7e0e8a39c22a7fbb87799919abb3aa5d72883e5b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1303670/ee9b4f3b1d1f79598f8eb3273ece0d6ba34da915.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_2_26",
+    "defaultvalue": 0,
+    "displayName": "Winter Landscapes",
+    "hidden": 0,
+    "description": "Complete 9 winter landscapes",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1303670/210f7b0e60137ce38e776d3ebcd384fb41274bbf.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1303670/287ae85d4e5007c29f8897ac842f84f258cde217.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_2_27",
+    "defaultvalue": 0,
+    "displayName": "More Snow!",
+    "hidden": 0,
+    "description": "Complete 30 winter paintings",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1303670/7cf17452f57e8107d21bc97534b465fdab919f3d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1303670/a04ec900db8d89fbe613c002aeafa786ae398b6b.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_2_28",
+    "defaultvalue": 0,
+    "displayName": "Welcome to Japan",
+    "hidden": 0,
+    "description": "Complete 1 painting from japanese author",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1303670/6ba791688dfb06b82c5dbb493327b46bbe102fbd.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1303670/e7d056e8bc77b0ae8810c1c0a50f3372d624848e.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_2_29",
+    "defaultvalue": 0,
+    "displayName": "500",
+    "hidden": 0,
+    "description": "Complete 500 Puzzles",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1303670/a4d9945adb5e6322f62967da8a71a309867c9fb0.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1303670/3ad18a4b34ee584d2ba8963d6558995bb3348545.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_2_30",
+    "defaultvalue": 0,
+    "displayName": "Quick",
+    "hidden": 0,
+    "description": "Complete 12 pcs puzzle in 15 seconds",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1303670/6289c63c6699b70009e29193923216d2c6b9dad3.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1303670/0a8c4d33d016150905877b6481b390096db686e9.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_2_31",
+    "defaultvalue": 0,
+    "displayName": "But how?!",
+    "hidden": 0,
+    "description": "Complete 12 pcs puzzle in 10 seconds",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1303670/3d4ed2ea4878f8e03e72fa62030db3a7e83ba2bb.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1303670/38acda3171e689d02887bdc228c98d8779c3681b.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_7_0",
+    "defaultvalue": 0,
+    "displayName": "Times are hard",
+    "hidden": 0,
+    "description": "Measure Your puzzle time on every difficulty level - 12, 48, 108 and 300",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1303670/d3f50dc0af0f761ad5eafe2f892654ea5d31ec27.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1303670/c02cb042ea5748d6a8a93e127afe411b251432fb.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_7_1",
+    "defaultvalue": 0,
+    "displayName": "Beat the Time",
+    "hidden": 0,
+    "description": "Beat Your own puzzle times on every difficulty level",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1303670/a106e0f1467904b59739a1d75a21a7aa21f443a0.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1303670/4b247cf62c52efba2029d1aac78e153cd27f9f4e.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_7_2",
+    "defaultvalue": 0,
+    "displayName": "Always on Time",
+    "hidden": 0,
+    "description": "Record 30 Time Scores on any difficulty level",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1303670/607ff06c7916c2dfb429bba483178a5af903f1c3.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1303670/821c4885dd7f09c6859b26689b7cba57ac2cdf86.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_7_3",
+    "defaultvalue": 0,
+    "displayName": "600",
+    "hidden": 0,
+    "description": "Complete 600 Puzzles ",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1303670/a91f97e82f8bf3132f23e244a240d2ac12fb685d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1303670/792f4d21affa3bb6ff758f485f6973fef309baa7.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_7_4",
+    "defaultvalue": 0,
+    "displayName": "Jigstris Easy",
+    "hidden": 0,
+    "description": "Complete puzzle on Easy difficulty in Jigstris minigame",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1303670/00eb75dd8953d2546abfdceb89b67a62f3440c84.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1303670/637935616743340d3702d6d721289d0d47e3878c.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_7_5",
+    "defaultvalue": 0,
+    "displayName": "Jigstris Normal",
+    "hidden": 0,
+    "description": "Complete puzzle on Normal difficulty in Jigstris minigame",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1303670/debec9be828c5ce92544041766440cf260478cf7.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1303670/51359dc380118ef2c3fd272fd32c70f0c4e62793.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_7_6",
+    "defaultvalue": 0,
+    "displayName": "Jigstris Medium",
+    "hidden": 0,
+    "description": "Complete puzzle on Medium difficulty in Jigstris minigame",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1303670/f5d894140b440f9b58c5a350b863f9247fcf1aaa.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1303670/477e18bcd6b3f957f48015768cf8edbae09a0d70.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_7_7",
+    "defaultvalue": 0,
+    "displayName": "Jigstris Hard",
+    "hidden": 0,
+    "description": "Complete puzzle on Hard difficulty in Jigstris minigame",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1303670/cf9f437faeb92b7c785465438b121fec3654e705.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1303670/23bc18c34a1f781436436f11a01b3472d9ad2958.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_7_8",
+    "defaultvalue": 0,
+    "displayName": "Jigstris Easy Perfect",
+    "hidden": 0,
+    "description": "Complete puzzle on Easy difficulty in Jigstris minigame, without any mistakes",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1303670/9fd088f159ef44721a2e4f785a48910549a59dc8.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1303670/772a34fbb4281cddc6e9438db0154ac38ecb8bba.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_7_9",
+    "defaultvalue": 0,
+    "displayName": "Jigstris Normal Perfect",
+    "hidden": 0,
+    "description": "Complete puzzle on Normal difficulty in Jigstris minigame, without any mistakes",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1303670/901c5dad3ea801e6415124f9de07d9f771a9d161.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1303670/56041b9902dbff014101f8a8031628a3ef23430d.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_7_10",
+    "defaultvalue": 0,
+    "displayName": "Jigstris Medium Perfect",
+    "hidden": 0,
+    "description": "Complete puzzle on Medium difficulty in Jigstris minigame, without any mistakes",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1303670/d1138f112038efd0a9185733c878fc0a2fa7ebec.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1303670/479164910d4219cb75ab004057f5b6abfe908c54.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_7_11",
+    "defaultvalue": 0,
+    "displayName": "Jigstris Hard Perfect",
+    "hidden": 0,
+    "description": "Complete puzzle on Hard difficulty in Jigstris minigame, without any mistakes",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1303670/eca8355a7450e094028a6f92dd56c9a55e4c23cf.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1303670/f78817e41aa5141b6f04bbffe1b61d65f681a60d.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_7_12",
+    "defaultvalue": 0,
+    "displayName": "Jigstris Easy 10",
+    "hidden": 0,
+    "description": "Complete puzzle 10 times on Easy difficulty in Jigstris minigame",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1303670/8cbb6bbcd507c53f0ab9ca92cd8b14aba2304829.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1303670/79d6c8f1e58d9a0f50084f406185ed353a076b69.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_7_13",
+    "defaultvalue": 0,
+    "displayName": "Jigstris Normal 10",
+    "hidden": 0,
+    "description": "Complete puzzle 10 times on Normal difficulty in Jigstris minigame",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1303670/58c4f8152d4109803d5f06cd4d22f6c21042d78e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1303670/c8d8dabdd3ee058c1e1083cdaf0901121526afb5.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_7_14",
+    "defaultvalue": 0,
+    "displayName": "Jigstris Medium 10",
+    "hidden": 0,
+    "description": "Complete puzzle 10 times on Medium difficulty in Jigstris minigame",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1303670/d1138f112038efd0a9185733c878fc0a2fa7ebec.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1303670/a3e9baf8c26a755f2fa0ae6945379cd90fc843b3.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_7_15",
+    "defaultvalue": 0,
+    "displayName": "Jigstris Hard 10",
+    "hidden": 0,
+    "description": "Complete puzzle 10 times on Hard difficulty in Jigstris minigame",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1303670/b9d273bbf0c27738ab731c35bb138fed4c36369c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1303670/334cdb552eada7904bab8a5cb9052c876d9aa06b.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_7_16",
+    "defaultvalue": 0,
+    "displayName": "Jigstris Any Perfect 10",
+    "hidden": 0,
+    "description": "Complete puzzle in Jigstris minigame 10 times, without any mistakes",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1303670/8f6ab0ed29304f1c1f3664deb233ec38482e9f8f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1303670/bcc17385c3efb6930d18b450fd263af6f05bc227.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_7_17",
+    "defaultvalue": 0,
+    "displayName": "Jigstris Any 100",
+    "hidden": 0,
+    "description": "Complete puzzle in Jigstris minigame 100 times",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1303670/f899814031f4a944acd54e53112ac6bd3cda5a92.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1303670/c54ee186efbf0c122eaf29eba5eba0ad383d630e.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_7_18",
+    "defaultvalue": 0,
+    "displayName": "700",
+    "hidden": 0,
+    "description": "Complete 700 Puzzles",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1303670/",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1303670/"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_7_19",
+    "defaultvalue": 0,
+    "displayName": "Summer 2021",
+    "hidden": 0,
+    "description": "Complete all summer 2021 puzzles",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1303670/",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1303670/"
   }
 ]

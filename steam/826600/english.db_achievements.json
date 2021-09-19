@@ -1,10 +1,10 @@
-﻿[
+[
   {
     "name": "AchievementHeal1",
     "defaultvalue": 0,
     "displayName": "Intern",
     "hidden": 0,
-    "description": "Recover 100 HP",
+    "description": "Recover 10 HP",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/826600/fed42b92de1849b0b9777b31d6eff20c3b2ef174.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/826600/fec3995096c7da5ce77d6d874d155b8aee9a9f41.jpg"
   },
@@ -13,7 +13,7 @@
     "defaultvalue": 0,
     "displayName": "Doctor",
     "hidden": 0,
-    "description": "Recover 1,000 HP",
+    "description": "Recover 100 HP",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/826600/3730fdc2a67d8c00fef9b46c99233da1268add50.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/826600/e264a4484f7743e8ab14994b3441b548a8414c87.jpg"
   },
@@ -22,7 +22,7 @@
     "defaultvalue": 0,
     "displayName": "Doctor Without Borders",
     "hidden": 0,
-    "description": "Recover 10,000 HP",
+    "description": "Recover 500 HP",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/826600/f160cd62d48c4bf05f7254919a55cddae314f697.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/826600/9a5623521bfdadfe14620357bcb6a9e83c6adeac.jpg"
   },
@@ -31,7 +31,7 @@
     "defaultvalue": 0,
     "displayName": "Shooter",
     "hidden": 0,
-    "description": "Deal 100 damage with bullet weapons",
+    "description": "Deal 50 damage with bullet weapons",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/826600/1fcda56704705ab230bddd50f3fe862d19e976af.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/826600/42ac7c41332f1343163d5c388060cc6d334d4ee4.jpg"
   },
@@ -40,7 +40,7 @@
     "defaultvalue": 0,
     "displayName": "Stormtrooper",
     "hidden": 0,
-    "description": "Deal 5,000 damage with bullet weapons",
+    "description": "Deal 500 damage with bullet weapons",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/826600/8e70aee94aaad448beee7a12f50e29a0d3366688.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/826600/99bcee5d074ee6076981be5578c082045456f930.jpg"
   },
@@ -49,7 +49,7 @@
     "defaultvalue": 0,
     "displayName": "Sniper",
     "hidden": 0,
-    "description": "Deal 50,000 damage with bullet weapons",
+    "description": "Deal 1,000 damage with bullet weapons",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/826600/e7ef2d508992e1aa8791f79a2636f3d8872c2144.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/826600/46803b2551156c2dd332e876862b68d8533cfaba.jpg"
   },
@@ -58,7 +58,7 @@
     "defaultvalue": 0,
     "displayName": "Assistant",
     "hidden": 0,
-    "description": "Deal 100 damage with energy weapons",
+    "description": "Deal 50 damage with energy weapons",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/826600/77cf79b436ec821263ce27f7fb9ca280f865c76a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/826600/e07f3221a99bfd4237fa9ce392db79f9a9bbc5ba.jpg"
   },
@@ -67,7 +67,7 @@
     "defaultvalue": 0,
     "displayName": "Scientist",
     "hidden": 0,
-    "description": "Deal 5,000 damage with energy weapons",
+    "description": "Deal 500 damage with energy weapons",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/826600/19a84163a7f18e85c80571ab71c843c64909c76f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/826600/e9f234709e3eaf0f3923295232d8caba5212bc3e.jpg"
   },
@@ -76,7 +76,7 @@
     "defaultvalue": 0,
     "displayName": "Tesla",
     "hidden": 0,
-    "description": "Deal 50,000 damage with energy weapons",
+    "description": "Deal 1,000 damage with energy weapons",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/826600/87016854f8b08d0997c340c5d7fb037bd2d71f0f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/826600/85e9dc0f50ed2bd1b837845093f60a7e9a1abc27.jpg"
   },
@@ -85,7 +85,7 @@
     "defaultvalue": 0,
     "displayName": "Dynamite",
     "hidden": 0,
-    "description": "Deal 100 damage with explosives",
+    "description": "Deal 50 damage with explosives",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/826600/cc289c4f646c3b117536fe2fae18d6c5b74c0603.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/826600/e5e6d30aea2cc69a298d36ca22f79a2d57b10b94.jpg"
   },
@@ -94,7 +94,7 @@
     "defaultvalue": 0,
     "displayName": "Bomb",
     "hidden": 0,
-    "description": "Deal 5,000 damage with explosives",
+    "description": "Deal 500 damage with explosives",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/826600/216e4c4f6aa18194c57ea8c73796b920c30b0600.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/826600/da7253edcecfc5ce2f5a49aa6dcce26c866ed7f6.jpg"
   },
@@ -103,7 +103,7 @@
     "defaultvalue": 0,
     "displayName": "Megaton",
     "hidden": 0,
-    "description": "Deal 50,000 damage with explosives",
+    "description": "Deal 1,000 damage with explosives",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/826600/40bd8be8422ec92e53b664bcba9b411ee80e473f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/826600/0a799d51ab72664b360ea01aa802cd231db0c29b.jpg"
   },
@@ -112,7 +112,7 @@
     "defaultvalue": 0,
     "displayName": "Surgeon",
     "hidden": 0,
-    "description": "Deal 100 damage with melee weapons",
+    "description": "Deal 50 damage with melee weapons",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/826600/64aa2c9946dff63828611dc7856fc8257fdd7639.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/826600/df6e4ee2febfa40cc90390ffa5d5625e6fb1d063.jpg"
   },
@@ -121,7 +121,7 @@
     "defaultvalue": 0,
     "displayName": "Sadist",
     "hidden": 0,
-    "description": "Deal 1,000 damage with melee weapons",
+    "description": "Deal 100 damage with melee weapons",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/826600/f3c377def99c5a6b8b2a451f4676c25244a2525a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/826600/e14f2ab111ee6e79bde76641b29fe48457d0f5fc.jpg"
   },
@@ -130,7 +130,7 @@
     "defaultvalue": 0,
     "displayName": "Butcher",
     "hidden": 0,
-    "description": "Deal 5,000 damage with melee weapons",
+    "description": "Deal 500 damage with melee weapons",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/826600/0e4f0c5e7c92c192769dc5a000782f453e071943.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/826600/fd43f7864b8cc8f04b4c1a7b6c69a02e95b1a41d.jpg"
   },
@@ -157,7 +157,7 @@
     "defaultvalue": 0,
     "displayName": "Disease",
     "hidden": 0,
-    "description": "Infect 5 humans",
+    "description": "Infect 1 human",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/826600/78bbcff6227601fc98edb68c63bf5f2bdcf6c6fd.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/826600/b199a7e35713fddef7ecaec34a03d2fcc4c7a3ed.jpg"
   },
@@ -166,7 +166,7 @@
     "defaultvalue": 0,
     "displayName": "Plague",
     "hidden": 0,
-    "description": "Infect 100 humans",
+    "description": "Infect 10 humans",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/826600/fd0894973096c0f60088e70a0d93b21444f24c01.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/826600/2d95a240961847feecf467fe0465f29b5df28281.jpg"
   },
@@ -175,7 +175,7 @@
     "defaultvalue": 0,
     "displayName": "Epidemic",
     "hidden": 0,
-    "description": "Infect 500 humans",
+    "description": "Infect 50 humans",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/826600/65455f2ad2f6399599d1abf25a1532ba68a3315a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/826600/f2078e19b7976dd78f546e01085901f93c7ac0f0.jpg"
   },
@@ -184,7 +184,7 @@
     "defaultvalue": 0,
     "displayName": "Novice Killer",
     "hidden": 0,
-    "description": "Kill 10 enemies",
+    "description": "Kill 5 enemies",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/826600/94b80078f6ebc17c78c7ddb42a130b349c1a3f8e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/826600/563549d310eded9b12233d7c19a85be29ec3ef7b.jpg"
   },
@@ -193,7 +193,7 @@
     "defaultvalue": 0,
     "displayName": "Serial Killer",
     "hidden": 0,
-    "description": "Kill 100 enemies",
+    "description": "Kill 10 enemies",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/826600/73719fa01b85c79b8c5aeeed2b38b01cf9e0f554.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/826600/c651e12f03a4ff75d0c7e4e4d0837d460590c267.jpg"
   },
@@ -202,7 +202,7 @@
     "defaultvalue": 0,
     "displayName": "Maniac",
     "hidden": 0,
-    "description": "Kill 1,000 enemies",
+    "description": "Kill 50 enemies",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/826600/b1c270b1702c0855a5b1614aac08c6e59e70cef0.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/826600/3160eae44b1c374bfa36bc73a68a8eee9552c98c.jpg"
   },
@@ -220,7 +220,7 @@
     "defaultvalue": 0,
     "displayName": "Rescuer",
     "hidden": 0,
-    "description": "Save 10 civilians",
+    "description": "Save 5 civilians",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/826600/8d0adb12dff96076db61bbdcc9e12a039e4ef9b8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/826600/0e34314e75bc89fffa93d941eb196cd2c628e7d0.jpg"
   },
@@ -229,7 +229,7 @@
     "defaultvalue": 0,
     "displayName": "Protector",
     "hidden": 0,
-    "description": "Save 100 civilians",
+    "description": "Save 10 civilians",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/826600/e1c83f9b91f572b543bf03a662b63c165c585a08.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/826600/39221402418bf6b6f006804aea90f82febd37501.jpg"
   },
@@ -238,7 +238,7 @@
     "defaultvalue": 0,
     "displayName": "Messiah",
     "hidden": 0,
-    "description": "Save 1,000 civilians",
+    "description": "Save 50 civilians",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/826600/5039d6b63f0f32439ef024db08f9f53593a5e01c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/826600/62191525bd818b368aaea43aada58c6faad84afe.jpg"
   },
@@ -265,7 +265,7 @@
     "defaultvalue": 0,
     "displayName": "Winner",
     "hidden": 0,
-    "description": "Win 5 battles",
+    "description": "Win 1 battle",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/826600/c6e7e8f1b49862a01f7963b2ba5ad279e5d90cf7.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/826600/be5045ca2e0b0430612c24fd67ee22e1b767e80d.jpg"
   },
@@ -274,7 +274,7 @@
     "defaultvalue": 0,
     "displayName": "Unchallenged",
     "hidden": 0,
-    "description": "Win 20 battles",
+    "description": "Win 10 battles",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/826600/ec5fe5be003252a8681faafd458bf5be90cdbc2a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/826600/10d3aaf55d2132efe766c23cbbbc654c687e826e.jpg"
   },
@@ -283,7 +283,7 @@
     "defaultvalue": 0,
     "displayName": "Top Dog",
     "hidden": 0,
-    "description": "Win 500 battles",
+    "description": "Win 50 battles",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/826600/a08a0697f31e3486dc3be342b67df18a35e5ac9a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/826600/4bfa94a27f83906567a1598bfc3c33d21ef6b9be.jpg"
   },

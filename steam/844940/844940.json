@@ -1,15 +1,9 @@
 {
-  "Dlcs": {},
-  "Name": "Have a N.I.C.E day!",
-  "AppId": "844940",
-  "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/844940/header.jpg?t=1585933468",
-  "Languages": [
-    "english",
-    "german"
-  ],
-  "Platforms": {
-    "windows": true,
-    "mac": false,
-    "linux": false
+  "Dlcs": {
+    "1285980": {
+      "Name": "Have a N.I.C.E day! Soundtrack",
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1285980/header.jpg?t=1586457649",
+      "Type": "music"
+    }
   }
 }

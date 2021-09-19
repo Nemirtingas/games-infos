@@ -148,8 +148,152 @@
     "defaultvalue": 0,
     "displayName": "Golemite Complete",
     "hidden": 0,
-    "description": "beat the game as golemite",
+    "description": "Beat the game as golemite",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1289750/a045c5798c6a8b6eeab4fe940bcc56131768a33d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1289750/0f124e6499654767703bc046e180d5b363d2d223.jpg"
+  },
+  {
+    "name": "AllLore",
+    "defaultvalue": 0,
+    "displayName": "Lore Master",
+    "hidden": 0,
+    "description": "Collect all database entries",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1289750/f9bf163f5df904d917ae09f91a4a02c98ca3c7f9.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1289750/bf62249b06635abb1551048b00929bca49781359.jpg"
+  },
+  {
+    "name": "AnnihilatorComplete",
+    "defaultvalue": 0,
+    "displayName": "The Void",
+    "hidden": 0,
+    "description": "Beat sandbox mode",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1289750/cb472a152d9eb38a0dc1b2a2168d6fdb7a3f1b71.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1289750/f7ec83996840fa8e28f3d82a03bfbc8b7def44a6.jpg"
+  },
+  {
+    "name": "AnnihilatorUnlocked",
+    "defaultvalue": 0,
+    "displayName": "Unlock the box",
+    "hidden": 0,
+    "description": "Unlock sandbox mode",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1289750/674a50bb940b80ae1d5bddaee5aa13a64339f56c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1289750/e7b12574b27de9496bc0faee705eb36ad2bff815.jpg"
+  },
+  {
+    "name": "DroidComplete",
+    "defaultvalue": 0,
+    "displayName": "Droid Complete",
+    "hidden": 0,
+    "description": "Beat the game as a droid",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1289750/dbaa69b2d3734c5f133fac2d14e44e0f1164fc38.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1289750/3cc4ac221028a8ac4a54898df7a6a02a8eb010f5.jpg"
+  },
+  {
+    "name": "DroidUnlocked",
+    "defaultvalue": 0,
+    "displayName": "Unlocked Droid ",
+    "hidden": 0,
+    "description": "Unlock Droid as a playable character",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1289750/ede4c375fbb2bdc30a36f7895014e4b7e0cc6dba.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1289750/3cdaac3aa4ad8be93839db97ace8363639c35d09.jpg"
+  },
+  {
+    "name": "DannyComplete",
+    "defaultvalue": 0,
+    "displayName": "Danny Lives",
+    "hidden": 0,
+    "description": "Survive Operation Zeta as Danny",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1289750/df91ee2b0e064f0385b9d55cf9e9a0150105fe80.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1289750/b3da3ab3c5df22ade53cb78e9f14595fd206c781.jpg"
+  },
+  {
+    "name": "LarryComplete",
+    "defaultvalue": 0,
+    "displayName": "Larry Lives",
+    "hidden": 0,
+    "description": "Survive Operation Zeta as Larry",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1289750/ab71770735ab9cdf7ef2a817ae140da5231115d8.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1289750/e7c48c86102161cd07e35d1570e15ddacc729491.jpg"
+  },
+  {
+    "name": "LarryUnlocked",
+    "defaultvalue": 0,
+    "displayName": "Larry Unlocked",
+    "hidden": 0,
+    "description": "Unlock Larry as a playable Character",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1289750/eb7d2505357604f497917a48deab7577bd80a552.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1289750/bac85d159121e7402522664504aaa7e5cf968412.jpg"
+  },
+  {
+    "name": "DannyUnlocked",
+    "defaultvalue": 0,
+    "displayName": "Danny Unlocked",
+    "hidden": 0,
+    "description": "Unlock Danny as a playable Character",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1289750/c6398dbbab4674be970d1eca8e31293f963bd57d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1289750/ba1e000d944086b7fbabeb6f9b0a9bce0f198f87.jpg"
+  },
+  {
+    "name": "GibbyComplete",
+    "defaultvalue": 0,
+    "displayName": "Gibby Lives",
+    "hidden": 0,
+    "description": "Survive Operation Zeta as Gibby",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1289750/a88504db648a5fe000e086277d8cc29156bc9007.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1289750/800fac96ad0a40f2be66d3aa54b7466db8f981d1.jpg"
+  },
+  {
+    "name": "GibbyUnlocked",
+    "defaultvalue": 0,
+    "displayName": "Unlocked Gibby",
+    "hidden": 0,
+    "description": "Unlock Gibby as a playable character",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1289750/8916bf8a88fae0c5a8b57b0dcc1b2a65a5a0371e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1289750/cd55817dad90cbd139e7f202cf310173d9e6efa4.jpg"
+  },
+  {
+    "name": "Upgrader",
+    "defaultvalue": 0,
+    "displayName": "Upgrader",
+    "hidden": 0,
+    "description": "Buy all of the Upgrades",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1289750/c2a75271dc5e3844766bdd00d6fecb8b38681c7e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1289750/02c978d0b466017c06ae7b6914817d892cbdd1aa.jpg"
+  },
+  {
+    "name": "Flaxon",
+    "defaultvalue": 0,
+    "displayName": "Flaxon",
+    "hidden": 0,
+    "description": "Meet all of the Flaxon Five",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1289750/010bd27c04d552521e26de151650a242a6bbabb8.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1289750/af43c57622678323485a9cddcf7d6128dfb4d85e.jpg"
+  },
+  {
+    "name": "MeowUnlocked",
+    "defaultvalue": 0,
+    "displayName": "Meow Unlocked",
+    "hidden": 0,
+    "description": "Unlock the Meows",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1289750/abbceddee139a1087b0a9028b7ca83a218fa3eda.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1289750/2c781bf193a8e4de168ebe99d935116ddf21434a.jpg"
+  },
+  {
+    "name": "MeowComplete",
+    "defaultvalue": 0,
+    "displayName": "Meow Complete",
+    "hidden": 0,
+    "description": "Complete Operation Zeta as a member of the Meow",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1289750/9bf8d7ae1f49973d6a6634b472204d7e4ebdab02.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1289750/d916c0c6b0634d4df783961d51dfd09df32746eb.jpg"
+  },
+  {
+    "name": "Hatsoff",
+    "defaultvalue": 0,
+    "displayName": "Hats Off",
+    "hidden": 0,
+    "description": "Bring Hatrick his special hat",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1289750/36f279024a42dea6ba31e0b14c5b8f072a09a9a6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1289750/7090c5006647a937a2bb5807a2f91436783bf086.jpg"
   }
 ]

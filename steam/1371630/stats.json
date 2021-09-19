@@ -1,18 +1,27 @@
-﻿{
-  "Log10 of Highest Floor": {
-    "description": "Log10 of Highest Floor",
-    "value": 0
+[
+  {
+    "name": "Log10 of Highest Floor",
+    "defaultvalue": 0,
+    "displayName": "Log10 of Highest Floor"
   },
-  "Highest Prestige Layer": {
-    "description": "Highest Prestige Layer",
-    "value": 0
+  {
+    "name": "Highest Prestige Layer",
+    "defaultvalue": 0,
+    "displayName": "Highest Prestige Layer"
   },
-  "Highest Ascension Layer": {
-    "description": "Highest Ascension Layer",
-    "value": 0
+  {
+    "name": "Highest Ascension Layer",
+    "defaultvalue": 0,
+    "displayName": "Highest Ascension Layer"
   },
-  "Ascension Trial Tiers Completed": {
-    "description": "Ascension Trial Tiers Completed",
-    "value": 0
+  {
+    "name": "Ascension Trial Tiers Completed",
+    "defaultvalue": 0,
+    "displayName": "Ascension Trial Tiers Completed"
+  },
+  {
+    "name": "Highest Transcension Layer",
+    "defaultvalue": 0,
+    "displayName": "Highest Transcension Layer"
   }
-}
+]

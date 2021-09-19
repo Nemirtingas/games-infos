@@ -1,114 +1,142 @@
-﻿{
-  "alpha_in_progress": {
-    "description": "Alpha Open",
-    "value": 0
+[
+  {
+    "name": "alpha_in_progress",
+    "defaultvalue": 0,
+    "displayName": "Alpha Open"
   },
-  "specials_thrown": {
-    "description": "Specials Thrown",
-    "value": 0
+  {
+    "name": "specials_thrown",
+    "defaultvalue": 0,
+    "displayName": "Specials Thrown"
   },
-  "grenades_thrown": {
-    "description": "Grenades Thrown",
-    "value": 0
+  {
+    "name": "grenades_thrown",
+    "defaultvalue": 0,
+    "displayName": "Grenades Thrown"
   },
-  "weapons_dropped": {
-    "description": "Weapons Dropped",
-    "value": 0
+  {
+    "name": "weapons_dropped",
+    "defaultvalue": 0,
+    "displayName": "Weapons Dropped"
   },
-  "shots_hit": {
-    "description": "Shots Hit",
-    "value": 0
+  {
+    "name": "shots_hit",
+    "defaultvalue": 0,
+    "displayName": "Shots Hit"
   },
-  "shots_fired": {
-    "description": "Shots Fired",
-    "value": 0
+  {
+    "name": "shots_fired",
+    "defaultvalue": 0,
+    "displayName": "Shots Fired"
   },
-  "friendlies_killed": {
-    "description": "Friendlies Killed",
-    "value": 0
+  {
+    "name": "friendlies_killed",
+    "defaultvalue": 0,
+    "displayName": "Friendlies Killed"
   },
-  "kills_with_mp40": {
-    "description": "MP40 Kills",
-    "value": 0
+  {
+    "name": "kills_with_mp40",
+    "defaultvalue": 0,
+    "displayName": "MP40 Kills"
   },
-  "kills_with_stg44": {
-    "description": "STG44 Kills",
-    "value": 0
+  {
+    "name": "kills_with_stg44",
+    "defaultvalue": 0,
+    "displayName": "STG44 Kills"
   },
-  "kills_with_kar98": {
-    "description": "Kar98 Kills",
-    "value": 0
+  {
+    "name": "kills_with_kar98",
+    "defaultvalue": 0,
+    "displayName": "Kar98 Kills"
   },
-  "kills_with_scoped_kar98": {
-    "description": "Scoped Kar98 Kills",
-    "value": 0
+  {
+    "name": "kills_with_scoped_kar98",
+    "defaultvalue": 0,
+    "displayName": "Scoped Kar98 Kills"
   },
-  "kills_with_gewer43": {
-    "description": "Gewer43 Kills",
-    "value": 0
+  {
+    "name": "kills_with_gewer43",
+    "defaultvalue": 0,
+    "displayName": "Gewer43 Kills"
   },
-  "kills_with_luger": {
-    "description": "Luger Kills",
-    "value": 0
+  {
+    "name": "kills_with_luger",
+    "defaultvalue": 0,
+    "displayName": "Luger Kills"
   },
-  "kills_with_shotgun": {
-    "description": "Shotgun Kills",
-    "value": 0
+  {
+    "name": "kills_with_shotgun",
+    "defaultvalue": 0,
+    "displayName": "Shotgun Kills"
   },
-  "kills_with_thompson": {
-    "description": "Thompson Kills",
-    "value": 0
+  {
+    "name": "kills_with_thompson",
+    "defaultvalue": 0,
+    "displayName": "Thompson Kills"
   },
-  "kills_with_bar": {
-    "description": "BAR Kills",
-    "value": 0
+  {
+    "name": "kills_with_bar",
+    "defaultvalue": 0,
+    "displayName": "BAR Kills"
   },
-  "kills_with_m1garand": {
-    "description": "M1 Garand Kills",
-    "value": 0
+  {
+    "name": "kills_with_m1garand",
+    "defaultvalue": 0,
+    "displayName": "M1 Garand Kills"
   },
-  "kills_with_m1carbine": {
-    "description": "M1 Carbine Kills",
-    "value": 0
+  {
+    "name": "kills_with_m1carbine",
+    "defaultvalue": 0,
+    "displayName": "M1 Carbine Kills"
   },
-  "kills_with_springfield": {
-    "description": "Springfield Kills",
-    "value": 0
+  {
+    "name": "kills_with_springfield",
+    "defaultvalue": 0,
+    "displayName": "Springfield Kills"
   },
-  "kills_with_m1911": {
-    "description": "M1911 Kills",
-    "value": 0
+  {
+    "name": "kills_with_m1911",
+    "defaultvalue": 0,
+    "displayName": "M1911 Kills"
   },
-  "games_won": {
-    "description": "Games Won",
-    "value": 0
+  {
+    "name": "games_won",
+    "defaultvalue": 0,
+    "displayName": "Games Won"
   },
-  "games_lost": {
-    "description": "Games Lost",
-    "value": 0
+  {
+    "name": "games_lost",
+    "defaultvalue": 0,
+    "displayName": "Games Lost"
   },
-  "games_quit": {
-    "description": "Games Quit",
-    "value": 0
+  {
+    "name": "games_quit",
+    "defaultvalue": 0,
+    "displayName": "Games Quit"
   },
-  "flags_capped": {
-    "description": "Flags Capped",
-    "value": 0
+  {
+    "name": "flags_capped",
+    "defaultvalue": 0,
+    "displayName": "Flags Capped"
   },
-  "enemies_killed": {
-    "description": "Enemies Killed",
-    "value": 0
+  {
+    "name": "enemies_killed",
+    "defaultvalue": 0,
+    "displayName": "Enemies Killed"
   },
-  "deaths": {
-    "description": "Deaths",
-    "value": 0
+  {
+    "name": "deaths",
+    "defaultvalue": 0,
+    "displayName": "Deaths"
   },
-  "bombs_planted": {
-    "description": "Bombs Planted",
-    "value": 0
+  {
+    "name": "bombs_planted",
+    "defaultvalue": 0,
+    "displayName": "Bombs Planted"
   },
-  "bombs_defused": {
-    "description": "Bombs Defused",
-    "value": 0
+  {
+    "name": "bombs_defused",
+    "defaultvalue": 0,
+    "displayName": "Bombs Defused"
   }
-}
+]

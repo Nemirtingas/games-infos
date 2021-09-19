@@ -1,118 +1,147 @@
-﻿{
-  "Stat_Xedur": {
-    "description": "Xedur",
-    "value": 0
+[
+  {
+    "name": "Stat_Xedur",
+    "defaultvalue": 0,
+    "displayName": "Xedur"
   },
-  "Stat_GirTab": {
-    "description": "Gir-Tab",
-    "value": 0
+  {
+    "name": "Stat_GirTab",
+    "defaultvalue": 0,
+    "displayName": "Gir-Tab"
   },
-  "Stat_Hallucination": {
-    "description": "Hallucination",
-    "value": 0
+  {
+    "name": "Stat_Hallucination",
+    "defaultvalue": 0,
+    "displayName": "Hallucination"
   },
-  "Stat_Clone": {
-    "description": "Clone",
-    "value": 0
+  {
+    "name": "Stat_Clone",
+    "defaultvalue": 0,
+    "displayName": "Clone"
   },
-  "Stat_Ukhu": {
-    "description": "Ukhu",
-    "value": 0
+  {
+    "name": "Stat_Ukhu",
+    "defaultvalue": 0,
+    "displayName": "Ukhu"
   },
-  "Stat_Sentinel": {
-    "description": "Sentinel",
-    "value": 0
+  {
+    "name": "Stat_Sentinel",
+    "defaultvalue": 0,
+    "displayName": "Sentinel"
   },
-  "Stat_Athetos": {
-    "description": "Athetos",
-    "value": 0
+  {
+    "name": "Stat_Athetos",
+    "defaultvalue": 0,
+    "displayName": "Athetos"
   },
-  "Stat_Items": {
-    "description": "Items",
-    "value": 0
+  {
+    "name": "Stat_Items",
+    "defaultvalue": 0,
+    "displayName": "Items"
   },
-  "Stat_Map": {
-    "description": "Map",
-    "value": 0
+  {
+    "name": "Stat_Map",
+    "defaultvalue": 0,
+    "displayName": "Map"
   },
-  "Stat_Overclocked": {
-    "description": "Overclocked",
-    "value": 0
+  {
+    "name": "Stat_Overclocked",
+    "defaultvalue": 0,
+    "displayName": "Overclocked"
   },
-  "Stat_Weapons": {
-    "description": "Weapons",
-    "value": 0
+  {
+    "name": "Stat_Weapons",
+    "defaultvalue": 0,
+    "displayName": "Weapons"
   },
-  "Stat_Tools": {
-    "description": "Tools",
-    "value": 0
+  {
+    "name": "Stat_Tools",
+    "defaultvalue": 0,
+    "displayName": "Tools"
   },
-  "Stat_Health": {
-    "description": "Health",
-    "value": 0
+  {
+    "name": "Stat_Health",
+    "defaultvalue": 0,
+    "displayName": "Health"
   },
-  "Stat_Invincible": {
-    "description": "Invincible",
-    "value": 0
+  {
+    "name": "Stat_Invincible",
+    "defaultvalue": 0,
+    "displayName": "Invincible"
   },
-  "Stat_Speedrunner": {
-    "description": "Speedrunner",
-    "value": 0
+  {
+    "name": "Stat_Speedrunner",
+    "defaultvalue": 0,
+    "displayName": "Speedrunner"
   },
-  "Stat_Hard": {
-    "description": "Hard",
-    "value": 0
+  {
+    "name": "Stat_Hard",
+    "defaultvalue": 0,
+    "displayName": "Hard"
   },
-  "Stat_Hack": {
-    "description": "Hack",
-    "value": 0
+  {
+    "name": "Stat_Hack",
+    "defaultvalue": 0,
+    "displayName": "Hack"
   },
-  "Stat_Hacker": {
-    "description": "Hacker",
-    "value": 0
+  {
+    "name": "Stat_Hacker",
+    "defaultvalue": 0,
+    "displayName": "Hacker"
   },
-  "Stat_Power": {
-    "description": "Power",
-    "value": 0
+  {
+    "name": "Stat_Power",
+    "defaultvalue": 0,
+    "displayName": "Power"
   },
-  "Stat_LowPercent": {
-    "description": "Low Percent",
-    "value": 0
+  {
+    "name": "Stat_LowPercent",
+    "defaultvalue": 0,
+    "displayName": "Low Percent"
   },
-  "Stat_SecretWorld": {
-    "description": "SecretWorld",
-    "value": 0
+  {
+    "name": "Stat_SecretWorld",
+    "defaultvalue": 0,
+    "displayName": "SecretWorld"
   },
-  "Stat_Pacifist": {
-    "description": "Pacifist",
-    "value": 0
+  {
+    "name": "Stat_Pacifist",
+    "defaultvalue": 0,
+    "displayName": "Pacifist"
   },
-  "Stat_Bubbles": {
-    "description": "Bubbles",
-    "value": 0
+  {
+    "name": "Stat_Bubbles",
+    "defaultvalue": 0,
+    "displayName": "Bubbles"
   },
-  "Stat_Bricks": {
-    "description": "Bricks",
-    "value": 0
+  {
+    "name": "Stat_Bricks",
+    "defaultvalue": 0,
+    "displayName": "Bricks"
   },
-  "Stat_Cryptologist": {
-    "description": "Cryptologist",
-    "value": 0
+  {
+    "name": "Stat_Cryptologist",
+    "defaultvalue": 0,
+    "displayName": "Cryptologist"
   },
-  "Stat_Mercy": {
-    "description": "Mercy",
-    "value": 0
+  {
+    "name": "Stat_Mercy",
+    "defaultvalue": 0,
+    "displayName": "Mercy"
   },
-  "Stat_Notes": {
-    "description": "Notes",
-    "value": 0
+  {
+    "name": "Stat_Notes",
+    "defaultvalue": 0,
+    "displayName": "Notes"
   },
-  "Stat_Telal": {
-    "description": "Telal",
-    "value": 0
+  {
+    "name": "Stat_Telal",
+    "defaultvalue": 0,
+    "displayName": "Telal"
   },
-  "Stat_Uruku": {
-    "description": "Uruku",
-    "value": 0
+  {
+    "name": "Stat_Uruku",
+    "defaultvalue": 0,
+    "displayName": "Uruku"
   }
-}
+]

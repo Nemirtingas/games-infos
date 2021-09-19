@@ -752,9 +752,9 @@
   {
     "name": "ACH_SHARD_SHARP",
     "defaultvalue": 0,
-    "displayName": "Razor Sharp",
+    "displayName": "MOAR POWER!!!",
     "hidden": 0,
-    "description": "Enchant a sword with a Sharpened meteor shard.",
+    "description": "Enchant a sword with a Power meteor shard.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/755410/3a32d1d52735a638f312d5267b192df2d85260b4.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/755410/4deec4d52c7dc3ae032d276e9ec6c4f8fee6acb3.jpg"
   },
@@ -931,7 +931,7 @@
     "defaultvalue": 0,
     "displayName": "Vampire",
     "hidden": 0,
-    "description": "Unlock the Lifesteal spell.",
+    "description": "Unlock the Vampiric Aura spell.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/755410/61746656a7d7b3f001658dd46940068a48c91ccc.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/755410/8a78913df1caf3fa4b41081e9f301b746ac95ad9.jpg"
   },
@@ -970,5 +970,166 @@
     "description": "Unlock the Stone Skin spell.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/755410/8f9657e85f3a994bba58a1452c290b4625fc394b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/755410/bf2bbf71eb4544a33918aa595f0a672851e1ff6d.jpg"
+  },
+  {
+    "name": "ACH_HOOPS_10",
+    "defaultvalue": 0,
+    "displayName": "Underachiever (Magic)",
+    "hidden": 0,
+    "description": "Move the ball through 10 hoops at the merchant's kinesis contraption.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/755410/b1a29a97a625b328aac50d005d7a2560f814fdb4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/755410/8cf96bfa5fa3533eb35e2975a856c02b3126c4d2.jpg"
+  },
+  {
+    "name": "ACH_HOOPS_15",
+    "defaultvalue": 0,
+    "displayName": "Contender (Magic)",
+    "hidden": 0,
+    "description": "Move the ball through 15 hoops at the merchant's kinesis contraption.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/755410/12126cce529958a44a36bc10d19736952efd3e37.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/755410/944ee2c6bcbce9a129db1bbdd00dbb2f7ef3cfde.jpg"
+  },
+  {
+    "name": "ACH_HOOPS_20",
+    "defaultvalue": 0,
+    "displayName": "Overachiever (Magic)",
+    "hidden": 0,
+    "description": "Move the ball through 20 hoops at the merchant's kinesis contraption.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/755410/a2566e1d82c7b76e388c2e6ddfd87835767be5a4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/755410/e70d3db8957b969f64ab383f75fce3f5cd06c81a.jpg"
+  },
+  {
+    "name": "ACH_TREE_EASY",
+    "defaultvalue": 0,
+    "displayName": "Lumberjack (Novice)",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/755410/cd6728947e7bdcb5f2bfbc80d28cc7b5b878d16b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/755410/ade7d49c3c76c9082f620fe8ef63c1a3a6d14cb4.jpg"
+  },
+  {
+    "name": "ACH_TREE_NORMAL",
+    "defaultvalue": 0,
+    "displayName": "Lumberjack (Apprentice)",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/755410/d24769597273c4769a624e3485150d1df9cb7013.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/755410/e05a732c99c6bd2007cb7abb5ba4a6bdbd684f9f.jpg"
+  },
+  {
+    "name": "ACH_TREE_HARD",
+    "defaultvalue": 0,
+    "displayName": "Lumberjack (Master)",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/755410/1785e9ff187df63493bfcfed7dd1d52583ccae8f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/755410/bdf405c5ad1ce9a07c10bfca090a0736b7c8a765.jpg"
+  },
+  {
+    "name": "ACH_ELEMENTAL_EASY",
+    "defaultvalue": 0,
+    "displayName": "Elemental (Novice)",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/755410/1c8eedbe9d596cf3d7d4c8683d2c5e0997a6a17a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/755410/1bc3e026a0589fb0dcdf4afb55c0ee419e35bf8d.jpg"
+  },
+  {
+    "name": "ACH_ELEMENTAL_NORMAL",
+    "defaultvalue": 0,
+    "displayName": "Elemental (Apprentice)",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/755410/96f6c42bc2fcec289f0eee22f2d5980f57e4b329.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/755410/27d94d42cfb1939b570dc2c13629d5d38b5db1e0.jpg"
+  },
+  {
+    "name": "ACH_ELEMENTAL_HARD",
+    "defaultvalue": 0,
+    "displayName": "Elemental (Master)",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/755410/7326e37c8f43fcf198186ce151032cc50c79d32e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/755410/dd6e2abed0240b7533c1377d3dd6059e0294d1e6.jpg"
+  },
+  {
+    "name": "ACH_PLANETARIUM_1",
+    "defaultvalue": 0,
+    "displayName": "Closed Circuit",
+    "hidden": 0,
+    "description": "Overpower the first crystal power source in the Otherworld.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/755410/29648ff3b69b8e6c3ba18690cb8e73889bf64b0d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/755410/a04e082c9029e9bdb151e8aa8df4daf801b3a22a.jpg"
+  },
+  {
+    "name": "ACH_PLANETARIUM_2",
+    "defaultvalue": 0,
+    "displayName": "Master of Matter",
+    "hidden": 0,
+    "description": "Overpower the second crystal power source in the Otherworld.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/755410/463ca731011b24620671959b0a837f018e8bb2c9.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/755410/474498471889446e8c2c1d67d6e8a36789fa8aa4.jpg"
+  },
+  {
+    "name": "ACH_DRAGORE_EASY",
+    "defaultvalue": 0,
+    "displayName": "Alas, Vengeance! (Novice)",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/755410/b0649cb08dc1af242dd0d490bd408f4d1b58ea27.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/755410/34d78c2be59f3f0feb429fa5df874ab5087aae8e.jpg"
+  },
+  {
+    "name": "ACH_DRAGORE_NORMAL",
+    "defaultvalue": 0,
+    "displayName": "Alas, Vengeance! (Apprentice)",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/755410/edb691297e011d2f262772f076d7a8bafb670412.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/755410/3e13748d0a2fd66715438dea0ca75b507f15ef0a.jpg"
+  },
+  {
+    "name": "ACH_DRAGORE_HARD",
+    "defaultvalue": 0,
+    "displayName": "Alas, Vengeance! (Master)",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/755410/3dbfb02c1f91d8780874af93603956fe53426e56.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/755410/5db52c55e91a7fe322cfcd6f73dbbb78fcba8add.jpg"
+  },
+  {
+    "name": "ACH_WEAPON_4",
+    "defaultvalue": 0,
+    "displayName": "Mystical Archer",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/755410/7b67cc7ea883d75c8f682ca3f1fd636a52889bba.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/755410/3f022a66a678817da03eff01c0455fa0ab45c913.jpg"
+  },
+  {
+    "name": "ACH_BLOOD_GOLD",
+    "defaultvalue": 0,
+    "displayName": "Too Hot To Handle!",
+    "hidden": 0,
+    "description": "Craft the Ring of Burning Blood.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/755410/95e130d084dd7085f71a196e5b37e056d28a75b2.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/755410/f35bbb3a956023bea5413bd959a623dbd07a98ed.jpg"
+  },
+  {
+    "name": "ACH_BLOOD_IRON",
+    "defaultvalue": 0,
+    "displayName": "Unbreakable",
+    "hidden": 0,
+    "description": "Craft the Ring of Iron Blood.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/755410/89f3fc49142b8ce8eb21059e2326c68f405bd761.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/755410/f35bbb3a956023bea5413bd959a623dbd07a98ed.jpg"
+  },
+  {
+    "name": "ACH_EXECUTION_GOLD",
+    "defaultvalue": 0,
+    "displayName": "Shots On Shots",
+    "hidden": 0,
+    "description": "Craft the Scepter Master's Band.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/755410/df713c7b8db8c8421f7eab671a827145d4ee7f62.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/755410/f35bbb3a956023bea5413bd959a623dbd07a98ed.jpg"
+  },
+  {
+    "name": "ACH_EXECUTION_IRON",
+    "defaultvalue": 0,
+    "displayName": "Enchantment Mastery",
+    "hidden": 0,
+    "description": "Craft the Ring of Steel Resilience.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/755410/4309efd9e128eec4e0c0f8efb403001dff7c9c3b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/755410/f35bbb3a956023bea5413bd959a623dbd07a98ed.jpg"
   }
 ]

@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "name": "ca_visit_cities",
     "defaultvalue": 0,
@@ -202,7 +202,7 @@
     "defaultvalue": 0,
     "displayName": "How Heavy Am I?!",
     "hidden": 0,
-    "description": "Use truck scale or weigh station with gross vehicle weight of at least 170,000 lbs (requires Heavy Cargo Pack DLC)",
+    "description": "Use truck scale or weigh station with gross vehicle weight of at least 175,000 lbs (requires Heavy Cargo Pack DLC)",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/270880/7f527a507155b2d47ca481f63a0cc368d248135c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/270880/20497afe2c680da8eb01dc2fc7b2fe951e3c93d4.jpg"
   },
@@ -508,7 +508,7 @@
     "defaultvalue": 0,
     "displayName": "Some Like It Salty",
     "hidden": 0,
-    "description": "Take a job from each company located in Salt Lake City (requires Utah DLC)",
+    "description": "Take a job from each branch of each company located in Salt Lake City (requires Utah DLC)",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/270880/6a9a30e677a6ae4b27e090f269b626beddc8c2e7.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/270880/11255c002c1c746e55a1bb8f37cbc6e09efa6513.jpg"
   },
@@ -553,7 +553,7 @@
     "defaultvalue": 0,
     "displayName": "The Director",
     "hidden": 0,
-    "description": "View cutscenes of all the sightseeing spots in Idaho (requires Idaho DLC)",
+    "description": "View cutscenes from all viewpoints in Idaho (requires Idaho DLC)",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/270880/ec9cdcecdc9c790e641bf88191868d6b2d681a23.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/270880/c0f5b32ceb7b7f76260762dfc4477b940dc2716a.jpg"
   },
@@ -565,5 +565,113 @@
     "description": "Visit 45th parallel in Idaho - a halfway between the Equator and the North Pole (requires Idaho DLC)",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/270880/f89f652734b4a051ea8bd545a08c6d74cc1d93db.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/270880/a7d92c433adca71f8921dc11365f91a2082e0479.jpg"
+  },
+  {
+    "name": "co_visit_cities",
+    "defaultvalue": 0,
+    "displayName": "The Centennial State",
+    "hidden": 0,
+    "description": "Discover every city in Colorado (requires Colorado DLC)",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/270880/ba6a02d4d362206d6dafc0f052dc111734eb0451.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/270880/8d406075184e6718a323cff1d6355cdfccd387e5.jpg"
+  },
+  {
+    "name": "co_us550",
+    "defaultvalue": 0,
+    "displayName": "Million Dollar Highway",
+    "hidden": 0,
+    "description": "Drive along this famously scenic and thrilling section of the U.S. 550 in Colorado (requires Colorado DLC)",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/270880/d69e9fc0016b9fd399676b8adb919a501e26629e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/270880/e69200b2bf32cdabbdf386f5e6293c3b21a59e37.jpg"
+  },
+  {
+    "name": "co_tunnels",
+    "defaultvalue": 0,
+    "displayName": "Cruising High Below",
+    "hidden": 0,
+    "description": "Drive through the Eisenhower-Johnson Memorial Tunnel, the highest point on the US Interstate Highway System, in both directions (requires Colorado DLC)",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/270880/6bb74882b0f309f20ab878be86d106cc1c6915fc.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/270880/9abcee080bc0802fd525a6f5bee6ef4a2458ff5d.jpg"
+  },
+  {
+    "name": "co_wind_turbine",
+    "defaultvalue": 0,
+    "displayName": "Energy From Above",
+    "hidden": 0,
+    "description": "Deliver a Tower and Nacelle to both Vitas Power wind turbine construction sites in Colorado (requires Colorado DLC)",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/270880/707ec0751cca190fe136272d6dfdebcc95b9620e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/270880/f0359f4d98d3bc05d4eab11db81fffd1e3e2369f.jpg"
+  },
+  {
+    "name": "co_gold_mine",
+    "defaultvalue": 0,
+    "displayName": "Gold Rush",
+    "hidden": 0,
+    "description": "Deliver 10 loads to or from the NAMIQ company at the gold mine in Colorado (requires Colorado DLC)",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/270880/4a5dbbc4bb4ad893c93a6bbee85cd5c21cfb37b1.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/270880/cf098f75513dce61db4ed7c2fb8a5117526dbcf5.jpg"
+  },
+  {
+    "name": "co_denver_airport",
+    "defaultvalue": 0,
+    "displayName": "Up and Away",
+    "hidden": 0,
+    "description": "Complete 10 deliveries to Denver Airport (requires Colorado DLC)",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/270880/37b491b31cba2a743ee3f4cfda97e82d87cce678.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/270880/b624752792e0a6389217d3491bdbe23b7e6c1ef1.jpg"
+  },
+  {
+    "name": "co_four_corners",
+    "defaultvalue": 0,
+    "displayName": "Four Corners",
+    "hidden": 0,
+    "description": "Visit the famous Four Corners Monument that marks where the states of Arizona, Colorado, New Mexico, and Utah meet (requires Colorado DLC)",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/270880/510468f28b7c87426f2ff8ce3fa83110b5cbd10e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/270880/34e8972ea1a318101df7f71d5d9d2d19f59e4c86.jpg"
+  },
+  {
+    "name": "wy_visit_cities",
+    "defaultvalue": 0,
+    "displayName": "The Equality State",
+    "hidden": 0,
+    "description": "Discover every city in Wyoming (requires Wyoming DLC)",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/270880/38d66c933327e29a5381e49f637e54c0dc32171b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/270880/6556e2ee3c38221a4b5c0203f3981f62767f24b4.jpg"
+  },
+  {
+    "name": "wy_cutscenes",
+    "defaultvalue": 0,
+    "displayName": "Over Plains and Mountains",
+    "hidden": 0,
+    "description": "View cutscenes from all viewpoints in Wyoming DLC (requires Wyoming DLC)",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/270880/a866bcde7a8cbeb1c2853e15067a3d35e1e4dd6c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/270880/ca85d32718966a00ef087d4ff15d59a8040ec856.jpg"
+  },
+  {
+    "name": "wy_buford",
+    "defaultvalue": 0,
+    "displayName": "Population 1",
+    "hidden": 0,
+    "description": "Discover and visit the town of Buford (requires Wyoming DLC)",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/270880/088182ab603ef06644538b965f2e26adb78786c3.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/270880/25f590f4cb1fc3cbb0dce200f3c0689f2e7905e7.jpg"
+  },
+  {
+    "name": "wy_train",
+    "defaultvalue": 0,
+    "displayName": "Big Boy",
+    "hidden": 0,
+    "description": "Deliver Train Parts, Tamping Machine and Rails to or from the rail yard in Cheyenne (requires Wyoming DLC)",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/270880/ffd7f92653bb254842108f49e6863b890ccb6abc.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/270880/065dd82cfbc3689e03eea6d81d069eac89ce5576.jpg"
+  },
+  {
+    "name": "wy_cattle",
+    "defaultvalue": 0,
+    "displayName": "Buffalo Bill",
+    "hidden": 0,
+    "description": "Complete 10 perfect cattle deliveries (no damage, no fines, in-time) to livestock auctions in Wyoming (requires Wyoming DLC)",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/270880/f6dd3099d1553c8c3e86cf71935b9d931e94a16f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/270880/b9dd66e91d943a8ed2496079d85bb1ab73e81ede.jpg"
   }
 ]

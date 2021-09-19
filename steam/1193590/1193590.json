@@ -1,10 +1,20 @@
 {
-  "Dlcs": {},
+  "Dlcs": {
+    "1724710": {
+      "Name": "Abomi Nation Soundtrack",
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1724710/header.jpg?t=1630600318",
+      "Type": "music"
+    }
+  },
   "Name": "Abomi Nation",
   "AppId": "1193590",
-  "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/1193590/header.jpg?t=1596210283",
+  "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1193590/header.jpg?t=1630617699",
   "Languages": [
-    "english"
+    "english",
+    "japanese",
+    "korean",
+    "schinese",
+    "tchinese"
   ],
   "Platforms": {
     "windows": true,

@@ -1,178 +1,222 @@
-﻿{
-  "BestReplayTick": {
-    "description": "",
-    "value": 0
+[
+  {
+    "name": "BestReplayTick",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "GalleryItem1": {
-    "description": "",
-    "value": 0
+  {
+    "name": "GalleryItem1",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "GalleryItem2": {
-    "description": "",
-    "value": 0
+  {
+    "name": "GalleryItem2",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "GalleryItem3": {
-    "description": "",
-    "value": 0
+  {
+    "name": "GalleryItem3",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "GalleryItem4": {
-    "description": "",
-    "value": 0
+  {
+    "name": "GalleryItem4",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "GalleryItem5": {
-    "description": "",
-    "value": 0
+  {
+    "name": "GalleryItem5",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "GalleryItem6": {
-    "description": "",
-    "value": 0
+  {
+    "name": "GalleryItem6",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "GalleryItem7": {
-    "description": "",
-    "value": 0
+  {
+    "name": "GalleryItem7",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "GalleryItem8": {
-    "description": "",
-    "value": 0
+  {
+    "name": "GalleryItem8",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "LiveStreamingFlag": {
-    "description": "",
-    "value": 0
+  {
+    "name": "LiveStreamingFlag",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Country": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Country",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Rank": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Rank",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "RankPoint": {
-    "description": "",
-    "value": 0
+  {
+    "name": "RankPoint",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "RankWin": {
-    "description": "",
-    "value": 0
+  {
+    "name": "RankWin",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "RankLoss": {
-    "description": "",
-    "value": 0
+  {
+    "name": "RankLoss",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "RankDraw": {
-    "description": "",
-    "value": 0
+  {
+    "name": "RankDraw",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "RankRate": {
-    "description": "",
-    "value": 0
+  {
+    "name": "RankRate",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "RankMaxWins": {
-    "description": "",
-    "value": 0
+  {
+    "name": "RankMaxWins",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "RankSuccessRate": {
-    "description": "",
-    "value": 0
+  {
+    "name": "RankSuccessRate",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "RankLimit": {
-    "description": "",
-    "value": 0
+  {
+    "name": "RankLimit",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Icon": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Icon",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "NetworkTitle": {
-    "description": "",
-    "value": 0
+  {
+    "name": "NetworkTitle",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "BestReplayTick_2": {
-    "description": "",
-    "value": 0
+  {
+    "name": "BestReplayTick_2",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "GalleryItem1_2": {
-    "description": "",
-    "value": 0
+  {
+    "name": "GalleryItem1_2",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "GalleryItem2_2": {
-    "description": "",
-    "value": 0
+  {
+    "name": "GalleryItem2_2",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "GalleryItem3_2": {
-    "description": "",
-    "value": 0
+  {
+    "name": "GalleryItem3_2",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "GalleryItem4_2": {
-    "description": "",
-    "value": 0
+  {
+    "name": "GalleryItem4_2",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "GalleryItem5_2": {
-    "description": "",
-    "value": 0
+  {
+    "name": "GalleryItem5_2",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "GalleryItem6_2": {
-    "description": "",
-    "value": 0
+  {
+    "name": "GalleryItem6_2",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "GalleryItem7_2": {
-    "description": "",
-    "value": 0
+  {
+    "name": "GalleryItem7_2",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "GalleryItem8_2": {
-    "description": "",
-    "value": 0
+  {
+    "name": "GalleryItem8_2",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "LiveStreamingFlag_2": {
-    "description": "",
-    "value": 0
+  {
+    "name": "LiveStreamingFlag_2",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Country_2": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Country_2",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Rank_2": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Rank_2",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "RankPoint_2": {
-    "description": "",
-    "value": 0
+  {
+    "name": "RankPoint_2",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "RankWin_2": {
-    "description": "",
-    "value": 0
+  {
+    "name": "RankWin_2",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "RankLoss_2": {
-    "description": "",
-    "value": 0
+  {
+    "name": "RankLoss_2",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "RankDraw_2": {
-    "description": "",
-    "value": 0
+  {
+    "name": "RankDraw_2",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "RankRate_2": {
-    "description": "",
-    "value": 0
+  {
+    "name": "RankRate_2",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "RankMaxWins_2": {
-    "description": "",
-    "value": 0
+  {
+    "name": "RankMaxWins_2",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "RankSuccessRate_2": {
-    "description": "",
-    "value": 0
+  {
+    "name": "RankSuccessRate_2",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "RankLimit_2": {
-    "description": "",
-    "value": 0
+  {
+    "name": "RankLimit_2",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Icon_2": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Icon_2",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "NetworkTitle_2": {
-    "description": "",
-    "value": 0
+  {
+    "name": "NetworkTitle_2",
+    "defaultvalue": 0,
+    "displayName": ""
   }
-}
+]

@@ -1,10 +1,10 @@
-﻿[
+[
   {
     "name": "Revanchist",
     "defaultvalue": 0,
     "displayName": "Personal Revenge",
     "hidden": 0,
-    "description": "Defeat an old enemy",
+    "description": "Settle an old score",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/269190/d2dda137d51641b4c1936925639abb021f2fa578.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/269190/0837af3d96f307294f1d42dc9d2e87850d03447b.jpg"
   },
@@ -29,7 +29,7 @@
   {
     "name": "NewCitizen",
     "defaultvalue": 0,
-    "displayName": "New Citizen",
+    "displayName": "Footsteps on the City Floor",
     "hidden": 0,
     "description": "Reach Herelsor",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/269190/96417f95f2dca8a3e2710188b3299149af6834cf.jpg",
@@ -38,20 +38,11 @@
   {
     "name": "ForestAggressor",
     "defaultvalue": 0,
-    "displayName": "Bionic Encounter",
+    "displayName": "Dancing with Thunder",
     "hidden": 0,
     "description": "Defeat the Corroded Crocta",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/269190/2ebd94cab7c91c19545449271ab5697f61c7b5aa.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/269190/e164eeba3d52fff5b7662d6874f3b7c474e158de.jpg"
-  },
-  {
-    "name": "Alchemist",
-    "defaultvalue": 0,
-    "displayName": "Alchemist",
-    "hidden": 0,
-    "description": "Craft an item with the maximum rarity",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/269190/a865b7d7b217cca8e7a1e5e28b2741b577f1e43e.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/269190/51993c6714512fa9f9c0975979e45c4aa496cd3f.jpg"
   },
   {
     "name": "LegendaryBeasts1",
@@ -70,15 +61,6 @@
     "description": "Find the first 10 Crystal Fruits",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/269190/2ff697fbff75372ae5313516cac37e2fd3f41cb5.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/269190/d1e1f7ad824f94e0a3dac59d21e6830382947dc8.jpg"
-  },
-  {
-    "name": "Nuggets",
-    "defaultvalue": 0,
-    "displayName": "Seasoned Trainer",
-    "hidden": 0,
-    "description": "Train a hopeless citizen",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/269190/428b20f6760f1ad89dd1211a7d114badef05f477.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/269190/f78f4e12089092f7117c07a6010452d1cb38d3dc.jpg"
   },
   {
     "name": "Prescience",
@@ -110,7 +92,7 @@
   {
     "name": "FatBossSlim",
     "defaultvalue": 0,
-    "displayName": "Fat Boss Slim",
+    "displayName": "Considerable Hunger",
     "hidden": 0,
     "description": "Defeat the corroded Morom",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/269190/d568b5d9bb6c44572bbed1caf7d0b136963de49b.jpg",
@@ -130,18 +112,9 @@
     "defaultvalue": 0,
     "displayName": "Galvanized Citizens",
     "hidden": 0,
-    "description": "Attend Selene's Speech",
+    "description": "The gears have been set into motion…",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/269190/abc6d0ee237dc28673c92397d2aea15eedb71c89.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/269190/03108cf73ee4d7ea85247daeafea1ae6203c70d3.jpg"
-  },
-  {
-    "name": "AmbushOlphara",
-    "defaultvalue": 0,
-    "displayName": "Ambush from Avaris",
-    "hidden": 0,
-    "description": "Survive an Ambush",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/269190/7172940ebb5ed704aa090fd884b9bda63b46da2c.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/269190/6ab56fadd83c88ec72de5f9cdaa99ecfeeae7cb6.jpg"
   },
   {
     "name": "Chapter2",
@@ -166,7 +139,7 @@
     "defaultvalue": 0,
     "displayName": "Weakness Finder",
     "hidden": 0,
-    "description": "Analyze Enemies' Weaknesses 40 Times",
+    "description": "Try to find the enemy’s weakness 40 times.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/269190/687301fbc0f5c022e5dec71d492760f820719a9a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/269190/8d7d22f077ff15b8640bf9120f4b0c0e0da44617.jpg"
   },
@@ -175,18 +148,9 @@
     "defaultvalue": 0,
     "displayName": "Crystal Fruits II",
     "hidden": 0,
-    "description": "Find 20 Crystal Fruits",
+    "description": "Find 50 Crystal Fruits",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/269190/37aaf3241e4faff1934ea74e32a7490bf3cd9252.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/269190/fdfad5edb4f87e650658f9bfb1aa63ffa0b63293.jpg"
-  },
-  {
-    "name": "NekarooSpeedrun1",
-    "defaultvalue": 0,
-    "displayName": "Gotta go fast",
-    "hidden": 0,
-    "description": "Win 10 Nekaroo Races",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/269190/c639239991f2c55584f98407cd349a25b53a0ac4.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/269190/9cd807e5e82e3cd1a46fb4002b0bebdb8f48d7c1.jpg"
   },
   {
     "name": "PuzzleEnthusiast1",
@@ -254,9 +218,9 @@
   {
     "name": "UmbraWorshipper",
     "defaultvalue": 0,
-    "displayName": "Umbra Worshipper",
+    "displayName": "To Revive A Goddess",
     "hidden": 0,
-    "description": "Revive a Goddess",
+    "description": "A Mother’s Legacy",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/269190/35dfbef707f275ec87f3742182d0312a064b285a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/269190/2f6f89bcd146a73427fcc9846c562d4b88082c37.jpg"
   },
@@ -265,7 +229,7 @@
     "defaultvalue": 0,
     "displayName": "Old Master",
     "hidden": 0,
-    "description": "Help an Old Master",
+    "description": "Dedicated your time to entertain an old man",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/269190/e6ed892eefa80ff92d108abfe84fe848dd622515.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/269190/02955680b9c696ae7466bc5f7b95d6764508665a.jpg"
   },
@@ -274,7 +238,7 @@
     "defaultvalue": 0,
     "displayName": "Welcome To Tyr Caelum",
     "hidden": 0,
-    "description": "Reach Tyr Caelum",
+    "description": "The Ribcage of a Fallen Giant",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/269190/ce768bb4a03aee7f11d32c8cd51e37b4bd3ffefb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/269190/d51197b10147d9866817dc5c2250c48dcc39b322.jpg"
   },
@@ -283,16 +247,16 @@
     "defaultvalue": 0,
     "displayName": "The Resurgent",
     "hidden": 0,
-    "description": "Find the resurgent",
+    "description": "The man who survived the Corrosion",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/269190/d0e234c0ef909720e1b0c46aee2594e3331e5724.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/269190/22a297153a0ae8fdd0ac54646d83ff62e88fde8c.jpg"
   },
   {
     "name": "Gardener",
     "defaultvalue": 0,
-    "displayName": "Gardener",
+    "displayName": "Gardening 101",
     "hidden": 0,
-    "description": "Defeat the corroded plant",
+    "description": "Defeat the Corroded Nephenta",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/269190/48fa46eb1c2fc40802abc0daf096aa6366a51b4c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/269190/02f1abbd18377152c671782bd8ba9932afb6c0b1.jpg"
   },
@@ -324,15 +288,6 @@
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/269190/6d3e8b7e0ad4ff67ebe5c9a192482e079d794a37.jpg"
   },
   {
-    "name": "Parricide",
-    "defaultvalue": 0,
-    "displayName": "Parricide",
-    "hidden": 0,
-    "description": "Destroy the next generation of Spiderbaboons",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/269190/c0e1c97d755ee05b68b68bd6d797cdb809ed0598.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/269190/37e33c1e4c2d40cbf2343d06cc20b6f8c697e1ac.jpg"
-  },
-  {
     "name": "LegendaryBeasts2",
     "defaultvalue": 0,
     "displayName": "Legendary Beasts II",
@@ -346,7 +301,7 @@
     "defaultvalue": 0,
     "displayName": "Crystal Fruits III",
     "hidden": 0,
-    "description": "Find 30 Crystal Fruits",
+    "description": "Find 75 Crystal Fruits",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/269190/913aae43973db077c07dbe63e27f90b020552200.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/269190/98fd85fd9b014ee721735e708107cb6a9e1171cf.jpg"
   },
@@ -355,7 +310,7 @@
     "defaultvalue": 0,
     "displayName": "Crystal Fruits IV",
     "hidden": 0,
-    "description": "Find 40 Crystal Fruits",
+    "description": "Find 100 Crystal Fruits",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/269190/1c6f9b5719b460eb2d4c0dc44536bcefd06ad81d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/269190/69bddf26a9b9ef574f71c3e795831544161be7c7.jpg"
   },
@@ -373,7 +328,7 @@
     "defaultvalue": 0,
     "displayName": "Stalker",
     "hidden": 0,
-    "description": "Destroy the Archelite Stalker",
+    "description": "A Soldier’s Fate",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/269190/de17dfb2ee2c0e5f572e95eb2856aad721d6374e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/269190/44d5bdcda8c77ef91a53a4cba38b91031d30f372.jpg"
   },
@@ -391,54 +346,18 @@
     "defaultvalue": 0,
     "displayName": "Prologue",
     "hidden": 0,
-    "description": "Complete the prologue",
+    "description": "Turn your back on the war",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/269190/ebfa47a0315221e74cf009eb4d3a28aea2511829.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/269190/3b9c40ae6bd7cbdeed2c4743e6c0e571df25295e.jpg"
   },
   {
     "name": "HideousTerror",
     "defaultvalue": 0,
-    "displayName": "Hideous Terror",
+    "displayName": "The Price for Defacement",
     "hidden": 0,
-    "description": "Defeat the Conclave of the clockwork field",
+    "description": "Defeat the dreaded Borborygm",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/269190/704b63e66cccbfd79a1ae38a3198b9963db74e48.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/269190/446942649d97d5ca1bccf87e26450a42394c394e.jpg"
-  },
-  {
-    "name": "ImpendingAttack",
-    "defaultvalue": 0,
-    "displayName": "Impending Attack",
-    "hidden": 0,
-    "description": "Reach Herelsor and find a way to reach Avaris",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/269190/8ef3a7a094bd5d5914a3e979a735b0439ba128fa.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/269190/22bd7caadbf46b4f4a12c82be3a1df56b0c937e8.jpg"
-  },
-  {
-    "name": "Terminal",
-    "defaultvalue": 0,
-    "displayName": "Terminal",
-    "hidden": 0,
-    "description": "Hack the Archelite terminal",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/269190/dd8dc79d317995309d4ca076e928865873968098.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/269190/8da8ac6b653d91d1e366b946dbfaedd14bf42781.jpg"
-  },
-  {
-    "name": "Gladisk",
-    "defaultvalue": 0,
-    "displayName": "GLaDISK",
-    "hidden": 0,
-    "description": "Survive the Archelite spaceship traps and defeat the ancient AI",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/269190/256497b73024ad61d1ebf8cdfcb22226ca4464ce.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/269190/e1a2a5030a72328e212cbe50b8dc43e184fc25f5.jpg"
-  },
-  {
-    "name": "CrystalFruits5",
-    "defaultvalue": 0,
-    "displayName": "Crystal Fruits V",
-    "hidden": 0,
-    "description": "Find 50 Crystal Fruits",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/269190/2cceeb5cb5c96dd901441fd9f2538ced39c0dd4d.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/269190/0eafe31c252167eb287aabaecb21a58c759c2f42.jpg"
   },
   {
     "name": "ChestCollector3",
@@ -463,7 +382,7 @@
     "defaultvalue": 0,
     "displayName": "Crazy Eyes",
     "hidden": 0,
-    "description": "Find Fallon in the Archelite spaceship",
+    "description": "Find Fallon in the Vanguard",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/269190/e558f8a2fdcae3a3055dfb6f9a82d93aef33bbed.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/269190/d91ce1d6e6018649770f0507a7302867e2a503c1.jpg"
   },
@@ -472,7 +391,7 @@
     "defaultvalue": 0,
     "displayName": "Quiet Dominance",
     "hidden": 0,
-    "description": "Prevent old enemies from retrieving their weapons",
+    "description": "One blurry case of self-defense",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/269190/afc32e59994c7b909b78e6cec765c58ba60dbe47.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/269190/ccbcdb47b447a246e79ad2d64d886abe9e96322f.jpg"
   },
@@ -481,7 +400,7 @@
     "defaultvalue": 0,
     "displayName": "Unbeknowst Masters",
     "hidden": 0,
-    "description": "Prove to your master your strength",
+    "description": "Master and pupil, only humans after all",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/269190/4b768e2ae5075557fe659fde1440819f1bf1ab4b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/269190/5997be8488089de73a6f0bbaf408a13c8ead3e5c.jpg"
   },
@@ -490,8 +409,116 @@
     "defaultvalue": 0,
     "displayName": "Grave Robber",
     "hidden": 0,
-    "description": "Investigate the strange tombs",
+    "description": "Investigate several cases of the missing corpses",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/269190/239573a4ba49bba0a8fbf20d4e6d13b717fde802.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/269190/819c7343928808306238edcec08415477ca27fab.jpg"
+  },
+  {
+    "name": "Chapter6",
+    "defaultvalue": 0,
+    "displayName": "Chapter VI",
+    "hidden": 0,
+    "description": "Completed Chapter VI",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/269190/a4e174f9d2380f7e66d103c704c44f201d6e6731.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/269190/8acf3577d790231248557dfe65c0a67df4e04cd0.jpg"
+  },
+  {
+    "name": "End_Def_TyrCaelum",
+    "defaultvalue": 0,
+    "displayName": "Stalwart Protector",
+    "hidden": 0,
+    "description": "Faced countless enemies, and the many aches of both responsibility and self-deprecation",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/269190/074d407917860d4f1e976d33a74396415a9e0f6f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/269190/dda7de82124804f8385fe95d588f04feeea3cc2e.jpg"
+  },
+  {
+    "name": "TyrCaelum_ChiefEngineer",
+    "defaultvalue": 0,
+    "displayName": "Gourmet Socialite",
+    "hidden": 0,
+    "description": "Decided a proper menu for your guests",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/269190/da77b4636984b6f870d3595fe3deaef63b9ea85e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/269190/39ce6d529325a237d4b1598e4d356f5dfcb68f61.jpg"
+  },
+  {
+    "name": "TyrCaelum_Sorry",
+    "defaultvalue": 0,
+    "displayName": "Said You're Sorry",
+    "hidden": 0,
+    "description": "Apologized... somehow",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/269190/9b6239f3f973d55b3297dc32ca1f8471244f0a14.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/269190/8d68c35952e466392b35c7695c99b746097e8763.jpg"
+  },
+  {
+    "name": "DifficultyNormal",
+    "defaultvalue": 0,
+    "displayName": "Normal Difficulty",
+    "hidden": 0,
+    "description": "Complete the game with the battle difficulty set to 5 without changing it",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/269190/fc1b78c4fcd1343b691321922c19de718002f9fb.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/269190/bce862e3a6d0450ceca026baf2d97b06aeeb1a26.jpg"
+  },
+  {
+    "name": "DifficultyHard",
+    "defaultvalue": 0,
+    "displayName": "Hard Difficulty",
+    "hidden": 0,
+    "description": "Complete the game with the battle difficulty set to 7 without changing it",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/269190/c3a1c68afa2962bf613de7b34d095b2bc779c690.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/269190/f291e58f154bb66df654fd6eb47cdee2a47ea9a3.jpg"
+  },
+  {
+    "name": "DifficultyNightmare",
+    "defaultvalue": 0,
+    "displayName": "Difficulty Nightmare",
+    "hidden": 0,
+    "description": "Complete the game with the battle difficulty set to 10 without changing it",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/269190/a6d6dc8e161f234371add35acc351f739af721b2.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/269190/95eefce2a95b0e85728b54223c6d4fd301877b2f.jpg"
+  },
+  {
+    "name": "TrueAscendance",
+    "defaultvalue": 0,
+    "displayName": "True Ascendance",
+    "hidden": 0,
+    "description": "After all has been said and done...",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/269190/58f03aa541ee67ebed90153d7eab49287e775222.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/269190/29fe45c7d4f10ae23e634cfd60fc07798429249d.jpg"
+  },
+  {
+    "name": "A_Trap_All_Along",
+    "defaultvalue": 0,
+    "displayName": "A Trap, All Along",
+    "hidden": 0,
+    "description": "Once broken, it will never be the same again",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/269190/bcca2166b6a6b6f112723d12833662b9c7531be6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/269190/fd78fdeedb4b1351407e7a9d197c052c03354333.jpg"
+  },
+  {
+    "name": "Ancient_Ritual",
+    "defaultvalue": 0,
+    "displayName": "The Ancient Ritual",
+    "hidden": 0,
+    "description": "Walked the path of no return",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/269190/a4e1f1645b891c82ffa18cae65da6908c78d8cbd.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/269190/e634e8512005559b9e83667aff83a7dbc8546cd3.jpg"
+  },
+  {
+    "name": "Chest_Nut",
+    "defaultvalue": 0,
+    "displayName": "Chest Nut",
+    "hidden": 0,
+    "description": "Helped Daryon realize he has a chest problem",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/269190/698fd792cb5dde9b13a09664f35e04873fb00d48.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/269190/cce97f05203ea5b9929d27d9ea0a9e5f13de52b5.jpg"
+  },
+  {
+    "name": "Discovery_Cathedral",
+    "defaultvalue": 0,
+    "displayName": "The Ancient Cathedral of Ulakaris",
+    "hidden": 0,
+    "description": "Such a mouthful, probably something important",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/269190/e2250f09e6a9539aee0be9f08171b2a99fdc2c0d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/269190/07c15713a74676446b582abe772019b41e3d16df.jpg"
   }
 ]

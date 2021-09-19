@@ -1,66 +1,82 @@
-﻿{
-  "PROGHUMANKILLED": {
-    "description": "Humans killed",
-    "value": 0
+[
+  {
+    "name": "PROGHUMANKILLED",
+    "defaultvalue": 0,
+    "displayName": "Humans killed"
   },
-  "PROGHACKINGWON": {
-    "description": "Hacking games won",
-    "value": 0
+  {
+    "name": "PROGHACKINGWON",
+    "defaultvalue": 0,
+    "displayName": "Hacking games won"
   },
-  "PROGPICKPOCKETWON": {
-    "description": "Pickpocket games won",
-    "value": 0
+  {
+    "name": "PROGPICKPOCKETWON",
+    "defaultvalue": 0,
+    "displayName": "Pickpocket games won"
   },
-  "PROGTELEPORT": {
-    "description": "Teleporter used",
-    "value": 0
+  {
+    "name": "PROGTELEPORT",
+    "defaultvalue": 0,
+    "displayName": "Teleporter used"
   },
-  "PROGLEVELREACHED": {
-    "description": "Level reached",
-    "value": 0
+  {
+    "name": "PROGLEVELREACHED",
+    "defaultvalue": 0,
+    "displayName": "Level reached"
   },
-  "PROGQUESTSSUCCESS": {
-    "description": "Quests completed",
-    "value": 0
+  {
+    "name": "PROGQUESTSSUCCESS",
+    "defaultvalue": 0,
+    "displayName": "Quests completed"
   },
-  "PROGCREWMEMBERADDED": {
-    "description": "Crew member added",
-    "value": 0
+  {
+    "name": "PROGCREWMEMBERADDED",
+    "defaultvalue": 0,
+    "displayName": "Crew member added"
   },
-  "PROGFALLTODEATH": {
-    "description": "Fall to death",
-    "value": 0
+  {
+    "name": "PROGFALLTODEATH",
+    "defaultvalue": 0,
+    "displayName": "Fall to death"
   },
-  "PROGWEAPONCRAFTED": {
-    "description": "Weapons crafted",
-    "value": 0
+  {
+    "name": "PROGWEAPONCRAFTED",
+    "defaultvalue": 0,
+    "displayName": "Weapons crafted"
   },
-  "PROGLOCKSPICKED": {
-    "description": "Lockpicking games won",
-    "value": 0
+  {
+    "name": "PROGLOCKSPICKED",
+    "defaultvalue": 0,
+    "displayName": "Lockpicking games won"
   },
-  "PROGMINUTESPLAYED": {
-    "description": "Time played",
-    "value": 0
+  {
+    "name": "PROGMINUTESPLAYED",
+    "defaultvalue": 0,
+    "displayName": "Time played"
   },
-  "PROGCOLLECTELEXIT": {
-    "description": "Elex collected",
-    "value": 0
+  {
+    "name": "PROGCOLLECTELEXIT",
+    "defaultvalue": 0,
+    "displayName": "Elex collected"
   },
-  "PROGCREATURESKILLED": {
-    "description": "Creatures killed",
-    "value": 0
+  {
+    "name": "PROGCREATURESKILLED",
+    "defaultvalue": 0,
+    "displayName": "Creatures killed"
   },
-  "PROGALBSKILLED": {
-    "description": "Albs killed",
-    "value": 0
+  {
+    "name": "PROGALBSKILLED",
+    "defaultvalue": 0,
+    "displayName": "Albs killed"
   },
-  "PROGBANDITSKILLED": {
-    "description": "Bandits killed",
-    "value": 0
+  {
+    "name": "PROGBANDITSKILLED",
+    "defaultvalue": 0,
+    "displayName": "Bandits killed"
   },
-  "PROGPICTURESCOLLECTED": {
-    "description": "Pictures Collected",
-    "value": 0
+  {
+    "name": "PROGPICTURESCOLLECTED",
+    "defaultvalue": 0,
+    "displayName": "Pictures Collected"
   }
-}
+]

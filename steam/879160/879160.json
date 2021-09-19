@@ -1,32 +1,14 @@
 {
   "Dlcs": {
-    "935430": {
-      "Name": "Battlerite Royale - Legendary Adventure Pack",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/935430/header.jpg?t=1539190160"
-    },
     "967350": {
       "Name": "Battlerite Royale - All Champions Pack",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/967350/header.jpg?t=1557241082"
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/967350/header.jpg?t=1557241082",
+      "Type": "dlc"
     },
     "1024610": {
       "Name": "Battlerite Royale - Legendary Adventure Pack Vol.2",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/1024610/header.jpg?t=1557241124"
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1024610/header.jpg?t=1557241124",
+      "Type": "dlc"
     }
-  },
-  "Name": "Battlerite Royale",
-  "AppId": "879160",
-  "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/879160/header.jpg?t=1571235976",
-  "Languages": [
-    "english",
-    "french",
-    "german",
-    "spanish",
-    "russian",
-    "schinese"
-  ],
-  "Platforms": {
-    "windows": true,
-    "mac": false,
-    "linux": false
   }
 }

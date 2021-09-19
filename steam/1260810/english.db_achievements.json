@@ -29,27 +29,18 @@
   {
     "name": "FirstDead",
     "defaultvalue": 0,
-    "displayName": "Full Body Wound!!",
+    "displayName": "A Mass of Bruises",
     "hidden": 0,
-    "description": "Defeated for the first time.",
+    "description": "Get Defeated for the first time.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1260810/b10b17708b10e18b01339b1dc3651a2f51dc318f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1260810/2f98034f7ed0b9a0eb5bcd59916ca8b36d4e42c8.jpg"
-  },
-  {
-    "name": "EAClear",
-    "defaultvalue": 0,
-    "displayName": "Early Access Complete",
-    "hidden": 0,
-    "description": "Complete the game as far as it was in Early Access.",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1260810/cb27127a21a09cf1a9396216150e8a88edb9a4b1.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1260810/c181d8f48cdf4af08423a7a458753238f11cc7b9.jpg"
   },
   {
     "name": "LevelUp_1",
     "defaultvalue": 0,
     "displayName": "Learning the Rope",
     "hidden": 0,
-    "description": " Have one of your character reach level 10.",
+    "description": " Have one of your characters reach level 10.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1260810/b28d5905e6cc7c988028c25999c72090c77cb0a9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1260810/bc316182aa8110c1409c50c387689d51423ff9d8.jpg"
   },
@@ -58,16 +49,16 @@
     "defaultvalue": 0,
     "displayName": "Getting the Hang",
     "hidden": 0,
-    "description": "Have one of your character reach level 25.",
+    "description": "Have one of your characters reach level 25.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1260810/807591d2e6f3657bed59efbecd60bde6ea444b46.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1260810/862adb1e37055ff4ac60ea401bc335247ccd8bbf.jpg"
   },
   {
     "name": "LevelUp_3",
     "defaultvalue": 0,
-    "displayName": "Becoming Master",
+    "displayName": "Becoming a Master",
     "hidden": 0,
-    "description": "Have one of your character reach level 50.",
+    "description": "Have one of your characters reach level 50.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1260810/a59f39c7b6e901cbeb5eeeccdbfa4fd39fea5d6a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1260810/bf46b8fa120a34ee099d604f3a4f0fa2155066ca.jpg"
   },
@@ -76,7 +67,7 @@
     "defaultvalue": 0,
     "displayName": "Torturing Your Liver",
     "hidden": 0,
-    "description": "Have one of your character reach level 99.",
+    "description": "Have one of your characters reach level 99.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1260810/6d19ca664e52774c6f177298f018e2c63d33dce6.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1260810/d38b81c60701116e8d68e3f2412fd4add02346b8.jpg"
   },
@@ -92,7 +83,7 @@
   {
     "name": "FirstEquip_2",
     "defaultvalue": 0,
-    "displayName": " Should be a Makeshift",
+    "displayName": "Enough as a Makeshift",
     "hidden": 0,
     "description": "Wear your first Ordinary-level equipment.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1260810/eb79dc590b8a842ab0abb0c6b523e12bb5c810b5.jpg",
@@ -119,7 +110,7 @@
   {
     "name": "FirstEquip_5",
     "defaultvalue": 0,
-    "displayName": "Death by Astonished",
+    "displayName": "I Can Die without Regrets",
     "hidden": 0,
     "description": "Wear your first Phantom-level equipment.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1260810/7019b4d78e5780d5f53223eed1467cd3e3f394d2.jpg",
@@ -146,7 +137,7 @@
   {
     "name": "PowerUp_3",
     "defaultvalue": 0,
-    "displayName": "Alchemical Skilled",
+    "displayName": "Alchemically Skilled",
     "hidden": 0,
     "description": "Craft over 50 equipments.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1260810/b80730fd28e08979413d9b883aa7096767f8ae93.jpg",
@@ -164,7 +155,7 @@
   {
     "name": "EquipMix_1",
     "defaultvalue": 0,
-    "displayName": "Way to the Abyss of Gambling",
+    "displayName": "Embark on the Way to the Abyss of Gambling",
     "hidden": 0,
     "description": "Reforge for the first time.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1260810/c1da4c35c98d32e4d1ab7ac9346dfa62e667dff4.jpg",
@@ -200,7 +191,7 @@
   {
     "name": "KillBoss_1",
     "defaultvalue": 0,
-    "displayName": "Win the Boss",
+    "displayName": "Win a Boss Battle",
     "hidden": 0,
     "description": "Defeat your first boss.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1260810/d0a5c2c5ea52c4d9a380d2700e6ca7796681cb64.jpg",
@@ -236,16 +227,16 @@
   {
     "name": "CoinCollect_1",
     "defaultvalue": 0,
-    "displayName": "Youkai Exterminater Rookie",
+    "displayName": "Youkai Exterminator Rookie",
     "hidden": 0,
-    "description": " Collect 10 coins looted from Youkais.",
+    "description": "Collect 10 coins looted from Youkais.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1260810/63c9e0febe46953df94878ab7fe34380d34bdb03.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1260810/953a99da3d88def95ec414093f5c5fadd7a75552.jpg"
   },
   {
     "name": "CoinCollect_2",
     "defaultvalue": 0,
-    "displayName": " Youkai Exterminater Veteran",
+    "displayName": " Youkai Exterminator Veteran",
     "hidden": 0,
     "description": "Collect 30 coins looted from Youkais.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1260810/0d868b01ee37b93b2d2906655697ce66add84657.jpg",
@@ -254,7 +245,7 @@
   {
     "name": "CoinCollect_3",
     "defaultvalue": 0,
-    "displayName": "Youkai Exterminater Pro",
+    "displayName": "Youkai Exterminator Pro",
     "hidden": 0,
     "description": "Collect 50 coins looted from Youkais.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1260810/6f509afd71540b73ddc1f1cd1f04b241491b3f16.jpg",
@@ -272,7 +263,7 @@
   {
     "name": "CirnoClothes",
     "defaultvalue": 0,
-    "displayName": "Palette All Collection - Cirno",
+    "displayName": "Palette Full Collection - Cirno",
     "hidden": 0,
     "description": "Collect all Cirno's color palettes.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1260810/d98b42e206aa1242f393574054a9b0e36d9849a8.jpg",
@@ -281,7 +272,7 @@
   {
     "name": "YoumuClothes",
     "defaultvalue": 0,
-    "displayName": "Palette All Collection - Youmu",
+    "displayName": "Palette Full Collection - Youmu",
     "hidden": 0,
     "description": "Collect all Youmu's color palettes.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1260810/f1bd626f67ddeaf14c469e6e848c1a2bb854b400.jpg",
@@ -290,7 +281,7 @@
   {
     "name": "SanaeClothes",
     "defaultvalue": 0,
-    "displayName": "Palette All Collection - Sanae",
+    "displayName": "Palette Full Collection - Sanae",
     "hidden": 0,
     "description": "Collect all Sanae's color palettes.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1260810/7e444f40653ceea7940c621be9a0a2194f967206.jpg",
@@ -299,29 +290,11 @@
   {
     "name": "RinClothes",
     "defaultvalue": 0,
-    "displayName": "Palette All Collection - Rin",
+    "displayName": "Palette Full Collection - Rin",
     "hidden": 0,
     "description": "Collect all Rin's color palettes.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1260810/cc4639904b761d42e89ac374fec57331c6e67979.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1260810/8718172ad90ebac617a2a6dbdd8ec999b38a88a8.jpg"
-  },
-  {
-    "name": "YoumuUnlock",
-    "defaultvalue": 0,
-    "displayName": "The White Swordswoman",
-    "hidden": 0,
-    "description": "Unlock Youmu Konpaku as playable character.",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1260810/abfb713081b4279d2f760fa14b751b35ff013833.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1260810/ed5a1425af6600eefed5a23624c12bd808e77994.jpg"
-  },
-  {
-    "name": "SanaeUnlock",
-    "defaultvalue": 0,
-    "displayName": "The Stars the Girl Saw",
-    "hidden": 0,
-    "description": "Unlock Sanae Kochiya as playable character.",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1260810/d6e2cddbc579a59ef4754c5b5e92ca35d1d73bb0.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1260810/de2c5728abb1a24f69bb8dab151e3dcdc1a12da5.jpg"
   },
   {
     "name": "RinUnlock",
@@ -334,7 +307,7 @@
   {
     "name": "CG_collection_01",
     "defaultvalue": 0,
-    "displayName": "The mysterious  journey of a cameraman-EASY",
+    "displayName": "The Mysterious Journey of a Cameraperson - EASY",
     "hidden": 0,
     "description": "Collect 1 photo",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1260810/59651e841e4e2f570f13ef727f03f97dbb07dd14.jpg",
@@ -343,7 +316,7 @@
   {
     "name": "CG_collection_02",
     "defaultvalue": 0,
-    "displayName": "The mysterious  journey of a cameraman-NORMAL",
+    "displayName": "The Mysterious Journey of a Cameraperson - NORMAL",
     "hidden": 0,
     "description": "Collect 5 photos",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1260810/0d8a0c5b725afe027f735582c32030379a1f95a7.jpg",
@@ -352,7 +325,7 @@
   {
     "name": "CG_collection_03",
     "defaultvalue": 0,
-    "displayName": "The mysterious  journey of a cameraman-HARD",
+    "displayName": "The Mysterious Journey of a Cameraperson - HARD",
     "hidden": 0,
     "description": "Collect 10 photos",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1260810/75a885cef03a7daafd3218c82ea893183e4c64a2.jpg",
@@ -371,14 +344,14 @@
     "defaultvalue": 0,
     "displayName": "Seven-Colored Puppeteer",
     "hidden": 0,
-    "description": "Unlock Alice Margatroid as playable character.",
+    "description": "Alice Margatroid as a playable character.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1260810/8a07d87ced98527034beb9dedfc2c3d23f76a598.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1260810/9b1e04193d1b92237b408882cf9058ad28d6cec4.jpg"
   },
   {
     "name": "AliceClothes",
     "defaultvalue": 0,
-    "displayName": "Palette All Collection - Alice",
+    "displayName": "Palette Full Collection - Alice",
     "hidden": 0,
     "description": "Collect all Alice's color palettes.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1260810/bed61f0ee8a946c3535ae3bbfb9362ab8f78dca5.jpg",
@@ -387,16 +360,16 @@
   {
     "name": "HinaUnlock",
     "defaultvalue": 0,
-    "displayName": "Hina's agitation",
+    "displayName": "Pestilence god's Agitation",
     "hidden": 0,
-    "description": "Unlock Kagiyama Hina as playable character.",
+    "description": "Kagiyama Hina as a playable character.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1260810/fbc795276623049123a240a08c9f2359b92ab2d5.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1260810/bc8321d04308043796ba5960189552072904d768.jpg"
   },
   {
     "name": "HinaClothes",
     "defaultvalue": 0,
-    "displayName": "Palette All Collection - Hina",
+    "displayName": "Palette Full Collection - Hina",
     "hidden": 0,
     "description": "Collect all Hina's color palettes.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1260810/16d0e404c9b6f1f9088d5fa3e6eee9996388358b.jpg",
@@ -405,7 +378,7 @@
   {
     "name": "CheckDonate10WMonet",
     "defaultvalue": 0,
-    "displayName": "100,000!",
+    "displayName": "100,000 for Reimu",
     "hidden": 1,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1260810/b8e82588b2fd7b2352ed158cdf2ddcbf9e5fb5ba.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1260810/be2062f79adcd8d69f185c28aa0ce69d77628355.jpg"
@@ -413,54 +386,54 @@
   {
     "name": "StarUnlock",
     "defaultvalue": 0,
-    "displayName": "NEW_ACHIEVEMENT_NAME_2_15",
+    "displayName": "Showering Star Light",
     "hidden": 0,
-    "description": "Unlock Star Sapphire as playable character.",
+    "description": "Star Sapphire as a playable character.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1260810/8e780a78c912b43c6b3284d436b54b0940fa6156.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1260810/fe3d5271b0acc12e37d671e08c500d5ce4584e2b.jpg"
   },
   {
     "name": "ClownpieceUnlock",
     "defaultvalue": 0,
-    "displayName": "NEW_ACHIEVEMENT_NAME_2_16",
+    "displayName": "Madness of Hell",
     "hidden": 0,
-    "description": "Unlock Clownpiece as playable character.",
+    "description": "Clownpiece as a playable character.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1260810/52876af88db4da08fbe9d0d368316017e5e0054d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1260810/f10ae7afd4fa0ad8e1431cd1b8b25fcdcb69355a.jpg"
   },
   {
     "name": "KaenbyouUnlock",
     "defaultvalue": 0,
-    "displayName": "NEW_ACHIEVEMENT_NAME_2_17",
+    "displayName": "Finally a Cat Becomes a Playable Character",
     "hidden": 0,
-    "description": "Unlock Kaenbyou Rin as playable character.",
+    "description": "Kaenbyou Rin as a playable character.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1260810/b08639215ad2f59967bf46c9c799abe236b3f51a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1260810/66fb93848dc04e7e16eb58232ef764c4af834156.jpg"
   },
   {
     "name": "SuwakoUnlock",
     "defaultvalue": 0,
-    "displayName": "NEW_ACHIEVEMENT_NAME_2_18",
+    "displayName": "The Happy Aboriginal god of Moriya Shrine",
     "hidden": 0,
-    "description": "Unlock Moriya Suwako as playable character.",
+    "description": "Suwako Moriya as a playable character ",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1260810/901f4621918382f17fc88f5cf2c7342548e44248.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1260810/f1b7eb2c7f4fa8b20f2bb146d34f3993ad383acd.jpg"
   },
   {
     "name": "MarisaUnlock",
     "defaultvalue": 0,
-    "displayName": "NEW_ACHIEVEMENT_NAME_2_19",
+    "displayName": "A Not-so-ordinary Witch",
     "hidden": 0,
-    "description": "Unlock Kirisame Marisa as playable character.",
+    "description": "Kirisame Marisa as a playable character.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1260810/d4b6e2dcdea98209e65d6100d3ec220ec50dc12d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1260810/92d56e02795bfe21b1fc15eff9f99af0746aba20.jpg"
   },
   {
     "name": "ReimuUnlock",
     "defaultvalue": 0,
-    "displayName": "NEW_ACHIEVEMENT_NAME_2_20",
+    "displayName": "The Strongest. Period.",
     "hidden": 0,
-    "description": "Unlock Hakurei Reimu as playable character.",
+    "description": "Hakurei Reimu as a playable character.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1260810/4c886a74a83bb4c9c3a7ebc52d234e9e41372da3.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1260810/a73c3f453509e324e3e902457ae9aeea93914a32.jpg"
   },
@@ -478,61 +451,52 @@
     "defaultvalue": 0,
     "displayName": "UNRESTRAINED Clear!",
     "hidden": 0,
-    "description": "UNRESTRAINED Clear!",
+    "description": "UNRESTRAINED Clear! Keep'em coming",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1260810/3a64f3f69ef65f6bb038c2ad9ae81c4668ffdf9c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1260810/ee4675ac5b288a653d6e1fad4311472162c8a628.jpg"
   },
   {
     "name": "modeChaos",
     "defaultvalue": 0,
-    "displayName": "Chaos Clear!",
+    "displayName": "CHAOS Clear!",
     "hidden": 0,
-    "description": "Chaos Clear!",
+    "description": "CHAOS Clear!",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1260810/9ab05f6ddb1cccec55c56b8811a2d96765b7e4ec.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1260810/1a5ea902e60116dcc9ce0f703bf2cb60026369e8.jpg"
   },
   {
     "name": "modeClassicRogue",
     "defaultvalue": 0,
-    "displayName": "Classic Rogue Clear!",
+    "displayName": "CLASSIC ROGUE Clear!",
     "hidden": 0,
-    "description": "Classic Rogue Clear!",
+    "description": "CLASSIC ROGUE Clear! The good old days...",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1260810/e212d78545bf31f57619ef02d0051b3821f58f3a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1260810/8ac57c38bc6ab2283b2f5e8ed2a6cb5e8f99d92f.jpg"
   },
   {
     "name": "modeAllStars",
     "defaultvalue": 0,
-    "displayName": "All Stars Clear!",
+    "displayName": "ALL STARS Clear! ",
     "hidden": 0,
-    "description": "All Stars Clear!",
+    "description": "ALL STARS Clear! So how could I get them myself?",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1260810/e5d29fae396f0a4e38f442cc8b3c53c31573554c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1260810/2436b037d0ae34a432af29885ace9851527182be.jpg"
   },
   {
     "name": "modeGigantism",
     "defaultvalue": 0,
-    "displayName": "Gigantism Clear!",
+    "displayName": "GIGANTISM Clear!",
     "hidden": 0,
-    "description": "Gigantism Clear!",
+    "description": "GIGANTISM Clear! Suika, we need to talk",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1260810/d630540486105a1cf2203a3f934393850cba80d2.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1260810/e63af2cf64db7eb03fa902f2af1a43db45038bf6.jpg"
   },
   {
-    "name": "modeEndless",
-    "defaultvalue": 0,
-    "displayName": "Endless Clear!",
-    "hidden": 0,
-    "description": "Endless Clear!",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1260810/b87e5f62820f8c952a0288bd4df1bcda5ccbb654.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1260810/74599acea7ee66454442c2d496641052aebaa9c3.jpg"
-  },
-  {
     "name": "modeUnaware",
     "defaultvalue": 0,
-    "displayName": "Unaware Clear!",
+    "displayName": "UNAWARE Clear!",
     "hidden": 0,
-    "description": "Unaware Clear!",
+    "description": "UNAWARE Clear! Boba Fett? Where?",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1260810/7db154b010ebf858022a8272dc04bd118af5e178.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1260810/1b8b1358325d9a11b345d7f4879da07121b6a7e0.jpg"
   },
@@ -541,53 +505,155 @@
     "defaultvalue": 0,
     "displayName": "OHKOs Clear!",
     "hidden": 0,
-    "description": "OHKOs Clear!",
+    "description": "OHKOs Clear! \"Button\" That was easy",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1260810/9e4558be41192f5bb387bcd37acdcc1d1924b088.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1260810/52e8c56a1027a32cfcbb170b15f6b42cb5e5d3aa.jpg"
   },
   {
     "name": "KaenbyouClothes",
     "defaultvalue": 0,
-    "displayName": "Palette All Collection - Orin",
+    "displayName": "Palette Full Collection - Orin",
     "hidden": 0,
-    "description": "Unlock Alice Margatroid as play Collect all Orin's color palettes.",
+    "description": "Collect all Orin's color palettes.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1260810/e73e18e9d8dc72724d1495b07eb3338bb7e97ea2.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1260810/71268e8a336491e03f16db266e83b6ff5e6116cd.jpg"
   },
   {
     "name": "StarClothes",
     "defaultvalue": 0,
-    "displayName": "Palette All Collection - Star",
+    "displayName": "Palette Full Collection - Star",
     "hidden": 0,
-    "description": "Unlock Alice Margatroid as play Collect all Star's color palettes.",
+    "description": "Collect all Star's color palettes.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1260810/a6b7bff5700d85ae81f91cf0c913b184ef40aa76.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1260810/961334ce8f41bae0f8d7674782576d926a54956d.jpg"
   },
   {
     "name": "SuwakoClothes",
     "defaultvalue": 0,
-    "displayName": "Palette All Collection - Suwako",
+    "displayName": "Palette Full Collection - Suwako",
     "hidden": 0,
-    "description": "Unlock Alice Margatroid as play Collect all Suwako's color palettes.",
+    "description": "Collect all Suwako's color palettes.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1260810/4e5d9f88c24008fbeb72543658dea904d610b028.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1260810/0c34cff257bce0281064f7665b0b80b753462239.jpg"
   },
   {
     "name": "MarisaClothes",
     "defaultvalue": 0,
-    "displayName": "Palette All Collection - Marisa",
+    "displayName": "Palette Full Collection - Marisa",
     "hidden": 0,
-    "description": "Unlock Alice Margatroid as play Collect all Marisa's color palettes.",
+    "description": "Collect all Marisa's color palettes.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1260810/5bebb1299bf73391d74cdca19679d6b2a51f517a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1260810/bd331ddd7e933c2a58e44fb2f6fe8f491de7b3ae.jpg"
   },
   {
     "name": "ReimuClothes",
     "defaultvalue": 0,
-    "displayName": "Palette All Collection - Reimu",
+    "displayName": "Palette Full Collection - Reimu",
     "hidden": 0,
-    "description": "Unlock Alice Margatroid as play Collect all Reimu's color palettes.",
+    "description": "Collect all Reimu's color palettes.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1260810/9d77af9b6e4e62ba17bd7f1dbac3fd18f99874fd.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1260810/c0720c3255bc4157b5224bc3d8cd1f9bdd0baa0f.jpg"
+  },
+  {
+    "name": "ClownpieceClothes",
+    "defaultvalue": 0,
+    "displayName": "Palette Full Collection - Clownpiece",
+    "hidden": 0,
+    "description": "Collect all Clownpiece's color palettes.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1260810/eceea5ba742141710e43c97438f3878e986db46f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1260810/e2c484c569310c5035d9af90ab55fe0006d66b67.jpg"
+  },
+  {
+    "name": "EasyDungeon",
+    "defaultvalue": 0,
+    "displayName": "EasyDungeon Clear!",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1260810/5aa222f5917cb232ca1d1a6724e01eba6ff8a908.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1260810/6435662f5846d958e52c9872d010edd80a6bdf0e.jpg"
+  },
+  {
+    "name": "NormalDungeon",
+    "defaultvalue": 0,
+    "displayName": "NormalDungeon Clear!",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1260810/9a1540a9f2318f1dbe128b5dfe6da8c0a11fd587.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1260810/57ff8eab556304d38e88a4d141cfcd14f6755693.jpg"
+  },
+  {
+    "name": "HardDungeon",
+    "defaultvalue": 0,
+    "displayName": "HardDungeon Clear! Act 3! Freeze!",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1260810/66b039d1ea9770a96e39ab8a1acd1c403ec29663.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1260810/b18d381f6650002f714c1d20509111bcf8118066.jpg"
+  },
+  {
+    "name": "Defeat_Koishi",
+    "defaultvalue": 0,
+    "displayName": "I'm Standing Right Behind You...",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1260810/b515bf2ec26c2d4148cee0e28f179821ee823ff7.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1260810/47b5c7d72c960e44dcaa3a466dcd65f4cbdfaee5.jpg"
+  },
+  {
+    "name": "Defeat_Yukari",
+    "defaultvalue": 0,
+    "displayName": "Are You Even Old Enough to Drink? ",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1260810/9742bd7016cdc208ac5368db108556f03c7b22fd.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1260810/d2c7a433164317041234447681ae699cc8c1a0ea.jpg"
+  },
+  {
+    "name": "BeatTenshiSandbag",
+    "defaultvalue": 0,
+    "displayName": "Why Bother?",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1260810/47c3f29fb45fe71fbdfc48648909ac20829e1a88.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1260810/2ff9d05f0cf59941a26e2439215b606fb63bebed.jpg"
+  },
+  {
+    "name": "modeEndless30",
+    "defaultvalue": 0,
+    "displayName": "ENDLESS Lvl 30 Clear!",
+    "hidden": 0,
+    "description": "ENDLESS Lvl 30 Clear! A good start.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1260810/779caa9fdea639c4134af9b7b917a38356e6b021.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1260810/b7bdb7c96f75b6f57d6451cef573a0d641959b24.jpg"
+  },
+  {
+    "name": "modeEndless60",
+    "defaultvalue": 0,
+    "displayName": "ENDLESS Lvl 60 Clear!",
+    "hidden": 0,
+    "description": "ENDLESS Lvl 60 Clear! The real journey just started...",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1260810/7763c127826cddf1ce845c906fd1c8f5e775bdba.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1260810/f569b0067d2f499da5989c449f8fbc97270c4f1c.jpg"
+  },
+  {
+    "name": "modeEndless90",
+    "defaultvalue": 0,
+    "displayName": "ENDLESS Lvl 90 Clear!",
+    "hidden": 0,
+    "description": "ENDLESS Lvl 90 Clear! WTF is about the three bosses in one room?!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1260810/21357d359314baf207621391efba3dfff1f3acf5.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1260810/e93b6142e8289b18cde01c82b3e702560b485f34.jpg"
+  },
+  {
+    "name": "modeEndless120",
+    "defaultvalue": 0,
+    "displayName": "ENDLESS Lvl 120 Clear!",
+    "hidden": 0,
+    "description": "ENDLESS Lvl 120 Clear! Suika, we need to talk, again",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1260810/f420faa7747dffea72c42479598aa7ece286acaf.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1260810/cd17856e9a5434ba0ff4f8396ef6cfee56336048.jpg"
+  },
+  {
+    "name": "modeEndless150",
+    "defaultvalue": 0,
+    "displayName": "ENDLESS Lvl 150 Clear! ",
+    "hidden": 0,
+    "description": "ENDLESS Lvl 150 Clear! Koishi, why are you doing this to me?",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1260810/57b05f420e9ef5a433a79d05abaec9a7bda93eda.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1260810/611c9586b86c5f7b46972d05cb3858a6129d6794.jpg"
   }
 ]

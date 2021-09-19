@@ -1,110 +1,137 @@
-﻿{
-  "Rescue_Expert_progress": {
-    "description": "Rescue Times",
-    "value": 0
+[
+  {
+    "name": "Rescue_Expert_progress",
+    "defaultvalue": 0,
+    "displayName": "Rescue Times"
   },
-  "Rookie_Treasure_Hunter_progress": {
-    "description": "Level",
-    "value": 0
+  {
+    "name": "Rookie_Treasure_Hunter_progress",
+    "defaultvalue": 0,
+    "displayName": "Level"
   },
-  "Senior_Treasure_Hunter_progress": {
-    "description": "Level",
-    "value": 0
+  {
+    "name": "Senior_Treasure_Hunter_progress",
+    "defaultvalue": 0,
+    "displayName": "Level"
   },
-  "A_Private_Coffer_progress": {
-    "description": "Gold",
-    "value": 0
+  {
+    "name": "A_Private_Coffer_progress",
+    "defaultvalue": 0,
+    "displayName": "Gold"
   },
-  "Banker_progress": {
-    "description": "Gold",
-    "value": 0
+  {
+    "name": "Banker_progress",
+    "defaultvalue": 0,
+    "displayName": "Gold"
   },
-  "I_ll_Come_Back_progress": {
-    "description": "Die Times",
-    "value": 0
+  {
+    "name": "I_ll_Come_Back_progress",
+    "defaultvalue": 0,
+    "displayName": "Die Times"
   },
-  "Fearless_of_Death_progress": {
-    "description": "Die Times",
-    "value": 0
+  {
+    "name": "Fearless_of_Death_progress",
+    "defaultvalue": 0,
+    "displayName": "Die Times"
   },
-  "Smell_of_Treasure_progress": {
-    "description": "Open Chests",
-    "value": 0
+  {
+    "name": "Smell_of_Treasure_progress",
+    "defaultvalue": 0,
+    "displayName": "Open Chests"
   },
-  "Cornucopia_progress": {
-    "description": "Open Chests",
-    "value": 0
+  {
+    "name": "Cornucopia_progress",
+    "defaultvalue": 0,
+    "displayName": "Open Chests"
   },
-  "Purification_of_Evil_progress": {
-    "description": "Kill Monsters",
-    "value": 0
+  {
+    "name": "Purification_of_Evil_progress",
+    "defaultvalue": 0,
+    "displayName": "Kill Monsters"
   },
-  "Embodiment_of_Justice_progress": {
-    "description": "Kill Monsters",
-    "value": 0
+  {
+    "name": "Embodiment_of_Justice_progress",
+    "defaultvalue": 0,
+    "displayName": "Kill Monsters"
   },
-  "Potion_Addict_progress": {
-    "description": "Drink Potions",
-    "value": 0
+  {
+    "name": "Potion_Addict_progress",
+    "defaultvalue": 0,
+    "displayName": "Drink Potions"
   },
-  "Blood_Oath_progress": {
-    "description": "Use Altars",
-    "value": 0
+  {
+    "name": "Blood_Oath_progress",
+    "defaultvalue": 0,
+    "displayName": "Use Altars"
   },
-  "Gambler_progress": {
-    "description": "Use One-arm Bandit",
-    "value": 0
+  {
+    "name": "Gambler_progress",
+    "defaultvalue": 0,
+    "displayName": "Use One-arm Bandit"
   },
-  "Soul_Reaper_progress": {
-    "description": "Evil Souls",
-    "value": 0
+  {
+    "name": "Soul_Reaper_progress",
+    "defaultvalue": 0,
+    "displayName": "Evil Souls"
   },
-  "Too_Darn_Hot_progress": {
-    "description": "Burning Times",
-    "value": 0
+  {
+    "name": "Too_Darn_Hot_progress",
+    "defaultvalue": 0,
+    "displayName": "Burning Times"
   },
-  "Give_Me_A_Coat_progress": {
-    "description": "Freezing Times",
-    "value": 0
+  {
+    "name": "Give_Me_A_Coat_progress",
+    "defaultvalue": 0,
+    "displayName": "Freezing Times"
   },
-  "Poisonous_progress": {
-    "description": "Poisoned Times",
-    "value": 0
+  {
+    "name": "Poisonous_progress",
+    "defaultvalue": 0,
+    "displayName": "Poisoned Times"
   },
-  "Warrior_progress": {
-    "description": "Warrior Exp",
-    "value": 0
+  {
+    "name": "Warrior_progress",
+    "defaultvalue": 0,
+    "displayName": "Warrior Exp"
   },
-  "Guardian_progress": {
-    "description": "Guardian Exp",
-    "value": 0
+  {
+    "name": "Guardian_progress",
+    "defaultvalue": 0,
+    "displayName": "Guardian Exp"
   },
-  "Lancer_progress": {
-    "description": "Lancer Exp",
-    "value": 0
+  {
+    "name": "Lancer_progress",
+    "defaultvalue": 0,
+    "displayName": "Lancer Exp"
   },
-  "Rifleman_progress": {
-    "description": "Rifleman Exp",
-    "value": 0
+  {
+    "name": "Rifleman_progress",
+    "defaultvalue": 0,
+    "displayName": "Rifleman Exp"
   },
-  "Magician_progress": {
-    "description": "Magician Exp",
-    "value": 0
+  {
+    "name": "Magician_progress",
+    "defaultvalue": 0,
+    "displayName": "Magician Exp"
   },
-  "Assassin_progress": {
-    "description": "Assassin Exp",
-    "value": 0
+  {
+    "name": "Assassin_progress",
+    "defaultvalue": 0,
+    "displayName": "Assassin Exp"
   },
-  "Ranger_progress": {
-    "description": "Ranger Exp",
-    "value": 0
+  {
+    "name": "Ranger_progress",
+    "defaultvalue": 0,
+    "displayName": "Ranger Exp"
   },
-  "Professional_Treasure_Hunter_progress": {
-    "description": "Level",
-    "value": 0
+  {
+    "name": "Professional_Treasure_Hunter_progress",
+    "defaultvalue": 0,
+    "displayName": "Level"
   },
-  "Master_Treasure_Hunter_progress": {
-    "description": "Level",
-    "value": 0
+  {
+    "name": "Master_Treasure_Hunter_progress",
+    "defaultvalue": 0,
+    "displayName": "Level"
   }
-}
+]

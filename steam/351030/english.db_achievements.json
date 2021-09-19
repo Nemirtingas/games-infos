@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "name": "complete_pack_4",
     "defaultvalue": 0,
@@ -17080,5 +17080,2219 @@
     "description": "Kiosk Item: Challenge 46",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/8f8c24e8c4bd5a120203c8faa713be8c54634816.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/db687d1f3a9f05a135dc136d616114af044b3f0b.jpg"
+  },
+  {
+    "name": "challenge_47",
+    "defaultvalue": 0,
+    "displayName": "Challenge 47 Complete!",
+    "hidden": 0,
+    "description": "Complete Challenge 47",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/cd8b1adc0ed22cd327991dd810f9c32d4df6cf6e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/6ce76397f852cafffa4385bd09125f0357036176.jpg"
+  },
+  {
+    "name": "kioskchallenges47",
+    "defaultvalue": 0,
+    "displayName": "Kiosk Item Unlocked: Challenge 47",
+    "hidden": 0,
+    "description": "Kiosk Item: Challenge 47",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/b38ec2e2efae7ccbdce7170ff4da22acdb49dd09.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/3f7bae77903969f0e06ab4c5ff03983d911400d6.jpg"
+  },
+  {
+    "name": "challenge_48",
+    "defaultvalue": 0,
+    "displayName": "Challenge 48 Complete!",
+    "hidden": 0,
+    "description": "Complete Challenge 48",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/a7edc6f7ca07370ac3c49108a15952745ed6b729.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/e67828cfc5d60cc38c3a61f86c0a2601f085f0a3.jpg"
+  },
+  {
+    "name": "kioskchallenges48",
+    "defaultvalue": 0,
+    "displayName": "Kiosk Item Unlocked: Challenge 48",
+    "hidden": 0,
+    "description": "Kiosk Item: Challenge 48",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/25ac37a708e96631e7bb2349b023f678c4093e26.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/5034dcb510588bccb9866e43c8f435bf5ce57921.jpg"
+  },
+  {
+    "name": "complete_pack_111",
+    "defaultvalue": 0,
+    "displayName": "All Variety Pack 15 Puzzles Complete!",
+    "hidden": 0,
+    "description": "Complete Pack: Variety Pack 15",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/b54a071ce542f9cfd922c98113aa3cde1172abfd.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/784ed0e13b33cef83ea9ac5943bdbcc2b5f156cc.jpg"
+  },
+  {
+    "name": "complete_pack_111_puzzle_1",
+    "defaultvalue": 0,
+    "displayName": "Airport Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Airport",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/5bde773b6ed145f48640ddcde65c16513b85d065.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/8416eb51be4334cb99a5c459e16581ff6309b1f9.jpg"
+  },
+  {
+    "name": "complete_pack_111_puzzle_2",
+    "defaultvalue": 0,
+    "displayName": "Boathouse Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Boathouse",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/d0f43b2c425032a6330a76224f63a6779b1d9b90.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/dd6fd7dde8b8097ef5603ee3abcd227273c16bd7.jpg"
+  },
+  {
+    "name": "complete_pack_111_puzzle_3",
+    "defaultvalue": 0,
+    "displayName": "Bridge Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Bridge",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/915be76f9bc2823baef91cfb1a84840a8c76d622.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/c346d248d1e5de3a120e93d07069b1fe17baf835.jpg"
+  },
+  {
+    "name": "complete_pack_111_puzzle_4",
+    "defaultvalue": 0,
+    "displayName": "Chocolate Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Chocolate",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/bc78e32278246f72c9aefe159c08e97f9d20617f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/8b24e28c6ccbf09e6a3056414b4402074abe4583.jpg"
+  },
+  {
+    "name": "complete_pack_111_puzzle_5",
+    "defaultvalue": 0,
+    "displayName": "Cold Lake Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Cold Lake",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/aa07220ed695bc79a23432f9fe1fa256e4b3d8d6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/676faa0a3b4b8d785f3605dbb38423d6a70219fa.jpg"
+  },
+  {
+    "name": "complete_pack_111_puzzle_6",
+    "defaultvalue": 0,
+    "displayName": "Elephant Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Elephant",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/0c6a49c1e5503a7daf206b77c29b806b51e434f9.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/9dfe115f35ff8dd5cc701bd424ae74c384957828.jpg"
+  },
+  {
+    "name": "complete_pack_111_puzzle_7",
+    "defaultvalue": 0,
+    "displayName": "Fireman Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Fireman",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/8ac322815a8e41a1e602122b390ee72aa63a34d9.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/4b3538ad7e69b0be90bb7e7ee25728c140c66b31.jpg"
+  },
+  {
+    "name": "complete_pack_111_puzzle_8",
+    "defaultvalue": 0,
+    "displayName": "Flower Eye Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Flower Eye",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/6b76035da805c3f50c0a2628269a931be0c0f79b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/f7675db5fb5b2220a9b60886eefa809047d0efbf.jpg"
+  },
+  {
+    "name": "complete_pack_111_puzzle_9",
+    "defaultvalue": 0,
+    "displayName": "Flowers Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Flowers",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/0e50ce489a9c2b48f813c144b0c1f47521bd07f0.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/d7ad09f5ca8b7ec0d12873b6f8411d1b96759c1c.jpg"
+  },
+  {
+    "name": "complete_pack_111_puzzle_10",
+    "defaultvalue": 0,
+    "displayName": "Grapes Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Grapes",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/1cfea240bcc70447da7aa1373292a16b12c25e8a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/6f76c11d692d6953b9266d89911fe849e1ee2d96.jpg"
+  },
+  {
+    "name": "complete_pack_111_puzzle_11",
+    "defaultvalue": 0,
+    "displayName": "Jellyfish Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Jellyfish",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/a294e3eeb0293e5b367e2d4de2741873997f9f16.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/cde4f83f337003bae39a91d314588f4f684df55a.jpg"
+  },
+  {
+    "name": "complete_pack_111_puzzle_12",
+    "defaultvalue": 0,
+    "displayName": "Landscape Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Landscape",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/11f10e2b1cc8931c6d02c44b7cdfddcc2321fcd4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/77919dd8ccd5d2c08af632227a261ff9fbe32b77.jpg"
+  },
+  {
+    "name": "complete_pack_111_puzzle_13",
+    "defaultvalue": 0,
+    "displayName": "Lift Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Lift",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/0845e50ac22f87e50cb9024440879ea892116c50.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/03d5fa33705324c52ca2e7ee86d8cd02ec52a404.jpg"
+  },
+  {
+    "name": "complete_pack_111_puzzle_14",
+    "defaultvalue": 0,
+    "displayName": "Love island Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Love island",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/4df4eae735f4026d4d02f363ae3976a55491ae63.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/5f0f81f274ef22a15f74383b7d7722bfd792203c.jpg"
+  },
+  {
+    "name": "complete_pack_111_puzzle_15",
+    "defaultvalue": 0,
+    "displayName": "Mask Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Mask",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/4521dbb27fce907d2699d3374601ce6f3096f8de.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/b298a2b921fdbb61514b20f5a8e2cdaeff77e1bf.jpg"
+  },
+  {
+    "name": "complete_pack_111_puzzle_16",
+    "defaultvalue": 0,
+    "displayName": "Penguins Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Penguins",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/f7287dffb1a185654e8a347ecd934550c2c2b1e9.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/b3a981cacb92135e56bdc769b12deb1a7715622e.jpg"
+  },
+  {
+    "name": "complete_pack_111_puzzle_17",
+    "defaultvalue": 0,
+    "displayName": "Pizza Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Pizza",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/81b488897be2bcc879c108b7442036b53987540a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/a2fb60b0e75850161f0d9dead4043480d562e80c.jpg"
+  },
+  {
+    "name": "complete_pack_111_puzzle_18",
+    "defaultvalue": 0,
+    "displayName": "Rainbow Path Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Rainbow Path",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/6891bf57eaf66b78b207407a4644559173824b66.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/30adc57e7427b699b4bf085eed45e41c2e727095.jpg"
+  },
+  {
+    "name": "complete_pack_111_puzzle_19",
+    "defaultvalue": 0,
+    "displayName": "Red Road Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Red Road",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/f571069a5530c73ba7070dbb7f74cd7e3a02d68b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/ba24e1f0491e7ddd788ff2a6d857a833d8e42ee3.jpg"
+  },
+  {
+    "name": "complete_pack_111_puzzle_20",
+    "defaultvalue": 0,
+    "displayName": "Ruins Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Ruins",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/67f23bc49a206c177e016d022d89e819e577c356.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/fd1ff5de664cea0ff50591bc78e0a81ab6caec4b.jpg"
+  },
+  {
+    "name": "complete_pack_111_puzzle_21",
+    "defaultvalue": 0,
+    "displayName": "Sewing Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Sewing",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/d82eb4923b383cb36fad8c3a8f6c06581889ee1d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/db6d84751809dd15b035595a4f9fec015acc4b13.jpg"
+  },
+  {
+    "name": "complete_pack_111_puzzle_22",
+    "defaultvalue": 0,
+    "displayName": "Squirrel Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Squirrel",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/a24a2c646a4d3987d4f43f26b18377021ef98766.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/1d97e32c800c0517d3d306b3912852badafd4b77.jpg"
+  },
+  {
+    "name": "complete_pack_111_puzzle_23",
+    "defaultvalue": 0,
+    "displayName": "Stadium Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Stadium",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/9eea87057b77482b374ea2aad79f3e9e03570ab8.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/6c8331225d74a26f2ae33cc228e306caa46444a0.jpg"
+  },
+  {
+    "name": "complete_pack_111_puzzle_24",
+    "defaultvalue": 0,
+    "displayName": "Suitcase Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Suitcase",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/99e8038d593ab2e0ddd1b1c3fa3f908326f65c76.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/06738bf071f0d20ab74feb22b904c08839866b28.jpg"
+  },
+  {
+    "name": "complete_pack_111_puzzle_25",
+    "defaultvalue": 0,
+    "displayName": "Tengu Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Tengu",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/1d850680c3de447b6dc4e56cbaab4e0ca45d3def.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/8942e6670d7f5ae773e9b59e0ddf249cd118146d.jpg"
+  },
+  {
+    "name": "complete_pack_75_puzzle_6",
+    "defaultvalue": 0,
+    "displayName": "Tree Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Tree",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/82aaa5e5fd373a14f41a2a18845128289e58cc8b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/28f589de3d3339a4489a5eb3c1b102e57b20e5cf.jpg"
+  },
+  {
+    "name": "complete_pack_75_puzzle_7",
+    "defaultvalue": 0,
+    "displayName": "Decorations Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Decorations",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/6eafd6c0b6a61c7abc07d6d6202910f4e5e9484d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/bed77d695b91f39f8b076edae620ebca408061d5.jpg"
+  },
+  {
+    "name": "complete_pack_126_puzzle_1",
+    "defaultvalue": 0,
+    "displayName": "Berries Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Berries",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/61deaac408d8b23434f3ad86a4079dfea6e1edd4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/1000f01677b74d8b65658e2509b070cb0c913951.jpg"
+  },
+  {
+    "name": "complete_pack_126_puzzle_2",
+    "defaultvalue": 0,
+    "displayName": "Chess Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Chess",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/0541d82de426df5fa2648243d3ded04eaaae5af8.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/004faaf0cc52f5d80cc6f1f766b845d1dd708cc3.jpg"
+  },
+  {
+    "name": "complete_pack_126_puzzle_3",
+    "defaultvalue": 0,
+    "displayName": "Geodes Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Geodes",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/bb24ca95af03474a47050ac01b7113139fed5a43.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/8e4ac7c9049f5961bbdce08b321a5e796419cad9.jpg"
+  },
+  {
+    "name": "complete_pack_126_puzzle_4",
+    "defaultvalue": 0,
+    "displayName": "Lake Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Lake",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/c37a7ebe5b678f4577573e2daa2f2ac2e9f4c620.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/e9fe0606d32a14343aba5b1fd09c0933e28f9dc7.jpg"
+  },
+  {
+    "name": "complete_pack_126_puzzle_5",
+    "defaultvalue": 0,
+    "displayName": "Leaves Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Leaves",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/b06ef66d5580900c27b44cefd9754e901bf675f4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/cedcfb3a80cdaa2edf022386b9b69546ae278d30.jpg"
+  },
+  {
+    "name": "complete_pack_126_puzzle_6",
+    "defaultvalue": 0,
+    "displayName": "Sheep Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Sheep",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/90f97b196e7e0809845ab62c26d8d9be145660d0.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/e07fab36cac567c5c32f6bb423acdfc0518ced42.jpg"
+  },
+  {
+    "name": "complete_pack_126_puzzle_7",
+    "defaultvalue": 0,
+    "displayName": "Snowy Forest Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Snowy Forest",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/4f3cfed50200672b3785d0c071e985025db86ac7.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/ff9faa95f5d55395f7316565e79fef6ee5fd8c66.jpg"
+  },
+  {
+    "name": "complete_pack_126_puzzle_8",
+    "defaultvalue": 0,
+    "displayName": "Wolf Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Wolf",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/1efafb2e608d9ffc6aad0c827bad638882af169b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/9288dd68c60801000810adc82e2691ac04f4d2b6.jpg"
+  },
+  {
+    "name": "complete_pack_126",
+    "defaultvalue": 0,
+    "displayName": "All Freebies Puzzles Complete!",
+    "hidden": 0,
+    "description": "Complete Pack: Freebies",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/2520044ac198bf7bf15af7217902e10d6fcb0bf3.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/68edc30f3f3417ae41d609e7ee81b29b2f7b2c8c.jpg"
+  },
+  {
+    "name": "complete_pack_45_puzzle_8",
+    "defaultvalue": 0,
+    "displayName": "2021 Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: 2021",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/bb51f0b976e29251cca2bab015b014f055334aae.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/2dbcce12d7ca13dd99656e374ce016e8e64af16b.jpg"
+  },
+  {
+    "name": "challenge_49",
+    "defaultvalue": 0,
+    "displayName": "Challenge 49 Complete!",
+    "hidden": 0,
+    "description": "Complete Challenge 49",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/053c52555aec058a8a48adf2e762a709da1c5691.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/1acc5c22e3f8f2bed5169a248577b8ad1471a988.jpg"
+  },
+  {
+    "name": "kioskchallenges49",
+    "defaultvalue": 0,
+    "displayName": "Kiosk Item Unlocked: Challenge 49",
+    "hidden": 0,
+    "description": "Kiosk Item: Challenge 49",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/73dda8a683f483f336aad0693e47cb37322ef418.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/208a879a6fd04e4d568611e047faebc8a1808a5f.jpg"
+  },
+  {
+    "name": "complete_pack_104",
+    "defaultvalue": 0,
+    "displayName": "All Variety Pack XXL Puzzles Complete!",
+    "hidden": 0,
+    "description": "Complete Pack: Variety Pack XXL",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/e66b10f336de439f74839647a7f533420227229e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/bf63812aa0e6728a3ab0b8649663885d4ea1a49c.jpg"
+  },
+  {
+    "name": "complete_pack_104_puzzle_1",
+    "defaultvalue": 0,
+    "displayName": "Cabin Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Cabin",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/2c4ecbed4fbe8193cc6b2c45e8d00f6bf9f14de1.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/5faee325f996c83b455bbb4ddca4b01501f9cacb.jpg"
+  },
+  {
+    "name": "complete_pack_104_puzzle_2",
+    "defaultvalue": 0,
+    "displayName": "Deer Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Deer",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/82e63d137273ba18deba9753dc51960e101525c5.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/c5a06ec8d79b6d78c34cd0eceb9ffa30d9b6a6d6.jpg"
+  },
+  {
+    "name": "complete_pack_104_puzzle_3",
+    "defaultvalue": 0,
+    "displayName": "Desert Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Desert",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/4129e87269b5d7f076407bbc1604eceb109ef306.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/58c998c5cc818a3e412f31dbdbe0b8d177043927.jpg"
+  },
+  {
+    "name": "complete_pack_104_puzzle_4",
+    "defaultvalue": 0,
+    "displayName": "Dog Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Dog",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/fa6efc5903b15713925c5ed94291a274f714f664.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/cfb21118455e2d6b2af3b49ed3c3e51b73fabaa5.jpg"
+  },
+  {
+    "name": "complete_pack_104_puzzle_5",
+    "defaultvalue": 0,
+    "displayName": "Dont Look Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Dont Look",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/7161e4152e716966f08dab0e380db580f408f2c9.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/64011f12d3ba61a7f96134fadb65ed60f61cb38d.jpg"
+  },
+  {
+    "name": "complete_pack_104_puzzle_6",
+    "defaultvalue": 0,
+    "displayName": "Grand Canyon Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Grand Canyon",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/01d44a4a7be9c181db33f501590aa923cdbe11ce.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/9287e4b44f9d919e4600e32e78013b84262b4795.jpg"
+  },
+  {
+    "name": "complete_pack_104_puzzle_7",
+    "defaultvalue": 0,
+    "displayName": "Lion Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Lion",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/54e81b50b0fe462c92175e17c23c869395d92702.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/fd65e09fb36928d615e2b81c89443a3e5db2cedd.jpg"
+  },
+  {
+    "name": "complete_pack_104_puzzle_8",
+    "defaultvalue": 0,
+    "displayName": "Monks Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Monks",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/70170ff98d3cfed92d88f3bdcc63e43b1fd7624e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/a891ccdab799fff52104e94cb7fb25d71d9cfbef.jpg"
+  },
+  {
+    "name": "complete_pack_104_puzzle_9",
+    "defaultvalue": 0,
+    "displayName": "Mushroom Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Mushroom",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/f2325263c94af76b595c2f40c00735e6a518e552.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/a108856418450426251fb7490ee8b55b56421bb7.jpg"
+  },
+  {
+    "name": "complete_pack_104_puzzle_10",
+    "defaultvalue": 0,
+    "displayName": "Prismatic Spring Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Prismatic Spring",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/3e9fc028c7cce5a5e4404f870d39ef7a0c00fe4b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/bd2d9de4554ade2a2dabfa80ab01ad183770c168.jpg"
+  },
+  {
+    "name": "complete_pack_104_puzzle_11",
+    "defaultvalue": 0,
+    "displayName": "Snake Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Snake",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/325cc2485f147a283e06a8b54328037dde3ba59c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/87ded4c2b226b847c3232730a656d7f8a0533be3.jpg"
+  },
+  {
+    "name": "complete_pack_104_puzzle_12",
+    "defaultvalue": 0,
+    "displayName": "Twigs Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Twigs",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/b0095cca984687c6b3eaea0fe3aadc6b0dbb7e65.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/9b54d23b0f3fa9cd99bb6564fcce3fe1327dfb08.jpg"
+  },
+  {
+    "name": "complete_pack_124",
+    "defaultvalue": 0,
+    "displayName": "All Cyberpunk Puzzles Complete!",
+    "hidden": 0,
+    "description": "Complete Pack: Cyberpunk",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/529604f0156d34c009bd11db7b1ceab06f1411d9.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/3bcbf137c194367a3fd73d43f111bb216c5b3362.jpg"
+  },
+  {
+    "name": "complete_pack_124_puzzle_1",
+    "defaultvalue": 0,
+    "displayName": "Artistic Alley Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Artistic Alley",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/9e1c6f3f6c605868e5bbc739a60e5fd0218e6c26.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/2cc281a66f2635fed3108992fac44287b39ebf4b.jpg"
+  },
+  {
+    "name": "complete_pack_124_puzzle_2",
+    "defaultvalue": 0,
+    "displayName": "Cyber Girl Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Cyber Girl",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/ef8a39ca745586d79f01bceca1eb0d4828d428b2.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/ff6e1ddd231119ecd2031a6c6a03a8967153105a.jpg"
+  },
+  {
+    "name": "complete_pack_124_puzzle_3",
+    "defaultvalue": 0,
+    "displayName": "Future Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Future",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/0643fa1b6794fe95e0bc5234c88179df3e758a58.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/7cd74f5d2cfb5596d981fd33d2448526d63514a0.jpg"
+  },
+  {
+    "name": "complete_pack_124_puzzle_4",
+    "defaultvalue": 0,
+    "displayName": "Samurai Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Samurai",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/5171e84a6f7fa9b635966d0c9360a45c765f08f8.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/d2a7d35692d0c5ca388e1b5d8b38b291fad85b6f.jpg"
+  },
+  {
+    "name": "complete_pack_124_puzzle_5",
+    "defaultvalue": 0,
+    "displayName": "Sleepless City Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Sleepless City",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/a5cd9f21d678ec2ea228654cfd6f3035985d0123.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/92c73ecd633493a979d991d4ee59e6d1fbaa8293.jpg"
+  },
+  {
+    "name": "complete_pack_124_puzzle_6",
+    "defaultvalue": 0,
+    "displayName": "Views Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Views",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/fc84b8740c8b8dffba9d5ddcafdce4cde6bc788c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/69cf7af967aafb1e7025397ce0a7f5c8e99da745.jpg"
+  },
+  {
+    "name": "challenge_50",
+    "defaultvalue": 0,
+    "displayName": "Challenge 50 Complete!",
+    "hidden": 0,
+    "description": "Complete Challenge 50",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/0cc8bea9577f7bc55d8a28b8ad5e7653875b1970.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/975ec7df1a44501d7f49d51d78e3e0b79d047b69.jpg"
+  },
+  {
+    "name": "kioskchallenges50",
+    "defaultvalue": 0,
+    "displayName": "Kiosk Item Unlocked: Challenge 50",
+    "hidden": 0,
+    "description": "Kiosk Item: Challenge 50",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/d435df84c89d4b269a5749d2a6c757b985852459.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/d7f769251733188e89cf7b8ce0021cbe2e755e2c.jpg"
+  },
+  {
+    "name": "complete_pack_115",
+    "defaultvalue": 0,
+    "displayName": "All Japan 2 Puzzles Complete!",
+    "hidden": 0,
+    "description": "Complete Pack: Japan 2",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/4dd1875b0b9537d1b0215466211020489928fbc4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/3fc7b149d6622f624079640cf7ab4327e0ff1762.jpg"
+  },
+  {
+    "name": "complete_pack_113",
+    "defaultvalue": 0,
+    "displayName": "All Surreal 2 Puzzles Complete!",
+    "hidden": 0,
+    "description": "Complete Pack: Surreal 2",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/e0dc5ddfc8026692144ad2f66582214e37496701.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/df07d5c5de84a18ecf0052ceec22c55bd56777ba.jpg"
+  },
+  {
+    "name": "complete_pack_115_puzzle_1",
+    "defaultvalue": 0,
+    "displayName": "Blossoms Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Blossoms",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/1df23e82643db5fb37098c54f03cdd449a5add4a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/c6e7adf70e8bb6333b654c5e60bec2b7250f1c3a.jpg"
+  },
+  {
+    "name": "complete_pack_115_puzzle_2",
+    "defaultvalue": 0,
+    "displayName": "Down Town Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Down Town",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/17827c61ef8f3d54af472f49115b4d95bc28a621.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/4aae5fe0db44c79e78dabbc9450cb49524acd75b.jpg"
+  },
+  {
+    "name": "complete_pack_115_puzzle_3",
+    "defaultvalue": 0,
+    "displayName": "Floral Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Floral",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/1b6b2730a5ee19dfca874bcbc6a22061bc9627d8.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/75b13c569d2b9b337e9170b0fda9547709a3e7da.jpg"
+  },
+  {
+    "name": "complete_pack_115_puzzle_4",
+    "defaultvalue": 0,
+    "displayName": "Forest Home Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Forest Home",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/b91cdb3acc751cc761f4b2cbd680348b1bbe5d77.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/8d520cf5a834b3bb60c6fd4c3d2ecb9c2427ca14.jpg"
+  },
+  {
+    "name": "complete_pack_115_puzzle_5",
+    "defaultvalue": 0,
+    "displayName": "Fountain Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Fountain",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/74221f22f562b49f6a310bf1cd320727b1ae7669.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/e1b242f4e3452854ad0a749d47d8c6c9aac187e9.jpg"
+  },
+  {
+    "name": "complete_pack_115_puzzle_6",
+    "defaultvalue": 0,
+    "displayName": "Fuji Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Fuji",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/67a1b7a7089f163ca73d85e554f51c54daf70fb9.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/04abac8a16c6c6eac1840a5ae37f29d45cad8485.jpg"
+  },
+  {
+    "name": "complete_pack_115_puzzle_7",
+    "defaultvalue": 0,
+    "displayName": "Geisha Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Geisha",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/2c541ae1f030f2d86af3e28bd4a61db77ef75eab.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/445cfd1ae7f3619155439848b672409b4c09cf56.jpg"
+  },
+  {
+    "name": "complete_pack_115_puzzle_8",
+    "defaultvalue": 0,
+    "displayName": "Gold Temple Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Gold Temple",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/8306c1758868eea07038f0a85bdaab11f546de97.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/ab24ededd8d0bc3f83e1e52bac8895cd4be039f9.jpg"
+  },
+  {
+    "name": "complete_pack_115_puzzle_9",
+    "defaultvalue": 0,
+    "displayName": "Kiosk Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Kiosk",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/b2ba453c95ca4f640653ddfb0d2afe1f46089fad.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/9a7d47a3aa7a97334f7ef2bd24efe87818486d69.jpg"
+  },
+  {
+    "name": "complete_pack_115_puzzle_10",
+    "defaultvalue": 0,
+    "displayName": "Koi Pond Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Koi Pond",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/1e72742ab4f69b8cf1949ff4704b952fb6e5d64f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/e5c7b2802a6fc2f684e3897d648a92fa5698a9cd.jpg"
+  },
+  {
+    "name": "complete_pack_115_puzzle_11",
+    "defaultvalue": 0,
+    "displayName": "Sake Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Sake",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/5a4884f822819f1977f0aa5d5d13acb7e82c2f6b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/2d38ae69f5279346c36e06c1e2c71f917a04c8ad.jpg"
+  },
+  {
+    "name": "complete_pack_115_puzzle_12",
+    "defaultvalue": 0,
+    "displayName": "Samurai Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Samurai",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/91f77153cc53fe11aa869bac7bb0f98cd67f92b3.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/ad96fdfebd933ef663df7ae8b524d3fac9c44ff5.jpg"
+  },
+  {
+    "name": "complete_pack_115_puzzle_13",
+    "defaultvalue": 0,
+    "displayName": "Shoji Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Shoji",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/54444b2697b505ab205d5f24ff4cb57bba9fc711.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/6cf74f6d81f40c6f5fee378575095f9dcee175a9.jpg"
+  },
+  {
+    "name": "complete_pack_115_puzzle_14",
+    "defaultvalue": 0,
+    "displayName": "Stepping Stones Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Stepping Stones",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/0b4630859a3e43b920f29143bd36ec78e94e42ef.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/49107da96d888f56fcbd93f00d5fb6d76516e53d.jpg"
+  },
+  {
+    "name": "complete_pack_115_puzzle_15",
+    "defaultvalue": 0,
+    "displayName": "Sunset Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Sunset",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/95e2aba79c3bb1d0fd682610988260aa3f1e247d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/4cec5a03fe58c075218c8164c0a013c92de62bc7.jpg"
+  },
+  {
+    "name": "complete_pack_115_puzzle_16",
+    "defaultvalue": 0,
+    "displayName": "Sushi Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Sushi",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/8148d11f8c1d73df758628a909c7a84176f5778c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/9a11c37afd95207f39b83f8b3e08d18fc2ace3c0.jpg"
+  },
+  {
+    "name": "complete_pack_113_puzzle_1",
+    "defaultvalue": 0,
+    "displayName": "Fly Away Home Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Fly Away Home",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/2cffece2d8e6eb0f6df0fe3d281ae7e4159f0fe0.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/2a4acd7be8781137dbeadbbb1f1c193311b6459f.jpg"
+  },
+  {
+    "name": "complete_pack_113_puzzle_2",
+    "defaultvalue": 0,
+    "displayName": "Lamb Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Lamb",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/2557fd7baf42506584911e8f63f4b23d7191a0ba.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/dc97d95ee3c6072da1ab2e9125295f67c13f83ae.jpg"
+  },
+  {
+    "name": "complete_pack_113_puzzle_3",
+    "defaultvalue": 0,
+    "displayName": "Shroom House Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Shroom House",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/bd8e6cc46d86a91e8c3d1aae6418d4e8fef0e596.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/18fb751ead41c4a39a7e46bafe15cfa27ae9fec6.jpg"
+  },
+  {
+    "name": "complete_pack_113_puzzle_4",
+    "defaultvalue": 0,
+    "displayName": "Skull Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Skull",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/82c1659683aaa74035470abcdbafcc282d547aef.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/f85470f00205969097b14015ebcd401880edcf46.jpg"
+  },
+  {
+    "name": "complete_pack_113_puzzle_5",
+    "defaultvalue": 0,
+    "displayName": "Spaceman Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Spaceman",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/cf207e307a12b3d6a68affd555e8b507fb3307ce.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/7c860399a0db1fc3850dc2c5ca89d09a903cd44d.jpg"
+  },
+  {
+    "name": "complete_pack_113_puzzle_6",
+    "defaultvalue": 0,
+    "displayName": "Storytime Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Storytime",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/9374af484d9b028aac5d803441d392b7bdd1b388.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/23b518dc1a6341a11d09e2ad76f32524d716912d.jpg"
+  },
+  {
+    "name": "complete_pack_113_puzzle_7",
+    "defaultvalue": 0,
+    "displayName": "Third Eye Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Third Eye",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/a7924e0785ba49e99de6e2299a009347b765efba.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/be9af5f6947ab9fda311eb45a2b9fd0dd1e36483.jpg"
+  },
+  {
+    "name": "complete_pack_113_puzzle_8",
+    "defaultvalue": 0,
+    "displayName": "Water Dance Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Water Dance",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/6038b797d6670a194b185ad6efff520ee358536c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/143505c8fe1439b19a434d89b6aa80bb854ff733.jpg"
+  },
+  {
+    "name": "challenge_51",
+    "defaultvalue": 0,
+    "displayName": "Challenge 51 Complete!",
+    "hidden": 0,
+    "description": "Complete Challenge 51",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/c25830c779e06f58ece53a419cb0ca0ce186f99c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/de08ec6bdcae100bcd9356e41cec3809d25550cb.jpg"
+  },
+  {
+    "name": "kioskchallenges51",
+    "defaultvalue": 0,
+    "displayName": "Kiosk Item Unlocked: Challenge 51",
+    "hidden": 0,
+    "description": "Kiosk Item: Challenge 51",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/1aadc653397b7893a6172aeb70fb03feb0a45f40.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/4eaa84584fc223f15b8de17ff2cd6f41ac6733fd.jpg"
+  },
+  {
+    "name": "complete_pack_127",
+    "defaultvalue": 0,
+    "displayName": "All Game Posters Puzzles Complete!",
+    "hidden": 0,
+    "description": "Complete Pack: Game Posters",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/d30a1b4d9b15dd5d13d33aa4cd8806852d1bb5fe.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/89d30ec12d5da6f2996ac3530090c93476b38a74.jpg"
+  },
+  {
+    "name": "complete_pack_127_puzzle_1",
+    "defaultvalue": 0,
+    "displayName": "Soul Of Giga Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Soul Of Giga",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/aa4a8c6a3497f54c48d20ba2dbe38c4397977e49.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/c44d0ea435a5c2842dcfbd17d8c9fe54b42b28ed.jpg"
+  },
+  {
+    "name": "complete_pack_127_puzzle_2",
+    "defaultvalue": 0,
+    "displayName": "Dungeon Of Eyden Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Dungeon Of Eyden",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/dbc66024aeece69fd2484b2912f937f900270cd9.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/c4a8a25a638fb2e0ba08e0e7317be73ba067334a.jpg"
+  },
+  {
+    "name": "challenge_52",
+    "defaultvalue": 0,
+    "displayName": "Challenge 52 Complete!",
+    "hidden": 0,
+    "description": "Complete Challenge 52",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/28d634862121a7b56c291e06b7af0219002a4738.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/582e251f6701de2891ca5c0bc3ca029f77f34e4b.jpg"
+  },
+  {
+    "name": "kioskchallenges52",
+    "defaultvalue": 0,
+    "displayName": "Kiosk Item Unlocked: Challenge 52",
+    "hidden": 0,
+    "description": "Kiosk Item: Challenge 52",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/fdb5a4833b41e59e7e7cd19290a44bf819e45259.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/b88cb5fb8451fe785eaa5b96945f20eef2c151da.jpg"
+  },
+  {
+    "name": "complete_pack_114",
+    "defaultvalue": 0,
+    "displayName": "All Variety Pack 16 Puzzles Complete!",
+    "hidden": 0,
+    "description": "Complete Pack: Variety Pack 16",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/5395d8b73694fec32f1dd0d43dc05ecda3531383.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/06f90fcfafd2df77e7ec4aff0a50af2cf6f18dfb.jpg"
+  },
+  {
+    "name": "complete_pack_114_puzzle_1",
+    "defaultvalue": 0,
+    "displayName": "Art Supplies Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Art Supplies",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/8e0196a4db93fe78547a19985d185ad2f6759b79.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/e4de1e5f75b770bcfcef2335025a193741bffb58.jpg"
+  },
+  {
+    "name": "complete_pack_114_puzzle_2",
+    "defaultvalue": 0,
+    "displayName": "BMX Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: BMX",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/6502df83dc6d164f92f8155aa2de88b581878d33.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/bfd4a0312b5a396c971226024fe5e50d316a8156.jpg"
+  },
+  {
+    "name": "complete_pack_114_puzzle_3",
+    "defaultvalue": 0,
+    "displayName": "Cactus Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Cactus",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/ed1bd62533bcaef87234452ecc82c812b4927630.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/f5c5579e0024647b9ca98d55fe1a24fff64d2614.jpg"
+  },
+  {
+    "name": "complete_pack_114_puzzle_4",
+    "defaultvalue": 0,
+    "displayName": "Castle Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Castle",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/f860fb8202c6f70522af21dd4ceb96bba989cd80.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/86de77a81d05fed36dcca179e57e96c4ba0a1d43.jpg"
+  },
+  {
+    "name": "complete_pack_114_puzzle_5",
+    "defaultvalue": 0,
+    "displayName": "Colours Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Colours",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/7b5c62aa9a3a1599bcf1168bb694e0eeaa23b9e9.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/5a8a0d81638962cc5a37510bedae85e63ef8b993.jpg"
+  },
+  {
+    "name": "complete_pack_114_puzzle_6",
+    "defaultvalue": 0,
+    "displayName": "Desert Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Desert",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/74ce299d7a7d51a8818efb55dd8baf0a12c649d0.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/4248457bcdb0e56834b39d180402bfd7933bd8aa.jpg"
+  },
+  {
+    "name": "complete_pack_114_puzzle_7",
+    "defaultvalue": 0,
+    "displayName": "Elder Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Elder",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/bb4f5bd4059ec24fdcd915bde2d37079530a9fb7.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/b09c49e5ba5981ffcd47b20568cbc83f5522ce2d.jpg"
+  },
+  {
+    "name": "complete_pack_114_puzzle_8",
+    "defaultvalue": 0,
+    "displayName": "Halloween Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Halloween",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/a60dfcf08ec5a9e363b3788efb7480d3df58bfea.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/fed9a751e28d4b1ac788e61e3a11579bae4519f0.jpg"
+  },
+  {
+    "name": "complete_pack_114_puzzle_9",
+    "defaultvalue": 0,
+    "displayName": "Heron Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Heron",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/8d7c5021bff84e287bf79e446fd48a4d72bdf945.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/491ea0403efced7f3bccb3db09fc6c2f3bf42780.jpg"
+  },
+  {
+    "name": "complete_pack_114_puzzle_10",
+    "defaultvalue": 0,
+    "displayName": "Honey Bee Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Honey Bee",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/164e6ac629e9eb29823c4e22a4392d171a805eaf.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/1676316cfb807e9ee3108d9dad5f07ca8180a3dd.jpg"
+  },
+  {
+    "name": "complete_pack_114_puzzle_11",
+    "defaultvalue": 0,
+    "displayName": "House On A Hill Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: House On A Hill",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/c42b221725653c1d4b49fa5edf887bbbae9247cc.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/7b3c223d53cd1cddb0876fddd5cea7633cc5152a.jpg"
+  },
+  {
+    "name": "complete_pack_114_puzzle_12",
+    "defaultvalue": 0,
+    "displayName": "Iguana Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Iguana",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/9ab9513ccf205f1a7534396075dbfeb20d622f8a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/337cc7e556467fb65cac9c195b67f0d0e8bd3669.jpg"
+  },
+  {
+    "name": "complete_pack_114_puzzle_13",
+    "defaultvalue": 0,
+    "displayName": "Lemur Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Lemur",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/7a42b68f758f7faed7b9f1ad19e26c95f53919e1.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/d421ca35cf31721c70b6ec8f5f29e264b5c38015.jpg"
+  },
+  {
+    "name": "complete_pack_114_puzzle_14",
+    "defaultvalue": 0,
+    "displayName": "Lighthouse Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Lighthouse",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/78a2eb9447a98c1ce6ae7e298cba394f3dec9e4a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/2b64d01b02c72ca7d8585c0d39d9c355c57a957a.jpg"
+  },
+  {
+    "name": "complete_pack_114_puzzle_15",
+    "defaultvalue": 0,
+    "displayName": "Long Walk Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Long Walk",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/55fc6ad607c63224eee74a400194a96004180b1b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/581b9589361cee09706cd36b91a7163cf67b9d1d.jpg"
+  },
+  {
+    "name": "complete_pack_114_puzzle_16",
+    "defaultvalue": 0,
+    "displayName": "Maple Leaf Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Maple Leaf",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/60e7abf2f7fa96ae3644d1ad1c17fbeb5e5e6669.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/794b85251ed622b520ebd08cf6ba8a1c3a85379a.jpg"
+  },
+  {
+    "name": "complete_pack_114_puzzle_17",
+    "defaultvalue": 0,
+    "displayName": "Mixer Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Mixer",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/91e7f85beaa0453fea086e05d2adfa70cf4ad2a6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/ae5090810f7acfe05681dfffb6bf482fd08852f4.jpg"
+  },
+  {
+    "name": "complete_pack_114_puzzle_18",
+    "defaultvalue": 0,
+    "displayName": "Mountain Road Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Mountain Road",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/27b7d49ee5614852a65b3d40eeb23cc0f672dbff.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/a8a266e45097f7244e99ad5bba963743d7a13239.jpg"
+  },
+  {
+    "name": "complete_pack_114_puzzle_19",
+    "defaultvalue": 0,
+    "displayName": "Paris Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Paris",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/dea026e86231ed23bc28c1f7352c004e628bf458.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/aa4784f4f85f30e922a1ecbff6982af3a1b9178e.jpg"
+  },
+  {
+    "name": "complete_pack_114_puzzle_20",
+    "defaultvalue": 0,
+    "displayName": "Purple Flower Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Purple Flower",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/824d6207f4297ee568c2b593114b14a96b802949.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/2988f9069c2c037ca393001bb33c97324efb30cb.jpg"
+  },
+  {
+    "name": "complete_pack_114_puzzle_21",
+    "defaultvalue": 0,
+    "displayName": "Smile Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Smile",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/427e769a93aa7036643f2d42517c34186a165ef9.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/e7a20f7f400a3bdfa8bf85f3c3cc1a87af21a8cf.jpg"
+  },
+  {
+    "name": "complete_pack_114_puzzle_22",
+    "defaultvalue": 0,
+    "displayName": "Spaghetti Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Spaghetti",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/0d4d3eb23e36dba1fd28f6eea7141b6794c0888e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/ee49233a72b19ac6dec1e347998235ec29d6ee39.jpg"
+  },
+  {
+    "name": "complete_pack_114_puzzle_23",
+    "defaultvalue": 0,
+    "displayName": "Strawberries Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Strawberries",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/40c16f2e5b787c29ac7bd730bac4e020d2fed690.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/de0881287aad0efb3bcfa735ad1908f403052911.jpg"
+  },
+  {
+    "name": "complete_pack_114_puzzle_24",
+    "defaultvalue": 0,
+    "displayName": "Warriors Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Warriors",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/54c52e21cbbda3fe7a453def03fdfb2cd734f7e5.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/5cd7233fbae61a229682422fb9cc1226730015d7.jpg"
+  },
+  {
+    "name": "complete_pack_114_puzzle_25",
+    "defaultvalue": 0,
+    "displayName": "Waterfall Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Waterfall",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/32c79fc48f42a89a79efe233a0460ca8c63beca7.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/58d1718fc0f12c5b2292bb0ba691c156bfc425b2.jpg"
+  },
+  {
+    "name": "complete_pack_123",
+    "defaultvalue": 0,
+    "displayName": "All IWS Puzzles Complete!",
+    "hidden": 0,
+    "description": "Complete Pack: IWS",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/feb9b0904ec124f4292679c204073e680694c03e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/9c040d7c8effaa056be7d531b56f6a87f622f433.jpg"
+  },
+  {
+    "name": "complete_pack_123_puzzle_1",
+    "defaultvalue": 0,
+    "displayName": "Axe Head Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Axe Head",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/eb48b3fd5bb16a61734fcff52e294ee613ec4379.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/0ba03487bf9fddea6e537b702167e7b947f7b1e2.jpg"
+  },
+  {
+    "name": "complete_pack_123_puzzle_2",
+    "defaultvalue": 0,
+    "displayName": "Baby Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Baby",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/7f01575996bb3d8c7cf211e88397bab1458bb723.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/e53a4c024a287f30d63f0a4a99e0a7fd750c9c0c.jpg"
+  },
+  {
+    "name": "complete_pack_123_puzzle_3",
+    "defaultvalue": 0,
+    "displayName": "Batter Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Batter",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/5229acf07dd549a6e2408b4be76b4ea0938d751f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/2a37eb2f93c42f1ae0e81f8c683bd24b98effd50.jpg"
+  },
+  {
+    "name": "complete_pack_123_puzzle_4",
+    "defaultvalue": 0,
+    "displayName": "Bull Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Bull",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/9e68046f8ccad6a8e5907be8a9d7194c6d9d8208.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/9377de3bf720f9e5be51af32ed804f2bcbf140ac.jpg"
+  },
+  {
+    "name": "complete_pack_123_puzzle_5",
+    "defaultvalue": 0,
+    "displayName": "Doctor Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Doctor",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/fe0b934cef7db5f3d89a78fcfc4df404dd5123eb.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/f17c7ea23111903b737c6f18c093d1cb164e46a6.jpg"
+  },
+  {
+    "name": "complete_pack_123_puzzle_6",
+    "defaultvalue": 0,
+    "displayName": "Eyes Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Eyes",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/9a5a98f9758def4d2378e8568ec1ba03fc493b7d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/e2064770a782631ddca3a4d3de32b79af14d5c12.jpg"
+  },
+  {
+    "name": "complete_pack_123_puzzle_7",
+    "defaultvalue": 0,
+    "displayName": "Face Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Face",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/4e195761c8ccb7cd213428da6b376e68f5e91f40.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/3bf75bd84a964aa07433ee9f71d6c9cf1bd95fdb.jpg"
+  },
+  {
+    "name": "complete_pack_123_puzzle_8",
+    "defaultvalue": 0,
+    "displayName": "Parachute Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Parachute",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/d5a6e9a5f4bba3a478ea5e35e3db35393710c273.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/03618b69f2f2adb1d326e4dc038b0ee9433c6566.jpg"
+  },
+  {
+    "name": "complete_pack_123_puzzle_9",
+    "defaultvalue": 0,
+    "displayName": "Red Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Red",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/655819bc64c18845ab9a9564c583d40d30885b3b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/15cd772b738f7113b39001d64e5791b1560836ea.jpg"
+  },
+  {
+    "name": "complete_pack_123_puzzle_10",
+    "defaultvalue": 0,
+    "displayName": "Splat Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Splat",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/799e44837c0c2642e089203dc7d6748d95467bef.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/554a588a0d01f7a25765e997a87d9d534c5bb955.jpg"
+  },
+  {
+    "name": "complete_pack_123_puzzle_11",
+    "defaultvalue": 0,
+    "displayName": "Torn Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Torn",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/0fb0b4307a5ee2005a1993ad5404aa9eecc05eba.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/43babc5ed75d3315782d485dba1113c7efad5f68.jpg"
+  },
+  {
+    "name": "complete_pack_123_puzzle_12",
+    "defaultvalue": 0,
+    "displayName": "Dead Pile Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Dead Pile",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/6580b84f9dbd08d70aee65ec4aae989e4e9eda84.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/df31d3f8314b21e60e308fe52e7d7b44ec2bd641.jpg"
+  },
+  {
+    "name": "complete_pack_123_puzzle_13",
+    "defaultvalue": 0,
+    "displayName": "Noisy Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Noisy",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/2a847f412c95158855f4d47aa7046bc5ccbe8b8e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/f33b02f0ba7cfb76f24382dde88607b19fb62f4f.jpg"
+  },
+  {
+    "name": "complete_pack_123_puzzle_14",
+    "defaultvalue": 0,
+    "displayName": "Sammy Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Sammy",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/5b483edb8010133dcd1df9ebc2bf2bf9992243b3.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/8a90386fecb1719cc9ef77c9ec25d6f1f4a3ba40.jpg"
+  },
+  {
+    "name": "complete_pack_125",
+    "defaultvalue": 0,
+    "displayName": "All Variety Pack 3XS Puzzles Complete!",
+    "hidden": 0,
+    "description": "Complete Pack: Variety Pack 3XS",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/591ae038bca262c88008e3c15c97f7c4974a3b30.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/ce18be75b2868b06ca2f553e8fbd9033cd2b341a.jpg"
+  },
+  {
+    "name": "complete_pack_125_puzzle_1",
+    "defaultvalue": 0,
+    "displayName": "Acropolis Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Acropolis",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/25e8206c477f58796648ebc27db9d44ca2420c1a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/f2bfefc7f8244708b91b0530ba2f81c6406920e5.jpg"
+  },
+  {
+    "name": "complete_pack_125_puzzle_2",
+    "defaultvalue": 0,
+    "displayName": "Agate Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Agate",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/a3a6da3a0978193af8d45f428fef818eaa0d959c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/e2141e49eec1fb2349ffa00580778be6f9e1ce8a.jpg"
+  },
+  {
+    "name": "complete_pack_125_puzzle_3",
+    "defaultvalue": 0,
+    "displayName": "Amsterdam Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Amsterdam",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/ed2ee93967f6afce65dbd165565fa590be9a3624.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/5ee3c349d021882bade820862dcbfff9b9e7ae9d.jpg"
+  },
+  {
+    "name": "complete_pack_125_puzzle_4",
+    "defaultvalue": 0,
+    "displayName": "Canyon Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Canyon",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/9f7a92c7cf016a9040e3b78807231f9924022d94.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/137e7f4d8829aae50ab24409e6b361a48a75a76c.jpg"
+  },
+  {
+    "name": "complete_pack_125_puzzle_5",
+    "defaultvalue": 0,
+    "displayName": "Cathedral Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Cathedral",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/7efb41606235f1996db4aa538257130e6ad53116.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/8d0a4901689d84fbb311224f0442234032df6391.jpg"
+  },
+  {
+    "name": "complete_pack_125_puzzle_6",
+    "defaultvalue": 0,
+    "displayName": "Chrysanthemum Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Chrysanthemum",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/5833fd2da3a43ca923da609c1448869d2e4a08e5.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/f83009ccdf5e1ccb03b529042dee6c1874e92f3d.jpg"
+  },
+  {
+    "name": "complete_pack_125_puzzle_7",
+    "defaultvalue": 0,
+    "displayName": "Coast Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Coast",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/dfb50030dbb2f31ed6668ae15f7b7e44e3c59c95.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/a613cf270950f3a18503e0c4f755457606644095.jpg"
+  },
+  {
+    "name": "complete_pack_125_puzzle_8",
+    "defaultvalue": 0,
+    "displayName": "Drop Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Drop",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/343de25905dcdbbf43afe635d6465c2ee8163756.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/be47179b25b69158ec42ccc3727a0a6b29f14d41.jpg"
+  },
+  {
+    "name": "complete_pack_125_puzzle_9",
+    "defaultvalue": 0,
+    "displayName": "Fist Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Fist",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/79d5de5a56163d65d3c7342b1807400983c9d3bc.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/d1d5e032d5142cbf96b1340ff9406c98dd370bb8.jpg"
+  },
+  {
+    "name": "complete_pack_125_puzzle_10",
+    "defaultvalue": 0,
+    "displayName": "Bridge Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Bridge",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/b52d978ae2997b7ade56e894c581199d97b8b009.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/abfc458827ed944a6555b8fa47c2e91f03cbcb10.jpg"
+  },
+  {
+    "name": "complete_pack_125_puzzle_11",
+    "defaultvalue": 0,
+    "displayName": "Guardian Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Guardian",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/6870fb127256f1b6ad67da2fe8b5c55fe0001158.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/349285496b4ff9b382eab07ba8c645a5bf86fe3a.jpg"
+  },
+  {
+    "name": "complete_pack_125_puzzle_12",
+    "defaultvalue": 0,
+    "displayName": "Happy Bird Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Happy Bird",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/bf230e17158f6f565baf68d5b23d54ad0d3ea801.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/2f7272a2fe59b0dbe76318a2b253f3d654051e56.jpg"
+  },
+  {
+    "name": "complete_pack_125_puzzle_13",
+    "defaultvalue": 0,
+    "displayName": "Helmet Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Helmet",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/dfcb1929514bd8100c777b4b7f43f1730a912907.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/9cb485aa066d8e17afc00e3fef848da60f09b9ad.jpg"
+  },
+  {
+    "name": "complete_pack_125_puzzle_14",
+    "defaultvalue": 0,
+    "displayName": "Megacity Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Megacity",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/77026bd7c7a4ca4ac919730d611f0f12ca7a348e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/60d1351b4641bfbe221f1566ed19ed2e7227d620.jpg"
+  },
+  {
+    "name": "complete_pack_125_puzzle_15",
+    "defaultvalue": 0,
+    "displayName": "Pandasy Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Pandasy",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/6b0dbdba82db136ed1c72b354442b9c7d87cf648.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/49fa4a5865d1443ea7b0760ccedcd3b95c259322.jpg"
+  },
+  {
+    "name": "complete_pack_125_puzzle_16",
+    "defaultvalue": 0,
+    "displayName": "Peaceful Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Peaceful",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/cfc4a3e48db3fe88362e2dde00f34b4ca332423b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/064e66edc41388221888eddb3eca29d3ed2abb9b.jpg"
+  },
+  {
+    "name": "complete_pack_125_puzzle_17",
+    "defaultvalue": 0,
+    "displayName": "Pet Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Pet",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/10292cfb69344ef52fb241090f773bacde894ded.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/1a183ecaff881b75b69ae13480e30e524c06da7a.jpg"
+  },
+  {
+    "name": "complete_pack_125_puzzle_18",
+    "defaultvalue": 0,
+    "displayName": "Sand Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Sand",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/62ce83a5264011bac6974d5e94b9b316e24d44a7.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/66e3593f204837e266cf02e5009d62ecf600fc64.jpg"
+  },
+  {
+    "name": "complete_pack_125_puzzle_19",
+    "defaultvalue": 0,
+    "displayName": "Space Travel Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Space Travel",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/5fb5a823e49058a011ba05d6fd19010b39cd0c3f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/78df9bd17cb204e1b0336bea523f5e3b3379650c.jpg"
+  },
+  {
+    "name": "complete_pack_125_puzzle_20",
+    "defaultvalue": 0,
+    "displayName": "Spiral Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Spiral",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/daf0ff9517ade52b8f6039550a98d13199e8c71e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/776b5829ff94dca108640cd5529c91f48561d55e.jpg"
+  },
+  {
+    "name": "complete_pack_125_puzzle_21",
+    "defaultvalue": 0,
+    "displayName": "Statue Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Statue",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/32c24f9f5082b7d2de6bfc19e72ee7f41bb9d9be.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/c4f8543ece7c4a0abafc994ffb546242eb5b583d.jpg"
+  },
+  {
+    "name": "complete_pack_125_puzzle_22",
+    "defaultvalue": 0,
+    "displayName": "Sumo Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Sumo ",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/6098c25be035da929725ce694052fdb6e38d15ec.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/5f10da458e16e3271cb2e409f0685fd931adbcf7.jpg"
+  },
+  {
+    "name": "complete_pack_125_puzzle_23",
+    "defaultvalue": 0,
+    "displayName": "Tattooed Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Tattooed",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/7e5d016f13195cfe852b23a3ca9e17f3d1ca9184.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/8703b80c169a034069c9106cb58c9cf69b54b021.jpg"
+  },
+  {
+    "name": "complete_pack_125_puzzle_24",
+    "defaultvalue": 0,
+    "displayName": "Universe Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Universe",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/8c60a77aa294bf000f62e470c98a524beb5d39b1.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/8508d85739457808878829504fca15d48805ef8b.jpg"
+  },
+  {
+    "name": "complete_pack_125_puzzle_25",
+    "defaultvalue": 0,
+    "displayName": "Wormhole Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Wormhole",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/1e0eb61ab6ca96304239d23c0af152873b54c857.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/3623a070828d1e5fdaf711fa3fe483b834d3dea0.jpg"
+  },
+  {
+    "name": "complete_pack_116",
+    "defaultvalue": 0,
+    "displayName": "All Variety Pack 17 Puzzles Complete!",
+    "hidden": 0,
+    "description": "Complete Pack: Variety Pack 17",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/f43e133d79f5b8ea55d0bd666caab191d73c2f18.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/ee2f5d901e486684a4bec56bd14832c6f7edd839.jpg"
+  },
+  {
+    "name": "complete_pack_116_puzzle_1",
+    "defaultvalue": 0,
+    "displayName": "Amsterdam Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Amsterdam",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/66c4ccf5da7387c731f3c23ea9186f2c1738d662.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/372e1611f566e8f7b3bc35d4a85d089fa4530d71.jpg"
+  },
+  {
+    "name": "complete_pack_116_puzzle_2",
+    "defaultvalue": 0,
+    "displayName": "Axe Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Axe",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/1b8bbb0ad79fe5897ba3694717d51b271cd7533c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/841f448726ecb8524d8211abdcf65c44e92e5788.jpg"
+  },
+  {
+    "name": "complete_pack_116_puzzle_3",
+    "defaultvalue": 0,
+    "displayName": "Baby Croc Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Baby Croc",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/bc6efc520f30c1196289c2cc621a99ac92e7d2c0.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/7c18d38a68d9cdd0a0ef9f55ec6d7f7d60494a42.jpg"
+  },
+  {
+    "name": "complete_pack_116_puzzle_4",
+    "defaultvalue": 0,
+    "displayName": "Backpacker Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Backpacker",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/dbec433f7237ac10f918c728f4c41bb52649651f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/8d231baa8615e8bd273e9823c475d76b6c4e97fd.jpg"
+  },
+  {
+    "name": "complete_pack_116_puzzle_5",
+    "defaultvalue": 0,
+    "displayName": "Best Friend Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Best Friend",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/823244e50af4c1dfe65b220394ee15d04ae29f3d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/760f166d9321063c48c0e89874e974e781aaeb06.jpg"
+  },
+  {
+    "name": "complete_pack_116_puzzle_6",
+    "defaultvalue": 0,
+    "displayName": "Biohazard Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Biohazard",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/b30f65df107aa6feef7ba0d7dc2f3d3044cddf1f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/d50c78d3a936cba2119b90f7d6e4e53bcdda4408.jpg"
+  },
+  {
+    "name": "complete_pack_116_puzzle_7",
+    "defaultvalue": 0,
+    "displayName": "Breakfast Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Breakfast",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/94229a72763bbfbdb2d22f84850956df53cb7854.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/e6bf2e0ebb524c976084d8ead114ed73fb5e9caa.jpg"
+  },
+  {
+    "name": "complete_pack_116_puzzle_8",
+    "defaultvalue": 0,
+    "displayName": "Camel Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Camel",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/be12feed81e52b0444373e032ab2ca71eb9bf7f6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/132d4ddd17df5867824df5eae909847aa5c4e122.jpg"
+  },
+  {
+    "name": "complete_pack_116_puzzle_9",
+    "defaultvalue": 0,
+    "displayName": "Cottage Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Cottage",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/cbc3b050d56fbf183bcc94a208b47c93e77a8668.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/678f51e3456e3ec6fd66895d24ba0a831e88dde9.jpg"
+  },
+  {
+    "name": "complete_pack_116_puzzle_10",
+    "defaultvalue": 0,
+    "displayName": "Couples Ride Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Couples Ride",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/2d3b49346f869df9e48868e1286646d6684e484d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/b3b3db19ea70e3b1a260073797d4946113e2d1eb.jpg"
+  },
+  {
+    "name": "complete_pack_116_puzzle_11",
+    "defaultvalue": 0,
+    "displayName": "Ice Glass Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Ice Glass",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/2a384f547ae90e9f4978c0f99e180f77176a508c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/fad6ec784bf1960771a1fd93a60a411595445c57.jpg"
+  },
+  {
+    "name": "complete_pack_116_puzzle_12",
+    "defaultvalue": 0,
+    "displayName": "Infirmary Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Infirmary",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/7fddb20ca9cd04721f9a3c5182e7aeab541fa37c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/c3f4e462a438466fa0f69353f86413bb27015fc8.jpg"
+  },
+  {
+    "name": "complete_pack_116_puzzle_13",
+    "defaultvalue": 0,
+    "displayName": "Island Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Island",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/dc79f0793e894ce05ca63df628fb2a4c86ef03c7.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/986541831d28f14e303a4e44db13dd0b8c5cccf3.jpg"
+  },
+  {
+    "name": "complete_pack_116_puzzle_14",
+    "defaultvalue": 0,
+    "displayName": "Jaume Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Jaume",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/44d208a897327e204fc970b8ce518dc286c10abe.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/d9d79f6023125e2feca16735832aba2523f58dc8.jpg"
+  },
+  {
+    "name": "complete_pack_116_puzzle_15",
+    "defaultvalue": 0,
+    "displayName": "Landscape Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Landscape",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/238439e60e6d9b8b159060098b8234a63750641e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/2afb3016ffc32d4963c17fd6cc277122ce36f16b.jpg"
+  },
+  {
+    "name": "complete_pack_116_puzzle_16",
+    "defaultvalue": 0,
+    "displayName": "Moat Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Moat",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/c37dcb937262058b0cbe2d089e76c44aecff5b5e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/d05ee00df3d7bcd3184a83aa5d5efa7a0bc9945d.jpg"
+  },
+  {
+    "name": "complete_pack_116_puzzle_17",
+    "defaultvalue": 0,
+    "displayName": "Old Saddle Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Old Saddle",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/d5983b0f5a0a0ab70552894085a5da7f9bf5031f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/78ce0f0cf00407cbc709a1eaafdae086aa04578d.jpg"
+  },
+  {
+    "name": "complete_pack_116_puzzle_18",
+    "defaultvalue": 0,
+    "displayName": "Portofino Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Portofino",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/69e5b4ccfae7a4d4ae9b9e06685d2d21d8c8b688.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/6819c8acfe47cb36fa5f99851fb1eccea814c2d0.jpg"
+  },
+  {
+    "name": "complete_pack_116_puzzle_19",
+    "defaultvalue": 0,
+    "displayName": "Red Sky Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Red Sky",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/7d8bc79f6b3100e9a1901e444e7e3bcb7e0b63d0.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/7b29bacb283ebe99eaa9b88bc1d8d96ded3c8226.jpg"
+  },
+  {
+    "name": "complete_pack_116_puzzle_20",
+    "defaultvalue": 0,
+    "displayName": "Smartphone Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Smartphone",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/ece0bb957139627d96468c35177e3fc92a880550.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/ec7c89b321b50bdbe8bde50354cf515474ef2d35.jpg"
+  },
+  {
+    "name": "complete_pack_116_puzzle_21",
+    "defaultvalue": 0,
+    "displayName": "Snowy Homes Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Snowy Homes",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/b43c9c6fd4bb6a5fb64a71f50a19b0276d206566.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/f5b952399cc1bba42ee9e02e762ec3ccd68b58d4.jpg"
+  },
+  {
+    "name": "complete_pack_116_puzzle_22",
+    "defaultvalue": 0,
+    "displayName": "Temple Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Temple",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/bb914019672c146bc2e492e7747108d5557ce084.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/0ebb63e67b8fd2883069c0f5c3ca2f961e555c7e.jpg"
+  },
+  {
+    "name": "complete_pack_116_puzzle_23",
+    "defaultvalue": 0,
+    "displayName": "Train Station Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Train Station",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/d50dbbd3fda25c21107a53c641ae98d4c7bab203.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/8835cfa9e2b86891092dde7d6800a9faf1cb5b17.jpg"
+  },
+  {
+    "name": "complete_pack_116_puzzle_24",
+    "defaultvalue": 0,
+    "displayName": "Wallaby Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Wallaby",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/6ab31a1918811c5ec1b02c95024d155d5379fba1.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/0ba1f9a44df495e96d6a3015c4c7733c5254f896.jpg"
+  },
+  {
+    "name": "complete_pack_116_puzzle_25",
+    "defaultvalue": 0,
+    "displayName": "Watercolours Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Watercolours",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/882713e6f6441d6d1b764520c353b75962b0c119.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/0440fb2e759a86e0011bb4e4ea1a11e9c6c00877.jpg"
+  },
+  {
+    "name": "challenge_53",
+    "defaultvalue": 0,
+    "displayName": "Challenge 53 Complete!",
+    "hidden": 0,
+    "description": "Complete Challenge 53",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/f1833090a9d405a08c8daaf5b90a6ce3ac3269b4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/633302dd74ab0c7ca1ad949a215fb02bbe4763eb.jpg"
+  },
+  {
+    "name": "kioskchallenges53",
+    "defaultvalue": 0,
+    "displayName": "Kiosk Item Unlocked: Challenge 53",
+    "hidden": 0,
+    "description": "Kiosk Item: Challenge 53",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/e30b561de2eb531eddf66c795ba9c97256b9b393.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/3890ca6e5942b0c5223f97fdb2f5876b0d1416f1.jpg"
+  },
+  {
+    "name": "complete_pack_119",
+    "defaultvalue": 0,
+    "displayName": "All Variety Pack 18 Puzzles Complete!",
+    "hidden": 0,
+    "description": "Complete Pack: Variety Pack 18",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/46b9f7dcdbd92e4defc00d2c42d10104bf05e826.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/bc7158f78679a24dff2870e2efeb981d437bb862.jpg"
+  },
+  {
+    "name": "complete_pack_119_puzzle_1",
+    "defaultvalue": 0,
+    "displayName": "African Daisy Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: African Daisy",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/718a7847d5fc8c547c81ddf73f257ebdcd28f399.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/ccd423c62a97a9f0a7811100a347cef21fb2b05b.jpg"
+  },
+  {
+    "name": "complete_pack_119_puzzle_2",
+    "defaultvalue": 0,
+    "displayName": "Army Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Army",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/372770a6714745aa869bcf61db09d07e1a5e8d8d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/f76a6dac4fd0e4a87f96dd4a851be1fd07c8fae7.jpg"
+  },
+  {
+    "name": "complete_pack_119_puzzle_3",
+    "defaultvalue": 0,
+    "displayName": "Beach Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Beach",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/7609a459585f14590dcbfd1eba4811e0e1ad93b5.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/523d87f5ef48f8f0fb5fb9e17ad9cb9dff469df0.jpg"
+  },
+  {
+    "name": "complete_pack_119_puzzle_4",
+    "defaultvalue": 0,
+    "displayName": "Bear Hug Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Bear Hug",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/d4e247939bd6e35bc3e3c43f82fd669737cf889c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/366284b5f52d540502b87655999115bbee97a25b.jpg"
+  },
+  {
+    "name": "complete_pack_119_puzzle_5",
+    "defaultvalue": 0,
+    "displayName": "Climber Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Climber",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/2cff47b74a55081be331d011043be307efb436fb.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/63fb13b072e470ca3f25809a92633bd40a1641e6.jpg"
+  },
+  {
+    "name": "complete_pack_119_puzzle_6",
+    "defaultvalue": 0,
+    "displayName": "Craft Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Craft",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/05343d0947b31b34abe4975a0936582b761eb164.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/ff1f1fae6988949c3f1e2cdd381471f3be8d16cd.jpg"
+  },
+  {
+    "name": "complete_pack_119_puzzle_7",
+    "defaultvalue": 0,
+    "displayName": "Crusader Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Crusader",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/b0248e9ec3384930625aed208488e6059274045b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/5cd29d95450366568959a4fdae8699a401eae651.jpg"
+  },
+  {
+    "name": "complete_pack_119_puzzle_8",
+    "defaultvalue": 0,
+    "displayName": "Dreams Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Dreams",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/13cd696633462b04dd7bc88494710a8f8c98e951.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/903000253d8e40a7389c73e198a4c82ec4e9ae4d.jpg"
+  },
+  {
+    "name": "complete_pack_119_puzzle_9",
+    "defaultvalue": 0,
+    "displayName": "Elephants Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Elephants",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/f97781083d948e2647c4be7175b9c0cd464e059e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/3385ba8b1ae4059303975bf6fc3805b369471ce5.jpg"
+  },
+  {
+    "name": "complete_pack_119_puzzle_10",
+    "defaultvalue": 0,
+    "displayName": "Fairy Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Fairy",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/71991926ec60621b5c77f86a3279200ccfcc2273.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/62ac113ab5c7a3d067321ebf91ecfd8ef715a0d7.jpg"
+  },
+  {
+    "name": "complete_pack_119_puzzle_11",
+    "defaultvalue": 0,
+    "displayName": "Fire Show Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Fire Show",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/81aa189ddb319a3c48a920b7baed87c16f15dff5.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/6fb7819029321e3a5733294a15e6d01968e0a2c3.jpg"
+  },
+  {
+    "name": "complete_pack_119_puzzle_12",
+    "defaultvalue": 0,
+    "displayName": "Fireworks Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Fireworks",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/03967743224bafd716ed3244661418240470592e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/7e9ce6f43a540b9f64595f47ba513bbc8aa566bb.jpg"
+  },
+  {
+    "name": "complete_pack_119_puzzle_13",
+    "defaultvalue": 0,
+    "displayName": " Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: ",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/02797d2069695c0bbf9061ad4a73092717270c39.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/64ea8d196a9a438ab7b80c55f22b265092fff6b1.jpg"
+  },
+  {
+    "name": "complete_pack_119_puzzle_14",
+    "defaultvalue": 0,
+    "displayName": "LizzArt Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: LizzArt",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/b66c932ccf23edb6711d6b13532f9da0bcd631c3.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/28635f2a6a50340f3515ead685d8fb12b70a99a7.jpg"
+  },
+  {
+    "name": "complete_pack_119_puzzle_15",
+    "defaultvalue": 0,
+    "displayName": "Modern Castle Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Modern Castle",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/198f413704769982987ca5d7952adb49331042fc.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/710dbeb5f2ca23943a7e44c108cdc6fc410ec96c.jpg"
+  },
+  {
+    "name": "complete_pack_119_puzzle_16",
+    "defaultvalue": 0,
+    "displayName": "Nepal Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Nepal",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/a0821cbd8a42a64ce9dc6b51c395ee21acb0cf6b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/aec6a4de236c224a9c82e493a542915dab8745f5.jpg"
+  },
+  {
+    "name": "complete_pack_119_puzzle_17",
+    "defaultvalue": 0,
+    "displayName": "Plaza Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Plaza",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/36f0a4a196c00370cd4c23b8b6b64579c8195eda.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/ea9e22f03d311fb07bfdbbce6685d3f8b2648e66.jpg"
+  },
+  {
+    "name": "complete_pack_119_puzzle_18",
+    "defaultvalue": 0,
+    "displayName": "Pollen Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Pollen",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/b4cb597409f23e04f81e276c7ca96740af821a2a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/0cce6a83e5cf7da221b24e5d10c435cd1bc5aaea.jpg"
+  },
+  {
+    "name": "complete_pack_119_puzzle_19",
+    "defaultvalue": 0,
+    "displayName": "Powerful Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Powerful",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/8430f755b96106c26ccb2ba2329ea3eb60391db3.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/85b3c23120d036e090b9dafcd37494e36b0bbd6d.jpg"
+  },
+  {
+    "name": "complete_pack_119_puzzle_20",
+    "defaultvalue": 0,
+    "displayName": "Ready Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Ready",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/a93de7e4d0734e44b20bd5d5115735235f064945.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/62be16270d367d46ffe366c70efd99dd2aed57bc.jpg"
+  },
+  {
+    "name": "complete_pack_119_puzzle_21",
+    "defaultvalue": 0,
+    "displayName": "Rose Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Rose",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/49d87cb4419756ea6348d95bfb1be4343ce32775.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/4440fca7df0b6d6b8cea6b6ad2abeec7907f88b1.jpg"
+  },
+  {
+    "name": "complete_pack_119_puzzle_22",
+    "defaultvalue": 0,
+    "displayName": "Selfie Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Selfie",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/ea3f3f83f305c14da134d4c860cb16d281809d75.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/d73dfa26194e9ddafc3ab775f533546d829b0b60.jpg"
+  },
+  {
+    "name": "complete_pack_119_puzzle_23",
+    "defaultvalue": 0,
+    "displayName": "Tenerife Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Tenerife",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/4fe158c98e32cf2c0b28c7c12da5ccce97059db4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/2c9ed9f9cca871f85bb6138af16d4ca1c379224a.jpg"
+  },
+  {
+    "name": "complete_pack_119_puzzle_24",
+    "defaultvalue": 0,
+    "displayName": "Varanus Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Varanus",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/61281cba68c45d05aaac13ad960804cc3a81d8bc.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/fceb395b161df179c7ad4f7e5431fb78564f388d.jpg"
+  },
+  {
+    "name": "complete_pack_119_puzzle_25",
+    "defaultvalue": 0,
+    "displayName": "Virus Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Virus",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/d4efb667e92890937a66344659b329d74bc9fedf.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/b0226511dd7f7df76ae59b5bd4d4ab621f4b474a.jpg"
+  },
+  {
+    "name": "kioskchallenges54",
+    "defaultvalue": 0,
+    "displayName": "Kiosk Item Unlocked: Challenge 54",
+    "hidden": 0,
+    "description": "Kiosk Item: Challenge 54",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/c7b6d3cb994b23f246120a1ef68e145e91553dd0.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/3dd6b46cc6224e0263ba0108c5a8b7b3d0a203c2.jpg"
+  },
+  {
+    "name": "challenge_54",
+    "defaultvalue": 0,
+    "displayName": "Challenge 54 Complete!",
+    "hidden": 0,
+    "description": "Complete Challenge 54",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/1020c367d7521f098577d43b5d3f12d8644cacd7.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/fd9bfc667575214d04053e5dba549dc640bf47d3.jpg"
+  },
+  {
+    "name": "kioskchallenges55",
+    "defaultvalue": 0,
+    "displayName": "Kiosk Item Unlocked: Challenge 55",
+    "hidden": 0,
+    "description": "Kiosk Item: Challenge 55",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/0c4bcf8fc791825fe8f4f314b827c38cd7c5f45c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/57bfd1b1c6369f0115523b7acb5325c2bb13c0d4.jpg"
+  },
+  {
+    "name": "challenge_55",
+    "defaultvalue": 0,
+    "displayName": "Challenge 55 Complete!",
+    "hidden": 0,
+    "description": "Complete Challenge 55",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/214214937853ac542c7d3d09f07899e1086485bb.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/68421ae0c73b98580a2a901bc1bf122c0b9e4a06.jpg"
+  },
+  {
+    "name": "complete_pack_127_puzzle_3",
+    "defaultvalue": 0,
+    "displayName": "Deadswitch 3 Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Deadswitch 3",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/e7f9f29bb6b15fd2aef79003f473c74cef22eec5.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/a66159064c94209305193ad3eb69cdd30ffa5925.jpg"
+  },
+  {
+    "name": "kioskchallenges56",
+    "defaultvalue": 0,
+    "displayName": "Kiosk Item Unlocked: Challenge 56",
+    "hidden": 0,
+    "description": "Kiosk Item: Challenge 56",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/2594efac4c4497307a89816dd65c59af5ba37b8d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/7cff7c5d9d53dd149d3ff182fc9c04695763b401.jpg"
+  },
+  {
+    "name": "challenge_56",
+    "defaultvalue": 0,
+    "displayName": "Challenge 56 Complete!",
+    "hidden": 0,
+    "description": "Complete Challenge 56",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/f0a7e0fea370499f9bce2fd71d882794f2feed09.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/c2dd7f9a6850e47a72dbad84d61b160690d6fd1d.jpg"
+  },
+  {
+    "name": "complete_pack_129",
+    "defaultvalue": 0,
+    "displayName": "All Cheregi 2 Puzzles Complete!",
+    "hidden": 0,
+    "description": "Complete Pack: Cheregi 2",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/19113aee000e210b457433f37540dfcc94bee8a2.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/85980abd53301361846036ddd8a3124b8d380a54.jpg"
+  },
+  {
+    "name": "complete_pack_129_puzzle_1",
+    "defaultvalue": 0,
+    "displayName": "Space Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Space",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/57bab062b44ca73746eb7ef8cf6d5f8c085880a6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/fab36cab2d4276fd874f1354d1bdff0878277773.jpg"
+  },
+  {
+    "name": "complete_pack_129_puzzle_2",
+    "defaultvalue": 0,
+    "displayName": "Guilt Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Guilt",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/81b997e8ad17fe45c2e75fa45de5d4dde4e19369.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/010467ef57d6bc44a84f5742cd77e20c332e7d50.jpg"
+  },
+  {
+    "name": "complete_pack_129_puzzle_3",
+    "defaultvalue": 0,
+    "displayName": "Beginning Or The End Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Beginning Or The End",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/c50c097119ae7c3bb24d934ca444b843a4cdfcc7.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/8fd019d17ecb9260b6e97e2d89411d609f1f5ce9.jpg"
+  },
+  {
+    "name": "complete_pack_129_puzzle_4",
+    "defaultvalue": 0,
+    "displayName": "Victory Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Victory",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/555b68b955805b098e5a556afc732b7bfdc25ac1.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/a7bd93f1f4a952ac40f4a5024ce55d12eb827eeb.jpg"
+  },
+  {
+    "name": "complete_pack_129_puzzle_5",
+    "defaultvalue": 0,
+    "displayName": "The Goat Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: The Goat",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/17efa648609db3e62e85bed8dd673490c03b7688.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/6a404770d3e2548d3535277b6686094385c881c8.jpg"
+  },
+  {
+    "name": "complete_pack_129_puzzle_6",
+    "defaultvalue": 0,
+    "displayName": "Delusions Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Delusions",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/e1ab3d834bd52748cf171b8df766b4fce429c864.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/ed578e6f2b679bc6bf9f0b6ace9da3b00630dcc9.jpg"
+  },
+  {
+    "name": "complete_pack_129_puzzle_7",
+    "defaultvalue": 0,
+    "displayName": "One Man Band Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: One Man Band",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/4b60f1a3062f3c4929f88b9b8578239ebe8999e2.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/2731d9c295b11b0c5a4fdae9417d5eb42ad394c6.jpg"
+  },
+  {
+    "name": "complete_pack_129_puzzle_8",
+    "defaultvalue": 0,
+    "displayName": "Godess Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Godess",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/02e7ebbd3a759d4163e9d7ea08a8a51583e54261.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/0f9433268363282245a75b9f36ff17959985a61d.jpg"
+  },
+  {
+    "name": "complete_pack_129_puzzle_9",
+    "defaultvalue": 0,
+    "displayName": "Vista Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Vista",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/e9cf11d13e0ce2fa3772bbfe6c1841edd075580d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/4930097f535a96cf7b21828807c1ec542dcd1baa.jpg"
+  },
+  {
+    "name": "complete_pack_129_puzzle_10",
+    "defaultvalue": 0,
+    "displayName": "Knowledge Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Knowledge",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/40ce8f961a5ac22fe73427956915e41f6f0453bb.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/a645dcfb2ae1f1b3ba9dacf588f19afedc7b910c.jpg"
+  },
+  {
+    "name": "complete_pack_129_puzzle_11",
+    "defaultvalue": 0,
+    "displayName": "Whale Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Whale",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/8eedc3b29fb4372ef8108558de120e73f5d61327.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/660aa86ba083c93d319bc1854456038e279a0f27.jpg"
+  },
+  {
+    "name": "complete_pack_129_puzzle_13",
+    "defaultvalue": 0,
+    "displayName": "Hell Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Hell",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/190af0f84d1ddbe884f816bd2d44afe3e28305c1.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/175e6e5d080ae651c3e9268fc0177190eebbf343.jpg"
+  },
+  {
+    "name": "complete_pack_129_puzzle_14",
+    "defaultvalue": 0,
+    "displayName": "Dacian Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Dacian",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/e9f20fce805ad945fea53c165b39899bae9571e2.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/1d86368bcfee5f508815537186cf981c58569078.jpg"
+  },
+  {
+    "name": "complete_pack_129_puzzle_15",
+    "defaultvalue": 0,
+    "displayName": "Lady Of The River Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Lady Of The River",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/b486e12e9ad26039608464af61ea675cacd6d1a9.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/aab0d42a3e782b32ef3b9107d321e2cd039e9e74.jpg"
+  },
+  {
+    "name": "complete_pack_129_puzzle_12",
+    "defaultvalue": 0,
+    "displayName": "Scream Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Scream",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/515c3ff0c2249364e714472ed95d63486c0fb4b4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/0f884b39a2cc631164f8c0457c96f4f81dd3c0e0.jpg"
+  },
+  {
+    "name": "challenge_57",
+    "defaultvalue": 0,
+    "displayName": "Challenge 57 Complete!",
+    "hidden": 0,
+    "description": "Complete Challenge 57",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/2c5001658b7ea36acf9d103245d3ef36e0ddfa4f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/8fda51537d1d9e468ef10cf93bae6b5de262867e.jpg"
+  },
+  {
+    "name": "kioskchallenges57",
+    "defaultvalue": 0,
+    "displayName": "Kiosk Item Unlocked: Challenge 57",
+    "hidden": 0,
+    "description": "Kiosk Item: Challenge 57",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/79aef5b160a8a1f568a31ed0e310400bbef3e219.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/715a7fed5489ee7accf79087f668d61ac978a082.jpg"
+  },
+  {
+    "name": "complete_pack_24_puzzle_7",
+    "defaultvalue": 0,
+    "displayName": "Windy Road Complete!",
+    "hidden": 0,
+    "description": "Complete Puzzle: Windy Road",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/4f0be88d4f4a0baa3547b45e6d52336dd1096385.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/351030/b4a1475c01b704eabd884f0494f499ac08714025.jpg"
   }
 ]

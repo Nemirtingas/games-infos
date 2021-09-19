@@ -1,34 +1,47 @@
-﻿{
-  "game": {
-    "description": "Game made",
-    "value": 0
+[
+  {
+    "name": "game",
+    "defaultvalue": 0,
+    "displayName": "Game made"
   },
-  "postmortem": {
-    "description": "Postmortem",
-    "value": 0
+  {
+    "name": "postmortem",
+    "defaultvalue": 0,
+    "displayName": "Postmortem"
   },
-  "sells": {
-    "description": "Sells",
-    "value": 0
+  {
+    "name": "sells",
+    "defaultvalue": 0,
+    "displayName": "Sells"
   },
-  "fanbase": {
-    "description": "Fanbase",
-    "value": 0
+  {
+    "name": "fanbase",
+    "defaultvalue": 0,
+    "displayName": "Fanbase"
   },
-  "uniqgenre": {
-    "description": "Genre unique débloqué",
-    "value": 0
+  {
+    "name": "uniqgenre",
+    "defaultvalue": 0,
+    "displayName": "Genre unique débloqué"
   },
-  "unlockedgenre": {
-    "description": "Genres débloqués",
-    "value": 0
+  {
+    "name": "unlockedgenre",
+    "defaultvalue": 0,
+    "displayName": "Genres débloqués"
   },
-  "studio": {
-    "description": "Nombre de studio",
-    "value": 0
+  {
+    "name": "studio",
+    "defaultvalue": 0,
+    "displayName": "Nombre de studio"
   },
-  "unlockedplatform": {
-    "description": "Nombre de plateforme débloquee",
-    "value": 0
+  {
+    "name": "unlockedplatform",
+    "defaultvalue": 0,
+    "displayName": "Nombre de plateforme débloquee"
+  },
+  {
+    "name": "customplatform",
+    "defaultvalue": 0,
+    "displayName": "Consoles perso"
   }
-}
+]

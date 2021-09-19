@@ -1,82 +1,102 @@
-﻿{
-  "Stat_Music_Volume": {
-    "description": "",
-    "value": 50
+[
+  {
+    "name": "Stat_Music_Volume",
+    "defaultvalue": 50,
+    "displayName": ""
   },
-  "Stat_Sound_Effects_Volume": {
-    "description": "",
-    "value": 50
+  {
+    "name": "Stat_Sound_Effects_Volume",
+    "defaultvalue": 50,
+    "displayName": ""
   },
-  "Stat_Level_Reached": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Stat_Level_Reached",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Stat_Last_Selected_Level": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Stat_Last_Selected_Level",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Stat_Hints": {
-    "description": "",
-    "value": 1
+  {
+    "name": "Stat_Hints",
+    "defaultvalue": 1,
+    "displayName": ""
   },
-  "Stat_Conveyors_Turned_On_Or_Off": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Stat_Conveyors_Turned_On_Or_Off",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Stat_Conveyors_Switched": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Stat_Conveyors_Switched",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Stat_Splitters_Switched": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Stat_Splitters_Switched",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Stat_Mallets_Turned_On_Or_Off": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Stat_Mallets_Turned_On_Or_Off",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Stat_Tubes_Turned_On_Or_Off": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Stat_Tubes_Turned_On_Or_Off",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Stat_Turntables_Turned_On_Or_Off": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Stat_Turntables_Turned_On_Or_Off",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Stat_Turntables_Switched": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Stat_Turntables_Switched",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Stat_Collapsing_Platforms_Collapsed": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Stat_Collapsing_Platforms_Collapsed",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Stat_Imposter_Penguins_Hit_By_Mallets": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Stat_Imposter_Penguins_Hit_By_Mallets",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Stat_Non_Imposter_Penguins_Hit_By_Mallets": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Stat_Non_Imposter_Penguins_Hit_By_Mallets",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Stat_Imposter_Penguins_In_Boxes": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Stat_Imposter_Penguins_In_Boxes",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Stat_Non_Imposter_Penguins_In_Boxes": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Stat_Non_Imposter_Penguins_In_Boxes",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Stat_Penguins_Through_Splitters": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Stat_Penguins_Through_Splitters",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Stat_Penguins_Through_Tubes": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Stat_Penguins_Through_Tubes",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Stat_Penguins_On_Turntables": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Stat_Penguins_On_Turntables",
+    "defaultvalue": 0,
+    "displayName": ""
   }
-}
+]

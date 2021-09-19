@@ -1,54 +1,67 @@
-﻿{
-  "STAT_EARLY_ACCESS": {
-    "description": "Early Access",
-    "value": 0
+[
+  {
+    "name": "STAT_EARLY_ACCESS",
+    "defaultvalue": 0,
+    "displayName": "Early Access"
   },
-  "STAT_SCORE": {
-    "description": "Best Score",
-    "value": 0
+  {
+    "name": "STAT_SCORE",
+    "defaultvalue": 0,
+    "displayName": "Best Score"
   },
-  "STAT_DIFF": {
-    "description": "Max difficulty",
-    "value": 0
+  {
+    "name": "STAT_DIFF",
+    "defaultvalue": 0,
+    "displayName": "Max difficulty"
   },
-  "STAT_LEVEL_WIN": {
-    "description": "",
-    "value": 0
+  {
+    "name": "STAT_LEVEL_WIN",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "STAT_DAMAGE_CAUSED": {
-    "description": "",
-    "value": 0
+  {
+    "name": "STAT_DAMAGE_CAUSED",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "STAT_DAMAGE_ABSORBED": {
-    "description": "",
-    "value": 0
+  {
+    "name": "STAT_DAMAGE_ABSORBED",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "STAT_KILL_BOSS": {
-    "description": "",
-    "value": 0
+  {
+    "name": "STAT_KILL_BOSS",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "STAT_KILL_ENEMY": {
-    "description": "",
-    "value": 0
+  {
+    "name": "STAT_KILL_ENEMY",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "STAT_KILL_MAN": {
-    "description": "",
-    "value": 0
+  {
+    "name": "STAT_KILL_MAN",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "STAT_CARGO_UNLOCK": {
-    "description": "Unlocked cargos in Atarix",
-    "value": 0
+  {
+    "name": "STAT_CARGO_UNLOCK",
+    "defaultvalue": 0,
+    "displayName": "Unlocked cargos in Atarix"
   },
-  "STAT_FIRED_SHOTS": {
-    "description": "",
-    "value": 0
+  {
+    "name": "STAT_FIRED_SHOTS",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "STAT_BONUS_COUNT": {
-    "description": "",
-    "value": 0
+  {
+    "name": "STAT_BONUS_COUNT",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "STAT_VERSION": {
-    "description": "Stat version",
-    "value": 0
+  {
+    "name": "STAT_VERSION",
+    "defaultvalue": 0,
+    "displayName": "Stat version"
   }
-}
+]

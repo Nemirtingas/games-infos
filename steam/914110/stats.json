@@ -1,42 +1,52 @@
-﻿{
-  "ACH_PISTOL_STAT": {
-    "description": "",
-    "value": 0
+[
+  {
+    "name": "ACH_PISTOL_STAT",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "ACH_SHOTGUN_STAT": {
-    "description": "",
-    "value": 0
+  {
+    "name": "ACH_SHOTGUN_STAT",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "ACH_MACHINE_PISTOL_STAT": {
-    "description": "",
-    "value": 0
+  {
+    "name": "ACH_MACHINE_PISTOL_STAT",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "ACH_GRENADE_STAT": {
-    "description": "",
-    "value": 0
+  {
+    "name": "ACH_GRENADE_STAT",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "ACH_RIFLE_STAT": {
-    "description": "",
-    "value": 0
+  {
+    "name": "ACH_RIFLE_STAT",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "ACH_OUTFLANKED_STAT": {
-    "description": "",
-    "value": 0
+  {
+    "name": "ACH_OUTFLANKED_STAT",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "ACH_HEAL_STAT": {
-    "description": "",
-    "value": 0
+  {
+    "name": "ACH_HEAL_STAT",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "ACH_SKILL_SHOT_STAT": {
-    "description": "",
-    "value": 0
+  {
+    "name": "ACH_SKILL_SHOT_STAT",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "ACH_COUNTERACT_STAT": {
-    "description": "",
-    "value": 0
+  {
+    "name": "ACH_COUNTERACT_STAT",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "ACH_HIRE_UNIT_STAT": {
-    "description": "",
-    "value": 0
+  {
+    "name": "ACH_HIRE_UNIT_STAT",
+    "defaultvalue": 0,
+    "displayName": ""
   }
-}
+]

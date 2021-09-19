@@ -1,18 +1,22 @@
-﻿{
-  "GamesPlayed": {
-    "description": "Games Played",
-    "value": 0
+[
+  {
+    "name": "GamesPlayed",
+    "defaultvalue": 0,
+    "displayName": "Games Played"
   },
-  "TopScore": {
-    "description": "Top Score",
-    "value": 0
+  {
+    "name": "TopScore",
+    "defaultvalue": 0,
+    "displayName": "Top Score"
   },
-  "NumberStrikes": {
-    "description": "Strike Count",
-    "value": 0
+  {
+    "name": "NumberStrikes",
+    "defaultvalue": 0,
+    "displayName": "Strike Count"
   },
-  "NumberSpares": {
-    "description": "Spare Count",
-    "value": 0
+  {
+    "name": "NumberSpares",
+    "defaultvalue": 0,
+    "displayName": "Spare Count"
   }
-}
+]

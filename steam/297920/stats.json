@@ -1,86 +1,107 @@
-﻿{
-  "STAT_TITANIUM": {
-    "description": "Titanium Extracted",
-    "value": 0
+[
+  {
+    "name": "STAT_TITANIUM",
+    "defaultvalue": 0,
+    "displayName": "Titanium Extracted"
   },
-  "STAT_IRON": {
-    "description": "Iron Extracted",
-    "value": 0
+  {
+    "name": "STAT_IRON",
+    "defaultvalue": 0,
+    "displayName": "Iron Extracted"
   },
-  "STAT_ARGON": {
-    "description": "Argon Extracted",
-    "value": 0
+  {
+    "name": "STAT_ARGON",
+    "defaultvalue": 0,
+    "displayName": "Argon Extracted"
   },
-  "STAT_NUTRIENTS": {
-    "description": "Nutrients Processed",
-    "value": 0
+  {
+    "name": "STAT_NUTRIENTS",
+    "defaultvalue": 0,
+    "displayName": "Nutrients Processed"
   },
-  "STAT_ELECTRONICS": {
-    "description": "Electronics Fabricated",
-    "value": 0
+  {
+    "name": "STAT_ELECTRONICS",
+    "defaultvalue": 0,
+    "displayName": "Electronics Fabricated"
   },
-  "STAT_IRIDIUM": {
-    "description": "Iridium Processed",
-    "value": 0
+  {
+    "name": "STAT_IRIDIUM",
+    "defaultvalue": 0,
+    "displayName": "Iridium Processed"
   },
-  "STAT_CHICKEN_PROC": {
-    "description": "Space Chickens Processed",
-    "value": 0
+  {
+    "name": "STAT_CHICKEN_PROC",
+    "defaultvalue": 0,
+    "displayName": "Space Chickens Processed"
   },
-  "STAT_PODS_PICKED": {
-    "description": "Protoraptor Pods Gathered",
-    "value": 0
+  {
+    "name": "STAT_PODS_PICKED",
+    "defaultvalue": 0,
+    "displayName": "Protoraptor Pods Gathered"
   },
-  "STAT_SILICON": {
-    "description": "Silicon Extracted",
-    "value": 0
+  {
+    "name": "STAT_SILICON",
+    "defaultvalue": 0,
+    "displayName": "Silicon Extracted"
   },
-  "STAT_LUPULUS_REMOVED": {
-    "description": "Lupulus Removed",
-    "value": 0
+  {
+    "name": "STAT_LUPULUS_REMOVED",
+    "defaultvalue": 0,
+    "displayName": "Lupulus Removed"
   },
-  "STAT_REPAIRS": {
-    "description": "Repairs Made",
-    "value": 0
+  {
+    "name": "STAT_REPAIRS",
+    "defaultvalue": 0,
+    "displayName": "Repairs Made"
   },
-  "STAT_RESURRECT": {
-    "description": "Colonist Resurrected",
-    "value": 0
+  {
+    "name": "STAT_RESURRECT",
+    "defaultvalue": 0,
+    "displayName": "Colonist Resurrected"
   },
-  "STAT_ANDROID": {
-    "description": "Androids Created",
-    "value": 0
+  {
+    "name": "STAT_ANDROID",
+    "defaultvalue": 0,
+    "displayName": "Androids Created"
   },
-  "STAT_SHOWER": {
-    "description": "Showers Taken",
-    "value": 0
+  {
+    "name": "STAT_SHOWER",
+    "defaultvalue": 0,
+    "displayName": "Showers Taken"
   },
-  "STAT_DISCO": {
-    "description": "Times Disco Used",
-    "value": 0
+  {
+    "name": "STAT_DISCO",
+    "defaultvalue": 0,
+    "displayName": "Times Disco Used"
   },
-  "STAT_LITTER_CLEANED": {
-    "description": "Litter Cleaned Up",
-    "value": 0
+  {
+    "name": "STAT_LITTER_CLEANED",
+    "defaultvalue": 0,
+    "displayName": "Litter Cleaned Up"
   },
-  "STAT_PARTICIPANT": {
-    "description": "User has participated",
-    "value": 0
+  {
+    "name": "STAT_PARTICIPANT",
+    "defaultvalue": 0,
+    "displayName": "User has participated"
   },
-  "STAT_GALAXY_FLAG": {
-    "description": "Galaxy Mode Flags",
-    "value": 0
+  {
+    "name": "STAT_GALAXY_FLAG",
+    "defaultvalue": 0,
+    "displayName": "Galaxy Mode Flags"
   },
-  "STAT_SKILLS_FLAG": {
-    "description": "Skill Training Flags",
-    "value": 0
+  {
+    "name": "STAT_SKILLS_FLAG",
+    "defaultvalue": 0,
+    "displayName": "Skill Training Flags"
   },
-  "STAT_OROX_KILLED": {
-    "description": "Orox Killed",
-    "value": 0
+  {
+    "name": "STAT_OROX_KILLED",
+    "defaultvalue": 0,
+    "displayName": "Orox Killed"
   },
-  "STAT_TAMI_FLAG": {
-    "description": "Tami Friendship Flag",
-    "value": 0
+  {
+    "name": "STAT_TAMI_FLAG",
+    "defaultvalue": 0,
+    "displayName": "Tami Friendship Flag"
   }
-}
+]

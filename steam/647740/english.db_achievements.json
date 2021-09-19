@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "name": "DELIVERY_FIRST",
     "defaultvalue": 0,
@@ -122,6 +122,33 @@
     "displayName": "Student",
     "hidden": 0,
     "description": "Open any guide in the guides menu.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/647740/110aa6f90bf00df8d0a9cd59a0a68b7a15516759.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/647740/b605e44219f15702647f157e863cc3d49d45b858.jpg"
+  },
+  {
+    "name": "EASY_RS_COMPLETE",
+    "defaultvalue": 0,
+    "displayName": "Researcher",
+    "hidden": 0,
+    "description": "Complete all research on easy difficulty or harder.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/647740/110aa6f90bf00df8d0a9cd59a0a68b7a15516759.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/647740/b605e44219f15702647f157e863cc3d49d45b858.jpg"
+  },
+  {
+    "name": "MEDIUM_RS_COMPLETE",
+    "defaultvalue": 0,
+    "displayName": "Loremaster",
+    "hidden": 0,
+    "description": "Complete all research on medium difficulty or harder.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/647740/110aa6f90bf00df8d0a9cd59a0a68b7a15516759.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/647740/b605e44219f15702647f157e863cc3d49d45b858.jpg"
+  },
+  {
+    "name": "HARD_RS_COMPLETE",
+    "defaultvalue": 0,
+    "displayName": "Renaissance Man",
+    "hidden": 0,
+    "description": "Complete all research on hard difficulty.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/647740/110aa6f90bf00df8d0a9cd59a0a68b7a15516759.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/647740/b605e44219f15702647f157e863cc3d49d45b858.jpg"
   }

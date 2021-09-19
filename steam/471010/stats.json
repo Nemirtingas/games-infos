@@ -1,14 +1,17 @@
-﻿{
-  "StealthKills": {
-    "description": "",
-    "value": 0
+[
+  {
+    "name": "StealthKills",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Thefts": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Thefts",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "DisguisesUsed": {
-    "description": "",
-    "value": 0
+  {
+    "name": "DisguisesUsed",
+    "defaultvalue": 0,
+    "displayName": ""
   }
-}
+]

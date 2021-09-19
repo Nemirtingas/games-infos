@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "name": "ach_rank_1",
     "defaultvalue": 0,
@@ -76,7 +76,7 @@
     "defaultvalue": 0,
     "displayName": "Early Bird",
     "hidden": 0,
-    "description": "Can be achieved by purchasing game during alpha phase.",
+    "description": "Can be achieved by purchasing Early Access License.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1131720/53dc333fb2190f26d624162b3a8bbf1b24a3ddbc.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1131720/9e83a3e4154eac3d8614af31afdacb5db8201a49.jpg"
   },
@@ -187,5 +187,158 @@
     "description": "Receive 100 golden thumbs up from other players.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1131720/67e67360d9c30cb5251ad819695bac951cf25efc.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1131720/5e9985c3797f036daae1b59d19d34c4f7f2cb080.jpg"
+  },
+  {
+    "name": "ach_prop_reaper_1",
+    "defaultvalue": 0,
+    "displayName": "Prop Reaper (Ivory)",
+    "hidden": 0,
+    "description": "Destroy 15 prop players in one round.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1131720/8359806c7afd8c49249e3afa68d0aa2b8db8c061.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1131720/ec0979ac947991217afee5f5458ff0b7af837abe.jpg"
+  },
+  {
+    "name": "ach_prop_reaper_5",
+    "defaultvalue": 0,
+    "displayName": "Prop Reaper (Yellow)",
+    "hidden": 0,
+    "description": "Destroy 15 prop players in one round.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1131720/bda8bd60132d0efad6f266a9666ade3757f943cd.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1131720/ec0979ac947991217afee5f5458ff0b7af837abe.jpg"
+  },
+  {
+    "name": "ach_prop_reaper_10",
+    "defaultvalue": 0,
+    "displayName": "Prop Reaper (Blue)",
+    "hidden": 0,
+    "description": "Destroy 15 prop players in one round.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1131720/1feff06195f071824b631eb75fe54e348bc650bb.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1131720/a33ff9186508e8fa650798f896329e6a71b7d2e5.jpg"
+  },
+  {
+    "name": "ach_prop_reaper_50",
+    "defaultvalue": 0,
+    "displayName": "Prop Reaper (Purple)",
+    "hidden": 0,
+    "description": "Destroy 15 prop players in one round.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1131720/7aed6c0e8a7f0d12844b478688d112bbe5833095.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1131720/a33ff9186508e8fa650798f896329e6a71b7d2e5.jpg"
+  },
+  {
+    "name": "ach_last_man_standing_1",
+    "defaultvalue": 0,
+    "displayName": "Last Man Standing (Ivory)",
+    "hidden": 0,
+    "description": "Be a last prop player and win the round.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1131720/4beb012932f469f2a9fb5531def27edbd936ad92.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1131720/69bf7b5e7d7d5dc82386a1a0cc2f89cceffcc0dc.jpg"
+  },
+  {
+    "name": "ach_last_man_standing_5",
+    "defaultvalue": 0,
+    "displayName": "Last Man Standing (Yellow)",
+    "hidden": 0,
+    "description": "Be a last prop player and win the round.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1131720/ed6fa22df2d0671363bc2f2d0e9ef34576e4fc2b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1131720/69bf7b5e7d7d5dc82386a1a0cc2f89cceffcc0dc.jpg"
+  },
+  {
+    "name": "ach_last_man_standing_10",
+    "defaultvalue": 0,
+    "displayName": "Last Man Standing (Blue)",
+    "hidden": 0,
+    "description": "Be a last prop player and win the round.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1131720/f82be29b3fc37eb84edd0396d62940cd641696e7.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1131720/69bf7b5e7d7d5dc82386a1a0cc2f89cceffcc0dc.jpg"
+  },
+  {
+    "name": "ach_last_man_standing_50",
+    "defaultvalue": 0,
+    "displayName": "Last Man Standing (Purple)",
+    "hidden": 0,
+    "description": "Be a last prop player and win the round.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1131720/e43e2a41b0f25998577a9d1cb3b4bd7293533ca3.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1131720/69bf7b5e7d7d5dc82386a1a0cc2f89cceffcc0dc.jpg"
+  },
+  {
+    "name": "ach_terminator_10",
+    "defaultvalue": 0,
+    "displayName": "Terminator (Ivory)",
+    "hidden": 0,
+    "description": "Destroy a prop player.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1131720/cea1adc3b15d0e6d36ddddff09accaa5631d1b00.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1131720/05f7b4afef8cd0485c91176d4e2a35bb5826bbe8.jpg"
+  },
+  {
+    "name": "ach_terminator_100",
+    "defaultvalue": 0,
+    "displayName": "Terminator (Yellow)",
+    "hidden": 0,
+    "description": "Destroy a prop player.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1131720/3dc97d9bd5417e5dc8c6c5c91bd5dcc2534928d7.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1131720/0dbcb3ef264ff179ce79a15f9192e14b123ec97f.jpg"
+  },
+  {
+    "name": "ach_terminator_500",
+    "defaultvalue": 0,
+    "displayName": "Terminator (Blue)",
+    "hidden": 0,
+    "description": "Destroy a prop player.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1131720/82673ce65540df84187a1d7fdd054d9af8300537.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1131720/05f7b4afef8cd0485c91176d4e2a35bb5826bbe8.jpg"
+  },
+  {
+    "name": "ach_terminator_1000",
+    "defaultvalue": 0,
+    "displayName": "Terminator (Purple)",
+    "hidden": 0,
+    "description": "Destroy a prop player.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1131720/0c28ee6bc5502847ef379673163fe8e64134b8b8.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1131720/05f7b4afef8cd0485c91176d4e2a35bb5826bbe8.jpg"
+  },
+  {
+    "name": "ach_prop_and_seek",
+    "defaultvalue": 0,
+    "displayName": "Prop and Seek Mania",
+    "hidden": 0,
+    "description": "Gather all DLCs of Prop and Seek.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1131720/20461fc6da5273b660519b4d395ece752e6b6cfe.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1131720/6a630b0de0897e564f50f72343485a288cc5d6e8.jpg"
+  },
+  {
+    "name": "ach_event_treasure_hunter",
+    "defaultvalue": 0,
+    "displayName": "Treasure Hunter",
+    "hidden": 0,
+    "description": "Find out all clues from Prop and Seek social media pages and write down the answer in the event box. (+1 Treasure Chest)",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1131720/cffcdb9e4c12c215fd91151d5b5934df8ac74f27.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1131720/a1d47a36af9a8fbb0abf407ad5c3ebf1919bd0c0.jpg"
+  },
+  {
+    "name": "ach_metal_gate_survivor",
+    "defaultvalue": 0,
+    "displayName": "Metal Gate X Survivor",
+    "hidden": 0,
+    "description": "Survive as Metal Gate X when there's more than or equal to 16 players.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1131720/d09ab4f077fe73590834bdffee8885ac6444653d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1131720/5c1842e7b70444523aeaffbb81f8a72c959755d0.jpg"
+  },
+  {
+    "name": "ach_competitive_match",
+    "defaultvalue": 0,
+    "displayName": "Competitor",
+    "hidden": 0,
+    "description": "Play competitive match for the first time. (+1 Treasure Chest)",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1131720/12bdaeaa28d3867a08039f146603bad6ad21eb64.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1131720/8ff7d4057abcd2b42fbf3bb285015bc6cafd5688.jpg"
+  },
+  {
+    "name": "ach_company_follower",
+    "defaultvalue": 0,
+    "displayName": "Enthusiast",
+    "hidden": 0,
+    "description": "Click Vidibidi Games company name on Steam storepage and click follow, then write down a word that fits into the blank space in the lobby event box. (+1 Treasure Chest) [VIDIBIDI GAMES® develops ___-oriented multiplayer games.]",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1131720/2cf2b2288e159dcb8f1f60ef4a37fbc851b0ae52.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1131720/284f0f125df95197b12b4f62f9c5557523ef6d59.jpg"
   }
 ]

@@ -1,122 +1,152 @@
-﻿{
-  "Achieve_TrophyForParticipation_Stat": {
-    "description": "Trophy for Participation",
-    "value": 0
+[
+  {
+    "name": "Achieve_TrophyForParticipation_Stat",
+    "defaultvalue": 0,
+    "displayName": "Trophy for Participation"
   },
-  "Achieve_GettingTheJobDone_Stat": {
-    "description": "Getting the job done",
-    "value": 0
+  {
+    "name": "Achieve_GettingTheJobDone_Stat",
+    "defaultvalue": 0,
+    "displayName": "Getting the job done"
   },
-  "Achieve_RobinHoodsLegacy_Stat": {
-    "description": "Robin Hood’s Legacy",
-    "value": 0
+  {
+    "name": "Achieve_RobinHoodsLegacy_Stat",
+    "defaultvalue": 0,
+    "displayName": "Robin Hood’s Legacy"
   },
-  "Achieve_MasterLuddite_Stat": {
-    "description": "Master Luddite",
-    "value": 0
+  {
+    "name": "Achieve_MasterLuddite_Stat",
+    "defaultvalue": 0,
+    "displayName": "Master Luddite"
   },
-  "Achieve_EcoFriendly_Stat": {
-    "description": "Eco-Friendly",
-    "value": 0
+  {
+    "name": "Achieve_EcoFriendly_Stat",
+    "defaultvalue": 0,
+    "displayName": "Eco-Friendly"
   },
-  "Achieve_TheOffSwitch_Stat": {
-    "description": "The Off Switch",
-    "value": 0
+  {
+    "name": "Achieve_TheOffSwitch_Stat",
+    "defaultvalue": 0,
+    "displayName": "The Off Switch"
   },
-  "Achieve_TurnOnTheDark_Stat": {
-    "description": "Turn on the Dark",
-    "value": 0
+  {
+    "name": "Achieve_TurnOnTheDark_Stat",
+    "defaultvalue": 0,
+    "displayName": "Turn on the Dark"
   },
-  "Achieve_BoxCutter_Stat": {
-    "description": "Box Cutter",
-    "value": 0
+  {
+    "name": "Achieve_BoxCutter_Stat",
+    "defaultvalue": 0,
+    "displayName": "Box Cutter"
   },
-  "Achieve_WhatsInTheBox_Stat": {
-    "description": "What’s in the box?",
-    "value": 0
+  {
+    "name": "Achieve_WhatsInTheBox_Stat",
+    "defaultvalue": 0,
+    "displayName": "What’s in the box?"
   },
-  "Achieve_LikeChristmasMorning_Stat": {
-    "description": "Like Christmas morning",
-    "value": 0
+  {
+    "name": "Achieve_LikeChristmasMorning_Stat",
+    "defaultvalue": 0,
+    "displayName": "Like Christmas morning"
   },
-  "Achieve_ThisIsntEvenSparta_Stat": {
-    "description": "This isn’t even Sparta!",
-    "value": 0
+  {
+    "name": "Achieve_ThisIsntEvenSparta_Stat",
+    "defaultvalue": 0,
+    "displayName": "This isn’t even Sparta!"
   },
-  "Achieve_IWasAimingForTheirKnees_Stat": {
-    "description": "I was aiming for their knees",
-    "value": 0
+  {
+    "name": "Achieve_IWasAimingForTheirKnees_Stat",
+    "defaultvalue": 0,
+    "displayName": "I was aiming for their knees"
   },
-  "Achieve_FreeBowToxToAnyEnemy_Stat": {
-    "description": "Free Bow-tox to any enemy",
-    "value": 0
+  {
+    "name": "Achieve_FreeBowToxToAnyEnemy_Stat",
+    "defaultvalue": 0,
+    "displayName": "Free Bow-tox to any enemy"
   },
-  "Achieve_YouveBeenShafted_Stat": {
-    "description": "You’ve been shafted",
-    "value": 0
+  {
+    "name": "Achieve_YouveBeenShafted_Stat",
+    "defaultvalue": 0,
+    "displayName": "You’ve been shafted"
   },
-  "Achieve_IGotThis_Stat": {
-    "description": "I got this",
-    "value": 0
+  {
+    "name": "Achieve_IGotThis_Stat",
+    "defaultvalue": 0,
+    "displayName": "I got this"
   },
-  "Achieve_GrandMasterArcher_Stat": {
-    "description": "Grand Master Archer",
-    "value": 0
+  {
+    "name": "Achieve_GrandMasterArcher_Stat",
+    "defaultvalue": 0,
+    "displayName": "Grand Master Archer"
   },
-  "Achieve_StraightShooter_Stat": {
-    "description": "Straight Shooter",
-    "value": 0
+  {
+    "name": "Achieve_StraightShooter_Stat",
+    "defaultvalue": 0,
+    "displayName": "Straight Shooter"
   },
-  "Achieve_MustBeTheWind_Stat": {
-    "description": "Must be the wind",
-    "value": 0
+  {
+    "name": "Achieve_MustBeTheWind_Stat",
+    "defaultvalue": 0,
+    "displayName": "Must be the wind"
   },
-  "Achieve_DontStandSoCloseToMe_Stat": {
-    "description": "Don’t stand so close to me",
-    "value": 0
+  {
+    "name": "Achieve_DontStandSoCloseToMe_Stat",
+    "defaultvalue": 0,
+    "displayName": "Don’t stand so close to me"
   },
-  "Achieve_SharingIsCaring_Stat": {
-    "description": "Sharing is Caring",
-    "value": 0
+  {
+    "name": "Achieve_SharingIsCaring_Stat",
+    "defaultvalue": 0,
+    "displayName": "Sharing is Caring"
   },
-  "Achieve_ExpertTrapSetter_Stat": {
-    "description": "Expert Trap Setter",
-    "value": 0
+  {
+    "name": "Achieve_ExpertTrapSetter_Stat",
+    "defaultvalue": 0,
+    "displayName": "Expert Trap Setter"
   },
-  "Achieve_BoomGoesTheNapalm_Stat": {
-    "description": "Boom goes the Napalm?",
-    "value": 0
+  {
+    "name": "Achieve_BoomGoesTheNapalm_Stat",
+    "defaultvalue": 0,
+    "displayName": "Boom goes the Napalm?"
   },
-  "Achieve_ShouldHaveWornAJacket_Stat": {
-    "description": "Should have worn a jacket",
-    "value": 0
+  {
+    "name": "Achieve_ShouldHaveWornAJacket_Stat",
+    "defaultvalue": 0,
+    "displayName": "Should have worn a jacket"
   },
-  "Achieve_DronesDontKillPeople_Stat": {
-    "description": "Drones don’t kill people...",
-    "value": 0
+  {
+    "name": "Achieve_DronesDontKillPeople_Stat",
+    "defaultvalue": 0,
+    "displayName": "Drones don’t kill people..."
   },
-  "Achieve_MonsterHunter_Stat": {
-    "description": "Monster Hunter",
-    "value": 0
+  {
+    "name": "Achieve_MonsterHunter_Stat",
+    "defaultvalue": 0,
+    "displayName": "Monster Hunter"
   },
-  "Achieve_RobotHunter_Stat": {
-    "description": "Robot Hunter",
-    "value": 0
+  {
+    "name": "Achieve_RobotHunter_Stat",
+    "defaultvalue": 0,
+    "displayName": "Robot Hunter"
   },
-  "Achieve_DeadShot_Stat": {
-    "description": "Dead shot",
-    "value": 0
+  {
+    "name": "Achieve_DeadShot_Stat",
+    "defaultvalue": 0,
+    "displayName": "Dead shot"
   },
-  "Achieve_TurnItOffThenBackOnAgain_Stat": {
-    "description": "Turn it off, then back on again",
-    "value": 0
+  {
+    "name": "Achieve_TurnItOffThenBackOnAgain_Stat",
+    "defaultvalue": 0,
+    "displayName": "Turn it off, then back on again"
   },
-  "Achieve_ImFromMechSupport_Stat": {
-    "description": "I’m from Mech Support",
-    "value": 0
+  {
+    "name": "Achieve_ImFromMechSupport_Stat",
+    "defaultvalue": 0,
+    "displayName": "I’m from Mech Support"
   },
-  "Achieve_IndustrialAssassin_Stat": {
-    "description": "Industrial Assassin",
-    "value": 0
+  {
+    "name": "Achieve_IndustrialAssassin_Stat",
+    "defaultvalue": 0,
+    "displayName": "Industrial Assassin"
   }
-}
+]

@@ -1,18 +1,22 @@
-﻿{
-  "CTF_CTF": {
-    "description": "",
-    "value": 0
+[
+  {
+    "name": "CTF_CTF",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "SP_SP": {
-    "description": "",
-    "value": 0
+  {
+    "name": "SP_SP",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "RC_RC": {
-    "description": "",
-    "value": 0
+  {
+    "name": "RC_RC",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "KoH_KoH": {
-    "description": "",
-    "value": 0
+  {
+    "name": "KoH_KoH",
+    "defaultvalue": 0,
+    "displayName": ""
   }
-}
+]

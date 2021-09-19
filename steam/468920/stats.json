@@ -1,62 +1,77 @@
-﻿{
-  "SCORE": {
-    "description": "",
-    "value": 0
+[
+  {
+    "name": "SCORE",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "LEVEL": {
-    "description": "",
-    "value": 1
+  {
+    "name": "LEVEL",
+    "defaultvalue": 1,
+    "displayName": ""
   },
-  "EXPERIENCE": {
-    "description": "",
-    "value": 0
+  {
+    "name": "EXPERIENCE",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "TOTAL_FISH_COUNT": {
-    "description": "",
-    "value": 0
+  {
+    "name": "TOTAL_FISH_COUNT",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "TOTAL_FISH_WEIGHT": {
-    "description": "",
-    "value": 0
+  {
+    "name": "TOTAL_FISH_WEIGHT",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "BIGGEST_FISH_SPECIES": {
-    "description": "",
-    "value": 4294967295
+  {
+    "name": "BIGGEST_FISH_SPECIES",
+    "defaultvalue": 4294967295,
+    "displayName": ""
   },
-  "BIGGEST_FISH_WEIGHT": {
-    "description": "",
-    "value": 4294967295
+  {
+    "name": "BIGGEST_FISH_WEIGHT",
+    "defaultvalue": 4294967295,
+    "displayName": ""
   },
-  "TOURNAMENT_TOTAL_FISH_COUNT": {
-    "description": "",
-    "value": 0
+  {
+    "name": "TOURNAMENT_TOTAL_FISH_COUNT",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "TOURNAMENT_TOTAL_FISH_WEIGHT": {
-    "description": "",
-    "value": 0
+  {
+    "name": "TOURNAMENT_TOTAL_FISH_WEIGHT",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "TOURNAMENT_BIGGEST_FISH_SPECIES": {
-    "description": "",
-    "value": 4294967295
+  {
+    "name": "TOURNAMENT_BIGGEST_FISH_SPECIES",
+    "defaultvalue": 4294967295,
+    "displayName": ""
   },
-  "TOURNAMENT_BIGGEST_FISH_WEIGHT": {
-    "description": "",
-    "value": 4294967295
+  {
+    "name": "TOURNAMENT_BIGGEST_FISH_WEIGHT",
+    "defaultvalue": 4294967295,
+    "displayName": ""
   },
-  "TOURNAMENT_TROPHY_GOLD": {
-    "description": "",
-    "value": 0
+  {
+    "name": "TOURNAMENT_TROPHY_GOLD",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "TOURNAMENT_TROPHY_SILVER": {
-    "description": "",
-    "value": 0
+  {
+    "name": "TOURNAMENT_TROPHY_SILVER",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "TOURNAMENT_TROPHY_BRONZE": {
-    "description": "",
-    "value": 0
+  {
+    "name": "TOURNAMENT_TROPHY_BRONZE",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "TOURNAMENT_CAN_GATHER_REWARD": {
-    "description": "",
-    "value": 0
+  {
+    "name": "TOURNAMENT_CAN_GATHER_REWARD",
+    "defaultvalue": 0,
+    "displayName": ""
   }
-}
+]

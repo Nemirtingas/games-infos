@@ -1,30 +1,37 @@
-﻿{
-  "MaxCampaignLevel": {
-    "description": "",
-    "value": 0
+[
+  {
+    "name": "MaxCampaignLevel",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "FinishedGames": {
-    "description": "",
-    "value": 0
+  {
+    "name": "FinishedGames",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Deaths": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Deaths",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "MaxEndlessLevel": {
-    "description": "",
-    "value": 0
+  {
+    "name": "MaxEndlessLevel",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Energy": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Energy",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Collections": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Collections",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Humans": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Humans",
+    "defaultvalue": 0,
+    "displayName": ""
   }
-}
+]

@@ -1,42 +1,52 @@
-﻿{
-  "t1_mileage": {
-    "description": "Mileage Truck 1",
-    "value": 0
+[
+  {
+    "name": "t1_mileage",
+    "defaultvalue": 0,
+    "displayName": "Mileage Truck 1"
   },
-  "t1_mc": {
-    "description": "Missioncount Truck 1",
-    "value": 0
+  {
+    "name": "t1_mc",
+    "defaultvalue": 0,
+    "displayName": "Missioncount Truck 1"
   },
-  "t2_mileage": {
-    "description": "Mileage Truck 2",
-    "value": 0
+  {
+    "name": "t2_mileage",
+    "defaultvalue": 0,
+    "displayName": "Mileage Truck 2"
   },
-  "t2_mc": {
-    "description": "Missioncount Truck 2",
-    "value": 0
+  {
+    "name": "t2_mc",
+    "defaultvalue": 0,
+    "displayName": "Missioncount Truck 2"
   },
-  "t3_mileage": {
-    "description": "Mileage Truck 3",
-    "value": 0
+  {
+    "name": "t3_mileage",
+    "defaultvalue": 0,
+    "displayName": "Mileage Truck 3"
   },
-  "t3_mc": {
-    "description": "Missioncount Truck 3",
-    "value": 0
+  {
+    "name": "t3_mc",
+    "defaultvalue": 0,
+    "displayName": "Missioncount Truck 3"
   },
-  "t4_mileage": {
-    "description": "Mileage Truck 4",
-    "value": 0
+  {
+    "name": "t4_mileage",
+    "defaultvalue": 0,
+    "displayName": "Mileage Truck 4"
   },
-  "t4_mc": {
-    "description": "Missioncount Truck 4",
-    "value": 0
+  {
+    "name": "t4_mc",
+    "defaultvalue": 0,
+    "displayName": "Missioncount Truck 4"
   },
-  "t5_mileage": {
-    "description": "Mileage Truck 5",
-    "value": 0
+  {
+    "name": "t5_mileage",
+    "defaultvalue": 0,
+    "displayName": "Mileage Truck 5"
   },
-  "t5_mc": {
-    "description": "Missioncount Truck 5",
-    "value": 0
+  {
+    "name": "t5_mc",
+    "defaultvalue": 0,
+    "displayName": "Missioncount Truck 5"
   }
-}
+]

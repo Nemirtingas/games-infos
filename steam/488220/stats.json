@@ -1,18 +1,22 @@
-﻿{
-  "DEATHS": {
-    "description": "Flawless",
-    "value": 1
+[
+  {
+    "name": "DEATHS",
+    "defaultvalue": 1,
+    "displayName": "Flawless"
   },
-  "DARK_PATH": {
-    "description": "Path of Darkness Selections",
-    "value": 0
+  {
+    "name": "DARK_PATH",
+    "defaultvalue": 0,
+    "displayName": "Path of Darkness Selections"
   },
-  "LIGHT_PATH": {
-    "description": "Path of Light Selections",
-    "value": 0
+  {
+    "name": "LIGHT_PATH",
+    "defaultvalue": 0,
+    "displayName": "Path of Light Selections"
   },
-  "COMPLETION_COUNTER": {
-    "description": "Completion Tracker",
-    "value": 0
+  {
+    "name": "COMPLETION_COUNTER",
+    "defaultvalue": 0,
+    "displayName": "Completion Tracker"
   }
-}
+]

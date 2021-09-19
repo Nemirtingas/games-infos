@@ -1,8 +1,19 @@
-﻿{
-  "Dlcs": {},
-  "Name": "Blazing Sails: Pirate Battle Royale",
+{
+  "Dlcs": {
+    "1455700": {
+      "Name": "Blazing Sails - Privateer Pack",
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1455700/header.jpg?t=1604610633",
+      "Type": "dlc"
+    },
+    "1455810": {
+      "Name": "Blazing Sails Original Soundtrack",
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1455810/header.jpg?t=1605700943",
+      "Type": "music"
+    }
+  },
+  "Name": "Blazing Sails",
   "AppId": "1158940",
-  "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/1158940/header.jpg?t=1600424052",
+  "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1158940/header.jpg?t=1630921824",
   "Languages": [
     "english",
     "french",

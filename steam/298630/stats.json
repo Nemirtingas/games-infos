@@ -1,82 +1,102 @@
-﻿{
-  "test": {
-    "description": "Test",
-    "value": 0
+[
+  {
+    "name": "test",
+    "defaultvalue": 0,
+    "displayName": "Test"
   },
-  "CashEarned": {
-    "description": "CashEarned",
-    "value": 0
+  {
+    "name": "CashEarned",
+    "defaultvalue": 0,
+    "displayName": "CashEarned"
   },
-  "Favours": {
-    "description": "Favours",
-    "value": 0
+  {
+    "name": "Favours",
+    "defaultvalue": 0,
+    "displayName": "Favours"
   },
-  "Dug": {
-    "description": "Dug",
-    "value": 0
+  {
+    "name": "Dug",
+    "defaultvalue": 0,
+    "displayName": "Dug"
   },
-  "QuotaJanitor": {
-    "description": "Quota Janitor",
-    "value": 0
+  {
+    "name": "QuotaJanitor",
+    "defaultvalue": 0,
+    "displayName": "Quota Janitor"
   },
-  "QuotaGardening": {
-    "description": "Quota Gardening",
-    "value": 0
+  {
+    "name": "QuotaGardening",
+    "defaultvalue": 0,
+    "displayName": "Quota Gardening"
   },
-  "QuotaWoodshop": {
-    "description": "QuotaWoodshop",
-    "value": 0
+  {
+    "name": "QuotaWoodshop",
+    "defaultvalue": 0,
+    "displayName": "QuotaWoodshop"
   },
-  "QuotaMetalshop": {
-    "description": "Quota Metalshop",
-    "value": 0
+  {
+    "name": "QuotaMetalshop",
+    "defaultvalue": 0,
+    "displayName": "Quota Metalshop"
   },
-  "QuotaTailor": {
-    "description": "Quota Tailor",
-    "value": 0
+  {
+    "name": "QuotaTailor",
+    "defaultvalue": 0,
+    "displayName": "Quota Tailor"
   },
-  "QuotaLaundry": {
-    "description": "Quota Laundry",
-    "value": 0
+  {
+    "name": "QuotaLaundry",
+    "defaultvalue": 0,
+    "displayName": "Quota Laundry"
   },
-  "QuotaDeliveries": {
-    "description": "Quota Deliveries",
-    "value": 0
+  {
+    "name": "QuotaDeliveries",
+    "defaultvalue": 0,
+    "displayName": "Quota Deliveries"
   },
-  "QuotaMailman": {
-    "description": "Quota Mailman",
-    "value": 0
+  {
+    "name": "QuotaMailman",
+    "defaultvalue": 0,
+    "displayName": "Quota Mailman"
   },
-  "QuotaLibrary": {
-    "description": "Quota Library",
-    "value": 0
+  {
+    "name": "QuotaLibrary",
+    "defaultvalue": 0,
+    "displayName": "Quota Library"
   },
-  "QuotaKitchen": {
-    "description": "Quota Kitchen",
-    "value": 0
+  {
+    "name": "QuotaKitchen",
+    "defaultvalue": 0,
+    "displayName": "Quota Kitchen"
   },
-  "Visitors": {
-    "description": "Visitors",
-    "value": 0
+  {
+    "name": "Visitors",
+    "defaultvalue": 0,
+    "displayName": "Visitors"
   },
-  "Gifts": {
-    "description": "Gifts",
-    "value": 0
+  {
+    "name": "Gifts",
+    "defaultvalue": 0,
+    "displayName": "Gifts"
   },
-  "KO_Inmates": {
-    "description": "KO Inmates",
-    "value": 0
+  {
+    "name": "KO_Inmates",
+    "defaultvalue": 0,
+    "displayName": "KO Inmates"
   },
-  "KO_Guards": {
-    "description": "KO Guards",
-    "value": 0
+  {
+    "name": "KO_Guards",
+    "defaultvalue": 0,
+    "displayName": "KO Guards"
   },
-  "Flooded": {
-    "description": "Flooded",
-    "value": 0
+  {
+    "name": "Flooded",
+    "defaultvalue": 0,
+    "displayName": "Flooded"
   },
-  "Strip": {
-    "description": "Strip outfit",
-    "value": 0
+  {
+    "name": "Strip",
+    "defaultvalue": 0,
+    "displayName": "Strip outfit"
   }
-}
+]

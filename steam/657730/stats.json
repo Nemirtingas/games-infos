@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "name": "games.victories.total",
     "defaultvalue": 0,
@@ -560,7 +560,7 @@
     "displayName": ""
   },
   {
-    "name": "wp.templar",
+    "name": "xp.templar",
     "defaultvalue": 0,
     "displayName": ""
   },
@@ -2230,21 +2230,6 @@
     "displayName": ""
   },
   {
-    "name": "xp.skinwalker",
-    "defaultvalue": 0,
-    "displayName": ""
-  },
-  {
-    "name": "wins.skinwalker",
-    "defaultvalue": 0,
-    "displayName": ""
-  },
-  {
-    "name": "played.skinwalker",
-    "defaultvalue": 0,
-    "displayName": ""
-  },
-  {
     "name": "xp.slither",
     "defaultvalue": 0,
     "displayName": ""
@@ -3025,12 +3010,7 @@
     "displayName": ""
   },
   {
-    "name": "level.wolfmother",
-    "defaultvalue": 0,
-    "displayName": ""
-  },
-  {
-    "name": "wukong",
+    "name": "level.wukong",
     "defaultvalue": 0,
     "displayName": ""
   },
@@ -3250,7 +3230,7 @@
     "displayName": ""
   },
   {
-    "name": "level.moondancer",
+    "name": "level.moonwitch",
     "defaultvalue": 0,
     "displayName": ""
   },
@@ -3916,6 +3896,446 @@
   },
   {
     "name": "level.madhatter",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "level.orphan",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "played.orphan",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "wins.orphan",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "xp.orphan",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "xp.executioner",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "wins.executioner",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "played.executioner",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "level.executioner",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "xp.dullaghan",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "level.dullaghan",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "played.dullaghan",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "wins.dullaghan",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "detect.player.movement",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "wins.purist",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "xp.purist",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "played.purist",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "level.purist",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "xp.possessed",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "level.possessed",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "wins.possessed",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "played.possessed",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "xp.skinflayer",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "wins.skinflayer",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "xp.venomancer",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "wins.venomancer",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "played.venomancer",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "xp.dryad",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "level.dryad",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "wins.dryad",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "played.dryad",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "played.darktwin",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "wins.darktwin",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "xp.darktwin",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "wolf.obscure.aura",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "plague.infected",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "played.scholar",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "wins.scholar",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "xp.scholar",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "level.scholar",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "level.demon",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "xp.demon",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "wins.demon",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "played.demon",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "xp.wolfmother",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "wins.wolfmother",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "level.wolfmother",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "played.wolfmother",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "xp.gladiator",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "wins.gladiator",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "level.gladiator",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "played.gladiator",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "xp.samurai",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "wins.samurai",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "level.samurai",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "played.samurai",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "xp.tactician",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "wins.tactician",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "played.tactician",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "level.tactician",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "level.aphrodite",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "xp.aphrodite",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "wins.aphrodite",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "played.aphrodite",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "shaman.protected",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "torturer.investigate",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "xp.sellsword",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "wins.sellsword",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "played.sellsword",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "level.sellsword",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "xp.varkolak",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "wins.varkolak",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "played.varkolak",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "level.varkolak",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "level.mortician",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "wins.mortician",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "played.mortician",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "xp.mortician",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "xp.carrion",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "played.carrion",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "level.carrion",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "wins.carrion",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "wins.odin",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "level.odin",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "xp.odin",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "played.odin",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "card.reveal.towolves",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "survive.attacked",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "protect.your.killer",
     "defaultvalue": 0,
     "displayName": ""
   }

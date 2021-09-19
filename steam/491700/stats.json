@@ -1,18 +1,22 @@
-﻿{
-  "FARTS": {
-    "description": "Farts",
-    "value": 0
+[
+  {
+    "name": "FARTS",
+    "defaultvalue": 0,
+    "displayName": "Farts"
   },
-  "SOILED": {
-    "description": "Pants Ruined",
-    "value": 0
+  {
+    "name": "SOILED",
+    "defaultvalue": 0,
+    "displayName": "Pants Ruined"
   },
-  "FIRED": {
-    "description": "Times Fired",
-    "value": 0
+  {
+    "name": "FIRED",
+    "defaultvalue": 0,
+    "displayName": "Times Fired"
   },
-  "TPS_REPORTS_STAT": {
-    "description": "Tps Reports Turned In",
-    "value": 0
+  {
+    "name": "TPS_REPORTS_STAT",
+    "defaultvalue": 0,
+    "displayName": "Tps Reports Turned In"
   }
-}
+]

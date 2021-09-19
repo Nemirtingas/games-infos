@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "name": "ACH_1st",
     "defaultvalue": 0,
@@ -97,5 +97,23 @@
     "description": "Lose against Easy AI",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1324870/d8aa909d0a52396bb3a87c087d9c0bc92c7f8f89.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1324870/39a89abea8e4c46ed9a8bdf0779384d82a023a98.jpg"
+  },
+  {
+    "name": "ACH_SPOOK",
+    "defaultvalue": 0,
+    "displayName": "Halloween",
+    "hidden": 0,
+    "description": "Play at Halloween",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1324870/e49bf83e4edabafa2f9e454108a0b6a05d971dfd.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1324870/39a89abea8e4c46ed9a8bdf0779384d82a023a98.jpg"
+  },
+  {
+    "name": "ACH_XMAS",
+    "defaultvalue": 0,
+    "displayName": "X-MAS",
+    "hidden": 0,
+    "description": "Play at the holiday season",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1324870/3dd02f720f2ad37b017c64b816c750c29a215e52.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1324870/f4b16e42916d9bf0dbc6109bcaad6eaf2a2aa722.jpg"
   }
 ]

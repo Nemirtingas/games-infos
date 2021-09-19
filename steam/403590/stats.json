@@ -1,70 +1,87 @@
-﻿{
-  "toasters_toasters": {
-    "description": "Toasters",
-    "value": 0
+[
+  {
+    "name": "toasters_toasters",
+    "defaultvalue": 0,
+    "displayName": "Toasters"
   },
-  "arrests_arrests": {
-    "description": "Arrests",
-    "value": 0
+  {
+    "name": "arrests_arrests",
+    "defaultvalue": 0,
+    "displayName": "Arrests"
   },
-  "windows_windows": {
-    "description": "Windows",
-    "value": 0
+  {
+    "name": "windows_windows",
+    "defaultvalue": 0,
+    "displayName": "Windows"
   },
-  "locks_locks": {
-    "description": "Locks",
-    "value": 0
+  {
+    "name": "locks_locks",
+    "defaultvalue": 0,
+    "displayName": "Locks"
   },
-  "safes_safes": {
-    "description": "Safes",
-    "value": 0
+  {
+    "name": "safes_safes",
+    "defaultvalue": 0,
+    "displayName": "Safes"
   },
-  "shot_shot": {
-    "description": "Shot",
-    "value": 0
+  {
+    "name": "shot_shot",
+    "defaultvalue": 0,
+    "displayName": "Shot"
   },
-  "dispatches_dispatches": {
-    "description": "Dispatchs",
-    "value": 0
+  {
+    "name": "dispatches_dispatches",
+    "defaultvalue": 0,
+    "displayName": "Dispatchs"
   },
-  "money_money": {
-    "description": "Money",
-    "value": 0
+  {
+    "name": "money_money",
+    "defaultvalue": 0,
+    "displayName": "Money"
   },
-  "alert0_alert0": {
-    "description": "Alert 0",
-    "value": 0
+  {
+    "name": "alert0_alert0",
+    "defaultvalue": 0,
+    "displayName": "Alert 0"
   },
-  "warrants_warrants": {
-    "description": "Warrants",
-    "value": 0
+  {
+    "name": "warrants_warrants",
+    "defaultvalue": 0,
+    "displayName": "Warrants"
   },
-  "alert1_alert1": {
-    "description": "Alert 1",
-    "value": 0
+  {
+    "name": "alert1_alert1",
+    "defaultvalue": 0,
+    "displayName": "Alert 1"
   },
-  "alert2_alert2": {
-    "description": "Alert 2",
-    "value": 0
+  {
+    "name": "alert2_alert2",
+    "defaultvalue": 0,
+    "displayName": "Alert 2"
   },
-  "alert3_alert3": {
-    "description": "Alert 3",
-    "value": 0
+  {
+    "name": "alert3_alert3",
+    "defaultvalue": 0,
+    "displayName": "Alert 3"
   },
-  "alert4_alert4": {
-    "description": "Alert 4",
-    "value": 0
+  {
+    "name": "alert4_alert4",
+    "defaultvalue": 0,
+    "displayName": "Alert 4"
   },
-  "alert5_alert5": {
-    "description": "Alert 5",
-    "value": 0
+  {
+    "name": "alert5_alert5",
+    "defaultvalue": 0,
+    "displayName": "Alert 5"
   },
-  "alarms_alarms": {
-    "description": "Alarms",
-    "value": 0
+  {
+    "name": "alarms_alarms",
+    "defaultvalue": 0,
+    "displayName": "Alarms"
   },
-  "onts_onts": {
-    "description": "ONTs",
-    "value": 0
+  {
+    "name": "onts_onts",
+    "defaultvalue": 0,
+    "displayName": "ONTs"
   }
-}
+]

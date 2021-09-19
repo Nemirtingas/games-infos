@@ -308,5 +308,90 @@
     "name": "Losses_Mist",
     "defaultvalue": 0,
     "displayName": "Mist Losses"
+  },
+  {
+    "name": "Wins_Aquamancer",
+    "defaultvalue": 0,
+    "displayName": "Aquamancer Wins"
+  },
+  {
+    "name": "Losses_Aquamancer",
+    "defaultvalue": 0,
+    "displayName": "Aquamancer Losses"
+  },
+  {
+    "name": "Wins_Dragoon",
+    "defaultvalue": 0,
+    "displayName": "Dragoon Wins"
+  },
+  {
+    "name": "Losses_Dragoon",
+    "defaultvalue": 0,
+    "displayName": "Dragoon Losses"
+  },
+  {
+    "name": "Wins_EndlessKelp",
+    "defaultvalue": 0,
+    "displayName": "Endless Kelp Victories"
+  },
+  {
+    "name": "Losses_EndlessKelp",
+    "defaultvalue": 0,
+    "displayName": "Endless Kelp Defeats"
+  },
+  {
+    "name": "Wins_Merflection",
+    "defaultvalue": 0,
+    "displayName": "Merflection Victories"
+  },
+  {
+    "name": "Losses_Merflection",
+    "defaultvalue": 0,
+    "displayName": "Merflection Defeats"
+  },
+  {
+    "name": "Wins_Sharkwisp",
+    "defaultvalue": 0,
+    "displayName": "Sharkwisp Victories"
+  },
+  {
+    "name": "Losses_Sharkwisp",
+    "defaultvalue": 0,
+    "displayName": "Sharkwisp Defeats"
+  },
+  {
+    "name": "Wins_SpoutElemental",
+    "defaultvalue": 0,
+    "displayName": "Spout Elemental Victories"
+  },
+  {
+    "name": "Losses_SpoutElemental",
+    "defaultvalue": 0,
+    "displayName": "Spout Elemental Defeats"
+  },
+  {
+    "name": "Wins_Terrorshell",
+    "defaultvalue": 0,
+    "displayName": "Terrorshell Victories"
+  },
+  {
+    "name": "Losses_Terrorshell",
+    "defaultvalue": 0,
+    "displayName": "Terrorshell Defeats"
+  },
+  {
+    "name": "Wins_TidalSnake",
+    "defaultvalue": 0,
+    "displayName": "Tidal Snake Victories"
+  },
+  {
+    "name": "Losses_TidalSnake",
+    "defaultvalue": 0,
+    "displayName": "Tidal Snake Defeats"
+  },
+  {
+    "name": "FiendsConfronted",
+    "defaultvalue": 0,
+    "displayName": "Fiend Confrontations"
   }
 ]

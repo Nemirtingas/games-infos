@@ -2,18 +2,21 @@
   "Dlcs": {},
   "Name": "Faraway Lands: Rise of Yokai",
   "AppId": "1303940",
-  "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/1303940/header.jpg?t=1597935600",
+  "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1303940/header.jpg?t=1630829929",
   "Languages": [
     "english",
-    "turkish",
     "german",
-    "schinese",
     "japanese",
-    "russian"
+    "portuguese",
+    "russian",
+    "schinese",
+    "turkish",
+    "spanish",
+    "french"
   ],
   "Platforms": {
     "windows": true,
-    "mac": true,
-    "linux": true
+    "mac": false,
+    "linux": false
   }
 }

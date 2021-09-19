@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "name": "achievement-butcher",
     "defaultvalue": 0,
@@ -754,5 +754,14 @@
     "description": "Perform 500 kills with Walther P99",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/578310/961f1e77a85b92bbbbc7d17076ed8b04337c5640.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/578310/fcf1df493dc469f1bca49246098490970526945b.jpg"
+  },
+  {
+    "name": "achievement-ak105bullpup",
+    "defaultvalue": 0,
+    "displayName": "Vise versa",
+    "hidden": 0,
+    "description": "Perform 1000 kills with AK-105 Bullpup",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/578310/1a8ee587064721be8727a94aba097bd539584bff.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/578310/049644f8d3e25dfc825042bc99fc01da9109e840.jpg"
   }
 ]

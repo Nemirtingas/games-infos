@@ -1,8 +1,14 @@
 {
-  "Dlcs": {},
-  "Name": "No one lives under the lighthouse",
+  "Dlcs": {
+    "1584400": {
+      "Name": "No one lives under the lighthouse Director's cut Soundtrack",
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1584400/header.jpg?t=1631475197",
+      "Type": "music"
+    }
+  },
+  "Name": "No one lives under the lighthouse Director's cut",
   "AppId": "1254370",
-  "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/1254370/header.jpg?t=1587489337",
+  "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1254370/header.jpg?t=1631480255",
   "Languages": [
     "english",
     "russian",
@@ -11,7 +17,7 @@
   ],
   "Platforms": {
     "windows": true,
-    "mac": false,
-    "linux": false
+    "mac": true,
+    "linux": true
   }
 }

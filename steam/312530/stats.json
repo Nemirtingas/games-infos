@@ -1,78 +1,97 @@
-﻿{
-  "matchesPlayed": {
-    "description": "Matches Played",
-    "value": 0
+[
+  {
+    "name": "matchesPlayed",
+    "defaultvalue": 0,
+    "displayName": "Matches Played"
   },
-  "ducksCrushed": {
-    "description": "Crushed Ducks",
-    "value": 0
+  {
+    "name": "ducksCrushed",
+    "defaultvalue": 0,
+    "displayName": "Crushed Ducks"
   },
-  "kills": {
-    "description": "Kills",
-    "value": 0
+  {
+    "name": "kills",
+    "defaultvalue": 0,
+    "displayName": "Kills"
   },
-  "longestMatchPlayed": {
-    "description": "Longest Point Match Finished",
-    "value": 0
+  {
+    "name": "longestMatchPlayed",
+    "defaultvalue": 0,
+    "displayName": "Longest Point Match Finished"
   },
-  "onlineWins": {
-    "description": "Online Wins",
-    "value": 0
+  {
+    "name": "onlineWins",
+    "defaultvalue": 0,
+    "displayName": "Online Wins"
   },
-  "drawsPlayed": {
-    "description": "Tiebreakers",
-    "value": 0
+  {
+    "name": "drawsPlayed",
+    "defaultvalue": 0,
+    "displayName": "Tiebreakers"
   },
-  "timesSpawned": {
-    "description": "Times Spawned",
-    "value": 0
+  {
+    "name": "timesSpawned",
+    "defaultvalue": 0,
+    "displayName": "Times Spawned"
   },
-  "littleDraws": {
-    "description": "Draws",
-    "value": 0
+  {
+    "name": "littleDraws",
+    "defaultvalue": 0,
+    "displayName": "Draws"
   },
-  "disarms": {
-    "description": "Disarms",
-    "value": 0
+  {
+    "name": "disarms",
+    "defaultvalue": 0,
+    "displayName": "Disarms"
   },
-  "winsAsSwack": {
-    "description": "Wins As Swack",
-    "value": 0
+  {
+    "name": "winsAsSwack",
+    "defaultvalue": 0,
+    "displayName": "Wins As Swack"
   },
-  "jetFuelUsed": {
-    "description": "Jet Fuel Used",
-    "value": 0
+  {
+    "name": "jetFuelUsed",
+    "defaultvalue": 0,
+    "displayName": "Jet Fuel Used"
   },
-  "laserBulletsFired": {
-    "description": "Laser Bullets Fired",
-    "value": 0
+  {
+    "name": "laserBulletsFired",
+    "defaultvalue": 0,
+    "displayName": "Laser Bullets Fired"
   },
-  "strafeDistance": {
-    "description": "Kilometers Strafed",
-    "value": 0
+  {
+    "name": "strafeDistance",
+    "defaultvalue": 0,
+    "displayName": "Kilometers Strafed"
   },
-  "quacks": {
-    "description": "Times Quacked",
-    "value": 0
+  {
+    "name": "quacks",
+    "defaultvalue": 0,
+    "displayName": "Times Quacked"
   },
-  "giantLaserKills": {
-    "description": "",
-    "value": 0
+  {
+    "name": "giantLaserKills",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "xp": {
-    "description": "XP",
-    "value": 0
+  {
+    "name": "xp",
+    "defaultvalue": 0,
+    "displayName": "XP"
   },
-  "timeInMatch": {
-    "description": "Time In Matches",
-    "value": 0
+  {
+    "name": "timeInMatch",
+    "defaultvalue": 0,
+    "displayName": "Time In Matches"
   },
-  "timeInEditor": {
-    "description": "Time In Editor",
-    "value": 0
+  {
+    "name": "timeInEditor",
+    "defaultvalue": 0,
+    "displayName": "Time In Editor"
   },
-  "timeInArcade": {
-    "description": "Time In Arcade",
-    "value": 0
+  {
+    "name": "timeInArcade",
+    "defaultvalue": 0,
+    "displayName": "Time In Arcade"
   }
-}
+]

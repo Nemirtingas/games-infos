@@ -1,54 +1,67 @@
-﻿{
-  "TotalTimePlayed": {
-    "description": "TotalTimePlayed",
-    "value": 0
+[
+  {
+    "name": "TotalTimePlayed",
+    "defaultvalue": 0,
+    "displayName": "TotalTimePlayed"
   },
-  "SSSDeerKilled": {
-    "description": "SSSDeerKilled",
-    "value": 0
+  {
+    "name": "SSSDeerKilled",
+    "defaultvalue": 0,
+    "displayName": "SSSDeerKilled"
   },
-  "SSSTimeDrunk": {
-    "description": "SSSTimeDrunk",
-    "value": 0
+  {
+    "name": "SSSTimeDrunk",
+    "defaultvalue": 0,
+    "displayName": "SSSTimeDrunk"
   },
-  "SSSHerbsCollected": {
-    "description": "SSSHerbsCollected",
-    "value": 0
+  {
+    "name": "SSSHerbsCollected",
+    "defaultvalue": 0,
+    "displayName": "SSSHerbsCollected"
   },
-  "SSSLocksPicked": {
-    "description": "SSSLocksPicked",
-    "value": 0
+  {
+    "name": "SSSLocksPicked",
+    "defaultvalue": 0,
+    "displayName": "SSSLocksPicked"
   },
-  "SSSDiceGamesWon": {
-    "description": "SSSDiceGamesWon",
-    "value": 0
+  {
+    "name": "SSSDiceGamesWon",
+    "defaultvalue": 0,
+    "displayName": "SSSDiceGamesWon"
   },
-  "SSSEnemiesKilledWithHeadshot": {
-    "description": "SSSEnemiesKilledWithHeadshot",
-    "value": 0
+  {
+    "name": "SSSEnemiesKilledWithHeadshot",
+    "defaultvalue": 0,
+    "displayName": "SSSEnemiesKilledWithHeadshot"
   },
-  "SSSItemsPickpocketed": {
-    "description": "SSSItemsPickpocketed",
-    "value": 0
+  {
+    "name": "SSSItemsPickpocketed",
+    "defaultvalue": 0,
+    "displayName": "SSSItemsPickpocketed"
   },
-  "SSSSoulsKilledWithStealth": {
-    "description": "SSSSoulsKilledWithStealth",
-    "value": 0
+  {
+    "name": "SSSSoulsKilledWithStealth",
+    "defaultvalue": 0,
+    "displayName": "SSSSoulsKilledWithStealth"
   },
-  "SSSHaggleSucceeded": {
-    "description": "SSSHaggleSucceeded",
-    "value": 0
+  {
+    "name": "SSSHaggleSucceeded",
+    "defaultvalue": 0,
+    "displayName": "SSSHaggleSucceeded"
   },
-  "SSSPotionsBrewed": {
-    "description": "SSSPotionsBrewed",
-    "value": 0
+  {
+    "name": "SSSPotionsBrewed",
+    "defaultvalue": 0,
+    "displayName": "SSSPotionsBrewed"
   },
-  "TournamentsWon": {
-    "description": "TournamentsWon",
-    "value": 0
+  {
+    "name": "TournamentsWon",
+    "defaultvalue": 0,
+    "displayName": "TournamentsWon"
   },
-  "ArcheryContestsWon": {
-    "description": "ArcheryContestsWon",
-    "value": 0
+  {
+    "name": "ArcheryContestsWon",
+    "defaultvalue": 0,
+    "displayName": "ArcheryContestsWon"
   }
-}
+]

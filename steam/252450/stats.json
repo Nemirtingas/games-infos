@@ -1,10 +1,12 @@
-﻿{
-  "BAKills": {
-    "description": "BA Kills",
-    "value": 15
+[
+  {
+    "name": "BAKills",
+    "defaultvalue": 15,
+    "displayName": "BA Kills"
   },
-  "PopMoved": {
-    "description": "",
-    "value": 0
+  {
+    "name": "PopMoved",
+    "defaultvalue": 0,
+    "displayName": ""
   }
-}
+]

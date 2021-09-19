@@ -128,7 +128,7 @@
   {
     "name": "TESSERACT_1",
     "defaultvalue": 0,
-    "displayName": "What Is this?",
+    "displayName": "Secret 1",
     "hidden": 1,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1236670/fb5ab1671c4b79335279335bb873525181c6fd18.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1236670/a13e1210a684f70393e1462f0148a79b1d891ad5.jpg"
@@ -136,7 +136,7 @@
   {
     "name": "TESSERACT_2",
     "defaultvalue": 0,
-    "displayName": "Is it real?",
+    "displayName": "Secret 2",
     "hidden": 1,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1236670/fb5ab1671c4b79335279335bb873525181c6fd18.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1236670/a13e1210a684f70393e1462f0148a79b1d891ad5.jpg"
@@ -144,7 +144,7 @@
   {
     "name": "TESSERACT_3",
     "defaultvalue": 0,
-    "displayName": "Something’s wrong",
+    "displayName": "Secret 3",
     "hidden": 1,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1236670/fb5ab1671c4b79335279335bb873525181c6fd18.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1236670/a13e1210a684f70393e1462f0148a79b1d891ad5.jpg"
@@ -152,7 +152,7 @@
   {
     "name": "TESSERACT_4",
     "defaultvalue": 0,
-    "displayName": "For deliberate cruelty and nature",
+    "displayName": "Secret 4",
     "hidden": 1,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1236670/fb5ab1671c4b79335279335bb873525181c6fd18.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1236670/a13e1210a684f70393e1462f0148a79b1d891ad5.jpg"
@@ -160,7 +160,7 @@
   {
     "name": "TESSERACT_5",
     "defaultvalue": 0,
-    "displayName": "Human",
+    "displayName": "Secret 5",
     "hidden": 1,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1236670/fb5ab1671c4b79335279335bb873525181c6fd18.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1236670/a13e1210a684f70393e1462f0148a79b1d891ad5.jpg"
@@ -168,7 +168,7 @@
   {
     "name": "TESSERACT_6",
     "defaultvalue": 0,
-    "displayName": "Might be the greater",
+    "displayName": "Secret 6",
     "hidden": 1,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1236670/3092f643950ce4cc4abbc34c6873e3950a1fdb94.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1236670/a13e1210a684f70393e1462f0148a79b1d891ad5.jpg"
@@ -176,7 +176,7 @@
   {
     "name": "TESSERACT_7",
     "defaultvalue": 0,
-    "displayName": "Insult",
+    "displayName": "Secret 7",
     "hidden": 1,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1236670/fb5ab1671c4b79335279335bb873525181c6fd18.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1236670/a13e1210a684f70393e1462f0148a79b1d891ad5.jpg"
@@ -184,8 +184,26 @@
   {
     "name": "TESSERACT_8",
     "defaultvalue": 0,
-    "displayName": "You are not",
+    "displayName": "Secret 8",
     "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1236670/fb5ab1671c4b79335279335bb873525181c6fd18.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1236670/a13e1210a684f70393e1462f0148a79b1d891ad5.jpg"
+  },
+  {
+    "name": "TESSERACT_9",
+    "defaultvalue": 0,
+    "displayName": "Secret 9",
+    "hidden": 0,
+    "description": "Find the Secret Cube in Operation 9",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1236670/3092f643950ce4cc4abbc34c6873e3950a1fdb94.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1236670/32c601423fbe619ed28035cfe5c2e42ee0b45dce.jpg"
+  },
+  {
+    "name": "LV9",
+    "defaultvalue": 0,
+    "displayName": "Trust",
+    "hidden": 0,
+    "description": "Pass the Trust Evaluation Test",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1236670/fb5ab1671c4b79335279335bb873525181c6fd18.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1236670/a13e1210a684f70393e1462f0148a79b1d891ad5.jpg"
   }

@@ -1,70 +1,87 @@
-﻿{
-  "META_SPENT_AT_STORE": {
-    "description": "Hegemony Credits Spent at Acquisitions Department",
-    "value": 0
+[
+  {
+    "name": "META_SPENT_AT_STORE",
+    "defaultvalue": 0,
+    "displayName": "Hegemony Credits Spent at Acquisitions Department"
   },
-  "FLOOR_ONE_CLEARS": {
-    "description": "First Chamber Clears",
-    "value": 0
+  {
+    "name": "FLOOR_ONE_CLEARS",
+    "defaultvalue": 0,
+    "displayName": "First Chamber Clears"
   },
-  "FLOOR_TWO_CLEARS": {
-    "description": "Second Chamber Clears",
-    "value": 0
+  {
+    "name": "FLOOR_TWO_CLEARS",
+    "defaultvalue": 0,
+    "displayName": "Second Chamber Clears"
   },
-  "FLOOR_THREE_CLEARS": {
-    "description": "Third Chamber Clears",
-    "value": 0
+  {
+    "name": "FLOOR_THREE_CLEARS",
+    "defaultvalue": 0,
+    "displayName": "Third Chamber Clears"
   },
-  "FLOOR_FOUR_CLEARS": {
-    "description": "Fourth Chamber Clears",
-    "value": 0
+  {
+    "name": "FLOOR_FOUR_CLEARS",
+    "defaultvalue": 0,
+    "displayName": "Fourth Chamber Clears"
   },
-  "FLOOR_FIVE_CLEARS": {
-    "description": "Fifth Chamber Clears",
-    "value": 0
+  {
+    "name": "FLOOR_FIVE_CLEARS",
+    "defaultvalue": 0,
+    "displayName": "Fifth Chamber Clears"
   },
-  "MAIN_FLOORS_MAPPED": {
-    "description": "Main Floors Mapped",
-    "value": 0
+  {
+    "name": "MAIN_FLOORS_MAPPED",
+    "defaultvalue": 0,
+    "displayName": "Main Floors Mapped"
   },
-  "FRIFLE_CORE_COMPLETED": {
-    "description": "Frifle's Core Challenges Completed",
-    "value": 0
+  {
+    "name": "FRIFLE_CORE_COMPLETED",
+    "defaultvalue": 0,
+    "displayName": "Frifle's Core Challenges Completed"
   },
-  "FRIFLE_COMPLETED": {
-    "description": "Frifle's Challenges Completed",
-    "value": 0
+  {
+    "name": "FRIFLE_COMPLETED",
+    "defaultvalue": 0,
+    "displayName": "Frifle's Challenges Completed"
   },
-  "WINCHESTER_ACED": {
-    "description": "Winchester Games Aced",
-    "value": 0
+  {
+    "name": "WINCHESTER_ACED",
+    "defaultvalue": 0,
+    "displayName": "Winchester Games Aced"
   },
-  "GUNSLING_COMPLETED": {
-    "description": "Gunsling King Challenges Completed",
-    "value": 0
+  {
+    "name": "GUNSLING_COMPLETED",
+    "defaultvalue": 0,
+    "displayName": "Gunsling King Challenges Completed"
   },
-  "BREACH_POPULATION": {
-    "description": "Breach Population",
-    "value": 0
+  {
+    "name": "BREACH_POPULATION",
+    "defaultvalue": 0,
+    "displayName": "Breach Population"
   },
-  "ITEMS_STOLEN": {
-    "description": "Items Stolen",
-    "value": 0
+  {
+    "name": "ITEMS_STOLEN",
+    "defaultvalue": 0,
+    "displayName": "Items Stolen"
   },
-  "CHANDELIER_KILLS": {
-    "description": "Chandelier Kills",
-    "value": 0
+  {
+    "name": "CHANDELIER_KILLS",
+    "defaultvalue": 0,
+    "displayName": "Chandelier Kills"
   },
-  "MINECART_KILLS": {
-    "description": "Minecart Kills",
-    "value": 0
+  {
+    "name": "MINECART_KILLS",
+    "defaultvalue": 0,
+    "displayName": "Minecart Kills"
   },
-  "PIT_KILLS": {
-    "description": "Pit Kills",
-    "value": 0
+  {
+    "name": "PIT_KILLS",
+    "defaultvalue": 0,
+    "displayName": "Pit Kills"
   },
-  "TABLES_FLIPPED": {
-    "description": "Tables Flipped",
-    "value": 0
+  {
+    "name": "TABLES_FLIPPED",
+    "defaultvalue": 0,
+    "displayName": "Tables Flipped"
   }
-}
+]

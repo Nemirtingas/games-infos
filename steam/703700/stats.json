@@ -1,6 +1,7 @@
-﻿{
-  "TEST_1": {
-    "description": "Test Value",
-    "value": 0
+[
+  {
+    "name": "TEST_1",
+    "defaultvalue": 0,
+    "displayName": "Test Value"
   }
-}
+]

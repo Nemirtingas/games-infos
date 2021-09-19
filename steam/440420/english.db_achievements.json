@@ -1,29 +1,5 @@
 [
   {
-    "name": "HO_FinishTime",
-    "defaultvalue": 0,
-    "displayName": "Sharp-sighted.",
-    "hidden": 1,
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/440420/fe6be61cc64dc2fe965ec8e0589cef86a4aa9d46.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/440420/b5d40c3d28edce415b25b5abb2132299c5bb79e8.jpg"
-  },
-  {
-    "name": "HO_FinishTime_Several",
-    "defaultvalue": 0,
-    "displayName": "Sharp-sighted.",
-    "hidden": 1,
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/440420/fe6be61cc64dc2fe965ec8e0589cef86a4aa9d46.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/440420/b5d40c3d28edce415b25b5abb2132299c5bb79e8.jpg"
-  },
-  {
-    "name": "HO_FinishTime_All",
-    "defaultvalue": 0,
-    "displayName": "Sharp-sighted",
-    "hidden": 1,
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/440420/fe6be61cc64dc2fe965ec8e0589cef86a4aa9d46.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/440420/b5d40c3d28edce415b25b5abb2132299c5bb79e8.jpg"
-  },
-  {
     "name": "HO_WithoutHint",
     "defaultvalue": 0,
     "displayName": "If you want it done…",
@@ -49,30 +25,6 @@
     "description": "Finish all hidden object scenes without using any Hints.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/440420/ae7e0caeae055a503f24f2fcfe2a811feb036c49.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/440420/f52814779a4842eed936588e1c0e60bf74bf059e.jpg"
-  },
-  {
-    "name": "PZ_SolveTime",
-    "defaultvalue": 0,
-    "displayName": "How do you do it?",
-    "hidden": 1,
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/440420/5f78dfe8b0c802d2a9eb2746e8e0d7e843c43331.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/440420/f9e388fffaa3be28ae90dd07fcb7427ee4519f32.jpg"
-  },
-  {
-    "name": "PZ_SolveTime_Several",
-    "defaultvalue": 0,
-    "displayName": "How do you do it?",
-    "hidden": 1,
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/440420/5f78dfe8b0c802d2a9eb2746e8e0d7e843c43331.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/440420/f9e388fffaa3be28ae90dd07fcb7427ee4519f32.jpg"
-  },
-  {
-    "name": "PZ_SolveTime_All",
-    "defaultvalue": 0,
-    "displayName": "How do you do it?",
-    "hidden": 1,
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/440420/0fd134e91cb92538c1cae325d43563fc8e941641.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/440420/f6d390f1755eeb25206556981b825beec8897fbd.jpg"
   },
   {
     "name": "PZ_WithoutSkip",
@@ -172,30 +124,6 @@
     "description": "Finish the Bonus Chapter without stopping.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/440420/d66105498bc41ccac91d79412a9406c1fb85df02.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/440420/2fde0c36fb36ba2ab46db8809f13e49f2813a9db.jpg"
-  },
-  {
-    "name": "CutScene1",
-    "defaultvalue": 0,
-    "displayName": "Patience is a virtue.",
-    "hidden": 1,
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/440420/9792d2100f094f2181dba7bb494be282fb53f76d.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/440420/d0d6c290b364f9154f466bb0e4faa25935a8ff3b.jpg"
-  },
-  {
-    "name": "CutScene2",
-    "defaultvalue": 0,
-    "displayName": "Patience is a virtue.",
-    "hidden": 1,
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/440420/9792d2100f094f2181dba7bb494be282fb53f76d.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/440420/d0d6c290b364f9154f466bb0e4faa25935a8ff3b.jpg"
-  },
-  {
-    "name": "CutScene3",
-    "defaultvalue": 0,
-    "displayName": "Patience is a virtue.",
-    "hidden": 1,
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/440420/9792d2100f094f2181dba7bb494be282fb53f76d.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/440420/d0d6c290b364f9154f466bb0e4faa25935a8ff3b.jpg"
   },
   {
     "name": "CertainPartGame1",
@@ -331,15 +259,6 @@
     "description": "Finish Bonus Chapter.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/440420/c9605c95d4feed800f342d25d973ac0de72a70c6.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/440420/17d0e96f68866e2a8ef898e26fe1ae6a4eff12dd.jpg"
-  },
-  {
-    "name": "WatchCredits",
-    "defaultvalue": 0,
-    "displayName": "Respect is everything.",
-    "hidden": 0,
-    "description": "Watch the credits.",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/440420/e069fb4f9cfe4db0688970926ea390f8342b1d5d.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/440420/0738186b1a71809e44d44d0c2f0345c07d0a6484.jpg"
   },
   {
     "name": "AllAchievements",

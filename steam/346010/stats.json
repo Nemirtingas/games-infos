@@ -1,26 +1,32 @@
-﻿{
-  "AI_KILLED": {
-    "description": "",
-    "value": 0
+[
+  {
+    "name": "AI_KILLED",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "IPS_PROGRESS": {
-    "description": "",
-    "value": 0
+  {
+    "name": "IPS_PROGRESS",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "TOL_PROGRESS": {
-    "description": "",
-    "value": 0
+  {
+    "name": "TOL_PROGRESS",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "VAL_PROGRESS": {
-    "description": "",
-    "value": 0
+  {
+    "name": "VAL_PROGRESS",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "SERVERS_JOINED": {
-    "description": "",
-    "value": 0
+  {
+    "name": "SERVERS_JOINED",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "KROL_PROGRESS": {
-    "description": "",
-    "value": 0
+  {
+    "name": "KROL_PROGRESS",
+    "defaultvalue": 0,
+    "displayName": ""
   }
-}
+]

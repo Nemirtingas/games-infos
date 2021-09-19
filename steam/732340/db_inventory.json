@@ -12,10 +12,7 @@
     "description": "",
     "tradable": false,
     "marketable": false,
-    "commodity": false,
-    "drop_interval": 0,
-    "drop_max_per_window": 0,
-    "workshopid": "0"
+    "commodity": false
   },
   {
     "appid": "732340",
@@ -30,10 +27,7 @@
     "description": "",
     "tradable": false,
     "marketable": false,
-    "commodity": false,
-    "drop_interval": 0,
-    "drop_max_per_window": 0,
-    "workshopid": "0"
+    "commodity": false
   },
   {
     "appid": "732340",
@@ -53,9 +47,6 @@
     "tradable": false,
     "marketable": false,
     "commodity": false,
-    "drop_interval": 0,
-    "drop_max_per_window": 0,
-    "workshopid": "0",
     "item_slot": "ball",
     "item_quality": "0"
   },
@@ -76,9 +67,6 @@
     "tradable": true,
     "marketable": true,
     "commodity": false,
-    "drop_interval": 0,
-    "drop_max_per_window": 0,
-    "workshopid": "0",
     "item_slot": "ball",
     "item_quality": "0"
   },
@@ -99,9 +87,6 @@
     "tradable": true,
     "marketable": true,
     "commodity": false,
-    "drop_interval": 0,
-    "drop_max_per_window": 0,
-    "workshopid": "0",
     "item_slot": "ball",
     "item_quality": "0"
   },
@@ -122,9 +107,6 @@
     "tradable": true,
     "marketable": true,
     "commodity": false,
-    "drop_interval": 0,
-    "drop_max_per_window": 0,
-    "workshopid": "0",
     "item_slot": "ball",
     "item_quality": "0"
   },
@@ -145,18 +127,15 @@
     "tradable": true,
     "marketable": true,
     "commodity": false,
-    "drop_interval": 0,
-    "drop_max_per_window": 0,
-    "workshopid": "0",
     "item_slot": "ball",
     "item_quality": "0"
   },
   {
     "appid": "732340",
     "itemdefid": "30006",
-    "Timestamp": "2018-11-26T15:12:25Z",
-    "modified": "20181126T151225Z",
-    "date_created": "20181126T151225Z",
+    "Timestamp": "2020-11-02T12:10:05Z",
+    "modified": "20201102T121005Z",
+    "date_created": "20201102T120527Z",
     "type": "item",
     "display_type": "Ball",
     "name": "Thruster",
@@ -169,9 +148,7 @@
     "tradable": true,
     "marketable": true,
     "commodity": false,
-    "drop_interval": 0,
-    "drop_max_per_window": 0,
-    "workshopid": "0",
+    "store_hidden": true,
     "item_slot": "ball",
     "item_quality": "0"
   },
@@ -193,9 +170,6 @@
     "tradable": true,
     "marketable": true,
     "commodity": false,
-    "drop_interval": 0,
-    "drop_max_per_window": 0,
-    "workshopid": "0",
     "item_slot": "ball",
     "item_quality": "1"
   },
@@ -217,18 +191,15 @@
     "tradable": true,
     "marketable": true,
     "commodity": false,
-    "drop_interval": 0,
-    "drop_max_per_window": 0,
-    "workshopid": "0",
     "item_slot": "ball",
     "item_quality": "1"
   },
   {
     "appid": "732340",
     "itemdefid": "30009",
-    "Timestamp": "2019-04-14T18:51:44Z",
-    "modified": "20190414T185144Z",
-    "date_created": "20190414T185144Z",
+    "Timestamp": "2020-11-02T12:07:45Z",
+    "modified": "20201102T120745Z",
+    "date_created": "20201102T120545Z",
     "type": "item",
     "display_type": "Ball",
     "name": "Donut",
@@ -241,9 +212,7 @@
     "tradable": true,
     "marketable": true,
     "commodity": false,
-    "drop_interval": 0,
-    "drop_max_per_window": 0,
-    "workshopid": "0",
+    "store_hidden": true,
     "item_slot": "ball",
     "item_quality": "1"
   }

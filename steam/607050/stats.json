@@ -1,34 +1,42 @@
-﻿{
-  "quick_play_matches_won": {
-    "description": "Quick Play Matches Won",
-    "value": 0
+[
+  {
+    "name": "quick_play_matches_won",
+    "defaultvalue": 0,
+    "displayName": "Quick Play Matches Won"
   },
-  "arcade_matches_won": {
-    "description": "Arcade Matches Won",
-    "value": 0
+  {
+    "name": "arcade_matches_won",
+    "defaultvalue": 0,
+    "displayName": "Arcade Matches Won"
   },
-  "local_skirmishes_played": {
-    "description": "Local Skirmishes Played",
-    "value": 0
+  {
+    "name": "local_skirmishes_played",
+    "defaultvalue": 0,
+    "displayName": "Local Skirmishes Played"
   },
-  "online_matches_won": {
-    "description": "Online Matches Won",
-    "value": 0
+  {
+    "name": "online_matches_won",
+    "defaultvalue": 0,
+    "displayName": "Online Matches Won"
   },
-  "grooves_used": {
-    "description": "Grooves Used",
-    "value": 0
+  {
+    "name": "grooves_used",
+    "defaultvalue": 0,
+    "displayName": "Grooves Used"
   },
-  "units_recruited": {
-    "description": "Units Recruited",
-    "value": 0
+  {
+    "name": "units_recruited",
+    "defaultvalue": 0,
+    "displayName": "Units Recruited"
   },
-  "units_defeated": {
-    "description": "Units Defeated",
-    "value": 0
+  {
+    "name": "units_defeated",
+    "defaultvalue": 0,
+    "displayName": "Units Defeated"
   },
-  "stars_obtained": {
-    "description": "Stars Collected",
-    "value": 0
+  {
+    "name": "stars_obtained",
+    "defaultvalue": 0,
+    "displayName": "Stars Collected"
   }
-}
+]

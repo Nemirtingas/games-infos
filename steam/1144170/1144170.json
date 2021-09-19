@@ -1,25 +1,34 @@
-﻿{
+{
   "Dlcs": {
     "1262740": {
       "Name": "Warhammer: Chaos & Conquest - Tzeentch Warlord Bundle",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/1262740/header.jpg?t=1587718653"
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1262740/header.jpg?t=1587718653",
+      "Type": "dlc"
     },
     "1262741": {
       "Name": "Warhammer: Chaos & Conquest - Khorne Warlords Bundle",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/1262741/header.jpg?t=1590658657"
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1262741/header.jpg?t=1590658657",
+      "Type": "dlc"
     },
     "1262742": {
       "Name": "Warhammer: Chaos & Conquest - Skull Throne Bundle",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/1262742/header.jpg?t=1591183391"
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1262742/header.jpg?t=1622799892",
+      "Type": "dlc"
     },
     "1262743": {
       "Name": "Warhammer: Chaos & Conquest - Starter Bundle",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/1262743/header.jpg?t=1587718619"
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1262743/header.jpg?t=1587718619",
+      "Type": "dlc"
+    },
+    "1289590": {
+      "Name": "Legendary Khorne - White Dwarf Promotion",
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1289590/header.jpg?t=1615951891",
+      "Type": "dlc"
     }
   },
   "Name": "Warhammer: Chaos And Conquest",
   "AppId": "1144170",
-  "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/1144170/header.jpg?t=1591183254",
+  "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1144170/header.jpg?t=1622739733",
   "Languages": [
     "english",
     "french",
@@ -30,7 +39,9 @@
     "portuguese",
     "portuguese",
     "latam",
-    "turkish"
+    "turkish",
+    "japanese",
+    "korean"
   ],
   "Platforms": {
     "windows": true,

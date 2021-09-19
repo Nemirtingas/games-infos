@@ -1,18 +1,22 @@
-﻿{
-  "TotalPlays": {
-    "description": "",
-    "value": 0
+[
+  {
+    "name": "TotalPlays",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "TotalDeaths": {
-    "description": "",
-    "value": 0
+  {
+    "name": "TotalDeaths",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "TotalJumps": {
-    "description": "",
-    "value": 0
+  {
+    "name": "TotalJumps",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "TotalWins": {
-    "description": "",
-    "value": 0
+  {
+    "name": "TotalWins",
+    "defaultvalue": 0,
+    "displayName": ""
   }
-}
+]

@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "name": "until_death_do_us_part_achievement",
     "defaultvalue": 0,
@@ -85,7 +85,7 @@
     "defaultvalue": 0,
     "displayName": "Last Count, First King",
     "hidden": 0,
-    "description": "As Nuno II Vimaranes, form Portugal",
+    "description": "Starting as Duke Nuño of Portucale in 1066, form Portugal",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1158310/b961372d79f71f4d603c0db20be09e2445a4ab0b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1158310/4071f5ef930118cf3f4473e118cd5f6719c92d05.jpg"
   },
@@ -292,7 +292,7 @@
     "defaultvalue": 0,
     "displayName": "Kings to the Seventh Generation",
     "hidden": 0,
-    "description": "Starting as Eudes Capet in 867, lead your Dynasty to rule the Kingdom of France",
+    "description": "Starting as Count Eudes of Anjou in 867, lead your Dynasty to rule the Kingdom of France",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1158310/70a1779f008d9b49a1e0ef8c3c790d6830d8814e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1158310/7aab31d9cb5cef8dcc282a1448c540e5e67e0ba8.jpg"
   },
@@ -319,7 +319,7 @@
     "defaultvalue": 0,
     "displayName": "Going Places",
     "hidden": 0,
-    "description": "As Haesteinn of Nantes in 867, hold any Kingdom tier title",
+    "description": "As Haesteinn of Montaigu in 867, hold any Kingdom tier title",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1158310/0f098e10f3880945d04446dc5b35a2e9aa6cad3e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1158310/9f680e108f47513e417c1140b9a3054382032d63.jpg"
   },
@@ -495,12 +495,102 @@
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1158310/459eeb5a3a7e6d8c6f41e11c9bc9f3d0cb3a763e.jpg"
   },
   {
-    "name": "mother_of_us_all",
+    "name": "mother_of_us_all_achievement",
     "defaultvalue": 0,
     "displayName": "Mother of us All",
     "hidden": 0,
     "description": "Starting as Daurama Daura, have your line reform an African faith, and convert all of Africa to it",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1158310/49797042d4d0b3667438ce6929b4401f25bf0571.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1158310/2eb968188288ed0b0f17edfd429b15325a9610fd.jpg"
+  },
+  {
+    "name": "fp1_01_achievement",
+    "defaultvalue": 0,
+    "displayName": "Far from Home",
+    "hidden": 0,
+    "description": "As a Norse-Asatru ruler, have your capital on any island in the Indian Ocean",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1158310/a4c7f590514b4d9f1595a07ffd6c96d69799fb2b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1158310/af3e35db281b940b06eaf8bbf654a5822680bd13.jpg"
+  },
+  {
+    "name": "fp1_02_achievement",
+    "defaultvalue": 0,
+    "displayName": "Miklagarðaríki",
+    "hidden": 0,
+    "description": "As an Asatru, hold all of the original Thessalonika, and any empire title other than Byzantium",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1158310/cd96e65b366841e86ae4e2099b7f5488bdad4c4b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1158310/ad811e06bf5b9eb05419ca0e4428623c8ff55889.jpg"
+  },
+  {
+    "name": "fp1_03_achievement",
+    "defaultvalue": 0,
+    "displayName": "Canute the Greater",
+    "hidden": 0,
+    "description": "As an unreformed tribal, form the North Sea Empire",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1158310/94e35495f21d5eeb044a1ad992fc29ab6f1026de.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1158310/f1458c719c3c8bc1a0cb755601c7bfd909896872.jpg"
+  },
+  {
+    "name": "fp1_04_achievement",
+    "defaultvalue": 0,
+    "displayName": "King of all the Isles",
+    "hidden": 0,
+    "description": "As a North Germanic Asatru, control all islands in the Atlantic and the Mediterranean, whilst keeping your realm size below a certain threshold",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1158310/328094996ad889d5a1f5e00004e36eb876b3dcdc.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1158310/6ab651fdbc234995300544842a1708d4af64848e.jpg"
+  },
+  {
+    "name": "fp1_05_achievement",
+    "defaultvalue": 0,
+    "displayName": "Faster than the Fox",
+    "hidden": 0,
+    "description": "As a Norse tribal, control the entirety of Sicily",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1158310/0babc62ca92a27ea5838b47c70b8ee82e9e343f7.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1158310/7020c54fe4a1fcc7ed4bd3efeb3613e2356ac1dc.jpg"
+  },
+  {
+    "name": "fp1_06_achievement",
+    "defaultvalue": 0,
+    "displayName": "Völva",
+    "hidden": 0,
+    "description": "Starting and staying as a North Germanic Asatru of any kind, take the Found Witch Coven Decision",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1158310/5bb289071db4b2c2d08dfbb9243d85267e22291c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1158310/a7e0bbfc95d677a09498186a3ae6d066cc7ca524.jpg"
+  },
+  {
+    "name": "fp1_07_achievement",
+    "defaultvalue": 0,
+    "displayName": "Saga in Stone",
+    "hidden": 0,
+    "description": "As any one dynasty, commission a hundred rune stones",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1158310/5dcdb8730ddd0c3f040eff6686dfbccf6fbd3f1b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1158310/f0a5da2d92a26bc09a28e80416599e39ce6fd5a0.jpg"
+  },
+  {
+    "name": "fp1_08_achievement",
+    "defaultvalue": 0,
+    "displayName": "First of the Crusader Kings",
+    "hidden": 0,
+    "description": "As a Christian North Germanic, participate in the very first crusade from the start",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1158310/351b6f5876019b1583e34cfcdc60932e0fa09fe1.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1158310/b85fbc3acd32a5439436a9f1a3b9744ecb4225dd.jpg"
+  },
+  {
+    "name": "fp1_09_achievement",
+    "defaultvalue": 0,
+    "displayName": "Vladimir's Second Choice",
+    "hidden": 0,
+    "description": "As a North Germanic or Russian Asatruan of any kind, convert to any Islamic faith & convert all of Russia.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1158310/a796d7fc7854a620b6fadfd08f3433a4434bab06.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1158310/796a5e686200772d74ada047e6edfcfde71a96d4.jpg"
+  },
+  {
+    "name": "fp1_10_achievement",
+    "defaultvalue": 0,
+    "displayName": "A Dangerous Business",
+    "hidden": 0,
+    "description": "As a dwarf, win a Varangian Adventurer war anywhere outside of Europe",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1158310/8fbdf7c6ffee5debbc3e8b085ab4ef85dd1d7745.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1158310/03c5c98f8d38df045d23ffd2946c853dfdcde96f.jpg"
   }
 ]

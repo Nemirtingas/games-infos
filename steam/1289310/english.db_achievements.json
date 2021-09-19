@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "name": "achiev_00",
     "defaultvalue": 0,
@@ -70,5 +70,21 @@
     "description": "Make the steps",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1289310/be6f033ac69cc76aef12e1740cda8fdaf972d71d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1289310/ee237f3defa6260758c4e5061b1130bdbe292095.jpg"
+  },
+  {
+    "name": "achiev_08",
+    "defaultvalue": 0,
+    "displayName": "Puzzletaker",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1289310/477219508723fc1005e218ca1ca12b23707dc01a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1289310/40ac30a9ec37bb6aa247e6deaf2c8843e33f7cf3.jpg"
+  },
+  {
+    "name": "achiev_09",
+    "defaultvalue": 0,
+    "displayName": "Battletaker",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1289310/7f4183175dea84a0e3e99d4f796aa6f8a46aefc4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1289310/708f8ce445fe7c10182f6f26a826e5ac676ba036.jpg"
   }
 ]

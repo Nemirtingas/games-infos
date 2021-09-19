@@ -1,62 +1,77 @@
-﻿{
-  "stat_levels": {
-    "description": "Completed Levels",
-    "value": 0
+[
+  {
+    "name": "stat_levels",
+    "defaultvalue": 0,
+    "displayName": "Completed Levels"
   },
-  "robots_robots": {
-    "description": "Robots Saved",
-    "value": 0
+  {
+    "name": "robots_robots",
+    "defaultvalue": 0,
+    "displayName": "Robots Saved"
   },
-  "stat_progress": {
-    "description": "Total Game Progress",
-    "value": 0
+  {
+    "name": "stat_progress",
+    "defaultvalue": 0,
+    "displayName": "Total Game Progress"
   },
-  "jumps_jumps": {
-    "description": "Total Jumps",
-    "value": 0
+  {
+    "name": "jumps_jumps",
+    "defaultvalue": 0,
+    "displayName": "Total Jumps"
   },
-  "crushes_crushes": {
-    "description": "Total Crushes",
-    "value": 0
+  {
+    "name": "crushes_crushes",
+    "defaultvalue": 0,
+    "displayName": "Total Crushes"
   },
-  "special_special": {
-    "description": "Total Specials Used",
-    "value": 0
+  {
+    "name": "special_special",
+    "defaultvalue": 0,
+    "displayName": "Total Specials Used"
   },
-  "powerSphere_powerSphere": {
-    "description": "Total Power Sphere Uses",
-    "value": 0
+  {
+    "name": "powerSphere_powerSphere",
+    "defaultvalue": 0,
+    "displayName": "Total Power Sphere Uses"
   },
-  "batteries_batteries": {
-    "description": "Total Batteries Collected",
-    "value": 0
+  {
+    "name": "batteries_batteries",
+    "defaultvalue": 0,
+    "displayName": "Total Batteries Collected"
   },
-  "flyTime_flyTime": {
-    "description": "Total Fly Time",
-    "value": 0
+  {
+    "name": "flyTime_flyTime",
+    "defaultvalue": 0,
+    "displayName": "Total Fly Time"
   },
-  "fanHits_fanHits": {
-    "description": "Total Fan Hits",
-    "value": 0
+  {
+    "name": "fanHits_fanHits",
+    "defaultvalue": 0,
+    "displayName": "Total Fan Hits"
   },
-  "fryTime_fryTime": {
-    "description": "Total Time in High Temperatures",
-    "value": 0
+  {
+    "name": "fryTime_fryTime",
+    "defaultvalue": 0,
+    "displayName": "Total Time in High Temperatures"
   },
-  "falls_falls": {
-    "description": "Total Deaths by Falls",
-    "value": 0
+  {
+    "name": "falls_falls",
+    "defaultvalue": 0,
+    "displayName": "Total Deaths by Falls"
   },
-  "frieOuts_frieOuts": {
-    "description": "Total Deaths by Temperature",
-    "value": 0
+  {
+    "name": "frieOuts_frieOuts",
+    "defaultvalue": 0,
+    "displayName": "Total Deaths by Temperature"
   },
-  "shutdowns_shutdowns": {
-    "description": "Total Shutdowns",
-    "value": 0
+  {
+    "name": "shutdowns_shutdowns",
+    "defaultvalue": 0,
+    "displayName": "Total Shutdowns"
   },
-  "tempRegulator_tempRegulator": {
-    "description": "Total Temperature Regulator Uses",
-    "value": 0
+  {
+    "name": "tempRegulator_tempRegulator",
+    "defaultvalue": 0,
+    "displayName": "Total Temperature Regulator Uses"
   }
-}
+]

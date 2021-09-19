@@ -1,130 +1,162 @@
-﻿{
-  "diamond_thief_count": {
-    "description": "Diamonds Stolen",
-    "value": 0
+[
+  {
+    "name": "diamond_thief_count",
+    "defaultvalue": 0,
+    "displayName": "Diamonds Stolen"
   },
-  "diamond_interceptor_count": {
-    "description": "Diamonds Intercepted",
-    "value": 0
+  {
+    "name": "diamond_interceptor_count",
+    "defaultvalue": 0,
+    "displayName": "Diamonds Intercepted"
   },
-  "hill_strike_survivor_count": {
-    "description": "Hills Survived",
-    "value": 0
+  {
+    "name": "hill_strike_survivor_count",
+    "defaultvalue": 0,
+    "displayName": "Hills Survived"
   },
-  "hill_interceptor_count": {
-    "description": "Hills Intercepted",
-    "value": 0
+  {
+    "name": "hill_interceptor_count",
+    "defaultvalue": 0,
+    "displayName": "Hills Intercepted"
   },
-  "hill_defender_count": {
-    "description": "Hills Defended",
-    "value": 0
+  {
+    "name": "hill_defender_count",
+    "defaultvalue": 0,
+    "displayName": "Hills Defended"
   },
-  "hill_kill_shooting_out_count": {
-    "description": "Hill Kills Shooting Out",
-    "value": 0
+  {
+    "name": "hill_kill_shooting_out_count",
+    "defaultvalue": 0,
+    "displayName": "Hill Kills Shooting Out"
   },
-  "hill_kill_shooting_in_count": {
-    "description": "Hill Kills Shooting In",
-    "value": 0
+  {
+    "name": "hill_kill_shooting_in_count",
+    "defaultvalue": 0,
+    "displayName": "Hill Kills Shooting In"
   },
-  "bomb_interceptor_count": {
-    "description": "Bombs Intercepted",
-    "value": 0
+  {
+    "name": "bomb_interceptor_count",
+    "defaultvalue": 0,
+    "displayName": "Bombs Intercepted"
   },
-  "demolition_repair_count": {
-    "description": "Base Blocks Repaired",
-    "value": 0
+  {
+    "name": "demolition_repair_count",
+    "defaultvalue": 0,
+    "displayName": "Base Blocks Repaired"
   },
-  "demolition_damage_many_rounds_count": {
-    "description": "Demolition Blocks Damaged",
-    "value": 0
+  {
+    "name": "demolition_damage_many_rounds_count",
+    "defaultvalue": 0,
+    "displayName": "Demolition Blocks Damaged"
   },
-  "pistol_zombie_kill_count": {
-    "description": "Zombie Pistol Headshots",
-    "value": 0
+  {
+    "name": "pistol_zombie_kill_count",
+    "defaultvalue": 0,
+    "displayName": "Zombie Pistol Headshots"
   },
-  "grenade_demolish_count": {
-    "description": "Structures Grenade Demolished",
-    "value": 0
+  {
+    "name": "grenade_demolish_count",
+    "defaultvalue": 0,
+    "displayName": "Structures Grenade Demolished"
   },
-  "spade_kill_count": {
-    "description": "Spade Kills",
-    "value": 0
+  {
+    "name": "spade_kill_count",
+    "defaultvalue": 0,
+    "displayName": "Spade Kills"
   },
-  "sniper_kill_count": {
-    "description": "Sniper Headshot Kills",
-    "value": 0
+  {
+    "name": "sniper_kill_count",
+    "defaultvalue": 0,
+    "displayName": "Sniper Headshot Kills"
   },
-  "landmine_hidden_count": {
-    "description": "Hidden Landmine Kills",
-    "value": 0
+  {
+    "name": "landmine_hidden_count",
+    "defaultvalue": 0,
+    "displayName": "Hidden Landmine Kills"
   },
-  "pickaxe_kill_count": {
-    "description": "Pickaxe Kills",
-    "value": 0
+  {
+    "name": "pickaxe_kill_count",
+    "defaultvalue": 0,
+    "displayName": "Pickaxe Kills"
   },
-  "jetpack_kill_count": {
-    "description": "Jetpack Kills",
-    "value": 0
+  {
+    "name": "jetpack_kill_count",
+    "defaultvalue": 0,
+    "displayName": "Jetpack Kills"
   },
-  "jetpack_smg_kill_count": {
-    "description": "Jetpack SMG Kills",
-    "value": 0
+  {
+    "name": "jetpack_smg_kill_count",
+    "defaultvalue": 0,
+    "displayName": "Jetpack SMG Kills"
   },
-  "shotgun_headshots_count": {
-    "description": "Shotgun Headshot Kills",
-    "value": 0
+  {
+    "name": "shotgun_headshots_count",
+    "defaultvalue": 0,
+    "displayName": "Shotgun Headshot Kills"
   },
-  "drillgun_demolition_count": {
-    "description": "Drillgun Blocks Demolished",
-    "value": 0
+  {
+    "name": "drillgun_demolition_count",
+    "defaultvalue": 0,
+    "displayName": "Drillgun Blocks Demolished"
   },
-  "dynamite_below_count": {
-    "description": "Dynamite Kills from below",
-    "value": 0
+  {
+    "name": "dynamite_below_count",
+    "defaultvalue": 0,
+    "displayName": "Dynamite Kills from below"
   },
-  "distance_run": {
-    "description": "Distance Run (metres)",
-    "value": 0
+  {
+    "name": "distance_run",
+    "defaultvalue": 0,
+    "displayName": "Distance Run (metres)"
   },
-  "intel_defence_count": {
-    "description": "Intel Defended",
-    "value": 0
+  {
+    "name": "intel_defence_count",
+    "defaultvalue": 0,
+    "displayName": "Intel Defended"
   },
-  "classic_rifle_headshot_count": {
-    "description": "Rifle Headshot Kills",
-    "value": 0
+  {
+    "name": "classic_rifle_headshot_count",
+    "defaultvalue": 0,
+    "displayName": "Rifle Headshot Kills"
   },
-  "airborne_rocket_count": {
-    "description": "Airborne Rocket Hits",
-    "value": 0
+  {
+    "name": "airborne_rocket_count",
+    "defaultvalue": 0,
+    "displayName": "Airborne Rocket Hits"
   },
-  "knife_zombie_count": {
-    "description": "Zombies Knifed",
-    "value": 0
+  {
+    "name": "knife_zombie_count",
+    "defaultvalue": 0,
+    "displayName": "Zombies Knifed"
   },
-  "low_health_kills": {
-    "description": "Kills While at Low Health",
-    "value": 0
+  {
+    "name": "low_health_kills",
+    "defaultvalue": 0,
+    "displayName": "Kills While at Low Health"
   },
-  "zombie_kills_in_water": {
-    "description": "Zombie Kills in Water",
-    "value": 0
+  {
+    "name": "zombie_kills_in_water",
+    "defaultvalue": 0,
+    "displayName": "Zombie Kills in Water"
   },
-  "block_as_zombie_count": {
-    "description": "Blocks Destroyed as Zombie",
-    "value": 0
+  {
+    "name": "block_as_zombie_count",
+    "defaultvalue": 0,
+    "displayName": "Blocks Destroyed as Zombie"
   },
-  "zombie_seconds_as_lms_count": {
-    "description": "Seconds as Last Man Standing in Zombie",
-    "value": 0
+  {
+    "name": "zombie_seconds_as_lms_count",
+    "defaultvalue": 0,
+    "displayName": "Seconds as Last Man Standing in Zombie"
   },
-  "airborne_seconds_count": {
-    "description": "Seconds Spent Airborne",
-    "value": 0
+  {
+    "name": "airborne_seconds_count",
+    "defaultvalue": 0,
+    "displayName": "Seconds Spent Airborne"
   },
-  "classic_kills_with_intel_count": {
-    "description": "Classic Kills with Intel",
-    "value": 0
+  {
+    "name": "classic_kills_with_intel_count",
+    "defaultvalue": 0,
+    "displayName": "Classic Kills with Intel"
   }
-}
+]

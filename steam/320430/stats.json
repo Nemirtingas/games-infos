@@ -1,94 +1,117 @@
-﻿{
-  "gamesWon": {
-    "description": "Total Games Won",
-    "value": 0
+[
+  {
+    "name": "gamesWon",
+    "defaultvalue": 0,
+    "displayName": "Total Games Won"
   },
-  "onlineGamesWon": {
-    "description": "Online Games Won",
-    "value": 0
+  {
+    "name": "onlineGamesWon",
+    "defaultvalue": 0,
+    "displayName": "Online Games Won"
   },
-  "onlineWinStreak": {
-    "description": "Current Online Winning Streak",
-    "value": 0
+  {
+    "name": "onlineWinStreak",
+    "defaultvalue": 0,
+    "displayName": "Current Online Winning Streak"
   },
-  "bestOnlineWinStreak": {
-    "description": "Best Online Winning Streak",
-    "value": 0
+  {
+    "name": "bestOnlineWinStreak",
+    "defaultvalue": 0,
+    "displayName": "Best Online Winning Streak"
   },
-  "cotgCards": {
-    "description": "CoTG cards Acquired/Defeated",
-    "value": 0
+  {
+    "name": "cotgCards",
+    "defaultvalue": 0,
+    "displayName": "CoTG cards Acquired/Defeated"
   },
-  "rotfCards": {
-    "description": "RoTF cards Acquired/Defeated",
-    "value": 0
+  {
+    "name": "rotfCards",
+    "defaultvalue": 0,
+    "displayName": "RoTF cards Acquired/Defeated"
   },
-  "sosCards": {
-    "description": "SoS cards Acquired/Defeated",
-    "value": 0
+  {
+    "name": "sosCards",
+    "defaultvalue": 0,
+    "displayName": "SoS cards Acquired/Defeated"
   },
-  "winsNoCultist": {
-    "description": "Games won without defeating a Cultist",
-    "value": 0
+  {
+    "name": "winsNoCultist",
+    "defaultvalue": 0,
+    "displayName": "Games won without defeating a Cultist"
   },
-  "winStreak": {
-    "description": "Current Winning Streak",
-    "value": 0
+  {
+    "name": "winStreak",
+    "defaultvalue": 0,
+    "displayName": "Current Winning Streak"
   },
-  "bestWinStreak": {
-    "description": "Best Winning Streak",
-    "value": 0
+  {
+    "name": "bestWinStreak",
+    "defaultvalue": 0,
+    "displayName": "Best Winning Streak"
   },
-  "deadCultists": {
-    "description": "Cultists Defeated",
-    "value": 0
+  {
+    "name": "deadCultists",
+    "defaultvalue": 0,
+    "displayName": "Cultists Defeated"
   },
-  "centerRowHeroes": {
-    "description": "Center Row Heroes acquired",
-    "value": 0
+  {
+    "name": "centerRowHeroes",
+    "defaultvalue": 0,
+    "displayName": "Center Row Heroes acquired"
   },
-  "constructsPlayed": {
-    "description": "Constructs Played",
-    "value": 0
+  {
+    "name": "constructsPlayed",
+    "defaultvalue": 0,
+    "displayName": "Constructs Played"
   },
-  "monstersKilled": {
-    "description": "Center Row Monsters Defeated",
-    "value": 0
+  {
+    "name": "monstersKilled",
+    "defaultvalue": 0,
+    "displayName": "Center Row Monsters Defeated"
   },
-  "honorGained": {
-    "description": "Honor Gained",
-    "value": 0
+  {
+    "name": "honorGained",
+    "defaultvalue": 0,
+    "displayName": "Honor Gained"
   },
-  "soulGems": {
-    "description": "Different Soul Gems Played",
-    "value": 0
+  {
+    "name": "soulGems",
+    "defaultvalue": 0,
+    "displayName": "Different Soul Gems Played"
   },
-  "duCardsTransformed": {
-    "description": "Different Darkness Unleashed Cards Transformed",
-    "value": 0
+  {
+    "name": "duCardsTransformed",
+    "defaultvalue": 0,
+    "displayName": "Different Darkness Unleashed Cards Transformed"
   },
-  "rallyFaction": {
-    "description": "Different Factions Used in a Rally",
-    "value": 0
+  {
+    "name": "rallyFaction",
+    "defaultvalue": 0,
+    "displayName": "Different Factions Used in a Rally"
   },
-  "visionCardsAcquired": {
-    "description": "Different Vision Cards Acquired",
-    "value": 0
+  {
+    "name": "visionCardsAcquired",
+    "defaultvalue": 0,
+    "displayName": "Different Vision Cards Acquired"
   },
-  "dreambornCardsAcquired": {
-    "description": "Different Dreamborn Cards Acquired",
-    "value": 0
+  {
+    "name": "dreambornCardsAcquired",
+    "defaultvalue": 0,
+    "displayName": "Different Dreamborn Cards Acquired"
   },
-  "championsWon": {
-    "description": "Different Champions Used to Win",
-    "value": 0
+  {
+    "name": "championsWon",
+    "defaultvalue": 0,
+    "displayName": "Different Champions Used to Win"
   },
-  "goteEventsTransformed": {
-    "description": "Events Transformed",
-    "value": 0
+  {
+    "name": "goteEventsTransformed",
+    "defaultvalue": 0,
+    "displayName": "Events Transformed"
   },
-  "recurEffectsUsed": {
-    "description": "Recur Effects Used",
-    "value": 0
+  {
+    "name": "recurEffectsUsed",
+    "defaultvalue": 0,
+    "displayName": "Recur Effects Used"
   }
-}
+]

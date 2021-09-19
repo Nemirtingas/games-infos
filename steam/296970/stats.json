@@ -1,102 +1,127 @@
-﻿{
-  "SINGLE_TREASURE": {
-    "description": "Most Treasures collected in a campaign",
-    "value": 0
+[
+  {
+    "name": "SINGLE_TREASURE",
+    "defaultvalue": 0,
+    "displayName": "Most Treasures collected in a campaign"
   },
-  "TOTAL_TREASURE": {
-    "description": "Treasures Collected",
-    "value": 0
+  {
+    "name": "TOTAL_TREASURE",
+    "defaultvalue": 0,
+    "displayName": "Treasures Collected"
   },
-  "TOTAL_TREASURE_COLLECTION": {
-    "description": "Unique Treasures in Collection",
-    "value": 0
+  {
+    "name": "TOTAL_TREASURE_COLLECTION",
+    "defaultvalue": 0,
+    "displayName": "Unique Treasures in Collection"
   },
-  "SINGLE_RENOWN": {
-    "description": "Most Renown Collected in a campaign",
-    "value": 0
+  {
+    "name": "SINGLE_RENOWN",
+    "defaultvalue": 0,
+    "displayName": "Most Renown Collected in a campaign"
   },
-  "SINGLE_MONEY": {
-    "description": "Most Gold Collected in a campaign",
-    "value": 0
+  {
+    "name": "SINGLE_MONEY",
+    "defaultvalue": 0,
+    "displayName": "Most Gold Collected in a campaign"
   },
-  "SINGLE_CURIO": {
-    "description": "Most Research Collected in a campaign",
-    "value": 0
+  {
+    "name": "SINGLE_CURIO",
+    "defaultvalue": 0,
+    "displayName": "Most Research Collected in a campaign"
   },
-  "SINGLE_STATUS": {
-    "description": "Most Status Collected in a campaign",
-    "value": 0
+  {
+    "name": "SINGLE_STATUS",
+    "defaultvalue": 0,
+    "displayName": "Most Status Collected in a campaign"
   },
-  "TOTAL_RENOWN": {
-    "description": "Total Renown",
-    "value": 0
+  {
+    "name": "TOTAL_RENOWN",
+    "defaultvalue": 0,
+    "displayName": "Total Renown"
   },
-  "TOTAL_MONEY": {
-    "description": "Total Gold",
-    "value": 0
+  {
+    "name": "TOTAL_MONEY",
+    "defaultvalue": 0,
+    "displayName": "Total Gold"
   },
-  "TOTAL_CURIO": {
-    "description": "Total Research",
-    "value": 0
+  {
+    "name": "TOTAL_CURIO",
+    "defaultvalue": 0,
+    "displayName": "Total Research"
   },
-  "TOTAL_STATUS": {
-    "description": "Total Renown",
-    "value": 0
+  {
+    "name": "TOTAL_STATUS",
+    "defaultvalue": 0,
+    "displayName": "Total Renown"
   },
-  "EXPEDITIONS_STARTER": {
-    "description": "Starter Expeditions Completed",
-    "value": 0
+  {
+    "name": "EXPEDITIONS_STARTER",
+    "defaultvalue": 0,
+    "displayName": "Starter Expeditions Completed"
   },
-  "EXPEDITIONS_UNIQUE": {
-    "description": "Unique Expeditions Completed",
-    "value": 0
+  {
+    "name": "EXPEDITIONS_UNIQUE",
+    "defaultvalue": 0,
+    "displayName": "Unique Expeditions Completed"
   },
-  "EXPEDITIONS_TOTAL": {
-    "description": "Total Expeditions Completed",
-    "value": 0
+  {
+    "name": "EXPEDITIONS_TOTAL",
+    "defaultvalue": 0,
+    "displayName": "Total Expeditions Completed"
   },
-  "SINGLE_RESEARCH": {
-    "description": "Most research papers written in a campaign",
-    "value": 0
+  {
+    "name": "SINGLE_RESEARCH",
+    "defaultvalue": 0,
+    "displayName": "Most research papers written in a campaign"
   },
-  "TOTAL_RESEARCH": {
-    "description": "Total research papers written",
-    "value": 0
+  {
+    "name": "TOTAL_RESEARCH",
+    "defaultvalue": 0,
+    "displayName": "Total research papers written"
   },
-  "SINGLE_TOKEN": {
-    "description": "Most tokens collected in a campaign",
-    "value": 0
+  {
+    "name": "SINGLE_TOKEN",
+    "defaultvalue": 0,
+    "displayName": "Most tokens collected in a campaign"
   },
-  "TOTAL_TOKEN": {
-    "description": "Total tokens collected",
-    "value": 0
+  {
+    "name": "TOTAL_TOKEN",
+    "defaultvalue": 0,
+    "displayName": "Total tokens collected"
   },
-  "SINGLE_ENTOURAGE": {
-    "description": "Most entourage members attracted in a campaign",
-    "value": 0
+  {
+    "name": "SINGLE_ENTOURAGE",
+    "defaultvalue": 0,
+    "displayName": "Most entourage members attracted in a campaign"
   },
-  "TOTAL_ENTOURAGE": {
-    "description": "Total entourage members attracted",
-    "value": 0
+  {
+    "name": "TOTAL_ENTOURAGE",
+    "defaultvalue": 0,
+    "displayName": "Total entourage members attracted"
   },
-  "EXPEDITIONS_SINGLE": {
-    "description": "Most expeditions completed in a campaign",
-    "value": 0
+  {
+    "name": "EXPEDITIONS_SINGLE",
+    "defaultvalue": 0,
+    "displayName": "Most expeditions completed in a campaign"
   },
-  "EXPEDITIONS_SINGLE_ADVENTURE": {
-    "description": "Most expeditions completed in a campaign in adventure mode",
-    "value": 0
+  {
+    "name": "EXPEDITIONS_SINGLE_ADVENTURE",
+    "defaultvalue": 0,
+    "displayName": "Most expeditions completed in a campaign in adventure mode"
   },
-  "TOTAL_CARDS": {
-    "description": "Total campfire stories unlocked",
-    "value": 0
+  {
+    "name": "TOTAL_CARDS",
+    "defaultvalue": 0,
+    "displayName": "Total campfire stories unlocked"
   },
-  "TOTAL_COMMON_CARDS": {
-    "description": "Total common campfire stories unlocked",
-    "value": 0
+  {
+    "name": "TOTAL_COMMON_CARDS",
+    "defaultvalue": 0,
+    "displayName": "Total common campfire stories unlocked"
   },
-  "TITLES_UNIQUE": {
-    "description": "Total unique trophies collected",
-    "value": 0
+  {
+    "name": "TITLES_UNIQUE",
+    "defaultvalue": 0,
+    "displayName": "Total unique trophies collected"
   }
-}
+]

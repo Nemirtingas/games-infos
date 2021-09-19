@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "name": "WITNESS_COMPLETE",
     "defaultvalue": 0,
@@ -331,5 +331,59 @@
     "description": "Escape the overrun base in Chaingun Harry",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/992730/08801e88702058fdfb4cabdfa6d2da1d0f537149.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/992730/a524ed9822b89ef56822b0b543d9bc090164a1fa.jpg"
+  },
+  {
+    "name": "OLGA_LEAVE_SANE",
+    "defaultvalue": 0,
+    "displayName": "Heartbroken",
+    "hidden": 0,
+    "description": "Her patience just wore out",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/992730/b6e6ff166bc240666be76a66f4147442c33f7e74.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/992730/a524ed9822b89ef56822b0b543d9bc090164a1fa.jpg"
+  },
+  {
+    "name": "OLGA_LEAVE_MAD",
+    "defaultvalue": 0,
+    "displayName": "Homewrecker",
+    "hidden": 0,
+    "description": "You had this comming",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/992730/146450161e09171a90d5ecf17316e8ecb62ae648.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/992730/a9850f365f41b966506182be984a4ecc344412c2.jpg"
+  },
+  {
+    "name": "ALI_WITNESS",
+    "defaultvalue": 0,
+    "displayName": "Et tu, Brute?",
+    "hidden": 0,
+    "description": "-",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/992730/340f38ad2a3e97541383b8b8b98cc03557bc6046.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/992730/a9850f365f41b966506182be984a4ecc344412c2.jpg"
+  },
+  {
+    "name": "VG1_PLAY",
+    "defaultvalue": 0,
+    "displayName": "Dead Heat",
+    "hidden": 0,
+    "description": "Find the Dead Heat physical copy and finish it on the Mamebox console",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/992730/2b2d89905f66d99d0c23b817a6ee2d342841421f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/992730/232f5214384d6a8614d504e1d4a8f4675ee76160.jpg"
+  },
+  {
+    "name": "VG3_PLAY",
+    "defaultvalue": 0,
+    "displayName": "Ascent",
+    "hidden": 0,
+    "description": "Reclaim what is yours in New Blood",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/992730/35b2a30efd03ff5020dee6bdbd8ea91fb1f08b1f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/992730/232f5214384d6a8614d504e1d4a8f4675ee76160.jpg"
+  },
+  {
+    "name": "GLORIOUS_VIEW",
+    "defaultvalue": 0,
+    "displayName": "Glorious View",
+    "hidden": 0,
+    "description": "\\[T]/",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/992730/d592d7f5c43555395ee2b10da63bf707cfac1b3e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/992730/a1b6f6e01d46c59c860ddddb6614bcc8a6ae86b6.jpg"
   }
 ]

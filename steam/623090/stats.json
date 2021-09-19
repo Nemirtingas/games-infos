@@ -1,18 +1,22 @@
-﻿{
-  "drive_1000": {
-    "description": "Drive 1000 miles",
-    "value": 0
+[
+  {
+    "name": "drive_1000",
+    "defaultvalue": 0,
+    "displayName": "Drive 1000 miles"
   },
-  "drive_2000": {
-    "description": "Drive 2000 miles",
-    "value": 0
+  {
+    "name": "drive_2000",
+    "defaultvalue": 0,
+    "displayName": "Drive 2000 miles"
   },
-  "play_multiplayer": {
-    "description": "Play in Multiplayer.",
-    "value": 0
+  {
+    "name": "play_multiplayer",
+    "defaultvalue": 0,
+    "displayName": "Play in Multiplayer."
   },
-  "friendly_skies": {
-    "description": "Distance traveled while airborne.",
-    "value": 0
+  {
+    "name": "friendly_skies",
+    "defaultvalue": 0,
+    "displayName": "Distance traveled while airborne."
   }
-}
+]

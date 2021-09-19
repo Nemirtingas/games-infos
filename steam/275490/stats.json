@@ -1,30 +1,37 @@
-﻿{
-  "STAT_LevelsCompleted": {
-    "description": "Total number of levels completed",
-    "value": 0
+[
+  {
+    "name": "STAT_LevelsCompleted",
+    "defaultvalue": 0,
+    "displayName": "Total number of levels completed"
   },
-  "STAT_MonstersKilled": {
-    "description": "Total number of monster bounce bonuses",
-    "value": 0
+  {
+    "name": "STAT_MonstersKilled",
+    "defaultvalue": 0,
+    "displayName": "Total number of monster bounce bonuses"
   },
-  "STAT_PlasmaCollected": {
-    "description": "Total amount of Plasma orbs collected",
-    "value": 0
+  {
+    "name": "STAT_PlasmaCollected",
+    "defaultvalue": 0,
+    "displayName": "Total amount of Plasma orbs collected"
   },
-  "STAT_Mollusks": {
-    "description": "Total amount of mollusks collected",
-    "value": 0
+  {
+    "name": "STAT_Mollusks",
+    "defaultvalue": 0,
+    "displayName": "Total amount of mollusks collected"
   },
-  "Stat_Platforms": {
-    "description": "Secret Platforms Exposed",
-    "value": 0
+  {
+    "name": "Stat_Platforms",
+    "defaultvalue": 0,
+    "displayName": "Secret Platforms Exposed"
   },
-  "Stat_WorldCup": {
-    "description": "Plays during the great tournament",
-    "value": 0
+  {
+    "name": "Stat_WorldCup",
+    "defaultvalue": 0,
+    "displayName": "Plays during the great tournament"
   },
-  "Stat_OnLift": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Stat_OnLift",
+    "defaultvalue": 0,
+    "displayName": ""
   }
-}
+]

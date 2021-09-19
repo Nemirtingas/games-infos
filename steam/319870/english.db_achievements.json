@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "name": "00_CompletedPrologue.arcadeFTUX.",
     "defaultvalue": 0,
@@ -462,5 +462,29 @@
     "hidden": 1,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/319870/cc34272ee824cd4803f638827f139e26891b2b8c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/319870/cb291e62eb5496fdc10586946dc9763c8afcbef7.jpg"
+  },
+  {
+    "name": "41_FirstGalleryArt",
+    "defaultvalue": 0,
+    "displayName": "Gallery Opening",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/319870/a5d0a3ae9c3527ffb64ff7943fd58f9d0ecd5787.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/319870/917ae3854818f6ca0ae2b2a4c77ff3fffeaa2bbc.jpg"
+  },
+  {
+    "name": "42_HalfGalleryArt",
+    "defaultvalue": 0,
+    "displayName": "Private Collector",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/319870/8ef44d48b535102dd971bc0b3b089e28a35c1562.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/319870/917ae3854818f6ca0ae2b2a4c77ff3fffeaa2bbc.jpg"
+  },
+  {
+    "name": "43_AllGalleryArt",
+    "defaultvalue": 0,
+    "displayName": "Arthurtonian Archiver",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/319870/1417e5af4e0491f6950062edc96487cd49c88524.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/319870/917ae3854818f6ca0ae2b2a4c77ff3fffeaa2bbc.jpg"
   }
 ]

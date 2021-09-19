@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "name": "FirstKill",
     "defaultvalue": 0,
@@ -156,8 +156,53 @@
     "defaultvalue": 0,
     "displayName": "Small Goal",
     "hidden": 0,
-    "description": "Accumulated 100,000,000 gold",
+    "description": "Accumulated 10,000,000 gold",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1399590/c938b949f0e0c4cb6d5352bddc164998c45c6ff3.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1399590/43c30b76de03f564007e19bd9a8cc1c35a3bb39c.jpg"
+  },
+  {
+    "name": "Snake",
+    "defaultvalue": 0,
+    "displayName": "Beekeeper",
+    "hidden": 0,
+    "description": "Kill the Nomad Nest",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1399590/23f760e959ea39047d85a79980080484a0e4976d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1399590/9a9c1ce39d87ed661458054457dc6e384b8ab102.jpg"
+  },
+  {
+    "name": "StableCore",
+    "defaultvalue": 0,
+    "displayName": "Core",
+    "hidden": 0,
+    "description": "Kill the Suspension Core",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1399590/fdd705bb014b609fc1d5d68bc9e92bc2fdf42681.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1399590/988a13f4fb672c234c247b147c4a150d7f5318c6.jpg"
+  },
+  {
+    "name": "Spike",
+    "defaultvalue": 0,
+    "displayName": "Spike Breaker",
+    "hidden": 0,
+    "description": "Kill the Spike",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1399590/b1f37c30d04eddd4742ddb90b83d33f76eeb50c6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1399590/7eef26709f49ddffaa468f4fbbdfff447d7c5d5e.jpg"
+  },
+  {
+    "name": "LaoDingZhao",
+    "defaultvalue": 0,
+    "displayName": "No Spear In Gun Fight",
+    "hidden": 0,
+    "description": "Kill the LaoDingZhao",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1399590/23e1042f6aefc884e0a1ef1ee92327b49833dc26.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1399590/a4750ce00c5cbad3931206c9f5d28bc1ea11e154.jpg"
+  },
+  {
+    "name": "Doozi",
+    "defaultvalue": 0,
+    "displayName": "Stand Still",
+    "hidden": 0,
+    "description": "Kill the Doozi",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1399590/c4ab794ad73c9393d5a46cc57e72eec2225b0a37.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1399590/192a6aecd1e67322f6d1545b2d1c84e3d5dfeea2.jpg"
   }
 ]

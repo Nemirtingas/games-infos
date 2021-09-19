@@ -1,30 +1,37 @@
-﻿{
-  "Hit5Times_Hit5Times": {
-    "description": "",
-    "value": 0
+[
+  {
+    "name": "Hit5Times_Hit5Times",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "KillEasy_KillEasy": {
-    "description": "",
-    "value": 0
+  {
+    "name": "KillEasy_KillEasy",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "KillNormal_KillNormal": {
-    "description": "",
-    "value": 0
+  {
+    "name": "KillNormal_KillNormal",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "KillHard_KillHard": {
-    "description": "",
-    "value": 0
+  {
+    "name": "KillHard_KillHard",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Kill1000Easy_Kill1000Easy": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Kill1000Easy_Kill1000Easy",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Kill1000Normal_Kill1000Normal": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Kill1000Normal_Kill1000Normal",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Kill1000Hard_Kill1000Hard": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Kill1000Hard_Kill1000Hard",
+    "defaultvalue": 0,
+    "displayName": ""
   }
-}
+]

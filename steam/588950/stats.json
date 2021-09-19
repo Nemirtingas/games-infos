@@ -1,10 +1,12 @@
-﻿{
-  "STAT_LEADERBOARD": {
-    "description": "",
-    "value": 4294967292
+[
+  {
+    "name": "STAT_LEADERBOARD",
+    "defaultvalue": 4294967292,
+    "displayName": ""
   },
-  "STAT_GLOBAL_COINS": {
-    "description": "Coins in the well",
-    "value": 0
+  {
+    "name": "STAT_GLOBAL_COINS",
+    "defaultvalue": 0,
+    "displayName": "Coins in the well"
   }
-}
+]

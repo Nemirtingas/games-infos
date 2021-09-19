@@ -1,46 +1,57 @@
-﻿{
-  "KatanaKill": {
-    "description": "Katana Kill",
-    "value": 0
+[
+  {
+    "name": "KatanaKill",
+    "defaultvalue": 0,
+    "displayName": "Katana Kill"
   },
-  "PistolKill": {
-    "description": "",
-    "value": 0
+  {
+    "name": "PistolKill",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "ShotgunKill": {
-    "description": "",
-    "value": 0
+  {
+    "name": "ShotgunKill",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "RifleKill": {
-    "description": "",
-    "value": 0
+  {
+    "name": "RifleKill",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "MeleeKill": {
-    "description": "",
-    "value": 0
+  {
+    "name": "MeleeKill",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Headshots": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Headshots",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "EndllessKill": {
-    "description": "",
-    "value": 0
+  {
+    "name": "EndllessKill",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "ChallengesProgress": {
-    "description": "",
-    "value": 0
+  {
+    "name": "ChallengesProgress",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "StandardREDCompletition": {
-    "description": "",
-    "value": 0
+  {
+    "name": "StandardREDCompletition",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "RTREDCompletition": {
-    "description": "",
-    "value": 0
+  {
+    "name": "RTREDCompletition",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "StoryProgress": {
-    "description": "",
-    "value": 0
+  {
+    "name": "StoryProgress",
+    "defaultvalue": 0,
+    "displayName": ""
   }
-}
+]

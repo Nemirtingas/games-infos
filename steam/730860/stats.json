@@ -1,18 +1,22 @@
-﻿{
-  "STAT_COMPLETE_FOREST": {
-    "description": "Forest Completion",
-    "value": 0
+[
+  {
+    "name": "STAT_COMPLETE_FOREST",
+    "defaultvalue": 0,
+    "displayName": "Forest Completion"
   },
-  "STAT_COMPLETE_SEA": {
-    "description": "Sea Completion",
-    "value": 0
+  {
+    "name": "STAT_COMPLETE_SEA",
+    "defaultvalue": 0,
+    "displayName": "Sea Completion"
   },
-  "STAT_COMPLETE_VOLCANO": {
-    "description": "Volcano Completion",
-    "value": 0
+  {
+    "name": "STAT_COMPLETE_VOLCANO",
+    "defaultvalue": 0,
+    "displayName": "Volcano Completion"
   },
-  "STAT_COMPLETE_OBSIDIAN": {
-    "description": "Obsidian Completion",
-    "value": 0
+  {
+    "name": "STAT_COMPLETE_OBSIDIAN",
+    "defaultvalue": 0,
+    "displayName": "Obsidian Completion"
   }
-}
+]

@@ -1,90 +1,112 @@
-﻿{
-  "kills": {
-    "description": "Kills",
-    "value": 0
+[
+  {
+    "name": "kills",
+    "defaultvalue": 0,
+    "displayName": "Kills"
   },
-  "codexLoreMastered": {
-    "description": "CodexLoreMastered",
-    "value": 0
+  {
+    "name": "codexLoreMastered",
+    "defaultvalue": 0,
+    "displayName": "CodexLoreMastered"
   },
-  "codexWeaponMastered": {
-    "description": "CodexWeaponMastered",
-    "value": 0
+  {
+    "name": "codexWeaponMastered",
+    "defaultvalue": 0,
+    "displayName": "CodexWeaponMastered"
   },
-  "codexEnemyMastered": {
-    "description": "CodexEnemyMastered",
-    "value": 0
+  {
+    "name": "codexEnemyMastered",
+    "defaultvalue": 0,
+    "displayName": "CodexEnemyMastered"
   },
-  "codexTutorialMastered": {
-    "description": "CodexTutorialMastered",
-    "value": 0
+  {
+    "name": "codexTutorialMastered",
+    "defaultvalue": 0,
+    "displayName": "CodexTutorialMastered"
   },
-  "codexMastered": {
-    "description": "CodexMastered",
-    "value": 0
+  {
+    "name": "codexMastered",
+    "defaultvalue": 0,
+    "displayName": "CodexMastered"
   },
-  "dungeonEnemiesKilled": {
-    "description": "DungeonEnemiesKilled",
-    "value": 0
+  {
+    "name": "dungeonEnemiesKilled",
+    "defaultvalue": 0,
+    "displayName": "DungeonEnemiesKilled"
   },
-  "cityEnemiesKilled": {
-    "description": "CityEnemiesKilled",
-    "value": 0
+  {
+    "name": "cityEnemiesKilled",
+    "defaultvalue": 0,
+    "displayName": "CityEnemiesKilled"
   },
-  "epilogueEnemiesKilled": {
-    "description": "EpilogueEnemiesKilled",
-    "value": 0
+  {
+    "name": "epilogueEnemiesKilled",
+    "defaultvalue": 0,
+    "displayName": "EpilogueEnemiesKilled"
   },
-  "allEnemiesKilled": {
-    "description": "AllEnemiesKilled",
-    "value": 0
+  {
+    "name": "allEnemiesKilled",
+    "defaultvalue": 0,
+    "displayName": "AllEnemiesKilled"
   },
-  "allDungeonChests": {
-    "description": "AllDungeonChests",
-    "value": 0
+  {
+    "name": "allDungeonChests",
+    "defaultvalue": 0,
+    "displayName": "AllDungeonChests"
   },
-  "allCityChests": {
-    "description": "AllCityChests",
-    "value": 0
+  {
+    "name": "allCityChests",
+    "defaultvalue": 0,
+    "displayName": "AllCityChests"
   },
-  "allChests": {
-    "description": "AllChests",
-    "value": 0
+  {
+    "name": "allChests",
+    "defaultvalue": 0,
+    "displayName": "AllChests"
   },
-  "finishedDungeon": {
-    "description": "FinishedDungeon",
-    "value": 0
+  {
+    "name": "finishedDungeon",
+    "defaultvalue": 0,
+    "displayName": "FinishedDungeon"
   },
-  "finishedCity": {
-    "description": "FinishedCity",
-    "value": 0
+  {
+    "name": "finishedCity",
+    "defaultvalue": 0,
+    "displayName": "FinishedCity"
   },
-  "finishedEpilogue": {
-    "description": "FinishedEpilogue",
-    "value": 0
+  {
+    "name": "finishedEpilogue",
+    "defaultvalue": 0,
+    "displayName": "FinishedEpilogue"
   },
-  "finishedDungeonZero": {
-    "description": "FinishedDungeonZero",
-    "value": 0
+  {
+    "name": "finishedDungeonZero",
+    "defaultvalue": 0,
+    "displayName": "FinishedDungeonZero"
   },
-  "finishedCityZero": {
-    "description": "FinishedCityZero",
-    "value": 0
+  {
+    "name": "finishedCityZero",
+    "defaultvalue": 0,
+    "displayName": "FinishedCityZero"
   },
-  "finishedEpilogueZero": {
-    "description": "FinishedEpilogueZero",
-    "value": 0
+  {
+    "name": "finishedEpilogueZero",
+    "defaultvalue": 0,
+    "displayName": "FinishedEpilogueZero"
   },
-  "zeroDeaths": {
-    "description": "ZeroDeaths",
-    "value": 0
+  {
+    "name": "zeroDeaths",
+    "defaultvalue": 0,
+    "displayName": "ZeroDeaths"
   },
-  "platinum": {
-    "description": "Platinum",
-    "value": 0
+  {
+    "name": "platinum",
+    "defaultvalue": 0,
+    "displayName": "Platinum"
   },
-  "essenceConduitsKilled": {
-    "description": "EssenceConduitsKilled",
-    "value": 0
+  {
+    "name": "essenceConduitsKilled",
+    "defaultvalue": 0,
+    "displayName": "EssenceConduitsKilled"
   }
-}
+]

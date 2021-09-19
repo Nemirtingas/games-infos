@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "name": "EXPERIENCED_CREWMEMBER",
     "defaultvalue": 0,
@@ -58,7 +58,7 @@
     "defaultvalue": 0,
     "displayName": "Biscuit Madness",
     "hidden": 0,
-    "description": "",
+    "description": " ",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/252870/0e3c39b020663afdd5bea1c674d2620102931dd0.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/252870/5b63f3595ebaf8e647c6b15228052c6fd02ed152.jpg"
   },
@@ -239,5 +239,101 @@
     "hidden": 1,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/252870/5d18c0358b93711357e5edf7fc0863087136ad42.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/252870/6b7d65ecf28e0b77dbac64985ba846fb1844dbff.jpg"
+  },
+  {
+    "name": "ALL_LC_ENDING_COMPLETED",
+    "defaultvalue": 0,
+    "displayName": "Lost Colony Completionist",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/252870/d45fb679390b700b4c79213e1ddb0c120ccd4b4e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/252870/f406e220a3af946498f5849d376650290d9246b0.jpg"
+  },
+  {
+    "name": "LCENDING_COMPLETED_CU",
+    "defaultvalue": 0,
+    "displayName": "Together We Survive",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/252870/4ebee6e932a16e78865fe933fc9f285c23790b7a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/252870/f59428887d03a959f2a9cec5dfb766fc7216293e.jpg"
+  },
+  {
+    "name": "LCENDING_COMPLETED_AOG",
+    "defaultvalue": 0,
+    "displayName": "Never Trust A Gentlemen",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/252870/3b07e1ac43cdfe55ae5221f87437e249a546c78d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/252870/9f386847c6cdf01ac2acf4623418d81fd57ce609.jpg"
+  },
+  {
+    "name": "LCENDING_COMPLETED_WD",
+    "defaultvalue": 0,
+    "displayName": "Progress Above All",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/252870/e3fdf40261925f6423fbe6858bc1e5a5b61c7215.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/252870/b711b09f7928b10d7ae0f03f715e3b785db9331a.jpg"
+  },
+  {
+    "name": "LCENDING_COMPLETED_FB",
+    "defaultvalue": 0,
+    "displayName": "Eat Biscuits, Feel Butter",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/252870/2ce2fb9c00797209b7cded5984ce100118023bf8.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/252870/f53b13fd6463ba6110ef4e4269aedf8c669f2dd4.jpg"
+  },
+  {
+    "name": "LCENDING_COMPLETED_FREE_IT",
+    "defaultvalue": 0,
+    "displayName": "Free For All",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/252870/22acd1d72bdc2479e50b58bcafbeeed8c37ba5f1.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/252870/c83b4cc00df44ec6289d021e1beee2725396b66f.jpg"
+  },
+  {
+    "name": "LCENDING_COMPLETED_DESTROY_IT",
+    "defaultvalue": 0,
+    "displayName": "Take No Chances",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/252870/405875be23941ff935974a84a2b51c643b6576ed.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/252870/96dd1ed9b8a13cec01b8f2db7d12c5ccb2035ec9.jpg"
+  },
+  {
+    "name": "LCENDING_COMPLETED_KEEP_IT",
+    "defaultvalue": 0,
+    "displayName": "Intergalactic Overlords",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/252870/9a1a1c05656541439377e9b4eae9c39972980813.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/252870/17d4acd874b393e3439245221515f8fa545c79e3.jpg"
+  },
+  {
+    "name": "WARP_GUARDIAN_ENCOUNTER",
+    "defaultvalue": 0,
+    "displayName": "Unexpected Guest",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/252870/5bc6d1f037a8201f5aeb1920688fbf0e0b805c4d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/252870/eadac0cc122932659def4f540a0a7302c17047db.jpg"
+  },
+  {
+    "name": "LOST_COLONY_FOUND",
+    "defaultvalue": 0,
+    "displayName": "Colony Found",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/252870/e53b247a8a0ee6b0caca232051492962e72042a2.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/252870/6025a1c40497ef907b9d112297fcabb5cbe3e37c.jpg"
+  },
+  {
+    "name": "LC_IRONMAN_WIN",
+    "defaultvalue": 0,
+    "displayName": "True Mettle",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/252870/855d59e5e35e6039363e2daf1634fdadccd016b9.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/252870/bdce1cac4138d3898ff45a752236f1dd2cf1a751.jpg"
+  },
+  {
+    "name": "PT_WIN",
+    "defaultvalue": 0,
+    "displayName": "The Unseen Threat",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/252870/d2c0af3cdaafdc90f030c4f0a4825644254735ac.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/252870/902c1c95da5565f3bdb83e533e9c42b2db32213a.jpg"
   }
 ]

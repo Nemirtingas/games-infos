@@ -2,16 +2,18 @@
   "Dlcs": {
     "1009130": {
       "Name": "She and the Light Bearer: Art Book",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/1009130/header.jpg?t=1600670626"
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1009130/header.jpg?t=1600670626",
+      "Type": "dlc"
     },
     "1009140": {
-      "Name": "",
-      "ImageUrl": ""
+      "Name": "She and the Light Bearer: Original Soundtrack",
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1009140/header.jpg?t=1600670628",
+      "Type": "music"
     }
   },
   "Name": "She and the Light Bearer",
   "AppId": "658590",
-  "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/658590/header.jpg?t=1600670610",
+  "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/658590/header.jpg?t=1600670610",
   "Languages": [
     "english",
     "schinese",

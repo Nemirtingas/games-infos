@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "name": "Achievement_0",
     "defaultvalue": 0,
@@ -2491,5 +2491,113 @@
     "description": "Destroy 10 Demon Skulls on Hellmark Station",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/232090/4ebf225e76e737954e171f8f7aa18e7ab599113a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/232090/34120e794323534aaec67ad4711d5674144656c3.jpg"
+  },
+  {
+    "name": "Achievement_277",
+    "defaultvalue": 0,
+    "displayName": "Deliverance",
+    "hidden": 0,
+    "description": "Complete Elysium on Survival Hard or higher Difficulty",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/232090/56fedaeb2e47ba08c623efbeec74385a5bbd412a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/232090/380c05c1490a2d062d0d38ab4edb3751edfb352b.jpg"
+  },
+  {
+    "name": "Achievement_278",
+    "defaultvalue": 0,
+    "displayName": "Absolution",
+    "hidden": 0,
+    "description": "Complete Elysium on Survival Hell On Earth Difficulty",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/232090/88ced7e51152cbd7be8b24b4e9c19405820c727b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/232090/380c05c1490a2d062d0d38ab4edb3751edfb352b.jpg"
+  },
+  {
+    "name": "Achievement_279",
+    "defaultvalue": 0,
+    "displayName": "From Here to Eternity",
+    "hidden": 0,
+    "description": "Complete wave 15 on Endless Hard or higher difficulty on Elysium",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/232090/79b676d4715ba53722052924b4ea36eb69764252.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/232090/34120e794323534aaec67ad4711d5674144656c3.jpg"
+  },
+  {
+    "name": "Achievement_280",
+    "defaultvalue": 0,
+    "displayName": "Ignorance is Strength",
+    "hidden": 0,
+    "description": "Complete Dystopia 2029 on Survival Hard or higher Difficulty",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/232090/dc9f5086d97e9c5bb1bc0b580500c406ae4ff824.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/232090/380c05c1490a2d062d0d38ab4edb3751edfb352b.jpg"
+  },
+  {
+    "name": "Achievement_281",
+    "defaultvalue": 0,
+    "displayName": "Big Brother is Watching You",
+    "hidden": 0,
+    "description": "Complete Dystopia 2029 on Survival Hell On Earth Difficulty",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/232090/93d82e1a10964cc0d56eed905b92aff0c523f273.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/232090/380c05c1490a2d062d0d38ab4edb3751edfb352b.jpg"
+  },
+  {
+    "name": "Achievement_282",
+    "defaultvalue": 0,
+    "displayName": "Like Tears in Rain",
+    "hidden": 0,
+    "description": "Find all the Collectibles on Dystopia 2029",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/232090/9837ebb8f836a44efe83dc2fc16511912167e394.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/232090/34120e794323534aaec67ad4711d5674144656c3.jpg"
+  },
+  {
+    "name": "Achievement_283",
+    "defaultvalue": 0,
+    "displayName": "One Small Step for Man",
+    "hidden": 0,
+    "description": "Complete Moonbase on Survival Hard or higher Difficulty",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/232090/86667e35c0ec475e158ec0fe22fb3c0310047d49.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/232090/34120e794323534aaec67ad4711d5674144656c3.jpg"
+  },
+  {
+    "name": "Achievement_284",
+    "defaultvalue": 0,
+    "displayName": "One Giant Leap for Mankind",
+    "hidden": 0,
+    "description": "Complete Moonbase on Survival Hell On Earth Difficulty",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/232090/ecd02d2540f642e54e5a20e585aad121dc86f1a6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/232090/34120e794323534aaec67ad4711d5674144656c3.jpg"
+  },
+  {
+    "name": "Achievement_285",
+    "defaultvalue": 0,
+    "displayName": "The Dark Side of the Moon",
+    "hidden": 0,
+    "description": "Find all collectibles on Moonbase",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/232090/30a92ec1709aad98e306f378dd7679d35bf56530.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/232090/34120e794323534aaec67ad4711d5674144656c3.jpg"
+  },
+  {
+    "name": "Achievement_286",
+    "defaultvalue": 0,
+    "displayName": "Inside the Oblivion Maze",
+    "hidden": 0,
+    "description": "Complete Netherhold on Survival Hard or higher Difficulty",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/232090/e1b803718be78355218689f43e2a934b4e6c5a22.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/232090/380c05c1490a2d062d0d38ab4edb3751edfb352b.jpg"
+  },
+  {
+    "name": "Achievement_287",
+    "defaultvalue": 0,
+    "displayName": "The Abyss Stares Back at You",
+    "hidden": 0,
+    "description": "Complete Netherhold on Survival Hell On Earth Difficulty",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/232090/910fe287a18ae044ad3baff6b73d41a3bcad9de4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/232090/34120e794323534aaec67ad4711d5674144656c3.jpg"
+  },
+  {
+    "name": "Achievement_288",
+    "defaultvalue": 0,
+    "displayName": "Forgotten Knowledge",
+    "hidden": 0,
+    "description": "Find all collectibles on Netherhold",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/232090/f79752ec1e320b7065adc59d26de79b84a7a3c30.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/232090/380c05c1490a2d062d0d38ab4edb3751edfb352b.jpg"
   }
 ]

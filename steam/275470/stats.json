@@ -1,30 +1,37 @@
-﻿{
-  "lp1Complete": {
-    "description": "Level Pack 1 Complete",
-    "value": 0
+[
+  {
+    "name": "lp1Complete",
+    "defaultvalue": 0,
+    "displayName": "Level Pack 1 Complete"
   },
-  "lp2Complete": {
-    "description": "Level Pack 2 Complete",
-    "value": 0
+  {
+    "name": "lp2Complete",
+    "defaultvalue": 0,
+    "displayName": "Level Pack 2 Complete"
   },
-  "lp3Complete": {
-    "description": "Level Pack 3 Complete",
-    "value": 0
+  {
+    "name": "lp3Complete",
+    "defaultvalue": 0,
+    "displayName": "Level Pack 3 Complete"
   },
-  "lightbulbsAchieved": {
-    "description": "Lightbulbs Collected",
-    "value": 0
+  {
+    "name": "lightbulbsAchieved",
+    "defaultvalue": 0,
+    "displayName": "Lightbulbs Collected"
   },
-  "secretLevelsComplete": {
-    "description": "Secret Levels Complete",
-    "value": 0
+  {
+    "name": "secretLevelsComplete",
+    "defaultvalue": 0,
+    "displayName": "Secret Levels Complete"
   },
-  "collectablesFound": {
-    "description": "Collectables Found",
-    "value": 0
+  {
+    "name": "collectablesFound",
+    "defaultvalue": 0,
+    "displayName": "Collectables Found"
   },
-  "accessoriesBought": {
-    "description": "Accessories Bought",
-    "value": 0
+  {
+    "name": "accessoriesBought",
+    "defaultvalue": 0,
+    "displayName": "Accessories Bought"
   }
-}
+]

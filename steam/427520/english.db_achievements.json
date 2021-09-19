@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "name": "automated-cleanup",
     "defaultvalue": 0,
@@ -76,7 +76,7 @@
     "defaultvalue": 0,
     "displayName": "You've got a package",
     "hidden": 0,
-    "description": "Supply the player by logistic robot.",
+    "description": "Supply the character by logistic robot.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/427520/1f1528f292a3820e5b5971c680efc50ad20e8320.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/427520/3a868022b926c66b33adf28628768fe1c8cf0ba5.jpg"
   },
@@ -85,7 +85,7 @@
     "defaultvalue": 0,
     "displayName": "Delivery service",
     "hidden": 0,
-    "description": "Supply the player with 10k items delivered by logistic robots.",
+    "description": "Supply the character with 10k items delivered by logistic robots.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/427520/39ca8823f562502d3bd1e4b5c7f43fb19ab41cbb.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/427520/fcb5492d48881ec0778592dee61608a531856a3c.jpg"
   },
@@ -155,7 +155,7 @@
   {
     "name": "it-stinks-and-they-dont-like-it",
     "defaultvalue": 0,
-    "displayName": "It stinks and they dont like it",
+    "displayName": "It stinks and they don't like it",
     "hidden": 0,
     "description": "Trigger an alien attack by pollution.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/427520/8a1b3b0dd739628657390feecfed77fe0c25ac0d.jpg",
@@ -166,7 +166,7 @@
     "defaultvalue": 0,
     "displayName": "Lazy bastard",
     "hidden": 0,
-    "description": "Win the game by crafting no more than 111 items manually.",
+    "description": "Win the game by manually crafting no more than 111 items.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/427520/f3dc65775ed65768dc8135778379eb57612fa8d9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/427520/4b3b70480fec836ad69b61ae1f50b57acb32e9b9.jpg"
   },
@@ -175,7 +175,7 @@
     "defaultvalue": 0,
     "displayName": "Logistic network embargo",
     "hidden": 0,
-    "description": "Win the game without building any active provider or requester chests.",
+    "description": "Win the game without building any active provider, buffer, or requester chests.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/427520/aa8705e3bdcf91610f5e9e5974962bf2a3435414.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/427520/7c0d4b1d14e1cd1046f2308b05bbe93337b40d3a.jpg"
   },
@@ -274,7 +274,7 @@
     "defaultvalue": 0,
     "displayName": "Solaris",
     "hidden": 0,
-    "description": "Produce more than 10 GJ per hour using solar panels.",
+    "description": "Produce more than 10 GJ per hour using only solar panels.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/427520/a80000e3e15f4f2abad7977b4d7097bab4d14766.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/427520/82a2e76f387134bab0c042c01f284bd3c1e301f6.jpg"
   },
@@ -283,7 +283,7 @@
     "defaultvalue": 0,
     "displayName": "So long and thanks for all the fish",
     "hidden": 0,
-    "description": "",
+    "description": " ",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/427520/129ce8cf35015e74aa2977183ddd490e7ca1673d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/427520/e8b697fc96c35d71a2e98453b2c4e1f0ade726ef.jpg"
   },
@@ -319,7 +319,7 @@
     "defaultvalue": 0,
     "displayName": "Trans-Factorio express",
     "hidden": 0,
-    "description": "Have a train plan a path 1000 tiles or longer.",
+    "description": "Have a train plan a path 1,000 tiles or longer.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/427520/ddacb79c8a22d4a469e0da06442f41d4ac5a0630.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/427520/d254df23eec4a2666a8a165c7fb965d56d43596f.jpg"
   },

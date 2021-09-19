@@ -1,42 +1,52 @@
-﻿{
-  "DAY_COUNT": {
-    "description": "",
-    "value": 0
+[
+  {
+    "name": "DAY_COUNT",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "GAME_COUNT": {
-    "description": "",
-    "value": 0
+  {
+    "name": "GAME_COUNT",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "COIN_INCOME": {
-    "description": "",
-    "value": 0
+  {
+    "name": "COIN_INCOME",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "MANPOWER_INCOME": {
-    "description": "",
-    "value": 0
+  {
+    "name": "MANPOWER_INCOME",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "MONSTER_KILL_COUNT": {
-    "description": "",
-    "value": 0
+  {
+    "name": "MONSTER_KILL_COUNT",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "MAX_DAY_PASS": {
-    "description": "",
-    "value": 0
+  {
+    "name": "MAX_DAY_PASS",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "MAX_SCORE": {
-    "description": "",
-    "value": 0
+  {
+    "name": "MAX_SCORE",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "FASTEST_PASS": {
-    "description": "",
-    "value": 0
+  {
+    "name": "FASTEST_PASS",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "CONSUME_COIN": {
-    "description": "",
-    "value": 0
+  {
+    "name": "CONSUME_COIN",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "CONSUME_MANPOWER": {
-    "description": "",
-    "value": 0
+  {
+    "name": "CONSUME_MANPOWER",
+    "defaultvalue": 0,
+    "displayName": ""
   }
-}
+]

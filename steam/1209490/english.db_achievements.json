@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "name": "COMPLETE_TUTORIAL",
     "defaultvalue": 0,
@@ -265,7 +265,7 @@
     "defaultvalue": 0,
     "displayName": "Sunset Overdrive",
     "hidden": 0,
-    "description": "Exited The Gungeon As The Pilot.",
+    "description": "Exited The Gungeon As The Pilot On Their Route.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1209490/af5584de1a21c023df7c685e4a742845a57866b0.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1209490/d1d179851a18b9968da807edc3240fa19abd5917.jpg"
   },
@@ -274,7 +274,7 @@
     "defaultvalue": 0,
     "displayName": "Money, Cash, Woes",
     "hidden": 0,
-    "description": "Exited The Gungeon As The Convict.",
+    "description": "Exited The Gungeon As The Convict On Their Route.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1209490/445532cf69993ada2340dd4da9a0af7d1848cc3f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1209490/fc1a9aba61f99b867b40d046bc4d503226b4c533.jpg"
   },
@@ -283,7 +283,7 @@
     "defaultvalue": 0,
     "displayName": "Soldier Of Fortune",
     "hidden": 0,
-    "description": "Exited The Gungeon As The Marine.",
+    "description": "Exited The Gungeon As The Marine On Their Route.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1209490/05221d580c6dc689aeb2f78abaabe3475704a429.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1209490/3500a55cb869bb6987a47f55a08fc98bc7292a23.jpg"
   },
@@ -292,7 +292,7 @@
     "defaultvalue": 0,
     "displayName": "Hunter Exit Hunter",
     "hidden": 0,
-    "description": "Exited The Gungeon As The Hunter.",
+    "description": "Exited The Gungeon As The Hunter On Their Route.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1209490/7567307b019892c6f5fba9348cd07eed3106facc.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1209490/3285357500d867abe01f10b573a5896e95ef4e43.jpg"
   },
@@ -301,7 +301,7 @@
     "defaultvalue": 0,
     "displayName": "Blue Screen",
     "hidden": 0,
-    "description": "Exited The Gungeon As The Robot.",
+    "description": "Exited The Gungeon As The Robot On Their Route.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1209490/9339c984ad4e50d45cdd7bfa600da9858c83e490.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1209490/beb3b1c1484e1127ccdc6a2999d3715388d4474e.jpg"
   },
@@ -310,7 +310,7 @@
     "defaultvalue": 0,
     "displayName": "Sidekick Story",
     "hidden": 0,
-    "description": "Exited The Gungeon As The Cultist.",
+    "description": "Exited The Gungeon As The Cultist On Their Route.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1209490/48d0a248b2932c671d18b6177ea0564b42120147.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1209490/a9fe1dc8aae886e66dee00d87eca8b04e5880b43.jpg"
   },
@@ -319,7 +319,7 @@
     "defaultvalue": 0,
     "displayName": "Bullet Time",
     "hidden": 0,
-    "description": "Exited The Gungeon As The Bullet.",
+    "description": "Exited The Gungeon As The Bullet On Their Route.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1209490/9fb73cad1d6c3a08a5e6be056bb282733fc7da56.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1209490/06eb2ec2b55101432ad10d99b501f39dda72fa17.jpg"
   },
@@ -394,5 +394,32 @@
     "description": "Achieved Beast Mode Level 2.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1209490/87ab4c43e4aeba8e7b039f4df9bc3890642b311d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1209490/262b94fc5e6eb89623946877cc11f7b7b7f90f1b.jpg"
+  },
+  {
+    "name": "MASTER_GLOCKTOPUS",
+    "defaultvalue": 0,
+    "displayName": "Tentacle Espionage Action",
+    "hidden": 0,
+    "description": "Mastered The Glocktopus.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1209490/02275d59851c471e9c7eafbdc6dd93af2e0c45e1.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1209490/ffafe5c0ce9b574b39735ed9d5d61106c504fc02.jpg"
+  },
+  {
+    "name": "ACE_PLINKO",
+    "defaultvalue": 0,
+    "displayName": "At The Helm",
+    "hidden": 0,
+    "description": "Aced Helmet Kick.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1209490/339a0515502beb39ece0114f4baedc25ddf0be69.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1209490/94f9bf71ff767af09aa80d47eb016514712d5fda.jpg"
+  },
+  {
+    "name": "HOLD_MANY_GUNS",
+    "defaultvalue": 0,
+    "displayName": "Octo-Rockin'",
+    "hidden": 0,
+    "description": "Carried Eight Weapons At Once.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1209490/29533a33c9189dd5507b764ec5a1bfabb506d3af.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1209490/98a37c8ad13156424a0932d067e5e0acfcab9797.jpg"
   }
 ]

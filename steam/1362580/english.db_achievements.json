@@ -1,155 +1,191 @@
 [
   {
-    "name": "NEUTRALIZER",
-    "defaultvalue": 0,
-    "displayName": "NEUTRALIZER",
-    "hidden": 0,
-    "description": "You have removed a total of 1000 ships.",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1362580/642de074a92fd77104447cde7dbc322535d741a9.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1362580/2ae709188ed3e8e4eeb2e65fe17154a22b740093.jpg"
-  },
-  {
     "name": "ANNIHILATOR",
     "defaultvalue": 0,
-    "displayName": "ANNIHILATOR",
+    "displayName": "Annihilator",
     "hidden": 0,
-    "description": "You have removed a total of 5000 ships.",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1362580/5124741b9ceeb10c7897284be300c447f60d44d8.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1362580/74f43e85f003a227675f508f5f8730c8132ae3c4.jpg"
+    "description": "You have removed a total of 1000 ships.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1362580/e3b2ff608e9f658a5d1fe4f241c946e462b1a859.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1362580/0b4c502d1c31557cf643344032fdb0a91baba939.jpg"
   },
   {
     "name": "EXTERMINATOR",
     "defaultvalue": 0,
-    "displayName": "EXTERMINATOR",
+    "displayName": "Exterminator",
     "hidden": 0,
-    "description": "You have removed a total of 10000 ships.",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1362580/a9ccf94fd5c7863f180427d03578925ef35162ea.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1362580/006df33a3403a65346ba21028628fa404a6ccf04.jpg"
+    "description": "You have removed a total of 2000 ships.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1362580/eb785bce8bd3d0927a6652f60e473ab4d62dc3b5.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1362580/6f7bff0c608575e95f3e3b4502ccaffee957c1e4.jpg"
   },
   {
     "name": "FIRST_MINUTES",
     "defaultvalue": 0,
-    "displayName": "FIRST_MINUTES",
+    "displayName": "First Minutes",
     "hidden": 0,
     "description": "You have played for 15 minutes.",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1362580/3d2207add65b11c90e44fc7da0466654b542d73c.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1362580/0ed6779eb247eee9e1562084e6d73660eeb1b2c0.jpg"
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1362580/5973a6aef5ddce1508615d69c3aaa4adcb30e934.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1362580/9fe072c8fd225ce1bd75488b49e681b8fa8e11b8.jpg"
   },
   {
     "name": "HOOKED",
     "defaultvalue": 0,
-    "displayName": "HOOKED",
+    "displayName": "Hooked",
     "hidden": 0,
     "description": "You have played for 30 minutes.",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1362580/f66297b32f6ba90b8cd65abeb3707c4a78491429.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1362580/533038d5a87c63dccd4f07db5bd4412fea89b7e0.jpg"
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1362580/8ecb4c32ef61041f777e41d1fc730dec67aedb9c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1362580/0e51367a42beb172616319d8ea5998130203062d.jpg"
   },
   {
     "name": "ADDICTED",
     "defaultvalue": 0,
-    "displayName": "ADDICTED",
+    "displayName": "Addicted",
     "hidden": 0,
     "description": "You have played for 1 hour.",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1362580/5f48cdcffd4d9dccc719b8f8cb178316d5685885.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1362580/9f7bcd76964f9e775a565eec1f049c47b6cb9b00.jpg"
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1362580/15a506ced056d093c74142f2109f3fde173dac15.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1362580/fa0039a8ccba1e2c4074ef7be8baf55b33f597da.jpg"
   },
   {
     "name": "NOOB",
     "defaultvalue": 0,
-    "displayName": "NOOB",
+    "displayName": "Noob",
     "hidden": 0,
-    "description": "You have died 100 times.",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1362580/329c36de87d735284256be31f7cda21dfbc4e31b.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1362580/814e127873f7871429edddb49bced5bb39f630e6.jpg"
+    "description": "You have died 10 times.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1362580/ac726d7cbfb006804783a0afa7f04d5a7e1d8468.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1362580/368d9d75aadbbc2e34036e2c56fc8012f44a4af8.jpg"
   },
   {
     "name": "CLUMSY",
     "defaultvalue": 0,
-    "displayName": "CLUMSY",
+    "displayName": "Clumsy",
     "hidden": 0,
-    "description": "You have died 200 times.",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1362580/1dd3679d4da8d6982832736ba6504bb7c38c8d6d.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1362580/2830b6245ddd9c44129ce3dd86f69ab995dacde1.jpg"
+    "description": "You have died 20 times.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1362580/74d12ed239904774d3130d614c2a212229764873.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1362580/29a46cc8ea51d4aebd3e15d4de798f026dc71872.jpg"
   },
   {
     "name": "LOSER",
     "defaultvalue": 0,
-    "displayName": "LOSER",
+    "displayName": "Loser",
     "hidden": 0,
-    "description": "You have died 300 times.",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1362580/b396d9196ab6ca88f7ebb2ab73ef623bdd2a283d.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1362580/38630469217d9bada9ce9858ffec614eba462b13.jpg"
+    "description": "You have died 30 times.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1362580/b86255c3a32e72dae58c9bc6156347d5dad2eeef.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1362580/0591bf544ce20fc14e5b58c091d46234df0e0a17.jpg"
   },
   {
-    "name": "WORLD_1",
+    "name": "BOSS1",
     "defaultvalue": 0,
-    "displayName": "WORLD 1",
+    "displayName": "Boss 1",
     "hidden": 0,
-    "description": "You have completed the world 1.",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1362580/dd2bbb3b8c62e6876c11dcf32b3d9063dae2ed61.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1362580/7fb038957fb51629c6addd6276dd1c95fbcc7ea3.jpg"
+    "description": "You have eliminated Boss 1",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1362580/27b4cd5ceb1888e0c2831ac15cdc28a2667dd2ec.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1362580/fe64bb1c9da958ac304abe33e7300fbefeb44a93.jpg"
   },
   {
-    "name": "WORLD_2",
+    "name": "BOSS2",
     "defaultvalue": 0,
-    "displayName": "WORLD 2",
+    "displayName": "Boss 2",
     "hidden": 0,
-    "description": "You have completed the world 2.",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1362580/fe4a2e4ffd269f033d8e83a183dfd44ce524df94.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1362580/e7a075faf846a7b1f871f68812a1b7a7aa4ad1d6.jpg"
+    "description": "You have eliminated Boss 2",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1362580/272e4b85ffc1303b278604f415c7fcb57ae62f73.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1362580/2e3c235d444b41ea70315066636425246cfcadd1.jpg"
   },
   {
-    "name": "WORLD_3",
+    "name": "BOSS3",
     "defaultvalue": 0,
-    "displayName": "WORLD 3",
+    "displayName": "Boss 3",
     "hidden": 0,
-    "description": "WORLD 3",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1362580/eedf0f5b4c84dd01e6775580c49669f492837391.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1362580/30aa56ebab711cc2f61582290b4ff5af64f2ba28.jpg"
+    "description": "You have eliminated Boss 3",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1362580/221e41648ef08bc1baa08034fe343db63fe6412a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1362580/79a70aad2c1b92c19e44813146ee6d8989746dff.jpg"
   },
   {
-    "name": "WORLD_4",
+    "name": "BOSS4",
     "defaultvalue": 0,
-    "displayName": "WORLD 4",
+    "displayName": "Boss 4",
     "hidden": 0,
-    "description": "You have completed the world 4.",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1362580/d5bc3c0380109716925e4d1fb072e01de8975505.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1362580/39bd48b1a83790ffa5ed84fd1be13296d44d88c1.jpg"
+    "description": "You have eliminated Boss 4",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1362580/b7a2c5e780df21f3b7ac20e29faaf3eab748d14f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1362580/5b88688db1e48df3d77264e1ce6e9b329db51999.jpg"
   },
   {
-    "name": "WORLD_5",
+    "name": "BOSS5",
     "defaultvalue": 0,
-    "displayName": "WORLD 5",
+    "displayName": "Boss 5",
     "hidden": 0,
-    "description": "You have completed the world 5.",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1362580/88a49e4eb00f06814e0028210fdf8d3c7e9f8ca2.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1362580/991ef35086182690b25fb97c5797015e621004e1.jpg"
+    "description": "You have eliminated Boss 5",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1362580/8b8ff2cd8f302e03b964b6c7d3805460436dda3b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1362580/e0792480ffbf8ad34d633c8ace8bd352fec58312.jpg"
   },
   {
-    "name": "WORLD_6",
+    "name": "BOSS6",
     "defaultvalue": 0,
-    "displayName": "WORLD 6",
+    "displayName": "Boss 6",
     "hidden": 0,
-    "description": "WORLD 6",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1362580/943a355f40140a4a6cff5a03422f36f6dba73ae7.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1362580/4e0d9f28c6c56c1ef0f5504400d1b18506d7e0c7.jpg"
+    "description": "You have eliminated Boss 6",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1362580/1500c4d9c8f29adfd767e161cce1aaa92ed7ab71.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1362580/e14bde86d23cf15036e0fbda9bac88da526576b6.jpg"
   },
   {
-    "name": "WORLD_7",
+    "name": "BOSS7",
     "defaultvalue": 0,
-    "displayName": "WORLD 7",
+    "displayName": "Boss 7",
     "hidden": 0,
-    "description": "You have completed the world 7.",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1362580/65ce0fb76db8f5acd4256413333f63077b0078c8.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1362580/d4aa5462f5fbeb4097d70aaf0f973af483cbec7a.jpg"
+    "description": "You have eliminated Boss 7",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1362580/5bb21b60dca770e48dcde2a40c05b7d6822fed4d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1362580/00fe75c7a80578f8cbe1abde9274c38961871455.jpg"
   },
   {
-    "name": "WORLD_8",
+    "name": "BOSS8",
     "defaultvalue": 0,
-    "displayName": "WORLD 8",
+    "displayName": "Boss 8",
     "hidden": 0,
-    "description": "You have completed the world 8.",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1362580/132f36fc6389ec3cad63902476ec1239fcfb82f2.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1362580/f45cccb076302ec844476911bb632afe9a7a0496.jpg"
+    "description": "You have eliminated Boss 8",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1362580/6a11b51405ae27d7c351165834acc73949be52f7.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1362580/b127441ca9c0545f428fe748b619648925f60b16.jpg"
+  },
+  {
+    "name": "BOSS9",
+    "defaultvalue": 0,
+    "displayName": "Boss 9",
+    "hidden": 0,
+    "description": "You have eliminated Boss 9",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1362580/c5f4301a15b1e4404d614d36642460614ee50339.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1362580/72b53b184efcaf2ccb156543d2f20b928b4461b6.jpg"
+  },
+  {
+    "name": "BOSS10",
+    "defaultvalue": 0,
+    "displayName": "Boss 10",
+    "hidden": 0,
+    "description": "You have eliminated Boss 10",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1362580/32bf2dd3287a0766c34953aedc754ebc8fa6c0f6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1362580/94feb9a5a9e1cd1dfeabb65dd0db9413608ce499.jpg"
+  },
+  {
+    "name": "BOSS11",
+    "defaultvalue": 0,
+    "displayName": "Boss 11",
+    "hidden": 0,
+    "description": "You have eliminated Boss 11",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1362580/b84bb7996131ff4f4f28b5a4c6c597ff8a3153b7.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1362580/c2c2e56f46e64eb3e64fd85cb7e7f6b6b6fd8d9f.jpg"
+  },
+  {
+    "name": "BOSS12",
+    "defaultvalue": 0,
+    "displayName": "Boss 12",
+    "hidden": 0,
+    "description": "You have eliminated Boss 12",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1362580/12e83f553b9dfff2b20f38f29dff8788303f44db.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1362580/5bbdef163fc800282faeba7bc3d3aede0e73bd39.jpg"
+  },
+  {
+    "name": "ALL_STARS",
+    "defaultvalue": 0,
+    "displayName": "All Stars",
+    "hidden": 0,
+    "description": "Get 3 stars on all levels",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1362580/75f5ac9c94769a16ed24ff96659ee0b5bfb539d2.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1362580/78715be009ca5634f4425eb3c65aba9ce6a11767.jpg"
   }
 ]

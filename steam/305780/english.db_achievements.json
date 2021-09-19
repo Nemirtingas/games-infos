@@ -9,20 +9,11 @@
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/305780/70eedba435c7d60014a633b242c4cdbba3d2bafc.jpg"
   },
   {
-    "name": "Lost",
-    "defaultvalue": 0,
-    "displayName": "Lostening Adriftations",
-    "hidden": 0,
-    "description": "In the moonic place beyond Wilds... what dark pact have I done?",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/305780/e98f1a995fdcc1f9d240ede8c63f5cf39b9cf869.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/305780/fbcf0d9f79b5e733c9f169423aeedfb39016c1f3.jpg"
-  },
-  {
     "name": "Mixer",
     "defaultvalue": 0,
-    "displayName": "Master Mixery Extraordinaire",
+    "displayName": "Mastery Mixery",
     "hidden": 0,
-    "description": "Mix up a batch of every mixery recipe, in a single game.",
+    "description": "Mix up a batch of any mixery recipe.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/305780/3509286cbb72ec394f709c0500e88ecada6fa8d5.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/305780/70eedba435c7d60014a633b242c4cdbba3d2bafc.jpg"
   },
@@ -31,7 +22,7 @@
     "defaultvalue": 0,
     "displayName": "Founding of Forsaken Tales",
     "hidden": 0,
-    "description": "Find and unify all lost diary entries.",
+    "description": "Find and unify a lost diary entry.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/305780/1218a653e1efd32babfd81fdea7e10b4d5371a54.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/305780/70eedba435c7d60014a633b242c4cdbba3d2bafc.jpg"
   },
@@ -254,9 +245,9 @@
   {
     "name": "Fish",
     "defaultvalue": 0,
-    "displayName": "Most Blinging of Catches",
+    "displayName": "Lovely Catch",
     "hidden": 0,
-    "description": "Catch a glimmering goldilicious gargantuan gulper.",
+    "description": "Fish a finned fiend at the local fishing pond.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/305780/cf960bef0e40768f990f753bf07ac3d445da47b6.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/305780/70eedba435c7d60014a633b242c4cdbba3d2bafc.jpg"
   },
@@ -265,7 +256,7 @@
     "defaultvalue": 0,
     "displayName": "Salts Glimmering",
     "hidden": 0,
-    "description": "Consume the precious fruit of the incandescent oasis.",
+    "description": "Seize the precious anomaly of the incandescent oasis.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/305780/5f45f09887e7705cb360240d090388ce03705b57.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/305780/70eedba435c7d60014a633b242c4cdbba3d2bafc.jpg"
   },
@@ -274,7 +265,7 @@
     "defaultvalue": 0,
     "displayName": "Brambly Goldiful",
     "hidden": 0,
-    "description": "Materialise a fully sated flock of precious crop.",
+    "description": "Materialise a sated flock of precious crop.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/305780/5ce032341021922dadd47c7759ec70f310c58d6a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/305780/70eedba435c7d60014a633b242c4cdbba3d2bafc.jpg"
   },
@@ -342,12 +333,93 @@
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/305780/70eedba435c7d60014a633b242c4cdbba3d2bafc.jpg"
   },
   {
-    "name": "WinterAltar",
+    "name": "Branular",
     "defaultvalue": 0,
-    "displayName": "Snowy Rebuiltation",
+    "displayName": "Branular Hearted",
     "hidden": 0,
-    "description": "Rebuild the demolished shrine devotive of Winter Craft.",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/305780/0f26c1103a9eb4c90d029669871481660a8e2ce3.jpg",
+    "description": "Bestow an unholy gift to the grove of creepy craniums.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/305780/0f19242fdb398cb9f396072b5b1d8dbbcecbecb6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/305780/fbcf0d9f79b5e733c9f169423aeedfb39016c1f3.jpg"
+  },
+  {
+    "name": "ToolAltar_Begin_1",
+    "defaultvalue": 0,
+    "displayName": "Learnt Beginnings of Spring",
+    "hidden": 0,
+    "description": "Acquire your first bushcraft knowledge from the Spring Craft Altar.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/305780/cf3ecee497e50777f080d7722f5bbdc9229a117d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/305780/fbcf0d9f79b5e733c9f169423aeedfb39016c1f3.jpg"
+  },
+  {
+    "name": "ToolAltar_All_1",
+    "defaultvalue": 0,
+    "displayName": "Learnt Mastery of Spring",
+    "hidden": 0,
+    "description": "Acquire everything the Spring Craft Altar has to offer.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/305780/1e8553e143237a342e56c23d1ce6480434d08807.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/305780/fbcf0d9f79b5e733c9f169423aeedfb39016c1f3.jpg"
+  },
+  {
+    "name": "ToolAltar_Begin_2",
+    "defaultvalue": 0,
+    "displayName": "Learnt Beginnings of Summer",
+    "hidden": 0,
+    "description": "Acquire your first bushcraft knowledge from the Summer Craft Altar.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/305780/b23a7d6c3dfd7b320b95bf75aa5e2d750dd30d81.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/305780/fbcf0d9f79b5e733c9f169423aeedfb39016c1f3.jpg"
+  },
+  {
+    "name": "ToolAltar_All_2",
+    "defaultvalue": 0,
+    "displayName": "Learnt Mastery of Summer",
+    "hidden": 0,
+    "description": "Acquire everything the Summer Craft Altar has to offer.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/305780/1e8553e143237a342e56c23d1ce6480434d08807.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/305780/fbcf0d9f79b5e733c9f169423aeedfb39016c1f3.jpg"
+  },
+  {
+    "name": "ToolAltar_Begin_3",
+    "defaultvalue": 0,
+    "displayName": "Learnt Beginnings of Autumn",
+    "hidden": 0,
+    "description": "Acquire your first bushcraft knowledge from the Autumn Craft Altar.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/305780/cf3ecee497e50777f080d7722f5bbdc9229a117d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/305780/fbcf0d9f79b5e733c9f169423aeedfb39016c1f3.jpg"
+  },
+  {
+    "name": "ToolAltar_All_3",
+    "defaultvalue": 0,
+    "displayName": "Learnt Mastery of Autumn",
+    "hidden": 0,
+    "description": "Acquire everything the Autumn Craft Altar has to offer.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/305780/1e8553e143237a342e56c23d1ce6480434d08807.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/305780/fbcf0d9f79b5e733c9f169423aeedfb39016c1f3.jpg"
+  },
+  {
+    "name": "ToolAltar_Begin_4",
+    "defaultvalue": 0,
+    "displayName": "Learnt Beginnings of Winter",
+    "hidden": 0,
+    "description": "Acquire your first bushcraft knowledge from the Winter Craft Altar.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/305780/b23a7d6c3dfd7b320b95bf75aa5e2d750dd30d81.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/305780/fbcf0d9f79b5e733c9f169423aeedfb39016c1f3.jpg"
+  },
+  {
+    "name": "ToolAltar_All_4",
+    "defaultvalue": 0,
+    "displayName": "Learnt Mastery of Winter",
+    "hidden": 0,
+    "description": "Acquire everything the Winter Craft Altar has to offer.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/305780/b755cbe83a1401783956f1c676522e11c6480e78.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/305780/70eedba435c7d60014a633b242c4cdbba3d2bafc.jpg"
+  },
+  {
+    "name": "BigThrottle",
+    "defaultvalue": 0,
+    "displayName": "Punished Person",
+    "hidden": 0,
+    "description": "Discover the throttlement of another...",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/305780/8e4d7b6c3d8714ec429c033b5b044aacbf4b06e7.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/305780/70eedba435c7d60014a633b242c4cdbba3d2bafc.jpg"
   }
 ]

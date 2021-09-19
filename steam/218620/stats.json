@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "name": "player_time",
     "defaultvalue": 0,
@@ -13335,7 +13335,7 @@
     "displayName": ""
   },
   {
-    "name": "suit_used_poolrepair",
+    "name": "suit_used_poolrepair_default",
     "defaultvalue": 0,
     "displayName": ""
   },
@@ -14020,7 +14020,7 @@
     "displayName": ""
   },
   {
-    "name": "equipped_gloves",
+    "name": "equipped_glove_id",
     "defaultvalue": 0,
     "displayName": ""
   },
@@ -14131,6 +14131,2316 @@
   },
   {
     "name": "weapon_hits_x_holt",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "player_rank_26",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "player_rank_27",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "player_rank_28",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "player_rank_29",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "player_rank_30",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "player_rank_31",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "player_rank_32",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "player_rank_34",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "player_rank_36",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "player_rank_37",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "player_rank_39",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "player_rank_41",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "player_rank_43",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "player_rank_44",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "player_rank_45",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "player_rank_46",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "player_rank_47",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "player_rank_48",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "player_rank_49",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "player_rank_51",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "player_rank_52",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "player_rank_54",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "player_rank_56",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "player_rank_57",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "player_rank_58",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "player_rank_59",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "player_rank_60",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "player_rank_61",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "player_rank_62",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "player_rank_63",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "player_rank_64",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "player_rank_65",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "player_rank_66",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "player_rank_67",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "player_rank_68",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "player_rank_69",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "player_rank_70",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "player_rank_71",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "player_rank_72",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "player_rank_73",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "player_rank_74",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "player_rank_75",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "player_rank_76",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "player_rank_77",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "player_rank_78",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "player_rank_79",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "player_rank_80",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "player_rank_81",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "player_rank_82",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "player_rank_83",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "player_rank_84",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "player_rank_85",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "player_rank_86",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "player_rank_87",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "player_rank_88",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "player_rank_89",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "player_rank_90",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "player_rank_91",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "player_rank_92",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "player_rank_93",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "player_rank_94",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "player_rank_95",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "player_rank_96",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "player_rank_97",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "player_rank_98",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "player_rank_99",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "player_rank_100",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "player_rank_200",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "player_rank_300",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "player_rank_350",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "player_rank_400",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "player_rank_450",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "level_fex",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "level_pex",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "level_skm_mallcrasher",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "job_fex",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "job_skm_arena",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "contract_fex_win_dropin",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "contract_fex_fail",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "contract_skm_arena_win_dropin",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_used_holt",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_used_sbl",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_used_x_holt",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_used_x_model3",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_used_x_peacemaker",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "mask_used_buluc",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "mask_used_uno_01",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "suit_used_continental",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "suit_used_cartelboss",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "suit_used_esport_white",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "suit_used_gentleman_veteran",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "suit_used_gentleman_marine",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "suit_used_gentleman_father",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "suit_used_gunslinger_red",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "suit_used_gunslinger_piro",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "suit_used_gunslinger_casual",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "suit_used_t800_default",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "suit_used_t800_toughboy",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "suit_used_t800_red",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "suit_used_t800_cowboy",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "gloves_used_default",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "gloves_used_continental",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "gloves_used_tiger_neon",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "gloves_used_tiger_red",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "gloves_used_esport",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "gloves_used_bananabike",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "gloves_used_biker",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "gloves_used_biker_blue",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "gloves_used_biker_orange",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "gloves_used_biker_red",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "gloves_used_chopper",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "gloves_used_driver",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "gloves_used_fancy",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "gloves_used_hockey",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "gloves_used_kids",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "gloves_used_sportsbike",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "gloves_used_tactical",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "gloves_used_tiger",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "gloves_used_neoncity",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "gloves_used_cosmos",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "gloves_used_molten",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_color_used_color_orange_mellow",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_color_used_color_camo_free_01",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_color_used_color_camo_social_01",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_color_used_color_camo_achievement_02",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_color_used_color_camo_02",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_color_used_color_camo_08",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_color_used_color_camo_12",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_color_used_color_camo_15",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_color_used_color_camo_19",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_color_used_color_anv_01",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_color_used_color_anv_02",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_color_used_color_anv_03",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_color_used_color_anv_04",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_color_used_color_anv_05",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_color_used_color_ocp_01",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_color_used_color_ocp_04",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_color_used_color_ocp_05",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_color_used_color_ocp_06",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_color_used_color_ocp_08",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_color_used_color_ocp_09",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_color_used_color_ocp_02",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_color_used_color_ocp_03",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_color_used_color_ocp_07",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_color_used_color_ocp_10",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "player_rank_500",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_color_used_color_ocp_11",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_color_used_color_ocp_12",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_color_used_color_ocp_13",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_color_used_color_ocp_14",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_color_used_color_ocp_15",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_color_used_color_ocp_16",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_color_used_color_ocp_17",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_color_used_color_ocp_18",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_color_used_color_ocp_19",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_color_used_color_ocp_20",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_color_used_color_inf_01",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_color_used_color_inf_02",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_color_used_color_inf_03",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_color_used_color_inf_04",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_color_used_color_inf_05",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_color_used_color_inf_06",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_color_used_color_inf_07",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_color_used_color_inf_08",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_color_used_color_inf_09",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_color_used_color_inf_10",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_color_used_color_inf_11",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_color_used_color_inf_12",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_color_used_color_inf_13",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_color_used_color_inf_14",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_color_used_color_inf_15",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_color_used_color_inf_16",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_color_used_color_fex_01",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_color_used_color_fex_02",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "join_stinger_used_0",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "join_stinger_used_1",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "join_stinger_used_2",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "join_stinger_used_3",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "join_stinger_used_4",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "join_stinger_used_5",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "join_stinger_used_6",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "join_stinger_used_7",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "join_stinger_used_8",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "join_stinger_used_9",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "join_stinger_used_10",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "join_stinger_used_11",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "join_stinger_used_12",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "join_stinger_used_13",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "join_stinger_used_14",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "join_stinger_used_15",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "join_stinger_used_16",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "join_stinger_used_17",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_kills_m1897",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_kills_model3",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_kills_sbl",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_kills_x_lemming",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_kills_x_model3",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_kills_x_peacemaker",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "enemy_kills_security_mex_no_pager",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_shots_holt",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_shots_m1897",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_shots_model3",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_shots_sbl",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_shots_x_holt",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_shots_x_lemming",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_shots_x_model3",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_shots_x_peacemaker",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_hits_m1897",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_hits_m60",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_hits_model3",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_hits_sbl",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_hits_x_lemming",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_hits_x_model3",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_hits_x_peacemaker",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "equipped_join_stinger",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "setting_roman_rank_on",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "setting_roman_rank_off",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "setting_roman_card_on",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "setting_roman_card_off",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "suit_used_gunslinger_default",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "suit_used_gentleman_default",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_used_x_lemming",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_used_model3",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_used_m1897",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "contract_fex_win",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "player_rank_250",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "player_rank_150",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "player_rank_55",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "player_rank_53",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "player_rank_50",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "player_rank_42",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "player_rank_40",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "player_rank_38",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "player_rank_35",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "player_rank_33",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_used_m1911",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_used_m590",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_used_vityaz",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_used_x_vityaz",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "mask_used_biden",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "mask_used_cyberpunk",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "mask_used_lastlaugh",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "mask_used_mega_max",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "mask_used_msq_02",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "mask_used_msq_04",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "mask_used_xm20_jaguar",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "mask_used_xm20_owl",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "mask_used_xm20_serpent",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "suit_used_candycane",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "suit_used_leather_white",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "suit_used_leather_black",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_color_used_color_xm20_01",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "gloves_used_silver",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_color_used_color_faco_02",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_color_used_color_faco_04",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_color_used_color_faco_05",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_color_used_color_faco_01",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_color_used_color_faco_03",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_color_used_color_faco_06",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_color_used_color_faco_08",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_color_used_color_faco_09",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_color_used_color_faco_10",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_color_used_color_faco_12",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_color_used_color_faco_13",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_color_used_color_faco_14",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_color_used_color_faco_15",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_color_used_color_faco_16",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_color_used_color_faco_17",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_color_used_color_faco_18",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_color_used_color_faco_19",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_color_used_color_faco_20",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_color_used_color_faco_00",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_color_used_color_in31_01",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_color_used_color_in31_02",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_color_used_color_in31_03",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_color_used_color_in31_04",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_color_used_color_in31_05",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_color_used_color_in31_06",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_color_used_color_in31_07",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_color_used_color_in31_08",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "join_stinger_used_18",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "join_stinger_used_19",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "join_stinger_used_24",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "join_stinger_used_26",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_kills_m590",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_kills_vityaz",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_kills_x_m1911",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_kills_x_vityaz",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_shots_m1911",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_shots_vityaz",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_shots_x_m1911",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_shots_x_vityaz",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_hits_m1911",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_hits_m590",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_hits_vityaz",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_hits_x_m1911",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_hits_x_vityaz",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_used_x_m1911",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "mask_used_msq_01",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "mask_used_msq_03",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "mask_used_xm20_dog",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "suit_used_badsanta",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "suit_used_leather_default",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "suit_used_leather_red",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "gloves_used_wool",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_color_used_color_faco_07",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_color_used_color_faco_11",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "join_stinger_used_20",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "join_stinger_used_21",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "join_stinger_used_22",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "join_stinger_used_23",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "join_stinger_used_25",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_kills_m1911",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_shots_m590",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "gsu",
+    "defaultvalue": 2,
+    "displayName": ""
+  },
+  {
+    "name": "level_chas",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "job_chas",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "contract_chas_win",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "contract_chas_win_dropin",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "contract_chas_fail",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "mask_used_daemon",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "mask_used_dragon01",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "mask_used_dragon02",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "mask_used_godess",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "suit_used_thug_default",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "suit_used_hitman_red",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "suit_used_hitman_brown",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "suit_used_hitman_blue",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "suit_used_traditional_default",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "suit_used_traditional_red",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "suit_used_traditional_brown",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "suit_used_traditional_blue",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "gloves_used_redstripe",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "gloves_used_flame",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "gloves_used_reddragon",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "gloves_used_blackdragon",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_color_used_color_mar21_01",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "enemy_kills_triad",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "suit_used_hitman_default",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "gsu_stat",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "melee_used_spoon",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "melee_used_spoon_gold",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "melee_kills_spoon",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "melee_kills_spoon_gold",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "mask_used_goldenbrute",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "mask_used_ingoldnito",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "suit_used_gangstercoat_default",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "suit_used_gangstercoat_irish",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "suit_used_gangstercoat_french",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "suit_used_gangstercoat_british",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "suit_used_general_default",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "suit_used_general_white",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "suit_used_general_red",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "suit_used_general_blue",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "gloves_used_goldnet",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "gloves_used_postmoto",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_color_used_color_in32_01",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_color_used_color_in32_02",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_color_used_color_in32_03",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_color_used_color_in32_04",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_color_used_color_in32_05",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_color_used_color_in32_06",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_color_used_color_in32_07",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_color_used_color_in32_08",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_color_used_color_in32_09",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "join_stinger_used_27",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "join_stinger_used_28",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "join_stinger_used_29",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "join_stinger_used_30",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "join_stinger_used_31",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "join_stinger_used_32",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "join_stinger_used_33",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "join_stinger_used_34",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "join_stinger_used_35",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "sawp_stat",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "equipped_gloves",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_hits_x_pm9",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_hits_qbu88",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_hits_pm9",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_hits_groza_underbarrel",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_hits_groza",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_shots_x_pm9",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_shots_qbu88",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_shots_pm9",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_shots_groza_underbarrel",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_shots_groza",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "grenade_kills_wpn_gre_electric",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_kills_x_pm9",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_kills_qbu88",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_kills_pm9",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_kills_groza_underbarrel",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_kills_groza",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_color_used_color_sawp_10",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_color_used_color_sawp_09",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_color_used_color_sawp_08",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_color_used_color_sawp_07",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_color_used_color_sawp_06",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_color_used_color_sawp_05",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_color_used_color_sawp_04",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_color_used_color_sawp_03",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_color_used_color_sawp_02",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_color_used_color_sawp_01",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "suit_used_poolrepair_electric",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "suit_used_poolrepair",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "grenade_used_wpn_gre_electric",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_used_x_pm9",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_used_qbu88",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_used_pm9",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_used_groza_underbarrel",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_used_groza",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "suit_used_cable_guy",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "mask_used_boss",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "suit_used_boss",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "main_menu_crimenet",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "main_menu_crimenet_offline",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "main_menu_story_missions",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "main_menu_inventory",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "main_menu_steam_inventory",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "main_menu_gamehub",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "main_menu_quit",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "level_sand",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "job_sand",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "contract_sand_win",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "contract_sand_win_dropin",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "contract_sand_fail",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "mask_used_blacktortoise",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "mask_used_vermilionbird",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "mask_used_whitetiger",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "suit_used_highinttech_default",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "suit_used_highinttech_green",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "suit_used_lowinttech_default",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "suit_used_lowinttech_red",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "gloves_used_techhigh_bird",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "gloves_used_techhigh_dragon",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "gloves_used_techhigh_tiger",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "gloves_used_techhigh_tortoise",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "gloves_used_techlow_bird",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "gloves_used_techlow_dragon",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "gloves_used_techlow_tiger",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "gloves_used_techlow_tortoise",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "mask_used_azuredragon",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "suit_used_thug_black",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "suit_used_highinttech_orange",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "suit_used_highinttech_blue",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "suit_used_lowinttech_yellow",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "suit_used_lowinttech_blue",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "story_menu_skip",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "main_menu_options",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "main_menu_achievements",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "main_menu_fbi_files",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "pda_stat_a",
+    "defaultvalue": 1,
+    "displayName": ""
+  },
+  {
+    "name": "pda_stat_b",
+    "defaultvalue": 1,
+    "displayName": ""
+  },
+  {
+    "name": "pda_stat_c",
+    "defaultvalue": 1,
+    "displayName": ""
+  },
+  {
+    "name": "pda_stat_d",
+    "defaultvalue": 1,
+    "displayName": ""
+  },
+  {
+    "name": "mask_used_eighthgrin",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_used_money",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_kills_money",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_shots_money",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "weapon_hits_money",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "gloves_used_jesterstripe",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "suit_used_baron_default",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "suit_used_baron_blue",
     "defaultvalue": 0,
     "displayName": ""
   }

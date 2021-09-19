@@ -1,58 +1,72 @@
-﻿{
-  "NumUniqueFavesMade": {
-    "description": "Unique Faves Made",
-    "value": 0
+[
+  {
+    "name": "NumUniqueFavesMade",
+    "defaultvalue": 0,
+    "displayName": "Unique Faves Made"
   },
-  "NumBulletsDefended": {
-    "description": "Bullets Defended",
-    "value": 0
+  {
+    "name": "NumBulletsDefended",
+    "defaultvalue": 0,
+    "displayName": "Bullets Defended"
   },
-  "NumSuddenDeathsTriggered": {
-    "description": "Sudden Deaths",
-    "value": 0
+  {
+    "name": "NumSuddenDeathsTriggered",
+    "defaultvalue": 0,
+    "displayName": "Sudden Deaths"
   },
-  "NumShutouts": {
-    "description": "Shutouts",
-    "value": 0
+  {
+    "name": "NumShutouts",
+    "defaultvalue": 0,
+    "displayName": "Shutouts"
   },
-  "MaxSyncSpeedDuration": {
-    "description": "Duration Travelling at Max Sync Speed (sec)",
-    "value": 0
+  {
+    "name": "MaxSyncSpeedDuration",
+    "defaultvalue": 0,
+    "displayName": "Duration Travelling at Max Sync Speed (sec)"
   },
-  "NumDyeJobs": {
-    "description": "Dye Jobs",
-    "value": 0
+  {
+    "name": "NumDyeJobs",
+    "defaultvalue": 0,
+    "displayName": "Dye Jobs"
   },
-  "NumBankShots": {
-    "description": "Bank Shots",
-    "value": 0
+  {
+    "name": "NumBankShots",
+    "defaultvalue": 0,
+    "displayName": "Bank Shots"
   },
-  "NumZapPadMultiWallops": {
-    "description": "Zap Pad Multiwallops",
-    "value": 0
+  {
+    "name": "NumZapPadMultiWallops",
+    "defaultvalue": 0,
+    "displayName": "Zap Pad Multiwallops"
   },
-  "NumTeleportShots": {
-    "description": "Teleport Shots",
-    "value": 0
+  {
+    "name": "NumTeleportShots",
+    "defaultvalue": 0,
+    "displayName": "Teleport Shots"
   },
-  "NumMatchesPlayed": {
-    "description": "MatchesPlayed",
-    "value": 0
+  {
+    "name": "NumMatchesPlayed",
+    "defaultvalue": 0,
+    "displayName": "MatchesPlayed"
   },
-  "NumZoomMatches": {
-    "description": "Zoom Matches",
-    "value": 0
+  {
+    "name": "NumZoomMatches",
+    "defaultvalue": 0,
+    "displayName": "Zoom Matches"
   },
-  "NumSyncMatches": {
-    "description": "Sync Matches",
-    "value": 0
+  {
+    "name": "NumSyncMatches",
+    "defaultvalue": 0,
+    "displayName": "Sync Matches"
   },
-  "NumVoidMatches": {
-    "description": "Void Matches",
-    "value": 0
+  {
+    "name": "NumVoidMatches",
+    "defaultvalue": 0,
+    "displayName": "Void Matches"
   },
-  "NumFadeMatches": {
-    "description": "Fade Matches",
-    "value": 0
+  {
+    "name": "NumFadeMatches",
+    "defaultvalue": 0,
+    "displayName": "Fade Matches"
   }
-}
+]

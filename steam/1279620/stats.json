@@ -1,18 +1,22 @@
-﻿{
-  "WinSpeedyProgress": {
-    "description": "",
-    "value": 0
+[
+  {
+    "name": "WinSpeedyProgress",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "WinJusticeProgress": {
-    "description": "",
-    "value": 0
+  {
+    "name": "WinJusticeProgress",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "FiveCrownsProgress": {
-    "description": "",
-    "value": 0
+  {
+    "name": "FiveCrownsProgress",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "ExplorerProgress": {
-    "description": "",
-    "value": 0
+  {
+    "name": "ExplorerProgress",
+    "defaultvalue": 0,
+    "displayName": ""
   }
-}
+]

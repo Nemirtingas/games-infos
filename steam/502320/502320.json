@@ -2,16 +2,18 @@
   "Dlcs": {
     "505450": {
       "Name": "Classic Remix World",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/505450/header.jpg?t=1501913218"
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/505450/header.jpg?t=1501913218",
+      "Type": "dlc"
     },
     "505451": {
       "Name": "The Bouldering Comp by Peter Liepa",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/505451/header.jpg?t=1501913246"
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/505451/header.jpg?t=1501913246",
+      "Type": "dlc"
     }
   },
   "Name": "Boulder Dash - 30th Anniversary",
   "AppId": "502320",
-  "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/502320/header.jpg?t=1501913188",
+  "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/502320/header.jpg?t=1501913188",
   "Languages": [
     "english",
     "french",

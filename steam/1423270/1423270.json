@@ -2,7 +2,7 @@
   "Dlcs": {},
   "Name": "Ghost Stories 2",
   "AppId": "1423270",
-  "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/1423270/header.jpg?t=1600444514",
+  "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1423270/header.jpg?t=1610745920",
   "Languages": [
     "english",
     "french",
@@ -10,11 +10,15 @@
     "german",
     "spanish",
     "schinese",
-    "russian"
+    "russian",
+    "korean",
+    "japanese",
+    "portuguese",
+    "turkish"
   ],
   "Platforms": {
     "windows": true,
     "mac": false,
-    "linux": false
+    "linux": true
   }
 }

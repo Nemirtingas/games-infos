@@ -1,14 +1,17 @@
-﻿{
-  "S_Achi_Favor_BlackmailMaster": {
-    "description": "NSA",
-    "value": 0
+[
+  {
+    "name": "S_Achi_Favor_BlackmailMaster",
+    "defaultvalue": 0,
+    "displayName": "NSA"
   },
-  "S_Achi_Playtime_420": {
-    "description": "Ayy lmao",
-    "value": 0
+  {
+    "name": "S_Achi_Playtime_420",
+    "defaultvalue": 0,
+    "displayName": "Ayy lmao"
   },
-  "S_Achi_Sell_Cheap": {
-    "description": "Smoke Weed Everyday",
-    "value": 0
+  {
+    "name": "S_Achi_Sell_Cheap",
+    "defaultvalue": 0,
+    "displayName": "Smoke Weed Everyday"
   }
-}
+]

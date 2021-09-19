@@ -1,58 +1,72 @@
-﻿{
-  "EnterGame_Stat": {
-    "description": "Enter Nightmare",
-    "value": 0
+[
+  {
+    "name": "EnterGame_Stat",
+    "defaultvalue": 0,
+    "displayName": "Enter Nightmare"
   },
-  "Boss_ShadowOfAnger_Stat": {
-    "description": "Shadow of Anger",
-    "value": 0
+  {
+    "name": "Boss_ShadowOfAnger_Stat",
+    "defaultvalue": 0,
+    "displayName": "Shadow of Anger"
   },
-  "Boss_ShadowOfInferiority_Stat": {
-    "description": "Shadow of Inferiority",
-    "value": 0
+  {
+    "name": "Boss_ShadowOfInferiority_Stat",
+    "defaultvalue": 0,
+    "displayName": "Shadow of Inferiority"
   },
-  "Boss_ImmortalObsession_Stat": {
-    "description": "Immortal Obsession",
-    "value": 0
+  {
+    "name": "Boss_ImmortalObsession_Stat",
+    "defaultvalue": 0,
+    "displayName": "Immortal Obsession"
   },
-  "Boss_LostHero_Stat": {
-    "description": "Lost Hero",
-    "value": 0
+  {
+    "name": "Boss_LostHero_Stat",
+    "defaultvalue": 0,
+    "displayName": "Lost Hero"
   },
-  "Boss_ColdFriend_Stat": {
-    "description": "Cold Friend",
-    "value": 0
+  {
+    "name": "Boss_ColdFriend_Stat",
+    "defaultvalue": 0,
+    "displayName": "Cold Friend"
   },
-  "Boss_ShadowOfDespair_Stat": {
-    "description": "Shadow of Despair",
-    "value": 0
+  {
+    "name": "Boss_ShadowOfDespair_Stat",
+    "defaultvalue": 0,
+    "displayName": "Shadow of Despair"
   },
-  "Boss_ShadowOfFear_Stat": {
-    "description": "Shadow of Fear",
-    "value": 0
+  {
+    "name": "Boss_ShadowOfFear_Stat",
+    "defaultvalue": 0,
+    "displayName": "Shadow of Fear"
   },
-  "Boss_FanaticalFriend_Stat": {
-    "description": "Fanatical Friend",
-    "value": 0
+  {
+    "name": "Boss_FanaticalFriend_Stat",
+    "defaultvalue": 0,
+    "displayName": "Fanatical Friend"
   },
-  "Boss_JudgeOfAbyss_Stat": {
-    "description": "Judge of Abyss",
-    "value": 0
+  {
+    "name": "Boss_JudgeOfAbyss_Stat",
+    "defaultvalue": 0,
+    "displayName": "Judge of Abyss"
   },
-  "Boss_TormentedBlackCrowHegel_Stat": {
-    "description": "Tormented Black Crow —— Hegel",
-    "value": 0
+  {
+    "name": "Boss_TormentedBlackCrowHegel_Stat",
+    "defaultvalue": 0,
+    "displayName": "Tormented Black Crow —— Hegel"
   },
-  "Get_AllMemMemoryPoint_Stat": {
-    "description": "All Memory",
-    "value": 0
+  {
+    "name": "Get_AllMemMemoryPoint_Stat",
+    "defaultvalue": 0,
+    "displayName": "All Memory"
   },
-  "Get_AllSkills_Stat": {
-    "description": "All Skills",
-    "value": 0
+  {
+    "name": "Get_AllSkills_Stat",
+    "defaultvalue": 0,
+    "displayName": "All Skills"
   },
-  "Get_AllRunes_Stat": {
-    "description": "All Runes",
-    "value": 0
+  {
+    "name": "Get_AllRunes_Stat",
+    "defaultvalue": 0,
+    "displayName": "All Runes"
   }
-}
+]

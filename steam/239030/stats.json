@@ -1,26 +1,32 @@
-﻿{
-  "STAT_PLAYTIME": {
-    "description": "Play Time (Seconds)",
-    "value": 0
+[
+  {
+    "name": "STAT_PLAYTIME",
+    "defaultvalue": 0,
+    "displayName": "Play Time (Seconds)"
   },
-  "STAT_NUMPROCESSED": {
-    "description": "Total Processed Travelers",
-    "value": 0
+  {
+    "name": "STAT_NUMPROCESSED",
+    "defaultvalue": 0,
+    "displayName": "Total Processed Travelers"
   },
-  "STAT_NUMAPPROVED": {
-    "description": "Total Approved Travelers",
-    "value": 0
+  {
+    "name": "STAT_NUMAPPROVED",
+    "defaultvalue": 0,
+    "displayName": "Total Approved Travelers"
   },
-  "STAT_NUMDENIED": {
-    "description": "Total Denied Travelers",
-    "value": 0
+  {
+    "name": "STAT_NUMDENIED",
+    "defaultvalue": 0,
+    "displayName": "Total Denied Travelers"
   },
-  "STAT_NUMDETAINED": {
-    "description": "Total Detained Travelers",
-    "value": 0
+  {
+    "name": "STAT_NUMDETAINED",
+    "defaultvalue": 0,
+    "displayName": "Total Detained Travelers"
   },
-  "STAT_NUMCITATIONS": {
-    "description": "Total Citations",
-    "value": 0
+  {
+    "name": "STAT_NUMCITATIONS",
+    "defaultvalue": 0,
+    "displayName": "Total Citations"
   }
-}
+]

@@ -1,50 +1,62 @@
-﻿{
-  "action_rats_s": {
-    "description": "Exterminator",
-    "value": 0
+[
+  {
+    "name": "action_rats_s",
+    "defaultvalue": 0,
+    "displayName": "Exterminator"
   },
-  "action_spiders_s": {
-    "description": "Bug Squasher",
-    "value": 0
+  {
+    "name": "action_spiders_s",
+    "defaultvalue": 0,
+    "displayName": "Bug Squasher"
   },
-  "action_tentacles_s": {
-    "description": "Lovecraftian Shenanigans",
-    "value": 0
+  {
+    "name": "action_tentacles_s",
+    "defaultvalue": 0,
+    "displayName": "Lovecraftian Shenanigans"
   },
-  "action_2hp_s": {
-    "description": "Not Skipping Leg Day",
-    "value": 0
+  {
+    "name": "action_2hp_s",
+    "defaultvalue": 0,
+    "displayName": "Not Skipping Leg Day"
   },
-  "action_3hp_s": {
-    "description": "Figment of Steel",
-    "value": 0
+  {
+    "name": "action_3hp_s",
+    "defaultvalue": 0,
+    "displayName": "Figment of Steel"
   },
-  "collect_halfmem_s": {
-    "description": "Distant Memories",
-    "value": 0
+  {
+    "name": "collect_halfmem_s",
+    "defaultvalue": 0,
+    "displayName": "Distant Memories"
   },
-  "collect_allmem_s": {
-    "description": "Now it all Makes Sense!",
-    "value": 0
+  {
+    "name": "collect_allmem_s",
+    "defaultvalue": 0,
+    "displayName": "Now it all Makes Sense!"
   },
-  "knock_cere_s": {
-    "description": "Noisy Neighbor",
-    "value": 0
+  {
+    "name": "knock_cere_s",
+    "defaultvalue": 0,
+    "displayName": "Noisy Neighbor"
   },
-  "knock_free_s": {
-    "description": "Seeking Inspiration",
-    "value": 0
+  {
+    "name": "knock_free_s",
+    "defaultvalue": 0,
+    "displayName": "Seeking Inspiration"
   },
-  "knock_clock_s": {
-    "description": "Checking the Gears",
-    "value": 0
+  {
+    "name": "knock_clock_s",
+    "defaultvalue": 0,
+    "displayName": "Checking the Gears"
   },
-  "explore_freeclock_s": {
-    "description": "Nostalgia",
-    "value": 0
+  {
+    "name": "explore_freeclock_s",
+    "defaultvalue": 0,
+    "displayName": "Nostalgia"
   },
-  "action_1hp_s": {
-    "description": "Back into Shape",
-    "value": 0
+  {
+    "name": "action_1hp_s",
+    "defaultvalue": 0,
+    "displayName": "Back into Shape"
   }
-}
+]

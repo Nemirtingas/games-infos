@@ -1,58 +1,72 @@
-﻿{
-  "winCount": {
-    "description": "Win",
-    "value": 0
+[
+  {
+    "name": "winCount",
+    "defaultvalue": 0,
+    "displayName": "Win"
   },
-  "loseCount": {
-    "description": "Lose",
-    "value": 0
+  {
+    "name": "loseCount",
+    "defaultvalue": 0,
+    "displayName": "Lose"
   },
-  "drawCount": {
-    "description": "Draw",
-    "value": 0
+  {
+    "name": "drawCount",
+    "defaultvalue": 0,
+    "displayName": "Draw"
   },
-  "winStreak": {
-    "description": "Win Streak",
-    "value": 0
+  {
+    "name": "winStreak",
+    "defaultvalue": 0,
+    "displayName": "Win Streak"
   },
-  "loseStreak": {
-    "description": "Lose Streak",
-    "value": 0
+  {
+    "name": "loseStreak",
+    "defaultvalue": 0,
+    "displayName": "Lose Streak"
   },
-  "drawStreak": {
-    "description": "Draw Streak",
-    "value": 0
+  {
+    "name": "drawStreak",
+    "defaultvalue": 0,
+    "displayName": "Draw Streak"
   },
-  "winHigh": {
-    "description": "Highiest Win Streak",
-    "value": 0
+  {
+    "name": "winHigh",
+    "defaultvalue": 0,
+    "displayName": "Highiest Win Streak"
   },
-  "loseHigh": {
-    "description": "Highiest Lose Streak",
-    "value": 0
+  {
+    "name": "loseHigh",
+    "defaultvalue": 0,
+    "displayName": "Highiest Lose Streak"
   },
-  "drawHigh": {
-    "description": "Highiest Draw Streak",
-    "value": 0
+  {
+    "name": "drawHigh",
+    "defaultvalue": 0,
+    "displayName": "Highiest Draw Streak"
   },
-  "savCount": {
-    "description": "",
-    "value": 0
+  {
+    "name": "savCount",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "savCountTime": {
-    "description": "",
-    "value": 0
+  {
+    "name": "savCountTime",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "first": {
-    "description": "",
-    "value": 0
+  {
+    "name": "first",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "netID": {
-    "description": "",
-    "value": 0
+  {
+    "name": "netID",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "netIDHash": {
-    "description": "",
-    "value": 0
+  {
+    "name": "netIDHash",
+    "defaultvalue": 0,
+    "displayName": ""
   }
-}
+]

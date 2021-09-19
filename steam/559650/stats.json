@@ -1,126 +1,167 @@
-﻿{
-  "StatAccountLevel": {
-    "description": "Level",
-    "value": 1
+[
+  {
+    "name": "StatAccountLevel",
+    "defaultvalue": 1,
+    "displayName": "Level"
   },
-  "StatExperience": {
-    "description": "Experience",
-    "value": 0
+  {
+    "name": "StatExperience",
+    "defaultvalue": 0,
+    "displayName": "Experience"
   },
-  "StatVersion": {
-    "description": "",
-    "value": 1
+  {
+    "name": "StatVersion",
+    "defaultvalue": 1,
+    "displayName": ""
   },
-  "StatRoundsPlayed": {
-    "description": "Rounds Played",
-    "value": 0
+  {
+    "name": "StatRoundsPlayed",
+    "defaultvalue": 0,
+    "displayName": "Rounds Played"
   },
-  "StatPCCollected0": {
-    "description": "",
-    "value": 0
+  {
+    "name": "StatPCCollected0",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "StatPCCollected1": {
-    "description": "",
-    "value": 0
+  {
+    "name": "StatPCCollected1",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "StatPCCollected2": {
-    "description": "",
-    "value": 0
+  {
+    "name": "StatPCCollected2",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "StatPCCollected3": {
-    "description": "",
-    "value": 0
+  {
+    "name": "StatPCCollected3",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "StatPCCollected4": {
-    "description": "",
-    "value": 0
+  {
+    "name": "StatPCCollected4",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "StatPCCollected5": {
-    "description": "",
-    "value": 0
+  {
+    "name": "StatPCCollected5",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "StatPCCollected6": {
-    "description": "",
-    "value": 0
+  {
+    "name": "StatPCCollected6",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "StatPCCollected7": {
-    "description": "",
-    "value": 0
+  {
+    "name": "StatPCCollected7",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "StatPCCollected8": {
-    "description": "",
-    "value": 0
+  {
+    "name": "StatPCCollected8",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "StatPCCollected9": {
-    "description": "",
-    "value": 0
+  {
+    "name": "StatPCCollected9",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "StatPCCollected10": {
-    "description": "",
-    "value": 0
+  {
+    "name": "StatPCCollected10",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "StatPCSetXMas01": {
-    "description": "",
-    "value": 0
+  {
+    "name": "StatPCSetXMas01",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "StatPCSetXMas02": {
-    "description": "",
-    "value": 0
+  {
+    "name": "StatPCSetXMas02",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "StatPCSetXMas03": {
-    "description": "",
-    "value": 0
+  {
+    "name": "StatPCSetXMas03",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "StatPCCountGold": {
-    "description": "",
-    "value": 0
+  {
+    "name": "StatPCCountGold",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "StatPCCountSecret": {
-    "description": "",
-    "value": 0
+  {
+    "name": "StatPCCountSecret",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "StatPCCountEvent": {
-    "description": "",
-    "value": 0
+  {
+    "name": "StatPCCountEvent",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "StatPCCountDefault": {
-    "description": "",
-    "value": 0
+  {
+    "name": "StatPCCountDefault",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "StatItemDropExperience": {
-    "description": "",
-    "value": 0
+  {
+    "name": "StatItemDropExperience",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "StatIsChatBanned": {
-    "description": "",
-    "value": 0
+  {
+    "name": "StatIsChatBanned",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "StatPCCollected11": {
-    "description": "",
-    "value": 0
+  {
+    "name": "StatPCCollected11",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "StatPCCollected12": {
-    "description": "",
-    "value": 0
+  {
+    "name": "StatPCCollected12",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "StatPCCollected13": {
-    "description": "",
-    "value": 0
+  {
+    "name": "StatPCCollected13",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "StatPCCollected14": {
-    "description": "",
-    "value": 0
+  {
+    "name": "StatPCCollected14",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "StatPCCollected15": {
-    "description": "",
-    "value": 0
+  {
+    "name": "StatPCCollected15",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "StatServerLevel": {
-    "description": "Account Level",
-    "value": 70
+  {
+    "name": "StatServerLevel",
+    "defaultvalue": 70,
+    "displayName": "Account Level"
   },
-  "StatServerExperience": {
-    "description": "Account Experience",
-    "value": 0
+  {
+    "name": "StatServerExperience",
+    "defaultvalue": 0,
+    "displayName": "Account Experience"
+  },
+  {
+    "name": "StatCollectedPowerUps",
+    "defaultvalue": 0,
+    "displayName": "Collected Powerups"
+  },
+  {
+    "name": "StatWonMaps",
+    "defaultvalue": 0,
+    "displayName": ""
   }
-}
+]

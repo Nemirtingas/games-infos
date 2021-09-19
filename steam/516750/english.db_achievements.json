@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "name": "PARTY_TIME",
     "defaultvalue": 0,
@@ -627,6 +627,42 @@
     "hidden": 0,
     "description": "You've done your time.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/516750/20c65ce79f2eeb5d918595b91ea613a75cc408c6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/516750/5fe49e620adbf0062193edb743ffdae6c7b11dcd.jpg"
+  },
+  {
+    "name": "LOTTERY_WINNER",
+    "defaultvalue": 0,
+    "displayName": "Lottery winner",
+    "hidden": 0,
+    "description": "You won in a lottery. Rare treat for sure!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/516750/20c65ce79f2eeb5d918595b91ea613a75cc408c6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/516750/11d453c2cb69441b38e467a1ef37e8b6412fd29a.jpg"
+  },
+  {
+    "name": "386_RALLY95",
+    "defaultvalue": 0,
+    "displayName": "Engine started!",
+    "hidden": 0,
+    "description": "You beat the menu. And that's it. ",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/516750/280baff8675a0fd26f1a8ae934093f1abda00026.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/516750/758b03ae2952ecdafb4026e10e3e393bae2e608c.jpg"
+  },
+  {
+    "name": "KELATAXI",
+    "defaultvalue": 0,
+    "displayName": "Kela-Taxi",
+    "hidden": 0,
+    "description": "You served elderly person with style.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/516750/1297d331c1fb5259937b1de7fd5ce34ccd89ad0c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/516750/5fe49e620adbf0062193edb743ffdae6c7b11dcd.jpg"
+  },
+  {
+    "name": "SHOCK_POINT",
+    "defaultvalue": 0,
+    "displayName": "What a shock!",
+    "hidden": 0,
+    "description": "Too long walk to the toilet perhaps?",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/516750/1297d331c1fb5259937b1de7fd5ce34ccd89ad0c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/516750/5fe49e620adbf0062193edb743ffdae6c7b11dcd.jpg"
   }
 ]

@@ -1,178 +1,227 @@
-﻿{
-  "bloonsPopped": {
-    "description": "Bloons Popped",
-    "value": 0
+[
+  {
+    "name": "bloonsPopped",
+    "defaultvalue": 0,
+    "displayName": "Bloons Popped"
   },
-  "moabsPopped": {
-    "description": "Moabs Popped",
-    "value": 0
+  {
+    "name": "moabsPopped",
+    "defaultvalue": 0,
+    "displayName": "Moabs Popped"
   },
-  "bfbsPopped": {
-    "description": "Bfbs Popped",
-    "value": 0
+  {
+    "name": "bfbsPopped",
+    "defaultvalue": 0,
+    "displayName": "Bfbs Popped"
   },
-  "zomgsPopped": {
-    "description": "Zomgs Popped",
-    "value": 0
+  {
+    "name": "zomgsPopped",
+    "defaultvalue": 0,
+    "displayName": "Zomgs Popped"
   },
-  "ddtsPopped": {
-    "description": "Ddts Popped",
-    "value": 0
+  {
+    "name": "ddtsPopped",
+    "defaultvalue": 0,
+    "displayName": "Ddts Popped"
   },
-  "badsPopped": {
-    "description": "Bads Popped",
-    "value": 0
+  {
+    "name": "badsPopped",
+    "defaultvalue": 0,
+    "displayName": "Bads Popped"
   },
-  "fortifiedPopped": {
-    "description": "Fortified Popped",
-    "value": 0
+  {
+    "name": "fortifiedPopped",
+    "defaultvalue": 0,
+    "displayName": "Fortified Popped"
   },
-  "purplesPopped": {
-    "description": "Purples Popped",
-    "value": 0
+  {
+    "name": "purplesPopped",
+    "defaultvalue": 0,
+    "displayName": "Purples Popped"
   },
-  "camosPopped": {
-    "description": "Camos Popped",
-    "value": 0
+  {
+    "name": "camosPopped",
+    "defaultvalue": 0,
+    "displayName": "Camos Popped"
   },
-  "totalTowersPlaced": {
-    "description": "Total Towers Placed",
-    "value": 0
+  {
+    "name": "totalTowersPlaced",
+    "defaultvalue": 0,
+    "displayName": "Total Towers Placed"
   },
-  "totalTowersSold": {
-    "description": "Total Towers Sold",
-    "value": 0
+  {
+    "name": "totalTowersSold",
+    "defaultvalue": 0,
+    "displayName": "Total Towers Sold"
   },
-  "totalPowersActivated": {
-    "description": "Total Powers Activated",
-    "value": 0
+  {
+    "name": "totalPowersActivated",
+    "defaultvalue": 0,
+    "displayName": "Total Powers Activated"
   },
-  "totalUpgradesPurchased": {
-    "description": "Total Upgrades Purchased",
-    "value": 0
+  {
+    "name": "totalUpgradesPurchased",
+    "defaultvalue": 0,
+    "displayName": "Total Upgrades Purchased"
   },
-  "totalAbilitiesActivated": {
-    "description": "Total Abilities Activated",
-    "value": 0
+  {
+    "name": "totalAbilitiesActivated",
+    "defaultvalue": 0,
+    "displayName": "Total Abilities Activated"
   },
-  "timesHeroPlaced": {
-    "description": "Times Hero Placed",
-    "value": 0
+  {
+    "name": "timesHeroPlaced",
+    "defaultvalue": 0,
+    "displayName": "Times Hero Placed"
   },
-  "timesHeroSold": {
-    "description": "Times Hero Sold",
-    "value": 0
+  {
+    "name": "timesHeroSold",
+    "defaultvalue": 0,
+    "displayName": "Times Hero Sold"
   },
-  "monkeyMoneyEarned": {
-    "description": "Monkey Money Earned",
-    "value": 0
+  {
+    "name": "monkeyMoneyEarned",
+    "defaultvalue": 0,
+    "displayName": "Monkey Money Earned"
   },
-  "cashEarned": {
-    "description": "Cash Earned",
-    "value": 0
+  {
+    "name": "cashEarned",
+    "defaultvalue": 0,
+    "displayName": "Cash Earned"
   },
-  "instaMonkeysUsed": {
-    "description": "Insta Monkeys Used",
-    "value": 0
+  {
+    "name": "instaMonkeysUsed",
+    "defaultvalue": 0,
+    "displayName": "Insta Monkeys Used"
   },
-  "bloonsLeaked": {
-    "description": "Bloons Leaked",
-    "value": 0
+  {
+    "name": "bloonsLeaked",
+    "defaultvalue": 0,
+    "displayName": "Bloons Leaked"
   },
-  "differentBeginnerWins": {
-    "description": "Different Beginner Track Wins",
-    "value": 0
+  {
+    "name": "differentBeginnerWins",
+    "defaultvalue": 0,
+    "displayName": "Different Beginner Track Wins"
   },
-  "differentIntermediateWins": {
-    "description": "Different Intermediate Track Wins",
-    "value": 0
+  {
+    "name": "differentIntermediateWins",
+    "defaultvalue": 0,
+    "displayName": "Different Intermediate Track Wins"
   },
-  "differentHeroWins": {
-    "description": "Different Hero Wins",
-    "value": 0
+  {
+    "name": "differentHeroWins",
+    "defaultvalue": 0,
+    "displayName": "Different Hero Wins"
   },
-  "knowledgePointsApplied": {
-    "description": "Monkey Knowledge Points Applied",
-    "value": 0
+  {
+    "name": "knowledgePointsApplied",
+    "defaultvalue": 0,
+    "displayName": "Monkey Knowledge Points Applied"
   },
-  "onlyPrimaryWins": {
-    "description": "Wins With Only Primary Towers",
-    "value": 0
+  {
+    "name": "onlyPrimaryWins",
+    "defaultvalue": 0,
+    "displayName": "Wins With Only Primary Towers"
   },
-  "onlyMilitaryWins": {
-    "description": "Wins With Only Military Towers",
-    "value": 0
+  {
+    "name": "onlyMilitaryWins",
+    "defaultvalue": 0,
+    "displayName": "Wins With Only Military Towers"
   },
-  "onlyMagicWins": {
-    "description": "Wins With Only Magic Towers",
-    "value": 0
+  {
+    "name": "onlyMagicWins",
+    "defaultvalue": 0,
+    "displayName": "Wins With Only Magic Towers"
   },
-  "onlySupportWins": {
-    "description": "Wins With Only Support Towers",
-    "value": 0
+  {
+    "name": "onlySupportWins",
+    "defaultvalue": 0,
+    "displayName": "Wins With Only Support Towers"
   },
-  "alternateBloonRoundsWins": {
-    "description": "Alternate Bloon Rounds Wins",
-    "value": 0
+  {
+    "name": "alternateBloonRoundsWins",
+    "defaultvalue": 0,
+    "displayName": "Alternate Bloon Rounds Wins"
   },
-  "impoppableWins": {
-    "description": "Impoppable Wins",
-    "value": 0
+  {
+    "name": "impoppableWins",
+    "defaultvalue": 0,
+    "displayName": "Impoppable Wins"
   },
-  "halfCashWins": {
-    "description": "Half Cash Wins",
-    "value": 0
+  {
+    "name": "halfCashWins",
+    "defaultvalue": 0,
+    "displayName": "Half Cash Wins"
   },
-  "doubleHpWins": {
-    "description": "Double HP Wins",
-    "value": 0
+  {
+    "name": "doubleHpWins",
+    "defaultvalue": 0,
+    "displayName": "Double HP Wins"
   },
-  "beginnerMapWins": {
-    "description": "Beginner Map Wins",
-    "value": 0
+  {
+    "name": "beginnerMapWins",
+    "defaultvalue": 0,
+    "displayName": "Beginner Map Wins"
   },
-  "differentPowersCollected": {
-    "description": "Different Powers Collected",
-    "value": 0
+  {
+    "name": "differentPowersCollected",
+    "defaultvalue": 0,
+    "displayName": "Different Powers Collected"
   },
-  "dailyChallengeWins": {
-    "description": "Daily Challenge Wins",
-    "value": 0
+  {
+    "name": "dailyChallengeWins",
+    "defaultvalue": 0,
+    "displayName": "Daily Challenge Wins"
   },
-  "chimpsWins": {
-    "description": "CHIMPS Wins",
-    "value": 0
+  {
+    "name": "chimpsWins",
+    "defaultvalue": 0,
+    "displayName": "CHIMPS Wins"
   },
-  "beginnerMapMedals": {
-    "description": "Beginner Map Medals",
-    "value": 0
+  {
+    "name": "beginnerMapMedals",
+    "defaultvalue": 0,
+    "displayName": "Beginner Map Medals"
   },
-  "challengesCreatedOrPlayed": {
-    "description": "Challenges Created or Played",
-    "value": 0
+  {
+    "name": "challengesCreatedOrPlayed",
+    "defaultvalue": 0,
+    "displayName": "Challenges Created or Played"
   },
-  "peninsulaBloonsPopped": {
-    "description": "Bloons Popped on Peninsula",
-    "value": 0
+  {
+    "name": "peninsulaBloonsPopped",
+    "defaultvalue": 0,
+    "displayName": "Bloons Popped on Peninsula"
   },
-  "masterAlchemistDamage": {
-    "description": "Master Alchemist Damage",
-    "value": 0
+  {
+    "name": "masterAlchemistDamage",
+    "defaultvalue": 0,
+    "displayName": "Master Alchemist Damage"
   },
-  "shimmeredBloons": {
-    "description": "Shimmered Bloons Popped",
-    "value": 0
+  {
+    "name": "shimmeredBloons",
+    "defaultvalue": 0,
+    "displayName": "Shimmered Bloons Popped"
   },
-  "rainbowPopsWithMagic": {
-    "description": "Rainbow Bloons Popped",
-    "value": 0
+  {
+    "name": "rainbowPopsWithMagic",
+    "defaultvalue": 0,
+    "displayName": "Rainbow Bloons Popped"
   },
-  "dailyChestsOpened": {
-    "description": "Daily Chests Opened",
-    "value": 0
+  {
+    "name": "dailyChestsOpened",
+    "defaultvalue": 0,
+    "displayName": "Daily Chests Opened"
   },
-  "differentTowersSacrificed": {
-    "description": "Different Towers Sacrificed",
-    "value": 0
+  {
+    "name": "differentTowersSacrificed",
+    "defaultvalue": 0,
+    "displayName": "Different Towers Sacrificed"
+  },
+  {
+    "name": "achievementsEarnt",
+    "defaultvalue": 0,
+    "displayName": "Achievements Earnt"
   }
-}
+]

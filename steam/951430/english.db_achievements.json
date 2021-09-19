@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "name": "Bargain_1",
     "defaultvalue": 0,
@@ -862,5 +862,194 @@
     "description": "Jack's Camp was not able to forge an alliance in time.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/951430/fd308e1be73e6d4a75b28fcb952e97c8d72e6514.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/951430/34062afd41f9a5c5077988fc901eb2e6ee948ef2.jpg"
+  },
+  {
+    "name": "Revenge",
+    "defaultvalue": 0,
+    "displayName": "Revenge",
+    "hidden": 0,
+    "description": "Help a bodyguard restore his honor",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/951430/9c67bb0bbc0ed6e2679fb2041d428b9af8dd3f1e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/951430/34062afd41f9a5c5077988fc901eb2e6ee948ef2.jpg"
+  },
+  {
+    "name": "NightOwl",
+    "defaultvalue": 0,
+    "displayName": "Night Owl",
+    "hidden": 0,
+    "description": "Warm yourself at a fire at night",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/951430/9c67bb0bbc0ed6e2679fb2041d428b9af8dd3f1e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/951430/f8b07c47cd5b154c04d0fd8c87cad21c4d7a8482.jpg"
+  },
+  {
+    "name": "MapThreatQuest_1",
+    "defaultvalue": 0,
+    "displayName": "Threat reducer",
+    "hidden": 0,
+    "description": "Reduce the threat level in an area",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/951430/9c67bb0bbc0ed6e2679fb2041d428b9af8dd3f1e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/951430/f8b07c47cd5b154c04d0fd8c87cad21c4d7a8482.jpg"
+  },
+  {
+    "name": "MapThreatQuest_2",
+    "defaultvalue": 0,
+    "displayName": "Threat expert",
+    "hidden": 0,
+    "description": "Reduce the threat level in three areas",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/951430/9c67bb0bbc0ed6e2679fb2041d428b9af8dd3f1e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/951430/f8b07c47cd5b154c04d0fd8c87cad21c4d7a8482.jpg"
+  },
+  {
+    "name": "LootLocations_3",
+    "defaultvalue": 0,
+    "displayName": "Explorer",
+    "hidden": 0,
+    "description": "Discover 50 different places for scavenging",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/951430/9c67bb0bbc0ed6e2679fb2041d428b9af8dd3f1e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/951430/34062afd41f9a5c5077988fc901eb2e6ee948ef2.jpg"
+  },
+  {
+    "name": "MutantWolf_Bekaempfer",
+    "defaultvalue": 0,
+    "displayName": "Mutant Wolf Combatant",
+    "hidden": 0,
+    "description": "Kill 3 Mutant Wolves",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/951430/9c67bb0bbc0ed6e2679fb2041d428b9af8dd3f1e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/951430/f8b07c47cd5b154c04d0fd8c87cad21c4d7a8482.jpg"
+  },
+  {
+    "name": "MutantWolf_Toeter",
+    "defaultvalue": 0,
+    "displayName": "Mutant Wolf Killer",
+    "hidden": 0,
+    "description": "Kill 10 Mutant Wolves",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/951430/9c67bb0bbc0ed6e2679fb2041d428b9af8dd3f1e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/951430/f8b07c47cd5b154c04d0fd8c87cad21c4d7a8482.jpg"
+  },
+  {
+    "name": "OldFriend_3",
+    "defaultvalue": 0,
+    "displayName": "All Old Friends",
+    "hidden": 0,
+    "description": "Speak with all old allies from the past",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/951430/9c67bb0bbc0ed6e2679fb2041d428b9af8dd3f1e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/951430/f8b07c47cd5b154c04d0fd8c87cad21c4d7a8482.jpg"
+  },
+  {
+    "name": "VillaOwner",
+    "defaultvalue": 0,
+    "displayName": "Mansion Aquisition",
+    "hidden": 0,
+    "description": "Obtain the location of a mansion in the south",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/951430/9c67bb0bbc0ed6e2679fb2041d428b9af8dd3f1e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/951430/f8b07c47cd5b154c04d0fd8c87cad21c4d7a8482.jpg"
+  },
+  {
+    "name": "Quest_Jane",
+    "defaultvalue": 0,
+    "displayName": "The Prisoner",
+    "hidden": 0,
+    "description": "Jane's Assignment",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/951430/fd308e1be73e6d4a75b28fcb952e97c8d72e6514.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/951430/f8b07c47cd5b154c04d0fd8c87cad21c4d7a8482.jpg"
+  },
+  {
+    "name": "Quest_Steven2",
+    "defaultvalue": 0,
+    "displayName": "The Slave",
+    "hidden": 0,
+    "description": "Steven's Assignment",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/951430/9c67bb0bbc0ed6e2679fb2041d428b9af8dd3f1e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/951430/f8b07c47cd5b154c04d0fd8c87cad21c4d7a8482.jpg"
+  },
+  {
+    "name": "Quest_Hank",
+    "defaultvalue": 0,
+    "displayName": "The Trail",
+    "hidden": 0,
+    "description": "Hank's Assignment",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/951430/9c67bb0bbc0ed6e2679fb2041d428b9af8dd3f1e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/951430/f8b07c47cd5b154c04d0fd8c87cad21c4d7a8482.jpg"
+  },
+  {
+    "name": "Survival_Expert",
+    "defaultvalue": 0,
+    "displayName": "Survival Master",
+    "hidden": 0,
+    "description": "Don't lose any members of Jack's Camp until the last mission",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/951430/9c67bb0bbc0ed6e2679fb2041d428b9af8dd3f1e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/951430/f8b07c47cd5b154c04d0fd8c87cad21c4d7a8482.jpg"
+  },
+  {
+    "name": "StevenEnd",
+    "defaultvalue": 0,
+    "displayName": "A True Friend",
+    "hidden": 0,
+    "description": "Who turned out to be a friend in the end?",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/951430/fd308e1be73e6d4a75b28fcb952e97c8d72e6514.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/951430/f8b07c47cd5b154c04d0fd8c87cad21c4d7a8482.jpg"
+  },
+  {
+    "name": "Ende_PerfectEnd",
+    "defaultvalue": 0,
+    "displayName": "The Perfect Ending",
+    "hidden": 0,
+    "description": "The End is here. Noone has escaped",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/951430/9c67bb0bbc0ed6e2679fb2041d428b9af8dd3f1e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/951430/f8b07c47cd5b154c04d0fd8c87cad21c4d7a8482.jpg"
+  },
+  {
+    "name": "Ende_Mittel",
+    "defaultvalue": 0,
+    "displayName": "Karma's a Bitch",
+    "hidden": 0,
+    "description": "The End is here, but some villains were able to escape",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/951430/9c67bb0bbc0ed6e2679fb2041d428b9af8dd3f1e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/951430/f8b07c47cd5b154c04d0fd8c87cad21c4d7a8482.jpg"
+  },
+  {
+    "name": "Ende_USArmy",
+    "defaultvalue": 0,
+    "displayName": "Ending: The U.S.Army",
+    "hidden": 0,
+    "description": "You've reached the end as an ally of the U.S.Army",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/951430/9c67bb0bbc0ed6e2679fb2041d428b9af8dd3f1e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/951430/f8b07c47cd5b154c04d0fd8c87cad21c4d7a8482.jpg"
+  },
+  {
+    "name": "Ende_Schmuggler",
+    "defaultvalue": 0,
+    "displayName": "Ending: The Smugglers",
+    "hidden": 0,
+    "description": "You've reached the end as an ally of the Smugglers",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/951430/9c67bb0bbc0ed6e2679fb2041d428b9af8dd3f1e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/951430/f8b07c47cd5b154c04d0fd8c87cad21c4d7a8482.jpg"
+  },
+  {
+    "name": "Ende_Unabhaengige",
+    "defaultvalue": 0,
+    "displayName": "Ending: The Independents",
+    "hidden": 0,
+    "description": "You've reached the end as an ally of the Independents",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/951430/9c67bb0bbc0ed6e2679fb2041d428b9af8dd3f1e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/951430/f8b07c47cd5b154c04d0fd8c87cad21c4d7a8482.jpg"
+  },
+  {
+    "name": "Ende_Romance",
+    "defaultvalue": 0,
+    "displayName": "Ending: Romance",
+    "hidden": 0,
+    "description": "You've reached the end with a romantic partner",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/951430/9c67bb0bbc0ed6e2679fb2041d428b9af8dd3f1e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/951430/f8b07c47cd5b154c04d0fd8c87cad21c4d7a8482.jpg"
+  },
+  {
+    "name": "Ende_Single",
+    "defaultvalue": 0,
+    "displayName": "Ending: Single",
+    "hidden": 0,
+    "description": "You've reached the end as a lonely man",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/951430/9c67bb0bbc0ed6e2679fb2041d428b9af8dd3f1e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/951430/f8b07c47cd5b154c04d0fd8c87cad21c4d7a8482.jpg"
   }
 ]

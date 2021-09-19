@@ -1,86 +1,107 @@
-﻿{
-  "InRunProceduralEventsDone": {
-    "description": "InRunProceduralEventsDone",
-    "value": 0
+[
+  {
+    "name": "InRunProceduralEventsDone",
+    "defaultvalue": 0,
+    "displayName": "InRunProceduralEventsDone"
   },
-  "WorkshopUpgradeCount": {
-    "description": "WorkshopUpgradeCount",
-    "value": 0
+  {
+    "name": "WorkshopUpgradeCount",
+    "defaultvalue": 0,
+    "displayName": "WorkshopUpgradeCount"
   },
-  "CharactersWithUnlockedLastTrait": {
-    "description": "CharactersWithUnlockedLastTrait",
-    "value": 0
+  {
+    "name": "CharactersWithUnlockedLastTrait",
+    "defaultvalue": 0,
+    "displayName": "CharactersWithUnlockedLastTrait"
   },
-  "CharactersWithUnlockedFirstTrait": {
-    "description": "CharactersWithUnlockedFirstTrait",
-    "value": 0
+  {
+    "name": "CharactersWithUnlockedFirstTrait",
+    "defaultvalue": 0,
+    "displayName": "CharactersWithUnlockedFirstTrait"
   },
-  "GoldPosessed": {
-    "description": "GoldPosessed",
-    "value": 0
+  {
+    "name": "GoldPosessed",
+    "defaultvalue": 0,
+    "displayName": "GoldPosessed"
   },
-  "SouveniersFound": {
-    "description": "SouveniersFound",
-    "value": 0
+  {
+    "name": "SouveniersFound",
+    "defaultvalue": 0,
+    "displayName": "SouveniersFound"
   },
-  "JournalsFound": {
-    "description": "JournalsFound",
-    "value": 0
+  {
+    "name": "JournalsFound",
+    "defaultvalue": 0,
+    "displayName": "JournalsFound"
   },
-  "GameplayEventsDone": {
-    "description": "GameplayEventsDone",
-    "value": 0
+  {
+    "name": "GameplayEventsDone",
+    "defaultvalue": 0,
+    "displayName": "GameplayEventsDone"
   },
-  "ChallengeRoomsDone": {
-    "description": "ChallengeRoomsDone",
-    "value": 0
+  {
+    "name": "ChallengeRoomsDone",
+    "defaultvalue": 0,
+    "displayName": "ChallengeRoomsDone"
   },
-  "RelicsInADungeon": {
-    "description": "RelicsInADungeon",
-    "value": 0
+  {
+    "name": "RelicsInADungeon",
+    "defaultvalue": 0,
+    "displayName": "RelicsInADungeon"
   },
-  "SimultaneousRunes": {
-    "description": "SimultaneousRunes",
-    "value": 0
+  {
+    "name": "SimultaneousRunes",
+    "defaultvalue": 0,
+    "displayName": "SimultaneousRunes"
   },
-  "CharmItemsInADungeon": {
-    "description": "CharmItemsInADungeon",
-    "value": 0
+  {
+    "name": "CharmItemsInADungeon",
+    "defaultvalue": 0,
+    "displayName": "CharmItemsInADungeon"
   },
-  "UniqueShrinesAchieved": {
-    "description": "UniqueShrinesAchieved",
-    "value": 0
+  {
+    "name": "UniqueShrinesAchieved",
+    "defaultvalue": 0,
+    "displayName": "UniqueShrinesAchieved"
   },
-  "ChampKillCount": {
-    "description": "ChampKillCount",
-    "value": 0
+  {
+    "name": "ChampKillCount",
+    "defaultvalue": 0,
+    "displayName": "ChampKillCount"
   },
-  "HazardKills": {
-    "description": "HazardKills",
-    "value": 0
+  {
+    "name": "HazardKills",
+    "defaultvalue": 0,
+    "displayName": "HazardKills"
   },
-  "KillCount": {
-    "description": "KillCount",
-    "value": 0
+  {
+    "name": "KillCount",
+    "defaultvalue": 0,
+    "displayName": "KillCount"
   },
-  "ReviveInCoop": {
-    "description": "ReviveInCoop",
-    "value": 0
+  {
+    "name": "ReviveInCoop",
+    "defaultvalue": 0,
+    "displayName": "ReviveInCoop"
   },
-  "CharactersUnlocked": {
-    "description": "CharactersUnlocked",
-    "value": 0
+  {
+    "name": "CharactersUnlocked",
+    "defaultvalue": 0,
+    "displayName": "CharactersUnlocked"
   },
-  "SecretsDiscovered": {
-    "description": "SecretsDiscovered",
-    "value": 0
+  {
+    "name": "SecretsDiscovered",
+    "defaultvalue": 0,
+    "displayName": "SecretsDiscovered"
   },
-  "CharactersThatKilledABoss": {
-    "description": "CharactersThatKilledABoss",
-    "value": 0
+  {
+    "name": "CharactersThatKilledABoss",
+    "defaultvalue": 0,
+    "displayName": "CharactersThatKilledABoss"
   },
-  "BookOfReaUpgradeCount": {
-    "description": "BookOfReaUpgradeCount",
-    "value": 0
+  {
+    "name": "BookOfReaUpgradeCount",
+    "defaultvalue": 0,
+    "displayName": "BookOfReaUpgradeCount"
   }
-}
+]

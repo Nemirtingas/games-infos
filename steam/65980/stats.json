@@ -1,234 +1,292 @@
-﻿{
-  "ESTEAMSTAT_TOTAL_WINS": {
-    "description": "Total Single Player Games Won",
-    "value": 0
+[
+  {
+    "name": "ESTEAMSTAT_TOTAL_WINS",
+    "defaultvalue": 0,
+    "displayName": "Total Single Player Games Won"
   },
-  "ESTEAMSTAT_GENE_VAULT": {
-    "description": "Wonder 1 Built",
-    "value": 0
+  {
+    "name": "ESTEAMSTAT_GENE_VAULT",
+    "defaultvalue": 0,
+    "displayName": "Wonder 1 Built"
   },
-  "ESTEAMSTAT_STELLAR_CODEX": {
-    "description": "Wonder 2 Built",
-    "value": 0
+  {
+    "name": "ESTEAMSTAT_STELLAR_CODEX",
+    "defaultvalue": 0,
+    "displayName": "Wonder 2 Built"
   },
-  "ESTEAMSTAT_MASTER_CONTROL": {
-    "description": "Wonder 3 Built",
-    "value": 0
+  {
+    "name": "ESTEAMSTAT_MASTER_CONTROL",
+    "defaultvalue": 0,
+    "displayName": "Wonder 3 Built"
   },
-  "ESTEAMSTAT_PANOPTICON": {
-    "description": "Wonder 4 Built",
-    "value": 0
+  {
+    "name": "ESTEAMSTAT_PANOPTICON",
+    "defaultvalue": 0,
+    "displayName": "Wonder 4 Built"
   },
-  "ESTEAMSTAT_ECTOGENESIS_POD": {
-    "description": "Wonder 5 Built",
-    "value": 0
+  {
+    "name": "ESTEAMSTAT_ECTOGENESIS_POD",
+    "defaultvalue": 0,
+    "displayName": "Wonder 5 Built"
   },
-  "ESTEAMSTAT_PRECOG_PROJECT": {
-    "description": "Wonder 6 Built",
-    "value": 0
+  {
+    "name": "ESTEAMSTAT_PRECOG_PROJECT",
+    "defaultvalue": 0,
+    "displayName": "Wonder 6 Built"
   },
-  "ESTEAMSTAT_MEMETWORK": {
-    "description": "Wonder 7 Built",
-    "value": 0
+  {
+    "name": "ESTEAMSTAT_MEMETWORK",
+    "defaultvalue": 0,
+    "displayName": "Wonder 7 Built"
   },
-  "ESTEAMSTAT_CRAWLER": {
-    "description": "Wonder 8 Built",
-    "value": 0
+  {
+    "name": "ESTEAMSTAT_CRAWLER",
+    "defaultvalue": 0,
+    "displayName": "Wonder 8 Built"
   },
-  "ESTEAMSTAT_MASS_DRIVER": {
-    "description": "Wonder 9 Built",
-    "value": 0
+  {
+    "name": "ESTEAMSTAT_MASS_DRIVER",
+    "defaultvalue": 0,
+    "displayName": "Wonder 9 Built"
   },
-  "ESTEAMSTAT_DRONE_SPHERE": {
-    "description": "Wonder 10 Built",
-    "value": 0
+  {
+    "name": "ESTEAMSTAT_DRONE_SPHERE",
+    "defaultvalue": 0,
+    "displayName": "Wonder 10 Built"
   },
-  "ESTEAMSTAT_NEW_TERRAN_MYTH": {
-    "description": "Wonder 11 Built",
-    "value": 0
+  {
+    "name": "ESTEAMSTAT_NEW_TERRAN_MYTH",
+    "defaultvalue": 0,
+    "displayName": "Wonder 11 Built"
   },
-  "ESTEAMSTAT_HUMAN_HIVE": {
-    "description": "Wonder 12 Built",
-    "value": 0
+  {
+    "name": "ESTEAMSTAT_HUMAN_HIVE",
+    "defaultvalue": 0,
+    "displayName": "Wonder 12 Built"
   },
-  "ESTEAMSTAT_XENODROME": {
-    "description": "Wonder 13 Built",
-    "value": 0
+  {
+    "name": "ESTEAMSTAT_XENODROME",
+    "defaultvalue": 0,
+    "displayName": "Wonder 13 Built"
   },
-  "ESTEAMSTAT_HOLON_CHAMBER": {
-    "description": "Wonder 14 Built",
-    "value": 0
+  {
+    "name": "ESTEAMSTAT_HOLON_CHAMBER",
+    "defaultvalue": 0,
+    "displayName": "Wonder 14 Built"
   },
-  "ESTEAMSTAT_ARCHIMEDES_LEVER": {
-    "description": "Wonder 15 Built",
-    "value": 0
+  {
+    "name": "ESTEAMSTAT_ARCHIMEDES_LEVER",
+    "defaultvalue": 0,
+    "displayName": "Wonder 15 Built"
   },
-  "ESTEAMSTAT_MARKOV_ECLIPSE": {
-    "description": "Wonder 16 Built",
-    "value": 0
+  {
+    "name": "ESTEAMSTAT_MARKOV_ECLIPSE",
+    "defaultvalue": 0,
+    "displayName": "Wonder 16 Built"
   },
-  "ESTEAMSTAT_PROMETHEAN": {
-    "description": "Wonder 17 Built",
-    "value": 0
+  {
+    "name": "ESTEAMSTAT_PROMETHEAN",
+    "defaultvalue": 0,
+    "displayName": "Wonder 17 Built"
   },
-  "ESTEAMSTAT_TECTONIC_ANVIL": {
-    "description": "Wonder 18 Built",
-    "value": 0
+  {
+    "name": "ESTEAMSTAT_TECTONIC_ANVIL",
+    "defaultvalue": 0,
+    "displayName": "Wonder 18 Built"
   },
-  "ESTEAMSTAT_QUANTUM_COMPUTER": {
-    "description": "Wonder 19 Built",
-    "value": 0
+  {
+    "name": "ESTEAMSTAT_QUANTUM_COMPUTER",
+    "defaultvalue": 0,
+    "displayName": "Wonder 19 Built"
   },
-  "ESTEAMSTAT_NANOTHERMITE": {
-    "description": "Wonder 20 Built",
-    "value": 0
+  {
+    "name": "ESTEAMSTAT_NANOTHERMITE",
+    "defaultvalue": 0,
+    "displayName": "Wonder 20 Built"
   },
-  "ESTEAMSTAT_ARMASAIL": {
-    "description": "Wonder 21 Built",
-    "value": 0
+  {
+    "name": "ESTEAMSTAT_ARMASAIL",
+    "defaultvalue": 0,
+    "displayName": "Wonder 21 Built"
   },
-  "ESTEAMSTAT_XENOMALLEUM": {
-    "description": "Wonder 22 Built",
-    "value": 0
+  {
+    "name": "ESTEAMSTAT_XENOMALLEUM",
+    "defaultvalue": 0,
+    "displayName": "Wonder 22 Built"
   },
-  "ESTEAMSTAT_XENONOVA": {
-    "description": "Wonder 23 Built",
-    "value": 0
+  {
+    "name": "ESTEAMSTAT_XENONOVA",
+    "defaultvalue": 0,
+    "displayName": "Wonder 23 Built"
   },
-  "ESTEAMSTAT_RESURRECTION_DEVICE": {
-    "description": "Wonder 24 Built",
-    "value": 0
+  {
+    "name": "ESTEAMSTAT_RESURRECTION_DEVICE",
+    "defaultvalue": 0,
+    "displayName": "Wonder 24 Built"
   },
-  "ESTEAMSTAT_DEEP_MEMORY": {
-    "description": "Wonder 25 Built",
-    "value": 0
+  {
+    "name": "ESTEAMSTAT_DEEP_MEMORY",
+    "defaultvalue": 0,
+    "displayName": "Wonder 25 Built"
   },
-  "ESTEAMSTAT_ANSIBLE": {
-    "description": "Wonder 26 Built",
-    "value": 0
+  {
+    "name": "ESTEAMSTAT_ANSIBLE",
+    "defaultvalue": 0,
+    "displayName": "Wonder 26 Built"
   },
-  "ESTEAMSTAT_BYTEGEIST": {
-    "description": "Wonder 27 Built",
-    "value": 0
+  {
+    "name": "ESTEAMSTAT_BYTEGEIST",
+    "defaultvalue": 0,
+    "displayName": "Wonder 27 Built"
   },
-  "ESTEAMSTAT_CYNOSURE": {
-    "description": "Wonder 28 Built",
-    "value": 0
+  {
+    "name": "ESTEAMSTAT_CYNOSURE",
+    "defaultvalue": 0,
+    "displayName": "Wonder 28 Built"
   },
-  "ESTEAMSTAT_DAEDALUS_LADDER": {
-    "description": "Wonder 29 Built",
-    "value": 0
+  {
+    "name": "ESTEAMSTAT_DAEDALUS_LADDER",
+    "defaultvalue": 0,
+    "displayName": "Wonder 29 Built"
   },
-  "ESTEAMSTAT_RAZE_ALIEN_NEST": {
-    "description": "RAN",
-    "value": 0
+  {
+    "name": "ESTEAMSTAT_RAZE_ALIEN_NEST",
+    "defaultvalue": 0,
+    "displayName": "RAN"
   },
-  "ESTEAMSTAT_TILESPURCHASED": {
-    "description": "BUY",
-    "value": 0
+  {
+    "name": "ESTEAMSTAT_TILESPURCHASED",
+    "defaultvalue": 0,
+    "displayName": "BUY"
   },
-  "ESTEAMSTAT_BEATWONDERS": {
-    "description": "SAW",
-    "value": 0
+  {
+    "name": "ESTEAMSTAT_BEATWONDERS",
+    "defaultvalue": 0,
+    "displayName": "SAW"
   },
-  "ESTEAMSTAT_ALIENS_KILLED": {
-    "description": "AK",
-    "value": 0
+  {
+    "name": "ESTEAMSTAT_ALIENS_KILLED",
+    "defaultvalue": 0,
+    "displayName": "AK"
   },
-  "ESTEAMSTAT_AKKOROKAMUI": {
-    "description": "Wonder 30 Built",
-    "value": 0
+  {
+    "name": "ESTEAMSTAT_AKKOROKAMUI",
+    "defaultvalue": 0,
+    "displayName": "Wonder 30 Built"
   },
-  "ESTEAMSTAT_FARADAY_GYRE": {
-    "description": "Wonder 31 Built",
-    "value": 0
+  {
+    "name": "ESTEAMSTAT_FARADAY_GYRE",
+    "defaultvalue": 0,
+    "displayName": "Wonder 31 Built"
   },
-  "ESTEAMSTAT_BENTHIC_AUGER": {
-    "description": "Wonder 32 Built",
-    "value": 0
+  {
+    "name": "ESTEAMSTAT_BENTHIC_AUGER",
+    "defaultvalue": 0,
+    "displayName": "Wonder 32 Built"
   },
-  "ESTEAMSTAT_EUPHOTIC_STRAND": {
-    "description": "Wonder 33 Built",
-    "value": 0
+  {
+    "name": "ESTEAMSTAT_EUPHOTIC_STRAND",
+    "defaultvalue": 0,
+    "displayName": "Wonder 33 Built"
   },
-  "ESTEAMSTAT_GUO_PU_YAOLAN": {
-    "description": "Wonder 34 Built",
-    "value": 0
+  {
+    "name": "ESTEAMSTAT_GUO_PU_YAOLAN",
+    "defaultvalue": 0,
+    "displayName": "Wonder 34 Built"
   },
-  "ESTEAMSTAT_ABYSSAL_MIRROR": {
-    "description": "Wonder 35 Built",
-    "value": 0
+  {
+    "name": "ESTEAMSTAT_ABYSSAL_MIRROR",
+    "defaultvalue": 0,
+    "displayName": "Wonder 35 Built"
   },
-  "ESTEAMSTAT_MACHINE_ASSISTED_FREE_WILL": {
-    "description": "Building 1 Built",
-    "value": 0
+  {
+    "name": "ESTEAMSTAT_MACHINE_ASSISTED_FREE_WILL",
+    "defaultvalue": 0,
+    "displayName": "Building 1 Built"
   },
-  "ESTEAMSTAT_DIMENSION_FOLDING_COMPLEX": {
-    "description": "Building 2 Built",
-    "value": 0
+  {
+    "name": "ESTEAMSTAT_DIMENSION_FOLDING_COMPLEX",
+    "defaultvalue": 0,
+    "displayName": "Building 2 Built"
   },
-  "ESTEAMSTAT_QUANTUM_POLITICS": {
-    "description": "Building 3 Built",
-    "value": 0
+  {
+    "name": "ESTEAMSTAT_QUANTUM_POLITICS",
+    "defaultvalue": 0,
+    "displayName": "Building 3 Built"
   },
-  "ESTEAMSTAT_TESSELATION_FOUNDRY": {
-    "description": "Building 4 Built",
-    "value": 0
+  {
+    "name": "ESTEAMSTAT_TESSELATION_FOUNDRY",
+    "defaultvalue": 0,
+    "displayName": "Building 4 Built"
   },
-  "ESTEAMSTAT_TEMPORAL_CALCULUS": {
-    "description": "Building 5 Built",
-    "value": 0
+  {
+    "name": "ESTEAMSTAT_TEMPORAL_CALCULUS",
+    "defaultvalue": 0,
+    "displayName": "Building 5 Built"
   },
-  "ESTEAMSTAT_RELATIVISTIC_DATA_BANK": {
-    "description": "Building 6 Built",
-    "value": 0
+  {
+    "name": "ESTEAMSTAT_RELATIVISTIC_DATA_BANK",
+    "defaultvalue": 0,
+    "displayName": "Building 6 Built"
   },
-  "ESTEAMSTAT_CITY_MOVES": {
-    "description": "CM",
-    "value": 0
+  {
+    "name": "ESTEAMSTAT_CITY_MOVES",
+    "defaultvalue": 0,
+    "displayName": "CM"
   },
-  "ESTEAMSTAT_ARTIFACTS_FOUND": {
-    "description": "AF",
-    "value": 0
+  {
+    "name": "ESTEAMSTAT_ARTIFACTS_FOUND",
+    "defaultvalue": 0,
+    "displayName": "AF"
   },
-  "ESTEAMSTAT_USED_ALIEN_ARTIFACTS": {
-    "description": "UAA",
-    "value": 0
+  {
+    "name": "ESTEAMSTAT_USED_ALIEN_ARTIFACTS",
+    "defaultvalue": 0,
+    "displayName": "UAA"
   },
-  "ESTEAMSTAT_USED_EARTH_ARTIFACTS": {
-    "description": "UEA",
-    "value": 0
+  {
+    "name": "ESTEAMSTAT_USED_EARTH_ARTIFACTS",
+    "defaultvalue": 0,
+    "displayName": "UEA"
   },
-  "ESTEAMSTAT_USED_PROGENITOR_ARTIFACTS": {
-    "description": "UPA",
-    "value": 0
+  {
+    "name": "ESTEAMSTAT_USED_PROGENITOR_ARTIFACTS",
+    "defaultvalue": 0,
+    "displayName": "UPA"
   },
-  "ESTEAMSTAT_INVISIBLE_KILLS": {
-    "description": "IK",
-    "value": 0
+  {
+    "name": "ESTEAMSTAT_INVISIBLE_KILLS",
+    "defaultvalue": 0,
+    "displayName": "IK"
   },
-  "ESTEAMSTAT_MARVEL_QUEST_LUSH": {
-    "description": "Marvel Lush",
-    "value": 0
+  {
+    "name": "ESTEAMSTAT_MARVEL_QUEST_LUSH",
+    "defaultvalue": 0,
+    "displayName": "Marvel Lush"
   },
-  "ESTEAMSTAT_MARVEL_QUEST_ARID": {
-    "description": "Marvel Arid",
-    "value": 0
+  {
+    "name": "ESTEAMSTAT_MARVEL_QUEST_ARID",
+    "defaultvalue": 0,
+    "displayName": "Marvel Arid"
   },
-  "ESTEAMSTAT_MARVEL_QUEST_FUNGAL": {
-    "description": "Marvel Fungal",
-    "value": 0
+  {
+    "name": "ESTEAMSTAT_MARVEL_QUEST_FUNGAL",
+    "defaultvalue": 0,
+    "displayName": "Marvel Fungal"
   },
-  "ESTEAMSTAT_MARVEL_QUEST_PRIMORDIAL": {
-    "description": "Marvel Prim",
-    "value": 0
+  {
+    "name": "ESTEAMSTAT_MARVEL_QUEST_PRIMORDIAL",
+    "defaultvalue": 0,
+    "displayName": "Marvel Prim"
   },
-  "ESTEAMSTAT_MARVEL_QUEST_FRIGID": {
-    "description": "Marvel Frigid",
-    "value": 0
+  {
+    "name": "ESTEAMSTAT_MARVEL_QUEST_FRIGID",
+    "defaultvalue": 0,
+    "displayName": "Marvel Frigid"
   },
-  "ESTEAMSTAT_MARVEL_QUEST_WATER": {
-    "description": "Marvel Water",
-    "value": 0
+  {
+    "name": "ESTEAMSTAT_MARVEL_QUEST_WATER",
+    "defaultvalue": 0,
+    "displayName": "Marvel Water"
   }
-}
+]

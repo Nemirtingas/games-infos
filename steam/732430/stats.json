@@ -1,10 +1,12 @@
-﻿{
-  "STAT_EXPLORED_MAPS": {
-    "description": "Explored Maps",
-    "value": 0
+[
+  {
+    "name": "STAT_EXPLORED_MAPS",
+    "defaultvalue": 0,
+    "displayName": "Explored Maps"
   },
-  "STAT_CRASHES": {
-    "description": "Crashes",
-    "value": 0
+  {
+    "name": "STAT_CRASHES",
+    "defaultvalue": 0,
+    "displayName": "Crashes"
   }
-}
+]

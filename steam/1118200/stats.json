@@ -1,18 +1,42 @@
-﻿{
-  "BODY_COUNT": {
-    "description": "Body count",
-    "value": 0
+[
+  {
+    "name": "BODY_COUNT",
+    "defaultvalue": 0,
+    "displayName": "Body count"
   },
-  "RAGDOLL_AIR_TIME": {
-    "description": "Peak body air time",
-    "value": 0
+  {
+    "name": "RAGDOLL_AIR_TIME",
+    "defaultvalue": 0,
+    "displayName": "Peak body air time"
   },
-  "TOTAL_SPAWNED_ITEMS": {
-    "description": "Total spawned items",
-    "value": 0
+  {
+    "name": "TOTAL_SPAWNED_ITEMS",
+    "defaultvalue": 0,
+    "displayName": "Total spawned items"
   },
-  "SPAWNED_HUMANS": {
-    "description": "Spawned people",
-    "value": 0
+  {
+    "name": "SPAWNED_HUMANS",
+    "defaultvalue": 0,
+    "displayName": "Spawned people"
+  },
+  {
+    "name": "SGNRSTAT",
+    "defaultvalue": 0,
+    "displayName": "Signals received"
+  },
+  {
+    "name": "WDJZMSTAT",
+    "defaultvalue": 0,
+    "displayName": "Portals opened"
+  },
+  {
+    "name": "PACIFISTSTAT",
+    "defaultvalue": 0,
+    "displayName": "Pacifist sessions"
+  },
+  {
+    "name": "KEYPADSTAT",
+    "defaultvalue": 0,
+    "displayName": "Normal sized guns spawned"
   }
-}
+]

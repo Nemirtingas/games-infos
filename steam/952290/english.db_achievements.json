@@ -49,7 +49,7 @@
     "defaultvalue": 0,
     "displayName": "Protetor dos Animais",
     "hidden": 0,
-    "description": "Não destrua nenhum ouriço do mar durante a fase \"Mergulhando na Zueira\"",
+    "description": "Não destrua nenhum ouriço do mar durante a fase \"Submarino\"",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/952290/70f78e7a03b244682ef1f4d0e7c1305fd26e9955.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/952290/a85b875e137aed7b9486081dede197796b6f0670.jpg"
   },
@@ -148,7 +148,7 @@
     "defaultvalue": 0,
     "displayName": "Simplista",
     "hidden": 0,
-    "description": "Não colete PowerUps Durante a fase \"Submarino\"",
+    "description": "Não colete PowerUps com o submarino",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/952290/89156d3d159dc9626603ff6e4495a41fcda4e999.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/952290/d6ea92f5ba719cfcf20439aea98d51bb3b58bc05.jpg"
   },
@@ -223,5 +223,86 @@
     "description": "Não mate nenhum inimigo durante a fase \"Pegar uma Nave Emprestada\"",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/952290/64e8e003fc61e237e6dc2c1f1629ff42f6403fad.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/952290/22e52a6f561b60ad10d5d594de41c17d97cefbdb.jpg"
+  },
+  {
+    "name": "228",
+    "defaultvalue": 0,
+    "displayName": "Bem Vindo a 2077",
+    "hidden": 0,
+    "description": "Assista a intro dessa nova aventura",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/952290/b4e18eabbf9afd7216e63d83c3425e9ad7f86d7f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/952290/b77519c9d607e2df09d5d5a6e651e758d8fe17a5.jpg"
+  },
+  {
+    "name": "229",
+    "defaultvalue": 0,
+    "displayName": "Tutorial 2077",
+    "hidden": 0,
+    "description": "Complete o novo tutorial na fase \"Club\"",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/952290/9c67f7cd2d06d780e2243f493796be2070da6a2f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/952290/2123913275e1961b467bdf3d38528c6340ef2140.jpg"
+  },
+  {
+    "name": "230",
+    "defaultvalue": 0,
+    "displayName": "Peças da moto",
+    "hidden": 0,
+    "description": "Colete as peças da moto para o Rogerinho no \"Club\"",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/952290/c41f66069e86a75b990b25528e4f1db5fbd1e65f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/952290/61fffc6c44b29d7d1dcac82261bc40e8ff7f76fa.jpg"
+  },
+  {
+    "name": "231",
+    "defaultvalue": 0,
+    "displayName": "Saltador Imortal",
+    "hidden": 0,
+    "description": "Passe pela fase \"Carros Voadores\" sem morrer",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/952290/b3d2a98e867f0ef41ac256ab245f4e77a2580fd6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/952290/68761d16bae81f7bd116c7e6cc841b64c788c33e.jpg"
+  },
+  {
+    "name": "232",
+    "defaultvalue": 0,
+    "displayName": "Ovão",
+    "hidden": 0,
+    "description": "Não Levar dano do Ovão na fase \"Trenzão\"",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/952290/218a226f68096bc726f2186507261ba844736ed5.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/952290/c3db15519fc3b0ef1d911e7d6c0c9561be8a4111.jpg"
+  },
+  {
+    "name": "233",
+    "defaultvalue": 0,
+    "displayName": "Caneta",
+    "hidden": 0,
+    "description": "Derrotar o Boss Caneta",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/952290/c71618c27227be2a98ac617a592f84416a962000.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/952290/2620d66d1833b53bc850e73a5f5ac7a5fcc41655.jpg"
+  },
+  {
+    "name": "234",
+    "defaultvalue": 0,
+    "displayName": "Precisão máxima",
+    "hidden": 0,
+    "description": "Não errar nenhum tiro na fase \"Moto 77\"",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/952290/7b98654a1060a5c9231fa60aa05511911ead5167.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/952290/a1ca6e5c3f4803fc7a51696c3d0ccab11fc42afd.jpg"
+  },
+  {
+    "name": "235",
+    "defaultvalue": 0,
+    "displayName": "Baiacu",
+    "hidden": 0,
+    "description": "Derrotar o boss Baiacu",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/952290/468989c0a4ab6c1dab618e3b4c0157402c0051bb.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/952290/6f1d8ebd237f2d054985ddd7ad7d029732402c11.jpg"
+  },
+  {
+    "name": "236",
+    "defaultvalue": 0,
+    "displayName": "Queixola",
+    "hidden": 0,
+    "description": "Derrotar o boss Queixola",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/952290/041da120b10a8492153fce98478cf9ca617de2fc.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/952290/2b634bb98b62414a0e3e9de022ceb834a03acc58.jpg"
   }
 ]

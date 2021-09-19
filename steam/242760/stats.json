@@ -1,86 +1,107 @@
-﻿{
-  "STAT_CANNIBALISM": {
-    "description": "Limbs Eaten",
-    "value": 0
+[
+  {
+    "name": "STAT_CANNIBALISM",
+    "defaultvalue": 0,
+    "displayName": "Limbs Eaten"
   },
-  "STAT_DAYS_SURVIVED": {
-    "description": "Days Survived",
-    "value": 0
+  {
+    "name": "STAT_DAYS_SURVIVED",
+    "defaultvalue": 0,
+    "displayName": "Days Survived"
   },
-  "STAT_TROPHY_CREATED": {
-    "description": "Animal Heads Displayed",
-    "value": 0
+  {
+    "name": "STAT_TROPHY_CREATED",
+    "defaultvalue": 0,
+    "displayName": "Animal Heads Displayed"
   },
-  "STAT_PLANTED_SEEDS": {
-    "description": "Seeds Planted",
-    "value": 0
+  {
+    "name": "STAT_PLANTED_SEEDS",
+    "defaultvalue": 0,
+    "displayName": "Seeds Planted"
   },
-  "STAT_CRAFTED_MEDS": {
-    "description": "Medicine Crafted",
-    "value": 0
+  {
+    "name": "STAT_CRAFTED_MEDS",
+    "defaultvalue": 0,
+    "displayName": "Medicine Crafted"
   },
-  "STAT_COMPLETED_CAVE_TASKS": {
-    "description": "Caves Explored",
-    "value": 0
+  {
+    "name": "STAT_COMPLETED_CAVE_TASKS",
+    "defaultvalue": 0,
+    "displayName": "Caves Explored"
   },
-  "STAT_REVIVED_PLAYERS": {
-    "description": "Players Revived",
-    "value": 0
+  {
+    "name": "STAT_REVIVED_PLAYERS",
+    "defaultvalue": 0,
+    "displayName": "Players Revived"
   },
-  "STAT_LENGTHIEST_WALL": {
-    "description": "Walls Built",
-    "value": 0
+  {
+    "name": "STAT_LENGTHIEST_WALL",
+    "defaultvalue": 0,
+    "displayName": "Walls Built"
   },
-  "STAT_CHOPPED_BODIES": {
-    "description": "Bodies Chopped",
-    "value": 0
+  {
+    "name": "STAT_CHOPPED_BODIES",
+    "defaultvalue": 0,
+    "displayName": "Bodies Chopped"
   },
-  "STAT_FISH_DYNAMITED": {
-    "description": "Fish Blown Up",
-    "value": 0
+  {
+    "name": "STAT_FISH_DYNAMITED",
+    "defaultvalue": 0,
+    "displayName": "Fish Blown Up"
   },
-  "STAT_KILLED_CANNIBALS": {
-    "description": "Cannibals Killed",
-    "value": 0
+  {
+    "name": "STAT_KILLED_CANNIBALS",
+    "defaultvalue": 0,
+    "displayName": "Cannibals Killed"
   },
-  "STAT_FOUND_PASSENGERS": {
-    "description": "Passengers Found",
-    "value": 0
+  {
+    "name": "STAT_FOUND_PASSENGERS",
+    "defaultvalue": 0,
+    "displayName": "Passengers Found"
   },
-  "STAT_COLLECTED_CASSETTES": {
-    "description": "Tapes Collected",
-    "value": 0
+  {
+    "name": "STAT_COLLECTED_CASSETTES",
+    "defaultvalue": 0,
+    "displayName": "Tapes Collected"
   },
-  "STAT_ATE_MUSHROOMS_TYPES": {
-    "description": "Mushroom Type Eaten",
-    "value": 0
+  {
+    "name": "STAT_ATE_MUSHROOMS_TYPES",
+    "defaultvalue": 0,
+    "displayName": "Mushroom Type Eaten"
   },
-  "STAT_TOTAL_WALKED_STEPS": {
-    "description": "Steps Walked",
-    "value": 0
+  {
+    "name": "STAT_TOTAL_WALKED_STEPS",
+    "defaultvalue": 0,
+    "displayName": "Steps Walked"
   },
-  "STAT_USED_BOMBS": {
-    "description": "Bombs Used",
-    "value": 0
+  {
+    "name": "STAT_USED_BOMBS",
+    "defaultvalue": 0,
+    "displayName": "Bombs Used"
   },
-  "STAT_HIGHIEST_ROBOT_PIECES": {
-    "description": "Robot Pieces Found",
-    "value": 0
+  {
+    "name": "STAT_HIGHIEST_ROBOT_PIECES",
+    "defaultvalue": 0,
+    "displayName": "Robot Pieces Found"
   },
-  "STAT_CHOPPED_TREES": {
-    "description": "Trees Chopped",
-    "value": 0
+  {
+    "name": "STAT_CHOPPED_TREES",
+    "defaultvalue": 0,
+    "displayName": "Trees Chopped"
   },
-  "STAT_DAYS_WITHOUT_KILLS": {
-    "description": "No Kill Days",
-    "value": 0
+  {
+    "name": "STAT_DAYS_WITHOUT_KILLS",
+    "defaultvalue": 0,
+    "displayName": "No Kill Days"
   },
-  "STAT_HIGHIEST_TREES_DYNAMITED": {
-    "description": "Exploded Trees",
-    "value": 0
+  {
+    "name": "STAT_HIGHIEST_TREES_DYNAMITED",
+    "defaultvalue": 0,
+    "displayName": "Exploded Trees"
   },
-  "STAT_UNIQUE_CRAFTED_ITEMS": {
-    "description": "Items Crafted",
-    "value": 0
+  {
+    "name": "STAT_UNIQUE_CRAFTED_ITEMS",
+    "defaultvalue": 0,
+    "displayName": "Items Crafted"
   }
-}
+]

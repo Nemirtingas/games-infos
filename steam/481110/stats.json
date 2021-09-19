@@ -1,22 +1,27 @@
-﻿{
-  "pegs": {
-    "description": "Pegs Found",
-    "value": 0
+[
+  {
+    "name": "pegs",
+    "defaultvalue": 0,
+    "displayName": "Pegs Found"
   },
-  "documents": {
-    "description": "",
-    "value": 0
+  {
+    "name": "documents",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "books": {
-    "description": "",
-    "value": 0
+  {
+    "name": "books",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "cassettes": {
-    "description": "",
-    "value": 0
+  {
+    "name": "cassettes",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "computers": {
-    "description": "",
-    "value": 0
+  {
+    "name": "computers",
+    "defaultvalue": 0,
+    "displayName": ""
   }
-}
+]

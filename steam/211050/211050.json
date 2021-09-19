@@ -1,35 +1,14 @@
-﻿{
+{
   "Dlcs": {
     "338920": {
       "Name": "Battle vs. Chess - Dark Desert DLC",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/338920/header.jpg?t=1490345925"
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/338920/header.jpg?t=1490345925",
+      "Type": "dlc"
     },
     "339760": {
       "Name": "Battle vs Chess - Floating Island DLC",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/339760/header.jpg?t=1490345928"
-    },
-    "510140": {
-      "Name": "Battle vs Chess - Art & Music Premium Pack",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/510140/header.jpg?t=1549471858"
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/339760/header.jpg?t=1490345928",
+      "Type": "dlc"
     }
-  },
-  "Name": "Battle vs Chess",
-  "AppId": "211050",
-  "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/211050/header.jpg?t=1577621860",
-  "Languages": [
-    "english",
-    "german",
-    "french",
-    "italian",
-    "spanish",
-    "russian",
-    "polish",
-    "hungarian",
-    "czech"
-  ],
-  "Platforms": {
-    "windows": true,
-    "mac": true,
-    "linux": true
   }
 }

@@ -1,6 +1,7 @@
-﻿{
-  "kill_kill": {
-    "description": "Destroyed enemies",
-    "value": 0
+[
+  {
+    "name": "kill_kill",
+    "defaultvalue": 0,
+    "displayName": "Destroyed enemies"
   }
-}
+]

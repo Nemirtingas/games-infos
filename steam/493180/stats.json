@@ -1,78 +1,97 @@
-﻿{
-  "NumLosses": {
-    "description": "Games Lost",
-    "value": 0
+[
+  {
+    "name": "NumLosses",
+    "defaultvalue": 0,
+    "displayName": "Games Lost"
   },
-  "NumWins": {
-    "description": "Games Won",
-    "value": 0
+  {
+    "name": "NumWins",
+    "defaultvalue": 0,
+    "displayName": "Games Won"
   },
-  "NumWinsViking": {
-    "description": "Games Won Viking",
-    "value": 0
+  {
+    "name": "NumWinsViking",
+    "defaultvalue": 0,
+    "displayName": "Games Won Viking"
   },
-  "NumWinsCowboy": {
-    "description": "Games Won Cowboy",
-    "value": 0
+  {
+    "name": "NumWinsCowboy",
+    "defaultvalue": 0,
+    "displayName": "Games Won Cowboy"
   },
-  "NumWinsPirates": {
-    "description": "Games Won Pirates",
-    "value": 0
+  {
+    "name": "NumWinsPirates",
+    "defaultvalue": 0,
+    "displayName": "Games Won Pirates"
   },
-  "NumWinsJapanese": {
-    "description": "Games Won Japanese",
-    "value": 0
+  {
+    "name": "NumWinsJapanese",
+    "defaultvalue": 0,
+    "displayName": "Games Won Japanese"
   },
-  "NumWinsCaveman": {
-    "description": "Games Won Caveman",
-    "value": 0
+  {
+    "name": "NumWinsCaveman",
+    "defaultvalue": 0,
+    "displayName": "Games Won Caveman"
   },
-  "NumWinsAztec": {
-    "description": "Games Won Aztec",
-    "value": 0
+  {
+    "name": "NumWinsAztec",
+    "defaultvalue": 0,
+    "displayName": "Games Won Aztec"
   },
-  "NumWinsMedieval": {
-    "description": "Games Won Medieval",
-    "value": 0
+  {
+    "name": "NumWinsMedieval",
+    "defaultvalue": 0,
+    "displayName": "Games Won Medieval"
   },
-  "StatsVersion": {
-    "description": "Stats version",
-    "value": 0
+  {
+    "name": "StatsVersion",
+    "defaultvalue": 0,
+    "displayName": "Stats version"
   },
-  "ProgressionPoints": {
-    "description": "Progression Points",
-    "value": 0
+  {
+    "name": "ProgressionPoints",
+    "defaultvalue": 0,
+    "displayName": "Progression Points"
   },
-  "RankedPoints": {
-    "description": "Ranked Points",
-    "value": 1000
+  {
+    "name": "RankedPoints",
+    "defaultvalue": 1000,
+    "displayName": "Ranked Points"
   },
-  "NumWinsFuturistic": {
-    "description": "Games Won Futuristic",
-    "value": 0
+  {
+    "name": "NumWinsFuturistic",
+    "defaultvalue": 0,
+    "displayName": "Games Won Futuristic"
   },
-  "EmoteUp": {
-    "description": "EmoteUp",
-    "value": 0
+  {
+    "name": "EmoteUp",
+    "defaultvalue": 0,
+    "displayName": "EmoteUp"
   },
-  "EmoteDown": {
-    "description": "EmoteDown",
-    "value": 3
+  {
+    "name": "EmoteDown",
+    "defaultvalue": 3,
+    "displayName": "EmoteDown"
   },
-  "EmoteLeft": {
-    "description": "EmoteLeft",
-    "value": 2
+  {
+    "name": "EmoteLeft",
+    "defaultvalue": 2,
+    "displayName": "EmoteLeft"
   },
-  "EmoteRight": {
-    "description": "EmoteRight",
-    "value": 1
+  {
+    "name": "EmoteRight",
+    "defaultvalue": 1,
+    "displayName": "EmoteRight"
   },
-  "StartedRankedMatch": {
-    "description": "StartedRankedMatch",
-    "value": 0
+  {
+    "name": "StartedRankedMatch",
+    "defaultvalue": 0,
+    "displayName": "StartedRankedMatch"
   },
-  "SurvivalScore": {
-    "description": "SurvivalScore",
-    "value": 0
+  {
+    "name": "SurvivalScore",
+    "defaultvalue": 0,
+    "displayName": "SurvivalScore"
   }
-}
+]

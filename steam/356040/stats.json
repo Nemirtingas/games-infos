@@ -1,14 +1,17 @@
-﻿{
-  "miles_travelled": {
-    "description": "Miles travelled",
-    "value": 0
+[
+  {
+    "name": "miles_travelled",
+    "defaultvalue": 0,
+    "displayName": "Miles travelled"
   },
-  "locations_searched": {
-    "description": "Locations Searched",
-    "value": 0
+  {
+    "name": "locations_searched",
+    "defaultvalue": 0,
+    "displayName": "Locations Searched"
   },
-  "animals_trapped": {
-    "description": "Animals Trapped",
-    "value": 0
+  {
+    "name": "animals_trapped",
+    "defaultvalue": 0,
+    "displayName": "Animals Trapped"
   }
-}
+]

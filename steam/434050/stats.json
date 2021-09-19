@@ -1,18 +1,22 @@
-﻿{
-  "STAT_ENEMIES_STEPPED_ON": {
-    "description": "Enemies Stepped On",
-    "value": 0
+[
+  {
+    "name": "STAT_ENEMIES_STEPPED_ON",
+    "defaultvalue": 0,
+    "displayName": "Enemies Stepped On"
   },
-  "STAT_SECRETS_FOUND": {
-    "description": "Secrets Found",
-    "value": 0
+  {
+    "name": "STAT_SECRETS_FOUND",
+    "defaultvalue": 0,
+    "displayName": "Secrets Found"
   },
-  "STAT_ENEMIES_KILLED": {
-    "description": "Enemies Killed",
-    "value": 0
+  {
+    "name": "STAT_ENEMIES_KILLED",
+    "defaultvalue": 0,
+    "displayName": "Enemies Killed"
   },
-  "STAT_ENEMIES_BURNED": {
-    "description": "Enemies Burned",
-    "value": 0
+  {
+    "name": "STAT_ENEMIES_BURNED",
+    "defaultvalue": 0,
+    "displayName": "Enemies Burned"
   }
-}
+]

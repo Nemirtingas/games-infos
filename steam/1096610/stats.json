@@ -443,5 +443,85 @@
     "name": "EARLY_ACCESS_STEAM_STATS_RESET_715",
     "defaultvalue": 0,
     "displayName": ""
+  },
+  {
+    "name": "MISSIONS_COMPLETED",
+    "defaultvalue": 0,
+    "displayName": "Missions Completed"
+  },
+  {
+    "name": "BOMB_THREAT_COMPLETED",
+    "defaultvalue": 0,
+    "displayName": "Times Bomb Threat Completed"
+  },
+  {
+    "name": "JET_CRASH_COMPLETED",
+    "defaultvalue": 0,
+    "displayName": "Times Jet Crash Completed"
+  },
+  {
+    "name": "CHEMICAL_SPILL_COMPLETED",
+    "defaultvalue": 0,
+    "displayName": "Times Chemical Spill Completed"
+  },
+  {
+    "name": "ESCAPED_INMATES_COMPLETED",
+    "defaultvalue": 0,
+    "displayName": "Times Escaped Inmates Completed"
+  },
+  {
+    "name": "VEHICLE_ACCIDENT_COMPLETED",
+    "defaultvalue": 0,
+    "displayName": "Times Vehicle Accident Completed"
+  },
+  {
+    "name": "SCHOOL_SHOOTING_COMPLETED",
+    "defaultvalue": 0,
+    "displayName": "Times School Shooting Completed"
+  },
+  {
+    "name": "TORNADO_COMPLETED",
+    "defaultvalue": 0,
+    "displayName": "Times Tornado Completed"
+  },
+  {
+    "name": "WILDFIRE_COMPLETED",
+    "defaultvalue": 0,
+    "displayName": "Times Wildfire Completed"
+  },
+  {
+    "name": "UNIQUE_MISSIONS_COMPLETED",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "TOXIC_AVENGER",
+    "defaultvalue": 0,
+    "displayName": "Toxic Avenger"
+  },
+  {
+    "name": "EVACUATION_PLAN",
+    "defaultvalue": 0,
+    "displayName": "Evacuation Plan"
+  },
+  {
+    "name": "FORTY_FOUR_REASONS_WHY",
+    "defaultvalue": 0,
+    "displayName": "44 Reasons Why"
+  },
+  {
+    "name": "DERAILED",
+    "defaultvalue": 0,
+    "displayName": "Derailed"
+  },
+  {
+    "name": "TRIAL_BY_FIRE",
+    "defaultvalue": 0,
+    "displayName": "Trial By Fire"
+  },
+  {
+    "name": "OUT_OF_THE_STORM",
+    "defaultvalue": 0,
+    "displayName": "Out Of The Storm"
   }
 ]

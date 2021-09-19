@@ -1,18 +1,22 @@
-﻿{
-  "nmy_kill": {
-    "description": "Enemies killed",
-    "value": 0
+[
+  {
+    "name": "nmy_kill",
+    "defaultvalue": 0,
+    "displayName": "Enemies killed"
   },
-  "mag_draw": {
-    "description": "Magic drawn",
-    "value": 0
+  {
+    "name": "mag_draw",
+    "defaultvalue": 0,
+    "displayName": "Magic drawn"
   },
-  "mag_stck": {
-    "description": "Magic stocked",
-    "value": 0
+  {
+    "name": "mag_stck",
+    "defaultvalue": 0,
+    "displayName": "Magic stocked"
   },
-  "won_card": {
-    "description": "Nb Card game won",
-    "value": 0
+  {
+    "name": "won_card",
+    "defaultvalue": 0,
+    "displayName": "Nb Card game won"
   }
-}
+]

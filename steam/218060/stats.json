@@ -1,10 +1,12 @@
-﻿{
-  "statRewards": {
-    "description": "Reward Count",
-    "value": 0
+[
+  {
+    "name": "statRewards",
+    "defaultvalue": 0,
+    "displayName": "Reward Count"
   },
-  "statDance": {
-    "description": "Dance Count",
-    "value": 0
+  {
+    "name": "statDance",
+    "defaultvalue": 0,
+    "displayName": "Dance Count"
   }
-}
+]

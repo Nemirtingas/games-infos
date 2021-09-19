@@ -1,15 +1,28 @@
 {
-  "Dlcs": {},
+  "Dlcs": {
+    "1196050": {
+      "Name": "",
+      "ImageUrl": ""
+    },
+    "1196060": {
+      "Name": "",
+      "ImageUrl": ""
+    },
+    "1196061": {
+      "Name": "",
+      "ImageUrl": ""
+    }
+  },
   "Name": "副作用之瞳-Tlicolity Eyes-",
   "AppId": "1195830",
-  "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/1195830/header.jpg?t=1584003787",
+  "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1195830/header.jpg?t=1626794366",
   "Languages": [
     "schinese",
     "tchinese"
   ],
   "Platforms": {
     "windows": true,
-    "mac": true,
+    "mac": false,
     "linux": false
   }
 }

@@ -1,38 +1,47 @@
-﻿{
-  "stat_Kill_X_monsters": {
-    "description": "",
-    "value": 0
+[
+  {
+    "name": "stat_Kill_X_monsters",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "stat_Collect_All_DogTags": {
-    "description": "",
-    "value": 0
+  {
+    "name": "stat_Collect_All_DogTags",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "stat_CollectAll_WoodenDolls": {
-    "description": "",
-    "value": 0
+  {
+    "name": "stat_CollectAll_WoodenDolls",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "stat_Break_10_Totems": {
-    "description": "",
-    "value": 0
+  {
+    "name": "stat_Break_10_Totems",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "stat_CollectAll_PsychiatristsNotes": {
-    "description": "",
-    "value": 0
+  {
+    "name": "stat_CollectAll_PsychiatristsNotes",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "stat_CollectAll_VictimsPhotos": {
-    "description": "",
-    "value": 0
+  {
+    "name": "stat_CollectAll_VictimsPhotos",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "stat_WhatYouGotThere": {
-    "description": "",
-    "value": 0
+  {
+    "name": "stat_WhatYouGotThere",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "stat_Walk_100_Miles": {
-    "description": "",
-    "value": 0
+  {
+    "name": "stat_Walk_100_Miles",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "stat_PickUpAll_Trash": {
-    "description": "",
-    "value": 0
+  {
+    "name": "stat_PickUpAll_Trash",
+    "defaultvalue": 0,
+    "displayName": ""
   }
-}
+]

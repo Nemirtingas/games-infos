@@ -1,142 +1,177 @@
-﻿{
-  "HighestScore": {
-    "description": "Highest Score",
-    "value": 0
+[
+  {
+    "name": "HighestScore",
+    "defaultvalue": 0,
+    "displayName": "Highest Score"
   },
-  "HighestMultiplier": {
-    "description": "Highest Multiplier",
-    "value": 0
+  {
+    "name": "HighestMultiplier",
+    "defaultvalue": 0,
+    "displayName": "Highest Multiplier"
   },
-  "EnemiesKilled": {
-    "description": "Enemies Killed",
-    "value": 0
+  {
+    "name": "EnemiesKilled",
+    "defaultvalue": 0,
+    "displayName": "Enemies Killed"
   },
-  "HeadshotKills": {
-    "description": "Enemy Headshot Kills",
-    "value": 0
+  {
+    "name": "HeadshotKills",
+    "defaultvalue": 0,
+    "displayName": "Enemy Headshot Kills"
   },
-  "EnemyProjectilesBlocked": {
-    "description": "Enemy Projectiles Blocked",
-    "value": 0
+  {
+    "name": "EnemyProjectilesBlocked",
+    "defaultvalue": 0,
+    "displayName": "Enemy Projectiles Blocked"
   },
-  "EnemyProjectilesDodged": {
-    "description": "Enemy Projectiles Dodged",
-    "value": 0
+  {
+    "name": "EnemyProjectilesDodged",
+    "defaultvalue": 0,
+    "displayName": "Enemy Projectiles Dodged"
   },
-  "EnemyProjectilesReflected": {
-    "description": "Enemy Projectiles Reflected",
-    "value": 0
+  {
+    "name": "EnemyProjectilesReflected",
+    "defaultvalue": 0,
+    "displayName": "Enemy Projectiles Reflected"
   },
-  "EnemyProjectilesDissolved": {
-    "description": "Enemy Projectiles Dissolved",
-    "value": 0
+  {
+    "name": "EnemyProjectilesDissolved",
+    "defaultvalue": 0,
+    "displayName": "Enemy Projectiles Dissolved"
   },
-  "PlayerShotsFired": {
-    "description": "Player Shots Fired",
-    "value": 0
+  {
+    "name": "PlayerShotsFired",
+    "defaultvalue": 0,
+    "displayName": "Player Shots Fired"
   },
-  "NearMisses": {
-    "description": "Near Misses",
-    "value": 0
+  {
+    "name": "NearMisses",
+    "defaultvalue": 0,
+    "displayName": "Near Misses"
   },
-  "DamageTaken": {
-    "description": "Damage Taken",
-    "value": 0
+  {
+    "name": "DamageTaken",
+    "defaultvalue": 0,
+    "displayName": "Damage Taken"
   },
-  "EnemiesFrozen": {
-    "description": "Enemies Frozen",
-    "value": 0
+  {
+    "name": "EnemiesFrozen",
+    "defaultvalue": 0,
+    "displayName": "Enemies Frozen"
   },
-  "BounceKills": {
-    "description": "Enemies Killed With Bounce Modifier",
-    "value": 0
+  {
+    "name": "BounceKills",
+    "defaultvalue": 0,
+    "displayName": "Enemies Killed With Bounce Modifier"
   },
-  "ReflectKills": {
-    "description": "Enemies Killed With Reflected Enemy Shots",
-    "value": 0
+  {
+    "name": "ReflectKills",
+    "defaultvalue": 0,
+    "displayName": "Enemies Killed With Reflected Enemy Shots"
   },
-  "TroopersKilled": {
-    "description": "Troopers Killed",
-    "value": 0
+  {
+    "name": "TroopersKilled",
+    "defaultvalue": 0,
+    "displayName": "Troopers Killed"
   },
-  "SwarmersKilled": {
-    "description": "Swarmers Killed",
-    "value": 0
+  {
+    "name": "SwarmersKilled",
+    "defaultvalue": 0,
+    "displayName": "Swarmers Killed"
   },
-  "FlyersKilled": {
-    "description": "Fliers Killed",
-    "value": 0
+  {
+    "name": "FlyersKilled",
+    "defaultvalue": 0,
+    "displayName": "Fliers Killed"
   },
-  "ChargersKilled": {
-    "description": "Chargers Killed",
-    "value": 0
+  {
+    "name": "ChargersKilled",
+    "defaultvalue": 0,
+    "displayName": "Chargers Killed"
   },
-  "HeaviesKilled": {
-    "description": "Heavy Gunners Killed",
-    "value": 0
+  {
+    "name": "HeaviesKilled",
+    "defaultvalue": 0,
+    "displayName": "Heavy Gunners Killed"
   },
-  "AirbornesKilled": {
-    "description": "Airborne Enemies Killed",
-    "value": 0
+  {
+    "name": "AirbornesKilled",
+    "defaultvalue": 0,
+    "displayName": "Airborne Enemies Killed"
   },
-  "HeadshotReflectKills": {
-    "description": "Enemy Headshot Kills With Reflected Enemy Shots",
-    "value": 0
+  {
+    "name": "HeadshotReflectKills",
+    "defaultvalue": 0,
+    "displayName": "Enemy Headshot Kills With Reflected Enemy Shots"
   },
-  "HeadshotBounceKills": {
-    "description": "Enemy Headshot Kills With Bounce Modifier",
-    "value": 0
+  {
+    "name": "HeadshotBounceKills",
+    "defaultvalue": 0,
+    "displayName": "Enemy Headshot Kills With Bounce Modifier"
   },
-  "AirbornesKilledWithBounce": {
-    "description": "Airborne Enemies Killed With Bounce Modifier",
-    "value": 0
+  {
+    "name": "AirbornesKilledWithBounce",
+    "defaultvalue": 0,
+    "displayName": "Airborne Enemies Killed With Bounce Modifier"
   },
-  "BarrensBestScore1": {
-    "description": "Best Score in Barrens for Tier 1 Achievement",
-    "value": 0
+  {
+    "name": "BarrensBestScore1",
+    "defaultvalue": 0,
+    "displayName": "Best Score in Barrens for Tier 1 Achievement"
   },
-  "BarrensBestScore2": {
-    "description": "Best Score in Barrens for Tier 2 Achievement",
-    "value": 0
+  {
+    "name": "BarrensBestScore2",
+    "defaultvalue": 0,
+    "displayName": "Best Score in Barrens for Tier 2 Achievement"
   },
-  "BarrensBestScore3": {
-    "description": "Best Score in Barrens for Tier 3 Achievement",
-    "value": 0
+  {
+    "name": "BarrensBestScore3",
+    "defaultvalue": 0,
+    "displayName": "Best Score in Barrens for Tier 3 Achievement"
   },
-  "FacilityBestScore1": {
-    "description": "Best Score in Facility for Tier 1 Achievement",
-    "value": 0
+  {
+    "name": "FacilityBestScore1",
+    "defaultvalue": 0,
+    "displayName": "Best Score in Facility for Tier 1 Achievement"
   },
-  "FacilityBestScore2": {
-    "description": "Best Score in Facility for Tier 2 Achievement",
-    "value": 0
+  {
+    "name": "FacilityBestScore2",
+    "defaultvalue": 0,
+    "displayName": "Best Score in Facility for Tier 2 Achievement"
   },
-  "FacilityBestScore3": {
-    "description": "Best Score in Facility for Tier 3 Achievement",
-    "value": 0
+  {
+    "name": "FacilityBestScore3",
+    "defaultvalue": 0,
+    "displayName": "Best Score in Facility for Tier 3 Achievement"
   },
-  "PassageBestScore1": {
-    "description": "Best Score in Passage for Tier 1 Achievement",
-    "value": 0
+  {
+    "name": "PassageBestScore1",
+    "defaultvalue": 0,
+    "displayName": "Best Score in Passage for Tier 1 Achievement"
   },
-  "PassageBestScore2": {
-    "description": "Best Score in Passage for Tier 2 Achievement",
-    "value": 0
+  {
+    "name": "PassageBestScore2",
+    "defaultvalue": 0,
+    "displayName": "Best Score in Passage for Tier 2 Achievement"
   },
-  "PassageBestScore3": {
-    "description": "Best Score in Passage for Tier 3 Achievement",
-    "value": 0
+  {
+    "name": "PassageBestScore3",
+    "defaultvalue": 0,
+    "displayName": "Best Score in Passage for Tier 3 Achievement"
   },
-  "CoreBestScore1": {
-    "description": "Best Score in Core for Tier 1 Achievement",
-    "value": 0
+  {
+    "name": "CoreBestScore1",
+    "defaultvalue": 0,
+    "displayName": "Best Score in Core for Tier 1 Achievement"
   },
-  "CoreBestScore2": {
-    "description": "Best Score in Core for Tier 2 Achievement",
-    "value": 0
+  {
+    "name": "CoreBestScore2",
+    "defaultvalue": 0,
+    "displayName": "Best Score in Core for Tier 2 Achievement"
   },
-  "CoreBestScore3": {
-    "description": "Best Score in Core for Tier 3 Achievement",
-    "value": 0
+  {
+    "name": "CoreBestScore3",
+    "defaultvalue": 0,
+    "displayName": "Best Score in Core for Tier 3 Achievement"
   }
-}
+]

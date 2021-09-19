@@ -1,26 +1,32 @@
-﻿{
-  "stat_contracts_finished": {
-    "description": "Finished Contracts",
-    "value": 0
+[
+  {
+    "name": "stat_contracts_finished",
+    "defaultvalue": 0,
+    "displayName": "Finished Contracts"
   },
-  "stat_contracts_failed": {
-    "description": "Failed Contracts",
-    "value": 0
+  {
+    "name": "stat_contracts_failed",
+    "defaultvalue": 0,
+    "displayName": "Failed Contracts"
   },
-  "stat_tanks_renovated": {
-    "description": "Renovated Tanks",
-    "value": 0
+  {
+    "name": "stat_tanks_renovated",
+    "defaultvalue": 0,
+    "displayName": "Renovated Tanks"
   },
-  "stat_tanks_extracted": {
-    "description": "Extracted Tanks",
-    "value": 0
+  {
+    "name": "stat_tanks_extracted",
+    "defaultvalue": 0,
+    "displayName": "Extracted Tanks"
   },
-  "stat_elements_cut": {
-    "description": "Cut Elements",
-    "value": 0
+  {
+    "name": "stat_elements_cut",
+    "defaultvalue": 0,
+    "displayName": "Cut Elements"
   },
-  "stat_elements_hammered": {
-    "description": "Hammered Elements",
-    "value": 0
+  {
+    "name": "stat_elements_hammered",
+    "defaultvalue": 0,
+    "displayName": "Hammered Elements"
   }
-}
+]

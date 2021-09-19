@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "name": "a0_babysteps",
     "defaultvalue": 0,
@@ -204,5 +204,137 @@
     "hidden": 1,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1358090/6d72a26978fd67e51a0c33ea26c81fc8e0cf07a0.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1358090/816bf5a526c54b9230b6dbcaeaa334e87897e3ca.jpg"
+  },
+  {
+    "name": "a23_login",
+    "defaultvalue": 0,
+    "displayName": "Node in a Graph",
+    "hidden": 0,
+    "description": "Successfully login to the Open Hexagon server",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1358090/8732b3040b7cdf0606f4486a23164e65dfe21ee9.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1358090/f971cd7c9982e5f64b706571ec9f57ab813e1146.jpg"
+  },
+  {
+    "name": "a24_onlinescore",
+    "defaultvalue": 0,
+    "displayName": "Packet Gain",
+    "hidden": 0,
+    "description": "Successfully send a score to the Open Hexagon server",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1358090/d86147c092b0a03b148731043eba01b821e03822.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1358090/cef61aa87fa5d170c0685cb8d3afa99fd88910ac.jpg"
+  },
+  {
+    "name": "a25_pointless_hard",
+    "defaultvalue": 0,
+    "displayName": "Purposeful",
+    "hidden": 0,
+    "description": "Survive for 45s in \"Pointless\" at the highest difficulty multiplier",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1358090/2475b60a9f8183866225fa58948fd447b81183fb.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1358090/1b2474238f746e5e829d43203d0e91d2cce5d73e.jpg"
+  },
+  {
+    "name": "a26_flattering_hard",
+    "defaultvalue": 0,
+    "displayName": "Road Roller",
+    "hidden": 0,
+    "description": "Survive for 30s in \"Flattering Shape\" at the highest difficulty multiplier",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1358090/b36ba95de8ba667dac160fa409ae5f2a76baa6b6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1358090/d57460839188361007ccb8da7279b8584eb728c8.jpg"
+  },
+  {
+    "name": "a27_seconddim_hard",
+    "defaultvalue": 0,
+    "displayName": "Flatland Inhabitant",
+    "hidden": 0,
+    "description": "Survive for 20s in \"Second Dimension\" at the highest difficulty multiplier",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1358090/11750d9ba11ddc2e13149bfca6a3a6a437507d1d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1358090/0809ee191776fce8e683945cf237a4749e615eb9.jpg"
+  },
+  {
+    "name": "a28_apeirogon_hard",
+    "defaultvalue": 0,
+    "displayName": "Demitesseract",
+    "hidden": 0,
+    "description": "Survive for 45s in \"Apeirogon\" at the highest difficulty multiplier",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1358090/eff53a823d59b2fd20752cdaac31748399aa7404.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1358090/082b5055b4c269489c2825aa805d3b8d99b60815.jpg"
+  },
+  {
+    "name": "a29_commando_hard",
+    "defaultvalue": 0,
+    "displayName": "Generalissimo",
+    "hidden": 0,
+    "description": "Reach level 6 in \"Commando\" at the highest difficulty multiplier",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1358090/eb91f61caff71afb1a3343c8a0b01cd45c714bec.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1358090/733937a8e765fc252c6dbc186a83ac6807403164.jpg"
+  },
+  {
+    "name": "a30_euclidian_hard",
+    "defaultvalue": 0,
+    "displayName": "Non-Euclidian",
+    "hidden": 0,
+    "description": "Survive for 30s in \"Euclidian Plane Crash\" at the highest difficulty multiplier",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1358090/d61553b937fd6499dbcbf1aede22a4ba8ef53228.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1358090/26f2134611401edbd1fb9d06511f87e4a1cb9a2c.jpg"
+  },
+  {
+    "name": "a31_pi_hard",
+    "defaultvalue": 0,
+    "displayName": "Piece of Pie",
+    "hidden": 0,
+    "description": "Survive for 30s in \"Pi\" at the highest difficulty multiplier",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1358090/9ecd58d81eee61e46c025bcf49da4ad8327c3b5a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1358090/037ba2e8d0bff4f705d998fd36b40d54e052ae99.jpg"
+  },
+  {
+    "name": "a32_lab_hard",
+    "defaultvalue": 0,
+    "displayName": "Minosse",
+    "hidden": 0,
+    "description": "Reach level 6 in \"Labyrinth\" at the highest difficulty multiplier",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1358090/028a34a32936f83f72c549d742ec82589123ed49.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1358090/66d994bcf61aca3c120fd1c962e6dcb007e18bff.jpg"
+  },
+  {
+    "name": "a33_ratio_hard",
+    "defaultvalue": 0,
+    "displayName": "Dizzy",
+    "hidden": 0,
+    "description": "Survive for 45s in \"Golden Ratio\" at the highest difficulty multiplier",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1358090/f73c45f1a16d7b553b4d6b8b8c7f3c2b53b6c3ac.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1358090/e31e3ac2b117e5c060204b4456cd49efb8687bbc.jpg"
+  },
+  {
+    "name": "a34_cubegod",
+    "defaultvalue": 0,
+    "displayName": "Cube God",
+    "hidden": 0,
+    "description": "Complete all the \"Cube\" pack achievements at the highest difficulty multiplier",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1358090/e64e0c0a417bbeb0bffc4706e14c2cd7be786ef0.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1358090/36580563eaaf9476cb3d4b342d0909b838406bd0.jpg"
+  },
+  {
+    "name": "a35_eagerformore",
+    "defaultvalue": 0,
+    "displayName": "Eager for more?",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1358090/3ff46e62c14482bc1b3082683fe537fb5c88e264.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1358090/006c7a63fa0280a7238d410a14420957e426e603.jpg"
+  },
+  {
+    "name": "a36_bipolarity",
+    "defaultvalue": 0,
+    "displayName": "Impulsive",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1358090/91045961352b4a69c097eac163b663ac07ddac4d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1358090/268997cf5c1e2068ffebd1a3654e149f00a9a297.jpg"
+  },
+  {
+    "name": "a37_bipolarity_hard",
+    "defaultvalue": 0,
+    "displayName": "Maniac",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1358090/f9ef0e86908b6c82defa489465f5d48ac8a15eb6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1358090/3974dbef88d5c0b7b11639a86dd0242509ea1acc.jpg"
   }
 ]

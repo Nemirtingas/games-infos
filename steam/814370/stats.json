@@ -1,58 +1,72 @@
-﻿{
-  "wins_season1": {
-    "description": "",
-    "value": 0
+[
+  {
+    "name": "wins_season1",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "losses_season1": {
-    "description": "",
-    "value": 0
+  {
+    "name": "losses_season1",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "opponent_rating": {
-    "description": "",
-    "value": 0
+  {
+    "name": "opponent_rating",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "disconnects": {
-    "description": "",
-    "value": 0
+  {
+    "name": "disconnects",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "disc_count": {
-    "description": "",
-    "value": 0
+  {
+    "name": "disc_count",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "wins_debug": {
-    "description": "",
-    "value": 0
+  {
+    "name": "wins_debug",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "losses_debug": {
-    "description": "",
-    "value": 0
+  {
+    "name": "losses_debug",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "wins_s1": {
-    "description": "Wins Season 1",
-    "value": 0
+  {
+    "name": "wins_s1",
+    "defaultvalue": 0,
+    "displayName": "Wins Season 1"
   },
-  "losses_s1": {
-    "description": "Losses Season 1",
-    "value": 0
+  {
+    "name": "losses_s1",
+    "defaultvalue": 0,
+    "displayName": "Losses Season 1"
   },
-  "disc_debug": {
-    "description": "",
-    "value": 0
+  {
+    "name": "disc_debug",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "disc_count_s1": {
-    "description": "",
-    "value": 0
+  {
+    "name": "disc_count_s1",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "ach28": {
-    "description": "",
-    "value": 0
+  {
+    "name": "ach28stat",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "ach29": {
-    "description": "",
-    "value": 0
+  {
+    "name": "ach29stat",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "ach34": {
-    "description": "",
-    "value": 0
+  {
+    "name": "ach34stat",
+    "defaultvalue": 0,
+    "displayName": ""
   }
-}
+]

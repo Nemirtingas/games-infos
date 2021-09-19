@@ -1,23 +1,9 @@
-﻿{
+{
   "Dlcs": {
     "212041": {
       "Name": "Kung Fu Strike: The Warrior's Rise - Master Level",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/212041/header.jpg?t=1555309994"
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/212041/header.jpg?t=1555309994",
+      "Type": "dlc"
     }
-  },
-  "Name": "Kung Fu Strike - The Warrior's Rise",
-  "AppId": "212030",
-  "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/212030/header.jpg?t=1568789294",
-  "Languages": [
-    "english",
-    "german",
-    "french",
-    "italian",
-    "spanish"
-  ],
-  "Platforms": {
-    "windows": true,
-    "mac": false,
-    "linux": false
   }
 }

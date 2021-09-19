@@ -65,7 +65,7 @@
   {
     "name": "Centenial_Slugger",
     "defaultvalue": 0,
-    "displayName": "Centennial Sligger",
+    "displayName": "Centennial Slugger",
     "hidden": 0,
     "description": "Hit 100 Home Runs",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/821370/d49e64ca798c2f2f6a4080801562102073ff22b9.jpg",
@@ -191,10 +191,19 @@
   {
     "name": "Hollywood_Hacker",
     "defaultvalue": 0,
-    "displayName": "HOLLYWOOD_HACKER",
+    "displayName": "Hollywood Hacker",
     "hidden": 0,
-    "description": "Hit 25 home runs in Dodger Stadium",
+    "description": "Hit 25 home runs in Dodger Stadium, proposed home of the 2020 All-Star Game.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/821370/5f58f9169f5dc472460beff1bc56fdd372de1ca3.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/821370/397e86713fb8fdfccccc10236030b41b744a0871.jpg"
+  },
+  {
+    "name": "In_The_Rockpile",
+    "defaultvalue": 0,
+    "displayName": "In the Rockpile",
+    "hidden": 0,
+    "description": "Hit 25 home runs in Coors Field, home of the 2021 All-Star Game.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/821370/5d616e1c11c9e8ffc16f4fe173cb55c5b21f730b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/821370/c47db1b6a0419afa1f689e4c70004fa02b737485.jpg"
   }
 ]

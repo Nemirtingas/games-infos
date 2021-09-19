@@ -1,30 +1,42 @@
-﻿{
-  "stat_story_cad_drone_kills": {
-    "description": "Caduceus Drones destroyed",
-    "value": 0
+[
+  {
+    "name": "stat_story_cad_drone_kills",
+    "defaultvalue": 0,
+    "displayName": "Caduceus Drones destroyed"
   },
-  "stat_event_wicked_jack_kills": {
-    "description": "Jack ships destroyed",
-    "value": 0
+  {
+    "name": "stat_event_wicked_jack_kills",
+    "defaultvalue": 0,
+    "displayName": "Jack ships destroyed"
   },
-  "stat_story_memorials_read": {
-    "description": "Memorials read",
-    "value": 0
+  {
+    "name": "stat_story_memorials_read",
+    "defaultvalue": 0,
+    "displayName": "Memorials read"
   },
-  "stat_curious_neighbor_locations": {
-    "description": "Pluto locations unlocked",
-    "value": 1
+  {
+    "name": "stat_curious_neighbor_locations",
+    "defaultvalue": 1,
+    "displayName": "Pluto locations unlocked"
   },
-  "stat_story_playing_doctor_patients_treated": {
-    "description": "Patients treated",
-    "value": 0
+  {
+    "name": "stat_story_playing_doctor_patients_treated",
+    "defaultvalue": 0,
+    "displayName": "Patients treated"
   },
-  "stat_story_flowers_collected": {
-    "description": "Flowers collected",
-    "value": 0
+  {
+    "name": "stat_story_flowers_collected",
+    "defaultvalue": 0,
+    "displayName": "Flowers collected"
   },
-  "stat_friendly_neighbor_colony_tasks": {
-    "description": "Pluto colony tasks",
-    "value": 0
+  {
+    "name": "stat_friendly_neighbor_colony_tasks",
+    "defaultvalue": 0,
+    "displayName": "Pluto colony tasks"
+  },
+  {
+    "name": "stat_story_krieger_letters_delivered",
+    "defaultvalue": 0,
+    "displayName": "Krieger letters delivered"
   }
-}
+]

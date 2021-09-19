@@ -1,98 +1,122 @@
-﻿{
-  "cid_stars": {
-    "description": "Cid star systems",
-    "value": 0
+[
+  {
+    "name": "cid_stars",
+    "defaultvalue": 0,
+    "displayName": "Cid star systems"
   },
-  "wiz_stars": {
-    "description": "Wiz star systems",
-    "value": 0
+  {
+    "name": "wiz_stars",
+    "defaultvalue": 0,
+    "displayName": "Wiz star systems"
   },
-  "killed_monsters": {
-    "description": "Monsters killed",
-    "value": 0
+  {
+    "name": "killed_monsters",
+    "defaultvalue": 0,
+    "displayName": "Monsters killed"
   },
-  "defeat_every_world_type": {
-    "description": "Defeat every world type",
-    "value": 0
+  {
+    "name": "defeat_every_world_type",
+    "defaultvalue": 0,
+    "displayName": "Defeat every world type"
   },
-  "unlock_orange_scale_armor": {
-    "description": "Unlocked orange scale armor",
-    "value": 0
+  {
+    "name": "unlock_orange_scale_armor",
+    "defaultvalue": 0,
+    "displayName": "Unlocked orange scale armor"
   },
-  "maintain_synergy": {
-    "description": "Maintain synergy",
-    "value": 0
+  {
+    "name": "maintain_synergy",
+    "defaultvalue": 0,
+    "displayName": "Maintain synergy"
   },
-  "wizard_barrage": {
-    "description": "Wizard Barrage",
-    "value": 0
+  {
+    "name": "wizard_barrage",
+    "defaultvalue": 0,
+    "displayName": "Wizard Barrage"
   },
-  "wizard_zap": {
-    "description": "Wizard Zap",
-    "value": 0
+  {
+    "name": "wizard_zap",
+    "defaultvalue": 0,
+    "displayName": "Wizard Zap"
   },
-  "big_chain": {
-    "description": "Big chain",
-    "value": 0
+  {
+    "name": "big_chain",
+    "defaultvalue": 0,
+    "displayName": "Big chain"
   },
-  "permadeath": {
-    "description": "Permadeath",
-    "value": 0
+  {
+    "name": "permadeath",
+    "defaultvalue": 0,
+    "displayName": "Permadeath"
   },
-  "kuma_stacks": {
-    "description": "Kuma stacks",
-    "value": 0
+  {
+    "name": "kuma_stacks",
+    "defaultvalue": 0,
+    "displayName": "Kuma stacks"
   },
-  "bigclick_stacks": {
-    "description": "Big Click Stacks",
-    "value": 0
+  {
+    "name": "bigclick_stacks",
+    "defaultvalue": 0,
+    "displayName": "Big Click Stacks"
   },
-  "high_energy_skill": {
-    "description": "High energy skill",
-    "value": 0
+  {
+    "name": "high_energy_skill",
+    "defaultvalue": 0,
+    "displayName": "High energy skill"
   },
-  "crit_chance": {
-    "description": "Crit chance",
-    "value": 0
+  {
+    "name": "crit_chance",
+    "defaultvalue": 0,
+    "displayName": "Crit chance"
   },
-  "cheap_item": {
-    "description": "Cheap item",
-    "value": 0
+  {
+    "name": "cheap_item",
+    "defaultvalue": 0,
+    "displayName": "Cheap item"
   },
-  "automatic_world": {
-    "description": "Automated world",
-    "value": 0
+  {
+    "name": "automatic_world",
+    "defaultvalue": 0,
+    "displayName": "Automated world"
   },
-  "boss_manacrit": {
-    "description": "Boss Manacrit",
-    "value": 0
+  {
+    "name": "boss_manacrit",
+    "defaultvalue": 0,
+    "displayName": "Boss Manacrit"
   },
-  "full_dark_ritual": {
-    "description": "Dark Ritual",
-    "value": 0
+  {
+    "name": "full_dark_ritual",
+    "defaultvalue": 0,
+    "displayName": "Dark Ritual"
   },
-  "challenge1_bronze": {
-    "description": "Bronze",
-    "value": 0
+  {
+    "name": "challenge1_bronze",
+    "defaultvalue": 0,
+    "displayName": "Bronze"
   },
-  "challenge1_silver": {
-    "description": "Silver",
-    "value": 0
+  {
+    "name": "challenge1_silver",
+    "defaultvalue": 0,
+    "displayName": "Silver"
   },
-  "challenge1_gold": {
-    "description": "Gold",
-    "value": 0
+  {
+    "name": "challenge1_gold",
+    "defaultvalue": 0,
+    "displayName": "Gold"
   },
-  "challenge2_bronze": {
-    "description": "Challenge 2 Bronze",
-    "value": 0
+  {
+    "name": "challenge2_bronze",
+    "defaultvalue": 0,
+    "displayName": "Challenge 2 Bronze"
   },
-  "challenge2_silver": {
-    "description": "Challenge 2 Silver",
-    "value": 0
+  {
+    "name": "challenge2_silver",
+    "defaultvalue": 0,
+    "displayName": "Challenge 2 Silver"
   },
-  "challenge2_gold": {
-    "description": "Challenge 2 Gold",
-    "value": 0
+  {
+    "name": "challenge2_gold",
+    "defaultvalue": 0,
+    "displayName": "Challenge 2 Gold"
   }
-}
+]

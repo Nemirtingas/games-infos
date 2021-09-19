@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "name": "ACH_HONK_A_CLOWNS_NOSE",
     "defaultvalue": 0,
@@ -628,5 +628,284 @@
     "description": "Spread cheer by helping a free holiday player survive a campaign.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/550/8c808b4d4f3b4abcabe4db393acf962f58243cbe.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/550/51ce55eee8954b91bb30f6a26ae4512908c574ea.jpg"
+  },
+  {
+    "name": "ACH_SURVIVAL_BRONZE_MEDAL",
+    "defaultvalue": 0,
+    "displayName": "GETTING STARTED",
+    "hidden": 0,
+    "description": "Earn a bronze medal on any official Survival map.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/550/f0339e12c97f999b4a11ac8b266a72ec694bc648.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/550/a7a999f5cb7f46e7b6e5a1f5da45b2ba07642e9c.jpg"
+  },
+  {
+    "name": "ACH_SURVIVAL_SILVER_MEDAL",
+    "defaultvalue": 0,
+    "displayName": "ON OUR WAY",
+    "hidden": 0,
+    "description": "Earn a silver medal on any official survival map.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/550/56741284e51586d6c0f23d84c3c2d6ca9eea76ca.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/550/922e2fd799fcb7029d0dd1d087e18cfab0a3961c.jpg"
+  },
+  {
+    "name": "ACH_SURVIVAL_GOLD_MEDAL",
+    "defaultvalue": 0,
+    "displayName": "THIS IS WHERE THE FUN BEGINS",
+    "hidden": 0,
+    "description": "Earn a gold medal on any official survival map.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/550/cf0e7aa9cd11b30c63cf2e77bd3c333b6ad57af3.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/550/cafabf6f24c0d0ea4c4e11cb3104384f1dbf9c1d.jpg"
+  },
+  {
+    "name": "ACH_SURVIVE_LIGHTHOUSE",
+    "defaultvalue": 0,
+    "displayName": "STILL STANDING",
+    "hidden": 0,
+    "description": "Survive The Last Stand campaign on any difficulty.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/550/bf2415f0de2ba3277aea4798c6e0516a25a5cf73.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/550/18c8b3ed140bb6b08cc1eb20fdd36881e0fb610e.jpg"
+  },
+  {
+    "name": "ACH_SURVIVE_LIGHTHOUSE_EXPERT_REALISM",
+    "defaultvalue": 0,
+    "displayName": "THE LAST FRONTIER",
+    "hidden": 0,
+    "description": "Survive The Last Stand campaign on Expert Realism.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/550/d69042205671d80b321fa28e1176c40549b0d449.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/550/1afe2388653842e1439978f753d05c76c1105cb9.jpg"
+  },
+  {
+    "name": "ACH_COLLECT_GOLDEN_CROWBARS",
+    "defaultvalue": 0,
+    "displayName": "GOLDEN FREEMAN",
+    "hidden": 0,
+    "description": "Find the golden crowbars hidden in the Left 4 Dead 1 survival maps.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/550/e9e0201c77f8b9312179cbf85defc01422e64fe7.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/550/88b7f16db20a30832542275169b17e53cf2b27b7.jpg"
+  },
+  {
+    "name": "ACH_REVIVE_WITH_ACTIVE_TANK",
+    "defaultvalue": 0,
+    "displayName": "ELEPHANT IN THE ROOM",
+    "hidden": 0,
+    "description": "Revive an incapacitated teammate while a Tank is nearby.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/550/6b4a0772e54be50ff072b8ff2fc55047221fadda.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/550/d41f3ecd4f056340ca776e65e820ea748df3e02f.jpg"
+  },
+  {
+    "name": "ACH_VS_SPIT_ON_CHARGED_PLAYER",
+    "defaultvalue": 0,
+    "displayName": "I SPIT ON YOUR GRAVE",
+    "hidden": 0,
+    "description": "As the Spitter, spit on a Survivor who is pinned by a Charger.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/550/c6034a9f676b91067abbca0f78822a242c9e41d4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/550/382ae9b917d7b8f159b096a95ec7afdb837f8d8e.jpg"
+  },
+  {
+    "name": "ACH_VS_SPIT_ON_POUNCED_PLAYER",
+    "defaultvalue": 0,
+    "displayName": "ACID BATH",
+    "hidden": 0,
+    "description": "As the Spitter, spit on a Survivor who is pinned by a Hunter.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/550/435ba8ba6a8ae51668069b02d1a00973075fe4a1.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/550/61ac1f1d4b3614931b8b693f5c8a92f1dc49cd46.jpg"
+  },
+  {
+    "name": "ACH_VS_SPIT_ON_GAS_CANS",
+    "defaultvalue": 0,
+    "displayName": "SPITFIRE",
+    "hidden": 0,
+    "description": "Destroy 20 gascans as the Spitter.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/550/c2681d4cf9bb15f09cae038fe2876f4f2ecedabd.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/550/36ed626b2fc17ef0684aacbe384bf0cb9b9e2bb3.jpg"
+  },
+  {
+    "name": "ACH_VS_CHARGER_INSTANT_KILL",
+    "defaultvalue": 0,
+    "displayName": "FLIGHT DECK",
+    "hidden": 0,
+    "description": "Instantly kill a Survivor as the Charger.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/550/2bea7e8743dcf3fc345a3522c031549f008325f3.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/550/11a78d271f87a5547bf4a066dd79b1cee0666950.jpg"
+  },
+  {
+    "name": "ACH_VS_BILE_PLAYER_NO_LINE_OF_SIGHT",
+    "defaultvalue": 0,
+    "displayName": "FAT NINJA",
+    "hidden": 0,
+    "description": "As the Boomer, vomit on a Survivor without having direct line of sight with them.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/550/7e1a8082ab418855460ff339c2638c368bbea5ec.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/550/0bb5086eab6aca60ef02324d369ed37477e3159a.jpg"
+  },
+  {
+    "name": "ACH_RESCUE_X_PLAYERS_TOGETHER",
+    "defaultvalue": 0,
+    "displayName": "THREE’S A CROWD",
+    "hidden": 0,
+    "description": "Rescue three Survivors from a single rescue closet.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/550/32271a1d1d16c93b15a925a4c28e9ec8a6c788eb.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/550/a5da96eadf5538d65e2d79137e77e174f1e8ba28.jpg"
+  },
+  {
+    "name": "ACH_FREE_SELF_FROM_SMOKER_WITH_MELEE",
+    "defaultvalue": 0,
+    "displayName": "LICKETY-SPLIT",
+    "hidden": 0,
+    "description": "With a sharp melee weapon, cut a Smoker's tongue before he ensnares you.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/550/305f1bc2df98765cd6c6cdf925f201620104d3f6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/550/0be073a9fee4fcc8cc62f5fc153ff15738571be7.jpg"
+  },
+  {
+    "name": "ACH_KILL_LEAPING_HUNTER_WITH_SHOTGUN",
+    "defaultvalue": 0,
+    "displayName": "GET SKEETED ON",
+    "hidden": 0,
+    "description": "Kill a pouncing Hunter with a shotgun.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/550/1ab630f092e5f6a8ed79612156efded7bcf6080a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/550/6161ecba6f9911a4294542b0b70ea9b257448214.jpg"
+  },
+  {
+    "name": "ACH_DESTROY_TANK_ROCK",
+    "defaultvalue": 0,
+    "displayName": "ROCKY HORROR PICTURE THROW",
+    "hidden": 0,
+    "description": "Destroy a Tank's rock in mid-air.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/550/b39ab2440f7a11f066bdcc443ae4bc1b42ef9c15.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/550/01ecdccc2cb06b99c2319ec44f13b42bb77fe5a3.jpg"
+  },
+  {
+    "name": "ACH_ONE_SHOT_KILL_WITCH_BRIDE",
+    "defaultvalue": 0,
+    "displayName": "SHOTGUN WEDDING",
+    "hidden": 0,
+    "description": "Kill the Witch bride with a single shotgun blast on expert difficulty.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/550/7fc5e700d7690451bfdbf09d19856527ad9810a6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/550/925c1a7903eb6d2b4021edd16de7d14172fda0e9.jpg"
+  },
+  {
+    "name": "ACH_CAUSE_X_POUNCE_DAMAGE",
+    "defaultvalue": 0,
+    "displayName": "ONE HIT WONDER",
+    "hidden": 0,
+    "description": "As the Hunter, land a 25 damage pounce.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/550/87bde413c48f59e114d012a0cf39e11c0615d157.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/550/8a49c7c174079cee72b5ad1f390fcaf890f71394.jpg"
+  },
+  {
+    "name": "ACH_KILL_X_JOCKEYS_WITH_MELEE",
+    "defaultvalue": 0,
+    "displayName": "PURE SATISFACTION",
+    "hidden": 0,
+    "description": "Kill 20 Jockeys with the shovel or pitchfork.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/550/530d0aa0c3e7c9f777b50abfb0eb3b4c07b06f51.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/550/68207eccf5d4a9525aaa8f9c05aa6e77dad96c40.jpg"
+  },
+  {
+    "name": "ACH_SURVIVAL_VERSUS_X_MINUTES",
+    "defaultvalue": 0,
+    "displayName": "THE BIG TEN",
+    "hidden": 0,
+    "description": "Survive for 10 minutes on any official map in Versus Survival.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/550/ac2dcf5137da33a2fdf2ccfc1a0e563533de7412.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/550/74f4e88e469fc821c1f7e848f2c5027fb0369fac.jpg"
+  },
+  {
+    "name": "ACH_KILL_X_INFECTED_LIFETIME",
+    "defaultvalue": 0,
+    "displayName": "Z-GENOCIDEST 2: EPISODE 2",
+    "hidden": 0,
+    "description": "Kill 53,599 infected. You made sure the dead won't rise anymore!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/550/4984fe3bafdbcf5daf26f897b35e96d354941e88.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/550/1d04a88cdc2b6127e61fe8e9d5c9003b93b800b0.jpg"
+  },
+  {
+    "name": "ACH_ESCAPE_MALL_FINALE_NO_TANKS",
+    "defaultvalue": 0,
+    "displayName": "POLE POSITION",
+    "hidden": 0,
+    "description": "Escape Liberty Mall's Atrium before the first Tank appears",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/550/738f82751732e27d61300352b7c9b7adda3314e1.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/550/15e1ea2a7c93d0ff33c50e3c7b96b9b20f509406.jpg"
+  },
+  {
+    "name": "ACH_FIND_LIGHTHOUSE_HIDDEN_ROOM",
+    "defaultvalue": 0,
+    "displayName": "HOUSEHOLD NAMES",
+    "hidden": 0,
+    "description": "Discover the hidden room in the Last Stand campaign",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/550/f383d6098a734cfb4925a6146e7d31e21c121695.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/550/1ecf194116d97fc4a62237a97a4a63b6459b50e9.jpg"
+  },
+  {
+    "name": "ACH_EARN_ALL_BRONZE_MEDALS",
+    "defaultvalue": 0,
+    "displayName": "A LITTLE HACK AND SLASH",
+    "hidden": 0,
+    "description": "Earn a bronze medal on every official survival map",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/550/f7800808b24e644ff2f409b2fbbf36e2a61ef006.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/550/2781856e3a5b64a75d352b21aae525c74ff5e154.jpg"
+  },
+  {
+    "name": "ACH_EARN_ALL_SILVER_MEDALS",
+    "defaultvalue": 0,
+    "displayName": "LIKE LAMBS TO THE SLAUGHTER",
+    "hidden": 0,
+    "description": "Earn a silver medal on every official survival map.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/550/b3a178b85a09929e9b7dec4ec97851a8eb3cabfa.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/550/b77ed613ec89d5e1876c676af5a702e4cd131e73.jpg"
+  },
+  {
+    "name": "ACH_EARN_ALL_GOLD_MEDALS",
+    "defaultvalue": 0,
+    "displayName": "KILLING SPREE",
+    "hidden": 0,
+    "description": "Earn a gold medal on every official survival map.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/550/dd25c8ba9066a753b79d77e8c2d75f74fdfb0f93.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/550/3fce00be55ee795222f685a6fbee817d905ce960.jpg"
+  },
+  {
+    "name": "ACH_SURVIVAL_X_MINUTES",
+    "defaultvalue": 0,
+    "displayName": "SUPREME SURVIVALIST",
+    "hidden": 0,
+    "description": "Survive for 30 minutes on any official survival map.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/550/5dec6cca8847dbf4dd7293318649b18eccb178b1.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/550/6909181b4b82886de3888529e303ebedaaa871ce.jpg"
+  },
+  {
+    "name": "ACH_KILL_WITCH_MELEE_ONLY",
+    "defaultvalue": 0,
+    "displayName": "NEW HAIRCUT",
+    "hidden": 0,
+    "description": "Kill a Witch using only a sharp melee weapon, without anyone getting incapacitated or killed.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/550/1e0f242c55c433931fbfa747d2d390fec3f0d6da.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/550/e720e32c3454cf2259f3aa4c9a54109438d28ba4.jpg"
+  },
+  {
+    "name": "ACH_CONCERT_FINALE_DONT_LEAVE_STAGE",
+    "defaultvalue": 0,
+    "displayName": "THE MAIN ATTRACTION",
+    "hidden": 0,
+    "description": "On the concert finale, survive until the helicopter arrives without leaving the stage",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/550/a1dd8265c17bce91bcd50f8e1de3a464f7c12cc4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/550/f87e5d53c8cd96b65ef44e2f83c74c21504112ea.jpg"
+  },
+  {
+    "name": "ACH_LAST_STAND_TIMED",
+    "defaultvalue": 0,
+    "displayName": "THE LAST DASH",
+    "hidden": 0,
+    "description": "Complete The Last Stand campaign in 13 minutes or less, without any Survivors dying.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/550/17de9d8b6dcf3d897dfa534e4162129eb3fe55fd.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/550/d5dd14619fba41273b8eeddabc308b00caa47bdc.jpg"
+  },
+  {
+    "name": "GLOBAL_GNOME_ALONE",
+    "defaultvalue": 0,
+    "displayName": "GNOME ALONE",
+    "hidden": 0,
+    "description": "If you are reading this achievement, Gabe Newell has successfully launched Gnome Chompski into space.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/550/81522571f3f42048be3e9985a05f7206f7d35e5e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/550/4f56a3e9550c8097c51fa3e55daa4628bbb79a2d.jpg"
   }
 ]

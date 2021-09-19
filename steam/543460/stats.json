@@ -1,298 +1,372 @@
-﻿{
-  "Case3Complete": {
-    "description": "Case3Complete",
-    "value": 0
-  },
-  "SpendSkillPoint": {
-    "description": "",
-    "value": 0
-  },
-  "AllAboutthePoints": {
-    "description": "AllAboutthePoints",
-    "value": 0
-  },
-  "BareknuckleBoxing": {
-    "description": "BareknuckleBoxing",
-    "value": 0
-  },
-  "BusyDay": {
-    "description": "BusyDay",
-    "value": 0
-  },
-  "ComboCount": {
-    "description": "ComboCount",
-    "value": 0
-  },
-  "CombatReady": {
-    "description": "CombatReady",
-    "value": 0
-  },
-  "Craftsman": {
-    "description": "Craftsman",
-    "value": 0
-  },
-  "Case1Complete": {
-    "description": "Case1Complete",
-    "value": 0
-  },
-  "Elementary": {
-    "description": "Elementary",
-    "value": 0
-  },
-  "Case6Complete": {
-    "description": "Case6Complete",
-    "value": 0
-  },
-  "PhotoPercent": {
-    "description": "PhotoPercent",
-    "value": 0
-  },
-  "FamilyPhoto": {
-    "description": "FamilyPhoto",
-    "value": 0
-  },
-  "ClothingEquiped": {
-    "description": "ClothingEquiped",
-    "value": 0
-  },
-  "TrialsComplete": {
-    "description": "TrialsComplete",
-    "value": 0
-  },
-  "Hangary": {
-    "description": "Hangary",
-    "value": 0
-  },
-  "ScrapSpent": {
-    "description": "ScrapSpent",
-    "value": 0
-  },
-  "VisitAllLocations": {
-    "description": "VisitAllLocations",
-    "value": 0
-  },
-  "FindAllFrankStatues": {
-    "description": "FindAllFrankStatues",
-    "value": 0
-  },
-  "AllBluePrint": {
-    "description": "AllBluePrint",
-    "value": 0
-  },
-  "Case2Complete": {
-    "description": "Case2Complete",
-    "value": 0
-  },
-  "CollectBlueprints": {
-    "description": "CollectBlueprints",
-    "value": 0
-  },
-  "ZombieKills": {
-    "description": "ZombieKills",
-    "value": 0
-  },
-  "BossKill": {
-    "description": "BossKill",
-    "value": 0
-  },
-  "Case4Complete": {
-    "description": "Case4Complete",
-    "value": 0
-  },
-  "Case5Complete": {
-    "description": "Case5Complete",
-    "value": 0
-  },
-  "JournalismScore": {
-    "description": "JournalismScore",
-    "value": 0
-  },
-  "FullMallSafeHouse": {
-    "description": "FullMallSafeHouse",
-    "value": 0
-  },
-  "MysteriesCompleted": {
-    "description": "MysteriesCompleted",
-    "value": 0
-  },
-  "FortituteSkillSpent": {
-    "description": "FortituteSkillSpent",
-    "value": 0
-  },
-  "BrawlerSkillSpent": {
-    "description": "BrawlerSkillSpent",
-    "value": 0
-  },
-  "ShooterSkillSpent": {
-    "description": "ShooterSkillSpent",
-    "value": 0
-  },
-  "SurvivalSkillSpent": {
-    "description": "SurvivalSkillSpent",
-    "value": 0
-  },
-  "StopHittingYourself": {
-    "description": "StopHittingYourself",
-    "value": 0
-  },
-  "AllTrialsComplete": {
-    "description": "AllTrialsComplete",
-    "value": 0
-  },
-  "Episode1Complete": {
-    "description": "Episode1Complete",
-    "value": 0
-  },
-  "Episode3Complete": {
-    "description": "Episode3Complete",
-    "value": 0
-  },
-  "Episode4Complete": {
-    "description": "Episode4Complete",
-    "value": 0
-  },
-  "Episode2Complete": {
-    "description": "Episode2Complete",
-    "value": 0
-  },
-  "ComboWeaponCreates": {
-    "description": "ComboWeaponCreates",
-    "value": 0
-  },
-  "UniqueComboWeaponCreates": {
-    "description": "UniqueComboWeaponCreates",
-    "value": 0
-  },
-  "Case0Complete": {
-    "description": "Case0Complete",
-    "value": 0
-  },
-  "CreateComboVehicles": {
-    "description": "CreateComboVehicles",
-    "value": 0
-  },
-  "CreateExoPowerUps": {
-    "description": "CreateExoPowerUps",
-    "value": 0
-  },
-  "DifficultyComplete": {
-    "description": "DifficultyComplete",
-    "value": 0
-  },
-  "PrincessWaspsCollected": {
-    "description": "PrincessWaspsCollected",
-    "value": 0
-  },
-  "FeastHealthGained": {
-    "description": "FeastHealthGained",
-    "value": 0
-  },
-  "EvoWaspsCollected": {
-    "description": "EvoWaspsCollected",
-    "value": 0
-  },
-  "BrainJarsCollected": {
-    "description": "BrainJarsCollected",
-    "value": 0
-  },
-  "TaintedZombrexCollected": {
-    "description": "TaintedZombrexCollected",
-    "value": 0
-  },
-  "BarnabyResearchNotesCollected": {
-    "description": "BarnabyResearchNotesCollected",
-    "value": 0
-  },
-  "OrganCoolersCollected": {
-    "description": "OrganCoolersCollected",
-    "value": 0
-  },
-  "PortableDetectionDevicesCollected": {
-    "description": "PortableDetectionDevicesCollected",
-    "value": 0
-  },
-  "NumHolesPlayed": {
-    "description": "NumHolesPlayed",
-    "value": 0
-  },
-  "NumZombiesKilledInOneShot": {
-    "description": "NumZombiesKilledInOneShot",
-    "value": 0
-  },
-  "NumZombiesKilledOnOneCourse": {
-    "description": "NumZombiesKilledOnOneCourse",
-    "value": 0
-  },
-  "NumClubTypesUnlocked": {
-    "description": "NumClubTypesUnlocked",
-    "value": 0
-  },
-  "NumCosmeticItemsUnlocked": {
-    "description": "NumCosmeticItemsUnlocked",
-    "value": 0
-  },
-  "NumUniqueBallBustersUsed": {
-    "description": "NumUniqueBallBustersUsed",
-    "value": 0
-  },
-  "TotalGolfZeniEarned": {
-    "description": "TotalGolfZeniEarned",
-    "value": 0
-  },
-  "HeroesCostumesUnlocked": {
-    "description": "HeroesCostumesUnlocked",
-    "value": 0
-  },
-  "HeroesChallengesCompleted": {
-    "description": "HeroesChallengesCompleted",
-    "value": 0
-  },
-  "HeroesCarsDestroyedInStreetFighterCostume": {
-    "description": "HeroesCarsDestroyedInStreetFighterCostume",
-    "value": 0
-  },
-  "HeroesPizzasEatenAsDante": {
-    "description": "HeroesPizzasEatenAsDante",
-    "value": 0
-  },
-  "HeroesZombiesStunnedAsClassicFrank": {
-    "description": "HeroesZombiesStunnedAsClassicFrank",
-    "value": 0
-  },
-  "HeroesHumansFeastedOnAsZombieFrank": {
-    "description": "HeroesHumansFeastedOnAsZombieFrank",
-    "value": 0
-  },
-  "HeroesZombiesImpaledWithArtursLance": {
-    "description": "HeroesZombiesImpaledWithArtursLance",
-    "value": 0
-  },
-  "HeroesKillsWithAzumasRagingDemon": {
-    "description": "HeroesKillsWithAzumasRagingDemon",
-    "value": 0
-  },
-  "HeroesHeadshotKillsAsJill": {
-    "description": "HeroesHeadshotKillsAsJill",
-    "value": 0
-  },
-  "HeroesKillsWithRyusHurricaneKick": {
-    "description": "HeroesKillsWithRyusHurricaneKick",
-    "value": 0
-  },
-  "HeroesKillsWithMegaManMegaBuster": {
-    "description": "HeroesKillsWithMegaManMegaBuster",
-    "value": 0
-  },
-  "HeroesScrapEarnedAsMBison": {
-    "description": "HeroesScrapEarnedAsMBison",
-    "value": 0
-  },
-  "HeroesKillsUsingZangiefsCycloneLariat": {
-    "description": "HeroesKillsUsingZangiefsCycloneLariat",
-    "value": 0
-  },
-  "HeroesTreasuresFound": {
-    "description": "HeroesTreasuresFound",
-    "value": 0
+[
+  {
+    "name": "Case3Complete",
+    "defaultvalue": 0,
+    "displayName": "Case3Complete"
+  },
+  {
+    "name": "SpendSkillPoint",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "AllAboutthePoints",
+    "defaultvalue": 0,
+    "displayName": "AllAboutthePoints"
+  },
+  {
+    "name": "BareknuckleBoxing",
+    "defaultvalue": 0,
+    "displayName": "BareknuckleBoxing"
+  },
+  {
+    "name": "BusyDay",
+    "defaultvalue": 0,
+    "displayName": "BusyDay"
+  },
+  {
+    "name": "ComboCount",
+    "defaultvalue": 0,
+    "displayName": "ComboCount"
+  },
+  {
+    "name": "CombatReady",
+    "defaultvalue": 0,
+    "displayName": "CombatReady"
+  },
+  {
+    "name": "Craftsman",
+    "defaultvalue": 0,
+    "displayName": "Craftsman"
+  },
+  {
+    "name": "Case1Complete",
+    "defaultvalue": 0,
+    "displayName": "Case1Complete"
+  },
+  {
+    "name": "Elementary",
+    "defaultvalue": 0,
+    "displayName": "Elementary"
+  },
+  {
+    "name": "Case6Complete",
+    "defaultvalue": 0,
+    "displayName": "Case6Complete"
+  },
+  {
+    "name": "PhotoPercent",
+    "defaultvalue": 0,
+    "displayName": "PhotoPercent"
+  },
+  {
+    "name": "FamilyPhoto",
+    "defaultvalue": 0,
+    "displayName": "FamilyPhoto"
+  },
+  {
+    "name": "ClothingEquiped",
+    "defaultvalue": 0,
+    "displayName": "ClothingEquiped"
+  },
+  {
+    "name": "TrialsComplete",
+    "defaultvalue": 0,
+    "displayName": "TrialsComplete"
+  },
+  {
+    "name": "Hangary",
+    "defaultvalue": 0,
+    "displayName": "Hangary"
+  },
+  {
+    "name": "ScrapSpent",
+    "defaultvalue": 0,
+    "displayName": "ScrapSpent"
+  },
+  {
+    "name": "VisitAllLocations",
+    "defaultvalue": 0,
+    "displayName": "VisitAllLocations"
+  },
+  {
+    "name": "FindAllFrankStatues",
+    "defaultvalue": 0,
+    "displayName": "FindAllFrankStatues"
+  },
+  {
+    "name": "AllBluePrint",
+    "defaultvalue": 0,
+    "displayName": "AllBluePrint"
+  },
+  {
+    "name": "Case2Complete",
+    "defaultvalue": 0,
+    "displayName": "Case2Complete"
+  },
+  {
+    "name": "CollectBlueprints",
+    "defaultvalue": 0,
+    "displayName": "CollectBlueprints"
+  },
+  {
+    "name": "ZombieKills",
+    "defaultvalue": 0,
+    "displayName": "ZombieKills"
+  },
+  {
+    "name": "BossKill",
+    "defaultvalue": 0,
+    "displayName": "BossKill"
+  },
+  {
+    "name": "Case4Complete",
+    "defaultvalue": 0,
+    "displayName": "Case4Complete"
+  },
+  {
+    "name": "Case5Complete",
+    "defaultvalue": 0,
+    "displayName": "Case5Complete"
+  },
+  {
+    "name": "JournalismScore",
+    "defaultvalue": 0,
+    "displayName": "JournalismScore"
+  },
+  {
+    "name": "FullMallSafeHouse",
+    "defaultvalue": 0,
+    "displayName": "FullMallSafeHouse"
+  },
+  {
+    "name": "MysteriesCompleted",
+    "defaultvalue": 0,
+    "displayName": "MysteriesCompleted"
+  },
+  {
+    "name": "FortituteSkillSpent",
+    "defaultvalue": 0,
+    "displayName": "FortituteSkillSpent"
+  },
+  {
+    "name": "BrawlerSkillSpent",
+    "defaultvalue": 0,
+    "displayName": "BrawlerSkillSpent"
+  },
+  {
+    "name": "ShooterSkillSpent",
+    "defaultvalue": 0,
+    "displayName": "ShooterSkillSpent"
+  },
+  {
+    "name": "SurvivalSkillSpent",
+    "defaultvalue": 0,
+    "displayName": "SurvivalSkillSpent"
+  },
+  {
+    "name": "StopHittingYourself",
+    "defaultvalue": 0,
+    "displayName": "StopHittingYourself"
+  },
+  {
+    "name": "AllTrialsComplete",
+    "defaultvalue": 0,
+    "displayName": "AllTrialsComplete"
+  },
+  {
+    "name": "Episode1Complete",
+    "defaultvalue": 0,
+    "displayName": "Episode1Complete"
+  },
+  {
+    "name": "Episode3Complete",
+    "defaultvalue": 0,
+    "displayName": "Episode3Complete"
+  },
+  {
+    "name": "Episode4Complete",
+    "defaultvalue": 0,
+    "displayName": "Episode4Complete"
+  },
+  {
+    "name": "Episode2Complete",
+    "defaultvalue": 0,
+    "displayName": "Episode2Complete"
+  },
+  {
+    "name": "ComboWeaponCreates",
+    "defaultvalue": 0,
+    "displayName": "ComboWeaponCreates"
+  },
+  {
+    "name": "UniqueComboWeaponCreates",
+    "defaultvalue": 0,
+    "displayName": "UniqueComboWeaponCreates"
+  },
+  {
+    "name": "Case0Complete",
+    "defaultvalue": 0,
+    "displayName": "Case0Complete"
+  },
+  {
+    "name": "CreateComboVehicles",
+    "defaultvalue": 0,
+    "displayName": "CreateComboVehicles"
+  },
+  {
+    "name": "CreateExoPowerUps",
+    "defaultvalue": 0,
+    "displayName": "CreateExoPowerUps"
+  },
+  {
+    "name": "DifficultyComplete",
+    "defaultvalue": 0,
+    "displayName": "DifficultyComplete"
+  },
+  {
+    "name": "PrincessWaspsCollected",
+    "defaultvalue": 0,
+    "displayName": "PrincessWaspsCollected"
+  },
+  {
+    "name": "FeastHealthGained",
+    "defaultvalue": 0,
+    "displayName": "FeastHealthGained"
+  },
+  {
+    "name": "EvoWaspsCollected",
+    "defaultvalue": 0,
+    "displayName": "EvoWaspsCollected"
+  },
+  {
+    "name": "BrainJarsCollected",
+    "defaultvalue": 0,
+    "displayName": "BrainJarsCollected"
+  },
+  {
+    "name": "TaintedZombrexCollected",
+    "defaultvalue": 0,
+    "displayName": "TaintedZombrexCollected"
+  },
+  {
+    "name": "BarnabyResearchNotesCollected",
+    "defaultvalue": 0,
+    "displayName": "BarnabyResearchNotesCollected"
+  },
+  {
+    "name": "OrganCoolersCollected",
+    "defaultvalue": 0,
+    "displayName": "OrganCoolersCollected"
+  },
+  {
+    "name": "PortableDetectionDevicesCollected",
+    "defaultvalue": 0,
+    "displayName": "PortableDetectionDevicesCollected"
+  },
+  {
+    "name": "NumHolesPlayed",
+    "defaultvalue": 0,
+    "displayName": "NumHolesPlayed"
+  },
+  {
+    "name": "NumZombiesKilledInOneShot",
+    "defaultvalue": 0,
+    "displayName": "NumZombiesKilledInOneShot"
+  },
+  {
+    "name": "NumZombiesKilledOnOneCourse",
+    "defaultvalue": 0,
+    "displayName": "NumZombiesKilledOnOneCourse"
+  },
+  {
+    "name": "NumClubTypesUnlocked",
+    "defaultvalue": 0,
+    "displayName": "NumClubTypesUnlocked"
+  },
+  {
+    "name": "NumCosmeticItemsUnlocked",
+    "defaultvalue": 0,
+    "displayName": "NumCosmeticItemsUnlocked"
+  },
+  {
+    "name": "NumUniqueBallBustersUsed",
+    "defaultvalue": 0,
+    "displayName": "NumUniqueBallBustersUsed"
+  },
+  {
+    "name": "TotalGolfZeniEarned",
+    "defaultvalue": 0,
+    "displayName": "TotalGolfZeniEarned"
+  },
+  {
+    "name": "HeroesCostumesUnlocked",
+    "defaultvalue": 0,
+    "displayName": "HeroesCostumesUnlocked"
+  },
+  {
+    "name": "HeroesChallengesCompleted",
+    "defaultvalue": 0,
+    "displayName": "HeroesChallengesCompleted"
+  },
+  {
+    "name": "HeroesCarsDestroyedInStreetFighterCostume",
+    "defaultvalue": 0,
+    "displayName": "HeroesCarsDestroyedInStreetFighterCostume"
+  },
+  {
+    "name": "HeroesPizzasEatenAsDante",
+    "defaultvalue": 0,
+    "displayName": "HeroesPizzasEatenAsDante"
+  },
+  {
+    "name": "HeroesZombiesStunnedAsClassicFrank",
+    "defaultvalue": 0,
+    "displayName": "HeroesZombiesStunnedAsClassicFrank"
+  },
+  {
+    "name": "HeroesHumansFeastedOnAsZombieFrank",
+    "defaultvalue": 0,
+    "displayName": "HeroesHumansFeastedOnAsZombieFrank"
+  },
+  {
+    "name": "HeroesZombiesImpaledWithArtursLance",
+    "defaultvalue": 0,
+    "displayName": "HeroesZombiesImpaledWithArtursLance"
+  },
+  {
+    "name": "HeroesKillsWithAzumasRagingDemon",
+    "defaultvalue": 0,
+    "displayName": "HeroesKillsWithAzumasRagingDemon"
+  },
+  {
+    "name": "HeroesHeadshotKillsAsJill",
+    "defaultvalue": 0,
+    "displayName": "HeroesHeadshotKillsAsJill"
+  },
+  {
+    "name": "HeroesKillsWithRyusHurricaneKick",
+    "defaultvalue": 0,
+    "displayName": "HeroesKillsWithRyusHurricaneKick"
+  },
+  {
+    "name": "HeroesKillsWithMegaManMegaBuster",
+    "defaultvalue": 0,
+    "displayName": "HeroesKillsWithMegaManMegaBuster"
+  },
+  {
+    "name": "HeroesScrapEarnedAsMBison",
+    "defaultvalue": 0,
+    "displayName": "HeroesScrapEarnedAsMBison"
+  },
+  {
+    "name": "HeroesKillsUsingZangiefsCycloneLariat",
+    "defaultvalue": 0,
+    "displayName": "HeroesKillsUsingZangiefsCycloneLariat"
+  },
+  {
+    "name": "HeroesTreasuresFound",
+    "defaultvalue": 0,
+    "displayName": "HeroesTreasuresFound"
   }
-}
+]

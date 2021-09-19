@@ -1,70 +1,87 @@
-﻿{
-  "UpdatedAvatar_Stat": {
-    "description": "Times Updated Avatar",
-    "value": 0
+[
+  {
+    "name": "UpdatedAvatar_Stat",
+    "defaultvalue": 0,
+    "displayName": "Times Updated Avatar"
   },
-  "ChallengesCompleted_Stat": {
-    "description": "Challenges Completed",
-    "value": 0
+  {
+    "name": "ChallengesCompleted_Stat",
+    "defaultvalue": 0,
+    "displayName": "Challenges Completed"
   },
-  "MaxParkRating_Stat": {
-    "description": "Highest Park Rating",
-    "value": 0
+  {
+    "name": "MaxParkRating_Stat",
+    "defaultvalue": 0,
+    "displayName": "Highest Park Rating"
   },
-  "LargestLoanRepayed_Stat": {
-    "description": "Largest Loan Repayed",
-    "value": 0
+  {
+    "name": "LargestLoanRepayed_Stat",
+    "defaultvalue": 0,
+    "displayName": "Largest Loan Repayed"
   },
-  "HighestMonthlyProfit_Stat_v2": {
-    "description": "Highest Monthly Profit",
-    "value": 0
+  {
+    "name": "HighestMonthlyProfit_Stat_v2",
+    "defaultvalue": 0,
+    "displayName": "Highest Monthly Profit"
   },
-  "HighestMarkettingSpend_Stat_v2": {
-    "description": "Highest Marketting Spend",
-    "value": 0
+  {
+    "name": "HighestMarkettingSpend_Stat_v2",
+    "defaultvalue": 0,
+    "displayName": "Highest Marketting Spend"
   },
-  "BronzeStars_Stat": {
-    "description": "Bronze Stars Earned",
-    "value": 0
+  {
+    "name": "BronzeStars_Stat",
+    "defaultvalue": 0,
+    "displayName": "Bronze Stars Earned"
   },
-  "SilverStars_Stat": {
-    "description": "Silver Stars Earned",
-    "value": 0
+  {
+    "name": "SilverStars_Stat",
+    "defaultvalue": 0,
+    "displayName": "Silver Stars Earned"
   },
-  "GoldStars_Stat": {
-    "description": "Gold Stars Earned",
-    "value": 0
+  {
+    "name": "GoldStars_Stat",
+    "defaultvalue": 0,
+    "displayName": "Gold Stars Earned"
   },
-  "HighestStaffMemberLevel_Stat": {
-    "description": "Highest Level Staff Member",
-    "value": 0
+  {
+    "name": "HighestStaffMemberLevel_Stat",
+    "defaultvalue": 0,
+    "displayName": "Highest Level Staff Member"
   },
-  "LargestCoasterCrash_Stat": {
-    "description": "Most Guest in a Coaster Crash",
-    "value": 0
+  {
+    "name": "LargestCoasterCrash_Stat",
+    "defaultvalue": 0,
+    "displayName": "Most Guest in a Coaster Crash"
   },
-  "ResearchProjectsCompleted_Stat": {
-    "description": "Research Projects Completed",
-    "value": 0
+  {
+    "name": "ResearchProjectsCompleted_Stat",
+    "defaultvalue": 0,
+    "displayName": "Research Projects Completed"
   },
-  "CoasterFastest_Stat": {
-    "description": "Fastest Coaster",
-    "value": 0
+  {
+    "name": "CoasterFastest_Stat",
+    "defaultvalue": 0,
+    "displayName": "Fastest Coaster"
   },
-  "CoasterDrop_Stat": {
-    "description": "Largest Coaster Drop",
-    "value": 0
+  {
+    "name": "CoasterDrop_Stat",
+    "defaultvalue": 0,
+    "displayName": "Largest Coaster Drop"
   },
-  "CoasterLength_Stat": {
-    "description": "Longest Coaster",
-    "value": 0
+  {
+    "name": "CoasterLength_Stat",
+    "defaultvalue": 0,
+    "displayName": "Longest Coaster"
   },
-  "CoasterAirtimeMoments_Stat": {
-    "description": "Most Airtime Moments on a Coaster",
-    "value": 0
+  {
+    "name": "CoasterAirtimeMoments_Stat",
+    "defaultvalue": 0,
+    "displayName": "Most Airtime Moments on a Coaster"
   },
-  "UserStatsReset": {
-    "description": "User Stats Version",
-    "value": 0
+  {
+    "name": "UserStatsReset",
+    "defaultvalue": 0,
+    "displayName": "User Stats Version"
   }
-}
+]

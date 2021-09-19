@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "name": "GOAL_ID_92",
     "defaultvalue": 0,
@@ -1021,7 +1021,7 @@
     "defaultvalue": 0,
     "displayName": "More POWER",
     "hidden": 0,
-    "description": "As Xbalanque get a fully stanked passive before the fifteen minute mark in a game.",
+    "description": "As Xbalanque get a fully stacked passive before the fifteen minute mark in a game.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/386360/9d8c89e53762331cd849e51d95f64ce0fff8b590.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/386360/6b2deaf92a76ced970230e97bde287ecdd7fc734.jpg"
   },
@@ -1597,7 +1597,7 @@
     "defaultvalue": 0,
     "displayName": "Silenced",
     "hidden": 0,
-    "description": "As Isis silence fifteen enemy gods in a single match.",
+    "description": "As Eset silence fifteen enemy gods in a single match.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/386360/c919d0b35dab34758e565bb65c4b11a8559faba9.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/386360/c78a9a8946a02ced3bd482bcd4448529618f2251.jpg"
   },
@@ -1606,7 +1606,7 @@
     "defaultvalue": 0,
     "displayName": "Stay in the Circle",
     "hidden": 0,
-    "description": "As Isis heal three or more allies and kill an enemy using Circle of Protection.",
+    "description": "As Eset heal three or more allies and kill an enemy using Circle of Protection.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/386360/43c9b051625f465d15983c9603dbaff35934233e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/386360/6212643daaf945195060c045e686d32ddd3c3a0a.jpg"
   },
@@ -2326,7 +2326,7 @@
     "defaultvalue": 0,
     "displayName": "Infused with Power",
     "hidden": 0,
-    "description": "NEW_ACHIEVEMENT_DESC_9_5As Merlin, successfully hit Enemy gods 15 times with a basic attack while Overload is active.",
+    "description": "As Merlin, successfully hit Enemy gods 15 times with a basic attack while Overload is active.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/386360/83af79821fe34905d935b33bcd0e672bc1a350a6.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/386360/4af51d642b1123f06646aec2ec748bb598a8cf44.jpg"
   },
@@ -2527,5 +2527,95 @@
     "description": "As Tsukuyomi, kill an enemy using the Caltrop damage from Silver Moon Caltrops.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/386360/526985340802203c2b1dfb1a0af495d7e0649974.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/386360/f0581772106b09e4cf12d851fe870fdb6b424184.jpg"
+  },
+  {
+    "name": "Goal_ID_2767",
+    "defaultvalue": 0,
+    "displayName": "Fortuitous Investment",
+    "hidden": 0,
+    "description": "As Danzaburou, fill up all 4 Dubious Savings money pouches in a single match.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/386360/dc43905b130566df57325486ee47f7d6096a0271.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/386360/20356b020777a59eb3812c5ecb8505f436f31c89.jpg"
+  },
+  {
+    "name": "Goal_ID_2766",
+    "defaultvalue": 0,
+    "displayName": "The Best Sake Merchant!",
+    "hidden": 0,
+    "description": "As Danzaburou, have 3 enemies taunted at the same time by Alluring Spirits.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/386360/bcd7069617e8f6688734534af92d05cb933b509d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/386360/2029303a9ae99bd0e44cae9211339637802e4f7b.jpg"
+  },
+  {
+    "name": "Goal_ID_2806",
+    "defaultvalue": 0,
+    "displayName": "Primordial Queen",
+    "hidden": 0,
+    "description": "As Tiamat, defeat two enemies in each of her stances in a single match",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/386360/5caec9129810db2d37fac7d6656659ee49087295.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/386360/ee08d854476a9d97b725163bd6883ede8c3b8dcd.jpg"
+  },
+  {
+    "name": "Goal_ID_2807",
+    "defaultvalue": 0,
+    "displayName": "Mother of Monsters",
+    "hidden": 0,
+    "description": "As Tiamat, have each of your creature/pets assist on your player kills in a single match",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/386360/5461ec8ad0441c600c7e18b5b08f705dc6b0bafa.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/386360/52c03f2816590d3ad2e7c0a0c3d8285f6d5cd434.jpg"
+  },
+  {
+    "name": "Goal_ID_2955",
+    "defaultvalue": 0,
+    "displayName": "Dropkick Adventure",
+    "hidden": 0,
+    "description": "As Gilgamesh drop kick the same god into a minion, a god, a wall, and the Winds of Shamash wall in a single match.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/386360/b0ab7bad5139a0e44631a055d084fff80e4f6a30.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/386360/fdd843ee82bcfee2651c6ba409a93281bb9630dd.jpg"
+  },
+  {
+    "name": "Goal_ID_2956",
+    "defaultvalue": 0,
+    "displayName": "Quick Turn-In",
+    "hidden": 0,
+    "description": "As Gilgamesh complete the quest obtained at Level 5 while still Level 5.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/386360/24f6687171ad6294de5fd806065d1e80d4c09d6e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/386360/7bf79ca2160130baea6370d9831cd7cf484b9adc.jpg"
+  },
+  {
+    "name": "Goal_ID_3168",
+    "defaultvalue": 0,
+    "displayName": "Power Devoured",
+    "hidden": 0,
+    "description": "As Morgan Le Fay, consume all five Empowered Blade Marks with a single cast of Consuming Power.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/386360/34d341acd9639673aabc82d48c1cda11b3d6e251.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/386360/9323db5b32956cf7db53fd64f78e6318d48b2a3c.jpg"
+  },
+  {
+    "name": "Goal_ID_3167",
+    "defaultvalue": 0,
+    "displayName": "Strength Drawn From Pain",
+    "hidden": 0,
+    "description": "As Morgan Le Fay, gain all five Empowered Blade Symbols to reach an empowered state five times in a single match.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/386360/05e7f987d26c6f53b0983e85c927d77f61859728.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/386360/8179722200a6390fe5fec9bc4141ff970f82fcbc.jpg"
+  },
+  {
+    "name": "Goal_ID_3226",
+    "defaultvalue": 0,
+    "displayName": "The Monster Inside",
+    "hidden": 0,
+    "description": "As Charybdis, reset your Ultimate two or more times in a single use.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/386360/e1a15bdc42cdccf23622c3bc342aa1cf157d6d67.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/386360/7f626bba6ba27b8c55a79a89c5f8fd814c4e2220.jpg"
+  },
+  {
+    "name": "Goal_ID_3227",
+    "defaultvalue": 0,
+    "displayName": "Drown your Sorrows",
+    "hidden": 0,
+    "description": "As Charybdis, hit 3 enemy gods with a fully charged Capsize in the same fire.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/386360/050aa6563e6d4a5b1a5c04206c3d3241617db83e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/386360/cce54fa192083916d336af40e27150f66260c266.jpg"
   }
 ]

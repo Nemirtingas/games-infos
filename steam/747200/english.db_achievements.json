@@ -139,7 +139,7 @@
     "defaultvalue": 0,
     "displayName": "Destroyer",
     "hidden": 0,
-    "description": "Destroy 100,000 walls or ores",
+    "description": "Destroy 10,000 walls or ores",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/747200/59654f3d08647a416d41cfa99e27f2476276846d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/747200/7fdf238c3a7c15781c90f9dbfdd580207437f0ba.jpg"
   },
@@ -283,9 +283,9 @@
     "defaultvalue": 0,
     "displayName": "Obliging Heart",
     "hidden": 0,
-    "description": "Complete 500 NPC quests",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/747200/6c906ef7fa85b67bbf9a917acefbeabaef085f98.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/747200/caad75810c2425441747ef8e2d9d8e74c911c00f.jpg"
+    "description": "Complete 100 NPC quests",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/747200/9c90ef2e942f7bce0d9c2ee5a9a34939ad4392b3.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/747200/7d05ab0c7bfa6ba2e008da5d78c1604122ca7209.jpg"
   },
   {
     "name": "SteamAchievement1251",
@@ -328,9 +328,9 @@
     "defaultvalue": 0,
     "displayName": "Jinxed",
     "hidden": 0,
-    "description": "Fail 5 times consecutively when repairing equipment",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/747200/790a039c4a4d537a65ecb45acf54b1554d4d4677.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/747200/9eeb1774d1a929a6a65c03f24913eed7756dcf82.jpg"
+    "description": "Fail 3 times consecutively when repairing equipment",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/747200/c76ac6aee17e72830cfc531270bf19a0f15e6a5a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/747200/f9b633c26602f0fa89b5e9e75017b5ed58a50637.jpg"
   },
   {
     "name": "SteamAchievement3001",
@@ -484,5 +484,50 @@
     "description": "Get all [Hunter] Gene Modules",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/747200/0d306073204f298d70c92609e4969c43db3edd69.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/747200/0f72c8eae532b580f2d83803576d5fdbe84125f3.jpg"
+  },
+  {
+    "name": "SteamAchievement3701",
+    "defaultvalue": 0,
+    "displayName": "Soul Jar",
+    "hidden": 0,
+    "description": "Defeat Richard Marko Once",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/747200/460cbec485d5ac2560c3ae1161df264b0e786f62.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/747200/a848298eca5149e9d140223c256649fa559ab259.jpg"
+  },
+  {
+    "name": "SteamAchievement3801",
+    "defaultvalue": 0,
+    "displayName": "Life",
+    "hidden": 0,
+    "description": "Complete The Main Storyline",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/747200/0fc77619e19e3a138628d0e67fedb262ec1d5498.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/747200/147c9a537470e81fbab51fcdcb3ba8ed9cd04e63.jpg"
+  },
+  {
+    "name": "SteamAchievement3901",
+    "defaultvalue": 0,
+    "displayName": "The Truth",
+    "hidden": 0,
+    "description": "Get all the Discoveries",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/747200/366c537cb3f8ef92479ca7b34b59239dd91a49fc.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/747200/bc16182ff45fa3eec06bbf3c42ca634acc1b047b.jpg"
+  },
+  {
+    "name": "SteamAchievement1301",
+    "defaultvalue": 0,
+    "displayName": "Fishing master",
+    "hidden": 0,
+    "description": "Caught all kinds of fish.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/747200/358320b34c183621318e687f575fade58dfaae93.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/747200/72c8f6d2f460134c7cfb7e146d7e51702b50ed86.jpg"
+  },
+  {
+    "name": "SteamAchievement1311",
+    "defaultvalue": 0,
+    "displayName": "Monster",
+    "hidden": 0,
+    "description": "Master of all Skills",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/747200/f0fd8d9d4362322b1c0206fce5fe9ffa21cd3479.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/747200/439b2dcd6aba645318498c9435d3a6794a6c31ab.jpg"
   }
 ]

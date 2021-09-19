@@ -48,5 +48,15 @@
     "name": "total_resources_sold",
     "defaultvalue": 0,
     "displayName": ""
+  },
+  {
+    "name": "artifacts_discovered",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "artifacts_analyzed",
+    "defaultvalue": 0,
+    "displayName": ""
   }
 ]

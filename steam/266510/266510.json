@@ -1,17 +1,19 @@
-﻿{
+{
   "Dlcs": {
     "350460": {
       "Name": "Hand of Fate : Wildcards",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/350460/header.jpg?t=1466746724"
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/350460/header.jpg?t=1466746724",
+      "Type": "dlc"
     },
     "351430": {
-      "Name": "",
-      "ImageUrl": ""
+      "Name": "Hand of Fate Original Soundtrack",
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/351430/header.jpg?t=1581550504",
+      "Type": "music"
     }
   },
   "Name": "Hand of Fate",
   "AppId": "266510",
-  "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/266510/header.jpg?t=1569039313",
+  "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/266510/header.jpg?t=1569039313",
   "Languages": [
     "english",
     "french",

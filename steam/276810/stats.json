@@ -1,98 +1,122 @@
-﻿{
-  "leader_rank_10": {
-    "description": "Leaders Rank 10",
-    "value": 0
+[
+  {
+    "name": "leader_rank_10",
+    "defaultvalue": 0,
+    "displayName": "Leaders Rank 10"
   },
-  "hero_rank_10": {
-    "description": "Heroes Rank 10",
-    "value": 0
+  {
+    "name": "hero_rank_10",
+    "defaultvalue": 0,
+    "displayName": "Heroes Rank 10"
   },
-  "henchmen_rank_10": {
-    "description": "Henchmen Rank 10",
-    "value": 0
+  {
+    "name": "henchmen_rank_10",
+    "defaultvalue": 0,
+    "displayName": "Henchmen Rank 10"
   },
-  "impressive_rank_10": {
-    "description": "Impressive Rank 10",
-    "value": 0
+  {
+    "name": "impressive_rank_10",
+    "defaultvalue": 0,
+    "displayName": "Impressive Rank 10"
   },
-  "shipments": {
-    "description": "Wyrdstone Deliveries",
-    "value": 0
+  {
+    "name": "shipments",
+    "defaultvalue": 0,
+    "displayName": "Wyrdstone Deliveries"
   },
-  "wyrdstone_sell": {
-    "description": "Gold Crowns worth sold from wyrdstones",
-    "value": 0
+  {
+    "name": "wyrdstone_sell",
+    "defaultvalue": 0,
+    "displayName": "Gold Crowns worth sold from wyrdstones"
   },
-  "wyrdstone_gather": {
-    "description": "Wyrdstones gathered in weight",
-    "value": 0
+  {
+    "name": "wyrdstone_gather",
+    "defaultvalue": 0,
+    "displayName": "Wyrdstones gathered in weight"
   },
-  "shop_gold": {
-    "description": "Gold crowns spent at the shop",
-    "value": 0
+  {
+    "name": "shop_gold",
+    "defaultvalue": 0,
+    "displayName": "Gold crowns spent at the shop"
   },
-  "hired_warriors": {
-    "description": "Hired warriors",
-    "value": 0
+  {
+    "name": "hired_warriors",
+    "defaultvalue": 0,
+    "displayName": "Hired warriors"
   },
-  "unlocked_recipes": {
-    "description": "Unlocked Recipies",
-    "value": 0
+  {
+    "name": "unlocked_recipes",
+    "defaultvalue": 0,
+    "displayName": "Unlocked Recipies"
   },
-  "mutations": {
-    "description": "Mutations received",
-    "value": 0
+  {
+    "name": "mutations",
+    "defaultvalue": 0,
+    "displayName": "Mutations received"
   },
-  "opened_chests": {
-    "description": "Opened chests",
-    "value": 0
+  {
+    "name": "opened_chests",
+    "defaultvalue": 0,
+    "displayName": "Opened chests"
   },
-  "stunned_ooas": {
-    "description": "Stunned warriors put of action",
-    "value": 0
+  {
+    "name": "stunned_ooas",
+    "defaultvalue": 0,
+    "displayName": "Stunned warriors put of action"
   },
-  "impressive_ooas": {
-    "description": "Impressive warriors put out of action",
-    "value": 0
+  {
+    "name": "impressive_ooas",
+    "defaultvalue": 0,
+    "displayName": "Impressive warriors put out of action"
   },
-  "loot_enemies": {
-    "description": "Enemies looted",
-    "value": 0
+  {
+    "name": "loot_enemies",
+    "defaultvalue": 0,
+    "displayName": "Enemies looted"
   },
-  "stun_enemies": {
-    "description": "Enemies stunned",
-    "value": 0
+  {
+    "name": "stun_enemies",
+    "defaultvalue": 0,
+    "displayName": "Enemies stunned"
   },
-  "criticals": {
-    "description": "Critical Hits",
-    "value": 0
+  {
+    "name": "criticals",
+    "defaultvalue": 0,
+    "displayName": "Critical Hits"
   },
-  "spells_cast": {
-    "description": "Amount of Spells casted",
-    "value": 0
+  {
+    "name": "spells_cast",
+    "defaultvalue": 0,
+    "displayName": "Amount of Spells casted"
   },
-  "spells_curses": {
-    "description": "Amount of Curses triggered",
-    "value": 0
+  {
+    "name": "spells_curses",
+    "defaultvalue": 0,
+    "displayName": "Amount of Curses triggered"
   },
-  "my_total_ooa": {
-    "description": "Own warriors Out of Action",
-    "value": 0
+  {
+    "name": "my_total_ooa",
+    "defaultvalue": 0,
+    "displayName": "Own warriors Out of Action"
   },
-  "my_total_injuries": {
-    "description": "Own amount of injuries",
-    "value": 0
+  {
+    "name": "my_total_injuries",
+    "defaultvalue": 0,
+    "displayName": "Own amount of injuries"
   },
-  "traps": {
-    "description": "Traps triggered",
-    "value": 0
+  {
+    "name": "traps",
+    "defaultvalue": 0,
+    "displayName": "Traps triggered"
   },
-  "multi_wins": {
-    "description": "Game won in multiplayer",
-    "value": 0
+  {
+    "name": "multi_wins",
+    "defaultvalue": 0,
+    "displayName": "Game won in multiplayer"
   },
-  "multi_play": {
-    "description": "Game played in multiplayer",
-    "value": 0
+  {
+    "name": "multi_play",
+    "defaultvalue": 0,
+    "displayName": "Game played in multiplayer"
   }
-}
+]

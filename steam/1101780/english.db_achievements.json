@@ -128,18 +128,18 @@
   {
     "name": "Middelton_Stores",
     "defaultvalue": 0,
-    "displayName": "Conquer Middelton",
+    "displayName": "Conquer of Middelton",
     "hidden": 0,
-    "description": "End game with all Middelton shops",
+    "description": "Own all shops in the city",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1101780/eb8f83d6d3db5ed46be0e9968b5a04a7615d062f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1101780/5cf14324a99f699838fd949f29bad0f3b7195f3d.jpg"
   },
   {
     "name": "Conctest_goal",
     "defaultvalue": 0,
-    "displayName": "Win 20 competitions",
+    "displayName": "King of the contest ",
     "hidden": 0,
-    "description": "Finish the game by winning 20 competitions",
+    "description": "Win a contest 20 times ",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1101780/dfe191ba7c364aefc3c68ed603cdbd1710602275.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1101780/e0b3556b458097b00183defb622cf8d3ff9f8e66.jpg"
   },
@@ -148,7 +148,7 @@
     "defaultvalue": 0,
     "displayName": "Millionaire",
     "hidden": 0,
-    "description": "Reach 10 times 1 million goal",
+    "description": "Reach your main financial goal ",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1101780/2a232789b802cd0f9a55f82c4800090402a8812b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1101780/164a7d3b0b6a7abce70b03235033f824d80882ea.jpg"
   },
@@ -157,7 +157,7 @@
     "defaultvalue": 0,
     "displayName": "Baking Star!",
     "hidden": 0,
-    "description": "Reach 10 times Prestige goal",
+    "description": "Achieve the main prestige goal ",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1101780/89c5d83e0065f049a34e8c4c010cb464c70d765a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1101780/0fd46be5bbeaac6d36b521be7ae674255b8cea50.jpg"
   },
@@ -166,8 +166,17 @@
     "defaultvalue": 0,
     "displayName": "Market Domination",
     "hidden": 0,
-    "description": "Reach 10 time market goal",
+    "description": "Reach your primary market goal ",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1101780/e7d56b244165b49907418cde060ff96f01720e93.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1101780/3261ab18acd99c852f60e54a415b68378d613e96.jpg"
+  },
+  {
+    "name": "Stores_New_21",
+    "defaultvalue": 0,
+    "displayName": "Whole bakery market is mine!",
+    "hidden": 0,
+    "description": "Own all stores!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1101780/c26309ad38dab489a07160df09fb4f86f977106c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1101780/3d205a1efba1f8592df74c4e760b1c99c98a8272.jpg"
   }
 ]

@@ -2,28 +2,38 @@
   "Dlcs": {
     "1125020": {
       "Name": "Frostpunk: The Rifts",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/1125020/header.jpg?t=1591363685"
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1125020/header.jpg?t=1620903310",
+      "Type": "dlc"
     },
     "1146960": {
       "Name": "Frostpunk: The Last Autumn",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/1146960/header.jpg?t=1591365025"
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1146960/header.jpg?t=1620903475",
+      "Type": "dlc"
     },
     "1147010": {
       "Name": "Frostpunk: On The Edge",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/1147010/header.jpg?t=1597939990"
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1147010/header.jpg?t=1620903198",
+      "Type": "dlc"
     },
     "966350": {
-      "Name": "",
-      "ImageUrl": ""
+      "Name": "Frostpunk Original Soundtrack",
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/966350/header.jpg?t=1619514946",
+      "Type": "music"
     },
     "1103840": {
       "Name": "Frostpunk Digital Artbook",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/1103840/header.jpg?t=1583743129"
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1103840/header.jpg?t=1614180301",
+      "Type": "dlc"
+    },
+    "1606200": {
+      "Name": "Frostpunk Expansions Original Soundtrack",
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1606200/header.jpg?t=1618934112",
+      "Type": "music"
     }
   },
   "Name": "Frostpunk",
   "AppId": "323190",
-  "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/323190/header.jpg?t=1600295584",
+  "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/323190/header.jpg?t=1629387018",
   "Languages": [
     "english",
     "french",
@@ -40,7 +50,7 @@
   ],
   "Platforms": {
     "windows": true,
-    "mac": false,
+    "mac": true,
     "linux": false
   }
 }

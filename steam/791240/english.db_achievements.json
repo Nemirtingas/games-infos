@@ -74,8 +74,35 @@
     "defaultvalue": 0,
     "displayName": "Don't Die",
     "hidden": 0,
-    "description": "Complete the game without dying",
+    "description": "Complete World 1 without dying",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/791240/788cca01f8fe5ec19489ba7b03f8a148c588386d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/791240/a4da7fe61a3f8e7f9f4634824b68bc58fbdb5e9c.jpg"
+  },
+  {
+    "name": "ACH_WORLD2_NO_DEATH_FINISH",
+    "defaultvalue": 0,
+    "displayName": "Don't Die Again",
+    "hidden": 0,
+    "description": "Complete World 2 without dying",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/791240/",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/791240/"
+  },
+  {
+    "name": "ACH_FASTER_THAN_DEVS",
+    "defaultvalue": 0,
+    "displayName": "Faster than the devs!",
+    "hidden": 0,
+    "description": "Complete the game in under X time",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/791240/",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/791240/"
+  },
+  {
+    "name": "ACH_WORLD2_FINISH",
+    "defaultvalue": 0,
+    "displayName": "Complete World 2",
+    "hidden": 0,
+    "description": "Solve all the puzzles in the second world",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/791240/",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/791240/"
   }
 ]

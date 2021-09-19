@@ -1,18 +1,22 @@
-﻿{
-  "TEST_STATUS": {
-    "description": "TEST_STATUS",
-    "value": 0
+[
+  {
+    "name": "TEST_STATUS",
+    "defaultvalue": 0,
+    "displayName": "TEST_STATUS"
   },
-  "COMBO_MAX_NUMS": {
-    "description": "Combo Num",
-    "value": 0
+  {
+    "name": "COMBO_MAX_NUMS",
+    "defaultvalue": 0,
+    "displayName": "Combo Num"
   },
-  "ARENA_MAX_WAVES": {
-    "description": "Arena max waves",
-    "value": 0
+  {
+    "name": "ARENA_MAX_WAVES",
+    "defaultvalue": 0,
+    "displayName": "Arena max waves"
   },
-  "CRITICAL_TOTAL_NUMS": {
-    "description": "Critical total num",
-    "value": 0
+  {
+    "name": "CRITICAL_TOTAL_NUMS",
+    "defaultvalue": 0,
+    "displayName": "Critical total num"
   }
-}
+]

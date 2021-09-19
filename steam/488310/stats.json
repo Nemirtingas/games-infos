@@ -1,42 +1,52 @@
-﻿{
-  "GameTime": {
-    "description": "Total Time Played In Minutes",
-    "value": 0
+[
+  {
+    "name": "GameTime",
+    "defaultvalue": 0,
+    "displayName": "Total Time Played In Minutes"
   },
-  "current_season": {
-    "description": "Current Season as set by us the Devs",
-    "value": 2
+  {
+    "name": "current_season",
+    "defaultvalue": 2,
+    "displayName": "Current Season as set by us the Devs"
   },
-  "wins_seasson_1": {
-    "description": "a players wins in season 1 (ranked only)",
-    "value": 0
+  {
+    "name": "wins_seasson_1",
+    "defaultvalue": 0,
+    "displayName": "a players wins in season 1 (ranked only)"
   },
-  "games_played_seasson_1": {
-    "description": "a players total games played season 1 (ranked only)",
-    "value": 0
+  {
+    "name": "games_played_seasson_1",
+    "defaultvalue": 0,
+    "displayName": "a players total games played season 1 (ranked only)"
   },
-  "skill_rating_seasson_1": {
-    "description": "a players skill rating season 1 (0-2500)",
-    "value": 1500
+  {
+    "name": "skill_rating_seasson_1",
+    "defaultvalue": 1500,
+    "displayName": "a players skill rating season 1 (0-2500)"
   },
-  "skill_rating_high_seasson_1": {
-    "description": "the players highest skill rating season 1 (0-2500)",
-    "value": 1500
+  {
+    "name": "skill_rating_high_seasson_1",
+    "defaultvalue": 1500,
+    "displayName": "the players highest skill rating season 1 (0-2500)"
   },
-  "wins_seasson_2": {
-    "description": "\"\"",
-    "value": 0
+  {
+    "name": "wins_seasson_2",
+    "defaultvalue": 0,
+    "displayName": "\"\""
   },
-  "games_played_seasson_2": {
-    "description": "\"\"",
-    "value": 0
+  {
+    "name": "games_played_seasson_2",
+    "defaultvalue": 0,
+    "displayName": "\"\""
   },
-  "skill_rating_seasson_2": {
-    "description": "\"\"",
-    "value": 1500
+  {
+    "name": "skill_rating_seasson_2",
+    "defaultvalue": 1500,
+    "displayName": "\"\""
   },
-  "skill_rating_high_seasson_2": {
-    "description": "\"\"",
-    "value": 1500
+  {
+    "name": "skill_rating_high_seasson_2",
+    "defaultvalue": 1500,
+    "displayName": "\"\""
   }
-}
+]

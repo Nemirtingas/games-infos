@@ -1,10 +1,12 @@
-﻿{
-  "STAT_KILLS": {
-    "description": "Criminals killed",
-    "value": 0
+[
+  {
+    "name": "STAT_KILLS",
+    "defaultvalue": 0,
+    "displayName": "Criminals killed"
   },
-  "STAT_ARRESTS": {
-    "description": "Arrests made",
-    "value": 0
+  {
+    "name": "STAT_ARRESTS",
+    "defaultvalue": 0,
+    "displayName": "Arrests made"
   }
-}
+]

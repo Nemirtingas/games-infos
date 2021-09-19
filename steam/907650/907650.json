@@ -1,19 +1,24 @@
 {
   "Dlcs": {
-    "1556900": {
-      "Name": "Stronghold: Warlords Soundtrack",
-      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1556900/header.jpg?t=1615326452",
-      "Type": "music"
-    },
     "1615010": {
       "Name": "Stronghold: Warlords - The Art of War Campaign",
       "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1615010/header.jpg?t=1629224223",
       "Type": "dlc"
+    },
+    "1615011": {
+      "Name": "Stronghold: Warlords - The Mongol Empire Campaign",
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1615011/header.jpg?t=1630505877",
+      "Type": "dlc"
+    },
+    "1556900": {
+      "Name": "Stronghold: Warlords Soundtrack",
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1556900/header.jpg?t=1615326452",
+      "Type": "music"
     }
   },
   "Name": "Stronghold: Warlords",
   "AppId": "907650",
-  "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/907650/header.jpg?t=1600706661",
+  "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/907650/header.jpg?t=1630505772",
   "Languages": [
     "english",
     "french",
@@ -26,7 +31,10 @@
     "russian",
     "schinese",
     "turkish",
-    "portuguese"
+    "portuguese",
+    "tchinese",
+    "thai",
+    "vietnamese"
   ],
   "Platforms": {
     "windows": true,

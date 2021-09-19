@@ -1,146 +1,182 @@
-﻿{
-  "starsEarnedInTheGermanCampaign": {
-    "description": "Stars earned in the German campaign",
-    "value": 0
+[
+  {
+    "name": "starsEarnedInTheGermanCampaign",
+    "defaultvalue": 0,
+    "displayName": "Stars earned in the German campaign"
   },
-  "starsEarnedInTheSovietCampaign": {
-    "description": "Stars earned in the Soviet campaign",
-    "value": 0
+  {
+    "name": "starsEarnedInTheSovietCampaign",
+    "defaultvalue": 0,
+    "displayName": "Stars earned in the Soviet campaign"
   },
-  "starsEarnedInTheAlliedCampaign": {
-    "description": "Stars earned in the Allied campaign",
-    "value": 0
+  {
+    "name": "starsEarnedInTheAlliedCampaign",
+    "defaultvalue": 0,
+    "displayName": "Stars earned in the Allied campaign"
   },
-  "missionsCompletedInTheGermanCampaign": {
-    "description": "Missions completed in the German campaign",
-    "value": 0
+  {
+    "name": "missionsCompletedInTheGermanCampaign",
+    "defaultvalue": 0,
+    "displayName": "Missions completed in the German campaign"
   },
-  "missionsCompletedInTheSovietCampaign": {
-    "description": "Missions completed in the Soviet campaign",
-    "value": 0
+  {
+    "name": "missionsCompletedInTheSovietCampaign",
+    "defaultvalue": 0,
+    "displayName": "Missions completed in the Soviet campaign"
   },
-  "missionsCompletedInTheAlliedCampaign": {
-    "description": "Missions completed in the Allied campaign",
-    "value": 0
+  {
+    "name": "missionsCompletedInTheAlliedCampaign",
+    "defaultvalue": 0,
+    "displayName": "Missions completed in the Allied campaign"
   },
-  "missionsCompletedWithInfantryCommander": {
-    "description": "Missions completed with infantry commander",
-    "value": 0
+  {
+    "name": "missionsCompletedWithInfantryCommander",
+    "defaultvalue": 0,
+    "displayName": "Missions completed with infantry commander"
   },
-  "missionsCompletedWithTankCommander": {
-    "description": "Missions completed with tank commander",
-    "value": 0
+  {
+    "name": "missionsCompletedWithTankCommander",
+    "defaultvalue": 0,
+    "displayName": "Missions completed with tank commander"
   },
-  "missionsCompletedWithSupportCommander": {
-    "description": "Missions completed with support commander",
-    "value": 0
+  {
+    "name": "missionsCompletedWithSupportCommander",
+    "defaultvalue": 0,
+    "displayName": "Missions completed with support commander"
   },
-  "unitsDestroyed": {
-    "description": "Units destroyed",
-    "value": 0
+  {
+    "name": "unitsDestroyed",
+    "defaultvalue": 0,
+    "displayName": "Units destroyed"
   },
-  "achievementsCompleted": {
-    "description": "Achievements completed",
-    "value": 0
+  {
+    "name": "achievementsCompleted",
+    "defaultvalue": 0,
+    "displayName": "Achievements completed"
   },
-  "addon1StarsEarnedInTheGermanCampaign": {
-    "description": "",
-    "value": 0
+  {
+    "name": "addon1StarsEarnedInTheGermanCampaign",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "addon1StarsEarnedInTheAlliedCampaign": {
-    "description": "",
-    "value": 0
+  {
+    "name": "addon1StarsEarnedInTheAlliedCampaign",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "addon1MissionsCompletedInTheGermanCampaign": {
-    "description": "",
-    "value": 0
+  {
+    "name": "addon1MissionsCompletedInTheGermanCampaign",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "addon1MissionsCompletedInTheAlliedCampaign": {
-    "description": "",
-    "value": 0
+  {
+    "name": "addon1MissionsCompletedInTheAlliedCampaign",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "addon3StarsEarnedInTheFinnishCampaign": {
-    "description": "",
-    "value": 0
+  {
+    "name": "addon3StarsEarnedInTheFinnishCampaign",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "addon3StarsEarnedInTheSovietCampaign": {
-    "description": "",
-    "value": 0
+  {
+    "name": "addon3StarsEarnedInTheSovietCampaign",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "addon3MissionsCompletedInTheFinnishCampaign": {
-    "description": "",
-    "value": 0
+  {
+    "name": "addon3MissionsCompletedInTheFinnishCampaign",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "addon3MissionsCompletedOnNormalInTheFinnishCampaign": {
-    "description": "",
-    "value": 0
+  {
+    "name": "addon3MissionsCompletedOnNormalInTheFinnishCampaign",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "addon3MissionsCompletedInTheSovietCampaign": {
-    "description": "",
-    "value": 0
+  {
+    "name": "addon3MissionsCompletedInTheSovietCampaign",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "addon3MissionsCompletedOnNormalInTheSovietCampaign": {
-    "description": "",
-    "value": 0
+  {
+    "name": "addon3MissionsCompletedOnNormalInTheSovietCampaign",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "addon4StarsEarnedInTheAxisCampaign": {
-    "description": "",
-    "value": 0
+  {
+    "name": "addon4StarsEarnedInTheAxisCampaign",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "addon4StarsEarnedInTheAlliedCampaign": {
-    "description": "",
-    "value": 0
+  {
+    "name": "addon4StarsEarnedInTheAlliedCampaign",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "addon4MissionsCompletedInTheAxisCampaign": {
-    "description": "",
-    "value": 0
+  {
+    "name": "addon4MissionsCompletedInTheAxisCampaign",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "addon4MissionsCompletedOnNormalInTheAxisCampaign": {
-    "description": "",
-    "value": 0
+  {
+    "name": "addon4MissionsCompletedOnNormalInTheAxisCampaign",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "addon4MissionsCompletedInTheAlliedCampaign": {
-    "description": "",
-    "value": 0
+  {
+    "name": "addon4MissionsCompletedInTheAlliedCampaign",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "addon4MissionsCompletedOnNormalInTheAlliedCampaign": {
-    "description": "",
-    "value": 0
+  {
+    "name": "addon4MissionsCompletedOnNormalInTheAlliedCampaign",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "addon2StarsEarnedInTheUSCampaign": {
-    "description": "",
-    "value": 0
+  {
+    "name": "addon2StarsEarnedInTheUSCampaign",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "addon2StarsEarnedInTheJapanieseCampaign": {
-    "description": "",
-    "value": 0
+  {
+    "name": "addon2StarsEarnedInTheJapanieseCampaign",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "addon2MissionsCompletedInTheUSCampaign": {
-    "description": "",
-    "value": 0
+  {
+    "name": "addon2MissionsCompletedInTheUSCampaign",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "addon2MissionsCompletedInTheJapanieseCampaign": {
-    "description": "",
-    "value": 0
+  {
+    "name": "addon2MissionsCompletedInTheJapanieseCampaign",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "addon2MissionsCompletedWithInfantryCommander": {
-    "description": "",
-    "value": 0
+  {
+    "name": "addon2MissionsCompletedWithInfantryCommander",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "addon2MissionsCompletedWithTankCommander": {
-    "description": "",
-    "value": 0
+  {
+    "name": "addon2MissionsCompletedWithTankCommander",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "addon2MissionsCompletedWithSupportCommander": {
-    "description": "",
-    "value": 0
+  {
+    "name": "addon2MissionsCompletedWithSupportCommander",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "addon2ChallangeMissionsCompletedInTheUSCampaign": {
-    "description": "",
-    "value": 0
+  {
+    "name": "addon2ChallangeMissionsCompletedInTheUSCampaign",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "addon2ChallangeMissionsCompletedInTheJapanieseCampaign": {
-    "description": "",
-    "value": 0
+  {
+    "name": "addon2ChallangeMissionsCompletedInTheJapanieseCampaign",
+    "defaultvalue": 0,
+    "displayName": ""
   }
-}
+]

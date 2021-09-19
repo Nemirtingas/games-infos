@@ -1,11 +1,18 @@
 {
-  "Dlcs": {},
+  "Dlcs": {
+    "1077070": {
+      "Name": "ASCENXION Soundtrack",
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1077070/header.jpg?t=1620976224",
+      "Type": "music"
+    }
+  },
   "Name": "ASCENXION",
   "AppId": "1000000",
-  "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/1000000/header.jpg?t=1594843370",
+  "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1000000/header.jpg?t=1621905792",
   "Languages": [
     "korean",
-    "english"
+    "english",
+    "schinese"
   ],
   "Platforms": {
     "windows": true,

@@ -1,18 +1,22 @@
-﻿{
-  "STATCOLLECTHEALTH_STATCOLLECTHEALTH": {
-    "description": "Collected health",
-    "value": 0
+[
+  {
+    "name": "STATCOLLECTHEALTH_STATCOLLECTHEALTH",
+    "defaultvalue": 0,
+    "displayName": "Collected health"
   },
-  "STATCOLLECTSHARDS_STATCOLLECTSHARDS": {
-    "description": "Collected shards",
-    "value": 0
+  {
+    "name": "STATCOLLECTSHARDS_STATCOLLECTSHARDS",
+    "defaultvalue": 0,
+    "displayName": "Collected shards"
   },
-  "STATPLAYERKILLS_STATPLAYERKILLS": {
-    "description": "Kills",
-    "value": 0
+  {
+    "name": "STATPLAYERKILLS_STATPLAYERKILLS",
+    "defaultvalue": 0,
+    "displayName": "Kills"
   },
-  "STATHEADSHOTS_STATHEADSHOTS": {
-    "description": "Headshots",
-    "value": 0
+  {
+    "name": "STATHEADSHOTS_STATHEADSHOTS",
+    "defaultvalue": 0,
+    "displayName": "Headshots"
   }
-}
+]

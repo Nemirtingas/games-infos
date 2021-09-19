@@ -1,22 +1,27 @@
-﻿{
-  "STAT_Kills": {
-    "description": "KILLED DUMMIES",
-    "value": 0
+[
+  {
+    "name": "STAT_Kills",
+    "defaultvalue": 0,
+    "displayName": "KILLED DUMMIES"
   },
-  "STAT_SniperKills": {
-    "description": "",
-    "value": 0
+  {
+    "name": "STAT_SniperKills",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "STAT_LevelsCompleted1to32": {
-    "description": "",
-    "value": 0
+  {
+    "name": "STAT_LevelsCompleted1to32",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "STAT_LevelsCompleted33to64": {
-    "description": "",
-    "value": 0
+  {
+    "name": "STAT_LevelsCompleted33to64",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "STAT_LevelsCompleted65to96": {
-    "description": "",
-    "value": 0
+  {
+    "name": "STAT_LevelsCompleted65to96",
+    "defaultvalue": 0,
+    "displayName": ""
   }
-}
+]

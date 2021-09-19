@@ -1,34 +1,42 @@
-﻿{
-  "Stat_RailGame": {
-    "description": "Rail Game",
-    "value": 0
+[
+  {
+    "name": "Stat_RailGame",
+    "defaultvalue": 0,
+    "displayName": "Rail Game"
   },
-  "Stat_Espresso": {
-    "description": "Espresso",
-    "value": 0
+  {
+    "name": "Stat_Espresso",
+    "defaultvalue": 0,
+    "displayName": "Espresso"
   },
-  "Stat_Trickster": {
-    "description": "Trickster",
-    "value": 0
+  {
+    "name": "Stat_Trickster",
+    "defaultvalue": 0,
+    "displayName": "Trickster"
   },
-  "Stat_CompetitionKid": {
-    "description": "Competition Kid",
-    "value": 0
+  {
+    "name": "Stat_CompetitionKid",
+    "defaultvalue": 0,
+    "displayName": "Competition Kid"
   },
-  "Stat_Freedom25": {
-    "description": "Freedom 25",
-    "value": 0
+  {
+    "name": "Stat_Freedom25",
+    "defaultvalue": 0,
+    "displayName": "Freedom 25"
   },
-  "Stat_ShreddyKrueger": {
-    "description": "Shreddy Krueger",
-    "value": 0
+  {
+    "name": "Stat_ShreddyKrueger",
+    "defaultvalue": 0,
+    "displayName": "Shreddy Krueger"
   },
-  "Stat_Hang10": {
-    "description": "Hang 10",
-    "value": 0
+  {
+    "name": "Stat_Hang10",
+    "defaultvalue": 0,
+    "displayName": "Hang 10"
   },
-  "Stat_GetToTheChoppa": {
-    "description": "Get To The Choppa",
-    "value": 0
+  {
+    "name": "Stat_GetToTheChoppa",
+    "defaultvalue": 0,
+    "displayName": "Get To The Choppa"
   }
-}
+]

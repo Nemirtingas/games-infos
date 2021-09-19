@@ -1,30 +1,37 @@
-﻿{
-  "cumulative.characterDecapitations": {
-    "description": "",
-    "value": 0
+[
+  {
+    "name": "cumulative.characterDecapitations",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "cumulative.dismountsStarted": {
-    "description": "",
-    "value": 0
+  {
+    "name": "cumulative.dismountsStarted",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "cumulative.dismountsCompleted.Tricycle": {
-    "description": "",
-    "value": 0
+  {
+    "name": "cumulative.dismountsCompleted.Tricycle",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "cumulative.turbopadsActivated": {
-    "description": "",
-    "value": 0
+  {
+    "name": "cumulative.turbopadsActivated",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "cumulative.treesCut": {
-    "description": "",
-    "value": 0
+  {
+    "name": "cumulative.treesCut",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "cumulative.dismountsNailed": {
-    "description": "",
-    "value": 0
+  {
+    "name": "cumulative.dismountsNailed",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "cumulative.bowlingStrikes": {
-    "description": "",
-    "value": 0
+  {
+    "name": "cumulative.bowlingStrikes",
+    "defaultvalue": 0,
+    "displayName": ""
   }
-}
+]

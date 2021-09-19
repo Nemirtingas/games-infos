@@ -1,10 +1,12 @@
-﻿{
-  "DAYS_SURVIVED_SESSION": {
-    "description": "Days Survived",
-    "value": 0
+[
+  {
+    "name": "DAYS_SURVIVED_SESSION",
+    "defaultvalue": 0,
+    "displayName": "Days Survived"
   },
-  "TIME_PLAYED_SESSION": {
-    "description": "Time Played",
-    "value": 0
+  {
+    "name": "TIME_PLAYED_SESSION",
+    "defaultvalue": 0,
+    "displayName": "Time Played"
   }
-}
+]

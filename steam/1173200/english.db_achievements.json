@@ -100,5 +100,107 @@
     "description": "Upgrade an item by synthesis.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1173200/8e1db5edc7cc252d15bc2cbc660fcf2bd491a306.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1173200/9389c62fda6bc1db432ccc2f344939f2a7b948b8.jpg"
+  },
+  {
+    "name": "ACH_STRIKE_NPC_DEAL",
+    "defaultvalue": 0,
+    "displayName": "Deal with it",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1173200/cf60597f1fda3ff3b3f65e1d4814b202ef274edb.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1173200/3c16baef630cc52ff0e4f4f6a63013e066fb6975.jpg"
+  },
+  {
+    "name": "ACH_OBTAIN_SKIN",
+    "defaultvalue": 0,
+    "displayName": "Ask and you shall receive",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1173200/2bbbfd5cf084fa1dab3f2794e80d585cbbbfe13d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1173200/3778cd6cb9a89f087209a6c7c1ffba3c8ce7b885.jpg"
+  },
+  {
+    "name": "ACH_ALL_UPGRADES",
+    "defaultvalue": 0,
+    "displayName": "Fully loaded",
+    "hidden": 0,
+    "description": "Obtain all upgrades.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1173200/a852fba0adbad13f6f671085b12a75e5fba3546f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1173200/e54c5c1b19a5d9306927e04d9a1aa29af0bea767.jpg"
+  },
+  {
+    "name": "ACH_MASTERY_POINTS",
+    "defaultvalue": 0,
+    "displayName": "A new Master",
+    "hidden": 0,
+    "description": "Obtain enough Mastery Points to unlock Legendary items in the armory.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1173200/139cd4214d1baceecc3129de1736306240f916b3.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1173200/7b7d41eb1cabc70b71ef1c8bb880c971f3c53b82.jpg"
+  },
+  {
+    "name": "ACH_ARMORY_TROPHY",
+    "defaultvalue": 0,
+    "displayName": "Showing off",
+    "hidden": 0,
+    "description": "Obtain enough items to get a sweet trophy in your room.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1173200/d29deb3dc72ccdb4f2838b3ac2c5d0d982780b42.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1173200/b1dd75c907b4ef1c2a7e47d0f829936eeed31f5d.jpg"
+  },
+  {
+    "name": "ACH_GET_ITEM_SET",
+    "defaultvalue": 0,
+    "displayName": "Ready? Get sets!",
+    "hidden": 0,
+    "description": "Activate a new item set.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1173200/eae416d4f902858d3834a0f469a773e3cbab9a58.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1173200/f765c276e9b2804cdcb6a1dd69686ef7f272ddbd.jpg"
+  },
+  {
+    "name": "ACH_COMPLETE_HARDCORE",
+    "defaultvalue": 0,
+    "displayName": "About time",
+    "hidden": 0,
+    "description": "Complete a hardcore run of the game.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1173200/e2dcdd50e6ee6439db346db7a370381644f9c441.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1173200/b0f5eb5c924cb79757e9db011728005c012df446.jpg"
+  },
+  {
+    "name": "ACH_COMPLETE_NG_2",
+    "defaultvalue": 0,
+    "displayName": "Push It To The Limit",
+    "hidden": 0,
+    "description": "Complete a run in New Game +2.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1173200/b7268f66d4a7022c3512fef1e046bb3a0f9fedb1.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1173200/86d3d69e87951abdb79ebf8e53374836b62cd237.jpg"
+  },
+  {
+    "name": "ACH_REPAIR_KATANA",
+    "defaultvalue": 0,
+    "displayName": "Perfect Cherry Blossom",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1173200/1a38303fd45f7a86c484383e7415ce58283754c3.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1173200/fc8062a8b0267169aadf1e2ec4312966d25c3d70.jpg"
+  },
+  {
+    "name": "ACH_DEATH",
+    "defaultvalue": 0,
+    "displayName": "A good day to die",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1173200/fd62361e89bf12910f4039ed49bde218d2fa541c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1173200/0590a3e83f35318f99032e38a6d65ba8388c2207.jpg"
+  },
+  {
+    "name": "ACH_GOLD_HOARDING",
+    "defaultvalue": 0,
+    "displayName": "Gold Hoarder",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1173200/c524227cfaeae7cf5d8081a3cfc3b9b6592673cb.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1173200/9d7a6a075836ba743fae80c3965b9c1a2343e641.jpg"
+  },
+  {
+    "name": "ACH_TRAINING",
+    "defaultvalue": 0,
+    "displayName": "Practice makes perfect",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1173200/ed8fbedad11f137f6d3a3b4f977ab99a2e894a8a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1173200/65464ec0f10b652d023a3d15dc86eba87ad37815.jpg"
   }
 ]

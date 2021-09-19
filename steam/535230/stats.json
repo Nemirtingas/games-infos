@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "name": "stat_victories",
     "defaultvalue": 0,
@@ -152,7 +152,7 @@
   {
     "name": "stat_dlc_beta_unlocks",
     "defaultvalue": 0,
-    "displayName": "beta dlc unlocked by inventory"
+    "displayName": ""
   },
   {
     "name": "stat_tactical_games",
@@ -176,6 +176,16 @@
   },
   {
     "name": "stat_dlc_beta_unlocks_round_2",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "stat_is_user_cheating_haxxor_flag_level",
+    "defaultvalue": 0,
+    "displayName": ""
+  },
+  {
+    "name": "stat_dlc_beta_unlocks_round_3",
     "defaultvalue": 0,
     "displayName": ""
   }

@@ -1,18 +1,22 @@
-﻿{
-  "STAT_RANKELITE_STAT_RANKELITE": {
-    "description": "elite rank",
-    "value": 0
+[
+  {
+    "name": "STAT_RANKELITE_STAT_RANKELITE",
+    "defaultvalue": 0,
+    "displayName": "elite rank"
   },
-  "STAT_PROFIL_SM_STAT_PROFIL_SM": {
-    "description": "nombre de sous faction avec un profil de level 8",
-    "value": 0
+  {
+    "name": "STAT_PROFIL_SM_STAT_PROFIL_SM",
+    "defaultvalue": 0,
+    "displayName": "nombre de sous faction avec un profil de level 8"
   },
-  "STAT_VICTORY_KAUYON_STAT_VICTORY_KAUYON": {
-    "description": "nombre de victoires en utilisant la doctrine Kauyon",
-    "value": 0
+  {
+    "name": "STAT_VICTORY_KAUYON_STAT_VICTORY_KAUYON",
+    "defaultvalue": 0,
+    "displayName": "nombre de victoires en utilisant la doctrine Kauyon"
   },
-  "STAT_VICTORY_MONT_KA_STAT_VICTORY_MONT_KA": {
-    "description": "nombre de victoires en utilisant la doctrine Mont'Ka",
-    "value": 0
+  {
+    "name": "STAT_VICTORY_MONT_KA_STAT_VICTORY_MONT_KA",
+    "defaultvalue": 0,
+    "displayName": "nombre de victoires en utilisant la doctrine Mont'Ka"
   }
-}
+]

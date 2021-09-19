@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "name": "WON_OFFICER",
     "defaultvalue": 0,
@@ -340,5 +340,32 @@
     "description": "Win in under 20 minutes",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/497800/5f550b167fe470866bd619101352d0d5ba4cc234.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/497800/8c6da53052ce26789978b44c7b9f0208195dcfa8.jpg"
+  },
+  {
+    "name": "DEFEATED_RUSALKA",
+    "defaultvalue": 0,
+    "displayName": "Waters Warm",
+    "hidden": 0,
+    "description": "Defeat the Rusalki",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/497800/b0cae984c4d9eec6cdd2126df4e06f19f73fd3d3.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/497800/ee70a32d3eaeca4ebfd0173d9a7a1cbf0f8c4adb.jpg"
+  },
+  {
+    "name": "DEFEATED_RAT_KING",
+    "defaultvalue": 0,
+    "displayName": "Rat Attack Tack",
+    "hidden": 0,
+    "description": "Defeat the Rat King",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/497800/94c2c11af73d4683a9e1b69cc5fab6c59b4baa40.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/497800/31d2d18ad25d3bfe7465220a3bf9fcecf8f24323.jpg"
+  },
+  {
+    "name": "MAX_SHADOW",
+    "defaultvalue": 0,
+    "displayName": "Casting Many Shadows",
+    "hidden": 0,
+    "description": "Reach max Shadow Form",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/497800/1bb3ed35915c3045f4d896b2c850ec2b8f53797d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/497800/148f6227dbef5dd7fe47fc990e1d1209801ca5e5.jpg"
   }
 ]

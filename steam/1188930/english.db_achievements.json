@@ -4,14 +4,14 @@
     "defaultvalue": 0,
     "displayName": "Jump!",
     "hidden": 0,
-    "description": "Most important game element 'Jump'",
+    "description": "The most important game element",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1188930/8576e4aa82802e39918a745453131a2469984bac.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1188930/f152424ad33c32632a5ac0bc9e7e409eca86b74a.jpg"
   },
   {
     "name": "NEW_ACHIEVEMENT_1_3",
     "defaultvalue": 0,
-    "displayName": "Jump, but 4 times.",
+    "displayName": "Jump, but 4 times",
     "hidden": 1,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1188930/e8965fb2f7da0838821006dd26fb19f1d459aa09.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1188930/f79b8ecee55efe6e2d3dda73d90ed16e3da416e6.jpg"
@@ -145,10 +145,28 @@
   {
     "name": "NEW_ACHIEVEMENT_1_18",
     "defaultvalue": 0,
-    "displayName": "That Sound's Perfect",
+    "displayName": "That Sounds Perfect",
     "hidden": 0,
     "description": "Clear the game with Huz.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1188930/4714c9b40222d1d2d040584c1ca2a2ee1abea928.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1188930/9168cddd7400e2882bdd2b19a30fd664f96d17dd.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_1_19",
+    "defaultvalue": 0,
+    "displayName": "Perfect Rotation",
+    "hidden": 0,
+    "description": "Clear the game with Selena & Helia.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1188930/b61f04d053da25f76586a3cb76f20f3c80d45b95.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1188930/fad3dcb5ae62a556f9ce26d9e36920e4952fecc3.jpg"
+  },
+  {
+    "name": "NEW_ACHIEVEMENT_1_20",
+    "defaultvalue": 0,
+    "displayName": "War of Arrows",
+    "hidden": 0,
+    "description": "Clear the game with Johan",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1188930/e361d2cb5d70dea59aa4177851ab10821f3af557.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1188930/2e27380fd0d6ded7322a463b7d0f0d5af18a6446.jpg"
   }
 ]

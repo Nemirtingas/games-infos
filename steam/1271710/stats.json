@@ -1,22 +1,27 @@
-﻿{
-  "frags": {
-    "description": "frags",
-    "value": 0
+[
+  {
+    "name": "frags",
+    "defaultvalue": 0,
+    "displayName": "frags"
   },
-  "barrels": {
-    "description": "barrels",
-    "value": 0
+  {
+    "name": "barrels",
+    "defaultvalue": 0,
+    "displayName": "barrels"
   },
-  "props": {
-    "description": "props",
-    "value": 0
+  {
+    "name": "props",
+    "defaultvalue": 0,
+    "displayName": "props"
   },
-  "deaths": {
-    "description": "deaths",
-    "value": 0
+  {
+    "name": "deaths",
+    "defaultvalue": 0,
+    "displayName": "deaths"
   },
-  "pickup1": {
-    "description": "pickup1",
-    "value": 0
+  {
+    "name": "pickup1",
+    "defaultvalue": 0,
+    "displayName": "pickup1"
   }
-}
+]

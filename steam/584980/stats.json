@@ -1,10 +1,12 @@
-﻿{
-  "endings": {
-    "description": "",
-    "value": 0
+[
+  {
+    "name": "endings",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "episodes": {
-    "description": "",
-    "value": 0
+  {
+    "name": "episodes",
+    "defaultvalue": 0,
+    "displayName": ""
   }
-}
+]

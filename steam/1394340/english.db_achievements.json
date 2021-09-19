@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "name": "All_Crystals_Collected",
     "defaultvalue": 0,
@@ -20,7 +20,7 @@
   {
     "name": "Beat_Game_Easy",
     "defaultvalue": 0,
-    "displayName": "Help!",
+    "displayName": "Taken It Easy",
     "hidden": 0,
     "description": "Beat game on easy mode",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1394340/6b178e36f9fb93e03a54701abdb535046361b2ad.jpg",
@@ -94,7 +94,7 @@
     "defaultvalue": 0,
     "displayName": "Immortal",
     "hidden": 0,
-    "description": "Beat the game with less than 10 deaths on Normal+ Difficulty",
+    "description": "Beat the game with less than 42 deaths on Easy+ Difficulty",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1394340/598d5b6131ea4675b9a6acd15cb8cb539dbac35c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1394340/9ec95b534a98593109ce4320e7dca6e28ccd1fd7.jpg"
   },
@@ -103,7 +103,7 @@
     "defaultvalue": 0,
     "displayName": "Untouchable",
     "hidden": 0,
-    "description": "Beat the game with less than 25 deaths  on Normal+ Difficulty",
+    "description": "Beat the game with less than 100 deaths  on Easy+ Difficulty",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1394340/7db6eed6af8b96c039fa39c040757ea135cb581e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1394340/97166251dd10c3848092883a45d5a2b81585e52e.jpg"
   },
@@ -112,7 +112,7 @@
     "defaultvalue": 0,
     "displayName": "Unbreakable",
     "hidden": 0,
-    "description": "Beat the game with less than 50 deaths  on Normal+ Difficulty",
+    "description": "Beat the game with less than 200 deaths  on Easy+ Difficulty",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1394340/8688429638375934065cd2f93060978aec0171ad.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1394340/5678c2b85f8eeb9d8256a15a72f4f453bc984551.jpg"
   },
@@ -121,7 +121,7 @@
     "defaultvalue": 0,
     "displayName": "Survivor",
     "hidden": 0,
-    "description": "Beat the game with less than 100 deaths  on Normal+ Difficulty",
+    "description": "Beat the game with less than 400 deaths  on Easy+ Difficulty",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1394340/3f574b5ca4dc5803766a2eff9748789ab875bb32.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1394340/a38edc7bdfb494c3ea2a24a9087f5eaf49f7263c.jpg"
   },
@@ -130,7 +130,7 @@
     "defaultvalue": 0,
     "displayName": "Dying Spree",
     "hidden": 0,
-    "description": "Achieve over 500 deaths",
+    "description": "Achieve over 400 deaths",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1394340/ded894a380241c61ce0a298395590cbfe3058331.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1394340/82894c047f8d5d8b714a8dd15e64fffd66140800.jpg"
   },
@@ -139,7 +139,7 @@
     "defaultvalue": 0,
     "displayName": "Dying frenzy",
     "hidden": 0,
-    "description": "Achieve over 2500 deaths",
+    "description": "Achieve over 1000 deaths",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1394340/250fcb7fffc2bea682b893fb4e282d04624fa049.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1394340/433e6541ba4f2ce32ef3b7429856dae1237514c7.jpg"
   },
@@ -148,7 +148,7 @@
     "defaultvalue": 0,
     "displayName": "Grim Reaper",
     "hidden": 0,
-    "description": "Achieve over 10,000 deaths",
+    "description": "Achieve over 2,000 deaths",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1394340/af23b7e35c8f389ac112e10138023ec82e2a3b5e.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1394340/89b2ea1a713adcebc1516ede3f70965f1a2640ad.jpg"
   },
@@ -157,7 +157,7 @@
     "defaultvalue": 0,
     "displayName": "Sprinter",
     "hidden": 0,
-    "description": "Beat the game in under 20 minutes on Normal+ Difficulty",
+    "description": "Beat the game in under 30 minutes on Easy+ Difficulty",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1394340/95dd61ab743e076abaab18ad59023103fa897fbd.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1394340/87bf562d554d94a53748efe1069bfdb6f4111882.jpg"
   },
@@ -166,26 +166,35 @@
     "defaultvalue": 0,
     "displayName": "Miler",
     "hidden": 0,
-    "description": "Beat the game in under 40 minutes  on Normal+ Difficulty",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1394340/3b5cc8c2eac1b5950a72ec98aafffcad20a05c97.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1394340/e1716169d46bcbb19eb5e0cdc53b9bfd3aa6a246.jpg"
+    "description": "Beat the game in under 60 minutes  on Easy+ Difficulty",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1394340/d496ab40ec9edcb10da29eafa034ba4b48e49b68.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1394340/77ae37144fab1194f733d5ea0cc049ded0e6b1e8.jpg"
   },
   {
     "name": "Sixty_Minutes",
     "defaultvalue": 0,
     "displayName": "1/2 Marathoner",
     "hidden": 0,
-    "description": "Beat the game in under 60 minutes on Normal+ Difficulty",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1394340/d496ab40ec9edcb10da29eafa034ba4b48e49b68.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1394340/77ae37144fab1194f733d5ea0cc049ded0e6b1e8.jpg"
+    "description": "Beat the game in under 90 minutes on Easy+ Difficulty",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1394340/dacf541a1dc558895e6162b128824af365187655.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1394340/8e9aa4e1ea77e8947c537a864a35cd93653721e6.jpg"
   },
   {
     "name": "Two_Hours",
     "defaultvalue": 0,
     "displayName": "Finisher",
     "hidden": 0,
-    "description": "Beat the game in under 2 hours on Normal+ Difficulty",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1394340/1689f321f5e37eee07a9843e2fdd23a5a8ccf5b4.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1394340/8e9aa4e1ea77e8947c537a864a35cd93653721e6.jpg"
+    "description": "Beat the game in under 2 hours on Easy+ Difficulty",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1394340/3228ed625a87605e99bf75b4eed38abea1113bd9.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1394340/714e6eb6e7937cd46270a1a597b3be5cf17a2218.jpg"
+  },
+  {
+    "name": "Speedrunner",
+    "defaultvalue": 0,
+    "displayName": "Speedrunner",
+    "hidden": 0,
+    "description": "Finish a speedrun",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1394340/3b5cc8c2eac1b5950a72ec98aafffcad20a05c97.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1394340/e1716169d46bcbb19eb5e0cdc53b9bfd3aa6a246.jpg"
   }
 ]

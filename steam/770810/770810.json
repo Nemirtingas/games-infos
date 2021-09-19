@@ -1,8 +1,14 @@
-﻿{
-  "Dlcs": {},
+{
+  "Dlcs": {
+    "1499790": {
+      "Name": "Good Pizza, Great Pizza - Premium Winter Decors",
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1499790/header.jpg?t=1608683953",
+      "Type": "dlc"
+    }
+  },
   "Name": "Good Pizza, Great Pizza - Cooking Simulator Game",
   "AppId": "770810",
-  "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/770810/header.jpg?t=1592078025",
+  "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/770810/header.jpg?t=1627370505",
   "Languages": [
     "english",
     "french",
@@ -16,7 +22,8 @@
     "korean",
     "tchinese",
     "polish",
-    "turkish"
+    "turkish",
+    "latam"
   ],
   "Platforms": {
     "windows": true,

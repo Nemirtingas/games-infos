@@ -1,14 +1,9 @@
 {
-  "Dlcs": {},
-  "Name": "Paper Shakespeare: Stick Merchant of Venice",
-  "AppId": "852750",
-  "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/852750/header.jpg?t=1587181386",
-  "Languages": [
-    "english"
-  ],
-  "Platforms": {
-    "windows": true,
-    "mac": false,
-    "linux": true
+  "Dlcs": {
+    "1510940": {
+      "Name": "Paper Shakespeare: Stick Merchant of Venice: Furry Mode",
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1510940/header.jpg?t=1610150865",
+      "Type": "dlc"
+    }
   }
 }

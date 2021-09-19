@@ -1,78 +1,97 @@
-﻿{
-  "steam_stat_kills": {
-    "description": "",
-    "value": 0
+[
+  {
+    "name": "steam_stat_kills",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "steam_stat_deaths": {
-    "description": "",
-    "value": 0
+  {
+    "name": "steam_stat_deaths",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "steam_stat_shots_fired": {
-    "description": "",
-    "value": 0
+  {
+    "name": "steam_stat_shots_fired",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "steam_stat_balloons_hit": {
-    "description": "",
-    "value": 0
+  {
+    "name": "steam_stat_balloons_hit",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "steam_stat_matches_played": {
-    "description": "",
-    "value": 0
+  {
+    "name": "steam_stat_matches_played",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "steam_stat_matches_won": {
-    "description": "",
-    "value": 0
+  {
+    "name": "steam_stat_matches_won",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "steam_stat_ELO": {
-    "description": "",
-    "value": 0
+  {
+    "name": "steam_stat_ELO",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "steam_stat_high_score": {
-    "description": "",
-    "value": 0
+  {
+    "name": "steam_stat_high_score",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "challenge_one_high_score": {
-    "description": "",
-    "value": 0
+  {
+    "name": "challenge_one_high_score",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "deathmatch_high_score": {
-    "description": "",
-    "value": 0
+  {
+    "name": "deathmatch_high_score",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "deathmatch_kills": {
-    "description": "",
-    "value": 0
+  {
+    "name": "deathmatch_kills",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "deathmatch_deaths": {
-    "description": "",
-    "value": 0
+  {
+    "name": "deathmatch_deaths",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "challenge_two_high_score": {
-    "description": "",
-    "value": 0
+  {
+    "name": "challenge_two_high_score",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "challenge_three_high_score": {
-    "description": "",
-    "value": 0
+  {
+    "name": "challenge_three_high_score",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "challenge_four_high_score": {
-    "description": "",
-    "value": 0
+  {
+    "name": "challenge_four_high_score",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "horde_mode_wave": {
-    "description": "",
-    "value": 0
+  {
+    "name": "horde_mode_wave",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "horde_mode_wave_sp": {
-    "description": "",
-    "value": 0
+  {
+    "name": "horde_mode_wave_sp",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "challenge_five_high_score": {
-    "description": "",
-    "value": 0
+  {
+    "name": "challenge_five_high_score",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Achievment_Menu_Balloons_Popped": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Achievment_Menu_Balloons_Popped",
+    "defaultvalue": 0,
+    "displayName": ""
   }
-}
+]

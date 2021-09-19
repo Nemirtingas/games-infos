@@ -1,18 +1,22 @@
-﻿{
-  "SPINNERS_COMPLETE_TOTAL": {
-    "description": "Spinners Completed",
-    "value": 0
+[
+  {
+    "name": "SPINNERS_COMPLETE_TOTAL",
+    "defaultvalue": 0,
+    "displayName": "Spinners Completed"
   },
-  "MAZES_COMPLETE_TOTAL": {
-    "description": "Mazes Completed",
-    "value": 0
+  {
+    "name": "MAZES_COMPLETE_TOTAL",
+    "defaultvalue": 0,
+    "displayName": "Mazes Completed"
   },
-  "GEOMETRICS_COMPLETE_TOTAL": {
-    "description": "Geometrics Completed",
-    "value": 0
+  {
+    "name": "GEOMETRICS_COMPLETE_TOTAL",
+    "defaultvalue": 0,
+    "displayName": "Geometrics Completed"
   },
-  "BUILDER_COMPLETE_TOTAL": {
-    "description": "Builder Levels Completed",
-    "value": 0
+  {
+    "name": "BUILDER_COMPLETE_TOTAL",
+    "defaultvalue": 0,
+    "displayName": "Builder Levels Completed"
   }
-}
+]

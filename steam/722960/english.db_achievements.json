@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "name": "ACH_HOLE",
     "defaultvalue": 0,
@@ -156,5 +156,21 @@
     "hidden": 1,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/722960/01d8695f1b1492fafb84d1230308c866ee9a4629.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/722960/51bf668800ccf04817dacd6436b867860efa9cd1.jpg"
+  },
+  {
+    "name": "ACH_GIFT",
+    "defaultvalue": 0,
+    "displayName": "So, what was in the box?",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/722960/0f2ee70b3fa81c37b45ea7439e1d0b4fd187f950.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/722960/e2cd148c42c7ffe10dd8d984d5b594b74a39f98f.jpg"
+  },
+  {
+    "name": "ACH_DONUTDEATH",
+    "defaultvalue": 0,
+    "displayName": "You do not love donuts",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/722960/dad05011f3c5acf22bcedeb58948be20fbf03f58.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/722960/4717474971fb6c43bf0d8332b51fd64565fe1e9c.jpg"
   }
 ]

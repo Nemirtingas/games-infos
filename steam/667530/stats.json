@@ -47,10 +47,45 @@
   {
     "name": "MMR",
     "defaultvalue": 0,
-    "displayName": "MMR"
+    "displayName": "MMR Season -2"
   },
   {
     "name": "AvgVelocity",
+    "defaultvalue": 0,
+    "displayName": "Average Hit Velocity"
+  },
+  {
+    "name": "MMR-1",
+    "defaultvalue": 0,
+    "displayName": "MMR Season -1"
+  },
+  {
+    "name": "CompetitiveGames-1",
+    "defaultvalue": 0,
+    "displayName": "Season -1 Matches"
+  },
+  {
+    "name": "MMR0",
+    "defaultvalue": 0,
+    "displayName": "MMR"
+  },
+  {
+    "name": "CompetitiveGames0",
+    "defaultvalue": 0,
+    "displayName": "Season 0 Matches"
+  },
+  {
+    "name": "MMR1",
+    "defaultvalue": 0,
+    "displayName": "MMR"
+  },
+  {
+    "name": "CompetitiveGames1",
+    "defaultvalue": 0,
+    "displayName": "Competitive Games"
+  },
+  {
+    "name": "AvgHitVelocity",
     "defaultvalue": 0,
     "displayName": "Average Hit Velocity"
   }

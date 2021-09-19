@@ -1,13 +1,18 @@
 {
   "Dlcs": {
     "893770": {
-      "Name": "Absolver - Adalian Forest Pack",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/893770/header.jpg?t=1533657504"
+      "Name": "",
+      "ImageUrl": ""
+    },
+    "681700": {
+      "Name": "Absolver Soundtrack",
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/681700/header.jpg?t=1623772636",
+      "Type": "music"
     }
   },
   "Name": "Absolver",
   "AppId": "473690",
-  "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/473690/header.jpg?t=1593096286",
+  "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/473690/header.jpg?t=1623784106",
   "Languages": [
     "english",
     "french",
@@ -16,7 +21,8 @@
     "polish",
     "portuguese",
     "russian",
-    "japanese"
+    "japanese",
+    "schinese"
   ],
   "Platforms": {
     "windows": true,

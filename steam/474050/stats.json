@@ -1,6 +1,7 @@
-﻿{
-  "wins": {
-    "description": "Levels with no fails",
-    "value": 0
+[
+  {
+    "name": "wins",
+    "defaultvalue": 0,
+    "displayName": "Levels with no fails"
   }
-}
+]

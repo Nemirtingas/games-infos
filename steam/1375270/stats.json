@@ -1,14 +1,17 @@
-﻿{
-  "spcounter_spcounter": {
-    "description": "ACH_SP_COUNT",
-    "value": 0
+[
+  {
+    "name": "spcounter_spcounter",
+    "defaultvalue": 0,
+    "displayName": "ACH_SP_COUNT"
   },
-  "Q_COUNTER": {
-    "description": "ACH_Q_COUNT",
-    "value": 0
+  {
+    "name": "Q_COUNTER",
+    "defaultvalue": 0,
+    "displayName": "ACH_Q_COUNT"
   },
-  "SDW_COUNTER": {
-    "description": "ACH_SDW_COUNT",
-    "value": 0
+  {
+    "name": "SDW_COUNTER",
+    "defaultvalue": 0,
+    "displayName": "ACH_SDW_COUNT"
   }
-}
+]

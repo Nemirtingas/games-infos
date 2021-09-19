@@ -1,42 +1,52 @@
-﻿{
-  "%AllHeroquests": {
-    "description": "Quester progress",
-    "value": 0
+[
+  {
+    "name": "%AllHeroquests",
+    "defaultvalue": 0,
+    "displayName": "Quester progress"
   },
-  "%Tutorial": {
-    "description": "Initiate progress",
-    "value": 0
+  {
+    "name": "%Tutorial",
+    "defaultvalue": 0,
+    "displayName": "Initiate progress"
   },
-  "%ExploredEverything": {
-    "description": "Master Explorer progress",
-    "value": 0
+  {
+    "name": "%ExploredEverything",
+    "defaultvalue": 0,
+    "displayName": "Master Explorer progress"
   },
-  "%Victories5": {
-    "description": "Five Victories progress",
-    "value": 0
+  {
+    "name": "%Victories5",
+    "defaultvalue": 0,
+    "displayName": "Five Victories progress"
   },
-  "%Victories10": {
-    "description": "Ten Victories progress",
-    "value": 0
+  {
+    "name": "%Victories10",
+    "defaultvalue": 0,
+    "displayName": "Ten Victories progress"
   },
-  "%Magic25": {
-    "description": "Blessed progress",
-    "value": 0
+  {
+    "name": "%Magic25",
+    "defaultvalue": 0,
+    "displayName": "Blessed progress"
   },
-  "%Collector": {
-    "description": "Collector progress",
-    "value": 0
+  {
+    "name": "%Collector",
+    "defaultvalue": 0,
+    "displayName": "Collector progress"
   },
-  "%AllShrines": {
-    "description": "Pious progress",
-    "value": 0
+  {
+    "name": "%AllShrines",
+    "defaultvalue": 0,
+    "displayName": "Pious progress"
   },
-  "%Learned": {
-    "description": "Learned progress",
-    "value": 0
+  {
+    "name": "%Learned",
+    "defaultvalue": 0,
+    "displayName": "Learned progress"
   },
-  "%FortBuilder": {
-    "description": "Fort Builder progress",
-    "value": 0
+  {
+    "name": "%FortBuilder",
+    "defaultvalue": 0,
+    "displayName": "Fort Builder progress"
   }
-}
+]

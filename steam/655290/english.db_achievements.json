@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "name": "SURVIVE_NORMAL_EASY_BRONZE",
     "defaultvalue": 0,
@@ -727,5 +727,23 @@
     "description": "Experimental game started",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/655290/bf74abe320cf71adf2f5e5972d30ee9d7e66a51f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/655290/7a4b5a9bf75fdf7b48aefa603c9d071974297970.jpg"
+  },
+  {
+    "name": "TRAVEL_CLUSTERCHANGE_I",
+    "defaultvalue": 0,
+    "displayName": "Cluster Discoverer lvl. I",
+    "hidden": 0,
+    "description": "Discover 1 Island Clusters",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/655290/c0674e51e3a857222602ca141448de77b575bff0.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/655290/a0d4ef206ba93cadab50a21ed5687dad409b679a.jpg"
+  },
+  {
+    "name": "TRAVEL_OCEANTRAVEL_I",
+    "defaultvalue": 0,
+    "displayName": "Ocean Traveller lvl. I",
+    "hidden": 0,
+    "description": "Travel on Open Ocean 10 km",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/655290/c0674e51e3a857222602ca141448de77b575bff0.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/655290/a0d4ef206ba93cadab50a21ed5687dad409b679a.jpg"
   }
 ]

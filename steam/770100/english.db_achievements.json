@@ -530,5 +530,101 @@
     "description": "Win a game using a hybrid deck.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/770100/8ec1067ff8d472c445a149feda77f6d0a9bfbeaa.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/770100/35989af535b380e277337f969e2ba90065c80488.jpg"
+  },
+  {
+    "name": "Win_Aquamancer",
+    "defaultvalue": 0,
+    "displayName": "Aquamancer Victory",
+    "hidden": 0,
+    "description": "Win a game with the Aquamancer in your party.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/770100/034b498926b18ca16c502decb5c6b21e149fa1aa.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/770100/b689a5e37807db9e1e24c0064a0d9045a3750ad1.jpg"
+  },
+  {
+    "name": "Win_Dragoon",
+    "defaultvalue": 0,
+    "displayName": "Dragoon Victory",
+    "hidden": 0,
+    "description": "Win a game with the Dragoon in your party.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/770100/d89dc9ccfbb498c296698641e3158d061580a902.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/770100/95cb4309354d89dcbb795b961acd071f5ce6aca5.jpg"
+  },
+  {
+    "name": "DefeatAbyssalFiends",
+    "defaultvalue": 0,
+    "displayName": "Fiend Fighter",
+    "hidden": 0,
+    "description": "Win a game with each Fiend from Abyssal Depths.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/770100/cfb58a9f835ff5ad04b2ea3dd3153dd0a2371a8d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/770100/82af87bf3203966df142cacfb077d9bcb6c79248.jpg"
+  },
+  {
+    "name": "DefeatAbyssalFiendsDifficult",
+    "defaultvalue": 0,
+    "displayName": "Fiend Champion",
+    "hidden": 0,
+    "description": "Win a game with each Fiend from Abyssal Depths on the Difficult side.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/770100/e4b80440509547d89baa5a3934e3b6650180cfe9.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/770100/2255fabc721e67151efb7eaaa71fd677c4430d2e.jpg"
+  },
+  {
+    "name": "ThreatLevelZero",
+    "defaultvalue": 0,
+    "displayName": "Threat Neutralized",
+    "hidden": 0,
+    "description": "Reduce a Fiend to Threat Level 0.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/770100/41d6b9c2057c56fbcd9f2ae2f68e1c89e3458a32.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/770100/548af78f97d2c38ba78933565feb666d456cfa56.jpg"
+  },
+  {
+    "name": "ThreatLevelZeroThrice",
+    "defaultvalue": 0,
+    "displayName": "Stay Down!",
+    "hidden": 0,
+    "description": "Reduce a Fiend to Threat Level 0 three times in a single game.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/770100/9e972d43137b110613f03acc2369df4b673de7a2.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/770100/5996ae71d6a2a74981562d3858984c024b1f7bb6.jpg"
+  },
+  {
+    "name": "NoConfront",
+    "defaultvalue": 0,
+    "displayName": "What Fiend?",
+    "hidden": 0,
+    "description": "Win a game without ever confronting the Fiend.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/770100/e3cfb7ebf74b4969307a61d42c419788235cded1.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/770100/a3c14ee818f41030c0ab65286d3e04cc53a020c7.jpg"
+  },
+  {
+    "name": "FiendSmolderingRuins",
+    "defaultvalue": 0,
+    "displayName": "Dehydrated Dice",
+    "hidden": 0,
+    "description": "Win a game in the Smoldering Ruins with a Fiend.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/770100/90a686a2ebd94fe5afaf7da90f5fafc2a49ab2a3.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/770100/6edd3a8097ca0c2cdb6889ab386a8008e27cfcc1.jpg"
+  },
+  {
+    "name": "LoseToSharkwispDescend",
+    "defaultvalue": 0,
+    "displayName": "Hold the Door!",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/770100/6bd789a1df61c152db463a970f9d18700adee6ee.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/770100/afbca496887c96918b5410101f45067093d07021.jpg"
+  },
+  {
+    "name": "LoseToSharkwispExplore",
+    "defaultvalue": 0,
+    "displayName": "Unfinished Business",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/770100/51813c17745a624521f8268a1056ece567288138.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/770100/62b97a6970b8d6cc44171b81cf9cfba5ab0abcd1.jpg"
+  },
+  {
+    "name": "LoseToTerrorshellLoot",
+    "defaultvalue": 0,
+    "displayName": "Turtles All The Way Down",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/770100/8aab7a12dbf888619c46a77e309034194bde695a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/770100/1c85d7983dde4f6fa7f894ae591585e01f13315b.jpg"
   }
 ]

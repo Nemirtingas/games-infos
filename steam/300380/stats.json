@@ -1,226 +1,282 @@
-﻿{
-  "NumGames": {
-    "description": "Games Played",
-    "value": 0
+[
+  {
+    "name": "NumGames",
+    "defaultvalue": 0,
+    "displayName": "Games Played"
   },
-  "NumWins": {
-    "description": "Games Won",
-    "value": 0
+  {
+    "name": "NumWins",
+    "defaultvalue": 0,
+    "displayName": "Games Won"
   },
-  "NumLosses": {
-    "description": "Games Lost",
-    "value": 0
+  {
+    "name": "NumLosses",
+    "defaultvalue": 0,
+    "displayName": "Games Lost"
   },
-  "NumDollars": {
-    "description": "Dollar Amount",
-    "value": 0
+  {
+    "name": "NumDollars",
+    "defaultvalue": 0,
+    "displayName": "Dollar Amount"
   },
-  "NumDeaths": {
-    "description": "Death Count",
-    "value": 0
+  {
+    "name": "NumDeaths",
+    "defaultvalue": 0,
+    "displayName": "Death Count"
   },
-  "NumKills": {
-    "description": "Kill Count",
-    "value": 0
+  {
+    "name": "NumKills",
+    "defaultvalue": 0,
+    "displayName": "Kill Count"
   },
-  "NumMoneyAmount": {
-    "description": "Money Count",
-    "value": 0
+  {
+    "name": "NumMoneyAmount",
+    "defaultvalue": 0,
+    "displayName": "Money Count"
   },
-  "NumSledgeKills": {
-    "description": "Sledge Kill Count",
-    "value": 0
+  {
+    "name": "NumSledgeKills",
+    "defaultvalue": 0,
+    "displayName": "Sledge Kill Count"
   },
-  "NumKatanaKills": {
-    "description": "Katana Kill Count",
-    "value": 0
+  {
+    "name": "NumKatanaKills",
+    "defaultvalue": 0,
+    "displayName": "Katana Kill Count"
   },
-  "NumC4KillCount": {
-    "description": "C4 Kill Count",
-    "value": 0
+  {
+    "name": "NumC4KillCount",
+    "defaultvalue": 0,
+    "displayName": "C4 Kill Count"
   },
-  "NumEnemiesDeflected": {
-    "description": "Player Deflect Count",
-    "value": 0
+  {
+    "name": "NumEnemiesDeflected",
+    "defaultvalue": 0,
+    "displayName": "Player Deflect Count"
   },
-  "NumShootingKills": {
-    "description": "Shooting Kill Count",
-    "value": 0
+  {
+    "name": "NumShootingKills",
+    "defaultvalue": 0,
+    "displayName": "Shooting Kill Count"
   },
-  "NumBatKills": {
-    "description": "Bat Kill Count",
-    "value": 0
+  {
+    "name": "NumBatKills",
+    "defaultvalue": 0,
+    "displayName": "Bat Kill Count"
   },
-  "NumRainbowRoad": {
-    "description": "RRcount",
-    "value": 0
+  {
+    "name": "NumRainbowRoad",
+    "defaultvalue": 0,
+    "displayName": "RRcount"
   },
-  "NumRidgeRampage": {
-    "description": "RidgeCount",
-    "value": 0
+  {
+    "name": "NumRidgeRampage",
+    "defaultvalue": 0,
+    "displayName": "RidgeCount"
   },
-  "NumThunderSnow": {
-    "description": "ThunderCount",
-    "value": 0
+  {
+    "name": "NumThunderSnow",
+    "defaultvalue": 0,
+    "displayName": "ThunderCount"
   },
-  "NumRooftops": {
-    "description": "RoofCount",
-    "value": 0
+  {
+    "name": "NumRooftops",
+    "defaultvalue": 0,
+    "displayName": "RoofCount"
   },
-  "NumDevilBridge": {
-    "description": "DBridgeCount",
-    "value": 0
+  {
+    "name": "NumDevilBridge",
+    "defaultvalue": 0,
+    "displayName": "DBridgeCount"
   },
-  "NumRagingPlateau": {
-    "description": "RagingCount",
-    "value": 0
+  {
+    "name": "NumRagingPlateau",
+    "defaultvalue": 0,
+    "displayName": "RagingCount"
   },
-  "NumDevilsCave": {
-    "description": "DCaveCount",
-    "value": 0
+  {
+    "name": "NumDevilsCave",
+    "defaultvalue": 0,
+    "displayName": "DCaveCount"
   },
-  "NumAmericasRuins": {
-    "description": "ARuinsCount",
-    "value": 0
+  {
+    "name": "NumAmericasRuins",
+    "defaultvalue": 0,
+    "displayName": "ARuinsCount"
   },
-  "NumRagingPlateausQuickRace": {
-    "description": "RPQRCount",
-    "value": 0
+  {
+    "name": "NumRagingPlateausQuickRace",
+    "defaultvalue": 0,
+    "displayName": "RPQRCount"
   },
-  "NumDesertDashQuickRace": {
-    "description": "DDQRCount",
-    "value": 0
+  {
+    "name": "NumDesertDashQuickRace",
+    "defaultvalue": 0,
+    "displayName": "DDQRCount"
   },
-  "NumBoomTrucksQuickRace": {
-    "description": "BTQRCount",
-    "value": 0
+  {
+    "name": "NumBoomTrucksQuickRace",
+    "defaultvalue": 0,
+    "displayName": "BTQRCount"
   },
-  "NumWinterSupportQuickRace": {
-    "description": "WSQRCount",
-    "value": 0
+  {
+    "name": "NumWinterSupportQuickRace",
+    "defaultvalue": 0,
+    "displayName": "WSQRCount"
   },
-  "NumRooftopsRunQuickRace": {
-    "description": "RRQRCount",
-    "value": 0
+  {
+    "name": "NumRooftopsRunQuickRace",
+    "defaultvalue": 0,
+    "displayName": "RRQRCount"
   },
-  "NumRidgeRampageQuickRace": {
-    "description": "RidgeRQRCount",
-    "value": 0
+  {
+    "name": "NumRidgeRampageQuickRace",
+    "defaultvalue": 0,
+    "displayName": "RidgeRQRCount"
   },
-  "NumDevilsBridgeDerbyQuickRace": {
-    "description": "DBDQRCount",
-    "value": 0
+  {
+    "name": "NumDevilsBridgeDerbyQuickRace",
+    "defaultvalue": 0,
+    "displayName": "DBDQRCount"
   },
-  "NumIceCopsQuickRace": {
-    "description": "ICQRCount",
-    "value": 0
+  {
+    "name": "NumIceCopsQuickRace",
+    "defaultvalue": 0,
+    "displayName": "ICQRCount"
   },
-  "NumDangerZoneQuickRace": {
-    "description": "DZQRCount",
-    "value": 0
+  {
+    "name": "NumDangerZoneQuickRace",
+    "defaultvalue": 0,
+    "displayName": "DZQRCount"
   },
-  "NumAmericasRuinsQuickRace": {
-    "description": "ARQRCount",
-    "value": 0
+  {
+    "name": "NumAmericasRuinsQuickRace",
+    "defaultvalue": 0,
+    "displayName": "ARQRCount"
   },
-  "NumPhantomWheelsQuickRace": {
-    "description": "PWQRCount",
-    "value": 0
+  {
+    "name": "NumPhantomWheelsQuickRace",
+    "defaultvalue": 0,
+    "displayName": "PWQRCount"
   },
-  "NumImminentDeathQuickRace": {
-    "description": "IDQRCount",
-    "value": 0
+  {
+    "name": "NumImminentDeathQuickRace",
+    "defaultvalue": 0,
+    "displayName": "IDQRCount"
   },
-  "NumApocalypseNowQuickRace": {
-    "description": "ANQRCount",
-    "value": 0
+  {
+    "name": "NumApocalypseNowQuickRace",
+    "defaultvalue": 0,
+    "displayName": "ANQRCount"
   },
-  "NumDesertAllianceQuickRace": {
-    "description": "DAQRCount",
-    "value": 0
+  {
+    "name": "NumDesertAllianceQuickRace",
+    "defaultvalue": 0,
+    "displayName": "DAQRCount"
   },
-  "NumExplosiveHeatQuickRace": {
-    "description": "EHQRCount",
-    "value": 0
+  {
+    "name": "NumExplosiveHeatQuickRace",
+    "defaultvalue": 0,
+    "displayName": "EHQRCount"
   },
-  "NumCampaignPlusWins": {
-    "description": "CPlus Games Won",
-    "value": 0
+  {
+    "name": "NumCampaignPlusWins",
+    "defaultvalue": 0,
+    "displayName": "CPlus Games Won"
   },
-  "NumBeatCampaignVanilla0": {
-    "description": "Campaign win Vanilla 0",
-    "value": 0
+  {
+    "name": "NumBeatCampaignVanilla0",
+    "defaultvalue": 0,
+    "displayName": "Campaign win Vanilla 0"
   },
-  "NumBeatCampaignVanilla1": {
-    "description": "Campaign win Vanilla 1",
-    "value": 0
+  {
+    "name": "NumBeatCampaignVanilla1",
+    "defaultvalue": 0,
+    "displayName": "Campaign win Vanilla 1"
   },
-  "NumBeatCampaignVanilla2": {
-    "description": "Campaign win Vanilla 2",
-    "value": 0
+  {
+    "name": "NumBeatCampaignVanilla2",
+    "defaultvalue": 0,
+    "displayName": "Campaign win Vanilla 2"
   },
-  "NumBeatCampaignVanilla3": {
-    "description": "Campaign win Vanilla 3",
-    "value": 0
+  {
+    "name": "NumBeatCampaignVanilla3",
+    "defaultvalue": 0,
+    "displayName": "Campaign win Vanilla 3"
   },
-  "NumBeatCampaignNoGuns": {
-    "description": "Campaign win no guns",
-    "value": 0
+  {
+    "name": "NumBeatCampaignNoGuns",
+    "defaultvalue": 0,
+    "displayName": "Campaign win no guns"
   },
-  "NumBeatCampaignOnlyGuns": {
-    "description": "Campaign win only guns",
-    "value": 0
+  {
+    "name": "NumBeatCampaignOnlyGuns",
+    "defaultvalue": 0,
+    "displayName": "Campaign win only guns"
   },
-  "NumBeatCampaignInfiniteJumpAndNitro": {
-    "description": "Campaign win infinite jump and nitro",
-    "value": 0
+  {
+    "name": "NumBeatCampaignInfiniteJumpAndNitro",
+    "defaultvalue": 0,
+    "displayName": "Campaign win infinite jump and nitro"
   },
-  "NumBeatCampaignNoSkillTree": {
-    "description": "Campaign win no skill tree",
-    "value": 0
+  {
+    "name": "NumBeatCampaignNoSkillTree",
+    "defaultvalue": 0,
+    "displayName": "Campaign win no skill tree"
   },
-  "NumBeatCampaignStunMan": {
-    "description": "Campaign win with stun man",
-    "value": 0
+  {
+    "name": "NumBeatCampaignStunMan",
+    "defaultvalue": 0,
+    "displayName": "Campaign win with stun man"
   },
-  "NumBeatCampaignNoHealthGain": {
-    "description": "Campaign win with no health gain",
-    "value": 0
+  {
+    "name": "NumBeatCampaignNoHealthGain",
+    "defaultvalue": 0,
+    "displayName": "Campaign win with no health gain"
   },
-  "NumBeatCampaignNoHealth": {
-    "description": "Campaign win with no health",
-    "value": 0
+  {
+    "name": "NumBeatCampaignNoHealth",
+    "defaultvalue": 0,
+    "displayName": "Campaign win with no health"
   },
-  "NumBeatCampaignOneHealthGrowing": {
-    "description": "Campaign one health growing",
-    "value": 0
+  {
+    "name": "NumBeatCampaignOneHealthGrowing",
+    "defaultvalue": 0,
+    "displayName": "Campaign one health growing"
   },
-  "NumBeatCampaignShovelKnight": {
-    "description": "Campaign shovelknight",
-    "value": 0
+  {
+    "name": "NumBeatCampaignShovelKnight",
+    "defaultvalue": 0,
+    "displayName": "Campaign shovelknight"
   },
-  "NumBeatCampaignHalloween": {
-    "description": "Campaign pumpkinhead",
-    "value": 0
+  {
+    "name": "NumBeatCampaignHalloween",
+    "defaultvalue": 0,
+    "displayName": "Campaign pumpkinhead"
   },
-  "NumBeatCampaignSanta": {
-    "description": "Campaign Santa",
-    "value": 0
+  {
+    "name": "NumBeatCampaignSanta",
+    "defaultvalue": 0,
+    "displayName": "Campaign Santa"
   },
-  "NumBeatCampaignOneArm": {
-    "description": "Campaign One Arm",
-    "value": 0
+  {
+    "name": "NumBeatCampaignOneArm",
+    "defaultvalue": 0,
+    "displayName": "Campaign One Arm"
   },
-  "NumBeatCampaignNoDrops": {
-    "description": "Campaign No Drops",
-    "value": 0
+  {
+    "name": "NumBeatCampaignNoDrops",
+    "defaultvalue": 0,
+    "displayName": "Campaign No Drops"
   },
-  "NumBeatCampaignZed": {
-    "description": "Campaign Zombie",
-    "value": 0
+  {
+    "name": "NumBeatCampaignZed",
+    "defaultvalue": 0,
+    "displayName": "Campaign Zombie"
   },
-  "NumBeatCampaignHANS": {
-    "description": "Campaign HANS",
-    "value": 0
+  {
+    "name": "NumBeatCampaignHANS",
+    "defaultvalue": 0,
+    "displayName": "Campaign HANS"
   }
-}
+]

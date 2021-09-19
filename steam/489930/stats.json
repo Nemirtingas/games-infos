@@ -1,22 +1,27 @@
-﻿{
-  "achievement05_stat": {
-    "description": "Soap customers called",
-    "value": 0
+[
+  {
+    "name": "achievement05_stat",
+    "defaultvalue": 0,
+    "displayName": "Soap customers called"
   },
-  "achievement07_stat": {
-    "description": "Jeckyll potions used",
-    "value": 0
+  {
+    "name": "achievement07_stat",
+    "defaultvalue": 0,
+    "displayName": "Jeckyll potions used"
   },
-  "achievement08_stat": {
-    "description": "Tea machines used",
-    "value": 0
+  {
+    "name": "achievement08_stat",
+    "defaultvalue": 0,
+    "displayName": "Tea machines used"
   },
-  "achievement09_stat": {
-    "description": "Pigeon flocks bothered",
-    "value": 0
+  {
+    "name": "achievement09_stat",
+    "defaultvalue": 0,
+    "displayName": "Pigeon flocks bothered"
   },
-  "achievement10_stat": {
-    "description": "Characters spoken to",
-    "value": 0
+  {
+    "name": "achievement10_stat",
+    "defaultvalue": 0,
+    "displayName": "Characters spoken to"
   }
-}
+]

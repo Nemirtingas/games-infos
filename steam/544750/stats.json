@@ -1,10 +1,12 @@
-﻿{
-  "RankmatchWorld_Score": {
-    "description": "PlayerPoint",
-    "value": 0
+[
+  {
+    "name": "RankmatchWorld_Score",
+    "defaultvalue": 0,
+    "displayName": "PlayerPoint"
   },
-  "Class": {
-    "description": "PlayerClass",
-    "value": 0
+  {
+    "name": "Class",
+    "defaultvalue": 0,
+    "displayName": "PlayerClass"
   }
-}
+]

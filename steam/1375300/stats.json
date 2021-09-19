@@ -1,58 +1,72 @@
-﻿{
-  "hmodbitir": {
-    "description": "H Mod Bitir",
-    "value": 0
+[
+  {
+    "name": "hmodbitir",
+    "defaultvalue": 0,
+    "displayName": "H Mod Bitir"
   },
-  "onkisioldur": {
-    "description": "10 Players Kill",
-    "value": 0
+  {
+    "name": "onkisioldur",
+    "defaultvalue": 0,
+    "displayName": "10 Players Kill"
   },
-  "onheadshot": {
-    "description": "10 Head Shot",
-    "value": 0
+  {
+    "name": "onheadshot",
+    "defaultvalue": 0,
+    "displayName": "10 Head Shot"
   },
-  "tmode5sec": {
-    "description": "T-Mode 5 Minute",
-    "value": 0
+  {
+    "name": "tmode5sec",
+    "defaultvalue": 0,
+    "displayName": "T-Mode 5 Minute"
   },
-  "scarltenplayers": {
-    "description": "Scar-L 10 players kill",
-    "value": 0
+  {
+    "name": "scarltenplayers",
+    "defaultvalue": 0,
+    "displayName": "Scar-L 10 players kill"
   },
-  "scarlonheadshot": {
-    "description": "Scar-L 10 Head Shot",
-    "value": 0
+  {
+    "name": "scarlonheadshot",
+    "defaultvalue": 0,
+    "displayName": "Scar-L 10 Head Shot"
   },
-  "awmbeskisi": {
-    "description": "Awm 5 Players Kill",
-    "value": 0
+  {
+    "name": "awmbeskisi",
+    "defaultvalue": 0,
+    "displayName": "Awm 5 Players Kill"
   },
-  "awmheadshot": {
-    "description": "Awm Head Shot",
-    "value": 0
+  {
+    "name": "awmheadshot",
+    "defaultvalue": 0,
+    "displayName": "Awm Head Shot"
   },
-  "twoaxwfiveplayerskill": {
-    "description": "Two Axe 5 Players Kill",
-    "value": 0
+  {
+    "name": "twoaxwfiveplayerskill",
+    "defaultvalue": 0,
+    "displayName": "Two Axe 5 Players Kill"
   },
-  "galibiyet": {
-    "description": "win",
-    "value": 0
+  {
+    "name": "galibiyet",
+    "defaultvalue": 0,
+    "displayName": "win"
   },
-  "toplammac": {
-    "description": "Total game play",
-    "value": 0
+  {
+    "name": "toplammac",
+    "defaultvalue": 0,
+    "displayName": "Total game play"
   },
-  "oynamasuresi": {
-    "description": "Total play time",
-    "value": 0
+  {
+    "name": "oynamasuresi",
+    "defaultvalue": 0,
+    "displayName": "Total play time"
   },
-  "oldurmeler": {
-    "description": "Total Killing",
-    "value": 0
+  {
+    "name": "oldurmeler",
+    "defaultvalue": 0,
+    "displayName": "Total Killing"
   },
-  "totalheadshot": {
-    "description": "Total Head Shot",
-    "value": 0
+  {
+    "name": "totalheadshot",
+    "defaultvalue": 0,
+    "displayName": "Total Head Shot"
   }
-}
+]

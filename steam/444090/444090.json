@@ -1,25 +1,34 @@
-﻿{
+{
   "Dlcs": {
-    "803381": {
-      "Name": "Paladins - Champions Pack",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/803381/header.jpg?t=1541700490"
+    "1517460": {
+      "Name": "Paladins Season Pass 2021",
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1517460/header.jpg?t=1612355604",
+      "Type": "dlc"
     },
-    "995960": {
-      "Name": "Paladins - Season Pass 2019 + 2020",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/995960/header.jpg?t=1578941893"
+    "1517480": {
+      "Name": "Paladins Starter Edition",
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1517480/header.jpg?t=1612355052",
+      "Type": "dlc"
     },
-    "995970": {
-      "Name": "Paladins - Digital Deluxe Edition 2019 + 2020",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/995970/header.jpg?t=1576855591"
+    "1517481": {
+      "Name": "Paladins Gold Edition",
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1517481/header.jpg?t=1612355220",
+      "Type": "dlc"
     },
-    "1271270": {
-      "Name": "Paladins - Dragon Rider Pack",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/1271270/header.jpg?t=1590588942"
+    "1517482": {
+      "Name": "Paladins Deluxe Edition",
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1517482/header.jpg?t=1612355351",
+      "Type": "dlc"
+    },
+    "1721880": {
+      "Name": "Paladins Sky Whale Pack",
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1721880/header.jpg?t=1631705877",
+      "Type": "dlc"
     }
   },
   "Name": "Paladins®",
   "AppId": "444090",
-  "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/444090/header.jpg?t=1596030481",
+  "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/444090/header.jpg?t=1631679622",
   "Languages": [
     "english",
     "french",
@@ -28,7 +37,8 @@
     "polish",
     "russian",
     "turkish",
-    "portuguese"
+    "portuguese",
+    "japanese"
   ],
   "Platforms": {
     "windows": true,

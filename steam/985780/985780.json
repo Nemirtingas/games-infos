@@ -2,16 +2,21 @@
   "Dlcs": {},
   "Name": "Jack Axe",
   "AppId": "985780",
-  "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/985780/header.jpg?t=1597889130",
+  "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/985780/header.jpg?t=1631501088",
   "Languages": [
     "english",
     "schinese",
     "tchinese",
-    "japanese"
+    "japanese",
+    "russian",
+    "french",
+    "german",
+    "spanish",
+    "latam"
   ],
   "Platforms": {
     "windows": true,
-    "mac": true,
+    "mac": false,
     "linux": false
   }
 }

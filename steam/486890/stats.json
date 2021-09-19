@@ -1,10 +1,12 @@
-﻿{
-  "score_lt": {
-    "description": "Lifetime Score",
-    "value": 0
+[
+  {
+    "name": "score_lt",
+    "defaultvalue": 0,
+    "displayName": "Lifetime Score"
   },
-  "deaths_lt": {
-    "description": "Lifetime Deaths",
-    "value": 0
+  {
+    "name": "deaths_lt",
+    "defaultvalue": 0,
+    "displayName": "Lifetime Deaths"
   }
-}
+]

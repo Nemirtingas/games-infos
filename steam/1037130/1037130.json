@@ -1,8 +1,8 @@
-﻿{
+{
   "Dlcs": {},
   "Name": "Dandy Ace",
   "AppId": "1037130",
-  "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/1037130/header.jpg?t=1600279646",
+  "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1037130/header.jpg?t=1620854766",
   "Languages": [
     "english",
     "spanish",
@@ -12,11 +12,13 @@
     "japanese",
     "schinese",
     "tchinese",
-    "korean"
+    "korean",
+    "polish",
+    "russian"
   ],
   "Platforms": {
     "windows": true,
-    "mac": false,
+    "mac": true,
     "linux": false
   }
 }

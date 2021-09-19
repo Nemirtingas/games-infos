@@ -1,58 +1,34 @@
 {
   "Dlcs": {
-    "835750": {
-      "Name": "Simon the Sorcerer 2 - Legacy Edition (English)",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/835750/header.jpg?t=1525189812"
-    },
-    "836320": {
-      "Name": "Simon the Sorcerer 2 - Legacy Edition (German)",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/836320/header.jpg?t=1553063973"
-    },
-    "836321": {
-      "Name": "Simon the Sorcerer 2 - Legacy Edition (French)",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/836321/header.jpg?t=1525190965"
-    },
-    "1052270": {
-      "Name": "Simon the Sorcerer 2 - Legacy Edition (Russian)",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/1052270/header.jpg?t=1553155115"
-    },
-    "1052271": {
-      "Name": "Simon the Sorcerer 2 - Legacy Edition (Czech)",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/1052271/header.jpg?t=1553155137"
-    },
-    "1052272": {
-      "Name": "Simon the Sorcerer 2 - Legacy Edition (Italian)",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/1052272/header.jpg?t=1553155154"
-    },
-    "1052273": {
-      "Name": "Simon the Sorcerer 2 - Legacy Edition (Polish)",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/1052273/header.jpg?t=1553155174"
+    "1052275": {
+      "Name": "Simon the Sorcerer 2 - Legacy Edition (Hebrew)",
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1052275/header.jpg?t=1619161430",
+      "Type": "dlc"
     },
     "1052274": {
       "Name": "Simon the Sorcerer 2 - Legacy Edition (Spanish)",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/1052274/header.jpg?t=1553155083"
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1052274/header.jpg?t=1553155083",
+      "Type": "dlc"
     },
-    "1052275": {
-      "Name": "Simon the Sorcerer 2 - Legacy Edition (Hebrew)",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/1052275/header.jpg?t=1553155062"
+    "1052273": {
+      "Name": "Simon the Sorcerer 2 - Legacy Edition (Polish)",
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1052273/header.jpg?t=1553155174",
+      "Type": "dlc"
+    },
+    "1052272": {
+      "Name": "Simon the Sorcerer 2 - Legacy Edition (Italian)",
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1052272/header.jpg?t=1553155154",
+      "Type": "dlc"
+    },
+    "1052271": {
+      "Name": "Simon the Sorcerer 2 - Legacy Edition (Czech)",
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1052271/header.jpg?t=1553155137",
+      "Type": "dlc"
+    },
+    "1052270": {
+      "Name": "Simon the Sorcerer 2 - Legacy Edition (Russian)",
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1052270/header.jpg?t=1553155115",
+      "Type": "dlc"
     }
-  },
-  "Name": "Simon the Sorcerer 2: 25th Anniversary Edition",
-  "AppId": "678760",
-  "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/678760/header.jpg?t=1598355157",
-  "Languages": [
-    "english",
-    "french",
-    "italian",
-    "german",
-    "spanish",
-    "russian",
-    "swedish",
-    "latam"
-  ],
-  "Platforms": {
-    "windows": true,
-    "mac": false,
-    "linux": false
   }
 }

@@ -1,30 +1,37 @@
-﻿{
-  "Sniper": {
-    "description": "Sniper",
-    "value": 0
+[
+  {
+    "name": "Sniper",
+    "defaultvalue": 0,
+    "displayName": "Sniper"
   },
-  "TopAir": {
-    "description": "TopAir",
-    "value": 0
+  {
+    "name": "TopAir",
+    "defaultvalue": 0,
+    "displayName": "TopAir"
   },
-  "MorAssist": {
-    "description": "Mortar Assists",
-    "value": 0
+  {
+    "name": "MorAssist",
+    "defaultvalue": 0,
+    "displayName": "Mortar Assists"
   },
-  "MorHunter": {
-    "description": "Mortars Killed",
-    "value": 0
+  {
+    "name": "MorHunter",
+    "defaultvalue": 0,
+    "displayName": "Mortars Killed"
   },
-  "ManHunter": {
-    "description": "Manpads Killed",
-    "value": 0
+  {
+    "name": "ManHunter",
+    "defaultvalue": 0,
+    "displayName": "Manpads Killed"
   },
-  "RPGHunter": {
-    "description": "RPGs killed",
-    "value": 0
+  {
+    "name": "RPGHunter",
+    "defaultvalue": 0,
+    "displayName": "RPGs killed"
   },
-  "AntiInfantry": {
-    "description": "Anti Infantry Progress",
-    "value": 0
+  {
+    "name": "AntiInfantry",
+    "defaultvalue": 0,
+    "displayName": "Anti Infantry Progress"
   }
-}
+]

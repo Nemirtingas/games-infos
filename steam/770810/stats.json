@@ -1,10 +1,12 @@
-﻿{
-  "stat_pizzas": {
-    "description": "Pizzas made",
-    "value": 0
+[
+  {
+    "name": "stat_pizzas",
+    "defaultvalue": 0,
+    "displayName": "Pizzas made"
   },
-  "stat_funds_earned": {
-    "description": "Funds earned",
-    "value": 0
+  {
+    "name": "stat_funds_earned",
+    "defaultvalue": 0,
+    "displayName": "Funds earned"
   }
-}
+]

@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "name": "com.playdekgames.ascension.OnYourWay",
     "defaultvalue": 0,
@@ -40,7 +40,7 @@
     "defaultvalue": 0,
     "displayName": "Have Everything – RotF",
     "hidden": 0,
-    "description": "Acquire or defeat every card in Chronicle of the Godslayer",
+    "description": "Acquire or defeat every card in Return of the Fallen",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/320430/74e5a4f32f607e394843507e96d676b2ac0bae51.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/320430/67229b23e5fce579971151a9a4c653f6d66dd40c.jpg"
   },
@@ -673,5 +673,59 @@
     "description": "Roll the Delirium Die using the Dream Dealer's effect.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/320430/4194b17fe533bd419e69db950cc38d168dd03a2d.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/320430/eb6f7e1ebdd381ae7856204136066a6d252305f7.jpg"
+  },
+  {
+    "name": "com.playdekgames.ascension.ACompleteTransformation",
+    "defaultvalue": 0,
+    "displayName": "A Complete Transformation",
+    "hidden": 0,
+    "description": "Transform all of the cards in Deliverance.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/320430/a7fbb50ed1d3af93219b3a4d76d8d4eeeb990dbe.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/320430/cf2b851cf56c8e071cd68f2badf5b6848fa31769.jpg"
+  },
+  {
+    "name": "com.playdekgames.ascension.GodOfPlunder",
+    "defaultvalue": 0,
+    "displayName": "God Of Plunder",
+    "hidden": 0,
+    "description": "Activate the Plunder effect five times in a single game. ",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/320430/a7fbb50ed1d3af93219b3a4d76d8d4eeeb990dbe.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/320430/cf2b851cf56c8e071cd68f2badf5b6848fa31769.jpg"
+  },
+  {
+    "name": "com.playdekgames.ascension.TheTallManApproves",
+    "defaultvalue": 0,
+    "displayName": "The Tall Man Approves",
+    "hidden": 0,
+    "description": "Activate the Phantasm effect five times in a single game. ",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/320430/a7fbb50ed1d3af93219b3a4d76d8d4eeeb990dbe.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/320430/cf2b851cf56c8e071cd68f2badf5b6848fa31769.jpg"
+  },
+  {
+    "name": "com.playdekgames.ascension.FourOfSwords",
+    "defaultvalue": 0,
+    "displayName": "Four Of Swords",
+    "hidden": 0,
+    "description": "Acquire Pasythea, The Redeemed for free.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/320430/a7fbb50ed1d3af93219b3a4d76d8d4eeeb990dbe.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/320430/cf2b851cf56c8e071cd68f2badf5b6848fa31769.jpg"
+  },
+  {
+    "name": "com.playdekgames.ascension.SoulSisters",
+    "defaultvalue": 0,
+    "displayName": "Soul Sisters",
+    "hidden": 0,
+    "description": "Play \"Naka, Emri's Chosen\" and \"Emri, Soulstealer\" on the same turn. ",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/320430/a7fbb50ed1d3af93219b3a4d76d8d4eeeb990dbe.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/320430/cf2b851cf56c8e071cd68f2badf5b6848fa31769.jpg"
+  },
+  {
+    "name": "com.playdekgames.ascension.Shackled",
+    "defaultvalue": 0,
+    "displayName": "Shackled",
+    "hidden": 0,
+    "description": "Using only Deliveraance, finish a game with only Dreambind cards in your deck. ",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/320430/a7fbb50ed1d3af93219b3a4d76d8d4eeeb990dbe.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/320430/cf2b851cf56c8e071cd68f2badf5b6848fa31769.jpg"
   }
 ]

@@ -1,14 +1,17 @@
-﻿{
-  "stat_int": {
-    "description": "Integer Stat",
-    "value": 0
+[
+  {
+    "name": "stat_int",
+    "defaultvalue": 0,
+    "displayName": "Integer Stat"
   },
-  "stat_float_aggregated": {
-    "description": "Aggregated Float Stat",
-    "value": 0
+  {
+    "name": "stat_float_aggregated",
+    "defaultvalue": 0,
+    "displayName": "Aggregated Float Stat"
   },
-  "stat_int_incr": {
-    "description": "Stat Int Increment Only",
-    "value": 0
+  {
+    "name": "stat_int_incr",
+    "defaultvalue": 0,
+    "displayName": "Stat Int Increment Only"
   }
-}
+]

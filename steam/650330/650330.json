@@ -2,23 +2,13 @@
   "Dlcs": {
     "1073730": {
       "Name": "Sanator: A Cart of Rarities",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/1073730/header.jpg?t=1559836827"
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1073730/header.jpg?t=1559836827",
+      "Type": "dlc"
     },
     "1079350": {
       "Name": "Sanator: Scarlet Scarf - Original Soundtrack",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/1079350/header.jpg?t=1559836824"
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1079350/header.jpg?t=1559836824",
+      "Type": "dlc"
     }
-  },
-  "Name": "Sanator: Scarlet Scarf",
-  "AppId": "650330",
-  "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/650330/header.jpg?t=1568798315",
-  "Languages": [
-    "english",
-    "russian"
-  ],
-  "Platforms": {
-    "windows": true,
-    "mac": true,
-    "linux": true
   }
 }

@@ -34,5 +34,23 @@
     "description": "Inspect a hero in the Gallery",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/589250/3e4c6be31f4b0370c7a1acc1c9ac7cfa7600b10c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/589250/f80b681012fe1a6d5dfb8ffdb4f04a6b2ef6259e.jpg"
+  },
+  {
+    "name": "COMIC_FAN",
+    "defaultvalue": 0,
+    "displayName": "Comic Fan",
+    "hidden": 0,
+    "description": "Collect 25 comic books in the Sandbox",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/589250/",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/589250/"
+  },
+  {
+    "name": "COMICBOOK_ADDICT",
+    "defaultvalue": 0,
+    "displayName": "Comicbook Addict",
+    "hidden": 0,
+    "description": "Collect all 50 comic books in the Sandbox",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/589250/",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/589250/"
   }
 ]

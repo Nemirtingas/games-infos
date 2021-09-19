@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "name": "ACH_STORY_KILL_CULTIST_CAMP",
     "defaultvalue": 0,
@@ -632,5 +632,53 @@
     "description": "Get killed by a suicidal enemy",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/527230/f324badb9751327820bc123ac71b8f13be155cd0.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/527230/4d15734ebf3afa977c74bdc739c5816f30550ad2.jpg"
+  },
+  {
+    "name": "ACH_STORY_JU_COMPLETE",
+    "defaultvalue": 0,
+    "displayName": "Intergalactic Planetary",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/527230/6e033d80cff6f440797e8c95ec9e29d7c9c3488b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/527230/25dfd45c8871c1c834c25c6f16deb62adbe5029a.jpg"
+  },
+  {
+    "name": "ACH_STORY_JU_DESERTPATH",
+    "defaultvalue": 0,
+    "displayName": "Are you not entertained?",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/527230/1edb7c24ee63fd05d534939d145418d92489399b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/527230/573ea5d1a7b9e00086f3b72a9ecc1b5effcbadc7.jpg"
+  },
+  {
+    "name": "ACH_STORY_JU_VOLCANOPATH",
+    "defaultvalue": 0,
+    "displayName": "The Floor is Lava",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/527230/3a7febb7bcdba870eeddfe241d8a1ffc8a01d0f9.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/527230/eb98df26e1adb00d65b1dca2a4fb024cf9e08d24.jpg"
+  },
+  {
+    "name": "ACH_STORY_JU_JUNGLE",
+    "defaultvalue": 0,
+    "displayName": "Welcome to the Jungle",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/527230/92261df17576853946fedecbb6f5e2fa9c1c1548.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/527230/155899ae392abd3330133a9e1bf2631e6fcafe35.jpg"
+  },
+  {
+    "name": "ACH_KILL_SNAKES_T1",
+    "defaultvalue": 0,
+    "displayName": "I Hate Snakes",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/527230/fbcdfce1cb68256d872270ca21306f945bf8cc64.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/527230/4e566d8e98c4f28108700501ac8df25076b8bc80.jpg"
+  },
+  {
+    "name": "ACH_KILL_SCOURGE_WITCHDOCTOR",
+    "defaultvalue": 0,
+    "displayName": "An apple a day...",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/527230/d9e5fe77cfc7d49d06ef2b5aef532425e5a25f39.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/527230/3c8e29fb44544aeb4e3ad41cedfc2bb8cad763b4.jpg"
   }
 ]

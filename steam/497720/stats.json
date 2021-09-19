@@ -1,6 +1,7 @@
-﻿{
-  "steam_carriedpassengers": {
-    "description": "Carried Passengers",
-    "value": 0
+[
+  {
+    "name": "steam_carriedpassengers",
+    "defaultvalue": 0,
+    "displayName": "Carried Passengers"
   }
-}
+]

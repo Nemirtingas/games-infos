@@ -1,34 +1,42 @@
-﻿{
-  "stat_OnlineMatches": {
-    "description": "Matches Played",
-    "value": 0
+[
+  {
+    "name": "stat_OnlineMatches",
+    "defaultvalue": 0,
+    "displayName": "Matches Played"
   },
-  "stat_OnlineTimeAlive": {
-    "description": "Time Alive",
-    "value": 0
+  {
+    "name": "stat_OnlineTimeAlive",
+    "defaultvalue": 0,
+    "displayName": "Time Alive"
   },
-  "stat_OnlineKills": {
-    "description": "Kills",
-    "value": 0
+  {
+    "name": "stat_OnlineKills",
+    "defaultvalue": 0,
+    "displayName": "Kills"
   },
-  "stat_OnlineDistanceTraveled": {
-    "description": "Distance Traveled",
-    "value": 0
+  {
+    "name": "stat_OnlineDistanceTraveled",
+    "defaultvalue": 0,
+    "displayName": "Distance Traveled"
   },
-  "stat_MandroidKills": {
-    "description": "",
-    "value": 0
+  {
+    "name": "stat_MandroidKills",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "stat_SingleMatchFuncEarned": {
-    "description": "",
-    "value": 0
+  {
+    "name": "stat_SingleMatchFuncEarned",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "stat_SingleMatchKills": {
-    "description": "",
-    "value": 0
+  {
+    "name": "stat_SingleMatchKills",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "stat_SingleMatchDamage": {
-    "description": "",
-    "value": 0
+  {
+    "name": "stat_SingleMatchDamage",
+    "defaultvalue": 0,
+    "displayName": ""
   }
-}
+]

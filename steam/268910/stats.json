@@ -1,14 +1,17 @@
-﻿{
-  "Parries": {
-    "description": "Parries",
-    "value": 0
+[
+  {
+    "name": "Parries",
+    "defaultvalue": 0,
+    "displayName": "Parries"
   },
-  "ARanks": {
-    "description": "A Ranks Achieved",
-    "value": 0
+  {
+    "name": "ARanks",
+    "defaultvalue": 0,
+    "displayName": "A Ranks Achieved"
   },
-  "BossesDefeatedNormal": {
-    "description": "Contracts Obtained",
-    "value": 0
+  {
+    "name": "BossesDefeatedNormal",
+    "defaultvalue": 0,
+    "displayName": "Contracts Obtained"
   }
-}
+]

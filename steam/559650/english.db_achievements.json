@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "name": "AchLevel002",
     "defaultvalue": 0,
@@ -655,5 +655,167 @@
     "description": "Reach Level 100",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/559650/df6392a910f2fbd6f388602a920a7a2269a12a57.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/559650/f80afdc48f0efeb8ac68971ea5c7c5bf66f002d2.jpg"
+  },
+  {
+    "name": "AchPCCollected08",
+    "defaultvalue": 0,
+    "displayName": "Chained to an obsession",
+    "hidden": 0,
+    "description": "Collect 333 common props",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/559650/edbd81cd01bc732b4f937300715298e080a3f490.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/559650/9758917890da8d5b2ff30be20941e69438621514.jpg"
+  },
+  {
+    "name": "AchLevel150",
+    "defaultvalue": 0,
+    "displayName": "Level 150",
+    "hidden": 0,
+    "description": "Reach Level 150",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/559650/6b94ba29528b40b9988e6cf7db7bd312c6b83359.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/559650/435578bb24d57cc4b365a911a5c7e0b1aa428b5a.jpg"
+  },
+  {
+    "name": "AchLevel200",
+    "defaultvalue": 0,
+    "displayName": "Level 200",
+    "hidden": 0,
+    "description": "Reach Level 200",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/559650/be060e7f31631f4442f77a86c9f6927b2d210b06.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/559650/9dcd91ad72450114ade74dd4f00841ce760f1f8c.jpg"
+  },
+  {
+    "name": "AchBarrelRoll",
+    "defaultvalue": 0,
+    "displayName": "Do a Barrel Roll",
+    "hidden": 0,
+    "description": "Roll around while being transformed into a barrel for 333m on an official server with at least 10 players.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/559650/cd4e1d4d4dd1f6a333d3c1317d93eb20abe1bd95.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/559650/5c3fdcec8cbd779ae244b340667858893b41d5d2.jpg"
+  },
+  {
+    "name": "AchFruitSalad",
+    "defaultvalue": 0,
+    "displayName": "Fruit Salad",
+    "hidden": 0,
+    "description": "Transform into 12 different fruit props during a single match on an official server with at least 10 players.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/559650/b35a859f7eab79fedad41b670bc56dce43f7dd22.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/559650/97a606bc16bca3f7067a4ebde0976de1a1dcadbd.jpg"
+  },
+  {
+    "name": "AchShapeshifter",
+    "defaultvalue": 0,
+    "displayName": "Obsessively Possessive",
+    "hidden": 0,
+    "description": "Possess 30 props during a single match on an official server with at least 10 players.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/559650/d385ae11b94c0e5208fa639d9054940fe6841b13.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/559650/ac530452d42c65552deeec78f75a942abfb91f90.jpg"
+  },
+  {
+    "name": "AchPotato",
+    "defaultvalue": 0,
+    "displayName": "Potato goes with everything",
+    "hidden": 0,
+    "description": "Have the potato equipped and throw 900 potatoes during a single match on an official server with at least 10 players.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/559650/cc56aea97986d31ed0905c1af209d863ee28da5a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/559650/6ba0de795262cf132ea45abe1c078d802d1b0764.jpg"
+  },
+  {
+    "name": "AchOnlyOne",
+    "defaultvalue": 0,
+    "displayName": "I'm not lazy!",
+    "hidden": 0,
+    "description": "Transform into a single prop during hide phase and win without getting hit once during a single match on an official server with at least 10 players.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/559650/15d7e11d84f2a642c2e739a3bf4331a2a9361630.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/559650/5bebba5170ba7ebcab39d20eaa36fa6e155a1724.jpg"
+  },
+  {
+    "name": "AchNativeWitch",
+    "defaultvalue": 0,
+    "displayName": "One with the wall",
+    "hidden": 0,
+    "description": "Win a Hide-and-Seek or Mobification match without  transforming into a prop on an official server with at least 10 players.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/559650/5a040613d3bd67ae650ef801fbedec4c321b86b8.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/559650/3f7614bf6a233d6cb1024f313fce0c3874a55011.jpg"
+  },
+  {
+    "name": "AchBig",
+    "defaultvalue": 0,
+    "displayName": "Go big or go home!",
+    "hidden": 0,
+    "description": "Turn into a huge prop (Cliff Standee, House, Snow-covered House) during hide phase and don't get caught on an official server with at least 10 players.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/559650/dc6ae99104a75377369d568ed199b7edec0899ae.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/559650/688a9534df951601c31cfe4fef38c4808ecf8edb.jpg"
+  },
+  {
+    "name": "AchLastWitch",
+    "defaultvalue": 0,
+    "displayName": "Last Witch Standing",
+    "hidden": 0,
+    "description": "Survive a Mobification match as last witch standing without ever getting hit  on an official server with at least 10 players.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/559650/ae62345842f7b8a40c7c2522939bcacf0d676c27.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/559650/ff65096c53e6e3327ad31f7e7aefdce5523f5a0d.jpg"
+  },
+  {
+    "name": "AchSneakyWItch",
+    "defaultvalue": 0,
+    "displayName": "Sneaky Little Witch",
+    "hidden": 0,
+    "description": "Move 333m while crouching during a single match on an official server with at least 10 players.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/559650/7ed1114674aef61273311b3b7338c27c78dacad3.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/559650/b1505d3be70c0ba542f7340964a9793f65ab66e5.jpg"
+  },
+  {
+    "name": "AchWitchHunter",
+    "defaultvalue": 0,
+    "displayName": "Witch Hunter",
+    "hidden": 0,
+    "description": "Land the last hit on every witch on an official server with at least 10 players.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/559650/3da093a738406904d27054ca2a14f8a55e39c409.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/559650/0b2b8a6260076f829402defea93e6e45398851be.jpg"
+  },
+  {
+    "name": "AchPowerup",
+    "defaultvalue": 0,
+    "displayName": "I feel so powerful!",
+    "hidden": 0,
+    "description": "Collect 100 powerups on official servers with at least 10 players.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/559650/a85f0446cc7b33d3e3c1193defbc5fbd58132940.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/559650/e8d84c2b45e0262de63e7515c22a47e065c5609a.jpg"
+  },
+  {
+    "name": "AchTourist",
+    "defaultvalue": 0,
+    "displayName": "Tourist",
+    "hidden": 0,
+    "description": "Win a game on 15 official maps on official servers with at least 10 players.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/559650/d345f5fb93abad6792dc139dacf72e11accdc768.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/559650/bbcdc1bd0025060ed5a21db42b6d751cd60cf181.jpg"
+  },
+  {
+    "name": "AchCatchFly",
+    "defaultvalue": 0,
+    "displayName": "I believe I can fly",
+    "hidden": 0,
+    "description": "Catch a witch while airborne on an official server with at least 10 players.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/559650/172559ccf06036217cb86dbd7b826e25da59d7d6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/559650/daf5330dd11de09c6d8935087602792972a33103.jpg"
+  },
+  {
+    "name": "AchCannonball",
+    "defaultvalue": 0,
+    "displayName": "Why are you running?!",
+    "hidden": 0,
+    "description": "Hit 2 witches with a single bodyslam on an official server with at least 10 players.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/559650/9431af71a3bbd99d99cfb4a54e2d7fbcf464675f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/559650/058410f0cb7d0c58f482d41a925c9bd125c2219c.jpg"
+  },
+  {
+    "name": "AchLevel250",
+    "defaultvalue": 0,
+    "displayName": "Level 250",
+    "hidden": 0,
+    "description": "Reach Level 250",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/559650/4b01f2419a8ad30925dba7af038e67ca2942c91e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/559650/0f822b7b1a9865ffa10aa805824c6acd5e3e5f3a.jpg"
   }
 ]

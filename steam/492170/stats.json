@@ -1,30 +1,37 @@
-﻿{
-  "stat_minerals_drilled": {
-    "description": "Minerals Drilled",
-    "value": 0
+[
+  {
+    "name": "stat_minerals_drilled",
+    "defaultvalue": 0,
+    "displayName": "Minerals Drilled"
   },
-  "stat_cash_collected": {
-    "description": "Cash Collected",
-    "value": 0
+  {
+    "name": "stat_cash_collected",
+    "defaultvalue": 0,
+    "displayName": "Cash Collected"
   },
-  "stat_max_depth_reach": {
-    "description": "Max Depth Reach",
-    "value": 0
+  {
+    "name": "stat_max_depth_reach",
+    "defaultvalue": 0,
+    "displayName": "Max Depth Reach"
   },
-  "stat_dark_matter_collected": {
-    "description": "Total Dark Matter collected",
-    "value": 0
+  {
+    "name": "stat_dark_matter_collected",
+    "defaultvalue": 0,
+    "displayName": "Total Dark Matter collected"
   },
-  "stat_insurance": {
-    "description": "Total Insurance",
-    "value": 0
+  {
+    "name": "stat_insurance",
+    "defaultvalue": 0,
+    "displayName": "Total Insurance"
   },
-  "stat_explosives": {
-    "description": "Total Explosives",
-    "value": 0
+  {
+    "name": "stat_explosives",
+    "defaultvalue": 0,
+    "displayName": "Total Explosives"
   },
-  "stat_beacon": {
-    "description": "Total Becons",
-    "value": 0
+  {
+    "name": "stat_beacon",
+    "defaultvalue": 0,
+    "displayName": "Total Becons"
   }
-}
+]

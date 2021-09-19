@@ -128,7 +128,7 @@
   {
     "name": "ACH_S1_WIN",
     "defaultvalue": 0,
-    "displayName": "Season Finale",
+    "displayName": "The End",
     "hidden": 1,
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1052360/8a2d4912f3dfd3af1e3540d65ee42e40aa0bfc10.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1052360/4a17822195388d2122def0add0b677784b3e8f7a.jpg"
@@ -254,7 +254,8 @@
     "name": "ACH_TET_WIN",
     "defaultvalue": 0,
     "displayName": "La chica de Acero",
-    "hidden": 1,
+    "hidden": 0,
+    "description": "Termina el Juego con Tetsuko",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1052360/6c53797ebe28c2d64e9bbb30d9c06b288d4ddc5a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1052360/931404fc143a2f998c79880e8c70d209fed2d9a3.jpg"
   },
@@ -262,7 +263,8 @@
     "name": "ACH_FAT_WIN",
     "defaultvalue": 0,
     "displayName": "Renacida y Superviviente",
-    "hidden": 1,
+    "hidden": 0,
+    "description": "Termina el Juego con Fátima",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1052360/f380aff91048077e00f4343b72035e08c35c253f.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1052360/9ab7832d7d439613f6386cf923e9f490c478a0c8.jpg"
   },
@@ -271,7 +273,43 @@
     "defaultvalue": 0,
     "displayName": "¡Selfie!",
     "hidden": 1,
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1052360/",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1052360/"
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1052360/c142d0d022186ea8abbb7b944230da1782073cae.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1052360/934b238c887a7cc1725ae458df7396378eac605a.jpg"
+  },
+  {
+    "name": "ACH_SUPER",
+    "defaultvalue": 0,
+    "displayName": "¿Y esa barra para qué es?",
+    "hidden": 0,
+    "description": "¡Realiza 100 Supers! (o quintos, como les dicen a veces).",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1052360/0d037d13d368679fd59f741fb60e15ae651124db.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1052360/3c80661217fc500b36cb1dce27838617ac9f86c5.jpg"
+  },
+  {
+    "name": "ACH_365",
+    "defaultvalue": 0,
+    "displayName": "365 Lobas",
+    "hidden": 0,
+    "description": "Realiza el movimiento \"Teen Spirit\" con Lobaberta Sullivana 365 veces",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1052360/488c8e32cc615f0db2da0c5232c6cd6e279d13b1.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1052360/09f3153be436d8a8530f9f413ff032dc1dcb6f09.jpg"
+  },
+  {
+    "name": "ACH_MACHACA",
+    "defaultvalue": 0,
+    "displayName": "¡Fue el Manco! ¡les digo que fue el Manco!",
+    "hidden": 0,
+    "description": "¡Realiza 200 combos automáticos!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1052360/ca8b7c834213551bf0a44be51df5c08e8bb0e8d6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1052360/d95e13099852255948dbde155fb7ec18f68c8032.jpg"
+  },
+  {
+    "name": "ACH_VIK_WIN",
+    "defaultvalue": 0,
+    "displayName": "¡La Chambeadora!",
+    "hidden": 0,
+    "description": "Termina el Juego con Vika",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1052360/bd9aaa028c96d3add2abda7b4f7201b97a508e1e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1052360/55bc6ba0e8a11af716b53a9c0f541bb81f6f6312.jpg"
   }
 ]

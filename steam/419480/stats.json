@@ -1,26 +1,32 @@
-﻿{
-  "overkill_stats": {
-    "description": "Overkill",
-    "value": 0
+[
+  {
+    "name": "overkill_stats",
+    "defaultvalue": 0,
+    "displayName": "Overkill"
   },
-  "force_strong_stats": {
-    "description": "Force Is Strong",
-    "value": 0
+  {
+    "name": "force_strong_stats",
+    "defaultvalue": 0,
+    "displayName": "Force Is Strong"
   },
-  "im_invisible_stats": {
-    "description": "I'm Invisible",
-    "value": 0
+  {
+    "name": "im_invisible_stats",
+    "defaultvalue": 0,
+    "displayName": "I'm Invisible"
   },
-  "coffee_break_stats": {
-    "description": "Coffee Break",
-    "value": 0
+  {
+    "name": "coffee_break_stats",
+    "defaultvalue": 0,
+    "displayName": "Coffee Break"
   },
-  "rocket_science_stats": {
-    "description": "Rocket Science",
-    "value": 0
+  {
+    "name": "rocket_science_stats",
+    "defaultvalue": 0,
+    "displayName": "Rocket Science"
   },
-  "mind_money_stats": {
-    "description": "Mind on my Money",
-    "value": 0
+  {
+    "name": "mind_money_stats",
+    "defaultvalue": 0,
+    "displayName": "Mind on my Money"
   }
-}
+]

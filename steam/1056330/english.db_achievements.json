@@ -27,12 +27,12 @@
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1056330/bca83c0c3cab3f426d0eabd5a9b590145373e761.jpg"
   },
   {
-    "name": "r10",
+    "name": "factory10",
     "defaultvalue": 0,
-    "displayName": "You made it this far...",
+    "displayName": "YOU MADE IT THIS FAR...",
     "hidden": 0,
-    "description": "Survive wave 10 (Singleplayer)",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1056330/fdd98b221d20f70ab1017a37b427a1414c3286f7.jpg",
+    "description": "SURVIVE WAVE 5 (FACTORY)",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1056330/f880bfd81a789f2fa6622376f122657d6e3bc9d8.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1056330/bca83c0c3cab3f426d0eabd5a9b590145373e761.jpg"
   },
   {
@@ -76,7 +76,7 @@
     "defaultvalue": 0,
     "displayName": "Level up",
     "hidden": 0,
-    "description": "Reach profile rank 5",
+    "description": "Reach profile rank 1",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1056330/fecbc4671e9b50448798cf5166331ea903790ac7.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1056330/bca83c0c3cab3f426d0eabd5a9b590145373e761.jpg"
   },
@@ -90,19 +90,11 @@
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1056330/bca83c0c3cab3f426d0eabd5a9b590145373e761.jpg"
   },
   {
-    "name": "pump",
-    "defaultvalue": 0,
-    "displayName": "SMASH!",
-    "hidden": 0,
-    "description": "Smash a pumpkin in the Halloween event. ",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1056330/e780658ce028c5b3092db1db1626a66de0c76c18.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1056330/80dac8124e7d34d5a5cfa18fe7b8e2c25c4ee145.jpg"
-  },
-  {
     "name": "blastP",
     "defaultvalue": 0,
     "displayName": "this place seems familiar...",
-    "hidden": 1,
+    "hidden": 0,
+    "description": "Return to NUKESITE.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1056330/d7494a5d8b58e4d116f9cc59f50c0fb6324e2ae6.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1056330/bca83c0c3cab3f426d0eabd5a9b590145373e761.jpg"
   },
@@ -111,7 +103,7 @@
     "defaultvalue": 0,
     "displayName": "D.I.Y",
     "hidden": 0,
-    "description": "REPAIR 500 BARRICADES (Lifetime)",
+    "description": "REPAIR 4 BARRICADES (Lifetime)",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1056330/18ee13c4478296c06c88a50ef6a8b86395ae200b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1056330/bca83c0c3cab3f426d0eabd5a9b590145373e761.jpg"
   },
@@ -119,8 +111,45 @@
     "name": "door1",
     "defaultvalue": 0,
     "displayName": "OPEN SESAME",
-    "hidden": 1,
+    "hidden": 0,
+    "description": "OPEN YOUR FIRST DOOR.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1056330/15050ba7d00fb05d6273030e444393b3f17a4ac2.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1056330/35b52ec13ae89d07a6a32b73509c224fcade81f5.jpg"
+  },
+  {
+    "name": "nukesite10",
+    "defaultvalue": 0,
+    "displayName": "OLD HABITS...",
+    "hidden": 0,
+    "description": "SURVIVE WAVE 5 (NUKESITE)",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1056330/7c5e4f0e113650537dbb7b03ad488d570cd569e6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1056330/35b52ec13ae89d07a6a32b73509c224fcade81f5.jpg"
+  },
+  {
+    "name": "vacant10",
+    "defaultvalue": 0,
+    "displayName": "...DIE HARD",
+    "hidden": 0,
+    "description": "SURVIVE WAVE 5 (VACANT)",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1056330/e38385d89f008362cc079a5af555a8397382761f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1056330/35b52ec13ae89d07a6a32b73509c224fcade81f5.jpg"
+  },
+  {
+    "name": "church10",
+    "defaultvalue": 0,
+    "displayName": "THE CHOSEN ONE",
+    "hidden": 0,
+    "description": "SURVIVE WAVE 5 (CHURCH)",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1056330/fbc6347bc6a97946117817f2c4455d7bc5219aca.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1056330/bca83c0c3cab3f426d0eabd5a9b590145373e761.jpg"
+  },
+  {
+    "name": "moon",
+    "defaultvalue": 0,
+    "displayName": "KA-BOOM",
+    "hidden": 0,
+    "description": "PRETTY SURE IT WAS FAKE...",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1056330/3fecf882c780d1db9140ad30af7caf33502f3574.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1056330/bca83c0c3cab3f426d0eabd5a9b590145373e761.jpg"
   }
 ]

@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "name": "FinishPrologue",
     "defaultvalue": 0,
@@ -498,5 +498,47 @@
     "description": "Unlock the 5 levels of an attribute",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/606880/3c7cc6a91dc69254a74f46bcafaf611266f01b0a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/606880/afd57cc144411b53ae371ead780844d024094861.jpg"
+  },
+  {
+    "name": "KillMonstersEE",
+    "defaultvalue": 0,
+    "displayName": "Wildcat Hunter",
+    "hidden": 0,
+    "description": "Kill 20 Egsregatts",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/606880/69d11f2ea8ffc663ed0f5d44f3fe0e927fbde6af.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/606880/cc7d5cbdd139ff996532006b8356a49235f97b99.jpg"
+  },
+  {
+    "name": "GearsEE",
+    "defaultvalue": 0,
+    "displayName": "Unique Weapons",
+    "hidden": 0,
+    "description": "Find all unique weapons hidden in the Aidág ol creidaw region",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/606880/2fda48fec03fad27fd0deecacdc1723149e6e4ab.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/606880/cc7d5cbdd139ff996532006b8356a49235f97b99.jpg"
+  },
+  {
+    "name": "SQCM01EE",
+    "defaultvalue": 0,
+    "displayName": "A Dangerous Fiancée",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/606880/20dbe0ecb0a3d44a180a2dd78325ac95d4bd9724.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/606880/cc7d5cbdd139ff996532006b8356a49235f97b99.jpg"
+  },
+  {
+    "name": "SQCMFinishEE",
+    "defaultvalue": 0,
+    "displayName": "Cancelled Wedding",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/606880/900dc34138fdaed932920e716785401775b6faf8.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/606880/cc7d5cbdd139ff996532006b8356a49235f97b99.jpg"
+  },
+  {
+    "name": "SQCMAllFilesEE",
+    "defaultvalue": 0,
+    "displayName": "De Vespe Secret Archives",
+    "hidden": 1,
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/606880/cb798c57c5739b7d616b7cf057235b45ae7e7bd9.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/606880/cc7d5cbdd139ff996532006b8356a49235f97b99.jpg"
   }
 ]

@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "name": "ANIMAL_BLACK_BEAR_250",
     "defaultvalue": 0,
@@ -1483,5 +1483,23 @@
     "description": "250 Maisto 12 GA Semi-Automatic Shotgun (Engraved) harvests in EHR",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/253710/eb60ab57c050b974e115cf07964d7bbcba948677.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/253710/9a1643f533fd360ba05be5bb6770f2a5970b2939.jpg"
+  },
+  {
+    "name": "ANIMAL_PUMA_250",
+    "defaultvalue": 0,
+    "displayName": "Puma",
+    "hidden": 0,
+    "description": "Harvest 250 Puma",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/253710/f48a4d8e5742a3f923396c579d2e6b4802ce1159.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/253710/b7dcbcd0b72c55043a3e169a45279f34d2f502fe.jpg"
+  },
+  {
+    "name": "ANIMAL_AXIS_DEER_250",
+    "defaultvalue": 0,
+    "displayName": "Axis Deer",
+    "hidden": 0,
+    "description": "Harvest 250 Axis Deer",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/253710/2dd0435ee6af2966662a51444460dcc05f0ceaa7.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/253710/0c17fd4690b6641f59b247d59b234fcdc3510e61.jpg"
   }
 ]

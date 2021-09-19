@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "name": "ACH_LEVEL_5",
     "defaultvalue": 0,
@@ -126,15 +126,6 @@
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/346330/461f2021c44d89581341753dab2a76ea7fd41fc8.jpg"
   },
   {
-    "name": "ACH_AREA_TEA",
-    "defaultvalue": 0,
-    "displayName": "Have a cup of tea...",
-    "hidden": 0,
-    "description": "And wait for all this to blow over",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/346330/a83543a2e7534090c83e85794b628075b6677727.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/346330/598984e4931c33fb2d5a20adb91ea44636eac6c1.jpg"
-  },
-  {
     "name": "ACH_LEVEL_50",
     "defaultvalue": 0,
     "displayName": "Overpower",
@@ -216,30 +207,6 @@
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/346330/36fa4b2573731433d0725cb557b127f22146a380.jpg"
   },
   {
-    "name": "ACH_WEP_1911",
-    "defaultvalue": 0,
-    "displayName": "John's Favrorite Little Classic",
-    "hidden": 1,
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/346330/0cc434d429b1093ca7a66b1df9dc35278210a2a4.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/346330/08f3b796533ea853acc3c1dcbcff51c6916513f9.jpg"
-  },
-  {
-    "name": "ACH_WEP_SAUER",
-    "defaultvalue": 0,
-    "displayName": "It's very Sauer",
-    "hidden": 1,
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/346330/9bb02454d0855380ecae1f0301dc37e33107bf17.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/346330/08f3b796533ea853acc3c1dcbcff51c6916513f9.jpg"
-  },
-  {
-    "name": "ACH_WEP_HK45",
-    "defaultvalue": 0,
-    "displayName": "Tiny but deadly",
-    "hidden": 1,
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/346330/ce289f58029a7d54fa6c4cd39d0491c4e16260d6.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/346330/08f3b796533ea853acc3c1dcbcff51c6916513f9.jpg"
-  },
-  {
     "name": "ACH_WEP_GLOCK",
     "defaultvalue": 0,
     "displayName": "Eight 'o Glock",
@@ -249,22 +216,6 @@
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/346330/dd311f87a91017ffe1781be67e664c77cc8b2da6.jpg"
   },
   {
-    "name": "ACH_WEP_USP",
-    "defaultvalue": 0,
-    "displayName": "Helmut did a good job",
-    "hidden": 1,
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/346330/45816600d7b962a83ac59ba64ec0c181242d2cd6.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/346330/08f3b796533ea853acc3c1dcbcff51c6916513f9.jpg"
-  },
-  {
-    "name": "ACH_WEP_357",
-    "defaultvalue": 0,
-    "displayName": "Sheriff's right hand",
-    "hidden": 1,
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/346330/6135007365d1d93505f2ecd697fb6d99f1f8e292.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/346330/08f3b796533ea853acc3c1dcbcff51c6916513f9.jpg"
-  },
-  {
     "name": "ACH_WEP_DUAL",
     "defaultvalue": 0,
     "displayName": "Double the gun, double the fun",
@@ -272,14 +223,6 @@
     "description": "Get 500 kills with any dual weapon",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/346330/d142a27370ae7bba1931b4e6592dd207ac72eb26.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/346330/df85768513bad494f6bda555dd760837a24b3f41.jpg"
-  },
-  {
-    "name": "ACH_WEP_M4",
-    "defaultvalue": 0,
-    "displayName": "Standard Issue",
-    "hidden": 1,
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/346330/c91fbdbd6f7c3ac4022de1bbd98adab4e8a1b1fc.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/346330/08f3b796533ea853acc3c1dcbcff51c6916513f9.jpg"
   },
   {
     "name": "ACH_WEP_WINCHESTER",
@@ -327,14 +270,6 @@
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/346330/565cc3cb3819f7cf2fd1266142835581f290039f.jpg"
   },
   {
-    "name": "ACH_WEP_HKSMG2",
-    "defaultvalue": 0,
-    "displayName": "Hip firing",
-    "hidden": 1,
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/346330/8c87d9d281c177a624e178194a5073767ffc3e5b.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/346330/08f3b796533ea853acc3c1dcbcff51c6916513f9.jpg"
-  },
-  {
     "name": "ACH_WEP_HKMP7",
     "defaultvalue": 0,
     "displayName": "Shooter Mcgavin",
@@ -344,22 +279,6 @@
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/346330/6fc0aa2a128174eae164256f1f3999befbb0f19c.jpg"
   },
   {
-    "name": "ACH_WEP_CROSSBOW",
-    "defaultvalue": 0,
-    "displayName": "Demon Hunter",
-    "hidden": 1,
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/346330/34cf9a42b85762317246edd1fbb163ef009a256d.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/346330/08f3b796533ea853acc3c1dcbcff51c6916513f9.jpg"
-  },
-  {
-    "name": "ACH_WEP_STONER",
-    "defaultvalue": 0,
-    "displayName": "Time to get stoned",
-    "hidden": 1,
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/346330/125ceb055dc35d076799a93c9718f27933fbad1b.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/346330/08f3b796533ea853acc3c1dcbcff51c6916513f9.jpg"
-  },
-  {
     "name": "ACH_WEP_700",
     "defaultvalue": 0,
     "displayName": "Hunting season",
@@ -367,14 +286,6 @@
     "description": "Get 150 kills with the Remington 700",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/346330/e3e4610f44ac0049372558c4816a133b5c40052b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/346330/cbd44b036e58b5208bca2e7664477f90e0574974.jpg"
-  },
-  {
-    "name": "ACH_WEP_50CAL",
-    "defaultvalue": 0,
-    "displayName": "1 shot, 1 kill",
-    "hidden": 1,
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/346330/b3d2300f1885a5be3d75c2253d3eb237dc394b04.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/346330/08f3b796533ea853acc3c1dcbcff51c6916513f9.jpg"
   },
   {
     "name": "ACH_WEP_MINIGUN",
@@ -492,14 +403,6 @@
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/346330/3eaa66988d468831b1af23bd0d38b142de88a7dc.jpg"
   },
   {
-    "name": "ACH_AREA_MACHETE",
-    "defaultvalue": 0,
-    "displayName": "Look what you did to him!",
-    "hidden": 1,
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/346330/88a844b520a1c978d0ff4aa9aa06f8723895fad5.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/346330/08f3b796533ea853acc3c1dcbcff51c6916513f9.jpg"
-  },
-  {
     "name": "ACH_SECRET_TURTLE",
     "defaultvalue": 0,
     "displayName": "Turtle Lover",
@@ -548,7 +451,7 @@
     "defaultvalue": 0,
     "displayName": "Footsoldier",
     "hidden": 0,
-    "description": "Complete 'Barracks: Arena' with 4 or more people",
+    "description": "Complete 'Barracks' with 4 or more people",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/346330/484d0f7434add802956de4fc9bad9032c34d56c3.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/346330/2650b557b8ba2f7f485b2359985b91296a508b0e.jpg"
   },
@@ -643,14 +546,6 @@
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/346330/7bedf6c58d1f27ab7836e1f37030358e8edc3744.jpg"
   },
   {
-    "name": "ACH_MAP_COLTEC_C",
-    "defaultvalue": 0,
-    "displayName": "A Preacher's Demise",
-    "hidden": 1,
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/346330/7a3a9ea91c8e19b5143c0dc8efff50d30366acb5.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/346330/7d8c2d05f0537f4b8df872a010e46a8c2f6bcf14.jpg"
-  },
-  {
     "name": "ACH_MAP_MECKLENBURG",
     "defaultvalue": 0,
     "displayName": "A New Dawn",
@@ -658,14 +553,6 @@
     "description": "Complete 'Mecklenburg' with 4 or more people",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/346330/718d56f1c1559a69e40af9e8d1421fe52b71a08b.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/346330/adbaa4870fa1dd137b5644b105dd7e2c69103c18.jpg"
-  },
-  {
-    "name": "ACH_MAP_IKROM",
-    "defaultvalue": 0,
-    "displayName": "Cybercon's Area 51",
-    "hidden": 1,
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/346330/f5f383922e730ed582e9dadc4e87ea6ab0c7cf4e.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/346330/c042f5db810c8bade1a7bdd515303912ddcb310c.jpg"
   },
   {
     "name": "ACH_WEP_BENELLIM4",
@@ -717,7 +604,7 @@
     "defaultvalue": 0,
     "displayName": "Island of Dread",
     "hidden": 0,
-    "description": "Complete 'Island: Arena' with 4 or more people",
+    "description": "Complete 'Island' with 4 or more people",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/346330/82e3990aa6a6d1ae07749ed3218744e84e510528.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/346330/78ba19bd77bec8bae46b886562557a0d6e3ac671.jpg"
   },
@@ -738,5 +625,86 @@
     "description": "Complete 25 quests",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/346330/af73e2e5a39c00a1c887aea35a9650481b9de006.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/346330/8e488cc83e662f8ffe7209b6b02fda9af105b288.jpg"
+  },
+  {
+    "name": "ACH_RAZ_HEALTH_ADDICT",
+    "defaultvalue": 0,
+    "displayName": "Health Addict",
+    "hidden": 0,
+    "description": "Use at least 10 healthkits in a single life",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/346330/21d81b02d1a8f6ec18f3e638a717da11f8a52750.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/346330/c432d9350b5d02d8747ff5594e9c9525f0a0f5b0.jpg"
+  },
+  {
+    "name": "ACH_RAZ_KUNG_FLU",
+    "defaultvalue": 0,
+    "displayName": "Kung Flu Fighting",
+    "hidden": 0,
+    "description": "Kick 25, punch 20 and uppercut 15 zombies to death in a single life",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/346330/13e29698eeddbcb5e81c725ccf163aee3695412e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/346330/937eabb5e3bbef23375ec270d221124a15431d23.jpg"
+  },
+  {
+    "name": "ACH_RAZ_MAZELTOV",
+    "defaultvalue": 0,
+    "displayName": "Mazel Tov",
+    "hidden": 0,
+    "description": "Get 69 headshots in a single life",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/346330/21b0171c8ea111daf16693b097ce682cb72a186b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/346330/878fbe2cf0d78b1c016256b0097ab747bfa6844b.jpg"
+  },
+  {
+    "name": "ACH_RAZ_SWEEPER",
+    "defaultvalue": 0,
+    "displayName": "Sweeper",
+    "hidden": 0,
+    "description": "Kill three zombie players with headshots in a single life",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/346330/7fad68cc625ba3725e6447203a57291d64680eb2.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/346330/aaa79e2afbc182b7fe743c23c46f0e5181395c1f.jpg"
+  },
+  {
+    "name": "ACH_RAZ_TRAUMA",
+    "defaultvalue": 0,
+    "displayName": "Head Trauma",
+    "hidden": 0,
+    "description": "Slice off, or explode at least 250 zombie heads",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/346330/2a6801ddb07209939f82eff966d94591fbc35347.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/346330/a679e42db1c50023a4cf80bcefca6f63448a3f55.jpg"
+  },
+  {
+    "name": "ACH_RAZ_PRESCRIBED_PAIN",
+    "defaultvalue": 0,
+    "displayName": "Prescribed Pain",
+    "hidden": 0,
+    "description": "Deal a total amount of 1.000.000 damage to your foes!",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/346330/ad2cda9536e51b04d9894ea1e179ec3ab92d82af.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/346330/9d936590acd27fbc37a0de6efb9e50832056b691.jpg"
+  },
+  {
+    "name": "ACH_MAP_NIGHTCLUB",
+    "defaultvalue": 0,
+    "displayName": "Saturday Clubbin' at xXxHub",
+    "hidden": 0,
+    "description": "Complete 'Nightclub' with 4 or more people",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/346330/5459ebd1387a20bcb6e92b4771c5f3c71dd4fb20.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/346330/de810b4ccee09284c6287653163ea92bb673c6c3.jpg"
+  },
+  {
+    "name": "ACH_BANDIT_KILL_500",
+    "defaultvalue": 0,
+    "displayName": "Bandit Massacre!",
+    "hidden": 0,
+    "description": "Kill 500 bandits",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/346330/d626c35761ebdca16459de5bdc274ca847b98668.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/346330/ba5e01967b759eaea0280b31a28a9d17c2e9d6b9.jpg"
+  },
+  {
+    "name": "ACH_BANDIT_KILL_1000",
+    "defaultvalue": 0,
+    "displayName": "Psychopathic Tendencies?",
+    "hidden": 0,
+    "description": "Kill 1,000 bandits",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/346330/e75c2d3b434a170c30accabcbe51168e33c575b2.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/346330/5e4f1d518fa7f6a333137f751fa9be824b98baa8.jpg"
   }
 ]

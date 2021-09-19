@@ -1,26 +1,32 @@
-﻿{
-  "STAT_ALLMISSIONS": {
-    "description": "Stat_AllMissions",
-    "value": 0
+[
+  {
+    "name": "STAT_ALLMISSIONS",
+    "defaultvalue": 0,
+    "displayName": "Stat_AllMissions"
   },
-  "STAT_TERRAFORMER": {
-    "description": "Stat_Terraformer",
-    "value": 0
+  {
+    "name": "STAT_TERRAFORMER",
+    "defaultvalue": 0,
+    "displayName": "Stat_Terraformer"
   },
-  "STAT_PROMISINGENDEAVORS": {
-    "description": "Stat_PromisingEndeavors",
-    "value": 0
+  {
+    "name": "STAT_PROMISINGENDEAVORS",
+    "defaultvalue": 0,
+    "displayName": "Stat_PromisingEndeavors"
   },
-  "STAT_MYWAYS": {
-    "description": "Stat_MyWays",
-    "value": 0
+  {
+    "name": "STAT_MYWAYS",
+    "defaultvalue": 0,
+    "displayName": "Stat_MyWays"
   },
-  "STAT_JUSTONEMORETERM": {
-    "description": "Stat_JustOneMoreTerm",
-    "value": 0
+  {
+    "name": "STAT_JUSTONEMORETERM",
+    "defaultvalue": 0,
+    "displayName": "Stat_JustOneMoreTerm"
   },
-  "STAT_KNIGHTTOLITTLEDUCK": {
-    "description": "Stat_KnightToLittleDuck",
-    "value": 0
+  {
+    "name": "STAT_KNIGHTTOLITTLEDUCK",
+    "defaultvalue": 0,
+    "displayName": "Stat_KnightToLittleDuck"
   }
-}
+]

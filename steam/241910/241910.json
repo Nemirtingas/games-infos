@@ -1,25 +1,9 @@
-﻿{
+{
   "Dlcs": {
     "476940": {
       "Name": "Goodbye Deponia Premium Edition Upgrade",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/476940/header.jpg?t=1478167943"
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/476940/header.jpg?t=1478167943",
+      "Type": "dlc"
     }
-  },
-  "Name": "Goodbye Deponia",
-  "AppId": "241910",
-  "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/241910/header.jpg?t=1562069572",
-  "Languages": [
-    "english",
-    "german",
-    "russian",
-    "french",
-    "polish",
-    "italian",
-    "spanish"
-  ],
-  "Platforms": {
-    "windows": true,
-    "mac": true,
-    "linux": true
   }
 }

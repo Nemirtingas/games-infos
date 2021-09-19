@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "name": "EPCA_DINO_Gourmet",
     "defaultvalue": 0,
@@ -351,9 +351,9 @@
   {
     "name": "EPCA_ANY_CommonCrafter",
     "defaultvalue": 0,
-    "displayName": "Common Crafter",
+    "displayName": "You're a crafty one!",
     "hidden": 0,
-    "description": "Craft a Common item",
+    "description": "Use a crafting tool, or craft a Common item.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/321360/a6fafd356122526545860cac9e30d1dc11ddef57.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/321360/da1ac3db6fda7787faa0f905c069494d4fff03a6.jpg"
   },
@@ -473,5 +473,77 @@
     "description": "Kill 5 Ceratosaurus by shooting them from the side or behind.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/321360/f9b8faf96b34b19f819f6bce76a69c80ec667f97.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/321360/0f09d773f298337b425f44d95935607c8308cc90.jpg"
+  },
+  {
+    "name": "EPCA_HUMAN_OneHandTiedBehindBack",
+    "defaultvalue": 0,
+    "displayName": "With One Hand Tied Behind My Back",
+    "hidden": 0,
+    "description": "Kill a dinosaur using bullets from only one SMG.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/321360/c8b423d37fe16e7c5e00c297a8b79309acc00d71.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/321360/8a38c6f10a12fccaf0804dfa28476c58eeeab75e.jpg"
+  },
+  {
+    "name": "EPCA_HUMAN_DirtNap",
+    "defaultvalue": 0,
+    "displayName": "Dirt Nap",
+    "hidden": 0,
+    "description": "Fully drain a dinosaur's stamina with a Gas Mine, then kill them.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/321360/3046cc54498a0729f3e6b05c8bdd7398703fa96f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/321360/924dae66901ee4087ef8acc63961f417c0e74a3c.jpg"
+  },
+  {
+    "name": "EPCA_HUMAN_HeadHunter",
+    "defaultvalue": 0,
+    "displayName": "Head Hunter",
+    "hidden": 0,
+    "description": "Use the PX Assault Cannon to shoot two Tyrants in the head at once.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/321360/efa3edfaa235a0a160d856cf575d8a209a59a568.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/321360/8f45d0f3682fee3a1b0043772697a766fdc7c17e.jpg"
+  },
+  {
+    "name": "EPCA_HUMAN_BucketOBullets",
+    "defaultvalue": 0,
+    "displayName": "Bucket O' Bullets",
+    "hidden": 0,
+    "description": "Get three kills without letting go of the triggers using dual SMGs",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/321360/622c86815778be6502fa485df00f1db3ecc000ff.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/321360/cea331145aab365661a884e7985d6f5a4e7b7a0f.jpg"
+  },
+  {
+    "name": "EPCA_HUMAN_Bullseye",
+    "defaultvalue": 0,
+    "displayName": "Bullseye!",
+    "hidden": 0,
+    "description": "Kill a dinosaur with a critical hit.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/321360/a90328943ec8f432b7815b98fd8677ee54315887.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/321360/7170fd5d377e7bb57b1ccd9c6cc3f2a08d338f6f.jpg"
+  },
+  {
+    "name": "EPCA_DINO_UsingYourHead",
+    "defaultvalue": 0,
+    "displayName": "Using Your Head",
+    "hidden": 0,
+    "description": "Deflect damage with your thick dome skull as Pachycephalosaurus. ",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/321360/cadeb47a37f78ad5b1a79ca56653892ab6849e0c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/321360/18ee2206ff0689316ffd62c4f3578c2029e4acc6.jpg"
+  },
+  {
+    "name": "EPCA_DINO_Pinball",
+    "defaultvalue": 0,
+    "displayName": "Pinball",
+    "hidden": 0,
+    "description": "Charge the same human twice in a row as Pachycephalosaurus.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/321360/3d84afc0026c1079ef5d63ec5ca997d97dc86da6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/321360/ad0f8777e8700c9d6c5c006e33d837db161dac4b.jpg"
+  },
+  {
+    "name": "EPCA_HUMAN_SorryToBustYourBubble",
+    "defaultvalue": 0,
+    "displayName": "Sorry To Bust Your Bubble.",
+    "hidden": 0,
+    "description": "Kill a Pachycephalosaurus with a shot to the head from an armour-piercing weapon. ",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/321360/07120ed6ee09417211005f1c990b170d978e8b46.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/321360/f8ef1eb0bd601e227de689b2bb04dfdb492c5584.jpg"
   }
 ]

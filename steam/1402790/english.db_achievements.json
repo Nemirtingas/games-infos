@@ -99,15 +99,6 @@
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1402790/8b7b7ec4d9c6cf73315ef1815034d8e17c5363d2.jpg"
   },
   {
-    "name": "Lv3_Business_Man",
-    "defaultvalue": 0,
-    "displayName": "Multiple Stores",
-    "hidden": 0,
-    "description": "You Have Multiple Stores.",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1402790/ef8e803cb43a64d2e21b8284587b969c6bddcdac.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1402790/ef8e803cb43a64d2e21b8284587b969c6bddcdac.jpg"
-  },
-  {
     "name": "Lv1_Course",
     "defaultvalue": 0,
     "displayName": "You Finished The Courses, Congratulations",
@@ -135,24 +126,6 @@
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1402790/d169b8f1b41082a93d775d48f228c5660fad0ff9.jpg"
   },
   {
-    "name": "Thief_Achievement",
-    "defaultvalue": 0,
-    "displayName": "Oh, It's A Thief",
-    "hidden": 0,
-    "description": "You Should Have Taken A Safety Measure.",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1402790/5c23d83d85285d944eec4c0726673966a11b425e.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1402790/5c23d83d85285d944eec4c0726673966a11b425e.jpg"
-  },
-  {
-    "name": "Security_Camera",
-    "defaultvalue": 0,
-    "displayName": "Now, You're Safe",
-    "hidden": 0,
-    "description": "You Should Care About Safety At All Levels.",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1402790/b5ab8162b77e4dbfa57713b98d8d6a4d77d8dccb.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1402790/7a69a53da072760f3f568fabb7a71856063c28d7.jpg"
-  },
-  {
     "name": "Lv3_All_CarParts",
     "defaultvalue": 0,
     "displayName": "Maybe You Can Build A Car",
@@ -178,5 +151,212 @@
     "description": "But It Worth It.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1402790/b73112485ba88fa9fd263132788523e2d9c52e5c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1402790/b73112485ba88fa9fd263132788523e2d9c52e5c.jpg"
+  },
+  {
+    "name": "Lv4_All_Cars",
+    "defaultvalue": 0,
+    "displayName": "We Have A Car Empire",
+    "hidden": 0,
+    "description": "Unlocked All Of The Cars.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1402790/787f186726c4bc44f46e6a6c3ede6ef682ad13cc.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1402790/787f186726c4bc44f46e6a6c3ede6ef682ad13cc.jpg"
+  },
+  {
+    "name": "Lv4_All_Keys",
+    "defaultvalue": 0,
+    "displayName": "We Can Go To The Real Estate Now",
+    "hidden": 0,
+    "description": "Get All Of Keys.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1402790/a7137ecc769c7edc976684c519acbd520d83d3db.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1402790/a7137ecc769c7edc976684c519acbd520d83d3db.jpg"
+  },
+  {
+    "name": "Lv4_Rent_Bus",
+    "defaultvalue": 0,
+    "displayName": "What Will You Do With Those Busses?",
+    "hidden": 0,
+    "description": "Rent 50 Busses",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1402790/6e7878d7e45c20db45ba43cbd89db275e50433ab.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1402790/6e7878d7e45c20db45ba43cbd89db275e50433ab.jpg"
+  },
+  {
+    "name": "Lv5_All_Shelf",
+    "defaultvalue": 0,
+    "displayName": "Unlocked All Halloween Item Shelf",
+    "hidden": 0,
+    "description": "Now You Can Sell Everything About Halloween.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1402790/7dfbc5246348a95eb7f210aaa3cdeb007b7aef3f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1402790/7dfbc5246348a95eb7f210aaa3cdeb007b7aef3f.jpg"
+  },
+  {
+    "name": "Lv5_99_Storage",
+    "defaultvalue": 0,
+    "displayName": "Final Storage Level",
+    "hidden": 0,
+    "description": "Get Storage Level 99.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1402790/947237747510bf3836cb921e6ee4e0f470a36789.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1402790/ba68ca3ba2e1f73e23e432eab0528a3bfed0f4e1.jpg"
+  },
+  {
+    "name": "Lv5_Sell_Candies",
+    "defaultvalue": 0,
+    "displayName": "Candy Lover",
+    "hidden": 0,
+    "description": "Sell 1000 Candies.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1402790/990a65208d9e5cffb51f20b255efb3ed57e6c639.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1402790/990a65208d9e5cffb51f20b255efb3ed57e6c639.jpg"
+  },
+  {
+    "name": "Lv5_Pumpkin_100",
+    "defaultvalue": 0,
+    "displayName": "Pumpkin Upgrader",
+    "hidden": 0,
+    "description": "Get Pumpkin Level 100.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1402790/2ed4422a4d866c04fc206ca2940ac2b5c3c83286.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1402790/2ed4422a4d866c04fc206ca2940ac2b5c3c83286.jpg"
+  },
+  {
+    "name": "Lv5_Sell_Pumpkin10000",
+    "defaultvalue": 0,
+    "displayName": "Happy Halloween",
+    "hidden": 0,
+    "description": "Sell 10.000 Pumpkin.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1402790/edfa3bb9b7ceb6965d746d8f6bad368a0f397aef.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1402790/edfa3bb9b7ceb6965d746d8f6bad368a0f397aef.jpg"
+  },
+  {
+    "name": "Lv5_All_Decoration",
+    "defaultvalue": 0,
+    "displayName": "Halloween Decoration Chief",
+    "hidden": 0,
+    "description": "Unlocked All Halloween Decoration.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1402790/8c29a9b912aa5f14c336a8814995020b64e3c128.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1402790/8c29a9b912aa5f14c336a8814995020b64e3c128.jpg"
+  },
+  {
+    "name": "Lv5_Donate_1m",
+    "defaultvalue": 0,
+    "displayName": "Halloween Donator",
+    "hidden": 0,
+    "description": "Donate 1 Million $ For Halloween Spirit.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1402790/fc021462d288cdef117268d2b26153c92782de45.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1402790/fc021462d288cdef117268d2b26153c92782de45.jpg"
+  },
+  {
+    "name": "Lv6_All_House",
+    "defaultvalue": 0,
+    "displayName": "House Empire",
+    "hidden": 0,
+    "description": "Unlock All House In Level 6",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1402790/ad8803d127afef8e4717752fafc656d1d6e42cf5.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1402790/cec032bb11c301ad41ebcba8d67ad3f10f7da392.jpg"
+  },
+  {
+    "name": "Lv6_All_Book",
+    "defaultvalue": 0,
+    "displayName": "Going To Ancient Earth",
+    "hidden": 0,
+    "description": "Unlock All Ancient Book In Level 6",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1402790/2d04eb7e9821f36a3dbccfc051b44fa0eeac5eb6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1402790/70e7c76337f25ff656ecfe903e7a6dff1cb90c83.jpg"
+  },
+  {
+    "name": "Lv6_Sale_Rate",
+    "defaultvalue": 0,
+    "displayName": "Guaranteed Wealth",
+    "hidden": 0,
+    "description": "Maximize Percentage of Sales Of All Homes",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1402790/0874e4a8086fe99ca7e144dee3671b6dc099984d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1402790/0874e4a8086fe99ca7e144dee3671b6dc099984d.jpg"
+  },
+  {
+    "name": "Lv6_2x_Room",
+    "defaultvalue": 0,
+    "displayName": "Room Rental Empire",
+    "hidden": 0,
+    "description": "Unlock 2x Room Price In Level 6",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1402790/bfecd37fc945456483912879515f5c4e88361da7.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1402790/bfecd37fc945456483912879515f5c4e88361da7.jpg"
+  },
+  {
+    "name": "Lv6_Rent_1000",
+    "defaultvalue": 0,
+    "displayName": "Always Rent A High Quality Room",
+    "hidden": 0,
+    "description": "Rent 1000 4+4 Rooms In Level 6",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1402790/4b8164ae9c2f02508c0c57d9cd41fc10d1778480.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1402790/4b8164ae9c2f02508c0c57d9cd41fc10d1778480.jpg"
+  },
+  {
+    "name": "Lv7_All_Shelf",
+    "defaultvalue": 0,
+    "displayName": "Old Age Emperor",
+    "hidden": 0,
+    "description": "Unlock All Products In Level 6",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1402790/c4b4d0eee2c8332ff7ec97faee6a0b5e853cbff5.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1402790/c4b4d0eee2c8332ff7ec97faee6a0b5e853cbff5.jpg"
+  },
+  {
+    "name": "Lv7_Sell_Sword",
+    "defaultvalue": 0,
+    "displayName": "Best Sword Seller",
+    "hidden": 0,
+    "description": "Sell 500 Or More Sword In Level 6",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1402790/b5c3f88de6f5c6092b2672575c8bf6f5c28b899d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1402790/b5c3f88de6f5c6092b2672575c8bf6f5c28b899d.jpg"
+  },
+  {
+    "name": "Lv7_Pot_Lv100",
+    "defaultvalue": 0,
+    "displayName": "Potion Upgrader",
+    "hidden": 0,
+    "description": "Make Health and Mana Potions Level 100 In Level 6",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1402790/01437dce784ae357d7490ceb49aeb30b733b1072.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1402790/01437dce784ae357d7490ceb49aeb30b733b1072.jpg"
+  },
+  {
+    "name": "Lv7_All_Pot",
+    "defaultvalue": 0,
+    "displayName": "Ancient Potions",
+    "hidden": 0,
+    "description": " Get All Potions In The Potion Panel At Level 6",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1402790/4997f114977dde9786d6d2ba37570f21d1a4fc95.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1402790/4997f114977dde9786d6d2ba37570f21d1a4fc95.jpg"
+  },
+  {
+    "name": "Lv8_All_Shelf",
+    "defaultvalue": 0,
+    "displayName": "Magic Age Emperor",
+    "hidden": 0,
+    "description": "Unlock All Products In Level 7",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1402790/2745466a93fb40f8157e3ab5d1488b7b7c9b52b9.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1402790/2745466a93fb40f8157e3ab5d1488b7b7c9b52b9.jpg"
+  },
+  {
+    "name": "Lv8_All_Magic",
+    "defaultvalue": 0,
+    "displayName": "Ancient Scrolls&Books",
+    "hidden": 0,
+    "description": "Get All Scrolls&Books In The Magic Panel At Level 7",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1402790/d7228e33c2a6c057c8f7d3f3b6a407020442f004.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1402790/d7228e33c2a6c057c8f7d3f3b6a407020442f004.jpg"
+  },
+  {
+    "name": "Lv8_Staff_Lv100",
+    "defaultvalue": 0,
+    "displayName": "Mage Staff Master",
+    "hidden": 0,
+    "description": "Make Ancient Staff Level 100 In Level 7",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1402790/aeaba11b4600025bfbfeef1295e5f3b2e6a63255.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1402790/aeaba11b4600025bfbfeef1295e5f3b2e6a63255.jpg"
+  },
+  {
+    "name": "Lv8_100K_Gold",
+    "defaultvalue": 0,
+    "displayName": "Wow You Are Rich",
+    "hidden": 0,
+    "description": "Have 100,000 Gold in the Vault In Level 7",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1402790/da8a0ef4732e5ac7ccf9720994b5ab804952cb71.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1402790/da8a0ef4732e5ac7ccf9720994b5ab804952cb71.jpg"
   }
 ]

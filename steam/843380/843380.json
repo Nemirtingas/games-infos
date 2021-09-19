@@ -1,12 +1,14 @@
 {
   "Dlcs": {
-    "997330": {
-      "Name": "Super Animal Royale Founder's Edition",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/997330/header.jpg?t=1544616294"
-    },
     "997360": {
-      "Name": "",
-      "ImageUrl": ""
+      "Name": "Super Animal Royale Soundtrack",
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/997360/header.jpg?t=1581550503",
+      "Type": "music"
+    },
+    "1475530": {
+      "Name": "Super Animal Royale Super Edition",
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1475530/header.jpg?t=1619460045",
+      "Type": "dlc"
     },
     "1695290": {
       "Name": "Super Animal Royale Season 1 Starter Pack",
@@ -16,7 +18,7 @@
   },
   "Name": "Super Animal Royale",
   "AppId": "843380",
-  "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/843380/header.jpg?t=1588052711",
+  "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/843380/header.jpg?t=1630210460",
   "Languages": [
     "english",
     "japanese",
@@ -28,7 +30,8 @@
     "italian",
     "german",
     "spanish",
-    "latam"
+    "latam",
+    "portuguese"
   ],
   "Platforms": {
     "windows": true,

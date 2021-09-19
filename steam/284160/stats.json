@@ -1,18 +1,22 @@
-﻿{
-  "meters_driven": {
-    "description": "Meters Driven",
-    "value": 0
+[
+  {
+    "name": "meters_driven",
+    "defaultvalue": 0,
+    "displayName": "Meters Driven"
   },
-  "beams_broken": {
-    "description": "Beams broken",
-    "value": 0
+  {
+    "name": "beams_broken",
+    "defaultvalue": 0,
+    "displayName": "Beams broken"
   },
-  "top_speed": {
-    "description": "Top speed",
-    "value": 0
+  {
+    "name": "top_speed",
+    "defaultvalue": 0,
+    "displayName": "Top speed"
   },
-  "fuel_consumed": {
-    "description": "Fuel consumed",
-    "value": 0
+  {
+    "name": "fuel_consumed",
+    "defaultvalue": 0,
+    "displayName": "Fuel consumed"
   }
-}
+]

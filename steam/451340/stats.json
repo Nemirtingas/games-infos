@@ -1,34 +1,42 @@
-﻿{
-  "STAT_DRIVE": {
-    "description": "KM",
-    "value": 0
+[
+  {
+    "name": "STAT_DRIVE",
+    "defaultvalue": 0,
+    "displayName": "KM"
   },
-  "STAT_GOLD": {
-    "description": "GOLD",
-    "value": 0
+  {
+    "name": "STAT_GOLD",
+    "defaultvalue": 0,
+    "displayName": "GOLD"
   },
-  "STAT_MAG": {
-    "description": "MAG",
-    "value": 0
+  {
+    "name": "STAT_MAG",
+    "defaultvalue": 0,
+    "displayName": "MAG"
   },
-  "DRILL": {
-    "description": "DIG",
-    "value": 0
+  {
+    "name": "DRILL",
+    "defaultvalue": 0,
+    "displayName": "DIG"
   },
-  "REPAIR": {
-    "description": "RPR",
-    "value": 0
+  {
+    "name": "REPAIR",
+    "defaultvalue": 0,
+    "displayName": "RPR"
   },
-  "GAS": {
-    "description": "GAS",
-    "value": 0
+  {
+    "name": "GAS",
+    "defaultvalue": 0,
+    "displayName": "GAS"
   },
-  "MONEY": {
-    "description": "MNY",
-    "value": 0
+  {
+    "name": "MONEY",
+    "defaultvalue": 0,
+    "displayName": "MNY"
   },
-  "WOKERS": {
-    "description": "WRK",
-    "value": 0
+  {
+    "name": "WOKERS",
+    "defaultvalue": 0,
+    "displayName": "WRK"
   }
-}
+]

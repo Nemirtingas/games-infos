@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "name": "ACH_FOREST_NORMAL",
     "defaultvalue": 0,
@@ -1240,5 +1240,851 @@
     "description": "Be the first one to clear the wave 20 times in a row in a FFA game",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/b46283dc7cd8ad6f27d8a6ffb01abc80ada9fbd4.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/995bb912f45d95ba47e42e03ab790630ed7e6f54.jpg"
+  },
+  {
+    "name": "ACH_CAM_1_1",
+    "defaultvalue": 0,
+    "displayName": "Cow Farmer",
+    "hidden": 0,
+    "description": "Clear Mission 1 in less than 4 Minutes and 15 Seconds",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/cf981681bebdaed88b8981f00c329f5b943e7ed8.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/d6e1aeb70400fde34d739eac23e4b22c489f3783.jpg"
+  },
+  {
+    "name": "ACH_CAM_1_2",
+    "defaultvalue": 0,
+    "displayName": "Just Drag and Build",
+    "hidden": 0,
+    "description": "Clear Mission 2 using only Arrow & Cannon Towers",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/838439c9945ba6bc93c8b5b5d3d913f8a1965085.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/2c572d1916e84477a67edfab71b59e54f4cddd83.jpg"
+  },
+  {
+    "name": "ACH_CAM_1_3",
+    "defaultvalue": 0,
+    "displayName": "Icebreaker",
+    "hidden": 0,
+    "description": "Clear Mission 3 on Hard Difficulty without using Light or Water Elements in your build",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/21254aae09884429a1acdb98174b8b488eb872b7.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/38d9ece2ffc5411995edac9625bde7cbe4d53a02.jpg"
+  },
+  {
+    "name": "ACH_CAM_1_4",
+    "defaultvalue": 0,
+    "displayName": "Blazing Fast",
+    "hidden": 0,
+    "description": "Clear Mission 4 in less than 6 Minutes",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/aec699794714d80d9a8988f2199a790fd78d0f57.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/7936c2a04c1c27deefc705d725ca617ee246cfdc.jpg"
+  },
+  {
+    "name": "ACH_CAM_1_5",
+    "defaultvalue": 0,
+    "displayName": "Against the Tide",
+    "hidden": 0,
+    "description": "Clear Mission 5 on Hard Difficulty without using Darkness or Fire Elements in your build",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/64908d9fc73245dfbe0f212bc4b11942663f252f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/0edf87c248d2b878f72b95a74d66353f29c95d1d.jpg"
+  },
+  {
+    "name": "ACH_CAM_1_6",
+    "defaultvalue": 0,
+    "displayName": "Paradise",
+    "hidden": 0,
+    "description": "Clear Mission 6 on Hard Difficulty without losing any lives",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/1293857213060f5d8ccd33a5dbcfd58dcfa6eb34.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/796d53f7d7f1f4cc1ed8e60c4ab5e3f00ee1c450.jpg"
+  },
+  {
+    "name": "ACH_CAM_1_7",
+    "defaultvalue": 0,
+    "displayName": "Faster than Light",
+    "hidden": 0,
+    "description": "On Mission 7, kill the Slingshot Boss within 20 seconds of it spawning",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/750b7732741d2d00bb15b2eedaa725cef7431c30.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/0c71dd15fa56b23a457cc28db56b39beb9e0d3b5.jpg"
+  },
+  {
+    "name": "ACH_CAM_1_ALL",
+    "defaultvalue": 0,
+    "displayName": "Initiate",
+    "hidden": 0,
+    "description": "Clear all Missions in Chapter 1",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/611bb1b83d64e0ea4fa6d78260bac1b49843ad40.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/ed507c0bb4e6b47a9525b2b080610fc2836723aa.jpg"
+  },
+  {
+    "name": "ACH_CAM_1_4STAR",
+    "defaultvalue": 0,
+    "displayName": "Defender",
+    "hidden": 0,
+    "description": "Get 4 Stars on every Chapter 1 Mission",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/55e5d24f689a6eb1a0c467376763dbfffabe2b0e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/1af606dd1c0649f840d318d9a7565e77aa6a5d80.jpg"
+  },
+  {
+    "name": "ACH_CAM_2_8",
+    "defaultvalue": 0,
+    "displayName": "Through the Wasteland",
+    "hidden": 0,
+    "description": "Clear Mission 8 in 12 Minutes or less",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/0364f4ee02aa59bbfa5910c8928c904f585f2fd0.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/c91d4e62aebe64200e730685d006395b8106138a.jpg"
+  },
+  {
+    "name": "ACH_CAM_2_9",
+    "defaultvalue": 0,
+    "displayName": "Temple Killer",
+    "hidden": 0,
+    "description": "Get 300 kills on one Tower in Mission 9",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/8d2d0dac1c67d87ee0d83ff8fe4168ef6a018ff3.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/a4b7ae9f251abc9fda439ab37589c872817eeb84.jpg"
+  },
+  {
+    "name": "ACH_CAM_2_10",
+    "defaultvalue": 0,
+    "displayName": "Quakeless",
+    "hidden": 0,
+    "description": "Clear Mission 10 on Hard without using Earth-type Towers",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/6b8275b70e2daae32e0e901bcfdd43efb399cda2.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/8caf3a6b5b70901a50368295c7934dc32736f21f.jpg"
+  },
+  {
+    "name": "ACH_CAM_2_11",
+    "defaultvalue": 0,
+    "displayName": "Grand Defense",
+    "hidden": 0,
+    "description": "Clear Mission 11 on Hard without losing any lives",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/351acfc2ee9cca04ef89da2d052d9bddea832bf6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/2b55a0bf8769fd4a9dab698a89ad5af33a211445.jpg"
+  },
+  {
+    "name": "ACH_CAM_2_12",
+    "defaultvalue": 0,
+    "displayName": "Braving the Sands",
+    "hidden": 0,
+    "description": "Clear Mission 12 on Hard Difficulty in 18 Minutes or less",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/326100f68dfe1eb97349a8b404dd5059d67d9624.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/4fa14bb8cbeb056dadeddb82dff21633a3811be1.jpg"
+  },
+  {
+    "name": "ACH_CAM_2_13",
+    "defaultvalue": 0,
+    "displayName": "Twinless",
+    "hidden": 0,
+    "description": "Clear Mission 13 without building any Dual Element Towers",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/8f8c5aa160f728e1f59f028089212006d6bfdc16.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/686067d22677f24ce8bf4b95984fd79085c67a52.jpg"
+  },
+  {
+    "name": "ACH_CAM_2_14",
+    "defaultvalue": 0,
+    "displayName": "An Interesting Choice",
+    "hidden": 0,
+    "description": "Get a total of 2000 Interest in Mission 14",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/e977d3966bd9a50586efd5526c6708bbab7bb5b8.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/89fca770644dd4883f6b8d4ec8e12502d1199851.jpg"
+  },
+  {
+    "name": "ACH_CAM_2_ALL",
+    "defaultvalue": 0,
+    "displayName": "Adept",
+    "hidden": 0,
+    "description": "Clear all Missions in Chapter 2",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/ce158a2357a81ba24019e585285005d7056551ab.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/ac803f50decee7bb134befdc857290b130ddfd7d.jpg"
+  },
+  {
+    "name": "ACH_CAM_2_4STAR",
+    "defaultvalue": 0,
+    "displayName": "Conqueror",
+    "hidden": 0,
+    "description": "Get 4 Stars on every Chapter 2 Mission",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/40c4de2b23b7b935f4fce76673c2103827cc1c9c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/097e0f98eec468c719914250051b6f311de93f9f.jpg"
+  },
+  {
+    "name": "ACH_MONUMENT",
+    "defaultvalue": 0,
+    "displayName": "Monument",
+    "hidden": 0,
+    "description": "Get 500 kills on a single tower in an FFA game",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/aab13e26093b9fbae466b3f17dc3268114a734f4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/578054ef607ed947bb2d4d8b6913402a6952a790.jpg"
+  },
+  {
+    "name": "ACH_BOSSHUNTER",
+    "defaultvalue": 0,
+    "displayName": "Boss Hunter",
+    "hidden": 0,
+    "description": "Reach Wave 64",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/da320b4d51dbc38313102087246f2f8eebc1e390.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/d511689cd1d486a10b218e5b8050fcfd2a2ed298.jpg"
+  },
+  {
+    "name": "ACH_HOWINTERESTING",
+    "defaultvalue": 0,
+    "displayName": "How Interesting",
+    "hidden": 0,
+    "description": "Get a 20,000 Interest in an FFA game",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/709f35719e9eb82862bf907aec55026171a0c832.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/13c07bed733b947bf678363e0dc4dd9d2429c2fe.jpg"
+  },
+  {
+    "name": "ACH_GREEDGOOD",
+    "defaultvalue": 0,
+    "displayName": "Greed is Good",
+    "hidden": 0,
+    "description": "Have 50,000 Unspent Gold in a Very Hard + FFA game prior to clearing Wave 55",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/d004f71467e4868809441699b1eecb9d2f867916.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/ff587b17564d78cdcffffaa10a95458ccc578810.jpg"
+  },
+  {
+    "name": "ACH_BREAKINGBANK",
+    "defaultvalue": 0,
+    "displayName": "Breaking the Bank",
+    "hidden": 0,
+    "description": "Get 150,000 Networth before clearing Wave 55 in an FFA game",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/3e5230a5ef95fb1711fedb5e7b143d24f30cbd4f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/efb56b8f4e01f322c03b5a37911831c35b5c3fdd.jpg"
+  },
+  {
+    "name": "ACH_EXTREMECONDITIONS",
+    "defaultvalue": 0,
+    "displayName": "Extreme Conditions",
+    "hidden": 0,
+    "description": "Clear Wave 55 on Full Length + Hard + Extreme, on any map",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/c79586ea030422b138a24397178dc90a8a1bfed9.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/75dbc03e0acc94d4dc8ef31f6065448167ea3d62.jpg"
+  },
+  {
+    "name": "ACH_PERFECTIONIST",
+    "defaultvalue": 0,
+    "displayName": "Perfectionist",
+    "hidden": 0,
+    "description": "Clear Wave 55 on Full Length + Insane without losing any lives, on any map",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/3debb388bf42e71b5dbb3bad6e892d8fb833f29f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/028484a73f8966ab5e12e7de83819f29b61da8e2.jpg"
+  },
+  {
+    "name": "ACH_ALLSKILL",
+    "defaultvalue": 0,
+    "displayName": "It Was All Skill",
+    "hidden": 0,
+    "description": "Beat the game on Very Hard + Random + No Sell + 2-Path in an FFA game, on any map",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/861a825d8021ebc674720e533829991575b5fe70.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/b50f539b9bec89a60fcaca3a294a4bee2a74fcae.jpg"
+  },
+  {
+    "name": "ACH_WAR_1WIN",
+    "defaultvalue": 0,
+    "displayName": "First War",
+    "hidden": 0,
+    "description": "Win 1 Game of War Mode",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/ef576af64e01cfe5249ff2be73b505afcc769ac4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/7080e0c8c4fbe51c53079f4bd9f37f73369af6ae.jpg"
+  },
+  {
+    "name": "ACH_WAR_5WIN",
+    "defaultvalue": 0,
+    "displayName": "War Veteran",
+    "hidden": 0,
+    "description": "Win 5 Games of War Mode",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/7d7206963a76ac8cf3046b046de7175d6b63b3af.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/1238b84de56de34a52135eb07b74781bfa222e58.jpg"
+  },
+  {
+    "name": "ACH_WAR_25WIN",
+    "defaultvalue": 0,
+    "displayName": "Master of War",
+    "hidden": 0,
+    "description": "Win 25 Games of War Mode",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/8f4f82104ab379266cd380f69157061dfdd9b8d1.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/7c8972c14b3473de412639fbd17b25da5e7bc972.jpg"
+  },
+  {
+    "name": "ACH_ELEDIVERSE",
+    "defaultvalue": 0,
+    "displayName": "Elemental Diversity",
+    "hidden": 0,
+    "description": "Cast all six War Mode Abilities at least once in a single game in War Mode",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/0ecec94ba38ea4211effd6d112169142a59c03bb.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/4bb00a8807244b75537cecf6aca5725b88ce3578.jpg"
+  },
+  {
+    "name": "ACH_ANNIHILATION",
+    "defaultvalue": 0,
+    "displayName": "Annihilation",
+    "hidden": 0,
+    "description": "Blow up 10 of your Opponent's Towers at once with a single Nuke in War Mode",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/924648454feedd0599097e357da342f3c2c6c81d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/e71f03e086b65d926ef2d0f2ab6e87773fbd0d84.jpg"
+  },
+  {
+    "name": "ACH_STASIS",
+    "defaultvalue": 0,
+    "displayName": "Total Stasis",
+    "hidden": 0,
+    "description": "Catch 20 creeps in stasis with a single Dimensional Rift in War Mode",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/7b05fc5229329de28d5283a94a0950343d84966c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/a32021eeb6c230b086b0dad00f5f48dd1f91e84a.jpg"
+  },
+  {
+    "name": "ACH_MEGAKILLER",
+    "defaultvalue": 0,
+    "displayName": "Mega Killer",
+    "hidden": 0,
+    "description": "Kill a total of 10 Mega Creeps in War Mode games",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/a6552ad2c010c1a23d567d296e26a64f11745541.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/92a5215a76db94425a95663d899dd4175d817005.jpg"
+  },
+  {
+    "name": "ACH_FULLCOUNTER",
+    "defaultvalue": 0,
+    "displayName": "Full Counter",
+    "hidden": 0,
+    "description": "Decrease the opponent's lives by 15 in a single wave in War Mode",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/a992b67108968c4ac966665faacd814aad54168b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/4b5c82a579fbeb8d6c5be86462cb8e025efb2a75.jpg"
+  },
+  {
+    "name": "ACH_DOMINATION",
+    "defaultvalue": 0,
+    "displayName": "Domination",
+    "hidden": 0,
+    "description": "Win a War Mode game without losing a single life",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/c44c30c285313b9a870a4179b09fed2acf0887ba.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/0055a3de23deb0df3720b1499830c8b40876af15.jpg"
+  },
+  {
+    "name": "ACH_WINSTREAK",
+    "defaultvalue": 0,
+    "displayName": "Win Streak",
+    "hidden": 0,
+    "description": "Win 3 Ranked Games in a row",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/4ba1faa2c7379ba325aac91db9981192d1cba1b5.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/7fee0484310a875457a2da60dbd76083ac296deb.jpg"
+  },
+  {
+    "name": "ACH_FOREST_ALT",
+    "defaultvalue": 0,
+    "displayName": "Alternate Forest",
+    "hidden": 0,
+    "description": "Clear Wave 55 of Forest Variant on Hard Difficulty",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/63ce78ee71624967bc8a7d1578807a8e7b8a8643.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/2599d304da0df4e382a108ba003bc617071b6e3a.jpg"
+  },
+  {
+    "name": "ACH_FOREST_ELITE",
+    "defaultvalue": 0,
+    "displayName": "Elite Forest",
+    "hidden": 0,
+    "description": "Clear Wave 55 of Forest Variant on Very Hard + Advanced Paths",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/b6bec8eb5c33d1257d4dafd2a8fc15d0d3c53e85.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/7b20a4c8af024a944ecda2deccd8402daddeb463.jpg"
+  },
+  {
+    "name": "ACH_LAVA_ALT",
+    "defaultvalue": 0,
+    "displayName": "Alternate Lava",
+    "hidden": 0,
+    "description": "Clear Wave 55 of Lava Variant on Hard Difficulty",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/8ede9db6e2ce52387b334e64b09c399ce7ce44fc.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/fe14c96e5c1529211e6628f5689063ccfa5df09f.jpg"
+  },
+  {
+    "name": "ACH_LAVA_ELITE",
+    "defaultvalue": 0,
+    "displayName": "Elite Lava",
+    "hidden": 0,
+    "description": "Clear Wave 55 of Lava Variant on Very Hard + Advanced Paths",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/fd426920e003d38e9773fe8a0fc462eb97486194.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/5de5dc57447e0efada4c6074387f3e3ac7137722.jpg"
+  },
+  {
+    "name": "ACH_TROPICAL_ALT",
+    "defaultvalue": 0,
+    "displayName": "Alternate Tropical",
+    "hidden": 0,
+    "description": "Clear Wave 55 of Tropical Variant on Hard Difficulty",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/f519d39d8c9c1b6df10e2ceaf02c8213ca03c0d7.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/93924836aa3a47c4712bd6d4bca2f99d8792a49e.jpg"
+  },
+  {
+    "name": "ACH_TROPICAL_ELITE",
+    "defaultvalue": 0,
+    "displayName": "Elite Tropical",
+    "hidden": 0,
+    "description": "Clear Wave 55 of Tropical Variant on Very Hard + Advanced Paths",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/0944942b67ccc19784ee28c94cb6750ec39697b1.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/1bdd2a44fd9c2611ae3ee0272d765b7c92cae08f.jpg"
+  },
+  {
+    "name": "ACH_WASTELAND_ALT",
+    "defaultvalue": 0,
+    "displayName": "Alternate Wasteland",
+    "hidden": 0,
+    "description": "Clear Wave 55 of Wasteland Variant on Hard Difficulty",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/db3de011c66c01428f6f1669d0934e7a668a9874.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/afd1bc026f6afecb19feb2fee9ad9a98e94c5496.jpg"
+  },
+  {
+    "name": "ACH_WASTELAND_ELITE",
+    "defaultvalue": 0,
+    "displayName": "Elite Wasteland",
+    "hidden": 0,
+    "description": "Clear Wave 55 of Wasteland Variant on Very Hard + Advanced Paths",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/c5c42e38a04e6133860162584adc94d7806b06e5.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/2af1271b33aaf59dbb2a7d411fbc35c9bd740ff6.jpg"
+  },
+  {
+    "name": "ACH_AUTUMN_ALT",
+    "defaultvalue": 0,
+    "displayName": "Alternate Autumn",
+    "hidden": 0,
+    "description": "Clear Wave 55 of Autumn Variant on Hard Difficulty",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/b162d0fdeca8ed2d6f72d28b63969b3001f4af35.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/2e46c40a347ddd760feb96cf66c733186dffaf79.jpg"
+  },
+  {
+    "name": "ACH_AUTUMN_ELITE",
+    "defaultvalue": 0,
+    "displayName": "Elite Autumn",
+    "hidden": 0,
+    "description": "Clear Wave 55 of Autumn Variant on Very Hard + Advanced Paths",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/9423e2b1743dec2ebb25c523eb8e5debcfb2846d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/6481d8e3f968ca147113d8aa6787d60fabdc9227.jpg"
+  },
+  {
+    "name": "ACH_DESERT_ALT",
+    "defaultvalue": 0,
+    "displayName": "Alternate Desert",
+    "hidden": 0,
+    "description": "Clear Wave 55 of Desert Variant on Hard Difficulty",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/47f0d543b317789fddea4a47534e2939b0a7d85a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/1c9cea0fdcc940a592bd6621925d5a8c966f1777.jpg"
+  },
+  {
+    "name": "ACH_DESERT_ELITE",
+    "defaultvalue": 0,
+    "displayName": "Elite Desert",
+    "hidden": 0,
+    "description": "Clear Wave 55 of Desert Variant on Very Hard + Advanced Paths",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/a042a88753cc158f63e912e402a07a0c48aa54a4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/f7beb80b68681d0fe93a0f351b352e552863a47c.jpg"
+  },
+  {
+    "name": "ACH_WINTER_ALT",
+    "defaultvalue": 0,
+    "displayName": "Alternate Winter",
+    "hidden": 0,
+    "description": "Clear Wave 55 of Winter Variant on Hard Difficulty",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/c886a13cf93c8b64faf0a3f8a3f787821fecabe5.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/66b0d743f97cb8cc22650aa12f4d328d8017d5eb.jpg"
+  },
+  {
+    "name": "ACH_WINTER_ELITE",
+    "defaultvalue": 0,
+    "displayName": "Elite Winter",
+    "hidden": 0,
+    "description": "Clear Wave 55 of Winter Variant on Very Hard + Advanced Paths",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/9b4e1f4483b1914f64f415b4a96f2cf31a5bd515.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/c29ed819fe6de24c90ce44d7af10c5aa7206d2c3.jpg"
+  },
+  {
+    "name": "ACH_TEMPLE_ALT",
+    "defaultvalue": 0,
+    "displayName": "Alternate Temple",
+    "hidden": 0,
+    "description": "Clear Wave 55 of Temple Variant on Hard Difficulty",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/df64f3d332103ce723c202a4ad794ac9bfa1b13c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/299b6343bdf2a70ab72a6a06671ea68037c0994b.jpg"
+  },
+  {
+    "name": "ACH_TEMPLE_ELITE",
+    "defaultvalue": 0,
+    "displayName": "Elite Temple",
+    "hidden": 0,
+    "description": "Clear Wave 55 of Temple Variant on Very Hard + Advanced Paths",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/4dac10fbc88bfddd2a2e5518f96796b0d1488048.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/2d0be9a5a69bf723cfa2cf006df4d494f1bfb6b4.jpg"
+  },
+  {
+    "name": "ACH_CAM_3_15",
+    "defaultvalue": 0,
+    "displayName": "Ungrounded",
+    "hidden": 0,
+    "description": "Beat Mission 15 on Hard without having Earth or Nature Elements in your Loadout",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/7733c8c3707eb503609b65d0cd1bca7320931d92.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/236b18a39e30d5baaec2691d29ff83ae97313232.jpg"
+  },
+  {
+    "name": "ACH_CAM_3_16",
+    "defaultvalue": 0,
+    "displayName": "Stuck Together",
+    "hidden": 0,
+    "description": "Beat Mission 16 on Hard with all towers built within 1 space of an existing tower",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/7084b70a275e458c8b5fd2aa27490ebb07d3bdfb.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/aa5e07a98b62f0b9215dfddbfa93e1d977618b01.jpg"
+  },
+  {
+    "name": "ACH_CAM_3_17",
+    "defaultvalue": 0,
+    "displayName": "Autumn Blitz",
+    "hidden": 0,
+    "description": "Beat Mission 17 on Very Hard in 24 Minutes or less",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/4f87aa307494502444b6e721ac8c924e09a8d868.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/d7d4297005bdf5b1a504a6935dc6502640ed2f88.jpg"
+  },
+  {
+    "name": "ACH_CAM_3_18",
+    "defaultvalue": 0,
+    "displayName": "Too Close for Comfort",
+    "hidden": 0,
+    "description": "Beat Mission 18 on Hard without using 1150 Range (or higher) Towers",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/d6ab50eb5c1bfb5c0f920baf9bda81c0d3f88338.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/a25ca681ef4d34cd4f90f7ffb23d63bfbe10ea0f.jpg"
+  },
+  {
+    "name": "ACH_CAM_3_19",
+    "defaultvalue": 0,
+    "displayName": "Impenetrable Defense",
+    "hidden": 0,
+    "description": "Beat Mission 19 on Hard without losing any lives",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/5f2c694e1516092309290dca1657a3b48e248100.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/197dfacf2934f714c2742a59cead8b674b3902e0.jpg"
+  },
+  {
+    "name": "ACH_CAM_3_20",
+    "defaultvalue": 0,
+    "displayName": "Perfect Plan",
+    "hidden": 0,
+    "description": "Beat Mission 20 on Hard without selling your towers, even during Wave Breaks",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/bb5293d2a0cf2d78859a21917a0dfcfb284a1847.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/a85dda93acdf0ead748afa9b17f2680f613a46ac.jpg"
+  },
+  {
+    "name": "ACH_CAM_3_21",
+    "defaultvalue": 0,
+    "displayName": "Absolute Knowledge",
+    "hidden": 0,
+    "description": "Beat Mission 21 on Normal using only Level 1 Towers",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/f923ad72009a6caf73fc41712bbe3472a7117827.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/f5e7a48f6d5bae1b8557f66c42324c463c2064f6.jpg"
+  },
+  {
+    "name": "ACH_CAM_3_ALL",
+    "defaultvalue": 0,
+    "displayName": "Sorcerer",
+    "hidden": 0,
+    "description": "Clear all Missions in Chapter 3",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/1930df949b266664f8f79fcd755bd97018615d70.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/654ea28b82f43161407b296310d79e44161dd9d5.jpg"
+  },
+  {
+    "name": "ACH_CAM_3_4STAR",
+    "defaultvalue": 0,
+    "displayName": "Triumph",
+    "hidden": 0,
+    "description": "Get 4 Stars on every Chapter 3 Mission",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/99e8444dbb1663cccbcb9facfba1544c8198513a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/cbe1b8cca58cd9659735d5703f1bd1d24045f5cc.jpg"
+  },
+  {
+    "name": "ACH_VOLCANO_NORMAL",
+    "defaultvalue": 0,
+    "displayName": "Volcano Guard",
+    "hidden": 0,
+    "description": "Clear Wave 55 on Normal Difficulty",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/f5ed9a17102fd11e78c19fdaf6e81e1f05e91f71.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/37d489604c71182609576fef3c21bd6470031275.jpg"
+  },
+  {
+    "name": "ACH_VOLCANO_HARD",
+    "defaultvalue": 0,
+    "displayName": "Volcano Council",
+    "hidden": 0,
+    "description": "Clear Wave 55 on Hard Difficulty",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/055e136ff64d370872829f4abb6df5dc7c7b763a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/3e8c0a23de6342ab0fc63a7bc2a0d7152b8a80d9.jpg"
+  },
+  {
+    "name": "ACH_VOLCANO_VERYHARD",
+    "defaultvalue": 0,
+    "displayName": "Volcano Mayor",
+    "hidden": 0,
+    "description": "Clear Wave 55 on Very Hard Difficulty",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/49b9ccd3273eff4058911cf3fdcb5acaf451939a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/851090acce89d12012171c9a9bdea4225a82b143.jpg"
+  },
+  {
+    "name": "ACH_VOLCANO_INSANE",
+    "defaultvalue": 0,
+    "displayName": "Volcano Supreme Leader",
+    "hidden": 0,
+    "description": "Clear Wave 55 on Insane Difficulty",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/6e5813bd3b48eb75d6a6593e1b23f3ac381df8e7.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/daf9265c89747e9aa8ccdcb2c3327c921e1a9970.jpg"
+  },
+  {
+    "name": "ACH_VOLCANO_500SCORE",
+    "defaultvalue": 0,
+    "displayName": "Volcano Templar",
+    "hidden": 0,
+    "description": "Get a Boss Score of at least 500",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/eeccee8e8c4005826209bde5c22bec5b300f9ebc.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/d18a92db953fe5874f021ddfc38aa2cc2ee9abee.jpg"
+  },
+  {
+    "name": "ACH_VOLCANO_2000SCORE",
+    "defaultvalue": 0,
+    "displayName": "Volcano Avenger",
+    "hidden": 0,
+    "description": "Get a Boss Score of at least 2000",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/57db8fa1d666e788dd117e4bb89f09828847d6d0.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/4b0c46afd78ac18e21aa0774359c0e65d3ff74ff.jpg"
+  },
+  {
+    "name": "ACH_VOLCANO_5000SCORE",
+    "defaultvalue": 0,
+    "displayName": "Volcano God",
+    "hidden": 0,
+    "description": "Get a Boss Score of at least 5000",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/884cacc2607caca32af178b95c2d0c214b03a67a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/9c71358f171f5b1df2ce0e71c3bac94ce35f7849.jpg"
+  },
+  {
+    "name": "ACH_TUNDRA_NORMAL",
+    "defaultvalue": 0,
+    "displayName": "Tundra Guard",
+    "hidden": 0,
+    "description": "Clear Wave 55 on Normal Difficulty",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/52be88ea0166f37e3d24ef879c285a0a6bf39596.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/a2b382ad47d5d25e90eedc040286d28120b3d4cd.jpg"
+  },
+  {
+    "name": "ACH_TUNDRA_HARD",
+    "defaultvalue": 0,
+    "displayName": "Tundra Council",
+    "hidden": 0,
+    "description": "Clear Wave 55 on Hard Difficulty",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/0261ba2a8075cf645a3f0d08b00baa33af57e85c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/18164733157a75d15ecc74709c4774020cfbaca2.jpg"
+  },
+  {
+    "name": "ACH_TUNDRA_VERYHARD",
+    "defaultvalue": 0,
+    "displayName": "Tundra Mayor",
+    "hidden": 0,
+    "description": "Clear Wave 55 on Very Hard Difficulty",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/bd2ec482904554c6b69b15ee43582215961830ac.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/c27e5333f553c2e2afeaa369016d913fe1eb506c.jpg"
+  },
+  {
+    "name": "ACH_TUNDRA_INSANE",
+    "defaultvalue": 0,
+    "displayName": "Tundra Supreme Leader",
+    "hidden": 0,
+    "description": "Clear Wave 55 on Insane Difficulty",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/c77e1648c4592cc4095a0a5b55d6b0d38d2ae8ef.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/db93987b1773401f3c51551aeb69541e99bc46fb.jpg"
+  },
+  {
+    "name": "ACH_TUNDRA_500SCORE",
+    "defaultvalue": 0,
+    "displayName": "Tundra Templar",
+    "hidden": 0,
+    "description": "Get a Boss Score of at least 500",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/194ae6df565fb4328f721c8f456d6921cf2beebf.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/f5bc2575729419bf4fa9f12f3cc5355b50d10532.jpg"
+  },
+  {
+    "name": "ACH_TUNDRA_2000SCORE",
+    "defaultvalue": 0,
+    "displayName": "Tundra Avenger",
+    "hidden": 0,
+    "description": "Get a Boss Score of at least 2000",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/e862b05e21a7d2169583993c1bd1a231fcf94db1.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/687c4bb67e0cf86cf0715c307177adc8fd606ebe.jpg"
+  },
+  {
+    "name": "ACH_TUNDRA_5000SCORE",
+    "defaultvalue": 0,
+    "displayName": "Tundra God",
+    "hidden": 0,
+    "description": "Get a Boss Score of at least 5000",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/136cc8f34a5228f1eb2a9f61d56a0022ab331685.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/a03d677ad1597dff40cd702b508b0c4b89d065f6.jpg"
+  },
+  {
+    "name": "ACH_CAM_4_22",
+    "defaultvalue": 0,
+    "displayName": "Trebuchets Only",
+    "hidden": 0,
+    "description": "Clear Mission 22 on Hard using only Towers with 1250 Range or more (including Range upgrades)",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/98db7856850521bb7c341efea8ed991e534cf087.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/fc711a06274a4dba2aff267c63ce6a2cb55a9525.jpg"
+  },
+  {
+    "name": "ACH_CAM_4_23",
+    "defaultvalue": 0,
+    "displayName": "Splash Defense",
+    "hidden": 0,
+    "description": "Clear Mission 23 on Normal using only towers with 200 AoE or more",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/72eeedd1cd59d4db8ed95aad3a612cf3f5b3dd1f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/7b4dcf769f5a035e51c460c5d91809df7adfc238.jpg"
+  },
+  {
+    "name": "ACH_CAM_4_24",
+    "defaultvalue": 0,
+    "displayName": "Triad of Light",
+    "hidden": 0,
+    "description": "Clear Mission 24 on Hard using only Light, Water, and Nature Elements",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/fc31a9b92bf55e76ea7ea559561f9ffbc0efd5be.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/08889ad47e876bd7cc716e1694677da488e9bd20.jpg"
+  },
+  {
+    "name": "ACH_CAM_4_25",
+    "defaultvalue": 0,
+    "displayName": "Set for Annihilation",
+    "hidden": 0,
+    "description": "Clear Mission 25 on Hard without building or upgrading any towers during the last wave",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/f22394f3cd024d8985f064ca38d61569f4ba6f01.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/c6744e5f74cd41f725f79fcd68fc99871bc89fd4.jpg"
+  },
+  {
+    "name": "ACH_CAM_4_26",
+    "defaultvalue": 0,
+    "displayName": "Triad of Darkness",
+    "hidden": 0,
+    "description": "Clear Mission 26 on Normal using only Darkness, Fire, and Earth Elements",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/31c64e173c49d34140891e934757cdb7a23d9109.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/ba91d041beb0061620eb61db0e96ebb575d80cc3.jpg"
+  },
+  {
+    "name": "ACH_CAM_4_27",
+    "defaultvalue": 0,
+    "displayName": "Full Support",
+    "hidden": 0,
+    "description": "Clear Mission 27 on Normal using only Buff, Slow, and Damage Amp Towers",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/964e394ce85a12824d396ef2424f44172871fc01.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/08961513673ed53c456a48ef5048ade3677ddd0b.jpg"
+  },
+  {
+    "name": "ACH_CAM_4_28",
+    "defaultvalue": 0,
+    "displayName": "Portal Master",
+    "hidden": 0,
+    "description": "Clear Mission 28 on Very Hard without using Infernal Towers",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/66b0c482e335f3a4e5acf889e775618356c738a0.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/28122798b566f17339ff932ebc7fd01e6b6ed8c6.jpg"
+  },
+  {
+    "name": "ACH_CAM_4_ALL",
+    "defaultvalue": 0,
+    "displayName": "Wizard Prime",
+    "hidden": 0,
+    "description": "Clear all Missions in Chapter 4",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/94cdf487fc3cc8df51609630a2ef1d3233b1003a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/31f064487faa1c51f5f09027ac1b200ef6fc9ba5.jpg"
+  },
+  {
+    "name": "ACH_CAM_4_4STAR",
+    "defaultvalue": 0,
+    "displayName": "Annihilator",
+    "hidden": 0,
+    "description": "Get 4 Stars on every Chapter 4 Mission",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/c2aa444deef6c57a8df7736283106be8b5ce50ed.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/eeea9887ff2f026c8388cf0e8238c4a36325f78f.jpg"
+  },
+  {
+    "name": "ACH_CAM_ALL",
+    "defaultvalue": 0,
+    "displayName": "Master of Elements",
+    "hidden": 0,
+    "description": "Clear all 28 Missions in the Campaign",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/cd0e9903becf7ded32756a3e49c8b9abbc505df0.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/981e2e0940d93b695ff622b7956f90baa87b8cae.jpg"
+  },
+  {
+    "name": "ACH_PINNACLE_NORMAL",
+    "defaultvalue": 0,
+    "displayName": "Pinnacle Guard",
+    "hidden": 0,
+    "description": "Clear Wave 55 on Normal Difficulty",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/d966410ea12a03bb82f40ef185df61c7107c69ed.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/9964b859c7b7f176757feff83ffaa964da671a32.jpg"
+  },
+  {
+    "name": "ACH_PINNACLE_HARD",
+    "defaultvalue": 0,
+    "displayName": "Pinnacle Council",
+    "hidden": 0,
+    "description": "Clear Wave 55 on Hard Difficulty",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/056c7b589b74bd333b35ce5de755da4ed1ae3b42.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/3248bd7fb1e00d3b06ba4ccb0bae98c2d31f93d5.jpg"
+  },
+  {
+    "name": "ACH_PINNACLE_VERYHARD",
+    "defaultvalue": 0,
+    "displayName": "Pinnacle Mayor",
+    "hidden": 0,
+    "description": "Clear Wave 55 on Very Hard Difficulty",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/44591606786c03afb108681c236c3a2d3b9e7c6d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/7906efddfeb8c897d571595ab15781a626f4c565.jpg"
+  },
+  {
+    "name": "ACH_PINNACLE_INSANE",
+    "defaultvalue": 0,
+    "displayName": "Pinnacle Supreme Leader",
+    "hidden": 0,
+    "description": "Clear Wave 55 on Insane Difficulty",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/e1d3b047e4b98f8ce4a37bcc1a5c7ead14144bce.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/c5865f3bff91b142d89cc17f93f9d00558b850ec.jpg"
+  },
+  {
+    "name": "ACH_PINNACLE_500SCORE",
+    "defaultvalue": 0,
+    "displayName": "Pinnacle Templar",
+    "hidden": 0,
+    "description": "Get a Boss Score of at least 500",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/f75ed8a88c38996fde9b0f94d5d6a0e9250cddcf.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/5ba9eb3e2eaf8e2a436b21e2b32b91951c79323f.jpg"
+  },
+  {
+    "name": "ACH_PINNACLE_2000SCORE",
+    "defaultvalue": 0,
+    "displayName": "Pinnacle Avenger",
+    "hidden": 0,
+    "description": "Get a Boss Score of at least 2000",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/0b8b542cf333fe0a33ce71d648ec2f3547776078.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/1d25804cc3b6de10e6bc8f21b3a4a756d902e03f.jpg"
+  },
+  {
+    "name": "ACH_PINNACLE_5000SCORE",
+    "defaultvalue": 0,
+    "displayName": "Pinnacle God",
+    "hidden": 0,
+    "description": "Get a Boss Score of at least 5000",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/ed566ae6fe6d0ac5eea29ba354d80f3063f090cd.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/4f5b7515c25ff2705eadb7fb48fa9c22d9faac22.jpg"
+  },
+  {
+    "name": "ACH_LEADERBOARD10",
+    "defaultvalue": 0,
+    "displayName": "Challenger",
+    "hidden": 0,
+    "description": "Achieve any rank within Top 10 on any Leaderboard.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/382cc1d475c8d1acebaed7df7142c276862e1572.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/3924bbeaa126ce7d93a2536769155e3800267ff7.jpg"
+  },
+  {
+    "name": "ACH_LEADERBOARD3",
+    "defaultvalue": 0,
+    "displayName": "Royalty",
+    "hidden": 0,
+    "description": "Achieve any rank within Top 3 on any Leaderboard.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/709a1a8706b8120f887a66c7b5d6afeef1b5fc41.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1018830/9244bc9fa8b0495926b0367d4413c14a190366ba.jpg"
   }
 ]

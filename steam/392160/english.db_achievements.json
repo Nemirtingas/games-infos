@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "name": "ACH_FLIGHT_SCHOOL",
     "defaultvalue": 0,
@@ -502,5 +502,212 @@
     "description": "Work with the Patriarchy Police during the Split storyline (requires the Split Vendetta expansion).",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/392160/11182c59495481e644f92e4603c4db521491d589.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/392160/e6bfda966a357e55c4c0e5d8453f0090fe6eb7c3.jpg"
+  },
+  {
+    "name": "ACH_PLOT_PARANID_WAR",
+    "defaultvalue": 0,
+    "displayName": "What is Best in Life",
+    "hidden": 0,
+    "description": "Cut the Paranid peace celebrations short.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/392160/026f3803e40bbcdc0503b161d9d1dfa8d767d999.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/392160/dca72c75d30db67979e180231d644410a5ff2607.jpg"
+  },
+  {
+    "name": "ACH_COH_PIONEER",
+    "defaultvalue": 0,
+    "displayName": "42",
+    "hidden": 0,
+    "description": "Contemplate life, the universe and everything (requires the Cradle of Humanity expansion).",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/392160/ea0adcc71f38a94ae017bf82a9a03cb35767d1df.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/392160/ec11ff400a6d5ea718974dd202149ac32f643054.jpg"
+  },
+  {
+    "name": "ACH_COH_CADET",
+    "defaultvalue": 0,
+    "displayName": "Superior Manoeuvres",
+    "hidden": 0,
+    "description": "Complete the Terran Cadet gamestart mission (requires the Cradle of Humanity expansion).",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/392160/27c26979242355178801271c02f79858c8321ddd.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/392160/86436faaf90a367844af31f9d550d96074714bd4.jpg"
+  },
+  {
+    "name": "ACH_COH_ACCESS_GRANTED",
+    "defaultvalue": 0,
+    "displayName": "Access Granted",
+    "hidden": 0,
+    "description": "Get permission to enter the Sol Inner Core (requires the Cradle of Humanity expansion).",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/392160/946a7f9465b11facf1cdf524bf441e1f13af540f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/392160/493a9e745c44a25bb82e0b9d3178476be2704970.jpg"
+  },
+  {
+    "name": "ACH_COH_ACCESS_DENIED",
+    "defaultvalue": 0,
+    "displayName": "Access Denied",
+    "hidden": 0,
+    "description": "Enter the Earth sector without permission (requires the Cradle of Humanity expansion).",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/392160/d1cd49903e68aba22e06580ce1852908018d7b14.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/392160/5fec46aa147088a54b1bf95a114c9d6a8df6b485.jpg"
+  },
+  {
+    "name": "ACH_COH_PLOT_TERRAN_WAR",
+    "defaultvalue": 0,
+    "displayName": "Missing in Action",
+    "hidden": 0,
+    "description": "Risk your life in the defence of Sol (requires the Cradle of Humanity expansion).",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/392160/36fc67220b3a87665e61071aee28375243988815.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/392160/467952057088955df02deab54f25c87e75322c6f.jpg"
+  },
+  {
+    "name": "ACH_COH_PLOT_TF_1",
+    "defaultvalue": 0,
+    "displayName": "Gather Essential Data",
+    "hidden": 0,
+    "description": "Gather data inside the Torus wreckage with help of a friend (requires the Cradle of Humanity expansion).",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/392160/7b22dea45c455fa1bb8d973ca3d368c3e9ed163a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/392160/6091b7ff50c3161413c668ebcaae6e7c975e75e9.jpg"
+  },
+  {
+    "name": "ACH_COH_PLOT_TF_2",
+    "defaultvalue": 0,
+    "displayName": "A Glimpse of Home",
+    "hidden": 0,
+    "description": "Help Boso observe the Great Reef Nebula (requires the Cradle of Humanity expansion).",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/392160/933ef06198b1190b36e4a72f5cffec4349f52ac3.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/392160/5f803cc12177d23f508ef9f49668dc241987aff9.jpg"
+  },
+  {
+    "name": "ACH_COH_PLOT_TF_3",
+    "defaultvalue": 0,
+    "displayName": "Advanced Terraforming",
+    "hidden": 0,
+    "description": "Unlock advanced Terraforming Projects developed from Segarian research and data from Terran archives (requires the Cradle of Humanity expansion).",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/392160/82be4b8cbbd6691c150259a4ab4e934ce3d0d015.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/392160/4770cdbafb67e9163d04d1c5d854e7d11e805dd1.jpg"
+  },
+  {
+    "name": "ACH_COH_PLOT_COVERT_1",
+    "defaultvalue": 0,
+    "displayName": "Hold up a minute!",
+    "hidden": 0,
+    "description": "Almost give the game away (requires the Cradle of Humanity expansion).",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/392160/54e5dc8b276eecff9051b27430c0fdc25617c9e2.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/392160/06aaf05cb5fa23754c721a5852596fd952ffdc97.jpg"
+  },
+  {
+    "name": "ACH_COH_PLOT_COVERT_TERRAN",
+    "defaultvalue": 0,
+    "displayName": "From the Shadows",
+    "hidden": 0,
+    "description": "Sow discord between two allied Factions without them realizing (requires the Cradle of Humanity expansion).",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/392160/69b0a8e8bc89f2e55b9a90a2c07f0289982be079.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/392160/39babb5b74d6e764e60040bdf36a4952b7b29d0b.jpg"
+  },
+  {
+    "name": "ACH_COH_PLOT_COVERT_ARGON",
+    "defaultvalue": 0,
+    "displayName": "This Ship has Sprung a Leak",
+    "hidden": 0,
+    "description": "Blow the whistle on the whole operation (requires the Cradle of Humanity expansion).",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/392160/d31ab2f36ac28124589819948985d9d690283093.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/392160/62b79756ffb0d9e9336d38df9b0e32cf0976ef3c.jpg"
+  },
+  {
+    "name": "ACH_COH_PLOT_COVERT_NONE",
+    "defaultvalue": 0,
+    "displayName": "Cold Feet",
+    "hidden": 0,
+    "description": "Decide that the Status Quo reigns supreme (requires the Cradle of Humanity expansion).",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/392160/6475eb09052740ee51731a68aa7ce2c86e8c8a9e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/392160/815f173e2e01f3862ffc16a9908c23f2be8c30c7.jpg"
+  },
+  {
+    "name": "ACH_COH_PLOT_YAKI_1",
+    "defaultvalue": 0,
+    "displayName": "Case Closed",
+    "hidden": 0,
+    "description": "Conclude your investigation and uncover a threat to humanity (requires the Cradle of Humanity expansion).",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/392160/b3aafb4e63c9d40798a62316a78f33bdd133c318.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/392160/b3943ea14634dbd6812a0361ec44b7863d94d1d4.jpg"
+  },
+  {
+    "name": "ACH_COH_PLOT_YAKI_2",
+    "defaultvalue": 0,
+    "displayName": "Never Heard of Him",
+    "hidden": 0,
+    "description": "Conclude your investigation and find nothing out of the ordinary (requires the Cradle of Humanity expansion).",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/392160/eb153a5a8feed57cee7d3810b57d875e62c50da8.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/392160/e552a21a49cd921173c9984fbd10f0b9d9b09c07.jpg"
+  },
+  {
+    "name": "ACH_COH_PLOT_YAKI_3",
+    "defaultvalue": 0,
+    "displayName": "Amplified Destruction",
+    "hidden": 0,
+    "description": "Rid the Yaki of their greatest asset (requires the Cradle of Humanity expansion).",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/392160/4d9b1d86222872619213ee209801afc0d9cf4ba4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/392160/b5c1a6283bad8ccef6b268ac15c092e1fe5e6038.jpg"
+  },
+  {
+    "name": "ACH_COH_PLOT_YAKI_4",
+    "defaultvalue": 0,
+    "displayName": "Mission Accomplished",
+    "hidden": 0,
+    "description": "After informing the Terran fleet, see a potential threat to Sol annihilated (requires the Cradle of Humanity expansion).",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/392160/be8a37564335f4c76dc5d1015c62cfa1e33e8ff6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/392160/77488a4f4ebf7e16d166da1532a5d7900da3156e.jpg"
+  },
+  {
+    "name": "ACH_COH_PLOT_YAKI_5",
+    "defaultvalue": 0,
+    "displayName": "Push the Button",
+    "hidden": 0,
+    "description": "Go along with Orcanic's plan and guide the Xenon to greener pastures (requires the Cradle of Humanity expansion).",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/392160/f8517e5c6775b31ba87b3af4e2208c32771b93d7.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/392160/0237e1814152a1e47cad881f549d28cbdf33c9e8.jpg"
+  },
+  {
+    "name": "ACH_COH_PLOT_YAKI_6",
+    "defaultvalue": 0,
+    "displayName": "A Heart for Pirates",
+    "hidden": 0,
+    "description": "Save the Yaki against their will (requires the Cradle of Humanity expansion).",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/392160/d70cb7a4e37fdcef8dbdb2f32b5aa4abaff036b4.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/392160/2a8c17c74499d816fde715393656d1f333efa3f0.jpg"
+  },
+  {
+    "name": "ACH_TERRAFORMING_PROJECT",
+    "defaultvalue": 0,
+    "displayName": "The First of Many",
+    "hidden": 0,
+    "description": "Complete a terraforming project.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/392160/0e01d2f7fc6938975ccdae7ea5ec1b30f595daa1.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/392160/f5a90a6c16a1699f9c2056c92353a01eff974b1d.jpg"
+  },
+  {
+    "name": "ACH_TERRAFORMING_MISSION",
+    "defaultvalue": 0,
+    "displayName": "Plasma Cannons to Ploughshares",
+    "hidden": 0,
+    "description": "Complete a terraforming mission.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/392160/5cb9387edb15997a3dc7e023913bc81512737e1a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/392160/addcfc3db3981221937a8a9f78bd2af0c0e4c171.jpg"
+  },
+  {
+    "name": "ACH_TERRAFORMING_IMPOSSIBLE",
+    "defaultvalue": 0,
+    "displayName": "Xenon Got Nothing on Me",
+    "hidden": 0,
+    "description": "Complete a terraforming mission with an \"impossible\" difficulty.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/392160/00f829d2837b084d482d06bedcd34069c40b0532.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/392160/3c68efcc6caafe4b52fa981a3782d05e82b4d1ff.jpg"
+  },
+  {
+    "name": "STAT_terraforming_missions_completed",
+    "defaultvalue": 0,
+    "displayName": "Because I Can",
+    "hidden": 0,
+    "description": "Complete 7 terraforming missions.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/392160/691246f8ce0ebae1f0afe0a0e5fdbbd5564a74f7.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/392160/cde41907f1bf335f3543622c629d311197fa4bb7.jpg"
   }
 ]

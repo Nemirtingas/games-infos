@@ -1,18 +1,22 @@
-﻿{
-  "FirstStart": {
-    "description": "",
-    "value": 0
+[
+  {
+    "name": "FirstStart",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "LastStart": {
-    "description": "",
-    "value": 0
+  {
+    "name": "LastStart",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "NumStarts": {
-    "description": "",
-    "value": 0
+  {
+    "name": "NumStarts",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "OnMinutes": {
-    "description": "",
-    "value": 0
+  {
+    "name": "OnMinutes",
+    "defaultvalue": 0,
+    "displayName": ""
   }
-}
+]

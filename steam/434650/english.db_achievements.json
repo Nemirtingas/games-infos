@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "name": "Lost_in_The_Castle",
     "defaultvalue": 0,
@@ -652,7 +652,7 @@
     "defaultvalue": 0,
     "displayName": "Collector",
     "hidden": 0,
-    "description": "Record all kinds of weapons and armor.",
+    "description": "Record over 250 kinds of weapons and armor.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/434650/373068b09114153f1623890f6f9c319a8e266c20.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/434650/80c726cb05159c1f661c6c65026c7e1f96a6b7ed.jpg"
   },
@@ -661,7 +661,7 @@
     "defaultvalue": 0,
     "displayName": "Biologist",
     "hidden": 0,
-    "description": "Record all kinds of monsters in the castle.",
+    "description": "Record over 85 kinds of monsters in the castle.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/434650/5cd76e5a5873dc291bc1e4972f54f4fd3fb2beed.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/434650/fd091b5958bd49f7ee19be65e2a4d3bdf9373231.jpg"
   },
@@ -670,7 +670,7 @@
     "defaultvalue": 0,
     "displayName": "Royal treasury",
     "hidden": 0,
-    "description": "Record all kinds of items and treasures.",
+    "description": "Record over 145 kinds of items and treasures.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/434650/82853970113262936507a5644ba34af94d2ee5d5.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/434650/309ee1b713f78963d7d4a0034fde2292081f8456.jpg"
   },
@@ -727,5 +727,158 @@
     "description": "Defeat Death Spirit.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/434650/93cdfc33f80a64aea977a809292152fbebcb42e4.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/434650/4b0937fcb80a2f55fff72e83091a6c9d384fd5f3.jpg"
+  },
+  {
+    "name": "Fish_Guard",
+    "defaultvalue": 0,
+    "displayName": "Kung Fu Murloc",
+    "hidden": 0,
+    "description": "Defeat Monk Murloc",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/434650/06b6e022f1f4dfa9438216ccb0384f7295482620.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/434650/6935ca472e800c9b50bd7fa47e53bae7dff87a01.jpg"
+  },
+  {
+    "name": "Wood_Knight",
+    "defaultvalue": 0,
+    "displayName": "Expel the Wood Ghost",
+    "hidden": 0,
+    "description": "Defeat Wood Knight",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/434650/bb152317114e10a9d5f89d84875126bfd2ff4d23.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/434650/cf3b30b55c03bfc3e43ddd3c07630e51515358cf.jpg"
+  },
+  {
+    "name": "Red_Dragon",
+    "defaultvalue": 0,
+    "displayName": "Great Champion",
+    "hidden": 0,
+    "description": "Defeat Dragon",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/434650/d9a627b83e7add031fab1dc01b069733ce42b00a.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/434650/f69d0d9ef1c0e56a0f7a82395949ed755be9ed93.jpg"
+  },
+  {
+    "name": "FishPrincess",
+    "defaultvalue": 0,
+    "displayName": "Princess Rescue?",
+    "hidden": 0,
+    "description": "Defeat Murloc Princess",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/434650/898c113170c340a01940b0ba06aca3ed706cda5e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/434650/2ab3d1db8a58c23a687031afcd5c102355f1c5df.jpg"
+  },
+  {
+    "name": "IceCyclops",
+    "defaultvalue": 0,
+    "displayName": "Ice Rock Leader",
+    "hidden": 0,
+    "description": "Defeat Ice Giant",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/434650/1a010171d3715b6793dd6246fc78e80952908244.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/434650/b768f95731deb62071c6be77742005a92b4580a4.jpg"
+  },
+  {
+    "name": "RockReal",
+    "defaultvalue": 0,
+    "displayName": "Troll Slayer",
+    "hidden": 0,
+    "description": "Defeat Ancient Troll",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/434650/0ed437e622350fe363d54eeafb460e1e875f744b.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/434650/366557045584cea0846ffb7db774aea74b8ec4be.jpg"
+  },
+  {
+    "name": "Samurai_Asura",
+    "defaultvalue": 0,
+    "displayName": "Blasphemer",
+    "hidden": 0,
+    "description": "Defeat Adad",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/434650/b5ffb3fdcecd76082b7913eb4035f1411ab81027.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/434650/c7a20f031bbb86cfae97219768ee2f10b584fb39.jpg"
+  },
+  {
+    "name": "PigKing",
+    "defaultvalue": 0,
+    "displayName": "Rotten God",
+    "hidden": 0,
+    "description": "Defeat Gibil",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/434650/a2635cb1e122f1413e4bdea31218c5054a494703.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/434650/db6faba27356a86746afca85c7c17db82816a028.jpg"
+  },
+  {
+    "name": "PigKingRed",
+    "defaultvalue": 0,
+    "displayName": "Burned Out",
+    "hidden": 0,
+    "description": "Defeat Nusku",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/434650/3d0f756ef06f80afe8bc1137abf165b022da3d59.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/434650/c3a544d610e62e5113c39149fda8333a152cc3cd.jpg"
+  },
+  {
+    "name": "RuinKing",
+    "defaultvalue": 0,
+    "displayName": "Forgotten Castle",
+    "hidden": 0,
+    "description": "Defeat Forgotten Lord",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/434650/0df8948679a9354cb2b14c9c8ba3fd00f1359e74.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/434650/6ecdbc1066a5098941b4ca4f445f8eb518251829.jpg"
+  },
+  {
+    "name": "Lilith",
+    "defaultvalue": 0,
+    "displayName": "Fatal Heiress",
+    "hidden": 0,
+    "description": "Defeat Lilith the Forgotten Heiress",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/434650/a9d92c8835c8eb7576f9b4706f0886bf0f276d52.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/434650/57d0e7e993e4abed7c0e42c8541a05cfa8062770.jpg"
+  },
+  {
+    "name": "God",
+    "defaultvalue": 0,
+    "displayName": "Final Challenger",
+    "hidden": 0,
+    "description": "Defeat Lord of the Light",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/434650/39c0a0049e1a0462cc04bdce3fdeef3cc5f8be5e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/434650/f28e40687c947395e0ca76219373c6db12cd7d35.jpg"
+  },
+  {
+    "name": "IceElement",
+    "defaultvalue": 0,
+    "displayName": "IceElement",
+    "hidden": 0,
+    "description": "Defeat Ice Element",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/434650/b4bf8c9c84a8e336b589c7468a5c432cad682a2f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/434650/7d1d0aceae05b5ed6e5fab5df9d763529bd4a296.jpg"
+  },
+  {
+    "name": "Rollingmon",
+    "defaultvalue": 0,
+    "displayName": "Rollingmon",
+    "hidden": 0,
+    "description": "Defeat Rollingmon",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/434650/ace1c0d0ff796a8f7ac392b759c88daa618a2c5d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/434650/571ed67091e311bf105d022204b54950b84c72bd.jpg"
+  },
+  {
+    "name": "FireHoof",
+    "defaultvalue": 0,
+    "displayName": "Bullfighter",
+    "hidden": 0,
+    "description": "Defeat Fire Hoof",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/434650/c31e30e63d29d8ef185708cf9010d799b6c29831.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/434650/6b2804828608e57501a108dec00437efcfeb2de2.jpg"
+  },
+  {
+    "name": "Goblinzilla",
+    "defaultvalue": 0,
+    "displayName": "All Hail our King!",
+    "hidden": 0,
+    "description": "Defeat Go.Blin.Zilla",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/434650/80234bed012876cc139f30379dc9c2ca84edc70e.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/434650/c4a6b05c118b3f5a5f2f3b9ee155a661582fa573.jpg"
+  },
+  {
+    "name": "Hideyoshi",
+    "defaultvalue": 0,
+    "displayName": "White Fox Mask",
+    "hidden": 0,
+    "description": "Defeat Undefeated Hideyoshi",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/434650/3489db0a78931b72ea03c1c3f6524ce082dfa5ac.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/434650/3e99876eb0a980b52fa13637b45b0ee2bd6b22e2.jpg"
   }
 ]

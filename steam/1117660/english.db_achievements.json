@@ -124,5 +124,41 @@
     "description": "Refueled your harvester 25 times",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1117660/42fe383c37d9be5a3b87ebfecbd0931a925a2537.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1117660/4310126137c706f35beb15ca04bba02b45b4859d.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_ARTIFACT_FOUND",
+    "defaultvalue": 0,
+    "displayName": "Archaeologist",
+    "hidden": 0,
+    "description": "Discovered an unknown artifact",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1117660/6f6f6721dfc32bbd9c80b0ffe1b72b6260da7e21.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1117660/5c8c2b98701218027ec41d499236382ed871d545.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_ARTIFACT_ANALYZED",
+    "defaultvalue": 0,
+    "displayName": "Taking a closer look",
+    "hidden": 0,
+    "description": "Analyzed an artifact",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1117660/e6f14b9c45b696d182dc5e024b0cc5a8d053ef71.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1117660/0ebfb0debd4f21254cd129055faf34aa92b59e6f.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_NEW_ARTIFACTS_DISCOVERED",
+    "defaultvalue": 0,
+    "displayName": "Thanks, send more",
+    "hidden": 0,
+    "description": "Discovered 5 unknown artifacts",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1117660/6f6f6721dfc32bbd9c80b0ffe1b72b6260da7e21.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1117660/5c8c2b98701218027ec41d499236382ed871d545.jpg"
+  },
+  {
+    "name": "ACHIEVEMENT_ARTIFACT_ANALYZED_5",
+    "defaultvalue": 0,
+    "displayName": "Expert Analyzer",
+    "hidden": 0,
+    "description": "Analyzed 5 artifacts",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1117660/6f6f6721dfc32bbd9c80b0ffe1b72b6260da7e21.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1117660/0ebfb0debd4f21254cd129055faf34aa92b59e6f.jpg"
   }
 ]

@@ -1,23 +1,9 @@
-﻿{
+{
   "Dlcs": {
     "40135": {
       "Name": "Supreme Commander 2: Infinite War Battle Pack",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/40135/header.jpg?t=1529597908"
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/40135/header.jpg?t=1529597908",
+      "Type": "dlc"
     }
-  },
-  "Name": "Supreme Commander 2",
-  "AppId": "40100",
-  "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/40100/header.jpg?t=1592493457",
-  "Languages": [
-    "english",
-    "french",
-    "german",
-    "italian",
-    "spanish"
-  ],
-  "Platforms": {
-    "windows": true,
-    "mac": false,
-    "linux": false
   }
 }

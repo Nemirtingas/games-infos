@@ -1,6 +1,7 @@
-﻿{
-  "stats_version": {
-    "description": "Stats Version",
-    "value": 0
+[
+  {
+    "name": "stats_version",
+    "defaultvalue": 0,
+    "displayName": "Stats Version"
   }
-}
+]

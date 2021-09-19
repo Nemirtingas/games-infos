@@ -1,62 +1,77 @@
-﻿{
-  "games_won": {
-    "description": "Games won",
-    "value": 0
+[
+  {
+    "name": "games_won",
+    "defaultvalue": 0,
+    "displayName": "Games won"
   },
-  "games_lost": {
-    "description": "",
-    "value": 0
+  {
+    "name": "games_lost",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "games_draw": {
-    "description": "Games draw",
-    "value": 0
+  {
+    "name": "games_draw",
+    "defaultvalue": 0,
+    "displayName": "Games draw"
   },
-  "challenges_solved": {
-    "description": "Challenges solved",
-    "value": 0
+  {
+    "name": "challenges_solved",
+    "defaultvalue": 0,
+    "displayName": "Challenges solved"
   },
-  "challenges_lost": {
-    "description": "Challenges failed",
-    "value": 0
+  {
+    "name": "challenges_lost",
+    "defaultvalue": 0,
+    "displayName": "Challenges failed"
   },
-  "challenge_1": {
-    "description": "Challenge 1 solved",
-    "value": 0
+  {
+    "name": "challenge_1",
+    "defaultvalue": 0,
+    "displayName": "Challenge 1 solved"
   },
-  "challenge_2": {
-    "description": "Challenge 2 solved",
-    "value": 0
+  {
+    "name": "challenge_2",
+    "defaultvalue": 0,
+    "displayName": "Challenge 2 solved"
   },
-  "challenge_3": {
-    "description": "Challenge 3 solved",
-    "value": 0
+  {
+    "name": "challenge_3",
+    "defaultvalue": 0,
+    "displayName": "Challenge 3 solved"
   },
-  "challenge_4": {
-    "description": "Challenge 4 solved",
-    "value": 0
+  {
+    "name": "challenge_4",
+    "defaultvalue": 0,
+    "displayName": "Challenge 4 solved"
   },
-  "challenge_5": {
-    "description": "Challenge 5 solved",
-    "value": 0
+  {
+    "name": "challenge_5",
+    "defaultvalue": 0,
+    "displayName": "Challenge 5 solved"
   },
-  "challenge_6": {
-    "description": "Challenge 6 solved",
-    "value": 0
+  {
+    "name": "challenge_6",
+    "defaultvalue": 0,
+    "displayName": "Challenge 6 solved"
   },
-  "challenge_7": {
-    "description": "Challenge 7 solved",
-    "value": 0
+  {
+    "name": "challenge_7",
+    "defaultvalue": 0,
+    "displayName": "Challenge 7 solved"
   },
-  "challenge_8": {
-    "description": "Challenge 8 solved",
-    "value": 0
+  {
+    "name": "challenge_8",
+    "defaultvalue": 0,
+    "displayName": "Challenge 8 solved"
   },
-  "challenge_9": {
-    "description": "Challenge 9 solved",
-    "value": 0
+  {
+    "name": "challenge_9",
+    "defaultvalue": 0,
+    "displayName": "Challenge 9 solved"
   },
-  "challenge_10": {
-    "description": "Challenge 10 solved",
-    "value": 0
+  {
+    "name": "challenge_10",
+    "defaultvalue": 0,
+    "displayName": "Challenge 10 solved"
   }
-}
+]

@@ -49,9 +49,9 @@
     "defaultvalue": 0,
     "displayName": "Ultimate Mission Master",
     "hidden": 0,
-    "description": "Complete all five missions",
-    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/761150/a2bfef9ad5d9385f07bdc97766e86cdeb7788613.jpg",
-    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/761150/d64c7d5752f0bf5c1e9308d55b2643f834f435c0.jpg"
+    "description": "Complete all six missions",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/761150/721d35468d6ddf075875512357815dba9b1ed088.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/761150/1725b3891de80e32a86fa3d97aa4e1b87aa035ac.jpg"
   },
   {
     "name": "bosshunter",
@@ -112,7 +112,7 @@
     "defaultvalue": 0,
     "displayName": "Brick Breaker Captain",
     "hidden": 0,
-    "description": "Destroy 10 000 bricks",
+    "description": "Destroy 5000 bricks",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/761150/a679cf197f20660347544af3d33bc4989b2f2bee.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/761150/1d01547d592f450831be85f785ecb5270472ded4.jpg"
   },
@@ -121,7 +121,7 @@
     "defaultvalue": 0,
     "displayName": "Brick Breaker Colonel",
     "hidden": 0,
-    "description": "Destroy 100 000 bricks",
+    "description": "Destroy 10 000 bricks",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/761150/0ca440c6df2cdc3873c34b01587aa359adc3851c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/761150/418cd53dd4189894865dbf94f0a60cd3f00cdba3.jpg"
   },
@@ -130,8 +130,17 @@
     "defaultvalue": 0,
     "displayName": "Brick Breaker General",
     "hidden": 0,
-    "description": "Destroy 1 000 000 bricks",
+    "description": "Destroy 20 000 bricks",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/761150/2a889ae7be66d1428c88d2055c004531213e6b75.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/761150/e2b766e1dfa7027519f0800c6a38edf769e14ba4.jpg"
+  },
+  {
+    "name": "mission5",
+    "defaultvalue": 0,
+    "displayName": "Double Mission Operator",
+    "hidden": 0,
+    "description": "Complete doubles mission",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/761150/9dd072545733ddd709031cc4d56a1dccc7c1b76f.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/761150/849fbb76fd591cab808e1fdba9a55d0bf2926502.jpg"
   }
 ]

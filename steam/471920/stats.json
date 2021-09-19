@@ -1,10 +1,12 @@
-﻿{
-  "fuel": {
-    "description": "Fuel seeds collected.",
-    "value": 0
+[
+  {
+    "name": "fuel",
+    "defaultvalue": 0,
+    "displayName": "Fuel seeds collected."
   },
-  "stick_hits": {
-    "description": "Number of stick hits.",
-    "value": 0
+  {
+    "name": "stick_hits",
+    "defaultvalue": 0,
+    "displayName": "Number of stick hits."
   }
-}
+]

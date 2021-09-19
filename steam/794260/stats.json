@@ -1,18 +1,22 @@
-﻿{
-  "NewRecipeLearned": {
-    "description": "New Recipes Learned",
-    "value": 0
+[
+  {
+    "name": "NewRecipeLearned",
+    "defaultvalue": 0,
+    "displayName": "New Recipes Learned"
   },
-  "LanternThrown": {
-    "description": "Lanterns Thrown",
-    "value": 0
+  {
+    "name": "LanternThrown",
+    "defaultvalue": 0,
+    "displayName": "Lanterns Thrown"
   },
-  "ItemEnchanted": {
-    "description": "Items Enchanted",
-    "value": 0
+  {
+    "name": "ItemEnchanted",
+    "defaultvalue": 0,
+    "displayName": "Items Enchanted"
   },
-  "SecretBossDefeated": {
-    "description": "Secret Arenas Conquered",
-    "value": 0
+  {
+    "name": "SecretBossDefeated",
+    "defaultvalue": 0,
+    "displayName": "Secret Arenas Conquered"
   }
-}
+]

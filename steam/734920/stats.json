@@ -1,50 +1,62 @@
-﻿{
-  "Stat_Isle_Crystals": {
-    "description": "Activated Crystals",
-    "value": 0
+[
+  {
+    "name": "Stat_Isle_Crystals",
+    "defaultvalue": 0,
+    "displayName": "Activated Crystals"
   },
-  "Stat_Isle_Bullseyes": {
-    "description": "Activated Bullseyes",
-    "value": 0
+  {
+    "name": "Stat_Isle_Bullseyes",
+    "defaultvalue": 0,
+    "displayName": "Activated Bullseyes"
   },
-  "Stat_Isle_Holes": {
-    "description": "Activated Holes",
-    "value": 0
+  {
+    "name": "Stat_Isle_Holes",
+    "defaultvalue": 0,
+    "displayName": "Activated Holes"
   },
-  "Stat_Isle_Bouncers": {
-    "description": "Bouncer Uses",
-    "value": 0
+  {
+    "name": "Stat_Isle_Bouncers",
+    "defaultvalue": 0,
+    "displayName": "Bouncer Uses"
   },
-  "Stat_Isle_Cannons": {
-    "description": "Cannon Uses",
-    "value": 0
+  {
+    "name": "Stat_Isle_Cannons",
+    "defaultvalue": 0,
+    "displayName": "Cannon Uses"
   },
-  "Stat_Isle_Bubbles": {
-    "description": "Bubbles",
-    "value": 0
+  {
+    "name": "Stat_Isle_Bubbles",
+    "defaultvalue": 0,
+    "displayName": "Bubbles"
   },
-  "Stat_Isle_Balloons": {
-    "description": "Balloons",
-    "value": 0
+  {
+    "name": "Stat_Isle_Balloons",
+    "defaultvalue": 0,
+    "displayName": "Balloons"
   },
-  "Stat_Isle_Collectibles": {
-    "description": "Collectibles",
-    "value": 0
+  {
+    "name": "Stat_Isle_Collectibles",
+    "defaultvalue": 0,
+    "displayName": "Collectibles"
   },
-  "Stat_Isle_Steppers": {
-    "description": "Activated Steppers",
-    "value": 0
+  {
+    "name": "Stat_Isle_Steppers",
+    "defaultvalue": 0,
+    "displayName": "Activated Steppers"
   },
-  "Stat_Isle_Collapsers": {
-    "description": "Collapsers Uses",
-    "value": 0
+  {
+    "name": "Stat_Isle_Collapsers",
+    "defaultvalue": 0,
+    "displayName": "Collapsers Uses"
   },
-  "Stat_Isle_Teleports": {
-    "description": "Teleport Uses",
-    "value": 0
+  {
+    "name": "Stat_Isle_Teleports",
+    "defaultvalue": 0,
+    "displayName": "Teleport Uses"
   },
-  "Stat_Isle_Time": {
-    "description": "Best Time",
-    "value": 0
+  {
+    "name": "Stat_Isle_Time",
+    "defaultvalue": 0,
+    "displayName": "Best Time"
   }
-}
+]

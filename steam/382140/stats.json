@@ -1,6 +1,7 @@
-﻿{
-  "num_floors_down": {
-    "description": "Floors downstairs",
-    "value": 0
+[
+  {
+    "name": "num_floors_down",
+    "defaultvalue": 0,
+    "displayName": "Floors downstairs"
   }
-}
+]

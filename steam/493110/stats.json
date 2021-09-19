@@ -1,34 +1,42 @@
-﻿{
-  "TreesAbsorbed": {
-    "description": "Trees Absorbed",
-    "value": 0
+[
+  {
+    "name": "TreesAbsorbed",
+    "defaultvalue": 0,
+    "displayName": "Trees Absorbed"
   },
-  "HitsByKoth": {
-    "description": "Hits By Koth",
-    "value": 0
+  {
+    "name": "HitsByKoth",
+    "defaultvalue": 0,
+    "displayName": "Hits By Koth"
   },
-  "Teleports": {
-    "description": "Teleports",
-    "value": 0
+  {
+    "name": "Teleports",
+    "defaultvalue": 0,
+    "displayName": "Teleports"
   },
-  "RocksBuilt": {
-    "description": "Rocks Built",
-    "value": 0
+  {
+    "name": "RocksBuilt",
+    "defaultvalue": 0,
+    "displayName": "Rocks Built"
   },
-  "RocksAbsorbed": {
-    "description": "Rocks Absorbed",
-    "value": 0
+  {
+    "name": "RocksAbsorbed",
+    "defaultvalue": 0,
+    "displayName": "Rocks Absorbed"
   },
-  "KothsAbsorbed": {
-    "description": "Koths Absorbed",
-    "value": 0
+  {
+    "name": "KothsAbsorbed",
+    "defaultvalue": 0,
+    "displayName": "Koths Absorbed"
   },
-  "AvatarsBuilt": {
-    "description": "Avatars Built",
-    "value": 0
+  {
+    "name": "AvatarsBuilt",
+    "defaultvalue": 0,
+    "displayName": "Avatars Built"
   },
-  "AvatarsAbsorbed": {
-    "description": "Avatars Absorbed",
-    "value": 0
+  {
+    "name": "AvatarsAbsorbed",
+    "defaultvalue": 0,
+    "displayName": "Avatars Absorbed"
   }
-}
+]

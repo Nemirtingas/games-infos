@@ -1,17 +1,34 @@
 {
   "Dlcs": {
-    "1418660": {
-      "Name": "3on3 FreeStyle: Rebound - Welcome Package",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/1418660/header.jpg?t=1600338817"
+    "1493080": {
+      "Name": "3on3 FreeStyle: Rebound - Rookie Package 2",
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1493080/header.jpg?t=1618397222",
+      "Type": "dlc"
     },
     "1316880": {
       "Name": "3on3 FreeStyle: Rebound - Rookie Package",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/1316880/header.jpg?t=1595032176"
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1316880/header.jpg?t=1610521448",
+      "Type": "dlc"
+    },
+    "1418660": {
+      "Name": "3on3 FreeStyle: Rebound - Welcome Package",
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1418660/header.jpg?t=1608542200",
+      "Type": "dlc"
+    },
+    "1739810": {
+      "Name": "3on3 FreeStyle - Battle Pass 2021 Autumn Part. 1",
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1739810/header.jpg?t=1631091176",
+      "Type": "dlc"
+    },
+    "1746090": {
+      "Name": "3on3 FreeStyle - Battle Pass 2021 Autumn Bundle Part. 1",
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1746090/header.jpg?t=1631091133",
+      "Type": "dlc"
     }
   },
   "Name": "3on3 FreeStyle: Rebound",
   "AppId": "1292630",
-  "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/1292630/header.jpg?t=1600401376",
+  "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1292630/header.jpg?t=1630573031",
   "Languages": [
     "english",
     "french",
@@ -21,7 +38,8 @@
     "schinese",
     "tchinese",
     "vietnamese",
-    "thai"
+    "thai",
+    "korean"
   ],
   "Platforms": {
     "windows": true,

@@ -1,42 +1,52 @@
-﻿{
-  "ChiefLevel": {
-    "description": "",
-    "value": 1
+[
+  {
+    "name": "ChiefLevel",
+    "defaultvalue": 1,
+    "displayName": ""
   },
-  "TeamRating": {
-    "description": "",
-    "value": 1
+  {
+    "name": "TeamRating",
+    "defaultvalue": 1,
+    "displayName": ""
   },
-  "EngineerCount": {
-    "description": "",
-    "value": 1
+  {
+    "name": "EngineerCount",
+    "defaultvalue": 1,
+    "displayName": ""
   },
-  "ChiefPerksFille": {
-    "description": "",
-    "value": 0
+  {
+    "name": "ChiefPerksFille",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "EngineerPerksFi": {
-    "description": "",
-    "value": 0
+  {
+    "name": "EngineerPerksFi",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "VehicleClassesO": {
-    "description": "",
-    "value": 1
+  {
+    "name": "VehicleClassesO",
+    "defaultvalue": 1,
+    "displayName": ""
   },
-  "StagesWonNoAssi": {
-    "description": "",
-    "value": 0
+  {
+    "name": "StagesWonNoAssi",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "ClassesWithFull": {
-    "description": "",
-    "value": 0
+  {
+    "name": "ClassesWithFull",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "CarsUsedToWinGl": {
-    "description": "",
-    "value": 0
+  {
+    "name": "CarsUsedToWinGl",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "UpgradesCountPe": {
-    "description": "",
-    "value": 1
+  {
+    "name": "UpgradesCountPe",
+    "defaultvalue": 1,
+    "displayName": ""
   }
-}
+]

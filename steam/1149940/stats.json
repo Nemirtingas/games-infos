@@ -1,10 +1,12 @@
-﻿{
-  "scenarios_won": {
-    "description": "",
-    "value": 0
+[
+  {
+    "name": "scenarios_won",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "ryan_kills": {
-    "description": "",
-    "value": 0
+  {
+    "name": "ryan_kills",
+    "defaultvalue": 0,
+    "displayName": ""
   }
-}
+]

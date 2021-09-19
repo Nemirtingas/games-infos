@@ -1,10 +1,12 @@
-﻿{
-  "PROTECTED_STAT": {
-    "description": "",
-    "value": 0
+[
+  {
+    "name": "PROTECTED_STAT",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "CHARMED_STAT": {
-    "description": "",
-    "value": 0
+  {
+    "name": "CHARMED_STAT",
+    "defaultvalue": 0,
+    "displayName": ""
   }
-}
+]

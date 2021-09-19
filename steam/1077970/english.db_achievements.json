@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "name": "ACH_NOVA_POLEMOS",
     "defaultvalue": 0,
@@ -168,5 +168,14 @@
     "description": "Complete the game for the first time",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1077970/3921bda77ffdf273398da87badac4313de0add5a.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1077970/5f288d67335e9071e3b1df7b157add4cc8e31723.jpg"
+  },
+  {
+    "name": "ACH_VLG",
+    "defaultvalue": 0,
+    "displayName": "Other adventures",
+    "hidden": 0,
+    "description": "Select the VLG logo in the main menu",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1077970/12160c0db4164c250145fe5d87a28430620bb2aa.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1077970/033d2dcdbdf192d74759bc03a2c89526c2fe93e2.jpg"
   }
 ]

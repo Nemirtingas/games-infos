@@ -1,18 +1,22 @@
-﻿{
-  "NumWins": {
-    "description": "Number of Wins",
-    "value": 0
+[
+  {
+    "name": "NumWins",
+    "defaultvalue": 0,
+    "displayName": "Number of Wins"
   },
-  "NumPlays": {
-    "description": "Number of Plays",
-    "value": 0
+  {
+    "name": "NumPlays",
+    "defaultvalue": 0,
+    "displayName": "Number of Plays"
   },
-  "SecretRoom1": {
-    "description": "Secret Room 1 Found",
-    "value": 0
+  {
+    "name": "SecretRoom1",
+    "defaultvalue": 0,
+    "displayName": "Secret Room 1 Found"
   },
-  "SecretRoom2": {
-    "description": "Secret Room 2 Found",
-    "value": 0
+  {
+    "name": "SecretRoom2",
+    "defaultvalue": 0,
+    "displayName": "Secret Room 2 Found"
   }
-}
+]

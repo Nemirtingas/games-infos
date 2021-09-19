@@ -133,5 +133,95 @@
     "description": "Finish all levels in the third chapter with \"Witchtastic\" rating",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1080010/66db678ae12939a8e3c14dd4cf3e0c79e5249587.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1080010/da5ec4cac8d3e7f881c05641d68b437a0f2efc1e.jpg"
+  },
+  {
+    "name": "CHAPTER_4",
+    "defaultvalue": 0,
+    "displayName": "Complete Chapter 4",
+    "hidden": 0,
+    "description": "Unlock the fifth chapter",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1080010/0a233f9b130b78afc058f2f7cd6110c38c265933.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1080010/3c0b6a1756d1d9a3a91eef89b90070930d88a694.jpg"
+  },
+  {
+    "name": "CHAPTER_4_EXCELLENT",
+    "defaultvalue": 0,
+    "displayName": "Chapter 4 Excellent",
+    "hidden": 0,
+    "description": "Finish all levels in the fourth chapter with \"Excellent\" rating",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1080010/d3111e75bfb94ea43084ef1ad61da89bd6c5b659.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1080010/639c6bd685ddbff5b69a292b2dfa0e570f5ae05c.jpg"
+  },
+  {
+    "name": "CHAPTER_4_WITCHTASTIC",
+    "defaultvalue": 0,
+    "displayName": "Chapter 4 Witchtastic",
+    "hidden": 0,
+    "description": "Finish all levels in the fourth chapter with \"Witchtastic\" rating",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1080010/3caec5426ded1d9314e9d1f8cbff11c5de4105b6.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1080010/0f5c4b3041e18f190a33305484f0a4cc4e50f97b.jpg"
+  },
+  {
+    "name": "GEMS_80",
+    "defaultvalue": 0,
+    "displayName": "Unlock 80 Gems",
+    "hidden": 0,
+    "description": "Keep brewing during the bonus stages to unlock eighty magic gems",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1080010/cadda81f181140dc026fb125360102b52ba0e2f3.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1080010/d9f2919e7bbdd7d8ad3d0ec7949f91b2462a918b.jpg"
+  },
+  {
+    "name": "GEMS_100",
+    "defaultvalue": 0,
+    "displayName": "Unlock 100 Gems",
+    "hidden": 0,
+    "description": "Keep brewing during the bonus stages to unlock one hundred magic gems",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1080010/5ef21435d95ad78006fd4e500b81f71d8d458f9c.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1080010/3a74d3eac0809abf05da0e523f69972abce44120.jpg"
+  },
+  {
+    "name": "CHAPTER_5",
+    "defaultvalue": 0,
+    "displayName": "Complete Chapter 5",
+    "hidden": 0,
+    "description": "Defeat the evil witch",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1080010/70ec4c68920e9db38716a0d9da186643d7a45ec8.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1080010/101a793cc245a16864ef30379feb39bc3ff44e78.jpg"
+  },
+  {
+    "name": "CHAPTER_5_EXCELLENT",
+    "defaultvalue": 0,
+    "displayName": "Chapter 5 Excellent",
+    "hidden": 0,
+    "description": "Finish all levels in the fifth chapter with \"Excellent\" rating",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1080010/bae9cf9cf3695f97a0585cd18c5ab3ddf1df4d1d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1080010/136ff14e702a4417069e6e9838041c799b141d72.jpg"
+  },
+  {
+    "name": "CHAPTER_5_WITCHTASTIC",
+    "defaultvalue": 0,
+    "displayName": "Chapter 5 Witchtastic",
+    "hidden": 0,
+    "description": "Finish all levels in the fifth chapter with \"Witchtastic\" rating",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1080010/25f9b8559560a426c19c7ee910599dc5fd9fa210.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1080010/31553fe454512fd1ac8700f6a85e832074f2bfbb.jpg"
+  },
+  {
+    "name": "CATCH_THE_GREEN_RAT",
+    "defaultvalue": 0,
+    "displayName": "Catch the green Rat",
+    "hidden": 0,
+    "description": "Prevent the green rat from escaping",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1080010/82002cbbf805f3e8a95d972e18b33dc7b52ea1d7.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1080010/ceab9ea28d8ced69ab09ec57c1a9042a310620b8.jpg"
+  },
+  {
+    "name": "GEMS_132",
+    "defaultvalue": 0,
+    "displayName": "Unlock all 132 Gems",
+    "hidden": 0,
+    "description": "Keep brewing during the bonus stages to unlock all available magic gems",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1080010/ce2f6b22279f8dac1b0c8e2045eca748b442ed67.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/1080010/04578d0a8bba1af6152c9355129d85082f8fb650.jpg"
   }
 ]

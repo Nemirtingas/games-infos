@@ -1,26 +1,32 @@
-﻿{
-  "-16:10240:driving-experience-dcc": {
-    "description": "Driving Experience - DCC",
-    "value": 0
+[
+  {
+    "name": "-16:10240:driving-experience-dcc",
+    "defaultvalue": 0,
+    "displayName": "Driving Experience - DCC"
   },
-  "-16:10240:driving-experience-cab": {
-    "description": "Driving Experience - Cab",
-    "value": 0
+  {
+    "name": "-16:10240:driving-experience-cab",
+    "defaultvalue": 0,
+    "displayName": "Driving Experience - Cab"
   },
-  "-16:10240:driving-experience-steam": {
-    "description": "Driving Experience - Steam",
-    "value": 0
+  {
+    "name": "-16:10240:driving-experience-steam",
+    "defaultvalue": 0,
+    "displayName": "Driving Experience - Steam"
   },
-  "-16:10240:switching-moves": {
-    "description": "Switching Moves",
-    "value": 0
+  {
+    "name": "-16:10240:switching-moves",
+    "defaultvalue": 0,
+    "displayName": "Switching Moves"
   },
-  "447264:1005:industry-carloads-transferred": {
-    "description": "Wagons Loaded/Unloaded",
-    "value": 0
+  {
+    "name": "447264:1005:industry-carloads-transferred",
+    "defaultvalue": 0,
+    "displayName": "Wagons Loaded/Unloaded"
   },
-  "447264:1005:passenger-stations-visited": {
-    "description": "Passenger Stations Visited",
-    "value": 0
+  {
+    "name": "447264:1005:passenger-stations-visited",
+    "defaultvalue": 0,
+    "displayName": "Passenger Stations Visited"
   }
-}
+]

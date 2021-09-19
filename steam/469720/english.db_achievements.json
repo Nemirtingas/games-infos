@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "name": "FLOOR_CLEAR",
     "defaultvalue": 0,
@@ -576,5 +576,32 @@
     "description": "Complete a Custom adventure with the following settings: Defeat the Dreadfather, Classic Book of Dread factions, Classic length, No adventure modifiers",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/469720/4d6e50cb3b912988db88d1a1cbc55aad08334a4c.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/469720/834db7c7b2e5c93691557a5458cdb2ba7f43cd58.jpg"
+  },
+  {
+    "name": "ARCHIVES_DONATE_ONE",
+    "defaultvalue": 0,
+    "displayName": "Patron",
+    "hidden": 0,
+    "description": "Donate an item to the Archives.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/469720/93a245095d60a25bda6a7c0d30a9ee31c6de36e5.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/469720/f3e260f06619dcc1dd3f0b0f569c56541c8b98a6.jpg"
+  },
+  {
+    "name": "ARCHIVES_DONATE_ALL",
+    "defaultvalue": 0,
+    "displayName": "Archivist",
+    "hidden": 0,
+    "description": "Complete the Archives' collection.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/469720/a31a3809d9373fe918416f5a3f991a383bcb6fdb.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/469720/01c03e8da4df6a535ed3314ba500161f6e058617.jpg"
+  },
+  {
+    "name": "ARCHIVES_CREATE_ITEM",
+    "defaultvalue": 0,
+    "displayName": "Counterfeiter",
+    "hidden": 0,
+    "description": "Create an item using the Archives.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/469720/6e8a949e997b7c04c208f5aca6801d775f9b758d.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/469720/c5e47a49ef9598995a29ca030ca4e62d2388ce5c.jpg"
   }
 ]

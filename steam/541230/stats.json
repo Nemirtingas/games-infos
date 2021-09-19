@@ -1,50 +1,62 @@
-﻿{
-  "total_time_stat": {
-    "description": "Game play time in seconds",
-    "value": 0
+[
+  {
+    "name": "total_time_stat",
+    "defaultvalue": 0,
+    "displayName": "Game play time in seconds"
   },
-  "weapon_dismantle_stat": {
-    "description": "Weapons dismantled",
-    "value": 0
+  {
+    "name": "weapon_dismantle_stat",
+    "defaultvalue": 0,
+    "displayName": "Weapons dismantled"
   },
-  "mission_abilities_only_success": {
-    "description": "Missions completed without any troops placement",
-    "value": 0
+  {
+    "name": "mission_abilities_only_success",
+    "defaultvalue": 0,
+    "displayName": "Missions completed without any troops placement"
   },
-  "mission_tactical_only_success": {
-    "description": "Missions completed without any troops placement except tactical forces",
-    "value": 0
+  {
+    "name": "mission_tactical_only_success",
+    "defaultvalue": 0,
+    "displayName": "Missions completed without any troops placement except tactical forces"
   },
-  "earned_money_stat": {
-    "description": "Money earned on missions",
-    "value": 0
+  {
+    "name": "earned_money_stat",
+    "defaultvalue": 0,
+    "displayName": "Money earned on missions"
   },
-  "earned_material_1_stat": {
-    "description": "Material 1 earned on missions",
-    "value": 0
+  {
+    "name": "earned_material_1_stat",
+    "defaultvalue": 0,
+    "displayName": "Material 1 earned on missions"
   },
-  "earned_material_2_stat": {
-    "description": "Material 2 earned on missions",
-    "value": 0
+  {
+    "name": "earned_material_2_stat",
+    "defaultvalue": 0,
+    "displayName": "Material 2 earned on missions"
   },
-  "earned_material_3_stat": {
-    "description": "Material 3 earned on missions",
-    "value": 0
+  {
+    "name": "earned_material_3_stat",
+    "defaultvalue": 0,
+    "displayName": "Material 3 earned on missions"
   },
-  "earned_weapon_stat": {
-    "description": "Weapons earned on missions",
-    "value": 0
+  {
+    "name": "earned_weapon_stat",
+    "defaultvalue": 0,
+    "displayName": "Weapons earned on missions"
   },
-  "mission_success": {
-    "description": "Missions compleated",
-    "value": 0
+  {
+    "name": "mission_success",
+    "defaultvalue": 0,
+    "displayName": "Missions compleated"
   },
-  "mission_failed": {
-    "description": "Missions failed",
-    "value": 0
+  {
+    "name": "mission_failed",
+    "defaultvalue": 0,
+    "displayName": "Missions failed"
   },
-  "kills_stat_stat": {
-    "description": "Aliens killed",
-    "value": 0
+  {
+    "name": "kills_stat_stat",
+    "defaultvalue": 0,
+    "displayName": "Aliens killed"
   }
-}
+]

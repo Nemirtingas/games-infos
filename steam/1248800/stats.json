@@ -1,58 +1,72 @@
-﻿{
-  "Stat_days": {
-    "description": "",
-    "value": 0
+[
+  {
+    "name": "Stat_days",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Stat_huntNum": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Stat_huntNum",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Stat_collectNum": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Stat_collectNum",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Stat_cropNum": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Stat_cropNum",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Stat_mineNum": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Stat_mineNum",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Stat_coreNum": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Stat_coreNum",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Stat_woodNum": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Stat_woodNum",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Stat_cookNum": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Stat_cookNum",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Stat_makeNum": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Stat_makeNum",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Stat_wineNum": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Stat_wineNum",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Stat_metalNum": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Stat_metalNum",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Stat_trapNum": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Stat_trapNum",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Stat_KillThiefNum": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Stat_KillThiefNum",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "Stat_sleepNum": {
-    "description": "",
-    "value": 0
+  {
+    "name": "Stat_sleepNum",
+    "defaultvalue": 0,
+    "displayName": ""
   }
-}
+]

@@ -1,14 +1,17 @@
-﻿{
-  "stat_1": {
-    "description": "TestStat",
-    "value": 0
+[
+  {
+    "name": "stat_1",
+    "defaultvalue": 0,
+    "displayName": "TestStat"
   },
-  "TestStatInt": {
-    "description": "",
-    "value": 0
+  {
+    "name": "TestStatInt",
+    "defaultvalue": 0,
+    "displayName": ""
   },
-  "TestStatFloat": {
-    "description": "",
-    "value": 0
+  {
+    "name": "TestStatFloat",
+    "defaultvalue": 0,
+    "displayName": ""
   }
-}
+]

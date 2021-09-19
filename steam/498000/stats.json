@@ -1,166 +1,207 @@
-﻿{
-  "MAPS CLEARED WITH B RANK": {
-    "description": "Levels cleared with B-rank",
-    "value": 0
+[
+  {
+    "name": "MAPS CLEARED WITH B RANK",
+    "defaultvalue": 0,
+    "displayName": "Levels cleared with B-rank"
   },
-  "MAPS CLEARED WITH A RANK": {
-    "description": "Levels cleared with A-rank",
-    "value": 0
+  {
+    "name": "MAPS CLEARED WITH A RANK",
+    "defaultvalue": 0,
+    "displayName": "Levels cleared with A-rank"
   },
-  "MAPS CLEARED WITH S RANK": {
-    "description": "Levels cleared with S-rank",
-    "value": 0
+  {
+    "name": "MAPS CLEARED WITH S RANK",
+    "defaultvalue": 0,
+    "displayName": "Levels cleared with S-rank"
   },
-  "NIGHT MAPS CLEARED WITH B RANK": {
-    "description": "Night Levels cleared with B-rank",
-    "value": 0
+  {
+    "name": "NIGHT MAPS CLEARED WITH B RANK",
+    "defaultvalue": 0,
+    "displayName": "Night Levels cleared with B-rank"
   },
-  "NIGHT MAPS CLEARED WITH A RANK": {
-    "description": "Night Levels cleared with A-rank",
-    "value": 0
+  {
+    "name": "NIGHT MAPS CLEARED WITH A RANK",
+    "defaultvalue": 0,
+    "displayName": "Night Levels cleared with A-rank"
   },
-  "NIGHT MAPS CLEARED WITH S RANK": {
-    "description": "Night Levels cleared with S-rank",
-    "value": 0
+  {
+    "name": "NIGHT MAPS CLEARED WITH S RANK",
+    "defaultvalue": 0,
+    "displayName": "Night Levels cleared with S-rank"
   },
-  "ENEMIES KILLED": {
-    "description": "Enemies defeated",
-    "value": 0
+  {
+    "name": "ENEMIES KILLED",
+    "defaultvalue": 0,
+    "displayName": "Enemies defeated"
   },
-  "ENEMIES KILLED WITH WEAKNESS": {
-    "description": "Enemies defeated with Weakness Finishes",
-    "value": 0
+  {
+    "name": "ENEMIES KILLED WITH WEAKNESS",
+    "defaultvalue": 0,
+    "displayName": "Enemies defeated with Weakness Finishes"
   },
-  "SHROOM KILLED": {
-    "description": "Shrooms defeated",
-    "value": 0
+  {
+    "name": "SHROOM KILLED",
+    "defaultvalue": 0,
+    "displayName": "Shrooms defeated"
   },
-  "ARVENSHROOM KILLED": {
-    "description": "Arvenshrooms defeated",
-    "value": 0
+  {
+    "name": "ARVENSHROOM KILLED",
+    "defaultvalue": 0,
+    "displayName": "Arvenshrooms defeated"
   },
-  "NUCSHROOM KILLED": {
-    "description": "Nucshrooms defeated",
-    "value": 0
+  {
+    "name": "NUCSHROOM KILLED",
+    "defaultvalue": 0,
+    "displayName": "Nucshrooms defeated"
   },
-  "ESHROOM KILLED": {
-    "description": "Eshrooms defeated",
-    "value": 0
+  {
+    "name": "ESHROOM KILLED",
+    "defaultvalue": 0,
+    "displayName": "Eshrooms defeated"
   },
-  "DERMSHROOM KILLED": {
-    "description": "Dermshrooms defeated",
-    "value": 0
+  {
+    "name": "DERMSHROOM KILLED",
+    "defaultvalue": 0,
+    "displayName": "Dermshrooms defeated"
   },
-  "STRISHROOM KILLED": {
-    "description": "Strishrooms defeated",
-    "value": 0
+  {
+    "name": "STRISHROOM KILLED",
+    "defaultvalue": 0,
+    "displayName": "Strishrooms defeated"
   },
-  "PALSHROOM KILLED": {
-    "description": "Palshrooms defeated",
-    "value": 0
+  {
+    "name": "PALSHROOM KILLED",
+    "defaultvalue": 0,
+    "displayName": "Palshrooms defeated"
   },
-  "QUADSHROOM KILLED": {
-    "description": "Quadshrooms defeated",
-    "value": 0
+  {
+    "name": "QUADSHROOM KILLED",
+    "defaultvalue": 0,
+    "displayName": "Quadshrooms defeated"
   },
-  "CINNASHROOM KILLED": {
-    "description": "Cinnashrooms defeated",
-    "value": 0
+  {
+    "name": "CINNASHROOM KILLED",
+    "defaultvalue": 0,
+    "displayName": "Cinnashrooms defeated"
   },
-  "MADSQUIRREL KILLED": {
-    "description": "Mad Squirrels defeated",
-    "value": 0
+  {
+    "name": "MADSQUIRREL KILLED",
+    "defaultvalue": 0,
+    "displayName": "Mad Squirrels defeated"
   },
-  "SKELETON KILLED": {
-    "description": "Skeletons defeated",
-    "value": 0
+  {
+    "name": "SKELETON KILLED",
+    "defaultvalue": 0,
+    "displayName": "Skeletons defeated"
   },
-  "FASHROOM KILLED": {
-    "description": "Fashrooms defeated",
-    "value": 0
+  {
+    "name": "FASHROOM KILLED",
+    "defaultvalue": 0,
+    "displayName": "Fashrooms defeated"
   },
-  "PECKSHROOM KILLED": {
-    "description": "Peckshrooms defeated",
-    "value": 0
+  {
+    "name": "PECKSHROOM KILLED",
+    "defaultvalue": 0,
+    "displayName": "Peckshrooms defeated"
   },
-  "OWNED TRINKET COUNT": {
-    "description": "Unique Trinkets owned",
-    "value": 0
+  {
+    "name": "OWNED TRINKET COUNT",
+    "defaultvalue": 0,
+    "displayName": "Unique Trinkets owned"
   },
-  "TOTAL SCORE COLLECTED": {
-    "description": "Total score",
-    "value": 0
+  {
+    "name": "TOTAL SCORE COLLECTED",
+    "defaultvalue": 0,
+    "displayName": "Total score"
   },
-  "HEALED": {
-    "description": "HP healed",
-    "value": 0
+  {
+    "name": "HEALED",
+    "defaultvalue": 0,
+    "displayName": "HP healed"
   },
-  "SPORES SPENT": {
-    "description": "Spores spent",
-    "value": 0
+  {
+    "name": "SPORES SPENT",
+    "defaultvalue": 0,
+    "displayName": "Spores spent"
   },
-  "PICK UPS PICKED": {
-    "description": "Pick-ups collected",
-    "value": 0
+  {
+    "name": "PICK UPS PICKED",
+    "defaultvalue": 0,
+    "displayName": "Pick-ups collected"
   },
-  "TIME BONUSES BROKEN": {
-    "description": "Time bonuses destroyed",
-    "value": 0
+  {
+    "name": "TIME BONUSES BROKEN",
+    "defaultvalue": 0,
+    "displayName": "Time bonuses destroyed"
   },
-  "OBSTACKLES BROKEN": {
-    "description": "Rocks destroyed",
-    "value": 0
+  {
+    "name": "OBSTACKLES BROKEN",
+    "defaultvalue": 0,
+    "displayName": "Rocks destroyed"
   },
-  "BOXES MOVED": {
-    "description": "Boxes moved",
-    "value": 0
+  {
+    "name": "BOXES MOVED",
+    "defaultvalue": 0,
+    "displayName": "Boxes moved"
   },
-  "BOXES MOVED INTO WATER": {
-    "description": "Boxes moved to water",
-    "value": 0
+  {
+    "name": "BOXES MOVED INTO WATER",
+    "defaultvalue": 0,
+    "displayName": "Boxes moved to water"
   },
-  "BUDS DESTROYED": {
-    "description": "Buds destroyed",
-    "value": 0
+  {
+    "name": "BUDS DESTROYED",
+    "defaultvalue": 0,
+    "displayName": "Buds destroyed"
   },
-  "BUDS GROWN": {
-    "description": "Flowers grown",
-    "value": 0
+  {
+    "name": "BUDS GROWN",
+    "defaultvalue": 0,
+    "displayName": "Flowers grown"
   },
-  "POISON VENTS DESTROYED": {
-    "description": "Vents destroyed",
-    "value": 0
+  {
+    "name": "POISON VENTS DESTROYED",
+    "defaultvalue": 0,
+    "displayName": "Vents destroyed"
   },
-  "CLOUDS DISPERSED": {
-    "description": "Clouds destroyed",
-    "value": 0
+  {
+    "name": "CLOUDS DISPERSED",
+    "defaultvalue": 0,
+    "displayName": "Clouds destroyed"
   },
-  "SLIMES BROKEN": {
-    "description": "Slimes destroyed",
-    "value": 0
+  {
+    "name": "SLIMES BROKEN",
+    "defaultvalue": 0,
+    "displayName": "Slimes destroyed"
   },
-  "ICE TILES MELTED": {
-    "description": "Ice destroyed",
-    "value": 0
+  {
+    "name": "ICE TILES MELTED",
+    "defaultvalue": 0,
+    "displayName": "Ice destroyed"
   },
-  "NUC SLIMES WASHED": {
-    "description": "Nucshroom slimes destroyed",
-    "value": 0
+  {
+    "name": "NUC SLIMES WASHED",
+    "defaultvalue": 0,
+    "displayName": "Nucshroom slimes destroyed"
   },
-  "MYCELIUM DESTROYED": {
-    "description": "Mycelium destroyed",
-    "value": 0
+  {
+    "name": "MYCELIUM DESTROYED",
+    "defaultvalue": 0,
+    "displayName": "Mycelium destroyed"
   },
-  "EXTRA TIME": {
-    "description": "Time gained",
-    "value": 0
+  {
+    "name": "EXTRA TIME",
+    "defaultvalue": 0,
+    "displayName": "Time gained"
   },
-  "SHAPES SEEN": {
-    "description": "Shapes seen",
-    "value": 0
+  {
+    "name": "SHAPES SEEN",
+    "defaultvalue": 0,
+    "displayName": "Shapes seen"
   },
-  "NAMES SEEN": {
-    "description": "Names seen",
-    "value": 0
+  {
+    "name": "NAMES SEEN",
+    "defaultvalue": 0,
+    "displayName": "Names seen"
   }
-}
+]

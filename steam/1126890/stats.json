@@ -1,32 +1,32 @@
 [
   {
-    "name": "games_won",
+    "name": "pvp_tech_money",
     "defaultvalue": 0,
-    "displayName": "Games won"
+    "displayName": ""
   },
   {
-    "name": "games_lost",
+    "name": "pvp_tech_wins",
     "defaultvalue": 0,
-    "displayName": "Games lost"
+    "displayName": ""
   },
   {
-    "name": "money_earned",
+    "name": "pvp_oper_money",
     "defaultvalue": 0,
-    "displayName": "Money earned"
+    "displayName": ""
   },
   {
-    "name": "player_level_oper",
+    "name": "pvp_oper_wins",
     "defaultvalue": 0,
-    "displayName": "Player level (Oper)"
+    "displayName": ""
   },
   {
-    "name": "player_level_tech",
+    "name": "pvp_gast_money",
     "defaultvalue": 0,
-    "displayName": "Player level (Akibara)"
+    "displayName": ""
   },
   {
-    "name": "player_level_gast",
+    "name": "pvp_gast_wins",
     "defaultvalue": 0,
-    "displayName": "Player level (Gastown)"
+    "displayName": ""
   }
 ]

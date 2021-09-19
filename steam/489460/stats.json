@@ -1,30 +1,37 @@
-﻿{
-  "SSID_SHIP_KILLS": {
-    "description": "Ship Kills",
-    "value": 0
+[
+  {
+    "name": "SSID_SHIP_KILLS",
+    "defaultvalue": 0,
+    "displayName": "Ship Kills"
   },
-  "SSID_VERSUS_KILLS": {
-    "description": "Ship Versus Kills",
-    "value": 0
+  {
+    "name": "SSID_VERSUS_KILLS",
+    "defaultvalue": 0,
+    "displayName": "Ship Versus Kills"
   },
-  "SSID_PESKY_FISH_KILLS": {
-    "description": "Pesky Fish Kills",
-    "value": 0
+  {
+    "name": "SSID_PESKY_FISH_KILLS",
+    "defaultvalue": 0,
+    "displayName": "Pesky Fish Kills"
   },
-  "SSID_PLAY_TIME": {
-    "description": "Play Time",
-    "value": 0
+  {
+    "name": "SSID_PLAY_TIME",
+    "defaultvalue": 0,
+    "displayName": "Play Time"
   },
-  "SSID_PLACED_BLOCKS": {
-    "description": "Placed Blocks",
-    "value": 0
+  {
+    "name": "SSID_PLACED_BLOCKS",
+    "defaultvalue": 0,
+    "displayName": "Placed Blocks"
   },
-  "SSID_WORKSHOP_UPLOADS": {
-    "description": "Workshop Uploads",
-    "value": 0
+  {
+    "name": "SSID_WORKSHOP_UPLOADS",
+    "defaultvalue": 0,
+    "displayName": "Workshop Uploads"
   },
-  "SSID_WORKSHOP_SUBSCRIPTIONS": {
-    "description": "Subscribed Items",
-    "value": 0
+  {
+    "name": "SSID_WORKSHOP_SUBSCRIPTIONS",
+    "defaultvalue": 0,
+    "displayName": "Subscribed Items"
   }
-}
+]

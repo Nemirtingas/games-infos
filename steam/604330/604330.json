@@ -2,12 +2,17 @@
   "Dlcs": {
     "1010210": {
       "Name": "The Crown of Leaves - Official Soundtrack",
-      "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/1010210/header.jpg?t=1571592234"
+      "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1010210/header.jpg?t=1617118133",
+      "Type": "music"
+    },
+    "1160540": {
+      "Name": "",
+      "ImageUrl": ""
     }
   },
   "Name": "The Crown of Leaves",
   "AppId": "604330",
-  "ImageUrl": "https://steamcdn-a.akamaihd.net/steam/apps/604330/header.jpg?t=1598202362",
+  "ImageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/604330/header.jpg?t=1619967087",
   "Languages": [
     "english",
     "russian"
@@ -15,6 +20,6 @@
   "Platforms": {
     "windows": true,
     "mac": false,
-    "linux": false
+    "linux": true
   }
 }

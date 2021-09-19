@@ -1,86 +1,107 @@
-﻿{
-  "battles_won": {
-    "description": "Battles Won",
-    "value": 0
+[
+  {
+    "name": "battles_won",
+    "defaultvalue": 0,
+    "displayName": "Battles Won"
   },
-  "hood_soldier_killed": {
-    "description": "HOOD Soldiers Defeated",
-    "value": 0
+  {
+    "name": "hood_soldier_killed",
+    "defaultvalue": 0,
+    "displayName": "HOOD Soldiers Defeated"
   },
-  "lizards_killed": {
-    "description": "Lizards Defeated",
-    "value": 0
+  {
+    "name": "lizards_killed",
+    "defaultvalue": 0,
+    "displayName": "Lizards Defeated"
   },
-  "areas_explored": {
-    "description": "Areas Explored",
-    "value": 0
+  {
+    "name": "areas_explored",
+    "defaultvalue": 0,
+    "displayName": "Areas Explored"
   },
-  "boxes_opened": {
-    "description": "RcMeal Boxes Opened",
-    "value": 0
+  {
+    "name": "boxes_opened",
+    "defaultvalue": 0,
+    "displayName": "RcMeal Boxes Opened"
   },
-  "helped_stanley": {
-    "description": "Stanley Helped",
-    "value": 0
+  {
+    "name": "helped_stanley",
+    "defaultvalue": 0,
+    "displayName": "Stanley Helped"
   },
-  "helped_may": {
-    "description": "May Helped",
-    "value": 0
+  {
+    "name": "helped_may",
+    "defaultvalue": 0,
+    "displayName": "May Helped"
   },
-  "sarah_randy": {
-    "description": "Sarah <3 Randy",
-    "value": 0
+  {
+    "name": "sarah_randy",
+    "defaultvalue": 0,
+    "displayName": "Sarah <3 Randy"
   },
-  "sarah_blake": {
-    "description": "Sarah <3 Blake",
-    "value": 0
+  {
+    "name": "sarah_blake",
+    "defaultvalue": 0,
+    "displayName": "Sarah <3 Blake"
   },
-  "sarah_chris": {
-    "description": "Sarah <3 Chris",
-    "value": 0
+  {
+    "name": "sarah_chris",
+    "defaultvalue": 0,
+    "displayName": "Sarah <3 Chris"
   },
-  "sarah_team": {
-    "description": "Sarah <3 Bulldogs",
-    "value": 0
+  {
+    "name": "sarah_team",
+    "defaultvalue": 0,
+    "displayName": "Sarah <3 Bulldogs"
   },
-  "sarah_matt": {
-    "description": "Sarah <3 Matt",
-    "value": 0
+  {
+    "name": "sarah_matt",
+    "defaultvalue": 0,
+    "displayName": "Sarah <3 Matt"
   },
-  "bobby_helped": {
-    "description": "Helped Bobby",
-    "value": 0
+  {
+    "name": "bobby_helped",
+    "defaultvalue": 0,
+    "displayName": "Helped Bobby"
   },
-  "bobby_hurt": {
-    "description": "Hurt Bobby",
-    "value": 0
+  {
+    "name": "bobby_hurt",
+    "defaultvalue": 0,
+    "displayName": "Hurt Bobby"
   },
-  "ben_flooded": {
-    "description": "Ben Flooded",
-    "value": 0
+  {
+    "name": "ben_flooded",
+    "defaultvalue": 0,
+    "displayName": "Ben Flooded"
   },
-  "ben_drained": {
-    "description": "Ben Drained",
-    "value": 0
+  {
+    "name": "ben_drained",
+    "defaultvalue": 0,
+    "displayName": "Ben Drained"
   },
-  "pets_returned": {
-    "description": "Pet Returned",
-    "value": 0
+  {
+    "name": "pets_returned",
+    "defaultvalue": 0,
+    "displayName": "Pet Returned"
   },
-  "pets_doused": {
-    "description": "Pet Doused",
-    "value": 0
+  {
+    "name": "pets_doused",
+    "defaultvalue": 0,
+    "displayName": "Pet Doused"
   },
-  "pets_fed": {
-    "description": "Pet Fed",
-    "value": 0
+  {
+    "name": "pets_fed",
+    "defaultvalue": 0,
+    "displayName": "Pet Fed"
   },
-  "tickets_taken": {
-    "description": "Ticket Stolen",
-    "value": 0
+  {
+    "name": "tickets_taken",
+    "defaultvalue": 0,
+    "displayName": "Ticket Stolen"
   },
-  "tickets_bought": {
-    "description": "Ticket Bought",
-    "value": 0
+  {
+    "name": "tickets_bought",
+    "defaultvalue": 0,
+    "displayName": "Ticket Bought"
   }
-}
+]

@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "name": "UPGRADE_LEVEL3",
     "defaultvalue": 0,
@@ -763,5 +763,23 @@
     "description": "Complete the campaign in Veteran mode.",
     "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/458710/453c431943e26e93ae04c2704f355012fca3bcda.jpg",
     "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/458710/9143d76c3cea18e37a6602053f126c76d44ef774.jpg"
+  },
+  {
+    "name": "COME_ON_YOU_APES",
+    "defaultvalue": 0,
+    "displayName": "Come on you apes!",
+    "hidden": 0,
+    "description": "Survive 30 Waves in the Temple of Evil.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/458710/c1d9ca128c1e0231f6495d9e6873ba96b42eb4fb.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/458710/13bd14e4b8f7e560a9d92a554927a5282610f041.jpg"
+  },
+  {
+    "name": "WANT_PIECE_OF_ME",
+    "defaultvalue": 0,
+    "displayName": "Want a piece of me?",
+    "hidden": 0,
+    "description": "Kill 300 Aliens in the Temple of Evil.",
+    "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/458710/8b30b9091b131d6bbb3ba43f4ea5c0d293f894c2.jpg",
+    "icongray": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/458710/f096653c2d070efe18819b3e2b8bc68b5a73fa23.jpg"
   }
 ]
