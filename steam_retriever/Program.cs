@@ -413,101 +413,127 @@ namespace steam_db
                 
                 Console.WriteLine(string.Format("Got {0} AppIDs to check", appids.Count));
 
+                int error_count = 0;
+                const int max_error_count = 5;
+                string appid;
                 while (appids.Count > 0)
                 {
-                    string appid = appids.Last();
-                    appids.Remove(appid);
-                    done_appids.Add(appid);
+                    appid = appids.Last();
 
                     if (File.Exists(Path.Combine(out_dir, appid, appid + ".json")) && !force)
                     {
                         Console.WriteLine(string.Format(" + {0} already present, skip (no -f).", appid));
+                        appids.Remove(appid);
+                        done_appids.Add(appid);
+                        error_count = 0;
+
                         continue;
                     }
 
-                    // Always sleep for 1s before retrieving any game or dlc or Steam will lock you up for some time.
+                    // Always sleep for some time before retrieving any game or dlc or Steam will lock you up for some time.
                     Thread.Sleep(1500);
 
-                    Console.WriteLine(string.Format(" + Trying to get infos on {0}...", appid));
-                    request = (HttpWebRequest)WebRequest.Create(string.Format("https://store.steampowered.com/api/appdetails/?appids={0}&l=english", appid));
-                    request.Headers.Add("Accept-encoding:gzip, deflate, br");
-                    request.AutomaticDecompression = DecompressionMethods.Deflate | DecompressionMethods.GZip;
-                    using (HttpWebResponse response = (HttpWebResponse)request.GetResponse())
+                    try 
                     {
-                        Stream sresult = response.GetResponseStream();
-                        using (StreamReader streamReader = new StreamReader(sresult))
+                        Console.WriteLine(string.Format(" + Trying to get infos on {0}...", appid));
+                        request = (HttpWebRequest)WebRequest.Create(string.Format("https://store.steampowered.com/api/appdetails/?appids={0}&l=english", appid));
+                        request.Headers.Add("Accept-encoding:gzip, deflate, br");
+                        request.AutomaticDecompression = DecompressionMethods.Deflate | DecompressionMethods.GZip;
+                        using (HttpWebResponse response = (HttpWebResponse)request.GetResponse())
                         {
-                            try
+                            Stream sresult = response.GetResponseStream();
+                            using (StreamReader streamReader = new StreamReader(sresult))
                             {
-                                JObject app_json = JObject.Parse(streamReader.ReadToEnd());
-                                if (!(bool)app_json[appid]["success"])
+                                try
                                 {
-                                    Console.WriteLine(" + Failed (success == false)");
-                                    continue;
-                                }
-
-                                string type = (string)app_json[appid]["data"]["type"];
-                                if (!Directory.Exists(Path.Combine(out_dir, appid)))
-                                {
-                                    Directory.CreateDirectory(Path.Combine(out_dir, appid));
-                                }
-
-                                switch (type)
-                                {
-                                    case "music":
-                                    case "dlc":
+                                    JObject app_json = JObject.Parse(streamReader.ReadToEnd());
+                                    if (!(bool)app_json[appid]["success"])
                                     {
-                                        string main_appid;
-                                        JObject dlc = ParseDlc(appid, type, app_json, out main_appid);
-                                        JObject app = GetOrCreateApp(main_appid, false);
-
-                                        if(!done_appids.Contains(main_appid))
-                                        {
-                                             appids.Add(main_appid);
-                                        }
-                                    
-                                        // Add the dlc to the games_infos
-                                        games_infos[appid] = dlc;
-                                        // Add the dlc to its main game
-                                        app["Dlcs"][appid] = dlc;
-
-                                        SaveJson(Path.Combine(out_dir, appid, appid + ".json"), dlc);
-                                        SaveJson(Path.Combine(out_dir, main_appid, main_appid + ".json"), app);
+                                        Console.WriteLine(" + Failed (success == false)");
+                                        appids.Remove(appid);
+                                        done_appids.Add(appid);
+                                        error_count = 0;
+                                        continue;
                                     }
-                                    break;
 
-                                    case "game":
+                                    string type = (string)app_json[appid]["data"]["type"];
+                                    if (!Directory.Exists(Path.Combine(out_dir, appid)))
                                     {
-                                        JObject game = ParseGame(appid, type, app_json);
-                                        games_infos[appid] = game;
-
-                                        SaveJson(Path.Combine(out_dir, appid, appid + ".json"), game);
+                                        Directory.CreateDirectory(Path.Combine(out_dir, appid));
                                     }
-                                    break;
-
-                                    default:
+    
+                                    switch (type)
                                     {
-					string main_appid;
-                                        JObject other = ParseOther(appid, type, app_json, out main_appid);
-                                        games_infos[appid] = other;
-
-                                        if (!string.IsNullOrWhiteSpace(main_appid))
+                                        case "music":
+                                        case "dlc":
                                         {
+                                            string main_appid;
+                                            JObject dlc = ParseDlc(appid, type, app_json, out main_appid);
                                             JObject app = GetOrCreateApp(main_appid, false);
-                                            ((JObject)app["Dlcs"]).Remove(appid);
+    
+                                            if(!done_appids.Contains(main_appid))
+                                            {
+                                                 appids.Add(main_appid);
+                                            }
+                                        
+                                            // Add the dlc to the games_infos
+                                            games_infos[appid] = dlc;
+                                            // Add the dlc to its main game
+                                            app["Dlcs"][appid] = dlc;
+    
+                                            SaveJson(Path.Combine(out_dir, appid, appid + ".json"), dlc);
                                             SaveJson(Path.Combine(out_dir, main_appid, main_appid + ".json"), app);
                                         }
+                                        break;
+    
+                                        case "game":
+                                        {
+                                            JObject game = ParseGame(appid, type, app_json);
+                                            games_infos[appid] = game;
 
-                                        SaveJson(Path.Combine(out_dir, appid, appid + ".json"), other);
+                                            SaveJson(Path.Combine(out_dir, appid, appid + ".json"), game);
+                                        }
+                                        break;
+    
+                                        default:
+                                        {
+                                            string main_appid;
+                                            JObject other = ParseOther(appid, type, app_json, out main_appid);
+                                            games_infos[appid] = other;
+    
+                                            if (!string.IsNullOrWhiteSpace(main_appid))
+                                            {
+                                                JObject app = GetOrCreateApp(main_appid, false);
+                                                ((JObject)app["Dlcs"]).Remove(appid);
+                                                SaveJson(Path.Combine(out_dir, main_appid, main_appid + ".json"), app);
+                                            }
+    
+                                            SaveJson(Path.Combine(out_dir, appid, appid + ".json"), other);
+                                        }
+                                        break;
                                     }
-                                    break;
                                 }
-                            }
-                            catch (Exception e)
-                            {
-                                Console.WriteLine("Error while parsing AppID {0}: {1}", appid, e.Message);
+                                catch (Exception e)
+                                {
+                                    Console.WriteLine("Error while parsing AppID {0}: {1}", appid, e.Message);
+                                }
+                                appids.Remove(appid);
+                                done_appids.Add(appid);
+                                error_count = 0;
                             }
                         }
+                    }
+                    catch(Exception e)
+                    {
+                        if (File.Exists(Path.Combine(out_dir, appid, appid + ".json")))
+                            File.Delete(Path.Combine(out_dir, appid, appid + ".json"));
+
+                        Console.WriteLine("Error {0}", e.ToString());
+                        if (error_count++ >= max_error_count)
+                        {
+                            break;
+                        }
+                        Thread.Sleep(5);
                     }
                 }
 
