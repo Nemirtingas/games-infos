@@ -416,16 +416,32 @@ namespace steam_db
                 int error_count = 0;
                 const int max_error_count = 5;
                 string appid;
+
+                Func<string, bool> loop_clear = (string appid) =>
+                {
+                    appids.Remove(appid);
+                    done_appids.Add(appid);
+                    error_count = 0;
+
+                    return true;
+                };
+
                 while (appids.Count > 0)
                 {
                     appid = appids.Last();
 
+                    if (File.Exists(Path.Combine(out_dir, appid, "blacklisted")))
+                    {
+                        Console.WriteLine(string.Format(" + {0} blacklisted, skip.", appid));
+                        loop_clear(appid);
+
+                        continue;
+                    }
+
                     if (File.Exists(Path.Combine(out_dir, appid, appid + ".json")) && !force)
                     {
                         Console.WriteLine(string.Format(" + {0} already present, skip (no -f).", appid));
-                        appids.Remove(appid);
-                        done_appids.Add(appid);
-                        error_count = 0;
+                        loop_clear(appid);
 
                         continue;
                     }
@@ -449,10 +465,16 @@ namespace steam_db
                                     JObject app_json = JObject.Parse(streamReader.ReadToEnd());
                                     if (!(bool)app_json[appid]["success"])
                                     {
-                                        Console.WriteLine(" + Failed (success == false)");
-                                        appids.Remove(appid);
-                                        done_appids.Add(appid);
-                                        error_count = 0;
+                                        Console.WriteLine(" + Failed (success == false), blacklisting...");
+                                        if (!Directory.Exists(Path.Combine(out_dir, appid)))
+                                        {
+                                            Directory.CreateDirectory(Path.Combine(out_dir, appid));
+                                        }
+                                        using(var x = File.Create(Path.Combine(out_dir, appid, "blacklisted"))) {}
+                                        
+
+                                        loop_clear(appid);
+
                                         continue;
                                     }
 
@@ -517,9 +539,7 @@ namespace steam_db
                                 {
                                     Console.WriteLine("Error while parsing AppID {0}: {1}", appid, e.Message);
                                 }
-                                appids.Remove(appid);
-                                done_appids.Add(appid);
-                                error_count = 0;
+                                loop_clear(appid);
                             }
                         }
                     }
