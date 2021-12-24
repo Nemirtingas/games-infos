@@ -51,3 +51,14 @@ jobs:
           name: steam_retriever
           path: |
             release/steam_retriever
+            
+      - name: Packaging
+        run: |
+          cd release
+          tar czf steam_retriever.tgz steam_retriver
+          
+      - name: Release
+        uses: softprops/action-gh-release@v1
+        #if: startsWith(github.ref, 'refs/tags/')
+        with:
+          files: release/steam_retriever.tgz
