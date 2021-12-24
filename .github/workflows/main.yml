@@ -55,7 +55,7 @@ jobs:
       - name: Packaging
         run: |
           cd release
-          tar czf steam_retriever.tgz steam_retriver
+          tar czf steam_retriever.tgz steam_retriever
           
       - name: Release
         uses: softprops/action-gh-release@v1
