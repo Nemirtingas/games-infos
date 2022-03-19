@@ -1,4 +1,4 @@
-﻿using CommandLine;
+using CommandLine;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using System;
@@ -22,6 +22,21 @@ namespace epic_retriever
 
         [Option('s', "sessionid", Required = false, HelpText = "The SID, allows you to remove the need of interactivity.")]
         public string SessionID { get; set; } = string.Empty;
+
+        [Option('w', "fromweb", Required = false, HelpText = "Try to deduce the catalog id from the app web page. (Slow and not reliable but can help to find more games)")]
+        public string FromWeb { get; set; } = string.Empty;
+    }
+
+    class AppListEntry
+    {
+        [JsonProperty(PropertyName = "Namespace")]
+        public string Namespace { get; set; }
+
+        [JsonProperty(PropertyName = "CatalogItemId")]
+        public string CatalogItemId { get; set; }
+
+        [JsonIgnore]
+        public EGS.AppAsset Asset { get; set; }
     }
 
     class Program
@@ -30,11 +45,15 @@ namespace epic_retriever
         static bool DownloadImages { get; set; }
         static bool Force { get; set; }
         static string SessionID { get; set; }
+        static bool FromWeb { get; set; }
 
         static EGS.WebApi EGSApi;
 
         static void SaveAppAsset(EGS.AppAsset asset)
         {
+            if (asset == null)
+                return;
+
             try
             {
                 string asset_path = Path.Combine(OutputDir, "cache", "assets", asset.Namespace);
@@ -48,7 +67,7 @@ namespace epic_retriever
                     writer.Write(JsonConvert.SerializeObject(asset, Formatting.Indented));
                 }
             }
-            catch(Exception e)
+            catch (Exception e)
             {
                 Console.WriteLine($"Failed to save app assets cache: ${e.Message}");
             }
@@ -69,7 +88,7 @@ namespace epic_retriever
                     writer.Write(JsonConvert.SerializeObject(app, Formatting.Indented));
                 }
             }
-            catch(Exception e)
+            catch (Exception e)
             {
                 Console.WriteLine($"Failed to save app infos cache: ${e.Message}");
             }
@@ -77,7 +96,7 @@ namespace epic_retriever
 
         static bool CachedDatasChanged(EGS.AppAsset asset)
         {
-            if (Force)
+            if (Force || asset == null)
                 return true;
 
             try
@@ -92,19 +111,19 @@ namespace epic_retriever
 
                 return (string)cached_asset["buildVersion"] != asset.BuildVersion;
             }
-            catch(Exception)
+            catch (Exception)
             {
                 return true;
             }
         }
 
-        static EGS.AppInfos GetCachedAppInfos(EGS.AppAsset asset)
+        static EGS.AppInfos GetCachedAppInfos(string namespace_, string catalog_item_id)
         {
             EGS.AppInfos app = new EGS.AppInfos();
-            string app_infos_path = Path.Combine(OutputDir, "cache", "app_infos", asset.Namespace, asset.CatalogItemId + ".json");
+            string app_infos_path = Path.Combine(OutputDir, "cache", "app_infos", namespace_, catalog_item_id + ".json");
             if (!File.Exists(app_infos_path))
                 return app;
-            
+
             using (StreamReader reader = new StreamReader(new FileStream(app_infos_path, FileMode.Open), Encoding.UTF8))
             {
                 app = JObject.Parse(reader.ReadToEnd()).ToObject<EGS.AppInfos>();
@@ -123,14 +142,15 @@ namespace epic_retriever
             return new List<EGS.AppAsset>();
         }
 
-        static EGS.AppInfos GetApp(EGS.AppAsset asset)
+        static EGS.AppInfos GetApp(string namespace_, string catalog_item_id)
         {
             EGS.AppInfos app = null;
 
-            if (CachedDatasChanged(asset))
+            //if (CachedDatasChanged())
             {
-                SaveAppAsset(asset);
-                var t2 = EGSApi.GetGameInfos(asset.Namespace, asset.CatalogItemId);
+                //SaveAppAsset();
+
+                var t2 = EGSApi.GetGameInfos(namespace_, catalog_item_id);
                 t2.Wait();
                 if (t2.Result.ErrorCode == EGS.Error.OK)
                 {
@@ -138,10 +158,10 @@ namespace epic_retriever
                     SaveAppInfos(app);
                 }
             }
-            else
-            {
-                app = GetCachedAppInfos(asset);
-            }
+            //else
+            //{
+            //    app = GetCachedAppInfos(namespace_, catalog_item_id);
+            //}
 
             return app;
         }
@@ -213,7 +233,7 @@ namespace epic_retriever
 
                         wcli.DownloadFile(uri, image_path);
                     }
-                    catch(Exception e)
+                    catch (Exception e)
                     {
                         Console.WriteLine($"Failed to download app image: ${e.Message}.");
                     }
@@ -225,10 +245,90 @@ namespace epic_retriever
                     writer.Write(game_infos.ToString());
                 }
             }
-            catch(Exception e)
+            catch (Exception e)
             {
                 Console.WriteLine($"Failed to save game infos: ${e.Message}.");
             }
+        }
+
+        static List<AppListEntry> DownloadAppList()
+        {
+            List<AppListEntry> app_list = new List<AppListEntry>();
+
+            WebClient wcli = new WebClient();
+
+            string applist_path = Path.Combine(OutputDir, "cache", "applist.json");
+            try
+            {
+                using (StreamReader reader = new StreamReader(new FileStream(applist_path, FileMode.Open), Encoding.UTF8))
+                {
+                    app_list = JArray.Parse(reader.ReadToEnd()).ToObject<List<AppListEntry>>();
+                }
+            }
+            catch (Exception)
+            { }
+
+            Console.WriteLine("Downloading assets...");
+            List<EGS.AppAsset> assets = GetAssets();
+            foreach (EGS.AppAsset asset in assets)
+            {
+                var entry = app_list.Find(x => x.Namespace == asset.Namespace && x.CatalogItemId == asset.CatalogItemId);
+                if (entry == null)
+                {
+                    app_list.Add(new AppListEntry { Namespace = asset.Namespace, CatalogItemId = asset.CatalogItemId, Asset = asset });
+                }
+                else
+                {
+                    entry.Asset = asset;
+                }
+            }
+
+            if (FromWeb)
+            {
+                try
+                {
+                    wcli.Headers[HttpRequestHeader.UserAgent] = "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:98.0) Gecko/20100101 Firefox/98.0";
+                    var t = wcli.DownloadStringTaskAsync("https://store-content.ak.epicgames.com/api/content/productmapping");
+                    t.Wait();
+                    foreach (var item in JObject.Parse(t.Result))
+                    {
+                        if (app_list.Find(x => x.Namespace == item.Key) == null)
+                        {
+                            try
+                            {
+                                var t2 = wcli.DownloadStringTaskAsync($"https://www.epicgames.com/store/en-US/p/{item.Value}");
+                                t2.Wait();
+                                int start = t2.Result.IndexOf("\"item\":{\"catalogId\":\"");
+                                if (start != -1)
+                                {
+                                    start += 21; // length of "item":{"catalogId":"
+                                    string catalog_item_id = t2.Result.Substring(start, t2.Result.IndexOf("\"", start) - start);
+                                    if (catalog_item_id != string.Empty)
+                                    {
+                                        app_list.Add(new AppListEntry { Namespace = item.Key, CatalogItemId = catalog_item_id });
+                                    }
+                                }
+                            }
+                            catch (Exception)
+                            { }
+                        }
+                    }
+                }
+                catch (Exception)
+                { }
+            }
+
+            try
+            {
+                using (StreamWriter writer = new StreamWriter(new FileStream(applist_path, FileMode.Create), Encoding.UTF8))
+                {
+                    writer.Write(JArray.FromObject(app_list).ToString());
+                }
+            }
+            catch (Exception)
+            { }
+
+            return app_list;
         }
 
         static void Main(string[] args)
@@ -302,16 +402,16 @@ namespace epic_retriever
                 writer.Write(oauth_infos.ToString());
             }
 
-            Console.WriteLine("Downloading assets...");
-            List<EGS.AppAsset> assets = GetAssets();
+            List<AppListEntry> app_list = DownloadAppList();
 
-            foreach (EGS.AppAsset asset in assets)
+            foreach (AppListEntry app_meta in app_list)
             {
-                EGS.AppInfos app = GetApp(asset);
+                EGS.AppInfos app = GetApp(app_meta.Namespace, app_meta.CatalogItemId);
 
-                if(app != null && !app.IsDlc)
+                if (app != null && !app.IsDlc && (app.ReleaseInfo.Count > 0 || app_meta.Asset != null))
                 {
-                    Console.WriteLine("App {0}, AppId {1}, Namespace {2}, ItemId {3}", app.Title, asset.AppName, app.Namespace, app.Id);
+                    string app_id = app_meta.Asset != null ? app_meta.Asset.AppName : app.ReleaseInfo[0].AppId;
+                    Console.WriteLine("App {0}, AppId {1}, Namespace {2}, ItemId {3}", app.Title, app_id, app.Namespace, app.Id);
                     int title_length = 0;
                     int id_length = 0;
                     int namespace_length = 0;
@@ -320,22 +420,23 @@ namespace epic_retriever
                     foreach (EGS.AppInfos dlc in app.DlcItemList)
                     {
                         string dlc_id;
-                        var dlc_asset = assets.Find(a => a.CatalogItemId == dlc.Id);
-                        if (dlc_asset != null)
+                        var dlc_meta = app_list.Find(a => a.CatalogItemId == dlc.Id);
+                        if (dlc_meta != null && dlc_meta.Asset != null)
                         {
-                            dlc_id = dlc_asset.AppName;
+                            dlc_id = dlc_meta.Asset.AppName;
                         }
                         else
                         {
                             if (dlc.ReleaseInfo.Count > 0)
                             {
-                                dlc_id = dlc.ReleaseInfo[0].Id;
+                                dlc_id = dlc.ReleaseInfo[0].AppId;
                             }
                             else
                             {
                                 dlc_id = dlc.Title;
                             }
                         }
+
 
                         if (title_length < dlc.Title.Length)
                             title_length = dlc.Title.Length;
@@ -352,16 +453,16 @@ namespace epic_retriever
                     foreach (EGS.AppInfos dlc in app.DlcItemList)
                     {
                         string dlc_id;
-                        var dlc_asset = assets.Find(a => a.CatalogItemId == dlc.Id);
-                        if(dlc_asset != null)
+                        var dlc_meta = app_list.Find(a => a.CatalogItemId == dlc.Id);
+                        if (dlc_meta != null && dlc_meta.Asset != null)
                         {
-                            dlc_id = dlc_asset.AppName;
+                            dlc_id = dlc_meta.Asset.AppName;
                         }
                         else
                         {
-                            if(dlc.ReleaseInfo.Count > 0)
+                            if (dlc.ReleaseInfo.Count > 0)
                             {
-                                dlc_id = dlc.ReleaseInfo[0].Id;
+                                dlc_id = dlc.ReleaseInfo[0].AppId;
                             }
                             else
                             {
@@ -379,7 +480,7 @@ namespace epic_retriever
 
                     JObject game_infos = new JObject();
                     game_infos["Name"] = app.Title;
-                    game_infos["AppId"] = asset.AppName;
+                    game_infos["AppId"] = app.ReleaseInfo[0].AppId;
                     game_infos["Namespace"] = app.Namespace;
                     game_infos["ItemId"] = app.Id;
                     game_infos["ImageUrl"] = FindBestImage(app);
@@ -395,3 +496,4 @@ namespace epic_retriever
         }
     }
 }
+

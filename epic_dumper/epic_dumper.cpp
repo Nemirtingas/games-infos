@@ -791,7 +791,8 @@ static void AuthLogin(std::string auth_password, EOS_ELoginCredentialType auth_t
     EOS_Auth_LoginOptions options{};
     EOS_Auth_Credentials credentials{};
     options.ApiVersion = api_version;
-    options.ScopeFlags = EOS_EAuthScopeFlags::EOS_AS_BasicProfile;
+    options.ScopeFlags = EOS_EAuthScopeFlags::EOS_AS_NoFlags;
+    //options.ScopeFlags = EOS_EAuthScopeFlags::EOS_AS_BasicProfile;
 
     credentials.ApiVersion = api_version;
     credentials.ExternalType = EOS_EExternalCredentialType::EOS_ECT_EPIC;
