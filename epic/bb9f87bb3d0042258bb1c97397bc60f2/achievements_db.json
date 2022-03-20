@@ -1,0 +1,606 @@
+{
+  "1": {
+    "achievement_id": "1",
+    "unlocked_display_name": "Getting Equipped!",
+    "unlocked_description": "Make a purchase from the Crayta Store",
+    "locked_display_name": "Getting Equipped!",
+    "locked_description": "Make a purchase from the Crayta Store",
+    "hidden_description": "Make a purchase from the Crayta Store",
+    "flavor_text": "",
+    "completion_description": "Make a purchase from the Crayta Store",
+    "unlocked_icon_url": "achievements_images/1.jpg",
+    "locked_icon_url": "achievements_images/1_locked.jpg",
+    "is_hidden": false
+  },
+  "10": {
+    "achievement_id": "10",
+    "unlocked_display_name": "These Are a Few of My Favorite Things - Gold",
+    "unlocked_description": "Favorite 25 games",
+    "locked_display_name": "These Are a Few of My Favorite Things - Gold",
+    "locked_description": "Favorite 25 games",
+    "hidden_description": "Favorite 25 games",
+    "flavor_text": "",
+    "completion_description": "Favorite 25 games",
+    "unlocked_icon_url": "achievements_images/10.jpg",
+    "locked_icon_url": "achievements_images/10_locked.jpg",
+    "is_hidden": false,
+    "stats_thresholds": {
+      "FavouritedGame": {
+        "name": "FavouritedGame",
+        "threshold": 25
+      }
+    }
+  },
+  "11": {
+    "achievement_id": "11",
+    "unlocked_display_name": "Standing on the Shoulders of Giants - Bronze",
+    "unlocked_description": "Install 5 packages",
+    "locked_display_name": "Standing on the Shoulders of Giants - Bronze",
+    "locked_description": "Install 5 packages",
+    "hidden_description": "Install 5 packages",
+    "flavor_text": "",
+    "completion_description": "Install 5 packages",
+    "unlocked_icon_url": "achievements_images/11.jpg",
+    "locked_icon_url": "achievements_images/11_locked.jpg",
+    "is_hidden": false,
+    "stats_thresholds": {
+      "InstallPackage": {
+        "name": "InstallPackage",
+        "threshold": 5
+      }
+    }
+  },
+  "12": {
+    "achievement_id": "12",
+    "unlocked_display_name": "Standing on the Shoulders of Giants - Silver",
+    "unlocked_description": "Install 20 packages",
+    "locked_display_name": "Standing on the Shoulders of Giants - Silver",
+    "locked_description": "Install 20 packages",
+    "hidden_description": "Install 20 packages",
+    "flavor_text": "",
+    "completion_description": "Install 20 packages",
+    "unlocked_icon_url": "achievements_images/12.jpg",
+    "locked_icon_url": "achievements_images/12_locked.jpg",
+    "is_hidden": false,
+    "stats_thresholds": {
+      "InstallPackage": {
+        "name": "InstallPackage",
+        "threshold": 20
+      }
+    }
+  },
+  "13": {
+    "achievement_id": "13",
+    "unlocked_display_name": "Standing on the Shoulders of Giants - Gold",
+    "unlocked_description": "Install 50 packages",
+    "locked_display_name": "Standing on the Shoulders of Giants - Gold",
+    "locked_description": "Install 50 packages",
+    "hidden_description": "Install 50 packages",
+    "flavor_text": "",
+    "completion_description": "Install 50 packages",
+    "unlocked_icon_url": "achievements_images/13.jpg",
+    "locked_icon_url": "achievements_images/13_locked.jpg",
+    "is_hidden": false,
+    "stats_thresholds": {
+      "InstallPackage": {
+        "name": "InstallPackage",
+        "threshold": 50
+      }
+    }
+  },
+  "14": {
+    "achievement_id": "14",
+    "unlocked_display_name": "Getting Friendly",
+    "unlocked_description": "Join a friend's game via the social menu",
+    "locked_display_name": "Getting Friendly",
+    "locked_description": "Join a friend's game via the social menu",
+    "hidden_description": "Join a friend's game via the social menu",
+    "flavor_text": "",
+    "completion_description": "Join a friend's game via the social menu",
+    "unlocked_icon_url": "achievements_images/14.jpg",
+    "locked_icon_url": "achievements_images/14_locked.jpg",
+    "is_hidden": false
+  },
+  "15": {
+    "achievement_id": "15",
+    "unlocked_display_name": "Getting Creative - Bronze",
+    "unlocked_description": "Awarded when a game you have created is played 10 times",
+    "locked_display_name": "Getting Creative - Bronze",
+    "locked_description": "Awarded when a game you have created is played 10 times",
+    "hidden_description": "Awarded when a game you have created is played 10 times",
+    "flavor_text": "",
+    "completion_description": "Awarded when a game you have created is played 10 times",
+    "unlocked_icon_url": "achievements_images/15.jpg",
+    "locked_icon_url": "achievements_images/15_locked.jpg",
+    "is_hidden": false,
+    "stats_thresholds": {
+      "MyGamePlayed": {
+        "name": "MyGamePlayed",
+        "threshold": 10
+      }
+    }
+  },
+  "16": {
+    "achievement_id": "16",
+    "unlocked_display_name": "Getting Creative - Silver",
+    "unlocked_description": "Awarded when a game you have created is played 25 times",
+    "locked_display_name": "Getting Creative - Silver",
+    "locked_description": "Awarded when a game you have created is played 25 times",
+    "hidden_description": "Awarded when a game you have created is played 25 times",
+    "flavor_text": "",
+    "completion_description": "Awarded when a game you have created is played 25 times",
+    "unlocked_icon_url": "achievements_images/16.jpg",
+    "locked_icon_url": "achievements_images/16_locked.jpg",
+    "is_hidden": false,
+    "stats_thresholds": {
+      "MyGamePlayed": {
+        "name": "MyGamePlayed",
+        "threshold": 25
+      }
+    }
+  },
+  "17": {
+    "achievement_id": "17",
+    "unlocked_display_name": "Getting Creative - Gold",
+    "unlocked_description": "Awarded when a game you have created is played 100 times",
+    "locked_display_name": "Getting Creative - Gold",
+    "locked_description": "Awarded when a game you have created is played 100 times",
+    "hidden_description": "Awarded when a game you have created is played 100 times",
+    "flavor_text": "",
+    "completion_description": "Awarded when a game you have created is played 100 times",
+    "unlocked_icon_url": "achievements_images/17.jpg",
+    "locked_icon_url": "achievements_images/17_locked.jpg",
+    "is_hidden": false,
+    "stats_thresholds": {
+      "MyGamePlayed": {
+        "name": "MyGamePlayed",
+        "threshold": 100
+      }
+    }
+  },
+  "18": {
+    "achievement_id": "18",
+    "unlocked_display_name": "Building Block - Bronze",
+    "unlocked_description": "Place 10 entities in edit mode",
+    "locked_display_name": "Building Block - Bronze",
+    "locked_description": "Place 10 entities in edit mode",
+    "hidden_description": "Place 10 entities in edit mode",
+    "flavor_text": "",
+    "completion_description": "Place 10 entities in edit mode",
+    "unlocked_icon_url": "achievements_images/18.jpg",
+    "locked_icon_url": "achievements_images/18_locked.jpg",
+    "is_hidden": false,
+    "stats_thresholds": {
+      "EntityPlaced": {
+        "name": "EntityPlaced",
+        "threshold": 10
+      }
+    }
+  },
+  "19": {
+    "achievement_id": "19",
+    "unlocked_display_name": "Building Block - Silver",
+    "unlocked_description": "Place 50 entities in edit mode",
+    "locked_display_name": "Building Block - Silver",
+    "locked_description": "Place 50 entities in edit mode",
+    "hidden_description": "Place 50 entities in edit mode",
+    "flavor_text": "",
+    "completion_description": "Place 50 entities in edit mode",
+    "unlocked_icon_url": "achievements_images/19.jpg",
+    "locked_icon_url": "achievements_images/19_locked.jpg",
+    "is_hidden": false,
+    "stats_thresholds": {
+      "EntityPlaced": {
+        "name": "EntityPlaced",
+        "threshold": 50
+      }
+    }
+  },
+  "2": {
+    "achievement_id": "2",
+    "unlocked_display_name": "Reap the Rewards!",
+    "unlocked_description": "Equip a challenge reward",
+    "locked_display_name": "Reap the Rewards!",
+    "locked_description": "Equip a challenge reward",
+    "hidden_description": "Equip a challenge reward",
+    "flavor_text": "",
+    "completion_description": "Equip a challenge reward",
+    "unlocked_icon_url": "achievements_images/2.jpg",
+    "locked_icon_url": "achievements_images/2_locked.jpg",
+    "is_hidden": false
+  },
+  "20": {
+    "achievement_id": "20",
+    "unlocked_display_name": "Building Block - Gold",
+    "unlocked_description": "Place 100 entities in edit mode",
+    "locked_display_name": "Building Block - Gold",
+    "locked_description": "Place 100 entities in edit mode",
+    "hidden_description": "Place 100 entities in edit mode",
+    "flavor_text": "",
+    "completion_description": "Place 100 entities in edit mode",
+    "unlocked_icon_url": "achievements_images/20.jpg",
+    "locked_icon_url": "achievements_images/20_locked.jpg",
+    "is_hidden": false,
+    "stats_thresholds": {
+      "EntityPlaced": {
+        "name": "EntityPlaced",
+        "threshold": 100
+      }
+    }
+  },
+  "21": {
+    "achievement_id": "21",
+    "unlocked_display_name": "Grouping Up - Bronze",
+    "unlocked_description": "Play 10 games with a group",
+    "locked_display_name": "Grouping Up - Bronze",
+    "locked_description": "Play 10 games with a group",
+    "hidden_description": "Play 10 games with a group",
+    "flavor_text": "",
+    "completion_description": "Play 10 games with a group",
+    "unlocked_icon_url": "achievements_images/21.jpg",
+    "locked_icon_url": "achievements_images/21_locked.jpg",
+    "is_hidden": false,
+    "stats_thresholds": {
+      "PlayGameWithGroup": {
+        "name": "PlayGameWithGroup",
+        "threshold": 10
+      }
+    }
+  },
+  "22": {
+    "achievement_id": "22",
+    "unlocked_display_name": "Grouping Up - Silver",
+    "unlocked_description": "Play 25 games with a group",
+    "locked_display_name": "Grouping Up - Silver",
+    "locked_description": "Play 25 games with a group",
+    "hidden_description": "Play 25 games with a group",
+    "flavor_text": "",
+    "completion_description": "Play 25 games with a group",
+    "unlocked_icon_url": "achievements_images/22.jpg",
+    "locked_icon_url": "achievements_images/22_locked.jpg",
+    "is_hidden": false,
+    "stats_thresholds": {
+      "PlayGameWithGroup": {
+        "name": "PlayGameWithGroup",
+        "threshold": 25
+      }
+    }
+  },
+  "23": {
+    "achievement_id": "23",
+    "unlocked_display_name": "Grouping Up - Gold",
+    "unlocked_description": "Play 100 games with a group",
+    "locked_display_name": "Grouping Up - Gold",
+    "locked_description": "Play 100 games with a group",
+    "hidden_description": "Play 100 games with a group",
+    "flavor_text": "",
+    "completion_description": "Play 100 games with a group",
+    "unlocked_icon_url": "achievements_images/23.jpg",
+    "locked_icon_url": "achievements_images/23_locked.jpg",
+    "is_hidden": false,
+    "stats_thresholds": {
+      "PlayGameWithGroup": {
+        "name": "PlayGameWithGroup",
+        "threshold": 100
+      }
+    }
+  },
+  "24": {
+    "achievement_id": "24",
+    "unlocked_display_name": "Variety Player - Bronze",
+    "unlocked_description": "Play 10 games",
+    "locked_display_name": "Variety Player - Bronze",
+    "locked_description": "Play 10 games",
+    "hidden_description": "Play 10 games",
+    "flavor_text": "",
+    "completion_description": "Play 10 games",
+    "unlocked_icon_url": "achievements_images/24.jpg",
+    "locked_icon_url": "achievements_images/24_locked.jpg",
+    "is_hidden": false,
+    "stats_thresholds": {
+      "PlayGame": {
+        "name": "PlayGame",
+        "threshold": 10
+      }
+    }
+  },
+  "25": {
+    "achievement_id": "25",
+    "unlocked_display_name": "Variety Player - Silver",
+    "unlocked_description": "Play 25 games",
+    "locked_display_name": "Variety Player - Silver",
+    "locked_description": "Play 25 games",
+    "hidden_description": "Play 25 games",
+    "flavor_text": "",
+    "completion_description": "Play 25 games",
+    "unlocked_icon_url": "achievements_images/25.jpg",
+    "locked_icon_url": "achievements_images/25_locked.jpg",
+    "is_hidden": false,
+    "stats_thresholds": {
+      "PlayGame": {
+        "name": "PlayGame",
+        "threshold": 25
+      }
+    }
+  },
+  "26": {
+    "achievement_id": "26",
+    "unlocked_display_name": "Variety Player - Gold",
+    "unlocked_description": "Play 100 games",
+    "locked_display_name": "Variety Player - Gold",
+    "locked_description": "Play 100 games",
+    "hidden_description": "Play 100 games",
+    "flavor_text": "",
+    "completion_description": "Play 100 games",
+    "unlocked_icon_url": "achievements_images/26.jpg",
+    "locked_icon_url": "achievements_images/26_locked.jpg",
+    "is_hidden": false,
+    "stats_thresholds": {
+      "PlayGame": {
+        "name": "PlayGame",
+        "threshold": 100
+      }
+    }
+  },
+  "29": {
+    "achievement_id": "29",
+    "unlocked_display_name": "Going Public!",
+    "unlocked_description": "Publish your first game",
+    "locked_display_name": "Going Public!",
+    "locked_description": "Publish your first game",
+    "hidden_description": "Publish your first game",
+    "flavor_text": "",
+    "completion_description": "Publish your first game",
+    "unlocked_icon_url": "achievements_images/29.jpg",
+    "locked_icon_url": "achievements_images/29_locked.jpg",
+    "is_hidden": false
+  },
+  "3": {
+    "achievement_id": "3",
+    "unlocked_display_name": "Community Creativity",
+    "unlocked_description": "Collaboratively work on a game within the Crayta editor",
+    "locked_display_name": "Community Creativity",
+    "locked_description": "Collaboratively work on a game within the Crayta editor",
+    "hidden_description": "Collaboratively work on a game within the Crayta editor",
+    "flavor_text": "",
+    "completion_description": "Collaboratively work on a game within the Crayta editor",
+    "unlocked_icon_url": "achievements_images/3.jpg",
+    "locked_icon_url": "achievements_images/3_locked.jpg",
+    "is_hidden": false
+  },
+  "30": {
+    "achievement_id": "30",
+    "unlocked_display_name": "Featured Gamer - Bronze",
+    "unlocked_description": "Play 10 Featured Games",
+    "locked_display_name": "Featured Gamer - Bronze",
+    "locked_description": "Play 10 Featured Games",
+    "hidden_description": "Play 10 Featured Games",
+    "flavor_text": "",
+    "completion_description": "Play 10 Featured Games",
+    "unlocked_icon_url": "achievements_images/30.jpg",
+    "locked_icon_url": "achievements_images/30_locked.jpg",
+    "is_hidden": false,
+    "stats_thresholds": {
+      "QuickplayGame": {
+        "name": "QuickplayGame",
+        "threshold": 10
+      }
+    }
+  },
+  "31": {
+    "achievement_id": "31",
+    "unlocked_display_name": "Featured Gamer - Silver",
+    "unlocked_description": "Play 25 Featured Games",
+    "locked_display_name": "Featured Gamer - Silver",
+    "locked_description": "Play 25 Featured Games",
+    "hidden_description": "Play 25 Featured Games",
+    "flavor_text": "",
+    "completion_description": "Play 25 Featured Games",
+    "unlocked_icon_url": "achievements_images/31.jpg",
+    "locked_icon_url": "achievements_images/31_locked.jpg",
+    "is_hidden": false,
+    "stats_thresholds": {
+      "QuickplayGame": {
+        "name": "QuickplayGame",
+        "threshold": 25
+      }
+    }
+  },
+  "32": {
+    "achievement_id": "32",
+    "unlocked_display_name": "Featured Gamer - Gold",
+    "unlocked_description": "Play 100 Featured Games",
+    "locked_display_name": "Featured Gamer - Gold",
+    "locked_description": "Play 100 Featured Games",
+    "hidden_description": "Play 100 Featured Games",
+    "flavor_text": "",
+    "completion_description": "Play 100 Featured Games",
+    "unlocked_icon_url": "achievements_images/32.jpg",
+    "locked_icon_url": "achievements_images/32_locked.jpg",
+    "is_hidden": false,
+    "stats_thresholds": {
+      "QuickplayGame": {
+        "name": "QuickplayGame",
+        "threshold": 100
+      }
+    }
+  },
+  "33": {
+    "achievement_id": "33",
+    "unlocked_display_name": "Well Socialised!",
+    "unlocked_description": "Use a social action",
+    "locked_display_name": "Well Socialised!",
+    "locked_description": "Use a social action",
+    "hidden_description": "Use a social action",
+    "flavor_text": "",
+    "completion_description": "Use a social action",
+    "unlocked_icon_url": "achievements_images/33.jpg",
+    "locked_icon_url": "achievements_images/33_locked.jpg",
+    "is_hidden": false
+  },
+  "34": {
+    "achievement_id": "34",
+    "unlocked_display_name": "Challenge Apprentice",
+    "unlocked_description": "Complete 10 Challenges",
+    "locked_display_name": "Challenge Apprentice",
+    "locked_description": "Complete 10 Challenges",
+    "hidden_description": "Complete 10 Challenges",
+    "flavor_text": "",
+    "completion_description": "Complete 10 Challenges",
+    "unlocked_icon_url": "achievements_images/34.jpg",
+    "locked_icon_url": "achievements_images/34_locked.jpg",
+    "is_hidden": false,
+    "stats_thresholds": {
+      "StarterPackProgression": {
+        "name": "StarterPackProgression",
+        "threshold": 10
+      }
+    }
+  },
+  "35": {
+    "achievement_id": "35",
+    "unlocked_display_name": "Challenge Master",
+    "unlocked_description": "Complete 50 Challenges",
+    "locked_display_name": "Challenge Master",
+    "locked_description": "Complete 50 Challenges",
+    "hidden_description": "Complete 50 Challenges",
+    "flavor_text": "",
+    "completion_description": "Complete 50 Challenges",
+    "unlocked_icon_url": "achievements_images/35.jpg",
+    "locked_icon_url": "achievements_images/35_locked.jpg",
+    "is_hidden": false,
+    "stats_thresholds": {
+      "StarterPackProgression": {
+        "name": "StarterPackProgression",
+        "threshold": 50
+      }
+    }
+  },
+  "36": {
+    "achievement_id": "36",
+    "unlocked_display_name": "Shared!",
+    "unlocked_description": "Join a game via its share link or code",
+    "locked_display_name": "Shared!",
+    "locked_description": "Join a game via its share link or code",
+    "hidden_description": "Join a game via its share link or code",
+    "flavor_text": "",
+    "completion_description": "Join a game via its share link or code",
+    "unlocked_icon_url": "achievements_images/36.jpg",
+    "locked_icon_url": "achievements_images/36_locked.jpg",
+    "is_hidden": false
+  },
+  "39": {
+    "achievement_id": "39",
+    "unlocked_display_name": "Challenge Veteran",
+    "unlocked_description": "Complete 20 Challenges",
+    "locked_display_name": "Challenge Veteran",
+    "locked_description": "Complete 20 Challenges",
+    "hidden_description": "Complete 20 Challenges",
+    "flavor_text": "",
+    "completion_description": "Complete 20 Challenges",
+    "unlocked_icon_url": "achievements_images/39.jpg",
+    "locked_icon_url": "achievements_images/39_locked.jpg",
+    "is_hidden": false,
+    "stats_thresholds": {
+      "StarterPackProgression": {
+        "name": "StarterPackProgression",
+        "threshold": 20
+      }
+    }
+  },
+  "4": {
+    "achievement_id": "4",
+    "unlocked_display_name": "Express Yourself - Silver",
+    "unlocked_description": "Equip 10 social action items in the Customization menu",
+    "locked_display_name": "Express Yourself - Silver",
+    "locked_description": "Equip 10 social action items in the Customization menu",
+    "hidden_description": "Equip 10 social action items in the Customization menu",
+    "flavor_text": "",
+    "completion_description": "Equip 10 social action items in the Customization menu",
+    "unlocked_icon_url": "achievements_images/4.jpg",
+    "locked_icon_url": "achievements_images/4_locked.jpg",
+    "is_hidden": false,
+    "stats_thresholds": {
+      "EquipSocialCosmeticItem": {
+        "name": "EquipSocialCosmeticItem",
+        "threshold": 10
+      }
+    }
+  },
+  "5": {
+    "achievement_id": "5",
+    "unlocked_display_name": "Express Yourself - Gold",
+    "unlocked_description": "Equip 20 social action items in the Customization menu",
+    "locked_display_name": "Express Yourself - Gold",
+    "locked_description": "Equip 20 social action items in the Customization menu",
+    "hidden_description": "Equip 20 social action items in the Customization menu",
+    "flavor_text": "",
+    "completion_description": "Equip 20 social action items in the Customization menu",
+    "unlocked_icon_url": "achievements_images/5.jpg",
+    "locked_icon_url": "achievements_images/5_locked.jpg",
+    "is_hidden": false,
+    "stats_thresholds": {
+      "EquipSocialCosmeticItem": {
+        "name": "EquipSocialCosmeticItem",
+        "threshold": 20
+      }
+    }
+  },
+  "6": {
+    "achievement_id": "6",
+    "unlocked_display_name": "Express Yourself - Bronze",
+    "unlocked_description": "Equip 5 social action items in the Customization menu",
+    "locked_display_name": "Express Yourself - Bronze",
+    "locked_description": "Equip 5 social action items in the Customization menu",
+    "hidden_description": "Equip 5 social action items in the Customization menu",
+    "flavor_text": "",
+    "completion_description": "Equip 5 social action items in the Customization menu",
+    "unlocked_icon_url": "achievements_images/6.jpg",
+    "locked_icon_url": "achievements_images/6_locked.jpg",
+    "is_hidden": false,
+    "stats_thresholds": {
+      "EquipSocialCosmeticItem": {
+        "name": "EquipSocialCosmeticItem",
+        "threshold": 5
+      }
+    }
+  },
+  "7": {
+    "achievement_id": "7",
+    "unlocked_display_name": "These Are a Few of My Favorite Things - Silver",
+    "unlocked_description": "Favorite 10 games",
+    "locked_display_name": "These Are a Few of My Favorite Things - Silver",
+    "locked_description": "Favorite 10 games",
+    "hidden_description": "Favorite 10 games",
+    "flavor_text": "",
+    "completion_description": "Favorite 10 games",
+    "unlocked_icon_url": "achievements_images/7.jpg",
+    "locked_icon_url": "achievements_images/7_locked.jpg",
+    "is_hidden": false,
+    "stats_thresholds": {
+      "FavouritedGame": {
+        "name": "FavouritedGame",
+        "threshold": 10
+      }
+    }
+  },
+  "9": {
+    "achievement_id": "9",
+    "unlocked_display_name": "These Are a Few of My Favorite Things - Bronze",
+    "unlocked_description": "Favorite 5 games",
+    "locked_display_name": "These Are a Few of My Favorite Things - Bronze",
+    "locked_description": "Favorite 5 games",
+    "hidden_description": "Favorite 5 games",
+    "flavor_text": "",
+    "completion_description": "Favorite 5 games",
+    "unlocked_icon_url": "achievements_images/9.jpg",
+    "locked_icon_url": "achievements_images/9_locked.jpg",
+    "is_hidden": false,
+    "stats_thresholds": {
+      "FavouritedGame": {
+        "name": "FavouritedGame",
+        "threshold": 5
+      }
+    }
+  }
+}
