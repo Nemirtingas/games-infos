@@ -25,6 +25,12 @@ namespace epic_retriever
 
         [Option('w', "fromweb", Required = false, HelpText = "Try to deduce the catalog id from the app web page. (Slow and not reliable but can help to find more games)")]
         public string FromWeb { get; set; } = string.Empty;
+        
+        [Option('N', "namespace", Required = false, HelpText = "App namespace. (need -N AND -C)")]
+        public string AppNamespace { get; set; } = string.Empty;
+        
+        [Option('C', "catalog_item", Required = false, HelpText = "App catalog item id. (need -N AND -C)")]
+        public string AppCatalogItemId { get; set; } = string.Empty;
     }
 
     class AppListEntry
@@ -46,6 +52,9 @@ namespace epic_retriever
         static bool Force { get; set; }
         static string SessionID { get; set; }
         static bool FromWeb { get; set; }
+        static string AppNamespace { get; set; }
+        static string AppCatalogItemId { get; set; }
+        static bool HasTargetApp => !string.IsNullOrWhiteSpace(AppNamespace) && !string.IsNullOrWhiteSpace(AppCatalogItemId);
 
         static EGS.WebApi EGSApi;
 
@@ -256,17 +265,24 @@ namespace epic_retriever
             List<AppListEntry> app_list = new List<AppListEntry>();
 
             WebClient wcli = new WebClient();
-
             string applist_path = Path.Combine(OutputDir, "cache", "applist.json");
-            try
+
+            if (HasTargetApp)
             {
-                using (StreamReader reader = new StreamReader(new FileStream(applist_path, FileMode.Open), Encoding.UTF8))
-                {
-                    app_list = JArray.Parse(reader.ReadToEnd()).ToObject<List<AppListEntry>>();
-                }
+                app_list.Add(new AppListEntry{ Namespace = AppNamespace, CatalogItemId = AppCatalogItemId });
             }
-            catch (Exception)
-            { }
+            else
+            {
+                try
+                {
+                    using (StreamReader reader = new StreamReader(new FileStream(applist_path, FileMode.Open), Encoding.UTF8))
+                    {
+                        app_list = JArray.Parse(reader.ReadToEnd()).ToObject<List<AppListEntry>>();
+                    }
+                }
+                catch (Exception)
+                { }
+            }
 
             Console.WriteLine("Downloading assets...");
             List<EGS.AppAsset> assets = GetAssets();
@@ -275,7 +291,10 @@ namespace epic_retriever
                 var entry = app_list.Find(x => x.Namespace == asset.Namespace && x.CatalogItemId == asset.CatalogItemId);
                 if (entry == null)
                 {
-                    app_list.Add(new AppListEntry { Namespace = asset.Namespace, CatalogItemId = asset.CatalogItemId, Asset = asset });
+                    if (!HasTargetApp)
+                    {
+                        app_list.Add(new AppListEntry { Namespace = asset.Namespace, CatalogItemId = asset.CatalogItemId, Asset = asset });
+                    }
                 }
                 else
                 {
@@ -283,7 +302,7 @@ namespace epic_retriever
                 }
             }
 
-            if (FromWeb)
+            if (!HasTargetApp && FromWeb)
             {
                 try
                 {
@@ -318,15 +337,18 @@ namespace epic_retriever
                 { }
             }
 
-            try
+            if (!HasTargetApp)
             {
-                using (StreamWriter writer = new StreamWriter(new FileStream(applist_path, FileMode.Create), Encoding.UTF8))
+                try
                 {
-                    writer.Write(JArray.FromObject(app_list).ToString());
+                    using (StreamWriter writer = new StreamWriter(new FileStream(applist_path, FileMode.Create), Encoding.UTF8))
+                    {
+                        writer.Write(JArray.FromObject(app_list).ToString());
+                    }
                 }
+                catch (Exception)
+                { }
             }
-            catch (Exception)
-            { }
 
             return app_list;
         }
@@ -338,6 +360,8 @@ namespace epic_retriever
                 DownloadImages = options.DownloadImages;
                 Force = options.Force;
                 SessionID = options.SessionID;
+                AppNamespace = options.AppNamespace;
+                AppCatalogItemId = options.AppCatalogItemId;
             }).WithNotParsed(e => {
                 Environment.Exit(0);
             });
