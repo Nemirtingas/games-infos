@@ -1,5 +1,5 @@
-{
-  "achievement_expedition_overcome_mech": {
+[
+  {
     "achievement_id": "achievement_expedition_overcome_mech",
     "unlocked_display_name": "Knightmare Frames",
     "unlocked_description": "Complete an expedition involving a Kosh Mech without retreating",
@@ -8,11 +8,11 @@
     "hidden_description": "Complete an expedition involving a Kosh Mech without retreating",
     "flavor_text": "",
     "completion_description": "Complete an expedition involving a Kosh Mech without retreating",
-    "unlocked_icon_url": "achievements_images/achievement_expedition_overcome_mech.jpg",
-    "locked_icon_url": "achievements_images/achievement_expedition_overcome_mech_locked.jpg",
+    "unlocked_icon_url": "achievement_expedition_overcome_mech",
+    "locked_icon_url": "achievement_expedition_overcome_mech_locked",
     "is_hidden": false
   },
-  "achievement_expedition_overcome_sandworm": {
+  {
     "achievement_id": "achievement_expedition_overcome_sandworm",
     "unlocked_display_name": "May His passing cleanse the world",
     "unlocked_description": "Complete an expedition involving a Sandworm without retreating",
@@ -21,11 +21,11 @@
     "hidden_description": "Complete an expedition involving a Sandworm without retreating",
     "flavor_text": "",
     "completion_description": "Complete an expedition involving a Sandworm without retreating",
-    "unlocked_icon_url": "achievements_images/achievement_expedition_overcome_sandworm.jpg",
-    "locked_icon_url": "achievements_images/achievement_expedition_overcome_sandworm_locked.jpg",
+    "unlocked_icon_url": "achievement_expedition_overcome_sandworm",
+    "locked_icon_url": "achievement_expedition_overcome_sandworm_locked",
     "is_hidden": false
   },
-  "achievement_first_death": {
+  {
     "achievement_id": "achievement_first_death",
     "unlocked_display_name": "In space, no one can hear you scream",
     "unlocked_description": "First death",
@@ -34,11 +34,11 @@
     "hidden_description": "First death",
     "flavor_text": "",
     "completion_description": "First death",
-    "unlocked_icon_url": "achievements_images/achievement_first_death.jpg",
-    "locked_icon_url": "achievements_images/achievement_first_death_locked.jpg",
+    "unlocked_icon_url": "achievement_first_death",
+    "locked_icon_url": "achievement_first_death_locked",
     "is_hidden": false
   },
-  "achievement_story_complete_chapter_1": {
+  {
     "achievement_id": "achievement_story_complete_chapter_1",
     "unlocked_display_name": "Chapter I: Echoes",
     "unlocked_description": "Complete chapter 1",
@@ -47,11 +47,11 @@
     "hidden_description": "Complete chapter 1",
     "flavor_text": "",
     "completion_description": "Complete chapter 1",
-    "unlocked_icon_url": "achievements_images/achievement_story_complete_chapter_1.jpg",
-    "locked_icon_url": "achievements_images/achievement_story_complete_chapter_1_locked.jpg",
+    "unlocked_icon_url": "achievement_story_complete_chapter_1",
+    "locked_icon_url": "achievement_story_complete_chapter_1_locked",
     "is_hidden": true
   },
-  "achievement_story_complete_chapter_2": {
+  {
     "achievement_id": "achievement_story_complete_chapter_2",
     "unlocked_display_name": "Chapter II: Fallible Flesh",
     "unlocked_description": "Complete chapter 2",
@@ -60,11 +60,11 @@
     "hidden_description": "Complete chapter 2",
     "flavor_text": "",
     "completion_description": "Complete chapter 2",
-    "unlocked_icon_url": "achievements_images/achievement_story_complete_chapter_2.jpg",
-    "locked_icon_url": "achievements_images/achievement_story_complete_chapter_2_locked.jpg",
+    "unlocked_icon_url": "achievement_story_complete_chapter_2",
+    "locked_icon_url": "achievement_story_complete_chapter_2_locked",
     "is_hidden": true
   },
-  "achievement_story_complete_chapter_3": {
+  {
     "achievement_id": "achievement_story_complete_chapter_3",
     "unlocked_display_name": "Chapter III: The Man Who Sold the World",
     "unlocked_description": "Complete chapter 3",
@@ -73,11 +73,11 @@
     "hidden_description": "Complete chapter 3",
     "flavor_text": "",
     "completion_description": "Complete chapter 3",
-    "unlocked_icon_url": "achievements_images/achievement_story_complete_chapter_3.jpg",
-    "locked_icon_url": "achievements_images/achievement_story_complete_chapter_3_locked.jpg",
+    "unlocked_icon_url": "achievement_story_complete_chapter_3",
+    "locked_icon_url": "achievement_story_complete_chapter_3_locked",
     "is_hidden": true
   },
-  "achievement_story_complete_chapter_4": {
+  {
     "achievement_id": "achievement_story_complete_chapter_4",
     "unlocked_display_name": "Chapter IV: Through the Looking Glass",
     "unlocked_description": "Complete chapter 4",
@@ -86,11 +86,11 @@
     "hidden_description": "Complete chapter 4",
     "flavor_text": "",
     "completion_description": "Complete chapter 4",
-    "unlocked_icon_url": "achievements_images/achievement_story_complete_chapter_4.jpg",
-    "locked_icon_url": "achievements_images/achievement_story_complete_chapter_4_locked.jpg",
+    "unlocked_icon_url": "achievement_story_complete_chapter_4",
+    "locked_icon_url": "achievement_story_complete_chapter_4_locked",
     "is_hidden": true
   },
-  "achievement_story_complete_chapter_5": {
+  {
     "achievement_id": "achievement_story_complete_chapter_5",
     "unlocked_display_name": "Chapter V: Memories of None",
     "unlocked_description": "Complete chapter 5",
@@ -99,11 +99,11 @@
     "hidden_description": "Complete chapter 5",
     "flavor_text": "",
     "completion_description": "Complete chapter 5",
-    "unlocked_icon_url": "achievements_images/achievement_story_complete_chapter_5.jpg",
-    "locked_icon_url": "achievements_images/achievement_story_complete_chapter_5_locked.jpg",
+    "unlocked_icon_url": "achievement_story_complete_chapter_5",
+    "locked_icon_url": "achievement_story_complete_chapter_5_locked",
     "is_hidden": true
   },
-  "achievement_story_ending_earth": {
+  {
     "achievement_id": "achievement_story_ending_earth",
     "unlocked_display_name": "A Rock in the Dark",
     "unlocked_description": "Choose to Search for Earth",
@@ -112,11 +112,11 @@
     "hidden_description": "Choose to Search for Earth",
     "flavor_text": "",
     "completion_description": "Choose to Search for Earth",
-    "unlocked_icon_url": "achievements_images/achievement_story_ending_earth.jpg",
-    "locked_icon_url": "achievements_images/achievement_story_ending_earth_locked.jpg",
+    "unlocked_icon_url": "achievement_story_ending_earth",
+    "locked_icon_url": "achievement_story_ending_earth_locked",
     "is_hidden": true
   },
-  "achievement_story_ending_emperor": {
+  {
     "achievement_id": "achievement_story_ending_emperor",
     "unlocked_display_name": "Emperor of Misery",
     "unlocked_description": "Choose to Rule harshly for ten centuries",
@@ -125,11 +125,11 @@
     "hidden_description": "Choose to Rule harshly for ten centuries",
     "flavor_text": "",
     "completion_description": "Choose to Rule harshly for ten centuries",
-    "unlocked_icon_url": "achievements_images/achievement_story_ending_emperor.jpg",
-    "locked_icon_url": "achievements_images/achievement_story_ending_emperor_locked.jpg",
+    "unlocked_icon_url": "achievement_story_ending_emperor",
+    "locked_icon_url": "achievement_story_ending_emperor_locked",
     "is_hidden": true
   },
-  "achievement_story_ending_rebecca": {
+  {
     "achievement_id": "achievement_story_ending_rebecca",
     "unlocked_display_name": "A Frozen Lady",
     "unlocked_description": "Choose to Spend final days with Rebecca",
@@ -138,11 +138,11 @@
     "hidden_description": "Choose to Spend final days with Rebecca",
     "flavor_text": "",
     "completion_description": "Choose to Spend final days with Rebecca",
-    "unlocked_icon_url": "achievements_images/achievement_story_ending_rebecca.jpg",
-    "locked_icon_url": "achievements_images/achievement_story_ending_rebecca_locked.jpg",
+    "unlocked_icon_url": "achievement_story_ending_rebecca",
+    "locked_icon_url": "achievement_story_ending_rebecca_locked",
     "is_hidden": true
   },
-  "achievement_story_event_bowie_ended": {
+  {
     "achievement_id": "achievement_story_event_bowie_ended",
     "unlocked_display_name": "The Shutdown",
     "unlocked_description": "Learn about the Shutdown with Bowie",
@@ -151,11 +151,11 @@
     "hidden_description": "Learn about the Shutdown with Bowie",
     "flavor_text": "",
     "completion_description": "Learn about the Shutdown with Bowie",
-    "unlocked_icon_url": "achievements_images/achievement_story_event_bowie_ended.jpg",
-    "locked_icon_url": "achievements_images/achievement_story_event_bowie_ended_locked.jpg",
+    "unlocked_icon_url": "achievement_story_event_bowie_ended",
+    "locked_icon_url": "achievement_story_event_bowie_ended_locked",
     "is_hidden": false
   },
-  "achievement_story_landa": {
+  {
     "achievement_id": "achievement_story_landa",
     "unlocked_display_name": "Kill the Doctor",
     "unlocked_description": "Find and Kill Doctor Landa",
@@ -164,11 +164,11 @@
     "hidden_description": "Find and Kill Doctor Landa",
     "flavor_text": "",
     "completion_description": "Find and Kill Doctor Landa",
-    "unlocked_icon_url": "achievements_images/achievement_story_landa.jpg",
-    "locked_icon_url": "achievements_images/achievement_story_landa_locked.jpg",
+    "unlocked_icon_url": "achievement_story_landa",
+    "locked_icon_url": "achievement_story_landa_locked",
     "is_hidden": true
   },
-  "achievement_story_meet_cryo_rebecca": {
+  {
     "achievement_id": "achievement_story_meet_cryo_rebecca",
     "unlocked_display_name": "Forsaken",
     "unlocked_description": "Find Rebecca on Lazarus 9",
@@ -177,11 +177,11 @@
     "hidden_description": "Find Rebecca on Lazarus 9",
     "flavor_text": "",
     "completion_description": "Find Rebecca on Lazarus 9",
-    "unlocked_icon_url": "achievements_images/achievement_story_meet_cryo_rebecca.jpg",
-    "locked_icon_url": "achievements_images/achievement_story_meet_cryo_rebecca_locked.jpg",
+    "unlocked_icon_url": "achievement_story_meet_cryo_rebecca",
+    "locked_icon_url": "achievement_story_meet_cryo_rebecca_locked",
     "is_hidden": true
   },
-  "achievement_story_meet_idaho_b": {
+  {
     "achievement_id": "achievement_story_meet_idaho_b",
     "unlocked_display_name": "Through the mirror",
     "unlocked_description": "Meet Ellys Idaho",
@@ -190,11 +190,11 @@
     "hidden_description": "Meet Ellys Idaho",
     "flavor_text": "",
     "completion_description": "Meet Ellys Idaho",
-    "unlocked_icon_url": "achievements_images/achievement_story_meet_idaho_b.jpg",
-    "locked_icon_url": "achievements_images/achievement_story_meet_idaho_b_locked.jpg",
+    "unlocked_icon_url": "achievement_story_meet_idaho_b",
+    "locked_icon_url": "achievement_story_meet_idaho_b_locked",
     "is_hidden": true
   },
-  "achievement_story_meet_mother": {
+  {
     "achievement_id": "achievement_story_meet_mother",
     "unlocked_display_name": "Mother",
     "unlocked_description": "Meet Mother",
@@ -203,11 +203,11 @@
     "hidden_description": "Meet Mother",
     "flavor_text": "",
     "completion_description": "Meet Mother",
-    "unlocked_icon_url": "achievements_images/achievement_story_meet_mother.jpg",
-    "locked_icon_url": "achievements_images/achievement_story_meet_mother_locked.jpg",
+    "unlocked_icon_url": "achievement_story_meet_mother",
+    "locked_icon_url": "achievement_story_meet_mother_locked",
     "is_hidden": false
   },
-  "achievement_story_meet_oberon": {
+  {
     "achievement_id": "achievement_story_meet_oberon",
     "unlocked_display_name": "Meet your maker",
     "unlocked_description": "Meet Oberon on Elyseum",
@@ -216,11 +216,11 @@
     "hidden_description": "Meet Oberon on Elyseum",
     "flavor_text": "",
     "completion_description": "Meet Oberon on Elyseum",
-    "unlocked_icon_url": "achievements_images/achievement_story_meet_oberon.jpg",
-    "locked_icon_url": "achievements_images/achievement_story_meet_oberon_locked.jpg",
+    "unlocked_icon_url": "achievement_story_meet_oberon",
+    "locked_icon_url": "achievement_story_meet_oberon_locked",
     "is_hidden": true
   },
-  "achievement_story_meet_okonkwo": {
+  {
     "achievement_id": "achievement_story_meet_okonkwo",
     "unlocked_display_name": "Admiral Okonkwo",
     "unlocked_description": "Meet Admiral Okonkwo",
@@ -229,11 +229,11 @@
     "hidden_description": "Meet Admiral Okonkwo",
     "flavor_text": "",
     "completion_description": "Meet Admiral Okonkwo",
-    "unlocked_icon_url": "achievements_images/achievement_story_meet_okonkwo.jpg",
-    "locked_icon_url": "achievements_images/achievement_story_meet_okonkwo_locked.jpg",
+    "unlocked_icon_url": "achievement_story_meet_okonkwo",
+    "locked_icon_url": "achievement_story_meet_okonkwo_locked",
     "is_hidden": true
   },
-  "achievement_story_meet_survivalists": {
+  {
     "achievement_id": "achievement_story_meet_survivalists",
     "unlocked_display_name": "The Survivalists",
     "unlocked_description": "Meet the Survivalists",
@@ -242,11 +242,11 @@
     "hidden_description": "Meet the Survivalists",
     "flavor_text": "",
     "completion_description": "Meet the Survivalists",
-    "unlocked_icon_url": "achievements_images/achievement_story_meet_survivalists.jpg",
-    "locked_icon_url": "achievements_images/achievement_story_meet_survivalists_locked.jpg",
+    "unlocked_icon_url": "achievement_story_meet_survivalists",
+    "locked_icon_url": "achievement_story_meet_survivalists_locked",
     "is_hidden": true
   },
-  "achievement_story_meet_tetsuo": {
+  {
     "achievement_id": "achievement_story_meet_tetsuo",
     "unlocked_display_name": "Tetsuo",
     "unlocked_description": "Meet Tesuo",
@@ -255,11 +255,11 @@
     "hidden_description": "Meet Tesuo",
     "flavor_text": "",
     "completion_description": "Meet Tesuo",
-    "unlocked_icon_url": "achievements_images/achievement_story_meet_tetsuo.jpg",
-    "locked_icon_url": "achievements_images/achievement_story_meet_tetsuo_locked.jpg",
+    "unlocked_icon_url": "achievement_story_meet_tetsuo",
+    "locked_icon_url": "achievement_story_meet_tetsuo_locked",
     "is_hidden": false
   },
-  "achievement_story_meet_vivar": {
+  {
     "achievement_id": "achievement_story_meet_vivar",
     "unlocked_display_name": "General Vivar",
     "unlocked_description": "Meet General Vivar",
@@ -268,11 +268,11 @@
     "hidden_description": "Meet General Vivar",
     "flavor_text": "",
     "completion_description": "Meet General Vivar",
-    "unlocked_icon_url": "achievements_images/achievement_story_meet_vivar.jpg",
-    "locked_icon_url": "achievements_images/achievement_story_meet_vivar_locked.jpg",
+    "unlocked_icon_url": "achievement_story_meet_vivar",
+    "locked_icon_url": "achievement_story_meet_vivar_locked",
     "is_hidden": false
   },
-  "achievement_story_meet_zenon": {
+  {
     "achievement_id": "achievement_story_meet_zenon",
     "unlocked_display_name": "Pope Zenon",
     "unlocked_description": "Meet Pope Zenon",
@@ -281,11 +281,11 @@
     "hidden_description": "Meet Pope Zenon",
     "flavor_text": "",
     "completion_description": "Meet Pope Zenon",
-    "unlocked_icon_url": "achievements_images/achievement_story_meet_zenon.jpg",
-    "locked_icon_url": "achievements_images/achievement_story_meet_zenon_locked.jpg",
+    "unlocked_icon_url": "achievement_story_meet_zenon",
+    "locked_icon_url": "achievement_story_meet_zenon_locked",
     "is_hidden": false
   },
-  "achievement_story_neon_child": {
+  {
     "achievement_id": "achievement_story_neon_child",
     "unlocked_display_name": "Things persisted in not being what they seemed",
     "unlocked_description": "Meet the Neo-N Child",
@@ -294,11 +294,11 @@
     "hidden_description": "Meet the Neo-N Child",
     "flavor_text": "",
     "completion_description": "Meet the Neo-N Child",
-    "unlocked_icon_url": "achievements_images/achievement_story_neon_child.jpg",
-    "locked_icon_url": "achievements_images/achievement_story_neon_child_locked.jpg",
+    "unlocked_icon_url": "achievement_story_neon_child",
+    "locked_icon_url": "achievement_story_neon_child_locked",
     "is_hidden": true
   },
-  "achievement_story_second_awakening": {
+  {
     "achievement_id": "achievement_story_second_awakening",
     "unlocked_display_name": "Second Coming",
     "unlocked_description": "First awakening dialog played",
@@ -307,11 +307,11 @@
     "hidden_description": "First awakening dialog played",
     "flavor_text": "",
     "completion_description": "First awakening dialog played",
-    "unlocked_icon_url": "achievements_images/achievement_story_second_awakening.jpg",
-    "locked_icon_url": "achievements_images/achievement_story_second_awakening_locked.jpg",
+    "unlocked_icon_url": "achievement_story_second_awakening",
+    "locked_icon_url": "achievement_story_second_awakening_locked",
     "is_hidden": false
   },
-  "achievement_story_see_ganyma": {
+  {
     "achievement_id": "achievement_story_see_ganyma",
     "unlocked_display_name": "Back to Ganyma",
     "unlocked_description": "Go back to Ganyma",
@@ -320,11 +320,11 @@
     "hidden_description": "Go back to Ganyma",
     "flavor_text": "",
     "completion_description": "Go back to Ganyma",
-    "unlocked_icon_url": "achievements_images/achievement_story_see_ganyma.jpg",
-    "locked_icon_url": "achievements_images/achievement_story_see_ganyma_locked.jpg",
+    "unlocked_icon_url": "achievement_story_see_ganyma",
+    "locked_icon_url": "achievement_story_see_ganyma_locked",
     "is_hidden": true
   },
-  "achievement_story_spare_oberon": {
+  {
     "achievement_id": "achievement_story_spare_oberon",
     "unlocked_display_name": "Mercy",
     "unlocked_description": "Choose to spare Oberon",
@@ -333,11 +333,11 @@
     "hidden_description": "Choose to spare Oberon",
     "flavor_text": "",
     "completion_description": "Choose to spare Oberon",
-    "unlocked_icon_url": "achievements_images/achievement_story_spare_oberon.jpg",
-    "locked_icon_url": "achievements_images/achievement_story_spare_oberon_locked.jpg",
+    "unlocked_icon_url": "achievement_story_spare_oberon",
+    "locked_icon_url": "achievement_story_spare_oberon_locked",
     "is_hidden": true
   },
-  "achievement_unlock_officer_as_1": {
+  {
     "achievement_id": "achievement_unlock_officer_as_1",
     "unlocked_display_name": "The Impersonator",
     "unlocked_description": "Unlock Takeshi Sung",
@@ -346,11 +346,11 @@
     "hidden_description": "Unlock Takeshi Sung",
     "flavor_text": "",
     "completion_description": "Unlock Takeshi Sung",
-    "unlocked_icon_url": "achievements_images/achievement_unlock_officer_as_1.jpg",
-    "locked_icon_url": "achievements_images/achievement_unlock_officer_as_1_locked.jpg",
+    "unlocked_icon_url": "achievement_unlock_officer_as_1",
+    "locked_icon_url": "achievement_unlock_officer_as_1_locked",
     "is_hidden": false
   },
-  "achievement_unlock_officer_as_2": {
+  {
     "achievement_id": "achievement_unlock_officer_as_2",
     "unlocked_display_name": "The Kid",
     "unlocked_description": "Unlock Hiro Yoon",
@@ -359,11 +359,11 @@
     "hidden_description": "Unlock Hiro Yoon",
     "flavor_text": "",
     "completion_description": "Unlock Hiro Yoon",
-    "unlocked_icon_url": "achievements_images/achievement_unlock_officer_as_2.jpg",
-    "locked_icon_url": "achievements_images/achievement_unlock_officer_as_2_locked.jpg",
+    "unlocked_icon_url": "achievement_unlock_officer_as_2",
+    "locked_icon_url": "achievement_unlock_officer_as_2_locked",
     "is_hidden": false
   },
-  "achievement_unlock_officer_church_1": {
+  {
     "achievement_id": "achievement_unlock_officer_church_1",
     "unlocked_display_name": "The Evangelist",
     "unlocked_description": "Unlock Sister Kalypso",
@@ -372,11 +372,11 @@
     "hidden_description": "Unlock Sister Kalypso",
     "flavor_text": "",
     "completion_description": "Unlock Sister Kalypso",
-    "unlocked_icon_url": "achievements_images/achievement_unlock_officer_church_1.jpg",
-    "locked_icon_url": "achievements_images/achievement_unlock_officer_church_1_locked.jpg",
+    "unlocked_icon_url": "achievement_unlock_officer_church_1",
+    "locked_icon_url": "achievement_unlock_officer_church_1_locked",
     "is_hidden": false
   },
-  "achievement_unlock_officer_church_2": {
+  {
     "achievement_id": "achievement_unlock_officer_church_2",
     "unlocked_display_name": "The Inquisitor",
     "unlocked_description": "Unlock Brother Korto",
@@ -385,11 +385,11 @@
     "hidden_description": "Unlock Brother Korto",
     "flavor_text": "",
     "completion_description": "Unlock Brother Korto",
-    "unlocked_icon_url": "achievements_images/achievement_unlock_officer_church_2.jpg",
-    "locked_icon_url": "achievements_images/achievement_unlock_officer_church_2_locked.jpg",
+    "unlocked_icon_url": "achievement_unlock_officer_church_2",
+    "locked_icon_url": "achievement_unlock_officer_church_2_locked",
     "is_hidden": false
   },
-  "achievement_unlock_officer_empire_1": {
+  {
     "achievement_id": "achievement_unlock_officer_empire_1",
     "unlocked_display_name": "The Tech Specialist",
     "unlocked_description": "Unlock Karl P. Opper",
@@ -398,11 +398,11 @@
     "hidden_description": "Unlock Karl P. Opper",
     "flavor_text": "",
     "completion_description": "Unlock Karl P. Opper",
-    "unlocked_icon_url": "achievements_images/achievement_unlock_officer_empire_1.jpg",
-    "locked_icon_url": "achievements_images/achievement_unlock_officer_empire_1_locked.jpg",
+    "unlocked_icon_url": "achievement_unlock_officer_empire_1",
+    "locked_icon_url": "achievement_unlock_officer_empire_1_locked",
     "is_hidden": false
   },
-  "achievement_unlock_officer_empire_2": {
+  {
     "achievement_id": "achievement_unlock_officer_empire_2",
     "unlocked_display_name": "The Ace Pilot",
     "unlocked_description": "Unlock Kara Moon",
@@ -411,11 +411,11 @@
     "hidden_description": "Unlock Kara Moon",
     "flavor_text": "",
     "completion_description": "Unlock Kara Moon",
-    "unlocked_icon_url": "achievements_images/achievement_unlock_officer_empire_2.jpg",
-    "locked_icon_url": "achievements_images/achievement_unlock_officer_empire_2_locked.jpg",
+    "unlocked_icon_url": "achievement_unlock_officer_empire_2",
+    "locked_icon_url": "achievement_unlock_officer_empire_2_locked",
     "is_hidden": false
   },
-  "achievement_unlock_officer_kb_1": {
+  {
     "achievement_id": "achievement_unlock_officer_kb_1",
     "unlocked_display_name": "The Tech Med",
     "unlocked_description": "Unlock Saul Bayardo",
@@ -424,11 +424,11 @@
     "hidden_description": "Unlock Saul Bayardo",
     "flavor_text": "",
     "completion_description": "Unlock Saul Bayardo",
-    "unlocked_icon_url": "achievements_images/achievement_unlock_officer_kb_1.jpg",
-    "locked_icon_url": "achievements_images/achievement_unlock_officer_kb_1_locked.jpg",
+    "unlocked_icon_url": "achievement_unlock_officer_kb_1",
+    "locked_icon_url": "achievement_unlock_officer_kb_1_locked",
     "is_hidden": false
   },
-  "achievement_unlock_officer_kb_2": {
+  {
     "achievement_id": "achievement_unlock_officer_kb_2",
     "unlocked_display_name": "The Mech Soldier",
     "unlocked_description": "Unlock Joe D. Redd",
@@ -437,11 +437,11 @@
     "hidden_description": "Unlock Joe D. Redd",
     "flavor_text": "",
     "completion_description": "Unlock Joe D. Redd",
-    "unlocked_icon_url": "achievements_images/achievement_unlock_officer_kb_2.jpg",
-    "locked_icon_url": "achievements_images/achievement_unlock_officer_kb_2_locked.jpg",
+    "unlocked_icon_url": "achievement_unlock_officer_kb_2",
+    "locked_icon_url": "achievement_unlock_officer_kb_2_locked",
     "is_hidden": false
   },
-  "achievement_unlock_officer_kickstarter_1": {
+  {
     "achievement_id": "achievement_unlock_officer_kickstarter_1",
     "unlocked_display_name": "The lucky charm",
     "unlocked_description": "Unlock Maximus Akai",
@@ -450,11 +450,11 @@
     "hidden_description": "Unlock Maximus Akai",
     "flavor_text": "",
     "completion_description": "Unlock Maximus Akai",
-    "unlocked_icon_url": "achievements_images/achievement_unlock_officer_kickstarter_1.jpg",
-    "locked_icon_url": "achievements_images/achievement_unlock_officer_kickstarter_1_locked.jpg",
+    "unlocked_icon_url": "achievement_unlock_officer_kickstarter_1",
+    "locked_icon_url": "achievement_unlock_officer_kickstarter_1_locked",
     "is_hidden": false
   },
-  "achievement_unlock_officer_pirate_1": {
+  {
     "achievement_id": "achievement_unlock_officer_pirate_1",
     "unlocked_display_name": "The Anonymous",
     "unlocked_description": "Unlock Anton N. Onymus",
@@ -463,11 +463,11 @@
     "hidden_description": "Unlock Anton N. Onymus",
     "flavor_text": "",
     "completion_description": "Unlock Anton N. Onymus",
-    "unlocked_icon_url": "achievements_images/achievement_unlock_officer_pirate_1.jpg",
-    "locked_icon_url": "achievements_images/achievement_unlock_officer_pirate_1_locked.jpg",
+    "unlocked_icon_url": "achievement_unlock_officer_pirate_1",
+    "locked_icon_url": "achievement_unlock_officer_pirate_1_locked",
     "is_hidden": false
   },
-  "achievement_unlock_officer_pirate_2": {
+  {
     "achievement_id": "achievement_unlock_officer_pirate_2",
     "unlocked_display_name": "The Smuggler",
     "unlocked_description": "Unlock Mina Silk",
@@ -476,11 +476,11 @@
     "hidden_description": "Unlock Mina Silk",
     "flavor_text": "",
     "completion_description": "Unlock Mina Silk",
-    "unlocked_icon_url": "achievements_images/achievement_unlock_officer_pirate_2.jpg",
-    "locked_icon_url": "achievements_images/achievement_unlock_officer_pirate_2_locked.jpg",
+    "unlocked_icon_url": "achievement_unlock_officer_pirate_2",
+    "locked_icon_url": "achievement_unlock_officer_pirate_2_locked",
     "is_hidden": false
   },
-  "achievement_unlock_officer_scrapper_1": {
+  {
     "achievement_id": "achievement_unlock_officer_scrapper_1",
     "unlocked_display_name": "The Crazy Repairman",
     "unlocked_description": "Unlock Makk",
@@ -489,11 +489,11 @@
     "hidden_description": "Unlock Makk",
     "flavor_text": "",
     "completion_description": "Unlock Makk",
-    "unlocked_icon_url": "achievements_images/achievement_unlock_officer_scrapper_1.jpg",
-    "locked_icon_url": "achievements_images/achievement_unlock_officer_scrapper_1_locked.jpg",
+    "unlocked_icon_url": "achievement_unlock_officer_scrapper_1",
+    "locked_icon_url": "achievement_unlock_officer_scrapper_1_locked",
     "is_hidden": false
   },
-  "achievement_unlock_officer_scrapper_2": {
+  {
     "achievement_id": "achievement_unlock_officer_scrapper_2",
     "unlocked_display_name": "The Weasel",
     "unlocked_description": "Unlock Weezz",
@@ -502,11 +502,11 @@
     "hidden_description": "Unlock Weezz",
     "flavor_text": "",
     "completion_description": "Unlock Weezz",
-    "unlocked_icon_url": "achievements_images/achievement_unlock_officer_scrapper_2.jpg",
-    "locked_icon_url": "achievements_images/achievement_unlock_officer_scrapper_2_locked.jpg",
+    "unlocked_icon_url": "achievement_unlock_officer_scrapper_2",
+    "locked_icon_url": "achievement_unlock_officer_scrapper_2_locked",
     "is_hidden": false
   },
-  "achievement_win_all_chapers_with_all_bs_easy_normal": {
+  {
     "achievement_id": "achievement_win_all_chapers_with_all_bs_easy_normal",
     "unlocked_display_name": "Liberator",
     "unlocked_description": "Complete all chapters in easy or normal difficulty with all Battleships",
@@ -515,11 +515,11 @@
     "hidden_description": "Complete all chapters in easy or normal difficulty with all Battleships",
     "flavor_text": "",
     "completion_description": "Complete all chapters in easy or normal difficulty with all Battleships",
-    "unlocked_icon_url": "achievements_images/achievement_win_all_chapers_with_all_bs_easy_normal.jpg",
-    "locked_icon_url": "achievements_images/achievement_win_all_chapers_with_all_bs_easy_normal_locked.jpg",
+    "unlocked_icon_url": "achievement_win_all_chapers_with_all_bs_easy_normal",
+    "locked_icon_url": "achievement_win_all_chapers_with_all_bs_easy_normal_locked",
     "is_hidden": false
   },
-  "achievement_win_all_chapers_with_all_bs_hard": {
+  {
     "achievement_id": "achievement_win_all_chapers_with_all_bs_hard",
     "unlocked_display_name": "The Art of War",
     "unlocked_description": "Complete all chapters in hard difficulty with all Battleships",
@@ -528,11 +528,11 @@
     "hidden_description": "Complete all chapters in hard difficulty with all Battleships",
     "flavor_text": "",
     "completion_description": "Complete all chapters in hard difficulty with all Battleships",
-    "unlocked_icon_url": "achievements_images/achievement_win_all_chapers_with_all_bs_hard.jpg",
-    "locked_icon_url": "achievements_images/achievement_win_all_chapers_with_all_bs_hard_locked.jpg",
+    "unlocked_icon_url": "achievement_win_all_chapers_with_all_bs_hard",
+    "locked_icon_url": "achievement_win_all_chapers_with_all_bs_hard_locked",
     "is_hidden": false
   },
-  "achievement_win_all_chapers_with_as_easy_normal": {
+  {
     "achievement_id": "achievement_win_all_chapers_with_as_easy_normal",
     "unlocked_display_name": "Geno Mastery",
     "unlocked_description": "Complete all chapters in easy or normal difficulty with Geno Class Battleship",
@@ -541,11 +541,11 @@
     "hidden_description": "Complete all chapters in easy or normal difficulty with Geno Class Battleship",
     "flavor_text": "",
     "completion_description": "Complete all chapters in easy or normal difficulty with Geno Class Battleship",
-    "unlocked_icon_url": "achievements_images/achievement_win_all_chapers_with_as_easy_normal.jpg",
-    "locked_icon_url": "achievements_images/achievement_win_all_chapers_with_as_easy_normal_locked.jpg",
+    "unlocked_icon_url": "achievement_win_all_chapers_with_as_easy_normal",
+    "locked_icon_url": "achievement_win_all_chapers_with_as_easy_normal_locked",
     "is_hidden": false
   },
-  "achievement_win_all_chapers_with_as_hard": {
+  {
     "achievement_id": "achievement_win_all_chapers_with_as_hard",
     "unlocked_display_name": "Geno Supremacy",
     "unlocked_description": "Complete all chapters in hard difficulty with Geno Class Battleship",
@@ -554,11 +554,11 @@
     "hidden_description": "Complete all chapters in hard difficulty with Geno Class Battleship",
     "flavor_text": "",
     "completion_description": "Complete all chapters in hard difficulty with Geno Class Battleship",
-    "unlocked_icon_url": "achievements_images/achievement_win_all_chapers_with_as_hard.jpg",
-    "locked_icon_url": "achievements_images/achievement_win_all_chapers_with_as_hard_locked.jpg",
+    "unlocked_icon_url": "achievement_win_all_chapers_with_as_hard",
+    "locked_icon_url": "achievement_win_all_chapers_with_as_hard_locked",
     "is_hidden": false
   },
-  "achievement_win_all_chapers_with_church_easy_normal": {
+  {
     "achievement_id": "achievement_win_all_chapers_with_church_easy_normal",
     "unlocked_display_name": "Jericho Mastery",
     "unlocked_description": "Complete all chapters in easy or normal difficulty with Jericho Class Battleship",
@@ -567,11 +567,11 @@
     "hidden_description": "Complete all chapters in easy or normal difficulty with Jericho Class Battleship",
     "flavor_text": "",
     "completion_description": "Complete all chapters in easy or normal difficulty with Jericho Class Battleship",
-    "unlocked_icon_url": "achievements_images/achievement_win_all_chapers_with_church_easy_normal.jpg",
-    "locked_icon_url": "achievements_images/achievement_win_all_chapers_with_church_easy_normal_locked.jpg",
+    "unlocked_icon_url": "achievement_win_all_chapers_with_church_easy_normal",
+    "locked_icon_url": "achievement_win_all_chapers_with_church_easy_normal_locked",
     "is_hidden": false
   },
-  "achievement_win_all_chapers_with_church_hard": {
+  {
     "achievement_id": "achievement_win_all_chapers_with_church_hard",
     "unlocked_display_name": "Jericho Supremacy",
     "unlocked_description": "Complete all chapters in hard difficulty with Jericho Class Battleship",
@@ -580,11 +580,11 @@
     "hidden_description": "Complete all chapters in hard difficulty with Jericho Class Battleship",
     "flavor_text": "",
     "completion_description": "Complete all chapters in hard difficulty with Jericho Class Battleship",
-    "unlocked_icon_url": "achievements_images/achievement_win_all_chapers_with_church_hard.jpg",
-    "locked_icon_url": "achievements_images/achievement_win_all_chapers_with_church_hard_locked.jpg",
+    "unlocked_icon_url": "achievement_win_all_chapers_with_church_hard",
+    "locked_icon_url": "achievement_win_all_chapers_with_church_hard_locked",
     "is_hidden": false
   },
-  "achievement_win_all_chapers_with_kb_easy_normal": {
+  {
     "achievement_id": "achievement_win_all_chapers_with_kb_easy_normal",
     "unlocked_display_name": "Hammer Mastery",
     "unlocked_description": "Complete all chapters in easy or normal difficulty with Hammer Class Battleship",
@@ -593,11 +593,11 @@
     "hidden_description": "Complete all chapters in easy or normal difficulty with Hammer Class Battleship",
     "flavor_text": "",
     "completion_description": "Complete all chapters in easy or normal difficulty with Hammer Class Battleship",
-    "unlocked_icon_url": "achievements_images/achievement_win_all_chapers_with_kb_easy_normal.jpg",
-    "locked_icon_url": "achievements_images/achievement_win_all_chapers_with_kb_easy_normal_locked.jpg",
+    "unlocked_icon_url": "achievement_win_all_chapers_with_kb_easy_normal",
+    "locked_icon_url": "achievement_win_all_chapers_with_kb_easy_normal_locked",
     "is_hidden": false
   },
-  "achievement_win_all_chapers_with_kb_hard": {
+  {
     "achievement_id": "achievement_win_all_chapers_with_kb_hard",
     "unlocked_display_name": "Hammer Supremacy",
     "unlocked_description": "Complete all chapters in hard difficulty with Hammer Class Battleship",
@@ -606,11 +606,11 @@
     "hidden_description": "Complete all chapters in hard difficulty with Hammer Class Battleship",
     "flavor_text": "",
     "completion_description": "Complete all chapters in hard difficulty with Hammer Class Battleship",
-    "unlocked_icon_url": "achievements_images/achievement_win_all_chapers_with_kb_hard.jpg",
-    "locked_icon_url": "achievements_images/achievement_win_all_chapers_with_kb_hard_locked.jpg",
+    "unlocked_icon_url": "achievement_win_all_chapers_with_kb_hard",
+    "locked_icon_url": "achievement_win_all_chapers_with_kb_hard_locked",
     "is_hidden": false
   },
-  "achievement_win_all_chapers_with_pirate_easy_normal": {
+  {
     "achievement_id": "achievement_win_all_chapers_with_pirate_easy_normal",
     "unlocked_display_name": "Void Mastery",
     "unlocked_description": "Complete all chapters in easy or normal difficulty with Void Class Battleship",
@@ -619,11 +619,11 @@
     "hidden_description": "Complete all chapters in easy or normal difficulty with Void Class Battleship",
     "flavor_text": "",
     "completion_description": "Complete all chapters in easy or normal difficulty with Void Class Battleship",
-    "unlocked_icon_url": "achievements_images/achievement_win_all_chapers_with_pirate_easy_normal.jpg",
-    "locked_icon_url": "achievements_images/achievement_win_all_chapers_with_pirate_easy_normal_locked.jpg",
+    "unlocked_icon_url": "achievement_win_all_chapers_with_pirate_easy_normal",
+    "locked_icon_url": "achievement_win_all_chapers_with_pirate_easy_normal_locked",
     "is_hidden": false
   },
-  "achievement_win_all_chapers_with_pirate_hard": {
+  {
     "achievement_id": "achievement_win_all_chapers_with_pirate_hard",
     "unlocked_display_name": "Void Supremacy",
     "unlocked_description": "Complete all chapters in hard difficulty with Void Class Battleship",
@@ -632,11 +632,11 @@
     "hidden_description": "Complete all chapters in hard difficulty with Void Class Battleship",
     "flavor_text": "",
     "completion_description": "Complete all chapters in hard difficulty with Void Class Battleship",
-    "unlocked_icon_url": "achievements_images/achievement_win_all_chapers_with_pirate_hard.jpg",
-    "locked_icon_url": "achievements_images/achievement_win_all_chapers_with_pirate_hard_locked.jpg",
+    "unlocked_icon_url": "achievement_win_all_chapers_with_pirate_hard",
+    "locked_icon_url": "achievement_win_all_chapers_with_pirate_hard_locked",
     "is_hidden": false
   },
-  "achievement_win_all_chapers_with_scrapper_easy_normal": {
+  {
     "achievement_id": "achievement_win_all_chapers_with_scrapper_easy_normal",
     "unlocked_display_name": "Kaos Mastery",
     "unlocked_description": "Complete all chapters in easy or normal difficulty with Kaos Class Battleship",
@@ -645,11 +645,11 @@
     "hidden_description": "Complete all chapters in easy or normal difficulty with Kaos Class Battleship",
     "flavor_text": "",
     "completion_description": "Complete all chapters in easy or normal difficulty with Kaos Class Battleship",
-    "unlocked_icon_url": "achievements_images/achievement_win_all_chapers_with_scrapper_easy_normal.jpg",
-    "locked_icon_url": "achievements_images/achievement_win_all_chapers_with_scrapper_easy_normal_locked.jpg",
+    "unlocked_icon_url": "achievement_win_all_chapers_with_scrapper_easy_normal",
+    "locked_icon_url": "achievement_win_all_chapers_with_scrapper_easy_normal_locked",
     "is_hidden": false
   },
-  "achievement_win_all_chapers_with_scrapper_hard": {
+  {
     "achievement_id": "achievement_win_all_chapers_with_scrapper_hard",
     "unlocked_display_name": "Kaos Supremacy",
     "unlocked_description": "Complete all chapters in hard difficulty with Kaos Class Battleship",
@@ -658,11 +658,11 @@
     "hidden_description": "Complete all chapters in hard difficulty with Kaos Class Battleship",
     "flavor_text": "",
     "completion_description": "Complete all chapters in hard difficulty with Kaos Class Battleship",
-    "unlocked_icon_url": "achievements_images/achievement_win_all_chapers_with_scrapper_hard.jpg",
-    "locked_icon_url": "achievements_images/achievement_win_all_chapers_with_scrapper_hard_locked.jpg",
+    "unlocked_icon_url": "achievement_win_all_chapers_with_scrapper_hard",
+    "locked_icon_url": "achievement_win_all_chapers_with_scrapper_hard_locked",
     "is_hidden": false
   },
-  "achievement_win_all_chapers_with_starter_easy_normal": {
+  {
     "achievement_id": "achievement_win_all_chapers_with_starter_easy_normal",
     "unlocked_display_name": "Excelsior Mastery",
     "unlocked_description": "Complete all chapters in easy or normal difficulty with Excelsior Class Battleship",
@@ -671,11 +671,11 @@
     "hidden_description": "Complete all chapters in easy or normal difficulty with Excelsior Class Battleship",
     "flavor_text": "",
     "completion_description": "Complete all chapters in easy or normal difficulty with Excelsior Class Battleship",
-    "unlocked_icon_url": "achievements_images/achievement_win_all_chapers_with_starter_easy_normal.jpg",
-    "locked_icon_url": "achievements_images/achievement_win_all_chapers_with_starter_easy_normal_locked.jpg",
+    "unlocked_icon_url": "achievement_win_all_chapers_with_starter_easy_normal",
+    "locked_icon_url": "achievement_win_all_chapers_with_starter_easy_normal_locked",
     "is_hidden": false
   },
-  "achievement_win_all_chapers_with_starter_hard": {
+  {
     "achievement_id": "achievement_win_all_chapers_with_starter_hard",
     "unlocked_display_name": "Excelsior Supremacy",
     "unlocked_description": "Complete all chapters in hard difficulty with Excelsior Class Battleship",
@@ -684,11 +684,11 @@
     "hidden_description": "Complete all chapters in hard difficulty with Excelsior Class Battleship",
     "flavor_text": "",
     "completion_description": "Complete all chapters in hard difficulty with Excelsior Class Battleship",
-    "unlocked_icon_url": "achievements_images/achievement_win_all_chapers_with_starter_hard.jpg",
-    "locked_icon_url": "achievements_images/achievement_win_all_chapers_with_starter_hard_locked.jpg",
+    "unlocked_icon_url": "achievement_win_all_chapers_with_starter_hard",
+    "locked_icon_url": "achievement_win_all_chapers_with_starter_hard_locked",
     "is_hidden": false
   },
-  "achievement_win_boss_sector_1": {
+  {
     "achievement_id": "achievement_win_boss_sector_1",
     "unlocked_display_name": "Jeef Skeejj",
     "unlocked_description": "Beat sector 1 Boss",
@@ -697,11 +697,11 @@
     "hidden_description": "Beat sector 1 Boss",
     "flavor_text": "",
     "completion_description": "Beat sector 1 Boss",
-    "unlocked_icon_url": "achievements_images/achievement_win_boss_sector_1.jpg",
-    "locked_icon_url": "achievements_images/achievement_win_boss_sector_1_locked.jpg",
+    "unlocked_icon_url": "achievement_win_boss_sector_1",
+    "locked_icon_url": "achievement_win_boss_sector_1_locked",
     "is_hidden": false
   },
-  "achievement_win_boss_sector_2": {
+  {
     "achievement_id": "achievement_win_boss_sector_2",
     "unlocked_display_name": "Jeef Skagg",
     "unlocked_description": "Beat sector 2 Boss",
@@ -710,11 +710,11 @@
     "hidden_description": "Beat sector 2 Boss",
     "flavor_text": "",
     "completion_description": "Beat sector 2 Boss",
-    "unlocked_icon_url": "achievements_images/achievement_win_boss_sector_2.jpg",
-    "locked_icon_url": "achievements_images/achievement_win_boss_sector_2_locked.jpg",
+    "unlocked_icon_url": "achievement_win_boss_sector_2",
+    "locked_icon_url": "achievement_win_boss_sector_2_locked",
     "is_hidden": false
   },
-  "achievement_win_expedition_all_commandos_dead": {
+  {
     "achievement_id": "achievement_win_expedition_all_commandos_dead",
     "unlocked_display_name": "Survivor",
     "unlocked_description": "Win an expedition while losing all commandos",
@@ -723,11 +723,11 @@
     "hidden_description": "Win an expedition while losing all commandos",
     "flavor_text": "",
     "completion_description": "Win an expedition while losing all commandos",
-    "unlocked_icon_url": "achievements_images/achievement_win_expedition_all_commandos_dead.jpg",
-    "locked_icon_url": "achievements_images/achievement_win_expedition_all_commandos_dead_locked.jpg",
+    "unlocked_icon_url": "achievement_win_expedition_all_commandos_dead",
+    "locked_icon_url": "achievement_win_expedition_all_commandos_dead_locked",
     "is_hidden": false
   },
-  "achievement_win_expedition_with_monster_noloss": {
+  {
     "achievement_id": "achievement_win_expedition_with_monster_noloss",
     "unlocked_display_name": "Plan for the worst",
     "unlocked_description": "Win an expedition with a predicament without any commando loss",
@@ -736,11 +736,11 @@
     "hidden_description": "Win an expedition with a predicament without any commando loss",
     "flavor_text": "",
     "completion_description": "Win an expedition with a predicament without any commando loss",
-    "unlocked_icon_url": "achievements_images/achievement_win_expedition_with_monster_noloss.jpg",
-    "locked_icon_url": "achievements_images/achievement_win_expedition_with_monster_noloss_locked.jpg",
+    "unlocked_icon_url": "achievement_win_expedition_with_monster_noloss",
+    "locked_icon_url": "achievement_win_expedition_with_monster_noloss_locked",
     "is_hidden": false
   },
-  "achievement_win_expedition_without_monster_noloss": {
+  {
     "achievement_id": "achievement_win_expedition_without_monster_noloss",
     "unlocked_display_name": "Careful planning",
     "unlocked_description": "Win an expedition without any commando loss",
@@ -749,11 +749,11 @@
     "hidden_description": "Win an expedition without any commando loss",
     "flavor_text": "",
     "completion_description": "Win an expedition without any commando loss",
-    "unlocked_icon_url": "achievements_images/achievement_win_expedition_without_monster_noloss.jpg",
-    "locked_icon_url": "achievements_images/achievement_win_expedition_without_monster_noloss_locked.jpg",
+    "unlocked_icon_url": "achievement_win_expedition_without_monster_noloss",
+    "locked_icon_url": "achievement_win_expedition_without_monster_noloss_locked",
     "is_hidden": false
   },
-  "achievement_win_run_hard": {
+  {
     "achievement_id": "achievement_win_run_hard",
     "unlocked_display_name": "The greatest admiral of all time",
     "unlocked_description": "Finish a run in hard difficulty",
@@ -762,11 +762,11 @@
     "hidden_description": "Finish a run in hard difficulty",
     "flavor_text": "",
     "completion_description": "Finish a run in hard difficulty",
-    "unlocked_icon_url": "achievements_images/achievement_win_run_hard.jpg",
-    "locked_icon_url": "achievements_images/achievement_win_run_hard_locked.jpg",
+    "unlocked_icon_url": "achievement_win_run_hard",
+    "locked_icon_url": "achievement_win_run_hard_locked",
     "is_hidden": false
   },
-  "achievement_win_run_with_as": {
+  {
     "achievement_id": "achievement_win_run_with_as",
     "unlocked_display_name": "Geno Rule",
     "unlocked_description": "Finish a run with the Geno Class Battleship",
@@ -775,11 +775,11 @@
     "hidden_description": "Finish a run with the Geno Class Battleship",
     "flavor_text": "",
     "completion_description": "Finish a run with the Geno Class Battleship",
-    "unlocked_icon_url": "achievements_images/achievement_win_run_with_as.jpg",
-    "locked_icon_url": "achievements_images/achievement_win_run_with_as_locked.jpg",
+    "unlocked_icon_url": "achievement_win_run_with_as",
+    "locked_icon_url": "achievement_win_run_with_as_locked",
     "is_hidden": false
   },
-  "achievement_win_run_with_church": {
+  {
     "achievement_id": "achievement_win_run_with_church",
     "unlocked_display_name": "Jericho Rule",
     "unlocked_description": "Finish a run with the Jericho Class Battleship",
@@ -788,11 +788,11 @@
     "hidden_description": "Finish a run with the Jericho Class Battleship",
     "flavor_text": "",
     "completion_description": "Finish a run with the Jericho Class Battleship",
-    "unlocked_icon_url": "achievements_images/achievement_win_run_with_church.jpg",
-    "locked_icon_url": "achievements_images/achievement_win_run_with_church_locked.jpg",
+    "unlocked_icon_url": "achievement_win_run_with_church",
+    "locked_icon_url": "achievement_win_run_with_church_locked",
     "is_hidden": false
   },
-  "achievement_win_run_with_kb": {
+  {
     "achievement_id": "achievement_win_run_with_kb",
     "unlocked_display_name": "Hammer Rule",
     "unlocked_description": "Finish a run with the Hammer Class Battleship",
@@ -801,11 +801,11 @@
     "hidden_description": "Finish a run with the Hammer Class Battleship",
     "flavor_text": "",
     "completion_description": "Finish a run with the Hammer Class Battleship",
-    "unlocked_icon_url": "achievements_images/achievement_win_run_with_kb.jpg",
-    "locked_icon_url": "achievements_images/achievement_win_run_with_kb_locked.jpg",
+    "unlocked_icon_url": "achievement_win_run_with_kb",
+    "locked_icon_url": "achievement_win_run_with_kb_locked",
     "is_hidden": false
   },
-  "achievement_win_run_with_pirate": {
+  {
     "achievement_id": "achievement_win_run_with_pirate",
     "unlocked_display_name": "Void Rule",
     "unlocked_description": "Finish a run with the Void Class Battleship",
@@ -814,11 +814,11 @@
     "hidden_description": "Finish a run with the Void Class Battleship",
     "flavor_text": "",
     "completion_description": "Finish a run with the Void Class Battleship",
-    "unlocked_icon_url": "achievements_images/achievement_win_run_with_pirate.jpg",
-    "locked_icon_url": "achievements_images/achievement_win_run_with_pirate_locked.jpg",
+    "unlocked_icon_url": "achievement_win_run_with_pirate",
+    "locked_icon_url": "achievement_win_run_with_pirate_locked",
     "is_hidden": false
   },
-  "achievement_win_run_with_scrapper": {
+  {
     "achievement_id": "achievement_win_run_with_scrapper",
     "unlocked_display_name": "Kaos Rule",
     "unlocked_description": "Finish a run with the Kaos Class Battleship",
@@ -827,11 +827,11 @@
     "hidden_description": "Finish a run with the Kaos Class Battleship",
     "flavor_text": "",
     "completion_description": "Finish a run with the Kaos Class Battleship",
-    "unlocked_icon_url": "achievements_images/achievement_win_run_with_scrapper.jpg",
-    "locked_icon_url": "achievements_images/achievement_win_run_with_scrapper_locked.jpg",
+    "unlocked_icon_url": "achievement_win_run_with_scrapper",
+    "locked_icon_url": "achievement_win_run_with_scrapper_locked",
     "is_hidden": false
   },
-  "achievement_win_run_with_starter": {
+  {
     "achievement_id": "achievement_win_run_with_starter",
     "unlocked_display_name": "Excelsior Rule",
     "unlocked_description": "Finish a run with the Excelsior Class Battleship",
@@ -840,8 +840,8 @@
     "hidden_description": "Finish a run with the Excelsior Class Battleship",
     "flavor_text": "",
     "completion_description": "Finish a run with the Excelsior Class Battleship",
-    "unlocked_icon_url": "achievements_images/achievement_win_run_with_starter.jpg",
-    "locked_icon_url": "achievements_images/achievement_win_run_with_starter_locked.jpg",
+    "unlocked_icon_url": "achievement_win_run_with_starter",
+    "locked_icon_url": "achievement_win_run_with_starter_locked",
     "is_hidden": false
   }
-}
+]

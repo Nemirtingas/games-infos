@@ -1,5 +1,5 @@
-{
-  "ASoulSaved": {
+[
+  {
     "achievement_id": "ASoulSaved",
     "unlocked_display_name": "Angel of Mercy",
     "unlocked_description": "You saved Johanka for the most grievous charge of heresy. Now she can live happily with Matthias.",
@@ -8,17 +8,17 @@
     "hidden_description": "Help save Johanka from the most grievous charge of heresy!",
     "flavor_text": "",
     "completion_description": "You saved Johanka for the most grievous charge of heresy. Now she can live happily with Matthias.",
-    "unlocked_icon_url": "achievements_images/ASoulSaved.jpg",
-    "locked_icon_url": "achievements_images/ASoulSaved_locked.jpg",
+    "unlocked_icon_url": "ASoulSaved",
+    "locked_icon_url": "ASoulSaved_locked",
     "is_hidden": true,
-    "stats_thresholds": {
-      "ASoulSaved": {
+    "stats_thresholds": [
+      {
         "name": "ASoulSaved",
         "threshold": 1
       }
-    }
+    ]
   },
-  "AWomansLot": {
+  {
     "achievement_id": "AWomansLot",
     "unlocked_display_name": "Woman's Lot",
     "unlocked_description": "You played Theresa's story out to the bitter end.",
@@ -27,17 +27,17 @@
     "hidden_description": "Complete Theresa's story.",
     "flavor_text": "",
     "completion_description": "You played Theresa's story out to the bitter end.",
-    "unlocked_icon_url": "achievements_images/AWomansLot.jpg",
-    "locked_icon_url": "achievements_images/AWomansLot_locked.jpg",
+    "unlocked_icon_url": "AWomansLot",
+    "locked_icon_url": "AWomansLot_locked",
     "is_hidden": false,
-    "stats_thresholds": {
-      "AWomansLot": {
+    "stats_thresholds": [
+      {
         "name": "AWomansLot",
         "threshold": 1
       }
-    }
+    ]
   },
-  "Alcoholic": {
+  {
     "achievement_id": "Alcoholic",
     "unlocked_display_name": "Alcoholic",
     "unlocked_description": "You've become addicted to alcohol.",
@@ -46,17 +46,17 @@
     "hidden_description": "Become addicted to alcohol.",
     "flavor_text": "",
     "completion_description": "You've become addicted to alcohol.",
-    "unlocked_icon_url": "achievements_images/Alcoholic.jpg",
-    "locked_icon_url": "achievements_images/Alcoholic_locked.jpg",
+    "unlocked_icon_url": "Alcoholic",
+    "locked_icon_url": "Alcoholic_locked",
     "is_hidden": false,
-    "stats_thresholds": {
-      "Alcoholic": {
+    "stats_thresholds": [
+      {
         "name": "Alcoholic",
         "threshold": 1
       }
-    }
+    ]
   },
-  "Anorectic": {
+  {
     "achievement_id": "Anorectic",
     "unlocked_display_name": "Anorectic",
     "unlocked_description": "You've starved for three days.",
@@ -65,17 +65,17 @@
     "hidden_description": "Starve for three days.",
     "flavor_text": "",
     "completion_description": "You've starved for three days.",
-    "unlocked_icon_url": "achievements_images/Anorectic.jpg",
-    "locked_icon_url": "achievements_images/Anorectic_locked.jpg",
+    "unlocked_icon_url": "Anorectic",
+    "locked_icon_url": "Anorectic_locked",
     "is_hidden": false,
-    "stats_thresholds": {
-      "Anorectic": {
+    "stats_thresholds": [
+      {
         "name": "Anorectic",
         "threshold": 1
       }
-    }
+    ]
   },
-  "Awakening": {
+  {
     "achievement_id": "Awakening",
     "unlocked_display_name": "Awakening",
     "unlocked_description": "You've joined Sir Radzig's garrison.",
@@ -84,17 +84,17 @@
     "hidden_description": "Join Sir Radzig's garrison.",
     "flavor_text": "",
     "completion_description": "You've joined Sir Radzig's garrison.",
-    "unlocked_icon_url": "achievements_images/Awakening.jpg",
-    "locked_icon_url": "achievements_images/Awakening_locked.jpg",
+    "unlocked_icon_url": "Awakening",
+    "locked_icon_url": "Awakening_locked",
     "is_hidden": true,
-    "stats_thresholds": {
-      "Awakening": {
+    "stats_thresholds": [
+      {
         "name": "Awakening",
         "threshold": 1
       }
-    }
+    ]
   },
-  "BadGirl": {
+  {
     "achievement_id": "BadGirl",
     "unlocked_display_name": "Bad Girl",
     "unlocked_description": "You didn't do a single thing your father asked.",
@@ -103,17 +103,17 @@
     "hidden_description": "Shirk your morning chores!",
     "flavor_text": "",
     "completion_description": "You didn't do a single thing your father asked.",
-    "unlocked_icon_url": "achievements_images/BadGirl.jpg",
-    "locked_icon_url": "achievements_images/BadGirl_locked.jpg",
+    "unlocked_icon_url": "BadGirl",
+    "locked_icon_url": "BadGirl_locked",
     "is_hidden": true,
-    "stats_thresholds": {
-      "BadGirl": {
+    "stats_thresholds": [
+      {
         "name": "BadGirl",
         "threshold": 1
       }
-    }
+    ]
   },
-  "BadTrip": {
+  {
     "achievement_id": "BadTrip",
     "unlocked_display_name": "Bad Trip",
     "unlocked_description": "You've danced with Satan himself.",
@@ -122,17 +122,17 @@
     "hidden_description": "Dance with the Devil.",
     "flavor_text": "",
     "completion_description": "You've danced with Satan himself.",
-    "unlocked_icon_url": "achievements_images/BadTrip.jpg",
-    "locked_icon_url": "achievements_images/BadTrip_locked.jpg",
+    "unlocked_icon_url": "BadTrip",
+    "locked_icon_url": "BadTrip_locked",
     "is_hidden": true,
-    "stats_thresholds": {
-      "BadTrip": {
+    "stats_thresholds": [
+      {
         "name": "BadTrip",
         "threshold": 1
       }
-    }
+    ]
   },
-  "Bailiff": {
+  {
     "achievement_id": "Bailiff",
     "unlocked_display_name": "Bailiff",
     "unlocked_description": "You've ensured the renewal of Pribyslavitz.",
@@ -141,17 +141,17 @@
     "hidden_description": "Ensure the renewal of Pribyslavitz.",
     "flavor_text": "",
     "completion_description": "You've ensured the renewal of Pribyslavitz.",
-    "unlocked_icon_url": "achievements_images/Bailiff.jpg",
-    "locked_icon_url": "achievements_images/Bailiff_locked.jpg",
+    "unlocked_icon_url": "Bailiff",
+    "locked_icon_url": "Bailiff_locked",
     "is_hidden": false,
-    "stats_thresholds": {
-      "Bailiff": {
+    "stats_thresholds": [
+      {
         "name": "Bailiff",
         "threshold": 1
       }
-    }
+    ]
   },
-  "Bard": {
+  {
     "achievement_id": "Bard",
     "unlocked_display_name": "Bard",
     "unlocked_description": "You've reached the maximum Speech level.",
@@ -160,17 +160,17 @@
     "hidden_description": "Level up Speech to maximum.",
     "flavor_text": "",
     "completion_description": "You've reached the maximum Speech level.",
-    "unlocked_icon_url": "achievements_images/Bard.jpg",
-    "locked_icon_url": "achievements_images/Bard_locked.jpg",
+    "unlocked_icon_url": "Bard",
+    "locked_icon_url": "Bard_locked",
     "is_hidden": false,
-    "stats_thresholds": {
-      "Bard": {
+    "stats_thresholds": [
+      {
         "name": "Bard",
         "threshold": 1
       }
-    }
+    ]
   },
-  "Bastard": {
+  {
     "achievement_id": "Bastard",
     "unlocked_display_name": "Bastard",
     "unlocked_description": "You found out who your real father is.",
@@ -179,17 +179,17 @@
     "hidden_description": "Find out who your real father is.",
     "flavor_text": "",
     "completion_description": "You found out who your real father is.",
-    "unlocked_icon_url": "achievements_images/Bastard.jpg",
-    "locked_icon_url": "achievements_images/Bastard_locked.jpg",
+    "unlocked_icon_url": "Bastard",
+    "locked_icon_url": "Bastard_locked",
     "is_hidden": true,
-    "stats_thresholds": {
-      "Bastard": {
+    "stats_thresholds": [
+      {
         "name": "Bastard",
         "threshold": 1
       }
-    }
+    ]
   },
-  "BlacksmithsSon": {
+  {
     "achievement_id": "BlacksmithsSon",
     "unlocked_display_name": "Blacksmith's Son",
     "unlocked_description": "You've completed the first quest.",
@@ -198,17 +198,17 @@
     "hidden_description": "Complete the first quest.",
     "flavor_text": "",
     "completion_description": "You've completed the first quest.",
-    "unlocked_icon_url": "achievements_images/BlacksmithsSon.jpg",
-    "locked_icon_url": "achievements_images/BlacksmithsSon_locked.jpg",
+    "unlocked_icon_url": "BlacksmithsSon",
+    "locked_icon_url": "BlacksmithsSon_locked",
     "is_hidden": true,
-    "stats_thresholds": {
-      "BlacksmithsSon": {
+    "stats_thresholds": [
+      {
         "name": "BlacksmithsSon",
         "threshold": 1
       }
-    }
+    ]
   },
-  "Bookworm": {
+  {
     "achievement_id": "Bookworm",
     "unlocked_display_name": "Bookworm",
     "unlocked_description": "You've read twenty books.",
@@ -217,17 +217,17 @@
     "hidden_description": "Read twenty books.",
     "flavor_text": "",
     "completion_description": "You've read twenty books.",
-    "unlocked_icon_url": "achievements_images/Bookworm.jpg",
-    "locked_icon_url": "achievements_images/Bookworm_locked.jpg",
+    "unlocked_icon_url": "Bookworm",
+    "locked_icon_url": "Bookworm_locked",
     "is_hidden": false,
-    "stats_thresholds": {
-      "Bookworm": {
+    "stats_thresholds": [
+      {
         "name": "Bookworm",
         "threshold": 1
       }
-    }
+    ]
   },
-  "Buddy": {
+  {
     "achievement_id": "Buddy",
     "unlocked_display_name": "Buddy",
     "unlocked_description": "You saved Lord Capon from the Cumans.",
@@ -236,17 +236,17 @@
     "hidden_description": "Save Lord Capon from the Cumans.",
     "flavor_text": "",
     "completion_description": "You saved Lord Capon from the Cumans.",
-    "unlocked_icon_url": "achievements_images/Buddy.jpg",
-    "locked_icon_url": "achievements_images/Buddy_locked.jpg",
+    "unlocked_icon_url": "Buddy",
+    "locked_icon_url": "Buddy_locked",
     "is_hidden": true,
-    "stats_thresholds": {
-      "Buddy": {
+    "stats_thresholds": [
+      {
         "name": "Buddy",
         "threshold": 1
       }
-    }
+    ]
   },
-  "Casanova": {
+  {
     "achievement_id": "Casanova",
     "unlocked_display_name": "Casanova",
     "unlocked_description": "You seduced your Lord's lady wife.",
@@ -255,17 +255,17 @@
     "hidden_description": "Court Lady Stephanie.",
     "flavor_text": "",
     "completion_description": "You seduced your Lord's lady wife.",
-    "unlocked_icon_url": "achievements_images/Casanova.jpg",
-    "locked_icon_url": "achievements_images/Casanova_locked.jpg",
+    "unlocked_icon_url": "Casanova",
+    "locked_icon_url": "Casanova_locked",
     "is_hidden": true,
-    "stats_thresholds": {
-      "Casanova": {
+    "stats_thresholds": [
+      {
         "name": "Casanova",
         "threshold": 1
       }
-    }
+    ]
   },
-  "Cavalier": {
+  {
     "achievement_id": "Cavalier",
     "unlocked_display_name": "Cavalier",
     "unlocked_description": "You saved Theresa from the Cumans.",
@@ -274,17 +274,17 @@
     "hidden_description": "Save Theresa from the Cumans.",
     "flavor_text": "",
     "completion_description": "You saved Theresa from the Cumans.",
-    "unlocked_icon_url": "achievements_images/Cavalier.jpg",
-    "locked_icon_url": "achievements_images/Cavalier_locked.jpg",
+    "unlocked_icon_url": "Cavalier",
+    "locked_icon_url": "Cavalier_locked",
     "is_hidden": true,
-    "stats_thresholds": {
-      "Cavalier": {
+    "stats_thresholds": [
+      {
         "name": "Cavalier",
         "threshold": 1
       }
-    }
+    ]
   },
-  "Chivalrous": {
+  {
     "achievement_id": "Chivalrous",
     "unlocked_display_name": "Chivalrous Soul",
     "unlocked_description": "You ensured a timely raid on the mill to rescue the girls there, even at the cost of a risky fight.",
@@ -293,17 +293,17 @@
     "hidden_description": "Persuade Kuno to attack the mill right away.",
     "flavor_text": "",
     "completion_description": "You ensured a timely raid on the mill to rescue the girls there, even at the cost of a risky fight.",
-    "unlocked_icon_url": "achievements_images/Chivalrous.jpg",
-    "locked_icon_url": "achievements_images/Chivalrous_locked.jpg",
+    "unlocked_icon_url": "Chivalrous",
+    "locked_icon_url": "Chivalrous_locked",
     "is_hidden": true,
-    "stats_thresholds": {
-      "Chivalrous": {
+    "stats_thresholds": [
+      {
         "name": "Chivalrous",
         "threshold": 1
       }
-    }
+    ]
   },
-  "ChristianBurial": {
+  {
     "achievement_id": "ChristianBurial",
     "unlocked_display_name": "Christian Burial",
     "unlocked_description": "You've buried Lev in hallowed ground.",
@@ -312,17 +312,17 @@
     "hidden_description": "Ensure eternal salvation for the wretched charcoal-burner, Lev.",
     "flavor_text": "",
     "completion_description": "You've buried Lev in hallowed ground.",
-    "unlocked_icon_url": "achievements_images/ChristianBurial.jpg",
-    "locked_icon_url": "achievements_images/ChristianBurial_locked.jpg",
+    "unlocked_icon_url": "ChristianBurial",
+    "locked_icon_url": "ChristianBurial_locked",
     "is_hidden": true,
-    "stats_thresholds": {
-      "ChristianBurial": {
+    "stats_thresholds": [
+      {
         "name": "ChristianBurial",
         "threshold": 1
       }
-    }
+    ]
   },
-  "ClergyBoy": {
+  {
     "achievement_id": "ClergyBoy",
     "unlocked_display_name": "Cleric's pet",
     "unlocked_description": "You did your Christian duty and reported to the Inquisitor all the wrongdoing in the province.",
@@ -331,17 +331,17 @@
     "hidden_description": "Report to the Inquisitor all the wrongdoing going on in the province.",
     "flavor_text": "",
     "completion_description": "You did your Christian duty and reported to the Inquisitor all the wrongdoing in the province.",
-    "unlocked_icon_url": "achievements_images/ClergyBoy.jpg",
-    "locked_icon_url": "achievements_images/ClergyBoy_locked.jpg",
+    "unlocked_icon_url": "ClergyBoy",
+    "locked_icon_url": "ClergyBoy_locked",
     "is_hidden": true,
-    "stats_thresholds": {
-      "ClergyBoy": {
+    "stats_thresholds": [
+      {
         "name": "ClergyBoy",
         "threshold": 1
       }
-    }
+    ]
   },
-  "Completionist": {
+  {
     "achievement_id": "Completionist",
     "unlocked_display_name": "Completionist",
     "unlocked_description": "You've completed all quests.",
@@ -350,17 +350,17 @@
     "hidden_description": "Complete all quests.",
     "flavor_text": "",
     "completion_description": "You've completed all quests.",
-    "unlocked_icon_url": "achievements_images/Completionist.jpg",
-    "locked_icon_url": "achievements_images/Completionist_locked.jpg",
+    "unlocked_icon_url": "Completionist",
+    "locked_icon_url": "Completionist_locked",
     "is_hidden": false,
-    "stats_thresholds": {
-      "Completionist": {
+    "stats_thresholds": [
+      {
         "name": "Completionist",
         "threshold": 1
       }
-    }
+    ]
   },
-  "Conqueror": {
+  {
     "achievement_id": "Conqueror",
     "unlocked_display_name": "Conqueror",
     "unlocked_description": "The Vranik encampment has been conquered.",
@@ -369,17 +369,17 @@
     "hidden_description": "Conquer the enemy camp in Vranik.",
     "flavor_text": "",
     "completion_description": "The Vranik encampment has been conquered.",
-    "unlocked_icon_url": "achievements_images/Conqueror.jpg",
-    "locked_icon_url": "achievements_images/Conqueror_locked.jpg",
+    "unlocked_icon_url": "Conqueror",
+    "locked_icon_url": "Conqueror_locked",
     "is_hidden": true,
-    "stats_thresholds": {
-      "Conqueror": {
+    "stats_thresholds": [
+      {
         "name": "Conqueror",
         "threshold": 1
       }
-    }
+    ]
   },
-  "Convict": {
+  {
     "achievement_id": "Convict",
     "unlocked_display_name": "Convict",
     "unlocked_description": "You've spent three days in prison.",
@@ -388,17 +388,17 @@
     "hidden_description": "Spend three days in prison.",
     "flavor_text": "",
     "completion_description": "You've spent three days in prison.",
-    "unlocked_icon_url": "achievements_images/Convict.jpg",
-    "locked_icon_url": "achievements_images/Convict_locked.jpg",
+    "unlocked_icon_url": "Convict",
+    "locked_icon_url": "Convict_locked",
     "is_hidden": false,
-    "stats_thresholds": {
-      "Convict": {
+    "stats_thresholds": [
+      {
         "name": "Convict",
         "threshold": 1
       }
-    }
+    ]
   },
-  "DavidHorak": {
+  {
     "achievement_id": "DavidHorak",
     "unlocked_display_name": "David Horak",
     "unlocked_description": "You've collected 10,000 herbs.",
@@ -407,17 +407,17 @@
     "hidden_description": "Collect 10,000 herbs.",
     "flavor_text": "",
     "completion_description": "You've collected 10,000 herbs.",
-    "unlocked_icon_url": "achievements_images/DavidHorak.jpg",
-    "locked_icon_url": "achievements_images/DavidHorak_locked.jpg",
+    "unlocked_icon_url": "DavidHorak",
+    "locked_icon_url": "DavidHorak_locked",
     "is_hidden": false,
-    "stats_thresholds": {
-      "DavidHorak": {
+    "stats_thresholds": [
+      {
         "name": "DavidHorak",
         "threshold": 1
       }
-    }
+    ]
   },
-  "DieByTheSplinter": {
+  {
     "achievement_id": "DieByTheSplinter",
     "unlocked_display_name": "Death by splinter",
     "unlocked_description": "Henry suffered a mortal splinter wound during swordplay with you.",
@@ -426,17 +426,17 @@
     "hidden_description": "Cause Henry a mortal wound!",
     "flavor_text": "",
     "completion_description": "Henry suffered a mortal splinter wound during swordplay with you.",
-    "unlocked_icon_url": "achievements_images/DieByTheSplinter.jpg",
-    "locked_icon_url": "achievements_images/DieByTheSplinter_locked.jpg",
+    "unlocked_icon_url": "DieByTheSplinter",
+    "locked_icon_url": "DieByTheSplinter_locked",
     "is_hidden": true,
-    "stats_thresholds": {
-      "DieByTheSplinter": {
+    "stats_thresholds": [
+      {
         "name": "DieByTheSplinter",
         "threshold": 1
       }
-    }
+    ]
   },
-  "EdwardKelly": {
+  {
     "achievement_id": "EdwardKelly",
     "unlocked_display_name": "Edward Kelly",
     "unlocked_description": "You've brewed fifteen types of potion.",
@@ -445,17 +445,17 @@
     "hidden_description": "Brew fifteen types of potion",
     "flavor_text": "",
     "completion_description": "You've brewed fifteen types of potion.",
-    "unlocked_icon_url": "achievements_images/EdwardKelly.jpg",
-    "locked_icon_url": "achievements_images/EdwardKelly_locked.jpg",
+    "unlocked_icon_url": "EdwardKelly",
+    "locked_icon_url": "EdwardKelly_locked",
     "is_hidden": false,
-    "stats_thresholds": {
-      "EdwardKelly": {
+    "stats_thresholds": [
+      {
         "name": "EdwardKelly",
         "threshold": 1
       }
-    }
+    ]
   },
-  "EnoughRope": {
+  {
     "achievement_id": "EnoughRope",
     "unlocked_display_name": "Spoilsport",
     "unlocked_description": "You sabotaged all three planned executions.",
@@ -464,17 +464,17 @@
     "hidden_description": "Sabotage all three executions.",
     "flavor_text": "",
     "completion_description": "You sabotaged all three planned executions.",
-    "unlocked_icon_url": "achievements_images/EnoughRope.jpg",
-    "locked_icon_url": "achievements_images/EnoughRope_locked.jpg",
+    "unlocked_icon_url": "EnoughRope",
+    "locked_icon_url": "EnoughRope_locked",
     "is_hidden": true,
-    "stats_thresholds": {
-      "EnoughRope": {
+    "stats_thresholds": [
+      {
         "name": "EnoughRope",
         "threshold": 1
       }
-    }
+    ]
   },
-  "Fatso": {
+  {
     "achievement_id": "Fatso",
     "unlocked_display_name": "Fatso",
     "unlocked_description": "You've been full to bursting for two days.",
@@ -483,17 +483,17 @@
     "hidden_description": "Be stuffed to bursting for two days.",
     "flavor_text": "",
     "completion_description": "You've been full to bursting for two days.",
-    "unlocked_icon_url": "achievements_images/Fatso.jpg",
-    "locked_icon_url": "achievements_images/Fatso_locked.jpg",
+    "unlocked_icon_url": "Fatso",
+    "locked_icon_url": "Fatso_locked",
     "is_hidden": false,
-    "stats_thresholds": {
-      "Fatso": {
+    "stats_thresholds": [
+      {
         "name": "Fatso",
         "threshold": 1
       }
-    }
+    ]
   },
-  "Fighter": {
+  {
     "achievement_id": "Fighter",
     "unlocked_display_name": "Fighter",
     "unlocked_description": "You've carried out 100 combos.",
@@ -502,17 +502,17 @@
     "hidden_description": "Carry out 100 combos in combat.",
     "flavor_text": "",
     "completion_description": "You've carried out 100 combos.",
-    "unlocked_icon_url": "achievements_images/Fighter.jpg",
-    "locked_icon_url": "achievements_images/Fighter_locked.jpg",
+    "unlocked_icon_url": "Fighter",
+    "locked_icon_url": "Fighter_locked",
     "is_hidden": false,
-    "stats_thresholds": {
-      "Fighter": {
+    "stats_thresholds": [
+      {
         "name": "Fighter",
         "threshold": 1
       }
-    }
+    ]
   },
-  "Firestarter": {
+  {
     "achievement_id": "Firestarter",
     "unlocked_display_name": "Firestarter",
     "unlocked_description": "You burned to death in the first quest. Congratulations!",
@@ -521,17 +521,17 @@
     "hidden_description": "Get jailed in Skalitz.",
     "flavor_text": "",
     "completion_description": "You burned to death in the first quest. Congratulations!",
-    "unlocked_icon_url": "achievements_images/Firestarter.jpg",
-    "locked_icon_url": "achievements_images/Firestarter_locked.jpg",
+    "unlocked_icon_url": "Firestarter",
+    "locked_icon_url": "Firestarter_locked",
     "is_hidden": true,
-    "stats_thresholds": {
-      "Firestarter": {
+    "stats_thresholds": [
+      {
         "name": "Firestarter",
         "threshold": 1
       }
-    }
+    ]
   },
-  "Freud": {
+  {
     "achievement_id": "Freud",
     "unlocked_display_name": "Freud",
     "unlocked_description": "You found out about Erik's past.",
@@ -540,17 +540,17 @@
     "hidden_description": "Find out about Erik's past.",
     "flavor_text": "",
     "completion_description": "You found out about Erik's past.",
-    "unlocked_icon_url": "achievements_images/Freud.jpg",
-    "locked_icon_url": "achievements_images/Freud_locked.jpg",
+    "unlocked_icon_url": "Freud",
+    "locked_icon_url": "Freud_locked",
     "is_hidden": true,
-    "stats_thresholds": {
-      "Freud": {
+    "stats_thresholds": [
+      {
         "name": "Freud",
         "threshold": 1
       }
-    }
+    ]
   },
-  "FriendsWithoutBenefits": {
+  {
     "achievement_id": "FriendsWithoutBenefits",
     "unlocked_display_name": "Friends without benefits",
     "unlocked_description": "Fritz and Matthew have moved to Pribyslavitz.",
@@ -559,17 +559,17 @@
     "hidden_description": "Invite Fritz and Matthew to Pribyslavitz.",
     "flavor_text": "",
     "completion_description": "Fritz and Matthew have moved to Pribyslavitz.",
-    "unlocked_icon_url": "achievements_images/FriendsWithoutBenefits.jpg",
-    "locked_icon_url": "achievements_images/FriendsWithoutBenefits_locked.jpg",
+    "unlocked_icon_url": "FriendsWithoutBenefits",
+    "locked_icon_url": "FriendsWithoutBenefits_locked",
     "is_hidden": true,
-    "stats_thresholds": {
-      "FriendsWithoutBenefits": {
+    "stats_thresholds": [
+      {
         "name": "FriendsWithoutBenefits",
         "threshold": 1
       }
-    }
+    ]
   },
-  "FullhouseSinner": {
+  {
     "achievement_id": "FullhouseSinner",
     "unlocked_display_name": "Full House Sinner",
     "unlocked_description": "You committed every sin Johanka could come up with.",
@@ -578,17 +578,17 @@
     "hidden_description": "Have on your conscience every sin Johanka can think of.",
     "flavor_text": "",
     "completion_description": "You committed every sin Johanka could come up with.",
-    "unlocked_icon_url": "achievements_images/FullhouseSinner.jpg",
-    "locked_icon_url": "achievements_images/FullhouseSinner_locked.jpg",
+    "unlocked_icon_url": "FullhouseSinner",
+    "locked_icon_url": "FullhouseSinner_locked",
     "is_hidden": false,
-    "stats_thresholds": {
-      "FullhouseSinner": {
+    "stats_thresholds": [
+      {
         "name": "FullhouseSinner",
         "threshold": 1
       }
-    }
+    ]
   },
-  "Gambler": {
+  {
     "achievement_id": "Gambler",
     "unlocked_display_name": "Gambler",
     "unlocked_description": "You've won 1,000 Groschen at dice.",
@@ -597,17 +597,17 @@
     "hidden_description": "Win 1,000 Groschen in the dice minigame.",
     "flavor_text": "",
     "completion_description": "You've won 1,000 Groschen at dice.",
-    "unlocked_icon_url": "achievements_images/Gambler.jpg",
-    "locked_icon_url": "achievements_images/Gambler_locked.jpg",
+    "unlocked_icon_url": "Gambler",
+    "locked_icon_url": "Gambler_locked",
     "is_hidden": false,
-    "stats_thresholds": {
-      "Gambler": {
+    "stats_thresholds": [
+      {
         "name": "Gambler",
         "threshold": 1
       }
-    }
+    ]
   },
-  "GameIsOver": {
+  {
     "achievement_id": "GameIsOver",
     "unlocked_display_name": "Game Over",
     "unlocked_description": "The Ring of Bacchus made its way back to Kuno.",
@@ -616,17 +616,17 @@
     "hidden_description": "The Ring of Bacchus made its way back to its original owner.",
     "flavor_text": "",
     "completion_description": "The Ring of Bacchus made its way back to Kuno.",
-    "unlocked_icon_url": "achievements_images/GameIsOver.jpg",
-    "locked_icon_url": "achievements_images/GameIsOver_locked.jpg",
+    "unlocked_icon_url": "GameIsOver",
+    "locked_icon_url": "GameIsOver_locked",
     "is_hidden": true,
-    "stats_thresholds": {
-      "GameIsOver": {
+    "stats_thresholds": [
+      {
         "name": "GameIsOver",
         "threshold": 1
       }
-    }
+    ]
   },
-  "GhostOfCapon": {
+  {
     "achievement_id": "GhostOfCapon",
     "unlocked_display_name": "Lord Capon's Ghost",
     "unlocked_description": "You came, you saw and you took Capon's necklace. Why make an unnecessary fuss?",
@@ -635,17 +635,17 @@
     "hidden_description": "Get back Capon's necklace without permission from anyone.",
     "flavor_text": "",
     "completion_description": "You came, you saw and you took Capon's necklace. Why make an unnecessary fuss?",
-    "unlocked_icon_url": "achievements_images/GhostOfCapon.jpg",
-    "locked_icon_url": "achievements_images/GhostOfCapon_locked.jpg",
+    "unlocked_icon_url": "GhostOfCapon",
+    "locked_icon_url": "GhostOfCapon_locked",
     "is_hidden": true,
-    "stats_thresholds": {
-      "GhostOfCapon": {
+    "stats_thresholds": [
+      {
         "name": "GhostOfCapon",
         "threshold": 1
       }
-    }
+    ]
   },
-  "Ginger": {
+  {
     "achievement_id": "Ginger",
     "unlocked_display_name": "Ginger in a Pickle",
     "unlocked_description": "You saved Ginger from the bandits.",
@@ -654,17 +654,17 @@
     "hidden_description": "Save Ginger from the bandits.",
     "flavor_text": "",
     "completion_description": "You saved Ginger from the bandits.",
-    "unlocked_icon_url": "achievements_images/Ginger.jpg",
-    "locked_icon_url": "achievements_images/Ginger_locked.jpg",
+    "unlocked_icon_url": "Ginger",
+    "locked_icon_url": "Ginger_locked",
     "is_hidden": true,
-    "stats_thresholds": {
-      "Ginger": {
+    "stats_thresholds": [
+      {
         "name": "Ginger",
         "threshold": 1
       }
-    }
+    ]
   },
-  "Haggler": {
+  {
     "achievement_id": "Haggler",
     "unlocked_display_name": "Haggler",
     "unlocked_description": "You've saved 2,000 Groschen by haggling.",
@@ -673,17 +673,17 @@
     "hidden_description": "Save 2000 Groschen by haggling.",
     "flavor_text": "",
     "completion_description": "You've saved 2,000 Groschen by haggling.",
-    "unlocked_icon_url": "achievements_images/Haggler.jpg",
-    "locked_icon_url": "achievements_images/Haggler_locked.jpg",
+    "unlocked_icon_url": "Haggler",
+    "locked_icon_url": "Haggler_locked",
     "is_hidden": false,
-    "stats_thresholds": {
-      "Haggler": {
+    "stats_thresholds": [
+      {
         "name": "Haggler",
         "threshold": 1
       }
-    }
+    ]
   },
-  "HardcoreHenry": {
+  {
     "achievement_id": "HardcoreHenry",
     "unlocked_display_name": "Hardcore Henry",
     "unlocked_description": "You've finished the game in Hardcore Mode.",
@@ -692,17 +692,17 @@
     "hidden_description": "Finish the game in Hardcore Mode.",
     "flavor_text": "",
     "completion_description": "You've finished the game in Hardcore Mode.",
-    "unlocked_icon_url": "achievements_images/HardcoreHenry.jpg",
-    "locked_icon_url": "achievements_images/HardcoreHenry_locked.jpg",
+    "unlocked_icon_url": "HardcoreHenry",
+    "locked_icon_url": "HardcoreHenry_locked",
     "is_hidden": false,
-    "stats_thresholds": {
-      "HardcoreHenry": {
+    "stats_thresholds": [
+      {
         "name": "HardcoreHenry",
         "threshold": 1
       }
-    }
+    ]
   },
-  "Hunter": {
+  {
     "achievement_id": "Hunter",
     "unlocked_display_name": "Hunter",
     "unlocked_description": "You've bagged fifty animals.",
@@ -711,17 +711,17 @@
     "hidden_description": "Bag fifty game animals.",
     "flavor_text": "",
     "completion_description": "You've bagged fifty animals.",
-    "unlocked_icon_url": "achievements_images/Hunter.jpg",
-    "locked_icon_url": "achievements_images/Hunter_locked.jpg",
+    "unlocked_icon_url": "Hunter",
+    "locked_icon_url": "Hunter_locked",
     "is_hidden": false,
-    "stats_thresholds": {
-      "Hunter": {
+    "stats_thresholds": [
+      {
         "name": "Hunter",
         "threshold": 1
       }
-    }
+    ]
   },
-  "ICanStop": {
+  {
     "achievement_id": "ICanStop",
     "unlocked_display_name": "I Can Quit Anytime",
     "unlocked_description": "You won the dice tournament in the robber baron's camp",
@@ -730,17 +730,17 @@
     "hidden_description": "Dice are most important, the rest will work itself out somehow.",
     "flavor_text": "",
     "completion_description": "You won the dice tournament in the robber baron's camp",
-    "unlocked_icon_url": "achievements_images/ICanStop.jpg",
-    "locked_icon_url": "achievements_images/ICanStop_locked.jpg",
+    "unlocked_icon_url": "ICanStop",
+    "locked_icon_url": "ICanStop_locked",
     "is_hidden": true,
-    "stats_thresholds": {
-      "ICanStop": {
+    "stats_thresholds": [
+      {
         "name": "ICanStop",
         "threshold": 1
       }
-    }
+    ]
   },
-  "InfernalJustice": {
+  {
     "achievement_id": "InfernalJustice",
     "unlocked_display_name": "Infernal Justice",
     "unlocked_description": "You killed the murderer and threw his body down the same shaft he hid his victims in.",
@@ -749,17 +749,17 @@
     "hidden_description": "The punishment fits the crime.",
     "flavor_text": "",
     "completion_description": "You killed the murderer and threw his body down the same shaft he hid his victims in.",
-    "unlocked_icon_url": "achievements_images/InfernalJustice.jpg",
-    "locked_icon_url": "achievements_images/InfernalJustice_locked.jpg",
+    "unlocked_icon_url": "InfernalJustice",
+    "locked_icon_url": "InfernalJustice_locked",
     "is_hidden": false,
-    "stats_thresholds": {
-      "InfernalJustice": {
+    "stats_thresholds": [
+      {
         "name": "InfernalJustice",
         "threshold": 1
       }
-    }
+    ]
   },
-  "Insomniac": {
+  {
     "achievement_id": "Insomniac",
     "unlocked_display_name": "Insomniac",
     "unlocked_description": "You haven't slept for two days and nights.",
@@ -768,17 +768,17 @@
     "hidden_description": "Don't sleep for two days and nights.",
     "flavor_text": "",
     "completion_description": "You haven't slept for two days and nights.",
-    "unlocked_icon_url": "achievements_images/Insomniac.jpg",
-    "locked_icon_url": "achievements_images/Insomniac_locked.jpg",
+    "unlocked_icon_url": "Insomniac",
+    "locked_icon_url": "Insomniac_locked",
     "is_hidden": false,
-    "stats_thresholds": {
-      "Insomniac": {
+    "stats_thresholds": [
+      {
         "name": "Insomniac",
         "threshold": 1
       }
-    }
+    ]
   },
-  "Judas": {
+  {
     "achievement_id": "Judas",
     "unlocked_display_name": "Judas",
     "unlocked_description": "You've condemned your friends to death.",
@@ -787,17 +787,17 @@
     "hidden_description": "Betray your friends in the Gallows Brothers quest.",
     "flavor_text": "",
     "completion_description": "You've condemned your friends to death.",
-    "unlocked_icon_url": "achievements_images/Judas.jpg",
-    "locked_icon_url": "achievements_images/Judas_locked.jpg",
+    "unlocked_icon_url": "Judas",
+    "locked_icon_url": "Judas_locked",
     "is_hidden": true,
-    "stats_thresholds": {
-      "Judas": {
+    "stats_thresholds": [
+      {
         "name": "Judas",
         "threshold": 1
       }
-    }
+    ]
   },
-  "KarelGott": {
+  {
     "achievement_id": "KarelGott",
     "unlocked_display_name": "King Charming",
     "unlocked_description": "People love you everywhere you go.",
@@ -806,17 +806,17 @@
     "hidden_description": "Be popular in every town and village.",
     "flavor_text": "",
     "completion_description": "People love you everywhere you go.",
-    "unlocked_icon_url": "achievements_images/KarelGott.jpg",
-    "locked_icon_url": "achievements_images/KarelGott_locked.jpg",
+    "unlocked_icon_url": "KarelGott",
+    "locked_icon_url": "KarelGott_locked",
     "is_hidden": false,
-    "stats_thresholds": {
-      "KarelGott": {
+    "stats_thresholds": [
+      {
         "name": "KarelGott",
         "threshold": 1
       }
-    }
+    ]
   },
-  "KingdomDidNotCome": {
+  {
     "achievement_id": "KingdomDidNotCome",
     "unlocked_display_name": "Kingdom did not come",
     "unlocked_description": "Your path in Hardcore Mode has come to an untimely end. Requiescat in pace.",
@@ -825,17 +825,17 @@
     "hidden_description": "Die for the first time in Hardcore Mode.",
     "flavor_text": "",
     "completion_description": "Your path in Hardcore Mode has come to an untimely end. Requiescat in pace.",
-    "unlocked_icon_url": "achievements_images/KingdomDidNotCome.jpg",
-    "locked_icon_url": "achievements_images/KingdomDidNotCome_locked.jpg",
+    "unlocked_icon_url": "KingdomDidNotCome",
+    "locked_icon_url": "KingdomDidNotCome_locked",
     "is_hidden": true,
-    "stats_thresholds": {
-      "KingdomDidNotCome": {
+    "stats_thresholds": [
+      {
         "name": "KingdomDidNotCome",
         "threshold": 1
       }
-    }
+    ]
   },
-  "Knightrider": {
+  {
     "achievement_id": "Knightrider",
     "unlocked_display_name": "Knightrider",
     "unlocked_description": "You won the Talmberg horse race.",
@@ -844,17 +844,17 @@
     "hidden_description": "Win the Talmberg horse race.",
     "flavor_text": "",
     "completion_description": "You won the Talmberg horse race.",
-    "unlocked_icon_url": "achievements_images/Knightrider.jpg",
-    "locked_icon_url": "achievements_images/Knightrider_locked.jpg",
+    "unlocked_icon_url": "Knightrider",
+    "locked_icon_url": "Knightrider_locked",
     "is_hidden": false,
-    "stats_thresholds": {
-      "Knightrider": {
+    "stats_thresholds": [
+      {
         "name": "Knightrider",
         "threshold": 1
       }
-    }
+    ]
   },
-  "LevelCap": {
+  {
     "achievement_id": "LevelCap",
     "unlocked_display_name": "Level Cap",
     "unlocked_description": "You've reached the maximum level.",
@@ -863,17 +863,17 @@
     "hidden_description": "Reach maximum level.",
     "flavor_text": "",
     "completion_description": "You've reached the maximum level.",
-    "unlocked_icon_url": "achievements_images/LevelCap.jpg",
-    "locked_icon_url": "achievements_images/LevelCap_locked.jpg",
+    "unlocked_icon_url": "LevelCap",
+    "locked_icon_url": "LevelCap_locked",
     "is_hidden": false,
-    "stats_thresholds": {
-      "LevelCap": {
+    "stats_thresholds": [
+      {
         "name": "LevelCap",
         "threshold": 1
       }
-    }
+    ]
   },
-  "LikeGhost": {
+  {
     "achievement_id": "LikeGhost",
     "unlocked_display_name": "Like a Ghost",
     "unlocked_description": "You recovered Pavel's treasure without being discovered by the Cumans.",
@@ -882,17 +882,17 @@
     "hidden_description": "Recover Pavel's treasure without being discovered.",
     "flavor_text": "",
     "completion_description": "You recovered Pavel's treasure without being discovered by the Cumans.",
-    "unlocked_icon_url": "achievements_images/LikeGhost.jpg",
-    "locked_icon_url": "achievements_images/LikeGhost_locked.jpg",
+    "unlocked_icon_url": "LikeGhost",
+    "locked_icon_url": "LikeGhost_locked",
     "is_hidden": false,
-    "stats_thresholds": {
-      "LikeGhost": {
+    "stats_thresholds": [
+      {
         "name": "LikeGhost",
         "threshold": 1
       }
-    }
+    ]
   },
-  "LostTrinket": {
+  {
     "achievement_id": "LostTrinket",
     "unlocked_display_name": "Lost Trinket",
     "unlocked_description": "You were robbed of the Ring of Bacchus. Tough luck!",
@@ -901,17 +901,17 @@
     "hidden_description": "You're not the only one playing the Ring of Bacchus game, so watch out for the others!",
     "flavor_text": "",
     "completion_description": "You were robbed of the Ring of Bacchus. Tough luck!",
-    "unlocked_icon_url": "achievements_images/LostTrinket.jpg",
-    "locked_icon_url": "achievements_images/LostTrinket_locked.jpg",
+    "unlocked_icon_url": "LostTrinket",
+    "locked_icon_url": "LostTrinket_locked",
     "is_hidden": true,
-    "stats_thresholds": {
-      "LostTrinket": {
+    "stats_thresholds": [
+      {
         "name": "LostTrinket",
         "threshold": 1
       }
-    }
+    ]
   },
-  "MasterHuntsman": {
+  {
     "achievement_id": "MasterHuntsman",
     "unlocked_display_name": "Master Huntsman",
     "unlocked_description": "You've become the Talmberg Master Huntsman.",
@@ -920,17 +920,17 @@
     "hidden_description": "Become the Talmberg Huntsman.",
     "flavor_text": "",
     "completion_description": "You've become the Talmberg Master Huntsman.",
-    "unlocked_icon_url": "achievements_images/MasterHuntsman.jpg",
-    "locked_icon_url": "achievements_images/MasterHuntsman_locked.jpg",
+    "unlocked_icon_url": "MasterHuntsman",
+    "locked_icon_url": "MasterHuntsman_locked",
     "is_hidden": false,
-    "stats_thresholds": {
-      "MasterHuntsman": {
+    "stats_thresholds": [
+      {
         "name": "MasterHuntsman",
         "threshold": 1
       }
-    }
+    ]
   },
-  "MasterOfArena": {
+  {
     "achievement_id": "MasterOfArena",
     "unlocked_display_name": "Arena Master",
     "unlocked_description": "Everyone recognises you at first sight as the Rattay tourney champion.",
@@ -939,17 +939,17 @@
     "hidden_description": "Get a complete set of armour from the Rattay tourney.",
     "flavor_text": "",
     "completion_description": "Everyone recognises you at first sight as the Rattay tourney champion.",
-    "unlocked_icon_url": "achievements_images/MasterOfArena.jpg",
-    "locked_icon_url": "achievements_images/MasterOfArena_locked.jpg",
+    "unlocked_icon_url": "MasterOfArena",
+    "locked_icon_url": "MasterOfArena_locked",
     "is_hidden": false,
-    "stats_thresholds": {
-      "MasterOfArena": {
+    "stats_thresholds": [
+      {
         "name": "MasterOfArena",
         "threshold": 1
       }
-    }
+    ]
   },
-  "McLovin": {
+  {
     "achievement_id": "McLovin",
     "unlocked_display_name": "McLovin",
     "unlocked_description": "You had a romantic affair with Theresa the millmaid.",
@@ -958,17 +958,17 @@
     "hidden_description": "Court Theresa.",
     "flavor_text": "",
     "completion_description": "You had a romantic affair with Theresa the millmaid.",
-    "unlocked_icon_url": "achievements_images/McLovin.jpg",
-    "locked_icon_url": "achievements_images/McLovin_locked.jpg",
+    "unlocked_icon_url": "McLovin",
+    "locked_icon_url": "McLovin_locked",
     "is_hidden": true,
-    "stats_thresholds": {
-      "McLovin": {
+    "stats_thresholds": [
+      {
         "name": "McLovin",
         "threshold": 1
       }
-    }
+    ]
   },
-  "MercenarysHonor": {
+  {
     "achievement_id": "MercenarysHonor",
     "unlocked_display_name": "Mercenary's Honour",
     "unlocked_description": "Even men who fight for coin have their honour. You succeeded in reminding Kuno of his.",
@@ -977,17 +977,17 @@
     "hidden_description": "Arouse the mercenary's sense of honour.",
     "flavor_text": "",
     "completion_description": "Even men who fight for coin have their honour. You succeeded in reminding Kuno of his.",
-    "unlocked_icon_url": "achievements_images/MercenarysHonor.jpg",
-    "locked_icon_url": "achievements_images/MercenarysHonor_locked.jpg",
+    "unlocked_icon_url": "MercenarysHonor",
+    "locked_icon_url": "MercenarysHonor_locked",
     "is_hidden": true,
-    "stats_thresholds": {
-      "MercenarysHonor": {
+    "stats_thresholds": [
+      {
         "name": "MercenarysHonor",
         "threshold": 1
       }
-    }
+    ]
   },
-  "Merciful": {
+  {
     "achievement_id": "Merciful",
     "unlocked_display_name": "Merciful",
     "unlocked_description": "You finished the game without killing anyone (except Runt, but he had it coming).",
@@ -996,17 +996,17 @@
     "hidden_description": "Don't kill anyone during main quest line (except Runt).",
     "flavor_text": "",
     "completion_description": "You finished the game without killing anyone (except Runt, but he had it coming).",
-    "unlocked_icon_url": "achievements_images/Merciful.jpg",
-    "locked_icon_url": "achievements_images/Merciful_locked.jpg",
+    "unlocked_icon_url": "Merciful",
+    "locked_icon_url": "Merciful_locked",
     "is_hidden": true,
-    "stats_thresholds": {
-      "Merciful": {
+    "stats_thresholds": [
+      {
         "name": "Merciful",
         "threshold": 1
       }
-    }
+    ]
   },
-  "Monk": {
+  {
     "achievement_id": "Monk",
     "unlocked_display_name": "Monk",
     "unlocked_description": "You've become a monk.",
@@ -1015,17 +1015,17 @@
     "hidden_description": "Become a monk.",
     "flavor_text": "",
     "completion_description": "You've become a monk.",
-    "unlocked_icon_url": "achievements_images/Monk.jpg",
-    "locked_icon_url": "achievements_images/Monk_locked.jpg",
+    "unlocked_icon_url": "Monk",
+    "locked_icon_url": "Monk_locked",
     "is_hidden": true,
-    "stats_thresholds": {
-      "Monk": {
+    "stats_thresholds": [
+      {
         "name": "Monk",
         "threshold": 1
       }
-    }
+    ]
   },
-  "NotSoChristianBurial": {
+  {
     "achievement_id": "NotSoChristianBurial",
     "unlocked_display_name": "Not-so-Christian Burial",
     "unlocked_description": "You've buried Lev next to his family.",
@@ -1034,17 +1034,17 @@
     "hidden_description": "Grant peaceful rest to the soul of the wretched charcoal-burner, Lev.",
     "flavor_text": "",
     "completion_description": "You've buried Lev next to his family.",
-    "unlocked_icon_url": "achievements_images/NotSoChristianBurial.jpg",
-    "locked_icon_url": "achievements_images/NotSoChristianBurial_locked.jpg",
+    "unlocked_icon_url": "NotSoChristianBurial",
+    "locked_icon_url": "NotSoChristianBurial_locked",
     "is_hidden": true,
-    "stats_thresholds": {
-      "NotSoChristianBurial": {
+    "stats_thresholds": [
+      {
         "name": "NotSoChristianBurial",
         "threshold": 1
       }
-    }
+    ]
   },
-  "OneJob": {
+  {
     "achievement_id": "OneJob",
     "unlocked_display_name": "You had one job!",
     "unlocked_description": "You were supposed to play dice, not hang around the outhouse!",
@@ -1053,17 +1053,17 @@
     "hidden_description": "Drink yourself into oblivion with Ambrose!",
     "flavor_text": "",
     "completion_description": "You were supposed to play dice, not hang around the outhouse!",
-    "unlocked_icon_url": "achievements_images/OneJob.jpg",
-    "locked_icon_url": "achievements_images/OneJob_locked.jpg",
+    "unlocked_icon_url": "OneJob",
+    "locked_icon_url": "OneJob_locked",
     "is_hidden": true,
-    "stats_thresholds": {
-      "OneJob": {
+    "stats_thresholds": [
+      {
         "name": "OneJob",
         "threshold": 1
       }
-    }
+    ]
   },
-  "Perfectionist": {
+  {
     "achievement_id": "Perfectionist",
     "unlocked_display_name": "Perfectionist",
     "unlocked_description": "You've made Pribyslavitz the richest village in the province.",
@@ -1072,17 +1072,17 @@
     "hidden_description": "Make 2,000 Groschen a day from Pribyslavitz.",
     "flavor_text": "",
     "completion_description": "You've made Pribyslavitz the richest village in the province.",
-    "unlocked_icon_url": "achievements_images/Perfectionist.jpg",
-    "locked_icon_url": "achievements_images/Perfectionist_locked.jpg",
+    "unlocked_icon_url": "Perfectionist",
+    "locked_icon_url": "Perfectionist_locked",
     "is_hidden": false,
-    "stats_thresholds": {
-      "Perfectionist": {
+    "stats_thresholds": [
+      {
         "name": "Perfectionist",
         "threshold": 1
       }
-    }
+    ]
   },
-  "Pilgrim": {
+  {
     "achievement_id": "Pilgrim",
     "unlocked_display_name": "Pilgrim",
     "unlocked_description": "You've found all wayside shrines and conciliatory crosses.",
@@ -1091,17 +1091,17 @@
     "hidden_description": "Find all wayside shrines and conciliatory crosses.",
     "flavor_text": "",
     "completion_description": "You've found all wayside shrines and conciliatory crosses.",
-    "unlocked_icon_url": "achievements_images/Pilgrim.jpg",
-    "locked_icon_url": "achievements_images/Pilgrim_locked.jpg",
+    "unlocked_icon_url": "Pilgrim",
+    "locked_icon_url": "Pilgrim_locked",
     "is_hidden": false,
-    "stats_thresholds": {
-      "Pilgrim": {
+    "stats_thresholds": [
+      {
         "name": "Pilgrim",
         "threshold": 1
       }
-    }
+    ]
   },
-  "PinkyPromis": {
+  {
     "achievement_id": "PinkyPromis",
     "unlocked_display_name": "Pinky Promis",
     "unlocked_description": "You promised Jakey you'd let him go, and you kept your word.",
@@ -1110,17 +1110,17 @@
     "hidden_description": "Keep your word at any cost.",
     "flavor_text": "",
     "completion_description": "You promised Jakey you'd let him go, and you kept your word.",
-    "unlocked_icon_url": "achievements_images/PinkyPromis.jpg",
-    "locked_icon_url": "achievements_images/PinkyPromis_locked.jpg",
+    "unlocked_icon_url": "PinkyPromis",
+    "locked_icon_url": "PinkyPromis_locked",
     "is_hidden": true,
-    "stats_thresholds": {
-      "PinkyPromis": {
+    "stats_thresholds": [
+      {
         "name": "PinkyPromis",
         "threshold": 1
       }
-    }
+    ]
   },
-  "PlagueDoctor": {
+  {
     "achievement_id": "PlagueDoctor",
     "unlocked_display_name": "Plague Doctor",
     "unlocked_description": "You healed all the sick in Merhojed.",
@@ -1129,17 +1129,17 @@
     "hidden_description": "Heal all the sick in Merhojed.",
     "flavor_text": "",
     "completion_description": "You healed all the sick in Merhojed.",
-    "unlocked_icon_url": "achievements_images/PlagueDoctor.jpg",
-    "locked_icon_url": "achievements_images/PlagueDoctor_locked.jpg",
+    "unlocked_icon_url": "PlagueDoctor",
+    "locked_icon_url": "PlagueDoctor_locked",
     "is_hidden": true,
-    "stats_thresholds": {
-      "PlagueDoctor": {
+    "stats_thresholds": [
+      {
         "name": "PlagueDoctor",
         "threshold": 1
       }
-    }
+    ]
   },
-  "Ranger": {
+  {
     "achievement_id": "Ranger",
     "unlocked_display_name": "Ranger",
     "unlocked_description": "You've walked more than 50 Km.",
@@ -1148,17 +1148,17 @@
     "hidden_description": "Walk more than 50 Km.",
     "flavor_text": "",
     "completion_description": "You've walked more than 50 Km.",
-    "unlocked_icon_url": "achievements_images/Ranger.jpg",
-    "locked_icon_url": "achievements_images/Ranger_locked.jpg",
+    "unlocked_icon_url": "Ranger",
+    "locked_icon_url": "Ranger_locked",
     "is_hidden": false,
-    "stats_thresholds": {
-      "Ranger": {
+    "stats_thresholds": [
+      {
         "name": "Ranger",
         "threshold": 1
       }
-    }
+    ]
   },
-  "RevenantOfLedechko": {
+  {
     "achievement_id": "RevenantOfLedechko",
     "unlocked_display_name": "Ledetchko Revenant",
     "unlocked_description": "You've taken your revenant duties very seriously in your haunting of Ledetchko.",
@@ -1167,17 +1167,17 @@
     "hidden_description": "Think up even more ways to haunt the Ledetchko villagers than the charlatan told you.\t",
     "flavor_text": "",
     "completion_description": "You've taken your revenant duties very seriously in your haunting of Ledetchko.",
-    "unlocked_icon_url": "achievements_images/RevenantOfLedechko.jpg",
-    "locked_icon_url": "achievements_images/RevenantOfLedechko_locked.jpg",
+    "unlocked_icon_url": "RevenantOfLedechko",
+    "locked_icon_url": "RevenantOfLedechko_locked",
     "is_hidden": true,
-    "stats_thresholds": {
-      "RevenantOfLedechko": {
+    "stats_thresholds": [
+      {
         "name": "RevenantOfLedechko",
         "threshold": 1
       }
-    }
+    ]
   },
-  "RobberBaron": {
+  {
     "achievement_id": "RobberBaron",
     "unlocked_display_name": "Robber Baron",
     "unlocked_description": "You drove Wolflin out of the province.",
@@ -1186,17 +1186,17 @@
     "hidden_description": "Complete the Robber Baron quest.",
     "flavor_text": "",
     "completion_description": "You drove Wolflin out of the province.",
-    "unlocked_icon_url": "achievements_images/RobberBaron.jpg",
-    "locked_icon_url": "achievements_images/RobberBaron_locked.jpg",
+    "unlocked_icon_url": "RobberBaron",
+    "locked_icon_url": "RobberBaron_locked",
     "is_hidden": true,
-    "stats_thresholds": {
-      "RobberBaron": {
+    "stats_thresholds": [
+      {
         "name": "RobberBaron",
         "threshold": 1
       }
-    }
+    ]
   },
-  "Runt": {
+  {
     "achievement_id": "Runt",
     "unlocked_display_name": "Runt",
     "unlocked_description": "You killed Runt.",
@@ -1205,17 +1205,17 @@
     "hidden_description": "Kill Runt.",
     "flavor_text": "",
     "completion_description": "You killed Runt.",
-    "unlocked_icon_url": "achievements_images/Runt.jpg",
-    "locked_icon_url": "achievements_images/Runt_locked.jpg",
+    "unlocked_icon_url": "Runt",
+    "locked_icon_url": "Runt_locked",
     "is_hidden": true,
-    "stats_thresholds": {
-      "Runt": {
+    "stats_thresholds": [
+      {
         "name": "Runt",
         "threshold": 1
       }
-    }
+    ]
   },
-  "Saviour": {
+  {
     "achievement_id": "Saviour",
     "unlocked_display_name": "Saviour",
     "unlocked_description": "All the survivors have been rescued.",
@@ -1224,17 +1224,17 @@
     "hidden_description": "Rescue all the survivors.",
     "flavor_text": "",
     "completion_description": "All the survivors have been rescued.",
-    "unlocked_icon_url": "achievements_images/Saviour.jpg",
-    "locked_icon_url": "achievements_images/Saviour_locked.jpg",
+    "unlocked_icon_url": "Saviour",
+    "locked_icon_url": "Saviour_locked",
     "is_hidden": true,
-    "stats_thresholds": {
-      "Saviour": {
+    "stats_thresholds": [
+      {
         "name": "Saviour",
         "threshold": 1
       }
-    }
+    ]
   },
-  "Scrooge": {
+  {
     "achievement_id": "Scrooge",
     "unlocked_display_name": "Scrooge",
     "unlocked_description": "You've saved up 5,000 Groschen.",
@@ -1243,17 +1243,17 @@
     "hidden_description": "Hoard 5,000 Groschen.",
     "flavor_text": "",
     "completion_description": "You've saved up 5,000 Groschen.",
-    "unlocked_icon_url": "achievements_images/Scrooge.jpg",
-    "locked_icon_url": "achievements_images/Scrooge_locked.jpg",
+    "unlocked_icon_url": "Scrooge",
+    "locked_icon_url": "Scrooge_locked",
     "is_hidden": false,
-    "stats_thresholds": {
-      "Scrooge": {
+    "stats_thresholds": [
+      {
         "name": "Scrooge",
         "threshold": 1
       }
-    }
+    ]
   },
-  "SerialKiller": {
+  {
     "achievement_id": "SerialKiller",
     "unlocked_display_name": "Serial Killer",
     "unlocked_description": "You've killed 200 people.",
@@ -1262,17 +1262,17 @@
     "hidden_description": "Kill 200 people.",
     "flavor_text": "",
     "completion_description": "You've killed 200 people.",
-    "unlocked_icon_url": "achievements_images/SerialKiller.jpg",
-    "locked_icon_url": "achievements_images/SerialKiller_locked.jpg",
+    "unlocked_icon_url": "SerialKiller",
+    "locked_icon_url": "SerialKiller_locked",
     "is_hidden": false,
-    "stats_thresholds": {
-      "SerialKiller": {
+    "stats_thresholds": [
+      {
         "name": "SerialKiller",
         "threshold": 1
       }
-    }
+    ]
   },
-  "Sinner": {
+  {
     "achievement_id": "Sinner",
     "unlocked_display_name": "Sinner",
     "unlocked_description": "You got drunk with the parish priest.",
@@ -1281,17 +1281,17 @@
     "hidden_description": "Get drunk with Father Godwin.",
     "flavor_text": "",
     "completion_description": "You got drunk with the parish priest.",
-    "unlocked_icon_url": "achievements_images/Sinner.jpg",
-    "locked_icon_url": "achievements_images/Sinner_locked.jpg",
+    "unlocked_icon_url": "Sinner",
+    "locked_icon_url": "Sinner_locked",
     "is_hidden": true,
-    "stats_thresholds": {
-      "Sinner": {
+    "stats_thresholds": [
+      {
         "name": "Sinner",
         "threshold": 1
       }
-    }
+    ]
   },
-  "Sniper": {
+  {
     "achievement_id": "Sniper",
     "unlocked_display_name": "Sniper",
     "unlocked_description": "You've killed 50 enemies with headshots.",
@@ -1300,17 +1300,17 @@
     "hidden_description": "Kill 50 enemies with headshots.",
     "flavor_text": "",
     "completion_description": "You've killed 50 enemies with headshots.",
-    "unlocked_icon_url": "achievements_images/Sniper.jpg",
-    "locked_icon_url": "achievements_images/Sniper_locked.jpg",
+    "unlocked_icon_url": "Sniper",
+    "locked_icon_url": "Sniper_locked",
     "is_hidden": false,
-    "stats_thresholds": {
-      "Sniper": {
+    "stats_thresholds": [
+      {
         "name": "Sniper",
         "threshold": 1
       }
-    }
+    ]
   },
-  "StealthKiller": {
+  {
     "achievement_id": "StealthKiller",
     "unlocked_display_name": "Stealth Killer",
     "unlocked_description": "You've killed twenty enemies by stealth.",
@@ -1319,17 +1319,17 @@
     "hidden_description": "Kill twenty enemies by stealth",
     "flavor_text": "",
     "completion_description": "You've killed twenty enemies by stealth.",
-    "unlocked_icon_url": "achievements_images/StealthKiller.jpg",
-    "locked_icon_url": "achievements_images/StealthKiller_locked.jpg",
+    "unlocked_icon_url": "StealthKiller",
+    "locked_icon_url": "StealthKiller_locked",
     "is_hidden": false,
-    "stats_thresholds": {
-      "StealthKiller": {
+    "stats_thresholds": [
+      {
         "name": "StealthKiller",
         "threshold": 1
       }
-    }
+    ]
   },
-  "TalmbergPreparation": {
+  {
     "achievement_id": "TalmbergPreparation",
     "unlocked_display_name": "Talmberger",
     "unlocked_description": "You did everything you could in the siege of Talmberg.",
@@ -1338,17 +1338,17 @@
     "hidden_description": "Complete all Optional Objectives in Siege quest",
     "flavor_text": "",
     "completion_description": "You did everything you could in the siege of Talmberg.",
-    "unlocked_icon_url": "achievements_images/TalmbergPreparation.jpg",
-    "locked_icon_url": "achievements_images/TalmbergPreparation_locked.jpg",
+    "unlocked_icon_url": "TalmbergPreparation",
+    "locked_icon_url": "TalmbergPreparation_locked",
     "is_hidden": true,
-    "stats_thresholds": {
-      "TalmbergPreparation": {
+    "stats_thresholds": [
+      {
         "name": "TalmbergPreparation",
         "threshold": 1
       }
-    }
+    ]
   },
-  "TheEnd": {
+  {
     "achievement_id": "TheEnd",
     "unlocked_display_name": "The End",
     "unlocked_description": "You finished the main story line.",
@@ -1357,17 +1357,17 @@
     "hidden_description": "Complete the main story line.",
     "flavor_text": "",
     "completion_description": "You finished the main story line.",
-    "unlocked_icon_url": "achievements_images/TheEnd.jpg",
-    "locked_icon_url": "achievements_images/TheEnd_locked.jpg",
+    "unlocked_icon_url": "TheEnd",
+    "locked_icon_url": "TheEnd_locked",
     "is_hidden": false,
-    "stats_thresholds": {
-      "TheEnd": {
+    "stats_thresholds": [
+      {
         "name": "TheEnd",
         "threshold": 1
       }
-    }
+    ]
   },
-  "Thief": {
+  {
     "achievement_id": "Thief",
     "unlocked_display_name": "Thief",
     "unlocked_description": "You've stolen things with a total value of 30,000 Groschen.",
@@ -1376,17 +1376,17 @@
     "hidden_description": "Steal things with a total value of 30,000 Groschen.",
     "flavor_text": "",
     "completion_description": "You've stolen things with a total value of 30,000 Groschen.",
-    "unlocked_icon_url": "achievements_images/Thief.jpg",
-    "locked_icon_url": "achievements_images/Thief_locked.jpg",
+    "unlocked_icon_url": "Thief",
+    "locked_icon_url": "Thief_locked",
     "is_hidden": false,
-    "stats_thresholds": {
-      "Thief": {
+    "stats_thresholds": [
+      {
         "name": "Thief",
         "threshold": 1
       }
-    }
+    ]
   },
-  "TisButAScratch": {
+  {
     "achievement_id": "TisButAScratch",
     "unlocked_display_name": "'Tis but a scratch",
     "unlocked_description": "You've finished the game in Hardcore Mode with all negative perks.",
@@ -1395,17 +1395,17 @@
     "hidden_description": "Finish the game in Hardcore Mode with all negative perks.",
     "flavor_text": "",
     "completion_description": "You've finished the game in Hardcore Mode with all negative perks.",
-    "unlocked_icon_url": "achievements_images/TisButAScratch.jpg",
-    "locked_icon_url": "achievements_images/TisButAScratch_locked.jpg",
+    "unlocked_icon_url": "TisButAScratch",
+    "locked_icon_url": "TisButAScratch_locked",
     "is_hidden": false,
-    "stats_thresholds": {
-      "TisButAScratch": {
+    "stats_thresholds": [
+      {
         "name": "TisButAScratch",
         "threshold": 1
       }
-    }
+    ]
   },
-  "Torture": {
+  {
     "achievement_id": "Torture",
     "unlocked_display_name": "Torturer",
     "unlocked_description": "You left Jakey tied to the tree to consider the error of his ways.",
@@ -1414,17 +1414,17 @@
     "hidden_description": "Leave Jakey to consider the error of his ways.",
     "flavor_text": "",
     "completion_description": "You left Jakey tied to the tree to consider the error of his ways.",
-    "unlocked_icon_url": "achievements_images/Torture.jpg",
-    "locked_icon_url": "achievements_images/Torture_locked.jpg",
+    "unlocked_icon_url": "Torture",
+    "locked_icon_url": "Torture_locked",
     "is_hidden": true,
-    "stats_thresholds": {
-      "Torture": {
+    "stats_thresholds": [
+      {
         "name": "Torture",
         "threshold": 1
       }
-    }
+    ]
   },
-  "Tracker": {
+  {
     "achievement_id": "Tracker",
     "unlocked_display_name": "Tracker",
     "unlocked_description": "You tracked down the raiders who attacked the farm.",
@@ -1433,17 +1433,17 @@
     "hidden_description": "Track down the raiders who attacked the farm.",
     "flavor_text": "",
     "completion_description": "You tracked down the raiders who attacked the farm.",
-    "unlocked_icon_url": "achievements_images/Tracker.jpg",
-    "locked_icon_url": "achievements_images/Tracker_locked.jpg",
+    "unlocked_icon_url": "Tracker",
+    "locked_icon_url": "Tracker_locked",
     "is_hidden": true,
-    "stats_thresholds": {
-      "Tracker": {
+    "stats_thresholds": [
+      {
         "name": "Tracker",
         "threshold": 1
       }
-    }
+    ]
   },
-  "Traveller": {
+  {
     "achievement_id": "Traveller",
     "unlocked_display_name": "Traveller",
     "unlocked_description": "You've discovered all the locations on the map.",
@@ -1452,17 +1452,17 @@
     "hidden_description": "Discover all locations on the map.",
     "flavor_text": "",
     "completion_description": "You've discovered all the locations on the map.",
-    "unlocked_icon_url": "achievements_images/Traveller.jpg",
-    "locked_icon_url": "achievements_images/Traveller_locked.jpg",
+    "unlocked_icon_url": "Traveller",
+    "locked_icon_url": "Traveller_locked",
     "is_hidden": false,
-    "stats_thresholds": {
-      "Traveller": {
+    "stats_thresholds": [
+      {
         "name": "Traveller",
         "threshold": 1
       }
-    }
+    ]
   },
-  "TrialAndError": {
+  {
     "achievement_id": "TrialAndError",
     "unlocked_display_name": "Trial-And-Error",
     "unlocked_description": "You've renewed the whole of Pribyslavitz without being able to read.",
@@ -1471,17 +1471,17 @@
     "hidden_description": "Renew the whole of Pribyslavitz without being able to read. ",
     "flavor_text": "",
     "completion_description": "You've renewed the whole of Pribyslavitz without being able to read.",
-    "unlocked_icon_url": "achievements_images/TrialAndError.jpg",
-    "locked_icon_url": "achievements_images/TrialAndError_locked.jpg",
+    "unlocked_icon_url": "TrialAndError",
+    "locked_icon_url": "TrialAndError_locked",
     "is_hidden": true,
-    "stats_thresholds": {
-      "TrialAndError": {
+    "stats_thresholds": [
+      {
         "name": "TrialAndError",
         "threshold": 1
       }
-    }
+    ]
   },
-  "TrueFriend": {
+  {
     "achievement_id": "TrueFriend",
     "unlocked_display_name": "True Friend",
     "unlocked_description": "Your trust in Lord Capon is indisputable. Or you're an idiot.",
@@ -1490,17 +1490,17 @@
     "hidden_description": "Capon will succeed, even though you sent him off with a nasty rash.",
     "flavor_text": "",
     "completion_description": "Your trust in Lord Capon is indisputable. Or you're an idiot.",
-    "unlocked_icon_url": "achievements_images/TrueFriend.jpg",
-    "locked_icon_url": "achievements_images/TrueFriend_locked.jpg",
+    "unlocked_icon_url": "TrueFriend",
+    "locked_icon_url": "TrueFriend_locked",
     "is_hidden": true,
-    "stats_thresholds": {
-      "TrueFriend": {
+    "stats_thresholds": [
+      {
         "name": "TrueFriend",
         "threshold": 1
       }
-    }
+    ]
   },
-  "Virgin": {
+  {
     "achievement_id": "Virgin",
     "unlocked_display_name": "Virgin",
     "unlocked_description": "You finished the game as a virgin.",
@@ -1509,17 +1509,17 @@
     "hidden_description": "Stay celibate and complete the entire game as a virgin.",
     "flavor_text": "",
     "completion_description": "You finished the game as a virgin.",
-    "unlocked_icon_url": "achievements_images/Virgin.jpg",
-    "locked_icon_url": "achievements_images/Virgin_locked.jpg",
+    "unlocked_icon_url": "Virgin",
+    "locked_icon_url": "Virgin_locked",
     "is_hidden": true,
-    "stats_thresholds": {
-      "Virgin": {
+    "stats_thresholds": [
+      {
         "name": "Virgin",
         "threshold": 1
       }
-    }
+    ]
   },
-  "Voyeur": {
+  {
     "achievement_id": "Voyeur",
     "unlocked_display_name": "Voyeur",
     "unlocked_description": "You decided to see what Henslin had in his braies without being observed.",
@@ -1528,17 +1528,17 @@
     "hidden_description": "See what Henslin has in his braies without being observed.",
     "flavor_text": "",
     "completion_description": "You decided to see what Henslin had in his braies without being observed.",
-    "unlocked_icon_url": "achievements_images/Voyeur.jpg",
-    "locked_icon_url": "achievements_images/Voyeur_locked.jpg",
+    "unlocked_icon_url": "Voyeur",
+    "locked_icon_url": "Voyeur_locked",
     "is_hidden": false,
-    "stats_thresholds": {
-      "Voyeur": {
+    "stats_thresholds": [
+      {
         "name": "Voyeur",
         "threshold": 1
       }
-    }
+    ]
   },
-  "Wingman": {
+  {
     "achievement_id": "Wingman",
     "unlocked_display_name": "Wingman",
     "unlocked_description": "You've been of invaluable assistance to the great lover, Sir Hans Capon.",
@@ -1547,14 +1547,14 @@
     "hidden_description": "Everything has to go according to Sir Hans' plan.",
     "flavor_text": "",
     "completion_description": "You've been of invaluable assistance to the great lover, Sir Hans Capon.",
-    "unlocked_icon_url": "achievements_images/Wingman.jpg",
-    "locked_icon_url": "achievements_images/Wingman_locked.jpg",
+    "unlocked_icon_url": "Wingman",
+    "locked_icon_url": "Wingman_locked",
     "is_hidden": true,
-    "stats_thresholds": {
-      "Wingman": {
+    "stats_thresholds": [
+      {
         "name": "Wingman",
         "threshold": 1
       }
-    }
+    ]
   }
-}
+]

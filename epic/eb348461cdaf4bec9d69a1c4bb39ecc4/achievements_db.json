@@ -1,5 +1,5 @@
-{
-  "Achievement_01_The_Fool": {
+[
+  {
     "achievement_id": "Achievement_01_The_Fool",
     "unlocked_display_name": "The Fool",
     "unlocked_description": "Completed the Fool challenge.",
@@ -8,11 +8,11 @@
     "hidden_description": "Complete the Fool challenge.",
     "flavor_text": "",
     "completion_description": "Completed the Fool challenge.",
-    "unlocked_icon_url": "achievements_images/Achievement_01_The_Fool.jpg",
-    "locked_icon_url": "achievements_images/Achievement_01_The_Fool_locked.jpg",
+    "unlocked_icon_url": "Achievement_01_The_Fool",
+    "locked_icon_url": "Achievement_01_The_Fool_locked",
     "is_hidden": false
   },
-  "Achievement_02_Apprentice": {
+  {
     "achievement_id": "Achievement_02_Apprentice",
     "unlocked_display_name": "Apprentice",
     "unlocked_description": "Completed 2 challenges.",
@@ -21,11 +21,11 @@
     "hidden_description": "Complete any 2 challenges.",
     "flavor_text": "",
     "completion_description": "Completed 2 challenges.",
-    "unlocked_icon_url": "achievements_images/Achievement_02_Apprentice.jpg",
-    "locked_icon_url": "achievements_images/Achievement_02_Apprentice_locked.jpg",
+    "unlocked_icon_url": "Achievement_02_Apprentice",
+    "locked_icon_url": "Achievement_02_Apprentice_locked",
     "is_hidden": false
   },
-  "Achievement_03_Mercenary": {
+  {
     "achievement_id": "Achievement_03_Mercenary",
     "unlocked_display_name": "Mercenary",
     "unlocked_description": "Completed 5 challenges.",
@@ -34,11 +34,11 @@
     "hidden_description": "Complete any 5 challenges.",
     "flavor_text": "",
     "completion_description": "Completed 5 challenges.",
-    "unlocked_icon_url": "achievements_images/Achievement_03_Mercenary.jpg",
-    "locked_icon_url": "achievements_images/Achievement_03_Mercenary_locked.jpg",
+    "unlocked_icon_url": "Achievement_03_Mercenary",
+    "locked_icon_url": "Achievement_03_Mercenary_locked",
     "is_hidden": false
   },
-  "Achievement_04_Adventurer": {
+  {
     "achievement_id": "Achievement_04_Adventurer",
     "unlocked_display_name": "Adventurer",
     "unlocked_description": "Completed 10 challenges.",
@@ -47,11 +47,11 @@
     "hidden_description": "Complete any 10 challenges.",
     "flavor_text": "",
     "completion_description": "Completed 10 challenges.",
-    "unlocked_icon_url": "achievements_images/Achievement_04_Adventurer.jpg",
-    "locked_icon_url": "achievements_images/Achievement_04_Adventurer_locked.jpg",
+    "unlocked_icon_url": "Achievement_04_Adventurer",
+    "locked_icon_url": "Achievement_04_Adventurer_locked",
     "is_hidden": false
   },
-  "Achievement_05_Protector_of_the_Realm": {
+  {
     "achievement_id": "Achievement_05_Protector_of_the_Realm",
     "unlocked_display_name": "Protector of the Realm",
     "unlocked_description": "Completed all 22 challenges.",
@@ -60,11 +60,11 @@
     "hidden_description": "Complete all 22 challenges.",
     "flavor_text": "",
     "completion_description": "Completed all 22 challenges.",
-    "unlocked_icon_url": "achievements_images/Achievement_05_Protector_of_the_Realm.jpg",
-    "locked_icon_url": "achievements_images/Achievement_05_Protector_of_the_Realm_locked.jpg",
+    "unlocked_icon_url": "Achievement_05_Protector_of_the_Realm",
+    "locked_icon_url": "Achievement_05_Protector_of_the_Realm_locked",
     "is_hidden": false
   },
-  "Achievement_06_Knight": {
+  {
     "achievement_id": "Achievement_06_Knight",
     "unlocked_display_name": "Knight",
     "unlocked_description": "Unlocked 7 Gold challenge tokens.",
@@ -73,11 +73,11 @@
     "hidden_description": "Unlock 7 Gold challenge tokens.",
     "flavor_text": "",
     "completion_description": "Unlocked 7 Gold challenge tokens.",
-    "unlocked_icon_url": "achievements_images/Achievement_06_Knight.jpg",
-    "locked_icon_url": "achievements_images/Achievement_06_Knight_locked.jpg",
+    "unlocked_icon_url": "Achievement_06_Knight",
+    "locked_icon_url": "Achievement_06_Knight_locked",
     "is_hidden": false
   },
-  "Achievement_07_Dungeon_Master": {
+  {
     "achievement_id": "Achievement_07_Dungeon_Master",
     "unlocked_display_name": "Dungeon Master",
     "unlocked_description": "Unlocked 22 Gold challenge tokens.",
@@ -86,11 +86,11 @@
     "hidden_description": "Unlock 22 Gold challenge tokens.",
     "flavor_text": "",
     "completion_description": "Unlocked 22 Gold challenge tokens.",
-    "unlocked_icon_url": "achievements_images/Achievement_07_Dungeon_Master.jpg",
-    "locked_icon_url": "achievements_images/Achievement_07_Dungeon_Master_locked.jpg",
+    "unlocked_icon_url": "Achievement_07_Dungeon_Master",
+    "locked_icon_url": "Achievement_07_Dungeon_Master_locked",
     "is_hidden": false
   },
-  "Achievement_08_Card_Sharp": {
+  {
     "achievement_id": "Achievement_08_Card_Sharp",
     "unlocked_display_name": "Card Sharp",
     "unlocked_description": "Got Huge Success in 10 Chance Gambits.",
@@ -99,11 +99,11 @@
     "hidden_description": "Get Huge Success in 10 Chance Gambits.",
     "flavor_text": "",
     "completion_description": "Got Huge Success in 10 Chance Gambits.",
-    "unlocked_icon_url": "achievements_images/Achievement_08_Card_Sharp.jpg",
-    "locked_icon_url": "achievements_images/Achievement_08_Card_Sharp_locked.jpg",
+    "unlocked_icon_url": "Achievement_08_Card_Sharp",
+    "locked_icon_url": "Achievement_08_Card_Sharp_locked",
     "is_hidden": false
   },
-  "Achievement_09_Gambler": {
+  {
     "achievement_id": "Achievement_09_Gambler",
     "unlocked_display_name": "Gambler",
     "unlocked_description": "Won 20 Dice Gambits.",
@@ -112,11 +112,11 @@
     "hidden_description": "Win 20 Dice Gambits.",
     "flavor_text": "",
     "completion_description": "Won 20 Dice Gambits.",
-    "unlocked_icon_url": "achievements_images/Achievement_09_Gambler.jpg",
-    "locked_icon_url": "achievements_images/Achievement_09_Gambler_locked.jpg",
+    "unlocked_icon_url": "Achievement_09_Gambler",
+    "locked_icon_url": "Achievement_09_Gambler_locked",
     "is_hidden": false
   },
-  "Achievement_10_Long_Shot": {
+  {
     "achievement_id": "Achievement_10_Long_Shot",
     "unlocked_display_name": "Long Shot",
     "unlocked_description": "Got Huge Success in 10 Pendulum Gambits.",
@@ -125,11 +125,11 @@
     "hidden_description": "Get Huge Success in 10 Pendulum Gambits.",
     "flavor_text": "",
     "completion_description": "Got Huge Success in 10 Pendulum Gambits.",
-    "unlocked_icon_url": "achievements_images/Achievement_10_Long_Shot.jpg",
-    "locked_icon_url": "achievements_images/Achievement_10_Long_Shot_locked.jpg",
+    "unlocked_icon_url": "Achievement_10_Long_Shot",
+    "locked_icon_url": "Achievement_10_Long_Shot_locked",
     "is_hidden": false
   },
-  "Achievement_11_Grifter": {
+  {
     "achievement_id": "Achievement_11_Grifter",
     "unlocked_display_name": "Grifter",
     "unlocked_description": "Got Huge Success in 10 Wheel Gambits.",
@@ -138,11 +138,11 @@
     "hidden_description": "Get Huge Success in 10 Wheel Gambits.",
     "flavor_text": "",
     "completion_description": "Got Huge Success in 10 Wheel Gambits.",
-    "unlocked_icon_url": "achievements_images/Achievement_11_Grifter.jpg",
-    "locked_icon_url": "achievements_images/Achievement_11_Grifter_locked.jpg",
+    "unlocked_icon_url": "Achievement_11_Grifter",
+    "locked_icon_url": "Achievement_11_Grifter_locked",
     "is_hidden": false
   },
-  "Achievement_12_Jack_of_all_Trades": {
+  {
     "achievement_id": "Achievement_12_Jack_of_all_Trades",
     "unlocked_display_name": "Jack of all Trades",
     "unlocked_description": "Got Success or Huge Success in a Chance, Pendulum and Wheel Gambit in a single challenge attempt.",
@@ -151,11 +151,11 @@
     "hidden_description": "Get Success or Huge Success in a Chance, Pendulum and Wheel Gambit in a single challenge attempt.",
     "flavor_text": "",
     "completion_description": "Got Success or Huge Success in a Chance, Pendulum and Wheel Gambit in a single challenge attempt.",
-    "unlocked_icon_url": "achievements_images/Achievement_12_Jack_of_all_Trades.jpg",
-    "locked_icon_url": "achievements_images/Achievement_12_Jack_of_all_Trades_locked.jpg",
+    "unlocked_icon_url": "Achievement_12_Jack_of_all_Trades",
+    "locked_icon_url": "Achievement_12_Jack_of_all_Trades_locked",
     "is_hidden": false
   },
-  "Achievement_13_Dice_Master": {
+  {
     "achievement_id": "Achievement_13_Dice_Master",
     "unlocked_display_name": "Dice Master",
     "unlocked_description": "Won 5 Dice Gambits in a single challenge attempt.",
@@ -164,11 +164,11 @@
     "hidden_description": "Win 5 Dice Gambits in a single challenge attempt.",
     "flavor_text": "",
     "completion_description": "Won 5 Dice Gambits in a single challenge attempt.",
-    "unlocked_icon_url": "achievements_images/Achievement_13_Dice_Master.jpg",
-    "locked_icon_url": "achievements_images/Achievement_13_Dice_Master_locked.jpg",
+    "unlocked_icon_url": "Achievement_13_Dice_Master",
+    "locked_icon_url": "Achievement_13_Dice_Master_locked",
     "is_hidden": false
   },
-  "Achievement_14_Magician": {
+  {
     "achievement_id": "Achievement_14_Magician",
     "unlocked_display_name": "Magician",
     "unlocked_description": "Unlocked The Magician companion card.",
@@ -177,11 +177,11 @@
     "hidden_description": "Unlock The Magician companion card.",
     "flavor_text": "",
     "completion_description": "Unlocked The Magician companion card.",
-    "unlocked_icon_url": "achievements_images/Achievement_14_Magician.jpg",
-    "locked_icon_url": "achievements_images/Achievement_14_Magician_locked.jpg",
+    "unlocked_icon_url": "Achievement_14_Magician",
+    "locked_icon_url": "Achievement_14_Magician_locked",
     "is_hidden": false
   },
-  "Achievement_15_Hero": {
+  {
     "achievement_id": "Achievement_15_Hero",
     "unlocked_display_name": "Hero",
     "unlocked_description": "Unlocked The Hero companion card.",
@@ -190,11 +190,11 @@
     "hidden_description": "Unlock The Hero companion card.",
     "flavor_text": "",
     "completion_description": "Unlocked The Hero companion card.",
-    "unlocked_icon_url": "achievements_images/Achievement_15_Hero.jpg",
-    "locked_icon_url": "achievements_images/Achievement_15_Hero_locked.jpg",
+    "unlocked_icon_url": "Achievement_15_Hero",
+    "locked_icon_url": "Achievement_15_Hero_locked",
     "is_hidden": false
   },
-  "Achievement_16_Ally": {
+  {
     "achievement_id": "Achievement_16_Ally",
     "unlocked_display_name": "Ally",
     "unlocked_description": "Unlocked The Ally companion card.",
@@ -203,11 +203,11 @@
     "hidden_description": "Unlock The Ally companion card.",
     "flavor_text": "",
     "completion_description": "Unlocked The Ally companion card.",
-    "unlocked_icon_url": "achievements_images/Achievement_16_Ally.jpg",
-    "locked_icon_url": "achievements_images/Achievement_16_Ally_locked.jpg",
+    "unlocked_icon_url": "Achievement_16_Ally",
+    "locked_icon_url": "Achievement_16_Ally_locked",
     "is_hidden": false
   },
-  "Achievement_17_Rebel": {
+  {
     "achievement_id": "Achievement_17_Rebel",
     "unlocked_display_name": "Rebel",
     "unlocked_description": "Unlocked The Rebel companion card.",
@@ -216,11 +216,11 @@
     "hidden_description": "Unlock The Rebel companion card.",
     "flavor_text": "",
     "completion_description": "Unlocked The Rebel companion card.",
-    "unlocked_icon_url": "achievements_images/Achievement_17_Rebel.jpg",
-    "locked_icon_url": "achievements_images/Achievement_17_Rebel_locked.jpg",
+    "unlocked_icon_url": "Achievement_17_Rebel",
+    "locked_icon_url": "Achievement_17_Rebel_locked",
     "is_hidden": false
   },
-  "Achievement_18_Ninja": {
+  {
     "achievement_id": "Achievement_18_Ninja",
     "unlocked_display_name": "Ninja",
     "unlocked_description": "Completed 3 combats while taking no damage, in a single challenge attempt.",
@@ -229,11 +229,11 @@
     "hidden_description": "Complete 3 combats while taking no damage, in a single challenge attempt.",
     "flavor_text": "",
     "completion_description": "Completed 3 combats while taking no damage, in a single challenge attempt.",
-    "unlocked_icon_url": "achievements_images/Achievement_18_Ninja.jpg",
-    "locked_icon_url": "achievements_images/Achievement_18_Ninja_locked.jpg",
+    "unlocked_icon_url": "Achievement_18_Ninja",
+    "locked_icon_url": "Achievement_18_Ninja_locked",
     "is_hidden": false
   },
-  "Achievement_19_Thief_Bane": {
+  {
     "achievement_id": "Achievement_19_Thief_Bane",
     "unlocked_display_name": "Thief Bane",
     "unlocked_description": "Defeated 50 Thieves in combat.",
@@ -242,11 +242,11 @@
     "hidden_description": "Defeat 50 Thieves in combat.",
     "flavor_text": "",
     "completion_description": "Defeated 50 Thieves in combat.",
-    "unlocked_icon_url": "achievements_images/Achievement_19_Thief_Bane.jpg",
-    "locked_icon_url": "achievements_images/Achievement_19_Thief_Bane_locked.jpg",
+    "unlocked_icon_url": "Achievement_19_Thief_Bane",
+    "locked_icon_url": "Achievement_19_Thief_Bane_locked",
     "is_hidden": false
   },
-  "Achievement_20_Northern_Scourge": {
+  {
     "achievement_id": "Achievement_20_Northern_Scourge",
     "unlocked_display_name": "Northern Scourge",
     "unlocked_description": "Defeated 50 Northerners in combat.",
@@ -255,11 +255,11 @@
     "hidden_description": "Defeat 50 Northerners in combat.",
     "flavor_text": "",
     "completion_description": "Defeated 50 Northerners in combat.",
-    "unlocked_icon_url": "achievements_images/Achievement_20_Northern_Scourge.jpg",
-    "locked_icon_url": "achievements_images/Achievement_20_Northern_Scourge_locked.jpg",
+    "unlocked_icon_url": "Achievement_20_Northern_Scourge",
+    "locked_icon_url": "Achievement_20_Northern_Scourge_locked",
     "is_hidden": false
   },
-  "Achievement_21_Empires_Bane": {
+  {
     "achievement_id": "Achievement_21_Empires_Bane",
     "unlocked_display_name": "Empire's Bane",
     "unlocked_description": "Defeated 50 Imperials in combat.",
@@ -268,11 +268,11 @@
     "hidden_description": "Defeat 50 Imperials in combat.",
     "flavor_text": "",
     "completion_description": "Defeated 50 Imperials in combat.",
-    "unlocked_icon_url": "achievements_images/Achievement_21_Empires_Bane.jpg",
-    "locked_icon_url": "achievements_images/Achievement_21_Empires_Bane_locked.jpg",
+    "unlocked_icon_url": "Achievement_21_Empires_Bane",
+    "locked_icon_url": "Achievement_21_Empires_Bane_locked",
     "is_hidden": false
   },
-  "Achievement_22_Cure_for_Corruption": {
+  {
     "achievement_id": "Achievement_22_Cure_for_Corruption",
     "unlocked_display_name": "Cure for Corruption",
     "unlocked_description": "Defeated 50 corrupted in combat.",
@@ -281,11 +281,11 @@
     "hidden_description": "Defeat 50 corrupted in combat.",
     "flavor_text": "",
     "completion_description": "Defeated 50 corrupted in combat.",
-    "unlocked_icon_url": "achievements_images/Achievement_22_Cure_for_Corruption.jpg",
-    "locked_icon_url": "achievements_images/Achievement_22_Cure_for_Corruption_locked.jpg",
+    "unlocked_icon_url": "Achievement_22_Cure_for_Corruption",
+    "locked_icon_url": "Achievement_22_Cure_for_Corruption_locked",
     "is_hidden": false
   },
-  "Achievement_23_Smithy": {
+  {
     "achievement_id": "Achievement_23_Smithy",
     "unlocked_display_name": "Smithy",
     "unlocked_description": "Unlocked 3 Equipment tokens.",
@@ -294,11 +294,11 @@
     "hidden_description": "Unlock 3 Equipment tokens.",
     "flavor_text": "",
     "completion_description": "Unlocked 3 Equipment tokens.",
-    "unlocked_icon_url": "achievements_images/Achievement_23_Smithy.jpg",
-    "locked_icon_url": "achievements_images/Achievement_23_Smithy_locked.jpg",
+    "unlocked_icon_url": "Achievement_23_Smithy",
+    "locked_icon_url": "Achievement_23_Smithy_locked",
     "is_hidden": false
   },
-  "Achievement_24_Leap_of_Faith": {
+  {
     "achievement_id": "Achievement_24_Leap_of_Faith",
     "unlocked_display_name": "Leap of Faith",
     "unlocked_description": "Knocked 20 enemies off of ledges during combat.",
@@ -307,11 +307,11 @@
     "hidden_description": "Knock 20 enemies off of ledges during combat.",
     "flavor_text": "",
     "completion_description": "Knocked 20 enemies off of ledges during combat.",
-    "unlocked_icon_url": "achievements_images/Achievement_24_Leap_of_Faith.jpg",
-    "locked_icon_url": "achievements_images/Achievement_24_Leap_of_Faith_locked.jpg",
+    "unlocked_icon_url": "Achievement_24_Leap_of_Faith",
+    "locked_icon_url": "Achievement_24_Leap_of_Faith_locked",
     "is_hidden": false
   },
-  "Achievement_25_Purgatorium": {
+  {
     "achievement_id": "Achievement_25_Purgatorium",
     "unlocked_display_name": "Purgatorium",
     "unlocked_description": "Completed 3 Brimstone tokens.",
@@ -320,11 +320,11 @@
     "hidden_description": "Complete 3 Brimstone tokens.",
     "flavor_text": "",
     "completion_description": "Completed 3 Brimstone tokens.",
-    "unlocked_icon_url": "achievements_images/Achievement_25_Purgatorium.jpg",
-    "locked_icon_url": "achievements_images/Achievement_25_Purgatorium_locked.jpg",
+    "unlocked_icon_url": "Achievement_25_Purgatorium",
+    "locked_icon_url": "Achievement_25_Purgatorium_locked",
     "is_hidden": false
   },
-  "Achievement_26_Gamester": {
+  {
     "achievement_id": "Achievement_26_Gamester",
     "unlocked_display_name": "Gamester",
     "unlocked_description": "Won all 3 games against Thomas in a single encounter attempt.",
@@ -333,11 +333,11 @@
     "hidden_description": "Win all 3 games against Thomas in a single encounter attempt.",
     "flavor_text": "",
     "completion_description": "Won all 3 games against Thomas in a single encounter attempt.",
-    "unlocked_icon_url": "achievements_images/Achievement_26_Gamester.jpg",
-    "locked_icon_url": "achievements_images/Achievement_26_Gamester_locked.jpg",
+    "unlocked_icon_url": "Achievement_26_Gamester",
+    "locked_icon_url": "Achievement_26_Gamester_locked",
     "is_hidden": false
   },
-  "Achievement_27_Money_Bags": {
+  {
     "achievement_id": "Achievement_27_Money_Bags",
     "unlocked_display_name": "Money Bags",
     "unlocked_description": "Had 200 Gold on completing Hierophant.",
@@ -346,11 +346,11 @@
     "hidden_description": "Have 200 Gold on completing Hierophant.",
     "flavor_text": "",
     "completion_description": "Had 200 Gold on completing Hierophant.",
-    "unlocked_icon_url": "achievements_images/Achievement_27_Money_Bags.jpg",
-    "locked_icon_url": "achievements_images/Achievement_27_Money_Bags_locked.jpg",
+    "unlocked_icon_url": "Achievement_27_Money_Bags",
+    "locked_icon_url": "Achievement_27_Money_Bags_locked",
     "is_hidden": false
   },
-  "Achievement_28_Unburdened": {
+  {
     "achievement_id": "Achievement_28_Unburdened",
     "unlocked_display_name": "Unburdened",
     "unlocked_description": "Completed the Star challenge without any Curses.",
@@ -359,11 +359,11 @@
     "hidden_description": "Complete the Star challenge without any Curses.",
     "flavor_text": "",
     "completion_description": "Completed the Star challenge without any Curses.",
-    "unlocked_icon_url": "achievements_images/Achievement_28_Unburdened.jpg",
-    "locked_icon_url": "achievements_images/Achievement_28_Unburdened_locked.jpg",
+    "unlocked_icon_url": "Achievement_28_Unburdened",
+    "locked_icon_url": "Achievement_28_Unburdened_locked",
     "is_hidden": false
   },
-  "Achievement_29_Focused": {
+  {
     "achievement_id": "Achievement_29_Focused",
     "unlocked_display_name": "Focused",
     "unlocked_description": "Killed 5 or more enemies with a single artefact attack.",
@@ -372,11 +372,11 @@
     "hidden_description": "Kill 5 or more enemies with a single artefact attack.",
     "flavor_text": "",
     "completion_description": "Killed 5 or more enemies with a single artefact attack.",
-    "unlocked_icon_url": "achievements_images/Achievement_29_Focused.jpg",
-    "locked_icon_url": "achievements_images/Achievement_29_Focused_locked.jpg",
+    "unlocked_icon_url": "Achievement_29_Focused",
+    "locked_icon_url": "Achievement_29_Focused_locked",
     "is_hidden": false
   },
-  "Achievement_30_Devil_Dice": {
+  {
     "achievement_id": "Achievement_30_Devil_Dice",
     "unlocked_display_name": "Devil Dice",
     "unlocked_description": "Rolled three 6s during a Dice gambit.",
@@ -385,11 +385,11 @@
     "hidden_description": "Roll three 6s during a Dice gambit.",
     "flavor_text": "",
     "completion_description": "Rolled three 6s during a Dice gambit.",
-    "unlocked_icon_url": "achievements_images/Achievement_30_Devil_Dice.jpg",
-    "locked_icon_url": "achievements_images/Achievement_30_Devil_Dice_locked.jpg",
+    "unlocked_icon_url": "Achievement_30_Devil_Dice",
+    "locked_icon_url": "Achievement_30_Devil_Dice_locked",
     "is_hidden": false
   },
-  "Achievement_31_Master_of_Arms": {
+  {
     "achievement_id": "Achievement_31_Master_of_Arms",
     "unlocked_display_name": "Master of Arms",
     "unlocked_description": "Completed a combat in under 15 seconds.",
@@ -398,11 +398,11 @@
     "hidden_description": "Complete a combat in under 15 seconds.",
     "flavor_text": "",
     "completion_description": "Completed a combat in under 15 seconds.",
-    "unlocked_icon_url": "achievements_images/Achievement_31_Master_of_Arms.jpg",
-    "locked_icon_url": "achievements_images/Achievement_31_Master_of_Arms_locked.jpg",
+    "unlocked_icon_url": "Achievement_31_Master_of_Arms",
+    "locked_icon_url": "Achievement_31_Master_of_Arms_locked",
     "is_hidden": false
   },
-  "Achievement_32_Karma": {
+  {
     "achievement_id": "Achievement_32_Karma",
     "unlocked_display_name": "Karma",
     "unlocked_description": "Killed an Assassin with the Reaper's Arrow.",
@@ -411,11 +411,11 @@
     "hidden_description": "Kill an Assassin with the Reaper's Arrow.",
     "flavor_text": "",
     "completion_description": "Killed an Assassin with the Reaper's Arrow.",
-    "unlocked_icon_url": "achievements_images/Achievement_32_Karma.jpg",
-    "locked_icon_url": "achievements_images/Achievement_32_Karma_locked.jpg",
+    "unlocked_icon_url": "Achievement_32_Karma",
+    "locked_icon_url": "Achievement_32_Karma_locked",
     "is_hidden": false
   },
-  "Achievement_33_Combat_Ready": {
+  {
     "achievement_id": "Achievement_33_Combat_Ready",
     "unlocked_display_name": "Combat Ready",
     "unlocked_description": "Completed a challenge with one of each equipment type that you gained during the challenge.",
@@ -424,11 +424,11 @@
     "hidden_description": "Complete a challenge with one of each equipment type that you gained during the challenge.",
     "flavor_text": "",
     "completion_description": "Completed a challenge with one of each equipment type that you gained during the challenge.",
-    "unlocked_icon_url": "achievements_images/Achievement_33_Combat_Ready.jpg",
-    "locked_icon_url": "achievements_images/Achievement_33_Combat_Ready_locked.jpg",
+    "unlocked_icon_url": "Achievement_33_Combat_Ready",
+    "locked_icon_url": "Achievement_33_Combat_Ready_locked",
     "is_hidden": false
   },
-  "Achievement_34_Close_Shave": {
+  {
     "achievement_id": "Achievement_34_Close_Shave",
     "unlocked_display_name": "Close Shave",
     "unlocked_description": "Won a combat with less than 10 health remaining.",
@@ -437,11 +437,11 @@
     "hidden_description": "Win a combat with less than 10 health remaining.",
     "flavor_text": "",
     "completion_description": "Won a combat with less than 10 health remaining.",
-    "unlocked_icon_url": "achievements_images/Achievement_34_Close_Shave.jpg",
-    "locked_icon_url": "achievements_images/Achievement_34_Close_Shave_locked.jpg",
+    "unlocked_icon_url": "Achievement_34_Close_Shave",
+    "locked_icon_url": "Achievement_34_Close_Shave_locked",
     "is_hidden": false
   },
-  "Achievement_35_Cursed_Soul": {
+  {
     "achievement_id": "Achievement_35_Cursed_Soul",
     "unlocked_display_name": "Cursed Soul",
     "unlocked_description": "Possessed 7 Curses at once.",
@@ -450,11 +450,11 @@
     "hidden_description": "Possess 7 Curses at once.",
     "flavor_text": "",
     "completion_description": "Possessed 7 Curses at once.",
-    "unlocked_icon_url": "achievements_images/Achievement_35_Cursed_Soul.jpg",
-    "locked_icon_url": "achievements_images/Achievement_35_Cursed_Soul_locked.jpg",
+    "unlocked_icon_url": "Achievement_35_Cursed_Soul",
+    "locked_icon_url": "Achievement_35_Cursed_Soul_locked",
     "is_hidden": false
   },
-  "Achievement_36_Swordsman": {
+  {
     "achievement_id": "Achievement_36_Swordsman",
     "unlocked_display_name": "Swordsman",
     "unlocked_description": "Killed multiple enemies with a single Weapon Ability from a One-Handed weapon.",
@@ -463,11 +463,11 @@
     "hidden_description": "Kill multiple enemies with a single Weapon Ability from a One-Handed weapon.",
     "flavor_text": "",
     "completion_description": "Killed multiple enemies with a single Weapon Ability from a One-Handed weapon.",
-    "unlocked_icon_url": "achievements_images/Achievement_36_Swordsman.jpg",
-    "locked_icon_url": "achievements_images/Achievement_36_Swordsman_locked.jpg",
+    "unlocked_icon_url": "Achievement_36_Swordsman",
+    "locked_icon_url": "Achievement_36_Swordsman_locked",
     "is_hidden": false
   },
-  "Achievement_37_Champion": {
+  {
     "achievement_id": "Achievement_37_Champion",
     "unlocked_display_name": "Champion",
     "unlocked_description": "Killed multiple enemies with a single Weapon Ability from a Heavy weapon.",
@@ -476,11 +476,11 @@
     "hidden_description": "Kill multiple enemies with a single Weapon Ability from a Heavy weapon.",
     "flavor_text": "",
     "completion_description": "Killed multiple enemies with a single Weapon Ability from a Heavy weapon.",
-    "unlocked_icon_url": "achievements_images/Achievement_37_Champion.jpg",
-    "locked_icon_url": "achievements_images/Achievement_37_Champion_locked.jpg",
+    "unlocked_icon_url": "Achievement_37_Champion",
+    "locked_icon_url": "Achievement_37_Champion_locked",
     "is_hidden": false
   },
-  "Achievement_38_Flurry_of_Fury": {
+  {
     "achievement_id": "Achievement_38_Flurry_of_Fury",
     "unlocked_display_name": "Flurry of Fury",
     "unlocked_description": "Killed multiple enemies with a single Weapon Ability from a pair of Light weapons.",
@@ -489,11 +489,11 @@
     "hidden_description": "Kill multiple enemies with a single Weapon Ability from a pair of Light weapons.",
     "flavor_text": "",
     "completion_description": "Killed multiple enemies with a single Weapon Ability from a pair of Light weapons.",
-    "unlocked_icon_url": "achievements_images/Achievement_38_Flurry_of_Fury.jpg",
-    "locked_icon_url": "achievements_images/Achievement_38_Flurry_of_Fury_locked.jpg",
+    "unlocked_icon_url": "Achievement_38_Flurry_of_Fury",
+    "locked_icon_url": "Achievement_38_Flurry_of_Fury_locked",
     "is_hidden": false
   },
-  "Achievement_39_Stuffed_Potato": {
+  {
     "achievement_id": "Achievement_39_Stuffed_Potato",
     "unlocked_display_name": "Stuffed Potato",
     "unlocked_description": "Completed the Lover's challenge with Oswin fully healed.",
@@ -502,11 +502,11 @@
     "hidden_description": "Complete the Lover's challenge with Oswin fully healed.",
     "flavor_text": "",
     "completion_description": "Completed the Lover's challenge with Oswin fully healed.",
-    "unlocked_icon_url": "achievements_images/Achievement_39_Stuffed_Potato.jpg",
-    "locked_icon_url": "achievements_images/Achievement_39_Stuffed_Potato_locked.jpg",
+    "unlocked_icon_url": "Achievement_39_Stuffed_Potato",
+    "locked_icon_url": "Achievement_39_Stuffed_Potato_locked",
     "is_hidden": false
   },
-  "Achievement_40_Broken_Heart": {
+  {
     "achievement_id": "Achievement_40_Broken_Heart",
     "unlocked_display_name": "Broken Heart",
     "unlocked_description": "Defeated Oswin's Lover.",
@@ -515,11 +515,11 @@
     "hidden_description": "Defeat Oswin's Lover.",
     "flavor_text": "",
     "completion_description": "Defeated Oswin's Lover.",
-    "unlocked_icon_url": "achievements_images/Achievement_40_Broken_Heart.jpg",
-    "locked_icon_url": "achievements_images/Achievement_40_Broken_Heart_locked.jpg",
+    "unlocked_icon_url": "Achievement_40_Broken_Heart",
+    "locked_icon_url": "Achievement_40_Broken_Heart_locked",
     "is_hidden": false
   },
-  "Achievement_41_Draknars_Bane": {
+  {
     "achievement_id": "Achievement_41_Draknars_Bane",
     "unlocked_display_name": "Draknar's Bane",
     "unlocked_description": "Defeated Draknar the Mighty.",
@@ -528,11 +528,11 @@
     "hidden_description": "Defeat Draknar the Mighty.",
     "flavor_text": "",
     "completion_description": "Defeated Draknar the Mighty.",
-    "unlocked_icon_url": "achievements_images/Achievement_41_Draknars_Bane.jpg",
-    "locked_icon_url": "achievements_images/Achievement_41_Draknars_Bane_locked.jpg",
+    "unlocked_icon_url": "Achievement_41_Draknars_Bane",
+    "locked_icon_url": "Achievement_41_Draknars_Bane_locked",
     "is_hidden": false
   },
-  "Achievement_42_Thomas_Bane": {
+  {
     "achievement_id": "Achievement_42_Thomas_Bane",
     "unlocked_display_name": "Thomas' Bane",
     "unlocked_description": "Defeated Thomas in combat.",
@@ -541,11 +541,11 @@
     "hidden_description": "Defeat Thomas in combat.",
     "flavor_text": "",
     "completion_description": "Defeated Thomas in combat.",
-    "unlocked_icon_url": "achievements_images/Achievement_42_Thomas_Bane.jpg",
-    "locked_icon_url": "achievements_images/Achievement_42_Thomas_Bane_locked.jpg",
+    "unlocked_icon_url": "Achievement_42_Thomas_Bane",
+    "locked_icon_url": "Achievement_42_Thomas_Bane_locked",
     "is_hidden": false
   },
-  "Achievement_43_Final_Death": {
+  {
     "achievement_id": "Achievement_43_Final_Death",
     "unlocked_display_name": "Final Death",
     "unlocked_description": "Defeated Theophilus.",
@@ -554,11 +554,11 @@
     "hidden_description": "Defeat Theophilus.",
     "flavor_text": "",
     "completion_description": "Defeated Theophilus.",
-    "unlocked_icon_url": "achievements_images/Achievement_43_Final_Death.jpg",
-    "locked_icon_url": "achievements_images/Achievement_43_Final_Death_locked.jpg",
+    "unlocked_icon_url": "Achievement_43_Final_Death",
+    "locked_icon_url": "Achievement_43_Final_Death_locked",
     "is_hidden": false
   },
-  "Achievement_44_Miracle": {
+  {
     "achievement_id": "Achievement_44_Miracle",
     "unlocked_display_name": "Miracle",
     "unlocked_description": "Got Huge Success during Dealing with Thieves encounter.",
@@ -567,11 +567,11 @@
     "hidden_description": "Get Huge Success during the Dealing with Thieves encounter.",
     "flavor_text": "",
     "completion_description": "Got Huge Success during Dealing with Thieves encounter.",
-    "unlocked_icon_url": "achievements_images/Achievement_44_Miracle.jpg",
-    "locked_icon_url": "achievements_images/Achievement_44_Miracle_locked.jpg",
+    "unlocked_icon_url": "Achievement_44_Miracle",
+    "locked_icon_url": "Achievement_44_Miracle_locked",
     "is_hidden": false
   },
-  "Achievement_45_Peaceful_Coast": {
+  {
     "achievement_id": "Achievement_45_Peaceful_Coast",
     "unlocked_display_name": "Peaceful Coast",
     "unlocked_description": "Completed The Empress with the Encrusted Mace.",
@@ -580,11 +580,11 @@
     "hidden_description": "Complete The Empress with the Encrusted Mace.",
     "flavor_text": "",
     "completion_description": "Completed The Empress with the Encrusted Mace.",
-    "unlocked_icon_url": "achievements_images/Achievement_45_Peaceful_Coast.jpg",
-    "locked_icon_url": "achievements_images/Achievement_45_Peaceful_Coast_locked.jpg",
+    "unlocked_icon_url": "Achievement_45_Peaceful_Coast",
+    "locked_icon_url": "Achievement_45_Peaceful_Coast_locked",
     "is_hidden": false
   },
-  "Achievement_46_Pilgrim": {
+  {
     "achievement_id": "Achievement_46_Pilgrim",
     "unlocked_display_name": "Pilgrim",
     "unlocked_description": "Completed The High Priestess with 12 Blessings and the Holy Mace.",
@@ -593,11 +593,11 @@
     "hidden_description": "Complete The High Priestess with 12 Blessings and the Holy Mace.",
     "flavor_text": "",
     "completion_description": "Completed The High Priestess with 12 Blessings and the Holy Mace.",
-    "unlocked_icon_url": "achievements_images/Achievement_46_Pilgrim.jpg",
-    "locked_icon_url": "achievements_images/Achievement_46_Pilgrim_locked.jpg",
+    "unlocked_icon_url": "Achievement_46_Pilgrim",
+    "locked_icon_url": "Achievement_46_Pilgrim_locked",
     "is_hidden": false
   },
-  "Achievement_47_Smiths_Honour": {
+  {
     "achievement_id": "Achievement_47_Smiths_Honour",
     "unlocked_display_name": "Smiths Honour",
     "unlocked_description": "Completed Strength with the Jousting Armour.",
@@ -606,11 +606,11 @@
     "hidden_description": "Complete Strength with the Jousting Armour.",
     "flavor_text": "",
     "completion_description": "Completed Strength with the Jousting Armour.",
-    "unlocked_icon_url": "achievements_images/Achievement_47_Smiths_Honour.jpg",
-    "locked_icon_url": "achievements_images/Achievement_47_Smiths_Honour_locked.jpg",
+    "unlocked_icon_url": "Achievement_47_Smiths_Honour",
+    "locked_icon_url": "Achievement_47_Smiths_Honour_locked",
     "is_hidden": false
   },
-  "Achievement_48_Blood_Pact": {
+  {
     "achievement_id": "Achievement_48_Blood_Pact",
     "unlocked_display_name": "Blood Pact",
     "unlocked_description": "Wielded the Blood Crescent.",
@@ -619,11 +619,11 @@
     "hidden_description": "Wield the Blood Crescent.",
     "flavor_text": "",
     "completion_description": "Wielded the Blood Crescent.",
-    "unlocked_icon_url": "achievements_images/Achievement_48_Blood_Pact.jpg",
-    "locked_icon_url": "achievements_images/Achievement_48_Blood_Pact_locked.jpg",
+    "unlocked_icon_url": "Achievement_48_Blood_Pact",
+    "locked_icon_url": "Achievement_48_Blood_Pact_locked",
     "is_hidden": false
   },
-  "Achievement_49_Well_Equipped": {
+  {
     "achievement_id": "Achievement_49_Well_Equipped",
     "unlocked_display_name": "Well Equipped",
     "unlocked_description": "Unlocked all equipment cards.",
@@ -632,11 +632,11 @@
     "hidden_description": "Unlock all Equipment cards.",
     "flavor_text": "",
     "completion_description": "Unlocked all equipment cards.",
-    "unlocked_icon_url": "achievements_images/Achievement_49_Well_Equipped.jpg",
-    "locked_icon_url": "achievements_images/Achievement_49_Well_Equipped_locked.jpg",
+    "unlocked_icon_url": "Achievement_49_Well_Equipped",
+    "locked_icon_url": "Achievement_49_Well_Equipped_locked",
     "is_hidden": false
   },
-  "Achievement_50_Well_Travelled": {
+  {
     "achievement_id": "Achievement_50_Well_Travelled",
     "unlocked_display_name": "Well Travelled",
     "unlocked_description": "Unlocked all Encounter cards.",
@@ -645,11 +645,11 @@
     "hidden_description": "Unlock all Encounter cards.",
     "flavor_text": "",
     "completion_description": "Unlocked all Encounter cards.",
-    "unlocked_icon_url": "achievements_images/Achievement_50_Well_Travelled.jpg",
-    "locked_icon_url": "achievements_images/Achievement_50_Well_Travelled_locked.jpg",
+    "unlocked_icon_url": "Achievement_50_Well_Travelled",
+    "locked_icon_url": "Achievement_50_Well_Travelled_locked",
     "is_hidden": false
   },
-  "Achievement_51_Novice": {
+  {
     "achievement_id": "Achievement_51_Novice",
     "unlocked_display_name": "Novice",
     "unlocked_description": "Completed 5 Adventures in a single challenge attempt.",
@@ -658,11 +658,11 @@
     "hidden_description": "Complete 5 Adventures in a single challenge attempt.",
     "flavor_text": "",
     "completion_description": "Completed 5 Adventures in a single challenge attempt.",
-    "unlocked_icon_url": "achievements_images/Achievement_51_Novice.jpg",
-    "locked_icon_url": "achievements_images/Achievement_51_Novice_locked.jpg",
+    "unlocked_icon_url": "Achievement_51_Novice",
+    "locked_icon_url": "Achievement_51_Novice_locked",
     "is_hidden": false
   },
-  "Achievement_52_Defender": {
+  {
     "achievement_id": "Achievement_52_Defender",
     "unlocked_display_name": "Defender",
     "unlocked_description": "Completed 10 Adventures in a single challenge attempt.",
@@ -671,11 +671,11 @@
     "hidden_description": "Complete 10 Adventures in a single challenge attempt.",
     "flavor_text": "",
     "completion_description": "Completed 10 Adventures in a single challenge attempt.",
-    "unlocked_icon_url": "achievements_images/Achievement_52_Defender.jpg",
-    "locked_icon_url": "achievements_images/Achievement_52_Defender_locked.jpg",
+    "unlocked_icon_url": "Achievement_52_Defender",
+    "locked_icon_url": "Achievement_52_Defender_locked",
     "is_hidden": false
   },
-  "Achievement_53_Guardian": {
+  {
     "achievement_id": "Achievement_53_Guardian",
     "unlocked_display_name": "Guardian",
     "unlocked_description": "Completed 15 Adventures in a single challenge attempt.",
@@ -684,11 +684,11 @@
     "hidden_description": "Complete 15 Adventures in a single challenge attempt.",
     "flavor_text": "",
     "completion_description": "Completed 15 Adventures in a single challenge attempt.",
-    "unlocked_icon_url": "achievements_images/Achievement_53_Guardian.jpg",
-    "locked_icon_url": "achievements_images/Achievement_53_Guardian_locked.jpg",
+    "unlocked_icon_url": "Achievement_53_Guardian",
+    "locked_icon_url": "Achievement_53_Guardian_locked",
     "is_hidden": false
   },
-  "Achievement_54_Paladin": {
+  {
     "achievement_id": "Achievement_54_Paladin",
     "unlocked_display_name": "Paladin",
     "unlocked_description": "Completed 20 Adventures in a single challenge attempt.",
@@ -697,11 +697,11 @@
     "hidden_description": "Complete 20 Adventures in a single challenge attempt.",
     "flavor_text": "",
     "completion_description": "Completed 20 Adventures in a single challenge attempt.",
-    "unlocked_icon_url": "achievements_images/Achievement_54_Paladin.jpg",
-    "locked_icon_url": "achievements_images/Achievement_54_Paladin_locked.jpg",
+    "unlocked_icon_url": "Achievement_54_Paladin",
+    "locked_icon_url": "Achievement_54_Paladin_locked",
     "is_hidden": false
   },
-  "Achievement_55_Veteran": {
+  {
     "achievement_id": "Achievement_55_Veteran",
     "unlocked_display_name": "Veteran",
     "unlocked_description": "Completed 50 Adventures.",
@@ -710,11 +710,11 @@
     "hidden_description": "Complete 50 Adventures.",
     "flavor_text": "",
     "completion_description": "Completed 50 Adventures.",
-    "unlocked_icon_url": "achievements_images/Achievement_55_Veteran.jpg",
-    "locked_icon_url": "achievements_images/Achievement_55_Veteran_locked.jpg",
+    "unlocked_icon_url": "Achievement_55_Veteran",
+    "locked_icon_url": "Achievement_55_Veteran_locked",
     "is_hidden": false
   },
-  "Achievement_56_Seraph": {
+  {
     "achievement_id": "Achievement_56_Seraph",
     "unlocked_display_name": "Seraph",
     "unlocked_description": "Possessed 20 Blessings at once.",
@@ -723,11 +723,11 @@
     "hidden_description": "Possess 20 Blessings at once.",
     "flavor_text": "",
     "completion_description": "Possessed 20 Blessings at once.",
-    "unlocked_icon_url": "achievements_images/Achievement_56_Seraph.jpg",
-    "locked_icon_url": "achievements_images/Achievement_56_Seraph_locked.jpg",
+    "unlocked_icon_url": "Achievement_56_Seraph",
+    "locked_icon_url": "Achievement_56_Seraph_locked",
     "is_hidden": false
   },
-  "Achievement_57_Infernal": {
+  {
     "achievement_id": "Achievement_57_Infernal",
     "unlocked_display_name": "Infernal",
     "unlocked_description": "Possessed 30 Curses at once.",
@@ -736,11 +736,11 @@
     "hidden_description": "Possess 30 Curses at once.",
     "flavor_text": "",
     "completion_description": "Possessed 30 Curses at once.",
-    "unlocked_icon_url": "achievements_images/Achievement_57_Infernal.jpg",
-    "locked_icon_url": "achievements_images/Achievement_57_Infernal_locked.jpg",
+    "unlocked_icon_url": "Achievement_57_Infernal",
+    "locked_icon_url": "Achievement_57_Infernal_locked",
     "is_hidden": false
   },
-  "Achievement_58_Hoarder": {
+  {
     "achievement_id": "Achievement_58_Hoarder",
     "unlocked_display_name": "Hoarder",
     "unlocked_description": "Possessed 300 Food at once.",
@@ -749,11 +749,11 @@
     "hidden_description": "Possess 300 Food at once.",
     "flavor_text": "",
     "completion_description": "Possessed 300 Food at once.",
-    "unlocked_icon_url": "achievements_images/Achievement_58_Hoarder.jpg",
-    "locked_icon_url": "achievements_images/Achievement_58_Hoarder_locked.jpg",
+    "unlocked_icon_url": "Achievement_58_Hoarder",
+    "locked_icon_url": "Achievement_58_Hoarder_locked",
     "is_hidden": false
   },
-  "Achievement_59_Golden_Child": {
+  {
     "achievement_id": "Achievement_59_Golden_Child",
     "unlocked_display_name": "Golden Child",
     "unlocked_description": "Possessed 500 Gold at once.",
@@ -762,11 +762,11 @@
     "hidden_description": "Possess 500 Gold at once.",
     "flavor_text": "",
     "completion_description": "Possessed 500 Gold at once.",
-    "unlocked_icon_url": "achievements_images/Achievement_59_Golden_Child.jpg",
-    "locked_icon_url": "achievements_images/Achievement_59_Golden_Child_locked.jpg",
+    "unlocked_icon_url": "Achievement_59_Golden_Child",
+    "locked_icon_url": "Achievement_59_Golden_Child_locked",
     "is_hidden": false
   },
-  "Achievement_60_Juggernaught": {
+  {
     "achievement_id": "Achievement_60_Juggernaught",
     "unlocked_display_name": "Juggernaut",
     "unlocked_description": "Possessed 300 Max Health at once.",
@@ -775,11 +775,11 @@
     "hidden_description": "Possess 300 Max Health at once.",
     "flavor_text": "",
     "completion_description": "Possessed 300 Max Health at once.",
-    "unlocked_icon_url": "achievements_images/Achievement_60_Juggernaught.jpg",
-    "locked_icon_url": "achievements_images/Achievement_60_Juggernaught_locked.jpg",
+    "unlocked_icon_url": "Achievement_60_Juggernaught",
+    "locked_icon_url": "Achievement_60_Juggernaught_locked",
     "is_hidden": false
   },
-  "Achievement_61_Swashbuckler": {
+  {
     "achievement_id": "Achievement_61_Swashbuckler",
     "unlocked_display_name": "Swashbuckler",
     "unlocked_description": "Completed 20 Trials in a single challenge attempt.",
@@ -788,11 +788,11 @@
     "hidden_description": "Complete 20 Trials in a single challenge attempt.",
     "flavor_text": "",
     "completion_description": "Completed 20 Trials in a single challenge attempt.",
-    "unlocked_icon_url": "achievements_images/Achievement_61_Swashbuckler.jpg",
-    "locked_icon_url": "achievements_images/Achievement_61_Swashbuckler_locked.jpg",
+    "unlocked_icon_url": "Achievement_61_Swashbuckler",
+    "locked_icon_url": "Achievement_61_Swashbuckler_locked",
     "is_hidden": false
   },
-  "Achievement_62_Daredevil": {
+  {
     "achievement_id": "Achievement_62_Daredevil",
     "unlocked_display_name": "Daredevil",
     "unlocked_description": "Completed 10 Adventures in a row without refusing a Trial.",
@@ -801,11 +801,11 @@
     "hidden_description": "Complete 10 Adventures in a row without refusing a Trial.",
     "flavor_text": "",
     "completion_description": "Completed 10 Adventures in a row without refusing a Trial.",
-    "unlocked_icon_url": "achievements_images/Achievement_62_Daredevil.jpg",
-    "locked_icon_url": "achievements_images/Achievement_62_Daredevil_locked.jpg",
+    "unlocked_icon_url": "Achievement_62_Daredevil",
+    "locked_icon_url": "Achievement_62_Daredevil_locked",
     "is_hidden": false
   },
-  "Achievement_63_Supply_Mule": {
+  {
     "achievement_id": "Achievement_63_Supply_Mule",
     "unlocked_display_name": "Supply Mule",
     "unlocked_description": "Possessed 40 Equipment cards at once.",
@@ -814,11 +814,11 @@
     "hidden_description": "Possess 40 Equipment cards at once.",
     "flavor_text": "",
     "completion_description": "Possessed 40 Equipment cards at once.",
-    "unlocked_icon_url": "achievements_images/Achievement_63_Supply_Mule.jpg",
-    "locked_icon_url": "achievements_images/Achievement_63_Supply_Mule_locked.jpg",
+    "unlocked_icon_url": "Achievement_63_Supply_Mule",
+    "locked_icon_url": "Achievement_63_Supply_Mule_locked",
     "is_hidden": false
   },
-  "Achievement_64_Lord_of_Sorrow": {
+  {
     "achievement_id": "Achievement_64_Lord_of_Sorrow",
     "unlocked_display_name": "Lord of Sorrow",
     "unlocked_description": "Accepted 25 Curses from the Keeper of Sorrows in a single challenge attempt.",
@@ -827,11 +827,11 @@
     "hidden_description": "Accept 25 Curses from the Keeper of Sorrows in a single challenge attempt.",
     "flavor_text": "",
     "completion_description": "Accepted 25 Curses from the Keeper of Sorrows in a single challenge attempt.",
-    "unlocked_icon_url": "achievements_images/Achievement_64_Lord_of_Sorrow.jpg",
-    "locked_icon_url": "achievements_images/Achievement_64_Lord_of_Sorrow_locked.jpg",
+    "unlocked_icon_url": "Achievement_64_Lord_of_Sorrow",
+    "locked_icon_url": "Achievement_64_Lord_of_Sorrow_locked",
     "is_hidden": false
   },
-  "Achievement_65_Saint": {
+  {
     "achievement_id": "Achievement_65_Saint",
     "unlocked_display_name": "Saint",
     "unlocked_description": "Sacrificed 30 Blessings.",
@@ -840,11 +840,11 @@
     "hidden_description": "Sacrifice 30 Blessings.",
     "flavor_text": "",
     "completion_description": "Sacrificed 30 Blessings.",
-    "unlocked_icon_url": "achievements_images/Achievement_65_Saint.jpg",
-    "locked_icon_url": "achievements_images/Achievement_65_Saint_locked.jpg",
+    "unlocked_icon_url": "Achievement_65_Saint",
+    "locked_icon_url": "Achievement_65_Saint_locked",
     "is_hidden": false
   },
-  "Achievement_66_Humble_Spirit": {
+  {
     "achievement_id": "Achievement_66_Humble_Spirit",
     "unlocked_display_name": "Humble Spirit",
     "unlocked_description": "Offered 50 Equipment to the gods.",
@@ -853,11 +853,11 @@
     "hidden_description": "Offer 50 Equipment to the gods.",
     "flavor_text": "",
     "completion_description": "Offered 50 Equipment to the gods.",
-    "unlocked_icon_url": "achievements_images/Achievement_66_Humble_Spirit.jpg",
-    "locked_icon_url": "achievements_images/Achievement_66_Humble_Spirit_locked.jpg",
+    "unlocked_icon_url": "Achievement_66_Humble_Spirit",
+    "locked_icon_url": "Achievement_66_Humble_Spirit_locked",
     "is_hidden": false
   },
-  "Achievement_67_Pupil": {
+  {
     "achievement_id": "Achievement_67_Pupil",
     "unlocked_display_name": "Pupil",
     "unlocked_description": "Completed an Endless run with 1000 or more Endless Points.",
@@ -866,11 +866,11 @@
     "hidden_description": "Complete an Endless run with 1000 or more Endless Points.",
     "flavor_text": "",
     "completion_description": "Completed an Endless run with 1000 or more Endless Points.",
-    "unlocked_icon_url": "achievements_images/Achievement_67_Pupil.jpg",
-    "locked_icon_url": "achievements_images/Achievement_67_Pupil_locked.jpg",
+    "unlocked_icon_url": "Achievement_67_Pupil",
+    "locked_icon_url": "Achievement_67_Pupil_locked",
     "is_hidden": false
   },
-  "Achievement_68_Opportunist": {
+  {
     "achievement_id": "Achievement_68_Opportunist",
     "unlocked_display_name": "Opportunist",
     "unlocked_description": "Completed an Endless run with 10000 or more Endless Points.",
@@ -879,11 +879,11 @@
     "hidden_description": "Complete an Endless run with 10000 or more Endless Points.",
     "flavor_text": "",
     "completion_description": "Completed an Endless run with 10000 or more Endless Points.",
-    "unlocked_icon_url": "achievements_images/Achievement_68_Opportunist.jpg",
-    "locked_icon_url": "achievements_images/Achievement_68_Opportunist_locked.jpg",
+    "unlocked_icon_url": "Achievement_68_Opportunist",
+    "locked_icon_url": "Achievement_68_Opportunist_locked",
     "is_hidden": false
   },
-  "Achievement_69_Game_Master": {
+  {
     "achievement_id": "Achievement_69_Game_Master",
     "unlocked_display_name": "Game Master",
     "unlocked_description": "Completed an Endless run with 25000 or more Endless Points.",
@@ -892,11 +892,11 @@
     "hidden_description": "Complete an Endless run with 25000 or more Endless Points.",
     "flavor_text": "",
     "completion_description": "Completed an Endless run with 25000 or more Endless Points.",
-    "unlocked_icon_url": "achievements_images/Achievement_69_Game_Master.jpg",
-    "locked_icon_url": "achievements_images/Achievement_69_Game_Master_locked.jpg",
+    "unlocked_icon_url": "Achievement_69_Game_Master",
+    "locked_icon_url": "Achievement_69_Game_Master_locked",
     "is_hidden": false
   },
-  "Achievement_70_Fused": {
+  {
     "achievement_id": "Achievement_70_Fused",
     "unlocked_display_name": "Fused",
     "unlocked_description": "Fused first Token from Token Shards.",
@@ -905,11 +905,11 @@
     "hidden_description": "Fuse your first Token from Token Shards.",
     "flavor_text": "",
     "completion_description": "Fused first Token from Token Shards.",
-    "unlocked_icon_url": "achievements_images/Achievement_70_Fused.jpg",
-    "locked_icon_url": "achievements_images/Achievement_70_Fused_locked.jpg",
+    "unlocked_icon_url": "Achievement_70_Fused",
+    "locked_icon_url": "Achievement_70_Fused_locked",
     "is_hidden": false
   },
-  "Achievement_71_Fractured_Memories": {
+  {
     "achievement_id": "Achievement_71_Fractured_Memories",
     "unlocked_display_name": "Fractured Memories",
     "unlocked_description": "Fused 5 Tokens from Token Shards.",
@@ -918,11 +918,11 @@
     "hidden_description": "Fuse 5 Tokens from Token Shards.",
     "flavor_text": "",
     "completion_description": "Fused 5 Tokens from Token Shards.",
-    "unlocked_icon_url": "achievements_images/Achievement_71_Fractured_Memories.jpg",
-    "locked_icon_url": "achievements_images/Achievement_71_Fractured_Memories_locked.jpg",
+    "unlocked_icon_url": "Achievement_71_Fractured_Memories",
+    "locked_icon_url": "Achievement_71_Fractured_Memories_locked",
     "is_hidden": false
   },
-  "Achievement_72_Memories_Restored": {
+  {
     "achievement_id": "Achievement_72_Memories_Restored",
     "unlocked_display_name": "Memories Restored",
     "unlocked_description": "Fused 10 Tokens from Token Shards.",
@@ -931,11 +931,11 @@
     "hidden_description": "Fuse 10 Tokens from Token Shards.",
     "flavor_text": "",
     "completion_description": "Fused 10 Tokens from Token Shards.",
-    "unlocked_icon_url": "achievements_images/Achievement_72_Memories_Restored.jpg",
-    "locked_icon_url": "achievements_images/Achievement_72_Memories_Restored_locked.jpg",
+    "unlocked_icon_url": "Achievement_72_Memories_Restored",
+    "locked_icon_url": "Achievement_72_Memories_Restored_locked",
     "is_hidden": false
   },
-  "Achievement_73_The_Mournful_Wastes": {
+  {
     "achievement_id": "Achievement_73_The_Mournful_Wastes",
     "unlocked_display_name": "The Mournful Wastes",
     "unlocked_description": "Completed the Mapmaker challenge.",
@@ -944,11 +944,11 @@
     "hidden_description": "Complete the Mapmaker challenge.",
     "flavor_text": "",
     "completion_description": "Completed the Mapmaker challenge.",
-    "unlocked_icon_url": "achievements_images/Achievement_73_The_Mournful_Wastes.jpg",
-    "locked_icon_url": "achievements_images/Achievement_73_The_Mournful_Wastes_locked.jpg",
+    "unlocked_icon_url": "Achievement_73_The_Mournful_Wastes",
+    "locked_icon_url": "Achievement_73_The_Mournful_Wastes_locked",
     "is_hidden": false
   },
-  "Achievement_74_Through_The_Portal": {
+  {
     "achievement_id": "Achievement_74_Through_The_Portal",
     "unlocked_display_name": "Through the Portal",
     "unlocked_description": "Unlocked the Mapmaker gold challenge token.",
@@ -957,11 +957,11 @@
     "hidden_description": "Unlock the Mapmaker gold challenge token.",
     "flavor_text": "",
     "completion_description": "Unlocked the Mapmaker gold challenge token.",
-    "unlocked_icon_url": "achievements_images/Achievement_74_Through_The_Portal.jpg",
-    "locked_icon_url": "achievements_images/Achievement_74_Through_The_Portal_locked.jpg",
+    "unlocked_icon_url": "Achievement_74_Through_The_Portal",
+    "locked_icon_url": "Achievement_74_Through_The_Portal_locked",
     "is_hidden": false
   },
-  "Achievement_75_Brave": {
+  {
     "achievement_id": "Achievement_75_Brave",
     "unlocked_display_name": "Brave",
     "unlocked_description": "Unlocked the Brave companion card.",
@@ -970,11 +970,11 @@
     "hidden_description": "Unlock the Brave companion card.",
     "flavor_text": "",
     "completion_description": "Unlocked the Brave companion card.",
-    "unlocked_icon_url": "achievements_images/Achievement_75_Brave.jpg",
-    "locked_icon_url": "achievements_images/Achievement_75_Brave_locked.jpg",
+    "unlocked_icon_url": "Achievement_75_Brave",
+    "locked_icon_url": "Achievement_75_Brave_locked",
     "is_hidden": false
   },
-  "Achievement_76_Hubies_Big_Day_Out": {
+  {
     "achievement_id": "Achievement_76_Hubies_Big_Day_Out",
     "unlocked_display_name": "Hubie's Big Day Out",
     "unlocked_description": "Completed an Endless Adventures attempt with Hubie and scored over 7,000 or more Endless Points.",
@@ -983,11 +983,11 @@
     "hidden_description": "Complete an Endless Adventures attempt with Hubie and score over 7,000 or more Endless Points.",
     "flavor_text": "",
     "completion_description": "Completed an Endless Adventures attempt with Hubie and scored over 7,000 or more Endless Points.",
-    "unlocked_icon_url": "achievements_images/Achievement_76_Hubies_Big_Day_Out.jpg",
-    "locked_icon_url": "achievements_images/Achievement_76_Hubies_Big_Day_Out_locked.jpg",
+    "unlocked_icon_url": "Achievement_76_Hubies_Big_Day_Out",
+    "locked_icon_url": "Achievement_76_Hubies_Big_Day_Out_locked",
     "is_hidden": false
   },
-  "Achievement_77_Bomb_Specialist": {
+  {
     "achievement_id": "Achievement_77_Bomb_Specialist",
     "unlocked_display_name": "Bomb Specialist",
     "unlocked_description": "Restored 50 Artefact charges using Hubie's campfire ability.",
@@ -996,11 +996,11 @@
     "hidden_description": "Restore 50 Artefact charges using Hubie's campfire ability.",
     "flavor_text": "",
     "completion_description": "Restored 50 Artefact charges using Hubie's campfire ability.",
-    "unlocked_icon_url": "achievements_images/Achievement_77_Bomb_Specialist.jpg",
-    "locked_icon_url": "achievements_images/Achievement_77_Bomb_Specialist_locked.jpg",
+    "unlocked_icon_url": "Achievement_77_Bomb_Specialist",
+    "locked_icon_url": "Achievement_77_Bomb_Specialist_locked",
     "is_hidden": false
   },
-  "Achievement_78_New_Horn": {
+  {
     "achievement_id": "Achievement_78_New_Horn",
     "unlocked_display_name": "New Horn",
     "unlocked_description": "Used Hubie's Portal ability at the campfire 10 times.",
@@ -1009,11 +1009,11 @@
     "hidden_description": "Use Hubie's Portal ability at the campfire 10 times.",
     "flavor_text": "",
     "completion_description": "Used Hubie's Portal ability at the campfire 10 times.",
-    "unlocked_icon_url": "achievements_images/Achievement_78_New_Horn.jpg",
-    "locked_icon_url": "achievements_images/Achievement_78_New_Horn_locked.jpg",
+    "unlocked_icon_url": "Achievement_78_New_Horn",
+    "locked_icon_url": "Achievement_78_New_Horn_locked",
     "is_hidden": false
   },
-  "Achievement_79_Mischief_Managed": {
+  {
     "achievement_id": "Achievement_79_Mischief_Managed",
     "unlocked_display_name": "Mischief Managed",
     "unlocked_description": "Defeated 50 Goblins in combat.",
@@ -1022,11 +1022,11 @@
     "hidden_description": "Defeat 50 Goblins in combat.",
     "flavor_text": "",
     "completion_description": "Defeated 50 Goblins in combat.",
-    "unlocked_icon_url": "achievements_images/Achievement_79_Mischief_Managed.jpg",
-    "locked_icon_url": "achievements_images/Achievement_79_Mischief_Managed_locked.jpg",
+    "unlocked_icon_url": "Achievement_79_Mischief_Managed",
+    "locked_icon_url": "Achievement_79_Mischief_Managed_locked",
     "is_hidden": false
   },
-  "Achievement_80_Captains_Protection": {
+  {
     "achievement_id": "Achievement_80_Captains_Protection",
     "unlocked_display_name": "Captain's Protection",
     "unlocked_description": "With the assistance of a companion, defeated 50 enemies with the Hali's Ward artefact.",
@@ -1035,11 +1035,11 @@
     "hidden_description": "With the assistance of a companion, defeat 50 enemies with the Hali's Ward artefact.",
     "flavor_text": "",
     "completion_description": "With the assistance of a companion, defeated 50 enemies with the Hali's Ward artefact.",
-    "unlocked_icon_url": "achievements_images/Achievement_80_Captains_Protection.jpg",
-    "locked_icon_url": "achievements_images/Achievement_80_Captains_Protection_locked.jpg",
+    "unlocked_icon_url": "Achievement_80_Captains_Protection",
+    "locked_icon_url": "Achievement_80_Captains_Protection_locked",
     "is_hidden": false
   },
-  "Achievement_81_Uneasy_Alliance": {
+  {
     "achievement_id": "Achievement_81_Uneasy_Alliance",
     "unlocked_display_name": "Uneasy Alliance",
     "unlocked_description": "Completed the Servant challenge.",
@@ -1048,11 +1048,11 @@
     "hidden_description": "Complete the Servant challenge.",
     "flavor_text": "",
     "completion_description": "Completed the Servant challenge.",
-    "unlocked_icon_url": "achievements_images/Achievement_81_Uneasy_Alliance.jpg",
-    "locked_icon_url": "achievements_images/Achievement_81_Uneasy_Alliance_locked.jpg",
+    "unlocked_icon_url": "Achievement_81_Uneasy_Alliance",
+    "locked_icon_url": "Achievement_81_Uneasy_Alliance_locked",
     "is_hidden": false
   },
-  "Achievement_82_Blood_Pact": {
+  {
     "achievement_id": "Achievement_82_Blood_Pact",
     "unlocked_display_name": "Blood Pact",
     "unlocked_description": "Unlocked the Servant gold challenge token.",
@@ -1061,11 +1061,11 @@
     "hidden_description": "Unlock the Servant gold challenge token.",
     "flavor_text": "",
     "completion_description": "Unlocked the Servant gold challenge token.",
-    "unlocked_icon_url": "achievements_images/Achievement_82_Blood_Pact.jpg",
-    "locked_icon_url": "achievements_images/Achievement_82_Blood_Pact_locked.jpg",
+    "unlocked_icon_url": "Achievement_82_Blood_Pact",
+    "locked_icon_url": "Achievement_82_Blood_Pact_locked",
     "is_hidden": false
   },
-  "Achievement_83_Lord_of_Shadow": {
+  {
     "achievement_id": "Achievement_83_Lord_of_Shadow",
     "unlocked_display_name": "Lord of Shadow",
     "unlocked_description": "Unlocked the Lord companion card.",
@@ -1074,11 +1074,11 @@
     "hidden_description": "Unlock the Lord companion card.",
     "flavor_text": "",
     "completion_description": "Unlocked the Lord companion card.",
-    "unlocked_icon_url": "achievements_images/Achievement_83_Lord_of_Shadow.jpg",
-    "locked_icon_url": "achievements_images/Achievement_83_Lord_of_Shadow_locked.jpg",
+    "unlocked_icon_url": "Achievement_83_Lord_of_Shadow",
+    "locked_icon_url": "Achievement_83_Lord_of_Shadow_locked",
     "is_hidden": false
   },
-  "Achievement_84_Shadow_Run": {
+  {
     "achievement_id": "Achievement_84_Shadow_Run",
     "unlocked_display_name": "Shadow Run",
     "unlocked_description": "Completed an Endless Adventures attempt with Veles and scored over 7,000 or more Endless Points.",
@@ -1087,11 +1087,11 @@
     "hidden_description": "Complete an Endless Adventures attempt with Veles and score over 7,000 or more Endless Points.",
     "flavor_text": "",
     "completion_description": "Completed an Endless Adventures attempt with Veles and scored over 7,000 or more Endless Points.",
-    "unlocked_icon_url": "achievements_images/Achievement_84_Shadow_Run.jpg",
-    "locked_icon_url": "achievements_images/Achievement_84_Shadow_Run_locked.jpg",
+    "unlocked_icon_url": "Achievement_84_Shadow_Run",
+    "locked_icon_url": "Achievement_84_Shadow_Run_locked",
     "is_hidden": false
   },
-  "Achievement_85_Into_Darkness": {
+  {
     "achievement_id": "Achievement_85_Into_Darkness",
     "unlocked_display_name": "Into Darkness",
     "unlocked_description": "Revealed 30 Encounters using Veles' campfire ability.",
@@ -1100,11 +1100,11 @@
     "hidden_description": "Reveal 30 Encounters using Veles' campfire ability.",
     "flavor_text": "",
     "completion_description": "Revealed 30 Encounters using Veles' campfire ability.",
-    "unlocked_icon_url": "achievements_images/Achievement_85_Into_Darkness.jpg",
-    "locked_icon_url": "achievements_images/Achievement_85_Into_Darkness_locked.jpg",
+    "unlocked_icon_url": "Achievement_85_Into_Darkness",
+    "locked_icon_url": "Achievement_85_Into_Darkness_locked",
     "is_hidden": false
   },
-  "Achievement_86_Strangers_Hunger": {
+  {
     "achievement_id": "Achievement_86_Strangers_Hunger",
     "unlocked_display_name": "Stranger's Hunger",
     "unlocked_description": "Had Veles finish 25 enemies affected by Knockdown.",
@@ -1113,11 +1113,11 @@
     "hidden_description": "Have Veles finish 25 enemies affected by Knockdown.",
     "flavor_text": "",
     "completion_description": "Had Veles finish 25 enemies affected by Knockdown.",
-    "unlocked_icon_url": "achievements_images/Achievement_86_Strangers_Hunger.jpg",
-    "locked_icon_url": "achievements_images/Achievement_86_Strangers_Hunger_locked.jpg",
+    "unlocked_icon_url": "Achievement_86_Strangers_Hunger",
+    "locked_icon_url": "Achievement_86_Strangers_Hunger_locked",
     "is_hidden": false
   },
-  "Achievement_87_Unleashed": {
+  {
     "achievement_id": "Achievement_87_Unleashed",
     "unlocked_display_name": "Unleashed",
     "unlocked_description": "Completed 8 combats while Veles has Blood Madness.",
@@ -1126,11 +1126,11 @@
     "hidden_description": "Complete 8 combats while Veles has Blood Madness.",
     "flavor_text": "",
     "completion_description": "Completed 8 combats while Veles has Blood Madness.",
-    "unlocked_icon_url": "achievements_images/Achievement_87_Unleashed.jpg",
-    "locked_icon_url": "achievements_images/Achievement_87_Unleashed_locked.jpg",
+    "unlocked_icon_url": "Achievement_87_Unleashed",
+    "locked_icon_url": "Achievement_87_Unleashed_locked",
     "is_hidden": false
   },
-  "Achievement_88_Liberator": {
+  {
     "achievement_id": "Achievement_88_Liberator",
     "unlocked_display_name": "Liberator",
     "unlocked_description": "Freed 5 Gnomes from 10 Goblin Chiefs.",
@@ -1139,11 +1139,11 @@
     "hidden_description": "Free 5 Gnomes from 10 Goblin Chiefs.",
     "flavor_text": "",
     "completion_description": "Freed 5 Gnomes from 10 Goblin Chiefs.",
-    "unlocked_icon_url": "achievements_images/Achievement_88_Liberator.jpg",
-    "locked_icon_url": "achievements_images/Achievement_88_Liberator_locked.jpg",
+    "unlocked_icon_url": "Achievement_88_Liberator",
+    "locked_icon_url": "Achievement_88_Liberator_locked",
     "is_hidden": false
   },
-  "Achievement_89_Crucible": {
+  {
     "achievement_id": "Achievement_89_Crucible",
     "unlocked_display_name": "Crucible",
     "unlocked_description": "Completed Grobben's Training encounter and win the Shadow Shard.",
@@ -1152,11 +1152,11 @@
     "hidden_description": "Complete Grobben's Training encounter and win the Shadow Shard.",
     "flavor_text": "",
     "completion_description": "Completed Grobben's Training encounter and win the Shadow Shard.",
-    "unlocked_icon_url": "achievements_images/Achievement_89_Crucible.jpg",
-    "locked_icon_url": "achievements_images/Achievement_89_Crucible_locked.jpg",
+    "unlocked_icon_url": "Achievement_89_Crucible",
+    "locked_icon_url": "Achievement_89_Crucible_locked",
     "is_hidden": false
   },
-  "Achievement_90_Bright_Light": {
+  {
     "achievement_id": "Achievement_90_Bright_Light",
     "unlocked_display_name": "Bright Light",
     "unlocked_description": "Defeated 50 Shadows in combat.",
@@ -1165,11 +1165,11 @@
     "hidden_description": "Defeat 50 Shadows in combat.",
     "flavor_text": "",
     "completion_description": "Defeated 50 Shadows in combat.",
-    "unlocked_icon_url": "achievements_images/Achievement_90_Bright_Light.jpg",
-    "locked_icon_url": "achievements_images/Achievement_90_Bright_Light_locked.jpg",
+    "unlocked_icon_url": "Achievement_90_Bright_Light",
+    "locked_icon_url": "Achievement_90_Bright_Light_locked",
     "is_hidden": false
   },
-  "Achievement_91_Shadow_Agent": {
+  {
     "achievement_id": "Achievement_91_Shadow_Agent",
     "unlocked_display_name": "Shadow Agent",
     "unlocked_description": "Fused the Shadow Shards and unlocked the Token.",
@@ -1178,11 +1178,11 @@
     "hidden_description": "Fuse the Shadow Shards and unlock the Token.",
     "flavor_text": "",
     "completion_description": "Fused the Shadow Shards and unlocked the Token.",
-    "unlocked_icon_url": "achievements_images/Achievement_91_Shadow_Agent.jpg",
-    "locked_icon_url": "achievements_images/Achievement_91_Shadow_Agent_locked.jpg",
+    "unlocked_icon_url": "Achievement_91_Shadow_Agent",
+    "locked_icon_url": "Achievement_91_Shadow_Agent_locked",
     "is_hidden": false
   },
-  "Achievement_92_Humble_Servant": {
+  {
     "achievement_id": "Achievement_92_Humble_Servant",
     "unlocked_display_name": "Humble Servant",
     "unlocked_description": "Completed the Servant challenge with Disciple's Guise helm equipped.",
@@ -1191,11 +1191,11 @@
     "hidden_description": "Complete the Servant challenge with Disciple's Guise helm equipped.",
     "flavor_text": "",
     "completion_description": "Completed the Servant challenge with Disciple's Guise helm equipped.",
-    "unlocked_icon_url": "achievements_images/Achievement_92_Humble_Servant.jpg",
-    "locked_icon_url": "achievements_images/Achievement_92_Humble_Servant_locked.jpg",
+    "unlocked_icon_url": "Achievement_92_Humble_Servant",
+    "locked_icon_url": "Achievement_92_Humble_Servant_locked",
     "is_hidden": false
   },
-  "Achievement_93_Locked_and_Loaded": {
+  {
     "achievement_id": "Achievement_93_Locked_and_Loaded",
     "unlocked_display_name": "Locked and Loaded",
     "unlocked_description": "Unlocked the Haunted companion card.",
@@ -1204,11 +1204,11 @@
     "hidden_description": "Unlock the Haunted companion card.",
     "flavor_text": "",
     "completion_description": "Unlocked the Haunted companion card.",
-    "unlocked_icon_url": "achievements_images/Achievement_93_Locked_and_Loaded.jpg",
-    "locked_icon_url": "achievements_images/Achievement_93_Locked_and_Loaded_locked.jpg",
+    "unlocked_icon_url": "Achievement_93_Locked_and_Loaded",
+    "locked_icon_url": "Achievement_93_Locked_and_Loaded_locked",
     "is_hidden": false
   },
-  "Achievement_94_Endless_Hunter": {
+  {
     "achievement_id": "Achievement_94_Endless_Hunter",
     "unlocked_display_name": "Endless Hunter",
     "unlocked_description": "Completed an Endless Adventure's attempt with Keturah and scored 6,000 or more Endless Points.",
@@ -1217,11 +1217,11 @@
     "hidden_description": "Complete an Endless Adventure's attempt with Keturah and score 6,000 or more Endless Points.",
     "flavor_text": "",
     "completion_description": "Completed an Endless Adventure's attempt with Keturah and scored 6,000 or more Endless Points.",
-    "unlocked_icon_url": "achievements_images/Achievement_94_Endless_Hunter.jpg",
-    "locked_icon_url": "achievements_images/Achievement_94_Endless_Hunter_locked.jpg",
+    "unlocked_icon_url": "Achievement_94_Endless_Hunter",
+    "locked_icon_url": "Achievement_94_Endless_Hunter_locked",
     "is_hidden": false
   },
-  "Achievement_95_Wanted": {
+  {
     "achievement_id": "Achievement_95_Wanted",
     "unlocked_display_name": "Wanted",
     "unlocked_description": "Completed 10 faction bounties using Keturah's campfire ability.",
@@ -1230,11 +1230,11 @@
     "hidden_description": "Complete 10 faction bounties using Keturah's campfire ability.",
     "flavor_text": "",
     "completion_description": "Completed 10 faction bounties using Keturah's campfire ability.",
-    "unlocked_icon_url": "achievements_images/Achievement_95_Wanted.jpg",
-    "locked_icon_url": "achievements_images/Achievement_95_Wanted_locked.jpg",
+    "unlocked_icon_url": "Achievement_95_Wanted",
+    "locked_icon_url": "Achievement_95_Wanted_locked",
     "is_hidden": false
   },
-  "Achievement_96_Dead_or_Alive": {
+  {
     "achievement_id": "Achievement_96_Dead_or_Alive",
     "unlocked_display_name": "Dead or Alive",
     "unlocked_description": "Completed 5 named bounties using Keturah's upgraded campfire ability.",
@@ -1243,11 +1243,11 @@
     "hidden_description": "Complete 5 named bounties using Keturah's upgraded campfire ability.",
     "flavor_text": "",
     "completion_description": "Completed 5 named bounties using Keturah's upgraded campfire ability.",
-    "unlocked_icon_url": "achievements_images/Achievement_96_Dead_or_Alive.jpg",
-    "locked_icon_url": "achievements_images/Achievement_96_Dead_or_Alive_locked.jpg",
+    "unlocked_icon_url": "Achievement_96_Dead_or_Alive",
+    "locked_icon_url": "Achievement_96_Dead_or_Alive_locked",
     "is_hidden": false
   },
-  "Achievement_97_Bleeding_Edge": {
+  {
     "achievement_id": "Achievement_97_Bleeding_Edge",
     "unlocked_display_name": "Bleeding Edge",
     "unlocked_description": "Caused Bleed to 50 enemies in combat.",
@@ -1256,11 +1256,11 @@
     "hidden_description": "Cause Bleed to 50 enemies in combat.",
     "flavor_text": "",
     "completion_description": "Caused Bleed to 50 enemies in combat.",
-    "unlocked_icon_url": "achievements_images/Achievement_97_Bleeding_Edge.jpg",
-    "locked_icon_url": "achievements_images/Achievement_97_Bleeding_Edge_locked.jpg",
+    "unlocked_icon_url": "Achievement_97_Bleeding_Edge",
+    "locked_icon_url": "Achievement_97_Bleeding_Edge_locked",
     "is_hidden": false
   },
-  "Achievement_98_Marksman": {
+  {
     "achievement_id": "Achievement_98_Marksman",
     "unlocked_display_name": "Marksman",
     "unlocked_description": "Defeated 25 Enemies with Crossbow or Gun Artefacts in combat.",
@@ -1269,11 +1269,11 @@
     "hidden_description": "Defeat 25 Enemies with Crossbow or Gun Artefacts in combat.",
     "flavor_text": "",
     "completion_description": "Defeated 25 Enemies with Crossbow or Gun Artefacts in combat.",
-    "unlocked_icon_url": "achievements_images/Achievement_98_Marksman.jpg",
-    "locked_icon_url": "achievements_images/Achievement_98_Marksman_locked.jpg",
+    "unlocked_icon_url": "Achievement_98_Marksman",
+    "locked_icon_url": "Achievement_98_Marksman_locked",
     "is_hidden": false
   },
-  "Achievement_99_Warranted_Reward": {
+  {
     "achievement_id": "Achievement_99_Warranted_Reward",
     "unlocked_display_name": "Warranted Reward",
     "unlocked_description": "Fused the Bounty Shards and unlock the Token.",
@@ -1282,8 +1282,8 @@
     "hidden_description": "Fuse the Bounty Shards and unlock the Token.",
     "flavor_text": "",
     "completion_description": "Fused the Bounty Shards and unlock the Token.",
-    "unlocked_icon_url": "achievements_images/Achievement_99_Warranted_Reward.jpg",
-    "locked_icon_url": "achievements_images/Achievement_99_Warranted_Reward_locked.jpg",
+    "unlocked_icon_url": "Achievement_99_Warranted_Reward",
+    "locked_icon_url": "Achievement_99_Warranted_Reward_locked",
     "is_hidden": false
   }
-}
+]

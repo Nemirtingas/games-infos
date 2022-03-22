@@ -1,5 +1,5 @@
-{
-  "achievement_01": {
+[
+  {
     "achievement_id": "achievement_01",
     "unlocked_display_name": "Completed Act I",
     "unlocked_description": "You have completed Act I",
@@ -8,11 +8,11 @@
     "hidden_description": "Complete Act I",
     "flavor_text": "",
     "completion_description": "You have completed Act I",
-    "unlocked_icon_url": "achievements_images/achievement_01.jpg",
-    "locked_icon_url": "achievements_images/achievement_01_locked.jpg",
+    "unlocked_icon_url": "achievement_01",
+    "locked_icon_url": "achievement_01_locked",
     "is_hidden": false
   },
-  "achievement_02": {
+  {
     "achievement_id": "achievement_02",
     "unlocked_display_name": "Completed Act II",
     "unlocked_description": "You have completed Act II",
@@ -21,11 +21,11 @@
     "hidden_description": "Complete Act II",
     "flavor_text": "",
     "completion_description": "You have completed Act II",
-    "unlocked_icon_url": "achievements_images/achievement_02.jpg",
-    "locked_icon_url": "achievements_images/achievement_02_locked.jpg",
+    "unlocked_icon_url": "achievement_02",
+    "locked_icon_url": "achievement_02_locked",
     "is_hidden": false
   },
-  "achievement_03": {
+  {
     "achievement_id": "achievement_03",
     "unlocked_display_name": "Completed Act III",
     "unlocked_description": "You have completed Act III",
@@ -34,11 +34,11 @@
     "hidden_description": "Complete Act III",
     "flavor_text": "",
     "completion_description": "You have completed Act III",
-    "unlocked_icon_url": "achievements_images/achievement_03.jpg",
-    "locked_icon_url": "achievements_images/achievement_03_locked.jpg",
+    "unlocked_icon_url": "achievement_03",
+    "locked_icon_url": "achievement_03_locked",
     "is_hidden": false
   },
-  "achievement_04": {
+  {
     "achievement_id": "achievement_04",
     "unlocked_display_name": "Won the Game!!!",
     "unlocked_description": "Congratulations! You have completed the game",
@@ -47,11 +47,11 @@
     "hidden_description": "Complete the game",
     "flavor_text": "",
     "completion_description": "Congratulations! You have completed the game",
-    "unlocked_icon_url": "achievements_images/achievement_04.jpg",
-    "locked_icon_url": "achievements_images/achievement_04_locked.jpg",
+    "unlocked_icon_url": "achievement_04",
+    "locked_icon_url": "achievement_04_locked",
     "is_hidden": false
   },
-  "achievement_05": {
+  {
     "achievement_id": "achievement_05",
     "unlocked_display_name": "Enchanter",
     "unlocked_description": "Apply 5 or more different enchantments",
@@ -60,11 +60,11 @@
     "hidden_description": "Apply 5 or more different enchantments",
     "flavor_text": "",
     "completion_description": "Apply 5 or more different enchantments",
-    "unlocked_icon_url": "achievements_images/achievement_05.jpg",
-    "locked_icon_url": "achievements_images/achievement_05_locked.jpg",
+    "unlocked_icon_url": "achievement_05",
+    "locked_icon_url": "achievement_05_locked",
     "is_hidden": false
   },
-  "achievement_06": {
+  {
     "achievement_id": "achievement_06",
     "unlocked_display_name": "Chef",
     "unlocked_description": "Create 5 or more different food items",
@@ -73,11 +73,11 @@
     "hidden_description": "Create 5 or more different food items",
     "flavor_text": "",
     "completion_description": "Create 5 or more different food items",
-    "unlocked_icon_url": "achievements_images/achievement_06.jpg",
-    "locked_icon_url": "achievements_images/achievement_06_locked.jpg",
+    "unlocked_icon_url": "achievement_06",
+    "locked_icon_url": "achievement_06_locked",
     "is_hidden": false
   },
-  "achievement_07": {
+  {
     "achievement_id": "achievement_07",
     "unlocked_display_name": "Scribe",
     "unlocked_description": "Create 3 or more different scrolls",
@@ -86,11 +86,11 @@
     "hidden_description": "Create 3 or more different scrolls",
     "flavor_text": "",
     "completion_description": "Create 3 or more different scrolls",
-    "unlocked_icon_url": "achievements_images/achievement_07.jpg",
-    "locked_icon_url": "achievements_images/achievement_07_locked.jpg",
+    "unlocked_icon_url": "achievement_07",
+    "locked_icon_url": "achievement_07_locked",
     "is_hidden": false
   },
-  "achievement_08": {
+  {
     "achievement_id": "achievement_08",
     "unlocked_display_name": "Alchemist",
     "unlocked_description": "Create 3 or more different potions",
@@ -99,11 +99,11 @@
     "hidden_description": "Create 3 or more different potions",
     "flavor_text": "",
     "completion_description": "Create 3 or more different potions",
-    "unlocked_icon_url": "achievements_images/achievement_08.jpg",
-    "locked_icon_url": "achievements_images/achievement_08_locked.jpg",
+    "unlocked_icon_url": "achievement_08",
+    "locked_icon_url": "achievement_08_locked",
     "is_hidden": false
   },
-  "achievement_09": {
+  {
     "achievement_id": "achievement_09",
     "unlocked_display_name": "Trappy",
     "unlocked_description": "Place 5 or more trap items",
@@ -112,11 +112,11 @@
     "hidden_description": "Place 5 or more trap items",
     "flavor_text": "",
     "completion_description": "Place 5 or more trap items",
-    "unlocked_icon_url": "achievements_images/achievement_09.jpg",
-    "locked_icon_url": "achievements_images/achievement_09_locked.jpg",
+    "unlocked_icon_url": "achievement_09",
+    "locked_icon_url": "achievement_09_locked",
     "is_hidden": false
   },
-  "achievement_10": {
+  {
     "achievement_id": "achievement_10",
     "unlocked_display_name": "Relative Pacifism",
     "unlocked_description": "Complete the game killing fewer than 175 creatures and NPCs",
@@ -125,11 +125,11 @@
     "hidden_description": "Complete the game killing fewer than 175 creatures and NPCs",
     "flavor_text": "",
     "completion_description": "Complete the game killing fewer than 175 creatures and NPCs",
-    "unlocked_icon_url": "achievements_images/achievement_10.jpg",
-    "locked_icon_url": "achievements_images/achievement_10_locked.jpg",
+    "unlocked_icon_url": "achievement_10",
+    "locked_icon_url": "achievement_10_locked",
     "is_hidden": false
   },
-  "achievement_11": {
+  {
     "achievement_id": "achievement_11",
     "unlocked_display_name": "Super Murderer",
     "unlocked_description": "Complete the game killing 1200 or more creatures and NPCs",
@@ -138,11 +138,11 @@
     "hidden_description": "Complete the game killing 1200 or more creatures and NPCs",
     "flavor_text": "",
     "completion_description": "Complete the game killing 1200 or more creatures and NPCs",
-    "unlocked_icon_url": "achievements_images/achievement_11.jpg",
-    "locked_icon_url": "achievements_images/achievement_11_locked.jpg",
+    "unlocked_icon_url": "achievement_11",
+    "locked_icon_url": "achievement_11_locked",
     "is_hidden": false
   },
-  "achievement_12": {
+  {
     "achievement_id": "achievement_12",
     "unlocked_display_name": "5 Upgrades in Stronghold",
     "unlocked_description": "Complete at least 5 upgrades in the stronghold",
@@ -151,11 +151,11 @@
     "hidden_description": "Complete at least 5 upgrades in the stronghold",
     "flavor_text": "",
     "completion_description": "Complete at least 5 upgrades in the stronghold",
-    "unlocked_icon_url": "achievements_images/achievement_12.jpg",
-    "locked_icon_url": "achievements_images/achievement_12_locked.jpg",
+    "unlocked_icon_url": "achievement_12",
+    "locked_icon_url": "achievement_12_locked",
     "is_hidden": false
   },
-  "achievement_13": {
+  {
     "achievement_id": "achievement_13",
     "unlocked_display_name": "All Upgrades in Stronghold",
     "unlocked_description": "Complete all of the upgrades in the stronghold",
@@ -164,11 +164,11 @@
     "hidden_description": "Complete all of the upgrades in the stronghold",
     "flavor_text": "",
     "completion_description": "Complete all of the upgrades in the stronghold",
-    "unlocked_icon_url": "achievements_images/achievement_13.jpg",
-    "locked_icon_url": "achievements_images/achievement_13_locked.jpg",
+    "unlocked_icon_url": "achievement_13",
+    "locked_icon_url": "achievement_13_locked",
     "is_hidden": false
   },
-  "achievement_14": {
+  {
     "achievement_id": "achievement_14",
     "unlocked_display_name": "From the Clouds to the Depths",
     "unlocked_description": "Kill the sky dragon and adra dragon",
@@ -177,11 +177,11 @@
     "hidden_description": "Kill the sky dragon and adra dragon",
     "flavor_text": "",
     "completion_description": "Kill the sky dragon and adra dragon",
-    "unlocked_icon_url": "achievements_images/achievement_14.jpg",
-    "locked_icon_url": "achievements_images/achievement_14_locked.jpg",
+    "unlocked_icon_url": "achievement_14",
+    "locked_icon_url": "achievement_14_locked",
     "is_hidden": false
   },
-  "achievement_15": {
+  {
     "achievement_id": "achievement_15",
     "unlocked_display_name": "Appease All of the Gods",
     "unlocked_description": "Complete all of the god appeasement quests",
@@ -190,11 +190,11 @@
     "hidden_description": "Complete all of the god appeasement quests",
     "flavor_text": "",
     "completion_description": "Complete all of the god appeasement quests",
-    "unlocked_icon_url": "achievements_images/achievement_15.jpg",
-    "locked_icon_url": "achievements_images/achievement_15_locked.jpg",
+    "unlocked_icon_url": "achievement_15",
+    "locked_icon_url": "achievement_15_locked",
     "is_hidden": false
   },
-  "achievement_16": {
+  {
     "achievement_id": "achievement_16",
     "unlocked_display_name": "Explorer",
     "unlocked_description": "Visit every map (excluding those in The White March)",
@@ -203,11 +203,11 @@
     "hidden_description": "Visit every map (excluding those in The White March)",
     "flavor_text": "",
     "completion_description": "Visit every map (excluding those in The White March)",
-    "unlocked_icon_url": "achievements_images/achievement_16.jpg",
-    "locked_icon_url": "achievements_images/achievement_16_locked.jpg",
+    "unlocked_icon_url": "achievement_16",
+    "locked_icon_url": "achievement_16_locked",
     "is_hidden": false
   },
-  "achievement_17": {
+  {
     "achievement_id": "achievement_17",
     "unlocked_display_name": "Disposition",
     "unlocked_description": "Attain rank 3 in at least three Dispositions",
@@ -216,11 +216,11 @@
     "hidden_description": "Attain rank 3 in at least three Dispositions",
     "flavor_text": "",
     "completion_description": "Attain rank 3 in at least three Dispositions",
-    "unlocked_icon_url": "achievements_images/achievement_17.jpg",
-    "locked_icon_url": "achievements_images/achievement_17_locked.jpg",
+    "unlocked_icon_url": "achievement_17",
+    "locked_icon_url": "achievement_17_locked",
     "is_hidden": false
   },
-  "achievement_18": {
+  {
     "achievement_id": "achievement_18",
     "unlocked_display_name": "The Storied Adventurer",
     "unlocked_description": "Complete a Minor, Average, Major, Grand, and Legendary stronghold adventure",
@@ -229,11 +229,11 @@
     "hidden_description": "Complete a Minor, Average, Major, Grand, and Legendary stronghold adventure",
     "flavor_text": "",
     "completion_description": "Complete a Minor, Average, Major, Grand, and Legendary stronghold adventure",
-    "unlocked_icon_url": "achievements_images/achievement_18.jpg",
-    "locked_icon_url": "achievements_images/achievement_18_locked.jpg",
+    "unlocked_icon_url": "achievement_18",
+    "locked_icon_url": "achievement_18_locked",
     "is_hidden": false
   },
-  "achievement_19": {
+  {
     "achievement_id": "achievement_19",
     "unlocked_display_name": "The Heir of Caed Nua",
     "unlocked_description": "Defend your position as the master of Caed Nua",
@@ -242,11 +242,11 @@
     "hidden_description": "Defend your position as the master of Caed Nua",
     "flavor_text": "",
     "completion_description": "Defend your position as the master of Caed Nua",
-    "unlocked_icon_url": "achievements_images/achievement_19.jpg",
-    "locked_icon_url": "achievements_images/achievement_19_locked.jpg",
+    "unlocked_icon_url": "achievement_19",
+    "locked_icon_url": "achievement_19_locked",
     "is_hidden": false
   },
-  "achievement_20": {
+  {
     "achievement_id": "achievement_20",
     "unlocked_display_name": "The Watcher With Eight Friends",
     "unlocked_description": "Recruit all companions (excluding those in The White March)",
@@ -255,11 +255,11 @@
     "hidden_description": "Recruit all companions (excluding those in The White March)",
     "flavor_text": "",
     "completion_description": "Recruit all companions (excluding those in The White March)",
-    "unlocked_icon_url": "achievements_images/achievement_20.jpg",
-    "locked_icon_url": "achievements_images/achievement_20_locked.jpg",
+    "unlocked_icon_url": "achievement_20",
+    "locked_icon_url": "achievement_20_locked",
     "is_hidden": false
   },
-  "achievement_21": {
+  {
     "achievement_id": "achievement_21",
     "unlocked_display_name": "A Voice from the Deep",
     "unlocked_description": "Reach the reliquary in the Abbey of the Fallen Moon",
@@ -268,11 +268,11 @@
     "hidden_description": "Reach the reliquary in the Abbey of the Fallen Moon",
     "flavor_text": "",
     "completion_description": "Reach the reliquary in the Abbey of the Fallen Moon",
-    "unlocked_icon_url": "achievements_images/achievement_21.jpg",
-    "locked_icon_url": "achievements_images/achievement_21_locked.jpg",
+    "unlocked_icon_url": "achievement_21",
+    "locked_icon_url": "achievement_21_locked",
     "is_hidden": false
   },
-  "achievement_22": {
+  {
     "achievement_id": "achievement_22",
     "unlocked_display_name": "Among the Moss and Peat",
     "unlocked_description": "Defeat the menace of Mowrghek Îen",
@@ -281,11 +281,11 @@
     "hidden_description": "Defeat the menace of Mowrghek Îen",
     "flavor_text": "",
     "completion_description": "Defeat the menace of Mowrghek Îen",
-    "unlocked_icon_url": "achievements_images/achievement_22.jpg",
-    "locked_icon_url": "achievements_images/achievement_22_locked.jpg",
+    "unlocked_icon_url": "achievement_22",
+    "locked_icon_url": "achievement_22_locked",
     "is_hidden": false
   },
-  "achievement_23": {
+  {
     "achievement_id": "achievement_23",
     "unlocked_display_name": "Called to their Labor",
     "unlocked_description": "Stop the threat you saw in your dreams",
@@ -294,11 +294,11 @@
     "hidden_description": "Stop the threat you saw in your dreams",
     "flavor_text": "",
     "completion_description": "Stop the threat you saw in your dreams",
-    "unlocked_icon_url": "achievements_images/achievement_23.jpg",
-    "locked_icon_url": "achievements_images/achievement_23_locked.jpg",
+    "unlocked_icon_url": "achievement_23",
+    "locked_icon_url": "achievement_23_locked",
     "is_hidden": false
   },
-  "achievement_24": {
+  {
     "achievement_id": "achievement_24",
     "unlocked_display_name": "Terror of the White March",
     "unlocked_description": "Defeat the dragon that dwells in the White March",
@@ -307,11 +307,11 @@
     "hidden_description": "Defeat the dragon that dwells in the White March",
     "flavor_text": "",
     "completion_description": "Defeat the dragon that dwells in the White March",
-    "unlocked_icon_url": "achievements_images/achievement_24.jpg",
-    "locked_icon_url": "achievements_images/achievement_24_locked.jpg",
+    "unlocked_icon_url": "achievement_24",
+    "locked_icon_url": "achievement_24_locked",
     "is_hidden": false
   },
-  "achievement_25": {
+  {
     "achievement_id": "achievement_25",
     "unlocked_display_name": "The Siege of Crägholdt",
     "unlocked_description": "Complete the Siege of Crägholdt quest",
@@ -320,11 +320,11 @@
     "hidden_description": "Complete the Siege of Crägholdt quest",
     "flavor_text": "",
     "completion_description": "Complete the Siege of Crägholdt quest",
-    "unlocked_icon_url": "achievements_images/achievement_25.jpg",
-    "locked_icon_url": "achievements_images/achievement_25_locked.jpg",
+    "unlocked_icon_url": "achievement_25",
+    "locked_icon_url": "achievement_25_locked",
     "is_hidden": false
   },
-  "achievement_26": {
+  {
     "achievement_id": "achievement_26",
     "unlocked_display_name": "Herald of the Old Flame",
     "unlocked_description": "Restart the fabled White Forge",
@@ -333,11 +333,11 @@
     "hidden_description": "Restart the fabled White Forge",
     "flavor_text": "",
     "completion_description": "Restart the fabled White Forge",
-    "unlocked_icon_url": "achievements_images/achievement_26.jpg",
-    "locked_icon_url": "achievements_images/achievement_26_locked.jpg",
+    "unlocked_icon_url": "achievement_26",
+    "locked_icon_url": "achievement_26_locked",
     "is_hidden": false
   },
-  "achievement_27": {
+  {
     "achievement_id": "achievement_27",
     "unlocked_display_name": "Make an Adventurer",
     "unlocked_description": "Create and hire an adventurer from the Adventurer's Hall",
@@ -346,11 +346,11 @@
     "hidden_description": "Create and hire an adventurer from the Adventurer's Hall",
     "flavor_text": "",
     "completion_description": "Create and hire an adventurer from the Adventurer's Hall",
-    "unlocked_icon_url": "achievements_images/achievement_27.jpg",
-    "locked_icon_url": "achievements_images/achievement_27_locked.jpg",
+    "unlocked_icon_url": "achievement_27",
+    "locked_icon_url": "achievement_27_locked",
     "is_hidden": false
   },
-  "achievement_28": {
+  {
     "achievement_id": "achievement_28",
     "unlocked_display_name": "First 5 Levels of Od Nua",
     "unlocked_description": "Complete the first 5 levels of the Endless Paths of Od Nua",
@@ -359,11 +359,11 @@
     "hidden_description": "Complete the first 5 levels of the Endless Paths of Od Nua",
     "flavor_text": "",
     "completion_description": "Complete the first 5 levels of the Endless Paths of Od Nua",
-    "unlocked_icon_url": "achievements_images/achievement_28.jpg",
-    "locked_icon_url": "achievements_images/achievement_28_locked.jpg",
+    "unlocked_icon_url": "achievement_28",
+    "locked_icon_url": "achievement_28_locked",
     "is_hidden": false
   },
-  "achievement_29": {
+  {
     "achievement_id": "achievement_29",
     "unlocked_display_name": "Middle 5 Levels of Od Nua",
     "unlocked_description": "Complete the middle 5 levels of the Endless Paths of Od Nua",
@@ -372,11 +372,11 @@
     "hidden_description": "Complete the middle 5 levels of the Endless Paths of Od Nua",
     "flavor_text": "",
     "completion_description": "Complete the middle 5 levels of the Endless Paths of Od Nua",
-    "unlocked_icon_url": "achievements_images/achievement_29.jpg",
-    "locked_icon_url": "achievements_images/achievement_29_locked.jpg",
+    "unlocked_icon_url": "achievement_29",
+    "locked_icon_url": "achievement_29_locked",
     "is_hidden": false
   },
-  "achievement_30": {
+  {
     "achievement_id": "achievement_30",
     "unlocked_display_name": "Last 5 Levels of Od Nua",
     "unlocked_description": "Complete the last 5 levels of the Endless Paths of Od Nua",
@@ -385,11 +385,11 @@
     "hidden_description": "Complete the last 5 levels of the Endless Paths of Od Nua",
     "flavor_text": "",
     "completion_description": "Complete the last 5 levels of the Endless Paths of Od Nua",
-    "unlocked_icon_url": "achievements_images/achievement_30.jpg",
-    "locked_icon_url": "achievements_images/achievement_30_locked.jpg",
+    "unlocked_icon_url": "achievement_30",
+    "locked_icon_url": "achievement_30_locked",
     "is_hidden": false
   },
-  "achievement_31": {
+  {
     "achievement_id": "achievement_31",
     "unlocked_display_name": "Bounty Hunter",
     "unlocked_description": "Complete at least four bounties offered at the Warden's Lodge or Stalwart",
@@ -398,11 +398,11 @@
     "hidden_description": "Complete at least four bounties offered at the Warden's Lodge or Stalwart",
     "flavor_text": "",
     "completion_description": "Complete at least four bounties offered at the Warden's Lodge or Stalwart",
-    "unlocked_icon_url": "achievements_images/achievement_31.jpg",
-    "locked_icon_url": "achievements_images/achievement_31_locked.jpg",
+    "unlocked_icon_url": "achievement_31",
+    "locked_icon_url": "achievement_31_locked",
     "is_hidden": false
   },
-  "achievement_32": {
+  {
     "achievement_id": "achievement_32",
     "unlocked_display_name": "Soulbinder",
     "unlocked_description": "Unlock all the powers of a soulbound weapon",
@@ -411,11 +411,11 @@
     "hidden_description": "Unlock all the powers of a soulbound weapon",
     "flavor_text": "",
     "completion_description": "Unlock all the powers of a soulbound weapon",
-    "unlocked_icon_url": "achievements_images/achievement_32.jpg",
-    "locked_icon_url": "achievements_images/achievement_32_locked.jpg",
+    "unlocked_icon_url": "achievement_32",
+    "locked_icon_url": "achievement_32_locked",
     "is_hidden": false
   },
-  "achievement_33": {
+  {
     "achievement_id": "achievement_33",
     "unlocked_display_name": "The Giftbearer",
     "unlocked_description": "Recruit Maneha as a companion",
@@ -424,11 +424,11 @@
     "hidden_description": "Recruit Maneha as a companion",
     "flavor_text": "",
     "completion_description": "Recruit Maneha as a companion",
-    "unlocked_icon_url": "achievements_images/achievement_33.jpg",
-    "locked_icon_url": "achievements_images/achievement_33_locked.jpg",
+    "unlocked_icon_url": "achievement_33",
+    "locked_icon_url": "achievement_33_locked",
     "is_hidden": false
   },
-  "achievement_34": {
+  {
     "achievement_id": "achievement_34",
     "unlocked_display_name": "Watcher at the Breach",
     "unlocked_description": "Open the sealed doors of Durgan's Battery",
@@ -437,11 +437,11 @@
     "hidden_description": "Open the sealed doors of Durgan's Battery",
     "flavor_text": "",
     "completion_description": "Open the sealed doors of Durgan's Battery",
-    "unlocked_icon_url": "achievements_images/achievement_34.jpg",
-    "locked_icon_url": "achievements_images/achievement_34_locked.jpg",
+    "unlocked_icon_url": "achievement_34",
+    "locked_icon_url": "achievement_34_locked",
     "is_hidden": false
   },
-  "achievement_35": {
+  {
     "achievement_id": "achievement_35",
     "unlocked_display_name": "Fish Guts and Murder",
     "unlocked_description": "Recruit Zahua and the Devil of Caroc as companions",
@@ -450,11 +450,11 @@
     "hidden_description": "Recruit Zahua and the Devil of Caroc as companions",
     "flavor_text": "",
     "completion_description": "Recruit Zahua and the Devil of Caroc as companions",
-    "unlocked_icon_url": "achievements_images/achievement_35.jpg",
-    "locked_icon_url": "achievements_images/achievement_35_locked.jpg",
+    "unlocked_icon_url": "achievement_35",
+    "locked_icon_url": "achievement_35_locked",
     "is_hidden": false
   },
-  "achievement_36": {
+  {
     "achievement_id": "achievement_36",
     "unlocked_display_name": "Kickstarter Backer",
     "unlocked_description": "Thanks for all of your support!",
@@ -463,11 +463,11 @@
     "hidden_description": "Thanks for all of your support!",
     "flavor_text": "",
     "completion_description": "Thanks for all of your support!",
-    "unlocked_icon_url": "achievements_images/achievement_36.jpg",
-    "locked_icon_url": "achievements_images/achievement_36_locked.jpg",
+    "unlocked_icon_url": "achievement_36",
+    "locked_icon_url": "achievement_36_locked",
     "is_hidden": false
   },
-  "achievement_37": {
+  {
     "achievement_id": "achievement_37",
     "unlocked_display_name": "Legendary Enchanter",
     "unlocked_description": "Place the Legendary enchantment on one weapon or shield and one armor",
@@ -476,11 +476,11 @@
     "hidden_description": "Place the Legendary enchantment on one weapon or shield and one armor",
     "flavor_text": "",
     "completion_description": "Place the Legendary enchantment on one weapon or shield and one armor",
-    "unlocked_icon_url": "achievements_images/achievement_37.jpg",
-    "locked_icon_url": "achievements_images/achievement_37_locked.jpg",
+    "unlocked_icon_url": "achievement_37",
+    "locked_icon_url": "achievement_37_locked",
     "is_hidden": false
   },
-  "achievement_38": {
+  {
     "achievement_id": "achievement_38",
     "unlocked_display_name": "Path of the Damned",
     "unlocked_description": "Complete the game on Path of the Damned mode",
@@ -489,11 +489,11 @@
     "hidden_description": "Complete the game on Path of the Damned mode",
     "flavor_text": "",
     "completion_description": "Complete the game on Path of the Damned mode",
-    "unlocked_icon_url": "achievements_images/achievement_38.jpg",
-    "locked_icon_url": "achievements_images/achievement_38_locked.jpg",
+    "unlocked_icon_url": "achievement_38",
+    "locked_icon_url": "achievement_38_locked",
     "is_hidden": false
   },
-  "achievement_39": {
+  {
     "achievement_id": "achievement_39",
     "unlocked_display_name": "Expert",
     "unlocked_description": "Complete the game on Expert mode",
@@ -502,11 +502,11 @@
     "hidden_description": "Complete the game on Expert mode",
     "flavor_text": "",
     "completion_description": "Complete the game on Expert mode",
-    "unlocked_icon_url": "achievements_images/achievement_39.jpg",
-    "locked_icon_url": "achievements_images/achievement_39_locked.jpg",
+    "unlocked_icon_url": "achievement_39",
+    "locked_icon_url": "achievement_39_locked",
     "is_hidden": false
   },
-  "achievement_40": {
+  {
     "achievement_id": "achievement_40",
     "unlocked_display_name": "Zero Knockouts",
     "unlocked_description": "Complete the game without any party members hitting 0 Endurance",
@@ -515,11 +515,11 @@
     "hidden_description": "Complete the game without any party members hitting 0 Endurance",
     "flavor_text": "",
     "completion_description": "Complete the game without any party members hitting 0 Endurance",
-    "unlocked_icon_url": "achievements_images/achievement_40.jpg",
-    "locked_icon_url": "achievements_images/achievement_40_locked.jpg",
+    "unlocked_icon_url": "achievement_40",
+    "locked_icon_url": "achievement_40_locked",
     "is_hidden": false
   },
-  "achievement_41": {
+  {
     "achievement_id": "achievement_41",
     "unlocked_display_name": "Solo",
     "unlocked_description": "Complete the game without taking any companions after Cilant Lis",
@@ -528,11 +528,11 @@
     "hidden_description": "Complete the game without taking any companions after Cilant Lis",
     "flavor_text": "",
     "completion_description": "Complete the game without taking any companions after Cilant Lis",
-    "unlocked_icon_url": "achievements_images/achievement_41.jpg",
-    "locked_icon_url": "achievements_images/achievement_41_locked.jpg",
+    "unlocked_icon_url": "achievement_41",
+    "locked_icon_url": "achievement_41_locked",
     "is_hidden": false
   },
-  "achievement_42": {
+  {
     "achievement_id": "achievement_42",
     "unlocked_display_name": "Triple Crown",
     "unlocked_description": "Complete the game on Expert, Trial of Iron, and Path of the Damned modes",
@@ -541,11 +541,11 @@
     "hidden_description": "Complete the game on Expert, Trial of Iron, and Path of the Damned modes",
     "flavor_text": "",
     "completion_description": "Complete the game on Expert, Trial of Iron, and Path of the Damned modes",
-    "unlocked_icon_url": "achievements_images/achievement_42.jpg",
-    "locked_icon_url": "achievements_images/achievement_42_locked.jpg",
+    "unlocked_icon_url": "achievement_42",
+    "locked_icon_url": "achievement_42_locked",
     "is_hidden": false
   },
-  "achievement_43": {
+  {
     "achievement_id": "achievement_43",
     "unlocked_display_name": "Trial of Iron",
     "unlocked_description": "Complete the game on Trial of Iron mode",
@@ -554,11 +554,11 @@
     "hidden_description": "Complete the game on Trial of Iron mode",
     "flavor_text": "",
     "completion_description": "Complete the game on Trial of Iron mode",
-    "unlocked_icon_url": "achievements_images/achievement_43.jpg",
-    "locked_icon_url": "achievements_images/achievement_43_locked.jpg",
+    "unlocked_icon_url": "achievement_43",
+    "locked_icon_url": "achievement_43_locked",
     "is_hidden": false
   },
-  "achievement_44": {
+  {
     "achievement_id": "achievement_44",
     "unlocked_display_name": "No Rest for the Pro",
     "unlocked_description": "Complete the game with fewer than 10 rests",
@@ -567,11 +567,11 @@
     "hidden_description": "Complete the game with fewer than 10 rests",
     "flavor_text": "",
     "completion_description": "Complete the game with fewer than 10 rests",
-    "unlocked_icon_url": "achievements_images/achievement_44.jpg",
-    "locked_icon_url": "achievements_images/achievement_44_locked.jpg",
+    "unlocked_icon_url": "achievement_44",
+    "locked_icon_url": "achievement_44_locked",
     "is_hidden": false
   },
-  "achievement_45": {
+  {
     "achievement_id": "achievement_45",
     "unlocked_display_name": "Triple Crown Solo",
     "unlocked_description": "Complete the game on Expert, Trial of Iron, and Path of the Damned modes without taking any companions after Cilant Lis",
@@ -580,11 +580,11 @@
     "hidden_description": "Complete the game on Expert, Trial of Iron, and Path of the Damned modes without taking any companions after Cilant Lis",
     "flavor_text": "",
     "completion_description": "Complete the game on Expert, Trial of Iron, and Path of the Damned modes without taking any companions after Cilant Lis",
-    "unlocked_icon_url": "achievements_images/achievement_45.jpg",
-    "locked_icon_url": "achievements_images/achievement_45_locked.jpg",
+    "unlocked_icon_url": "achievement_45",
+    "locked_icon_url": "achievement_45_locked",
     "is_hidden": false
   },
-  "achievement_46": {
+  {
     "achievement_id": "achievement_46",
     "unlocked_display_name": "Frozen Crown",
     "unlocked_description": "Complete the White March and Pillars of Eternity on Expert, Trial of Iron, and Path of the Damned modes",
@@ -593,11 +593,11 @@
     "hidden_description": "Complete the White March and Pillars of Eternity on Expert, Trial of Iron, and Path of the Damned modes",
     "flavor_text": "",
     "completion_description": "Complete the White March and Pillars of Eternity on Expert, Trial of Iron, and Path of the Damned modes",
-    "unlocked_icon_url": "achievements_images/achievement_46.jpg",
-    "locked_icon_url": "achievements_images/achievement_46_locked.jpg",
+    "unlocked_icon_url": "achievement_46",
+    "locked_icon_url": "achievement_46_locked",
     "is_hidden": false
   },
-  "achievement_47": {
+  {
     "achievement_id": "achievement_47",
     "unlocked_display_name": "Frozen Crown Solo",
     "unlocked_description": "Complete the White March and Pillars of Eternity on Expert, Trial of Iron, and Path of the Damned modes without taking any companions after Cilant Lîs",
@@ -606,11 +606,11 @@
     "hidden_description": "Complete the White March and Pillars of Eternity on Expert, Trial of Iron, and Path of the Damned modes without taking any companions after Cilant Lîs",
     "flavor_text": "",
     "completion_description": "Complete the White March and Pillars of Eternity on Expert, Trial of Iron, and Path of the Damned modes without taking any companions after Cilant Lîs",
-    "unlocked_icon_url": "achievements_images/achievement_47.jpg",
-    "locked_icon_url": "achievements_images/achievement_47_locked.jpg",
+    "unlocked_icon_url": "achievement_47",
+    "locked_icon_url": "achievement_47_locked",
     "is_hidden": false
   },
-  "achievement_48": {
+  {
     "achievement_id": "achievement_48",
     "unlocked_display_name": "The Ultimate",
     "unlocked_description": "Complete the White March and Pillars of Eternity, defeat all dragons, all bounties, and both archmages on Expert, Trial of Iron, and Path of the Damned modes without taking any companions after Cilant Lîs",
@@ -619,8 +619,8 @@
     "hidden_description": "Complete the White March and Pillars of Eternity, defeat all dragons, all bounties, and both archmages on Expert, Trial of Iron, and Path of the Damned modes without taking any companions after Cilant Lîs",
     "flavor_text": "",
     "completion_description": "Complete the White March and Pillars of Eternity, defeat all dragons, all bounties, and both archmages on Expert, Trial of Iron, and Path of the Damned modes without taking any companions after Cilant Lîs",
-    "unlocked_icon_url": "achievements_images/achievement_48.jpg",
-    "locked_icon_url": "achievements_images/achievement_48_locked.jpg",
+    "unlocked_icon_url": "achievement_48",
+    "locked_icon_url": "achievement_48_locked",
     "is_hidden": false
   }
-}
+]

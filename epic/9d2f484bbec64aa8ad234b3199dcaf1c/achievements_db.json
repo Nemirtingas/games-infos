@@ -1,5 +1,5 @@
-{
-  "ACH_BACON_DONUTS": {
+[
+  {
     "achievement_id": "ACH_BACON_DONUTS",
     "unlocked_display_name": "Bacon Donuts",
     "unlocked_description": "Complete 25 donuts in Driftkhana.",
@@ -8,11 +8,11 @@
     "hidden_description": "Complete 25 donuts in Driftkhana.",
     "flavor_text": "",
     "completion_description": "Complete 25 donuts in Driftkhana.",
-    "unlocked_icon_url": "achievements_images/ACH_BACON_DONUTS.jpg",
-    "locked_icon_url": "achievements_images/ACH_BACON_DONUTS_locked.jpg",
+    "unlocked_icon_url": "ACH_BACON_DONUTS",
+    "locked_icon_url": "ACH_BACON_DONUTS_locked",
     "is_hidden": false
   },
-  "ACH_BUZZ_CONTROL_TOWER": {
+  {
     "achievement_id": "ACH_BUZZ_CONTROL_TOWER",
     "unlocked_display_name": "Maverick",
     "unlocked_description": "Buzz the control tower in World 1.",
@@ -21,11 +21,11 @@
     "hidden_description": "Buzz the control tower in World 1.",
     "flavor_text": "",
     "completion_description": "Buzz the control tower in World 1.",
-    "unlocked_icon_url": "achievements_images/ACH_BUZZ_CONTROL_TOWER.jpg",
-    "locked_icon_url": "achievements_images/ACH_BUZZ_CONTROL_TOWER_locked.jpg",
+    "unlocked_icon_url": "ACH_BUZZ_CONTROL_TOWER",
+    "locked_icon_url": "ACH_BUZZ_CONTROL_TOWER_locked",
     "is_hidden": false
   },
-  "ACH_CUBIC_RUCKUS": {
+  {
     "achievement_id": "ACH_CUBIC_RUCKUS",
     "unlocked_display_name": "Bring the Cubic Ruckus",
     "unlocked_description": "Smash 100 blocks in Driftkhana & MTN Drift Tracks.",
@@ -34,11 +34,11 @@
     "hidden_description": "Smash 100 blocks in Driftkhana & MTN Drift Tracks.",
     "flavor_text": "",
     "completion_description": "Smash 100 blocks in Driftkhana & MTN Drift Tracks.",
-    "unlocked_icon_url": "achievements_images/ACH_CUBIC_RUCKUS.jpg",
-    "locked_icon_url": "achievements_images/ACH_CUBIC_RUCKUS_locked.jpg",
+    "unlocked_icon_url": "ACH_CUBIC_RUCKUS",
+    "locked_icon_url": "ACH_CUBIC_RUCKUS_locked",
     "is_hidden": false
   },
-  "ACH_DOUBLE_RAINBOW": {
+  {
     "achievement_id": "ACH_DOUBLE_RAINBOW",
     "unlocked_display_name": "Double Rainbow",
     "unlocked_description": "Paint your car 20 times in Free-Roam.",
@@ -47,11 +47,11 @@
     "hidden_description": "Paint your car 20 times in Free-Roam.",
     "flavor_text": "",
     "completion_description": "Paint your car 20 times in Free-Roam.",
-    "unlocked_icon_url": "achievements_images/ACH_DOUBLE_RAINBOW.jpg",
-    "locked_icon_url": "achievements_images/ACH_DOUBLE_RAINBOW_locked.jpg",
+    "unlocked_icon_url": "ACH_DOUBLE_RAINBOW",
+    "locked_icon_url": "ACH_DOUBLE_RAINBOW_locked",
     "is_hidden": false
   },
-  "ACH_DRIFT_LINE_APPRENTICE": {
+  {
     "achievement_id": "ACH_DRIFT_LINE_APPRENTICE",
     "unlocked_display_name": "Drift Line Apprentice",
     "unlocked_description": "Complete a perfect drift line.",
@@ -60,11 +60,11 @@
     "hidden_description": "Complete a perfect drift line.",
     "flavor_text": "",
     "completion_description": "Complete a perfect drift line.",
-    "unlocked_icon_url": "achievements_images/ACH_DRIFT_LINE_APPRENTICE.jpg",
-    "locked_icon_url": "achievements_images/ACH_DRIFT_LINE_APPRENTICE_locked.jpg",
+    "unlocked_icon_url": "ACH_DRIFT_LINE_APPRENTICE",
+    "locked_icon_url": "ACH_DRIFT_LINE_APPRENTICE_locked",
     "is_hidden": false
   },
-  "ACH_DRIFT_LINE_MASTER": {
+  {
     "achievement_id": "ACH_DRIFT_LINE_MASTER",
     "unlocked_display_name": "Drift Line Master",
     "unlocked_description": "Complete 10 perfect drift lines.",
@@ -73,11 +73,11 @@
     "hidden_description": "Complete 10 perfect drift lines.",
     "flavor_text": "",
     "completion_description": "Complete 10 perfect drift lines.",
-    "unlocked_icon_url": "achievements_images/ACH_DRIFT_LINE_MASTER.jpg",
-    "locked_icon_url": "achievements_images/ACH_DRIFT_LINE_MASTER_locked.jpg",
+    "unlocked_icon_url": "ACH_DRIFT_LINE_MASTER",
+    "locked_icon_url": "ACH_DRIFT_LINE_MASTER_locked",
     "is_hidden": false
   },
-  "ACH_GOOD_SKILLS": {
+  {
     "achievement_id": "ACH_GOOD_SKILLS",
     "unlocked_display_name": "Good Skills",
     "unlocked_description": "Score over 500,000 points in a level.",
@@ -86,11 +86,11 @@
     "hidden_description": "Score over 500,000 points in a level.",
     "flavor_text": "",
     "completion_description": "Score over 500,000 points in a level.",
-    "unlocked_icon_url": "achievements_images/ACH_GOOD_SKILLS.jpg",
-    "locked_icon_url": "achievements_images/ACH_GOOD_SKILLS_locked.jpg",
+    "unlocked_icon_url": "ACH_GOOD_SKILLS",
+    "locked_icon_url": "ACH_GOOD_SKILLS_locked",
     "is_hidden": false
   },
-  "ACH_HOON_AIRLINES": {
+  {
     "achievement_id": "ACH_HOON_AIRLINES",
     "unlocked_display_name": "Hoon Airlines",
     "unlocked_description": "Spend 2 minutes airborne in Free-Roam.",
@@ -99,11 +99,11 @@
     "hidden_description": "Spend 2 minutes airborne in Free-Roam.",
     "flavor_text": "",
     "completion_description": "Spend 2 minutes airborne in Free-Roam.",
-    "unlocked_icon_url": "achievements_images/ACH_HOON_AIRLINES.jpg",
-    "locked_icon_url": "achievements_images/ACH_HOON_AIRLINES_locked.jpg",
+    "unlocked_icon_url": "ACH_HOON_AIRLINES",
+    "locked_icon_url": "ACH_HOON_AIRLINES_locked",
     "is_hidden": false
   },
-  "ACH_INSANE_SKILLS": {
+  {
     "achievement_id": "ACH_INSANE_SKILLS",
     "unlocked_display_name": "Insane Skills",
     "unlocked_description": "Score over 2,000,000 points in a level.",
@@ -112,11 +112,11 @@
     "hidden_description": "Score over 2,000,000 points in a level.",
     "flavor_text": "",
     "completion_description": "Score over 2,000,000 points in a level.",
-    "unlocked_icon_url": "achievements_images/ACH_INSANE_SKILLS.jpg",
-    "locked_icon_url": "achievements_images/ACH_INSANE_SKILLS_locked.jpg",
+    "unlocked_icon_url": "ACH_INSANE_SKILLS",
+    "locked_icon_url": "ACH_INSANE_SKILLS_locked",
     "is_hidden": false
   },
-  "ACH_JELLY_FILLED_DONUTS": {
+  {
     "achievement_id": "ACH_JELLY_FILLED_DONUTS",
     "unlocked_display_name": "Jelly Donuts",
     "unlocked_description": "Complete 5 donuts in Driftkhana.",
@@ -125,11 +125,11 @@
     "hidden_description": "Complete 5 donuts in Driftkhana.",
     "flavor_text": "",
     "completion_description": "Complete 5 donuts in Driftkhana.",
-    "unlocked_icon_url": "achievements_images/ACH_JELLY_FILLED_DONUTS.jpg",
-    "locked_icon_url": "achievements_images/ACH_JELLY_FILLED_DONUTS_locked.jpg",
+    "unlocked_icon_url": "ACH_JELLY_FILLED_DONUTS",
+    "locked_icon_url": "ACH_JELLY_FILLED_DONUTS_locked",
     "is_hidden": false
   },
-  "ACH_MAD_SKILLS": {
+  {
     "achievement_id": "ACH_MAD_SKILLS",
     "unlocked_display_name": "Mad Skills",
     "unlocked_description": "Score over 1,000,000 points in a level.",
@@ -138,11 +138,11 @@
     "hidden_description": "Score over 1,000,000 points in a level.",
     "flavor_text": "",
     "completion_description": "Score over 1,000,000 points in a level.",
-    "unlocked_icon_url": "achievements_images/ACH_MAD_SKILLS.jpg",
-    "locked_icon_url": "achievements_images/ACH_MAD_SKILLS_locked.jpg",
+    "unlocked_icon_url": "ACH_MAD_SKILLS",
+    "locked_icon_url": "ACH_MAD_SKILLS_locked",
     "is_hidden": false
   },
-  "ACH_MASTER_DRIFTER": {
+  {
     "achievement_id": "ACH_MASTER_DRIFTER",
     "unlocked_display_name": "Master Drifter",
     "unlocked_description": "Completed the game.",
@@ -151,11 +151,11 @@
     "hidden_description": "Completed the game.",
     "flavor_text": "",
     "completion_description": "Completed the game.",
-    "unlocked_icon_url": "achievements_images/ACH_MASTER_DRIFTER.jpg",
-    "locked_icon_url": "achievements_images/ACH_MASTER_DRIFTER_locked.jpg",
+    "unlocked_icon_url": "ACH_MASTER_DRIFTER",
+    "locked_icon_url": "ACH_MASTER_DRIFTER_locked",
     "is_hidden": false
   },
-  "ACH_MIDNIGHT_DRIFTER": {
+  {
     "achievement_id": "ACH_MIDNIGHT_DRIFTER",
     "unlocked_display_name": "Midnight Drifter",
     "unlocked_description": "Unlock a midnight event.",
@@ -164,11 +164,11 @@
     "hidden_description": "Unlock a midnight event.",
     "flavor_text": "",
     "completion_description": "Unlock a midnight event.",
-    "unlocked_icon_url": "achievements_images/ACH_MIDNIGHT_DRIFTER.jpg",
-    "locked_icon_url": "achievements_images/ACH_MIDNIGHT_DRIFTER_locked.jpg",
+    "unlocked_icon_url": "ACH_MIDNIGHT_DRIFTER",
+    "locked_icon_url": "ACH_MIDNIGHT_DRIFTER_locked",
     "is_hidden": false
   },
-  "ACH_MIDNIGHT_MASTER": {
+  {
     "achievement_id": "ACH_MIDNIGHT_MASTER",
     "unlocked_display_name": "Midnight Master",
     "unlocked_description": "Complete all 5 event challenges in a midnight event.",
@@ -177,11 +177,11 @@
     "hidden_description": "Complete all 5 event challenges in a midnight event.",
     "flavor_text": "",
     "completion_description": "Complete all 5 event challenges in a midnight event.",
-    "unlocked_icon_url": "achievements_images/ACH_MIDNIGHT_MASTER.jpg",
-    "locked_icon_url": "achievements_images/ACH_MIDNIGHT_MASTER_locked.jpg",
+    "unlocked_icon_url": "ACH_MIDNIGHT_MASTER",
+    "locked_icon_url": "ACH_MIDNIGHT_MASTER_locked",
     "is_hidden": false
   },
-  "ACH_MULTIPLIER_MASTER": {
+  {
     "achievement_id": "ACH_MULTIPLIER_MASTER",
     "unlocked_display_name": "Multiplier Master",
     "unlocked_description": "Reach a 15x multiplier.",
@@ -190,11 +190,11 @@
     "hidden_description": "Reach a 15x multiplier.",
     "flavor_text": "",
     "completion_description": "Reach a 15x multiplier.",
-    "unlocked_icon_url": "achievements_images/ACH_MULTIPLIER_MASTER.jpg",
-    "locked_icon_url": "achievements_images/ACH_MULTIPLIER_MASTER_locked.jpg",
+    "unlocked_icon_url": "ACH_MULTIPLIER_MASTER",
+    "locked_icon_url": "ACH_MULTIPLIER_MASTER_locked",
     "is_hidden": false
   },
-  "ACH_SAKE_BOMBS": {
+  {
     "achievement_id": "ACH_SAKE_BOMBS",
     "unlocked_display_name": "Sake Bombs",
     "unlocked_description": "Fall into the water 5 times.",
@@ -203,11 +203,11 @@
     "hidden_description": "Fall into the water 5 times.",
     "flavor_text": "",
     "completion_description": "Fall into the water 5 times.",
-    "unlocked_icon_url": "achievements_images/ACH_SAKE_BOMBS.jpg",
-    "locked_icon_url": "achievements_images/ACH_SAKE_BOMBS_locked.jpg",
+    "unlocked_icon_url": "ACH_SAKE_BOMBS",
+    "locked_icon_url": "ACH_SAKE_BOMBS_locked",
     "is_hidden": false
   },
-  "ACH_SPIN_DOCTOR": {
+  {
     "achievement_id": "ACH_SPIN_DOCTOR",
     "unlocked_display_name": "Spin Doctor",
     "unlocked_description": "Complete 5 spin-zones in Driftkhana.",
@@ -216,11 +216,11 @@
     "hidden_description": "Complete 5 spin-zones in Driftkhana.",
     "flavor_text": "",
     "completion_description": "Complete 5 spin-zones in Driftkhana.",
-    "unlocked_icon_url": "achievements_images/ACH_SPIN_DOCTOR.jpg",
-    "locked_icon_url": "achievements_images/ACH_SPIN_DOCTOR_locked.jpg",
+    "unlocked_icon_url": "ACH_SPIN_DOCTOR",
+    "locked_icon_url": "ACH_SPIN_DOCTOR_locked",
     "is_hidden": false
   },
-  "ACH_THE_COMPLETIONIST": {
+  {
     "achievement_id": "ACH_THE_COMPLETIONIST",
     "unlocked_display_name": "The Completionist",
     "unlocked_description": "Complete all event challenges in the game.",
@@ -229,11 +229,11 @@
     "hidden_description": "Complete all event challenges in the game.",
     "flavor_text": "",
     "completion_description": "Complete all event challenges in the game.",
-    "unlocked_icon_url": "achievements_images/ACH_THE_COMPLETIONIST.jpg",
-    "locked_icon_url": "achievements_images/ACH_THE_COMPLETIONIST_locked.jpg",
+    "unlocked_icon_url": "ACH_THE_COMPLETIONIST",
+    "locked_icon_url": "ACH_THE_COMPLETIONIST_locked",
     "is_hidden": false
   },
-  "ACH_THE_LONG_DRIFT": {
+  {
     "achievement_id": "ACH_THE_LONG_DRIFT",
     "unlocked_display_name": "The Long Drift",
     "unlocked_description": "Do a 10 second continuous drift.",
@@ -242,11 +242,11 @@
     "hidden_description": "Do a 10 second continuous drift.",
     "flavor_text": "",
     "completion_description": "Do a 10 second continuous drift.",
-    "unlocked_icon_url": "achievements_images/ACH_THE_LONG_DRIFT.jpg",
-    "locked_icon_url": "achievements_images/ACH_THE_LONG_DRIFT_locked.jpg",
+    "unlocked_icon_url": "ACH_THE_LONG_DRIFT",
+    "locked_icon_url": "ACH_THE_LONG_DRIFT_locked",
     "is_hidden": false
   },
-  "ACH_WASHING_MACHINE": {
+  {
     "achievement_id": "ACH_WASHING_MACHINE",
     "unlocked_display_name": "Washing Machine",
     "unlocked_description": "Complete 25 spin-zones in Driftkhana.",
@@ -255,8 +255,8 @@
     "hidden_description": "Complete 25 spin-zones in Driftkhana.",
     "flavor_text": "",
     "completion_description": "Complete 25 spin-zones in Driftkhana.",
-    "unlocked_icon_url": "achievements_images/ACH_WASHING_MACHINE.jpg",
-    "locked_icon_url": "achievements_images/ACH_WASHING_MACHINE_locked.jpg",
+    "unlocked_icon_url": "ACH_WASHING_MACHINE",
+    "locked_icon_url": "ACH_WASHING_MACHINE_locked",
     "is_hidden": false
   }
-}
+]

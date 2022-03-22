@@ -1,5 +1,5 @@
-{
-  "000_TROPHY_PLATINUM": {
+[
+  {
     "achievement_id": "000_TROPHY_PLATINUM",
     "unlocked_display_name": "A Tale of Origins and Endings",
     "unlocked_description": "Acquired all achievements.",
@@ -8,11 +8,11 @@
     "hidden_description": "Acquired all achievements.",
     "flavor_text": "",
     "completion_description": "Acquired all achievements.",
-    "unlocked_icon_url": "achievements_images/000_TROPHY_PLATINUM.jpg",
-    "locked_icon_url": "achievements_images/000_TROPHY_PLATINUM_locked.jpg",
+    "unlocked_icon_url": "000_TROPHY_PLATINUM",
+    "locked_icon_url": "000_TROPHY_PLATINUM_locked",
     "is_hidden": false
   },
-  "001_TROPHY_MISSION_ILLUSION": {
+  {
     "achievement_id": "001_TROPHY_MISSION_ILLUSION",
     "unlocked_display_name": "Hopes and Dreams",
     "unlocked_description": "Completed \"Illusion at Journey's End.\"",
@@ -21,11 +21,11 @@
     "hidden_description": "Completed \"Illusion at Journey's End.\"",
     "flavor_text": "",
     "completion_description": "Completed \"Illusion at Journey's End.\"",
-    "unlocked_icon_url": "achievements_images/001_TROPHY_MISSION_ILLUSION.jpg",
-    "locked_icon_url": "achievements_images/001_TROPHY_MISSION_ILLUSION_locked.jpg",
+    "unlocked_icon_url": "001_TROPHY_MISSION_ILLUSION",
+    "locked_icon_url": "001_TROPHY_MISSION_ILLUSION_locked",
     "is_hidden": false
   },
-  "002_TROPHY_MISSION_JOURNEY_BEGIN": {
+  {
     "achievement_id": "002_TROPHY_MISSION_JOURNEY_BEGIN",
     "unlocked_display_name": "The Pirate's Way",
     "unlocked_description": "Completed \"The Journey Begins.\"",
@@ -34,11 +34,11 @@
     "hidden_description": "Completed \"The Journey Begins.\"",
     "flavor_text": "",
     "completion_description": "Completed \"The Journey Begins.\"",
-    "unlocked_icon_url": "achievements_images/002_TROPHY_MISSION_JOURNEY_BEGIN.jpg",
-    "locked_icon_url": "achievements_images/002_TROPHY_MISSION_JOURNEY_BEGIN_locked.jpg",
+    "unlocked_icon_url": "002_TROPHY_MISSION_JOURNEY_BEGIN",
+    "locked_icon_url": "002_TROPHY_MISSION_JOURNEY_BEGIN_locked",
     "is_hidden": true
   },
-  "003_TROPHY_MISSION_DARK_ELF": {
+  {
     "achievement_id": "003_TROPHY_MISSION_DARK_ELF",
     "unlocked_display_name": "The King of the Dark Elves",
     "unlocked_description": "Completed \"Audience with the Dark Elf.\"",
@@ -47,11 +47,11 @@
     "hidden_description": "Completed \"Audience with the Dark Elf.\"",
     "flavor_text": "",
     "completion_description": "Completed \"Audience with the Dark Elf.\"",
-    "unlocked_icon_url": "achievements_images/003_TROPHY_MISSION_DARK_ELF.jpg",
-    "locked_icon_url": "achievements_images/003_TROPHY_MISSION_DARK_ELF_locked.jpg",
+    "unlocked_icon_url": "003_TROPHY_MISSION_DARK_ELF",
+    "locked_icon_url": "003_TROPHY_MISSION_DARK_ELF_locked",
     "is_hidden": true
   },
-  "004_TROPHY_MISSION_NATURAL_DISTORTION": {
+  {
     "achievement_id": "004_TROPHY_MISSION_NATURAL_DISTORTION",
     "unlocked_display_name": "Distortion's Progeny",
     "unlocked_description": "Completed \"Natural Distortion.\"",
@@ -60,11 +60,11 @@
     "hidden_description": "Completed \"Natural Distortion.\"",
     "flavor_text": "",
     "completion_description": "Completed \"Natural Distortion.\"",
-    "unlocked_icon_url": "achievements_images/004_TROPHY_MISSION_NATURAL_DISTORTION.jpg",
-    "locked_icon_url": "achievements_images/004_TROPHY_MISSION_NATURAL_DISTORTION_locked.jpg",
+    "unlocked_icon_url": "004_TROPHY_MISSION_NATURAL_DISTORTION",
+    "locked_icon_url": "004_TROPHY_MISSION_NATURAL_DISTORTION_locked",
     "is_hidden": true
   },
-  "005_TROPHY_MISSION_FAMILIAR_PLACE": {
+  {
     "achievement_id": "005_TROPHY_MISSION_FAMILIAR_PLACE",
     "unlocked_display_name": "A Landscape of Memory",
     "unlocked_description": "Completed \"A Familiar Place.\"",
@@ -73,11 +73,11 @@
     "hidden_description": "Completed \"A Familiar Place.\"",
     "flavor_text": "",
     "completion_description": "Completed \"A Familiar Place.\"",
-    "unlocked_icon_url": "achievements_images/005_TROPHY_MISSION_FAMILIAR_PLACE.jpg",
-    "locked_icon_url": "achievements_images/005_TROPHY_MISSION_FAMILIAR_PLACE_locked.jpg",
+    "unlocked_icon_url": "005_TROPHY_MISSION_FAMILIAR_PLACE",
+    "locked_icon_url": "005_TROPHY_MISSION_FAMILIAR_PLACE_locked",
     "is_hidden": true
   },
-  "006_TROPHY_MISSION_WIND_MEMORIES": {
+  {
     "achievement_id": "006_TROPHY_MISSION_WIND_MEMORIES",
     "unlocked_display_name": "The Wind's Light",
     "unlocked_description": "Completed \"Memories of Wind.\"",
@@ -86,11 +86,11 @@
     "hidden_description": "Completed \"Memories of Wind.\"",
     "flavor_text": "",
     "completion_description": "Completed \"Memories of Wind.\"",
-    "unlocked_icon_url": "achievements_images/006_TROPHY_MISSION_WIND_MEMORIES.jpg",
-    "locked_icon_url": "achievements_images/006_TROPHY_MISSION_WIND_MEMORIES_locked.jpg",
+    "unlocked_icon_url": "006_TROPHY_MISSION_WIND_MEMORIES",
+    "locked_icon_url": "006_TROPHY_MISSION_WIND_MEMORIES_locked",
     "is_hidden": true
   },
-  "007_TROPHY_MISSION_POISON_MEMORIES": {
+  {
     "achievement_id": "007_TROPHY_MISSION_POISON_MEMORIES",
     "unlocked_display_name": "Vague Remembrances",
     "unlocked_description": "Completed \"Memories of Poison.\"",
@@ -99,11 +99,11 @@
     "hidden_description": "Completed \"Memories of Poison.\"",
     "flavor_text": "",
     "completion_description": "Completed \"Memories of Poison.\"",
-    "unlocked_icon_url": "achievements_images/007_TROPHY_MISSION_POISON_MEMORIES.jpg",
-    "locked_icon_url": "achievements_images/007_TROPHY_MISSION_POISON_MEMORIES_locked.jpg",
+    "unlocked_icon_url": "007_TROPHY_MISSION_POISON_MEMORIES",
+    "locked_icon_url": "007_TROPHY_MISSION_POISON_MEMORIES_locked",
     "is_hidden": true
   },
-  "008_TROPHY_MISSION_FIRE_MEMORIES": {
+  {
     "achievement_id": "008_TROPHY_MISSION_FIRE_MEMORIES",
     "unlocked_display_name": "The Fire's Light",
     "unlocked_description": "Completed \"Memories of Fire.\"",
@@ -112,11 +112,11 @@
     "hidden_description": "Completed \"Memories of Fire.\"",
     "flavor_text": "",
     "completion_description": "Completed \"Memories of Fire.\"",
-    "unlocked_icon_url": "achievements_images/008_TROPHY_MISSION_FIRE_MEMORIES.jpg",
-    "locked_icon_url": "achievements_images/008_TROPHY_MISSION_FIRE_MEMORIES_locked.jpg",
+    "unlocked_icon_url": "008_TROPHY_MISSION_FIRE_MEMORIES",
+    "locked_icon_url": "008_TROPHY_MISSION_FIRE_MEMORIES_locked",
     "is_hidden": true
   },
-  "009_TROPHY_MISSION_PAST_PHANTOM": {
+  {
     "achievement_id": "009_TROPHY_MISSION_PAST_PHANTOM",
     "unlocked_display_name": "Phantom Memories",
     "unlocked_description": "Completed \"Phantoms of the Past.\"",
@@ -125,11 +125,11 @@
     "hidden_description": "Completed \"Phantoms of the Past.\"",
     "flavor_text": "",
     "completion_description": "Completed \"Phantoms of the Past.\"",
-    "unlocked_icon_url": "achievements_images/009_TROPHY_MISSION_PAST_PHANTOM.jpg",
-    "locked_icon_url": "achievements_images/009_TROPHY_MISSION_PAST_PHANTOM_locked.jpg",
+    "unlocked_icon_url": "009_TROPHY_MISSION_PAST_PHANTOM",
+    "locked_icon_url": "009_TROPHY_MISSION_PAST_PHANTOM_locked",
     "is_hidden": true
   },
-  "010_TROPHY_MISSION_EARTH_MEMORIES": {
+  {
     "achievement_id": "010_TROPHY_MISSION_EARTH_MEMORIES",
     "unlocked_display_name": "The Earth's Light",
     "unlocked_description": "Completed \"Memories of Earth.\"",
@@ -138,11 +138,11 @@
     "hidden_description": "Completed \"Memories of Earth.\"",
     "flavor_text": "",
     "completion_description": "Completed \"Memories of Earth.\"",
-    "unlocked_icon_url": "achievements_images/010_TROPHY_MISSION_EARTH_MEMORIES.jpg",
-    "locked_icon_url": "achievements_images/010_TROPHY_MISSION_EARTH_MEMORIES_locked.jpg",
+    "unlocked_icon_url": "010_TROPHY_MISSION_EARTH_MEMORIES",
+    "locked_icon_url": "010_TROPHY_MISSION_EARTH_MEMORIES_locked",
     "is_hidden": true
   },
-  "011_TROPHY_MISSION_REMEMBER": {
+  {
     "achievement_id": "011_TROPHY_MISSION_REMEMBER",
     "unlocked_display_name": "Shared Recollections",
     "unlocked_description": "Completed \"To Remember.\"",
@@ -151,11 +151,11 @@
     "hidden_description": "Completed \"To Remember.\"",
     "flavor_text": "",
     "completion_description": "Completed \"To Remember.\"",
-    "unlocked_icon_url": "achievements_images/011_TROPHY_MISSION_REMEMBER.jpg",
-    "locked_icon_url": "achievements_images/011_TROPHY_MISSION_REMEMBER_locked.jpg",
+    "unlocked_icon_url": "011_TROPHY_MISSION_REMEMBER",
+    "locked_icon_url": "011_TROPHY_MISSION_REMEMBER_locked",
     "is_hidden": true
   },
-  "012_TROPHY_MISSION_WATER_MEMORIES": {
+  {
     "achievement_id": "012_TROPHY_MISSION_WATER_MEMORIES",
     "unlocked_display_name": "The Water's Light",
     "unlocked_description": "Completed \"Memories of Water.\"",
@@ -164,11 +164,11 @@
     "hidden_description": "Completed \"Memories of Water.\"",
     "flavor_text": "",
     "completion_description": "Completed \"Memories of Water.\"",
-    "unlocked_icon_url": "achievements_images/012_TROPHY_MISSION_WATER_MEMORIES.jpg",
-    "locked_icon_url": "achievements_images/012_TROPHY_MISSION_WATER_MEMORIES_locked.jpg",
+    "unlocked_icon_url": "012_TROPHY_MISSION_WATER_MEMORIES",
+    "locked_icon_url": "012_TROPHY_MISSION_WATER_MEMORIES_locked",
     "is_hidden": true
   },
-  "013_TROPHY_MISSION_PAST_SCHEME": {
+  {
     "achievement_id": "013_TROPHY_MISSION_PAST_SCHEME",
     "unlocked_display_name": "Malice Takes Root",
     "unlocked_description": "Completed \"Schemes of the Past.\"",
@@ -177,11 +177,11 @@
     "hidden_description": "Completed \"Schemes of the Past.\"",
     "flavor_text": "",
     "completion_description": "Completed \"Schemes of the Past.\"",
-    "unlocked_icon_url": "achievements_images/013_TROPHY_MISSION_PAST_SCHEME.jpg",
-    "locked_icon_url": "achievements_images/013_TROPHY_MISSION_PAST_SCHEME_locked.jpg",
+    "unlocked_icon_url": "013_TROPHY_MISSION_PAST_SCHEME",
+    "locked_icon_url": "013_TROPHY_MISSION_PAST_SCHEME_locked",
     "is_hidden": true
   },
-  "014_TROPHY_MISSION_REMEMBERING_HOME": {
+  {
     "achievement_id": "014_TROPHY_MISSION_REMEMBERING_HOME",
     "unlocked_display_name": "Duty's Course",
     "unlocked_description": "Completed \"Remembering Home.\"",
@@ -190,11 +190,11 @@
     "hidden_description": "Completed \"Remembering Home.\"",
     "flavor_text": "",
     "completion_description": "Completed \"Remembering Home.\"",
-    "unlocked_icon_url": "achievements_images/014_TROPHY_MISSION_REMEMBERING_HOME.jpg",
-    "locked_icon_url": "achievements_images/014_TROPHY_MISSION_REMEMBERING_HOME_locked.jpg",
+    "unlocked_icon_url": "014_TROPHY_MISSION_REMEMBERING_HOME",
+    "locked_icon_url": "014_TROPHY_MISSION_REMEMBERING_HOME_locked",
     "is_hidden": true
   },
-  "015_TROPHY_MISSION_SUFFERING_OF_FOOL": {
+  {
     "achievement_id": "015_TROPHY_MISSION_SUFFERING_OF_FOOL",
     "unlocked_display_name": "Led by the Nose",
     "unlocked_description": "Completed \"The Suffering of Fools.\"",
@@ -203,11 +203,11 @@
     "hidden_description": "Completed \"The Suffering of Fools.\"",
     "flavor_text": "",
     "completion_description": "Completed \"The Suffering of Fools.\"",
-    "unlocked_icon_url": "achievements_images/015_TROPHY_MISSION_SUFFERING_OF_FOOL.jpg",
-    "locked_icon_url": "achievements_images/015_TROPHY_MISSION_SUFFERING_OF_FOOL_locked.jpg",
+    "unlocked_icon_url": "015_TROPHY_MISSION_SUFFERING_OF_FOOL",
+    "locked_icon_url": "015_TROPHY_MISSION_SUFFERING_OF_FOOL_locked",
     "is_hidden": true
   },
-  "016_TROPHY_MISSION_FRAUGHT_JOURNEY": {
+  {
     "achievement_id": "016_TROPHY_MISSION_FRAUGHT_JOURNEY",
     "unlocked_display_name": "Terminus of Fate",
     "unlocked_description": "Completed \"A Fraught Journey.\"",
@@ -216,11 +216,11 @@
     "hidden_description": "Completed \"A Fraught Journey.\"",
     "flavor_text": "",
     "completion_description": "Completed \"A Fraught Journey.\"",
-    "unlocked_icon_url": "achievements_images/016_TROPHY_MISSION_FRAUGHT_JOURNEY.jpg",
-    "locked_icon_url": "achievements_images/016_TROPHY_MISSION_FRAUGHT_JOURNEY_locked.jpg",
+    "unlocked_icon_url": "016_TROPHY_MISSION_FRAUGHT_JOURNEY",
+    "locked_icon_url": "016_TROPHY_MISSION_FRAUGHT_JOURNEY_locked",
     "is_hidden": true
   },
-  "017_TROPHY_CLEAR_CHAOS_DIFFICULTY": {
+  {
     "achievement_id": "017_TROPHY_CLEAR_CHAOS_DIFFICULTY",
     "unlocked_display_name": "Origin of True Chaos",
     "unlocked_description": "Completed the game on CHAOS difficulty.",
@@ -229,11 +229,11 @@
     "hidden_description": "Completed the game on CHAOS difficulty.",
     "flavor_text": "",
     "completion_description": "Completed the game on CHAOS difficulty.",
-    "unlocked_icon_url": "achievements_images/017_TROPHY_CLEAR_CHAOS_DIFFICULTY.jpg",
-    "locked_icon_url": "achievements_images/017_TROPHY_CLEAR_CHAOS_DIFFICULTY_locked.jpg",
+    "unlocked_icon_url": "017_TROPHY_CLEAR_CHAOS_DIFFICULTY",
+    "locked_icon_url": "017_TROPHY_CLEAR_CHAOS_DIFFICULTY_locked",
     "is_hidden": true
   },
-  "018_TROPHY_CLEAR_LEVEL200_ON_CHAOS": {
+  {
     "achievement_id": "018_TROPHY_CLEAR_LEVEL200_ON_CHAOS",
     "unlocked_display_name": "Cycle of Darkness",
     "unlocked_description": "Completed a level 200 mission or higher on CHAOS difficulty.",
@@ -242,11 +242,11 @@
     "hidden_description": "Completed a level 200 mission or higher on CHAOS difficulty.",
     "flavor_text": "",
     "completion_description": "Completed a level 200 mission or higher on CHAOS difficulty.",
-    "unlocked_icon_url": "achievements_images/018_TROPHY_CLEAR_LEVEL200_ON_CHAOS.jpg",
-    "locked_icon_url": "achievements_images/018_TROPHY_CLEAR_LEVEL200_ON_CHAOS_locked.jpg",
+    "unlocked_icon_url": "018_TROPHY_CLEAR_LEVEL200_ON_CHAOS",
+    "locked_icon_url": "018_TROPHY_CLEAR_LEVEL200_ON_CHAOS_locked",
     "is_hidden": true
   },
-  "019_TROPHY_CLEAR_SUB_MISSION": {
+  {
     "achievement_id": "019_TROPHY_CLEAR_SUB_MISSION",
     "unlocked_display_name": "Memories of the Distant Past",
     "unlocked_description": "Completed a side mission.",
@@ -255,11 +255,11 @@
     "hidden_description": "Completed a side mission.",
     "flavor_text": "",
     "completion_description": "Completed a side mission.",
-    "unlocked_icon_url": "achievements_images/019_TROPHY_CLEAR_SUB_MISSION.jpg",
-    "locked_icon_url": "achievements_images/019_TROPHY_CLEAR_SUB_MISSION_locked.jpg",
+    "unlocked_icon_url": "019_TROPHY_CLEAR_SUB_MISSION",
+    "locked_icon_url": "019_TROPHY_CLEAR_SUB_MISSION_locked",
     "is_hidden": false
   },
-  "020_TROPHY_COMPLETE_SUB_MISSION": {
+  {
     "achievement_id": "020_TROPHY_COMPLETE_SUB_MISSION",
     "unlocked_display_name": "Strangers' Memories",
     "unlocked_description": "Completed every side mission.",
@@ -268,11 +268,11 @@
     "hidden_description": "Completed every side mission.",
     "flavor_text": "",
     "completion_description": "Completed every side mission.",
-    "unlocked_icon_url": "achievements_images/020_TROPHY_COMPLETE_SUB_MISSION.jpg",
-    "locked_icon_url": "achievements_images/020_TROPHY_COMPLETE_SUB_MISSION_locked.jpg",
+    "unlocked_icon_url": "020_TROPHY_COMPLETE_SUB_MISSION",
+    "locked_icon_url": "020_TROPHY_COMPLETE_SUB_MISSION_locked",
     "is_hidden": false
   },
-  "021_TROPHY_FIRST_SOUL_BURST": {
+  {
     "achievement_id": "021_TROPHY_FIRST_SOUL_BURST",
     "unlocked_display_name": "Manifestation of the Soul",
     "unlocked_description": "Used soul burst for the first time.",
@@ -281,11 +281,11 @@
     "hidden_description": "Used soul burst for the first time.",
     "flavor_text": "",
     "completion_description": "Used soul burst for the first time.",
-    "unlocked_icon_url": "achievements_images/021_TROPHY_FIRST_SOUL_BURST.jpg",
-    "locked_icon_url": "achievements_images/021_TROPHY_FIRST_SOUL_BURST_locked.jpg",
+    "unlocked_icon_url": "021_TROPHY_FIRST_SOUL_BURST",
+    "locked_icon_url": "021_TROPHY_FIRST_SOUL_BURST_locked",
     "is_hidden": false
   },
-  "022_TROPHY_FIRST_WEAPON_ABILITY": {
+  {
     "achievement_id": "022_TROPHY_FIRST_WEAPON_ABILITY",
     "unlocked_display_name": "Imbued Memories",
     "unlocked_description": "Used a weapon ability for the first time.",
@@ -294,11 +294,11 @@
     "hidden_description": "Used a weapon ability for the first time.",
     "flavor_text": "",
     "completion_description": "Used a weapon ability for the first time.",
-    "unlocked_icon_url": "achievements_images/022_TROPHY_FIRST_WEAPON_ABILITY.jpg",
-    "locked_icon_url": "achievements_images/022_TROPHY_FIRST_WEAPON_ABILITY_locked.jpg",
+    "unlocked_icon_url": "022_TROPHY_FIRST_WEAPON_ABILITY",
+    "locked_icon_url": "022_TROPHY_FIRST_WEAPON_ABILITY_locked",
     "is_hidden": false
   },
-  "023_TROPHY_DEFEAT_USAB": {
+  {
     "achievement_id": "023_TROPHY_DEFEAT_USAB",
     "unlocked_display_name": "No Escape",
     "unlocked_description": "Defeated a cactuar.",
@@ -307,11 +307,11 @@
     "hidden_description": "Defeated a cactuar.",
     "flavor_text": "",
     "completion_description": "Defeated a cactuar.",
-    "unlocked_icon_url": "achievements_images/023_TROPHY_DEFEAT_USAB.jpg",
-    "locked_icon_url": "achievements_images/023_TROPHY_DEFEAT_USAB_locked.jpg",
+    "unlocked_icon_url": "023_TROPHY_DEFEAT_USAB",
+    "locked_icon_url": "023_TROPHY_DEFEAT_USAB_locked",
     "is_hidden": true
   },
-  "024_TROPHY_DEFEAT_UTON": {
+  {
     "achievement_id": "024_TROPHY_DEFEAT_UTON",
     "unlocked_display_name": "Lantern Smasher",
     "unlocked_description": "Defeated a tonberry.",
@@ -320,11 +320,11 @@
     "hidden_description": "Defeated a tonberry.",
     "flavor_text": "",
     "completion_description": "Defeated a tonberry.",
-    "unlocked_icon_url": "achievements_images/024_TROPHY_DEFEAT_UTON.jpg",
-    "locked_icon_url": "achievements_images/024_TROPHY_DEFEAT_UTON_locked.jpg",
+    "unlocked_icon_url": "024_TROPHY_DEFEAT_UTON",
+    "locked_icon_url": "024_TROPHY_DEFEAT_UTON_locked",
     "is_hidden": true
   },
-  "025_TROPHY_FIRST_ANIMA_FRAGMENT": {
+  {
     "achievement_id": "025_TROPHY_FIRST_ANIMA_FRAGMENT",
     "unlocked_display_name": "Seeker of Power",
     "unlocked_description": "Acquired an anima shard.",
@@ -333,11 +333,11 @@
     "hidden_description": "Acquired an anima shard.",
     "flavor_text": "",
     "completion_description": "Acquired an anima shard.",
-    "unlocked_icon_url": "achievements_images/025_TROPHY_FIRST_ANIMA_FRAGMENT.jpg",
-    "locked_icon_url": "achievements_images/025_TROPHY_FIRST_ANIMA_FRAGMENT_locked.jpg",
+    "unlocked_icon_url": "025_TROPHY_FIRST_ANIMA_FRAGMENT",
+    "locked_icon_url": "025_TROPHY_FIRST_ANIMA_FRAGMENT_locked",
     "is_hidden": true
   },
-  "026_TROPHY_FIRST_ANIMA_CRYSTAL": {
+  {
     "achievement_id": "026_TROPHY_FIRST_ANIMA_CRYSTAL",
     "unlocked_display_name": "Seeker of Ultimate Power",
     "unlocked_description": "Acquired an anima crystal.",
@@ -346,11 +346,11 @@
     "hidden_description": "Acquired an anima crystal.",
     "flavor_text": "",
     "completion_description": "Acquired an anima crystal.",
-    "unlocked_icon_url": "achievements_images/026_TROPHY_FIRST_ANIMA_CRYSTAL.jpg",
-    "locked_icon_url": "achievements_images/026_TROPHY_FIRST_ANIMA_CRYSTAL_locked.jpg",
+    "unlocked_icon_url": "026_TROPHY_FIRST_ANIMA_CRYSTAL",
+    "locked_icon_url": "026_TROPHY_FIRST_ANIMA_CRYSTAL_locked",
     "is_hidden": true
   },
-  "027_TROPHY_FIRST_ARTIFACT": {
+  {
     "achievement_id": "027_TROPHY_FIRST_ARTIFACT",
     "unlocked_display_name": "Artifact Collector",
     "unlocked_description": "Acquired an artifact.",
@@ -359,11 +359,11 @@
     "hidden_description": "Acquired an artifact.",
     "flavor_text": "",
     "completion_description": "Acquired an artifact.",
-    "unlocked_icon_url": "achievements_images/027_TROPHY_FIRST_ARTIFACT.jpg",
-    "locked_icon_url": "achievements_images/027_TROPHY_FIRST_ARTIFACT_locked.jpg",
+    "unlocked_icon_url": "027_TROPHY_FIRST_ARTIFACT",
+    "locked_icon_url": "027_TROPHY_FIRST_ARTIFACT_locked",
     "is_hidden": true
   },
-  "028_TROPHY_USE_JOB_CREST": {
+  {
     "achievement_id": "028_TROPHY_USE_JOB_CREST",
     "unlocked_display_name": "Crest Bearer",
     "unlocked_description": "Used a job crest at the smithy.",
@@ -372,11 +372,11 @@
     "hidden_description": "Used a job crest at the smithy.",
     "flavor_text": "",
     "completion_description": "Used a job crest at the smithy.",
-    "unlocked_icon_url": "achievements_images/028_TROPHY_USE_JOB_CREST.jpg",
-    "locked_icon_url": "achievements_images/028_TROPHY_USE_JOB_CREST_locked.jpg",
+    "unlocked_icon_url": "028_TROPHY_USE_JOB_CREST",
+    "locked_icon_url": "028_TROPHY_USE_JOB_CREST_locked",
     "is_hidden": true
   },
-  "029_TROPHY_FULL_UPGRADE_SPECIAL_EFFECT": {
+  {
     "achievement_id": "029_TROPHY_FULL_UPGRADE_SPECIAL_EFFECT",
     "unlocked_display_name": "True Potential",
     "unlocked_description": "Fully upgraded the special effect of a piece of equipment.",
@@ -385,11 +385,11 @@
     "hidden_description": "Fully upgraded the special effect of a piece of equipment.",
     "flavor_text": "",
     "completion_description": "Fully upgraded the special effect of a piece of equipment.",
-    "unlocked_icon_url": "achievements_images/029_TROPHY_FULL_UPGRADE_SPECIAL_EFFECT.jpg",
-    "locked_icon_url": "achievements_images/029_TROPHY_FULL_UPGRADE_SPECIAL_EFFECT_locked.jpg",
+    "unlocked_icon_url": "029_TROPHY_FULL_UPGRADE_SPECIAL_EFFECT",
+    "locked_icon_url": "029_TROPHY_FULL_UPGRADE_SPECIAL_EFFECT_locked",
     "is_hidden": false
   },
-  "030_TROPHY_UNLOCK_ALL_JOB_BONUS": {
+  {
     "achievement_id": "030_TROPHY_UNLOCK_ALL_JOB_BONUS",
     "unlocked_display_name": "Polymath",
     "unlocked_description": "Unlocked every job affinity bonus for a single job.",
@@ -398,11 +398,11 @@
     "hidden_description": "Unlocked every job affinity bonus for a single job.",
     "flavor_text": "",
     "completion_description": "Unlocked every job affinity bonus for a single job.",
-    "unlocked_icon_url": "achievements_images/030_TROPHY_UNLOCK_ALL_JOB_BONUS.jpg",
-    "locked_icon_url": "achievements_images/030_TROPHY_UNLOCK_ALL_JOB_BONUS_locked.jpg",
+    "unlocked_icon_url": "030_TROPHY_UNLOCK_ALL_JOB_BONUS",
+    "locked_icon_url": "030_TROPHY_UNLOCK_ALL_JOB_BONUS_locked",
     "is_hidden": false
   },
-  "031_TROPHY_COMPLETE_JOB_TREE": {
+  {
     "achievement_id": "031_TROPHY_COMPLETE_JOB_TREE",
     "unlocked_display_name": "Savant",
     "unlocked_description": "Unlocked every panel in the job tree for a single job.",
@@ -411,11 +411,11 @@
     "hidden_description": "Unlocked every panel in the job tree for a single job.",
     "flavor_text": "",
     "completion_description": "Unlocked every panel in the job tree for a single job.",
-    "unlocked_icon_url": "achievements_images/031_TROPHY_COMPLETE_JOB_TREE.jpg",
-    "locked_icon_url": "achievements_images/031_TROPHY_COMPLETE_JOB_TREE_locked.jpg",
+    "unlocked_icon_url": "031_TROPHY_COMPLETE_JOB_TREE",
+    "locked_icon_url": "031_TROPHY_COMPLETE_JOB_TREE_locked",
     "is_hidden": false
   },
-  "032_TROPHY_USED_MASTER_POINT": {
+  {
     "achievement_id": "032_TROPHY_USED_MASTER_POINT",
     "unlocked_display_name": "Master's Awakening",
     "unlocked_description": "Used a master point.",
@@ -424,11 +424,11 @@
     "hidden_description": "Used a master point.",
     "flavor_text": "",
     "completion_description": "Used a master point.",
-    "unlocked_icon_url": "achievements_images/032_TROPHY_USED_MASTER_POINT.jpg",
-    "locked_icon_url": "achievements_images/032_TROPHY_USED_MASTER_POINT_locked.jpg",
+    "unlocked_icon_url": "032_TROPHY_USED_MASTER_POINT",
+    "locked_icon_url": "032_TROPHY_USED_MASTER_POINT_locked",
     "is_hidden": true
   },
-  "033_TROPHY_ACHIEVED_MASTER_FOUR_RANK_JOB": {
+  {
     "achievement_id": "033_TROPHY_ACHIEVED_MASTER_FOUR_RANK_JOB",
     "unlocked_display_name": "Job Master",
     "unlocked_description": "Achieved MASTER★★★★ rank for a job.",
@@ -437,11 +437,11 @@
     "hidden_description": "Achieved MASTER★★★★ rank for a job.",
     "flavor_text": "",
     "completion_description": "Achieved MASTER★★★★ rank for a job.",
-    "unlocked_icon_url": "achievements_images/033_TROPHY_ACHIEVED_MASTER_FOUR_RANK_JOB.jpg",
-    "locked_icon_url": "achievements_images/033_TROPHY_ACHIEVED_MASTER_FOUR_RANK_JOB_locked.jpg",
+    "unlocked_icon_url": "033_TROPHY_ACHIEVED_MASTER_FOUR_RANK_JOB",
+    "locked_icon_url": "033_TROPHY_ACHIEVED_MASTER_FOUR_RANK_JOB_locked",
     "is_hidden": true
   },
-  "034_TROPHY_UNLOCKED_ADVANCED_JOB": {
+  {
     "achievement_id": "034_TROPHY_UNLOCKED_ADVANCED_JOB",
     "unlocked_display_name": "Dark Crystal, Warrior's Heart",
     "unlocked_description": "Unlocked an advanced job.",
@@ -450,11 +450,11 @@
     "hidden_description": "Unlocked an advanced job.",
     "flavor_text": "",
     "completion_description": "Unlocked an advanced job.",
-    "unlocked_icon_url": "achievements_images/034_TROPHY_UNLOCKED_ADVANCED_JOB.jpg",
-    "locked_icon_url": "achievements_images/034_TROPHY_UNLOCKED_ADVANCED_JOB_locked.jpg",
+    "unlocked_icon_url": "034_TROPHY_UNLOCKED_ADVANCED_JOB",
+    "locked_icon_url": "034_TROPHY_UNLOCKED_ADVANCED_JOB_locked",
     "is_hidden": true
   },
-  "035_TROPHY_UNLOCKED_ALL_JOB": {
+  {
     "achievement_id": "035_TROPHY_UNLOCKED_ALL_JOB",
     "unlocked_display_name": "Jack-of-All-Trades",
     "unlocked_description": "Unlocked all jobs.",
@@ -463,11 +463,11 @@
     "hidden_description": "Unlocked all jobs.",
     "flavor_text": "",
     "completion_description": "Unlocked all jobs.",
-    "unlocked_icon_url": "achievements_images/035_TROPHY_UNLOCKED_ALL_JOB.jpg",
-    "locked_icon_url": "achievements_images/035_TROPHY_UNLOCKED_ALL_JOB_locked.jpg",
+    "unlocked_icon_url": "035_TROPHY_UNLOCKED_ALL_JOB",
+    "locked_icon_url": "035_TROPHY_UNLOCKED_ALL_JOB_locked",
     "is_hidden": false
   },
-  "036_TROPHY_UNLOCKED_DARK_KNIGHT": {
+  {
     "achievement_id": "036_TROPHY_UNLOCKED_DARK_KNIGHT",
     "unlocked_display_name": "Path of the Dark Knight",
     "unlocked_description": "Unlocked the dark knight.",
@@ -476,11 +476,11 @@
     "hidden_description": "Unlocked the dark knight.",
     "flavor_text": "",
     "completion_description": "Unlocked the dark knight.",
-    "unlocked_icon_url": "achievements_images/036_TROPHY_UNLOCKED_DARK_KNIGHT.jpg",
-    "locked_icon_url": "achievements_images/036_TROPHY_UNLOCKED_DARK_KNIGHT_locked.jpg",
+    "unlocked_icon_url": "036_TROPHY_UNLOCKED_DARK_KNIGHT",
+    "locked_icon_url": "036_TROPHY_UNLOCKED_DARK_KNIGHT_locked",
     "is_hidden": true
   },
-  "037_TROPHY_UNLOCKED_PALADIN": {
+  {
     "achievement_id": "037_TROPHY_UNLOCKED_PALADIN",
     "unlocked_display_name": "Path of the Paladin",
     "unlocked_description": "Unlocked the paladin.",
@@ -489,11 +489,11 @@
     "hidden_description": "Unlocked the paladin.",
     "flavor_text": "",
     "completion_description": "Unlocked the paladin.",
-    "unlocked_icon_url": "achievements_images/037_TROPHY_UNLOCKED_PALADIN.jpg",
-    "locked_icon_url": "achievements_images/037_TROPHY_UNLOCKED_PALADIN_locked.jpg",
+    "unlocked_icon_url": "037_TROPHY_UNLOCKED_PALADIN",
+    "locked_icon_url": "037_TROPHY_UNLOCKED_PALADIN_locked",
     "is_hidden": true
   },
-  "038_TROPHY_UNLOCKED_NINJA": {
+  {
     "achievement_id": "038_TROPHY_UNLOCKED_NINJA",
     "unlocked_display_name": "Path of the Ninja",
     "unlocked_description": "Unlocked the ninja.",
@@ -502,11 +502,11 @@
     "hidden_description": "Unlocked the ninja.",
     "flavor_text": "",
     "completion_description": "Unlocked the ninja.",
-    "unlocked_icon_url": "achievements_images/038_TROPHY_UNLOCKED_NINJA.jpg",
-    "locked_icon_url": "achievements_images/038_TROPHY_UNLOCKED_NINJA_locked.jpg",
+    "unlocked_icon_url": "038_TROPHY_UNLOCKED_NINJA",
+    "locked_icon_url": "038_TROPHY_UNLOCKED_NINJA_locked",
     "is_hidden": true
   },
-  "039_TROPHY_UNLOCKED_ASSASSIN": {
+  {
     "achievement_id": "039_TROPHY_UNLOCKED_ASSASSIN",
     "unlocked_display_name": "Path of the Assassin",
     "unlocked_description": "Unlocked the assassin.",
@@ -515,11 +515,11 @@
     "hidden_description": "Unlocked the assassin.",
     "flavor_text": "",
     "completion_description": "Unlocked the assassin.",
-    "unlocked_icon_url": "achievements_images/039_TROPHY_UNLOCKED_ASSASSIN.jpg",
-    "locked_icon_url": "achievements_images/039_TROPHY_UNLOCKED_ASSASSIN_locked.jpg",
+    "unlocked_icon_url": "039_TROPHY_UNLOCKED_ASSASSIN",
+    "locked_icon_url": "039_TROPHY_UNLOCKED_ASSASSIN_locked",
     "is_hidden": true
   },
-  "040_TROPHY_UNLOCKED_LIBERATOR": {
+  {
     "achievement_id": "040_TROPHY_UNLOCKED_LIBERATOR",
     "unlocked_display_name": "Path of the Liberator",
     "unlocked_description": "Unlocked the liberator.",
@@ -528,11 +528,11 @@
     "hidden_description": "Unlocked the liberator.",
     "flavor_text": "",
     "completion_description": "Unlocked the liberator.",
-    "unlocked_icon_url": "achievements_images/040_TROPHY_UNLOCKED_LIBERATOR.jpg",
-    "locked_icon_url": "achievements_images/040_TROPHY_UNLOCKED_LIBERATOR_locked.jpg",
+    "unlocked_icon_url": "040_TROPHY_UNLOCKED_LIBERATOR",
+    "locked_icon_url": "040_TROPHY_UNLOCKED_LIBERATOR_locked",
     "is_hidden": true
   },
-  "041_TROPHY_UNLOCKED_BREAKER": {
+  {
     "achievement_id": "041_TROPHY_UNLOCKED_BREAKER",
     "unlocked_display_name": "Path of the Breaker",
     "unlocked_description": "Unlocked the breaker.",
@@ -541,11 +541,11 @@
     "hidden_description": "Unlocked the breaker.",
     "flavor_text": "",
     "completion_description": "Unlocked the breaker.",
-    "unlocked_icon_url": "achievements_images/041_TROPHY_UNLOCKED_BREAKER.jpg",
-    "locked_icon_url": "achievements_images/041_TROPHY_UNLOCKED_BREAKER_locked.jpg",
+    "unlocked_icon_url": "041_TROPHY_UNLOCKED_BREAKER",
+    "locked_icon_url": "041_TROPHY_UNLOCKED_BREAKER_locked",
     "is_hidden": true
   },
-  "042_TROPHY_UNLOCKED_VOID_KNIGHT": {
+  {
     "achievement_id": "042_TROPHY_UNLOCKED_VOID_KNIGHT",
     "unlocked_display_name": "Path of the Void Knight",
     "unlocked_description": "Unlocked the void knight.",
@@ -554,11 +554,11 @@
     "hidden_description": "Unlocked the void knight.",
     "flavor_text": "",
     "completion_description": "Unlocked the void knight.",
-    "unlocked_icon_url": "achievements_images/042_TROPHY_UNLOCKED_VOID_KNIGHT.jpg",
-    "locked_icon_url": "achievements_images/042_TROPHY_UNLOCKED_VOID_KNIGHT_locked.jpg",
+    "unlocked_icon_url": "042_TROPHY_UNLOCKED_VOID_KNIGHT",
+    "locked_icon_url": "042_TROPHY_UNLOCKED_VOID_KNIGHT_locked",
     "is_hidden": true
   },
-  "043_TROPHY_UNLOCKED_TYRANT": {
+  {
     "achievement_id": "043_TROPHY_UNLOCKED_TYRANT",
     "unlocked_display_name": "Path of the Tyrant",
     "unlocked_description": "Unlocked the tyrant.",
@@ -567,11 +567,11 @@
     "hidden_description": "Unlocked the tyrant.",
     "flavor_text": "",
     "completion_description": "Unlocked the tyrant.",
-    "unlocked_icon_url": "achievements_images/043_TROPHY_UNLOCKED_TYRANT.jpg",
-    "locked_icon_url": "achievements_images/043_TROPHY_UNLOCKED_TYRANT_locked.jpg",
+    "unlocked_icon_url": "043_TROPHY_UNLOCKED_TYRANT",
+    "locked_icon_url": "043_TROPHY_UNLOCKED_TYRANT_locked",
     "is_hidden": true
   },
-  "044_TROPHY_UNLOCKED_SAGE": {
+  {
     "achievement_id": "044_TROPHY_UNLOCKED_SAGE",
     "unlocked_display_name": "Path of the Sage",
     "unlocked_description": "Unlocked the sage.",
@@ -580,11 +580,11 @@
     "hidden_description": "Unlocked the sage.",
     "flavor_text": "",
     "completion_description": "Unlocked the sage.",
-    "unlocked_icon_url": "achievements_images/044_TROPHY_UNLOCKED_SAGE.jpg",
-    "locked_icon_url": "achievements_images/044_TROPHY_UNLOCKED_SAGE_locked.jpg",
+    "unlocked_icon_url": "044_TROPHY_UNLOCKED_SAGE",
+    "locked_icon_url": "044_TROPHY_UNLOCKED_SAGE_locked",
     "is_hidden": true
   },
-  "045_TROPHY_UNLOCKED_CYCLIC_WARRIOR": {
+  {
     "achievement_id": "045_TROPHY_UNLOCKED_CYCLIC_WARRIOR",
     "unlocked_display_name": "His Name Is Garland",
     "unlocked_description": "Unlocked the cyclic warrior.",
@@ -593,8 +593,8 @@
     "hidden_description": "Unlocked the cyclic warrior.",
     "flavor_text": "",
     "completion_description": "Unlocked the cyclic warrior.",
-    "unlocked_icon_url": "achievements_images/045_TROPHY_UNLOCKED_CYCLIC_WARRIOR.jpg",
-    "locked_icon_url": "achievements_images/045_TROPHY_UNLOCKED_CYCLIC_WARRIOR_locked.jpg",
+    "unlocked_icon_url": "045_TROPHY_UNLOCKED_CYCLIC_WARRIOR",
+    "locked_icon_url": "045_TROPHY_UNLOCKED_CYCLIC_WARRIOR_locked",
     "is_hidden": true
   }
-}
+]

@@ -1,5 +1,5 @@
-{
-  "ACH_1": {
+[
+  {
     "achievement_id": "ACH_1",
     "unlocked_display_name": "Flight of the Crane",
     "unlocked_description": "Jump from the Crane",
@@ -8,11 +8,11 @@
     "hidden_description": "Jump from the Crane",
     "flavor_text": "",
     "completion_description": "Jump from the Crane",
-    "unlocked_icon_url": "achievements_images/ACH_1.jpg",
-    "locked_icon_url": "achievements_images/ACH_1_locked.jpg",
+    "unlocked_icon_url": "ACH_1",
+    "locked_icon_url": "ACH_1_locked",
     "is_hidden": true
   },
-  "ACH_10": {
+  {
     "achievement_id": "ACH_10",
     "unlocked_display_name": "The Whole Story",
     "unlocked_description": "Finish all side quests",
@@ -21,17 +21,17 @@
     "hidden_description": "Finish all side quests",
     "flavor_text": "",
     "completion_description": "Finish all side quests",
-    "unlocked_icon_url": "achievements_images/ACH_10.jpg",
-    "locked_icon_url": "achievements_images/ACH_10_locked.jpg",
+    "unlocked_icon_url": "ACH_10",
+    "locked_icon_url": "ACH_10_locked",
     "is_hidden": false,
-    "stats_thresholds": {
-      "ACH_10_PROGRESS": {
+    "stats_thresholds": [
+      {
         "name": "ACH_10_PROGRESS",
         "threshold": 44
       }
-    }
+    ]
   },
-  "ACH_11": {
+  {
     "achievement_id": "ACH_11",
     "unlocked_display_name": "Disaster Recovery",
     "unlocked_description": "Get 15 Relief Packages",
@@ -40,17 +40,17 @@
     "hidden_description": "Get 15 Relief Packages",
     "flavor_text": "",
     "completion_description": "Get 15 Relief Packages",
-    "unlocked_icon_url": "achievements_images/ACH_11.jpg",
-    "locked_icon_url": "achievements_images/ACH_11_locked.jpg",
+    "unlocked_icon_url": "ACH_11",
+    "locked_icon_url": "ACH_11_locked",
     "is_hidden": false,
-    "stats_thresholds": {
-      "ACH_11_PROGRESS": {
+    "stats_thresholds": [
+      {
         "name": "ACH_11_PROGRESS",
         "threshold": 15
       }
-    }
+    ]
   },
-  "ACH_12": {
+  {
     "achievement_id": "ACH_12",
     "unlocked_display_name": "We're All In This Together",
     "unlocked_description": "Save 15 survivors from zombies",
@@ -59,17 +59,17 @@
     "hidden_description": "Save 15 survivors from zombies",
     "flavor_text": "",
     "completion_description": "Save 15 survivors from zombies",
-    "unlocked_icon_url": "achievements_images/ACH_12.jpg",
-    "locked_icon_url": "achievements_images/ACH_12_locked.jpg",
+    "unlocked_icon_url": "ACH_12",
+    "locked_icon_url": "ACH_12_locked",
     "is_hidden": false,
-    "stats_thresholds": {
-      "ACH_12_PROGRESS": {
+    "stats_thresholds": [
+      {
         "name": "ACH_12_PROGRESS",
         "threshold": 15
       }
-    }
+    ]
   },
-  "ACH_13": {
+  {
     "achievement_id": "ACH_13",
     "unlocked_display_name": "Homo Homini Lupus Est",
     "unlocked_description": "Save 15 survivors from Rais's men",
@@ -78,17 +78,17 @@
     "hidden_description": "Save 15 survivors from Rais's men",
     "flavor_text": "",
     "completion_description": "Save 15 survivors from Rais's men",
-    "unlocked_icon_url": "achievements_images/ACH_13.jpg",
-    "locked_icon_url": "achievements_images/ACH_13_locked.jpg",
+    "unlocked_icon_url": "ACH_13",
+    "locked_icon_url": "ACH_13_locked",
     "is_hidden": false,
-    "stats_thresholds": {
-      "ACH_13_PROGRESS": {
+    "stats_thresholds": [
+      {
         "name": "ACH_13_PROGRESS",
         "threshold": 15
       }
-    }
+    ]
   },
-  "ACH_14": {
+  {
     "achievement_id": "ACH_14",
     "unlocked_display_name": "Bolter Hunting",
     "unlocked_description": "Catch 5 Bolters",
@@ -97,17 +97,17 @@
     "hidden_description": "Catch 5 Bolters",
     "flavor_text": "",
     "completion_description": "Catch 5 Bolters",
-    "unlocked_icon_url": "achievements_images/ACH_14.jpg",
-    "locked_icon_url": "achievements_images/ACH_14_locked.jpg",
+    "unlocked_icon_url": "ACH_14",
+    "locked_icon_url": "ACH_14_locked",
     "is_hidden": false,
-    "stats_thresholds": {
-      "ACH_14_PROGRESS": {
+    "stats_thresholds": [
+      {
         "name": "ACH_14_PROGRESS",
         "threshold": 5
       }
-    }
+    ]
   },
-  "ACH_15": {
+  {
     "achievement_id": "ACH_15",
     "unlocked_display_name": "I'm a Runner and a fighter",
     "unlocked_description": "Complete 15 Agility or Power Challenges",
@@ -116,17 +116,17 @@
     "hidden_description": "Complete 15 Agility or Power Challenges",
     "flavor_text": "",
     "completion_description": "Complete 15 Agility or Power Challenges",
-    "unlocked_icon_url": "achievements_images/ACH_15.jpg",
-    "locked_icon_url": "achievements_images/ACH_15_locked.jpg",
+    "unlocked_icon_url": "ACH_15",
+    "locked_icon_url": "ACH_15_locked",
     "is_hidden": false,
-    "stats_thresholds": {
-      "ACH_15_PROGRESS": {
+    "stats_thresholds": [
+      {
         "name": "ACH_15_PROGRESS",
         "threshold": 15
       }
-    }
+    ]
   },
-  "ACH_16": {
+  {
     "achievement_id": "ACH_16",
     "unlocked_display_name": "Lucky 7",
     "unlocked_description": "Win 7 coop competitions",
@@ -135,17 +135,17 @@
     "hidden_description": "Win 7 coop competitions",
     "flavor_text": "",
     "completion_description": "Win 7 coop competitions",
-    "unlocked_icon_url": "achievements_images/ACH_16.jpg",
-    "locked_icon_url": "achievements_images/ACH_16_locked.jpg",
+    "unlocked_icon_url": "ACH_16",
+    "locked_icon_url": "ACH_16_locked",
     "is_hidden": false,
-    "stats_thresholds": {
-      "ACH_16_PROGRESS": {
+    "stats_thresholds": [
+      {
         "name": "ACH_16_PROGRESS",
         "threshold": 7
       }
-    }
+    ]
   },
-  "ACH_17": {
+  {
     "achievement_id": "ACH_17",
     "unlocked_display_name": "Harran Athletics",
     "unlocked_description": "Take part in 10 coop competitions",
@@ -154,17 +154,17 @@
     "hidden_description": "Take part in 10 coop competitions",
     "flavor_text": "",
     "completion_description": "Take part in 10 coop competitions",
-    "unlocked_icon_url": "achievements_images/ACH_17.jpg",
-    "locked_icon_url": "achievements_images/ACH_17_locked.jpg",
+    "unlocked_icon_url": "ACH_17",
+    "locked_icon_url": "ACH_17_locked",
     "is_hidden": false,
-    "stats_thresholds": {
-      "ACH_17_PROGRESS": {
+    "stats_thresholds": [
+      {
         "name": "ACH_17_PROGRESS",
         "threshold": 10
       }
-    }
+    ]
   },
-  "ACH_18": {
+  {
     "achievement_id": "ACH_18",
     "unlocked_display_name": "Trade Company",
     "unlocked_description": "Sell items worth 10,000 dollars",
@@ -173,17 +173,17 @@
     "hidden_description": "Sell items worth 10,000 dollars",
     "flavor_text": "",
     "completion_description": "Sell items worth 10,000 dollars",
-    "unlocked_icon_url": "achievements_images/ACH_18.jpg",
-    "locked_icon_url": "achievements_images/ACH_18_locked.jpg",
+    "unlocked_icon_url": "ACH_18",
+    "locked_icon_url": "ACH_18_locked",
     "is_hidden": false,
-    "stats_thresholds": {
-      "ACH_18_PROGRESS": {
+    "stats_thresholds": [
+      {
         "name": "ACH_18_PROGRESS",
         "threshold": 10000
       }
-    }
+    ]
   },
-  "ACH_19": {
+  {
     "achievement_id": "ACH_19",
     "unlocked_display_name": "Trespassing",
     "unlocked_description": "Complete all Quarantine Zones",
@@ -192,17 +192,17 @@
     "hidden_description": "Complete all Quarantine Zones",
     "flavor_text": "",
     "completion_description": "Complete all Quarantine Zones",
-    "unlocked_icon_url": "achievements_images/ACH_19.jpg",
-    "locked_icon_url": "achievements_images/ACH_19_locked.jpg",
+    "unlocked_icon_url": "ACH_19",
+    "locked_icon_url": "ACH_19_locked",
     "is_hidden": false,
-    "stats_thresholds": {
-      "ACH_19_PROGRESS": {
+    "stats_thresholds": [
+      {
         "name": "ACH_19_PROGRESS",
         "threshold": 8
       }
-    }
+    ]
   },
-  "ACH_2": {
+  {
     "achievement_id": "ACH_2",
     "unlocked_display_name": "My left or your left?",
     "unlocked_description": "Meet with Rais",
@@ -211,11 +211,11 @@
     "hidden_description": "Meet with Rais",
     "flavor_text": "",
     "completion_description": "Meet with Rais",
-    "unlocked_icon_url": "achievements_images/ACH_2.jpg",
-    "locked_icon_url": "achievements_images/ACH_2_locked.jpg",
+    "unlocked_icon_url": "ACH_2",
+    "locked_icon_url": "ACH_2_locked",
     "is_hidden": true
   },
-  "ACH_20": {
+  {
     "achievement_id": "ACH_20",
     "unlocked_display_name": "Now It's Safe",
     "unlocked_description": "Capture all Safe Zones",
@@ -224,17 +224,17 @@
     "hidden_description": "Capture all Safe Zones",
     "flavor_text": "",
     "completion_description": "Capture all Safe Zones",
-    "unlocked_icon_url": "achievements_images/ACH_20.jpg",
-    "locked_icon_url": "achievements_images/ACH_20_locked.jpg",
+    "unlocked_icon_url": "ACH_20",
+    "locked_icon_url": "ACH_20_locked",
     "is_hidden": false,
-    "stats_thresholds": {
-      "ACH_20_PROGRESS": {
+    "stats_thresholds": [
+      {
         "name": "ACH_20_PROGRESS",
         "threshold": 17
       }
-    }
+    ]
   },
-  "ACH_21": {
+  {
     "achievement_id": "ACH_21",
     "unlocked_display_name": "Pheidippides",
     "unlocked_description": "Run (move or sprint) at least 42,195 m",
@@ -243,17 +243,17 @@
     "hidden_description": "Run (move or sprint) at least 42,195 m",
     "flavor_text": "",
     "completion_description": "Run (move or sprint) at least 42,195 m",
-    "unlocked_icon_url": "achievements_images/ACH_21.jpg",
-    "locked_icon_url": "achievements_images/ACH_21_locked.jpg",
+    "unlocked_icon_url": "ACH_21",
+    "locked_icon_url": "ACH_21_locked",
     "is_hidden": false,
-    "stats_thresholds": {
-      "ACH_21_PROGRESS": {
+    "stats_thresholds": [
+      {
         "name": "ACH_21_PROGRESS",
         "threshold": 42195
       }
-    }
+    ]
   },
-  "ACH_22": {
+  {
     "achievement_id": "ACH_22",
     "unlocked_display_name": "Mount Everest",
     "unlocked_description": "Climb at least 8848 meters on various objects.",
@@ -262,17 +262,17 @@
     "hidden_description": "Climb at least 8848 meters on various objects.",
     "flavor_text": "",
     "completion_description": "Climb at least 8848 meters on various objects.",
-    "unlocked_icon_url": "achievements_images/ACH_22.jpg",
-    "locked_icon_url": "achievements_images/ACH_22_locked.jpg",
+    "unlocked_icon_url": "ACH_22",
+    "locked_icon_url": "ACH_22_locked",
     "is_hidden": false,
-    "stats_thresholds": {
-      "ACH_22_PROGRESS": {
+    "stats_thresholds": [
+      {
         "name": "ACH_22_PROGRESS",
         "threshold": 8848
       }
-    }
+    ]
   },
-  "ACH_23": {
+  {
     "achievement_id": "ACH_23",
     "unlocked_display_name": "Is It Really Necessary?",
     "unlocked_description": "Kill your first Infected",
@@ -281,11 +281,11 @@
     "hidden_description": "Kill your first Infected",
     "flavor_text": "",
     "completion_description": "Kill your first Infected",
-    "unlocked_icon_url": "achievements_images/ACH_23.jpg",
-    "locked_icon_url": "achievements_images/ACH_23_locked.jpg",
+    "unlocked_icon_url": "ACH_23",
+    "locked_icon_url": "ACH_23_locked",
     "is_hidden": false
   },
-  "ACH_24": {
+  {
     "achievement_id": "ACH_24",
     "unlocked_display_name": "Everybody Dance Now",
     "unlocked_description": "Simultaneously shock 5 monsters with electricity",
@@ -294,11 +294,11 @@
     "hidden_description": "Simultaneously shock 5 monsters with electricity",
     "flavor_text": "",
     "completion_description": "Simultaneously shock 5 monsters with electricity",
-    "unlocked_icon_url": "achievements_images/ACH_24.jpg",
-    "locked_icon_url": "achievements_images/ACH_24_locked.jpg",
+    "unlocked_icon_url": "ACH_24",
+    "locked_icon_url": "ACH_24_locked",
     "is_hidden": false
   },
-  "ACH_25": {
+  {
     "achievement_id": "ACH_25",
     "unlocked_display_name": "Can't Touch This",
     "unlocked_description": "Kill 20 enemies in a row without taking damage.",
@@ -307,17 +307,17 @@
     "hidden_description": "Kill 20 enemies in a row without taking damage.",
     "flavor_text": "",
     "completion_description": "Kill 20 enemies in a row without taking damage.",
-    "unlocked_icon_url": "achievements_images/ACH_25.jpg",
-    "locked_icon_url": "achievements_images/ACH_25_locked.jpg",
+    "unlocked_icon_url": "ACH_25",
+    "locked_icon_url": "ACH_25_locked",
     "is_hidden": false,
-    "stats_thresholds": {
-      "ACH_25_PROGRESS": {
+    "stats_thresholds": [
+      {
         "name": "ACH_25_PROGRESS",
         "threshold": 20
       }
-    }
+    ]
   },
-  "ACH_26": {
+  {
     "achievement_id": "ACH_26",
     "unlocked_display_name": "This is Harraaaaan!",
     "unlocked_description": "Kill 100 enemies by kicking them off the rooftops/cliffs.",
@@ -326,17 +326,17 @@
     "hidden_description": "Kill 100 enemies by kicking them off the rooftops/cliffs.",
     "flavor_text": "",
     "completion_description": "Kill 100 enemies by kicking them off the rooftops/cliffs.",
-    "unlocked_icon_url": "achievements_images/ACH_26.jpg",
-    "locked_icon_url": "achievements_images/ACH_26_locked.jpg",
+    "unlocked_icon_url": "ACH_26",
+    "locked_icon_url": "ACH_26_locked",
     "is_hidden": false,
-    "stats_thresholds": {
-      "ACH_26_PROGRESS": {
+    "stats_thresholds": [
+      {
         "name": "ACH_26_PROGRESS",
         "threshold": 100
       }
-    }
+    ]
   },
-  "ACH_27": {
+  {
     "achievement_id": "ACH_27",
     "unlocked_display_name": "Mouths Wide Open",
     "unlocked_description": "Kill a Volatile",
@@ -345,11 +345,11 @@
     "hidden_description": "Kill a Volatile",
     "flavor_text": "",
     "completion_description": "Kill a Volatile",
-    "unlocked_icon_url": "achievements_images/ACH_27.jpg",
-    "locked_icon_url": "achievements_images/ACH_27_locked.jpg",
+    "unlocked_icon_url": "ACH_27",
+    "locked_icon_url": "ACH_27_locked",
     "is_hidden": false
   },
-  "ACH_28": {
+  {
     "achievement_id": "ACH_28",
     "unlocked_display_name": "Hush, Hush Now",
     "unlocked_description": "Quiet a Screamer",
@@ -358,11 +358,11 @@
     "hidden_description": "Quiet a Screamer",
     "flavor_text": "",
     "completion_description": "Quiet a Screamer",
-    "unlocked_icon_url": "achievements_images/ACH_28.jpg",
-    "locked_icon_url": "achievements_images/ACH_28_locked.jpg",
+    "unlocked_icon_url": "ACH_28",
+    "locked_icon_url": "ACH_28_locked",
     "is_hidden": false
   },
-  "ACH_29": {
+  {
     "achievement_id": "ACH_29",
     "unlocked_display_name": "BBQ",
     "unlocked_description": "Stick a burning zombie on spikes",
@@ -371,11 +371,11 @@
     "hidden_description": "Stick a burning zombie on spikes",
     "flavor_text": "",
     "completion_description": "Stick a burning zombie on spikes",
-    "unlocked_icon_url": "achievements_images/ACH_29.jpg",
-    "locked_icon_url": "achievements_images/ACH_29_locked.jpg",
+    "unlocked_icon_url": "ACH_29",
+    "locked_icon_url": "ACH_29_locked",
     "is_hidden": false
   },
-  "ACH_3": {
+  {
     "achievement_id": "ACH_3",
     "unlocked_display_name": "Snake in the grass",
     "unlocked_description": "Escape the arena",
@@ -384,11 +384,11 @@
     "hidden_description": "Escape the arena",
     "flavor_text": "",
     "completion_description": "Escape the arena",
-    "unlocked_icon_url": "achievements_images/ACH_3.jpg",
-    "locked_icon_url": "achievements_images/ACH_3_locked.jpg",
+    "unlocked_icon_url": "ACH_3",
+    "locked_icon_url": "ACH_3_locked",
     "is_hidden": true
   },
-  "ACH_30": {
+  {
     "achievement_id": "ACH_30",
     "unlocked_display_name": "A Game of Catch",
     "unlocked_description": "Kill 50 enemies with throwing weapons",
@@ -397,17 +397,17 @@
     "hidden_description": "Kill 50 enemies with throwing weapons",
     "flavor_text": "",
     "completion_description": "Kill 50 enemies with throwing weapons",
-    "unlocked_icon_url": "achievements_images/ACH_30.jpg",
-    "locked_icon_url": "achievements_images/ACH_30_locked.jpg",
+    "unlocked_icon_url": "ACH_30",
+    "locked_icon_url": "ACH_30_locked",
     "is_hidden": false,
-    "stats_thresholds": {
-      "ACH_30_PROGRESS": {
+    "stats_thresholds": [
+      {
         "name": "ACH_30_PROGRESS",
         "threshold": 50
       }
-    }
+    ]
   },
-  "ACH_31": {
+  {
     "achievement_id": "ACH_31",
     "unlocked_display_name": "Harran Shooting Club",
     "unlocked_description": "Kill 50 enemies with shooting weapons",
@@ -416,17 +416,17 @@
     "hidden_description": "Kill 50 enemies with shooting weapons",
     "flavor_text": "",
     "completion_description": "Kill 50 enemies with shooting weapons",
-    "unlocked_icon_url": "achievements_images/ACH_31.jpg",
-    "locked_icon_url": "achievements_images/ACH_31_locked.jpg",
+    "unlocked_icon_url": "ACH_31",
+    "locked_icon_url": "ACH_31_locked",
     "is_hidden": false,
-    "stats_thresholds": {
-      "ACH_31_PROGRESS": {
+    "stats_thresholds": [
+      {
         "name": "ACH_31_PROGRESS",
         "threshold": 50
       }
-    }
+    ]
   },
-  "ACH_32": {
+  {
     "achievement_id": "ACH_32",
     "unlocked_display_name": "Electrified!",
     "unlocked_description": "Catch 25 enemies in the Electric Fence trap",
@@ -435,17 +435,17 @@
     "hidden_description": "Catch 25 enemies in the Electric Fence trap",
     "flavor_text": "",
     "completion_description": "Catch 25 enemies in the Electric Fence trap",
-    "unlocked_icon_url": "achievements_images/ACH_32.jpg",
-    "locked_icon_url": "achievements_images/ACH_32_locked.jpg",
+    "unlocked_icon_url": "ACH_32",
+    "locked_icon_url": "ACH_32_locked",
     "is_hidden": false,
-    "stats_thresholds": {
-      "ACH_32_PROGRESS": {
+    "stats_thresholds": [
+      {
         "name": "ACH_32_PROGRESS",
         "threshold": 25
       }
-    }
+    ]
   },
-  "ACH_33": {
+  {
     "achievement_id": "ACH_33",
     "unlocked_display_name": "Blinded by the Lights",
     "unlocked_description": "Blind 25 Volatiles with flares or a flashlight",
@@ -454,17 +454,17 @@
     "hidden_description": "Blind 25 Volatiles with flares or a flashlight",
     "flavor_text": "",
     "completion_description": "Blind 25 Volatiles with flares or a flashlight",
-    "unlocked_icon_url": "achievements_images/ACH_33.jpg",
-    "locked_icon_url": "achievements_images/ACH_33_locked.jpg",
+    "unlocked_icon_url": "ACH_33",
+    "locked_icon_url": "ACH_33_locked",
     "is_hidden": false,
-    "stats_thresholds": {
-      "ACH_33_PROGRESS": {
+    "stats_thresholds": [
+      {
         "name": "ACH_33_PROGRESS",
         "threshold": 25
       }
-    }
+    ]
   },
-  "ACH_34": {
+  {
     "achievement_id": "ACH_34",
     "unlocked_display_name": "High Flyer",
     "unlocked_description": "Kill 25 enemies using Ground Pound or Drop Attack",
@@ -473,17 +473,17 @@
     "hidden_description": "Kill 25 enemies using Ground Pound or Drop Attack",
     "flavor_text": "",
     "completion_description": "Kill 25 enemies using Ground Pound or Drop Attack",
-    "unlocked_icon_url": "achievements_images/ACH_34.jpg",
-    "locked_icon_url": "achievements_images/ACH_34_locked.jpg",
+    "unlocked_icon_url": "ACH_34",
+    "locked_icon_url": "ACH_34_locked",
     "is_hidden": false,
-    "stats_thresholds": {
-      "ACH_34_PROGRESS": {
+    "stats_thresholds": [
+      {
         "name": "ACH_34_PROGRESS",
         "threshold": 25
       }
-    }
+    ]
   },
-  "ACH_35": {
+  {
     "achievement_id": "ACH_35",
     "unlocked_display_name": "Judo Master",
     "unlocked_description": "Throw 50 enemies with Grapple",
@@ -492,17 +492,17 @@
     "hidden_description": "Throw 50 enemies with Grapple",
     "flavor_text": "",
     "completion_description": "Throw 50 enemies with Grapple",
-    "unlocked_icon_url": "achievements_images/ACH_35.jpg",
-    "locked_icon_url": "achievements_images/ACH_35_locked.jpg",
+    "unlocked_icon_url": "ACH_35",
+    "locked_icon_url": "ACH_35_locked",
     "is_hidden": false,
-    "stats_thresholds": {
-      "ACH_35_PROGRESS": {
+    "stats_thresholds": [
+      {
         "name": "ACH_35_PROGRESS",
         "threshold": 50
       }
-    }
+    ]
   },
-  "ACH_36": {
+  {
     "achievement_id": "ACH_36",
     "unlocked_display_name": "Prom Night",
     "unlocked_description": "Survive night pursuit of level two or higher",
@@ -511,11 +511,11 @@
     "hidden_description": "Survive night pursuit of level two or higher",
     "flavor_text": "",
     "completion_description": "Survive night pursuit of level two or higher",
-    "unlocked_icon_url": "achievements_images/ACH_36.jpg",
-    "locked_icon_url": "achievements_images/ACH_36_locked.jpg",
+    "unlocked_icon_url": "ACH_36",
+    "locked_icon_url": "ACH_36_locked",
     "is_hidden": false
   },
-  "ACH_37": {
+  {
     "achievement_id": "ACH_37",
     "unlocked_display_name": "Enlightened!",
     "unlocked_description": "Blind 25 enemies in the Light Trap",
@@ -524,17 +524,17 @@
     "hidden_description": "Blind 25 enemies in the Light Trap",
     "flavor_text": "",
     "completion_description": "Blind 25 enemies in the Light Trap",
-    "unlocked_icon_url": "achievements_images/ACH_37.jpg",
-    "locked_icon_url": "achievements_images/ACH_37_locked.jpg",
+    "unlocked_icon_url": "ACH_37",
+    "locked_icon_url": "ACH_37_locked",
     "is_hidden": false,
-    "stats_thresholds": {
-      "ACH_37_PROGRESS": {
+    "stats_thresholds": [
+      {
         "name": "ACH_37_PROGRESS",
         "threshold": 25
       }
-    }
+    ]
   },
-  "ACH_38": {
+  {
     "achievement_id": "ACH_38",
     "unlocked_display_name": "Little Craftsman",
     "unlocked_description": "Craft your first item",
@@ -543,11 +543,11 @@
     "hidden_description": "Craft your first item",
     "flavor_text": "",
     "completion_description": "Craft your first item",
-    "unlocked_icon_url": "achievements_images/ACH_38.jpg",
-    "locked_icon_url": "achievements_images/ACH_38_locked.jpg",
+    "unlocked_icon_url": "ACH_38",
+    "locked_icon_url": "ACH_38_locked",
     "is_hidden": false
   },
-  "ACH_39": {
+  {
     "achievement_id": "ACH_39",
     "unlocked_display_name": "Master Crafter",
     "unlocked_description": "Use Blueprints at least 100 times",
@@ -556,17 +556,17 @@
     "hidden_description": "Use Blueprints at least 100 times",
     "flavor_text": "",
     "completion_description": "Use Blueprints at least 100 times",
-    "unlocked_icon_url": "achievements_images/ACH_39.jpg",
-    "locked_icon_url": "achievements_images/ACH_39_locked.jpg",
+    "unlocked_icon_url": "ACH_39",
+    "locked_icon_url": "ACH_39_locked",
     "is_hidden": false,
-    "stats_thresholds": {
-      "ACH_39_PROGRESS": {
+    "stats_thresholds": [
+      {
         "name": "ACH_39_PROGRESS",
         "threshold": 100
       }
-    }
+    ]
   },
-  "ACH_4": {
+  {
     "achievement_id": "ACH_4",
     "unlocked_display_name": "Sightseeing",
     "unlocked_description": "Reach the Old Town",
@@ -575,11 +575,11 @@
     "hidden_description": "Reach the Old Town",
     "flavor_text": "",
     "completion_description": "Reach the Old Town",
-    "unlocked_icon_url": "achievements_images/ACH_4.jpg",
-    "locked_icon_url": "achievements_images/ACH_4_locked.jpg",
+    "unlocked_icon_url": "ACH_4",
+    "locked_icon_url": "ACH_4_locked",
     "is_hidden": true
   },
-  "ACH_40": {
+  {
     "achievement_id": "ACH_40",
     "unlocked_display_name": "Open Sesame",
     "unlocked_description": "Perform 10 successful Lockpicks",
@@ -588,17 +588,17 @@
     "hidden_description": "Perform 10 successful Lockpicks",
     "flavor_text": "",
     "completion_description": "Perform 10 successful Lockpicks",
-    "unlocked_icon_url": "achievements_images/ACH_40.jpg",
-    "locked_icon_url": "achievements_images/ACH_40_locked.jpg",
+    "unlocked_icon_url": "ACH_40",
+    "locked_icon_url": "ACH_40_locked",
     "is_hidden": false,
-    "stats_thresholds": {
-      "ACH_40_PROGRESS": {
+    "stats_thresholds": [
+      {
         "name": "ACH_40_PROGRESS",
         "threshold": 10
       }
-    }
+    ]
   },
-  "ACH_41": {
+  {
     "achievement_id": "ACH_41",
     "unlocked_display_name": "Everybody Knows Kyle",
     "unlocked_description": "Reach Survivor Rank lvl 12",
@@ -607,11 +607,11 @@
     "hidden_description": "Reach Survivor Rank lvl 12",
     "flavor_text": "",
     "completion_description": "Reach Survivor Rank lvl 12",
-    "unlocked_icon_url": "achievements_images/ACH_41.jpg",
-    "locked_icon_url": "achievements_images/ACH_41_locked.jpg",
+    "unlocked_icon_url": "ACH_41",
+    "locked_icon_url": "ACH_41_locked",
     "is_hidden": false
   },
-  "ACH_42": {
+  {
     "achievement_id": "ACH_42",
     "unlocked_display_name": "The Legend of Harran",
     "unlocked_description": "Reach Survivor Rank lvl 18",
@@ -620,11 +620,11 @@
     "hidden_description": "Reach Survivor Rank lvl 18",
     "flavor_text": "",
     "completion_description": "Reach Survivor Rank lvl 18",
-    "unlocked_icon_url": "achievements_images/ACH_42.jpg",
-    "locked_icon_url": "achievements_images/ACH_42_locked.jpg",
+    "unlocked_icon_url": "ACH_42",
+    "locked_icon_url": "ACH_42_locked",
     "is_hidden": false
   },
-  "ACH_43": {
+  {
     "achievement_id": "ACH_43",
     "unlocked_display_name": "Agile",
     "unlocked_description": "Reach Agility Prof. Lvl 10",
@@ -633,11 +633,11 @@
     "hidden_description": "Reach Agility Prof. Lvl 10",
     "flavor_text": "",
     "completion_description": "Reach Agility Prof. Lvl 10",
-    "unlocked_icon_url": "achievements_images/ACH_43.jpg",
-    "locked_icon_url": "achievements_images/ACH_43_locked.jpg",
+    "unlocked_icon_url": "ACH_43",
+    "locked_icon_url": "ACH_43_locked",
     "is_hidden": false
   },
-  "ACH_44": {
+  {
     "achievement_id": "ACH_44",
     "unlocked_display_name": "Strong",
     "unlocked_description": "Reach Power Prof. Lvl 10",
@@ -646,11 +646,11 @@
     "hidden_description": "Reach Power Prof. Lvl 10",
     "flavor_text": "",
     "completion_description": "Reach Power Prof. Lvl 10",
-    "unlocked_icon_url": "achievements_images/ACH_44.jpg",
-    "locked_icon_url": "achievements_images/ACH_44_locked.jpg",
+    "unlocked_icon_url": "ACH_44",
+    "locked_icon_url": "ACH_44_locked",
     "is_hidden": false
   },
-  "ACH_45": {
+  {
     "achievement_id": "ACH_45",
     "unlocked_display_name": "It's All In the Writing",
     "unlocked_description": "Find all text collectibles",
@@ -659,17 +659,17 @@
     "hidden_description": "Find all text collectibles",
     "flavor_text": "",
     "completion_description": "Find all text collectibles",
-    "unlocked_icon_url": "achievements_images/ACH_45.jpg",
-    "locked_icon_url": "achievements_images/ACH_45_locked.jpg",
+    "unlocked_icon_url": "ACH_45",
+    "locked_icon_url": "ACH_45_locked",
     "is_hidden": false,
-    "stats_thresholds": {
-      "ACH_45_PROGRESS": {
+    "stats_thresholds": [
+      {
         "name": "ACH_45_PROGRESS",
         "threshold": 67
       }
-    }
+    ]
   },
-  "ACH_46": {
+  {
     "achievement_id": "ACH_46",
     "unlocked_display_name": "I've Got Your Back",
     "unlocked_description": "Complete 1 quest in a co-op game",
@@ -678,11 +678,11 @@
     "hidden_description": "Complete 1 quest in a co-op game",
     "flavor_text": "",
     "completion_description": "Complete 1 quest in a co-op game",
-    "unlocked_icon_url": "achievements_images/ACH_46.jpg",
-    "locked_icon_url": "achievements_images/ACH_46_locked.jpg",
+    "unlocked_icon_url": "ACH_46",
+    "locked_icon_url": "ACH_46_locked",
     "is_hidden": false
   },
-  "ACH_47": {
+  {
     "achievement_id": "ACH_47",
     "unlocked_display_name": "Polyamory",
     "unlocked_description": "Complete 5 quests in a single co-op game with the same 3 partners",
@@ -691,11 +691,11 @@
     "hidden_description": "Complete 5 quests in a single co-op game with the same 3 partners",
     "flavor_text": "",
     "completion_description": "Complete 5 quests in a single co-op game with the same 3 partners",
-    "unlocked_icon_url": "achievements_images/ACH_47.jpg",
-    "locked_icon_url": "achievements_images/ACH_47_locked.jpg",
+    "unlocked_icon_url": "ACH_47",
+    "locked_icon_url": "ACH_47_locked",
     "is_hidden": false
   },
-  "ACH_48": {
+  {
     "achievement_id": "ACH_48",
     "unlocked_display_name": "Italian Plumber",
     "unlocked_description": "Kill an enemy with a wrench, using Vault followed by Drop Attack",
@@ -704,11 +704,11 @@
     "hidden_description": "Kill an enemy with a wrench, using Vault followed by Drop Attack",
     "flavor_text": "",
     "completion_description": "Kill an enemy with a wrench, using Vault followed by Drop Attack",
-    "unlocked_icon_url": "achievements_images/ACH_48.jpg",
-    "locked_icon_url": "achievements_images/ACH_48_locked.jpg",
+    "unlocked_icon_url": "ACH_48",
+    "locked_icon_url": "ACH_48_locked",
     "is_hidden": false
   },
-  "ACH_49": {
+  {
     "achievement_id": "ACH_49",
     "unlocked_display_name": "Gabriel's Sword",
     "unlocked_description": "Add a fire elemental effect to a sword or a khopesh",
@@ -717,11 +717,11 @@
     "hidden_description": "Add a fire elemental effect to a sword or a khopesh",
     "flavor_text": "",
     "completion_description": "Add a fire elemental effect to a sword or a khopesh",
-    "unlocked_icon_url": "achievements_images/ACH_49.jpg",
-    "locked_icon_url": "achievements_images/ACH_49_locked.jpg",
+    "unlocked_icon_url": "ACH_49",
+    "locked_icon_url": "ACH_49_locked",
     "is_hidden": false
   },
-  "ACH_5": {
+  {
     "achievement_id": "ACH_5",
     "unlocked_display_name": "Making Faces",
     "unlocked_description": "Show the outside world that you're still alive",
@@ -730,11 +730,11 @@
     "hidden_description": "Show the outside world that you're still alive",
     "flavor_text": "",
     "completion_description": "Show the outside world that you're still alive",
-    "unlocked_icon_url": "achievements_images/ACH_5.jpg",
-    "locked_icon_url": "achievements_images/ACH_5_locked.jpg",
+    "unlocked_icon_url": "ACH_5",
+    "locked_icon_url": "ACH_5_locked",
     "is_hidden": true
   },
-  "ACH_50": {
+  {
     "achievement_id": "ACH_50",
     "unlocked_display_name": "A Long Way Down",
     "unlocked_description": "Jump to the water from the Infamy Bridge (Slums) at night",
@@ -743,11 +743,11 @@
     "hidden_description": "Jump to the water from the Infamy Bridge (Slums) at night",
     "flavor_text": "",
     "completion_description": "Jump to the water from the Infamy Bridge (Slums) at night",
-    "unlocked_icon_url": "achievements_images/ACH_50.jpg",
-    "locked_icon_url": "achievements_images/ACH_50_locked.jpg",
+    "unlocked_icon_url": "ACH_50",
+    "locked_icon_url": "ACH_50_locked",
     "is_hidden": false
   },
-  "ACH_51": {
+  {
     "achievement_id": "ACH_51",
     "unlocked_display_name": "The Boy Who Could Run",
     "unlocked_description": "Complete all Parkour Fever Challenges",
@@ -756,17 +756,17 @@
     "hidden_description": "Complete all Parkour Fever Challenges",
     "flavor_text": "",
     "completion_description": "Complete all Parkour Fever Challenges",
-    "unlocked_icon_url": "achievements_images/ACH_51.jpg",
-    "locked_icon_url": "achievements_images/ACH_51_locked.jpg",
+    "unlocked_icon_url": "ACH_51",
+    "locked_icon_url": "ACH_51_locked",
     "is_hidden": false,
-    "stats_thresholds": {
-      "ACH_51_PROGRESS": {
+    "stats_thresholds": [
+      {
         "name": "ACH_51_PROGRESS",
         "threshold": 10
       }
-    }
+    ]
   },
-  "ACH_52": {
+  {
     "achievement_id": "ACH_52",
     "unlocked_display_name": "GD Parkour Instructor",
     "unlocked_description": "Complete all Parkour Fever Challenges at night",
@@ -775,17 +775,17 @@
     "hidden_description": "Complete all Parkour Fever Challenges at night",
     "flavor_text": "",
     "completion_description": "Complete all Parkour Fever Challenges at night",
-    "unlocked_icon_url": "achievements_images/ACH_52.jpg",
-    "locked_icon_url": "achievements_images/ACH_52_locked.jpg",
+    "unlocked_icon_url": "ACH_52",
+    "locked_icon_url": "ACH_52_locked",
     "is_hidden": false,
-    "stats_thresholds": {
-      "ACH_52_PROGRESS": {
+    "stats_thresholds": [
+      {
         "name": "ACH_52_PROGRESS",
         "threshold": 10
       }
-    }
+    ]
   },
-  "ACH_53": {
+  {
     "achievement_id": "ACH_53",
     "unlocked_display_name": "Pearls in the Mud",
     "unlocked_description": "Open 5 GRE chests in Quarantine Zones",
@@ -794,17 +794,17 @@
     "hidden_description": "Open 5 GRE chests in Quarantine Zones",
     "flavor_text": "",
     "completion_description": "Open 5 GRE chests in Quarantine Zones",
-    "unlocked_icon_url": "achievements_images/ACH_53.jpg",
-    "locked_icon_url": "achievements_images/ACH_53_locked.jpg",
+    "unlocked_icon_url": "ACH_53",
+    "locked_icon_url": "ACH_53_locked",
     "is_hidden": false,
-    "stats_thresholds": {
-      "ACH_53_PROGRESS": {
+    "stats_thresholds": [
+      {
         "name": "ACH_53_PROGRESS",
         "threshold": 5
       }
-    }
+    ]
   },
-  "ACH_54": {
+  {
     "achievement_id": "ACH_54",
     "unlocked_display_name": "Get the Bozak",
     "unlocked_description": "Complete Bozak's challenges",
@@ -813,11 +813,11 @@
     "hidden_description": "Complete Bozak's challenges",
     "flavor_text": "",
     "completion_description": "Complete Bozak's challenges",
-    "unlocked_icon_url": "achievements_images/ACH_54.jpg",
-    "locked_icon_url": "achievements_images/ACH_54_locked.jpg",
+    "unlocked_icon_url": "ACH_54",
+    "locked_icon_url": "ACH_54_locked",
     "is_hidden": false
   },
-  "ACH_55": {
+  {
     "achievement_id": "ACH_55",
     "unlocked_display_name": "Together Till the End",
     "unlocked_description": "Be the last man standing",
@@ -826,11 +826,11 @@
     "hidden_description": "Be the last man standing",
     "flavor_text": "",
     "completion_description": "Be the last man standing",
-    "unlocked_icon_url": "achievements_images/ACH_55.jpg",
-    "locked_icon_url": "achievements_images/ACH_55_locked.jpg",
+    "unlocked_icon_url": "ACH_55",
+    "locked_icon_url": "ACH_55_locked",
     "is_hidden": false
   },
-  "ACH_56": {
+  {
     "achievement_id": "ACH_56",
     "unlocked_display_name": "Electric Whisper",
     "unlocked_description": "Learn how to craft Electric Arrows",
@@ -839,11 +839,11 @@
     "hidden_description": "Learn how to craft Electric Arrows",
     "flavor_text": "",
     "completion_description": "Learn how to craft Electric Arrows",
-    "unlocked_icon_url": "achievements_images/ACH_56.jpg",
-    "locked_icon_url": "achievements_images/ACH_56_locked.jpg",
+    "unlocked_icon_url": "ACH_56",
+    "locked_icon_url": "ACH_56_locked",
     "is_hidden": false
   },
-  "ACH_57": {
+  {
     "achievement_id": "ACH_57",
     "unlocked_display_name": "Things That Go Ka-Boom",
     "unlocked_description": "Learn how to craft Exploding Arrows",
@@ -852,11 +852,11 @@
     "hidden_description": "Learn how to craft Exploding Arrows",
     "flavor_text": "",
     "completion_description": "Learn how to craft Exploding Arrows",
-    "unlocked_icon_url": "achievements_images/ACH_57.jpg",
-    "locked_icon_url": "achievements_images/ACH_57_locked.jpg",
+    "unlocked_icon_url": "ACH_57",
+    "locked_icon_url": "ACH_57_locked",
     "is_hidden": false
   },
-  "ACH_58": {
+  {
     "achievement_id": "ACH_58",
     "unlocked_display_name": "Robin Hood Theory",
     "unlocked_description": "Score 10 headshots on Rais's men with a bow",
@@ -865,17 +865,17 @@
     "hidden_description": "Score 10 headshots on Rais's men with a bow",
     "flavor_text": "",
     "completion_description": "Score 10 headshots on Rais's men with a bow",
-    "unlocked_icon_url": "achievements_images/ACH_58.jpg",
-    "locked_icon_url": "achievements_images/ACH_58_locked.jpg",
+    "unlocked_icon_url": "ACH_58",
+    "locked_icon_url": "ACH_58_locked",
     "is_hidden": false,
-    "stats_thresholds": {
-      "ACH_58_PROGRESS": {
+    "stats_thresholds": [
+      {
         "name": "ACH_58_PROGRESS",
         "threshold": 10
       }
-    }
+    ]
   },
-  "ACH_59": {
+  {
     "achievement_id": "ACH_59",
     "unlocked_display_name": "Afraid to get wet?",
     "unlocked_description": "Dive into the Countryside.",
@@ -884,11 +884,11 @@
     "hidden_description": "Dive into the Countryside.",
     "flavor_text": "",
     "completion_description": "Dive into the Countryside.",
-    "unlocked_icon_url": "achievements_images/ACH_59.jpg",
-    "locked_icon_url": "achievements_images/ACH_59_locked.jpg",
+    "unlocked_icon_url": "ACH_59",
+    "locked_icon_url": "ACH_59_locked",
     "is_hidden": false
   },
-  "ACH_6": {
+  {
     "achievement_id": "ACH_6",
     "unlocked_display_name": "Tied loose end",
     "unlocked_description": "Deal with Tahir",
@@ -897,11 +897,11 @@
     "hidden_description": "Deal with Tahir",
     "flavor_text": "",
     "completion_description": "Deal with Tahir",
-    "unlocked_icon_url": "achievements_images/ACH_6.jpg",
-    "locked_icon_url": "achievements_images/ACH_6_locked.jpg",
+    "unlocked_icon_url": "ACH_6",
+    "locked_icon_url": "ACH_6_locked",
     "is_hidden": true
   },
-  "ACH_60": {
+  {
     "achievement_id": "ACH_60",
     "unlocked_display_name": "And you liked him, didn't you?",
     "unlocked_description": "Meet your old friend again.",
@@ -910,11 +910,11 @@
     "hidden_description": "Meet your old friend again.",
     "flavor_text": "",
     "completion_description": "Meet your old friend again.",
-    "unlocked_icon_url": "achievements_images/ACH_60.jpg",
-    "locked_icon_url": "achievements_images/ACH_60_locked.jpg",
+    "unlocked_icon_url": "ACH_60",
+    "locked_icon_url": "ACH_60_locked",
     "is_hidden": false
   },
-  "ACH_61": {
+  {
     "achievement_id": "ACH_61",
     "unlocked_display_name": "I was waiting for you for so long",
     "unlocked_description": "Become a Faceless.",
@@ -923,11 +923,11 @@
     "hidden_description": "Become a Faceless.",
     "flavor_text": "",
     "completion_description": "Become a Faceless.",
-    "unlocked_icon_url": "achievements_images/ACH_61.jpg",
-    "locked_icon_url": "achievements_images/ACH_61_locked.jpg",
+    "unlocked_icon_url": "ACH_61",
+    "locked_icon_url": "ACH_61_locked",
     "is_hidden": false
   },
-  "ACH_62": {
+  {
     "achievement_id": "ACH_62",
     "unlocked_display_name": "Sweaty palms?",
     "unlocked_description": "Kill a Demolisher with a car.",
@@ -936,11 +936,11 @@
     "hidden_description": "Kill a Demolisher with a car.",
     "flavor_text": "",
     "completion_description": "Kill a Demolisher with a car.",
-    "unlocked_icon_url": "achievements_images/ACH_62.jpg",
-    "locked_icon_url": "achievements_images/ACH_62_locked.jpg",
+    "unlocked_icon_url": "ACH_62",
+    "locked_icon_url": "ACH_62_locked",
     "is_hidden": false
   },
-  "ACH_63": {
+  {
     "achievement_id": "ACH_63",
     "unlocked_display_name": "It wasn't that hard, was it?",
     "unlocked_description": "Win Bilal's race.",
@@ -949,11 +949,11 @@
     "hidden_description": "Win Bilal's race.",
     "flavor_text": "",
     "completion_description": "Win Bilal's race.",
-    "unlocked_icon_url": "achievements_images/ACH_63.jpg",
-    "locked_icon_url": "achievements_images/ACH_63_locked.jpg",
+    "unlocked_icon_url": "ACH_63",
+    "locked_icon_url": "ACH_63_locked",
     "is_hidden": false
   },
-  "ACH_64": {
+  {
     "achievement_id": "ACH_64",
     "unlocked_display_name": "What if you picked the other one?",
     "unlocked_description": "Make that call.",
@@ -962,11 +962,11 @@
     "hidden_description": "Make that call.",
     "flavor_text": "",
     "completion_description": "Make that call.",
-    "unlocked_icon_url": "achievements_images/ACH_64.jpg",
-    "locked_icon_url": "achievements_images/ACH_64_locked.jpg",
+    "unlocked_icon_url": "ACH_64",
+    "locked_icon_url": "ACH_64_locked",
     "is_hidden": false
   },
-  "ACH_65": {
+  {
     "achievement_id": "ACH_65",
     "unlocked_display_name": "I felt your presence",
     "unlocked_description": "Witness the Following's meeting.",
@@ -975,11 +975,11 @@
     "hidden_description": "Witness the Following's meeting.",
     "flavor_text": "",
     "completion_description": "Witness the Following's meeting.",
-    "unlocked_icon_url": "achievements_images/ACH_65.jpg",
-    "locked_icon_url": "achievements_images/ACH_65_locked.jpg",
+    "unlocked_icon_url": "ACH_65",
+    "locked_icon_url": "ACH_65_locked",
     "is_hidden": false
   },
-  "ACH_66": {
+  {
     "achievement_id": "ACH_66",
     "unlocked_display_name": "You realize it's only points, don't you?",
     "unlocked_description": "Reach Driver Rank 12.",
@@ -988,11 +988,11 @@
     "hidden_description": "Reach Driver Rank 12.",
     "flavor_text": "",
     "completion_description": "Reach Driver Rank 12.",
-    "unlocked_icon_url": "achievements_images/ACH_66.jpg",
-    "locked_icon_url": "achievements_images/ACH_66_locked.jpg",
+    "unlocked_icon_url": "ACH_66",
+    "locked_icon_url": "ACH_66_locked",
     "is_hidden": false
   },
-  "ACH_67": {
+  {
     "achievement_id": "ACH_67",
     "unlocked_display_name": "Formidophobic? Interesting…",
     "unlocked_description": "Destroy 50 scarecrows.",
@@ -1001,17 +1001,17 @@
     "hidden_description": "Destroy 50 scarecrows.",
     "flavor_text": "",
     "completion_description": "Destroy 50 scarecrows.",
-    "unlocked_icon_url": "achievements_images/ACH_67.jpg",
-    "locked_icon_url": "achievements_images/ACH_67_locked.jpg",
+    "unlocked_icon_url": "ACH_67",
+    "locked_icon_url": "ACH_67_locked",
     "is_hidden": false,
-    "stats_thresholds": {
-      "ACH_67_PROGRESS": {
+    "stats_thresholds": [
+      {
         "name": "ACH_67_PROGRESS",
         "threshold": 50
       }
-    }
+    ]
   },
-  "ACH_68": {
+  {
     "achievement_id": "ACH_68",
     "unlocked_display_name": "I don't approve of mindless fun",
     "unlocked_description": "Kill 500 zombies with your vehicle.",
@@ -1020,17 +1020,17 @@
     "hidden_description": "Kill 500 zombies with your vehicle.",
     "flavor_text": "",
     "completion_description": "Kill 500 zombies with your vehicle.",
-    "unlocked_icon_url": "achievements_images/ACH_68.jpg",
-    "locked_icon_url": "achievements_images/ACH_68_locked.jpg",
+    "unlocked_icon_url": "ACH_68",
+    "locked_icon_url": "ACH_68_locked",
     "is_hidden": false,
-    "stats_thresholds": {
-      "ACH_68_PROGRESS": {
+    "stats_thresholds": [
+      {
         "name": "ACH_68_PROGRESS",
         "threshold": 500
       }
-    }
+    ]
   },
-  "ACH_7": {
+  {
     "achievement_id": "ACH_7",
     "unlocked_display_name": "Now You Can Come In",
     "unlocked_description": "Find Camden",
@@ -1039,11 +1039,11 @@
     "hidden_description": "Find Camden",
     "flavor_text": "",
     "completion_description": "Find Camden",
-    "unlocked_icon_url": "achievements_images/ACH_7.jpg",
-    "locked_icon_url": "achievements_images/ACH_7_locked.jpg",
+    "unlocked_icon_url": "ACH_7",
+    "locked_icon_url": "ACH_7_locked",
     "is_hidden": true
   },
-  "ACH_70": {
+  {
     "achievement_id": "ACH_70",
     "unlocked_display_name": "Beginnings are hard",
     "unlocked_description": "Die three times on the first floor, before first Clavis",
@@ -1052,11 +1052,11 @@
     "hidden_description": "Die three times on the first floor, before first Clavis",
     "flavor_text": "",
     "completion_description": "Die three times on the first floor, before first Clavis",
-    "unlocked_icon_url": "achievements_images/ACH_70.jpg",
-    "locked_icon_url": "achievements_images/ACH_70_locked.jpg",
+    "unlocked_icon_url": "ACH_70",
+    "locked_icon_url": "ACH_70_locked",
     "is_hidden": true
   },
-  "ACH_71": {
+  {
     "achievement_id": "ACH_71",
     "unlocked_display_name": "Throw me a bone",
     "unlocked_description": "Kill 50 skeletons with fall damage",
@@ -1065,17 +1065,17 @@
     "hidden_description": "Kill 50 skeletons with fall damage",
     "flavor_text": "",
     "completion_description": "Kill 50 skeletons with fall damage",
-    "unlocked_icon_url": "achievements_images/ACH_71.jpg",
-    "locked_icon_url": "achievements_images/ACH_71_locked.jpg",
+    "unlocked_icon_url": "ACH_71",
+    "locked_icon_url": "ACH_71_locked",
     "is_hidden": false,
-    "stats_thresholds": {
-      "ACH_71_PROGRESS": {
+    "stats_thresholds": [
+      {
         "name": "ACH_71_PROGRESS",
         "threshold": 50
       }
-    }
+    ]
   },
-  "ACH_72": {
+  {
     "achievement_id": "ACH_72",
     "unlocked_display_name": "Non omnis moriar",
     "unlocked_description": "Finish Hellraid with only one life left and 0 medkits",
@@ -1084,11 +1084,11 @@
     "hidden_description": "Finish Hellraid with only one life left and 0 medkits",
     "flavor_text": "",
     "completion_description": "Finish Hellraid with only one life left and 0 medkits",
-    "unlocked_icon_url": "achievements_images/ACH_72.jpg",
-    "locked_icon_url": "achievements_images/ACH_72_locked.jpg",
+    "unlocked_icon_url": "ACH_72",
+    "locked_icon_url": "ACH_72_locked",
     "is_hidden": false
   },
-  "ACH_73": {
+  {
     "achievement_id": "ACH_73",
     "unlocked_display_name": "Blocked by Ba'al",
     "unlocked_description": "Reach level 10 Hellraid rank",
@@ -1097,11 +1097,11 @@
     "hidden_description": "Reach level 10 Hellraid rank",
     "flavor_text": "",
     "completion_description": "Reach level 10 Hellraid rank",
-    "unlocked_icon_url": "achievements_images/ACH_73.jpg",
-    "locked_icon_url": "achievements_images/ACH_73_locked.jpg",
+    "unlocked_icon_url": "ACH_73",
+    "locked_icon_url": "ACH_73_locked",
     "is_hidden": false
   },
-  "ACH_74": {
+  {
     "achievement_id": "ACH_74",
     "unlocked_display_name": "Clavis was a key all along",
     "unlocked_description": "Put Clavis fragments into Arena",
@@ -1110,11 +1110,11 @@
     "hidden_description": "Put Clavis fragments into Arena",
     "flavor_text": "",
     "completion_description": "Put Clavis fragments into Arena",
-    "unlocked_icon_url": "achievements_images/ACH_74.jpg",
-    "locked_icon_url": "achievements_images/ACH_74_locked.jpg",
+    "unlocked_icon_url": "ACH_74",
+    "locked_icon_url": "ACH_74_locked",
     "is_hidden": false
   },
-  "ACH_75": {
+  {
     "achievement_id": "ACH_75",
     "unlocked_display_name": "Time to file a tax form",
     "unlocked_description": "Earn more than 3000 coins in one run",
@@ -1123,11 +1123,11 @@
     "hidden_description": "Earn more than 3000 coins in one run",
     "flavor_text": "",
     "completion_description": "Earn more than 3000 coins in one run",
-    "unlocked_icon_url": "achievements_images/ACH_75.jpg",
-    "locked_icon_url": "achievements_images/ACH_75_locked.jpg",
+    "unlocked_icon_url": "ACH_75",
+    "locked_icon_url": "ACH_75_locked",
     "is_hidden": false
   },
-  "ACH_76": {
+  {
     "achievement_id": "ACH_76",
     "unlocked_display_name": "Wake up!",
     "unlocked_description": "Finish Hellraid on Nightmare",
@@ -1136,11 +1136,11 @@
     "hidden_description": "Finish Hellraid on Nightmare",
     "flavor_text": "",
     "completion_description": "Finish Hellraid on Nightmare",
-    "unlocked_icon_url": "achievements_images/ACH_76.jpg",
-    "locked_icon_url": "achievements_images/ACH_76_locked.jpg",
+    "unlocked_icon_url": "ACH_76",
+    "locked_icon_url": "ACH_76_locked",
     "is_hidden": false
   },
-  "ACH_77": {
+  {
     "achievement_id": "ACH_77",
     "unlocked_display_name": "Well-read",
     "unlocked_description": "Collect all 10 notes",
@@ -1149,17 +1149,17 @@
     "hidden_description": "Collect all 10 notes",
     "flavor_text": "",
     "completion_description": "Collect all 10 notes",
-    "unlocked_icon_url": "achievements_images/ACH_77.jpg",
-    "locked_icon_url": "achievements_images/ACH_77_locked.jpg",
+    "unlocked_icon_url": "ACH_77",
+    "locked_icon_url": "ACH_77_locked",
     "is_hidden": false,
-    "stats_thresholds": {
-      "ACH_77_PROGRESS": {
+    "stats_thresholds": [
+      {
         "name": "ACH_77_PROGRESS",
         "threshold": 10
       }
-    }
+    ]
   },
-  "ACH_78": {
+  {
     "achievement_id": "ACH_78",
     "unlocked_display_name": "Fast as hell",
     "unlocked_description": "Finish Hellraid under 30 min",
@@ -1168,11 +1168,11 @@
     "hidden_description": "Finish Hellraid under 30 min",
     "flavor_text": "",
     "completion_description": "Finish Hellraid under 30 min",
-    "unlocked_icon_url": "achievements_images/ACH_78.jpg",
-    "locked_icon_url": "achievements_images/ACH_78_locked.jpg",
+    "unlocked_icon_url": "ACH_78",
+    "locked_icon_url": "ACH_78_locked",
     "is_hidden": false
   },
-  "ACH_79": {
+  {
     "achievement_id": "ACH_79",
     "unlocked_display_name": "Into the lava",
     "unlocked_description": "Kick enemy into lava",
@@ -1181,11 +1181,11 @@
     "hidden_description": "Kick enemy into lava",
     "flavor_text": "",
     "completion_description": "Kick enemy into lava",
-    "unlocked_icon_url": "achievements_images/ACH_79.jpg",
-    "locked_icon_url": "achievements_images/ACH_79_locked.jpg",
+    "unlocked_icon_url": "ACH_79",
+    "locked_icon_url": "ACH_79_locked",
     "is_hidden": true
   },
-  "ACH_8": {
+  {
     "achievement_id": "ACH_8",
     "unlocked_display_name": "Vertigo",
     "unlocked_description": "Activate the Amplifier",
@@ -1194,11 +1194,11 @@
     "hidden_description": "Activate the Amplifier",
     "flavor_text": "",
     "completion_description": "Activate the Amplifier",
-    "unlocked_icon_url": "achievements_images/ACH_8.jpg",
-    "locked_icon_url": "achievements_images/ACH_8_locked.jpg",
+    "unlocked_icon_url": "ACH_8",
+    "locked_icon_url": "ACH_8_locked",
     "is_hidden": true
   },
-  "ACH_9": {
+  {
     "achievement_id": "ACH_9",
     "unlocked_display_name": "Bittersweet",
     "unlocked_description": "Complete the game",
@@ -1207,8 +1207,8 @@
     "hidden_description": "Complete the game",
     "flavor_text": "",
     "completion_description": "Complete the game",
-    "unlocked_icon_url": "achievements_images/ACH_9.jpg",
-    "locked_icon_url": "achievements_images/ACH_9_locked.jpg",
+    "unlocked_icon_url": "ACH_9",
+    "locked_icon_url": "ACH_9_locked",
     "is_hidden": true
   }
-}
+]

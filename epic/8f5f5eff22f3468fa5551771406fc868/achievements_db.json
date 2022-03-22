@@ -1,5 +1,5 @@
-{
-  "1920X1080": {
+[
+  {
     "achievement_id": "1920X1080",
     "unlocked_display_name": "1920x1080",
     "unlocked_description": "Install a Threadripper 1920x and a GTX 1080 or GTX 1080ti.",
@@ -8,11 +8,11 @@
     "hidden_description": "Install a Threadripper 1920x and a GTX 1080 or GTX 1080ti.",
     "flavor_text": "",
     "completion_description": "Install a Threadripper 1920x and a GTX 1080 or GTX 1080ti.",
-    "unlocked_icon_url": "achievements_images/1920X1080.jpg",
-    "locked_icon_url": "achievements_images/1920X1080_locked.jpg",
+    "unlocked_icon_url": "1920X1080",
+    "locked_icon_url": "1920X1080_locked",
     "is_hidden": false
   },
-  "AMD_NVIDIA": {
+  {
     "achievement_id": "AMD_NVIDIA",
     "unlocked_display_name": "The Best of Both Worlds",
     "unlocked_description": "Pair an AMD CPU with a NVIDIA GPU.",
@@ -21,11 +21,11 @@
     "hidden_description": "Pair an AMD CPU with a NVIDIA GPU.",
     "flavor_text": "",
     "completion_description": "Pair an AMD CPU with a NVIDIA GPU.",
-    "unlocked_icon_url": "achievements_images/AMD_NVIDIA.jpg",
-    "locked_icon_url": "achievements_images/AMD_NVIDIA_locked.jpg",
+    "unlocked_icon_url": "AMD_NVIDIA",
+    "locked_icon_url": "AMD_NVIDIA_locked",
     "is_hidden": false
   },
-  "BRICK": {
+  {
     "achievement_id": "BRICK",
     "unlocked_display_name": "Overvolted",
     "unlocked_description": "Break your CPU.",
@@ -34,11 +34,11 @@
     "hidden_description": "Break your CPU.",
     "flavor_text": "",
     "completion_description": "Break your CPU.",
-    "unlocked_icon_url": "achievements_images/BRICK.jpg",
-    "locked_icon_url": "achievements_images/BRICK_locked.jpg",
+    "unlocked_icon_url": "BRICK",
+    "locked_icon_url": "BRICK_locked",
     "is_hidden": false
   },
-  "BROKE": {
+  {
     "achievement_id": "BROKE",
     "unlocked_display_name": "I'm broke, Uncle!",
     "unlocked_description": "Get into $3000 of debt.",
@@ -47,11 +47,11 @@
     "hidden_description": "Get into $3000 of debt.",
     "flavor_text": "",
     "completion_description": "Get into $3000 of debt.",
-    "unlocked_icon_url": "achievements_images/BROKE.jpg",
-    "locked_icon_url": "achievements_images/BROKE_locked.jpg",
+    "unlocked_icon_url": "BROKE",
+    "locked_icon_url": "BROKE_locked",
     "is_hidden": false
   },
-  "BSOD": {
+  {
     "achievement_id": "BSOD",
     "unlocked_display_name": "If you fail the first time...",
     "unlocked_description": "BSOD a computer 10 times from overclocking.",
@@ -60,11 +60,11 @@
     "hidden_description": "BSOD a computer 10 times from overclocking.",
     "flavor_text": "",
     "completion_description": "BSOD a computer 10 times from overclocking.",
-    "unlocked_icon_url": "achievements_images/BSOD.jpg",
-    "locked_icon_url": "achievements_images/BSOD_locked.jpg",
+    "unlocked_icon_url": "BSOD",
+    "locked_icon_url": "BSOD_locked",
     "is_hidden": false
   },
-  "BUILD_1": {
+  {
     "achievement_id": "BUILD_1",
     "unlocked_display_name": "Double trouble",
     "unlocked_description": "Buy the second workbench.",
@@ -73,11 +73,11 @@
     "hidden_description": "Buy the second workbench.",
     "flavor_text": "",
     "completion_description": "Buy the second workbench.",
-    "unlocked_icon_url": "achievements_images/BUILD_1.jpg",
-    "locked_icon_url": "achievements_images/BUILD_1_locked.jpg",
+    "unlocked_icon_url": "BUILD_1",
+    "locked_icon_url": "BUILD_1_locked",
     "is_hidden": false
   },
-  "BUILD_2": {
+  {
     "achievement_id": "BUILD_2",
     "unlocked_display_name": "Triple threat",
     "unlocked_description": "Buy the third workbench.",
@@ -86,11 +86,11 @@
     "hidden_description": "Buy the third workbench.",
     "flavor_text": "",
     "completion_description": "Buy the third workbench.",
-    "unlocked_icon_url": "achievements_images/BUILD_2.jpg",
-    "locked_icon_url": "achievements_images/BUILD_2_locked.jpg",
+    "unlocked_icon_url": "BUILD_2",
+    "locked_icon_url": "BUILD_2_locked",
     "is_hidden": false
   },
-  "BUILD_3": {
+  {
     "achievement_id": "BUILD_3",
     "unlocked_display_name": "Keeping things neat",
     "unlocked_description": "Buy the storage cupboard.",
@@ -99,11 +99,11 @@
     "hidden_description": "Buy the storage cupboard.",
     "flavor_text": "",
     "completion_description": "Buy the storage cupboard.",
-    "unlocked_icon_url": "achievements_images/BUILD_3.jpg",
-    "locked_icon_url": "achievements_images/BUILD_3_locked.jpg",
+    "unlocked_icon_url": "BUILD_3",
+    "locked_icon_url": "BUILD_3_locked",
     "is_hidden": false
   },
-  "CASH_1": {
+  {
     "achievement_id": "CASH_1",
     "unlocked_display_name": "Back in the black",
     "unlocked_description": "$1,000 in the bank.",
@@ -112,11 +112,11 @@
     "hidden_description": "$1,000 in the bank.",
     "flavor_text": "",
     "completion_description": "$1,000 in the bank.",
-    "unlocked_icon_url": "achievements_images/CASH_1.jpg",
-    "locked_icon_url": "achievements_images/CASH_1_locked.jpg",
+    "unlocked_icon_url": "CASH_1",
+    "locked_icon_url": "CASH_1_locked",
     "is_hidden": false
   },
-  "CASH_2": {
+  {
     "achievement_id": "CASH_2",
     "unlocked_display_name": "Seems you're pretty good at this",
     "unlocked_description": "$10,000 in the bank.",
@@ -125,11 +125,11 @@
     "hidden_description": "$10,000 in the bank.",
     "flavor_text": "",
     "completion_description": "$10,000 in the bank.",
-    "unlocked_icon_url": "achievements_images/CASH_2.jpg",
-    "locked_icon_url": "achievements_images/CASH_2_locked.jpg",
+    "unlocked_icon_url": "CASH_2",
+    "locked_icon_url": "CASH_2_locked",
     "is_hidden": false
   },
-  "CASH_3": {
+  {
     "achievement_id": "CASH_3",
     "unlocked_display_name": "You rock at this!",
     "unlocked_description": "$100,000 in the bank.",
@@ -138,11 +138,11 @@
     "hidden_description": "$100,000 in the bank.",
     "flavor_text": "",
     "completion_description": "$100,000 in the bank.",
-    "unlocked_icon_url": "achievements_images/CASH_3.jpg",
-    "locked_icon_url": "achievements_images/CASH_3_locked.jpg",
+    "unlocked_icon_url": "CASH_3",
+    "locked_icon_url": "CASH_3_locked",
     "is_hidden": false
   },
-  "CASH_4": {
+  {
     "achievement_id": "CASH_4",
     "unlocked_display_name": "Maybe you should try something else?",
     "unlocked_description": "$1,000,000 in the bank.",
@@ -151,11 +151,11 @@
     "hidden_description": "$1,000,000 in the bank.",
     "flavor_text": "",
     "completion_description": "$1,000,000 in the bank.",
-    "unlocked_icon_url": "achievements_images/CASH_4.jpg",
-    "locked_icon_url": "achievements_images/CASH_4_locked.jpg",
+    "unlocked_icon_url": "CASH_4",
+    "locked_icon_url": "CASH_4_locked",
     "is_hidden": false
   },
-  "COMPLETE_SIDE_CEO": {
+  {
     "achievement_id": "COMPLETE_SIDE_CEO",
     "unlocked_display_name": "Esports DLC: Friends in High Places",
     "unlocked_description": "Complete a side-job for the CEO",
@@ -164,11 +164,11 @@
     "hidden_description": "Complete a side-job for the CEO",
     "flavor_text": "",
     "completion_description": "Complete a side-job for the CEO",
-    "unlocked_icon_url": "achievements_images/COMPLETE_SIDE_CEO.jpg",
-    "locked_icon_url": "achievements_images/COMPLETE_SIDE_CEO_locked.jpg",
+    "unlocked_icon_url": "COMPLETE_SIDE_CEO",
+    "locked_icon_url": "COMPLETE_SIDE_CEO_locked",
     "is_hidden": true
   },
-  "CRYSIS": {
+  {
     "achievement_id": "CRYSIS",
     "unlocked_display_name": "But can it run Crysis?",
     "unlocked_description": "Build a PC with parts costing more than $10k and have it boot to desktop.",
@@ -177,11 +177,11 @@
     "hidden_description": "Build a PC with parts costing more than $10k and have it boot to desktop.",
     "flavor_text": "",
     "completion_description": "Build a PC with parts costing more than $10k and have it boot to desktop.",
-    "unlocked_icon_url": "achievements_images/CRYSIS.jpg",
-    "locked_icon_url": "achievements_images/CRYSIS_locked.jpg",
+    "unlocked_icon_url": "CRYSIS",
+    "locked_icon_url": "CRYSIS_locked",
     "is_hidden": false
   },
-  "DATE": {
+  {
     "achievement_id": "DATE",
     "unlocked_display_name": "Hasta La Vista, Baby.",
     "unlocked_description": "Get to the year 2029.",
@@ -190,11 +190,11 @@
     "hidden_description": "Get to the year 2029.",
     "flavor_text": "",
     "completion_description": "Get to the year 2029.",
-    "unlocked_icon_url": "achievements_images/DATE.jpg",
-    "locked_icon_url": "achievements_images/DATE_locked.jpg",
+    "unlocked_icon_url": "DATE",
+    "locked_icon_url": "DATE_locked",
     "is_hidden": true
   },
-  "DELIVERY": {
+  {
     "achievement_id": "DELIVERY",
     "unlocked_display_name": "Amazonian",
     "unlocked_description": "Get more than 50 items in a single delivery.",
@@ -203,11 +203,11 @@
     "hidden_description": "Get more than 50 items in a single delivery.",
     "flavor_text": "",
     "completion_description": "Get more than 50 items in a single delivery.",
-    "unlocked_icon_url": "achievements_images/DELIVERY.jpg",
-    "locked_icon_url": "achievements_images/DELIVERY_locked.jpg",
+    "unlocked_icon_url": "DELIVERY",
+    "locked_icon_url": "DELIVERY_locked",
     "is_hidden": true
   },
-  "EVERY_TEAM": {
+  {
     "achievement_id": "EVERY_TEAM",
     "unlocked_display_name": "Esports DLC: Team Player",
     "unlocked_description": "Work for every available company",
@@ -216,11 +216,11 @@
     "hidden_description": "Work for every available company",
     "flavor_text": "",
     "completion_description": "Work for every available company",
-    "unlocked_icon_url": "achievements_images/EVERY_TEAM.jpg",
-    "locked_icon_url": "achievements_images/EVERY_TEAM_locked.jpg",
+    "unlocked_icon_url": "EVERY_TEAM",
+    "locked_icon_url": "EVERY_TEAM_locked",
     "is_hidden": false
   },
-  "GIFT_1": {
+  {
     "achievement_id": "GIFT_1",
     "unlocked_display_name": "Esports DLC: Remember Me",
     "unlocked_description": "Get your first gift from a player",
@@ -229,11 +229,11 @@
     "hidden_description": "Get your first gift from a player",
     "flavor_text": "",
     "completion_description": "Get your first gift from a player",
-    "unlocked_icon_url": "achievements_images/GIFT_1.jpg",
-    "locked_icon_url": "achievements_images/GIFT_1_locked.jpg",
+    "unlocked_icon_url": "GIFT_1",
+    "locked_icon_url": "GIFT_1_locked",
     "is_hidden": false
   },
-  "GIFT_10": {
+  {
     "achievement_id": "GIFT_10",
     "unlocked_display_name": "Esports DLC: Modest Collection",
     "unlocked_description": "Get 10 gifts from players",
@@ -242,11 +242,11 @@
     "hidden_description": "Get 10 gifts from players",
     "flavor_text": "",
     "completion_description": "Get 10 gifts from players",
-    "unlocked_icon_url": "achievements_images/GIFT_10.jpg",
-    "locked_icon_url": "achievements_images/GIFT_10_locked.jpg",
+    "unlocked_icon_url": "GIFT_10",
+    "locked_icon_url": "GIFT_10_locked",
     "is_hidden": false
   },
-  "GIFT_15": {
+  {
     "achievement_id": "GIFT_15",
     "unlocked_display_name": "Esports DLC: Serious Collector",
     "unlocked_description": "Get 15 gifts from players",
@@ -255,11 +255,11 @@
     "hidden_description": "Get 15 gifts from players",
     "flavor_text": "",
     "completion_description": "Get 15 gifts from players",
-    "unlocked_icon_url": "achievements_images/GIFT_15.jpg",
-    "locked_icon_url": "achievements_images/GIFT_15_locked.jpg",
+    "unlocked_icon_url": "GIFT_15",
+    "locked_icon_url": "GIFT_15_locked",
     "is_hidden": false
   },
-  "GIFT_ALL": {
+  {
     "achievement_id": "GIFT_ALL",
     "unlocked_display_name": "Esports DLC: The Complete Set",
     "unlocked_description": "Get all 26 gifts from the players",
@@ -268,11 +268,11 @@
     "hidden_description": "Get all 26 gifts from the players",
     "flavor_text": "",
     "completion_description": "Get all 26 gifts from the players",
-    "unlocked_icon_url": "achievements_images/GIFT_ALL.jpg",
-    "locked_icon_url": "achievements_images/GIFT_ALL_locked.jpg",
+    "unlocked_icon_url": "GIFT_ALL",
+    "locked_icon_url": "GIFT_ALL_locked",
     "is_hidden": false
   },
-  "GIFT_ALL_SIGNED": {
+  {
     "achievement_id": "GIFT_ALL_SIGNED",
     "unlocked_display_name": "Esports DLC: Collector's Item",
     "unlocked_description": "Receive a signed gift",
@@ -281,11 +281,11 @@
     "hidden_description": "Receive a signed gift",
     "flavor_text": "",
     "completion_description": "Receive a signed gift",
-    "unlocked_icon_url": "achievements_images/GIFT_ALL_SIGNED.jpg",
-    "locked_icon_url": "achievements_images/GIFT_ALL_SIGNED_locked.jpg",
+    "unlocked_icon_url": "GIFT_ALL_SIGNED",
+    "locked_icon_url": "GIFT_ALL_SIGNED_locked",
     "is_hidden": true
   },
-  "GPUS": {
+  {
     "achievement_id": "GPUS",
     "unlocked_display_name": "So you're the reason why the prices are so high?",
     "unlocked_description": "Have 100 GPUs in your inventory.",
@@ -294,11 +294,11 @@
     "hidden_description": "Have 100 GPUs in your inventory.",
     "flavor_text": "",
     "completion_description": "Have 100 GPUs in your inventory.",
-    "unlocked_icon_url": "achievements_images/GPUS.jpg",
-    "locked_icon_url": "achievements_images/GPUS_locked.jpg",
+    "unlocked_icon_url": "GPUS",
+    "locked_icon_url": "GPUS_locked",
     "is_hidden": false
   },
-  "HAPPY_TEAMMATE": {
+  {
     "achievement_id": "HAPPY_TEAMMATE",
     "unlocked_display_name": "Esports DLC: Playing Favourites",
     "unlocked_description": "Receive 20 Likes from a single player",
@@ -307,11 +307,11 @@
     "hidden_description": "Receive 20 Likes from a single player",
     "flavor_text": "",
     "completion_description": "Receive 20 Likes from a single player",
-    "unlocked_icon_url": "achievements_images/HAPPY_TEAMMATE.jpg",
-    "locked_icon_url": "achievements_images/HAPPY_TEAMMATE_locked.jpg",
+    "unlocked_icon_url": "HAPPY_TEAMMATE",
+    "locked_icon_url": "HAPPY_TEAMMATE_locked",
     "is_hidden": false
   },
-  "HBPC": {
+  {
     "achievement_id": "HBPC",
     "unlocked_display_name": "Get your wings",
     "unlocked_description": "Complete How To Build A PC mode",
@@ -320,11 +320,11 @@
     "hidden_description": "Complete How To Build A PC mode",
     "flavor_text": "",
     "completion_description": "Complete How To Build A PC mode",
-    "unlocked_icon_url": "achievements_images/HBPC.jpg",
-    "locked_icon_url": "achievements_images/HBPC_locked.jpg",
+    "unlocked_icon_url": "HBPC",
+    "locked_icon_url": "HBPC_locked",
     "is_hidden": false
   },
-  "HBPC_TIME": {
+  {
     "achievement_id": "HBPC_TIME",
     "unlocked_display_name": "Wow to build a PC!",
     "unlocked_description": "Get through HBPC mode in less than 150 seconds.",
@@ -333,11 +333,11 @@
     "hidden_description": "Get through HBPC mode in less than 150 seconds.",
     "flavor_text": "",
     "completion_description": "Get through HBPC mode in less than 150 seconds.",
-    "unlocked_icon_url": "achievements_images/HBPC_TIME.jpg",
-    "locked_icon_url": "achievements_images/HBPC_TIME_locked.jpg",
+    "unlocked_icon_url": "HBPC_TIME",
+    "locked_icon_url": "HBPC_TIME_locked",
     "is_hidden": true
   },
-  "HOARDER": {
+  {
     "achievement_id": "HOARDER",
     "unlocked_display_name": "Hoarder",
     "unlocked_description": "Have every possible part in your inventory.",
@@ -346,11 +346,11 @@
     "hidden_description": "Have every possible part in your inventory.",
     "flavor_text": "",
     "completion_description": "Have every possible part in your inventory.",
-    "unlocked_icon_url": "achievements_images/HOARDER.jpg",
-    "locked_icon_url": "achievements_images/HOARDER_locked.jpg",
+    "unlocked_icon_url": "HOARDER",
+    "locked_icon_url": "HOARDER_locked",
     "is_hidden": false
   },
-  "INVENTORY": {
+  {
     "achievement_id": "INVENTORY",
     "unlocked_display_name": "Sitting on a fortune",
     "unlocked_description": "Have inventory worth $200,000 in career mode.",
@@ -359,11 +359,11 @@
     "hidden_description": "Have inventory worth $200,000 in career mode.",
     "flavor_text": "",
     "completion_description": "Have inventory worth $200,000 in career mode.",
-    "unlocked_icon_url": "achievements_images/INVENTORY.jpg",
-    "locked_icon_url": "achievements_images/INVENTORY_locked.jpg",
+    "unlocked_icon_url": "INVENTORY",
+    "locked_icon_url": "INVENTORY_locked",
     "is_hidden": true
   },
-  "JOBS_1": {
+  {
     "achievement_id": "JOBS_1",
     "unlocked_display_name": "That's what I'm talking about",
     "unlocked_description": "Complete 10 jobs in a single playthrough.",
@@ -372,11 +372,11 @@
     "hidden_description": "Complete 10 jobs in a single playthrough.",
     "flavor_text": "",
     "completion_description": "Complete 10 jobs in a single playthrough.",
-    "unlocked_icon_url": "achievements_images/JOBS_1.jpg",
-    "locked_icon_url": "achievements_images/JOBS_1_locked.jpg",
+    "unlocked_icon_url": "JOBS_1",
+    "locked_icon_url": "JOBS_1_locked",
     "is_hidden": false
   },
-  "JOBS_2": {
+  {
     "achievement_id": "JOBS_2",
     "unlocked_display_name": "Smashing it",
     "unlocked_description": "Complete 30 jobs in a single playthrough.",
@@ -385,11 +385,11 @@
     "hidden_description": "Complete 30 jobs in a single playthrough.",
     "flavor_text": "",
     "completion_description": "Complete 30 jobs in a single playthrough.",
-    "unlocked_icon_url": "achievements_images/JOBS_2.jpg",
-    "locked_icon_url": "achievements_images/JOBS_2_locked.jpg",
+    "unlocked_icon_url": "JOBS_2",
+    "locked_icon_url": "JOBS_2_locked",
     "is_hidden": false
   },
-  "JOBS_3": {
+  {
     "achievement_id": "JOBS_3",
     "unlocked_display_name": "Taking care of business",
     "unlocked_description": "Complete 100 jobs in a single playthrough.",
@@ -398,11 +398,11 @@
     "hidden_description": "Complete 100 jobs in a single playthrough.",
     "flavor_text": "",
     "completion_description": "Complete 100 jobs in a single playthrough.",
-    "unlocked_icon_url": "achievements_images/JOBS_3.jpg",
-    "locked_icon_url": "achievements_images/JOBS_3_locked.jpg",
+    "unlocked_icon_url": "JOBS_3",
+    "locked_icon_url": "JOBS_3_locked",
     "is_hidden": false
   },
-  "JOBS_4": {
+  {
     "achievement_id": "JOBS_4",
     "unlocked_display_name": "Work ethic 101",
     "unlocked_description": "Complete 200 jobs in a single playthrough.",
@@ -411,11 +411,11 @@
     "hidden_description": "Complete 200 jobs in a single playthrough.",
     "flavor_text": "",
     "completion_description": "Complete 200 jobs in a single playthrough.",
-    "unlocked_icon_url": "achievements_images/JOBS_4.jpg",
-    "locked_icon_url": "achievements_images/JOBS_4_locked.jpg",
+    "unlocked_icon_url": "JOBS_4",
+    "locked_icon_url": "JOBS_4_locked",
     "is_hidden": false
   },
-  "JOBS_5": {
+  {
     "achievement_id": "JOBS_5",
     "unlocked_display_name": "Wow, you really like PCs",
     "unlocked_description": "Complete 500 jobs in a single playthrough.",
@@ -424,11 +424,11 @@
     "hidden_description": "Complete 500 jobs in a single playthrough.",
     "flavor_text": "",
     "completion_description": "Complete 500 jobs in a single playthrough.",
-    "unlocked_icon_url": "achievements_images/JOBS_5.jpg",
-    "locked_icon_url": "achievements_images/JOBS_5_locked.jpg",
+    "unlocked_icon_url": "JOBS_5",
+    "locked_icon_url": "JOBS_5_locked",
     "is_hidden": false
   },
-  "LEVEL_1": {
+  {
     "achievement_id": "LEVEL_1",
     "unlocked_display_name": "From humble beginnings...",
     "unlocked_description": "Get to level 6.",
@@ -437,11 +437,11 @@
     "hidden_description": "Get to level 6.",
     "flavor_text": "",
     "completion_description": "Get to level 6.",
-    "unlocked_icon_url": "achievements_images/LEVEL_1.jpg",
-    "locked_icon_url": "achievements_images/LEVEL_1_locked.jpg",
+    "unlocked_icon_url": "LEVEL_1",
+    "locked_icon_url": "LEVEL_1_locked",
     "is_hidden": false
   },
-  "LEVEL_2": {
+  {
     "achievement_id": "LEVEL_2",
     "unlocked_display_name": "Things are under control",
     "unlocked_description": "Get to level 12.",
@@ -450,11 +450,11 @@
     "hidden_description": "Get to level 12.",
     "flavor_text": "",
     "completion_description": "Get to level 12.",
-    "unlocked_icon_url": "achievements_images/LEVEL_2.jpg",
-    "locked_icon_url": "achievements_images/LEVEL_2_locked.jpg",
+    "unlocked_icon_url": "LEVEL_2",
+    "locked_icon_url": "LEVEL_2_locked",
     "is_hidden": false
   },
-  "LEVEL_3": {
+  {
     "achievement_id": "LEVEL_3",
     "unlocked_display_name": "Building momentum",
     "unlocked_description": "Get to level 18.",
@@ -463,11 +463,11 @@
     "hidden_description": "Get to level 18.",
     "flavor_text": "",
     "completion_description": "Get to level 18.",
-    "unlocked_icon_url": "achievements_images/LEVEL_3.jpg",
-    "locked_icon_url": "achievements_images/LEVEL_3_locked.jpg",
+    "unlocked_icon_url": "LEVEL_3",
+    "locked_icon_url": "LEVEL_3_locked",
     "is_hidden": false
   },
-  "LEVEL_4": {
+  {
     "achievement_id": "LEVEL_4",
     "unlocked_display_name": "Mr big business",
     "unlocked_description": "Get to level 24.",
@@ -476,11 +476,11 @@
     "hidden_description": "Get to level 24.",
     "flavor_text": "",
     "completion_description": "Get to level 24.",
-    "unlocked_icon_url": "achievements_images/LEVEL_4.jpg",
-    "locked_icon_url": "achievements_images/LEVEL_4_locked.jpg",
+    "unlocked_icon_url": "LEVEL_4",
+    "locked_icon_url": "LEVEL_4_locked",
     "is_hidden": false
   },
-  "LEVEL_5": {
+  {
     "achievement_id": "LEVEL_5",
     "unlocked_display_name": "Mister Big",
     "unlocked_description": "Get to level 30.",
@@ -489,11 +489,11 @@
     "hidden_description": "Get to level 30.",
     "flavor_text": "",
     "completion_description": "Get to level 30.",
-    "unlocked_icon_url": "achievements_images/LEVEL_5.jpg",
-    "locked_icon_url": "achievements_images/LEVEL_5_locked.jpg",
+    "unlocked_icon_url": "LEVEL_5",
+    "locked_icon_url": "LEVEL_5_locked",
     "is_hidden": false
   },
-  "LOST_MATCH": {
+  {
     "achievement_id": "LOST_MATCH",
     "unlocked_display_name": "Esports DLC: System Failure",
     "unlocked_description": "Lose a match",
@@ -502,11 +502,11 @@
     "hidden_description": "Lose a match",
     "flavor_text": "",
     "completion_description": "Lose a match",
-    "unlocked_icon_url": "achievements_images/LOST_MATCH.jpg",
-    "locked_icon_url": "achievements_images/LOST_MATCH_locked.jpg",
+    "unlocked_icon_url": "LOST_MATCH",
+    "locked_icon_url": "LOST_MATCH_locked",
     "is_hidden": true
   },
-  "MONITOR": {
+  {
     "achievement_id": "MONITOR",
     "unlocked_display_name": "You need to plug it in...",
     "unlocked_description": "Try to use the monitor without plugging in the PC.",
@@ -515,11 +515,11 @@
     "hidden_description": "Try to use the monitor without plugging in the PC.",
     "flavor_text": "",
     "completion_description": "Try to use the monitor without plugging in the PC.",
-    "unlocked_icon_url": "achievements_images/MONITOR.jpg",
-    "locked_icon_url": "achievements_images/MONITOR_locked.jpg",
+    "unlocked_icon_url": "MONITOR",
+    "locked_icon_url": "MONITOR_locked",
     "is_hidden": true
   },
-  "NO_CHEAT_COMPLETE": {
+  {
     "achievement_id": "NO_CHEAT_COMPLETE",
     "unlocked_display_name": "Esports DLC: Purist's Playthrough",
     "unlocked_description": "Complete the game without ticking any of the Difficulty Settings.",
@@ -528,11 +528,11 @@
     "hidden_description": "Complete the game without ticking any of the Difficulty Settings.",
     "flavor_text": "",
     "completion_description": "Complete the game without ticking any of the Difficulty Settings.",
-    "unlocked_icon_url": "achievements_images/NO_CHEAT_COMPLETE.jpg",
-    "locked_icon_url": "achievements_images/NO_CHEAT_COMPLETE_locked.jpg",
+    "unlocked_icon_url": "NO_CHEAT_COMPLETE",
+    "locked_icon_url": "NO_CHEAT_COMPLETE_locked",
     "is_hidden": true
   },
-  "NO_PASTE": {
+  {
     "achievement_id": "NO_PASTE",
     "unlocked_display_name": "Easy to forget",
     "unlocked_description": "Forget to apply thermal paste to the CPU.",
@@ -541,11 +541,11 @@
     "hidden_description": "Forget to apply thermal paste to the CPU.",
     "flavor_text": "",
     "completion_description": "Forget to apply thermal paste to the CPU.",
-    "unlocked_icon_url": "achievements_images/NO_PASTE.jpg",
-    "locked_icon_url": "achievements_images/NO_PASTE_locked.jpg",
+    "unlocked_icon_url": "NO_PASTE",
+    "locked_icon_url": "NO_PASTE_locked",
     "is_hidden": false
   },
-  "OPC_BM_1": {
+  {
     "achievement_id": "OPC_BM_1",
     "unlocked_display_name": "Show off",
     "unlocked_description": "Get a score of 5000 on your office PC.",
@@ -554,11 +554,11 @@
     "hidden_description": "Get a score of 5000 on your office PC.",
     "flavor_text": "",
     "completion_description": "Get a score of 5000 on your office PC.",
-    "unlocked_icon_url": "achievements_images/OPC_BM_1.jpg",
-    "locked_icon_url": "achievements_images/OPC_BM_1_locked.jpg",
+    "unlocked_icon_url": "OPC_BM_1",
+    "locked_icon_url": "OPC_BM_1_locked",
     "is_hidden": false
   },
-  "OPC_BM_2": {
+  {
     "achievement_id": "OPC_BM_2",
     "unlocked_display_name": "Lead by example",
     "unlocked_description": "Get a score of 10000 on your office PC.",
@@ -567,11 +567,11 @@
     "hidden_description": "Get a score of 10000 on your office PC.",
     "flavor_text": "",
     "completion_description": "Get a score of 10000 on your office PC.",
-    "unlocked_icon_url": "achievements_images/OPC_BM_2.jpg",
-    "locked_icon_url": "achievements_images/OPC_BM_2_locked.jpg",
+    "unlocked_icon_url": "OPC_BM_2",
+    "locked_icon_url": "OPC_BM_2_locked",
     "is_hidden": false
   },
-  "OPC_BM_3": {
+  {
     "achievement_id": "OPC_BM_3",
     "unlocked_display_name": "Blow 'em away",
     "unlocked_description": "Get a score of 20000 on your office PC.",
@@ -580,11 +580,11 @@
     "hidden_description": "Get a score of 20000 on your office PC.",
     "flavor_text": "",
     "completion_description": "Get a score of 20000 on your office PC.",
-    "unlocked_icon_url": "achievements_images/OPC_BM_3.jpg",
-    "locked_icon_url": "achievements_images/OPC_BM_3_locked.jpg",
+    "unlocked_icon_url": "OPC_BM_3",
+    "locked_icon_url": "OPC_BM_3_locked",
     "is_hidden": false
   },
-  "OPC_LIGHTS": {
+  {
     "achievement_id": "OPC_LIGHTS",
     "unlocked_display_name": "Stars in your eyes (maybe try squinting)",
     "unlocked_description": "Add loads of lighting to your office PC.",
@@ -593,11 +593,11 @@
     "hidden_description": "Add loads of lighting to your office PC.",
     "flavor_text": "",
     "completion_description": "Add loads of lighting to your office PC.",
-    "unlocked_icon_url": "achievements_images/OPC_LIGHTS.jpg",
-    "locked_icon_url": "achievements_images/OPC_LIGHTS_locked.jpg",
+    "unlocked_icon_url": "OPC_LIGHTS",
+    "locked_icon_url": "OPC_LIGHTS_locked",
     "is_hidden": false
   },
-  "OPC_PURPLE": {
+  {
     "achievement_id": "OPC_PURPLE",
     "unlocked_display_name": "The Stuart Morton Award for Purpleness",
     "unlocked_description": "Make your office PC as purple as possible.",
@@ -606,11 +606,11 @@
     "hidden_description": "Make your office PC as purple as possible.",
     "flavor_text": "",
     "completion_description": "Make your office PC as purple as possible.",
-    "unlocked_icon_url": "achievements_images/OPC_PURPLE.jpg",
-    "locked_icon_url": "achievements_images/OPC_PURPLE_locked.jpg",
+    "unlocked_icon_url": "OPC_PURPLE",
+    "locked_icon_url": "OPC_PURPLE_locked",
     "is_hidden": false
   },
-  "OPC_WC": {
+  {
     "achievement_id": "OPC_WC",
     "unlocked_display_name": "Getting your feet wet",
     "unlocked_description": "Custom water cool your office PC.",
@@ -619,11 +619,11 @@
     "hidden_description": "Custom water cool your office PC.",
     "flavor_text": "",
     "completion_description": "Custom water cool your office PC.",
-    "unlocked_icon_url": "achievements_images/OPC_WC.jpg",
-    "locked_icon_url": "achievements_images/OPC_WC_locked.jpg",
+    "unlocked_icon_url": "OPC_WC",
+    "locked_icon_url": "OPC_WC_locked",
     "is_hidden": false
   },
-  "PERFECTION": {
+  {
     "achievement_id": "PERFECTION",
     "unlocked_display_name": "Perfection",
     "unlocked_description": "Get exactly the requested 3DMark score.",
@@ -632,11 +632,11 @@
     "hidden_description": "Get exactly the requested 3DMark score.",
     "flavor_text": "",
     "completion_description": "Get exactly the requested 3DMark score.",
-    "unlocked_icon_url": "achievements_images/PERFECTION.jpg",
-    "locked_icon_url": "achievements_images/PERFECTION_locked.jpg",
+    "unlocked_icon_url": "PERFECTION",
+    "locked_icon_url": "PERFECTION_locked",
     "is_hidden": false
   },
-  "PLAY_INET": {
+  {
     "achievement_id": "PLAY_INET",
     "unlocked_display_name": "My favourite feature...",
     "unlocked_description": "Play some internet radio in the music player.",
@@ -645,11 +645,11 @@
     "hidden_description": "Play some internet radio in the music player.",
     "flavor_text": "",
     "completion_description": "Play some internet radio in the music player.",
-    "unlocked_icon_url": "achievements_images/PLAY_INET.jpg",
-    "locked_icon_url": "achievements_images/PLAY_INET_locked.jpg",
+    "unlocked_icon_url": "PLAY_INET",
+    "locked_icon_url": "PLAY_INET_locked",
     "is_hidden": false
   },
-  "PLAY_MUSIC": {
+  {
     "achievement_id": "PLAY_MUSIC",
     "unlocked_display_name": "Your music sucks",
     "unlocked_description": "Play some of your own music in the music player.",
@@ -658,11 +658,11 @@
     "hidden_description": "Play some of your own music in the music player.",
     "flavor_text": "",
     "completion_description": "Play some of your own music in the music player.",
-    "unlocked_icon_url": "achievements_images/PLAY_MUSIC.jpg",
-    "locked_icon_url": "achievements_images/PLAY_MUSIC_locked.jpg",
+    "unlocked_icon_url": "PLAY_MUSIC",
+    "locked_icon_url": "PLAY_MUSIC_locked",
     "is_hidden": false
   },
-  "RADS": {
+  {
     "achievement_id": "RADS",
     "unlocked_display_name": "Going loopy",
     "unlocked_description": "Create a water cooling loop with 5 or more radiators.",
@@ -671,11 +671,11 @@
     "hidden_description": "Create a water cooling loop with 5 or more radiators.",
     "flavor_text": "",
     "completion_description": "Create a water cooling loop with 5 or more radiators.",
-    "unlocked_icon_url": "achievements_images/RADS.jpg",
-    "locked_icon_url": "achievements_images/RADS_locked.jpg",
+    "unlocked_icon_url": "RADS",
+    "locked_icon_url": "RADS_locked",
     "is_hidden": false
   },
-  "REPAY": {
+  {
     "achievement_id": "REPAY",
     "unlocked_display_name": "Building isn't cheap!",
     "unlocked_description": "Get out of a $2500 debt.",
@@ -684,11 +684,11 @@
     "hidden_description": "Get out of a $2500 debt.",
     "flavor_text": "",
     "completion_description": "Get out of a $2500 debt.",
-    "unlocked_icon_url": "achievements_images/REPAY.jpg",
-    "locked_icon_url": "achievements_images/REPAY_locked.jpg",
+    "unlocked_icon_url": "REPAY",
+    "locked_icon_url": "REPAY_locked",
     "is_hidden": false
   },
-  "SEND_EMOJIS": {
+  {
     "achievement_id": "SEND_EMOJIS",
     "unlocked_display_name": "Esports DLC: Emoji Whizz",
     "unlocked_description": "Send 100 emoji",
@@ -697,11 +697,11 @@
     "hidden_description": "Send 100 emoji",
     "flavor_text": "",
     "completion_description": "Send 100 emoji",
-    "unlocked_icon_url": "achievements_images/SEND_EMOJIS.jpg",
-    "locked_icon_url": "achievements_images/SEND_EMOJIS_locked.jpg",
+    "unlocked_icon_url": "SEND_EMOJIS",
+    "locked_icon_url": "SEND_EMOJIS_locked",
     "is_hidden": true
   },
-  "SHARES_1": {
+  {
     "achievement_id": "SHARES_1",
     "unlocked_display_name": "Majority Shareholder",
     "unlocked_description": "Buy 51% of the company stock from Uncle Tim.",
@@ -710,11 +710,11 @@
     "hidden_description": "Buy 51% of the company stock from Uncle Tim.",
     "flavor_text": "",
     "completion_description": "Buy 51% of the company stock from Uncle Tim.",
-    "unlocked_icon_url": "achievements_images/SHARES_1.jpg",
-    "locked_icon_url": "achievements_images/SHARES_1_locked.jpg",
+    "unlocked_icon_url": "SHARES_1",
+    "locked_icon_url": "SHARES_1_locked",
     "is_hidden": false
   },
-  "SHARES_2": {
+  {
     "achievement_id": "SHARES_2",
     "unlocked_display_name": "Owner",
     "unlocked_description": "Buy all of the company stock from Uncle Tim.",
@@ -723,11 +723,11 @@
     "hidden_description": "Buy all of the company stock from Uncle Tim.",
     "flavor_text": "",
     "completion_description": "Buy all of the company stock from Uncle Tim.",
-    "unlocked_icon_url": "achievements_images/SHARES_2.jpg",
-    "locked_icon_url": "achievements_images/SHARES_2_locked.jpg",
+    "unlocked_icon_url": "SHARES_2",
+    "locked_icon_url": "SHARES_2_locked",
     "is_hidden": false
   },
-  "SICK": {
+  {
     "achievement_id": "SICK",
     "unlocked_display_name": "Calling in Sick",
     "unlocked_description": "Skip work 7 days in a row.",
@@ -736,11 +736,11 @@
     "hidden_description": "Skip work 7 days in a row.",
     "flavor_text": "",
     "completion_description": "Skip work 7 days in a row.",
-    "unlocked_icon_url": "achievements_images/SICK.jpg",
-    "locked_icon_url": "achievements_images/SICK_locked.jpg",
+    "unlocked_icon_url": "SICK",
+    "locked_icon_url": "SICK_locked",
     "is_hidden": false
   },
-  "SPEEDY_DISASTER": {
+  {
     "achievement_id": "SPEEDY_DISASTER",
     "unlocked_display_name": "Esports DLC: Clean Sweep",
     "unlocked_description": "Deal with a disaster in the Arena in 120 seconds or less",
@@ -749,11 +749,11 @@
     "hidden_description": "Deal with a disaster in the Arena in 120 seconds or less",
     "flavor_text": "",
     "completion_description": "Deal with a disaster in the Arena in 120 seconds or less",
-    "unlocked_icon_url": "achievements_images/SPEEDY_DISASTER.jpg",
-    "locked_icon_url": "achievements_images/SPEEDY_DISASTER_locked.jpg",
+    "unlocked_icon_url": "SPEEDY_DISASTER",
+    "locked_icon_url": "SPEEDY_DISASTER_locked",
     "is_hidden": false
   },
-  "SPEEDY_SETUP": {
+  {
     "achievement_id": "SPEEDY_SETUP",
     "unlocked_display_name": "Esports DLC: Setup Wizard",
     "unlocked_description": "Set up your whole team in the Arena in 120 seconds or less",
@@ -762,11 +762,11 @@
     "hidden_description": "Set up your whole team in the Arena in 120 seconds or less",
     "flavor_text": "",
     "completion_description": "Set up your whole team in the Arena in 120 seconds or less",
-    "unlocked_icon_url": "achievements_images/SPEEDY_SETUP.jpg",
-    "locked_icon_url": "achievements_images/SPEEDY_SETUP_locked.jpg",
+    "unlocked_icon_url": "SPEEDY_SETUP",
+    "locked_icon_url": "SPEEDY_SETUP_locked",
     "is_hidden": false
   },
-  "STARS_1": {
+  {
     "achievement_id": "STARS_1",
     "unlocked_display_name": "Customer satisfaction",
     "unlocked_description": "Get a 4 star rating.",
@@ -775,11 +775,11 @@
     "hidden_description": "Get a 4 star rating.",
     "flavor_text": "",
     "completion_description": "Get a 4 star rating.",
-    "unlocked_icon_url": "achievements_images/STARS_1.jpg",
-    "locked_icon_url": "achievements_images/STARS_1_locked.jpg",
+    "unlocked_icon_url": "STARS_1",
+    "locked_icon_url": "STARS_1_locked",
     "is_hidden": false
   },
-  "STARS_2": {
+  {
     "achievement_id": "STARS_2",
     "unlocked_display_name": "Bending over backwards",
     "unlocked_description": "Get a 4.5 star rating.",
@@ -788,11 +788,11 @@
     "hidden_description": "Get a 4.5 star rating.",
     "flavor_text": "",
     "completion_description": "Get a 4.5 star rating.",
-    "unlocked_icon_url": "achievements_images/STARS_2.jpg",
-    "locked_icon_url": "achievements_images/STARS_2_locked.jpg",
+    "unlocked_icon_url": "STARS_2",
+    "locked_icon_url": "STARS_2_locked",
     "is_hidden": false
   },
-  "STARS_3": {
+  {
     "achievement_id": "STARS_3",
     "unlocked_display_name": "Customer's ALWAYS right.",
     "unlocked_description": "Get a 5 star rating.",
@@ -801,11 +801,11 @@
     "hidden_description": "Get a 5 star rating.",
     "flavor_text": "",
     "completion_description": "Get a 5 star rating.",
-    "unlocked_icon_url": "achievements_images/STARS_3.jpg",
-    "locked_icon_url": "achievements_images/STARS_3_locked.jpg",
+    "unlocked_icon_url": "STARS_3",
+    "locked_icon_url": "STARS_3_locked",
     "is_hidden": false
   },
-  "STICK_TEAM_A": {
+  {
     "achievement_id": "STICK_TEAM_A",
     "unlocked_display_name": "Esports DLC: Stable Configuration",
     "unlocked_description": "Stick with the Vandals through your entire career",
@@ -814,11 +814,11 @@
     "hidden_description": "Stick with the Vandals through your entire career",
     "flavor_text": "",
     "completion_description": "Stick with the Vandals through your entire career",
-    "unlocked_icon_url": "achievements_images/STICK_TEAM_A.jpg",
-    "locked_icon_url": "achievements_images/STICK_TEAM_A_locked.jpg",
+    "unlocked_icon_url": "STICK_TEAM_A",
+    "locked_icon_url": "STICK_TEAM_A_locked",
     "is_hidden": false
   },
-  "STOP_IT": {
+  {
     "achievement_id": "STOP_IT",
     "unlocked_display_name": "Stop it",
     "unlocked_description": "Make a PC with full tower case, AIO cooler, at least 1 RGB fan, Maximum RAM supported for the motherboard, any 1080 Ti (or even SLI), but use a Celeron.",
@@ -827,11 +827,11 @@
     "hidden_description": "Make a PC with full tower case, AIO cooler, at least 1 RGB fan, Maximum RAM supported for the motherboard, any 1080 Ti (or even SLI), but use a Celeron.",
     "flavor_text": "",
     "completion_description": "Make a PC with full tower case, AIO cooler, at least 1 RGB fan, Maximum RAM supported for the motherboard, any 1080 Ti (or even SLI), but use a Celeron.",
-    "unlocked_icon_url": "achievements_images/STOP_IT.jpg",
-    "locked_icon_url": "achievements_images/STOP_IT_locked.jpg",
+    "unlocked_icon_url": "STOP_IT",
+    "locked_icon_url": "STOP_IT_locked",
     "is_hidden": false
   },
-  "TOP_LEAGUE": {
+  {
     "achievement_id": "TOP_LEAGUE",
     "unlocked_display_name": "Esports DLC: Race to the Top",
     "unlocked_description": "Get your team to the top of the league!",
@@ -840,11 +840,11 @@
     "hidden_description": "Get your team to the top of the league!",
     "flavor_text": "",
     "completion_description": "Get your team to the top of the league!",
-    "unlocked_icon_url": "achievements_images/TOP_LEAGUE.jpg",
-    "locked_icon_url": "achievements_images/TOP_LEAGUE_locked.jpg",
+    "unlocked_icon_url": "TOP_LEAGUE",
+    "locked_icon_url": "TOP_LEAGUE_locked",
     "is_hidden": false
   },
-  "TRAITOR": {
+  {
     "achievement_id": "TRAITOR",
     "unlocked_display_name": "Esports DLC: Hardware Conflict",
     "unlocked_description": "Play against a company you previously worked for",
@@ -853,11 +853,11 @@
     "hidden_description": "Play against a company you previously worked for",
     "flavor_text": "",
     "completion_description": "Play against a company you previously worked for",
-    "unlocked_icon_url": "achievements_images/TRAITOR.jpg",
-    "locked_icon_url": "achievements_images/TRAITOR_locked.jpg",
+    "unlocked_icon_url": "TRAITOR",
+    "locked_icon_url": "TRAITOR_locked",
     "is_hidden": true
   },
-  "TREAT_1": {
+  {
     "achievement_id": "TREAT_1",
     "unlocked_display_name": "Treat yourself - GPU",
     "unlocked_description": "Install a GTX 1080Ti in your office machine.",
@@ -866,11 +866,11 @@
     "hidden_description": "Install a GTX 1080Ti in your office machine.",
     "flavor_text": "",
     "completion_description": "Install a GTX 1080Ti in your office machine.",
-    "unlocked_icon_url": "achievements_images/TREAT_1.jpg",
-    "locked_icon_url": "achievements_images/TREAT_1_locked.jpg",
+    "unlocked_icon_url": "TREAT_1",
+    "locked_icon_url": "TREAT_1_locked",
     "is_hidden": false
   },
-  "TREAT_2": {
+  {
     "achievement_id": "TREAT_2",
     "unlocked_display_name": "Treat yourself - CPU",
     "unlocked_description": "Install a Threadripper CPU in your office machine.",
@@ -879,11 +879,11 @@
     "hidden_description": "Install a Threadripper CPU in your office machine.",
     "flavor_text": "",
     "completion_description": "Install a Threadripper CPU in your office machine.",
-    "unlocked_icon_url": "achievements_images/TREAT_2.jpg",
-    "locked_icon_url": "achievements_images/TREAT_2_locked.jpg",
+    "unlocked_icon_url": "TREAT_2",
+    "locked_icon_url": "TREAT_2_locked",
     "is_hidden": false
   },
-  "TREAT_3": {
+  {
     "achievement_id": "TREAT_3",
     "unlocked_display_name": "Treat yourself - RAM",
     "unlocked_description": "Install 128GB of RAM in your office machine.",
@@ -892,11 +892,11 @@
     "hidden_description": "Install 128GB of RAM in your office machine.",
     "flavor_text": "",
     "completion_description": "Install 128GB of RAM in your office machine.",
-    "unlocked_icon_url": "achievements_images/TREAT_3.jpg",
-    "locked_icon_url": "achievements_images/TREAT_3_locked.jpg",
+    "unlocked_icon_url": "TREAT_3",
+    "locked_icon_url": "TREAT_3_locked",
     "is_hidden": false
   },
-  "UNLOCK_SECOND_WORKSHOP": {
+  {
     "achievement_id": "UNLOCK_SECOND_WORKSHOP",
     "unlocked_display_name": "Esports DLC: Room to Grow",
     "unlocked_description": "Move into a bigger workshop",
@@ -905,11 +905,11 @@
     "hidden_description": "Move into a bigger workshop",
     "flavor_text": "",
     "completion_description": "Move into a bigger workshop",
-    "unlocked_icon_url": "achievements_images/UNLOCK_SECOND_WORKSHOP.jpg",
-    "locked_icon_url": "achievements_images/UNLOCK_SECOND_WORKSHOP_locked.jpg",
+    "unlocked_icon_url": "UNLOCK_SECOND_WORKSHOP",
+    "locked_icon_url": "UNLOCK_SECOND_WORKSHOP_locked",
     "is_hidden": false
   },
-  "UNLOCK_THIRD_WORKSHOP": {
+  {
     "achievement_id": "UNLOCK_THIRD_WORKSHOP",
     "unlocked_display_name": "Esports DLC: Living the Dream",
     "unlocked_description": "Move into the elite workshop",
@@ -918,11 +918,11 @@
     "hidden_description": "Move into the elite workshop",
     "flavor_text": "",
     "completion_description": "Move into the elite workshop",
-    "unlocked_icon_url": "achievements_images/UNLOCK_THIRD_WORKSHOP.jpg",
-    "locked_icon_url": "achievements_images/UNLOCK_THIRD_WORKSHOP_locked.jpg",
+    "unlocked_icon_url": "UNLOCK_THIRD_WORKSHOP",
+    "locked_icon_url": "UNLOCK_THIRD_WORKSHOP_locked",
     "is_hidden": false
   },
-  "WATCH_BRONZE": {
+  {
     "achievement_id": "WATCH_BRONZE",
     "unlocked_display_name": "Esports DLC: Repair Rookie",
     "unlocked_description": "End your career with a bronze watch",
@@ -931,11 +931,11 @@
     "hidden_description": "End your career with a bronze watch",
     "flavor_text": "",
     "completion_description": "End your career with a bronze watch",
-    "unlocked_icon_url": "achievements_images/WATCH_BRONZE.jpg",
-    "locked_icon_url": "achievements_images/WATCH_BRONZE_locked.jpg",
+    "unlocked_icon_url": "WATCH_BRONZE",
+    "locked_icon_url": "WATCH_BRONZE_locked",
     "is_hidden": false
   },
-  "WATCH_GOLD": {
+  {
     "achievement_id": "WATCH_GOLD",
     "unlocked_display_name": "Esports DLC: Top Tier Technician",
     "unlocked_description": "End your career with a gold watch",
@@ -944,11 +944,11 @@
     "hidden_description": "End your career with a gold watch",
     "flavor_text": "",
     "completion_description": "End your career with a gold watch",
-    "unlocked_icon_url": "achievements_images/WATCH_GOLD.jpg",
-    "locked_icon_url": "achievements_images/WATCH_GOLD_locked.jpg",
+    "unlocked_icon_url": "WATCH_GOLD",
+    "locked_icon_url": "WATCH_GOLD_locked",
     "is_hidden": false
   },
-  "WATCH_SILVER": {
+  {
     "achievement_id": "WATCH_SILVER",
     "unlocked_display_name": "Esports DLC: PC Pro",
     "unlocked_description": "End your career with a silver watch",
@@ -957,8 +957,8 @@
     "hidden_description": "End your career with a silver watch",
     "flavor_text": "",
     "completion_description": "End your career with a silver watch",
-    "unlocked_icon_url": "achievements_images/WATCH_SILVER.jpg",
-    "locked_icon_url": "achievements_images/WATCH_SILVER_locked.jpg",
+    "unlocked_icon_url": "WATCH_SILVER",
+    "locked_icon_url": "WATCH_SILVER_locked",
     "is_hidden": false
   }
-}
+]
