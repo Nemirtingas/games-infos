@@ -1003,7 +1003,7 @@ static void MakeAchievementsV1()
     uint32_t count = GetAchievementsCount();
 
     constexpr static char achievements_db_file[] = "achievements_db1.json";
-    nlohmann::ordered_json achievements_db;
+    nlohmann::ordered_json achievements_db = nlohmann::json::array_t();
 
     for (uint32_t i = 0; i < count; ++i)
     {
@@ -1016,10 +1016,10 @@ static void MakeAchievementsV1()
         auto res = eos_api.Achievements.CopyAchievementDefinitionByIndex(&DefinitionOptions, &OutDefinition);
         if (res == EOS_EResult::EOS_Success)
         {
-            std::string url("achievements_images/" + std::string(OutDefinition->AchievementId) + ".jpg");
-            std::string url_locked("achievements_images/" + std::string(OutDefinition->AchievementId) + "_locked.jpg");
+            std::string url(OutDefinition->AchievementId);
+            std::string url_locked(std::string(OutDefinition->AchievementId) + "_locked");
 
-            achievements_db[OutDefinition->AchievementId] = nlohmann::ordered_json{
+            nlohmann::ordered_json entry = nlohmann::ordered_json{
                     {"achievement_id"        , str_or_empty(OutDefinition->AchievementId)},
                     {"unlocked_display_name" , str_or_empty(OutDefinition->DisplayName)},
                     {"unlocked_description"  , str_or_empty(OutDefinition->Description)},
@@ -1033,17 +1033,19 @@ static void MakeAchievementsV1()
                     {"is_hidden"             , (bool)OutDefinition->bIsHidden}
             };
 
+            SPDLOG_INFO("locked icon: {}", OutDefinition->LockedIconId);
             //download_icon(OutDefinition->UnlockedIconURL, dumper_root + url);
             //download_icon(OutDefinition->LockedIconURL, dumper_root + url_locked);
 
             for (int i = 0; i < OutDefinition->StatThresholdsCount; ++i)
             {
-                achievements_db[OutDefinition->AchievementId]["stats_thresholds"][OutDefinition->StatThresholds[i].Name] = nlohmann::ordered_json{
+                entry["stats_thresholds"][OutDefinition->StatThresholds[i].Name] = nlohmann::ordered_json{
                     {"name"     , str_or_empty(OutDefinition->StatThresholds[i].Name)},
                     {"threshold", OutDefinition->StatThresholds[i].Threshold}
                 };
             }
 
+            achievements_db.emplace_back(std::move(entry));
             eos_api.Achievements.Definition_Release(OutDefinition);
         }
         else
@@ -1063,7 +1065,7 @@ static void MakeAchievementsV2()
     uint32_t count = GetAchievementsCount();
 
     constexpr static char achievements_db_file[] = "achievements_db2.json";
-    nlohmann::ordered_json achievements_db;
+    nlohmann::ordered_json achievements_db = nlohmann::json::array_t();
 
     for (uint32_t i = 0; i < count; ++i)
     {
@@ -1076,10 +1078,10 @@ static void MakeAchievementsV2()
         auto res = eos_api.Achievements.CopyAchievementDefinitionV2ByIndex(&DefinitionOptions, &OutDefinition);
         if (res == EOS_EResult::EOS_Success)
         {
-            std::string url("achievements_images/" + std::string(OutDefinition->AchievementId) + ".jpg");
-            std::string url_locked("achievements_images/" + std::string(OutDefinition->AchievementId) + "_locked.jpg");
+            std::string url(OutDefinition->AchievementId);
+            std::string url_locked(std::string(OutDefinition->AchievementId) + "_locked");
 
-            achievements_db[OutDefinition->AchievementId] = nlohmann::ordered_json{
+            nlohmann::ordered_json entry = nlohmann::ordered_json{
                     {"achievement_id"        , str_or_empty(OutDefinition->AchievementId)},
                     {"unlocked_display_name" , str_or_empty(OutDefinition->UnlockedDisplayName)},
                     {"unlocked_description"  , str_or_empty(OutDefinition->UnlockedDescription)},
@@ -1093,17 +1095,18 @@ static void MakeAchievementsV2()
                     {"is_hidden"             , (bool)OutDefinition->bIsHidden}
             };
 
-            download_icon(OutDefinition->UnlockedIconURL, dumper_root + url);
-            download_icon(OutDefinition->LockedIconURL, dumper_root + url_locked);
+            download_icon(OutDefinition->UnlockedIconURL, dumper_root + "achievements_images/" + url);
+            download_icon(OutDefinition->LockedIconURL, dumper_root + "achievements_images/" + url_locked);
 
             for (int i = 0; i < OutDefinition->StatThresholdsCount; ++i)
             {
-                achievements_db[OutDefinition->AchievementId]["stats_thresholds"][OutDefinition->StatThresholds[i].Name] = nlohmann::ordered_json{
+                entry["stats_thresholds"].emplace_back(nlohmann::ordered_json{
                     {"name"     , str_or_empty(OutDefinition->StatThresholds[i].Name)},
                     {"threshold", OutDefinition->StatThresholds[i].Threshold}
-                };
+                });
             }
 
+            achievements_db.emplace_back(std::move(entry));
             eos_api.Achievements.DefinitionV2_Release(OutDefinition);
         }
         else
