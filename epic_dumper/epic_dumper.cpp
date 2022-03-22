@@ -1562,8 +1562,8 @@ int main(int argc, char* argv[])
         AuthLogin(auth_password, auth_type);
         ConnectLogin();
 
-        try { MakeAchievementsV1(); }
-        catch (std::runtime_error& e) { SPDLOG_TRACE("{}", e.what()); }
+        //try { MakeAchievementsV1(); }
+        //catch (std::runtime_error& e) { SPDLOG_TRACE("{}", e.what()); }
         try { MakeAchievementsV2(); }
         catch (std::runtime_error& e) { SPDLOG_TRACE("{}", e.what()); }
         try { MakeStats(); }
