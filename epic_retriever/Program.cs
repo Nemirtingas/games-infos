@@ -420,6 +420,17 @@ namespace epic_retriever
                 oauth_infos = result.Result;
             }
 
+            try
+            {
+                if(!Directory.Exists(Path.Combine(OutputDir, "cache")))
+                    Directory.CreateDirectory(Path.Combine(OutputDir, "cache"));
+            }
+            catch(Exception)
+            {
+                Console.WriteLine($"Failed to create {Path.Combine(OutputDir, "cache")}");
+                return;
+            }
+
             Console.WriteLine("Successfuly logged in !");
             using (StreamWriter writer = new StreamWriter(new FileStream(oauth_path, FileMode.Create), Encoding.UTF8))
             {
