@@ -166,6 +166,10 @@ namespace epic_retriever
                     app = t2.Result.Result;
                     SaveAppInfos(app);
                 }
+                else
+                {
+                    Console.WriteLine($"Failed to get game infos: {t2.Result.Message}");
+                }
             }
             //else
             //{
