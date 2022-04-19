@@ -226,8 +226,8 @@ namespace epic_retriever
                 if (!Directory.Exists(infos_path))
                     Directory.CreateDirectory(infos_path);
 
-                string item_id = (string)game_infos["ItemId"];
-                string image_path = Path.Combine(infos_path, item_id + "_background.jpg");
+                string app_id = (string)game_infos["AppId"];
+                string image_path = Path.Combine(infos_path, app_id + "_background.jpg");
                 if (DownloadImages && !File.Exists(image_path))
                 {
                     try
@@ -248,7 +248,7 @@ namespace epic_retriever
                     }
                 }
 
-                infos_path = Path.Combine(infos_path, item_id + ".json");
+                infos_path = Path.Combine(infos_path, app_id + ".json");
                 using (StreamWriter writer = new StreamWriter(new FileStream(infos_path, FileMode.Create), Encoding.UTF8))
                 {
                     writer.Write(game_infos.ToString());
