@@ -226,11 +226,11 @@ namespace epic_retriever
         {
             try
             {
-                string infos_path = Path.Combine(OutputDir, "game_infos", (string)game_infos["Namespace"]);
+                string app_id = (string)game_infos["AppId"];
+                string infos_path = Path.Combine(OutputDir, "game_infos", (string)game_infos["Namespace"], app_id);
                 if (!Directory.Exists(infos_path))
                     Directory.CreateDirectory(infos_path);
 
-                string app_id = (string)game_infos["AppId"];
                 string image_path = Path.Combine(infos_path, app_id + "_background.jpg");
                 if (DownloadImages && !File.Exists(image_path))
                 {
