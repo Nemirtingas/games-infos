@@ -353,7 +353,7 @@ namespace epic_retriever
                                         string catalog_item_id = (string)json["catalogId"];
                                         if (!string.IsNullOrWhiteSpace(catalog_item_id))
                                         {
-                                            app_list.Namespaces.GetOrCreate(item.Key)[catalog_item_id] = new AppListEntry { };
+                                            app_list.Namespaces.GetOrCreate(item.Key)[catalog_item_id.Trim()] = new AppListEntry { };
                                         }
                                     }
                                 }
