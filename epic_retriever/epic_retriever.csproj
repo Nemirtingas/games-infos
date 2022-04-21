@@ -2,14 +2,8 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
-
-  <ItemGroup>
-    <Compile Remove="EGS_WebAPI\CookieWebClient - Copie - Copie %282%29.cs" />
-    <Compile Remove="EGS_WebAPI\CookieWebClient - Copie - Copie %283%29.cs" />
-    <Compile Remove="EGS_WebAPI\CookieWebClient - Copie - Copie.cs" />
-  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="CommandLineParser" Version="2.8.0" />
