@@ -8,14 +8,13 @@ A simple collection of various information for your Steam/Epic Games library:
 - Items list (if the game has them)
 - DLC parsing
 
-## How to use
+## Where are the datas ?
 
-To get data for a Steam game, go to "steam", and search for the AppID of the game/DLC.
-To get data for an Epic Store game, go to "epic" and have a look there.
+Public datas are stored here: https://github.com/Nemirtingas/games-infos-datas
 
 ### Can't find your game/DLC?
 
-Get the steam_retriever (currently it can be found on the left in "CI/CD" section - just download the latest artifact which has passed the building), fork the project and add some games yourself.
+Get the binaries ([releases](../../releases)), or fork the project and add some games yourself.
 Easiest way to add the games is to extract the files from the artifact into the main folder and just run the tool from there.
 
 #### How to use steam_retriever
