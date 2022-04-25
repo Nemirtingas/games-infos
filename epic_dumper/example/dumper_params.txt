@@ -1,0 +1,13 @@
+{
+  "_comment_mandatory": "Mandatory parameters, theses are required",
+  "EOS_SECRET_KEY": "",
+  "EOS_DEPLOYEMENT_ID": "",
+  "_comment_EOS_AUDIENCE": "ClientCredentials::ClientId",
+  "EOS_AUDIENCE": "",
+
+  "_comment_mandatory_but_can_be_deduced": "Theses are also mandatory but can be retrieved in the JSON token when launched via Epic Launcher, remove '_comment_' to use.",
+  "_comment_EOS_PRODUCT_NAME": "",
+  "_comment_EOS_PRODUCT_VERSION": "",
+  "_comment_EOS_PRODUCT_ID": "",
+  "_comment_EOS_SANDBOX_ID": ""
+}
