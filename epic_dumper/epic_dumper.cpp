@@ -494,6 +494,8 @@ class EOSApi
         decltype(EOS_Connect_Login)* _EOS_Connect_Login;
         decltype(EOS_Connect_CreateUser)* _EOS_Connect_CreateUser;
         decltype(EOS_Connect_GetLoggedInUserByIndex)* _EOS_Connect_GetLoggedInUserByIndex;
+        decltype(EOS_Connect_GetProductUserIdMapping)* _EOS_Connect_GetProductUserIdMapping;
+        decltype(EOS_Connect_GetExternalAccountMapping)* _EOS_Connect_GetExternalAccountMapping;
 
     public:
         inline bool HasInterface() const { return hIface != nullptr; }
@@ -511,6 +513,26 @@ class EOSApi
         EOS_ProductUserId GetLoggedInUserByIndex(int32_t index)
         {
             return _EOS_Connect_GetLoggedInUserByIndex(hIface, index);
+        }
+
+        EOS_EResult GetProductUserIdMapping(const EOS_Connect_GetProductUserIdMappingOptions* Options, std::string &str)
+        {
+            std::string tmp(512, '\0');
+            int32_t size = 512;
+
+            EOS_EResult r = _EOS_Connect_GetProductUserIdMapping(hIface, Options, &tmp[0], &size);
+            if(r == EOS_EResult::EOS_Success)
+            {
+                tmp.resize(size - 1);
+                str = tmp;
+            }
+
+            return r;
+        }
+
+        EOS_ProductUserId GetExternalAccountMapping(const EOS_Connect_GetExternalAccountMappingsOptions* Options)
+        {
+            return _EOS_Connect_GetExternalAccountMapping(hIface, Options);
         }
     };
 
@@ -630,8 +652,10 @@ class EOSApi
     decltype(EOS_EResult_ToString)* _EOS_EResult_ToString;
     decltype(EOS_EpicAccountId_IsValid)* _EOS_EpicAccountId_IsValid;
     decltype(EOS_EpicAccountId_ToString)* _EOS_EpicAccountId_ToString;
+    decltype(EOS_EpicAccountId_FromString)* _EOS_EpicAccountId_FromString;
     decltype(EOS_ProductUserId_IsValid)* _EOS_ProductUserId_IsValid;
     decltype(EOS_ProductUserId_ToString)* _EOS_ProductUserId_ToString;
+    decltype(EOS_ProductUserId_FromString)* _EOS_ProductUserId_FromString;
 
 public:
     CPlatform Platform;
@@ -663,8 +687,10 @@ public:
         LOAD_API(this, EOS_EResult_ToString);
         LOAD_API(this, EOS_EpicAccountId_IsValid);
         LOAD_API(this, EOS_EpicAccountId_ToString);
+        LOAD_API(this, EOS_EpicAccountId_FromString);
         LOAD_API(this, EOS_ProductUserId_IsValid);
         LOAD_API(this, EOS_ProductUserId_ToString);
+        LOAD_API(this, EOS_ProductUserId_FromString);
 
         // Platform
         LOAD_API(&Platform, EOS_Platform_Create);
@@ -695,6 +721,8 @@ public:
         LOAD_API(&Connect, EOS_Connect_Login);
         LOAD_API(&Connect, EOS_Connect_CreateUser);
         LOAD_API(&Connect, EOS_Connect_GetLoggedInUserByIndex);
+        LOAD_API(&Connect, EOS_Connect_GetProductUserIdMapping);
+        LOAD_API(&Connect, EOS_Connect_GetExternalAccountMapping);
 
         // Ecom
         LOAD_API(&Ecom, EOS_Ecom_QueryOffers);
@@ -757,6 +785,11 @@ public:
         return res;
     }
 
+    EOS_EpicAccountId EpicAccountId_FromString(const char * str)
+    {
+        return _EOS_EpicAccountId_FromString(str);
+    }
+
     EOS_Bool ProductUserId_IsValid(EOS_ProductUserId AccountId)
     {
         return _EOS_ProductUserId_IsValid(AccountId);
@@ -777,6 +810,11 @@ public:
         }
 
         return res;
+    }
+
+    EOS_ProductUserId ProductUserId_FromString(const char* str)
+    {
+        return _EOS_ProductUserId_FromString(str);
     }
 };
 
