@@ -220,9 +220,7 @@ namespace steam_db
                 {
                     foreach (string dlcid in (JArray)json[appid]["data"]["dlc"])
                     {
-                        JObject dlc_infos = new JObject();
-                        dlc_infos.Add("Name", "");
-                        dlc_infos.Add("ImageUrl", "");
+                        JObject dlc_infos = GetOrCreateApp(dlcid, true);
                         dlcs.Add(dlcid, dlc_infos);
                         if (!done_appids.Contains(dlcid))
                         {
