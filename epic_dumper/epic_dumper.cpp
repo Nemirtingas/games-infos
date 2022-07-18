@@ -33,6 +33,8 @@
 #include "library.h"
 #include "EGS_Api.h"
 
+#include "cxxopts.h"
+
 #if defined(UTILS_OS_WINDOWS)
 #if defined(UTILS_ARCH_X64)
 #define EOS_LIBRARY_NAME "EOSSDK-Win64-Shipping.dll"
@@ -227,6 +229,10 @@ static bool create_folder(std::string const& _folder)
 
 #endif
 
+static struct {
+    bool DownloadIcons = false;
+} AppArgs;
+
 inline const char* str_or_empty(const char* str)
 {
     return str == nullptr ? "" : str;
@@ -293,6 +299,9 @@ bool save_json(std::string const& file_path, nlohmann::basic_json<ObjectType, Ar
 
 static void download_icon(std::string const& url, std::string filename)
 {
+    if (!AppArgs.DownloadIcons)
+        return;
+
     CurlEasy webcli;
     int err;
     std::fstream f;
@@ -1058,17 +1067,17 @@ static void MakeAchievementsV1()
             std::string url_locked(std::string(OutDefinition->AchievementId) + "_locked");
 
             nlohmann::ordered_json entry = nlohmann::ordered_json{
-                    {"achievement_id"        , str_or_empty(OutDefinition->AchievementId)},
-                    {"unlocked_display_name" , str_or_empty(OutDefinition->DisplayName)},
-                    {"unlocked_description"  , str_or_empty(OutDefinition->Description)},
-                    {"locked_display_name"   , str_or_empty(OutDefinition->LockedDisplayName)},
-                    {"locked_description"    , str_or_empty(OutDefinition->LockedDescription)},
-                    {"hidden_description"    , str_or_empty(OutDefinition->HiddenDescription)},
-                    {"flavor_text"           , str_or_empty("")},
-                    {"completion_description", str_or_empty(OutDefinition->CompletionDescription)},
-                    {"unlocked_icon_url"     , url},
-                    {"locked_icon_url"       , url_locked},
-                    {"is_hidden"             , (bool)OutDefinition->bIsHidden}
+                    {"AchievementId"        , str_or_empty(OutDefinition->AchievementId)},
+                    {"UnlockedDisplayName"  , str_or_empty(OutDefinition->DisplayName)},
+                    {"UnlockedDescription"  , str_or_empty(OutDefinition->Description)},
+                    {"LockedDisplayName"    , str_or_empty(OutDefinition->LockedDisplayName)},
+                    {"LockedDescription"    , str_or_empty(OutDefinition->LockedDescription)},
+                    {"HiddenDescription"    , str_or_empty(OutDefinition->HiddenDescription)},
+                    {"FlavorText"           , str_or_empty("")},
+                    {"CompletionDescription", str_or_empty(OutDefinition->CompletionDescription)},
+                    {"UnlockedIconUrl"      , url},
+                    {"LockedIconUrl"        , url_locked},
+                    {"IsHidden"             , (bool)OutDefinition->bIsHidden}
             };
 
             SPDLOG_INFO("locked icon: {}", OutDefinition->LockedIconId);
@@ -1077,10 +1086,10 @@ static void MakeAchievementsV1()
 
             for (int i = 0; i < OutDefinition->StatThresholdsCount; ++i)
             {
-                entry["stats_thresholds"][OutDefinition->StatThresholds[i].Name] = nlohmann::ordered_json{
-                    {"name"     , str_or_empty(OutDefinition->StatThresholds[i].Name)},
-                    {"threshold", OutDefinition->StatThresholds[i].Threshold}
-                };
+                entry["StatsThresholds"].emplace_back(nlohmann::ordered_json{
+                    {"Name"     , str_or_empty(OutDefinition->StatThresholds[i].Name)},
+                    {"Threshold", OutDefinition->StatThresholds[i].Threshold}
+                });
             }
 
             achievements_db.emplace_back(std::move(entry));
@@ -1120,17 +1129,17 @@ static void MakeAchievementsV2()
             std::string url_locked(std::string(OutDefinition->AchievementId) + "_locked");
 
             nlohmann::ordered_json entry = nlohmann::ordered_json{
-                    {"achievement_id"        , str_or_empty(OutDefinition->AchievementId)},
-                    {"unlocked_display_name" , str_or_empty(OutDefinition->UnlockedDisplayName)},
-                    {"unlocked_description"  , str_or_empty(OutDefinition->UnlockedDescription)},
-                    {"locked_display_name"   , str_or_empty(OutDefinition->LockedDisplayName)},
-                    {"locked_description"    , str_or_empty(OutDefinition->LockedDescription)},
-                    {"hidden_description"    , str_or_empty(OutDefinition->LockedDescription)},
-                    {"flavor_text"           , str_or_empty(OutDefinition->FlavorText)},
-                    {"completion_description", str_or_empty(OutDefinition->UnlockedDescription)},
-                    {"unlocked_icon_url"     , url},
-                    {"locked_icon_url"       , url_locked},
-                    {"is_hidden"             , (bool)OutDefinition->bIsHidden}
+                    {"AchievementId"        , str_or_empty(OutDefinition->AchievementId)},
+                    {"UnlockedDisplayName"  , str_or_empty(OutDefinition->UnlockedDisplayName)},
+                    {"UnlockedDescription"  , str_or_empty(OutDefinition->UnlockedDescription)},
+                    {"LockedDisplayName"    , str_or_empty(OutDefinition->LockedDisplayName)},
+                    {"LockedDescription"    , str_or_empty(OutDefinition->LockedDescription)},
+                    {"HiddenDescription"    , str_or_empty(OutDefinition->LockedDescription)},
+                    {"FlavorText"           , str_or_empty(OutDefinition->FlavorText)},
+                    {"CompletionDescription", str_or_empty(OutDefinition->UnlockedDescription)},
+                    {"UnlockedIconUrl"      , url},
+                    {"LockedIconUrl"        , url_locked},
+                    {"IsHidden"             , (bool)OutDefinition->bIsHidden}
             };
 
             download_icon(OutDefinition->UnlockedIconURL, dumper_root + "achievements_images/" + url);
@@ -1138,9 +1147,9 @@ static void MakeAchievementsV2()
 
             for (int i = 0; i < OutDefinition->StatThresholdsCount; ++i)
             {
-                entry["stats_thresholds"].emplace_back(nlohmann::ordered_json{
-                    {"name"     , str_or_empty(OutDefinition->StatThresholds[i].Name)},
-                    {"threshold", OutDefinition->StatThresholds[i].Threshold}
+                entry["StatsThresholds"].emplace_back(nlohmann::ordered_json{
+                    {"Name"     , str_or_empty(OutDefinition->StatThresholds[i].Name)},
+                    {"Threshold", OutDefinition->StatThresholds[i].Threshold}
                 });
             }
 
@@ -1225,9 +1234,9 @@ static void MakeStats()
             if (eos_api.Stats.CopyStatByIndex(&stat_options, &stat) == EOS_EResult::EOS_Success)
             {
                 stats[stat->Name] = nlohmann::json{
-                    {"value"     , stat->Value},
-                    {"start_time", stat->StartTime},
-                    {"end_time"  , stat->EndTime},
+                    {"Value"    , stat->Value},
+                    {"StartTime", stat->StartTime},
+                    {"EndTime"  , stat->EndTime},
                 };
 
                 eos_api.Stats.Stat_Release(stat);
@@ -1298,9 +1307,9 @@ static void MakeCatalog()
             {
                 // CatalogItemId (not the entitlement ID!)
                 catalog[offer->Id] = nlohmann::ordered_json{
-                    {"name"     , str_or_empty(offer->TitleText)},
-                    {"namespace", str_or_empty(offer->CatalogNamespace)}, // plaftorm->SandboxID
-                    {"owned"    , true},
+                    {"Name"     , str_or_empty(offer->TitleText)},
+                    {"Namespace", str_or_empty(offer->CatalogNamespace)}, // plaftorm->SandboxID
+                    {"Owned"    , true},
                 };
 
                 eos_api.Ecom.CatalogOffer_Release(offer);
@@ -1367,10 +1376,10 @@ static void MakeLeaderboards()
             if (eos_api.Leaderboards.CopyLeaderboardDefinitionByIndex(&leaderboard_opts, &leadeboard_definition) == EOS_EResult::EOS_Success && leadeboard_definition->LeaderboardId != nullptr)
             {
                 leaderboards[leadeboard_definition->LeaderboardId] = nlohmann::ordered_json{
-                    {"stat_name"   , str_or_empty(leadeboard_definition->StatName)},
-                    {"start_time"  , leadeboard_definition->StartTime},
-                    {"end_time"    , leadeboard_definition->EndTime},
-                    {"aggregation" , (int)leadeboard_definition->Aggregation},
+                    {"StatName"   , str_or_empty(leadeboard_definition->StatName)},
+                    {"StartTime"  , leadeboard_definition->StartTime},
+                    {"EndTime"    , leadeboard_definition->EndTime},
+                    {"Aggregation" , (int)leadeboard_definition->Aggregation},
                 };
 
                 eos_api.Leaderboards.Definition_Release(leadeboard_definition);
@@ -1381,9 +1390,37 @@ static void MakeLeaderboards()
     }
 }
 
-int main(int argc, char* argv[])
+void ParseCmdLine()
 {
     auto args = get_proc_argv();
+    std::vector<const char*> c_args;
+
+    for(auto& arg : args)
+    {
+        c_args.emplace_back(arg.c_str());
+    }
+
+    try
+    {
+        cxxopts::Options options("epic dumper", "App to dump some of the API datas.");
+        options.add_options()
+            ("i,icons", "Download achievements icons.", cxxopts::value<bool>()->default_value("false"));
+        auto result = options.parse(c_args.size(), &c_args[0]);
+        
+        AppArgs.DownloadIcons = result["icons"].as<bool>();
+    }
+    catch(std::exception& e)
+    {
+        std::cerr << "Failed to parse command line: " << e.what() << std::endl;
+        exit(1);
+    }
+}
+
+int main(int argc, char* argv[])
+{
+    std::vector<std::string> args;
+    
+    ParseCmdLine();
 
     {
         dumper_root = get_executable_path();
@@ -1479,7 +1516,6 @@ int main(int argc, char* argv[])
     egs_api.GetUserOAuth(oauth);
     save_json(dumper_root + "dumper_oauth.json", oauth);
 
-    args.clear();
     {
         std::string game_exchange_code;
         if (egs_api.GetGameExchangeCode(game_exchange_code).error != EGS_Api::ErrorType::OK)
