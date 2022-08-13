@@ -6,6 +6,7 @@ using System.Globalization;
 using System.IO;
 using System.Linq;
 using System.Net;
+using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 using System.Web;
@@ -25,14 +26,67 @@ namespace EGS
         public const string EGS_CATALOG_HOST = "catalog-public-service-prod06.ol.epicgames.com";
         public const string EGS_DEV_HOST = "api.epicgames.dev";
 
-        CookieWebClient _WebCli = new CookieWebClient();
+        CookieContainer _WebCookies;
+
+        HttpClient _WebHttpClient;
+
         string _SessionID = string.Empty;
         JObject _OAuthInfos = new JObject();
         bool _LoggedIn = false;
 
+        public WebApi()
+        {
+            _WebCookies = new CookieContainer();
+
+            _WebHttpClient = new HttpClient(new HttpClientHandler
+            {
+                AutomaticDecompression = DecompressionMethods.All,
+                CookieContainer = _WebCookies,
+            });
+        }
+
         public void Dispose()
         {
-            _WebCli.Dispose();
+            _WebHttpClient.Dispose();
+        }
+
+        string _NameValueCollectionToQueryString(System.Collections.Specialized.NameValueCollection collection)
+        {
+            return string.Join("&", collection.AllKeys.Select(a => a + "=" + HttpUtility.UrlEncode(collection[a])));
+        }
+
+        async Task<string> _WebRunGet(HttpRequestMessage request, Dictionary<string, string> headers)
+        {
+            foreach (var item in headers)
+            {
+                _WebHttpClient.DefaultRequestHeaders.TryAddWithoutValidation(item.Key, item.Value);
+            }
+
+            var t = await (await _WebHttpClient.SendAsync(request, HttpCompletionOption.ResponseContentRead)).Content.ReadAsStringAsync();
+
+            foreach (var item in headers)
+            {
+                _WebHttpClient.DefaultRequestHeaders.Remove(item.Key);
+            }
+
+            return t;
+        }
+
+        async Task<string> _WebRunPost(Uri uri, StringContent request, Dictionary<string, string> headers)
+        {
+            foreach (var item in headers)
+            {
+                _WebHttpClient.DefaultRequestHeaders.TryAddWithoutValidation(item.Key, item.Value);
+            }
+
+            var t = await (await _WebHttpClient.PostAsync(uri, request)).Content.ReadAsStringAsync();
+
+            foreach (var item in headers)
+            {
+                _WebHttpClient.DefaultRequestHeaders.Remove(item.Key);
+            }
+
+            return t;
         }
 
         void _ResetOAuth()
@@ -146,12 +200,14 @@ namespace EGS
 
             try
             {
-                Uri uri = new Uri(string.Format("https://{0}/id/api/csrf", EPIC_GAMES_HOST));
+                Uri uri = new Uri($"https://{EPIC_GAMES_HOST}/id/api/csrf");
 
-                _WebCli.Headers["User-Agent"] = EGS_OAUTH_UAGENT;
-                string response = await _WebCli.DownloadStringTaskAsync(uri);
+                var response = await _WebRunGet(new HttpRequestMessage(HttpMethod.Get, uri), new Dictionary<string, string>
+                {
+                    { "User-Agent", EGS_OAUTH_UAGENT },
+                });
 
-                foreach (Cookie c in _WebCli.CookieContainer.GetCookies(uri))
+                foreach (Cookie c in _WebCookies.GetCookies(uri))
                 {
                     if (c.Name == "XSRF-TOKEN")
                     {
@@ -179,14 +235,13 @@ namespace EGS
 
             try
             {
-                Uri uri = new Uri(string.Format("https://{0}/id/api/exchange/generate", EPIC_GAMES_HOST));
+                Uri uri = new Uri($"https://{EPIC_GAMES_HOST}/id/api/exchange/generate");
 
-                _WebCli.Headers["User-Agent"] = EGS_OAUTH_UAGENT;
-                _WebCli.Headers["X-XSRF-TOKEN"] = xsrf_token;
-
-                System.Collections.Specialized.NameValueCollection post_datas = new System.Collections.Specialized.NameValueCollection();
-
-                JObject response = JObject.Parse(Encoding.UTF8.GetString(await _WebCli.UploadValuesTaskAsync(uri, "POST", post_datas)));
+                JObject response = JObject.Parse(await _WebRunPost(uri, new StringContent("", Encoding.UTF8), new Dictionary<string, string>
+                {
+                    { "X-XSRF-TOKEN", xsrf_token },
+                    { "User-Agent", EGS_OAUTH_UAGENT },
+                }));
 
                 try
                 {
@@ -211,17 +266,16 @@ namespace EGS
         async Task<Error> _ResumeSession(string access_token)
         {
             Error err = new Error { ErrorCode = 0 };
-
-            _WebCli.ClearCookies();
-            _WebCli.Headers.Clear();
-            _WebCli.Headers["User-Agent"] = EGS_OAUTH_UAGENT;
-            _WebCli.Headers["Accept"] = "*/*";
-            _WebCli.Headers["Authorization"] = access_token;
+            Uri uri = new Uri($"https://{EGS_OAUTH_HOST}/account/api/oauth/verify");
 
             try
             {
-                Uri uri = new Uri(string.Format("https://{0}/account/api/oauth/verify", EGS_OAUTH_HOST));
-                JObject oauth = JObject.Parse(await _WebCli.DownloadStringTaskAsync(uri));
+                _WebCookies.GetCookies(uri).Clear();
+                JObject oauth = JObject.Parse(await _WebRunGet(new HttpRequestMessage(HttpMethod.Get, uri), new Dictionary<string, string>
+                {
+                    { "User-Agent", EGS_OAUTH_UAGENT },
+                    { "Authorization", access_token },
+                }));
                 _UpdateOAuth(oauth);
             }
             catch (Exception e)
@@ -241,7 +295,7 @@ namespace EGS
             switch (token.Type)
             {
                 case AuthToken.TokenType.ExchangeCode:
-                    post_data = new System.Collections.Specialized.NameValueCollection()
+                    post_data = new System.Collections.Specialized.NameValueCollection
                     {
                         { "grant_type"   , "exchange_code" },
                         { "exchange_code", token.Token },
@@ -250,7 +304,7 @@ namespace EGS
                     break;
 
                 case AuthToken.TokenType.RefreshToken:
-                    post_data = new System.Collections.Specialized.NameValueCollection()
+                    post_data = new System.Collections.Specialized.NameValueCollection
                     {
                         { "grant_type"   , "refresh_token" },
                         { "refresh_token", token.Token },
@@ -264,17 +318,17 @@ namespace EGS
                     return err;
             }
 
-            _WebCli.ClearCookies();
-            _WebCli.Headers.Clear();
-            _WebCli.Headers["User-Agent"] = EGS_OAUTH_UAGENT;
-            _WebCli.Headers["Accept-Encoding"] = "gzip, deflate";
-            _WebCli.Headers["Accept"] = "*/*";
-            _WebCli.Headers["Authorization"] = string.Format("Basic {0}", Convert.ToBase64String(Encoding.UTF8.GetBytes(string.Format("{0}:{1}", EGS_USER, EGS_PASS))));
+            Uri uri = new Uri($"https://{EGS_OAUTH_HOST}/account/api/oauth/token");
+
+            _WebCookies.GetCookies(uri).Clear();
 
             try
             {
-                Uri uri = new Uri(string.Format("https://{0}/account/api/oauth/token", EGS_OAUTH_HOST));
-                err.Result = JObject.Parse(Encoding.UTF8.GetString(await _WebCli.UploadValuesTaskAsync(uri, "POST", post_data)));
+                err.Result = JObject.Parse(await _WebRunPost(uri, new StringContent(_NameValueCollectionToQueryString(post_data), Encoding.UTF8, "application/x-www-form-urlencoded"), new Dictionary<string, string>
+                {
+                    { "User-Agent", EGS_OAUTH_UAGENT },
+                    { "Authorization", string.Format("Basic {0}", Convert.ToBase64String(Encoding.UTF8.GetBytes($"{EGS_USER}:{EGS_PASS}"))) }
+                }));
             }
             catch (Exception e)
             {
@@ -292,17 +346,20 @@ namespace EGS
 
             _ResetOAuth();
 
-            _WebCli.ClearCookies();
-            _WebCli.Headers.Clear();
-            _WebCli.Headers["User-Agent"] = EGL_UAGENT;
-            _WebCli.Headers["X-Epic-Event-Action"] = "login";
-            _WebCli.Headers["X-Epic-Event-Category"] = "login";
-            _WebCli.Headers["X-Requested-With"] = "XMLHttpRequest";
+            Uri uri = new Uri($"https://{EPIC_GAMES_HOST}/id/api/set-sid?sid={sid}");
+
+            _WebCookies.GetCookies(uri).Clear();
 
             try
             {
-                Uri uri = new Uri(string.Format("https://{0}/id/api/set-sid?sid={1}", EPIC_GAMES_HOST, sid));
-                string response = await _WebCli.DownloadStringTaskAsync(uri);
+                string response = await _WebRunGet(new HttpRequestMessage(HttpMethod.Get, uri), new Dictionary<string, string>
+                {
+                    { "User-Agent"           , EGL_UAGENT },
+                    { "X-Epic-Event-Action"  , "login" },
+                    { "X-Epic-Event-Category", "login" },
+                    { "X-Requested-With"     , "XMLHttpRequest" },
+                    { "Authorization"        , string.Format("Basic {0}", Convert.ToBase64String(Encoding.UTF8.GetBytes($"{EGS_USER}:{EGS_PASS}"))) },
+                });
 
                 string xsrf_token;
                 {
@@ -340,7 +397,7 @@ namespace EGS
                     _OAuthInfos = x.Result;
                 }
 
-                string access_token = string.Format("bearer {0}", (string)_OAuthInfos["access_token"]);
+                string access_token = $"bearer {(string)_OAuthInfos["access_token"]}";
                 {
                     Error x = await _ResumeSession(access_token);
                     if (x.ErrorCode != Error.OK)
@@ -462,9 +519,10 @@ namespace EGS
             {
                 try
                 {
-                    Uri uri = new Uri(string.Format("https://{0}/account/api/oauth/sessions/kill/{1}", EGS_OAUTH_HOST, (string)_OAuthInfos["access_token"]));
-                    _WebCli.Headers["Authorization"] = string.Format("bearer {0}", (string)_OAuthInfos["access_token"]);
-                    string response = await _WebCli.UploadStringTaskAsync(uri, "DELETE", string.Empty);
+                    Uri uri = new Uri($"https://{EGS_OAUTH_HOST}/account/api/oauth/sessions/kill/{(string)_OAuthInfos["access_token"]}");
+                    //_WebCli.Headers["Authorization"] = string.Format("bearer {0}", (string)_OAuthInfos["access_token"]);
+
+                    await _WebHttpClient.DeleteAsync(uri);
                 }
                 catch (Exception e)
                 {
@@ -491,9 +549,13 @@ namespace EGS
 
             try
             {
-                Uri uri = new Uri(string.Format("https://{0}/account/api/oauth/exchange", EGS_OAUTH_HOST));
-                _WebCli.Headers["Authorization"] = string.Format("bearer {0}", (string)_OAuthInfos["access_token"]);
-                JObject response = JObject.Parse(await _WebCli.DownloadStringTaskAsync(uri));
+                Uri uri = new Uri($"https://{EGS_OAUTH_HOST}/account/api/oauth/exchange");
+
+                JObject response = JObject.Parse(await _WebRunGet(new HttpRequestMessage(HttpMethod.Get, uri), new Dictionary<string, string>
+                {
+                    { "User-Agent", EGL_UAGENT },
+                    { "Authorization", $"bearer {(string)_OAuthInfos["access_token"]}" },
+                }));
                 err.Result = (string)response["code"];
                 err.ErrorCode = Error.OK;
             }
@@ -534,11 +596,14 @@ namespace EGS
                     { "scope", "basic_profile friends_list presence" },
                     { "deployment_id", deployement_id },
                 };
+                
+                Uri uri = new Uri($"https://{EGS_DEV_HOST}/epic/oauth/v1/token");
 
-                _WebCli.Headers["Authorization"] = string.Format("Basic {0}", Convert.ToBase64String(Encoding.UTF8.GetBytes(string.Format("{0}:{1}", user_id, password))));
+                JObject response = JObject.Parse(await _WebRunPost(uri, new StringContent(post_datas.ToString()), new Dictionary<string, string>
+                {
+                    { "Authorization", string.Format("Basic {0}", Convert.ToBase64String(Encoding.UTF8.GetBytes($"{user_id}:{password}"))) },
+                }));
 
-                Uri uri = new Uri(string.Format("https://{0}/epic/oauth/v1/token", EGS_DEV_HOST));
-                JObject response = JObject.Parse(UTF8Encoding.UTF8.GetString(await _WebCli.UploadValuesTaskAsync(uri, "POST", post_datas)));
                 err.Result = (string)response["refresh_token"];
                 err.ErrorCode = Error.OK;
             }
@@ -645,18 +710,21 @@ namespace EGS
                 {
                     { "label", label },
                 };
-                string q = string.Join("&", get_datas.AllKeys.Select(a => a + "=" + HttpUtility.UrlEncode(get_datas[a])));
-                Uri uri = new Uri(string.Format("https://{0}/launcher/api/public/assets/{1}?{2}", EGS_LAUNCHER_HOST, platform, q));
+                string q = _NameValueCollectionToQueryString(get_datas);
+                Uri uri = new Uri($"https://{EGS_LAUNCHER_HOST}/launcher/api/public/assets/{platform}?{q}");
 
-                _WebCli.Headers["Authorization"] = string.Format("bearer {0}", (string)_OAuthInfos["access_token"]);
-                JArray response = JArray.Parse(await _WebCli.DownloadStringTaskAsync(uri));
+                JArray response = JArray.Parse(await _WebRunGet(new HttpRequestMessage(HttpMethod.Get, uri), new Dictionary<string, string>
+                {
+                    { "Authorization", $"bearer {(string)_OAuthInfos["access_token"]}" },
+                }));
+
                 List<AppAsset> app_assets = new List<AppAsset>();
-
+                
                 foreach (JObject asset in response)
                 {
                     app_assets.Add(asset.ToObject<AppAsset>());
                 }
-
+                
                 err.Result = app_assets;
                 err.ErrorCode = Error.OK;
             }
@@ -683,10 +751,12 @@ namespace EGS
 
             try
             {
-                Uri uri = new Uri(string.Format("https://{0}/launcher/api/public/assets/v2/platform/{1}/namespace/{2}/catalogItem/{3}/app/{4}/label/{5}", EGS_LAUNCHER_HOST, platform, game_namespace, catalog_id, app_name, label));
-                _WebCli.Headers["Authorization"] = string.Format("bearer {0}", (string)_OAuthInfos["access_token"]);
+                Uri uri = new Uri($"https://{EGS_LAUNCHER_HOST}/launcher/api/public/assets/v2/platform/{platform}/namespace/{game_namespace}/catalogItem/{catalog_id}/app/{app_name}/label/{label}");
 
-                err.Result = JObject.Parse(await _WebCli.DownloadStringTaskAsync(uri));
+                err.Result = JObject.Parse(await _WebRunGet(new HttpRequestMessage(), new Dictionary<string, string>
+                {
+                    { "Authorization", $"bearer {(string)_OAuthInfos["access_token"]}" },
+                }));
                 err.ErrorCode = Error.OK;
             }
             catch (Exception e)
@@ -717,11 +787,13 @@ namespace EGS
                     { "start", start.ToString() },
                     { "count", count.ToString() },
                 };
-                string q = string.Join("&", get_datas.AllKeys.Select(a => a + "=" + HttpUtility.UrlEncode(get_datas[a])));
-                Uri uri = new Uri(string.Format("https://{0}/entitlement/api/account/{1}/entitlements?{2}", EGS_ENTITLEMENT_HOST, (string)_OAuthInfos["account_id"], q));
-                _WebCli.Headers["Authorization"] = string.Format("bearer {0}", (string)_OAuthInfos["access_token"]);
+                string q = _NameValueCollectionToQueryString(get_datas);
+                Uri uri = new Uri($"https://{EGS_ENTITLEMENT_HOST}/entitlement/api/account/{(string)_OAuthInfos["account_id"]}/entitlements?{q}");
 
-                JArray response = JArray.Parse(await _WebCli.DownloadStringTaskAsync(uri));
+                JArray response = JArray.Parse(await _WebRunGet(new HttpRequestMessage(HttpMethod.Get, uri), new Dictionary<string, string>
+                {
+                    { "Authorization", $"bearer {(string)_OAuthInfos["access_token"]}" },
+                }));
 
                 List<Entitlement> entitlements = new List<Entitlement>();
                 foreach (JObject entitlement in response)
@@ -763,12 +835,14 @@ namespace EGS
                     { "country", "US" },
                     { "locale", "en" }
                 };
-                string q = string.Join("&", get_datas.AllKeys.Select(a => a + "=" + HttpUtility.UrlEncode(get_datas[a])));
+                string q = _NameValueCollectionToQueryString(get_datas);
 
-                Uri uri = new Uri(string.Format("https://{0}/catalog/api/shared/namespace/{1}/bulk/items?{2}", EGS_CATALOG_HOST, game_namespace, q));
-                _WebCli.Headers["Authorization"] = string.Format("bearer {0}", (string)_OAuthInfos["access_token"]);
-
-                JObject response = JObject.Parse(await _WebCli.DownloadStringTaskAsync(uri));
+                Uri uri = new Uri($"https://{EGS_CATALOG_HOST}/catalog/api/shared/namespace/{game_namespace}/bulk/items?{q}");
+                
+                JObject response = JObject.Parse(await _WebRunGet(new HttpRequestMessage(HttpMethod.Get, uri), new Dictionary<string, string>
+                {
+                    { "Authorization", $"bearer {(string)_OAuthInfos["access_token"]}" },
+                }));
 
                 foreach (KeyValuePair<string, JToken> v in response)
                 {

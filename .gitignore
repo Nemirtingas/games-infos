@@ -2,6 +2,8 @@
 *.png
 *.bmp
 *.dll
+*.sln
+.vs
 steam_retriever/bin
 steam_retriever/obj
 steam_retriever.deps.json
@@ -18,3 +20,4 @@ epic_retriever.linux
 epic_retriever.macos
 epic_retriever.pdb
 epic_retriever.runtimeconfig.json
+OUT/
