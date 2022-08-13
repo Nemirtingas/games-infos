@@ -343,63 +343,149 @@ class EOSApi
 {
     Library eos_api;
 
+    // EOS_API
+    decltype(EOS_Initialize)* _EOS_Initialize;
+    decltype(EOS_Shutdown)* _EOS_Shutdown;
+    decltype(EOS_EResult_ToString)* _EOS_EResult_ToString;
+    decltype(EOS_EpicAccountId_IsValid)* _EOS_EpicAccountId_IsValid;
+    decltype(EOS_EpicAccountId_ToString)* _EOS_EpicAccountId_ToString;
+    decltype(EOS_EpicAccountId_FromString)* _EOS_EpicAccountId_FromString;
+    decltype(EOS_ProductUserId_IsValid)* _EOS_ProductUserId_IsValid;
+    decltype(EOS_ProductUserId_ToString)* _EOS_ProductUserId_ToString;
+    decltype(EOS_ProductUserId_FromString)* _EOS_ProductUserId_FromString;
+
+    // EOS_Platform
+    decltype(EOS_Platform_Create)* _EOS_Platform_Create;
+    decltype(EOS_Platform_Tick)* _EOS_Platform_Tick;
+    decltype(EOS_Platform_GetAchievementsInterface)* _EOS_Platform_GetAchievementsInterface;
+    decltype(EOS_Platform_GetAuthInterface)* _EOS_Platform_GetAuthInterface;
+    decltype(EOS_Platform_GetConnectInterface)* _EOS_Platform_GetConnectInterface;
+    decltype(EOS_Platform_GetEcomInterface)* _EOS_Platform_GetEcomInterface;
+    decltype(EOS_Platform_GetStatsInterface)* _EOS_Platform_GetStatsInterface;
+    decltype(EOS_Platform_GetLeaderboardsInterface)* _EOS_Platform_GetLeaderboardsInterface;
+    decltype(EOS_Platform_GetTitleStorageInterface)* _EOS_Platform_GetTitleStorageInterface;
+    decltype(EOS_Platform_SetOverrideLocaleCode)* _EOS_Platform_SetOverrideLocaleCode;
+
+    // EOS_Auth
+    decltype(EOS_Auth_Login)* _EOS_Auth_Login;
+    decltype(EOS_Auth_GetLoggedInAccountByIndex)* _EOS_Auth_GetLoggedInAccountByIndex;
+    decltype(EOS_Auth_CopyUserAuthToken)* _EOS_Auth_CopyUserAuthToken;
+
+    // EOS_Connect
+    decltype(EOS_Connect_Login)* _EOS_Connect_Login;
+    decltype(EOS_Connect_CreateUser)* _EOS_Connect_CreateUser;
+    decltype(EOS_Connect_GetLoggedInUserByIndex)* _EOS_Connect_GetLoggedInUserByIndex;
+    decltype(EOS_Connect_GetProductUserIdMapping)* _EOS_Connect_GetProductUserIdMapping;
+    decltype(EOS_Connect_GetExternalAccountMapping)* _EOS_Connect_GetExternalAccountMapping;
+
+    // EOS_Ecom
+    decltype(EOS_Ecom_QueryOffers)* _EOS_Ecom_QueryOffers;
+    decltype(EOS_Ecom_GetOfferCount)* _EOS_Ecom_GetOfferCount;
+    decltype(EOS_Ecom_CopyOfferByIndex)* _EOS_Ecom_CopyOfferByIndex;
+    decltype(EOS_Ecom_CatalogOffer_Release)* _EOS_Ecom_CatalogOffer_Release;
+
+    // EOS_Stats
+    decltype(EOS_Stats_QueryStats)* _EOS_Stats_QueryStats;
+    decltype(EOS_Stats_GetStatsCount)* _EOS_Stats_GetStatsCount;
+    decltype(EOS_Stats_CopyStatByIndex)* _EOS_Stats_CopyStatByIndex;
+    decltype(EOS_Stats_Stat_Release)* _EOS_Stats_Stat_Release;
+
+    // EOS_TitleStorage
+    decltype(EOS_TitleStorage_QueryFile)* _EOS_TitleStorage_QueryFile;
+    decltype(EOS_TitleStorage_QueryFileList)* _EOS_TitleStorage_QueryFileList;
+    decltype(EOS_TitleStorage_CopyFileMetadataByFilename)* _EOS_TitleStorage_CopyFileMetadataByFilename;
+    decltype(EOS_TitleStorage_GetFileMetadataCount)* _EOS_TitleStorage_GetFileMetadataCount;
+    decltype(EOS_TitleStorage_CopyFileMetadataAtIndex)* _EOS_TitleStorage_CopyFileMetadataAtIndex;
+    decltype(EOS_TitleStorage_ReadFile)* _EOS_TitleStorage_ReadFile;
+    decltype(EOS_TitleStorage_DeleteCache)* _EOS_TitleStorage_DeleteCache;
+
+    // EOS_Leaderboards
+    decltype(EOS_Leaderboards_QueryLeaderboardDefinitions)* _EOS_Leaderboards_QueryLeaderboardDefinitions;
+    decltype(EOS_Leaderboards_GetLeaderboardDefinitionCount)* _EOS_Leaderboards_GetLeaderboardDefinitionCount;
+    decltype(EOS_Leaderboards_CopyLeaderboardDefinitionByIndex)* _EOS_Leaderboards_CopyLeaderboardDefinitionByIndex;
+    decltype(EOS_Leaderboards_Definition_Release)* _EOS_Leaderboards_Definition_Release;
+
+    // EOS_Achievements
+    decltype(EOS_Achievements_QueryDefinitions)* _EOS_Achievements_QueryDefinitions;
+    decltype(EOS_Achievements_GetAchievementDefinitionCount)* _EOS_Achievements_GetAchievementDefinitionCount;
+    decltype(EOS_Achievements_CopyAchievementDefinitionByIndex)* _EOS_Achievements_CopyAchievementDefinitionByIndex;
+    decltype(EOS_Achievements_Definition_Release)* _EOS_Achievements_Definition_Release;
+    decltype(EOS_Achievements_CopyAchievementDefinitionV2ByIndex)* _EOS_Achievements_CopyAchievementDefinitionV2ByIndex;
+    decltype(EOS_Achievements_DefinitionV2_Release)* _EOS_Achievements_DefinitionV2_Release;
+
+    // EOS_TitleStorageFileTransferRequest
+    decltype(EOS_TitleStorageFileTransferRequest_GetFileRequestState)* _EOS_TitleStorageFileTransferRequest_GetFileRequestState;
+    decltype(EOS_TitleStorageFileTransferRequest_GetFilename)* _EOS_TitleStorageFileTransferRequest_GetFilename;
+    decltype(EOS_TitleStorageFileTransferRequest_CancelRequest)* _EOS_TitleStorageFileTransferRequest_CancelRequest;
+    decltype(EOS_TitleStorageFileTransferRequest_Release)* _EOS_TitleStorageFileTransferRequest_Release;
+
+    class CTitleStorageFileTransferRequest
+    {
+        friend class CTitleStorage;
+        EOSApi* eos_api;
+        EOS_HTitleStorageFileTransferRequest hIface = nullptr;
+
+    public:
+        CTitleStorageFileTransferRequest(EOS_HTitleStorageFileTransferRequest hIface) :
+            hIface(hIface)
+        {}
+    };
+
     class CPlatform
     {
         friend EOSApi;
-        EOSApi* eos_api;
+        EOSApi* _EOSApi;
         EOS_HPlatform hIface = nullptr;
 
-        decltype(EOS_Platform_Create)* _EOS_Platform_Create;
-        decltype(EOS_Platform_Tick)* _EOS_Platform_Tick;
-
-        decltype(EOS_Platform_GetAchievementsInterface)* _EOS_Platform_GetAchievementsInterface;
-        decltype(EOS_Platform_GetAuthInterface)* _EOS_Platform_GetAuthInterface;
-        decltype(EOS_Platform_GetConnectInterface)* _EOS_Platform_GetConnectInterface;
-        decltype(EOS_Platform_GetEcomInterface)* _EOS_Platform_GetEcomInterface;
-        decltype(EOS_Platform_GetStatsInterface)* _EOS_Platform_GetStatsInterface;
-        decltype(EOS_Platform_GetLeaderboardsInterface)* _EOS_Platform_GetLeaderboardsInterface;
-        decltype(EOS_Platform_SetOverrideLocaleCode)* _EOS_Platform_SetOverrideLocaleCode;
-
     public:
+        CPlatform(EOSApi* eos_api) :
+            _EOSApi(eos_api)
+        {}
+
         inline bool HasInterface() const { return hIface != nullptr; }
 
         void Create(EOS_Platform_Options const* options)
         {
-            if ((hIface = _EOS_Platform_Create(options)) == nullptr)
+            if ((hIface = _EOSApi->_EOS_Platform_Create(options)) == nullptr)
                 throw std::runtime_error("Failed to create EOS_Platform.");
 
-            if ((eos_api->Auth.hIface = _EOS_Platform_GetAuthInterface(hIface)) == nullptr)
+            if ((_EOSApi->Auth.hIface = _EOSApi->_EOS_Platform_GetAuthInterface(hIface)) == nullptr)
                 throw std::runtime_error("Failed to get EOS_HAuth.");
 
-            if ((eos_api->Connect.hIface = _EOS_Platform_GetConnectInterface(hIface)) == nullptr)
+            if ((_EOSApi->Connect.hIface = _EOSApi->_EOS_Platform_GetConnectInterface(hIface)) == nullptr)
                 throw std::runtime_error("Failed to get EOS_HConnect.");
 
-            if ((eos_api->Ecom.hIface = _EOS_Platform_GetEcomInterface(hIface)) == nullptr)
+            if ((_EOSApi->Ecom.hIface = _EOSApi->_EOS_Platform_GetEcomInterface(hIface)) == nullptr)
                 throw std::runtime_error("Failed to get EOS_HEcom.");
 
             // Optionnal interfaces
-            if (_EOS_Platform_GetAchievementsInterface != nullptr)
+            if (_EOSApi->_EOS_Platform_GetAchievementsInterface != nullptr)
             {
-                if ((eos_api->Achievements.hIface = _EOS_Platform_GetAchievementsInterface(hIface)) == nullptr)
+                if ((_EOSApi->Achievements.hIface = _EOSApi->_EOS_Platform_GetAchievementsInterface(hIface)) == nullptr)
                     throw std::runtime_error("Failed to get EOS_HAchievements.");
             }
-            if (_EOS_Platform_GetStatsInterface != nullptr)
+            if (_EOSApi->_EOS_Platform_GetStatsInterface != nullptr)
             {
-                if ((eos_api->Stats.hIface = _EOS_Platform_GetStatsInterface(hIface)) == nullptr)
+                if ((_EOSApi->Stats.hIface = _EOSApi->_EOS_Platform_GetStatsInterface(hIface)) == nullptr)
                     throw std::runtime_error("Failed to get EOS_HStats.");
             }
-            if (_EOS_Platform_GetLeaderboardsInterface != nullptr)
+            if (_EOSApi->_EOS_Platform_GetLeaderboardsInterface != nullptr)
             {
-                if ((eos_api->Leaderboards.hIface = _EOS_Platform_GetLeaderboardsInterface(hIface)) == nullptr)
+                if ((_EOSApi->Leaderboards.hIface = _EOSApi->_EOS_Platform_GetLeaderboardsInterface(hIface)) == nullptr)
                     throw std::runtime_error("Failed to get EOS_HLeaderboards.");
+            }
+            if (_EOSApi->_EOS_Platform_GetTitleStorageInterface != nullptr)
+            {
+                if ((_EOSApi->TitleStorage.hIface = _EOSApi->_EOS_Platform_GetTitleStorageInterface(hIface)) == nullptr)
+                    throw std::runtime_error("Failed to get EOS_HTitleStorage.");
             }
         }
 
-        void Tick() { _EOS_Platform_Tick(hIface); }
+        void Tick() { _EOSApi->_EOS_Platform_Tick(hIface); }
 
         EOS_EResult SetOverrideLocaleCode(const char* local_code)
         {
-            return _EOS_Platform_SetOverrideLocaleCode(hIface, local_code);
+            return _EOSApi->_EOS_Platform_SetOverrideLocaleCode(hIface, local_code);
         }
     };
 
@@ -407,61 +493,59 @@ class EOSApi
     {
         friend EOSApi;
         friend CPlatform;
+        EOSApi* _EOSApi;
         EOS_HAchievements hIface = nullptr;
 
-        decltype(EOS_Achievements_QueryDefinitions)* _EOS_Achievements_QueryDefinitions;
-        decltype(EOS_Achievements_GetAchievementDefinitionCount)* _EOS_Achievements_GetAchievementDefinitionCount;
-        decltype(EOS_Achievements_CopyAchievementDefinitionByIndex)* _EOS_Achievements_CopyAchievementDefinitionByIndex;
-        decltype(EOS_Achievements_Definition_Release)* _EOS_Achievements_Definition_Release;
-        decltype(EOS_Achievements_CopyAchievementDefinitionV2ByIndex)* _EOS_Achievements_CopyAchievementDefinitionV2ByIndex;
-        decltype(EOS_Achievements_DefinitionV2_Release)* _EOS_Achievements_DefinitionV2_Release;
-
     public:
+        CAchievements(EOSApi* eos_api) :
+            _EOSApi(eos_api)
+        {}
+
         inline bool HasInterface() const { return hIface != nullptr; }
 
-        inline bool HasOldAchievements() const { return hIface != nullptr && _EOS_Achievements_CopyAchievementDefinitionByIndex != nullptr; }
-        inline bool HasNewAchievements() const { return hIface != nullptr && _EOS_Achievements_CopyAchievementDefinitionV2ByIndex != nullptr; }
+        inline bool HasOldAchievements() const { return hIface != nullptr && _EOSApi->_EOS_Achievements_CopyAchievementDefinitionByIndex != nullptr; }
+        inline bool HasNewAchievements() const { return hIface != nullptr && _EOSApi->_EOS_Achievements_CopyAchievementDefinitionV2ByIndex != nullptr; }
 
         void QueryDefinitions(EOS_Achievements_QueryDefinitionsOptions const* options, void* client_data, EOS_Achievements_OnQueryDefinitionsCompleteCallback completion_delegate)
         {
-            _EOS_Achievements_QueryDefinitions(hIface, options, client_data, completion_delegate);
+            _EOSApi->_EOS_Achievements_QueryDefinitions(hIface, options, client_data, completion_delegate);
         }
 
         uint32_t GetAchievementDefinitionCount(EOS_Achievements_GetAchievementDefinitionCountOptions const* options)
         {
-            return _EOS_Achievements_GetAchievementDefinitionCount(hIface, options);
+            return _EOSApi->_EOS_Achievements_GetAchievementDefinitionCount(hIface, options);
         }
 
         EOS_EResult CopyAchievementDefinitionByIndex(EOS_Achievements_CopyAchievementDefinitionByIndexOptions const* options, EOS_Achievements_Definition** out_definition)
         {
-            if (_EOS_Achievements_CopyAchievementDefinitionByIndex == nullptr)
+            if (_EOSApi->_EOS_Achievements_CopyAchievementDefinitionByIndex == nullptr)
                 throw std::runtime_error("EOS_Achievements_CopyAchievementDefinitionByIndex is not available");
 
-            return _EOS_Achievements_CopyAchievementDefinitionByIndex(hIface, options, out_definition);
+            return _EOSApi->_EOS_Achievements_CopyAchievementDefinitionByIndex(hIface, options, out_definition);
         }
 
         void Definition_Release(EOS_Achievements_Definition* achievement_definition)
         {
-            if (_EOS_Achievements_Definition_Release == nullptr)
+            if (_EOSApi->_EOS_Achievements_Definition_Release == nullptr)
                 throw std::runtime_error("EOS_Achievements_Definition_Release is not available");
 
-            return _EOS_Achievements_Definition_Release(achievement_definition);
+            return _EOSApi->_EOS_Achievements_Definition_Release(achievement_definition);
         }
 
         EOS_EResult CopyAchievementDefinitionV2ByIndex(EOS_Achievements_CopyAchievementDefinitionV2ByIndexOptions const* options, EOS_Achievements_DefinitionV2** out_definition)
         {
-            if (_EOS_Achievements_CopyAchievementDefinitionByIndex == nullptr)
+            if (_EOSApi->_EOS_Achievements_CopyAchievementDefinitionByIndex == nullptr)
                 throw std::runtime_error("_EOS_Achievements_CopyAchievementDefinitionByIndex is not available");
 
-            return _EOS_Achievements_CopyAchievementDefinitionV2ByIndex(hIface, options, out_definition);
+            return _EOSApi->_EOS_Achievements_CopyAchievementDefinitionV2ByIndex(hIface, options, out_definition);
         }
 
         void DefinitionV2_Release(EOS_Achievements_DefinitionV2* achievement_definition)
         {
-            if (_EOS_Achievements_DefinitionV2_Release == nullptr)
+            if (_EOSApi->_EOS_Achievements_DefinitionV2_Release == nullptr)
                 throw std::runtime_error("EOS_Achievements_DefinitionV2_Release is not available");
 
-            return _EOS_Achievements_DefinitionV2_Release(achievement_definition);
+            return _EOSApi->_EOS_Achievements_DefinitionV2_Release(achievement_definition);
         }
     };
 
@@ -469,28 +553,29 @@ class EOSApi
     {
         friend EOSApi;
         friend CPlatform;
+        EOSApi* _EOSApi;
         EOS_HAuth hIface = nullptr;
 
-        decltype(EOS_Auth_Login)* _EOS_Auth_Login;
-        decltype(EOS_Auth_GetLoggedInAccountByIndex)* _EOS_Auth_GetLoggedInAccountByIndex;
-        decltype(EOS_Auth_CopyUserAuthToken)* _EOS_Auth_CopyUserAuthToken;
-
     public:
+        CAuth(EOSApi* eos_api) :
+            _EOSApi(eos_api)
+        {}
+
         inline bool HasInterface() const { return hIface != nullptr; }
 
         void Login(EOS_Auth_LoginOptions const* options, void* client_data, EOS_Auth_OnLoginCallback completion_delegate)
         {
-            _EOS_Auth_Login(hIface, options, client_data, completion_delegate);
+            _EOSApi->_EOS_Auth_Login(hIface, options, client_data, completion_delegate);
         }
 
         EOS_EpicAccountId GetLoggedInAccountByIndex(int32_t index)
         {
-            return _EOS_Auth_GetLoggedInAccountByIndex(hIface, index);
+            return _EOSApi->_EOS_Auth_GetLoggedInAccountByIndex(hIface, index);
         }
 
         EOS_EResult CopyUserAuthToken(EOS_Auth_CopyUserAuthTokenOptions const* options, EOS_EpicAccountId local_user_id, EOS_Auth_Token** out_user_auth_token)
         {
-            return _EOS_Auth_CopyUserAuthToken(hIface, options, local_user_id, out_user_auth_token);
+            return _EOSApi->_EOS_Auth_CopyUserAuthToken(hIface, options, local_user_id, out_user_auth_token);
         }
     };
 
@@ -498,30 +583,29 @@ class EOSApi
     {
         friend EOSApi;
         friend CPlatform;
+        EOSApi* _EOSApi;
         EOS_HConnect hIface = nullptr;
 
-        decltype(EOS_Connect_Login)* _EOS_Connect_Login;
-        decltype(EOS_Connect_CreateUser)* _EOS_Connect_CreateUser;
-        decltype(EOS_Connect_GetLoggedInUserByIndex)* _EOS_Connect_GetLoggedInUserByIndex;
-        decltype(EOS_Connect_GetProductUserIdMapping)* _EOS_Connect_GetProductUserIdMapping;
-        decltype(EOS_Connect_GetExternalAccountMapping)* _EOS_Connect_GetExternalAccountMapping;
-
     public:
+        CConnect(EOSApi* eos_api) :
+            _EOSApi(eos_api)
+        {}
+
         inline bool HasInterface() const { return hIface != nullptr; }
 
         void Login(EOS_Connect_LoginOptions const* options, void* client_data, EOS_Connect_OnLoginCallback completion_delegate)
         {
-            _EOS_Connect_Login(hIface, options, client_data, completion_delegate);
+            _EOSApi->_EOS_Connect_Login(hIface, options, client_data, completion_delegate);
         }
 
         void CreateUser(EOS_Connect_CreateUserOptions const* options, void* client_data, EOS_Connect_OnCreateUserCallback completion_delegate)
         {
-            _EOS_Connect_CreateUser(hIface, options, client_data, completion_delegate);
+            _EOSApi->_EOS_Connect_CreateUser(hIface, options, client_data, completion_delegate);
         }
 
         EOS_ProductUserId GetLoggedInUserByIndex(int32_t index)
         {
-            return _EOS_Connect_GetLoggedInUserByIndex(hIface, index);
+            return _EOSApi->_EOS_Connect_GetLoggedInUserByIndex(hIface, index);
         }
 
         EOS_EResult GetProductUserIdMapping(const EOS_Connect_GetProductUserIdMappingOptions* Options, std::string &str)
@@ -529,7 +613,7 @@ class EOSApi
             std::string tmp(512, '\0');
             int32_t size = 512;
 
-            EOS_EResult r = _EOS_Connect_GetProductUserIdMapping(hIface, Options, &tmp[0], &size);
+            EOS_EResult r = _EOSApi->_EOS_Connect_GetProductUserIdMapping(hIface, Options, &tmp[0], &size);
             if(r == EOS_EResult::EOS_Success)
             {
                 tmp.resize(size - 1);
@@ -541,7 +625,7 @@ class EOSApi
 
         EOS_ProductUserId GetExternalAccountMapping(const EOS_Connect_GetExternalAccountMappingsOptions* Options)
         {
-            return _EOS_Connect_GetExternalAccountMapping(hIface, Options);
+            return _EOSApi->_EOS_Connect_GetExternalAccountMapping(hIface, Options);
         }
     };
 
@@ -549,34 +633,34 @@ class EOSApi
     {
         friend EOSApi;
         friend CPlatform;
+        EOSApi* _EOSApi;
         EOS_HEcom hIface = nullptr;
 
-        decltype(EOS_Ecom_QueryOffers)* _EOS_Ecom_QueryOffers;
-        decltype(EOS_Ecom_GetOfferCount)* _EOS_Ecom_GetOfferCount;
-        decltype(EOS_Ecom_CopyOfferByIndex)* _EOS_Ecom_CopyOfferByIndex;
-        decltype(EOS_Ecom_CatalogOffer_Release)* _EOS_Ecom_CatalogOffer_Release;
-
     public:
+        CEcom(EOSApi* eos_api) :
+            _EOSApi(eos_api)
+        {}
+
         inline bool HasInterface() const { return hIface != nullptr; }
 
         void QueryOffers(EOS_Ecom_QueryOffersOptions const* options, void* client_data, EOS_Ecom_OnQueryOffersCallback completion_delegate)
         {
-            _EOS_Ecom_QueryOffers(hIface, options, client_data, completion_delegate);
+            _EOSApi->_EOS_Ecom_QueryOffers(hIface, options, client_data, completion_delegate);
         }
 
         uint32_t GetOfferCount(EOS_Ecom_GetOfferCountOptions const* options)
         {
-            return _EOS_Ecom_GetOfferCount(hIface, options);
+            return _EOSApi->_EOS_Ecom_GetOfferCount(hIface, options);
         }
 
         EOS_EResult CopyOfferByIndex(EOS_Ecom_CopyOfferByIndexOptions const* options, EOS_Ecom_CatalogOffer** out_offer)
         {
-            return _EOS_Ecom_CopyOfferByIndex(hIface, options, out_offer);
+            return _EOSApi->_EOS_Ecom_CopyOfferByIndex(hIface, options, out_offer);
         }
 
         void CatalogOffer_Release(EOS_Ecom_CatalogOffer* offer)
         {
-            _EOS_Ecom_CatalogOffer_Release(offer);
+            _EOSApi->_EOS_Ecom_CatalogOffer_Release(offer);
         }
     };
 
@@ -584,37 +668,76 @@ class EOSApi
     {
         friend EOSApi;
         friend CPlatform;
+        EOSApi* _EOSApi;
         EOS_HStats hIface = nullptr;
 
-        decltype(EOS_Stats_QueryStats)* _EOS_Stats_QueryStats;
-        decltype(EOS_Stats_GetStatsCount)* _EOS_Stats_GetStatsCount;
-        decltype(EOS_Stats_CopyStatByIndex)* _EOS_Stats_CopyStatByIndex;
-        decltype(EOS_Stats_Stat_Release)* _EOS_Stats_Stat_Release;
-
     public:
+        CStats(EOSApi* eos_api) :
+            _EOSApi(eos_api)
+        {}
+
         inline bool HasInterface() const { return hIface != nullptr; }
 
         void QueryStats(EOS_Stats_QueryStatsOptions const* options, void* client_data, EOS_Stats_OnQueryStatsCompleteCallback completion_delegate)
         {
-            if (_EOS_Stats_QueryStats == nullptr)
+            if (_EOSApi->_EOS_Stats_QueryStats == nullptr)
                 throw std::runtime_error("EOS_Stats_QueryStats is not available");
 
-            _EOS_Stats_QueryStats(hIface, options, client_data, completion_delegate);
+            _EOSApi->_EOS_Stats_QueryStats(hIface, options, client_data, completion_delegate);
         }
 
         uint32_t GetStatsCount(EOS_Stats_GetStatCountOptions const* options)
         {
-            return _EOS_Stats_GetStatsCount(hIface, options);
+            return _EOSApi->_EOS_Stats_GetStatsCount(hIface, options);
         }
 
         EOS_EResult CopyStatByIndex(EOS_Stats_CopyStatByIndexOptions const* options, EOS_Stats_Stat** out_stat)
         {
-            return _EOS_Stats_CopyStatByIndex(hIface, options, out_stat);
+            return _EOSApi->_EOS_Stats_CopyStatByIndex(hIface, options, out_stat);
         }
 
         void Stat_Release(EOS_Stats_Stat* stat)
         {
-            _EOS_Stats_Stat_Release(stat);
+            _EOSApi->_EOS_Stats_Stat_Release(stat);
+        }
+    };
+
+    class CTitleStorage
+    {
+        friend EOSApi;
+        friend CPlatform;
+        EOSApi* _EOSApi;
+        EOS_HTitleStorage hIface = nullptr;
+
+    public:
+        CTitleStorage(EOSApi* eos_api) :
+            _EOSApi(eos_api)
+        {}
+
+        inline bool HasInterface() const { return hIface != nullptr; }
+
+        void QueryFile(const EOS_TitleStorage_QueryFileOptions* options, void* client_data, const EOS_TitleStorage_OnQueryFileCompleteCallback completion_callback)
+        {
+            if (_EOSApi->_EOS_TitleStorage_QueryFile == nullptr)
+                throw std::runtime_error("EOS_TitleStorage_QueryFile is not available");
+
+            _EOSApi->_EOS_TitleStorage_QueryFile(hIface, options, client_data, completion_callback);
+        }
+
+        void QueryFileList(const EOS_TitleStorage_QueryFileListOptions* options, void* client_data, const EOS_TitleStorage_OnQueryFileListCompleteCallback completion_callback)
+        {
+            if (_EOSApi->_EOS_TitleStorage_QueryFileList == nullptr)
+                throw std::runtime_error("EOS_TitleStorage_QueryFileList is not available");
+
+            _EOSApi->_EOS_TitleStorage_QueryFileList(hIface, options, client_data, completion_callback);
+        }
+
+        EOS_HTitleStorageFileTransferRequest ReadFile(const EOS_TitleStorage_ReadFileOptions* options, void* client_data, const EOS_TitleStorage_OnReadFileCompleteCallback completion_callback)
+        {
+            if (_EOSApi->_EOS_TitleStorage_ReadFile == nullptr)
+                throw std::runtime_error("EOS_TitleStorage_ReadFile is not available");
+
+            return _EOSApi->_EOS_TitleStorage_ReadFile(hIface, options, client_data, completion_callback);
         }
     };
 
@@ -622,49 +745,39 @@ class EOSApi
     {
         friend EOSApi;
         friend CPlatform;
+        EOSApi* _EOSApi;
         EOS_HLeaderboards hIface = nullptr;
 
-        decltype(EOS_Leaderboards_QueryLeaderboardDefinitions)* _EOS_Leaderboards_QueryLeaderboardDefinitions;
-        decltype(EOS_Leaderboards_GetLeaderboardDefinitionCount)* _EOS_Leaderboards_GetLeaderboardDefinitionCount;
-        decltype(EOS_Leaderboards_CopyLeaderboardDefinitionByIndex)* _EOS_Leaderboards_CopyLeaderboardDefinitionByIndex;
-        decltype(EOS_Leaderboards_Definition_Release)* _EOS_Leaderboards_Definition_Release;
-
     public:
+        CLeaderboards(EOSApi* eos_api) :
+            _EOSApi(eos_api)
+        {}
+
         inline bool HasInterface() const { return hIface != nullptr; }
 
         void QueryLeaderboardDefinitions(const EOS_Leaderboards_QueryLeaderboardDefinitionsOptions* options, void* client_data, const EOS_Leaderboards_OnQueryLeaderboardDefinitionsCompleteCallback completion_delegate)
         {
-            if (_EOS_Leaderboards_QueryLeaderboardDefinitions == nullptr)
+            if (_EOSApi->_EOS_Leaderboards_QueryLeaderboardDefinitions == nullptr)
                 throw std::runtime_error("EOS_Leaderboards_QueryLeaderboardDefinitions is not available");
 
-            _EOS_Leaderboards_QueryLeaderboardDefinitions(hIface, options, client_data, completion_delegate);
+            _EOSApi->_EOS_Leaderboards_QueryLeaderboardDefinitions(hIface, options, client_data, completion_delegate);
         }
 
         uint32_t GetLeaderboardDefinitionCount(const EOS_Leaderboards_GetLeaderboardDefinitionCountOptions* options)
         {
-            return _EOS_Leaderboards_GetLeaderboardDefinitionCount(hIface, options);
+            return _EOSApi->_EOS_Leaderboards_GetLeaderboardDefinitionCount(hIface, options);
         }
 
         EOS_EResult CopyLeaderboardDefinitionByIndex(const EOS_Leaderboards_CopyLeaderboardDefinitionByIndexOptions* options, EOS_Leaderboards_Definition** out_definition)
         {
-            return _EOS_Leaderboards_CopyLeaderboardDefinitionByIndex(hIface, options, out_definition);
+            return _EOSApi->_EOS_Leaderboards_CopyLeaderboardDefinitionByIndex(hIface, options, out_definition);
         }
 
         void Definition_Release(EOS_Leaderboards_Definition* leaderboard_definition)
         {
-            _EOS_Leaderboards_Definition_Release(leaderboard_definition);
+            _EOSApi->_EOS_Leaderboards_Definition_Release(leaderboard_definition);
         }
     };
-
-    decltype(EOS_Initialize)* _EOS_Initialize;
-    decltype(EOS_Shutdown)* _EOS_Shutdown;
-    decltype(EOS_EResult_ToString)* _EOS_EResult_ToString;
-    decltype(EOS_EpicAccountId_IsValid)* _EOS_EpicAccountId_IsValid;
-    decltype(EOS_EpicAccountId_ToString)* _EOS_EpicAccountId_ToString;
-    decltype(EOS_EpicAccountId_FromString)* _EOS_EpicAccountId_FromString;
-    decltype(EOS_ProductUserId_IsValid)* _EOS_ProductUserId_IsValid;
-    decltype(EOS_ProductUserId_ToString)* _EOS_ProductUserId_ToString;
-    decltype(EOS_ProductUserId_FromString)* _EOS_ProductUserId_FromString;
 
 public:
     CPlatform Platform;
@@ -674,8 +787,17 @@ public:
     CEcom Ecom;
     CStats Stats;
     CLeaderboards Leaderboards;
+    CTitleStorage TitleStorage;
 
-    EOSApi()
+    EOSApi():
+        Platform(this),
+        Achievements(this),
+        Auth(this),
+        Connect(this),
+        Ecom(this),
+        Stats(this),
+        Leaderboards(this),
+        TitleStorage(this)
     {
         std::string lib_path = get_executable_path();
         lib_path = lib_path.substr(0, lib_path.rfind(PATH_SEPARATOR) + 1);
@@ -702,58 +824,66 @@ public:
         LOAD_API(this, EOS_ProductUserId_FromString);
 
         // Platform
-        LOAD_API(&Platform, EOS_Platform_Create);
-        LOAD_API(&Platform, EOS_Platform_Tick);
-        LOAD_API(&Platform, EOS_Platform_SetOverrideLocaleCode);
-        LOAD_API(&Platform, EOS_Platform_GetAuthInterface);
-        LOAD_API(&Platform, EOS_Platform_GetConnectInterface);
-        LOAD_API(&Platform, EOS_Platform_GetEcomInterface);
+        LOAD_API(this, EOS_Platform_Create);
+        LOAD_API(this, EOS_Platform_Tick);
+        LOAD_API(this, EOS_Platform_SetOverrideLocaleCode);
+        LOAD_API(this, EOS_Platform_GetAuthInterface);
+        LOAD_API(this, EOS_Platform_GetConnectInterface);
+        LOAD_API(this, EOS_Platform_GetEcomInterface);
 
-        LOAD_OPTIONNAL(&Platform, EOS_Platform_GetAchievementsInterface);
-        LOAD_OPTIONNAL(&Platform, EOS_Platform_GetStatsInterface);
-        LOAD_OPTIONNAL(&Platform, EOS_Platform_GetLeaderboardsInterface);
+        LOAD_OPTIONNAL(this, EOS_Platform_GetAchievementsInterface);
+        LOAD_OPTIONNAL(this, EOS_Platform_GetStatsInterface);
+        LOAD_OPTIONNAL(this, EOS_Platform_GetLeaderboardsInterface);
+        LOAD_OPTIONNAL(this, EOS_Platform_GetTitleStorageInterface);
 
         // Achievements
-        LOAD_OPTIONNAL(&Achievements, EOS_Achievements_QueryDefinitions);
-        LOAD_OPTIONNAL(&Achievements, EOS_Achievements_GetAchievementDefinitionCount);
-        LOAD_OPTIONNAL(&Achievements, EOS_Achievements_CopyAchievementDefinitionByIndex);
-        LOAD_OPTIONNAL(&Achievements, EOS_Achievements_Definition_Release);
-        LOAD_OPTIONNAL(&Achievements, EOS_Achievements_CopyAchievementDefinitionV2ByIndex);
-        LOAD_OPTIONNAL(&Achievements, EOS_Achievements_DefinitionV2_Release);
+        LOAD_OPTIONNAL(this, EOS_Achievements_QueryDefinitions);
+        LOAD_OPTIONNAL(this, EOS_Achievements_GetAchievementDefinitionCount);
+        LOAD_OPTIONNAL(this, EOS_Achievements_CopyAchievementDefinitionByIndex);
+        LOAD_OPTIONNAL(this, EOS_Achievements_Definition_Release);
+        LOAD_OPTIONNAL(this, EOS_Achievements_CopyAchievementDefinitionV2ByIndex);
+        LOAD_OPTIONNAL(this, EOS_Achievements_DefinitionV2_Release);
 
         // Auth
-        LOAD_API(&Auth, EOS_Auth_Login);
-        LOAD_API(&Auth, EOS_Auth_GetLoggedInAccountByIndex);
-        LOAD_API(&Auth, EOS_Auth_CopyUserAuthToken);
+        LOAD_API(this, EOS_Auth_Login);
+        LOAD_API(this, EOS_Auth_GetLoggedInAccountByIndex);
+        LOAD_API(this, EOS_Auth_CopyUserAuthToken);
 
         // Connect
-        LOAD_API(&Connect, EOS_Connect_Login);
-        LOAD_API(&Connect, EOS_Connect_CreateUser);
-        LOAD_API(&Connect, EOS_Connect_GetLoggedInUserByIndex);
-        LOAD_API(&Connect, EOS_Connect_GetProductUserIdMapping);
-        LOAD_API(&Connect, EOS_Connect_GetExternalAccountMapping);
+        LOAD_API(this, EOS_Connect_Login);
+        LOAD_API(this, EOS_Connect_CreateUser);
+        LOAD_API(this, EOS_Connect_GetLoggedInUserByIndex);
+        LOAD_API(this, EOS_Connect_GetProductUserIdMapping);
+        LOAD_API(this, EOS_Connect_GetExternalAccountMapping);
 
         // Ecom
-        LOAD_API(&Ecom, EOS_Ecom_QueryOffers);
-        LOAD_API(&Ecom, EOS_Ecom_GetOfferCount);
-        LOAD_API(&Ecom, EOS_Ecom_CopyOfferByIndex);
-        LOAD_API(&Ecom, EOS_Ecom_CatalogOffer_Release);
+        LOAD_API(this, EOS_Ecom_QueryOffers);
+        LOAD_API(this, EOS_Ecom_GetOfferCount);
+        LOAD_API(this, EOS_Ecom_CopyOfferByIndex);
+        LOAD_API(this, EOS_Ecom_CatalogOffer_Release);
 
         // Stats
-        LOAD_OPTIONNAL(&Stats, EOS_Stats_QueryStats);
-        LOAD_OPTIONNAL(&Stats, EOS_Stats_GetStatsCount);
-        LOAD_OPTIONNAL(&Stats, EOS_Stats_CopyStatByIndex);
-        LOAD_OPTIONNAL(&Stats, EOS_Stats_Stat_Release);
+        LOAD_OPTIONNAL(this, EOS_Stats_QueryStats);
+        LOAD_OPTIONNAL(this, EOS_Stats_GetStatsCount);
+        LOAD_OPTIONNAL(this, EOS_Stats_CopyStatByIndex);
+        LOAD_OPTIONNAL(this, EOS_Stats_Stat_Release);
 
         // Leaderboards
-        LOAD_OPTIONNAL(&Leaderboards, EOS_Leaderboards_QueryLeaderboardDefinitions);
-        LOAD_OPTIONNAL(&Leaderboards, EOS_Leaderboards_GetLeaderboardDefinitionCount);
-        LOAD_OPTIONNAL(&Leaderboards, EOS_Leaderboards_CopyLeaderboardDefinitionByIndex);
-        LOAD_OPTIONNAL(&Leaderboards, EOS_Leaderboards_Definition_Release);
+        LOAD_OPTIONNAL(this, EOS_Leaderboards_QueryLeaderboardDefinitions);
+        LOAD_OPTIONNAL(this, EOS_Leaderboards_GetLeaderboardDefinitionCount);
+        LOAD_OPTIONNAL(this, EOS_Leaderboards_CopyLeaderboardDefinitionByIndex);
+        LOAD_OPTIONNAL(this, EOS_Leaderboards_Definition_Release);
+
+        // TitleStorage
+        LOAD_OPTIONNAL(this, EOS_TitleStorage_QueryFile);
+        LOAD_OPTIONNAL(this, EOS_TitleStorage_QueryFileList);
+        LOAD_OPTIONNAL(this, EOS_TitleStorage_CopyFileMetadataByFilename);
+        LOAD_OPTIONNAL(this, EOS_TitleStorage_GetFileMetadataCount);
+        LOAD_OPTIONNAL(this, EOS_TitleStorage_CopyFileMetadataAtIndex);
+        LOAD_OPTIONNAL(this, EOS_TitleStorage_ReadFile);
+        LOAD_OPTIONNAL(this, EOS_TitleStorage_DeleteCache);
 
 #undef LOAD_API
-
-        Platform.eos_api = this;
     }
 
     void Initialize(EOS_InitializeOptions const* options)
@@ -841,7 +971,7 @@ static void EOSApiInitialize(std::string product_name, std::string product_versi
     eos_api.Initialize(&InitOptions);
 }
 
-static void PlatformInitialize(std::string deployement_id, std::string product_id, std::string sandbox_id, std::string client_id, std::string client_secret, uint64_t flags = EOS_PF_DISABLE_OVERLAY, int32_t api_version = EOS_PLATFORM_OPTIONS_API_LATEST)
+static void PlatformInitialize(std::string deployement_id, std::string product_id, std::string sandbox_id, std::string client_id, std::string client_secret, std::string cache_directory, std::string encryption_key, uint64_t flags = EOS_PF_DISABLE_OVERLAY, int32_t api_version = EOS_PLATFORM_OPTIONS_API_LATEST)
 {
     EOS_Platform_Options PlatformOptions{};
     PlatformOptions.ApiVersion = api_version;
@@ -850,10 +980,12 @@ static void PlatformInitialize(std::string deployement_id, std::string product_i
     PlatformOptions.SandboxId = sandbox_id.c_str();
     PlatformOptions.ClientCredentials.ClientId = client_id.c_str();
     PlatformOptions.ClientCredentials.ClientSecret = client_secret.c_str();
+    PlatformOptions.CacheDirectory = cache_directory.c_str();
+    PlatformOptions.EncryptionKey = encryption_key.empty() ? nullptr : encryption_key.c_str();
 
     PlatformOptions.Flags = flags;
 
-    SPDLOG_TRACE("Creating Platform: DeployementId({}), ProductId({}), SandboxId({}), ClientId({}), ClientSecret({})", deployement_id, product_id, sandbox_id, client_id, client_secret);
+    SPDLOG_TRACE("Creating Platform: ApiVersion({}), DeployementId({}), ProductId({}), SandboxId({}), ClientId({}), ClientSecret({}), EncryptionKey({})", api_version, deployement_id, product_id, sandbox_id, client_id, client_secret, encryption_key);
     try
     {
         eos_api.Platform.Create(&PlatformOptions);
@@ -862,7 +994,7 @@ static void PlatformInitialize(std::string deployement_id, std::string product_i
     {
         if (api_version > 1)
         {
-            PlatformInitialize(deployement_id, product_id, sandbox_id, client_id, client_secret, flags, api_version - 1);
+            PlatformInitialize(deployement_id, product_id, sandbox_id, client_id, client_secret, cache_directory, encryption_key, flags, api_version - 1);
         }
     }
 }
@@ -1390,6 +1522,59 @@ static void MakeLeaderboards()
     }
 }
 
+void DownloadTitleStorage(std::string filename)
+{
+    std::atomic<int> go;
+
+    EOS_TitleStorage_QueryFileOptions query_options{};
+
+    query_options.ApiVersion = EOS_TITLESTORAGE_QUERYFILEOPTIONS_API_LATEST;
+    query_options.LocalUserId = eos_api.Connect.GetLoggedInUserByIndex(0);
+    query_options.Filename = filename.c_str();
+
+    go = -1;
+    SPDLOG_TRACE("Querying title storage...");
+    eos_api.TitleStorage.QueryFile(&query_options, &go, [](EOS_TitleStorage_QueryFileCallbackInfo const* infos)
+    {
+        std::atomic<int>& go = *reinterpret_cast<std::atomic<int>*>(infos->ClientData);
+        go = (int)infos->ResultCode;
+    });
+
+    while (go == -1);
+
+    if (go != (int)EOS_EResult::EOS_Success)
+    {
+        throw std::runtime_error(fmt::format("Failed to query title storage: {}", eos_api.EResult_ToString((EOS_EResult)go.load())));
+    }
+
+    EOS_TitleStorage_ReadFileOptions read_options{};
+
+    read_options.ApiVersion = EOS_TITLESTORAGE_READFILEOPTIONS_API_LATEST;
+    read_options.LocalUserId = eos_api.Connect.GetLoggedInUserByIndex(0);
+    read_options.Filename = filename.c_str();
+    read_options.ReadChunkLengthBytes = 65536;
+    read_options.ReadFileDataCallback = [](const EOS_TitleStorage_ReadFileDataCallbackInfo* Data) -> EOS_TitleStorage_EReadResult
+    {
+        std::string chunk((const char*)Data->DataChunk, (const char*)Data->DataChunk + Data->DataChunkLengthBytes);
+
+        return EOS_TitleStorage_EReadResult::EOS_TS_RR_ContinueReading;
+    };
+
+    go = -1;
+    eos_api.TitleStorage.ReadFile(&read_options, &go, [](EOS_TitleStorage_ReadFileCallbackInfo const* infos)
+    {
+        std::atomic<int>& go = *reinterpret_cast<std::atomic<int>*>(infos->ClientData);
+        go = (int)infos->ResultCode;
+    });
+
+    while (go == -1);
+
+    if (go != (int)EOS_EResult::EOS_Success)
+    {
+        throw std::runtime_error(fmt::format("Failed to query title storage: {}", eos_api.EResult_ToString((EOS_EResult)go.load())));
+    }
+}
+
 void ParseCmdLine()
 {
     auto args = get_proc_argv();
@@ -1406,7 +1591,7 @@ void ParseCmdLine()
         options.add_options()
             ("i,icons", "Download achievements icons.", cxxopts::value<bool>()->default_value("false"));
         auto result = options.parse(c_args.size(), &c_args[0]);
-        
+
         AppArgs.DownloadIcons = result["icons"].as<bool>();
     }
     catch(std::exception& e)
@@ -1419,7 +1604,7 @@ void ParseCmdLine()
 int main(int argc, char* argv[])
 {
     std::vector<std::string> args;
-    
+
     ParseCmdLine();
 
     {
@@ -1454,6 +1639,9 @@ int main(int argc, char* argv[])
     std::string sandbox_id;
     std::string audience;
     std::string secret_key;
+    std::string encryption_key;
+    std::string cache_directory = get_executable_path();
+    cache_directory = cache_directory.substr(0, cache_directory.rfind(PATH_SEPARATOR) + 1);
 
     {
         nlohmann::json json = nlohmann::json::object_t();
@@ -1482,6 +1670,8 @@ int main(int argc, char* argv[])
         catch (...) {}
         try { audience = json["EOS_AUDIENCE"]; }
         catch (...) {}
+        try { encryption_key = json["EOS_ENCRYPTIONKEY"]; }
+        catch(...) {}
     }
 
     EGS_Api egs_api;
@@ -1628,6 +1818,8 @@ int main(int argc, char* argv[])
             sandbox_id, // Namespace
             audience,
             secret_key,
+            cache_directory,
+            encryption_key,
             EOS_PF_DISABLE_OVERLAY);
 
         eos_api.Platform.SetOverrideLocaleCode("en");
