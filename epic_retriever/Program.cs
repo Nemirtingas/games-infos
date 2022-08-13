@@ -17,8 +17,11 @@ namespace epic_retriever
         [Option('f', "force", Required = false, HelpText = "Force to download game's infos (usefull if you want to refresh a game).")]
         public bool Force { get; set; } = false;
 
-        [Option('o', "out", Required = false, HelpText = "Where to output your game definitions. By default it will output to 'steam' directory alongside the executable.")]
+        [Option('o', "out", Required = false, HelpText = "Where to output your game definitions. By default it will output to 'epic' directory alongside the executable.")]
         public string OutDirectory { get; set; } = "epic";
+
+        [Option('c', "cache_out", Required = false, HelpText = "Where to output the cache datas. By default it will output to 'epic_cache' directory alongside the executable.")]
+        public string OutCacheDirectory { get; set; } = "epic_cache";
 
         [Option('s', "sessionid", Required = false, HelpText = "The SID, allows you to remove the need of interactivity.")]
         public string SessionID { get; set; } = string.Empty;
@@ -66,6 +69,7 @@ namespace epic_retriever
     class Program
     {
         static string OutputDir { get; set; }
+        static string OutCacheDirectory { get; set; }
         static bool DownloadImages { get; set; }
         static bool Force { get; set; }
         static string SessionID { get; set; }
@@ -83,7 +87,7 @@ namespace epic_retriever
 
             try
             {
-                string asset_path = Path.Combine(OutputDir, "cache", "assets", asset.Namespace);
+                string asset_path = Path.Combine(OutCacheDirectory, "assets", asset.Namespace);
                 if (!Directory.Exists(asset_path))
                 {
                     Directory.CreateDirectory(asset_path);
@@ -104,7 +108,7 @@ namespace epic_retriever
         {
             try
             {
-                string asset_path = Path.Combine(OutputDir, "cache", "app_infos", app.Namespace);
+                string asset_path = Path.Combine(OutCacheDirectory, "app_infos", app.Namespace);
                 if (!Directory.Exists(asset_path))
                 {
                     Directory.CreateDirectory(asset_path);
@@ -129,7 +133,7 @@ namespace epic_retriever
             try
             {
                 JObject cached_asset;
-                string asset_path = Path.Combine(OutputDir, "cache", "assets", asset.Namespace, asset.CatalogItemId + ".json");
+                string asset_path = Path.Combine(OutCacheDirectory, "assets", asset.Namespace, asset.CatalogItemId + ".json");
 
                 using (StreamReader reader = new StreamReader(new FileStream(asset_path, FileMode.Open), Encoding.UTF8))
                 {
@@ -147,7 +151,7 @@ namespace epic_retriever
         static EGS.AppInfos GetCachedAppInfos(string namespace_, string catalog_item_id)
         {
             EGS.AppInfos app = new EGS.AppInfos();
-            string app_infos_path = Path.Combine(OutputDir, "cache", "app_infos", namespace_, catalog_item_id + ".json");
+            string app_infos_path = Path.Combine(OutCacheDirectory, "app_infos", namespace_, catalog_item_id + ".json");
             if (!File.Exists(app_infos_path))
                 return app;
 
@@ -241,7 +245,7 @@ namespace epic_retriever
             try
             {
                 string app_id = (string)game_infos["AppId"];
-                string infos_path = Path.Combine(OutputDir, "game_infos", (string)game_infos["Namespace"], app_id);
+                string infos_path = Path.Combine(OutputDir, (string)game_infos["Namespace"], app_id);
                 if (!Directory.Exists(infos_path))
                     Directory.CreateDirectory(infos_path);
 
@@ -283,7 +287,7 @@ namespace epic_retriever
             AppList app_list = new AppList();
 
             WebClient wcli = new WebClient();
-            string applist_path = Path.Combine(OutputDir, "cache", "applist.json");
+            string applist_path = Path.Combine(OutCacheDirectory, "applist.json");
 
             
             try
@@ -493,6 +497,7 @@ namespace epic_retriever
                 AppNamespace = options.AppNamespace;
                 AppCatalogItemId = options.AppCatalogItemId;
                 FromWeb = options.FromWeb;
+                OutCacheDirectory = options.OutCacheDirectory;
             }).WithNotParsed(e => {
                 Environment.Exit(0);
             });
@@ -500,7 +505,7 @@ namespace epic_retriever
             EGSApi = new EGS.WebApi();
             JObject oauth_infos = new JObject();
             bool login_sid = false;
-            string oauth_path = Path.Combine(OutputDir, "cache", "oauth_cache.json");
+            string oauth_path = Path.Combine(OutCacheDirectory, "oauth_cache.json");
 
             try
             {
@@ -553,12 +558,12 @@ namespace epic_retriever
 
             try
             {
-                if(!Directory.Exists(Path.Combine(OutputDir, "cache")))
-                    Directory.CreateDirectory(Path.Combine(OutputDir, "cache"));
+                if(!Directory.Exists(Path.Combine(OutCacheDirectory)))
+                    Directory.CreateDirectory(Path.Combine(OutCacheDirectory));
             }
             catch(Exception)
             {
-                Console.WriteLine($"Failed to create {Path.Combine(OutputDir, "cache")}");
+                Console.WriteLine($"Failed to create {OutCacheDirectory}");
                 return;
             }
 
