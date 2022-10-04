@@ -594,7 +594,9 @@ namespace steam_retriever
                 {
                     try
                     {
-                        if (bool.Parse(language["supported"].AsString()))
+                        bool b;
+                        int i;
+                        if ((bool.TryParse(language["supported"].AsString(), out b) && b) || (int.TryParse(language["supported"].AsString(), out i) && i != 0))
                         {
                             ((JArray)infos["Languages"]).Add(language.Name.Trim().ToLower());
                         }
