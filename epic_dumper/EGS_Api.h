@@ -24,6 +24,7 @@ public:
 
     enum class TokenType
     {
+        AuthorizationCode,
         ExchangeCode,
         RefreshToken,
     };
@@ -42,6 +43,8 @@ public:
     ~EGS_Api();
 
     EGS_Api::Error LoginSID(std::string const& sid);
+
+    EGS_Api::Error LoginAuthorizationCode(std::string const& auth_code);
 
     EGS_Api::Error Login(nlohmann::json const& oauth);
 

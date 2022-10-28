@@ -77,7 +77,10 @@ class EGS_ApiImpl
         _OAuthInfos["display_name"] = oauth_infos["display_name"];
         _OAuthInfos["app"] = oauth_infos["app"];
         _OAuthInfos["in_app_id"] = oauth_infos["in_app_id"];
-        _OAuthInfos["device_id"] = oauth_infos["device_id"];
+
+        auto it = oauth_infos.find("device_id");
+        if (it != oauth_infos.end())
+            _OAuthInfos["device_id"] = it.value();
     }
 
     EGS_Api::Error _GetXSRFToken(std::string& xsrf_token)
@@ -137,6 +140,11 @@ class EGS_ApiImpl
 
         switch (type)
         {
+            case EGS_Api::TokenType::AuthorizationCode:
+                _Curl.SetData("grant_type", "authorization_code");
+                _Curl.SetData("code", token);
+                break;
+
             case EGS_Api::TokenType::ExchangeCode:
                 _Curl.SetData("grant_type", "exchange_code");
                 _Curl.SetData("exchange_code", token);
@@ -263,6 +271,20 @@ public:
             return EGS_Api::Error{ EGS_Api::ErrorType::Unknown, "Empty exchange code." };
 
         err = _StartSession(EGS_Api::TokenType::ExchangeCode, exchange_code);
+        if (err.error != EGS_Api::ErrorType::OK)
+            return err;
+
+        err = _ResumeSession();
+        if (err.error != EGS_Api::ErrorType::OK)
+            return err;
+
+        _IsLoggedIn = true;
+        return EGS_Api::Error{ EGS_Api::ErrorType::OK, "" };
+    }
+
+    EGS_Api::Error LoginAuthorizationCode(std::string const& auth_code)
+    {
+        EGS_Api::Error err = _StartSession(EGS_Api::TokenType::AuthorizationCode, auth_code);
         if (err.error != EGS_Api::ErrorType::OK)
             return err;
 
@@ -452,6 +474,11 @@ EGS_Api::~EGS_Api()
 EGS_Api::Error EGS_Api::LoginSID(std::string const& sid)
 {
     return _impl->LoginSID(sid);
+}
+
+EGS_Api::Error EGS_Api::LoginAuthorizationCode(std::string const& auth_code)
+{
+    return _impl->LoginAuthorizationCode(auth_code);
 }
 
 EGS_Api::Error EGS_Api::Login(nlohmann::json const& oauth)

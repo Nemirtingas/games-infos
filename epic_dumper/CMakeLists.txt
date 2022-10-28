@@ -19,10 +19,15 @@ find_package(OpenSSL REQUIRED)
 add_executable(${CMAKE_PROJECT_NAME}
   epic_dumper.cpp
   base64.cpp
+  base64.h
   CurlEasy.cpp
+  CurlEasy.h
   EGS_Api.cpp
+  EGS_Api.h
   library.cpp
+  library.h
   os_funcs.cpp
+  os_funcs.h
 )
 
 set_target_properties(${CMAKE_PROJECT_NAME} PROPERTIES

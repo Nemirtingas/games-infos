@@ -411,6 +411,7 @@ class EOSApi
     decltype(EOS_Achievements_CopyAchievementDefinitionByIndex)* _EOS_Achievements_CopyAchievementDefinitionByIndex;
     decltype(EOS_Achievements_Definition_Release)* _EOS_Achievements_Definition_Release;
     decltype(EOS_Achievements_CopyAchievementDefinitionV2ByIndex)* _EOS_Achievements_CopyAchievementDefinitionV2ByIndex;
+    decltype(EOS_Achievements_CopyAchievementDefinitionV2ByAchievementId)* _EOS_Achievements_CopyAchievementDefinitionV2ByAchievementId;
     decltype(EOS_Achievements_DefinitionV2_Release)* _EOS_Achievements_DefinitionV2_Release;
 
     // EOS_TitleStorageFileTransferRequest
@@ -534,10 +535,18 @@ class EOSApi
 
         EOS_EResult CopyAchievementDefinitionV2ByIndex(EOS_Achievements_CopyAchievementDefinitionV2ByIndexOptions const* options, EOS_Achievements_DefinitionV2** out_definition)
         {
-            if (_EOSApi->_EOS_Achievements_CopyAchievementDefinitionByIndex == nullptr)
+            if (_EOSApi->_EOS_Achievements_CopyAchievementDefinitionV2ByIndex == nullptr)
                 throw std::runtime_error("_EOS_Achievements_CopyAchievementDefinitionByIndex is not available");
 
             return _EOSApi->_EOS_Achievements_CopyAchievementDefinitionV2ByIndex(hIface, options, out_definition);
+        }
+
+        EOS_EResult CopyAchievementDefinitionV2ByAchievementId(EOS_Achievements_CopyAchievementDefinitionV2ByAchievementIdOptions const* options, EOS_Achievements_DefinitionV2** out_definition)
+        {
+            if (_EOSApi->_EOS_Achievements_CopyAchievementDefinitionV2ByAchievementId == nullptr)
+                throw std::runtime_error("_EOS_Achievements_CopyAchievementDefinitionV2ByAchievementId is not available");
+
+            return _EOSApi->_EOS_Achievements_CopyAchievementDefinitionV2ByAchievementId(hIface, options, out_definition);
         }
 
         void DefinitionV2_Release(EOS_Achievements_DefinitionV2* achievement_definition)
@@ -842,6 +851,7 @@ public:
         LOAD_OPTIONNAL(this, EOS_Achievements_CopyAchievementDefinitionByIndex);
         LOAD_OPTIONNAL(this, EOS_Achievements_Definition_Release);
         LOAD_OPTIONNAL(this, EOS_Achievements_CopyAchievementDefinitionV2ByIndex);
+        LOAD_OPTIONNAL(this, EOS_Achievements_CopyAchievementDefinitionV2ByAchievementId);
         LOAD_OPTIONNAL(this, EOS_Achievements_DefinitionV2_Release);
 
         // Auth
@@ -1601,6 +1611,26 @@ void ParseCmdLine()
     }
 }
 
+EGS_Api::Error LoginWithSid(EGS_Api& egs_api)
+{
+    std::string user_input;
+
+    std::cout << "EGL sid (get it at: https://www.epicgames.com/id/login?redirectUrl=https://www.epicgames.com/id/api/redirect): ";
+    std::cin >> user_input;
+
+    return egs_api.LoginSID(user_input);
+}
+
+EGS_Api::Error LoginWithAuthorizationCode(EGS_Api& egs_api)
+{
+    std::string user_input;
+
+    std::cout << "EGL authorization code (get it at: https://www.epicgames.com/id/api/redirect?clientId=34a02cf8f4414e29b15921876da36f9a&responseType=code): ";
+    std::cin >> user_input;
+
+    return egs_api.LoginAuthorizationCode(user_input);
+}
+
 int main(int argc, char* argv[])
 {
     std::vector<std::string> args;
@@ -1692,13 +1722,10 @@ int main(int argc, char* argv[])
     if (err.error != EGS_Api::ErrorType::OK)
     {
         SPDLOG_ERROR("Failed to login: {}", err.message);
+        
+        //err = LoginWithSid(egs_api);
+        err = LoginWithAuthorizationCode(egs_api);
 
-        std::string sid;
-
-        std::cout << "EGL sid (get it at: https://www.epicgames.com/id/login?redirectUrl=https://www.epicgames.com/id/api/redirect): ";
-        std::cin >> sid;
-
-        err = egs_api.LoginSID(sid);
         if (err.error != EGS_Api::ErrorType::OK)
             return -1;
     }
