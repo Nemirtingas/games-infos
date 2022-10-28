@@ -7,6 +7,7 @@ namespace EGS
         {
             ExchangeCode,
             RefreshToken,
+            AuthorizationCode,
         }
 
         public string Token { get; set; }

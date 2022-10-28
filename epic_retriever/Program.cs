@@ -23,9 +23,6 @@ namespace epic_retriever
         [Option('c', "cache_out", Required = false, HelpText = "Where to output the cache datas. By default it will output to 'epic_cache' directory alongside the executable.")]
         public string OutCacheDirectory { get; set; } = "epic_cache";
 
-        [Option('s', "sessionid", Required = false, HelpText = "The SID, allows you to remove the need of interactivity.")]
-        public string SessionID { get; set; } = string.Empty;
-
         [Option('w', "fromweb", Required = false, HelpText = "Try to deduce the catalog id from the app web page.")]
         public bool FromWeb { get; set; } = false;
         
@@ -72,7 +69,6 @@ namespace epic_retriever
         static string OutCacheDirectory { get; set; }
         static bool DownloadImages { get; set; }
         static bool Force { get; set; }
-        static string SessionID { get; set; }
         static bool FromWeb { get; set; }
         static string AppNamespace { get; set; }
         static string AppCatalogItemId { get; set; }
@@ -487,13 +483,45 @@ namespace epic_retriever
             }
         }
 
+        static JObject LoginWithAuthcode()
+        {
+            string user_input;
+
+            Console.WriteLine("Will now try to login with authorization code...");
+            Console.WriteLine("EGL authcode (get it at: https://www.epicgames.com/id/api/redirect?clientId=34a02cf8f4414e29b15921876da36f9a&responseType=code): ");
+            user_input = Console.ReadLine();
+
+            var t = EGSApi.LoginAuthCode(user_input);
+            t.Wait();
+            EGS.Error<JObject> result = t.Result;
+            if (result.ErrorCode != EGS.Error.OK)
+                return null;
+
+            return result.Result;
+        }
+
+        static JObject LoginWithSID()
+        {
+            string user_input;
+
+            Console.WriteLine("Will now try to login with SID...");
+            Console.WriteLine("EGL sid (get it at: https://www.epicgames.com/id/login?redirectUrl=https://www.epicgames.com/id/api/redirect): ");
+            user_input = Console.ReadLine();
+
+            var t = EGSApi.LoginSID(user_input);
+            t.Wait();
+            EGS.Error<JObject> result = t.Result;
+            if (result.ErrorCode != EGS.Error.OK)
+                return null;
+
+            return result.Result;
+        }
         static void Main(string[] args)
         {
             Parser.Default.ParseArguments<Options>(args).WithParsed(options => {
                 OutputDir = options.OutDirectory;
                 DownloadImages = options.DownloadImages;
                 Force = options.Force;
-                SessionID = options.SessionID;
                 AppNamespace = options.AppNamespace;
                 AppCatalogItemId = options.AppCatalogItemId;
                 FromWeb = options.FromWeb;
@@ -504,7 +532,8 @@ namespace epic_retriever
 
             EGSApi = new EGS.WebApi();
             JObject oauth_infos = new JObject();
-            bool login_sid = false;
+            bool login_with_sid = false;
+            bool login_with_authcode = false;
             string oauth_path = Path.Combine(OutCacheDirectory, "oauth_cache.json");
 
             try
@@ -520,7 +549,8 @@ namespace epic_retriever
                 if (result.ErrorCode != EGS.Error.OK)
                 {
                     Console.WriteLine("Failed to login with the cached infos: {0};", result.Message);
-                    login_sid = true;
+                    login_with_sid = false;
+                    login_with_authcode = true;
                 }
                 else
                 {
@@ -530,30 +560,32 @@ namespace epic_retriever
             catch (Exception e)
             {
                 Console.WriteLine("Failed to login with the cached infos: {0};", e.Message);
-                login_sid = true;
+                login_with_sid = false;
+                login_with_authcode = true;
             }
 
-            if (login_sid)
+            if (login_with_authcode)
             {
-                Console.WriteLine("Will now try to login with SID...");
-                if (string.IsNullOrWhiteSpace(SessionID))
+                oauth_infos = LoginWithAuthcode();
+                if(oauth_infos == null)
                 {
-                    Console.WriteLine("EGL sid (get it at: https://www.epicgames.com/id/login?redirectUrl=https://www.epicgames.com/id/api/redirect): ");
-                    SessionID = Console.ReadLine();
-                }
-
-                var t = EGSApi.LoginSID(SessionID);
-                t.Wait();
-                EGS.Error<JObject> result = t.Result;
-                if (result.ErrorCode != EGS.Error.OK)
-                {
-                    Console.WriteLine("Failed to login with the SID: {0}", result.Message);
+                    Console.WriteLine("Failed to login with authorization code.");
                     Console.WriteLine("Press a key to exit...");
                     Console.ReadKey(true);
                     return;
                 }
+            }
 
-                oauth_infos = result.Result;
+            if (login_with_sid)
+            {
+                oauth_infos = LoginWithSID();
+                if (oauth_infos == null)
+                {
+                    Console.WriteLine("Failed to login with SID.");
+                    Console.WriteLine("Press a key to exit...");
+                    Console.ReadKey(true);
+                    return;
+                }
             }
 
             try
