@@ -57,14 +57,18 @@ namespace EGS
 
         async Task<string> _WebRunGet(HttpRequestMessage request, Dictionary<string, string> headers)
         {
+            Dictionary<string, string> added_headers = new Dictionary<string, string>();
             foreach (var item in headers)
             {
-                _WebHttpClient.DefaultRequestHeaders.TryAddWithoutValidation(item.Key, item.Value);
+                if (_WebHttpClient.DefaultRequestHeaders.TryAddWithoutValidation(item.Key, item.Value))
+                {
+                    added_headers.Add(item.Key, item.Value);
+                }
             }
 
             var t = await (await _WebHttpClient.SendAsync(request, HttpCompletionOption.ResponseContentRead)).Content.ReadAsStringAsync();
 
-            foreach (var item in headers)
+            foreach (var item in added_headers)
             {
                 _WebHttpClient.DefaultRequestHeaders.Remove(item.Key);
             }
@@ -112,6 +116,45 @@ namespace EGS
             _SessionID = (string)oauth_infos["session_id"];
         }
 
+        Error _GetErrorFromJson(JObject json)
+        {
+            Error err = new Error();
+
+            string error_name = string.Empty;
+            string message = string.Empty;
+            int error_code = 0;
+
+            if (json != null)
+            {
+                if (json.ContainsKey("message"))
+                    message = (string)json["message"];
+                else if (json.ContainsKey("errorMessage"))
+                    message = (string)json["errorMessage"];
+
+                if (error_code == 0 && json.ContainsKey("numericErrorCode"))
+                {
+                    error_code = (int)json["numericErrorCode"];
+                }
+                if (string.IsNullOrWhiteSpace(error_name) && json.ContainsKey("errorCode"))
+                {
+                    error_name = (string)json["errorCode"];
+                }
+            }
+
+            err.Message = string.IsNullOrWhiteSpace(message) ? error_name : message;
+
+            if (error_code == 0)
+            {
+                err.ErrorCode = Error.ErrorCodeFromString(error_name);
+            }
+            else
+            {
+                err.ErrorCode = Error.Unknown;
+            }
+
+            return err;
+        }
+
         Error _GetWebErrorFromException(Exception e)
         {
             Error err = new Error();
@@ -140,44 +183,11 @@ namespace EGS
                         {
                             json = JObject.Parse(reader.ReadToEnd());
                         }
-                        if (json.ContainsKey("message"))
-                            message = (string)json["message"];
-                        else if (json.ContainsKey("errorMessage"))
-                            message = (string)json["errorMessage"];
-
-                        if (error_code == 0 && json.ContainsKey("numericErrorCode"))
-                        {
-                            error_code = (int)json["numericErrorCode"];
-                        }
-                        if (string.IsNullOrWhiteSpace(error_name) && json.ContainsKey("errorCode"))
-                        {
-                            error_name = (string)json["errorCode"];
-                        }
                     }
                     catch(Exception)
                     { }
 
-                    err.Message = string.IsNullOrWhiteSpace(message) ? error_name : message;
-
-                    if (error_code == 0 && !string.IsNullOrWhiteSpace(error_name))
-                    {
-                        switch (error_name)
-                        {
-                            case "errors.com.epicgames.common.authentication.authentication_failed": err.ErrorCode = Error.CommonAuthenticationAuthenticationFailed; break;
-                            case "errors.com.epicgames.accountportal.session_id_invalid": err.ErrorCode = Error.AccountPortalSessionIdInvalid; break;
-                            case "errors.com.epicgames.accountportal.validation": err.ErrorCode = Error.AccountPortalValidation; break;
-                            case "errors.com.epicgames.accountportal.csrf_token_invalid": err.ErrorCode = Error.AccountPortalCsrfTokenInvalid; break;
-                            case "errors.com.epicgames.common.method_not_allowed": err.ErrorCode = Error.CommonMethodNotAllowed; break;
-                            case "errors.com.epicgames.account.oauth.exchange_code_not_found": err.ErrorCode = Error.AccountOauthExchangeCodeNotFound; break;
-                            case "errors.com.epicgames.common.oauth.invalid_token": err.ErrorCode = Error.CommonOauthInvalidToken; break;
-                            case "errors.com.epicgames.account.auth_token.invalid_refresh_token": err.ErrorCode = Error.AccountAuthTokenInvalidRefreshToken; break;
-                            default: err.ErrorCode = Error.Unknown; break;
-                        }
-                    }
-                    else
-                    {
-                        err.ErrorCode = Error.Unknown;
-                    }
+                    err = _GetErrorFromJson(json);
                 }
                 catch (Exception)
                 {
@@ -221,9 +231,7 @@ namespace EGS
             }
             catch (Exception e)
             {
-                Error werr = _GetWebErrorFromException(e);
-                err.ErrorCode = werr.ErrorCode;
-                err.Message = werr.Message;
+                err.FromError(_GetWebErrorFromException(e));
             }
 
             return err;
@@ -243,21 +251,16 @@ namespace EGS
                     { "User-Agent", EGS_OAUTH_UAGENT },
                 }));
 
-                try
+                err.Result = (string)response["code"];
+                if (string.IsNullOrEmpty(err.Result))
                 {
-                    err.Result = (string)response["code"];
-                }
-                catch (Exception)
-                {
-                    err.Message = "Exchange code not found.";
-                    err.ErrorCode = Error.NotFound;
+                    err.Message = (string)response["message"];
+                    err.ErrorCode = Error.ErrorCodeFromString((string)response["errorCode"]);
                 }
             }
             catch (Exception e)
             {
-                Error werr = _GetWebErrorFromException(e);
-                err.ErrorCode = werr.ErrorCode;
-                err.Message = werr.Message;
+                err.FromError(_GetWebErrorFromException(e));
             }
 
             return err;
@@ -280,9 +283,7 @@ namespace EGS
             }
             catch (Exception e)
             {
-                Error werr = _GetWebErrorFromException(e);
-                err.ErrorCode = werr.ErrorCode;
-                err.Message = werr.Message;
+                err = _GetWebErrorFromException(e);
             }
 
             return err;
@@ -312,6 +313,15 @@ namespace EGS
                     };
                     break;
 
+                case AuthToken.TokenType.AuthorizationCode:
+                    post_data = new System.Collections.Specialized.NameValueCollection
+                    {
+                        { "grant_type"   , "authorization_code" },
+                        { "code"         , token.Token },
+                        { "token_type"   , "eg1"},
+                    };
+                    break;
+
                 default:
                     err.Message = "Invalid token type.";
                     err.ErrorCode = Error.InvalidParam;
@@ -329,12 +339,15 @@ namespace EGS
                     { "User-Agent", EGS_OAUTH_UAGENT },
                     { "Authorization", string.Format("Basic {0}", Convert.ToBase64String(Encoding.UTF8.GetBytes($"{EGS_USER}:{EGS_PASS}"))) }
                 }));
+
+                if (err.Result.ContainsKey("errorCode"))
+                {
+                    err.FromError(_GetErrorFromJson(err.Result));
+                }
             }
             catch (Exception e)
             {
-                Error werr = _GetWebErrorFromException(e);
-                err.ErrorCode = werr.ErrorCode;
-                err.Message = werr.Message;
+                err.FromError(_GetWebErrorFromException(e));
             }
 
             return err;
@@ -414,9 +427,53 @@ namespace EGS
             }
             catch (Exception e)
             {
-                Error werr = _GetWebErrorFromException(e);
-                err.ErrorCode = werr.ErrorCode;
-                err.Message = werr.Message;
+                err.FromError(_GetWebErrorFromException(e));
+            }
+
+            return err;
+        }
+
+        public async Task<Error<JObject>> LoginAuthCode(string auth_code)
+        {
+            Error<JObject> err = new Error<JObject>();
+            _ResetOAuth();
+
+            Uri uri = new Uri($"https://{EPIC_GAMES_HOST}");
+
+            _WebCookies.GetCookies(uri).Clear();
+
+            try
+            {
+                AuthToken auth_token = new AuthToken { Token = auth_code, Type = AuthToken.TokenType.AuthorizationCode };
+                {
+                    Error<JObject> x = await _StartSession(auth_token);
+                    if (x.ErrorCode != Error.OK)
+                    {
+                        err.ErrorCode = x.ErrorCode;
+                        err.Message = x.Message;
+                        return err;
+                    }
+                    _OAuthInfos = x.Result;
+                }
+
+                string access_token = $"bearer {(string)_OAuthInfos["access_token"]}";
+                {
+                    Error x = await _ResumeSession(access_token);
+                    if (x.ErrorCode != Error.OK)
+                    {
+                        err.ErrorCode = x.ErrorCode;
+                        err.Message = x.Message;
+                        return err;
+                    }
+                    // Don't share our internal oauth infos with the user returned oauth.
+                    err.Result = (JObject)_OAuthInfos.DeepClone();
+                    err.ErrorCode = Error.OK;
+                    _LoggedIn = true;
+                }
+            }
+            catch (Exception e)
+            {
+                err.FromError(_GetWebErrorFromException(e));
             }
 
             return err;
@@ -504,9 +561,7 @@ namespace EGS
             }
             catch (Exception e)
             {
-                Error werr = _GetWebErrorFromException(e);
-                err.ErrorCode = werr.ErrorCode;
-                err.Message = werr.Message;
+                err.FromError(_GetWebErrorFromException(e));
             }
 
             return err;
@@ -526,9 +581,7 @@ namespace EGS
                 }
                 catch (Exception e)
                 {
-                    Error werr = _GetWebErrorFromException(e);
-                    err.ErrorCode = werr.ErrorCode;
-                    err.Message = werr.Message;
+                    err = _GetWebErrorFromException(e);
                 }
 
                 _ResetOAuth();
@@ -561,9 +614,7 @@ namespace EGS
             }
             catch (Exception e)
             {
-                Error werr = _GetWebErrorFromException(e);
-                err.ErrorCode = werr.ErrorCode;
-                err.Message = werr.Message;
+                err.FromError(_GetWebErrorFromException(e));
             }
 
             return err;
@@ -609,9 +660,7 @@ namespace EGS
             }
             catch (Exception e)
             {
-                Error werr = _GetWebErrorFromException(e);
-                err.ErrorCode = werr.ErrorCode;
-                err.Message = werr.Message;
+                err.FromError(_GetWebErrorFromException(e));
             }
 
             return err;
@@ -730,9 +779,7 @@ namespace EGS
             }
             catch (Exception e)
             {
-                Error werr = _GetWebErrorFromException(e);
-                err.ErrorCode = werr.ErrorCode;
-                err.Message = werr.Message;
+                err.FromError(_GetWebErrorFromException(e));
             }
 
             return err;
@@ -761,9 +808,7 @@ namespace EGS
             }
             catch (Exception e)
             {
-                Error werr = _GetWebErrorFromException(e);
-                err.ErrorCode = werr.ErrorCode;
-                err.Message = werr.Message;
+                err.FromError(_GetWebErrorFromException(e));
             }
 
             return err;
@@ -806,9 +851,7 @@ namespace EGS
             }
             catch (Exception e)
             {
-                Error werr = _GetWebErrorFromException(e);
-                err.ErrorCode = werr.ErrorCode;
-                err.Message = werr.Message;
+                err.FromError(_GetWebErrorFromException(e));
             }
 
             return err;
@@ -853,12 +896,23 @@ namespace EGS
             }
             catch (Exception e)
             {
-                Error werr = _GetWebErrorFromException(e);
-                err.ErrorCode = werr.ErrorCode;
-                err.Message = werr.Message;
+                err.FromError(_GetWebErrorFromException(e));
             }
 
             return err;
+        }
+
+        public async Task Run(string url)
+        {
+            try
+            {
+                string r = await _WebRunGet(new HttpRequestMessage(HttpMethod.Get, new Uri(url)), new Dictionary<string, string>());
+                r = string.Empty;
+            }
+            catch(Exception e)
+            {
+                Console.WriteLine(e.ToString());
+            }
         }
     }
 }
