@@ -1305,7 +1305,7 @@ static uint32_t GetStatsCount()
     std::atomic<int> go;
 
     EOS_Stats_QueryStatsOptions query_options{};
-    query_options.ApiVersion = EOS_ACHIEVEMENTS_QUERYDEFINITIONS_API_LATEST;
+    query_options.ApiVersion = EOS_STATS_QUERYSTATS_API_LATEST;
     query_options.UserId = eos_api.Connect.GetLoggedInUserByIndex(0);
     query_options.TargetUserId = eos_api.Connect.GetLoggedInUserByIndex(0);
     query_options.StartTime = EOS_STATS_TIME_UNDEFINED;
