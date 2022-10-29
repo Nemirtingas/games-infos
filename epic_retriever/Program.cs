@@ -4,8 +4,15 @@ using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 using System.Net;
+using System.Net.Http;
+using System.Reflection.PortableExecutable;
+using System.Security.AccessControl;
 using System.Text;
+using System.Threading;
+using System.Threading.Tasks;
+using System.Web;
 
 namespace epic_retriever
 {
@@ -483,7 +490,7 @@ namespace epic_retriever
             }
         }
 
-        static JObject LoginWithAuthcode()
+        static async Task<JObject> LoginWithAuthcode()
         {
             string user_input;
 
@@ -491,16 +498,14 @@ namespace epic_retriever
             Console.WriteLine("EGL authcode (get it at: https://www.epicgames.com/id/api/redirect?clientId=34a02cf8f4414e29b15921876da36f9a&responseType=code): ");
             user_input = Console.ReadLine();
 
-            var t = EGSApi.LoginAuthCode(user_input);
-            t.Wait();
-            EGS.Error<JObject> result = t.Result;
+            EGS.Error<JObject> result = await EGSApi.LoginAuthCode(user_input);
             if (result.ErrorCode != EGS.Error.OK)
                 return null;
 
             return result.Result;
         }
 
-        static JObject LoginWithSID()
+        static async Task<JObject> LoginWithSID()
         {
             string user_input;
 
@@ -508,15 +513,19 @@ namespace epic_retriever
             Console.WriteLine("EGL sid (get it at: https://www.epicgames.com/id/login?redirectUrl=https://www.epicgames.com/id/api/redirect): ");
             user_input = Console.ReadLine();
 
-            var t = EGSApi.LoginSID(user_input);
-            t.Wait();
-            EGS.Error<JObject> result = t.Result;
+            EGS.Error<JObject> result = await EGSApi.LoginSID(user_input);
             if (result.ErrorCode != EGS.Error.OK)
                 return null;
 
             return result.Result;
         }
-        static void Main(string[] args)
+
+        static string _NameValueCollectionToQueryString(System.Collections.Specialized.NameValueCollection collection)
+        {
+            return string.Join("&", collection.AllKeys.Select(a => a + "=" + HttpUtility.UrlEncode(collection[a])));
+        }
+
+        static async Task AsyncMain(string[] args)
         {
             Parser.Default.ParseArguments<Options>(args).WithParsed(options => {
                 OutputDir = options.OutDirectory;
@@ -543,9 +552,7 @@ namespace epic_retriever
                     oauth_infos = JObject.Parse(reader.ReadToEnd());
                 }
 
-                var t = EGSApi.Login(oauth_infos);
-                t.Wait();
-                EGS.Error<JObject> result = t.Result;
+                EGS.Error<JObject> result = await EGSApi.Login(oauth_infos);
                 if (result.ErrorCode != EGS.Error.OK)
                 {
                     Console.WriteLine("Failed to login with the cached infos: {0};", result.Message);
@@ -566,8 +573,8 @@ namespace epic_retriever
 
             if (login_with_authcode)
             {
-                oauth_infos = LoginWithAuthcode();
-                if(oauth_infos == null)
+                oauth_infos = await LoginWithAuthcode();
+                if (oauth_infos == null)
                 {
                     Console.WriteLine("Failed to login with authorization code.");
                     Console.WriteLine("Press a key to exit...");
@@ -578,7 +585,7 @@ namespace epic_retriever
 
             if (login_with_sid)
             {
-                oauth_infos = LoginWithSID();
+                oauth_infos = await LoginWithSID();
                 if (oauth_infos == null)
                 {
                     Console.WriteLine("Failed to login with SID.");
@@ -590,10 +597,10 @@ namespace epic_retriever
 
             try
             {
-                if(!Directory.Exists(Path.Combine(OutCacheDirectory)))
+                if (!Directory.Exists(Path.Combine(OutCacheDirectory)))
                     Directory.CreateDirectory(Path.Combine(OutCacheDirectory));
             }
-            catch(Exception)
+            catch (Exception)
             {
                 Console.WriteLine($"Failed to create {OutCacheDirectory}");
                 return;
@@ -620,6 +627,12 @@ namespace epic_retriever
                     }
                 }
             }
+        }
+
+        static void Main(string[] args)
+        {
+            var t = AsyncMain(args);
+            t.Wait();
         }
     }
 }

@@ -76,7 +76,7 @@ namespace EGS
             return t;
         }
 
-        async Task<string> _WebRunPost(Uri uri, StringContent request, Dictionary<string, string> headers)
+        async Task<string> _WebRunPost(Uri uri, HttpContent request, Dictionary<string, string> headers)
         {
             foreach (var item in headers)
             {
@@ -292,34 +292,42 @@ namespace EGS
         async Task<Error<JObject>> _StartSession(AuthToken token)
         {
             Error<JObject> err = new Error<JObject> { ErrorCode = 0 };
-            System.Collections.Specialized.NameValueCollection post_data;
+            FormUrlEncodedContent post_data;
             switch (token.Type)
             {
                 case AuthToken.TokenType.ExchangeCode:
-                    post_data = new System.Collections.Specialized.NameValueCollection
+                    post_data = new FormUrlEncodedContent(new[]
                     {
-                        { "grant_type"   , "exchange_code" },
-                        { "exchange_code", token.Token },
-                        { "token_type"   , "eg1"},
-                    };
+                        new KeyValuePair<string, string>( "grant_type"   , "exchange_code" ),
+                        new KeyValuePair<string, string>( "exchange_code", token.Token ),
+                        new KeyValuePair<string, string>( "token_type"   , "eg1"),
+                    });
                     break;
 
                 case AuthToken.TokenType.RefreshToken:
-                    post_data = new System.Collections.Specialized.NameValueCollection
+                    post_data = new FormUrlEncodedContent(new[]
                     {
-                        { "grant_type"   , "refresh_token" },
-                        { "refresh_token", token.Token },
-                        { "token_type"   , "eg1"},
-                    };
+                        new KeyValuePair<string, string>( "grant_type"   , "refresh_token" ),
+                        new KeyValuePair<string, string>( "refresh_token", token.Token ),
+                        new KeyValuePair<string, string>( "token_type"   , "eg1"),
+                    });
                     break;
 
                 case AuthToken.TokenType.AuthorizationCode:
-                    post_data = new System.Collections.Specialized.NameValueCollection
+                    post_data = new FormUrlEncodedContent(new[]
                     {
-                        { "grant_type"   , "authorization_code" },
-                        { "code"         , token.Token },
-                        { "token_type"   , "eg1"},
-                    };
+                        new KeyValuePair<string, string>( "grant_type"   , "authorization_code" ),
+                        new KeyValuePair<string, string>( "code"         , token.Token ),
+                        new KeyValuePair<string, string>( "token_type"   , "eg1"),
+                    });
+                    break;
+
+                case AuthToken.TokenType.ClientCredentials:
+                    post_data = new FormUrlEncodedContent(new[]
+                    {
+                        new KeyValuePair<string, string>( "grant_type"   , "client_credentials" ),
+                        new KeyValuePair<string, string>( "deployment_id", token.Token ),
+                    });
                     break;
 
                 default:
@@ -334,7 +342,7 @@ namespace EGS
 
             try
             {
-                err.Result = JObject.Parse(await _WebRunPost(uri, new StringContent(_NameValueCollectionToQueryString(post_data), Encoding.UTF8, "application/x-www-form-urlencoded"), new Dictionary<string, string>
+                err.Result = JObject.Parse(await _WebRunPost(uri, post_data, new Dictionary<string, string>
                 {
                     { "User-Agent", EGS_OAUTH_UAGENT },
                     { "Authorization", string.Format("Basic {0}", Convert.ToBase64String(Encoding.UTF8.GetBytes($"{EGS_USER}:{EGS_PASS}"))) }
@@ -628,7 +636,7 @@ namespace EGS
         /// <param name="user_id">Application ClientId.</param>
         /// <param name="password">Application ClientSecret.</param>
         /// <returns></returns>
-        public async Task<Error<string>> GetAppRefreshToken(string exchange_code, string deployement_id, string user_id, string password)
+        public async Task<Error<string>> GetAppRefreshTokenFromExchangeCode(string exchange_code, string deployement_id, string user_id, string password)
         {
             Error<string> err = new Error<string>();
             if (!_LoggedIn)
@@ -640,17 +648,17 @@ namespace EGS
 
             try
             {
-                System.Collections.Specialized.NameValueCollection post_datas = new System.Collections.Specialized.NameValueCollection()
-                {
-                    { "grant_type", "exchange_code" },
-                    { "exchange_code", exchange_code },
-                    { "scope", "basic_profile friends_list presence" },
-                    { "deployment_id", deployement_id },
-                };
-                
                 Uri uri = new Uri($"https://{EGS_DEV_HOST}/epic/oauth/v1/token");
 
-                JObject response = JObject.Parse(await _WebRunPost(uri, new StringContent(post_datas.ToString()), new Dictionary<string, string>
+                var content = new FormUrlEncodedContent(new[]
+                {
+                    new KeyValuePair<string, string>( "grant_type", "exchange_code" ),
+                    new KeyValuePair<string, string>( "exchange_code", exchange_code ),
+                    new KeyValuePair<string, string>( "scope", "basic_profile friends_list presence" ),
+                    new KeyValuePair<string, string>( "deployment_id", deployement_id ),
+                });
+
+                JObject response = JObject.Parse(await _WebRunPost(uri, content, new Dictionary<string, string>
                 {
                     { "Authorization", string.Format("Basic {0}", Convert.ToBase64String(Encoding.UTF8.GetBytes($"{user_id}:{password}"))) },
                 }));
@@ -900,19 +908,6 @@ namespace EGS
             }
 
             return err;
-        }
-
-        public async Task Run(string url)
-        {
-            try
-            {
-                string r = await _WebRunGet(new HttpRequestMessage(HttpMethod.Get, new Uri(url)), new Dictionary<string, string>());
-                r = string.Empty;
-            }
-            catch(Exception e)
-            {
-                Console.WriteLine(e.ToString());
-            }
         }
     }
 }
