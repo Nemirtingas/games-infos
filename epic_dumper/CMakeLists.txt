@@ -17,6 +17,7 @@ find_package(CURL REQUIRED)
 find_package(OpenSSL REQUIRED)
 
 add_executable(${CMAKE_PROJECT_NAME}
+  function_traits.hpp
   epic_dumper.cpp
   base64.cpp
   base64.h

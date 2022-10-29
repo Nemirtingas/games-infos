@@ -32,6 +32,7 @@
 #include "os_funcs.h"
 #include "library.h"
 #include "EGS_Api.h"
+#include "function_traits.hpp"
 
 #include "cxxopts.h"
 
@@ -341,6 +342,15 @@ static void download_icon(std::string const& url, std::string filename)
 
 class EOSApi
 {
+    template<typename T>
+    static void EOS_CALL shim_callback(T param)
+    {
+        std::function<void(T)>* f = reinterpret_cast<std::function<void(T)>*>(param->ClientData);
+        const_cast<void*&>(param->ClientData) = nullptr;
+        (*f)(param);
+        delete f;
+    }
+
     Library eos_api;
 
     // EOS_API
@@ -412,6 +422,7 @@ class EOSApi
     decltype(EOS_Achievements_Definition_Release)* _EOS_Achievements_Definition_Release;
     decltype(EOS_Achievements_CopyAchievementDefinitionV2ByIndex)* _EOS_Achievements_CopyAchievementDefinitionV2ByIndex;
     decltype(EOS_Achievements_CopyAchievementDefinitionV2ByAchievementId)* _EOS_Achievements_CopyAchievementDefinitionV2ByAchievementId;
+    decltype(EOS_Achievements_UnlockAchievements)* _EOS_Achievements_UnlockAchievements;
     decltype(EOS_Achievements_DefinitionV2_Release)* _EOS_Achievements_DefinitionV2_Release;
 
     // EOS_TitleStorageFileTransferRequest
@@ -507,9 +518,9 @@ class EOSApi
         inline bool HasOldAchievements() const { return hIface != nullptr && _EOSApi->_EOS_Achievements_CopyAchievementDefinitionByIndex != nullptr; }
         inline bool HasNewAchievements() const { return hIface != nullptr && _EOSApi->_EOS_Achievements_CopyAchievementDefinitionV2ByIndex != nullptr; }
 
-        void QueryDefinitions(EOS_Achievements_QueryDefinitionsOptions const* options, void* client_data, EOS_Achievements_OnQueryDefinitionsCompleteCallback completion_delegate)
+        void QueryDefinitions(EOS_Achievements_QueryDefinitionsOptions const* options, std::function<std::remove_pointer_t<EOS_Achievements_OnQueryDefinitionsCompleteCallback>> completion_delegate)
         {
-            _EOSApi->_EOS_Achievements_QueryDefinitions(hIface, options, client_data, completion_delegate);
+            _EOSApi->_EOS_Achievements_QueryDefinitions(hIface, options, new (decltype(completion_delegate))(std::move(completion_delegate)), &EOSApi::shim_callback<typename boost::function_traits<decltype(completion_delegate)>::arg1_type>);
         }
 
         uint32_t GetAchievementDefinitionCount(EOS_Achievements_GetAchievementDefinitionCountOptions const* options)
@@ -549,6 +560,14 @@ class EOSApi
             return _EOSApi->_EOS_Achievements_CopyAchievementDefinitionV2ByAchievementId(hIface, options, out_definition);
         }
 
+        void UnlockAchievements(const EOS_Achievements_UnlockAchievementsOptions* options, std::function<std::remove_pointer_t<EOS_Achievements_OnUnlockAchievementsCompleteCallback>> completion_delegate)
+        {
+            if (_EOSApi->_EOS_Achievements_UnlockAchievements == nullptr)
+                throw std::runtime_error("_EOS_Achievements_CopyAchievementDefinitionV2ByAchievementId is not available");
+
+            return _EOSApi->_EOS_Achievements_UnlockAchievements(hIface, options, new (decltype(completion_delegate))(std::move(completion_delegate)), &EOSApi::shim_callback<typename boost::function_traits<decltype(completion_delegate)>::arg1_type>);
+        }
+
         void DefinitionV2_Release(EOS_Achievements_DefinitionV2* achievement_definition)
         {
             if (_EOSApi->_EOS_Achievements_DefinitionV2_Release == nullptr)
@@ -572,9 +591,9 @@ class EOSApi
 
         inline bool HasInterface() const { return hIface != nullptr; }
 
-        void Login(EOS_Auth_LoginOptions const* options, void* client_data, EOS_Auth_OnLoginCallback completion_delegate)
+        void Login(EOS_Auth_LoginOptions const* options, std::function<std::remove_pointer_t<EOS_Auth_OnLoginCallback>> completion_delegate)
         {
-            _EOSApi->_EOS_Auth_Login(hIface, options, client_data, completion_delegate);
+            _EOSApi->_EOS_Auth_Login(hIface, options, new (decltype(completion_delegate))(std::move(completion_delegate)), &EOSApi::shim_callback<typename boost::function_traits<decltype(completion_delegate)>::arg1_type>);
         }
 
         EOS_EpicAccountId GetLoggedInAccountByIndex(int32_t index)
@@ -602,14 +621,14 @@ class EOSApi
 
         inline bool HasInterface() const { return hIface != nullptr; }
 
-        void Login(EOS_Connect_LoginOptions const* options, void* client_data, EOS_Connect_OnLoginCallback completion_delegate)
+        void Login(EOS_Connect_LoginOptions const* options, std::function<std::remove_pointer_t<EOS_Connect_OnLoginCallback>> completion_delegate)
         {
-            _EOSApi->_EOS_Connect_Login(hIface, options, client_data, completion_delegate);
+            _EOSApi->_EOS_Connect_Login(hIface, options, new (decltype(completion_delegate))(std::move(completion_delegate)), &EOSApi::shim_callback<typename boost::function_traits<decltype(completion_delegate)>::arg1_type>);
         }
 
-        void CreateUser(EOS_Connect_CreateUserOptions const* options, void* client_data, EOS_Connect_OnCreateUserCallback completion_delegate)
+        void CreateUser(EOS_Connect_CreateUserOptions const* options, std::function<std::remove_pointer_t<EOS_Connect_OnCreateUserCallback>> completion_delegate)
         {
-            _EOSApi->_EOS_Connect_CreateUser(hIface, options, client_data, completion_delegate);
+            _EOSApi->_EOS_Connect_CreateUser(hIface, options, new (decltype(completion_delegate))(std::move(completion_delegate)), &EOSApi::shim_callback<typename boost::function_traits<decltype(completion_delegate)>::arg1_type>);
         }
 
         EOS_ProductUserId GetLoggedInUserByIndex(int32_t index)
@@ -652,9 +671,9 @@ class EOSApi
 
         inline bool HasInterface() const { return hIface != nullptr; }
 
-        void QueryOffers(EOS_Ecom_QueryOffersOptions const* options, void* client_data, EOS_Ecom_OnQueryOffersCallback completion_delegate)
+        void QueryOffers(EOS_Ecom_QueryOffersOptions const* options, std::function<std::remove_pointer_t<EOS_Ecom_OnQueryOffersCallback>> completion_delegate)
         {
-            _EOSApi->_EOS_Ecom_QueryOffers(hIface, options, client_data, completion_delegate);
+            _EOSApi->_EOS_Ecom_QueryOffers(hIface, options, new (decltype(completion_delegate))(std::move(completion_delegate)), &EOSApi::shim_callback<typename boost::function_traits<decltype(completion_delegate)>::arg1_type>);
         }
 
         uint32_t GetOfferCount(EOS_Ecom_GetOfferCountOptions const* options)
@@ -684,15 +703,15 @@ class EOSApi
         CStats(EOSApi* eos_api) :
             _EOSApi(eos_api)
         {}
-
+        
         inline bool HasInterface() const { return hIface != nullptr; }
 
-        void QueryStats(EOS_Stats_QueryStatsOptions const* options, void* client_data, EOS_Stats_OnQueryStatsCompleteCallback completion_delegate)
+        void QueryStats(EOS_Stats_QueryStatsOptions const* options, std::function<std::remove_pointer_t<EOS_Stats_OnQueryStatsCompleteCallback>> completion_delegate)
         {
             if (_EOSApi->_EOS_Stats_QueryStats == nullptr)
                 throw std::runtime_error("EOS_Stats_QueryStats is not available");
 
-            _EOSApi->_EOS_Stats_QueryStats(hIface, options, client_data, completion_delegate);
+            _EOSApi->_EOS_Stats_QueryStats(hIface, options, new (decltype(completion_delegate))(std::move(completion_delegate)), &EOSApi::shim_callback<typename boost::function_traits<decltype(completion_delegate)>::arg1_type>);
         }
 
         uint32_t GetStatsCount(EOS_Stats_GetStatCountOptions const* options)
@@ -725,28 +744,28 @@ class EOSApi
 
         inline bool HasInterface() const { return hIface != nullptr; }
 
-        void QueryFile(const EOS_TitleStorage_QueryFileOptions* options, void* client_data, const EOS_TitleStorage_OnQueryFileCompleteCallback completion_callback)
+        void QueryFile(const EOS_TitleStorage_QueryFileOptions* options, std::function<std::remove_pointer_t<EOS_TitleStorage_OnQueryFileCompleteCallback>> completion_callback)
         {
             if (_EOSApi->_EOS_TitleStorage_QueryFile == nullptr)
                 throw std::runtime_error("EOS_TitleStorage_QueryFile is not available");
 
-            _EOSApi->_EOS_TitleStorage_QueryFile(hIface, options, client_data, completion_callback);
+            _EOSApi->_EOS_TitleStorage_QueryFile(hIface, options, new (decltype(completion_callback))(std::move(completion_callback)), &EOSApi::shim_callback<typename boost::function_traits<decltype(completion_callback)>::arg1_type>);
         }
 
-        void QueryFileList(const EOS_TitleStorage_QueryFileListOptions* options, void* client_data, const EOS_TitleStorage_OnQueryFileListCompleteCallback completion_callback)
+        void QueryFileList(const EOS_TitleStorage_QueryFileListOptions* options, std::function<std::remove_pointer_t<EOS_TitleStorage_OnQueryFileListCompleteCallback>> completion_callback)
         {
             if (_EOSApi->_EOS_TitleStorage_QueryFileList == nullptr)
                 throw std::runtime_error("EOS_TitleStorage_QueryFileList is not available");
 
-            _EOSApi->_EOS_TitleStorage_QueryFileList(hIface, options, client_data, completion_callback);
+            _EOSApi->_EOS_TitleStorage_QueryFileList(hIface, options, new (decltype(completion_callback))(std::move(completion_callback)), &EOSApi::shim_callback<typename boost::function_traits<decltype(completion_callback)>::arg1_type>);
         }
 
-        EOS_HTitleStorageFileTransferRequest ReadFile(const EOS_TitleStorage_ReadFileOptions* options, void* client_data, const EOS_TitleStorage_OnReadFileCompleteCallback completion_callback)
+        EOS_HTitleStorageFileTransferRequest ReadFile(const EOS_TitleStorage_ReadFileOptions* options, std::function<std::remove_pointer_t<EOS_TitleStorage_OnReadFileCompleteCallback>> completion_callback)
         {
             if (_EOSApi->_EOS_TitleStorage_ReadFile == nullptr)
                 throw std::runtime_error("EOS_TitleStorage_ReadFile is not available");
 
-            return _EOSApi->_EOS_TitleStorage_ReadFile(hIface, options, client_data, completion_callback);
+            return _EOSApi->_EOS_TitleStorage_ReadFile(hIface, options, new (decltype(completion_callback))(std::move(completion_callback)), &EOSApi::shim_callback<typename boost::function_traits<decltype(completion_callback)>::arg1_type>);
         }
     };
 
@@ -764,12 +783,12 @@ class EOSApi
 
         inline bool HasInterface() const { return hIface != nullptr; }
 
-        void QueryLeaderboardDefinitions(const EOS_Leaderboards_QueryLeaderboardDefinitionsOptions* options, void* client_data, const EOS_Leaderboards_OnQueryLeaderboardDefinitionsCompleteCallback completion_delegate)
+        void QueryLeaderboardDefinitions(const EOS_Leaderboards_QueryLeaderboardDefinitionsOptions* options, std::function<std::remove_pointer_t<EOS_Leaderboards_OnQueryLeaderboardDefinitionsCompleteCallback>> completion_delegate)
         {
             if (_EOSApi->_EOS_Leaderboards_QueryLeaderboardDefinitions == nullptr)
                 throw std::runtime_error("EOS_Leaderboards_QueryLeaderboardDefinitions is not available");
 
-            _EOSApi->_EOS_Leaderboards_QueryLeaderboardDefinitions(hIface, options, client_data, completion_delegate);
+            _EOSApi->_EOS_Leaderboards_QueryLeaderboardDefinitions(hIface, options, new (decltype(completion_delegate))(std::move(completion_delegate)), &EOSApi::shim_callback<typename boost::function_traits<decltype(completion_delegate)>::arg1_type>);
         }
 
         uint32_t GetLeaderboardDefinitionCount(const EOS_Leaderboards_GetLeaderboardDefinitionCountOptions* options)
@@ -852,6 +871,7 @@ public:
         LOAD_OPTIONNAL(this, EOS_Achievements_Definition_Release);
         LOAD_OPTIONNAL(this, EOS_Achievements_CopyAchievementDefinitionV2ByIndex);
         LOAD_OPTIONNAL(this, EOS_Achievements_CopyAchievementDefinitionV2ByAchievementId);
+        LOAD_OPTIONNAL(this, EOS_Achievements_UnlockAchievements);
         LOAD_OPTIONNAL(this, EOS_Achievements_DefinitionV2_Release);
 
         // Auth
@@ -1045,9 +1065,8 @@ static void AuthLogin(std::string auth_password, EOS_ELoginCredentialType auth_t
     SPDLOG_TRACE("Auth login...");
 
     go = -1;
-    eos_api.Auth.Login(&options, &go, [](EOS_Auth_LoginCallbackInfo const* infos)
+    eos_api.Auth.Login(&options, [&go](EOS_Auth_LoginCallbackInfo const* infos)
     {
-        std::atomic<int>& go = *reinterpret_cast<std::atomic<int>*>(infos->ClientData);
         go = (int)infos->ResultCode;
     });
 
@@ -1068,11 +1087,8 @@ static void AuthLogin(std::string auth_password, EOS_ELoginCredentialType auth_t
 
 static void ConnectLogin(int32_t api_version = EOS_CONNECT_LOGIN_API_LATEST)
 {
-    struct param_t
-    {
-        std::atomic<int> go;
-        EOS_ContinuanceToken token;
-    } param{};
+    std::atomic<int> go;
+    EOS_ContinuanceToken token;
 
     EOS_Auth_CopyUserAuthTokenOptions auth_options{};
     auth_options.ApiVersion = EOS_AUTH_COPYUSERAUTHTOKEN_API_LATEST;
@@ -1097,44 +1113,41 @@ static void ConnectLogin(int32_t api_version = EOS_CONNECT_LOGIN_API_LATEST)
 
     SPDLOG_TRACE("Connect login...");
 
-    param.go = -1;
-    eos_api.Connect.Login(&options, &param, [](EOS_Connect_LoginCallbackInfo const* infos)
+    go = -1;
+    eos_api.Connect.Login(&options, [&](EOS_Connect_LoginCallbackInfo const* infos)
     {
-        param_t& param = *reinterpret_cast<param_t*>(infos->ClientData);
-
-        param.go = (int)infos->ResultCode;
-        param.token = infos->ContinuanceToken;
+        go = (int)infos->ResultCode;
+        token = infos->ContinuanceToken;
     });
 
-    while (param.go == -1);
+    while (go == -1);
 
-    if (param.go == (int)EOS_EResult::EOS_InvalidUser && param.token != nullptr)
+    if (go == (int)EOS_EResult::EOS_InvalidUser && token != nullptr)
     {
         EOS_Connect_CreateUserOptions options{};
         options.ApiVersion = EOS_CONNECT_CREATEUSER_API_LATEST;
-        options.ContinuanceToken = param.token;
+        options.ContinuanceToken = token;
 
         SPDLOG_TRACE("Connect create user...");
 
-        param.go = -1;
-        eos_api.Connect.CreateUser(&options, &param, [](EOS_Connect_CreateUserCallbackInfo const* infos)
+        go = -1;
+        eos_api.Connect.CreateUser(&options, [&](EOS_Connect_CreateUserCallbackInfo const* infos)
         {
-            param_t& param = *reinterpret_cast<param_t*>(infos->ClientData);
-            param.go = (int)infos->ResultCode;
+            go = (int)infos->ResultCode;
         });
 
-        while (param.go == -1);
+        while (go == -1);
     }
 
-    if (param.go != (int)EOS_EResult::EOS_Success)
+    if (go != (int)EOS_EResult::EOS_Success)
     {
-        if (param.go == (int)EOS_EResult::EOS_IncompatibleVersion && api_version > 1)
+        if (go == (int)EOS_EResult::EOS_IncompatibleVersion && api_version > 1)
         {
             ConnectLogin(api_version - 1);
         }
         else
         {
-            throw std::runtime_error(fmt::format("Failed to connect: {}", eos_api.EResult_ToString((EOS_EResult)param.go.load())));
+            throw std::runtime_error(fmt::format("Failed to connect: {}", eos_api.EResult_ToString((EOS_EResult)go.load())));
         }
     }
 }
@@ -1155,9 +1168,8 @@ static uint32_t GetAchievementsCount(int32_t api_version = EOS_ACHIEVEMENTS_QUER
 
     go = -1;
     SPDLOG_TRACE("Querying achievements...");
-    eos_api.Achievements.QueryDefinitions(&query_options, &go, [](EOS_Achievements_OnQueryDefinitionsCompleteCallbackInfo const* infos)
+    eos_api.Achievements.QueryDefinitions(&query_options, [&go](EOS_Achievements_OnQueryDefinitionsCompleteCallbackInfo const* infos)
     {
-        std::atomic<int>& go = *reinterpret_cast<std::atomic<int>*>(infos->ClientData);
         go = (int)infos->ResultCode;
     });
 
@@ -1255,21 +1267,21 @@ static void MakeAchievementsV2()
 
     constexpr static char achievements_db_file[] = "achievements_db2.json";
     nlohmann::ordered_json achievements_db = nlohmann::json::array_t();
-
+    
     for (uint32_t i = 0; i < count; ++i)
     {
         EOS_Achievements_CopyAchievementDefinitionV2ByIndexOptions DefinitionOptions;
         DefinitionOptions.ApiVersion = EOS_ACHIEVEMENTS_COPYACHIEVEMENTDEFINITIONV2BYINDEX_API_002;
         DefinitionOptions.AchievementIndex = i;
-
+    
         EOS_Achievements_DefinitionV2* OutDefinition;
-
+    
         auto res = eos_api.Achievements.CopyAchievementDefinitionV2ByIndex(&DefinitionOptions, &OutDefinition);
         if (res == EOS_EResult::EOS_Success)
         {
             std::string url(OutDefinition->AchievementId);
             std::string url_locked(std::string(OutDefinition->AchievementId) + "_locked");
-
+    
             nlohmann::ordered_json entry = nlohmann::ordered_json{
                     {"AchievementId"        , str_or_empty(OutDefinition->AchievementId)},
                     {"UnlockedDisplayName"  , str_or_empty(OutDefinition->UnlockedDisplayName)},
@@ -1283,10 +1295,10 @@ static void MakeAchievementsV2()
                     {"LockedIconUrl"        , url_locked},
                     {"IsHidden"             , (bool)OutDefinition->bIsHidden}
             };
-
+    
             download_icon(OutDefinition->UnlockedIconURL, dumper_root + "achievements_images/" + url);
             download_icon(OutDefinition->LockedIconURL, dumper_root + "achievements_images/" + url_locked);
-
+    
             for (int i = 0; i < OutDefinition->StatThresholdsCount; ++i)
             {
                 entry["StatsThresholds"].emplace_back(nlohmann::ordered_json{
@@ -1294,7 +1306,7 @@ static void MakeAchievementsV2()
                     {"Threshold", OutDefinition->StatThresholds[i].Threshold}
                 });
             }
-
+    
             achievements_db.emplace_back(std::move(entry));
             eos_api.Achievements.DefinitionV2_Release(OutDefinition);
         }
@@ -1327,9 +1339,8 @@ static uint32_t GetStatsCount()
 
     go = -1;
     SPDLOG_TRACE("Querying stats...");
-    eos_api.Stats.QueryStats(&query_options, &go, [](EOS_Stats_OnQueryStatsCompleteCallbackInfo const* infos)
+    eos_api.Stats.QueryStats(&query_options, [&go](EOS_Stats_OnQueryStatsCompleteCallbackInfo const* infos)
     {
-        std::atomic<int>& go = *reinterpret_cast<std::atomic<int>*>(infos->ClientData);
         go = (int)infos->ResultCode;
     });
 
@@ -1403,9 +1414,8 @@ static uint32_t GetCatalogCount()
 
     go = -1;
     SPDLOG_TRACE("Querying offers...");
-    eos_api.Ecom.QueryOffers(&query_options, &go, [](EOS_Ecom_QueryOffersCallbackInfo const* infos)
+    eos_api.Ecom.QueryOffers(&query_options, [&go](EOS_Ecom_QueryOffersCallbackInfo const* infos)
     {
-        std::atomic<int>& go = *reinterpret_cast<std::atomic<int>*>(infos->ClientData);
         go = (int)infos->ResultCode;
     });
 
@@ -1475,9 +1485,8 @@ static uint32_t GetLeaderboardsCount()
 
     go = -1;
     SPDLOG_TRACE("Querying leaderboards...");
-    eos_api.Leaderboards.QueryLeaderboardDefinitions(&query_options, &go, [](EOS_Leaderboards_OnQueryLeaderboardDefinitionsCompleteCallbackInfo const* infos)
+    eos_api.Leaderboards.QueryLeaderboardDefinitions(&query_options, [&go](EOS_Leaderboards_OnQueryLeaderboardDefinitionsCompleteCallbackInfo const* infos)
     {
-        std::atomic<int>& go = *reinterpret_cast<std::atomic<int>*>(infos->ClientData);
         go = (int)infos->ResultCode;
     });
 
@@ -1544,9 +1553,8 @@ void DownloadTitleStorage(std::string filename)
 
     go = -1;
     SPDLOG_TRACE("Querying title storage...");
-    eos_api.TitleStorage.QueryFile(&query_options, &go, [](EOS_TitleStorage_QueryFileCallbackInfo const* infos)
+    eos_api.TitleStorage.QueryFile(&query_options, [&go](EOS_TitleStorage_QueryFileCallbackInfo const* infos)
     {
-        std::atomic<int>& go = *reinterpret_cast<std::atomic<int>*>(infos->ClientData);
         go = (int)infos->ResultCode;
     });
 
@@ -1571,9 +1579,8 @@ void DownloadTitleStorage(std::string filename)
     };
 
     go = -1;
-    eos_api.TitleStorage.ReadFile(&read_options, &go, [](EOS_TitleStorage_ReadFileCallbackInfo const* infos)
+    eos_api.TitleStorage.ReadFile(&read_options, [&go](EOS_TitleStorage_ReadFileCallbackInfo const* infos)
     {
-        std::atomic<int>& go = *reinterpret_cast<std::atomic<int>*>(infos->ClientData);
         go = (int)infos->ResultCode;
     });
 
@@ -1865,6 +1872,11 @@ int main(int argc, char* argv[])
         catch (std::runtime_error& e) { SPDLOG_TRACE("{}", e.what()); }
         try { MakeLeaderboards(); }
         catch (std::runtime_error& e) { SPDLOG_TRACE("{}", e.what()); }
+        //for (auto x : { "game_config.scr", "titlestorage_manifest.json" })
+        //{
+        //    try { DownloadTitleStorage(x); }
+        //    catch (std::runtime_error& e) { SPDLOG_TRACE("{}", e.what()); }
+        //}
     }
     catch (std::runtime_error& e)
     {
