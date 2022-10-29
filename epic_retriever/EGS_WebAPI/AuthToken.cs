@@ -8,6 +8,7 @@ namespace EGS
             ExchangeCode,
             RefreshToken,
             AuthorizationCode,
+            ClientCredentials,
         }
 
         public string Token { get; set; }
