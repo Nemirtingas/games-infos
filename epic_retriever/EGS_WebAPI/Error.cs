@@ -1,4 +1,10 @@
 
+using Newtonsoft.Json.Linq;
+using System.IO;
+using System.Net;
+using System;
+using System.Linq;
+
 namespace EGS
 {
     class Error
@@ -28,6 +34,8 @@ namespace EGS
         // CommonAuthentication
         public const int CommonAuthenticationAuthenticationFailed = 1032;
 
+        public const int OAuthScopeConsentRequired = 58005;
+
         public int ErrorCode { get; set; }
         public string Message { get; set; }
 
@@ -51,8 +59,98 @@ namespace EGS
                 case "errors.com.epicgames.account.oauth.authorization_code_not_found" : return Error.AccountOauthAuthorizationCodeNotFound;
                 case "errors.com.epicgames.account.auth_token.invalid_refresh_token"   : return Error.AccountAuthTokenInvalidRefreshToken;
 
+                case "errors.com.epicgames.oauth.scope_consent_required"               : return Error.OAuthScopeConsentRequired;
+
                 default: return Error.Unknown;
             }
+        }
+
+        static public Error GetErrorFromJson(JObject json)
+        {
+            Error err = new Error();
+
+            string error_name = string.Empty;
+            string message = string.Empty;
+            int error_code = 0;
+
+            if (json != null)
+            {
+                if (json.ContainsKey("message"))
+                    message = (string)json["message"];
+                else if (json.ContainsKey("errorMessage"))
+                    message = (string)json["errorMessage"];
+
+                if (error_code == 0 && json.ContainsKey("numericErrorCode"))
+                {
+                    error_code = (int)json["numericErrorCode"];
+                }
+                if (string.IsNullOrWhiteSpace(error_name) && json.ContainsKey("errorCode"))
+                {
+                    error_name = (string)json["errorCode"];
+                }
+            }
+
+            err.Message = string.IsNullOrWhiteSpace(message) ? error_name : message;
+
+            if (error_code != 0)
+            {
+                err.ErrorCode = Error.ErrorCodeFromString(error_name);
+            }
+            else
+            {
+                err.ErrorCode = Error.Unknown;
+            }
+
+            return err;
+        }
+
+        static public Error GetWebErrorFromException(Exception e)
+        {
+            Error err = new Error();
+            if (e is WebException && ((WebException)e).Response != null)
+            {
+                WebException we = (WebException)e;
+                try
+                {
+                    int error_code = 0;
+                    string error_name = string.Empty;
+                    string message = string.Empty;
+
+                    if (we.Response.Headers.AllKeys.Contains("X-Epic-Error-Code"))
+                    {
+                        error_code = int.Parse(we.Response.Headers["X-Epic-Error-Code"]);
+                    }
+                    if (we.Response.Headers.AllKeys.Contains("X-Epic-Error-Name"))
+                    {
+                        error_name = we.Response.Headers["X-Epic-Error-Name"];
+                    }
+
+                    JObject json = null;
+                    try
+                    {
+                        using (StreamReader reader = new StreamReader(we.Response.GetResponseStream()))
+                        {
+                            json = JObject.Parse(reader.ReadToEnd());
+                        }
+                    }
+                    catch (Exception)
+                    { }
+
+                    err = GetErrorFromJson(json);
+                }
+                catch (Exception)
+                {
+                    err.Message = e.Message;
+                    err.ErrorCode = Error.WebError;
+                }
+            }
+            else
+            {
+                err.Message = e.Message;
+                err.ErrorCode = Error.WebError;
+            }
+
+            return err;
         }
     }
 

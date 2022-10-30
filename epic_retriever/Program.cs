@@ -4,15 +4,9 @@ using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
 using System.IO;
-using System.Linq;
 using System.Net;
-using System.Net.Http;
-using System.Reflection.PortableExecutable;
-using System.Security.AccessControl;
 using System.Text;
-using System.Threading;
 using System.Threading.Tasks;
-using System.Web;
 
 namespace epic_retriever
 {
@@ -519,12 +513,6 @@ namespace epic_retriever
 
             return result.Result;
         }
-
-        static string _NameValueCollectionToQueryString(System.Collections.Specialized.NameValueCollection collection)
-        {
-            return string.Join("&", collection.AllKeys.Select(a => a + "=" + HttpUtility.UrlEncode(collection[a])));
-        }
-
         static async Task AsyncMain(string[] args)
         {
             Parser.Default.ParseArguments<Options>(args).WithParsed(options => {

@@ -2,12 +2,14 @@
 using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Globalization;
 using System.IO;
 using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Web;
 
@@ -15,17 +17,6 @@ namespace EGS
 {
     class WebApi : IDisposable
     {
-        public const string EPIC_GAMES_HOST = "www.epicgames.com";
-        public const string EGL_UAGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) EpicGamesLauncher/12.2.4-16388143+++Portal+Release-Live UnrealEngine/4.23.0-14907503+++Portal+Release-Live Chrome/84.0.4147.38 Safari/537.36";
-        public const string EGS_OAUTH_UAGENT = "EpicGamesLauncher/12.2.4-16388143+++Portal+Release-Live Windows/10.0.19041.1.256.64bit";
-        public const string EGS_USER = "34a02cf8f4414e29b15921876da36f9a";
-        public const string EGS_PASS = "daafbccc737745039dffe53d94fc76cf";
-        public const string EGS_OAUTH_HOST = "account-public-service-prod03.ol.epicgames.com";
-        public const string EGS_LAUNCHER_HOST = "launcher-public-service-prod06.ol.epicgames.com";
-        public const string EGS_ENTITLEMENT_HOST = "entitlement-public-service-prod08.ol.epicgames.com";
-        public const string EGS_CATALOG_HOST = "catalog-public-service-prod06.ol.epicgames.com";
-        public const string EGS_DEV_HOST = "api.epicgames.dev";
-
         CookieContainer _WebCookies;
 
         HttpClient _WebHttpClient;
@@ -116,105 +107,17 @@ namespace EGS
             _SessionID = (string)oauth_infos["session_id"];
         }
 
-        Error _GetErrorFromJson(JObject json)
-        {
-            Error err = new Error();
-
-            string error_name = string.Empty;
-            string message = string.Empty;
-            int error_code = 0;
-
-            if (json != null)
-            {
-                if (json.ContainsKey("message"))
-                    message = (string)json["message"];
-                else if (json.ContainsKey("errorMessage"))
-                    message = (string)json["errorMessage"];
-
-                if (error_code == 0 && json.ContainsKey("numericErrorCode"))
-                {
-                    error_code = (int)json["numericErrorCode"];
-                }
-                if (string.IsNullOrWhiteSpace(error_name) && json.ContainsKey("errorCode"))
-                {
-                    error_name = (string)json["errorCode"];
-                }
-            }
-
-            err.Message = string.IsNullOrWhiteSpace(message) ? error_name : message;
-
-            if (error_code == 0)
-            {
-                err.ErrorCode = Error.ErrorCodeFromString(error_name);
-            }
-            else
-            {
-                err.ErrorCode = Error.Unknown;
-            }
-
-            return err;
-        }
-
-        Error _GetWebErrorFromException(Exception e)
-        {
-            Error err = new Error();
-            if (e is WebException && ((WebException)e).Response != null)
-            {
-                WebException we = (WebException)e;
-                try
-                {
-                    int error_code = 0;
-                    string error_name = string.Empty;
-                    string message = string.Empty;
-
-                    if(we.Response.Headers.AllKeys.Contains("X-Epic-Error-Code"))
-                    {
-                        error_code = int.Parse(we.Response.Headers["X-Epic-Error-Code"]);
-                    }
-                    if (we.Response.Headers.AllKeys.Contains("X-Epic-Error-Name"))
-                    {
-                        error_name = we.Response.Headers["X-Epic-Error-Name"];
-                    }
-
-                    JObject json = null;
-                    try
-                    {
-                        using (StreamReader reader = new StreamReader(we.Response.GetResponseStream()))
-                        {
-                            json = JObject.Parse(reader.ReadToEnd());
-                        }
-                    }
-                    catch(Exception)
-                    { }
-
-                    err = _GetErrorFromJson(json);
-                }
-                catch (Exception)
-                {
-                    err.Message = e.Message;
-                    err.ErrorCode = Error.WebError;
-                }
-            }
-            else
-            {
-                err.Message = e.Message;
-                err.ErrorCode = Error.WebError;
-            }
-
-            return err;
-        }
-
         async Task<Error<string>> _GetXSRFToken()
         {
             Error<string> err = new Error<string> { ErrorCode = 0 };
 
             try
             {
-                Uri uri = new Uri($"https://{EPIC_GAMES_HOST}/id/api/csrf");
+                Uri uri = new Uri($"https://{Shared.EPIC_GAMES_HOST}/id/api/csrf");
 
                 var response = await _WebRunGet(new HttpRequestMessage(HttpMethod.Get, uri), new Dictionary<string, string>
                 {
-                    { "User-Agent", EGS_OAUTH_UAGENT },
+                    { "User-Agent", Shared.EGS_OAUTH_UAGENT },
                 });
 
                 foreach (Cookie c in _WebCookies.GetCookies(uri))
@@ -231,7 +134,7 @@ namespace EGS
             }
             catch (Exception e)
             {
-                err.FromError(_GetWebErrorFromException(e));
+                err.FromError(Error.GetWebErrorFromException(e));
             }
 
             return err;
@@ -243,12 +146,12 @@ namespace EGS
 
             try
             {
-                Uri uri = new Uri($"https://{EPIC_GAMES_HOST}/id/api/exchange/generate");
+                Uri uri = new Uri($"https://{Shared.EPIC_GAMES_HOST}/id/api/exchange/generate");
 
                 JObject response = JObject.Parse(await _WebRunPost(uri, new StringContent("", Encoding.UTF8), new Dictionary<string, string>
                 {
                     { "X-XSRF-TOKEN", xsrf_token },
-                    { "User-Agent", EGS_OAUTH_UAGENT },
+                    { "User-Agent", Shared.EGS_OAUTH_UAGENT },
                 }));
 
                 err.Result = (string)response["code"];
@@ -260,7 +163,7 @@ namespace EGS
             }
             catch (Exception e)
             {
-                err.FromError(_GetWebErrorFromException(e));
+                err.FromError(Error.GetWebErrorFromException(e));
             }
 
             return err;
@@ -269,21 +172,21 @@ namespace EGS
         async Task<Error> _ResumeSession(string access_token)
         {
             Error err = new Error { ErrorCode = 0 };
-            Uri uri = new Uri($"https://{EGS_OAUTH_HOST}/account/api/oauth/verify");
+            Uri uri = new Uri($"https://{Shared.EGS_OAUTH_HOST}/account/api/oauth/verify");
 
             try
             {
                 _WebCookies.GetCookies(uri).Clear();
                 JObject oauth = JObject.Parse(await _WebRunGet(new HttpRequestMessage(HttpMethod.Get, uri), new Dictionary<string, string>
                 {
-                    { "User-Agent", EGS_OAUTH_UAGENT },
+                    { "User-Agent", Shared.EGS_OAUTH_UAGENT },
                     { "Authorization", access_token },
                 }));
                 _UpdateOAuth(oauth);
             }
             catch (Exception e)
             {
-                err = _GetWebErrorFromException(e);
+                err = Error.GetWebErrorFromException(e);
             }
 
             return err;
@@ -336,7 +239,7 @@ namespace EGS
                     return err;
             }
 
-            Uri uri = new Uri($"https://{EGS_OAUTH_HOST}/account/api/oauth/token");
+            Uri uri = new Uri($"https://{Shared.EGS_OAUTH_HOST}/account/api/oauth/token");
 
             _WebCookies.GetCookies(uri).Clear();
 
@@ -344,18 +247,18 @@ namespace EGS
             {
                 err.Result = JObject.Parse(await _WebRunPost(uri, post_data, new Dictionary<string, string>
                 {
-                    { "User-Agent", EGS_OAUTH_UAGENT },
-                    { "Authorization", string.Format("Basic {0}", Convert.ToBase64String(Encoding.UTF8.GetBytes($"{EGS_USER}:{EGS_PASS}"))) }
+                    { "User-Agent", Shared.EGS_OAUTH_UAGENT },
+                    { "Authorization", string.Format("Basic {0}", Convert.ToBase64String(Encoding.UTF8.GetBytes($"{Shared.EGS_USER}:{Shared.EGS_PASS}"))) }
                 }));
 
                 if (err.Result.ContainsKey("errorCode"))
                 {
-                    err.FromError(_GetErrorFromJson(err.Result));
+                    err.FromError(Error.GetErrorFromJson(err.Result));
                 }
             }
             catch (Exception e)
             {
-                err.FromError(_GetWebErrorFromException(e));
+                err.FromError(Error.GetWebErrorFromException(e));
             }
 
             return err;
@@ -367,7 +270,7 @@ namespace EGS
 
             _ResetOAuth();
 
-            Uri uri = new Uri($"https://{EPIC_GAMES_HOST}/id/api/set-sid?sid={sid}");
+            Uri uri = new Uri($"https://{Shared.EPIC_GAMES_HOST}/id/api/set-sid?sid={sid}");
 
             _WebCookies.GetCookies(uri).Clear();
 
@@ -375,11 +278,11 @@ namespace EGS
             {
                 string response = await _WebRunGet(new HttpRequestMessage(HttpMethod.Get, uri), new Dictionary<string, string>
                 {
-                    { "User-Agent"           , EGL_UAGENT },
+                    { "User-Agent"           , Shared.EGL_UAGENT },
                     { "X-Epic-Event-Action"  , "login" },
                     { "X-Epic-Event-Category", "login" },
                     { "X-Requested-With"     , "XMLHttpRequest" },
-                    { "Authorization"        , string.Format("Basic {0}", Convert.ToBase64String(Encoding.UTF8.GetBytes($"{EGS_USER}:{EGS_PASS}"))) },
+                    { "Authorization"        , string.Format("Basic {0}", Convert.ToBase64String(Encoding.UTF8.GetBytes($"{Shared.EGS_USER}:{Shared.EGS_PASS}"))) },
                 });
 
                 string xsrf_token;
@@ -435,7 +338,7 @@ namespace EGS
             }
             catch (Exception e)
             {
-                err.FromError(_GetWebErrorFromException(e));
+                err.FromError(Error.GetWebErrorFromException(e));
             }
 
             return err;
@@ -446,7 +349,7 @@ namespace EGS
             Error<JObject> err = new Error<JObject>();
             _ResetOAuth();
 
-            Uri uri = new Uri($"https://{EPIC_GAMES_HOST}");
+            Uri uri = new Uri($"https://{Shared.EPIC_GAMES_HOST}");
 
             _WebCookies.GetCookies(uri).Clear();
 
@@ -481,7 +384,7 @@ namespace EGS
             }
             catch (Exception e)
             {
-                err.FromError(_GetWebErrorFromException(e));
+                err.FromError(Error.GetWebErrorFromException(e));
             }
 
             return err;
@@ -569,7 +472,7 @@ namespace EGS
             }
             catch (Exception e)
             {
-                err.FromError(_GetWebErrorFromException(e));
+                err.FromError(Error.GetWebErrorFromException(e));
             }
 
             return err;
@@ -582,14 +485,14 @@ namespace EGS
             {
                 try
                 {
-                    Uri uri = new Uri($"https://{EGS_OAUTH_HOST}/account/api/oauth/sessions/kill/{(string)_OAuthInfos["access_token"]}");
+                    Uri uri = new Uri($"https://{Shared.EGS_OAUTH_HOST}/account/api/oauth/sessions/kill/{(string)_OAuthInfos["access_token"]}");
                     //_WebCli.Headers["Authorization"] = string.Format("bearer {0}", (string)_OAuthInfos["access_token"]);
 
                     await _WebHttpClient.DeleteAsync(uri);
                 }
                 catch (Exception e)
                 {
-                    err = _GetWebErrorFromException(e);
+                    err = Error.GetWebErrorFromException(e);
                 }
 
                 _ResetOAuth();
@@ -610,11 +513,11 @@ namespace EGS
 
             try
             {
-                Uri uri = new Uri($"https://{EGS_OAUTH_HOST}/account/api/oauth/exchange");
+                Uri uri = new Uri($"https://{Shared.EGS_OAUTH_HOST}/account/api/oauth/exchange");
 
                 JObject response = JObject.Parse(await _WebRunGet(new HttpRequestMessage(HttpMethod.Get, uri), new Dictionary<string, string>
                 {
-                    { "User-Agent", EGL_UAGENT },
+                    { "User-Agent", Shared.EGL_UAGENT },
                     { "Authorization", $"bearer {(string)_OAuthInfos["access_token"]}" },
                 }));
                 err.Result = (string)response["code"];
@@ -622,7 +525,7 @@ namespace EGS
             }
             catch (Exception e)
             {
-                err.FromError(_GetWebErrorFromException(e));
+                err.FromError(Error.GetWebErrorFromException(e));
             }
 
             return err;
@@ -648,7 +551,7 @@ namespace EGS
 
             try
             {
-                Uri uri = new Uri($"https://{EGS_DEV_HOST}/epic/oauth/v1/token");
+                Uri uri = new Uri($"https://{Shared.EGS_DEV_HOST}/epic/oauth/v1/token");
 
                 var content = new FormUrlEncodedContent(new[]
                 {
@@ -663,12 +566,61 @@ namespace EGS
                     { "Authorization", string.Format("Basic {0}", Convert.ToBase64String(Encoding.UTF8.GetBytes($"{user_id}:{password}"))) },
                 }));
 
+                if (response.ContainsKey("errorCode"))
+                {
+                    err.FromError(Error.GetErrorFromJson(response));
+                    if (response.ContainsKey("continuation") && err.ErrorCode == Error.OAuthScopeConsentRequired)
+                    {
+                        string continuation_token = (string)response["continuation"];
+                        string consent_url = $"https://epicgames.com/id/login?continuation={continuation_token}&prompt=skip_merge skip_upgrade";
+
+                        Console.WriteLine($"Consent is required, please head to '{consent_url}'.");
+
+                        Process p = Shared.OpenUrl(consent_url);
+                        if (p == null)
+                            return err;
+
+                        await p.WaitForExitAsync();
+
+                        content = new FormUrlEncodedContent(new[]
+                        {
+                            new KeyValuePair<string, string>( "grant_type"        , "continuation_token" ),
+                            new KeyValuePair<string, string>( "continuation_token", continuation_token ),
+                            new KeyValuePair<string, string>( "deployment_id"     , deployement_id ),
+                        });
+
+                        int retries = 0;
+                        while (true)
+                        {
+                            response = JObject.Parse(await _WebRunPost(uri, content, new Dictionary<string, string>
+                            {
+                                { "Authorization", string.Format("Basic {0}", Convert.ToBase64String(Encoding.UTF8.GetBytes($"{user_id}:{password}"))) },
+                                { "User-Agent"   , Shared.EGL_UAGENT },
+                            }));
+
+                            if (!response.ContainsKey("errorCode"))
+                                break;
+
+                            if (retries >= 30)
+                            {// We waited for 1 minute, exit now...
+                                return err;
+                            }
+
+                            ++retries;
+                            Thread.Sleep(TimeSpan.FromSeconds(2));
+                        }
+                    }
+
+                    err.FromError(Error.GetErrorFromJson(response));
+                    return err;
+                }
+
                 err.Result = (string)response["refresh_token"];
                 err.ErrorCode = Error.OK;
             }
             catch (Exception e)
             {
-                err.FromError(_GetWebErrorFromException(e));
+                err.FromError(Error.GetWebErrorFromException(e));
             }
 
             return err;
@@ -768,7 +720,7 @@ namespace EGS
                     { "label", label },
                 };
                 string q = _NameValueCollectionToQueryString(get_datas);
-                Uri uri = new Uri($"https://{EGS_LAUNCHER_HOST}/launcher/api/public/assets/{platform}?{q}");
+                Uri uri = new Uri($"https://{Shared.EGS_LAUNCHER_HOST}/launcher/api/public/assets/{platform}?{q}");
 
                 JArray response = JArray.Parse(await _WebRunGet(new HttpRequestMessage(HttpMethod.Get, uri), new Dictionary<string, string>
                 {
@@ -787,7 +739,7 @@ namespace EGS
             }
             catch (Exception e)
             {
-                err.FromError(_GetWebErrorFromException(e));
+                err.FromError(Error.GetWebErrorFromException(e));
             }
 
             return err;
@@ -806,7 +758,7 @@ namespace EGS
 
             try
             {
-                Uri uri = new Uri($"https://{EGS_LAUNCHER_HOST}/launcher/api/public/assets/v2/platform/{platform}/namespace/{game_namespace}/catalogItem/{catalog_id}/app/{app_name}/label/{label}");
+                Uri uri = new Uri($"https://{Shared.EGS_LAUNCHER_HOST}/launcher/api/public/assets/v2/platform/{platform}/namespace/{game_namespace}/catalogItem/{catalog_id}/app/{app_name}/label/{label}");
 
                 err.Result = JObject.Parse(await _WebRunGet(new HttpRequestMessage(), new Dictionary<string, string>
                 {
@@ -816,7 +768,7 @@ namespace EGS
             }
             catch (Exception e)
             {
-                err.FromError(_GetWebErrorFromException(e));
+                err.FromError(Error.GetWebErrorFromException(e));
             }
 
             return err;
@@ -841,7 +793,7 @@ namespace EGS
                     { "count", count.ToString() },
                 };
                 string q = _NameValueCollectionToQueryString(get_datas);
-                Uri uri = new Uri($"https://{EGS_ENTITLEMENT_HOST}/entitlement/api/account/{(string)_OAuthInfos["account_id"]}/entitlements?{q}");
+                Uri uri = new Uri($"https://{Shared.EGS_ENTITLEMENT_HOST}/entitlement/api/account/{(string)_OAuthInfos["account_id"]}/entitlements?{q}");
 
                 JArray response = JArray.Parse(await _WebRunGet(new HttpRequestMessage(HttpMethod.Get, uri), new Dictionary<string, string>
                 {
@@ -859,7 +811,7 @@ namespace EGS
             }
             catch (Exception e)
             {
-                err.FromError(_GetWebErrorFromException(e));
+                err.FromError(Error.GetWebErrorFromException(e));
             }
 
             return err;
@@ -888,7 +840,7 @@ namespace EGS
                 };
                 string q = _NameValueCollectionToQueryString(get_datas);
 
-                Uri uri = new Uri($"https://{EGS_CATALOG_HOST}/catalog/api/shared/namespace/{game_namespace}/bulk/items?{q}");
+                Uri uri = new Uri($"https://{Shared.EGS_CATALOG_HOST}/catalog/api/shared/namespace/{game_namespace}/bulk/items?{q}");
                 
                 JObject response = JObject.Parse(await _WebRunGet(new HttpRequestMessage(HttpMethod.Get, uri), new Dictionary<string, string>
                 {
@@ -904,7 +856,7 @@ namespace EGS
             }
             catch (Exception e)
             {
-                err.FromError(_GetWebErrorFromException(e));
+                err.FromError(Error.GetWebErrorFromException(e));
             }
 
             return err;
