@@ -154,11 +154,8 @@ namespace EGS
         }
     }
 
-    class Error<T>
+    class Error<T> : Error
     {
-        public int ErrorCode { get; set; }
-        public string Message { get; set; }
-
         public T Result { get; set; }
 
         public void FromError(Error err)
@@ -167,9 +164,9 @@ namespace EGS
             Message = err.Message;
         }
 
-        public static explicit operator Error(Error<T> res)
+        public Error ToError()
         {
-            return new Error { ErrorCode = res.ErrorCode, Message = res.Message };
+            return new Error { ErrorCode = ErrorCode, Message = Message };
         }
     }
 
