@@ -54,7 +54,7 @@ namespace EGS
         JObject _Json3;
 
         string _ApiVersion;
-        string _UserAgent => $"EOS-SDK/{_ApiVersion} (Linux/) Unreal/1.0.0";
+        string _UserAgent;
 
         string _UserId;
         string _Password;
@@ -180,6 +180,8 @@ namespace EGS
             try
             {
                 _ApiVersion = ApiVersionToString(api_version);
+                _UserAgent = $"EOS-SDK/{_ApiVersion} (Linux/) Unreal/1.0.0";
+
                 _UserId = user_id;
                 _Password = password;
                 _DeploymentId = deployement_id;
