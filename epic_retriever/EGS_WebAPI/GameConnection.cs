@@ -1,5 +1,3 @@
-
-
 using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
@@ -8,7 +6,6 @@ using System.Net;
 using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
-using static EGS.GameConnection;
 
 namespace EGS
 {
@@ -135,48 +132,10 @@ namespace EGS
                 .Select(s => s[random.Next(s.Length)]).ToArray());
         }
 
-        async Task<string> _WebRunGet(HttpRequestMessage request, Dictionary<string, string> headers)
+        private async Task<Error<string>> _GameLogin(string deployement_id, string user_id, string password, AuthToken token, ApiVersion api_version)
         {
-            Dictionary<string, string> added_headers = new Dictionary<string, string>();
-            foreach (var item in headers)
-            {
-                if (_WebHttpClient.DefaultRequestHeaders.TryAddWithoutValidation(item.Key, item.Value))
-                {
-                    added_headers.Add(item.Key, item.Value);
-                }
-            }
-
-            var t = await (await _WebHttpClient.SendAsync(request, HttpCompletionOption.ResponseContentRead)).Content.ReadAsStringAsync();
-
-            foreach (var item in added_headers)
-            {
-                _WebHttpClient.DefaultRequestHeaders.Remove(item.Key);
-            }
-
-            return t;
-        }
-
-        async Task<string> _WebRunPost(Uri uri, HttpContent request, Dictionary<string, string> headers)
-        {
-            foreach (var item in headers)
-            {
-                _WebHttpClient.DefaultRequestHeaders.TryAddWithoutValidation(item.Key, item.Value);
-            }
-
-            var t = await (await _WebHttpClient.PostAsync(uri, request)).Content.ReadAsStringAsync();
-
-            foreach (var item in headers)
-            {
-                _WebHttpClient.DefaultRequestHeaders.Remove(item.Key);
-            }
-
-            return t;
-        }
-
-        public async Task<Error> GameLogin(string deployement_id, string user_id, string password, string game_token, ApiVersion api_version = ApiVersion.v1_15_3)
-        {
-            Error err = new Error();
-
+            Error<string> err = new Error<string>();
+            
             try
             {
                 _ApiVersion = ApiVersionToString(api_version);
@@ -195,7 +154,7 @@ namespace EGS
                     new KeyValuePair<string, string>( "deployment_id", _DeploymentId ),
                 });
 
-                _Json1 = JObject.Parse(await _WebRunPost(auth_uri, content, new Dictionary<string, string>
+                _Json1 = JObject.Parse(await Shared.WebRunPost(_WebHttpClient, auth_uri, content, new Dictionary<string, string>
                 {
                     { "Authorization", string.Format("Basic {0}", Convert.ToBase64String(Encoding.UTF8.GetBytes($"{_UserId}:{_Password}"))) },
                     { "User-Agent"   , _UserAgent },
@@ -204,18 +163,34 @@ namespace EGS
 
                 if (_Json1.ContainsKey("errorCode"))
                 {
-                    return Error.GetErrorFromJson(_Json3);
+                    err.FromError(Error.GetErrorFromJson(_Json3));
+                    return err;
                 }
 
-                content = new FormUrlEncodedContent(new[]
+                switch (token.Type)
                 {
-                    new KeyValuePair<string, string>( "grant_type"   , "refresh_token" ),
-                    new KeyValuePair<string, string>( "scope"        , "openid" ),
-                    new KeyValuePair<string, string>( "refresh_token", game_token ),
-                    new KeyValuePair<string, string>( "deployment_id", _DeploymentId ),
-                });
+                    case AuthToken.TokenType.ExchangeCode:
+                        content = new FormUrlEncodedContent(new[]
+                        {
+                            new KeyValuePair<string, string>( "grant_type"   , "exchange_code" ),
+                            new KeyValuePair<string, string>( "scope"        , "openid" ),
+                            new KeyValuePair<string, string>( "exchange_code", token.Token ),
+                            new KeyValuePair<string, string>( "deployment_id", _DeploymentId ),
+                        });
+                        break;
 
-                _Json2 = JObject.Parse(await _WebRunPost(epic_uri, content, new Dictionary<string, string>
+                    case AuthToken.TokenType.RefreshToken:
+                        content = new FormUrlEncodedContent(new[]
+                        {
+                            new KeyValuePair<string, string>( "grant_type"   , "refresh_token" ),
+                            new KeyValuePair<string, string>( "scope"        , "openid" ),
+                            new KeyValuePair<string, string>( "refresh_token", token.Token ),
+                            new KeyValuePair<string, string>( "deployment_id", _DeploymentId ),
+                        });
+                        break;
+                }
+
+                _Json2 = JObject.Parse(await Shared.WebRunPost(_WebHttpClient, epic_uri, content, new Dictionary<string, string>
                 {
                     { "Authorization", string.Format("Basic {0}", Convert.ToBase64String(Encoding.UTF8.GetBytes($"{_UserId}:{_Password}"))) },
                     { "User-Agent"   , _UserAgent },
@@ -224,28 +199,16 @@ namespace EGS
 
                 if (_Json2.ContainsKey("errorCode"))
                 {
-                    err = Error.GetErrorFromJson(_Json3);
-                    if(_Json3.ContainsKey("continuation") && err.ErrorCode == Error.OAuthScopeConsentRequired)
+                    err.FromError(Error.GetErrorFromJson(_Json2));
+                    if (_Json2.ContainsKey("continuation") && err.ErrorCode == Error.OAuthScopeConsentRequired)
                     {
-                        string continuation_token = (string)_Json3["continuation"];
-                        Console.WriteLine($"Consent is required, please head to '{continuation_token}'.");
-
-                        Shared.OpenUrl($"https://epicgames.com/id/login?continuation={continuation_token}&prompt=skip_merge%20skip_upgrade");
-
-                        content = new FormUrlEncodedContent(new[]
-                        {
-                            new KeyValuePair<string, string>( "grant_type"        , "continuation_token" ),
-                            new KeyValuePair<string, string>( "continuation_token", continuation_token ),
-                            new KeyValuePair<string, string>( "deployment_id", _DeploymentId ),
-                        });
-
-                        _Json2 = JObject.Parse(await _WebRunPost(epic_uri, content, new Dictionary<string, string>
-                        {
-                            { "Authorization", string.Format("Basic {0}", Convert.ToBase64String(Encoding.UTF8.GetBytes($"{_UserId}:{_Password}"))) },
-                            { "User-Agent"   , _UserAgent },
-                            { "X-EOS-Version", _ApiVersion },
-                        }));
+                        err.Result = (string)_Json2["continuation"];
                     }
+                    else
+                    {
+                        err.FromError(Error.GetErrorFromJson(_Json2));
+                    }
+                    return err;
                 }
 
                 _MakeNonce(22);
@@ -258,16 +221,17 @@ namespace EGS
                     new KeyValuePair<string, string>( "nonce", _Nonce ),
                 });
 
-                _Json3 = JObject.Parse(await _WebRunPost(new Uri($"https://{Shared.EGS_DEV_HOST}/auth/v1/oauth/token"), content, new Dictionary<string, string>
+                _Json3 = JObject.Parse(await Shared.WebRunPost(_WebHttpClient, new Uri($"https://{Shared.EGS_DEV_HOST}/auth/v1/oauth/token"), content, new Dictionary<string, string>
                 {
                     { "Authorization", string.Format("Basic {0}", Convert.ToBase64String(Encoding.UTF8.GetBytes($"{_UserId}:{_Password}"))) },
                     { "User-Agent"   , _UserAgent },
                     { "X-EOS-Version", _ApiVersion },
-                }));
+                })); ;
 
                 if(_Json3.ContainsKey("errorCode"))
                 {
-                    return Error.GetErrorFromJson(_Json3);
+                    err.FromError(Error.GetErrorFromJson(_Json3));
+                    return err;
                 }
 
                 err.ErrorCode = 0;
@@ -275,10 +239,25 @@ namespace EGS
             }
             catch (Exception e)
             {
-                err = Error.GetWebErrorFromException(e);
+                err.FromError(Error.GetWebErrorFromException(e));
             }
 
             return err;
+        }
+
+        public async Task<Error<string>> RunContinuationToken(string continuation_token, string deployement_id, string user_id, string password)
+        {
+            return await Shared.RunContinuationToken(_WebHttpClient, continuation_token, deployement_id, user_id, password);
+        }
+
+        public async Task<Error> GameLoginWithExchangeCode(string deployement_id, string user_id, string password, string exchange_code, ApiVersion api_version = ApiVersion.v1_15_3)
+        {
+            return await _GameLogin(deployement_id, user_id, password, new AuthToken { Token = exchange_code, Type = AuthToken.TokenType.ExchangeCode }, api_version);
+        }
+
+        public async Task<Error> GameLoginWithRefreshToken(string deployement_id, string user_id, string password, string game_token, ApiVersion api_version = ApiVersion.v1_15_3)
+        {
+            return await _GameLogin(deployement_id, user_id, password, new AuthToken { Token = game_token, Type = AuthToken.TokenType.RefreshToken }, api_version);
         }
 
         public async Task<Error<JArray>> GetAchievementsSchema(string locale = "")
@@ -349,13 +328,11 @@ namespace EGS
 
                 foreach (string current_locale in locales)
                 {
-                    string r = await _WebRunGet(new HttpRequestMessage(HttpMethod.Get, $"https://{Shared.EGS_DEV_HOST}/stats/v2/{_DeploymentId}/definitions/achievements?locale={current_locale}&iconLinks=true"), new Dictionary<string, string> {
+                    json = JArray.Parse(await Shared.WebRunGet(_WebHttpClient, new HttpRequestMessage(HttpMethod.Get, $"https://{Shared.EGS_DEV_HOST}/stats/v2/{_DeploymentId}/definitions/achievements?locale={current_locale}&iconLinks=true"), new Dictionary<string, string> {
                         { "Authorization", $"Bearer {(string)_Json3["access_token"]}" },
                         { "User-Agent"   , _UserAgent },
                         { "X-EOS-Version", _ApiVersion },
-                    });
-
-                    json = JArray.Parse(r);
+                    }));
 
                     foreach (JObject ach in json)
                     {
