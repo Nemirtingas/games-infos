@@ -549,15 +549,17 @@ namespace EGS
                 return err;
             }
 
+            JArray scope = new JArray { "basic_profile", "friend_list", "presence" };
+
             try
             {
                 Uri uri = new Uri($"https://{Shared.EGS_DEV_HOST}/epic/oauth/v1/token");
 
-                var content = new FormUrlEncodedContent(new[]
+                HttpContent content = new FormUrlEncodedContent(new[]
                 {
                     new KeyValuePair<string, string>( "grant_type", "exchange_code" ),
                     new KeyValuePair<string, string>( "exchange_code", exchange_code ),
-                    new KeyValuePair<string, string>( "scope", "basic_profile friends_list presence" ),
+                    new KeyValuePair<string, string>( "scope", string.Join(" ", scope) ),
                     new KeyValuePair<string, string>( "deployment_id", deployement_id ),
                 });
 
