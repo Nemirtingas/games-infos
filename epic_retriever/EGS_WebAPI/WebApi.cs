@@ -437,7 +437,6 @@ namespace EGS
                 try
                 {
                     Uri uri = new Uri($"https://{Shared.EGS_OAUTH_HOST}/account/api/oauth/sessions/kill/{(string)_OAuthInfos["access_token"]}");
-                    //_WebCli.Headers["Authorization"] = string.Format("bearer {0}", (string)_OAuthInfos["access_token"]);
 
                     await _WebHttpClient.DeleteAsync(uri);
                 }
@@ -471,8 +470,16 @@ namespace EGS
                     { "User-Agent", Shared.EGL_UAGENT },
                     { "Authorization", $"bearer {(string)_OAuthInfos["access_token"]}" },
                 }));
-                err.Result = (string)response["code"];
-                err.ErrorCode = Error.OK;
+
+                if (response.ContainsKey("errorCode"))
+                {
+                    err.FromError(Error.GetErrorFromJson(response));
+                }
+                else
+                {
+                    err.Result = (string)response["code"];
+                    err.ErrorCode = Error.OK;
+                }
             }
             catch (Exception e)
             {
@@ -668,11 +675,19 @@ namespace EGS
             {
                 Uri uri = new Uri($"https://{Shared.EGS_LAUNCHER_HOST}/launcher/api/public/assets/v2/platform/{platform}/namespace/{game_namespace}/catalogItem/{catalog_id}/app/{app_name}/label/{label}");
 
-                err.Result = JObject.Parse(await Shared.WebRunGet(_WebHttpClient, new HttpRequestMessage(), new Dictionary<string, string>
+                err.Result = JObject.Parse(await Shared.WebRunGet(_WebHttpClient, new HttpRequestMessage(HttpMethod.Get, uri), new Dictionary<string, string>
                 {
                     { "Authorization", $"bearer {(string)_OAuthInfos["access_token"]}" },
                 }));
-                err.ErrorCode = Error.OK;
+
+                if (err.Result.ContainsKey("errorCode"))
+                {
+                    err.FromError(Error.GetErrorFromJson(err.Result));
+                }
+                else
+                {
+                    err.ErrorCode = Error.OK;
+                }
             }
             catch (Exception e)
             {
