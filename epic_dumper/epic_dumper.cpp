@@ -392,7 +392,14 @@ class EOSApi
     decltype(EOS_Ecom_QueryOffers)* _EOS_Ecom_QueryOffers;
     decltype(EOS_Ecom_GetOfferCount)* _EOS_Ecom_GetOfferCount;
     decltype(EOS_Ecom_CopyOfferByIndex)* _EOS_Ecom_CopyOfferByIndex;
+    decltype(EOS_Ecom_GetOfferItemCount)* _EOS_Ecom_GetOfferItemCount;
+    decltype(EOS_Ecom_CopyOfferItemByIndex)* _EOS_Ecom_CopyOfferItemByIndex;
+    decltype(EOS_Ecom_QueryEntitlements)* _EOS_Ecom_QueryEntitlements;
+    decltype(EOS_Ecom_GetEntitlementsCount)* _EOS_Ecom_GetEntitlementsCount;
+    decltype(EOS_Ecom_CopyEntitlementByIndex)* _EOS_Ecom_CopyEntitlementByIndex;
+    decltype(EOS_Ecom_Entitlement_Release)* _EOS_Ecom_Entitlement_Release;
     decltype(EOS_Ecom_CatalogOffer_Release)* _EOS_Ecom_CatalogOffer_Release;
+    decltype(EOS_Ecom_CatalogItem_Release)* _EOS_Ecom_CatalogItem_Release;
 
     // EOS_Stats
     decltype(EOS_Stats_QueryStats)* _EOS_Stats_QueryStats;
@@ -686,9 +693,44 @@ class EOSApi
             return _EOSApi->_EOS_Ecom_CopyOfferByIndex(hIface, options, out_offer);
         }
 
+        uint32_t GetOfferItemCount(const EOS_Ecom_GetOfferItemCountOptions* options)
+        {
+            return _EOSApi->_EOS_Ecom_GetOfferItemCount(hIface, options);
+        }
+
+        EOS_EResult CopyOfferItemByIndex(const EOS_Ecom_CopyOfferItemByIndexOptions* options, EOS_Ecom_CatalogItem** out_item)
+        {
+            return _EOSApi->_EOS_Ecom_CopyOfferItemByIndex(hIface, options, out_item);
+        }
+
+        void QueryEntitlements(const EOS_Ecom_QueryEntitlementsOptions* options, std::function<std::remove_pointer_t<EOS_Ecom_OnQueryEntitlementsCallback>> completion_delegate)
+        {
+            _EOSApi->_EOS_Ecom_QueryEntitlements(hIface, options, new (decltype(completion_delegate))(std::move(completion_delegate)), &EOSApi::shim_callback<typename boost::function_traits<decltype(completion_delegate)>::arg1_type>);
+        }
+
+        uint32_t GetEntitlementsCount(const EOS_Ecom_GetEntitlementsCountOptions* options)
+        {
+            return _EOSApi->_EOS_Ecom_GetEntitlementsCount(hIface, options);
+        }
+
+        EOS_EResult CopyEntitlementByIndex(const EOS_Ecom_CopyEntitlementByIndexOptions* options, EOS_Ecom_Entitlement** out_entitlement)
+        {
+            return _EOSApi->_EOS_Ecom_CopyEntitlementByIndex(hIface, options, out_entitlement);
+        }
+
+        void Entitlement_Release(EOS_Ecom_Entitlement* entitlement)
+        {
+            _EOSApi->_EOS_Ecom_Entitlement_Release(entitlement);
+        }
+
         void CatalogOffer_Release(EOS_Ecom_CatalogOffer* offer)
         {
             _EOSApi->_EOS_Ecom_CatalogOffer_Release(offer);
+        }
+
+        void CatalogItem_Release(EOS_Ecom_CatalogItem* catalog_item)
+        {
+            _EOSApi->_EOS_Ecom_CatalogItem_Release(catalog_item);
         }
     };
 
@@ -890,7 +932,14 @@ public:
         LOAD_API(this, EOS_Ecom_QueryOffers);
         LOAD_API(this, EOS_Ecom_GetOfferCount);
         LOAD_API(this, EOS_Ecom_CopyOfferByIndex);
+        LOAD_API(this, EOS_Ecom_GetOfferItemCount);
+        LOAD_API(this, EOS_Ecom_CopyOfferItemByIndex);
+        LOAD_API(this, EOS_Ecom_QueryEntitlements);
+        LOAD_API(this, EOS_Ecom_GetEntitlementsCount);
+        LOAD_API(this, EOS_Ecom_CopyEntitlementByIndex);
+        LOAD_API(this, EOS_Ecom_Entitlement_Release);
         LOAD_API(this, EOS_Ecom_CatalogOffer_Release);
+        LOAD_API(this, EOS_Ecom_CatalogItem_Release);
 
         // Stats
         LOAD_OPTIONNAL(this, EOS_Stats_QueryStats);
