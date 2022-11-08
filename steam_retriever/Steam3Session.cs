@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -11,6 +11,47 @@ using SteamKit2.Internal;
 
 namespace steam_retriever
 {
+    class SynchronizedObject<T> : object
+    {
+        private T _value;
+
+        public T value
+        {
+            get
+            {
+                lock(this)
+                {
+                    return _value;
+                }
+            }
+
+            set
+            {
+                lock(this)
+                {
+                    _value = value;
+                    Monitor.PulseAll(this);
+                }
+            }
+        }
+
+        public void Wait()
+        {
+            lock(this)
+            {
+                Monitor.Wait(this);
+            }
+        }
+
+        public bool Wait(TimeSpan ts)
+        {
+            lock(this)
+            {
+                return Monitor.Wait(this, ts);
+            }
+        }
+    }
+
     public partial class SteamUserStats : ClientMsgHandler
     {
         Dictionary<EMsg, Action<IPacketMsg>> dispatchMap;
@@ -147,16 +188,19 @@ namespace steam_retriever
         readonly CallbackManager callbacks;
 
         readonly bool authenticatedUser;
-        bool bConnected;
         bool bConnecting;
+        readonly SynchronizedObject<bool> HasDisconnected = new SynchronizedObject<bool>();
+        readonly SynchronizedObject<bool> IsConnected = new SynchronizedObject<bool>();
         bool bAborted;
         bool bExpectingDisconnectRemote;
-        bool bDidDisconnect;
-        bool bDidReceiveLoginKey;
+        readonly SynchronizedObject<bool> DidReceiveLoginKey = new SynchronizedObject<bool>();
         bool bIsConnectionRecovery;
         int connectionBackoff;
         int seq; // more hack fixes
         DateTime connectTime;
+
+        Task CallbackTask;
+        CancellationTokenSource CallbackCancellationSource;
 
         // input
         readonly SteamUser.LogOnDetails logonDetails;
@@ -167,18 +211,29 @@ namespace steam_retriever
         static readonly TimeSpan STEAM3_TIMEOUT = TimeSpan.FromSeconds(30);
 
 
+        void CallbackProc(object arg)
+        {
+            CancellationToken tk = (CancellationToken)arg;
+            while (!tk.IsCancellationRequested)
+            {
+                callbacks.RunWaitCallbacks(TimeSpan.FromMilliseconds(100));
+            }
+        }
+
         public Steam3Session(SteamUser.LogOnDetails details)
         {
             this.logonDetails = details;
 
             this.authenticatedUser = details.Username != null;
             this.credentials = new Credentials();
-            this.bConnected = false;
             this.bConnecting = false;
+
+            this.HasDisconnected.value = false;
+            this.IsConnected.value = false;
+
             this.bAborted = false;
             this.bExpectingDisconnectRemote = false;
-            this.bDidDisconnect = false;
-            this.bDidReceiveLoginKey = false;
+            this.DidReceiveLoginKey.value = false;
             this.seq = 0;
 
             this.AppTokens = new Dictionary<uint, ulong>();
@@ -239,43 +294,7 @@ namespace steam_retriever
             Connect();
         }
 
-        public delegate bool WaitCondition();
-
-        private readonly object steamLock = new object();
-
-        public bool WaitUntilCallback(Action submitter, WaitCondition waiter)
-        {
-            while (!bAborted && !waiter())
-            {
-                lock (steamLock)
-                {
-                    submitter();
-                }
-
-                var seq = this.seq;
-                do
-                {
-                    lock (steamLock)
-                    {
-                        WaitForCallbacks();
-                    }
-                } while (!bAborted && this.seq == seq && !waiter());
-            }
-
-            return bAborted;
-        }
-
-        public Credentials WaitForCredentials()
-        {
-            if (credentials.IsValid || bAborted)
-                return credentials;
-
-            WaitUntilCallback(() => { }, () => { return credentials.IsValid; });
-
-            return credentials;
-        }
-
-        public void RequestAppsInfo(IEnumerable<uint> appIds, bool bForce = false)
+        public async Task RequestAppsInfo(IEnumerable<uint> appIds, bool bForce = false)
         {
             List<uint> request_appids = new List<uint>();
             {
@@ -290,156 +309,93 @@ namespace steam_retriever
                 if (request_appids.Count == 0 || bAborted)
                     return;
             }
+            List<SteamApps.PICSRequest> requests = new List<SteamApps.PICSRequest>(request_appids.Count);
 
-            var completed = false;
-            Action<SteamApps.PICSTokensCallback> cbMethodTokens = appTokens =>
             {
-                completed = true;
-                foreach (var item in request_appids)
+                var job = await steamApps.PICSGetAccessTokens(request_appids, new List<uint>());
+
+                foreach (var appToken in request_appids)
                 {
-                    if (appTokens.AppTokensDenied.Contains(item))
+                    if (job.AppTokensDenied.Contains(appToken))
                     {
                         //Console.WriteLine("Insufficient privileges to get access token for app {0}", item);
                     }
                 }
 
-                foreach (var token_dict in appTokens.AppTokens)
+                foreach (var token_dict in job.AppTokens)
                 {
-                    this.AppTokens[token_dict.Key] = token_dict.Value;
-                }
-            };
-
-            WaitUntilCallback(() =>
-            {
-                callbacks.Subscribe(steamApps.PICSGetAccessTokens(request_appids, new List<uint>()), cbMethodTokens);
-            }, () => { return completed; });
-
-            completed = false;
-            Action<SteamApps.PICSProductInfoCallback> cbMethod = appInfo =>
-            {
-                completed = !appInfo.ResponsePending;
-
-                foreach (var app_value in appInfo.Apps)
-                {
-                    var app = app_value.Value;
-
-                    //Console.WriteLine("Got AppInfo for {0}", app.ID);
-                    AppInfo[app.ID] = app;
+                    AppTokens[token_dict.Key] = token_dict.Value;
                 }
 
-                foreach (var app in appInfo.UnknownApps)
+                foreach (var item in request_appids)
                 {
-                    AppInfo[app] = null;
+                    var pic = new SteamApps.PICSRequest(item);
+                    if (AppTokens.ContainsKey(item))
+                    {
+                        pic.AccessToken = AppTokens[item];
+                    }
+                    requests.Add(pic);
                 }
-            };
-
-            List<SteamApps.PICSRequest> requests = new List<SteamApps.PICSRequest>(request_appids.Count);
-            foreach (var item in request_appids)
-            {
-                var pic = new SteamApps.PICSRequest(item);
-                if (AppTokens.ContainsKey(item))
-                {
-                    pic.AccessToken = AppTokens[item];
-                }
-                requests.Add(pic);
             }
 
-            WaitUntilCallback(() =>
             {
-                callbacks.Subscribe(steamApps.PICSGetProductInfo(requests, new List<SteamApps.PICSRequest>()), cbMethod);
-            }, () => { return completed; });
+                var jobs = await steamApps.PICSGetProductInfo(requests, new List<SteamApps.PICSRequest>());
+
+                foreach (var result in jobs.Results)
+                {
+                    foreach (var app_value in result.Apps)
+                    {
+                        //Console.WriteLine("Got AppInfo for {0}", app.ID);
+                        AppInfo[app_value.Key] = app_value.Value;
+                    }
+
+                    foreach (var app in result.UnknownApps)
+                    {
+                        AppInfo[app] = null;
+                    }
+                }
+            }
         }
 
-        public void RequestAppInfo(uint appId, bool bForce = false)
+        public async Task RequestAppInfo(uint appId, bool bForce = false)
         {
-            RequestAppsInfo(new List<uint>{ appId }, bForce);
+            await RequestAppsInfo(new List<uint>{ appId }, bForce);
         }
 
-        public string GetInventoryDigest(uint appid)
+        public async Task<string> GetInventoryDigest(uint appid)
         {
             CInventory_GetItemDefMeta_Request itemdef_req = new CInventory_GetItemDefMeta_Request
             {
                 appid = appid,
             };
 
-            var completed = false;
-            string digest = null;
+            var job = await steamInventory.SendMessage(api => api.GetItemDefMeta(itemdef_req));
 
-            Action<SteamUnifiedMessages.ServiceMethodResponse> cbMethod = callback =>
+            if (job.Result == EResult.OK)
             {
-                completed = true;
-                if (callback.Result == EResult.OK)
-                {
-                    var response = callback.GetDeserializedResponse<CInventory_GetItemDefMeta_Response>();
-                    digest = response.digest;
-                }
-                else
-                {
-                    throw new Exception($"EResult {(int)callback.Result} ({callback.Result}) while retrieving items definition for {appid}.");
-                }
-            };
-
-            WaitUntilCallback(() =>
+                var response = job.GetDeserializedResponse<CInventory_GetItemDefMeta_Response>();
+                return response.digest;
+            }
+            else
             {
-                callbacks.Subscribe(steamInventory.SendMessage(api => api.GetItemDefMeta(itemdef_req)), cbMethod);
-            }, () => { return completed; });
-
-            return digest;
+                throw new Exception($"EResult {(int)job.Result} ({job.Result}) while retrieving items definition for {appid}.");
+            }
         }
 
-        public SteamUserStats.GetUserStatsCallback GetUserStats(uint appId, ulong steamId)
+        public async Task<SteamUserStats.GetUserStatsCallback> GetUserStats(uint appId, ulong steamId)
         {
-            SteamUserStats.GetUserStatsCallback res = null;
-            var completed = false;
-
-            Action<SteamUserStats.GetUserStatsCallback> cbMethod = userStats =>
-            {
-                completed = true;
-                res = userStats;
-            };
-
-            AsyncJob<SteamUserStats.GetUserStatsCallback> aj = null;
-
-            WaitUntilCallback(() =>
-            {
-                aj = steamUserStats.GetUserStats(appId, steamId);
-                aj.Timeout = TimeSpan.FromSeconds(5);
-                callbacks.Subscribe(aj, cbMethod);
-            }, () => {
-                if (aj != null && aj.ToTask().IsCompleted)
-                {
-                    completed = true;
-                }
-                return completed;
-            });
-
-            return res;
+            var async_job = steamUserStats.GetUserStats(appId, steamId);
+            async_job.Timeout = TimeSpan.FromSeconds(5);
+            return await async_job;
         }
 
-        public void RequestPackageInfo(IEnumerable<uint> packageIds)
+        public async Task RequestPackageInfo(IEnumerable<uint> packageIds)
         {
             var packages = packageIds.ToList();
             packages.RemoveAll(pid => PackageInfo.ContainsKey(pid));
 
             if (packages.Count == 0 || bAborted)
                 return;
-
-            var completed = false;
-            Action<SteamApps.PICSProductInfoCallback> cbMethod = packageInfo =>
-            {
-                completed = !packageInfo.ResponsePending;
-
-                foreach (var package_value in packageInfo.Packages)
-                {
-                    var package = package_value.Value;
-                    PackageInfo[package.ID] = package;
-                }
-
-                foreach (var package in packageInfo.UnknownPackages)
-                {
-                    PackageInfo[package] = null;
-                }
-            };
 
             var packageRequests = new List<SteamApps.PICSRequest>();
 
@@ -455,55 +411,45 @@ namespace steam_retriever
                 packageRequests.Add(request);
             }
 
-            WaitUntilCallback(() =>
+            var jobs = await steamApps.PICSGetProductInfo(new List<SteamApps.PICSRequest>(), packageRequests);
+
+            foreach (var job in jobs.Results)
             {
-                callbacks.Subscribe(steamApps.PICSGetProductInfo(new List<SteamApps.PICSRequest>(), packageRequests), cbMethod);
-            }, () => { return completed; });
-        }
-
-        public bool RequestFreeAppLicense(uint appId)
-        {
-            var success = false;
-            var completed = false;
-            Action<SteamApps.FreeLicenseCallback> cbMethod = resultInfo =>
-            {
-                completed = true;
-                success = resultInfo.GrantedApps.Contains(appId);
-            };
-
-            WaitUntilCallback(() =>
-            {
-                callbacks.Subscribe(steamApps.RequestFreeLicense(appId), cbMethod);
-            }, () => { return completed; });
-
-            return success;
-        }
-
-        public void RequestDepotKey(uint depotId, uint appid = 0)
-        {
-            if (DepotKeys.ContainsKey(depotId) || bAborted)
-                return;
-
-            var completed = false;
-
-            Action<SteamApps.DepotKeyCallback> cbMethod = depotKey =>
-            {
-                completed = true;
-                Console.WriteLine("Got depot key for {0} result: {1}", depotKey.DepotID, depotKey.Result);
-
-                if (depotKey.Result != EResult.OK)
+                foreach (var package_value in job.Packages)
                 {
-                    Abort();
-                    return;
+                    var package = package_value.Value;
+                    PackageInfo[package.ID] = package;
                 }
 
-                DepotKeys[depotKey.DepotID] = depotKey.DepotKey;
-            };
+                foreach (var package in job.UnknownPackages)
+                {
+                    PackageInfo[package] = null;
+                }
+            }
+        }
 
-            WaitUntilCallback(() =>
-            {
-                callbacks.Subscribe(steamApps.GetDepotDecryptionKey(depotId, appid), cbMethod);
-            }, () => { return completed; });
+        public async Task<bool> RequestFreeAppLicense(uint appId)
+        {
+            return (await steamApps.RequestFreeLicense(appId)).GrantedApps.Contains(appId);
+        }
+
+        public async Task<bool> RequestDepotKey(uint depotId, uint appid = 0)
+        {
+            if (DepotKeys.ContainsKey(depotId))
+                return true;
+
+            if (bAborted)
+                return false;
+
+            var job = await steamApps.GetDepotDecryptionKey(depotId, appid);
+
+            Console.WriteLine("Got depot key for {0} result: {1}", job.DepotID, job.Result);
+
+            if (job.Result != EResult.OK)
+                return false;
+
+            DepotKeys[job.DepotID] = job.DepotKey;
+            return true;
         }
 
 
@@ -521,28 +467,19 @@ namespace steam_retriever
             return requestCode;
         }
 
-        public void CheckAppBetaPassword(uint appid, string password)
+        public async Task CheckAppBetaPassword(uint appid, string password)
         {
-            var completed = false;
-            Action<SteamApps.CheckAppBetaPasswordCallback> cbMethod = appPassword =>
+            var job = await steamApps.CheckAppBetaPassword(appid, password);
+
+            Console.WriteLine("Retrieved {0} beta keys with result: {1}", job.BetaPasswords.Count, job.Result);
+
+            foreach (var entry in job.BetaPasswords)
             {
-                completed = true;
-
-                Console.WriteLine("Retrieved {0} beta keys with result: {1}", appPassword.BetaPasswords.Count, appPassword.Result);
-
-                foreach (var entry in appPassword.BetaPasswords)
-                {
-                    AppBetaPasswords[entry.Key] = entry.Value;
-                }
-            };
-
-            WaitUntilCallback(() =>
-            {
-                callbacks.Subscribe(steamApps.CheckAppBetaPassword(appid, password), cbMethod);
-            }, () => { return completed; });
+                AppBetaPasswords[entry.Key] = entry.Value;
+            }
         }
 
-        public PublishedFileDetails GetPublishedFileDetails(uint? appId, PublishedFileID pubFile)
+        public async Task<PublishedFileDetails> GetPublishedFileDetails(uint? appId, PublishedFileID pubFile)
         {
             var pubFileRequest = new CPublishedFile_GetDetails_Request();
             if (appId != null)
@@ -550,58 +487,35 @@ namespace steam_retriever
 
             pubFileRequest.publishedfileids.Add(pubFile);
 
-            var completed = false;
-            PublishedFileDetails details = null;
+            var job = await steamPublishedFile.SendMessage(api => api.GetDetails(pubFileRequest));
 
-            Action<SteamUnifiedMessages.ServiceMethodResponse> cbMethod = callback =>
+            if (job.Result != EResult.OK)
             {
-                completed = true;
-                if (callback.Result == EResult.OK)
-                {
-                    var response = callback.GetDeserializedResponse<CPublishedFile_GetDetails_Response>();
-                    details = response.publishedfiledetails.FirstOrDefault();
-                }
-                else
-                {
-                    throw new Exception($"EResult {(int)callback.Result} ({callback.Result}) while retrieving file details for pubfile {pubFile}.");
-                }
-            };
+                throw new Exception($"EResult {(int)job.Result} ({job.Result}) while retrieving file details for pubfile {pubFile}.");   
+            }
 
-            WaitUntilCallback(() =>
-            {
-                callbacks.Subscribe(steamPublishedFile.SendMessage(api => api.GetDetails(pubFileRequest)), cbMethod);
-            }, () => { return completed; });
-
-            return details;
+            return job.GetDeserializedResponse<CPublishedFile_GetDetails_Response>().publishedfiledetails.FirstOrDefault();
         }
 
 
-        public SteamCloud.UGCDetailsCallback GetUGCDetails(UGCHandle ugcHandle)
+        public async Task<SteamCloud.UGCDetailsCallback> GetUGCDetails(UGCHandle ugcHandle)
         {
-            var completed = false;
-            SteamCloud.UGCDetailsCallback details = null;
+            SteamCloud.UGCDetailsCallback details;
 
-            Action<SteamCloud.UGCDetailsCallback> cbMethod = callback =>
-            {
-                completed = true;
-                if (callback.Result == EResult.OK)
-                {
-                    details = callback;
-                }
-                else if (callback.Result == EResult.FileNotFound)
-                {
-                    details = null;
-                }
-                else
-                {
-                    throw new Exception($"EResult {(int)callback.Result} ({callback.Result}) while retrieving UGC details for {ugcHandle}.");
-                }
-            };
+            var job = await steamCloud.RequestUGCDetails(ugcHandle);
 
-            WaitUntilCallback(() =>
+            if (job.Result == EResult.OK)
             {
-                callbacks.Subscribe(steamCloud.RequestUGCDetails(ugcHandle), cbMethod);
-            }, () => { return completed; });
+                details = job;
+            }
+            else if (job.Result == EResult.FileNotFound)
+            {
+                details = null;
+            }
+            else
+            {
+                throw new Exception($"EResult {(int)job.Result} ({job.Result}) while retrieving UGC details for {ugcHandle}.");
+            }
 
             return details;
         }
@@ -609,15 +523,17 @@ namespace steam_retriever
         private void ResetConnectionFlags()
         {
             bExpectingDisconnectRemote = false;
-            bDidDisconnect = false;
             bIsConnectionRecovery = false;
-            bDidReceiveLoginKey = false;
+            DidReceiveLoginKey.value = false;
         }
 
         void Connect()
         {
+            CallbackCancellationSource = new CancellationTokenSource();
+            CallbackTask = Task.Factory.StartNew(CallbackProc, CallbackCancellationSource.Token);
+
             bAborted = false;
-            bConnected = false;
+            IsConnected.value = false;
             bConnecting = true;
             connectionBackoff = 0;
 
@@ -640,16 +556,17 @@ namespace steam_retriever
             }
 
             bAborted = true;
-            bConnected = false;
+            IsConnected.value = false;
             bConnecting = false;
             bIsConnectionRecovery = false;
             steamClient.Disconnect();
 
-            // flush callbacks until our disconnected event
-            while (!bDidDisconnect)
+            while (!HasDisconnected.value)
             {
-                callbacks.RunWaitAllCallbacks(TimeSpan.FromMilliseconds(100));
+                HasDisconnected.Wait();
             }
+
+            CallbackCancellationSource.Cancel();
         }
 
         private void Reconnect()
@@ -662,37 +579,24 @@ namespace steam_retriever
         {
             if (logonDetails.Username == null || !credentials.LoggedOn || !ContentDownloader.Config.RememberPassword) return;
 
-            var totalWaitPeriod = DateTime.Now.AddSeconds(3);
-
-            while (true)
-            {
-                var now = DateTime.Now;
-                if (now >= totalWaitPeriod) break;
-
-                if (bDidReceiveLoginKey) break;
-
-                callbacks.RunWaitAllCallbacks(TimeSpan.FromMilliseconds(100));
-            }
+            DidReceiveLoginKey.Wait(TimeSpan.FromSeconds(3));
         }
 
-        private void WaitForCallbacks()
+        public Credentials WaitForCredentials()
         {
-            callbacks.RunWaitCallbacks(TimeSpan.FromSeconds(1));
+            if (credentials.IsValid || bAborted)
+                return credentials;
 
-            var diff = DateTime.Now - connectTime;
+            IsConnected.Wait(STEAM3_TIMEOUT);
 
-            if (diff > STEAM3_TIMEOUT && !bConnected)
-            {
-                Console.WriteLine("Timeout connecting to Steam3.");
-                Abort();
-            }
+            return credentials;
         }
 
         private void ConnectedCallback(SteamClient.ConnectedCallback connected)
         {
             Console.WriteLine(" Done!");
             bConnecting = false;
-            bConnected = true;
+            IsConnected.value = true;
             if (!authenticatedUser)
             {
                 Console.Write("Logging anonymously into Steam3...");
@@ -708,7 +612,7 @@ namespace steam_retriever
 
         private void DisconnectedCallback(SteamClient.DisconnectedCallback disconnected)
         {
-            bDidDisconnect = true;
+            HasDisconnected.value = true;
 
             // When recovering the connection, we want to reconnect even if the remote disconnects us
             if (!bIsConnectionRecovery && (disconnected.UserInitiated || bExpectingDisconnectRemote))
@@ -902,7 +806,7 @@ namespace steam_retriever
 
             steamUser.AcceptNewLoginKey(loginKey);
 
-            bDidReceiveLoginKey = true;
+            DidReceiveLoginKey.value = true;
         }
     }
 }
