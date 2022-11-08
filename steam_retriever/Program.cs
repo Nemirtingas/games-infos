@@ -43,19 +43,21 @@ namespace steam_retriever
             Beta = 6,
         }
 
-        static ProgramOptions Options;
+        readonly object ExitCondVar = new object();
 
-        static JObject GamesInfos = new JObject();
-        static Dictionary<uint, KeyValue> AppIds = new Dictionary<uint, KeyValue>();
-        static HashSet<uint> DoneAppIds = new HashSet<uint>();
+        ProgramOptions Options;
+
+        JObject GamesInfos = new JObject();
+        Dictionary<uint, KeyValue> AppIds = new Dictionary<uint, KeyValue>();
+        HashSet<uint> DoneAppIds = new HashSet<uint>();
         
-        static HttpClient WebHttpClient = new HttpClient(new HttpClientHandler { AutomaticDecompression = DecompressionMethods.All });
+        HttpClient WebHttpClient = new HttpClient(new HttpClientHandler { AutomaticDecompression = DecompressionMethods.All });
 
-        static dynamic WebSteamUser = null;
-        static bool IsAnonymous = true;
-        static DateTime LastWebRequestTime = new DateTime();
+        dynamic WebSteamUser = null;
+        bool IsAnonymous = true;
+        DateTime LastWebRequestTime = new DateTime();
 
-        static async Task<HttpResponseMessage> LimitSteamWebApiGET(HttpClient http_client, HttpRequestMessage http_request, CancellationTokenSource cts = null)
+        async Task<HttpResponseMessage> LimitSteamWebApiGET(HttpClient http_client, HttpRequestMessage http_request, CancellationTokenSource cts = null)
         {// Steam has a limit of 300 requests every 5 minutes (1 request per second).
             if ((DateTime.Now - LastWebRequestTime) < TimeSpan.FromSeconds(1))
                 Thread.Sleep(TimeSpan.FromSeconds(1));
@@ -70,7 +72,7 @@ namespace steam_retriever
             return await http_client.SendAsync(http_request, HttpCompletionOption.ResponseContentRead, cts.Token);
         }
 
-        static async Task DownloadAchievementIcon(string appid, string ach_name, Uri url)
+        async Task DownloadAchievementIcon(string appid, string ach_name, Uri url)
         {
             string image_path = Path.Combine(Options.OutDirectory, appid, "achievements_images", ach_name + ".jpg");
 
@@ -88,7 +90,7 @@ namespace steam_retriever
             }
         }
 
-        static async Task GenerateAchievementsFromWebAPI(string appid)
+        async Task GenerateAchievementsFromWebAPI(string appid)
         {
             if (string.IsNullOrEmpty(Options.WebApiKey))
             {
@@ -162,7 +164,7 @@ namespace steam_retriever
             }
         }
 
-        static async Task<bool> GenerateAchievementsFromKeyValue(KeyValue schema, uint appid)
+        async Task<bool> GenerateAchievementsFromKeyValue(KeyValue schema, uint appid)
         {
             JArray achievements_array = new JArray();
             JArray stats_array = new JArray();
@@ -353,7 +355,7 @@ namespace steam_retriever
             return true;
         }
 
-        static async Task<bool> GenerateAchievementsFromSteamNetwork(uint appid)
+        async Task<bool> GenerateAchievementsFromSteamNetwork(uint appid)
         {
             if (IsAnonymous)
                 return false;
@@ -367,7 +369,7 @@ namespace steam_retriever
 
             foreach (SteamID steam_id in reviewers_ids)
             {
-                var result = ContentDownloader.steam3.GetUserStats(appid, steam_id.ConvertToUInt64());
+                var result = await ContentDownloader.steam3.GetUserStats(appid, steam_id.ConvertToUInt64());
 
                 try
                 {
@@ -395,7 +397,7 @@ namespace steam_retriever
             return false;
         }
 
-        static async Task<bool> GetItemsDef(uint appid, string digest)
+        async Task<bool> GetItemsDef(uint appid, string digest)
         {
             var response = await LimitSteamWebApiGET(
                 WebHttpClient,
@@ -414,11 +416,11 @@ namespace steam_retriever
             return false;
         }
 
-        static async Task GenerateItemsFromSteamNetwork(uint appid)
+        async Task GenerateItemsFromSteamNetwork(uint appid)
         {
             try
             {
-                string digest = ContentDownloader.steam3.GetInventoryDigest(appid);
+                string digest = await ContentDownloader.steam3.GetInventoryDigest(appid);
                 if (digest != null)
                 {
                     if (await GetItemsDef(appid, digest))
@@ -437,7 +439,7 @@ namespace steam_retriever
             }
         }
 
-        static async Task<List<SteamID>> GetAppPublicSteamIDs(ulong appid, int max_id_count)
+        async Task<List<SteamID>> GetAppPublicSteamIDs(ulong appid, int max_id_count)
         {
             List<SteamID> public_steamids = new List<SteamID>
             {
@@ -488,7 +490,7 @@ namespace steam_retriever
             return public_steamids;
         }
 
-        static bool SaveAchievementsToFile(string appid, JToken json)
+        bool SaveAchievementsToFile(string appid, JToken json)
         {
             if (((JArray)json).Count <= 0)
             {
@@ -500,7 +502,7 @@ namespace steam_retriever
             return SaveJson(Path.Combine(Options.OutDirectory, appid, "achievements_db.json"), json);
         }
 
-        static bool SaveStatsToFile(string appid, JToken json)
+        bool SaveStatsToFile(string appid, JToken json)
         {
             if (((JArray)json).Count <= 0)
             {
@@ -511,7 +513,7 @@ namespace steam_retriever
             return SaveJson(Path.Combine(Options.OutDirectory, appid, "stats_db.json"), json);
         }
 
-        static JObject GetOrCreateApp(string appid, bool is_dlc)
+        JObject GetOrCreateApp(string appid, bool is_dlc)
         {
             if (!GamesInfos.ContainsKey(appid))
             {
@@ -537,12 +539,12 @@ namespace steam_retriever
             return app;
         }
 
-        static bool SaveJson(string file_path, JToken json)
+        bool SaveJson(string file_path, JToken json)
         {
             return SaveFile(file_path, Newtonsoft.Json.JsonConvert.SerializeObject(json, Newtonsoft.Json.Formatting.Indented));
         }
 
-        static bool SaveFile(string file_path, string data)
+        bool SaveFile(string file_path, string data)
         {
             try
             {
@@ -564,7 +566,7 @@ namespace steam_retriever
             return false;
         }
 
-        static bool ParseCommonDetails(JObject infos, uint appid, KeyValue app, string type)
+        bool ParseCommonDetails(JObject infos, uint appid, KeyValue app, string type)
         {
             string app_name = app["common"]["name"].Value;
 
@@ -586,7 +588,7 @@ namespace steam_retriever
             return true;
         }
 
-        static async Task<bool> ParseGameDetails(JObject infos, uint appid, KeyValue app)
+        async Task<bool> ParseGameDetails(JObject infos, uint appid, KeyValue app)
         {
             string str_appid = appid.ToString();
 
@@ -625,7 +627,7 @@ namespace steam_retriever
 
                         if (!Options.CacheOnly && Options.DownloadControllerConfigurations)
                         {
-                            var file_details = ContentDownloader.steam3.GetPublishedFileDetails(null, ulong.Parse(published_id));
+                            var file_details = await ContentDownloader.steam3.GetPublishedFileDetails(null, ulong.Parse(published_id));
                             if (!string.IsNullOrWhiteSpace(file_details.filename) && !string.IsNullOrWhiteSpace(file_details.file_url))
                             {
                                 CancellationTokenSource cts = new CancellationTokenSource();
@@ -747,7 +749,7 @@ namespace steam_retriever
             return true;
         }
 
-        static bool ParseDlcDetails(JObject infos, uint appid, KeyValue app)
+        bool ParseDlcDetails(JObject infos, uint appid, KeyValue app)
         {
             if (app["common"]["parent"].Value != null)
             {
@@ -773,7 +775,7 @@ namespace steam_retriever
             return true;
         }
 
-        static async Task<bool> GetAppDetailsFromSteamNetwork(uint appid, KeyValue app)
+        async Task<bool> GetAppDetailsFromSteamNetwork(uint appid, KeyValue app)
         {
             string str_appid = appid.ToString();
 
@@ -851,14 +853,14 @@ namespace steam_retriever
             return true;
         }
 
-        static async Task<JObject> GetWebAppDetails(string appid)
+        async Task<JObject> GetWebAppDetails(string appid)
         {
             var response = await LimitSteamWebApiGET(WebHttpClient, new HttpRequestMessage(HttpMethod.Get, $"https://store.steampowered.com/api/appdetails/?appids={appid}&l=english"));
 
             return JObject.Parse(await response.Content.ReadAsStringAsync());
         }
 
-        static async Task GetSteamAppids()
+        async Task GetSteamAppids()
         {
             JObject json;
 
@@ -891,7 +893,7 @@ namespace steam_retriever
             }
         }
 
-        static async Task Main(string[] args)
+        async Task MainFunc(string[] args)
         {
             Parser.Default.ParseArguments<ProgramOptions>(args).WithParsed(options => {
                 Options = options;
@@ -940,7 +942,7 @@ namespace steam_retriever
                             var chunk = AppIds.Keys.Chunk(1000).First();
                             if (!Options.CacheOnly)
                             {
-                                ContentDownloader.steam3.RequestAppsInfo(chunk, false);
+                                await ContentDownloader.steam3.RequestAppsInfo(chunk, false);
                                 foreach (var appid in chunk)
                                 {
                                     AppIds[appid] = ContentDownloader.steam3.AppInfo[appid]?.KeyValues;
@@ -955,11 +957,11 @@ namespace steam_retriever
                                         using (FileStream fs = new FileStream(Path.Combine(Options.CacheOutDirectory, $"{appid}", "app_infos.vdf"), FileMode.Open))
                                         {
                                             KeyValue appinfos = new KeyValue();
-                                            if(appinfos.ReadAsText(fs))
+                                            if (appinfos.ReadAsText(fs))
                                                 AppIds[appid] = appinfos;
                                         }
                                     }
-                                    catch(Exception)
+                                    catch (Exception)
                                     { }
                                 }
                             }
@@ -968,7 +970,7 @@ namespace steam_retriever
                             {
                                 await GetAppDetailsFromSteamNetwork(appid, AppIds[appid]);
 
-                                if(!Options.CacheOnly)
+                                if (!Options.CacheOnly)
                                     ContentDownloader.steam3.AppInfo.Remove(appid);
 
                                 AppIds.Remove(appid);
@@ -989,6 +991,13 @@ namespace steam_retriever
             }
 
             ContentDownloader.ShutdownSteam3();
+        }
+
+        static async Task Main(string[] args)
+        {
+            Program program = new Program();
+
+            await program.MainFunc(args);
 
             Console.WriteLine("Work done, exiting now.");
         }
