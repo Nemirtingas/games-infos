@@ -596,7 +596,7 @@ namespace steam_retriever
         {
             Console.WriteLine(" Done!");
             bConnecting = false;
-            IsConnected.value = true;
+            
             if (!authenticatedUser)
             {
                 Console.Write("Logging anonymously into Steam3...");
@@ -738,6 +738,8 @@ namespace steam_retriever
                 Console.WriteLine("Using Steam3 suggested CellID: " + loggedOn.CellID);
                 ContentDownloader.Config.CellID = (int)loggedOn.CellID;
             }
+
+            IsConnected.value = true;
         }
 
         private void SessionTokenCallback(SteamUser.SessionTokenCallback sessionToken)

@@ -888,7 +888,11 @@ namespace steam_retriever
 
                 foreach (JObject app in (JArray)json["applist"]["apps"])
                 {
-                    AppIds.Add((uint)app["appid"], null);
+                    uint appid = (uint)app["appid"];
+                    if (!AppIds.ContainsKey(appid))
+                    {
+                        AppIds.Add(appid, null);
+                    }
                 }
             }
         }
