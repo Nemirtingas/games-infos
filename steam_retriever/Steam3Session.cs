@@ -11,47 +11,6 @@ using SteamKit2.Internal;
 
 namespace steam_retriever
 {
-    class SynchronizedObject<T> : object
-    {
-        private T _value;
-
-        public T value
-        {
-            get
-            {
-                lock(this)
-                {
-                    return _value;
-                }
-            }
-
-            set
-            {
-                lock(this)
-                {
-                    _value = value;
-                    Monitor.PulseAll(this);
-                }
-            }
-        }
-
-        public void Wait()
-        {
-            lock(this)
-            {
-                Monitor.Wait(this);
-            }
-        }
-
-        public bool Wait(TimeSpan ts)
-        {
-            lock(this)
-            {
-                return Monitor.Wait(this, ts);
-            }
-        }
-    }
-
     public partial class SteamUserStats : ClientMsgHandler
     {
         Dictionary<EMsg, Action<IPacketMsg>> dispatchMap;
@@ -188,12 +147,12 @@ namespace steam_retriever
         readonly CallbackManager callbacks;
 
         readonly bool authenticatedUser;
+        bool bConnected;
         bool bConnecting;
-        readonly SynchronizedObject<bool> HasDisconnected = new SynchronizedObject<bool>();
-        readonly SynchronizedObject<bool> IsConnected = new SynchronizedObject<bool>();
         bool bAborted;
         bool bExpectingDisconnectRemote;
-        readonly SynchronizedObject<bool> DidReceiveLoginKey = new SynchronizedObject<bool>();
+        bool bDidDisconnect;
+        bool bDidReceiveLoginKey;
         bool bIsConnectionRecovery;
         int connectionBackoff;
         int seq; // more hack fixes
@@ -210,30 +169,20 @@ namespace steam_retriever
 
         static readonly TimeSpan STEAM3_TIMEOUT = TimeSpan.FromSeconds(30);
 
-
-        void CallbackProc(object arg)
-        {
-            CancellationToken tk = (CancellationToken)arg;
-            while (!tk.IsCancellationRequested)
-            {
-                callbacks.RunWaitCallbacks(TimeSpan.FromMilliseconds(100));
-            }
-        }
-
         public Steam3Session(SteamUser.LogOnDetails details)
         {
+            this.CallbackCancellationSource = null;
+
             this.logonDetails = details;
 
             this.authenticatedUser = details.Username != null;
             this.credentials = new Credentials();
+            this.bConnected = false;
             this.bConnecting = false;
-
-            this.HasDisconnected.value = false;
-            this.IsConnected.value = false;
-
             this.bAborted = false;
             this.bExpectingDisconnectRemote = false;
-            this.DidReceiveLoginKey.value = false;
+            this.bDidDisconnect = false;
+            this.bDidReceiveLoginKey = false;
             this.seq = 0;
 
             this.AppTokens = new Dictionary<uint, ulong>();
@@ -292,6 +241,75 @@ namespace steam_retriever
             }
 
             Connect();
+        }
+
+        public delegate bool WaitCondition();
+
+        private readonly object steamLock = new object();
+
+
+        public bool WaitUntilCallback(Action submitter, WaitCondition waiter)
+        {
+            while (!bAborted && !waiter())
+            {
+                lock (steamLock)
+                {
+                    submitter();
+                }
+
+                var seq = this.seq;
+                do
+                {
+                    lock (steamLock)
+                    {
+                        WaitForCallbacks();
+                    }
+                } while (!bAborted && this.seq == seq && !waiter());
+            }
+
+            return bAborted;
+        }
+
+        void StopCallbackTask()
+        {
+            if (CallbackCancellationSource != null)
+            {
+                CallbackCancellationSource.Cancel();
+                CallbackTask.Wait();
+
+                CallbackCancellationSource = null;
+            }
+        }
+
+        void CallbackProc(object arg)
+        {
+            CancellationToken tk = (CancellationToken)arg;
+            while (!tk.IsCancellationRequested)
+            {
+                callbacks.RunWaitCallbacks(TimeSpan.FromMilliseconds(100));
+            }
+        }
+
+        public Credentials WaitForCredentials()
+        {
+            if (credentials.IsValid || bAborted)
+                return credentials;
+
+            WaitUntilCallback(() => { }, () => { return credentials.IsValid; });
+
+            if(credentials.IsValid)
+            {
+                if (CallbackCancellationSource != null)
+                {
+                    CallbackCancellationSource.Cancel();
+                    CallbackTask.Wait();
+                }
+
+                CallbackCancellationSource = new CancellationTokenSource();
+                CallbackTask = Task.Factory.StartNew(CallbackProc, CallbackCancellationSource.Token);
+            }
+
+            return credentials;
         }
 
         public async Task RequestAppsInfo(IEnumerable<uint> appIds, bool bForce = false)
@@ -443,7 +461,7 @@ namespace steam_retriever
 
             var job = await steamApps.GetDepotDecryptionKey(depotId, appid);
 
-            Console.WriteLine("Got depot key for {0} result: {1}", job.DepotID, job.Result);
+            //Console.WriteLine("Got depot key for {0} result: {1}", job.DepotID, job.Result);
 
             if (job.Result != EResult.OK)
                 return false;
@@ -460,9 +478,9 @@ namespace steam_retriever
 
             var requestCode = await steamContent.GetManifestRequestCode(depotId, appId, manifestId, branch);
 
-            Console.WriteLine("Got manifest request code for {0} {1} result: {2}",
-                depotId, manifestId,
-                requestCode);
+            //Console.WriteLine("Got manifest request code for {0} {1} result: {2}",
+            //    depotId, manifestId,
+            //    requestCode);
 
             return requestCode;
         }
@@ -471,7 +489,7 @@ namespace steam_retriever
         {
             var job = await steamApps.CheckAppBetaPassword(appid, password);
 
-            Console.WriteLine("Retrieved {0} beta keys with result: {1}", job.BetaPasswords.Count, job.Result);
+            //Console.WriteLine("Retrieved {0} beta keys with result: {1}", job.BetaPasswords.Count, job.Result);
 
             foreach (var entry in job.BetaPasswords)
             {
@@ -523,17 +541,15 @@ namespace steam_retriever
         private void ResetConnectionFlags()
         {
             bExpectingDisconnectRemote = false;
+            bDidDisconnect = false;
             bIsConnectionRecovery = false;
-            DidReceiveLoginKey.value = false;
+            bDidReceiveLoginKey = false;
         }
 
         void Connect()
         {
-            CallbackCancellationSource = new CancellationTokenSource();
-            CallbackTask = Task.Factory.StartNew(CallbackProc, CallbackCancellationSource.Token);
-
             bAborted = false;
-            IsConnected.value = false;
+            bConnected = false;
             bConnecting = true;
             connectionBackoff = 0;
 
@@ -555,18 +571,19 @@ namespace steam_retriever
                 steamUser.LogOff();
             }
 
+            StopCallbackTask();
+
             bAborted = true;
-            IsConnected.value = false;
+            bConnected = false;
             bConnecting = false;
             bIsConnectionRecovery = false;
             steamClient.Disconnect();
 
-            while (!HasDisconnected.value)
+            // flush callbacks until our disconnected event
+            while (!bDidDisconnect)
             {
-                HasDisconnected.Wait();
+                callbacks.RunWaitAllCallbacks(TimeSpan.FromMilliseconds(100));
             }
-
-            CallbackCancellationSource.Cancel();
         }
 
         private void Reconnect()
@@ -579,29 +596,41 @@ namespace steam_retriever
         {
             if (logonDetails.Username == null || !credentials.LoggedOn || !ContentDownloader.Config.RememberPassword) return;
 
-            DidReceiveLoginKey.Wait(TimeSpan.FromSeconds(3));
+            var totalWaitPeriod = DateTime.Now.AddSeconds(3);
+
+            while (true)
+            {
+                var now = DateTime.Now;
+                if (now >= totalWaitPeriod) break;
+
+                if (bDidReceiveLoginKey) break;
+
+                callbacks.RunWaitAllCallbacks(TimeSpan.FromMilliseconds(100));
+            }
         }
 
-        public Credentials WaitForCredentials()
+        private void WaitForCallbacks()
         {
-            if (credentials.IsValid || bAborted)
-                return credentials;
+            callbacks.RunWaitCallbacks(TimeSpan.FromSeconds(1));
 
-            IsConnected.Wait(STEAM3_TIMEOUT);
+            var diff = DateTime.Now - connectTime;
 
-            return credentials;
+            if (diff > STEAM3_TIMEOUT && !bConnected)
+            {
+                Console.WriteLine("Timeout connecting to Steam3.");
+                Abort();
+            }
         }
 
         private void ConnectedCallback(SteamClient.ConnectedCallback connected)
         {
             Console.WriteLine(" Done!");
             bConnecting = false;
-            
+            bConnected = true;
             if (!authenticatedUser)
             {
                 Console.Write("Logging anonymously into Steam3...");
-                //steamUser.LogOnAnonymous();
-                steamGameserver.LogOnAnonymous();
+                steamUser.LogOnAnonymous();
             }
             else
             {
@@ -612,7 +641,9 @@ namespace steam_retriever
 
         private void DisconnectedCallback(SteamClient.DisconnectedCallback disconnected)
         {
-            HasDisconnected.value = true;
+            bDidDisconnect = true;
+
+            StopCallbackTask();
 
             // When recovering the connection, we want to reconnect even if the remote disconnects us
             if (!bIsConnectionRecovery && (disconnected.UserInitiated || bExpectingDisconnectRemote))
@@ -738,8 +769,6 @@ namespace steam_retriever
                 Console.WriteLine("Using Steam3 suggested CellID: " + loggedOn.CellID);
                 ContentDownloader.Config.CellID = (int)loggedOn.CellID;
             }
-
-            IsConnected.value = true;
         }
 
         private void SessionTokenCallback(SteamUser.SessionTokenCallback sessionToken)
@@ -808,7 +837,7 @@ namespace steam_retriever
 
             steamUser.AcceptNewLoginKey(loginKey);
 
-            DidReceiveLoginKey.value = true;
+            bDidReceiveLoginKey = true;
         }
     }
 }

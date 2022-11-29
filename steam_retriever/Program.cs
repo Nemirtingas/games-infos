@@ -416,12 +416,12 @@ namespace steam_retriever
             return false;
         }
 
-        async Task GenerateItemsFromSteamNetwork(uint appid)
+        async Task<bool> GenerateItemsFromSteamNetwork(uint appid)
         {
             try
             {
                 string digest = await ContentDownloader.steam3.GetInventoryDigest(appid);
-                if (digest != null)
+                if (!string.IsNullOrWhiteSpace(digest))
                 {
                     if (await GetItemsDef(appid, digest))
                     {
@@ -431,12 +431,15 @@ namespace steam_retriever
                     {
                         Console.WriteLine("  + No items exist for this AppID");
                     }
+                    return true;
                 }
             }
             catch(Exception e)
             {
                 Console.WriteLine(" failed (no items?): {0}", e.Message);
             }
+
+            return false;
         }
 
         async Task<List<SteamID>> GetAppPublicSteamIDs(ulong appid, int max_id_count)
