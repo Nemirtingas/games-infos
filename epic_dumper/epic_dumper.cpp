@@ -1449,6 +1449,68 @@ static void MakeStats()
     }
 }
 
+static uint32_t GetEntitlementCount()
+{
+    std::atomic<int> go;
+
+    EOS_Ecom_QueryEntitlementsOptions query_options;
+
+    query_options.ApiVersion = EOS_ECOM_QUERYENTITLEMENTS_API_LATEST;
+    query_options.LocalUserId = eos_api.Auth.GetLoggedInAccountByIndex(0);
+    query_options.EntitlementNameCount = 0;
+    query_options.EntitlementNames = nullptr;
+    query_options.bIncludeRedeemed = EOS_TRUE;
+
+    go = -1;
+    SPDLOG_TRACE("Querying entitlements...");
+    eos_api.Ecom.QueryEntitlements(&query_options, [&go](EOS_Ecom_QueryEntitlementsCallbackInfo const* infos)
+    {
+        go = (int)infos->ResultCode;
+    });
+
+    while (go == -1);
+
+    if (go != (int)EOS_EResult::EOS_Success)
+    {
+        throw std::runtime_error(fmt::format("Failed to query entitlements: {}", eos_api.EResult_ToString((EOS_EResult)go.load())));
+    }
+
+    EOS_Ecom_GetEntitlementsCountOptions count_options;
+    count_options.ApiVersion = EOS_ECOM_GETENTITLEMENTSCOUNT_API_LATEST;
+    count_options.LocalUserId = eos_api.Auth.GetLoggedInAccountByIndex(0);
+
+    int count = eos_api.Ecom.GetEntitlementsCount(&count_options);
+
+    SPDLOG_TRACE("Getting entitlements count: {}", count);
+
+    return count;
+}
+
+static void MakeEntitlements()
+{
+    uint32_t count = GetEntitlementCount();
+
+    if (count > 0)
+    {
+        EOS_Ecom_CopyEntitlementByIndexOptions entitlement_opts;
+        entitlement_opts.ApiVersion = EOS_ECOM_COPYENTITLEMENTBYINDEX_API_LATEST;
+        entitlement_opts.LocalUserId = eos_api.Auth.GetLoggedInAccountByIndex(0);
+
+        for (int i = 0; i < count; ++i)
+        {
+            entitlement_opts.EntitlementIndex = i;
+            EOS_Ecom_Entitlement* entitlement;
+            if (eos_api.Ecom.CopyEntitlementByIndex(&entitlement_opts, &entitlement) == EOS_EResult::EOS_Success && entitlement->EntitlementId != nullptr)
+            {
+
+                eos_api.Ecom.Entitlement_Release(entitlement);
+            }
+        }
+
+        //save_json(dumper_root + catalog_file, catalog);
+    }
+}
+
 static uint32_t GetCatalogCount()
 {
     std::atomic<int> go;
@@ -1512,6 +1574,29 @@ static void MakeCatalog()
                     {"Namespace", str_or_empty(offer->CatalogNamespace)}, // plaftorm->SandboxID
                     {"Owned"    , true},
                 };
+
+                EOS_Ecom_GetOfferItemCountOptions offer_item_opts;
+                offer_item_opts.ApiVersion = EOS_ECOM_GETOFFERITEMCOUNT_API_LATEST;
+                offer_item_opts.LocalUserId = eos_api.Auth.GetLoggedInAccountByIndex(0);
+                offer_item_opts.OfferId = offer->Id;
+
+                uint32_t offer_item_count = eos_api.Ecom.GetOfferItemCount(&offer_item_opts);
+
+                for (int i = 0; i < offer_item_count; ++i)
+                {
+                    EOS_Ecom_CopyOfferItemByIndexOptions options;
+                    options.ApiVersion = EOS_ECOM_COPYOFFERITEMBYINDEX_API_LATEST;
+                    options.ItemIndex = i;
+                    options.LocalUserId = eos_api.Auth.GetLoggedInAccountByIndex(0);
+                    options.OfferId = offer->Id;
+
+                    EOS_Ecom_CatalogItem* catalog_item;
+
+                    if (eos_api.Ecom.CopyOfferItemByIndex(&options, &catalog_item) == EOS_EResult::EOS_Success)
+                    {
+                        eos_api.Ecom.CatalogItem_Release(catalog_item);
+                    }
+                }
 
                 eos_api.Ecom.CatalogOffer_Release(offer);
             }
@@ -1918,6 +2003,8 @@ int main(int argc, char* argv[])
         try { MakeStats(); }
         catch (std::runtime_error& e) { SPDLOG_TRACE("{}", e.what()); }
         try { MakeCatalog(); }
+        catch (std::runtime_error& e) { SPDLOG_TRACE("{}", e.what()); }
+        try { MakeEntitlements(); }
         catch (std::runtime_error& e) { SPDLOG_TRACE("{}", e.what()); }
         try { MakeLeaderboards(); }
         catch (std::runtime_error& e) { SPDLOG_TRACE("{}", e.what()); }

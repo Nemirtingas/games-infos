@@ -2,18 +2,27 @@ using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
 using System.Globalization;
+using System.IO;
+using System.Linq;
 using System.Net;
 using System.Net.Http;
+using System.Net.Http.Json;
+using System.Reflection.Emit;
+using System.Security.Cryptography;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
+using System.Xml.Linq;
 
 namespace EGS
 {
     class WebApi : IDisposable
     {
         CookieContainer _WebCookies;
+        CookieContainer _UnauthWebCookies;
 
         HttpClient _WebHttpClient;
+        HttpClient _UnauthWebHttpClient;
 
         string _SessionID = string.Empty;
         JObject _OAuthInfos = new JObject();
@@ -22,12 +31,21 @@ namespace EGS
         public WebApi()
         {
             _WebCookies = new CookieContainer();
+            _UnauthWebCookies = new CookieContainer();
 
             _WebHttpClient = new HttpClient(new HttpClientHandler
             {
                 AutomaticDecompression = DecompressionMethods.All,
                 CookieContainer = _WebCookies,
             });
+
+            _UnauthWebHttpClient = new HttpClient(new HttpClientHandler
+            {
+                AutomaticDecompression = DecompressionMethods.All,
+                CookieContainer = _UnauthWebCookies,
+            });
+
+            _UnauthWebHttpClient.DefaultRequestHeaders.TryAddWithoutValidation("User-Agent", "UELauncher/11.0.1-14907503+++Portal+Release-Live Windows/10.0.19041.1.256.64bit");
         }
 
         public void Dispose()
@@ -180,7 +198,7 @@ namespace EGS
                     post_data = new FormUrlEncodedContent(new[]
                     {
                         new KeyValuePair<string, string>( "grant_type"   , "client_credentials" ),
-                        new KeyValuePair<string, string>( "deployment_id", token.Token ),
+                        new KeyValuePair<string, string>( "token_type"   , "eg1"),
                     });
                     break;
 
@@ -695,6 +713,102 @@ namespace EGS
             }
 
             return err;
+        }
+
+        public async Task<Error<ManifestDownloadInfos>> GetManifestDownloadInfos(string game_namespace, string catalog_id, string app_name, string platform = "Windows", string label = "Live")
+        {
+            var result = new Error<ManifestDownloadInfos>();
+
+            var manifestResult = await GetGameManifest(game_namespace, catalog_id, app_name, platform, label);
+            if (manifestResult.ErrorCode != Error.OK)
+                return result.FromError(manifestResult);
+
+            result.Result = new ManifestDownloadInfos();
+
+            result.Result.ManifestHash = (string)manifestResult.Result["elements"][0]["hash"];
+
+            foreach (JObject manifest in manifestResult.Result["elements"][0]["manifests"])
+            {
+                var manifestUrl = (string)manifest["uri"];
+                string baseUrl = manifestUrl.Substring(0, manifestUrl.LastIndexOf('/'));
+                if (!result.Result.BaseUrls.Contains(baseUrl))
+                    result.Result.BaseUrls.Add(baseUrl);
+
+                var queryParams = new List<string>();
+                if (manifest.ContainsKey("queryParams"))
+                {
+                    foreach (JObject param in manifest["queryParams"])
+                    {
+                        queryParams.Add($"{param["name"]}={param["value"]}");
+                    }
+                }
+
+                if (queryParams.Count > 0)
+                {
+                    manifestUrl = $"{manifestUrl}?{string.Join("&", queryParams)}";
+                }
+
+                if (manifestUrl.Contains(".akamaized.net/"))
+                {
+                    result.Result.ManifestUrls.Insert(0, manifestUrl);
+                }
+                else
+                {
+                    result.Result.ManifestUrls.Add(manifestUrl);
+                }
+            }
+
+            if (result.Result.BaseUrls.Count <= 0)
+            {
+                result.ErrorCode = Error.NotFound;
+                result.Message = "Couldn't find base urls.";
+                return result;
+            }
+            if (result.Result.ManifestUrls.Count <= 0)
+            {
+                result.ErrorCode = Error.NotFound;
+                result.Message = "Couldn't find manifest urls.";
+                return result;
+            }
+
+            foreach (var manifestUrl in result.Result.ManifestUrls)
+            {
+                using (var response = await _UnauthWebHttpClient.GetAsync(manifestUrl))
+                {
+                    if (response.StatusCode == HttpStatusCode.OK)
+                    {
+                        using (var stream = response.Content.ReadAsStream())
+                        using (MemoryStream ms = new MemoryStream())
+                        {
+                            stream.CopyTo(ms);
+                            result.Result.ManifestData = ms.ToArray();
+                            result.ErrorCode = Error.OK;
+
+                            var manifestHash = SHA1.HashData(result.Result.ManifestData).Aggregate(new StringBuilder(), (sb, v) => sb.Append(v.ToString("x2"))).ToString();
+
+                            if (result.Result.ManifestHash != manifestHash)
+                            {
+                                result.ErrorCode = Error.InvalidData;
+                                result.Message = "Manifest hash didn't match";
+                                return result;
+                            }
+
+                            break;
+                        }
+                    }
+                    else
+                    {
+                        //Console.WriteLine($"Failed to download manifest on url: {manifestUrl.Split("?")[0]}");
+                    }
+                }
+            }
+            if (result.Result.ManifestData.Length <= 0)
+            {
+                result.ErrorCode = Error.NotFound;
+                result.Message = "Couldn't download manifest.";
+            }
+
+            return result;
         }
 
         public async Task<Error<List<Entitlement>>> GetUserEntitlements(uint start = 0, uint count = 5000)

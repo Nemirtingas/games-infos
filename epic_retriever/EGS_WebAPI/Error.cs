@@ -9,6 +9,7 @@ namespace EGS
 {
     class Error
     {
+        public const int InvalidData = -6;
         public const int NotLoggedIn = -5;
         public const int InvalidParam = -4;
         public const int NotFound = -3;
@@ -158,10 +159,11 @@ namespace EGS
     {
         public T Result { get; set; }
 
-        public void FromError(Error err)
+        public Error<T> FromError(Error err)
         {
             ErrorCode = err.ErrorCode;
             Message = err.Message;
+            return this;
         }
 
         public Error ToError()
