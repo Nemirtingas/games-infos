@@ -132,10 +132,8 @@ namespace EGS
                 .Select(s => s[random.Next(s.Length)]).ToArray());
         }
 
-        private async Task<Error<string>> _GameLogin(string deployement_id, string user_id, string password, AuthToken token, ApiVersion api_version)
+        private async Task _GameLogin(string deployement_id, string user_id, string password, AuthToken token, ApiVersion api_version)
         {
-            Error<string> err = new Error<string>();
-            
             try
             {
                 _ApiVersion = ApiVersionToString(api_version);
@@ -162,10 +160,7 @@ namespace EGS
                 }));
 
                 if (_Json1.ContainsKey("errorCode"))
-                {
-                    err.FromError(Error.GetErrorFromJson(_Json3));
-                    return err;
-                }
+                    WebApiException.BuildErrorFromJson(_Json3);
 
                 switch (token.Type)
                 {
@@ -199,16 +194,20 @@ namespace EGS
 
                 if (_Json2.ContainsKey("errorCode"))
                 {
-                    err.FromError(Error.GetErrorFromJson(_Json2));
-                    if (_Json2.ContainsKey("continuation") && err.ErrorCode == Error.OAuthScopeConsentRequired)
+                    try
                     {
-                        err.Result = (string)_Json2["continuation"];
+                        WebApiException.BuildErrorFromJson(_Json2);
                     }
-                    else
+                    catch (WebApiException e)
                     {
-                        err.FromError(Error.GetErrorFromJson(_Json2));
+                        if (_Json2.ContainsKey("continuation") && e.ErrorCode == WebApiException.OAuthScopeConsentRequired)
+                        {
+                            var ex = new WebApiException((string)_Json2["continuation"], WebApiException.OAuthScopeConsentRequired);
+                            throw ex;
+                        }
+
+                        throw;
                     }
-                    return err;
                 }
 
                 _MakeNonce(22);
@@ -229,51 +228,40 @@ namespace EGS
                 })); ;
 
                 if(_Json3.ContainsKey("errorCode"))
-                {
-                    err.FromError(Error.GetErrorFromJson(_Json3));
-                    return err;
-                }
+                    WebApiException.BuildErrorFromJson(_Json3);
 
-                err.ErrorCode = 0;
                 _LoggedIn = true;
             }
             catch (Exception e)
             {
-                err.FromError(Error.GetWebErrorFromException(e));
+                WebApiException.BuildExceptionFromWebException(e);
             }
-
-            return err;
         }
 
-        public async Task<Error<string>> RunContinuationToken(string continuation_token, string deployement_id, string user_id, string password)
+        public async Task<string> RunContinuationToken(string continuation_token, string deployement_id, string user_id, string password)
         {
             return await Shared.RunContinuationToken(_WebHttpClient, continuation_token, deployement_id, user_id, password);
         }
 
-        public async Task<Error> GameLoginWithExchangeCode(string deployement_id, string user_id, string password, string exchange_code, ApiVersion api_version = ApiVersion.v1_15_3)
+        public async Task GameLoginWithExchangeCode(string deployement_id, string user_id, string password, string exchange_code, ApiVersion api_version = ApiVersion.v1_15_3)
         {
-            return await _GameLogin(deployement_id, user_id, password, new AuthToken { Token = exchange_code, Type = AuthToken.TokenType.ExchangeCode }, api_version);
+            await _GameLogin(deployement_id, user_id, password, new AuthToken { Token = exchange_code, Type = AuthToken.TokenType.ExchangeCode }, api_version);
         }
 
-        public async Task<Error> GameLoginWithRefreshToken(string deployement_id, string user_id, string password, string game_token, ApiVersion api_version = ApiVersion.v1_15_3)
+        public async Task GameLoginWithRefreshToken(string deployement_id, string user_id, string password, string game_token, ApiVersion api_version = ApiVersion.v1_15_3)
         {
-            return await _GameLogin(deployement_id, user_id, password, new AuthToken { Token = game_token, Type = AuthToken.TokenType.RefreshToken }, api_version);
+            await _GameLogin(deployement_id, user_id, password, new AuthToken { Token = game_token, Type = AuthToken.TokenType.RefreshToken }, api_version);
         }
 
-        public async Task<Error<JArray>> GetAchievementsSchema(string locale = "")
+        public async Task<JArray> GetAchievementsSchema(string locale = "")
         {
-            Error<JArray> result = new Error<JArray>();
-
             if (!_LoggedIn)
-            {
-                result.ErrorCode = Error.NotLoggedIn;
-                return result;
-            }
+                throw new WebApiException("User is not logged in.", WebApiException.NotLoggedIn);
+
+            var result = new JArray();
 
             try
             {
-                result.Result = new JArray();
-
                 JArray json;
                 List<string> locales;
 
@@ -358,7 +346,7 @@ namespace EGS
                         string flavor_text = get_entry_value(jach, "flavorText", current_locale, out default_flavor_text);
 
                         bool found = false;
-                        foreach (JObject def_ach in result.Result)
+                        foreach (JObject def_ach in result)
                         {
                             if ((string)def_ach["AchievementId"] == id)
                             {
@@ -409,7 +397,7 @@ namespace EGS
                                 Uri icon_url = new Uri((string)jicons[unlocked_icon_id]["readLink"]);
                             }
 
-                            result.Result.Add(new JObject
+                            result.Add(new JObject
                             {
                                 { "AchievementId"        , id },
                                 { "UnlockedDisplayName"  , new JObject{ { current_locale, unlocked_display_name } } },
