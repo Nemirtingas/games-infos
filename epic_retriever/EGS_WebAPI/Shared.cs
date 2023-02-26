@@ -22,6 +22,7 @@ namespace EGS
         public const string EGS_LAUNCHER_HOST    = "launcher-public-service-prod06.ol.epicgames.com";
         public const string EGS_ENTITLEMENT_HOST = "entitlement-public-service-prod08.ol.epicgames.com";
         public const string EGS_CATALOG_HOST     = "catalog-public-service-prod06.ol.epicgames.com";
+        public const string EGS_ARTIFACT_HOST    = "artifact-public-service-prod.beee.live.use1a.on.epicgames.com";
         public const string EGS_DEV_HOST         = "api.epicgames.dev";
 
         internal static Process OpenUrl(string url)
@@ -53,8 +54,6 @@ namespace EGS
                     throw;
                 }
             }
-
-            return null;
         }
 
         internal static string NameValueCollectionToQueryString(System.Collections.Specialized.NameValueCollection collection)
@@ -100,9 +99,8 @@ namespace EGS
             return t;
         }
 
-        internal static async Task<Error<string>> RunContinuationToken(HttpClient client, string continuation_token, string deployement_id, string user_id, string password)
+        internal static async Task<string> RunContinuationToken(HttpClient client, string continuation_token, string deployement_id, string user_id, string password)
         {
-            Error<string> result = new Error<string>();
             string consent_url = $"https://epicgames.com/id/login?continuation={continuation_token}&prompt=skip_merge skip_upgrade";
 
             Uri uri = new Uri($"https://{EGS_DEV_HOST}/epic/oauth/v1/token");
@@ -127,18 +125,25 @@ namespace EGS
                 { "User-Agent"   , EGL_UAGENT },
             }));
 
-            if (!response.ContainsKey("errorCode"))
+            if (response.ContainsKey("errorCode"))
             {
-                result.ErrorCode = Error.OK;
-                result.Result = (string)response["refresh_token"];
-            }
-            else
-            {
-                result.FromError(Error.GetErrorFromJson(response));
-                result.Result = consent_url;
+                try
+                {
+                    WebApiException.BuildErrorFromJson(response);
+                }
+                catch (WebApiException e)
+                {
+                    if (e.ErrorCode == WebApiException.OAuthScopeConsentRequired)
+                    {
+                        var ex = new WebApiException(consent_url, WebApiException.OAuthScopeConsentRequired);
+                        throw ex;
+                    }
+
+                    throw;
+                }
             }
 
-            return result;
+            return (string)response["refresh_token"];
         }
     }
 }

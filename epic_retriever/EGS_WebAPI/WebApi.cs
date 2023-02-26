@@ -1,3 +1,4 @@
+using CommandLine;
 using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
@@ -76,10 +77,8 @@ namespace EGS
             _SessionID = (string)oauth_infos["session_id"];
         }
 
-        async Task<Error<string>> _GetXSRFToken()
+        async Task<string> _GetXSRFToken()
         {
-            Error<string> err = new Error<string> { ErrorCode = 0 };
-
             try
             {
                 Uri uri = new Uri($"https://{Shared.EPIC_GAMES_HOST}/id/api/csrf");
@@ -92,27 +91,21 @@ namespace EGS
                 foreach (Cookie c in _WebCookies.GetCookies(uri))
                 {
                     if (c.Name == "XSRF-TOKEN")
-                    {
-                        err.Result = c.Value;
-                        return err;
-                    }
+                        return c.Value;
                 }
 
-                err.Message = "XSRF-TOKEN cookie not found.";
-                err.ErrorCode = Error.NotFound;
+                throw new WebApiException("XSRF-TOKEN cookie not found.", WebApiException.NotFound);
             }
             catch (Exception e)
             {
-                err.FromError(Error.GetWebErrorFromException(e));
+                WebApiException.BuildExceptionFromWebException(e);
             }
 
-            return err;
+            return string.Empty;
         }
 
-        async Task<Error<string>> _GetExchangeCode(string xsrf_token)
+        async Task<string> _GetExchangeCode(string xsrf_token)
         {
-            Error<string> err = new Error<string> { ErrorCode = 0 };
-
             try
             {
                 Uri uri = new Uri($"https://{Shared.EPIC_GAMES_HOST}/id/api/exchange/generate");
@@ -123,24 +116,21 @@ namespace EGS
                     { "User-Agent", Shared.EGS_OAUTH_UAGENT },
                 }));
 
-                err.Result = (string)response["code"];
-                if (string.IsNullOrEmpty(err.Result))
-                {
-                    err.Message = (string)response["message"];
-                    err.ErrorCode = Error.ErrorCodeFromString((string)response["errorCode"]);
-                }
+                if (!string.IsNullOrEmpty((string)response["code"]))
+                    return (string)response["code"];
+
+                throw new WebApiException((string)response["message"], WebApiException.ErrorCodeFromString((string)response["errorCode"]));
             }
             catch (Exception e)
             {
-                err.FromError(Error.GetWebErrorFromException(e));
+                WebApiException.BuildExceptionFromWebException(e);
             }
 
-            return err;
+            return string.Empty;
         }
 
-        async Task<Error> _ResumeSession(string access_token)
+        async Task _ResumeSession(string access_token)
         {
-            Error err = new Error { ErrorCode = 0 };
             Uri uri = new Uri($"https://{Shared.EGS_OAUTH_HOST}/account/api/oauth/verify");
 
             try
@@ -155,16 +145,15 @@ namespace EGS
             }
             catch (Exception e)
             {
-                err = Error.GetWebErrorFromException(e);
+                WebApiException.BuildExceptionFromWebException(e);
             }
-
-            return err;
         }
 
-        async Task<Error<JObject>> _StartSession(AuthToken token)
+        async Task<JObject> _StartSession(AuthToken token)
         {
-            Error<JObject> err = new Error<JObject> { ErrorCode = 0 };
             FormUrlEncodedContent post_data;
+            var json = default(JObject);
+
             switch (token.Type)
             {
                 case AuthToken.TokenType.ExchangeCode:
@@ -203,9 +192,7 @@ namespace EGS
                     break;
 
                 default:
-                    err.Message = "Invalid token type.";
-                    err.ErrorCode = Error.InvalidParam;
-                    return err;
+                    throw new WebApiException("Invalid token type.", WebApiException.InvalidParam);
             }
 
             Uri uri = new Uri($"https://{Shared.EGS_OAUTH_HOST}/account/api/oauth/token");
@@ -214,29 +201,40 @@ namespace EGS
 
             try
             {
-                err.Result = JObject.Parse(await Shared.WebRunPost(_WebHttpClient, uri, post_data, new Dictionary<string, string>
+                json = JObject.Parse(await Shared.WebRunPost(_WebHttpClient, uri, post_data, new Dictionary<string, string>
                 {
                     { "User-Agent", Shared.EGS_OAUTH_UAGENT },
                     { "Authorization", string.Format("Basic {0}", Convert.ToBase64String(Encoding.UTF8.GetBytes($"{Shared.EGS_USER}:{Shared.EGS_PASS}"))) }
                 }));
 
-                if (err.Result.ContainsKey("errorCode"))
-                {
-                    err.FromError(Error.GetErrorFromJson(err.Result));
-                }
+                if (json.ContainsKey("errorCode"))
+                    WebApiException.BuildErrorFromJson(json);
             }
             catch (Exception e)
             {
-                err.FromError(Error.GetWebErrorFromException(e));
+                WebApiException.BuildExceptionFromWebException(e);
             }
 
-            return err;
+            return json;
         }
 
-        public async Task<Error<JObject>> LoginSID(string sid)
+        public async Task<JObject> LoginAnonymous()
         {
-            Error<JObject> err = new Error<JObject>();
+            _ResetOAuth();
 
+            _OAuthInfos = await _StartSession(new AuthToken { Type = AuthToken.TokenType.ClientCredentials });
+
+            string access_token = $"bearer {(string)_OAuthInfos["access_token"]}";
+            await _ResumeSession(access_token);
+
+            var json = (JObject)_OAuthInfos.DeepClone();
+            _LoggedIn = true;
+
+            return json;
+        }
+
+        public async Task<JObject> LoginSID(string sid)
+        {
             _ResetOAuth();
 
             Uri uri = new Uri($"https://{Shared.EPIC_GAMES_HOST}/id/api/set-sid?sid={sid}");
@@ -254,68 +252,26 @@ namespace EGS
                     { "Authorization"        , string.Format("Basic {0}", Convert.ToBase64String(Encoding.UTF8.GetBytes($"{Shared.EGS_USER}:{Shared.EGS_PASS}"))) },
                 });
 
-                string xsrf_token;
-                {
-                    Error<string> x = await _GetXSRFToken();
-                    if (x.ErrorCode != Error.OK)
-                    {
-                        err.ErrorCode = x.ErrorCode;
-                        err.Message = x.Message;
-                        return err;
-                    }
-                    xsrf_token = x.Result;
-                }
+                string exchange_code = await _GetExchangeCode(await _GetXSRFToken());
 
-                string exchange_code;
-                {
-                    Error<string> x = await _GetExchangeCode(xsrf_token);
-                    if (x.ErrorCode != Error.OK)
-                    {
-                        err.ErrorCode = x.ErrorCode;
-                        err.Message = x.Message;
-                        return err;
-                    }
-                    exchange_code = x.Result;
-                }
-
-                AuthToken auth_token = new AuthToken { Token = exchange_code, Type = AuthToken.TokenType.ExchangeCode };
-                {
-                    Error<JObject> x = await _StartSession(auth_token);
-                    if (x.ErrorCode != Error.OK)
-                    {
-                        err.ErrorCode = x.ErrorCode;
-                        err.Message = x.Message;
-                        return err;
-                    }
-                    _OAuthInfos = x.Result;
-                }
+                _OAuthInfos = await _StartSession(new AuthToken { Token = exchange_code, Type = AuthToken.TokenType.ExchangeCode });
 
                 string access_token = $"bearer {(string)_OAuthInfos["access_token"]}";
-                {
-                    Error x = await _ResumeSession(access_token);
-                    if (x.ErrorCode != Error.OK)
-                    {
-                        err.ErrorCode = x.ErrorCode;
-                        err.Message = x.Message;
-                        return err;
-                    }
-                    // Don't share our internal oauth infos with the user returned oauth.
-                    err.Result = (JObject)_OAuthInfos.DeepClone();
-                    err.ErrorCode = Error.OK;
-                    _LoggedIn = true;
-                }
+                await _ResumeSession(access_token);
+                var json = (JObject)_OAuthInfos.DeepClone();
+                _LoggedIn = true;
+                return json;
             }
             catch (Exception e)
             {
-                err.FromError(Error.GetWebErrorFromException(e));
+                WebApiException.BuildExceptionFromWebException(e);
             }
 
-            return err;
+            return null;
         }
 
-        public async Task<Error<JObject>> LoginAuthCode(string auth_code)
+        public async Task<JObject> LoginAuthCode(string auth_code)
         {
-            Error<JObject> err = new Error<JObject>();
             _ResetOAuth();
 
             Uri uri = new Uri($"https://{Shared.EPIC_GAMES_HOST}");
@@ -324,55 +280,31 @@ namespace EGS
 
             try
             {
-                AuthToken auth_token = new AuthToken { Token = auth_code, Type = AuthToken.TokenType.AuthorizationCode };
-                {
-                    Error<JObject> x = await _StartSession(auth_token);
-                    if (x.ErrorCode != Error.OK)
-                    {
-                        err.ErrorCode = x.ErrorCode;
-                        err.Message = x.Message;
-                        return err;
-                    }
-                    _OAuthInfos = x.Result;
-                }
+                _OAuthInfos = await _StartSession(new AuthToken { Token = auth_code, Type = AuthToken.TokenType.AuthorizationCode });
 
                 string access_token = $"bearer {(string)_OAuthInfos["access_token"]}";
-                {
-                    Error x = await _ResumeSession(access_token);
-                    if (x.ErrorCode != Error.OK)
-                    {
-                        err.ErrorCode = x.ErrorCode;
-                        err.Message = x.Message;
-                        return err;
-                    }
-                    // Don't share our internal oauth infos with the user returned oauth.
-                    err.Result = (JObject)_OAuthInfos.DeepClone();
-                    err.ErrorCode = Error.OK;
-                    _LoggedIn = true;
-                }
+                await _ResumeSession(access_token);
+                // Don't share our internal oauth infos with the user returned oauth.
+                var json = (JObject)_OAuthInfos.DeepClone();
+                _LoggedIn = true;
+                return json;
             }
             catch (Exception e)
             {
-                err.FromError(Error.GetWebErrorFromException(e));
+                WebApiException.BuildExceptionFromWebException(e);
             }
 
-            return err;
+            return null;
         }
 
-        public async Task<Error<JObject>> Login(JObject oauth_infos)
+        public async Task<JObject> Login(JObject oauth_infos)
         {
-            Error<JObject> err = new Error<JObject> { ErrorCode = Error.InvalidParam, Message = "Invalid cached oauth infos." };
-
             _ResetOAuth();
 
             try
             {
                 if (!oauth_infos.ContainsKey("access_token") || !oauth_infos.ContainsKey("expires_at"))
-                {
-                    err.ErrorCode = Error.InvalidParam;
-                    err.Message = string.Format("OAuth credentials is missing datas.");
-                    return err;
-                }
+                    throw new WebApiException("OAuth credentials is missing datas.", WebApiException.InvalidParam);
 
                 DateTime dt = new DateTime();
                 {
@@ -390,66 +322,39 @@ namespace EGS
                         dt = (DateTime)date_token;
                     }
                     else
-                    {
-                        err.ErrorCode = Error.InvalidParam;
-                        err.Message = string.Format("OAuth credentials 'expires_at' is not an ISO8601 date.");
-                        return err;
-                    }
+                        throw new WebApiException("OAuth credentials 'expires_at' is not an ISO8601 date.", WebApiException.InvalidParam);
                 }
 
                 if (dt > DateTime.Now && (dt - DateTime.Now) > TimeSpan.FromMinutes(10))
                 {
                     string access_token = string.Format("bearer {0}", (string)oauth_infos["access_token"]);
                     _OAuthInfos = (JObject)oauth_infos.DeepClone();
-                    Error x = await _ResumeSession(access_token);
-                    if (x.ErrorCode == Error.OK)
-                    {
-                        // Don't share our internal oauth infos with the user returned oauth.
-                        err.Result = (JObject)_OAuthInfos.DeepClone();
-                        err.ErrorCode = Error.OK;
-                        _LoggedIn = true;
-                        return err;
-                    }
-                }
-
-                AuthToken token = new AuthToken { Token = (string)oauth_infos["refresh_token"], Type = AuthToken.TokenType.RefreshToken };
-                {
-                    Error<JObject> x = await _StartSession(token);
-                    if (x.ErrorCode != Error.OK)
-                    {
-                        err.Message = x.Message;
-                        err.ErrorCode = x.ErrorCode;
-                        return err;
-                    }
-                    _OAuthInfos = x.Result;
-                }
-                {
-                    string access_token = string.Format("bearer {0}", (string)_OAuthInfos["access_token"]);
-                    Error x = await _ResumeSession(access_token);
-                    if (x.ErrorCode != Error.OK)
-                    {
-                        err.Message = x.Message;
-                        err.ErrorCode = x.ErrorCode;
-                        return err;
-                    }
-
+                    await _ResumeSession(access_token);
                     // Don't share our internal oauth infos with the user returned oauth.
-                    err.Result = (JObject)_OAuthInfos.DeepClone();
-                    err.ErrorCode = Error.OK;
+                    var json = (JObject)_OAuthInfos.DeepClone();
                     _LoggedIn = true;
+                    return json;
+                }
+                else
+                {
+                    _OAuthInfos = await _StartSession(new AuthToken { Token = (string)oauth_infos["refresh_token"], Type = AuthToken.TokenType.RefreshToken });
+                    await _ResumeSession(string.Format("bearer {0}", (string)_OAuthInfos["access_token"]));
+                    // Don't share our internal oauth infos with the user returned oauth.
+                    var json = (JObject)_OAuthInfos.DeepClone();
+                    _LoggedIn = true;
+                    return json;
                 }
             }
             catch (Exception e)
             {
-                err.FromError(Error.GetWebErrorFromException(e));
+                WebApiException.BuildExceptionFromWebException(e);
             }
 
-            return err;
+            return null;
         }
 
-        public async Task<Error> Logout()
+        public async Task Logout()
         {
-            Error err = new Error { ErrorCode = Error.OK };
             if (_LoggedIn)
             {
                 try
@@ -460,24 +365,76 @@ namespace EGS
                 }
                 catch (Exception e)
                 {
-                    err = Error.GetWebErrorFromException(e);
+                    WebApiException.BuildExceptionFromWebException(e);
                 }
 
                 _ResetOAuth();
             }
-
-            return err;
         }
 
-        public async Task<Error<string>> GetAppExchangeCode()
+        public async Task<string> GetArtifactServiceTicket(string sandbox_id, string artifact_id, string label = "Live", string platform = "Windows")
         {
-            Error<string> err = new Error<string>();
             if (!_LoggedIn)
+                throw new WebApiException("User is not logged in.", WebApiException.NotLoggedIn);
+
+            try
             {
-                err.ErrorCode = Error.NotLoggedIn;
-                err.Message = "User is not logged in.";
-                return err;
+                Uri uri = new Uri($"https://{Shared.EGS_ARTIFACT_HOST}/artifact-service/api/public/v1/dependency/sandbox/{sandbox_id}/artifact/{artifact_id}/ticket");
+
+                JObject json = new JObject
+                {
+                    { "label"           , label },
+                    { "expiresInSeconds", 300 },
+                    { "platform"        , platform },
+                };
+                StringContent content = new StringContent(json.ToString(), Encoding.UTF8, "application/json");
+
+                JObject response = JObject.Parse(await Shared.WebRunPost(_WebHttpClient, uri, content , new Dictionary<string, string>
+                {
+                    { "User-Agent"  , Shared.EGL_UAGENT },
+                }));
+
+                if (response.ContainsKey("errorCode"))
+                {
+                    WebApiException.BuildErrorFromJson(response);
+                }
+                else
+                {
+                    return (string)response["code"];
+                }
             }
+            catch (Exception e)
+            {
+                WebApiException.BuildExceptionFromWebException(e);
+            }
+
+            return string.Empty;
+
+            // Only works when logged in anonymously.
+            // sandbox_id is the same as the namespace, artifact_id is the same as the app name
+
+
+            //r = self.session.post(f'https://{self._artifact_service_host}/artifact-service/api/public/v1/dependency/'
+            //                      f'sandbox/{sandbox_id}/artifact/{artifact_id}/ticket',
+            //                      json = dict(label = label, expiresInSeconds = 300, platform = platform),
+            //                      params= dict(useSandboxAwareLabel = 'false'),
+            //                      timeout = self.request_timeout)
+            //r.raise_for_status()
+            //return r.json()
+        }
+
+        //def get_game_manifest_by_ticket(self, artifact_id: str, signed_ticket: str, label= 'Live', platform= 'Windows') :
+        //    # Based on EOS Helper Windows service implementation.
+        //    r = self.session.post(f'https://{self._launcher_host}/launcher/api/public/assets/v2/'
+        //                          f'by-ticket/app/{artifact_id}',
+        //                          json=dict(platform= platform, label= label, signedTicket= signed_ticket),
+        //                          timeout=self.request_timeout)
+        //    r.raise_for_status()
+        //    return r.json()
+        public async Task<string> GetAppExchangeCode()
+        {
+            if (!_LoggedIn)
+                throw new WebApiException("User is not logged in.", WebApiException.NotLoggedIn);
 
             try
             {
@@ -490,21 +447,16 @@ namespace EGS
                 }));
 
                 if (response.ContainsKey("errorCode"))
-                {
-                    err.FromError(Error.GetErrorFromJson(response));
-                }
-                else
-                {
-                    err.Result = (string)response["code"];
-                    err.ErrorCode = Error.OK;
-                }
+                    WebApiException.BuildErrorFromJson(response);
+
+                return (string)response["code"];
             }
             catch (Exception e)
             {
-                err.FromError(Error.GetWebErrorFromException(e));
+                WebApiException.BuildExceptionFromWebException(e);
             }
 
-            return err;
+            return null;
         }
 
         /// <summary>
@@ -515,15 +467,10 @@ namespace EGS
         /// <param name="user_id">Application ClientId.</param>
         /// <param name="password">Application ClientSecret.</param>
         /// <returns></returns>
-        public async Task<Error<string>> GetAppRefreshTokenFromExchangeCode(string exchange_code, string deployement_id, string user_id, string password)
+        public async Task<string> GetAppRefreshTokenFromExchangeCode(string exchange_code, string deployement_id, string user_id, string password)
         {
-            Error<string> err = new Error<string>();
             if (!_LoggedIn)
-            {
-                err.ErrorCode = Error.NotLoggedIn;
-                err.Message = "User is not logged in.";
-                return err;
-            }
+                throw new WebApiException("User is not logged in.", WebApiException.NotLoggedIn);
 
             //JArray scope = new JArray { "basic_profile", "friend_list", "presence" };
             JArray scope = new JArray { "openid" };
@@ -547,58 +494,47 @@ namespace EGS
 
                 if (response.ContainsKey("errorCode"))
                 {
-                    err.FromError(Error.GetErrorFromJson(response));
-                    if (response.ContainsKey("continuation") && err.ErrorCode == Error.OAuthScopeConsentRequired)
+                    try
                     {
-                        err.Result = (string)response["continuation"];
+                        WebApiException.BuildErrorFromJson(response);
                     }
-                    else
+                    catch(WebApiException e)
                     {
-                        err.FromError(Error.GetErrorFromJson(response));
+                        if (response.ContainsKey("continuation") && e.ErrorCode == WebApiException.OAuthScopeConsentRequired)
+                        {
+                            var ex = new WebApiException((string)response["continuation"], WebApiException.OAuthScopeConsentRequired);
+                            throw ex;
+                        }
+
+                        throw;
                     }
-                    return err;
                 }
 
-                err.Result = (string)response["refresh_token"];
-                err.ErrorCode = Error.OK;
+                return (string)response["refresh_token"];
             }
             catch (Exception e)
             {
-                err.FromError(Error.GetWebErrorFromException(e));
+                WebApiException.BuildExceptionFromWebException(e);
             }
 
-            return err;
+            return null;
         }
 
-        public async Task<Error<string>> RunContinuationToken(string continuation_token, string deployement_id, string user_id, string password)
+        public async Task<string> RunContinuationToken(string continuation_token, string deployement_id, string user_id, string password)
         {
             return await Shared.RunContinuationToken(_WebHttpClient, continuation_token, deployement_id, user_id, password);
         }
 
-        private Error<string> _GetGameCommandLine(AuthToken token, string appid)
+        private string _GetGameCommandLine(AuthToken token, string appid)
         {
-            Error<string> err = new Error<string>();
-
             if (!_LoggedIn)
-            {
-                err.ErrorCode = Error.NotLoggedIn;
-                err.Message = "User is not logged in.";
-                return err;
-            }
+                throw new WebApiException("User is not logged in.", WebApiException.NotLoggedIn);
 
             if (!_OAuthInfos.ContainsKey("display_name"))
-            {
-                err.ErrorCode = Error.NotFound;
-                err.Message = "OAuth infos doesn't contain 'display_name'.";
-                return err;
-            }
+                throw new WebApiException("OAuth infos doesn't contain 'display_name'.", WebApiException.NotFound);
 
             if (!_OAuthInfos.ContainsKey("account_id"))
-            {
-                err.ErrorCode = Error.NotFound;
-                err.Message = "OAuth infos doesn't contain 'account_id'.";
-                return err;
-            }
+                throw new WebApiException("OAuth infos doesn't contain 'account_id'.", WebApiException.NotFound);
 
             string auth_type = string.Empty;
             switch(token.Type)
@@ -614,37 +550,28 @@ namespace EGS
 
             try
             {
-                err.Result = string.Format("-AUTH_LOGIN=unused -AUTH_PASSWORD={0} -AUTH_TYPE={1} -epicapp={2} -epicenv=Prod -EpicPortal -epicusername={3} -epicuserid={4} -epiclocal=en", token.Token, auth_type, appid, (string)_OAuthInfos["display_name"], (string)_OAuthInfos["account_id"]);
+                return string.Format("-AUTH_LOGIN=unused -AUTH_PASSWORD={0} -AUTH_TYPE={1} -epicapp={2} -epicenv=Prod -EpicPortal -epicusername={3} -epicuserid={4} -epiclocal=en", token.Token, auth_type, appid, (string)_OAuthInfos["display_name"], (string)_OAuthInfos["account_id"]);
             }
             catch (Exception e)
             {
-                err.ErrorCode = Error.InvalidParam;
-                err.Message = e.Message;
+                throw new WebApiException(e.Message, WebApiException.InvalidParam);
             }
-
-            return err;
         }
 
-        public Error<string> GetGameExchangeCodeCommandLine(string exchange_code, string appid)
+        public string GetGameExchangeCodeCommandLine(string exchange_code, string appid)
         {
             return _GetGameCommandLine(new AuthToken { Token = exchange_code, Type = AuthToken.TokenType.ExchangeCode }, appid);
         }
 
-        public Error<string> GetGameTokenCommandLine(string refresh_token, string appid)
+        public string GetGameTokenCommandLine(string refresh_token, string appid)
         {
             return _GetGameCommandLine(new AuthToken { Token = refresh_token, Type = AuthToken.TokenType.RefreshToken }, appid);
         }
 
-        public async Task<Error<List<AppAsset>>> GetGamesAssets(string platform = "Windows", string label = "Live")
+        public async Task<List<AppAsset>> GetGamesAssets(string platform = "Windows", string label = "Live")
         {
-            Error<List<AppAsset>> err = new Error<List<AppAsset>>();
-
             if (!_LoggedIn)
-            {
-                err.ErrorCode = Error.NotLoggedIn;
-                err.Message = "User is not logged in.";
-                return err;
-            }
+                throw new WebApiException("User is not logged in.", WebApiException.NotLoggedIn);
 
             try
             {
@@ -667,72 +594,57 @@ namespace EGS
                     app_assets.Add(asset.ToObject<AppAsset>());
                 }
                 
-                err.Result = app_assets;
-                err.ErrorCode = Error.OK;
+                return app_assets;
             }
             catch (Exception e)
             {
-                err.FromError(Error.GetWebErrorFromException(e));
+                WebApiException.BuildExceptionFromWebException(e);
             }
 
-            return err;
+            return null;
         }
 
-        public async Task<Error<JObject>> GetGameManifest(string game_namespace, string catalog_id, string app_name, string platform = "Windows", string label = "Live")
+        public async Task<JObject> GetGameManifest(string game_namespace, string catalog_id, string app_name, string platform = "Windows", string label = "Live")
         {
-            Error<JObject> err = new Error<JObject>();
-
             if (!_LoggedIn)
-            {
-                err.ErrorCode = Error.NotLoggedIn;
-                err.Message = "User is not logged in.";
-                return err;
-            }
+                throw new WebApiException("User is not logged in.", WebApiException.NotLoggedIn);
 
             try
             {
                 Uri uri = new Uri($"https://{Shared.EGS_LAUNCHER_HOST}/launcher/api/public/assets/v2/platform/{platform}/namespace/{game_namespace}/catalogItem/{catalog_id}/app/{app_name}/label/{label}");
 
-                err.Result = JObject.Parse(await Shared.WebRunGet(_WebHttpClient, new HttpRequestMessage(HttpMethod.Get, uri), new Dictionary<string, string>
+                var json = JObject.Parse(await Shared.WebRunGet(_WebHttpClient, new HttpRequestMessage(HttpMethod.Get, uri), new Dictionary<string, string>
                 {
                     { "Authorization", $"bearer {(string)_OAuthInfos["access_token"]}" },
                 }));
 
-                if (err.Result.ContainsKey("errorCode"))
-                {
-                    err.FromError(Error.GetErrorFromJson(err.Result));
-                }
-                else
-                {
-                    err.ErrorCode = Error.OK;
-                }
+                if (json.ContainsKey("errorCode"))
+                    WebApiException.BuildErrorFromJson(json);
+
+                return json;
             }
             catch (Exception e)
             {
-                err.FromError(Error.GetWebErrorFromException(e));
+                WebApiException.BuildExceptionFromWebException(e);
             }
 
-            return err;
+            return null;
         }
 
-        public async Task<Error<ManifestDownloadInfos>> GetManifestDownloadInfos(string game_namespace, string catalog_id, string app_name, string platform = "Windows", string label = "Live")
+        public async Task<ManifestDownloadInfos> GetManifestDownloadInfos(string game_namespace, string catalog_id, string app_name, string platform = "Windows", string label = "Live")
         {
-            var result = new Error<ManifestDownloadInfos>();
-
             var manifestResult = await GetGameManifest(game_namespace, catalog_id, app_name, platform, label);
-            if (manifestResult.ErrorCode != Error.OK)
-                return result.FromError(manifestResult);
 
-            result.Result = new ManifestDownloadInfos();
+            var result = new ManifestDownloadInfos();
 
-            result.Result.ManifestHash = (string)manifestResult.Result["elements"][0]["hash"];
+            result.ManifestHash = (string)manifestResult["elements"][0]["hash"];
 
-            foreach (JObject manifest in manifestResult.Result["elements"][0]["manifests"])
+            foreach (JObject manifest in manifestResult["elements"][0]["manifests"])
             {
                 var manifestUrl = (string)manifest["uri"];
                 string baseUrl = manifestUrl.Substring(0, manifestUrl.LastIndexOf('/'));
-                if (!result.Result.BaseUrls.Contains(baseUrl))
-                    result.Result.BaseUrls.Add(baseUrl);
+                if (!result.BaseUrls.Contains(baseUrl))
+                    result.BaseUrls.Add(baseUrl);
 
                 var queryParams = new List<string>();
                 if (manifest.ContainsKey("queryParams"))
@@ -750,28 +662,21 @@ namespace EGS
 
                 if (manifestUrl.Contains(".akamaized.net/"))
                 {
-                    result.Result.ManifestUrls.Insert(0, manifestUrl);
+                    result.ManifestUrls.Insert(0, manifestUrl);
                 }
                 else
                 {
-                    result.Result.ManifestUrls.Add(manifestUrl);
+                    result.ManifestUrls.Add(manifestUrl);
                 }
             }
 
-            if (result.Result.BaseUrls.Count <= 0)
-            {
-                result.ErrorCode = Error.NotFound;
-                result.Message = "Couldn't find base urls.";
-                return result;
-            }
-            if (result.Result.ManifestUrls.Count <= 0)
-            {
-                result.ErrorCode = Error.NotFound;
-                result.Message = "Couldn't find manifest urls.";
-                return result;
-            }
+            if (result.BaseUrls.Count <= 0)
+                throw new WebApiException("Couldn't find base urls.", WebApiException.NotFound);
 
-            foreach (var manifestUrl in result.Result.ManifestUrls)
+            if (result.ManifestUrls.Count <= 0)
+                throw new WebApiException("Couldn't find manifest urls.", WebApiException.NotFound);
+
+            foreach (var manifestUrl in result.ManifestUrls)
             {
                 using (var response = await _UnauthWebHttpClient.GetAsync(manifestUrl))
                 {
@@ -781,17 +686,12 @@ namespace EGS
                         using (MemoryStream ms = new MemoryStream())
                         {
                             stream.CopyTo(ms);
-                            result.Result.ManifestData = ms.ToArray();
-                            result.ErrorCode = Error.OK;
+                            result.ManifestData = ms.ToArray();
 
-                            var manifestHash = SHA1.HashData(result.Result.ManifestData).Aggregate(new StringBuilder(), (sb, v) => sb.Append(v.ToString("x2"))).ToString();
+                            var manifestHash = SHA1.HashData(result.ManifestData).Aggregate(new StringBuilder(), (sb, v) => sb.Append(v.ToString("x2"))).ToString();
 
-                            if (result.Result.ManifestHash != manifestHash)
-                            {
-                                result.ErrorCode = Error.InvalidData;
-                                result.Message = "Manifest hash didn't match";
-                                return result;
-                            }
+                            if (result.ManifestHash != manifestHash)
+                                throw new WebApiException("Manifest hash didn't match", WebApiException.InvalidData);
 
                             break;
                         }
@@ -802,25 +702,16 @@ namespace EGS
                     }
                 }
             }
-            if (result.Result.ManifestData.Length <= 0)
-            {
-                result.ErrorCode = Error.NotFound;
-                result.Message = "Couldn't download manifest.";
-            }
+            if (result.ManifestData.Length <= 0)
+                throw new WebApiException("Couldn't download manifest.", WebApiException.InvalidData);
 
             return result;
         }
 
-        public async Task<Error<List<Entitlement>>> GetUserEntitlements(uint start = 0, uint count = 5000)
+        public async Task<List<Entitlement>> GetUserEntitlements(uint start = 0, uint count = 5000)
         {
-            Error<List<Entitlement>> err = new Error<List<Entitlement>>();
-
             if (!_LoggedIn)
-            {
-                err.ErrorCode = Error.NotLoggedIn;
-                err.Message = "User is not logged in.";
-                return err;
-            }
+                throw new WebApiException("User is not logged in.", WebApiException.NotLoggedIn);
 
             try
             {
@@ -843,27 +734,20 @@ namespace EGS
                     entitlements.Add(entitlement.ToObject<EGS.Entitlement>());
                 }
 
-                err.Result = entitlements;
-                err.ErrorCode = Error.OK;
+                return entitlements;
             }
             catch (Exception e)
             {
-                err.FromError(Error.GetWebErrorFromException(e));
+                WebApiException.BuildExceptionFromWebException(e);
             }
 
-            return err;
+            return null;
         }
 
-        public async Task<Error<AppInfos>> GetGameInfos(string game_namespace, string catalog_item_id, bool include_dlcs = true)
+        public async Task<AppInfos> GetGameInfos(string game_namespace, string catalog_item_id, bool include_dlcs = true)
         {
-            Error<AppInfos> err = new Error<AppInfos>();
-
             if (!_LoggedIn)
-            {
-                err.ErrorCode = Error.NotLoggedIn;
-                err.Message = "User is not logged in.";
-                return err;
-            }
+                throw new WebApiException("User is not logged in.", WebApiException.NotLoggedIn);
 
             try
             {
@@ -884,19 +768,20 @@ namespace EGS
                     { "Authorization", $"bearer {(string)_OAuthInfos["access_token"]}" },
                 }));
 
+                AppInfos appInfos = null;
                 foreach (KeyValuePair<string, JToken> v in response)
                 {
-                    err.Result = ((JObject)v.Value).ToObject<AppInfos>();
+                    appInfos = ((JObject)v.Value).ToObject<AppInfos>();
                 }
 
-                err.ErrorCode = Error.OK;
+                return appInfos;
             }
             catch (Exception e)
             {
-                err.FromError(Error.GetWebErrorFromException(e));
+                WebApiException.BuildExceptionFromWebException(e);
             }
 
-            return err;
+            return null;
         }
     }
 }

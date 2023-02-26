@@ -160,17 +160,7 @@ namespace epic_retriever
             return app;
         }
 
-        static List<EGS.AppAsset> GetAssets()
-        {
-            var t1 = EGSApi.GetGamesAssets();
-            t1.Wait();
-            if (t1.Result.ErrorCode == EGS.Error.OK)
-                return t1.Result.Result;
-
-            return new List<EGS.AppAsset>();
-        }
-
-        static EGS.AppInfos GetApp(string namespace_, string catalog_item_id)
+        static async Task<EGS.AppInfos> GetApp(string namespace_, string catalog_item_id)
         {
             EGS.AppInfos app = null;
 
@@ -178,13 +168,8 @@ namespace epic_retriever
             {
                 //SaveAppAsset();
 
-                var t2 = EGSApi.GetGameInfos(namespace_, catalog_item_id);
-                t2.Wait();
-                if (t2.Result.ErrorCode == EGS.Error.OK && t2.Result.Result != null)
-                {
-                    app = t2.Result.Result;
-                    SaveAppInfos(app);
-                }
+                app = await EGSApi.GetGameInfos(namespace_, catalog_item_id);
+                SaveAppInfos(app);
             }
             //else
             //{
@@ -279,7 +264,7 @@ namespace epic_retriever
             }
         }
 
-        static AppList DownloadAppList()
+        static async Task<AppList> DownloadAppList()
         {
             AppList app_list = new AppList();
 
@@ -309,7 +294,7 @@ namespace epic_retriever
             app_list.Version = 1;
 
             Console.WriteLine("Downloading assets...");
-            List<EGS.AppAsset> assets = GetAssets();
+            List<EGS.AppAsset> assets = await EGSApi.GetGamesAssets();
             foreach (EGS.AppAsset asset in assets)
             {
                 AppListEntry entry;
@@ -379,9 +364,9 @@ namespace epic_retriever
             return app_list;
         }
 
-        static void GetAppInfos(string namespace_, AppList app_list, string catalog_id)
+        static async Task GetAppInfos(string namespace_, AppList app_list, string catalog_id)
         {
-            EGS.AppInfos app = GetApp(namespace_, catalog_id);
+            EGS.AppInfos app = await GetApp(namespace_, catalog_id);
 
             AppListEntry catalog_entry = null;
             try
@@ -484,35 +469,48 @@ namespace epic_retriever
             }
         }
 
+        static async Task PrepareManifestDownload(string namespace_, string catalogId, string appId)
+        {
+            var result = await EGSApi.GetManifestDownloadInfos(namespace_, catalogId, appId);
+
+            var manifestCacheDir = Path.Combine(OutCacheDirectory, "depots", appId);
+            if (!Directory.Exists(manifestCacheDir))
+                Directory.CreateDirectory(manifestCacheDir);
+
+            using (var file = new FileStream(Path.Combine(manifestCacheDir, $"{appId}.manifest"), FileMode.Create))
+            {
+                await file.WriteAsync(result.ManifestData);
+            }
+
+            using (var writer = new StreamWriter(new FileStream(Path.Combine(manifestCacheDir, "download_infos.json"), FileMode.Create)))
+            {
+                var json = new JObject {
+                    { "BaseUrls", new JArray(result.BaseUrls) }
+                };
+
+                await writer.WriteAsync(json.ToString());
+            }
+        }
+        static async Task<JObject> LoginAnonymous()
+        {
+            Console.WriteLine("Will now try to login anonymously...");
+            return await EGSApi.LoginAnonymous();
+        }
+
         static async Task<JObject> LoginWithAuthcode()
         {
-            string user_input;
-
             Console.WriteLine("Will now try to login with authorization code...");
             Console.WriteLine("EGL authcode (get it at: https://www.epicgames.com/id/api/redirect?clientId=34a02cf8f4414e29b15921876da36f9a&responseType=code): ");
-            user_input = Console.ReadLine();
-
-            EGS.Error<JObject> result = await EGSApi.LoginAuthCode(user_input);
-            if (result.ErrorCode != EGS.Error.OK)
-                return null;
-
-            return result.Result;
+            return await EGSApi.LoginAuthCode(Console.ReadLine().Trim());
         }
 
         static async Task<JObject> LoginWithSID()
         {
-            string user_input;
-
             Console.WriteLine("Will now try to login with SID...");
             Console.WriteLine("EGL sid (get it at: https://www.epicgames.com/id/login?redirectUrl=https://www.epicgames.com/id/api/redirect): ");
-            user_input = Console.ReadLine();
-
-            EGS.Error<JObject> result = await EGSApi.LoginSID(user_input);
-            if (result.ErrorCode != EGS.Error.OK)
-                return null;
-
-            return result.Result;
+            return await EGSApi.LoginSID(Console.ReadLine().Trim());
         }
+
         static async Task AsyncMain(string[] args)
         {
             Parser.Default.ParseArguments<Options>(args).WithParsed(options => {
@@ -540,17 +538,7 @@ namespace epic_retriever
                     oauth_infos = JObject.Parse(reader.ReadToEnd());
                 }
 
-                EGS.Error<JObject> result = await EGSApi.Login(oauth_infos);
-                if (result.ErrorCode != EGS.Error.OK)
-                {
-                    Console.WriteLine("Failed to login with the cached infos: {0};", result.Message);
-                    login_with_sid = false;
-                    login_with_authcode = true;
-                }
-                else
-                {
-                    oauth_infos = result.Result;
-                }
+                oauth_infos = await EGSApi.Login(oauth_infos);
             }
             catch (Exception e)
             {
@@ -559,12 +547,24 @@ namespace epic_retriever
                 login_with_authcode = true;
             }
 
+            //oauth_infos = await LoginAnonymous();
+            //if (oauth_infos == null)
+            //{
+            //    Console.WriteLine("Failed to login anonymously.");
+            //    Console.WriteLine("Press a key to exit...");
+            //    Console.ReadKey(true);
+            //    return;
+            //}
+
             if (login_with_authcode)
             {
-                oauth_infos = await LoginWithAuthcode();
-                if (oauth_infos == null)
+                try
                 {
-                    Console.WriteLine("Failed to login with authorization code.");
+                    oauth_infos = await LoginWithAuthcode();
+                }
+                catch(Exception e)
+                {
+                    Console.WriteLine($"Failed to login with authorization code: {e.Message}");
                     Console.WriteLine("Press a key to exit...");
                     Console.ReadKey(true);
                     return;
@@ -573,10 +573,13 @@ namespace epic_retriever
 
             if (login_with_sid)
             {
-                oauth_infos = await LoginWithSID();
-                if (oauth_infos == null)
+                try
                 {
-                    Console.WriteLine("Failed to login with SID.");
+                    oauth_infos = await LoginWithSID();
+                }
+                catch (Exception e)
+                {
+                    Console.WriteLine($"Failed to login with SID: {e.Message}");
                     Console.WriteLine("Press a key to exit...");
                     Console.ReadKey(true);
                     return;
@@ -600,10 +603,10 @@ namespace epic_retriever
                 writer.Write(oauth_infos.ToString());
             }
 
-            AppList app_list = DownloadAppList();
+            AppList app_list = await DownloadAppList();
             if (HasTargetApp)
             {
-                GetAppInfos(AppNamespace, app_list, AppCatalogItemId);
+                await GetAppInfos(AppNamespace, app_list, AppCatalogItemId);
             }
             else
             {
@@ -611,7 +614,7 @@ namespace epic_retriever
                 {
                     foreach (var catalog_entry in namespace_entry.Value)
                     {
-                        GetAppInfos(namespace_entry.Key, app_list, catalog_entry.Key);
+                        await GetAppInfos(namespace_entry.Key, app_list, catalog_entry.Key);
                     }
                 }
             }

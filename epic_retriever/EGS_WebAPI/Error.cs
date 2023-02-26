@@ -4,10 +4,11 @@ using System.IO;
 using System.Net;
 using System;
 using System.Linq;
+using System.Runtime.Serialization;
 
 namespace EGS
 {
-    class Error
+    class WebApiException : Exception
     {
         public const int InvalidData = -6;
         public const int NotLoggedIn = -5;
@@ -38,37 +39,50 @@ namespace EGS
         public const int OAuthScopeConsentRequired = 58005;
 
         public int ErrorCode { get; set; }
-        public string Message { get; set; }
+
+        public WebApiException() : base()
+        { }
+
+        public WebApiException(string message, int errorCode):base(message)
+        {
+            ErrorCode = errorCode;
+        }
+
+        public WebApiException(string message, Exception innerException) : base(message, innerException)
+        { }
+        
+        protected WebApiException(SerializationInfo info, StreamingContext context): base(info, context)
+        { }
 
         static public int ErrorCodeFromString(string error)
         {
             if (string.IsNullOrEmpty(error))
-                return Error.Unknown;
+                return Unknown;
 
-            switch(error)
+            switch (error)
             {
-                case "errors.com.epicgames.unauthorized"                               : return Error.Unauthorized;
-                case "errors.com.epicgames.common.authentication.authentication_failed": return Error.CommonAuthenticationAuthenticationFailed;
-                case "errors.com.epicgames.common.method_not_allowed"                  : return Error.CommonMethodNotAllowed;
-                case "errors.com.epicgames.common.oauth.invalid_token"                 : return Error.CommonOauthInvalidToken;
+                case "errors.com.epicgames.unauthorized": return Unauthorized;
+                case "errors.com.epicgames.common.authentication.authentication_failed": return CommonAuthenticationAuthenticationFailed;
+                case "errors.com.epicgames.common.method_not_allowed": return CommonMethodNotAllowed;
+                case "errors.com.epicgames.common.oauth.invalid_token": return CommonOauthInvalidToken;
 
-                case "errors.com.epicgames.accountportal.session_id_invalid"           : return Error.AccountPortalSessionIdInvalid;
-                case "errors.com.epicgames.accountportal.validation"                   : return Error.AccountPortalValidation;
-                case "errors.com.epicgames.accountportal.csrf_token_invalid"           : return Error.AccountPortalCsrfTokenInvalid;
+                case "errors.com.epicgames.accountportal.session_id_invalid": return AccountPortalSessionIdInvalid;
+                case "errors.com.epicgames.accountportal.validation": return AccountPortalValidation;
+                case "errors.com.epicgames.accountportal.csrf_token_invalid": return AccountPortalCsrfTokenInvalid;
 
-                case "errors.com.epicgames.account.oauth.exchange_code_not_found"      : return Error.AccountOauthExchangeCodeNotFound;
-                case "errors.com.epicgames.account.oauth.authorization_code_not_found" : return Error.AccountOauthAuthorizationCodeNotFound;
-                case "errors.com.epicgames.account.auth_token.invalid_refresh_token"   : return Error.AccountAuthTokenInvalidRefreshToken;
+                case "errors.com.epicgames.account.oauth.exchange_code_not_found": return AccountOauthExchangeCodeNotFound;
+                case "errors.com.epicgames.account.oauth.authorization_code_not_found": return AccountOauthAuthorizationCodeNotFound;
+                case "errors.com.epicgames.account.auth_token.invalid_refresh_token": return AccountAuthTokenInvalidRefreshToken;
 
-                case "errors.com.epicgames.oauth.scope_consent_required"               : return Error.OAuthScopeConsentRequired;
+                case "errors.com.epicgames.oauth.scope_consent_required": return OAuthScopeConsentRequired;
 
-                default: return Error.Unknown;
+                default: return Unknown;
             }
         }
 
-        static public Error GetErrorFromJson(JObject json)
+        static public void BuildErrorFromJson(JObject json)
         {
-            Error err = new Error();
+            var err = default(WebApiException);
 
             string error_name = string.Empty;
             string message = string.Empty;
@@ -91,26 +105,16 @@ namespace EGS
                 }
             }
 
-            err.Message = string.IsNullOrWhiteSpace(message) ? error_name : message;
+            err = new WebApiException(string.IsNullOrWhiteSpace(message) ? error_name : message, error_code != 0 ? ErrorCodeFromString(error_name) : err.ErrorCode = Unknown);
 
-            if (error_code != 0)
-            {
-                err.ErrorCode = Error.ErrorCodeFromString(error_name);
-            }
-            else
-            {
-                err.ErrorCode = Error.Unknown;
-            }
-
-            return err;
+            throw err;
         }
 
-        static public Error GetWebErrorFromException(Exception e)
+        static public void BuildExceptionFromWebException(Exception e)
         {
-            Error err = new Error();
-            if (e is WebException && ((WebException)e).Response != null)
+            var err = default(WebApiException);
+            if (e is WebException we && we.Response != null)
             {
-                WebException we = (WebException)e;
                 try
                 {
                     int error_code = 0;
@@ -137,39 +141,20 @@ namespace EGS
                     catch (Exception)
                     { }
 
-                    err = GetErrorFromJson(json);
+                    BuildErrorFromJson(json);
                 }
                 catch (Exception)
                 {
-                    err.Message = e.Message;
-                    err.ErrorCode = Error.WebError;
+                    err = new WebApiException(e.Message, WebError);
                 }
             }
             else
             {
-                err.Message = e.Message;
-                err.ErrorCode = Error.WebError;
+                err = new WebApiException(e.Message, WebError);
             }
 
-            return err;
+            if (err != null)
+                throw err;
         }
     }
-
-    class Error<T> : Error
-    {
-        public T Result { get; set; }
-
-        public Error<T> FromError(Error err)
-        {
-            ErrorCode = err.ErrorCode;
-            Message = err.Message;
-            return this;
-        }
-
-        public Error ToError()
-        {
-            return new Error { ErrorCode = ErrorCode, Message = Message };
-        }
-    }
-
 }
