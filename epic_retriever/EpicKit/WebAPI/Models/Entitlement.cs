@@ -1,10 +1,9 @@
-
 using Newtonsoft.Json;
 using System;
 
-namespace EGS
+namespace EpicKit.WebAPI.Models
 {
-    class Entitlement
+    public class EntitlementModel
     {
         [JsonProperty(PropertyName = "id")]
         public string Id { get; set; }
@@ -60,7 +59,7 @@ namespace EGS
         [JsonProperty(PropertyName = "country")]
         public string Country { get; set; }
 
-        public Entitlement()
+        public EntitlementModel()
         {
             Reset();
         }

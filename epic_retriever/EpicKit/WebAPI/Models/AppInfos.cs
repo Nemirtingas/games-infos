@@ -1,12 +1,10 @@
-
+using EpicKit.WebAPI.Models;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
-using System;
-using System.Collections.Generic;
 
-namespace EGS
+namespace EpicKit.WebAPI.Models
 {
-    class AppInfos
+    public class AppInfos
     {
         [JsonProperty(PropertyName = "id")]
         public string Id { get; set; }
@@ -66,7 +64,7 @@ namespace EGS
         public bool EndOfSupport { get; set; }
 
         [JsonProperty(PropertyName = "mainGameItem")]
-        public MainGame MainGameItem { get; set; }
+        public MainGameModel MainGameItem { get; set; }
 
         [JsonProperty(PropertyName = "dlcItemList")]
         public List<AppInfos> DlcItemList { get; set; }

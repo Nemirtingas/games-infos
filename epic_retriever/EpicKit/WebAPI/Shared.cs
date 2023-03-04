@@ -9,7 +9,7 @@ using System.Web;
 using System.Text;
 using Newtonsoft.Json.Linq;
 
-namespace EGS
+namespace EpicKit
 {
     internal static class Shared
     {

@@ -1,12 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace EGS
+﻿
+namespace EpicKit
 {
-    internal class ManifestDownloadInfos
+    public class ManifestDownloadInfos
     {
         public string ManifestHash { get; set; }
         public byte[] ManifestData { get; set; }

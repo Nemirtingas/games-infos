@@ -1,4 +1,5 @@
 using CommandLine;
+using EpicKit.WebAPI.Models;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using System;
@@ -52,7 +53,7 @@ namespace epic_retriever
     class AppListEntry
     {
         [JsonIgnore]
-        public EGS.AppAsset Asset { get; set; }
+        public AppAsset Asset { get; set; }
     }
 
     class AppList
@@ -75,9 +76,9 @@ namespace epic_retriever
         static string AppCatalogItemId { get; set; }
         static bool HasTargetApp => !string.IsNullOrWhiteSpace(AppNamespace) && !string.IsNullOrWhiteSpace(AppCatalogItemId);
 
-        static EGS.WebApi EGSApi;
+        static EpicKit.WebApi EGSApi;
 
-        static void SaveAppAsset(EGS.AppAsset asset)
+        static void SaveAppAsset(AppAsset asset)
         {
             if (asset == null)
                 return;
@@ -101,7 +102,7 @@ namespace epic_retriever
             }
         }
 
-        static void SaveAppInfos(EGS.AppInfos app)
+        static void SaveAppInfos(AppInfos app)
         {
             try
             {
@@ -122,7 +123,7 @@ namespace epic_retriever
             }
         }
 
-        static bool CachedDatasChanged(EGS.AppAsset asset)
+        static bool CachedDatasChanged(AppAsset asset)
         {
             if (Force || asset == null)
                 return true;
@@ -145,24 +146,24 @@ namespace epic_retriever
             }
         }
 
-        static EGS.AppInfos GetCachedAppInfos(string namespace_, string catalog_item_id)
+        static AppInfos GetCachedAppInfos(string namespace_, string catalog_item_id)
         {
-            EGS.AppInfos app = new EGS.AppInfos();
+            AppInfos app = new AppInfos();
             string app_infos_path = Path.Combine(OutCacheDirectory, "app_infos", namespace_, catalog_item_id + ".json");
             if (!File.Exists(app_infos_path))
                 return app;
 
             using (StreamReader reader = new StreamReader(new FileStream(app_infos_path, FileMode.Open), Encoding.UTF8))
             {
-                app = JObject.Parse(reader.ReadToEnd()).ToObject<EGS.AppInfos>();
+                app = JObject.Parse(reader.ReadToEnd()).ToObject<AppInfos>();
             }
 
             return app;
         }
 
-        static async Task<EGS.AppInfos> GetApp(string namespace_, string catalog_item_id)
+        static async Task<AppInfos> GetApp(string namespace_, string catalog_item_id)
         {
-            EGS.AppInfos app = null;
+            AppInfos app = null;
 
             //if (CachedDatasChanged())
             {
@@ -179,11 +180,11 @@ namespace epic_retriever
             return app;
         }
 
-        static string FindBestImage(EGS.AppInfos app)
+        static string FindBestImage(AppInfos app)
         {
             string result = string.Empty;
             int best_match = 0;
-            foreach (EGS.KeyImage img in app.KeyImages)
+            foreach (KeyImage img in app.KeyImages)
             {
                 if (img.Type == "DieselGameBox")
                 {
@@ -294,8 +295,8 @@ namespace epic_retriever
             app_list.Version = 1;
 
             Console.WriteLine("Downloading assets...");
-            List<EGS.AppAsset> assets = await EGSApi.GetGamesAssets();
-            foreach (EGS.AppAsset asset in assets)
+            var assets = await EGSApi.GetGamesAssets();
+            foreach (var asset in assets)
             {
                 AppListEntry entry;
                 if(!app_list.Namespaces.GetOrCreate(asset.Namespace).TryGetValue(asset.CatalogItemId, out entry))
@@ -366,7 +367,7 @@ namespace epic_retriever
 
         static async Task GetAppInfos(string namespace_, AppList app_list, string catalog_id)
         {
-            EGS.AppInfos app = await GetApp(namespace_, catalog_id);
+            var app = await GetApp(namespace_, catalog_id);
 
             AppListEntry catalog_entry = null;
             try
@@ -389,7 +390,7 @@ namespace epic_retriever
                 int catalog_id_length = 0;
 
                 // Loop for pretty print
-                foreach (EGS.AppInfos dlc in app.DlcItemList)
+                foreach (var dlc in app.DlcItemList)
                 {
                     string dlc_id;
                     Dictionary<string, AppListEntry> namespace_apps;
@@ -423,7 +424,7 @@ namespace epic_retriever
 
                 JObject dlcs = new JObject();
 
-                foreach (EGS.AppInfos dlc in app.DlcItemList)
+                foreach (var dlc in app.DlcItemList)
                 {
                     string dlc_id;
                     Dictionary<string, AppListEntry> namespace_apps;
@@ -459,7 +460,7 @@ namespace epic_retriever
                 game_infos["Namespace"] = app.Namespace;
                 game_infos["ItemId"] = app.Id;
                 game_infos["ImageUrl"] = FindBestImage(app);
-                foreach (EGS.ReleaseInfo releaseInfo in app.ReleaseInfo)
+                foreach (var releaseInfo in app.ReleaseInfo)
                 {
                     game_infos["Releases"] = JArray.FromObject(releaseInfo.Platform);
                 }
@@ -525,7 +526,7 @@ namespace epic_retriever
                 Environment.Exit(0);
             });
 
-            EGSApi = new EGS.WebApi();
+            EGSApi = new EpicKit.WebApi();
             JObject oauth_infos = new JObject();
             bool login_with_sid = false;
             bool login_with_authcode = false;

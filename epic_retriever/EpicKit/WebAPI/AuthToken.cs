@@ -1,5 +1,5 @@
 
-namespace EGS
+namespace EpicKit
 {
     class AuthToken
     {
