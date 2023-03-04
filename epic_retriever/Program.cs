@@ -170,7 +170,10 @@ namespace epic_retriever
                 //SaveAppAsset();
 
                 app = await EGSApi.GetGameInfos(namespace_, catalog_item_id);
-                SaveAppInfos(app);
+                if (app != null)
+                {
+                    SaveAppInfos(app);
+                }
             }
             //else
             //{
@@ -223,21 +226,20 @@ namespace epic_retriever
             return result;
         }
 
-        static void SaveGameInfos(JObject game_infos)
+        static void SaveGameInfos(AppInfoModel game_infos)
         {
             try
             {
-                string app_id = (string)game_infos["AppId"];
-                string infos_path = Path.Combine(OutputDir, (string)game_infos["Namespace"], app_id);
+                string infos_path = Path.Combine(OutputDir, game_infos.Namespace, game_infos.AppId);
                 if (!Directory.Exists(infos_path))
                     Directory.CreateDirectory(infos_path);
 
-                string image_path = Path.Combine(infos_path, app_id + "_background.jpg");
+                string image_path = Path.Combine(infos_path, game_infos.AppId + "_background.jpg");
                 if (DownloadImages && !File.Exists(image_path))
                 {
                     try
                     {
-                        Uri uri = new Uri((string)game_infos["ImageUrl"]);
+                        Uri uri = new Uri(game_infos.ImageUrl);
 
                         WebClient wcli = new WebClient();
 
@@ -253,10 +255,10 @@ namespace epic_retriever
                     }
                 }
 
-                infos_path = Path.Combine(infos_path, app_id + ".json");
+                infos_path = Path.Combine(infos_path, game_infos.AppId + ".json");
                 using (StreamWriter writer = new StreamWriter(new FileStream(infos_path, FileMode.Create), new UTF8Encoding(false)))
                 {
-                    writer.Write(game_infos.ToString());
+                    writer.Write(JsonConvert.SerializeObject(game_infos, Formatting.Indented));
                 }
             }
             catch (Exception e)
@@ -382,6 +384,7 @@ namespace epic_retriever
 
             if (app != null && !app.IsDlc && (app.ReleaseInfo.Count > 0 || catalog_entry.Asset != null))
             {
+                var game_infos = new AppInfoModel();
                 string app_id = catalog_entry.Asset != null ? catalog_entry.Asset.AppName : app.ReleaseInfo[0].AppId;
                 Console.WriteLine("App {0}, AppId {1}, Namespace {2}, ItemId {3}", app.Title, app_id, app.Namespace, app.Id);
                 int title_length = 0;
@@ -422,7 +425,7 @@ namespace epic_retriever
                         catalog_id_length = dlc.Id.Length;
                 }
 
-                JObject dlcs = new JObject();
+                game_infos.Dlcs = new SortedDictionary<string, DlcInfoModel>();
 
                 foreach (var dlc in app.DlcItemList)
                 {
@@ -447,24 +450,25 @@ namespace epic_retriever
                     }
                     Console.WriteLine($"   Dlc {{0, -{title_length}}}, DlcId {{1, -{id_length}}}, Namespace {{2, -{namespace_length}}}, ItemId {{3, -{catalog_id_length}}}", dlc.Title, dlc_id, dlc.Namespace, dlc.Id);
 
-                    dlcs[dlc_id] = new JObject();
-                    dlcs[dlc_id]["Name"] = dlc.Title;
-                    dlcs[dlc_id]["ItemId"] = dlc.Id;
+                    game_infos.Dlcs[dlc_id] = new DlcInfoModel
+                    {
+                        Name = dlc.Title,
+                        ItemId = dlc.Id
+                    };
                 }
 
                 Console.WriteLine();
 
-                JObject game_infos = new JObject();
-                game_infos["Name"] = app.Title;
-                game_infos["AppId"] = app.ReleaseInfo[0].AppId;
-                game_infos["Namespace"] = app.Namespace;
-                game_infos["ItemId"] = app.Id;
-                game_infos["ImageUrl"] = FindBestImage(app);
+                game_infos.Name = app.Title;
+                game_infos.AppId = app.ReleaseInfo[0].AppId;
+                game_infos.Namespace = app.Namespace;
+                game_infos.ItemId = app.Id;
+                game_infos.ImageUrl = FindBestImage(app);
+                game_infos.Releases = new List<string>();
                 foreach (var releaseInfo in app.ReleaseInfo)
                 {
-                    game_infos["Releases"] = JArray.FromObject(releaseInfo.Platform);
+                    game_infos.Releases.AddRange(releaseInfo.Platform);
                 }
-                game_infos["Dlcs"] = dlcs;
 
                 SaveGameInfos(game_infos);
             }
