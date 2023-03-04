@@ -1,11 +1,8 @@
-
-using System;
-using System.Collections.Generic;
 using Newtonsoft.Json;
 
-namespace EGS
+namespace EpicKit.WebAPI.Models
 {
-    class ReleaseInfo
+    public class ReleaseInfo
     {
         [JsonProperty(PropertyName = "id")]
         public string Id { get; set; }

@@ -1,10 +1,9 @@
-
 using Newtonsoft.Json;
 using System;
 
-namespace EGS
+namespace EpicKit.WebAPI.Models
 {
-    class KeyImage
+    public class KeyImage
     {
         [JsonProperty(PropertyName = "type")]
         public string Type { get; set; }

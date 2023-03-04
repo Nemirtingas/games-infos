@@ -1,9 +1,8 @@
-
 using Newtonsoft.Json;
 
-namespace EGS
+namespace EpicKit.WebAPI.Models
 {
-    class Category
+    public class Category
     {
         [JsonProperty(PropertyName = "path")]
         public string Path { get; set; }

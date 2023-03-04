@@ -1,23 +1,13 @@
-using CommandLine;
+using EpicKit.WebAPI.Models;
 using Newtonsoft.Json.Linq;
-using System;
-using System.Collections.Generic;
 using System.Globalization;
-using System.IO;
-using System.Linq;
 using System.Net;
-using System.Net.Http;
-using System.Net.Http.Json;
-using System.Reflection.Emit;
 using System.Security.Cryptography;
 using System.Text;
-using System.Threading;
-using System.Threading.Tasks;
-using System.Xml.Linq;
 
-namespace EGS
+namespace EpicKit
 {
-    class WebApi : IDisposable
+    public class WebApi : IDisposable
     {
         CookieContainer _WebCookies;
         CookieContainer _UnauthWebCookies;
@@ -708,7 +698,7 @@ namespace EGS
             return result;
         }
 
-        public async Task<List<Entitlement>> GetUserEntitlements(uint start = 0, uint count = 5000)
+        public async Task<List<EntitlementModel>> GetUserEntitlements(uint start = 0, uint count = 5000)
         {
             if (!_LoggedIn)
                 throw new WebApiException("User is not logged in.", WebApiException.NotLoggedIn);
@@ -728,10 +718,10 @@ namespace EGS
                     { "Authorization", $"bearer {(string)_OAuthInfos["access_token"]}" },
                 }));
 
-                List<Entitlement> entitlements = new List<Entitlement>();
+                List<EntitlementModel> entitlements = new List<EntitlementModel>();
                 foreach (JObject entitlement in response)
                 {
-                    entitlements.Add(entitlement.ToObject<EGS.Entitlement>());
+                    entitlements.Add(entitlement.ToObject<EntitlementModel>());
                 }
 
                 return entitlements;

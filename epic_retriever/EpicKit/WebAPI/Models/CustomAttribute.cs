@@ -1,9 +1,8 @@
-
 using Newtonsoft.Json;
 
-namespace EGS
+namespace EpicKit.WebAPI.Models
 {
-    class CustomAttribute
+    public class CustomAttribute
     {
         [JsonProperty(PropertyName = "type")]
         public string Type;

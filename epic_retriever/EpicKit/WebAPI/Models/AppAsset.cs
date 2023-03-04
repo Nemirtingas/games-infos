@@ -1,9 +1,8 @@
-
 using Newtonsoft.Json;
 
-namespace EGS
+namespace EpicKit.WebAPI.Models
 {
-    class AppAsset
+    public class AppAsset
     {
         [JsonProperty(PropertyName = "appName")]
         public string AppName { get; set; }
