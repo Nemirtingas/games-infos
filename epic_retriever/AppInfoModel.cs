@@ -5,7 +5,7 @@ namespace epic_retriever
     internal class DlcInfoModel
     {
         public string Name { get; set; }
-        public string ItemId { get; set; }
+        public string EntitlementId { get; set; }
     }
 
     internal class AppInfoModel
