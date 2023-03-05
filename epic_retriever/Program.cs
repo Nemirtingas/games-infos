@@ -453,7 +453,7 @@ namespace epic_retriever
                     game_infos.Dlcs[dlc_id] = new DlcInfoModel
                     {
                         Name = dlc.Title,
-                        ItemId = dlc.Id
+                        EntitlementId = dlc.Id
                     };
                 }
 
