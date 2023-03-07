@@ -467,7 +467,13 @@ namespace epic_retriever
                 game_infos.Releases = new List<string>();
                 foreach (var releaseInfo in app.ReleaseInfo)
                 {
-                    game_infos.Releases.AddRange(releaseInfo.Platform);
+                    foreach(var pf in releaseInfo.Platform)
+                    {
+                        if (!game_infos.Releases.Contains(pf))
+                        {
+                            game_infos.Releases.Add(pf);
+                        }
+                    }
                 }
 
                 SaveGameInfos(game_infos);
