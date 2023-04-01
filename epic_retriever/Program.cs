@@ -425,36 +425,20 @@ namespace epic_retriever
                         catalog_id_length = dlc.Id.Length;
                 }
 
-                game_infos.Dlcs = new SortedDictionary<string, DlcInfoModel>();
+                game_infos.Dlcs = new List<DlcInfoModel>();
 
                 foreach (var dlc in app.DlcItemList)
                 {
-                    string dlc_id;
                     Dictionary<string, AppListEntry> namespace_apps;
                     AppListEntry dlc_meta;
 
-                    if (app_list.Namespaces.TryGetValue(dlc.Namespace, out namespace_apps) && namespace_apps.TryGetValue(dlc.Id, out dlc_meta) && dlc_meta != null && dlc_meta.Asset != null)
-                    {
-                        dlc_id = dlc_meta.Asset.AppName;
-                    }
-                    else
-                    {
-                        if (dlc.ReleaseInfo.Count > 0)
-                        {
-                            dlc_id = dlc.ReleaseInfo[0].AppId;
-                        }
-                        else
-                        {
-                            dlc_id = dlc.Title;
-                        }
-                    }
-                    Console.WriteLine($"   Dlc {{0, -{title_length}}}, DlcId {{1, -{id_length}}}, Namespace {{2, -{namespace_length}}}, ItemId {{3, -{catalog_id_length}}}", dlc.Title, dlc_id, dlc.Namespace, dlc.Id);
+                    Console.WriteLine($"   Dlc {{0, -{title_length}}}, Namespace {{1, -{namespace_length}}}, ItemId {{2, -{catalog_id_length}}}", dlc.Title, dlc.Namespace, dlc.Id);
 
-                    game_infos.Dlcs[dlc_id] = new DlcInfoModel
+                    game_infos.Dlcs.Add(new DlcInfoModel
                     {
                         Name = dlc.Title,
                         EntitlementId = dlc.Id
-                    };
+                    });
                 }
 
                 Console.WriteLine();

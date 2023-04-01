@@ -16,6 +16,6 @@ namespace epic_retriever
         public string ItemId { get; set; }
         public string ImageUrl { get; set; }
         public List<string> Releases { get; set; }
-        public SortedDictionary<string, DlcInfoModel> Dlcs { get; set; }
+        public List<DlcInfoModel> Dlcs { get; set; }
     }
 }
