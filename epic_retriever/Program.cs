@@ -7,6 +7,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Net;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace epic_retriever
@@ -504,6 +505,38 @@ namespace epic_retriever
             Console.WriteLine("Will now try to login with SID...");
             Console.WriteLine("EGL sid (get it at: https://www.epicgames.com/id/login?redirectUrl=https://www.epicgames.com/id/api/redirect): ");
             return await EGSApi.LoginSID(Console.ReadLine().Trim());
+        }
+
+        static async Task<string> GetGameConnectionToken(string deployement_id, string user_id, string password)
+        {
+            try
+            {
+                return await EGSApi.GetAppRefreshTokenFromExchangeCode(await EGSApi.GetAppExchangeCode(), deployement_id, user_id, password);
+            }
+            catch (EpicKit.WebApiOAuthScopeConsentRequiredException ex)
+            {
+                int retries = 0;
+                while (true)
+                {
+                    try
+                    {
+                        return await EGSApi.RunContinuationToken(ex.ContinuationToken, deployement_id, user_id, password);
+                    }
+                    catch (Exception)
+                    {
+                        if (retries == 0)
+                        {
+                            var url = $"https://www.epicgames.com/id/authorize?continuation={ex.ContinuationToken}&client_id={user_id}&scope=openid%20basic_profile%20friends_list%20presence&prompt=skip_merge%20skip_upgrade";
+                            Console.WriteLine($"Consent is required, please head to '{url}'.");
+                        }
+                        ++retries;
+                        if (retries == 30)
+                            return null;
+
+                        Thread.Sleep(TimeSpan.FromSeconds(2));
+                    }
+                }
+            }
         }
 
         static async Task AsyncMain(string[] args)
