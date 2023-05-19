@@ -8,7 +8,7 @@ using System.Runtime.Serialization;
 
 namespace EpicKit
 {
-    class WebApiException : Exception
+    public class WebApiException : Exception
     {
         public const int InvalidData = -6;
         public const int NotLoggedIn = -5;
@@ -156,5 +156,23 @@ namespace EpicKit
             if (err != null)
                 throw err;
         }
+    }
+
+    public class WebApiOAuthScopeConsentRequiredException : WebApiException
+    {
+        public string ContinuationToken { get; set; }
+
+        public WebApiOAuthScopeConsentRequiredException() : base()
+        { }
+
+        public WebApiOAuthScopeConsentRequiredException(string message) : base(message, WebApiException.OAuthScopeConsentRequired)
+        {
+        }
+
+        public WebApiOAuthScopeConsentRequiredException(string message, Exception innerException) : base(message, innerException)
+        { }
+
+        protected WebApiOAuthScopeConsentRequiredException(SerializationInfo info, StreamingContext context) : base(info, context)
+        { }
     }
 }

@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace EpicKit
 {
-    class GameConnection : IDisposable
+    public class GameConnection : IDisposable
     {
         HttpClient _WebHttpClient;
 
@@ -160,7 +160,7 @@ namespace EpicKit
                 }));
 
                 if (_Json1.ContainsKey("errorCode"))
-                    WebApiException.BuildErrorFromJson(_Json3);
+                    WebApiException.BuildErrorFromJson(_Json1);
 
                 switch (token.Type)
                 {
