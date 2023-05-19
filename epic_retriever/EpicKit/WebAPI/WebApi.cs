@@ -464,7 +464,7 @@ namespace EpicKit
 
             //JArray scope = new JArray { "basic_profile", "friend_list", "presence" };
             JArray scope = new JArray { "openid" };
-
+            JObject response;
             try
             {
                 Uri uri = new Uri($"https://{Shared.EGS_DEV_HOST}/epic/oauth/v1/token");
@@ -477,37 +477,33 @@ namespace EpicKit
                     new KeyValuePair<string, string>( "deployment_id", deployement_id ),
                 });
 
-                JObject response = JObject.Parse(await Shared.WebRunPost(_WebHttpClient, uri, content, new Dictionary<string, string>
+                response = JObject.Parse(await Shared.WebRunPost(_WebHttpClient, uri, content, new Dictionary<string, string>
                 {
                     { "Authorization", string.Format("Basic {0}", Convert.ToBase64String(Encoding.UTF8.GetBytes($"{user_id}:{password}"))) },
                 }));
-
-                if (response.ContainsKey("errorCode"))
-                {
-                    try
-                    {
-                        WebApiException.BuildErrorFromJson(response);
-                    }
-                    catch(WebApiException e)
-                    {
-                        if (response.ContainsKey("continuation") && e.ErrorCode == WebApiException.OAuthScopeConsentRequired)
-                        {
-                            var ex = new WebApiException((string)response["continuation"], WebApiException.OAuthScopeConsentRequired);
-                            throw ex;
-                        }
-
-                        throw;
-                    }
-                }
-
-                return (string)response["refresh_token"];
             }
             catch (Exception e)
             {
                 WebApiException.BuildExceptionFromWebException(e);
+                return null;
             }
 
-            return null;
+            if (response.ContainsKey("errorCode"))
+            {
+                try
+                {
+                    WebApiException.BuildErrorFromJson(response);
+                }
+                catch(WebApiException e)
+                {
+                    if (response.ContainsKey("continuation") && e.ErrorCode == WebApiException.OAuthScopeConsentRequired)
+                        throw new WebApiOAuthScopeConsentRequiredException(e.Message) { ContinuationToken = (string)response["continuation"] };
+
+                    throw;
+                }
+            }
+
+            return (string)response["refresh_token"];
         }
 
         public async Task<string> RunContinuationToken(string continuation_token, string deployement_id, string user_id, string password)
