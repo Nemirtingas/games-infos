@@ -1,4 +1,6 @@
-﻿using System.Collections.Generic;
+﻿using Newtonsoft.Json;
+using Newtonsoft.Json.Converters;
+using System.Collections.Generic;
 
 namespace epic_retriever
 {
@@ -6,6 +8,9 @@ namespace epic_retriever
     {
         public string Name { get; set; }
         public string EntitlementId { get; set; }
+        public string ItemId { get; set; }
+        [JsonConverter(typeof(StringEnumConverter))]
+        public CatalogDataCatalogOfferElementOfferType? Type { get; set; }
     }
 
     internal class AppInfoModel

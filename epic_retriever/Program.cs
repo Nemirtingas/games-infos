@@ -6,6 +6,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Net;
+using System.Net.Http;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
@@ -270,9 +271,13 @@ namespace epic_retriever
 
         static async Task<AppList> DownloadAppList()
         {
-            AppList app_list = new AppList();
+            var app_list = new AppList();
 
-            WebClient wcli = new WebClient();
+            var wcli = new HttpClient(new HttpClientHandler
+            {
+                AutomaticDecompression = DecompressionMethods.All,
+            });
+            wcli.DefaultRequestHeaders.TryAddWithoutValidation("UserAgent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:98.0) Gecko/20100101 Firefox/98.0");
             string applist_path = Path.Combine(OutCacheDirectory, "applist.json");
 
             
@@ -316,10 +321,8 @@ namespace epic_retriever
             {
                 try
                 {
-                    wcli.Headers[HttpRequestHeader.UserAgent] = "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:98.0) Gecko/20100101 Firefox/98.0";
-                    var t = wcli.DownloadStringTaskAsync("https://store-content.ak.epicgames.com/api/content/productmapping");
-                    t.Wait();
-                    JObject all_namespaces = JObject.Parse(t.Result);
+                    var all_namespaces = JObject.Parse(await new StreamReader((await wcli.SendAsync(new HttpRequestMessage(HttpMethod.Get, "https://store-content.ak.epicgames.com/api/content/productmapping"))).Content.ReadAsStream()).ReadToEndAsync());
+
                     int count = 0;
                     int total = all_namespaces.Count;
                     foreach (var item in all_namespaces)
@@ -327,9 +330,8 @@ namespace epic_retriever
                         Console.WriteLine($"Getting web namespace {++count}/{total}: {item.Key}");
                         try
                         {
-                            var t2 = wcli.DownloadStringTaskAsync($"https://store-content-ipv4.ak.epicgames.com/api/en-US/content/products/{item.Value}");
-                            t2.Wait();
-                            foreach (var page in JObject.Parse(t2.Result)["pages"])
+                            var productResult = await new StreamReader((await wcli.SendAsync(new HttpRequestMessage(HttpMethod.Get, $"https://store-content-ipv4.ak.epicgames.com/api/en-US/content/products/{item.Value}"))).Content.ReadAsStream()).ReadToEndAsync();
+                            foreach (var page in JObject.Parse(productResult)["pages"])
                             {
                                 try
                                 {
@@ -366,6 +368,28 @@ namespace epic_retriever
             { }
 
             return app_list;
+        }
+
+        static async Task<CatalogModel> GetAppCatalogInfos(string namespace_)
+        {
+            try
+            {
+                var url = $"https://www.epicgames.com/graphql?query={{Catalog{{catalogOffers(namespace:\"{namespace_}\" params:{{count:500}}){{elements{{id title offerType items{{id title}}}}}}}}}}";
+                var webClient = new HttpClient(new HttpClientHandler
+                {
+                    AutomaticDecompression = DecompressionMethods.All,
+                });
+
+                using (var reader = new StreamReader((await webClient.SendAsync(new HttpRequestMessage(HttpMethod.Get, url))).Content.ReadAsStream()))
+                {
+                    return JObject.Parse(await reader.ReadToEndAsync()).ToObject<CatalogModel>();
+                }
+            }
+            catch(Exception e)
+            {
+                Console.WriteLine($"Error while getting catalog infos: {e.Message}");
+                return null;
+            }
         }
 
         static async Task GetAppInfos(string namespace_, AppList app_list, string catalog_id)
@@ -428,17 +452,20 @@ namespace epic_retriever
 
                 game_infos.Dlcs = new List<DlcInfoModel>();
 
+                var catalogModel = app.DlcItemList.Count > 0 ? await GetAppCatalogInfos(namespace_) : null;
+
                 foreach (var dlc in app.DlcItemList)
                 {
-                    Dictionary<string, AppListEntry> namespace_apps;
-                    AppListEntry dlc_meta;
-
                     Console.WriteLine($"   Dlc {{0, -{title_length}}}, Namespace {{1, -{namespace_length}}}, ItemId {{2, -{catalog_id_length}}}", dlc.Title, dlc.Namespace, dlc.Id);
+
+                    var catalogElement = catalogModel?.Data.Catalog.CatalogOffers.Elements.Find(e => e.Title == dlc.Title || e.Items.Find(i => i.Id == dlc.Id) != null);
 
                     game_infos.Dlcs.Add(new DlcInfoModel
                     {
                         Name = dlc.Title,
-                        EntitlementId = dlc.Id
+                        EntitlementId = dlc.Id,
+                        ItemId = catalogElement?.Id,
+                        Type = catalogElement?.OfferType
                     });
                 }
 
