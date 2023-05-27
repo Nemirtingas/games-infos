@@ -27,7 +27,7 @@ namespace EpicKit
             v1_7_0,
             v1_7_1,
             v1_8_0,
-            //v1_8_1,
+            v1_8_1,
             v1_9_0,
             v1_10_0,
             v1_10_1,
@@ -53,10 +53,13 @@ namespace EpicKit
         string _ApiVersion;
         string _UserAgent;
 
-        string _UserId;
-        string _Password;
-        string _DeploymentId;
+        public string _GameUserId { get; private set; }
+        public string _GamePassword { get; private set; }
+        public string _DeploymentId { get; private set; }
         string _Nonce;
+
+        public string AccountId { get; private set; }
+        public string ProductUserId { get; private set; }
 
         bool _LoggedIn;
 
@@ -72,8 +75,8 @@ namespace EpicKit
 
             _ApiVersion = string.Empty;
 
-            _UserId = string.Empty;
-            _Password = string.Empty;
+            _GameUserId = string.Empty;
+            _GamePassword = string.Empty;
             _DeploymentId = string.Empty;
             _Nonce = string.Empty;
 
@@ -101,7 +104,7 @@ namespace EpicKit
                 case ApiVersion.v1_7_0 : return "1.7.0-13812567";
                 case ApiVersion.v1_7_1 : return "1.7.1-13992660";
                 case ApiVersion.v1_8_0 : return "1.8.0-14316386";
-                //case ApiVersion.v1_8_1 : return "1.8.1-00000000";
+                case ApiVersion.v1_8_1 : return "1.8.1-14507409";
                 case ApiVersion.v1_9_0 : return "1.9.0-14547226";
                 case ApiVersion.v1_10_0: return "1.10.0-14778275";
                 case ApiVersion.v1_10_1: return "1.10.1-14934259";
@@ -139,8 +142,8 @@ namespace EpicKit
                 _ApiVersion = ApiVersionToString(api_version);
                 _UserAgent = $"EOS-SDK/{_ApiVersion} (Linux/) Unreal/1.0.0";
 
-                _UserId = user_id;
-                _Password = password;
+                _GameUserId = user_id;
+                _GamePassword = password;
                 _DeploymentId = deployement_id;
 
                 Uri auth_uri = new Uri($"https://{Shared.EGS_DEV_HOST}/auth/v1/oauth/token");
@@ -154,7 +157,7 @@ namespace EpicKit
 
                 _Json1 = JObject.Parse(await Shared.WebRunPost(_WebHttpClient, auth_uri, content, new Dictionary<string, string>
                 {
-                    { "Authorization", string.Format("Basic {0}", Convert.ToBase64String(Encoding.UTF8.GetBytes($"{_UserId}:{_Password}"))) },
+                    { "Authorization", string.Format("Basic {0}", Convert.ToBase64String(Encoding.UTF8.GetBytes($"{_GameUserId}:{_GamePassword}"))) },
                     { "User-Agent"   , _UserAgent },
                     { "X-EOS-Version", _ApiVersion },
                 }));
@@ -187,7 +190,7 @@ namespace EpicKit
 
                 _Json2 = JObject.Parse(await Shared.WebRunPost(_WebHttpClient, epic_uri, content, new Dictionary<string, string>
                 {
-                    { "Authorization", string.Format("Basic {0}", Convert.ToBase64String(Encoding.UTF8.GetBytes($"{_UserId}:{_Password}"))) },
+                    { "Authorization", string.Format("Basic {0}", Convert.ToBase64String(Encoding.UTF8.GetBytes($"{_GameUserId}:{_GamePassword}"))) },
                     { "User-Agent"   , _UserAgent },
                     { "X-EOS-Version", _ApiVersion },
                 }));
@@ -222,13 +225,16 @@ namespace EpicKit
 
                 _Json3 = JObject.Parse(await Shared.WebRunPost(_WebHttpClient, new Uri($"https://{Shared.EGS_DEV_HOST}/auth/v1/oauth/token"), content, new Dictionary<string, string>
                 {
-                    { "Authorization", string.Format("Basic {0}", Convert.ToBase64String(Encoding.UTF8.GetBytes($"{_UserId}:{_Password}"))) },
+                    { "Authorization", string.Format("Basic {0}", Convert.ToBase64String(Encoding.UTF8.GetBytes($"{_GameUserId}:{_GamePassword}"))) },
                     { "User-Agent"   , _UserAgent },
                     { "X-EOS-Version", _ApiVersion },
-                })); ;
+                }));
 
                 if(_Json3.ContainsKey("errorCode"))
                     WebApiException.BuildErrorFromJson(_Json3);
+
+                AccountId = (string)_Json2["account_id"];
+                ProductUserId = (string)_Json3["product_user_id"];
 
                 _LoggedIn = true;
             }
