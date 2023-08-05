@@ -1,12 +1,62 @@
 using EpicKit.WebAPI.Models;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Converters;
 using Newtonsoft.Json.Linq;
 using System.Globalization;
 using System.Net;
+using System.Runtime.Serialization;
 using System.Security.Cryptography;
 using System.Text;
 
 namespace EpicKit
 {
+    [JsonConverter(typeof(StringEnumConverter))]
+    public enum AuthorizationScopes
+    {
+        [EnumMember(Value = "basic_profile")]
+        BasicProfile,
+        [EnumMember(Value = "openid")]
+        OpenId,
+        [EnumMember(Value = "friends_list")]
+        FriendsList,
+        [EnumMember(Value = "presence")]
+        Presence,
+        [EnumMember(Value = "offline_access")]
+        OfflineAccess,
+        [EnumMember(Value = "friends_management")]
+        FriendsManagement,
+        [EnumMember(Value = "library")]
+        Library,
+        [EnumMember(Value = "country")]
+        Country,
+        [EnumMember(Value = "relevant_cosmetics")]
+        RelevantCosmetics
+    }
+
+    public static class AuthorizationScopesExtensions
+    {
+        public static string ToApiString(this AuthorizationScopes scope)
+        {
+            try
+            {
+                var enumType = typeof(AuthorizationScopes);
+                var memberInfos = enumType.GetMember(scope.ToString());
+                var enumValueMemberInfo = memberInfos.FirstOrDefault(m => m.DeclaringType == enumType);
+                var valueAttributes = enumValueMemberInfo.GetCustomAttributes(typeof(EnumMemberAttribute), false);
+                return ((EnumMemberAttribute)valueAttributes[0]).Value;
+            }
+            catch
+            {
+                return scope.ToString();
+            }
+        }
+
+        public static string JoinWithValue(this AuthorizationScopes[] scopes, string separator)
+        {
+            return string.Join(separator, scopes.Select(scope => scope.ToApiString()));
+        }
+    }
+
     public class WebApi : IDisposable
     {
         CookieContainer _WebCookies;
@@ -421,7 +471,7 @@ namespace EpicKit
         //                          timeout=self.request_timeout)
         //    r.raise_for_status()
         //    return r.json()
-        public async Task<string> GetAppExchangeCode()
+        public async Task<string> GetAppExchangeCodeAsync()
         {
             if (!_LoggedIn)
                 throw new WebApiException("User is not logged in.", WebApiException.NotLoggedIn);
@@ -457,13 +507,11 @@ namespace EpicKit
         /// <param name="user_id">Application ClientId.</param>
         /// <param name="password">Application ClientSecret.</param>
         /// <returns></returns>
-        public async Task<string> GetAppRefreshTokenFromExchangeCode(string exchange_code, string deployement_id, string user_id, string password)
+        public async Task<string> GetAppRefreshTokenFromExchangeCode(string exchange_code, string deployement_id, string user_id, string password, AuthorizationScopes[] scopes )
         {
             if (!_LoggedIn)
                 throw new WebApiException("User is not logged in.", WebApiException.NotLoggedIn);
 
-            //JArray scope = new JArray { "basic_profile", "friend_list", "presence" };
-            JArray scope = new JArray { "openid" };
             JObject response;
             try
             {
@@ -473,7 +521,7 @@ namespace EpicKit
                 {
                     new KeyValuePair<string, string>( "grant_type", "exchange_code" ),
                     new KeyValuePair<string, string>( "exchange_code", exchange_code ),
-                    new KeyValuePair<string, string>( "scope", string.Join(" ", scope) ),
+                    new KeyValuePair<string, string>( "scope", scopes.JoinWithValue(" ") ),
                     new KeyValuePair<string, string>( "deployment_id", deployement_id ),
                 });
 
