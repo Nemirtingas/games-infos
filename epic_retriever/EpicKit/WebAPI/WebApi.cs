@@ -817,5 +817,27 @@ namespace EpicKit
 
             return null;
         }
+
+        public async Task<JObject> GetDefaultApiEndpointsAsync(string platformId = "LNX")
+        {
+            var request = new HttpRequestMessage(HttpMethod.Get, $"https://{Shared.EGS_DEV_HOST}/sdk/v1/default?platformId={platformId}");
+
+            var t = await (await _UnauthWebHttpClient.SendAsync(request, HttpCompletionOption.ResponseContentRead)).Content.ReadAsStringAsync();
+            if (t.Contains("errorCode"))
+                EpicKit.WebApiException.BuildErrorFromJson(JObject.Parse(t));
+
+            return JObject.Parse(t);
+        }
+
+        //public async Task<JObject> GetProductApiEndpointsAsync(string productId, string deployementId, string platformId = "LNX")
+        //{
+        //    var request = new HttpRequestMessage(HttpMethod.Get, $"https://{Shared.EGS_DEV_HOST}/sdk/v1/product/{productId}?platformId={platformId}&deploymentId={deployementId}");
+        //
+        //    var t = await (await _WebHttpClient.SendAsync(request, HttpCompletionOption.ResponseContentRead)).Content.ReadAsStringAsync();
+        //    if (t.Contains("errorCode"))
+        //        EpicKit.WebApiException.BuildErrorFromJson(JObject.Parse(t));
+        //
+        //    return JObject.Parse(t);
+        //}
     }
 }
