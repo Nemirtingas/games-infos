@@ -5,8 +5,10 @@ using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 using System.Net;
 using System.Net.Http;
+using System.Net.Http.Headers;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
@@ -15,7 +17,7 @@ namespace epic_retriever
 {
     public class Options
     {
-        [Option('i', "download_images", Required = false, HelpText = "Sets the flag to download games image. Images will not be downloaded if this flag is not specified.")]
+        [Option('i', "download_images", Required = false, HelpText = "Sets the flag to download games image. Images will not be downloaded if this flag is not set.")]
         public bool DownloadImages { get; set; } = false;
 
         [Option('f', "force", Required = false, HelpText = "Force to download game's infos (usefull if you want to refresh a game).")]
@@ -228,11 +230,21 @@ namespace epic_retriever
             return result;
         }
 
-        static void SaveGameInfos(AppInfoModel game_infos)
+        static string BuildSaveGameInfosDirectoryPath(AppInfoModel game_infos)
+        {
+            return Path.Combine(OutputDir, game_infos.Namespace, game_infos.AppId);
+        }
+
+        static string BuildSaveGameInfosPath(AppInfoModel game_infos)
+        {
+            return Path.Combine(BuildSaveGameInfosDirectoryPath(game_infos), game_infos.AppId + ".json");
+        }
+
+        static void SaveGameInfos(AppInfoModel game_infos, bool merge_existing_infos)
         {
             try
             {
-                string infos_path = Path.Combine(OutputDir, game_infos.Namespace, game_infos.AppId);
+                string infos_path = BuildSaveGameInfosDirectoryPath(game_infos);
                 if (!Directory.Exists(infos_path))
                     Directory.CreateDirectory(infos_path);
 
@@ -257,7 +269,8 @@ namespace epic_retriever
                     }
                 }
 
-                infos_path = Path.Combine(infos_path, game_infos.AppId + ".json");
+                infos_path = BuildSaveGameInfosPath(game_infos);
+
                 using (StreamWriter writer = new StreamWriter(new FileStream(infos_path, FileMode.Create), new UTF8Encoding(false)))
                 {
                     writer.Write(JsonConvert.SerializeObject(game_infos, Formatting.Indented));
@@ -451,32 +464,60 @@ namespace epic_retriever
                 }
 
                 game_infos.Dlcs = new List<DlcInfoModel>();
-
-                var catalogModel = app.DlcItemList.Count > 0 ? await GetAppCatalogInfos(namespace_) : null;
-
-                foreach (var dlc in app.DlcItemList)
-                {
-                    Console.WriteLine($"   Dlc {{0, -{title_length}}}, Namespace {{1, -{namespace_length}}}, ItemId {{2, -{catalog_id_length}}}", dlc.Title, dlc.Namespace, dlc.Id);
-
-                    var catalogElement = catalogModel?.Data.Catalog.CatalogOffers.Elements.Find(e => e.Title == dlc.Title || e.Items.Find(i => i.Id == dlc.Id) != null);
-
-                    game_infos.Dlcs.Add(new DlcInfoModel
-                    {
-                        Name = dlc.Title,
-                        EntitlementId = dlc.Id,
-                        ItemId = catalogElement?.Id,
-                        Type = catalogElement?.OfferType
-                    });
-                }
-
-                Console.WriteLine();
-
                 game_infos.Name = app.Title;
                 game_infos.AppId = app.ReleaseInfo[0].AppId;
                 game_infos.Namespace = app.Namespace;
                 game_infos.ItemId = app.Id;
                 game_infos.ImageUrl = FindBestImage(app);
                 game_infos.Releases = new List<string>();
+
+                if (app.DlcItemList.Count > 0)
+                {
+                    var catalogModel = await GetAppCatalogInfos(namespace_);
+
+                    foreach (var dlc in app.DlcItemList)
+                    {
+                        Console.WriteLine($"   Dlc {{0, -{title_length}}}, Namespace {{1, -{namespace_length}}}, ItemId {{2, -{catalog_id_length}}}", dlc.Title, dlc.Namespace, dlc.Id);
+
+                        var catalogElement = catalogModel?.Data.Catalog.CatalogOffers.Elements.Find(e => e.Title == dlc.Title || e.Items.Find(i => i.Id == dlc.Id) != null);
+
+                        game_infos.Dlcs.Add(new DlcInfoModel
+                        {
+                            Name = dlc.Title,
+                            EntitlementId = dlc.Id,
+                            ItemId = catalogElement?.Id,
+                            Type = catalogElement?.OfferType
+                        });
+                    }
+
+                    var existing_infos = default(AppInfoModel);
+                    try
+                    {
+                        var infos_path = BuildSaveGameInfosPath(game_infos);
+
+                        using (var sr = new StreamReader(new FileStream(infos_path, FileMode.Open), new UTF8Encoding(false)))
+                        {
+                            existing_infos = JObject.Parse(await sr.ReadToEndAsync()).ToObject<AppInfoModel>();
+                        }
+                        foreach (var dlc in game_infos.Dlcs)
+                        {
+                            if (dlc.Type == null || dlc.ItemId == null)
+                            {
+                                var existing_dlc = existing_infos.Dlcs.Find(e => e.EntitlementId == dlc.EntitlementId);
+                                if (existing_dlc != null)
+                                {
+                                    dlc.Type = existing_dlc.Type;
+                                    dlc.ItemId = existing_dlc.ItemId;
+                                }
+                            }
+                        }
+                    }
+                    catch
+                    { }
+                }
+
+                Console.WriteLine();
+
                 foreach (var releaseInfo in app.ReleaseInfo)
                 {
                     foreach(var pf in releaseInfo.Platform)
@@ -488,7 +529,7 @@ namespace epic_retriever
                     }
                 }
 
-                SaveGameInfos(game_infos);
+                SaveGameInfos(game_infos, true);
             }
         }
 
