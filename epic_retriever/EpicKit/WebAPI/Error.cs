@@ -23,6 +23,7 @@ namespace EpicKit
         public const int AccountPortalValidation = 1;
         public const int AccountPortalCsrfTokenInvalid = 2;
         public const int AccountPortalSessionIdInvalid = 3;
+        public const int AccountPortalUnauthorizedScope = 4;
         // AccountOauth
         public const int AccountOauthExchangeCodeNotFound = 18057;
         public const int AccountOauthAuthorizationCodeNotFound = 18059;
@@ -69,6 +70,7 @@ namespace EpicKit
                 case "errors.com.epicgames.accountportal.session_id_invalid": return AccountPortalSessionIdInvalid;
                 case "errors.com.epicgames.accountportal.validation": return AccountPortalValidation;
                 case "errors.com.epicgames.accountportal.csrf_token_invalid": return AccountPortalCsrfTokenInvalid;
+                case "errors.com.epicgames.accountportal.unauthorized_scope": return AccountPortalUnauthorizedScope;
 
                 case "errors.com.epicgames.account.oauth.exchange_code_not_found": return AccountOauthExchangeCodeNotFound;
                 case "errors.com.epicgames.account.oauth.authorization_code_not_found": return AccountOauthAuthorizationCodeNotFound;
@@ -105,7 +107,7 @@ namespace EpicKit
                 }
             }
 
-            err = new WebApiException(string.IsNullOrWhiteSpace(message) ? error_name : message, error_code != 0 ? ErrorCodeFromString(error_name) : err.ErrorCode = Unknown);
+            err = new WebApiException(string.IsNullOrWhiteSpace(message) ? error_name : message, error_code == 0 ? ErrorCodeFromString(error_name) : error_code);
 
             throw err;
         }
