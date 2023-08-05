@@ -575,33 +575,54 @@ namespace epic_retriever
             return await EGSApi.LoginSID(Console.ReadLine().Trim());
         }
 
-        static async Task<string> GetGameConnectionToken(string deployement_id, string user_id, string password)
+        static async Task<bool> InteractiveContinuationAsync(string continuationToken, string deployement_id, string user_id, string password)
         {
-            try
+            var endpoints = await EGSApi.GetDefaultApiEndpointsAsync();
+            var url = (string)endpoints["client"]["AuthClient"]["AuthorizeContinuationEndpoint"];
+            url = url.Replace("`continuation`", continuationToken);
+            url = url.Replace("`continuation", continuationToken);
+
+            if (url.Contains("`"))
+                throw new NotImplementedException(url);
+
+            Console.WriteLine($"Consent is required, please head to '{url}'.");
+
+            var retries = 0;
+            while (retries < 30)
             {
-                return await EGSApi.GetAppRefreshTokenFromExchangeCode(await EGSApi.GetAppExchangeCode(), deployement_id, user_id, password);
+                try
+                {
+                    await EGSApi.RunContinuationToken(continuationToken, deployement_id, user_id, password);
+                    return true;
+                }
+                catch (EpicKit.WebApiOAuthScopeConsentRequiredException)
+                {
+                    await Task.Delay(TimeSpan.FromSeconds(2));
+                }
+                ++retries;
             }
-            catch (EpicKit.WebApiOAuthScopeConsentRequiredException ex)
+
+            return false;
+        }
+
+        static async Task<string> GetGameConnectionTokenAsync(string deployement_id, string user_id, string password, EpicKit.AuthorizationScopes[] scopes)
+        {
+            while (true)
             {
-                int retries = 0;
-                while (true)
+                try
+                {
+                    return await EGSApi.GetAppRefreshTokenFromExchangeCode(await EGSApi.GetAppExchangeCodeAsync(), deployement_id, user_id, password, scopes);
+                }
+                catch (EpicKit.WebApiOAuthScopeConsentRequiredException ex)
                 {
                     try
                     {
-                        return await EGSApi.RunContinuationToken(ex.ContinuationToken, deployement_id, user_id, password);
+                        await EGSApi.RunContinuationToken(ex.ContinuationToken, deployement_id, user_id, password);
                     }
-                    catch (Exception)
+                    catch(EpicKit.WebApiOAuthScopeConsentRequiredException)
                     {
-                        if (retries == 0)
-                        {
-                            var url = $"https://www.epicgames.com/id/authorize?continuation={ex.ContinuationToken}&client_id={user_id}&scope=openid%20basic_profile%20friends_list%20presence&prompt=skip_merge%20skip_upgrade";
-                            Console.WriteLine($"Consent is required, please head to '{url}'.");
-                        }
-                        ++retries;
-                        if (retries == 30)
+                        if (!await InteractiveContinuationAsync(ex.ContinuationToken, deployement_id, user_id, password))
                             return null;
-
-                        Thread.Sleep(TimeSpan.FromSeconds(2));
                     }
                 }
             }
