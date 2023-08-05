@@ -1,14 +1,19 @@
 using Newtonsoft.Json.Linq;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Net;
-using System.Net.Http;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace EpicKit
 {
+    [Flags]
+    public enum GameFeatures : uint
+    {
+        None         = 0x00000000,
+        Achievements = 0x00000001,
+        AntiCheat    = 0x00000002,
+        Connect      = 0x00000004,
+        Ecom         = 0x00000008,
+    }
+
     public class GameConnection : IDisposable
     {
         HttpClient _WebHttpClient;
@@ -60,6 +65,8 @@ namespace EpicKit
 
         public string AccountId { get; private set; }
         public string ProductUserId { get; private set; }
+
+        public GameFeatures GameFeatures { get; private set; }
 
         bool _LoggedIn;
 
@@ -236,6 +243,19 @@ namespace EpicKit
                 AccountId = (string)_Json2["account_id"];
                 ProductUserId = (string)_Json3["product_user_id"];
 
+                if (_Json1.ContainsKey("features"))
+                {
+                    GameFeatures = GameFeatures.None;
+                    foreach (var feature in new GameFeatures[] { GameFeatures.Achievements, GameFeatures.AntiCheat, GameFeatures.Connect, GameFeatures.Ecom })
+                    {
+                        foreach (var jtoken in (JArray)_Json1["features"])
+                        {
+                            if ((string)jtoken == feature.ToString())
+                                GameFeatures |= feature;
+                        }
+                    }
+                }
+
                 _LoggedIn = true;
             }
             catch (Exception e)
@@ -249,22 +269,25 @@ namespace EpicKit
             return await Shared.RunContinuationToken(_WebHttpClient, continuation_token, deployement_id, user_id, password);
         }
 
-        public async Task GameLoginWithExchangeCode(string deployement_id, string user_id, string password, string exchange_code, ApiVersion api_version = ApiVersion.v1_15_3)
+        public async Task GameLoginWithExchangeCodeAsync(string deployement_id, string user_id, string password, string exchange_code, ApiVersion api_version = ApiVersion.v1_15_3)
         {
             await _GameLogin(deployement_id, user_id, password, new AuthToken { Token = exchange_code, Type = AuthToken.TokenType.ExchangeCode }, api_version);
         }
 
-        public async Task GameLoginWithRefreshToken(string deployement_id, string user_id, string password, string game_token, ApiVersion api_version = ApiVersion.v1_15_3)
+        public async Task GameLoginWithRefreshTokenAsync(string deployement_id, string user_id, string password, string game_token, ApiVersion api_version = ApiVersion.v1_15_3)
         {
             await _GameLogin(deployement_id, user_id, password, new AuthToken { Token = game_token, Type = AuthToken.TokenType.RefreshToken }, api_version);
         }
 
-        public async Task<JArray> GetAchievementsSchema(string locale = "")
+        public async Task<JArray> GetAchievementsSchemaAsync(string locale = "")
         {
             if (!_LoggedIn)
                 throw new WebApiException("User is not logged in.", WebApiException.NotLoggedIn);
 
             var result = new JArray();
+
+            if (!GameFeatures.HasFlag(GameFeatures.Achievements))
+                return result;
 
             try
             {
