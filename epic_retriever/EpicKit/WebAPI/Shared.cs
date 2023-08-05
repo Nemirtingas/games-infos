@@ -133,11 +133,8 @@ namespace EpicKit
                 }
                 catch (WebApiException e)
                 {
-                    if (e.ErrorCode == WebApiException.OAuthScopeConsentRequired)
-                    {
-                        var ex = new WebApiException(consent_url, WebApiException.OAuthScopeConsentRequired);
-                        throw ex;
-                    }
+                    if (response.ContainsKey("continuation") && e.ErrorCode == WebApiException.OAuthScopeConsentRequired)
+                        throw new WebApiOAuthScopeConsentRequiredException(e.Message) { ContinuationToken = (string)response["continuation"] };
 
                     throw;
                 }
