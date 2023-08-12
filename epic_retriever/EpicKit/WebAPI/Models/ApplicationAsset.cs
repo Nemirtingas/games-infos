@@ -2,7 +2,7 @@ using Newtonsoft.Json;
 
 namespace EpicKit.WebAPI.Models
 {
-    public class AppAsset
+    public class ApplicationAsset
     {
         [JsonProperty(PropertyName = "appName")]
         public string AppName { get; set; }

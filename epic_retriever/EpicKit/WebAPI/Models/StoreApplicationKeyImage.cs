@@ -3,7 +3,7 @@ using System;
 
 namespace EpicKit.WebAPI.Models
 {
-    public class KeyImage
+    public class StoreApplicationKeyImage
     {
         [JsonProperty(PropertyName = "type")]
         public string Type { get; set; }
@@ -26,7 +26,7 @@ namespace EpicKit.WebAPI.Models
         [JsonProperty(PropertyName = "uploadedDate")]
         public DateTime UploadedDate { get; set; }
 
-        public KeyImage()
+        public StoreApplicationKeyImage()
         {
             Reset();
         }

@@ -56,7 +56,7 @@ namespace epic_retriever
     class AppListEntry
     {
         [JsonIgnore]
-        public AppAsset Asset { get; set; }
+        public ApplicationAsset Asset { get; set; }
     }
 
     class AppList
@@ -76,7 +76,7 @@ namespace epic_retriever
 
         static EpicKit.WebApi EGSApi;
 
-        static void SaveAppAsset(AppAsset asset)
+        static void SaveAppAsset(ApplicationAsset asset)
         {
             if (asset == null)
                 return;
@@ -100,7 +100,7 @@ namespace epic_retriever
             }
         }
 
-        static void SaveAppInfos(AppInfos app)
+        static void SaveAppInfos(StoreApplicationInfos app)
         {
             try
             {
@@ -121,7 +121,7 @@ namespace epic_retriever
             }
         }
 
-        static bool CachedDatasChanged(AppAsset asset)
+        static bool CachedDatasChanged(ApplicationAsset asset)
         {
             if (ProgramOptions.Force || asset == null)
                 return true;
@@ -144,24 +144,24 @@ namespace epic_retriever
             }
         }
 
-        static AppInfos GetCachedAppInfos(string namespace_, string catalog_item_id)
+        static StoreApplicationInfos GetCachedAppInfos(string namespace_, string catalog_item_id)
         {
-            AppInfos app = new AppInfos();
+            StoreApplicationInfos app = new StoreApplicationInfos();
             string app_infos_path = Path.Combine(ProgramOptions.OutCacheDirectory, "app_infos", namespace_, catalog_item_id + ".json");
             if (!File.Exists(app_infos_path))
                 return app;
 
             using (StreamReader reader = new StreamReader(new FileStream(app_infos_path, FileMode.Open), Encoding.UTF8))
             {
-                app = JObject.Parse(reader.ReadToEnd()).ToObject<AppInfos>();
+                app = JObject.Parse(reader.ReadToEnd()).ToObject<StoreApplicationInfos>();
             }
 
             return app;
         }
 
-        static async Task<AppInfos> GetApp(string namespace_, string catalog_item_id)
+        static async Task<StoreApplicationInfos> GetApp(string namespace_, string catalog_item_id)
         {
-            AppInfos app = null;
+            StoreApplicationInfos app = null;
 
             //if (CachedDatasChanged())
             {
@@ -181,11 +181,11 @@ namespace epic_retriever
             return app;
         }
 
-        static string FindBestImage(AppInfos app)
+        static string FindBestImage(StoreApplicationInfos app)
         {
             string result = string.Empty;
             int best_match = 0;
-            foreach (KeyImage img in app.KeyImages)
+            foreach (StoreApplicationKeyImage img in app.KeyImages)
             {
                 if (img.Type == "DieselGameBox")
                 {
@@ -315,7 +315,7 @@ namespace epic_retriever
             app_list.Version = 1;
 
             Console.WriteLine("Downloading assets...");
-            var assets = await EGSApi.GetGamesAssets();
+            var assets = await EGSApi.GetApplicationsAssets();
             foreach (var asset in assets)
             {
                 AppListEntry entry;
@@ -604,7 +604,7 @@ namespace epic_retriever
             return false;
         }
 
-        static async Task AutoContinuationAsync(string deployement_id, string user_id, string password, string continuationToken, EpicKit.AuthorizationScopes[] scopes)
+        static async Task AutoContinuationAsync(string deployement_id, string user_id, string password, string continuationToken, EpicKit.WebAPI.AuthorizationScopes[] scopes)
         {
             var endpoints = await EGSApi.GetDefaultApiEndpointsAsync();
 
@@ -685,6 +685,11 @@ namespace epic_retriever
             if (t.Contains("errorCode"))
                 EpicKit.WebApiException.BuildErrorFromJson(JObject.Parse(t));
 
+            if (scopes == null || scopes.Length <= 0)
+            {
+                scopes = (await EGSApi.GetApplicationInfosAsync(user_id)).AllowedScopes.ToArray();
+            }
+
             postJsonContent = JsonConvert.SerializeObject(new JObject
             {
                 { "scope", JArray.FromObject(scopes) },
@@ -704,7 +709,7 @@ namespace epic_retriever
                 EpicKit.WebApiException.BuildErrorFromJson(JObject.Parse(t));
         }
 
-        static async Task<string> GetGameConnectionTokenAsync(string deployement_id, string user_id, string password, EpicKit.AuthorizationScopes[] scopes, bool autoAcceptScopes = true)
+        static async Task<string> GetGameConnectionTokenAsync(string deployement_id, string user_id, string password, EpicKit.WebAPI.AuthorizationScopes[] scopes, bool autoAcceptScopes = true)
         {
             while (true)
             {

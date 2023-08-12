@@ -2,7 +2,7 @@ using Newtonsoft.Json;
 
 namespace EpicKit.WebAPI.Models
 {
-    public class ReleaseInfo
+    public class StoreApplicationReleaseInfo
     {
         [JsonProperty(PropertyName = "id")]
         public string Id { get; set; }
@@ -16,7 +16,7 @@ namespace EpicKit.WebAPI.Models
         [JsonProperty(PropertyName = "dateAdded")]
         public DateTime DateAdded { get; set; }
 
-        public ReleaseInfo()
+        public StoreApplicationReleaseInfo()
         {
             Reset();
         }
