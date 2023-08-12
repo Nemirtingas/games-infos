@@ -4,40 +4,26 @@ namespace EpicKit.Manifest
 {
     class Deserializer
     {
-        public static byte ReadByte(BinaryReader reader)
-        {
-            return reader.ReadByte();
-        }
+        public static byte ReadByte(BinaryReader reader) =>
+            reader.ReadByte();
 
-        public static short ReadShort(BinaryReader reader)
-        {
-            return reader.ReadInt16();
-        }
+        public static short ReadShort(BinaryReader reader) =>
+            reader.ReadInt16();
 
-        public static int ReadInt(BinaryReader reader)
-        {
-            return reader.ReadInt32();
-        }
+        public static int ReadInt(BinaryReader reader) =>
+            reader.ReadInt32();
 
-        public static long ReadStream(BinaryReader reader)
-        {
-            return reader.ReadInt64();
-        }
+        public static long ReadLong(BinaryReader reader) =>
+            reader.ReadInt64();
 
-        public static ushort ReadUShort(BinaryReader reader)
-        {
-            return reader.ReadUInt16();
-        }
+        public static ushort ReadUShort(BinaryReader reader) =>
+            reader.ReadUInt16();
 
-        public static uint ReadUInt(BinaryReader reader)
-        {
-            return reader.ReadUInt32();
-        }
+        public static uint ReadUInt(BinaryReader reader) =>
+            reader.ReadUInt32();
 
-        public static ulong ReadULong(BinaryReader reader)
-        {
-            return reader.ReadUInt64();
-        }
+        public static ulong ReadULong(BinaryReader reader) =>
+            reader.ReadUInt64();
 
         public static string ReadString(BinaryReader reader)
         {
@@ -67,10 +53,8 @@ namespace EpicKit.Manifest
             return v;
         }
 
-        public static byte[] ReadBytes(BinaryReader reader, int size)
-        {
-            return reader.ReadBytes(size);
-        }
+        public static byte[] ReadBytes(BinaryReader reader, int size) =>
+            reader.ReadBytes(size);
 
         private static IEnumerable<string> StringByteBlob(string s, int partLength)
         {

@@ -344,7 +344,7 @@ namespace EpicKit
             return null;
         }
 
-        public async Task Logout()
+        public Task Logout()
         {
             if (_LoggedIn)
             {
@@ -352,7 +352,7 @@ namespace EpicKit
                 {
                     Uri uri = new Uri($"https://{Shared.EGS_OAUTH_HOST}/account/api/oauth/sessions/kill/{(string)_OAuthInfos["access_token"]}");
 
-                    await _WebHttpClient.DeleteAsync(uri);
+                    return _WebHttpClient.DeleteAsync(uri);
                 }
                 catch (Exception e)
                 {
@@ -361,6 +361,8 @@ namespace EpicKit
 
                 _ResetOAuth();
             }
+
+            return Task.CompletedTask;
         }
 
         public async Task<string> GetArtifactServiceTicket(string sandbox_id, string artifact_id, string label = "Live", string platform = "Windows")
@@ -547,15 +549,11 @@ namespace EpicKit
             }
         }
 
-        public string GetGameExchangeCodeCommandLine(string exchange_code, string appid)
-        {
-            return _GetGameCommandLine(new AuthToken { Token = exchange_code, Type = AuthToken.TokenType.ExchangeCode }, appid);
-        }
+        public string GetGameExchangeCodeCommandLine(string exchange_code, string appid) =>
+            _GetGameCommandLine(new AuthToken { Token = exchange_code, Type = AuthToken.TokenType.ExchangeCode }, appid);
 
-        public string GetGameTokenCommandLine(string refresh_token, string appid)
-        {
-            return _GetGameCommandLine(new AuthToken { Token = refresh_token, Type = AuthToken.TokenType.RefreshToken }, appid);
-        }
+        public string GetGameTokenCommandLine(string refresh_token, string appid) =>
+            _GetGameCommandLine(new AuthToken { Token = refresh_token, Type = AuthToken.TokenType.RefreshToken }, appid);
 
         public async Task<List<ApplicationAsset>> GetApplicationsAssets(string platform = "Windows", string label = "Live")
         {

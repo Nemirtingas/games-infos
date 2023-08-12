@@ -22,7 +22,7 @@ namespace EpicKit.Manifest
         {
             var memStream = default(MemoryStream);
 
-            if ((store_flags & Manifest.ManifestStoreFlags.Deflate) == Manifest.ManifestStoreFlags.Deflate)
+            if (store_flags.HasFlag(Manifest.ManifestStoreFlags.Deflate))
             {
                 memStream = new MemoryStream();
                 var pos = stream.Position;
@@ -56,7 +56,7 @@ namespace EpicKit.Manifest
         {
             MemoryStream data_stream = StreamReadToEnd(stream);
 
-            if ((store_flags & Manifest.ManifestStoreFlags.Deflate) == Manifest.ManifestStoreFlags.Deflate)
+            if (store_flags.HasFlag(Manifest.ManifestStoreFlags.Deflate))
             {
                 using (MemoryStream tmp_ms = data_stream)
                 {

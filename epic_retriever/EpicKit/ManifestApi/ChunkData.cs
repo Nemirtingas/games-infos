@@ -23,7 +23,7 @@ namespace EpicKit.Manifest
 
         public byte[] Data { get; private set; } = new byte[0];
 
-        public bool IsValid { get => Magic == DataChunkMagic; }
+        public bool IsValid => Magic == DataChunkMagic;
 
         public void Dispose()
         {

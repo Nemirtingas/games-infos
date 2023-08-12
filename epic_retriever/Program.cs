@@ -587,24 +587,24 @@ namespace epic_retriever
                 await writer.WriteAsync(json.ToString());
             }
         }
-        static async Task<JObject> LoginAnonymous()
+        static Task<JObject> LoginAnonymous()
         {
             Console.WriteLine("Will now try to login anonymously...");
-            return await EGSApi.LoginAnonymous();
+            return EGSApi.LoginAnonymous();
         }
 
-        static async Task<JObject> LoginWithAuthcode()
+        static Task<JObject> LoginWithAuthcode()
         {
             Console.WriteLine("Will now try to login with authorization code...");
             Console.WriteLine("EGL authcode (get it at: https://www.epicgames.com/id/api/redirect?clientId=34a02cf8f4414e29b15921876da36f9a&responseType=code): ");
-            return await EGSApi.LoginAuthCode(Console.ReadLine().Trim());
+            return EGSApi.LoginAuthCode(Console.ReadLine().Trim());
         }
 
-        static async Task<JObject> LoginWithSID()
+        static Task<JObject> LoginWithSID()
         {
             Console.WriteLine("Will now try to login with SID...");
             Console.WriteLine("EGL sid (get it at: https://www.epicgames.com/id/login?redirectUrl=https://www.epicgames.com/id/api/redirect): ");
-            return await EGSApi.LoginSID(Console.ReadLine().Trim());
+            return EGSApi.LoginSID(Console.ReadLine().Trim());
         }
 
         static async Task<bool> InteractiveContinuationAsync(string deployement_id, string user_id, string password, string continuationToken)

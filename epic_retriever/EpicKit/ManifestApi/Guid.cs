@@ -16,21 +16,11 @@ namespace EpicKit.Manifest
             }
         }
 
-        public int CompareTo(Guid other)
-        {
-            if (other == null)
-                return 1;
+        public int CompareTo(Guid other) =>
+            other == null ? 1 : Bytes.Aggregate(0, (total, v) => total += v) - other.Bytes.Aggregate(0, (total, v) => total += v);
 
-            return Bytes.Aggregate(0, (total, v) => total += v) - other.Bytes.Aggregate(0, (total, v) => total += v);
-        }
-
-        public bool Equals(Guid other)
-        {
-            if (other == null)
-                return false;
-
-            return other.Bytes.SequenceEqual(Bytes);
-        }
+        public bool Equals(Guid other) =>
+            other == null ? false : other.Bytes.SequenceEqual(Bytes);
 
         public override string ToString() => string.Concat(
                     BitConverter.ToUInt32(_Bytes, 0).ToString("X8"),

@@ -26,7 +26,7 @@ namespace EpicKit.Manifest
         public ChunkMetadataList ChunkDataList { get; private set; } = new ChunkMetadataList();
         public FileManifestList FileManifestList { get; private set; } = new FileManifestList();
         public CustomFieldList CustomFieldsList { get; private set; } = new CustomFieldList();
-        public bool IsValid { get => Magic == ManifestMagic; }
+        public bool IsValid => Magic == ManifestMagic;
 
         public void SerializeToStream(Stream stream)
         {

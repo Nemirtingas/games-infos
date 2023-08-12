@@ -290,20 +290,14 @@ namespace EpicKit
             }
         }
 
-        public async Task<string> RunContinuationToken(string continuation_token, string deployement_id, string user_id, string password)
-        {
-            return await Shared.RunContinuationToken(_WebHttpClient, continuation_token, deployement_id, user_id, password);
-        }
+        public Task<string> RunContinuationToken(string continuation_token, string deployement_id, string user_id, string password) =>
+            Shared.RunContinuationToken(_WebHttpClient, continuation_token, deployement_id, user_id, password);
 
-        public async Task GameLoginWithExchangeCodeAsync(string deployement_id, string user_id, string password, string exchange_code, ApiVersion api_version = ApiVersion.v1_15_3)
-        {
-            await _GameLogin(deployement_id, user_id, password, new AuthToken { Token = exchange_code, Type = AuthToken.TokenType.ExchangeCode }, api_version);
-        }
+        public Task GameLoginWithExchangeCodeAsync(string deployement_id, string user_id, string password, string exchange_code, ApiVersion api_version = ApiVersion.v1_15_3) =>
+            _GameLogin(deployement_id, user_id, password, new AuthToken { Token = exchange_code, Type = AuthToken.TokenType.ExchangeCode }, api_version);
 
-        public async Task GameLoginWithRefreshTokenAsync(string deployement_id, string user_id, string password, string game_token, ApiVersion api_version = ApiVersion.v1_15_3)
-        {
-            await _GameLogin(deployement_id, user_id, password, new AuthToken { Token = game_token, Type = AuthToken.TokenType.RefreshToken }, api_version);
-        }
+        public Task GameLoginWithRefreshTokenAsync(string deployement_id, string user_id, string password, string game_token, ApiVersion api_version = ApiVersion.v1_15_3) =>
+            _GameLogin(deployement_id, user_id, password, new AuthToken { Token = game_token, Type = AuthToken.TokenType.RefreshToken }, api_version);
 
         public async Task<List<EpicKit.AchievementsInfos>> GetAchievementsSchemaAsync(int parallelTasks = 5, IEnumerable<string> requestedLocales = null)
         {
