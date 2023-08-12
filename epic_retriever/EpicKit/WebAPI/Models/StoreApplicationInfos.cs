@@ -1,10 +1,9 @@
-using EpicKit.WebAPI.Models;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 
 namespace EpicKit.WebAPI.Models
 {
-    public class AppInfos
+    public class StoreApplicationInfos
     {
         [JsonProperty(PropertyName = "id")]
         public string Id { get; set; }
@@ -19,10 +18,10 @@ namespace EpicKit.WebAPI.Models
         public string LongDescription { get; set; }
 
         [JsonProperty(PropertyName = "keyImages")]
-        public List<KeyImage> KeyImages { get; set; }
+        public List<StoreApplicationKeyImage> KeyImages { get; set; }
 
         [JsonProperty(PropertyName = "categories")]
-        public List<Category> Categories { get; set; }
+        public List<StoreApplicationCategory> Categories { get; set; }
 
         [JsonProperty(PropertyName = "namespace")]
         public string Namespace { get; set; }
@@ -37,7 +36,7 @@ namespace EpicKit.WebAPI.Models
         public DateTime LastModifiedDate { get; set; }
 
         [JsonProperty(PropertyName = "customAttributes")]
-        public Dictionary<string, CustomAttribute> CustomAttributes { get; set; }
+        public Dictionary<string, StoreApplicationCustomAttribute> CustomAttributes { get; set; }
 
         [JsonProperty(PropertyName = "entitlementName")]
         public string EntitlementName { get; set; }
@@ -49,7 +48,7 @@ namespace EpicKit.WebAPI.Models
         public string ItemType { get; set; }
 
         [JsonProperty(PropertyName = "releaseInfo")]
-        public List<ReleaseInfo> ReleaseInfo { get; set; }
+        public List<StoreApplicationReleaseInfo> ReleaseInfo { get; set; }
 
         [JsonProperty(PropertyName = "developer")]
         public string Developer { get; set; }
@@ -64,10 +63,10 @@ namespace EpicKit.WebAPI.Models
         public bool EndOfSupport { get; set; }
 
         [JsonProperty(PropertyName = "mainGameItem")]
-        public MainGameModel MainGameItem { get; set; }
+        public StoreApplicationMainGameModel MainGameItem { get; set; }
 
         [JsonProperty(PropertyName = "dlcItemList")]
-        public List<AppInfos> DlcItemList { get; set; }
+        public List<StoreApplicationInfos> DlcItemList { get; set; }
 
         [JsonProperty(PropertyName = "ageGatings")]
         public JObject AgeGatings { get; set; }
@@ -78,7 +77,7 @@ namespace EpicKit.WebAPI.Models
         [JsonProperty(PropertyName = "unsearchable")]
         public bool Unsearchable { get; set; }
 
-        public AppInfos()
+        public StoreApplicationInfos()
         {
             Reset();
         }
@@ -91,23 +90,23 @@ namespace EpicKit.WebAPI.Models
             Title = string.Empty;
             Description = string.Empty;
             LongDescription = string.Empty;
-            KeyImages = new List<KeyImage>();
-            Categories = new List<Category>();
+            KeyImages = new List<StoreApplicationKeyImage>();
+            Categories = new List<StoreApplicationCategory>();
             Namespace = string.Empty;
             Status = string.Empty;
             CreationDate = new DateTime();
             LastModifiedDate = new DateTime();
-            CustomAttributes = new Dictionary<string, CustomAttribute>();
+            CustomAttributes = new Dictionary<string, StoreApplicationCustomAttribute>();
             EntitlementName = string.Empty;
             EntitlementType = string.Empty;
             ItemType = string.Empty;
-            ReleaseInfo = new List<ReleaseInfo>();
+            ReleaseInfo = new List<StoreApplicationReleaseInfo>();
             Developer = string.Empty;
             DeveloperId = string.Empty;
             EulaIds = new List<string>();
             EndOfSupport = false;
             MainGameItem = null;
-            DlcItemList = new List<AppInfos>();
+            DlcItemList = new List<StoreApplicationInfos>();
             AgeGatings = new JObject();
             ApplicationId = string.Empty;
             Unsearchable = false;

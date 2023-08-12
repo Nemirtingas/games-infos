@@ -2,7 +2,7 @@ using Newtonsoft.Json;
 
 namespace EpicKit.WebAPI.Models
 {
-    public class CustomAttribute
+    public class StoreApplicationCustomAttribute
     {
         [JsonProperty(PropertyName = "type")]
         public string Type;
@@ -10,7 +10,7 @@ namespace EpicKit.WebAPI.Models
         [JsonProperty(PropertyName = "value")]
         public string Value;
 
-        public CustomAttribute()
+        public StoreApplicationCustomAttribute()
         {
             Reset();
         }

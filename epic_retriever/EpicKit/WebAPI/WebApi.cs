@@ -1,62 +1,13 @@
+using EpicKit.WebAPI;
 using EpicKit.WebAPI.Models;
-using Newtonsoft.Json;
-using Newtonsoft.Json.Converters;
 using Newtonsoft.Json.Linq;
 using System.Globalization;
 using System.Net;
-using System.Runtime.Serialization;
 using System.Security.Cryptography;
 using System.Text;
 
 namespace EpicKit
 {
-    [JsonConverter(typeof(StringEnumConverter))]
-    public enum AuthorizationScopes
-    {
-        [EnumMember(Value = "basic_profile")]
-        BasicProfile,
-        [EnumMember(Value = "openid")]
-        OpenId,
-        [EnumMember(Value = "friends_list")]
-        FriendsList,
-        [EnumMember(Value = "presence")]
-        Presence,
-        [EnumMember(Value = "offline_access")]
-        OfflineAccess,
-        [EnumMember(Value = "friends_management")]
-        FriendsManagement,
-        [EnumMember(Value = "library")]
-        Library,
-        [EnumMember(Value = "country")]
-        Country,
-        [EnumMember(Value = "relevant_cosmetics")]
-        RelevantCosmetics
-    }
-
-    public static class AuthorizationScopesExtensions
-    {
-        public static string ToApiString(this AuthorizationScopes scope)
-        {
-            try
-            {
-                var enumType = typeof(AuthorizationScopes);
-                var memberInfos = enumType.GetMember(scope.ToString());
-                var enumValueMemberInfo = memberInfos.FirstOrDefault(m => m.DeclaringType == enumType);
-                var valueAttributes = enumValueMemberInfo.GetCustomAttributes(typeof(EnumMemberAttribute), false);
-                return ((EnumMemberAttribute)valueAttributes[0]).Value;
-            }
-            catch
-            {
-                return scope.ToString();
-            }
-        }
-
-        public static string JoinWithValue(this AuthorizationScopes[] scopes, string separator)
-        {
-            return string.Join(separator, scopes.Select(scope => scope.ToApiString()));
-        }
-    }
-
     public class WebApi : IDisposable
     {
         CookieContainer _WebCookies;
@@ -429,7 +380,7 @@ namespace EpicKit
                 };
                 StringContent content = new StringContent(json.ToString(), Encoding.UTF8, "application/json");
 
-                JObject response = JObject.Parse(await Shared.WebRunPost(_WebHttpClient, uri, content , new Dictionary<string, string>
+                JObject response = JObject.Parse(await Shared.WebRunPost(_WebHttpClient, uri, content, new Dictionary<string, string>
                 {
                     { "User-Agent"  , Shared.EGL_UAGENT },
                 }));
@@ -507,7 +458,7 @@ namespace EpicKit
         /// <param name="user_id">Application ClientId.</param>
         /// <param name="password">Application ClientSecret.</param>
         /// <returns></returns>
-        public async Task<string> GetAppRefreshTokenFromExchangeCode(string exchange_code, string deployement_id, string user_id, string password, AuthorizationScopes[] scopes )
+        public async Task<string> GetAppRefreshTokenFromExchangeCode(string exchange_code, string deployement_id, string user_id, string password, AuthorizationScopes[] scopes)
         {
             if (!_LoggedIn)
                 throw new WebApiException("User is not logged in.", WebApiException.NotLoggedIn);
@@ -517,13 +468,17 @@ namespace EpicKit
             {
                 Uri uri = new Uri($"https://{Shared.EGS_DEV_HOST}/epic/oauth/v1/token");
 
-                HttpContent content = new FormUrlEncodedContent(new[]
+                var formContent = new List<KeyValuePair<string, string>>
                 {
                     new KeyValuePair<string, string>( "grant_type", "exchange_code" ),
                     new KeyValuePair<string, string>( "exchange_code", exchange_code ),
-                    new KeyValuePair<string, string>( "scope", scopes.JoinWithValue(" ") ),
                     new KeyValuePair<string, string>( "deployment_id", deployement_id ),
-                });
+                };
+
+                if (scopes?.Length > 0)
+                    formContent.Add(new KeyValuePair<string, string>("scope", scopes.JoinWithValue(" ")));
+
+                HttpContent content = new FormUrlEncodedContent(formContent);
 
                 response = JObject.Parse(await Shared.WebRunPost(_WebHttpClient, uri, content, new Dictionary<string, string>
                 {
@@ -542,7 +497,7 @@ namespace EpicKit
                 {
                     WebApiException.BuildErrorFromJson(response);
                 }
-                catch(WebApiException e)
+                catch (WebApiException e)
                 {
                     if (response.ContainsKey("continuation") && e.ErrorCode == WebApiException.OAuthScopeConsentRequired)
                         throw new WebApiOAuthScopeConsentRequiredException(e.Message) { ContinuationToken = (string)response["continuation"] };
@@ -571,7 +526,7 @@ namespace EpicKit
                 throw new WebApiException("OAuth infos doesn't contain 'account_id'.", WebApiException.NotFound);
 
             string auth_type = string.Empty;
-            switch(token.Type)
+            switch (token.Type)
             {
                 case AuthToken.TokenType.ExchangeCode:
                     auth_type = "exchangecode";
@@ -602,7 +557,7 @@ namespace EpicKit
             return _GetGameCommandLine(new AuthToken { Token = refresh_token, Type = AuthToken.TokenType.RefreshToken }, appid);
         }
 
-        public async Task<List<AppAsset>> GetGamesAssets(string platform = "Windows", string label = "Live")
+        public async Task<List<ApplicationAsset>> GetApplicationsAssets(string platform = "Windows", string label = "Live")
         {
             if (!_LoggedIn)
                 throw new WebApiException("User is not logged in.", WebApiException.NotLoggedIn);
@@ -621,13 +576,13 @@ namespace EpicKit
                     { "Authorization", $"bearer {(string)_OAuthInfos["access_token"]}" },
                 }));
 
-                List<AppAsset> app_assets = new List<AppAsset>();
-                
+                List<ApplicationAsset> app_assets = new List<ApplicationAsset>();
+
                 foreach (JObject asset in response)
                 {
-                    app_assets.Add(asset.ToObject<AppAsset>());
+                    app_assets.Add(asset.ToObject<ApplicationAsset>());
                 }
-                
+
                 return app_assets;
             }
             catch (Exception e)
@@ -778,7 +733,7 @@ namespace EpicKit
             return null;
         }
 
-        public async Task<AppInfos> GetGameInfos(string game_namespace, string catalog_item_id, bool include_dlcs = true)
+        public async Task<WebAPI.Models.StoreApplicationInfos> GetGameInfos(string game_namespace, string catalog_item_id, bool include_dlcs = true)
         {
             if (!_LoggedIn)
                 throw new WebApiException("User is not logged in.", WebApiException.NotLoggedIn);
@@ -796,16 +751,16 @@ namespace EpicKit
                 string q = Shared.NameValueCollectionToQueryString(get_datas);
 
                 Uri uri = new Uri($"https://{Shared.EGS_CATALOG_HOST}/catalog/api/shared/namespace/{game_namespace}/bulk/items?{q}");
-                
+
                 JObject response = JObject.Parse(await Shared.WebRunGet(_WebHttpClient, new HttpRequestMessage(HttpMethod.Get, uri), new Dictionary<string, string>
                 {
                     { "Authorization", $"bearer {(string)_OAuthInfos["access_token"]}" },
                 }));
 
-                AppInfos appInfos = null;
+                WebAPI.Models.StoreApplicationInfos appInfos = null;
                 foreach (KeyValuePair<string, JToken> v in response)
                 {
-                    appInfos = ((JObject)v.Value).ToObject<AppInfos>();
+                    appInfos = ((JObject)v.Value).ToObject<WebAPI.Models.StoreApplicationInfos>();
                 }
 
                 return appInfos;
@@ -827,6 +782,17 @@ namespace EpicKit
                 EpicKit.WebApiException.BuildErrorFromJson(JObject.Parse(t));
 
             return JObject.Parse(t);
+        }
+
+        public async Task<ApplicationInfos> GetApplicationInfosAsync(string application_user)
+        {
+            var request = new HttpRequestMessage(HttpMethod.Get, $"https://{Shared.EPIC_GAMES_HOST}/id/api/client/{application_user}");
+
+            var t = await (await _UnauthWebHttpClient.SendAsync(request, HttpCompletionOption.ResponseContentRead)).Content.ReadAsStringAsync();
+            if (t.Contains("errorCode"))
+                WebApiException.BuildErrorFromJson(JObject.Parse(t));
+
+            return JObject.Parse(t).ToObject<ApplicationInfos>();
         }
 
         //public async Task<JObject> GetProductApiEndpointsAsync(string productId, string deployementId, string platformId = "LNX")

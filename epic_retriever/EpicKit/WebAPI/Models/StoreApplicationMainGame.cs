@@ -2,7 +2,7 @@ using Newtonsoft.Json;
 
 namespace EpicKit.WebAPI.Models
 {
-    public class MainGameModel
+    public class StoreApplicationMainGameModel
     {
         [JsonProperty(PropertyName = "id")]
         public string Id { get; set; }
@@ -13,7 +13,7 @@ namespace EpicKit.WebAPI.Models
         [JsonProperty(PropertyName = "unsearchable")]
         public bool Unsearchable { get; set; }
 
-        public MainGameModel()
+        public StoreApplicationMainGameModel()
         {
             Reset();
         }

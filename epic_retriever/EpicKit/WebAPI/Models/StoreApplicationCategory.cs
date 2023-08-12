@@ -2,12 +2,12 @@ using Newtonsoft.Json;
 
 namespace EpicKit.WebAPI.Models
 {
-    public class Category
+    public class StoreApplicationCategory
     {
         [JsonProperty(PropertyName = "path")]
         public string Path { get; set; }
 
-        public Category()
+        public StoreApplicationCategory()
         {
             Reset();
         }
