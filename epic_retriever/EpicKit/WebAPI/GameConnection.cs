@@ -14,6 +14,26 @@ namespace EpicKit
         Ecom         = 0x00000008,
     }
 
+    public class AchievementThreshold
+    {
+        public string Name { get; set; }
+        public long Value { get; set; }
+    }
+
+    public class AchievementsInfos
+    {
+        public string AchievementId { get; set; }
+        public Dictionary<string, string> UnlockedDisplayName { get; init; } = new Dictionary<string, string>();
+        public Dictionary<string, string> UnlockedDescription { get; init; } = new Dictionary<string, string>();
+        public Dictionary<string, string> LockedDisplayName { get; init; } = new Dictionary<string, string>();
+        public Dictionary<string, string> LockedDescription { get; init; } = new Dictionary<string, string>();
+        public Dictionary<string, string> HiddenDescription { get; init; } = new Dictionary<string, string>();
+        public string UnlockedIconUrl { get; set; }
+        public string LockedIconUrl { get; set; }
+        public bool IsHidden { get; set; }
+        public List<AchievementThreshold> StatsThresholds { get; init; } = new List<AchievementThreshold>();
+    }
+
     public class GameConnection : IDisposable
     {
         HttpClient _WebHttpClient;
@@ -69,6 +89,12 @@ namespace EpicKit
         public GameFeatures GameFeatures { get; private set; }
 
         bool _LoggedIn;
+
+        class AchievementsInfos
+        {
+            public JArray Achievements { get; set; }
+            public string Locale { get; set; }
+        }
 
         public GameConnection()
         {
@@ -279,12 +305,12 @@ namespace EpicKit
             await _GameLogin(deployement_id, user_id, password, new AuthToken { Token = game_token, Type = AuthToken.TokenType.RefreshToken }, api_version);
         }
 
-        public async Task<JArray> GetAchievementsSchemaAsync(string locale = "")
+        public async Task<List<EpicKit.AchievementsInfos>> GetAchievementsSchemaAsync(int parallelTasks = 5, IEnumerable<string> requestedLocales = null)
         {
             if (!_LoggedIn)
                 throw new WebApiException("User is not logged in.", WebApiException.NotLoggedIn);
 
-            var result = new JArray();
+            var result = new List<EpicKit.AchievementsInfos>();
 
             if (!GameFeatures.HasFlag(GameFeatures.Achievements))
                 return result;
@@ -294,7 +320,7 @@ namespace EpicKit
                 JArray json;
                 List<string> locales;
 
-                if (string.IsNullOrEmpty(locale))
+                if (requestedLocales?.Any() != true)
                 {
                     locales = new List<string>
                     {
@@ -311,15 +337,15 @@ namespace EpicKit
                         "pl",
                         "pt-BR", // Portugues - Brasil
                         "ru",
-                        "tr",
                         "th",
+                        "tr",
                         "zh",
                         "zh-Hant"
                     };
                 }
                 else
                 {
-                    locales = new List<string> { locale };
+                    locales = requestedLocales.ToList();
                 }
 
                 string get_entry_value(JObject json, string key, string locale, out bool is_default)
@@ -338,118 +364,149 @@ namespace EpicKit
                             return (string)json[key]["default"];
                         }
                     }
-
                     is_default = true;
                     return string.Empty;
                 }
 
-                foreach (string current_locale in locales)
-                {
-                    json = JArray.Parse(await Shared.WebRunGet(_WebHttpClient, new HttpRequestMessage(HttpMethod.Get, $"https://{Shared.EGS_DEV_HOST}/stats/v2/{_DeploymentId}/definitions/achievements?locale={current_locale}&iconLinks=true"), new Dictionary<string, string> {
-                        { "Authorization", $"Bearer {(string)_Json3["access_token"]}" },
-                        { "User-Agent"   , _UserAgent },
-                        { "X-EOS-Version", _ApiVersion },
-                    }));
+                var languagesTasks = new List<Task>();
+                var achievementInfosList = new List<AchievementsInfos>(locales.Count);
 
-                    foreach (JObject ach in json)
+                for (int i = 0; i < locales.Count; ++i)
+                {
+                    while (languagesTasks.Count >= parallelTasks)
+                    {
+                         languagesTasks.Remove(await Task.WhenAny(languagesTasks));
+                    }
+
+                    var currentLocale = locales[i];
+                    var task = Task.Run(async () =>
+                    {
+                        using var webClient = new HttpClient();
+                        try
+                        {
+                            json = JArray.Parse(await Shared.WebRunGet(webClient, new HttpRequestMessage(HttpMethod.Get, $"https://{Shared.EGS_DEV_HOST}/stats/v2/{_DeploymentId}/definitions/achievements?locale={currentLocale}&iconLinks=true"), new Dictionary<string, string> {
+                                { "Authorization", $"Bearer {(string)_Json3["access_token"]}" },
+                                { "User-Agent"   , _UserAgent },
+                                { "X-EOS-Version", _ApiVersion }
+                            }));
+
+                            achievementInfosList.Add(new AchievementsInfos
+                            {
+                                Achievements = json,
+                                Locale = currentLocale,
+                            });
+                        }
+                        catch(Exception ex)
+                        {
+                            Console.WriteLine($"Achievement web request {currentLocale} failed: {ex.Message}");
+                            throw;
+                        }
+                    });
+
+                    languagesTasks.Add(task);
+                }
+
+                await Task.WhenAll(languagesTasks);
+
+                foreach(var achievementsInfos in achievementInfosList)
+                {
+                    foreach (JObject ach in achievementsInfos.Achievements)
                     {
                         JObject jach = (JObject)ach["achievement"];
                         JObject jicons = (JObject)ach["iconLinks"];
-                        JArray jthresholds = new JArray();
 
                         string id = (string)jach["name"];
 
-                        bool default_unlocked_display_name;
-                        string unlocked_display_name = get_entry_value(jach, "unlockedDisplayName", current_locale, out default_unlocked_display_name);
+                        string unlocked_display_name = get_entry_value(jach, "unlockedDisplayName", achievementsInfos.Locale, out var default_unlocked_display_name);
 
-                        bool default_unlocked_description;
-                        string unlocked_description = get_entry_value(jach, "unlockedDescription", current_locale, out default_unlocked_description);
+                        string unlocked_description = get_entry_value(jach, "unlockedDescription", achievementsInfos.Locale, out var default_unlocked_description);
 
-                        bool default_locked_display_name;
-                        string locked_display_name = get_entry_value(jach, "lockedDisplayName", current_locale, out default_locked_display_name);
+                        string locked_display_name = get_entry_value(jach, "lockedDisplayName", achievementsInfos.Locale, out var default_locked_display_name);
 
-                        bool default_locked_description;
-                        string locked_description = get_entry_value(jach, "lockedDescription", current_locale, out default_locked_description);
+                        string locked_description = get_entry_value(jach, "lockedDescription", achievementsInfos.Locale, out var default_locked_description);
 
-                        bool default_flavor_text;
-                        string flavor_text = get_entry_value(jach, "flavorText", current_locale, out default_flavor_text);
+                        string flavor_text = get_entry_value(jach, "flavorText", achievementsInfos.Locale, out var default_flavor_text);
 
-                        bool found = false;
-                        foreach (JObject def_ach in result)
+                        var hasLanguage = !default_unlocked_display_name ||
+                            !default_unlocked_description ||
+                            !default_locked_display_name ||
+                            !default_locked_description ||
+                            !default_flavor_text;
+                        var found = false;
+                        foreach (var def_ach in result)
                         {
-                            if ((string)def_ach["AchievementId"] == id)
+                            if (def_ach.AchievementId == id)
                             {
+                                found = true;
                                 if (!default_unlocked_display_name)
-                                    def_ach["UnlockedDisplayName"][current_locale] = unlocked_display_name;
+                                    def_ach.UnlockedDisplayName[achievementsInfos.Locale] = unlocked_display_name;
 
-                                if(!default_unlocked_description)
-                                    def_ach["UnlockedDescription"][current_locale] = unlocked_description;
+                                if (!default_unlocked_description)
+                                    def_ach.UnlockedDescription[achievementsInfos.Locale] = unlocked_description;
 
-                                if(!default_locked_display_name)
-                                    def_ach["LockedDisplayName"][current_locale] = locked_display_name;
+                                if (!default_locked_display_name)
+                                    def_ach.LockedDisplayName[achievementsInfos.Locale] = locked_display_name;
 
                                 if (!default_locked_description)
                                 {
-                                    def_ach["LockedDescription"][current_locale] = locked_description;
-                                    def_ach["HiddenDescription"][current_locale] = locked_description;
+                                    def_ach.LockedDescription[achievementsInfos.Locale] = locked_description;
+                                    def_ach.HiddenDescription[achievementsInfos.Locale] = locked_description;
                                 }
-
-                                if(!default_flavor_text)
-                                    def_ach["FlavorText"][current_locale] = flavor_text;
                             }
                         }
 
-                        if (!found)
+                        if (!found && hasLanguage)
                         {
                             bool x;
-                            string unlocked_icon_id = get_entry_value(jach, "unlockedIconId", current_locale, out x);
-                            string locked_icon_id = get_entry_value(jach, "lockedIconId", current_locale, out x);
+                            var unlocked_icon_id = get_entry_value(jach, "unlockedIconId", achievementsInfos.Locale, out x);
+                            var locked_icon_id = get_entry_value(jach, "lockedIconId", achievementsInfos.Locale, out x);
 
+                            var thresholds = new List<EpicKit.AchievementThreshold>();
                             if (jach.ContainsKey("statThresholds"))
                             {
                                 foreach (JProperty threshold in jach["statThresholds"])
                                 {
-                                    jthresholds.Add(new JObject
+                                    thresholds.Add(new AchievementThreshold
                                     {
-                                        { "Name"     , threshold.Name },
-                                        { "Threshold", (long)threshold.Value },
+                                        Name = threshold.Name,
+                                        Value = (long)threshold.Value,
                                     });
                                 }
                             }
 
+                            var lockedIconUrl = $"{id}_locked";
                             if (jicons.ContainsKey(locked_icon_id))
-                            {
-                                Uri icon_url = new Uri((string)jicons[locked_icon_id]["readLink"]);
-                            }
-                            if (jicons.ContainsKey(unlocked_icon_id))
-                            {
-                                Uri icon_url = new Uri((string)jicons[unlocked_icon_id]["readLink"]);
-                            }
+                                lockedIconUrl = (string)jicons[locked_icon_id]["readLink"];
 
-                            result.Add(new JObject
+                            var unlockedIconUrl = id;
+                            if (jicons.ContainsKey(unlocked_icon_id))
+                                unlockedIconUrl = (string)jicons[unlocked_icon_id]["readLink"];
+
+                            result.Add(new EpicKit.AchievementsInfos
                             {
-                                { "AchievementId"        , id },
-                                { "UnlockedDisplayName"  , new JObject{ { current_locale, unlocked_display_name } } },
-                                { "UnlockedDescription"  , new JObject{ { current_locale, unlocked_description } } },
-                                { "LockedDisplayName"    , new JObject{ { current_locale, locked_display_name } } },
-                                { "LockedDescription"    , new JObject{ { current_locale, locked_description } } },
-                                { "HiddenDescription"    , new JObject{ { current_locale, locked_description } } },
-                                { "FlavorText"           , new JObject{ { current_locale, flavor_text } } },
-                                { "CompletionDescription", new JObject{ { current_locale, "" } } },
-                                { "UnlockedIconUrl"      , id },
-                                { "LockedIconUrl"        , $"{id}_locked" },
-                                { "IsHidden"             , (bool)jach["hidden"] },
-                                { "StatsThresholds"      , jthresholds }
+                                AchievementId         = id,
+                                UnlockedDisplayName   = new Dictionary<string, string> { { achievementsInfos.Locale, unlocked_display_name } },
+                                UnlockedDescription   = new Dictionary<string, string> { { achievementsInfos.Locale, unlocked_description } },
+                                LockedDisplayName     = new Dictionary<string, string> { { achievementsInfos.Locale, locked_display_name } },
+                                LockedDescription     = new Dictionary<string, string> { { achievementsInfos.Locale, locked_description } },
+                                HiddenDescription     = new Dictionary<string, string> { { achievementsInfos.Locale, locked_description } },
+                                UnlockedIconUrl       = unlockedIconUrl,
+                                LockedIconUrl         = lockedIconUrl,
+                                IsHidden              = (bool)jach["hidden"],
+                                StatsThresholds       = thresholds
                             });
                         }
                     }
                 }
             }
-            catch(Exception)
+            catch(Exception ex)
             {
+                Console.WriteLine($"Failed to retrieve achievements: {ex.Message}");
             }
 
             return result;
         }
+
+        // https://api.epicgames.dev/stats/v1/{deployement_id}/stats/{user_id}
     }
 }

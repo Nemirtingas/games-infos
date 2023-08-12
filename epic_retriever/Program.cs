@@ -10,14 +10,13 @@ using System.Net;
 using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Text;
-using System.Threading;
 using System.Threading.Tasks;
 
 namespace epic_retriever
 {
     public class Options
     {
-        [Option('i', "download_images", Required = false, HelpText = "Sets the flag to download games image. Images will not be downloaded if this flag is not set.")]
+        [Option('i', "download-images", Required = false, HelpText = "Sets the flag to download games image. Images will not be downloaded if this flag is not set.")]
         public bool DownloadImages { get; set; } = false;
 
         [Option('f', "force", Required = false, HelpText = "Force to download game's infos (usefull if you want to refresh a game).")]
@@ -26,16 +25,16 @@ namespace epic_retriever
         [Option('o', "out", Required = false, HelpText = "Where to output your game definitions. By default it will output to 'epic' directory alongside the executable.")]
         public string OutDirectory { get; set; } = "epic";
 
-        [Option('c', "cache_out", Required = false, HelpText = "Where to output the cache datas. By default it will output to 'epic_cache' directory alongside the executable.")]
+        [Option('c', "cache-out", Required = false, HelpText = "Where to output the cache datas. By default it will output to 'epic_cache' directory alongside the executable.")]
         public string OutCacheDirectory { get; set; } = "epic_cache";
 
-        [Option('w', "fromweb", Required = false, HelpText = "Try to deduce the catalog id from the app web page.")]
+        [Option('w', "from-web", Required = false, HelpText = "Try to deduce the catalog id from the app web page.")]
         public bool FromWeb { get; set; } = false;
         
         [Option('N', "namespace", Required = false, HelpText = "App namespace. (need -N AND -C)")]
         public string AppNamespace { get; set; } = string.Empty;
         
-        [Option('C', "catalog_item", Required = false, HelpText = "App catalog item id. (need -N AND -C)")]
+        [Option('C', "catalog-item", Required = false, HelpText = "App catalog item id. (need -N AND -C)")]
         public string AppCatalogItemId { get; set; } = string.Empty;
     }
 
@@ -71,14 +70,9 @@ namespace epic_retriever
 
     class Program
     {
-        static string OutputDir { get; set; }
-        static string OutCacheDirectory { get; set; }
-        static bool DownloadImages { get; set; }
-        static bool Force { get; set; }
-        static bool FromWeb { get; set; }
-        static string AppNamespace { get; set; }
-        static string AppCatalogItemId { get; set; }
-        static bool HasTargetApp => !string.IsNullOrWhiteSpace(AppNamespace) && !string.IsNullOrWhiteSpace(AppCatalogItemId);
+        static Options ProgramOptions { get; set; }
+
+        static bool HasTargetApp => !string.IsNullOrWhiteSpace(ProgramOptions.AppNamespace) && !string.IsNullOrWhiteSpace(ProgramOptions.AppCatalogItemId);
 
         static EpicKit.WebApi EGSApi;
 
@@ -89,7 +83,7 @@ namespace epic_retriever
 
             try
             {
-                string asset_path = Path.Combine(OutCacheDirectory, "assets", asset.Namespace);
+                string asset_path = Path.Combine(ProgramOptions.OutCacheDirectory, "assets", asset.Namespace);
                 if (!Directory.Exists(asset_path))
                 {
                     Directory.CreateDirectory(asset_path);
@@ -110,13 +104,13 @@ namespace epic_retriever
         {
             try
             {
-                string asset_path = Path.Combine(OutCacheDirectory, "app_infos", app.Namespace);
+                string asset_path = Path.Combine(ProgramOptions.OutCacheDirectory, "app_infos", app.Namespace);
                 if (!Directory.Exists(asset_path))
                 {
                     Directory.CreateDirectory(asset_path);
                 }
 
-                using (StreamWriter writer = new StreamWriter(new FileStream(Path.Combine(asset_path, app.Id + ".json"), FileMode.Create), Encoding.UTF8))
+                using (StreamWriter writer = new StreamWriter(new FileStream(Path.Combine(asset_path, app.Id + ".json"), FileMode.Create), new UTF8Encoding(false)))
                 {
                     writer.Write(JsonConvert.SerializeObject(app, Formatting.Indented));
                 }
@@ -129,13 +123,13 @@ namespace epic_retriever
 
         static bool CachedDatasChanged(AppAsset asset)
         {
-            if (Force || asset == null)
+            if (ProgramOptions.Force || asset == null)
                 return true;
 
             try
             {
                 JObject cached_asset;
-                string asset_path = Path.Combine(OutCacheDirectory, "assets", asset.Namespace, asset.CatalogItemId + ".json");
+                string asset_path = Path.Combine(ProgramOptions.OutCacheDirectory, "assets", asset.Namespace, asset.CatalogItemId + ".json");
 
                 using (StreamReader reader = new StreamReader(new FileStream(asset_path, FileMode.Open), Encoding.UTF8))
                 {
@@ -153,7 +147,7 @@ namespace epic_retriever
         static AppInfos GetCachedAppInfos(string namespace_, string catalog_item_id)
         {
             AppInfos app = new AppInfos();
-            string app_infos_path = Path.Combine(OutCacheDirectory, "app_infos", namespace_, catalog_item_id + ".json");
+            string app_infos_path = Path.Combine(ProgramOptions.OutCacheDirectory, "app_infos", namespace_, catalog_item_id + ".json");
             if (!File.Exists(app_infos_path))
                 return app;
 
@@ -230,17 +224,16 @@ namespace epic_retriever
             return result;
         }
 
-        static string BuildSaveGameInfosDirectoryPath(AppInfoModel game_infos)
-        {
-            return Path.Combine(OutputDir, game_infos.Namespace, game_infos.AppId);
-        }
+        static string BuildSaveGameInfosDirectoryPath(string namespace_, string appId) =>
+            Path.Combine(ProgramOptions.OutDirectory, namespace_, appId);
 
-        static string BuildSaveGameInfosPath(AppInfoModel game_infos)
-        {
-            return Path.Combine(BuildSaveGameInfosDirectoryPath(game_infos), game_infos.AppId + ".json");
-        }
+        static string BuildSaveGameInfosDirectoryPath(AppInfoModel game_infos) =>
+            BuildSaveGameInfosDirectoryPath(game_infos.Namespace, game_infos.AppId);
 
-        static void SaveGameInfos(AppInfoModel game_infos, bool merge_existing_infos)
+        static string BuildSaveGameInfosPath(AppInfoModel game_infos) =>
+            Path.Combine(BuildSaveGameInfosDirectoryPath(game_infos), game_infos.AppId + ".json");
+
+        static async Task SaveGameInfos(AppInfoModel game_infos, bool merge_existing_infos)
         {
             try
             {
@@ -249,19 +242,11 @@ namespace epic_retriever
                     Directory.CreateDirectory(infos_path);
 
                 string image_path = Path.Combine(infos_path, game_infos.AppId + "_background.jpg");
-                if (DownloadImages && !File.Exists(image_path))
+                if (ProgramOptions.DownloadImages && !File.Exists(image_path))
                 {
                     try
                     {
-                        Uri uri = new Uri(game_infos.ImageUrl);
-
-                        WebClient wcli = new WebClient();
-
-                        wcli.Headers["User-Agent"] = "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0";
-                        wcli.Headers["Referer"] = "https://www.epicgames.com/store/en/";
-                        wcli.Headers["Origin"] = "https://www.epicgames.com";
-
-                        wcli.DownloadFile(uri, image_path);
+                        await (await DownloadAchievementIconAsync(new Uri(game_infos.ImageUrl))).CopyToAsync(new FileStream(image_path, FileMode.Create, FileAccess.Write));
                     }
                     catch (Exception e)
                     {
@@ -282,6 +267,20 @@ namespace epic_retriever
             }
         }
 
+        static async Task<MemoryStream> DownloadAchievementIconAsync(Uri uri)
+        {
+            using var webClient = new HttpClient();
+
+            webClient.DefaultRequestHeaders.TryAddWithoutValidation("User-Agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0");
+            webClient.DefaultRequestHeaders.TryAddWithoutValidation("Referer", "https://www.epicgames.com/store/en/");
+            webClient.DefaultRequestHeaders.TryAddWithoutValidation("Origin", "https://www.epicgames.com");
+
+            var ms = new MemoryStream();
+            await (await webClient.GetStreamAsync(uri)).CopyToAsync(ms);
+            ms.Position = 0;
+            return ms;
+        }
+
         static async Task<AppList> DownloadAppList()
         {
             var app_list = new AppList();
@@ -291,7 +290,7 @@ namespace epic_retriever
                 AutomaticDecompression = DecompressionMethods.All,
             });
             wcli.DefaultRequestHeaders.TryAddWithoutValidation("UserAgent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:98.0) Gecko/20100101 Firefox/98.0");
-            string applist_path = Path.Combine(OutCacheDirectory, "applist.json");
+            string applist_path = Path.Combine(ProgramOptions.OutCacheDirectory, "applist.json");
 
             
             try
@@ -307,7 +306,7 @@ namespace epic_retriever
 
                 if (HasTargetApp)
                 {
-                    app_list.Namespaces.GetOrCreate(AppNamespace)[AppCatalogItemId] = new AppListEntry { };
+                    app_list.Namespaces.GetOrCreate(ProgramOptions.AppNamespace)[ProgramOptions.AppCatalogItemId] = new AppListEntry { };
                 }
             }
             catch (Exception)
@@ -330,7 +329,7 @@ namespace epic_retriever
                 }
             }
 
-            if (!HasTargetApp && FromWeb)
+            if (!HasTargetApp && ProgramOptions.FromWeb)
             {
                 try
                 {
@@ -529,7 +528,7 @@ namespace epic_retriever
                     }
                 }
 
-                SaveGameInfos(game_infos, true);
+                await SaveGameInfos(game_infos, true);
             }
         }
 
@@ -537,7 +536,7 @@ namespace epic_retriever
         {
             var result = await EGSApi.GetManifestDownloadInfos(namespace_, catalogId, appId);
 
-            var manifestCacheDir = Path.Combine(OutCacheDirectory, "depots", appId);
+            var manifestCacheDir = Path.Combine(ProgramOptions.OutCacheDirectory, "depots", appId);
             if (!Directory.Exists(manifestCacheDir))
                 Directory.CreateDirectory(manifestCacheDir);
 
@@ -546,7 +545,7 @@ namespace epic_retriever
                 await file.WriteAsync(result.ManifestData);
             }
 
-            using (var writer = new StreamWriter(new FileStream(Path.Combine(manifestCacheDir, "download_infos.json"), FileMode.Create)))
+            using (var writer = new StreamWriter(new FileStream(Path.Combine(manifestCacheDir, "download_infos.json"), FileMode.Create), new UTF8Encoding(false)))
             {
                 var json = new JObject {
                     { "BaseUrls", new JArray(result.BaseUrls) }
@@ -738,13 +737,7 @@ namespace epic_retriever
         static async Task AsyncMain(string[] args)
         {
             Parser.Default.ParseArguments<Options>(args).WithParsed(options => {
-                OutputDir = options.OutDirectory;
-                DownloadImages = options.DownloadImages;
-                Force = options.Force;
-                AppNamespace = options.AppNamespace;
-                AppCatalogItemId = options.AppCatalogItemId;
-                FromWeb = options.FromWeb;
-                OutCacheDirectory = options.OutCacheDirectory;
+                ProgramOptions = options;
             }).WithNotParsed(e => {
                 Environment.Exit(0);
             });
@@ -753,7 +746,7 @@ namespace epic_retriever
             JObject oauth_infos = new JObject();
             bool login_with_sid = false;
             bool login_with_authcode = false;
-            string oauth_path = Path.Combine(OutCacheDirectory, "oauth_cache.json");
+            string oauth_path = Path.Combine(ProgramOptions.OutCacheDirectory, "oauth_cache.json");
 
             try
             {
@@ -812,12 +805,12 @@ namespace epic_retriever
 
             try
             {
-                if (!Directory.Exists(Path.Combine(OutCacheDirectory)))
-                    Directory.CreateDirectory(Path.Combine(OutCacheDirectory));
+                if (!Directory.Exists(Path.Combine(ProgramOptions.OutCacheDirectory)))
+                    Directory.CreateDirectory(Path.Combine(ProgramOptions.OutCacheDirectory));
             }
             catch (Exception)
             {
-                Console.WriteLine($"Failed to create {OutCacheDirectory}");
+                Console.WriteLine($"Failed to create {ProgramOptions.OutCacheDirectory}");
                 return;
             }
 
@@ -830,7 +823,7 @@ namespace epic_retriever
             AppList app_list = await DownloadAppList();
             if (HasTargetApp)
             {
-                await GetAppInfos(AppNamespace, app_list, AppCatalogItemId);
+                await GetAppInfos(ProgramOptions.AppNamespace, app_list, ProgramOptions.AppCatalogItemId);
             }
             else
             {
