@@ -1979,7 +1979,7 @@ int main(int argc, char* argv[])
 
     try
     {
-        EOSApiInitialize(product_name, product_version, EOS_INITIALIZE_API_003);
+        EOSApiInitialize(product_name, product_version, EOS_INITIALIZE_API_LATEST);
         PlatformInitialize(
             deployement_id,
             product_id,

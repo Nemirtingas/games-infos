@@ -30,12 +30,30 @@ namespace epic_retriever
 
         [Option('w', "from-web", Required = false, HelpText = "Try to deduce the catalog id from the app web page.")]
         public bool FromWeb { get; set; } = false;
-        
+
+        [Option("no-infos", Required = false, HelpText = "Don't retrieve games infos. (To retrieve only the achievements)")]
+        public bool NoInfos { get; set; } = false;
+
         [Option('N', "namespace", Required = false, HelpText = "App namespace. (need -N AND -C)")]
         public string AppNamespace { get; set; } = string.Empty;
         
         [Option('C', "catalog-item", Required = false, HelpText = "App catalog item id. (need -N AND -C)")]
         public string AppCatalogItemId { get; set; } = string.Empty;
+
+        [Option('U', "game-user", Required = false, HelpText = "Game user id. (need -U, -P, -D AND -A)")]
+        public string GameUser { get; set; } = string.Empty;
+
+        [Option('P', "game-password", Required = false, HelpText = "Game password. (need -U, -P, -D AND -A)")]
+        public string GamePassword { get; set; } = string.Empty;
+
+        [Option('D', "game-deployement-id", Required = false, HelpText = "Game deployement id. (need -U, -P, -D AND -A)")]
+        public string GameDeployementId { get; set; } = string.Empty;
+
+        [Option('A', "game-app-id", Required = false, HelpText = "Game app id. (need -U, -P, -D AND -A)")]
+        public string GameAppId { get; set; } = string.Empty;
+
+        [Option("games-credentials-directory", Required = false, HelpText = "")]
+        public string GamesCredentialsDirectory { get; set; } = string.Empty;
     }
 
     public static class DictionaryExtensions
@@ -51,6 +69,21 @@ namespace epic_retriever
 
             return val;
         }
+    }
+
+    class GameInfos
+    {
+        [JsonProperty("EOS_AUDIENCE")]
+        public string GameUser { get; set; }
+        [JsonProperty("EOS_SECRET_KEY")]
+        public string GamePassword { get; set; }
+        [JsonProperty("EOS_DEPLOYEMENT_ID")]
+        public string GameDeployementId { get; set; }
+        [JsonProperty("EOS_SANDBOX_ID")]
+        public string GameNamespace { get; set; }
+        [JsonProperty("AppId")]
+        public string GameAppId { get; set; }
+        public EpicKit.WebAPI.AuthorizationScopes[] GameScopes { get; set; }
     }
 
     class AppListEntry
@@ -825,27 +858,146 @@ namespace epic_retriever
                 writer.Write(oauth_infos.ToString());
             }
 
-            AppList app_list = await DownloadAppList();
-            if (HasTargetApp)
+            if (!ProgramOptions.NoInfos)
             {
-                await GetAppInfos(ProgramOptions.AppNamespace, app_list, ProgramOptions.AppCatalogItemId);
-            }
-            else
-            {
-                foreach (var namespace_entry in app_list.Namespaces)
+                AppList app_list = await DownloadAppList();
+                if (HasTargetApp)
                 {
-                    foreach (var catalog_entry in namespace_entry.Value)
+                    await GetAppInfos(ProgramOptions.AppNamespace, app_list, ProgramOptions.AppCatalogItemId);
+                }
+                else
+                {
+                    foreach (var namespace_entry in app_list.Namespaces)
                     {
-                        await GetAppInfos(namespace_entry.Key, app_list, catalog_entry.Key);
+                        foreach (var catalog_entry in namespace_entry.Value)
+                        {
+                            await GetAppInfos(namespace_entry.Key, app_list, catalog_entry.Key);
+                        }
                     }
+                }
+            }
+
+            var gamesInfos = new List<GameInfos>();
+            if (!string.IsNullOrWhiteSpace(ProgramOptions.GamesCredentialsDirectory))
+            {
+                foreach (var applicationPath in Directory.EnumerateFiles(ProgramOptions.GamesCredentialsDirectory))
+                {
+                    var fileInfos = new FileInfo(applicationPath);
+                    if (fileInfos.Attributes.HasFlag(FileAttributes.Hidden))
+                        continue;
+
+                    try
+                    {
+                        using (var fileStream = new StreamReader(new FileStream(fileInfos.FullName, FileMode.Open, FileAccess.Read)))
+                        {
+                            var gameInfos = JObject.Parse(await fileStream.ReadToEndAsync()).ToObject<GameInfos>();
+                            if (string.IsNullOrWhiteSpace(gameInfos.GameNamespace) ||
+                                string.IsNullOrWhiteSpace(gameInfos.GameUser) ||
+                                string.IsNullOrWhiteSpace(gameInfos.GamePassword) ||
+                                string.IsNullOrWhiteSpace(gameInfos.GameDeployementId) ||
+                                string.IsNullOrWhiteSpace(gameInfos.GameAppId))
+                            {
+                                Console.WriteLine($"A required credential property is missing: {fileInfos.FullName}");
+                                continue;
+                            }
+
+                            gamesInfos.Add(gameInfos);
+                        }
+                    }
+                    catch (Exception ex)
+                    {
+                        Console.WriteLine($"Failed to open file {applicationPath}: {ex.Message}");
+                    }
+                }
+            }
+            else if (!string.IsNullOrWhiteSpace(ProgramOptions.GameUser) &&
+                     !string.IsNullOrWhiteSpace(ProgramOptions.GamePassword) &&
+                     !string.IsNullOrWhiteSpace(ProgramOptions.GameDeployementId) &&
+                     !string.IsNullOrWhiteSpace(ProgramOptions.GameAppId) &&
+                     !string.IsNullOrWhiteSpace(ProgramOptions.AppNamespace))
+            {
+                gamesInfos.Add(new GameInfos
+                {
+                    GameUser = ProgramOptions.GameUser,
+                    GamePassword = ProgramOptions.GamePassword,
+                    GameDeployementId = ProgramOptions.GameDeployementId,
+                    GameNamespace = ProgramOptions.AppNamespace,
+                });
+            }
+
+            foreach(var gameInfos in gamesInfos)
+            {
+                try
+                {
+                    var token = await GetGameConnectionTokenAsync(gameInfos.GameDeployementId, gameInfos.GameUser, gameInfos.GamePassword, gameInfos.GameScopes, true);
+                    if (string.IsNullOrWhiteSpace(token))
+                    {
+                        Console.WriteLine($"Failed to get game connection token: {gameInfos.GameNamespace}:{gameInfos.GameAppId}");
+                        continue;
+                    }
+
+                    var gc = new EpicKit.GameConnection();
+                    await gc.GameLoginWithRefreshTokenAsync(gameInfos.GameDeployementId, gameInfos.GameUser, gameInfos.GamePassword, token);
+
+                    Console.WriteLine($"Generating {gameInfos.GameNamespace}:{gameInfos.GameAppId} achievements...");
+
+                    var achievements = await gc.GetAchievementsSchemaAsync();
+                    var achievementsDirectory = Path.Combine(BuildSaveGameInfosDirectoryPath(gameInfos.GameNamespace, gameInfos.GameAppId),
+                        "achievements");
+                    var achievementsDatabasePath = Path.Combine(achievementsDirectory, "achievements_db.json");
+                    var achievementsImagesPath = Path.Combine(achievementsDirectory, "achievements_images");
+
+                    if (achievements.Count <= 0)
+                    {
+                        Console.WriteLine($"No achievements for {gameInfos.GameNamespace}:{gameInfos.GameAppId}");
+                        continue;
+                    }
+
+                    if (!Directory.Exists(achievementsImagesPath))
+                        Directory.CreateDirectory(achievementsImagesPath);
+
+                    foreach (var achievement in achievements)
+                    {
+                        if (ProgramOptions.DownloadImages)
+                        {
+                            var lockedImagePath = Path.Combine(achievementsImagesPath, $"{achievement.AchievementId}_locked");
+                            if (!File.Exists(lockedImagePath))
+                            {
+                                var icon = await DownloadAchievementIconAsync(new Uri(achievement.LockedIconUrl));
+                                using (var fs = new FileStream(lockedImagePath, FileMode.Create, FileAccess.Write))
+                                {
+                                    await icon.CopyToAsync(fs);
+                                }
+                            }
+
+                            var unlockedImagePath = Path.Combine(achievementsImagesPath, achievement.AchievementId);
+                            if (!File.Exists(unlockedImagePath))
+                            {
+                                var icon = await DownloadAchievementIconAsync(new Uri(achievement.UnlockedIconUrl));
+                                using (var fs = new FileStream(unlockedImagePath, FileMode.Create, FileAccess.Write))
+                                {
+                                    await icon.CopyToAsync(fs);
+                                }
+                            }
+                        }
+
+                        achievement.LockedIconUrl = $"{achievement.AchievementId}_locked";
+                        achievement.UnlockedIconUrl = achievement.AchievementId;
+                    }
+
+                    using (var achievementsDatabaseStream = new StreamWriter(new FileStream(achievementsDatabasePath, FileMode.Create, FileAccess.Write), new UTF8Encoding(false)))
+                    {
+                        await achievementsDatabaseStream.WriteAsync(JsonConvert.SerializeObject(achievements, Formatting.Indented));
+                    }
+                }
+                catch(Exception ex)
+                {
+                    Console.WriteLine($"Failed to get {gameInfos.GameNamespace}:{gameInfos.GameAppId} achievements: {ex.Message}");
                 }
             }
         }
 
-        static void Main(string[] args)
-        {
-            var t = AsyncMain(args);
-            t.Wait();
-        }
+        static void Main(string[] args) =>
+            AsyncMain(args).GetAwaiter().GetResult();
     }
 }

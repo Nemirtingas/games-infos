@@ -17,7 +17,7 @@ namespace EpicKit
     public class AchievementThreshold
     {
         public string Name { get; set; }
-        public long Value { get; set; }
+        public long Threshold { get; set; }
     }
 
     public class AchievementsInfos
@@ -27,7 +27,7 @@ namespace EpicKit
         public Dictionary<string, string> UnlockedDescription { get; init; } = new Dictionary<string, string>();
         public Dictionary<string, string> LockedDisplayName { get; init; } = new Dictionary<string, string>();
         public Dictionary<string, string> LockedDescription { get; init; } = new Dictionary<string, string>();
-        public Dictionary<string, string> HiddenDescription { get; init; } = new Dictionary<string, string>();
+        public Dictionary<string, string> FlavorText { get; init; } = new Dictionary<string, string>();
         public string UnlockedIconUrl { get; set; }
         public string LockedIconUrl { get; set; }
         public bool IsHidden { get; set; }
@@ -324,10 +324,10 @@ namespace EpicKit
                 {
                     locales = new List<string>
                     {
-                        "en",//  English
                         "ar",//  Arabic
                         "cs",//  Czech
                         "de",//  German
+                        "en",//  English
                         "es-ES", // Spanish - Spain
                         "es-MX", // Spanish - Mexico
                         "fr",//  French
@@ -408,6 +408,7 @@ namespace EpicKit
 
                 await Task.WhenAll(languagesTasks);
 
+                var hasDefault = false;
                 foreach(var achievementsInfos in achievementInfosList)
                 {
                     foreach (JObject ach in achievementsInfos.Achievements)
@@ -432,30 +433,8 @@ namespace EpicKit
                             !default_locked_display_name ||
                             !default_locked_description ||
                             !default_flavor_text;
-                        var found = false;
-                        foreach (var def_ach in result)
-                        {
-                            if (def_ach.AchievementId == id)
-                            {
-                                found = true;
-                                if (!default_unlocked_display_name)
-                                    def_ach.UnlockedDisplayName[achievementsInfos.Locale] = unlocked_display_name;
 
-                                if (!default_unlocked_description)
-                                    def_ach.UnlockedDescription[achievementsInfos.Locale] = unlocked_description;
-
-                                if (!default_locked_display_name)
-                                    def_ach.LockedDisplayName[achievementsInfos.Locale] = locked_display_name;
-
-                                if (!default_locked_description)
-                                {
-                                    def_ach.LockedDescription[achievementsInfos.Locale] = locked_description;
-                                    def_ach.HiddenDescription[achievementsInfos.Locale] = locked_description;
-                                }
-                            }
-                        }
-
-                        if (!found && hasLanguage)
+                        if (!hasDefault)
                         {
                             bool x;
                             var unlocked_icon_id = get_entry_value(jach, "unlockedIconId", achievementsInfos.Locale, out x);
@@ -469,7 +448,7 @@ namespace EpicKit
                                     thresholds.Add(new AchievementThreshold
                                     {
                                         Name = threshold.Name,
-                                        Value = (long)threshold.Value,
+                                        Threshold = (long)threshold.Value,
                                     });
                                 }
                             }
@@ -484,19 +463,37 @@ namespace EpicKit
 
                             result.Add(new EpicKit.AchievementsInfos
                             {
-                                AchievementId         = id,
-                                UnlockedDisplayName   = new Dictionary<string, string> { { achievementsInfos.Locale, unlocked_display_name } },
-                                UnlockedDescription   = new Dictionary<string, string> { { achievementsInfos.Locale, unlocked_description } },
-                                LockedDisplayName     = new Dictionary<string, string> { { achievementsInfos.Locale, locked_display_name } },
-                                LockedDescription     = new Dictionary<string, string> { { achievementsInfos.Locale, locked_description } },
-                                HiddenDescription     = new Dictionary<string, string> { { achievementsInfos.Locale, locked_description } },
-                                UnlockedIconUrl       = unlockedIconUrl,
-                                LockedIconUrl         = lockedIconUrl,
-                                IsHidden              = (bool)jach["hidden"],
-                                StatsThresholds       = thresholds
+                                AchievementId = id,
+                                UnlockedDisplayName = new Dictionary<string, string> { { "default", unlocked_display_name } },
+                                UnlockedDescription = new Dictionary<string, string> { { "default", unlocked_description } },
+                                LockedDisplayName = new Dictionary<string, string> { { "default", locked_display_name } },
+                                LockedDescription = new Dictionary<string, string> { { "default", locked_description } },
+                                FlavorText = new Dictionary<string, string> { { "default", flavor_text } },
+                                UnlockedIconUrl = unlockedIconUrl,
+                                LockedIconUrl = lockedIconUrl,
+                                IsHidden = (bool)jach["hidden"],
+                                StatsThresholds = thresholds
                             });
                         }
+
+                        var achievement = result.Find(a => a.AchievementId == id);
+
+                        if (!default_unlocked_display_name)
+                            achievement.UnlockedDisplayName[achievementsInfos.Locale] = unlocked_display_name;
+
+                        if (!default_unlocked_description)
+                            achievement.UnlockedDescription[achievementsInfos.Locale] = unlocked_description;
+
+                        if (!default_locked_display_name)
+                            achievement.LockedDisplayName[achievementsInfos.Locale] = locked_display_name;
+
+                        if (!default_locked_description)
+                            achievement.LockedDescription[achievementsInfos.Locale] = locked_description;
+
+                        if (!default_flavor_text)
+                            achievement.LockedDescription[achievementsInfos.Locale] = flavor_text;
                     }
+                    hasDefault = true;
                 }
             }
             catch(Exception ex)
