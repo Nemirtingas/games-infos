@@ -1,5 +1,5 @@
 using CommandLine;
-using EpicKit.WebAPI.Models;
+using EpicKit.WebAPI.Store.Models;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using System;
@@ -637,111 +637,6 @@ namespace epic_retriever
             return false;
         }
 
-        static async Task AutoContinuationAsync(string deployement_id, string user_id, string password, string continuationToken, EpicKit.WebAPI.AuthorizationScopes[] scopes)
-        {
-            var endpoints = await EGSApi.GetDefaultApiEndpointsAsync();
-
-            var baseUrl = "https://www.epicgames.com";
-            var authorizeUrl = (string)endpoints["client"]["AuthClient"]["AuthorizeContinuationEndpoint"];
-            var referrer = new Uri($"{baseUrl}{authorizeUrl}");
-            var cookieUri = new Uri($"{baseUrl}/id");
-
-            authorizeUrl = authorizeUrl.Replace("`continuation`", continuationToken);
-            authorizeUrl = authorizeUrl.Replace("`continuation", continuationToken);
-
-            if (authorizeUrl.Contains("`"))
-                throw new NotImplementedException(authorizeUrl);
-
-            CookieContainer _UnauthWebCookies;
-            HttpClient _UnauthWebHttpClient;
-
-            _UnauthWebCookies = new CookieContainer();
-
-            _UnauthWebHttpClient = new HttpClient(new HttpClientHandler
-            {
-                AutomaticDecompression = DecompressionMethods.All,
-                CookieContainer = _UnauthWebCookies,
-            });
-
-            var request = new HttpRequestMessage(HttpMethod.Get, authorizeUrl);
-
-            var t = await (await _UnauthWebHttpClient.SendAsync(request, HttpCompletionOption.ResponseContentRead)).Content.ReadAsStringAsync();
-
-            // Get reputation and XSRF token
-            request = new HttpRequestMessage(HttpMethod.Get, $"{baseUrl}/id/api/reputation");
-            request.Headers.Referrer = referrer;
-            t = await (await _UnauthWebHttpClient.SendAsync(request, HttpCompletionOption.ResponseContentRead)).Content.ReadAsStringAsync();
-
-            var xsrfToken = _UnauthWebCookies.GetCookies(cookieUri).FirstOrDefault(c => c.Name.ToLower() == "xsrf-token")?.Value ?? throw new Exception("xsrf-token not found.");
-
-            // Not required
-            //request = new HttpRequestMessage(HttpMethod.Get, $"{baseUrl}/id/api/location");
-            //request.Headers.Referrer = referrer;
-            //t = await (await _UnauthWebHttpClient.SendAsync(request, HttpCompletionOption.ResponseContentRead)).Content.ReadAsStringAsync();
-
-            // Setup user
-            request = new HttpRequestMessage(HttpMethod.Get, $"{baseUrl}/id/api/client/{user_id}");
-            request.Headers.Referrer = referrer;
-            request.Headers.TryAddWithoutValidation("Cookie", _UnauthWebCookies.GetCookieHeader(cookieUri));
-            request.Headers.TryAddWithoutValidation("X-XSRF-TOKEN", xsrfToken);
-            t = await (await _UnauthWebHttpClient.SendAsync(request, HttpCompletionOption.ResponseContentRead)).Content.ReadAsStringAsync();
-            if (t.Contains("errorCode"))
-                EpicKit.WebApiException.BuildErrorFromJson(JObject.Parse(t));
-
-            // Login user
-            request = new HttpRequestMessage(HttpMethod.Get, $"{baseUrl}/id/api/authenticate");
-            request.Headers.Referrer = referrer;
-            request.Headers.TryAddWithoutValidation("Cookie", _UnauthWebCookies.GetCookieHeader(cookieUri));
-            request.Headers.TryAddWithoutValidation("X-Epic-Client-ID", user_id);
-            request.Headers.TryAddWithoutValidation("X-XSRF-TOKEN", xsrfToken);
-
-            t = await (await _UnauthWebHttpClient.SendAsync(request, HttpCompletionOption.ResponseContentRead)).Content.ReadAsStringAsync();
-            if (t.Contains("errorCode"))
-                EpicKit.WebApiException.BuildErrorFromJson(JObject.Parse(t));
-
-            // Update the continuation sequence
-            var postJsonContent = JsonConvert.SerializeObject(new JObject
-            {
-                { "clientId", user_id },
-                { "continuationToken", continuationToken }
-            });
-            
-            var postContent = new StringContent(postJsonContent, Encoding.UTF8);
-            
-            postContent.Headers.TryAddWithoutValidation("Referrer", referrer.OriginalString);
-            postContent.Headers.TryAddWithoutValidation("Cookie", _UnauthWebCookies.GetCookieHeader(cookieUri));
-            postContent.Headers.TryAddWithoutValidation("X-Epic-Client-ID", user_id);
-            postContent.Headers.TryAddWithoutValidation("X-XSRF-TOKEN", xsrfToken);
-            postContent.Headers.ContentType = MediaTypeHeaderValue.Parse("application/json");
-            
-            t = await (await _UnauthWebHttpClient.PostAsync($"{baseUrl}/id/api/continuation", postContent)).Content.ReadAsStringAsync();
-            if (t.Contains("errorCode"))
-                EpicKit.WebApiException.BuildErrorFromJson(JObject.Parse(t));
-
-            if (scopes == null || scopes.Length <= 0)
-            {
-                scopes = (await EGSApi.GetApplicationInfosAsync(user_id)).AllowedScopes.ToArray();
-            }
-
-            postJsonContent = JsonConvert.SerializeObject(new JObject
-            {
-                { "scope", JArray.FromObject(scopes) },
-                { "continuation", continuationToken }
-            });
-
-            postContent = new StringContent(postJsonContent, Encoding.UTF8);
-
-            postContent.Headers.TryAddWithoutValidation("Referrer", referrer.OriginalString);
-            postContent.Headers.TryAddWithoutValidation("Cookie", _UnauthWebCookies.GetCookieHeader(cookieUri));
-            postContent.Headers.TryAddWithoutValidation("X-Epic-Client-ID", user_id);
-            postContent.Headers.TryAddWithoutValidation("X-XSRF-TOKEN", xsrfToken);
-            postContent.Headers.ContentType = MediaTypeHeaderValue.Parse("application/json");
-
-            t = await (await _UnauthWebHttpClient.PostAsync($"{baseUrl}/id/api/client/{user_id}/authorize", postContent)).Content.ReadAsStringAsync();
-            if (t.Contains("errorCode"))
-                EpicKit.WebApiException.BuildErrorFromJson(JObject.Parse(t));
-        }
-
         static async Task<string> GetGameConnectionTokenAsync(string deployement_id, string user_id, string password, EpicKit.WebAPI.AuthorizationScopes[] scopes, bool autoAcceptScopes = true)
         {
             while (true)
@@ -760,7 +655,7 @@ namespace epic_retriever
                     {
                         if (autoAcceptScopes)
                         {
-                            await AutoContinuationAsync(deployement_id, user_id, password, ex.ContinuationToken, scopes);
+                            await EGSApi.AutoAcceptContinuationAsync(deployement_id, user_id, password, ex.ContinuationToken, scopes);
                         }
                         else
                         {
@@ -925,7 +820,7 @@ namespace epic_retriever
                 });
             }
 
-            foreach(var gameInfos in gamesInfos)
+            foreach (var gameInfos in gamesInfos)
             {
                 try
                 {
@@ -936,10 +831,12 @@ namespace epic_retriever
                         continue;
                     }
 
-                    var gc = new EpicKit.GameConnection();
+                    var gc = new EpicKit.WebAPI.Game.GameConnection();
                     await gc.GameLoginWithRefreshTokenAsync(gameInfos.GameDeployementId, gameInfos.GameUser, gameInfos.GamePassword, token);
 
                     Console.WriteLine($"Generating {gameInfos.GameNamespace}:{gameInfos.GameAppId} achievements...");
+
+                    //var x = await gc.QueryOffersAsync();
 
                     var achievements = await gc.GetAchievementsSchemaAsync();
                     var achievementsDirectory = Path.Combine(BuildSaveGameInfosDirectoryPath(gameInfos.GameNamespace, gameInfos.GameAppId),
