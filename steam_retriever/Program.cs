@@ -12,6 +12,8 @@ using CommandLine;
 using System.Threading.Tasks;
 using System.Net.Http;
 using SteamKit2;
+using log4net;
+using log4net.Layout;
 
 namespace steam_retriever
 {
@@ -44,6 +46,9 @@ namespace steam_retriever
         }
 
         readonly object ExitCondVar = new object();
+
+        public static Program Instance { get; private set; }
+        public ILog _logger;
 
         ProgramOptions Options;
 
@@ -80,7 +85,7 @@ namespace steam_retriever
 
             if (!File.Exists(image_path))
             {
-                Console.WriteLine($"   + Downloading achievement {ach_name} icon...");
+                Program.Instance._logger.Info($"   + Downloading achievement {ach_name} icon...");
                 var response = await LimitSteamWebApiGET(WebHttpClient, new HttpRequestMessage(HttpMethod.Get, url));
 
                 using (BinaryWriter streamWriter = new BinaryWriter(new FileStream(image_path, FileMode.Create), new UTF8Encoding(false)))
@@ -94,14 +99,14 @@ namespace steam_retriever
         {
             if (string.IsNullOrEmpty(Options.WebApiKey))
             {
-                Console.WriteLine("  + WebApi key is missing, the tool will not generate achievements list.");
+                Program.Instance._logger.Info("  + WebApi key is missing, the tool will not generate achievements list.");
                 return;
             }
 
             try
             {
                 int done = 0;
-                Console.WriteLine("  + Trying to retrieve achievements and stats...");
+                Program.Instance._logger.Info("  + Trying to retrieve achievements and stats...");
 
                 var response = await LimitSteamWebApiGET(
                     WebHttpClient,
@@ -134,7 +139,7 @@ namespace steam_retriever
                             done |= SaveAchievementsToFile(appid, achievements) ? 1 : 0;
                             if ((done & 1) != 1)
                             {
-                                Console.WriteLine("  + Failed to save achievements.");
+                                Program.Instance._logger.Info("  + Failed to save achievements.");
                             }
                         }
                         if (((JObject)achievements_json["game"]["availableGameStats"]).ContainsKey("stats"))
@@ -144,23 +149,23 @@ namespace steam_retriever
                             done |= SaveStatsToFile(appid, achievements_json["game"]["availableGameStats"]["stats"]) ? 2 : 0;
                             if ((done & 2) != 2)
                             {
-                                Console.WriteLine("  + Failed to save stats.");
+                                Program.Instance._logger.Info("  + Failed to save stats.");
                             }
                         }
                     }
                 }//using (HttpWebResponse response = (HttpWebResponse)request.GetResponse())
                 if (done == 0)
                 {
-                    Console.WriteLine("  + No achievements or stats available for this AppID.");
+                    Program.Instance._logger.Info("  + No achievements or stats available for this AppID.");
                 }
                 else
                 {
-                    Console.WriteLine("  + Achievements and stats were successfully generated!");
+                    Program.Instance._logger.Info("  + Achievements and stats were successfully generated!");
                 }
             }
             catch (Exception e)
             {
-                Console.WriteLine("  + Failed (no achievements or stats?): {0}", e.Message);
+                Program.Instance._logger.Error($"  + Failed (no achievements or stats?): {e.Message}");
             }
         }
 
@@ -223,14 +228,14 @@ namespace steam_retriever
                                     }
                                     else
                                     {
-                                        Console.Write("Unknown operation: {0}", kv.Value);
+                                        Program.Instance._logger.Error($"Unknown operation: {kv.Value}");
                                     }
                                 }
                                 else if (kv.Name.Contains("operand"))
                                 {
                                     if (stats_thresholds.ContainsKey("stat_name"))
                                     {
-                                        Console.Write("Error, multiple operands in the progress object: {0}:{1}", kv.Name, kv.Value);
+                                        Program.Instance._logger.Error($"Error, multiple operands in the progress object: {kv.Name}:{kv.Value}");
                                     }
                                     else
                                     {
@@ -239,7 +244,7 @@ namespace steam_retriever
                                 }
                                 else
                                 {
-                                    Console.Write("Unhandled progression Key {0}", kv.Name);
+                                    Program.Instance._logger.Info($"Unhandled progression Key {kv.Name}");
                                 }
                             }
 
@@ -393,7 +398,7 @@ namespace steam_retriever
                 { }
             }
 
-            Console.WriteLine("  + No achievements or stats available for this AppID.");
+            Program.Instance._logger.Info("  + No achievements or stats available for this AppID.");
             return false;
         }
 
@@ -425,18 +430,18 @@ namespace steam_retriever
                 {
                     if (await GetItemsDef(appid, digest))
                     {
-                        Console.WriteLine("  + Items list successfully generated!");
+                        Program.Instance._logger.Info("  + Items list successfully generated!");
                     }
                     else
                     {
-                        Console.WriteLine("  + No items exist for this AppID");
+                        Program.Instance._logger.Info("  + No items exist for this AppID");
                     }
                     return true;
                 }
             }
             catch(Exception e)
             {
-                Console.WriteLine(" failed (no items?): {0}", e.Message);
+                Program.Instance._logger.Error($" failed (no items?): {e.Message}");
             }
 
             return false;
@@ -497,11 +502,11 @@ namespace steam_retriever
         {
             if (((JArray)json).Count <= 0)
             {
-                Console.WriteLine("  + No Achievements for this app");
+                Program.Instance._logger.Info("  + No Achievements for this app");
                 return true;
             }
 
-            Console.WriteLine("  + Writing Achievements achievements_db.json");
+            Program.Instance._logger.Info("  + Writing Achievements achievements_db.json");
             return SaveJson(Path.Combine(Options.OutDirectory, appid, "achievements_db.json"), json);
         }
 
@@ -509,10 +514,10 @@ namespace steam_retriever
         {
             if (((JArray)json).Count <= 0)
             {
-                Console.WriteLine("  + No Stats for this app");
+                Program.Instance._logger.Info("  + No Stats for this app");
                 return true;
             }
-            Console.WriteLine("  + Writing stats stats_db.json.");
+            Program.Instance._logger.Info("  + Writing stats stats_db.json.");
             return SaveJson(Path.Combine(Options.OutDirectory, appid, "stats_db.json"), json);
         }
 
@@ -564,7 +569,7 @@ namespace steam_retriever
             }
             catch (Exception e)
             {
-                Console.WriteLine("Failed to save json: {0}", e.Message);
+                Program.Instance._logger.Error($"Failed to save json: {e.Message}");
             }
             return false;
         }
@@ -636,7 +641,7 @@ namespace steam_retriever
                                 CancellationTokenSource cts = new CancellationTokenSource();
 
                                 string controller_path = Path.Combine(Options.CacheOutDirectory, str_appid, file_details.filename);
-                                Console.WriteLine($"  + Saved controller file {controller_path}");
+                                Program.Instance._logger.Info($"  + Saved controller file {controller_path}");
 
                                 SaveFile(
                                     controller_path,
@@ -656,7 +661,7 @@ namespace steam_retriever
                     }
                     catch (Exception e)
                     {
-                        Console.WriteLine($"Failed to download controller config {published_id}: {e.Message}");
+                        Program.Instance._logger.Error($"Failed to download controller config {published_id}: {e.Message}");
                     }
                 }
             }
@@ -788,11 +793,11 @@ namespace steam_retriever
             string app_output_path = Path.Combine(Options.OutDirectory, str_appid, $"{str_appid}.json");
             if (!Options.Force && File.Exists(app_output_path))
             {
-                Console.WriteLine($"Skipping {appid}");
+                Program.Instance._logger.Info($"Skipping {appid}");
                 return true;
             }
 
-            Console.WriteLine($"Parsing {appid}");
+            Program.Instance._logger.Info($"Parsing {appid}");
 
             if (!Options.CacheOnly)
             {
@@ -811,7 +816,7 @@ namespace steam_retriever
                 }
                 catch (Exception e)
                 {
-                    Console.WriteLine($"Failed to save app_infos.vdf: {e.Message}");
+                    Program.Instance._logger.Error($"Failed to save app_infos.vdf: {e.Message}");
                 }
             }
             
@@ -850,7 +855,7 @@ namespace steam_retriever
             
                 SaveJson(app_output_path, infos);
             
-                Console.WriteLine($"  \\ Type {app_type}, AppID {appid}, appName {(string)infos["Name"]}");
+                Program.Instance._logger.Info($"  \\ Type {app_type}, AppID {appid}, appName {(string)infos["Name"]}");
             }
 
             return true;
@@ -869,7 +874,7 @@ namespace steam_retriever
 
             if (Options.CacheOnly)
             {
-                Console.WriteLine("No AppIDs specified but cache_only is set, reading only cached apps.");
+                Program.Instance._logger.Info("No AppIDs specified but cache_only is set, reading only cached apps.");
 
                 foreach(var entry in Directory.EnumerateDirectories(Options.CacheOutDirectory))
                 {
@@ -883,7 +888,7 @@ namespace steam_retriever
             }
             else
             {
-                Console.WriteLine("No AppIDs specified, trying to dump all games from Steam! If that's not what you intended, stop the script right now!");
+                Program.Instance._logger.Info("No AppIDs specified, trying to dump all games from Steam! If that's not what you intended, stop the script right now!");
 
                 var response = await LimitSteamWebApiGET(WebHttpClient, new HttpRequestMessage(HttpMethod.Get, "https://api.steampowered.com/ISteamApps/GetAppList/v2/"));
 
@@ -900,8 +905,47 @@ namespace steam_retriever
             }
         }
 
+        private void InitializeLogger()
+        {
+            PatternLayout patternLayout = new PatternLayout();
+            patternLayout.ConversionPattern = "%date [%thread] %-5level %logger - %message%newline";
+            patternLayout.ActivateOptions();
+
+            var fileAppender = new log4net.Appender.FileAppender
+            {
+                AppendToFile = true,
+                File = Path.Combine(".", "log.txt"),
+                Encoding = System.Text.Encoding.UTF8,
+                ImmediateFlush = true,
+                Name = "DefaultFileAppender",
+                Layout = patternLayout
+            };
+            fileAppender.ActivateOptions();
+
+            var rootLogger = (log4net.Repository.Hierarchy.Hierarchy)log4net.LogManager.GetRepository();
+            rootLogger.Root.AddAppender(fileAppender);
+            var colorConsole = new log4net.Appender.ManagedColoredConsoleAppender
+            {
+                Layout = patternLayout,
+                Target = "Console.Out"
+            };
+            colorConsole.AddMapping(new log4net.Appender.ManagedColoredConsoleAppender.LevelColors { Level = log4net.Core.Level.Info, ForeColor = ConsoleColor.White });
+            colorConsole.AddMapping(new log4net.Appender.ManagedColoredConsoleAppender.LevelColors { Level = log4net.Core.Level.Debug, ForeColor = ConsoleColor.DarkGray });
+            colorConsole.AddMapping(new log4net.Appender.ManagedColoredConsoleAppender.LevelColors { Level = log4net.Core.Level.Warn, ForeColor = ConsoleColor.Yellow });
+            colorConsole.AddMapping(new log4net.Appender.ManagedColoredConsoleAppender.LevelColors { Level = log4net.Core.Level.Error, ForeColor = ConsoleColor.Red });
+            colorConsole.AddMapping(new log4net.Appender.ManagedColoredConsoleAppender.LevelColors { Level = log4net.Core.Level.Fatal, ForeColor = ConsoleColor.Black, BackColor = ConsoleColor.DarkRed });
+            colorConsole.ActivateOptions();
+            rootLogger.Root.AddAppender(colorConsole);
+
+            rootLogger.Root.Level = log4net.Core.Level.Debug;
+            rootLogger.Configured = true;
+            _logger = log4net.LogManager.GetLogger(typeof(Program));
+        }
+
         async Task MainFunc(string[] args)
         {
+            InitializeLogger();
+
             Parser.Default.ParseArguments<ProgramOptions>(args).WithParsed(options => {
                 Options = options;
 
@@ -929,11 +973,12 @@ namespace steam_retriever
                     await GetSteamAppids();
                 }
 
-                Console.WriteLine(string.Format("Got {0} AppIDs to check", AppIds.Count));
+                Program.Instance._logger.Info($"Got {AppIds.Count} AppIDs to check");
 
                 if (AppIds.Count > 0 && !string.IsNullOrWhiteSpace(Options.Username) && !string.IsNullOrWhiteSpace(Options.UserPassword))
                 {
-                    AccountSettingsStore.LoadFromFile("steam_retriever_cred.store");
+                    AccountSettingsStore.Instance.LoadFromFile("steam_retriever_cred.store");
+                    ContentDownloader.Config.RememberPassword = Options.RememberPassword;
                     if (Options.CacheOnly || ContentDownloader.InitializeSteam3(Options.Username, Options.UserPassword))
                     {
                         ContentDownloader.Config.MaxDownloads = 50;
@@ -989,7 +1034,7 @@ namespace steam_retriever
             }
             catch (Exception e)
             {
-                Console.WriteLine("Error {0}", e.Message);
+                Program.Instance._logger.Error($"Error {e.Message}");
             }
 
             if (WebSteamUser != null)
@@ -1002,11 +1047,11 @@ namespace steam_retriever
 
         static async Task Main(string[] args)
         {
-            Program program = new Program();
+            Instance = new Program();
 
-            await program.MainFunc(args);
+            await Instance.MainFunc(args);
 
-            Console.WriteLine("Work done, exiting now.");
+            Program.Instance._logger.Info("Work done, exiting now.");
         }
     }
 
@@ -1019,6 +1064,8 @@ namespace steam_retriever
 
         [Option('p', "password", Required = false, HelpText = "The steam user password.")]
         public string UserPassword { get; set; } = string.Empty;
+        [Option('r', "remember-password", Required = false, HelpText = "Save password for future login.")]
+        public bool RememberPassword { get; set; } = false;
 
         [Option('l', "language", Required = false, HelpText = "Sets the output language (if available). Default value is english.")]
         public string Language { get; set; } = "english";

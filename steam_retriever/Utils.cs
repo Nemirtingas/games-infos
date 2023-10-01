@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Newtonsoft.Json.Linq;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -61,7 +62,7 @@ namespace steam_retriever
                 if (c >= ' ' && c <= '~')
                 {
                     password.Append(c);
-                    Console.Write('*');
+                    Console.Write("*");
                 }
             } while (keyInfo.Key != ConsoleKey.Enter);
 
@@ -110,7 +111,7 @@ namespace steam_retriever
                 b = (b + a) % 65521;
             }
 
-            return BitConverter.GetBytes(a | (b << 16));
+            return System.BitConverter.GetBytes(a | (b << 16));
         }
 
         public static byte[] SHAHash(byte[] input)
@@ -137,12 +138,7 @@ namespace steam_retriever
             return bytes;
         }
 
-        public static string EncodeHexString(byte[] input)
-        {
-            return input.Aggregate(new StringBuilder(),
-                (sb, v) => sb.Append(v.ToString("x2"))
-            ).ToString();
-        }
+        public static string EncodeHexString(byte[] input) => input.Aggregate(new StringBuilder(), (sb, v) => sb.Append(v.ToString("x2"))).ToString();
 
         public static async Task InvokeAsync(IEnumerable<Func<Task>> taskFactories, int maxDegreeOfParallelism)
         {
@@ -174,6 +170,20 @@ namespace steam_retriever
 
                 tasksInFlight.Remove(completedTask);
             } while (index < queue.Length || tasksInFlight.Count != 0);
+        }
+
+        public static JObject ParseJsonWebToken(string token)
+        {
+            var tokenComponents = token.Split('.');
+
+            var base64 = tokenComponents[1].Replace('-', '+').Replace('_', '/');
+
+            if (base64.Length % 4 != 0)
+            {
+                base64 += new string('=', 4 - base64.Length % 4);
+            }
+
+            return JObject.Parse(Encoding.UTF8.GetString(Convert.FromBase64String(base64)));
         }
     }
 }

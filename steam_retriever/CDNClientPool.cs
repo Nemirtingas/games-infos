@@ -61,7 +61,7 @@ namespace steam_retriever
             }
             catch (Exception ex)
             {
-                Console.WriteLine("Failed to retrieve content server list: {0}", ex.Message);
+                Program.Instance._logger.Error($"Failed to retrieve content server list: {ex.Message}");
             }
 
             return null;
@@ -96,7 +96,7 @@ namespace steam_retriever
                         })
                         .Select(server =>
                         {
-                            AccountSettingsStore.Instance.ContentServerPenalty.TryGetValue(server.Host, out var penalty);
+                            AccountSettingsStore.Instance.Settings.ContentServerPenalty.TryGetValue(server.Host, out var penalty);
 
                             return (server, penalty);
                         })
