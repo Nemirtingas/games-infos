@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Concurrent;
-using System.Collections.Generic;
+﻿using System.Collections.Concurrent;
 using System.IO;
 using System.IO.Compression;
 using System.IO.IsolatedStorage;
@@ -9,80 +7,100 @@ using ProtoBuf;
 namespace steam_retriever
 {
     [ProtoContract]
+    class AccountSettingsData
+    {
+        [ProtoMember(1, IsRequired = true)]
+        public uint Version { get; init; }
+        [ProtoMember(2, IsRequired = false)]
+        public ConcurrentDictionary<string, int> ContentServerPenalty { get; set; }
+        [ProtoMember(3, IsRequired = false)]
+        public ConcurrentDictionary<string, string> RefreshToken { get; set; }
+        [ProtoMember(4, IsRequired = false)]
+        public ConcurrentDictionary<string, byte[]> SentryData { get; set; }
+    }
+
     class AccountSettingsStore
     {
-        [ProtoMember(1, IsRequired = false)]
-        public Dictionary<string, byte[]> SentryData { get; private set; }
+        private const uint CurrentVersion = 1;
 
-        [ProtoMember(2, IsRequired = false)]
-        public ConcurrentDictionary<string, int> ContentServerPenalty { get; private set; }
-
-        [ProtoMember(3, IsRequired = false)]
-        public Dictionary<string, string> LoginKeys { get; private set; }
+        public AccountSettingsData Settings { get; private set; }
 
         string FileName;
 
         AccountSettingsStore()
         {
-            SentryData = new Dictionary<string, byte[]>();
-            ContentServerPenalty = new ConcurrentDictionary<string, int>();
-            LoginKeys = new Dictionary<string, string>();
+            Settings = new AccountSettingsData
+            {
+                Version = CurrentVersion,
+                ContentServerPenalty = new ConcurrentDictionary<string, int>(),
+                RefreshToken = new ConcurrentDictionary<string, string>(),
+                SentryData = new ConcurrentDictionary<string, byte[]>(),
+            };
         }
 
-        static bool Loaded
+        readonly IsolatedStorageFile IsolatedStorage = IsolatedStorageFile.GetUserStoreForAssembly();
+        private static AccountSettingsStore _instance;
+        public static AccountSettingsStore Instance { get => _instance ??= new AccountSettingsStore(); }
+
+        public void LoadFromFile(string filename)
         {
-            get { return Instance != null; }
-        }
-
-        public static AccountSettingsStore Instance;
-        static readonly IsolatedStorageFile IsolatedStorage = IsolatedStorageFile.GetUserStoreForAssembly();
-
-        public static void LoadFromFile(string filename)
-        {
-            if (Loaded)
-                throw new Exception("Config already loaded");
-
             if (IsolatedStorage.FileExists(filename))
             {
                 try
                 {
+                    var ms = new MemoryStream();
                     using (var fs = IsolatedStorage.OpenFile(filename, FileMode.Open, FileAccess.Read))
                     using (var ds = new DeflateStream(fs, CompressionMode.Decompress))
                     {
-                        Instance = Serializer.Deserialize<AccountSettingsStore>(ds);
+                        ds.CopyTo(ms);
+                    }
+
+                    ms.Seek(0, SeekOrigin.Begin);
+                    var version = Serializer.Deserialize<uint>(ms);
+                    ms.Seek(0, SeekOrigin.Begin);
+                    switch (version)
+                    {
+                        case 1: HandleVersion1(ms); break;
                     }
                 }
                 catch (IOException ex)
                 {
-                    Console.WriteLine("Failed to load account settings: {0}", ex.Message);
-                    Instance = new AccountSettingsStore();
+                    Program.Instance._logger.Error($"Failed to load account settings: {ex.Message}");
                 }
-            }
-            else
-            {
-                Instance = new AccountSettingsStore();
+                catch (ProtoException ex)
+                {
+                    Program.Instance._logger.Error($"Failed to load deserialize protobuf: {ex.Message}");
+                }
             }
 
             Instance.FileName = filename;
         }
 
-        public static void Save()
+        public void Save()
         {
-            if (!Loaded)
-                throw new Exception("Saved config before loading");
-
             try
             {
                 using (var fs = IsolatedStorage.OpenFile(Instance.FileName, FileMode.Create, FileAccess.Write))
                 using (var ds = new DeflateStream(fs, CompressionMode.Compress))
                 {
-                    Serializer.Serialize(ds, Instance);
+                    Serializer.Serialize(ds, Instance.Settings);
                 }
             }
             catch (IOException ex)
             {
-                Console.WriteLine("Failed to save account settings: {0}", ex.Message);
+                Program.Instance._logger.Error("Failed to save account settings: {0}", ex);
             }
+        }
+
+        private void HandleVersion1(MemoryStream ms)
+        {
+            Settings = Serializer.Deserialize<AccountSettingsData>(ms);
+            if (Settings == null)
+                Settings = new AccountSettingsData();
+
+            Settings.ContentServerPenalty ??= new ConcurrentDictionary<string, int>();
+            Settings.RefreshToken ??= new ConcurrentDictionary<string, string>();
+            Settings.SentryData ??= new ConcurrentDictionary<string, byte[]>();
         }
     }
 }

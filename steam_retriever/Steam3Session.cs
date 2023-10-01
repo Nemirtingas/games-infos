@@ -6,7 +6,9 @@ using System.IO;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
+using QRCoder;
 using SteamKit2;
+using SteamKit2.Authentication;
 using SteamKit2.Internal;
 
 namespace steam_retriever
@@ -152,16 +154,17 @@ namespace steam_retriever
         bool bAborted;
         bool bExpectingDisconnectRemote;
         bool bDidDisconnect;
-        bool bDidReceiveLoginKey;
         bool bIsConnectionRecovery;
         int connectionBackoff;
         int seq; // more hack fixes
         DateTime connectTime;
+        AuthSession authSession;
 
         Task CallbackTask;
         CancellationTokenSource CallbackCancellationSource;
 
         // input
+        readonly string password;
         readonly SteamUser.LogOnDetails logonDetails;
 
         // output
@@ -173,6 +176,7 @@ namespace steam_retriever
         {
             this.CallbackCancellationSource = null;
 
+            password = details.Password;
             this.logonDetails = details;
 
             this.authenticatedUser = details.Username != null;
@@ -182,7 +186,6 @@ namespace steam_retriever
             this.bAborted = false;
             this.bExpectingDisconnectRemote = false;
             this.bDidDisconnect = false;
-            this.bDidReceiveLoginKey = false;
             this.seq = 0;
 
             this.AppTokens = new Dictionary<uint, ulong>();
@@ -194,8 +197,7 @@ namespace steam_retriever
             this.AppBetaPasswords = new Dictionary<string, byte[]>();
 
             var clientConfiguration = SteamConfiguration.Create(config =>
-                config
-                    .WithHttpClientFactory(HttpClientFactory.CreateHttpClient)
+                config.WithHttpClientFactory(HttpClientFactory.CreateHttpClient)
             );
 
             this.steamClient = new SteamClient(clientConfiguration);
@@ -220,23 +222,22 @@ namespace steam_retriever
             this.callbacks.Subscribe<SteamUser.SessionTokenCallback>(SessionTokenCallback);
             this.callbacks.Subscribe<SteamApps.LicenseListCallback>(LicenseListCallback);
             this.callbacks.Subscribe<SteamUser.UpdateMachineAuthCallback>(UpdateMachineAuthCallback);
-            this.callbacks.Subscribe<SteamUser.LoginKeyCallback>(LoginKeyCallback);
 
             Console.Write("Connecting to Steam3...");
 
-            if (authenticatedUser)
+            if (details.Username != null)
             {
-                var fi = new FileInfo(String.Format("{0}.sentryFile", logonDetails.Username));
-                if (AccountSettingsStore.Instance.SentryData != null && AccountSettingsStore.Instance.SentryData.ContainsKey(logonDetails.Username))
+                var fi = new FileInfo($"{logonDetails.Username}.sentryFile");
+                if (AccountSettingsStore.Instance.Settings.SentryData != null && AccountSettingsStore.Instance.Settings.SentryData.ContainsKey(logonDetails.Username))
                 {
-                    logonDetails.SentryFileHash = Util.SHAHash(AccountSettingsStore.Instance.SentryData[logonDetails.Username]);
+                    logonDetails.SentryFileHash = Util.SHAHash(AccountSettingsStore.Instance.Settings.SentryData[logonDetails.Username]);
                 }
                 else if (fi.Exists && fi.Length > 0)
                 {
                     var sentryData = File.ReadAllBytes(fi.FullName);
                     logonDetails.SentryFileHash = Util.SHAHash(sentryData);
-                    AccountSettingsStore.Instance.SentryData[logonDetails.Username] = sentryData;
-                    AccountSettingsStore.Save();
+                    AccountSettingsStore.Instance.Settings.SentryData[logonDetails.Username] = sentryData;
+                    AccountSettingsStore.Instance.Save();
                 }
             }
 
@@ -543,7 +544,6 @@ namespace steam_retriever
             bExpectingDisconnectRemote = false;
             bDidDisconnect = false;
             bIsConnectionRecovery = false;
-            bDidReceiveLoginKey = false;
         }
 
         void Connect()
@@ -552,6 +552,7 @@ namespace steam_retriever
             bConnected = false;
             bConnecting = true;
             connectionBackoff = 0;
+            authSession = null;
 
             ResetConnectionFlags();
 
@@ -592,23 +593,6 @@ namespace steam_retriever
             steamClient.Disconnect();
         }
 
-        public void TryWaitForLoginKey()
-        {
-            if (logonDetails.Username == null || !credentials.LoggedOn || !ContentDownloader.Config.RememberPassword) return;
-
-            var totalWaitPeriod = DateTime.Now.AddSeconds(3);
-
-            while (true)
-            {
-                var now = DateTime.Now;
-                if (now >= totalWaitPeriod) break;
-
-                if (bDidReceiveLoginKey) break;
-
-                callbacks.RunWaitAllCallbacks(TimeSpan.FromMilliseconds(100));
-            }
-        }
-
         private void WaitForCallbacks()
         {
             callbacks.RunWaitCallbacks(TimeSpan.FromSeconds(1));
@@ -622,19 +606,119 @@ namespace steam_retriever
             }
         }
 
-        private void ConnectedCallback(SteamClient.ConnectedCallback connected)
+        private async void ConnectedCallback(SteamClient.ConnectedCallback connected)
         {
-            Console.WriteLine(" Done!");
+            Program.Instance._logger.InfoFormat(" Done!");
             bConnecting = false;
             bConnected = true;
+
+            // Update our tracking so that we don't time out, even if we need to reconnect multiple times, 
+            // e.g. if the authentication phase takes a while and therefore multiple connections. 
+            connectTime = DateTime.Now;
+            connectionBackoff = 0;
+
             if (!authenticatedUser)
             {
-                Console.Write("Logging anonymously into Steam3...");
+                Program.Instance._logger.InfoFormat("Logging anonymously into Steam3...");
                 steamUser.LogOnAnonymous();
             }
             else
             {
-                Console.Write("Logging '{0}' into Steam3...", logonDetails.Username);
+                if (logonDetails.Username != null)
+                {
+                    Program.Instance._logger.Info($"Logging '{logonDetails.Username}' into Steam3...");
+                }
+
+                if (authSession is null)
+                {
+                    if (logonDetails.Username != null && logonDetails.Password != null && logonDetails.AccessToken is null)
+                    {
+                        try
+                        {
+                            authSession = await steamClient.Authentication.BeginAuthSessionViaCredentialsAsync(new AuthSessionDetails
+                            {
+                                Username = logonDetails.Username,
+                                Password = logonDetails.Password,
+                                IsPersistentSession = ContentDownloader.Config.RememberPassword,
+                                Authenticator = new UserConsoleAuthenticator(),
+                            });
+                        }
+                        catch (TaskCanceledException)
+                        {
+                            return;
+                        }
+                        catch (Exception ex)
+                        {
+                            Program.Instance._logger.Error($"Failed to authenticate with Steam: {ex.Message}");
+                            Abort(false);
+                            return;
+                        }
+                    }
+                    else if (logonDetails.AccessToken is null && ContentDownloader.Config.UseQrCode)
+                    {
+                        Program.Instance._logger.Info("Logging in with QR code...");
+
+                        try
+                        {
+                            var session = await steamClient.Authentication.BeginAuthSessionViaQRAsync(new AuthSessionDetails
+                            {
+                                IsPersistentSession = ContentDownloader.Config.RememberPassword,
+                                Authenticator = new UserConsoleAuthenticator(),
+                            });
+
+                            authSession = session;
+
+                            // Steam will periodically refresh the challenge url, so we need a new QR code. 
+                            session.ChallengeURLChanged = () =>
+                            {
+                                Program.Instance._logger.Info("The QR code has changed:");
+
+                                DisplayQrCode(session.ChallengeURL);
+                            };
+
+                            // Draw initial QR code immediately 
+                            DisplayQrCode(session.ChallengeURL);
+                        }
+                        catch (TaskCanceledException)
+                        {
+                            return;
+                        }
+                        catch (Exception ex)
+                        {
+                            Program.Instance._logger.Error($"Failed to authenticate with Steam: {ex.Message}");
+                            Abort(false);
+                            return;
+                        }
+                    }
+                }
+
+                if (authSession != null)
+                {
+                    try
+                    {
+                        var result = await authSession.PollingWaitForResultAsync();
+
+                        logonDetails.Username = result.AccountName;
+                        logonDetails.Password = null;
+                        logonDetails.AccessToken = result.RefreshToken;
+
+                        AccountSettingsStore.Instance.Settings.RefreshToken[result.AccountName] = result.RefreshToken;
+                        AccountSettingsStore.Instance.Save();
+                    }
+                    catch (TaskCanceledException)
+                    {
+                        return;
+                    }
+                    catch (Exception ex)
+                    {
+                        Program.Instance._logger.Error($"Failed to authenticate with Steam: {ex.Message}");
+                        Abort(false);
+                        return;
+                    }
+
+                    authSession = null;
+                }
+
                 steamUser.LogOn(logonDetails);
             }
         }
@@ -681,16 +765,16 @@ namespace steam_retriever
         {
             var isSteamGuard = loggedOn.Result == EResult.AccountLogonDenied;
             var is2FA = loggedOn.Result == EResult.AccountLoginDeniedNeedTwoFactor;
-            var isLoginKey = ContentDownloader.Config.RememberPassword && logonDetails.LoginKey != null && loggedOn.Result == EResult.InvalidPassword;
+            var isAccessToken = ContentDownloader.Config.RememberPassword && logonDetails.AccessToken != null && loggedOn.Result == EResult.InvalidPassword; // TODO: Get EResult for bad access token 
 
-            if (isSteamGuard || is2FA || isLoginKey)
+            if (isSteamGuard || is2FA || isAccessToken)
             {
                 bExpectingDisconnectRemote = true;
                 Abort(false);
 
-                if (!isLoginKey)
+                if (!isAccessToken)
                 {
-                    Console.WriteLine("This account is protected by Steam Guard.");
+                    Program.Instance._logger.Info("This account is protected by Steam Guard.");
                 }
 
                 if (is2FA)
@@ -699,36 +783,28 @@ namespace steam_retriever
                     {
                         Console.Write("Please enter your 2 factor auth code from your authenticator app: ");
                         logonDetails.TwoFactorCode = Console.ReadLine();
-                    } while (String.Empty == logonDetails.TwoFactorCode);
+                    } while (string.IsNullOrWhiteSpace(logonDetails.TwoFactorCode));
                 }
-                else if (isLoginKey)
+                else if (isAccessToken)
                 {
-                    AccountSettingsStore.Instance.LoginKeys.Remove(logonDetails.Username);
-                    AccountSettingsStore.Save();
+                    AccountSettingsStore.Instance.Settings.RefreshToken.Remove(logonDetails.Username, out var _);
+                    AccountSettingsStore.Instance.Save();
 
-                    logonDetails.LoginKey = null;
-
-                    if (ContentDownloader.Config.SuppliedPassword != null)
-                    {
-                        Console.WriteLine("Login key was expired. Connecting with supplied password.");
-                        logonDetails.Password = ContentDownloader.Config.SuppliedPassword;
-                    }
-                    else
-                    {
-                        Console.Write("Login key was expired. Please enter your password: ");
-                        logonDetails.Password = Util.ReadPassword();
-                    }
+                    // TODO: Handle gracefully by falling back to password prompt? 
+                    Program.Instance._logger.Info("Access token was rejected.");
+                    Abort(false);
+                    return;
                 }
                 else
                 {
                     do
                     {
-                        Console.Write("Please enter the authentication code sent to your email address: ");
+                        Program.Instance._logger.Info("Please enter the authentication code sent to your email address: ");
                         logonDetails.AuthCode = Console.ReadLine();
                     } while (string.Empty == logonDetails.AuthCode);
                 }
 
-                Console.Write("Retrying Steam3 connection...");
+                Program.Instance._logger.Info("Retrying Steam3 connection...");
                 Connect();
 
                 return;
@@ -736,7 +812,7 @@ namespace steam_retriever
 
             if (loggedOn.Result == EResult.TryAnotherCM)
             {
-                Console.Write("Retrying Steam3 connection (TryAnotherCM)...");
+                Program.Instance._logger.Info("Retrying Steam3 connection (TryAnotherCM)...");
 
                 Reconnect();
 
@@ -745,28 +821,44 @@ namespace steam_retriever
 
             if (loggedOn.Result == EResult.ServiceUnavailable)
             {
-                Console.WriteLine("Unable to login to Steam3: {0}", loggedOn.Result);
+                Program.Instance._logger.Info($"Unable to login to Steam3: {loggedOn.Result}");
                 Abort(false);
+
+                return;
+            }
+
+            if (loggedOn.Result == EResult.Expired)
+            {
+                Program.Instance._logger.Info($"Unable to login to Steam3: {loggedOn.Result}");
+
+                AccountSettingsStore.Instance.Settings.RefreshToken.Remove(logonDetails.Username, out var _);
+                AccountSettingsStore.Instance.Save();
+
+                logonDetails.Password = password;
+                logonDetails.AccessToken = null;
+                bExpectingDisconnectRemote = true;
+                Abort(false);
+                Connect();
 
                 return;
             }
 
             if (loggedOn.Result != EResult.OK)
             {
-                Console.WriteLine("Unable to login to Steam3: {0}", loggedOn.Result);
+                Program.Instance._logger.Info($"Unable to login to Steam3: {loggedOn.Result}");
                 Abort();
 
                 return;
             }
 
-            Console.WriteLine(" Done!");
+            Program.Instance._logger.Info(" Done!");
 
             this.seq++;
             credentials.LoggedOn = true;
 
             if (ContentDownloader.Config.CellID == 0)
             {
-                Console.WriteLine("Using Steam3 suggested CellID: " + loggedOn.CellID);
+                Program.Instance._logger.Info($"Using Steam3 suggested CellID: {loggedOn.CellID}");
                 ContentDownloader.Config.CellID = (int)loggedOn.CellID;
             }
         }
@@ -804,8 +896,8 @@ namespace steam_retriever
             var hash = Util.SHAHash(machineAuth.Data);
             Console.WriteLine("Got Machine Auth: {0} {1} {2} {3}", machineAuth.FileName, machineAuth.Offset, machineAuth.BytesToWrite, machineAuth.Data.Length, hash);
 
-            AccountSettingsStore.Instance.SentryData[logonDetails.Username] = machineAuth.Data;
-            AccountSettingsStore.Save();
+            AccountSettingsStore.Instance.Settings.SentryData[logonDetails.Username] = machineAuth.Data;
+            AccountSettingsStore.Instance.Save();
 
             var authResponse = new SteamUser.MachineAuthDetails
             {
@@ -828,16 +920,16 @@ namespace steam_retriever
             steamUser.SendMachineAuthResponse(authResponse);
         }
 
-        private void LoginKeyCallback(SteamUser.LoginKeyCallback loginKey)
+        private static void DisplayQrCode(string challengeUrl)
         {
-            //Console.WriteLine("Accepted new login key for account {0}", logonDetails.Username);
+            // Encode the link as a QR code 
+            using var qrGenerator = new QRCodeGenerator();
+            var qrCodeData = qrGenerator.CreateQrCode(challengeUrl, QRCodeGenerator.ECCLevel.L);
+            using var qrCode = new AsciiQRCode(qrCodeData);
+            var qrCodeAsAsciiArt = qrCode.GetGraphic(1, drawQuietZones: false);
 
-            AccountSettingsStore.Instance.LoginKeys[logonDetails.Username] = loginKey.LoginKey;
-            AccountSettingsStore.Save();
-
-            steamUser.AcceptNewLoginKey(loginKey);
-
-            bDidReceiveLoginKey = true;
+            Program.Instance._logger.Info("Use the Steam Mobile App to sign in with this QR code:");
+            Console.WriteLine(qrCodeAsAsciiArt);
         }
     }
 }
