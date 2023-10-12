@@ -817,6 +817,7 @@ namespace epic_retriever
                     GamePassword = ProgramOptions.GamePassword,
                     GameDeployementId = ProgramOptions.GameDeployementId,
                     GameNamespace = ProgramOptions.AppNamespace,
+                    GameAppId = ProgramOptions.GameAppId
                 });
             }
 
