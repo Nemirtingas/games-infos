@@ -891,6 +891,7 @@ namespace epic_retriever
                 catch(Exception ex)
                 {
                     Console.WriteLine($"Failed to get {gameInfos.GameNamespace}:{gameInfos.GameAppId} achievements: {ex.Message}");
+                    Console.WriteLine(ex.StackTrace);
                 }
             }
         }
