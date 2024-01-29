@@ -1085,10 +1085,10 @@ namespace steam_retriever
         [Option('f', "force", Required = false, HelpText = "Force to download game's infos (usefull if you want to refresh a game).")]
         public bool Force { get; set; } = false;
 
-        [Option("cache-only", Required = false, HelpText = "Use the cached datas only, don't query Steam.")]
+        [Option("cache-only", Required = false, HelpText = "Use the cached data only, don't query Steam.")]
         public bool CacheOnly { get; set; } = false;
 
-        [Option("cache-out", Required = false, HelpText = "Where to output the metadatas cache.")]
+        [Option("cache-out", Required = false, HelpText = "Where to output the metadata cache.")]
         public string CacheOutDirectory { get; set; } = "steam_cache";
 
         [Option('o', "out", Required = false, HelpText = "Where to output your game definitions. By default it will output to 'steam' directory alongside the executable.")]

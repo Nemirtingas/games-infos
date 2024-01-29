@@ -25,7 +25,7 @@ namespace epic_retriever
         [Option('o', "out", Required = false, HelpText = "Where to output your game definitions. By default it will output to 'epic' directory alongside the executable.")]
         public string OutDirectory { get; set; } = "epic";
 
-        [Option('c', "cache-out", Required = false, HelpText = "Where to output the cache datas. By default it will output to 'epic_cache' directory alongside the executable.")]
+        [Option('c', "cache-out", Required = false, HelpText = "Where to output the cache data. By default it will output to 'epic_cache' directory alongside the executable.")]
         public string OutCacheDirectory { get; set; } = "epic_cache";
 
         [Option('w', "from-web", Required = false, HelpText = "Try to deduce the catalog id from the app web page.")]
@@ -154,7 +154,7 @@ namespace epic_retriever
             }
         }
 
-        static bool CachedDatasChanged(ApplicationAsset asset)
+        static bool CachedDataChanged(ApplicationAsset asset)
         {
             if (ProgramOptions.Force || asset == null)
                 return true;
@@ -196,7 +196,7 @@ namespace epic_retriever
         {
             StoreApplicationInfos app = null;
 
-            //if (CachedDatasChanged())
+            //if (CachedDataChanged())
             {
                 //SaveAppAsset();
 
