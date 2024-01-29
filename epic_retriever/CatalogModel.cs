@@ -16,6 +16,7 @@ namespace epic_retriever
         UNLOCKABLE,
         BUNDLE,
         CONSUMABLE,
+        EXPERIENCE,
     }
 
     public class CatalogDataCatalogOffersElementItemModel
