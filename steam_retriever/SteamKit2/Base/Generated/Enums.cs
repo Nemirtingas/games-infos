@@ -74,9 +74,10 @@ namespace SteamKit2.Internal
     public enum EContentCheckProvider
     {
         k_EContentCheckProvider_Invalid = 0,
-        k_EContentCheckProvider_Google = 1,
+        k_EContentCheckProvider_Google_DEPRECATED = 1,
         k_EContentCheckProvider_Amazon = 2,
         k_EContentCheckProvider_Local = 3,
+        k_EContentCheckProvider_GoogleVertexAI = 4,
     }
 
     [global::ProtoBuf.ProtoContract()]
@@ -138,6 +139,18 @@ namespace SteamKit2.Internal
     }
 
     [global::ProtoBuf.ProtoContract()]
+    public enum EStorageFormatStage
+    {
+        k_EStorageFormatStage_Invalid = 0,
+        k_EStorageFormatStage_NotRunning = 1,
+        k_EStorageFormatStage_Starting = 2,
+        k_EStorageFormatStage_Testing = 3,
+        k_EStorageFormatStage_Rescuing = 4,
+        k_EStorageFormatStage_Formatting = 5,
+        k_EStorageFormatStage_Finalizing = 6,
+    }
+
+    [global::ProtoBuf.ProtoContract()]
     public enum ESystemFanControlMode
     {
         k_SystemFanControlMode_Invalid = 0,
@@ -146,12 +159,19 @@ namespace SteamKit2.Internal
     }
 
     [global::ProtoBuf.ProtoContract()]
-    public enum EColorProfile
+    public enum EStartupMovieVariant
     {
-        k_EColorProfile_Invalid = 0,
-        k_EColorProfile_Native = 1,
-        k_EColorProfile_Standard = 2,
-        k_EColorProfile_Vivid = 3,
+        k_EStartupMovieVariant_Invalid = 0,
+        k_EStartupMovieVariant_Default = 1,
+        k_EStartupMovieVariant_Orange = 2,
+    }
+
+    [global::ProtoBuf.ProtoContract()]
+    public enum EColorGamutLabelSet
+    {
+        k_ColorGamutLabelSet_Default = 0,
+        k_ColorGamutLabelSet_sRGB_Native = 1,
+        k_ColorGamutLabelSet_Native_sRGB_Boosted = 2,
     }
 
     [global::ProtoBuf.ProtoContract()]
@@ -274,6 +294,35 @@ namespace SteamKit2.Internal
     }
 
     [global::ProtoBuf.ProtoContract()]
+    public enum EGamescopeBlurMode
+    {
+        k_EGamescopeBlurMode_Disabled = 0,
+        k_EGamescopeBlurMode_IfOccluded = 1,
+        k_EGamescopeBlurMode_Always = 2,
+    }
+
+    [global::ProtoBuf.ProtoContract()]
+    public enum ESLSHelper
+    {
+        k_ESLSHelper_Invalid = 0,
+        k_ESLSHelper_Minidump = 1,
+        k_ESLSHelper_Kdump = 2,
+        k_ESLSHelper_Journal = 3,
+        k_ESLSHelper_Gpu = 4,
+        k_ESLSHelper_SystemInfo = 5,
+    }
+
+    [global::ProtoBuf.ProtoContract()]
+    public enum EHDRVisualization
+    {
+        k_EHDRVisualization_None = 0,
+        k_EHDRVisualization_Heatmap = 1,
+        k_EHDRVisualization_Analysis = 2,
+        k_EHDRVisualization_HeatmapExtended = 3,
+        k_EHDRVisualization_HeatmapClassic = 4,
+    }
+
+    [global::ProtoBuf.ProtoContract()]
     public enum EHDRToneMapOperator
     {
         k_EHDRToneMapOperator_Invalid = 0,
@@ -369,6 +418,16 @@ namespace SteamKit2.Internal
         k_ESteamDeckCompatibilityResultDisplayType_Unsupported = 2,
         k_ESteamDeckCompatibilityResultDisplayType_Playable = 3,
         k_ESteamDeckCompatibilityResultDisplayType_Verified = 4,
+    }
+
+    [global::ProtoBuf.ProtoContract()]
+    public enum ESteamDeckCompatibilityTestResult
+    {
+        k_ESteamDeckCompatibilityTestResult_Invalid = 0,
+        k_ESteamDeckCompatibilityTestResult_NotApplicable = 1,
+        k_ESteamDeckCompatibilityTestResult_Pass = 2,
+        k_ESteamDeckCompatibilityTestResult_Fail = 3,
+        k_ESteamDeckCompatibilityTestResult_FailMinor = 4,
     }
 
     [global::ProtoBuf.ProtoContract()]
@@ -475,6 +534,83 @@ namespace SteamKit2.Internal
         k_ENewSteamAnnouncementState_AllRead = 1,
         k_ENewSteamAnnouncementState_NewAnnouncement = 2,
         k_ENewSteamAnnouncementState_FeaturedAnnouncement = 3,
+    }
+
+    [global::ProtoBuf.ProtoContract()]
+    public enum ECommentThreadType
+    {
+        k_ECommentThreadTypeInvalid = 0,
+        k_ECommentThreadTypeScreenshot_Deprecated = 1,
+        k_ECommentThreadTypeWorkshopAccount_Developer = 2,
+        k_ECommentThreadTypeWorkshopAccount_Public = 3,
+        k_ECommentThreadTypePublishedFile_Developer = 4,
+        k_ECommentThreadTypePublishedFile_Public = 5,
+        k_ECommentThreadTypeTest = 6,
+        k_ECommentThreadTypeForumTopic = 7,
+        k_ECommentThreadTypeRecommendation = 8,
+        k_ECommentThreadTypeVideo_Deprecated = 9,
+        k_ECommentThreadTypeProfile = 10,
+        k_ECommentThreadTypeNewsPost = 11,
+        k_ECommentThreadTypeClan = 12,
+        k_ECommentThreadTypeClanAnnouncement = 13,
+        k_ECommentThreadTypeClanEvent = 14,
+        k_ECommentThreadTypeUserStatusPublished = 15,
+        k_ECommentThreadTypeUserReceivedNewGame = 16,
+        k_ECommentThreadTypePublishedFile_Announcement = 17,
+        k_ECommentThreadTypeModeratorMessage = 18,
+        k_ECommentThreadTypeClanCuratedApp = 19,
+        k_ECommentThreadTypeQAndASession = 20,
+        k_ECommentThreadTypeMax = 21,
+    }
+
+    [global::ProtoBuf.ProtoContract()]
+    public enum EBroadcastPermission
+    {
+        k_EBroadcastPermissionDisabled = 0,
+        k_EBroadcastPermissionFriendsApprove = 1,
+        k_EBroadcastPermissionFriendsAllowed = 2,
+        k_EBroadcastPermissionPublic = 3,
+        k_EBroadcastPermissionSubscribers = 4,
+    }
+
+    [global::ProtoBuf.ProtoContract()]
+    public enum EBroadcastEncoderSetting
+    {
+        k_EBroadcastEncoderBestQuality = 0,
+        k_EBroadcastEncoderBestPerformance = 1,
+    }
+
+    [global::ProtoBuf.ProtoContract()]
+    public enum ECloudGamingPlatform
+    {
+        k_ECloudGamingPlatformNone = 0,
+        k_ECloudGamingPlatformValve = 1,
+        k_ECloudGamingPlatformNVIDIA = 2,
+    }
+
+    [global::ProtoBuf.ProtoContract()]
+    public enum ECompromiseDetectionType
+    {
+        k_ECompromiseDetectionType_None = 0,
+        k_ECompromiseDetectionType_TradeEvent = 1,
+        k_ECompromiseDetectionType_ApiCallRate = 2,
+    }
+
+    [global::ProtoBuf.ProtoContract()]
+    public enum EAsyncGameSessionUserState
+    {
+        k_EAsyncGameSessionUserStateUnknown = -1,
+        k_EAsyncGameSessionUserStateWaitingForOthers = 0,
+        k_EAsyncGameSessionUserStateReadyForAction = 1,
+        k_EAsyncGameSessionUserStateDone = 2,
+    }
+
+    [global::ProtoBuf.ProtoContract()]
+    public enum EAsyncGameSessionUserVisibility
+    {
+        k_EAsyncGameSessionUserVisibilityEnvelopeAndSessionList = 0,
+        k_EAsyncGameSessionUserVisibilitySessionListOnly = 1,
+        k_EAsyncGameSessionUserVisibilityDismissed = 2,
     }
 
 }

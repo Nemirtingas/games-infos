@@ -18,7 +18,7 @@ namespace SteamKit2
     /// <summary>
     /// Utility class for interacting with the Steam Web API.
     /// </summary>
-    public sealed class WebAPI
+    public sealed partial class WebAPI
     {
         /// <summary>
         /// Represents a response to a WebAPI request.
@@ -193,12 +193,15 @@ namespace SteamKit2
         /// This is a dynamic object that allows function calls to interfaces with minimal code.
         /// This version of the <see cref="Interface"/> class makes use of TPL Tasks to provide an asynchronous API.
         /// </summary>
-        public sealed class AsyncInterface : DynamicObject, IDisposable
+        public sealed partial class AsyncInterface : DynamicObject, IDisposable
         {
             internal readonly HttpClient httpClient;
 
             internal readonly string iface;
             internal readonly string apiKey;
+
+            [GeneratedRegex( @"(?<name>[a-zA-Z]+)(?<version>[0-9]*)" )]
+            private static partial Regex FuncNameRegex();
 
             /// <summary>
             /// Gets or sets the timeout value in milliseconds for any web requests made to the WebAPI.
@@ -211,11 +214,6 @@ namespace SteamKit2
                 get => httpClient.Timeout;
                 set => httpClient.Timeout = value;
             }
-
-            static Regex funcNameRegex = new Regex(
-                @"(?<name>[a-zA-Z]+)(?<version>\d*)",
-                RegexOptions.Compiled | RegexOptions.IgnoreCase
-            );
 
             internal AsyncInterface( HttpClient httpClient, string iface, string apiKey )
             {
@@ -266,15 +264,9 @@ namespace SteamKit2
                 where TResponse : IExtensible, new()
                 where TRequest : IExtensible, new()
             {
-                if ( method == null )
-                {
-                    throw new ArgumentNullException( nameof( method ) );
-                }
+                ArgumentNullException.ThrowIfNull( method );
 
-                if ( func == null )
-                {
-                    throw new ArgumentNullException( nameof( func ) );
-                }
+                ArgumentNullException.ThrowIfNull( func );
 
                 if ( request == null )
                 {
@@ -341,15 +333,9 @@ namespace SteamKit2
 
             private async Task<HttpResponseMessage> CallAsyncInternal( HttpMethod method, string func, int version, Dictionary<string, object?>? args, string expectedFormat )
             {
-                if ( method == null )
-                {
-                    throw new ArgumentNullException( nameof( method ) );
-                }
+                ArgumentNullException.ThrowIfNull( method );
 
-                if ( func == null )
-                {
-                    throw new ArgumentNullException( nameof( func ) );
-                }
+                ArgumentNullException.ThrowIfNull( func );
 
                 var formatProvided = false;
 
@@ -357,7 +343,7 @@ namespace SteamKit2
                 {
                     formatProvided = true;
 
-                    if ( !( format is string formatText ) || formatText != "vdf" )
+                    if ( format is not string formatText  || formatText != "vdf" )
                     {
                         throw new ArgumentException( $"Unsupported 'format' value '{format}'. Format must either be '{expectedFormat}' or omitted.", nameof( args ) );
                     }
@@ -415,7 +401,7 @@ namespace SteamKit2
                     }
                 }
 
-                var request = new HttpRequestMessage( method, urlBuilder.ToString() );
+                using var request = new HttpRequestMessage( method, urlBuilder.ToString() );
 
                 if ( !paramsGoInQueryString )
                 {
@@ -477,7 +463,7 @@ namespace SteamKit2
             public override bool TryInvokeMember( InvokeMemberBinder binder, object?[]? args, out object result )
             {
                 IDictionary<string, object?> methodArgs;
-                args ??= Array.Empty<object?>();
+                args ??= [];
 
                 if ( args.Length == 1 && binder.CallInfo.ArgumentNames.Count == 0 && args[ 0 ] is IDictionary<string, object?> explicitArgs )
                 {
@@ -528,7 +514,7 @@ namespace SteamKit2
                     apiArgs.Add( argName, argValue );
                 }
 
-                Match match = funcNameRegex.Match( binder.Name );
+                Match match = FuncNameRegex().Match( binder.Name );
 
                 if ( !match.Success )
                 {
@@ -566,15 +552,9 @@ namespace SteamKit2
         /// <returns>A dynamic <see cref="Interface"/> object to interact with the Web API.</returns>
         public static Interface GetInterface( Uri baseAddress, string iface, string apiKey = "" )
         {
-            if ( baseAddress == null )
-            {
-                throw new ArgumentNullException( nameof( baseAddress ) );
-            }
+            ArgumentNullException.ThrowIfNull( baseAddress );
 
-            if ( iface == null )
-            {
-                throw new ArgumentNullException( nameof( iface ) );
-            }
+            ArgumentNullException.ThrowIfNull( iface );
 
             return new Interface( CreateDefaultHttpClient( baseAddress ), iface, apiKey );
         }
@@ -587,10 +567,7 @@ namespace SteamKit2
         /// <returns>A dynamic <see cref="Interface"/> object to interact with the Web API.</returns>
         public static Interface GetInterface( string iface, string apiKey = "" )
         {
-            if ( iface == null )
-            {
-                throw new ArgumentNullException( nameof( iface ) );
-            }
+            ArgumentNullException.ThrowIfNull( iface );
 
             return new Interface( CreateDefaultHttpClient( DefaultBaseAddress ), iface, apiKey );
         }
@@ -603,10 +580,7 @@ namespace SteamKit2
         /// <returns>A dynamic <see cref="AsyncInterface"/> object to interact with the Web API.</returns>
         public static AsyncInterface GetAsyncInterface( string iface, string apiKey = "" )
         {
-            if ( iface == null )
-            {
-                throw new ArgumentNullException( nameof( iface ) );
-            }
+            ArgumentNullException.ThrowIfNull( iface );
 
             return new AsyncInterface( CreateDefaultHttpClient( DefaultBaseAddress ), iface, apiKey );
         }
@@ -620,15 +594,9 @@ namespace SteamKit2
         /// <returns>A dynamic <see cref="AsyncInterface"/> object to interact with the Web API.</returns>
         public static AsyncInterface GetAsyncInterface( Uri baseAddress, string iface, string apiKey = "" )
         {
-            if ( baseAddress == null )
-            {
-                throw new ArgumentNullException( nameof( baseAddress ) );
-            }
+            ArgumentNullException.ThrowIfNull( baseAddress );
 
-            if ( iface == null )
-            {
-                throw new ArgumentNullException( nameof( iface ) );
-            }
+            ArgumentNullException.ThrowIfNull( iface );
 
             return new AsyncInterface( CreateDefaultHttpClient( baseAddress ), iface, apiKey );
         }

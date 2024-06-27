@@ -58,27 +58,9 @@ namespace SteamKit2
                 SendMessageOrNotification( expr, true );
             }
 
-            /// <summary>
-            /// Sends a message.
-            /// Results are returned in a <see cref="ServiceMethodResponse"/>.
-            /// The returned <see cref="AsyncJob{T}"/> can also be awaited to retrieve the callback result.
-            /// </summary>
-            /// <typeparam name="TResponse">The type of the protobuf object which is the response to the RPC call.</typeparam>
-            /// <param name="expr">RPC call expression, e.g. x => x.SomeMethodCall(message);</param>
-            /// <param name="isNotification">Whether this message is a notification or not.</param>
-            /// <returns>The JobID of the request. This can be used to find the appropriate <see cref="ServiceMethodResponse"/>.</returns>
-            [Obsolete( "Use SendNotification() instead of passing 'true' bool in SendMessage. SendMessage incorrectly returned AsyncJob for notifications, they have no response by design." )]
-            public AsyncJob<ServiceMethodResponse>? SendMessage<TResponse>( Expression<Func<TService, TResponse>> expr, bool isNotification )
-            {
-                return SendMessageOrNotification( expr, isNotification );
-            }
-
             AsyncJob<ServiceMethodResponse>? SendMessageOrNotification<TResponse>( Expression<Func<TService, TResponse>> expr, bool isNotification )
             {
-                if ( expr == null )
-                {
-                    throw new ArgumentNullException( nameof( expr ) );
-                }
+                ArgumentNullException.ThrowIfNull( expr );
 
                 var call = ExtractMethodCallExpression( expr, nameof( expr ) );
                 var methodInfo = call.Method;
@@ -98,7 +80,7 @@ namespace SteamKit2
                     throw new NotSupportedException( "Unknown Expression type" );
                 }
 
-                var serviceName = typeof( TService ).Name.Substring( 1 ); // IServiceName - remove 'I'
+                var serviceName = typeof( TService ).Name[ 1.. ]; // IServiceName - remove 'I'
                 var methodName = methodInfo.Name;
                 var version = 1;
 
@@ -203,30 +185,6 @@ namespace SteamKit2
         }
 
         /// <summary>
-        /// Sends a message.
-        /// Results are returned in a <see cref="ServiceMethodResponse"/>.
-        /// The returned <see cref="AsyncJob{T}"/> can also be awaited to retrieve the callback result.
-        /// </summary>
-        /// <typeparam name="TRequest">The type of a protobuf object.</typeparam>
-        /// <param name="name">Name of the RPC endpoint. Takes the format ServiceName.RpcName</param>
-        /// <param name="message">The message to send.</param>
-        /// <param name="isNotification">Whether this message is a notification or not.</param>
-        /// <returns>The JobID of the request. This can be used to find the appropriate <see cref="ServiceMethodResponse"/>.</returns>
-        [Obsolete( "Use SendNotification() instead of passing 'true' bool in SendMessage. SendMessage incorrectly returned AsyncJob for notifications, they have no response by design." )]
-        public AsyncJob<ServiceMethodResponse>? SendMessage<TRequest>( string name, TRequest message, bool isNotification )
-            where TRequest : IExtensible, new()
-        {
-            if ( !isNotification )
-            {
-                return SendMessage( name, message );
-            }
-
-            SendNotification( name, message );
-
-            return null;
-        }
-
-        /// <summary>
         /// Creates a <see cref="UnifiedService&lt;TService&gt;"/> wrapper for expression-based unified messaging.
         /// </summary>
         /// <typeparam name="TService">The type of a service interface.</typeparam>
@@ -243,10 +201,7 @@ namespace SteamKit2
         /// <param name="packetMsg">The packet message that contains the data.</param>
         public override void HandleMsg( IPacketMsg packetMsg )
         {
-            if ( packetMsg == null )
-            {
-                throw new ArgumentNullException( nameof( packetMsg ) );
-            }
+            ArgumentNullException.ThrowIfNull( packetMsg );
 
             if ( !dispatchMap.TryGetValue( packetMsg.MsgType, out var handlerFunc ) )
             {
@@ -261,7 +216,7 @@ namespace SteamKit2
         #region ClientMsg Handlers
         void HandleServiceMethodResponse( IPacketMsg packetMsg )
         {
-            if ( !( packetMsg is PacketClientMsgProtobuf packetMsgProto ) )
+            if ( packetMsg is not PacketClientMsgProtobuf packetMsgProto )
             {
                 throw new InvalidDataException( "Packet message is expected to be protobuf." );
             }
@@ -272,7 +227,7 @@ namespace SteamKit2
 
         void HandleServiceMethod( IPacketMsg packetMsg )
         {
-            if ( !( packetMsg is PacketClientMsgProtobuf packetMsgProto ) )
+            if ( packetMsg is not PacketClientMsgProtobuf packetMsgProto )
             {
                 throw new InvalidDataException( "Packet message is expected to be protobuf." );
             }

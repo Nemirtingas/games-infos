@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.IO;
-using System.Linq;
-using System.Text;
 
 namespace SteamKit2
 {
@@ -23,10 +20,7 @@ namespace SteamKit2
         /// <param name="keyValues">The KeyValue backing store for this message object.</param>
         public MessageObject( KeyValue keyValues )
         {
-            if ( keyValues == null )
-            {
-                throw new ArgumentNullException( nameof(keyValues) );
-            }
+            ArgumentNullException.ThrowIfNull( keyValues );
 
             this.KeyValues = keyValues;
         }
@@ -46,10 +40,7 @@ namespace SteamKit2
         /// <returns><c>true</c> on success; otherwise, <c>false</c>.</returns>
         public bool ReadFromStream( Stream stream )
         {
-            if ( stream == null )
-            {
-                throw new ArgumentNullException( nameof(stream) );
-            }
+            ArgumentNullException.ThrowIfNull( stream );
 
             return KeyValues.TryReadAsBinary( stream );
         }
@@ -60,10 +51,7 @@ namespace SteamKit2
         /// <param name="stream">The stream to write to.</param>
         public void WriteToStream( Stream stream )
         {
-            if ( stream == null )
-            {
-                throw new ArgumentNullException( nameof(stream) );
-            }
+            ArgumentNullException.ThrowIfNull( stream );
 
             KeyValues.SaveToStream( stream, true );
         }

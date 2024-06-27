@@ -5,9 +5,6 @@
 
 
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Diagnostics;
 
 namespace SteamKit2
@@ -40,7 +37,7 @@ namespace SteamKit2
 
 
         /// <summary>
-        /// Performs an implicit conversion from <see cref="SteamKit2.GlobalID"/> to <see cref="System.UInt64"/>.
+        /// Performs an implicit conversion from <see cref="SteamKit2.GlobalID"/> to <see cref="ulong"/>.
         /// </summary>
         /// <param name="gid">The gid.</param>
         /// <returns>
@@ -48,16 +45,13 @@ namespace SteamKit2
         /// </returns>
         public static implicit operator ulong( GlobalID gid )
         {
-            if ( gid == null )
-            {
-                throw new ArgumentNullException( nameof(gid) );
-            }
+            ArgumentNullException.ThrowIfNull( gid );
 
             return gid.gidBits.Data;
         }
 
         /// <summary>
-        /// Performs an implicit conversion from <see cref="System.UInt64"/> to <see cref="SteamKit2.GlobalID"/>.
+        /// Performs an implicit conversion from <see cref="ulong"/> to <see cref="SteamKit2.GlobalID"/>.
         /// </summary>
         /// <param name="gid">The gid.</param>
         /// <returns>
@@ -140,11 +134,11 @@ namespace SteamKit2
 
 
         /// <summary>
-        /// Determines whether the specified <see cref="System.Object"/> is equal to this instance.
+        /// Determines whether the specified <see cref="object"/> is equal to this instance.
         /// </summary>
-        /// <param name="obj">The <see cref="System.Object"/> to compare with this instance.</param>
+        /// <param name="obj">The <see cref="object"/> to compare with this instance.</param>
         /// <returns>
-        ///   <c>true</c> if the specified <see cref="System.Object"/> is equal to this instance; otherwise, <c>false</c>.
+        ///   <c>true</c> if the specified <see cref="object"/> is equal to this instance; otherwise, <c>false</c>.
         /// </returns>
         public override bool Equals( object? obj )
         {
@@ -153,7 +147,7 @@ namespace SteamKit2
                 return false;
             }
 
-            if ( !( obj is GlobalID gid ) )
+            if ( obj is not GlobalID gid )
             {
                 return false;
             }
@@ -226,10 +220,10 @@ namespace SteamKit2
         }
 
         /// <summary>
-        /// Returns a <see cref="System.String"/> that represents this instance.
+        /// Returns a <see cref="string"/> that represents this instance.
         /// </summary>
         /// <returns>
-        /// A <see cref="System.String"/> that represents this instance.
+        /// A <see cref="string"/> that represents this instance.
         /// </returns>
         public override string ToString()
         {
@@ -261,7 +255,7 @@ namespace SteamKit2
 
 
         /// <summary>
-        /// Performs an implicit conversion from <see cref="SteamKit2.UGCHandle"/> to <see cref="System.UInt64"/>.
+        /// Performs an implicit conversion from <see cref="SteamKit2.UGCHandle"/> to <see cref="ulong"/>.
         /// </summary>
         /// <param name="handle">The UGC handle.</param>
         /// <returns>
@@ -269,16 +263,13 @@ namespace SteamKit2
         /// </returns>
         public static implicit operator ulong( UGCHandle handle )
         {
-            if ( handle == null )
-            {
-                throw new ArgumentNullException( nameof(handle) );
-            }
+            ArgumentNullException.ThrowIfNull( handle );
 
             return handle.Value;
         }
 
         /// <summary>
-        /// Performs an implicit conversion from <see cref="System.UInt64"/> to <see cref="SteamKit2.UGCHandle"/>.
+        /// Performs an implicit conversion from <see cref="ulong"/> to <see cref="SteamKit2.UGCHandle"/>.
         /// </summary>
         /// <param name="ugcId">The UGC ID.</param>
         /// <returns>

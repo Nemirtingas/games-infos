@@ -1,21 +1,21 @@
 using System;
 using System.IO;
 using System.Linq;
-using System.Threading.Tasks;
 using System.Net.NetworkInformation;
 using System.Runtime.CompilerServices;
 using System.Runtime.ExceptionServices;
+using System.Runtime.InteropServices;
+using System.Runtime.Versioning;
+using System.Security.Cryptography;
 using System.Text;
+using System.Threading.Tasks;
+using Microsoft.Win32;
 using SteamKit2.Util;
 using SteamKit2.Util.MacHelpers;
-using Microsoft.Win32;
-
-using static SteamKit2.Util.MacHelpers.LibC;
 using static SteamKit2.Util.MacHelpers.CoreFoundation;
 using static SteamKit2.Util.MacHelpers.DiskArbitration;
 using static SteamKit2.Util.MacHelpers.IOKit;
-using System.Runtime.Versioning;
-using System.Runtime.InteropServices;
+using static SteamKit2.Util.MacHelpers.LibC;
 
 namespace SteamKit2
 {
@@ -81,16 +81,13 @@ namespace SteamKit2
         }
     }
 
-#if NET5_0_OR_GREATER
     [SupportedOSPlatform("windows")]
-#endif
     sealed class WindowsMachineInfoProvider : IMachineInfoProvider
     {
         public byte[]? GetMachineGuid()
         {
-            var localKey = RegistryKey
-                .OpenBaseKey( Microsoft.Win32.RegistryHive.LocalMachine, RegistryView.Registry64 )
-                .OpenSubKey( @"SOFTWARE\Microsoft\Cryptography" );
+            using var baseKey = RegistryKey.OpenBaseKey( Microsoft.Win32.RegistryHive.LocalMachine, RegistryView.Registry64 );
+            using var localKey = baseKey.OpenSubKey( @"SOFTWARE\Microsoft\Cryptography" );
 
             if ( localKey == null )
             {
@@ -107,7 +104,38 @@ namespace SteamKit2
             return Encoding.UTF8.GetBytes( guid.ToString()! );
         }
 
-        public byte[]? GetMacAddress() => null;
+        // On windows, the steam client hashes a 16 bytes struct
+        // containing the mac address of the first *Physical* network adapter padded to 8 bytes (mac addresses are 6 bytes)
+        // and the mac address of the second *Physical* network adapter also padded to 8 bytes.
+        // So the hashed data ends up being (6bytes of mac address, 10 bytes of zeroes)
+        public byte[] GetMacAddress()
+        {
+            // This part of the code finds  *Physical* network interfaces
+            // based on : https://social.msdn.microsoft.com/Forums/en-US/46c86903-3698-41bc-b081-fcf444e8a127/get-the-ip-address-of-the-physical-network-card-?forum=winforms
+            return NetworkInterface.GetAllNetworkInterfaces()
+                .Where( adapter =>
+                {
+                    //Accessing the registry key corresponding to each adapter
+                    string fRegistryKey =
+                        $@"SYSTEM\CurrentControlSet\Control\Network\{{4D36E972-E325-11CE-BFC1-08002BE10318}}\{adapter.Id}\Connection";
+                    using RegistryKey? rk = Registry.LocalMachine.OpenSubKey( fRegistryKey, false );
+                    if ( rk == null ) return false;
+
+                    var instanceID = rk.GetValue( "PnpInstanceID", "" )?.ToString();
+                    return instanceID?.Length > 3 && instanceID.StartsWith( "PCI" );
+                } )
+                .Select( networkInterface => networkInterface.GetPhysicalAddress().GetAddressBytes()
+                    //pad all found mac addresses to 8 bytes
+                    .Append( ( byte )0 )
+                    .Append( ( byte )0 ) 
+                )
+                //add fallbacks in case less than 2 adapters are found
+                .Append( Enumerable.Repeat( ( byte )0, 8 ))
+                .Append( Enumerable.Repeat( ( byte )0, 8 ))
+                .Take( 2 )
+                .SelectMany( b => b )
+                .ToArray();
+        }
 
         public byte[]? GetDiskId()
         {
@@ -122,15 +150,13 @@ namespace SteamKit2
         }
     }
 
-#if NET5_0_OR_GREATER
     [SupportedOSPlatform( "linux" )]
-#endif
     sealed class LinuxMachineInfoProvider : IMachineInfoProvider
     {
         public byte[]? GetMachineGuid()
         {
             string[] machineFiles =
-            {
+            [
                 "/etc/machine-id", // present on at least some gentoo systems
                 "/var/lib/dbus/machine-id",
                 "/sys/class/net/eth0/address",
@@ -138,7 +164,7 @@ namespace SteamKit2
                 "/sys/class/net/eth2/address",
                 "/sys/class/net/eth3/address",
                 "/etc/hostname",
-            };
+            ];
 
             foreach ( var fileName in machineFiles )
             {
@@ -163,10 +189,10 @@ namespace SteamKit2
             string[] bootParams = GetBootOptions();
 
             string[] paramsToCheck =
-            {
+            [
                 "root=UUID=",
                 "root=PARTUUID=",
-            };
+            ];
 
             foreach ( string param in paramsToCheck )
             {
@@ -199,7 +225,7 @@ namespace SteamKit2
             }
             catch
             {
-                return Array.Empty<string>();
+                return [];
             }
 
             return bootOptions.Split( ' ' );
@@ -219,7 +245,7 @@ namespace SteamKit2
             }
             catch
             {
-                return Array.Empty<string>();
+                return [];
             }
         }
 
@@ -231,13 +257,11 @@ namespace SteamKit2
             if ( paramString == null )
                 return null;
 
-            return paramString.Substring( param.Length );
+            return paramString[ param.Length.. ];
         }
     }
 
-#if NET5_0_OR_GREATER
     [SupportedOSPlatform( "macos" )]
-#endif
     sealed class MacOSMachineInfoProvider : IMachineInfoProvider
     {
         public byte[]? GetMachineGuid()
@@ -268,7 +292,7 @@ namespace SteamKit2
 
         public byte[]? GetDiskId()
         {
-            var stat = new statfs();
+            var stat = new StatFS();
             var statted = statfs64( "/", ref stat );
             if ( statted == 0 )
             {
@@ -326,7 +350,7 @@ namespace SteamKit2
             }
         }
 
-        static ConditionalWeakTable<IMachineInfoProvider, Task<MachineID>> generationTable = new ConditionalWeakTable<IMachineInfoProvider, Task<MachineID>>();
+        static ConditionalWeakTable<IMachineInfoProvider, Task<MachineID>> generationTable = [];
 
         public static void Init(IMachineInfoProvider machineInfoProvider)
         {
@@ -392,7 +416,7 @@ namespace SteamKit2
 
         static string GetHexString( byte[] data )
         {
-            data = CryptoHelper.SHAHash( data );
+            data = SHA1.HashData( data );
 
             return BitConverter.ToString( data )
                 .Replace( "-", "" )

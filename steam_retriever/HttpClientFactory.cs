@@ -29,8 +29,10 @@ namespace steam_retriever
             // By default, we create dual-mode sockets:
             // Socket socket = new Socket(SocketType.Stream, ProtocolType.Tcp);
 
-            var socket = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
-            socket.NoDelay = true;
+            var socket = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp)
+            {
+                NoDelay = true
+            };
 
             try
             {

@@ -1,11 +1,10 @@
-using System;
-using System.Collections.Concurrent;
 using System.Collections.Generic;
+using System;
 using System.Collections.ObjectModel;
-using System.IO;
+using log4net.Repository.Hierarchy;
 using System.Linq;
-using System.Threading;
 using System.Threading.Tasks;
+using System.Threading;
 using QRCoder;
 using SteamKit2;
 using SteamKit2.Authentication;
@@ -13,138 +12,33 @@ using SteamKit2.Internal;
 
 namespace steam_retriever
 {
-    public partial class SteamUserStats : ClientMsgHandler
-    {
-        Dictionary<EMsg, Action<IPacketMsg>> dispatchMap;
-
-        internal SteamUserStats()
-        {
-            dispatchMap = new Dictionary<EMsg, Action<IPacketMsg>>
-            {
-                { EMsg.ClientGetUserStatsResponse, HandleUserStatsResponse },
-            };
-        }
-
-        // define our custom callback class
-        // this will pass data back to the user of the handler
-        public class GetUserStatsCallback : CallbackMsg
-        {
-            public sealed class Stat
-            {
-                uint StatId;
-                uint StatValue;
-
-                public Stat(CMsgClientGetUserStatsResponse.Stats stat)
-                {
-                    StatId = stat.stat_id;
-                    StatValue = stat.stat_value;
-                }
-            }
-
-            public EResult Result;
-            public ReadOnlyCollection<Stat> Stats;
-            public uint CRCStats;
-            public ulong GameId;
-            public KeyValue Schema;
-
-            // generally we don't want user code to instantiate callback objects,
-            // but rather only let handlers create them
-            internal GetUserStatsCallback(JobID jobID, CMsgClientGetUserStatsResponse msg)
-            {
-                this.JobID = jobID;
-
-                this.Result = (EResult)msg.eresult;
-                if (this.Result == EResult.OK)
-                {
-                    var stats_list = msg.stats.Select(s => new Stat(s))
-                        .ToList();
-
-                    this.Stats = new ReadOnlyCollection<Stat>(stats_list);
-                    this.CRCStats = msg.crc_stats;
-                    this.GameId = msg.game_id;
-                    this.Schema = new KeyValue();
-                    if (!Schema.TryReadAsBinary(new MemoryStream(msg.schema)))
-                        this.Schema = null;
-                }
-            }
-        }
-
-        public override void HandleMsg(IPacketMsg packetMsg)
-        {
-            if (packetMsg == null)
-            {
-                throw new ArgumentNullException(nameof(packetMsg));
-            }
-
-            if (!dispatchMap.TryGetValue(packetMsg.MsgType, out var handlerFunc))
-            {
-                // ignore messages that we don't have a handler function for
-                return;
-            }
-
-            handlerFunc(packetMsg);
-        }
-
-        void HandleUserStatsResponse(IPacketMsg packetMsg)
-        {
-            var userStats = new ClientMsgProtobuf<CMsgClientGetUserStatsResponse>(packetMsg);
-
-            var callback = new GetUserStatsCallback(packetMsg.TargetJobID, userStats.Body);
-            this.Client.PostCallback(callback);
-        }
-
-        public AsyncJob<GetUserStatsCallback> GetUserStats(uint appid, ulong user_id)
-        {
-            var request = new ClientMsgProtobuf<CMsgClientGetUserStats>(EMsg.ClientGetUserStats);
-            request.SourceJobID = this.Client.GetNextJobID();
-
-            request.Body.steam_id_for_user = user_id;
-            request.Body.game_id = appid;
-            request.Body.crc_stats = 0;
-            request.Body.schema_local_version = -1;
-
-            this.Client.Send(request);
-
-            return new AsyncJob<GetUserStatsCallback>(this.Client, request.SourceJobID);
-        }
-    }
-
     class Steam3Session
     {
-        public class Credentials
-        {
-            public bool LoggedOn { get; set; }
-            public ulong SessionToken { get; set; }
+        internal bool IsLoggedOn { get; private set; }
 
-            public bool IsValid
-            {
-                get { return LoggedOn; }
-            }
-        }
-
-        public ReadOnlyCollection<SteamApps.LicenseListCallback.License> Licenses
+        internal ReadOnlyCollection<SteamApps.LicenseListCallback.License> Licenses
         {
             get;
             private set;
         }
 
-        public Dictionary<uint, ulong> AppTokens { get; private set; }
-        public Dictionary<uint, ulong> PackageTokens { get; private set; }
-        public Dictionary<uint, byte[]> DepotKeys { get; private set; }
-        public ConcurrentDictionary<string, TaskCompletionSource<SteamApps.CDNAuthTokenCallback>> CDNAuthTokens { get; private set; }
-        public Dictionary<uint, SteamApps.PICSProductInfoCallback.PICSProductInfo> AppInfo { get; private set; }
-        public Dictionary<uint, SteamApps.PICSProductInfoCallback.PICSProductInfo> PackageInfo { get; private set; }
-        public Dictionary<string, byte[]> AppBetaPasswords { get; private set; }
+        internal Dictionary<uint, ulong> AppTokens { get; } = [];
+        internal Dictionary<uint, ulong> PackageTokens { get; } = [];
+        internal Dictionary<uint, byte[]> DepotKeys { get; } = [];
+        internal Dictionary<uint, SteamApps.PICSProductInfoCallback.PICSProductInfo> AppInfo { get; } = [];
+        internal Dictionary<uint, SteamApps.PICSProductInfoCallback.PICSProductInfo> PackageInfo { get; } = [];
+        internal Dictionary<string, byte[]> AppBetaPasswords { get; } = [];
 
-        public SteamClient steamClient;
-        public SteamUser steamUser;
-        public SteamGameServer steamGameserver;
-        public SteamContent steamContent;
-        readonly SteamApps steamApps;
-        readonly SteamCloud steamCloud;
-        readonly SteamUserStats steamUserStats;
-        readonly SteamUnifiedMessages.UnifiedService<IPublishedFile> steamPublishedFile;
-        readonly SteamUnifiedMessages.UnifiedService<IInventory> steamInventory;
+        internal SteamClient steamClient;
+        internal SteamUser steamUser;
+        internal SteamGameServer steamGameserver;
+        internal SteamContent steamContent;
+        internal readonly SteamApps steamApps;
+        internal readonly SteamCloud steamCloud;
+        internal readonly SteamUserStats steamUserStats;
+        internal readonly SteamUnifiedMessages.UnifiedService<IPlayer> steamPlayer;
+        internal readonly SteamUnifiedMessages.UnifiedService<IPublishedFile> steamPublishedFile;
+        internal readonly SteamUnifiedMessages.UnifiedService<IInventory> steamInventory;
 
         readonly CallbackManager callbacks;
 
@@ -167,37 +61,18 @@ namespace steam_retriever
         readonly string password;
         readonly SteamUser.LogOnDetails logonDetails;
 
-        // output
-        readonly Credentials credentials;
-
         static readonly TimeSpan STEAM3_TIMEOUT = TimeSpan.FromSeconds(30);
 
-        public Steam3Session(SteamUser.LogOnDetails details)
-        {
-            this.CallbackCancellationSource = null;
 
+        internal Steam3Session(SteamUser.LogOnDetails details)
+        {
             password = details.Password;
             this.logonDetails = details;
-
-            this.authenticatedUser = details.Username != null;
-            this.credentials = new Credentials();
-            this.bConnected = false;
-            this.bConnecting = false;
-            this.bAborted = false;
-            this.bExpectingDisconnectRemote = false;
-            this.bDidDisconnect = false;
-            this.seq = 0;
-
-            this.AppTokens = new Dictionary<uint, ulong>();
-            this.PackageTokens = new Dictionary<uint, ulong>();
-            this.DepotKeys = new Dictionary<uint, byte[]>();
-            this.CDNAuthTokens = new ConcurrentDictionary<string, TaskCompletionSource<SteamApps.CDNAuthTokenCallback>>();
-            this.AppInfo = new Dictionary<uint, SteamApps.PICSProductInfoCallback.PICSProductInfo>();
-            this.PackageInfo = new Dictionary<uint, SteamApps.PICSProductInfoCallback.PICSProductInfo>();
-            this.AppBetaPasswords = new Dictionary<string, byte[]>();
+            this.authenticatedUser = details.Username != null || ContentDownloader.Config.UseQrCode;
 
             var clientConfiguration = SteamConfiguration.Create(config =>
-                config.WithHttpClientFactory(HttpClientFactory.CreateHttpClient)
+                config
+                    .WithHttpClientFactory(HttpClientFactory.CreateHttpClient)
             );
 
             this.steamClient = new SteamClient(clientConfiguration);
@@ -210,6 +85,7 @@ namespace steam_retriever
             this.steamApps = this.steamClient.GetHandler<SteamApps>();
             this.steamCloud = this.steamClient.GetHandler<SteamCloud>();
             var steamUnifiedMessages = this.steamClient.GetHandler<SteamUnifiedMessages>();
+            this.steamPlayer = steamUnifiedMessages.CreateService<IPlayer>();
             this.steamPublishedFile = steamUnifiedMessages.CreateService<IPublishedFile>();
             this.steamInventory = steamUnifiedMessages.CreateService<IInventory>();
             this.steamContent = this.steamClient.GetHandler<SteamContent>();
@@ -219,37 +95,17 @@ namespace steam_retriever
             this.callbacks.Subscribe<SteamClient.ConnectedCallback>(ConnectedCallback);
             this.callbacks.Subscribe<SteamClient.DisconnectedCallback>(DisconnectedCallback);
             this.callbacks.Subscribe<SteamUser.LoggedOnCallback>(LogOnCallback);
-            this.callbacks.Subscribe<SteamUser.SessionTokenCallback>(SessionTokenCallback);
             this.callbacks.Subscribe<SteamApps.LicenseListCallback>(LicenseListCallback);
-            this.callbacks.Subscribe<SteamUser.UpdateMachineAuthCallback>(UpdateMachineAuthCallback);
 
-            Console.Write("Connecting to Steam3...");
-
-            if (details.Username != null)
-            {
-                var fi = new FileInfo($"{logonDetails.Username}.sentryFile");
-                if (AccountSettingsStore.Instance.Settings.SentryData != null && AccountSettingsStore.Instance.Settings.SentryData.ContainsKey(logonDetails.Username))
-                {
-                    logonDetails.SentryFileHash = Util.SHAHash(AccountSettingsStore.Instance.Settings.SentryData[logonDetails.Username]);
-                }
-                else if (fi.Exists && fi.Length > 0)
-                {
-                    var sentryData = File.ReadAllBytes(fi.FullName);
-                    logonDetails.SentryFileHash = Util.SHAHash(sentryData);
-                    AccountSettingsStore.Instance.Settings.SentryData[logonDetails.Username] = sentryData;
-                    AccountSettingsStore.Instance.Save();
-                }
-            }
-
+            Program.Instance._logger.Info("Connecting to Steam3...");
             Connect();
         }
 
-        public delegate bool WaitCondition();
+        internal delegate bool WaitCondition();
 
-        private readonly object steamLock = new object();
+        private readonly object steamLock = new();
 
-
-        public bool WaitUntilCallback(Action submitter, WaitCondition waiter)
+        internal bool WaitUntilCallback(Action submitter, WaitCondition waiter)
         {
             while (!bAborted && !waiter())
             {
@@ -291,14 +147,14 @@ namespace steam_retriever
             }
         }
 
-        public Credentials WaitForCredentials()
+        internal bool WaitForCredentials()
         {
-            if (credentials.IsValid || bAborted)
-                return credentials;
+            if (IsLoggedOn || bAborted)
+                return IsLoggedOn;
 
-            WaitUntilCallback(() => { }, () => { return credentials.IsValid; });
+            WaitUntilCallback(() => { }, () => IsLoggedOn);
 
-            if(credentials.IsValid)
+            if (IsLoggedOn)
             {
                 if (CallbackCancellationSource != null)
                 {
@@ -310,16 +166,16 @@ namespace steam_retriever
                 CallbackTask = Task.Factory.StartNew(CallbackProc, CallbackCancellationSource.Token);
             }
 
-            return credentials;
+            return IsLoggedOn;
         }
 
-        public async Task RequestAppsInfo(IEnumerable<uint> appIds, bool bForce = false)
+        internal async Task RequestAppsInfo(IEnumerable<uint> appIds, bool bForce = false)
         {
             List<uint> request_appids = new List<uint>();
             {
                 foreach (var item in appIds)
                 {
-                    if(!AppInfo.ContainsKey(item) || bForce)
+                    if (!AppInfo.ContainsKey(item) || bForce)
                     {
                         request_appids.Add(item);
                     }
@@ -376,12 +232,12 @@ namespace steam_retriever
             }
         }
 
-        public async Task RequestAppInfo(uint appId, bool bForce = false)
+        internal async Task RequestAppInfoAsync(uint appId, bool bForce = false)
         {
-            await RequestAppsInfo(new List<uint>{ appId }, bForce);
+            await RequestAppsInfo(new List<uint> { appId }, bForce);
         }
 
-        public async Task<string> GetInventoryDigest(uint appid)
+        internal async Task<string> GetInventoryDigest(uint appid)
         {
             CInventory_GetItemDefMeta_Request itemdef_req = new CInventory_GetItemDefMeta_Request
             {
@@ -390,25 +246,35 @@ namespace steam_retriever
 
             var job = await steamInventory.SendMessage(api => api.GetItemDefMeta(itemdef_req));
 
-            if (job.Result == EResult.OK)
-            {
-                var response = job.GetDeserializedResponse<CInventory_GetItemDefMeta_Response>();
-                return response.digest;
-            }
-            else
-            {
+            if (job.Result != EResult.OK)
                 throw new Exception($"EResult {(int)job.Result} ({job.Result}) while retrieving items definition for {appid}.");
-            }
+
+            return job.GetDeserializedResponse<CInventory_GetItemDefMeta_Response>().digest;
         }
 
-        public async Task<SteamUserStats.GetUserStatsCallback> GetUserStats(uint appId, ulong steamId)
+        internal async Task<List<CPlayer_GetOwnedGames_Response.Game>> GetPlayerOwnedAppIds(ulong steamId = 0)
+        {
+            CPlayer_GetOwnedGames_Request owned_games_req = new CPlayer_GetOwnedGames_Request
+            {
+                steamid = steamId == 0 ? steamUser.SteamID.ConvertToUInt64() : steamId,
+            };
+
+            var job = await steamPlayer.SendMessage(api => api.GetOwnedGames(owned_games_req));
+
+            if (job.Result != EResult.OK)
+                throw new Exception($"EResult {(int)job.Result} ({job.Result}) while getting owned appids.");
+
+            return job.GetDeserializedResponse<CPlayer_GetOwnedGames_Response>().games;
+        }
+
+        internal async Task<SteamUserStats.GetUserStatsCallback> GetUserStats(uint appId, ulong steamId)
         {
             var async_job = steamUserStats.GetUserStats(appId, steamId);
             async_job.Timeout = TimeSpan.FromSeconds(5);
             return await async_job;
         }
 
-        public async Task RequestPackageInfo(IEnumerable<uint> packageIds)
+        internal async Task RequestPackageInfo(IEnumerable<uint> packageIds)
         {
             var packages = packageIds.ToList();
             packages.RemoveAll(pid => PackageInfo.ContainsKey(pid));
@@ -447,32 +313,31 @@ namespace steam_retriever
             }
         }
 
-        public async Task<bool> RequestFreeAppLicense(uint appId)
+        internal async Task<bool> RequestFreeAppLicense(uint appId)
         {
             return (await steamApps.RequestFreeLicense(appId)).GrantedApps.Contains(appId);
         }
 
-        public async Task<bool> RequestDepotKey(uint depotId, uint appid = 0)
+        internal async Task<EResult> RequestDepotKeyAsync(uint depotId, uint appid = 0)
         {
             if (DepotKeys.ContainsKey(depotId))
-                return true;
+                return EResult.OK;
 
             if (bAborted)
-                return false;
+                return EResult.Cancelled;
 
             var job = await steamApps.GetDepotDecryptionKey(depotId, appid);
 
+            if (job.Result != EResult.OK)
+                return job.Result;
+
             //Console.WriteLine("Got depot key for {0} result: {1}", job.DepotID, job.Result);
 
-            if (job.Result != EResult.OK)
-                return false;
-
             DepotKeys[job.DepotID] = job.DepotKey;
-            return true;
+            return EResult.OK;
         }
 
-
-        public async Task<ulong> GetDepotManifestRequestCodeAsync(uint depotId, uint appId, ulong manifestId, string branch)
+        internal async Task<ulong> GetDepotManifestRequestCodeAsync(uint depotId, uint appId, ulong manifestId, string branch)
         {
             if (bAborted)
                 return 0;
@@ -486,7 +351,7 @@ namespace steam_retriever
             return requestCode;
         }
 
-        public async Task CheckAppBetaPassword(uint appid, string password)
+        internal async Task CheckAppBetaPassword(uint appid, string password)
         {
             var job = await steamApps.CheckAppBetaPassword(appid, password);
 
@@ -498,7 +363,7 @@ namespace steam_retriever
             }
         }
 
-        public async Task<PublishedFileDetails> GetPublishedFileDetails(uint? appId, PublishedFileID pubFile)
+        internal async Task<PublishedFileDetails> GetPublishedFileDetails(uint? appId, PublishedFileID pubFile)
         {
             var pubFileRequest = new CPublishedFile_GetDetails_Request();
             if (appId != null)
@@ -510,14 +375,14 @@ namespace steam_retriever
 
             if (job.Result != EResult.OK)
             {
-                throw new Exception($"EResult {(int)job.Result} ({job.Result}) while retrieving file details for pubfile {pubFile}.");   
+                throw new Exception($"EResult {(int)job.Result} ({job.Result}) while retrieving file details for pubfile {pubFile}.");
             }
 
             return job.GetDeserializedResponse<CPublishedFile_GetDetails_Response>().publishedfiledetails.FirstOrDefault();
         }
 
 
-        public async Task<SteamCloud.UGCDetailsCallback> GetUGCDetails(UGCHandle ugcHandle)
+        internal async Task<SteamCloud.UGCDetailsCallback> GetUGCDetails(UGCHandle ugcHandle)
         {
             SteamCloud.UGCDetailsCallback details;
 
@@ -565,7 +430,7 @@ namespace steam_retriever
             Disconnect(sendLogOff);
         }
 
-        public void Disconnect(bool sendLogOff = true)
+        internal void Disconnect(bool sendLogOff = true)
         {
             if (sendLogOff)
             {
@@ -601,7 +466,7 @@ namespace steam_retriever
 
             if (diff > STEAM3_TIMEOUT && !bConnected)
             {
-                Console.WriteLine("Timeout connecting to Steam3.");
+                Program.Instance._logger.InfoFormat("Timeout connecting to Steam3.");
                 Abort();
             }
         }
@@ -612,8 +477,8 @@ namespace steam_retriever
             bConnecting = false;
             bConnected = true;
 
-            // Update our tracking so that we don't time out, even if we need to reconnect multiple times, 
-            // e.g. if the authentication phase takes a while and therefore multiple connections. 
+            // Update our tracking so that we don't time out, even if we need to reconnect multiple times,
+            // e.g. if the authentication phase takes a while and therefore multiple connections.
             connectTime = DateTime.Now;
             connectionBackoff = 0;
 
@@ -635,11 +500,13 @@ namespace steam_retriever
                     {
                         try
                         {
-                            authSession = await steamClient.Authentication.BeginAuthSessionViaCredentialsAsync(new AuthSessionDetails
+                            _ = AccountSettingsStore.Instance.Settings.GuardData.TryGetValue(logonDetails.Username, out var guarddata);
+                            authSession = await steamClient.Authentication.BeginAuthSessionViaCredentialsAsync(new SteamKit2.Authentication.AuthSessionDetails
                             {
                                 Username = logonDetails.Username,
                                 Password = logonDetails.Password,
                                 IsPersistentSession = ContentDownloader.Config.RememberPassword,
+                                GuardData = guarddata,
                                 Authenticator = new UserConsoleAuthenticator(),
                             });
                         }
@@ -668,7 +535,7 @@ namespace steam_retriever
 
                             authSession = session;
 
-                            // Steam will periodically refresh the challenge url, so we need a new QR code. 
+                            // Steam will periodically refresh the challenge url, so we need a new QR code.
                             session.ChallengeURLChanged = () =>
                             {
                                 Program.Instance._logger.Info("The QR code has changed:");
@@ -676,7 +543,7 @@ namespace steam_retriever
                                 DisplayQrCode(session.ChallengeURL);
                             };
 
-                            // Draw initial QR code immediately 
+                            // Draw initial QR code immediately
                             DisplayQrCode(session.ChallengeURL);
                         }
                         catch (TaskCanceledException)
@@ -702,7 +569,15 @@ namespace steam_retriever
                         logonDetails.Password = null;
                         logonDetails.AccessToken = result.RefreshToken;
 
-                        AccountSettingsStore.Instance.Settings.RefreshToken[result.AccountName] = result.RefreshToken;
+                        if (result.NewGuardData != null)
+                        {
+                            AccountSettingsStore.Instance.Settings.GuardData[result.AccountName] = result.NewGuardData;
+                        }
+                        else
+                        {
+                            AccountSettingsStore.Instance.Settings.GuardData.Remove(result.AccountName);
+                        }
+                        AccountSettingsStore.Instance.Settings.LoginTokens[result.AccountName] = result.RefreshToken;
                         AccountSettingsStore.Instance.Save();
                     }
                     catch (TaskCanceledException)
@@ -728,29 +603,30 @@ namespace steam_retriever
             bDidDisconnect = true;
 
             StopCallbackTask();
+            Program.Instance._logger.Debug($"Disconnected: bIsConnectionRecovery = {bIsConnectionRecovery}, UserInitiated = {disconnected.UserInitiated}, bExpectingDisconnectRemote = {bExpectingDisconnectRemote}");
 
             // When recovering the connection, we want to reconnect even if the remote disconnects us
             if (!bIsConnectionRecovery && (disconnected.UserInitiated || bExpectingDisconnectRemote))
             {
-                Console.WriteLine("Disconnected from Steam");
+                Program.Instance._logger.Warn("Disconnected from Steam");
 
                 // Any operations outstanding need to be aborted
                 bAborted = true;
             }
             else if (connectionBackoff >= 10)
             {
-                Console.WriteLine("Could not connect to Steam after 10 tries");
+                Program.Instance._logger.Error("Could not connect to Steam after 10 tries");
                 Abort(false);
             }
             else if (!bAborted)
             {
                 if (bConnecting)
                 {
-                    Console.WriteLine("Connection to Steam failed. Trying again");
+                    Program.Instance._logger.Warn("Connection to Steam failed. Trying again");
                 }
                 else
                 {
-                    Console.WriteLine("Lost connection to Steam. Reconnecting");
+                    Program.Instance._logger.Warn("Lost connection to Steam. Reconnecting");
                 }
 
                 Thread.Sleep(1000 * ++connectionBackoff);
@@ -765,7 +641,12 @@ namespace steam_retriever
         {
             var isSteamGuard = loggedOn.Result == EResult.AccountLogonDenied;
             var is2FA = loggedOn.Result == EResult.AccountLoginDeniedNeedTwoFactor;
-            var isAccessToken = ContentDownloader.Config.RememberPassword && logonDetails.AccessToken != null && loggedOn.Result == EResult.InvalidPassword; // TODO: Get EResult for bad access token 
+            var isAccessToken = ContentDownloader.Config.RememberPassword && logonDetails.AccessToken != null &&
+                loggedOn.Result is EResult.InvalidPassword
+                or EResult.InvalidSignature
+                or EResult.AccessDenied
+                or EResult.Expired
+                or EResult.Revoked;
 
             if (isSteamGuard || is2FA || isAccessToken)
             {
@@ -787,10 +668,10 @@ namespace steam_retriever
                 }
                 else if (isAccessToken)
                 {
-                    AccountSettingsStore.Instance.Settings.RefreshToken.Remove(logonDetails.Username, out var _);
+                    AccountSettingsStore.Instance.Settings.LoginTokens.Remove(logonDetails.Username, out var _);
                     AccountSettingsStore.Instance.Save();
 
-                    // TODO: Handle gracefully by falling back to password prompt? 
+                    // TODO: Handle gracefully by falling back to password prompt?
                     Program.Instance._logger.Info("Access token was rejected.");
                     Abort(false);
                     return;
@@ -831,7 +712,7 @@ namespace steam_retriever
             {
                 Program.Instance._logger.Info($"Unable to login to Steam3: {loggedOn.Result}");
 
-                AccountSettingsStore.Instance.Settings.RefreshToken.Remove(logonDetails.Username, out var _);
+                AccountSettingsStore.Instance.Settings.LoginTokens.Remove(logonDetails.Username, out var _);
                 AccountSettingsStore.Instance.Save();
 
                 logonDetails.Password = password;
@@ -854,7 +735,7 @@ namespace steam_retriever
             Program.Instance._logger.Info(" Done!");
 
             this.seq++;
-            credentials.LoggedOn = true;
+            IsLoggedOn = true;
 
             if (ContentDownloader.Config.CellID == 0)
             {
@@ -863,23 +744,17 @@ namespace steam_retriever
             }
         }
 
-        private void SessionTokenCallback(SteamUser.SessionTokenCallback sessionToken)
-        {
-            Console.WriteLine("Got session token!");
-            credentials.SessionToken = sessionToken.SessionToken;
-        }
-
         private void LicenseListCallback(SteamApps.LicenseListCallback licenseList)
         {
             if (licenseList.Result != EResult.OK)
             {
-                Console.WriteLine("Unable to get license list: {0} ", licenseList.Result);
+                Program.Instance._logger.ErrorFormat("Unable to get license list: {0} ", licenseList.Result);
                 Abort();
 
                 return;
             }
 
-            Console.WriteLine("Got {0} licenses for account!", licenseList.LicenseList.Count);
+            Program.Instance._logger.ErrorFormat("Got {0} licenses for account!", licenseList.LicenseList.Count);
             Licenses = licenseList.LicenseList;
 
             foreach (var license in licenseList.LicenseList)
@@ -891,38 +766,9 @@ namespace steam_retriever
             }
         }
 
-        private void UpdateMachineAuthCallback(SteamUser.UpdateMachineAuthCallback machineAuth)
-        {
-            var hash = Util.SHAHash(machineAuth.Data);
-            Console.WriteLine("Got Machine Auth: {0} {1} {2} {3}", machineAuth.FileName, machineAuth.Offset, machineAuth.BytesToWrite, machineAuth.Data.Length, hash);
-
-            AccountSettingsStore.Instance.Settings.SentryData[logonDetails.Username] = machineAuth.Data;
-            AccountSettingsStore.Instance.Save();
-
-            var authResponse = new SteamUser.MachineAuthDetails
-            {
-                BytesWritten = machineAuth.BytesToWrite,
-                FileName = machineAuth.FileName,
-                FileSize = machineAuth.BytesToWrite,
-                Offset = machineAuth.Offset,
-
-                SentryFileHash = hash, // should be the sha1 hash of the sentry file we just wrote
-
-                OneTimePassword = machineAuth.OneTimePassword, // not sure on this one yet, since we've had no examples of steam using OTPs
-
-                LastError = 0, // result from win32 GetLastError
-                Result = EResult.OK, // if everything went okay, otherwise ~who knows~
-
-                JobID = machineAuth.JobID, // so we respond to the correct server job
-            };
-
-            // send off our response
-            steamUser.SendMachineAuthResponse(authResponse);
-        }
-
         private static void DisplayQrCode(string challengeUrl)
         {
-            // Encode the link as a QR code 
+            // Encode the link as a QR code
             using var qrGenerator = new QRCodeGenerator();
             var qrCodeData = qrGenerator.CreateQrCode(challengeUrl, QRCodeGenerator.ECCLevel.L);
             using var qrCode = new AsciiQRCode(qrCodeData);

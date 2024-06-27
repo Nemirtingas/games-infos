@@ -605,6 +605,16 @@ namespace SteamKit2.Internal
         public void Resetseconds_remaining() => __pbn__seconds_remaining = null;
         private uint? __pbn__seconds_remaining;
 
+        [global::ProtoBuf.ProtoMember(3)]
+        public uint appid
+        {
+            get => __pbn__appid.GetValueOrDefault();
+            set => __pbn__appid = value;
+        }
+        public bool ShouldSerializeappid() => __pbn__appid != null;
+        public void Resetappid() => __pbn__appid = null;
+        private uint? __pbn__appid;
+
     }
 
     [global::ProtoBuf.ProtoContract()]
@@ -820,6 +830,293 @@ namespace SteamKit2.Internal
     }
 
     [global::ProtoBuf.ProtoContract()]
+    public partial class CClientNotificationOverlaySplashScreen : global::ProtoBuf.IExtensible
+    {
+        private global::ProtoBuf.IExtension __pbn__extensionData;
+        global::ProtoBuf.IExtension global::ProtoBuf.IExtensible.GetExtensionObject(bool createIfMissing)
+            => global::ProtoBuf.Extensible.GetExtensionObject(ref __pbn__extensionData, createIfMissing);
+
+    }
+
+    [global::ProtoBuf.ProtoContract()]
+    public partial class CClientNotificationBroadcastAvailableToWatch : global::ProtoBuf.IExtensible
+    {
+        private global::ProtoBuf.IExtension __pbn__extensionData;
+        global::ProtoBuf.IExtension global::ProtoBuf.IExtensible.GetExtensionObject(bool createIfMissing)
+            => global::ProtoBuf.Extensible.GetExtensionObject(ref __pbn__extensionData, createIfMissing);
+
+        [global::ProtoBuf.ProtoMember(1)]
+        public int broadcast_permission
+        {
+            get => __pbn__broadcast_permission.GetValueOrDefault();
+            set => __pbn__broadcast_permission = value;
+        }
+        public bool ShouldSerializebroadcast_permission() => __pbn__broadcast_permission != null;
+        public void Resetbroadcast_permission() => __pbn__broadcast_permission = null;
+        private int? __pbn__broadcast_permission;
+
+    }
+
+    [global::ProtoBuf.ProtoContract()]
+    public partial class CClientNotificationTimedTrialRemaining : global::ProtoBuf.IExtensible
+    {
+        private global::ProtoBuf.IExtension __pbn__extensionData;
+        global::ProtoBuf.IExtension global::ProtoBuf.IExtensible.GetExtensionObject(bool createIfMissing)
+            => global::ProtoBuf.Extensible.GetExtensionObject(ref __pbn__extensionData, createIfMissing);
+
+        [global::ProtoBuf.ProtoMember(1)]
+        public uint appid
+        {
+            get => __pbn__appid.GetValueOrDefault();
+            set => __pbn__appid = value;
+        }
+        public bool ShouldSerializeappid() => __pbn__appid != null;
+        public void Resetappid() => __pbn__appid = null;
+        private uint? __pbn__appid;
+
+        [global::ProtoBuf.ProtoMember(2)]
+        [global::System.ComponentModel.DefaultValue("")]
+        public string icon
+        {
+            get => __pbn__icon ?? "";
+            set => __pbn__icon = value;
+        }
+        public bool ShouldSerializeicon() => __pbn__icon != null;
+        public void Reseticon() => __pbn__icon = null;
+        private string __pbn__icon;
+
+        [global::ProtoBuf.ProtoMember(3)]
+        public bool offline
+        {
+            get => __pbn__offline.GetValueOrDefault();
+            set => __pbn__offline = value;
+        }
+        public bool ShouldSerializeoffline() => __pbn__offline != null;
+        public void Resetoffline() => __pbn__offline = null;
+        private bool? __pbn__offline;
+
+        [global::ProtoBuf.ProtoMember(4)]
+        public uint allowed_seconds
+        {
+            get => __pbn__allowed_seconds.GetValueOrDefault();
+            set => __pbn__allowed_seconds = value;
+        }
+        public bool ShouldSerializeallowed_seconds() => __pbn__allowed_seconds != null;
+        public void Resetallowed_seconds() => __pbn__allowed_seconds = null;
+        private uint? __pbn__allowed_seconds;
+
+        [global::ProtoBuf.ProtoMember(5)]
+        public uint played_seconds
+        {
+            get => __pbn__played_seconds.GetValueOrDefault();
+            set => __pbn__played_seconds = value;
+        }
+        public bool ShouldSerializeplayed_seconds() => __pbn__played_seconds != null;
+        public void Resetplayed_seconds() => __pbn__played_seconds = null;
+        private uint? __pbn__played_seconds;
+
+    }
+
+    [global::ProtoBuf.ProtoContract()]
+    public partial class CClientNotificationLoginRefresh : global::ProtoBuf.IExtensible
+    {
+        private global::ProtoBuf.IExtension __pbn__extensionData;
+        global::ProtoBuf.IExtension global::ProtoBuf.IExtensible.GetExtensionObject(bool createIfMissing)
+            => global::ProtoBuf.Extensible.GetExtensionObject(ref __pbn__extensionData, createIfMissing);
+
+    }
+
+    [global::ProtoBuf.ProtoContract()]
+    public partial class CClientNotificationTimerExpired : global::ProtoBuf.IExtensible
+    {
+        private global::ProtoBuf.IExtension __pbn__extensionData;
+        global::ProtoBuf.IExtension global::ProtoBuf.IExtensible.GetExtensionObject(bool createIfMissing)
+            => global::ProtoBuf.Extensible.GetExtensionObject(ref __pbn__extensionData, createIfMissing);
+
+    }
+
+    [global::ProtoBuf.ProtoContract()]
+    public partial class CClientNotificationSteamInputActionSetChanged : global::ProtoBuf.IExtensible
+    {
+        private global::ProtoBuf.IExtension __pbn__extensionData;
+        global::ProtoBuf.IExtension global::ProtoBuf.IExtensible.GetExtensionObject(bool createIfMissing)
+            => global::ProtoBuf.Extensible.GetExtensionObject(ref __pbn__extensionData, createIfMissing);
+
+        [global::ProtoBuf.ProtoMember(1)]
+        public int controller_index
+        {
+            get => __pbn__controller_index.GetValueOrDefault();
+            set => __pbn__controller_index = value;
+        }
+        public bool ShouldSerializecontroller_index() => __pbn__controller_index != null;
+        public void Resetcontroller_index() => __pbn__controller_index = null;
+        private int? __pbn__controller_index;
+
+        [global::ProtoBuf.ProtoMember(2)]
+        [global::System.ComponentModel.DefaultValue("")]
+        public string action_set_name
+        {
+            get => __pbn__action_set_name ?? "";
+            set => __pbn__action_set_name = value;
+        }
+        public bool ShouldSerializeaction_set_name() => __pbn__action_set_name != null;
+        public void Resetaction_set_name() => __pbn__action_set_name = null;
+        private string __pbn__action_set_name;
+
+    }
+
+    [global::ProtoBuf.ProtoContract()]
+    public partial class CClientNotificationRemoteClientConnection : global::ProtoBuf.IExtensible
+    {
+        private global::ProtoBuf.IExtension __pbn__extensionData;
+        global::ProtoBuf.IExtension global::ProtoBuf.IExtensible.GetExtensionObject(bool createIfMissing)
+            => global::ProtoBuf.Extensible.GetExtensionObject(ref __pbn__extensionData, createIfMissing);
+
+        [global::ProtoBuf.ProtoMember(1)]
+        [global::System.ComponentModel.DefaultValue("")]
+        public string machine
+        {
+            get => __pbn__machine ?? "";
+            set => __pbn__machine = value;
+        }
+        public bool ShouldSerializemachine() => __pbn__machine != null;
+        public void Resetmachine() => __pbn__machine = null;
+        private string __pbn__machine;
+
+        [global::ProtoBuf.ProtoMember(2)]
+        public bool connected
+        {
+            get => __pbn__connected.GetValueOrDefault();
+            set => __pbn__connected = value;
+        }
+        public bool ShouldSerializeconnected() => __pbn__connected != null;
+        public void Resetconnected() => __pbn__connected = null;
+        private bool? __pbn__connected;
+
+    }
+
+    [global::ProtoBuf.ProtoContract()]
+    public partial class CClientNotificationRemoteClientStartStream : global::ProtoBuf.IExtensible
+    {
+        private global::ProtoBuf.IExtension __pbn__extensionData;
+        global::ProtoBuf.IExtension global::ProtoBuf.IExtensible.GetExtensionObject(bool createIfMissing)
+            => global::ProtoBuf.Extensible.GetExtensionObject(ref __pbn__extensionData, createIfMissing);
+
+        [global::ProtoBuf.ProtoMember(1)]
+        [global::System.ComponentModel.DefaultValue("")]
+        public string machine
+        {
+            get => __pbn__machine ?? "";
+            set => __pbn__machine = value;
+        }
+        public bool ShouldSerializemachine() => __pbn__machine != null;
+        public void Resetmachine() => __pbn__machine = null;
+        private string __pbn__machine;
+
+        [global::ProtoBuf.ProtoMember(2)]
+        [global::System.ComponentModel.DefaultValue("")]
+        public string game_name
+        {
+            get => __pbn__game_name ?? "";
+            set => __pbn__game_name = value;
+        }
+        public bool ShouldSerializegame_name() => __pbn__game_name != null;
+        public void Resetgame_name() => __pbn__game_name = null;
+        private string __pbn__game_name;
+
+    }
+
+    [global::ProtoBuf.ProtoContract()]
+    public partial class CClientNotificationStreamingClientConnection : global::ProtoBuf.IExtensible
+    {
+        private global::ProtoBuf.IExtension __pbn__extensionData;
+        global::ProtoBuf.IExtension global::ProtoBuf.IExtensible.GetExtensionObject(bool createIfMissing)
+            => global::ProtoBuf.Extensible.GetExtensionObject(ref __pbn__extensionData, createIfMissing);
+
+        [global::ProtoBuf.ProtoMember(1)]
+        [global::System.ComponentModel.DefaultValue("")]
+        public string hostname
+        {
+            get => __pbn__hostname ?? "";
+            set => __pbn__hostname = value;
+        }
+        public bool ShouldSerializehostname() => __pbn__hostname != null;
+        public void Resethostname() => __pbn__hostname = null;
+        private string __pbn__hostname;
+
+        [global::ProtoBuf.ProtoMember(2)]
+        [global::System.ComponentModel.DefaultValue("")]
+        public string machine
+        {
+            get => __pbn__machine ?? "";
+            set => __pbn__machine = value;
+        }
+        public bool ShouldSerializemachine() => __pbn__machine != null;
+        public void Resetmachine() => __pbn__machine = null;
+        private string __pbn__machine;
+
+        [global::ProtoBuf.ProtoMember(3)]
+        public bool connected
+        {
+            get => __pbn__connected.GetValueOrDefault();
+            set => __pbn__connected = value;
+        }
+        public bool ShouldSerializeconnected() => __pbn__connected != null;
+        public void Resetconnected() => __pbn__connected = null;
+        private bool? __pbn__connected;
+
+    }
+
+    [global::ProtoBuf.ProtoContract()]
+    public partial class CClientNotificationPlaytimeWarning : global::ProtoBuf.IExtensible
+    {
+        private global::ProtoBuf.IExtension __pbn__extensionData;
+        global::ProtoBuf.IExtension global::ProtoBuf.IExtensible.GetExtensionObject(bool createIfMissing)
+            => global::ProtoBuf.Extensible.GetExtensionObject(ref __pbn__extensionData, createIfMissing);
+
+        [global::ProtoBuf.ProtoMember(1)]
+        [global::System.ComponentModel.DefaultValue("")]
+        public string type
+        {
+            get => __pbn__type ?? "";
+            set => __pbn__type = value;
+        }
+        public bool ShouldSerializetype() => __pbn__type != null;
+        public void Resettype() => __pbn__type = null;
+        private string __pbn__type;
+
+        [global::ProtoBuf.ProtoMember(2)]
+        public uint playtime_remaining
+        {
+            get => __pbn__playtime_remaining.GetValueOrDefault();
+            set => __pbn__playtime_remaining = value;
+        }
+        public bool ShouldSerializeplaytime_remaining() => __pbn__playtime_remaining != null;
+        public void Resetplaytime_remaining() => __pbn__playtime_remaining = null;
+        private uint? __pbn__playtime_remaining;
+
+    }
+
+    [global::ProtoBuf.ProtoContract()]
+    public partial class CClientNotificationGRE : global::ProtoBuf.IExtensible
+    {
+        private global::ProtoBuf.IExtension __pbn__extensionData;
+        global::ProtoBuf.IExtension global::ProtoBuf.IExtensible.GetExtensionObject(bool createIfMissing)
+            => global::ProtoBuf.Extensible.GetExtensionObject(ref __pbn__extensionData, createIfMissing);
+
+        [global::ProtoBuf.ProtoMember(1, DataFormat = global::ProtoBuf.DataFormat.FixedSize)]
+        public ulong game_id
+        {
+            get => __pbn__game_id.GetValueOrDefault();
+            set => __pbn__game_id = value;
+        }
+        public bool ShouldSerializegame_id() => __pbn__game_id != null;
+        public void Resetgame_id() => __pbn__game_id = null;
+        private ulong? __pbn__game_id;
+
+    }
+
+    [global::ProtoBuf.ProtoContract()]
     public enum EClientNotificationType
     {
         k_EClientNotificationType_Invalid = 0,
@@ -854,6 +1151,28 @@ namespace SteamKit2.Internal
         k_EClientNotificationType_TradeOffer = 29,
         k_EClientNotificationType_AsyncGame = 30,
         k_EClientNotificationType_General = 31,
+        k_EClientNotificationType_HelpRequest = 32,
+        k_EClientNotificationType_OverlaySplashScreen = 33,
+        k_EClientNotificationType_BroadcastAvailableToWatch = 34,
+        k_EClientNotificationType_TimedTrialRemaining = 35,
+        k_EClientNotificationType_LoginRefresh = 36,
+        k_EClientNotificationType_MajorSale = 37,
+        k_EClientNotificationType_TimerExpired = 38,
+        k_EClientNotificationType_ModeratorMsg = 39,
+        k_EClientNotificationType_SteamInputActionSetChanged = 40,
+        k_EClientNotificationType_RemoteClientConnection = 41,
+        k_EClientNotificationType_RemoteClientStartStream = 42,
+        k_EClientNotificationType_StreamingClientConnection = 43,
+        k_EClientNotificationType_FamilyInvite = 44,
+        k_EClientNotificationType_PlaytimeWarning = 45,
+        k_EClientNotificationType_FamilyPurchaseRequest = 46,
+        k_EClientNotificationType_FamilyPurchaseRequestResponse = 47,
+        k_EClientNotificationType_ParentalFeatureRequest = 48,
+        k_EClientNotificationType_ParentalPlaytimeRequest = 49,
+        k_EClientNotificationType_GRE = 50,
+        k_EClientNotificationType_ParentalFeatureResponse = 51,
+        k_EClientNotificationType_ParentalPlaytimeResponse = 52,
+        k_EClientNotificationType_RequestedGameAdded = 53,
     }
 
     [global::ProtoBuf.ProtoContract()]

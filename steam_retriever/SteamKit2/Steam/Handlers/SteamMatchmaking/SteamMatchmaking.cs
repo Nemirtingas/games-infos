@@ -14,9 +14,9 @@ namespace SteamKit2
     {
         readonly Dictionary<EMsg, Action<IPacketMsg>> dispatchMap;
 
-        readonly ConcurrentDictionary<JobID, ProtoBuf.IExtensible> lobbyManipulationRequests = new ConcurrentDictionary<JobID, ProtoBuf.IExtensible>();
+        readonly ConcurrentDictionary<JobID, ProtoBuf.IExtensible> lobbyManipulationRequests = new();
 
-        readonly LobbyCache lobbyCache = new LobbyCache();
+        readonly LobbyCache lobbyCache = new();
 
         internal SteamMatchmaking()
         {
@@ -324,10 +324,7 @@ namespace SteamKit2
         /// <param name="appId">The ID of the app this message pertains to.</param>
         public void Send( ClientMsgProtobuf msg, uint appId )
         {
-            if ( msg == null )
-            {
-                throw new ArgumentNullException( nameof(msg) );
-            }
+            ArgumentNullException.ThrowIfNull( msg );
 
             msg.ProtoHeader.routing_appid = appId;
             Client.Send( msg );
@@ -339,10 +336,7 @@ namespace SteamKit2
         /// <param name="packetMsg">The packet message that contains the data.</param>
         public override void HandleMsg( IPacketMsg packetMsg )
         {
-            if ( packetMsg == null )
-            {
-                throw new ArgumentNullException( nameof(packetMsg) );
-            }
+            ArgumentNullException.ThrowIfNull( packetMsg );
 
             if ( dispatchMap.TryGetValue( packetMsg.MsgType, out var handler ) )
             {
@@ -380,7 +374,7 @@ namespace SteamKit2
                 if ( body.eresult == ( int )EResult.OK && request != null )
                 {
                     var createLobby = ( CMsgClientMMSCreateLobby )request;
-                    var members = new List<Lobby.Member>( 1 ) { new Lobby.Member( Client.SteamID!, createLobby.persona_name_owner ) };
+                    var members = new List<Lobby.Member>( 1 ) { new( Client.SteamID!, createLobby.persona_name_owner ) };
 
                     lobbyCache.CacheLobby(
                         createLobby.app_id,

@@ -654,7 +654,7 @@ namespace steam_retriever
                                 if (ContentDownloader.UGCFilesDownloaded.ContainsKey(file_details.hcontent_file))
                                 {
                                     var f = ContentDownloader.UGCFilesDownloaded[file_details.hcontent_file];
-                                    File.Move(f.path, Path.Combine(Options.CacheOutDirectory, str_appid, $"{published_id}_{f.filename}"));
+                                    File.Move(f.Path, Path.Combine(Options.CacheOutDirectory, str_appid, $"{published_id}_{f.FileName}"));
                                 }
                             }
                         }

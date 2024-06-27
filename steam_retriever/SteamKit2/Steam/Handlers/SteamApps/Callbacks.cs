@@ -321,16 +321,14 @@ namespace SteamKit2
             {
                 var tempList = new List<uint>();
 
-                using ( var ms = new MemoryStream( payload ) )
-                using ( var br = new BinaryReader( ms ) )
+                using var ms = new MemoryStream( payload );
+                using var br = new BinaryReader( ms );
+                for ( int x = 0; x < msg.NumBans; x++ )
                 {
-                    for ( int x = 0; x < msg.NumBans; x++ )
-                    {
-                        tempList.Add( br.ReadUInt32() );
-                    }
-
-                    BannedApps = new ReadOnlyCollection<uint>( tempList );
+                    tempList.Add( br.ReadUInt32() );
                 }
+
+                BannedApps = new ReadOnlyCollection<uint>( tempList );
             }
         }
 
@@ -363,8 +361,8 @@ namespace SteamKit2
 
                 PackageTokensDenied = new ReadOnlyCollection<uint>( msg.package_denied_tokens );
                 AppTokensDenied = new ReadOnlyCollection<uint>( msg.app_denied_tokens );
-                PackageTokens = new Dictionary<uint, ulong>();
-                AppTokens = new Dictionary<uint, ulong>();
+                PackageTokens = [];
+                AppTokens = [];
 
                 foreach ( var package_token in msg.package_access_tokens )
                 {
@@ -455,8 +453,8 @@ namespace SteamKit2
                 RequiresFullUpdate = msg.force_full_update;
                 RequiresFullAppUpdate = msg.force_full_app_update;
                 RequiresFullPackageUpdate = msg.force_full_package_update;
-                PackageChanges = new Dictionary<uint, PICSChangeData>();
-                AppChanges = new Dictionary<uint, PICSChangeData>();
+                PackageChanges = [];
+                AppChanges = [];
 
                 foreach ( var package_change in msg.package_changes )
                 {
@@ -525,10 +523,8 @@ namespace SteamKit2
                     if ( app_info.buffer != null && app_info.buffer.Length > 0 )
                     {
                         // we don't want to read the trailing null byte
-                        using ( var ms = new MemoryStream( app_info.buffer, 0, app_info.buffer.Length - 1 ) )
-                        {
-                            this.KeyValues.ReadAsText( ms );
-                        }
+                        using var ms = new MemoryStream( app_info.buffer, 0, app_info.buffer.Length - 1 );
+                        this.KeyValues.ReadAsText( ms );
                     }
 
                     this.OnlyPublic = app_info.only_public;
@@ -557,16 +553,14 @@ namespace SteamKit2
 
                     if ( package_info.buffer != null )
                     {
-                        using ( MemoryStream ms = new MemoryStream( package_info.buffer ) )
-                        using ( var br = new BinaryReader( ms ) )
-                        {
-                            // steamclient checks this value == 1 before it attempts to read the KV from the buffer
-                            // see: CPackageInfo::UpdateFromBuffer(CSHA const&,uint,CUtlBuffer &)
-                            // todo: we've apparently ignored this with zero ill effects, but perhaps we want to respect it?
-                            br.ReadUInt32();
+                        using MemoryStream ms = new MemoryStream( package_info.buffer );
+                        using var br = new BinaryReader( ms );
+                        // steamclient checks this value == 1 before it attempts to read the KV from the buffer
+                        // see: CPackageInfo::UpdateFromBuffer(CSHA const&,uint,CUtlBuffer &)
+                        // todo: we've apparently ignored this with zero ill effects, but perhaps we want to respect it?
+                        br.ReadUInt32();
 
-                            this.KeyValues.TryReadAsBinary( ms );
-                        }
+                        this.KeyValues.TryReadAsBinary( ms );
                     }
                 }
             }
@@ -605,8 +599,8 @@ namespace SteamKit2
                 ResponsePending = msg.response_pending;
                 UnknownPackages = new ReadOnlyCollection<uint>( msg.unknown_packageids );
                 UnknownApps = new ReadOnlyCollection<uint>( msg.unknown_appids );
-                Packages = new Dictionary<uint, PICSProductInfo>();
-                Apps = new Dictionary<uint, PICSProductInfo>();
+                Packages = [];
+                Apps = [];
 
                 foreach ( var package_info in msg.packages )
                 {
@@ -649,7 +643,7 @@ namespace SteamKit2
                 CountGuestPassesToGive = msg.CountGuestPassesToGive;
                 CountGuestPassesToRedeem = msg.CountGuestPassesToRedeem;
 
-                GuestPasses = new List<KeyValue>();
+                GuestPasses = [];
                 for ( int i = 0; i < CountGuestPassesToGive + CountGuestPassesToRedeem; i++ )
                 {
                     var kv = new KeyValue();
@@ -770,7 +764,7 @@ namespace SteamKit2
                 JobID = jobID;
 
                 Result = ( EResult )msg.eresult;
-                BetaPasswords = new Dictionary<string, byte[]>();
+                BetaPasswords = [];
 
                 foreach ( var password in msg.betapasswords )
                 {

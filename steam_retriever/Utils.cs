@@ -1,10 +1,8 @@
-﻿using Newtonsoft.Json.Linq;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices;
-using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -62,7 +60,7 @@ namespace steam_retriever
                 if (c >= ' ' && c <= '~')
                 {
                     password.Append(c);
-                    Console.Write("*");
+                    Console.Write('*');
                 }
             } while (keyInfo.Key != ConsoleKey.Enter);
 
@@ -111,17 +109,7 @@ namespace steam_retriever
                 b = (b + a) % 65521;
             }
 
-            return System.BitConverter.GetBytes(a | (b << 16));
-        }
-
-        public static byte[] SHAHash(byte[] input)
-        {
-            using (var sha = SHA1.Create())
-            {
-                var output = sha.ComputeHash(input);
-
-                return output;
-            }
+            return BitConverter.GetBytes(a | (b << 16));
         }
 
         public static byte[] DecodeHexString(string hex)
@@ -138,12 +126,17 @@ namespace steam_retriever
             return bytes;
         }
 
-        public static string EncodeHexString(byte[] input) => input.Aggregate(new StringBuilder(), (sb, v) => sb.Append(v.ToString("x2"))).ToString();
+        public static string EncodeHexString(byte[] input)
+        {
+            return input.Aggregate(new StringBuilder(),
+                (sb, v) => sb.Append(v.ToString("x2"))
+            ).ToString();
+        }
 
         public static async Task InvokeAsync(IEnumerable<Func<Task>> taskFactories, int maxDegreeOfParallelism)
         {
-            if (taskFactories == null) throw new ArgumentNullException(nameof(taskFactories));
-            if (maxDegreeOfParallelism <= 0) throw new ArgumentException(nameof(maxDegreeOfParallelism));
+            ArgumentNullException.ThrowIfNull(taskFactories);
+            ArgumentOutOfRangeException.ThrowIfLessThanOrEqual(maxDegreeOfParallelism, 0);
 
             var queue = taskFactories.ToArray();
 
@@ -170,20 +163,6 @@ namespace steam_retriever
 
                 tasksInFlight.Remove(completedTask);
             } while (index < queue.Length || tasksInFlight.Count != 0);
-        }
-
-        public static JObject ParseJsonWebToken(string token)
-        {
-            var tokenComponents = token.Split('.');
-
-            var base64 = tokenComponents[1].Replace('-', '+').Replace('_', '/');
-
-            if (base64.Length % 4 != 0)
-            {
-                base64 += new string('=', 4 - base64.Length % 4);
-            }
-
-            return JObject.Parse(Encoding.UTF8.GetString(Convert.FromBase64String(base64)));
         }
     }
 }

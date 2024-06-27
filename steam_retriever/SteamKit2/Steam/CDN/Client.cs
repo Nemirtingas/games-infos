@@ -1,4 +1,4 @@
-/*
+﻿/*
  * This file is subject to the terms and conditions defined in
  * file 'license.txt', which is part of this source code package.
  */
@@ -36,10 +36,7 @@ namespace SteamKit2.CDN
         /// The SteamClient instance must be connected and logged onto Steam.</param>
         public Client( SteamClient steamClient )
         {
-            if ( steamClient == null )
-            {
-                throw new ArgumentNullException( nameof( steamClient ) );
-            }
+            ArgumentNullException.ThrowIfNull( steamClient );
 
             this.httpClient = steamClient.Configuration.HttpClientFactory();
         }
@@ -70,28 +67,12 @@ namespace SteamKit2.CDN
         /// <exception cref="SteamKitWebRequestException">A network error occurred when performing the request.</exception>
         public async Task<DepotManifest> DownloadManifestAsync( uint depotId, ulong manifestId, ulong manifestRequestCode, Server server, byte[]? depotKey = null, Server? proxyServer = null )
         {
-            var depotManifest = new DepotManifest( await DownloadRawManifestAsync(depotId, manifestId, manifestRequestCode, server, proxyServer ));
-
-            if (depotKey != null)
-            {
-                // if we have the depot key, decrypt the manifest filenames
-                depotManifest.DecryptFilenames(depotKey);
-            }
-
-            return depotManifest;
-        }
-
-        public async Task<byte[]> DownloadRawManifestAsync(uint depotId, ulong manifestId, ulong manifestRequestCode, Server server, Server? proxyServer = null)
-        {
-            if (server == null)
-            {
-                throw new ArgumentNullException(nameof(server));
-            }
+            ArgumentNullException.ThrowIfNull( server );
 
             const uint MANIFEST_VERSION = 5;
             string url;
 
-            if (manifestRequestCode > 0)
+            if ( manifestRequestCode > 0 )
             {
                 url = $"depot/{depotId}/manifest/{manifestId}/{MANIFEST_VERSION}/{manifestRequestCode}";
             }
@@ -100,11 +81,19 @@ namespace SteamKit2.CDN
                 url = $"depot/{depotId}/manifest/{manifestId}/{MANIFEST_VERSION}";
             }
 
-            var manifestData = await DoRawCommandAsync(server, url, proxyServer).ConfigureAwait(false);
+            var manifestData = await DoRawCommandAsync( server, url, proxyServer ).ConfigureAwait( false );
 
-            manifestData = ZipUtil.Decompress(manifestData);
+            manifestData = ZipUtil.Decompress( manifestData );
 
-            return manifestData;
+            var depotManifest = new DepotManifest( manifestData );
+
+            if ( depotKey != null )
+            {
+                // if we have the depot key, decrypt the manifest filenames
+                depotManifest.DecryptFilenames( depotKey );
+            }
+
+            return depotManifest;
         }
 
         /// <summary>
@@ -132,15 +121,9 @@ namespace SteamKit2.CDN
         /// <exception cref="SteamKitWebRequestException">A network error occurred when performing the request.</exception>
         public async Task<DepotChunk> DownloadDepotChunkAsync( uint depotId, DepotManifest.ChunkData chunk, Server server, byte[]? depotKey = null, Server? proxyServer = null )
         {
-            if ( server == null )
-            {
-                throw new ArgumentNullException( nameof( server ) );
-            }
+            ArgumentNullException.ThrowIfNull( server );
 
-            if ( chunk == null )
-            {
-                throw new ArgumentNullException( nameof( chunk ) );
-            }
+            ArgumentNullException.ThrowIfNull( chunk );
 
             if ( chunk.ChunkID == null )
             {
@@ -187,18 +170,7 @@ namespace SteamKit2.CDN
 
                 cts.CancelAfter( ResponseBodyTimeout );
 
-#if NET5_0_OR_GREATER
                 return await response.Content.ReadAsByteArrayAsync( cts.Token ).ConfigureAwait( false );
-#else
-                var contentLength = response.Content.Headers.ContentLength;
-
-                using var responseStream = await response.Content.ReadAsStreamAsync().ConfigureAwait( false );
-                using var ms = new MemoryStream( ( int )contentLength.GetValueOrDefault() );
-
-                await responseStream.CopyToAsync( ms, 81920, cts.Token ).ConfigureAwait( false );
-
-                return ms.ToArray();
-#endif
             }
             catch ( Exception ex )
             {

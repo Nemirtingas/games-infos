@@ -25,10 +25,7 @@ namespace SteamKit2.Authentication
         /// <param name="steamClient">The <see cref="SteamClient"/> this instance will be associated with.</param>
         internal SteamAuthentication( SteamClient steamClient )
         {
-            if ( steamClient == null )
-            {
-                throw new ArgumentNullException( nameof( steamClient ) );
-            }
+            ArgumentNullException.ThrowIfNull( steamClient );
 
             Client = steamClient;
 
@@ -57,6 +54,37 @@ namespace SteamKit2.Authentication
             var response = message.GetDeserializedResponse<CAuthentication_GetPasswordRSAPublicKey_Response>();
 
             return response;
+        }
+
+        /// <summary>
+        /// Given a refresh token for a client app audience (e.g. desktop client / mobile client), generate an access token.
+        /// </summary>
+        /// <param name="steamID">The SteamID this token belongs to.</param>
+        /// <param name="refreshToken">The refresh token.</param>
+        /// <param name="allowRenewal">If true, allow renewing the token.</param>
+        public async Task<AccessTokenGenerateResult> GenerateAccessTokenForAppAsync( SteamID steamID, string refreshToken, bool allowRenewal = false )
+        {
+            var request = new CAuthentication_AccessToken_GenerateForApp_Request
+            {
+                refresh_token = refreshToken,
+                steamid = steamID.ConvertToUInt64(),
+            };
+
+            if ( allowRenewal )
+            {
+                request.renewal_type = ETokenRenewalType.k_ETokenRenewalType_Allow;
+            }
+
+            var message = await AuthenticationService.SendMessage( api => api.GenerateAccessTokenForApp( request ) );
+
+            if ( message.Result != EResult.OK )
+            {
+                throw new AuthenticationException( "Failed to generate token", message.Result );
+            }
+
+            var response = message.GetDeserializedResponse<CAuthentication_AccessToken_GenerateForApp_Response>();
+
+            return new AccessTokenGenerateResult( response );
         }
 
         /// <summary>
@@ -103,10 +131,7 @@ namespace SteamKit2.Authentication
         /// <exception cref="ArgumentException">Username or password are not set within <paramref name="details"/>.</exception>
         public async Task<CredentialsAuthSession> BeginAuthSessionViaCredentialsAsync( AuthSessionDetails details )
         {
-            if ( details == null )
-            {
-                throw new ArgumentNullException( nameof( details ) );
-            }
+            ArgumentNullException.ThrowIfNull( details );
 
             if ( string.IsNullOrEmpty( details.Username ) || string.IsNullOrEmpty( details.Password ) )
             {

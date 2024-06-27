@@ -5,10 +5,10 @@
 
 
 using System;
-using System.Net;
+using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.IO;
-using System.Collections.Generic;
+using System.Net;
 using System.Text;
 using ProtoBuf;
 using SteamKit2.Internal;
@@ -86,11 +86,6 @@ namespace SteamKit2
             public byte[]? Steam2Ticket { get; private set; }
 
             /// <summary>
-            /// Gets the WebAPI authentication user nonce.
-            /// </summary>
-            public string? WebAPIUserNonce { get; private set; }
-
-            /// <summary>
             /// Gets the IP country code.
             /// </summary>
             public string? IPCountryCode { get; private set; }
@@ -139,8 +134,6 @@ namespace SteamKit2
 
                 this.IPCountryCode = resp.ip_country_code;
 
-                this.WebAPIUserNonce = resp.webapi_authenticate_user_nonce;
-
                 this.VanityURL = resp.vanity_url;
 
                 this.NumLoginFailuresToMigrate = resp.count_loginfailures_to_migrate;
@@ -148,10 +141,8 @@ namespace SteamKit2
 
                 if ( resp.parental_settings != null )
                 {
-                    using ( var ms = new MemoryStream( resp.parental_settings ) )
-                    {
-                        this.ParentalSettings = Serializer.Deserialize<ParentalSettings>( ms );
-                    }
+                    using var ms = new MemoryStream( resp.parental_settings );
+                    this.ParentalSettings = Serializer.Deserialize<ParentalSettings>( ms );
                 }
             }
 
@@ -192,31 +183,6 @@ namespace SteamKit2
             internal LoggedOffCallback( EResult result )
             {
                 this.Result = result;
-            }
-        }
-
-        /// <summary>
-        /// This callback is returned some time after logging onto the network.
-        /// </summary>
-        [Obsolete("Steam no longer sends new login keys as of March 2023, use SteamAuthentication.")]
-        public sealed class LoginKeyCallback : CallbackMsg
-        {
-            /// <summary>
-            /// Gets the login key.
-            /// </summary>
-            /// <value>The login key.</value>
-            public string LoginKey { get; private set; }
-            /// <summary>
-            /// Gets the unique ID.
-            /// </summary>
-            /// <value>The unique ID.</value>
-            public uint UniqueID { get; private set; }
-
-
-            internal LoginKeyCallback( CMsgClientNewLoginKey logKey )
-            {
-                this.LoginKey = logKey.login_key;
-                this.UniqueID = logKey.unique_id;
             }
         }
 
@@ -331,10 +297,19 @@ namespace SteamKit2
             public int Balance { get; private set; }
 
             /// <summary>
+            /// Gets the delayed (pending) balance of the wallet as a 32-bit integer, in cents.
+            /// </summary>
+            public int BalanceDelayed { get; private set; }
+
+            /// <summary>
             /// Gets the balance of the wallet as a 64-bit integer, in cents.
             /// </summary>
             public long LongBalance { get; private set; }
 
+            /// <summary>
+            /// Gets the delayed (pending) balance of the wallet as a 64-bit integer, in cents.
+            /// </summary>
+            public long LongBalanceDelayed { get; private set; }
 
             internal WalletInfoCallback( CMsgClientWalletInfoUpdate wallet )
             {
@@ -342,96 +317,9 @@ namespace SteamKit2
 
                 Currency = ( ECurrencyCode )wallet.currency;
                 Balance = wallet.balance;
+                BalanceDelayed = wallet.balance_delayed;
                 LongBalance = wallet.balance64;
-            }
-        }
-
-        /// <summary>
-        /// This callback is received when the backend wants the client to update it's local machine authentication data.
-        /// </summary>
-        public sealed class UpdateMachineAuthCallback : CallbackMsg
-        {
-            /// <summary>
-            /// Represents various one-time-password details.
-            /// </summary>
-            public sealed class OTPDetails
-            {
-                /// <summary>
-                /// Gets the OTP type.
-                /// </summary>
-                public uint Type { get; internal set; }
-                /// <summary>
-                /// Gets the OTP identifier.
-                /// </summary>
-                public string? Identifier { get; internal set; }
-                /// <summary>
-                /// Gets the OTP shared secret.
-                /// </summary>
-                public byte[]? SharedSecret { get; internal set; }
-                /// <summary>
-                /// Gets the OTP time drift.
-                /// </summary>
-                public uint TimeDrift { get; internal set; }
-
-
-                /// <summary>
-                /// Implicitly converts <see cref="UpdateMachineAuthCallback.OTPDetails"/> into <see cref="MachineAuthDetails.OTPDetails"/>.
-                /// </summary>
-                /// <param name="otp">The details to convert.</param>
-                /// <returns></returns>
-                public static implicit operator MachineAuthDetails.OTPDetails( OTPDetails otp )
-                {
-                    return new MachineAuthDetails.OTPDetails
-                    {
-                        Identifier = otp.Identifier,
-                        Type = otp.Type,
-                    };
-                }
-            }
-
-            /// <summary>
-            /// Gets the sentry file data that should be written.
-            /// </summary>
-            public byte[] Data { get; private set; }
-
-            /// <summary>
-            /// Gets the number of bytes to write.
-            /// </summary>
-            public int BytesToWrite { get; private set; }
-            /// <summary>
-            /// Gets the offset to write to.
-            /// </summary>
-            public int Offset { get; private set; }
-
-            /// <summary>
-            /// Gets the name of the sentry file to write.
-            /// </summary>
-            public string FileName { get; private set; }
-
-            /// <summary>
-            /// Gets the one-time-password details.
-            /// </summary>
-            public OTPDetails OneTimePassword { get; private set; }
-
-
-            internal UpdateMachineAuthCallback( JobID jobID, CMsgClientUpdateMachineAuth msg )
-            {
-                JobID = jobID;
-
-                Data = msg.bytes;
-
-                BytesToWrite = ( int )msg.cubtowrite;
-                Offset = ( int )msg.offset;
-
-                FileName = msg.filename;
-
-                OneTimePassword = new OTPDetails
-                {
-                    Type = msg.otp_type,
-                    Identifier = msg.otp_identifier,
-                    SharedSecret = msg.otp_sharedsecret,
-                    TimeDrift = msg.otp_timedrift,
-                };
+                LongBalanceDelayed = wallet.balance64_delayed;
             }
         }
 
@@ -506,13 +394,11 @@ namespace SteamKit2
 
                 internal Message( byte[] data )
                 {
-                    using ( var ms = new MemoryStream( data ) )
-                    using ( var br = new BinaryReader( ms ) )
-                    {
-                        ID = br.ReadUInt64();
-                        URL = br.BaseStream.ReadNullTermString( Encoding.UTF8 );
-                        Flags = ( EMarketingMessageFlags )br.ReadUInt32();
-                    }
+                    using var ms = new MemoryStream( data );
+                    using var br = new BinaryReader( ms );
+                    ID = br.ReadUInt64();
+                    URL = br.BaseStream.ReadNullTermString( Encoding.UTF8 );
+                    Flags = ( EMarketingMessageFlags )br.ReadUInt32();
                 }
             }
 

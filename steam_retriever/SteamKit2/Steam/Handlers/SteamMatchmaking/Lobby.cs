@@ -2,7 +2,6 @@ using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.IO;
-using System.Linq;
 using SteamKit2.Internal;
 
 namespace SteamKit2
@@ -329,7 +328,7 @@ namespace SteamKit2
             public long? Weight { get; }
 
             static readonly ReadOnlyDictionary<string, string> EmptyMetadata =
-                new ReadOnlyDictionary<string, string>( new Dictionary<string, string>() );
+                new( new Dictionary<string, string>() );
 
             static readonly IReadOnlyList<Member> EmptyMembers = Array.AsReadOnly(Array.Empty<Member>());
 
