@@ -34,23 +34,20 @@ namespace SteamKit2
     /// This 64-bit structure is used for identifying various objects on the Steam network.
     /// </summary>
     [DebuggerDisplay( "{Render()}, {ConvertToUInt64()}" )]
-    public class SteamID
+    public partial class SteamID
     {
         readonly BitVector64 steamid;
 
-        static readonly Regex Steam2Regex = new Regex(
-            @"STEAM_(?<universe>[0-4]):(?<authserver>[0-1]):(?<accountid>\d+)",
-            RegexOptions.Compiled | RegexOptions.IgnoreCase );
+        [GeneratedRegex( @"STEAM_(?<universe>[0-4]):(?<authserver>[0-1]):(?<accountid>[0-9]+)", RegexOptions.IgnoreCase )]
+        private static partial Regex Steam2Regex();
 
-        static readonly Regex Steam3Regex = new Regex(
-            @"\[(?<type>[AGMPCgcLTIUai]):(?<universe>[0-4]):(?<account>\d+)(:(?<instance>\d+))?\]",
-            RegexOptions.Compiled );
+        [GeneratedRegex( @"\[(?<type>[AGMPCgcLTIUai]):(?<universe>[0-4]):(?<account>[0-9]+)(:(?<instance>[0-9]+))?\]" )]
+        private static partial Regex Steam3Regex();
 
-        static readonly Regex Steam3FallbackRegex = new Regex(
-            @"\[(?<type>[AGMPCgcLTIUai]):(?<universe>[0-4]):(?<account>\d+)(\((?<instance>\d+)\))?\]",
-            RegexOptions.Compiled );
+        [GeneratedRegex( @"\[(?<type>[AGMPCgcLTIUai]):(?<universe>[0-4]):(?<account>[0-9]+)(\((?<instance>[0-9]+)\))?\]" )]
+        private static partial Regex Steam3FallbackRegex();
 
-        static readonly Dictionary<EAccountType, char> AccountTypeChars = new Dictionary<EAccountType, char>
+        static readonly Dictionary<EAccountType, char> AccountTypeChars = new()
         {
             { EAccountType.AnonGameServer, 'A' },
             { EAccountType.GameServer, 'G' },
@@ -222,7 +219,7 @@ namespace SteamKit2
                 return false;
             }
 
-            Match m = Steam2Regex.Match( steamId );
+            Match m = Steam2Regex().Match( steamId );
 
             if ( !m.Success )
             {
@@ -255,11 +252,11 @@ namespace SteamKit2
                 return false;
             }
 
-            Match m = Steam3Regex.Match( steamId );
+            Match m = Steam3Regex().Match( steamId );
 
             if ( !m.Success )
             {
-                m = Steam3FallbackRegex.Match( steamId );
+                m = Steam3FallbackRegex().Match( steamId );
 
                 if ( !m.Success )
                 {
@@ -293,19 +290,11 @@ namespace SteamKit2
             }
             else
             {
-                switch ( type )
+                instance = type switch
                 {
-                    case 'g':
-                    case 'T':
-                    case 'c':
-                    case 'L':
-                        instance = 0;
-                        break;
-
-                    default:
-                        instance = 1;
-                        break;
-                }
+                    'g' or 'T' or 'c' or 'L' => 0,
+                    _ => 1,
+                };
             }
 
             if ( type == 'c' )
@@ -660,10 +649,7 @@ namespace SteamKit2
         /// </returns>
         public static implicit operator ulong( SteamID sid )
         {
-            if ( sid is null )
-            {
-                throw new ArgumentNullException( nameof(sid) );
-            }
+            ArgumentNullException.ThrowIfNull( sid );
 
             return sid.steamid.Data;
         }
@@ -675,7 +661,7 @@ namespace SteamKit2
         /// <returns>
         /// The result of the conversion.
         /// </returns>
-        public static implicit operator SteamID( ulong id ) => new SteamID( id );
+        public static implicit operator SteamID( ulong id ) => new( id );
 
         /// <summary>
         /// Determines whether the specified <see cref="object"/> is equal to this instance.
@@ -691,7 +677,7 @@ namespace SteamKit2
                 return false;
             }
 
-            if ( !( obj is SteamID sid ) )
+            if ( obj is not SteamID sid )
             {
                 return false;
             }
@@ -762,6 +748,5 @@ namespace SteamKit2
         {
             return steamid.Data.GetHashCode();
         }
-
     }
 }

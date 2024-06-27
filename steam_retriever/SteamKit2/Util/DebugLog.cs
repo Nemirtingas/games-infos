@@ -7,9 +7,9 @@
 
 using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Diagnostics;
 using System.Diagnostics.CodeAnalysis;
+using System.Linq;
 
 namespace SteamKit2
 {
@@ -55,7 +55,7 @@ namespace SteamKit2
         /// </value>
         public static bool Enabled { get; set; }
 
-        internal static List<IDebugListener> listeners = new List<IDebugListener>();
+        internal static List<IDebugListener> listeners = [];
 
 
         /// <summary>
@@ -76,11 +76,8 @@ namespace SteamKit2
         /// <param name="listener">The listener.</param>
         public static void AddListener( IDebugListener listener )
         {
-            if ( listener == null )
-            {
-                throw new ArgumentNullException( nameof(listener) );
-            }
-            
+            ArgumentNullException.ThrowIfNull( listener );
+
             listeners.Add( listener );
         }
         /// <summary>

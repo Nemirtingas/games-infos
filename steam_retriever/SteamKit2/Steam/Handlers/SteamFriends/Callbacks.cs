@@ -174,12 +174,6 @@ namespace SteamKit2
             /// </summary>
             /// <value>The online session instances.</value>
             public uint OnlineSessionInstances { get; private set; }
-            /// <summary>
-            /// Gets the published session ID.
-            /// </summary>
-            /// <value>The published session ID.</value>
-            [Obsolete("published_instance_id was removed")]
-            public uint PublishedSessionID { get; private set; }
 
 
             internal PersonaStateCallback( CMsgClientPersonaState.Friend friend )
@@ -443,7 +437,7 @@ namespace SteamKit2
                 if ( msg.message != null )
                 {
                     this.Message = Encoding.UTF8.GetString( msg.message );
-                    this.Message = this.Message.TrimEnd( new[] { '\0' } ); // trim any extra null chars from the end
+                    this.Message = this.Message.TrimEnd( '\0' ); // trim any extra null chars from the end
                 }
             }
         }
@@ -487,7 +481,7 @@ namespace SteamKit2
                 if ( msg.message != null )
                 {
                     this.Message = Encoding.UTF8.GetString( msg.message );
-                    this.Message = this.Message.TrimEnd( new[] { '\0' } ); // trim any extra null chars from the end
+                    this.Message = this.Message.TrimEnd( '\0' ); // trim any extra null chars from the end
                 }
             }
         }
@@ -677,29 +671,27 @@ namespace SteamKit2
 
                 NumChatMembers = msg.NumMembers;
 
-                using ( var ms = new MemoryStream( payload ) )
+                using var ms = new MemoryStream( payload );
+                // steamclient always attempts to read the chat room name, regardless of the enter response
+                ChatRoomName = ms.ReadNullTermString( Encoding.UTF8 );
+
+                if ( EnterResponse != EChatRoomEnterResponse.Success )
                 {
-                    // steamclient always attempts to read the chat room name, regardless of the enter response
-                    ChatRoomName = ms.ReadNullTermString( Encoding.UTF8 );
-
-                    if ( EnterResponse != EChatRoomEnterResponse.Success )
-                    {
-                        // the rest of the payload depends on a successful chat enter
-                        return;
-                    }
-
-                    var memberList = new List<ChatMemberInfo>();
-
-                    for ( int x = 0 ; x < NumChatMembers ; ++x )
-                    {
-                        var memberInfo = new ChatMemberInfo();
-                        memberInfo.ReadFromStream( ms );
-
-                        memberList.Add( memberInfo );
-                    }
-
-                    ChatMembers = new ReadOnlyCollection<ChatMemberInfo>( memberList );
+                    // the rest of the payload depends on a successful chat enter
+                    return;
                 }
+
+                var memberList = new List<ChatMemberInfo>();
+
+                for ( int x = 0; x < NumChatMembers; ++x )
+                {
+                    var memberInfo = new ChatMemberInfo();
+                    memberInfo.ReadFromStream( ms );
+
+                    memberList.Add( memberInfo );
+                }
+
+                ChatMembers = new ReadOnlyCollection<ChatMemberInfo>( memberList );
             }
         }
 
@@ -736,7 +728,7 @@ namespace SteamKit2
                 this.ChatMsgType = msg.ChatMsgType;
 
                 this.Message = Encoding.UTF8.GetString( payload );
-                this.Message = this.Message.TrimEnd( new[] { '\0' } ); // trim any extra null chars from the end
+                this.Message = this.Message.TrimEnd( '\0' ); // trim any extra null chars from the end
             }
         }
 
@@ -772,18 +764,16 @@ namespace SteamKit2
 
                 internal StateChangeDetails( byte[] data )
                 {
-                    using ( MemoryStream ms = new MemoryStream( data ) )
-                    using ( BinaryReader br = new BinaryReader( ms ) )
-                    {
-                        ChatterActedOn = br.ReadUInt64();
-                        StateChange = ( EChatMemberStateChange )br.ReadInt32();
-                        ChatterActedBy = br.ReadUInt64();
+                    using MemoryStream ms = new MemoryStream( data );
+                    using BinaryReader br = new BinaryReader( ms );
+                    ChatterActedOn = br.ReadUInt64();
+                    StateChange = ( EChatMemberStateChange )br.ReadInt32();
+                    ChatterActedBy = br.ReadUInt64();
 
-                        if ( StateChange == EChatMemberStateChange.Entered )
-                        {
-                            MemberInfo = new ChatMemberInfo();
-                            MemberInfo.ReadFromStream( ms );
-                        }
+                    if ( StateChange == EChatMemberStateChange.Entered )
+                    {
+                        MemberInfo = new ChatMemberInfo();
+                        MemberInfo.ReadFromStream( ms );
                     }
                 }
             }

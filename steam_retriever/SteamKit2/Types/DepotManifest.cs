@@ -3,13 +3,15 @@
  * file 'license.txt', which is part of this source code package.
  */
 
-using ProtoBuf;
-using SteamKit2.Internal;
 using System;
 using System.Collections.Generic;
 using System.IO;
-using System.Text;
+using System.IO.Hashing;
 using System.Linq;
+using System.Security.Cryptography;
+using System.Text;
+using ProtoBuf;
+using SteamKit2.Internal;
 
 namespace SteamKit2
 {
@@ -177,7 +179,7 @@ namespace SteamKit2
         /// </summary>
         /// <param name="data">Raw depot manifest data to deserialize.</param>
         /// <exception cref="InvalidDataException">Thrown if the given data is not something recognizable.</exception>
-        public static DepotManifest Deserialize(byte[] data) => new DepotManifest(data);
+        public static DepotManifest Deserialize(byte[] data) => new(data);
 
         /// <summary>
         /// Attempts to decrypts file names with the given encryption key.
@@ -206,7 +208,7 @@ namespace SteamKit2
                     return false;
                 }
 
-                file.FileName = Encoding.UTF8.GetString( filename ).TrimEnd( new char[] { '\0' } ).Replace(altDirChar, Path.DirectorySeparatorChar);
+                file.FileName = Encoding.UTF8.GetString( filename ).TrimEnd( '\0' ).Replace(altDirChar, Path.DirectorySeparatorChar);
             }
 
             // Sort file entries alphabetically because that's what Steam does
@@ -224,15 +226,13 @@ namespace SteamKit2
         /// <returns><c>true</c> if serialization was successful; otherwise, <c>false</c>.</returns>
         public bool SaveToFile( string filename )
         {
-            using ( var fs = File.Open( filename, FileMode.Create ) )
-            using ( var bw = new BinaryWriter( fs ) )
+            using var fs = File.Open( filename, FileMode.Create );
+            using var bw = new BinaryWriter( fs );
+            var data = Serialize();
+            if ( data != null )
             {
-                var data = Serialize();
-                if ( data != null )
-                {
-                    bw.Write( data );
-                    return true;
-                }
+                bw.Write( data );
+                return true;
             }
 
             return false;
@@ -248,12 +248,10 @@ namespace SteamKit2
             if ( !File.Exists( filename ) )
                 return null;
 
-            using ( var fs = File.Open( filename, FileMode.Open ) )
-            using ( var ms = new MemoryStream() )
-            {
-                fs.CopyTo( ms );
-                return Deserialize( ms.ToArray() );
-            }
+            using var fs = File.Open( filename, FileMode.Open );
+            using var ms = new MemoryStream();
+            fs.CopyTo( ms );
+            return Deserialize( ms.ToArray() );
         }
 
         void InternalDeserialize(byte[] data)
@@ -393,7 +391,7 @@ namespace SteamKit2
                 }
                 else
                 {
-                    protofile.sha_filename = CryptoHelper.SHAHash( Encoding.UTF8.GetBytes( file.FileName.Replace( '/', '\\' ).ToLower() ) );
+                    protofile.sha_filename = SHA1.HashData( Encoding.UTF8.GetBytes( file.FileName.Replace( '/', '\\' ).ToLower() ) );
                 }
                 protofile.sha_content = file.FileHash;
                 if ( !string.IsNullOrWhiteSpace( file.LinkTarget ) )
@@ -438,7 +436,7 @@ namespace SteamKit2
                 byte[] data = new byte[ 4 + len ];
                 Buffer.BlockCopy( BitConverter.GetBytes( len ), 0, data, 0, 4 );
                 Buffer.BlockCopy( ms_payload.ToArray(), 0, data, 4, len );
-                uint crc32 = Crc32.Compute( data );
+                uint crc32 = Crc32.HashToUInt32( data );
 
                 if ( FilenamesEncrypted )
                 {

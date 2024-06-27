@@ -1,7 +1,6 @@
 using System;
 using System.Collections.Generic;
 using System.Globalization;
-using System.Linq;
 using System.Net.Http;
 using System.Threading;
 using System.Threading.Tasks;
@@ -55,12 +54,9 @@ namespace SteamKit2
 
         static async Task<IReadOnlyCollection<CDN.Server>> LoadCoreAsync( SteamConfiguration configuration, int? cellId, int? maxNumServers, CancellationToken cancellationToken )
         {
-            if ( configuration == null )
-            {
-                throw new ArgumentNullException( nameof( configuration ) );
-            }
+            ArgumentNullException.ThrowIfNull( configuration );
 
-            var directory = configuration.GetAsyncWebAPIInterface( "IContentServerDirectoryService" );
+            using var directory = configuration.GetAsyncWebAPIInterface( "IContentServerDirectoryService" );
             var args = new Dictionary<string, object?>();
 
             if ( cellId.HasValue )
@@ -114,7 +110,6 @@ namespace SteamKit2
                     Load = child.load,
                     WeightedLoad = child.weighted_load,
                     NumEntries = child.num_entries_in_client_list,
-                    PreferredServer = child.preferred_server,
                     SteamChinaOnly = child.steam_china_only,
 
                     UseAsProxy = child.use_as_proxy,
