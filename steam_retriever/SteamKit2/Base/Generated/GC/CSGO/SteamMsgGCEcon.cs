@@ -62,35 +62,6 @@ namespace SteamKit2.GC.CSGO.Internal
     }
 
     [global::ProtoBuf.ProtoContract()]
-    public partial class CMsgApplyAutograph : global::ProtoBuf.IExtensible
-    {
-        private global::ProtoBuf.IExtension __pbn__extensionData;
-        global::ProtoBuf.IExtension global::ProtoBuf.IExtensible.GetExtensionObject(bool createIfMissing)
-            => global::ProtoBuf.Extensible.GetExtensionObject(ref __pbn__extensionData, createIfMissing);
-
-        [global::ProtoBuf.ProtoMember(1)]
-        public ulong autograph_item_id
-        {
-            get => __pbn__autograph_item_id.GetValueOrDefault();
-            set => __pbn__autograph_item_id = value;
-        }
-        public bool ShouldSerializeautograph_item_id() => __pbn__autograph_item_id != null;
-        public void Resetautograph_item_id() => __pbn__autograph_item_id = null;
-        private ulong? __pbn__autograph_item_id;
-
-        [global::ProtoBuf.ProtoMember(2)]
-        public ulong item_item_id
-        {
-            get => __pbn__item_item_id.GetValueOrDefault();
-            set => __pbn__item_item_id = value;
-        }
-        public bool ShouldSerializeitem_item_id() => __pbn__item_item_id != null;
-        public void Resetitem_item_id() => __pbn__item_item_id = null;
-        private ulong? __pbn__item_item_id;
-
-    }
-
-    [global::ProtoBuf.ProtoContract()]
     public partial class CMsgCasketItem : global::ProtoBuf.IExtensible
     {
         private global::ProtoBuf.IExtension __pbn__extensionData;
@@ -299,7 +270,6 @@ namespace SteamKit2.GC.CSGO.Internal
         k_EMsgGCToGCIsTrustedServerResponse = 2520,
         k_EMsgGCToGCBroadcastConsoleCommand = 2521,
         k_EMsgGCServerVersionUpdated = 2522,
-        k_EMsgGCApplyAutograph = 2523,
         k_EMsgGCToGCWebAPIAccountChanged = 2524,
         k_EMsgGCRequestAnnouncements = 2525,
         k_EMsgGCRequestAnnouncementsResponse = 2526,
@@ -307,6 +277,8 @@ namespace SteamKit2.GC.CSGO.Internal
         k_EMsgGCClientVersionUpdated = 2528,
         k_EMsgGCAdjustItemEquippedStateMulti = 2529,
         k_EMsgGCRecurringSubscriptionStatus = 2530,
+        k_EMsgGCAdjustEquipSlotsManual = 2531,
+        k_EMsgGCAdjustEquipSlotsShuffle = 2532,
     }
 
     [global::ProtoBuf.ProtoContract()]
@@ -360,6 +332,7 @@ namespace SteamKit2.GC.CSGO.Internal
         k_EGCItemCustomizationNotification_GraffitiUnseal = 9185,
         k_EGCItemCustomizationNotification_GenerateSouvenir = 9204,
         k_EGCItemCustomizationNotification_ClientRedeemMissionReward = 9209,
+        k_EGCItemCustomizationNotification_ClientRedeemFreeReward = 9219,
     }
 
 }

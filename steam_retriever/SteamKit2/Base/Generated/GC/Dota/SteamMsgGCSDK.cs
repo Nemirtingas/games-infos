@@ -59,6 +59,70 @@ namespace SteamKit2.GC.Dota.Internal
     }
 
     [global::ProtoBuf.ProtoContract()]
+    public partial class CMsgSteamLearnServerInfo : global::ProtoBuf.IExtensible
+    {
+        private global::ProtoBuf.IExtension __pbn__extensionData;
+        global::ProtoBuf.IExtension global::ProtoBuf.IExtensible.GetExtensionObject(bool createIfMissing)
+            => global::ProtoBuf.Extensible.GetExtensionObject(ref __pbn__extensionData, createIfMissing);
+
+        [global::ProtoBuf.ProtoMember(1)]
+        public bool enable_data_submission
+        {
+            get => __pbn__enable_data_submission.GetValueOrDefault();
+            set => __pbn__enable_data_submission = value;
+        }
+        public bool ShouldSerializeenable_data_submission() => __pbn__enable_data_submission != null;
+        public void Resetenable_data_submission() => __pbn__enable_data_submission = null;
+        private bool? __pbn__enable_data_submission;
+
+        [global::ProtoBuf.ProtoMember(4)]
+        public CMsgSteamLearnAccessTokens access_tokens { get; set; }
+
+        [global::ProtoBuf.ProtoMember(5)]
+        public global::System.Collections.Generic.List<ProjectInfo> project_infos { get; } = new global::System.Collections.Generic.List<ProjectInfo>();
+
+        [global::ProtoBuf.ProtoContract()]
+        public partial class ProjectInfo : global::ProtoBuf.IExtensible
+        {
+            private global::ProtoBuf.IExtension __pbn__extensionData;
+            global::ProtoBuf.IExtension global::ProtoBuf.IExtensible.GetExtensionObject(bool createIfMissing)
+                => global::ProtoBuf.Extensible.GetExtensionObject(ref __pbn__extensionData, createIfMissing);
+
+            [global::ProtoBuf.ProtoMember(1)]
+            public uint project_id
+            {
+                get => __pbn__project_id.GetValueOrDefault();
+                set => __pbn__project_id = value;
+            }
+            public bool ShouldSerializeproject_id() => __pbn__project_id != null;
+            public void Resetproject_id() => __pbn__project_id = null;
+            private uint? __pbn__project_id;
+
+            [global::ProtoBuf.ProtoMember(2)]
+            public uint snapshot_published_version
+            {
+                get => __pbn__snapshot_published_version.GetValueOrDefault();
+                set => __pbn__snapshot_published_version = value;
+            }
+            public bool ShouldSerializesnapshot_published_version() => __pbn__snapshot_published_version != null;
+            public void Resetsnapshot_published_version() => __pbn__snapshot_published_version = null;
+            private uint? __pbn__snapshot_published_version;
+
+            [global::ProtoBuf.ProtoMember(3)]
+            public uint inference_published_version
+            {
+                get => __pbn__inference_published_version.GetValueOrDefault();
+                set => __pbn__inference_published_version = value;
+            }
+            public bool ShouldSerializeinference_published_version() => __pbn__inference_published_version != null;
+            public void Resetinference_published_version() => __pbn__inference_published_version = null;
+            private uint? __pbn__inference_published_version;
+
+        }
+
+    }
+
+    [global::ProtoBuf.ProtoContract()]
     public partial class CMsgGCAssertJobData : global::ProtoBuf.IExtensible
     {
         private global::ProtoBuf.IExtension __pbn__extensionData;
@@ -1334,8 +1398,8 @@ namespace SteamKit2.GC.Dota.Internal
         [global::ProtoBuf.ProtoMember(18)]
         public CExtraMsgBlock additional_welcome_msgs { get; set; }
 
-        [global::ProtoBuf.ProtoMember(19)]
-        public CMsgSteamLearnHMACKeys steam_learn_hmac_keys { get; set; }
+        [global::ProtoBuf.ProtoMember(20)]
+        public CMsgSteamLearnServerInfo steam_learn_server_info { get; set; }
 
         [global::ProtoBuf.ProtoContract()]
         public partial class Location : global::ProtoBuf.IExtensible

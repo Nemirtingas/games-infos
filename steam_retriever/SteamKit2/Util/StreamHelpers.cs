@@ -10,15 +10,13 @@ namespace SteamKit2
         [ThreadStatic]
         static byte[]? data;
 
-#if NET5_0_OR_GREATER
         [MemberNotNull(nameof(data))]
-#endif
         static void EnsureInitialized()
         {
             data ??= new byte[ 8 ];
         }
 
-        public static Int16 ReadInt16(this Stream stream)
+        public static short ReadInt16(this Stream stream)
         {
             EnsureInitialized();
 
@@ -26,7 +24,7 @@ namespace SteamKit2
             return BitConverter.ToInt16( data, 0 );
         }
 
-        public static UInt16 ReadUInt16(this Stream stream)
+        public static ushort ReadUInt16(this Stream stream)
         {
             EnsureInitialized();
 
@@ -34,7 +32,7 @@ namespace SteamKit2
             return BitConverter.ToUInt16( data, 0);
         }
 
-        public static Int32 ReadInt32(this Stream stream)
+        public static int ReadInt32(this Stream stream)
         {
             EnsureInitialized();
 
@@ -42,7 +40,7 @@ namespace SteamKit2
             return BitConverter.ToInt32( data, 0 );
         }
 
-        public static Int64 ReadInt64(this Stream stream)
+        public static long ReadInt64(this Stream stream)
         {
             EnsureInitialized();
 
@@ -50,7 +48,7 @@ namespace SteamKit2
             return BitConverter.ToInt64( data, 0 );
         }
 
-        public static UInt32 ReadUInt32(this Stream stream)
+        public static uint ReadUInt32(this Stream stream)
         {
             EnsureInitialized();
 
@@ -58,7 +56,7 @@ namespace SteamKit2
             return BitConverter.ToUInt32( data, 0);
         }
 
-        public static UInt64 ReadUInt64(this Stream stream)
+        public static ulong ReadUInt64(this Stream stream)
         {
             EnsureInitialized();
 

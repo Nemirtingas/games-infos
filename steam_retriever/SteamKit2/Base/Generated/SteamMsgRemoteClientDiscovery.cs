@@ -48,14 +48,14 @@ namespace SteamKit2.Internal
         private ulong? __pbn__instance_id;
 
         [global::ProtoBuf.ProtoMember(4)]
-        public ulong device_id
+        public ulong device_id_OBSOLETE
         {
-            get => __pbn__device_id.GetValueOrDefault();
-            set => __pbn__device_id = value;
+            get => __pbn__device_id_OBSOLETE.GetValueOrDefault();
+            set => __pbn__device_id_OBSOLETE = value;
         }
-        public bool ShouldSerializedevice_id() => __pbn__device_id != null;
-        public void Resetdevice_id() => __pbn__device_id = null;
-        private ulong? __pbn__device_id;
+        public bool ShouldSerializedevice_id_OBSOLETE() => __pbn__device_id_OBSOLETE != null;
+        public void Resetdevice_id_OBSOLETE() => __pbn__device_id_OBSOLETE = null;
+        private ulong? __pbn__device_id_OBSOLETE;
 
         [global::ProtoBuf.ProtoMember(5)]
         public byte[] device_token
@@ -288,6 +288,17 @@ namespace SteamKit2.Internal
         public void Resetsteam_version() => __pbn__steam_version = null;
         private ulong? __pbn__steam_version;
 
+        [global::ProtoBuf.ProtoMember(26)]
+        [global::System.ComponentModel.DefaultValue(EVRLinkCaps.k_EVRLinkCapsUnknown)]
+        public EVRLinkCaps vr_link_caps
+        {
+            get => __pbn__vr_link_caps ?? EVRLinkCaps.k_EVRLinkCapsUnknown;
+            set => __pbn__vr_link_caps = value;
+        }
+        public bool ShouldSerializevr_link_caps() => __pbn__vr_link_caps != null;
+        public void Resetvr_link_caps() => __pbn__vr_link_caps = null;
+        private EVRLinkCaps? __pbn__vr_link_caps;
+
         [global::ProtoBuf.ProtoContract()]
         public partial class User : global::ProtoBuf.IExtensible
         {
@@ -386,6 +397,16 @@ namespace SteamKit2.Internal
         public bool ShouldSerializeauth_key() => __pbn__auth_key != null;
         public void Resetauth_key() => __pbn__auth_key = null;
         private byte[] __pbn__auth_key;
+
+        [global::ProtoBuf.ProtoMember(5)]
+        public uint request_id
+        {
+            get => __pbn__request_id.GetValueOrDefault();
+            set => __pbn__request_id = value;
+        }
+        public bool ShouldSerializerequest_id() => __pbn__request_id != null;
+        public void Resetrequest_id() => __pbn__request_id = null;
+        private uint? __pbn__request_id;
 
         [global::ProtoBuf.ProtoContract()]
         public partial class CKeyEscrow_Ticket : global::ProtoBuf.IExtensible
@@ -1012,6 +1033,15 @@ namespace SteamKit2.Internal
     }
 
     [global::ProtoBuf.ProtoContract()]
+    public enum EVRLinkCaps
+    {
+        k_EVRLinkCapsUnknown = 0,
+        k_EVRLinkCapsAvailable = 1,
+        k_EVRLinkCapsUnimplemented = 2,
+        k_EVRLinkCapsMissingHardwareEncoding = 3,
+    }
+
+    [global::ProtoBuf.ProtoContract()]
     public enum ERemoteDeviceAuthorizationResult
     {
         k_ERemoteDeviceAuthorizationSuccess = 0,
@@ -1033,6 +1063,7 @@ namespace SteamKit2.Internal
         k_EStreamDeviceFormFactorTablet = 2,
         k_EStreamDeviceFormFactorComputer = 3,
         k_EStreamDeviceFormFactorTV = 4,
+        k_EStreamDeviceFormFactorVRHeadset = 5,
     }
 
     [global::ProtoBuf.ProtoContract()]
@@ -1041,7 +1072,7 @@ namespace SteamKit2.Internal
         k_EStreamTransportNone = 0,
         k_EStreamTransportUDP = 1,
         k_EStreamTransportUDPRelay = 2,
-        k_EStreamTransportWebRTC = 3,
+        k_EStreamTransportWebRTC_OBSOLETE = 3,
         k_EStreamTransportSDR = 4,
         k_EStreamTransportUDP_SNS = 5,
         k_EStreamTransportUDPRelay_SNS = 6,
@@ -1054,6 +1085,7 @@ namespace SteamKit2.Internal
         k_EStreamInterfaceRecentGames = 1,
         k_EStreamInterfaceBigPicture = 2,
         k_EStreamInterfaceDesktop = 3,
+        k_EStreamInterfaceSteamVR = 4,
     }
 
     [global::ProtoBuf.ProtoContract()]
@@ -1074,6 +1106,7 @@ namespace SteamKit2.Internal
         k_ERemoteDeviceStreamingTransportUnavailable = 12,
         k_ERemoteDeviceStreamingInvisible = 13,
         k_ERemoteDeviceStreamingGameLaunchFailed = 14,
+        k_ERemoteDeviceStreamingSteamVRNotInstalled = 15,
     }
 
 }

@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Diagnostics.CodeAnalysis;
 using System.Runtime.InteropServices;
 using System.Runtime.Versioning;
 using System.Text;
@@ -8,9 +7,7 @@ namespace SteamKit2.Util.MacHelpers
 {
 #pragma warning disable CA2101 // Specify marshaling for P/Invoke string arguments. All the APIs in this file deal with regular UTF-8 strings (char *). With CharSet.Unicode, SK2 just crashes.
 
-#if NET5_0_OR_GREATER
     [SupportedOSPlatform( "macos" )]
-#endif
     class CFTypeRef : SafeHandle
     {
         public CFTypeRef()
@@ -40,12 +37,9 @@ namespace SteamKit2.Util.MacHelpers
         }
     }
 
-    // Taken from <sys/mount.h>
-#if NET5_0_OR_GREATER
+    // Taken from <sys/mount.h>, original name "statfs"
     [SupportedOSPlatform( "macos" )]
-#endif
-    [SuppressMessage( "Style", "IDE1006:Naming Styles", Justification = "Original name of interop type." )]
-    struct statfs
+    struct StatFS
     {
         const int MFSTYPENAMELEN = 16;
         const int PATH_MAX = 1024;
@@ -78,20 +72,16 @@ namespace SteamKit2.Util.MacHelpers
         public uint[]  f_reserved;  /* For future use */
     }
 
-#if NET5_0_OR_GREATER
     [SupportedOSPlatform( "macos" )]
-#endif
     static class LibC
     {
         const string LibraryName = "libc";
 
         [DllImport(LibraryName, CallingConvention = CallingConvention.Cdecl)]
-        public static extern int statfs64(string path, ref statfs buf);
+        public static extern int statfs64(string path, ref StatFS buf);
     }
 
-#if NET5_0_OR_GREATER
     [SupportedOSPlatform( "macos" )]
-#endif
     static class CoreFoundation
     {
         const string LibraryName = "CoreFoundation.framework/CoreFoundation";
@@ -119,9 +109,7 @@ namespace SteamKit2.Util.MacHelpers
         public static extern CFTypeRef CFUUIDCreateString(CFTypeRef allocator, IntPtr uuid);
     }
 
-#if NET5_0_OR_GREATER
     [SupportedOSPlatform( "macos" )]
-#endif
     static class DiskArbitration
     {
         const string LibraryName = "DiskArbitration.framework/DiskArbitration";
@@ -137,9 +125,7 @@ namespace SteamKit2.Util.MacHelpers
         public static extern CFTypeRef DADiskCopyDescription(CFTypeRef disk);
     }
 
-#if NET5_0_OR_GREATER
     [SupportedOSPlatform( "macos" )]
-#endif
     static class IOKit
     {
         const string LibraryName = "IOKit.framework/IOKit";

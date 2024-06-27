@@ -508,6 +508,16 @@ namespace SteamKit2.GC.CSGO.Internal
         public void Resetrtime32_event_start() => __pbn__rtime32_event_start = null;
         private uint? __pbn__rtime32_event_start;
 
+        [global::ProtoBuf.ProtoMember(16)]
+        public uint required_appid_version2
+        {
+            get => __pbn__required_appid_version2.GetValueOrDefault();
+            set => __pbn__required_appid_version2 = value;
+        }
+        public bool ShouldSerializerequired_appid_version2() => __pbn__required_appid_version2 != null;
+        public void Resetrequired_appid_version2() => __pbn__required_appid_version2 = null;
+        private uint? __pbn__required_appid_version2;
+
     }
 
     [global::ProtoBuf.ProtoContract()]
@@ -595,6 +605,56 @@ namespace SteamKit2.GC.CSGO.Internal
     }
 
     [global::ProtoBuf.ProtoContract()]
+    public partial class OperationalVarValue : global::ProtoBuf.IExtensible
+    {
+        private global::ProtoBuf.IExtension __pbn__extensionData;
+        global::ProtoBuf.IExtension global::ProtoBuf.IExtensible.GetExtensionObject(bool createIfMissing)
+            => global::ProtoBuf.Extensible.GetExtensionObject(ref __pbn__extensionData, createIfMissing);
+
+        [global::ProtoBuf.ProtoMember(1)]
+        [global::System.ComponentModel.DefaultValue("")]
+        public string name
+        {
+            get => __pbn__name ?? "";
+            set => __pbn__name = value;
+        }
+        public bool ShouldSerializename() => __pbn__name != null;
+        public void Resetname() => __pbn__name = null;
+        private string __pbn__name;
+
+        [global::ProtoBuf.ProtoMember(2)]
+        public int ivalue
+        {
+            get => __pbn__ivalue.GetValueOrDefault();
+            set => __pbn__ivalue = value;
+        }
+        public bool ShouldSerializeivalue() => __pbn__ivalue != null;
+        public void Resetivalue() => __pbn__ivalue = null;
+        private int? __pbn__ivalue;
+
+        [global::ProtoBuf.ProtoMember(3)]
+        public float fvalue
+        {
+            get => __pbn__fvalue.GetValueOrDefault();
+            set => __pbn__fvalue = value;
+        }
+        public bool ShouldSerializefvalue() => __pbn__fvalue != null;
+        public void Resetfvalue() => __pbn__fvalue = null;
+        private float? __pbn__fvalue;
+
+        [global::ProtoBuf.ProtoMember(4)]
+        public byte[] svalue
+        {
+            get => __pbn__svalue;
+            set => __pbn__svalue = value;
+        }
+        public bool ShouldSerializesvalue() => __pbn__svalue != null;
+        public void Resetsvalue() => __pbn__svalue = null;
+        private byte[] __pbn__svalue;
+
+    }
+
+    [global::ProtoBuf.ProtoContract()]
     public partial class PlayerRankingInfo : global::ProtoBuf.IExtensible
     {
         private global::ProtoBuf.IExtension __pbn__extensionData;
@@ -660,6 +720,109 @@ namespace SteamKit2.GC.CSGO.Internal
         public bool ShouldSerializetv_control() => __pbn__tv_control != null;
         public void Resettv_control() => __pbn__tv_control = null;
         private uint? __pbn__tv_control;
+
+        [global::ProtoBuf.ProtoMember(8)]
+        public ulong rank_window_stats
+        {
+            get => __pbn__rank_window_stats.GetValueOrDefault();
+            set => __pbn__rank_window_stats = value;
+        }
+        public bool ShouldSerializerank_window_stats() => __pbn__rank_window_stats != null;
+        public void Resetrank_window_stats() => __pbn__rank_window_stats = null;
+        private ulong? __pbn__rank_window_stats;
+
+        [global::ProtoBuf.ProtoMember(9)]
+        [global::System.ComponentModel.DefaultValue("")]
+        public string leaderboard_name
+        {
+            get => __pbn__leaderboard_name ?? "";
+            set => __pbn__leaderboard_name = value;
+        }
+        public bool ShouldSerializeleaderboard_name() => __pbn__leaderboard_name != null;
+        public void Resetleaderboard_name() => __pbn__leaderboard_name = null;
+        private string __pbn__leaderboard_name;
+
+        [global::ProtoBuf.ProtoMember(10)]
+        public uint rank_if_win
+        {
+            get => __pbn__rank_if_win.GetValueOrDefault();
+            set => __pbn__rank_if_win = value;
+        }
+        public bool ShouldSerializerank_if_win() => __pbn__rank_if_win != null;
+        public void Resetrank_if_win() => __pbn__rank_if_win = null;
+        private uint? __pbn__rank_if_win;
+
+        [global::ProtoBuf.ProtoMember(11)]
+        public uint rank_if_lose
+        {
+            get => __pbn__rank_if_lose.GetValueOrDefault();
+            set => __pbn__rank_if_lose = value;
+        }
+        public bool ShouldSerializerank_if_lose() => __pbn__rank_if_lose != null;
+        public void Resetrank_if_lose() => __pbn__rank_if_lose = null;
+        private uint? __pbn__rank_if_lose;
+
+        [global::ProtoBuf.ProtoMember(12)]
+        public uint rank_if_tie
+        {
+            get => __pbn__rank_if_tie.GetValueOrDefault();
+            set => __pbn__rank_if_tie = value;
+        }
+        public bool ShouldSerializerank_if_tie() => __pbn__rank_if_tie != null;
+        public void Resetrank_if_tie() => __pbn__rank_if_tie = null;
+        private uint? __pbn__rank_if_tie;
+
+        [global::ProtoBuf.ProtoMember(13)]
+        public global::System.Collections.Generic.List<PerMapRank> per_map_rank { get; } = new global::System.Collections.Generic.List<PerMapRank>();
+
+        [global::ProtoBuf.ProtoMember(14)]
+        public uint leaderboard_name_status
+        {
+            get => __pbn__leaderboard_name_status.GetValueOrDefault();
+            set => __pbn__leaderboard_name_status = value;
+        }
+        public bool ShouldSerializeleaderboard_name_status() => __pbn__leaderboard_name_status != null;
+        public void Resetleaderboard_name_status() => __pbn__leaderboard_name_status = null;
+        private uint? __pbn__leaderboard_name_status;
+
+        [global::ProtoBuf.ProtoContract()]
+        public partial class PerMapRank : global::ProtoBuf.IExtensible
+        {
+            private global::ProtoBuf.IExtension __pbn__extensionData;
+            global::ProtoBuf.IExtension global::ProtoBuf.IExtensible.GetExtensionObject(bool createIfMissing)
+                => global::ProtoBuf.Extensible.GetExtensionObject(ref __pbn__extensionData, createIfMissing);
+
+            [global::ProtoBuf.ProtoMember(1)]
+            public uint map_id
+            {
+                get => __pbn__map_id.GetValueOrDefault();
+                set => __pbn__map_id = value;
+            }
+            public bool ShouldSerializemap_id() => __pbn__map_id != null;
+            public void Resetmap_id() => __pbn__map_id = null;
+            private uint? __pbn__map_id;
+
+            [global::ProtoBuf.ProtoMember(2)]
+            public uint rank_id
+            {
+                get => __pbn__rank_id.GetValueOrDefault();
+                set => __pbn__rank_id = value;
+            }
+            public bool ShouldSerializerank_id() => __pbn__rank_id != null;
+            public void Resetrank_id() => __pbn__rank_id = null;
+            private uint? __pbn__rank_id;
+
+            [global::ProtoBuf.ProtoMember(3)]
+            public uint wins
+            {
+                get => __pbn__wins.GetValueOrDefault();
+                set => __pbn__wins = value;
+            }
+            public bool ShouldSerializewins() => __pbn__wins != null;
+            public void Resetwins() => __pbn__wins = null;
+            private uint? __pbn__wins;
+
+        }
 
     }
 
@@ -1241,6 +1404,17 @@ namespace SteamKit2.GC.CSGO.Internal
 
         [global::ProtoBuf.ProtoMember(5)]
         public global::System.Collections.Generic.List<Entry> matchentries { get; } = new global::System.Collections.Generic.List<Entry>();
+
+        [global::ProtoBuf.ProtoMember(6)]
+        [global::System.ComponentModel.DefaultValue("")]
+        public string leaderboard_name
+        {
+            get => __pbn__leaderboard_name ?? "";
+            set => __pbn__leaderboard_name = value;
+        }
+        public bool ShouldSerializeleaderboard_name() => __pbn__leaderboard_name != null;
+        public void Resetleaderboard_name() => __pbn__leaderboard_name = null;
+        private string __pbn__leaderboard_name;
 
         [global::ProtoBuf.ProtoContract()]
         public partial class Entry : global::ProtoBuf.IExtensible
@@ -1862,31 +2036,6 @@ namespace SteamKit2.GC.CSGO.Internal
     }
 
     [global::ProtoBuf.ProtoContract()]
-    public partial class CMsgGCCStrike15_v2_MatchmakingGCOperationalStats : global::ProtoBuf.IExtensible
-    {
-        private global::ProtoBuf.IExtension __pbn__extensionData;
-        global::ProtoBuf.IExtension global::ProtoBuf.IExtensible.GetExtensionObject(bool createIfMissing)
-            => global::ProtoBuf.Extensible.GetExtensionObject(ref __pbn__extensionData, createIfMissing);
-
-        [global::ProtoBuf.ProtoMember(1)]
-        public int packetid
-        {
-            get => __pbn__packetid.GetValueOrDefault();
-            set => __pbn__packetid = value;
-        }
-        public bool ShouldSerializepacketid() => __pbn__packetid != null;
-        public void Resetpacketid() => __pbn__packetid = null;
-        private int? __pbn__packetid;
-
-        [global::ProtoBuf.ProtoMember(2)]
-        public global::System.Collections.Generic.List<OperationalStatisticDescription> namekeys { get; } = new global::System.Collections.Generic.List<OperationalStatisticDescription>();
-
-        [global::ProtoBuf.ProtoMember(3)]
-        public global::System.Collections.Generic.List<OperationalStatisticsPacket> packets { get; } = new global::System.Collections.Generic.List<OperationalStatisticsPacket>();
-
-    }
-
-    [global::ProtoBuf.ProtoContract()]
     public partial class CMsgGCCStrike15_v2_MatchmakingGC2ServerConfirm : global::ProtoBuf.IExtensible
     {
         private global::ProtoBuf.IExtension __pbn__extensionData;
@@ -1922,6 +2071,16 @@ namespace SteamKit2.GC.CSGO.Internal
         public bool ShouldSerializeexchange() => __pbn__exchange != null;
         public void Resetexchange() => __pbn__exchange = null;
         private ulong? __pbn__exchange;
+
+        [global::ProtoBuf.ProtoMember(4)]
+        public uint retry
+        {
+            get => __pbn__retry.GetValueOrDefault();
+            set => __pbn__retry = value;
+        }
+        public bool ShouldSerializeretry() => __pbn__retry != null;
+        public void Resetretry() => __pbn__retry = null;
+        private uint? __pbn__retry;
 
     }
 
@@ -2050,6 +2209,55 @@ namespace SteamKit2.GC.CSGO.Internal
     }
 
     [global::ProtoBuf.ProtoContract()]
+    public partial class CMsgGCCStrike15_v2_MatchmakingGC2ClientUpdate_Note : global::ProtoBuf.IExtensible
+    {
+        private global::ProtoBuf.IExtension __pbn__extensionData;
+        global::ProtoBuf.IExtension global::ProtoBuf.IExtensible.GetExtensionObject(bool createIfMissing)
+            => global::ProtoBuf.Extensible.GetExtensionObject(ref __pbn__extensionData, createIfMissing);
+
+        [global::ProtoBuf.ProtoMember(1)]
+        public int type
+        {
+            get => __pbn__type.GetValueOrDefault();
+            set => __pbn__type = value;
+        }
+        public bool ShouldSerializetype() => __pbn__type != null;
+        public void Resettype() => __pbn__type = null;
+        private int? __pbn__type;
+
+        [global::ProtoBuf.ProtoMember(2)]
+        public int region_id
+        {
+            get => __pbn__region_id.GetValueOrDefault();
+            set => __pbn__region_id = value;
+        }
+        public bool ShouldSerializeregion_id() => __pbn__region_id != null;
+        public void Resetregion_id() => __pbn__region_id = null;
+        private int? __pbn__region_id;
+
+        [global::ProtoBuf.ProtoMember(3)]
+        public float region_r
+        {
+            get => __pbn__region_r.GetValueOrDefault();
+            set => __pbn__region_r = value;
+        }
+        public bool ShouldSerializeregion_r() => __pbn__region_r != null;
+        public void Resetregion_r() => __pbn__region_r = null;
+        private float? __pbn__region_r;
+
+        [global::ProtoBuf.ProtoMember(4)]
+        public float distance
+        {
+            get => __pbn__distance.GetValueOrDefault();
+            set => __pbn__distance = value;
+        }
+        public bool ShouldSerializedistance() => __pbn__distance != null;
+        public void Resetdistance() => __pbn__distance = null;
+        private float? __pbn__distance;
+
+    }
+
+    [global::ProtoBuf.ProtoContract()]
     public partial class CMsgGCCStrike15_v2_MatchmakingClient2ServerPing : global::ProtoBuf.IExtensible
     {
         private global::ProtoBuf.IExtension __pbn__extensionData;
@@ -2101,6 +2309,30 @@ namespace SteamKit2.GC.CSGO.Internal
         public bool ShouldSerializetest_token() => __pbn__test_token != null;
         public void Resettest_token() => __pbn__test_token = null;
         private uint? __pbn__test_token;
+
+        [global::ProtoBuf.ProtoMember(7)]
+        public byte[] search_key
+        {
+            get => __pbn__search_key;
+            set => __pbn__search_key = value;
+        }
+        public bool ShouldSerializesearch_key() => __pbn__search_key != null;
+        public void Resetsearch_key() => __pbn__search_key = null;
+        private byte[] __pbn__search_key;
+
+        [global::ProtoBuf.ProtoMember(8)]
+        public global::System.Collections.Generic.List<CMsgGCCStrike15_v2_MatchmakingGC2ClientUpdate_Note> notes { get; } = new global::System.Collections.Generic.List<CMsgGCCStrike15_v2_MatchmakingGC2ClientUpdate_Note>();
+
+        [global::ProtoBuf.ProtoMember(9)]
+        [global::System.ComponentModel.DefaultValue("")]
+        public string debug_message
+        {
+            get => __pbn__debug_message ?? "";
+            set => __pbn__debug_message = value;
+        }
+        public bool ShouldSerializedebug_message() => __pbn__debug_message != null;
+        public void Resetdebug_message() => __pbn__debug_message = null;
+        private string __pbn__debug_message;
 
     }
 
@@ -2157,7 +2389,7 @@ namespace SteamKit2.GC.CSGO.Internal
         public IpAddressMask server_ipaddress_mask { get; set; }
 
         [global::ProtoBuf.ProtoMember(13)]
-        public global::System.Collections.Generic.List<Note> notes { get; } = new global::System.Collections.Generic.List<Note>();
+        public global::System.Collections.Generic.List<CMsgGCCStrike15_v2_MatchmakingGC2ClientUpdate_Note> notes { get; } = new global::System.Collections.Generic.List<CMsgGCCStrike15_v2_MatchmakingGC2ClientUpdate_Note>();
 
         [global::ProtoBuf.ProtoMember(14)]
         public global::System.Collections.Generic.List<uint> penalty_account_id_sessions_green { get; } = new global::System.Collections.Generic.List<uint>();
@@ -2173,55 +2405,6 @@ namespace SteamKit2.GC.CSGO.Internal
 
         [global::ProtoBuf.ProtoMember(18)]
         public global::System.Collections.Generic.List<uint> insecure_account_id_sessions { get; } = new global::System.Collections.Generic.List<uint>();
-
-        [global::ProtoBuf.ProtoContract()]
-        public partial class Note : global::ProtoBuf.IExtensible
-        {
-            private global::ProtoBuf.IExtension __pbn__extensionData;
-            global::ProtoBuf.IExtension global::ProtoBuf.IExtensible.GetExtensionObject(bool createIfMissing)
-                => global::ProtoBuf.Extensible.GetExtensionObject(ref __pbn__extensionData, createIfMissing);
-
-            [global::ProtoBuf.ProtoMember(1)]
-            public int type
-            {
-                get => __pbn__type.GetValueOrDefault();
-                set => __pbn__type = value;
-            }
-            public bool ShouldSerializetype() => __pbn__type != null;
-            public void Resettype() => __pbn__type = null;
-            private int? __pbn__type;
-
-            [global::ProtoBuf.ProtoMember(2)]
-            public int region_id
-            {
-                get => __pbn__region_id.GetValueOrDefault();
-                set => __pbn__region_id = value;
-            }
-            public bool ShouldSerializeregion_id() => __pbn__region_id != null;
-            public void Resetregion_id() => __pbn__region_id = null;
-            private int? __pbn__region_id;
-
-            [global::ProtoBuf.ProtoMember(3)]
-            public float region_r
-            {
-                get => __pbn__region_r.GetValueOrDefault();
-                set => __pbn__region_r = value;
-            }
-            public bool ShouldSerializeregion_r() => __pbn__region_r != null;
-            public void Resetregion_r() => __pbn__region_r = null;
-            private float? __pbn__region_r;
-
-            [global::ProtoBuf.ProtoMember(4)]
-            public float distance
-            {
-                get => __pbn__distance.GetValueOrDefault();
-                set => __pbn__distance = value;
-            }
-            public bool ShouldSerializedistance() => __pbn__distance != null;
-            public void Resetdistance() => __pbn__distance = null;
-            private float? __pbn__distance;
-
-        }
 
     }
 
@@ -2324,6 +2507,57 @@ namespace SteamKit2.GC.CSGO.Internal
 
         [global::ProtoBuf.ProtoMember(10)]
         public global::System.Collections.Generic.List<Entry> drafts { get; } = new global::System.Collections.Generic.List<Entry>();
+
+        [global::ProtoBuf.ProtoMember(11)]
+        public global::System.Collections.Generic.List<int> vote_mapid_0 { get; } = new global::System.Collections.Generic.List<int>();
+
+        [global::ProtoBuf.ProtoMember(12)]
+        public global::System.Collections.Generic.List<int> vote_mapid_1 { get; } = new global::System.Collections.Generic.List<int>();
+
+        [global::ProtoBuf.ProtoMember(13)]
+        public global::System.Collections.Generic.List<int> vote_mapid_2 { get; } = new global::System.Collections.Generic.List<int>();
+
+        [global::ProtoBuf.ProtoMember(14)]
+        public global::System.Collections.Generic.List<int> vote_mapid_3 { get; } = new global::System.Collections.Generic.List<int>();
+
+        [global::ProtoBuf.ProtoMember(15)]
+        public global::System.Collections.Generic.List<int> vote_mapid_4 { get; } = new global::System.Collections.Generic.List<int>();
+
+        [global::ProtoBuf.ProtoMember(16)]
+        public global::System.Collections.Generic.List<int> vote_mapid_5 { get; } = new global::System.Collections.Generic.List<int>();
+
+        [global::ProtoBuf.ProtoMember(17)]
+        public global::System.Collections.Generic.List<int> vote_starting_side { get; } = new global::System.Collections.Generic.List<int>();
+
+        [global::ProtoBuf.ProtoMember(18)]
+        public int vote_phase
+        {
+            get => __pbn__vote_phase.GetValueOrDefault();
+            set => __pbn__vote_phase = value;
+        }
+        public bool ShouldSerializevote_phase() => __pbn__vote_phase != null;
+        public void Resetvote_phase() => __pbn__vote_phase = null;
+        private int? __pbn__vote_phase;
+
+        [global::ProtoBuf.ProtoMember(19)]
+        public float vote_phase_start
+        {
+            get => __pbn__vote_phase_start.GetValueOrDefault();
+            set => __pbn__vote_phase_start = value;
+        }
+        public bool ShouldSerializevote_phase_start() => __pbn__vote_phase_start != null;
+        public void Resetvote_phase_start() => __pbn__vote_phase_start = null;
+        private float? __pbn__vote_phase_start;
+
+        [global::ProtoBuf.ProtoMember(20)]
+        public float vote_phase_length
+        {
+            get => __pbn__vote_phase_length.GetValueOrDefault();
+            set => __pbn__vote_phase_length = value;
+        }
+        public bool ShouldSerializevote_phase_length() => __pbn__vote_phase_length != null;
+        public void Resetvote_phase_length() => __pbn__vote_phase_length = null;
+        private float? __pbn__vote_phase_length;
 
         [global::ProtoBuf.ProtoContract()]
         public partial class Entry : global::ProtoBuf.IExtensible
@@ -2548,6 +2782,19 @@ namespace SteamKit2.GC.CSGO.Internal
         public void Resettv_control() => __pbn__tv_control = null;
         private uint? __pbn__tv_control;
 
+        [global::ProtoBuf.ProtoMember(19)]
+        public global::System.Collections.Generic.List<OperationalVarValue> op_var_values { get; } = new global::System.Collections.Generic.List<OperationalVarValue>();
+
+        [global::ProtoBuf.ProtoMember(20)]
+        public uint socache_control
+        {
+            get => __pbn__socache_control.GetValueOrDefault();
+            set => __pbn__socache_control = value;
+        }
+        public bool ShouldSerializesocache_control() => __pbn__socache_control != null;
+        public void Resetsocache_control() => __pbn__socache_control = null;
+        private uint? __pbn__socache_control;
+
     }
 
     [global::ProtoBuf.ProtoContract()]
@@ -2701,6 +2948,26 @@ namespace SteamKit2.GC.CSGO.Internal
         public void Resetflags() => __pbn__flags = null;
         private uint? __pbn__flags;
 
+        [global::ProtoBuf.ProtoMember(18)]
+        public uint system_load
+        {
+            get => __pbn__system_load.GetValueOrDefault();
+            set => __pbn__system_load = value;
+        }
+        public bool ShouldSerializesystem_load() => __pbn__system_load != null;
+        public void Resetsystem_load() => __pbn__system_load = null;
+        private uint? __pbn__system_load;
+
+        [global::ProtoBuf.ProtoMember(19)]
+        public uint cpus_online
+        {
+            get => __pbn__cpus_online.GetValueOrDefault();
+            set => __pbn__cpus_online = value;
+        }
+        public bool ShouldSerializecpus_online() => __pbn__cpus_online != null;
+        public void Resetcpus_online() => __pbn__cpus_online = null;
+        private uint? __pbn__cpus_online;
+
     }
 
     [global::ProtoBuf.ProtoContract()]
@@ -2774,6 +3041,19 @@ namespace SteamKit2.GC.CSGO.Internal
         public bool ShouldSerializeserver_address() => __pbn__server_address != null;
         public void Resetserver_address() => __pbn__server_address = null;
         private string __pbn__server_address;
+
+        [global::ProtoBuf.ProtoMember(8)]
+        public DataCenterPing gs_ping { get; set; }
+
+        [global::ProtoBuf.ProtoMember(9)]
+        public uint gs_location_id
+        {
+            get => __pbn__gs_location_id.GetValueOrDefault();
+            set => __pbn__gs_location_id = value;
+        }
+        public bool ShouldSerializegs_location_id() => __pbn__gs_location_id != null;
+        public void Resetgs_location_id() => __pbn__gs_location_id = null;
+        private uint? __pbn__gs_location_id;
 
     }
 
@@ -2961,6 +3241,16 @@ namespace SteamKit2.GC.CSGO.Internal
         public bool ShouldSerializemax_rounds() => __pbn__max_rounds != null;
         public void Resetmax_rounds() => __pbn__max_rounds = null;
         private uint? __pbn__max_rounds;
+
+        [global::ProtoBuf.ProtoMember(32)]
+        public int map_id
+        {
+            get => __pbn__map_id.GetValueOrDefault();
+            set => __pbn__map_id = value;
+        }
+        public bool ShouldSerializemap_id() => __pbn__map_id != null;
+        public void Resetmap_id() => __pbn__map_id = null;
+        private int? __pbn__map_id;
 
         [global::ProtoBuf.ProtoContract()]
         public partial class DropInfo : global::ProtoBuf.IExtensible
@@ -3968,6 +4258,38 @@ namespace SteamKit2.GC.CSGO.Internal
     }
 
     [global::ProtoBuf.ProtoContract()]
+    public partial class CMsgGCCstrike15_v2_ClientRedeemFreeReward : global::ProtoBuf.IExtensible
+    {
+        private global::ProtoBuf.IExtension __pbn__extensionData;
+        global::ProtoBuf.IExtension global::ProtoBuf.IExtensible.GetExtensionObject(bool createIfMissing)
+            => global::ProtoBuf.Extensible.GetExtensionObject(ref __pbn__extensionData, createIfMissing);
+
+        [global::ProtoBuf.ProtoMember(1)]
+        public uint generation_time
+        {
+            get => __pbn__generation_time.GetValueOrDefault();
+            set => __pbn__generation_time = value;
+        }
+        public bool ShouldSerializegeneration_time() => __pbn__generation_time != null;
+        public void Resetgeneration_time() => __pbn__generation_time = null;
+        private uint? __pbn__generation_time;
+
+        [global::ProtoBuf.ProtoMember(2)]
+        public uint redeemable_balance
+        {
+            get => __pbn__redeemable_balance.GetValueOrDefault();
+            set => __pbn__redeemable_balance = value;
+        }
+        public bool ShouldSerializeredeemable_balance() => __pbn__redeemable_balance != null;
+        public void Resetredeemable_balance() => __pbn__redeemable_balance = null;
+        private uint? __pbn__redeemable_balance;
+
+        [global::ProtoBuf.ProtoMember(3)]
+        public global::System.Collections.Generic.List<ulong> items { get; } = new global::System.Collections.Generic.List<ulong>();
+
+    }
+
+    [global::ProtoBuf.ProtoContract()]
     public partial class CMsgGCCstrike15_v2_GC2ServerNotifyXPRewarded : global::ProtoBuf.IExtensible
     {
         private global::ProtoBuf.IExtension __pbn__extensionData;
@@ -4026,6 +4348,65 @@ namespace SteamKit2.GC.CSGO.Internal
         public bool ShouldSerializeoperation_points_awarded() => __pbn__operation_points_awarded != null;
         public void Resetoperation_points_awarded() => __pbn__operation_points_awarded = null;
         private uint? __pbn__operation_points_awarded;
+
+        [global::ProtoBuf.ProtoMember(7)]
+        public uint free_rewards
+        {
+            get => __pbn__free_rewards.GetValueOrDefault();
+            set => __pbn__free_rewards = value;
+        }
+        public bool ShouldSerializefree_rewards() => __pbn__free_rewards != null;
+        public void Resetfree_rewards() => __pbn__free_rewards = null;
+        private uint? __pbn__free_rewards;
+
+        [global::ProtoBuf.ProtoMember(8)]
+        public uint xp_trail_remaining
+        {
+            get => __pbn__xp_trail_remaining.GetValueOrDefault();
+            set => __pbn__xp_trail_remaining = value;
+        }
+        public bool ShouldSerializexp_trail_remaining() => __pbn__xp_trail_remaining != null;
+        public void Resetxp_trail_remaining() => __pbn__xp_trail_remaining = null;
+        private uint? __pbn__xp_trail_remaining;
+
+        [global::ProtoBuf.ProtoMember(9)]
+        public int xp_trail_xp_needed
+        {
+            get => __pbn__xp_trail_xp_needed.GetValueOrDefault();
+            set => __pbn__xp_trail_xp_needed = value;
+        }
+        public bool ShouldSerializexp_trail_xp_needed() => __pbn__xp_trail_xp_needed != null;
+        public void Resetxp_trail_xp_needed() => __pbn__xp_trail_xp_needed = null;
+        private int? __pbn__xp_trail_xp_needed;
+
+        [global::ProtoBuf.ProtoMember(10)]
+        public uint xp_trail_level
+        {
+            get => __pbn__xp_trail_level.GetValueOrDefault();
+            set => __pbn__xp_trail_level = value;
+        }
+        public bool ShouldSerializexp_trail_level() => __pbn__xp_trail_level != null;
+        public void Resetxp_trail_level() => __pbn__xp_trail_level = null;
+        private uint? __pbn__xp_trail_level;
+
+    }
+
+    [global::ProtoBuf.ProtoContract()]
+    public partial class CMsgGCCStrike15_v2_ClientNetworkConfig : global::ProtoBuf.IExtensible
+    {
+        private global::ProtoBuf.IExtension __pbn__extensionData;
+        global::ProtoBuf.IExtension global::ProtoBuf.IExtensible.GetExtensionObject(bool createIfMissing)
+            => global::ProtoBuf.Extensible.GetExtensionObject(ref __pbn__extensionData, createIfMissing);
+
+        [global::ProtoBuf.ProtoMember(1)]
+        public byte[] data
+        {
+            get => __pbn__data;
+            set => __pbn__data = value;
+        }
+        public bool ShouldSerializedata() => __pbn__data != null;
+        public void Resetdata() => __pbn__data = null;
+        private byte[] __pbn__data;
 
     }
 
@@ -4798,6 +5179,26 @@ namespace SteamKit2.GC.CSGO.Internal
             public void Resettint_id() => __pbn__tint_id = null;
             private uint? __pbn__tint_id;
 
+            [global::ProtoBuf.ProtoMember(7)]
+            public float offset_x
+            {
+                get => __pbn__offset_x.GetValueOrDefault();
+                set => __pbn__offset_x = value;
+            }
+            public bool ShouldSerializeoffset_x() => __pbn__offset_x != null;
+            public void Resetoffset_x() => __pbn__offset_x = null;
+            private float? __pbn__offset_x;
+
+            [global::ProtoBuf.ProtoMember(8)]
+            public float offset_y
+            {
+                get => __pbn__offset_y.GetValueOrDefault();
+                set => __pbn__offset_y = value;
+            }
+            public bool ShouldSerializeoffset_y() => __pbn__offset_y != null;
+            public void Resetoffset_y() => __pbn__offset_y = null;
+            private float? __pbn__offset_y;
+
         }
 
     }
@@ -5301,6 +5702,16 @@ namespace SteamKit2.GC.CSGO.Internal
         [global::ProtoBuf.ProtoMember(2)]
         public global::System.Collections.Generic.List<CDataGCCStrike15_v2_MatchInfo> matches { get; } = new global::System.Collections.Generic.List<CDataGCCStrike15_v2_MatchInfo>();
 
+        [global::ProtoBuf.ProtoMember(3)]
+        public uint accountid
+        {
+            get => __pbn__accountid.GetValueOrDefault();
+            set => __pbn__accountid = value;
+        }
+        public bool ShouldSerializeaccountid() => __pbn__accountid != null;
+        public void Resetaccountid() => __pbn__accountid = null;
+        private uint? __pbn__accountid;
+
     }
 
     [global::ProtoBuf.ProtoContract()]
@@ -5484,6 +5895,146 @@ namespace SteamKit2.GC.CSGO.Internal
         public bool ShouldSerializevalue() => __pbn__value != null;
         public void Resetvalue() => __pbn__value = null;
         private string __pbn__value;
+
+    }
+
+    [global::ProtoBuf.ProtoContract()]
+    public partial class CMsgLegacySource1ClientWelcome : global::ProtoBuf.IExtensible
+    {
+        private global::ProtoBuf.IExtension __pbn__extensionData;
+        global::ProtoBuf.IExtension global::ProtoBuf.IExtensible.GetExtensionObject(bool createIfMissing)
+            => global::ProtoBuf.Extensible.GetExtensionObject(ref __pbn__extensionData, createIfMissing);
+
+        [global::ProtoBuf.ProtoMember(1)]
+        public uint version
+        {
+            get => __pbn__version.GetValueOrDefault();
+            set => __pbn__version = value;
+        }
+        public bool ShouldSerializeversion() => __pbn__version != null;
+        public void Resetversion() => __pbn__version = null;
+        private uint? __pbn__version;
+
+        [global::ProtoBuf.ProtoMember(2)]
+        public byte[] game_data
+        {
+            get => __pbn__game_data;
+            set => __pbn__game_data = value;
+        }
+        public bool ShouldSerializegame_data() => __pbn__game_data != null;
+        public void Resetgame_data() => __pbn__game_data = null;
+        private byte[] __pbn__game_data;
+
+        [global::ProtoBuf.ProtoMember(3)]
+        public global::System.Collections.Generic.List<CMsgSOCacheSubscribed> outofdate_subscribed_caches { get; } = new global::System.Collections.Generic.List<CMsgSOCacheSubscribed>();
+
+        [global::ProtoBuf.ProtoMember(4)]
+        public global::System.Collections.Generic.List<CMsgSOCacheSubscriptionCheck> uptodate_subscribed_caches { get; } = new global::System.Collections.Generic.List<CMsgSOCacheSubscriptionCheck>();
+
+        [global::ProtoBuf.ProtoMember(5)]
+        public Location location { get; set; }
+
+        [global::ProtoBuf.ProtoMember(6)]
+        public byte[] game_data2
+        {
+            get => __pbn__game_data2;
+            set => __pbn__game_data2 = value;
+        }
+        public bool ShouldSerializegame_data2() => __pbn__game_data2 != null;
+        public void Resetgame_data2() => __pbn__game_data2 = null;
+        private byte[] __pbn__game_data2;
+
+        [global::ProtoBuf.ProtoMember(7)]
+        public uint rtime32_gc_welcome_timestamp
+        {
+            get => __pbn__rtime32_gc_welcome_timestamp.GetValueOrDefault();
+            set => __pbn__rtime32_gc_welcome_timestamp = value;
+        }
+        public bool ShouldSerializertime32_gc_welcome_timestamp() => __pbn__rtime32_gc_welcome_timestamp != null;
+        public void Resetrtime32_gc_welcome_timestamp() => __pbn__rtime32_gc_welcome_timestamp = null;
+        private uint? __pbn__rtime32_gc_welcome_timestamp;
+
+        [global::ProtoBuf.ProtoMember(8)]
+        public uint currency
+        {
+            get => __pbn__currency.GetValueOrDefault();
+            set => __pbn__currency = value;
+        }
+        public bool ShouldSerializecurrency() => __pbn__currency != null;
+        public void Resetcurrency() => __pbn__currency = null;
+        private uint? __pbn__currency;
+
+        [global::ProtoBuf.ProtoMember(9)]
+        public uint balance
+        {
+            get => __pbn__balance.GetValueOrDefault();
+            set => __pbn__balance = value;
+        }
+        public bool ShouldSerializebalance() => __pbn__balance != null;
+        public void Resetbalance() => __pbn__balance = null;
+        private uint? __pbn__balance;
+
+        [global::ProtoBuf.ProtoMember(10)]
+        [global::System.ComponentModel.DefaultValue("")]
+        public string balance_url
+        {
+            get => __pbn__balance_url ?? "";
+            set => __pbn__balance_url = value;
+        }
+        public bool ShouldSerializebalance_url() => __pbn__balance_url != null;
+        public void Resetbalance_url() => __pbn__balance_url = null;
+        private string __pbn__balance_url;
+
+        [global::ProtoBuf.ProtoMember(11)]
+        [global::System.ComponentModel.DefaultValue("")]
+        public string txn_country_code
+        {
+            get => __pbn__txn_country_code ?? "";
+            set => __pbn__txn_country_code = value;
+        }
+        public bool ShouldSerializetxn_country_code() => __pbn__txn_country_code != null;
+        public void Resettxn_country_code() => __pbn__txn_country_code = null;
+        private string __pbn__txn_country_code;
+
+        [global::ProtoBuf.ProtoContract()]
+        public partial class Location : global::ProtoBuf.IExtensible
+        {
+            private global::ProtoBuf.IExtension __pbn__extensionData;
+            global::ProtoBuf.IExtension global::ProtoBuf.IExtensible.GetExtensionObject(bool createIfMissing)
+                => global::ProtoBuf.Extensible.GetExtensionObject(ref __pbn__extensionData, createIfMissing);
+
+            [global::ProtoBuf.ProtoMember(1)]
+            public float latitude
+            {
+                get => __pbn__latitude.GetValueOrDefault();
+                set => __pbn__latitude = value;
+            }
+            public bool ShouldSerializelatitude() => __pbn__latitude != null;
+            public void Resetlatitude() => __pbn__latitude = null;
+            private float? __pbn__latitude;
+
+            [global::ProtoBuf.ProtoMember(2)]
+            public float longitude
+            {
+                get => __pbn__longitude.GetValueOrDefault();
+                set => __pbn__longitude = value;
+            }
+            public bool ShouldSerializelongitude() => __pbn__longitude != null;
+            public void Resetlongitude() => __pbn__longitude = null;
+            private float? __pbn__longitude;
+
+            [global::ProtoBuf.ProtoMember(3)]
+            [global::System.ComponentModel.DefaultValue("")]
+            public string country
+            {
+                get => __pbn__country ?? "";
+                set => __pbn__country = value;
+            }
+            public bool ShouldSerializecountry() => __pbn__country != null;
+            public void Resetcountry() => __pbn__country = null;
+            private string __pbn__country;
+
+        }
 
     }
 
@@ -5874,6 +6425,38 @@ namespace SteamKit2.GC.CSGO.Internal
     }
 
     [global::ProtoBuf.ProtoContract()]
+    public partial class CSOAccountItemPersonalStore : global::ProtoBuf.IExtensible
+    {
+        private global::ProtoBuf.IExtension __pbn__extensionData;
+        global::ProtoBuf.IExtension global::ProtoBuf.IExtensible.GetExtensionObject(bool createIfMissing)
+            => global::ProtoBuf.Extensible.GetExtensionObject(ref __pbn__extensionData, createIfMissing);
+
+        [global::ProtoBuf.ProtoMember(1)]
+        public uint generation_time
+        {
+            get => __pbn__generation_time.GetValueOrDefault();
+            set => __pbn__generation_time = value;
+        }
+        public bool ShouldSerializegeneration_time() => __pbn__generation_time != null;
+        public void Resetgeneration_time() => __pbn__generation_time = null;
+        private uint? __pbn__generation_time;
+
+        [global::ProtoBuf.ProtoMember(2)]
+        public uint redeemable_balance
+        {
+            get => __pbn__redeemable_balance.GetValueOrDefault();
+            set => __pbn__redeemable_balance = value;
+        }
+        public bool ShouldSerializeredeemable_balance() => __pbn__redeemable_balance != null;
+        public void Resetredeemable_balance() => __pbn__redeemable_balance = null;
+        private uint? __pbn__redeemable_balance;
+
+        [global::ProtoBuf.ProtoMember(3)]
+        public global::System.Collections.Generic.List<ulong> items { get; } = new global::System.Collections.Generic.List<ulong>();
+
+    }
+
+    [global::ProtoBuf.ProtoContract()]
     public partial class CSOQuestProgress : global::ProtoBuf.IExtensible
     {
         private global::ProtoBuf.IExtension __pbn__extensionData;
@@ -6049,6 +6632,26 @@ namespace SteamKit2.GC.CSGO.Internal
         public bool ShouldSerializeelevated_state() => __pbn__elevated_state != null;
         public void Resetelevated_state() => __pbn__elevated_state = null;
         private bool? __pbn__elevated_state;
+
+        [global::ProtoBuf.ProtoMember(4)]
+        public uint xp_trail_timestamp_refresh
+        {
+            get => __pbn__xp_trail_timestamp_refresh.GetValueOrDefault();
+            set => __pbn__xp_trail_timestamp_refresh = value;
+        }
+        public bool ShouldSerializexp_trail_timestamp_refresh() => __pbn__xp_trail_timestamp_refresh != null;
+        public void Resetxp_trail_timestamp_refresh() => __pbn__xp_trail_timestamp_refresh = null;
+        private uint? __pbn__xp_trail_timestamp_refresh;
+
+        [global::ProtoBuf.ProtoMember(5)]
+        public uint xp_trail_level
+        {
+            get => __pbn__xp_trail_level.GetValueOrDefault();
+            set => __pbn__xp_trail_level = value;
+        }
+        public bool ShouldSerializexp_trail_level() => __pbn__xp_trail_level != null;
+        public void Resetxp_trail_level() => __pbn__xp_trail_level = null;
+        private uint? __pbn__xp_trail_level;
 
     }
 
@@ -6391,7 +6994,7 @@ namespace SteamKit2.GC.CSGO.Internal
         public global::System.Collections.Generic.List<float> startpos { get; } = new global::System.Collections.Generic.List<float>();
 
         [global::ProtoBuf.ProtoMember(6)]
-        public global::System.Collections.Generic.List<float> right { get; } = new global::System.Collections.Generic.List<float>();
+        public global::System.Collections.Generic.List<float> left { get; } = new global::System.Collections.Generic.List<float>();
 
         [global::ProtoBuf.ProtoMember(7)]
         public uint tx_defidx
@@ -6487,6 +7090,25 @@ namespace SteamKit2.GC.CSGO.Internal
         public bool ShouldSerializeitemid() => __pbn__itemid != null;
         public void Resetitemid() => __pbn__itemid = null;
         private ulong? __pbn__itemid;
+
+    }
+
+    [global::ProtoBuf.ProtoContract()]
+    public partial class CMsgGCCStrike15_v2_BetaEnrollment : global::ProtoBuf.IExtensible
+    {
+        private global::ProtoBuf.IExtension __pbn__extensionData;
+        global::ProtoBuf.IExtension global::ProtoBuf.IExtensible.GetExtensionObject(bool createIfMissing)
+            => global::ProtoBuf.Extensible.GetExtensionObject(ref __pbn__extensionData, createIfMissing);
+
+        [global::ProtoBuf.ProtoMember(1)]
+        public uint eresult
+        {
+            get => __pbn__eresult.GetValueOrDefault();
+            set => __pbn__eresult = value;
+        }
+        public bool ShouldSerializeeresult() => __pbn__eresult != null;
+        public void Reseteresult() => __pbn__eresult = null;
+        private uint? __pbn__eresult;
 
     }
 
@@ -7885,6 +8507,26 @@ namespace SteamKit2.GC.CSGO.Internal
     }
 
     [global::ProtoBuf.ProtoContract()]
+    public partial class CMsgGCCStrike15_v2_SetPlayerLeaderboardSafeName : global::ProtoBuf.IExtensible
+    {
+        private global::ProtoBuf.IExtension __pbn__extensionData;
+        global::ProtoBuf.IExtension global::ProtoBuf.IExtensible.GetExtensionObject(bool createIfMissing)
+            => global::ProtoBuf.Extensible.GetExtensionObject(ref __pbn__extensionData, createIfMissing);
+
+        [global::ProtoBuf.ProtoMember(1)]
+        [global::System.ComponentModel.DefaultValue("")]
+        public string leaderboard_safe_name
+        {
+            get => __pbn__leaderboard_safe_name ?? "";
+            set => __pbn__leaderboard_safe_name = value;
+        }
+        public bool ShouldSerializeleaderboard_safe_name() => __pbn__leaderboard_safe_name != null;
+        public void Resetleaderboard_safe_name() => __pbn__leaderboard_safe_name = null;
+        private string __pbn__leaderboard_safe_name;
+
+    }
+
+    [global::ProtoBuf.ProtoContract()]
     public enum ECsgoGCMsg
     {
         k_EMsgGCCStrike15_v2_Base = 9100,
@@ -7897,7 +8539,6 @@ namespace SteamKit2.GC.CSGO.Internal
         k_EMsgGCCStrike15_v2_MatchmakingClient2GCHello = 9109,
         k_EMsgGCCStrike15_v2_MatchmakingGC2ClientHello = 9110,
         k_EMsgGCCStrike15_v2_MatchmakingGC2ClientAbandon = 9112,
-        k_EMsgGCCStrike15_v2_MatchmakingGCOperationalStats = 9115,
         k_EMsgGCCStrike15_v2_MatchmakingOperator2GCBlogUpdate = 9117,
         k_EMsgGCCStrike15_v2_ServerNotificationForUserPenalty = 9118,
         k_EMsgGCCStrike15_v2_ClientReportPlayer = 9119,
@@ -7986,6 +8627,10 @@ namespace SteamKit2.GC.CSGO.Internal
         k_EMsgGCCStrike15_v2_GC2ClientInitSystem_Response = 9213,
         k_EMsgGCCStrike15_v2_PrivateQueues = 9214,
         k_EMsgGCCStrike15_v2_MatchListTournamentOperatorMgmt = 9215,
+        k_EMsgGCCStrike15_v2_BetaEnrollment = 9217,
+        k_EMsgGCCStrike15_v2_SetPlayerLeaderboardSafeName = 9218,
+        k_EMsgGCCStrike15_v2_ClientRedeemFreeReward = 9219,
+        k_EMsgGCCStrike15_v2_ClientNetworkConfig = 9220,
     }
 
     [global::ProtoBuf.ProtoContract()]
