@@ -75,6 +75,7 @@ namespace SteamKit2.CDN
         /// <summary>
         /// Gets the preferred server status.
         /// </summary>
+        [Obsolete("This flag is no longer set.")]
         public bool PreferredServer { get; internal set; }
         /// <summary>
         /// Gets the flag whether this server is for Steam China only.
@@ -92,7 +93,7 @@ namespace SteamKit2.CDN
         /// <summary>
         /// Gets the list of app ids this server can be used with.
         /// </summary>
-        public uint[] AllowedAppIds { get; internal set; } = Array.Empty<uint>();
+        public uint[] AllowedAppIds { get; internal set; } = [];
 
         /// <summary>
         /// Performs an implicit conversion from <see cref="System.Net.IPEndPoint"/> to <see cref="Server"/>.
