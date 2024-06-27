@@ -1,4 +1,5 @@
-﻿using System.Collections.Concurrent;
+using System.Collections.Concurrent;
+using System.Collections.Generic;
 using System.IO;
 using System.IO.Compression;
 using System.IO.IsolatedStorage;
@@ -14,16 +15,17 @@ namespace steam_retriever
         [ProtoMember(2, IsRequired = false)]
         public ConcurrentDictionary<string, int> ContentServerPenalty { get; set; }
         [ProtoMember(3, IsRequired = false)]
-        public ConcurrentDictionary<string, string> RefreshToken { get; set; }
-        [ProtoMember(4, IsRequired = false)]
-        public ConcurrentDictionary<string, byte[]> SentryData { get; set; }
+        public ConcurrentDictionary<string, string> LoginTokens { get; set; }
+        // Member 4 was a Dictionary<string, byte[]> for SentryData.
+        [ProtoMember(5, IsRequired = false)]
+        public Dictionary<string, string> GuardData { get; set; }
     }
 
     class AccountSettingsStore
     {
-        private const uint CurrentVersion = 1;
+        private const uint CurrentVersion = 2;
 
-        public AccountSettingsData Settings { get; private set; }
+        internal AccountSettingsData Settings { get; private set; }
 
         string FileName;
 
@@ -32,17 +34,17 @@ namespace steam_retriever
             Settings = new AccountSettingsData
             {
                 Version = CurrentVersion,
-                ContentServerPenalty = new ConcurrentDictionary<string, int>(),
-                RefreshToken = new ConcurrentDictionary<string, string>(),
-                SentryData = new ConcurrentDictionary<string, byte[]>(),
+                ContentServerPenalty = new(),
+                LoginTokens = [],
+                GuardData = [],
             };
         }
 
         readonly IsolatedStorageFile IsolatedStorage = IsolatedStorageFile.GetUserStoreForAssembly();
         private static AccountSettingsStore _instance;
-        public static AccountSettingsStore Instance { get => _instance ??= new AccountSettingsStore(); }
+        internal static AccountSettingsStore Instance { get => _instance ??= new AccountSettingsStore(); }
 
-        public void LoadFromFile(string filename)
+        internal void LoadFromFile(string filename)
         {
             if (IsolatedStorage.FileExists(filename))
             {
@@ -61,6 +63,7 @@ namespace steam_retriever
                     switch (version)
                     {
                         case 1: HandleVersion1(ms); break;
+                        case 2: HandleVersion2(ms); break;
                     }
                 }
                 catch (IOException ex)
@@ -98,9 +101,19 @@ namespace steam_retriever
             if (Settings == null)
                 Settings = new AccountSettingsData();
 
-            Settings.ContentServerPenalty ??= new ConcurrentDictionary<string, int>();
-            Settings.RefreshToken ??= new ConcurrentDictionary<string, string>();
-            Settings.SentryData ??= new ConcurrentDictionary<string, byte[]>();
+            Settings.ContentServerPenalty ??= new();
+            Settings.LoginTokens ??= new();
+        }
+
+        private void HandleVersion2(MemoryStream ms)
+        {
+            Settings = Serializer.Deserialize<AccountSettingsData>(ms);
+            if (Settings == null)
+                Settings = new AccountSettingsData();
+
+            Settings.ContentServerPenalty ??= new();
+            Settings.LoginTokens ??= new();
+            Settings.GuardData ??= new();
         }
     }
 }
