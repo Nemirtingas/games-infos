@@ -451,12 +451,13 @@ namespace steam_retriever
 
         internal void Disconnect(bool sendLogOff = true)
         {
+            StopCallbackTask();
+
             if (sendLogOff)
             {
                 steamUser.LogOff();
             }
 
-            StopCallbackTask();
 
             bAborted = true;
             bConnected = false;
