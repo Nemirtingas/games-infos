@@ -952,6 +952,26 @@ namespace SteamKit2.Internal
         public void Resettime_last_updated() => __pbn__time_last_updated = null;
         private uint? __pbn__time_last_updated;
 
+        [global::ProtoBuf.ProtoMember(5)]
+        public int os_type
+        {
+            get => __pbn__os_type.GetValueOrDefault();
+            set => __pbn__os_type = value;
+        }
+        public bool ShouldSerializeos_type() => __pbn__os_type != null;
+        public void Resetos_type() => __pbn__os_type = null;
+        private int? __pbn__os_type;
+
+        [global::ProtoBuf.ProtoMember(6)]
+        public int device_type
+        {
+            get => __pbn__device_type.GetValueOrDefault();
+            set => __pbn__device_type = value;
+        }
+        public bool ShouldSerializedevice_type() => __pbn__device_type != null;
+        public void Resetdevice_type() => __pbn__device_type = null;
+        private int? __pbn__device_type;
+
     }
 
     [global::ProtoBuf.ProtoContract()]
@@ -1135,6 +1155,36 @@ namespace SteamKit2.Internal
             public bool ShouldSerializestrength_raw() => __pbn__strength_raw != null;
             public void Resetstrength_raw() => __pbn__strength_raw = null;
             private int? __pbn__strength_raw;
+
+            [global::ProtoBuf.ProtoMember(9)]
+            public bool wake_allowed
+            {
+                get => __pbn__wake_allowed.GetValueOrDefault();
+                set => __pbn__wake_allowed = value;
+            }
+            public bool ShouldSerializewake_allowed() => __pbn__wake_allowed != null;
+            public void Resetwake_allowed() => __pbn__wake_allowed = null;
+            private bool? __pbn__wake_allowed;
+
+            [global::ProtoBuf.ProtoMember(10)]
+            public bool wake_allowed_supported
+            {
+                get => __pbn__wake_allowed_supported.GetValueOrDefault();
+                set => __pbn__wake_allowed_supported = value;
+            }
+            public bool ShouldSerializewake_allowed_supported() => __pbn__wake_allowed_supported != null;
+            public void Resetwake_allowed_supported() => __pbn__wake_allowed_supported = null;
+            private bool? __pbn__wake_allowed_supported;
+
+            [global::ProtoBuf.ProtoMember(11)]
+            public int battery_percent
+            {
+                get => __pbn__battery_percent.GetValueOrDefault();
+                set => __pbn__battery_percent = value;
+            }
+            public bool ShouldSerializebattery_percent() => __pbn__battery_percent != null;
+            public void Resetbattery_percent() => __pbn__battery_percent = null;
+            private int? __pbn__battery_percent;
 
         }
 
@@ -1480,16 +1530,6 @@ namespace SteamKit2.Internal
 
         [global::ProtoBuf.ProtoMember(21)]
         public global::System.Collections.Generic.List<int> fps_limit_options_external { get; } = new global::System.Collections.Generic.List<int>();
-
-        [global::ProtoBuf.ProtoMember(22)]
-        public bool is_tearing_supported
-        {
-            get => __pbn__is_tearing_supported.GetValueOrDefault();
-            set => __pbn__is_tearing_supported = value;
-        }
-        public bool ShouldSerializeis_tearing_supported() => __pbn__is_tearing_supported != null;
-        public void Resetis_tearing_supported() => __pbn__is_tearing_supported = null;
-        private bool? __pbn__is_tearing_supported;
 
         [global::ProtoBuf.ProtoMember(23)]
         public bool is_vrr_supported
@@ -1963,26 +2003,6 @@ namespace SteamKit2.Internal
         public void Resetis_vrr_enabled() => __pbn__is_vrr_enabled = null;
         private bool? __pbn__is_vrr_enabled;
 
-        [global::ProtoBuf.ProtoMember(21)]
-        public bool is_composite_debug_enabled
-        {
-            get => __pbn__is_composite_debug_enabled.GetValueOrDefault();
-            set => __pbn__is_composite_debug_enabled = value;
-        }
-        public bool ShouldSerializeis_composite_debug_enabled() => __pbn__is_composite_debug_enabled != null;
-        public void Resetis_composite_debug_enabled() => __pbn__is_composite_debug_enabled = null;
-        private bool? __pbn__is_composite_debug_enabled;
-
-        [global::ProtoBuf.ProtoMember(22)]
-        public bool force_composite
-        {
-            get => __pbn__force_composite.GetValueOrDefault();
-            set => __pbn__force_composite = value;
-        }
-        public bool ShouldSerializeforce_composite() => __pbn__force_composite != null;
-        public void Resetforce_composite() => __pbn__force_composite = null;
-        private bool? __pbn__force_composite;
-
         [global::ProtoBuf.ProtoMember(23)]
         public bool use_dynamic_refresh_rate_in_steam
         {
@@ -2338,6 +2358,43 @@ namespace SteamKit2.Internal
         }
         public bool ShouldSerializesettings_delta() => __pbn__update.Is(3);
         public void Resetsettings_delta() => global::ProtoBuf.DiscriminatedUnion32Object.Reset(ref __pbn__update, 3);
+
+    }
+
+    [global::ProtoBuf.ProtoContract()]
+    public partial class CMsgSystemPerfLegacySettingEntry : global::ProtoBuf.IExtensible
+    {
+        private global::ProtoBuf.IExtension __pbn__extensionData;
+        global::ProtoBuf.IExtension global::ProtoBuf.IExtensible.GetExtensionObject(bool createIfMissing)
+            => global::ProtoBuf.Extensible.GetExtensionObject(ref __pbn__extensionData, createIfMissing);
+
+        [global::ProtoBuf.ProtoMember(1)]
+        public ulong profile_game_id
+        {
+            get => __pbn__profile_game_id.GetValueOrDefault();
+            set => __pbn__profile_game_id = value;
+        }
+        public bool ShouldSerializeprofile_game_id() => __pbn__profile_game_id != null;
+        public void Resetprofile_game_id() => __pbn__profile_game_id = null;
+        private ulong? __pbn__profile_game_id;
+
+        [global::ProtoBuf.ProtoMember(2)]
+        public CMsgSystemPerfSettingsPerApp settings { get; set; }
+
+    }
+
+    [global::ProtoBuf.ProtoContract()]
+    public partial class CMsgSystemPerfLegacySettings : global::ProtoBuf.IExtensible
+    {
+        private global::ProtoBuf.IExtension __pbn__extensionData;
+        global::ProtoBuf.IExtension global::ProtoBuf.IExtensible.GetExtensionObject(bool createIfMissing)
+            => global::ProtoBuf.Extensible.GetExtensionObject(ref __pbn__extensionData, createIfMissing);
+
+        [global::ProtoBuf.ProtoMember(1)]
+        public CMsgSystemPerfSettingsGlobal global { get; set; }
+
+        [global::ProtoBuf.ProtoMember(2)]
+        public global::System.Collections.Generic.List<CMsgSystemPerfLegacySettingEntry> per_app_settings { get; } = new global::System.Collections.Generic.List<CMsgSystemPerfLegacySettingEntry>();
 
     }
 
@@ -4156,6 +4213,25 @@ namespace SteamKit2.Internal
         public bool ShouldSerializeauth_key() => __pbn__auth_key != null;
         public void Resetauth_key() => __pbn__auth_key = null;
         private string __pbn__auth_key;
+
+    }
+
+    [global::ProtoBuf.ProtoContract()]
+    public partial class CMsgWebUITransportFailure : global::ProtoBuf.IExtensible
+    {
+        private global::ProtoBuf.IExtension __pbn__extensionData;
+        global::ProtoBuf.IExtension global::ProtoBuf.IExtensible.GetExtensionObject(bool createIfMissing)
+            => global::ProtoBuf.Extensible.GetExtensionObject(ref __pbn__extensionData, createIfMissing);
+
+        [global::ProtoBuf.ProtoMember(1)]
+        public uint connect_count
+        {
+            get => __pbn__connect_count.GetValueOrDefault();
+            set => __pbn__connect_count = value;
+        }
+        public bool ShouldSerializeconnect_count() => __pbn__connect_count != null;
+        public void Resetconnect_count() => __pbn__connect_count = null;
+        private uint? __pbn__connect_count;
 
     }
 

@@ -175,6 +175,14 @@ namespace SteamKit2.Internal
     }
 
     [global::ProtoBuf.ProtoContract()]
+    public enum EWindowStackingOrder
+    {
+        k_EWindowStackingOrder_Invalid = 0,
+        k_EWindowStackingOrder_Top = 1,
+        k_EWindowStackingOrder_Bottom = 2,
+    }
+
+    [global::ProtoBuf.ProtoContract()]
     public enum EBluetoothDeviceType
     {
         k_BluetoothDeviceType_Invalid = 0,
@@ -362,6 +370,7 @@ namespace SteamKit2.Internal
         k_EUpdaterState_Applying = 5,
         k_EUpdaterState_ClientRestartPending = 6,
         k_EUpdaterState_SystemRestartPending = 7,
+        k_EUpdaterState_RollBack = 8,
     }
 
     [global::ProtoBuf.ProtoContract()]
@@ -456,8 +465,43 @@ namespace SteamKit2.Internal
         k_EOSBranch_ReleaseCandidate = 2,
         k_EOSBranch_Beta = 3,
         k_EOSBranch_BetaCandidate = 4,
-        k_EOSBranch_Main = 5,
-        k_EOSBranch_Staging = 6,
+        k_EOSBranch_Preview = 5,
+        k_EOSBranch_PreviewCandidate = 6,
+        k_EOSBranch_Main = 7,
+        k_EOSBranch_Staging = 8,
+    }
+
+    [global::ProtoBuf.ProtoContract()]
+    public enum EBrowserGPUStatus
+    {
+        k_EBrowserGPUStatus_Invalid = 0,
+        k_EBrowserGPUStatus_Enabled = 1,
+        k_EBrowserGPUStatus_DisabledUnknown = 2,
+        k_EBrowserGPUStatus_DisabledCrashCount = 4,
+        k_EBrowserGPUStatus_DisabledBlocklist = 5,
+        k_EBrowserGPUStatus_DisabledDebugRequest = 6,
+        k_EBrowserGPUStatus_DisabledCommandLine = 7,
+        k_EBrowserGPUStatus_DisabledRuntimeDetect = 8,
+        k_EBrowserGPUStatus_DisabledChildCommandLine = 9,
+    }
+
+    [global::ProtoBuf.ProtoContract()]
+    public enum EBrowserFeatureStatus
+    {
+        k_EBrowserFeatureStatus_Invalid = 0,
+        k_EBrowserFeatureStatus_NotFound = 1,
+        k_EBrowserFeatureStatus_Unknown = 2,
+        k_EBrowserFeatureStatus_DisabledSoftware = 3,
+        k_EBrowserFeatureStatus_DisabledOff = 4,
+        k_EBrowserFeatureStatus_DisabledOffOk = 5,
+        k_EBrowserFeatureStatus_UnavailableSoftware = 6,
+        k_EBrowserFeatureStatus_UnavailableOff = 7,
+        k_EBrowserFeatureStatus_UnavailableOffOk = 8,
+        k_EBrowserFeatureStatus_EnabledReadback = 9,
+        k_EBrowserFeatureStatus_EnabledForce = 10,
+        k_EBrowserFeatureStatus_Enabled = 11,
+        k_EBrowserFeatureStatus_EnabledOn = 12,
+        k_EBrowserFeatureStatus_EnabledForceOn = 13,
     }
 
     [global::ProtoBuf.ProtoContract()]
@@ -537,6 +581,20 @@ namespace SteamKit2.Internal
     }
 
     [global::ProtoBuf.ProtoContract()]
+    public enum EForumType
+    {
+        k_EForumType_Invalid = 0,
+        k_EForumType_General = 1,
+        k_EForumType_ReportedPosts = 2,
+        k_EForumType_Workshop = 3,
+        k_EForumType_PublishedFile = 4,
+        k_EForumType_Trading = 5,
+        k_EForumType_PlayTest = 6,
+        k_EForumType_Event = 7,
+        k_EForumType_Max = 8,
+    }
+
+    [global::ProtoBuf.ProtoContract()]
     public enum ECommentThreadType
     {
         k_ECommentThreadTypeInvalid = 0,
@@ -594,6 +652,9 @@ namespace SteamKit2.Internal
         k_ECompromiseDetectionType_None = 0,
         k_ECompromiseDetectionType_TradeEvent = 1,
         k_ECompromiseDetectionType_ApiCallRate = 2,
+        k_ECompromiseDetectionType_Manual = 3,
+        k_ECompromiseDetectionType_TicketAction = 4,
+        k_ECompromiseDetectionType_MaliciousRefund = 5,
     }
 
     [global::ProtoBuf.ProtoContract()]
@@ -611,6 +672,78 @@ namespace SteamKit2.Internal
         k_EAsyncGameSessionUserVisibilityEnvelopeAndSessionList = 0,
         k_EAsyncGameSessionUserVisibilitySessionListOnly = 1,
         k_EAsyncGameSessionUserVisibilityDismissed = 2,
+    }
+
+    [global::ProtoBuf.ProtoContract()]
+    public enum EGameRecordingType
+    {
+        k_EGameRecordingType_Unknown = 0,
+        k_EGameRecordingType_NotRecording = 1,
+        k_EGameRecordingType_ManualRecording = 2,
+        k_EGameRecordingType_BackgroundRecording = 3,
+        k_EGameRecordingType_Clip = 4,
+    }
+
+    [global::ProtoBuf.ProtoContract()]
+    public enum EExportCodec
+    {
+        k_EExportCodec_Default = 0,
+        k_EExportCodec_H264 = 1,
+        k_EExportCodec_H265 = 2,
+    }
+
+    [global::ProtoBuf.ProtoContract()]
+    public enum EProtoAppType
+    {
+        k_EAppTypeInvalid = 0,
+        k_EAppTypeGame = 1,
+        k_EAppTypeApplication = 2,
+        k_EAppTypeTool = 4,
+        k_EAppTypeDemo = 8,
+        k_EAppTypeDeprected = 16,
+        k_EAppTypeDLC = 32,
+        k_EAppTypeGuide = 64,
+        k_EAppTypeDriver = 128,
+        k_EAppTypeConfig = 256,
+        k_EAppTypeHardware = 512,
+        k_EAppTypeFranchise = 1024,
+        k_EAppTypeVideo = 2048,
+        k_EAppTypePlugin = 4096,
+        k_EAppTypeMusicAlbum = 8192,
+        k_EAppTypeSeries = 16384,
+        k_EAppTypeComic = 32768,
+        k_EAppTypeBeta = 65536,
+        k_EAppTypeShortcut = 1073741824,
+        k_EAppTypeDepotOnly = -2147483648,
+    }
+
+    [global::ProtoBuf.ProtoContract()]
+    public enum EWindowsUpdateInstallationImpact
+    {
+        k_EWindowsUpdateInstallationImpact_Unknown = -1,
+        k_EWindowsUpdateInstallationImpact_Normal = 0,
+        k_EWindowsUpdateInstallationImpact_Minor = 1,
+        k_EWindowsUpdateInstallationImpact_ExclusiveHandling = 2,
+    }
+
+    [global::ProtoBuf.ProtoContract()]
+    public enum EWindowsUpdateRebootBehavior
+    {
+        k_EWindowsUpdateRebootBehavior_Unknown = -1,
+        k_EWindowsUpdateRebootBehavior_NeverNeedsReboot = 0,
+        k_EWindowsUpdateRebootBehavior_AlwaysNeedsReboot = 1,
+        k_EWindowsUpdateRebootBehavior_MightNeedReboot = 2,
+    }
+
+    [global::ProtoBuf.ProtoContract()]
+    public enum EExternalSaleEventType
+    {
+        k_EExternalSaleEventType_Unknown = 0,
+        k_EExternalSaleEventType_Publisher = 1,
+        k_EExternalSaleEventType_Showcase = 2,
+        k_EExternalSaleEventType_Region = 3,
+        k_EExternalSaleEventType_Theme = 4,
+        k_EExternalSaleEventType_Franchise = 5,
     }
 
 }

@@ -6,12 +6,11 @@
 
 
 using System;
-using System.Collections;
 using System.Collections.Generic;
-using System.Collections.Specialized;
 using System.Diagnostics;
-using System.Linq;
 using System.Threading;
+using System.Threading.Tasks;
+using System.Threading.Tasks.Dataflow;
 using ProtoBuf;
 using SteamKit2.Authentication;
 using SteamKit2.Internal;
@@ -24,15 +23,12 @@ namespace SteamKit2
     /// </summary>
     public sealed partial class SteamClient : CMClient
     {
-        OrderedDictionary handlers;
+        List<ClientMsgHandler> handlers;
 
         long currentJobId = 0;
         DateTime processStartTime;
 
-        object callbackLock = new();
-        Queue<ICallbackMsg> callbackQueue;
-
-        Dictionary<EMsg, Action<IPacketMsg>> dispatchMap;
+        BufferBlock<ICallbackMsg> callbackQueue = new();
 
         internal AsyncJobManager jobManager;
 
@@ -80,44 +76,36 @@ namespace SteamKit2
         public SteamClient( SteamConfiguration configuration, string identifier )
             : base( configuration, identifier )
         {
-            callbackQueue = new Queue<ICallbackMsg>();
-
-            this.handlers = [];
-
             // Start calculating machine info so that it is (hopefully) ready by the time we get to logging in.
             HardwareUtils.Init( configuration.MachineInfoProvider );
 
             // add this library's handlers
+            const int HANDLERS_COUNT = 15; // this number should match the amount of AddHandlerCore calls below
+            this.handlers = new( HANDLERS_COUNT );
+
             // notice: SteamFriends should be added before SteamUser due to AccountInfoCallback
-            this.AddHandler( new SteamFriends() );
-            this.AddHandler( new SteamUser() );
-            this.AddHandler( new SteamApps() );
-            this.AddHandler( new SteamGameCoordinator() );
-            this.AddHandler( new SteamGameServer() );
-            this.AddHandler( new SteamUserStats() );
-            this.AddHandler( new SteamMasterServer() );
-            this.AddHandler( new SteamCloud() );
-            this.AddHandler( new SteamWorkshop() );
-            this.AddHandler( new SteamTrading() );
-            this.AddHandler( new SteamUnifiedMessages() );
-            this.AddHandler( new SteamScreenshots() );
-            this.AddHandler( new SteamMatchmaking() );
-            this.AddHandler( new SteamNetworking() );
-            this.AddHandler( new SteamContent() );
+            this.AddHandlerCore( new SteamFriends() );
+            this.AddHandlerCore( new SteamUser() );
+            this.AddHandlerCore( new SteamApps() );
+            this.AddHandlerCore( new SteamGameCoordinator() );
+            this.AddHandlerCore( new SteamGameServer() );
+            this.AddHandlerCore( new SteamUserStats() );
+            this.AddHandlerCore( new SteamMasterServer() );
+            this.AddHandlerCore( new SteamCloud() );
+            this.AddHandlerCore( new SteamWorkshop() );
+            this.AddHandlerCore( new SteamUnifiedMessages() );
+            this.AddHandlerCore( new SteamScreenshots() );
+            this.AddHandlerCore( new SteamMatchmaking() );
+            this.AddHandlerCore( new SteamNetworking() );
+            this.AddHandlerCore( new SteamContent() );
+            this.AddHandlerCore( new SteamAuthTicket() );
+
+            Debug.Assert( this.handlers.Count == HANDLERS_COUNT );
 
             using ( var process = Process.GetCurrentProcess() )
             {
                 this.processStartTime = process.StartTime;
             }
-
-            dispatchMap = new Dictionary<EMsg, Action<IPacketMsg>>
-            {
-                { EMsg.ClientCMList, HandleCMList },
-
-                // to support asyncjob life time
-                { EMsg.JobHeartbeat, HandleJobHeartbeat },
-                { EMsg.DestJobFailed, HandleJobFailed },
-            };
 
             jobManager = new AsyncJobManager();
         }
@@ -133,14 +121,21 @@ namespace SteamKit2
         {
             ArgumentNullException.ThrowIfNull( handler );
 
-            if ( handlers.Contains( handler.GetType() ) )
+            var type = handler.GetType();
+            var msgIndex = handlers.FindIndex( h => h.GetType() == type );
+
+            if ( msgIndex > -1 )
             {
                 throw new InvalidOperationException( string.Format( "A handler of type \"{0}\" is already registered.", handler.GetType() ) );
-
             }
 
+            AddHandlerCore( handler );
+        }
+
+        private void AddHandlerCore( ClientMsgHandler handler )
+        {
             handler.Setup( this );
-            handlers[ handler.GetType() ] = handler;
+            handlers.Add( handler );
         }
 
         /// <summary>
@@ -149,15 +144,21 @@ namespace SteamKit2
         /// <param name="handler">The handler name to remove.</param>
         public void RemoveHandler( Type handler )
         {
-            handlers.Remove( handler );
+            var msgIndex = handlers.FindIndex( h => h.GetType() == handler );
+
+            if ( msgIndex > -1 )
+            {
+                handlers.RemoveAt( msgIndex );
+            }
         }
+
         /// <summary>
         /// Removes a registered handler.
         /// </summary>
         /// <param name="handler">The handler to remove.</param>
         public void RemoveHandler( ClientMsgHandler handler )
         {
-            this.RemoveHandler( handler.GetType() );
+            handlers.Remove( handler );
         }
 
         /// <summary>
@@ -172,145 +173,59 @@ namespace SteamKit2
         {
             Type type = typeof( T );
 
-            if ( handlers.Contains( type ) )
-            {
-                return handlers[ type ] as T;
-            }
-
-            return null;
+            return handlers.Find( h => h.GetType() == type ) as T;
         }
         #endregion
 
 
         #region Callbacks
         /// <summary>
-        /// Gets the next callback object in the queue.
-        /// This function does not dequeue the callback, you must call FreeLastCallback after processing it.
+        /// Gets the next callback object in the queue, and removes it.
         /// </summary>
         /// <returns>The next callback in the queue, or null if no callback is waiting.</returns>
         public ICallbackMsg? GetCallback()
         {
-            return GetCallback( false );
-        }
-        /// <summary>
-        /// Gets the next callback object in the queue, and optionally frees it.
-        /// </summary>
-        /// <param name="freeLast">if set to <c>true</c> this function also frees the last callback if one existed.</param>
-        /// <returns>The next callback in the queue, or null if no callback is waiting.</returns>
-        public ICallbackMsg? GetCallback( bool freeLast )
-        {
-            lock ( callbackLock )
+            if ( callbackQueue.TryReceive( out var msg ) )
             {
-                if ( callbackQueue.Count > 0 )
-                    return ( freeLast ? callbackQueue.Dequeue() : callbackQueue.Peek() );
+                return msg;
             }
-
             return null;
         }
 
         /// <summary>
-        /// Blocks the calling thread until a callback object is posted to the queue.
-        /// This function does not dequeue the callback, you must call FreeLastCallback after processing it.
+        /// Blocks the calling thread until a callback object is posted to the queue, and removes it.
         /// </summary>
         /// <returns>The callback object from the queue.</returns>
-        public ICallbackMsg? WaitForCallback()
+        public ICallbackMsg WaitForCallback()
         {
-            return WaitForCallback( false );
+            return callbackQueue.Receive();
         }
+
         /// <summary>
-        /// Blocks the calling thread until a callback object is posted to the queue, or null after the timeout has elapsed.
-        /// This function does not dequeue the callback, you must call FreeLastCallback after processing it.
+        /// Asynchronously awaits until a callback object is posted to the queue, and removes it.
+        /// </summary>
+        /// <returns>The callback object from the queue.</returns>
+        public Task<ICallbackMsg> WaitForCallbackAsync( CancellationToken cancellationToken = default )
+        {
+            return callbackQueue.ReceiveAsync( cancellationToken );
+        }
+
+        /// <summary>
+        /// Blocks the calling thread until a callback object is posted to the queue, and removes it.
         /// </summary>
         /// <param name="timeout">The length of time to block.</param>
         /// <returns>A callback object from the queue if a callback has been posted, or null if the timeout has elapsed.</returns>
         public ICallbackMsg? WaitForCallback( TimeSpan timeout )
         {
-            lock ( callbackLock )
+            try
             {
-                if ( callbackQueue.Count == 0 )
-                {
-                    if ( !Monitor.Wait( callbackLock, timeout ) )
-                        return null;
-                }
-
-                return callbackQueue.Peek();
+                return callbackQueue.Receive( timeout );
             }
-        }
-        /// <summary>
-        /// Blocks the calling thread until a callback object is posted to the queue, and optionally frees it.
-        /// </summary>
-        /// <param name="freeLast">if set to <c>true</c> this function also frees the last callback.</param>
-        /// <returns>The callback object from the queue.</returns>
-        public ICallbackMsg WaitForCallback( bool freeLast )
-        {
-            lock ( callbackLock )
+            catch ( TimeoutException )
             {
-                if ( callbackQueue.Count == 0 )
-                    Monitor.Wait( callbackLock );
-
-                return ( freeLast ? callbackQueue.Dequeue() : callbackQueue.Peek() );
-            }
-        }
-        /// <summary>
-        /// Blocks the calling thread until a callback object is posted to the queue, and optionally frees it.
-        /// </summary>
-        /// <param name="freeLast">if set to <c>true</c> this function also frees the last callback.</param>
-        /// <param name="timeout">The length of time to block.</param>
-        /// <returns>A callback object from the queue if a callback has been posted, or null if the timeout has elapsed.</returns>
-        public ICallbackMsg? WaitForCallback( bool freeLast, TimeSpan timeout )
-        {
-            lock ( callbackLock )
-            {
-                if ( callbackQueue.Count == 0 )
-                {
-                    if ( !Monitor.Wait( callbackLock, timeout ) )
-                        return null;
-                }
-
-                return ( freeLast ? callbackQueue.Dequeue() : callbackQueue.Peek() );
-            }
-        }
-        /// <summary>
-        /// Blocks the calling thread until the queue contains a callback object. Returns all callbacks, and optionally frees them.
-        /// </summary>
-        /// <param name="freeLast">if set to <c>true</c> this function also frees all callbacks.</param>
-        /// <param name="timeout">The length of time to block.</param>
-        /// <returns>All current callback objects in the queue.</returns>
-        public IEnumerable<ICallbackMsg> GetAllCallbacks( bool freeLast, TimeSpan timeout )
-        {
-            IEnumerable<ICallbackMsg> callbacks;
-
-            lock ( callbackLock )
-            {
-                if ( callbackQueue.Count == 0 )
-                {
-                    if ( !Monitor.Wait( callbackLock, timeout ) )
-                    {
-                        return Enumerable.Empty<ICallbackMsg>();
-                    }
-                }
-
-                callbacks = callbackQueue.ToArray();
-                if ( freeLast )
-                {
-                    callbackQueue.Clear();
-                }
             }
 
-            return callbacks;
-        }
-        /// <summary>
-        /// Frees the last callback in the queue.
-        /// </summary>
-        public void FreeLastCallback()
-        {
-            lock ( callbackLock )
-            {
-                if ( callbackQueue.Count == 0 )
-                    return;
-
-                callbackQueue.Dequeue();
-            }
+            return null;
         }
 
         /// <summary>
@@ -322,12 +237,7 @@ namespace SteamKit2
             if ( msg == null )
                 return;
 
-            lock ( callbackLock )
-            {
-                callbackQueue.Enqueue( msg );
-                Monitor.Pulse( callbackLock );
-            }
-
+            callbackQueue.Post( msg );
             jobManager.TryCompleteJob( msg.JobID, msg );
         }
         #endregion
@@ -369,31 +279,36 @@ namespace SteamKit2
                 return false;
             }
 
-            if ( dispatchMap.TryGetValue( packetMsg.MsgType, out var handlerFunc ) )
+            ArgumentNullException.ThrowIfNull( packetMsg );
+
+            // we want to handle some of the clientmsgs before we pass them along to registered handlers
+            switch ( packetMsg.MsgType )
             {
-                // we want to handle some of the clientmsgs before we pass them along to registered handlers
-                handlerFunc( packetMsg );
+                case EMsg.JobHeartbeat:
+                    HandleJobHeartbeat( packetMsg );
+                    break;
+
+                case EMsg.DestJobFailed:
+                    HandleJobFailed( packetMsg );
+                    break;
             }
 
             // pass along the clientmsg to all registered handlers
-            foreach ( DictionaryEntry kvp in handlers )
+            foreach ( var value in handlers )
             {
-                var key = (Type) kvp.Key;
-                var value = (ClientMsgHandler) kvp.Value!;
-
                 try
                 {
                     value.HandleMsg( packetMsg );
                 }
                 catch ( ProtoException ex )
                 {
-                    LogDebug( nameof( SteamClient ), $"'{key.Name}' handler failed to (de)serialize a protobuf: {ex}" );
+                    LogDebug( nameof( SteamClient ), $"'{value.GetType().Name}' handler failed to (de)serialize a protobuf: {ex}" );
                     Disconnect( userInitiated: false );
                     return false;
                 }
                 catch ( Exception ex )
                 {
-                    LogDebug( nameof( SteamClient ), $"Unhandled exception from '{key.Name}' handler: {ex}" );
+                    LogDebug( nameof( SteamClient ), $"Unhandled exception from '{value.GetType().Name}' handler: {ex}" );
                     Disconnect( userInitiated: false );
                     return false;
                 }
@@ -433,13 +348,6 @@ namespace SteamKit2
         void ClearHandlerCaches()
         {
             GetHandler<SteamMatchmaking>()?.ClearLobbyCache();
-        }
-
-        void HandleCMList( IPacketMsg packetMsg )
-        {
-            var cmMsg = new ClientMsgProtobuf<CMsgClientCMList>( packetMsg );
-
-            PostCallback( new CMListCallback( cmMsg.Body ) );
         }
 
         void HandleJobHeartbeat( IPacketMsg packetMsg )

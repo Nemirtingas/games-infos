@@ -1234,6 +1234,7 @@ namespace SteamKit2.GC.Dota.Internal
         EVENT_ID_10TH_ANNIVERSARY = 46,
         EVENT_ID_CROWNFALL = 47,
         EVENT_ID_FROSTIVUS_2023 = 48,
+        EVENT_ID_INTERNATIONAL_2024 = 49,
     }
 
     [global::ProtoBuf.ProtoContract()]
@@ -1264,6 +1265,7 @@ namespace SteamKit2.GC.Dota.Internal
         DOTA_LEAVER_NEVER_CONNECTED_TOO_LONG = 6,
         DOTA_LEAVER_FAILED_TO_READY_UP = 7,
         DOTA_LEAVER_DECLINED = 8,
+        DOTA_LEAVER_DECLINED_REQUEUE = 9,
     }
 
     [global::ProtoBuf.ProtoContract()]
@@ -1471,6 +1473,7 @@ namespace SteamKit2.GC.Dota.Internal
         DOTALobbyReadyState_UNDECLARED = 0,
         DOTALobbyReadyState_ACCEPTED = 1,
         DOTALobbyReadyState_DECLINED = 2,
+        DOTALobbyReadyState_DECLINED_REQUEUE = 3,
     }
 
     [global::ProtoBuf.ProtoContract()]
@@ -1682,6 +1685,10 @@ namespace SteamKit2.GC.Dota.Internal
         k_EBadgeType_TI12_PlayoffsDay3 = 15,
         k_EBadgeType_TI12_FinalsWeekend = 16,
         k_EBadgeType_TI12_Special = 17,
+        k_EBadgeType_TI13_FinalsDay1 = 18,
+        k_EBadgeType_TI13_FinalsDay2 = 19,
+        k_EBadgeType_TI13_FinalsDay3 = 20,
+        k_EBadgeType_TI13_Special = 21,
     }
 
     [global::ProtoBuf.ProtoContract()]
@@ -1907,6 +1914,15 @@ namespace SteamKit2.GC.Dota.Internal
         k_EOverwatchReportReason_Griefing = 3,
         k_EOverwatchReportReason_Suspicious = 4,
         k_EOverwatchReportReason_AbilityAbuse = 5,
+    }
+
+    [global::ProtoBuf.ProtoContract()]
+    public enum ECandyShopUpgrade
+    {
+        k_ECandyShopUpgradeInvalid = -1,
+        k_ECandyShopUpgrade_InventorySize = 0,
+        k_ECandyShopUpgrade_RewardShelf = 1,
+        k_ECandyShopUpgrade_ExtraExchangeRecipe = 2,
     }
 
 }

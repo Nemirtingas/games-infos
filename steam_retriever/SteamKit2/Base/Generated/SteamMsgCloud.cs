@@ -1679,6 +1679,16 @@ namespace SteamKit2.Internal
         public void Resetrealm() => __pbn__realm = null;
         private uint? __pbn__realm;
 
+        [global::ProtoBuf.ProtoMember(4)]
+        public bool force_proxy
+        {
+            get => __pbn__force_proxy.GetValueOrDefault();
+            set => __pbn__force_proxy = value;
+        }
+        public bool ShouldSerializeforce_proxy() => __pbn__force_proxy != null;
+        public void Resetforce_proxy() => __pbn__force_proxy = null;
+        private bool? __pbn__force_proxy;
+
     }
 
     [global::ProtoBuf.ProtoContract()]
@@ -2286,6 +2296,26 @@ namespace SteamKit2.Internal
         public bool ShouldSerializeignore_pending_operations() => __pbn__ignore_pending_operations != null;
         public void Resetignore_pending_operations() => __pbn__ignore_pending_operations = null;
         private bool? __pbn__ignore_pending_operations;
+
+        [global::ProtoBuf.ProtoMember(5)]
+        public int os_type
+        {
+            get => __pbn__os_type.GetValueOrDefault();
+            set => __pbn__os_type = value;
+        }
+        public bool ShouldSerializeos_type() => __pbn__os_type != null;
+        public void Resetos_type() => __pbn__os_type = null;
+        private int? __pbn__os_type;
+
+        [global::ProtoBuf.ProtoMember(6)]
+        public int device_type
+        {
+            get => __pbn__device_type.GetValueOrDefault();
+            set => __pbn__device_type = value;
+        }
+        public bool ShouldSerializedevice_type() => __pbn__device_type != null;
+        public void Resetdevice_type() => __pbn__device_type = null;
+        private int? __pbn__device_type;
 
     }
 
