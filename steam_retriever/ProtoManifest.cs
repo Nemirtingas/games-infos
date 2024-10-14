@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.IO.Compression;
@@ -76,7 +76,7 @@ namespace steam_retriever
             public ChunkData(DepotManifest.ChunkData sourceChunk)
             {
                 ChunkID = sourceChunk.ChunkID;
-                Checksum = sourceChunk.Checksum;
+                Checksum = BitConverter.GetBytes(sourceChunk.Checksum);
                 Offset = sourceChunk.Offset;
                 CompressedLength = sourceChunk.CompressedLength;
                 UncompressedLength = sourceChunk.UncompressedLength;

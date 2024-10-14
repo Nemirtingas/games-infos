@@ -3,6 +3,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net8.0</TargetFramework>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
 
   <ItemGroup>
@@ -12,9 +13,13 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="log4net" Version="2.0.15" />
-    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="Microsoft.Windows.CsWin32" Version="0.3.106">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
     <PackageReference Include="CommandLineParser" Version="2.9.1" />
-    <PackageReference Include="QRCoder" Version="1.4.3" />
+    <PackageReference Include="QRCoder" Version="1.6.0" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="SteamKit2\SteamKit2.csproj" />

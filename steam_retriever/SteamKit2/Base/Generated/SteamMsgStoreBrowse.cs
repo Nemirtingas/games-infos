@@ -289,6 +289,16 @@ namespace SteamKit2.Internal
         public void Resetapply_user_filters() => __pbn__apply_user_filters = null;
         private bool? __pbn__apply_user_filters;
 
+        [global::ProtoBuf.ProtoMember(17)]
+        public bool include_links
+        {
+            get => __pbn__include_links.GetValueOrDefault();
+            set => __pbn__include_links = value;
+        }
+        public bool ShouldSerializeinclude_links() => __pbn__include_links != null;
+        public void Resetinclude_links() => __pbn__include_links = null;
+        private bool? __pbn__include_links;
+
     }
 
     [global::ProtoBuf.ProtoContract()]
@@ -565,6 +575,9 @@ namespace SteamKit2.Internal
         [global::ProtoBuf.ProtoMember(70)]
         public StoreBrowseFilterFailure user_filter_failure { get; set; }
 
+        [global::ProtoBuf.ProtoMember(71)]
+        public global::System.Collections.Generic.List<Link> links { get; } = new global::System.Collections.Generic.List<Link>();
+
         [global::ProtoBuf.ProtoContract()]
         public partial class RelatedItems : global::ProtoBuf.IExtensible
         {
@@ -581,6 +594,12 @@ namespace SteamKit2.Internal
             public bool ShouldSerializeparent_appid() => __pbn__parent_appid != null;
             public void Resetparent_appid() => __pbn__parent_appid = null;
             private uint? __pbn__parent_appid;
+
+            [global::ProtoBuf.ProtoMember(2)]
+            public global::System.Collections.Generic.List<uint> demo_appid { get; } = new global::System.Collections.Generic.List<uint>();
+
+            [global::ProtoBuf.ProtoMember(3)]
+            public global::System.Collections.Generic.List<uint> standalone_demo_appid { get; } = new global::System.Collections.Generic.List<uint>();
 
         }
 
@@ -1369,9 +1388,10 @@ namespace SteamKit2.Internal
             private bool? __pbn__hide_discount_pct_for_compliance;
 
             [global::ProtoBuf.ProtoMember(43)]
+            [global::System.ComponentModel.DefaultValue(1)]
             public int included_game_count
             {
-                get => __pbn__included_game_count.GetValueOrDefault();
+                get => __pbn__included_game_count ?? 1;
                 set => __pbn__included_game_count = value;
             }
             public bool ShouldSerializeincluded_game_count() => __pbn__included_game_count != null;
@@ -1487,6 +1507,27 @@ namespace SteamKit2.Internal
                 public bool ShouldSerializerenewal_time_period() => __pbn__renewal_time_period != null;
                 public void Resetrenewal_time_period() => __pbn__renewal_time_period = null;
                 private int? __pbn__renewal_time_period;
+
+                [global::ProtoBuf.ProtoMember(5)]
+                public long renewal_price_in_cents
+                {
+                    get => __pbn__renewal_price_in_cents.GetValueOrDefault();
+                    set => __pbn__renewal_price_in_cents = value;
+                }
+                public bool ShouldSerializerenewal_price_in_cents() => __pbn__renewal_price_in_cents != null;
+                public void Resetrenewal_price_in_cents() => __pbn__renewal_price_in_cents = null;
+                private long? __pbn__renewal_price_in_cents;
+
+                [global::ProtoBuf.ProtoMember(6)]
+                [global::System.ComponentModel.DefaultValue("")]
+                public string formatted_renewal_price
+                {
+                    get => __pbn__formatted_renewal_price ?? "";
+                    set => __pbn__formatted_renewal_price = value;
+                }
+                public bool ShouldSerializeformatted_renewal_price() => __pbn__formatted_renewal_price != null;
+                public void Resetformatted_renewal_price() => __pbn__formatted_renewal_price = null;
+                private string __pbn__formatted_renewal_price;
 
             }
 
@@ -1742,6 +1783,48 @@ namespace SteamKit2.Internal
             public bool ShouldSerializeend_time() => __pbn__end_time != null;
             public void Resetend_time() => __pbn__end_time = null;
             private uint? __pbn__end_time;
+
+            [global::ProtoBuf.ProtoMember(3)]
+            [global::System.ComponentModel.DefaultValue("")]
+            public string text
+            {
+                get => __pbn__text ?? "";
+                set => __pbn__text = value;
+            }
+            public bool ShouldSerializetext() => __pbn__text != null;
+            public void Resettext() => __pbn__text = null;
+            private string __pbn__text;
+
+        }
+
+        [global::ProtoBuf.ProtoContract()]
+        public partial class Link : global::ProtoBuf.IExtensible
+        {
+            private global::ProtoBuf.IExtension __pbn__extensionData;
+            global::ProtoBuf.IExtension global::ProtoBuf.IExtensible.GetExtensionObject(bool createIfMissing)
+                => global::ProtoBuf.Extensible.GetExtensionObject(ref __pbn__extensionData, createIfMissing);
+
+            [global::ProtoBuf.ProtoMember(1)]
+            [global::System.ComponentModel.DefaultValue(EStoreLinkType.k_EStoreLinkType_None)]
+            public EStoreLinkType link_type
+            {
+                get => __pbn__link_type ?? EStoreLinkType.k_EStoreLinkType_None;
+                set => __pbn__link_type = value;
+            }
+            public bool ShouldSerializelink_type() => __pbn__link_type != null;
+            public void Resetlink_type() => __pbn__link_type = null;
+            private EStoreLinkType? __pbn__link_type;
+
+            [global::ProtoBuf.ProtoMember(2)]
+            [global::System.ComponentModel.DefaultValue("")]
+            public string url
+            {
+                get => __pbn__url ?? "";
+                set => __pbn__url = value;
+            }
+            public bool ShouldSerializeurl() => __pbn__url != null;
+            public void Reseturl() => __pbn__url = null;
+            private string __pbn__url;
 
             [global::ProtoBuf.ProtoMember(3)]
             [global::System.ComponentModel.DefaultValue("")]
@@ -2084,6 +2167,90 @@ namespace SteamKit2.Internal
             public bool ShouldSerializecomputed() => __pbn__computed != null;
             public void Resetcomputed() => __pbn__computed = null;
             private bool? __pbn__computed;
+
+        }
+
+    }
+
+    [global::ProtoBuf.ProtoContract()]
+    public partial class CStoreBrowse_GetPriceStops_Request : global::ProtoBuf.IExtensible
+    {
+        private global::ProtoBuf.IExtension __pbn__extensionData;
+        global::ProtoBuf.IExtension global::ProtoBuf.IExtensible.GetExtensionObject(bool createIfMissing)
+            => global::ProtoBuf.Extensible.GetExtensionObject(ref __pbn__extensionData, createIfMissing);
+
+        [global::ProtoBuf.ProtoMember(1)]
+        [global::System.ComponentModel.DefaultValue("")]
+        public string country_code
+        {
+            get => __pbn__country_code ?? "";
+            set => __pbn__country_code = value;
+        }
+        public bool ShouldSerializecountry_code() => __pbn__country_code != null;
+        public void Resetcountry_code() => __pbn__country_code = null;
+        private string __pbn__country_code;
+
+        [global::ProtoBuf.ProtoMember(2)]
+        [global::System.ComponentModel.DefaultValue("")]
+        public string currency_code
+        {
+            get => __pbn__currency_code ?? "";
+            set => __pbn__currency_code = value;
+        }
+        public bool ShouldSerializecurrency_code() => __pbn__currency_code != null;
+        public void Resetcurrency_code() => __pbn__currency_code = null;
+        private string __pbn__currency_code;
+
+    }
+
+    [global::ProtoBuf.ProtoContract()]
+    public partial class CStoreBrowse_GetPriceStops_Response : global::ProtoBuf.IExtensible
+    {
+        private global::ProtoBuf.IExtension __pbn__extensionData;
+        global::ProtoBuf.IExtension global::ProtoBuf.IExtensible.GetExtensionObject(bool createIfMissing)
+            => global::ProtoBuf.Extensible.GetExtensionObject(ref __pbn__extensionData, createIfMissing);
+
+        [global::ProtoBuf.ProtoMember(1)]
+        public global::System.Collections.Generic.List<PriceStop> price_stops { get; } = new global::System.Collections.Generic.List<PriceStop>();
+
+        [global::ProtoBuf.ProtoMember(2)]
+        [global::System.ComponentModel.DefaultValue("")]
+        public string currency_code
+        {
+            get => __pbn__currency_code ?? "";
+            set => __pbn__currency_code = value;
+        }
+        public bool ShouldSerializecurrency_code() => __pbn__currency_code != null;
+        public void Resetcurrency_code() => __pbn__currency_code = null;
+        private string __pbn__currency_code;
+
+        [global::ProtoBuf.ProtoContract()]
+        public partial class PriceStop : global::ProtoBuf.IExtensible
+        {
+            private global::ProtoBuf.IExtension __pbn__extensionData;
+            global::ProtoBuf.IExtension global::ProtoBuf.IExtensible.GetExtensionObject(bool createIfMissing)
+                => global::ProtoBuf.Extensible.GetExtensionObject(ref __pbn__extensionData, createIfMissing);
+
+            [global::ProtoBuf.ProtoMember(1)]
+            [global::System.ComponentModel.DefaultValue("")]
+            public string formatted_amount
+            {
+                get => __pbn__formatted_amount ?? "";
+                set => __pbn__formatted_amount = value;
+            }
+            public bool ShouldSerializeformatted_amount() => __pbn__formatted_amount != null;
+            public void Resetformatted_amount() => __pbn__formatted_amount = null;
+            private string __pbn__formatted_amount;
+
+            [global::ProtoBuf.ProtoMember(2)]
+            public long amount_in_cents
+            {
+                get => __pbn__amount_in_cents.GetValueOrDefault();
+                set => __pbn__amount_in_cents = value;
+            }
+            public bool ShouldSerializeamount_in_cents() => __pbn__amount_in_cents != null;
+            public void Resetamount_in_cents() => __pbn__amount_in_cents = null;
+            private long? __pbn__amount_in_cents;
 
         }
 
@@ -2576,6 +2743,32 @@ namespace SteamKit2.Internal
         k_EStoreBrowseFilterFailure_NotPreferred = 20,
         k_EStoreBrowseFilterFailure_NotInterested = 30,
         k_EStoreBrowseFilterFailure_UnwantedContent = 40,
+        k_EStoreBrowseFilterFailure_Unavailable = 50,
+    }
+
+    [global::ProtoBuf.ProtoContract()]
+    public enum EStoreLinkType
+    {
+        k_EStoreLinkType_None = 0,
+        k_EStoreLinkType_YouTube = 1,
+        k_EStoreLinkType_Facebook = 2,
+        k_EStoreLinkType_Twitter = 3,
+        k_EStoreLinkType_Twitch = 4,
+        k_EStoreLinkType_Discord = 5,
+        k_EStoreLinkType_QQ = 6,
+        k_EStoreLinkType_VK = 7,
+        k_EStoreLinkType_Bilibili = 8,
+        k_EStoreLinkType_Weibo = 9,
+        k_EStoreLinkType_Reddit = 10,
+        k_EStoreLinkType_Instagram = 11,
+        k_EStoreLinkType_Tumblr = 12,
+        k_EStoreLinkType_Tieba = 13,
+        k_EStoreLinkType_Tiktok = 14,
+        k_EStoreLinkType_Telegram = 15,
+        k_EStoreLinkType_LinkedIn = 16,
+        k_EStoreLinkType_WeChat = 17,
+        k_EStoreLinkType_QQLink = 18,
+        k_EStoreLinkType_MAX = 19,
     }
 
     [global::ProtoBuf.ProtoContract()]
@@ -2593,6 +2786,7 @@ namespace SteamKit2.Internal
     {
         CStoreBrowse_GetItems_Response GetItems(CStoreBrowse_GetItems_Request request);
         CStoreBrowse_GetStoreCategories_Response GetStoreCategories(CStoreBrowse_GetStoreCategories_Request request);
+        CStoreBrowse_GetPriceStops_Response GetPriceStops(CStoreBrowse_GetPriceStops_Request request);
         CStoreBrowse_GetDLCForApps_Response GetDLCForApps(CStoreBrowse_GetDLCForApps_Request request);
         CStoreBrowse_GetDLCForAppsSolr_Response GetDLCForAppsSolr(CStoreBrowse_GetDLCForAppsSolr_Request request);
         CStoreBrowse_GetHardwareItems_Response GetHardwareItems(CStoreBrowse_GetHardwareItems_Request request);

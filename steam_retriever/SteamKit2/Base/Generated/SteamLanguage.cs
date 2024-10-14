@@ -301,7 +301,6 @@ namespace SteamKit2
 		ClientGameConnectTokens = 779,
 		ClientLicenseList = 780,
 		ClientVACBanStatus = 782,
-		ClientCMList = 783,
 		ClientEncryptPct = 784,
 		ClientGetLegacyGameKeyResponse = 785,
 		ClientAddFriend = 791,
@@ -3386,6 +3385,17 @@ namespace SteamKit2
 		SteamChina = 7,
 		SingleApp = 8,
 		GameServer = 9,
+	}
+	public enum EUIMode
+	{
+		Unknown = -1,
+		VGUI = 0,
+		Tenfoot = 1,
+		Mobile = 2,
+		Web = 3,
+		ClientUI = 4,
+		MobileChat = 5,
+		EmbeddedClient = 6,
 	}
 	public enum EUdpPacketType : byte
 	{

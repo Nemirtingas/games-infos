@@ -6,7 +6,9 @@
 
 
 using System;
-using System.Collections.Generic;
+using System.Collections.Immutable;
+using System.Threading;
+using System.Threading.Tasks;
 using SteamKit2.Internal;
 
 namespace SteamKit2
@@ -20,7 +22,7 @@ namespace SteamKit2
     {
         SteamClient client;
 
-        List<CallbackBase> registeredCallbacks;
+        ImmutableList<CallbackBase> registeredCallbacks = [];
 
 
 
@@ -32,8 +34,6 @@ namespace SteamKit2
         {
             ArgumentNullException.ThrowIfNull( client );
 
-            registeredCallbacks = [];
-
             this.client = client;
         }
 
@@ -42,56 +42,75 @@ namespace SteamKit2
         /// Runs a single queued callback.
         /// If no callback is queued, this method will instantly return.
         /// </summary>
-        public void RunCallbacks()
+        /// <returns>Returns true if a callback has been run, false otherwise.</returns>
+        public bool RunCallbacks()
         {
-            var call = client.GetCallback( true );
+            var call = client.GetCallback();
 
             if ( call == null )
-                return;
+                return false;
 
             Handle( call );
+            return true;
         }
         /// <summary>
         /// Blocks the current thread to run a single queued callback.
-        /// If no callback is queued, the method will block for the given timeout.
+        /// If no callback is queued, the method will block for the given timeout or until a callback becomes available.
         /// </summary>
         /// <param name="timeout">The length of time to block.</param>
-        public void RunWaitCallbacks( TimeSpan timeout )
+        /// <returns>Returns true if a callback has been run, false otherwise.</returns>
+        public bool RunWaitCallbacks( TimeSpan timeout )
         {
-            var call = client.WaitForCallback( true, timeout );
+            var call = client.WaitForCallback( timeout );
 
             if ( call == null )
-                return;
+                return false;
 
             Handle( call );
+            return true;
         }
         /// <summary>
         /// Blocks the current thread to run all queued callbacks.
-        /// If no callback is queued, the method will block for the given timeout.
+        /// If no callback is queued, the method will block for the given timeout or until a callback becomes available.
+        /// This method returns once the queue has been emptied.
         /// </summary>
         /// <param name="timeout">The length of time to block.</param>
         public void RunWaitAllCallbacks( TimeSpan timeout )
         {
-            var calls = client.GetAllCallbacks( true, timeout );
-            foreach ( var call in calls )
+            if ( !RunWaitCallbacks( timeout ) )
             {
-                Handle( call );
+                return;
+            }
+
+            while ( RunCallbacks() )
+            {
+                //
             }
         }
         /// <summary>
         /// Blocks the current thread to run a single queued callback.
-        /// If no callback is queued, the method will block until one is posted.
+        /// If no callback is queued, the method will block until one becomes available.
         /// </summary>
         public void RunWaitCallbacks()
         {
-            RunWaitCallbacks( TimeSpan.FromMilliseconds( -1 ) );
+            var call = client.WaitForCallback();
+            Handle( call );
+        }
+        /// <summary>
+        /// Blocks the current thread to run a single queued callback.
+        /// If no callback is queued, the method will asynchronously await until one becomes available.
+        /// </summary>
+        public async Task RunWaitCallbackAsync( CancellationToken cancellationToken = default )
+        {
+            var call = await client.WaitForCallbackAsync( cancellationToken );
+            Handle( call );
         }
 
         /// <summary>
         /// Registers the provided <see cref="Action{T}"/> to receive callbacks of type <typeparamref name="TCallback" />.
         /// </summary>
         /// <param name="jobID">The <see cref="JobID"/> of the callbacks that should be subscribed to.
-        ///		If this is <see cref="JobID.Invalid"/>, all callbacks of type <typeparamref name="TCallback" /> will be recieved.</param>
+        ///		If this is <see cref="JobID.Invalid"/>, all callbacks of type <typeparamref name="TCallback" /> will be received.</param>
         /// <param name="callbackFunc">The function to invoke with the callback.</param>
         /// <typeparam name="TCallback">The type of callback to subscribe to.</typeparam>
         /// <returns>An <see cref="IDisposable"/>. Disposing of the return value will unsubscribe the <paramref name="callbackFunc"/>.</returns>
@@ -120,23 +139,24 @@ namespace SteamKit2
         }
 
         void ICallbackMgrInternals.Register( CallbackBase call )
-        {
-            if ( registeredCallbacks.Contains( call ) )
-                return;
+            => ImmutableInterlocked.Update( ref registeredCallbacks, static ( list, item ) => list.Add( item ), call );
 
-            registeredCallbacks.Add( call );
-        }
+        void ICallbackMgrInternals.Unregister( CallbackBase call )
+            => ImmutableInterlocked.Update( ref registeredCallbacks, static ( list, item ) => list.Remove( item ), call );
 
         void Handle( ICallbackMsg call )
         {
-            registeredCallbacks
-                .FindAll( callback => callback.CallbackType.IsAssignableFrom( call.GetType() ) ) // find handlers interested in this callback
-                .ForEach( callback => callback.Run( call ) ); // run them
-        }
+            var callbacks = registeredCallbacks;
+            var type = call.GetType();
 
-        void ICallbackMgrInternals.Unregister( CallbackBase call )
-        {
-            registeredCallbacks.Remove( call );
+            // find handlers interested in this callback
+            foreach ( var callback in callbacks )
+            {
+                if ( callback.CallbackType.IsAssignableFrom( type ) )
+                {
+                    callback.Run( call );
+                }
+            }
         }
 
         sealed class Subscription : IDisposable

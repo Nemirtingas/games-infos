@@ -1,4 +1,5 @@
 using System;
+using System.Buffers;
 using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.IO;
@@ -111,7 +112,7 @@ namespace steam_retriever
             IEnumerable<uint> licenseQuery;
             if (steam3.steamUser.SteamID.AccountType == EAccountType.AnonUser)
             {
-                licenseQuery = new List<uint> { 17906 };
+                licenseQuery = [17906];
             }
             else
             {
@@ -244,7 +245,7 @@ namespace steam_retriever
                         byte[] manifest_bytes;
                         try
                         {
-                            manifest_bytes = CryptoHelper.SymmetricDecryptECB(input, appBetaPassword);
+                            manifest_bytes = Util.SymmetricDecryptECB(input, appBetaPassword);
                         }
                         catch (Exception e)
                         {
@@ -629,6 +630,7 @@ namespace steam_retriever
 
         private class GlobalDownloadCounter
         {
+            public ulong CompleteDownloadSize;
             public ulong TotalBytesCompressed;
             public ulong TotalBytesUncompressed;
         }
@@ -643,6 +645,8 @@ namespace steam_retriever
 
         private static async Task DownloadSteam3Async(List<DepotDownloadInfo> depots)
         {
+            Ansi.Progress(Ansi.ProgressState.Indeterminate);
+
             var cts = new CancellationTokenSource();
             cdnPool.ExhaustedToken = cts;
 
@@ -653,7 +657,7 @@ namespace steam_retriever
             // First, fetch all the manifests for each depot (including previous manifests) and perform the initial setup
             foreach (var depot in depots)
             {
-                var depotFileData = await ProcessDepotManifestAndFiles(cts, depot);
+                var depotFileData = await ProcessDepotManifestAndFiles(cts, depot, downloadCounter);
 
                 if (depotFileData != null)
                 {
@@ -684,91 +688,10 @@ namespace steam_retriever
                 await DownloadSteam3AsyncDepotFiles(cts, downloadCounter, depotFileData, allFileNamesAllDepots);
             }
 
-            //Program.Instance._logger.InfoFormat("Total downloaded: {0} bytes ({1} bytes uncompressed) from {2} depots",
-            //    downloadCounter.TotalBytesCompressed, downloadCounter.TotalBytesUncompressed, depots.Count);
+            Ansi.Progress(Ansi.ProgressState.Hidden);
         }
 
-        public static async Task<DepotManifest> DownloadManifestAsync(uint appId, uint depotId, ulong manifestId, byte[] depotKey, string branch, CancellationTokenSource cts)
-        {
-            Server connection = null;
-            DepotManifest depotManifest = null;
-            ulong manifestRequestCode = 0;
-            var manifestRequestCodeExpiration = DateTime.MinValue;
-
-            try
-            {
-                connection = cdnPool.GetConnection(cts.Token);
-
-                var now = DateTime.Now;
-
-                // In order to download this manifest, we need the current manifest request code
-                // The manifest request code is only valid for a specific period in time
-                if (manifestRequestCode == 0 || now >= manifestRequestCodeExpiration)
-                {
-                    manifestRequestCode = await steam3.GetDepotManifestRequestCodeAsync(
-                        depotId,
-                        appId,
-                        manifestId,
-                        branch);
-                    // This code will hopefully be valid for one period following the issuing period
-                    manifestRequestCodeExpiration = now.Add(TimeSpan.FromMinutes(5));
-
-                    // If we could not get the manifest code, this is a fatal error
-                    if (manifestRequestCode == 0)
-                    {
-                        //Program.Instance._logger.ErrorFormat("No manifest request code was returned for {0} {1}", depotId, manifestId);
-                        cts.Cancel();
-                    }
-                }
-
-                DebugLog.WriteLine("ContentDownloader",
-                    "Downloading manifest {0} from {1} with {2}",
-                    manifestId,
-                    connection,
-                    cdnPool.ProxyServer != null ? cdnPool.ProxyServer : "no proxy");
-                depotManifest = await cdnPool.CDNClient.DownloadManifestAsync(
-                    depotId,
-                    manifestId,
-                    manifestRequestCode,
-                    connection,
-                    depotKey,
-                    cdnPool.ProxyServer).ConfigureAwait(false);
-
-                cdnPool.ReturnConnection(connection);
-            }
-            catch (TaskCanceledException)
-            {
-                //Program.Instance._logger.ErrorFormat("Connection timeout downloading depot manifest {0} {1}. Retrying.", depotId, manifestId);
-            }
-            catch (SteamKitWebRequestException e)
-            {
-                cdnPool.ReturnBrokenConnection(connection);
-
-                if (e.StatusCode == HttpStatusCode.Unauthorized || e.StatusCode == HttpStatusCode.Forbidden)
-                {
-                    //Program.Instance._logger.ErrorFormat("Encountered 401 for depot manifest {0} {1}. Aborting.", depotId, manifestId);
-                }
-
-                if (e.StatusCode == HttpStatusCode.NotFound)
-                {
-                    //Program.Instance._logger.ErrorFormat("Encountered 404 for depot manifest {0} {1}. Aborting.", depotId, manifestId);
-                }
-
-                //Program.Instance._logger.ErrorFormat("Encountered error downloading depot manifest {0} {1}: {2}", depotId, manifestId, e.StatusCode);
-            }
-            catch (OperationCanceledException)
-            {
-            }
-            catch (Exception e)
-            {
-                cdnPool.ReturnBrokenConnection(connection);
-                //Program.Instance._logger.ErrorFormat("Encountered error downloading manifest for depot {0} {1}: {2}", depotId, manifestId, e.Message);
-            }
-
-            return depotManifest;
-        }
-
-        private static async Task<DepotFilesData> ProcessDepotManifestAndFiles(CancellationTokenSource cts, DepotDownloadInfo depot)
+        private static async Task<DepotFilesData> ProcessDepotManifestAndFiles(CancellationTokenSource cts, DepotDownloadInfo depot, GlobalDownloadCounter downloadCounter)
         {
             var depotCounter = new DepotDownloadCounter();
 
@@ -853,13 +776,107 @@ namespace steam_retriever
                 else
                 {
                     //Program.Instance._logger.InfoFormat("Downloading depot manifest...");
-                    var depotManifest = default(DepotManifest);
+
+                    DepotManifest depotManifest = null;
+                    ulong manifestRequestCode = 0;
+                    var manifestRequestCodeExpiration = DateTime.MinValue;
 
                     do
                     {
                         cts.Token.ThrowIfCancellationRequested();
 
-                        depotManifest = await DownloadManifestAsync(depot.AppId, depot.DepotId, depot.ManifestId, depot.DepotKey, depot.Branch, cts);
+                        Server connection = null;
+
+                        try
+                        {
+                            connection = cdnPool.GetConnection(cts.Token);
+
+                            string cdnToken = null;
+                            if (steam3.CDNAuthTokens.TryGetValue((depot.DepotId, connection.Host), out var authTokenCallbackPromise))
+                            {
+                                var result = await authTokenCallbackPromise.Task;
+                                cdnToken = result.Token;
+                            }
+
+                            var now = DateTime.Now;
+
+                            // In order to download this manifest, we need the current manifest request code
+                            // The manifest request code is only valid for a specific period in time
+                            if (manifestRequestCode == 0 || now >= manifestRequestCodeExpiration)
+                            {
+                                manifestRequestCode = await steam3.GetDepotManifestRequestCodeAsync(
+                                    depot.DepotId,
+                                    depot.AppId,
+                                    depot.ManifestId,
+                                    depot.Branch);
+                                // This code will hopefully be valid for one period following the issuing period
+                                manifestRequestCodeExpiration = now.Add(TimeSpan.FromMinutes(5));
+
+                                // If we could not get the manifest code, this is a fatal error
+                                if (manifestRequestCode == 0)
+                                {
+                                    Console.WriteLine("No manifest request code was returned for {0} {1}", depot.DepotId, depot.ManifestId);
+                                    cts.Cancel();
+                                }
+                            }
+
+                            DebugLog.WriteLine("ContentDownloader",
+                                "Downloading manifest {0} from {1} with {2}",
+                                depot.ManifestId,
+                                connection,
+                                cdnPool.ProxyServer != null ? cdnPool.ProxyServer : "no proxy");
+                            depotManifest = await cdnPool.CDNClient.DownloadManifestAsync(
+                                depot.DepotId,
+                                depot.ManifestId,
+                                manifestRequestCode,
+                                connection,
+                                depot.DepotKey,
+                                cdnPool.ProxyServer,
+                                cdnToken).ConfigureAwait(false);
+
+                            cdnPool.ReturnConnection(connection);
+                        }
+                        catch (TaskCanceledException)
+                        {
+                            Console.WriteLine("Connection timeout downloading depot manifest {0} {1}. Retrying.", depot.DepotId, depot.ManifestId);
+                        }
+                        catch (SteamKitWebRequestException e)
+                        {
+                            // If the CDN returned 403, attempt to get a cdn auth if we didn't yet
+                            if (e.StatusCode == HttpStatusCode.Forbidden && !steam3.CDNAuthTokens.ContainsKey((depot.DepotId, connection.Host)))
+                            {
+                                await steam3.RequestCDNAuthToken(depot.AppId, depot.DepotId, connection);
+
+                                cdnPool.ReturnConnection(connection);
+
+                                continue;
+                            }
+
+                            cdnPool.ReturnBrokenConnection(connection);
+
+                            if (e.StatusCode == HttpStatusCode.Unauthorized || e.StatusCode == HttpStatusCode.Forbidden)
+                            {
+                                Console.WriteLine("Encountered {2} for depot manifest {0} {1}. Aborting.", depot.DepotId, depot.ManifestId, (int)e.StatusCode);
+                                break;
+                            }
+
+                            if (e.StatusCode == HttpStatusCode.NotFound)
+                            {
+                                Console.WriteLine("Encountered 404 for depot manifest {0} {1}. Aborting.", depot.DepotId, depot.ManifestId);
+                                break;
+                            }
+
+                            Console.WriteLine("Encountered error downloading depot manifest {0} {1}: {2}", depot.DepotId, depot.ManifestId, e.StatusCode);
+                        }
+                        catch (OperationCanceledException)
+                        {
+                            break;
+                        }
+                        catch (Exception e)
+                        {
+                            cdnPool.ReturnBrokenConnection(connection);
+                            Console.WriteLine("Encountered error downloading manifest for depot {0} {1}: {2}", depot.DepotId, depot.ManifestId, e.Message);
+                        }
                     } while (depotManifest == null);
 
                     if (depotManifest == null)
@@ -914,6 +931,7 @@ namespace steam_retriever
                     Directory.CreateDirectory(Path.GetDirectoryName(fileFinalPath));
                     Directory.CreateDirectory(Path.GetDirectoryName(fileStagingPath));
 
+                    downloadCounter.CompleteDownloadSize += file.TotalSize;
                     depotCounter.CompleteDownloadSize += file.TotalSize;
                 }
             });
@@ -943,7 +961,7 @@ namespace steam_retriever
 
             await Util.InvokeAsync(
                 files.Select(file => new Func<Task>(async () =>
-                    await Task.Run(() => DownloadSteam3AsyncDepotFile(cts, depotFilesData, file, networkChunkQueue)))),
+                    await Task.Run(() => DownloadSteam3AsyncDepotFile(cts, downloadCounter, depotFilesData, file, networkChunkQueue)))),
                 maxDegreeOfParallelism: Config.MaxDownloads
             );
 
@@ -991,6 +1009,7 @@ namespace steam_retriever
 
         private static void DownloadSteam3AsyncDepotFile(
             CancellationTokenSource cts,
+            GlobalDownloadCounter downloadCounter,
             DepotFilesData depotFilesData,
             ProtoManifest.FileData file,
             ConcurrentQueue<(FileStreamData, ProtoManifest.FileData, ProtoManifest.ChunkData)> networkChunkQueue)
@@ -1077,10 +1096,7 @@ namespace steam_retriever
                             {
                                 fsOld.Seek((long)match.OldChunk.Offset, SeekOrigin.Begin);
 
-                                var tmp = new byte[match.OldChunk.UncompressedLength];
-                                fsOld.Read(tmp, 0, tmp.Length);
-
-                                var adler = Util.AdlerHash(tmp);
+                                var adler = Util.AdlerHash(fsOld, (int)match.OldChunk.UncompressedLength);
                                 if (!adler.SequenceEqual(match.OldChunk.Checksum))
                                 {
                                     neededChunks.Add(match.NewChunk);
@@ -1145,7 +1161,7 @@ namespace steam_retriever
                     neededChunks = Util.ValidateSteam3FileChecksums(fs, [.. file.Chunks.OrderBy(x => x.Offset)]);
                 }
 
-                if (neededChunks.Count() == 0)
+                if (neededChunks.Count == 0)
                 {
                     lock (depotDownloadCounter)
                     {
@@ -1154,6 +1170,10 @@ namespace steam_retriever
                     }
 
                     UGCFilesDownloaded[depot.ManifestId] = new UGCFileInfo(file.FileName, fileFinalPath);
+                    lock (downloadCounter)
+                    {
+                        downloadCounter.CompleteDownloadSize -= file.TotalSize;
+                    }
 
                     return;
                 }
@@ -1162,6 +1182,11 @@ namespace steam_retriever
                 lock (depotDownloadCounter)
                 {
                     depotDownloadCounter.SizeDownloaded += sizeOnDisk;
+                }
+
+                lock (downloadCounter)
+                {
+                    downloadCounter.CompleteDownloadSize -= sizeOnDisk;
                 }
             }
 
@@ -1201,91 +1226,122 @@ namespace steam_retriever
             var depot = depotFilesData.depotDownloadInfo;
             var depotDownloadCounter = depotFilesData.depotCounter;
 
-            var chunkID = Util.EncodeHexString(chunk.ChunkID);
+            var chunkID = Convert.ToHexString(chunk.ChunkID).ToLowerInvariant();
 
             var data = new DepotManifest.ChunkData
             {
                 ChunkID = chunk.ChunkID,
-                Checksum = chunk.Checksum,
+                Checksum = BitConverter.ToUInt32(chunk.Checksum),
                 Offset = chunk.Offset,
                 CompressedLength = chunk.CompressedLength,
                 UncompressedLength = chunk.UncompressedLength
             };
 
-            DepotChunk chunkData = null;
-
-            do
-            {
-                cts.Token.ThrowIfCancellationRequested();
-
-                Server connection = null;
-
-                try
-                {
-                    connection = cdnPool.GetConnection(cts.Token);
-
-                    DebugLog.WriteLine("ContentDownloader", "Downloading chunk {0} from {1} with {2}", chunkID, connection, cdnPool.ProxyServer != null ? cdnPool.ProxyServer : "no proxy");
-                    chunkData = await cdnPool.CDNClient.DownloadDepotChunkAsync(
-                        depot.DepotId,
-                        data,
-                        connection,
-                        depot.DepotKey,
-                        cdnPool.ProxyServer).ConfigureAwait(false);
-
-                    cdnPool.ReturnConnection(connection);
-                }
-                catch (TaskCanceledException)
-                {
-                    //Program.Instance._logger.ErrorFormat("Connection timeout downloading chunk {0}", chunkID);
-                }
-                catch (SteamKitWebRequestException e)
-                {
-                    cdnPool.ReturnBrokenConnection(connection);
-
-                    if (e.StatusCode == HttpStatusCode.Unauthorized || e.StatusCode == HttpStatusCode.Forbidden)
-                    {
-                        //Program.Instance._logger.ErrorFormat("Encountered 401 for chunk {0}. Aborting.", chunkID);
-                        break;
-                    }
-
-                    //Program.Instance._logger.ErrorFormat("Encountered error downloading chunk {0}: {1}", chunkID, e.StatusCode);
-                }
-                catch (OperationCanceledException)
-                {
-                    break;
-                }
-                catch (Exception e)
-                {
-                    cdnPool.ReturnBrokenConnection(connection);
-                    //Program.Instance._logger.ErrorFormat("Encountered unexpected error downloading chunk {0}: {1}", chunkID, e.Message);
-                }
-            } while (chunkData == null);
-
-            if (chunkData == null)
-            {
-                //Program.Instance._logger.ErrorFormat("Failed to find any server with chunk {0} for depot {1}. Aborting.", chunkID, depot.id);
-                cts.Cancel();
-            }
-
-            // Throw the cancellation exception if requested so that this task is marked failed
-            cts.Token.ThrowIfCancellationRequested();
+            var written = 0;
+            var chunkBuffer = ArrayPool<byte>.Shared.Rent((int)data.UncompressedLength);
 
             try
             {
-                await fileStreamData.fileLock.WaitAsync().ConfigureAwait(false);
-
-                if (fileStreamData.fileStream == null)
+                do
                 {
-                    var fileFinalPath = Path.Combine(depot.InstallDir, file.FileName);
-                    fileStreamData.fileStream = File.Open(fileFinalPath, FileMode.Open);
+                    cts.Token.ThrowIfCancellationRequested();
+
+                    Server connection = null;
+
+                    try
+                    {
+                        connection = cdnPool.GetConnection(cts.Token);
+
+                        string cdnToken = null;
+                        if (steam3.CDNAuthTokens.TryGetValue((depot.DepotId, connection.Host), out var authTokenCallbackPromise))
+                        {
+                            var result = await authTokenCallbackPromise.Task;
+                            cdnToken = result.Token;
+                        }
+
+                        DebugLog.WriteLine("ContentDownloader", "Downloading chunk {0} from {1} with {2}", chunkID, connection, cdnPool.ProxyServer != null ? cdnPool.ProxyServer : "no proxy");
+                        written = await cdnPool.CDNClient.DownloadDepotChunkAsync(
+                            depot.DepotId,
+                            data,
+                            connection,
+                            chunkBuffer,
+                            depot.DepotKey,
+                            cdnPool.ProxyServer,
+                            cdnToken).ConfigureAwait(false);
+
+                        cdnPool.ReturnConnection(connection);
+
+                        break;
+                    }
+                    catch (TaskCanceledException)
+                    {
+                        Console.WriteLine("Connection timeout downloading chunk {0}", chunkID);
+                    }
+                    catch (SteamKitWebRequestException e)
+                    {
+                        // If the CDN returned 403, attempt to get a cdn auth if we didn't yet,
+                        // if auth task already exists, make sure it didn't complete yet, so that it gets awaited above
+                        if (e.StatusCode == HttpStatusCode.Forbidden &&
+                            (!steam3.CDNAuthTokens.TryGetValue((depot.DepotId, connection.Host), out var authTokenCallbackPromise) || !authTokenCallbackPromise.Task.IsCompleted))
+                        {
+                            await steam3.RequestCDNAuthToken(depot.AppId, depot.DepotId, connection);
+
+                            cdnPool.ReturnConnection(connection);
+
+                            continue;
+                        }
+
+                        cdnPool.ReturnBrokenConnection(connection);
+
+                        if (e.StatusCode == HttpStatusCode.Unauthorized || e.StatusCode == HttpStatusCode.Forbidden)
+                        {
+                            Console.WriteLine("Encountered {1} for chunk {0}. Aborting.", chunkID, (int)e.StatusCode);
+                            break;
+                        }
+
+                        Console.WriteLine("Encountered error downloading chunk {0}: {1}", chunkID, e.StatusCode);
+                    }
+                    catch (OperationCanceledException)
+                    {
+                        break;
+                    }
+                    catch (Exception e)
+                    {
+                        cdnPool.ReturnBrokenConnection(connection);
+                        Console.WriteLine("Encountered unexpected error downloading chunk {0}: {1}", chunkID, e.Message);
+                    }
+                } while (written == 0);
+
+                if (written == 0)
+                {
+                    Console.WriteLine("Failed to find any server with chunk {0} for depot {1}. Aborting.", chunkID, depot.DepotId);
+                    cts.Cancel();
                 }
 
-                fileStreamData.fileStream.Seek((long)chunkData.ChunkInfo.Offset, SeekOrigin.Begin);
-                await fileStreamData.fileStream.WriteAsync(chunkData.Data.AsMemory(0, chunkData.Data.Length), cts.Token);
+                // Throw the cancellation exception if requested so that this task is marked failed
+                cts.Token.ThrowIfCancellationRequested();
+
+                try
+                {
+                    await fileStreamData.fileLock.WaitAsync().ConfigureAwait(false);
+
+                    if (fileStreamData.fileStream == null)
+                    {
+                        var fileFinalPath = Path.Combine(depot.InstallDir, file.FileName);
+                        fileStreamData.fileStream = File.Open(fileFinalPath, FileMode.Open);
+                    }
+
+                    fileStreamData.fileStream.Seek((long)data.Offset, SeekOrigin.Begin);
+                    await fileStreamData.fileStream.WriteAsync(chunkBuffer.AsMemory(0, written), cts.Token);
+                }
+                finally
+                {
+                    fileStreamData.fileLock.Release();
+                }
             }
             finally
             {
-                fileStreamData.fileLock.Release();
+                ArrayPool<byte>.Shared.Return(chunkBuffer);
             }
 
             var remainingChunks = Interlocked.Decrement(ref fileStreamData.chunksToDownload);
@@ -1298,7 +1354,7 @@ namespace steam_retriever
             ulong sizeDownloaded = 0;
             lock (depotDownloadCounter)
             {
-                sizeDownloaded = depotDownloadCounter.SizeDownloaded + (ulong)chunkData.Data.Length;
+                sizeDownloaded = depotDownloadCounter.SizeDownloaded + (ulong)written;
                 depotDownloadCounter.SizeDownloaded = sizeDownloaded;
                 depotDownloadCounter.DepotBytesCompressed += chunk.CompressedLength;
                 depotDownloadCounter.DepotBytesUncompressed += chunk.UncompressedLength;
@@ -1308,6 +1364,8 @@ namespace steam_retriever
             {
                 downloadCounter.TotalBytesCompressed += chunk.CompressedLength;
                 downloadCounter.TotalBytesUncompressed += chunk.UncompressedLength;
+
+                Ansi.Progress(downloadCounter.TotalBytesUncompressed, downloadCounter.CompleteDownloadSize);
             }
 
             if (remainingChunks == 0)

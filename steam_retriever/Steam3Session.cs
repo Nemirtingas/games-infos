@@ -1,13 +1,14 @@
-using System.Collections.Generic;
 using System;
+using System.Collections.Concurrent;
+using System.Collections.Generic;
 using System.Collections.ObjectModel;
-using log4net.Repository.Hierarchy;
 using System.Linq;
-using System.Threading.Tasks;
 using System.Threading;
+using System.Threading.Tasks;
 using QRCoder;
 using SteamKit2;
 using SteamKit2.Authentication;
+using SteamKit2.CDN;
 using SteamKit2.Internal;
 
 namespace steam_retriever
@@ -25,6 +26,7 @@ namespace steam_retriever
         internal Dictionary<uint, ulong> AppTokens { get; } = [];
         internal Dictionary<uint, ulong> PackageTokens { get; } = [];
         internal Dictionary<uint, byte[]> DepotKeys { get; } = [];
+        internal ConcurrentDictionary<(uint, string), TaskCompletionSource<SteamContent.CDNAuthToken>> CDNAuthTokens { get; } = [];
         internal Dictionary<uint, SteamApps.PICSProductInfoCallback.PICSProductInfo> AppInfo { get; } = [];
         internal Dictionary<uint, SteamApps.PICSProductInfoCallback.PICSProductInfo> PackageInfo { get; } = [];
         internal Dictionary<string, byte[]> AppBetaPasswords { get; } = [];
@@ -277,7 +279,7 @@ namespace steam_retriever
         internal async Task RequestPackageInfo(IEnumerable<uint> packageIds)
         {
             var packages = packageIds.ToList();
-            packages.RemoveAll(pid => PackageInfo.ContainsKey(pid));
+            packages.RemoveAll(PackageInfo.ContainsKey);
 
             if (packages.Count == 0 || bAborted)
                 return;
@@ -296,17 +298,17 @@ namespace steam_retriever
                 packageRequests.Add(request);
             }
 
-            var jobs = await steamApps.PICSGetProductInfo(new List<SteamApps.PICSRequest>(), packageRequests);
+            var packageInfoMultiple = await steamApps.PICSGetProductInfo([], packageRequests);
 
-            foreach (var job in jobs.Results)
+            foreach (var packageInfo in packageInfoMultiple.Results)
             {
-                foreach (var package_value in job.Packages)
+                foreach (var package_value in packageInfo.Packages)
                 {
                     var package = package_value.Value;
                     PackageInfo[package.ID] = package;
                 }
 
-                foreach (var package in job.UnknownPackages)
+                foreach (var package in packageInfo.UnknownPackages)
                 {
                     PackageInfo[package] = null;
                 }
@@ -315,7 +317,9 @@ namespace steam_retriever
 
         internal async Task<bool> RequestFreeAppLicense(uint appId)
         {
-            return (await steamApps.RequestFreeLicense(appId)).GrantedApps.Contains(appId);
+            var resultInfo = await steamApps.RequestFreeLicense(appId);
+
+            return resultInfo.GrantedApps.Contains(appId);
         }
 
         internal async Task<EResult> RequestDepotKeyAsync(uint depotId, uint appid = 0)
@@ -351,13 +355,37 @@ namespace steam_retriever
             return requestCode;
         }
 
+        internal async Task RequestCDNAuthToken(uint appid, uint depotid, Server server)
+        {
+            var cdnKey = (depotid, server.Host);
+            var completion = new TaskCompletionSource<SteamContent.CDNAuthToken>();
+
+            if (bAborted || !CDNAuthTokens.TryAdd(cdnKey, completion))
+            {
+                return;
+            }
+
+            DebugLog.WriteLine(nameof(Steam3Session), $"Requesting CDN auth token for {server.Host}");
+
+            var cdnAuth = await steamContent.GetCDNAuthToken(appid, depotid, server.Host);
+
+            Console.WriteLine($"Got CDN auth token for {server.Host} result: {cdnAuth.Result} (expires {cdnAuth.Expiration})");
+
+            if (cdnAuth.Result != EResult.OK)
+            {
+                return;
+            }
+
+            completion.TrySetResult(cdnAuth);
+        }
+
         internal async Task CheckAppBetaPassword(uint appid, string password)
         {
-            var job = await steamApps.CheckAppBetaPassword(appid, password);
+            var appPassword = await steamApps.CheckAppBetaPassword(appid, password);
 
-            //Console.WriteLine("Retrieved {0} beta keys with result: {1}", job.BetaPasswords.Count, job.Result);
+            //Console.WriteLine("Retrieved {0} beta keys with result: {1}", appPassword.BetaPasswords.Count, appPassword.Result);
 
-            foreach (var entry in job.BetaPasswords)
+            foreach (var entry in appPassword.BetaPasswords)
             {
                 AppBetaPasswords[entry.Key] = entry.Value;
             }
@@ -374,34 +402,25 @@ namespace steam_retriever
             var job = await steamPublishedFile.SendMessage(api => api.GetDetails(pubFileRequest));
 
             if (job.Result != EResult.OK)
-            {
                 throw new Exception($"EResult {(int)job.Result} ({job.Result}) while retrieving file details for pubfile {pubFile}.");
-            }
 
             return job.GetDeserializedResponse<CPublishedFile_GetDetails_Response>().publishedfiledetails.FirstOrDefault();
         }
 
-
         internal async Task<SteamCloud.UGCDetailsCallback> GetUGCDetails(UGCHandle ugcHandle)
         {
-            SteamCloud.UGCDetailsCallback details;
+            var callback = await steamCloud.RequestUGCDetails(ugcHandle);
 
-            var job = await steamCloud.RequestUGCDetails(ugcHandle);
-
-            if (job.Result == EResult.OK)
+            if (callback.Result == EResult.OK)
             {
-                details = job;
+                return callback;
             }
-            else if (job.Result == EResult.FileNotFound)
+            else if (callback.Result == EResult.FileNotFound)
             {
-                details = null;
-            }
-            else
-            {
-                throw new Exception($"EResult {(int)job.Result} ({job.Result}) while retrieving UGC details for {ugcHandle}.");
+                return null;
             }
 
-            return details;
+            throw new Exception($"EResult {(int)callback.Result} ({callback.Result}) while retrieving UGC details for {ugcHandle}.");
         }
 
         private void ResetConnectionFlags()
@@ -444,6 +463,8 @@ namespace steam_retriever
             bConnecting = false;
             bIsConnectionRecovery = false;
             steamClient.Disconnect();
+
+            Ansi.Progress(Ansi.ProgressState.Hidden);
 
             // flush callbacks until our disconnected event
             while (!bDidDisconnect)
@@ -620,6 +641,8 @@ namespace steam_retriever
             }
             else if (!bAborted)
             {
+                connectionBackoff += 1;
+
                 if (bConnecting)
                 {
                     Program.Instance._logger.Warn("Connection to Steam failed. Trying again");
@@ -629,7 +652,7 @@ namespace steam_retriever
                     Program.Instance._logger.Warn("Lost connection to Steam. Reconnecting");
                 }
 
-                Thread.Sleep(1000 * ++connectionBackoff);
+                Thread.Sleep(1000 * connectionBackoff);
 
                 // Any connection related flags need to be reset here to match the state after Connect
                 ResetConnectionFlags();

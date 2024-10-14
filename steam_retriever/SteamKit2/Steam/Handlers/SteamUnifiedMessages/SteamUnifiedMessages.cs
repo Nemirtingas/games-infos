@@ -122,18 +122,6 @@ namespace SteamKit2
             }
         }
 
-
-        Dictionary<EMsg, Action<IPacketMsg>> dispatchMap;
-
-        internal SteamUnifiedMessages()
-        {
-            dispatchMap = new Dictionary<EMsg, Action<IPacketMsg>>
-            {
-                { EMsg.ServiceMethodResponse, HandleServiceMethodResponse },
-                { EMsg.ServiceMethod, HandleServiceMethod },
-            };
-        }
-
         /// <summary>
         /// Sends a message.
         /// Results are returned in a <see cref="ServiceMethodResponse"/>.
@@ -201,15 +189,16 @@ namespace SteamKit2
         /// <param name="packetMsg">The packet message that contains the data.</param>
         public override void HandleMsg( IPacketMsg packetMsg )
         {
-            ArgumentNullException.ThrowIfNull( packetMsg );
-
-            if ( !dispatchMap.TryGetValue( packetMsg.MsgType, out var handlerFunc ) )
+            switch ( packetMsg.MsgType )
             {
-                // ignore messages that we don't have a handler function for
-                return;
-            }
+                case EMsg.ServiceMethodResponse:
+                    HandleServiceMethodResponse( packetMsg );
+                    break;
 
-            handlerFunc( packetMsg );
+                case EMsg.ServiceMethod:
+                    HandleServiceMethod( packetMsg );
+                    break;
+            }
         }
 
 
@@ -232,27 +221,35 @@ namespace SteamKit2
                 throw new InvalidDataException( "Packet message is expected to be protobuf." );
             }
 
-            var jobName = packetMsgProto.Header.Proto.target_job_name;
-            if ( !string.IsNullOrEmpty( jobName ) )
+            var jobNameStr = packetMsgProto.Header.Proto.target_job_name;
+            if ( string.IsNullOrEmpty( jobNameStr ) )
             {
-                var splitByDot = jobName.Split( '.' );
-                var splitByHash = splitByDot[ 1 ].Split( '#' );
+                return;
+            }
 
-                var serviceName = splitByDot[ 0 ];
-                var methodName = splitByHash[ 0 ];
+            // format: Service.Method#Version
+            var jobName = jobNameStr.AsSpan();
+            var dot = jobName.IndexOf( '.' );
+            var hash = jobName.LastIndexOf( '#' );
+            if ( dot < 0 || hash < 0 )
+            {
+                return;
+            }
 
-                var serviceInterfaceName = "SteamKit2.Internal.I" + serviceName;
-                var serviceInterfaceType = Type.GetType( serviceInterfaceName );
-                if ( serviceInterfaceType != null )
+            var serviceName = jobName[ ..dot ].ToString();
+            var methodName = jobName[ ( dot + 1 )..hash ].ToString();
+
+            var serviceInterfaceName = "SteamKit2.Internal.I" + serviceName;
+            var serviceInterfaceType = Type.GetType( serviceInterfaceName );
+            if ( serviceInterfaceType != null )
+            {
+                var method = serviceInterfaceType.GetMethod( methodName );
+                if ( method != null )
                 {
-                    var method = serviceInterfaceType.GetMethod( methodName );
-                    if ( method != null )
-                    {
-                        var argumentType = method.GetParameters().Single().ParameterType;
+                    var argumentType = method.GetParameters().Single().ParameterType;
 
-                        var callback = new ServiceMethodNotification( argumentType, packetMsg );
-                        Client.PostCallback( callback );
-                    }
+                    var callback = new ServiceMethodNotification( argumentType, packetMsg );
+                    Client.PostCallback( callback );
                 }
             }
         }

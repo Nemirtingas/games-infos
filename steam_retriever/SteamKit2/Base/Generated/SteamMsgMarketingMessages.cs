@@ -1111,6 +1111,37 @@ namespace SteamKit2.Internal
     }
 
     [global::ProtoBuf.ProtoContract()]
+    public partial class CMarketingMessage_GetMarketingMessagesForPartner_Request : global::ProtoBuf.IExtensible
+    {
+        private global::ProtoBuf.IExtension __pbn__extensionData;
+        global::ProtoBuf.IExtension global::ProtoBuf.IExtensible.GetExtensionObject(bool createIfMissing)
+            => global::ProtoBuf.Extensible.GetExtensionObject(ref __pbn__extensionData, createIfMissing);
+
+        [global::ProtoBuf.ProtoMember(1)]
+        public uint partnerid
+        {
+            get => __pbn__partnerid.GetValueOrDefault();
+            set => __pbn__partnerid = value;
+        }
+        public bool ShouldSerializepartnerid() => __pbn__partnerid != null;
+        public void Resetpartnerid() => __pbn__partnerid = null;
+        private uint? __pbn__partnerid;
+
+    }
+
+    [global::ProtoBuf.ProtoContract()]
+    public partial class CMarketingMessage_GetMarketingMessagesForPartner_Response : global::ProtoBuf.IExtensible
+    {
+        private global::ProtoBuf.IExtension __pbn__extensionData;
+        global::ProtoBuf.IExtension global::ProtoBuf.IExtensible.GetExtensionObject(bool createIfMissing)
+            => global::ProtoBuf.Extensible.GetExtensionObject(ref __pbn__extensionData, createIfMissing);
+
+        [global::ProtoBuf.ProtoMember(1)]
+        public global::System.Collections.Generic.List<CMarketingMessageProto> messages { get; } = new global::System.Collections.Generic.List<CMarketingMessageProto>();
+
+    }
+
+    [global::ProtoBuf.ProtoContract()]
     public partial class CMarketingMessage_GetMarketingMessagesForApps_Request : global::ProtoBuf.IExtensible
     {
         private global::ProtoBuf.IExtension __pbn__extensionData;
@@ -1150,6 +1181,10 @@ namespace SteamKit2.Internal
         k_EMarketingMessageUpdate = 10,
         k_EMarketingMessageMidweekDeal = 11,
         k_EMarketingMessageDailyDeal = 12,
+        k_EMarketingMessageNewDLC = 13,
+        k_EMarketingMessageFreeWeekend = 14,
+        k_EMarketingMessageSalePages = 15,
+        k_EMarketingMessagePlaytestAvailable = 16,
     }
 
     [global::ProtoBuf.ProtoContract()]
@@ -1212,6 +1247,7 @@ namespace SteamKit2.Internal
         CMarketingMessages_GetPartnerReadyToPublishMessages_Response GetPartnerReadyToPublishMessages(CMarketingMessages_GetPartnerReadyToPublishMessages_Request request);
         CMarketingMessages_PartnerPublishMessage_Response PublishPartnerMessage(CMarketingMessages_PartnerPublishMessage_Request request);
         CMarketingMessages_GetPartnerMessagePreview_Response GetPartnerMessagePreview(CMarketingMessages_GetPartnerMessagePreview_Request request);
+        CMarketingMessage_GetMarketingMessagesForPartner_Response GetMarketingMessagesForPartner(CMarketingMessage_GetMarketingMessagesForPartner_Request request);
         CMarketingMessage_GetMarketingMessagesForApps_Response GetMarketingMessagesForApps(CMarketingMessage_GetMarketingMessagesForApps_Request request);
     }
 
