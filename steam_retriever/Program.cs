@@ -15,7 +15,7 @@ namespace steam_db
     class Program
     {
         static string out_dir;
-    static string webapi_key;
+        static string webapi_key;
         static string language;
         static bool download_images;
         static bool force;
@@ -83,8 +83,8 @@ namespace steam_db
                                             }
                                         }
     
-                                        Console.WriteLine("  + Writing Achievements {0}.db_achievements.json", language);
-                                        string achievements_file = Path.Combine(out_dir, appid, string.Format("{0}.db_achievements.json", language));
+                                        Console.WriteLine("  + Writing Achievements {0}.achievements_db.json", language);
+                                        string achievements_file = Path.Combine(out_dir, appid, string.Format("{0}.achievements_db.json", language));
                                         done |= SaveJson(achievements_file, achievements_json["game"]["availableGameStats"]["achievements"]) ? 1 : 0;
                                         if( (done & 1) != 1 )
                                         {
@@ -96,7 +96,7 @@ namespace steam_db
                                         Directory.CreateDirectory(Path.Combine(out_dir, appid));
 
                                         Console.WriteLine("  + Writing stats stats.json.");
-                                        string stats_file = Path.Combine(out_dir, appid, "stats.json");
+                                        string stats_file = Path.Combine(out_dir, appid, "stats_db.json");
                                         done |= SaveJson(stats_file, achievements_json["game"]["availableGameStats"]["stats"]) ? 2 : 0;
                                         if( (done & 2) != 2 )
                                         {
@@ -162,12 +162,12 @@ namespace steam_db
                                 {
                                     if (items_response.StatusCode == HttpStatusCode.OK)
                                     {
-                                        Console.WriteLine("  + Writing Items db_inventory.json.");
+                                        Console.WriteLine("  + Writing Items inventory_db.json.");
                                         Stream items_result = items_response.GetResponseStream();
                                         using (StreamReader items_reader = new StreamReader(items_result))
                                         {
                                             JArray items = JArray.Parse(items_reader.ReadToEnd());
-                                            string items_file = Path.Combine(out_dir, appid, "db_inventory.json");
+                                            string items_file = Path.Combine(out_dir, appid, "inventory_db.json");
                                             done = SaveJson(items_file, items);
                                         }
                                     }
