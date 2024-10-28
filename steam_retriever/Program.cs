@@ -70,6 +70,24 @@ namespace steam_retriever
             return await http_client.SendAsync(http_request, HttpCompletionOption.ResponseContentRead, cts.Token);
         }
 
+        static async Task DownloadAchievementIcon(string appid, string ach_name, Uri url)
+        {
+            string image_path = Path.Combine(Options.OutDirectory, appid, "achievements_images", ach_name + ".jpg");
+
+            Directory.CreateDirectory(Path.Combine(Options.OutDirectory, appid, "achievements_images"));
+
+            if (!File.Exists(image_path))
+            {
+                Console.WriteLine($"   + Downloading achievement {ach_name} icon...");
+                var response = await LimitSteamWebApiGET(WebHttpClient, new HttpRequestMessage(HttpMethod.Get, url));
+
+                using (BinaryWriter streamWriter = new BinaryWriter(new FileStream(image_path, FileMode.Create), new UTF8Encoding(false)))
+                {
+                    streamWriter.Write(await response.Content.ReadAsByteArrayAsync());
+                }
+            }
+        }
+
         static async Task GenerateAchievementsFromWebAPI(string appid)
         {
             if (string.IsNullOrEmpty(Options.WebApiKey))
@@ -106,31 +124,8 @@ namespace steam_retriever
 
                                 if (Options.DownloadImages)
                                 {
-                                    Directory.CreateDirectory(Path.Combine(Options.OutDirectory, appid, "achievements_images"));
-
-                                    string name = (string)achievement["name"];
-                                    string image_path = Path.Combine(Options.OutDirectory, appid, "achievements_images", name + ".jpg");
-                                    if (!File.Exists(image_path))
-                                    {
-                                        Console.WriteLine(string.Format("   + Downloading achievement {0} unlocked icon...", name));
-                                        response = await LimitSteamWebApiGET(WebHttpClient, new HttpRequestMessage(HttpMethod.Get, (string)achievement["icon"]));
-
-                                        using (BinaryWriter streamWriter = new BinaryWriter(new FileStream(image_path, FileMode.Create), new UTF8Encoding(false)))
-                                        {
-                                            streamWriter.Write(await response.Content.ReadAsByteArrayAsync());
-                                        }
-                                    }
-                                    image_path = Path.Combine(Options.OutDirectory, appid, "achievements_images", name + "_gray.jpg");
-                                    if (!File.Exists(image_path))
-                                    {
-                                        Console.WriteLine(string.Format("   + Downloading achievement {0} locked icon...", name));
-
-                                        response = await LimitSteamWebApiGET(WebHttpClient, new HttpRequestMessage(HttpMethod.Get, (string)achievement["icongray"]));
-                                        using (BinaryWriter streamWriter = new BinaryWriter(new FileStream(image_path, FileMode.Create), new UTF8Encoding(false)))
-                                        {
-                                            streamWriter.Write(await response.Content.ReadAsByteArrayAsync());
-                                        }
-                                    }
+                                    await DownloadAchievementIcon(appid, (string)achievement["name"], new Uri((string)achievement["icon"]));
+                                    await DownloadAchievementIcon(appid, (string)achievement["name"] + "_locked", new Uri((string)achievement["icongray"]));
                                 }
                             }
 
@@ -167,10 +162,12 @@ namespace steam_retriever
             }
         }
 
-        static bool GenerateAchievementsFromKeyValue(KeyValue schema, uint appid)
+        static async Task<bool> GenerateAchievementsFromKeyValue(KeyValue schema, uint appid)
         {
             JArray achievements_array = new JArray();
             JArray stats_array = new JArray();
+
+            string str_appid = appid.ToString();
 
             foreach (KeyValue stats_object in schema["stats"].Children)
             {
@@ -248,6 +245,12 @@ namespace steam_retriever
                             {
                                 achievement_json["stats_thresholds"] = stats_thresholds;
                             }
+                        }
+
+                        if (Options.DownloadImages)
+                        {
+                            await DownloadAchievementIcon(str_appid, (string)achievement_json["name"], new Uri((string)achievement_json["icon"]));
+                            await DownloadAchievementIcon(str_appid, (string)achievement_json["name"] + "_locked", new Uri((string)achievement_json["icongray"]));
                         }
 
                         achievements_array.Add(achievement_json);
@@ -381,7 +384,7 @@ namespace steam_retriever
                             }
                         }
 
-                        return GenerateAchievementsFromKeyValue(result.Schema, appid);
+                        return await GenerateAchievementsFromKeyValue(result.Schema, appid);
                     }
                 }
                 catch (Exception)
@@ -735,7 +738,7 @@ namespace steam_retriever
                         schema.ReadAsText(fs);
                     }
 
-                    GenerateAchievementsFromKeyValue(schema, appid);
+                    await GenerateAchievementsFromKeyValue(schema, appid);
                 }
                 catch (Exception)
                 { }
