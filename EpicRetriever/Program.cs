@@ -417,6 +417,8 @@ namespace epic_retriever
 
         static async Task<CatalogModel> GetAppCatalogInfos(string namespace_)
         {
+            // Disabled
+            return null;
             try
             {
                 var url = $"https://www.epicgames.com/graphql?query={{Catalog{{catalogOffers(namespace:\"{namespace_}\" params:{{count:500}}){{elements{{id title offerType items{{id title}}}}}}}}}}";
@@ -427,7 +429,8 @@ namespace epic_retriever
 
                 using (var reader = new StreamReader((await webClient.SendAsync(new HttpRequestMessage(HttpMethod.Get, url))).Content.ReadAsStream()))
                 {
-                    return JObject.Parse(await reader.ReadToEndAsync()).ToObject<CatalogModel>();
+                    var x = await reader.ReadToEndAsync();
+                    return JObject.Parse(x).ToObject<CatalogModel>();
                 }
             }
             catch(Exception e)
