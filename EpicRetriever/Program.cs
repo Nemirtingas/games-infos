@@ -417,11 +417,9 @@ namespace epic_retriever
 
         static async Task<CatalogModel> GetAppCatalogInfos(string namespace_)
         {
-            // Disabled
-            return null;
             try
             {
-                var url = $"https://www.epicgames.com/graphql?query={{Catalog{{catalogOffers(namespace:\"{namespace_}\" params:{{count:500}}){{elements{{id title offerType items{{id title}}}}}}}}}}";
+                var url = $"https://graphql.epicgames.com/graphql?query={{Catalog{{catalogOffers(namespace:\"{namespace_}\" params:{{count:500}}){{elements{{id title offerType items{{id title}}}}}}}}}}";
                 var webClient = new HttpClient(new HttpClientHandler
                 {
                     AutomaticDecompression = DecompressionMethods.All,
