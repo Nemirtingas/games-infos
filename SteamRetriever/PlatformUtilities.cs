@@ -4,7 +4,7 @@ using System.Runtime.InteropServices;
 using System.Runtime.Versioning;
 using static Windows.Win32.PInvoke;
 
-namespace steam_retriever
+namespace SteamRetriever
 {
     static class PlatformUtilities
     {

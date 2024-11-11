@@ -5,7 +5,7 @@ using System.IO.Compression;
 using System.IO.IsolatedStorage;
 using ProtoBuf;
 
-namespace steam_retriever
+namespace SteamRetriever
 {
     [ProtoContract]
     class AccountSettingsData

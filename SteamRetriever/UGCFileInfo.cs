@@ -1,4 +1,4 @@
-﻿namespace steam_retriever;
+﻿namespace SteamRetriever;
 internal class UGCFileInfo
 {
     internal string FileName { get; private set; }

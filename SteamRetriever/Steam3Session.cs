@@ -11,7 +11,7 @@ using SteamKit2.Authentication;
 using SteamKit2.CDN;
 using SteamKit2.Internal;
 
-namespace steam_retriever
+namespace SteamRetriever
 {
     class Steam3Session
     {
