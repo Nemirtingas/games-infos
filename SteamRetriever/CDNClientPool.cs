@@ -6,7 +6,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using SteamKit2.CDN;
 
-namespace steam_retriever
+namespace SteamRetriever
 {
     /// <summary>
     /// CDNClientPool provides a pool of connections to CDN endpoints, requesting CDN tokens as needed

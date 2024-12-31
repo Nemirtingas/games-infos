@@ -419,7 +419,7 @@ namespace epic_retriever
         {
             try
             {
-                var url = $"https://www.epicgames.com/graphql?query={{Catalog{{catalogOffers(namespace:\"{namespace_}\" params:{{count:500}}){{elements{{id title offerType items{{id title}}}}}}}}}}";
+                var url = $"https://graphql.epicgames.com/graphql?query={{Catalog{{catalogOffers(namespace:\"{namespace_}\" params:{{count:500}}){{elements{{id title offerType items{{id title}}}}}}}}}}";
                 var webClient = new HttpClient(new HttpClientHandler
                 {
                     AutomaticDecompression = DecompressionMethods.All,
@@ -427,7 +427,8 @@ namespace epic_retriever
 
                 using (var reader = new StreamReader((await webClient.SendAsync(new HttpRequestMessage(HttpMethod.Get, url))).Content.ReadAsStream()))
                 {
-                    return JObject.Parse(await reader.ReadToEndAsync()).ToObject<CatalogModel>();
+                    var x = await reader.ReadToEndAsync();
+                    return JObject.Parse(x).ToObject<CatalogModel>();
                 }
             }
             catch(Exception e)

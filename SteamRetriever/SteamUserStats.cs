@@ -6,7 +6,7 @@ using System.Linq;
 using SteamKit2;
 using SteamKit2.Internal;
 
-namespace steam_retriever;
+namespace SteamRetriever;
 
 public class SteamUserStats : ClientMsgHandler
 {

@@ -2,7 +2,7 @@
 using System.Diagnostics.Tracing;
 using System.Text;
 
-namespace steam_retriever
+namespace SteamRetriever
 {
     internal sealed class HttpDiagnosticEventListener : EventListener
     {

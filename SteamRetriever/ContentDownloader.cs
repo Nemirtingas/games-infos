@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 using SteamKit2;
 using SteamKit2.CDN;
 
-namespace steam_retriever
+namespace SteamRetriever
 {
     class ContentDownloaderException(string value) : Exception(value)
     {

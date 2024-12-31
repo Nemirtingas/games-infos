@@ -4,7 +4,7 @@
 using System;
 using Spectre.Console;
 
-namespace steam_retriever;
+namespace SteamRetriever;
 
 static class Ansi
 {

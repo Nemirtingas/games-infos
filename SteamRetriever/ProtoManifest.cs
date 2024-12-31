@@ -6,7 +6,7 @@ using System.Security.Cryptography;
 using ProtoBuf;
 using SteamKit2;
 
-namespace steam_retriever
+namespace SteamRetriever
 {
     [ProtoContract]
     class ProtoManifest

@@ -4,7 +4,7 @@ using System.IO;
 using System.IO.Compression;
 using ProtoBuf;
 
-namespace steam_retriever
+namespace SteamRetriever
 {
     [ProtoContract]
     class DepotConfigStore

@@ -38,15 +38,15 @@ jobs:
       - name: Build project
         run: |
           mkdir release/
-          for i in steam epic; do
-            cd "${i}_retriever"
+          for i in Steam Epic; do
+            cd "${i}Retriever"
             dotnet publish -c Release
             dotnet publish -c Release -r osx-x64 --self-contained=false
             dotnet publish -c Release -r win-x64 --self-contained=false
-            mv "bin/Release/net8.0/publish/${i}_retriever"             "bin/Release/net8.0/publish/${i}_retriever.linux"
-            mv "bin/Release/net8.0/osx-x64/publish/${i}_retriever"     "bin/Release/net8.0/publish/${i}_retriever.macos"
-            mv "bin/Release/net8.0/win-x64/publish/${i}_retriever.exe" "bin/Release/net8.0/publish/${i}_retriever.exe"
-            mv "bin/Release/net8.0/publish" "../release/${i}_retriever"
+            mv "bin/Release/net8.0/publish/${i}Retriever"             "bin/Release/net8.0/publish/${i}Retriever.linux"
+            mv "bin/Release/net8.0/osx-x64/publish/${i}Retriever"     "bin/Release/net8.0/publish/${i}Retriever.macos"
+            mv "bin/Release/net8.0/win-x64/publish/${i}Retriever.exe" "bin/Release/net8.0/publish/${i}Retriever.exe"
+            mv "bin/Release/net8.0/publish" "../release/${i}Retriever"
             cd ..
           done
           exit 0
@@ -56,13 +56,13 @@ jobs:
         with:
           name: retrievers
           path: |
-            release/steam_retriever
-            release/epic_retriever
+            release/SteamRetriever
+            release/EpicRetriever
             
       - name: Packaging
         run: |
           cd release
-          tar czf retrievers.tgz steam_retriever epic_retriever
+          tar czf retrievers.tgz SteamRetriever EpicRetriever
           
       - name: Release
         uses: softprops/action-gh-release@v1
