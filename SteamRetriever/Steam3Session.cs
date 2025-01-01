@@ -778,7 +778,7 @@ namespace SteamRetriever
                 return;
             }
 
-            Program.Instance._logger.ErrorFormat("Got {0} licenses for account!", licenseList.LicenseList.Count);
+            Program.Instance._logger.InfoFormat("Got {0} licenses for account!", licenseList.LicenseList.Count);
             Licenses = licenseList.LicenseList;
 
             foreach (var license in licenseList.LicenseList)
