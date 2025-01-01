@@ -779,6 +779,14 @@ namespace SteamRetriever
             return true;
         }
 
+        ulong GetProductCachedChangeNumber(uint appId)
+        {
+            if (!MetadataDatabase.ApplicationDetails.TryGetValue(appId, out var result))
+                return 0;
+
+            return result.ChangeNumber;
+        }
+
         async Task<bool> GetAppDetailsFromSteamNetwork(uint appId, SteamApps.PICSProductInfoCallback.PICSProductInfo productInfo)
         {
             string appIdString = appId.ToString();
@@ -788,7 +796,7 @@ namespace SteamRetriever
                 return false;
 
             string appOutputPath = Path.Combine(Options.OutDirectory, appIdString, $"{appIdString}.json");
-            if (!Options.Force && File.Exists(appOutputPath))
+            if (!Options.Force && File.Exists(appOutputPath) && productInfo.ChangeNumber == GetProductCachedChangeNumber(appId))
             {
                 _logger.Info($"Skipping {appId}");
                 return true;
@@ -944,6 +952,7 @@ namespace SteamRetriever
         async Task LoadMetadataDatabaseAsync()
         {
             var filePath = Path.Combine(Path.GetDirectoryName(Options.OutDirectory), "steam_metadata.json");
+            MetadataDatabase = new MetadataDatabase();
             if (File.Exists(filePath))
             {
                 try
@@ -959,8 +968,6 @@ namespace SteamRetriever
 
                 }
             }
-
-            MetadataDatabase = new MetadataDatabase();
         }
 
         async Task SaveMetadataDatabaseAsync()
