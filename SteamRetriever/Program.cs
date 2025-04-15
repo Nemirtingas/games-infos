@@ -261,12 +261,9 @@ namespace SteamRetriever
                 }
                 else
                 {// Parse stats
-                    KeyValue v = stats_object["default"];
-                    long default_long_value = 0;
-                    float default_float_value = 0.0f;
                     string display_name = string.Empty;
 
-                    v = stats_object["display"]["name"];
+                    var v = stats_object["display"]["name"];
                     if (v != KeyValue.Invalid && !string.IsNullOrWhiteSpace(v.Value))
                     {
                         display_name = v.Value;
@@ -277,7 +274,9 @@ namespace SteamRetriever
                         { "name"         , stats_object["name"].Value },
                         { "displayName"  , display_name },
                         { "type"         , ((SchemaStatType)stats_object["type"].AsLong()).ToString().ToLower() },
+                        { "default"      , 0 },
                         { "incrementonly", false },
+                        { "aggregated"   , false },
                     };
 
                     v = stats_object["incrementonly"];
@@ -286,63 +285,152 @@ namespace SteamRetriever
                         stat_obj["incrementonly"] = true;
                     }
 
-                    v = stats_object["default"];
+                    v = stats_object["aggregated"];
+                    if (v != KeyValue.Invalid && ulong.Parse(v.Value) == 1)
+                    {
+                        stat_obj["aggregated"] = true;
+                    }
+
                     switch ((SchemaStatType)stats_object["type"].AsLong())
                     {
                         case SchemaStatType.Int:
+                            v = stats_object["maxchange"];
                             if (v != KeyValue.Invalid)
                             {
-                                try
+                                if (ulong.TryParse(v.Value, out var ulValue))
                                 {
-                                    default_long_value = (long)ulong.Parse(v.Value);
+                                    stat_obj["maxchange"] = ulValue;
                                 }
-                                catch (Exception)
+                                else if (long.TryParse(v.Value, out var lValue))
                                 {
-                                    try
-                                    {
-                                        default_long_value = long.Parse(v.Value);
-                                    }
-                                    catch (Exception)
-                                    {
-                                        try
-                                        {
-                                            default_long_value = (long)float.Parse(v.Value, CultureInfo.InvariantCulture);
-                                        }
-                                        catch (Exception)
-                                        {
-                                        }
-                                    }
+                                    stat_obj["maxchange"] = lValue;
+                                }
+                                else if (double.TryParse(v.Value, CultureInfo.InvariantCulture, out var dValue))
+                                {
+                                    stat_obj["maxchange"] = (long)dValue;
                                 }
                             }
-                            stat_obj["defaultvalue"] = default_long_value;
+
+                            v = stats_object["min"];
+                            if (v != KeyValue.Invalid)
+                            {
+                                if (ulong.TryParse(v.Value, out var ulValue))
+                                {
+                                    stat_obj["min"] = ulValue;
+                                }
+                                else if(long.TryParse(v.Value, out var lValue))
+                                {
+                                    stat_obj["min"] = lValue;
+                                }
+                                else if(double.TryParse(v.Value, CultureInfo.InvariantCulture, out var dValue))
+                                {
+                                    stat_obj["min"] = (long)dValue;
+                                }
+                            }
+
+                            v = stats_object["max"];
+                            if (v != KeyValue.Invalid)
+                            {
+                                if (ulong.TryParse(v.Value, out var ulValue))
+                                {
+                                    stat_obj["max"] = ulValue;
+                                }
+                                else if (long.TryParse(v.Value, out var lValue))
+                                {
+                                    stat_obj["max"] = lValue;
+                                }
+                                else if (double.TryParse(v.Value, CultureInfo.InvariantCulture, out var dValue))
+                                {
+                                    stat_obj["max"] = (long)dValue;
+                                }
+                            }
+
+                            v = stats_object["default"];
+                            if (v != KeyValue.Invalid)
+                            {
+                                if (ulong.TryParse(v.Value, out var ulValue))
+                                {
+                                    stat_obj["default"] = ulValue;
+                                }
+                                else if (long.TryParse(v.Value, out var lValue))
+                                {
+                                    stat_obj["default"] = lValue;
+                                }
+                                else if (double.TryParse(v.Value, CultureInfo.InvariantCulture, out var dValue))
+                                {
+                                    stat_obj["default"] = (long)dValue;
+                                }
+                            }
                             break;
 
                         case SchemaStatType.Float:
+                            v = stats_object["maxchange"];
                             if (v != KeyValue.Invalid)
                             {
-                                try
+                                if (ulong.TryParse(v.Value, out var ulValue))
                                 {
-                                    default_float_value = ulong.Parse(v.Value);
+                                    stat_obj["maxchange"] = (double)ulValue;
                                 }
-                                catch (Exception)
+                                else if (long.TryParse(v.Value, out var lValue))
                                 {
-                                    try
-                                    {
-                                        default_float_value = long.Parse(v.Value);
-                                    }
-                                    catch (Exception)
-                                    {
-                                        try
-                                        {
-                                            default_float_value = float.Parse(v.Value, CultureInfo.InvariantCulture);
-                                        }
-                                        catch (Exception)
-                                        {
-                                        }
-                                    }
+                                    stat_obj["maxchange"] = (double)lValue;
+                                }
+                                else if (double.TryParse(v.Value, CultureInfo.InvariantCulture, out var dValue))
+                                {
+                                    stat_obj["maxchange"] = dValue;
                                 }
                             }
-                            stat_obj["defaultvalue"] = default_float_value;
+
+                            v = stats_object["min"];
+                            if (v != KeyValue.Invalid)
+                            {
+                                if (ulong.TryParse(v.Value, out var ulValue))
+                                {
+                                    stat_obj["min"] = (double)ulValue;
+                                }
+                                else if (long.TryParse(v.Value, out var lValue))
+                                {
+                                    stat_obj["min"] = (double)lValue;
+                                }
+                                else if (double.TryParse(v.Value, CultureInfo.InvariantCulture, out var dValue))
+                                {
+                                    stat_obj["min"] = dValue;
+                                }
+                            }
+
+                            v = stats_object["max"];
+                            if (v != KeyValue.Invalid)
+                            {
+                                if (ulong.TryParse(v.Value, out var ulValue))
+                                {
+                                    stat_obj["max"] = ulValue;
+                                }
+                                else if (long.TryParse(v.Value, out var lValue))
+                                {
+                                    stat_obj["max"] = lValue;
+                                }
+                                else if (double.TryParse(v.Value, CultureInfo.InvariantCulture, out var dValue))
+                                {
+                                    stat_obj["max"] = dValue;
+                                }
+                            }
+
+                            v = stats_object["default"];
+                            if (v != KeyValue.Invalid)
+                            {
+                                if (ulong.TryParse(v.Value, out var ulValue))
+                                {
+                                    stat_obj["default"] = (double)ulValue;
+                                }
+                                else if (long.TryParse(v.Value, out var lValue))
+                                {
+                                    stat_obj["default"] = (double)lValue;
+                                }
+                                else if (double.TryParse(v.Value, CultureInfo.InvariantCulture, out var dValue))
+                                {
+                                    stat_obj["default"] = dValue;
+                                }
+                            }
                             break;
                     }
 
