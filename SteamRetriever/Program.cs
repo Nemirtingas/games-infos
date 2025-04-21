@@ -875,16 +875,15 @@ namespace SteamRetriever
             return result.ChangeNumber;
         }
 
-        async Task<bool> GetAppDetailsFromSteamNetwork(uint appId, SteamApps.PICSProductInfoCallback.PICSProductInfo productInfo)
+        async Task<bool> GetAppDetailsFromSteamNetwork(uint appId, KeyValue productInfoKeyValues, ApplicationMetadata applicationMetadata)
         {
             string appIdString = appId.ToString();
-            var productInfoKeyValues = productInfo?.KeyValues;
 
             if (productInfoKeyValues == null)
                 return false;
 
             string appOutputPath = Path.Combine(Options.OutDirectory, appIdString, $"{appIdString}.json");
-            if (!Options.Force && File.Exists(appOutputPath) && productInfo.ChangeNumber == GetProductCachedChangeNumber(appId))
+            if (!Options.Force && File.Exists(appOutputPath) && applicationMetadata.ChangeNumber == GetProductCachedChangeNumber(appId))
             {
                 _logger.Info($"Skipping {appId}");
                 return true;
@@ -933,7 +932,7 @@ namespace SteamRetriever
             
                 var infos = GetOrCreateApp(appId.ToString(), type == AppType.Dlc);
 
-                await UpdateMetadataDatabaseAsync(appId, productInfo);
+                await UpdateMetadataDatabaseAsync(appId, applicationMetadata);
 
                 ParseCommonDetails(infos, appId, productInfoKeyValues, appType);
             
@@ -1037,6 +1036,15 @@ namespace SteamRetriever
             _logger = log4net.LogManager.GetLogger(typeof(Program));
         }
 
+        ApplicationMetadata ApplicationMetadataFromPICS(SteamApps.PICSProductInfoCallback.PICSProductInfo productInfo)
+        {
+            return new ApplicationMetadata
+            {
+                ChangeNumber = productInfo.ChangeNumber,
+                LastUpdateTimestamp = DateTime.UtcNow,
+            };
+        }
+
         async Task LoadMetadataDatabaseAsync()
         {
             var filePath = Path.Combine(Path.GetDirectoryName(Options.OutDirectory), "steam_metadata.json");
@@ -1064,15 +1072,17 @@ namespace SteamRetriever
             await SaveFileAsync(filePath, Newtonsoft.Json.JsonConvert.SerializeObject(MetadataDatabase));
         }
 
-        async Task UpdateMetadataDatabaseAsync(uint appId, SteamApps.PICSProductInfoCallback.PICSProductInfo productInfo)
+        async Task UpdateMetadataDatabaseAsync(uint appId, ApplicationMetadata applicationMetadata)
         {
             if (!MetadataDatabase.ApplicationDetails.TryGetValue(appId, out var appMetadata))
             {
-                appMetadata = new ApplicationMetadata();
-                MetadataDatabase.ApplicationDetails[appId] = appMetadata;
+                MetadataDatabase.ApplicationDetails[appId] = applicationMetadata;
+            }
+            else
+            {
+                appMetadata.ChangeNumber = applicationMetadata.ChangeNumber;
             }
 
-            appMetadata.ChangeNumber = productInfo.ChangeNumber;
             appMetadata.LastUpdateTimestamp = DateTime.UtcNow;
             await SaveMetadataDatabaseAsync();
         }
@@ -1126,8 +1136,10 @@ namespace SteamRetriever
 
                         await LoadMetadataDatabaseAsync();
 
+                        var applicationsMetadata = new Dictionary<uint, ApplicationMetadata>();
                         while (AppIds.Count > 0)
                         {
+                            applicationsMetadata.Clear();
                             var chunk = AppIds.Keys.Chunk(1000).First();
                             if (!Options.CacheOnly)
                             {
@@ -1135,6 +1147,7 @@ namespace SteamRetriever
                                 foreach (var appid in chunk)
                                 {
                                     AppIds[appid] = ContentDownloader.steam3.AppInfo[appid]?.KeyValues;
+                                    applicationsMetadata[appid] = ApplicationMetadataFromPICS(ContentDownloader.steam3.AppInfo[appid]);
                                 }
                             }
                             else
@@ -1147,7 +1160,19 @@ namespace SteamRetriever
                                         {
                                             KeyValue appinfos = new KeyValue();
                                             if (appinfos.ReadAsText(fs))
+                                            {
+                                                if (!MetadataDatabase.ApplicationDetails.TryGetValue(appid, out var applicationMetadata))
+                                                {
+                                                    MetadataDatabase.ApplicationDetails[appid] = new ApplicationMetadata
+                                                    {
+                                                        ChangeNumber = 0,
+                                                        LastUpdateTimestamp = DateTime.UtcNow,
+                                                    };
+                                                }
+
+                                                applicationsMetadata[appid] = MetadataDatabase.ApplicationDetails[appid];
                                                 AppIds[appid] = appinfos;
+                                            }
                                         }
                                     }
                                     catch (Exception)
@@ -1157,7 +1182,7 @@ namespace SteamRetriever
 
                             foreach (var appid in chunk)
                             {
-                                await GetAppDetailsFromSteamNetwork(appid, ContentDownloader.steam3.AppInfo[appid]);
+                                await GetAppDetailsFromSteamNetwork(appid, AppIds[appid], applicationsMetadata[appid]);
 
                                 if (!Options.CacheOnly)
                                     ContentDownloader.steam3.AppInfo.Remove(appid);
