@@ -432,6 +432,93 @@ namespace SteamRetriever
                                 }
                             }
                             break;
+
+                        case SchemaStatType.AvgRate:
+                            v = stats_object["default"];
+                            if (v != KeyValue.Invalid)
+                            {
+                                if (ulong.TryParse(v.Value, out var ulValue))
+                                {
+                                    stat_obj["default"] = (double)ulValue;
+                                }
+                                else if (long.TryParse(v.Value, out var lValue))
+                                {
+                                    stat_obj["default"] = (double)lValue;
+                                }
+                                else if (double.TryParse(v.Value, CultureInfo.InvariantCulture, out var dValue))
+                                {
+                                    stat_obj["default"] = dValue;
+                                }
+                            }
+
+                            v = stats_object["maxchange"];
+                            if (v != KeyValue.Invalid)
+                            {
+                                if (ulong.TryParse(v.Value, out var ulValue))
+                                {
+                                    stat_obj["maxchange"] = (double)ulValue;
+                                }
+                                else if (long.TryParse(v.Value, out var lValue))
+                                {
+                                    stat_obj["maxchange"] = (double)lValue;
+                                }
+                                else if (double.TryParse(v.Value, CultureInfo.InvariantCulture, out var dValue))
+                                {
+                                    stat_obj["maxchange"] = dValue;
+                                }
+                            }
+
+                            v = stats_object["min"];
+                            if (v != KeyValue.Invalid)
+                            {
+                                if (ulong.TryParse(v.Value, out var ulValue))
+                                {
+                                    stat_obj["min"] = (double)ulValue;
+                                }
+                                else if (long.TryParse(v.Value, out var lValue))
+                                {
+                                    stat_obj["min"] = (double)lValue;
+                                }
+                                else if (double.TryParse(v.Value, CultureInfo.InvariantCulture, out var dValue))
+                                {
+                                    stat_obj["min"] = dValue;
+                                }
+                            }
+
+                            v = stats_object["max"];
+                            if (v != KeyValue.Invalid)
+                            {
+                                if (ulong.TryParse(v.Value, out var ulValue))
+                                {
+                                    stat_obj["max"] = ulValue;
+                                }
+                                else if (long.TryParse(v.Value, out var lValue))
+                                {
+                                    stat_obj["max"] = lValue;
+                                }
+                                else if (double.TryParse(v.Value, CultureInfo.InvariantCulture, out var dValue))
+                                {
+                                    stat_obj["max"] = dValue;
+                                }
+                            }
+
+                            v = stats_object["windowsize"];
+                            if (v != KeyValue.Invalid)
+                            {
+                                if (ulong.TryParse(v.Value, out var ulValue))
+                                {
+                                    stat_obj["windowsize"] = (double)ulValue;
+                                }
+                                else if (long.TryParse(v.Value, out var lValue))
+                                {
+                                    stat_obj["windowsize"] = (double)lValue;
+                                }
+                                else if (double.TryParse(v.Value, CultureInfo.InvariantCulture, out var dValue))
+                                {
+                                    stat_obj["windowsize"] = dValue;
+                                }
+                            }
+                            break;
                     }
 
                     stats_array.Add(stat_obj);
