@@ -1164,6 +1164,7 @@ namespace SteamRetriever
             if (!MetadataDatabase.ApplicationDetails.TryGetValue(appId, out var appMetadata))
             {
                 MetadataDatabase.ApplicationDetails[appId] = applicationMetadata;
+                appMetadata = applicationMetadata;
             }
             else
             {
