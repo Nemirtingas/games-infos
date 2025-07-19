@@ -101,6 +101,18 @@ namespace epic_retriever
         public Dictionary<string, Dictionary<string, AppListEntry>> Namespaces { get; set; } = new Dictionary<string, Dictionary<string, AppListEntry>>();
     }
 
+    class ApplicationDetails
+    {
+        [JsonProperty(PropertyName = "Name")]
+        public string Name { get; set; }
+
+        [JsonProperty(PropertyName = "Namespace")]
+        public string Namespace { get; set; }
+
+        [JsonProperty(PropertyName = "ApplicationId")]
+        public string ApplicationId { get; set; }
+    }
+
     class Program
     {
         static Options ProgramOptions { get; set; }
@@ -216,9 +228,9 @@ namespace epic_retriever
 
         static string FindBestImage(StoreApplicationInfos app)
         {
-            string result = string.Empty;
+            var result = string.Empty;
             int best_match = 0;
-            foreach (StoreApplicationKeyImage img in app.KeyImages)
+            foreach (var img in app.KeyImages)
             {
                 if (img.Type == "DieselGameBox")
                 {
@@ -266,7 +278,7 @@ namespace epic_retriever
         static string BuildSaveGameInfosPath(AppInfoModel game_infos) =>
             Path.Combine(BuildSaveGameInfosDirectoryPath(game_infos), game_infos.AppId + ".json");
 
-        static async Task SaveGameInfos(AppInfoModel game_infos, bool merge_existing_infos)
+        static async Task SaveGameInfosAsync(AppInfoModel game_infos, bool merge_existing_infos)
         {
             try
             {
@@ -314,47 +326,42 @@ namespace epic_retriever
             return ms;
         }
 
-        static async Task<AppList> DownloadAppList()
+        static async Task<AppList> DownloadAppListAsync()
         {
-            var app_list = new AppList();
+            var applicationList = new AppList();
 
-            var wcli = new HttpClient(new HttpClientHandler
+            var httpClient = new HttpClient(new HttpClientHandler
             {
                 AutomaticDecompression = DecompressionMethods.All,
             });
-            wcli.DefaultRequestHeaders.TryAddWithoutValidation("UserAgent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:98.0) Gecko/20100101 Firefox/98.0");
-            string applist_path = Path.Combine(ProgramOptions.OutCacheDirectory, "applist.json");
+            httpClient.DefaultRequestHeaders.TryAddWithoutValidation("UserAgent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:98.0) Gecko/20100101 Firefox/98.0");
+            string applicationListPath = Path.Combine(ProgramOptions.OutCacheDirectory, "applist.json");
 
             
             try
             {
-                using (StreamReader reader = new StreamReader(new FileStream(applist_path, FileMode.Open), Encoding.UTF8))
+                using (StreamReader reader = new StreamReader(new FileStream(applicationListPath, FileMode.Open), Encoding.UTF8))
                 {
-                    JObject json = JObject.Parse(reader.ReadToEnd());
+                    var json = JObject.Parse(reader.ReadToEnd());
                     switch((int)json["Version"])
                     {
-                        case 1: app_list = json.ToObject<AppList>(); break;
+                        case 1: applicationList = json.ToObject<AppList>(); break;
                     }
-                }
-
-                if (HasTargetApp)
-                {
-                    app_list.Namespaces.GetOrCreate(ProgramOptions.AppNamespace)[ProgramOptions.AppCatalogItemId] = new AppListEntry { };
                 }
             }
             catch (Exception)
             { }
 
-            app_list.Version = 1;
+            applicationList.Version = 1;
 
             Console.WriteLine("Downloading assets...");
             var assets = await EGSApi.GetApplicationsAssets();
             foreach (var asset in assets)
             {
                 AppListEntry entry;
-                if(!app_list.Namespaces.GetOrCreate(asset.Namespace).TryGetValue(asset.CatalogItemId, out entry))
+                if(!applicationList.Namespaces.GetOrCreate(asset.Namespace).TryGetValue(asset.CatalogItemId, out entry))
                 {
-                    app_list.Namespaces.GetOrCreate(asset.Namespace)[asset.CatalogItemId] = new AppListEntry { Asset = asset };
+                    applicationList.Namespaces.GetOrCreate(asset.Namespace)[asset.CatalogItemId] = new AppListEntry { Asset = asset };
                 }
                 else
                 {
@@ -366,7 +373,7 @@ namespace epic_retriever
             {
                 try
                 {
-                    var all_namespaces = JObject.Parse(await new StreamReader((await wcli.SendAsync(new HttpRequestMessage(HttpMethod.Get, "https://store-content.ak.epicgames.com/api/content/productmapping"))).Content.ReadAsStream()).ReadToEndAsync());
+                    var all_namespaces = JObject.Parse(await new StreamReader((await httpClient.SendAsync(new HttpRequestMessage(HttpMethod.Get, "https://store-content.ak.epicgames.com/api/content/productmapping"))).Content.ReadAsStream()).ReadToEndAsync());
 
                     int count = 0;
                     int total = all_namespaces.Count;
@@ -375,7 +382,7 @@ namespace epic_retriever
                         Console.WriteLine($"Getting web namespace {++count}/{total}: {item.Key}");
                         try
                         {
-                            var productResult = await new StreamReader((await wcli.SendAsync(new HttpRequestMessage(HttpMethod.Get, $"https://store-content-ipv4.ak.epicgames.com/api/en-US/content/products/{item.Value}"))).Content.ReadAsStream()).ReadToEndAsync();
+                            var productResult = await new StreamReader((await httpClient.SendAsync(new HttpRequestMessage(HttpMethod.Get, $"https://store-content-ipv4.ak.epicgames.com/api/en-US/content/products/{item.Value}"))).Content.ReadAsStream()).ReadToEndAsync();
                             foreach (var page in JObject.Parse(productResult)["pages"])
                             {
                                 try
@@ -386,7 +393,7 @@ namespace epic_retriever
                                         string catalog_item_id = (string)json["catalogId"];
                                         if (!string.IsNullOrWhiteSpace(catalog_item_id))
                                         {
-                                            app_list.Namespaces.GetOrCreate(item.Key)[catalog_item_id.Trim()] = new AppListEntry { };
+                                            applicationList.Namespaces.GetOrCreate(item.Key)[catalog_item_id.Trim()] = new AppListEntry { };
                                         }
                                     }
                                 }
@@ -404,19 +411,21 @@ namespace epic_retriever
 
             try
             {
-                using (StreamWriter writer = new StreamWriter(new FileStream(applist_path, FileMode.Create), new UTF8Encoding(false)))
+                using (StreamWriter writer = new StreamWriter(new FileStream(applicationListPath, FileMode.Create), new UTF8Encoding(false)))
                 {
-                    writer.Write(JObject.FromObject(app_list).ToString());
+                    writer.Write(JObject.FromObject(applicationList).ToString());
                 }
             }
             catch (Exception)
             { }
 
-            return app_list;
+            return applicationList;
         }
 
         static async Task<CatalogModel> GetAppCatalogInfos(string namespace_)
         {
+            // graphql.epicgames.com has been disabled?
+            return null;
             try
             {
                 var url = $"https://graphql.epicgames.com/graphql?query={{Catalog{{catalogOffers(namespace:\"{namespace_}\" params:{{count:500}}){{elements{{id title offerType items{{id title}}}}}}}}}}";
@@ -438,7 +447,7 @@ namespace epic_retriever
             }
         }
 
-        static async Task GetAppInfos(string namespace_, AppList app_list, string catalog_id)
+        static async Task GetAppInfosAsync(List<ApplicationDetails> applicationsDetails, string namespace_, AppList app_list, string catalog_id)
         {
             var app = await GetApp(namespace_, catalog_id);
 
@@ -450,120 +459,129 @@ namespace epic_retriever
             catch(Exception)
             {}
 
-            if (catalog_entry == null)
+            // TODO: Handle DLCs
+            if (catalog_entry?.Asset == null || app?.IsDlc != false)
                 return;
+            
+            var game_infos = new AppInfoModel();
+            Console.WriteLine("App {0}, AppId {1}, Namespace {2}, ItemId {3}", app.Title, catalog_entry.Asset.AppName, app.Namespace, app.Id);
+            int title_length = 0;
+            int id_length = 0;
+            int namespace_length = 0;
+            int catalog_id_length = 0;
 
-            if (app != null && !app.IsDlc && (app.ReleaseInfo.Count > 0 || catalog_entry.Asset != null))
+            // Loop for pretty print
+            foreach (var dlc in app.DlcItemList)
             {
-                var game_infos = new AppInfoModel();
-                string app_id = catalog_entry.Asset != null ? catalog_entry.Asset.AppName : app.ReleaseInfo[0].AppId;
-                Console.WriteLine("App {0}, AppId {1}, Namespace {2}, ItemId {3}", app.Title, app_id, app.Namespace, app.Id);
-                int title_length = 0;
-                int id_length = 0;
-                int namespace_length = 0;
-                int catalog_id_length = 0;
-
-                // Loop for pretty print
-                foreach (var dlc in app.DlcItemList)
-                {
-                    string dlc_id;
-                    Dictionary<string, AppListEntry> namespace_apps;
-                    AppListEntry dlc_meta;
+                string dlc_id;
+                Dictionary<string, AppListEntry> namespace_apps;
+                AppListEntry dlc_meta;
                     
-                    if (app_list.Namespaces.TryGetValue(dlc.Namespace, out namespace_apps) && namespace_apps.TryGetValue(dlc.Id, out dlc_meta) && dlc_meta != null && dlc_meta.Asset != null)
+                if (app_list.Namespaces.TryGetValue(dlc.Namespace, out namespace_apps) && namespace_apps.TryGetValue(dlc.Id, out dlc_meta) && dlc_meta != null && dlc_meta.Asset != null)
+                {
+                    dlc_id = dlc_meta.Asset.AppName;
+                }
+                else
+                {
+                    if (dlc.ReleaseInfo.Count > 0)
                     {
-                        dlc_id = dlc_meta.Asset.AppName;
+                        dlc_id = dlc.ReleaseInfo[0].AppId;
                     }
                     else
                     {
-                        if (dlc.ReleaseInfo.Count > 0)
-                        {
-                            dlc_id = dlc.ReleaseInfo[0].AppId;
-                        }
-                        else
-                        {
-                            dlc_id = dlc.Title;
-                        }
+                        dlc_id = dlc.Title;
                     }
-
-                    if (title_length < dlc.Title.Length)
-                        title_length = dlc.Title.Length;
-                    if (id_length < dlc_id.Length)
-                        id_length = dlc_id.Length;
-                    if (namespace_length < dlc.Namespace.Length)
-                        namespace_length = dlc.Namespace.Length;
-                    if (catalog_id_length < dlc.Id.Length)
-                        catalog_id_length = dlc.Id.Length;
                 }
 
-                game_infos.Dlcs = new List<DlcInfoModel>();
-                game_infos.Name = app.Title;
-                game_infos.AppId = app.ReleaseInfo[0].AppId;
-                game_infos.Namespace = app.Namespace;
-                game_infos.ItemId = app.Id;
-                game_infos.ImageUrl = FindBestImage(app);
-                game_infos.Releases = new List<string>();
+                if (title_length < dlc.Title.Length)
+                    title_length = dlc.Title.Length;
+                if (id_length < dlc_id.Length)
+                    id_length = dlc_id.Length;
+                if (namespace_length < dlc.Namespace.Length)
+                    namespace_length = dlc.Namespace.Length;
+                if (catalog_id_length < dlc.Id.Length)
+                    catalog_id_length = dlc.Id.Length;
+            }
 
-                if (app.DlcItemList.Count > 0)
+            game_infos.Dlcs = new List<DlcInfoModel>();
+            game_infos.Name = app.Title;
+            game_infos.AppId = catalog_entry.Asset.AppName;
+            game_infos.Namespace = app.Namespace;
+            game_infos.ItemId = app.Id;
+            game_infos.ImageUrl = FindBestImage(app);
+            game_infos.Releases = new List<string>();
+
+            var applicationDetails = applicationsDetails.SingleOrDefault(e => e.ApplicationId == catalog_entry.Asset.AppName && e.Namespace == app.Namespace);
+            if (applicationDetails == null)
+            {
+                applicationDetails = new ApplicationDetails
                 {
-                    var catalogModel = await GetAppCatalogInfos(namespace_);
+                    ApplicationId = catalog_entry.Asset.AppName,
+                    Namespace = app.Namespace,
+                };
+                applicationsDetails.Add(applicationDetails);
+            }
+            applicationDetails.Name = app.Title;
 
-                    foreach (var dlc in app.DlcItemList)
+            if (app.DlcItemList.Count > 0)
+            {
+                var catalogModel = await GetAppCatalogInfos(namespace_);
+
+                foreach (var dlc in app.DlcItemList)
+                {
+                    Console.WriteLine($"   Dlc {{0, -{title_length}}}, Namespace {{1, -{namespace_length}}}, ItemId {{2, -{catalog_id_length}}}", dlc.Title, dlc.Namespace, dlc.Id);
+
+                    var catalogElement = catalogModel?.Data.Catalog.CatalogOffers.Elements.Find(e => e.Title == dlc.Title || e.Items.Find(i => i.Id == dlc.Id) != null);
+
+                    game_infos.Dlcs.Add(new DlcInfoModel
                     {
-                        Console.WriteLine($"   Dlc {{0, -{title_length}}}, Namespace {{1, -{namespace_length}}}, ItemId {{2, -{catalog_id_length}}}", dlc.Title, dlc.Namespace, dlc.Id);
+                        Name = dlc.Title,
+                        EntitlementId = dlc.Id,
+                        ItemId = catalogElement?.Id,
+                        Type = catalogElement?.OfferType
+                    });
+                }
 
-                        var catalogElement = catalogModel?.Data.Catalog.CatalogOffers.Elements.Find(e => e.Title == dlc.Title || e.Items.Find(i => i.Id == dlc.Id) != null);
+                var existing_infos = default(AppInfoModel);
+                try
+                {
+                    var infos_path = BuildSaveGameInfosPath(game_infos);
 
-                        game_infos.Dlcs.Add(new DlcInfoModel
-                        {
-                            Name = dlc.Title,
-                            EntitlementId = dlc.Id,
-                            ItemId = catalogElement?.Id,
-                            Type = catalogElement?.OfferType
-                        });
+                    using (var sr = new StreamReader(new FileStream(infos_path, FileMode.Open), new UTF8Encoding(false)))
+                    {
+                        existing_infos = JObject.Parse(await sr.ReadToEndAsync()).ToObject<AppInfoModel>();
                     }
-
-                    var existing_infos = default(AppInfoModel);
-                    try
+                    foreach (var dlc in game_infos.Dlcs)
                     {
-                        var infos_path = BuildSaveGameInfosPath(game_infos);
-
-                        using (var sr = new StreamReader(new FileStream(infos_path, FileMode.Open), new UTF8Encoding(false)))
+                        if (dlc.Type == null || dlc.ItemId == null)
                         {
-                            existing_infos = JObject.Parse(await sr.ReadToEndAsync()).ToObject<AppInfoModel>();
-                        }
-                        foreach (var dlc in game_infos.Dlcs)
-                        {
-                            if (dlc.Type == null || dlc.ItemId == null)
+                            var existing_dlc = existing_infos.Dlcs.Find(e => e.EntitlementId == dlc.EntitlementId);
+                            if (existing_dlc != null)
                             {
-                                var existing_dlc = existing_infos.Dlcs.Find(e => e.EntitlementId == dlc.EntitlementId);
-                                if (existing_dlc != null)
-                                {
-                                    dlc.Type = existing_dlc.Type;
-                                    dlc.ItemId = existing_dlc.ItemId;
-                                }
+                                dlc.Type = existing_dlc.Type;
+                                dlc.ItemId = existing_dlc.ItemId;
                             }
                         }
                     }
-                    catch
-                    { }
                 }
+                catch
+                { }
+            }
 
-                Console.WriteLine();
+            Console.WriteLine();
 
-                foreach (var releaseInfo in app.ReleaseInfo)
+            foreach (var releaseInfo in app.ReleaseInfo)
+            {
+                foreach(var pf in releaseInfo.Platform)
                 {
-                    foreach(var pf in releaseInfo.Platform)
+                    if (!game_infos.Releases.Contains(pf))
                     {
-                        if (!game_infos.Releases.Contains(pf))
-                        {
-                            game_infos.Releases.Add(pf);
-                        }
+                        game_infos.Releases.Add(pf);
                     }
                 }
-
-                await SaveGameInfos(game_infos, true);
             }
+
+            await SaveGameInfosAsync(game_infos, true);
         }
 
         static async Task PrepareManifestDownload(string namespace_, string catalogId, string appId)
@@ -588,20 +606,20 @@ namespace epic_retriever
                 await writer.WriteAsync(json.ToString());
             }
         }
-        static Task<JObject> LoginAnonymous()
+        static Task<EpicKit.SessionAccount> LoginAnonymous()
         {
             Console.WriteLine("Will now try to login anonymously...");
             return EGSApi.LoginAnonymous();
         }
 
-        static Task<JObject> LoginWithAuthcode()
+        static Task<EpicKit.SessionAccount> LoginWithAuthcode()
         {
             Console.WriteLine("Will now try to login with authorization code...");
             Console.WriteLine("EGL authcode (get it at: https://www.epicgames.com/id/api/redirect?clientId=34a02cf8f4414e29b15921876da36f9a&responseType=code): ");
             return EGSApi.LoginAuthCode(Console.ReadLine().Trim());
         }
 
-        static Task<JObject> LoginWithSID()
+        static Task<EpicKit.SessionAccount> LoginWithSID()
         {
             Console.WriteLine("Will now try to login with SID...");
             Console.WriteLine("EGL sid (get it at: https://www.epicgames.com/id/login?redirectUrl=https://www.epicgames.com/id/api/redirect): ");
@@ -668,6 +686,31 @@ namespace epic_retriever
             }
         }
 
+        static async Task<List<ApplicationDetails>> LoadApplicationDetailsAsync()
+        {
+            try
+            {
+                var applicationDetailsPath = Path.Combine(ProgramOptions.OutDirectory, "application_details.json");
+                using (var reader = new StreamReader(new FileStream(applicationDetailsPath, FileMode.Open), Encoding.UTF8))
+                {
+                    return JsonConvert.DeserializeObject<List<ApplicationDetails>>(await reader.ReadToEndAsync());
+                }
+            }
+            catch
+            {
+                return new();
+            }
+        }
+
+        static async Task SaveApplicationDetailsAsync(List<ApplicationDetails> applicationDetails)
+        {
+            var applicationDetailsPath = Path.Combine(ProgramOptions.OutDirectory, "application_details.json");
+            using (var writer = new StreamWriter(new FileStream(applicationDetailsPath, FileMode.Create), Encoding.UTF8))
+            {
+                await writer.WriteAsync(JsonConvert.SerializeObject(applicationDetails));
+            }
+        }
+
         static async Task AsyncMain(string[] args)
         {
             Parser.Default.ParseArguments<Options>(args).WithParsed(options => {
@@ -677,19 +720,20 @@ namespace epic_retriever
             });
 
             EGSApi = new EpicKit.WebApi();
-            JObject oauth_infos = new JObject();
+            EpicKit.SessionAccount oauth_infos = new();
+            List<ApplicationDetails> applicationDetails;
             bool login_with_sid = false;
             bool login_with_authcode = false;
-            string oauth_path = Path.Combine(ProgramOptions.OutCacheDirectory, "oauth_cache.json");
+            var oauth_path = Path.Combine(ProgramOptions.OutCacheDirectory, "oauth_cache.json");
 
             try
             {
                 using (StreamReader reader = new StreamReader(new FileStream(oauth_path, FileMode.Open), Encoding.UTF8))
                 {
-                    oauth_infos = JObject.Parse(reader.ReadToEnd());
+                    oauth_infos = JsonConvert.DeserializeObject<EpicKit.SessionAccount>(await reader.ReadToEndAsync());
                 }
 
-                oauth_infos = await EGSApi.Login(oauth_infos);
+                oauth_infos = await EGSApi.LoginAsync(oauth_infos.AccessToken, oauth_infos.AccessTokenExpiresAt, oauth_infos.RefreshToken, oauth_infos.RefreshExpiresAt, TimeSpan.FromHours(1));
             }
             catch (Exception e)
             {
@@ -751,15 +795,17 @@ namespace epic_retriever
             Console.WriteLine("Successfuly logged in !");
             using (StreamWriter writer = new StreamWriter(new FileStream(oauth_path, FileMode.Create), new UTF8Encoding(false)))
             {
-                writer.Write(oauth_infos.ToString());
+                await writer.WriteAsync(JsonConvert.SerializeObject(oauth_infos));
             }
 
             if (!ProgramOptions.NoInfos)
             {
-                AppList app_list = await DownloadAppList();
+                applicationDetails = await LoadApplicationDetailsAsync();
+
+                AppList app_list = await DownloadAppListAsync();
                 if (HasTargetApp)
                 {
-                    await GetAppInfos(ProgramOptions.AppNamespace, app_list, ProgramOptions.AppCatalogItemId);
+                    await GetAppInfosAsync(applicationDetails, ProgramOptions.AppNamespace, app_list, ProgramOptions.AppCatalogItemId);
                 }
                 else
                 {
@@ -767,10 +813,12 @@ namespace epic_retriever
                     {
                         foreach (var catalog_entry in namespace_entry.Value)
                         {
-                            await GetAppInfos(namespace_entry.Key, app_list, catalog_entry.Key);
+                            await GetAppInfosAsync(applicationDetails, namespace_entry.Key, app_list, catalog_entry.Key);
                         }
                     }
                 }
+
+                await SaveApplicationDetailsAsync(applicationDetails);
             }
 
             var gamesInfos = new List<GameInfos>();
