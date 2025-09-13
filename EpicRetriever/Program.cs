@@ -572,7 +572,7 @@ namespace epic_retriever
 
             foreach (var releaseInfo in app.ReleaseInfo)
             {
-                foreach(var pf in releaseInfo.Platform)
+                foreach(var pf in releaseInfo.Platforms)
                 {
                     if (!game_infos.Releases.Contains(pf))
                     {
