@@ -1032,45 +1032,52 @@ class Program
                 _logger.Error($"Failed to save app_infos.vdf: {e.Message}");
             }
         }
-        
-        if (productInfoKeyValues["common"] != KeyValue.Invalid)
+
+        try
         {
-            string appType = productInfoKeyValues["common"]["type"].Value.Trim().ToLower();
-            AppType type;
-        
-            switch (appType)
+            if (productInfoKeyValues["common"] != KeyValue.Invalid)
             {
-                case "game": type = AppType.Game; break;
-                case "dlc": type = AppType.Dlc; break;
-                case "demo": type = AppType.Demo; break;
-                case "beta": type = AppType.Beta; break;
-                case "application": type = AppType.Application; break;
-                case "tool": type = AppType.Tool; break;
-                default: type = AppType.Other; break;
-                    //Console.WriteLine($"Skipping app_type {app_type}");
-                    //return true;
-            }
-        
-            var infos = GetOrCreateApp(appId.ToString(), type == AppType.Dlc);
+                string appType = productInfoKeyValues["common"]["type"].Value.Trim().ToLower();
+                AppType type;
 
-            await UpdateMetadataDatabaseAsync(appId, applicationMetadata);
+                switch (appType)
+                {
+                    case "game": type = AppType.Game; break;
+                    case "dlc": type = AppType.Dlc; break;
+                    case "demo": type = AppType.Demo; break;
+                    case "beta": type = AppType.Beta; break;
+                    case "application": type = AppType.Application; break;
+                    case "tool": type = AppType.Tool; break;
+                    default: type = AppType.Other; break;
+                        //Console.WriteLine($"Skipping app_type {app_type}");
+                        //return true;
+                }
 
-            ParseCommonDetails(infos, appId, productInfoKeyValues, appType);
-        
-            switch(type)
-            {
-                //case AppType.Other: ParseOtherDetails(); break;
-                case AppType.Dlc  : await ParseDlcDetailsAsync(infos, appId, productInfoKeyValues); break;
-                case AppType.Application:
-                case AppType.Tool:
-                case AppType.Demo:
-                case AppType.Beta:
-                case AppType.Game : await ParseGameDetails(infos, appId, productInfoKeyValues); break;
+                var infos = GetOrCreateApp(appId.ToString(), type == AppType.Dlc);
+
+                await UpdateMetadataDatabaseAsync(appId, applicationMetadata);
+
+                ParseCommonDetails(infos, appId, productInfoKeyValues, appType);
+
+                switch (type)
+                {
+                    //case AppType.Other: ParseOtherDetails(); break;
+                    case AppType.Dlc: await ParseDlcDetailsAsync(infos, appId, productInfoKeyValues); break;
+                    case AppType.Application:
+                    case AppType.Tool:
+                    case AppType.Demo:
+                    case AppType.Beta:
+                    case AppType.Game: await ParseGameDetails(infos, appId, productInfoKeyValues); break;
+                }
+
+                await SaveJsonAsync(appOutputPath, infos);
+
+                _logger.Info($"  \\ Type {appType}, AppID {appId}, appName {(string)infos["Name"]}");
             }
-        
-            await SaveJsonAsync(appOutputPath, infos);
-        
-            _logger.Info($"  \\ Type {appType}, AppID {appId}, appName {(string)infos["Name"]}");
+        }
+        catch(Exception e)
+        {
+            _logger.Error($"## Exception while parsing {appId}: {e.Message} ##", e);
         }
 
         return true;
