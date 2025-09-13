@@ -1207,8 +1207,22 @@ class Program
 
     ApplicationMetadata ApplicationMetadataFromPICS(SteamApps.PICSProductInfoCallback.PICSProductInfo productInfo)
     {
+        var name = string.Empty;
+
+        if (productInfo.KeyValues != null && productInfo.KeyValues != KeyValue.Invalid &&
+            productInfo.KeyValues["common"] != null && productInfo.KeyValues["common"] != KeyValue.Invalid &&
+            productInfo.KeyValues["common"]["name"] != null && productInfo.KeyValues["common"]["name"] != KeyValue.Invalid)
+        {
+            name = productInfo.KeyValues["common"]["name"].AsString();
+        }
+        else
+        {
+            name = $"Unknown {productInfo.ID}";
+        }
+
         return new ApplicationMetadata
         {
+            Name = name,
             ChangeNumber = productInfo.ChangeNumber,
             LastUpdateTimestamp = DateTime.UtcNow,
         };
@@ -1250,6 +1264,7 @@ class Program
         }
         else
         {
+            appMetadata.Name = applicationMetadata.Name;
             appMetadata.ChangeNumber = applicationMetadata.ChangeNumber;
         }
 
@@ -1338,6 +1353,7 @@ class Program
                                             {
                                                 MetadataDatabase.ApplicationDetails[appid] = new ApplicationMetadata
                                                 {
+                                                    Name = $"Unknown {appid}",
                                                     ChangeNumber = 0,
                                                     LastUpdateTimestamp = DateTime.UtcNow,
                                                 };
