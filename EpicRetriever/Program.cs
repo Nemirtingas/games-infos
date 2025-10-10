@@ -424,15 +424,16 @@ namespace epic_retriever
 
         static async Task<CatalogModel> GetAppCatalogInfos(string namespace_)
         {
-            // graphql.epicgames.com has been disabled?
-            return null;
             try
             {
-                var url = $"https://graphql.epicgames.com/graphql?query={{Catalog{{catalogOffers(namespace:\"{namespace_}\" params:{{count:500}}){{elements{{id title offerType items{{id title}}}}}}}}}}";
+                var userAgent = "EpicGamesLauncher/14.0.8-22004686+++Portal+Release-Live";
+                var url = $"https://launcher.store.epicgames.com/graphql?query={{Catalog{{catalogOffers(namespace:\"{namespace_}\" params:{{count:500}}){{elements{{id title offerType items{{id title}}}}}}}}}}";
                 var webClient = new HttpClient(new HttpClientHandler
                 {
                     AutomaticDecompression = DecompressionMethods.All,
                 });
+
+                webClient.DefaultRequestHeaders.TryAddWithoutValidation("User-Agent", userAgent);
 
                 using (var reader = new StreamReader((await webClient.SendAsync(new HttpRequestMessage(HttpMethod.Get, url))).Content.ReadAsStream()))
                 {
