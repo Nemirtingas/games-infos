@@ -12,6 +12,10 @@ using System.Net.Http.Headers;
 using System.Text;
 using System.Threading.Tasks;
 
+// Find a store game page:
+// https://store-content.ak.epicgames.com/api/content/productmapping
+// https://store-content.ak.epicgames.com/api/en/content/products/into-the-breach
+
 namespace epic_retriever
 {
     public class Options
