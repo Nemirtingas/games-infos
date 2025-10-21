@@ -1371,10 +1371,17 @@ class Program
 
                         foreach (var appid in chunk)
                         {
-                            await GetAppDetailsFromSteamNetwork(appid, AppIds[appid], applicationsMetadata[appid]);
+                            try
+                            {
+                                await GetAppDetailsFromSteamNetwork(appid, AppIds[appid], applicationsMetadata[appid]);
 
-                            if (!Options.CacheOnly)
-                                ContentDownloader.steam3.AppInfo.Remove(appid);
+                                if (!Options.CacheOnly)
+                                    ContentDownloader.steam3.AppInfo.Remove(appid);
+                            }
+                            catch(Exception e)
+                            {
+                                _logger.Error($"Error {e.Message}", e);
+                            }
 
                             AppIds.Remove(appid);
                             DoneAppIds.Add(appid);
