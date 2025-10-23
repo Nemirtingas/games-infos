@@ -644,7 +644,11 @@ class Program
                 return true;
             }
         }
-        catch(Exception e)
+        catch (TaskCanceledException e)
+        {
+            throw;
+        }
+        catch (Exception e)
         {
             _logger.Error($" failed (no items?): {e.Message}");
         }
@@ -1075,6 +1079,10 @@ class Program
                 _logger.Info($"  \\ Type {appType}, AppID {appId}, appName {(string)infos["Name"]}");
             }
         }
+        catch (TaskCanceledException e)
+        {
+            throw;
+        }
         catch(Exception e)
         {
             _logger.Error($"## Exception while parsing {appId}: {e.Message} ##", e);
@@ -1272,6 +1280,30 @@ class Program
         await SaveMetadataDatabaseAsync();
     }
 
+    bool RestartSteamConnection()
+    {
+        try
+        {
+            if (WebSteamUser != null)
+            {
+                WebSteamUser.Dispose();
+            }
+
+            ContentDownloader.ShutdownSteam3();
+
+            var result = ContentDownloader.InitializeSteam3(Options.Username, Options.UserPassword);
+            if (result)
+                WebSteamUser = WebAPI.GetInterface("ISteamUser", Options.WebApiKey);
+
+            return result;
+        }
+        catch(Exception e)
+        {
+            _logger.Error($"Failed to restart steam: {e.Message}", e);
+            return false;
+        }
+    }
+
     async Task MainFunc(string[] args)
     {
         InitializeLogger();
@@ -1371,16 +1403,39 @@ class Program
 
                         foreach (var appid in chunk)
                         {
-                            try
+                            if (AppIds.TryGetValue(appid, out var appIdKeyValue) && applicationsMetadata.TryGetValue(appid, out var metadata))
                             {
-                                await GetAppDetailsFromSteamNetwork(appid, AppIds[appid], applicationsMetadata[appid]);
+                                while (true)
+                                {
+                                    try
+                                    {
+                                        await GetAppDetailsFromSteamNetwork(appid, appIdKeyValue, metadata);
 
-                                if (!Options.CacheOnly)
-                                    ContentDownloader.steam3.AppInfo.Remove(appid);
+                                        if (!Options.CacheOnly)
+                                            ContentDownloader.steam3.AppInfo.Remove(appid);
+
+                                        break;
+                                    }
+                                    catch(TaskCanceledException e)
+                                    {
+                                        _logger.Error($"Failed to handle app {appid}: {e.Message}", e);
+                                        int i;
+                                        for (i = 0; i < 5; ++i)
+                                        {
+                                            if (RestartSteamConnection())
+                                                break;
+
+                                            _logger.Info("Failed to restart steam connection, waiting 5s...");
+                                            await Task.Delay(TimeSpan.FromSeconds(5));
+                                        }
+                                        if (i == 5)
+                                            throw;
+                                    }
+                                }
                             }
-                            catch(Exception e)
+                            else
                             {
-                                _logger.Error($"Error {e.Message}", e);
+                                _logger.Info($"Skipped{appid}: missing keyValue and/or metadata...");
                             }
 
                             AppIds.Remove(appid);
