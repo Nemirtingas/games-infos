@@ -1377,6 +1377,7 @@ class Program
             {
                 AccountSettingsStore.Instance.LoadFromFile("steam_retriever_cred.store");
                 ContentDownloader.Config.RememberPassword = Options.RememberPassword;
+                ContentDownloader.Config.LoginID = Options.LoginId;
                 if (Options.CacheOnly || ContentDownloader.InitializeSteam3(Options.Username, Options.UserPassword))
                 {
                     ContentDownloader.Config.MaxDownloads = 50;
@@ -1513,8 +1514,12 @@ public class ProgramOptions
 
     [Option('p', "password", Required = false, HelpText = "The steam user password.")]
     public string UserPassword { get; set; } = string.Empty;
+    
     [Option('r', "remember-password", Required = false, HelpText = "Save password for future login.")]
     public bool RememberPassword { get; set; } = false;
+
+    [Option("login-id", Required = false, HelpText = "Steam loginId.")]
+    public uint? LoginId { get; set; } = null;
 
     [Option('l', "language", Required = false, HelpText = "Sets the output language (if available). Default value is english.")]
     public string Language { get; set; } = "english";
