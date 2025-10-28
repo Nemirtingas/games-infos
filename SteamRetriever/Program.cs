@@ -1271,7 +1271,10 @@ class Program
     async Task SaveMetadataDatabaseAsync()
     {
         var filePath = Path.Combine(Path.GetDirectoryName(Options.OutDirectory), "steam_metadata.json");
-        await SaveFileAsync(filePath, Newtonsoft.Json.JsonConvert.SerializeObject(MetadataDatabase));
+        await SaveFileAsync(filePath, Newtonsoft.Json.JsonConvert.SerializeObject(MetadataDatabase, new JsonSerializerSettings
+        {
+            NullValueHandling = NullValueHandling.Ignore
+        }));
     }
 
     async Task UpdateMetadataDatabaseStatsSteamIdAsync(uint appId, ulong steamID)
@@ -1311,6 +1314,8 @@ class Program
             appMetadata.Name = applicationMetadata.Name;
             appMetadata.ChangeNumber = applicationMetadata.ChangeNumber;
         }
+        if (string.IsNullOrWhiteSpace(appMetadata.Name))
+            appMetadata.Name = $"Unknown {appId}";
 
         appMetadata.LastUpdateTimestamp = DateTime.UtcNow;
         await SaveMetadataDatabaseAsync();
@@ -1472,7 +1477,7 @@ class Program
                             }
                             else
                             {
-                                _logger.Info($"Skipped{appid}: missing keyValue and/or metadata...");
+                                _logger.Info($"Skipped {appid}: missing keyValue and/or metadata...");
                             }
 
                             AppIds.Remove(appid);
