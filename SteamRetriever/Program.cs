@@ -570,16 +570,14 @@ class Program
         if (IsAnonymous)
             return false;
 
-        List<SteamID> reviewers_ids;
+        var reviewersIds = await GetAppPublicSteamIDs(appid, 15);
 
-        reviewers_ids = await GetAppPublicSteamIDs(appid, 15);
-
-        if (reviewers_ids.Count == 0)
+        if (reviewersIds.Count == 0)
             return false;
 
-        foreach (SteamID steam_id in reviewers_ids)
+        foreach (var steamId in reviewersIds)
         {
-            var result = await ContentDownloader.steam3.GetUserStats(appid, steam_id.ConvertToUInt64());
+            var result = await ContentDownloader.steam3.GetUserStats(appid, steamId);
 
             try
             {
@@ -589,8 +587,10 @@ class Program
                     {
                         result.Schema.SaveToStream(ms, false);
                         ms.Position = 0;
-                        
-                        using(var sr = new StreamReader(ms))
+
+                        await UpdateMetadataDatabaseStatsSteamIdAsync(appid, steamId);
+
+                        using (var sr = new StreamReader(ms))
                         {
                             await SaveFileAsync(Path.Combine(Options.CacheOutDirectory, appid.ToString(), "stats_schema.vdf"), sr.ReadToEnd());
                         }
@@ -656,9 +656,9 @@ class Program
         return false;
     }
 
-    async Task<List<SteamID>> GetAppPublicSteamIDs(ulong appid, int max_id_count)
+    async Task<List<ulong>> GetAppPublicSteamIDs(long appid, int maxIdCount)
     {
-        List<SteamID> public_steamids = new List<SteamID>
+        var publicSteamIds = new List<ulong>
         {
             76561198028121353,
             76561198001237877,
@@ -675,27 +675,38 @@ class Program
 
         try
         {
+            if (MetadataDatabase.ApplicationDetails.TryGetValue(appid, out var application) && application.PublicSteamIdForStats != null)
+            {
+                KeyValue kvUser = WebSteamUser.GetPlayerSummaries2(steamids: application.PublicSteamIdForStats.Value);
+
+                foreach (KeyValue v in kvUser["players"].Children)
+                {
+                    if (v["communityvisibilitystate"].AsLong() == 3)
+                        return new List<ulong> {application.PublicSteamIdForStats.Value };
+                }
+            }
+
             var response = await LimitSteamWebApiGET(
                 WebHttpClient,
                 new HttpRequestMessage(HttpMethod.Get, $"https://store.steampowered.com/appreviews/{appid}?json=1&cursor=*&start_date=-1&end_date=-1date_range_type=all&filter=summary&language=all&review_type=all&purchase_type=all&playtime_filter_min=0&playtime_filter_max=0"));
 
-            JObject reviews = JObject.Parse(await response.Content.ReadAsStringAsync());
+            var reviews = JObject.Parse(await response.Content.ReadAsStringAsync());
 
             if (reviews["success"] != null && (int)reviews["success"] == 1 && reviews["reviews"] != null)
             {
                 foreach (var entry in reviews["reviews"])
                 {
-                    if (public_steamids.Count >= max_id_count)
+                    if (publicSteamIds.Count >= maxIdCount)
                         break;
 
-                    string user_steamid = (string)entry["author"]["steamid"];
-                    KeyValue kvUser = WebSteamUser.GetPlayerSummaries2(steamids: user_steamid);
+                    string userSteamId = (string)entry["author"]["steamid"];
+                    KeyValue kvUser = WebSteamUser.GetPlayerSummaries2(steamids: userSteamId);
 
                     foreach (KeyValue v in kvUser["players"].Children)
                     {
                         if (v["communityvisibilitystate"].AsLong() == 3)
                         {
-                            public_steamids.Add(new SteamID(ulong.Parse(user_steamid)));
+                            publicSteamIds.Add(ulong.Parse(userSteamId));
                         }
                     }
                 }
@@ -704,7 +715,7 @@ class Program
         catch(Exception)
         { }
 
-        return public_steamids;
+        return publicSteamIds;
     }
 
     async Task<bool> SaveAchievementsToFileAsync(string appid, JToken json)
@@ -1261,6 +1272,31 @@ class Program
     {
         var filePath = Path.Combine(Path.GetDirectoryName(Options.OutDirectory), "steam_metadata.json");
         await SaveFileAsync(filePath, Newtonsoft.Json.JsonConvert.SerializeObject(MetadataDatabase));
+    }
+
+    async Task UpdateMetadataDatabaseStatsSteamIdAsync(uint appId, ulong steamID)
+    {
+        var changed = false;
+        if (!MetadataDatabase.ApplicationDetails.TryGetValue(appId, out var appMetadata))
+        {
+            appMetadata = new ApplicationMetadata();
+            appMetadata.Name = $"Unknown {steamID}";
+            appMetadata.PublicSteamIdForStats = steamID;
+            MetadataDatabase.ApplicationDetails[appId] = appMetadata;
+
+            changed = true;
+        }
+        else
+        {
+            if (appMetadata.PublicSteamIdForStats != steamID)
+            {
+                appMetadata.PublicSteamIdForStats = steamID;
+                changed = true;
+            }
+        }
+
+        if (changed)
+            await SaveMetadataDatabaseAsync();
     }
 
     async Task UpdateMetadataDatabaseAsync(uint appId, ApplicationMetadata applicationMetadata)

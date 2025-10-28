@@ -8,4 +8,5 @@ public class ApplicationMetadata
     public ulong ChangeNumber { get; set; } = 0;
     [JsonConverter(typeof(DateTimeToUnixMillisecondsConverter))]
     public DateTime LastUpdateTimestamp { get; set; }
+    public ulong? PublicSteamIdForStats { get; set; }
 }
