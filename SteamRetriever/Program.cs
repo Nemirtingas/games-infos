@@ -16,6 +16,8 @@ using log4net;
 using log4net.Layout;
 using SteamRetriever.Models;
 using Newtonsoft.Json;
+using Newtonsoft.Json.Converters;
+using System.Runtime.Serialization;
 
 namespace SteamRetriever;
 
@@ -52,27 +54,67 @@ class StoreServiceResponseModel
     public StoreServiceApplicationResponseModel Response { get; set; }
 }
 
+enum SchemaStatType
+{
+    Int = 1,
+    Float = 2,
+    AvgRate = 3,
+    Bits = 4, // Achievements
+}
+
+enum AppType
+{
+    [EnumMember(Value = "Other")]
+    Other = 0,
+    [EnumMember(Value = "Game")]
+    Game = 1,
+    [EnumMember(Value = "Dlc")]
+    Dlc = 2,
+    [EnumMember(Value = "Application")]
+    Application = 3,
+    [EnumMember(Value = "Tool")]
+    Tool = 4,
+    [EnumMember(Value = "Demo")]
+    Demo = 5,
+    [EnumMember(Value = "Beta")]
+    Beta = 6,
+}
+
+class GameInfoControllerModel
+{
+    [JsonProperty("Type")]
+    public string Type { get; set; }
+}
+
+class GameInfoApplicationModel
+{
+    [JsonProperty("Name")]
+    public string Name { get; set; }
+
+    [JsonProperty("AppId")]
+    public uint AppId { get; set; }
+
+    [JsonProperty("Type")]
+    [JsonConverter(typeof(StringEnumConverter))]
+    public AppType Type { get; set; }
+
+    [JsonProperty("ImageUrl")]
+    public string ImageUrl { get; set; }
+
+    [JsonProperty("MainAppId")]
+    public uint? MainAppId { get; set; }
+
+    [JsonProperty("Languages")]
+    public List<string> Languages { get; set; }
+
+    public Dictionary<ulong, GameInfoControllerModel> ControllerConfigurations { get; set; }
+
+    [JsonProperty("Dlcs")]
+    public Dictionary<uint, GameInfoApplicationModel> Dlcs { get; set; }
+}
+
 class Program
 {
-    enum SchemaStatType
-    {
-        Int = 1,
-        Float = 2,
-        AvgRate = 3,
-        Bits = 4, // Achievements
-    }
-
-    enum AppType
-    {
-        Other = 0,
-        Game = 1,
-        Dlc = 2,
-        Application = 3,
-        Tool = 4,
-        Demo = 5,
-        Beta = 6,
-    }
-
     readonly object ExitCondVar = new object();
 
     public static Program Instance { get; private set; }
@@ -80,7 +122,7 @@ class Program
 
     ProgramOptions Options;
 
-    JObject GamesInfos = new JObject();
+    Dictionary<uint, GameInfoApplicationModel> GamesInfos = new();
     Dictionary<uint, KeyValue> AppIds = new Dictionary<uint, KeyValue>();
     HashSet<uint> DoneAppIds = new HashSet<uint>();
     
@@ -588,7 +630,7 @@ class Program
                         result.Schema.SaveToStream(ms, false);
                         ms.Position = 0;
 
-                        await UpdateMetadataDatabaseStatsSteamIdAsync(appid, steamId);
+                        UpdateMetadataDatabaseStatsSteamId(appid, steamId);
 
                         using (var sr = new StreamReader(ms))
                         {
@@ -741,29 +783,32 @@ class Program
         return await SaveJsonAsync(Path.Combine(Options.OutDirectory, appid, "stats_db.json"), json);
     }
 
-    JObject GetOrCreateApp(string appid, bool is_dlc)
+    GameInfoApplicationModel GetOrCreateApp(uint appid, AppType appType)
     {
         if (!GamesInfos.ContainsKey(appid))
         {
-            string infos_file = Path.Combine(Options.OutDirectory, appid, appid + ".json");
+            string infos_file = Path.Combine(Options.OutDirectory, $"{appid}", $"{appid}.json");
             try
             {
                 using (StreamReader reader = new StreamReader(new FileStream(infos_file, FileMode.Open), new UTF8Encoding(false)))
                 {
-                    GamesInfos.Add(appid, JObject.Parse(reader.ReadToEnd()));
+                    GamesInfos.Add(appid, JsonConvert.DeserializeObject<GameInfoApplicationModel>(reader.ReadToEnd()));
                 }
             }
             catch (Exception)
             {
-                GamesInfos.Add(appid, new JObject());
+                GamesInfos.Add(appid, new()
+                {
+                    AppId = appid,
+                    Type = appType,
+                });
             }
         }
 
-        JObject app = (JObject)GamesInfos[appid];
-        if (!is_dlc && !app.ContainsKey("Dlcs"))
-        {
-            app["Dlcs"] = new JObject();
-        }
+        var app = GamesInfos[appid];
+        if (appType != AppType.Dlc && app.Dlcs == null)
+            app.Dlcs = new();
+
         return app;
     }
 
@@ -794,35 +839,35 @@ class Program
         return false;
     }
 
-    bool ParseCommonDetails(JObject infos, uint appid, KeyValue app, string type)
+    bool ParseCommonDetails(GameInfoApplicationModel infos, uint appid, KeyValue app, AppType type)
     {
         string app_name = app["common"]["name"].Value;
 
-        infos["Name"] = app_name;
-        infos["AppId"] = appid;
-        infos["Type"] = type;
+        infos.Name = app_name;
+        infos.AppId = appid;
+        infos.Type = type;
 
         foreach (var image in app["common"]["header_image"].Children)
         {
             if (image.Name == "english")
             {
-                infos["ImageUrl"] = $"https://cdn.akamai.steamstatic.com/steam/apps/{appid}/{image.Value}";
+                infos.ImageUrl = $"https://cdn.akamai.steamstatic.com/steam/apps/{appid}/{image.Value}";
                 break;
             }
 
-            infos["ImageUrl"] = $"https://cdn.akamai.steamstatic.com/steam/apps/{appid}/{image.Value}";
+            infos.ImageUrl = $"https://cdn.akamai.steamstatic.com/steam/apps/{appid}/{image.Value}";
         }
 
         return true;
     }
 
-    async Task<bool> ParseGameDetails(JObject infos, uint appid, KeyValue app)
+    async Task<bool> ParseGameDetails(GameInfoApplicationModel infos, uint appid, KeyValue app)
     {
         string str_appid = appid.ToString();
 
         if (app["common"]["supported_languages"].Children.Count > 0)
         {
-            infos["Languages"] = new JArray();
+            infos.Languages = new List<string>();
             foreach (var language in app["common"]["supported_languages"].Children)
             {
                 try
@@ -831,7 +876,7 @@ class Program
                     int i;
                     if ((bool.TryParse(language["supported"].AsString(), out b) && b) || (int.TryParse(language["supported"].AsString(), out i) && i != 0))
                     {
-                        ((JArray)infos["Languages"]).Add(language.Name.Trim().ToLower());
+                        infos.Languages.Add(language.Name.Trim().ToLower());
                     }
                 }
                 catch (Exception)
@@ -841,7 +886,7 @@ class Program
 
         if (app["config"]["steamcontrollerconfigdetails"].Children.Count > 0)
         {
-            infos["ControllerConfigurations"] = new JObject();
+            infos.ControllerConfigurations = new();
             foreach (var controller_config in app["config"]["steamcontrollerconfigdetails"].Children)
             {
                 string published_id = "0";
@@ -849,9 +894,9 @@ class Program
                 {
                     published_id = controller_config.Name.Trim();
 
-                    ((JObject)infos["ControllerConfigurations"])[published_id] = new JObject{
-                        { "Type", controller_config["controller_type"].Value.Trim().ToLower() }
-                    };
+                    infos.ControllerConfigurations.Add(ulong.Parse(published_id), new GameInfoControllerModel{
+                        Type = controller_config["controller_type"].Value.Trim().ToLower()
+                    });
 
                     if (!Options.CacheOnly && Options.DownloadControllerConfigurations)
                     {
@@ -977,23 +1022,23 @@ class Program
         return true;
     }
 
-    async Task<bool> ParseDlcDetailsAsync(JObject infos, uint appid, KeyValue app)
+    async Task<bool> ParseDlcDetailsAsync(GameInfoApplicationModel infos, uint appid, KeyValue app)
     {
         if (app["common"]["parent"].Value != null)
         {
             string str_main_appid = app["common"]["parent"].Value.Trim();
             uint main_appid = uint.Parse(str_main_appid);
 
-            JObject main_app = GetOrCreateApp(str_main_appid, false);
+            var main_app = GetOrCreateApp(main_appid, AppType.Game);
 
             if (!AppIds.ContainsKey(main_appid) && !DoneAppIds.Contains(main_appid))
             {
                 AppIds.Add(main_appid, null);
             }
 
-            infos["MainAppId"] = main_appid;
+            infos.MainAppId = main_appid;
             // Add the dlc to its main game
-            main_app["Dlcs"][appid.ToString()] = infos;
+            main_app.Dlcs[appid] = infos;
 
             // Only update main app if it already exists
             if (File.Exists(Path.Combine(Options.OutDirectory, str_main_appid, str_main_appid + ".json")))
@@ -1068,11 +1113,9 @@ class Program
                         //return true;
                 }
 
-                var infos = GetOrCreateApp(appId.ToString(), type == AppType.Dlc);
+                var infos = GetOrCreateApp(appId, type);
 
-                await UpdateMetadataDatabaseAsync(appId, applicationMetadata);
-
-                ParseCommonDetails(infos, appId, productInfoKeyValues, appType);
+                ParseCommonDetails(infos, appId, productInfoKeyValues, type);
 
                 switch (type)
                 {
@@ -1085,9 +1128,11 @@ class Program
                     case AppType.Game: await ParseGameDetails(infos, appId, productInfoKeyValues); break;
                 }
 
+                applicationMetadata.Name = infos.Name;
+                UpdateMetadataDatabase(appId, applicationMetadata);
                 await SaveJsonAsync(appOutputPath, infos);
 
-                _logger.Info($"  \\ Type {appType}, AppID {appId}, appName {(string)infos["Name"]}");
+                _logger.Info($"  \\ Type {appType}, AppID {appId}, appName {infos.Name}");
             }
         }
         catch (TaskCanceledException e)
@@ -1224,27 +1269,32 @@ class Program
         _logger = log4net.LogManager.GetLogger(typeof(Program));
     }
 
-    ApplicationMetadata ApplicationMetadataFromPICS(SteamApps.PICSProductInfoCallback.PICSProductInfo productInfo)
+    ApplicationMetadata ApplicationMetadataFromPICSKeyValue(uint appId, KeyValue productInfo, ulong changeNumber)
     {
         var name = string.Empty;
 
-        if (productInfo.KeyValues != null && productInfo.KeyValues != KeyValue.Invalid &&
-            productInfo.KeyValues["common"] != null && productInfo.KeyValues["common"] != KeyValue.Invalid &&
-            productInfo.KeyValues["common"]["name"] != null && productInfo.KeyValues["common"]["name"] != KeyValue.Invalid)
+        if (productInfo != null && productInfo != KeyValue.Invalid &&
+            productInfo["common"] != null && productInfo["common"] != KeyValue.Invalid &&
+            productInfo["common"]["name"] != null && productInfo["common"]["name"] != KeyValue.Invalid)
         {
-            name = productInfo.KeyValues["common"]["name"].AsString();
+            name = productInfo["common"]["name"].AsString();
         }
         else
         {
-            name = $"Unknown {productInfo.ID}";
+            name = $"Unknown {appId}";
         }
 
         return new ApplicationMetadata
         {
             Name = name,
-            ChangeNumber = productInfo.ChangeNumber,
+            ChangeNumber = changeNumber,
             LastUpdateTimestamp = DateTime.UtcNow,
         };
+    }
+
+    ApplicationMetadata ApplicationMetadataFromPICS(SteamApps.PICSProductInfoCallback.PICSProductInfo productInfo)
+    {
+        return ApplicationMetadataFromPICSKeyValue(productInfo.ID, productInfo.KeyValues, productInfo.ChangeNumber);
     }
 
     async Task LoadMetadataDatabaseAsync()
@@ -1277,32 +1327,25 @@ class Program
         }));
     }
 
-    async Task UpdateMetadataDatabaseStatsSteamIdAsync(uint appId, ulong steamID)
+    void UpdateMetadataDatabaseStatsSteamId(uint appId, ulong steamID)
     {
-        var changed = false;
         if (!MetadataDatabase.ApplicationDetails.TryGetValue(appId, out var appMetadata))
         {
             appMetadata = new ApplicationMetadata();
             appMetadata.Name = $"Unknown {steamID}";
             appMetadata.PublicSteamIdForStats = steamID;
             MetadataDatabase.ApplicationDetails[appId] = appMetadata;
-
-            changed = true;
         }
         else
         {
             if (appMetadata.PublicSteamIdForStats != steamID)
             {
                 appMetadata.PublicSteamIdForStats = steamID;
-                changed = true;
             }
         }
-
-        if (changed)
-            await SaveMetadataDatabaseAsync();
     }
 
-    async Task UpdateMetadataDatabaseAsync(uint appId, ApplicationMetadata applicationMetadata)
+    void UpdateMetadataDatabase(uint appId, ApplicationMetadata applicationMetadata)
     {
         if (!MetadataDatabase.ApplicationDetails.TryGetValue(appId, out var appMetadata))
         {
@@ -1314,11 +1357,8 @@ class Program
             appMetadata.Name = applicationMetadata.Name;
             appMetadata.ChangeNumber = applicationMetadata.ChangeNumber;
         }
-        if (string.IsNullOrWhiteSpace(appMetadata.Name))
-            appMetadata.Name = $"Unknown {appId}";
 
         appMetadata.LastUpdateTimestamp = DateTime.UtcNow;
-        await SaveMetadataDatabaseAsync();
     }
 
     bool RestartSteamConnection()
@@ -1399,7 +1439,7 @@ class Program
                     while (AppIds.Count > 0)
                     {
                         applicationsMetadata.Clear();
-                        var chunk = AppIds.Keys.Chunk(1000).First();
+                        var chunk = AppIds.Keys.Chunk(5000).First();
                         if (!Options.CacheOnly)
                         {
                             await ContentDownloader.steam3.RequestAppsInfo(chunk, false);
@@ -1423,18 +1463,11 @@ class Program
                                         KeyValue appinfos = new KeyValue();
                                         if (appinfos.ReadAsText(fs))
                                         {
-                                            if (!MetadataDatabase.ApplicationDetails.TryGetValue(appid, out var applicationMetadata))
-                                            {
-                                                MetadataDatabase.ApplicationDetails[appid] = new ApplicationMetadata
-                                                {
-                                                    Name = $"Unknown {appid}",
-                                                    ChangeNumber = 0,
-                                                    LastUpdateTimestamp = DateTime.UtcNow,
-                                                };
-                                            }
+                                            if (MetadataDatabase.ApplicationDetails?.TryGetValue(appid, out var metadata) != true)
+                                                metadata = null;
 
-                                            applicationsMetadata[appid] = MetadataDatabase.ApplicationDetails[appid];
                                             AppIds[appid] = appinfos;
+                                            applicationsMetadata[appid] = ApplicationMetadataFromPICSKeyValue(appid, appinfos, metadata?.ChangeNumber ?? 0);
                                         }
                                     }
                                 }
@@ -1483,6 +1516,7 @@ class Program
                             AppIds.Remove(appid);
                             DoneAppIds.Add(appid);
                         }
+                        await SaveMetadataDatabaseAsync();
                     }
                 }
             }
@@ -1498,6 +1532,7 @@ class Program
         }
 
         ContentDownloader.ShutdownSteam3();
+        await SaveMetadataDatabaseAsync();
     }
 
     static async Task Main(string[] args)
