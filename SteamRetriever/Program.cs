@@ -686,7 +686,7 @@ class Program
                 return true;
             }
         }
-        catch (TaskCanceledException e)
+        catch (TaskCanceledException)
         {
             throw;
         }
@@ -851,11 +851,11 @@ class Program
         {
             if (image.Name == "english")
             {
-                infos.ImageUrl = $"https://cdn.akamai.steamstatic.com/steam/apps/{appid}/{image.Value}";
+                infos.ImageUrl = $"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/{appid}/{image.Value}";
                 break;
             }
 
-            infos.ImageUrl = $"https://cdn.akamai.steamstatic.com/steam/apps/{appid}/{image.Value}";
+            infos.ImageUrl = $"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/{appid}/{image.Value}";
         }
 
         return true;
@@ -1135,7 +1135,7 @@ class Program
                 _logger.Info($"  \\ Type {appType}, AppID {appId}, appName {infos.Name}");
             }
         }
-        catch (TaskCanceledException e)
+        catch (TaskCanceledException)
         {
             throw;
         }
@@ -1463,6 +1463,7 @@ class Program
                                         KeyValue appinfos = new KeyValue();
                                         if (appinfos.ReadAsText(fs))
                                         {
+                                            // No need to lock on read-only
                                             if (MetadataDatabase.ApplicationDetails?.TryGetValue(appid, out var metadata) != true)
                                                 metadata = null;
 
