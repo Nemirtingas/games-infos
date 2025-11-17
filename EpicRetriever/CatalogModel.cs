@@ -17,6 +17,7 @@ namespace epic_retriever
         BUNDLE,
         CONSUMABLE,
         EXPERIENCE,
+        DIGITAL_EXTRA,
     }
 
     public class CatalogDataCatalogOffersElementItemModel
