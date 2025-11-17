@@ -620,7 +620,6 @@ class Program
         foreach (var steamId in reviewersIds)
         {
             var result = await ContentDownloader.steam3.GetUserStats(appid, steamId);
-
             try
             {
                 if (result.Result == EResult.OK && result.Schema != null)
@@ -1411,14 +1410,7 @@ class Program
             WebHttpClient.DefaultRequestHeaders.TryAddWithoutValidation("Referer", "https://store.steampowered.com/");
             WebHttpClient.DefaultRequestHeaders.TryAddWithoutValidation("Accept-encoding", "gzip, deflate, br");
 
-            if (AppIds.Count == 0)
-            {
-                await GetSteamAppidsAsync();
-            }
-
-            _logger.Info($"Got {AppIds.Count} AppIDs to check");
-
-            if (AppIds.Count > 0 && !string.IsNullOrWhiteSpace(Options.Username) && !string.IsNullOrWhiteSpace(Options.UserPassword))
+            if (!string.IsNullOrWhiteSpace(Options.Username) && !string.IsNullOrWhiteSpace(Options.UserPassword))
             {
                 AccountSettingsStore.Instance.LoadFromFile("steam_retriever_cred.store");
                 ContentDownloader.Config.RememberPassword = Options.RememberPassword;
@@ -1434,18 +1426,44 @@ class Program
                     }
 
                     await LoadMetadataDatabaseAsync();
-
                     var applicationsMetadata = new Dictionary<uint, ApplicationMetadata>();
-                    while (AppIds.Count > 0)
+
+                    var changes = default(SteamApps.PICSChangesCallback);
+                    var chunks = default(IEnumerable<uint[]>);
+                    if (AppIds.Count == 0)
                     {
-                        applicationsMetadata.Clear();
-                        var chunk = AppIds.Keys.Chunk(5000).First();
                         if (!Options.CacheOnly)
                         {
-                            await ContentDownloader.steam3.RequestAppsInfo(chunk, false);
+                            changes = await ContentDownloader.steam3.RequestAppDiffAsync((uint)MetadataDatabase.LastChangeNumber);
+                            chunks = changes.AppChanges.Select(e => e.Value.ID).Chunk(5000);
+                            foreach (var appId in changes.AppChanges.Select(e => e.Value.ID))
+                            {
+                                AppIds.Add(appId, null);
+                            }
+                        }
+                        else
+                        {
+                            foreach (var appId in MetadataDatabase.ApplicationDetails.Select(e => e.Key))
+                            {
+                                AppIds.Add((uint)appId, null);
+                            }
+                            chunks = AppIds.Select(e => e.Key).Chunk(5000);
+                        }
+                    }
+                    else
+                    {
+                        chunks = new List<uint[]> { AppIds.Select(e => e.Key).ToArray() };
+                    }
+
+                    _logger.Info($"Got {AppIds.Count} AppIDs to check");
+                    foreach (var chunk in chunks)
+                    {
+                        if (!Options.CacheOnly)
+                        {
+                            await ContentDownloader.steam3.RequestAppsInfoAsync(chunk, false);
                             foreach (var appid in chunk)
                             {
-                                if (ContentDownloader.steam3.AppInfo[appid]?.KeyValues != null)
+                                if (ContentDownloader.steam3.AppInfo.ContainsKey(appid) && ContentDownloader.steam3.AppInfo[appid]?.KeyValues != null)
                                 {
                                     AppIds[appid] = ContentDownloader.steam3.AppInfo[appid]?.KeyValues;
                                     applicationsMetadata[appid] = ApplicationMetadataFromPICS(ContentDownloader.steam3.AppInfo[appid]);
@@ -1492,7 +1510,7 @@ class Program
 
                                         break;
                                     }
-                                    catch(TaskCanceledException e)
+                                    catch (TaskCanceledException e)
                                     {
                                         _logger.Error($"Failed to handle app {appid}: {e.Message}", e);
                                         int i;
@@ -1517,6 +1535,11 @@ class Program
                             AppIds.Remove(appid);
                             DoneAppIds.Add(appid);
                         }
+                    }
+
+                    if (changes != null)
+                    {
+                        MetadataDatabase.LastChangeNumber = changes.CurrentChangeNumber;
                         await SaveMetadataDatabaseAsync();
                     }
                 }

@@ -171,7 +171,7 @@ namespace SteamRetriever
             return IsLoggedOn;
         }
 
-        internal async Task RequestAppsInfo(IEnumerable<uint> appIds, bool bForce = false)
+        internal async Task RequestAppsInfoAsync(IEnumerable<uint> appIds, bool bForce = false)
         {
             List<uint> request_appids = new List<uint>();
             {
@@ -236,7 +236,12 @@ namespace SteamRetriever
 
         internal async Task RequestAppInfoAsync(uint appId, bool bForce = false)
         {
-            await RequestAppsInfo(new List<uint> { appId }, bForce);
+            await RequestAppsInfoAsync(new List<uint> { appId }, bForce);
+        }
+
+        internal async Task<SteamApps.PICSChangesCallback> RequestAppDiffAsync(uint changeNumber)
+        {
+            return await steamApps.PICSGetChangesSince(changeNumber);
         }
 
         internal async Task<string> GetInventoryDigest(uint appid)
