@@ -1556,7 +1556,6 @@ class Program
         }
 
         ContentDownloader.ShutdownSteam3();
-        await SaveMetadataDatabaseAsync();
     }
 
     static async Task Main(string[] args)
