@@ -10,6 +10,7 @@ public class MetadataDatabase
 {
     private const uint LatestVersion = 1;
     public uint Version { get; set; } = LatestVersion;
+    public ulong LastChangeNumber { get; set; }
     public Dictionary<long, ApplicationMetadata> ApplicationDetails { get; set; } = new();
 
     public Task UpdateMetadataDatabaseAsync()
