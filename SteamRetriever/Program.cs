@@ -250,7 +250,7 @@ class Program
 
         foreach (KeyValue stats_object in schema["stats"].Children)
         {
-            if (stats_object["type"].AsLong() == (int)SchemaStatType.Bits)
+            if (stats_object["type"].AsLong() == (int)SchemaStatType.Bits || string.Equals(stats_object["type"]?.Value, "ACHIEVEMENTS", StringComparison.InvariantCultureIgnoreCase))
             {// Parse achievements
                 foreach (KeyValue achievement_definition in stats_object["bits"].Children)
                 {
