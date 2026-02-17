@@ -1,23 +1,22 @@
-using System;
-using System.Net;
-using System.Text;
-using System.Linq;
-using System.IO;
-using System.Collections.Generic;
-using System.Threading;
-using System.Globalization;
-
-using Newtonsoft.Json.Linq;
 using CommandLine;
-using System.Threading.Tasks;
-using System.Net.Http;
-using SteamKit2;
 using log4net;
 using log4net.Layout;
-using SteamRetriever.Models;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Converters;
+using Newtonsoft.Json.Linq;
+using SteamKit2;
+using SteamRetriever.Models;
+using System;
+using System.Collections.Generic;
+using System.Globalization;
+using System.IO;
+using System.Linq;
+using System.Net;
+using System.Net.Http;
 using System.Runtime.Serialization;
+using System.Text;
+using System.Threading;
+using System.Threading.Tasks;
 
 namespace SteamRetriever;
 
@@ -52,14 +51,6 @@ class StoreServiceResponseModel
 {
     [JsonProperty("response")]
     public StoreServiceApplicationResponseModel Response { get; set; }
-}
-
-enum SchemaStatType
-{
-    Int = 1,
-    Float = 2,
-    AvgRate = 3,
-    Bits = 4, // Achievements
 }
 
 enum AppType
@@ -119,6 +110,7 @@ class Program
 
     public static Program Instance { get; private set; }
     public ILog _logger;
+    public NtfyService NtfyService = new NtfyService();
 
     ProgramOptions Options;
 
@@ -133,6 +125,20 @@ class Program
     dynamic WebSteamUser = null;
     bool IsAnonymous = true;
     DateTime LastWebRequestTime = new DateTime();
+
+    async Task NotifyAsync(string message)
+    {
+        if (string.IsNullOrWhiteSpace(Options.NtfyServerEndpoint) || string.IsNullOrWhiteSpace(Options.NtfyAuthorization))
+            return;
+
+        await NtfyService.NotifyAsync(new NtfyParameters
+        {
+            ServerEndpoint = new Uri(Options.NtfyServerEndpoint),
+            Authorization = Options.NtfyAuthorization,
+            Priority = NtfyPriority.Low,
+            Message = message,
+        });
+    }
 
     async Task<HttpResponseMessage> LimitSteamWebApiGET(HttpClient http_client, HttpRequestMessage http_request, CancellationTokenSource cts = null)
     {// Steam has a limit of 300 requests every 5 minutes (1 request per second).
@@ -167,126 +173,386 @@ class Program
         }
     }
 
-    async Task GenerateAchievementsFromWebAPI(string appid)
+    // Old achievements generation method using the WebAPI, kept for reference but not used anymore since the SteamNetwork method is more efficient and doesn't require a WebAPI key.
+    //async Task GenerateAchievementsFromWebAPI(string appid)
+    //{
+    //    if (string.IsNullOrEmpty(Options.WebApiKey))
+    //    {
+    //        _logger.Info("  + WebApi key is missing, the tool will not generate achievements list.");
+    //        return;
+    //    }
+    //
+    //    try
+    //    {
+    //        int done = 0;
+    //        _logger.Info("  + Trying to retrieve achievements and stats...");
+    //
+    //        var response = await LimitSteamWebApiGET(
+    //            WebHttpClient,
+    //            new HttpRequestMessage(HttpMethod.Get, $"http://api.steampowered.com/ISteamUserStats/GetSchemaForGame/v2/?l={Options.Language}&key={Options.WebApiKey}&appid={appid}"));
+    //
+    //        if (response.StatusCode == HttpStatusCode.OK)
+    //        {
+    //            JObject achievements_json = JObject.Parse(await response.Content.ReadAsStringAsync());
+    //
+    //            if (((JObject)achievements_json["game"]).ContainsKey("availableGameStats"))
+    //            {
+    //                if (((JObject)achievements_json["game"]["availableGameStats"]).ContainsKey("achievements"))
+    //                {
+    //                    JArray achievements = (JArray)achievements_json["game"]["availableGameStats"]["achievements"];
+    //
+    //                    Directory.CreateDirectory(Path.Combine(Options.OutDirectory, appid));
+    //
+    //                    foreach (var achievement in achievements)
+    //                    {
+    //                        achievement["displayName"] = new JObject { { Options.Language, achievement["displayName"] } };
+    //                        achievement["description"] = new JObject { { Options.Language, achievement["description"] } };
+    //
+    //                        if (Options.DownloadImages)
+    //                        {
+    //                            await DownloadAchievementIcon(appid, (string)achievement["name"], new Uri((string)achievement["icon"]));
+    //                            await DownloadAchievementIcon(appid, (string)achievement["name"] + "_locked", new Uri((string)achievement["icongray"]));
+    //                        }
+    //                    }
+    //
+    //                    done |= await SaveAchievementsToFileAsync(appid, achievements) ? 1 : 0;
+    //                    if ((done & 1) != 1)
+    //                    {
+    //                        _logger.Info("  + Failed to save achievements.");
+    //                    }
+    //                }
+    //                if (((JObject)achievements_json["game"]["availableGameStats"]).ContainsKey("stats"))
+    //                {
+    //                    Directory.CreateDirectory(Path.Combine(Options.OutDirectory, appid));
+    //
+    //                    done |= await SaveStatsToFileAsync(appid, achievements_json["game"]["availableGameStats"]["stats"]) ? 2 : 0;
+    //                    if ((done & 2) != 2)
+    //                    {
+    //                        _logger.Info("  + Failed to save stats.");
+    //                    }
+    //                }
+    //            }
+    //        }//using (HttpWebResponse response = (HttpWebResponse)request.GetResponse())
+    //        if (done == 0)
+    //        {
+    //            _logger.Info("  + No achievements or stats available for this AppID.");
+    //        }
+    //        else
+    //        {
+    //            _logger.Info("  + Achievements and stats were successfully generated!");
+    //        }
+    //    }
+    //    catch (Exception e)
+    //    {
+    //        _logger.Error($"  + Failed (no achievements or stats?): {e.Message}");
+    //    }
+    //}
+
+    static bool IsStatObjectAnAchievement(KeyValue statObject)
     {
-        if (string.IsNullOrEmpty(Options.WebApiKey))
+        var kv = statObject["type"];
+        if (kv == KeyValue.Invalid || kv == null)
+            return false;
+
+        return string.Equals(kv.Value, "ACHIEVEMENTS", StringComparison.InvariantCultureIgnoreCase) || kv.AsLong() == (int)SchemaStatType.Bits;
+    }
+
+    static string NormalizeKeyValueString(string s)
+    {
+        if (string.IsNullOrWhiteSpace(s))
+            return string.Empty;
+
+        // Convert FullWidth numbers to regular ones
+        // 3256310 ０, 971620 ０,１, ...
+        s = s.Normalize(NormalizationForm.FormKC);
+        s = s.ToLowerInvariant();
+        s = s.Replace("\\t", null)
+            .Replace("\\r", null)
+            .Replace("\\n", null);
+        s = new string(s.Where(c => c != '\'' && !char.IsWhiteSpace(c)).ToArray());
+
+        return s;
+    }
+
+    static bool KeyValueValueToBoolean(KeyValue kv)
+    {
+        var stringV = kv.AsString()?.ToLowerInvariant();
+        if (stringV == null)
+            return false;
+
+        if (stringV == "true")
+            return true;
+
+        if (stringV == "false")
+            return false;
+
+        if (long.TryParse(stringV, out var v))
+            return v != 0;
+
+        return false;
+    }
+
+    static bool TryLongValue(string s, out long value)
+    {
+        var isHex = false;
+        if (s.StartsWith("0x"))
         {
-            _logger.Info("  + WebApi key is missing, the tool will not generate achievements list.");
-            return;
+            s = s[2..];
+            isHex = true;
         }
 
-        try
+        if (isHex)
         {
-            int done = 0;
-            _logger.Info("  + Trying to retrieve achievements and stats...");
-
-            var response = await LimitSteamWebApiGET(
-                WebHttpClient,
-                new HttpRequestMessage(HttpMethod.Get, $"http://api.steampowered.com/ISteamUserStats/GetSchemaForGame/v2/?l={Options.Language}&key={Options.WebApiKey}&appid={appid}"));
-
-            if (response.StatusCode == HttpStatusCode.OK)
-            {
-                JObject achievements_json = JObject.Parse(await response.Content.ReadAsStringAsync());
-
-                if (((JObject)achievements_json["game"]).ContainsKey("availableGameStats"))
-                {
-                    if (((JObject)achievements_json["game"]["availableGameStats"]).ContainsKey("achievements"))
-                    {
-                        JArray achievements = (JArray)achievements_json["game"]["availableGameStats"]["achievements"];
-
-                        Directory.CreateDirectory(Path.Combine(Options.OutDirectory, appid));
-
-                        foreach (var achievement in achievements)
-                        {
-                            achievement["displayName"] = new JObject { { Options.Language, achievement["displayName"] } };
-                            achievement["description"] = new JObject { { Options.Language, achievement["description"] } };
-
-                            if (Options.DownloadImages)
-                            {
-                                await DownloadAchievementIcon(appid, (string)achievement["name"], new Uri((string)achievement["icon"]));
-                                await DownloadAchievementIcon(appid, (string)achievement["name"] + "_locked", new Uri((string)achievement["icongray"]));
-                            }
-                        }
-
-                        done |= await SaveAchievementsToFileAsync(appid, achievements) ? 1 : 0;
-                        if ((done & 1) != 1)
-                        {
-                            _logger.Info("  + Failed to save achievements.");
-                        }
-                    }
-                    if (((JObject)achievements_json["game"]["availableGameStats"]).ContainsKey("stats"))
-                    {
-                        Directory.CreateDirectory(Path.Combine(Options.OutDirectory, appid));
-
-                        done |= await SaveStatsToFileAsync(appid, achievements_json["game"]["availableGameStats"]["stats"]) ? 2 : 0;
-                        if ((done & 2) != 2)
-                        {
-                            _logger.Info("  + Failed to save stats.");
-                        }
-                    }
-                }
-            }//using (HttpWebResponse response = (HttpWebResponse)request.GetResponse())
-            if (done == 0)
-            {
-                _logger.Info("  + No achievements or stats available for this AppID.");
-            }
-            else
-            {
-                _logger.Info("  + Achievements and stats were successfully generated!");
-            }
+            if (long.TryParse(s, NumberStyles.HexNumber, CultureInfo.InvariantCulture, out value))
+                return true;
         }
-        catch (Exception e)
+        else
         {
-            _logger.Error($"  + Failed (no achievements or stats?): {e.Message}");
+            if (s.Count(c => c == ',') > 1)
+                s = s.Replace(",", "");
+
+            if (long.TryParse(s, NumberStyles.Integer, CultureInfo.InvariantCulture, out value))
+                return true;
         }
+
+        return false;
+    }
+
+    static bool TryUlongValue(string s, out ulong value)
+    {
+        var isHex = false;
+        if (s.StartsWith("0x"))
+        {
+            s = s[2..];
+            isHex = true;
+        }
+
+        if (isHex)
+        {
+            if (ulong.TryParse(s, NumberStyles.HexNumber, CultureInfo.InvariantCulture, out value))
+                return true;
+        }
+        else
+        {
+            if (s.Count(c => c == ',') > 1)
+                s = s.Replace(",", "");
+
+            if (ulong.TryParse(s, NumberStyles.Integer, CultureInfo.InvariantCulture, out value))
+                return true;
+        }
+
+        return false;
+    }
+
+    static bool TryParseDoubleValue(string s, out double value)
+    {
+        if (s.EndsWith("f", StringComparison.OrdinalIgnoreCase) ||
+            s.EndsWith("d", StringComparison.OrdinalIgnoreCase))
+        {
+            s = s[..^1];
+        }
+
+        if (s.Count(c => c == ',') > 1)
+        {
+            s = s.Replace(",", "");
+        }
+        else if (s.Contains(',') && !s.Contains('.'))
+        {
+            s = s.Replace(',', '.');
+        }
+
+        return double.TryParse(s, NumberStyles.Float | NumberStyles.AllowThousands, CultureInfo.InvariantCulture, out value);
+    }
+
+    object KeyValueToFittestValueType(KeyValue kv, uint appId)
+    {
+        if (kv == KeyValue.Invalid || kv == null)
+            return null;
+
+        var stringV = NormalizeKeyValueString(kv.AsString());
+        if (string.IsNullOrWhiteSpace(stringV))
+            return null;
+
+        // Handle special case where "o" is used instead of "0" for zero value, we can find this in some achievements progression values for example.
+        // 1951780, 1520330, 412050, ...
+        if (stringV == "o")
+            return 0;
+
+        switch (stringV)
+        {
+            case "int_max": case "max_int": return "MAX_INT";
+            case "int_min": case "min_int": return "MIN_INT";
+            case "flt_max": case "max_flt":
+            case "max_float": case "float_max": return "MAX_FLOAT";
+            case "inf": return "INFINITY";
+        }
+
+        if (TryLongValue(stringV, out var lValue))
+            return lValue;
+        if (TryUlongValue(stringV, out var ulValue))
+            return ulValue;
+        if (TryParseDoubleValue(stringV, out var dValue))
+            return dValue;
+
+        _logger.Error($"Unable to parse value: {stringV} as ulong, long or double, returning null");
+        NotifyAsync($"Unable to parse value: '{stringV}' as ulong, long or double, for key {kv.Name} in appId {appId}").GetAwaiter().GetResult();
+        return null;
+    }
+
+    static SortedDictionary<string,string> BuildAchievementLocalizedNames(KeyValue displayObject)
+    {
+        var localizedNames = new SortedDictionary<string, string>();
+
+        foreach (KeyValue item in displayObject["name"].Children)
+            localizedNames[item.Name.ToLower()] = item.Value;
+
+        return localizedNames;
+    }
+
+    static SortedDictionary<string, string> BuildAchievementLocalizedDescription(KeyValue displayObject)
+    {
+        var localizedDescriptions = new SortedDictionary<string, string>();
+
+        foreach (KeyValue item in displayObject["desc"].Children)
+            localizedDescriptions[item.Name.ToLower()] = item.Value;
+
+        return localizedDescriptions;
+    }
+
+    static long IsAchievementHidden(KeyValue displayObject)
+    {
+        KeyValue v = displayObject["hidden"];
+        if (v == null)
+            return 0;
+
+        return KeyValueValueToBoolean(v) ? 1 : 0;
+    }
+
+    static string BuildStatName(KeyValue statObject)
+    {
+        return statObject["name"].Value;
+    }
+
+    static string BuildStatDisplayName(KeyValue statObject)
+    {
+        var keyValueDisplay = statObject["display"];
+        if (keyValueDisplay == KeyValue.Invalid || keyValueDisplay == null)
+            return string.Empty;
+
+        var keyValueName = keyValueDisplay["name"];
+        if (keyValueName == KeyValue.Invalid || keyValueName == null)
+            return string.Empty;
+
+        return keyValueName.Value;
+    }
+
+    SchemaStatType BuildStatType(KeyValue statObject, uint appId)
+    {
+        var keyValueType = statObject["type"];
+        if (keyValueType == KeyValue.Invalid || keyValueType == null)
+        {
+            _logger.Error($"Stat {statObject["name"].Value} is missing a type, defaulting to Int for appId {appId}");
+            return SchemaStatType.Int;
+        }
+
+        var typeAsString = keyValueType.Value;
+        if (Enum.TryParse<SchemaStatType>(typeAsString, true, out var typeAsEnum))
+            return typeAsEnum;
+
+        var statType = (SchemaStatType)keyValueType.AsLong();
+        if (statType < SchemaStatType.Int || statType > SchemaStatType.Bits)
+        {
+            _logger.Error($"Unknown stat type: '{typeAsString}', defaulting to Int for appId {appId}");
+            return SchemaStatType.Int;
+        }
+
+        return statType;
+    }
+
+    static bool BuildStatIncrementOnly(KeyValue statObject)
+    {
+        return KeyValueValueToBoolean(statObject["incrementonly"]);
+    }
+
+    static bool BuildStatAggregated(KeyValue statObject)
+    {
+        return KeyValueValueToBoolean(statObject["aggregated"]);
+    }
+
+    object BuildStatDefault(KeyValue statObject, uint appId)
+    {
+        return KeyValueToFittestValueType(statObject["default"], appId);
+    }
+
+    object BuildStatMaxChange(KeyValue statObject, uint appId)
+    {
+        return KeyValueToFittestValueType(statObject["maxchange"], appId);
+    }
+
+    object BuildStatMin(KeyValue statObject, uint appId)
+    {
+        return KeyValueToFittestValueType(statObject["min"], appId);
+    }
+
+    object BuildStatMax(KeyValue statObject, uint appId)
+    {
+        return KeyValueToFittestValueType(statObject["max"], appId);
+    }
+
+    double? BuildStatWindowSize(KeyValue statObject, uint appId)
+    {
+        return (double?)KeyValueToFittestValueType(statObject["windowsize"], appId);
     }
 
     async Task<bool> GenerateAchievementsFromKeyValue(KeyValue schema, uint appid)
     {
-        JArray achievements_array = new JArray();
-        JArray stats_array = new JArray();
+        /*
+         * 
+         * 
+         * AppIds 1951780, 1520330 and 412050 uses a letter 'o' for their values.
+         * AppId 2218320 uses INT_MIN, INT_MAX, \tINT_MAX.
+         * AppId 3262610 uses MAX_INT, MAX_FLOAT, MAX_FLOAT\t, \tMAX_INT.
+         * AppId 2721750 uses FLT_MAX.
+         * AppId 971620 uses wide numbers like ０ and １, probably from Chinese local browser.
+         * AppId 3082220 uses inf.
+         * AppId 1892030 has a min value of 0,001, probably the comma is the decimal delimiter in that case.
+         * AppId 1491850 has a stupid value of 1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+         * AppId 3978190 and 2911590 has thousands delimiters 18,446,744,073,709,551,615
+         * AppId 1402320 has hex values 0x7FFFFFFF
+         * AppId 381750 has a value of 095, 3003580 has 010, but that doesn't seem to be octal, just plain 10.
+         *
+         * And some other even have no really meanings, like appid 3811350 CountToReach\t
+         */
 
-        string str_appid = appid.ToString();
+        var achievementsArray = new List<AchievementModel>();
+        var statsArray = new List<StatModel>();
 
-        foreach (KeyValue stats_object in schema["stats"].Children)
+        var str_appid = appid.ToString();
+
+        foreach (KeyValue statsObject in schema["stats"].Children)
         {
-            if (stats_object["type"].AsLong() == (int)SchemaStatType.Bits || string.Equals(stats_object["type"]?.Value, "ACHIEVEMENTS", StringComparison.InvariantCultureIgnoreCase))
+            if (IsStatObjectAnAchievement(statsObject))
             {// Parse achievements
-                foreach (KeyValue achievement_definition in stats_object["bits"].Children)
+                foreach (KeyValue achievement_definition in statsObject["bits"].Children)
                 {
                     KeyValue display_object = achievement_definition["display"];
-                    KeyValue progress_object = achievement_definition["progress"];
-
-                    JObject localized_names = new JObject();
-                    JObject localized_descriptions = new JObject();
-
-                    KeyValue v = display_object["hidden"];
-                    long hidden = v == null ? 0 : v.AsLong();
-
-                    foreach (KeyValue item in display_object["name"].Children)
+                    
+                    var achievementModel = new AchievementModel
                     {
-                        localized_names[item.Name.ToLower()] = item.Value;
-                    }
-                    foreach (KeyValue item in display_object["desc"].Children)
-                    {
-                        localized_descriptions[item.Name.ToLower()] = item.Value;
-                    }
-
-                    JObject achievement_json = new JObject
-                    {
-                        { "name"       , achievement_definition["name"].Value },
-                        { "hidden"     , hidden },
-                        { "icon"       , $"https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/{appid}/{display_object["icon"].AsString()}" },
-                        { "icongray"   , $"https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/{appid}/{display_object["icon_gray"].AsString()}" },
-                        { "displayName", localized_names },
-                        { "description", localized_descriptions },
+                        Name = achievement_definition["name"].Value,
+                        Hidden = IsAchievementHidden(display_object),
+                        Icon = $"https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/{appid}/{display_object["icon"].AsString()}",
+                        IconGray = $"https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/{appid}/{display_object["icon_gray"].AsString()}",
+                        DisplayName = BuildAchievementLocalizedNames(display_object),
+                        Description = BuildAchievementLocalizedDescription(display_object),
                     };
 
-                    if (progress_object != null && progress_object["value"] != null)
+                    KeyValue progress_object = achievement_definition["progress"];
+                    if (progress_object != KeyValue.Invalid && progress_object != null && progress_object["value"] != null)
                     {
-                        JObject stats_thresholds = new JObject();
-                        stats_thresholds["min_val"] = progress_object["min_val"].AsLong();
-                        stats_thresholds["max_val"] = progress_object["max_val"].AsLong();
+                        var statsThresholds = new AchievementStatsThresholdsModel();
+                        statsThresholds.MinVal = progress_object["min_val"].AsLong();
+                        statsThresholds.MaxVal = progress_object["max_val"].AsLong();
 
                         bool add_threshold = false;
 
@@ -301,308 +567,76 @@ class Program
                                 else
                                 {
                                     _logger.Error($"Unknown operation: {kv.Value}");
+                                    await NotifyAsync($"Unknown operation in achievement progression: {kv.Value} for achievement {achievementModel.Name} in appid {appid}");
                                 }
                             }
                             else if (kv.Name.Contains("operand"))
                             {
-                                if (stats_thresholds.ContainsKey("stat_name"))
+                                if (!string.IsNullOrWhiteSpace(statsThresholds.StatName))
                                 {
                                     _logger.Error($"Error, multiple operands in the progress object: {kv.Name}:{kv.Value}");
+                                    await NotifyAsync($"Error, multiple operands in the progress object for achievement {achievementModel.Name} in appid {appid}: already have {statsThresholds.StatName}, new operand is {kv.Name}:{kv.Value}");
                                 }
                                 else
                                 {
-                                    stats_thresholds["stat_name"] = kv.Value;
+                                    statsThresholds.StatName = kv.Value;
                                 }
                             }
                             else
                             {
                                 _logger.Info($"Unhandled progression Key {kv.Name}");
+                                await NotifyAsync($"Unhandled progression Key {kv.Name} in achievement {achievementModel.Name} for appid {appid}");
                             }
                         }
 
                         if (add_threshold)
                         {
-                            achievement_json["stats_thresholds"] = stats_thresholds;
+                            if (achievementModel.StatsThresholds == null)
+                                achievementModel.StatsThresholds = new();
+
+                            achievementModel.StatsThresholds.Add(statsThresholds);
                         }
                     }
 
                     if (Options.DownloadImages)
                     {
-                        await DownloadAchievementIcon(str_appid, (string)achievement_json["name"], new Uri((string)achievement_json["icon"]));
-                        await DownloadAchievementIcon(str_appid, (string)achievement_json["name"] + "_locked", new Uri((string)achievement_json["icongray"]));
+                        await DownloadAchievementIcon(str_appid, achievementModel.Name, new Uri(achievementModel.Icon));
+                        await DownloadAchievementIcon(str_appid, achievementModel.Name + "_locked", new Uri(achievementModel.IconGray));
                     }
 
-                    achievements_array.Add(achievement_json);
+                    achievementsArray.Add(achievementModel);
                 }
             }
             else
             {// Parse stats
-                string display_name = string.Empty;
-
-                var v = stats_object["display"]["name"];
-                if (v != KeyValue.Invalid && !string.IsNullOrWhiteSpace(v.Value))
+                var stat = new StatModel
                 {
-                    display_name = v.Value;
-                }
-
-                JObject stat_obj = new JObject
-                {
-                    { "name"         , stats_object["name"].Value },
-                    { "displayName"  , display_name },
-                    { "type"         , ((SchemaStatType)stats_object["type"].AsLong()).ToString().ToLower() },
-                    { "default"      , 0 },
-                    { "incrementonly", false },
-                    { "aggregated"   , false },
+                    Name = BuildStatName(statsObject),
+                    DisplayName = BuildStatDisplayName(statsObject),
+                    Type = BuildStatType(statsObject, appid),
+                    IncrementOnly = BuildStatIncrementOnly(statsObject),
+                    Aggregated = BuildStatAggregated(statsObject),
+                    Default = BuildStatDefault(statsObject, appid),
+                    MaxChange = BuildStatMaxChange(statsObject, appid),
+                    Min = BuildStatMin(statsObject, appid),
+                    Max = BuildStatMax(statsObject, appid),
+                    WindowSize = BuildStatWindowSize(statsObject, appid),
                 };
 
-                v = stats_object["incrementonly"];
-                if(v != KeyValue.Invalid && ulong.Parse(v.Value) == 1)
+                if (stat.Default == null)
                 {
-                    stat_obj["incrementonly"] = true;
+                    if (stat.Min != null)
+                        stat.Default = stat.Min;
+                    else
+                        stat.Default = 0;
                 }
 
-                v = stats_object["aggregated"];
-                if (v != KeyValue.Invalid && ulong.Parse(v.Value) == 1)
-                {
-                    stat_obj["aggregated"] = true;
-                }
-
-                switch ((SchemaStatType)stats_object["type"].AsLong())
-                {
-                    case SchemaStatType.Int:
-                        v = stats_object["maxchange"];
-                        if (v != KeyValue.Invalid)
-                        {
-                            if (ulong.TryParse(v.Value, out var ulValue))
-                            {
-                                stat_obj["maxchange"] = ulValue;
-                            }
-                            else if (long.TryParse(v.Value, out var lValue))
-                            {
-                                stat_obj["maxchange"] = lValue;
-                            }
-                            else if (double.TryParse(v.Value, CultureInfo.InvariantCulture, out var dValue))
-                            {
-                                stat_obj["maxchange"] = (long)dValue;
-                            }
-                        }
-
-                        v = stats_object["min"];
-                        if (v != KeyValue.Invalid)
-                        {
-                            if (ulong.TryParse(v.Value, out var ulValue))
-                            {
-                                stat_obj["min"] = ulValue;
-                            }
-                            else if(long.TryParse(v.Value, out var lValue))
-                            {
-                                stat_obj["min"] = lValue;
-                            }
-                            else if(double.TryParse(v.Value, CultureInfo.InvariantCulture, out var dValue))
-                            {
-                                stat_obj["min"] = (long)dValue;
-                            }
-                        }
-
-                        v = stats_object["max"];
-                        if (v != KeyValue.Invalid)
-                        {
-                            if (ulong.TryParse(v.Value, out var ulValue))
-                            {
-                                stat_obj["max"] = ulValue;
-                            }
-                            else if (long.TryParse(v.Value, out var lValue))
-                            {
-                                stat_obj["max"] = lValue;
-                            }
-                            else if (double.TryParse(v.Value, CultureInfo.InvariantCulture, out var dValue))
-                            {
-                                stat_obj["max"] = (long)dValue;
-                            }
-                        }
-
-                        v = stats_object["default"];
-                        if (v != KeyValue.Invalid)
-                        {
-                            if (ulong.TryParse(v.Value, out var ulValue))
-                            {
-                                stat_obj["default"] = ulValue;
-                            }
-                            else if (long.TryParse(v.Value, out var lValue))
-                            {
-                                stat_obj["default"] = lValue;
-                            }
-                            else if (double.TryParse(v.Value, CultureInfo.InvariantCulture, out var dValue))
-                            {
-                                stat_obj["default"] = (long)dValue;
-                            }
-                        }
-                        break;
-
-                    case SchemaStatType.Float:
-                        v = stats_object["maxchange"];
-                        if (v != KeyValue.Invalid)
-                        {
-                            if (ulong.TryParse(v.Value, out var ulValue))
-                            {
-                                stat_obj["maxchange"] = (double)ulValue;
-                            }
-                            else if (long.TryParse(v.Value, out var lValue))
-                            {
-                                stat_obj["maxchange"] = (double)lValue;
-                            }
-                            else if (double.TryParse(v.Value, CultureInfo.InvariantCulture, out var dValue))
-                            {
-                                stat_obj["maxchange"] = dValue;
-                            }
-                        }
-
-                        v = stats_object["min"];
-                        if (v != KeyValue.Invalid)
-                        {
-                            if (ulong.TryParse(v.Value, out var ulValue))
-                            {
-                                stat_obj["min"] = (double)ulValue;
-                            }
-                            else if (long.TryParse(v.Value, out var lValue))
-                            {
-                                stat_obj["min"] = (double)lValue;
-                            }
-                            else if (double.TryParse(v.Value, CultureInfo.InvariantCulture, out var dValue))
-                            {
-                                stat_obj["min"] = dValue;
-                            }
-                        }
-
-                        v = stats_object["max"];
-                        if (v != KeyValue.Invalid)
-                        {
-                            if (ulong.TryParse(v.Value, out var ulValue))
-                            {
-                                stat_obj["max"] = ulValue;
-                            }
-                            else if (long.TryParse(v.Value, out var lValue))
-                            {
-                                stat_obj["max"] = lValue;
-                            }
-                            else if (double.TryParse(v.Value, CultureInfo.InvariantCulture, out var dValue))
-                            {
-                                stat_obj["max"] = dValue;
-                            }
-                        }
-
-                        v = stats_object["default"];
-                        if (v != KeyValue.Invalid)
-                        {
-                            if (ulong.TryParse(v.Value, out var ulValue))
-                            {
-                                stat_obj["default"] = (double)ulValue;
-                            }
-                            else if (long.TryParse(v.Value, out var lValue))
-                            {
-                                stat_obj["default"] = (double)lValue;
-                            }
-                            else if (double.TryParse(v.Value, CultureInfo.InvariantCulture, out var dValue))
-                            {
-                                stat_obj["default"] = dValue;
-                            }
-                        }
-                        break;
-
-                    case SchemaStatType.AvgRate:
-                        v = stats_object["default"];
-                        if (v != KeyValue.Invalid)
-                        {
-                            if (ulong.TryParse(v.Value, out var ulValue))
-                            {
-                                stat_obj["default"] = (double)ulValue;
-                            }
-                            else if (long.TryParse(v.Value, out var lValue))
-                            {
-                                stat_obj["default"] = (double)lValue;
-                            }
-                            else if (double.TryParse(v.Value, CultureInfo.InvariantCulture, out var dValue))
-                            {
-                                stat_obj["default"] = dValue;
-                            }
-                        }
-
-                        v = stats_object["maxchange"];
-                        if (v != KeyValue.Invalid)
-                        {
-                            if (ulong.TryParse(v.Value, out var ulValue))
-                            {
-                                stat_obj["maxchange"] = (double)ulValue;
-                            }
-                            else if (long.TryParse(v.Value, out var lValue))
-                            {
-                                stat_obj["maxchange"] = (double)lValue;
-                            }
-                            else if (double.TryParse(v.Value, CultureInfo.InvariantCulture, out var dValue))
-                            {
-                                stat_obj["maxchange"] = dValue;
-                            }
-                        }
-
-                        v = stats_object["min"];
-                        if (v != KeyValue.Invalid)
-                        {
-                            if (ulong.TryParse(v.Value, out var ulValue))
-                            {
-                                stat_obj["min"] = (double)ulValue;
-                            }
-                            else if (long.TryParse(v.Value, out var lValue))
-                            {
-                                stat_obj["min"] = (double)lValue;
-                            }
-                            else if (double.TryParse(v.Value, CultureInfo.InvariantCulture, out var dValue))
-                            {
-                                stat_obj["min"] = dValue;
-                            }
-                        }
-
-                        v = stats_object["max"];
-                        if (v != KeyValue.Invalid)
-                        {
-                            if (ulong.TryParse(v.Value, out var ulValue))
-                            {
-                                stat_obj["max"] = ulValue;
-                            }
-                            else if (long.TryParse(v.Value, out var lValue))
-                            {
-                                stat_obj["max"] = lValue;
-                            }
-                            else if (double.TryParse(v.Value, CultureInfo.InvariantCulture, out var dValue))
-                            {
-                                stat_obj["max"] = dValue;
-                            }
-                        }
-
-                        v = stats_object["windowsize"];
-                        if (v != KeyValue.Invalid)
-                        {
-                            if (ulong.TryParse(v.Value, out var ulValue))
-                            {
-                                stat_obj["windowsize"] = (double)ulValue;
-                            }
-                            else if (long.TryParse(v.Value, out var lValue))
-                            {
-                                stat_obj["windowsize"] = (double)lValue;
-                            }
-                            else if (double.TryParse(v.Value, CultureInfo.InvariantCulture, out var dValue))
-                            {
-                                stat_obj["windowsize"] = dValue;
-                            }
-                        }
-                        break;
-                }
-
-                stats_array.Add(stat_obj);
+                statsArray.Add(stat);
             }
         }
 
-        await SaveAchievementsToFileAsync(appid.ToString(), achievements_array);
-        await SaveStatsToFileAsync(appid.ToString(), stats_array);
+        await SaveAchievementsToFileAsync(appid.ToString(), achievementsArray);
+        await SaveStatsToFileAsync(appid.ToString(), statsArray);
 
         return true;
     }
@@ -759,27 +793,59 @@ class Program
         return publicSteamIds;
     }
 
-    async Task<bool> SaveAchievementsToFileAsync(string appid, JToken json)
+    async Task<bool> SaveAchievementsToFileAsync(string appid, List<AchievementModel> achievements)
     {
-        if (((JArray)json).Count <= 0)
+        var achievementsFilePath = Path.Combine(Options.OutDirectory, appid, "achievements_db.json");
+
+        if (achievements.Count <= 0)
         {
             _logger.Info("  + No Achievements for this app");
+
+            if (File.Exists(achievementsFilePath))
+            {
+                try
+                {
+                    File.Delete(achievementsFilePath);
+                    _logger.Info("  + Deleted old achievements_db.json file.");
+                }
+                catch (Exception e)
+                {
+                    _logger.Error($"  + Failed to delete old achievements_db.json file: {e.Message}");
+                }
+            }
+
             return true;
         }
 
         _logger.Info("  + Writing Achievements achievements_db.json");
-        return await SaveJsonAsync(Path.Combine(Options.OutDirectory, appid, "achievements_db.json"), json);
+        return await SaveJsonAsync(achievementsFilePath, achievements);
     }
 
-    async Task<bool> SaveStatsToFileAsync(string appid, JToken json)
+    async Task<bool> SaveStatsToFileAsync(string appid, List<StatModel> stats)
     {
-        if (((JArray)json).Count <= 0)
+        var statsFilePath = Path.Combine(Options.OutDirectory, appid, "stats_db.json");
+
+        if (stats.Count <= 0)
         {
             _logger.Info("  + No Stats for this app");
+
+            if (File.Exists(statsFilePath))
+            {
+                try
+                {
+                    File.Delete(statsFilePath);
+                    _logger.Info("  + Deleted old stats_db.json file.");
+                }
+                catch (Exception e)
+                {
+                    _logger.Error($"  + Failed to delete old stats_db.json file: {e.Message}");
+                }
+            }
+
             return true;
         }
         _logger.Info("  + Writing stats stats_db.json.");
-        return await SaveJsonAsync(Path.Combine(Options.OutDirectory, appid, "stats_db.json"), json);
+        return await SaveJsonAsync(statsFilePath, stats);
     }
 
     GameInfoApplicationModel GetOrCreateApp(uint appid, AppType appType)
@@ -813,7 +879,11 @@ class Program
 
     async Task<bool> SaveJsonAsync(string file_path, object data)
     {
-        return await SaveFileAsync(file_path, Newtonsoft.Json.JsonConvert.SerializeObject(data, Newtonsoft.Json.Formatting.Indented));
+        return await SaveFileAsync(file_path, Newtonsoft.Json.JsonConvert.SerializeObject(data, new JsonSerializerSettings
+        {
+            Formatting = Formatting.Indented,
+            NullValueHandling = NullValueHandling.Ignore,
+        }));
     }
 
     async Task<bool> SaveFileAsync(string file_path, string data)
@@ -986,10 +1056,7 @@ class Program
         {
             await GenerateItemsFromSteamNetwork(appid);
 
-            if (!await GenerateAchievementsFromSteamNetwork(appid))
-            {
-                await GenerateAchievementsFromWebAPI(str_appid);
-            }
+            await GenerateAchievementsFromSteamNetwork(appid);
         }
         else
         {
@@ -1141,6 +1208,7 @@ class Program
         catch(Exception e)
         {
             _logger.Error($"## Exception while parsing {appId}: {e.Message} ##", e);
+            await NotifyAsync($"## Exception while parsing {appId}: {e.Message} ##");
         }
 
         return true;
@@ -1555,7 +1623,8 @@ class Program
         }
         catch (Exception e)
         {
-            _logger.Error($"Error {e.Message}", e);
+            _logger.Error($"Stopping SteamRetriever: {e.Message}", e);
+            await NotifyAsync($"Stopping SteamRetriever: {e.Message}");
         }
 
         if (WebSteamUser != null)
@@ -1618,6 +1687,13 @@ public class ProgramOptions
 
     [Option('o', "out", Required = false, HelpText = "Where to output your game definitions. By default it will output to 'steam' directory alongside the executable.")]
     public string OutDirectory { get; set; } = "steam";
+
+    [Option("ntfy-endpoint", Required = false, HelpText = "Ntfy service endpoint")]
+    public string NtfyServerEndpoint { get; set; } = string.Empty;
+
+    [Option("ntfy-authorization", Required = false, HelpText = "Ntfy service authorization")]
+    public string NtfyAuthorization { get; set; } = string.Empty;
+
 
     [Value(0, Required = false, HelpText = "Any number of AppID to get their infos. Separate values by Space. If you don't pass any AppID, it will try to retrieve infos for all available Steam games.")]
     public IEnumerable<string> AppIds { get; set; }
