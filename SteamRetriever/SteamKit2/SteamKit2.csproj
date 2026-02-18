@@ -47,4 +47,9 @@
     <PackageReference Include="ZstdSharp.Port" Version="0.8.7" />
   </ItemGroup>
 
+  <PropertyGroup Condition="'$(OS)' == 'Windows_NT'">
+    <DefineConstants>$(DefineConstants);WINDOWS</DefineConstants>
+  </PropertyGroup>
+
+
 </Project>

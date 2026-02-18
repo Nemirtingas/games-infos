@@ -4,12 +4,15 @@ using System.IO;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using System.Runtime.Versioning;
+#if WINDOWS
 using Windows.Win32.Storage.FileSystem;
 using Windows.Win32.System.Ioctl;
 using static Windows.Win32.PInvoke;
+#endif
 
 namespace SteamKit2.Util
 {
+#if WINDOWS
     [SupportedOSPlatform( "windows5.1.2600" )]
     static partial class Win32Helpers
     {
@@ -163,4 +166,13 @@ namespace SteamKit2.Util
             }
         }
     }
+#else
+    static partial class Win32Helpers
+    {
+        public static string? GetBootDiskSerialNumber()
+        {
+            return string.Empty;
+        }
+    }
+#endif
 }
