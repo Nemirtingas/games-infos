@@ -1401,15 +1401,16 @@ class Program
         {
             try
             {
+                _logger.Debug($"Reading metadata from: {filePath}");
                 using (StreamReader reader = new StreamReader(new FileStream(filePath, FileMode.Open), new UTF8Encoding(false)))
                 {
                     MetadataDatabase = Newtonsoft.Json.JsonConvert.DeserializeObject<MetadataDatabase>(await reader.ReadToEndAsync());
                     await MetadataDatabase.UpdateMetadataDatabaseAsync();
                 }
             }
-            catch (Exception)
+            catch (Exception e)
             {
-
+                _logger.Error($"Failed to load metadata database, starting with an empty one.", e);
             }
         }
     }
