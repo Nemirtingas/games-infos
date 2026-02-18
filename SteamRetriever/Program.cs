@@ -292,59 +292,7 @@ class Program
         return false;
     }
 
-    static bool TryLongValue(string s, out long value)
-    {
-        var isHex = false;
-        if (s.StartsWith("0x"))
-        {
-            s = s[2..];
-            isHex = true;
-        }
-
-        if (isHex)
-        {
-            if (long.TryParse(s, NumberStyles.HexNumber, CultureInfo.InvariantCulture, out value))
-                return true;
-        }
-        else
-        {
-            if (s.Count(c => c == ',') > 1)
-                s = s.Replace(",", "");
-
-            if (long.TryParse(s, NumberStyles.Integer, CultureInfo.InvariantCulture, out value))
-                return true;
-        }
-
-        return false;
-    }
-
-    static bool TryUlongValue(string s, out ulong value)
-    {
-        var isHex = false;
-        if (s.StartsWith("0x"))
-        {
-            s = s[2..];
-            isHex = true;
-        }
-
-        if (isHex)
-        {
-            if (ulong.TryParse(s, NumberStyles.HexNumber, CultureInfo.InvariantCulture, out value))
-                return true;
-        }
-        else
-        {
-            if (s.Count(c => c == ',') > 1)
-                s = s.Replace(",", "");
-
-            if (ulong.TryParse(s, NumberStyles.Integer, CultureInfo.InvariantCulture, out value))
-                return true;
-        }
-
-        return false;
-    }
-
-    static bool TryParseDoubleValue(string s, out double value)
+    static bool TryParseDecimalValue(string s, out decimal value)
     {
         if (s.EndsWith("f", StringComparison.OrdinalIgnoreCase) ||
             s.EndsWith("d", StringComparison.OrdinalIgnoreCase))
@@ -361,7 +309,7 @@ class Program
             s = s.Replace(',', '.');
         }
 
-        return double.TryParse(s, NumberStyles.Float | NumberStyles.AllowThousands, CultureInfo.InvariantCulture, out value);
+        return decimal.TryParse(s, NumberStyles.Float | NumberStyles.AllowThousands, CultureInfo.InvariantCulture, out value);
     }
 
     object KeyValueToFittestValueType(KeyValue kv, uint appId)
@@ -376,22 +324,34 @@ class Program
         // Handle special case where "o" is used instead of "0" for zero value, we can find this in some achievements progression values for example.
         // 1951780, 1520330, 412050, ...
         if (stringV == "o")
-            return 0;
+            return 0m;
 
         switch (stringV)
         {
             case "int_max": case "max_int": return "MAX_INT";
             case "int_min": case "min_int": return "MIN_INT";
+
+            case "-int_max": case "-max_int": return "-MAX_INT";
+            case "-int_min": case "-min_int": return "-MIN_INT";
+
             case "flt_max": case "max_flt":
             case "max_float": case "float_max": return "MAX_FLOAT";
+
+            case "flt_min": case "min_flt":
+            case "min_float": case "float_min": return "MIN_FLOAT";
+
+            case "-flt_max": case "-max_flt":
+            case "-max_float": case "-float_max": return "-MAX_FLOAT";
+
+            case "-flt_min": case "-min_flt":
+            case "-min_float": case "-float_min": return "-MIN_FLOAT";
+
             case "inf": return "INFINITY";
+
+            case "-inf": return "-INFINITY";
         }
 
-        if (TryLongValue(stringV, out var lValue))
-            return lValue;
-        if (TryUlongValue(stringV, out var ulValue))
-            return ulValue;
-        if (TryParseDoubleValue(stringV, out var dValue))
+        if (TryParseDecimalValue(stringV, out var dValue))
             return dValue;
 
         _logger.Error($"Unable to parse value: {stringV} as ulong, long or double, returning null");
@@ -479,29 +439,50 @@ class Program
         return KeyValueValueToBoolean(statObject["aggregated"]);
     }
 
-    object BuildStatDefault(KeyValue statObject, uint appId)
+    static object CastStatToStatType(SchemaStatType statType, object value)
     {
-        return KeyValueToFittestValueType(statObject["default"], appId);
+        if (value == null || value is string)
+            return value;
+
+        switch (statType)
+        {
+            case SchemaStatType.Int: return (long)(decimal)value;
+            case SchemaStatType.AvgRate:
+            case SchemaStatType.Float: return value;
+        }
+        return null;
     }
 
-    object BuildStatMaxChange(KeyValue statObject, uint appId)
+    object BuildStatDefault(KeyValue statObject, SchemaStatType statType, uint appId)
     {
-        return KeyValueToFittestValueType(statObject["maxchange"], appId);
+        return CastStatToStatType(statType, KeyValueToFittestValueType(statObject["default"], appId));
     }
 
-    object BuildStatMin(KeyValue statObject, uint appId)
+    object BuildStatMaxChange(KeyValue statObject, SchemaStatType statType, uint appId)
     {
-        return KeyValueToFittestValueType(statObject["min"], appId);
+        return CastStatToStatType(statType, KeyValueToFittestValueType(statObject["maxchange"], appId));
     }
 
-    object BuildStatMax(KeyValue statObject, uint appId)
+    object BuildStatMin(KeyValue statObject, SchemaStatType statType, uint appId)
     {
-        return KeyValueToFittestValueType(statObject["max"], appId);
+        return CastStatToStatType(statType, KeyValueToFittestValueType(statObject["min"], appId));
     }
 
-    double? BuildStatWindowSize(KeyValue statObject, uint appId)
+    object BuildStatMax(KeyValue statObject, SchemaStatType statType, uint appId)
     {
-        return (double?)KeyValueToFittestValueType(statObject["windowsize"], appId);
+        return CastStatToStatType(statType, KeyValueToFittestValueType(statObject["max"], appId));
+    }
+
+    decimal? BuildStatWindowSize(KeyValue statObject, uint appId)
+    {
+        var value = KeyValueToFittestValueType(statObject["windowsize"], appId);
+        if (value == null)
+            return null;
+
+        if (value is string)
+            return 20.0m;
+
+        return (decimal)value;
     }
 
     async Task<bool> GenerateAchievementsFromKeyValue(KeyValue schema, uint appid)
@@ -616,12 +597,15 @@ class Program
                     Type = BuildStatType(statsObject, appid),
                     IncrementOnly = BuildStatIncrementOnly(statsObject),
                     Aggregated = BuildStatAggregated(statsObject),
-                    Default = BuildStatDefault(statsObject, appid),
-                    MaxChange = BuildStatMaxChange(statsObject, appid),
-                    Min = BuildStatMin(statsObject, appid),
-                    Max = BuildStatMax(statsObject, appid),
-                    WindowSize = BuildStatWindowSize(statsObject, appid),
                 };
+
+                stat.Default = BuildStatDefault(statsObject, stat.Type, appid);
+                stat.MaxChange = BuildStatMaxChange(statsObject, stat.Type, appid);
+                stat.Min = BuildStatMin(statsObject, stat.Type, appid);
+                stat.Max = BuildStatMax(statsObject, stat.Type, appid);
+
+                if (stat.Type == SchemaStatType.AvgRate)
+                    stat.WindowSize = BuildStatWindowSize(statsObject, appid);
 
                 if (stat.Default == null)
                 {

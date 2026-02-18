@@ -88,5 +88,5 @@ public class StatModel
     public object Default { get; set; }
 
     [JsonProperty("windowsize")]
-    public double? WindowSize { get; set; }
+    public decimal? WindowSize { get; set; }
 }
