@@ -94,7 +94,7 @@ namespace SteamKit2
             /// <exception cref="ArgumentNullException">The function name or request method provided were <c>null</c>.</exception>
             /// <exception cref="HttpRequestException">An network error occurred when performing the request.</exception>
             /// <exception cref="WebAPIRequestException">A network error occurred when performing the request.</exception>
-            /// <exception cref="InvalidDataException">An error occured when parsing the response from the WebAPI.</exception>
+            /// <exception cref="InvalidDataException">An error occurred when parsing the response from the WebAPI.</exception>
             public KeyValue Call( string func, int version = 1, Dictionary<string, object?>? args = null )
                 => Call( HttpMethod.Get, func, version, args );
 
@@ -110,7 +110,7 @@ namespace SteamKit2
             /// <exception cref="ArgumentNullException">The function name or request method provided were <c>null</c>.</exception>
             /// <exception cref="HttpRequestException">An network error occurred when performing the request.</exception>
             /// <exception cref="WebAPIRequestException">A network error occurred when performing the request.</exception>
-            /// <exception cref="InvalidDataException">An error occured when parsing the response from the WebAPI.</exception>
+            /// <exception cref="InvalidDataException">An error occurred when parsing the response from the WebAPI.</exception>
             public KeyValue Call( HttpMethod method, string func, int version = 1, Dictionary<string, object?>? args = null )
             {
                 var callTask = asyncInterface.CallAsync( method, func, version, args );
@@ -234,10 +234,10 @@ namespace SteamKit2
             /// <exception cref="ArgumentNullException">The function name or request method provided were <c>null</c>.</exception>
             /// <exception cref="HttpRequestException">An network error occurred when performing the request.</exception>
             /// <exception cref="WebAPIRequestException">A network error occurred when performing the request.</exception>
-            /// <exception cref="ProtoException">An error occured when parsing the response from the WebAPI.</exception>
+            /// <exception cref="ProtoException">An error occurred when parsing the response from the WebAPI.</exception>
             public async Task<T> CallProtobufAsync<T>( HttpMethod method, string func, int version = 1, Dictionary<string, object?>? args = null )
             {
-                var response = await CallAsyncInternal( method, func, version, args, "protobuf_raw" );
+                var response = await CallAsyncInternal( method, func, version, args, "protobuf_raw" ).ConfigureAwait( false );
 
                 using var stream = await response.Content.ReadAsStreamAsync().ConfigureAwait( false );
 
@@ -253,14 +253,15 @@ namespace SteamKit2
             /// <typeparam name="TResponse">Protobuf type of the response message.</typeparam>
             /// <param name="func">The function name to call.</param>
             /// <param name="version">The version of the function to call.</param>
+            /// <param name="extraArgs">A dictionary of string key value pairs representing extra arguments to be passed to the API (in addition to request).</param>
             /// <param name="request">A protobuf object representing arguments to be passed to the API.</param>
             /// <param name="method">The http request method. Either "POST" or "GET".</param>
             /// <returns>A <see cref="Task{T}"/> that contains object representing the results of the Web API call.</returns>
             /// <exception cref="ArgumentNullException">The function name or request method provided were <c>null</c>.</exception>
             /// <exception cref="HttpRequestException">An network error occurred when performing the request.</exception>
             /// <exception cref="WebAPIRequestException">A network error occurred when performing the request.</exception>
-            /// <exception cref="ProtoException">An error occured when parsing the response from the WebAPI.</exception>
-            public async Task<WebAPIResponse<TResponse>> CallProtobufAsync<TResponse, TRequest>( HttpMethod method, string func, TRequest request, int version = 1 )
+            /// <exception cref="ProtoException">An error occurred when parsing the response from the WebAPI.</exception>
+            public async Task<WebAPIResponse<TResponse>> CallProtobufAsync<TResponse, TRequest>( HttpMethod method, string func, TRequest request, int version = 1, Dictionary<string, object?>? extraArgs = null )
                 where TResponse : IExtensible, new()
                 where TRequest : IExtensible, new()
             {
@@ -282,7 +283,15 @@ namespace SteamKit2
                     { "input_protobuf_encoded", base64 },
                 };
 
-                var response = await CallAsyncInternal( method, func, version, args, "protobuf_raw" );
+                if ( extraArgs != null )
+                {
+                    foreach ( var (key, value) in extraArgs )
+                    {
+                        args.TryAdd( key, value );
+                    }
+                }
+
+                var response = await CallAsyncInternal( method, func, version, args, "protobuf_raw" ).ConfigureAwait( false );
                 var eresult = EResult.Invalid;
 
                 using var stream = await response.Content.ReadAsStreamAsync().ConfigureAwait( false );
@@ -308,7 +317,7 @@ namespace SteamKit2
             /// <exception cref="ArgumentNullException">The function name or request method provided were <c>null</c>.</exception>
             /// <exception cref="HttpRequestException">An network error occurred when performing the request.</exception>
             /// <exception cref="WebAPIRequestException">A network error occurred when performing the request.</exception>
-            /// <exception cref="InvalidDataException">An error occured when parsing the response from the WebAPI.</exception>
+            /// <exception cref="InvalidDataException">An error occurred when parsing the response from the WebAPI.</exception>
             public Task<KeyValue> CallAsync( string func, int version = 1, Dictionary<string, object?>? args = null )
                 => CallAsync( HttpMethod.Get, func, version, args );
 
@@ -323,10 +332,10 @@ namespace SteamKit2
             /// <exception cref="ArgumentNullException">The function name or request method provided were <c>null</c>.</exception>
             /// <exception cref="HttpRequestException">An network error occurred when performing the request.</exception>
             /// <exception cref="WebAPIRequestException">A network error occurred when performing the request.</exception>
-            /// <exception cref="InvalidDataException">An error occured when parsing the response from the WebAPI.</exception>
+            /// <exception cref="InvalidDataException">An error occurred when parsing the response from the WebAPI.</exception>
             public async Task<KeyValue> CallAsync( HttpMethod method, string func, int version = 1, Dictionary<string, object?>? args = null )
             {
-                var response = await CallAsyncInternal( method, func, version, args, "vdf" );
+                var response = await CallAsyncInternal( method, func, version, args, "vdf" ).ConfigureAwait( false );
 
                 using var stream = await response.Content.ReadAsStreamAsync().ConfigureAwait( false );
 

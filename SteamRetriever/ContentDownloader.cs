@@ -394,7 +394,7 @@ namespace SteamRetriever
             Directory.CreateDirectory(Path.GetDirectoryName(fileStagingPath));
 
             using (var file = File.OpenWrite(fileStagingPath))
-            using (var client = HttpClientFactory.CreateHttpClient())
+            using (var client = HttpClientFactory.CreateHttpClient(HttpClientPurpose.WebAPI))
             {
                 //Program.Instance._logger.InfoFormat("Downloading {0}", fileName);
                 var responseStream = await client.GetStreamAsync(url);

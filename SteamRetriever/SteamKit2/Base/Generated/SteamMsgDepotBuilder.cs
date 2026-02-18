@@ -5,7 +5,7 @@
 // </auto-generated>
 
 #region Designer generated code
-#pragma warning disable CS0612, CS0618, CS1591, CS3021, IDE0079, IDE1006, RCS1036, RCS1057, RCS1085, RCS1192
+#pragma warning disable CS0612, CS0618, CS1591, CS3021, CS8981, IDE0079, IDE1006, RCS1036, RCS1057, RCS1085, RCS1192
 namespace SteamKit2.Internal
 {
 
@@ -67,6 +67,26 @@ namespace SteamKit2.Internal
         public void Resettarget_branch() => __pbn__target_branch = null;
         private string __pbn__target_branch;
 
+        [global::ProtoBuf.ProtoMember(6)]
+        public bool shader_depot
+        {
+            get => __pbn__shader_depot.GetValueOrDefault();
+            set => __pbn__shader_depot = value;
+        }
+        public bool ShouldSerializeshader_depot() => __pbn__shader_depot != null;
+        public void Resetshader_depot() => __pbn__shader_depot = null;
+        private bool? __pbn__shader_depot;
+
+        [global::ProtoBuf.ProtoMember(7)]
+        public ulong baseline_manifest_id
+        {
+            get => __pbn__baseline_manifest_id.GetValueOrDefault();
+            set => __pbn__baseline_manifest_id = value;
+        }
+        public bool ShouldSerializebaseline_manifest_id() => __pbn__baseline_manifest_id != null;
+        public void Resetbaseline_manifest_id() => __pbn__baseline_manifest_id = null;
+        private ulong? __pbn__baseline_manifest_id;
+
     }
 
     [global::ProtoBuf.ProtoContract()]
@@ -118,14 +138,14 @@ namespace SteamKit2.Internal
 
         [global::ProtoBuf.ProtoMember(5)]
         [global::System.ComponentModel.DefaultValue("")]
-        public string url_host
+        public string deprecated_url_host
         {
-            get => __pbn__url_host ?? "";
-            set => __pbn__url_host = value;
+            get => __pbn__deprecated_url_host ?? "";
+            set => __pbn__deprecated_url_host = value;
         }
-        public bool ShouldSerializeurl_host() => __pbn__url_host != null;
-        public void Reseturl_host() => __pbn__url_host = null;
-        private string __pbn__url_host;
+        public bool ShouldSerializedeprecated_url_host() => __pbn__deprecated_url_host != null;
+        public void Resetdeprecated_url_host() => __pbn__deprecated_url_host = null;
+        private string __pbn__deprecated_url_host;
 
         [global::ProtoBuf.ProtoMember(6)]
         public bool offset_detection_enabled
@@ -186,6 +206,59 @@ namespace SteamKit2.Internal
         public bool ShouldSerializeoffset_detection_max_distance_post() => __pbn__offset_detection_max_distance_post != null;
         public void Resetoffset_detection_max_distance_post() => __pbn__offset_detection_max_distance_post = null;
         private uint? __pbn__offset_detection_max_distance_post;
+
+        [global::ProtoBuf.ProtoMember(12)]
+        public uint compression_method
+        {
+            get => __pbn__compression_method.GetValueOrDefault();
+            set => __pbn__compression_method = value;
+        }
+        public bool ShouldSerializecompression_method() => __pbn__compression_method != null;
+        public void Resetcompression_method() => __pbn__compression_method = null;
+        private uint? __pbn__compression_method;
+
+        [global::ProtoBuf.ProtoMember(13)]
+        [global::System.ComponentModel.DefaultValue("")]
+        public string download_host
+        {
+            get => __pbn__download_host ?? "";
+            set => __pbn__download_host = value;
+        }
+        public bool ShouldSerializedownload_host() => __pbn__download_host != null;
+        public void Resetdownload_host() => __pbn__download_host = null;
+        private string __pbn__download_host;
+
+        [global::ProtoBuf.ProtoMember(14)]
+        public ulong manifest_request_code
+        {
+            get => __pbn__manifest_request_code.GetValueOrDefault();
+            set => __pbn__manifest_request_code = value;
+        }
+        public bool ShouldSerializemanifest_request_code() => __pbn__manifest_request_code != null;
+        public void Resetmanifest_request_code() => __pbn__manifest_request_code = null;
+        private ulong? __pbn__manifest_request_code;
+
+        [global::ProtoBuf.ProtoMember(15)]
+        [global::System.ComponentModel.DefaultValue("")]
+        public string chunk_upload_host
+        {
+            get => __pbn__chunk_upload_host ?? "";
+            set => __pbn__chunk_upload_host = value;
+        }
+        public bool ShouldSerializechunk_upload_host() => __pbn__chunk_upload_host != null;
+        public void Resetchunk_upload_host() => __pbn__chunk_upload_host = null;
+        private string __pbn__chunk_upload_host;
+
+        [global::ProtoBuf.ProtoMember(16)]
+        [global::System.ComponentModel.DefaultValue("")]
+        public string manifest_upload_host
+        {
+            get => __pbn__manifest_upload_host ?? "";
+            set => __pbn__manifest_upload_host = value;
+        }
+        public bool ShouldSerializemanifest_upload_host() => __pbn__manifest_upload_host != null;
+        public void Resetmanifest_upload_host() => __pbn__manifest_upload_host = null;
+        private string __pbn__manifest_upload_host;
 
     }
 
@@ -413,6 +486,16 @@ namespace SteamKit2.Internal
         public void Resetprev_reused() => __pbn__prev_reused = null;
         private bool? __pbn__prev_reused;
 
+        [global::ProtoBuf.ProtoMember(3)]
+        public ulong manifest_request_code
+        {
+            get => __pbn__manifest_request_code.GetValueOrDefault();
+            set => __pbn__manifest_request_code = value;
+        }
+        public bool ShouldSerializemanifest_request_code() => __pbn__manifest_request_code != null;
+        public void Resetmanifest_request_code() => __pbn__manifest_request_code = null;
+        private ulong? __pbn__manifest_request_code;
+
     }
 
     [global::ProtoBuf.ProtoContract()]
@@ -456,6 +539,26 @@ namespace SteamKit2.Internal
         public bool ShouldSerializelive_branch() => __pbn__live_branch != null;
         public void Resetlive_branch() => __pbn__live_branch = null;
         private string __pbn__live_branch;
+
+        [global::ProtoBuf.ProtoMember(6)]
+        public bool for_local_cs
+        {
+            get => __pbn__for_local_cs.GetValueOrDefault();
+            set => __pbn__for_local_cs = value;
+        }
+        public bool ShouldSerializefor_local_cs() => __pbn__for_local_cs != null;
+        public void Resetfor_local_cs() => __pbn__for_local_cs = null;
+        private bool? __pbn__for_local_cs;
+
+        [global::ProtoBuf.ProtoMember(7)]
+        public bool web_upload
+        {
+            get => __pbn__web_upload.GetValueOrDefault();
+            set => __pbn__web_upload = value;
+        }
+        public bool ShouldSerializeweb_upload() => __pbn__web_upload != null;
+        public void Resetweb_upload() => __pbn__web_upload = null;
+        private bool? __pbn__web_upload;
 
         [global::ProtoBuf.ProtoContract()]
         public partial class Depots : global::ProtoBuf.IExtensible
@@ -567,17 +670,71 @@ namespace SteamKit2.Internal
 
     }
 
-    public interface IContentBuilder
+    public class ContentBuilder : SteamUnifiedMessages.UnifiedService
     {
-        CContentBuilder_InitDepotBuild_Response InitDepotBuild(CContentBuilder_InitDepotBuild_Request request);
-        CContentBuilder_StartDepotUpload_Response StartDepotUpload(CContentBuilder_StartDepotUpload_Request request);
-        CContentBuilder_GetMissingDepotChunks_Response GetMissingDepotChunks(CContentBuilder_GetMissingDepotChunks_Request request);
-        CContentBuilder_FinishDepotUpload_Response FinishDepotUpload(CContentBuilder_FinishDepotUpload_Request request);
-        CContentBuilder_CommitAppBuild_Response CommitAppBuild(CContentBuilder_CommitAppBuild_Request request);
-        CContentBuilder_SignInstallScript_Response SignInstallScript(CContentBuilder_SignInstallScript_Request request);
+        public override string ServiceName { get; } = "ContentBuilder";
+
+        public AsyncJob<SteamUnifiedMessages.ServiceMethodResponse<CContentBuilder_InitDepotBuild_Response>> InitDepotBuild( CContentBuilder_InitDepotBuild_Request request )
+        {
+            return UnifiedMessages.SendMessage<CContentBuilder_InitDepotBuild_Request, CContentBuilder_InitDepotBuild_Response>( "ContentBuilder.InitDepotBuild#1", request );
+        }
+
+        public AsyncJob<SteamUnifiedMessages.ServiceMethodResponse<CContentBuilder_StartDepotUpload_Response>> StartDepotUpload( CContentBuilder_StartDepotUpload_Request request )
+        {
+            return UnifiedMessages.SendMessage<CContentBuilder_StartDepotUpload_Request, CContentBuilder_StartDepotUpload_Response>( "ContentBuilder.StartDepotUpload#1", request );
+        }
+
+        public AsyncJob<SteamUnifiedMessages.ServiceMethodResponse<CContentBuilder_GetMissingDepotChunks_Response>> GetMissingDepotChunks( CContentBuilder_GetMissingDepotChunks_Request request )
+        {
+            return UnifiedMessages.SendMessage<CContentBuilder_GetMissingDepotChunks_Request, CContentBuilder_GetMissingDepotChunks_Response>( "ContentBuilder.GetMissingDepotChunks#1", request );
+        }
+
+        public AsyncJob<SteamUnifiedMessages.ServiceMethodResponse<CContentBuilder_FinishDepotUpload_Response>> FinishDepotUpload( CContentBuilder_FinishDepotUpload_Request request )
+        {
+            return UnifiedMessages.SendMessage<CContentBuilder_FinishDepotUpload_Request, CContentBuilder_FinishDepotUpload_Response>( "ContentBuilder.FinishDepotUpload#1", request );
+        }
+
+        public AsyncJob<SteamUnifiedMessages.ServiceMethodResponse<CContentBuilder_CommitAppBuild_Response>> CommitAppBuild( CContentBuilder_CommitAppBuild_Request request )
+        {
+            return UnifiedMessages.SendMessage<CContentBuilder_CommitAppBuild_Request, CContentBuilder_CommitAppBuild_Response>( "ContentBuilder.CommitAppBuild#1", request );
+        }
+
+        public AsyncJob<SteamUnifiedMessages.ServiceMethodResponse<CContentBuilder_SignInstallScript_Response>> SignInstallScript( CContentBuilder_SignInstallScript_Request request )
+        {
+            return UnifiedMessages.SendMessage<CContentBuilder_SignInstallScript_Request, CContentBuilder_SignInstallScript_Response>( "ContentBuilder.SignInstallScript#1", request );
+        }
+
+        public override void HandleResponseMsg( string methodName, PacketClientMsgProtobuf packetMsg )
+        {
+            switch ( methodName )
+            {
+                case "InitDepotBuild":
+                    PostResponseMsg<CContentBuilder_InitDepotBuild_Response>( packetMsg );
+                    break;
+                case "StartDepotUpload":
+                    PostResponseMsg<CContentBuilder_StartDepotUpload_Response>( packetMsg );
+                    break;
+                case "GetMissingDepotChunks":
+                    PostResponseMsg<CContentBuilder_GetMissingDepotChunks_Response>( packetMsg );
+                    break;
+                case "FinishDepotUpload":
+                    PostResponseMsg<CContentBuilder_FinishDepotUpload_Response>( packetMsg );
+                    break;
+                case "CommitAppBuild":
+                    PostResponseMsg<CContentBuilder_CommitAppBuild_Response>( packetMsg );
+                    break;
+                case "SignInstallScript":
+                    PostResponseMsg<CContentBuilder_SignInstallScript_Response>( packetMsg );
+                    break;
+            }
+        }
+
+        public override void HandleNotificationMsg( string methodName, PacketClientMsgProtobuf packetMsg )
+        {
+        }
     }
 
 }
 
-#pragma warning restore CS0612, CS0618, CS1591, CS3021, IDE0079, IDE1006, RCS1036, RCS1057, RCS1085, RCS1192
+#pragma warning restore CS0612, CS0618, CS1591, CS3021, CS8981, IDE0079, IDE1006, RCS1036, RCS1057, RCS1085, RCS1192
 #endregion

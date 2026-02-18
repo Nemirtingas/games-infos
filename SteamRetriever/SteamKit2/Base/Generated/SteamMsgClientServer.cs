@@ -5,7 +5,7 @@
 // </auto-generated>
 
 #region Designer generated code
-#pragma warning disable CS0612, CS0618, CS1591, CS3021, IDE0079, IDE1006, RCS1036, RCS1057, RCS1085, RCS1192
+#pragma warning disable CS0612, CS0618, CS1591, CS3021, CS8981, IDE0079, IDE1006, RCS1036, RCS1057, RCS1085, RCS1192
 namespace SteamKit2.Internal
 {
 
@@ -203,6 +203,16 @@ namespace SteamKit2.Internal
         public bool ShouldSerializerendezvous() => __pbn__rendezvous != null;
         public void Resetrendezvous() => __pbn__rendezvous = null;
         private byte[] __pbn__rendezvous;
+
+        [global::ProtoBuf.ProtoMember(7)]
+        public uint app_id_secondary
+        {
+            get => __pbn__app_id_secondary.GetValueOrDefault();
+            set => __pbn__app_id_secondary = value;
+        }
+        public bool ShouldSerializeapp_id_secondary() => __pbn__app_id_secondary != null;
+        public void Resetapp_id_secondary() => __pbn__app_id_secondary = null;
+        private uint? __pbn__app_id_secondary;
 
     }
 
@@ -1089,6 +1099,35 @@ namespace SteamKit2.Internal
         public bool ShouldSerializemessage_sequence() => __pbn__message_sequence != null;
         public void Resetmessage_sequence() => __pbn__message_sequence = null;
         private uint? __pbn__message_sequence;
+
+    }
+
+    [global::ProtoBuf.ProtoContract()]
+    public partial class CMsgGameServerPolicyUpdate : global::ProtoBuf.IExtensible
+    {
+        private global::ProtoBuf.IExtension __pbn__extensionData;
+        global::ProtoBuf.IExtension global::ProtoBuf.IExtensible.GetExtensionObject(bool createIfMissing)
+            => global::ProtoBuf.Extensible.GetExtensionObject(ref __pbn__extensionData, createIfMissing);
+
+        [global::ProtoBuf.ProtoMember(1)]
+        public uint app_id
+        {
+            get => __pbn__app_id.GetValueOrDefault();
+            set => __pbn__app_id = value;
+        }
+        public bool ShouldSerializeapp_id() => __pbn__app_id != null;
+        public void Resetapp_id() => __pbn__app_id = null;
+        private uint? __pbn__app_id;
+
+        [global::ProtoBuf.ProtoMember(2)]
+        public uint app_id_aux
+        {
+            get => __pbn__app_id_aux.GetValueOrDefault();
+            set => __pbn__app_id_aux = value;
+        }
+        public bool ShouldSerializeapp_id_aux() => __pbn__app_id_aux != null;
+        public void Resetapp_id_aux() => __pbn__app_id_aux = null;
+        private uint? __pbn__app_id_aux;
 
     }
 
@@ -2602,5 +2641,5 @@ namespace SteamKit2.Internal
 
 }
 
-#pragma warning restore CS0612, CS0618, CS1591, CS3021, IDE0079, IDE1006, RCS1036, RCS1057, RCS1085, RCS1192
+#pragma warning restore CS0612, CS0618, CS1591, CS3021, CS8981, IDE0079, IDE1006, RCS1036, RCS1057, RCS1085, RCS1192
 #endregion

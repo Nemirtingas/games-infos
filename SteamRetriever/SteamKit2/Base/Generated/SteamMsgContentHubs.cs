@@ -5,7 +5,7 @@
 // </auto-generated>
 
 #region Designer generated code
-#pragma warning disable CS0612, CS0618, CS1591, CS3021, IDE0079, IDE1006, RCS1036, RCS1057, RCS1085, RCS1192
+#pragma warning disable CS0612, CS0618, CS1591, CS3021, CS8981, IDE0079, IDE1006, RCS1036, RCS1057, RCS1085, RCS1192
 namespace SteamKit2.Internal
 {
 
@@ -41,6 +41,16 @@ namespace SteamKit2.Internal
             public bool ShouldSerializesale_tagid() => __pbn__sale_tagid != null;
             public void Resetsale_tagid() => __pbn__sale_tagid = null;
             private uint? __pbn__sale_tagid;
+
+            [global::ProtoBuf.ProtoMember(2)]
+            public uint creator_clan_account_id
+            {
+                get => __pbn__creator_clan_account_id.GetValueOrDefault();
+                set => __pbn__creator_clan_account_id = value;
+            }
+            public bool ShouldSerializecreator_clan_account_id() => __pbn__creator_clan_account_id != null;
+            public void Resetcreator_clan_account_id() => __pbn__creator_clan_account_id = null;
+            private uint? __pbn__creator_clan_account_id;
 
         }
 
@@ -192,5 +202,5 @@ namespace SteamKit2.Internal
 
 }
 
-#pragma warning restore CS0612, CS0618, CS1591, CS3021, IDE0079, IDE1006, RCS1036, RCS1057, RCS1085, RCS1192
+#pragma warning restore CS0612, CS0618, CS1591, CS3021, CS8981, IDE0079, IDE1006, RCS1036, RCS1057, RCS1085, RCS1192
 #endregion

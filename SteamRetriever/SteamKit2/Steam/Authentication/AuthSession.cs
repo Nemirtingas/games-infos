@@ -13,7 +13,7 @@ using SteamKit2.Internal;
 namespace SteamKit2.Authentication
 {
     /// <summary>
-    /// Represents an authentication sesssion which can be used to finish the authentication and get access tokens.
+    /// Represents an authentication session which can be used to finish the authentication and get access tokens.
     /// </summary>
     public class AuthSession
     {
@@ -204,21 +204,19 @@ namespace SteamKit2.Authentication
                 request_id = RequestID,
             };
 
-            var message = await Authentication.AuthenticationService.SendMessage( api => api.PollAuthSessionStatus( request ) );
+            var result = await Authentication.AuthenticationService.PollAuthSessionStatus( request );
 
             // eresult can be Expired, FileNotFound, Fail
-            if ( message.Result != EResult.OK )
+            if ( result.Result != EResult.OK )
             {
-                throw new AuthenticationException( "Failed to poll status", message.Result );
+                throw new AuthenticationException( "Failed to poll status", result.Result );
             }
 
-            var response = message.GetDeserializedResponse<CAuthentication_PollAuthSessionStatus_Response>();
+            HandlePollAuthSessionStatusResponse( result.Body );
 
-            HandlePollAuthSessionStatusResponse( response );
-
-            if ( response.refresh_token.Length > 0 )
+            if ( result.Body.refresh_token.Length > 0 )
             {
-                return new AuthPollResult( response );
+                return new AuthPollResult( result.Body );
             }
 
             return null;

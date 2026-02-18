@@ -5,7 +5,7 @@
 // </auto-generated>
 
 #region Designer generated code
-#pragma warning disable CS0612, CS0618, CS1591, CS3021, IDE0079, IDE1006, RCS1036, RCS1057, RCS1085, RCS1192
+#pragma warning disable CS0612, CS0618, CS1591, CS3021, CS8981, IDE0079, IDE1006, RCS1036, RCS1057, RCS1085, RCS1192
 namespace SteamKit2.Internal
 {
 
@@ -225,15 +225,43 @@ namespace SteamKit2.Internal
         k_ESteamNotificationType_2FAPrompt = 25,
         k_ESteamNotificationType_MobileConfirmation = 26,
         k_ESteamNotificationType_PartnerEvent = 27,
+        k_ESteamNotificationType_PlaytestInvite = 28,
+        k_ESteamNotificationType_TradeReversal = 29,
     }
 
-    public interface ISteamNotificationClient
+    public class SteamNotificationClient : SteamUnifiedMessages.UnifiedService
     {
-        NoResponse NotificationsReceived(CSteamNotification_NotificationsReceived_Notification request);
-        NoResponse PreferencesUpdated(CSteamNotification_PreferencesUpdated_Notification request);
+        public override string ServiceName { get; } = "SteamNotificationClient";
+
+        public void NotificationsReceived(CSteamNotification_NotificationsReceived_Notification request )
+        {
+            UnifiedMessages.SendNotification<CSteamNotification_NotificationsReceived_Notification>( "SteamNotificationClient.NotificationsReceived#1", request );
+        }
+
+        public void PreferencesUpdated(CSteamNotification_PreferencesUpdated_Notification request )
+        {
+            UnifiedMessages.SendNotification<CSteamNotification_PreferencesUpdated_Notification>( "SteamNotificationClient.PreferencesUpdated#1", request );
+        }
+
+        public override void HandleResponseMsg( string methodName, PacketClientMsgProtobuf packetMsg )
+        {
+        }
+
+        public override void HandleNotificationMsg( string methodName, PacketClientMsgProtobuf packetMsg )
+        {
+            switch ( methodName )
+            {
+                case "NotificationsReceived":
+                    PostNotificationMsg<CSteamNotification_NotificationsReceived_Notification>( packetMsg );
+                    break;
+                case "PreferencesUpdated":
+                    PostNotificationMsg<CSteamNotification_PreferencesUpdated_Notification>( packetMsg );
+                    break;
+            }
+        }
     }
 
 }
 
-#pragma warning restore CS0612, CS0618, CS1591, CS3021, IDE0079, IDE1006, RCS1036, RCS1057, RCS1085, RCS1192
+#pragma warning restore CS0612, CS0618, CS1591, CS3021, CS8981, IDE0079, IDE1006, RCS1036, RCS1057, RCS1085, RCS1192
 #endregion

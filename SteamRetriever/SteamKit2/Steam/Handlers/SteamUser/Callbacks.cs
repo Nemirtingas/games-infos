@@ -91,6 +91,11 @@ namespace SteamKit2
             public string? IPCountryCode { get; private set; }
 
             /// <summary>
+            /// Gets the account country code.
+            /// </summary>
+            public string? UserCountryCode { get; private set; }
+
+            /// <summary>
             /// Gets the vanity URL.
             /// </summary>
             public string? VanityURL { get; private set; }
@@ -142,6 +147,7 @@ namespace SteamKit2
                 this.Steam2Ticket = resp.steam2_ticket;
 
                 this.IPCountryCode = resp.ip_country_code;
+                this.UserCountryCode = resp.user_country;
 
                 this.VanityURL = resp.vanity_url;
 
@@ -208,7 +214,7 @@ namespace SteamKit2
         }
 
         /// <summary>
-        /// This callback is fired when the client recieves it's unique Steam3 session token. This token is used for authenticated content downloading in Steam2.
+        /// This callback is fired when the client receives its unique Steam3 session token. This token is used for authenticated content downloading in Steam2.
         /// </summary>
         public sealed class SessionTokenCallback : CallbackMsg
         {
@@ -251,16 +257,6 @@ namespace SteamKit2
             /// </summary>
             public EAccountFlags AccountFlags { get; private set; }
 
-            /// <summary>
-            /// Gets the facebook ID of this account if it is linked with facebook.
-            /// </summary>
-            public ulong FacebookID { get; private set; }
-            /// <summary>
-            /// Gets the facebook name if this account is linked with facebook.
-            /// </summary>
-            public string FacebookName { get; private set; }
-
-
             internal AccountInfoCallback( IPacketMsg packetMsg )
             {
                 var accInfo = new ClientMsgProtobuf<CMsgClientAccountInfo>( packetMsg );
@@ -272,9 +268,6 @@ namespace SteamKit2
                 CountAuthedComputers = msg.count_authed_computers;
 
                 AccountFlags = ( EAccountFlags )msg.account_flags;
-
-                FacebookID = msg.facebook_id;
-                FacebookName = msg.facebook_name;
             }
         }
 
@@ -397,7 +390,7 @@ namespace SteamKit2
             internal VanityURLChangedCallback( IPacketMsg packetMsg )
             {
                 var vanityUrl = new ClientMsgProtobuf<CMsgClientVanityURLChangedNotification>( packetMsg );
-                
+
                 this.JobID = vanityUrl.TargetJobID;
                 this.VanityURL = vanityUrl.Body.vanity_url;
             }

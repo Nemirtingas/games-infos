@@ -9,6 +9,7 @@ using System;
 using System.Collections.Immutable;
 using System.Threading;
 using System.Threading.Tasks;
+using ProtoBuf;
 using SteamKit2.Internal;
 
 namespace SteamKit2
@@ -18,9 +19,10 @@ namespace SteamKit2
     /// In order to bind callbacks to functions, an instance of this class must be created for the
     /// <see cref="SteamClient"/> instance that will be posting callbacks.
     /// </summary>
-    public sealed class CallbackManager : ICallbackMgrInternals
+    public sealed class CallbackManager
     {
-        SteamClient client;
+        readonly SteamClient client;
+        readonly SteamUnifiedMessages steamUnifiedMessages;
 
         ImmutableList<CallbackBase> registeredCallbacks = [];
 
@@ -35,6 +37,7 @@ namespace SteamKit2
             ArgumentNullException.ThrowIfNull( client );
 
             this.client = client;
+            this.steamUnifiedMessages = client.GetHandler<SteamUnifiedMessages>()!;
         }
 
 
@@ -102,7 +105,7 @@ namespace SteamKit2
         /// </summary>
         public async Task RunWaitCallbackAsync( CancellationToken cancellationToken = default )
         {
-            var call = await client.WaitForCallbackAsync( cancellationToken );
+            var call = await client.WaitForCallbackAsync( cancellationToken ).ConfigureAwait( false );
             Handle( call );
         }
 
@@ -115,16 +118,14 @@ namespace SteamKit2
         /// <typeparam name="TCallback">The type of callback to subscribe to.</typeparam>
         /// <returns>An <see cref="IDisposable"/>. Disposing of the return value will unsubscribe the <paramref name="callbackFunc"/>.</returns>
         public IDisposable Subscribe<TCallback>( JobID jobID, Action<TCallback> callbackFunc )
-            where TCallback : class, ICallbackMsg
+            where TCallback : CallbackMsg
         {
             ArgumentNullException.ThrowIfNull( jobID );
 
             ArgumentNullException.ThrowIfNull( callbackFunc );
 
-#pragma warning disable CA2000 // Not implicitly disposed
             var callback = new Internal.Callback<TCallback>( callbackFunc, this, jobID );
-#pragma warning restore CA2000
-            return new Subscription( callback, this );
+            return callback;
         }
 
         /// <summary>
@@ -133,18 +134,54 @@ namespace SteamKit2
         /// <param name="callbackFunc">The function to invoke with the callback.</param>
         /// <returns>An <see cref="IDisposable"/>. Disposing of the return value will unsubscribe the <paramref name="callbackFunc"/>.</returns>
         public IDisposable Subscribe<TCallback>( Action<TCallback> callbackFunc )
-            where TCallback : class, ICallbackMsg
+            where TCallback : CallbackMsg
         {
             return Subscribe( JobID.Invalid, callbackFunc );
         }
 
-        void ICallbackMgrInternals.Register( CallbackBase call )
+        /// <summary>
+        /// Registers the provided <see cref="Action{T}"/> to receive callbacks for notifications from the service of type <typeparam name="TService" />
+        /// with the notification message of type <typeparam name="TNotification"></typeparam>.
+        /// </summary>
+        /// <param name="callbackFunc">The function to invoke with the callback.</param>
+        /// <returns>An <see cref="IDisposable"/>. Disposing of the return value will unsubscribe the <paramref name="callbackFunc"/>.</returns>
+        public IDisposable SubscribeServiceNotification<TService, TNotification>( Action<SteamUnifiedMessages.ServiceMethodNotification<TNotification>> callbackFunc )
+            where TService : SteamUnifiedMessages.UnifiedService, new()
+            where TNotification : IExtensible, new()
+        {
+            ArgumentNullException.ThrowIfNull( callbackFunc );
+
+            steamUnifiedMessages.CreateService<TService>();
+
+            var callback = new Callback<SteamUnifiedMessages.ServiceMethodNotification<TNotification>>( callbackFunc, this, JobID.Invalid );
+            return callback;
+        }
+
+        /// <summary>
+        /// Registers the provided <see cref="Action{T}"/> to receive callbacks for responses of <see cref="SteamUnifiedMessages"/> requests
+        /// made by the service of type <typeparam name="TService" /> with the response of type <typeparam name="TResponse"></typeparam>.
+        /// </summary>
+        /// <param name="callbackFunc">The function to invoke with the callback.</param>
+        /// <returns>An <see cref="IDisposable"/>. Disposing of the return value will unsubscribe the <paramref name="callbackFunc"/>.</returns>
+        public IDisposable SubscribeServiceResponse<TService, TResponse>( Action<SteamUnifiedMessages.ServiceMethodResponse<TResponse>> callbackFunc )
+            where TService : SteamUnifiedMessages.UnifiedService, new()
+            where TResponse : IExtensible, new()
+        {
+            ArgumentNullException.ThrowIfNull( callbackFunc );
+
+            steamUnifiedMessages.CreateService<TService>();
+
+            var callback = new Callback<SteamUnifiedMessages.ServiceMethodResponse<TResponse>>( callbackFunc, this, JobID.Invalid );
+            return callback;
+        }
+
+        internal void Register( CallbackBase call )
             => ImmutableInterlocked.Update( ref registeredCallbacks, static ( list, item ) => list.Add( item ), call );
 
-        void ICallbackMgrInternals.Unregister( CallbackBase call )
+        internal void Unregister( CallbackBase call )
             => ImmutableInterlocked.Update( ref registeredCallbacks, static ( list, item ) => list.Remove( item ), call );
 
-        void Handle( ICallbackMsg call )
+        void Handle( CallbackMsg call )
         {
             var callbacks = registeredCallbacks;
             var type = call.GetType();
@@ -155,28 +192,6 @@ namespace SteamKit2
                 if ( callback.CallbackType.IsAssignableFrom( type ) )
                 {
                     callback.Run( call );
-                }
-            }
-        }
-
-        sealed class Subscription : IDisposable
-        {
-            public Subscription( CallbackBase call, ICallbackMgrInternals manager )
-            {
-                this.manager = manager;
-                this.call = call;
-            }
-
-            ICallbackMgrInternals? manager;
-            CallbackBase? call;
-
-            void IDisposable.Dispose()
-            {
-                if ( call != null && manager != null )
-                {
-                    manager.Unregister( call );
-                    call = null;
-                    manager = null;
                 }
             }
         }

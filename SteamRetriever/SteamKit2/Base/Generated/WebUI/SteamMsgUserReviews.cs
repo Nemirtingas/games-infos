@@ -5,7 +5,7 @@
 // </auto-generated>
 
 #region Designer generated code
-#pragma warning disable CS0612, CS0618, CS1591, CS3021, IDE0079, IDE1006, RCS1036, RCS1057, RCS1085, RCS1192
+#pragma warning disable CS0612, CS0618, CS1591, CS3021, CS8981, IDE0079, IDE1006, RCS1036, RCS1057, RCS1085, RCS1192
 namespace SteamKit2.WebUI.Internal
 {
 
@@ -122,6 +122,57 @@ namespace SteamKit2.WebUI.Internal
         public bool ShouldSerializecount() => __pbn__count != null;
         public void Resetcount() => __pbn__count = null;
         private uint? __pbn__count;
+
+    }
+
+    [global::ProtoBuf.ProtoContract()]
+    public partial class CUserReviews_Recommendation_Tag : global::ProtoBuf.IExtensible
+    {
+        private global::ProtoBuf.IExtension __pbn__extensionData;
+        global::ProtoBuf.IExtension global::ProtoBuf.IExtensible.GetExtensionObject(bool createIfMissing)
+            => global::ProtoBuf.Extensible.GetExtensionObject(ref __pbn__extensionData, createIfMissing);
+
+        [global::ProtoBuf.ProtoMember(1)]
+        public int id
+        {
+            get => __pbn__id.GetValueOrDefault();
+            set => __pbn__id = value;
+        }
+        public bool ShouldSerializeid() => __pbn__id != null;
+        public void Resetid() => __pbn__id = null;
+        private int? __pbn__id;
+
+        [global::ProtoBuf.ProtoMember(2)]
+        public global::System.Collections.Generic.List<CUserReviews_Recommendation_Tag_Range> ranges { get; } = new global::System.Collections.Generic.List<CUserReviews_Recommendation_Tag_Range>();
+
+    }
+
+    [global::ProtoBuf.ProtoContract()]
+    public partial class CUserReviews_Recommendation_Tag_Range : global::ProtoBuf.IExtensible
+    {
+        private global::ProtoBuf.IExtension __pbn__extensionData;
+        global::ProtoBuf.IExtension global::ProtoBuf.IExtensible.GetExtensionObject(bool createIfMissing)
+            => global::ProtoBuf.Extensible.GetExtensionObject(ref __pbn__extensionData, createIfMissing);
+
+        [global::ProtoBuf.ProtoMember(1)]
+        public uint start
+        {
+            get => __pbn__start.GetValueOrDefault();
+            set => __pbn__start = value;
+        }
+        public bool ShouldSerializestart() => __pbn__start != null;
+        public void Resetstart() => __pbn__start = null;
+        private uint? __pbn__start;
+
+        [global::ProtoBuf.ProtoMember(2)]
+        public uint end
+        {
+            get => __pbn__end.GetValueOrDefault();
+            set => __pbn__end = value;
+        }
+        public bool ShouldSerializeend() => __pbn__end != null;
+        public void Resetend() => __pbn__end = null;
+        private uint? __pbn__end;
 
     }
 
@@ -724,16 +775,72 @@ namespace SteamKit2.WebUI.Internal
         public void Resetdeck_playtime_at_review() => __pbn__deck_playtime_at_review = null;
         private int? __pbn__deck_playtime_at_review;
 
+        [global::ProtoBuf.ProtoMember(50)]
+        public uint is_bot_review_pct
+        {
+            get => __pbn__is_bot_review_pct.GetValueOrDefault();
+            set => __pbn__is_bot_review_pct = value;
+        }
+        public bool ShouldSerializeis_bot_review_pct() => __pbn__is_bot_review_pct != null;
+        public void Resetis_bot_review_pct() => __pbn__is_bot_review_pct = null;
+        private uint? __pbn__is_bot_review_pct;
+
+        [global::ProtoBuf.ProtoMember(51)]
+        public uint positivity_pct
+        {
+            get => __pbn__positivity_pct.GetValueOrDefault();
+            set => __pbn__positivity_pct = value;
+        }
+        public bool ShouldSerializepositivity_pct() => __pbn__positivity_pct != null;
+        public void Resetpositivity_pct() => __pbn__positivity_pct = null;
+        private uint? __pbn__positivity_pct;
+
+        [global::ProtoBuf.ProtoMember(54)]
+        public global::System.Collections.Generic.List<CUserReviews_Recommendation_Tag> tags_with_ranges { get; } = new global::System.Collections.Generic.List<CUserReviews_Recommendation_Tag>();
+
     }
 
-    public interface IUserReviews
+    public class UserReviews : SteamUnifiedMessages.UnifiedService
     {
-        CUserReviews_GetFriendsRecommendedApp_Response GetFriendsRecommendedApp(CUserReviews_GetFriendsRecommendedApp_Request request);
-        CUserReviews_GetIndividualRecommendations_Response GetIndividualRecommendations(CUserReviews_GetIndividualRecommendations_Request request);
-        CUserReviews_Update_Response Update(CUserReviews_Update_Request request);
+        public override string ServiceName { get; } = "UserReviews";
+
+        public AsyncJob<SteamUnifiedMessages.ServiceMethodResponse<CUserReviews_GetFriendsRecommendedApp_Response>> GetFriendsRecommendedApp( CUserReviews_GetFriendsRecommendedApp_Request request )
+        {
+            return UnifiedMessages.SendMessage<CUserReviews_GetFriendsRecommendedApp_Request, CUserReviews_GetFriendsRecommendedApp_Response>( "UserReviews.GetFriendsRecommendedApp#1", request );
+        }
+
+        public AsyncJob<SteamUnifiedMessages.ServiceMethodResponse<CUserReviews_GetIndividualRecommendations_Response>> GetIndividualRecommendations( CUserReviews_GetIndividualRecommendations_Request request )
+        {
+            return UnifiedMessages.SendMessage<CUserReviews_GetIndividualRecommendations_Request, CUserReviews_GetIndividualRecommendations_Response>( "UserReviews.GetIndividualRecommendations#1", request );
+        }
+
+        public AsyncJob<SteamUnifiedMessages.ServiceMethodResponse<CUserReviews_Update_Response>> Update( CUserReviews_Update_Request request )
+        {
+            return UnifiedMessages.SendMessage<CUserReviews_Update_Request, CUserReviews_Update_Response>( "UserReviews.Update#1", request );
+        }
+
+        public override void HandleResponseMsg( string methodName, PacketClientMsgProtobuf packetMsg )
+        {
+            switch ( methodName )
+            {
+                case "GetFriendsRecommendedApp":
+                    PostResponseMsg<CUserReviews_GetFriendsRecommendedApp_Response>( packetMsg );
+                    break;
+                case "GetIndividualRecommendations":
+                    PostResponseMsg<CUserReviews_GetIndividualRecommendations_Response>( packetMsg );
+                    break;
+                case "Update":
+                    PostResponseMsg<CUserReviews_Update_Response>( packetMsg );
+                    break;
+            }
+        }
+
+        public override void HandleNotificationMsg( string methodName, PacketClientMsgProtobuf packetMsg )
+        {
+        }
     }
 
 }
 
-#pragma warning restore CS0612, CS0618, CS1591, CS3021, IDE0079, IDE1006, RCS1036, RCS1057, RCS1085, RCS1192
+#pragma warning restore CS0612, CS0618, CS1591, CS3021, CS8981, IDE0079, IDE1006, RCS1036, RCS1057, RCS1085, RCS1192
 #endregion

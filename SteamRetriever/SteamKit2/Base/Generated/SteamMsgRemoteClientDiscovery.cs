@@ -5,7 +5,7 @@
 // </auto-generated>
 
 #region Designer generated code
-#pragma warning disable CS0612, CS0618, CS1591, CS3021, IDE0079, IDE1006, RCS1036, RCS1057, RCS1085, RCS1192
+#pragma warning disable CS0612, CS0618, CS1591, CS3021, CS8981, IDE0079, IDE1006, RCS1036, RCS1057, RCS1085, RCS1192
 namespace SteamKit2.Internal
 {
 
@@ -298,6 +298,36 @@ namespace SteamKit2.Internal
         public bool ShouldSerializevr_link_caps() => __pbn__vr_link_caps != null;
         public void Resetvr_link_caps() => __pbn__vr_link_caps = null;
         private EVRLinkCaps? __pbn__vr_link_caps;
+
+        [global::ProtoBuf.ProtoMember(27, DataFormat = global::ProtoBuf.DataFormat.FixedSize)]
+        public ulong vr_link_invite_client_id
+        {
+            get => __pbn__vr_link_invite_client_id.GetValueOrDefault();
+            set => __pbn__vr_link_invite_client_id = value;
+        }
+        public bool ShouldSerializevr_link_invite_client_id() => __pbn__vr_link_invite_client_id != null;
+        public void Resetvr_link_invite_client_id() => __pbn__vr_link_invite_client_id = null;
+        private ulong? __pbn__vr_link_invite_client_id;
+
+        [global::ProtoBuf.ProtoMember(28, DataFormat = global::ProtoBuf.DataFormat.FixedSize)]
+        public ulong connected_paired_network_hash
+        {
+            get => __pbn__connected_paired_network_hash.GetValueOrDefault();
+            set => __pbn__connected_paired_network_hash = value;
+        }
+        public bool ShouldSerializeconnected_paired_network_hash() => __pbn__connected_paired_network_hash != null;
+        public void Resetconnected_paired_network_hash() => __pbn__connected_paired_network_hash = null;
+        private ulong? __pbn__connected_paired_network_hash;
+
+        [global::ProtoBuf.ProtoMember(29)]
+        public bool wifi_dongle_present
+        {
+            get => __pbn__wifi_dongle_present.GetValueOrDefault();
+            set => __pbn__wifi_dongle_present = value;
+        }
+        public bool ShouldSerializewifi_dongle_present() => __pbn__wifi_dongle_present != null;
+        public void Resetwifi_dongle_present() => __pbn__wifi_dongle_present = null;
+        private bool? __pbn__wifi_dongle_present;
 
         [global::ProtoBuf.ProtoContract()]
         public partial class User : global::ProtoBuf.IExtensible
@@ -1111,5 +1141,5 @@ namespace SteamKit2.Internal
 
 }
 
-#pragma warning restore CS0612, CS0618, CS1591, CS3021, IDE0079, IDE1006, RCS1036, RCS1057, RCS1085, RCS1192
+#pragma warning restore CS0612, CS0618, CS1591, CS3021, CS8981, IDE0079, IDE1006, RCS1036, RCS1057, RCS1085, RCS1192
 #endregion

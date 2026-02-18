@@ -5,7 +5,7 @@
 // </auto-generated>
 
 #region Designer generated code
-#pragma warning disable CS0612, CS0618, CS1591, CS3021, IDE0079, IDE1006, RCS1036, RCS1057, RCS1085, RCS1192
+#pragma warning disable CS0612, CS0618, CS1591, CS3021, CS8981, IDE0079, IDE1006, RCS1036, RCS1057, RCS1085, RCS1192
 namespace SteamKit2.GC.Dota.Internal
 {
 
@@ -1990,6 +1990,17 @@ namespace SteamKit2.GC.Dota.Internal
         public void Resetcurrent_primary_event() => __pbn__current_primary_event = null;
         private EEvent? __pbn__current_primary_event;
 
+        [global::ProtoBuf.ProtoMember(104)]
+        [global::System.ComponentModel.DefaultValue(EEvent.EVENT_ID_NONE)]
+        public EEvent current_primary_event_for_display
+        {
+            get => __pbn__current_primary_event_for_display ?? EEvent.EVENT_ID_NONE;
+            set => __pbn__current_primary_event_for_display = value;
+        }
+        public bool ShouldSerializecurrent_primary_event_for_display() => __pbn__current_primary_event_for_display != null;
+        public void Resetcurrent_primary_event_for_display() => __pbn__current_primary_event_for_display = null;
+        private EEvent? __pbn__current_primary_event_for_display;
+
         [global::ProtoBuf.ProtoMember(105)]
         public global::System.Collections.Generic.List<int> emergency_disabled_hero_ids { get; } = new global::System.Collections.Generic.List<int>();
 
@@ -2120,6 +2131,9 @@ namespace SteamKit2.GC.Dota.Internal
         [global::ProtoBuf.ProtoMember(131)]
         public CDOTALobbyMatchQualityData match_quality_data { get; set; }
 
+        [global::ProtoBuf.ProtoMember(132)]
+        public global::System.Collections.Generic.List<int> requested_hero_teams { get; } = new global::System.Collections.Generic.List<int>();
+
         [global::ProtoBuf.ProtoContract()]
         public partial class CExtraMsg : global::ProtoBuf.IExtensible
         {
@@ -2175,6 +2189,7 @@ namespace SteamKit2.GC.Dota.Internal
             EVENT_MATCH = 12,
             NEW_PLAYER_POOL = 14,
             FEATURED_GAMEMODE = 15,
+            AUTOMATED_BOT_ONLY_MATCH = 16,
         }
 
     }
@@ -2191,6 +2206,16 @@ namespace SteamKit2.GC.Dota.Internal
 
         [global::ProtoBuf.ProtoMember(2)]
         public global::System.Collections.Generic.List<CSODOTALobby.CExtraMsg> extra_startup_messages { get; } = new global::System.Collections.Generic.List<CSODOTALobby.CExtraMsg>();
+
+        [global::ProtoBuf.ProtoMember(3)]
+        public bool broadcast_active
+        {
+            get => __pbn__broadcast_active.GetValueOrDefault();
+            set => __pbn__broadcast_active = value;
+        }
+        public bool ShouldSerializebroadcast_active() => __pbn__broadcast_active != null;
+        public void Resetbroadcast_active() => __pbn__broadcast_active = null;
+        private bool? __pbn__broadcast_active;
 
     }
 
@@ -2248,6 +2273,17 @@ namespace SteamKit2.GC.Dota.Internal
 
         [global::ProtoBuf.ProtoMember(3)]
         public global::System.Collections.Generic.List<CMsgLobbyEventPoints> lobby_event_points { get; } = new global::System.Collections.Generic.List<CMsgLobbyEventPoints>();
+
+        [global::ProtoBuf.ProtoMember(4)]
+        [global::System.ComponentModel.DefaultValue("")]
+        public string broadcast_url
+        {
+            get => __pbn__broadcast_url ?? "";
+            set => __pbn__broadcast_url = value;
+        }
+        public bool ShouldSerializebroadcast_url() => __pbn__broadcast_url != null;
+        public void Resetbroadcast_url() => __pbn__broadcast_url = null;
+        private string __pbn__broadcast_url;
 
     }
 
@@ -2575,5 +2611,5 @@ namespace SteamKit2.GC.Dota.Internal
 
 }
 
-#pragma warning restore CS0612, CS0618, CS1591, CS3021, IDE0079, IDE1006, RCS1036, RCS1057, RCS1085, RCS1192
+#pragma warning restore CS0612, CS0618, CS1591, CS3021, CS8981, IDE0079, IDE1006, RCS1036, RCS1057, RCS1085, RCS1192
 #endregion

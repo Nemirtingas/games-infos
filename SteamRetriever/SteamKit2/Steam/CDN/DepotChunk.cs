@@ -23,7 +23,7 @@ namespace SteamKit2.CDN
         /// <param name="data">The encrypted chunk data.</param>
         /// <param name="destination">The buffer to receive the decrypted chunk data.</param>
         /// <param name="depotKey">The depot decryption key.</param>
-        /// <exception cref="InvalidDataException">Thrown if the processed data does not match the expected checksum given in it's chunk information.</exception>
+        /// <exception cref="InvalidDataException">Thrown if the processed data does not match the expected checksum given in its chunk information.</exception>
         public static int Process( DepotManifest.ChunkData info, ReadOnlySpan<byte> data, byte[] destination, byte[] depotKey )
         {
             ArgumentNullException.ThrowIfNull( info );
@@ -53,15 +53,29 @@ namespace SteamKit2.CDN
             try
             {
                 var written = aes.DecryptCbc( data[ iv.Length.. ], iv, buffer, PaddingMode.PKCS7 );
-                var decryptedStream = new MemoryStream( buffer, 0, written );
 
-                if ( buffer.Length > 1 && buffer[ 0 ] == 'V' && buffer[ 1 ] == 'Z' )
+                if ( buffer.Length < 16 )
                 {
+                    throw new InvalidDataException( $"Not enough data in the decrypted depot chunk (was {buffer.Length} bytes)." );
+                }
+
+                if ( buffer[ 0 ] == 'V' && buffer[ 1 ] == 'S' && buffer[ 2 ] == 'Z' && buffer[ 3 ] == 'a' ) // Zstd
+                {
+                    writtenDecompressed = VZstdUtil.Decompress( buffer.AsSpan( 0, written ), destination, verifyChecksum: false );
+                }
+                else if ( buffer[ 0 ] == 'V' && buffer[ 1 ] == 'Z' && buffer[ 2 ] == 'a' ) // LZMA
+                {
+                    using var decryptedStream = new MemoryStream( buffer, 0, written );
                     writtenDecompressed = VZipUtil.Decompress( decryptedStream, destination, verifyChecksum: false );
+                }
+                else if ( buffer[ 0 ] == 'P' && buffer[ 1 ] == 'K' && buffer[ 2 ] == 0x03 && buffer[ 3 ] == 0x04 ) // PKzip
+                {
+                    using var decryptedStream = new MemoryStream( buffer, 0, written );
+                    writtenDecompressed = ZipUtil.Decompress( decryptedStream, destination, verifyChecksum: false );
                 }
                 else
                 {
-                    writtenDecompressed = ZipUtil.Decompress( decryptedStream, destination, verifyChecksum: false );
+                    throw new InvalidDataException( $"Unexpected depot chunk compression (first four bytes are {Convert.ToHexString( buffer.AsSpan( 0, 4 ) )})." );
                 }
             }
             finally
@@ -74,7 +88,7 @@ namespace SteamKit2.CDN
                 throw new InvalidDataException( $"Processed data checksum failed to decompressed to the expected chunk uncompressed length. (was {writtenDecompressed}, should be {info.UncompressedLength})" );
             }
 
-            var dataCrc = Utils.AdlerHash( destination.AsSpan()[ ..writtenDecompressed ] );
+            var dataCrc = AdlerHash( destination.AsSpan( 0, writtenDecompressed ) );
 
             if ( dataCrc != info.Checksum )
             {
@@ -83,5 +97,11 @@ namespace SteamKit2.CDN
 
             return writtenDecompressed;
         }
+
+        /// <summary>
+        /// Calculates the Adler32 checksum with the bytes taken from the span using zero as the initial seed.
+        /// </summary>
+        public static uint AdlerHash( ReadOnlySpan<byte> input )
+            => Adler32.Calculate( 0, input );
     }
 }

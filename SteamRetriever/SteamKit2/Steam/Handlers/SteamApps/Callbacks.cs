@@ -17,7 +17,7 @@ namespace SteamKit2
     {
 
         /// <summary>
-        /// This callback is fired during logon, informing the client of it's available licenses.
+        /// This callback is fired during logon, informing the client of its available licenses.
         /// </summary>
         public sealed class LicenseListCallback : CallbackMsg
         {
@@ -328,7 +328,7 @@ namespace SteamKit2
         }
 
         /// <summary>
-        /// This callback is fired when the client receives it's VAC banned status.
+        /// This callback is fired when the client receives its VAC banned status.
         /// </summary>
         public sealed class VACStatusCallback : CallbackMsg
         {
@@ -791,6 +791,40 @@ namespace SteamKit2
                 foreach ( var password in msg.betapasswords )
                 {
                     BetaPasswords[ password.betaname ] = Utils.DecodeHexString( password.betapassword );
+                }
+            }
+        }
+
+        /// <summary>
+        /// This callback is received when a private beta request has been completed
+        /// </summary>
+        public sealed class PrivateBetaCallback : CallbackMsg
+        {
+            /// <summary>
+            /// Result of the operation
+            /// </summary>
+            public EResult Result { get; set; }
+            /// <summary>
+            /// Gets the keyvalue info to be merged into main appinfo
+            /// </summary>
+            public KeyValue DepotSection { get; private set; }
+
+            internal PrivateBetaCallback( IPacketMsg packetMsg )
+            {
+                var response = new ClientMsgProtobuf<CMsgClientPICSPrivateBetaResponse>( packetMsg );
+                var msg = response.Body;
+
+                JobID = response.TargetJobID;
+
+                Result = ( EResult )msg.eresult;
+
+                this.DepotSection = new KeyValue();
+
+                if ( msg.depot_section != null && msg.depot_section.Length > 0 )
+                {
+                    // we don't want to read the trailing null byte
+                    using var ms = new MemoryStream( msg.depot_section, 0, msg.depot_section.Length - 1 );
+                    this.DepotSection.ReadAsText( ms );
                 }
             }
         }

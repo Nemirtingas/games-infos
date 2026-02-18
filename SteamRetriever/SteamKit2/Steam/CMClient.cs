@@ -64,6 +64,13 @@ namespace SteamKit2.Internal
         public string? IPCountryCode { get; private set; }
 
         /// <summary>
+        /// Gets the country code of our account country code. This value is assigned after a logon attempt has succeeded.
+        /// This value will be <c>null</c> if the client is logged off of Steam.
+        /// </summary>
+        /// <value>The SteamID.</value>
+        public string? UserCountryCode { get; private set; }
+
+        /// <summary>
         /// Gets the universe of this client.
         /// </summary>
         /// <value>The universe.</value>
@@ -405,7 +412,7 @@ namespace SteamKit2.Internal
         {
             if ( protocol.HasFlagsFast( ProtocolTypes.WebSocket ) )
             {
-                return new WebSocketConnection( this );
+                return new WebSocketConnection( this, Configuration.HttpClientFactory( HttpClientPurpose.CMWebSocket ) );
             }
             else if ( protocol.HasFlagsFast( ProtocolTypes.Tcp ) )
             {
@@ -424,6 +431,11 @@ namespace SteamKit2.Internal
         {
             OnClientMsgReceived( GetPacketMsg( e.Data, this ) );
         }
+
+#if DEBUG
+        internal void ReceiveTestPacketMsg( IPacketMsg packetMsg ) => OnClientMsgReceived( packetMsg );
+        internal void SetIsConnected( bool value ) => IsConnected = value;
+#endif
 
         void Connected( object? sender, EventArgs e )
         {
@@ -467,6 +479,11 @@ namespace SteamKit2.Internal
             connectionRelease.NetMsgReceived -= NetMsgReceived;
             connectionRelease.Connected -= Connected;
             connectionRelease.Disconnected -= Disconnected;
+
+            if ( connectionRelease is IDisposable disposableConnection )
+            {
+                disposableConnection.Dispose();
+            }
 
             heartBeatFunc.Stop();
 
@@ -572,6 +589,7 @@ namespace SteamKit2.Internal
                 CellID = logonResp.Body.cell_id;
                 PublicIP = logonResp.Body.public_ip.GetIPAddress();
                 IPCountryCode = logonResp.Body.ip_country_code;
+                UserCountryCode = logonResp.Body.user_country;
 
                 int hbDelay = logonResp.Body.legacy_out_of_game_heartbeat_seconds;
 
@@ -596,6 +614,7 @@ namespace SteamKit2.Internal
             CellID = null;
             PublicIP = null;
             IPCountryCode = null;
+            UserCountryCode = null;
 
             heartBeatFunc.Stop();
 

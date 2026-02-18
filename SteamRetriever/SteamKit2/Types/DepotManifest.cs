@@ -6,6 +6,7 @@
 using System;
 using System.Buffers;
 using System.Collections.Generic;
+using System.Diagnostics.CodeAnalysis;
 using System.IO;
 using System.IO.Hashing;
 using System.Linq;
@@ -64,7 +65,10 @@ namespace SteamKit2
             {
             }
 
-            internal ChunkData( byte[] id, uint checksum, ulong offset, uint comp_length, uint uncomp_length )
+            /// <summary>
+            /// Initializes a new instance of the <see cref="ChunkData"/> class with specified values.
+            /// </summary>
+            public ChunkData( byte[] id, uint checksum, ulong offset, uint comp_length, uint uncomp_length )
             {
                 this.ChunkID = id;
                 this.Checksum = checksum;
@@ -83,36 +87,49 @@ namespace SteamKit2
             /// <summary>
             /// Gets the name of the file.
             /// </summary>
-            public string FileName { get; internal set; }
+            public string FileName { get; set; }
             /// <summary>
             /// Gets SHA-1 hash of this file's name.
             /// </summary>
-            public byte[] FileNameHash { get; internal set; }
+            public byte[] FileNameHash { get; set; }
             /// <summary>
             /// Gets the chunks that this file is composed of.
             /// </summary>
-            public List<ChunkData> Chunks { get; private set; }
+            public List<ChunkData> Chunks { get; set; }
 
             /// <summary>
             /// Gets the file flags
             /// </summary>
-            public EDepotFileFlag Flags { get; private set; }
+            public EDepotFileFlag Flags { get; set; }
 
             /// <summary>
             /// Gets the total size of this file.
             /// </summary>
-            public ulong TotalSize { get; private set; }
+            public ulong TotalSize { get; set; }
             /// <summary>
             /// Gets SHA-1 hash of this file.
             /// </summary>
-            public byte[] FileHash { get; private set; }
+            public byte[] FileHash { get; set; }
             /// <summary>
             /// Gets symlink target of this file.
             /// </summary>
-            public string LinkTarget { get; private set; }
+            public string? LinkTarget { get; set; }
 
+            /// <summary>
+            /// Initializes a new instance of the <see cref="FileData"/> class.
+            /// </summary>
+            public FileData()
+            {
+                FileName = string.Empty;
+                FileNameHash = [];
+                Chunks = [];
+                FileHash = [];
+            }
 
-            internal FileData(string filename, byte[] filenameHash, EDepotFileFlag flag, ulong size, byte[] hash, string linkTarget, bool encrypted, int numChunks)
+            /// <summary>
+            /// Initializes a new instance of the <see cref="FileData"/> class with specified values.
+            /// </summary>
+            public FileData(string filename, byte[] filenameHash, EDepotFileFlag flag, ulong size, byte[] hash, string linkTarget, bool encrypted, int numChunks)
             {
                 if (encrypted)
                 {
@@ -135,38 +152,38 @@ namespace SteamKit2
         /// <summary>
         /// Gets the list of files within this manifest.
         /// </summary>
-        public List<FileData>? Files { get; private set; }
+        public List<FileData>? Files { get; set; }
         /// <summary>
         /// Gets a value indicating whether filenames within this depot are encrypted.
         /// </summary>
         /// <value>
         ///   <c>true</c> if the filenames are encrypted; otherwise, <c>false</c>.
         /// </value>
-        public bool FilenamesEncrypted { get; private set; }
+        public bool FilenamesEncrypted { get; set; }
         /// <summary>
         /// Gets the depot id.
         /// </summary>
-        public uint DepotID { get; private set; }
+        public uint DepotID { get; set; }
         /// <summary>
         /// Gets the manifest id.
         /// </summary>
-        public ulong ManifestGID { get; private set; }
+        public ulong ManifestGID { get; set; }
         /// <summary>
         /// Gets the depot creation time.
         /// </summary>
-        public DateTime CreationTime { get; private set; }
+        public DateTime CreationTime { get; set; }
         /// <summary>
         /// Gets the total uncompressed size of all files in this depot.
         /// </summary>
-        public ulong TotalUncompressedSize { get; private set; }
+        public ulong TotalUncompressedSize { get; set; }
         /// <summary>
         /// Gets the total compressed size of all files in this depot.
         /// </summary>
-        public ulong TotalCompressedSize { get; private set; }
+        public ulong TotalCompressedSize { get; set; }
         /// <summary>
         /// Gets CRC-32 checksum of encrypted manifest payload.
         /// </summary>
-        public uint EncryptedCRC { get; private set; }
+        public uint EncryptedCRC { get; set; }
 
         /// <summary>
         /// Initializes a new instance of the <see cref="DepotManifest"/> class.
@@ -208,7 +225,7 @@ namespace SteamKit2
             }
 
             DebugLog.Assert( Files != null, nameof( DepotManifest ), "Files was null when attempting to decrypt filenames." );
-            DebugLog.Assert( encryptionKey.Length == 32, nameof( DepotManifest ), $"Decrypt filnames used with non 32 byte key!" );
+            DebugLog.Assert( encryptionKey.Length == 32, nameof( DepotManifest ), $"Decrypt filenames used with non 32 byte key!" );
 
             // This was copypasted from <see cref="CryptoHelper.SymmetricDecrypt"/> to avoid allocating Aes instance for every filename
             using var aes = Aes.Create();
@@ -217,7 +234,6 @@ namespace SteamKit2
             aes.Key = encryptionKey;
 
             Span<byte> iv = stackalloc byte[ 16 ];
-            var filenameLength = 0;
             var bufferDecoded = ArrayPool<byte>.Shared.Rent( 256 );
             var bufferDecrypted = ArrayPool<byte>.Shared.Rent( 256 );
 
@@ -225,47 +241,22 @@ namespace SteamKit2
             {
                 foreach ( var file in Files )
                 {
-                    var decodedLength = file.FileName.Length / 4 * 3; // This may be higher due to padding
-
-                    // Majority of filenames are short, even when they are encrypted and base64 encoded,
-                    // so this resize will be hit *very* rarely
-                    if ( decodedLength > bufferDecoded.Length )
+                    if ( !TryDecryptName( file.FileName, iv, out var name ) )
                     {
-                        ArrayPool<byte>.Shared.Return( bufferDecoded );
-                        bufferDecoded = ArrayPool<byte>.Shared.Rent( decodedLength );
-
-                        ArrayPool<byte>.Shared.Return( bufferDecrypted );
-                        bufferDecrypted = ArrayPool<byte>.Shared.Rent( decodedLength );
-                    }
-
-                    if ( !Convert.TryFromBase64Chars( file.FileName, bufferDecoded, out decodedLength ) )
-                    {
-                        DebugLog.Assert( false, nameof( DepotManifest ), "Failed to base64 decode the filename." );
                         return false;
                     }
 
-                    try
-                    {
-                        var encryptedFilename = bufferDecoded.AsSpan()[ ..decodedLength ];
-                        aes.DecryptEcb( encryptedFilename[ ..iv.Length ], iv, PaddingMode.None );
-                        filenameLength = aes.DecryptCbc( encryptedFilename[ iv.Length.. ], iv, bufferDecrypted, PaddingMode.PKCS7 );
-                    }
-                    catch ( Exception )
-                    {
-                        DebugLog.Assert( false, nameof( DepotManifest ), "Failed to decrypt the filename." );
-                        return false;
-                    }
+                    file.FileName = name;
 
-                    // Trim the ending null byte, safe for UTF-8
-                    if ( filenameLength > 0 && bufferDecrypted[ filenameLength ] == 0 )
+                    if ( !string.IsNullOrEmpty( file.LinkTarget ) )
                     {
-                        filenameLength--;
+                        if ( !TryDecryptName( file.LinkTarget, iv, out var linkName ) )
+                        {
+                            return false;
+                        }
+
+                        file.LinkTarget = linkName;
                     }
-
-                    // ASCII is subset of UTF-8, so it safe to replace the raw bytes here
-                    MemoryExtensions.Replace( bufferDecrypted.AsSpan(), ( byte )altDirChar, ( byte )Path.DirectorySeparatorChar );
-
-                    file.FileName = Encoding.UTF8.GetString( bufferDecrypted, 0, filenameLength );
                 }
             }
             finally
@@ -280,6 +271,55 @@ namespace SteamKit2
 
             FilenamesEncrypted = false;
             return true;
+
+            bool TryDecryptName( string name, Span<byte> iv, [MaybeNullWhen(false)] out string decoded )
+            {
+                decoded = null;
+
+                var decodedLength = name.Length / 4 * 3; // This may be higher due to padding
+
+                // Majority of filenames are short, even when they are encrypted and base64 encoded,
+                // so this resize will be hit *very* rarely
+                if ( decodedLength > bufferDecoded.Length )
+                {
+                    ArrayPool<byte>.Shared.Return( bufferDecoded );
+                    bufferDecoded = ArrayPool<byte>.Shared.Rent( decodedLength );
+
+                    ArrayPool<byte>.Shared.Return( bufferDecrypted );
+                    bufferDecrypted = ArrayPool<byte>.Shared.Rent( decodedLength );
+                }
+
+                if ( !Convert.TryFromBase64Chars( name, bufferDecoded, out decodedLength ) )
+                {
+                    DebugLog.Assert( false, nameof( DepotManifest ), "Failed to base64 decode the filename." );
+                    return false;
+                }
+
+                int filenameLength;
+                try
+                {
+                    var encryptedFilename = bufferDecoded.AsSpan()[ ..decodedLength ];
+                    aes.DecryptEcb( encryptedFilename[ ..iv.Length ], iv, PaddingMode.None );
+                    filenameLength = aes.DecryptCbc( encryptedFilename[ iv.Length.. ], iv, bufferDecrypted, PaddingMode.PKCS7 );
+                }
+                catch ( Exception )
+                {
+                    DebugLog.Assert( false, nameof( DepotManifest ), "Failed to decrypt the filename." );
+                    return false;
+                }
+
+                // Trim the ending null byte, safe for UTF-8
+                if ( filenameLength > 0 && bufferDecrypted[ filenameLength ] == 0 )
+                {
+                    filenameLength--;
+                }
+
+                // ASCII is subset of UTF-8, so it safe to replace the raw bytes here
+                MemoryExtensions.Replace( bufferDecrypted.AsSpan(), ( byte )altDirChar, ( byte )Path.DirectorySeparatorChar );
+
+                decoded = Encoding.UTF8.GetString( bufferDecrypted, 0, filenameLength );
+                return true;
+            }
         }
 
         /// <summary>
@@ -335,7 +375,10 @@ namespace SteamKit2
                         uint marker = br.ReadUInt32();
                         if ( marker != magic )
                             throw new InvalidDataException( "Unable to find end of message marker for depot manifest" );
-                        break;
+
+                        // This is an intentional return because v4 manifest does not have the separate sections
+                        // and it will be parsed by ParseBinaryManifest. If we get here, the entire buffer has been already processed.
+                        return;
 
                     case DepotManifest.PROTOBUF_PAYLOAD_MAGIC:
                         uint payload_length = br.ReadUInt32();
@@ -377,6 +420,7 @@ namespace SteamKit2
             CreationTime = manifest.CreationTime;
             TotalUncompressedSize = manifest.TotalUncompressedSize;
             TotalCompressedSize = manifest.TotalCompressedSize;
+            EncryptedCRC = manifest.EncryptedCRC;
 
             foreach (var file_mapping in manifest.Mapping)
             {

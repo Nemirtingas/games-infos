@@ -1,4 +1,5 @@
-﻿using System.IO;
+﻿using SteamKit2;
+using System.IO;
 using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Net.Sockets;
@@ -11,7 +12,7 @@ namespace SteamRetriever
     // We don't know if the IPv6 stack is functional.
     class HttpClientFactory
     {
-        public static HttpClient CreateHttpClient()
+        public static HttpClient CreateHttpClient(HttpClientPurpose purpose)
         {
             var client = new HttpClient(new SocketsHttpHandler
             {

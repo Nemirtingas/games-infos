@@ -16,7 +16,7 @@ namespace SteamKit2.CDN
     /// <summary>
     /// The <see cref="Client"/> class is used for downloading game content from the Steam servers.
     /// </summary>
-    public sealed class Client : IDisposable
+    public sealed partial class Client : IDisposable
     {
         HttpClient httpClient;
 
@@ -29,7 +29,6 @@ namespace SteamKit2.CDN
         /// </summary>
         public static TimeSpan ResponseBodyTimeout { get; set; } = TimeSpan.FromSeconds( 60 );
 
-
         /// <summary>
         /// Initializes a new instance of the <see cref="Client"/> class.
         /// </summary>
@@ -40,7 +39,7 @@ namespace SteamKit2.CDN
         {
             ArgumentNullException.ThrowIfNull( steamClient );
 
-            this.httpClient = steamClient.Configuration.HttpClientFactory();
+            this.httpClient = steamClient.Configuration.HttpClientFactory( HttpClientPurpose.CDN );
         }
 
         /// <summary>
@@ -124,7 +123,7 @@ namespace SteamKit2.CDN
                         ms = new MemoryStream( buffer, 0, contentLength );
 
                         // Stream the http response into the rented buffer
-                        await response.Content.CopyToAsync( ms, cts.Token );
+                        await response.Content.CopyToAsync( ms, cts.Token ).ConfigureAwait( false );
 
                         if ( ms.Position != contentLength )
                         {
@@ -135,7 +134,7 @@ namespace SteamKit2.CDN
                     }
                     else
                     {
-                        var data = await response.Content.ReadAsByteArrayAsync();
+                        var data = await response.Content.ReadAsByteArrayAsync().ConfigureAwait( false );
                         ms = new MemoryStream( data );
                     }
 
@@ -230,7 +229,16 @@ namespace SteamKit2.CDN
             var chunkID = Utils.EncodeHexString( chunk.ChunkID );
             var url = $"depot/{depotId}/chunk/{chunkID}";
 
-            using var request = new HttpRequestMessage( HttpMethod.Get, BuildCommand( server, url, cdnAuthToken, proxyServer ) );
+            HttpRequestMessage request;
+            if ( UseLancacheServer )
+            {
+                request = BuildLancacheRequest( server, url, cdnAuthToken );
+            }
+            else
+            {
+                var builtUrl = BuildCommand( server, url, cdnAuthToken, proxyServer );
+                request = new HttpRequestMessage( HttpMethod.Get, builtUrl );
+            }
 
             using var cts = new CancellationTokenSource();
             cts.CancelAfter( RequestTimeout );
@@ -273,7 +281,7 @@ namespace SteamKit2.CDN
                     using var ms = new MemoryStream( destination, 0, contentLength );
 
                     // Stream the http response into the provided destination
-                    await response.Content.CopyToAsync( ms, cts.Token );
+                    await response.Content.CopyToAsync( ms, cts.Token ).ConfigureAwait( false );
 
                     if ( ms.Position != contentLength )
                     {
@@ -291,7 +299,7 @@ namespace SteamKit2.CDN
                     using var ms = new MemoryStream( buffer, 0, contentLength );
 
                     // Stream the http response into the rented buffer
-                    await response.Content.CopyToAsync( ms, cts.Token );
+                    await response.Content.CopyToAsync( ms, cts.Token ).ConfigureAwait( false );
 
                     if ( ms.Position != contentLength )
                     {
@@ -312,6 +320,10 @@ namespace SteamKit2.CDN
             {
                 DebugLog.WriteLine( nameof( CDN ), $"Failed to download a depot chunk {request.RequestUri}: {ex.Message}" );
                 throw;
+            }
+            finally
+            {
+                request.Dispose();
             }
         }
 

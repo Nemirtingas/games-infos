@@ -5,7 +5,7 @@
 // </auto-generated>
 
 #region Designer generated code
-#pragma warning disable CS0612, CS0618, CS1591, CS3021, IDE0079, IDE1006, RCS1036, RCS1057, RCS1085, RCS1192
+#pragma warning disable CS0612, CS0618, CS1591, CS3021, CS8981, IDE0079, IDE1006, RCS1036, RCS1057, RCS1085, RCS1192
 namespace SteamKit2.GC.Dota.Internal
 {
 
@@ -888,6 +888,9 @@ namespace SteamKit2.GC.Dota.Internal
         public bool ShouldSerializedo_player_draft() => __pbn__do_player_draft != null;
         public void Resetdo_player_draft() => __pbn__do_player_draft = null;
         private bool? __pbn__do_player_draft;
+
+        [global::ProtoBuf.ProtoMember(54)]
+        public global::System.Collections.Generic.List<int> requested_hero_teams { get; } = new global::System.Collections.Generic.List<int>();
 
         [global::ProtoBuf.ProtoContract()]
         public partial class AbilityDraftSpecificDetails : global::ProtoBuf.IExtensible
@@ -2737,9 +2740,11 @@ namespace SteamKit2.GC.Dota.Internal
         k_EStartFindingMatchResult_SteamChinaBanned = 133,
         k_EStartFindingMatchResult_SteamChinaInvalidMixedParty = 134,
         k_EStartFindingMatchResult_RestrictedFromRanked = 135,
+        k_EStartFindingMatchResult_RankPreventsParties = 136,
+        k_EStartFindingMatchResult_RegisteredNameRequired = 137,
     }
 
 }
 
-#pragma warning restore CS0612, CS0618, CS1591, CS3021, IDE0079, IDE1006, RCS1036, RCS1057, RCS1085, RCS1192
+#pragma warning restore CS0612, CS0618, CS1591, CS3021, CS8981, IDE0079, IDE1006, RCS1036, RCS1057, RCS1085, RCS1192
 #endregion

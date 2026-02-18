@@ -1,4 +1,4 @@
-using CommandLine;
+﻿using CommandLine;
 using log4net;
 using log4net.Layout;
 using Newtonsoft.Json;
@@ -1525,6 +1525,8 @@ class Program
 
                     await LoadMetadataDatabaseAsync();
                     var applicationsMetadata = new Dictionary<uint, ApplicationMetadata>();
+
+                    _logger.Info($"Got {MetadataDatabase.ApplicationDetails.Count} metadata application details");
 
                     var changes = default(SteamApps.PICSChangesCallback);
                     if (AppIds.Count == 0)

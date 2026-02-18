@@ -5,7 +5,7 @@
 // </auto-generated>
 
 #region Designer generated code
-#pragma warning disable CS0612, CS0618, CS1591, CS3021, IDE0079, IDE1006, RCS1036, RCS1057, RCS1085, RCS1192
+#pragma warning disable CS0612, CS0618, CS1591, CS3021, CS8981, IDE0079, IDE1006, RCS1036, RCS1057, RCS1085, RCS1192
 namespace SteamKit2.Internal
 {
 
@@ -1012,6 +1012,19 @@ namespace SteamKit2.Internal
             public void Reseton_steam_deck() => __pbn__on_steam_deck = null;
             private bool? __pbn__on_steam_deck;
 
+            [global::ProtoBuf.ProtoMember(82)]
+            public global::System.Collections.Generic.List<OtherGameData> other_game_data { get; } = new global::System.Collections.Generic.List<OtherGameData>();
+
+            [global::ProtoBuf.ProtoMember(83)]
+            public uint gaming_device_type
+            {
+                get => __pbn__gaming_device_type.GetValueOrDefault();
+                set => __pbn__gaming_device_type = value;
+            }
+            public bool ShouldSerializegaming_device_type() => __pbn__gaming_device_type != null;
+            public void Resetgaming_device_type() => __pbn__gaming_device_type = null;
+            private uint? __pbn__gaming_device_type;
+
             [global::ProtoBuf.ProtoContract()]
             public partial class ClanData : global::ProtoBuf.IExtensible
             {
@@ -1069,6 +1082,28 @@ namespace SteamKit2.Internal
                 public bool ShouldSerializevalue() => __pbn__value != null;
                 public void Resetvalue() => __pbn__value = null;
                 private string __pbn__value;
+
+            }
+
+            [global::ProtoBuf.ProtoContract()]
+            public partial class OtherGameData : global::ProtoBuf.IExtensible
+            {
+                private global::ProtoBuf.IExtension __pbn__extensionData;
+                global::ProtoBuf.IExtension global::ProtoBuf.IExtensible.GetExtensionObject(bool createIfMissing)
+                    => global::ProtoBuf.Extensible.GetExtensionObject(ref __pbn__extensionData, createIfMissing);
+
+                [global::ProtoBuf.ProtoMember(1)]
+                public ulong gameid
+                {
+                    get => __pbn__gameid.GetValueOrDefault();
+                    set => __pbn__gameid = value;
+                }
+                public bool ShouldSerializegameid() => __pbn__gameid != null;
+                public void Resetgameid() => __pbn__gameid = null;
+                private ulong? __pbn__gameid;
+
+                [global::ProtoBuf.ProtoMember(2)]
+                public global::System.Collections.Generic.List<CMsgClientPersonaState.Friend.KV> rich_presence { get; } = new global::System.Collections.Generic.List<CMsgClientPersonaState.Friend.KV>();
 
             }
 
@@ -1691,5 +1726,5 @@ namespace SteamKit2.Internal
 
 }
 
-#pragma warning restore CS0612, CS0618, CS1591, CS3021, IDE0079, IDE1006, RCS1036, RCS1057, RCS1085, RCS1192
+#pragma warning restore CS0612, CS0618, CS1591, CS3021, CS8981, IDE0079, IDE1006, RCS1036, RCS1057, RCS1085, RCS1192
 #endregion

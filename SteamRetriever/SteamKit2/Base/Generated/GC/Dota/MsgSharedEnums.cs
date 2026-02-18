@@ -5,7 +5,7 @@
 // </auto-generated>
 
 #region Designer generated code
-#pragma warning disable CS0612, CS0618, CS1591, CS3021, IDE0079, IDE1006, RCS1036, RCS1057, RCS1085, RCS1192
+#pragma warning disable CS0612, CS0618, CS1591, CS3021, CS8981, IDE0079, IDE1006, RCS1036, RCS1057, RCS1085, RCS1192
 namespace SteamKit2.GC.Dota.Internal
 {
 
@@ -1040,6 +1040,16 @@ namespace SteamKit2.GC.Dota.Internal
         public void Resetuses_charges() => __pbn__uses_charges = null;
         private bool? __pbn__uses_charges;
 
+        [global::ProtoBuf.ProtoMember(80)]
+        public uint tracked_stat_id
+        {
+            get => __pbn__tracked_stat_id.GetValueOrDefault();
+            set => __pbn__tracked_stat_id = value;
+        }
+        public bool ShouldSerializetracked_stat_id() => __pbn__tracked_stat_id != null;
+        public void Resettracked_stat_id() => __pbn__tracked_stat_id = null;
+        private uint? __pbn__tracked_stat_id;
+
     }
 
     [global::ProtoBuf.ProtoContract()]
@@ -1114,6 +1124,206 @@ namespace SteamKit2.GC.Dota.Internal
     }
 
     [global::ProtoBuf.ProtoContract()]
+    public partial class CMsgMonsterHunterMaterialQuantity : global::ProtoBuf.IExtensible
+    {
+        private global::ProtoBuf.IExtension __pbn__extensionData;
+        global::ProtoBuf.IExtension global::ProtoBuf.IExtensible.GetExtensionObject(bool createIfMissing)
+            => global::ProtoBuf.Extensible.GetExtensionObject(ref __pbn__extensionData, createIfMissing);
+
+        [global::ProtoBuf.ProtoMember(1)]
+        public global::System.Collections.Generic.List<MaterialCountsEntry> material_counts { get; } = new global::System.Collections.Generic.List<MaterialCountsEntry>();
+
+        [global::ProtoBuf.ProtoContract()]
+        public partial class MaterialCountsEntry : global::ProtoBuf.IExtensible
+        {
+            private global::ProtoBuf.IExtension __pbn__extensionData;
+            global::ProtoBuf.IExtension global::ProtoBuf.IExtensible.GetExtensionObject(bool createIfMissing)
+                => global::ProtoBuf.Extensible.GetExtensionObject(ref __pbn__extensionData, createIfMissing);
+
+            [global::ProtoBuf.ProtoMember(1)]
+            public uint key
+            {
+                get => __pbn__key.GetValueOrDefault();
+                set => __pbn__key = value;
+            }
+            public bool ShouldSerializekey() => __pbn__key != null;
+            public void Resetkey() => __pbn__key = null;
+            private uint? __pbn__key;
+
+            [global::ProtoBuf.ProtoMember(2)]
+            public int value
+            {
+                get => __pbn__value.GetValueOrDefault();
+                set => __pbn__value = value;
+            }
+            public bool ShouldSerializevalue() => __pbn__value != null;
+            public void Resetvalue() => __pbn__value = null;
+            private int? __pbn__value;
+
+        }
+
+    }
+
+    [global::ProtoBuf.ProtoContract()]
+    public partial class CMsgMonsterHunterInvestigation : global::ProtoBuf.IExtensible
+    {
+        private global::ProtoBuf.IExtension __pbn__extensionData;
+        global::ProtoBuf.IExtension global::ProtoBuf.IExtensible.GetExtensionObject(bool createIfMissing)
+            => global::ProtoBuf.Extensible.GetExtensionObject(ref __pbn__extensionData, createIfMissing);
+
+        [global::ProtoBuf.ProtoMember(1)]
+        public int hero_id
+        {
+            get => __pbn__hero_id.GetValueOrDefault();
+            set => __pbn__hero_id = value;
+        }
+        public bool ShouldSerializehero_id() => __pbn__hero_id != null;
+        public void Resethero_id() => __pbn__hero_id = null;
+        private int? __pbn__hero_id;
+
+        [global::ProtoBuf.ProtoMember(2)]
+        public int persona_id
+        {
+            get => __pbn__persona_id.GetValueOrDefault();
+            set => __pbn__persona_id = value;
+        }
+        public bool ShouldSerializepersona_id() => __pbn__persona_id != null;
+        public void Resetpersona_id() => __pbn__persona_id = null;
+        private int? __pbn__persona_id;
+
+        [global::ProtoBuf.ProtoMember(3)]
+        public CMsgMonsterHunterMaterialQuantity match_rewards { get; set; }
+
+        [global::ProtoBuf.ProtoMember(4)]
+        public CMsgMonsterHunterMaterialQuantity hunt_rewards { get; set; }
+
+        [global::ProtoBuf.ProtoMember(5)]
+        public bool success_state
+        {
+            get => __pbn__success_state.GetValueOrDefault();
+            set => __pbn__success_state = value;
+        }
+        public bool ShouldSerializesuccess_state() => __pbn__success_state != null;
+        public void Resetsuccess_state() => __pbn__success_state = null;
+        private bool? __pbn__success_state;
+
+    }
+
+    [global::ProtoBuf.ProtoContract()]
+    public partial class CMsgMonsterHunterInvestigationGameState : global::ProtoBuf.IExtensible
+    {
+        private global::ProtoBuf.IExtension __pbn__extensionData;
+        global::ProtoBuf.IExtension global::ProtoBuf.IExtensible.GetExtensionObject(bool createIfMissing)
+            => global::ProtoBuf.Extensible.GetExtensionObject(ref __pbn__extensionData, createIfMissing);
+
+        [global::ProtoBuf.ProtoMember(1)]
+        public CMsgMonsterHunterInvestigation selected_investigation { get; set; }
+
+        [global::ProtoBuf.ProtoMember(2)]
+        public global::System.Collections.Generic.List<HuntedBy> hunted_by { get; } = new global::System.Collections.Generic.List<HuntedBy>();
+
+        [global::ProtoBuf.ProtoContract()]
+        public partial class HuntedBy : global::ProtoBuf.IExtensible
+        {
+            private global::ProtoBuf.IExtension __pbn__extensionData;
+            global::ProtoBuf.IExtension global::ProtoBuf.IExtensible.GetExtensionObject(bool createIfMissing)
+                => global::ProtoBuf.Extensible.GetExtensionObject(ref __pbn__extensionData, createIfMissing);
+
+            [global::ProtoBuf.ProtoMember(1)]
+            public int hero_id
+            {
+                get => __pbn__hero_id.GetValueOrDefault();
+                set => __pbn__hero_id = value;
+            }
+            public bool ShouldSerializehero_id() => __pbn__hero_id != null;
+            public void Resethero_id() => __pbn__hero_id = null;
+            private int? __pbn__hero_id;
+
+            [global::ProtoBuf.ProtoMember(2)]
+            public int persona_id
+            {
+                get => __pbn__persona_id.GetValueOrDefault();
+                set => __pbn__persona_id = value;
+            }
+            public bool ShouldSerializepersona_id() => __pbn__persona_id != null;
+            public void Resetpersona_id() => __pbn__persona_id = null;
+            private int? __pbn__persona_id;
+
+            [global::ProtoBuf.ProtoMember(3)]
+            public CMsgMonsterHunterMaterialQuantity hunt_rewards { get; set; }
+
+            [global::ProtoBuf.ProtoMember(4)]
+            public bool success_state
+            {
+                get => __pbn__success_state.GetValueOrDefault();
+                set => __pbn__success_state = value;
+            }
+            public bool ShouldSerializesuccess_state() => __pbn__success_state != null;
+            public void Resetsuccess_state() => __pbn__success_state = null;
+            private bool? __pbn__success_state;
+
+        }
+
+    }
+
+    [global::ProtoBuf.ProtoContract()]
+    public partial class CMsgMonsterHunterCodexUpdateData : global::ProtoBuf.IExtensible
+    {
+        private global::ProtoBuf.IExtension __pbn__extensionData;
+        global::ProtoBuf.IExtension global::ProtoBuf.IExtensible.GetExtensionObject(bool createIfMissing)
+            => global::ProtoBuf.Extensible.GetExtensionObject(ref __pbn__extensionData, createIfMissing);
+
+        [global::ProtoBuf.ProtoMember(1)]
+        public int player_hero
+        {
+            get => __pbn__player_hero.GetValueOrDefault();
+            set => __pbn__player_hero = value;
+        }
+        public bool ShouldSerializeplayer_hero() => __pbn__player_hero != null;
+        public void Resetplayer_hero() => __pbn__player_hero = null;
+        private int? __pbn__player_hero;
+
+        [global::ProtoBuf.ProtoMember(2)]
+        public global::System.Collections.Generic.List<int> allies { get; } = new global::System.Collections.Generic.List<int>();
+
+        [global::ProtoBuf.ProtoMember(3)]
+        public global::System.Collections.Generic.List<int> enemies { get; } = new global::System.Collections.Generic.List<int>();
+
+        [global::ProtoBuf.ProtoMember(4)]
+        public global::System.Collections.Generic.List<KillInfo> player_kills { get; } = new global::System.Collections.Generic.List<KillInfo>();
+
+        [global::ProtoBuf.ProtoContract()]
+        public partial class KillInfo : global::ProtoBuf.IExtensible
+        {
+            private global::ProtoBuf.IExtension __pbn__extensionData;
+            global::ProtoBuf.IExtension global::ProtoBuf.IExtensible.GetExtensionObject(bool createIfMissing)
+                => global::ProtoBuf.Extensible.GetExtensionObject(ref __pbn__extensionData, createIfMissing);
+
+            [global::ProtoBuf.ProtoMember(1)]
+            public int hero_id
+            {
+                get => __pbn__hero_id.GetValueOrDefault();
+                set => __pbn__hero_id = value;
+            }
+            public bool ShouldSerializehero_id() => __pbn__hero_id != null;
+            public void Resethero_id() => __pbn__hero_id = null;
+            private int? __pbn__hero_id;
+
+            [global::ProtoBuf.ProtoMember(2)]
+            public int kill_count
+            {
+                get => __pbn__kill_count.GetValueOrDefault();
+                set => __pbn__kill_count = value;
+            }
+            public bool ShouldSerializekill_count() => __pbn__kill_count != null;
+            public void Resetkill_count() => __pbn__kill_count = null;
+            private int? __pbn__kill_count;
+
+        }
+
+    }
+
+    [global::ProtoBuf.ProtoContract()]
     public enum DOTA_GameMode
     {
         DOTA_GAMEMODE_NONE = 0,
@@ -1142,6 +1352,7 @@ namespace SteamKit2.GC.Dota.Internal
         DOTA_GAMEMODE_TURBO = 23,
         DOTA_GAMEMODE_MUTATION = 24,
         DOTA_GAMEMODE_COACHES_CHALLENGE = 25,
+        DOTA_GAMEMODE_BOT_CHALLENGE = 26,
     }
 
     [global::ProtoBuf.ProtoContract()]
@@ -1235,6 +1446,15 @@ namespace SteamKit2.GC.Dota.Internal
         EVENT_ID_CROWNFALL = 47,
         EVENT_ID_FROSTIVUS_2023 = 48,
         EVENT_ID_INTERNATIONAL_2024 = 49,
+        EVENT_ID_FROSTIVUS_2024 = 50,
+        EVENT_ID_MONSTER_HUNTER = 51,
+        EVENT_ID_INTERNATIONAL_2025 = 52,
+        EVENT_ID_FALL_2025 = 53,
+        EVENT_ID_WINTER_2025 = 55,
+        EVENT_ID_SPRING_2026 = 56,
+        EVENT_ID_SUMMER_2026 = 57,
+        EVENT_ID_FALL_2026 = 58,
+        EVENT_ID_WINTER_2026 = 59,
     }
 
     [global::ProtoBuf.ProtoContract()]
@@ -1306,7 +1526,7 @@ namespace SteamKit2.GC.Dota.Internal
         FANTASY_SCORING_FIRST_BLOOD = 10,
         FANTASY_SCORING_STUNS = 11,
         FANTASY_SCORING_SMOKES_USED = 12,
-        FANTASY_SCORING_NEUTRAL_TOKENS_FOUND = 13,
+        FANTASY_SCORING_MADSTONE = 13,
         FANTASY_SCORING_WATCHERS_TAKEN = 14,
         FANTASY_SCORING_LOTUSES_GAINED = 15,
         FANTASY_SCORING_TORMENTOR_KILLS = 16,
@@ -1602,6 +1822,7 @@ namespace SteamKit2.GC.Dota.Internal
         DOTA_BOT_MODE_TUTORIAL_BOSS = 24,
         DOTA_BOT_MODE_MINION = 25,
         DOTA_BOT_MODE_OUTPOST = 26,
+        DOTA_BOT_MODE_BOT_CHALLENGE_ENDGAME = 27,
     }
 
     [global::ProtoBuf.ProtoContract()]
@@ -1689,6 +1910,11 @@ namespace SteamKit2.GC.Dota.Internal
         k_EBadgeType_TI13_FinalsDay2 = 19,
         k_EBadgeType_TI13_FinalsDay3 = 20,
         k_EBadgeType_TI13_Special = 21,
+        k_EBadgeType_TI14_FinalsDay1 = 22,
+        k_EBadgeType_TI14_FinalsDay2 = 23,
+        k_EBadgeType_TI14_FinalsDay3 = 24,
+        k_EBadgeType_TI14_FinalsDay4 = 25,
+        k_EBadgeType_TI14_Special = 26,
     }
 
     [global::ProtoBuf.ProtoContract()]
@@ -1860,6 +2086,7 @@ namespace SteamKit2.GC.Dota.Internal
         DOTA_COMBATLOG_UNIT_TELEPORTED = 41,
         DOTA_COMBATLOG_KILL_EATER_EVENT = 42,
         DOTA_COMBATLOG_NEUTRAL_ITEM_EARNED = 43,
+        DOTA_COMBATLOG_STAT_TRACKER_PLAYER = 44,
     }
 
     [global::ProtoBuf.ProtoContract()]
@@ -1925,7 +2152,25 @@ namespace SteamKit2.GC.Dota.Internal
         k_ECandyShopUpgrade_ExtraExchangeRecipe = 2,
     }
 
+    [global::ProtoBuf.ProtoContract()]
+    public enum EItemSuggestPreference
+    {
+        k_EItemSuggestPreference_None = 0,
+        k_EItemSuggestPreference_Liked = 1,
+        k_EItemSuggestPreference_Disliked = 2,
+    }
+
+    [global::ProtoBuf.ProtoContract()]
+    public enum ETimerAlertType
+    {
+        k_TimerAlertType_PowerRune = 1,
+        k_TimerAlertType_BountyRune = 2,
+        k_TimerAlertType_WisdomShrine = 3,
+        k_TimerAlertType_JungleCamps = 4,
+        k_TimerAlertType_LotusPool = 5,
+    }
+
 }
 
-#pragma warning restore CS0612, CS0618, CS1591, CS3021, IDE0079, IDE1006, RCS1036, RCS1057, RCS1085, RCS1192
+#pragma warning restore CS0612, CS0618, CS1591, CS3021, CS8981, IDE0079, IDE1006, RCS1036, RCS1057, RCS1085, RCS1192
 #endregion

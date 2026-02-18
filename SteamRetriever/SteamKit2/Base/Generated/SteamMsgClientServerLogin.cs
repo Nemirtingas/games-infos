@@ -5,7 +5,7 @@
 // </auto-generated>
 
 #region Designer generated code
-#pragma warning disable CS0612, CS0618, CS1591, CS3021, IDE0079, IDE1006, RCS1036, RCS1057, RCS1085, RCS1192
+#pragma warning disable CS0612, CS0618, CS1591, CS3021, CS8981, IDE0079, IDE1006, RCS1036, RCS1057, RCS1085, RCS1192
 namespace SteamKit2.Internal
 {
 
@@ -618,16 +618,6 @@ namespace SteamKit2.Internal
         public void Resetcountry_override() => __pbn__country_override = null;
         private string __pbn__country_override;
 
-        [global::ProtoBuf.ProtoMember(99)]
-        public bool is_steam_box
-        {
-            get => __pbn__is_steam_box.GetValueOrDefault();
-            set => __pbn__is_steam_box = value;
-        }
-        public bool ShouldSerializeis_steam_box() => __pbn__is_steam_box != null;
-        public void Resetis_steam_box() => __pbn__is_steam_box = null;
-        private bool? __pbn__is_steam_box;
-
         [global::ProtoBuf.ProtoMember(100)]
         public ulong client_instance_id
         {
@@ -693,16 +683,6 @@ namespace SteamKit2.Internal
         public void Resetdisable_partner_autogrants() => __pbn__disable_partner_autogrants = null;
         private bool? __pbn__disable_partner_autogrants;
 
-        [global::ProtoBuf.ProtoMember(107)]
-        public bool is_steam_deck
-        {
-            get => __pbn__is_steam_deck.GetValueOrDefault();
-            set => __pbn__is_steam_deck = value;
-        }
-        public bool ShouldSerializeis_steam_deck() => __pbn__is_steam_deck != null;
-        public void Resetis_steam_deck() => __pbn__is_steam_deck = null;
-        private bool? __pbn__is_steam_deck;
-
         [global::ProtoBuf.ProtoMember(108)]
         [global::System.ComponentModel.DefaultValue("")]
         public string access_token
@@ -724,15 +704,45 @@ namespace SteamKit2.Internal
         public void Resetis_chrome_os() => __pbn__is_chrome_os = null;
         private bool? __pbn__is_chrome_os;
 
-        [global::ProtoBuf.ProtoMember(110)]
-        public bool is_tesla
+        [global::ProtoBuf.ProtoMember(99)]
+        public bool is_steam_box_deprecated
         {
-            get => __pbn__is_tesla.GetValueOrDefault();
-            set => __pbn__is_tesla = value;
+            get => __pbn__is_steam_box_deprecated.GetValueOrDefault();
+            set => __pbn__is_steam_box_deprecated = value;
         }
-        public bool ShouldSerializeis_tesla() => __pbn__is_tesla != null;
-        public void Resetis_tesla() => __pbn__is_tesla = null;
-        private bool? __pbn__is_tesla;
+        public bool ShouldSerializeis_steam_box_deprecated() => __pbn__is_steam_box_deprecated != null;
+        public void Resetis_steam_box_deprecated() => __pbn__is_steam_box_deprecated = null;
+        private bool? __pbn__is_steam_box_deprecated;
+
+        [global::ProtoBuf.ProtoMember(107)]
+        public bool is_steam_deck_deprecated
+        {
+            get => __pbn__is_steam_deck_deprecated.GetValueOrDefault();
+            set => __pbn__is_steam_deck_deprecated = value;
+        }
+        public bool ShouldSerializeis_steam_deck_deprecated() => __pbn__is_steam_deck_deprecated != null;
+        public void Resetis_steam_deck_deprecated() => __pbn__is_steam_deck_deprecated = null;
+        private bool? __pbn__is_steam_deck_deprecated;
+
+        [global::ProtoBuf.ProtoMember(110)]
+        public bool is_tesla_deprecated
+        {
+            get => __pbn__is_tesla_deprecated.GetValueOrDefault();
+            set => __pbn__is_tesla_deprecated = value;
+        }
+        public bool ShouldSerializeis_tesla_deprecated() => __pbn__is_tesla_deprecated != null;
+        public void Resetis_tesla_deprecated() => __pbn__is_tesla_deprecated = null;
+        private bool? __pbn__is_tesla_deprecated;
+
+        [global::ProtoBuf.ProtoMember(111)]
+        public uint gaming_device_type
+        {
+            get => __pbn__gaming_device_type.GetValueOrDefault();
+            set => __pbn__gaming_device_type = value;
+        }
+        public bool ShouldSerializegaming_device_type() => __pbn__gaming_device_type != null;
+        public void Resetgaming_device_type() => __pbn__gaming_device_type = null;
+        private uint? __pbn__gaming_device_type;
 
     }
 
@@ -1203,27 +1213,6 @@ namespace SteamKit2.Internal
         public void Resetaccount_flags() => __pbn__account_flags = null;
         private uint? __pbn__account_flags;
 
-        [global::ProtoBuf.ProtoMember(8)]
-        public ulong facebook_id
-        {
-            get => __pbn__facebook_id.GetValueOrDefault();
-            set => __pbn__facebook_id = value;
-        }
-        public bool ShouldSerializefacebook_id() => __pbn__facebook_id != null;
-        public void Resetfacebook_id() => __pbn__facebook_id = null;
-        private ulong? __pbn__facebook_id;
-
-        [global::ProtoBuf.ProtoMember(9)]
-        [global::System.ComponentModel.DefaultValue("")]
-        public string facebook_name
-        {
-            get => __pbn__facebook_name ?? "";
-            set => __pbn__facebook_name = value;
-        }
-        public bool ShouldSerializefacebook_name() => __pbn__facebook_name != null;
-        public void Resetfacebook_name() => __pbn__facebook_name = null;
-        private string __pbn__facebook_name;
-
         [global::ProtoBuf.ProtoMember(15)]
         [global::System.ComponentModel.DefaultValue("")]
         public string steamguard_machine_name_user_chosen
@@ -1317,5 +1306,5 @@ namespace SteamKit2.Internal
 
 }
 
-#pragma warning restore CS0612, CS0618, CS1591, CS3021, IDE0079, IDE1006, RCS1036, RCS1057, RCS1085, RCS1192
+#pragma warning restore CS0612, CS0618, CS1591, CS3021, CS8981, IDE0079, IDE1006, RCS1036, RCS1057, RCS1085, RCS1192
 #endregion

@@ -5,7 +5,7 @@
 // </auto-generated>
 
 #region Designer generated code
-#pragma warning disable CS0612, CS0618, CS1591, CS3021, IDE0079, IDE1006, RCS1036, RCS1057, RCS1085, RCS1192
+#pragma warning disable CS0612, CS0618, CS1591, CS3021, CS8981, IDE0079, IDE1006, RCS1036, RCS1057, RCS1085, RCS1192
 namespace SteamKit2.GC.Dota.Internal
 {
 
@@ -705,6 +705,26 @@ namespace SteamKit2.GC.Dota.Internal
         public bool ShouldSerializesuggest_pick_hero_facet() => __pbn__suggest_pick_hero_facet != null;
         public void Resetsuggest_pick_hero_facet() => __pbn__suggest_pick_hero_facet = null;
         private uint? __pbn__suggest_pick_hero_facet;
+
+        [global::ProtoBuf.ProtoMember(44)]
+        public int requested_hero_id
+        {
+            get => __pbn__requested_hero_id.GetValueOrDefault();
+            set => __pbn__requested_hero_id = value;
+        }
+        public bool ShouldSerializerequested_hero_id() => __pbn__requested_hero_id != null;
+        public void Resetrequested_hero_id() => __pbn__requested_hero_id = null;
+        private int? __pbn__requested_hero_id;
+
+        [global::ProtoBuf.ProtoMember(45)]
+        public ulong requested_hero_facet_key
+        {
+            get => __pbn__requested_hero_facet_key.GetValueOrDefault();
+            set => __pbn__requested_hero_facet_key = value;
+        }
+        public bool ShouldSerializerequested_hero_facet_key() => __pbn__requested_hero_facet_key != null;
+        public void Resetrequested_hero_facet_key() => __pbn__requested_hero_facet_key = null;
+        private ulong? __pbn__requested_hero_facet_key;
 
         [global::ProtoBuf.ProtoContract()]
         public partial class DiceRoll : global::ProtoBuf.IExtensible
@@ -1456,5 +1476,5 @@ namespace SteamKit2.GC.Dota.Internal
 
 }
 
-#pragma warning restore CS0612, CS0618, CS1591, CS3021, IDE0079, IDE1006, RCS1036, RCS1057, RCS1085, RCS1192
+#pragma warning restore CS0612, CS0618, CS1591, CS3021, CS8981, IDE0079, IDE1006, RCS1036, RCS1057, RCS1085, RCS1192
 #endregion

@@ -5,7 +5,7 @@
 // </auto-generated>
 
 #region Designer generated code
-#pragma warning disable CS0612, CS0618, CS1591, CS3021, IDE0079, IDE1006, RCS1036, RCS1057, RCS1085, RCS1192
+#pragma warning disable CS0612, CS0618, CS1591, CS3021, CS8981, IDE0079, IDE1006, RCS1036, RCS1057, RCS1085, RCS1192
 namespace SteamKit2.GC.Dota.Internal
 {
 
@@ -674,6 +674,16 @@ namespace SteamKit2.GC.Dota.Internal
         public void Resetbehavior_score_likert_scale() => __pbn__behavior_score_likert_scale = null;
         private uint? __pbn__behavior_score_likert_scale;
 
+        [global::ProtoBuf.ProtoMember(78)]
+        public bool contains_required_playtester
+        {
+            get => __pbn__contains_required_playtester.GetValueOrDefault();
+            set => __pbn__contains_required_playtester = value;
+        }
+        public bool ShouldSerializecontains_required_playtester() => __pbn__contains_required_playtester != null;
+        public void Resetcontains_required_playtester() => __pbn__contains_required_playtester = null;
+        private bool? __pbn__contains_required_playtester;
+
         [global::ProtoBuf.ProtoContract()]
         public enum State
         {
@@ -1067,6 +1077,9 @@ namespace SteamKit2.GC.Dota.Internal
         [global::ProtoBuf.ProtoMember(1)]
         public global::System.Collections.Generic.List<MvpDatum> mvps { get; } = new global::System.Collections.Generic.List<MvpDatum>();
 
+        [global::ProtoBuf.ProtoMember(2)]
+        public global::System.Collections.Generic.List<MvpDatum> event_mvps { get; } = new global::System.Collections.Generic.List<MvpDatum>();
+
         [global::ProtoBuf.ProtoContract()]
         public partial class MvpDatum : global::ProtoBuf.IExtensible
         {
@@ -1393,6 +1406,14 @@ namespace SteamKit2.GC.Dota.Internal
                     kKillEaterEventType_Ringmaster_LongRangeDaggerHits = 279,
                     kKillEaterEventType_Ringmaster_MultiHeroWhips = 280,
                     kKillEaterEventType_Ringmaster_MultiHeroMesmerizes = 281,
+                    kKillEaterEventType_Kez_ParryCounterAttacks = 282,
+                    kKillEaterEventType_Kez_RavensVeilKills = 283,
+                    kKillEaterEventType_Kez_RaptorDanceHealing = 284,
+                    kKillEaterEventType_Kez_KillsDuringFalconRush = 285,
+                    kKillEaterEventType_Seasonal_PartyHatsStolen = 286,
+                    kKillEaterEventType_Seasonal_TallestHat = 287,
+                    kKillEaterEventType_Largo_MultiHeroFrogstomp = 288,
+                    kKillEaterEventType_Largo_AmphibianRhapsodyKillsAndAssists = 289,
                 }
 
             }
@@ -1475,5 +1496,5 @@ namespace SteamKit2.GC.Dota.Internal
 
 }
 
-#pragma warning restore CS0612, CS0618, CS1591, CS3021, IDE0079, IDE1006, RCS1036, RCS1057, RCS1085, RCS1192
+#pragma warning restore CS0612, CS0618, CS1591, CS3021, CS8981, IDE0079, IDE1006, RCS1036, RCS1057, RCS1085, RCS1192
 #endregion

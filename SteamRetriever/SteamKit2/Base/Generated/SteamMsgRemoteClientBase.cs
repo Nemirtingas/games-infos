@@ -5,7 +5,7 @@
 // </auto-generated>
 
 #region Designer generated code
-#pragma warning disable CS0612, CS0618, CS1591, CS3021, IDE0079, IDE1006, RCS1036, RCS1057, RCS1085, RCS1192
+#pragma warning disable CS0612, CS0618, CS1591, CS3021, CS8981, IDE0079, IDE1006, RCS1036, RCS1057, RCS1085, RCS1192
 namespace SteamKit2.Internal
 {
 
@@ -597,7 +597,153 @@ namespace SteamKit2.Internal
 
     }
 
+    [global::ProtoBuf.ProtoContract()]
+    public partial class CMsgRemoteClientWifiAPStatus : global::ProtoBuf.IExtensible
+    {
+        private global::ProtoBuf.IExtension __pbn__extensionData;
+        global::ProtoBuf.IExtension global::ProtoBuf.IExtensible.GetExtensionObject(bool createIfMissing)
+            => global::ProtoBuf.Extensible.GetExtensionObject(ref __pbn__extensionData, createIfMissing);
+
+        [global::ProtoBuf.ProtoMember(1)]
+        [global::System.ComponentModel.DefaultValue("")]
+        public string ssid
+        {
+            get => __pbn__ssid ?? "";
+            set => __pbn__ssid = value;
+        }
+        public bool ShouldSerializessid() => __pbn__ssid != null;
+        public void Resetssid() => __pbn__ssid = null;
+        private string __pbn__ssid;
+
+        [global::ProtoBuf.ProtoMember(2)]
+        [global::System.ComponentModel.DefaultValue("")]
+        public string password
+        {
+            get => __pbn__password ?? "";
+            set => __pbn__password = value;
+        }
+        public bool ShouldSerializepassword() => __pbn__password != null;
+        public void Resetpassword() => __pbn__password = null;
+        private string __pbn__password;
+
+        [global::ProtoBuf.ProtoMember(3)]
+        public bool wpa2_deprecated
+        {
+            get => __pbn__wpa2_deprecated.GetValueOrDefault();
+            set => __pbn__wpa2_deprecated = value;
+        }
+        public bool ShouldSerializewpa2_deprecated() => __pbn__wpa2_deprecated != null;
+        public void Resetwpa2_deprecated() => __pbn__wpa2_deprecated = null;
+        private bool? __pbn__wpa2_deprecated;
+
+        [global::ProtoBuf.ProtoMember(4)]
+        public bool is_pairing_capable
+        {
+            get => __pbn__is_pairing_capable.GetValueOrDefault();
+            set => __pbn__is_pairing_capable = value;
+        }
+        public bool ShouldSerializeis_pairing_capable() => __pbn__is_pairing_capable != null;
+        public void Resetis_pairing_capable() => __pbn__is_pairing_capable = null;
+        private bool? __pbn__is_pairing_capable;
+
+        [global::ProtoBuf.ProtoMember(5, DataFormat = global::ProtoBuf.DataFormat.FixedSize)]
+        public ulong paired_network_hash
+        {
+            get => __pbn__paired_network_hash.GetValueOrDefault();
+            set => __pbn__paired_network_hash = value;
+        }
+        public bool ShouldSerializepaired_network_hash() => __pbn__paired_network_hash != null;
+        public void Resetpaired_network_hash() => __pbn__paired_network_hash = null;
+        private ulong? __pbn__paired_network_hash;
+
+    }
+
+    [global::ProtoBuf.ProtoContract()]
+    public partial class CMsgRemoteClientPairWifiAP : global::ProtoBuf.IExtensible
+    {
+        private global::ProtoBuf.IExtension __pbn__extensionData;
+        global::ProtoBuf.IExtension global::ProtoBuf.IExtensible.GetExtensionObject(bool createIfMissing)
+            => global::ProtoBuf.Extensible.GetExtensionObject(ref __pbn__extensionData, createIfMissing);
+
+        [global::ProtoBuf.ProtoMember(1)]
+        [global::System.ComponentModel.DefaultValue("")]
+        public string ssid
+        {
+            get => __pbn__ssid ?? "";
+            set => __pbn__ssid = value;
+        }
+        public bool ShouldSerializessid() => __pbn__ssid != null;
+        public void Resetssid() => __pbn__ssid = null;
+        private string __pbn__ssid;
+
+        [global::ProtoBuf.ProtoMember(2)]
+        [global::System.ComponentModel.DefaultValue("")]
+        public string password
+        {
+            get => __pbn__password ?? "";
+            set => __pbn__password = value;
+        }
+        public bool ShouldSerializepassword() => __pbn__password != null;
+        public void Resetpassword() => __pbn__password = null;
+        private string __pbn__password;
+
+    }
+
+    [global::ProtoBuf.ProtoContract()]
+    public partial class CMsgRemoteClientPairWifiAPResponse : global::ProtoBuf.IExtensible
+    {
+        private global::ProtoBuf.IExtension __pbn__extensionData;
+        global::ProtoBuf.IExtension global::ProtoBuf.IExtensible.GetExtensionObject(bool createIfMissing)
+            => global::ProtoBuf.Extensible.GetExtensionObject(ref __pbn__extensionData, createIfMissing);
+
+        [global::ProtoBuf.ProtoMember(1)]
+        [global::System.ComponentModel.DefaultValue(2)]
+        public int e_pair_result
+        {
+            get => __pbn__e_pair_result ?? 2;
+            set => __pbn__e_pair_result = value;
+        }
+        public bool ShouldSerializee_pair_result() => __pbn__e_pair_result != null;
+        public void Resete_pair_result() => __pbn__e_pair_result = null;
+        private int? __pbn__e_pair_result;
+
+        [global::ProtoBuf.ProtoMember(2)]
+        [global::System.ComponentModel.DefaultValue("")]
+        public string ssid
+        {
+            get => __pbn__ssid ?? "";
+            set => __pbn__ssid = value;
+        }
+        public bool ShouldSerializessid() => __pbn__ssid != null;
+        public void Resetssid() => __pbn__ssid = null;
+        private string __pbn__ssid;
+
+        [global::ProtoBuf.ProtoMember(3)]
+        [global::System.ComponentModel.DefaultValue("")]
+        public string password
+        {
+            get => __pbn__password ?? "";
+            set => __pbn__password = value;
+        }
+        public bool ShouldSerializepassword() => __pbn__password != null;
+        public void Resetpassword() => __pbn__password = null;
+        private string __pbn__password;
+
+    }
+
+    [global::ProtoBuf.ProtoContract()]
+    public enum ERemoteClientPairWifiAPResult
+    {
+        k_ERemoteClientPairWifiAPOK = 1,
+        k_ERemoteClientPairWifiAPFail = 2,
+        k_ERemoteClientPairWifiAPNetworkError = 3,
+        k_ERemoteClientPairWifiAPUnauthorized = 4,
+        k_ERemoteClientPairWifiAPNoDonglePresent = 5,
+        k_ERemoteClientPairWifiAPTimeout = 6,
+        k_ERemoteClientPairWifiAPCanceled = 7,
+    }
+
 }
 
-#pragma warning restore CS0612, CS0618, CS1591, CS3021, IDE0079, IDE1006, RCS1036, RCS1057, RCS1085, RCS1192
+#pragma warning restore CS0612, CS0618, CS1591, CS3021, CS8981, IDE0079, IDE1006, RCS1036, RCS1057, RCS1085, RCS1192
 #endregion

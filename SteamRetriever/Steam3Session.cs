@@ -38,9 +38,10 @@ namespace SteamRetriever
         internal readonly SteamApps steamApps;
         internal readonly SteamCloud steamCloud;
         internal readonly SteamUserStats steamUserStats;
-        internal readonly SteamUnifiedMessages.UnifiedService<IPlayer> steamPlayer;
-        internal readonly SteamUnifiedMessages.UnifiedService<IPublishedFile> steamPublishedFile;
-        internal readonly SteamUnifiedMessages.UnifiedService<IInventory> steamInventory;
+
+        internal readonly Player steamPlayer;
+        internal readonly PublishedFile steamPublishedFile;
+        internal readonly Inventory steamInventory;
 
         readonly CallbackManager callbacks;
 
@@ -87,9 +88,9 @@ namespace SteamRetriever
             this.steamApps = this.steamClient.GetHandler<SteamApps>();
             this.steamCloud = this.steamClient.GetHandler<SteamCloud>();
             var steamUnifiedMessages = this.steamClient.GetHandler<SteamUnifiedMessages>();
-            this.steamPlayer = steamUnifiedMessages.CreateService<IPlayer>();
-            this.steamPublishedFile = steamUnifiedMessages.CreateService<IPublishedFile>();
-            this.steamInventory = steamUnifiedMessages.CreateService<IInventory>();
+            this.steamPlayer = steamUnifiedMessages.CreateService<Player>();
+            this.steamPublishedFile = steamUnifiedMessages.CreateService<PublishedFile>();
+            this.steamInventory = steamUnifiedMessages.CreateService<Inventory>();
             this.steamContent = this.steamClient.GetHandler<SteamContent>();
 
             this.callbacks = new CallbackManager(this.steamClient);
@@ -251,12 +252,12 @@ namespace SteamRetriever
                 appid = appid,
             };
 
-            var job = await steamInventory.SendMessage(api => api.GetItemDefMeta(itemdef_req));
+            var job = await steamInventory.GetItemDefMeta(itemdef_req);
 
             if (job.Result != EResult.OK)
                 throw new Exception($"EResult {(int)job.Result} ({job.Result}) while retrieving items definition for {appid}.");
 
-            return job.GetDeserializedResponse<CInventory_GetItemDefMeta_Response>().digest;
+            return job.Body.digest;
         }
 
         internal async Task<List<CPlayer_GetOwnedGames_Response.Game>> GetPlayerOwnedAppIds(ulong steamId = 0)
@@ -266,12 +267,12 @@ namespace SteamRetriever
                 steamid = steamId == 0 ? steamUser.SteamID.ConvertToUInt64() : steamId,
             };
 
-            var job = await steamPlayer.SendMessage(api => api.GetOwnedGames(owned_games_req));
+            var job = await steamPlayer.GetOwnedGames(owned_games_req);
 
             if (job.Result != EResult.OK)
                 throw new Exception($"EResult {(int)job.Result} ({job.Result}) while getting owned appids.");
 
-            return job.GetDeserializedResponse<CPlayer_GetOwnedGames_Response>().games;
+            return job.Body.games;
         }
 
         internal async Task<SteamUserStats.GetUserStatsCallback> GetUserStats(uint appId, ulong steamId)
@@ -404,12 +405,12 @@ namespace SteamRetriever
 
             pubFileRequest.publishedfileids.Add(pubFile);
 
-            var job = await steamPublishedFile.SendMessage(api => api.GetDetails(pubFileRequest));
+            var job = await steamPublishedFile.GetDetails(pubFileRequest);
 
             if (job.Result != EResult.OK)
                 throw new Exception($"EResult {(int)job.Result} ({job.Result}) while retrieving file details for pubfile {pubFile}.");
 
-            return job.GetDeserializedResponse<CPublishedFile_GetDetails_Response>().publishedfiledetails.FirstOrDefault();
+            return job.Body.publishedfiledetails.FirstOrDefault();
         }
 
         internal async Task<SteamCloud.UGCDetailsCallback> GetUGCDetails(UGCHandle ugcHandle)
