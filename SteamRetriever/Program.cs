@@ -1,4 +1,4 @@
-using CommandLine;
+﻿using CommandLine;
 using log4net;
 using log4net.Layout;
 using Newtonsoft.Json;
@@ -1520,7 +1520,7 @@ class Program
 
                     while (AppIds.Count > 0)
                     {
-                        var chunks = AppIds.Select(e => e.Key).Chunk(1000);
+                        var chunks = AppIds.Select(e => e.Key).Chunk(1000).ToArray();
 
                         _logger.Info($"Got {AppIds.Count} AppIDs to check");
                         foreach (var chunk in chunks)
