@@ -1,4 +1,4 @@
-﻿using CommandLine;
+using CommandLine;
 using log4net;
 using log4net.Layout;
 using Newtonsoft.Json;
@@ -654,31 +654,58 @@ class Program
         int retryCount = 1;
         while (retryCount-- > 0)
         {
-            foreach (var steamId in reviewersIds)
+            using var cts = new CancellationTokenSource();
+
+            var semaphore = new SemaphoreSlim(10);
+
+            var tasks = reviewersIds.Select(async steamId =>
             {
-                var result = await ContentDownloader.steam3.GetUserStats(appid, steamId);
+                await semaphore.WaitAsync(cts.Token);
                 try
                 {
+                    var result = await ContentDownloader.steam3.GetUserStats(appid, steamId);
                     if (result.Result == EResult.OK && result.Schema != null)
                     {
-                        using (MemoryStream ms = new MemoryStream())
-                        {
-                            result.Schema.SaveToStream(ms, false);
-                            ms.Position = 0;
-
-                            UpdateMetadataDatabaseStatsSteamId(appid, steamId);
-
-                            using (var sr = new StreamReader(ms))
-                            {
-                                await SaveFileAsync(Path.Combine(Options.CacheOutDirectory, appid.ToString(), "stats_schema.vdf"), sr.ReadToEnd());
-                            }
-                        }
-
-                        return await GenerateAchievementsFromKeyValue(result.Schema, appid);
+                        return new KeyValuePair<ulong, KeyValue>(steamId, result.Schema);
                     }
                 }
-                catch (Exception)
-                { }
+                catch
+                {
+                }
+                finally
+                {
+                    semaphore.Release(); 
+                }
+
+                return (KeyValuePair<ulong, KeyValue>?)null;
+            })
+            .ToList();
+
+            while (tasks.Count > 0)
+            {
+                var finished = await Task.WhenAny(tasks);
+                tasks.Remove(finished);
+
+                var value = await finished;
+                if (value != null)
+                {
+                    cts.Cancel();
+
+                    using (var ms = new MemoryStream())
+                    {
+                        value.Value.Value.SaveToStream(ms, false);
+                        ms.Position = 0;
+
+                        UpdateMetadataDatabaseStatsSteamId(appid, value.Value.Key);
+
+                        using (var sr = new StreamReader(ms))
+                        {
+                            await SaveFileAsync(Path.Combine(Options.CacheOutDirectory, appid.ToString(), "stats_schema.vdf"), sr.ReadToEnd());
+                        }
+                    }
+
+                    return await GenerateAchievementsFromKeyValue(value.Value.Value, appid);
+                }
             }
 
             if (MetadataDatabase.ApplicationDetails.TryGetValue(appid, out var application) && application.PublicSteamIdForStats != null)
@@ -1084,8 +1111,9 @@ class Program
 
         if (!Options.CacheOnly)
         {
-            await GenerateItemsFromSteamNetwork(appid);
-            await GenerateAchievementsFromSteamNetwork(appid);
+            await Task.WhenAll([
+                GenerateItemsFromSteamNetwork(appid),
+                GenerateAchievementsFromSteamNetwork(appid)]);
         }
         else
         {
