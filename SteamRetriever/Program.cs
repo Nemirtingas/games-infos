@@ -1,4 +1,4 @@
-﻿using CommandLine;
+using CommandLine;
 using log4net;
 using log4net.Layout;
 using Newtonsoft.Json;
@@ -651,31 +651,43 @@ class Program
         if (reviewersIds.Count == 0)
             return false;
 
-        foreach (var steamId in reviewersIds)
+        int retryCount = 1;
+        while (retryCount-- > 0)
         {
-            var result = await ContentDownloader.steam3.GetUserStats(appid, steamId);
-            try
+            foreach (var steamId in reviewersIds)
             {
-                if (result.Result == EResult.OK && result.Schema != null)
+                var result = await ContentDownloader.steam3.GetUserStats(appid, steamId);
+                try
                 {
-                    using(MemoryStream ms = new MemoryStream())
+                    if (result.Result == EResult.OK && result.Schema != null)
                     {
-                        result.Schema.SaveToStream(ms, false);
-                        ms.Position = 0;
-
-                        UpdateMetadataDatabaseStatsSteamId(appid, steamId);
-
-                        using (var sr = new StreamReader(ms))
+                        using (MemoryStream ms = new MemoryStream())
                         {
-                            await SaveFileAsync(Path.Combine(Options.CacheOutDirectory, appid.ToString(), "stats_schema.vdf"), sr.ReadToEnd());
-                        }
-                    }
+                            result.Schema.SaveToStream(ms, false);
+                            ms.Position = 0;
 
-                    return await GenerateAchievementsFromKeyValue(result.Schema, appid);
+                            UpdateMetadataDatabaseStatsSteamId(appid, steamId);
+
+                            using (var sr = new StreamReader(ms))
+                            {
+                                await SaveFileAsync(Path.Combine(Options.CacheOutDirectory, appid.ToString(), "stats_schema.vdf"), sr.ReadToEnd());
+                            }
+                        }
+
+                        return await GenerateAchievementsFromKeyValue(result.Schema, appid);
+                    }
                 }
+                catch (Exception)
+                { }
             }
-            catch (Exception)
-            { }
+
+            if (MetadataDatabase.ApplicationDetails.TryGetValue(appid, out var application) && application.PublicSteamIdForStats != null)
+            {
+                // Our cached steamid is not working anymore, try to fetch some new ones.
+                UpdateMetadataDatabaseStatsSteamId(appid, null);
+                reviewersIds = await GetAppPublicSteamIDs(appid, 15);
+                retryCount = 1;
+            }
         }
 
         _logger.Info("  + No achievements or stats available for this AppID.");
@@ -733,19 +745,21 @@ class Program
 
     async Task<List<ulong>> GetAppPublicSteamIDs(long appid, int maxIdCount)
     {
-        var publicSteamIds = new List<ulong>
+        var publicSteamIds = new List<ulong>();
+
+        var wellKnownPublicSteamIds = new List<ulong>
         {
             76561198028121353,
             76561198001237877,
             76561198355625888,
             76561198001678750,
             76561198237402290,
-            //76561197979911851,
-            //76561198152618007,
-            //76561197969050296,
-            //76561198213148949,
-            //76561198037867621,
-            //76561198108581917,
+            76561197979911851,
+            76561198152618007,
+            76561197969050296,
+            76561198213148949,
+            76561198037867621,
+            76561198108581917,
         };
 
         try
@@ -753,35 +767,51 @@ class Program
             if (MetadataDatabase.ApplicationDetails.TryGetValue(appid, out var application) && application.PublicSteamIdForStats != null)
             {
                 KeyValue kvUser = WebSteamUser.GetPlayerSummaries2(steamids: application.PublicSteamIdForStats.Value);
-
+            
                 foreach (KeyValue v in kvUser["players"].Children)
                 {
                     if (v["communityvisibilitystate"].AsLong() == 3)
-                        return new List<ulong> {application.PublicSteamIdForStats.Value };
+                        return [application.PublicSteamIdForStats.Value];
                 }
             }
 
             var response = await LimitSteamWebApiGET(
                 WebHttpClient,
-                new HttpRequestMessage(HttpMethod.Get, $"https://store.steampowered.com/appreviews/{appid}?json=1&cursor=*&start_date=-1&end_date=-1date_range_type=all&filter=summary&language=all&review_type=all&purchase_type=all&playtime_filter_min=0&playtime_filter_max=0"));
+                new HttpRequestMessage(HttpMethod.Get, $"https://store.steampowered.com/ajaxappreviews/{appid}?date_range_type=all&start_date=-1&end_date=-1&cursor=*&filter_offtopic_activity=true"));
 
             var reviews = JObject.Parse(await response.Content.ReadAsStringAsync());
 
             if (reviews["success"] != null && (int)reviews["success"] == 1 && reviews["reviews"] != null)
             {
-                foreach (var entry in reviews["reviews"])
+                var userSteamIds = new List<ulong>();
+
+                var allSteamIds = reviews["reviews"]
+                    .Select(r => (string)r["author"]["steamid"])
+                    .Select(id => ulong.TryParse(id, out var steamId) ? steamId : (ulong?)null)
+                    .Where(id => id.HasValue)
+                    .Select(id => id.Value)
+                    .Concat(wellKnownPublicSteamIds);
+
+                foreach (var steamId in allSteamIds)
                 {
-                    if (publicSteamIds.Count >= maxIdCount)
-                        break;
+                    if (userSteamIds.Contains(steamId))
+                        continue;
 
-                    string userSteamId = (string)entry["author"]["steamid"];
-                    KeyValue kvUser = WebSteamUser.GetPlayerSummaries2(steamids: userSteamId);
+                    userSteamIds.Add(steamId);
+                }
 
-                    foreach (KeyValue v in kvUser["players"].Children)
+                KeyValue kvUser = WebSteamUser.GetPlayerSummaries2(steamids: string.Join(",", userSteamIds));
+
+                foreach (KeyValue v in kvUser["players"].Children)
+                {
+                    if (v["communityvisibilitystate"].AsLong() == 3)
                     {
-                        if (v["communityvisibilitystate"].AsLong() == 3)
+                        if (v["steamid"].AsUnsignedLong() != 0)
                         {
-                            publicSteamIds.Add(ulong.Parse(userSteamId));
+                            publicSteamIds.Add(v["steamid"].AsUnsignedLong());
+
+                            if (publicSteamIds.Count >= maxIdCount)
+                                break;
                         }
                     }
                 }
@@ -1055,7 +1085,6 @@ class Program
         if (!Options.CacheOnly)
         {
             await GenerateItemsFromSteamNetwork(appid);
-
             await GenerateAchievementsFromSteamNetwork(appid);
         }
         else
@@ -1394,12 +1423,12 @@ class Program
         }));
     }
 
-    void UpdateMetadataDatabaseStatsSteamId(uint appId, ulong steamID)
+    void UpdateMetadataDatabaseStatsSteamId(uint appId, ulong? steamID)
     {
         if (!MetadataDatabase.ApplicationDetails.TryGetValue(appId, out var appMetadata))
         {
             appMetadata = new ApplicationMetadata();
-            appMetadata.Name = $"Unknown {steamID}";
+            appMetadata.Name = $"Unknown {appId}";
             appMetadata.PublicSteamIdForStats = steamID;
             MetadataDatabase.ApplicationDetails[appId] = appMetadata;
         }
