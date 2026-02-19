@@ -40,7 +40,7 @@ public class AchievementModel
     public string Name { get; set; }
 
     [JsonProperty("hidden")]
-    public long Hidden { get; set; }
+    public bool Hidden { get; set; }
 
     [JsonProperty("icon")]
     public string Icon { get; set; }
@@ -89,4 +89,5 @@ public class StatModel
 
     [JsonProperty("windowsize")]
     public decimal? WindowSize { get; set; }
+
 }

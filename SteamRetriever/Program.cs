@@ -17,6 +17,7 @@ using System.Runtime.Serialization;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
+using static SteamRetriever.KeyValueNumberParserHelper;
 
 namespace SteamRetriever;
 
@@ -255,109 +256,7 @@ class Program
             return false;
 
         return string.Equals(kv.Value, "ACHIEVEMENTS", StringComparison.InvariantCultureIgnoreCase) || kv.AsLong() == (int)SchemaStatType.Bits;
-    }
-
-    static string NormalizeKeyValueString(string s)
-    {
-        if (string.IsNullOrWhiteSpace(s))
-            return string.Empty;
-
-        // Convert FullWidth numbers to regular ones
-        // 3256310 ０, 971620 ０,１, ...
-        s = s.Normalize(NormalizationForm.FormKC);
-        s = s.ToLowerInvariant();
-        s = s.Replace("\\t", null)
-            .Replace("\\r", null)
-            .Replace("\\n", null);
-        s = new string(s.Where(c => c != '\'' && !char.IsWhiteSpace(c)).ToArray());
-
-        return s;
-    }
-
-    static bool KeyValueValueToBoolean(KeyValue kv)
-    {
-        var stringV = kv.AsString()?.ToLowerInvariant();
-        if (stringV == null)
-            return false;
-
-        if (stringV == "true")
-            return true;
-
-        if (stringV == "false")
-            return false;
-
-        if (long.TryParse(stringV, out var v))
-            return v != 0;
-
-        return false;
-    }
-
-    static bool TryParseDecimalValue(string s, out decimal value)
-    {
-        if (s.EndsWith("f", StringComparison.OrdinalIgnoreCase) ||
-            s.EndsWith("d", StringComparison.OrdinalIgnoreCase))
-        {
-            s = s[..^1];
-        }
-
-        if (s.Count(c => c == ',') > 1)
-        {
-            s = s.Replace(",", "");
-        }
-        else if (s.Contains(',') && !s.Contains('.'))
-        {
-            s = s.Replace(',', '.');
-        }
-
-        return decimal.TryParse(s, NumberStyles.Float | NumberStyles.AllowThousands, CultureInfo.InvariantCulture, out value);
-    }
-
-    object KeyValueToFittestValueType(KeyValue kv, uint appId)
-    {
-        if (kv == KeyValue.Invalid || kv == null)
-            return null;
-
-        var stringV = NormalizeKeyValueString(kv.AsString());
-        if (string.IsNullOrWhiteSpace(stringV))
-            return null;
-
-        // Handle special case where "o" is used instead of "0" for zero value, we can find this in some achievements progression values for example.
-        // 1951780, 1520330, 412050, ...
-        if (stringV == "o")
-            return 0m;
-
-        switch (stringV)
-        {
-            case "int_max": case "max_int": return "MAX_INT";
-            case "int_min": case "min_int": return "MIN_INT";
-
-            case "-int_max": case "-max_int": return "-MAX_INT";
-            case "-int_min": case "-min_int": return "-MIN_INT";
-
-            case "flt_max": case "max_flt":
-            case "max_float": case "float_max": return "MAX_FLOAT";
-
-            case "flt_min": case "min_flt":
-            case "min_float": case "float_min": return "MIN_FLOAT";
-
-            case "-flt_max": case "-max_flt":
-            case "-max_float": case "-float_max": return "-MAX_FLOAT";
-
-            case "-flt_min": case "-min_flt":
-            case "-min_float": case "-float_min": return "-MIN_FLOAT";
-
-            case "inf": return "INFINITY";
-
-            case "-inf": return "-INFINITY";
-        }
-
-        if (TryParseDecimalValue(stringV, out var dValue))
-            return dValue;
-
-        _logger.Error($"Unable to parse value: {stringV} as ulong, long or double, returning null");
-        NotifyAsync($"Unable to parse value: '{stringV}' as ulong, long or double, for key {kv.Name} in appId {appId}").GetAwaiter().GetResult();
-        return null;
-    }
+    }    
 
     static SortedDictionary<string,string> BuildAchievementLocalizedNames(KeyValue displayObject)
     {
@@ -379,13 +278,13 @@ class Program
         return localizedDescriptions;
     }
 
-    static long IsAchievementHidden(KeyValue displayObject)
+    static bool IsAchievementHidden(KeyValue displayObject)
     {
         KeyValue v = displayObject["hidden"];
         if (v == null)
-            return 0;
+            return false;
 
-        return KeyValueValueToBoolean(v) ? 1 : 0;
+        return v.KeyValueValueToBoolean();
     }
 
     static string BuildStatName(KeyValue statObject)
@@ -431,66 +330,216 @@ class Program
 
     static bool BuildStatIncrementOnly(KeyValue statObject)
     {
-        return KeyValueValueToBoolean(statObject["incrementonly"]);
+        return statObject["incrementonly"].KeyValueValueToBoolean();
     }
 
     static bool BuildStatAggregated(KeyValue statObject)
     {
-        return KeyValueValueToBoolean(statObject["aggregated"]);
+        return statObject["aggregated"].KeyValueValueToBoolean();
     }
 
-    static object CastStatToStatType(SchemaStatType statType, object value)
+    object BuildStatValue(KeyValue statObject, string key, StatModel statModel, uint appId)
     {
-        if (value == null || value is string)
-            return value;
+        var keyValue = statObject[key];
 
-        switch (statType)
+        if (!keyValue.StringToClosestNumberRepresentation(out var value))
         {
-            case SchemaStatType.Int: return (long)(decimal)value;
-            case SchemaStatType.AvgRate:
-            case SchemaStatType.Float: return value;
-        }
-        return null;
-    }
-
-    object BuildStatDefault(KeyValue statObject, SchemaStatType statType, uint appId)
-    {
-        return CastStatToStatType(statType, KeyValueToFittestValueType(statObject["default"], appId));
-    }
-
-    object BuildStatMaxChange(KeyValue statObject, SchemaStatType statType, uint appId)
-    {
-        return CastStatToStatType(statType, KeyValueToFittestValueType(statObject["maxchange"], appId));
-    }
-
-    object BuildStatMin(KeyValue statObject, SchemaStatType statType, uint appId)
-    {
-        return CastStatToStatType(statType, KeyValueToFittestValueType(statObject["min"], appId));
-    }
-
-    object BuildStatMax(KeyValue statObject, SchemaStatType statType, uint appId)
-    {
-        return CastStatToStatType(statType, KeyValueToFittestValueType(statObject["max"], appId));
-    }
-
-    decimal? BuildStatWindowSize(KeyValue statObject, uint appId)
-    {
-        var value = KeyValueToFittestValueType(statObject["windowsize"], appId);
-        if (value == null)
+            _logger.Error($"Stat {statModel.Name} has an invalid default value: {keyValue.Value}");
             return null;
+        }
+        return CastStatToStatType(statModel.Type, value);
+    }
 
-        if (value is string)
-            return 20.0m;
+    decimal? BuildStatWindowSize(KeyValue statObject, string key, StatModel statModel, uint appId)
+    {
+        var keyValue = statObject[key];
 
-        return (decimal)value;
+        if (!keyValue.StringToClosestNumberRepresentation(out var value))
+        {
+            _logger.Error($"Stat {statModel.Name} has an invalid default value: {keyValue.Value}");
+            return null;
+        }
+
+        var typedValue = CastStatToStatType(statModel.Type, value);
+        if (typedValue == null || typedValue is string)
+            typedValue = 20.0m;
+
+        return (decimal)typedValue;
+    }
+
+    //void TestStatStrangeValues()
+    //{
+    //    var testCases = new (string input, SchemaStatType statType, object expected)[]
+    //    {
+    //        // "o" -> zero
+    //        ("o", SchemaStatType.Int, 0),
+    //        ("o", SchemaStatType.Float, 0m),
+    //        ("o", SchemaStatType.AvgRate, 0m),
+    //        
+    //        // Floats with truncate for int
+    //        ("0.5f", SchemaStatType.Int, 0),
+    //        ("0.5f", SchemaStatType.Float, 0.5m),
+    //        ("0.5f", SchemaStatType.AvgRate, 0.5m),
+    //        
+    //        ("0.4f", SchemaStatType.Int, 0),
+    //        ("0.4f", SchemaStatType.Float, 0.4m),
+    //        ("0.4f", SchemaStatType.AvgRate, 0.4m),
+    //        
+    //        // Int min/max
+    //        ("INT_MIN", SchemaStatType.Int, MIN_INT),
+    //        ("INT_MIN", SchemaStatType.Float, MIN_INT),
+    //        ("INT_MIN", SchemaStatType.AvgRate, MIN_INT),
+    //        
+    //        ("INT_MAX", SchemaStatType.Int, MAX_INT),
+    //        ("INT_MAX", SchemaStatType.Float, MAX_INT),
+    //        ("INT_MAX", SchemaStatType.AvgRate, MAX_INT),
+    //        
+    //        ("\tINT_MAX", SchemaStatType.Int, MAX_INT),
+    //        ("\tINT_MAX", SchemaStatType.Float, MAX_INT),
+    //        ("\tINT_MAX", SchemaStatType.AvgRate, MAX_INT),
+    //        
+    //        ("-INT_MIN", SchemaStatType.Int, MAX_INT),
+    //        ("-INT_MIN", SchemaStatType.Float, MAX_INT),
+    //        ("-INT_MIN", SchemaStatType.AvgRate, MAX_INT),
+    //        
+    //        // MAX_FLOAT
+    //        ("MAX_FLOAT", SchemaStatType.Int, MAX_INT),
+    //        ("MAX_FLOAT", SchemaStatType.Float, MAX_FLOAT),
+    //        ("MAX_FLOAT", SchemaStatType.AvgRate, MAX_FLOAT),
+    //        
+    //        ("MAX_FLOAT\t", SchemaStatType.Int, MAX_INT),
+    //        ("MAX_FLOAT\t", SchemaStatType.Float, MAX_FLOAT),
+    //        ("MAX_FLOAT\t", SchemaStatType.AvgRate, MAX_FLOAT),
+    //        
+    //        ("MIN_FLOAT\\t", SchemaStatType.Int, MIN_INT),
+    //        ("MIN_FLOAT\\t", SchemaStatType.Float, MIN_FLOAT),
+    //        ("MIN_FLOAT\\t", SchemaStatType.AvgRate, MIN_FLOAT),
+    //        
+    //        // FLT_MAX
+    //        ("FLT_MAX", SchemaStatType.Int, MAX_INT),
+    //        ("FLT_MAX", SchemaStatType.Float, MAX_FLOAT),
+    //        ("FLT_MAX", SchemaStatType.AvgRate, MAX_FLOAT),
+    //        
+    //        // Fullwidth digits
+    //        ("０", SchemaStatType.Int, 0),
+    //        ("０", SchemaStatType.Float, 0m),
+    //        ("０", SchemaStatType.AvgRate, 0m),
+    //        
+    //        ("１", SchemaStatType.Int, 1),
+    //        ("１", SchemaStatType.Float, 1m),
+    //        ("１", SchemaStatType.AvgRate, 1m),
+    //        
+    //        // Decimal comma
+    //        ("0,001", SchemaStatType.Int, 0),
+    //        ("0,001", SchemaStatType.Float, 0.001m),
+    //        ("0,001", SchemaStatType.AvgRate, 0.001m),
+    //        
+    //        // Huge number (clamped)
+    //        ("1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000", SchemaStatType.Int, MAX_INT),
+    //        ("1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000", SchemaStatType.Float, MAX_FLOAT),
+    //        ("1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000", SchemaStatType.AvgRate, MAX_FLOAT),
+    //        
+    //        // Thousands delimiters
+    //        ("18,446,744,073,709,551,615", SchemaStatType.Int, MAX_INT),
+    //        ("18,446,744,073,709,551,615", SchemaStatType.Float, (decimal)ulong.MaxValue),
+    //        ("18,446,744,073,709,551,615", SchemaStatType.AvgRate, (decimal)ulong.MaxValue),
+    //
+    //        // Hex
+    //        ("0x7FFFFFFF", SchemaStatType.Int, MAX_INT),
+    //        ("0x7FFFFFFF", SchemaStatType.Float, (decimal)0x7FFFFFFF),
+    //        ("0x7FFFFFFF", SchemaStatType.AvgRate, (decimal)0x7FFFFFFF),
+    //
+    //        ("-0x10", SchemaStatType.Int, -0x10),
+    //        ("-0x10", SchemaStatType.Float, (decimal)-0x10),
+    //        ("-0x10", SchemaStatType.AvgRate, (decimal)-0x10),
+    //
+    //        // Leading zeros
+    //        ("095", SchemaStatType.Int, 95),
+    //        ("095", SchemaStatType.Float, 95.0m),
+    //        ("095", SchemaStatType.AvgRate, 95.0m),
+    //
+    //        ("010", SchemaStatType.Int, 10),
+    //        ("010", SchemaStatType.Float, 10.0m),
+    //        ("010", SchemaStatType.AvgRate, 10.0m),
+    //
+    //        // Invalid strings
+    //        ("CountToReach\t", SchemaStatType.Int, null),
+    //        ("CountToReach\t", SchemaStatType.Float, null),
+    //        ("CountToReach\t", SchemaStatType.AvgRate, null),
+    //
+    //        // Infinity
+    //        ("inf", SchemaStatType.Int, MAX_INT),
+    //        ("inf", SchemaStatType.Float, INFINITY),
+    //        ("inf", SchemaStatType.AvgRate, INFINITY),
+    //
+    //        ("-inf", SchemaStatType.Int, MIN_INT),
+    //        ("-inf", SchemaStatType.Float, MINUS_INFINITY),
+    //        ("-inf", SchemaStatType.AvgRate, MINUS_INFINITY),
+    //
+    //        ("-1e400", SchemaStatType.Int, MIN_INT),
+    //        ("-1e400", SchemaStatType.Float, MINUS_INFINITY),
+    //        ("-1e400", SchemaStatType.AvgRate, MINUS_INFINITY),
+    //
+    //        ("1e400", SchemaStatType.Int, MAX_INT),
+    //        ("1e400", SchemaStatType.Float, INFINITY),
+    //        ("1e400", SchemaStatType.AvgRate, INFINITY),
+    //    };
+    //
+    //    foreach (var test in testCases)
+    //    {
+    //        var kvMock = new KeyValue(test.input);
+    //        kvMock.Value = test.input;
+    //        var result = kvMock.StringToClosestNumberRepresentation(out var o);
+    //        var value = CastStatToStatType(test.statType, o);
+    //
+    //        bool pass = Equals(value, test.expected);
+    //
+    //        if (!pass)
+    //        {
+    //            // Debug breakpoint
+    //            int x = 0;
+    //            x = 5;
+    //        }
+    //
+    //        Console.WriteLine($"Input: '{test.input}' | Type: {test.statType} | Expected: {test.expected} | Parsed: {result} | Pass: {pass}");
+    //    }
+    //}
+
+    static double StatNumberRepresentationToDouble(object value)
+    {
+        if (value is string s)
+        {
+            switch (value)
+            {
+                case MAX_INT: return int.MaxValue;
+                case MIN_INT: return int.MinValue;
+                case MAX_FLOAT: return double.MaxValue;
+                case MIN_FLOAT: return double.MinValue;
+                case INFINITY: return double.PositiveInfinity;
+                case MINUS_INFINITY: return double.NegativeInfinity;
+            }
+
+            return 0.0;
+        }
+
+        if (value is double d)
+            return d;
+
+        return 0;
+    }
+
+    async Task StatSanityCheckAsync(StatModel model)
+    {
+        if (StatNumberRepresentationToDouble(model.Min) > StatNumberRepresentationToDouble(model.Max))
+            await NotifyAsync($"{model.Name} min {model.Min} is greater than {model.Max}");
     }
 
     async Task<bool> GenerateAchievementsFromKeyValue(KeyValue schema, uint appid)
     {
         /*
          * 
-         * 
          * AppIds 1951780, 1520330 and 412050 uses a letter 'o' for their values.
+         * AppId 1381640 uses 0.5f, 0.4f.
          * AppId 2218320 uses INT_MIN, INT_MAX, \tINT_MAX.
          * AppId 3262610 uses MAX_INT, MAX_FLOAT, MAX_FLOAT\t, \tMAX_INT.
          * AppId 2721750 uses FLT_MAX.
@@ -505,6 +554,8 @@ class Program
          * And some other even have no really meanings, like appid 3811350 CountToReach\t
          */
 
+        //TestStatStrangeValues();
+
         var achievementsArray = new List<AchievementModel>();
         var statsArray = new List<StatModel>();
 
@@ -516,106 +567,124 @@ class Program
             {// Parse achievements
                 foreach (KeyValue achievement_definition in statsObject["bits"].Children)
                 {
-                    KeyValue display_object = achievement_definition["display"];
-                    
-                    var achievementModel = new AchievementModel
+                    try
                     {
-                        Name = achievement_definition["name"].Value,
-                        Hidden = IsAchievementHidden(display_object),
-                        Icon = $"https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/{appid}/{display_object["icon"].AsString()}",
-                        IconGray = $"https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/{appid}/{display_object["icon_gray"].AsString()}",
-                        DisplayName = BuildAchievementLocalizedNames(display_object),
-                        Description = BuildAchievementLocalizedDescription(display_object),
-                    };
 
-                    KeyValue progress_object = achievement_definition["progress"];
-                    if (progress_object != KeyValue.Invalid && progress_object != null && progress_object["value"] != null)
-                    {
-                        var statsThresholds = new AchievementStatsThresholdsModel();
-                        statsThresholds.MinVal = progress_object["min_val"].AsLong();
-                        statsThresholds.MaxVal = progress_object["max_val"].AsLong();
+                        KeyValue display_object = achievement_definition["display"];
 
-                        bool add_threshold = false;
-
-                        foreach (KeyValue kv in progress_object["value"].Children)
+                        var achievementModel = new AchievementModel
                         {
-                            if (kv.Name == "operation")
+                            Name = achievement_definition["name"].Value,
+                            Hidden = IsAchievementHidden(display_object),
+                            Icon = $"https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/{appid}/{display_object["icon"].AsString()}",
+                            IconGray = $"https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/{appid}/{display_object["icon_gray"].AsString()}",
+                            DisplayName = BuildAchievementLocalizedNames(display_object),
+                            Description = BuildAchievementLocalizedDescription(display_object),
+                        };
+
+                        KeyValue progress_object = achievement_definition["progress"];
+                        if (progress_object != KeyValue.Invalid && progress_object != null && progress_object["value"] != null)
+                        {
+                            var statsThresholds = new AchievementStatsThresholdsModel();
+                            statsThresholds.MinVal = progress_object["min_val"].AsLong();
+                            statsThresholds.MaxVal = progress_object["max_val"].AsLong();
+
+                            bool add_threshold = false;
+
+                            foreach (KeyValue kv in progress_object["value"].Children)
                             {
-                                if (kv.Value == "statvalue")
+                                if (kv.Name == "operation")
                                 {
-                                    add_threshold = true;
+                                    if (kv.Value == "statvalue")
+                                    {
+                                        add_threshold = true;
+                                    }
+                                    else
+                                    {
+                                        _logger.Error($"Unknown operation: {kv.Value}");
+                                        await NotifyAsync($"Unknown operation in achievement progression: {kv.Value} for achievement {achievementModel.Name} in appid {appid}");
+                                    }
+                                }
+                                else if (kv.Name.Contains("operand"))
+                                {
+                                    if (!string.IsNullOrWhiteSpace(statsThresholds.StatName))
+                                    {
+                                        _logger.Error($"Error, multiple operands in the progress object: {kv.Name}:{kv.Value}");
+                                        await NotifyAsync($"Error, multiple operands in the progress object for achievement {achievementModel.Name} in appid {appid}: already have {statsThresholds.StatName}, new operand is {kv.Name}:{kv.Value}");
+                                    }
+                                    else
+                                    {
+                                        statsThresholds.StatName = kv.Value;
+                                    }
                                 }
                                 else
                                 {
-                                    _logger.Error($"Unknown operation: {kv.Value}");
-                                    await NotifyAsync($"Unknown operation in achievement progression: {kv.Value} for achievement {achievementModel.Name} in appid {appid}");
+                                    _logger.Info($"Unhandled progression Key {kv.Name}");
+                                    await NotifyAsync($"Unhandled progression Key {kv.Name} in achievement {achievementModel.Name} for appid {appid}");
                                 }
                             }
-                            else if (kv.Name.Contains("operand"))
+
+                            if (add_threshold)
                             {
-                                if (!string.IsNullOrWhiteSpace(statsThresholds.StatName))
-                                {
-                                    _logger.Error($"Error, multiple operands in the progress object: {kv.Name}:{kv.Value}");
-                                    await NotifyAsync($"Error, multiple operands in the progress object for achievement {achievementModel.Name} in appid {appid}: already have {statsThresholds.StatName}, new operand is {kv.Name}:{kv.Value}");
-                                }
-                                else
-                                {
-                                    statsThresholds.StatName = kv.Value;
-                                }
-                            }
-                            else
-                            {
-                                _logger.Info($"Unhandled progression Key {kv.Name}");
-                                await NotifyAsync($"Unhandled progression Key {kv.Name} in achievement {achievementModel.Name} for appid {appid}");
+                                if (achievementModel.StatsThresholds == null)
+                                    achievementModel.StatsThresholds = new();
+
+                                achievementModel.StatsThresholds.Add(statsThresholds);
                             }
                         }
 
-                        if (add_threshold)
+                        if (Options.DownloadImages)
                         {
-                            if (achievementModel.StatsThresholds == null)
-                                achievementModel.StatsThresholds = new();
-
-                            achievementModel.StatsThresholds.Add(statsThresholds);
+                            await DownloadAchievementIcon(str_appid, achievementModel.Name, new Uri(achievementModel.Icon));
+                            await DownloadAchievementIcon(str_appid, achievementModel.Name + "_locked", new Uri(achievementModel.IconGray));
                         }
-                    }
 
-                    if (Options.DownloadImages)
+                        achievementsArray.Add(achievementModel);
+
+                    }
+                    catch(Exception e)
                     {
-                        await DownloadAchievementIcon(str_appid, achievementModel.Name, new Uri(achievementModel.Icon));
-                        await DownloadAchievementIcon(str_appid, achievementModel.Name + "_locked", new Uri(achievementModel.IconGray));
+                        _logger.Error($"Error while parsing achievement: {achievement_definition["display"]["name"]}", e);
                     }
-
-                    achievementsArray.Add(achievementModel);
                 }
             }
             else
             {// Parse stats
-                var stat = new StatModel
+                try
                 {
-                    Name = BuildStatName(statsObject),
-                    DisplayName = BuildStatDisplayName(statsObject),
-                    Type = BuildStatType(statsObject, appid),
-                    IncrementOnly = BuildStatIncrementOnly(statsObject),
-                    Aggregated = BuildStatAggregated(statsObject),
-                };
+                    var stat = new StatModel
+                    {
+                        Name = BuildStatName(statsObject),
+                        DisplayName = BuildStatDisplayName(statsObject),
+                        Type = BuildStatType(statsObject, appid),
+                        IncrementOnly = BuildStatIncrementOnly(statsObject),
+                        Aggregated = BuildStatAggregated(statsObject),
+                    };
 
-                stat.Default = BuildStatDefault(statsObject, stat.Type, appid);
-                stat.MaxChange = BuildStatMaxChange(statsObject, stat.Type, appid);
-                stat.Min = BuildStatMin(statsObject, stat.Type, appid);
-                stat.Max = BuildStatMax(statsObject, stat.Type, appid);
+                    stat.Default = BuildStatValue(statsObject, "default", stat, appid);
+                    stat.MaxChange = BuildStatValue(statsObject, "maxchange", stat, appid);
+                    stat.Min = BuildStatValue(statsObject, "min", stat, appid);
+                    stat.Max = BuildStatValue(statsObject, "max", stat, appid);
 
-                if (stat.Type == SchemaStatType.AvgRate)
-                    stat.WindowSize = BuildStatWindowSize(statsObject, appid);
+                    if (stat.Type == SchemaStatType.AvgRate)
+                        stat.WindowSize = BuildStatWindowSize(statsObject, "windowsize", stat, appid);
 
-                if (stat.Default == null)
-                {
-                    if (stat.Min != null)
-                        stat.Default = stat.Min;
-                    else
-                        stat.Default = 0;
+                    if (stat.Default == null)
+                    {
+                        if (stat.Min != null)
+                            stat.Default = stat.Min;
+                        else
+                            stat.Default = 0;
+                    }
+
+                    await StatSanityCheckAsync(stat);
+
+                    statsArray.Add(stat);
                 }
-
-                statsArray.Add(stat);
+                catch(Exception e)
+                {
+                    _logger.Error($"Error while parsing stat: {statsObject["name"]}", e);
+                }
             }
         }
 
@@ -1429,6 +1498,9 @@ class Program
 
     async Task SaveMetadataDatabaseAsync()
     {
+        if (Options.CacheOnly)
+            return;
+
         var filePath = Path.Combine(Path.GetDirectoryName(Options.OutDirectory), "steam_metadata.json");
         await SaveFileAsync(filePath, Newtonsoft.Json.JsonConvert.SerializeObject(MetadataDatabase, new JsonSerializerSettings
         {
