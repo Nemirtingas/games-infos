@@ -174,80 +174,125 @@ class Program
         }
     }
 
-    // Old achievements generation method using the WebAPI, kept for reference but not used anymore since the SteamNetwork method is more efficient and doesn't require a WebAPI key.
-    //async Task GenerateAchievementsFromWebAPI(string appid)
-    //{
-    //    if (string.IsNullOrEmpty(Options.WebApiKey))
-    //    {
-    //        _logger.Info("  + WebApi key is missing, the tool will not generate achievements list.");
-    //        return;
-    //    }
-    //
-    //    try
-    //    {
-    //        int done = 0;
-    //        _logger.Info("  + Trying to retrieve achievements and stats...");
-    //
-    //        var response = await LimitSteamWebApiGET(
-    //            WebHttpClient,
-    //            new HttpRequestMessage(HttpMethod.Get, $"http://api.steampowered.com/ISteamUserStats/GetSchemaForGame/v2/?l={Options.Language}&key={Options.WebApiKey}&appid={appid}"));
-    //
-    //        if (response.StatusCode == HttpStatusCode.OK)
-    //        {
-    //            JObject achievements_json = JObject.Parse(await response.Content.ReadAsStringAsync());
-    //
-    //            if (((JObject)achievements_json["game"]).ContainsKey("availableGameStats"))
-    //            {
-    //                if (((JObject)achievements_json["game"]["availableGameStats"]).ContainsKey("achievements"))
-    //                {
-    //                    JArray achievements = (JArray)achievements_json["game"]["availableGameStats"]["achievements"];
-    //
-    //                    Directory.CreateDirectory(Path.Combine(Options.OutDirectory, appid));
-    //
-    //                    foreach (var achievement in achievements)
-    //                    {
-    //                        achievement["displayName"] = new JObject { { Options.Language, achievement["displayName"] } };
-    //                        achievement["description"] = new JObject { { Options.Language, achievement["description"] } };
-    //
-    //                        if (Options.DownloadImages)
-    //                        {
-    //                            await DownloadAchievementIcon(appid, (string)achievement["name"], new Uri((string)achievement["icon"]));
-    //                            await DownloadAchievementIcon(appid, (string)achievement["name"] + "_locked", new Uri((string)achievement["icongray"]));
-    //                        }
-    //                    }
-    //
-    //                    done |= await SaveAchievementsToFileAsync(appid, achievements) ? 1 : 0;
-    //                    if ((done & 1) != 1)
-    //                    {
-    //                        _logger.Info("  + Failed to save achievements.");
-    //                    }
-    //                }
-    //                if (((JObject)achievements_json["game"]["availableGameStats"]).ContainsKey("stats"))
-    //                {
-    //                    Directory.CreateDirectory(Path.Combine(Options.OutDirectory, appid));
-    //
-    //                    done |= await SaveStatsToFileAsync(appid, achievements_json["game"]["availableGameStats"]["stats"]) ? 2 : 0;
-    //                    if ((done & 2) != 2)
-    //                    {
-    //                        _logger.Info("  + Failed to save stats.");
-    //                    }
-    //                }
-    //            }
-    //        }//using (HttpWebResponse response = (HttpWebResponse)request.GetResponse())
-    //        if (done == 0)
-    //        {
-    //            _logger.Info("  + No achievements or stats available for this AppID.");
-    //        }
-    //        else
-    //        {
-    //            _logger.Info("  + Achievements and stats were successfully generated!");
-    //        }
-    //    }
-    //    catch (Exception e)
-    //    {
-    //        _logger.Error($"  + Failed (no achievements or stats?): {e.Message}");
-    //    }
-    //}
+    async Task<bool> ParseJsonAchievementsAsync(string stringAppId, JArray jsonAchievements)
+    {
+        var achievements = new List<AchievementModel>();
+
+        foreach (var jsonAchievement in jsonAchievements)
+        {
+            try
+            {
+                var achievement = new AchievementModel
+                {
+                    Name = (string)jsonAchievement["name"],
+                    DisplayName = new() { { Options.Language, (string)jsonAchievement["displayName"] } },
+                    Description = new() { { Options.Language, (string)jsonAchievement["description"] } },
+                    Icon = (string)jsonAchievement["icon"],
+                    IconGray = (string)jsonAchievement["icongray"],
+                    Hidden = (int)jsonAchievement["hidden"] != 0,
+                };
+
+                if (Options.DownloadImages)
+                {
+                    await DownloadAchievementIcon(stringAppId, achievement.Name, new Uri(achievement.Icon));
+                    await DownloadAchievementIcon(stringAppId, achievement.Name + "_locked", new Uri(achievement.IconGray));
+                }
+
+                achievements.Add(achievement);
+            }
+            catch (Exception ex)
+            {
+                _logger.Error($"Failed to parse json achievement.", ex);
+            }
+        }
+
+        return await SaveAchievementsToFileAsync(stringAppId, achievements);
+    }
+
+    async Task<bool> ParseJsonStatsAsync(string stringAppId, JArray jsonStats)
+    {
+        var stats = new List<StatModel>();
+
+        foreach (var jsonStat in jsonStats)
+        {
+            try
+            {
+                var stat = new StatModel
+                {
+                    Name = (string)jsonStat["name"],
+                    Default = (decimal?)jsonStat["defaultvalue"],
+                    DisplayName = (string)jsonStat["displayName"]
+                };
+
+                stats.Add(stat);
+            }
+            catch (Exception ex)
+            {
+                _logger.Error($"Failed to parse json stat.", ex);
+            }
+        }
+
+        return await SaveStatsToFileAsync(stringAppId, stats);
+    }
+
+    async Task GenerateAchievementsFromWebAPI(uint appid)
+    {
+        if (string.IsNullOrEmpty(Options.WebApiKey))
+        {
+            _logger.Info("  + WebApi key is missing, the tool will not generate achievements list.");
+            return;
+        }
+    
+        try
+        {
+            var stringAppId = appid.ToString();
+
+            int done = 0;
+            _logger.Info("  + Trying to retrieve achievements and stats from web api...");
+    
+            var response = await LimitSteamWebApiGET(
+                WebHttpClient,
+                new HttpRequestMessage(HttpMethod.Get, $"http://api.steampowered.com/ISteamUserStats/GetSchemaForGame/v2/?l={Options.Language}&key={Options.WebApiKey}&appid={appid}"));
+    
+            if (response.StatusCode == HttpStatusCode.OK)
+            {
+                JObject achievements_json = JObject.Parse(await response.Content.ReadAsStringAsync());
+    
+                if (((JObject)achievements_json["game"]).ContainsKey("availableGameStats"))
+                {
+                    var jsonAchievements = new JArray();
+                    var jsonStats = new JArray();
+
+                    if (((JObject)achievements_json["game"]["availableGameStats"]).ContainsKey("achievements"))
+                        jsonAchievements = (JArray)achievements_json["game"]["availableGameStats"]["achievements"];
+
+                    done |= await ParseJsonAchievementsAsync(stringAppId, jsonAchievements) ? 1 : 0;
+                    if ((done & 1) != 1)
+                        _logger.Info("  + Failed to save achievements.");
+
+                    var stats = new List<StatModel>();
+                    if (((JObject)achievements_json["game"]["availableGameStats"]).ContainsKey("stats"))
+                        jsonStats = (JArray)achievements_json["game"]["availableGameStats"]["stats"];
+
+                    done |= await ParseJsonStatsAsync(stringAppId, jsonStats) ? 2 : 0;
+                    if ((done & 2) != 2)
+                        _logger.Info("  + Failed to save stats.");
+                }
+            }//using (HttpWebResponse response = (HttpWebResponse)request.GetResponse())
+            if (done == 0)
+            {
+                _logger.Info("  + No achievements or stats available for this AppID.");
+            }
+            else
+            {
+                _logger.Info("  + Achievements and stats were successfully generated!");
+            }
+        }
+        catch (Exception e)
+        {
+            _logger.Error($"  + Failed (no achievements or stats?): {e.Message}");
+        }
+    }
 
     static bool IsStatObjectAnAchievement(KeyValue statObject)
     {
@@ -774,7 +819,7 @@ class Program
             }
         }
 
-        _logger.Info("  + No achievements or stats available for this AppID.");
+        _logger.Info("  + No achievements or stats available for this AppID on Steam network.");
         return false;
     }
 
@@ -1168,9 +1213,14 @@ class Program
 
         if (!Options.CacheOnly)
         {
-            await Task.WhenAll([
+            var results = await Task.WhenAll([
                 GenerateItemsFromSteamNetwork(appid),
                 GenerateAchievementsFromSteamNetwork(appid)]);
+
+            if (!results[1])
+            {
+                await GenerateAchievementsFromWebAPI(appid);
+            }
         }
         else
         {
