@@ -46,21 +46,25 @@ public static class KeyValueNumberParserHelper
         if (s.StartsWith("0x", StringComparison.OrdinalIgnoreCase) || negativeHex)
         {
             string hexPart = negativeHex ? s[3..] : s[2..];
+            try
+            {
+                var bytes = Convert.FromHexString(hexPart);
 
-            if (!BigInteger.TryParse(hexPart, NumberStyles.HexNumber, CultureInfo.InvariantCulture, out var hexValue))
-                return false;
+                var hexValue = new BigInteger(bytes, isUnsigned: true, isBigEndian: true);
 
-            if (negativeHex)
-                hexValue = -hexValue;
+                if (negativeHex)
+                    hexValue = -hexValue;
 
-            if (hexValue < (BigInteger)decimal.MinValue)
-                numberRepresentation = MIN_INT;
-            else if (hexValue > (BigInteger)decimal.MaxValue)
-                numberRepresentation = MAX_INT;
-            else
-                value = (decimal)hexValue;
+                if (hexValue < (BigInteger)decimal.MinValue)
+                    numberRepresentation = MIN_INT;
+                else if (hexValue > (BigInteger)decimal.MaxValue)
+                    numberRepresentation = MAX_INT;
+                else
+                    value = (decimal)hexValue;
 
-            return true;
+                return true;
+            }
+            catch { }
         }
 
         if (s.EndsWith("f", StringComparison.OrdinalIgnoreCase) || s.EndsWith("d", StringComparison.OrdinalIgnoreCase))
@@ -200,7 +204,7 @@ public static class KeyValueNumberParserHelper
         return false;
     }
 
-    public static object CastStatToStatType(SchemaStatType statType, object value)
+    public static object CastNumberRepresentationToStatType(SchemaStatType statType, object value)
     {
         if (value == null)
             return null;

@@ -347,7 +347,7 @@ class Program
             _logger.Error($"Stat {statModel.Name} has an invalid default value: {keyValue.Value}");
             return null;
         }
-        return CastStatToStatType(statModel.Type, value);
+        return CastNumberRepresentationToStatType(statModel.Type, value);
     }
 
     decimal? BuildStatWindowSize(KeyValue statObject, string key, StatModel statModel, uint appId)
@@ -360,7 +360,7 @@ class Program
             return null;
         }
 
-        var typedValue = CastStatToStatType(statModel.Type, value);
+        var typedValue = CastNumberRepresentationToStatType(statModel.Type, value);
         if (typedValue == null || typedValue is string)
             typedValue = 20.0m;
 
@@ -443,11 +443,15 @@ class Program
     //        ("18,446,744,073,709,551,615", SchemaStatType.Int, MAX_INT),
     //        ("18,446,744,073,709,551,615", SchemaStatType.Float, (decimal)ulong.MaxValue),
     //        ("18,446,744,073,709,551,615", SchemaStatType.AvgRate, (decimal)ulong.MaxValue),
-    //
+    //        
     //        // Hex
     //        ("0x7FFFFFFF", SchemaStatType.Int, MAX_INT),
     //        ("0x7FFFFFFF", SchemaStatType.Float, (decimal)0x7FFFFFFF),
     //        ("0x7FFFFFFF", SchemaStatType.AvgRate, (decimal)0x7FFFFFFF),
+    //
+    //        ("0x800000FF", SchemaStatType.Int, MAX_INT),
+    //        ("0x800000FF", SchemaStatType.Float, (decimal)0x800000FF),
+    //        ("0x800000FF", SchemaStatType.AvgRate, (decimal)0x800000FF),
     //
     //        ("-0x10", SchemaStatType.Int, -0x10),
     //        ("-0x10", SchemaStatType.Float, (decimal)-0x10),
@@ -490,7 +494,7 @@ class Program
     //        var kvMock = new KeyValue(test.input);
     //        kvMock.Value = test.input;
     //        var result = kvMock.StringToClosestNumberRepresentation(out var o);
-    //        var value = CastStatToStatType(test.statType, o);
+    //        var value = CastNumberRepresentationToStatType(test.statType, o);
     //
     //        bool pass = Equals(value, test.expected);
     //
