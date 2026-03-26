@@ -167,7 +167,6 @@ namespace SteamKit2.Internal
         k_EStartupMovieVariant_Generic = 1,
         k_EStartupMovieVariant_DeckBlue = 2,
         k_EStartupMovieVariant_DeckOrange = 3,
-        k_EStartupMovieVariant_Machine = 4,
     }
 
     [global::ProtoBuf.ProtoContract()]
@@ -693,7 +692,6 @@ namespace SteamKit2.Internal
         k_ECompromiseDetectionType_TicketAction = 4,
         k_ECompromiseDetectionType_MaliciousRefund = 5,
         k_ECompromiseDetectionType_Move2FA = 6,
-        k_ECompromiseDetectionType_DeviceType = 7,
     }
 
     [global::ProtoBuf.ProtoContract()]
@@ -721,14 +719,6 @@ namespace SteamKit2.Internal
         k_EGameRecordingType_ManualRecording = 2,
         k_EGameRecordingType_BackgroundRecording = 3,
         k_EGameRecordingType_Clip = 4,
-    }
-
-    [global::ProtoBuf.ProtoContract()]
-    public enum EGRMode
-    {
-        k_EGRMode_Never = 0,
-        k_EGRMode_Always = 1,
-        k_EGRMode_Manual = 2,
     }
 
     [global::ProtoBuf.ProtoContract()]
@@ -813,183 +803,15 @@ namespace SteamKit2.Internal
     }
 
     [global::ProtoBuf.ProtoContract()]
-    public enum EEnhancedMarketAppearanceStatus
-    {
-        k_EnhancedMarketAppearanceStatus_None = 0,
-        k_EnhancedMarketAppearanceStatus_Pending = 1,
-        k_EnhancedMarketAppearanceStatus_InProgress = 2,
-        k_EnhancedMarketAppearanceStatus_Completed = 3,
-    }
-
-    [global::ProtoBuf.ProtoContract()]
-    public enum EContentReportSubjectType
-    {
-        k_EContentReportSubjectType_Invalid = 0,
-        k_EContentReportSubjectType_ForumPost = 1,
-        k_EContentReportSubjectType_Unused = 2,
-        k_EContentReportSubjectType_UGCFile = 3,
-        k_EContentReportSubjectType_FriendChatMsg = 4,
-        k_EContentReportSubjectType_ChatRoomMsg = 5,
-        k_EContentReportSubjectType_ChatGroup = 6,
-        k_EContentReportSubjectType_MAX = 7,
-    }
-
-    [global::ProtoBuf.ProtoContract()]
-    public enum EControlledLegalCategoryStatus
-    {
-        k_EControlledLegalCategoryStatus_None = 0,
-        k_EControlledLegalCategoryStatus_Accused = 1,
-        k_EControlledLegalCategoryStatus_Convicted = 2,
-        k_EControlledLegalCategoryStatus_Acquitted = 3,
-    }
-
-    [global::ProtoBuf.ProtoContract()]
-    public enum EContentModeratorLevel
-    {
-        k_EContentModeratorLevel_Any = 0,
-        k_EContentModeratorLevel_Supervisor = 1,
-        k_EContentModeratorLevel_Valve = 10,
-        k_EContentModeratorLevel_MAX = 11,
-    }
-
-    [global::ProtoBuf.ProtoContract()]
-    public enum EContentReportResolution
-    {
-        k_EContentReportResolution_Unresolved = 0,
-        k_EContentReportResolution_Acquitted = 1,
-        k_EContentReportResolution_Removed = 2,
-        k_EContentReportResolution_Relabelled = 3,
-        k_EContentReportResolution_Suspicious = 4,
-        k_EContentReportResolution_HarassmentStrike = 5,
-        k_EContentReportResolution_Purged = 6,
-        k_EContentReportResolution_DisconnectedFromApp = 7,
-        k_EContentReportResolution_SuspiciousIncludingUpvoters = 8,
-        k_EContentReportResolution_VisibilityChanged = 9,
-        k_EContentReportResolution_CountryRestrictionsChanged = 10,
-        k_EContentReportResolution_RemoveAndWarn = 11,
-        k_EContentReportResolution_RemoveAndBan = 12,
-        k_EContentReportResolution_RemoveAndKick = 13,
-        k_EContentReportResolution_MAX = 14,
-    }
-
-    [global::ProtoBuf.ProtoContract()]
-    public enum EContentReportSubjectAction
-    {
-        k_EContentReportSubjectAction_Invalid = 0,
-        k_EContentReportSubjectAction_Unresolved = 1,
-        k_EContentReportSubjectAction_Sanctioned = 2,
-        k_EContentReportSubjectAction_Acquitted = 3,
-        k_EContentReportSubjectAction_Cancelled = 4,
-        k_EContentReportSubjectAction_Updated = 5,
-        k_EContentReportSubjectAction_Escalated = 6,
-        k_EContentReportSubjectAction_Disputed = 7,
-        k_EContentReportSubjectAction_SustainedOnDispute = 8,
-        k_EContentReportSubjectAction_Locked = 9,
-        k_EContentReportSubjectAction_Unlocked = 10,
-        k_EContentReportSubjectAction_Deleted = 11,
-        k_EContentReportSubjectAction_Warned = 12,
-        k_EContentReportSubjectAction_BannedFromHub = 13,
-        k_EContentReportSubjectAction_BannedFromCommunity = 14,
-        k_EContentReportSubjectAction_TradeBanned = 15,
-        k_EContentReportSubjectAction_MarkedAsSuspicious = 16,
-        k_EContentReportSubjectAction_ResetContent = 17,
-        k_EContentReportSubjectAction_EscalatedForCSAM = 18,
-        k_EContentReportSubjectAction_EscalatedForTerrorism = 19,
-        k_EContentReportSubjectAction_Claimed = 20,
-        k_EContentReportSubjectAction_Released = 21,
-        k_EContentReportSubjectAction_PrivateMessaged = 22,
-    }
-
-    [global::ProtoBuf.ProtoContract()]
     public enum EContentReportReason
     {
         k_EContentReportReason_Invalid = 0,
-        k_EContentReportReason_None = 1,
-        k_EContentReportReason_Unknown = 2,
-        k_EContentReportReason_Harassment = 3,
-        k_EContentReportReason_BullyingAndIntimidation = 4,
-        k_EContentReportReason_Stalking = 5,
-        k_EContentReportReason_Doxxing = 6,
-        k_EContentReportReason_OtherHarassment = 7,
-        k_EContentReportReason_EncouragingViolence = 8,
-        k_EContentReportReason_EncouragingSelfHarm = 9,
-        k_EContentReportReason_EncouragingSuicide = 10,
-        k_EContentReportReason_OtherViolenceOrSelfHarm = 11,
-        k_EContentReportReason_PhishingOrAccountTheft = 12,
-        k_EContentReportReason_AttemptedScamming = 13,
-        k_EContentReportReason_LinkingToMaliciousContent = 14,
-        k_EContentReportReason_Impersonation = 15,
-        k_EContentReportReason_OtherScamsAndTheft = 16,
-        k_EContentReportReason_EncouragingTerrorism = 17,
-        k_EContentReportReason_OrganizingTerrorism = 18,
-        k_EContentReportReason_OtherTerrorism = 19,
-        k_EContentReportReason_TargetedAbuse = 20,
-        k_EContentReportReason_NamingAndShaming = 21,
-        k_EContentReportReason_Discrimination = 22,
-        k_EContentReportReason_OtherAbuse = 23,
-        k_EContentReportReason_Trolling = 24,
-        k_EContentReportReason_Baiting = 25,
-        k_EContentReportReason_Derailing = 26,
-        k_EContentReportReason_OtherDisruptive = 27,
-        k_EContentReportReason_Spam = 28,
-        k_EContentReportReason_Begging = 29,
-        k_EContentReportReason_Reposting = 30,
-        k_EContentReportReason_OtherOffTopic = 31,
-        k_EContentReportReason_CSAMSexualContent = 32,
-        k_EContentReportReason_CSAMGroomingOrEnticement = 33,
-        k_EContentReportReason_CSAMOther = 34,
-        k_EContentReportReason_NudityOrSexualContent = 35,
-        k_EContentReportReason_NonConsensualMaterial = 36,
-        k_EContentReportReason_Advertising = 37,
-        k_EContentReportReason_ReferralLinks = 38,
-        k_EContentReportReason_Gambling = 39,
-        k_EContentReportReason_Raffles = 40,
-        k_EContentReportReason_OtherCommercialActivity = 41,
-        k_EContentReportReason_InauthenticReview = 42,
-        k_EContentReportReason_HiddenAdvertisementOrCommercialCommunication = 43,
-        k_EContentReportReason_MisleadingInformationAboutGoodsOrServices = 44,
-        k_EContentReportReason_MisleadingInformationAboutConsumerRights = 45,
-        k_EContentReportReason_NoncomplianceWithPricingRegulations = 46,
-        k_EContentReportReason_RightToBeForgottenViolation = 47,
-        k_EContentReportReason_MissingProcessingGroundForData = 48,
-        k_EContentReportReason_OtherDataProtectionAndPrivacyViolation = 49,
-        k_EContentReportReason_GenderedHarassment = 50,
-        k_EContentReportReason_GenderedBullyingAndIntimidation = 51,
-        k_EContentReportReason_GenderedStalking = 52,
-        k_EContentReportReason_GenderedDoxxing = 53,
-        k_EContentReportReason_GenderedOtherHarassment = 54,
-        k_EContentReportReason_GenderedEncouragingViolence = 55,
-        k_EContentReportReason_GenderedTargetedAbuse = 56,
-        k_EContentReportReason_CSAMFakedSexualContent = 57,
-        k_EContentReportReason_GenderedNonConsensualMaterial = 58,
-        k_EContentReportReason_FakedGenderedNonConsensualMaterial = 59,
-        k_EContentReportReason_FakedNonConsensualMaterial = 60,
-        k_EContentReportReason_NegativeEffectonDiscourseOrElections = 61,
-        k_EContentReportReason_QuotesModeratedContent = 62,
-        k_EContentReportReason_CredibleThreatOfViolence = 63,
-        k_EContentReportReason_MAX = 64,
-    }
-
-    [global::ProtoBuf.ProtoContract()]
-    public enum EResolutionAutomation
-    {
-        k_EResolutionAutomation_Manual = 0,
-        k_EResolutionAutomation_PartiallyAutomated = 1,
-        k_EResolutionAutomation_FullyAutomated = 2,
-        k_EResolutionAutomation_MAX = 3,
-    }
-
-    [global::ProtoBuf.ProtoContract()]
-    public enum EPressOutletAction
-    {
-        k_EPressOutletAction_Invalid = 0,
-        k_EPressOutletAction_Granted = 1,
-        k_EPressOutletAction_Removed = 2,
-        k_EPressOutletAction_Created = 3,
-        k_EPressOutletAction_Updated = 4,
-        k_EPressOutletAction_Deleted = 5,
-        k_EPressOutletAction_Undeleted = 6,
-        k_EPressOutletAction_MAX = 7,
+        k_EContentReportReason_Abusive = 1,
+        k_EContentReportReason_Commercial = 2,
+        k_EContentReportReason_OffTopic = 3,
+        k_EContentReportReason_Prohibited = 4,
+        k_EContentReportReason_Other = 5,
+        k_EContentReportReason_MAX = 6,
     }
 
 }

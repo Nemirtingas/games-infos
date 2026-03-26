@@ -9,7 +9,7 @@ namespace SteamKit2
     /// </summary>
     public sealed partial class SteamNetworking : ClientMsgHandler
     {
-        private static CallbackMsg? GetCallback( IPacketMsg packetMsg ) => packetMsg.MsgType switch
+        private static CallbackMsg GetCallback( IPacketMsg packetMsg ) => packetMsg.MsgType switch
         {
             EMsg.ClientNetworkingCertRequestResponse => new NetworkingCertificateCallback( packetMsg ),
             _ => null,

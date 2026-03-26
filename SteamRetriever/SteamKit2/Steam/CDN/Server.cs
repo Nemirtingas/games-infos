@@ -35,11 +35,11 @@ namespace SteamKit2.CDN
         /// <summary>
         /// Gets the hostname of the server.
         /// </summary>
-        public string? Host { get; internal set; }
+        public string Host { get; internal set; }
         /// <summary>
         /// Gets the virtual hostname of the server.
         /// </summary>
-        public string? VHost { get; internal set; }
+        public string VHost { get; internal set; }
         /// <summary>
         /// Gets the port of the server.
         /// </summary>
@@ -48,7 +48,7 @@ namespace SteamKit2.CDN
         /// <summary>
         /// Gets the type of the server.
         /// </summary>
-        public string? Type { get; internal set; }
+        public string Type { get; internal set; }
 
         /// <summary>
         /// Gets the SourceID this server belongs to.
@@ -83,7 +83,7 @@ namespace SteamKit2.CDN
         /// <summary>
         /// Gets the transformation template applied to request paths.
         /// </summary>
-        public string? ProxyRequestPathTemplate { get; internal set; }
+        public string ProxyRequestPathTemplate { get; internal set; }
 
         /// <summary>
         /// Gets the list of app ids this server can be used with.

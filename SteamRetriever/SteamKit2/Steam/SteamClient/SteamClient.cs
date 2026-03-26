@@ -32,7 +32,7 @@ namespace SteamKit2
 
         internal AsyncJobManager jobManager;
 
-        SteamAuthentication? _authentication = null;
+        SteamAuthentication _authentication = null;
 
         /// <summary>
         /// Handler used for authenticating on Steam.
@@ -168,7 +168,7 @@ namespace SteamKit2
         /// <returns>
         /// A registered handler on success, or null if the handler could not be found.
         /// </returns>
-        public T? GetHandler<T>()
+        public T GetHandler<T>()
             where T : ClientMsgHandler
         {
             Type type = typeof( T );
@@ -183,7 +183,7 @@ namespace SteamKit2
         /// Gets the next callback object in the queue, and removes it.
         /// </summary>
         /// <returns>The next callback in the queue, or null if no callback is waiting.</returns>
-        public CallbackMsg? GetCallback()
+        public CallbackMsg GetCallback()
         {
             if ( callbackQueue.TryReceive( out var msg ) )
             {
@@ -215,7 +215,7 @@ namespace SteamKit2
         /// </summary>
         /// <param name="timeout">The length of time to block.</param>
         /// <returns>A callback object from the queue if a callback has been posted, or null if the timeout has elapsed.</returns>
-        public CallbackMsg? WaitForCallback( TimeSpan timeout )
+        public CallbackMsg WaitForCallback( TimeSpan timeout )
         {
             try
             {
@@ -277,7 +277,7 @@ namespace SteamKit2
         /// Called when a client message is received from the network.
         /// </summary>
         /// <param name="packetMsg">The packet message.</param>
-        protected override bool OnClientMsgReceived( IPacketMsg? packetMsg )
+        protected override bool OnClientMsgReceived( IPacketMsg packetMsg )
         {
             // let the underlying CMClient handle this message first
             if ( !base.OnClientMsgReceived( packetMsg ) )

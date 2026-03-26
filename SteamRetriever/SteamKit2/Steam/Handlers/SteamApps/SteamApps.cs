@@ -43,7 +43,7 @@ namespace SteamKit2
             }
         }
 
-        private static CallbackMsg? GetCallback( IPacketMsg packetMsg ) => packetMsg.MsgType switch
+        private static CallbackMsg GetCallback( IPacketMsg packetMsg ) => packetMsg.MsgType switch
         {
             EMsg.ClientLicenseList => new LicenseListCallback( packetMsg ),
             EMsg.ClientRequestFreeLicenseResponse => new FreeLicenseCallback( packetMsg ),

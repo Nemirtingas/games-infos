@@ -1864,17 +1864,6 @@ namespace SteamKit2.Internal
         [global::ProtoBuf.ProtoMember(3)]
         public global::System.Collections.Generic.List<WorkshopItem> workshop_items { get; } = new global::System.Collections.Generic.List<WorkshopItem>();
 
-        [global::ProtoBuf.ProtoMember(4)]
-        [global::System.ComponentModel.DefaultValue(EPublishedFileRevision.k_EPublishedFileRevision_Default)]
-        public EPublishedFileRevision desired_revision
-        {
-            get => __pbn__desired_revision ?? EPublishedFileRevision.k_EPublishedFileRevision_Default;
-            set => __pbn__desired_revision = value;
-        }
-        public bool ShouldSerializedesired_revision() => __pbn__desired_revision != null;
-        public void Resetdesired_revision() => __pbn__desired_revision = null;
-        private EPublishedFileRevision? __pbn__desired_revision;
-
         [global::ProtoBuf.ProtoContract()]
         public partial class WorkshopItem : global::ProtoBuf.IExtensible
         {
@@ -2845,16 +2834,6 @@ namespace SteamKit2.Internal
         public void Resetmanifest_id() => __pbn__manifest_id = null;
         private ulong? __pbn__manifest_id;
 
-        [global::ProtoBuf.ProtoMember(7)]
-        public uint accountid
-        {
-            get => __pbn__accountid.GetValueOrDefault();
-            set => __pbn__accountid = value;
-        }
-        public bool ShouldSerializeaccountid() => __pbn__accountid != null;
-        public void Resetaccountid() => __pbn__accountid = null;
-        private uint? __pbn__accountid;
-
     }
 
     [global::ProtoBuf.ProtoContract()]
@@ -3016,16 +2995,6 @@ namespace SteamKit2.Internal
             public bool ShouldSerializemanifest_id() => __pbn__manifest_id != null;
             public void Resetmanifest_id() => __pbn__manifest_id = null;
             private ulong? __pbn__manifest_id;
-
-            [global::ProtoBuf.ProtoMember(8)]
-            public uint accountid
-            {
-                get => __pbn__accountid.GetValueOrDefault();
-                set => __pbn__accountid = value;
-            }
-            public bool ShouldSerializeaccountid() => __pbn__accountid != null;
-            public void Resetaccountid() => __pbn__accountid = null;
-            private uint? __pbn__accountid;
 
         }
 

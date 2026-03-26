@@ -23,24 +23,24 @@ namespace SteamKit2
             /// Gets or sets the Steam game ID this screenshot belongs to
             /// </summary>
             /// <value>The game ID.</value>
-            public GameID? GameID { get; set; }
+            public GameID GameID { get; set; }
 
             /// <summary>
             /// Gets or sets the UFS image filepath.
             /// </summary>
             /// <value>The UFS image filepath.</value>
-            public string? UFSImageFilePath { get; set; }
+            public string UFSImageFilePath { get; set; }
             /// <summary>
             /// Gets or sets the UFS thumbnail filepath.
             /// </summary>
             /// <value>The UFS thumbnail filepath.</value>
-            public string? UFSThumbnailFilePath { get; set; }
+            public string UFSThumbnailFilePath { get; set; }
 
             /// <summary>
             /// Gets or sets the screenshot caption
             /// </summary>
             /// <value>The screenshot caption.</value>
-            public string? Caption { get; set; }
+            public string Caption { get; set; }
             /// <summary>
             /// Gets or sets the screenshot privacy
             /// </summary>
@@ -78,7 +78,7 @@ namespace SteamKit2
             }
         }
 
-        private static CallbackMsg? GetCallback( IPacketMsg packetMsg ) => packetMsg.MsgType switch
+        private static CallbackMsg GetCallback( IPacketMsg packetMsg ) => packetMsg.MsgType switch
         {
             EMsg.ClientUCMAddScreenshotResponse => new ScreenshotAddedCallback( packetMsg ),
             _ => null,

@@ -1872,8 +1872,6 @@ namespace SteamKit2
 		PhoneNumberIsVOIP = 127,
 		NotSupported = 128,
 		FamilySizeLimitExceeded = 129,
-		OfflineAppCacheInvalid = 130,
-		TryLater = 131,
 	}
 	public enum EUniverse
 	{
@@ -1953,7 +1951,7 @@ namespace SteamKit2
 		LimitedUser = 4096,
 		LimitedUserForce = 8192,
 		EmailValidated = 16384,
-		ValveEmail = 32768,
+		MarketingTreatment = 32768,
 		OGGInviteOptOut = 65536,
 		ForcePasswordChange = 131072,
 		ForceEmailVerification = 262144,
@@ -2523,13 +2521,6 @@ namespace SteamKit2
 		OSX = 4,
 		PS3 = 5,
 		Linux32 = 6,
-		Android32 = 7,
-		Android64 = 8,
-		IOS32 = 9,
-		IOS64 = 10,
-		TVOS = 11,
-		EmbeddedClient = 12,
-		Browser = 13,
 	}
 	public enum EOSType
 	{
@@ -2731,7 +2722,7 @@ namespace SteamKit2
 		Steam2Emulator = 79,
 		PublicTest = 80,
 		SolrMgr = 81,
-		BroadcastIngester = 82,
+		BroadcastIngestor = 82,
 		BroadcastDirectory = 83,
 		VideoManager = 84,
 		TradeOffer = 85,
@@ -2964,7 +2955,7 @@ namespace SteamKit2
 		CyberCafeInitiator = 14,
 		CyberCafeTarget = 15,
 		SchoolLabInitiator = 16,
-		SchoolLabTarget = 17,
+		SchoolLabTarget = 16,
 		InitiatorBlockedTarget = 18,
 		InitiatorNeedsVerifiedEmail = 20,
 		InitiatorNeedsSteamGuard = 21,
@@ -3180,7 +3171,7 @@ namespace SteamKit2
 		PresaleOnly = 13,
 		InvalidPlatform = 14,
 		ParentalBlocked = 15,
-		PreloadComplete = 16,
+		PreloadOnly = 16,
 		BorrowerLocked = 17,
 		UpdatePaused = 18,
 		UpdateQueued = 19,
@@ -3201,9 +3192,6 @@ namespace SteamKit2
 		CloudError = 34,
 		CloudOutOfDate = 35,
 		Terminating = 36,
-		OwnerLocked = 37,
-		DownloadFailed = 38,
-		UpdateFailed = 39,
 	}
 	[Flags]
 	public enum EAppType
@@ -3320,11 +3308,10 @@ namespace SteamKit2
 		LocalMicOnly = 3,
 		CreatePeerConnection = 4,
 		InitatedWebRTCSession = 5,
-		UpdatingWebRTCSession = 6,
-		WebRTCConnectedWaitingOnIceConnected = 7,
-		RequestedPermission = 8,
-		NotifyingVoiceChatOfWebRTCSession = 9,
-		Connected = 10,
+		WebRTCConnectedWaitingOnIceConnected = 6,
+		RequestedPermission = 7,
+		NotifyingVoiceChatOfWebRTCSession = 8,
+		Connected = 9,
 	}
 	public enum ETradeOfferState
 	{
@@ -3339,7 +3326,6 @@ namespace SteamKit2
 		CreatedNeedsConfirmation = 9,
 		CanceledBySecondFactor = 10,
 		InEscrow = 11,
-		Reverted = 12,
 	}
 	public enum ETradeOfferConfirmationMethod
 	{
@@ -3417,65 +3403,9 @@ namespace SteamKit2
 		Tenfoot = 1,
 		Mobile = 2,
 		Web = 3,
-		GamePadUI = 4,
+		ClientUI = 4,
 		MobileChat = 5,
 		EmbeddedClient = 6,
-		DesktopUI = 7,
-	}
-	public enum EGamingDeviceType
-	{
-		Unknown = 0,
-		StandardPC = 1,
-		ConsoleLegacy = 256,
-		PS3 = 273,
-		Steambox = 288,
-		Tesla = 320,
-		Handheld_Legacy = 512,
-		Phone = 528,
-		Console = 540,
-		SteamOSGeneric = 541,
-		SteamDeck = 544,
-		LegionGoS = 545,
-		Fremont = 546,
-		VR = 768,
-		SteamFrame = 769,
-	}
-	public enum EMobileConfirmationAction
-	{
-		None = 0,
-		Allow = 1,
-		Cancel = 2,
-	}
-	public enum EMobileConfirmationType
-	{
-		Invalid = 0,
-		Test = 1,
-		Trade = 2,
-		MarketListing = 3,
-		FeatureOptOut = 4,
-		PhoneNumberChange = 5,
-		AccountRecovery = 6,
-		BuildChangeRequest = 7,
-		AddUser = 8,
-		RegisterApiKey = 9,
-		InviteToFamilyGroup = 10,
-		JoinFamilyGroup = 11,
-		MarketPurchase = 12,
-		RequestRefund = 13,
-	}
-	public enum ECommentPermission
-	{
-		Invalid = -1,
-		FriendsOnly = 0,
-		Anyone = 1,
-		SelfOnly = 2,
-	}
-	public enum ECommunityPrivacy
-	{
-		Invalid = 0,
-		Private = 1,
-		FriendsOnly = 2,
-		Public = 3,
 	}
 	public enum EUdpPacketType : byte
 	{

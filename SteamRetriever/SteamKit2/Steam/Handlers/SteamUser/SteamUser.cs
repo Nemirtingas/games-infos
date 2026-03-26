@@ -40,12 +40,12 @@ namespace SteamKit2
             /// Gets or sets the username.
             /// </summary>
             /// <value>The username.</value>
-            public string? Username { get; set; }
+            public string Username { get; set; }
             /// <summary>
             /// Gets or sets the password.
             /// </summary>
             /// <value>The password.</value>
-            public string? Password { get; set; }
+            public string Password { get; set; }
 
             /// <summary>
             /// Gets or sets the CellID.
@@ -69,12 +69,12 @@ namespace SteamKit2
             /// Gets or sets the Steam Guard auth code used to login. This is the code sent to the user's email.
             /// </summary>
             /// <value>The auth code.</value>
-            public string? AuthCode { get; set; }
+            public string AuthCode { get; set; }
             /// <summary>
             /// Gets or sets the 2-factor auth code used to login. This is the code that can be received from the authenticator apps.
             /// </summary>
             /// <value>The two factor auth code.</value>
-            public string? TwoFactorCode { get; set; }
+            public string TwoFactorCode { get; set; }
             /// <summary>
             /// Gets or sets the 'Should Remember Password' flag. This is used in combination with the <see cref="AccessToken"/> for password-less login.
             /// Set this to true when <see cref="Authentication.AuthSessionDetails.IsPersistentSession"/> is set to true.
@@ -85,7 +85,7 @@ namespace SteamKit2
             /// Gets or sets the access token used to login. This a token that has been provided after a successful login using <see cref="Authentication"/>.
             /// </summary>
             /// <value>The access token.</value>
-            public string? AccessToken { get; set; }
+            public string AccessToken { get; set; }
 
             /// <summary>
             /// Gets or sets the account instance. 1 for the PC instance or 2 for the Console (PS3) instance.
@@ -126,30 +126,23 @@ namespace SteamKit2
             /// Gets or sets the machine name.
             /// </summary>
             /// <value>The machine name.</value>
-            public string? MachineName { get; set; } = $"{Environment.MachineName} (SteamKit2)";
+            public string MachineName { get; set; } = $"{Environment.MachineName} (SteamKit2)";
             /// <summary>
             /// Gets or sets the chat mode.
             /// </summary>
             /// <value>The chat mode.</value>
             public ChatMode ChatMode { get; set; } = ChatMode.Default;
-
+            
             /// <summary>
             /// Gets or sets the ui mode.
             /// </summary>
             /// <value>The ui mode.</value>
             public EUIMode UIMode { get; set; } = EUIMode.Unknown;
-
-            /// <summary>
-            /// Gets or sets the gaming device type.
-            /// </summary>
-            /// <value>The gaming device type.</value>
-            public EGamingDeviceType GamingDeviceType { get; set; } = EGamingDeviceType.Unknown;
-
+            
             /// <summary>
             /// Gets or sets whether this is Steam Deck login.
             /// </summary>
             /// <value>The Steam Deck login value.</value>
-            [Obsolete( "Use GamingDeviceType instead" )]
             public bool IsSteamDeck { get; set; }
 
             /// <summary>
@@ -201,12 +194,12 @@ namespace SteamKit2
         /// Gets the SteamID of this client. This value is assigned after a logon attempt has succeeded.
         /// </summary>
         /// <value>The SteamID.</value>
-        public SteamID? SteamID
+        public SteamID SteamID
         {
             get { return this.Client.SteamID; }
         }
 
-        private static CallbackMsg? GetCallback( IPacketMsg packetMsg ) => packetMsg.MsgType switch
+        private static CallbackMsg GetCallback( IPacketMsg packetMsg ) => packetMsg.MsgType switch
         {
             EMsg.ClientLogOnResponse => new LoggedOnCallback( packetMsg ),
             EMsg.ClientLoggedOff => new LoggedOffCallback( packetMsg ),
@@ -291,23 +284,16 @@ namespace SteamKit2
             {
                 logon.Body.chat_mode = ( uint )details.ChatMode;
             }
-
+            
             if ( details.UIMode != EUIMode.Unknown )
             {
                 logon.Body.ui_mode = ( uint )details.UIMode;
             }
 
-            if ( details.GamingDeviceType != EGamingDeviceType.Unknown )
-            {
-                logon.Body.gaming_device_type = ( uint )details.GamingDeviceType;
-            }
-
-#pragma warning disable CS0618 // Type or member is obsolete
             if ( details.IsSteamDeck )
             {
-                logon.Body.is_steam_deck_deprecated = true;
+                logon.Body.is_steam_deck = true;
             }
-#pragma warning restore CS0618 // Type or member is obsolete
 
             // steam guard 
             logon.Body.auth_code = details.AuthCode;

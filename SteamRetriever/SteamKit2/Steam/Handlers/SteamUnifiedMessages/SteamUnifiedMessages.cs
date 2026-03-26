@@ -188,7 +188,7 @@ namespace SteamKit2
             /// <summary>
             /// A reference to the <see cref="SteamUnifiedMessages"/> instance this service was created from.
             /// </summary>
-            public SteamUnifiedMessages? UnifiedMessages { get; init; }
+            public SteamUnifiedMessages UnifiedMessages { get; init; }
         }
     }
 }

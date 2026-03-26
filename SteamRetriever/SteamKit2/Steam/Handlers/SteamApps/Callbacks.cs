@@ -1,4 +1,4 @@
-﻿/*
+/*
  * This file is subject to the terms and conditions defined in
  * file 'license.txt', which is part of this source code package.
  */
@@ -17,7 +17,7 @@ namespace SteamKit2
     {
 
         /// <summary>
-        /// This callback is fired during logon, informing the client of its available licenses.
+        /// This callback is fired during logon, informing the client of it's available licenses.
         /// </summary>
         public sealed class LicenseListCallback : CallbackMsg
         {
@@ -282,7 +282,7 @@ namespace SteamKit2
             /// <summary>
             /// Gets the game key.
             /// </summary>
-            public string? Key { get; private set; }
+            public string Key { get; private set; }
 
             internal LegacyGameKeyCallback( IPacketMsg packetMsg )
             {
@@ -328,7 +328,7 @@ namespace SteamKit2
         }
 
         /// <summary>
-        /// This callback is fired when the client receives its VAC banned status.
+        /// This callback is fired when the client receives it's VAC banned status.
         /// </summary>
         public sealed class VACStatusCallback : CallbackMsg
         {
@@ -522,7 +522,7 @@ namespace SteamKit2
                 /// <summary>
                 /// Gets the hash of the content
                 /// </summary>
-                public byte[]? SHAHash { get; private set; }
+                public byte[] SHAHash { get; private set; }
                 /// <summary>
                 /// Gets the KeyValue info
                 /// </summary>
@@ -538,7 +538,7 @@ namespace SteamKit2
                 /// <summary>
                 /// For an app metadata-only request, returns the Uri for HTTP appinfo requests.
                 /// </summary>
-                public Uri? HttpUri
+                public Uri HttpUri
                 {
                     get
                     {
@@ -553,7 +553,7 @@ namespace SteamKit2
                         return new Uri( uriString );
                     }
                 }
-                private string? HttpHost;
+                private string HttpHost;
                 private bool HasValidHttpUri => this.SHAHash != null && this.SHAHash.Length > 0 && !string.IsNullOrEmpty( HttpHost );
 
                 internal PICSProductInfo( CMsgClientPICSProductInfoResponse parentResponse, CMsgClientPICSProductInfoResponse.AppInfo app_info )

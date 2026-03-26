@@ -83,7 +83,7 @@ namespace SteamKit2
         /// <param name="branch">The branch name this manifest belongs to.</param>
         /// <param name="branchPasswordHash">The branch password. TODO: how is it hashed?</param>
         /// <returns>Returns the manifest request code, it may be zero if it was not granted.</returns>
-        public async Task<ulong> GetManifestRequestCode( uint depotId, uint appId, ulong manifestId, string? branch = null, string? branchPasswordHash = null )
+        public async Task<ulong> GetManifestRequestCode( uint depotId, uint appId, ulong manifestId, string branch = null, string branchPasswordHash = null )
         {
             if ( string.Equals( branch, "public", StringComparison.OrdinalIgnoreCase ) )
             {

@@ -162,58 +162,6 @@ namespace SteamKit2.Internal
     }
 
     [global::ProtoBuf.ProtoContract()]
-    public partial class CAccountHardware_UpdateControllerUsageReport_Request : global::ProtoBuf.IExtensible
-    {
-        private global::ProtoBuf.IExtension __pbn__extensionData;
-        global::ProtoBuf.IExtension global::ProtoBuf.IExtensible.GetExtensionObject(bool createIfMissing)
-            => global::ProtoBuf.Extensible.GetExtensionObject(ref __pbn__extensionData, createIfMissing);
-
-        [global::ProtoBuf.ProtoMember(1)]
-        public global::System.Collections.Generic.List<Controller> controllers { get; } = new global::System.Collections.Generic.List<Controller>();
-
-        [global::ProtoBuf.ProtoContract()]
-        public partial class Controller : global::ProtoBuf.IExtensible
-        {
-            private global::ProtoBuf.IExtension __pbn__extensionData;
-            global::ProtoBuf.IExtension global::ProtoBuf.IExtensible.GetExtensionObject(bool createIfMissing)
-                => global::ProtoBuf.Extensible.GetExtensionObject(ref __pbn__extensionData, createIfMissing);
-
-            [global::ProtoBuf.ProtoMember(1)]
-            [global::System.ComponentModel.DefaultValue("")]
-            public string serial_number
-            {
-                get => __pbn__serial_number ?? "";
-                set => __pbn__serial_number = value;
-            }
-            public bool ShouldSerializeserial_number() => __pbn__serial_number != null;
-            public void Resetserial_number() => __pbn__serial_number = null;
-            private string __pbn__serial_number;
-
-            [global::ProtoBuf.ProtoMember(2)]
-            [global::System.ComponentModel.DefaultValue("")]
-            public string controller_code
-            {
-                get => __pbn__controller_code ?? "";
-                set => __pbn__controller_code = value;
-            }
-            public bool ShouldSerializecontroller_code() => __pbn__controller_code != null;
-            public void Resetcontroller_code() => __pbn__controller_code = null;
-            private string __pbn__controller_code;
-
-        }
-
-    }
-
-    [global::ProtoBuf.ProtoContract()]
-    public partial class CAccountHardware_UpdateControllerUsageReport_Response : global::ProtoBuf.IExtensible
-    {
-        private global::ProtoBuf.IExtension __pbn__extensionData;
-        global::ProtoBuf.IExtension global::ProtoBuf.IExtensible.GetExtensionObject(bool createIfMissing)
-            => global::ProtoBuf.Extensible.GetExtensionObject(ref __pbn__extensionData, createIfMissing);
-
-    }
-
-    [global::ProtoBuf.ProtoContract()]
     public partial class CAccountHardware_SteamControllerSetConfig_ControllerConfig : global::ProtoBuf.IExtensible
     {
         private global::ProtoBuf.IExtension __pbn__extensionData;
@@ -898,10 +846,9 @@ namespace SteamKit2.Internal
         k_EValveIndexComponentHMD = 1,
         k_EValveIndexComponentLeftKnuckle = 2,
         k_EValveIndexComponentRightKnuckle = 3,
-        k_EValveIndexComponentSteamFrameHMD = 4,
-        k_EValveIndexComponentSteamFrameLeftController = 5,
-        k_EValveIndexComponentSteamFrameRightController = 6,
-        k_EValveIndexComponentSteamFrameWirelessAdapter = 7,
+        k_ETempDTst1 = 4,
+        k_ETempDTst2 = 5,
+        k_ETempDTst3 = 6,
     }
 
     public class AccountHardware : SteamUnifiedMessages.UnifiedService
@@ -921,11 +868,6 @@ namespace SteamKit2.Internal
         public AsyncJob<SteamUnifiedMessages.ServiceMethodResponse<CAccountHardware_QueryAccountsRegisteredToSerial_Response>> QueryAccountsRegisteredToController( CAccountHardware_QueryAccountsRegisteredToSerial_Request request )
         {
             return UnifiedMessages.SendMessage<CAccountHardware_QueryAccountsRegisteredToSerial_Request, CAccountHardware_QueryAccountsRegisteredToSerial_Response>( "AccountHardware.QueryAccountsRegisteredToController#1", request );
-        }
-
-        public AsyncJob<SteamUnifiedMessages.ServiceMethodResponse<CAccountHardware_UpdateControllerUsageReport_Response>> UpdateControllerUsageReport( CAccountHardware_UpdateControllerUsageReport_Request request )
-        {
-            return UnifiedMessages.SendMessage<CAccountHardware_UpdateControllerUsageReport_Request, CAccountHardware_UpdateControllerUsageReport_Response>( "AccountHardware.UpdateControllerUsageReport#1", request );
         }
 
         public AsyncJob<SteamUnifiedMessages.ServiceMethodResponse<CAccountHardware_SteamControllerSetConfig_Response>> SetDesiredControllerConfigForApp( CAccountHardware_SteamControllerSetConfig_Request request )
@@ -980,9 +922,6 @@ namespace SteamKit2.Internal
                     break;
                 case "QueryAccountsRegisteredToController":
                     PostResponseMsg<CAccountHardware_QueryAccountsRegisteredToSerial_Response>( packetMsg );
-                    break;
-                case "UpdateControllerUsageReport":
-                    PostResponseMsg<CAccountHardware_UpdateControllerUsageReport_Response>( packetMsg );
                     break;
                 case "SetDesiredControllerConfigForApp":
                     PostResponseMsg<CAccountHardware_SteamControllerSetConfig_Response>( packetMsg );

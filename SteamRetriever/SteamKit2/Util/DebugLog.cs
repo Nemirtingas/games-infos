@@ -141,7 +141,7 @@ namespace SteamKit2
         /// <param name="category">The category of the message.</param>
         /// <param name="msg">A composite format string.</param>
         /// <param name="args">An System.Object array containing zero or more objects to format.</param>
-        public static void WriteLine( string category, string msg, params object?[]? args )
+        public static void WriteLine( string category, string msg, params object[] args )
         {
             if ( !DebugLog.Enabled )
             {
@@ -176,7 +176,7 @@ namespace SteamKit2
         public static void Assert( [DoesNotReturnIf(false)] bool condition, string category, string message )
         {
             // make use of .NET's assert facility first
-            Debug.Assert( condition, string.Format( "{0}: {1}", category, message ) );
+            //Debug.Assert( condition, string.Format( "{0}: {1}", category, message ) );
 
             // then spew to our debuglog, so we can get info in release builds
             if ( !condition )

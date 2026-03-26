@@ -106,7 +106,7 @@ namespace SteamKit2
     [SupportedOSPlatform( "windows5.1.2600" )]
     sealed class WindowsMachineInfoProvider : IMachineInfoProvider
     {
-        public byte[]? GetMachineGuid()
+        public byte[] GetMachineGuid()
         {
             using var baseKey = RegistryKey.OpenBaseKey( Microsoft.Win32.RegistryHive.LocalMachine, RegistryView.Registry64 );
             using var localKey = baseKey.OpenSubKey( @"SOFTWARE\Microsoft\Cryptography" );
@@ -140,7 +140,7 @@ namespace SteamKit2
                     //Accessing the registry key corresponding to each adapter
                     string fRegistryKey =
                         $@"SYSTEM\CurrentControlSet\Control\Network\{{4D36E972-E325-11CE-BFC1-08002BE10318}}\{adapter.Id}\Connection";
-                    using RegistryKey? rk = Registry.LocalMachine.OpenSubKey( fRegistryKey, false );
+                    using RegistryKey rk = Registry.LocalMachine.OpenSubKey( fRegistryKey, false );
                     if ( rk == null ) return false;
 
                     var instanceID = rk.GetValue( "PnpInstanceID", "" )?.ToString();
@@ -149,7 +149,7 @@ namespace SteamKit2
                 .Select( networkInterface => networkInterface.GetPhysicalAddress().GetAddressBytes() ) );
         }
 
-        public byte[]? GetDiskId()
+        public byte[] GetDiskId()
         {
             var serialNumber = Win32Helpers.GetBootDiskSerialNumber();
 
@@ -165,7 +165,7 @@ namespace SteamKit2
     [SupportedOSPlatform( "linux" )]
     sealed class LinuxMachineInfoProvider : IMachineInfoProvider
     {
-        public byte[]? GetMachineGuid()
+        public byte[] GetMachineGuid()
         {
             string[] machineFiles =
             [
@@ -190,12 +190,12 @@ namespace SteamKit2
             return null;
         }
 
-        public byte[]? GetMacAddress()
+        public byte[] GetMacAddress()
         {
             return DefaultMachineInfoProvider.GetCombinedMacAddress( GetMacAddresses() );
         }
 
-        public byte[]? GetDiskId()
+        public byte[] GetDiskId()
         {
             string[] bootParams = GetBootOptions();
 
@@ -262,7 +262,7 @@ namespace SteamKit2
             }
         }
 
-        static string? GetParamValue( string[] bootOptions, string param )
+        static string GetParamValue( string[] bootOptions, string param )
         {
             var paramString = bootOptions
                 .FirstOrDefault( p => p.StartsWith( param, StringComparison.OrdinalIgnoreCase ) );
@@ -325,7 +325,7 @@ namespace SteamKit2
     [SupportedOSPlatform( "macos" )]
     sealed class MacOSMachineInfoProvider : IMachineInfoProvider
     {
-        public byte[]? GetMachineGuid()
+        public byte[] GetMachineGuid()
         {
             uint platformExpert = IOServiceGetMatchingService( kIOMasterPortDefault, IOServiceMatching( "IOPlatformExpertDevice" ) );
             if ( platformExpert != 0 )
@@ -349,9 +349,9 @@ namespace SteamKit2
             return null;
         }
 
-        public byte[]? GetMacAddress() => null;
+        public byte[] GetMacAddress() => null;
 
-        public byte[]? GetDiskId()
+        public byte[] GetDiskId()
         {
             var stat = new StatFS();
             var statted = statfs64( "/", ref stat );
@@ -421,7 +421,7 @@ namespace SteamKit2
             }
         }
 
-        public static byte[]? GetMachineID(IMachineInfoProvider machineInfoProvider)
+        public static byte[] GetMachineID(IMachineInfoProvider machineInfoProvider)
         {
             if (!generationTable.TryGetValue(machineInfoProvider, out var generateTask))
             {
@@ -449,13 +449,13 @@ namespace SteamKit2
 
             MachineID machineId = generateTask.Result;
 
-            using MemoryStream ms = new MemoryStream();
+            using var ms = new MemoryStream();
             machineId.WriteToStream( ms );
             return ms.ToArray();
         }
 
 
-        static MachineID GenerateMachineID(object? state)
+        static MachineID GenerateMachineID(object state)
         {
             // the aug 25th 2015 CM update made well-formed machine MessageObjects required for logon
             // this was flipped off shortly after the update rolled out, likely due to linux steamclients running on distros without a way to build a machineid

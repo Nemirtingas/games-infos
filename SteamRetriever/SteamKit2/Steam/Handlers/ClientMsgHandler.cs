@@ -18,7 +18,7 @@ namespace SteamKit2
         /// Gets the underlying <see cref="SteamClient"/> for use in sending replies.
         /// </summary>
         [NotNull]
-        protected SteamClient? Client { get; private set; }
+        protected SteamClient Client { get; private set; }
 
         /// <summary>
         /// Gets or sets whether or not the related <see cref="SteamClient" /> should imminently expect the server to close the connection.

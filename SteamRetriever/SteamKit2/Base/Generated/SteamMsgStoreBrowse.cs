@@ -504,9 +504,6 @@ namespace SteamKit2.Internal
         [global::ProtoBuf.ProtoMember(43)]
         public PurchaseOption self_purchase_option { get; set; }
 
-        [global::ProtoBuf.ProtoMember(44)]
-        public global::System.Collections.Generic.List<PurchaseOption> invalid_purchase_options { get; } = new global::System.Collections.Generic.List<PurchaseOption>();
-
         [global::ProtoBuf.ProtoMember(50)]
         public Screenshots screenshots { get; set; }
 
@@ -661,9 +658,6 @@ namespace SteamKit2.Internal
 
             [global::ProtoBuf.ProtoMember(2)]
             public StoreReviewSummary summary_unfiltered { get; set; }
-
-            [global::ProtoBuf.ProtoMember(3)]
-            public StoreReviewSummary summary_language_specific { get; set; }
 
             [global::ProtoBuf.ProtoContract()]
             public partial class StoreReviewSummary : global::ProtoBuf.IExtensible
@@ -1184,17 +1178,6 @@ namespace SteamKit2.Internal
             public void Resetsteam_deck_compat_category() => __pbn__steam_deck_compat_category = null;
             private ESteamDeckCompatibilityCategory? __pbn__steam_deck_compat_category;
 
-            [global::ProtoBuf.ProtoMember(12)]
-            [global::System.ComponentModel.DefaultValue(ESteamOSCompatibilityCategory.k_ESteamOSCompatibilityCategory_Unknown)]
-            public ESteamOSCompatibilityCategory steam_os_compat_category
-            {
-                get => __pbn__steam_os_compat_category ?? ESteamOSCompatibilityCategory.k_ESteamOSCompatibilityCategory_Unknown;
-                set => __pbn__steam_os_compat_category = value;
-            }
-            public bool ShouldSerializesteam_os_compat_category() => __pbn__steam_os_compat_category != null;
-            public void Resetsteam_os_compat_category() => __pbn__steam_os_compat_category = null;
-            private ESteamOSCompatibilityCategory? __pbn__steam_os_compat_category;
-
             [global::ProtoBuf.ProtoContract()]
             public partial class VRSupport : global::ProtoBuf.IExtensible
             {
@@ -1485,17 +1468,6 @@ namespace SteamKit2.Internal
             public void Resetfree_to_keep_ends() => __pbn__free_to_keep_ends = null;
             private uint? __pbn__free_to_keep_ends;
 
-            [global::ProtoBuf.ProtoMember(48)]
-            [global::System.ComponentModel.DefaultValue(false)]
-            public bool must_purchase_as_set
-            {
-                get => __pbn__must_purchase_as_set ?? false;
-                set => __pbn__must_purchase_as_set = value;
-            }
-            public bool ShouldSerializemust_purchase_as_set() => __pbn__must_purchase_as_set != null;
-            public void Resetmust_purchase_as_set() => __pbn__must_purchase_as_set = null;
-            private bool? __pbn__must_purchase_as_set;
-
             [global::ProtoBuf.ProtoContract()]
             public partial class Discount : global::ProtoBuf.IExtensible
             {
@@ -1698,37 +1670,6 @@ namespace SteamKit2.Internal
             }
 
             [global::ProtoBuf.ProtoContract()]
-            public partial class AdaptiveTrailer : global::ProtoBuf.IExtensible
-            {
-                private global::ProtoBuf.IExtension __pbn__extensionData;
-                global::ProtoBuf.IExtension global::ProtoBuf.IExtensible.GetExtensionObject(bool createIfMissing)
-                    => global::ProtoBuf.Extensible.GetExtensionObject(ref __pbn__extensionData, createIfMissing);
-
-                [global::ProtoBuf.ProtoMember(1)]
-                [global::System.ComponentModel.DefaultValue("")]
-                public string cdn_path
-                {
-                    get => __pbn__cdn_path ?? "";
-                    set => __pbn__cdn_path = value;
-                }
-                public bool ShouldSerializecdn_path() => __pbn__cdn_path != null;
-                public void Resetcdn_path() => __pbn__cdn_path = null;
-                private string __pbn__cdn_path;
-
-                [global::ProtoBuf.ProtoMember(2)]
-                [global::System.ComponentModel.DefaultValue("")]
-                public string encoding
-                {
-                    get => __pbn__encoding ?? "";
-                    set => __pbn__encoding = value;
-                }
-                public bool ShouldSerializeencoding() => __pbn__encoding != null;
-                public void Resetencoding() => __pbn__encoding = null;
-                private string __pbn__encoding;
-
-            }
-
-            [global::ProtoBuf.ProtoContract()]
             public partial class Trailer : global::ProtoBuf.IExtensible
             {
                 private global::ProtoBuf.IExtension __pbn__extensionData;
@@ -1776,9 +1717,6 @@ namespace SteamKit2.Internal
 
                 [global::ProtoBuf.ProtoMember(5)]
                 public global::System.Collections.Generic.List<StoreItem.Trailers.VideoSource> microtrailer { get; } = new global::System.Collections.Generic.List<StoreItem.Trailers.VideoSource>();
-
-                [global::ProtoBuf.ProtoMember(6)]
-                public global::System.Collections.Generic.List<StoreItem.Trailers.AdaptiveTrailer> adaptive_trailers { get; } = new global::System.Collections.Generic.List<StoreItem.Trailers.AdaptiveTrailer>();
 
                 [global::ProtoBuf.ProtoMember(10)]
                 [global::System.ComponentModel.DefaultValue("")]
@@ -2333,9 +2271,6 @@ namespace SteamKit2.Internal
         [global::ProtoBuf.ProtoMember(1)]
         public StoreBrowseContext context { get; set; }
 
-        [global::ProtoBuf.ProtoMember(2)]
-        public global::System.Collections.Generic.List<EContentDescriptorID> excluded_content_descriptorids { get; } = new global::System.Collections.Generic.List<EContentDescriptorID>();
-
     }
 
     [global::ProtoBuf.ProtoContract()]
@@ -2408,18 +2343,6 @@ namespace SteamKit2.Internal
             public bool ShouldSerializeurl_path() => __pbn__url_path != null;
             public void Reseturl_path() => __pbn__url_path = null;
             private string __pbn__url_path;
-
-            [global::ProtoBuf.ProtoMember(6)]
-            public global::System.Collections.Generic.List<uint> replaces_tags { get; } = new global::System.Collections.Generic.List<uint>();
-
-            [global::ProtoBuf.ProtoMember(7)]
-            public global::System.Collections.Generic.List<uint> must_have_tags { get; } = new global::System.Collections.Generic.List<uint>();
-
-            [global::ProtoBuf.ProtoMember(8)]
-            public global::System.Collections.Generic.List<uint> any_one_of_tags { get; } = new global::System.Collections.Generic.List<uint>();
-
-            [global::ProtoBuf.ProtoMember(9)]
-            public global::System.Collections.Generic.List<uint> must_not_have_tags { get; } = new global::System.Collections.Generic.List<uint>();
 
         }
 
@@ -3038,8 +2961,7 @@ namespace SteamKit2.Internal
         k_EStoreLinkType_Mastodon = 21,
         k_EStoreLinkType_Threads = 22,
         k_EStoreLinkType_QQChannel = 23,
-        k_EStoreLinkType_RedNote = 24,
-        k_EStoreLinkType_MAX = 25,
+        k_EStoreLinkType_MAX = 24,
     }
 
     [global::ProtoBuf.ProtoContract()]

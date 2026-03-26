@@ -1,4 +1,4 @@
-﻿/*
+/*
  * This file is subject to the terms and conditions defined in
  * file 'license.txt', which is part of this source code package.
  */
@@ -18,7 +18,7 @@ namespace SteamKit2
         public UdpHeader Header { get; private set; }
 
         [DisallowNull, NotNull]
-        public MemoryStream? Payload { get; private set; }
+        public MemoryStream Payload { get; private set; }
 
         /// <summary>
         /// Gets a value indicating whether this instance is valid.
@@ -42,7 +42,7 @@ namespace SteamKit2
         /// 
         /// Header is populated from the MemoryStream
         /// </summary>
-        /// <param name="ms">The stream containing the packet and its payload data.</param>
+        /// <param name="ms">The stream containing the packet and it's payload data.</param>
         public UdpPacket(MemoryStream ms)
         {
             Header = new UdpHeader();

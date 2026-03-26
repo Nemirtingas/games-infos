@@ -18,7 +18,7 @@ namespace SteamKit2.Authentication
                 Console.Error.WriteLine( "The previous 2-factor auth code you have provided is incorrect." );
             }
 
-            string? code;
+            string code;
 
             do
             {
@@ -43,7 +43,7 @@ namespace SteamKit2.Authentication
                 Console.Error.WriteLine( "The previous 2-factor auth code you have provided is incorrect." );
             }
 
-            string? code;
+            string code;
 
             do
             {

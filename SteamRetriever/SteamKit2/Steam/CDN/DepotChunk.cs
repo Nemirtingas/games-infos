@@ -23,7 +23,7 @@ namespace SteamKit2.CDN
         /// <param name="data">The encrypted chunk data.</param>
         /// <param name="destination">The buffer to receive the decrypted chunk data.</param>
         /// <param name="depotKey">The depot decryption key.</param>
-        /// <exception cref="InvalidDataException">Thrown if the processed data does not match the expected checksum given in its chunk information.</exception>
+        /// <exception cref="InvalidDataException">Thrown if the processed data does not match the expected checksum given in it's chunk information.</exception>
         public static int Process( DepotManifest.ChunkData info, ReadOnlySpan<byte> data, byte[] destination, byte[] depotKey )
         {
             ArgumentNullException.ThrowIfNull( info );
@@ -88,7 +88,7 @@ namespace SteamKit2.CDN
                 throw new InvalidDataException( $"Processed data checksum failed to decompressed to the expected chunk uncompressed length. (was {writtenDecompressed}, should be {info.UncompressedLength})" );
             }
 
-            var dataCrc = AdlerHash( destination.AsSpan( 0, writtenDecompressed ) );
+            var dataCrc = Utils.AdlerHash( destination.AsSpan()[ ..writtenDecompressed ] );
 
             if ( dataCrc != info.Checksum )
             {
@@ -97,11 +97,5 @@ namespace SteamKit2.CDN
 
             return writtenDecompressed;
         }
-
-        /// <summary>
-        /// Calculates the Adler32 checksum with the bytes taken from the span using zero as the initial seed.
-        /// </summary>
-        public static uint AdlerHash( ReadOnlySpan<byte> input )
-            => Adler32.Calculate( 0, input );
     }
 }

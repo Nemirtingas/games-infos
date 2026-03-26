@@ -472,9 +472,6 @@ namespace SteamKit2.Internal
         [global::ProtoBuf.ProtoMember(3)]
         public global::System.Collections.Generic.List<Error> errors { get; } = new global::System.Collections.Generic.List<Error>();
 
-        [global::ProtoBuf.ProtoMember(4)]
-        public global::System.Collections.Generic.List<string> tags { get; } = new global::System.Collections.Generic.List<string>();
-
         [global::ProtoBuf.ProtoContract()]
         public partial class Error : global::ProtoBuf.IExtensible
         {
@@ -1164,15 +1161,14 @@ namespace SteamKit2.Internal
         private bool? __pbn__library_low_perf_mode_enabled;
 
         [global::ProtoBuf.ProtoMember(10)]
-        [global::System.ComponentModel.DefaultValue(EGRMode.k_EGRMode_Never)]
-        public EGRMode gr_mode
+        public int gr_mode
         {
-            get => __pbn__gr_mode ?? EGRMode.k_EGRMode_Never;
+            get => __pbn__gr_mode.GetValueOrDefault();
             set => __pbn__gr_mode = value;
         }
         public bool ShouldSerializegr_mode() => __pbn__gr_mode != null;
         public void Resetgr_mode() => __pbn__gr_mode = null;
-        private EGRMode? __pbn__gr_mode;
+        private int? __pbn__gr_mode;
 
     }
 
@@ -1243,66 +1239,6 @@ namespace SteamKit2.Internal
         public bool ShouldSerializeprocess_name() => __pbn__process_name != null;
         public void Resetprocess_name() => __pbn__process_name = null;
         private string __pbn__process_name;
-
-    }
-
-    [global::ProtoBuf.ProtoContract()]
-    public partial class CClientMetrics_ReportAccessibilitySettings_Notification : global::ProtoBuf.IExtensible
-    {
-        private global::ProtoBuf.IExtension __pbn__extensionData;
-        global::ProtoBuf.IExtension global::ProtoBuf.IExtensible.GetExtensionObject(bool createIfMissing)
-            => global::ProtoBuf.Extensible.GetExtensionObject(ref __pbn__extensionData, createIfMissing);
-
-        [global::ProtoBuf.ProtoMember(1)]
-        public float accessibility_desktop_ui_scale
-        {
-            get => __pbn__accessibility_desktop_ui_scale.GetValueOrDefault();
-            set => __pbn__accessibility_desktop_ui_scale = value;
-        }
-        public bool ShouldSerializeaccessibility_desktop_ui_scale() => __pbn__accessibility_desktop_ui_scale != null;
-        public void Resetaccessibility_desktop_ui_scale() => __pbn__accessibility_desktop_ui_scale = null;
-        private float? __pbn__accessibility_desktop_ui_scale;
-
-        [global::ProtoBuf.ProtoMember(2)]
-        public bool accessibility_screen_reader_enabled
-        {
-            get => __pbn__accessibility_screen_reader_enabled.GetValueOrDefault();
-            set => __pbn__accessibility_screen_reader_enabled = value;
-        }
-        public bool ShouldSerializeaccessibility_screen_reader_enabled() => __pbn__accessibility_screen_reader_enabled != null;
-        public void Resetaccessibility_screen_reader_enabled() => __pbn__accessibility_screen_reader_enabled = null;
-        private bool? __pbn__accessibility_screen_reader_enabled;
-
-        [global::ProtoBuf.ProtoMember(3)]
-        public bool accessibility_high_contrast_mode
-        {
-            get => __pbn__accessibility_high_contrast_mode.GetValueOrDefault();
-            set => __pbn__accessibility_high_contrast_mode = value;
-        }
-        public bool ShouldSerializeaccessibility_high_contrast_mode() => __pbn__accessibility_high_contrast_mode != null;
-        public void Resetaccessibility_high_contrast_mode() => __pbn__accessibility_high_contrast_mode = null;
-        private bool? __pbn__accessibility_high_contrast_mode;
-
-        [global::ProtoBuf.ProtoMember(4)]
-        public bool accessibility_reduce_motion
-        {
-            get => __pbn__accessibility_reduce_motion.GetValueOrDefault();
-            set => __pbn__accessibility_reduce_motion = value;
-        }
-        public bool ShouldSerializeaccessibility_reduce_motion() => __pbn__accessibility_reduce_motion != null;
-        public void Resetaccessibility_reduce_motion() => __pbn__accessibility_reduce_motion = null;
-        private bool? __pbn__accessibility_reduce_motion;
-
-        [global::ProtoBuf.ProtoMember(5)]
-        [global::System.ComponentModel.DefaultValue("")]
-        public string accessibility_color_filter_name
-        {
-            get => __pbn__accessibility_color_filter_name ?? "";
-            set => __pbn__accessibility_color_filter_name = value;
-        }
-        public bool ShouldSerializeaccessibility_color_filter_name() => __pbn__accessibility_color_filter_name != null;
-        public void Resetaccessibility_color_filter_name() => __pbn__accessibility_color_filter_name = null;
-        private string __pbn__accessibility_color_filter_name;
 
     }
 
@@ -1741,11 +1677,6 @@ namespace SteamKit2.Internal
             UnifiedMessages.SendNotification<CClientMetrics_ReportLinuxStats_Notification>( "ClientMetrics.ReportLinuxStats#1", request );
         }
 
-        public void ReportAccessibilitySettings(CClientMetrics_ReportAccessibilitySettings_Notification request )
-        {
-            UnifiedMessages.SendNotification<CClientMetrics_ReportAccessibilitySettings_Notification>( "ClientMetrics.ReportAccessibilitySettings#1", request );
-        }
-
         public void ReportClipShare(CClientMetrics_ClipShare_Notification request )
         {
             UnifiedMessages.SendNotification<CClientMetrics_ClipShare_Notification>( "ClientMetrics.ReportClipShare#1", request );
@@ -1809,9 +1740,6 @@ namespace SteamKit2.Internal
                     break;
                 case "ReportLinuxStats":
                     PostNotificationMsg<CClientMetrics_ReportLinuxStats_Notification>( packetMsg );
-                    break;
-                case "ReportAccessibilitySettings":
-                    PostNotificationMsg<CClientMetrics_ReportAccessibilitySettings_Notification>( packetMsg );
                     break;
                 case "ReportClipShare":
                     PostNotificationMsg<CClientMetrics_ClipShare_Notification>( packetMsg );

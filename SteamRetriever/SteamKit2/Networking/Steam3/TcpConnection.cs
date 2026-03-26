@@ -16,13 +16,13 @@ namespace SteamKit2
         const uint MAGIC = 0x31305456; // "VT01"
 
         private ILogContext log;
-        private Socket? socket;
-        private Thread? netThread;
-        private NetworkStream? netStream;
-        private BinaryReader? netReader;
-        private BinaryWriter? netWriter;
+        private Socket socket;
+        private Thread netThread;
+        private NetworkStream netStream;
+        private BinaryReader netReader;
+        private BinaryWriter netWriter;
 
-        private CancellationTokenSource? cancellationToken;
+        private CancellationTokenSource cancellationToken;
         private object netLock;
 
         public TcpConnection(ILogContext log)
@@ -31,13 +31,13 @@ namespace SteamKit2
             netLock = new object();
         }
 
-        public event EventHandler<NetMsgEventArgs>? NetMsgReceived;
+        public event EventHandler<NetMsgEventArgs> NetMsgReceived;
 
-        public event EventHandler? Connected;
+        public event EventHandler Connected;
 
-        public event EventHandler<DisconnectedEventArgs>? Disconnected;
+        public event EventHandler<DisconnectedEventArgs> Disconnected;
 
-        public EndPoint? CurrentEndPoint { get; private set; }
+        public EndPoint CurrentEndPoint { get; private set; }
 
         public ProtocolTypes ProtocolTypes => ProtocolTypes.Tcp;
 
@@ -265,7 +265,7 @@ namespace SteamKit2
                 }
                 catch (Exception ex)
                 {
-                    log.LogDebug( nameof( TcpConnection ), "Unexpected exception propagated back to NetLoop: {0}", ex );
+                    log.LogDebug( nameof( TcpConnection ), "Unexpected exception propogated back to NetLoop: {0}", ex );
                 }
             }
 

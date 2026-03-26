@@ -564,7 +564,6 @@ namespace SteamKit2.GC.Dota.Internal
             k_eNotEnoughTokens = 7,
             k_ePathIsLocked = 8,
             k_ePathAlreadyUnlocked = 9,
-            k_eEventExpired = 10,
         }
 
     }
@@ -723,7 +722,6 @@ namespace SteamKit2.GC.Dota.Internal
             k_eNotEnoughTokensForReward = 13,
             k_eNotEnoughResourceForReward = 14,
             k_eInvalidRewardData = 15,
-            k_eEventExpired = 16,
         }
 
     }

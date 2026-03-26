@@ -16,7 +16,7 @@ namespace SteamKit2
     /// </summary>
     public sealed partial class SteamUserStats : ClientMsgHandler
     {
-        private static CallbackMsg? GetCallback( IPacketMsg packetMsg ) => packetMsg.MsgType switch
+        private static CallbackMsg GetCallback( IPacketMsg packetMsg ) => packetMsg.MsgType switch
         {
             EMsg.ClientGetNumberOfCurrentPlayersDPResponse => new NumberOfPlayersCallback( packetMsg ),
             EMsg.ClientLBSFindOrCreateLBResponse => new FindOrCreateLeaderboardCallback( packetMsg ),

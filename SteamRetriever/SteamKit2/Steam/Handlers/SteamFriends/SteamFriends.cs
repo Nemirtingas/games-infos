@@ -24,7 +24,7 @@ namespace SteamKit2
 
         AccountCache cache;
 
-        private static CallbackMsg? GetCallback( IPacketMsg packetMsg ) => packetMsg.MsgType switch
+        private static CallbackMsg GetCallback( IPacketMsg packetMsg ) => packetMsg.MsgType switch
         {
             EMsg.ClientClanState => new ClanStateCallback( packetMsg ),
             EMsg.ClientFriendMsgIncoming => new FriendMsgCallback( packetMsg ),
@@ -55,7 +55,7 @@ namespace SteamKit2
         /// User initialization is performed prior to <see cref="SteamUser.AccountInfoCallback"/> callback.
         /// </summary>
         /// <returns>The name.</returns>
-        public string? GetPersonaName()
+        public string GetPersonaName()
         {
             return cache.LocalUser.Name;
         }
@@ -131,7 +131,7 @@ namespace SteamKit2
         /// </summary>
         /// <param name="steamId">The steam id.</param>
         /// <returns>The name.</returns>
-        public string? GetFriendPersonaName( SteamID steamId )
+        public string GetFriendPersonaName( SteamID steamId )
         {
             ArgumentNullException.ThrowIfNull( steamId );
 
@@ -164,7 +164,7 @@ namespace SteamKit2
         /// </summary>
         /// <param name="steamId">The steam id.</param>
         /// <returns>The game name of a friend playing a game, or null if they haven't been cached yet.</returns>
-        public string? GetFriendGamePlayedName( SteamID steamId )
+        public string GetFriendGamePlayedName( SteamID steamId )
         {
             ArgumentNullException.ThrowIfNull( steamId );
 
@@ -186,7 +186,7 @@ namespace SteamKit2
         /// </summary>
         /// <param name="steamId">The SteamID of the friend to get the avatar of.</param>
         /// <returns>A byte array representing a SHA-1 hash of the friend's avatar.</returns>
-        public byte[]? GetFriendAvatar( SteamID steamId )
+        public byte[] GetFriendAvatar( SteamID steamId )
         {
             ArgumentNullException.ThrowIfNull( steamId );
 
@@ -225,7 +225,7 @@ namespace SteamKit2
         /// </summary>
         /// <param name="steamId">The clan SteamID.</param>
         /// <returns>The name.</returns>
-        public string? GetClanName( SteamID steamId )
+        public string GetClanName( SteamID steamId )
         {
             ArgumentNullException.ThrowIfNull( steamId );
 
@@ -247,7 +247,7 @@ namespace SteamKit2
         /// </summary>
         /// <param name="steamId">The SteamID of the clan to get the avatar of.</param>
         /// <returns>A byte array representing a SHA-1 hash of the clan's avatar, or null if the clan could not be found.</returns>
-        public byte[]? GetClanAvatar( SteamID steamId )
+        public byte[] GetClanAvatar( SteamID steamId )
         {
             ArgumentNullException.ThrowIfNull( steamId );
 

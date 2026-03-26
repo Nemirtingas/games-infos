@@ -1212,17 +1212,6 @@ namespace SteamKit2.Internal
         global::ProtoBuf.IExtension global::ProtoBuf.IExtensible.GetExtensionObject(bool createIfMissing)
             => global::ProtoBuf.Extensible.GetExtensionObject(ref __pbn__extensionData, createIfMissing);
 
-        [global::ProtoBuf.ProtoMember(1)]
-        [global::System.ComponentModel.DefaultValue(false)]
-        public bool include_revoked
-        {
-            get => __pbn__include_revoked ?? false;
-            set => __pbn__include_revoked = value;
-        }
-        public bool ShouldSerializeinclude_revoked() => __pbn__include_revoked != null;
-        public void Resetinclude_revoked() => __pbn__include_revoked = null;
-        private bool? __pbn__include_revoked;
-
     }
 
     [global::ProtoBuf.ProtoContract()]
@@ -1426,17 +1415,6 @@ namespace SteamKit2.Internal
             public bool ShouldSerializeauthentication_type() => __pbn__authentication_type != null;
             public void Resetauthentication_type() => __pbn__authentication_type = null;
             private EAuthenticationType? __pbn__authentication_type;
-
-            [global::ProtoBuf.ProtoMember(13)]
-            [global::System.ComponentModel.DefaultValue(EAuthTokenState.k_EAuthTokenState_Invalid)]
-            public EAuthTokenState effective_token_state
-            {
-                get => __pbn__effective_token_state ?? EAuthTokenState.k_EAuthTokenState_Invalid;
-                set => __pbn__effective_token_state = value;
-            }
-            public bool ShouldSerializeeffective_token_state() => __pbn__effective_token_state != null;
-            public void Reseteffective_token_state() => __pbn__effective_token_state = null;
-            private EAuthTokenState? __pbn__effective_token_state;
 
         }
 
@@ -2218,19 +2196,6 @@ namespace SteamKit2.Internal
     }
 
     [global::ProtoBuf.ProtoContract()]
-    public enum EAuthTokenState
-    {
-        k_EAuthTokenState_Invalid = 0,
-        k_EAuthTokenState_New = 1,
-        k_EAuthTokenState_Confirmed = 2,
-        k_EAuthTokenState_Issued = 3,
-        k_EAuthTokenState_Denied = 4,
-        k_EAuthTokenState_LoggedOut = 5,
-        k_EAuthTokenState_Consumed = 6,
-        k_EAuthTokenState_Revoked = 99,
-    }
-
-    [global::ProtoBuf.ProtoContract()]
     public enum EAuthTokenRevokeAction
     {
         k_EAuthTokenRevokeLogout = 0,
@@ -2241,6 +2206,19 @@ namespace SteamKit2.Internal
         k_EAuthTokenRevokeNonRememberedLogout = 5,
         k_EAuthTokenRevokeNonRememberedPermanent = 6,
         k_EAuthTokenRevokeAutomatic = 7,
+    }
+
+    [global::ProtoBuf.ProtoContract()]
+    public enum EAuthTokenState
+    {
+        k_EAuthTokenState_Invalid = 0,
+        k_EAuthTokenState_New = 1,
+        k_EAuthTokenState_Confirmed = 2,
+        k_EAuthTokenState_Issued = 3,
+        k_EAuthTokenState_Denied = 4,
+        k_EAuthTokenState_LoggedOut = 5,
+        k_EAuthTokenState_Consumed = 6,
+        k_EAuthTokenState_Revoked = 99,
     }
 
     public class Authentication : SteamUnifiedMessages.UnifiedService

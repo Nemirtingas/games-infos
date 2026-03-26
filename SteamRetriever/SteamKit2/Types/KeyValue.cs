@@ -8,6 +8,7 @@ using System.Collections.Generic;
 using System.Diagnostics.CodeAnalysis;
 using System.Globalization;
 using System.IO;
+using System.Linq;
 using System.Text;
 
 namespace SteamKit2
@@ -31,7 +32,7 @@ namespace SteamKit2
             bool wasQuoted;
             bool wasConditional;
 
-            KeyValue? currentKey = kv;
+            KeyValue currentKey = kv;
 
             do
             {
@@ -112,7 +113,7 @@ namespace SteamKit2
             return false;
         }
 
-        public string? ReadToken( out bool wasQuoted, out bool wasConditional )
+        public string ReadToken( out bool wasQuoted, out bool wasConditional )
         {
             wasQuoted = false;
             wasConditional = false;
@@ -239,7 +240,7 @@ namespace SteamKit2
         /// </summary>
         /// <param name="name">The optional name of the root key.</param>
         /// <param name="value">The optional value assigned to the root key.</param>
-        public KeyValue( string? name = null, string? value = null )
+        public KeyValue( string name = null, string value = null )
         {
             this.Name = name;
             this.Value = value;
@@ -255,11 +256,11 @@ namespace SteamKit2
         /// <summary>
         /// Gets or sets the name of this instance.
         /// </summary>
-        public string? Name { get; set; }
+        public string Name { get; set; }
         /// <summary>
         /// Gets or sets the value of this instance.
         /// </summary>
-        public string? Value { get; set; }
+        public string Value { get; set; }
 
         /// <summary>
         /// Gets the children of this instance.
@@ -277,28 +278,27 @@ namespace SteamKit2
             {
                 ArgumentNullException.ThrowIfNull( key );
 
-                foreach ( var c in this.Children )
+                var child = this.Children
+                    .FirstOrDefault( c => string.Equals( c.Name, key, StringComparison.OrdinalIgnoreCase ) );
+
+                if ( child == null )
                 {
-                    if ( string.Equals( c.Name, key, StringComparison.OrdinalIgnoreCase ) )
-                    {
-                        return c;
-                    }
+                    return Invalid;
                 }
 
-                return Invalid;
+                return child;
             }
             set
             {
                 ArgumentNullException.ThrowIfNull( key );
 
-                foreach ( var c in this.Children )
+                var existingChild = this.Children
+                    .FirstOrDefault( c => string.Equals( c.Name, key, StringComparison.OrdinalIgnoreCase ) );
+
+                if ( existingChild != null )
                 {
-                    if ( string.Equals( c.Name, key, StringComparison.OrdinalIgnoreCase ) )
-                    {
-                        // if the key already exists, remove the old one
-                        this.Children.Remove( c );
-                        break;
-                    }
+                    // if the key already exists, remove the old one
+                    this.Children.Remove( existingChild );
                 }
 
                 // ensure the given KV actually has the correct key assigned
@@ -312,7 +312,7 @@ namespace SteamKit2
         /// Returns the value of this instance as a string.
         /// </summary>
         /// <returns>The value of this instance as a string.</returns>
-        public string? AsString()
+        public string AsString()
         {
             return this.Value;
         }
@@ -499,7 +499,7 @@ namespace SteamKit2
         /// <remarks>
         /// This method will swallow any exceptions that occur when reading, use <see cref="ReadAsText"/> if you wish to handle exceptions.
         /// </remarks>
-        public static KeyValue? LoadAsText( string path )
+        public static KeyValue LoadAsText( string path )
         {
             return LoadFromFile( path, false );
         }
@@ -510,14 +510,14 @@ namespace SteamKit2
         /// <param name="path">The path to the file to load.</param>
         /// <param name="keyValue">The resulting <see cref="KeyValue"/> object if the load was successful, or <c>null</c> if unsuccessful.</param>
         /// <returns><c>true</c> if the load was successful, or <c>false</c> on failure.</returns>
-        public static bool TryLoadAsBinary( string path, [NotNullWhen(true)] out KeyValue? keyValue )
+        public static bool TryLoadAsBinary( string path, [NotNullWhen(true)] out KeyValue keyValue )
         {
             keyValue = LoadFromFile(path, true);
             return keyValue != null;
         }
 
 
-        static KeyValue? LoadFromFile( string path, bool asBinary )
+        static KeyValue LoadFromFile( string path, bool asBinary )
         {
             if ( File.Exists( path ) == false )
             {
@@ -560,7 +560,7 @@ namespace SteamKit2
         /// <remarks>
         /// This method will swallow any exceptions that occur when reading, use <see cref="ReadAsText"/> if you wish to handle exceptions.
         /// </remarks>
-        public static KeyValue? LoadFromString( string input )
+        public static KeyValue LoadFromString( string input )
         {
             ArgumentNullException.ThrowIfNull( input );
 
@@ -637,7 +637,7 @@ namespace SteamKit2
                 this.Children.Add( dat );
 
                 // get the value
-                string? value = kvr.ReadToken( out wasQuoted, out wasConditional );
+                string value = kvr.ReadToken( out wasQuoted, out wasConditional );
 
                 if ( wasConditional && value != null )
                 {
@@ -796,7 +796,7 @@ namespace SteamKit2
             return TryReadAsBinaryCore( input, this, null );
         }
 
-        static bool TryReadAsBinaryCore( Stream input, KeyValue current, KeyValue? parent )
+        static bool TryReadAsBinaryCore( Stream input, KeyValue current, KeyValue parent )
         {
             current.Children = [];
 
@@ -810,7 +810,7 @@ namespace SteamKit2
                 }
 
                 current.Name = input.ReadNullTermString( Encoding.UTF8 );
-
+                
                 switch ( type )
                 {
                     case Type.None:

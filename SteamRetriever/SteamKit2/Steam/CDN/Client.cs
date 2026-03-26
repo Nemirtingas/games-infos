@@ -67,14 +67,27 @@ namespace SteamKit2.CDN
         /// <exception cref="System.ArgumentNullException"><see ref="server"/> was null.</exception>
         /// <exception cref="HttpRequestException">An network error occurred when performing the request.</exception>
         /// <exception cref="SteamKitWebRequestException">A network error occurred when performing the request.</exception>
-        public async Task<DepotManifest> DownloadManifestAsync( uint depotId, ulong manifestId, ulong manifestRequestCode, Server server, byte[]? depotKey = null, Server? proxyServer = null, string? cdnAuthToken = null )
+        public async Task<DepotManifest> DownloadManifestAsync(uint depotId, ulong manifestId, ulong manifestRequestCode, Server server, byte[] depotKey = null, Server proxyServer = null, string cdnAuthToken = null)
         {
-            ArgumentNullException.ThrowIfNull( server );
+            var depotManifest = DepotManifest.Deserialize(await DownloadRawManifestAsync(depotId, manifestId, manifestRequestCode, server, proxyServer, cdnAuthToken));
+
+            if (depotKey != null)
+            {
+                // if we have the depot key, decrypt the manifest filenames
+                depotManifest.DecryptFilenames(depotKey);
+            }
+
+            return depotManifest;
+        }
+
+        public async Task<Stream> DownloadRawManifestAsync(uint depotId, ulong manifestId, ulong manifestRequestCode, Server server, Server proxyServer = null, string cdnAuthToken = null)
+        {
+            ArgumentNullException.ThrowIfNull(server);
 
             const uint MANIFEST_VERSION = 5;
             string url;
 
-            if ( manifestRequestCode > 0 )
+            if (manifestRequestCode > 0)
             {
                 url = $"depot/{depotId}/manifest/{manifestId}/{MANIFEST_VERSION}/{manifestRequestCode}";
             }
@@ -83,93 +96,88 @@ namespace SteamKit2.CDN
                 url = $"depot/{depotId}/manifest/{manifestId}/{MANIFEST_VERSION}";
             }
 
-            using var request = new HttpRequestMessage( HttpMethod.Get, BuildCommand( server, url, cdnAuthToken, proxyServer ) );
+            using var request = new HttpRequestMessage(HttpMethod.Get, BuildCommand(server, url, cdnAuthToken, proxyServer));
 
             using var cts = new CancellationTokenSource();
-            cts.CancelAfter( RequestTimeout );
+            cts.CancelAfter(RequestTimeout);
 
-            DepotManifest depotManifest;
+            var streamResult = new MemoryStream();
 
             try
             {
-                using var response = await httpClient.SendAsync( request, HttpCompletionOption.ResponseHeadersRead, cts.Token ).ConfigureAwait( false );
+                using var response = await httpClient.SendAsync(request, HttpCompletionOption.ResponseHeadersRead, cts.Token).ConfigureAwait(false);
 
-                if ( !response.IsSuccessStatusCode )
+                if (!response.IsSuccessStatusCode)
                 {
-                    throw new SteamKitWebRequestException( $"Response status code does not indicate success: {response.StatusCode:D} ({response.ReasonPhrase}).", response );
+                    throw new SteamKitWebRequestException($"Response status code does not indicate success: {response.StatusCode:D} ({response.ReasonPhrase}).", response);
                 }
 
-                cts.CancelAfter( ResponseBodyTimeout );
+                cts.CancelAfter(ResponseBodyTimeout);
 
                 var contentLength = -1;
-                byte[]? buffer = null;
+                byte[] buffer = null;
 
-                if ( response.Content.Headers.ContentLength.HasValue )
+                if (response.Content.Headers.ContentLength.HasValue)
                 {
-                    contentLength = ( int )response.Content.Headers.ContentLength;
-                    buffer = ArrayPool<byte>.Shared.Rent( contentLength );
+                    contentLength = (int)response.Content.Headers.ContentLength;
+                    buffer = ArrayPool<byte>.Shared.Rent(contentLength);
                 }
                 else
                 {
-                    DebugLog.WriteLine( nameof( CDN ), $"Manifest response does not have Content-Length, falling back to unbuffered read." );
+                    DebugLog.WriteLine(nameof(CDN), $"Manifest response does not have Content-Length, falling back to unbuffered read.");
                 }
 
                 try
                 {
                     MemoryStream ms;
 
-                    if ( buffer != null )
+                    if (buffer != null)
                     {
-                        ms = new MemoryStream( buffer, 0, contentLength );
+                        ms = new MemoryStream(buffer, 0, contentLength);
 
                         // Stream the http response into the rented buffer
-                        await response.Content.CopyToAsync( ms, cts.Token ).ConfigureAwait( false );
+                        await response.Content.CopyToAsync(ms, cts.Token).ConfigureAwait(false);
 
-                        if ( ms.Position != contentLength )
+                        if (ms.Position != contentLength)
                         {
-                            throw new InvalidDataException( $"Length mismatch after downloading depot manifest! (was {ms.Position}, but should be {contentLength})" );
+                            throw new InvalidDataException($"Length mismatch after downloading depot manifest! (was {ms.Position}, but should be {contentLength})");
                         }
 
                         ms.Position = 0;
                     }
                     else
                     {
-                        var data = await response.Content.ReadAsByteArrayAsync().ConfigureAwait( false );
-                        ms = new MemoryStream( data );
+                        var data = await response.Content.ReadAsByteArrayAsync().ConfigureAwait(false);
+                        ms = new MemoryStream(data);
                     }
 
                     // Decompress the zipped manifest data
-                    using var zip = new ZipArchive( ms );
+                    using var zip = new ZipArchive(ms);
                     var entries = zip.Entries;
 
-                    DebugLog.Assert( entries.Count == 1, nameof( CDN ), "Expected the zip to contain only one file" );
+                    DebugLog.Assert(entries.Count == 1, nameof(CDN), "Expected the zip to contain only one file");
 
-                    using var zipEntryStream = entries[ 0 ].Open();
-                    depotManifest = DepotManifest.Deserialize( zipEntryStream );
+                    using var zipEntryStream = entries[0].Open();
+                    await zipEntryStream.CopyToAsync(streamResult);
+                    streamResult.Position = 0;
 
                     ms.Dispose();
                 }
                 finally
                 {
-                    if ( buffer != null )
+                    if (buffer != null)
                     {
-                        ArrayPool<byte>.Shared.Return( buffer );
+                        ArrayPool<byte>.Shared.Return(buffer);
                     }
                 }
             }
-            catch ( Exception ex )
+            catch (Exception ex)
             {
-                DebugLog.WriteLine( nameof( CDN ), $"Failed to download manifest {request.RequestUri}: {ex.Message}" );
+                DebugLog.WriteLine(nameof(CDN), $"Failed to download manifest {request.RequestUri}: {ex.Message}");
                 throw;
             }
 
-            if ( depotKey != null )
-            {
-                // if we have the depot key, decrypt the manifest filenames
-                depotManifest.DecryptFilenames( depotKey );
-            }
-
-            return depotManifest;
+            return streamResult;
         }
 
         /// <summary>
@@ -200,7 +208,7 @@ namespace SteamKit2.CDN
         /// <exception cref="System.IO.InvalidDataException">Thrown if the downloaded data does not match the expected length.</exception>
         /// <exception cref="HttpRequestException">An network error occurred when performing the request.</exception>
         /// <exception cref="SteamKitWebRequestException">A network error occurred when performing the request.</exception>
-        public async Task<int> DownloadDepotChunkAsync( uint depotId, DepotManifest.ChunkData chunk, Server server, byte[] destination, byte[]? depotKey = null, Server? proxyServer = null, string? cdnAuthToken = null )
+        public async Task<int> DownloadDepotChunkAsync( uint depotId, DepotManifest.ChunkData chunk, Server server, byte[] destination, byte[] depotKey = null, Server proxyServer = null, string cdnAuthToken = null )
         {
             ArgumentNullException.ThrowIfNull( server );
             ArgumentNullException.ThrowIfNull( chunk );
@@ -327,7 +335,7 @@ namespace SteamKit2.CDN
             }
         }
 
-        static Uri BuildCommand( Server server, string command, string? query, Server? proxyServer )
+        static Uri BuildCommand( Server server, string command, string query, Server proxyServer )
         {
             var uriBuilder = new UriBuilder
             {

@@ -43,7 +43,7 @@ namespace SteamKit2
         /// <value>
         /// The <see cref="SteamID"/>.
         /// </value>
-        SteamID? SteamID { get; set; }
+        SteamID SteamID { get; set; }
 
         /// <summary>
         /// Gets or sets the target job id for this client message.
@@ -222,7 +222,7 @@ namespace SteamKit2
         }
 
         /// <summary>
-        /// Writes the specified string and a null terminator to the message payload using UTF-8 encoding.
+        /// Writes the secified string and a null terminator to the message payload using UTF-8 encoding.
         /// </summary>
         /// <param name="data">The string to write.</param>
         public void WriteNullTermString( string data )
@@ -462,7 +462,7 @@ namespace SteamKit2
         /// <value>
         /// The <see cref="SteamID"/>.
         /// </value>
-        public abstract SteamID? SteamID { get; set; }
+        public abstract SteamID SteamID { get; set; }
 
         /// <summary>
         /// Gets or sets the target job id for this client message.

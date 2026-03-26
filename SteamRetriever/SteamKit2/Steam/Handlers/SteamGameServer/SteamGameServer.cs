@@ -24,7 +24,7 @@ namespace SteamKit2
             /// <summary>
             /// Gets or sets the authentication token used to log in as a game server.
             /// </summary>
-            public string? Token { get; set; }
+            public string Token { get; set; }
 
             /// <summary>
             /// Gets or sets the AppID this gameserver will serve.
@@ -50,12 +50,12 @@ namespace SteamKit2
             /// <summary>
             /// Gets or sets the directory the game data is in.
             /// </summary>
-            public string? GameDirectory { get; set; }
+            public string GameDirectory { get; set; }
 
             /// <summary>
             /// Gets or sets the IP address the game server listens on.
             /// </summary>
-            public IPAddress? Address { get; set; }
+            public IPAddress Address { get; set; }
 
             /// <summary>
             /// Gets or sets the port the game server listens on.
@@ -70,10 +70,10 @@ namespace SteamKit2
             /// <summary>
             /// Gets or sets the current version of the game server.
             /// </summary>
-            public string? Version { get; set; }
+            public string Version { get; set; }
         }
 
-        private static CallbackMsg? GetCallback( IPacketMsg packetMsg ) => packetMsg.MsgType switch
+        private static CallbackMsg GetCallback( IPacketMsg packetMsg ) => packetMsg.MsgType switch
         {
             EMsg.GSStatusReply => new StatusReplyCallback( packetMsg ),
             EMsg.ClientTicketAuthComplete => new TicketAuthCallback( packetMsg ),
@@ -105,7 +105,7 @@ namespace SteamKit2
 
             var logon = new ClientMsgProtobuf<CMsgClientLogon>( EMsg.ClientLogonGameServer );
 
-            SteamID gsId = new SteamID( 0, 0, Client.Universe, EAccountType.GameServer );
+            var gsId = new SteamID( 0, 0, Client.Universe, EAccountType.GameServer );
 
             logon.ProtoHeader.client_sessionid = 0;
             logon.ProtoHeader.steamid = gsId.ConvertToUInt64();
@@ -139,7 +139,7 @@ namespace SteamKit2
 
             var logon = new ClientMsgProtobuf<CMsgClientLogon>( EMsg.ClientLogon );
 
-            SteamID gsId = new SteamID( 0, 0, Client.Universe, EAccountType.AnonGameServer );
+            var gsId = new SteamID( 0, 0, Client.Universe, EAccountType.AnonGameServer );
 
             logon.ProtoHeader.client_sessionid = 0;
             logon.ProtoHeader.steamid = gsId.ConvertToUInt64();

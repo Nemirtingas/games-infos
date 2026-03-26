@@ -195,7 +195,7 @@ namespace SteamKit2.GC.CSGO.Internal
         k_EMsgGCDelete = 1004,
         k_EMsgGCVerifyCacheSubscription = 1005,
         k_EMsgGCNameItem = 1006,
-        k_EMsgGCUnlockCrate_DEPRECATED = 1007,
+        k_EMsgGCUnlockCrate = 1007,
         k_EMsgGCUnlockCrateResponse = 1008,
         k_EMsgGCPaintItem = 1009,
         k_EMsgGCPaintItemResponse = 1010,
@@ -332,9 +332,9 @@ namespace SteamKit2.GC.CSGO.Internal
         k_EMsgGCRecurringSubscriptionStatus = 2530,
         k_EMsgGCAdjustEquipSlotsManual = 2531,
         k_EMsgGCAdjustEquipSlotsShuffle = 2532,
+        k_EMsgGCNameItemAndEquip = 2533,
         k_EMsgGCOpenCrate = 2534,
         k_EMsgGCAcknowledgeRentalExpiration = 2535,
-        k_EMsgGCVolatileItemLoadContents = 2536,
     }
 
     [global::ProtoBuf.ProtoContract()]
@@ -379,8 +379,6 @@ namespace SteamKit2.GC.CSGO.Internal
         k_EGCItemCustomizationNotification_NameBaseItem = 1019,
         k_EGCItemCustomizationNotification_RemoveItemName = 1030,
         k_EGCItemCustomizationNotification_RemoveSticker = 1053,
-        k_EGCItemCustomizationNotification_ExtractSticker = 1054,
-        k_EGCItemCustomizationNotification_EncapsulateSticker = 1055,
         k_EGCItemCustomizationNotification_ApplySticker = 1086,
         k_EGCItemCustomizationNotification_StatTrakSwap = 1088,
         k_EGCItemCustomizationNotification_RemovePatch = 1089,

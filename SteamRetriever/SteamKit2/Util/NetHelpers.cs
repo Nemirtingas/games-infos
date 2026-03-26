@@ -108,7 +108,7 @@ namespace SteamKit2
             return localIp;
         }
 
-        public static bool TryParseIPEndPoint( string stringValue, [NotNullWhen( true )] out IPEndPoint? endPoint )
+        public static bool TryParseIPEndPoint( string stringValue, [NotNullWhen( true )] out IPEndPoint endPoint )
         {
             if ( !IPEndPoint.TryParse( stringValue, out endPoint ) )
             {

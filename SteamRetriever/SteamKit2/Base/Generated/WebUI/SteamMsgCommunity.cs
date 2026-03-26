@@ -70,6 +70,28 @@ namespace SteamKit2.WebUI.Internal
         public void Reseticon() => __pbn__icon = null;
         private string __pbn__icon;
 
+        [global::ProtoBuf.ProtoMember(4)]
+        [global::System.ComponentModel.DefaultValue("")]
+        public string logo
+        {
+            get => __pbn__logo ?? "";
+            set => __pbn__logo = value;
+        }
+        public bool ShouldSerializelogo() => __pbn__logo != null;
+        public void Resetlogo() => __pbn__logo = null;
+        private string __pbn__logo;
+
+        [global::ProtoBuf.ProtoMember(5)]
+        [global::System.ComponentModel.DefaultValue("")]
+        public string logo_small
+        {
+            get => __pbn__logo_small ?? "";
+            set => __pbn__logo_small = value;
+        }
+        public bool ShouldSerializelogo_small() => __pbn__logo_small != null;
+        public void Resetlogo_small() => __pbn__logo_small = null;
+        private string __pbn__logo_small;
+
         [global::ProtoBuf.ProtoMember(6)]
         public bool tool
         {
@@ -342,98 +364,6 @@ namespace SteamKit2.WebUI.Internal
     }
 
     [global::ProtoBuf.ProtoContract()]
-    public partial class CCommunity_ClanLocGroupImage : global::ProtoBuf.IExtensible
-    {
-        private global::ProtoBuf.IExtension __pbn__extensionData;
-        global::ProtoBuf.IExtension global::ProtoBuf.IExtensible.GetExtensionObject(bool createIfMissing)
-            => global::ProtoBuf.Extensible.GetExtensionObject(ref __pbn__extensionData, createIfMissing);
-
-        [global::ProtoBuf.ProtoMember(1)]
-        public ulong loc_group_id
-        {
-            get => __pbn__loc_group_id.GetValueOrDefault();
-            set => __pbn__loc_group_id = value;
-        }
-        public bool ShouldSerializeloc_group_id() => __pbn__loc_group_id != null;
-        public void Resetloc_group_id() => __pbn__loc_group_id = null;
-        private ulong? __pbn__loc_group_id;
-
-        [global::ProtoBuf.ProtoMember(2)]
-        [global::System.ComponentModel.DefaultValue("")]
-        public string image_hash
-        {
-            get => __pbn__image_hash ?? "";
-            set => __pbn__image_hash = value;
-        }
-        public bool ShouldSerializeimage_hash() => __pbn__image_hash != null;
-        public void Resetimage_hash() => __pbn__image_hash = null;
-        private string __pbn__image_hash;
-
-        [global::ProtoBuf.ProtoMember(3)]
-        [global::System.ComponentModel.DefaultValue("")]
-        public string thumbnail_hash
-        {
-            get => __pbn__thumbnail_hash ?? "";
-            set => __pbn__thumbnail_hash = value;
-        }
-        public bool ShouldSerializethumbnail_hash() => __pbn__thumbnail_hash != null;
-        public void Resetthumbnail_hash() => __pbn__thumbnail_hash = null;
-        private string __pbn__thumbnail_hash;
-
-        [global::ProtoBuf.ProtoMember(4)]
-        public int file_type
-        {
-            get => __pbn__file_type.GetValueOrDefault();
-            set => __pbn__file_type = value;
-        }
-        public bool ShouldSerializefile_type() => __pbn__file_type != null;
-        public void Resetfile_type() => __pbn__file_type = null;
-        private int? __pbn__file_type;
-
-        [global::ProtoBuf.ProtoMember(5)]
-        public int group
-        {
-            get => __pbn__group.GetValueOrDefault();
-            set => __pbn__group = value;
-        }
-        public bool ShouldSerializegroup() => __pbn__group != null;
-        public void Resetgroup() => __pbn__group = null;
-        private int? __pbn__group;
-
-        [global::ProtoBuf.ProtoMember(6)]
-        public uint width
-        {
-            get => __pbn__width.GetValueOrDefault();
-            set => __pbn__width = value;
-        }
-        public bool ShouldSerializewidth() => __pbn__width != null;
-        public void Resetwidth() => __pbn__width = null;
-        private uint? __pbn__width;
-
-        [global::ProtoBuf.ProtoMember(7)]
-        public uint height
-        {
-            get => __pbn__height.GetValueOrDefault();
-            set => __pbn__height = value;
-        }
-        public bool ShouldSerializeheight() => __pbn__height != null;
-        public void Resetheight() => __pbn__height = null;
-        private uint? __pbn__height;
-
-        [global::ProtoBuf.ProtoMember(8)]
-        [global::System.ComponentModel.DefaultValue("")]
-        public string extensions
-        {
-            get => __pbn__extensions ?? "";
-            set => __pbn__extensions = value;
-        }
-        public bool ShouldSerializeextensions() => __pbn__extensions != null;
-        public void Resetextensions() => __pbn__extensions = null;
-        private string __pbn__extensions;
-
-    }
-
-    [global::ProtoBuf.ProtoContract()]
     public partial class CCommunity_ClearSinglePartnerEventsAppPriority_Request : global::ProtoBuf.IExtensible
     {
         private global::ProtoBuf.IExtension __pbn__extensionData;
@@ -602,16 +532,6 @@ namespace SteamKit2.WebUI.Internal
         public bool ShouldSerializegidparentcomment() => __pbn__gidparentcomment != null;
         public void Resetgidparentcomment() => __pbn__gidparentcomment = null;
         private ulong? __pbn__gidparentcomment;
-
-        [global::ProtoBuf.ProtoMember(14)]
-        public int delete_reason
-        {
-            get => __pbn__delete_reason.GetValueOrDefault();
-            set => __pbn__delete_reason = value;
-        }
-        public bool ShouldSerializedelete_reason() => __pbn__delete_reason != null;
-        public void Resetdelete_reason() => __pbn__delete_reason = null;
-        private int? __pbn__delete_reason;
 
     }
 
@@ -1203,60 +1123,6 @@ namespace SteamKit2.WebUI.Internal
         public bool ShouldSerializecrowdin_file_id() => __pbn__crowdin_file_id != null;
         public void Resetcrowdin_file_id() => __pbn__crowdin_file_id = null;
         private ulong? __pbn__crowdin_file_id;
-
-    }
-
-    [global::ProtoBuf.ProtoContract()]
-    public partial class CCommunity_GetClanLocGroupImages_Request : global::ProtoBuf.IExtensible
-    {
-        private global::ProtoBuf.IExtension __pbn__extensionData;
-        global::ProtoBuf.IExtension global::ProtoBuf.IExtensible.GetExtensionObject(bool createIfMissing)
-            => global::ProtoBuf.Extensible.GetExtensionObject(ref __pbn__extensionData, createIfMissing);
-
-        [global::ProtoBuf.ProtoMember(1)]
-        public ulong steamid
-        {
-            get => __pbn__steamid.GetValueOrDefault();
-            set => __pbn__steamid = value;
-        }
-        public bool ShouldSerializesteamid() => __pbn__steamid != null;
-        public void Resetsteamid() => __pbn__steamid = null;
-        private ulong? __pbn__steamid;
-
-        [global::ProtoBuf.ProtoMember(2)]
-        public int group
-        {
-            get => __pbn__group.GetValueOrDefault();
-            set => __pbn__group = value;
-        }
-        public bool ShouldSerializegroup() => __pbn__group != null;
-        public void Resetgroup() => __pbn__group = null;
-        private int? __pbn__group;
-
-        [global::ProtoBuf.ProtoMember(3)]
-        public uint language
-        {
-            get => __pbn__language.GetValueOrDefault();
-            set => __pbn__language = value;
-        }
-        public bool ShouldSerializelanguage() => __pbn__language != null;
-        public void Resetlanguage() => __pbn__language = null;
-        private uint? __pbn__language;
-
-        [global::ProtoBuf.ProtoMember(4)]
-        public global::System.Collections.Generic.List<ulong> loc_group_ids { get; } = new global::System.Collections.Generic.List<ulong>();
-
-    }
-
-    [global::ProtoBuf.ProtoContract()]
-    public partial class CCommunity_GetClanLocGroupImages_Response : global::ProtoBuf.IExtensible
-    {
-        private global::ProtoBuf.IExtension __pbn__extensionData;
-        global::ProtoBuf.IExtension global::ProtoBuf.IExtensible.GetExtensionObject(bool createIfMissing)
-            => global::ProtoBuf.Extensible.GetExtensionObject(ref __pbn__extensionData, createIfMissing);
-
-        [global::ProtoBuf.ProtoMember(1)]
-        public global::System.Collections.Generic.List<CCommunity_ClanLocGroupImage> images { get; } = new global::System.Collections.Generic.List<CCommunity_ClanLocGroupImage>();
 
     }
 
@@ -1886,106 +1752,6 @@ namespace SteamKit2.WebUI.Internal
     }
 
     [global::ProtoBuf.ProtoContract()]
-    public partial class CCommunity_HideAndReportComment_Request : global::ProtoBuf.IExtensible
-    {
-        private global::ProtoBuf.IExtension __pbn__extensionData;
-        global::ProtoBuf.IExtension global::ProtoBuf.IExtensible.GetExtensionObject(bool createIfMissing)
-            => global::ProtoBuf.Extensible.GetExtensionObject(ref __pbn__extensionData, createIfMissing);
-
-        [global::ProtoBuf.ProtoMember(1)]
-        public ulong gidfeature
-        {
-            get => __pbn__gidfeature.GetValueOrDefault();
-            set => __pbn__gidfeature = value;
-        }
-        public bool ShouldSerializegidfeature() => __pbn__gidfeature != null;
-        public void Resetgidfeature() => __pbn__gidfeature = null;
-        private ulong? __pbn__gidfeature;
-
-        [global::ProtoBuf.ProtoMember(2)]
-        public ulong gidfeature2
-        {
-            get => __pbn__gidfeature2.GetValueOrDefault();
-            set => __pbn__gidfeature2 = value;
-        }
-        public bool ShouldSerializegidfeature2() => __pbn__gidfeature2 != null;
-        public void Resetgidfeature2() => __pbn__gidfeature2 = null;
-        private ulong? __pbn__gidfeature2;
-
-        [global::ProtoBuf.ProtoMember(3)]
-        public ulong gidcomment
-        {
-            get => __pbn__gidcomment.GetValueOrDefault();
-            set => __pbn__gidcomment = value;
-        }
-        public bool ShouldSerializegidcomment() => __pbn__gidcomment != null;
-        public void Resetgidcomment() => __pbn__gidcomment = null;
-        private ulong? __pbn__gidcomment;
-
-        [global::ProtoBuf.ProtoMember(4, DataFormat = global::ProtoBuf.DataFormat.FixedSize)]
-        public ulong steamid
-        {
-            get => __pbn__steamid.GetValueOrDefault();
-            set => __pbn__steamid = value;
-        }
-        public bool ShouldSerializesteamid() => __pbn__steamid != null;
-        public void Resetsteamid() => __pbn__steamid = null;
-        private ulong? __pbn__steamid;
-
-        [global::ProtoBuf.ProtoMember(5)]
-        [global::System.ComponentModel.DefaultValue("")]
-        public string commentthreadtype
-        {
-            get => __pbn__commentthreadtype ?? "";
-            set => __pbn__commentthreadtype = value;
-        }
-        public bool ShouldSerializecommentthreadtype() => __pbn__commentthreadtype != null;
-        public void Resetcommentthreadtype() => __pbn__commentthreadtype = null;
-        private string __pbn__commentthreadtype;
-
-        [global::ProtoBuf.ProtoMember(6)]
-        public bool hide
-        {
-            get => __pbn__hide.GetValueOrDefault();
-            set => __pbn__hide = value;
-        }
-        public bool ShouldSerializehide() => __pbn__hide != null;
-        public void Resethide() => __pbn__hide = null;
-        private bool? __pbn__hide;
-
-        [global::ProtoBuf.ProtoMember(7)]
-        public int report_reason
-        {
-            get => __pbn__report_reason.GetValueOrDefault();
-            set => __pbn__report_reason = value;
-        }
-        public bool ShouldSerializereport_reason() => __pbn__report_reason != null;
-        public void Resetreport_reason() => __pbn__report_reason = null;
-        private int? __pbn__report_reason;
-
-        [global::ProtoBuf.ProtoMember(8)]
-        [global::System.ComponentModel.DefaultValue("")]
-        public string report_text
-        {
-            get => __pbn__report_text ?? "";
-            set => __pbn__report_text = value;
-        }
-        public bool ShouldSerializereport_text() => __pbn__report_text != null;
-        public void Resetreport_text() => __pbn__report_text = null;
-        private string __pbn__report_text;
-
-    }
-
-    [global::ProtoBuf.ProtoContract()]
-    public partial class CCommunity_HideAndReportComment_Response : global::ProtoBuf.IExtensible
-    {
-        private global::ProtoBuf.IExtension __pbn__extensionData;
-        global::ProtoBuf.IExtension global::ProtoBuf.IExtensible.GetExtensionObject(bool createIfMissing)
-            => global::ProtoBuf.Extensible.GetExtensionObject(ref __pbn__extensionData, createIfMissing);
-
-    }
-
-    [global::ProtoBuf.ProtoContract()]
     public partial class CCommunity_MarkPartnerEventsForUser_Request : global::ProtoBuf.IExtensible
     {
         private global::ProtoBuf.IExtension __pbn__extensionData;
@@ -2566,100 +2332,6 @@ namespace SteamKit2.WebUI.Internal
 
     }
 
-    [global::ProtoBuf.ProtoContract()]
-    public partial class CCommunity_SetRecommendationBotReviewStatus_Request : global::ProtoBuf.IExtensible
-    {
-        private global::ProtoBuf.IExtension __pbn__extensionData;
-        global::ProtoBuf.IExtension global::ProtoBuf.IExtensible.GetExtensionObject(bool createIfMissing)
-            => global::ProtoBuf.Extensible.GetExtensionObject(ref __pbn__extensionData, createIfMissing);
-
-        [global::ProtoBuf.ProtoMember(1)]
-        public global::System.Collections.Generic.List<CCommunity_SetRecommendationBotReviewStatus_Request_ReviewLabel> review_labels { get; } = new global::System.Collections.Generic.List<CCommunity_SetRecommendationBotReviewStatus_Request_ReviewLabel>();
-
-    }
-
-    [global::ProtoBuf.ProtoContract()]
-    public partial class CCommunity_SetRecommendationBotReviewStatus_Request_ReviewLabel : global::ProtoBuf.IExtensible
-    {
-        private global::ProtoBuf.IExtension __pbn__extensionData;
-        global::ProtoBuf.IExtension global::ProtoBuf.IExtensible.GetExtensionObject(bool createIfMissing)
-            => global::ProtoBuf.Extensible.GetExtensionObject(ref __pbn__extensionData, createIfMissing);
-
-        [global::ProtoBuf.ProtoMember(1)]
-        public uint appid
-        {
-            get => __pbn__appid.GetValueOrDefault();
-            set => __pbn__appid = value;
-        }
-        public bool ShouldSerializeappid() => __pbn__appid != null;
-        public void Resetappid() => __pbn__appid = null;
-        private uint? __pbn__appid;
-
-        [global::ProtoBuf.ProtoMember(2)]
-        public ulong recommendationid
-        {
-            get => __pbn__recommendationid.GetValueOrDefault();
-            set => __pbn__recommendationid = value;
-        }
-        public bool ShouldSerializerecommendationid() => __pbn__recommendationid != null;
-        public void Resetrecommendationid() => __pbn__recommendationid = null;
-        private ulong? __pbn__recommendationid;
-
-        [global::ProtoBuf.ProtoMember(3)]
-        public bool is_bot_review
-        {
-            get => __pbn__is_bot_review.GetValueOrDefault();
-            set => __pbn__is_bot_review = value;
-        }
-        public bool ShouldSerializeis_bot_review() => __pbn__is_bot_review != null;
-        public void Resetis_bot_review() => __pbn__is_bot_review = null;
-        private bool? __pbn__is_bot_review;
-
-    }
-
-    [global::ProtoBuf.ProtoContract()]
-    public partial class CCommunity_SetRecommendationBotReviewStatus_Response : global::ProtoBuf.IExtensible
-    {
-        private global::ProtoBuf.IExtension __pbn__extensionData;
-        global::ProtoBuf.IExtension global::ProtoBuf.IExtensible.GetExtensionObject(bool createIfMissing)
-            => global::ProtoBuf.Extensible.GetExtensionObject(ref __pbn__extensionData, createIfMissing);
-
-    }
-
-    [global::ProtoBuf.ProtoContract()]
-    public partial class CCommunity_VerifyClanMembership_Request : global::ProtoBuf.IExtensible
-    {
-        private global::ProtoBuf.IExtension __pbn__extensionData;
-        global::ProtoBuf.IExtension global::ProtoBuf.IExtensible.GetExtensionObject(bool createIfMissing)
-            => global::ProtoBuf.Extensible.GetExtensionObject(ref __pbn__extensionData, createIfMissing);
-
-        [global::ProtoBuf.ProtoMember(1)]
-        public ulong steamid
-        {
-            get => __pbn__steamid.GetValueOrDefault();
-            set => __pbn__steamid = value;
-        }
-        public bool ShouldSerializesteamid() => __pbn__steamid != null;
-        public void Resetsteamid() => __pbn__steamid = null;
-        private ulong? __pbn__steamid;
-
-        [global::ProtoBuf.ProtoMember(2)]
-        public global::System.Collections.Generic.List<ulong> steamids_verifymembership { get; } = new global::System.Collections.Generic.List<ulong>();
-
-    }
-
-    [global::ProtoBuf.ProtoContract()]
-    public partial class CCommunity_VerifyClanMembership_Response : global::ProtoBuf.IExtensible
-    {
-        private global::ProtoBuf.IExtension __pbn__extensionData;
-        global::ProtoBuf.IExtension global::ProtoBuf.IExtensible.GetExtensionObject(bool createIfMissing)
-            => global::ProtoBuf.Extensible.GetExtensionObject(ref __pbn__extensionData, createIfMissing);
-
-        [global::ProtoBuf.ProtoMember(1)]
-        public global::System.Collections.Generic.List<ulong> steamids_nonmembers { get; } = new global::System.Collections.Generic.List<ulong>();
-
-    }
-
     public class Community : SteamUnifiedMessages.UnifiedService
     {
         public override string ServiceName { get; } = "Community";
@@ -2719,11 +2391,6 @@ namespace SteamKit2.WebUI.Internal
             return UnifiedMessages.SendMessage<CCommunity_GetClanEventCrowdInMetadata_Request, CCommunity_GetClanEventCrowdInMetadata_Response>( "Community.GetClanEventCrowdInMetadata#1", request );
         }
 
-        public AsyncJob<SteamUnifiedMessages.ServiceMethodResponse<CCommunity_GetClanLocGroupImages_Response>> GetClanLocGroupImages( CCommunity_GetClanLocGroupImages_Request request )
-        {
-            return UnifiedMessages.SendMessage<CCommunity_GetClanLocGroupImages_Request, CCommunity_GetClanLocGroupImages_Response>( "Community.GetClanLocGroupImages#1", request );
-        }
-
         public AsyncJob<SteamUnifiedMessages.ServiceMethodResponse<CCommunity_GetCommentThread_Response>> GetCommentThread( CCommunity_GetCommentThread_Request request )
         {
             return UnifiedMessages.SendMessage<CCommunity_GetCommentThread_Request, CCommunity_GetCommentThread_Response>( "Community.GetCommentThread#1", request );
@@ -2747,11 +2414,6 @@ namespace SteamKit2.WebUI.Internal
         public AsyncJob<SteamUnifiedMessages.ServiceMethodResponse<CCommunity_GetUserPartnerEventViewStatus_Response>> GetUserPartnerEventViewStatus( CCommunity_GetUserPartnerEventViewStatus_Request request )
         {
             return UnifiedMessages.SendMessage<CCommunity_GetUserPartnerEventViewStatus_Request, CCommunity_GetUserPartnerEventViewStatus_Response>( "Community.GetUserPartnerEventViewStatus#1", request );
-        }
-
-        public AsyncJob<SteamUnifiedMessages.ServiceMethodResponse<CCommunity_HideAndReportComment_Response>> HideAndReportComment( CCommunity_HideAndReportComment_Request request )
-        {
-            return UnifiedMessages.SendMessage<CCommunity_HideAndReportComment_Request, CCommunity_HideAndReportComment_Response>( "Community.HideAndReportComment#1", request );
         }
 
         public AsyncJob<SteamUnifiedMessages.ServiceMethodResponse<CCommunity_MarkPartnerEventsForUser_Response>> MarkPartnerEventsForUser( CCommunity_MarkPartnerEventsForUser_Request request )
@@ -2782,16 +2444,6 @@ namespace SteamKit2.WebUI.Internal
         public AsyncJob<SteamUnifiedMessages.ServiceMethodResponse<CCommunity_RateCommentThread_Response>> RateCommentThread( CCommunity_RateCommentThread_Request request )
         {
             return UnifiedMessages.SendMessage<CCommunity_RateCommentThread_Request, CCommunity_RateCommentThread_Response>( "Community.RateCommentThread#1", request );
-        }
-
-        public AsyncJob<SteamUnifiedMessages.ServiceMethodResponse<CCommunity_SetRecommendationBotReviewStatus_Response>> SetRecommendationBotReviewStatus( CCommunity_SetRecommendationBotReviewStatus_Request request )
-        {
-            return UnifiedMessages.SendMessage<CCommunity_SetRecommendationBotReviewStatus_Request, CCommunity_SetRecommendationBotReviewStatus_Response>( "Community.SetRecommendationBotReviewStatus#1", request );
-        }
-
-        public AsyncJob<SteamUnifiedMessages.ServiceMethodResponse<CCommunity_VerifyClanMembership_Response>> VerifyClanMembership( CCommunity_VerifyClanMembership_Request request )
-        {
-            return UnifiedMessages.SendMessage<CCommunity_VerifyClanMembership_Request, CCommunity_VerifyClanMembership_Response>( "Community.VerifyClanMembership#1", request );
         }
 
         public override void HandleResponseMsg( string methodName, PacketClientMsgProtobuf packetMsg )
@@ -2831,9 +2483,6 @@ namespace SteamKit2.WebUI.Internal
                 case "GetClanEventCrowdInMetadata":
                     PostResponseMsg<CCommunity_GetClanEventCrowdInMetadata_Response>( packetMsg );
                     break;
-                case "GetClanLocGroupImages":
-                    PostResponseMsg<CCommunity_GetClanLocGroupImages_Response>( packetMsg );
-                    break;
                 case "GetCommentThread":
                     PostResponseMsg<CCommunity_GetCommentThread_Response>( packetMsg );
                     break;
@@ -2848,9 +2497,6 @@ namespace SteamKit2.WebUI.Internal
                     break;
                 case "GetUserPartnerEventViewStatus":
                     PostResponseMsg<CCommunity_GetUserPartnerEventViewStatus_Response>( packetMsg );
-                    break;
-                case "HideAndReportComment":
-                    PostResponseMsg<CCommunity_HideAndReportComment_Response>( packetMsg );
                     break;
                 case "MarkPartnerEventsForUser":
                     PostResponseMsg<CCommunity_MarkPartnerEventsForUser_Response>( packetMsg );
@@ -2869,12 +2515,6 @@ namespace SteamKit2.WebUI.Internal
                     break;
                 case "RateCommentThread":
                     PostResponseMsg<CCommunity_RateCommentThread_Response>( packetMsg );
-                    break;
-                case "SetRecommendationBotReviewStatus":
-                    PostResponseMsg<CCommunity_SetRecommendationBotReviewStatus_Response>( packetMsg );
-                    break;
-                case "VerifyClanMembership":
-                    PostResponseMsg<CCommunity_VerifyClanMembership_Response>( packetMsg );
                     break;
             }
         }

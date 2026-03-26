@@ -141,9 +141,9 @@ namespace SteamKit2
         /// <param name="jobId">The JobID.</param>
         /// <param name="andRemove">If set to <c>true</c>, this job is removed from tracking.</param>
         /// <returns></returns>
-        AsyncJob? GetJob( JobID jobId, bool andRemove = false )
+        AsyncJob GetJob( JobID jobId, bool andRemove = false )
         {
-            AsyncJob? asyncJob;
+            AsyncJob asyncJob;
             bool foundJob;
 
             if ( andRemove )

@@ -9,7 +9,7 @@ namespace SteamKit2
 {
     class EnvelopeEncryptedConnection : IConnection
     {
-        public EnvelopeEncryptedConnection( IConnection inner, EUniverse universe, ILogContext log, IDebugNetworkListener? debugNetworkListener )
+        public EnvelopeEncryptedConnection( IConnection inner, EUniverse universe, ILogContext log, IDebugNetworkListener debugNetworkListener )
         {
             this.inner = inner ?? throw new ArgumentNullException( nameof( inner ) );
             this.universe = universe;
@@ -25,18 +25,18 @@ namespace SteamKit2
         readonly EUniverse universe;
         readonly ILogContext log;
         EncryptionState state;
-        NetFilterEncryptionWithHMAC? encryption;
-        IDebugNetworkListener? debugNetworkListener;
+        NetFilterEncryptionWithHMAC encryption;
+        IDebugNetworkListener debugNetworkListener;
 
-        public EndPoint? CurrentEndPoint => inner.CurrentEndPoint;
+        public EndPoint CurrentEndPoint => inner.CurrentEndPoint;
 
         public ProtocolTypes ProtocolTypes => inner.ProtocolTypes;
 
-        public event EventHandler<NetMsgEventArgs>? NetMsgReceived;
+        public event EventHandler<NetMsgEventArgs> NetMsgReceived;
 
-        public event EventHandler? Connected;
+        public event EventHandler Connected;
 
-        public event EventHandler<DisconnectedEventArgs>? Disconnected;
+        public event EventHandler<DisconnectedEventArgs> Disconnected;
 
         public void Connect( EndPoint endPoint, int timeout = 5000 )
             => inner.Connect( endPoint, timeout );
@@ -46,7 +46,7 @@ namespace SteamKit2
             inner.Disconnect( userInitiated );
         }
 
-        public IPAddress? GetLocalIP() => inner.GetLocalIP();
+        public IPAddress GetLocalIP() => inner.GetLocalIP();
 
         public void Send( Memory<byte> data )
         {
@@ -70,12 +70,12 @@ namespace SteamKit2
             }
         }
 
-        void OnConnected( object? sender, EventArgs e )
+        void OnConnected( object sender, EventArgs e )
         {
             state = EncryptionState.Connected;
         }
 
-        void OnDisconnected( object? sender, DisconnectedEventArgs e )
+        void OnDisconnected( object sender, DisconnectedEventArgs e )
         {
             state = EncryptionState.Disconnected;
             encryption = null;
@@ -83,7 +83,7 @@ namespace SteamKit2
             Disconnected?.Invoke( this, e );
         }
 
-        void OnNetMsgReceived( object? sender, NetMsgEventArgs e )
+        void OnNetMsgReceived( object sender, NetMsgEventArgs e )
         {
             if ( state == EncryptionState.Encrypted )
             {

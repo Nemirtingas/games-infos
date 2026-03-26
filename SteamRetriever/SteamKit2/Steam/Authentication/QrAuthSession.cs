@@ -21,9 +21,9 @@ namespace SteamKit2.Authentication
         /// <summary>
         /// Called whenever the challenge url is refreshed by Steam.
         /// </summary>
-        public Action? ChallengeURLChanged { get; set; }
+        public Action ChallengeURLChanged { get; set; }
 
-        internal QrAuthSession( SteamAuthentication authentication, IAuthenticator? authenticator, CAuthentication_BeginAuthSessionViaQR_Response response )
+        internal QrAuthSession( SteamAuthentication authentication, IAuthenticator authenticator, CAuthentication_BeginAuthSessionViaQR_Response response )
             : base( authentication, authenticator, response.client_id, response.request_id, response.allowed_confirmations, response.interval )
         {
             ChallengeURL = response.challenge_url;

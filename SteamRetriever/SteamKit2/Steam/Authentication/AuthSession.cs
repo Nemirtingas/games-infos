@@ -13,7 +13,7 @@ using SteamKit2.Internal;
 namespace SteamKit2.Authentication
 {
     /// <summary>
-    /// Represents an authentication session which can be used to finish the authentication and get access tokens.
+    /// Represents an authentication sesssion which can be used to finish the authentication and get access tokens.
     /// </summary>
     public class AuthSession
     {
@@ -30,7 +30,7 @@ namespace SteamKit2.Authentication
         /// <summary>
         /// Authenticator object which will be used to handle 2-factor authentication if necessary.
         /// </summary>
-        public IAuthenticator? Authenticator { get; }
+        public IAuthenticator Authenticator { get; }
         /// <summary>
         /// Unique identifier of requestor, also used for routing, portion of QR code.
         /// </summary>
@@ -44,7 +44,7 @@ namespace SteamKit2.Authentication
         /// </summary>
         public TimeSpan PollingInterval { get; }
 
-        internal AuthSession( SteamAuthentication authentication, IAuthenticator? authenticator, ulong clientId, byte[] requestId, List<CAuthentication_AllowedConfirmation> allowedConfirmations, float pollingInterval )
+        internal AuthSession( SteamAuthentication authentication, IAuthenticator authenticator, ulong clientId, byte[] requestId, List<CAuthentication_AllowedConfirmation> allowedConfirmations, float pollingInterval )
         {
             Authentication = authentication;
             Authenticator = authenticator;
@@ -196,7 +196,7 @@ namespace SteamKit2.Authentication
         /// </summary>
         /// <returns>An object containing tokens which can be used to login to Steam, or null if not yet authenticated.</returns>
         /// <exception cref="AuthenticationException">Thrown when polling fails.</exception>
-        public async Task<AuthPollResult?> PollAuthSessionStatusAsync()
+        public async Task<AuthPollResult> PollAuthSessionStatusAsync()
         {
             var request = new CAuthentication_PollAuthSessionStatus_Request
             {

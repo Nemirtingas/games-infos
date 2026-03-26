@@ -1,22 +1,18 @@
 ﻿using System;
 using System.ComponentModel;
 using System.IO;
-using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using System.Runtime.Versioning;
-#if WINDOWS
 using Windows.Win32.Storage.FileSystem;
 using Windows.Win32.System.Ioctl;
 using static Windows.Win32.PInvoke;
-#endif
 
 namespace SteamKit2.Util
 {
-#if WINDOWS
     [SupportedOSPlatform( "windows5.1.2600" )]
     static partial class Win32Helpers
     {
-        public static string? GetBootDiskSerialNumber()
+        public static string GetBootDiskSerialNumber()
         {
             try
             {
@@ -55,18 +51,22 @@ namespace SteamKit2.Util
                 null
             );
 
-            if ( handle.IsInvalid )
+            if ( handle == null || handle.IsInvalid )
             {
                 throw new Win32Exception();
             }
 
             var extents = new VOLUME_DISK_EXTENTS();
+            var bytesReturned = 0u;
 
             if ( !DeviceIoControl(
                 handle,
                 IOCTL_VOLUME_GET_VOLUME_DISK_EXTENTS,
                 null,
-                new Span<byte>( &extents, VOLUME_DISK_EXTENTS.SizeOf( 1 ) ),
+                0,
+                &extents,
+                ( uint )VOLUME_DISK_EXTENTS.SizeOf( 1 ),
+                &bytesReturned, // If lpOverlapped is NULL, lpBytesReturned cannot be NULL
                 null
             ) )
             {
@@ -82,7 +82,7 @@ namespace SteamKit2.Util
             return diskID;
         }
 
-        static unsafe string? GetPhysicalDriveSerialNumber( uint driveNumber )
+        static unsafe string GetPhysicalDriveSerialNumber( uint driveNumber )
         {
             using var handle = CreateFile(
                 $@"\\.\PhysicalDrive{driveNumber}",
@@ -94,7 +94,7 @@ namespace SteamKit2.Util
                 null
             );
 
-            if ( handle.IsInvalid )
+            if ( handle == null || handle.IsInvalid )
             {
                 throw new Win32Exception();
             }
@@ -104,18 +104,21 @@ namespace SteamKit2.Util
                 PropertyId = STORAGE_PROPERTY_ID.StorageDeviceProperty,
                 QueryType = STORAGE_QUERY_TYPE.PropertyStandardQuery,
             };
-            var queryBuffer = new ReadOnlySpan<byte>( &query, STORAGE_PROPERTY_QUERY.SizeOf( 1 ) );
 
             // 1. Call DeviceIoControl(STORAGE_PROPERTY_QUERY, out STORAGE_DESCRIPTOR_HEADER) to figure out how many bytes
             // we need to allocate.
 
             var header = new STORAGE_DESCRIPTOR_HEADER();
+            var bytesReturned = 0u;
 
             if ( !DeviceIoControl(
                 handle,
                 IOCTL_STORAGE_QUERY_PROPERTY,
-                queryBuffer,
-                new Span<byte>( &header, sizeof( STORAGE_DESCRIPTOR_HEADER ) ),
+                &query,
+                ( uint )STORAGE_PROPERTY_QUERY.SizeOf( 1 ),
+                &header,
+                ( uint )sizeof( STORAGE_DESCRIPTOR_HEADER ),
+                &bytesReturned,
                 null
             ) )
             {
@@ -125,25 +128,25 @@ namespace SteamKit2.Util
             // 2. Call DeviceIOControl(STORAGE_PROPERTY_QUERY, STORAGE_DEVICE_DESCRIPTOR) to get a bunch of device info with a header
             // containing the offsets to each piece of information.
 
-            var descriptorSize = ( int )header.Size;
-            var descriptorBuffer = NativeMemory.Alloc( ( nuint )descriptorSize );
+            var descriptorPtr = Marshal.AllocHGlobal( ( int )header.Size );
 
             try
             {
-                var descriptorSpan = new Span<byte>( descriptorBuffer, descriptorSize );
-
                 if ( !DeviceIoControl(
                         handle,
                         IOCTL_STORAGE_QUERY_PROPERTY,
-                        queryBuffer,
-                        descriptorSpan,
+                        &query,
+                        ( uint )STORAGE_PROPERTY_QUERY.SizeOf( 1 ),
+                        ( void* )descriptorPtr,
+                        header.Size,
+                        &bytesReturned,
                         null
                     ) )
                 {
                     throw new Win32Exception();
                 }
 
-                ref var descriptor = ref Unsafe.AsRef<STORAGE_DEVICE_DESCRIPTOR>( descriptorBuffer );
+                var descriptor = Marshal.PtrToStructure<STORAGE_DEVICE_DESCRIPTOR>( descriptorPtr );
 
                 // 3. Figure out where in the blob the serial number is
                 // and read it from there.
@@ -155,24 +158,15 @@ namespace SteamKit2.Util
                     throw new InvalidOperationException( "Serial number offset is zero." );
                 }
 
-                var serialNumberPtr = ( nint )descriptorBuffer + ( int )serialNumberOffset;
+                var serialNumberPtr = IntPtr.Add( descriptorPtr, ( int )serialNumberOffset );
 
                 var serialNumber = Marshal.PtrToStringAnsi( serialNumberPtr );
                 return serialNumber;
             }
             finally
             {
-                NativeMemory.Free( descriptorBuffer );
+                Marshal.FreeHGlobal( descriptorPtr );
             }
         }
     }
-#else
-    static partial class Win32Helpers
-    {
-        public static string? GetBootDiskSerialNumber()
-        {
-            return string.Empty;
-        }
-    }
-#endif
 }

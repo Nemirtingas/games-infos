@@ -242,7 +242,7 @@ namespace SteamKit2
                 /// </summary>
                 public IReadOnlyDictionary<string, string> Metadata { get; }
 
-                internal Member( SteamID steamId, string personaName, IReadOnlyDictionary<string, string>? metadata = null )
+                internal Member( SteamID steamId, string personaName, IReadOnlyDictionary<string, string> metadata = null )
                 {
                     SteamID = steamId;
                     PersonaName = personaName;
@@ -254,7 +254,7 @@ namespace SteamKit2
                 /// </summary>
                 /// <param name="obj"></param>
                 /// <returns>true, if obj is <see cref="Member"/> with a matching SteamID. Otherwise, false.</returns>
-                public override bool Equals( object? obj )
+                public override bool Equals( object obj )
                 {
                     if ( obj is Member member )
                     {
@@ -295,7 +295,7 @@ namespace SteamKit2
             /// obtained/updated as a result of calling <see cref="SteamMatchmaking.GetLobbyList"/>
             /// may have a null (or non-null but state) owner.
             /// </summary>
-            public SteamID? OwnerSteamID { get; }
+            public SteamID OwnerSteamID { get; }
 
             /// <summary>
             /// The metadata of the lobby; string key-value pairs.
@@ -332,8 +332,8 @@ namespace SteamKit2
 
             static readonly IReadOnlyList<Member> EmptyMembers = Array.AsReadOnly(Array.Empty<Member>());
 
-            internal Lobby( SteamID steamId, ELobbyType lobbyType, int lobbyFlags, SteamID? ownerSteamId, IReadOnlyDictionary<string, string>? metadata,
-                int maxMembers, int numMembers, IReadOnlyList<Member>? members, float? distance, long? weight )
+            internal Lobby( SteamID steamId, ELobbyType lobbyType, int lobbyFlags, SteamID ownerSteamId, IReadOnlyDictionary<string, string> metadata,
+                int maxMembers, int numMembers, IReadOnlyList<Member> members, float? distance, long? weight )
             {
                 SteamID = steamId;
                 LobbyType = lobbyType;
@@ -347,7 +347,7 @@ namespace SteamKit2
                 Weight = weight;
             }
 
-            internal static byte[] EncodeMetadata( IReadOnlyDictionary<string, string>? metadata )
+            internal static byte[] EncodeMetadata( IReadOnlyDictionary<string, string> metadata )
             {
                 var keyValue = new KeyValue( "" );
 
@@ -364,7 +364,7 @@ namespace SteamKit2
                 return ms.ToArray();
             }
 
-            internal static ReadOnlyDictionary<string, string> DecodeMetadata( byte[]? buffer )
+            internal static ReadOnlyDictionary<string, string> DecodeMetadata( byte[] buffer )
             {
                 if ( buffer == null || buffer.Length == 0 )
                 {

@@ -355,7 +355,7 @@ class Program
         var keyValueType = statObject["type"];
         if (keyValueType == KeyValue.Invalid || keyValueType == null)
         {
-            _logger.Error($"Stat {statObject["name"].Value} is missing a type, defaulting to Int for appId {appId}");
+            _logger.Error($"{appId} Stat {statObject["name"].Value} is missing a type, defaulting to Int");
             return SchemaStatType.Int;
         }
 
@@ -366,7 +366,7 @@ class Program
         var statType = (SchemaStatType)keyValueType.AsLong();
         if (statType < SchemaStatType.Int || statType > SchemaStatType.Bits)
         {
-            _logger.Error($"Unknown stat type: '{typeAsString}', defaulting to Int for appId {appId}");
+            _logger.Error($"{appId} Unknown stat type: '{typeAsString}', defaulting to Int");
             return SchemaStatType.Int;
         }
 
@@ -389,7 +389,7 @@ class Program
 
         if (!keyValue.StringToClosestNumberRepresentation(out var value))
         {
-            _logger.Error($"Stat {statModel.Name} has an invalid default value: {keyValue.Value}");
+            _logger.Error($"{appId} Stat {statModel.Name} has an invalid default value: {keyValue.Value}");
             return null;
         }
         return CastNumberRepresentationToStatType(statModel.Type, value);
@@ -401,7 +401,7 @@ class Program
 
         if (!keyValue.StringToClosestNumberRepresentation(out var value))
         {
-            _logger.Error($"Stat {statModel.Name} has an invalid default value: {keyValue.Value}");
+            _logger.Error($"{appId} Stat {statModel.Name} has an invalid default value: {keyValue.Value}");
             return null;
         }
 
@@ -577,10 +577,13 @@ class Program
         return 0;
     }
 
-    async Task StatSanityCheckAsync(StatModel model)
+    async Task StatSanityCheckAsync(StatModel model, uint appid)
     {
+        if (model.Min == null || model.Max == null)
+            return;
+
         if (StatNumberRepresentationToDouble(model.Min) > StatNumberRepresentationToDouble(model.Max))
-            await NotifyAsync($"{model.Name} min {model.Min} is greater than {model.Max}");
+            await NotifyAsync($"{appid} {model.Name} min {model.Min} is greater than {model.Max}");
     }
 
     async Task<bool> GenerateAchievementsFromKeyValue(KeyValue schema, uint appid)
@@ -726,7 +729,7 @@ class Program
                             stat.Default = 0;
                     }
 
-                    await StatSanityCheckAsync(stat);
+                    await StatSanityCheckAsync(stat, appid);
 
                     statsArray.Add(stat);
                 }
@@ -765,7 +768,7 @@ class Program
                 await semaphore.WaitAsync(cts.Token);
                 try
                 {
-                    var result = await ContentDownloader.steam3.GetUserStats(appid, steamId);
+                    var result = await ContentDownloader.Steam3.GetUserStats(appid, steamId);
                     if (result.Result == EResult.OK && result.Schema != null)
                     {
                         return new KeyValuePair<ulong, KeyValue>(steamId, result.Schema);
@@ -846,7 +849,7 @@ class Program
     {
         try
         {
-            string digest = await ContentDownloader.steam3.GetInventoryDigest(appid);
+            string digest = await ContentDownloader.Steam3.GetInventoryDigest(appid);
             if (!string.IsNullOrWhiteSpace(digest))
             {
                 if (await GetItemsDef(appid, digest))
@@ -1128,7 +1131,7 @@ class Program
 
                     if (!Options.CacheOnly && Options.DownloadControllerConfigurations)
                     {
-                        var file_details = await ContentDownloader.steam3.GetPublishedFileDetails(null, ulong.Parse(published_id));
+                        var file_details = await ContentDownloader.Steam3.GetPublishedFileDetails(null, ulong.Parse(published_id));
                         if (!string.IsNullOrWhiteSpace(file_details.filename) && !string.IsNullOrWhiteSpace(file_details.file_url))
                         {
                             CancellationTokenSource cts = new CancellationTokenSource();
@@ -1143,7 +1146,7 @@ class Program
                         }
                         else if(file_details.hcontent_file != 0)
                         {// TODO: Try something else.
-                            await ContentDownloader.DownloadAppAsync(file_details.consumer_appid, new List<(uint depotId, ulong manifestId)> { new(file_details.consumer_appid, file_details.hcontent_file) }, "public", null, null, null, false, true);
+                            await ContentDownloader.DownloadAppAsync(new(), file_details.consumer_appid, new List<(uint depotId, ulong manifestId)> { new(file_details.consumer_appid, file_details.hcontent_file) }, "public", null, null, null, false, true);
                             if (ContentDownloader.UGCFilesDownloaded.ContainsKey(file_details.hcontent_file))
                             {
                                 var f = ContentDownloader.UGCFilesDownloaded[file_details.hcontent_file];
@@ -1596,7 +1599,7 @@ class Program
         appMetadata.LastUpdateTimestamp = DateTime.UtcNow;
     }
 
-    bool RestartSteamConnection()
+    async Task<bool> RestartSteamConnectionAsync()
     {
         try
         {
@@ -1607,7 +1610,7 @@ class Program
 
             ContentDownloader.ShutdownSteam3();
 
-            var result = ContentDownloader.InitializeSteam3(Options.Username, Options.UserPassword);
+            var result = await ContentDownloader.InitializeSteam3Async(Options.Username, Options.UserPassword);
             if (result)
                 WebSteamUser = WebAPI.GetInterface("ISteamUser", Options.WebApiKey);
 
@@ -1651,13 +1654,13 @@ class Program
                 AccountSettingsStore.Instance.LoadFromFile("steam_retriever_cred.store");
                 ContentDownloader.Config.RememberPassword = Options.RememberPassword;
                 ContentDownloader.Config.LoginID = Options.LoginId;
-                if (Options.CacheOnly || ContentDownloader.InitializeSteam3(Options.Username, Options.UserPassword))
+                if (Options.CacheOnly || await ContentDownloader.InitializeSteam3Async(Options.Username, Options.UserPassword))
                 {
                     ContentDownloader.Config.MaxDownloads = 50;
                     ContentDownloader.Config.InstallDirectory = Path.Combine(Options.CacheOutDirectory, "depots");
                     if (!Options.CacheOnly)
                     {
-                        IsAnonymous = ContentDownloader.steam3.steamClient.SteamID.AccountType != EAccountType.Individual;
+                        IsAnonymous = ContentDownloader.Steam3.steamClient.SteamID.AccountType != EAccountType.Individual;
                         WebSteamUser = WebAPI.GetInterface("ISteamUser", Options.WebApiKey);
                     }
 
@@ -1671,7 +1674,7 @@ class Program
                     {
                         if (!Options.CacheOnly)
                         {
-                            changes = await ContentDownloader.steam3.RequestAppDiffAsync((uint)MetadataDatabase.LastChangeNumber);
+                            changes = await ContentDownloader.Steam3.RequestAppDiffAsync((uint)MetadataDatabase.LastChangeNumber);
                             foreach (var appId in changes.AppChanges.Select(e => e.Value.ID))
                             {
                                 AppIds.Add(appId, null);
@@ -1697,13 +1700,13 @@ class Program
                         {
                             if (!Options.CacheOnly)
                             {
-                                await ContentDownloader.steam3.RequestAppsInfoAsync(chunk, false);
+                                await ContentDownloader.Steam3.RequestAppsInfoAsync(chunk, false);
                                 foreach (var appid in chunk)
                                 {
-                                    if (ContentDownloader.steam3.AppInfo.ContainsKey(appid) && ContentDownloader.steam3.AppInfo[appid]?.KeyValues != null)
+                                    if (ContentDownloader.Steam3.AppInfo.ContainsKey(appid) && ContentDownloader.Steam3.AppInfo[appid]?.KeyValues != null)
                                     {
-                                        AppIds[appid] = ContentDownloader.steam3.AppInfo[appid]?.KeyValues;
-                                        applicationsMetadata[appid] = ApplicationMetadataFromPICS(ContentDownloader.steam3.AppInfo[appid]);
+                                        AppIds[appid] = ContentDownloader.Steam3.AppInfo[appid]?.KeyValues;
+                                        applicationsMetadata[appid] = ApplicationMetadataFromPICS(ContentDownloader.Steam3.AppInfo[appid]);
                                     }
                                 }
                             }
@@ -1743,7 +1746,7 @@ class Program
                                             await GetAppDetailsFromSteamNetwork(appid, appIdKeyValue, metadata);
 
                                             if (!Options.CacheOnly)
-                                                ContentDownloader.steam3.AppInfo.Remove(appid);
+                                                ContentDownloader.Steam3.AppInfo.Remove(appid);
 
                                             break;
                                         }
@@ -1753,7 +1756,7 @@ class Program
                                             int i;
                                             for (i = 0; i < 5; ++i)
                                             {
-                                                if (RestartSteamConnection())
+                                                if (await RestartSteamConnectionAsync())
                                                     break;
 
                                                 _logger.Info("Failed to restart steam connection, waiting 5s...");

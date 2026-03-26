@@ -14,7 +14,7 @@ namespace SteamKit2
     /// </summary>
     public sealed partial class SteamWorkshop : ClientMsgHandler
     {
-        private static CallbackMsg? GetCallback( IPacketMsg packetMsg ) => packetMsg.MsgType switch
+        private static CallbackMsg GetCallback( IPacketMsg packetMsg ) => packetMsg.MsgType switch
         {
             EMsg.ClientUCMEnumeratePublishedFilesByUserActionResponse => new UserActionPublishedFilesCallback( packetMsg ),
             _ => null,

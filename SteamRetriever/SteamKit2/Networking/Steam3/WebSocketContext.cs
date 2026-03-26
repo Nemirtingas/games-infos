@@ -28,7 +28,7 @@ namespace SteamKit2
             readonly CancellationTokenSource cts;
             readonly ClientWebSocket socket;
             readonly Uri connectionUri;
-            Task? runloopTask;
+            Task runloopTask;
             int disposed;
 
             public EndPoint EndPoint { get; }
@@ -68,7 +68,7 @@ namespace SteamKit2
 
                 while (!cancellationToken.IsCancellationRequested && socket.State == WebSocketState.Open)
                 {
-                    byte[]? packet = null;
+                    byte[] packet = null;
 
                     try
                     {
@@ -129,7 +129,7 @@ namespace SteamKit2
                 socket.Dispose();
             }
 
-            async Task<byte[]?> ReadMessageAsync( CancellationToken cancellationToken )
+            async Task<byte[]> ReadMessageAsync( CancellationToken cancellationToken )
             {
                 var outputBuffer = ArrayPool<byte>.Shared.Rent( 1024 );
                 var readBuffer = ArrayPool<byte>.Shared.Rent( 1024 );

@@ -1,3 +1,9 @@
+using log4net.Repository.Hierarchy;
+using QRCoder;
+using SteamKit2;
+using SteamKit2.Authentication;
+using SteamKit2.CDN;
+using SteamKit2.Internal;
 using System;
 using System.Collections.Concurrent;
 using System.Collections.Generic;
@@ -5,11 +11,6 @@ using System.Collections.ObjectModel;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
-using QRCoder;
-using SteamKit2;
-using SteamKit2.Authentication;
-using SteamKit2.CDN;
-using SteamKit2.Internal;
 
 namespace SteamRetriever
 {
@@ -395,6 +396,20 @@ namespace SteamRetriever
             {
                 AppBetaPasswords[entry.Key] = entry.Value;
             }
+        }
+
+        internal async Task<KeyValue> GetPrivateBetaDepotSectionAsync(uint appid, string branch)
+        {
+            if (!AppBetaPasswords.TryGetValue(branch, out var branchPassword)) // Should be filled by CheckAppBetaPassword
+            {
+                return new KeyValue();
+            }
+
+            AppTokens.TryGetValue(appid, out var accessToken); // Should be filled by RequestAppInfo
+
+            var privateBeta = await steamApps.PICSGetPrivateBeta(appid, accessToken, branch, branchPassword);
+
+            return privateBeta.DepotSection;
         }
 
         internal async Task<PublishedFileDetails> GetPublishedFileDetails(uint? appId, PublishedFileID pubFile)

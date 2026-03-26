@@ -52,7 +52,7 @@ namespace SteamKit2.Internal
         /// data after decompression.</param>
         /// <param name="output">The output stream containing decompressed data.</param>
         /// <returns><c>true</c> if decompression was successful, <c>false</c> otherwise.</returns>
-        public static bool TryDecompress( Stream input, Func<int, Stream> outputFactory, [NotNullWhen( true )] out Stream? output )
+        public static bool TryDecompress( Stream input, Func<int, Stream> outputFactory, [NotNullWhen( true )] out Stream output )
         {
             Span<byte> buffer = stackalloc byte[ sizeof( int ) ];
             

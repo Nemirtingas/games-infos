@@ -17,19 +17,19 @@ namespace SteamKit2.Authentication
         /// Gets or sets the username.
         /// </summary>
         /// <value>The username.</value>
-        public string? Username { get; set; }
+        public string Username { get; set; }
 
         /// <summary>
         /// Gets or sets the password.
         /// </summary>
         /// <value>The password.</value>
-        public string? Password { get; set; }
+        public string Password { get; set; }
 
         /// <summary>
         /// Gets or sets the device name (or user agent).
         /// </summary>
         /// <value>The device name.</value>
-        public string? DeviceFriendlyName { get; set; } = $"{Environment.MachineName} (SteamKit2)";
+        public string DeviceFriendlyName { get; set; } = $"{Environment.MachineName} (SteamKit2)";
 
         /// <summary>
         /// Gets or sets the platform type that the login will be performed for.
@@ -53,19 +53,19 @@ namespace SteamKit2.Authentication
         /// Known values are "Unknown", "Client", "Mobile", "Website", "Store", "Community", "Partner", "SteamStats".
         /// </summary>
         /// <value>The website id.</value>
-        public string? WebsiteID { get; set; } = "Client";
+        public string WebsiteID { get; set; } = "Client";
 
         /// <summary>
         /// Steam guard data for client login. Provide <see cref="AuthPollResult.NewGuardData"/> if available.
         /// </summary>
         /// <value>The guard data.</value>
-        public string? GuardData { get; set; }
+        public string GuardData { get; set; }
 
         /// <summary>
         /// Authenticator object which will be used to handle 2-factor authentication if necessary.
         /// Use <see cref="UserConsoleAuthenticator"/> for a default implementation.
         /// </summary>
         /// <value>The authenticator object.</value>
-        public IAuthenticator? Authenticator { get; set; }
+        public IAuthenticator Authenticator { get; set; }
     }
 }

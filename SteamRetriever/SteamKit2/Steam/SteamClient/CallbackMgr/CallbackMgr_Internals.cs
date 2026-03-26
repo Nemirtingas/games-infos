@@ -22,7 +22,7 @@ namespace SteamKit2.Internal
     sealed class Callback<TCall> : CallbackBase, IDisposable
         where TCall : CallbackMsg
     {
-        CallbackManager? mgr;
+        CallbackManager mgr;
 
         public JobID JobID { get; set; }
 

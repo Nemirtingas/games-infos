@@ -263,6 +263,16 @@ namespace SteamKit2.Internal
         public void Resetsysid() => __pbn__sysid = null;
         private uint? __pbn__sysid;
 
+        [global::ProtoBuf.ProtoMember(21)]
+        public ulong trace_tag
+        {
+            get => __pbn__trace_tag.GetValueOrDefault();
+            set => __pbn__trace_tag = value;
+        }
+        public bool ShouldSerializetrace_tag() => __pbn__trace_tag != null;
+        public void Resettrace_tag() => __pbn__trace_tag = null;
+        private ulong? __pbn__trace_tag;
+
         [global::ProtoBuf.ProtoMember(25)]
         public uint webapi_key_id
         {
@@ -418,16 +428,6 @@ namespace SteamKit2.Internal
         public bool ShouldSerializeis_valveds() => __pbn__is_valveds != null;
         public void Resetis_valveds() => __pbn__is_valveds = null;
         private bool? __pbn__is_valveds;
-
-        [global::ProtoBuf.ProtoMember(45, DataFormat = global::ProtoBuf.DataFormat.FixedSize)]
-        public ulong trace_tag
-        {
-            get => __pbn__trace_tag.GetValueOrDefault();
-            set => __pbn__trace_tag = value;
-        }
-        public bool ShouldSerializetrace_tag() => __pbn__trace_tag != null;
-        public void Resettrace_tag() => __pbn__trace_tag = null;
-        private ulong? __pbn__trace_tag;
 
         [global::ProtoBuf.ProtoMember(15)]
         public uint ip
@@ -2074,26 +2074,6 @@ namespace SteamKit2.Internal
         public void Resetnotificaton_token() => __pbn__notificaton_token = null;
         private string __pbn__notificaton_token;
 
-        [global::ProtoBuf.ProtoMember(11)]
-        public int queue_head_position_at_reservation
-        {
-            get => __pbn__queue_head_position_at_reservation.GetValueOrDefault();
-            set => __pbn__queue_head_position_at_reservation = value;
-        }
-        public bool ShouldSerializequeue_head_position_at_reservation() => __pbn__queue_head_position_at_reservation != null;
-        public void Resetqueue_head_position_at_reservation() => __pbn__queue_head_position_at_reservation = null;
-        private int? __pbn__queue_head_position_at_reservation;
-
-        [global::ProtoBuf.ProtoMember(12)]
-        public int queue_head_position_now
-        {
-            get => __pbn__queue_head_position_now.GetValueOrDefault();
-            set => __pbn__queue_head_position_now = value;
-        }
-        public bool ShouldSerializequeue_head_position_now() => __pbn__queue_head_position_now != null;
-        public void Resetqueue_head_position_now() => __pbn__queue_head_position_now = null;
-        private int? __pbn__queue_head_position_now;
-
     }
 
     [global::ProtoBuf.ProtoContract()]
@@ -2231,7 +2211,6 @@ namespace SteamKit2.Internal
         k_EClanSeasonUpdate = 33,
         k_EClanCrosspostEvent = 34,
         k_EClanInGameEventGeneral = 35,
-        k_EClanCreatorHome = 36,
     }
 
     [global::ProtoBuf.ProtoContract()]

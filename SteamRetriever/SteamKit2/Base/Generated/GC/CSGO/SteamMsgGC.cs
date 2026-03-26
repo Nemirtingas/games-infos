@@ -37,14 +37,14 @@ namespace SteamKit2.GC.CSGO.Internal
         private uint? __pbn__quantity;
 
         [global::ProtoBuf.ProtoMember(3)]
-        public ulong cost_in_local_currency
+        public uint cost_in_local_currency
         {
             get => __pbn__cost_in_local_currency.GetValueOrDefault();
             set => __pbn__cost_in_local_currency = value;
         }
         public bool ShouldSerializecost_in_local_currency() => __pbn__cost_in_local_currency != null;
         public void Resetcost_in_local_currency() => __pbn__cost_in_local_currency = null;
-        private ulong? __pbn__cost_in_local_currency;
+        private uint? __pbn__cost_in_local_currency;
 
         [global::ProtoBuf.ProtoMember(4)]
         public uint purchase_type
@@ -3290,16 +3290,6 @@ namespace SteamKit2.GC.CSGO.Internal
         public bool ShouldSerializefor_rental() => __pbn__for_rental != null;
         public void Resetfor_rental() => __pbn__for_rental = null;
         private bool? __pbn__for_rental;
-
-        [global::ProtoBuf.ProtoMember(4)]
-        public uint points_remaining
-        {
-            get => __pbn__points_remaining.GetValueOrDefault();
-            set => __pbn__points_remaining = value;
-        }
-        public bool ShouldSerializepoints_remaining() => __pbn__points_remaining != null;
-        public void Resetpoints_remaining() => __pbn__points_remaining = null;
-        private uint? __pbn__points_remaining;
 
     }
 

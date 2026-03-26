@@ -84,7 +84,7 @@ namespace SteamKit2.CDN
             return false;
         }
 
-        static HttpRequestMessage BuildLancacheRequest( Server server, string command, string? query)
+        static HttpRequestMessage BuildLancacheRequest( Server server, string command, string query)
         {
             var builder = new UriBuilder
             {

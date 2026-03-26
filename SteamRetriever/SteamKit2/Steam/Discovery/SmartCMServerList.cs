@@ -72,7 +72,7 @@ namespace SteamKit2.Discovery
 
         readonly SteamConfiguration configuration;
 
-        Task? listTask;
+        Task listTask;
 
         object listLock = new();
         Collection<ServerInfo> servers = [];
@@ -342,7 +342,7 @@ namespace SteamKit2.Discovery
         /// Perform the actual score lookup of the server list and return the candidate
         /// </summary>
         /// <returns>IPEndPoint candidate</returns>
-        private ServerRecord? GetNextServerCandidateInternal( ProtocolTypes supportedProtocolTypes )
+        private ServerRecord GetNextServerCandidateInternal( ProtocolTypes supportedProtocolTypes )
         {
             lock ( listLock )
             {
@@ -374,7 +374,7 @@ namespace SteamKit2.Discovery
         /// </summary>
         /// <param name="supportedProtocolTypes">The minimum supported <see cref="ProtocolTypes"/> of the server to return.</param>
         /// <returns>An <see cref="System.Net.IPEndPoint"/>, or null if the list is empty.</returns>
-        public ServerRecord? GetNextServerCandidate( ProtocolTypes supportedProtocolTypes )
+        public ServerRecord GetNextServerCandidate( ProtocolTypes supportedProtocolTypes )
         {
             if ( !WaitForServersFetched() )
             {
@@ -389,7 +389,7 @@ namespace SteamKit2.Discovery
         /// </summary>
         /// <param name="supportedProtocolTypes">The minimum supported <see cref="ProtocolTypes"/> of the server to return.</param>
         /// <returns>An <see cref="System.Net.IPEndPoint"/>, or null if the list is empty.</returns>
-        public async Task<ServerRecord?> GetNextServerCandidateAsync( ProtocolTypes supportedProtocolTypes )
+        public async Task<ServerRecord> GetNextServerCandidateAsync( ProtocolTypes supportedProtocolTypes )
         {
             StartFetchingServers();
             await listTask!.ConfigureAwait( false );

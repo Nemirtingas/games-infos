@@ -18,7 +18,7 @@ namespace SteamKit2.Authentication
         /// </summary>
         public SteamID SteamID { get; }
 
-        internal CredentialsAuthSession( SteamAuthentication authentication, IAuthenticator? authenticator, CAuthentication_BeginAuthSessionViaCredentials_Response response )
+        internal CredentialsAuthSession( SteamAuthentication authentication, IAuthenticator authenticator, CAuthentication_BeginAuthSessionViaCredentials_Response response )
             : base( authentication, authenticator, response.client_id, response.request_id, response.allowed_confirmations, response.interval )
         {
             SteamID = new SteamID( response.steamid );

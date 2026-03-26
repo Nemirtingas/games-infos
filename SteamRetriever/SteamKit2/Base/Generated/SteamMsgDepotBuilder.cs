@@ -77,16 +77,6 @@ namespace SteamKit2.Internal
         public void Resetshader_depot() => __pbn__shader_depot = null;
         private bool? __pbn__shader_depot;
 
-        [global::ProtoBuf.ProtoMember(7)]
-        public ulong baseline_manifest_id
-        {
-            get => __pbn__baseline_manifest_id.GetValueOrDefault();
-            set => __pbn__baseline_manifest_id = value;
-        }
-        public bool ShouldSerializebaseline_manifest_id() => __pbn__baseline_manifest_id != null;
-        public void Resetbaseline_manifest_id() => __pbn__baseline_manifest_id = null;
-        private ulong? __pbn__baseline_manifest_id;
-
     }
 
     [global::ProtoBuf.ProtoContract()]
@@ -138,14 +128,14 @@ namespace SteamKit2.Internal
 
         [global::ProtoBuf.ProtoMember(5)]
         [global::System.ComponentModel.DefaultValue("")]
-        public string deprecated_url_host
+        public string url_host
         {
-            get => __pbn__deprecated_url_host ?? "";
-            set => __pbn__deprecated_url_host = value;
+            get => __pbn__url_host ?? "";
+            set => __pbn__url_host = value;
         }
-        public bool ShouldSerializedeprecated_url_host() => __pbn__deprecated_url_host != null;
-        public void Resetdeprecated_url_host() => __pbn__deprecated_url_host = null;
-        private string __pbn__deprecated_url_host;
+        public bool ShouldSerializeurl_host() => __pbn__url_host != null;
+        public void Reseturl_host() => __pbn__url_host = null;
+        private string __pbn__url_host;
 
         [global::ProtoBuf.ProtoMember(6)]
         public bool offset_detection_enabled
@@ -216,49 +206,6 @@ namespace SteamKit2.Internal
         public bool ShouldSerializecompression_method() => __pbn__compression_method != null;
         public void Resetcompression_method() => __pbn__compression_method = null;
         private uint? __pbn__compression_method;
-
-        [global::ProtoBuf.ProtoMember(13)]
-        [global::System.ComponentModel.DefaultValue("")]
-        public string download_host
-        {
-            get => __pbn__download_host ?? "";
-            set => __pbn__download_host = value;
-        }
-        public bool ShouldSerializedownload_host() => __pbn__download_host != null;
-        public void Resetdownload_host() => __pbn__download_host = null;
-        private string __pbn__download_host;
-
-        [global::ProtoBuf.ProtoMember(14)]
-        public ulong manifest_request_code
-        {
-            get => __pbn__manifest_request_code.GetValueOrDefault();
-            set => __pbn__manifest_request_code = value;
-        }
-        public bool ShouldSerializemanifest_request_code() => __pbn__manifest_request_code != null;
-        public void Resetmanifest_request_code() => __pbn__manifest_request_code = null;
-        private ulong? __pbn__manifest_request_code;
-
-        [global::ProtoBuf.ProtoMember(15)]
-        [global::System.ComponentModel.DefaultValue("")]
-        public string chunk_upload_host
-        {
-            get => __pbn__chunk_upload_host ?? "";
-            set => __pbn__chunk_upload_host = value;
-        }
-        public bool ShouldSerializechunk_upload_host() => __pbn__chunk_upload_host != null;
-        public void Resetchunk_upload_host() => __pbn__chunk_upload_host = null;
-        private string __pbn__chunk_upload_host;
-
-        [global::ProtoBuf.ProtoMember(16)]
-        [global::System.ComponentModel.DefaultValue("")]
-        public string manifest_upload_host
-        {
-            get => __pbn__manifest_upload_host ?? "";
-            set => __pbn__manifest_upload_host = value;
-        }
-        public bool ShouldSerializemanifest_upload_host() => __pbn__manifest_upload_host != null;
-        public void Resetmanifest_upload_host() => __pbn__manifest_upload_host = null;
-        private string __pbn__manifest_upload_host;
 
     }
 
@@ -486,16 +433,6 @@ namespace SteamKit2.Internal
         public void Resetprev_reused() => __pbn__prev_reused = null;
         private bool? __pbn__prev_reused;
 
-        [global::ProtoBuf.ProtoMember(3)]
-        public ulong manifest_request_code
-        {
-            get => __pbn__manifest_request_code.GetValueOrDefault();
-            set => __pbn__manifest_request_code = value;
-        }
-        public bool ShouldSerializemanifest_request_code() => __pbn__manifest_request_code != null;
-        public void Resetmanifest_request_code() => __pbn__manifest_request_code = null;
-        private ulong? __pbn__manifest_request_code;
-
     }
 
     [global::ProtoBuf.ProtoContract()]
@@ -549,16 +486,6 @@ namespace SteamKit2.Internal
         public bool ShouldSerializefor_local_cs() => __pbn__for_local_cs != null;
         public void Resetfor_local_cs() => __pbn__for_local_cs = null;
         private bool? __pbn__for_local_cs;
-
-        [global::ProtoBuf.ProtoMember(7)]
-        public bool web_upload
-        {
-            get => __pbn__web_upload.GetValueOrDefault();
-            set => __pbn__web_upload = value;
-        }
-        public bool ShouldSerializeweb_upload() => __pbn__web_upload != null;
-        public void Resetweb_upload() => __pbn__web_upload = null;
-        private bool? __pbn__web_upload;
 
         [global::ProtoBuf.ProtoContract()]
         public partial class Depots : global::ProtoBuf.IExtensible

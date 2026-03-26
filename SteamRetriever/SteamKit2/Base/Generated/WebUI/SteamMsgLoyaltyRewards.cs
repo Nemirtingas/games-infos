@@ -429,16 +429,6 @@ namespace SteamKit2.WebUI.Internal
         [global::ProtoBuf.ProtoMember(5)]
         public global::System.Collections.Generic.List<uint> valid_ugc_types { get; } = new global::System.Collections.Generic.List<uint>();
 
-        [global::ProtoBuf.ProtoMember(6)]
-        public bool purchaseable
-        {
-            get => __pbn__purchaseable.GetValueOrDefault();
-            set => __pbn__purchaseable = value;
-        }
-        public bool ShouldSerializepurchaseable() => __pbn__purchaseable != null;
-        public void Resetpurchaseable() => __pbn__purchaseable = null;
-        private bool? __pbn__purchaseable;
-
     }
 
     [global::ProtoBuf.ProtoContract()]
@@ -527,26 +517,6 @@ namespace SteamKit2.WebUI.Internal
         public global::System.Collections.Generic.List<CLoyaltyRewards_GetReactionsSummaryForUser_Response_Breakdown> comments { get; } = new global::System.Collections.Generic.List<CLoyaltyRewards_GetReactionsSummaryForUser_Response_Breakdown>();
 
         [global::ProtoBuf.ProtoMember(7)]
-        public uint total_given
-        {
-            get => __pbn__total_given.GetValueOrDefault();
-            set => __pbn__total_given = value;
-        }
-        public bool ShouldSerializetotal_given() => __pbn__total_given != null;
-        public void Resettotal_given() => __pbn__total_given = null;
-        private uint? __pbn__total_given;
-
-        [global::ProtoBuf.ProtoMember(8)]
-        public uint total_received
-        {
-            get => __pbn__total_received.GetValueOrDefault();
-            set => __pbn__total_received = value;
-        }
-        public bool ShouldSerializetotal_received() => __pbn__total_received != null;
-        public void Resettotal_received() => __pbn__total_received = null;
-        private uint? __pbn__total_received;
-
-        [global::ProtoBuf.ProtoMember(9)]
         public long total_points_given
         {
             get => __pbn__total_points_given.GetValueOrDefault();
@@ -556,7 +526,7 @@ namespace SteamKit2.WebUI.Internal
         public void Resettotal_points_given() => __pbn__total_points_given = null;
         private long? __pbn__total_points_given;
 
-        [global::ProtoBuf.ProtoMember(10)]
+        [global::ProtoBuf.ProtoMember(8)]
         public long total_points_received
         {
             get => __pbn__total_points_received.GetValueOrDefault();
@@ -565,6 +535,26 @@ namespace SteamKit2.WebUI.Internal
         public bool ShouldSerializetotal_points_received() => __pbn__total_points_received != null;
         public void Resettotal_points_received() => __pbn__total_points_received = null;
         private long? __pbn__total_points_received;
+
+        [global::ProtoBuf.ProtoMember(9)]
+        public long total_points_given__field_9
+        {
+            get => __pbn__total_points_given__field_9.GetValueOrDefault();
+            set => __pbn__total_points_given__field_9 = value;
+        }
+        public bool ShouldSerializetotal_points_given__field_9() => __pbn__total_points_given__field_9 != null;
+        public void Resettotal_points_given__field_9() => __pbn__total_points_given__field_9 = null;
+        private long? __pbn__total_points_given__field_9;
+
+        [global::ProtoBuf.ProtoMember(10)]
+        public long total_points_received__field_10
+        {
+            get => __pbn__total_points_received__field_10.GetValueOrDefault();
+            set => __pbn__total_points_received__field_10 = value;
+        }
+        public bool ShouldSerializetotal_points_received__field_10() => __pbn__total_points_received__field_10 != null;
+        public void Resettotal_points_received__field_10() => __pbn__total_points_received__field_10 = null;
+        private long? __pbn__total_points_received__field_10;
 
     }
 
@@ -624,16 +614,6 @@ namespace SteamKit2.WebUI.Internal
         public bool ShouldSerializepoints_received() => __pbn__points_received != null;
         public void Resetpoints_received() => __pbn__points_received = null;
         private long? __pbn__points_received;
-
-        [global::ProtoBuf.ProtoMember(6)]
-        public bool purchaseable
-        {
-            get => __pbn__purchaseable.GetValueOrDefault();
-            set => __pbn__purchaseable = value;
-        }
-        public bool ShouldSerializepurchaseable() => __pbn__purchaseable != null;
-        public void Resetpurchaseable() => __pbn__purchaseable = null;
-        private bool? __pbn__purchaseable;
 
     }
 

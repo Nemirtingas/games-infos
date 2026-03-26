@@ -6,146 +6,86 @@ using System.Threading;
 using System.Threading.Tasks;
 using SteamKit2.CDN;
 
-namespace SteamRetriever
+namespace SteamRetriever;
+
+/// <summary>
+/// CDNClientPool provides a pool of connections to CDN endpoints, requesting CDN tokens as needed
+/// </summary>
+internal class CDNClientPool
 {
-    /// <summary>
-    /// CDNClientPool provides a pool of connections to CDN endpoints, requesting CDN tokens as needed
-    /// </summary>
-    class CDNClientPool
+    private readonly Steam3Session SteamSession;
+    internal Client CDNClient { get; }
+    internal Server ProxyServer { get; private set; }
+
+    private ConcurrentDictionary<string, int> ContentServerPenalty;
+    private readonly List<Server> servers = [];
+    private int nextServer;
+
+    internal CDNClientPool(Steam3Session steamSession, ConcurrentDictionary<string, int> contentServerPenalty)
     {
-        private const int ServerEndpointMinimumSize = 8;
+        SteamSession = steamSession;
+        ContentServerPenalty = contentServerPenalty;
+        CDNClient = new Client(steamSession.steamClient);
+    }
 
-        private readonly Steam3Session steamSession;
-        private readonly uint appId;
-        public Client CDNClient { get; }
-        public Server ProxyServer { get; private set; }
+    internal async Task UpdateServerList()
+    {
+        var servers = await this.SteamSession.steamContent.GetServersForSteamPipe();
 
-        private readonly ConcurrentStack<Server> activeConnectionPool = [];
-        private readonly BlockingCollection<Server> availableServerEndpoints = [];
+        ProxyServer = servers.Where(x => x.UseAsProxy).FirstOrDefault();
 
-        private readonly AutoResetEvent populatePoolEvent = new(true);
-        private readonly Task monitorTask;
-        private readonly CancellationTokenSource shutdownToken = new();
-        public CancellationTokenSource ExhaustedToken { get; set; }
-
-        public CDNClientPool(Steam3Session steamSession, uint appId)
-        {
-            this.steamSession = steamSession;
-            this.appId = appId;
-            CDNClient = new Client(steamSession.steamClient);
-
-            monitorTask = Task.Factory.StartNew(ConnectionPoolMonitorAsync).Unwrap();
-        }
-
-        public void Shutdown()
-        {
-            shutdownToken.Cancel();
-            monitorTask.Wait();
-        }
-
-        private async Task<IReadOnlyCollection<Server>> FetchBootstrapServerListAsync()
-        {
-            try
+        var weightedCdnServers = servers
+            .Where(server =>
             {
-                var cdnServers = await this.steamSession.steamContent.GetServersForSteamPipe();
-                if (cdnServers != null)
-                {
-                    return cdnServers;
-                }
-            }
-            catch (Exception ex)
+                return (server.Type == "SteamCache" || server.Type == "CDN");
+            })
+            .Select(server =>
             {
-                Program.Instance._logger.Error($"Failed to retrieve content server list: {ex.Message}");
-            }
+                ContentServerPenalty.TryGetValue(server.Host, out var penalty);
 
-            return null;
-        }
+                return (server, penalty);
+            })
+            .OrderBy(pair => pair.penalty).ThenBy(pair => pair.server.WeightedLoad);
 
-        private async Task ConnectionPoolMonitorAsync()
+        foreach (var (server, weight) in weightedCdnServers)
         {
-            var didPopulate = false;
-
-            while (!shutdownToken.IsCancellationRequested)
+            for (var i = 0; i < server.NumEntries; i++)
             {
-                populatePoolEvent.WaitOne(TimeSpan.FromSeconds(1));
-
-                // We want the Steam session so we can take the CellID from the session and pass it through to the ContentServer Directory Service
-                if (availableServerEndpoints.Count < ServerEndpointMinimumSize && steamSession.steamClient.IsConnected)
-                {
-                    var servers = await FetchBootstrapServerListAsync().ConfigureAwait(false);
-
-                    if (servers == null || servers.Count == 0)
-                    {
-                        ExhaustedToken?.Cancel();
-                        return;
-                    }
-
-                    ProxyServer = servers.Where(x => x.UseAsProxy).FirstOrDefault();
-
-                    var weightedCdnServers = servers
-                        .Where(server =>
-                        {
-                            var isEligibleForApp = server.AllowedAppIds.Length == 0 || server.AllowedAppIds.Contains(appId);
-                            return isEligibleForApp && (server.Type == "SteamCache" || server.Type == "CDN");
-                        })
-                        .Select(server =>
-                        {
-                            AccountSettingsStore.Instance.Settings.ContentServerPenalty.TryGetValue(server.Host, out var penalty);
-
-                            return (server, penalty);
-                        })
-                        .OrderBy(pair => pair.penalty).ThenBy(pair => pair.server.WeightedLoad);
-
-                    foreach (var (server, weight) in weightedCdnServers)
-                    {
-                        for (var i = 0; i < server.NumEntries; i++)
-                        {
-                            availableServerEndpoints.Add(server);
-                        }
-                    }
-
-                    didPopulate = true;
-                }
-                else if (availableServerEndpoints.Count == 0 && !steamSession.steamClient.IsConnected && didPopulate)
-                {
-                    ExhaustedToken?.Cancel();
-                    return;
-                }
+                this.servers.Add(server);
             }
         }
 
-        private Server BuildConnection(CancellationToken token)
+        if (this.servers.Count == 0)
         {
-            if (availableServerEndpoints.Count < ServerEndpointMinimumSize)
+            throw new Exception("Failed to retrieve any download servers.");
+        }
+    }
+
+    internal Server GetConnection(uint appId)
+    {
+        var servers = this.servers.Where(e => e.AllowedAppIds.Length == 0 || e.AllowedAppIds.Contains(appId)).ToList();
+        return servers[nextServer % servers.Count];
+    }
+
+    internal void ReturnConnection(Server server)
+    {
+        if (server == null) return;
+
+        // nothing to do, maybe remove from ContentServerPenalty?
+    }
+
+    internal void ReturnBrokenConnection(Server server)
+    {
+        if (server == null) return;
+
+        lock (servers)
+        {
+            if (servers[nextServer % servers.Count] == server)
             {
-                populatePoolEvent.Set();
+                nextServer++;
+
+                // TODO: Add server to ContentServerPenalty
             }
-
-            return availableServerEndpoints.Take(token);
-        }
-
-        public Server GetConnection(CancellationToken token)
-        {
-            if (!activeConnectionPool.TryPop(out var connection))
-            {
-                connection = BuildConnection(token);
-            }
-
-            return connection;
-        }
-
-        public void ReturnConnection(Server server)
-        {
-            if (server == null) return;
-
-            activeConnectionPool.Push(server);
-        }
-
-        public void ReturnBrokenConnection(Server server)
-        {
-            if (server == null) return;
-
-            // Broken connections are not returned to the pool
         }
     }
 }

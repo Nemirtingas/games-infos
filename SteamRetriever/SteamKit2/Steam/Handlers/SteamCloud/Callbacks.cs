@@ -13,7 +13,7 @@ namespace SteamKit2
         /// <summary>
         /// This callback is received in response to calling <see cref="RequestUGCDetails"/>.
         /// </summary>
-        public sealed class UGCDetailsCallback
+        public sealed class UGCDetailsCallback : CallbackMsg
         {
             /// <summary>
             /// Gets the result of the request.
@@ -24,12 +24,6 @@ namespace SteamKit2
             /// Gets the App ID the UGC is for.
             /// </summary>
             public uint AppID { get; private set; }
-
-            /// <summary>
-            /// Gets the UGC ID.
-            /// </summary>
-            public ulong UGCId { get; private set; }
-
             /// <summary>
             /// Gets the SteamID of the UGC's creator.
             /// </summary>
@@ -44,59 +38,35 @@ namespace SteamKit2
             /// Gets the name of the file.
             /// </summary>
             public string FileName { get; private set; }
-
             /// <summary>
             /// Gets the size of the file.
             /// </summary>
             public uint FileSize { get; private set; }
 
-            /// <summary>
-            /// Gets the timestamp of the file.
-            /// </summary>
-            public DateTime Timestamp { get; private set; }
 
-            /// <summary>
-            /// Gets the SHA hash of the file.
-            /// </summary>
-            public string FileSHA { get; private set; }
-
-            /// <summary>
-            /// Gets the compressed size of the file.
-            /// </summary>
-            public uint CompressedFileSize { get; private set; }
-
-            /// <summary>
-            /// Gets the rangecheck host.
-            /// </summary>
-            public string RangecheckHost { get; private set; }
-
-
-            internal UGCDetailsCallback( SteamUnifiedMessages.ServiceMethodResponse<CCloud_GetFileDetails_Response> response )
+            internal UGCDetailsCallback( IPacketMsg packetMsg )
             {
-                Result = response.Result;
+                var infoResponse = new ClientMsgProtobuf<CMsgClientUFSGetUGCDetailsResponse>( packetMsg );
+                var msg = infoResponse.Body;
 
-                var msg = response.Body.details;
+                JobID = infoResponse.TargetJobID;
 
-                AppID = msg.appid;
-                UGCId = msg.ugcid;
+                Result = ( EResult )msg.eresult;
+
+                AppID = msg.app_id;
                 Creator = msg.steamid_creator;
 
                 URL = msg.url;
 
                 FileName = msg.filename;
                 FileSize = msg.file_size;
-                Timestamp = DateUtils.DateTimeFromUnixTime( msg.timestamp );
-                FileSHA = msg.file_sha;
-                CompressedFileSize = msg.compressed_file_size;
-
-                RangecheckHost = response.Body.rangecheck_host;
             }
         }
 
         /// <summary>
         /// This callback is received in response to calling <see cref="GetSingleFileInfo"/>.
         /// </summary>
-        public sealed class SingleFileInfoCallback
+        public sealed class SingleFileInfoCallback : CallbackMsg
         {
             /// <summary>
             /// Gets the result of the request.
@@ -131,11 +101,14 @@ namespace SteamKit2
             /// </summary>
             public bool IsExplicitDelete { get; private set; }
 
-            internal SingleFileInfoCallback( SteamUnifiedMessages.ServiceMethodResponse<CCloud_GetSingleFileInfo_Response> response )
+            internal SingleFileInfoCallback( IPacketMsg packetMsg )
             {
-                var msg = response.Body;
+                var infoResponse = new ClientMsgProtobuf<CMsgClientUFSGetSingleFileInfoResponse>( packetMsg );
+                var msg = infoResponse.Body;
 
-                Result = response.Result;
+                JobID = infoResponse.TargetJobID;
+
+                Result = (EResult)msg.eresult;
 
                 AppID = msg.app_id;
                 FileName = msg.file_name;
@@ -149,7 +122,7 @@ namespace SteamKit2
         /// <summary>
         /// This callback is received in response to calling <see cref="ShareFile"/>.
         /// </summary>
-        public sealed class ShareFileCallback
+        public sealed class ShareFileCallback : CallbackMsg
         {
             /// <summary>
             /// Gets the result of the request.
@@ -161,11 +134,14 @@ namespace SteamKit2
             /// </summary>
             public ulong UGCId { get; private set; }
 
-            internal ShareFileCallback( SteamUnifiedMessages.ServiceMethodResponse<CCloud_ShareFile_Response> response )
+            internal ShareFileCallback( IPacketMsg packetMsg )
             {
-                var msg = response.Body;
+                var shareResponse = new ClientMsgProtobuf<CMsgClientUFSShareFileResponse>( packetMsg );
+                var msg = shareResponse.Body;
 
-                Result = response.Result;
+                JobID = shareResponse.TargetJobID;
+
+                Result = (EResult)msg.eresult;
 
                 UGCId = msg.hcontent;
             }

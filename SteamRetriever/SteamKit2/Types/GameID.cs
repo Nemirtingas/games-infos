@@ -106,7 +106,7 @@ namespace SteamKit2
             gameid.Data = gameId;
         }
         /// <summary>
-        /// Converts this GameID into its 64bit integer form.
+        /// Converts this GameID into it's 64bit integer form.
         /// </summary>
         /// <returns>A 64bit integer representing this GameID.</returns>
         public ulong ToUInt64()
@@ -121,7 +121,7 @@ namespace SteamKit2
         /// <returns>
         /// The result of the conversion.
         /// </returns>
-        public static implicit operator string( GameID? gid )
+        public static implicit operator string( GameID gid )
         {
             ArgumentNullException.ThrowIfNull( gid );
 
@@ -135,7 +135,7 @@ namespace SteamKit2
         /// <returns>
         /// The result of the conversion.
         /// </returns>
-        public static implicit operator ulong( GameID? gid )
+        public static implicit operator ulong( GameID gid )
         {
             ArgumentNullException.ThrowIfNull( gid );
 
@@ -258,7 +258,7 @@ namespace SteamKit2
         /// <returns>
         ///   <c>true</c> if the specified <see cref="object"/> is equal to this instance; otherwise, <c>false</c>.
         /// </returns>
-        public override bool Equals( object? obj )
+        public override bool Equals( object obj )
         {
             if ( obj is not GameID gid )
             {
@@ -275,7 +275,7 @@ namespace SteamKit2
         /// <returns>
         ///   <c>true</c> if the specified <see cref="GameID"/> is equal to this instance; otherwise, <c>false</c>.
         /// </returns>
-        public bool Equals( GameID? gid )
+        public bool Equals( GameID gid )
         {
             if ( gid is null )
             {
@@ -293,7 +293,7 @@ namespace SteamKit2
         /// <returns>
         /// The result of the operator.
         /// </returns>
-        public static bool operator ==( GameID? a, GameID? b )
+        public static bool operator ==( GameID a, GameID b )
         {
             if ( object.ReferenceEquals( a, b ) )
             {
@@ -316,7 +316,7 @@ namespace SteamKit2
         /// <returns>
         /// The result of the operator.
         /// </returns>
-        public static bool operator !=( GameID? a, GameID? b )
+        public static bool operator !=( GameID a, GameID b )
         {
             return !( a == b );
         }
@@ -329,7 +329,7 @@ namespace SteamKit2
         /// </returns>
         public override int GetHashCode()
         {
-            return gameid.Data.GetHashCode();
+            return gameid.GetHashCode();
         }
 
         /// <summary>

@@ -58,7 +58,7 @@ namespace SteamKit2
         /// <returns>
         ///   <c>true</c> if the specified <see cref="object"/> is equal to this instance; otherwise, <c>false</c>.
         /// </returns>
-        public override bool Equals( object? obj )
+        public override bool Equals( object obj )
         {
             if ( obj is UInt64Handle handle )
             {
@@ -86,7 +86,7 @@ namespace SteamKit2
         /// <returns>
         /// true if the current object is equal to the other parameter; otherwise, false.
         /// </returns>
-        public bool Equals( UInt64Handle? other )
+        public bool Equals( UInt64Handle other )
         {
             if ( other is null )
             {
@@ -124,7 +124,7 @@ namespace SteamKit2
         /// <returns>
         /// The result of the conversion.
         /// </returns>
-        public static implicit operator ulong( PublishedFileID? file )
+        public static implicit operator ulong( PublishedFileID file )
         {
             ArgumentNullException.ThrowIfNull( file );
 

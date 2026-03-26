@@ -12,18 +12,18 @@ namespace SteamKit2
         /// Provides a unique machine ID as binary data.
         /// </summary>
         /// <returns>The unique machine ID, or <c>null</c> if no such value could be found.</returns>
-        byte[]? GetMachineGuid();
+        byte[] GetMachineGuid();
 
         /// <summary>
         /// Provides the primary MAC address as binary data.
         /// </summary>
         /// <returns>The primary MAC address, or <c>null</c> if no such value could be found.</returns>
-        byte[]? GetMacAddress();
+        byte[] GetMacAddress();
 
         /// <summary>
         /// Provides the boot disk's unique ID as binary data.
         /// </summary>
         /// <returns>The boot disk's unique ID, or <c>null</c> if no such value could be found.</returns>
-        byte[]? GetDiskId();
+        byte[] GetDiskId();
     }
 }

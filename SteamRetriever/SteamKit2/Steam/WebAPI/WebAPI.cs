@@ -94,8 +94,8 @@ namespace SteamKit2
             /// <exception cref="ArgumentNullException">The function name or request method provided were <c>null</c>.</exception>
             /// <exception cref="HttpRequestException">An network error occurred when performing the request.</exception>
             /// <exception cref="WebAPIRequestException">A network error occurred when performing the request.</exception>
-            /// <exception cref="InvalidDataException">An error occurred when parsing the response from the WebAPI.</exception>
-            public KeyValue Call( string func, int version = 1, Dictionary<string, object?>? args = null )
+            /// <exception cref="InvalidDataException">An error occured when parsing the response from the WebAPI.</exception>
+            public KeyValue Call( string func, int version = 1, Dictionary<string, object> args = null )
                 => Call( HttpMethod.Get, func, version, args );
 
 
@@ -110,8 +110,8 @@ namespace SteamKit2
             /// <exception cref="ArgumentNullException">The function name or request method provided were <c>null</c>.</exception>
             /// <exception cref="HttpRequestException">An network error occurred when performing the request.</exception>
             /// <exception cref="WebAPIRequestException">A network error occurred when performing the request.</exception>
-            /// <exception cref="InvalidDataException">An error occurred when parsing the response from the WebAPI.</exception>
-            public KeyValue Call( HttpMethod method, string func, int version = 1, Dictionary<string, object?>? args = null )
+            /// <exception cref="InvalidDataException">An error occured when parsing the response from the WebAPI.</exception>
+            public KeyValue Call( HttpMethod method, string func, int version = 1, Dictionary<string, object> args = null )
             {
                 var callTask = asyncInterface.CallAsync( method, func, version, args );
 
@@ -174,7 +174,7 @@ namespace SteamKit2
             /// <exception cref="ArgumentOutOfRangeException">
             /// The function version number specified was out of range.
             /// </exception>
-            public override bool TryInvokeMember( InvokeMemberBinder binder, object?[]? args, out object result )
+            public override bool TryInvokeMember( InvokeMemberBinder binder, object[] args, out object result )
             {
                 bool success = asyncInterface.TryInvokeMember( binder, args, out result );
 
@@ -234,8 +234,8 @@ namespace SteamKit2
             /// <exception cref="ArgumentNullException">The function name or request method provided were <c>null</c>.</exception>
             /// <exception cref="HttpRequestException">An network error occurred when performing the request.</exception>
             /// <exception cref="WebAPIRequestException">A network error occurred when performing the request.</exception>
-            /// <exception cref="ProtoException">An error occurred when parsing the response from the WebAPI.</exception>
-            public async Task<T> CallProtobufAsync<T>( HttpMethod method, string func, int version = 1, Dictionary<string, object?>? args = null )
+            /// <exception cref="ProtoException">An error occured when parsing the response from the WebAPI.</exception>
+            public async Task<T> CallProtobufAsync<T>( HttpMethod method, string func, int version = 1, Dictionary<string, object> args = null )
             {
                 var response = await CallAsyncInternal( method, func, version, args, "protobuf_raw" ).ConfigureAwait( false );
 
@@ -260,8 +260,8 @@ namespace SteamKit2
             /// <exception cref="ArgumentNullException">The function name or request method provided were <c>null</c>.</exception>
             /// <exception cref="HttpRequestException">An network error occurred when performing the request.</exception>
             /// <exception cref="WebAPIRequestException">A network error occurred when performing the request.</exception>
-            /// <exception cref="ProtoException">An error occurred when parsing the response from the WebAPI.</exception>
-            public async Task<WebAPIResponse<TResponse>> CallProtobufAsync<TResponse, TRequest>( HttpMethod method, string func, TRequest request, int version = 1, Dictionary<string, object?>? extraArgs = null )
+            /// <exception cref="ProtoException">An error occured when parsing the response from the WebAPI.</exception>
+            public async Task<WebAPIResponse<TResponse>> CallProtobufAsync<TResponse, TRequest>( HttpMethod method, string func, TRequest request, int version = 1, Dictionary<string, object> extraArgs = null )
                 where TResponse : IExtensible, new()
                 where TRequest : IExtensible, new()
             {
@@ -278,7 +278,7 @@ namespace SteamKit2
                 Serializer.Serialize<TRequest>( inputPayload, request );
 
                 var base64 = Convert.ToBase64String( inputPayload.ToArray() );
-                var args = new Dictionary<string, object?>
+                var args = new Dictionary<string, object>
                 {
                     { "input_protobuf_encoded", base64 },
                 };
@@ -317,8 +317,8 @@ namespace SteamKit2
             /// <exception cref="ArgumentNullException">The function name or request method provided were <c>null</c>.</exception>
             /// <exception cref="HttpRequestException">An network error occurred when performing the request.</exception>
             /// <exception cref="WebAPIRequestException">A network error occurred when performing the request.</exception>
-            /// <exception cref="InvalidDataException">An error occurred when parsing the response from the WebAPI.</exception>
-            public Task<KeyValue> CallAsync( string func, int version = 1, Dictionary<string, object?>? args = null )
+            /// <exception cref="InvalidDataException">An error occured when parsing the response from the WebAPI.</exception>
+            public Task<KeyValue> CallAsync( string func, int version = 1, Dictionary<string, object> args = null )
                 => CallAsync( HttpMethod.Get, func, version, args );
 
             /// <summary>
@@ -332,8 +332,8 @@ namespace SteamKit2
             /// <exception cref="ArgumentNullException">The function name or request method provided were <c>null</c>.</exception>
             /// <exception cref="HttpRequestException">An network error occurred when performing the request.</exception>
             /// <exception cref="WebAPIRequestException">A network error occurred when performing the request.</exception>
-            /// <exception cref="InvalidDataException">An error occurred when parsing the response from the WebAPI.</exception>
-            public async Task<KeyValue> CallAsync( HttpMethod method, string func, int version = 1, Dictionary<string, object?>? args = null )
+            /// <exception cref="InvalidDataException">An error occured when parsing the response from the WebAPI.</exception>
+            public async Task<KeyValue> CallAsync( HttpMethod method, string func, int version = 1, Dictionary<string, object> args = null )
             {
                 var response = await CallAsyncInternal( method, func, version, args, "vdf" ).ConfigureAwait( false );
 
@@ -354,7 +354,7 @@ namespace SteamKit2
                 }
             }
 
-            private async Task<HttpResponseMessage> CallAsyncInternal( HttpMethod method, string func, int version, Dictionary<string, object?>? args, string expectedFormat )
+            private async Task<HttpResponseMessage> CallAsyncInternal( HttpMethod method, string func, int version, Dictionary<string, object> args, string expectedFormat )
             {
                 ArgumentNullException.ThrowIfNull( method );
 
@@ -483,12 +483,12 @@ namespace SteamKit2
             /// <exception cref="ArgumentOutOfRangeException">
             /// The function version number specified was out of range.
             /// </exception>
-            public override bool TryInvokeMember( InvokeMemberBinder binder, object?[]? args, out object result )
+            public override bool TryInvokeMember( InvokeMemberBinder binder, object[] args, out object result )
             {
-                IDictionary<string, object?> methodArgs;
+                IDictionary<string, object> methodArgs;
                 args ??= [];
 
-                if ( args.Length == 1 && binder.CallInfo.ArgumentNames.Count == 0 && args[ 0 ] is IDictionary<string, object?> explicitArgs )
+                if ( args.Length == 1 && binder.CallInfo.ArgumentNames.Count == 0 && args[ 0 ] is IDictionary<string, object> explicitArgs )
                 {
                     methodArgs = explicitArgs;
                 }
@@ -504,7 +504,7 @@ namespace SteamKit2
                             x => args[ x ] );
                 }
 
-                var apiArgs = new Dictionary<string, object?>();
+                var apiArgs = new Dictionary<string, object>();
                 var requestMethod = HttpMethod.Get;
 
                 foreach ( var (argName, argValue) in methodArgs )

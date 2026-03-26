@@ -1,4 +1,4 @@
-﻿/*
+/*
  * This file is subject to the terms and conditions defined in
  * file 'license.txt', which is part of this source code package.
  */
@@ -50,7 +50,7 @@ namespace SteamKit2
         /// </summary>
         private volatile int state;
 
-        private Thread? netThread;
+        private Thread netThread;
         private Socket sock;
 
         private DateTime timeOut;
@@ -93,7 +93,7 @@ namespace SteamKit2
 
         public UdpConnection(ILogContext log)
         {
-            this.log = log ?? throw new ArgumentNullException( nameof( log ) );
+            this.log = log ?? throw new ArgumentNullException(nameof(log));
 
             IPEndPoint localEndPoint = new IPEndPoint(IPAddress.Any, 0);
 
@@ -106,13 +106,13 @@ namespace SteamKit2
             inPackets = [];
         }
 
-        public event EventHandler<NetMsgEventArgs>? NetMsgReceived;
+        public event EventHandler<NetMsgEventArgs> NetMsgReceived;
 
-        public event EventHandler? Connected;
+        public event EventHandler Connected;
 
-        public event EventHandler<DisconnectedEventArgs>? Disconnected;
+        public event EventHandler<DisconnectedEventArgs> Disconnected;
 
-        public EndPoint? CurrentEndPoint { get; private set; }
+        public EndPoint CurrentEndPoint { get; private set; }
 
         public ProtocolTypes ProtocolTypes => ProtocolTypes.Udp;
 
@@ -384,7 +384,7 @@ namespace SteamKit2
         /// <summary>
         /// Processes incoming packets, maintains connection consistency, and oversees outgoing packets.
         /// </summary>
-        private void NetLoop(object? param)
+        private void NetLoop(object param)
         {
             // Variables that will be used deeper in the function; locating them here avoids recreating
             // them since they don't need to be.

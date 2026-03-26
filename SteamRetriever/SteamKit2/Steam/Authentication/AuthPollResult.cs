@@ -29,7 +29,7 @@ namespace SteamKit2.Authentication
         /// May contain remembered machine ID for future login, usually when account uses email based Steam Guard.
         /// Supply it in <see cref="AuthSessionDetails.GuardData"/> for future logins to avoid resending an email. This value should be stored per account.
         /// </summary>
-        public string? NewGuardData { get; }
+        public string NewGuardData { get; }
 
         internal AuthPollResult( CAuthentication_PollAuthSessionStatus_Response response )
         {
