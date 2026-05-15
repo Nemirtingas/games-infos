@@ -465,11 +465,22 @@ namespace epic_retriever
             {}
 
             // TODO: Handle DLCs
-            if (catalog_entry?.Asset == null || app?.IsDlc != false)
+            if (app?.IsDlc != false)
                 return;
+
+            var applicationId = catalog_entry?.Asset?.AppName;
+
+            if (catalog_entry?.Asset == null)
+            {
+                var release = app.ReleaseInfo.FirstOrDefault();
+                if (release == null)
+                    return;
+
+                applicationId = release.AppId;
+            }
             
             var game_infos = new AppInfoModel();
-            Console.WriteLine("App {0}, AppId {1}, Namespace {2}, ItemId {3}", app.Title, catalog_entry.Asset.AppName, app.Namespace, app.Id);
+            Console.WriteLine("App {0}, AppId {1}, Namespace {2}, ItemId {3}", app.Title, applicationId, app.Namespace, app.Id);
             int title_length = 0;
             int id_length = 0;
             int namespace_length = 0;
@@ -510,18 +521,18 @@ namespace epic_retriever
 
             game_infos.Dlcs = new List<DlcInfoModel>();
             game_infos.Name = app.Title;
-            game_infos.AppId = catalog_entry.Asset.AppName;
+            game_infos.AppId = applicationId;
             game_infos.Namespace = app.Namespace;
             game_infos.ItemId = app.Id;
             game_infos.ImageUrl = FindBestImage(app);
             game_infos.Releases = new List<string>();
 
-            var applicationDetails = applicationsDetails.SingleOrDefault(e => e.ApplicationId == catalog_entry.Asset.AppName && e.Namespace == app.Namespace);
+            var applicationDetails = applicationsDetails.SingleOrDefault(e => e.ApplicationId == applicationId && e.Namespace == app.Namespace);
             if (applicationDetails == null)
             {
                 applicationDetails = new ApplicationDetails
                 {
-                    ApplicationId = catalog_entry.Asset.AppName,
+                    ApplicationId = applicationId,
                     Namespace = app.Namespace,
                 };
                 applicationsDetails.Add(applicationDetails);
