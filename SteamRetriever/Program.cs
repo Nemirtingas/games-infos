@@ -105,6 +105,9 @@ class GameCloudSaveConfigurationModel
     [JsonProperty("Path")]
     public string Path { get; set; }
 
+    [JsonProperty("Recursive")]
+    public bool Recursive { get; set; }
+
     [JsonProperty("Pattern")]
     public string Pattern { get; set; }
 
@@ -1251,6 +1254,18 @@ class Program
                     Pattern = savefile["pattern"].Value,
                     Path = savefile["path"].Value,
                 };
+
+                if (!string.IsNullOrWhiteSpace(savefile["recursive"].Value))
+                {
+                    if (long.TryParse(savefile["recursive"].Value, out var lResult))
+                    {
+                        cloudSaveConfiguration.Recursive = lResult != 0;
+                    }
+                    else if (bool.TryParse(savefile["recursive"].Value, out var bResult))
+                    {
+                        cloudSaveConfiguration.Recursive = bResult;
+                    }
+                }
 
                 if (savefile["platforms"].Children.Count > 0)
                 {
