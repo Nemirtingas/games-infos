@@ -1654,143 +1654,145 @@ class Program
                 AccountSettingsStore.Instance.LoadFromFile("steam_retriever_cred.store");
                 ContentDownloader.Config.RememberPassword = Options.RememberPassword;
                 ContentDownloader.Config.LoginID = Options.LoginId;
-                if (Options.CacheOnly || await ContentDownloader.InitializeSteam3Async(Options.Username, Options.UserPassword))
+                ContentDownloader.Config.MaxDownloads = 50;
+                ContentDownloader.Config.InstallDirectory = Path.Combine(Options.CacheOutDirectory, "depots");
+                if (!Options.CacheOnly)
                 {
-                    ContentDownloader.Config.MaxDownloads = 50;
-                    ContentDownloader.Config.InstallDirectory = Path.Combine(Options.CacheOutDirectory, "depots");
-                    if (!Options.CacheOnly)
+                    if (!await ContentDownloader.InitializeSteam3Async(Options.Username, Options.UserPassword))
                     {
-                        IsAnonymous = ContentDownloader.Steam3.steamClient.SteamID.AccountType != EAccountType.Individual;
-                        WebSteamUser = WebAPI.GetInterface("ISteamUser", Options.WebApiKey);
+                        throw new Exception("Steam login failed!");
                     }
 
-                    await LoadMetadataDatabaseAsync();
-                    var applicationsMetadata = new Dictionary<uint, ApplicationMetadata>();
+                    IsAnonymous = ContentDownloader.Steam3.steamClient.SteamID.AccountType != EAccountType.Individual;
+                    WebSteamUser = WebAPI.GetInterface("ISteamUser", Options.WebApiKey);
+                }
 
-                    _logger.Info($"Got {MetadataDatabase.ApplicationDetails.Count} metadata application details");
+                await LoadMetadataDatabaseAsync();
+                var applicationsMetadata = new Dictionary<uint, ApplicationMetadata>();
 
-                    var changes = default(SteamApps.PICSChangesCallback);
-                    if (AppIds.Count == 0)
+                _logger.Info($"Got {MetadataDatabase.ApplicationDetails.Count} metadata application details");
+
+                var changes = default(SteamApps.PICSChangesCallback);
+                if (AppIds.Count == 0)
+                {
+                    if (!Options.CacheOnly)
+                    {
+                        changes = await ContentDownloader.Steam3.RequestAppDiffAsync((uint)MetadataDatabase.LastChangeNumber);
+                        foreach (var appId in changes.AppChanges.Select(e => e.Value.ID))
+                        {
+                            AppIds.Add(appId, null);
+                        }
+                    }
+                    else
+                    {
+                        foreach (var appId in MetadataDatabase.ApplicationDetails.Select(e => e.Key))
+                        {
+                            AppIds.Add((uint)appId, null);
+                        }
+                    }
+                }
+
+                var advancement = 0;
+
+                while (AppIds.Count > 0)
+                {
+                    var chunks = AppIds.Select(e => e.Key).Chunk(1000).ToArray();
+
+                    _logger.Info($"Got {AppIds.Count} AppIDs to check");
+                    foreach (var chunk in chunks)
                     {
                         if (!Options.CacheOnly)
                         {
-                            changes = await ContentDownloader.Steam3.RequestAppDiffAsync((uint)MetadataDatabase.LastChangeNumber);
-                            foreach (var appId in changes.AppChanges.Select(e => e.Value.ID))
+                            await ContentDownloader.Steam3.RequestAppsInfoAsync(chunk, false);
+                            foreach (var appid in chunk)
                             {
-                                AppIds.Add(appId, null);
+                                if (ContentDownloader.Steam3.AppInfo.ContainsKey(appid) && ContentDownloader.Steam3.AppInfo[appid]?.KeyValues != null)
+                                {
+                                    AppIds[appid] = ContentDownloader.Steam3.AppInfo[appid]?.KeyValues;
+                                    applicationsMetadata[appid] = ApplicationMetadataFromPICS(ContentDownloader.Steam3.AppInfo[appid]);
+                                }
                             }
                         }
                         else
                         {
-                            foreach (var appId in MetadataDatabase.ApplicationDetails.Select(e => e.Key))
+                            foreach (var appid in chunk)
                             {
-                                AppIds.Add((uint)appId, null);
+                                try
+                                {
+                                    using (FileStream fs = new FileStream(Path.Combine(Options.CacheOutDirectory, $"{appid}", "app_infos.vdf"), FileMode.Open))
+                                    {
+                                        KeyValue appinfos = new KeyValue();
+                                        if (appinfos.ReadAsText(fs))
+                                        {
+                                            // No need to lock on read-only
+                                            if (MetadataDatabase.ApplicationDetails?.TryGetValue(appid, out var metadata) != true)
+                                                metadata = null;
+
+                                            AppIds[appid] = appinfos;
+                                            applicationsMetadata[appid] = ApplicationMetadataFromPICSKeyValue(appid, appinfos, metadata?.ChangeNumber ?? 0);
+                                        }
+                                    }
+                                }
+                                catch (Exception)
+                                { }
                             }
                         }
-                    }
 
-                    var advancement = 0;
-
-                    while (AppIds.Count > 0)
-                    {
-                        var chunks = AppIds.Select(e => e.Key).Chunk(1000).ToArray();
-
-                        _logger.Info($"Got {AppIds.Count} AppIDs to check");
-                        foreach (var chunk in chunks)
+                        foreach (var appid in chunk)
                         {
-                            if (!Options.CacheOnly)
+                            if (AppIds.TryGetValue(appid, out var appIdKeyValue) && applicationsMetadata.TryGetValue(appid, out var metadata))
                             {
-                                await ContentDownloader.Steam3.RequestAppsInfoAsync(chunk, false);
-                                foreach (var appid in chunk)
+                                while (true)
                                 {
-                                    if (ContentDownloader.Steam3.AppInfo.ContainsKey(appid) && ContentDownloader.Steam3.AppInfo[appid]?.KeyValues != null)
+                                    try
                                     {
-                                        AppIds[appid] = ContentDownloader.Steam3.AppInfo[appid]?.KeyValues;
-                                        applicationsMetadata[appid] = ApplicationMetadataFromPICS(ContentDownloader.Steam3.AppInfo[appid]);
+                                        await GetAppDetailsFromSteamNetwork(appid, appIdKeyValue, metadata);
+
+                                        if (!Options.CacheOnly)
+                                            ContentDownloader.Steam3.AppInfo.Remove(appid);
+
+                                        break;
+                                    }
+                                    catch (TaskCanceledException e)
+                                    {
+                                        _logger.Error($"Failed to handle app {appid}: {e.Message}", e);
+                                        int i;
+                                        for (i = 0; i < 5; ++i)
+                                        {
+                                            if (await RestartSteamConnectionAsync())
+                                                break;
+
+                                            _logger.Info("Failed to restart steam connection, waiting 5s...");
+                                            await Task.Delay(TimeSpan.FromSeconds(5));
+                                        }
+                                        if (i == 5)
+                                            throw;
                                     }
                                 }
                             }
                             else
                             {
-                                foreach (var appid in chunk)
-                                {
-                                    try
-                                    {
-                                        using (FileStream fs = new FileStream(Path.Combine(Options.CacheOutDirectory, $"{appid}", "app_infos.vdf"), FileMode.Open))
-                                        {
-                                            KeyValue appinfos = new KeyValue();
-                                            if (appinfos.ReadAsText(fs))
-                                            {
-                                                // No need to lock on read-only
-                                                if (MetadataDatabase.ApplicationDetails?.TryGetValue(appid, out var metadata) != true)
-                                                    metadata = null;
-
-                                                AppIds[appid] = appinfos;
-                                                applicationsMetadata[appid] = ApplicationMetadataFromPICSKeyValue(appid, appinfos, metadata?.ChangeNumber ?? 0);
-                                            }
-                                        }
-                                    }
-                                    catch (Exception)
-                                    { }
-                                }
+                                _logger.Info($"Skipped {appid}: missing keyValue and/or metadata...");
                             }
 
-                            foreach (var appid in chunk)
+                            AppIds.Remove(appid);
+                            DoneAppIds.Add(appid);
+
+                            var newAdvancement = (int)((DoneAppIds.Count * 100.0) / (DoneAppIds.Count + AppIds.Count));
+                            if (newAdvancement > advancement)
                             {
-                                if (AppIds.TryGetValue(appid, out var appIdKeyValue) && applicationsMetadata.TryGetValue(appid, out var metadata))
-                                {
-                                    while (true)
-                                    {
-                                        try
-                                        {
-                                            await GetAppDetailsFromSteamNetwork(appid, appIdKeyValue, metadata);
-
-                                            if (!Options.CacheOnly)
-                                                ContentDownloader.Steam3.AppInfo.Remove(appid);
-
-                                            break;
-                                        }
-                                        catch (TaskCanceledException e)
-                                        {
-                                            _logger.Error($"Failed to handle app {appid}: {e.Message}", e);
-                                            int i;
-                                            for (i = 0; i < 5; ++i)
-                                            {
-                                                if (await RestartSteamConnectionAsync())
-                                                    break;
-
-                                                _logger.Info("Failed to restart steam connection, waiting 5s...");
-                                                await Task.Delay(TimeSpan.FromSeconds(5));
-                                            }
-                                            if (i == 5)
-                                                throw;
-                                        }
-                                    }
-                                }
-                                else
-                                {
-                                    _logger.Info($"Skipped {appid}: missing keyValue and/or metadata...");
-                                }
-
-                                AppIds.Remove(appid);
-                                DoneAppIds.Add(appid);
-
-                                var newAdvancement = (int)((DoneAppIds.Count * 100.0) / (DoneAppIds.Count + AppIds.Count));
-                                if (newAdvancement > advancement)
-                                {
-                                    advancement = newAdvancement;
-                                    _logger.Info($"{DoneAppIds.Count}/{DoneAppIds.Count + AppIds.Count} ({advancement}%) done");
-                                    await SaveMetadataDatabaseAsync();
-                                }
+                                advancement = newAdvancement;
+                                _logger.Info($"{DoneAppIds.Count}/{DoneAppIds.Count + AppIds.Count} ({advancement}%) done");
+                                await SaveMetadataDatabaseAsync();
                             }
                         }
                     }
+                }
 
-                    if (changes != null)
-                    {
-                        MetadataDatabase.LastChangeNumber = changes.CurrentChangeNumber;
-                        await SaveMetadataDatabaseAsync();
-                    }
+                if (changes != null)
+                {
+                    MetadataDatabase.LastChangeNumber = changes.CurrentChangeNumber;
+                    await SaveMetadataDatabaseAsync();
                 }
             }
         }
