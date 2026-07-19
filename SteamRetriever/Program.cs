@@ -1250,7 +1250,7 @@ class Program
 
                 var cloudSaveConfiguration = new GameCloudSaveConfigurationModel
                 {
-                    Root = Enum.Parse<GameCloudSaveRoot>(savefile["root"].Value, true),
+                    Root = Enum.Parse<GameCloudSaveRoot>(savefile["root"].Value.Trim(), true),
                     Pattern = savefile["pattern"].Value,
                     Path = savefile["path"].Value,
                 };
@@ -1272,7 +1272,7 @@ class Program
                     cloudSaveConfiguration.Platforms = new();
                     foreach (var platform in savefile["platforms"].Children)
                     {
-                        cloudSaveConfiguration.Platforms.Add(platform.Value.ToLower());
+                        cloudSaveConfiguration.Platforms.Add(platform.Value.Trim().ToLower());
                     }
                 }
 
@@ -1288,8 +1288,8 @@ class Program
                 var cloudSaveOverride = new GameCloudSaveRootOverrideModel
                 {
                     Root = Enum.Parse<GameCloudSaveRoot>(rootoverride["root"].Value, true),
-                    OSCompare = rootoverride["oscompare"].Value.ToLower(),
-                    OS = rootoverride["os"].Value.ToLower(),
+                    OSCompare = rootoverride["oscompare"].Value.Trim().ToLower(),
+                    OS = rootoverride["os"].Value.Trim().ToLower(),
                     UseInstead = Enum.Parse<GameCloudSaveRoot>(rootoverride["useinstead"].Value, true),
                 };
 
