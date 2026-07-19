@@ -1131,7 +1131,7 @@ class Program
 
                     if (!Options.CacheOnly && Options.DownloadControllerConfigurations)
                     {
-                        var file_details = await ContentDownloader.Steam3.GetPublishedFileDetails(null, ulong.Parse(published_id));
+                        var file_details = await ContentDownloader.Steam3.GetPublishedFileDetails(null, new PublishedFileID(ulong.Parse(published_id)));
                         if (!string.IsNullOrWhiteSpace(file_details.filename) && !string.IsNullOrWhiteSpace(file_details.file_url))
                         {
                             CancellationTokenSource cts = new CancellationTokenSource();
