@@ -78,6 +78,74 @@ class GameInfoControllerModel
     public string Type { get; set; }
 }
 
+// See: https://partner.steamgames.com/doc/features/cloud
+enum GameCloudSaveRoot
+{
+    GameInstall, // gameinstall
+    SteamCloudDocuments, // SteamCloudDocuments
+    WinMyDocuments, // WinMyDocuments
+    WinAppDataLocal, // WinAppDataLocal
+    WinAppDataLocalLow, // WinAppDataLocalLow
+    WinAppDataRoaming, // WinAppDataRoaming
+    WinSavedGames, // WinSavedGames
+    MacHome, // MacHome
+    MacAppSupport, // MacAppSupport
+    MacDocuments, // MacDocuments
+    LinuxHome, // LinuxHome
+    LinuxXdgConfigHome, // LinuxXdgConfigHome
+}
+
+class GameCloudSaveConfigurationModel
+{
+    [JsonProperty("Root")]
+    [JsonConverter(typeof(StringEnumConverter))]
+    public GameCloudSaveRoot Root { get; set; }
+
+    [JsonProperty("Path")]
+    public string Path { get; set; }
+
+    [JsonProperty("Pattern")]
+    public string Pattern { get; set; }
+
+    [JsonProperty("Platforms")]
+    public List<string> Platforms { get; set; }
+}
+
+class GameCloudSaveRootOverridePathTransformModel
+{
+    [JsonProperty("Find")]
+    public string Find { get; set; }
+
+    [JsonProperty("Replace")]
+    public string Replace { get; set; }
+}
+
+class GameCloudSaveRootOverrideModel
+{
+    [JsonProperty("Root")]
+    [JsonConverter(typeof(StringEnumConverter))]
+    public GameCloudSaveRoot Root { get; set; }
+
+    [JsonProperty("OS")]
+    public string OS { get; set; }
+
+    [JsonProperty("OSCompare")]
+    public string OSCompare { get; set; }
+
+    [JsonProperty("UseInstead")]
+    [JsonConverter(typeof(StringEnumConverter))]
+    public GameCloudSaveRoot UseInstead { get; set; }
+
+    [JsonProperty("AddPath")]
+    public string AddPath { get; set; }
+
+    [JsonProperty("Platforms")]
+    public List<string> Platforms { get; set; }
+
+    [JsonProperty("PathTransforms")]
+    public List<GameCloudSaveRootOverridePathTransformModel> PathTransforms { get; set; }
+}
+
 class GameInfoApplicationModel
 {
     [JsonProperty("Name")]
@@ -103,6 +171,12 @@ class GameInfoApplicationModel
 
     [JsonProperty("Dlcs")]
     public Dictionary<uint, GameInfoApplicationModel> Dlcs { get; set; }
+
+    [JsonProperty("CloudSaves")]
+    public List<GameCloudSaveConfigurationModel> CloudSaves { get; set; }
+
+    [JsonProperty("CloudSaveRootOverrides")]
+    public List<GameCloudSaveRootOverrideModel> CloudSaveRootOverrides { get; set; }
 }
 
 class Program
@@ -1092,91 +1166,175 @@ class Program
         return true;
     }
 
-    async Task<bool> ParseGameDetails(GameInfoApplicationModel infos, uint appid, KeyValue app)
+    void ParseSupportedLanguages(GameInfoApplicationModel infos, KeyValue supportedLanguagesKeyValues)
     {
-        string str_appid = appid.ToString();
+        infos.Languages = new List<string>();
+        foreach (var language in supportedLanguagesKeyValues.Children)
+        {
+            try
+            {
+                bool b;
+                int i;
+                if ((bool.TryParse(language["supported"].AsString(), out b) && b) || (int.TryParse(language["supported"].AsString(), out i) && i != 0))
+                {
+                    infos.Languages.Add(language.Name.Trim().ToLower());
+                }
+            }
+            catch (Exception)
+            { }
+        }
+    }
+
+    async Task ParseControllerConfigurationsAsync(GameInfoApplicationModel infos, uint appId, KeyValue controllerConfigurationsKeyValue)
+    {
+        var appIdString = appId.ToString();
+        infos.ControllerConfigurations = new();
+        foreach (var controller_config in controllerConfigurationsKeyValue.Children)
+        {
+            string published_id = "0";
+            try
+            {
+                published_id = controller_config.Name.Trim();
+
+                infos.ControllerConfigurations.Add(ulong.Parse(published_id), new GameInfoControllerModel
+                {
+                    Type = controller_config["controller_type"].Value.Trim().ToLower()
+                });
+
+                if (!Options.CacheOnly && Options.DownloadControllerConfigurations)
+                {
+                    var file_details = await ContentDownloader.Steam3.GetPublishedFileDetails(null, new PublishedFileID(ulong.Parse(published_id)));
+                    if (!string.IsNullOrWhiteSpace(file_details.filename) && !string.IsNullOrWhiteSpace(file_details.file_url))
+                    {
+                        CancellationTokenSource cts = new CancellationTokenSource();
+
+                        string controller_path = Path.Combine(Options.CacheOutDirectory, appIdString, file_details.filename);
+                        _logger.Info($"  + Saved controller file {controller_path}");
+
+                        await SaveFileAsync(
+                            controller_path,
+                            await (await WebHttpClient.SendAsync(new HttpRequestMessage(HttpMethod.Get, file_details.file_url), HttpCompletionOption.ResponseContentRead, cts.Token)).Content.ReadAsStringAsync()
+                        );
+                    }
+                    else if (file_details.hcontent_file != 0)
+                    {// TODO: Try something else.
+                        await ContentDownloader.DownloadAppAsync(new(), file_details.consumer_appid, new List<(uint depotId, ulong manifestId)> { new(file_details.consumer_appid, file_details.hcontent_file) }, "public", null, null, null, false, true);
+                        if (ContentDownloader.UGCFilesDownloaded.ContainsKey(file_details.hcontent_file))
+                        {
+                            var f = ContentDownloader.UGCFilesDownloaded[file_details.hcontent_file];
+                            File.Move(f.Path, Path.Combine(Options.CacheOutDirectory, appIdString, $"{published_id}_{f.FileName}"));
+                        }
+                    }
+                }
+            }
+            catch (Exception e)
+            {
+                _logger.Error($"Failed to download controller config {published_id}: {e.Message}");
+            }
+        }
+    }
+
+    void ParseUFS(GameInfoApplicationModel infos, KeyValue ufsKeyValue)
+    {
+        if (ufsKeyValue["savefiles"].Children.Count > 0)
+        {
+            infos.CloudSaves = new();
+            foreach (var savefile in ufsKeyValue["savefiles"].Children)
+            {
+                var cloudSaveConfiguration = new GameCloudSaveConfigurationModel
+                {
+                    Root = Enum.Parse<GameCloudSaveRoot>(savefile["root"].Value, true),
+                    Pattern = savefile["pattern"].Value,
+                    Path = savefile["path"].Value,
+                };
+
+                if (savefile["platforms"].Children.Count > 0)
+                {
+                    cloudSaveConfiguration.Platforms = new();
+                    foreach (var platform in savefile["platforms"].Children)
+                    {
+                        cloudSaveConfiguration.Platforms.Add(platform.Value.ToLower());
+                    }
+                }
+
+                infos.CloudSaves.Add(cloudSaveConfiguration);
+            }
+        }
+
+        if (ufsKeyValue["rootoverrides"].Children.Count > 0)
+        {
+            infos.CloudSaveRootOverrides = new();
+            foreach (var rootoverride in ufsKeyValue["rootoverrides"].Children)
+            {
+                var cloudSaveOverride = new GameCloudSaveRootOverrideModel
+                {
+                    Root = Enum.Parse<GameCloudSaveRoot>(rootoverride["root"].Value, true),
+                    OSCompare = rootoverride["oscompare"].Value.ToLower(),
+                    OS = rootoverride["os"].Value.ToLower(),
+                    UseInstead = Enum.Parse<GameCloudSaveRoot>(rootoverride["useinstead"].Value, true),
+                };
+
+                if (rootoverride["pathtransforms"].Children.Count > 0)
+                {
+                    if (cloudSaveOverride.PathTransforms == null)
+                        cloudSaveOverride.PathTransforms = new();
+
+                    foreach (var pathTransform in rootoverride["pathtransforms"].Children)
+                    {
+                        var cloudSavePathTransform = new GameCloudSaveRootOverridePathTransformModel
+                        {
+                            Find = pathTransform["find"].Value,
+                            Replace = pathTransform["replace"].Value,
+                        };
+
+                        cloudSaveOverride.PathTransforms.Add(cloudSavePathTransform);
+                    }
+                }
+
+                if (!string.IsNullOrWhiteSpace(rootoverride["addpath"].Value))
+                {
+                    cloudSaveOverride.AddPath = rootoverride["addpath"].Value;
+                }
+
+                infos.CloudSaveRootOverrides.Add(cloudSaveOverride);
+            }
+        }
+    }
+
+    async Task<bool> ParseGameDetails(GameInfoApplicationModel infos, uint appId, KeyValue app)
+    {
+        var appIdString = appId.ToString();
 
         if (app["common"]["supported_languages"].Children.Count > 0)
         {
-            infos.Languages = new List<string>();
-            foreach (var language in app["common"]["supported_languages"].Children)
-            {
-                try
-                {
-                    bool b;
-                    int i;
-                    if ((bool.TryParse(language["supported"].AsString(), out b) && b) || (int.TryParse(language["supported"].AsString(), out i) && i != 0))
-                    {
-                        infos.Languages.Add(language.Name.Trim().ToLower());
-                    }
-                }
-                catch (Exception)
-                { }
-            }
+            ParseSupportedLanguages(infos, app["common"]["supported_languages"]);
         }
 
         if (app["config"]["steamcontrollerconfigdetails"].Children.Count > 0)
         {
-            infos.ControllerConfigurations = new();
-            foreach (var controller_config in app["config"]["steamcontrollerconfigdetails"].Children)
-            {
-                string published_id = "0";
-                try
-                {
-                    published_id = controller_config.Name.Trim();
+            await ParseControllerConfigurationsAsync(infos, appId, app["config"]["steamcontrollerconfigdetails"]);
+        }
 
-                    infos.ControllerConfigurations.Add(ulong.Parse(published_id), new GameInfoControllerModel{
-                        Type = controller_config["controller_type"].Value.Trim().ToLower()
-                    });
-
-                    if (!Options.CacheOnly && Options.DownloadControllerConfigurations)
-                    {
-                        var file_details = await ContentDownloader.Steam3.GetPublishedFileDetails(null, new PublishedFileID(ulong.Parse(published_id)));
-                        if (!string.IsNullOrWhiteSpace(file_details.filename) && !string.IsNullOrWhiteSpace(file_details.file_url))
-                        {
-                            CancellationTokenSource cts = new CancellationTokenSource();
-
-                            string controller_path = Path.Combine(Options.CacheOutDirectory, str_appid, file_details.filename);
-                            _logger.Info($"  + Saved controller file {controller_path}");
-
-                            await SaveFileAsync(
-                                controller_path,
-                                await(await WebHttpClient.SendAsync(new HttpRequestMessage(HttpMethod.Get, file_details.file_url), HttpCompletionOption.ResponseContentRead, cts.Token)).Content.ReadAsStringAsync()
-                            );
-                        }
-                        else if(file_details.hcontent_file != 0)
-                        {// TODO: Try something else.
-                            await ContentDownloader.DownloadAppAsync(new(), file_details.consumer_appid, new List<(uint depotId, ulong manifestId)> { new(file_details.consumer_appid, file_details.hcontent_file) }, "public", null, null, null, false, true);
-                            if (ContentDownloader.UGCFilesDownloaded.ContainsKey(file_details.hcontent_file))
-                            {
-                                var f = ContentDownloader.UGCFilesDownloaded[file_details.hcontent_file];
-                                File.Move(f.Path, Path.Combine(Options.CacheOutDirectory, str_appid, $"{published_id}_{f.FileName}"));
-                            }
-                        }
-                    }
-                }
-                catch (Exception e)
-                {
-                    _logger.Error($"Failed to download controller config {published_id}: {e.Message}");
-                }
-            }
+        if (app["ufs"].Children.Count > 0)
+        {
+            ParseUFS(infos, app["ufs"]);
         }
 
         if (!Options.CacheOnly && !Options.ExcludeDlcs)
         {
-            List<uint> dlc_list = new List<uint>();
+            var dlcList = new List<uint>();
 
             try
             {
-                JObject app_json = await GetWebAppDetails(appid.ToString());
-                app_json = (JObject)app_json[appid.ToString()];
-                if ((bool)app_json["success"])
+                var appJson = await GetWebAppDetails(appId.ToString());
+                appJson = (JObject)appJson[appId.ToString()];
+                if ((bool)appJson["success"])
                 {
-                    if (((JObject)app_json["data"]).ContainsKey("dlc"))
+                    if (((JObject)appJson["data"]).ContainsKey("dlc"))
                     {
-                        foreach (string dlcid in (JArray)app_json["data"]["dlc"])
+                        foreach (string dlcid in (JArray)appJson["data"]["dlc"])
                         {
-                            dlc_list.Add(uint.Parse(dlcid));
+                            dlcList.Add(uint.Parse(dlcid));
                         }
                     }
                 }
@@ -1189,14 +1347,14 @@ class Program
                 foreach (string str_dlc_id in app["extended"]["listofdlc"].Value.Split(","))
                 {
                     uint dlc_id = uint.Parse(str_dlc_id);
-                    if (!dlc_list.Contains(dlc_id))
+                    if (!dlcList.Contains(dlc_id))
                     {
-                        dlc_list.Add(dlc_id);
+                        dlcList.Add(dlc_id);
                     }
                 }
             }
 
-            foreach (uint dlc_id in dlc_list)
+            foreach (uint dlc_id in dlcList)
             {
                 if (!AppIds.ContainsKey(dlc_id) && !DoneAppIds.Contains(dlc_id))
                 {
@@ -1217,12 +1375,12 @@ class Program
         if (!Options.CacheOnly)
         {
             var results = await Task.WhenAll([
-                GenerateItemsFromSteamNetwork(appid),
-                GenerateAchievementsFromSteamNetwork(appid)]);
+                GenerateItemsFromSteamNetwork(appId),
+                GenerateAchievementsFromSteamNetwork(appId)]);
 
             if (!results[1])
             {
-                await GenerateAchievementsFromWebAPI(appid);
+                await GenerateAchievementsFromWebAPI(appId);
             }
         }
         else
@@ -1230,8 +1388,8 @@ class Program
             try
             {
                 File.Copy(
-                    Path.Combine(Options.CacheOutDirectory, appid.ToString(), "inventory_db.json"),
-                    Path.Combine(Options.OutDirectory, appid.ToString(), "inventory_db.json")
+                    Path.Combine(Options.CacheOutDirectory, appId.ToString(), "inventory_db.json"),
+                    Path.Combine(Options.OutDirectory, appId.ToString(), "inventory_db.json")
                 );
             }
             catch (Exception)
@@ -1239,14 +1397,14 @@ class Program
 
             try
             {
-                KeyValue schema = new KeyValue();
+                var schema = new KeyValue();
 
-                using (FileStream fs = new FileStream(Path.Combine(Options.CacheOutDirectory, $"{appid}", "stats_schema.vdf"), FileMode.Open))
+                using (FileStream fs = new FileStream(Path.Combine(Options.CacheOutDirectory, $"{appId}", "stats_schema.vdf"), FileMode.Open))
                 {
                     schema.ReadAsText(fs);
                 }
 
-                await GenerateAchievementsFromKeyValue(schema, appid);
+                await GenerateAchievementsFromKeyValue(schema, appId);
             }
             catch (Exception)
             { }
