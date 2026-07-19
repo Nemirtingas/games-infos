@@ -1242,6 +1242,9 @@ class Program
             infos.CloudSaves = new();
             foreach (var savefile in ufsKeyValue["savefiles"].Children)
             {
+                if (savefile == KeyValue.Invalid || savefile["root"] == KeyValue.Invalid || string.IsNullOrWhiteSpace(savefile["root"].Value))
+                    continue;
+
                 var cloudSaveConfiguration = new GameCloudSaveConfigurationModel
                 {
                     Root = Enum.Parse<GameCloudSaveRoot>(savefile["root"].Value, true),
