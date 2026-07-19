@@ -83,6 +83,7 @@ enum GameCloudSaveRoot
 {
     GameInstall, // gameinstall
     SteamCloudDocuments, // SteamCloudDocuments
+    WindowsHome, // WindowsHome
     WinMyDocuments, // WinMyDocuments
     WinAppDataLocal, // WinAppDataLocal
     WinAppDataLocalLow, // WinAppDataLocalLow
