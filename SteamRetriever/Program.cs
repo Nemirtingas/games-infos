@@ -93,6 +93,7 @@ enum GameCloudSaveRoot
     MacDocuments, // MacDocuments
     LinuxHome, // LinuxHome
     LinuxXdgConfigHome, // LinuxXdgConfigHome
+    LinuxXdgDataHome, // LinuxXdgDataHome
 }
 
 class GameCloudSaveConfigurationModel
