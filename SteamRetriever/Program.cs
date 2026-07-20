@@ -95,6 +95,7 @@ enum GameCloudSaveRoot
     LinuxHome, // LinuxHome
     LinuxXdgConfigHome, // LinuxXdgConfigHome
     LinuxXdgDataHome, // LinuxXdgDataHome
+    AndroidExternalData, // AndroidExternalData
 }
 
 class GameCloudSaveConfigurationModel
