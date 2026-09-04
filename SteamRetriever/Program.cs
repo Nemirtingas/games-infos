@@ -1093,27 +1093,33 @@ class Program
 
     GameInfoApplicationModel GetOrCreateApp(uint appid, AppType appType)
     {
-        if (!GamesInfos.ContainsKey(appid))
+        if (!GamesInfos.TryGetValue(appid, out var app) || app == null)
         {
             string infos_file = Path.Combine(Options.OutDirectory, $"{appid}", $"{appid}.json");
             try
             {
                 using (StreamReader reader = new StreamReader(new FileStream(infos_file, FileMode.Open), new UTF8Encoding(false)))
                 {
-                    GamesInfos.Add(appid, JsonConvert.DeserializeObject<GameInfoApplicationModel>(reader.ReadToEnd()));
+                    app = JsonConvert.DeserializeObject<GameInfoApplicationModel>(reader.ReadToEnd()) ?? new()
+                    {
+                        AppId = appid,
+                        Type = appType,
+                    };
+
                 }
             }
             catch (Exception)
             {
-                GamesInfos.Add(appid, new()
+                app = new()
                 {
                     AppId = appid,
                     Type = appType,
-                });
+                };
             }
+
+            GamesInfos[appid] = app;
         }
 
-        var app = GamesInfos[appid];
         if (appType != AppType.Dlc && app.Dlcs == null)
             app.Dlcs = new();
 
