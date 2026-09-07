@@ -8,7 +8,6 @@ using SteamKit2;
 using SteamRetriever.Models;
 using System;
 using System.Collections.Generic;
-using System.Globalization;
 using System.IO;
 using System.Linq;
 using System.Net;
@@ -235,6 +234,41 @@ class Program
         }
 
         return await http_client.SendAsync(http_request, HttpCompletionOption.ResponseContentRead, cts.Token);
+    }
+
+    async Task<string> FindAchievementBaseUrlAsync(uint appId, string iconPath)
+    {
+        if (string.IsNullOrWhiteSpace(iconPath))
+            return null;
+
+        string[] baseUrls =
+        {
+            "https://shared.fastly.steamstatic.com/community_assets/images/apps/{0}/{1}",
+            "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/{0}/{1}"
+        };
+
+        using var httpClient = new HttpClient();
+
+        foreach (var baseUrl in baseUrls)
+        {
+            var url = string.Format(baseUrl, appId, iconPath);
+
+            try
+            {
+                using var response = await httpClient.SendAsync(
+                    new HttpRequestMessage(HttpMethod.Head, url)
+                );
+
+                if (response.StatusCode == HttpStatusCode.OK)
+                    return baseUrl;
+            }
+            catch (HttpRequestException)
+            {
+            }
+        }
+
+        await NotifyAsync($"{appId} icon {iconPath} not found on Steam servers.");
+        return null;
     }
 
     async Task DownloadAchievementIcon(string appid, string ach_name, Uri url)
@@ -694,6 +728,8 @@ class Program
 
         var str_appid = appid.ToString();
 
+        var baseIconUrl = string.Empty;
+
         foreach (KeyValue statsObject in schema["stats"].Children)
         {
             if (IsStatObjectAnAchievement(statsObject))
@@ -705,12 +741,17 @@ class Program
 
                         KeyValue display_object = achievement_definition["display"];
 
+                        if (string.IsNullOrWhiteSpace(baseIconUrl))
+                        {
+                            baseIconUrl = await FindAchievementBaseUrlAsync(appid, display_object["icon"].AsString());
+                        }
+
                         var achievementModel = new AchievementModel
                         {
                             Name = achievement_definition["name"].Value,
                             Hidden = IsAchievementHidden(display_object),
-                            Icon = $"https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/{appid}/{display_object["icon"].AsString()}",
-                            IconGray = $"https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/{appid}/{display_object["icon_gray"].AsString()}",
+                            Icon = string.Format(baseIconUrl, appid, display_object["icon"].AsString()),
+                            IconGray = string.Format(baseIconUrl, appid, display_object["icon_gray"].AsString()),
                             DisplayName = BuildAchievementLocalizedNames(display_object),
                             Description = BuildAchievementLocalizedDescription(display_object),
                         };
